@@ -1,235 +1,1319 @@
-% =============================================================================
-% NOTICE CODICOLOGIQUE, STEMMATIQUE ET PALÉOGRAPHIQUE SUR LE CODEX RAVENNAS 429
-% Pour l'édition critique d'Aristophane, Les Thesmophories (Louis Hauseux, « Bibi »)
-% Folios 162v à 177r (Classense 164v à 179r) — Vers 1 à 1231
-% =============================================================================
+%% ============================================================================
+%% Notice_Ravennas_Codicologie_et_Paleographie.tex
+%% Notice codicologique, stemmatique et paléographique complète sur le
+%% Codex Ravennas 429 (olim 137, 4, A) pour Les Thesmophories d'Aristophane
+%% (ff. 162v–177r, vv. 1–1231), établie conformément à l'édition critique et
+%% commentée de Louis Hauseux (sigle d'apparat : Bibi).
+%% Compilable directement avec XeLaTeX (même préambule et mêmes macros que
+%% Aristophane-Thesmo Introduction.tex et Aristophane-Thesmo Harmattan 2023).
+%% ============================================================================
+\documentclass{book}
 
-\section*{Le \emph{Codex Ravennas 429 (olim 137, 4, A)} : codicologie, paléographie et établissement du texte des \emph{Thesmophories}}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{polyglossia}
+\setdefaultlanguage{french}
 
-\subsection*{1. Fiche codicologique, origine constantinopolitaine et histoire du manuscrit ($\mathbf{R}$)}
+\setmainfont[
+  Mapping=tex-text,
+  Ligatures=Common,
+   SmallCapsFont={TeX Gyre Termes},
+  SmallCapsFeatures={Letters=SmallCaps}
+]{FreeSerif}
 
-Le \textbf{\emph{Codex Ravennas 429}} (ancienne cote camaldule : \textbf{\emph{137, 4, A}}), conservé à Ravenne à l'\emph{Istituzione Biblioteca Classense}, est le plus ancien et le plus complet de tous les manuscrits médiévaux d'Aristophane, et le \textbf{seul témoin médiéval indépendant (\emph{codex unicus})} des \emph{Thesmophories}.
+\usepackage[a4paper]{geometry}
+\geometry{left=2.5cm, right=2.5cm, top=2.8cm, bottom=2.8cm}
 
-\begin{itemize}
-  \item \textbf{Date et origine :} Copié à \textbf{Constantinople vers le milieu du X\textsuperscript{e} siècle} (ca. 950 apr. J.-C.), sous le règne de Constantin~VII Porphyrogénète, dans l'atelier ou l'entourage immédiat du célèbre moine et calligraphe \textbf{Éphrem} (\foreignlanguage{greek}{Ἐφραίμ μοναχός}), à qui l'on doit notamment le \emph{Venetus A} de l'\emph{Iliade} (\emph{Marcianus gr.~454}), l'Aristote \emph{Marcianus gr.~201} (954) et le \emph{Vaticanus gr.~124} de Polybe (947). L'écriture de la première main ($\text{R}^1$) et celle du réviseur-scholiaste ($\text{R}^2$) présentent une parenté jumelle avec celles du célèbre \emph{Laurentianus Plut.~32.9} (Sophocle, Eschyle, Apollonios de Rhodes).
-  \item \textbf{Description matérielle et double foliotation :} Codex de parchemin de \textbf{191~folios} (numérotés de \texttt{1} à \texttt{191} dans le fac-similé phototypique de J.~van~Leeuwen, 1904, mais de \texttt{3} à \texttt{193} au crayon dans l'angle supérieur droit par la Biblioteca Classense, qui inclut deux feuillets de garde initiaux : $\text{folio van Leeuwen} + 2 = \text{folio Classense}$). Dimensions : env. $322 \times 210\text{ mm}$ (justification de la colonne poétique : env. $225 \times 110\text{ mm}$), composé de quaternions réguliers réglés à la pointe sèche. Le texte poétique est disposé sur une seule colonne à raison de \textbf{38 à 45 lignes par page} (généralement 42 ou 43 lignes dans les \emph{Thesmophories}), entouré sur trois côtés d'un cadre destiné aux scholies ($\Sigma^{\text{R}}$).
-  \item \textbf{Contenu :} Seul manuscrit médiéval à réunir les \textbf{onze comédies conservées} d'Aristophane (\emph{Ploutos}, \emph{Nuées}, \emph{Grenouilles}, \emph{Oiseaux}, \emph{Cavaliers}, \emph{Paix}, \emph{Lysistrata}, \emph{Acharniens}, \emph{Guêpes}, \emph{Thesmophories}, \emph{Assemblée des femmes}). \textbf{Les \emph{Thesmophories} occupent les folios \texttt{162v} à \texttt{177r} (Classense \texttt{164v} à \texttt{179r}), soit exactement 30 pages (15 planches doubles, vues IIIF \texttt{166} à \texttt{180}) pour 1231 vers.}
-  \item \textbf{Histoire moderne, apographe $\mathbf{M}$ et édition Juntine (1516) :} Conservé à la bibliothèque ducale d'Urbino, puis transporté à Pise au monastère camaldule de San Michele in Borgo en 1515 par Antonio Surian, il est copié en Italie pour donner naissance au \textbf{\emph{Monacensis gr.~492}} ($\mathbf{M}$, \texttt{\textbackslash Mon}, jadis \emph{Augustanus}, noté $\text{G}$ par von Velsen). Cet apographe $\text{M}$ sert à l'humaniste florentin \textbf{Eufrosino Bonini} (\emph{Euphrosynus Boninus}) pour l'\emph{editio princeps} de \emph{Lysistrata} et des \emph{Thesmophories} publiée à Florence chez Bernardo Giunta le 28 janvier 1516 (ces deux comédies ayant fait défaut à l'Aldine de Marcus Musurus en 1498). Racheté en Toscane en 1712 par l'abbé camaldule \textbf{Pietro Canneti} pour le monastère de Classe à Ravenne (cote \texttt{137, 4, A}), le manuscrit est publié par Filippo Invernizi (1794), minutieusement collationné par Adolf von Velsen (1871, 1883) et pour les scholies par Albert Martin (1882), avant d'être reproduit en phototypie par Johannes van Leeuwen (1904).
-\end{itemize}
+\usepackage{amsmath,amssymb}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{hyperref}
 
-\subsection*{2. Témoins papyrologiques ($\mathbf{\Psi^1}$ à $\mathbf{\Psi^5}$), tradition indirecte et «~Dossier Mnésiloque~»}
+%% --- Macros typographiques et critiques de l'édition Louis Hauseux (Bibi) ---
+\providecommand{\italique}[1]{\textit{#1}}
+\providecommand{\latin}[1]{\textit{#1}}
+\providecommand{\allemand}[1]{\textit{#1}}
+\providecommand{\anglais}[1]{\textit{#1}}
+\providecommand{\grec}[1]{#1}
+\providecommand{\lecon}[1]{\textbf{#1}}
+\providecommand{\expo}[1]{\textsuperscript{#1}}
+\providecommand{\nieme}[1]{#1\textsuperscript{e}}
+\providecommand{\iere}{\textsuperscript{re}}
+\providecommand{\ier}{\textsuperscript{er}}
+\providecommand{\ieme}{\textsuperscript{e}}
+\providecommand{\cad}{c'est-à-dire}
 
-\subsubsection*{A. Les cinq papyri antiques confrontés à $\mathbf{R}$}
-Conformément au \emph{Conspectus siglorum} de l'édition (\texttt{Aristophane-Thesmo Introduction.tex}, ll.~371--380), cinq témoins papyrologiques permettent de contrôler le texte de $\text{R}$ :
-\begin{enumerate}
-  \item \textbf{$\mathbf{\Psi^1}$ (\texttt{\textbackslash PsiUn}, \emph{PSI}~XI~1194 + XIV p.~XV, II\textsuperscript{e}~s.) :} couvre les \textbf{vv.~133--144, 145--156, 237--245, 273--288, 594--596, 804--809, 1231} (\texttt{ff.~164r, 165r, 165v, 169v, 172r, 177r}). Il confirme au v.~141 \foreignlanguage{greek}{σύ τ'} (avec $\Sigma$) contre \foreignlanguage{greek}{τίς δ'} de $\text{R}$ ; restitue au v.~242 \foreignlanguage{greek}{[ἓ]τερον} (Medaglia) omis par $\text{R}$ ; atteste après le v.~276 la \emph{parepigraphè} \foreignlanguage{greek}{ολολυ[} ; donne au v.~285 le pluriel \foreignlanguage{greek}{τὰ πόπαν'} (conjecturé par Porson) contre \foreignlanguage{greek}{τὸ πόπανον} de $\text{R}$ ; au v.~287 la forme attique \foreignlanguage{greek}{Φερρέφαττα} contre \foreignlanguage{greek}{Φερσέφαττα} de $\text{R}$ ; au v.~807 \foreignlanguage{greek}{Στρατονίκην} contre \foreignlanguage{greek}{στρατωνίκην} de $\text{R}$ ; et conserve après le v.~1231 la stichométrie alexandrine de \textbf{1201 vers}.
-  \item \textbf{$\mathbf{\Psi^2}$ (\texttt{\textbackslash PsiDeux}, \emph{P.Oxy.}~LVI~3839, éd. W.~E.~H.~Cockle, ca.~200) :} couvre les \textbf{vv.~742--766 (fr.~1) et 941--953 (fr.~2)} (\texttt{ff.~171r, 171v, 173v}). Il marque au v.~743 le changement d'interlocuteur avant \foreignlanguage{greek}{εἰπέ μοι} par un point haut et un blanc de deux lettres ; confirme au v.~745 la géminée \foreignlanguage{greek}{τυννοῦτον / τυννοῦτο} (contre \foreignlanguage{greek}{τυνοῦτον / τυνοῦτο} de $\text{R}$) et l'\textbf{absence de changement de personnage} avant \foreignlanguage{greek}{μικρὸν} (contre le sigle fautif \foreignlanguage{greek}{Γϋ.} de $\text{R}^2$) ; donne au v.~746 \foreignlanguage{greek}{γέγονε} et au v.~754 \foreignlanguage{greek}{δός τὸ σφαγεῖον} (sans le \foreignlanguage{greek}{μοι} parasite de $\text{R}$).
-  \item \textbf{$\mathbf{\Psi^3}$ (\texttt{\textbackslash PsiTrois}, \emph{P.Oxy.}~LVI~3840, éd. P.~J.~Parsons, IV\textsuperscript{e}~s.) :} couvre les \textbf{vv.~1185--1193} (\texttt{f.~176v}). Il confirme au v.~1185 le nominatif barbare \foreignlanguage{greek}{γογγυλί} (conjecturé par Enger contre \foreignlanguage{greek}{γογγύλῃ} de $\text{R}$), conserve après le v.~1187 sur une ligne distincte la \emph{parepigraphè} \foreignlanguage{greek}{μ]ενο[} (\foreignlanguage{greek}{[ἀπεψωλη]μένο[ς]}), et confirme au v.~1192 \foreignlanguage{greek}{μέλι} (avec $\text{M}$, contre \foreignlanguage{greek}{μέλις} de $\text{R}$).
-  \item \textbf{$\mathbf{\Psi^4}$ (\texttt{\textbackslash PsiQuatre}, \emph{P.Oxy.}~LXXIII~4935, éd. A.~Benaissa + LXXVIII~5132, éd. W.~B.~Henry, II\textsuperscript{e}~s.) :} couvre les \textbf{vv.~1043--1051 (fr.~1) et 1201--1210 (fr.~2)} (\texttt{ff.~174v, 175r, 176v}). Il confirme au v.~1047 \foreignlanguage{greek}{[ι]ω μοιρ[ας} sans le \foreignlanguage{greek}{μοι} dittographique de $\text{R}$ (confirmant Hermann) ; confirme au v.~1051 \foreignlanguage{greek}{βάρβαρον} de $\text{R}$ (défendu par Alphonse Willems et Louis Hauseux) ; et montre au v.~1208 un espace initial trop court pour \foreignlanguage{greek}{λέλυσον} ($\text{R}^{\text{ac}}$), appuyant \foreignlanguage{greek}{λέλυσο} de $\text{R}^{\text{pc}}$.
-  \item \textbf{$\mathbf{\Psi^5}$ (\texttt{\textbackslash PsiCinq}, \emph{P.Oxy.}~IX~1176, fr.~39 col.~XII, Satyrus, \emph{Vie d'Euripide}, II\textsuperscript{e}~s.) :} cite les \textbf{vv.~335--337} (\foreignlanguage{greek}{ευριπιδιωι[..]υτ} face à \foreignlanguage{greek}{Εὐριπίδῃ Μήδοις} de $\text{R}$) et \textbf{vv.~373--375} (donnant la variante \foreignlanguage{greek}{Ἀρ[χίκλ]ει'} suppl. Hunt face à \foreignlanguage{greek}{Τιμόκλει'} de $\text{R}$, $\Sigma^{\text{R}}$ et la Souda $\varepsilon~2616$).
-\end{enumerate}
+%% Sigles critiques des manuscrits et papyri
+\providecommand{\Rac}{R\expo{a.c.}}
+\providecommand{\Rpc}{R\expo{p.c.}}
+\providecommand{\Rdeux}{R\expo{2}}
+\providecommand{\Mon}{M}
+\providecommand{\PsiUn}{$\Psi^1$}
+\providecommand{\PsiDeux}{$\Psi^2$}
+\providecommand{\PsiTrois}{$\Psi^3$}
+\providecommand{\PsiQuatre}{$\Psi^4$}
+\providecommand{\PsiCinq}{$\Psi^5$}
+\providecommand{\Suidas}{Suidas}
+\providecommand{\Eustathe}{Eustathius}
+\providecommand{\LSJ}{\italique{Liddell-Scott-Jones}}
+\providecommand{\espApp}{\hspace{0.5em}|\hspace{0.5em}}
 
-\subsubsection*{B. «~Le dossier Mnésiloque~» : authenticité du nom \foreignlanguage{greek}{Μνησίλοχος} transmis par $\mathbf{R^2}$ (\texttt{f.~162v})}
-En tête du \texttt{f.~162v}, l'\emph{Hypothesis} et la liste des personnages copiées par $\text{R}^2$ nomment le beau-père d'Euripide \textbf{\foreignlanguage{greek}{Μνησίλοχος}}. Contre le scepticisme des éditeurs modernes qui lui substituent l'anonyme \foreignlanguage{greek}{Κηδεστής}, Louis Hauseux (\texttt{Introduction.tex}, ll.~325--357) démontre l'authenticité historique et dramatique de ce nom :
-\begin{enumerate}
-  \item La \emph{Vie d'Euripide} atteste que l'épouse du tragique, \textbf{Choirilè} (ou \textbf{Choirinè}), était fille de \textbf{Mnésiloque}, et que le deuxième fils d'Euripide portait le nom de \textbf{Mnésiloque} --- conformément à l'usage athénien constant (cf. Démosthène, 43.74) voulant que le cadet porte le nom de son grand-père maternel (comme l'aîné, Mnésarchidès, portait celui du père d'Euripide).
-  \item Au \textbf{v.~289 (\texttt{f.~165v})}, dans sa prière aux Deux Déesses pour ses enfants, là où $\text{R}$ porte \foreignlanguage{greek}{χοῖρον} et $\Sigma^{\text{R}}$ \foreignlanguage{greek}{χοιρίον}, \textbf{\texttt{Bibi} restitue le nom propre \foreignlanguage{greek}{Χοιρίλ'} (ou \foreignlanguage{greek}{Χοιρίν'})}, c'est-à-dire précisément Choirilè/Choirinè, fille de Mnésiloque et épouse d'Euripide, à qui son père souhaite malicieusement de trouver un mari riche et sot, tout le contraire de son gendre Euripide.
-\end{enumerate}
+%% Macros paléographiques : grattage (\inRas) et superposition (\auDessus)
+\providecommand{\inRas}[2]{[\!\![\text{#1}]\!\!]\text{#2}}
+\providecommand{\auDessus}[2]{$\overset{\text{#2}}{\text{#1}}$}
 
-\subsection*{3. Paléographie des trois mains ($\mathbf{R^1}$, $\mathbf{R^2}$ et Euphrosynus Boninus) et guide des abréviations}
+%% Titres de sections dans le style de l'Introduction et des Annexes
+\providecommand{\Partie}[1]{%
+  \vspace{1.5em}\noindent{\Large\textsc{#1}}\par\vspace{0.6em}%
+}
+\providecommand{\sousPartie}[1]{%
+  \vspace{1.1em}\noindent{\large\textbf{#1}}\par\vspace{0.4em}%
+}
+\providecommand{\soussousPartie}[1]{%
+  \vspace{0.8em}\noindent{\normalsize\textbf{#1}}\par\vspace{0.25em}%
+}
 
-L'examen autoptique des planches \texttt{ff.~162v--177r} conduit à distinguer trois mains :
-\begin{enumerate}
-  \item \textbf{La première main ($\mathbf{R^1}$ / \texttt{\textbackslash Rac}, milieu du X\textsuperscript{e}~s.) :} copiste du titre et de la colonne poétique des vers~1 à 1231 (ainsi que des quatre \emph{parepigraphai} intégrées à la colonne). Écriture minuscule livresque penchée à tendance «~bouletée~». $\text{R}^1$ n'écrit jamais les noms des locuteurs : il signale les changements de réplique uniquement par la \textbf{\emph{paragraphos}} (\texttt{—}) sous le début du vers et, à l'intérieur du vers, par le \textbf{\emph{dikolon}} (\texttt{:}). Le iota muet est toujours adscrit lorsqu'il est noté (\foreignlanguage{greek}{τῶι, ῆι, τουτωί} v.~250).
-  \item \textbf{La seconde main ($\mathbf{R^2}$ / \texttt{\textbackslash Rdeux}, milieu du X\textsuperscript{e}~s.) :} réviseur et scholiaste contemporain (\emph{scholiorum manus, aequalis fere primae manui}, von Velsen). Utilisant une semi-onciale de glose (\emph{Kleinoziale}) riche en abréviations tachygraphiques par superposition (\texttt{\textbackslash auDessus}), $\text{R}^2$ a copié l'\emph{Hypothesis} et l'index des personnages au \texttt{f.~162v}, les scholies marginales et interlinéaires ($\Sigma^{\text{R}}$), les sigles de personnages (\foreignlanguage{greek}{μνησ/, κηδ/, ευρ/, αγαθ/, χορ/, γυν/, κλεισθ/, πρυτ/, τοξ/}), les quatre notes scéniques marginales de déguisement aux \texttt{ff.~175r--175v} (v.~1056 \foreignlanguage{greek}{ευρ}$^{\pi}_{\iota}$ \foreignlanguage{greek}{ηχω}, v.~1065 \foreignlanguage{greek}{ὁ μνησίλοχος ὡς ἀνδρομέδα}, v.~1098 \foreignlanguage{greek}{ευρ}$^{\pi}_{\iota}$ \foreignlanguage{greek}{ως περσευς}, v.~1107 \foreignlanguage{greek}{κ}$^{\delta}_{\eta}$ \foreignlanguage{greek}{ως ανδρομ}$^{\delta}_{\varepsilon}$), et a effectué de nombreuses corrections sur grattage (\emph{in rasura}, \texttt{\textbackslash inRas}) ainsi que l'ajout en marge des vers omis par $\text{R}^1$ (\textbf{v.~33} au \texttt{f.~162v} et \textbf{vv.~1102--1103} dans la marge inférieure du \texttt{f.~175v}).
-  \item \textbf{La troisième main humaniste (Euphrosynus Boninus, 1515/1516) :} comme l'ont établi von Velsen (1871) et Albert Martin (1882, p.~V) --- rappelés par Louis Hauseux aux vv.~1059 n.~5 et 1197--1216 ---, l'éditeur de la Juntine \textbf{Eufrosino Bonini} a inscrit de sa propre main quelques notes marginales de locuteur sur le \emph{Ravennas}, notamment l'abréviation \textbf{\foreignlanguage{greek}{γϋ.}} (= \foreignlanguage{greek}{γυνή}, désignant Euripide déguisé en vieille maquerelle) aux \textbf{vv.~1189 et 1198 (\texttt{f.~176v})}.
-\end{enumerate}
-
-\subsection*{4. Les quatre didascalies scéniques antiques (\emph{parepigraphai}) conservées par $\mathbf{R}$}
-
-\begin{enumerate}
-  \item \textbf{Post v.~99 (\texttt{f.~163v}) :} \foreignlanguage{greek}{μινυρισμός} (\emph{«~fredonnement vocal d'Agathon~»}).
-  \item \textbf{Post v.~129 (\texttt{f.~164r}) :} \foreignlanguage{greek}{ὀλολύζει ὁ γέρων} (\emph{«~le vieillard [Mnésiloque] pousse le cri rituel d'ololyguè~»}).
-  \item \textbf{Post v.~276 (\texttt{f.~165v}) :} \foreignlanguage{greek}{ὀλολύζουσι τε ἱερὸν ὠθεῖται} (confirmé par $\Psi^1$ \foreignlanguage{greek}{ολολυ[}, accompagné d'une \emph{koronis} marginale et de la scholie $\Sigma^{\text{R}}$ \foreignlanguage{greek}{παρεπιγραφή. ἐκκυκλεῖται ἐπὶ τὸ ἔξω τὸ θεσμοφόριον}).
-  \item \textbf{Post v.~1187 (\texttt{f.~176v}) :} \foreignlanguage{greek}{ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος·} (= \foreignlanguage{greek}{ἀνακύπτει καὶ παρακύπτει ἀπεψωλημένος}, confirmé sur une ligne distincte par $\Psi^3$ \foreignlanguage{greek}{μ]ενο[}, supprimé du texte parlé par Ellebodius).
-\end{enumerate}
-
-\subsection*{5. Typologie des confusions paléographiques et d'abréviations élucidées par \texttt{Bibi}}
-
-\subsubsection*{A. Confusions propres à la minuscule bouletée et aux signes tachygraphiques}
-\begin{itemize}
-  \item \textbf{$\nu \leftrightarrow \mu$, $\iota \leftrightarrow \varsigma$ et abréviation tachygraphique de \foreignlanguage{greek}{προ-} (en forme de $\text{Ʒ}$ inversé semblable à $\varepsilon$, cf. Gardthausen II p.~340) :}
-  \begin{itemize}
-    \item Au \textbf{v.~50 (\texttt{f.~163r})}, $\text{R}$ porte \foreignlanguage{greek}{πράμος ἡμέτερος}. \textbf{\texttt{Bibi} restitue \foreignlanguage{greek}{πρανοῦν προτέρους}} (d'après Hésychius $\pi~3188$ et \emph{Nuées}~562) : \foreignlanguage{greek}{πρανοι ν} médivisé a donné \foreignlanguage{greek}{πράμος} ($\nu \to \mu$, $\iota \to \varsigma$), tandis que \foreignlanguage{greek}{προτέρους} abrégé par le signe tachygraphique de \foreignlanguage{greek}{προ-} a été rattaché au $\nu$ précédent et lu \foreignlanguage{greek}{<η>μ-ετερος}.
-    \item Aux \textbf{vv.~162--163 (\texttt{f.~164r})}, $\text{R}$ porte \foreignlanguage{greek}{ἐχύμησαν ... διεκίνων}. \textbf{\texttt{Bibi} restitue \foreignlanguage{greek}{ἐκεχήνεσαν ... διέκειντ'}} : haplographie \foreignlanguage{greek}{εκεχ-} $\to$ \foreignlanguage{greek}{εχ-}, iotacisme $\eta \to \upsilon$ et confusion minuscule $\nu \to \mu$.
-    \item Au \textbf{v.~710 (\texttt{f.~170v})}, $\text{R}$ porte \foreignlanguage{greek}{ἥκεις τ'} : \textbf{\texttt{Bibi} restitue \foreignlanguage{greek}{ἥκειν γ'}} d'après Photius $\eta~88$ (permutation minuscule $\nu \to \varsigma$).
-  \end{itemize}
-  \item \textbf{Bêta minuscule en forme de $u$ à deux pointes confondu avec kappa ($\kappa \leftrightarrow \beta$) :}
-  \begin{itemize}
-    \item Au \textbf{v.~895 (\texttt{f.~173r})}, $\text{R}$ porte \foreignlanguage{greek}{βαϋζα} : \textbf{\texttt{Bibi} restitue \foreignlanguage{greek}{κόνυζα}} («~l'inule visqueuse~», plante rituelle des Thesmophories).
-    \item Dans la \textbf{scholie $\Sigma^{\text{R}}$ au v.~1174 (\texttt{f.~176v})}, $\text{R}$ porte \foreignlanguage{greek}{τὸ ἁβρῶς βαδίζειν} : \textbf{\texttt{Bibi} restitue \foreignlanguage{greek}{τὸ ἄκρως βαδίζειν}} d'après Zonaras p.~1171.
-  \end{itemize}
-  \item \textbf{Haplographie, prothèse ou métathèse de $\sigma$ :}
-  \begin{itemize}
-    \item Au \textbf{v.~556 (\texttt{f.~169r})}, après \foreignlanguage{greek}{ὡς}, $\text{R}$ écrit \textbf{\foreignlanguage{greek}{τλεγγίδας} sans $\sigma$ initial} (corrigé en \foreignlanguage{greek}{στλεγγίδας} par $\text{M}$).
-    \item Au \textbf{v.~557 (\texttt{f.~169r})}, là où $\text{R}$, $\Sigma$ et la Souda donnent \foreignlanguage{greek}{τὸν σῖτον}, \textbf{\texttt{Bibi} restitue \foreignlanguage{greek}{τὸν κύσθον}} par métathèse du $\sigma$ et iotacisme $\upsilon/\iota$, exactement parallèle au \textbf{v.~1114 (\texttt{f.~175v})} où $\text{R}$ écrit \foreignlanguage{greek}{σκύτο} pour \foreignlanguage{greek}{κύστο} (= \foreignlanguage{greek}{κύσθον}) et au \textbf{v.~1188 (\texttt{f.~176v})} où $\text{R}^{\text{ac}}$ avait écrit \foreignlanguage{greek}{τὸ σποστίον} (corrigé en \foreignlanguage{greek}{τὸ }\texttt{\textbackslash inRas\{σ\}\{\}}\foreignlanguage{greek}{ποστίον} par $\text{R}^{\text{pc}}$).
-    \item Au \textbf{v.~834 (\texttt{f.~172r})}, après \foreignlanguage{greek}{δίδοσθαι}, $\text{R}$ écrit \foreignlanguage{greek}{Τηνίοισι} par chute du $\Sigma$ initial, là où $\Sigma^{\text{R}}$ et la Souda ($\sigma~1089$) conservent \textbf{\foreignlanguage{greek}{Στηνίοισι}} (la fête des \emph{Stènia}).
-  \end{itemize}
-\end{itemize}
-
-\subsubsection*{B. Confusions remontant à l'archétype en onciale (\emph{scriptio continua})}
-\begin{itemize}
-  \item \textbf{Abréviation onciale $\text{Π'} = \text{περ}$ confondue avec $\text{Γ'} = \text{τρίτη}$ :} au \textbf{v.~80 (\texttt{f.~163v})}, $\text{R}$ porte \foreignlanguage{greek}{ἐπεὶ τρίτη 'στὶ}, issu de \textbf{\foreignlanguage{greek}{ἐπείπερ ἐστὶ}} (Nauck, adopté par \texttt{Bibi} : \texttt{ΕΠΕΙΠ'ΕϹΤΙ} lu \texttt{ΕΠΕΙΓ'ΕϹΤΙ}).
-  \item \textbf{Chute de $\Lambda$ devant $\text{Α}$ en onciale (\texttt{ΛΑ} $\to$ \texttt{Α}) :} au \textbf{v.~910 (\texttt{f.~173r})}, \textbf{$\text{R}$ porte \foreignlanguage{greek}{ἀπὸ ἀφύων}} ($\Sigma$ et Souda \foreignlanguage{greek}{ἰφύων}). \textbf{\texttt{Bibi} restitue \foreignlanguage{greek}{ἀπὸ λαιφίων}} («~au vu de tes haillons~», d'après Hésychius $\lambda~171$ \foreignlanguage{greek}{λαίφια· ῥάκη}) : dans \texttt{ΑΠΟΛΑΙΦΙΩΝ}, le $\Lambda$ triangulaire placé devant $\text{Α}$ est tombé par haplographie (\texttt{ΑΠΟΑΙΦΙΩΝ}), puis l'iotacisme a produit \foreignlanguage{greek}{ἀφύων}.
-  \item \textbf{Confusion onciale $\text{ΛΙ} \leftrightarrow \text{ΑΝ}$ :} au \textbf{v.~1040 (\texttt{f.~174v})}, $\text{R}$ porte \foreignlanguage{greek}{λιτομέναν} (\texttt{ΛΙΤΟΜΕΝΑΝ}, \foreignlanguage{greek}{λιτομένα} Enger) face à la variante \foreignlanguage{greek}{ἀντομένα(ν)} (\texttt{ΑΝΤΟΜΕΝΑΝ}) de $\Sigma^{\text{R}}$.
-  \item \textbf{Confusion onciale $\text{ΙϹ} \leftrightarrow \text{Π}$ :} au \textbf{v.~657 (\texttt{f.~170r})}, $\text{R}$ donne \foreignlanguage{greek}{εἰσελήλυθεν} (\texttt{ΕΙϹΕΛΗΛΥΘΕΝ}), corrigé par \textbf{Handley} en \textbf{\foreignlanguage{greek}{ἐπελήλυθε}} (\texttt{ΕΠΕΛΗΛΥΘΕ}).
-  \item \textbf{Confusion onciale $\text{Τ} \leftrightarrow \text{Γ}$ et intrusion de glose :} au \textbf{v.~702 (\texttt{f.~170v})}, $\text{R}$ donne \foreignlanguage{greek}{ὡς ἅπαν γὰρ ἐστὶν τόλμης ἔργα κἀναισχυντίας} pour \textbf{\foreignlanguage{greek}{ὡς ἅπαντ' ἄρ' ἐστὶ τόλμης πλέα κἀναισχυντίας}} (Bentley + Souda : \texttt{ΑΠΑΝΤΑΡ} lu \texttt{ΑΠΑΝΓΑΡ}, et glose \foreignlanguage{greek}{ἔργα} remplaçant \foreignlanguage{greek}{πλέα} ou \foreignlanguage{greek}{διπλὰ} abrégé avec $\ddot{\delta}$).
-  \item \textbf{Confusion onciale $\text{Κ} \leftrightarrow \text{Λ}$ :} au \textbf{v.~711 (\texttt{f.~170v})}, $\text{R}$ et la Souda donnent \foreignlanguage{greek}{οὐ λέξεις} ; appuyé sur la scholie interne de $\text{R}$ (\foreignlanguage{greek}{ὅθεν οὐ φεύξῃ}), \textbf{\texttt{Bibi} restitue \foreignlanguage{greek}{οὐκ ἔξει.}} (\texttt{ΟΥΚΕΞΕΙ} lu \texttt{ΟΥΛΕΞΕΙ[Σ]}).
-  \item \textbf{Confusion des rondes $\text{Ο} \leftrightarrow \text{Θ}$ :} au \textbf{v.~815 (\texttt{f.~172r})}, l'attique \foreignlanguage{greek}{ποοῦντας} (\texttt{ΠΟΟΥΝΤΑϹ}) est devenu \foreignlanguage{greek}{ποθοῦντας} (\texttt{ΠΟΘΟΥΝΤΑϹ}) dans $\text{R}$ (\foreignlanguage{greek}{ποιοῦντας} Zanetti).
-  \item \textbf{Médivisions de \emph{scriptio continua} :} \textbf{v.~781 (\texttt{f.~171v})} \foreignlanguage{greek}{τὸ ῥῶ} $\text{R} \to$ \textbf{\foreignlanguage{greek}{τορῶ} \texttt{Bibi}} (ap. Hésychius $\tau~1162$) ; \textbf{v.~839 (\texttt{f.~172v})} \foreignlanguage{greek}{ὦ πόλεις} $\text{R} \to$ \textbf{\foreignlanguage{greek}{ωὖπολι} \texttt{Bibi}} (adresse à Eupolis, datant la pièce de 410 av. J.-C.) ; \textbf{v.~1071 (\texttt{f.~175r})} \foreignlanguage{greek}{μέρος ἐξέλαχον;} $\text{R} \to$ \textbf{\foreignlanguage{greek}{μόρος ἔξελ' ἄχος.} \texttt{Bibi}}.
-\end{itemize}
-
-\subsection*{6. Tableau synoptique des 30 folios des \emph{Thesmophories} dans le \emph{Ravennas}}
+\begin{document}
 
 \begin{center}
-\small
-\begin{tabular}{|c|c|c|c|l|}
-\hline
-\textbf{N\textsuperscript{o}} & \textbf{Folio (Leeuwen)} & \textbf{Classense} & \textbf{Planche IIIF} & \textbf{Vers contenus et particularités majeures} \\
-\hline
-01 & \texttt{f.~162v} & \texttt{164v} & 166 (g.) & \emph{Hypothesis} ($\text{R}^2$) + Titre + \textbf{vv.~1--42} (v.~33 in mg. $\text{R}^{\text{pc}}$, om. $\text{M}$) \\
-02 & \texttt{f.~163r} & \texttt{165r} & 166 (dr.) & \textbf{vv.~43--79} (v.~45 \emph{in ras.} ; v.~50 \foreignlanguage{greek}{πρανοῦν προτέρους} \texttt{Bibi}) \\
-03 & \texttt{f.~163v} & \texttt{165v} & 167 (g.) & \textbf{vv.~80--122} (v.~80 Nauck ; post v.~99 \emph{parep.} \foreignlanguage{greek}{μινυρισμός}) \\
-04 & \texttt{f.~164r} & \texttt{166r} & 167 (dr.) & \textbf{vv.~123--164} (post v.~129 \foreignlanguage{greek}{ὀλολύζει ὁ γέρων} ; $\Psi^1$ vv.~133--156 ; vv.~162--163 \texttt{Bibi}) \\
-05 & \texttt{f.~164v} & \texttt{166v} & 168 (g.) & \textbf{vv.~165--207} \\
-06 & \texttt{f.~165r} & \texttt{167r} & 168 (dr.) & \textbf{vv.~208--251} ($\Psi^1$ vv.~237--245 ; v.~242 \foreignlanguage{greek}{[ἓ]τερον} $\Psi^1$ om. $\text{R}$) \\
-07 & \texttt{f.~165v} & \texttt{167v} & 169 (g.) & \textbf{vv.~252--294} ($\Psi^1$ vv.~273--288 ; post v.~276 \emph{parep.} ; vv.~289, 291 \texttt{Bibi}) \\
-08 & \texttt{f.~166r} & \texttt{168r} & 169 (dr.) & \textbf{vv.~295--336} (gloses vv.~297--298 ; v.~320 \emph{in ras.} ; $\Psi^5$ vv.~335--336) \\
-09 & \texttt{f.~166v} & \texttt{168v} & 170 (g.) & \textbf{vv.~337--379} ($\Psi^5$ vv.~337, 373--375 ; v.~354 Willems) \\
-10 & \texttt{f.~167r} & \texttt{169r} & 170 (dr.) & \textbf{vv.~380--422} (v.~383 \foreignlanguage{greek}{καλλιλεξία γυνή} $\text{R}^{\text{pc}}$) \\
-11 & \texttt{f.~167v} & \texttt{169v} & 171 (g.) & \textbf{vv.~423--465} (v.~446 \foreignlanguage{greek}{ἔγκυος} \texttt{Bibi}) \\
-12 & \texttt{f.~168r} & \texttt{170r} & 171 (dr.) & \textbf{vv.~466--508} (v.~477 \texttt{Bibi} ; vv.~489, 493, 506 $\text{R}^{\text{pc}}$) \\
-13 & \texttt{f.~168v} & \texttt{170v} & 172 (g.) & \textbf{vv.~509--550} (v.~512 \emph{in ras.} $\text{R}^{\text{pc}}$) \\
-14 & \texttt{f.~169r} & \texttt{171r} & 172 (dr.) & \textbf{vv.~551--589} (v.~556 \foreignlanguage{greek}{τλεγγίδας} $\text{R}$ ; v.~557 \foreignlanguage{greek}{τὸν κύσθον} \texttt{Bibi}) \\
-15 & \texttt{f.~169v} & \texttt{171v} & 173 (g.) & \textbf{vv.~590--634} ($\Psi^1$ vv.~594--596 ; v.~630 \foreignlanguage{greek}{μέντοι} in mg. $\text{R}^{\text{pc}}$, om. $\text{M}$) \\
-16 & \texttt{f.~170r} & \texttt{172r} & 173 (dr.) & \textbf{vv.~635--678} (vv.~637--643 \texttt{Bibi} ; v.~657 Handley ; v.~669 \emph{in ras.}) \\
-17 & \texttt{f.~170v} & \texttt{172v} & 174 (g.) & \textbf{vv.~679--720} (v.~702 ; vv.~704, 710, 711 \texttt{Bibi}) \\
-18 & \texttt{f.~171r} & \texttt{173r} & 174 (dr.) & \textbf{vv.~721--764} (v.~721 \texttt{Bibi} ; $\Psi^2$ vv.~742--764) \\
-19 & \texttt{f.~171v} & \texttt{173v} & 175 (g.) & \textbf{vv.~765--799} ($\Psi^2$ vv.~765--766 ; v.~781 \foreignlanguage{greek}{τορῶ} \texttt{Bibi} ; début Parabase) \\
-20 & \texttt{f.~172r} & \texttt{174r} & 175 (dr.) & \textbf{vv.~800--837} ($\Psi^1$ vv.~804--809 ; vv.~822--823 \texttt{Bibi} ; v.~834 \foreignlanguage{greek}{Στηνίοισι}) \\
-21 & \texttt{f.~172v} & \texttt{174v} & 176 (g.) & \textbf{vv.~838--875} (v.~839 \foreignlanguage{greek}{ωὖπολι} \texttt{Bibi} ; v.~853 \foreignlanguage{greek}{ἑλένην} \texttt{Bibi}) \\
-22 & \texttt{f.~173r} & \texttt{175r} & 176 (dr.) & \textbf{vv.~876--919} (v.~895 \foreignlanguage{greek}{κόνυζα} \texttt{Bibi} ; v.~910 \foreignlanguage{greek}{λαιφίων} \texttt{Bibi} pro \foreignlanguage{greek}{ἀφύων} $\text{R}$) \\
-23 & \texttt{f.~173v} & \texttt{175v} & 177 (g.) & \textbf{vv.~920--958} ($\Psi^2$ vv.~941--953 ; v.~942 \emph{in ras.} $\text{R}^2$) \\
-24 & \texttt{f.~174r} & \texttt{176r} & 177 (dr.) & \textbf{vv.~959--1000} (ode chorale circulaire) \\
-25 & \texttt{f.~174v} & \texttt{176v} & 178 (g.) & \textbf{vv.~1001--1043} (v.~1006 \emph{in ras.} ; vv.~1031, 1041 \texttt{Bibi} ; $\Psi^4$ v.~1043) \\
-26 & \texttt{f.~175r} & \texttt{177r} & 178 (dr.) & \textbf{vv.~1044--1081} ($\Psi^4$ vv.~1044--1051 ; notes mg. vv.~1056, 1065 ; vv.~1071--1079 \texttt{Bibi}) \\
-27 & \texttt{f.~175v} & \texttt{177v} & 179 (g.) & \textbf{vv.~1082--1127} (v.~1086 \emph{in ras.} ; vv.~1090--1093 \texttt{Bibi} ; vv.~1102--1103 in mg. inf. $\text{R}^2$) \\
-28 & \texttt{f.~176r} & \texttt{178r} & 179 (dr.) & \textbf{vv.~1128--1168} (post v.~1143 del. $\text{R}^{\text{pc}}$ ; v.~1151 \foreignlanguage{greek}{θεμιτεύετον} \texttt{Bibi}) \\
-29 & \texttt{f.~176v} & \texttt{178v} & 180 (g.) & \textbf{vv.~1169--1210} ($\Psi^3$, $\Psi^4$ ; post v.~1187 \emph{parep.} ; 6 \emph{in ras.} ; vv.~1197--1198 \texttt{Bibi}) \\
-30 & \texttt{f.~177r} & \texttt{179r} & 180 (dr.) & \textbf{vv.~1211--1231 (Fin)} ($\Psi^1$ v.~1231 ; v.~1215 \foreignlanguage{greek}{συμβήνη} \texttt{Bibi} ; + \emph{Hyp. Eccl.}) \\
-\hline
-\end{tabular}
+  {\LARGE\textsc{Le \italique{Codex Ravennas 429} (\latin{olim} 137, 4, A)}}\\[0.4em]
+  {\Large\textsc{Étude codicologique, stemmatique et paléographique complète}}\\[0.3em]
+  {\large\italique{appliquée à l'édition critique des \italique{Thesmophories} d'Aristophane (\texttt{ff.~162v--177r}, vv.~1--1231) par Louis Hauseux (\textbf{Bibi})}}
 \end{center}
+\vspace{1em}
 
-\subsection*{7. Notices analytiques, paléographiques et critiques folio par folio (\texttt{ff.~162v--177r})}
+\Partie{1. Identité, histoire et codicologie du \italique{Codex Ravennas 429}}
 
-\begin{description}
-  \item[\textbf{Folio 01 --- \texttt{f.~162v} (\texttt{Classense 164v}, planche 166 g.) : \emph{Hypothesis} + vv.~1--42.}]
-  En haut de page, $\text{R}^1$ a réservé 12 lignes remplies par $\text{R}^2$ en semi-onciale de glose à abréviations tachygraphiques (\emph{Hypothesis} et liste des personnages donnant le nom \foreignlanguage{greek}{Μνησίλοχος}). Titre de première main : \foreignlanguage{greek}{※ ἀριστοφάνους θεσμοφοριάζουσαι —}.
-  \emph{Interventions de $\text{R}^{\text{pc}}$ :} v.~28 copié après v.~30 par $\text{R}^{\text{ac}}$, rétabli par $\text{R}^{\text{pc}}$ ; v.~32 \foreignlanguage{greek}{(Μνη.)} $\text{R}^{\text{ac}} \to$ \foreignlanguage{greek}{(Εὐρ.) continuat} $\text{R}^{\text{pc}}, \Sigma$ (\foreignlanguage{greek}{ἑόρακας} Bentley pro \foreignlanguage{greek}{ἑόρακα} $\text{R}$) ; \textbf{v.~33 omis dans la colonne par $\text{R}^{\text{ac}}$ et par $\text{M}$, ajouté en marge par $\text{R}^{\text{pc}}$} ; v.~34 \foreignlanguage{greek}{καὶ μεγ'} $\text{R}^{\text{ac}}$ (\foreignlanguage{greek}{ὶ} eras. $\text{R}^{\text{pc}}$, \foreignlanguage{greek}{καὶ μεγ'} $\text{M}$, \foreignlanguage{greek}{κἀμέ γ'} edd.).
-  \emph{Leçons et choix de l'édition :} v.~3 \foreignlanguage{greek}{τι} $\text{R}$ : \foreignlanguage{greek}{τε} $\Sigma$, Souda ; v.~10 \foreignlanguage{greek}{ὁρᾶν.} $\text{R}$ (maintenu par \texttt{Bibi}) ; v.~18 \foreignlanguage{greek}{ἀκοὴν δὲ χοάνης} $\text{R}$, Willems ; v.~21 \foreignlanguage{greek}{τε} $\text{R}$ : \foreignlanguage{greek}{γε} $\Sigma$ ; v.~23 del. Willems ; v.~24 \foreignlanguage{greek}{προσμάθοι· μὴ} $\text{R}$ : \foreignlanguage{greek}{προσμάθοιμι} Ellebodius ; \textbf{vv.~30--31 \foreignlanguage{greek}{Ἁγάθων} et \foreignlanguage{greek}{ἀγαθῶν} (\foreignlanguage{greek}{(Μνη.) continuat} $\text{R}$) \texttt{Bibi}} ; v.~39 \foreignlanguage{greek}{λέως} $\text{R}$, Souda AF : \foreignlanguage{greek}{λαός} $\Sigma$, Souda GIVM.
+Le \textbf{\italique{Codex Ravennas 429}} (ancienne cote camaldule : \textbf{\texttt{137, 4, A}} ; sigle universel : \textbf{R}), conservé à Ravenne à l'\italique{Istituzione Biblioteca Classense}, constitue le fondement unique de la tradition médiévale des \italique{Thesmophories} (\lecon{Θεσμοφοριάζουσαι}) d'Aristophane.
 
-  \item[\textbf{Folio 02 --- \texttt{f.~163r} (\texttt{Classense 165r}, planche 166 dr.) : vv.~43--79.}]
-  \emph{Interventions de $\text{R}^{\text{pc}}$ :} v.~45 \foreignlanguage{greek}{λέγει}\texttt{\textbackslash inRas\{ς\}\{\}} $\text{R}^{\text{pc}}$ ; v.~60 \foreignlanguage{greek}{κατὰ} om. $\text{R}^{\text{ac}}$, add. $\text{R}^{\text{pc}}$.
-  \emph{Leçons et conjectures de \texttt{Bibi} :} v.~44 \foreignlanguage{greek}{δὲ} $\text{R}$ ; \textbf{v.~50 \foreignlanguage{greek}{πράμος ἡμέτερος} $\text{R} \to$ \foreignlanguage{greek}{πρανοῦν προτέρους} \texttt{Bibi}} (ap. Hésychius $\pi~3188$ et \emph{Nub.}~562 : médivision de \foreignlanguage{greek}{πρανοι ν} avec $\nu \to \mu, \iota \to \varsigma$, et signe tachygraphique de \foreignlanguage{greek}{προ-} en forme de $\text{Ʒ}$ inversé lu $\varepsilon$) ; v.~53 \foreignlanguage{greek}{ἀσπίδας} $\text{R}$ : \foreignlanguage{greek}{ἁψῖδας} Souda $\delta~1547, \lambda~181$ ; v.~56 \foreignlanguage{greek}{γογγύλίζει} $\text{R}$, Souda : \foreignlanguage{greek}{γογγύλλει} Porson ; v.~61 \foreignlanguage{greek}{γογγυλίσας} $\text{R}$ : \foreignlanguage{greek}{συγγογγύλας} Enger ; v.~69 \foreignlanguage{greek}{θύρασι} $\text{R}$ ; \textbf{vv.~71--74 attribués intégralement à \foreignlanguage{greek}{(Μνη.)} par \texttt{Bibi} ap. $\Sigma$} (contre $\text{R}$ qui donnait 72--74 à \foreignlanguage{greek}{Εὐρ.}) ; v.~74 \foreignlanguage{greek}{χρῆν ... ἐμόν} $\text{R}$.
+\begin{itemize}
+  \item \textbf{Datation et origine constantinopolitaine (atelier du moine Éphrem) :} Copié à \textbf{Constantinople vers le milieu du X\ieme{} siècle (ca.~950 apr.~J.-C.)}, dans le milieu d'érudits et de calligraphes rattaché au moine \textbf{Éphrem} (le copiste de l'\italique{Organon} d'Aristote, \italique{Marcianus gr.}~201 [an.~954], de Polybe, \italique{Vaticanus gr.}~124 [an.~947], et des \italique{Évangiles}, \italique{Athos Lavra}~A~88 ; cf. Lidia Perria 1985 et Pasquale Orsini 2018), le \italique{Ravennas} est le plus ancien témoin médiéval d'Aristophane et \textbf{le seul manuscrit byzantin qui nous ait transmis l'intégralité des onze comédies conservées}.
+  \item \textbf{Histoire moderne, apographe \Mon{} et édition Juntine (1516) :} Conservé à la bibliothèque ducale d'Urbino, puis transporté à Pise au monastère camaldule de San Michele in Borgo en 1515 par Antonio Surian, il est copié en Italie pour donner naissance au \textbf{\italique{Monacensis gr.~492}} (\textbf{\Mon{}}, jadis \italique{Augustanus}, noté $\text{G}$ par von Velsen). Cet apographe \Mon{} sert à l'humaniste florentin \textbf{Eufrosino Bonini} (\italique{Euphrosynus Boninus}) pour l'\italique{editio princeps} de \italique{Lysistrata} et des \italique{Thesmophories} publiée à Florence chez Bernardo Giunta le 28 janvier 1516 (ces deux comédies ayant fait défaut à l'Aldine de Marcus Musurus en 1498). Racheté en Toscane en 1712 par l'abbé camaldule \textbf{Pietro Canneti} pour le monastère de Classe à Ravenne (cote \texttt{137, 4, A}), le manuscrit est publié par Filippo Invernizi (1794), minutieusement collationné par Adolf von Velsen (1871, 1883) et pour les scholies par Albert Martin (1882), avant d'être reproduit en phototypie par Johannes van Leeuwen (1904).
+  \item \textbf{Support, cahiers et double foliotation :} Codex de \textbf{191 feuillets de parchemin} ($\approx 322 \times 210\,\text{mm}$ ; justification du texte poétique $\approx 225 \times 110\,\text{mm}$), formé de quaternions réguliers réglés à la pointe sèche. En raison des deux feuillets de garde initiaux comptés dans la foliotation mécanique moderne au crayon de la Biblioteca Classense, il existe un \textbf{décalage constant de $+2$} entre la foliotation philologique traditionnelle (van Leeuwen 1904 et Louis Hauseux : \textbf{\texttt{ff.~162v--177r}}) et la foliotation Classense (\textbf{\texttt{ff.~164v--179r}}, planches IIIF \textbf{\texttt{166}} à \textbf{\texttt{180}}).
+  \item \textbf{Architecture des onze comédies dans le codex :} 1.~\italique{Ploutos} (\texttt{ff.~1r--15v}) ; 2.~\italique{Nuées} (\texttt{ff.~16r--34v}) ; 3.~\italique{Grenouilles} (\texttt{ff.~35r--53v}) ; 4.~\italique{Oiseaux} (\texttt{ff.~53v--77v}) ; 5.~\italique{Cavaliers} (\texttt{ff.~78r--97r}) ; 6.~\italique{Paix} (\texttt{ff.~97v--114v}) ; 7.~\italique{Lysistrata} (\texttt{ff.~114v--131r}) ; 8.~\italique{Acharniens} (\texttt{ff.~131v--146r}) ; 9.~\italique{Guêpes} (\texttt{ff.~146v--162r}) ; \textbf{10.~\italique{Thesmophories} (\texttt{ff.~162v--177r})} ; 11.~\italique{Assemblée des femmes} (\texttt{ff.~177r--191r}).
+\end{itemize}
 
-  \item[\textbf{Folio 03 --- \texttt{f.~163v} (\texttt{Classense 165v}, planche 167 g.) : vv.~80--122.}]
-  Contient après le v.~99 la \textbf{1\textsuperscript{re} \emph{parepigraphè}} : \foreignlanguage{greek}{μινυρισμός}. Dans la monodie d'Agathon (vv.~101--122), $\text{R}^2$ introduit à tort en marge l'alternance \foreignlanguage{greek}{αγαθ/ — χορ/}.
-  \emph{Leçons et conjectures :} \textbf{v.~80 \foreignlanguage{greek}{ἐπεὶ τρίτη 'στὶ} $\text{R}$ : \foreignlanguage{greek}{ἐπείπερ ἐστὶ} Nauck} (abréviation onciale $\text{Π'} = \text{περ}$ lue $\text{Γ'} = \text{τρίτη}$) ; v.~86 \foreignlanguage{greek}{δί' και'} $\text{R}$ : \foreignlanguage{greek}{δικαίαν} Wilamowitz ; v.~96 \foreignlanguage{greek}{ποῖο ἐστὶν οὗτος — οὑκκυκλούμενος} $\text{R}$ : \foreignlanguage{greek}{ποῖος ἐστὶν; — οὗτος οὑκκυκλούμενος} Tyrwhitt ; v.~99 \foreignlanguage{greek}{ἂν} $\text{R}$ : \foreignlanguage{greek}{νῦν} Rogers ; \textbf{v.~100 \foreignlanguage{greek}{Μύρμηκος} \texttt{Bibi}} ap. Hésychius $\mu~1904$ ; v.~101 \foreignlanguage{greek}{χθονίαις} $\text{R}$ : \foreignlanguage{greek}{χθονίαιν} Meineke ; v.~105 \foreignlanguage{greek}{νιν ... εὐπείστως} Dindorf, Reiske ; v.~107 \foreignlanguage{greek}{ὅπλιζε} $\text{R}$ : \foreignlanguage{greek}{ὄλβιζε} Bentley ; v.~115 \foreignlanguage{greek}{ἀεισαντ'} $\text{R}$ : \foreignlanguage{greek}{ἀείσατ'} Zanetti ; v.~122 \foreignlanguage{greek}{διανεύματα} $\text{R}$ : \foreignlanguage{greek}{διὰ νεύματα} Fritzsche.
+\Partie{2. Situation stemmatique, témoins papyrologiques (\PsiUn{}--\PsiCinq{}) et « Dossier Mnésiloque »}
 
-  \item[\textbf{Folio 04 --- \texttt{f.~164r} (\texttt{Classense 166r}, planche 167 dr.) : vv.~123--164 ($\mathbf{\Psi^1}$ vv.~133--156).}]
-  Contient après le v.~129 la \textbf{2\textsuperscript{e} \emph{parepigraphè}} : \foreignlanguage{greek}{ὀλολύζει ὁ γέρων}.
-  \emph{Leçons et conjectures :} v.~126 \foreignlanguage{greek}{φῶς} $\text{R}$ : \foreignlanguage{greek}{φάος} Burges ; v.~128 \foreignlanguage{greek}{Φοῖβον τιμᾷ} $\text{R}$ (\foreignlanguage{greek}{τιμᾷ} glose intruse) : \foreignlanguage{greek}{Φοῖβον} Dindorf ; v.~130 \foreignlanguage{greek}{πότνια} $\text{R}$ : \foreignlanguage{greek}{πότνιαι} Souda ; v.~134 \foreignlanguage{greek}{νεανίσχ' εἴ τις} $\text{R}$ : \foreignlanguage{greek}{νεανίσκ' εἴ τις} $\text{M}$ ; \textbf{v.~141 \foreignlanguage{greek}{σύ τ'} $\Psi^1, \Sigma$ : \foreignlanguage{greek}{τίς δ'} $\text{R}$} ; v.~154 \foreignlanguage{greek}{ἄν} $\Psi^1, \text{R}$ ; \textbf{vv.~162--163 \foreignlanguage{greek}{ἐχύμησαν ... διεκίνων} $\text{R} \to$ \foreignlanguage{greek}{ἐκεχήνεσαν ... διέκειντ'} \texttt{Bibi}} (haplographie \foreignlanguage{greek}{εκεχ} $\to$ \foreignlanguage{greek}{εχ}, iotacisme $\eta/\upsilon$ et confusion minuscule $\nu/\mu$).
+\begin{itemize}
+  \item \textbf{R (\italique{codex unicus} médiéval) et son apographe humaniste \Mon{} :} Pour les \italique{Thesmophories}, R est notre unique témoin médiéval indépendant. Le \italique{Monacensis gr.~492} (\Mon{}) est un \italique{codex descriptus} copié directement sur R après ses corrections ($\Rpc/\Rdeux$) : \Mon{} omet ainsi le \textbf{v.~33 (\texttt{f.~162v})}, le mot \lecon{μέντοι} au \textbf{v.~630 (\texttt{f.~169v})} et les \textbf{vv.~1102--1103 (\texttt{f.~175v})}, tous trois ajoutés dans les marges de R, et transcrit au \textbf{v.~1143 (\texttt{f.~176r})} la dittographie exponctuée de R (\lecon{στυγνὰς ὡς ἐ}). Ses bonnes leçons (ex. v.~5 ὅσ', v.~134 νεανίσκ', v.~417 μοιχοῖς, v.~556 στλεγγίδας, v.~793 μαίνεσθ', v.~802 ἡμᾶς, v.~1198 ἀκολούτι, v.~1216 γρᾴδιο, v.~1219 γέρων) ont valeur d'émendations humanistes précoces.
+  \item \textbf{Les cinq témoins papyrologiques antiques (\PsiUn{} à \PsiCinq{}, II\ieme{}--IV\ieme{} s.) :}
+  \begin{enumerate}
+    \item \textbf{\PsiUn{} (\italique{PSI} XI 1194 + XIV p.~XV, II\ieme{} s.) :} vv.~133--156, 237--245, 273--288, 594--596, 804--809, 1231 (\texttt{ff.~164r, 165r, 165v, 169v, 172r, 177r}). Confirme σύ τ' au v.~141, restitue [ἓ]τερον omis par R au v.~242, confirme la \italique{parepigraphè} ολολυ[ post v.~276, τὰ πόπαν' au v.~285, Φερρέφαττα au v.~287, Στρατονίκην au v.~807, et conserve au v.~1231 (\texttt{f.~177r}, fr.~6) la \italique{subscriptio} stichométrique en chiffres acrophoniques attiques ΑΡΙΣΤΟΦΑΝ]ΟΥΣ ΘΕΣΜΟΦΟΡΙ]ΑΖΥΣΑΙ ]ΧΗΗΙ ($= 1201$ vers : $\text{Χ}=1000, \text{Η}=100, \text{Η}=100, \text{Ι}=1$).
+    \item \textbf{\PsiDeux{} (\italique{P.Oxy.} LVI 3839, ca.~200) :} vv.~742--766 (fr.~1) et 941--953 (fr.~2) (\texttt{ff.~171r, 171v, 173v}). Place la coupe de réplique avant εἰπέ μοι au v.~743, confirme τυννοῦτον / τυννοῦτο et l'absence de changement de locuteur devant μικρὸν au v.~745 (contre Γϋ. de R), γέγονε au v.~746 et δός τὸ σφαγεῖον (sans μοι) au v.~754.
+    \item \textbf{\PsiTrois{} (\italique{P.Oxy.} LVI 3840, IV\ieme{} s.) :} vv.~1185--1193 (\texttt{f.~176v}). Confirme γογγυλί au v.~1185, la \italique{parepigraphè} scénique μ]ενο[ post v.~1187, et μέλι au v.~1192.
+    \item \textbf{\PsiQuatre{} (\italique{P.Oxy.} LXXIII 4935 + LXXVIII 5132, II\ieme{} s.) :} vv.~1043--1051 (fr.~1) et 1201--1210 (fr.~2) (\texttt{ff.~174v, 175r, 176v}). Confirme [ι]ω μοιρ[ας sans dittographie au v.~1047, βάρβαρον (avec R et Willems) au v.~1051, et la brièveté de λέλυσο\inRas{ν}{} (\Rpc{}) au v.~1208.
+    \item \textbf{\PsiCinq{} (\italique{P.Oxy.} IX 1176, Satyrus, \italique{Vie d'Euripide}, II\ieme{} s.) :} cite les vv.~335--337 et 373--375 (\texttt{ff.~166r, 166v}), offrant au v.~374 la variante Ἀρ[χίκλ]ει' face à Τιμόκλει' de R, $\Sigma^{\text{R}}$ et la Souda.
+  \end{enumerate}
+  \item \textbf{« Le dossier Mnésiloque » (authenticité de Μνησίλοχος transmis par \Rdeux{} au \texttt{f.~162v}) :} Contre les éditeurs modernes qui écartent le nom de \italique{Mnésiloque} au profit de l'anonyme Κηδεστής, Louis Hauseux (\texttt{Introduction.tex}, ll.~325--357) démontre l'exactitude historique de la tradition conservée par l'\italique{Hypothesis} et les rubriques de \Rdeux{} : 1° la \italique{Vita Euripidis} atteste qu'Euripide avait épousé Choirilè (ou Choirinè), fille de Mnésiloque, et que son deuxième fils s'appelait Mnésiloque ; 2° selon la règle onomastique attique (Démosthène, \italique{C.~Macartatos}, 43.74), le second fils reçoit le nom de son grand-père maternel ; 3° au \textbf{v.~289 (\texttt{f.~165v})}, Louis Hauseux (\textbf{Bibi}) restitue sous χοῖρον (R) / χοιρίον ($\Sigma^{\text{R}}$) le nom propre \lecon{Χοιρίλ'} (ou \lecon{Χοιρίν'}), fille de Mnésiloque et épouse d'Euripide.
+\end{itemize}
 
-  \item[\textbf{Folio 05 --- \texttt{f.~164v} (\texttt{Classense 166v}, planche 168 g.) : vv.~165--207.}]
-  vv.~168--169 \foreignlanguage{greek}{Φιλοκλῆς, Ξενοκλῆς} $\text{R}$ : \foreignlanguage{greek}{Φιλοκλέης, Ξενοκλέης} Bentley ; v.~173 \foreignlanguage{greek}{ἦν} $\text{R}$, Souda : \foreignlanguage{greek}{ἦ} Dindorf ; v.~176 \foreignlanguage{greek}{(Ἀγάθ.) λέγε} $\text{R}$ ; v.~178 \foreignlanguage{greek}{οἷόν} $\text{R}$ : \foreignlanguage{greek}{οἷός} Souda, Stobée ; v.~179 \foreignlanguage{greek}{κοινῇ} $\text{R}$, Souda : \foreignlanguage{greek}{καινῇ} Biset ap. $\Sigma$ ; v.~196 \foreignlanguage{greek}{γὰρ} $\text{R}$ : \foreignlanguage{greek}{γὰρ ἂν} Souda $\upsilon~709$ ; v.~204 \foreignlanguage{greek}{νυκτερείσια} $\text{R}$.
+\Partie{3. Paléographie des trois mains ($\text{R}^1$, \Rdeux{} et Euphrosynus Boninus) et guide des abréviations}
 
-  \item[\textbf{Folio 06 --- \texttt{f.~165r} (\texttt{Classense 167r}, planche 168 dr.) : vv.~208--251 ($\mathbf{\Psi^1}$ vv.~237--245).}]
-  v.~216 \foreignlanguage{greek}{ἀφεύειν} $\text{R}$ | \foreignlanguage{greek}{είσω} $\text{R}$ : \foreignlanguage{greek}{εἴ σοι} Bonini ; \textbf{v.~217 \foreignlanguage{greek}{διδόναι γ' αὐτὸν} $\text{R} \to$ \foreignlanguage{greek}{διδόναι γ' ἑαυτὸν} \texttt{Bibi} auctore Willems} ; v.~220 \foreignlanguage{greek}{ξυροδίκης} $\text{R}$ : \foreignlanguage{greek}{ξυροδόκης} $\Sigma$, Pollux ; v.~223 \foreignlanguage{greek}{ἀττατα· ατταται} $\text{R}$ : \foreignlanguage{greek}{ἀτταταῖ ἰατταταῖ} Biset ; v.~234 \foreignlanguage{greek}{θεάσασθαι σεαυτόν} $\text{R}$ : \foreignlanguage{greek}{θεάσασθ' αὑτόν} Fritzsche ; \textbf{v.~242 \foreignlanguage{greek}{[ἓ]τερον} $\Psi^1$ (Medaglia) : om. $\text{R}$} ; v.~248 \foreignlanguage{greek}{οἰμώζετ' ... εἰς} $\text{R}$ : \foreignlanguage{greek}{οἰμώξετ' ... εἴ τις} Zanetti, Brunck ; v.~250 \foreignlanguage{greek}{τουτωί} $\text{R}$ (iota adscrit).
+\begin{enumerate}
+  \item \textbf{La première main ($\text{R}^1$, texte poétique) :} minuscule livresque penchée du milieu du X\ieme{} siècle (\italique{minuscule bouletée} tardive de l'atelier d'Éphrem), mêlant formes minuscules cursives ($\alpha, \beta$ bilobé, $\gamma, \delta, \varepsilon, \eta, \kappa, \mu, \nu, \rho, \sigma, \tau, \upsilon, \varphi, \chi, \omega$) et formes d'onciale réintroduites ($\Gamma, \Delta, \text{Ε}, \text{Η}, \Theta, \text{Κ}, \Lambda, \text{Ν}, \Pi, \Sigma$ lunaire $\text{Ϲ}$, $\Omega$).
+  \item \textbf{La seconde main contemporaine (\Rdeux{}, \italique{Hypothesis}, scholies $\Sigma^{\text{R}}$, \italique{notae personarum} et révision) :} écriture d'érudit en \textbf{semi-onciale de glose (\italique{Kleinoziale})} à petit module, saturée d'abréviations tachygraphiques par suspension, contraction et signes spéciaux. C'est ce réviseur (souvent confondu dans les apparats avec \Rpc{}) qui a collationné le texte de $\text{R}^1$, effectué les grattages (\italique{in rasura}), rétabli en marge les \textbf{vv.~33 (\texttt{f.~162v})}, \textbf{630 (\texttt{f.~169v}, μέντοι)} et \textbf{1102--1103 (\texttt{f.~175v})}, et copié les scholies $\Sigma^{\text{R}}$.
+  \item \textbf{La troisième main humaniste (Euphrosynus Boninus, 1515/1516) :} comme l'ont établi von Velsen (1871) et Albert Martin (1882, p.~V) --- rappelés par Louis Hauseux aux vv.~1059 n.~5 et 1197--1216 (\texttt{vv 642-fin-bis.tex}, ll.~4293, 5310) ---, l'éditeur de la Juntine \textbf{Eufrosino Bonini} a inscrit de sa propre main quelques notes marginales de locuteur sur le \italique{Ravennas}, notamment l'abréviation \lecon{γϋ.} ($=$ γυνή, désignant Euripide déguisé en vieille maquerelle) aux \textbf{vv.~1189 et 1198 (\texttt{f.~176v})}.
+\end{enumerate}
 
-  \item[\textbf{Folio 07 --- \texttt{f.~165v} (\texttt{Classense 167v}, planche 169 g.) : vv.~252--294 ($\mathbf{\Psi^1}$ vv.~273--288).}]
-  Contient après le v.~276 la \textbf{3\textsuperscript{e} \emph{parepigraphè}} : \foreignlanguage{greek}{ὀλολύζουσι τε ἱερὸν ὠθεῖται} $\text{R}$ (\foreignlanguage{greek}{ολολυ[} $\Psi^1$, avec \emph{koronis} et $\Sigma^{\text{R}}$ \foreignlanguage{greek}{παρεπιγραφή. ἐκκυκλεῖται ἐπὶ τὸ ἔξω τὸ θεσμοφόριον}).
-  \emph{Leçons et conjectures de \texttt{Bibi} :} vv.~252--260 attributions de $\text{R}^2$ corrigées par Bentley, Dobree, Ellebodius ; \textbf{vv.~263--264 \foreignlanguage{greek}{(Ἀγάθ.)} maintenu au v.~263 (\foreignlanguage{greek}{γ' ο}$^{\tilde{\upsilon}}_{\nu}$ $\text{R}^{\text{pc}}$) et suppléé au v.~264 par \texttt{Bibi}} ; v.~273 \foreignlanguage{greek}{Ὑποκράτους} $\text{R}$ (calembour maintenu par \texttt{Bibi}) ; \textbf{v.~285 \foreignlanguage{greek}{τὰ πόπαν'} $\Psi^1$, Porson : \foreignlanguage{greek}{τὸ πόπανον} $\text{R}$} ; \textbf{v.~287 \foreignlanguage{greek}{Φερρέφαττα} $\Psi^1$, Thiersch : \foreignlanguage{greek}{Φερσέφαττα} $\text{R}$} ; \textbf{v.~289 \foreignlanguage{greek}{χοῖρον} $\text{R}$ (\foreignlanguage{greek}{χοιρίον} $\Sigma$) $\to$ \foreignlanguage{greek}{Χοιρίλ'} \texttt{Bibi}} (fille de Mnésiloque et épouse d'Euripide) ; \textbf{v.~291 \foreignlanguage{greek}{πρὸς θάληκον} $\text{R} \to$ \foreignlanguage{greek}{πρὸς θυλάκιον} (\foreignlanguage{greek}{πρὸς θάλικα} ap. Hésychius $\theta~50$) \texttt{Bibi}}.
+\noindent\textbf{Principales abréviations tachygraphiques de \Rdeux{} et de l'archétype (cf. Gardthausen II, p.~340) :}
+\begin{itemize}
+  \item \textbf{Finales supralinéaires :} trait horizontal ou ondulé pour $-\nu$ ; $\backslash$ pour $-\alpha\varsigma$ ; $\text{S}$ pour $-\eta\varsigma$ ; $\supset$ ou apostrophe pour $-\text{ο}\varsigma$ ; $\sim$ ou $\ddot{}$ pour $-\text{ον}$ ; $\wedge$ pour $-\alpha\iota$ ; cercle en exposant pour $-\text{ου}$ ; $\varsigma$ supralinéaire pour $-\omega\varsigma$.
+  \item \textbf{Signes spéciaux décisifs pour la critique du texte :}
+  \begin{itemize}
+    \item \textbf{v.~50 (\texttt{f.~163r}) :} le signe tachygraphique de \textbf{προ-} (en forme de $\varepsilon$ ou de \texttt{3} inversé) dans προτέρους a été rattaché au $-\nu$ final de πρανοῦν et lu <η>μ- $+$ -ετερος $\to$ ἡμέτερος (d'où πράμος ἡμέτερος dans R pour \lecon{πρανοῦν προτέρους} \textbf{Bibi} ap. Hésychius $\pi\ 3188$ et \italique{Nuées} 562) ;
+    \item \textbf{v.~80 (\texttt{f.~163v}) :} en onciale, l'abréviation \textbf{Π'} ($=$ περ) dans ΕΠΕΙΠ'ΕϹΤΙ a été lue \textbf{Γ'} ($=$ τρίτη), produisant ἐπεὶ τρίτη 'στὶ dans R au lieu de \lecon{ἐπείπερ ἐστὶ} (Nauck) ;
+    \item \textbf{v.~702 (\texttt{f.~170v}) :} l'abréviation de \textbf{διπλὰ} ($\ddot{\delta}$, glosant πλέα) ou la glose ἔργα s'est substituée à \lecon{πλέα} (conservé par la Souda).
+  \end{itemize}
+\end{itemize}
 
-  \item[\textbf{Folio 08 --- \texttt{f.~166r} (\texttt{Classense 168r}, planche 169 dr.) : vv.~295--336 ($\mathbf{\Psi^5}$ vv.~335--336).}]
-  vv.~297--298 gloses intruses dans $\text{R}$ (\foreignlanguage{greek}{τῇ Δήμητρῃ καὶ τῇ Κόρῃ} del. Blaydes ; \foreignlanguage{greek}{τῇ Γῇ} del. Dobree ex $\Sigma$) ; v.~306 \texttt{\textbackslash expo\{καὶ\}}\foreignlanguage{greek}{τὴν ἀγορεύουσαν} $\text{R}^2$ ; \textbf{v.~320 \foreignlanguage{greek}{θηροφ}\texttt{\textbackslash inRas\{ω\}\{ό\}}\foreignlanguage{greek}{νε παῖ--} $\text{R}^{\text{pc}}$} (\foreignlanguage{greek}{θηροφόνη} Hermann) ; v.~329 \foreignlanguage{greek}{Ἀθηναίων} $\text{R}$ : \foreignlanguage{greek}{Ἀθηνῶν} Reisig ; v.~331 \foreignlanguage{greek}{(Κηρ.)} $\text{R}$ : \foreignlanguage{greek}{(Κορ.)} van Leeuwen.
+\Partie{4. Gestion des interlocuteurs et des quatre \italique{parepigraphai} scéniques}
 
-  \item[\textbf{Folio 09 --- \texttt{f.~166v} (\texttt{Classense 168v}, planche 170 g.) : vv.~337--379 ($\mathbf{\Psi^5}$ vv.~337, 373--375).}]
-  v.~337 \foreignlanguage{greek}{ευριπιδιωι[..]υτ} $\Psi^5$ : \foreignlanguage{greek}{Εὐριπίδῃ Μήδοις} $\text{R}$ (\foreignlanguage{greek}{Μήδοις τ'} Biset) ; \textbf{v.~354 \foreignlanguage{greek}{γενέσθαι} $\text{R} \to$ \foreignlanguage{greek}{ἀποτελεῖσθαι} Willems} ; \textbf{v.~374 \foreignlanguage{greek}{Ἀρ[χίκλ]ει'} $\Psi^5$ (Hunt) : \foreignlanguage{greek}{Τιμόκλει'} $\text{R}, \Sigma$, Souda $\varepsilon~2616$}.
+\begin{itemize}
+  \item \textbf{Signes antiques et \italique{notae personarum} :} $\text{R}^1$ marque le changement d'interlocuteur par le \textbf{\italique{dikolon} (:)} à l'intérieur du vers et la \textbf{\italique{paragraphos} (—)} sous le début du vers. Les noms abrégés des personnages ajoutés en marge par \Rdeux{} (\auDessus{εὐ}{ρ}, μ\auDessus{ν}{Η}, μν\auDessus{η}{σ}, κ\auDessus{η}{δ}, ἀγάθ/, χορ/, γϋ/, τοξ/) comportent de nombreuses méprises (ex. vv.~31--32, 71--74, 101--129, 252--264, 637--643, 745 démenti par \PsiDeux{}, 868, 928, 1015--1021, 1090/1092). Aux vv.~383 (\texttt{f.~167r}), 443 (\texttt{f.~167v}), 533 (\texttt{f.~168v}), 659 (\texttt{f.~170r}), 759 (\texttt{f.~171r}), 1056 et 1065 (\texttt{f.~175r}), 1098 et 1107 (\texttt{f.~175v}), $\Rpc/\Rdeux$ a inscrit en marge de véritables gloses descriptives (\lecon{καλλιλεξία γυνή}, \lecon{ευρ\auDessus{ι}{π} ηχω}, \lecon{ὁ μνησίλοχος ὡς ἀνδρομέδα}, \lecon{ευρ\auDessus{ι}{π} ως περσευς}, \lecon{κ\auDessus{η}{δ} ως ανδρομ\auDessus{ε}{δ}}).
+  \item \textbf{Les quatre \italique{parepigraphai} (didascalies scéniques antiques conservées dans la colonne de R) :}
+  \begin{enumerate}
+    \item \textbf{post v.~99 (\texttt{f.~163v}) :} \lecon{μινυρισμός} (« fredonnement d'Agathon », commenté par $\Sigma^{\text{R}}$ : μεταξὺ τῶν δυοῖν ἀξιοῦσί τινες γράφειν `μινυρισμός', ὡς πολλὰ τοιαῦτα παρεπιγράφεται) ;
+    \item \textbf{post v.~129 (\texttt{f.~164r}) :} \lecon{ὀλολύζει ὁ γέρων} (« le vieillard pousse l'\italique{ololygè} ») ;
+    \item \textbf{post v.~276 (\texttt{f.~165v}) :} \lecon{ὀλολύζουσι τε ἱερὸν ὠθεῖται} (confirmé par \PsiUn{} ολολυ[ et commenté par $\Sigma^{\text{R}}$ : παρεπιγραφή. ἐκκυκλεῖται ἐπὶ τὸ ἔξω τὸ θεσμοφόριον) ;
+    \item \textbf{post v.~1187 (\texttt{f.~176v}) :} \lecon{ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος·} (confirmé au IV\ieme{} s. par \PsiTrois{} μ]ενο[).
+  \end{enumerate}
+\end{itemize}
 
-  \item[\textbf{Folio 10 --- \texttt{f.~167r} (\texttt{Classense 169r}, planche 170 dr.) : vv.~380--422.}]
-  \textbf{v.~383 \foreignlanguage{greek}{(}\texttt{\textbackslash auDessus\{γυ\}\{ν\}}\foreignlanguage{greek}{)} $\text{R}^{\text{ac}} \to$ \foreignlanguage{greek}{(καλλιλεξία γυνή)} $\text{R}^{\text{pc}}, \text{M}$} (\foreignlanguage{greek}{(Μίκα)} Rogers) ; vv.~392--393 \foreignlanguage{greek}{μυχοτρόπους, ἀνδρεαστρίας, οἰνοπότιδας} $\text{R} \to$ \foreignlanguage{greek}{μοιχοτρόπους, ἀνδρεραστρίας, οἰνοπίπας} Souda ; v.~400 \foreignlanguage{greek}{τις πλέκῃ} $\text{R} \to$ \foreignlanguage{greek}{τις ξυμπλέκῃ} Willems ; v.~417 \foreignlanguage{greek}{μυχοῖς} $\text{R} \to$ \foreignlanguage{greek}{μοιχοῖς} $\text{M}$ ; v.~419 \foreignlanguage{greek}{ταμιεύεσθαι} $\text{R} \to$ \foreignlanguage{greek}{ταμιεῦσαι καὶ} Reiske.
+\Partie{5. Typologie raisonnée des fautes paléographiques dans les \italique{Thesmophories}}
 
-  \item[\textbf{Folio 11 --- \texttt{f.~167v} (\texttt{Classense 169v}, planche 171 g.) : vv.~423--465.}]
-  v.~433 \foreignlanguage{greek}{οὔπω τε} $\text{R}^{\text{ac}} \to$ \foreignlanguage{greek}{οὐπώποτε} $\text{R}^{\text{pc}}$ (\foreignlanguage{greek}{οὔπω} Dindorf) ; v.~437 \foreignlanguage{greek}{εἰδέας} $\text{R}$ (\foreignlanguage{greek}{ἰδέας} Souda) ; v.~443 \foreignlanguage{greek}{γυνὴ ἑτέρα} $\text{R}^{\text{pc}}$ ; \textbf{v.~446 \foreignlanguage{greek}{ἐν Κύπρῳ} $\text{R} \to$ \foreignlanguage{greek}{ἔγκυος} \texttt{Bibi}} ; v.~456 \foreignlanguage{greek}{τοῖς} Plutarque, Aulu-Gelle : om. $\text{R}$ ; v.~462 \foreignlanguage{greek}{ἄκερα} $\text{R} \to$ \foreignlanguage{greek}{ἄκαιρα} Zanetti.
+\begin{enumerate}
+  \item \textbf{Fautes d'onciale (\italique{majuscula}) et de \italique{scriptio continua} :}
+  \begin{itemize}
+    \item \textbf{Α / Δ / Λ :} v.~910 (\texttt{f.~173r}) chute de $\Lambda$ devant $\text{Α}$ dans ΑΠΟΛΑΙΦΙΩΝ $\to$ ἀπὸ ἀφύων R (restitué \lecon{ἀπὸ λαιφίων} par \textbf{Bibi} d'après Hésychius $\lambda\ 171$) ; v.~1040 (\texttt{f.~174v}) ΛΙ/ΑΝ (λιτομέναν R : ἀντομένα $\Sigma$).
+    \item \textbf{Ε / Θ / Ο / Ϲ (lettres rondes) :} v.~815 (\texttt{f.~172r}) ΠΟΟΥΝΤΑϹ $\to$ ΠΟΘΟΥΝΤΑϹ (ποθοῦντας R pour \lecon{ποιοῦντας}) ; v.~1091 (\texttt{f.~175v}) ΠΛΗΞΑϹΑΥΤΗ $\to$ πλησίον αὕτη R (\lecon{πλήξασ' αὕτη} \textbf{Bibi}).
+    \item \textbf{ΙϹ / Π et Τ / Γ :} v.~657 (\texttt{f.~170r}) ΕΠΕΛΗΛΥΘΕ $\to$ εἰσελήλυθεν R (\lecon{ἐπελήλυθε} Handley) ; v.~702 (\texttt{f.~170v}) ΑΠΑΝΤΑΡ $\to$ ἅπαν γὰρ R (\lecon{ἅπαντ' ἄρ'} Bentley).
+    \item \textbf{Κ / Λ :} v.~711 (\texttt{f.~170v}) ΟΥΚΕΞΕΙ $\to$ οὐ λέξεις R, Souda (\lecon{οὐκ ἔξει.} \textbf{Bibi} d'après la scholie interne ὅθεν οὐ φεύξῃ).
+    \item \textbf{Médivisions d'onciale :} v.~24 (\texttt{f.~162v}) προσμάθοι· μὴ R pour \lecon{προσμάθοιμι} ; v.~260 (\texttt{f.~165v}) ἠραρμοσηι R pour \lecon{ἆρ' ἁρμόσει} ; v.~609 (\texttt{f.~169v}) τίτθην η δί' R pour \lecon{τίτθη νὴ Δί'} ; v.~644 (\texttt{f.~170r}) τὸ δὶ δὴ ἔκυψε R pour \lecon{τοδὶ διέκυψε} ; v.~781 (\texttt{f.~171v}) ΤΟΡΩ coupé τὸ ῥῶ R au lieu de \lecon{τορῶ} (« je grave », \textbf{Bibi} ap. Hésychius $\tau\ 1162$) ; v.~1047 (\texttt{f.~175r}) ἀνέτικτε R pour \lecon{ἄτεγκτε} ; v.~1071 (\texttt{f.~175r}) μέρος ἐξέλαχον; R pour \lecon{μόρος ἔξελ' ἄχος.} (\textbf{Bibi}).
+    \item \textbf{Iota muet adscrit ($\text{R}^1$ n'emploie jamais l'iota souscrit) :} v.~250 (\texttt{f.~165r}) τουτωί R ; v.~500 (\texttt{f.~168r}) la glose ᾦόν ἐστιν ἐγκεκαλυμμένον écrite avec iota adscrit (\textbf{ΩΙΟΝ}) a été lue par iotacisme et bêtacisme \textbf{ΟΙΟΝ} (οἷόν), engendrant le vers interpolé ὑπ' αὐγὰς οἷόν ἐστιν ἐγκεκαλυμμένον (expliqué et athétisé par \textbf{Bibi} à la suite de van Herwerden).
+  \end{itemize}
+  \item \textbf{Fautes de minuscule ancienne (IX\ieme{}--X\ieme{} s.) :}
+  \begin{itemize}
+    \item \textbf{$\beta \leftrightarrow \kappa$ (bêta bilobé en $u$) :} v.~895 (\texttt{f.~173r}) βαϋζα R pour \lecon{κόνυζα} (\textbf{Bibi}) ; $\Sigma^{\text{R}}$ ad v.~1174 (\texttt{f.~176v}) τὸ ἁβρῶς βαδίζειν R pour \lecon{τὸ ἄκρως βαδίζειν} (\textbf{Bibi} ex Zonaras p.~1171).
+    \item \textbf{$\beta \leftrightarrow \nu$ et $\beta \leftrightarrow \theta$ :} v.~489 (\texttt{f.~168r}) κυνδ' \Rac{} $\to$ \lecon{κύβδ'} \Rpc{} ; v.~1017 (\texttt{f.~174v}) λάβοιμι R pour \lecon{λάθοιμι}.
+    \item \textbf{$\mu \leftrightarrow \nu$ :} v.~50 (\texttt{f.~163r}) πρανοῦν $\to$ πράμος R (\textbf{Bibi}) ; v.~162 (\texttt{f.~164r}) ἐκεχήνεσαν $\to$ ἐχύμησαν R (\lecon{ἐκεχήνεσαν} \textbf{Bibi}).
+    \item \textbf{$\alpha \leftrightarrow \text{ο}$ et $\varepsilon\iota \leftrightarrow \eta$ :} v.~179 (\texttt{f.~164v}) κοινῇ R pour \lecon{καινῇ} ; v.~1174 (\texttt{f.~176v}) κἀνακόλπασον R pour \lecon{κἀνακάλπασον} ; v.~1201 (\texttt{f.~176v}) ἀρτομουξία R pour \lecon{Ἀρταμουξία}.
+    \item \textbf{$\nu \leftrightarrow \varsigma$ et $-\iota\kappa \leftrightarrow -\text{οι}\varsigma$ :} v.~710 (\texttt{f.~170v}) ἥκεις τ' R pour \lecon{ἥκειν γ'} (\textbf{Bibi} ap. Photius $\eta\ 88$) ; v.~1198 (\texttt{f.~176v}) κ\inRas{ω}{ο}μίζεις αὐτοῖς \Rpc{} pour \lecon{(Τοξότ.) κομίζι σ' αὐτίκ'} (\textbf{Bibi}).
+  \end{itemize}
+  \item \textbf{Iotacismes, métathèses de $\sigma$ et gloses intruses :}
+  \begin{itemize}
+    \item \textbf{Iotacismes et bêtacismes vocaliques :} $\text{οι} \leftrightarrow \upsilon$ (v.~392 μυχοτρόπους, v.~417 μυχοῖς, v.~501 μυχὸν, v.~995 συῒ κτυπεῖται R pour \lecon{σοὶ κτυπεῖται}) ; $\alpha\iota \leftrightarrow \varepsilon$ (v.~462 ἄκερα, v.~571 παύσασθαι, v.~740 ἀπόκρινέ, v.~844 ἀφερεῖσθαι, v.~947 πέσωμεν R pour \lecon{παίσωμεν}, vv.~1127 et 1227 πέπυσται R pour \lecon{πέπαισται}).
+    \item \textbf{Haplographie, prothèse ou métathèse de $\sigma$ :} v.~556 (\texttt{f.~169r}) ὡς τλεγγίδας R pour \lecon{στλεγγίδας} \Mon{} ; v.~834 (\texttt{f.~172r}) Τηνίοισι R pour \lecon{Στηνίοισι} $\Sigma$, Souda ; v.~1114 (\texttt{f.~175v}) σκύτο R pour \lecon{κύστο} ($=$ κύσθον) ; v.~1188 (\texttt{f.~176v}) τὸ σποστίον \Rac{} $\to$ \lecon{τὸ \inRas{σ}{}ποστίον} \Rpc{} ; v.~557 (\texttt{f.~169r}) τὸν σῖτον R $\to$ \lecon{τὸν κύσθον} (\textbf{Bibi}).
+    \item \textbf{Gloses intruses et transpositions :} vv.~297--298 (\texttt{f.~166r} τῇ Δήμητρῃ καὶ τῇ Κόρῃ et τῇ Γῇ) ; vv.~822--823 (\texttt{f.~172r} οἱ καλαθίσκοι glose intruse de κανοῦν mélu κανὼν $\to$ \lecon{ταὐτὸ κανοῦν καὶ τὸ σκιάδειον·} \textbf{Bibi}) ; v.~1031 (\texttt{f.~174v} κημὸν ἕστηκ' ἔχουσ' R $\to$ \lecon{ἕστηκ' ἔχουσα κημόν} \textbf{Bibi}).
+  \end{itemize}
+\end{enumerate}
 
-  \item[\textbf{Folio 12 --- \texttt{f.~168r} (\texttt{Classense 170r}, planche 171 dr.) : vv.~466--508.}]
-  \textbf{v.~477 \foreignlanguage{greek}{πολλ'} $\text{R} \to$ \foreignlanguage{greek}{πολλά γ'· ἀλλ'} \texttt{Bibi}} ; \textbf{v.~489 \foreignlanguage{greek}{κυνδ'} $\text{R}^{\text{ac}} \to$ \foreignlanguage{greek}{κύβδ'} $\text{R}^{\text{pc}}, \text{M}$} ; \textbf{v.~493 \foreignlanguage{greek}{ληκώμεθα} $\text{R}^{\text{ac}}$ (?), Souda $\to$ \foreignlanguage{greek}{κινώμεθα} $\text{R}^{\text{pc}}$} ; v.~500 del. van Herwerden ; v.~501 \foreignlanguage{greek}{μυχὸν} $\text{R} \to$ \foreignlanguage{greek}{μοιχὸν} Grynaeus ; \textbf{v.~506 \foreignlanguage{greek}{βοῴη} suppl. $\text{R}^{\text{pc}}$}.
+\Partie{6. Tableaux récapitulatifs : grattages (\italique{in rasura}), corrections et conjectures de \textbf{Bibi}}
 
-  \item[\textbf{Folio 13 --- \texttt{f.~168v} (\texttt{Classense 170v}, planche 172 g.) : vv.~509--550.}]
-  \textbf{v.~512 \texttt{\textbackslash auDessus\{εἰ\}\{η\}\textbackslash inRas\{σ\}\{\}}\foreignlanguage{greek}{έφερε} $\text{R}^{\text{pc}}$} (\foreignlanguage{greek}{ἥ 'φερεν} Bentley) ; v.~514 \foreignlanguage{greek}{αὖτ' ἔκμαγμα} (ex \foreignlanguage{greek}{έγμαγμα}) $\text{R}^{\text{pc}}$ (\foreignlanguage{greek}{αὐτέκμαγμα} Reiske) ; v.~533 \foreignlanguage{greek}{(γυνὴ τις)} $\text{R}^{\text{pc}}$ | \foreignlanguage{greek}{Ἄγραυλον} $\text{R} \to$ \foreignlanguage{greek}{Ἄγλαυρον} Daubuz ; v.~549 \foreignlanguage{greek}{ἂν} ex \foreignlanguage{greek}{ἂρ} corr. $\text{R}^{\text{pc}}$ ; v.~550 \foreignlanguage{greek}{δ' ἁπαξαπάσας} $\text{M}^{\text{ac}}$.
+\sousPartie{6.1. Répertoire exhaustif des grattages (\italique{in rasura}), omissions et corrections de $\Rac / \Rpc / \Rdeux$}
 
-  \item[\textbf{Folio 14 --- \texttt{f.~169r} (\texttt{Classense 171r}, planche 172 dr.) : vv.~551--589.}]
-  \textbf{v.~556 \foreignlanguage{greek}{τλεγγίδας} $\text{R}$ (haplographie de $\sigma$ après \foreignlanguage{greek}{ὡς}) $\to$ \foreignlanguage{greek}{στλεγγίδας} $\text{M}$} ; \textbf{v.~557 \foreignlanguage{greek}{τὸν σῖτον} $\text{R}, \Sigma$, Souda $\to$ \foreignlanguage{greek}{τὸν κύσθον} \texttt{Bibi}} (cf. v.~1114) ; v.~569 \foreignlanguage{greek}{πρόσθες} $\text{R} \to$ \foreignlanguage{greek}{πρόσθιγε} Willems ; v.~581 \foreignlanguage{greek}{ἀφράκτοις} $\text{R} \to$ \foreignlanguage{greek}{ἀφάρκτοις} Dindorf.
+\begin{small}
+\begin{longtable}{c c p{3.6cm} p{4.2cm} p{3.8cm}}
+\toprule
+\textbf{Vers} & \textbf{Folio} & \textbf{Avant corr. (\Rac{})} & \textbf{Après corr. ($\Rpc / \Rdeux$)} & \textbf{Texte L.~Hauseux (\textbf{Bibi})} \\
+\midrule
+\endhead
+v.~28 & \texttt{f.~162v} & v.~28 post v.~30 transp. & Ordre rétabli (\Rpc{}) & v.~28 (\lecon{ἀκούω} Brunck) \\
+v.~32 & \texttt{f.~162v} & μ\auDessus{ν}{Η} ante οὐχ ἑόρακα & Sigle μ\auDessus{ν}{Η} gratté (\Rpc{}), (Εὐρ.) $\Sigma$ & \lecon{(Εὐρ.)} (\lecon{ἑόρακας} Bentley) \\
+v.~33 & \texttt{f.~162v} & Omis dans la colonne & Ajouté en marge (\Rpc{} ; om.~\Mon{}) & v.~33 maintenu \\
+v.~34 & \texttt{f.~162v} & καὶ μεγ' & ὶ gratté (\Rpc{} ; καὶ μεγ' \Mon{}) & \lecon{κἀμέ γ'} \\
+v.~45 & \texttt{f.~163r} & λέγεις & \lecon{λέγει\inRas{ς}{}} (\Rpc{}) & \lecon{λέγει} \\
+v.~60 & \texttt{f.~163r} & κατὰ omis & \lecon{κατὰ} add.~\Rpc{} & \lecon{κατὰ} \\
+v.~263 & \texttt{f.~165v} & --- & \lecon{γ' ο\auDessus{ῦ}{ν}} \Rpc{} & \lecon{γοῦν} \\
+v.~295 & \texttt{f.~166r} & Κῆρυξ & \lecon{\inRas{Κῆρυξ}{}} \Rdeux{} (\auDessus{κη}{ρυ} \Mon{}) & \lecon{(Κορ.-Ἱέρεια)} (\textbf{Bibi}) \\
+v.~306 & \texttt{f.~166r} & τὴν ἀγορεύουσαν & \lecon{\expo{καὶ}τὴν ἀγορεύουσαν} \Rdeux{} & \lecon{καὶ τὴν ἀγορεύουσαν} \\
+v.~320 & \texttt{f.~166r} & θηροφώνε παῖ-- & \lecon{θηροφ\inRas{ω}{ό}νε παῖ--} \Rpc{} & \lecon{θηροφόνη} (Hermann) \\
+v.~383 & \texttt{f.~167r} & (\auDessus{γυ}{ν}) & (καλλιλεξία γυνή) \Rpc{}, \Mon{} & \lecon{(Μίκα)} (Rogers) \\
+v.~433 & \texttt{f.~167v} & οὔπω τε & οὐπώποτε \Rpc{} & \lecon{οὔπω} (Dindorf) \\
+v.~443 & \texttt{f.~167v} & --- & (γυνὴ ἑτέρα) \Rpc{} & \lecon{(Γυνὴ Β')} \\
+v.~489 & \texttt{f.~168r} & κυνδ' & \lecon{κύβδ'} \Rpc{}, \Mon{} & \lecon{κύβδ'} \\
+v.~493 & \texttt{f.~168r} & ληκώμεθα (cf. Souda) & \inRas{ληκ}{κιν}ώμεθα \Rpc{} & \lecon{ληκώμεθα} \\
+v.~506 & \texttt{f.~168r} & βοῴη omis & \lecon{βοῴη} suppl.~\Rpc{} & \lecon{βοῴη} \\
+v.~512 & \texttt{f.~168v} & εἰσέφερε & \lecon{\auDessus{εἰ}{η}\inRas{σ}{}έφερε} \Rpc{} & \lecon{ἥ 'φερεν} (Bentley) \\
+v.~514 & \texttt{f.~168v} & αὖτ' έγμαγμα & αὖτ' ἔκμαγμα \Rpc{} & \lecon{αὐτέκμαγμα} (Reiske) \\
+v.~533 & \texttt{f.~168v} & --- & (γυνὴ τις) \Rpc{} & \lecon{(Μίκα)} (Rogers) \\
+v.~549 & \texttt{f.~168v} & ἂρ & \lecon{ἂν} corr.~\Rpc{} & \lecon{ἂν} \\
+v.~630 & \texttt{f.~169v} & μέντοι omis (et om.~\Mon{}) & \lecon{μέντοι} in mg.~\Rpc{}, Souda & \lecon{μέντοι} \\
+v.~634 & \texttt{f.~169v} & δεῦρο (\Rac{}, \Mon{}) & \lecon{δευρ ὦ} \Rdeux{} & \lecon{δεῦρ' ὦ} \\
+v.~659 & \texttt{f.~170r} & --- & (Ἡμιχ. γυν.) \Rpc{} & --- \\
+v.~669 & \texttt{f.~170r} & ἅπασιν ἅπασιν ἔσται & ἅπασιν \inRas{ἅπασιν}{} ἔσται \Rpc{} & \lecon{ἀνδράσιν ἔσται} (Beer) \\
+v.~693 & \texttt{f.~170v} & ἀφεῖτ' (\Rac{}, \Mon{}) & \lecon{ἀφε\auDessus{ῖ}{ῆ}τ'} \Rdeux{} & \lecon{ἀφῆτ'} \\
+v.~754 & \texttt{f.~171r} & σφαγίον & \lecon{σφαγεῖον} \Rpc{}, \Mon{} & \lecon{σφαγεῖον} \\
+v.~759 & \texttt{f.~171r} & $\emptyset$ & (ἄλλη γυνή) \Rpc{} (ad 760) & \lecon{(Κρίτ.)} (Sommerstein) \\
+v.~798 & \texttt{f.~171v} & αἰσχυνθῆς & αἰσχυνθ\inRas{η}{εὶ}ς \Rpc{} & \lecon{αἰσχυνθεῖσ'} (Zanetti) \\
+v.~838 & \texttt{f.~172v} & ὑστέρον & \lecon{ὑστέρ\auDessus{ο}{α}ν} \Rpc{} & \lecon{ὑστέραν} \\
+v.~844 & \texttt{f.~172v} & τὰδὶ & \lecon{τ\auDessus{ὰ}{ο}δὶ} \Rpc{} (\lecon{τοδί} \Mon{}) & \lecon{τοδί} \\
+v.~860 & \texttt{f.~172v} & σί & σύ (ex σί) \Rdeux{} & \lecon{σοί} (Zanetti) \\
+v.~892 & \texttt{f.~173r} & αὖτὸν & αὐτὸν \Rpc{} & \lecon{αὖ τὸν} (Casaubon) \\
+v.~942 & \texttt{f.~173v} & γε τοῖς & \lecon{\inRas{γε}{} τοῖς} \Rdeux{} & \lecon{τοῖς} \\
+v.~1006 & \texttt{f.~174v} & κακοδαίμω γέρων & \lecon{κακοδαίμω\expo{ν} γέρ\inRas{ω}{ο}ν} \Rpc{} & \lecon{κακοδαίμων γέρον} \\
+v.~1022 & \texttt{f.~174v} & $\emptyset$ & \lecon{(Μνη.)} praef.~\Rpc{}, \Mon{} & \lecon{(Μνη.)} \\
+v.~1056 & \texttt{f.~175r} & $\emptyset$ & ευρ\auDessus{ι}{π} ηχω in mg.~\Rpc{}, \Mon{} & \lecon{(Εὐρ.)} \\
+v.~1065 & \texttt{f.~175r} & $\emptyset$ & ὁ μνησίλοχος ὡς ἀνδρομέδα \Rpc{} & \lecon{(Μνη.)} \\
+v.~1083 & \texttt{f.~175v} & λαλεῖς bis & \lecon{λαλῖς} bis \Rdeux{}, $\Sigma$ & \lecon{λαλῖς} bis \\
+v.~1086 & \texttt{f.~175v} & πρῶτε bis & π\inRas{ρ}{}ωτε bis \Rpc{} (πωτε \Mon{}) & \lecon{†πῶτε†} bis (\textbf{Bibi}) \\
+v.~1087 & \texttt{f.~175v} & \lecon{λαλῖς} bis \Rac{} & λαλεῖς bis \Rpc{} & \lecon{λαλῖς} bis \\
+v.~1098 & \texttt{f.~175v} & $\emptyset$ & ευρ\auDessus{ι}{π} ως περσευς \Rpc{} & \lecon{(Εὐρ.)} \\
+1102--3 & \texttt{f.~175v} & Omis par $\text{R}^1$ (et \Mon{}) & Ajoutés en marge inf.~(\Rdeux{}) & \lecon{Γόργος ... κεπαλή} \\
+v.~1107 & \texttt{f.~175v} & $\emptyset$ & κ\auDessus{η}{δ} ως ανδρομ\auDessus{ε}{δ} \Rpc{} & \lecon{(Μνη.)} \\
+v.~1126 & \texttt{f.~175v} & τὸ καὶ παλῆς & τὸ κεπαλῆς \Rpc{}, \Mon{} & \lecon{τὸ κεπαλή σ'} (Brunck) \\
+v.~1127 & \texttt{f.~175v} & ἀποκέκοιψ' & ἀποκεκόψοι \Rpc{} & \lecon{ἀποκεκόψι} (Brunck) \\
+v.~1135 & \texttt{f.~176r} & τῆ μαστηγαν & τῆ μαστιγᾶν \Rpc{} & \lecon{τῇ μάστιγ' ἂν} \\
+p.~1143 & \texttt{f.~176r} & στυγνὰς ὡσσε & \lecon{del.}~\Rpc{} (στυγνὰς ὡς ἐ \Mon{}) & supprimé \\
+v.~1172 & \texttt{f.~176v} & ἐμὸν γ' & \lecon{ἐμὸν \inRas{γ'}{}} \Rdeux{} & \lecon{ἐμὸν} \\
+v.~1173 & \texttt{f.~176v} & ἔφρον & \lecon{ἔφραζον} \Rpc{} & \lecon{ἔφραζον} \\
+v.~1185 & \texttt{f.~176v} & ὡ σπεριπο & ὡ στεριπὸ \Rpc{} & \lecon{ὡς στεριπὸ} (\Mon{}) \\
+v.~1187 & \texttt{f.~176v} & κλαυσ' εϊ γ' & \lecon{κλαυσ\inRas{' ε}{}ϊ γ'} \Rdeux{} & \lecon{κλαυσῖ γ'} \\
+v.~1188 & \texttt{f.~176v} & τὸ σποστίον & \lecon{τὸ \inRas{σ}{}ποστίον} \Rpc{} & \lecon{τὸ ποστίον} \\
+v.~1195 & \texttt{f.~176v} & σὺ κάρισοσ οὐ & \inRas{σὺ}{} κάρισοσ οὐ \Rpc{} & \lecon{κάρισο σὺ} (Brunck) \\
+v.~1198 & \texttt{f.~176v} & κωμίζεις αὐτοῖς & κ\inRas{ω}{ο}μίζεις αὐτοῖς \Rpc{} & \lecon{(Τοξότ.) κομίζι σ' αὐτίκ'} (\textbf{Bibi}) \\
+v.~1208 & \texttt{f.~176v} & λέλυσον & \lecon{λέλυσο\inRas{ν}{}} \Rpc{} (cf.~\PsiQuatre{}) & \lecon{λέλυσο} \\
+v.~1210 & \texttt{f.~176v} & τυγάθριον (\italique{ut vid.}) & \lecon{τυγάτριον} \Rpc{} & \lecon{τυγάτριον} \\
+\bottomrule
+\end{longtable}
+\end{small}
 
-  \item[\textbf{Folio 15 --- \texttt{f.~169v} (\texttt{Classense 171v}, planche 173 g.) : vv.~590--634 ($\mathbf{\Psi^1}$ vv.~594--596).}]
-  v.~596 \foreignlanguage{greek}{πεπύσμην} $\text{R}, \Psi^1$ (\foreignlanguage{greek}{'πεπύσμην} Faber) ; \textbf{v.~630 \foreignlanguage{greek}{μέντοι} $\text{R}^{\text{pc}}$ in mg., Souda $\pi~2563$ : om. $\text{R}^{\text{ac}}, \text{M}$} ; \textbf{v.~634 \foreignlanguage{greek}{δεῦρο} $\text{R}^{\text{ac}}, \text{M} \to$ \foreignlanguage{greek}{δευρ ὦ} $\text{R}^2$} | \foreignlanguage{greek}{Κλεισόσθενες} $\text{R} \to$ \foreignlanguage{greek}{Κλείσθενες} Bonini.
+\sousPartie{6.2. Tableau récapitulatif des conjectures et choix éditoriaux propres à Louis Hauseux (\textbf{Bibi})}
 
-  \item[\textbf{Folio 16 --- \texttt{f.~170r} (\texttt{Classense 172r}, planche 173 dr.) : vv.~635--678.}]
-  \textbf{vv.~637--643 redistribués par \texttt{Bibi} : \foreignlanguage{greek}{(Μνη.)} 637--638 (avec \foreignlanguage{greek}{χαλᾷ} v.~638), \foreignlanguage{greek}{(Μίκα)} 639--640, \foreignlanguage{greek}{(Κλεισθ.)} 642--643} ; \textbf{v.~657 \foreignlanguage{greek}{εἰσελήλυθεν} $\text{R} \to$ \foreignlanguage{greek}{ἐπελήλυθε} Handley} (confusion onciale $\text{ΙϹ/Π}$) ; v.~659 \foreignlanguage{greek}{(Ἡμιχ. γυν.)} $\text{R}^{\text{pc}}$ ; \textbf{v.~669 \foreignlanguage{greek}{ἅπασιν }\texttt{\textbackslash inRas\{ἅπασιν\}\{\}}\foreignlanguage{greek}{ ἔσται} $\text{R}^{\text{pc}}$} (\foreignlanguage{greek}{ἀνδράσιν ἔσται} Beer ap. Hermann).
+\begin{small}
+\begin{longtable}{c c p{3.6cm} p{4.2cm} p{4.0cm}}
+\toprule
+\textbf{Vers} & \textbf{Folio} & \textbf{Leçon de R} & \textbf{Texte / conjecture de \textbf{Bibi}} & \textbf{Justification paléographique} \\
+\midrule
+\endhead
+v.~1 & \texttt{f.~162v} & χελιδὼν & \lecon{Χελιδὼν} (\italique{ap.~Clements}) & Nom du devin \italique{Khelidôn} \\
+vv.~30--31 & \texttt{f.~162v} & Ἀγάθων (bis) & \lecon{Ἁγάθων} (30) / \lecon{ἀγαθῶν} (31) & Crase et calembour de \texttt{Μνη.} \\
+v.~50 & \texttt{f.~163r} & πράμος ἡμέτερος & \lecon{πρανοῦν προτέρους} & Hésych.~$\pi\ 3188$ + signe de προ- \\
+vv.~71--74 & \texttt{f.~163r} & (Μνη.) 71, (Εὐρ.) 72--74 & \lecon{(Μνη.) (71--74)} & Conformément à $\Sigma^{\text{R}}$ \\
+v.~100 & \texttt{f.~163v} & μύρμηκος ἀτραπούς & \lecon{Μύρμηκος ἀτραπούς} & Hésych.~$\mu\ 1904$ (anthroponyme) \\
+vv.~162--3 & \texttt{f.~164r} & ἐχύμησαν ... διεκίνων & \lecon{ἐκεχήνεσαν ... διέκειντ'} & Haplogr.~εκεχ $\to$ εχ, $\nu/\mu$ \\
+v.~217 & \texttt{f.~165r} & διδόναι γ' αὐτὸν & \lecon{διδόναι γ' ἑαυτὸν} & \italique{Auctore Willems} \\
+vv.~263--4 & \texttt{f.~165v} & (Ἀγάθ.) 263, $\emptyset$ 264 & \lecon{(Ἀγάθ.)} 263 et 264 & Continuité du dialogue \\
+v.~289 & \texttt{f.~165v} & χοῖρον ($\Sigma$ χοιρίον) & \lecon{Χοιρίλ'} (\italique{vel} \lecon{Χοιρίν'}) & Fille de Mnésiloque / ép.~d'Eur. \\
+v.~291 & \texttt{f.~165v} & πρὸς θάληκον & \lecon{πρὸς θυλάκιον} (\italique{vel} \lecon{θάλικα}) & Métathèse / Hésych.~$\theta\ 50$ \\
+$\Sigma$~401 & \texttt{f.~167r} & αυταόρα αἱστεφανηπλόκουν & \lecon{αὐτὰ κόραις στεφαναπλόκεο} & Sappho fr.~70/125 restitué \\
+v.~446 & \texttt{f.~167v} & ἐν Κύπρῳ & \lecon{ἔγκυος} & ΕΝΚΥΟϹ $\to$ ΕΝΚΥΠΡΩΙ \\
+v.~477 & \texttt{f.~168r} & πολλ' (incomplet) & \lecon{πολλά γ'· ἀλλ'} & Saut de ΛΛ à ΛΛ \\
+v.~557 & \texttt{f.~169r} & τὸν σῖτον & \lecon{τὸν κύσθον} & Métathèse de $\sigma$ (cf.~v.~1114) \\
+vv.~637--43 & \texttt{f.~170r} & μν\auDessus{η}{σ} 638, (Γυνή) 640 & \lecon{(Μνη.)} 637--8, \lecon{χαλᾷ}, \lecon{(Μίκα)} 639--40, \lecon{(Κλεισθ.)} 642--3 & Redistribution scénique \\
+v.~704 & \texttt{f.~170v} & ἐξάρξω & \lecon{ἐξαρήξω} & Hésych.~$\varepsilon\ 3599$ \\
+v.~710 & \texttt{f.~170v} & ἥκεις τ' & \lecon{ἥκειν γ'} & Photius $\eta\ 88$ ($\nu \to \varsigma$) \\
+v.~711 & \texttt{f.~170v} & οὐ λέξεις & \lecon{οὐκ ἔξει.} & $\Sigma^{\text{R}}$ ὅθεν οὐ φεύξῃ (Κ/Λ) \\
+v.~721 & \texttt{f.~171r} & ἀθέοις ἔργοις γὰρ & \lecon{ξὺν ἀθέοις ἔργοις γὰρ} & \italique{Ap.~Taillardat} (cf.~v.~716) \\
+v.~781 & \texttt{f.~171v} & τὸ ῥῶ & \lecon{τορῶ} & Hésych.~$\tau\ 1162$ (ΤΟΡΩ) \\
+vv.~822--3 & \texttt{f.~172r} & τἀντίον ὁ κανὼν οἱ καλαθίσκοι / τὸ σκιάδειον· & \lecon{ταὐτὸ κανοῦν καὶ τὸ σκιάδειον·} & Expulsion de la glose οἱ καλαθίσκοι \\
+v.~839 & \texttt{f.~172v} & ὦ πόλεις & \lecon{ωὖπολι} ($\text{ὦ Εὔπολι}$) & Crase vocative (date : 410) \\
+v.~853 & \texttt{f.~172v} & Ἑλένη & \lecon{ἑλένην} & Hésych.~$\varepsilon\ 1995$ (torche) \\
+v.~895 & \texttt{f.~173r} & βαϋζα & \lecon{κόνυζα} & Confusion minuscule $\kappa \to \beta$ \\
+v.~910 & \texttt{f.~173r} & ἀπὸ ἀφύων & \lecon{ἀπὸ λαιφίων} & Hésych.~$\lambda\ 171$ (chute de $\Lambda$) \\
+v.~1031 & \texttt{f.~174v} & κημὸν ἕστηκ' ἔχουσ' & \lecon{ἕστηκ' ἔχουσα κημόν} & Inversion de mots dans R \\
+v.~1041 & \texttt{f.~174v} & φεύγουσαν & \lecon{ψεφαυγοῦς} & $\Sigma$ ad 1054, Hésych.~$\psi\ 135$ \\
+v.~1069 & \texttt{f.~175r} & δι' Ὀλύμπου & conj.~\lecon{†δι'† ὀλυμπίας} & Hésych.~$\text{ο}\ 649$ \\
+v.~1071 & \texttt{f.~175r} & μέρος ἐξέλαχον; & \lecon{μόρος ἔξελ' ἄχος.} & ΜΟΡΟϹΕΞΕΛΑΧΟϹ \\
+v.~1072 & \texttt{f.~175r} & θανάτου τλήμων & conj.~\lecon{θαλάττης τέμνον} & Parodie d'\italique{Andromède} \\
+v.~1074 & \texttt{f.~175r} & στωμυλωμένη (un seul $\lambda$) & \lecon{στωμυλιομενής} & Calembour d'Écho \\
+v.~1078 & \texttt{f.~175r} & (Εὐρ.) παῦσαι & \lecon{(Εὐρ.) 'παΰσαι} & Écho sonore exact \\
+v.~1079 & \texttt{f.~175r} & βάλλ' ἐς κόρακας & \lecon{βάλλε σύ κόρακας} & Jeu d'écho parodique \\
+v.~1082 & \texttt{f.~175v} & ὀτότυζ' & conj.~\lecon{ὀλόφυγ'} & Jeu d'écho parodique \\
+v.~1085 & \texttt{f.~175v} & σί κακόν; bis (R, $\Sigma^{\text{R}}$) & \lecon{σί κακόν; bis} & Défendu contre τί κακόν; \\
+v.~1086 & \texttt{f.~175v} & π\inRas{ρ}{}ωτε τὸ πωνή; bis & \lecon{†πῶτε† τὸ πωνή; bis} & Rejet de $\Sigma^{\text{R}}$ (πόθεν) \\
+1090, 1092 & \texttt{f.~175v} & (Μνη.) edd.~pler. & \lecon{(Χορ.)} & Conformément à $\Sigma^{\text{R}}$ \\
+v.~1091 & \texttt{f.~175v} & πλησίον αὕτη & \lecon{πλήξασ' αὕτη} & ΠΛΗΞΑϹ $\to$ ΠΛΗϹΙΟΝ \\
+v.~1093 & \texttt{f.~175v} & om.~R & \lecon{<(Εὐρ.) ποῖ ποῖ πέτει>} & Supplément en tête du v.~1093 \\
+v.~1151 & \texttt{f.~176r} & οὗ δὴ ἀνδράσιν οὐ θεμιτὸν & \lecon{οὗ δὴ ἀνδράσιν οὐ θεμιτεύετον} & Duel verbal (-εύετον) \\
+v.~1153 & \texttt{f.~176r} & λαμπάσι & \lecon{λαμπάσι.} & Ponctuation forte \\
+$\Sigma$~1174 & \texttt{f.~176v} & τὸ ἁβρῶς βαδίζειν & \lecon{τὸ ἄκρως βαδίζειν} & Zonaras p.~1171 ($\kappa \to \beta$) \\
+1197, 1215 & \texttt{176v/7r} & συμβήνην (1197), συβήνη (1215) & \lecon{συμβήνην} / \lecon{συμβήνη} & Hésych.~$\sigma\ 2137$ (συμβινεῖν) \\
+v.~1198 & \texttt{f.~176v} & κ\inRas{ω}{ο}μίζεις αὐτοῖς \Rpc{} & \lecon{(Τοξότ.) κομίζι σ' αὐτίκ'} & Confusion $-\iota\kappa \to -\text{οι}\varsigma$ \\
+\bottomrule
+\end{longtable}
+\end{small}
 
-  \item[\textbf{Folio 17 --- \texttt{f.~170v} (\texttt{Classense 172v}, planche 174 g.) : vv.~679--720.}]
-  v.~686 \foreignlanguage{greek}{ἀποτίνεται· | παραχρῆμά τε τίνεται} $\text{R} \to$ \foreignlanguage{greek}{παραχρῆμ' ἀποτίνεται} Hermann ; v.~689 \foreignlanguage{greek}{ἀά} supra lin. $\text{R}$ ; \textbf{v.~693 \foreignlanguage{greek}{ἀφε}\texttt{\textbackslash auDessus\{ῖ\}\{ῆ\}}\foreignlanguage{greek}{τ'} $\text{R}^2$} ; \textbf{v.~702 \foreignlanguage{greek}{ἅπαν γὰρ ἐστὶν ... ἔργα} $\text{R} \to$ \foreignlanguage{greek}{ἅπαντ' ἄρ' ἐστὶ ... πλέα} Bentley + Souda} ; \textbf{v.~704 \foreignlanguage{greek}{ἐξάρξω} $\text{R} \to$ \foreignlanguage{greek}{ἐξαρήξω} \texttt{Bibi}} ap. Hésychius $\varepsilon~3599$ ; \textbf{v.~710 \foreignlanguage{greek}{ἥκεις τ'} $\text{R} \to$ \foreignlanguage{greek}{ἥκειν γ'} \texttt{Bibi}} ap. Photius $\eta~88$ ; \textbf{v.~711 \foreignlanguage{greek}{οὐ λέξεις} $\text{R}$, Souda $\to$ \foreignlanguage{greek}{οὐκ ἔξει.} \texttt{Bibi}} ap. $\Sigma^{\text{R}}$.
+\Partie{7. Répertoire analytique et apparat critique intégral des 30 folios (\texttt{f.~162v} à \texttt{f.~177r})}
 
-  \item[\textbf{Folio 18 --- \texttt{f.~171r} (\texttt{Classense 173r}, planche 174 dr.) : vv.~721--764 ($\mathbf{\Psi^2}$ fr.~1, vv.~742--764).}]
-  \textbf{v.~721 \foreignlanguage{greek}{ξὺν ἀθέοις ἔργοις γὰρ} \texttt{Bibi} ap. Taillardat} ; \textbf{v.~743 changement de locuteur avant \foreignlanguage{greek}{εἰπέ μοι} dans $\Psi^2$} ; \textbf{v.~745 \foreignlanguage{greek}{τυννοῦτον / τυννοῦτο} et absence de \foreignlanguage{greek}{Γϋ.} devant \foreignlanguage{greek}{μικρὸν} dans $\Psi^2$} ; v.~746 \foreignlanguage{greek}{γέγονε} $\Psi^2$ ; \textbf{v.~754 \foreignlanguage{greek}{δός τὸ} $\Psi^2$, Lobeck (contre \foreignlanguage{greek}{δός μοι τὸ} $\text{R}$) et \foreignlanguage{greek}{σφαγίον} $\text{R}^{\text{ac}} \to$ \foreignlanguage{greek}{σφαγεῖον} $\text{R}^{\text{pc}}, \text{M}$} ; v.~759 \foreignlanguage{greek}{(ἄλλη γυνή)} $\text{R}^{\text{pc}}$ (\foreignlanguage{greek}{(Κρίτ.)} Sommerstein).
+\soussousPartie{Folio 01 --- \texttt{f. 162v} (\texttt{Classense 164v}) : \italique{Hypothesis}, liste des personnages et \textbf{vv. 1–42}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{01\_f162v\_classense164v\_vv0001-0042.jpg} \espApp \textbf{Planche double :} \texttt{01\_planche166\_ff162v-163r\_vv0001-0079.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Argument alexandrin (\italique{Hypothesis}) et liste des personnages (\italique{Dramatis personae}) ; Prologue (vv. 1–38 : dialogue philosophico-comique entre Mnésiloque et Euripide devant la maison d'Agathon ; vv. 39–42 : entrée du Serviteur d'Agathon en dimètres anapestiques).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item En haut de la page, $\text{R}^1$ avait réservé un espace de 12 lignes que la seconde main \textbf{\Rdeux{}} a rempli en semi-onciale de glose (\italique{Kleinoziale}) serrée, riche en abréviations tachygraphiques : y figurent l'\italique{Hypothesis} ($\text{Εὐριπίδης κηδεστὴν ἑαυτοῦ Μνησίλοχον...}$) et la liste des personnages, source unique du nom de \textbf{$\text{Μνησίλοχος}$} défendu par Louis Hauseux (« Le dossier Mnésiloque », \texttt{Introduction.tex}, ll. 325–357).
+    \item Au-dessous, le titre de première main encadré d'astérisques : ※ ἀριστοφάνους θεσμοφοριάζουσαι —.
+    \item \textbf{Transposition corrigée (vv. 28–30) :} \Rac{} avait copié le v. 28 après le v. 30 ; \Rpc{} a rétabli l'ordre exact par des signes marginaux de transposition.
+    \item \textbf{Sigle tachygraphique gratté et scholie interlinéaire au v. 32 :} Comme le relève Louis Hauseux (\texttt{vv 1-641.tex}, ll. 777–787), le manuscrit comportait à l'intérieur du vers, devant οὐχ ἑόρακα πώποτε, le sigle tachygraphique μ\auDessus{ν}{Η} ($\overset{\text{Η}}{\text{μν}}$ = $\text{Μνησίλοχος}$), qui a été ensuite \textbf{gratté (\italique{ut videtur})} ; l'erreur de ce sigle est en outre prouvée par la scholie interlinéaire $\Sigma^{\text{R}}$ inscrite juste au-dessus du v. 32 (ἐπειδὴ οὐ πάλαι ἤρξατο διδάσκειν, ἀλλὰ πρὸ τριῶν ἐτῶν πρὸ τούτου), qui ne se comprend qu'avec la 2\ieme{} personne ἑόρακας prononcée par Euripide.
+    \item \textbf{Omission de vers réparée en marge (v. 33) :} Le \textbf{v. 33} ($\text{ἀλλ' ἦν περὶ ὗς καὶ σκοτοδινιῶ;}$) avait été omis dans la colonne par \Rac{} (et reste \textbf{omis dans \Mon{}}) ; il est rajouté dans la marge par \Rpc{}.
+    \item \textbf{Grattage au v. 34 :} \Rac{} avait écrit καὶ μεγ' (copié tel quel par \Mon{}) ; \Rpc{} a gratté l'iota (ὶ eras.) pour amorcer la crase κἀμέ γ'.
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 1–42}) :}
+  \begin{itemize}
+    \item \textbf{v. 1 :} ἄρα πότε R : \lecon{ἆρά ποτε} Biset \espApp χελιδὼν R : \lecon{Χελιδὼν} \lecon{Bibi} ap. Clements (dans l'\italique{Index nominum} et le commentaire : référence au devin \italique{Khelidôn}, πυθοῦ Χελιδόνος).
+    \item \textbf{v. 2 :} ἄνθρωπος R : \lecon{ἅνθρωπος} Boissonade.
+    \item \textbf{v. 3 :} τι R : \lecon{τε} $\Sigma$ (δυνατόν), Souda $\text{οι}\ 150$.
+    \item \textbf{v. 5 :} ὅσ R : \lecon{ὅσ'} \Mon{}.
+    \item \textbf{v. 10 :} \lecon{ὁρᾶν.} R (ponctuation haute maintenue par L. Hauseux) : ὁρᾶν; Gelenius.
+    \item \textbf{v. 16 :} πρῶτα R : \lecon{πρῶτ'} Grynaeus.
+    \item \textbf{v. 18 :} \lecon{ἀκοὴν δὲ χοάνης} R, défendu par Alphonse Willems et adopté par L. Hauseux : ἀκοὴς δὲ χοάνην Biset : ἀκοῇ δὲ χοάνην Boissonade.
+    \item \textbf{v. 21 :} τε R : \lecon{γε} $\Sigma$.
+    \item \textbf{v. 23 :} πρὸς τοῖς ἀγαθοῖς τούτοισιν ἐξεύροιμ' ὅπως R : \textbf{vers athétisé (\italique{del.}) par Alphonse Willems} et L. Hauseux comme interpolation issue d'une glose syntaxique.
+    \item \textbf{v. 24 :} προσμάθοι· μὴ R (médivision avec \italique{dikolon} fautif) : \lecon{προσμάθοιμι} Ellebodius.
+    \item \textbf{v. 27 :} νῦν R : \lecon{νυν} Boissonade \espApp θύριον R : \lecon{θύριον;} Dindorf.
+    \item \textbf{v. 28 :} ἀκούσω R : \lecon{ἀκούω} Brunck \espApp vers. 28 post 30 transp. \Rac{} : \lecon{corr.} \Rpc{}.
+    \item \textbf{vv. 30–31 :} Ἀγάθων (bis) R : \lecon{Ἁγάθων} (v. 30, avec crase $\text{ὁ Ἀγάθων}$) et \lecon{ἀγαθῶν} (v. 31, génitif pluriel en calembour) \lecon{Bibi} \espApp Au \textbf{v. 31}, ἔστιν τις ἀγαθῶν \lecon{(Μνη.) continuat} R (maintenu par \textbf{Bibi}) : (Εὐρ.) \Mon{}.
+    \item \textbf{v. 32 :} (Μνη.) (μ\auDessus{ν}{Η}) οὐχ ... πώποτε \Rac{} (sigle gratté \italique{ut vid.}) : \lecon{(Εὐρ.) continuat} $\text{R}^{\text{pc}}, \Sigma$ \espApp ἑόρακα R : \lecon{ἑόρακας} Bentley.
+    \item \textbf{v. 33 :} omm. $\text{R}^{\text{ac}}, \text{M}$ : \lecon{in marg.} \Rpc{}.
+    \item \textbf{v. 34 :} καὶ μεγ' \Rac{} (ὶ eras. \Rpc{}) : καὶ μεγ' \Mon{} : \lecon{κἀμέ γ'} edd. omn.
+    \item \textbf{v. 39 :} λέως R, Souda $\varepsilon\ 3792$ codd. AF : \lecon{λαός} $\Sigma$, Souda codd. GIVM.
+  \end{itemize}
+\end{itemize}
 
-  \item[\textbf{Folio 19 --- \texttt{f.~171v} (\texttt{Classense 173v}, planche 175 g.) : vv.~765--799 ($\mathbf{\Psi^2}$ vv.~765--766).}]
-  v.~772 \foreignlanguage{greek}{πόθεν; <πόθεν;>} Scaliger ; v.~773 \foreignlanguage{greek}{εἶτα διὰ τἀγάλματ'} $\text{R} \to$ \foreignlanguage{greek}{εἰ ταδὶ τἀγάλματ'} Ellebodius (\foreignlanguage{greek}{τἀγάλματα} = les \foreignlanguage{greek}{πόπανα} sacrés, Willems) ; \textbf{v.~781 \foreignlanguage{greek}{τὸ ῥῶ} $\text{R} \to$ \foreignlanguage{greek}{τορῶ} \texttt{Bibi}} ap. Hésychius $\tau~1162$ (médivision de \texttt{ΤΟΡΩ}).
+\soussousPartie{Folio 02 --- \texttt{f. 163r} (\texttt{Classense 165r}) : \textbf{vv. 43–79}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{02\_f163r\_classense165r\_vv0043-0079.jpg} \espApp \textbf{Planche double :} \texttt{01\_planche166\_ff162v-163r\_vv0001-0079.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Proclamation paratragique du Serviteur d'Agathon (anapestes, vv. 43–62), répliques grivoises de Mnésiloque et exposition par Euripide du péril qui le menace aux Thesmophories (vv. 63–79).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{v. 43 :} Glose interlinéaire/interne dans R : ἐπεχέτω glosant ἐχέτω.
+    \item \textbf{v. 45 :} Grattage du sigma final dans λέγει\inRas{ς}{} par \Rpc{}.
+    \item \textbf{v. 50 :} Lieu célèbre de corruption paléographique (πράμος ἡμέτερος R), magistralement résolu par Louis Hauseux (\textbf{Bibi}).
+    \item \textbf{v. 60 :} La préposition κατὰ, omise par \Rac{}, a été rajoutée par \Rpc{} au-dessus de la ligne.
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 43–79}) :}
+  \begin{itemize}
+    \item \textbf{v. 43 :} \lecon{ἐχέτω} R (avec la glose interne ἐπεχέτω).
+    \item \textbf{v. 44 :} \lecon{δὲ} R (maintenu par \textbf{Bibi}) : τε Austin (cf. vv. 46, 47).
+    \item \textbf{v. 45 :} \lecon{λέγει\inRas{ς}{}} \Rpc{}.
+    \item \textbf{v. 50 :} πράμος R (πρόμος Grynaeus) : \lecon{πρανοῦν} \lecon{Bibi} ap. Hésychius $\pi\ 3188$ (et πραῖνοι dans l'\italique{Index}) \espApp ἡμέτερος R : \lecon{προτέρους} \lecon{Bibi}, cf. \italique{Nuées} v. 562. \textbf{Explication paléographique (Commentaire ad v. 50) :} Le texte primitif πρανοῦν προτέρους (ou πρανοι ν) a subi : 1° une médivision avec confusion minuscule $\nu \to \mu$ et $\iota \to \varsigma$ donnant πράμος ; 2° la syllabe προ- de προτέρους, écrite au moyen du signe tachygraphique en forme de Ʒ inversé (semblable à un $\varepsilon$, cf. Gardthausen II p. 340), a été rattachée au $\nu$ précédent et lue <η>μ- + -ετερος $\to$ ἡμέτερος !
+    \item \textbf{v. 53 :} ἀσπίδας R (« boucliers », faute par attraction d'un mot militaire banal) : \lecon{ἁψῖδας} Souda $\delta\ 1547, \lambda\ 181$ (« cintres, voûtes d'hymnes »).
+    \item \textbf{v. 56 :} γογγύλίζει R, Souda $\gamma\ 361$ : \lecon{γογγύλλει} Porson (γογγυλίει Hermann ad \italique{Nub.} 992).
+    \item \textbf{v. 58 :} ἀγριώτας R : \lecon{ἀγροιώτας} anonym. Parisinus.
+    \item \textbf{v. 60 :} κατὰ om. \Rac{} : \textbf{add.} \Rpc{}.
+    \item \textbf{v. 61 :} γογγυλίσας R : \lecon{συγγογγύλας} Enger.
+    \item \textbf{v. 69 :} \lecon{θύρασι} R (maintenu par \textbf{Bibi}) : θύραζε Zanetti.
+    \item \textbf{vv. 71–74 :} (Μνη.) (71) et (Εὐρ.) (72–74) R : \lecon{(Μνη.) (71–74)} \lecon{Bibi} d'après $\Sigma^{\text{R}}$ (toute la tirade appartient à Mnésiloque).
+    \item \textbf{v. 74 :} \lecon{χρῆν} R, Souda $\kappa\ 1487$ codd. FV (χρή Souda codd. AGM) \espApp \lecon{ἐμόν} R (ἐμέ Valckenaer ap. Dobree p. 237).
+  \end{itemize}
+\end{itemize}
 
-  \item[\textbf{Folio 20 --- \texttt{f.~172r} (\texttt{Classense 174r}, planche 175 dr.) : vv.~800--837 ($\mathbf{\Psi^1}$ vv.~804--809).}]
-  \textbf{v.~807 \foreignlanguage{greek}{Στρατονίκην} $\Psi^1$ : \foreignlanguage{greek}{στρατωνίκην} $\text{R}$} ; v.~815 \foreignlanguage{greek}{ποθοῦντας} $\text{R} \to$ \foreignlanguage{greek}{ποιοῦντας} Zanetti (de l'attique \foreignlanguage{greek}{ποοῦντας}, confusion onciale $\text{Ο/Θ}$) ; \textbf{vv.~822--823 \foreignlanguage{greek}{τἀντίον ὁ κανὼν οἱ καλαθίσκοι / τὸ σκιάδειον·} $\text{R} \to$ \foreignlanguage{greek}{ταὐτὸ κανοῦν καὶ τὸ σκιάδειον·} \texttt{Bibi}} (expulsion de la glose \foreignlanguage{greek}{οἱ καλαθίσκοι}) ; \textbf{v.~834 \foreignlanguage{greek}{Τηνίοισι} $\text{R} \to$ \foreignlanguage{greek}{Στηνίοισι} $\Sigma$, Souda $\sigma~1089$}.
+\soussousPartie{Folio 03 --- \texttt{f. 163v} (\texttt{Classense 165v}) : \textbf{vv. 80–122} (+ \italique{parepigraphè} post v. 99 μινυρισμός)}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{03\_f163v\_classense165v\_vv0080-0122.jpg} \espApp \textbf{Planche double :} \texttt{02\_planche167\_ff163v-164r\_vv0080-0164.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Fin du plan d'Euripide (vv. 80–94), apparition d'Agathon sur l'\italique{ekkuklèma} (vv. 95–100), \textbf{1\iere{} \italique{parepigraphè} (μινυρισμός)}, et début de la monodie lyrique d'Agathon (vv. 101–122).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Première \italique{parepigraphè} (entre vv. 99 et 100) :} $\text{R}^1$ copie dans la colonne le mot scénique \lecon{μινυρισμός} (« fredonnement d'Agathon »), accompagné de la précieuse scholie $\Sigma^{\text{R}}$ : μεταξὺ τῶν δυοῖν ἀξιοῦσί τινες γράφειν 'μινυρισμός', ὡς πολλὰ τοιαῦτα παρεπιγράφεται.
+    \item \textbf{Erreurs d'attribution de \Rdeux{} dans la monodie d'Agathon (vv. 101–129) :} Prenant le dialogue lyrique fictif d'Agathon (qui chante successivement le rôle de la coryphée troyenne et celui du chœur) pour un vrai dialogue dramatique, \Rdeux{} inscrit à tort en marge des \italique{notae personarum} faisant alterner αγαθ/ et χορ/.
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 80–122}) :}
+  \begin{itemize}
+    \item \textbf{v. 80 :} ἐπεὶ τρίτη 'στὶ R : \lecon{ἐπείπερ ἐστὶ} Nauck (\italique{Mélanges gréco-romains}, 1866, II, pp. 468–471), adopté et expliqué paléographiquement par L. Hauseux : dans l'archétype en onciale, l'abréviation \textbf{Π' = περ} dans ΕΠΕΙΠ'ΕϹΤΙ a été lue \textbf{Γ' = τρίτη} (ΕΠΕΙΓ'ΕϹΤΙ), sous l'influence d'une glose savante sur le troisième jour des Thesmophories (la \italique{Nesteia}).
+    \item \textbf{v. 83 :} ἐμοῦ R : \lecon{μου} Biset.
+    \item \textbf{v. 86 :} δί' και' R : δίκαιά γ' Grynaeus : \lecon{δικαίαν} Wilamowitz.
+    \item \textbf{v. 90 :} γυναιξίν R : \lecon{γυναιξὶ} \Mon{} \espApp κἂν R : \lecon{χἂν} Markland (1763, ad Eur. \italique{Suppl.} 364).
+    \item \textbf{v. 91 :} \lecon{φανερὸν} R : φανερῶς Meineke.
+    \item \textbf{v. 95 :} \lecon{τί δ'} R : τί Kaibel.
+    \item \textbf{v. 96 :} ποῖο ἐστὶν οὗτος — οὑκκυκλούμενος R (chute du $\varsigma$ final de ποῖος et coupure de réplique déplacée) : \lecon{ποῖος ἐστὶν; — οὗτος οὑκκυκλούμενος} Tyrwhitt (p. 65).
+    \item \textbf{v. 97 :} ἢ R : \lecon{ἦ} Biset.
+    \item \textbf{v. 99 :} ἂν R : \lecon{νῦν} Rogers.
+    \item \textbf{post v. 99 :} \italique{parepigraphè} \lecon{μινυρισμός} R ($\Sigma^{\text{R}}$ μεταξὺ τῶν δυοῖν ἀξιοῦσί τινες γράφειν 'μινυρισμός', ὡς πολλὰ τοιαῦτα παρεπιγράφεται).
+    \item \textbf{v. 100 :} μύρμ- R : \lecon{Μύρμ-} (Μύρμηκος ἀτραπούς) \lecon{Bibi} d'après Hésychius $\mu\ 1904$.
+    \item \textbf{v. 101 :} χθονίαις R : \lecon{χθονίαιν} Meineke (duel consacré des Deux Déesses).
+    \item \textbf{v. 103 :} \lecon{πατρίδι} R : πραπίδι Wecklein.
+    \item \textbf{v. 105 :} νυν R : \lecon{νιν} Dindorf \espApp εὐπίστως R, Souda $\sigma\ 178, 183$ : \lecon{εὐπείστως} Reiske.
+    \item \textbf{v. 106 :} ἔχεις R : \lecon{ἔχει} Souda.
+    \item \textbf{v. 107 :} ὅπλιζε R (métathèse de consonnes) : \lecon{ὄλβιζε} Bentley \espApp \lecon{Μοῦσα} R (μούσᾳ Bergk).
+    \item \textbf{v. 115 :} ἀεισαντ' R : \lecon{ἀείσατ'} Zanetti (\italique{laudate} Divus).
+    \item \textbf{v. 117 :} σεμνὸν R : \lecon{σεμνὰν} Dindorf.
+    \item \textbf{v. 122 :} διανεύματα R (δινεύματα Bentley) : \lecon{διὰ νεύματα} Fritzsche.
+  \end{itemize}
+\end{itemize}
 
-  \item[\textbf{Folio 21 --- \texttt{f.~172v} (\texttt{Classense 174v}, planche 176 g.) : vv.~838--875.}]
-  v.~838 \foreignlanguage{greek}{ὑστέρ}\texttt{\textbackslash auDessus\{ο\}\{α\}}\foreignlanguage{greek}{ν} $\text{R}^{\text{pc}}$ ; \textbf{v.~839 \foreignlanguage{greek}{ὦ πόλεις} $\text{R} \to$ \foreignlanguage{greek}{ωὖπολι} \texttt{Bibi}} (adresse à Eupolis, datant la pièce de 410 av. J.-C.) ; v.~844 \foreignlanguage{greek}{τ}\texttt{\textbackslash auDessus\{ὰ\}\{ο\}}\foreignlanguage{greek}{δὶ} $\text{R}^{\text{pc}}$ ; \textbf{v.~853 \foreignlanguage{greek}{Ἑλένη} $\text{R} \to$ \foreignlanguage{greek}{ἑλένην} \texttt{Bibi}} ap. Hésychius $\varepsilon~1995$ ; v.~860 \foreignlanguage{greek}{σύ} (ex \foreignlanguage{greek}{σί}) $\text{R}^2$ (\foreignlanguage{greek}{σοί} Zanetti).
+\soussousPartie{Folio 04 --- \texttt{f. 164r} (\texttt{Classense 166r}) : \textbf{vv. 123–164} (+ \italique{parepigraphè} post v. 129 ὀλολύζει ὁ γέρων)}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{04\_f164r\_classense166r\_vv0123-0164.jpg} \espApp \textbf{Planche double :} \texttt{02\_planche167\_ff163v-164r\_vv0080-0164.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Fin de la monodie d'Agathon (vv. 123–129), \textbf{2\ieme{} \italique{parepigraphè} (ὀλολύζει ὁ γέρων)}, interrogatoire comique d'Agathon par Mnésiloque pastichant la \italique{Lykourgie} d'Eschyle (vv. 130–145), et théorie esthétique d'Agathon sur la \italique{mimèsis} poétique (vv. 146–164).
+  \item \textbf{Témoin papyrologique :} \textbf{\PsiUn{} (\italique{PSI} XI 1194 + XIV p. XV)} couvre les \textbf{vv. 133–156}.
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Deuxième \italique{parepigraphè} (entre vv. 129 et 130) :} $\text{R}^1$ copie sur une ligne propre \lecon{ὀλολύζει ὁ γέρων}.
+    \item \textbf{Confrontation avec \PsiUn{} (v. 141) :} Au v. 141, R porte la leçon fautive τίς δ' αὐτὸς ὦ παῖ· πότερον ὡς ἀνὴρ τρέφει;, tandis que le papyrus \PsiUn{} et la scholie $\Sigma^{\text{R}}$ conservent l'authentique \lecon{σύ τ'}.
+    \item \textbf{Double émendation paléographique de \textbf{Bibi} aux vv. 162–163 :} ἐχύμησαν ... διεκίνων R $\to$ \lecon{ἐκεχήνεσαν ... διέκειντ'} \textbf{Bibi}.
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 123–164}) :}
+  \begin{itemize}
+    \item \textbf{v. 125 :} \lecon{δοκίμῳ} R, $\Sigma^1$, Souda $\alpha\ 4016$ : δόκιμον $\Sigma^2$ : δοκίμων Schöne.
+    \item \textbf{v. 126 :} φῶς R : \lecon{φάος} Burges (forme non contracte requise par le mètre lyrique).
+    \item \textbf{v. 127 :} ἡμετέρας R (ὑμετέρας Nietzsche) : \lecon{ἁμετέρας} Meineke (dorisme lyrique).
+    \item \textbf{v. 128 :} \lecon{ἄγαλλε} R (ἀγάλλετε Austin 1987) \espApp Φοῖβον τιμᾷ R (τιμᾷ est une glose intruse) : \lecon{Φοῖβον} Dindorf.
+    \item \textbf{post v. 129 :} \italique{parepigraphè} \lecon{ὀλολύζει ὁ γέρων} R.
+    \item \textbf{v. 130 :} πότνια R : \lecon{πότνιαι} Souda $\gamma\ 141$.
+    \item \textbf{vv. 134–135 :} νεανίσχ' εἴ τις R (aspiration fautive par anticipation de l'esprit rude) : \lecon{νεανίσκ' εἴ τις} \Mon{} (νεανίσχ' ἥτις Gelenius) \espApp \textbf{v. 135 :} Λυκουργίας R (iotacisme) : \lecon{Λυκουργείας} Dindorf.
+    \item \textbf{v. 139 :} \lecon{οὐ ξύμ-} R, Souda $\beta\ 190$ cod. V (ἀξυμ- M, ὀξύμ- AGI, ξύμ- F).
+    \item \textbf{v. 140 :} \lecon{κατόπτρου} R, Souda $\beta\ 110$ (ou \lecon{κατρόπτου} Dover ad \italique{Ran.} 47).
+    \item \textbf{v. 141 :} \lecon{σύ τ'} $\Psi^1, \Sigma$ : τίς δ' R.
+    \item \textbf{v. 148 :} γνώμη R : \lecon{τῇ γνώμῃ} Meineke.
+    \item \textbf{v. 154 :} \lecon{ἄν} \PsiUn{}, R : ἢν Dindorf.
+    \item \textbf{v. 162 :} \lecon{κἀλκαῖος} R, Souda ((κ)ἀχαιός $\Sigma$) \espApp ἐχύμησαν R (ἐχύμισαν Souda) : \lecon{ἐκεχήνεσαν} \lecon{Bibi}. \textbf{Explication paléographique (Commentaire ad v. 162) :} Dans ἐκεχήνεσαν (plus-que-parfait de $\text{χάσκω}$, « ils restaient bouche bée », cf. \italique{Ach.} 10), le saut visuel εκεχ- $\to$ εχ- (haplographie), joint à l'iotacisme $\eta \to \upsilon$ et à la confusion minuscule constante $\nu \to \mu$, a produit le monstre ἐχύμησαν de R !
+    \item \textbf{v. 163 :} διεκίνων R (διεκίνουν Souda $\varepsilon\ 989, \iota\ 495$ ; διεκλῶντ' Toup) : \lecon{διέκειντ'} \lecon{Bibi} (ou δίκανον ap. Hésychius $\delta\ 1805$).
+  \end{itemize}
+\end{itemize}
 
-  \item[\textbf{Folio 22 --- \texttt{f.~173r} (\texttt{Classense 175r}, planche 176 dr.) : vv.~876--919.}]
-  v.~892 \foreignlanguage{greek}{αὐτὸν} (ex \foreignlanguage{greek}{αὖτὸν}) $\text{R}^{\text{pc}}$ (\foreignlanguage{greek}{αὖ τὸν} Casaubon) ; \textbf{v.~895 \foreignlanguage{greek}{βαϋζα} $\text{R} \to$ \foreignlanguage{greek}{κόνυζα} \texttt{Bibi}} (confusion minuscule $\kappa \to \beta$) ; \textbf{v.~910 \foreignlanguage{greek}{ἀφύων} $\text{R}$ (\foreignlanguage{greek}{ἰφύων} $\Sigma$, Souda) $\to$ \foreignlanguage{greek}{λαιφίων} \texttt{Bibi}} ap. Hésychius $\lambda~171$ (chute de $\Lambda$ devant $\text{Α}$ dans \texttt{ΑΠΟΛΑΙΦΙΩΝ}).
+\soussousPartie{Folio 05 --- \texttt{f. 164v} (\texttt{Classense 166v}) : \textbf{vv. 165–207}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{05\_f164v\_classense166v\_vv0165-0207.jpg} \espApp \textbf{Planche double :} \texttt{03\_planche168\_ff164v-165r\_vv0165-0251.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Fin de la tirade d'Agathon (vv. 165–172), requête d'Euripide priant Agathon d'aller plaider sa cause aux Thesmophories et refus prudent d'Agathon (vv. 173–207).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item Page très régulière de 43 lignes. On relève les formes contractes non métriques de noms propres tragiques (Φιλοκλῆς, Ξενοκλῆς R aux vv. 168–169 pour -κλέης), la confusion minuscule $\alpha/\text{ο}$ dans κοινῇ (v. 179 R et Souda) pour καινῇ (Biset d'après $\Sigma^{\text{R}}$), et la graphie iotacisante νυκτερείσια (v. 204 R, maintenue par L. Hauseux).
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 165–207}) :}
+  \begin{itemize}
+    \item \textbf{v. 165 :} \lecon{ἠμπέσχετο} R : ἠμπίσχετο Elmsley ad Eur. \italique{Med.} 1128 (\italique{induebatur} Divus).
+    \item \textbf{vv. 168–169 :} Φιλοκλῆς, Ξενοκλῆς R : \lecon{Φιλοκλέης, Ξενοκλέης} Bentley \espApp \textbf{v. 169 :} \lecon{ὁ δ' αὖ} R : ὁ δὲ Brunck.
+    \item \textbf{v. 173 :} ἦν R, Souda $\beta\ 192$ : \lecon{ἦ} Dindorf (1825).
+    \item \textbf{v. 176 :} \textbf{(Ἀγάθ.) λέγε} R, Fritzsche : (Μνη.) Küster.
+    \item \textbf{v. 178 :} οἷόν R : \lecon{οἷός} Souda $\sigma\ 792, \text{οι}\ 154$, Stobée III, 35.3 \espApp \lecon{συντέμνειν} R, Souda $\text{οι}\ 154$, Stobée : συντεμεῖν Souda $\sigma\ 792$.
+    \item \textbf{v. 179 :} κοινῇ R, Souda $\kappa\ 2556, \sigma\ 792$ (confusion minuscule $\alpha \to \text{ο}$) : \lecon{καινῇ} Biset d'après $\Sigma^{\text{R}}$.
+    \item \textbf{v. 184 :} ἡ πᾶσα R : \lecon{ἡ πᾶσ'·} Küster (ἅπασ' Scaliger).
+    \item \textbf{v. 196 :} γὰρ R : \lecon{γὰρ ἂν} Souda $\upsilon\ 709$.
+    \item \textbf{v. 204 :} \lecon{νυκτερείσια} R : νυκτερήσια Bothe.
+    \item \textbf{v. 206 :} \lecon{νὴ Δία} R : μὰ Δία Fritzsche.
+  \end{itemize}
+\end{itemize}
 
-  \item[\textbf{Folio 23 --- \texttt{f.~173v} (\texttt{Classense 175v}, planche 177 g.) : vv.~920--958 ($\mathbf{\Psi^2}$ fr.~2, vv.~941--953).}]
-  v.~928 \foreignlanguage{greek}{(Γυ.)} $\text{R} \to$ \foreignlanguage{greek}{(Μνη.)} Scaliger ; \textbf{v.~942 \texttt{\textbackslash inRas\{γε\}\{\}}\foreignlanguage{greek}{ τοῖς} $\text{R}^2$} ; v.~945 \foreignlanguage{greek}{ἰαππαπαιάξ} $\text{R}$, Souda ; v.~947 \foreignlanguage{greek}{πέσωμεν} $\text{R} \to$ \foreignlanguage{greek}{παίσωμεν} Zanetti, cf. $\Sigma$.
+\soussousPartie{Folio 06 --- \texttt{f. 165r} (\texttt{Classense 167r}) : \textbf{vv. 208–251}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{06\_f165r\_classense167r\_vv0208-0251.jpg} \espApp \textbf{Planche double :} \texttt{03\_planche168\_ff164v-165r\_vv0165-0251.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Mnésiloque se dévoue pour remplacer Euripide ; scène burlesque du rasage des joues et de l'épilation au flambeau des parties intimes de Mnésiloque avec le matériel prêté par Agathon (vv. 208–251).
+  \item \textbf{Témoin papyrologique :} \textbf{\PsiUn{} (\italique{PSI} XI 1194)} couvre les \textbf{vv. 237–245} et comble au \textbf{v. 242} l'omission de [ἓ]τερον dans R.
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{v. 242 :} R avait omis un crétique avant πρὶν ἀντιλαβέσθαι ; le papyrus \PsiUn{} (lu par Medaglia) restitue \lecon{[ἓ]τερον}, tombé par saut visuel dans l'ancêtre de R.
+    \item \textbf{v. 250 :} Exemple typique de \textbf{iota muet adscrit} dans $\text{R}^1$ : τουτωί.
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 208–251}) :}
+  \begin{itemize}
+    \item \textbf{v. 208 :} οὖν et ταῦτα R : \lecon{οὖν;} et \lecon{ταῦτα;} Ellebodius.
+    \item \textbf{v. 209 :} \lecon{τρισκακόδαιμον} R (τρισκακοδαίμων \Mon{}) \espApp \lecon{(Εὐρ.)} R ((Μνη.) Elmsley ad \italique{Ach.} 475).
+    \item \textbf{v. 215 :} με R : \lecon{μ'} edd. omnes.
+    \item \textbf{v. 216 :} \lecon{ἀφεύειν} R (ἀφαύειν Souda $\alpha\ 4565$) \espApp είσω R : \lecon{εἴ σοι} Bonini.
+    \item \textbf{v. 217 :} διδόναι γ' αὐτὸν R (διδόναι γ' ἐμαυτὸν Scaliger) : \lecon{διδόναι γ' ἑαυτὸν} \lecon{Bibi} \italique{auctore Willems}.
+    \item \textbf{v. 220 :} ξυροδίκης R (iotacisme/attraction de $\text{δίκη}$) : \lecon{ξυροδόκης} $\Sigma$, Pollux II.32, X.140 (« étui à rasoir »).
+    \item \textbf{v. 222 :} ὤιμοι R : \lecon{οἴμοι} Dindorf.
+    \item \textbf{v. 223 :} ἀττατα· ατταται R : \lecon{ἀτταταῖ ἰατταταῖ} Biset.
+    \item \textbf{v. 225 :} \lecon{Δήμητρά γ'} R (Δήμητρ' ἔτ' Porson, Δημήτερ' Fritzsche).
+    \item \textbf{v. 226 :} οὐκ οὖν R : \lecon{οὔκουν} Brunck.
+    \item \textbf{v. 232 :} \lecon{αὖ} R, Souda $\psi\ 105$ (οὖν von Velsen).
+    \item \textbf{v. 234 :} θεάσασθαι σεαυτόν R (glose pronominale non contracte) : \lecon{θεάσασθ' αὑτόν} Fritzsche (θεᾶσθαι σαυτόν Porson).
+    \item \textbf{v. 235 :} Κλεισθένην R, Souda $\kappa\ 1756$ : \lecon{Κλεισθένη} Brunck.
+    \item \textbf{v. 242 :} \lecon{[ἓ]τερον} \PsiUn{} (restituit Medaglia) : ἕτερον om. R.
+    \item \textbf{v. 245 :} \lecon{φεῦ} R, Souda $\alpha\ 4132$ (φῦ Dindorf, Wilamowitz).
+    \item \textbf{v. 246 :} γεγέννημαι R : \lecon{γεγένημαι} Souda $\tau\ 903$.
+    \item \textbf{v. 247 :} \lecon{σπογγιεῖ} R (σφογγιεῖ Elmsley ad \italique{Ach.} 463).
+    \item \textbf{v. 248 :} οἰμώζετ' R : \lecon{οἰμώξετ'} Zanetti \espApp εἰς R (haplographie de ΤΙ dans ΕΙΤΙϹ) : \lecon{εἴ τις} Brunck.
+    \item \textbf{v. 250 :} τουτωί R : \lecon{τουτῳὶ} edd. plerique.
+  \end{itemize}
+\end{itemize}
 
-  \item[\textbf{Folio 24 --- \texttt{f.~174r} (\texttt{Classense 176r}, planche 177 dr.) : vv.~959--1000.}]
-  Ode chorale circulaire : v.~969 \foreignlanguage{greek}{ἐλύραν} $\text{R} \to$ \foreignlanguage{greek}{εὐλύραν} Zanetti ; v.~982 \foreignlanguage{greek}{χαίρειν} $\text{R} \to$ \foreignlanguage{greek}{χάριν} Ellebodius ; v.~995 \foreignlanguage{greek}{συῒ κτυπεῖται} $\text{R} \to$ \foreignlanguage{greek}{σοὶ κτυπεῖται} Zanetti ; v.~996 \foreignlanguage{greek}{Κιθαρώνιος} $\text{R} \to$ \foreignlanguage{greek}{Κιθαιρώνιος} Zanetti.
+\soussousPartie{Folio 07 --- \texttt{f. 165v} (\texttt{Classense 167v}) : \textbf{vv. 252–294} (+ \italique{parepigraphè} post v. 276)}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{07\_f165v\_classense167v\_vv0252-0294.jpg} \espApp \textbf{Planche double :} \texttt{04\_planche169\_ff165v-166r\_vv0252-0336.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Habillage de Mnésiloque en femme avec la robe safran (\italique{krokôtos}), le soutien-gorge, la résille, les chaussures d'Agathon (vv. 252–265) ; serment parodique d'Euripide (vv. 266–276) ; \textbf{3\ieme{} \italique{parepigraphè} (post v. 276)} ; arrivée et prière burlesque de Mnésiloque au Thesmophorion s'adressant à sa servante fictive \italique{Thratta} et priant pour sa fille \textbf{Choirilè} (Χοιρίλ') et son fils (vv. 277–294).
+  \item \textbf{Témoin papyrologique :} \textbf{\PsiUn{} (\italique{PSI} XI 1194)} couvre les \textbf{vv. 273–288}.
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Troisième \italique{parepigraphè} (post v. 276) :} R écrit dans la colonne \lecon{ὀλολύζουσι τε ἱερὸν ὠθεῖται}, avec une \textbf{\italique{koronis}} dans la marge gauche et la scholie $\Sigma^{\text{R}}$ : παρεπιγραφή. ἐκκυκλεῖται ἐπὶ τὸ ἔξω τὸ θεσμοφόριον. Le papyrus \PsiUn{} confirme ολολυ[.
+    \item \textbf{Abréviation supralinéaire au v. 263 :} γ' ο\auDessus{ῦ}{ν} \Rpc{}.
+    \item \textbf{Deux conjectures majeures de \textbf{Bibi} (vv. 289 et 291) :} Au v. 289, \lecon{Χοιρίλ'} (nom de la fille de Mnésiloque et épouse d'Euripide, corrompu en χοῖρον dans R et χοιρίον dans $\Sigma^{\text{R}}$) ; au v. 291, \lecon{πρὸς θυλάκιον} (ou πρὸς θάλικα ap. Hésychius $\theta\ 50$) pour πρὸς θάληκον de R.
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 252–294}) :}
+  \begin{itemize}
+    \item \textbf{vv. 252–255 :} (Εὐρ.) v. 252 R : \lecon{(Μνη.)} Bentley \espApp (Ἀγάθ.) v. 253 R : \lecon{(Εὐρ.)} Dobree \espApp (Εὐρ.) v. 254 R \espApp (Ἀγάθ.) et \italique{dikolon} avant αἶρε v. 255 R \espApp (Εὐρ.) ἰδού — (Μνη.) ἴθι ... σκέλη vv. 255–256 R.
+    \item \textbf{v. 256 :} σκέλη R : \lecon{σκέλει} van Leeuwen (duel).
+    \item \textbf{v. 260 :} ἠραρμοσηι R (iotacisme et médivision) : \lecon{ἆρ' ἁρμόσει} Küster \espApp (Ἀγάθ.) R : \lecon{(Εὐρ.)} Ellebodius.
+    \item \textbf{v. 261 :} τοῦτὶ R : \lecon{τουτὶ} Souda $\varepsilon\ 135, \kappa\ 1809$ \espApp λάμβαν' R, Souda : \lecon{λάβ'} Daubuz, Küster.
+    \item \textbf{v. 263 :} μοι R : \lecon{μοι;} Küster \espApp \textbf{(Ἀγάθ.) χαλαρὰ ... φορῶν} R (maintenu par \textbf{Bibi} contre (Μνη.) Brunck) \espApp \lecon{γ' ο\auDessus{ῦ}{ν}} \Rpc{} \espApp χαίρεις R, Souda AGM : \lecon{χαίροις} Souda FV.
+    \item \textbf{v. 264 :} nulla nota mut. pers. R : \lecon{(Ἀγάθ.)} ἀλλ' ... \lecon{Bibi}.
+    \item \textbf{v. 266 :} ἀνὴρ R : \lecon{ἁνὴρ} Fritzsche.
+    \item \textbf{v. 267 :} τόδ' R : \lecon{τό γ'} Küster.
+    \item \textbf{v. 273 :} \lecon{Ὑποκράτους} R (maintenu par \textbf{Bibi} : calembour comique sur $\text{ὑπό}$, contre la normalisation Ἱπποκράτους de $\Sigma^{\text{R}}$).
+    \item \textbf{post v. 276 :} \italique{parepigraphè} \lecon{ὀλολύζουσι τε ἱερὸν ὠθεῖται} R : ολολυ[ \PsiUn{}.
+    \item \textbf{v. 277 :} \lecon{ἔκσπευδε} R (εἄ· σπεῦδε Maas).
+    \item \textbf{v. 278 :} \lecon{Θεσμοφορίῳ} R (cf. \italique{IG} $\text{II}^2$ 1177.24 ; 2498.12 ; Θεσμοφόρῳ Souda $\sigma\ 325$ ; Θεσμοφορείῳ Scaliger).
+    \item \textbf{v. 282 :} Θεσμοφόρῳ R : \lecon{Θεσμοφόρω} Photius $\alpha\ 1386$ (duel) \espApp περὶ καλλῆ R : \lecon{περικαλλεῖ} Kaibel.
+    \item \textbf{v. 283 :} καὶ δεῦρο πάλιν R : \lecon{καὶ δεῦρο καὶ πάλιν} Bentley.
+    \item \textbf{v. 285 :} \lecon{τὰ πόπαν'} \PsiUn{}, Porson : τὸ πόπανον R.
+    \item \textbf{v. 287 :} \lecon{Φερρέφαττα} \PsiUn{}, Thiersch : Φερσέφαττα R.
+    \item \textbf{v. 289 :} χοῖρον R (χοιρίον $\Sigma$) : \lecon{Χοιρίλ'} (ou Χοιρίν') \lecon{Bibi} (fille de Mnésiloque et épouse d'Euripide).
+    \item \textbf{v. 291 :} πρὸς θάληκον R (Ποσθαλίσκον Dindorf) : \lecon{πρὸς θυλάκιον} (ou πρὸς θάλικα ap. Hésychius $\theta\ 50$) \lecon{Bibi} (par métathèse).
+  \end{itemize}
+\end{itemize}
 
-  \item[\textbf{Folio 25 --- \texttt{f.~174v} (\texttt{Classense 176v}, planche 178 g.) : vv.~1001--1043 ($\mathbf{\Psi^4}$ v.~1043).}]
-  \textbf{v.~1006 \foreignlanguage{greek}{κακοδαίμω}\texttt{\textbackslash expo\{ν\}}\foreignlanguage{greek}{ γέρ}\texttt{\textbackslash inRas\{ω\}\{ο\}}\foreignlanguage{greek}{ν} $\text{R}^{\text{pc}}, \text{M}^{\text{pc}}$} ; vv.~1015--1021 \foreignlanguage{greek}{(Εὐρ.)} $\text{R} \to$ \foreignlanguage{greek}{(Μνη.)} Tyrwhitt ; v.~1022 \foreignlanguage{greek}{(Μνη.)} praefixit $\text{R}^{\text{pc}}, \text{M}$ ; \textbf{v.~1031 \foreignlanguage{greek}{κημὸν ἕστηκ' ἔχουσ'} $\text{R} \to$ \foreignlanguage{greek}{ἕστηκ' ἔχουσα κημόν} \texttt{Bibi}} (cf. van Leeuwen 1904, pp.~XVIII--XIX) ; v.~1040 \foreignlanguage{greek}{λιτομέναν} $\text{R}$ (\foreignlanguage{greek}{ἀντομένα[ν]} $\Sigma$) $\to$ \foreignlanguage{greek}{λιτομένα} Enger ; \textbf{v.~1041 \foreignlanguage{greek}{φεύγουσαν} $\text{R} \to$ \foreignlanguage{greek}{ψεφαυγοῦς} \texttt{Bibi}} (cf. $\Sigma$ ad v.~1054 et Hésychius $\psi~135$).
+\soussousPartie{Folio 08 --- \texttt{f. 166r} (\texttt{Classense 168r}) : \textbf{vv. 295–336}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{08\_f166r\_classense168r\_vv0295-0336.jpg} \espApp \textbf{Planche double :} \texttt{04\_planche169\_ff165v-166r\_vv0252-0336.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Ouverture solennelle de l'assemblée des femmes aux Thesmophories : prière en prose rythmée de la Héraut (\italique{Kèrukaina}, vv. 295–311), chant choral d'invocation aux dieux olympiens et marins (vv. 312–330), et début de la proclamation d'imprécations (vv. 331–336).
+  \item \textbf{Témoin papyrologique :} \textbf{\PsiCinq{} (\italique{P.Oxy.} IX 1176, Satyrus)} cite les \textbf{vv. 335–337}.
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Grattage de la rubrique d'interlocuteur au v. 295 :} \Rdeux{} a gratté Κῆρυξ (\inRas{Κῆρυξ}{} \Rdeux{} : \auDessus{κη}{ρυ} \Mon{}, tandis que $\Sigma^{\text{R}}$ explique γυνὴ μιμουμένη κήρυκα ; L. Hauseux édite Κορ.-Ἱέρεια).
+    \item \textbf{Intrusions de gloses religieuses (vv. 297–298) :} Dans la prière en prose de la Héraut, R a incorporé dans le texte les deux gloses interlinéaires τῇ Δήμητρῃ καὶ τῇ Κόρῃ (glosant τοῖν Θεσμοφόροιν) et τῇ Γῇ (glosant τῇ Κουροτρόφῳ).
+    \item \textbf{Ajout supralinéaire de \Rdeux{} (v. 306) :} \expo{καὶ}τὴν ἀγορεύουσαν.
+    \item \textbf{Correction \italique{in rasura} au v. 320 :} θηροφ\inRas{ω}{ό}νε παῖ-- \Rpc{} ($\omega$ de \Rac{} gratté et corrigé en ό).
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 295–336}) :}
+  \begin{itemize}
+    \item \textbf{v. 295 :} \inRas{Κῆρυξ}{} \Rdeux{} : \auDessus{κη}{ρυ} \Mon{} : γυνὴ μιμουμένη κήρυκα $\Sigma$ : Κρίτυλλα Sommerstein : \lecon{(Κορ.-Ἱέρεια)} \lecon{Bibi} \espApp εὐφημί' R : \lecon{εὐφημία} Souda $\varepsilon\ 3797$.
+    \item \textbf{v. 297 :} Θεσμοφόροιν τῇ Δήμητρῃ καὶ τῇ Κόρῃ R : \lecon{Θεσμοφόροιν} Blaydes (suppression de la glose).
+    \item \textbf{v. 298 :} τῇ Κουροτρόφῳ τῇ Γῇ R : \lecon{τῇ Κουροτρόφῳ} Dobree ex $\Sigma^{\text{R}}$.
+    \item \textbf{v. 301 :} Χάρισιν R : \lecon{ταῖς Χάρισιν} Meineke.
+    \item \textbf{v. 304 :} πόλει R : \lecon{τῇ πόλει} Meineke.
+    \item \textbf{v. 305 :} \lecon{ἡμῖν} R (ὑμῖν Fritzsche).
+    \item \textbf{v. 306 :} \lecon{\expo{καὶ}τὴν ἀγορεύουσαν} \Rdeux{}.
+    \item \textbf{v. 307 :} τῶν Ἀθηναίων R : \lecon{τὸν Ἀθηναίων} Grynaeus.
+    \item \textbf{v. 310 :} \lecon{ὑμῖν} R (ἡμῖν \Mon{}).
+    \item \textbf{vv. 312–313 :} δεχόμεσθα ... λιτόμεσθα R : \lecon{δεχόμεθα} Dindorf, \lecon{λιτόμεθα} Bourdin \espApp \textbf{v. 313 :} \lecon{ταῖσδ' ἐπ' εὐχαῖς} R (τάσδ' ἐπ' εὐχάς Scaliger).
+    \item \textbf{v. 317 :} παμκρατὲς R : \lecon{παγκρατὲς} ed. pr. \espApp κόρᾳ R : \lecon{κόρα} \Mon{}.
+    \item \textbf{v. 320 :} θηροφ\inRas{ω}{ό}νε παῖ-- \Rpc{} : \lecon{θηροφόνη} Hermann.
+    \item \textbf{v. 324 :} ἰχθυόεντ' R, Souda $\text{οι}\ 181$ : \lecon{ἰχθυόεντα} Wilamowitz.
+    \item \textbf{v. 325 :} ἐναλίου R (ἐνάλιοί Fritzsche) : \lecon{εἰναλίου} Bentley.
+    \item \textbf{v. 326 :} \lecon{ὀρείπλαγκτοι} R (ὀρίπλαγκτοι Austin).
+    \item \textbf{v. 329 :} Ἀθηναίων R : \lecon{Ἀθηνῶν} Reisig.
+    \item \textbf{v. 331 :} (Κηρ.) R : \lecon{(Κορ.)} van Leeuwen.
+    \item \textbf{v. 334 :} καὶ τοῖς R : \lecon{τοῖς τ'} Grynaeus.
+  \end{itemize}
+\end{itemize}
 
-  \item[\textbf{Folio 26 --- \texttt{f.~175r} (\texttt{Classense 177r}, planche 178 dr.) : vv.~1044--1081 ($\mathbf{\Psi^4}$ fr.~1, vv.~1044--1051).}]
-  \textbf{v.~1047 \foreignlanguage{greek}{[ι]ω μοιρ[ας} $\Psi^4$, Hermann : \foreignlanguage{greek}{ἰώ μοι μοίρας} $\text{R}$} | \foreignlanguage{greek}{ἀνέτικτε} $\text{R} \to$ \foreignlanguage{greek}{ἄτεγκτε} Ellebodius ; \textbf{v.~1051 \foreignlanguage{greek}{βάρβαρον} $\Psi^4, \text{R}$, Willems} ; v.~1054 \foreignlanguage{greek}{δαιμόνων} $\text{R}, \Sigma \to$ \foreignlanguage{greek}{διὰ μένων} Willems ; \textbf{v.~1056 \foreignlanguage{greek}{ευρ}\texttt{\textbackslash auDessus\{ι\}\{π\}}\foreignlanguage{greek}{ ηχω} in mg. $\text{R}^{\text{pc}}, \text{M}$} ; \textbf{v.~1065 \foreignlanguage{greek}{ὁ μνησίλοχος ὡς ἀνδρομέδα} in mg. $\text{R}^{\text{pc}}, \text{M}$} ; v.~1069 \foreignlanguage{greek}{δι' Ὀλύμπου} $\text{R}$ (\foreignlanguage{greek}{†δι'† ὀλυμπίας} \texttt{Bibi} ap. Hésychius $\text{ο}~649$) ; \textbf{v.~1071 \foreignlanguage{greek}{μέρος ἐξέλαχον;} $\text{R} \to$ \foreignlanguage{greek}{μόρος ἔξελ' ἄχος.} \texttt{Bibi}} ; \textbf{v.~1074 \foreignlanguage{greek}{στωμυλωμένη} $\text{R} \to$ \foreignlanguage{greek}{στωμυλιομενής} \texttt{Bibi}} ; \textbf{v.~1078 \foreignlanguage{greek}{(Εὐρ.) 'παΰσαι} \texttt{Bibi}} ; \textbf{v.~1079 \foreignlanguage{greek}{βάλλε σύ κόρακας} \texttt{Bibi}}.
+\soussousPartie{Folio 09 --- \texttt{f. 166v} (\texttt{Classense 168v}) : \textbf{vv. 337–379}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{09\_f166v\_classense168v\_vv0337-0379.jpg} \espApp \textbf{Planche double :} \texttt{05\_planche170\_ff166v-167r\_vv0337-0422.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Malédictions burlesques de la Héraut contre les traîtres, les cabaretiers fraudeurs, les entremetteuses infidèles et Euripide (vv. 337–351) ; prière chorale (vv. 352–371) ; lecture du décret préliminaire de l'assemblée des femmes sous la présidence de \textbf{Timokleia} (Τιμόκλει' R, variante Ἀρ[χίκλ]ει' dans \PsiCinq{}, vv. 372–379).
+  \item \textbf{Témoin papyrologique :} \textbf{\PsiCinq{} (\italique{P.Oxy.} IX 1176, Satyrus)} cite les \textbf{vv. 335–337} et \textbf{vv. 373–375}.
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 337–379}) :}
+  \begin{itemize}
+    \item \textbf{v. 337 :} ευριπιδιωι[..]υτ \PsiCinq{} : Εὐριπίδῃ Μήδοις R : \lecon{Εὐριπίδῃ Μήδοις τ'} Biset.
+    \item \textbf{v. 340 :} κατεῖπεν τις R ($\nu$ éphelcystique amétrique) : \lecon{κατεῖπέ τις} Brunck.
+    \item \textbf{v. 341 :} ἐνετρύλλισεν R, Souda $\varepsilon\ 1271$ (gémination fautive de $\lambda$) : \lecon{ἐνετρύλισεν} Dindorf.
+    \item \textbf{v. 344 :} ἅ ἂν R (scriptio plena) : \lecon{ἃν} Faber.
+    \item \textbf{v. 346 :} ἑταίρα R : \lecon{ἑταίρᾳ} Fritzsche ap. $\Sigma^{\text{R}}$.
+    \item \textbf{v. 347 :} \lecon{χοὸς} R, Souda $\lambda\ 394$ (χοῶς Brunck).
+    \item \textbf{v. 349 :} κ' οἰκίαν R : \lecon{κᾠκίαν} Brunck.
+    \item \textbf{v. 350 :} \lecon{ὑμῖν} R (ἡμῖν \Mon{}).
+    \item \textbf{v. 351 :} \lecon{κἀγαθά} R (τἀγαθά Zanetti).
+    \item \textbf{v. 352 :} ξυνευχόμεθα R : \lecon{ξυνευχόμεσθα} Daubuz.
+    \item \textbf{v. 354 :} γενέσθαι R (ἐκγενέσθαι Dindorf) : \lecon{ἀποτελεῖσθαι} Alphonse Willems (adopté par L. Hauseux : γενέσθαι est une glose banale substituée au verbe rituel ἀποτελεῖσθαι).
+    \item \textbf{v. 357 :} ἐξαπατῶσι R : \lecon{ἐξαπατῶσιν} Bentley.
+    \item \textbf{v. 360 :} ἕνεκ' R : \lecon{οὕνεκ'} Bentley.
+    \item \textbf{v. 364 :} λέγουσιν R, Souda $\alpha\ 3501$ : \lecon{λέγουσ'} Bentley.
+    \item \textbf{v. 367 :} ἀσεβοῦσιν ἀδικοῦσίν R : \lecon{ἀσεβοῦσ' ἀδικοῦσί} Bothe.
+    \item \textbf{v. 372 :} πᾶς R : \lecon{πᾶσ'} Voss.
+    \item \textbf{v. 374 :} Ἀρ[....]λεια \PsiCinq{} (Ἀρ[χίκλ]ει' suppl. Hunt) : \lecon{Τιμόκλει'} R, $\Sigma^{\text{R}}$, Souda $\varepsilon\ 2616$ (maintenu par L. Hauseux).
+    \item \textbf{v. 376 :} σχολῇ R : \lecon{σχολή} Zanetti.
+  \end{itemize}
+\end{itemize}
 
-  \item[\textbf{Folio 27 --- \texttt{f.~175v} (\texttt{Classense 177v}, planche 179 g.) : vv.~1082--1127 (+ vv.~1102--1103 in mg. inf.).}]
-  v.~1083 \foreignlanguage{greek}{λαλεῖς} bis $\text{R}^{\text{ac}} \to$ \foreignlanguage{greek}{λαλῖς} bis $\text{R}^2, \Sigma$ ; \textbf{v.~1086 \foreignlanguage{greek}{π}\texttt{\textbackslash inRas\{ρ\}\{\}}\foreignlanguage{greek}{ωτε} bis $\text{R}^{\text{pc}}$} (\foreignlanguage{greek}{πωτε} bis $\text{M}$) ; \textbf{vv.~1090 et 1092 attribués à \foreignlanguage{greek}{(Χορ.)} par \texttt{Bibi} ap. $\Sigma$} ; \textbf{v.~1091 \foreignlanguage{greek}{πλησίον αὕτη} $\text{R} \to$ \foreignlanguage{greek}{πλήξασ' αὕτη} \texttt{Bibi}} ; \textbf{v.~1093 \foreignlanguage{greek}{<(Εὐρ.) ποῖ ποῖ πέτει>} suppl. \texttt{Bibi}} ; \textbf{v.~1098 \foreignlanguage{greek}{ευρ}\texttt{\textbackslash auDessus\{ι\}\{π\}}\foreignlanguage{greek}{ ως περσευς} in mg. $\text{R}^{\text{pc}}, \text{M}$} ; \textbf{vv.~1102--1103 omis dans la colonne par $\text{R}^1$ et $\text{M}$, ajoutés dans la marge inférieure par $\text{R}^2$} ; \textbf{v.~1107 \foreignlanguage{greek}{κ}\texttt{\textbackslash auDessus\{η\}\{δ\}}\foreignlanguage{greek}{ ως ανδρομ}\texttt{\textbackslash auDessus\{ε\}\{δ\}} in mg. $\text{R}^{\text{pc}}, \text{M}$} ; v.~1114 \foreignlanguage{greek}{σκύτο} $\text{R} \to$ \foreignlanguage{greek}{κύστο} Scaliger ; v.~1126 \foreignlanguage{greek}{τὸ κεπαλῆς} (ex \foreignlanguage{greek}{καὶ παλῆς}) $\text{R}^{\text{pc}}, \text{M}$ (\foreignlanguage{greek}{τὸ κεπαλή σ'} Brunck) ; v.~1127 \foreignlanguage{greek}{ἀποκέκοιψ'} $\text{R}^{\text{ac}} \to$ \foreignlanguage{greek}{ἀποκεκόψοι} $\text{R}^{\text{pc}}$ (\foreignlanguage{greek}{ἀποκεκόψι} Brunck) | \foreignlanguage{greek}{πέπυσται} $\text{R} \to$ \foreignlanguage{greek}{πέπαισται} $\Sigma$.
+\soussousPartie{Folio 10 --- \texttt{f. 167r} (\texttt{Classense 169r}) : \textbf{vv. 380–422}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{10\_f167r\_classense169r\_vv0380-0422.jpg} \espApp \textbf{Planche double :} \texttt{05\_planche170\_ff166v-167r\_vv0337-0422.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Premier grand réquisitoire contre Euripide prononcé par \textbf{Mika} (Γυνή τις / καλλιλεξία γυνή dans R) : comment les tragédies d'Euripide ont rendu les maris soupçonneux, jaloux et tatillons jusqu'à sceller les réserves du ménage avec des cachets compliqués (vv. 380–422).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Note de personnage descriptive au v. 383 :} Là où \Rac{} avait simplement abrégé (\auDessus{γυ}{ν}), \Rpc{} (suivi par \Mon{}) a développé en marge \lecon{(καλλιλεξία γυνή)} (« la femme au beau langage », glose descriptive passée dans la rubrique de locuteur ; Rogers l'identifie à \textbf{Mika} d'après le v. 760).
+    \item \textbf{Iotacismes $\text{οι} \to \upsilon$ de $\text{R}^1$ :} μυχοτρόπους (v. 392) et μυχοῖς (v. 417) pour μοιχο-, redressés par la Souda et \Mon{}.
+    \item \textbf{Restitution par \textbf{Bibi} du fragment de Sappho (fr. 70/125) dans $\Sigma^{\text{R}}$ ad v. 401 :} La scholie du \italique{Ravennas} au v. 401 conserve un précieux vers de Sappho sous la forme corrompue \lecon{αυταόρα αἱστεφανηπλόκουν} ; \textbf{Louis Hauseux (\textbf{Bibi}, \texttt{vv 1-641.tex}, ll. 3272–3294) restitue l'éolien αὐτὰ κόραις στεφαναπλόκεο} (ou -πλόκην), montrant que αυταόρα αἱ procède de la chute du $\kappa$ et d'une médivision de αὐτὰ κόραις.
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 380–422}) :}
+  \begin{itemize}
+    \item \textbf{v. 380 :} (Γυνή τις) R : \lecon{(Μίκα)} Rogers (cf. v. 760) \espApp \lecon{πρῶτον} R (πρότερον Souda $\pi\ 1166$).
+    \item \textbf{v. 383 :} (\auDessus{γυ}{ν}) \Rac{} : (καλλιλεξία γυνή) $\text{R}^{\text{pc}}, \text{M}$ : \lecon{(Μίκα)} Rogers.
+    \item \textbf{v. 386 :} ὑμᾶς R : \lecon{ἡμᾶς} Cobet.
+    \item \textbf{v. 390 :} ἐν βραχὺ R : \lecon{ἔμβραχυ} Souda, $\Sigma$ ad Plat. \italique{Gorg.} et \italique{Hipp. min.}
+    \item \textbf{v. 391 :} \lecon{ποῦ} R, Souda $\varepsilon\ 987$ codd. GM (καὶ ποῦ Souda codd. AFV).
+    \item \textbf{v. 392 :} μυ- R : \lecon{μοι-} (μοιχοτρόπους) Souda \espApp ἀνδρεα- R (haplographie du second $\rho$) : \lecon{ἀνδρερα-} (ἀνδρεραστρίας) Souda.
+    \item \textbf{v. 393 :} οἰνοπότιδας R (substitution d'un mot banal au composé comique rare) : \lecon{οἰνοπίπας} Souda (-πίπους $\Sigma$).
+    \item \textbf{v. 394 :} ἀνδράσι R : \lecon{ἀνδράσιν} Daubuz.
+    \item \textbf{v. 398 :} ὥσπερ R : \lecon{ὧνπερ} Küster.
+    \item \textbf{v. 400 :} τις πλέκῃ R : \lecon{τις ξυμπλέκῃ} Alphonse Willems (adopté par L. Hauseux ; δή τις πλέκῃ Austin).
+    \item \textbf{$\Sigma^{\text{R}}$ ad v. 401 (Sappho fr. 70/125) :} αυταόρα αἱστεφανηπλόκουν $\Sigma^{\text{R}}$ : \lecon{αὐτὰ κόραις στεφαναπλόκεο} \lecon{Bibi}.
+    \item \textbf{v. 403 :} ἀνὴρ R : \lecon{ἁνὴρ} Brunck.
+    \item \textbf{v. 405 :} ἀδελφὸς R : \lecon{ἁδελφὸς} Biset.
+    \item \textbf{v. 409 :} ἄνδρες R : \lecon{ἅνδρες} Brunck.
+    \item \textbf{v. 412 :} θέλει R : \lecon{ἐθέλει} Kappeyne van de Coppello (\italique{Obs. crit.} I.2).
+    \item \textbf{v. 417 :} μυχοῖς R : \lecon{μοιχοῖς} \Mon{}.
+    \item \textbf{v. 419 :} ταμιεύεσθαι R (infinitif moyen substitué à l'aoriste actif + καὶ) : \lecon{ταμιεῦσαι καὶ} Reiske.
+  \end{itemize}
+\end{itemize}
 
-  \item[\textbf{Folio 28 --- \texttt{f.~176r} (\texttt{Classense 178r}, planche 179 dr.) : vv.~1128--1168.}]
-  v.~1135 \foreignlanguage{greek}{τῆ μαστιγᾶν} (ex \foreignlanguage{greek}{μαστηγαν}) $\text{R}^{\text{pc}}$ ; \textbf{post v.~1143 \foreignlanguage{greek}{στυγνὰς ὡσσε} $\text{R}^{\text{ac}}$ : del. $\text{R}^{\text{pc}}$ (\foreignlanguage{greek}{στυγνὰς ὡς ἐ} $\text{M}$)} ; \textbf{v.~1151 \foreignlanguage{greek}{οὗ δὴ ἀνδράσιν οὐ θεμιτὸν} $\text{R} \to$ \foreignlanguage{greek}{οὗ δὴ ἀνδράσιν οὐ θεμιτεύετον} \texttt{Bibi}} ; v.~1153 \foreignlanguage{greek}{λαμπάσι.} \texttt{Bibi}.
+\soussousPartie{Folio 11 --- \texttt{f. 167v} (\texttt{Classense 169v}) : \textbf{vv. 423–465}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{11\_f167v\_classense169v\_vv0423-0465.jpg} \espApp \textbf{Planche double :} \texttt{06\_planche171\_ff167v-168r\_vv0423-0508.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Fin du discours de Mika proposant de faire périr Euripide par le poison (vv. 423–432) ; chant choral admiratif (vv. 433–442) ; intervention de la \textbf{Seconde Femme} (γυνὴ ἑτέρα \Rpc{}), marchande de couronnes pieuses ruinée par l'athéisme d'Euripide (vv. 443–458) ; nouveau couplet choral (vv. 459–465).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Correction au v. 433 :} \Rac{} avait écrit οὔπω τε, corrigé par \Rpc{} en οὐπώποτε (Dindorf restitue οὔπω).
+    \item \textbf{Note d'interlocuteur au v. 443 :} \Rpc{} inscrit γυνὴ ἑτέρα.
+    \item \textbf{Conjecture remarquable de \textbf{Bibi} au v. 446 :} ἀνὴρ μὲν ἐν Κύπρῳ R $\to$ \lecon{ἁνὴρ μὲν ἔγκυος} (ἔγκυος se rapportant à la femme ou construit avec l'idée que son mari l'a laissée enceinte de son 5\ieme{} enfant avant de mourir, au lieu de la localisation géographique hors de propos ἐν Κύπρῳ).
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 423–465}) :}
+  \begin{itemize}
+    \item \textbf{v. 426 :} ὡκότριψ R : \lecon{ᾡκότριψ} Bentley (οἱκότριψ Kühner–Blass).
+    \item \textbf{v. 427 :} ἐδίδαξεν R : \lecon{ἐδίδαξε} Souda $\lambda\ 64$.
+    \item \textbf{v. 429 :} ἀμωσγέπως R, Souda : \lecon{ἁμωσγέπως} Blaydes.
+    \item \textbf{v. 433 :} οὔπω τε \Rac{} : οὐπώποτε \Rpc{} : \lecon{οὔπω} Dindorf.
+    \item \textbf{v. 435 :} \lecon{δεινότερον} R (δεινότερα Hermann).
+    \item \textbf{v. 437 :} \lecon{πάσας} εἰδέας \lecon{ἐξήτασεν} R (mais \lecon{ἰδέας} Souda $\varepsilon\ 22$, sans iotacisme ; πᾶσαν ἰδέαν ἐξετάζει Hermann).
+    \item \textbf{v. 438 :} ἐβάστασεν R : \lecon{ἐβάστασε} Souda.
+    \item \textbf{v. 439 :} ἀνεῦρεν R, Souda : \lecon{ἀνηῦρεν} Meineke.
+    \item \textbf{v. 441 :} Ξενοκλῆς R : \lecon{Ξενοκλέης} Bentley.
+    \item \textbf{v. 443 :} \lecon{γυνὴ ἑτέρα} \Rpc{} \espApp ἕνεκ' αὐτὴ R (haplographie de $\kappa\alpha-$) : \lecon{ἕνεκα καὐτὴ} Porson.
+    \item \textbf{v. 446 :} ἀνὴρ R : \lecon{ἁνὴρ} Brunck \espApp ἐν Κύπρῳ R : \lecon{ἔγκυος} \lecon{Bibi}.
+    \item \textbf{v. 450 :} ταῖσι R : \lecon{ταῖσιν} Brunck.
+    \item \textbf{v. 453 :} ἁπάσαισι R : \lecon{ἁπάσαισιν} Aulu-Gelle, \italique{Noctes Atticae} 15.20.
+    \item \textbf{v. 456 :} \lecon{τοῖς} Plutarque, \italique{Moralia} 853C, Aulu-Gelle 15.20 : om. R (devant λαχάνοις).
+    \item \textbf{v. 462 :} ἄκερα R (bêtacisme vocalique $\alpha\iota \to \varepsilon$) : \lecon{ἄκαιρα} Zanetti.
+    \item \textbf{v. 463 :} \lecon{πολύπλοκον} R (τι πολύπλοκον Dobree ; πολύστροφον Hermann).
+  \end{itemize}
+\end{itemize}
 
-  \item[\textbf{Folio 29 --- \texttt{f.~176v} (\texttt{Classense 178v}, planche 180 g.) : vv.~1169--1210 ($\mathbf{\Psi^3}$ vv.~1185--1193 ; $\mathbf{\Psi^4}$ fr.~2, vv.~1201--1210).}]
-  Contient après le v.~1187 la \textbf{4\textsuperscript{e} \emph{parepigraphè}} : \foreignlanguage{greek}{ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος·} $\text{R}$ (\foreignlanguage{greek}{μ]ενο[} $\Psi^3$, del. Ellebodius).
-  \emph{Six grattages (\emph{in rasura}) et corrections :} \textbf{v.~1172 \foreignlanguage{greek}{ἐμὸν }\texttt{\textbackslash inRas\{γ'\}\{\}} $\text{R}^2$} ; v.~1173 \foreignlanguage{greek}{ἔφραζον} (ex \foreignlanguage{greek}{ἔφρον}) $\text{R}^{\text{pc}}$ ; v.~1185 \foreignlanguage{greek}{ὡ στεριπὸ} (ex \foreignlanguage{greek}{σπεριπο}) $\text{R}^{\text{pc}}$ | \textbf{\foreignlanguage{greek}{γογγυλί} $\Psi^3$, Enger : \foreignlanguage{greek}{γογγύλῃ} $\text{R}$} ; \textbf{v.~1187 \foreignlanguage{greek}{κλαυσ}\texttt{\textbackslash inRas\{' ε\}\{\}}\foreignlanguage{greek}{ϊ γ'} $\text{R}^2$} ; \textbf{v.~1188 \foreignlanguage{greek}{τὸ }\texttt{\textbackslash inRas\{σ\}\{\}}\foreignlanguage{greek}{ποστίον} $\text{R}^{\text{pc}}$} ; \textbf{v.~1192 \foreignlanguage{greek}{μέλι} $\Psi^3, \text{M}$ : \foreignlanguage{greek}{μέλις} $\text{R}$} ; \textbf{v.~1195 \texttt{\textbackslash inRas\{σὺ\}\{\}}\foreignlanguage{greek}{ κάρισοσ οὐ} $\text{R}^{\text{pc}}$} (\foreignlanguage{greek}{κάρισο σὺ} Brunck) ; \textbf{v.~1198 \foreignlanguage{greek}{κ}\texttt{\textbackslash inRas\{ω\}\{ο\}}\foreignlanguage{greek}{μίζεις αὐτοῖς} $\text{R}^{\text{pc}}$} ; \textbf{v.~1208 \foreignlanguage{greek}{λέλυσο}\texttt{\textbackslash inRas\{ν\}\{\}} $\text{R}^{\text{pc}}$} (confirmé par $\Psi^4$) ; v.~1210 \foreignlanguage{greek}{τυγάτριον} (ex \foreignlanguage{greek}{τυγάθριον}) $\text{R}^{\text{pc}}$.
-  \emph{Main humaniste de Boninus :} \foreignlanguage{greek}{γϋ.} ajouté en marge aux vv.~1189 et 1198.
-  \emph{Choix et conjectures de \texttt{Bibi} :} \textbf{$\Sigma^{\text{R}}$ ad v.~1174 \foreignlanguage{greek}{ἁβρῶς} $\text{R} \to$ \foreignlanguage{greek}{ἄκρως} \texttt{Bibi} ap. Zonaras p.~1171} ; \textbf{v.~1197 \foreignlanguage{greek}{συμβήνην} $\text{R}$ défendu par \texttt{Bibi} ap. Hésychius $\sigma~2137$} (contre \foreignlanguage{greek}{συβήνην} $\Sigma$, Souda, Photius) ; \textbf{v.~1198 \foreignlanguage{greek}{(Τοξότ.) κομίζι σ' αὐτίκ'} \texttt{Bibi}}.
+\soussousPartie{Folio 12 --- \texttt{f. 168r} (\texttt{Classense 170r}) : \textbf{vv. 466–508}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{12\_f168r\_classense170r\_vv0466-0508.jpg} \espApp \textbf{Planche double :} \texttt{06\_planche171\_ff167v-168r\_vv0423-0508.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Scandaleuse « défense » d'Euripide par Mnésiloque déguisé en femme : Euripide n'a pas dit le dixième des tours pendables que les femmes jouent réellement à leurs maris (adultères nocturnes, amants cachés sous un voile, fausses couches simulées, vv. 466–508).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{v. 477 :} Le vers de R (οὐδ' εἴρηκεν οὐδὲν πρὸς ἃ δρῶμεν· πολλ') est amputé d'une syllabe finale ; \textbf{\textbf{Bibi} restitue πολλά γ'· ἀλλ'} (chute de -ά γ'· ἀλλ' par saut du même au même entre les deux ΛΛ).
+    \item \textbf{v. 489 :} \Rac{} avait écrit κυνδ' (confusion minuscule $\beta/\nu$), corrigé en \lecon{κύβδ'} par \Rpc{} (suivi par \Mon{}).
+    \item \textbf{v. 493 :} Comme le précise Louis Hauseux (\texttt{vv 1-641.tex}, l. 3715), le copiste avait d'abord écrit la forme crue \lecon{ληκώμεθα} (attestée par la Souda $\sigma\ 1126$ et adoptée par L. Hauseux), puis a \textbf{gratté les trois premières lettres ληκ-} pour les remplacer par κιν- (\lecon{\inRas{ληκ}{κιν}ώμεθα} \Rpc{}) sous l'influence de la glose κινώμεθα.
+    \item \textbf{v. 500 (genèse paléographique d'un vers interpolé) :} Le v. 500 (ὑπ' αὐγὰς οἷόν ἐστιν ἐγκεκαλυμμένον), athétisé par van Herwerden et L. Hauseux (\texttt{vv 1-641.tex}, ll. 3781–3806), est né d'une glose ou citation marginale [τὸν μοιχόν·] ὑπαυγάσας. ᾦόν ἐστιν ἐγκεκαλυμμένον, dans laquelle ΩΙΟΝ (avec iota muet adscrit = $\text{ᾦόν}$, « un œuf enveloppé ») a été lu par iotacisme et bêtacisme $\omega/\text{ο}$ \textbf{ΟΙΟΝ (οἷόν)}, entraînant la réécriture métrique ὑπ' αὐγὰς οἷόν ἐστιν....
+    \item \textbf{v. 506 :} L'optatif \lecon{βοῴη}, omis par \Rac{}, est suppléé par \Rpc{}.
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 466–508}) :}
+  \begin{itemize}
+    \item \textbf{v. 467 :} ἀκουούσαις R : \lecon{ἀκουούσας} Zanetti.
+    \item \textbf{v. 469 :} ὀνοίμην R : \lecon{ὀναίμην} Souda $\text{ο}\ 330$.
+    \item \textbf{v. 471 :} ἀλλήλοισι R : \lecon{ἀλλήλαισι} Brunck.
+    \item \textbf{v. 472 :} \lecon{ἔκφορος} R (ἐκφορὰ Valckenaer ad Eur. \italique{Hipp.} 294).
+    \item \textbf{v. 473 :} κεῖνον R, Souda $\tau\ 683$ : \lecon{'κεῖνον} Meineke.
+    \item \textbf{v. 474 :} ἢ δύ' R : \lecon{εἰ δύ'} Grynaeus (\italique{si} Divus).
+    \item \textbf{v. 476 :} μὴ ἄλλην R : \lecon{μἄλλην} Dindorf.
+    \item \textbf{v. 477 :} πολλ' R (δεινὰ πολλ' Bentley) : \lecon{πολλά γ'· ἀλλ'} \lecon{Bibi}.
+    \item \textbf{v. 478 :} ἦν R : \lecon{ἦ} Dindorf.
+    \item \textbf{v. 479 :} καθεύδειν R : \lecon{καθηῦδεν} Scaliger.
+    \item \textbf{v. 480 :} διεκόρευσεν R : \lecon{διεκόρησεν} Pollux (cf. \italique{Pax} 59) \espApp ἑπτ. οὖσ. R : \lecon{οὖσαν ἑπτ.} Pollux.
+    \item \textbf{v. 481 :} μ' οὔκνυεν R (médivision et diphtongaison) : \lecon{μου 'κνυεν} Souda $\varepsilon\ 520$ (cf. Hésychius $\kappa\ 3133$).
+    \item \textbf{v. 482 :} κᾶτ' R : \lecon{κᾆτ'} Küster.
+    \item \textbf{v. 486 :} ἄνηθον R, Souda : \lecon{ἄννηθον} Dindorf (1830).
+    \item \textbf{v. 488 :} ἐρειδόμην R : \lecon{ἠρειδόμην} Küster.
+    \item \textbf{v. 489 :} κυνδ' \Rac{} : \lecon{κύβδ'} $\text{R}^{\text{pc}}, \text{M}$.
+    \item \textbf{v. 493 :} \lecon{ληκώμεθα} \Rac{}, Souda $\sigma\ 1126$ : \inRas{ληκ}{κιν}ώμεθα \Rpc{}.
+    \item \textbf{v. 494 :} σκορόδια R : \lecon{σκόροδα δια-} Bentley.
+    \item \textbf{v. 495 :} ὀσφραινό- R : \lecon{ὀσφρόμενος} Küster \espApp ἀνὴρ R : \lecon{ἁνὴρ} Dawes \espApp ἀπὸ τοῦ R : \lecon{ἀπὸ} Biset.
+    \item \textbf{v. 500 :} ὑπ' αὐγὰς οἷόν ἐστιν ἐγκεκαλυμμένον R (ὑπαυγάσ' Hermann) : \lecon{del.} van Herwerden.
+    \item \textbf{v. 501 :} μυχὸν R (iotacisme) : \lecon{μοιχὸν} Grynaeus.
+    \item \textbf{v. 502 :} ήφασκεν R : \lecon{ἣ 'φασκεν} Zanetti.
+    \item \textbf{v. 504 :} \lecon{περιήρχετ'} R (περιέτρεχ' Bergk) \espApp ὠκυτόκεια R : \lecon{ὠκυτόκι'} Pollux II.7.
+    \item \textbf{v. 505 :} \lecon{τὸ δ'} R (τότ' Biset ; τῇδ' Daubuz).
+    \item \textbf{v. 506 :} \lecon{βοῴη} suppl. \Rpc{}.
+  \end{itemize}
+\end{itemize}
 
-  \item[\textbf{Folio 30 --- \texttt{f.~177r} (\texttt{Classense 179r}, planche 180 dr.) : vv.~1211--1231 (Fin, $\mathbf{\Psi^1}$ v.~1231) + \emph{Hypothesis} des \emph{Ecclesiazusae}.}]
-  \textbf{v.~1215 \foreignlanguage{greek}{συβήνη} $\text{R} \to$ \foreignlanguage{greek}{συμβήνη} \texttt{Bibi}} (cf. v.~1197, Hésychius $\sigma~2137$) ; v.~1227 \foreignlanguage{greek}{πέπυσται} $\text{R} \to$ \foreignlanguage{greek}{πέπαισται} $\Sigma$ ; v.~1231 \foreignlanguage{greek}{ἀνταδοῖτον} $\text{R} \to$ \foreignlanguage{greek}{ἀνταποδοῖτον} Grynaeus (suivi dans $\Psi^1$ de la note stichométrique $1201$ vers). Dans la moitié inférieure du folio, sous la \emph{koronis}, $\text{R}^2$ copie l'\emph{Hypothesis} et l'index des personnages des \emph{Ecclesiazusae}.
-\end{description}
+\soussousPartie{Folio 13 --- \texttt{f. 168v} (\texttt{Classense 170v}) : \textbf{vv. 509–550}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{13\_f168v\_classense170v\_vv0509-0550.jpg} \espApp \textbf{Planche double :} \texttt{07\_planche172\_ff168v-169r\_vv0509-0589.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Fin du récit de Mnésiloque (le bébé supposé apporté dans une marmite, vv. 509–519) ; indignation du Chœur (vv. 520–530) ; altercation violente entre Mika et Mnésiloque à propos de Mélanippe et de Phèdre (vv. 531–550).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Correction complexe \italique{in rasura} et supralinéaire au v. 512 :} \Rac{} avait répété εἰσέφερε d'après le v. 509 ; \Rpc{} a gratté le $\sigma$ et tracé un $\eta$ au-dessus de εἰ (\lecon{\auDessus{εἰ}{η}\inRas{σ}{}έφερε}), visant ἣ 'φερεν (Bentley).
+    \item \textbf{Correction au v. 514 :} αὖτ' ἔκμαγμα corrigé par \Rpc{} à partir de έγμαγμα.
+    \item \textbf{Correction au v. 549 :} ἂν corrigé par \Rpc{} à partir de ἂρ.
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 509–550}) :}
+  \begin{itemize}
+    \item \textbf{v. 510 :} ἔτρεχεν R : \lecon{ἀπέτρεχ'} van Herwerden.
+    \item \textbf{v. 511 :} \lecon{τοῦ παιδίου} R (τὸ κηρίον Hirschig).
+    \item \textbf{v. 512 :} \auDessus{εἰ}{η}\inRas{σ}{}έφερε \Rpc{} : \lecon{ἥ 'φερεν} Bentley.
+    \item \textbf{v. 514 :} αὖτ' ἔκμαγμα (ex έγμαγμα) \Rpc{}, Pollux IX.131 (ἔκμαγμα Souda $\lambda\ 271, \pi\ 2114$) : \lecon{αὐτέκμαγμα} Reiske.
+    \item \textbf{v. 521 :} εὑρέθη R : \lecon{ηὑρέθη} Meineke.
+    \item \textbf{v. 526 :} ὑμῖν R : \lecon{ἡμῖν} Bonini.
+    \item \textbf{v. 527 :} ἀλλ' ἅπαν R : \lecon{ἀλλὰ πᾶν} Cobet.
+    \item \textbf{v. 531 :} \lecon{(Κορ.)} add. von Velsen.
+    \item \textbf{v. 532 :} \lecon{ἄρ' εἰ} R (ἄλλαι Souda $\alpha\ 1349$).
+    \item \textbf{v. 533 :} (γυνὴ τις) \Rpc{} : \lecon{(Μίκα)} Rogers \espApp Ἄγραυλον R (métathèse de liquides $\rho/\lambda$) : \lecon{Ἄγλαυρον} Daubuz.
+    \item \textbf{v. 536 :} \lecon{μή ἡμεῖς} R (μἠμεῖς Bentley).
+    \item \textbf{v. 537 :} αὐτοί R : \lecon{αὐταί} Bonini \espApp \lecon{γε} R (τε $\Sigma$ T ad Hom. \italique{Il.} I.135).
+    \item \textbf{v. 542 :} ἅ γιγνωσκον R : \lecon{ἅ 'γίγνωσκον} Bentley.
+    \item \textbf{v. 545 :} ὡς R : \lecon{ὃς} Grynaeus.
+    \item \textbf{v. 546 :} ἐξεπίτηδες R : \lecon{ἐπίτηδες} Scaliger.
+    \item \textbf{v. 548 :} ἐποίησεν R : \lecon{ἐποίησ'} Scaliger.
+    \item \textbf{v. 549 :} \lecon{ἂν} ex ἂρ corr. \Rpc{}.
+    \item \textbf{v. 550 :} ἁπαξαπάσας R, \Mon\expo{p.c.} : \lecon{δ' ἁπαξαπάσας} \Mon\expo{a.c.}.
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 14 --- \texttt{f. 169r} (\texttt{Classense 171r}) : \textbf{vv. 551–589}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{14\_f169r\_classense171r\_vv0551-0589.jpg} \espApp \textbf{Planche double :} \texttt{07\_planche172\_ff168v-169r\_vv0509-0589.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Sommet de l'empoignade verbale et physique entre Mika et Mnésiloque (vv. 551–570) ; arrivée précipitée de l'efféminé \textbf{Clisthène}, « proxène » des femmes, venu les avertir qu'Euripide a infiltré parmi elles un vieillard rasé et épilé (vv. 571–589).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{vv. 556–557 (locus classicus de l'édition Louis Hauseux) :}
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 551–589}) :}
+  \begin{itemize}
+    \item \textbf{v. 553 :} πλεῖον R : \lecon{πλείον'} Bentley.
+    \item \textbf{v. 554 :} ᾔδεις R : \lecon{ᾔδησθ'} Hirschig (cf. Ar. \italique{Vesp.} 146).
+    \item \textbf{v. 555 :} \lecon{add. γε} Faber.
+    \item \textbf{v. 556 :} ἔπειτά γ' R : \lecon{ἐπεὶ τάδ'} Dindorf \espApp οὐχ R : \lecon{οὐκ} \Mon{} \espApp τλεγγίδας R : \lecon{στλεγγίδας} \Mon{}.
+    \item \textbf{v. 557 :} τὸν σῖτον R, $\Sigma$, Souda $\sigma\ 512$ : \lecon{τὸν κύσθον} \lecon{Bibi} (cf. v. 1114).
+    \item \textbf{v. 558 :} ὥς τ' αὐτὰ R (ὥς ταῦτα \Mon{}) : \lecon{ὥς τ' αὖ τὰ} Zanetti.
+    \item \textbf{v. 560 :} \lecon{τὸν ἄνδρα τῷ πελέκει γυνὴ} R (ἑτέρα τὸν ἄνδρα τῷ πελέκει Souda $\kappa\ 996$).
+    \item \textbf{v. 563 :} \lecon{ἀχαρνικὴ} R (Ἀχαρνικὴ Dobree).
+    \item \textbf{v. 567 :} \lecon{ποκάδας} R, Souda (πλοκάδας $\Sigma$) \espApp δὲ R : \lecon{δὴ} Bothe.
+    \item \textbf{v. 569 :} πρόσθες R (πρόσιθι Cobet) : \lecon{πρόσθιγε} Alphonse Willems (adopté par L. Hauseux).
+    \item \textbf{v. 571 :} (Χορ.) R : \lecon{(Κορ.)} von Velsen \espApp παύσασθαι R (iotacisme $-\alpha\iota/-\varepsilon$) : \lecon{παύσασθε} \Mon$^{2}$.
+    \item \textbf{v. 576 :} \lecon{ὑμῶν} R (ὑμᾶς Souda $\pi\ 2541$).
+    \item \textbf{v. 580 :} σκοπεἴτε καὶ τηρεἴτε R : \lecon{σκοπῆτε καὶ τηρῆτε} Biset \espApp καὶ μὴ R : \lecon{μὴ καὶ} Porson (\italique{Aristophanica}, p. 216).
+    \item \textbf{v. 581 :} ἡμῖν R : \lecon{ὑμῖν} \Mon{} \espApp ἀφράκτοις R : \lecon{ἀφάρκτοις} Dindorf (1830, métathèse attique ancienne $-\rho\kappa-$).
+    \item \textbf{v. 584 :} ἔφας' R : \lecon{φάσ'} Zanetti.
+    \item \textbf{v. 585 :} αὐτου R : \lecon{αὑτοῦ} Biset.
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 15 --- \texttt{f. 169v} (\texttt{Classense 171v}) : \textbf{vv. 590–634}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{15\_f169v\_classense171v\_vv0590-0634.jpg} \espApp \textbf{Planche double :} \texttt{08\_planche173\_ff169v-170r\_vv0590-0678.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Enquête policière menée par Clisthène et Mika : interrogatoire serré de Mnésiloque (qui tente de s'esquiver pour « uriner » et s'invente pour mari \italique{Kalligénès} du dème de Kothôkidai, puis se trahit sur les rites secrets de la première nuit des Thesmophories, vv. 590–634).
+  \item \textbf{Témoin papyrologique :} \textbf{\PsiUn{} (\italique{PSI} XI 1194)} couvre les \textbf{vv. 594–596}.
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Supplément marginal au v. 630 :} La particule \lecon{μέντοι} (confirmée par la Souda $\pi\ 2563$) avait été omise dans la colonne par \Rac{} (et reste \textbf{omise dans \Mon{}}) ; elle a été rétablie dans la marge par \Rpc{}.
+    \item \textbf{Dittographie syllabique au v. 634 :} En bas de page, $\text{R}^1$ écrit Κλεισόσθενες (dittographie de $-\sigma\text{ο}-$ dans Κλείσθενες, corrigée par Bonini), tandis que \Rdeux{} corrige δεῦρο (\Rac{}, \Mon{}) en \lecon{δευρ ὦ}.
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 590–634}) :}
+  \begin{itemize}
+    \item \textbf{v. 590 :} \lecon{ἄφευσεν} R (ἀφηῦσεν Meineke) \espApp καπέτιλλ' R : \lecon{κἀπέτιλ'} Bekker.
+    \item \textbf{v. 594 :} οἴομ' ἔγωγ' R : \lecon{οἴομαι 'γωγ'} anonymus Parisinus.
+    \item \textbf{v. 596 :} πεπύσμην R, \PsiUn{} : \lecon{'πεπύσμην} Faber \espApp ταυτὶ R : \lecon{ταῦτα} Bentley.
+    \item \textbf{v. 598 :} ἐλιννύειν R : \lecon{ἐλινύειν} Bourdin.
+    \item \textbf{v. 600 :} ὑμᾶς R : \lecon{ἡμᾶς} \Mon{}.
+    \item \textbf{v. 601 :} συνέξευρ' R, Souda $\pi\ 2540$ codd. AG : \lecon{ξυνέξευρ'} Souda codd. FVM.
+    \item \textbf{v. 602 :} \lecon{ταύτην} R (αὐτὴν Souda).
+    \item \textbf{v. 605 :} εἰτις ἤρου; R : \lecon{ἥτις} (Zanetti) \lecon{εἴμ' ἤρου;} Bentley.
+    \item \textbf{v. 606 :} ἥδε R (ἥδ' ἡ \Mon{}) : \lecon{ἡδὶ} Grynaeus.
+    \item \textbf{v. 609 :} τίτθην η δί' R (médivision de $\nu$ final) : \lecon{τίτθη νὴ Δί'} Ellebodius.
+    \item \textbf{v. 610 :} \lecon{ἐμοὶ} R (μοι \Mon{}).
+    \item \textbf{v. 611 :} εἶ R : \lecon{τις εἶ} Küster.
+    \item \textbf{v. 612 :} ἀναμένω R : \lecon{ἀναμενῶ} Grynaeus.
+    \item \textbf{v. 615 :} πολύ R : \lecon{πολύν} Gelenius.
+    \item \textbf{v. 619 :} ἔσθ' R : \lecon{ἔστ'} \Mon{}.
+    \item \textbf{v. 621 :} (Κλεισθ.) continuat R : \lecon{(Μνη.)} \Mon{}.
+    \item \textbf{v. 624 :} ὅς' ἔτη R : \lecon{ὁσέτη} G. H. Schaefer ad Gregor. Cor. p. 65 \espApp σοὐστὶν R : \lecon{σοὐστὶ} Dindorf (σοῦ 'στὶ Biset).
+    \item \textbf{v. 625 :} ἔμοιγε R : \lecon{ἔμοιγ'} edd. pr.
+    \item \textbf{v. 630 :} \lecon{μέντοι} \Rpc{} in mg., Souda $\pi\ 2563$ : om. $\text{R}^{\text{ac}}, \text{M}$.
+    \item \textbf{v. 631 :} \lecon{δὲ} R, Souda $\pi\ 2563$ (δαὶ Bentley) \espApp με R : \lecon{μετὰ} Souda.
+    \item \textbf{v. 632 :} τί δὲ τρίτον R (τί δ' αὖ Bentley ; τί δαὶ τρίτον Elmsley) : \lecon{τί δ' ἦν τρίτον} Teubner.
+    \item \textbf{v. 634 :} δεῦρο $\text{R}^{\text{ac}}, \text{M}$ : \lecon{δευρ ὦ} \Rdeux{} \espApp Κλεισόσθενες R : \lecon{Κλείσθενες} Bonini.
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 16 --- \texttt{f. 170r} (\texttt{Classense 172r}) : \textbf{vv. 635–678}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{16\_f170r\_classense172r\_vv0635-0678.jpg} \espApp \textbf{Planche double :} \texttt{08\_planche173\_ff169v-170r\_vv0590-0678.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Démasquage anatomique de Mnésiloque (déshabillage forcé et jeu de cache-cache du phallus entre ses jambes, vv. 635–654) ; départ de Clisthène vers les Prytanes et chant choral de patrouille armée des femmes fouillant l'orchestra (vv. 655–678).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Sigle tachygraphique marginal μν\auDessus{η}{σ} au v. 638 et redistribution des répliques par \textbf{Bibi} (vv. 637–643) :} Comme le précise Louis Hauseux (\texttt{vv 1-641.tex}, l. 4618), R comporte en marge du v. 638 le sigle tachygraphique \lecon{μν\auDessus{η}{σ}} et aucune indication de changement d'interlocuteur jusqu'au v. 640 (Γυνή). Aux vv. 637–640, Louis Hauseux donne 637–638 à (Μνη.) (en lisant l'indicatif 3\ieme{} pers. \lecon{χαλᾷ} au v. 638) et 639–640 à \lecon{(Μίκα)} ; aux vv. 642–643, il restitue la réplique à \lecon{(Κλεισθ.)}.
+    \item \textbf{Confusion onciale ΙϹ $\leftrightarrow$ Π au v. 657 :} εἰσελήλυθεν R corrigé par \textbf{Handley} en \lecon{ἐπελήλυθε}.
+    \item \textbf{Grattage d'un mot entier répété par dittographie au v. 669 :} \Rac{} avait écrit deux fois de suite ἅπασιν ; \Rpc{} a gratté le second (\lecon{ἅπασιν \inRas{ἅπασιν}{} ἔσται}), laissant sur le parchemin un espace blanc très net entre ἅπασιν et ἔσται (Beer ap. Hermann restitue ἀνδράσιν ἔσται).
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 635–678}) :}
+  \begin{itemize}
+    \item \textbf{v. 635 :} ἀνὴρ R : \lecon{ἁνὴρ} Bentley.
+    \item \textbf{vv. 637–640 :} μν\auDessus{η}{σ} (ad v. 638, nulla mut. pers. usque ad 640 Γυνή) R : \lecon{(Μνη.) (637–638) et (Μίκα) (639–640)} \lecon{Bibi}.
+    \item \textbf{v. 638 :} χάλᾳ R (χάλα Grynaeus) : \lecon{χαλᾷ} \lecon{Bibi}.
+    \item \textbf{v. 640 :} τίτθος R : \lecon{τιτθούς} ed. Iuntina.
+    \item \textbf{v. 641 :} στεριφῇ R : \lecon{στερίφη} (sed στεριφὴ) \Mon{}.
+    \item \textbf{vv. 642–643 :} (Μνησ.) (641–643) R : \lecon{(Κλεισθ.) (642–643)} \lecon{Bibi} \espApp \textbf{v. 642 :} δὴ R : \lecon{δὲ} \Mon{}.
+    \item \textbf{v. 644 :} τὸ δὶ δὴ ἔκυψε R (médivision et iotacisme) : \lecon{τοδὶ διέκυψε} Dobree, Dindorf.
+    \item \textbf{v. 646 :} \lecon{ἐνγεταυθί} R (ἐγγεταυθί Thiersch) \espApp \lecon{ἀλλὰ} R (μἀλλὰ Bentley).
+    \item \textbf{v. 647 :} ῶνθρωπε R (ἄνθρωπε \Mon{}, ἄνθρωπ' Souda $\iota\ 640$) : \lecon{ὤνθρωπ'} Ellebodius.
+    \item \textbf{v. 651 :} εἰσεκύλησα R (iotacisme) : \lecon{εἰσεκύλισα} Scaliger.
+    \item \textbf{v. 653 :} οἴχεται R : \lecon{οἰχήσεται} Faber (p. 788).
+    \item \textbf{v. 654 :} πρυτάνεσσιν R : \lecon{πρυτάνεσιν} \Mon{}.
+    \item \textbf{v. 657 :} εἰσελήλυθεν R : \lecon{ἐπελήλυθε} Handley (confusion onciale ΙϹ/Π).
+    \item \textbf{v. 658 :} ἀθρῆσαι R : \lecon{διαθρῆσαι} Daubuz.
+    \item \textbf{v. 659 :} (Ἡμιχ. γυν.) \Rpc{}.
+    \item \textbf{v. 660 :} πανταχῇ post χρὴ R : \lecon{ante μόνον} Küster.
+    \item \textbf{v. 662 :} χρὴ R : \lecon{χρῆν} Bentley (χρῆ μ' Austin).
+    \item \textbf{v. 665 :} διάρριψον R : \lecon{δὲ ῥῖψον} Hermann.
+    \item \textbf{v. 666 :} \lecon{καὶ τὰ τῇδε} R (post καὶ τὰ τῇδε add. καὶ τὰ κεῖσε Kaibel).
+    \item \textbf{v. 667 :} μὴ λάθῃ R : \lecon{ληφθῇ} Reisig (με λάθῃ Bergk).
+    \item \textbf{v. 669 :} ἅπασιν \inRas{ἅπασιν}{} ἔσται \Rpc{} (ἅπασιν ἔσται \Mon{}) : \lecon{ἀνδράσιν ἔσται} Beer ap. Hermann (1845).
+    \item \textbf{v. 675 :} \lecon{ἐφέποντας} R (ἐφέπειν Hermann).
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 17 --- \texttt{f. 170v} (\texttt{Classense 172v}) : \textbf{vv. 679–720}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{17\_f170v\_classense172v\_vv0679-0720.jpg} \espApp \textbf{Planche double :} \texttt{09\_planche174\_ff170v-171r\_vv0679-0764.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Fin du chant choral sur la justice divine (vv. 679–686) ; début de la \textbf{parodie du \italique{Télèphe} d'Euripide} : Mnésiloque arrache le nourrisson de Mika et se réfugie sur l'autel en menaçant de l'égorger (vv. 687–720).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Page particulièrement riche en corruptions d'onciale et de minuscule élucidées par Louis Hauseux (\textbf{Bibi}) :}
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 679–720}) :}
+  \begin{itemize}
+    \item \textbf{v. 679 :} \lecon{αὐτῶν} R (τούτων Richards) \espApp \lecon{ὅσια} R (maintenu par L. Hauseux avec interrogation ; ἀνόσια Zanetti ; ὅσια μὴ Burges ; ἀνόσιόν τι Hermann).
+    \item \textbf{v. 683 :} ἐστὶν R : \lecon{ἔσται} Bothe \espApp γυναιξὶν R : \lecon{γυναιξὶ} Brunck.
+    \item \textbf{v. 686 :} ἀποτίνεται· \espApp παραχρῆμά τε τίνεται R : \lecon{παραχρῆμ' ἀποτίνεται} Hermann.
+    \item \textbf{v. 687 :} \lecon{(Κορ.)} add. von Velsen \espApp \lecon{πως} R (που Blaydes).
+    \item \textbf{v. 689 :} ἀά supra lin. R : \lecon{ἆ ἆ} Thiersch \espApp ποῖ R : \lecon{ποῖ ποῖ} Biset.
+    \item \textbf{v. 693 :} \lecon{ἀφε\auDessus{ῖ}{ῆ}τ'} \Rdeux{} (ἀφεῖτ' \Mon{}).
+    \item \textbf{v. 697 :} καὶ om. R : \lecon{καὶ} suppl. $\Sigma$ ad \italique{Plut.} 453 et Grégoire de Corinthe, \italique{De dialectis}, p. 22.
+    \item \textbf{v. 700 :} δὲ R : \lecon{τόδε} Dobree (δὴ Reisig).
+    \item \textbf{v. 702 :} ἅπαν γὰρ ἐστὶν R (ἅπαντα Souda, cod. Laur.) : \lecon{ἅπαντ' ἄρ' ἐστὶ} Bentley \espApp ἔργα R : \lecon{πλέα} Souda (δοῦλα cod. Laur. ; μεστὰ Porson).
+    \item \textbf{v. 704 :} οἷον R : \lecon{οἷον;} Ellebodius \espApp ἐξάρξω R (ἐξαράξει Ellebodius ; ἐξαράξω Bentley) : \lecon{ἐξαρήξω} \lecon{Bibi} ap. Hésychius $\varepsilon\ 3599$.
+    \item \textbf{v. 706 :} ὅτι R : \lecon{ὁτιή} Faber (ὅστις Porson).
+    \item \textbf{v. 710 :} ἥκεις τ' R (ἥκεις γ' Souda $\eta\ 170$ ; ἥκων γ' Willems) : \lecon{ἥκειν γ'} \lecon{Bibi} ap. Photius $\eta\ 88$ (permutation minuscule $\nu \to \varsigma$).
+    \item \textbf{v. 711 :} τ' R, Souda : \lecon{δ'} Bentley \espApp οὐ λέξεις R, Souda : \lecon{οὐκ ἔξει.} \lecon{Bibi} ap. $\Sigma^{\text{R}}$ (ὅθεν οὐ φεύξῃ, confusion onciale Κ/Λ).
+    \item \textbf{v. 715 :} \lecon{οὖν σοι} R (ἂν σοι Hamaker).
+    \item \textbf{v. 717 :} τὴν δ' R : \lecon{τήνδ'} Biset.
+    \item \textbf{v. 719 :} ἐνυβρίσεις R : \lecon{ἐνυβριεῖς} anonymus Romanus (futur attique).
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 18 --- \texttt{f. 171r} (\texttt{Classense 173r}) : \textbf{vv. 721–764}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{18\_f171r\_classense173r\_vv0721-0764.jpg} \espApp \textbf{Planche double :} \texttt{09\_planche174\_ff170v-171r\_vv0679-0764.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Suite et dénouement de la parodie du \italique{Télèphe} : les femmes apportent du bois pour brûler Mnésiloque ; en démaillotant l'otage, Mnésiloque découvre que le « bébé » est une outre pleine de vin chaussée de petites bottines perses (\italique{persikai}), qu'il « égorge » et boit goulûment au-dessus du bassin sacrificiel (\italique{sphageion}, vv. 721–764).
+  \item \textbf{Témoin papyrologique :} \textbf{\PsiDeux{} (\italique{P.Oxy.} LVI 3839, fr. 1)} couvre les \textbf{vv. 742–766} et apporte quatre confirmations décisives face à R (vv. 743, 745, 746, 754).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Confrontation directe entre R et le papyrus \PsiDeux{} (vv. 743–754) :}
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 721–764}) :}
+  \begin{itemize}
+    \item \textbf{v. 721 :} ἀθέοις ἔργοις γὰρ R (ἀθ. γὰρ ἔργ. Burges ; ἐπ' ἀθ. ἔρ. γὰρ Enger) : \lecon{ξὺν ἀθέοις ἔργοις γὰρ} \lecon{Bibi} ap. Taillardat (cf. v. 716) \espApp γὰρ R : \lecon{καὶ γὰρ} Hermann.
+    \item \textbf{v. 724 :} τάχα δέ σε R : \lecon{τάχα δὲ} Fritzsche.
+    \item \textbf{v. 725 :} τις τύχη R : \lecon{τύχη} Bergk.
+    \item \textbf{v. 729 :} \lecon{κἀγώ} R (ἦ 'γώ Sommerstein).
+    \item \textbf{v. 730 :} σὺ τόδε τὸ R : \lecon{σὺ δὲ τὸ} Souda $\kappa\ 2408$.
+    \item \textbf{v. 733 :} ἐγένηθ' R : \lecon{ἐγένεθ'} Grynaeus.
+    \item \textbf{v. 740 :} ἀπόκρινέ R (bêtacisme $-\varepsilon/-\alpha\iota$) : \lecon{ἀπόκριναί} \Mon$^{2}$.
+    \item \textbf{v. 741 :} δέκα μῆνας R : \lecon{καὶ δέκα μῆνας} Biset (δέκα μῆνας γε Scaliger).
+    \item \textbf{v. 743 :} \_τρικοτυλον· ηπωc  ειπε μοι τ[ \PsiDeux{} : τρικότυλον ἢ πῶς; εἰπέ μοι — τί μ' εἰργάσω; R : \lecon{ἠργάσω} Hall–Geldart.
+    \item \textbf{v. 745 :} \lecon{τυννοῦτον} et \lecon{τυννοῦτο} \PsiDeux{}, Brunck : τυνοῦτον et τυνοῦτο R \espApp Γϋ. ante μικρὸν R : \lecon{nulla nota mutat. pers.} \PsiDeux{}.
+    \item \textbf{v. 746 :} \lecon{γέγονε} \PsiDeux{}, Brunck : γέγονεν R.
+    \item \textbf{v. 747 :} καὶ ὅσον \PsiDeux{}, R : \lecon{χὤσον} Bentley.
+    \item \textbf{v. 749 :} \lecon{ἐμπιμπρᾶται} R (ἐμπιμπράτε \italique{sic} \Mon{}).
+    \item \textbf{v. 754 :} \lecon{δός τὸ} \PsiDeux{}, Lobeck (ad Soph. \italique{Ai.} 1066) : δός μοι τὸ R \espApp σφαγίον \Rac{} : \lecon{σφαγεῖον} $\text{R}^{\text{pc}}, \text{M}$.
+    \item \textbf{vv. 758–759 :} \lecon{ἱερείας} \PsiDeux{}, R (ἱερέας Austin \& Olson).
+    \item \textbf{v. 759 :} $\emptyset$ R ((ἄλλη γυνή) \Rpc{} ad v. 760) : \lecon{(Κρίτ.)} Sommerstein \espApp τουτί R : \lecon{τουτί.} Bergk.
+    \item \textbf{v. 760 :} ἐξεκόρησεν R : \lecon{ἐξεκόρησε} \Mon{}.
+    \item \textbf{v. 761 :} σοὐξῃρήσατο R : \lecon{σοὐξηράσατο} Fritzsche (cf. \PsiDeux{}).
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 19 --- \texttt{f. 171v} (\texttt{Classense 173v}) : \textbf{vv. 765–799}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{19\_f171v\_classense173v\_vv0765-0799.jpg} \espApp \textbf{Planche double :} \texttt{10\_planche175\_ff171v-172r\_vv0765-0837.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} \textbf{Parodie du \italique{Palamède} d'Euripide} (415 av. J.-C.) : imitant Œax qui grava la mort de son frère Palamède sur des pales de rames lancées à la mer, Mnésiloque grave un message de détresse sur des offrandes de bois ou gâteaux sacrés (τἀγάλματα, interprétés à la suite d'Alphonse Willems comme les $\text{πόπανα}$ consacrés, vv. 765–784) ; début de la \textbf{Parabase} (commation et anapestes de la Coryphée plaidant la supériorité des femmes sur les hommes, vv. 785–799).
+  \item \textbf{Témoin papyrologique :} \textbf{\PsiDeux{} (\italique{P.Oxy.} LVI 3839, fr. 1)} s'achève au \textbf{v. 766}.
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Conjecture éclatante de \textbf{Bibi} au v. 781 (τὸ ῥῶ R $\to$ τορῶ \textbf{Bibi}) :} Là où tous les éditeurs suivaient la coupure de mots de R (τὸ ῥῶ, « ce rhô »), Louis Hauseux restitue sans modifier une seule lettre de l'onciale ΤΟΡΩ le verbe \lecon{τορῶ} (« je grave, je creuse au burin », d'après la glose d'Hésychius $\tau\ 1162$ τορεῖ· τορνεύει, γλύφει, τιτρώσκει), répondant directement à la question ποίαν αὔλακα; (« Quel sillon ? — Je grave : \italique{Va, va !} »).
+    \item \textbf{Correction \italique{in rasura} au v. 798 :} \Rac{} avait écrit αἰσχυνθῆς, corrigé sur grattage par \Rpc{} en \lecon{αἰσχυνθ\inRas{η}{εὶ}ς} (pour le participe féminin élidé αἰσχυνθεῖσ' restitué par Zanetti).
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 765–799}) :}
+  \begin{itemize}
+    \item \textbf{v. 767 :} ἐσκυλίσας ἐς R : \lecon{εἰσκυλίσας εἰς} edd. pler.
+    \item \textbf{v. 768 :} τίν' οὖν R (τίν' οὖν νῦν Biset) : \lecon{τίν' οὖν ἂν} Porson (\italique{Aristophanica}, p. 218).
+    \item \textbf{v. 771 :} \lecon{οὐ πάρεισιν} R (οὐ γάρ εἰσιν Fritzsche).
+    \item \textbf{v. 772 :} \lecon{γένοιτ'} R (γένοιντ' Grynaeus) \espApp πόθεν; R (haplographie finale) : \lecon{πόθεν; <πόθεν;>} Scaliger.
+    \item \textbf{v. 773 :} εἶτα διὰ τἀγάλματ' R (ταδὶ τἀγάλματ' Souda) : \lecon{εἰ ταδὶ τἀγάλματ'} Ellebodius.
+    \item \textbf{v. 777 :} χρή R, Souda $\pi\ 2064$ : \lecon{χρῆν} Bentley.
+    \item \textbf{v. 781 :} τὸ ῥῶ R : \lecon{τορῶ} \lecon{Bibi} ap. Hésychius $\tau\ 1162$.
+    \item \textbf{v. 782 :} \textbf{χώρει bis} R (χωρεῖ bis Brunck).
+    \item \textbf{v. 783 :} καθόδους R : \lecon{καθ' ὁδοὺς} Biset.
+    \item \textbf{v. 784 :} \lecon{ταῦτα} R (ταύτᾳ Grynaeus, \italique{hac} Divus).
+    \item \textbf{v. 788 :} στάσεισ· ἀργαλέα· R : \lecon{στάσις ἀργαλέα} Scaliger \espApp εἰ καὶ κακόν R : \lecon{εἰ κακόν} Zanetti.
+    \item \textbf{v. 790 :} ἐγκύψασαν R : \lecon{ἐκκύψασαν} Reiske.
+    \item \textbf{v. 792 :} κᾆθ' εὕροιτ' R : \lecon{κᾆθ' εὕρητ'} Porson.
+    \item \textbf{v. 793 :} μαίνεθ' R : \lecon{μαίνεσθ'} \Mon{} \espApp χρή R : \lecon{χρῆν} Brunck.
+    \item \textbf{v. 794 :} εὕρετε R : \lecon{ηὕρετε} Meineke \espApp καταλαμβάνετ' R : \lecon{κατελαμβάνετ'} Brunck.
+    \item \textbf{v. 795 :} καταδαρθῶμεν R : \lecon{καταδάρθωμεν} Dindorf.
+    \item \textbf{v. 797 :} ζητεῖ τὸ κακὸν τεθεᾶσθαι R (inversion et médivision) : \lecon{τὸ κακὸν ζητεῖτε θεᾶσθαι} J. Kaye.
+    \item \textbf{v. 798 :} αἰσχυνθ\inRas{η}{εὶ}ς \Rpc{} : \lecon{αἰσχυνθεῖσ'} Zanetti.
+    \item \textbf{v. 799 :} παρακύψασαν ἰδεῖν τὸ κακὸν R : \lecon{τὸ κακὸν παρακύψαν ἰδεῖν} Dindorf.
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 20 --- \texttt{f. 172r} (\texttt{Classense 174r}) : \textbf{vv. 800–837}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{20\_f172r\_classense174r\_vv0800-0837.jpg} \espApp \textbf{Planche double :} \texttt{10\_planche175\_ff171v-172r\_vv0765-0837.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Suite de la \textbf{Parabase} (vv. 800–837) : comparaison des noms de femmes illustres (\italique{Nausimachè}, \italique{Aristomachè}, \italique{Stratonikè}, \italique{Euboulè}) avec les politiciens et lâches athéniens (\italique{Charminos}, \italique{Cléophon}, \italique{Cléonymos}), et \italique{pnigos} opposant le soin jaloux avec lequel les femmes gardent leurs ustensiles domestiques (κανοῦν et σκιάδειον) au pillage des biens publics et à l'abandon du bouclier par les hommes.
+  \item \textbf{Témoin papyrologique :} \textbf{\PsiUn{} (\italique{PSI} XI 1194)} couvre les \textbf{vv. 804–809} et confirme Στρατονίκην au v. 807.
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{v. 815 (ποθοῦντας R pour πο(ι)οῦντας) :} L. Hauseux consacre un important excursus paléographique à cette faute d'onciale (ΠΟΟΥΝΤΑϹ $\to$ ΠΟΘΟΥΝΤΑϹ, confusion des lettres rondes Ο/Θ sur la forme attique sans iota ποοῦντας).
+    \item \textbf{vv. 822–823 (restitution de \textbf{Bibi}) :} τἀντίον ὁ κανὼν οἱ καλαθίσκοι / τὸ σκιάδειον· R $\to$ \lecon{ταὐτὸ κανοῦν καὶ τὸ σκιάδειον·} \lecon{Bibi} (οἱ καλαθίσκοι est une glose marginale intruse expliquant κανοῦν, corrompu en κανὼν).
+    \item \textbf{v. 834 :} Τηνίοισι R (chute du $\Sigma$ initial par haplographie après δίδοσθαι) $\to$ \lecon{Στηνίοισι} $\Sigma^{\text{R}}$, Souda $\sigma\ 1089$ (fête des \italique{Stènia}).
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 800–837}) :}
+  \begin{itemize}
+    \item \textbf{v. 802 :} ὑμεῖς δ' ὑμᾶς R : \lecon{ὑμεῖς δ' ἡμᾶς} \Mon{} \espApp σκεψώμεσθα R : \lecon{σκεψώμεθα} \Mon{}.
+    \item \textbf{v. 803 :} ἕκαστον R : \lecon{ἑκάστου} Grynaeus.
+    \item \textbf{v. 804 :} μέν R : \lecon{μέν γ'} Dobree \espApp ἐστὶ R : \lecon{ἐστὶν} Küster \espApp δηλαδῆ R : \lecon{δῆλα δὲ} Grynaeus.
+    \item \textbf{v. 805 :} χεῖρον R : \lecon{χείρων} Zanetti.
+    \item \textbf{v. 807 :} \lecon{Στρατονίκην} \PsiUn{} : στρατωνίκην R.
+    \item \textbf{v. 809 :} \lecon{αὐτὸς} R (Ἄνυτος Maas) \espApp φήσεις R : \lecon{φήσει} Küster.
+    \item \textbf{v. 810 :} εὐχόμεσθ' R : \lecon{εὐχόμεθ'} \Mon{}.
+    \item \textbf{v. 813 :} \lecon{αὔτ' ἀπέδωκεν} R, \Mon\expo{p.c.} (ἀνταπέδωκεν \Mon\expo{a.c.}, Bentley).
+    \item \textbf{v. 815 :} ἀποδείξομεν R : \lecon{ἀποδείξαιμεν} Bentley \espApp ποθοῦντας R : \lecon{ποιοῦντας} Zanetti (\italique{facientes} Divus).
+    \item \textbf{v. 819 :} \lecon{δήπου} R (δή που Denniston).
+    \item \textbf{vv. 822–823 :} τἀντίον ὁ κανὼν οἱ καλαθίσκοι / τὸ σκιάδειον· R : \lecon{ταὐτὸ κανοῦν καὶ τὸ σκιάδειον·} \lecon{Bibi}.
+    \item \textbf{v. 824 :} ἀνδράσιν R : \lecon{ἀνδράσι} \Mon{}.
+    \item \textbf{v. 825 :} ἀπόλωλε R : \lecon{ἀπόλωλεν} Daubuz, Bentley.
+    \item \textbf{v. 832 :} χρὴ R : \lecon{χρῆν} Brunck.
+    \item \textbf{v. 834 :} Τηνίοισι R : \lecon{Στηνίοισι} $\Sigma$, Souda $\sigma\ 1089$.
+    \item \textbf{v. 836 :} ἤν δὲ R : \lecon{εἰ δὲ} Brunck.
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 21 --- \texttt{f. 172v} (\texttt{Classense 174v}) : \textbf{vv. 838–875}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{21\_f172v\_classense174v\_vv0838-0875.jpg} \espApp \textbf{Planche double :} \texttt{11\_planche176\_ff172v-173r\_vv0838-0919.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Fin de la Parabase (récompenses honorifiques proposées pour la mère d'un citoyen valeureux et punition de la mère du lâche Hyperbolos, vv. 838–845) ; début de la \textbf{parodie de l'\italique{Hélène} d'Euripide} (représentée en 412 av. J.-C.) : Mnésiloque prend le rôle d'Hélène en Égypte auprès du tombeau de Protée, et Euripide entre sous les traits de Ménélas naufragé (vv. 846–875).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Corrections supralinéaires de $\text{R}^{\text{pc}} / \text{R}^2$ :} Au \textbf{v. 838}, \lecon{ὑστέρ\auDessus{ο}{α}ν} (\Rpc{} trace $\alpha$ au-dessus de $\text{ο}$ ; $\Sigma^{\text{R}}$ lisait ὑστάτην) ; au \textbf{v. 844}, \lecon{τ\auDessus{ὰ}{ο}δὶ} (\Rpc{}, τοδί \Mon{}) ; au \textbf{v. 860}, \lecon{σύ} corrigé par \Rdeux{} à partir de σί (pour σοί Zanetti).
+    \item \textbf{Deux conjectures capitales de \textbf{Bibi} (vv. 839 et 853) :}
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 838–875}) :}
+  \begin{itemize}
+    \item \textbf{v. 838 :} \lecon{ὑστέρ\auDessus{ο}{α}ν} \Rpc{} : ὑστάτην $\Sigma$.
+    \item \textbf{v. 839 :} ὦ πόλεις R (ὦ πόλις Gelenius) : \lecon{ωὖπολι} \lecon{Bibi}.
+    \item \textbf{v. 842 :} χρήματα τ' R : \lecon{χρήμαθ'} Scaliger \espApp \lecon{ἥν χρῆν} R (ᾗ χρῆν Scaliger) \espApp χρῆν ἦν R : \lecon{χρῆν εἰ} Brunck \espApp δανείσειε R : \lecon{δανείσειέν} Biset.
+    \item \textbf{v. 844 :} ἀφερεῖσθαι R (bêtacisme $\alpha\iota \to \varepsilon$) : \lecon{ἀφαιρεῖσθαι} \Mon{} \espApp χρήματατ' R : \lecon{χρήματ'} Grynaeus \espApp τ\auDessus{ὰ}{ο}δὶ \Rpc{} : \lecon{τοδί} \Mon{}.
+    \item \textbf{v. 848 :} Παλαμήδην R : \lecon{Παλαμήδη} Elmsley (\italique{Quart. Rev.} 7, 1812, p. 454).
+    \item \textbf{v. 851 :} πάντως R : \lecon{πάντως δ'} Bentley (cf. v. 1012).
+    \item \textbf{v. 852 :} ἢ τί κοικύλλεις R, Souda : \lecon{τί κοικύλλεις} Faber.
+    \item \textbf{v. 853 :} Ἑλένη R : \lecon{ἑλένην} \lecon{Bibi} ap. Hésychius $\varepsilon\ 1995$.
+    \item \textbf{v. 860 :} σύ (ex σί) \Rdeux{} : \lecon{σοί} Zanetti (\italique{tibi} Divus) \espApp τ' R : \lecon{γ'} Gelenius.
+    \item \textbf{v. 861 :} ἐστιν R : \lecon{ἐστι} \Mon{}.
+    \item \textbf{v. 862 :} γίγνη R : \lecon{γίγνει} Brunck.
+    \item \textbf{v. 863 :} \textbf{δοῦναι post ἑτέρας} R (post δίκην Souda $\gamma\ 496$).
+    \item \textbf{v. 864 :} Σκαμανδρίαις R : \lecon{Σκαμανδρίοις} Fritzsche ex Eur. \italique{Hel.} 52 et 609.
+    \item \textbf{v. 867 :} Μενέλαος R : \lecon{Μενέλεως} Brunck (cf. v. 901).
+    \item \textbf{v. 868 :} τῶν κορ. πον. continuat (Μνη.) R : \lecon{(Γυνή)} $\Sigma$, Ellebodius.
+    \item \textbf{v. 872 :} ξένος R : \lecon{ξένους} Zanetti.
+    \item \textbf{v. 873 :} \lecon{κάμνοντας} R (καμόντας Lenting).
+    \item \textbf{v. 875 :} ὦ τρισκακόδαιμον R : \lecon{ὤ τρισκακοδαίμων} Wilamowitz ad \italique{Lys.} 449.
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 22 --- \texttt{f. 173r} (\texttt{Classense 175r}) : \textbf{vv. 876–919}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{22\_f173r\_classense175r\_vv0876-0919.jpg} \espApp \textbf{Planche double :} \texttt{11\_planche176\_ff172v-173r\_vv0838-0919.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Suite et sommet de la \textbf{parodie d'\italique{Hélène}} : stichomythie de reconnaissance entre Euripide-Ménélas et Mnésiloque-Hélène sous le regard incrédule et furieux de la gardienne (\textbf{Kritylla}, vv. 876–919).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Deux émendations paléographiques majeures de \textbf{Bibi} (vv. 895 et 910) :}
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 876–919}) :}
+  \begin{itemize}
+    \item \textbf{v. 879 :} τῷ R (τούτῳ τῷ Grynaeus) : \lecon{τῷ κακῷ} Scaliger.
+    \item \textbf{v. 880 :} \lecon{Θεσμοφόριον} R (cf. v. 278).
+    \item \textbf{v. 881 (et 884) :} ἠξώπιος R : \lecon{ἢ 'ξώπιος;} Biset.
+    \item \textbf{v. 883 :} ὅστις R : \lecon{ὅστις γ'} Scaliger.
+    \item \textbf{v. 885 :} τέθνηκεν R : \lecon{τέθνηκε} Bentley.
+    \item \textbf{v. 887 :} \lecon{κακῶς τ' ἄρ'} R (κακῶς γ' ἄρ' Denniston, \italique{CR} XLIV, 1930, p. 215).
+    \item \textbf{v. 889 :} τί δὲ σὺ R (τί δαὶ σὺ Faber) : \lecon{τί δὴ σὺ} Scaliger.
+    \item \textbf{v. 891 :} συμμῖξαι R : \lecon{συμμεῖξαι} van Leeuwen.
+    \item \textbf{v. 892 :} αὐτὸν (ex αὖτὸν) \Rpc{} : \lecon{αὖ τὸν} Casaubon.
+    \item \textbf{v. 895 :} βαϋζα R (βάϋζε Zanetti) : \lecon{κόνυζα} \lecon{Bibi} (confusion minuscule $\kappa \to \beta$).
+    \item \textbf{v. 901 :} Μενέλαον R : \lecon{Μενέλεων} Scaliger.
+    \item \textbf{v. 906 :} αὐτὸς R : \lecon{αὑτὸς} Boissonade.
+    \item \textbf{v. 909 :} Ἐλένης R : \lecon{Ἑλένῃ σ'} Eur. \italique{Hel.} 563 \espApp μάλισθ' ἴδον R : \lecon{μάλιστ' εἶδον} \italique{Hel.} 563.
+    \item \textbf{v. 910 :} Μενέλαον R (Μενέλεων Souda) : \lecon{Μενελέῳ σ'} Thiersch \espApp \textbf{ἀφύων R} (ἰφύων $\Sigma$, Souda ; ἀμφίων Grégoire) : \lecon{λαιφίων} \lecon{Bibi} ap. Hésychius $\lambda\ 171$ (chute de $\Lambda$ devant $\text{Α}$ en onciale).
+    \item \textbf{v. 914 :} περίβαλλε R : \lecon{περίβαλε} Biset.
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 23 --- \texttt{f. 173v} (\texttt{Classense 175v}) : \textbf{vv. 920–958}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{23\_f173v\_classense175v\_vv0920-0958.jpg} \espApp \textbf{Planche double :} \texttt{12\_planche177\_ff173v-174r\_vv0920-1000.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Échec de la ruse d'\italique{Hélène} ; arrivée du \textbf{Prytane} accompagné de l'\textbf{Archer scythe} (\italique{Toxotès}), qui reçoit l'ordre d'attacher Mnésiloque au poteau d'infamie (ἐν τῇ σανίδι, vv. 920–946) ; prélude anapestique du Chœur formant la ronde rituelle (vv. 947–958).
+  \item \textbf{Témoin papyrologique :} \textbf{\PsiDeux{} (\italique{P.Oxy.} LVI 3839, fr. 2)} couvre les \textbf{vv. 941–953}.
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Grattage \italique{in rasura} au v. 942 :} \Rac{} avait inséré la particule γε devant τοῖς ; \textbf{\Rdeux{} l'a grattée (\inRas{γε}{} τοῖς)} pour rétablir le trimètre iambique.
+    \item \textbf{Bêtacisme vocalique au v. 947 :} πέσωμεν R pour \lecon{παίσωμεν} (Zanetti, confirmé par $\Sigma^{\text{R}}$).
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 920–958}) :}
+  \begin{itemize}
+    \item \textbf{v. 927 :} προλείπωσ' R (iotacisme) : \lecon{προλίπωσ'} Scaliger.
+    \item \textbf{v. 928 :} (Γυ.) R : \lecon{(Μνη.)} Scaliger.
+    \item \textbf{v. 929 :} ἔστ' R : \lecon{ἔσθ'} \Mon{} \espApp ἔλεγεν R : \lecon{ἔλεγ'} \Mon{}.
+    \item \textbf{v. 934 :} νῦν δῆτ' R : \lecon{νῦν δή γ'} Dobree (νυνδή γ' Cobet).
+    \item \textbf{v. 939 :} χαρίσομαι R : \lecon{χαρίσωμαι} Casaubon.
+    \item \textbf{v. 941 :} μὴν R : \lecon{μὴ 'ν} Küster.
+    \item \textbf{v. 942 :} \lecon{\inRas{γε}{} τοῖς} \Rdeux{}.
+    \item \textbf{v. 943 :} ἔδοξεν R : \lecon{ἔδοξε} Biset.
+    \item \textbf{v. 944 :} \lecon{παροῦσι} R (παριοῦσι Brunck).
+    \item \textbf{v. 945 :} \lecon{ἰαππαπαιάξ} R, Souda $\varepsilon\ 2807$ (ἰατταταιάξ Biset).
+    \item \textbf{v. 946 :} ἔστιν R : \lecon{ἔστ'} Bentley.
+    \item \textbf{v. 947 :} πέσωμεν R : \lecon{παίσωμεν} Zanetti, cf. $\Sigma$ \espApp ταῖσ R : \lecon{ταῖσι} Daubuz.
+    \item \textbf{v. 948 :} \lecon{θεαῖν} R (θεοῖν Cobet).
+    \item \textbf{v. 950 :} \lecon{αὐταῖν} R (αὐτοῖν Cobet).
+    \item \textbf{v. 952 :} μέλλειν R : \lecon{μέλειν} Zanetti (\italique{curae esse} Divus ; μολεῖν Casaubon).
+    \item \textbf{v. 955 :} \lecon{χειρὶ} R (χερὶ Dobree).
+    \item \textbf{v. 956 :} \lecon{ὕπαγε πᾶσα} R (πᾶσ' ὕπαγε Austin).
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 24 --- \texttt{f. 174r} (\texttt{Classense 176r}) : \textbf{vv. 959–1000}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{24\_f174r\_classense176r\_vv0959-1000.jpg} \espApp \textbf{Planche double :} \texttt{12\_planche177\_ff173v-174r\_vv0920-1000.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Grande ode chorale de danse en ronde (\italique{choros kyklikos}) célébrant Apollon, Artémis, Héra, Hermès, Pan, les Nymphes et Dionysos couronné de lierre (vv. 959–1000).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item Page entièrement lyrique où la colométrie de $\text{R}^1$ remonte directement à l'édition alexandrine d'Aristophane de Byzance (avec \italique{koronis} et \italique{paragraphoi} strophiques).
+    \item \textbf{Fautes phonétiques pittoresques de $\text{R}^1$ :} Au \textbf{v. 969}, haplographie vocalique ἐλύραν pour \lecon{εὐλύραν} (Zanetti) ; au \textbf{v. 982}, χαίρειν pour \lecon{χάριν} (Ellebodius) ; au \textbf{v. 995},iotacisme/bêtacisme συῒ κτυπεῖται (« retentit pour un porc » !) au lieu de \lecon{σοὶ κτυπεῖται} (« retentit pour toi [Dionysos] », Zanetti).
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 959–1000}) :}
+  \begin{itemize}
+    \item \textbf{v. 966 :} \lecon{χρὴ} R (χρῆν Bothe ; χρή μ' Meineke).
+    \item \textbf{v. 968 :} εὐφυῆ R : \lecon{εὐφυᾶ} Brunck.
+    \item \textbf{v. 969 :} ποσὶν R : \lecon{ποσὶ} Bentley \espApp ἐλύραν R : \lecon{εὐλύραν} Zanetti.
+    \item \textbf{v. 980 :} ἡμετέραις R : \lecon{ἡμετέραισι} Hermann.
+    \item \textbf{v. 982 :} χαίρειν R : \lecon{χάριν} Ellebodius.
+    \item \textbf{v. 984 :} νηστεύωμεν R : \lecon{νηστεύομεν} Bentley.
+    \item \textbf{v. 985 :} ειαπαλλ' R : \lecon{εἶα πάλλ'} Blaydes.
+    \item \textbf{v. 989 :} φιλοχόροισιν R : \lecon{φιλοχόροισι} Scaliger.
+    \item \textbf{v. 990 :} \lecon{Διόνυσε} R (Διὸς σὺ Enger ; Διός τε Fritzsche).
+    \item \textbf{v. 993 :} \lecon{ἐρατοῖς ἐν ὕμνοις} R (ἐρατοῖσιν ὕμνοις Wilamowitz).
+    \item \textbf{v. 994 :} εὔιον εὔιον R : \lecon{ὦ Εὔι Εὔι'} Hermann \espApp lacunam statuit Hermann (ἥκεις γὰρ von Velsen ; ἡδόμενος Austin cf. \italique{Plut.} 288).
+    \item \textbf{v. 995 :} συῒ κτυπεῖται R : \lecon{σοὶ κτυπεῖται} Zanetti.
+    \item \textbf{v. 996 :} Κιθαρώνιος R : \lecon{Κιθαιρώνιος} Zanetti.
+    \item \textbf{v. 998 :} \lecon{καὶ νάπαι πετρώδεις} R (πετρώδεις τε νάπαι Enger).
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 25 --- \texttt{f. 174v} (\texttt{Classense 176v}) : \textbf{vv. 1001–1043}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{25\_f174v\_classense176v\_vv1001-1043.jpg} \espApp \textbf{Planche double :} \texttt{13\_planche178\_ff174v-175r\_vv1001-1081.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Entrée en scène de l'\textbf{Archer scythe} parlant son sabir barbare et rivant Mnésiloque au carcan (vv. 1001–1014) ; début de la \textbf{parodie de l'\italique{Andromède} d'Euripide} (représentée en 412 av. J.-C. avec \italique{Hélène}) : monodie paratragique de Mnésiloque-Andromède enchaînée à son rocher (vv. 1015–1043).
+  \item \textbf{Témoin papyrologique :} \textbf{\PsiQuatre{} (\italique{P.Oxy.} LXXIII 4935, fr. 1)} débute au \textbf{v. 1043}.
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Traitement du grec barbare de l'Archer scythe (vv. 1001–1007) :} $\text{R}^1$ tend parfois à normaliser les finales scythes en grec standard (οἰμώξει, ἱκετεῦση, μᾶλλον, ἵνα) ; au \textbf{v. 1006}, \Rpc{} (suivi de \Mon\expo{p.c.}) ajoute un $\nu$ en exposant et corrige \italique{in rasura} l'oméga de γέρων en omicron : \lecon{κακοδαίμω\expo{ν} γέρ\inRas{ω}{ο}ν}.
+    \item \textbf{Attribution des vv. 1015–1021 :} R attribue le début de la monodie à (Εὐρ.), corrigé en \lecon{(Μνη.)} par Tyrwhitt, tandis qu'au \textbf{v. 1022} \Rpc{} (et \Mon{}) préfixe (Μνη.).
+    \item \textbf{Deux interventions décisives de \textbf{Bibi} (vv. 1031 et 1041) :}
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 1001–1043}) :}
+  \begin{itemize}
+    \item \textbf{v. 1001 :} οἰμώξει R : \lecon{οἰμῶξι} Brunck.
+    \item \textbf{v. 1002 :} ἱκετεῦση R : \lecon{ἱκετεῦσι} Brunck.
+    \item \textbf{v. 1003 :} δρᾷς R : \lecon{δρᾶσ'} Voss.
+    \item \textbf{v. 1004 :} ἐπικρούσεις R : \lecon{ἐπικρούεις} \Mon{}.
+    \item \textbf{v. 1005 :} μᾶλλον R : \lecon{μᾶλλο} Bentley \espApp τατταταί R : \lecon{ἰατταταῖ} Faber.
+    \item \textbf{v. 1006 :} \lecon{κακοδαίμω\expo{ν} γέρ\inRas{ω}{ο}ν} $\text{R}^{\text{pc}}, \text{M}^{\text{pc}}$.
+    \item \textbf{v. 1007 :} ξεινίγκι R : \lecon{'ξινίγκι} Enger \espApp ἵνα R : \lecon{ἴνα} Brunck \espApp \lecon{πυλάξι} R (πυλάξῃ $\Sigma$).
+    \item \textbf{v. 1010 :} ἀνὴρ R : \lecon{ἁνὴρ} Bothe.
+    \item \textbf{v. 1011 :} ὑπεδήλωσεν R : \lecon{ὑπεδήλωσε} Biset.
+    \item \textbf{v. 1013 :} οὖν R (οὖν νῦν Biset) : \lecon{οὖν τοῦτ'} Dobree.
+    \item \textbf{vv. 1015–1021 :} (Εὐρ.) R : \lecon{(Μνη.)} Tyrwhitt.
+    \item \textbf{v. 1016 :} \lecon{ἀπέλθοιμι} R (ἐπέλθοιμι Ellebodius).
+    \item \textbf{v. 1017 :} λάβοιμι R (confusion minuscule $\theta/\beta$) : \lecon{λάθοιμι} Ellebodius.
+    \item \textbf{v. 1019 :} προσᾳδοῦσσαι τὰς R, $\Sigma$ : \lecon{προσᾴδουσ'} Elmsley, \lecon{ἀϋτὰς} Burges (ἀϋταῖς Sommerstein).
+    \item \textbf{v. 1022 :} \lecon{(Μνη.)} praefixit $\text{R}^{\text{pc}}, \text{M}$.
+    \item \textbf{v. 1023 :} \lecon{πολυπονώτατον} R, $\Sigma$ (πολυστονώτατον Burges).
+    \item \textbf{v. 1026 :} \lecon{ὁ Σκύθης} R (\italique{del.} Jackson).
+    \item \textbf{v. 1027 :} \lecon{ἐφέστηκ' ὀλοὸν} R (ἐφεστὼς ὀλοὸν Meineke ; ἐφέστηκε κὠλοὸν Austin).
+    \item \textbf{v. 1031 :} κημὸν ἕστηκ' ἔχουσ' R : \lecon{ἕστηκ' ἔχουσα κημόν} \lecon{Bibi}, cf. $\Sigma$ ad \italique{Vesp.} 674c.
+    \item \textbf{vv. 1034–1035 :} ξυμπαιῶνι R : \lecon{ξὺν παιῶνι} Zanetti (\italique{cum carmine} Divus).
+    \item \textbf{v. 1039 :} ἀλλὰν R : \lecon{ἀλλ'} Scaliger.
+    \item \textbf{v. 1040 :} λιτομέναν R (ἀντομένα vel -αν $\Sigma$, confusion onciale ΛΙ/ΑΝ) : \lecon{λιτομένα} Enger.
+    \item \textbf{v. 1041 :} φεύγουσαν R (χέουσα Rau ; φλέγουσαν Musgrave) : \lecon{ψεφαυγοῦς} \lecon{Bibi}, cf. $\Sigma$ ad v. 1054, Hésychius $\psi\ 135$.
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 26 --- \texttt{f. 175r} (\texttt{Classense 177r}) : \textbf{vv. 1044–1081}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{26\_f175r\_classense177r\_vv1044-1081.jpg} \espApp \textbf{Planche double :} \texttt{13\_planche178\_ff174v-175r\_vv1001-1081.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Suite de la monodie d'\italique{Andromède} et \textbf{scène d'Écho} : Euripide entre sous les traits de la nymphe Écho (ευρ\auDessus{ι}{π} ηχω en marge de \Rpc{}) et répète comiquement les fins de vers de Mnésiloque puis de l'Archer scythe (vv. 1044–1081).
+  \item \textbf{Témoin papyrologique :} \textbf{\PsiQuatre{} (\italique{P.Oxy.} LXXIII 4935, fr. 1)} couvre les \textbf{vv. 1043–1051}.
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Deux indications scéniques marginales de \Rpc{} (copiées par \Mon{}) :}
+    \item \textbf{Apport du papyrus \PsiQuatre{} (vv. 1047 et 1051) :} Au v. 1047, \PsiQuatre{} lit [ι]ω μοιρ[ας sans la dittographie μοι de R (ἰώ μοι μοίρας) ; au v. 1051, \PsiQuatre{} confirme βάρβαρον de R (défendu par Alphonse Willems et L. Hauseux).
+    \item \textbf{Cinq restitutions et conjectures de \textbf{Bibi} dans le dialogue avec Écho (vv. 1069, 1071, 1072, 1074, 1078, 1079) :}
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 1044–1081}) :}
+  \begin{itemize}
+    \item \textbf{v. 1044 :} \lecon{κροκόεντ'} R (κροκόεν τόδ' Bergk) \espApp ἐνέδυσεν R : \lecon{ἀμφέδυσεν} Hermann ap. $\Sigma$.
+    \item \textbf{v. 1047 :} [ι]ω μοιρ[ας \PsiQuatre{} : ἰώ μοι μοίρας R : \lecon{ἰὼ μοίρας} Hermann \espApp δαίμων R : \lecon{δαῖμον} Burges \espApp ἀνέτικτε R (médivision et épenthèse de $\nu$) : \lecon{ἄτεγκτε} Ellebodius (ἅν ἔτικτε Casaubon).
+    \item \textbf{v. 1051 :} \lecon{βάρβαρον} \PsiQuatre{}, R, Willems.
+    \item \textbf{v. 1052 :} λεύσειν R : \lecon{λεύσσειν} Biset.
+    \item \textbf{v. 1054 :} δαιμόνων R, $\Sigma$ (δαιμονῶν Brunck ; δαιμόνι' amicus Fritzschii) : \lecon{διὰ μένων} Alphonse Willems (adopté par L. Hauseux).
+    \item \textbf{v. 1056 :} \lecon{ευρ\auDessus{ι}{π} ηχω} in mg. $\text{R}^{\text{pc}}, \text{M}$.
+    \item \textbf{v. 1058 :} ὤκτειρας R : \lecon{ᾤκτιρας} van Herwerden \espApp πάθος R : \lecon{πάθος;} Biset.
+    \item \textbf{v. 1060 :} ταυτῷ R : \lecon{ταὐτῷ} Dindorf (1830).
+    \item \textbf{v. 1061 :} καὶ αὐτὴ R : \lecon{καὐτὴ} Biset.
+    \item \textbf{v. 1062 :} τοσαύτης R : \lecon{τὸ σαυτῆς} Dindorf (1839).
+    \item \textbf{v. 1063 :} \lecon{κλαίειν} et \lecon{ἐπικλαίειν} R (κλάειν et ἐπικλάειν Brunck).
+    \item \textbf{v. 1065 :} \lecon{ὁ μνησίλοχος ὡς ἀνδρομέδα} in mg. $\text{R}^{\text{pc}}, \text{M}$.
+    \item \textbf{v. 1069 :} \lecon{δι' Ὀλύμπου} R (†δι'† ὀλυμπίας \lecon{Bibi} ap. Hésychius $\text{ο}\ 649$).
+    \item \textbf{v. 1070 :} περὶ ἄλλα R : \lecon{περίαλλα} Ellebodius.
+    \item \textbf{v. 1071 :} μέρος ἐξέλαχον; R : \lecon{μόρος ἔξελ' ἄχος.} \lecon{Bibi}.
+    \item \textbf{v. 1072 :} \lecon{θανάτου τλήμων} R (θαλάττης τέμνον \lecon{Bibi} conj. in app.).
+    \item \textbf{v. 1073 :} στωμυλλωμένη R : \lecon{στωμυλλομένη} Grynaeus.
+    \item \textbf{v. 1074 :} στωμυλωμένη R : \lecon{στωμυλιομενής} \lecon{Bibi}.
+    \item \textbf{v. 1078 :} (Εὐρ.) παῦσαι R : \lecon{(Εὐρ.) 'παΰσαι} \lecon{Bibi}.
+    \item \textbf{v. 1079 :} βάλλ' ἐς κόρακας R : \lecon{βάλλε σύ κόρακας} \lecon{Bibi}.
+    \item \textbf{v. 1080 :} \lecon{τί τὸ κακόν} bis R (τί κακόν bis Bentley).
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 27 --- \texttt{f. 175v} (\texttt{Classense 177v}) : \textbf{vv. 1082–1127} (+ vv. 1102–1103 dans la marge inférieure)}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{27\_f175v\_classense177v\_vv1082-1127.jpg} \espApp \textbf{Planche double :} \texttt{14\_planche179\_ff175v-176r\_vv1082-1168.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Fin du gag d'Écho rendant fou l'Archer scythe (vv. 1082–1097) ; entrée d'\textbf{Euripide en Persée} volant au secours d'Andromède avec la tête de Gorgô, que le Scythe appelle « la tête de l'orateur \italique{Gorgos} » (vv. 1098–1127).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Omission des vv. 1102–1103 par $\text{R}^1$ et ajout par \Rdeux{} dans la marge inférieure :} Le copiste $\text{R}^1$ avait sauté les \textbf{vv. 1102–1103} ($\text{Γόργος πέρι λέγις τὸ γραμματέο / σὺ τὴν κεπαλή;}$ — omis également par \Mon{} qui n'a pas regardé le bas de page) ; le réviseur \textbf{\Rdeux{} les a rajoutés tout en bas du folio dans la marge inférieure}, avec un signe de renvoi.
+    \item \textbf{Analyse critique des vv. 1085–1086 par Louis Hauseux (\texttt{vv 642-fin-bis.tex}, ll. 4520, 4588–4612) :}
+    \item \textbf{Deux notes scéniques marginales de \Rpc{} :} Au \textbf{v. 1098}, \lecon{ευρ\auDessus{ι}{π} ως περσευς} ; au \textbf{v. 1107}, \lecon{κ\auDessus{η}{δ} ως ανδρομ\auDessus{ε}{δ}}.
+    \item \textbf{Prothèse de $\sigma$ au v. 1114 :} R écrit \lecon{σκύτο} pour \lecon{κύστο} (Scaliger, = $\text{κύσθον}$ en prononciation scythe), parallèle exact invoqué par Louis Hauseux pour sa conjecture τὸν κύσθον au v. 557.
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 1082–1127}) :}
+  \begin{itemize}
+    \item \textbf{v. 1082 :} \lecon{ὀτότυζ'} R (ὀλόφυγ' \lecon{Bibi} conj. in app.).
+    \item \textbf{v. 1083 :} οῦτος οὗτος R : \lecon{οὖτος} bis Brunck \espApp λαλεῖς bis \Rac{} : \lecon{λαλῖς} bis $\text{R}^2, \Sigma$.
+    \item \textbf{v. 1085 :} \textbf{σί κακόν; bis} R, $\Sigma^{\text{R}}$ (ἀντὶ τοῦ 'σοὶ κακόν', défendu par \lecon{Bibi} contre τί κακόν; Coulon).
+    \item \textbf{v. 1086 :} π\inRas{ρ}{}ωτε bis \Rpc{} (πωτε bis \Mon{}) : \lecon{†πῶτε†} bis \lecon{Bibi} (rejetant l'interprétation πόθεν de $\Sigma^{\text{R}}$).
+    \item \textbf{v. 1087 :} \lecon{λαλῖς} bis R (λαλεῖς bis \Rpc{}).
+    \item \textbf{v. 1088 :} κλαύσαιμι bis R (κλαύσει bis Brunck ; κλαῦσ' ἔτι bis Austin) : \lecon{κλαύσαι} bis Rogers.
+    \item \textbf{v. 1089 :} κακκασκι bis R (κἀγκάσκις bis van Leeuwen, <ς> add. Fritzsche ; κἀγκάσκι bis Coulon).
+    \item \textbf{vv. 1090 et 1092 :} (Μνη.) edd. plerique : \lecon{(Χορ.)} \lecon{Bibi}, cf. $\Sigma^{\text{R}}$.
+    \item \textbf{v. 1091 :} πλησίον αὕτη R : \lecon{πλήξασ' αὕτη} \lecon{Bibi}.
+    \item \textbf{v. 1092 :} 'σθ' ἡ R : \lecon{'στ' ἠ} Brunck.
+    \item \textbf{v. 1093 :} φεύγεις R : \lecon{πεύγεις} Enger \espApp \lecon{<(Εὐρ.) ποῖ ποῖ πέτει>} om. R : \textbf{suppl. \textbf{Bibi}}.
+    \item \textbf{v. 1094 :} <(Τοξ.) οὐχ αἱρήσεις> om. R : \textbf{suppl. Brunck} ap. $\Sigma$ \espApp οὐκ' αἰρήσεις; R : \lecon{οὐχ αἱρήσεις.} Wilamowitz (\italique{Kleine Schriften} IV, p. 486 n. 1).
+    \item \textbf{v. 1096 :} τῇ et τῆ R : \lecon{τὴ} bis Bothe.
+    \item \textbf{v. 1098 :} \lecon{ευρ\auDessus{ι}{π} ως περσευς} in mg. add. $\text{R}^{\text{pc}}, \text{M}$.
+    \item \textbf{v. 1101 :} ναυτολῶν R : \lecon{ναυστολῶν} Canini (\italique{navigans} iam Divus).
+    \item \textbf{vv. 1102–1103 :} om. $\text{R}^1, \text{M}$ : \textbf{in mg. inferiore add. \Rdeux{}} \espApp \textbf{v. 1102 :} Γοργόνος R : \lecon{Γόργος} $\Sigma$, Bothe \espApp \textbf{v. 1103 :} κεφαλή R : \lecon{κεπαλή} Bothe.
+    \item \textbf{v. 1107 :} \lecon{κ\auDessus{η}{δ} ως ανδρομ\auDessus{ε}{δ}} in mg. $\text{R}^{\text{pc}}, \text{M}$ \espApp κατοικτειρόν R : \lecon{κατοίκτιρόν} van Herwerden.
+    \item \textbf{v. 1108 :} \lecon{μὶ λαλῆσι} R (μὴ λαλῆσι Brunck).
+    \item \textbf{v. 1109 :} λαλᾶς R : \lecon{λαλῖς;} Bergk (cf. vv. 1082, 1087 ; λαλᾷς; Hall–Geldart).
+    \item \textbf{v. 1110 :} οἰκτείρω R : \lecon{οἰκτίρω} van Herwerden.
+    \item \textbf{v. 1114 :} σκύτο R : \lecon{κύστο} Scaliger grat. metr. (σῦκο Sommerstein) \espApp μῆτι R : \lecon{μή τι} \Mon{} (\italique{numquid} Divus) \espApp μικτὸν R : \lecon{μικκὸν} Bentley (μικρὸ Enger).
+    \item \textbf{v. 1115 :} δεῦρο δεῦρο R (dittographie) : \lecon{δεῦρο} Biset.
+    \item \textbf{v. 1119 :} τῶ πρωκτῶ R : \lecon{τὸ πρωκτὸ} Biset.
+    \item \textbf{v. 1120 :} ἐπτόνησας R : \lecon{ἐπτόνησά σ'} Bentley.
+    \item \textbf{v. 1122 :} ἐστ' R (ἐς τ' \Mon{}) : \lecon{ἐς} Grynaeus.
+    \item \textbf{v. 1124 :} ἐξόπισθο R : \lecon{ἐξόπιστο} Daubuz.
+    \item \textbf{v. 1125 :} δέμας R (métathèse de $\sigma$) : \lecon{δεσμά} Grynaeus.
+    \item \textbf{v. 1126 :} τὸ κεπαλῆς (ex καὶ παλῆς) $\text{R}^{\text{pc}}, \text{M}$ : \lecon{τὸ κεπαλή σ'} Brunck.
+    \item \textbf{v. 1127 :} ἀποκέκοιψ' \Rac{} (ἀποκεκόψοι \Rpc{}, ἀποκεκόψο \Mon{}) : \lecon{ἀποκεκόψι} Brunck \espApp πέπυσται R (faute récurrente de R, cf. v. 1227) : \lecon{πέπαισται} $\Sigma$.
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 28 --- \texttt{f. 176r} (\texttt{Classense 178r}) : \textbf{vv. 1128–1168}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{28\_f176r\_classense178r\_vv1128-1168.jpg} \espApp \textbf{Planche double :} \texttt{14\_planche179\_ff175v-176r\_vv1082-1168.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} Euripide constate que les parodies tragiques sont sans effet sur la brute scythe et décide d'employer un moyen comique infaillible (vv. 1128–1135) ; dernière grande ode chorale invoquant \textbf{Pallas Athéna} ennemie des tyrans et les \textbf{Deux Déesses} (Déméter et Korè, vv. 1136–1159) ; retour d'Euripide venant négocier la paix avec le Chœur des femmes (vv. 1160–1168).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Dittographie anticipatrice exponctuée après le v. 1143 :} Entre les vv. 1143 et 1144, \Rac{} avait écrit par anticipation déformée du v. 1144 (στυγοῦσ' ὥσπερ τὸν τύραννον) les mots \lecon{στυγνὰς ὡσσε} ; \Rpc{} les a supprimés (\italique{del.}), mais le copiste de \Mon{} les a néanmoins transcrits sous la forme \lecon{στυγνὰς ὡς ἐ}.
+    \item \textbf{Glose interne et conjecture métrique de \textbf{Bibi} au v. 1151 :} R comporte la glose interne ὅπου (expliquant un ἵνα ou οὗ). Là où R porte \lecon{οὗ δὴ ἀνδράσιν οὐ θεμιτὸν} (déficient de deux syllabes dans la responsion lyrique), \textbf{Louis Hauseux (\textbf{Bibi}) conserve intact οὗ δὴ ἀνδράσιν de R et restitue le duel verbal οὐ θεμιτεύετον} (« où toutes deux [les Déesses] interdisent par leur loi sacrée aux hommes de voir leurs orgies... », haplographie de la finale -εύετον en -όν).
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 1128–1168}) :}
+  \begin{itemize}
+    \item \textbf{v. 1129 :} ἂν δέξαιτο R (ἂν ἀνδέξαιτο Ellebodius) : \lecon{ἂν ἐνδέξαιτο} Küster.
+    \item \textbf{v. 1132 :} τοῦτο R : \lecon{τούτῳ} Zanetti.
+    \item \textbf{v. 1133 :} οἷον R : \lecon{οἶον} Brunck \espApp ἐπιτηκίζει R : \lecon{ἐπιτήκιζί} anonymus Parisinus.
+    \item \textbf{v. 1135 :} \lecon{τῆ μαστιγᾶν} (ex μαστηγαν) \Rpc{} \espApp λαβεῖν· R : \lecon{λαβεῖν;} Scaliger.
+    \item \textbf{v. 1138 :} ἐς R : \lecon{εἰς} von Velsen.
+    \item \textbf{v. 1139 :} κόρην R : \lecon{κούρην} Bothe.
+    \item \textbf{post v. 1143 :} στυγνὰς ὡσσε \Rac{} : \lecon{del.} \Rpc{} (στυγνὰς ὡς ἐ \Mon{}).
+    \item \textbf{v. 1148 :} ἥκετ' R : \lecon{ἥκετέ τ'} Enger (ἥκετε δ' Hermann).
+    \item \textbf{vv. 1150–1151 :} \lecon{οὗ δὴ ἀνδράσιν} R (avec glose interne ὅπου ; οὗ δῆτ' ἀνδράσιν Burges ; ἄνδρας ἵν(α) Hermann) \espApp θεμιτὸν R (θέμις Burges ; θεμιτ' Bothe) : \lecon{θεμιτεύετον} \lecon{Bibi}.
+    \item \textbf{v. 1152 :} \lecon{θεαῖν} R (θεοῖν Cobet).
+    \item \textbf{v. 1153 :} λαμπάσι R : \lecon{λαμπάσι.} \lecon{Bibi}.
+    \item \textbf{v. 1156 :} πολὺ πότνια R : \lecon{πολυποτνία} Hermann.
+    \item \textbf{v. 1159 :} \lecon{ἐνθάδ' ἡμῖν} R (ἐνθάδε χἠμῖν Hermann).
+    \item \textbf{v. 1165 :} οὖν R : \lecon{οὑν} Biset.
+    \item \textbf{v. 1166 :} \lecon{μή} R (μου Bentley).
+    \item \textbf{v. 1167 :} ἀκούσαιτ' R : \lecon{ἀκούσητ'} Elmsley (ad \italique{Ach.} 295) \espApp πείθησθέ R : \lecon{πίθησθέ} Hirschig (ad \italique{Vesp.} 155).
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 29 --- \texttt{f. 176v} (\texttt{Classense 178v}) : \textbf{vv. 1169–1210} (+ \italique{parepigraphè} post v. 1187)}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{29\_f176v\_classense178v\_vv1169-1210.jpg} \espApp \textbf{Planche double :} \texttt{15\_planche180\_ff176v-177r\_vv1169-1231\_fin.jpg} (page de gauche)
+  \item \textbf{Contenu dramatique :} Paix conclue entre Euripide et les femmes (vv. 1169–1171) ; \textbf{scène finale de séduction de l'Archer scythe} : Euripide, déguisé en vieille maquerelle \italique{Artamouxia} ($\Sigma^{\text{R}}$ ad 1172 Εὐριπίδης ἐν σχήματι προαγωγοῦ γραός), fait danser la courtisane \italique{Élaphion} au son de la flûte de \italique{Térédon}, excite l'Archer (\textbf{4\ieme{} \italique{parepigraphè} post v. 1187}), l'envoie coucher avec la belle et détache Mnésiloque (vv. 1172–1210).
+  \item \textbf{Témoins papyrologiques :}
+  \begin{itemize}
+    \item \textbf{\PsiTrois{} (\italique{P.Oxy.} LVI 3840)} couvre les \textbf{vv. 1185–1193} (confirme γογγυλί au v. 1185, la \italique{parepigraphè} μ]ενο[ après le v. 1187 et μέλι au v. 1192) ;
+    \item \textbf{\PsiQuatre{} (\italique{P.Oxy.} LXXIII 4935 + LXXVIII 5132, fr. 2)} couvre les \textbf{vv. 1201–1210} (confirme la brièveté de λέλυσο \Rpc{} au v. 1208).
+  \end{itemize}
+  \item \textbf{Observations paléographiques et matérielles (le folio le plus intensément corrigé du codex) :}
+  \begin{enumerate}
+    \item \textbf{Quatrième \italique{parepigraphè} (post v. 1187) :} $\text{R}^1$ copie dans la colonne \lecon{ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος·} (avec iotacismes pour ἀνακύπτει καὶ παρακύπτει), attestée au IV\ieme{} s. par \PsiTrois{} (μ]ενο[).
+    \item \textbf{Six grattages (\italique{in rasura}) sur la même page :}
+    \begin{itemize}
+      \item \textbf{v. 1172 :} \lecon{ἐμὸν \inRas{γ'}{}} (γ' gratté par \Rdeux{}) ;
+      \item \textbf{v. 1187 :} \lecon{κλαυσ\inRas{' ε}{}ϊ γ'} \Rdeux{} (κλαυσεῖ γ' \Mon{}) ;
+      \item \textbf{v. 1188 :} \lecon{τὸ \inRas{σ}{}ποστίον} (\Rac{} avait écrit τὸ σποστίον par prothèse de $\sigma$ devant labiale, et \Rpc{} a gratté le $\sigma$ initial) ;
+      \item \textbf{v. 1195 :} \lecon{\inRas{σὺ}{} κάρισοσ οὐ} (σὺ initial gratté par \Rpc{}) ;
+      \item \textbf{v. 1198 :} \lecon{κ\inRas{ω}{ο}μίζεις αὐτοῖς} ($\omega$ remplacé par $\text{ο}$ \italique{in rasura} par \Rpc{}) ;
+      \item \textbf{v. 1208 :} \lecon{λέλυσο\inRas{ν}{}} ($\nu$ final gratté par \Rpc{}, leçon adoptée par L. Hauseux et appuyée par l'espace de \PsiQuatre{}).
+    \end{itemize}
+    \item \textbf{Interventions de la 3\ieme{} main humaniste d'Euphrosynus Boninus (1515/1516) :} Aux \textbf{vv. 1189 et 1198}, le sigle marginal \lecon{γϋ.} (= $\text{γυνή}$) a été inscrit par \textbf{Boninus} lors de la préparation de la Juntine (identifié par von Velsen et Albert Martin), tandis que \lecon{σκ'.} figure devant ἀκολούτι au v. 1198.
+    \item \textbf{Trois contributions philologiques et paléographiques majeures de \textbf{Bibi} (vv. 1174, 1197, 1198) :}
+    \begin{itemize}
+      \item \textbf{$\Sigma^{\text{R}}$ ad v. 1174 :} La scholie de R expliquant κἀνακάλπασον porte τὸ ἁβρῶς βαδίζειν ; appuyé sur Zonaras p. 1171, \textbf{\textbf{Bibi} restitue τὸ ἄκρως βαδίζειν} (confusion minuscule $\kappa \to \beta$).
+      \item \textbf{v. 1197 :} \textbf{R porte συμβήνην avec un $\mu$ devant $\beta$}, que tous les éditeurs corrigeaient en συβήνην d'après $\Sigma$, la Souda et Photius. \textbf{Louis Hauseux (\textbf{Bibi}) conserve et défend συμβήνην de R} (confirmé par Hésychius $\sigma\ 2137$ συμβίνης· καπροβόλον. ἐμβόλιον) : le Scythe confie sa lance ($\text{σιβύνη/συμβήνη}$) à Euripide, et la nasale $\mu$ prépare le calembour obscène sur \textbf{$\text{συμβινεῖν / καταβηνῆσι}$} au v. 1215 !
+      \item \textbf{v. 1198 :} En écartant le sigle humaniste γϋ. de Boninus, \textbf{\textbf{Bibi} attribue le début du vers à l'Archer (Τοξότ.) et restitue κομίζι σ' αὐτίκ'} (« je te l'apporte [la drachme] sur-le-champ ! ») à partir de κ\inRas{ω}{ο}μίζεις αὐτοῖς de \Rpc{} (confusion minuscule de -ικ et -οις).
+    \end{itemize}
+  \end{enumerate}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 1169–1210}) :}
+  \begin{itemize}
+    \item \textbf{v. 1171 :} πεῖσαι R : \lecon{πεῖθε} Biset.
+    \item \textbf{v. 1172 :} $\Sigma^{\text{R}}$ Εὐριπίδης ἐν σχήματι προαγωγοῦ γραός \espApp \textbf{ἐμὸν \inRas{γ'}{}} \Rdeux{}.
+    \item \textbf{v. 1173 :} \lecon{ἔφραζον} (ex ἔφρον) \Rpc{}.
+    \item \textbf{v. 1174 :} κἀνακόλπασον R (confusion minuscule $\alpha \to \text{ο}$) : \lecon{κἀνακάλπασον} Hermann, cf. $\Sigma$, Souda $\kappa\ 623$, Zonaras p. 1171 (dans $\Sigma^{\text{R}}$, ἁβρῶς R : \lecon{ἄκρως} \lecon{Bibi} ex Zonaras).
+    \item \textbf{v. 1175 :} Τερηδὼν R, Souda $\tau\ 340$ AGF\Mon\expo{a.c.} : \lecon{Τερηδὸν} Souda V\Mon\expo{p.c.}.
+    \item \textbf{v. 1176 :} κωμοτίς ἀν- R (κωμοδρίαν $\Sigma$) : \lecon{κῶμό τις ἀν-} von Velsen.
+    \item \textbf{v. 1178 :} ἔρχετ' R : \lecon{ἔρχεθ'} Brunck.
+    \item \textbf{v. 1179 :} κωλύσ' R : \lecon{κωλῦσ'} Blaydes (κωλῦσι = $\text{κωλύσω}$).
+    \item \textbf{v. 1180 :} ὡς et ὥσπερ R : \lecon{ὠς} et \lecon{ὤσπερ} Brunck.
+    \item \textbf{v. 1182 :} τοῖς R : \lecon{τοῖσι} Bentley.
+    \item \textbf{v. 1184 :} \lecon{ναίκι ναὶ} R (ναίκι ναίκι Bothe).
+    \item \textbf{v. 1185 :} ὡ στεριπὸ (ex σπεριπο) \Rpc{} : \lecon{ὡς στεριπὸ} \Mon{} \espApp ὥσπερ R : \lecon{ὤσπερ} Brunck \espApp \lecon{γογγυλί} \PsiTrois{}, Enger : γογγύλῃ R.
+    \item \textbf{v. 1187 :} \lecon{κλαυσ\inRas{' ε}{}ϊ γ'} \Rdeux{} (κλαυσεῖ γ' \Mon{}) \espApp ἂν R : \lecon{ἢν} Dindorf (1839).
+    \item \textbf{post v. 1187 :} μ]ενο[ \PsiTrois{} : ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος· R : \lecon{del.} Ellebodius (didascalie scénique).
+    \item \textbf{v. 1188 :} \lecon{τὸ \inRas{σ}{}ποστίον} \Rpc{} (τὸ ποστίον \Mon{}).
+    \item \textbf{v. 1189 :} 'στιν R : \lecon{'στὶ} \Mon{} (sigle γϋ. ajouté par Boninus).
+    \item \textbf{v. 1190 :} τί οὐκ ἐπιλήσει R : \lecon{οὐκὶ} (Biset) \lecon{πιλῆσι} Porson (\italique{Aristophanica}, p. 222, cf. $\Sigma$ οὐχὶ φιλήσειν).
+    \item \textbf{v. 1191 :} ὂ R : \lecon{ὂ ὂ ὂ} \Mon{}.
+    \item \textbf{v. 1192 :} ὡς et ὥσπερ R : \lecon{ὠς} et \lecon{ὤσπερ} Brunck \espApp \lecon{μέλι} $\Psi^3, \text{M}$ : μέλις R.
+    \item \textbf{v. 1194 :} ναὶ R (ναίκι Bentley) : \lecon{ναὶ ναὶ} Brunck \espApp γράδιον R : \lecon{γρᾴδιο} Bothe.
+    \item \textbf{v. 1195 :} \inRas{σὺ}{} κάρισοσ οὐ \Rpc{} (κάρισο σοῦ \Mon{}) : \lecon{κάρισο σὺ} Brunck.
+    \item \textbf{v. 1197 :} έκ' ὠδέν R (ἐχω οὐδέν Souda $\sigma\ 1273$, Photius $\sigma\ 660$) : \lecon{ἔκὠδέν} Bergk \espApp \lecon{συμβήνην} R, défendu par \lecon{Bibi} (ap. Hésychius $\sigma\ 2137$) : συβήνην $\Sigma$, Souda, Photius.
+    \item \textbf{v. 1198 :} γϋ. ante v. 1198 (Boninus) et σκ'. ante ἀκολ. in R \espApp κ\inRas{ω}{ο}μίζεις αὐτοῖς \Rpc{} (κομιεῖς αὐτό Biset ; αὖθις Brunck ; (Τοξότ.) κομίσι σ' αὐτός Enger) : \lecon{(Τοξότ.) κομίζι σ' αὐτίκ'} \lecon{Bibi} \espApp ἀκουλούτι R : \lecon{ἀκολούτι} \Mon{} (ἀκουλούτει Brunck).
+    \item \textbf{v. 1201 :} ἀρτομουξία R : \lecon{Ἀρταμουξία} ed. Lipsiensis (1814).
+    \item \textbf{v. 1203 :} \lecon{τουτὶ} R (ταυτὶ Dobree, cf. $\Sigma$).
+    \item \textbf{v. 1208 :} ca. 6 litt. ]· σ[υ]νεργον \PsiQuatre{} : \lecon{λέλυσο\inRas{ν}{}} \Rpc{} (λέλυσαι Bentley).
+    \item \textbf{v. 1210 :} \lecon{τυγάτριον} ex τυγάθριον ut videtur \Rpc{}.
+  \end{itemize}
+\end{itemize}
+
+\soussousPartie{Folio 30 --- \texttt{f. 177r} (\texttt{Classense 179r}) : \textbf{vv. 1211–1231 (Fin)} + \italique{Hypothesis} des \italique{Ecclesiazusae}}
+\begin{itemize}
+  \item \textbf{Image individuelle :} \texttt{30\_f177r\_classense179r\_vv1211-1231\_fin.jpg} \espApp \textbf{Planche double :} \texttt{15\_planche180\_ff176v-177r\_vv1169-1231\_fin.jpg} (page de droite)
+  \item \textbf{Contenu dramatique :} \italique{Exodos} des \italique{Thesmophories} (vv. 1211–1231) : l'Archer scythe ressort, émoustillé, reprend sa lance (\lecon{συμβήνη} \textbf{Bibi} au v. 1215), découvre qu'Artamouxia et le prisonnier se sont enfuis, est envoyé dans la mauvaise direction par le Chœur, et la Coryphée congédie les spectateurs en priant Déméter et Korè de leur accorder une heureuse victoire ; \textbf{dans la moitié inférieure du folio}, séparée par une \italique{koronis} ornementale, la main \Rdeux{} copie l'\italique{Hypothesis} et la liste des personnages de \italique{L'Assemblée des femmes} ($\text{Ἐκκλησιάζουσαι}$).
+  \item \textbf{Témoin papyrologique :} \textbf{\PsiUn{} (\italique{PSI} XI 1194, fr. 6)} conserve après le \textbf{v. 1231} la \italique{subscriptio} stichométrique antique en chiffres acrophoniques attiques : ΑΡΙΣΤΟΦΑΝ]ΟΥΣ ΘΕΣΜΟΦΟΡΙ]ΑΖΥΣΑΙ ]ΧΗΗΙ (= \textbf{1201 vers}).
+  \item \textbf{Observations paléographiques et matérielles :}
+  \begin{itemize}
+    \item \textbf{Harmonisation de συμβήνη au v. 1215 par \textbf{Bibi} :} Là où R avait conservé συμβήνην avec $-\mu-$ au v. 1197 mais écrit συβήνη sans $-\mu-$ au v. 1215, \textbf{\textbf{Bibi} rétablit συμβήνη} au v. 1215 pour maintenir le jeu de mots avec $\text{συμβινεῖν / καταβηνῆσι}$ (cf. Hésychius $\sigma\ 2137$).
+    \item \textbf{Notes marginales de locuteur au v. 1219 :} R porte Σκ. en marge devant le v. 1219 et Χορ. devant καὶ γέρον à l'intérieur du vers.
+    \item \textbf{Faute récurrente au v. 1227 :} Comme au v. 1127, $\text{R}^1$ écrit πέπυσται au lieu de \lecon{πέπαισται} (« nous avons assez joué », conservé par $\Sigma^{\text{R}}$).
+    \item \textbf{Haplographie syllabique au dernier vers (v. 1231) :} $\text{R}^1$ écrit ἀνταδοῖτον (saut de la syllabe -πο-) au lieu de ἀνταποδοῖτον (Grynaeus) / \lecon{ἀνταποδοίτην} (optatif duel adopté dans le texte par L. Hauseux).
+  \end{itemize}
+  \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 1211–1231}) :}
+  \begin{itemize}
+    \item \textbf{v. 1211 :} δύσκολλ' R : \lecon{δύσκολ'} Grynaeus.
+    \item \textbf{v. 1213 :} γρᾶίο R : \lecon{γρᾶ'} Bentley.
+    \item \textbf{v. 1214 :} \lecon{διέβαλλε} R (διέβαλέ $\Sigma$, Souda $\delta\ 892$, Eustathe p. 1406.19) \espApp ὁ γραῦς R : \lecon{ἡ γραῦς} Souda, Eustathe \espApp ὡς τάχιστα R : \lecon{ὠς τάκιστα} Brunck (adopté par L. Hauseux).
+    \item \textbf{v. 1215 :} συβήνη R : \lecon{συμβήνη} \lecon{Bibi} (cf. v. 1197, Hésychius $\sigma\ 2137$).
+    \item \textbf{v. 1216 :} δράσει R : \lecon{δρᾶσι} Blaydes (1842) \espApp γράδιο R : \lecon{γρᾴδιο} \Mon{}.
+    \item \textbf{v. 1217 :} γραῦ R : \lecon{γραῦν} Souda $\pi\ 1502$.
+    \item \textbf{v. 1219 :} Σκ. ante versum in mg. et Χορ. ante καὶ γέρον in R \espApp γέρον R : \lecon{γέρων} \Mon{}.
+    \item \textbf{v. 1222 :} γραῦ et ὁδό R : \lecon{γρᾷο} et \lecon{ὀδό} Brunck.
+    \item \textbf{v. 1224 :} δ' ὤξεις R : \lecon{διώξει} Elmsley (ad \italique{Ach.} 278) \lecon{'ς} Cobet (\italique{Mnemos.} 2, 1853, p. 213).
+    \item \textbf{v. 1226 :} κατὰ τοὺς R : \lecon{κατ' αὐτοὺς} Jackson (p. 82) \lecon{ἐς} O. Bachmann.
+    \item \textbf{v. 1227 :} πέπυσται R : \lecon{πέπαισται} $\Sigma$.
+    \item \textbf{v. 1231 :} ἀνταδοῖτον R : ἀνταποδοῖτον Grynaeus (\lecon{ἀνταποδοίτην} dans le texte de L. Hauseux) \espApp \italique{Subscriptio} \PsiUn{} fr. 6 : ΑΡΙΣΤΟΦΑΝ]ΟΥΣ ΘΕΣΜΟΦΟΡΙ]ΑΖΥΣΑΙ ]ΧΗΗΙ (= 1201, versuum numerus).
+  \end{itemize}
+\end{itemize}
+
+\Partie{8. Accès numérique direct (IIIF / Collezioni Digitali Classensi) et bibliographie}
+
+\begin{itemize}
+  \item \textbf{Notice et visionneuse officielle (\italique{Collezioni Digitali Classensi}) :} \url{https://www.cdc.classense.ra.it/s/Classense/item/4651}
+  \item \textbf{Manifeste IIIF officiel :} \url{https://www.cdc.classense.ra.it/iiif/2/4651/manifest} (copie locale dans le dépôt : \texttt{ravennas\_1904\_bnf/manifest\_iiif\_classense\_ms429.json})
+  \item \textbf{Planches doubles haute définition des \italique{Thesmophories} (\texttt{canvas/p166} à \texttt{canvas/p180}, $3946 \times 2780\,\text{px}$) :} \url{https://www.cdc.classense.ra.it/iiif/2/29059/full/full/0/default.jpg} (planche 166) jusqu'à \url{https://www.cdc.classense.ra.it/iiif/2/29073/full/full/0/default.jpg} (planche 180).
+  \item \textbf{Bibliographie essentielle :} \textbf{Louis Hauseux} [\textbf{Bibi}], \italique{Aristophane : Les Thesmophories. Texte établi, traduit et commenté}, Paris, L'Harmattan / éd.~révisée ; \textbf{Johannes van Leeuwen}, \italique{Aristophanis Codex Ravennas 137, 4, A phototypice editus}, Leyde, Sijthoff, 1904 ; \textbf{Adolf von Velsen}, \italique{Über den Codex Urbinas der Lysistrata und der Thesmophoriazusen}, Halle, 1871, et \italique{Aristophanis Thesmophoriazusae}, Leipzig, 1883 ; \textbf{Albert Martin}, \italique{Les scolies du manuscrit d'Aristophane à Ravenne}, Paris, 1882 ; \textbf{Alphonse Willems}, \italique{Aristophane}, Paris--Bruxelles, 1919, t.~III ; \textbf{Viktor Gardthausen}, \italique{Griechische Palaeographie}, 2\ieme{} éd., Leipzig, 1911--1913 ; \textbf{Lidia Perria}, « Il \italique{Ravennas 429} di Aristofane », \italique{Scrittura e Civiltà}, 9 (1985), pp.~31--56 ; \textbf{Pasquale Orsini}, \italique{Segno e Testo}, 16 (2018), pp.~265--342.
+\end{itemize}
+
+\end{document}

@@ -166,7 +166,7 @@ Bien que `R` soit notre unique manuscrit médiéval, cinq papyri d'époque romai
 
 | Sigle (Hauseux) | Publication papyrologique | Date | Vers couverts | Folio(s) de `R` correspondants | Apports critiques majeurs face à `R` |
 | :---: | :--- | :---: | :--- | :---: | :--- |
-| **$\Psi^1$** (`\PsiUn`) | ***PSI* XI 1194** (+ *PSI* XIV, p. XV, éd. Bartoletti) | IIᵉ s. | **vv. 133–144, 145–156, 237–245, 273–288, 594–596, 804–809, 1231** | `f. 164r`, `f. 165r`, `f. 165v`, `f. 169v`, `f. 172r`, `f. 177r` | • **v. 141 (`f. 164r`) :** confirme `σύ τ'` (avec $\Sigma$) contre `τίς δ'` de `R`.<br>• **v. 154 (`f. 164r`) :** confirme `ἄν` avec `R`.<br>• **v. 242 (`f. 165r`) :** restitue `[ἓ]τερον` (Medaglia) omis par haplographie dans `R` avant `πρὶν`.<br>• **post v. 276 (`f. 165v`) :** confirme l'antiquité de la *parepigraphè* (`ολολυ[`).<br>• **v. 285 (`f. 165v`) :** donne le pluriel `τὰ πόπαν'` (conjecturé par Porson) contre le singulier amétrique `τὸ πόπανον` de `R`.<br>• **v. 287 (`f. 165v`) :** donne la forme attique `Φερρέφαττα` (Thiersch) contre `Φερσέφαττα` de `R`.<br>• **v. 596 (`f. 169v`) :** `πεπύσμην` comme `R`.<br>• **v. 807 (`f. 172r`) :** confirme `Στρατονίκην` contre `στρατωνίκην` de `R`.<br>• **v. 1231 (`f. 177r`) :** conserve la note stichométrique finale `ΜΒ` + `Α` = **`1201` vers** dans la colométrie alexandrine. |
+| **$\Psi^1$** (`\PsiUn`) | ***PSI* XI 1194** (+ *PSI* XIV, p. XV, éd. Bartoletti) | IIᵉ s. | **vv. 133–144, 145–156, 237–245, 273–288, 594–596, 804–809, 1231** | `f. 164r`, `f. 165r`, `f. 165v`, `f. 169v`, `f. 172r`, `f. 177r` | • **v. 141 (`f. 164r`) :** confirme `σύ τ'` (avec $\Sigma$) contre `τίς δ'` de `R`.<br>• **v. 154 (`f. 164r`) :** confirme `ἄν` avec `R`.<br>• **v. 242 (`f. 165r`) :** restitue `[ἓ]τερον` (Medaglia) omis par haplographie dans `R` avant `πρὶν`.<br>• **post v. 276 (`f. 165v`) :** confirme l'antiquité de la *parepigraphè* (`ολολυ[`).<br>• **v. 285 (`f. 165v`) :** donne le pluriel `τὰ πόπαν'` (conjecturé par Porson) contre le singulier amétrique `τὸ πόπανον` de `R`.<br>• **v. 287 (`f. 165v`) :** donne la forme attique `Φερρέφαττα` (Thiersch) contre `Φερσέφαττα` de `R`.<br>• **v. 596 (`f. 169v`) :** `πεπύσμην` comme `R`.<br>• **v. 807 (`f. 172r`) :** confirme `Στρατονίκην` contre `στρατωνίκην` de `R`.<br>• **v. 1231 (`f. 177r`, fr. 6) :** conserve la *subscriptio* avec la note stichométrique en chiffres acrophoniques attiques `ΑΡΙΣΤΟΦΑΝ]ΟΥΣ ΘΕΣΜΟΦΟΡΙ]ΑΖΥΣΑΙ ]ΧΗΗΙ` (= **`1201` vers** : `Χ` = 1000, `Η` = 100, `Η` = 100, `Ι` = 1). |
 | **$\Psi^2$** (`\PsiDeux`) | ***P.Oxy.* LVI 3839** (éd. W. E. H. Cockle) | ca. 200 | **vv. 742–766 (fr. 1) & vv. 941–953 (fr. 2)** | `f. 171r`, `f. 171v`, `f. 173v` | • **v. 743 (`f. 171r`) :** marque le changement d'interlocuteur avant `εἰπέ μοι` par un point haut et un blanc de deux lettres (`· ηπωc  ειπε μοι`), là où `R` le plaçait après `εἰπέ μοι`.<br>• **v. 745 (`f. 171r`) :** confirme la géminée expressive `τυννοῦτον` / `τυννοῦτο` (Brunck) contre `τυνοῦτον` / `τυνοῦτο` de `R`, et prouve l'**absence de changement de personnage** avant `μικρὸν` (contre le sigle fautif `Γϋ.` inséré par $\text{R}^2$).<br>• **v. 746 (`f. 171r`) :** donne `γέγονε` sans $\nu$ éphelcystique (contre `γέγονεν` de `R`).<br>• **v. 754 (`f. 171r`) :** donne `δός τὸ σφαγεῖον` en omettant le pronom parasite `μοι` de `R` (`δός μοι τὸ`). |
 | **$\Psi^3$** (`\PsiTrois`) | ***P.Oxy.* LVI 3840** (éd. P. J. Parsons) | IVᵉ s. | **vv. 1185–1193** | `f. 176v` | • **v. 1185 (`f. 176v`) :** confirme le nominatif barbare scythe `γογγυλί` (conjecturé par Enger) contre le datif hellénisé `γογγύλῃ` de `R`.<br>• **post v. 1187 (`f. 176v`) :** conserve sur une ligne distincte en retrait `μ]ενο[` (`[ἀπεψωλη]μένο[ς]`), prouvant que la *parepigraphè* de `R` remonte à l'édition antique.<br>• **v. 1192 (`f. 176v`) :** confirme `μέλι` (avec `M`) contre la faute `μέλις` de `R`. |
 | **$\Psi^4$** (`\PsiQuatre`) | ***P.Oxy.* LXXIII 4935** (éd. A. Benaissa) **+ *P.Oxy.* LXXVIII 5132** (éd. W. B. Henry) | IIᵉ s. | **vv. 1043–1051 (fr. 1) & vv. 1201–1210 (fr. 2)** | `f. 174v`, `f. 175r`, `f. 176v` | • **v. 1047 (`f. 175r`) :** donne `[ι]ω μοιρ[ας` sans le `μοι` dittographique de `R` (`ἰώ μοι μοίρας`), confirmant Hermann.<br>• **v. 1051 (`f. 175r`) :** confirme `βάρβαρον` de `R` (défendu par Alphonse Willems et Louis Hauseux contre la correction `βαρβάρων` de Brunck).<br>• **v. 1208 (`f. 176v`) :** l'espace initial `ca. 6 litt. ]· σ[υ]νεργον` est trop court pour `λέλυσον` de $\text{R}^{\text{ac}}$, confirmant `λέλυσο` de $\text{R}^{\text{pc}}$ (adopté par L. Hauseux) ou `λέλυσαι` (Bentley). |
@@ -345,19 +345,20 @@ L'apparat et le commentaire de Louis Hauseux mettent en lumière les mécanismes
 | Vers | Folio | État avant correction ($\text{R}^{\text{ac}}$) | État après correction ($\text{R}^{\text{pc}}$ / $\text{R}^2$) | Leçon de `M` (`\Mon`) | Texte adopté par L. Hauseux (`Bibi`) |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | **v. 28** | `f. 162v` | Vers 28 copié après le v. 30 | Ordre rétabli par $\text{R}^{\text{pc}}$ (signes de transposition) | Ordre rétabli | v. 28 à sa place (`ἀκούω` Brunck) |
-| **v. 32** | `f. 162v` | `(Μνη.) οὐχ ... πώποτε` | `(Εὐρ.) continuat` $\text{R}^{\text{pc}}, \Sigma$ | `(Εὐρ.)` | `(Εὐρ.) continuat` (`ἑόρακας` Bentley) |
+| **v. 32** | `f. 162v` | Sigle `μ\auDessus{ν}{Η}` ($\overset{\text{Η}}{\text{μν}}$) dans le vers devant `οὐχ ἑόρακα` | Sigle `μ\auDessus{ν}{Η}` **gratté (*ut videtur*)** par $\text{R}^{\text{pc}}$ ; `(Εὐρ.) continuat` $\Sigma^{\text{R}}$ | `(Εὐρ.)` | `(Εὐρ.) continuat` (`ἑόρακας` Bentley) |
 | **v. 33** | `f. 162v` | **Vers omis dans la colonne** | Ajouté dans la marge par $\text{R}^{\text{pc}}$ | **Omis par `M`** | v. 33 maintenu |
 | **v. 34** | `f. 162v` | `καὶ μεγ'` | `ὶ` gratté par $\text{R}^{\text{pc}}$ (`κα μεγ'`) | `καὶ μεγ'` | `κἀμέ γ'` (edd. omn.) |
 | **v. 45** | `f. 163r` | `λέγεις` | `λέγει\inRas{ς}{}` (`ς` gratté par $\text{R}^{\text{pc}}$) | `λέγει` | `λέγει` |
 | **v. 60** | `f. 163r` | `κατὰ` omis | `κατὰ` ajouté par $\text{R}^{\text{pc}}$ | `κατὰ` présent | `κατὰ` |
 | **v. 263** | `f. 165v` | — | `γ' ο\auDessus{ῦ}{ν}` $\text{R}^{\text{pc}}$ | `γοῦν` | `γοῦν` |
+| **v. 295** | `f. 166r` | `Κῆρυξ` | `\inRas{Κῆρυξ}{}` gratté par $\text{R}^2$ ($\Sigma$ `γυνὴ μιμουμένη κήρυκα`) | `\auDessus{κη}{ρυ}` (`\Mon`) | `(Κορ.-Ἱέρεια)` (`Bibi`) |
 | **v. 306** | `f. 166r` | `τὴν ἀγορεύουσαν` | `\expo{καὶ}τὴν ἀγορεύουσαν` ($\text{R}^2$ supralin.) | `καὶ τὴν` | `καὶ τὴν ἀγορεύουσαν` |
 | **v. 320** | `f. 166r` | `θηροφώνε παῖ--` | `θηροφ\inRas{ω}{ό}νε παῖ--` ($\omega \to ό$ *in ras.* $\text{R}^{\text{pc}}$) | `θηροφόνε` | `θηροφόνη` (Hermann) |
 | **v. 383** | `f. 167r` | `(\auDessus{γυ}{ν})` | `(καλλιλεξία γυνή)` $\text{R}^{\text{pc}}$ | `(καλλιλεξία γυνή)` | `(Μίκα)` (Rogers) |
 | **v. 433** | `f. 167v` | `οὔπω τε` | `οὐπώποτε` $\text{R}^{\text{pc}}$ | `οὐπώποτε` | `οὔπω` (Dindorf) |
 | **v. 443** | `f. 167v` | — | `(γυνὴ ἑτέρα)` $\text{R}^{\text{pc}}$ | `(γυνὴ ἑτέρα)` | `(Γυνὴ Β')` / `(Κρίτυλλα)` |
 | **v. 489** | `f. 168r` | `κυνδ'` | `κύβδ'` $\text{R}^{\text{pc}}$ | `κύβδ'` | `κύβδ'` |
-| **v. 493** | `f. 168r` | `ληκώμεθα` (?) (cf. Souda) | `κινώμεθα` $\text{R}^{\text{pc}}$ (surcharge) | `κινώμεθα` | `ληκώμεθα` |
+| **v. 493** | `f. 168r` | `ληκώμεθα` (cf. Souda) | `\inRas{ληκ}{κιν}ώμεθα` (`ληκ-` gratté et surchargé en `κιν-` par $\text{R}^{\text{pc}}$) | `κινώμεθα` | `ληκώμεθα` |
 | **v. 506** | `f. 168r` | `βοῴη` omis | `βοῴη` suppl. $\text{R}^{\text{pc}}$ | `βοῴη` | `βοῴη` |
 | **v. 512** | `f. 168v` | `εἰσέφερε` | `\auDessus{εἰ}{η}\inRas{σ}{}έφερε` $\text{R}^{\text{pc}}$ | `ἠέφερε` | `ἥ 'φερεν` (Bentley) |
 | **v. 514** | `f. 168v` | `αὖτ' έγμαγμα` | `αὖτ' ἔκμαγμα` $\text{R}^{\text{pc}}$ | `αὖτ' ἔκμαγμα` | `αὐτέκμαγμα` (Reiske) |
@@ -370,6 +371,7 @@ L'apparat et le commentaire de Louis Hauseux mettent en lumière les mécanismes
 | **v. 693** | `f. 170v` | `ἀφεῖτ'` | `ἀφε\auDessus{ῖ}{ῆ}τ'` $\text{R}^2$ | `ἀφεῖτ'` | `ἀφῆτ'` |
 | **v. 754** | `f. 171r` | `σφαγίον` | `σφαγεῖον` $\text{R}^{\text{pc}}$ | `σφαγεῖον` | `σφαγεῖον` |
 | **v. 759** | `f. 171r` | $\emptyset$ | `(ἄλλη γυνή)` $\text{R}^{\text{pc}}$ (ad v. 760) | `(ἄλλη γυνή)` | `(Κρίτ.)` (Sommerstein) |
+| **v. 798** | `f. 171v` | `αἰσχυνθῆς` | `αἰσχυνθ\inRas{η}{εὶ}ς` ($\eta \to \varepsilon\iota$ *in ras.* $\text{R}^{\text{pc}}$) | `αἰσχυνθεὶς` | `αἰσχυνθεῖσ'` (Zanetti) |
 | **v. 838** | `f. 172v` | `ὑστέρον` | `ὑστέρ\auDessus{ο}{α}ν` $\text{R}^{\text{pc}}$ | `ὑστέραν` | `ὑστέραν` |
 | **v. 844** | `f. 172v` | `τὰδὶ` | `τ\auDessus{ὰ}{ο}δὶ` $\text{R}^{\text{pc}}$ | `τοδί` | `τοδί` |
 | **v. 860** | `f. 172v` | `σί` | `σύ` (ex `σί`) $\text{R}^2$ | `σύ` | `σοί` (Zanetti) |
@@ -380,7 +382,7 @@ L'apparat et le commentaire de Louis Hauseux mettent en lumière les mécanismes
 | **v. 1056** | `f. 175r` | $\emptyset$ | `ευρ\auDessus{ι}{π} ηχω` in mg. $\text{R}^{\text{pc}}$ | `ευρ\auDessus{ι}{π} ηχω` | `(Ἠχώ)` / `(Εὐρ.)` |
 | **v. 1065** | `f. 175r` | $\emptyset$ | `ὁ μνησίλοχος ὡς ἀνδρομέδα` in mg. $\text{R}^{\text{pc}}$ | id. | `(Μνη.)` |
 | **v. 1083** | `f. 175v` | `λαλεῖς` bis | `λαλῖς` bis $\text{R}^2, \Sigma$ | `λαλῖς` | `λαλῖς` bis |
-| **v. 1086** | `f. 175v` | `πρῶτε` bis | `π\inRas{ρ}{}ωτε` bis ($\rho$ gratté deux fois par $\text{R}^{\text{pc}}$ pour figurer l'accent scythe) | `πωτε` bis | `πῶτε` bis |
+| **v. 1086** | `f. 175v` | `πρῶτε` bis | `π\inRas{ρ}{}ωτε` bis ($\rho$ gratté deux fois d'une main postérieure d'après $\Sigma^{\text{R}}$ `πόθεν`) | `πωτε` bis | `†πῶτε†` bis (`Bibi` apposant les cruces et rejetant $\Sigma^{\text{R}}$) |
 | **v. 1087** | `f. 175v` | `λαλῖς` bis | `λαλεῖς` bis $\text{R}^{\text{pc}}$ | `λαλεῖς` | `λαλῖς` bis ($\text{R}^{\text{ac}}$) |
 | **v. 1098** | `f. 175v` | $\emptyset$ | `ευρ\auDessus{ι}{π} ως περσευς` in mg. $\text{R}^{\text{pc}}$ | id. | `(Εὐρ.)` |
 | **vv. 1102–3** | `f. 175v` | **Omis dans la colonne par $\text{R}^1$** | **Ajoutés dans la marge inférieure par $\text{R}^2$** | **Omis par `M`** | vv. 1102–1103 (`Γόργος ... κεπαλή` Bothe) |
@@ -405,6 +407,7 @@ L'apparat et le commentaire de Louis Hauseux mettent en lumière les mécanismes
 
 | Vers | Folio | Leçon du *Ravennas* (`R`) | Texte établi ou conjecturé par `Bibi` (Louis Hauseux) | Justification paléographique et lexicographique dans le commentaire |
 | :---: | :---: | :--- | :--- | :--- |
+| **v. 1** | `f. 162v` | `χελιδὼν` | **`Χελιδὼν`** *(ap. Clements, dans l'Index et le commentaire)* | Majuscule anthroponymique (référence au devin *Khelidôn* : `πυθοῦ Χελιδόνος`). |
 | **vv. 30–31** | `f. 162v` | `Ἀγάθων` (bis) | **`Ἁγάθων`** (v. 30) et **`ἀγαθῶν`** (v. 31, continué à `Μνη.`) | Crase $\text{ὁ Ἀγάθων} \to \text{Ἁγάθων}$ au v. 30, et jeu de mots comique de Mnésiloque sur le génitif pluriel $\text{ἀγαθῶν}$ au v. 31. |
 | **vv. 50** | `f. 163r` | `πράμος ἡμέτερος` | **`πρανοῦν προτέρους`** | D'après Hésychius $\pi\ 3188$ (`πρανοῦν` / `πραῖνοι` dans l'Index) et *Nuées* 562 : médivision de `πρανοι ν` ($\nu \to \mu$, $\iota \to \varsigma$) et mélecture de l'abréviation tachygraphique de `προ-` (`Ʒ` inversé lu $\varepsilon \to \text{ἡμέτερος}$). |
 | **vv. 71–74** | `f. 163r` | `(Μνη.)` 71 et `(Εὐρ.)` 72–74 | **`(Μνη.)` pour l'ensemble des vv. 71–74** | Conformément à la scholie ($\Sigma^{\text{R}}$). |
@@ -414,10 +417,11 @@ L'apparat et le commentaire de Louis Hauseux mettent en lumière les mécanismes
 | **vv. 263–264** | `f. 165v` | `(Ἀγάθ.)` v. 263, pas de sigle au v. 264 | **`(Ἀγάθ.)`** maintenu au v. 263 et suppléé au v. 264 | Cohérence dramatique du dialogue avec Agathon. |
 | **v. 289** | `f. 165v` | `χοῖρον` ($\Sigma$ `χοιρίον`) | **`Χοιρίλ'`** *(ou `Χοιρίν'`)* | Nom véritable de la fille de Mnésiloque et épouse d'Euripide (*Choirilè / Choirinè*, cf. *Vita Euripidis* et « Dossier Mnésiloque »). |
 | **v. 291** | `f. 165v` | `πρὸς θάληκον` | **`πρὸς θυλάκιον`** *(vel `πρὸς θάλικα` ap. Hesych. $\theta\ 50$)* | Métathèse vocalique $\upsilon/\alpha$ à partir de `θυλάκιον` (ou glose d'Hésychius $\theta\ 50$). |
+| **$\Sigma$ ad 401** | `f. 167r` | `αυταόρα αἱστεφανηπλόκουν` ($\Sigma^{\text{R}}$, Sappho fr. 70/125) | **`αὐτὰ κόραις στεφαναπλόκεο`** | Restitution éolienne du vers de Sappho cité dans la scholie de `R` (`αυταόρα` issu de la chute de $\kappa$ et médivision de `αὐτὰ κόραις`). |
 | **v. 446** | `f. 167v` | `ἐν Κύπρῳ` | **`ἔγκυος`** | Un mari mort « à Chypre » n'explique pas comment la veuve nourrit cinq enfants de sa couronne : c'est son mari qui l'a laissée **enceinte (`ἔγκυος`)** de leur cinquième enfant (`ΕΝΚΥΟϹ` glosé ou corrompu en `ΕΝΚΥΠΡΩΙ`). |
 | **v. 477** | `f. 168r` | `πολλ'` (vers incomplet d'un pied) | **`πολλά γ'· ἀλλ'`** | Haplographie de la séquence `-λλ' ἀλλ'` en *scriptio continua* (`ΠΟΛΛΑΓΑΛΛ` $\to$ `ΠΟΛΛ`). |
 | **v. 557** | `f. 169r` | `τὸν σῖτον` (`R`, $\Sigma$, Souda) | **`τὸν κύσθον`** | Métathèse de $\sigma$ et iotacisme $\upsilon/\iota$ (cf. v. 1114 `σκύτο` `R` pour `κύστο` = $\text{κύσθον}$ et v. 1188 `\inRas{σ}{}ποστίον`). |
-| **vv. 637–643** | `f. 170r` | `(Μνη.)` 637–9, `(Γυνή)` 640, `χάλᾳ` 638, `(Μνησ.)` 641–3 | **`(Μνη.)` 637–8, `χαλᾷ` 638, `(Μίκα)` 639–40, `(Κλεισθ.)` 642–3** | Redistribution dramatique de la scène de déshabillage et d'inspection. |
+| **vv. 637–643** | `f. 170r` | `μν\auDessus{η}{σ}` 637–9, `(Γυνή)` 640, `χάλᾳ` 638, `(Μνησ.)` 641–3 | **`(Μνη.)` 637–8, `χαλᾷ` 638, `(Μίκα)` 639–40, `(Κλεισθ.)` 642–3** | Redistribution dramatique de la scène de déshabillage et d'inspection. |
 | **v. 704** | `f. 170v` | `ἐξάρξω` | **`ἐξαρήξω`** | D'après Hésychius $\varepsilon\ 3599$ (`ἐξαρήξω`), syncope fautive de $\eta$ dans `R`. |
 | **v. 710** | `f. 170v` | `ἥκεις τ'` (`ἥκεις γ'` Souda) | **`ἥκειν γ'`** | D'après Photius $\eta\ 88$ (permutation minuscule $\nu \to \varsigma$). |
 | **v. 711** | `f. 170v` | `οὐ λέξεις` (`R`, Souda) | **`οὐκ ἔξει.`** | D'après la scholie interne de `R` (`ὅθεν οὐ φεύξῃ`), confusion onciale `Κ` $\to$ `Λ` (`ΟΥΚΕΞΕΙ` $\to$ `ΟΥΛΕΞΕΙ[Σ]`). |
@@ -432,9 +436,13 @@ L'apparat et le commentaire de Louis Hauseux mettent en lumière les mécanismes
 | **v. 1041** | `f. 174v` | `φεύγουσαν` | **`ψεφαυγοῦς`** | D'après $\Sigma^{\text{R}}$ ad v. 1054 et Hésychius $\psi\ 135$ (`ψεφαυγής· σκοτεινή`). |
 | **v. 1069** | `f. 175r` | `δι' Ὀλύμπου` | `δι' Ὀλύμπου` *(avec conj. **`†δι'† ὀλυμπίας`** en apparat)* | D'après Hésychius $\text{ο}\ 649$ (`ὀλυμπίας· ἄνεμος`). |
 | **v. 1071** | `f. 175r` | `μέρος ἐξέλαχον;` | **`μόρος ἔξελ' ἄχος.`** | Médivision en *scriptio continua* de `ΜΟΡΟϹΕΞΕΛΑΧΟϹ`. |
+| **v. 1072** | `f. 175r` | `θανάτου τλήμων` | `θανάτου τλήμων` *(avec conj. **`θαλάττης τέμνον`** en apparat)* | Conjecture paratragique sur le monstre marin fendant les flots. |
 | **v. 1074** | `f. 175r` | `στωμυλωμένη` (avec un seul $\lambda$, vs `-λλ-` au v. 1073) | **`στωμυλιομενής`** | Calembour d'Écho sur le participe du v. 1073, expliquant pourquoi `R` n'écrit qu'un seul $\lambda$ au v. 1074. |
 | **v. 1078** | `f. 175r` | `(Εὐρ.) παῦσαι` | **`(Εὐρ.) 'παΰσαι`** | Forme verbale faisant écho sonore exact au cri précédent. |
 | **v. 1079** | `f. 175r` | `βάλλ' ἐς κόρακας` | **`βάλλε σύ κόρακας`** | Jeu d'écho parodique. |
+| **v. 1082** | `f. 175v` | `ὀτότυζ'` | `ὀτότυζ'` *(avec conj. **`ὀλόφυγ'`** en apparat)* | Jeu d'écho parodique. |
+| **v. 1085** | `f. 175v` | `σί κακόν;` bis (`R`, $\Sigma^{\text{R}}$) | **`σί κακόν;` bis** | Défense de la leçon de `R` et de $\Sigma^{\text{R}}$ (`ἀντὶ τοῦ 'σοὶ κακόν'`) contre `τί κακόν;` (Coulon). |
+| **v. 1086** | `f. 175v` | `π\inRas{ρ}{}ωτε τὸ πωνή;` bis | **`†πῶτε† τὸ πωνή;` bis** | Cruces apposées par `Bibi` qui rejette l'interprétation du scholiaste (`πόθεν ἡ φωνή`) et le grattage postérieur des deux $\rho$ sur `R` (le Scythe ne confondant jamais $\text{ο}$ et $\omega$). |
 | **vv. 1090, 1092** | `f. 175v` | `(Μνη.)` edd. plerique | **`(Χορ.)`** | Attribution au Chœur d'après $\Sigma^{\text{R}}$. |
 | **v. 1091** | `f. 175v` | `πλησίον αὕτη` | **`πλήξασ' αὕτη`** | Corruption de `ΠΛΗΞΑϹΑΥΤΗ` en `ΠΛΗϹΙΟΝΑΥΤΗ`. |
 | **v. 1093** | `f. 175v` | om. `R` | **`<(Εὐρ.) ποῖ ποῖ πέτει>`** | Supplément comblant la lacune en tête du v. 1093 face à `<(Τοξ.) οὐχ αἱρήσεις>` (Brunck/Wilamowitz) au v. 1094. |
@@ -529,10 +537,11 @@ Chaque notice ci-dessous présente :
   * En haut de la page, $\text{R}^1$ avait réservé un espace de 12 lignes que la seconde main **$\text{R}^2$** a rempli en semi-onciale de glose (*Kleinoziale*) serrée, riche en abréviations tachygraphiques : y figurent l'*Hypothesis* ($\text{Εὐριπίδης κηδεστὴν ἑαυτοῦ Μνησίλοχον...}$) et la liste des personnages, source unique du nom de **$\text{Μνησίλοχος}$** défendu par Louis Hauseux (« Le dossier Mnésiloque », `Introduction.tex`, ll. 325–357).
   * Au-dessous, le titre de première main encadré d'astérisques : `※ ἀριστοφάνους θεσμοφοριάζουσαι —`.
   * **Transposition corrigée (vv. 28–30) :** $\text{R}^{\text{ac}}$ avait copié le v. 28 après le v. 30 ; $\text{R}^{\text{pc}}$ a rétabli l'ordre exact par des signes marginaux de transposition.
+  * **Sigle tachygraphique gratté et scholie interlinéaire au v. 32 :** Comme le relève Louis Hauseux (`vv 1-641.tex`, ll. 777–787), le manuscrit comportait à l'intérieur du vers, devant `οὐχ ἑόρακα πώποτε`, le sigle tachygraphique `μ\auDessus{ν}{Η}` ($\overset{\text{Η}}{\text{μν}}$ = $\text{Μνησίλοχος}$), qui a été ensuite **gratté (*ut videtur*)** ; l'erreur de ce sigle est en outre prouvée par la scholie interlinéaire $\Sigma^{\text{R}}$ inscrite juste au-dessus du v. 32 (`ἐπειδὴ οὐ πάλαι ἤρξατο διδάσκειν, ἀλλὰ πρὸ τριῶν ἐτῶν πρὸ τούτου`), qui ne se comprend qu'avec la 2ᵉ personne `ἑόρακας` prononcée par Euripide.
   * **Omission de vers réparée en marge (v. 33) :** Le **v. 33** ($\text{ἀλλ' ἦν περὶ ὗς καὶ σκοτοδινιῶ;}$) avait été omis dans la colonne par $\text{R}^{\text{ac}}$ (et reste **omis dans `M`**) ; il est rajouté dans la marge par $\text{R}^{\text{pc}}$.
   * **Grattage au v. 34 :** $\text{R}^{\text{ac}}$ avait écrit `καὶ μεγ'` (copié tel quel par `M`) ; $\text{R}^{\text{pc}}$ a gratté l'iota (`ὶ eras.`) pour amorcer la crase `κἀμέ γ'`.
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 1–42`) :**
-  * **v. 1 :** `ἄρα πότε` `R` : **`ἆρά ποτε`** Biset.
+  * **v. 1 :** `ἄρα πότε` `R` : **`ἆρά ποτε`** Biset | `χελιδὼν` `R` : **`Χελιδὼν`** **`Bibi`** ap. Clements (dans l'*Index nominum* et le commentaire : référence au devin *Khelidôn*, `πυθοῦ Χελιδόνος`).
   * **v. 2 :** `ἄνθρωπος` `R` : **`ἅνθρωπος`** Boissonade.
   * **v. 3 :** `τι` `R` : **`τε`** $\Sigma$ (`δυνατόν`), Souda $\text{οι}\ 150$.
   * **v. 5 :** `ὅσ` `R` : **`ὅσ'`** `M`.
@@ -542,10 +551,10 @@ Chaque notice ci-dessous présente :
   * **v. 21 :** `τε` `R` : **`γε`** $\Sigma$.
   * **v. 23 :** `πρὸς τοῖς ἀγαθοῖς τούτοισιν ἐξεύροιμ' ὅπως` `R` : **vers athétisé (`del.`) par Alphonse Willems** et L. Hauseux comme interpolation issue d'une glose syntaxique.
   * **v. 24 :** `προσμάθοι· μὴ` `R` (médivision avec *dikolon* fautif) : **`προσμάθοιμι`** Ellebodius.
-  * **v. 27 :** `νῦν` `R` : **`νυν`** Boissonade.
+  * **v. 27 :** `νῦν` `R` : **`νυν`** Boissonade | `θύριον` `R` : **`θύριον;`** Dindorf.
   * **v. 28 :** `ἀκούσω` `R` : **`ἀκούω`** Brunck | `vers. 28 post 30 transp.` $\text{R}^{\text{ac}}$ : **`corr.`** $\text{R}^{\text{pc}}$.
   * **vv. 30–31 :** `Ἀγάθων` (bis) `R` : **`Ἁγάθων`** (v. 30, avec crase $\text{ὁ Ἀγάθων}$) et **`ἀγαθῶν`** (v. 31, génitif pluriel en calembour) **`Bibi`** | Au **v. 31**, `ἔστιν τις ἀγαθῶν` **`(Μνη.) continuat`** `R` (maintenu par `Bibi`) : `(Εὐρ.)` `M`.
-  * **v. 32 :** `(Μνη.) οὐχ ... πώποτε` $\text{R}^{\text{ac}}$ : **`(Εὐρ.) continuat`** $\text{R}^{\text{pc}}, \Sigma$ | `ἑόρακα` `R` : **`ἑόρακας`** Bentley.
+  * **v. 32 :** `(Μνη.)` (`μ\auDessus{ν}{Η}`) `οὐχ ... πώποτε` $\text{R}^{\text{ac}}$ (sigle gratté *ut vid.*) : **`(Εὐρ.) continuat`** $\text{R}^{\text{pc}}, \Sigma$ | `ἑόρακα` `R` : **`ἑόρακας`** Bentley.
   * **v. 33 :** `omm.` $\text{R}^{\text{ac}}, \text{M}$ : **`in marg.`** $\text{R}^{\text{pc}}$.
   * **v. 34 :** `καὶ μεγ'` $\text{R}^{\text{ac}}$ (`ὶ eras.` $\text{R}^{\text{pc}}$) : `καὶ μεγ'` `M` : **`κἀμέ γ'`** edd. omn.
   * **v. 39 :** `λέως` `R`, Souda $\varepsilon\ 3792$ codd. AF : **`λαός`** $\Sigma$, Souda codd. GIVM.
@@ -556,10 +565,12 @@ Chaque notice ci-dessous présente :
 * **Image individuelle :** [`02_f163r_classense165r_vv0043-0079.jpg`](folios_individuels_ff162v-177r/02_f163r_classense165r_vv0043-0079.jpg) | **Planche double :** [`01_planche166_ff162v-163r_vv0001-0079.jpg`](planches_doubles_ff162v-177r/01_planche166_ff162v-163r_vv0001-0079.jpg) (page de droite)
 * **Contenu dramatique :** Proclamation paratragique du Serviteur d'Agathon (anapestes, vv. 43–62), répliques grivoises de Mnésiloque et exposition par Euripide du péril qui le menace aux Thesmophories (vv. 63–79).
 * **Observations paléographiques et matérielles :**
+  * **v. 43 :** Glose interlinéaire/interne dans `R` : `ἐπεχέτω` glosant `ἐχέτω`.
   * **v. 45 :** Grattage du sigma final dans `λέγει\inRas{ς}{}` par $\text{R}^{\text{pc}}$.
   * **v. 50 :** Lieu célèbre de corruption paléographique (`πράμος ἡμέτερος` `R`), magistralement résolu par Louis Hauseux (`Bibi`).
   * **v. 60 :** La préposition `κατὰ`, omise par $\text{R}^{\text{ac}}$, a été rajoutée par $\text{R}^{\text{pc}}$ au-dessus de la ligne.
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 43–79`) :**
+  * **v. 43 :** **`ἐχέτω`** `R` (avec la glose interne `ἐπεχέτω`).
   * **v. 44 :** **`δὲ`** `R` (maintenu par `Bibi`) : `τε` Austin (cf. vv. 46, 47).
   * **v. 45 :** **`λέγει\inRas{ς}{}`** $\text{R}^{\text{pc}}$.
   * **v. 50 :** `πράμος` `R` (`πρόμος` Grynaeus) : **`πρανοῦν`** **`Bibi`** ap. Hésychius $\pi\ 3188$ (et `πραῖνοι` dans l'*Index*) | `ἡμέτερος` `R` : **`προτέρους`** **`Bibi`**, cf. *Nuées* v. 562. **Explication paléographique (Commentaire ad v. 50) :** Le texte primitif `πρανοῦν προτέρους` (ou `πρανοι ν`) a subi : 1° une médivision avec confusion minuscule $\nu \to \mu$ et $\iota \to \varsigma$ donnant `πράμος` ; 2° la syllabe `προ-` de `προτέρους`, écrite au moyen du signe tachygraphique en forme de `Ʒ` inversé (semblable à un $\varepsilon$, cf. Gardthausen II p. 340), a été rattachée au $\nu$ précédent et lue `<η>μ-` + `-ετερος` $\to$ `ἡμέτερος` !
@@ -578,7 +589,7 @@ Chaque notice ci-dessous présente :
 * **Image individuelle :** [`03_f163v_classense165v_vv0080-0122.jpg`](folios_individuels_ff162v-177r/03_f163v_classense165v_vv0080-0122.jpg) | **Planche double :** [`02_planche167_ff163v-164r_vv0080-0164.jpg`](planches_doubles_ff162v-177r/02_planche167_ff163v-164r_vv0080-0164.jpg) (page de gauche)
 * **Contenu dramatique :** Fin du plan d'Euripide (vv. 80–94), apparition d'Agathon sur l'*ekkuklèma* (vv. 95–100), **1ʳᵉ *parepigraphè* (`μινυρισμός`)**, et début de la monodie lyrique d'Agathon (vv. 101–122).
 * **Observations paléographiques et matérielles :**
-  * **Première *parepigraphè* (entre vv. 99 et 100) :** $\text{R}^1$ copie dans la colonne le mot scénique **`μινυρισμός`** (« fredonnement d'Agathon »).
+  * **Première *parepigraphè* (entre vv. 99 et 100) :** $\text{R}^1$ copie dans la colonne le mot scénique **`μινυρισμός`** (« fredonnement d'Agathon »), accompagné de la précieuse scholie $\Sigma^{\text{R}}$ : `μεταξὺ τῶν δυοῖν ἀξιοῦσί τινες γράφειν 'μινυρισμός', ὡς πολλὰ τοιαῦτα παρεπιγράφεται`.
   * **Erreurs d'attribution de $\text{R}^2$ dans la monodie d'Agathon (vv. 101–129) :** Prenant le dialogue lyrique fictif d'Agathon (qui chante successivement le rôle de la coryphée troyenne et celui du chœur) pour un vrai dialogue dramatique, $\text{R}^2$ inscrit à tort en marge des *notae personarum* faisant alterner `αγαθ/` et `χορ/`.
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 80–122`) :**
   * **v. 80 :** `ἐπεὶ τρίτη 'στὶ` `R` : **`ἐπείπερ ἐστὶ`** Nauck (*Mélanges gréco-romains*, 1866, II, pp. 468–471), adopté et expliqué paléographiquement par L. Hauseux : dans l'archétype en onciale, l'abréviation **`Π'` = `περ`** dans `ΕΠΕΙΠ'ΕϹΤΙ` a été lue **`Γ'` = `τρίτη`** (`ΕΠΕΙΓ'ΕϹΤΙ`), sous l'influence d'une glose savante sur le troisième jour des Thesmophories (la *Nesteia*).
@@ -590,7 +601,7 @@ Chaque notice ci-dessous présente :
   * **v. 96 :** `ποῖο ἐστὶν οὗτος — οὑκκυκλούμενος` `R` (chute du $\varsigma$ final de `ποῖος` et coupure de réplique déplacée) : **`ποῖος ἐστὶν; — οὗτος οὑκκυκλούμενος`** Tyrwhitt (p. 65).
   * **v. 97 :** `ἢ` `R` : **`ἦ`** Biset.
   * **v. 99 :** `ἂν` `R` : **`νῦν`** Rogers.
-  * **post v. 99 :** *parepigraphè* **`μινυρισμός`** `R`.
+  * **post v. 99 :** *parepigraphè* **`μινυρισμός`** `R` ($\Sigma^{\text{R}}$ `μεταξὺ τῶν δυοῖν ἀξιοῦσί τινες γράφειν 'μινυρισμός', ὡς πολλὰ τοιαῦτα παρεπιγράφεται`).
   * **v. 100 :** `μύρμ-` `R` : **`Μύρμ-`** (`Μύρμηκος ἀτραπούς`) **`Bibi`** d'après Hésychius $\mu\ 1904$.
   * **v. 101 :** `χθονίαις` `R` : **`χθονίαιν`** Meineke (duel consacré des Deux Déesses).
   * **v. 103 :** **`πατρίδι`** `R` : `πραπίδι` Wecklein.
@@ -713,11 +724,12 @@ Chaque notice ci-dessous présente :
 * **Contenu dramatique :** Ouverture solennelle de l'assemblée des femmes aux Thesmophories : prière en prose rythmée de la Héraut (*Kèrukaina*, vv. 295–311), chant choral d'invocation aux dieux olympiens et marins (vv. 312–330), et début de la proclamation d'imprécations (vv. 331–336).
 * **Témoin papyrologique :** **$\Psi^5$ (*P.Oxy.* IX 1176, Satyrus)** cite les **vv. 335–337**.
 * **Observations paléographiques et matérielles :**
+  * **Grattage de la rubrique d'interlocuteur au v. 295 :** $\text{R}^2$ a gratté `Κῆρυξ` (`\inRas{Κῆρυξ}{}` $\text{R}^2$ : `\auDessus{κη}{ρυ}` `M`, tandis que $\Sigma^{\text{R}}$ explique `γυνὴ μιμουμένη κήρυκα` ; L. Hauseux édite `Κορ.-Ἱέρεια`).
   * **Intrusions de gloses religieuses (vv. 297–298) :** Dans la prière en prose de la Héraut, `R` a incorporé dans le texte les deux gloses interlinéaires `τῇ Δήμητρῃ καὶ τῇ Κόρῃ` (glosant `τοῖν Θεσμοφόροιν`) et `τῇ Γῇ` (glosant `τῇ Κουροτρόφῳ`).
   * **Ajout supralinéaire de $\text{R}^2$ (v. 306) :** `\expo{καὶ}τὴν ἀγορεύουσαν`.
   * **Correction *in rasura* au v. 320 :** `θηροφ\inRas{ω}{ό}νε παῖ--` $\text{R}^{\text{pc}}$ ($\omega$ de $\text{R}^{\text{ac}}$ gratté et corrigé en `ό`).
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 295–336`) :**
-  * **v. 295 :** `εὐφημί'` `R` : **`εὐφημία`** Souda $\varepsilon\ 3797$.
+  * **v. 295 :** `\inRas{Κῆρυξ}{}` $\text{R}^2$ : `\auDessus{κη}{ρυ}` `M` : `γυνὴ μιμουμένη κήρυκα` $\Sigma$ : `Κρίτυλλα` Sommerstein : **`(Κορ.-Ἱέρεια)`** **`Bibi`** | `εὐφημί'` `R` : **`εὐφημία`** Souda $\varepsilon\ 3797$.
   * **v. 297 :** `Θεσμοφόροιν τῇ Δήμητρῃ καὶ τῇ Κόρῃ` `R` : **`Θεσμοφόροιν`** Blaydes (suppression de la glose).
   * **v. 298 :** `τῇ Κουροτρόφῳ τῇ Γῇ` `R` : **`τῇ Κουροτρόφῳ`** Dobree ex $\Sigma^{\text{R}}$.
   * **v. 301 :** `Χάρισιν` `R` : **`ταῖς Χάρισιν`** Meineke.
@@ -726,7 +738,7 @@ Chaque notice ci-dessous présente :
   * **v. 306 :** **`\expo{καὶ}τὴν ἀγορεύουσαν`** $\text{R}^2$.
   * **v. 307 :** `τῶν Ἀθηναίων` `R` : **`τὸν Ἀθηναίων`** Grynaeus.
   * **v. 310 :** **`ὑμῖν`** `R` (`ἡμῖν` `M`).
-  * **vv. 312–313 :** `δεχόμεσθα ... λιτόμεσθα` `R` : **`δεχόμεθα`** Dindorf, **`λιτόμεθα`** Bourdin.
+  * **vv. 312–313 :** `δεχόμεσθα ... λιτόμεσθα` `R` : **`δεχόμεθα`** Dindorf, **`λιτόμεθα`** Bourdin | **v. 313 :** **`ταῖσδ' ἐπ' εὐχαῖς`** `R` (`τάσδ' ἐπ' εὐχάς` Scaliger).
   * **v. 317 :** `παμκρατὲς` `R` : **`παγκρατὲς`** ed. pr. | `κόρᾳ` `R` : **`κόρα`** `M`.
   * **v. 320 :** `θηροφ\inRas{ω}{ό}νε παῖ--` $\text{R}^{\text{pc}}$ : **`θηροφόνη`** Hermann.
   * **v. 324 :** `ἰχθυόεντ'` `R`, Souda $\text{οι}\ 181$ : **`ἰχθυόεντα`** Wilamowitz.
@@ -770,16 +782,19 @@ Chaque notice ci-dessous présente :
 * **Observations paléographiques et matérielles :**
   * **Note de personnage descriptive au v. 383 :** Là où $\text{R}^{\text{ac}}$ avait simplement abrégé `(\auDessus{γυ}{ν})`, $\text{R}^{\text{pc}}$ (suivi par `M`) a développé en marge **`(καλλιλεξία γυνή)`** (« la femme au beau langage », glose descriptive passée dans la rubrique de locuteur ; Rogers l'identifie à **Mika** d'après le v. 760).
   * **Iotacismes $\text{οι} \to \upsilon$ de $\text{R}^1$ :** `μυχοτρόπους` (v. 392) et `μυχοῖς` (v. 417) pour `μοιχο-`, redressés par la Souda et `M`.
+  * **Restitution par `Bibi` du fragment de Sappho (fr. 70/125) dans $\Sigma^{\text{R}}$ ad v. 401 :** La scholie du *Ravennas* au v. 401 conserve un précieux vers de Sappho sous la forme corrompue **`αυταόρα αἱστεφανηπλόκουν`** ; **Louis Hauseux (`Bibi`, `vv 1-641.tex`, ll. 3272–3294) restitue l'éolien `αὐτὰ κόραις στεφαναπλόκεο`** (ou `-πλόκην`), montrant que `αυταόρα αἱ` procède de la chute du $\kappa$ et d'une médivision de `αὐτὰ κόραις`.
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 380–422`) :**
   * **v. 380 :** `(Γυνή τις)` `R` : **`(Μίκα)`** Rogers (cf. v. 760) | **`πρῶτον`** `R` (`πρότερον` Souda $\pi\ 1166$).
   * **v. 383 :** `(\auDessus{γυ}{ν})` $\text{R}^{\text{ac}}$ : `(καλλιλεξία γυνή)` $\text{R}^{\text{pc}}, \text{M}$ : **`(Μίκα)`** Rogers.
   * **v. 386 :** `ὑμᾶς` `R` : **`ἡμᾶς`** Cobet.
   * **v. 390 :** `ἐν βραχὺ` `R` : **`ἔμβραχυ`** Souda, $\Sigma$ ad Plat. *Gorg.* et *Hipp. min.*
+  * **v. 391 :** **`ποῦ`** `R`, Souda $\varepsilon\ 987$ codd. GM (`καὶ ποῦ` Souda codd. AFV).
   * **v. 392 :** `μυ-` `R` : **`μοι-`** (`μοιχοτρόπους`) Souda | `ἀνδρεα-` `R` (haplographie du second $\rho$) : **`ἀνδρερα-`** (`ἀνδρεραστρίας`) Souda.
   * **v. 393 :** `οἰνοπότιδας` `R` (substitution d'un mot banal au composé comique rare) : **`οἰνοπίπας`** Souda (`-πίπους` $\Sigma$).
   * **v. 394 :** `ἀνδράσι` `R` : **`ἀνδράσιν`** Daubuz.
   * **v. 398 :** `ὥσπερ` `R` : **`ὧνπερ`** Küster.
   * **v. 400 :** `τις πλέκῃ` `R` : **`τις ξυμπλέκῃ`** Alphonse Willems (adopté par L. Hauseux ; `δή τις πλέκῃ` Austin).
+  * **$\Sigma^{\text{R}}$ ad v. 401 (Sappho fr. 70/125) :** `αυταόρα αἱστεφανηπλόκουν` $\Sigma^{\text{R}}$ : **`αὐτὰ κόραις στεφαναπλόκεο`** **`Bibi`**.
   * **v. 403 :** `ἀνὴρ` `R` : **`ἁνὴρ`** Brunck.
   * **v. 405 :** `ἀδελφὸς` `R` : **`ἁδελφὸς`** Biset.
   * **v. 409 :** `ἄνδρες` `R` : **`ἅνδρες`** Brunck.
@@ -822,8 +837,8 @@ Chaque notice ci-dessous présente :
 * **Observations paléographiques et matérielles :**
   * **v. 477 :** Le vers de `R` (`οὐδ' εἴρηκεν οὐδὲν πρὸς ἃ δρῶμεν· πολλ'`) est amputé d'une syllabe finale ; **`Bibi` restitue `πολλά γ'· ἀλλ'`** (chute de `-ά γ'· ἀλλ'` par saut du même au même entre les deux `ΛΛ`).
   * **v. 489 :** $\text{R}^{\text{ac}}$ avait écrit `κυνδ'` (confusion minuscule $\beta/\nu$), corrigé en **`κύβδ'`** par $\text{R}^{\text{pc}}$ (suivi par `M`).
-  * **v. 493 :** $\text{R}^{\text{ac}}$ semble avoir porté la forme crue **`ληκώμεθα`** (attestée par la Souda et adoptée par L. Hauseux), que $\text{R}^{\text{pc}}$ a surchargée à partir de sa glose plus courante `κινώμεθα`.
-  * **v. 500 :** Vers interpolé (`ὑπ' αὐγὰς οἷόν ἐστιν ἐγκεκαλυμμένον`), athétisé par van Herwerden et L. Hauseux.
+  * **v. 493 :** Comme le précise Louis Hauseux (`vv 1-641.tex`, l. 3715), le copiste avait d'abord écrit la forme crue **`ληκώμεθα`** (attestée par la Souda $\sigma\ 1126$ et adoptée par L. Hauseux), puis a **gratté les trois premières lettres `ληκ-`** pour les remplacer par `κιν-` (**`\inRas{ληκ}{κιν}ώμεθα`** $\text{R}^{\text{pc}}$) sous l'influence de la glose `κινώμεθα`.
+  * **v. 500 (genèse paléographique d'un vers interpolé) :** Le v. 500 (`ὑπ' αὐγὰς οἷόν ἐστιν ἐγκεκαλυμμένον`), athétisé par van Herwerden et L. Hauseux (`vv 1-641.tex`, ll. 3781–3806), est né d'une glose ou citation marginale `[τὸν μοιχόν·] ὑπαυγάσας. ᾦόν ἐστιν ἐγκεκαλυμμένον`, dans laquelle `ΩΙΟΝ` (avec iota muet adscrit = $\text{ᾦόν}$, « un œuf enveloppé ») a été lu par iotacisme et bêtacisme $\omega/\text{ο}$ **`ΟΙΟΝ` (`οἷόν`)**, entraînant la réécriture métrique `ὑπ' αὐγὰς οἷόν ἐστιν...`.
   * **v. 506 :** L'optatif **`βοῴη`**, omis par $\text{R}^{\text{ac}}$, est suppléé par $\text{R}^{\text{pc}}$.
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 466–508`) :**
   * **v. 467 :** `ἀκουούσαις` `R` : **`ἀκουούσας`** Zanetti.
@@ -837,11 +852,12 @@ Chaque notice ci-dessous présente :
   * **v. 478 :** `ἦν` `R` : **`ἦ`** Dindorf.
   * **v. 479 :** `καθεύδειν` `R` : **`καθηῦδεν`** Scaliger.
   * **v. 480 :** `διεκόρευσεν` `R` : **`διεκόρησεν`** Pollux (cf. *Pax* 59) | `ἑπτ. οὖσ.` `R` : **`οὖσαν ἑπτ.`** Pollux.
+  * **v. 481 :** `μ' οὔκνυεν` `R` (médivision et diphtongaison) : **`μου 'κνυεν`** Souda $\varepsilon\ 520$ (cf. Hésychius $\kappa\ 3133$).
   * **v. 482 :** `κᾶτ'` `R` : **`κᾆτ'`** Küster.
   * **v. 486 :** `ἄνηθον` `R`, Souda : **`ἄννηθον`** Dindorf (1830).
   * **v. 488 :** `ἐρειδόμην` `R` : **`ἠρειδόμην`** Küster.
   * **v. 489 :** `κυνδ'` $\text{R}^{\text{ac}}$ : **`κύβδ'`** $\text{R}^{\text{pc}}, \text{M}$.
-  * **v. 493 :** **`ληκώμεθα`** $\text{R}^{\text{ac}}$ (?), Souda : `κινώμεθα` $\text{R}^{\text{pc}}$.
+  * **v. 493 :** **`ληκώμεθα`** $\text{R}^{\text{ac}}$, Souda $\sigma\ 1126$ : `\inRas{ληκ}{κιν}ώμεθα` $\text{R}^{\text{pc}}$.
   * **v. 494 :** `σκορόδια` `R` : **`σκόροδα δια-`** Bentley.
   * **v. 495 :** `ὀσφραινό-` `R` : **`ὀσφρόμενος`** Küster | `ἀνὴρ` `R` : **`ἁνὴρ`** Dawes | `ἀπὸ τοῦ` `R` : **`ἀπὸ`** Biset.
   * **v. 500 :** `ὑπ' αὐγὰς οἷόν ἐστιν ἐγκεκαλυμμένον` `R` (`ὑπαυγάσ'` Hermann) : **`del.`** van Herwerden.
@@ -927,6 +943,7 @@ Chaque notice ci-dessous présente :
   * **v. 605 :** `εἰτις ἤρου;` `R` : **`ἥτις`** (Zanetti) **`εἴμ' ἤρου;`** Bentley.
   * **v. 606 :** `ἥδε` `R` (`ἥδ' ἡ` `M`) : **`ἡδὶ`** Grynaeus.
   * **v. 609 :** `τίτθην η δί'` `R` (médivision de $\nu$ final) : **`τίτθη νὴ Δί'`** Ellebodius.
+  * **v. 610 :** **`ἐμοὶ`** `R` (`μοι` `M`).
   * **v. 611 :** `εἶ` `R` : **`τις εἶ`** Küster.
   * **v. 612 :** `ἀναμένω` `R` : **`ἀναμενῶ`** Grynaeus.
   * **v. 615 :** `πολύ` `R` : **`πολύν`** Gelenius.
@@ -945,12 +962,12 @@ Chaque notice ci-dessous présente :
 * **Image individuelle :** [`16_f170r_classense172r_vv0635-0678.jpg`](folios_individuels_ff162v-177r/16_f170r_classense172r_vv0635-0678.jpg) | **Planche double :** [`08_planche173_ff169v-170r_vv0590-0678.jpg`](planches_doubles_ff162v-177r/08_planche173_ff169v-170r_vv0590-0678.jpg) (page de droite)
 * **Contenu dramatique :** Démasquage anatomique de Mnésiloque (déshabillage forcé et jeu de cache-cache du phallus entre ses jambes, vv. 635–654) ; départ de Clisthène vers les Prytanes et chant choral de patrouille armée des femmes fouillant l'orchestra (vv. 655–678).
 * **Observations paléographiques et matérielles :**
-  * **Redistribution des répliques par `Bibi` (vv. 637–643) :** Aux vv. 637–640, Louis Hauseux donne 637–638 à `(Μνη.)` (en lisant l'indicatif 3ᵉ pers. **`χαλᾷ`** au v. 638) et 639–640 à **`(Μίκα)`** ; aux vv. 642–643, il restitue la réplique à **`(Κλεισθ.)`**.
+  * **Sigle tachygraphique marginal `μν\auDessus{η}{σ}` au v. 638 et redistribution des répliques par `Bibi` (vv. 637–643) :** Comme le précise Louis Hauseux (`vv 1-641.tex`, l. 4618), `R` comporte en marge du v. 638 le sigle tachygraphique **`μν\auDessus{η}{σ}`** et aucune indication de changement d'interlocuteur jusqu'au v. 640 (`Γυνή`). Aux vv. 637–640, Louis Hauseux donne 637–638 à `(Μνη.)` (en lisant l'indicatif 3ᵉ pers. **`χαλᾷ`** au v. 638) et 639–640 à **`(Μίκα)`** ; aux vv. 642–643, il restitue la réplique à **`(Κλεισθ.)`**.
   * **Confusion onciale `ΙϹ` $\leftrightarrow$ `Π` au v. 657 :** `εἰσελήλυθεν` `R` corrigé par **Handley** en **`ἐπελήλυθε`**.
   * **Grattage d'un mot entier répété par dittographie au v. 669 :** $\text{R}^{\text{ac}}$ avait écrit deux fois de suite `ἅπασιν` ; $\text{R}^{\text{pc}}$ a gratté le second (**`ἅπασιν \inRas{ἅπασιν}{} ἔσται`**), laissant sur le parchemin un espace blanc très net entre `ἅπασιν` et `ἔσται` (Beer ap. Hermann restitue `ἀνδράσιν ἔσται`).
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 635–678`) :**
   * **v. 635 :** `ἀνὴρ` `R` : **`ἁνὴρ`** Bentley.
-  * **vv. 637–640 :** `(Μνη.)` `R` : **`(Μνη.) (637–638) et (Μίκα) (639–640)`** **`Bibi`**.
+  * **vv. 637–640 :** `μν\auDessus{η}{σ}` (ad v. 638, nulla mut. pers. usque ad 640 `Γυνή`) `R` : **`(Μνη.) (637–638) et (Μίκα) (639–640)`** **`Bibi`**.
   * **v. 638 :** `χάλᾳ` `R` (`χάλα` Grynaeus) : **`χαλᾷ`** **`Bibi`**.
   * **v. 640 :** `τίτθος` `R` : **`τιτθούς`** ed. Iuntina.
   * **v. 641 :** `στεριφῇ` `R` : **`στερίφη`** (sed `στεριφὴ`) `M`.
@@ -967,6 +984,7 @@ Chaque notice ci-dessous présente :
   * **v. 660 :** `πανταχῇ` post `χρὴ` `R` : **`ante μόνον`** Küster.
   * **v. 662 :** `χρὴ` `R` : **`χρῆν`** Bentley (`χρῆ μ'` Austin).
   * **v. 665 :** `διάρριψον` `R` : **`δὲ ῥῖψον`** Hermann.
+  * **v. 666 :** **`καὶ τὰ τῇδε`** `R` (post `καὶ τὰ τῇδε` add. `καὶ τὰ κεῖσε` Kaibel).
   * **v. 667 :** `μὴ λάθῃ` `R` : **`ληφθῇ`** Reisig (`με λάθῃ` Bergk).
   * **v. 669 :** `ἅπασιν \inRas{ἅπασιν}{} ἔσται` $\text{R}^{\text{pc}}$ (`ἅπασιν ἔσται` `M`) : **`ἀνδράσιν ἔσται`** Beer ap. Hermann (1845).
   * **v. 675 :** **`ἐφέποντας`** `R` (`ἐφέπειν` Hermann).
@@ -1040,6 +1058,7 @@ Chaque notice ci-dessous présente :
 * **Témoin papyrologique :** **$\Psi^2$ (*P.Oxy.* LVI 3839, fr. 1)** s'achève au **v. 766**.
 * **Observations paléographiques et matérielles :**
   * **Conjecture éclatante de `Bibi` au v. 781 (`τὸ ῥῶ` `R` $\to$ `τορῶ` `Bibi`) :** Là où tous les éditeurs suivaient la coupure de mots de `R` (`τὸ ῥῶ`, « ce rhô »), Louis Hauseux restitue sans modifier une seule lettre de l'onciale `ΤΟΡΩ` le verbe **`τορῶ`** (« je grave, je creuse au burin », d'après la glose d'Hésychius $\tau\ 1162$ `τορεῖ· τορνεύει, γλύφει, τιτρώσκει`), répondant directement à la question `ποίαν αὔλακα;` (« Quel sillon ? — Je grave : *Va, va !* »).
+  * **Correction *in rasura* au v. 798 :** $\text{R}^{\text{ac}}$ avait écrit `αἰσχυνθῆς`, corrigé sur grattage par $\text{R}^{\text{pc}}$ en **`αἰσχυνθ\inRas{η}{εὶ}ς`** (pour le participe féminin élidé `αἰσχυνθεῖσ'` restitué par Zanetti).
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 765–799`) :**
   * **v. 767 :** `ἐσκυλίσας ἐς` `R` : **`εἰσκυλίσας εἰς`** edd. pler.
   * **v. 768 :** `τίν' οὖν` `R` (`τίν' οὖν νῦν` Biset) : **`τίν' οὖν ἂν`** Porson (*Aristophanica*, p. 218).
@@ -1058,6 +1077,7 @@ Chaque notice ci-dessous présente :
   * **v. 794 :** `εὕρετε` `R` : **`ηὕρετε`** Meineke | `καταλαμβάνετ'` `R` : **`κατελαμβάνετ'`** Brunck.
   * **v. 795 :** `καταδαρθῶμεν` `R` : **`καταδάρθωμεν`** Dindorf.
   * **v. 797 :** `ζητεῖ τὸ κακὸν τεθεᾶσθαι` `R` (inversion et médivision) : **`τὸ κακὸν ζητεῖτε θεᾶσθαι`** J. Kaye.
+  * **v. 798 :** `αἰσχυνθ\inRas{η}{εὶ}ς` $\text{R}^{\text{pc}}$ : **`αἰσχυνθεῖσ'`** Zanetti.
   * **v. 799 :** `παρακύψασαν ἰδεῖν τὸ κακὸν` `R` : **`τὸ κακὸν παρακύψαν ἰδεῖν`** Dindorf.
 
 ---
@@ -1080,6 +1100,7 @@ Chaque notice ci-dessous présente :
   * **v. 810 :** `εὐχόμεσθ'` `R` : **`εὐχόμεθ'`** `M`.
   * **v. 813 :** **`αὔτ' ἀπέδωκεν`** `R`, $\text{M}^{\text{pc}}$ (`ἀνταπέδωκεν` $\text{M}^{\text{ac}}$, Bentley).
   * **v. 815 :** `ἀποδείξομεν` `R` : **`ἀποδείξαιμεν`** Bentley | `ποθοῦντας` `R` : **`ποιοῦντας`** Zanetti (*facientes* Divus).
+  * **v. 819 :** **`δήπου`** `R` (`δή που` Denniston).
   * **vv. 822–823 :** `τἀντίον ὁ κανὼν οἱ καλαθίσκοι / τὸ σκιάδειον·` `R` : **`ταὐτὸ κανοῦν καὶ τὸ σκιάδειον·`** **`Bibi`**.
   * **v. 824 :** `ἀνδράσιν` `R` : **`ἀνδράσι`** `M`.
   * **v. 825 :** `ἀπόλωλε` `R` : **`ἀπόλωλεν`** Daubuz, Bentley.
@@ -1190,7 +1211,7 @@ Chaque notice ci-dessous présente :
   * **v. 989 :** `φιλοχόροισιν` `R` : **`φιλοχόροισι`** Scaliger.
   * **v. 990 :** **`Διόνυσε`** `R` (`Διὸς σὺ` Enger ; `Διός τε` Fritzsche).
   * **v. 993 :** **`ἐρατοῖς ἐν ὕμνοις`** `R` (`ἐρατοῖσιν ὕμνοις` Wilamowitz).
-  * **v. 994 :** lacunam statuit Hermann (`ἥκεις γὰρ` von Velsen ; `ἡδόμενος` Austin cf. *Plut.* 288).
+  * **v. 994 :** `εὔιον εὔιον` `R` : **`ὦ Εὔι Εὔι'`** Hermann | lacunam statuit Hermann (`ἥκεις γὰρ` von Velsen ; `ἡδόμενος` Austin cf. *Plut.* 288).
   * **v. 995 :** `συῒ κτυπεῖται` `R` : **`σοὶ κτυπεῖται`** Zanetti.
   * **v. 996 :** `Κιθαρώνιος` `R` : **`Κιθαιρώνιος`** Zanetti.
   * **v. 998 :** **`καὶ νάπαι πετρώδεις`** `R` (`πετρώδεις τε νάπαι` Enger).
@@ -1243,8 +1264,9 @@ Chaque notice ci-dessous présente :
     * Au **v. 1056** : **`ευρ\auDessus{ι}{π} ηχω`** ($\text{Εὐριπίδης Ἠχώ}$) ;
     * Au **v. 1065** : **`ὁ μνησίλοχος ὡς ἀνδρομέδα`**.
   * **Apport du papyrus $\Psi^4$ (vv. 1047 et 1051) :** Au v. 1047, $\Psi^4$ lit `[ι]ω μοιρ[ας` sans la dittographie `μοι` de `R` (`ἰώ μοι μοίρας`) ; au v. 1051, $\Psi^4$ confirme `βάρβαρον` de `R` (défendu par Alphonse Willems et L. Hauseux).
-  * **Quatre restitutions de `Bibi` dans le dialogue avec Écho (vv. 1071, 1074, 1078, 1079) :**
+  * **Cinq restitutions et conjectures de `Bibi` dans le dialogue avec Écho (vv. 1069, 1071, 1072, 1074, 1078, 1079) :**
     * **v. 1071 :** `μέρος ἐξέλαχον;` `R` $\to$ **`μόρος ἔξελ' ἄχος.`** **`Bibi`** ;
+    * **v. 1072 :** `θανάτου τλήμων` `R` (maintenu avec la conjecture **`θαλάττης τέμνον`** **`Bibi`** en apparat) ;
     * **vv. 1073–1074 :** `R` écrit `στωμυλλωμένη` avec deux $\lambda$ au v. 1073, mais `στωμυλωμένη` avec **un seul $\lambda$** au v. 1074 ; **`Bibi` explique cette dissymétrie graphique de `R` en restituant au v. 1074 le composé `στωμυλιομενής`** ;
     * **v. 1078 :** `(Εὐρ.) παῦσαι` `R` $\to$ **`(Εὐρ.) 'παΰσαι`** **`Bibi`** ;
     * **v. 1079 :** `βάλλ' ἐς κόρακας` `R` $\to$ **`βάλλε σύ κόρακας`** **`Bibi`**.
@@ -1264,6 +1286,7 @@ Chaque notice ci-dessous présente :
   * **v. 1069 :** **`δι' Ὀλύμπου`** `R` (`†δι'† ὀλυμπίας` **`Bibi`** ap. Hésychius $\text{ο}\ 649$).
   * **v. 1070 :** `περὶ ἄλλα` `R` : **`περίαλλα`** Ellebodius.
   * **v. 1071 :** `μέρος ἐξέλαχον;` `R` : **`μόρος ἔξελ' ἄχος.`** **`Bibi`**.
+  * **v. 1072 :** **`θανάτου τλήμων`** `R` (`θαλάττης τέμνον` **`Bibi`** conj. in app.).
   * **v. 1073 :** `στωμυλλωμένη` `R` : **`στωμυλλομένη`** Grynaeus.
   * **v. 1074 :** `στωμυλωμένη` `R` : **`στωμυλιομενής`** **`Bibi`**.
   * **v. 1078 :** `(Εὐρ.) παῦσαι` `R` : **`(Εὐρ.) 'παΰσαι`** **`Bibi`**.
@@ -1277,12 +1300,16 @@ Chaque notice ci-dessous présente :
 * **Contenu dramatique :** Fin du gag d'Écho rendant fou l'Archer scythe (vv. 1082–1097) ; entrée d'**Euripide en Persée** volant au secours d'Andromède avec la tête de Gorgô, que le Scythe appelle « la tête de l'orateur *Gorgos* » (vv. 1098–1127).
 * **Observations paléographiques et matérielles :**
   * **Omission des vv. 1102–1103 par $\text{R}^1$ et ajout par $\text{R}^2$ dans la marge inférieure :** Le copiste $\text{R}^1$ avait sauté les **vv. 1102–1103** ($\text{Γόργος πέρι λέγις τὸ γραμματέο / σὺ τὴν κεπαλή;}$ — omis également par `M` qui n'a pas regardé le bas de page) ; le réviseur **$\text{R}^2$ les a rajoutés tout en bas du folio dans la marge inférieure**, avec un signe de renvoi.
-  * **Grattage double au v. 1086 :** $\text{R}^{\text{ac}}$ avait écrit deux fois le grec normal `πρῶτε` ; **$\text{R}^{\text{pc}}$ a gratté les deux $\rho$ (`π\inRas{ρ}{}ωτε` bis)** pour restituer la prononciation scythe **`πῶτε`** (copié `πωτε` bis par `M`).
+  * **Analyse critique des vv. 1085–1086 par Louis Hauseux (`vv 642-fin-bis.tex`, ll. 4520, 4588–4612) :**
+    * Au **v. 1085**, `R` et $\Sigma^{\text{R}}$ (`ἀντὶ τοῦ 'σοὶ κακόν'`) donnent **`σί κακόν;` bis**, que **`Bibi` défend et conserve** contre la banalisation `τί κακόν;` de Coulon.
+    * Au **v. 1086**, $\text{R}^{\text{ac}}$ avait écrit deux fois `πρῶτε` ; une main postérieure a gratté les deux $\rho$ (**`π\inRas{ρ}{}ωτε` bis**, copié `πωτε` bis par `M`) d'après la scholie $\Sigma^{\text{R}}$ (`πόθεν ἡ φωνή`). **Louis Hauseux (`Bibi`) imprime `†πῶτε† τὸ πωνή;` bis avec les *cruces desperationis*** et démontre que la glose du scholiaste (`πόθεν`) et le grattage qui en découle sont irrecevables, car l'Archer scythe ne confond jamais $\text{ο}$ et $\omega$.
   * **Deux notes scéniques marginales de $\text{R}^{\text{pc}}$ :** Au **v. 1098**, **`ευρ\auDessus{ι}{π} ως περσευς`** ; au **v. 1107**, **`κ\auDessus{η}{δ} ως ανδρομ\auDessus{ε}{δ}`**.
   * **Prothèse de $\sigma$ au v. 1114 :** `R` écrit **`σκύτο`** pour **`κύστο`** (Scaliger, = $\text{κύσθον}$ en prononciation scythe), parallèle exact invoqué par Louis Hauseux pour sa conjecture `τὸν κύσθον` au v. 557.
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 1082–1127`) :**
+  * **v. 1082 :** **`ὀτότυζ'`** `R` (`ὀλόφυγ'` **`Bibi`** conj. in app.).
   * **v. 1083 :** `οῦτος οὗτος` `R` : **`οὖτος`** bis Brunck | `λαλεῖς` bis $\text{R}^{\text{ac}}$ : **`λαλῖς`** bis $\text{R}^2, \Sigma$.
-  * **v. 1086 :** **`π\inRas{ρ}{}ωτε`** bis $\text{R}^{\text{pc}}$ (`πωτε` bis `M`).
+  * **v. 1085 :** **`σί κακόν;` bis** `R`, $\Sigma^{\text{R}}$ (`ἀντὶ τοῦ 'σοὶ κακόν'`, défendu par **`Bibi`** contre `τί κακόν;` Coulon).
+  * **v. 1086 :** `π\inRas{ρ}{}ωτε` bis $\text{R}^{\text{pc}}$ (`πωτε` bis `M`) : **`†πῶτε†`** bis **`Bibi`** (rejetant l'interprétation `πόθεν` de $\Sigma^{\text{R}}$).
   * **v. 1087 :** **`λαλῖς`** bis `R` (`λαλεῖς` bis $\text{R}^{\text{pc}}$).
   * **v. 1088 :** `κλαύσαιμι` bis `R` (`κλαύσει` bis Brunck ; `κλαῦσ' ἔτι` bis Austin) : **`κλαύσαι`** bis Rogers.
   * **v. 1089 :** `κακκασκι` bis `R` (`κἀγκάσκις` bis van Leeuwen, `<ς>` add. Fritzsche ; `κἀγκάσκι` bis Coulon).
@@ -1316,7 +1343,7 @@ Chaque notice ci-dessous présente :
 * **Contenu dramatique :** Euripide constate que les parodies tragiques sont sans effet sur la brute scythe et décide d'employer un moyen comique infaillible (vv. 1128–1135) ; dernière grande ode chorale invoquant **Pallas Athéna** ennemie des tyrans et les **Deux Déesses** (Déméter et Korè, vv. 1136–1159) ; retour d'Euripide venant négocier la paix avec le Chœur des femmes (vv. 1160–1168).
 * **Observations paléographiques et matérielles :**
   * **Dittographie anticipatrice exponctuée après le v. 1143 :** Entre les vv. 1143 et 1144, $\text{R}^{\text{ac}}$ avait écrit par anticipation déformée du v. 1144 (`στυγοῦσ' ὥσπερ τὸν τύραννον`) les mots **`στυγνὰς ὡσσε`** ; $\text{R}^{\text{pc}}$ les a supprimés (`del.`), mais le copiste de `M` les a néanmoins transcrits sous la forme **`στυγνὰς ὡς ἐ`**.
-  * **Conjecture métrique et morphologique de `Bibi` au v. 1151 :** Là où `R` porte **`οὗ δὴ ἀνδράσιν οὐ θεμιτὸν`** (déficient de deux syllabes dans la responsion lyrique), **Louis Hauseux (`Bibi`) conserve intact `οὗ δὴ ἀνδράσιν` de `R` et restitue le duel verbal `οὐ θεμιτεύετον`** (« où toutes deux [les Déesses] interdisent par leur loi sacrée aux hommes de voir leurs orgies... », haplographie de la finale `-εύετον` en `-όν`).
+  * **Glose interne et conjecture métrique de `Bibi` au v. 1151 :** `R` comporte la glose interne `ὅπου` (expliquant un `ἵνα` ou `οὗ`). Là où `R` porte **`οὗ δὴ ἀνδράσιν οὐ θεμιτὸν`** (déficient de deux syllabes dans la responsion lyrique), **Louis Hauseux (`Bibi`) conserve intact `οὗ δὴ ἀνδράσιν` de `R` et restitue le duel verbal `οὐ θεμιτεύετον`** (« où toutes deux [les Déesses] interdisent par leur loi sacrée aux hommes de voir leurs orgies... », haplographie de la finale `-εύετον` en `-όν`).
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 1128–1168`) :**
   * **v. 1129 :** `ἂν δέξαιτο` `R` (`ἂν ἀνδέξαιτο` Ellebodius) : **`ἂν ἐνδέξαιτο`** Küster.
   * **v. 1132 :** `τοῦτο` `R` : **`τούτῳ`** Zanetti.
@@ -1326,7 +1353,8 @@ Chaque notice ci-dessous présente :
   * **v. 1139 :** `κόρην` `R` : **`κούρην`** Bothe.
   * **post v. 1143 :** `στυγνὰς ὡσσε` $\text{R}^{\text{ac}}$ : **`del.`** $\text{R}^{\text{pc}}$ (`στυγνὰς ὡς ἐ` `M`).
   * **v. 1148 :** `ἥκετ'` `R` : **`ἥκετέ τ'`** Enger (`ἥκετε δ'` Hermann).
-  * **vv. 1150–1151 :** **`οὗ δὴ ἀνδράσιν`** `R` (`οὗ δῆτ' ἀνδράσιν` Burges ; `ἄνδρας ἵν(α)` Hermann) | `θεμιτὸν` `R` (`θέμις` Burges ; `θεμιτ'` Bothe) : **`θεμιτεύετον`** **`Bibi`**.
+  * **vv. 1150–1151 :** **`οὗ δὴ ἀνδράσιν`** `R` (avec glose interne `ὅπου` ; `οὗ δῆτ' ἀνδράσιν` Burges ; `ἄνδρας ἵν(α)` Hermann) | `θεμιτὸν` `R` (`θέμις` Burges ; `θεμιτ'` Bothe) : **`θεμιτεύετον`** **`Bibi`**.
+  * **v. 1152 :** **`θεαῖν`** `R` (`θεοῖν` Cobet).
   * **v. 1153 :** `λαμπάσι` `R` : **`λαμπάσι.`** **`Bibi`**.
   * **v. 1156 :** `πολὺ πότνια` `R` : **`πολυποτνία`** Hermann.
   * **v. 1159 :** **`ἐνθάδ' ἡμῖν`** `R` (`ἐνθάδε χἠμῖν` Hermann).
@@ -1351,11 +1379,11 @@ Chaque notice ci-dessous présente :
      * **v. 1195 :** **`\inRas{σὺ}{} κάρισοσ οὐ`** (`σὺ` initial gratté par $\text{R}^{\text{pc}}$) ;
      * **v. 1198 :** **`κ\inRas{ω}{ο}μίζεις αὐτοῖς`** ($\omega$ remplacé par $\text{ο}$ *in rasura* par $\text{R}^{\text{pc}}$) ;
      * **v. 1208 :** **`λέλυσο\inRas{ν}{}`** ($\nu$ final gratté par $\text{R}^{\text{pc}}$, leçon adoptée par L. Hauseux et appuyée par l'espace de $\Psi^4$).
-  3. **Interventions de la 3ᵉ main humaniste d'Euphrosynus Boninus (1515/1516) :** Aux **vv. 1189 et 1198**, le sigle marginal **`γϋ.`** (= $\text{γυνή}$) a été inscrit par **Boninus** lors de la préparation de la Juntine (identifié par von Velsen et Albert Martin).
+  3. **Interventions de la 3ᵉ main humaniste d'Euphrosynus Boninus (1515/1516) :** Aux **vv. 1189 et 1198**, le sigle marginal **`γϋ.`** (= $\text{γυνή}$) a été inscrit par **Boninus** lors de la préparation de la Juntine (identifié par von Velsen et Albert Martin), tandis que **`σκ'.`** figure devant `ἀκολούτι` au v. 1198.
   4. **Trois contributions philologiques et paléographiques majeures de `Bibi` (vv. 1174, 1197, 1198) :**
      * **$\Sigma^{\text{R}}$ ad v. 1174 :** La scholie de `R` expliquant `κἀνακάλπασον` porte `τὸ ἁβρῶς βαδίζειν` ; appuyé sur Zonaras p. 1171, **`Bibi` restitue `τὸ ἄκρως βαδίζειν`** (confusion minuscule $\kappa \to \beta$).
-     * **v. 1197 :** **`R` porte `συμβήνην` avec un $\mu$ devant $\beta$**, que tous les éditeurs corrigeaient en `συβήνην` d'après $\Sigma$, la Souda et Photius. **Louis Hauseux (`Bibi`) conserve et défend `συμβήνην` de `R`** (confirmé par Hésychius $\sigma\ 2137$ `συμβήνη· θήκη αὐλῶν`) : la nasale $\mu$ est intentionnelle pour produire dans la bouche du Scythe un calembour obscène sur **$\text{συμβινεῖν}$** !
-     * **v. 1198 :** En écartant le sigle humaniste `γϋ.` de Boninus, **`Bibi` attribue le début du vers à l'Archer `(Τοξότ.)` et restitue `κομίζι σ' αὐτίκ'`** (« je te le rapporte tout de suite ! ») à partir de `κ\inRas{ω}{ο}μίζεις αὐτοῖς` de $\text{R}^{\text{pc}}$ (confusion minuscule de `-ικ` et `-οις`).
+     * **v. 1197 :** **`R` porte `συμβήνην` avec un $\mu$ devant $\beta$**, que tous les éditeurs corrigeaient en `συβήνην` d'après $\Sigma$, la Souda et Photius. **Louis Hauseux (`Bibi`) conserve et défend `συμβήνην` de `R`** (confirmé par Hésychius $\sigma\ 2137$ `συμβίνης· καπροβόλον. ἐμβόλιον`) : le Scythe confie sa lance ($\text{σιβύνη/συμβήνη}$) à Euripide, et la nasale $\mu$ prépare le calembour obscène sur **$\text{συμβινεῖν / καταβηνῆσι}$** au v. 1215 !
+     * **v. 1198 :** En écartant le sigle humaniste `γϋ.` de Boninus, **`Bibi` attribue le début du vers à l'Archer `(Τοξότ.)` et restitue `κομίζι σ' αὐτίκ'`** (« je te l'apporte [la drachme] sur-le-champ ! ») à partir de `κ\inRas{ω}{ο}μίζεις αὐτοῖς` de $\text{R}^{\text{pc}}$ (confusion minuscule de `-ικ` et `-οις`).
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 1169–1210`) :**
   * **v. 1171 :** `πεῖσαι` `R` : **`πεῖθε`** Biset.
   * **v. 1172 :** $\Sigma^{\text{R}}$ `Εὐριπίδης ἐν σχήματι προαγωγοῦ γραός` | **`ἐμὸν` `\inRas{γ'}{}`** $\text{R}^2$.
@@ -1379,7 +1407,7 @@ Chaque notice ci-dessous présente :
   * **v. 1194 :** `ναὶ` `R` (`ναίκι` Bentley) : **`ναὶ ναὶ`** Brunck | `γράδιον` `R` : **`γρᾴδιο`** Bothe.
   * **v. 1195 :** `\inRas{σὺ}{} κάρισοσ οὐ` $\text{R}^{\text{pc}}$ (`κάρισο σοῦ` `M`) : **`κάρισο σὺ`** Brunck.
   * **v. 1197 :** `έκ' ὠδέν` `R` (`ἐχω οὐδέν` Souda $\sigma\ 1273$, Photius $\sigma\ 660$) : **`ἔκὠδέν`** Bergk | **`συμβήνην`** `R`, défendu par **`Bibi`** (ap. Hésychius $\sigma\ 2137$) : `συβήνην` $\Sigma$, Souda, Photius.
-  * **v. 1198 :** `κ\inRas{ω}{ο}μίζεις αὐτοῖς` $\text{R}^{\text{pc}}$ (`κομιεῖς αὐτό` Biset ; `αὖθις` Brunck ; `(Τοξότ.) κομίσι σ' αὐτός` Enger) : **`(Τοξότ.) κομίζι σ' αὐτίκ'`** **`Bibi`** | `ἀκουλούτι` `R` : **`ἀκολούτι`** `M` (`ἀκουλούτει` Brunck).
+  * **v. 1198 :** `γϋ.` ante v. 1198 (Boninus) et `σκ'.` ante `ἀκολ.` in `R` | `κ\inRas{ω}{ο}μίζεις αὐτοῖς` $\text{R}^{\text{pc}}$ (`κομιεῖς αὐτό` Biset ; `αὖθις` Brunck ; `(Τοξότ.) κομίσι σ' αὐτός` Enger) : **`(Τοξότ.) κομίζι σ' αὐτίκ'`** **`Bibi`** | `ἀκουλούτι` `R` : **`ἀκολούτι`** `M` (`ἀκουλούτει` Brunck).
   * **v. 1201 :** `ἀρτομουξία` `R` : **`Ἀρταμουξία`** ed. Lipsiensis (1814).
   * **v. 1203 :** **`τουτὶ`** `R` (`ταυτὶ` Dobree, cf. $\Sigma$).
   * **v. 1208 :** `ca. 6 litt. ]· σ[υ]νεργον` $\Psi^4$ : **`λέλυσο\inRas{ν}{}`** $\text{R}^{\text{pc}}$ (`λέλυσαι` Bentley).
@@ -1389,37 +1417,38 @@ Chaque notice ci-dessous présente :
 
 #### Folio 30 — `f. 177r` (`Classense 179r`) : **vv. 1211–1231 (Fin)** + *Hypothesis* des *Ecclesiazusae*
 * **Image individuelle :** [`30_f177r_classense179r_vv1211-1231_fin.jpg`](folios_individuels_ff162v-177r/30_f177r_classense179r_vv1211-1231_fin.jpg) | **Planche double :** [`15_planche180_ff176v-177r_vv1169-1231_fin.jpg`](planches_doubles_ff162v-177r/15_planche180_ff176v-177r_vv1169-1231_fin.jpg) (page de droite)
-* **Contenu dramatique :** *Exodos* des *Thesmophories* (vv. 1211–1231) : l'Archer scythe ressort, rassasié, en réclamant son carquois (**`συμβήνη`** `Bibi` au v. 1215), découvre qu'Artamouxia et le prisonnier se sont enfuis, est envoyé dans la mauvaise direction par le Chœur, et la Coryphée congédie les spectateurs en priant Déméter et Korè de leur accorder une heureuse victoire ; **dans la moitié inférieure du folio**, séparée par une *koronis* ornementale, la main $\text{R}^2$ copie l'*Hypothesis* et la liste des personnages de *L'Assemblée des femmes* ($\text{Ἐκκλησιάζουσαι}$).
-* **Témoin papyrologique :** **$\Psi^1$ (*PSI* XI 1194)** conserve la fin du **v. 1231** avec la souscription stichométrique antique `ΜΒ` + `Α` = **`1201` côla**.
+* **Contenu dramatique :** *Exodos* des *Thesmophories* (vv. 1211–1231) : l'Archer scythe ressort, émoustillé, reprend sa lance (**`συμβήνη`** `Bibi` au v. 1215), découvre qu'Artamouxia et le prisonnier se sont enfuis, est envoyé dans la mauvaise direction par le Chœur, et la Coryphée congédie les spectateurs en priant Déméter et Korè de leur accorder une heureuse victoire ; **dans la moitié inférieure du folio**, séparée par une *koronis* ornementale, la main $\text{R}^2$ copie l'*Hypothesis* et la liste des personnages de *L'Assemblée des femmes* ($\text{Ἐκκλησιάζουσαι}$).
+* **Témoin papyrologique :** **$\Psi^1$ (*PSI* XI 1194, fr. 6)** conserve après le **v. 1231** la *subscriptio* stichométrique antique en chiffres acrophoniques attiques : `ΑΡΙΣΤΟΦΑΝ]ΟΥΣ ΘΕΣΜΟΦΟΡΙ]ΑΖΥΣΑΙ ]ΧΗΗΙ` (= **`1201` vers**).
 * **Observations paléographiques et matérielles :**
-  * **Harmonisation de `συμβήνη` au v. 1215 par `Bibi` :** Là où `R` avait conservé `συμβήνην` avec $-\mu-$ au v. 1197 mais écrit `συβήνη` sans $-\mu-$ au v. 1215, **`Bibi` rétablit `συμβήνη`** au v. 1215 pour maintenir le jeu de mots avec $\text{συμβινεῖν}$ (cf. Hésychius $\sigma\ 2137$).
+  * **Harmonisation de `συμβήνη` au v. 1215 par `Bibi` :** Là où `R` avait conservé `συμβήνην` avec $-\mu-$ au v. 1197 mais écrit `συβήνη` sans $-\mu-$ au v. 1215, **`Bibi` rétablit `συμβήνη`** au v. 1215 pour maintenir le jeu de mots avec $\text{συμβινεῖν / καταβηνῆσι}$ (cf. Hésychius $\sigma\ 2137$).
+  * **Notes marginales de locuteur au v. 1219 :** `R` porte `Σκ.` en marge devant le v. 1219 et `Χορ.` devant `καὶ γέρον` à l'intérieur du vers.
   * **Faute récurrente au v. 1227 :** Comme au v. 1127, $\text{R}^1$ écrit `πέπυσται` au lieu de **`πέπαισται`** (« nous avons assez joué », conservé par $\Sigma^{\text{R}}$).
-  * **Haplographie syllabique au dernier vers (v. 1231) :** $\text{R}^1$ écrit `ἀνταδοῖτον` (saut de la syllabe `-πο-`) au lieu de **`ἀνταποδοῖτον`** (Grynaeus).
+  * **Haplographie syllabique au dernier vers (v. 1231) :** $\text{R}^1$ écrit `ἀνταδοῖτον` (saut de la syllabe `-πο-`) au lieu de `ἀνταποδοῖτον` (Grynaeus) / **`ἀνταποδοίτην`** (optatif duel adopté dans le texte par L. Hauseux).
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 1211–1231`) :**
   * **v. 1211 :** `δύσκολλ'` `R` : **`δύσκολ'`** Grynaeus.
   * **v. 1213 :** `γρᾶίο` `R` : **`γρᾶ'`** Bentley.
-  * **v. 1214 :** **`διέβαλλε`** `R` (`διέβαλέ` $\Sigma$, Souda $\delta\ 892$, Eustathe p. 1406.19) | `ὁ γραῦς` `R` : **`ἡ γραῦς`** Souda, Eustathe | **`ὡς τάχιστα`** `R` (`ὠς τάκιστα` Brunck).
+  * **v. 1214 :** **`διέβαλλε`** `R` (`διέβαλέ` $\Sigma$, Souda $\delta\ 892$, Eustathe p. 1406.19) | `ὁ γραῦς` `R` : **`ἡ γραῦς`** Souda, Eustathe | `ὡς τάχιστα` `R` : **`ὠς τάκιστα`** Brunck (adopté par L. Hauseux).
   * **v. 1215 :** `συβήνη` `R` : **`συμβήνη`** **`Bibi`** (cf. v. 1197, Hésychius $\sigma\ 2137$).
   * **v. 1216 :** `δράσει` `R` : **`δρᾶσι`** Blaydes (1842) | `γράδιο` `R` : **`γρᾴδιο`** `M`.
   * **v. 1217 :** `γραῦ` `R` : **`γραῦν`** Souda $\pi\ 1502$.
-  * **v. 1219 :** `γέρον` `R` : **`γέρων`** `M`.
+  * **v. 1219 :** `Σκ.` ante versum in mg. et `Χορ.` ante `καὶ γέρον` in `R` | `γέρον` `R` : **`γέρων`** `M`.
   * **v. 1222 :** `γραῦ` et `ὁδό` `R` : **`γρᾷο`** et **`ὀδό`** Brunck.
   * **v. 1224 :** `δ' ὤξεις` `R` : **`διώξει`** Elmsley (ad *Ach.* 278) **`'ς`** Cobet (*Mnemos.* 2, 1853, p. 213).
   * **v. 1226 :** `κατὰ τοὺς` `R` : **`κατ' αὐτοὺς`** Jackson (p. 82) **`ἐς`** O. Bachmann.
   * **v. 1227 :** `πέπυσται` `R` : **`πέπαισται`** $\Sigma$.
-  * **v. 1231 :** `ἀνταδοῖτον` `R` : **`ἀνταποδοῖτον`** Grynaeus.
+  * **v. 1231 :** `ἀνταδοῖτον` `R` : `ἀνταποδοῖτον` Grynaeus (**`ἀνταποδοίτην`** dans le texte de L. Hauseux) | *Subscriptio* $\Psi^1$ fr. 6 : `ΑΡΙΣΤΟΦΑΝ]ΟΥΣ ΘΕΣΜΟΦΟΡΙ]ΑΖΥΣΑΙ ]ΧΗΗΙ` (`= 1201, versuum numerus`).
 
 ---
 
 ## 5. Accès numérique direct (IIIF / Internet Culturale)
 
-Les planches numériques haute définition du *Codex Ravennas 429* sont hébergées par la bibliothèque numérique italienne *Internet Culturale* / *Istituzione Biblioteca Classense* (Ravenne) :
-* **Notice et visionneuse générale du manuscrit :**  
-  `https://www.internetculturale.it/jmms/iccuviewer/iccu.jsp?id=oai%3Awww.internetculturale.sbn.it%2FTeca%3A20%3ANT0000%3ACNMD%5C%5C0000205232`
-* **Manifeste IIIF officiel :**  
-  `https://www.internetculturale.it/iiif/2/CNMD%5C0000205232/manifest.json`
-* **Modèle d'URL IIIF directe pour les 15 ouvertures des *Thesmophories* (`image0166` = `ff. 162v–163r` à `image0180` = `ff. 176v–177r`) :**  
-  `https://www.internetculturale.it/iiif/2/CNMD\0000205232:image0166/full/max/0/default.jpg` *(jusqu'à `image0180`)*.
+Les planches numériques haute définition du *Codex Ravennas 429* sont hébergées par la bibliothèque numérique *Collezioni Digitali Classensi* de l'*Istituzione Biblioteca Classense* (Ravenne), dont le manifeste IIIF officiel est archivé dans le présent dépôt ([`../ravennas_1904_bnf/manifest_iiif_classense_ms429.json`](../ravennas_1904_bnf/manifest_iiif_classense_ms429.json)) :
+* **Notice et visionneuse officielle du manuscrit (*Collezioni Digitali Classensi*) :**  
+  `https://www.cdc.classense.ra.it/s/Classense/item/4651`
+* **Manifeste IIIF officiel (API Presentation 2.0) :**  
+  `https://www.cdc.classense.ra.it/iiif/2/4651/manifest` *(copie locale : [`../ravennas_1904_bnf/manifest_iiif_classense_ms429.json`](../ravennas_1904_bnf/manifest_iiif_classense_ms429.json))*
+* **URLs IIIF directes des 15 planches doubles des *Thesmophories* (`canvas/p166` = media `29059` = `ff. 162v–163r` jusqu'à `canvas/p180` = media `29073` = `ff. 176v–177r`, résolution native $3946 \times 2780\text{ px}$) :**  
+  `https://www.cdc.classense.ra.it/iiif/2/29059/full/full/0/default.jpg` *(planche `166`, jusqu'à `.../iiif/2/29073/full/full/0/default.jpg` pour la planche `180`)*.
 
 ---
 
