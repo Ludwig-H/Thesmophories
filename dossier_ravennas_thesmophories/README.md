@@ -4,8 +4,8 @@
 > Établi en accompagnement de l'édition critique et commentée d'Aristophane, *Les Thesmophories*, par **Louis Hauseux** (sigle d'apparat : **`Bibi`**).
 
 > **Nouveau — Grande Monographie Graphologique, Historique et Philologique & Atlas de 16 Spécimens Paléographiques :**
-> - **[`Analyse_Graphologique_Historique_et_Philologique_Ravennas.md`](Analyse_Graphologique_Historique_et_Philologique_Ravennas.md)** *(14 chapitres, ~152 Ko)* : Monographie approfondie en trois parties (I. Histoire du texte de 410 av. J.-C. à Ravenne ; II. Graphologie comparée de $\text{R}^1$, $\text{R}^2$ et d'Euphrosynus Boninus, et Atlas autoptique commenté de 16 planches de détail ; III. Stratigraphie des fautes et grandes études de cas philologiques de l'édition `Bibi`).
-> - **[`Analyse_Graphologique_Historique_et_Philologique_Ravennas.tex`](Analyse_Graphologique_Historique_et_Philologique_Ravennas.tex)** : Version XeLaTeX compagnon de la monographie.
+> - **[`Analyse_Graphologique_Historique_et_Philologique_Ravennas.md`](Analyse_Graphologique_Historique_et_Philologique_Ravennas.md)** *(14 chapitres, ~159 Ko)* : Monographie approfondie en trois parties (I. Histoire du texte de 410 av. J.-C. à Ravenne ; II. Graphologie comparée de $\text{R}^1$, $\text{R}^2$ et d'Euphrosynus Boninus, et Atlas autoptique commenté de 16 planches de détail ; III. Stratigraphie des fautes, grandes études de cas philologiques de l'édition `Bibi` et répertoire intégral des 38 lieux *in rasura* et corrections).
+> - **[`Analyse_Graphologique_Historique_et_Philologique_Ravennas.tex`](Analyse_Graphologique_Historique_et_Philologique_Ravennas.tex)** *(1 452 lignes, ~202 Ko)* : Version XeLaTeX intégrale de la monographie (avec les 14 chapitres, les 6 grands tableaux synoptiques et les 16 planches `\includegraphics`).
 > - **[`specimens_paleographiques/`](specimens_paleographiques/)** : **16 planches de détail recadrées en haute définition** (`01_...jpg` à `16_...jpg`) illustrant les phénomènes graphologiques, *parepigraphai*, grattages *in rasura*, suppléments marginaux, scène d'Écho bicolonne et annotations de Boninus.
 
 ---
@@ -194,7 +194,7 @@ De même, les glossaires d'**Hésychius**, de **Photius**, de **Pollux** et le l
 * **Photius $\eta\ 88$** (`ἥκειν`) $\to$ **v. 710 (`f. 170v`)** : `ἥκειν γ'` `Bibi` (pour `ἥκεις τ'` `R`) ;
 * **Hésychius $\tau\ 1162$** (`τορῶ`) $\to$ **v. 781 (`f. 171v`)** : `τορῶ` `Bibi` (pour `τὸ ῥῶ` `R`) ;
 * **Hésychius $\varepsilon\ 1995$** (`ἑλένη· λαμπάς, δετή`) $\to$ **v. 853 (`f. 172v`)** : `ἑλένην` `Bibi` (pour `Ἑλένη` `R`) ;
-* **Hésychius $\lambda\ 171$** (`λαίφια· ῥάκη`) $\to$ **v. 910 (`f. 173r`)** : `ἀπὸ λαιφίων` `Bibi` (pour `ἀπὸ ἀφύων` `R`) ;
+* **Hésychius $\lambda\ 171$** (`λαίφια· ῥάκη`) $\to$ **v. 910 (`f. 173r`)** : `ἐκ τῶν λαιφίων` `Bibi` (pour `ἐκ τῶν ἀφύων` `R`) ;
 * **Hésychius $\psi\ 135$** (`ψεφαυγοῦς`) & $\Sigma^{\text{R}}$ ad 1054 $\to$ **v. 1041 (`f. 174v`)** : `ψεφαυγοῦς` `Bibi` (pour `φεύγουσαν` `R`) ;
 * **Hésychius $\text{ο}\ 649$** $\to$ **v. 1069 (`f. 175r`)** : `†δι'† ὀλυμπίας` `Bibi` (en note à `δι' Ὀλύμπου` `R`) ;
 * **Zonaras p. 1171** (`καλπάσαι· τὸ ἄκρως βαδίζειν`) $\to$ **$\Sigma^{\text{R}}$ ad v. 1174 (`f. 176v`)** : restitution de `τὸ ἄκρως βαδίζειν` par `Bibi` là où $\Sigma^{\text{R}}$ dans `R` porte `τὸ ἁβρῶς βαδίζειν` (confusion minuscule $\kappa \to \beta$) ;
@@ -315,7 +315,7 @@ L'apparat et le commentaire de Louis Hauseux mettent en lumière les mécanismes
 
 #### 1. Fautes d'onciale et de *scriptio continua* (mélectures de lettres triangulaires, rondes ou carrées)
 * **Chute ou confusion de $\Lambda$ devant $\text{Α}$ (`ΛΑ` $\leftrightarrow$ `Α`) :**
-  * **v. 910 (`f. 173r`) :** **`R` porte `ἀπὸ ἀφύων`** ($\Sigma^{\text{R}}$ et Souda `ἰφύων`). **Louis Hauseux (`Bibi`) restitue `ἀπὸ λαιφίων`** (« au vu de tes haillons », d'après Hésychius $\lambda\ 171$ `λαίφια· ῥάκη`) : dans la séquence onciale `ΑΠΟΛΑΙΦΙΩΝ`, le $\Lambda$ triangulaire placé devant $\text{Α}$ est tombé par haplographie visuelle (`ΑΠΟΑΙΦΙΩΝ`), puis l'iotacisme $\iota/\upsilon$ a produit le mot familier `ἀφύων` (« anchois »).
+  * **v. 910 (`f. 173r`) :** **`R` porte `ἐκ τῶν ἀφύων`** ($\Sigma^{\text{R}}$ et Souda `ἰφύων`). **Louis Hauseux (`Bibi`) restitue `ἐκ τῶν λαιφίων`** (« au vu de tes haillons », d'après Hésychius $\lambda\ 171$ `λαίφια· ῥάκη`) : dans la séquence onciale `ΕΚΤΩΝΛΑΙΦΙΩΝ`, le $\Lambda$ triangulaire placé devant $\text{Α}$ est tombé par haplographie visuelle (`ΕΚΤΩΝΑΙΦΙΩΝ`), puis l'iotacisme $\iota/\upsilon$ a produit le mot familier `ἀφύων` (« anchois »).
 * **Confusion onciale `ΛΙ` $\leftrightarrow$ `ΑΝ` :**
   * **v. 1040 (`f. 174v`) :** `R` porte `λιτομέναν` (`ΛΙΤΟΜΕΝΑΝ`, corrigé en `λιτομένα` par Enger), tandis que la scholie $\Sigma^{\text{R}}$ atteste la variante `ἀντομένα(ν)` (`ΑΝΤΟΜΕΝΑΝ`).
 * **Confusion onciale `ΙϹ` $\leftrightarrow$ `Π` :**
@@ -437,8 +437,8 @@ L'apparat et le commentaire de Louis Hauseux mettent en lumière les mécanismes
 | **vv. 822–823** | `f. 172r` | `τἀντίον ὁ κανὼν οἱ καλαθίσκοι / τὸ σκιάδειον·` | **`ταὐτὸ κανοῦν καὶ τὸ σκιάδειον·`** | Expulsion de la glose intruse `οἱ καλαθίσκοι` (qui glosait `κανοῦν` corrompu en `κανὼν`). |
 | **v. 839** | `f. 172v` | `ὦ πόλεις` (`ὦ πόλις` Gelenius) | **`ωὖπολι`** ($\text{ὦ Εὔπολι}$) | Crase vocative adressée au poète Eupolis (mort en 411, datant la pièce de 410 av. J.-C.). |
 | **v. 853** | `f. 172v` | `Ἑλένη` | **`ἑλένην`** | D'après Hésychius $\varepsilon\ 1995$ (`ἑλένη· λαμπάς, δετή`, torche de roseaux tressés). |
-| **v. 895** | `f. 173r` | `βαϋζα` (`βάϋζε` Zanetti) | **`κόνυζα`** | Confusion minuscule $\kappa \to \beta$ (`κόνυζα`, l'inule visqueuse, plante associée aux Thesmophories pour la chasteté rituelle, faisant écho à `κυλλasoῦς` / `βληχώ`). |
-| **v. 910** | `f. 173r` | `ἀπὸ ἀφύων` ($\Sigma$, Souda `ἰφύων`) | **`ἀπὸ λαιφίων`** | D'après Hésychius $\lambda\ 171$ (`λαίφια· ῥάκη`, « d'après tes haillons ») : chute de $\Lambda$ devant $\text{Α}$ dans `ΑΠΟΛΑΙΦΙΩΝ` $\to$ `ΑΠΟΑΙΦΙΩΝ` $\to$ `ἀπὸ ἀφύων`. |
+| **v. 895** | `f. 173r` | `βαϋζα` (`βάϋζε` Zanetti) | **`κόνυζα`** | Confusion minuscule $\kappa \to \beta$ (`κόνυζα`, l'inule visqueuse, plante associée aux Thesmophories pour la chasteté rituelle, faisant écho à `κυλλασοῦς` / `βληχώ`). |
+| **v. 910** | `f. 173r` | `ἐκ τῶν ἀφύων` ($\Sigma$, Souda `ἰφύων`) | **`ἐκ τῶν λαιφίων`** | D'après Hésychius $\lambda\ 171$ (`λαίφια· ῥάκη`, « d'après tes haillons ») : chute de $\Lambda$ devant $\text{Α}$ dans `ΕΚΤΩΝΛΑΙΦΙΩΝ` $\to$ `ΕΚΤΩΝΑΙΦΙΩΝ` $\to$ `ἐκ τῶν ἀφύων`. |
 | **v. 1031** | `f. 174v` | `κημὸν ἕστηκ' ἔχουσ'` | **`ἕστηκ' ἔχουσα κημόν`** | Inversion de l'ordre des mots dans `R` (cf. $\Sigma$ ad *Vesp.* 674c et van Leeuwen 1904, pp. XVIII–XIX). |
 | **v. 1041** | `f. 174v` | `φεύγουσαν` | **`ψεφαυγοῦς`** | D'après $\Sigma^{\text{R}}$ ad v. 1054 et Hésychius $\psi\ 135$ (`ψεφαυγής· σκοτεινή`). |
 | **v. 1069** | `f. 175r` | `δι' Ὀλύμπου` | `δι' Ὀλύμπου` *(avec conj. **`†δι'† ὀλυμπίας`** en apparat)* | D'après Hésychius $\text{ο}\ 649$ (`ὀλυμπίας· ἄνεμος`). |
@@ -1155,7 +1155,7 @@ Chaque notice ci-dessous présente :
 * **Observations paléographiques et matérielles :**
   * **Deux émendations paléographiques majeures de `Bibi` (vv. 895 et 910) :**
     * **Au v. 895 :** Là où `R` porte **`βαϋζα`** (corrigé en `βάϋζε` par Zanetti), **Louis Hauseux (`Bibi`) restitue `κόνυζα`** (« l'inule visqueuse », plante odorante utilisée par les femmes sur leur couche pendant les Thesmophories pour calmer le désir sexuel) : dans la minuscule de `R`, le $\kappa$ initial a été lu $\beta$ (en forme de $u$ à deux pointes, exactement comme dans $\Sigma^{\text{R}}$ ad v. 1174 `ἁβρῶς` pour `ἄκρως`) et $-\text{ον}-$ lié a été lu $-\alpha-$.
-    * **Au v. 910 :** **`R` porte `ἀπὸ ἀφύων`** (tandis que $\Sigma^{\text{R}}$ et la Souda portent `ἰφύων`, et qu'Henri Grégoire proposait `ἀμφίων`). **Louis Hauseux (`Bibi`) restitue `ἀπὸ λαιφίων`** (« à en juger par tes haillons », d'après Hésychius $\lambda\ 171$ `λαίφια· ῥάκη`, faisant allusion aux guenilles de Ménélas naufragé tant moquées par Aristophane) : en onciale (`ΑΠΟΛΑΙΦΙΩΝ`), le $\Lambda$ triangulaire placé devant $\text{Α}$ est tombé par haplographie (`ΑΠΟΑΙΦΙΩΝ`), puis l'iotacisme a transformé `αιφίων` en `ἀφύων` / `ἰφύων` !
+    * **Au v. 910 :** **`R` porte `ἐκ τῶν ἀφύων`** (tandis que $\Sigma^{\text{R}}$ et la Souda portent `ἰφύων`, et qu'Henri Grégoire proposait `ἀμφίων`). **Louis Hauseux (`Bibi`) restitue `ἐκ τῶν λαιφίων`** (« à en juger par tes haillons », d'après Hésychius $\lambda\ 171$ `λαίφια· ῥάκη`, faisant allusion aux guenilles de Ménélas naufragé tant moquées par Aristophane) : en onciale (`ΕΚΤΩΝΛΑΙΦΙΩΝ`), le $\Lambda$ triangulaire placé devant $\text{Α}$ est tombé par haplographie (`ΕΚΤΩΝΑΙΦΙΩΝ`), puis l'iotacisme a transformé `αιφίων` en `ἀφύων` / `ἰφύων` !
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 876–919`) :**
   * **v. 879 :** `τῷ` `R` (`τούτῳ τῷ` Grynaeus) : **`τῷ κακῷ`** Scaliger.
   * **v. 880 :** **`Θεσμοφόριον`** `R` (cf. v. 278).
