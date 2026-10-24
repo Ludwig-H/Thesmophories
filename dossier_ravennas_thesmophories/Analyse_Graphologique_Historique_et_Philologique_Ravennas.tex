@@ -1,0 +1,216 @@
+%% ============================================================================
+%% Analyse_Graphologique_Historique_et_Philologique_Ravennas.tex
+%% Grande analyse graphologique, historique et philologique de l'écriture du
+%% Codex Ravennas 429 (olim 137, 4, A) et des Thesmophories d'Aristophane
+%% (ff. 162v–177r, vv. 1–1231), établie conformément à l'édition critique,
+%% traduite et commentée de Louis Hauseux (sigle d'apparat : Bibi).
+%% Compilable directement avec XeLaTeX.
+%% ============================================================================
+\documentclass{book}
+
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{polyglossia}
+\setdefaultlanguage{french}
+
+\setmainfont[
+  Mapping=tex-text,
+  Ligatures=Common,
+  SmallCapsFont={TeX Gyre Termes},
+  SmallCapsFeatures={Letters=SmallCaps}
+]{FreeSerif}
+
+\usepackage[a4paper]{geometry}
+\geometry{left=2.5cm, right=2.5cm, top=2.8cm, bottom=2.8cm}
+
+\usepackage{amsmath,amssymb}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+%% --- Macros typographiques et critiques de l'édition Louis Hauseux (Bibi) ---
+\providecommand{\italique}[1]{\textit{#1}}
+\providecommand{\latin}[1]{\textit{#1}}
+\providecommand{\allemand}[1]{\textit{#1}}
+\providecommand{\anglais}[1]{\textit{#1}}
+\providecommand{\grec}[1]{#1}
+\providecommand{\lecon}[1]{\textbf{#1}}
+\providecommand{\expo}[1]{\textsuperscript{#1}}
+\providecommand{\nieme}[1]{#1\textsuperscript{e}}
+\providecommand{\iere}{\textsuperscript{re}}
+\providecommand{\ier}{\textsuperscript{er}}
+\providecommand{\ieme}{\textsuperscript{e}}
+\providecommand{\cad}{c'est-à-dire}
+
+%% Sigles critiques des manuscrits et papyri
+\providecommand{\Rac}{R\expo{a.c.}}
+\providecommand{\Rpc}{R\expo{p.c.}}
+\providecommand{\Rdeux}{R\expo{2}}
+\providecommand{\Mon}{M}
+\providecommand{\PsiUn}{$\Psi^1$}
+\providecommand{\PsiDeux}{$\Psi^2$}
+\providecommand{\PsiTrois}{$\Psi^3$}
+\providecommand{\PsiQuatre}{$\Psi^4$}
+\providecommand{\PsiCinq}{$\Psi^5$}
+\providecommand{\Suidas}{Suidas}
+\providecommand{\Eustathe}{Eustathius}
+\providecommand{\LSJ}{\italique{Liddell-Scott-Jones}}
+
+%% Représentation paléographique des grattages (in rasura) et superpositions tachygraphiques
+\providecommand{\inRas}[2]{[\textit{in ras.}~#1$\rightarrow$#2]}
+\providecommand{\auDessus}[2]{#1\textsuperscript{#2}}
+\providecommand{\espApp}{\quad $\parallel$ \quad}
+
+\providecommand{\Partie}[1]{\section*{#1}\addcontentsline{toc}{section}{#1}}
+\providecommand{\sousPartie}[1]{\subsection*{#1}\addcontentsline{toc}{subsection}{#1}}
+\providecommand{\soussousPartie}[1]{\subsubsection*{#1}}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Grande Analyse Graphologique, Historique et Philologique}}\\[0.3cm]
+  {\Large \textbf{de l'Écriture du \italique{Codex Ravennas 429} (\latin{olim} 137, 4, A)}}\\[0.2cm]
+  {\Large \textbf{et des \italique{Thesmophories} ($\Theta\varepsilon\sigma\mu\text{ο}\varphi\text{ο}\rho\iota\alphá\zeta\text{ο}\upsilon\sigma\alpha\iota$) d'Aristophane}}\\[0.4cm]
+  {\large Folios \texttt{162v}--\texttt{177r} (\texttt{Classense 164v}--\texttt{179r}) $\cdot$ Vers 1--1231}\\[0.2cm]
+  {\normalsize Étude autoptique, paléographique et critique établie d'après l'édition de \textbf{Louis Hauseux} (\lecon{Bibi})}
+\end{center}
+
+\vspace{0.5cm}
+\tableofcontents
+\vspace{0.6cm}
+\hrule
+\vspace{0.6cm}
+
+%% ============================================================================
+\Partie{Introduction : Le miracle d'un \latin{codex unicus} et les trois dimensions de l'enquête}
+%% ============================================================================
+
+Parmi les onze comédies d'Aristophane qui ont franchi le naufrage de la littérature antique, les \italique{Thesmophories} ($\Theta\varepsilon\sigma\mu\text{ο}\varphi\text{ο}\rho\iota\alphá\zeta\text{ο}\upsilon\sigma\alpha\iota$) occupent une place absolument singulière dans l'histoire de la transmission des textes grecs. Alors que les pièces de la « triade byzantine » (\italique{Ploutos}, \italique{Nuées}, \italique{Grenouilles}) sont attestées par plus de cent cinquante manuscrits médiévaux et que les sept autres comédies reposent sur le témoignage croisé d'au moins deux branches indépendantes (notamment le \italique{Ravennas 429} et le \italique{Venetus Marcianus gr. 474} du \nieme{XI}--\nieme{XII} siècle), \textbf{les \italique{Thesmophories} ne doivent leur survie intégrale qu'à un seul et unique volume de parchemin copié à Constantinople au milieu du \nieme{X} siècle : le \italique{Codex Ravennas 429} (\texttt{R}), folios \texttt{162v} à \texttt{177r}}.
+
+Le \italique{Secondaire Regius Monacensis gr. 492} (\Mon{}, fin du \nieme{XV} ou début du \nieme{XVI} siècle) et l'édition \italique{Juntine} d'Euphrosynus Boninus (Florence, janvier 1516) ne sont en effet, comme l'a démontré définitivement Adolf von Velsen en 1883, que des apographes directs du manuscrit de Ravenne. Éditer, traduire et commenter les \italique{Thesmophories} --- tâche accomplie par \textbf{Louis Hauseux (\lecon{Bibi})} --- exige dès lors une triple enquête :
+\begin{enumerate}
+  \item \textbf{Historique et codicologique}, pour reconstituer le cheminement du texte depuis la représentation athénienne des Grandes Dionysies de \textbf{410 av.~J.-C.} jusqu'à la Biblioteca Classense de Ravenne, en passant par l'\italique{ekdosis} alexandrine d'Aristophane de Byzance et de Didyme, les cinq papyri d'époque impériale (\PsiUn{} à \PsiCinq{}), le scriptorium constantinopolitain du moine Éphrem vers 950 (où naquirent en frères jumeaux le \italique{Ravennas 429} et le \italique{Laurentianus Plut. 32.9}), Urbino, le couvent camaldule de Pise (1515), l'atelier florentin de Giunta (1516) et le rachat par l'abbé Pietro Canneti (1712) ;
+  \item \textbf{Graphologique, paléographique et matérielle}, par l'examen autoptique des trente pages haute définition (\texttt{ff.~162v--177r}) et de seize planches de spécimens (\texttt{specimens\_paleographiques/}), afin de caractériser le \latin{ductus}, l'inclinaison, le polymorphisme alphabétique (minuscule bouletée penchée mêlée d'allographes onciaux), la prosodie (esprits carrés, iota muet exclusivement adscrit, \latin{scriptio plena}) et la mise en page (colométrie, \italique{parepigraphai}, disposition bicolonne de la scène d'Écho) de la \textbf{première main ($\text{R}^1$, Scribe A)}, puis la \textbf{semi-onciale de glose (\allemand{Kleinoziale})}, le système tachygraphique et les vingt-huit grattages au canif (\latin{in rasura}) de la \textbf{seconde main ($\text{R}^2$, Scribe B)}, ainsi que les annotations autographes de la \textbf{troisième main humaniste (Euphrosynus Boninus, 1515/1516)} ;
+  \item \textbf{Philologique et critique}, pour comprendre comment la probité mécanique de $\text{R}^1$ a préservé sous forme de rébus graphiques les leçons authentiques d'Aristophane, que Louis Hauseux (\lecon{Bibi}) restitue en croisant l'analyse paléographique des fautes d'onciale et de minuscule avec le témoignage des scholies ($\Sigma^{\text{R}}$) et des lexicographes antiques (Hésychius d'Alexandrie, Photius, la \italique{Souda}).
+\end{enumerate}
+
+%% ============================================================================
+\Partie{Première Partie --- Analyse Historique et Codicologique : D'Athènes (410 av.~J.-C.) à Ravenne}
+%% ============================================================================
+
+\sousPartie{Chapitre I. De l'exemplaire attique (410 av.~J.-C.) à l'\latin{ekdosis} alexandrine d'Aristophane de Byzance et Didyme}
+
+Représentée en \textbf{410 av.~J.-C.} --- sept ans après la victoire d'Agathon aux Lénéennes de 416 ($\Sigma^{\text{R}}$ v.~32), l'année suivant la représentation de la « nouvelle \italique{Hélène} » (v.~850) et d'\italique{Andromède} d'Euripide (411 av.~J.-C.) ainsi que le coup d'État des Quatre-Cents ($\pi\text{έ}\rho\upsilon\sigma\iota\nu$, v.~808), et peu après la mort au combat d'Eupolis interpellé par la crase vocative \lecon{ωὖπολι} au v.~839 (restitution de \lecon{Bibi} sous le corrompu ὦ πόλεις / ὑπέρευγε de R) ---, la comédie fut d'abord consignée en \latin{scriptio continua} attique, sans esprits ni accents, où seuls la \italique{paragraphos} (---) et le \italique{dikolon} (:) marquaient les changements d'interlocuteur. Le \italique{Ravennas} conserve des vestiges directs de l'orthographe attique ancienne, notamment la graphie sans iota du verbe \lecon{ποῶ} devant voyelle sombre ($o / \omega$) lorsque la syllabe est brève (v.~382 ποεῖ, v.~1219 ποεῖς), dont la forme \texttt{ΠΟΟΥΝΤΑϹ} (\lecon{ποοῦντας}) explique la corruption onciale en \texttt{ποθοῦντας} (\texttt{R}) au v.~815, ou encore l'abréviation tachygraphique par suspension \texttt{Π'} (= περ) au v.~80 (\texttt{ΕΠΕΙΠ'ΕϹΤΙ} = \lecon{ἐπείπερ ἐστὶ} Nauck/\lecon{Bibi}, lue \texttt{Γ'} = τρίτη dans \texttt{ἐπεὶ τρίτη 'στὶ} \texttt{R}).
+
+Au Musée d'Alexandrie (\nieme{III}--\nieme{I\ier} s.~av.~J.-C.), \textbf{Aristophane de Byzance} puis \textbf{Didyme Chalcentère} dotèrent la pièce :
+\begin{enumerate}
+  \item De son \italique{Hypothesis} (qui conserve au \texttt{f.~162v} les noms de \lecon{Μνησίλοχος κηδεστὴς Εὐριπίδου} et de la femme d'Euripide \lecon{Χοιρίλη}) ;
+  \item De sa \textbf{colométrie lyrique} fondée sur l'\italique{ekthesis} (saillie à gauche des vers parlés), l'\italique{eisthesis} (retrait à droite des \italique{kôla} chantés) et la \italique{korônis} ;
+  \item Des \textbf{quatre \italique{parepigraphai} (didascalies scéniques antiques)} intégrées à la colonne de texte mais signalées comme telles par les scholies : \texttt{μινυρισμός} (post v.~99, \texttt{f.~163v}), \texttt{ὀλολύζει ὁ γέρων} (post v.~129, \texttt{f.~164r}), \texttt{ὀλολύζουσι τε ἱερὸν ὠθεῖται} (post v.~276, \texttt{f.~165v}, avec la scholie $\pi\alpha\rho\varepsilon\pi\iota\gamma\rho\alpha\varphi\text{ή}\cdot\ \ἐ\kappa\kappa\upsilon\kappa\lambda\varepsilon\tilde{\iota}\tau\alpha\iota\ \ἐ\pi\text{ὶ}\ \tau\text{ὸ}\ \ἔ\xi\omega\ \tau\text{ὸ}\ \theta\varepsilon\sigma\mu\text{ο}\varphi\text{ό}\rho\iota\text{ο}\nu$) et \texttt{ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος·} (post v.~1187, \texttt{f.~176v}) ;
+  \item Du commentaire savant (\italique{Hypomnèma}) de Didyme et Symmachos, devenu dans les marges du \italique{codex} tardo-antique le corpus des scholies anciennes ($\Sigma^{\text{R}}$).
+\end{enumerate}
+
+\sousPartie{Chapitre II. Les cinq témoins papyrologiques (\PsiUn{}--\PsiCinq{}) et la stichométrie antique}
+
+Les cinq fragments d'époque impériale et proto-byzantine (\PsiUn{} = \italique{P.Oxy.} LVI 3839, \nieme{II}--\nieme{III} s. ; \PsiDeux{} = \italique{PSI} XI 1194 + \italique{PSI} XIV p.~xv, \nieme{II} s. ; \PsiTrois{} = \italique{P.Oxy.} XLII 3000, \nieme{II}--\nieme{III} s. ; \PsiQuatre{} = \italique{P.Berol.} inv.~13231, \nieme{IV} s. ; \PsiCinq{} = \italique{P.Ant.} II 75, \nieme{IV} s.) attestent l'antiquité de la colométrie transmise par \texttt{R}. En particulier, \textbf{\PsiUn{} (\italique{P.Oxy.} LVI 3839)} conserve après le v.~1231 la souscription stichométrique en chiffres acrophoniques attiques \texttt{ΧΗΗΙ} ($1000 + 100 + 100 + 1 = \mathbf{1201}$ lignes), qui correspond exactement au nombre de lignes écrites par $\text{R}^1$ sur les trente pages des \italique{Thesmophories} (\texttt{ff.~162v--177r}).
+
+\sousPartie{Chapitre III. La Renaissance macédonienne à Constantinople (ca.~950) : le scriptorium du moine Éphrem, le \italique{Laurentianus 32.9} ($L$) et la \italique{Souda}}
+
+Les travaux paléographiques de Lidia Perria (1985) et de Pasquale Orsini (2011, 2018) ont démontré que le \italique{Ravennas 429} a été copié à \textbf{Constantinople vers 950 apr.~J.-C.}, dans le scriptorium du \textbf{moine Éphrem} (copiste des manuscrits datés \italique{Vaticanus gr.~124} de 947, \italique{Vatopedi 949} de 949 et \italique{Marcianus gr.~201} de 954). Le \italique{Ravennas 429} est le frère jumeau du célèbre \textbf{\italique{Laurentianus Plut.~32.9}} ($L$, Sophocle, Eschyle, Apollonios de Rhodes), avec lequel il partage le format, la réglure à la pointe sèche (\italique{Leroy 20D1 / P2 20D1}) et l'organisation du travail entre un copiste principal ($\text{R}^1$, Scribe A) écrivant en minuscule penchée à iota adscrit et un réviseur-scholiaste ($\text{R}^2$, Scribe B) écrivant en semi-onciale de glose (\allemand{Kleinoziale}). À la fin du même \nieme{X} siècle, les compilateurs de la \textbf{\italique{Souda}} utilisèrent à Constantinople un exemplaire frère du \italique{Ravennas}, partageant la plupart de ses leçons mais conservant parfois la vraie leçon là où $\text{R}^1$ a commis une bévue individuelle (v.~3 \lecon{τε} $\Sigma^{\text{R}}$, \italique{Souda} $\text{οι}\ 150$ contre τι \texttt{R} ; v.~532 \lecon{ἀλλ' ἢ} \italique{Souda} $\alpha\ 19$ contre ἀλλὰ \texttt{R}).
+
+\sousPartie{Chapitre IV. Le destin italien du \italique{Ravennas} : Urbino, Pise, le \italique{Monacensis gr.~492}, Euphrosynus Boninus (1516) et Pietro Canneti (1712)}
+
+Parvenu en Italie au \nieme{XV} siècle (probablement à la bibliothèque ducale d'\textbf{Urbino}), le \italique{Ravennas} servit de modèle direct au \textbf{\italique{Monacensis gr.~492}} (\Mon{}), dont le copiste omit le \textbf{v.~33} (\texttt{μῶν ὁ δασυπώγων; — οὐχ ἑόρακας πώποτε}) parce que celui-ci était écrit en marge par $\text{R}^2$ au \texttt{f.~162v}. En \textbf{1515}, le pape Léon~X fit venir le manuscrit du monastère camaldule de Saint-Michel in Borgo à \textbf{Pise} pour permettre à \textbf{Euphrosynus Boninus} d'imprimer à Florence chez Bernardo Giunta (\textbf{28 janvier 1516}) l'\latin{editio princeps} de \italique{Lysistrata} et des \italique{Thesmophories}. Comme le prouve notre examen autoptique du \texttt{f.~176v}, Boninus inscrivit de sa propre main à l'encre noire le sigle \texttt{γϋ.} (= $\gamma\upsilon\nu\text{ή}$) en face des vv.~1189 et 1198. Racheté en \textbf{1712} par l'abbé camaldule \textbf{Pietro Canneti} pour la bibliothèque de Classe à Ravenne, le manuscrit fut collationné par Invernizi (1794), Bekker (1829), Albert Martin (1882) et surtout \textbf{Adolf von Velsen (1883)}, photographié par \textbf{Jan van Leeuwen (1904)}, et étudié par Willems (1919), Coulon (1928), Prato (1964, 2001), Austin--Olson (2004), Wilson (2007) et \textbf{Louis Hauseux (\lecon{Bibi})}.
+
+%% ============================================================================
+\Partie{Deuxième Partie --- Analyse Graphologique, Paléographique et Matérielle de l'Écriture du \italique{Ravennas} (\texttt{ff.~162v--177r})}
+%% ============================================================================
+
+\sousPartie{Chapitre V. Anatomie matérielle du support et de la mise en page}
+
+Les quinze feuillets des \italique{Thesmophories} (\texttt{ff.~162v--177r} = \texttt{Classense 164v--179r}, $325 \times 235\,\text{mm}$, quaternions réguliers de parchemin réglés à la pointe sèche à raison de 40 à 43 lignes par page pleine) s'ouvrent au \texttt{f.~162v} par les quatre lignes de l'\italique{Hypothesis} en petit module de $\text{R}^1$ et le titre en semi-onciale d'apparat \texttt{※ ἀριστοφάνους θεσμοφοριάζουσαι —}, et se ferment au milieu du \texttt{f.~177r} par une \italique{korônis} ornementale suivie immédiatement de l'\italique{Hypothesis} de l'\italique{Assemblée des femmes}.
+
+\sousPartie{Chapitre VI. Graphologie approfondie de la Première Main ($\text{R}^1$, Scribe A)}
+
+L'écriture de $\text{R}^1$ est une \textbf{minuscule livresque penchée de $10^\circ$ à $15^\circ$ vers la droite}, issue de la \italique{minuscule bouletée} constantinopolitaine du milieu du \nieme{X} siècle, au \latin{ductus} souple, rapide et rythmique. Sa caractéristique graphologique majeure est son \textbf{bilinguisme graphique permanent entre allographes minuscules cursifs et allographes onciaux réintroduits} :
+\begin{itemize}
+  \item \textbf{$\alpha$ (Alpha) :} minuscule cursif en goutte lié en haut à droite, très proche de $\text{ο}$, $\varepsilon\iota$ et de la base de $\beta$ (expliquant au \textbf{v.~35} l'écriture initiale \texttt{βεαίνηκας} corrigée \latin{in rasura} en \texttt{βεβίνηκας}) ;
+  \item \textbf{$\beta$ (Bêta) :} alterne entre le \textbf{bêta minuscule bilobé ouvert en forme de \texttt{u}} (sans haste montante, quasi identique à $\upsilon$, $\mu$, $\nu$ et $\kappa$ cursif) et le \textbf{bêta oncial (\texttt{Β})} à deux boucles superposées (expliquant les confusions $\beta \leftrightarrow \nu / \kappa$ aux \textbf{vv.~489} κυνδ'/\lecon{κύβδ'}, \textbf{895} βαΰζα/\lecon{κόνυζα} et $\Sigma^{\text{R}}$ \textbf{1174} ἁβρῶς/\lecon{ἄκρως}) ;
+  \item \textbf{$\gamma, \delta, \varepsilon, \eta, \kappa, \lambda, \nu, \pi, \sigma, \tau, \omega$ :} alternent systématiquement entre la forme minuscule liée (notamment la ligature $\varepsilon\rho$ en « as de pique », $\varepsilon\iota$ plongeant sous la ligne, $\sigma$ fermé à casquette horizontale, $\omega$ ouvert ou fermé en $\infty$) et la forme onciale (\texttt{Γ, Δ, Ε, Η, Κ, Λ, Ν, Π, Ϲ} lunaire) ;
+  \item \textbf{Prosodie et orthographe de $\text{R}^1$ :} emploi simultané des \textbf{esprits carrés} (\texttt{⊢} / \texttt{⊣}) et mi-ronds ; \textbf{iota muet exclusivement adscrit} (\texttt{τῶι, τῆι, κωμωιδία}, jamais souscrit) ou omis par iotacisme (et inversement confondu au \textbf{v.~250} avec l'iota déictique oxyton dans \texttt{τούτωι} pour \lecon{τουτωί}) ; fréquence de la \textbf{\latin{scriptio plena}} (\texttt{οὔκ ἀλλ'} v.~32) ;
+  \item \textbf{Ponctuation dramatique et scène d'Écho bicolonne (\texttt{ff.~175r--175v}) :} $\text{R}^1$ ne copie aucun nom de personnage mais signale les changements de locuteur par la \italique{paragraphos} (\texttt{---}) en marge gauche et le \italique{dikolon} (\texttt{:}) dans le vers. Aux \textbf{vv.~1078--1089} (\texttt{f.~175r} bas et \texttt{f.~175v} haut), $\text{R}^1$ dispose le dialogue avec Écho sur \textbf{deux colonnes parallèles par ligne} (à gauche Mnésiloque ou le Scythe ; à droite \texttt{ηχ} + la réplique d'Écho), mise en page en miroir qui a provoqué l'assimilation mécanique des réponses parodiques d'Écho aux paroles de gauche.
+\end{itemize}
+
+\sousPartie{Chapitre VII. Graphologie de la Seconde Main ($\text{R}^2$, Scribe B) : \allemand{Kleinoziale}, tachygraphie et \latin{diorthôsis}}
+
+Collaborateur immédiat de $\text{R}^1$, le scholiaste et réviseur $\text{R}^2$ écrit dans une \textbf{semi-onciale de glose (\allemand{Kleinoziale})} strictement verticale ($90^\circ$), de très petit module ($1$ à $1,5\,\text{mm}$), riche en abréviations tachygraphiques par superposition (\texttt{ευρ\auDessus{ι}{π}}, \texttt{μ\auDessus{ν}{Η}}, \texttt{μν\auDessus{η}{σ}}, \texttt{κ\auDessus{η}{δ}}, \texttt{η\auDessus{μ}{χ}ι γ\auDessus{υ}{ν}}) et en signes spéciaux (Gardthausen II, p.~340). En tant que \latin{diorthôtès}, $\text{R}^2$ a collationné l'ouvrage sur son modèle :
+\begin{enumerate}
+  \item Il supplée dans la marge droite du \texttt{f.~162v} le \textbf{v.~33} omis par $\text{R}^1$ par saut du même au même (et omis ensuite par \Mon{}), et dans la marge inférieure du \texttt{f.~175v} les \textbf{vv.~1102--1103} avec signe de renvoi \texttt{÷} ;
+  \item Il ajoute dans l'interligne ou en marge les mots oubliés : \textbf{v.~60} \texttt{\expo{κατὰ}} (\texttt{f.~163r}), \textbf{v.~306} \texttt{\expo{καὶ}} (\texttt{f.~166r}), \textbf{v.~506} \texttt{\expo{βοῴη}} (\texttt{f.~168r}), \textbf{v.~630} \texttt{μέντοι} (\texttt{f.~169v}) ;
+  \item Il rétablit aux \textbf{vv.~27--30} (\texttt{f.~162v}) l'ordre des vers transposés par $\text{R}^1$ en inscrivant à la fin des quatre lignes les chiffres-lettres \textbf{\texttt{α, γ, δ, β}} ;
+  \item Il ajoute toutes les \latin{notae personarum} et les didascalies marginales (\texttt{ὁ μνησίλοχος ὡς ἀνδρομέδα} v.~1065, \texttt{ευρ\auDessus{ι}{π} ως περσευς} v.~1098, \texttt{κ\auDessus{η}{δ} ως ανδρομ\auDessus{ε}{δ}} v.~1107) et exécute \textbf{28 grattages au canif (\latin{in rasura})}.
+\end{enumerate}
+
+\sousPartie{Chapitre VIII. La Troisième Main humaniste : Euphrosynus Boninus (1515/1516) au folio \texttt{176v}}
+
+Au \textbf{folio \texttt{176v}} (lignes 20 et 30, en face des \textbf{vv.~1189 et 1198}), une troisième main à l'encre noire et au \latin{ductus} humaniste a inscrit deux fois \textbf{\texttt{γϋ.}} (= $\gamma\upsilon\nu\text{ή}$, avec tréma sur l'upsilon) : c'est la main autographe d'\textbf{Euphrosynus Boninus} préparant l'\latin{editio princeps Juntina} de janvier 1516. Or, au \textbf{v.~1198}, cette attribution de Boninus à la vieille femme est erronée : comme l'indiquait le sigle byzantin \texttt{σκ} ($\Sigma\kappa\text{ύ}\theta\eta\varsigma$) de $\text{R}^2$ sous-jacent et comme le confirme la restitution \lecon{κομίζι σ' αὐτίκ'} de \lecon{Bibi}, c'est l'Archer scythe qui prononce tout le vers 1198.
+
+\sousPartie{Chapitre IX. Atlas autoptique commenté des 16 planches de spécimens paléographiques (\texttt{specimens\_paleographiques/})}
+
+\begin{enumerate}
+  \item \textbf{Planche 01 (\texttt{01\_f162v\_hypothesis\_et\_titre\_semi\_onciale.jpg}, \texttt{f.~162v} haut) :} Les 4 lignes de l'\italique{Hypothesis} ($\text{R}^1$ petit module, mentionnant \texttt{χοιρίλη} et \texttt{μνησίλοχος κηδεστὴς εὐριπίδου}), le titre en semi-onciale d'apparat \texttt{※ ἀριστοφάνους θεσμοφοριάζουσαι —}, l'incipit \texttt{Ὦ Ζεῦ} en \italique{ekthesis}, la faute \texttt{οἷόν τι} (\lecon{τε} $\Sigma^{\text{R}}$, \italique{Souda}) au v.~3 et les scholies en \allemand{Kleinoziale} de $\text{R}^2$.
+  \item \textbf{Planche 02 (\texttt{02\_f162v\_vv28-35\_transposition\_rasura\_marge\_v33\_bebinekas.jpg}, \texttt{f.~162v} bas) :} Les chiffres marginaux de transposition \textbf{\texttt{α, γ, δ, β}} aux vv.~27--30, le jeu de mots \lecon{ἔστιν τις ἀγαθῶν;} au v.~31, le grattage de \inRas{μ\auDessus{ν}{Η}}{} au v.~32, le \textbf{v.~33 ajouté par $\text{R}^2$ dans la marge droite} (omis par \Mon{}), le grattage de l'iota dans \texttt{κα[ὶ] μεγ'} au v.~34, et \textbf{\texttt{βεβίνηκας} corrigé \latin{in rasura} de \texttt{βεαίνηκας}} au v.~35 (\lecon{†βεβίνηκας†} \lecon{Bibi}).
+  \item \textbf{Planche 03 (\texttt{03\_f163r\_vv48-62\_pramos\_aspidas\_kata\_supralineaire.jpg}, \texttt{f.~163r}) :} \texttt{πράμος ἡμέτερος} au v.~50 (\lecon{πρανοῦν προτέρους} \lecon{Bibi}, Hésychius $\pi\ 3188$), \texttt{ἀσπίδας} au v.~53 (\lecon{ἁψῖδας} \lecon{Bibi}) et l'ajout interlinéaire \texttt{\expo{κατὰ}} de $\text{R}^2$ au v.~60 (\lecon{καταχοανεύει}).
+  \item \textbf{Planche 04 (\texttt{04\_f163v\_v80\_et\_parepigraphe1\_minyrysmos.jpg}, \texttt{f.~163v}) :} Le v.~80 \texttt{ἐπεὶ τρίτη 'στὶ} (\lecon{ἐπείπερ ἐστὶ} Nauck/\lecon{Bibi}, \texttt{Π'} lu \texttt{Γ'}), la 1\iere{} \italique{parepigraphè} \texttt{μινυρισμός} (post v.~99) avec sa scholie explicite, et le v.~100 \texttt{μύρμηκος ἀτραπούς} (\lecon{Μύρμηκος ἀτραπούς} \lecon{Bibi}, Hésychius $\mu\ 1904$).
+  \item \textbf{Planche 05 (\texttt{05\_f164r\_parepigraphe2\_ololyzei\_et\_vv160-164.jpg}, \texttt{f.~164r}) :} La 2\ieme{} \italique{parepigraphè} \texttt{ὀλολύζει ὁ γέρων} (post v.~129) et les vv.~162--163 \texttt{ἐχύμησαν ... διεκίνων} (\lecon{ἐκεχήνεσαν ... διέκειντ'} \lecon{Bibi}, ou \lecon{δίκανον} ap. Hésychius $\delta\ 1805$).
+  \item \textbf{Planche 06 (\texttt{06\_f165v\_parepigraphe3\_ololyzousi\_et\_choiron\_v289.jpg}, \texttt{f.~165v}) :} La 3\ieme{} \italique{parepigraphè} \texttt{ὀλολύζουσι τε ἱερὸν ὠθεῖται} (post v.~276) avec sa \italique{korônis} et la scholie $\pi\alpha\rho\varepsilon\pi\iota\gamma\rho\alpha\varphi\text{ή}\cdot\ \ἐ\kappa\kappa\upsilon\kappa\lambda\varepsilon\tilde{\iota}\tau\alpha\iota\ \ἐ\pi\text{ὶ}\ \tau\text{ὸ}\ \ἔ\xi\omega\ \tau\text{ὸ}\ \theta\varepsilon\sigma\mu\text{ο}\varphi\text{ό}\rho\iota\text{ο}\nu$, le v.~289 \texttt{χοῖρον} (\lecon{Χοιρίλ'} \latin{vel} \lecon{Χοιρίν'} \lecon{Bibi}) et le v.~291 \texttt{πρὸς θάληκον} (\lecon{πρὸς θυλάκιον} \latin{vel} \lecon{θάλικα} \lecon{Bibi}, Hésychius $\theta\ 50$).
+  \item \textbf{Planche 07 (\texttt{07\_f166r\_v295\_rasura\_keryx\_et\_gloses\_intruses.jpg}, \texttt{f.~166r}) :} Le grattage \inRas{Κῆρυξ}{} devant \texttt{Εὐφημεῖτε} au v.~295 (scholie \texttt{γυνὴ μιμουμένη κήρυκα}), les gloses intruses des vv.~297--298 et l'ajout supralinéaire \texttt{\expo{καὶ}} au v.~306.
+  \item \textbf{Planche 08 (\texttt{08\_f168r\_vv488-507\_kybda\_lekometba\_v500\_booe.jpg}, \texttt{f.~168r}) :} \texttt{κύβδ'} corrigé de \texttt{κυνδ'} au v.~489, la substitution grattée \inRas{ληκ}{κιν}ώμεθα au v.~493 (\lecon{ληκώμεθα} $\text{R}^{\text{ac}}$, \italique{Souda}, \lecon{Bibi}), le vers interpolé v.~500 (\texttt{ΩΙΟΝ} = $\text{ᾦόν}$ « œuf » lu \texttt{ΟΙΟΝ} = \texttt{οἷόν}) et \texttt{\expo{βοῴη}} au v.~506.
+  \item \textbf{Planche 09 (\texttt{09\_f170r\_vv636-670\_tachygraphie\_et\_rasura\_hapasin.jpg}, \texttt{f.~170r}) :} Les monogrammes tachygraphiques \texttt{μν\auDessus{η}{σ}} (v.~638) et \texttt{η\auDessus{μ}{χ}ι γ\auDessus{υ}{ν}} (v.~659) et le grand grattage à blanc \texttt{ἅπασιν \inRas{ἅπασιν}{} ἔσται} au v.~669.
+  \item \textbf{Planche 10 (\texttt{10\_f172r\_vv814-830\_pothountas\_kanon\_skiadeion.jpg}, \texttt{f.~172r}) :} Le v.~815 \texttt{ποθοῦντας} issu de l'orthographe attique sans iota \texttt{ΠΟΟΥΝΤΑϹ} (\lecon{ποοῦντας} Dindorf/\lecon{Bibi}) et l'expulsion de la glose \texttt{οἱ καλαθίσκοι} aux vv.~822--823 (\lecon{ταὐτὸ κανοῦν καὶ τὸ σκιάδειον} \lecon{Bibi}).
+  \item \textbf{Planche 11 (\texttt{11\_f172v\_vv838-854\_hypereuge\_oupoli\_kyrkanas.jpg}, \texttt{f.~172v}) :} Le v.~839 \texttt{ὦ πόλεις / ὑπέρευγε} (\lecon{ωὖπολι} \lecon{Bibi}, hommage à Eupolis datant la pièce de 410 av.~J.-C.) et le v.~853 \texttt{Ἑλένη} (\lecon{ἑλένην} « torche » \lecon{Bibi} d'après Hésychius $\varepsilon\ 1995$).
+  \item \textbf{Planche 12 (\texttt{12\_f173r\_vv894-912\_bauza\_aphyon\_et\_restauration.jpg}, \texttt{f.~173r}) :} Le v.~895 \texttt{βαΰζα} (\lecon{κόνυζα} \lecon{Bibi}), le v.~910 \texttt{ἀπὸ ἀφύων} (\lecon{ἀπὸ λαιφίων} \lecon{Bibi}, Hésychius $\lambda\ 171$) avec sa scholie marginale et la greffe de restauration du parchemin sur le bord droit.
+  \item \textbf{Planche 13 (\texttt{13\_f175r\_vv1055-1081\_echo\_epikokkastria\_stomyllomene.jpg}, \texttt{f.~175r}) :} L'entrée d'Écho (\texttt{ἠχὼ λόγων ἀντωδὸς ἐπικοκκαστρία} v.~1059), la didascalie \texttt{ὁ μνησίλοχος ὡς ἀνδρομέδα} (v.~1065), la dissymétrie graphique \texttt{στωμυλλομένη} (\texttt{-λλ-} v.~1073) vs \texttt{στωμυλομένη} (\texttt{-λ-} v.~1074, \lecon{στωμυλιομενής} \lecon{Bibi}) et le début de la disposition bicolonne aux vv.~1078--1082.
+  \item \textbf{Planche 14 (\texttt{14\_f175v\_vv1082-1108\_echo\_bicolonne\_prote\_et\_marge\_vv1102-1103.jpg}, \texttt{f.~175v}) :} La suite de l'Écho bicolonne avec le double grattage \texttt{π\inRas{ρ}{}ωτε φωνή} (v.~1086, \lecon{†πῶτε† τὸ πωνή;} \lecon{Bibi}), la glose \texttt{ἀν(τὶ) τοῦ οὐχ αἱρήσεις} au v.~1094, les didascalies de Persée et d'Andromède, et les \textbf{vv.~1102--1103 ajoutés par $\text{R}^2$ dans la marge inférieure}.
+  \item \textbf{Planche 15 (\texttt{15\_f176v\_parepigraphe4\_six\_rasurae\_et\_main\_boninus.jpg}, \texttt{f.~176v}) :} La 4\ieme{} \italique{parepigraphè} \texttt{ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος·} (post v.~1187), les 6 grattages de la scène scythe (\inRas{σ}{}ποστίον, \inRas{σὺ}{} κάρισο, συμβήνην, κ\inRas{ω}{ο}μίζεις, λέλυσο\inRas{ν}{}) et les deux annotations autographes \textbf{\texttt{γϋ.}} d'\textbf{Euphrosynus Boninus (1515/1516)} aux vv.~1189 et 1198.
+  \item \textbf{Planche 16 (\texttt{16\_f177r\_exodos\_koronis\_et\_hypothesis\_ecclesiazusae.jpg}, \texttt{f.~177r}) :} La fin des \italique{Thesmophories} (\texttt{συβήνη} v.~1215 / \lecon{συμβήνη} \lecon{Bibi}, \texttt{πέπυσται} v.~1227 / \lecon{πέπαισται} $\Sigma^{\text{R}}$, \texttt{ἀνταδοῖτον} v.~1231 / \lecon{ἀνταποδοίτην} \lecon{Bibi}), la \italique{korônis} de clôture et le début de l'\italique{Hypothesis} de l'\italique{Assemblée des femmes}.
+\end{enumerate}
+
+%% ============================================================================
+\Partie{Troisième Partie --- Analyse Philologique et Critique Textuelle appliquée aux \italique{Thesmophories} (Édition Louis Hauseux / \lecon{Bibi})}
+%% ============================================================================
+
+\sousPartie{Chapitre X. Stratigraphie paléographique des fautes : de l'onciale antique à la minuscule du \nieme{X} siècle}
+
+\begin{enumerate}
+  \item \textbf{Fautes d'onciale (\latin{scriptio continua}, \nieme{IV}--\nieme{IX} s.) :}
+  \begin{itemize}
+    \item Lettres triangulaires \texttt{Α $\leftrightarrow$ Δ $\leftrightarrow$ Λ $\leftrightarrow$ Κ} : \textbf{v.~477} saut de \texttt{ΛΛ} à \texttt{ΛΛ} dans \texttt{ΠΟΛΛΑΓΑΛΛ} (\lecon{πολλά γ'· ἀλλ'} \lecon{Bibi} $\rightarrow$ \texttt{πολλ'} \texttt{R}) ; \textbf{v.~711} \texttt{ΟΥΚΕΞΕΙ} (\lecon{οὐκ ἔξει.} \lecon{Bibi}, $\Sigma^{\text{R}}$ \texttt{ὅθεν οὐ φεύξῃ}) $\rightarrow$ \texttt{οὐ λέξεις} \texttt{R} ; \textbf{v.~910} \texttt{ΑΠΟ ΛΑΙΦΙΩΝ} (\lecon{ἀπὸ λαιφίων} \lecon{Bibi}, Hésychius $\lambda\ 171$) $\rightarrow$ \texttt{ἀπὸ ἀφύων} \texttt{R} ; \textbf{v.~1041} \texttt{ΨΕΦΑΥΓΟΥϹ} (\lecon{ψεφαυγοῦς} \lecon{Bibi}, $\Sigma$ ad 1054, Hésychius $\psi\ 135$) $\rightarrow$ \texttt{φεύγουσαν} \texttt{R} ;
+    \item Lettres rondes et lunaires \texttt{Ε $\leftrightarrow$ Θ $\leftrightarrow$ Ο $\leftrightarrow$ Ϲ $\leftrightarrow$ Ω} : \textbf{v.~500} \texttt{ΩΙΟΝ} ($\text{ᾦόν}$ « œuf ») lu \texttt{ΟΙΟΝ} (\texttt{οἷόν}) dans une glose marginale versifiée (athétisée par van Herwerden et \lecon{Bibi}) ; \textbf{v.~815} \texttt{ΠΟΟΥΝΤΑϹ} (\lecon{ποοῦντας}) $\rightarrow$ \texttt{ποθοῦντας} \texttt{R} ;
+    \item Hastes droites et barres \texttt{ΙϹ $\leftrightarrow$ Π $\leftrightarrow$ ΤΙ $\leftrightarrow$ Γ $\leftrightarrow$ Ξ} : \textbf{v.~80} \texttt{ΕΠΕΙΠ'ΕϹΤΙ} (\lecon{ἐπείπερ ἐστὶ} Nauck/\lecon{Bibi}, \texttt{Π'} = περ lu \texttt{Γ'} = τρίτη) $\rightarrow$ \texttt{ἐπεὶ τρίτη 'στὶ} \texttt{R} ; $\Sigma^{\text{R}}$ \textbf{v.~401} \texttt{ΑΥΤΑ ΚΟΡΑΙϹ ϹΤΕΦΑΝΑΠΛΟΚΕΟ} (\lecon{αὐτὰ κόραις στεφαναπλόκεο} \lecon{Bibi}, Sappho fr.~70/125) $\rightarrow$ \texttt{αυταόρα αἱστεφανηπλόκουν} \texttt{R} ; \textbf{v.~446} \texttt{ΕΓΚΥΟϹ} (\lecon{ἔγκυος} / \lecon{ἐγκύμων} \lecon{Bibi}) $\rightarrow$ \texttt{ἐν Κύπρῳ} \texttt{R} ; \textbf{v.~1091} \texttt{ΠΛΗΞΑϹ ΑΥΤΗ} (\lecon{πλήξασ' αὕτη} \lecon{Bibi}) $\rightarrow$ \texttt{πλησίον αὕτη} \texttt{R} ;
+    \item Mauvais découpage des mots (\latin{falsa divisio}) : \textbf{vv.~30--31} \lecon{Ἁγάθων} / \lecon{ἀγαθῶν} (\lecon{Bibi}) ; \textbf{v.~100} \lecon{Μύρμηκος ἀτραπούς} (\lecon{Bibi}, Hésychius $\mu\ 1904$) ; \textbf{v.~481} \lecon{μου 'κνυεν} (\italique{Souda} $\varepsilon\ 520$, Hésychius $\kappa\ 3133$) ; \textbf{v.~781} \texttt{ΤΟΡΩ} coupé \texttt{τὸ ῥῶ} (\texttt{R}) pour \lecon{τορῶ} (\lecon{Bibi}, Hésychius $\tau\ 1162$) ; \textbf{v.~839} \texttt{ΩΥΠΟΛΙ} (\lecon{ωὖπολι} \lecon{Bibi}) $\rightarrow$ \texttt{ὦ πόλεις} \texttt{R} ; \textbf{v.~1071} \texttt{ΜΟΡΟϹΕΞΕΛΑΧΟϹ} (\lecon{μόρος ἔξελ' ἄχος.} \lecon{Bibi}) $\rightarrow$ \texttt{μέρος ἐξέλαχον} \texttt{R}.
+  \end{itemize}
+  \item \textbf{Fautes de minuscule (\nieme{IX}--\nieme{X} s.) et haplographies :}
+  \begin{itemize}
+    \item Confusion $\beta \leftrightarrow \kappa \leftrightarrow \mu \leftrightarrow \nu$ : \textbf{v.~35} \texttt{βεαίνηκας} $\rightarrow$ \texttt{βεβίνηκας} (\lecon{†βεβίνηκας†} \lecon{Bibi}) ; \textbf{vv.~162--163} \lecon{ἐκεχήνεσαν ... διέκειντ'} (\lecon{Bibi}, ou \lecon{δίκανον} Hésychius $\delta\ 1805$) $\rightarrow$ \texttt{ἐχύμησαν ... διεκίνων} \texttt{R} ; \textbf{v.~489} \texttt{κυνδ'} ($\text{R}^{\text{ac}}$) $\rightarrow$ \lecon{κύβδ'} ($\text{R}^{\text{pc}}$) ; \textbf{v.~710} \lecon{ἥκειν γ'} (\lecon{Bibi}, Photius $\eta\ 88$) $\rightarrow$ \texttt{ἥκεις τ'} \texttt{R} ; \textbf{v.~895} \lecon{κόνυζα} (\lecon{Bibi}) $\rightarrow$ \texttt{βαΰζα} \texttt{R} ; $\Sigma^{\text{R}}$ \textbf{v.~1174} \lecon{τὸ ἄκρως βαδίζειν} (\lecon{Bibi}, Zonaras p.~1171) $\rightarrow$ \texttt{τὸ ἁβρῶς βαδίζειν} \texttt{R} ;
+    \item Confusions d'abréviations, métathèses et haplographies : \textbf{v.~50} \lecon{πρανοῦν προτέρους} (\lecon{Bibi}, Hésychius $\pi\ 3188$) $\rightarrow$ \texttt{πράμος ἡμέτερος} \texttt{R} ; \textbf{v.~291} \lecon{πρὸς θυλάκιον} (\latin{vel} \lecon{θάλικα} \lecon{Bibi}, Hésychius $\theta\ 50$) $\rightarrow$ \texttt{πρὸς θάληκον} \texttt{R} ; \textbf{v.~557} \lecon{τὸν κύσθον} (\lecon{Bibi}) $\rightarrow$ \texttt{τὸν σῖτον} \texttt{R} ; \textbf{v.~704} \lecon{ἐξαρήξω} (\lecon{Bibi}, Hésychius $\varepsilon\ 3599$) $\rightarrow$ \texttt{ἐξάρξω} \texttt{R} ; \textbf{vv.~1073--1074} \lecon{στωμυλιομενής} (\lecon{Bibi}) $\rightarrow$ \texttt{στωμυλομένη} / \texttt{στωμυλλομένη} ; \textbf{v.~1151} \lecon{οὐ θεμιτεύετον} (\lecon{Bibi}) $\rightarrow$ \texttt{οὐ θεμιτὸν} \texttt{R}.
+  \end{itemize}
+\end{enumerate}
+
+\sousPartie{Chapitre XI. Grandes études de cas philologiques de l'édition Louis Hauseux (\lecon{Bibi})}
+
+\begin{enumerate}
+  \item \textbf{La datation de 410 av.~J.-C. et la crase vocative \lecon{ωὖπολι} au v.~839 (\texttt{f.~172v}, Planche 11) :} Dans la parabase inspirée des \italique{Prospaltiens}, des \italique{Villes} (\texttt{Πόλεις}) et des \italique{Dèmes} d'Eupolis (mort au combat dans l'Hellespont en 411 av.~J.-C.), l'interpellation \lecon{ωὖπολι} (= $\tilde{\omega}\ \Ε\ὔ\pi\text{ο}\lambda\iota$) a été corrompue en \texttt{ὦ πόλεις} (\texttt{R}) et \texttt{ὑπέρευγε} (\texttt{R}, \italique{Souda}), scellant la datation de la pièce aux Grandes Dionysies de \textbf{410 av.~J.-C.}.
+  \item \textbf{Le « Dossier Mnésiloque » et \lecon{Χοιρίλ'} au v.~289 (\texttt{f.~165v}, Planche 06) :} Conformément à l'\italique{Hypothesis} du \texttt{f.~162v} (\texttt{Εὐριπίδου γυνὴ μὲν Χοιρίλη... προλογίζει Μνησίλοχος κηδεστὴς Εὐριπίδου}) et aux sigles constants de $\text{R}^2$ (\texttt{μν}, \texttt{ὁ μνησίλοχος ὡς ἀνδρομέδα}), Mnésiloque est le beau-père historique d'Euripide et le père de \textbf{Chœrile (\texttt{Χοιρίλη})}, qu'il nomme dans sa prière du v.~289 sous la forme élidée \lecon{Χοιρίλ'} (\latin{vel} \lecon{Χοιρίν'}), banalisée en \texttt{χοῖρον} dans la tradition antique.
+  \item \textbf{Le problème critique du v.~35 (\lecon{†βεβίνηκας†} issu de \texttt{βεαίνηκας}, \texttt{f.~162v}, Planche 02) :} L'absence totale de scholie ancienne sur ce verbe, le caractère insolite du parfait actif \latin{hapax} $\beta\varepsilon\beta\text{ί}\nu\eta\kappa\alpha$ dans la bouche du grave Euripide et l'observation de von Velsen (confirmée sur le scan haute définition) selon laquelle \texttt{βεβίνηκας} est corrigé \latin{in rasura} d'une première leçon \texttt{βεαίνηκας} justifient la mise entre \latin{cruces} \lecon{†βεβίνηκας†} par \lecon{Bibi}.
+  \item \textbf{La scène d'Écho (\texttt{Ἠχὼ λόγων ἀντῳδὸς ἐπικοκκάστρια}, vv.~1056--1097, \texttt{ff.~175r--175v}, Planches 13 et 14) :} Écho ne répète pas mécaniquement les paroles de Mnésiloque et du Scythe : en « moqueuse qui contrefait les mots comme le coucou » (\texttt{ἐπικοκκάστρια} v.~1059), elle les déforme par calembour phonétique, comme le prouvent au \textbf{v.~1094} la réponse \lecon{οὐχ αἱρήσεις} ($\Sigma^{\text{R}}$) au scythe \texttt{οὐ καιρήσεις} et aux \textbf{vv.~1073--1074} l'opposition graphique dans \texttt{R} entre \texttt{στωμυλλομένη} (\texttt{-λλ-}) et \texttt{στωμυλομένη} (\texttt{-λ-}, d'où \lecon{στωμυλιομενής} \lecon{Bibi}), ainsi que les restitutions de \lecon{Bibi} aux vv.~1069 (\lecon{†δι'† ὀλυμπίας}), 1071 (\lecon{μόρος ἔξελ' ἄχος.}), 1072 (\lecon{θαλάττης τέμνον}), 1078 (\lecon{(Εὐρ.) 'παΰσαι}), 1079 (\lecon{βάλλε σύ κόρακας}), 1082 (\lecon{ὀλόφυγ'}), 1085 (\lecon{σί κακόν;} \latin{bis}), 1086 (\lecon{†πῶτε† τὸ πωνή;} \latin{bis}, avec double grattage du $\rho$ dans \texttt{π\inRas{ρ}{}ωτε}), 1090--1092 (attribués à \lecon{(Χορ.)}), 1091 (\lecon{πλήξασ' αὕτη}) et 1093 (\lecon{<(Εὐρ.) ποῖ ποῖ πέτει>}).
+\end{enumerate}
+
+\Partie{Conclusion Générale : Le \italique{Ravennas 429}, miroir fidèle jusque dans ses fautes}
+
+Témoin unique de l'une des comédies les plus brillantes et les plus audacieuses d'Aristophane, le \italique{Codex Ravennas 429} unit dans ses quinze feuillets des \italique{Thesmophories} (\texttt{ff.~162v--177r}) la beauté calligraphique de la Renaissance macédonienne constantinopolitaine (ca.~950) et la probité exemplaire d'un copiste ($\text{R}^1$) et d'un réviseur-scholiaste ($\text{R}^2$) qui ont transmis sans fard l'héritage d'Alexandrie. C'est sur cette fidélité matérielle du parchemin de Ravenne que s'appuie l'édition critique de \textbf{Louis Hauseux (\lecon{Bibi})} pour restituer, sous les corruptions d'onciale et de minuscule, le texte vif, savant et comique de 410 av.~J.-C.
+
+\end{document}

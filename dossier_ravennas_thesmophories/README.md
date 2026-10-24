@@ -3,6 +3,11 @@
 > **Dossier codicologique, paléographique, stemmatique et iconographique complet (`ff. 162v–177r`, vv. 1–1231)**  
 > Établi en accompagnement de l'édition critique et commentée d'Aristophane, *Les Thesmophories*, par **Louis Hauseux** (sigle d'apparat : **`Bibi`**).
 
+> **Nouveau — Grande Monographie Graphologique, Historique et Philologique & Atlas de 16 Spécimens Paléographiques :**
+> - **[`Analyse_Graphologique_Historique_et_Philologique_Ravennas.md`](Analyse_Graphologique_Historique_et_Philologique_Ravennas.md)** *(14 chapitres, ~152 Ko)* : Monographie approfondie en trois parties (I. Histoire du texte de 410 av. J.-C. à Ravenne ; II. Graphologie comparée de $\text{R}^1$, $\text{R}^2$ et d'Euphrosynus Boninus, et Atlas autoptique commenté de 16 planches de détail ; III. Stratigraphie des fautes et grandes études de cas philologiques de l'édition `Bibi`).
+> - **[`Analyse_Graphologique_Historique_et_Philologique_Ravennas.tex`](Analyse_Graphologique_Historique_et_Philologique_Ravennas.tex)** : Version XeLaTeX compagnon de la monographie.
+> - **[`specimens_paleographiques/`](specimens_paleographiques/)** : **16 planches de détail recadrées en haute définition** (`01_...jpg` à `16_...jpg`) illustrant les phénomènes graphologiques, *parepigraphai*, grattages *in rasura*, suppléments marginaux, scène d'Écho bicolonne et annotations de Boninus.
+
 ---
 
 ## Sommaire
@@ -344,10 +349,11 @@ L'apparat et le commentaire de Louis Hauseux mettent en lumière les mécanismes
 
 | Vers | Folio | État avant correction ($\text{R}^{\text{ac}}$) | État après correction ($\text{R}^{\text{pc}}$ / $\text{R}^2$) | Leçon de `M` (`\Mon`) | Texte adopté par L. Hauseux (`Bibi`) |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| **v. 28** | `f. 162v` | Vers 28 copié après le v. 30 | Ordre rétabli par $\text{R}^{\text{pc}}$ (signes de transposition) | Ordre rétabli | v. 28 à sa place (`ἀκούω` Brunck) |
+| **v. 28** | `f. 162v` | Vers 28 copié après le v. 30 | Ordre rétabli par $\text{R}^{\text{pc}}$ (lettres numérales `α, γ, δ, β` en marge) | Ordre rétabli | v. 28 à sa place (`ἀκούω` Brunck) |
 | **v. 32** | `f. 162v` | Sigle `μ\auDessus{ν}{Η}` ($\overset{\text{Η}}{\text{μν}}$) dans le vers devant `οὐχ ἑόρακα` | Sigle `μ\auDessus{ν}{Η}` **gratté (*ut videtur*)** par $\text{R}^{\text{pc}}$ ; `(Εὐρ.) continuat` $\Sigma^{\text{R}}$ | `(Εὐρ.)` | `(Εὐρ.) continuat` (`ἑόρακας` Bentley) |
-| **v. 33** | `f. 162v` | **Vers omis dans la colonne** | Ajouté dans la marge par $\text{R}^{\text{pc}}$ | **Omis par `M`** | v. 33 maintenu |
+| **v. 33** | `f. 162v` | **Vers omis dans la colonne** | Ajouté dans la marge droite par $\text{R}^{\text{pc}}$ | **Omis par `M`** | v. 33 maintenu |
 | **v. 34** | `f. 162v` | `καὶ μεγ'` | `ὶ` gratté par $\text{R}^{\text{pc}}$ (`κα μεγ'`) | `καὶ μεγ'` | `κἀμέ γ'` (edd. omn.) |
+| **v. 35** | `f. 162v` | `βεαίνηκας` (*ut videtur*) | `βε\inRas{α}{β}ίνηκας` (second `β` réécrit *in rasura* sur `α`) | `βεβίνηκας` | **`†βεβίνηκας†`** (`Bibi`) |
 | **v. 45** | `f. 163r` | `λέγεις` | `λέγει\inRas{ς}{}` (`ς` gratté par $\text{R}^{\text{pc}}$) | `λέγει` | `λέγει` |
 | **v. 60** | `f. 163r` | `κατὰ` omis | `κατὰ` ajouté par $\text{R}^{\text{pc}}$ | `κατὰ` présent | `κατὰ` |
 | **v. 263** | `f. 165v` | — | `γ' ο\auDessus{ῦ}{ν}` $\text{R}^{\text{pc}}$ | `γοῦν` | `γοῦν` |
@@ -409,6 +415,7 @@ L'apparat et le commentaire de Louis Hauseux mettent en lumière les mécanismes
 | :---: | :---: | :--- | :--- | :--- |
 | **v. 1** | `f. 162v` | `χελιδὼν` | **`Χελιδὼν`** *(ap. Clements, dans l'Index et le commentaire)* | Majuscule anthroponymique (référence au devin *Khelidôn* : `πυθοῦ Χελιδόνος`). |
 | **vv. 30–31** | `f. 162v` | `Ἀγάθων` (bis) | **`Ἁγάθων`** (v. 30) et **`ἀγαθῶν`** (v. 31, continué à `Μνη.`) | Crase $\text{ὁ Ἀγάθων} \to \text{Ἁγάθων}$ au v. 30, et jeu de mots comique de Mnésiloque sur le génitif pluriel $\text{ἀγαθῶν}$ au v. 31. |
+| **v. 35** | `f. 162v` | `βε\inRas{α}{β}ίνηκας` $\text{R}^{\text{pc}}$ (`βεαίνηκας` $\text{R}^{\text{ac}}$) | **`†βεβίνηκας†`** | Le second `β` est corrigé *in rasura* sur un `α` gratté, et ce parfait *hapax* est totalement ignoré de $\Sigma^{\text{R}}$. |
 | **vv. 50** | `f. 163r` | `πράμος ἡμέτερος` | **`πρανοῦν προτέρους`** | D'après Hésychius $\pi\ 3188$ (`πρανοῦν` / `πραῖνοι` dans l'Index) et *Nuées* 562 : médivision de `πρανοι ν` ($\nu \to \mu$, $\iota \to \varsigma$) et mélecture de l'abréviation tachygraphique de `προ-` (`Ʒ` inversé lu $\varepsilon \to \text{ἡμέτερος}$). |
 | **vv. 71–74** | `f. 163r` | `(Μνη.)` 71 et `(Εὐρ.)` 72–74 | **`(Μνη.)` pour l'ensemble des vv. 71–74** | Conformément à la scholie ($\Sigma^{\text{R}}$). |
 | **v. 100** | `f. 163v` | `μύρμηκος ἀτραπούς` | **`Μύρμηκος ἀτραπούς`** | Majuscule anthroponymique d'après Hésychius $\mu\ 1904$ (*les sentiers de Myrmex*). |
@@ -456,9 +463,10 @@ L'apparat et le commentaire de Louis Hauseux mettent en lumière les mécanismes
 
 ## 4. Répertoire complet et notices analytiques des 30 folios (`f. 162v` à `f. 177r`)
 
-Le présent dossier réunit l'intégralité des **30 pages (folios recto ou verso)** des *Thesmophories* dans le *Ravennas 429*, sous deux formats complémentaires à haute définition :
+Le présent dossier réunit l'intégralité des **30 pages (folios recto ou verso)** des *Thesmophories* dans le *Ravennas 429*, sous trois formats complémentaires à haute définition :
 1. **`folios_individuels_ff162v-177r/`** : les **30 folios découpés individuellement** (`01_f162v_classense164v_vv0001-0042.jpg` à `30_f177r_classense179r_vv1211-1231_fin.jpg`), permettant la lecture directe vers par vers et la vérification instantanée de l'apparat critique.
 2. **`planches_doubles_ff162v-177r/`** : les **15 ouvertures complètes du codex** (`01_planche166_ff162v-163r_vv0001-0079.jpg` à `15_planche180_ff176v-177r_vv1169-1231_fin.jpg`), telles que photographiées par l'*Istituzione Biblioteca Classense* (verso à gauche + recto suivant à droite).
+3. **[`specimens_paleographiques/`](specimens_paleographiques/)** : les **16 planches de détail recadrées en haute définition** (`01_...jpg` à `16_...jpg`), commentées dans [`Analyse_Graphologique_Historique_et_Philologique_Ravennas.md`](Analyse_Graphologique_Historique_et_Philologique_Ravennas.md).
 
 ---
 
@@ -531,15 +539,15 @@ Chaque notice ci-dessous présente :
 ---
 
 #### Folio 01 — `f. 162v` (`Classense 164v`) : *Hypothesis*, liste des personnages et **vv. 1–42**
-* **Image individuelle :** [`01_f162v_classense164v_vv0001-0042.jpg`](folios_individuels_ff162v-177r/01_f162v_classense164v_vv0001-0042.jpg) | **Planche double :** [`01_planche166_ff162v-163r_vv0001-0079.jpg`](planches_doubles_ff162v-177r/01_planche166_ff162v-163r_vv0001-0079.jpg) (page de gauche)
+* **Image individuelle :** [`01_f162v_classense164v_vv0001-0042.jpg`](folios_individuels_ff162v-177r/01_f162v_classense164v_vv0001-0042.jpg) | **Planche double :** [`01_planche166_ff162v-163r_vv0001-0079.jpg`](planches_doubles_ff162v-177r/01_planche166_ff162v-163r_vv0001-0079.jpg) (page de gauche) | **Spécimens recadrés :** [`01_f162v_hypothesis_et_titre_semi_onciale.jpg`](specimens_paleographiques/01_f162v_hypothesis_et_titre_semi_onciale.jpg) et [`02_f162v_vv28-35_transposition_rasura_marge_v33_bebinekas.jpg`](specimens_paleographiques/02_f162v_vv28-35_transposition_rasura_marge_v33_bebinekas.jpg)
 * **Contenu dramatique :** Argument alexandrin (*Hypothesis*) et liste des personnages (*Dramatis personae*) ; Prologue (vv. 1–38 : dialogue philosophico-comique entre Mnésiloque et Euripide devant la maison d'Agathon ; vv. 39–42 : entrée du Serviteur d'Agathon en dimètres anapestiques).
 * **Observations paléographiques et matérielles :**
-  * En haut de la page, $\text{R}^1$ avait réservé un espace de 12 lignes que la seconde main **$\text{R}^2$** a rempli en semi-onciale de glose (*Kleinoziale*) serrée, riche en abréviations tachygraphiques : y figurent l'*Hypothesis* ($\text{Εὐριπίδης κηδεστὴν ἑαυτοῦ Μνησίλοχον...}$) et la liste des personnages, source unique du nom de **$\text{Μνησίλοχος}$** défendu par Louis Hauseux (« Le dossier Mnésiloque », `Introduction.tex`, ll. 325–357).
-  * Au-dessous, le titre de première main encadré d'astérisques : `※ ἀριστοφάνους θεσμοφοριάζουσαι —`.
-  * **Transposition corrigée (vv. 28–30) :** $\text{R}^{\text{ac}}$ avait copié le v. 28 après le v. 30 ; $\text{R}^{\text{pc}}$ a rétabli l'ordre exact par des signes marginaux de transposition.
-  * **Sigle tachygraphique gratté et scholie interlinéaire au v. 32 :** Comme le relève Louis Hauseux (`vv 1-641.tex`, ll. 777–787), le manuscrit comportait à l'intérieur du vers, devant `οὐχ ἑόρακα πώποτε`, le sigle tachygraphique `μ\auDessus{ν}{Η}` ($\overset{\text{Η}}{\text{μν}}$ = $\text{Μνησίλοχος}$), qui a été ensuite **gratté (*ut videtur*)** ; l'erreur de ce sigle est en outre prouvée par la scholie interlinéaire $\Sigma^{\text{R}}$ inscrite juste au-dessus du v. 32 (`ἐπειδὴ οὐ πάλαι ἤρξατο διδάσκειν, ἀλλὰ πρὸ τριῶν ἐτῶν πρὸ τούτου`), qui ne se comprend qu'avec la 2ᵉ personne `ἑόρακας` prononcée par Euripide.
-  * **Omission de vers réparée en marge (v. 33) :** Le **v. 33** ($\text{ἀλλ' ἦν περὶ ὗς καὶ σκοτοδινιῶ;}$) avait été omis dans la colonne par $\text{R}^{\text{ac}}$ (et reste **omis dans `M`**) ; il est rajouté dans la marge par $\text{R}^{\text{pc}}$.
-  * **Grattage au v. 34 :** $\text{R}^{\text{ac}}$ avait écrit `καὶ μεγ'` (copié tel quel par `M`) ; $\text{R}^{\text{pc}}$ a gratté l'iota (`ὶ eras.`) pour amorcer la crase `κἀμέ γ'`.
+  * En haut de la page, $\text{R}^1$ a copié en petit module les quatre lignes de l'*Hypothesis* ($\text{Εὐριπίδου γυνὴ μὲν Χοιρίλη... προλογίζει Μνησίλοχος κηδεστὴς Εὐριπίδου}$), source unique du nom de **$\text{Μνησίλοχος}$** et de sa fille **$\text{Χοιρίλη}$** défendue par Louis Hauseux (« Le dossier Mnésiloque », `Introduction.tex`, ll. 325–357).
+  * Au-dessous, le titre de première main encadré d'un *asteriscus* : `※ ἀριστοφάνους θεσμοφοριάζουσαι —`.
+  * **Transposition corrigée par lettres-chiffres (vv. 27–30) :** $\text{R}^{\text{ac}}$ avait copié le v. 28 après le v. 30 ; $\text{R}^{\text{pc}}$ a rétabli l'ordre exact en inscrivant à l'extrémité droite des quatre lignes les lettres numérales **`α, γ, δ, β`**.
+  * **Sigle tachygraphique gratté et scholie au v. 32 :** Comme le relève Louis Hauseux (`vv 1-641.tex`, ll. 777–787), le manuscrit comportait à l'intérieur du vers, devant `οὐχ ἑόρακα πώποτε`, le sigle tachygraphique `μ\auDessus{ν}{Η}` ($\overset{\text{Η}}{\text{μν}}$ = $\text{Μνησίλοχος}$), qui a été ensuite **gratté (*ut videtur*)** ; l'erreur de ce sigle est en outre prouvée par la scholie $\Sigma^{\text{R}}$ du v. 32 (`ἐπειδὴ οὐ πάλαι ἤρξατο διδάσκειν, ἀλλὰ πρὸ τριῶν ἐτῶν πρὸ τούτου`), qui ne se comprend qu'avec la 2ᵉ personne `ἑόρακας` prononcée par Euripide.
+  * **Omission de vers réparée en marge (v. 33) :** Le **v. 33** ($\text{μῶν ὁ δασυπώγων; — οὐχ ἑόρακας πώποτε}$) avait été omis par saut du même au même dans la colonne par $\text{R}^{\text{ac}}$ (et reste **omis dans `M`**) ; il est rajouté sur deux lignes dans la marge droite par $\text{R}^{\text{pc}}$.
+  * **Grattage au v. 34 et correction *in rasura* au v. 35 :** Au v. 34, $\text{R}^{\text{ac}}$ avait écrit `καὶ μεγ'` (copié tel quel par `M`) ; $\text{R}^{\text{pc}}$ a gratté l'iota (`ὶ eras.`) pour amorcer la crase `κἀμέ γ'`. Au **v. 35**, le second $\beta$ de `βεβίνηκας` est corrigé *in rasura* sur un $\alpha$ gratté (`βεαίνηκας` $\text{R}^{\text{ac}}$), ce qui, joint au silence complet de $\Sigma^{\text{R}}$, motive les *cruces* **`†βεβίνηκας†`** de `Bibi`.
 * **Apparat critique complet et discussions de l'édition Louis Hauseux (`vv. 1–42`) :**
   * **v. 1 :** `ἄρα πότε` `R` : **`ἆρά ποτε`** Biset | `χελιδὼν` `R` : **`Χελιδὼν`** **`Bibi`** ap. Clements (dans l'*Index nominum* et le commentaire : référence au devin *Khelidôn*, `πυθοῦ Χελιδόνος`).
   * **v. 2 :** `ἄνθρωπος` `R` : **`ἅνθρωπος`** Boissonade.
@@ -552,11 +560,12 @@ Chaque notice ci-dessous présente :
   * **v. 23 :** `πρὸς τοῖς ἀγαθοῖς τούτοισιν ἐξεύροιμ' ὅπως` `R` : **vers athétisé (`del.`) par Alphonse Willems** et L. Hauseux comme interpolation issue d'une glose syntaxique.
   * **v. 24 :** `προσμάθοι· μὴ` `R` (médivision avec *dikolon* fautif) : **`προσμάθοιμι`** Ellebodius.
   * **v. 27 :** `νῦν` `R` : **`νυν`** Boissonade | `θύριον` `R` : **`θύριον;`** Dindorf.
-  * **v. 28 :** `ἀκούσω` `R` : **`ἀκούω`** Brunck | `vers. 28 post 30 transp.` $\text{R}^{\text{ac}}$ : **`corr.`** $\text{R}^{\text{pc}}$.
+  * **v. 28 :** `ἀκούσω` `R` : **`ἀκούω`** Brunck | `vers. 28 post 30 transp.` $\text{R}^{\text{ac}}$ : **`corr.`** $\text{R}^{\text{pc}}$ (`α, γ, δ, β` in mg.).
   * **vv. 30–31 :** `Ἀγάθων` (bis) `R` : **`Ἁγάθων`** (v. 30, avec crase $\text{ὁ Ἀγάθων}$) et **`ἀγαθῶν`** (v. 31, génitif pluriel en calembour) **`Bibi`** | Au **v. 31**, `ἔστιν τις ἀγαθῶν` **`(Μνη.) continuat`** `R` (maintenu par `Bibi`) : `(Εὐρ.)` `M`.
   * **v. 32 :** `(Μνη.)` (`μ\auDessus{ν}{Η}`) `οὐχ ... πώποτε` $\text{R}^{\text{ac}}$ (sigle gratté *ut vid.*) : **`(Εὐρ.) continuat`** $\text{R}^{\text{pc}}, \Sigma$ | `ἑόρακα` `R` : **`ἑόρακας`** Bentley.
   * **v. 33 :** `omm.` $\text{R}^{\text{ac}}, \text{M}$ : **`in marg.`** $\text{R}^{\text{pc}}$.
   * **v. 34 :** `καὶ μεγ'` $\text{R}^{\text{ac}}$ (`ὶ eras.` $\text{R}^{\text{pc}}$) : `καὶ μεγ'` `M` : **`κἀμέ γ'`** edd. omn.
+  * **v. 35 :** `βε\inRas{α}{β}ίνηκας` $\text{R}^{\text{pc}}$ (ex `βεαίνηκας` $\text{R}^{\text{ac}}$ ut vid.) : **`†βεβίνηκας†`** **`Bibi`**.
   * **v. 39 :** `λέως` `R`, Souda $\varepsilon\ 3792$ codd. AF : **`λαός`** $\Sigma$, Souda codd. GIVM.
 
 ---
