@@ -33,9 +33,17 @@ Nouvelle édition critique des *Thesmophories* (*Θεσμοφοριάζουσα�
 
 ---
 
-### 3. Scans du *Codex Ravennas 429* — Fac-similé de 1904 ([`ravennas_1904_bnf/`](ravennas_1904_bnf/))
+### 3. Manuscrit *Codex Ravennas 429 (137, 4, A)* — Manuscrit complet (Biblioteca Classense) & Fac-similé de 1904 (BnF) ([`ravennas_1904_bnf/`](ravennas_1904_bnf/))
 
-Reproductions issues du fac-similé phototypique de 1904 conservé à la Bibliothèque nationale de France (*Aristophanis Comoediae undecim cum scholiis : Codex Ravennas 137, 4, A phototypice editus*, éd. J. van Leeuwen, Leyde, A. W. Sijthoff, 1904 — BnF, cote `FOL-FAC SIM-182 (9)`, commande `VEL-2204-004197`) :
+#### A. Numérisation couleur haute définition intégrale du manuscrit original (*Biblioteca Classense*, Ravenne, `MS 429` = `137, 4, A`)
+* **[`Ravennas_MS429_Thesmophoriazusae_COMPLET_15_planches_doubles_ff162v-177r_HD.pdf`](ravennas_1904_bnf/Ravennas_MS429_Thesmophoriazusae_COMPLET_15_planches_doubles_ff162v-177r_HD.pdf)** *(35 Mo, résolution native sans perte `4023×2832` / `3946×2780` px)* : **Intégralité des *Thesmophories* (`ff. 162v–177r`, vers 1 à 1231, avec scholies marginales)** en 15 doubles-planches couleur haute définition, avec signets PDF par double-folio.
+* **[`Ravennas_MS429_Thesmophoriazusae_COMPLET_30_folios_individuels_ff162v-177r_HD.pdf`](ravennas_1904_bnf/Ravennas_MS429_Thesmophoriazusae_COMPLET_30_folios_individuels_ff162v-177r_HD.pdf)** *(47 Mo, 30 pages portrait)* : **Intégralité des *Thesmophories* (`ff. 162v–177r`, vers 1 à 1231)** découpée page par page (30 folios individuels successifs de `f. 162v` à `f. 177r`, avec signets PDF pour chaque folio).
+* **[`Ravennas_MS429_INTEGRAL_11_Comedies_Tome1_planches_001-100.pdf`](ravennas_1904_bnf/Ravennas_MS429_INTEGRAL_11_Comedies_Tome1_planches_001-100.pdf)** *(81 Mo, planches 1 à 100)* : **Manuscrit *Ravennas* intégral (Tome I)** — *Plutus, Nubes, Ranae, Aves, Equites, Pax (début)* avec scholies.
+* **[`Ravennas_MS429_INTEGRAL_11_Comedies_Tome2_planches_101-196_incl_Thesmophories.pdf`](ravennas_1904_bnf/Ravennas_MS429_INTEGRAL_11_Comedies_Tome2_planches_101-196_incl_Thesmophories.pdf)** *(76 Mo, planches 101 à 196)* : **Manuscrit *Ravennas* intégral (Tome II)** — *Pax (suite), Lysistrata, Acharnenses, Vespae, Thesmophoriazusae (`planches 166–180` = `ff. 162v–177r`), Ecclesiazusae* avec scholies.
+* **[`manifest_iiif_classense_ms429.json`](ravennas_1904_bnf/manifest_iiif_classense_ms429.json)** : Manifeste IIIF officiel de la *Biblioteca Classense* (`https://www.cdc.classense.ra.it/iiif/2/4651/manifest`) référençant les 196 fichiers maîtres originaux.
+
+#### B. Planches du fac-similé phototypique de 1904 (BnF, cote `FOL-FAC SIM-182 (9)`, commande `VEL-2204-004197`)
+Reproductions issues du fac-similé phototypique de 1904 conservé à la Bibliothèque nationale de France (*Aristophanis Comoediae undecim cum scholiis : Codex Ravennas 137, 4, A phototypice editus*, éd. J. van Leeuwen, Leyde, A. W. Sijthoff, 1904) :
 
 * **[`Ravennas_1904_f162v_Thesmophoriazusae_vv1-42.png`](ravennas_1904_bnf/Ravennas_1904_f162v_Thesmophoriazusae_vv1-42.png)** : Planche complète haute résolution du **folio 162v** (*Thesmophoriazusae*, vers 1 à 42, avec scholies marginales).
 * **[`Ravennas_1904_f163r_Thesmophoriazusae_vv43-79.png`](ravennas_1904_bnf/Ravennas_1904_f163r_Thesmophoriazusae_vv43-79.png)** : Planche complète haute résolution du **folio 163r** (*Thesmophoriazusae*, vers 43 à 79, avec scholies marginales).
