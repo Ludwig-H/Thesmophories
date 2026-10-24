@@ -1,0 +1,422 @@
+\documentclass{book}%
+\usepackage{graphicx} % pour l'image de la coupe d'Onésime
+\usepackage[french]{babel}
+\usepackage{fontspec}%
+\usepackage{xunicode}%
+%\usepackage{yfonts}%
+%\usepackage{hyperref}% pour le courriel
+\usepackage{amsmath}%
+%\usepackage{cancel}% pour \inRas
+\usepackage{quoting}%
+\usepackage{ulem}% pour souligner en pointillé
+\usepackage{comment}%
+\usepackage{xcolor}%
+\usepackage{graphicx}
+\usepackage{hyperref}
+%scale = {hscale, vscale}
+%\usepackage[scale={0.75,0.8}]{geometry}%
+%\setlength{\hoffset}{-18pt}        
+%\setlength{\oddsidemargin}{20pt} % Marge gauche sur pages impaires ATTENTION écrit 2 fois
+
+
+\newfontfamily{\policeFr}{GFS Bodoni}%
+%\newfontfamily{\policeLat}{Book Antiqua}%
+\newfontfamily{\policeLat}{GFS Neohellenic}%
+%\newfontfamily{\policeAn}{Comic Sans MS}%
+\newfontfamily{\policeAn}{Courier 10 Pitch}%
+%\newfontfamily{\policeAll}{Fraktur}%
+%\newfontfamily{\policeAll}{fraktur-bt.ttf}%
+\newfontfamily{\policeAll}{Bertholdr Mainzer Fraktur}%
+%\newfontfamily{\policeIt}{BodoniFLF}%
+\newfontfamily{\policeIt}{GFS Artemisia}%
+%\newfontfamily{\policeEsp}{Great Moravia}%
+%\newfontfamily\policeGr{GFSBodoni.otf}[BoldFont = GFSBodoniBold.otf, ItalicFont = GFSBodoniIt.otf, BoldItalicFont = GFSBodoniBoldIt.otf]%
+%\setmainfont{GFSBodoni.otf}[BoldFont = GFSBodoniBold.otf, ItalicFont = GFSBodoniIt.otf, BoldItalicFont = GFSBodoniBoldIt.otf]
+\newfontfamily\policeGr{GFS Bodoni}%
+\setmainfont{GFS Bodoni}
+%\setdefaultlanguage[variant=ancient]{greek}%
+\usepackage{polyglossia}%
+\setdefaultlanguage{french}%
+%\setotherlanguage[variant=ancient]{greek}%
+%\setmainlanguage[variant=ancient]{greek} 
+%\setotherlanguage[variant=ancient]{greek} 
+%\setmainfont{Libertinus Serif} 
+%\newfontfamily{\greekfont}{Liberation Serif}[
+%  Script=Greek,
+%  NFSSFamily=liberationserif,
+%]
+
+\usepackage[maxlevel=3]{csquotes}%
+%\MakeOuterQuote{"}% pour les guillemets français
+%\usepackage{verse}%
+
+
+\newcommand{\italique}[1]{\textit{#1}}%
+%\newcommand{\citComm}[1]{\begin{quoting}[vskip=0pt] #1 \end{quoting}}% vskip = \topsep + \partopsep par défaut
+\newcommand{\espace}[1]{\hspace{#1}}%
+\newcommand{\cesure}[0]{ [...] }%
+\newcommand{\nieme}[1]{#1\italique{e}}%
+\newcommand{\lettreBreve}[1]{$\breve{\mbox{#1}}$}
+\newcommand{\synizese}[1]{$\widearc{\mbox{#1}}$}
+\newcommand{\inRas}[2]{$\overset{\text{#2}}{\text{\sout{#1}}}$}
+\newcommand{\auDessus}[2]{$\overset{\text{#2}}{\text{#1}}$}
+%\newcommand{\etc}[0]{κτλ}%
+%\newcommand{\cit}[0]{\espace{1cm}} % indent. pour une citation
+\newcommand{\expo}[1]{\textsuperscript{#1}}%
+\newcommand{\alinea}[0]{ \ \ }%
+\newcommand{\Syn}[0]{ Συναγωγή }%
+\newcommand{\SynB}[0]{ Συναγωγή\expo{B} }% la deuxième version pour la lettre A
+\newcommand{\ClemAlex}{ Clemens Alexandrinus }
+\newcommand{\Eustathe}{ Eustathius }
+\newcommand{\AelDion}{ Aelius Dionysius }
+\newcommand{\EtymMagnum}{ Etymologicum magnum }
+\newcommand{\EtymGen}{ Etymologicum genuinum }
+\newcommand{\EtymSym}{ Etymologicum Symeonis }
+\newcommand{\Apostol}{ Michael Apostolius }
+\newcommand{\Phryn}{ Phrynichus \italique{Praep. soph.} }
+\newcommand{\Stobee}{ Joannes Stobaeus }
+\newcommand{\EpimAlphab}{ Epimerismi alphabetici in Homerum (ed. Cramer) }
+\newcommand{\GregCor}{ Gregorius Corinthius }
+\newcommand{\Antiatt}{ Antiatticista (ed. Bekker) }
+\newcommand{\Harp}{ Harpocration }% Autre édition de référence : Dindorf
+\newcommand{\Rpc}[0]{R\expo{pc}}%
+\newcommand{\Rac}[0]{R\expo{ac}}%
+\newcommand{\Rdeux}[0]{R\expo{2}}%
+\newcommand{\Mon}[0]{ M }%
+\newcommand{\PsiUn}[0]{PSI-1194}
+\newcommand{\PsiDeux}[0]{POxy-3839}
+\newcommand{\PsiTrois}[0]{POxy-3840}
+\newcommand{\PsiQuatre}[0]{POxy-4935}
+\newcommand{\PsiCinq}[0]{POxy-1176}%P50
+
+\newcommand{\francais}[1]{{\policeFr #1}}%
+\newcommand{\latin}[1]{{\policeLat #1}}%
+\newcommand{\allemand}[1]{{\policeAll #1}}%
+%\newcommand{\allemand}[1]{{\textfrak{#1}}}%
+%\newcommand{\grec}[1]{{\policeGr #1}}%
+\newcommand{\grec}[1]{#1}%
+\newcommand{\anglais}[1]{{\policeAn \scriptsize{#1}}}%
+\newcommand{\italien}[1]{{\policeIt #1}}%
+\newcommand{\espagnol}[1]{{\policeEsp #1}}%
+
+\newcommand{\Nauck}[0]{N\expo{2}}%
+\newcommand*{\auteur}[1]{\textsc{#1}*}%
+\newcommand{\cf}[0]{\italique{cf.}\xspace}%
+\newcommand{\chap}[1]{\^{#1}}%
+
+\newlength{\larg}%
+\newcommand{\decalage}[1]{%
+\settowidth{\larg}{#1}%
+\espace{\larg}%
+}
+\newcommand{\decalageN}[1]{%
+\settowidth{\larg}{#1}%
+\espace{-\larg}%
+}
+
+\usepackage{xcolor}
+\newcommand{\fantome}{{\color{white}v}}
+
+\newcommand{\lecon}[1]{\textbf{#1}}
+%\newcommand{\douteux}[1]{\dotuline{#1}} % pour les lettres douteuses : un point en-dessous
+\newcommand{\douteux}[1]{$\underset{\cdot}{\text{#1}}$}
+\newcommand{\difference}[1]{\dotuline{#1}}
+
+\newcommand{\marqueur}[1]{\textsuperscript{#1}}%
+
+\newcommand{\eff}[1]{%
+{\color{orange}#1}%
+}%
+
+\newcommand{\LSJ}[0]{LSJ}%
+
+
+
+\newcommand{\Partie}[1]{\section*{#1}%
+\addcontentsline{toc}{section}{#1}}
+\newcommand{\sousPartie}[1]{\subsection*{#1}}%
+\newcommand{\note}[1]{\footnote{#1}}
+\newcommand{\biblio}[2]{\hspace*{-1.5cm}\textbf{[#1]}\hspace*{1.5cm}#2\\
+
+}
+\newcommand{\Auteur}[1]{\hspace*{-1.5cm}\textbf{#1} \\}
+\newcommand{\livre}[1]{\hspace*{0.5cm}#1\\}
+\newcommand{\passage}[3]{\hspace*{1.0cm} #1 \hspace*{1.2cm}\decalageN{#1} #2 \dotfill \hfill	\textbf{#3}\\} % passage Corrigé ou expliqué
+%\newcommand{\passageC}[3]{\hspace*{2.5cm} #1 \hspace*{1cm} #2 \dotfill \hfill	\textbf{#3}\\} % passage Corrigé ou expliqué
+\newcommand{\citComm}[1]{\begin{quote}#1\end{quote}}
+
+\pagenumbering{roman}
+
+
+\usepackage{minipage-marginpar}
+\usepackage{marginnote}
+\usepackage[marginparwidth=3cm]{geometry}% pour les marges
+%\usepackage{geometry}
+\usepackage{multicol}
+
+\begin{document} 
+\renewcommand{\contentsname}{Introduction}
+\title{Introduction}
+\author{}\date{}
+\maketitle
+\setcounter{page}{0}
+
+
+\tableofcontents
+\setcounter{page}{1}
+\cleardoublepage
+
+\Partie{La date}
+
+La pièce des \italique{Thesmophories} (Θεσμοφοριάζουσαι dans la version originale, littéralement : les femmes célébrant la fête des Thesmophories) est la huitième des onze comédies conservées d’Aristophane\note{Sur un corpus qui comportait encore quarante-quatre pièces au début de notre ère. Pour en savoir davantage sur cet Aristophane qui ne nous est parvenu que très partiellement, le lecteur pourra se reporter à la riche introduction de Jean-Claude Carrière sur « L'Aristophane perdu », in \italique{Le théâtre grec antique : la comédie. Actes du 10\expo{ème} colloque de la Villa Kérylos à Beaulieu-sur-Mer} (2000), pp. 197-236. On ne saura trop recommander au lecteur pour tout ce qui touche aux témoignages portant sur Aristophane et à ses fragments  l'édition de R. Kassel \& C. Austin, \italique{Poetae Comici Graeci}, vol. III 2 (1984).}. 
+C'est la pièce dont on possède le moins de scholies ; l'ὑπόθεσις en est réduit à presque rien et n'indique pas sous quel archontat les \italique{Thesmophories} furent représentées pour la première fois. Nous ne sommes pas pour autant complètement démunis et, pour notre part, nous pensons que la pièce fut jouée aux grandes Dionysies (mars-avril) de 410.
+
+Les moyens pour dater la rédaction des \italique{Thesmophories} sont de deux ordres : \ \ \ 1° en recourant à la critique interne au texte d'Aristophane \ \ \ 2° en s'en remettant aux commentaires anciens.
+La première méthode est bien-sûr à privilégier.
+
+On sait grâce aux vers 1060-1 que les \italique{Thesmophories} furent jouées un an après l'\italique{Andromède} d'Euripide.
+Mais cette datation n'est que relative\note{Car il serait aventureux de prétendre ainsi dater les \italique{Thesmophories} de 411 sous prétexte qu'une scholie au vers 53 des \italique{Grenouilles} avance qu'\italique{Andromède} fût produite la huitième année avant les \italique{Grenouilles} (ἡ δὲ Ἀνδρομέδα ὀγδόῳ ἔτει προεισῆκται ; c'est-à-dire sept avant (selon le système de décompte grec les \italique{Grenouilles}), probablement jouées aux Lénéennes de 405.) Au reste, ce témoignage est en contradiction avec d'autres scholies (cf. l'introduction de Rogers à son édition des \italique{Thesmophories}, pp. xxxvi-xlvii).}.
+
+Au vers 804, le chœur des femmes, afin de montrer leur supériorité sur les hommes, prend l'exemple de Charminos, le général athénien, assurément défait par \italique{Nausimaché}\note{Ναυσιμάχης μέν γ᾽ ἥττων ἐστὶν Χαρμῖνος· δῆλα δὲ τἄργα}. Les déboires de Charminos nous on été contés par Thucydide (VIII, 41-43) : il perdit six trirèmes face à la flotte péloponnésienne pendant l'hiver 412/411.
+Cet événement nous fournit un \italique{terminus post quem} pour l'écriture des \italique{Thesmophories}.
+Il y a alors deux école : la première, majoritaire\note{À la suite notamment de Wilamowitz, \italique{Aritoteles und Athen}, t. II (1893), pp. 343-355. La plupart des commentateurs adoptent cette thèse : Willems, Dover, Sommerstein ou encore Austin-Olson.}, considère que les \italique{Thesmophories} ont été représentées aux Dionysies (mars-avril) de 411, deux mois après \italique{Lysistra}, jouée aux Lénéennes de 411\note{On peut dater plus facilement \italique{Lysistrata} : son ὑπόθεσις  nous apprend qu'elle fut représentée sous l'archontat de Callias. Certainement au début de l'an 411 puisqu'Aristophane y moque les dix πρόβουλοι, qui disparaîtront bientôt avec l'institution du conseil des Quatre-Cents (οἱ τετρακόσιοι).}.
+
+La clef se trouve aux vers 808-809 :
+
+\citComm{ἀλλ᾽ Εὐβούλης τῶν πέρυσίν τις βουλευτής ἐστιν ἀμείνων,\\
+παραδοὺς ἑτέρῳ τὴν βουλείαν; οὐδ᾽ αὐτὸς τοῦτό γε φήσει.}
+
+La première école, à l'instar de Wilamowitz, y vit une allusion à l'instauration des dix πρόβουλοι (Thucydide, VIII, 1.3-4) auxquels on avait donné une partie importante des pouvoirs de la βουλή (cf. la \nieme{23} note d'Alphonse Willems afférente à ces deux vers et reproduite en annexe).\\
+L'explication de la seconde école\note{École dont nous retiendrons Benjamin Bickley Rogers comme représentant, l'auteur d'une édition commentée des onze pièces d'Aristophane admirable d'érudition et de bon goût. Rogers se fit un scrupule de préciser que son hypothèse avait déjà été suggérée par Jacques le Paulmier de Grentemesnil, in \italique{Exercitationes in optimos auctores græcos} (1694), p. 761.} me paraît plus convaincante : l'événement auquel ferait référence Aristophane serait plus tardif et nous est rapporté aux chapitres 69-70 du livre VIII de Thucydide : lorsque les Quatre Cents conjurés favorables à l'oligarchie se rendirent au βουλευτήριον au mois de mai 411. Après avoir versé leur salaire aux bouleutes alors en séance, ils leur intimèrent l'ordre de se retirer, ce que ces derniers firent sans même que les conjurés eussent à recourir à la violence. Ainsi périt une première fois la démocratie athénienne. C'est ce manque de courage (ἀμείνων) des bouleutes qu'Aristophane brocarde : pas un n'aura défendu la charge qu'ils avaient reçue. Que ces bouleutes couards fussent ceux de l'\italique{an dernier} (τῶν πέρυσίν) place donc notre pièce aux Dionysies de l'an 410.
+
+Enfin, au vers  839, dans un passage où Aristophane vitupère contre les spéculateurs, représentées en la personne de la mère du démagogue exilé Hyperbolos, il crie son indignation :%
+\citComm{τῷ γὰρ εἰκὸς ὦ πόλεις (sic.)\\
+Comment tolérer, ô ...}%
+
+Or Hyperbolos et sa mère furent la cible d'une piècle d'Eupolis, le \italique{Marikas}, dont un commentaire fragmentaire nous laisse à penser qu'il jetait de la même façon qu'Aristophane l'opprobre sur les usuriers. De plus, Eupolis est probablement mort à l'été 411 (cf. le commentaire \italique{ad locum}). Autant de raisons de penser que le vers 839 est une adresse non pas à la Cité mais à feu Eupolis ; un hommage d'Aristophane à son défunt rival :%
+\citComm{τῷ γὰρ εἰκὸς ωὖπολι\\
+Comment tolérer, ô Eupolis, que \&c.}
+
+Si notre interprétation est juste, les \italique{Thesmophories} n'ont donc pas pu être jouées aux Dionysies de 411, antérieures de quelques mois à la mort d'Eupolis.
+%Elle fut jouée avec vraisemblance aux Grandes Dionysies (mars), l’an 411 av. J.-C, deux mois après \italique{Lysistrata}, jouée aux Lénéennes de la même année. 
+
+\Partie{Synopsis}
+Après toutes les salauderies qu’Euripide a distillées dans ses tragédies sur le compte des Athéniennes, ces dernières décident de tenir conseil pour châtier comme de juste ce diffamateur de l’engeance féminine. Le contexte de la fête des Thesmophories, interdite aux hommes, est tout indiqué pour cela. En danger de male mort, Euripide envoie un sien parent grotesquement affublé en femme pour intercéder en sa faveur. Ce parent par alliance, Mnésiloque de son nom, ne tarde pas à être découvert. Arrêté, c’est lui qui appelle à son tour Euripide à son secours. Par trois fois, les deux comparses tentent une évasion à partir d’un détournement d’une pièce d’Euripide, par trois fois c’est un échec sur toute la ligne : les tragédies d’Euripide n’ont aucune prise sur le réel. Finalement, Euripide recourra au comique du plus bas étage qui soit : il se déguise en maquerelle et réussit par ce biais à délivrer Mnésiloque. Cette fin de pièce, digne – si l’on peut dire – de la comédie la plus vile qui soit, correspond tout compte fait bien davantage à la Muse Euripide que le registre tragique. 
+\sousPartie{Le procès d’Euripide}
+Aristophane met en scène dans les \italique{Thesmophories} l’un de ses souffre-douleur préférés : le très renommé auteur tragique Euripide, le responsable (avec d’autres, mais Euripide est le plus talentueux de ces représentants et, partant, la cible prioritaire d’Aristophane qui vise toujours à l’essentiel), le responsable donc de la dégénérescence du théâtre tragique athénien que le grand Eschyle avait par son génie fondé sur presque rien\note{Sur la genèse de la tragédie, le lecteur pourra consulter ce qu’en dit Aristote dans sa \italique{Poétique}, IV, 49a.}. Pourtant, la langue d’Euripide peut comporter de beaux accents… mais Euripide souffre du mal athénien de son temps : ses pièces sont infestées de cette sophistique insupportable, cette hypertrophie de la glande raisonnante, qui achève de déraisonner en raisonnant. À l’heure où Athènes est menacée, à l’heure où elle aurait besoin que ses meilleurs talents insufflent au cœur des Athéniens la force nécessaire à leur relèvement, Euripide \& consorts palabrent sur la scène et moulinent des paroles sans consistance. \\
+Au fond, Euripide est un être superficiel qui se complaît dans la superficialité : lorsque dans l’une de ses pièces la gravité affleure, il s’empresse d’agrémenter le passage de quelque jeu de mots, quelque réflexion générale et intempestive qui lui confèrent aussitôt un comique involontaire et tuent dans l’œuf toute velléité de grandeur. Il est donc indigne aux yeux d’Aristophane de s’inscrire au monument bâti par Eschyle. 
+\sousPartie{Le contexte historique}
+L’on n’a pas assez insisté sur l’importance du contexte historique\note{Lire les livre VI à VIII de la \italique{Guerre du Péloponnèse} de Thucydide.} pour expliquer l’écriture des Thesmophories\note{À ma connaissance, un seul article – remarquable ! – d’Alain Blanchard l’évoque de façon pertinente : « L’art de la mauvaise foi dans les Thesmophories d’Aristophane », in \italique{Dieux, héros et médecins grecs. Hommage à Fernand Robert.} (2001), p. 97-106. Tout amateur d’Aristophane ne peut pas ne pas aller prestement lire ces pages si riches (j’émets seulement quelques réserves sur les toutes dernières lignes et l’hypothèse d’un Aristophane à la verve putassière).} : en pleine guerre du Péloponnèse à l’heure des plus grands périls pour Athènes. De même que la défaite athénienne à Délion (424) avait profité à la popularité de Socrate, qui s’était conduit héroïquement dans la débâcle comme on le sait par Platon, et que c’est ce bonheur d’une réputation rehaussée dans le malheur athénien qui avait conduit Aristophane à l’écriture vengeresse des Nuées (423) ; de même, les \italique{Thesmophories} furent écrites peu après la désastreuse expédition de Sicile (415). 
+Alors qu’Athènes vivait ses heures les plus sombres, Euripide en profita pour redorer son blason : on fit appel à lui pour écrire un chant funèbre en l’honneur des Athéniens morts à Syracuse dont Plutarque nous a conservé deux vers\note{Plutarque, \italique{Vie de Nicias}, 17, 4 534D.}. 
+Anecdote plus significative encore : certains Athéniens, réduits en esclavage, ne durent leur salut qu’à Euripide, en récitant de ses vers, si appréciés des Syracusains\note{Plutarque, \italique{Vie de Nicias}, 29, 2-4 542CD.}. 
+Qu'on prétendît que la poésie d’Euripide pût sauver qui que ce soit !.. voilà encore une fumisterie qu’Aristophane n’aura de cesse de mettre à mal tout au long de notre pièce : les différents détournements des euripidéennes tragédies se heurteront toutes successivement au mur de l’incompréhension des geôliers de Mnésiloque. L’on comprend alors mieux Aristophane : son « jeu de massacre » n’est motivé que par la passion – brûlante chez Aristophane – de la justice : il cogne, cogne, et cogne encore contre tous ces charognards des misères athéniennes. \anglais{Now is a time to storm !}
+
+
+
+\Partie{Bibliographie thématique (et sélective) à l'usage de l'apprenti-chercheur}
+
+L'on a beaucoup écrit sur Aristophane, et ces dernières années sur les \italique{Thesmophories} en particulier. Le but de cette bibliographie n'est pas de rassembler de façon peu ou prou exhaustive cet impressionnant corpus\note{Ce travail a déjà été magistralement abattu par Austin \& Olson dans leur édition des \italique{Thesmophories} (2004 avec révision en 2008).}.
+Il me semble bien plus intéressant de présenter à l'attention de l'apprenti-chercheur en bute à quelque passage difficile certaines pistes (commentaires anciens et modernes, lexicographiques, archéologiques, \&c.) qui pourront lui être un premier aiguillage sur le chemin de la bonne compréhension du texte. 
+La bibliographie que je propose sera donc thématique et réduite à ce qu'il me semble être l'indispensable ; à l'aventurier ès exégèse de frayer ensuite son propre chemin philologique.
+
+\sousPartie{Quelques éditions (scolaires) des \italique{Thesmophories}\note{Encore une fois, cette recension n'a aucune prétention à l'exhaustivité. On en trouvera de beaucoup plus complète dans l'édition Austin-Olson. Le lecteur pourra aussi consulter l'article du regretté Colin Austin intitulé « Textual Problems in Ar. \italique{Thesm}. », \italique{Dodone} 16.2 (1987), pp. 61-92. Il débute par d'instructives biographies des principaux commentateurs des \italique{Thesmophories}. Ces informations permettent de donner quelques couleurs de vie à l'apparat critique et d'égayer -- autant que faire se peut -- ce qui représente la partie la plus austère d'une édition scientifique.}}
+
+
+--- Euphrosynus Boninus, l’editio princeps (Florence, 1516) des \italique{Thesmophories}, aussi connue sous le nom de \latin{Iuntina}, elle est la première édition d’Aristophane à réunir les onze pièces intégralement conservées. \\
+
+--- Franz Volkmar Fritzsche, \italique{Aristophanis Thesmophoriazusae} (1838). Comporte le texte grec ainsi qu’un impressionnant commentaire en latin abondamment fourni en références, des auteurs les plus connus aux lexiques les plus oubliés. \\
+
+--- Alphonse Willems, \italique{Aristophane, traduction avec notes et commentaires critiques} (1919). Sans aucun doute la meilleure édition d’Aristophane pour un lecteur francophone qui chercherait à saisir la langue d’Aristophane. Les travaux de Willems (anthumes et posthumes) furent pourtant victime d'une conspiration du silence\note{Relativement à l'importance de son travail, j'entends. Willems n'est que rarement cité -- et le plus souvent de mauvaise grâce. Voir à ce sujet l'introduction à ses « Nouvelles notes sur les \italique{Oiseaux} » III, t. pp. 291 sqq. Les hommages appuyés que lui rendirent Victor Coulon et Jean Taillardat -- excusez du peu ! -- ne l'empêchèrent pas d'être le plus souvent méconnu des commentateurs actuels.}, et ce pour plusieurs raisons : la verve facétieuse et irrévérencieuse de Willems ne ménageait certainement pas assez la susceptibilité des sommités aristophaniennes de l’époque. Ces blackboulés du talent préférèrent ignorer superbement tous les articles d’Alphonse Willems pour préserver leur petit milieu où règne l’esprit courtisan, microcosme d’entre-soi à tendance fortement onaniste… ou comment Aristophane fut sacrifié par ceux-là mêmes qui prétendaient œuvrer à sa diffusion et sa compréhension. En second lieu, Willems fut littéralement pillé sans vergogne par le Van Daele des Belles Lettres (voir ci-dessous) ; le traducteur-plagiaire de cette édition francophone de référence avait effectivement tout intérêt à ce que son lecteur ne sache rien de l’œuvre d’Alphonse Willems. J’espère par ce commentaire m’inscrire à l’école du grand Alphonse Willems, dont cet \italique{Aristophane} posthume mériterait une réédition, tant pour sa traduction élégante, racée et exacte\note{Traduction que je reprends pour l’essentiel. Si l’\italique{Aristophane} de Willems est désormais introuvable, sachez que les grandes librairies américaines l’ont numérisé et qu’il est en accès libre – à condition de se faire passer pour américain… –, par exemple à l’adresse internet suivante : \href{https://catalog.hathitrust.org/Record/000855959}{https://catalog.hathitrust.org/Record/000855959}} que ses commentaires pétris d’érudition et d’un souffle tout aristophanien. On trouvera dans les annexes toutes les notes d'Alphonse Willems se rapportant aux \italique{Thesmophories}, quelques-uns de ses articles dont je crois la lecture d'une importance capitale pour bien saisir Aristophane ainsi que quelques éléments biographiques.\\
+
+
+--- Jan Van Leeuwen, \italique{Comoediae Undecim cum Scholiis : Codex Ravennas 137, 4, A} [$=$ \italique{Rav.} 429 (nouvelle cote)], \italique{phototypice editus} in \italique{Codices Graeci et Latini photographice depicti}, t. IX (1904). Fac-similé du manuscrit de Ravenne avec une riche préface exposant les fautes les plus courantes commises par les deux scribes du \italique{Ravennas}.\\
+
+
+--- Benjamin B. Rogers, \italique{The Thesmophoriazusae} (1904). Rogers est l'auteur d'une édition critique et commentée des onze pièces d'Aristophane. Ce monument d'érudition, d'esprit critique, de discernement et de nuance lui valut à juste titre une grande reconnaissance et d'être abondamment cité jusqu'au jour d'aujourd'hui. Texte grec avec en vis-à-vis une traduction anglaise (versifiée). Commentaire en bas de page et apparat critique en fin de volume.\\
+
+--- Victor Coulon, \italique{Aristophane, Comédies} (1923-1930). Édition en 5 tomes d’Aristophane (les \italique{Thesmophories} sont au tome 4 ; 1928) dans la célèbre collection Budé, l’établissement du texte grec et l’apparat critique sont dus à Victor Coulon. La traduction est soi-disant d’Hilaire Van Daele ; en fait d’Alphonse Willems avec quelques retouches de la part de M. Van Daele, retouches que Victor Coulon ne manque jamais de condamner dans les articles qu’il publia postérieurement. Victor Coulon, à l’opposé du courant majoritaire de son temps, s’est astreint à conserver le plus possible les leçons des manuscrits contre les conjectures des philologues. Ce « conservatisme », qu’il défend pour le cas d’Aristophane dans son \italique{Essai sur la méthode de la critique conjecturale appliquée au texte d’Aristophane} (1933), lui valut d’être encore considéré à la fin des années 90 par Sommerstein comme le meilleur éditeur d’Aristophane. \\
+
+
+--- Alan Sommerstein\note{A.S. est l'auteur d’une édition complète des œuvres d’Aristophane, d’un fort utile index aristophanien ainsi que d’un dictionnaire de l’Ancienne Comédie. Sa traduction anglaise des \italique{Thesmophories}, belle et fidèle, s’est étrangement retrouvée translittérée en français dans la prestigieuse collection de La Pléiade. Si une mauvaise traduction fait transparaître le grec sous le français, que dire d’une traduction qui nécessite un bon dictionnaire anglais pour comprendre le sens de la « traduction française » du grec ?}, \italique{Thesmophoriazusae} (1994). (Avec \italique{addenda} dans son volume du \italique{Ploutos} (\anglais{Wealth} en anglais)). Texte grec avec en vis-à-vis une traduction anglaise et en fin de volume un commentaire complet. Alan Sommerstein \note{Avant-gardiste, Alan Sommerstein fit partie des premiers auteurs à faire imprimer un livre à partir d'un fichier numérique, témoin son volume des \italique{Thesmophories}. Chose rare dans le milieu des lettres classiques où la norme est plutôt d'avoir vingt ans de retard sur les progrès permis par l'informatique.} marque un net progrès dans la compréhension du texte d'Aristophane.\\
+
+--- Carlo Prato, \italique{Le donne alle Tesmoforie} (2001). Le texte grec établi par Prato est agrémenté d’une traduction italienne de Dario Del Corno. L’apparat critique est le plus précis de toutes les éditions. Pour qui n’a pas accès au manuscrit de Ravenne ou à son fac-similé (cf. l'édition de Van Leeuwen de 1904), l’édition de Prato est la meilleure pour se faire l’idée la plus précise du manuscrit. Outre l’apparat critique, cette édition comporte aussi un appréciable apparat des témoins (\italique{testimonia}) recensant les diverses allusions aux passages de la pièce dans des écrits anciens. En plus de l’imposant commentaire en italien, le grand métricien Prato met à disposition en annexe une analyse exhaustive de tous les mètres de la pièce avec leur scansion. \\
+
+--- Austin \& Olson, \italique{Aristophanes Thesmophoriazusae} (2004, revue et augmentée en 2008). Texte grec avec deux apparats comme dans l’édition de Prato : l’un critique et l’autre regroupant les témoins. Le commentaire en anglais avec sa bibliographie foisonnante est une aide précieuse pour se lancer dans toute recherche sur le texte des \italique{Thesmophories}. \\
+
+
+--- G. Wilson, \italique{Aristophanis Fabulae} (2007). Sous la direction de M. Wilson, les éditions d’Oxford ont réédité en deux tomes les comédies d’Aristophane (les \italique{Thesmophories} se trouvent au tome second). Cette mise à jour de l’excellente édition du début du \nieme{XX} siècle de F. W. Hall \& W. M. Geldart\note{C’est cette édition, libre de droits, qu’on trouve sur le site internet \italique{Perseus}.} était rendue nécessaire par la parution de papyrus contenant quelques extraits des \italique{Thesmophories}. Seul le texte grec avec apparat critique figure dans cette édition. \\
+
+--- Rossella Saetta Cottone, \italique{Les} Thesmophories \italique{ou} La fête des Femmes (2016). Texte grec avec en vis-à-vis une traduction française. Le texte suivi est à de rares exceptions celui de l’édition Austin \& Olson. Un commentaire à la fin reprend pour l’essentiel les meilleures idées de Prato, Austin, Rogers et d’autres. 
+
+
+\sousPartie{Commentaires anciens}
+Le manuscrit de Ravenne\note{Pour une étude très précise de ce manuscrit, l'on pourra se référer à l'article de Pasquale Orsini « L’Aristofane di Ravenna. Genesi e formazione tecnica e testuale di un codice »,  in \italique{Scriptorium}, t. 65 n°2 (2011), pp. 321-337.}, notre unique source pour la version complète des \italique{Thesmophories} d'Aristophane, comporte nombre de commentaires anciens en ses marges. Ces \italique{scholies} ont été diversement reproduites avec les éditions anciennes des comédies d'Aristophane. Elles furent aussi regroupées ; l'édition de référence a longtemps été celle de Dübner (\italique{Scholia Græca in Aristophanem}, 1883), depuis dépassée par celle dirigée Willem J. Koster (\italique{Scholia in Aristophanem}), long travail d'érudition (1960-2007) dont la publication des \italique{Scholia in Thesmophoriazusas} par Remco Regtuit en 2007 est venue parachever l'œuvre.
+
+L'arrivée d'internet est bien-sûr un outil qui marque un tournant dans la philologie puisqu'il suffit désormais de taper quelques mots d'un passage litigieux dans un moteur de recherche\note{Affreux anglicisme (translittération de \anglais{search engine}) que l'usage a malheureusement consacré. Si quelque académicien venait à fureter par ici, je ne pourrais que déplorer avec lui que le génie de la langue française n'ait pas su créer un néologisme pour désigner ce genre d'outil... par exemple avec une image tirée -- comme tant d'autres -- de la vénerie ; je propose toujours : \italique{cyber-limier}.} pour que les articles traitant de ce dernier apparaissent.
+
+Ces scholies présentes sur le manuscrit de Ravenne sont bien souvent à recouper avec d'anciens lexiques -- d'où les importants apparats des \italique{testimonia} de l'édition Koster-Holwerda. C'est dans la \italique{Souda} qu'on en retrouve le plus\note{Même si la rédaction de la \italique{Souda} étant certainement très proche de celle du \italique{Ravennas}, les leçons qu'elle apporte ne sont que rarement bénéfiques pour la bonne compréhension du texte. Il faut de plus manipuler avec précautions les notices de la \italique{Souda} ; cf. le commentaire aux vv. 179, 735, 1041 par exemples. Le lexique de Zonaras, plus tardif (fin \nieme{XII} -- début \nieme{XIII} siècle), et qui puise aux mêmes sources, peut aussi utilement être mis à contribution (cf. le vers 1174).}.
+
+\sousPartie{Commentaires des autres pièces d'Aristophane et de ses fragments}
+
+Pour chaque passage  touchant à une autre pièce d'Aristophane, l'on pourra consulter les éditions pré-citées : la traduction et les notes d'Alphonse Willems ; l'édition aux Belles Lettres ; le commentaire d'Alan Sommerstein ou celui de Rogers. La collection des Presses universitaires d'Oxford (\anglais{Oxford University Press} -- c'est celle de l'édition Austin \& Olson) est un gage de qualité et d'une riche bibliographie.
+
+
+Tous les fragments des pièces perdues d'Aristophane ainsi que les anciens témoignages à son sujet ont été réunis dans l'admirable édition Kassel-Austin des \italique{Poetae Comici Graeci}, vol. III 2 (1984).
+
+\sousPartie{Lexicographie}
+
+Pour une étude générale de l'ensemble du corpus des anciens lexiques en langue grecque, l'on consultera la synthèse de Klaus Alpers dans l'\italique{Historisches Wörterbuch der Rhetorik}, 5 (2001) à l'entrée \allemand{Lexikographie} B, coll. 194-210.\\
+Ci-dessous une brève liste des lexiques les plus employés.\\
+
+--- Hésychius d'Alexandrie (\nieme{IV} siècle ap. J.-C. ?). De tous les lexiques en langue grecque qui nous soient parvenus, celui d'Hésychius est de loin le plus savant et le plus complet. Il est encore bien sous-employé par rapport aux trésors qu'il recèle -- et notamment pour l'exégèse d'Aristophane puisqu'il contient de nombreuses gloses (cf. l'Index des gloses d'Hésychius, à la fin du livre) tirées d'anciens commentaires d'Aristophane permettant de rétablir ou de mieux comprendre le texte. L'on se rapportera à l'édition de Kurt Latte revue récemment par Ian C. Cunningham (\italique{Hesychii Alexandrini Lexicon}) mais sans oublier d'aller aussi consulter la plus ancienne édition de Maurice Schmidt dont l'apparat des témoins est parfois davantage fourni.\\
+
+--- Lexique de Suidas -- ou \italique{Souda} si l'on préfère. L'hypothétique lexicographe Suidas est à peu près contemporain de la rédaction du \italique{Ravennas} (\nieme{IX} ou \nieme{X} siècle.) La numérotation renvoie à l'excellente édition scientifique d'Ada Adler (\italique{Suidae lexikon}). La \italique{Souda} fut numérisée et dotée d'un appréciable outil de recherche en ligne\note{\href{http://www.cs.uky.edu/~raphael/sol/sol-html/}{http://www.cs.uky.edu/~raphael/sol/sol-html/}}. Si une traduction (en anglais) des notices de la \italique{Souda} ainsi que des notes érudites furent ajoutées, on regrette de ne pas y trouver l'apparat critique très précis d'Ada Adler.\\
+
+
+--- Photius de Constantinople (\nieme{IX} siècle). Auteur d'un impressionnant lexique qui nous était parvenu de façon assez lacunaire (dont l'édition de référence était celle de Porson \& Dobree)... jusqu'à la mise au jour dans les années soixante d'un nouveau manuscrit. Christos Theodoridis se lança dans l'aride et monumental labeur d'une nouvelle édition scientifique (\italique{Photii Patriarchae Lexicon}) -- celle dont nous reprenons la numérotation ; cette édition fut malheureusement interrompue après la lettre Phi.
+Finalement, la tâche s'est révélée assez ingrate car ce qu'on croyait lacune \& perte définitive s'est avéré se trouver en bonne partie dans des citations ailleurs (bien souvent la \italique{Souda}).
+Le grand intérêt de cette édition est de proposer ce qu'il se fait de mieux en terme d'apparat des références parallèles (les \italique{testimonia}) avec force références aux travaux les plus récents !\\
+
+--- Συναγωγὴ λέξεων χρησίμων (début du \nieme{X} siècle). Proviendrait en grande partie du lexique de saint Cyril (\nieme{V} siècle). La \italique{Synagoguê} possède en tout cas de nombreux recoupements avec le lexique de Photius ou la \italique{Souda}. On possède un second codex, plus riche mais ne traitant que la lettre α. La numérotation renvoie à l'excellente édition scientifique moderne de Ian C. Cunningham.\\
+
+--- Jullius Pollux (\nieme{III} siècle). Auteur d'un dictionnaire, l'Ὀνομαστικόν, qui regroupe par thèmes des listes de synonymes. Je me réfère à l'édition d'Erich Bethe (\italique{Pollucis Onomasticon}).\\
+
+%Zonaras
+
+\sousPartie{Parémiographie}
+
+Mon commentaire possède deux principaux mérites : celui d'avoir dépouillé Hésychius à chaque difficulté et de recourir massivement -- et même parfois abusivement\note{Sans même s'arrêter sur les problèmes théoriques de définition de l'image, du proverbe, de l'adage \&c., le risque principal en compulsant des recueils de parémiographes est d'être pareil au serpent qui se mord la queue : de justifier une exégèse d'un passage par une citation tirée... dudit passage (voir par exemple le commentaire au vers 702 ; les différentes recensions d'un proverbe proviennent certainement de ce même vers 702). Risque d'autant plus important dans le cas d'Aristophane puisque les parémiographes ont abondamment puisé chez notre poète.} -- à ce qu'il nous est parvenu de la langue proverbiale grecque : car il y très souvent des allusions d'Aristophane à la langue proverbiale de son temps\note{Voir l'Index des allusions proverbiales en fin de bouquin.} ; le poète peut se saisir de plusieurs proverbes ou images qu'il entrechoque\note{Voir par exemple le commentaire aux vers 528-30 : Aristophane détourne le proverbe « sous chaque pierre peut se cacher un scorpion » en substituant au scorpion un rhéteur, animal dont la \italique{morsure} est tout aussi redoutée et dont la `pierre' est le piédestal sur lequel les orateurs discouraient.}. Plus souvent, il s'amuse à prendre littéralement une expression\note{Au vers 633 : `σκάφιον Ξένυλλ' ᾔτησεν· οὐ γὰρ ἦν ἀμίς' (cf. le commentaire \italique{ad. loc.}) De même, au vers 940, Mnésiloque demande à être interrogé devant un tribunal compétent ; l'expression a heureusement été relevée et expliquée par Hésychius δ 926 : δῆσαι πρὸς σανίδι· Ἀττικῶς· βασανίσαι ἐν τῷ δεσμωτηρίῳ. Mais il s'en justifie en expliquant vouloir cacher sa nudité devant les femmes ; `πρὸς τῇ σανίδι δεῖν' est donc à prendre littéralement : « lier face contre la planche ».}. Malheureusement, nous ne possédons que des débris de la littérature attique. Aussi, pour identifier un proverbe ou une image, est-il parfois nécessaire d'aller voir s'il existe dans une langue voisine\note{Le latin est tout indiqué, clairsemé qu'il fut de vocables et d'expressions grecques. À l'exemple du vers 19 : Mnésiloque cherche une euripidéenne explication à son accablement : `διὰ τὴν χοάνην οὖν μήτ᾽ ἀκούω μήθ᾽ ὁρῶ'. Le tour `μήτ᾽ ἀκούω μήθ᾽ ὁρῶ' est à rapprocher du latin \latin{Nec aures me credo habere nec tango}, qui signifie justement qu'on ne se sent plus la force de faire quoi que ce soit.}.\\
+
+
+
+--- \italique{Corpus Parœmiographorum Graecorum}, 2 vol., ed. Leutsch \& Schneidewim (1839). C'est l'ouvrage de référence pour ce qui touche à la parémiographie grecque. Doté d'un commentaire très érudit (en latin). Pour les recensions particulières de Zénobius et Diogénianus, l'on pourra consulter l'édition critique \italique{I proverbi greci} (2019) dirigée par Emanuelle Lelli (traduction et commentaire en italien). Kurt Latte y ajouta un \italique{Supplementum} contenant notamment \italique{Zu den Paroemoigraphen} de L. Cohn (1887).\\
+
+--- \italique{Parœmiographi græci}, ed. Thomas Gaisford (1836). Souvent désigné dans les apparats par \italique{Bodleianus} (première partie) ou \italique{Coislinianus} (seconde partie). \\
+
+
+--- \italique{Dictionnaire des sentences latines et grecques} de Renzo Tosi (1991) (traduit de l'italien par Rebecca Lenoir, 2010). Admirable recueil de 2286 sentences, avec pour chacune une notice à la fois historique, littéraire et philologique.\\
+
+--- Érasme, \italique{Adages}. Je cite les adages ainsi que leur traduction française selon l'édition en cinq volumes (le cinquième est dévolu uniquement aux index) de Jean-Christophe Saladin aux Belles Lettres (2019).\\
+
+
+--- Taillardat, \italique{Les images d'Aristophane}\expo{2} (1965). On ne saurait trop vanter cet ouvrage qui met en lumière la langue toute imagée d'Aristophane.\\
+
+(Les différents lexicographes comme Suidas ou Hésychius sont aussi une source importante pour les proverbes.)
+
+
+\sousPartie{Dictionnaires et recherches textuelles}
+
+Il existe sur l'internet un outil fort pratique développé par l'université de Chicago, λογεῖον\note{\href{https://logeion.uchicago.edu/}{https://logeion.uchicago.edu/}}, regroupant les versions libres de différents dictionnaires : le Liddell-Scott-Jones (allemand), le Bailly (français), le Pape (allemand), le Diccionario Griego–Español (α - ἔξαυος), etc.\\
+
+Pour certains problèmes d'établissements de texte, il peut être utile de faire des recherches d'un mot sans pour autant en préciser les premières lettres ; \italique{Perseus}\note{\href{https://www.perseus.tufts.edu/hopper/resolveform}{https://www.perseus.tufts.edu/hopper/resolveform}} ou le \italique{Thesaurus Linguae Graecae online}\note{\href{http://stephanus.tlg.uci.edu/}{http://stephanus.tlg.uci.edu/}} le permettent. Le \italique{Thesaurus} permet même de pousser plus avant des recherches textuelles et de voir très rapidement quelles sont les autres occurrences d'un mot ou d'une collocation chez un auteur\note{Nos anciennes "concordances" ne sont plus que des antiquités dépassées face au \italique{TLG}.}.\\
+Enfin, signalons un dictionnaire français → grec très complet : le Courtaud-Diverneresse. 
+
+\sousPartie{Encyclopédies}
+
+--- \italique{Le dictionnaire des antiquités grecques et romaines}, dirigé par Daremberg \& Saglio\note{Il en existe une version numérisée en ligne : \href{https://dagr.univ-tlse2.fr/}{https://dagr.univ-tlse2.fr/}, étrangement privée du dernier volume d'index.}.
+
+--- \italique{Paulys Realencyclopädie der classischen Altertumswissenschaft} (souvent abrégée \italique{RE}).
+
+
+%\Partie{Προλεγόμενα·}
+
+%L'on a beaucoup écrit sur Aristophane, et ces dernières années sur les Thesmophories en particulier, mais sans parfois s’appuyer sur une réelle compréhension de la langue toute imagée d’Aristophane. C’est l’objectif de ces notes que d’éclairer sur quelques passages encore mal compris des commentateurs. J’espère ainsi m’inscrire à l’école du grand Alphonse Willems, dont l’Aristophane posthume en trois tomes (1919) mériterait une réédition, tant pour sa traduction élégante, racée et exacte[9] que ses commentaires pétris d’érudition et d’un souffle tout aristophanien. 
+
+\Partie{Le dossier Mnésiloque}
+
+Le protagoniste des \italique{Thesmophories}, Mnésiloque, parent par alliance d'Euripide\note{Κηδεστής. Cf. les vers 74 et 210. Et plus précisément le beau-père ou le beau-fils comme le souligne Moeris l'Atticiste κ 38 : κηδεστὰς καὶ τοὺς διδόντας καὶ τοὺς λαμβάνοντας τὰς κόρας.} n'est jamais nommé au cours de la pièce. On sait son nom par une scholie du \italique{Ravennas} au début de la pièce qui fait office d'ὑπόθεσις\note{Προλογίζει Μνησίλοχος κηδεστὴς Εὐριπίδου.\\
+ὁ χορὸς ἐκ θεσμοφοριαζουσῶν.\\
+καὶ τοῦτο τὸ δρᾶμα τῶν κατ᾽ Εὐριπίδου πεποιημένων. ἀπὸ δὲ τῶν θεσμοφορίων τὰς θεσμοφοριαζούσας γυναῖκας ἐπέγραψεν, ἀφ ὧν καὶ ὁ χορός.\\
+Ἑὐριπίδου γυνὴ μὲν Χοιρίνη, μήτηρ δὲ Κλειτώ.}. Un certain nombre de commentateurs, un peu trop versés dans l'hypercriticisme à notre avis, jugent que ce nom est un ajout postérieur à Aristophane et préfèrent l'appeler « le Parent » (ou κηδεστής en grec).
+
+%On se demande bien pourquoi un scribe serait aller inventer un tel nom.
+Remarquons pour commencer que ce protagoniste est sans aucun doute un personnage historique, justement parce qu'il n'est pas nommé ; à l'instar du Paphlagonien Cléon dans les \italique{Cavaliers}\note{Qui n'est nommément cité qu'une seule fois : par le chœur au vers 975} ou des deux esclaves Démosthène et Nicias.
+Au contraire, la plupart des personnages inventés par Aristophane portent un nom évocateur ; qu'on songe à Lysistrata, Strepsiade, Dêmos, Philocléon, Bdélycléon, Praxagora, \&c. \&c. 
+Il est à croire que le parent d'Euripide fait partie de ces contemporains joués par les poètes comiques et dont le masque comique suffisait à se faire reconnaître des spectateurs.
+Or un fragment du poète comique Téléclide\note{Fragment 40(39) de l'édition Kassel-Austin des \italique{Poetae comici Graeci}, vol. VII.} fait état d'un certain Mnésiloque faisant partie du cercle d'Euripide (autour duquel gravitait aussi Socrate) :
+\citComm{Μνησίλοχός ἐστ᾽ ἐκεῖνος <ὅς> φρύγει τι δρᾶμα καινὸν\\
+Εὐριπίδῃ καὶ Σωκράτης τὰ φρύγαν᾽ ὑποτίθησιν\\
+Mnésiloque est celui qui fait griller un drame nouveau\\
+pour Euripide et sous lequel Socrate met le menu bois.}
+Taillardat\note{\italique{Les images d'Aristophane}, §751.} range cette image avec celles du « poète-cuisinier ». 
+Nous nous demandons pour notre part si le verbe φρύγειν n'aurait pas ici le sens de \italique{subventionner}. Mnésiloque serait cet homme rustre, mais riche, qui servirait de mécène à Euripide quand Socrate l'indigent lui fournirait le contenu de la pièce.%\note{L'épigraphie (\italique{Inscriptiones Graecae} II\expo{3} 4, 508) nous apprend qu'à Athènes un Mnésiloque, fils de Mnésiphile, fut chorège d'un chœur tragique qui l'emporta au concours :
+%\citComm{Μνησίλοχο[ς] Μνησιφίλου\\
+%τραγωιδοῖς χορηγῶν ἐνίκα.}
+%Cette inscription n'est que très approximativement datée du milieu du \nieme{IV} siècle d'après la forme des lettres. Il est peu probable qu'elle se réfère à notre beau-père d'Euripide ; nous la signalons tout-de-même dans l'hypothèse où une nouvelle pièce viendrait s'ajouter au puzzle.}. 
+
+
+Enfin, l'usage chez les Grecs était d'appeler son premier fils du nom du grand-père paternel et le second du nom du grand-père maternel comme l'atteste Démosthène\note{Πρὸς Μακάρτατον περὶ Ἁγνίου Κλήρου, 43 74. Ainsi comprend-on le vers 283 des \italique{Oiseaux}.} (il fait parler un de ses clients) :
+\citComm{τῷ μὲν πρεσβυτάτῳ τὸ τοῦ πατρὸς τοῦ ἐμαυτοῦ ὄνομα, Σωσίαν, ὥσπερ καὶ δίκαιόν ἐστιν, καὶ ἀπέδωκα τῷ πρεσβυτάτῳ τοῦτο τὸ ὄνομα. τῷ δὲ μετ᾽ αὐτὸν γενομένῳ τούτῳ ἐθέμην Εὐβουλίδην, ὅπερ ἦν ὄνομα τῷ πατρὶ τῷ τῆς μητρὸς τοῦ παιδὸς τουτουί.\\
+À mon fils aîné, j'ai donné, comme de juste, le nom de mon père Sosias ; à mon second, le nom du père de ma femme, Eubulide.}
+Or les différentes \italique{Vies} d'Euripide\note{Voir le cinquième volume consacré à Euripide, édité par Kannicht, des \italique{Tragicorum Graecorum Fragmenta} et le \italique{stemma familiae} d'Euripide (p. 56) reconstitué d'après ses \italique{Vitae} et notamment \italique{Testimonia} 1A.24 : υἱοὺς κατέλιπε τρεῖς· Μνηκαρχίδην μὲν πρεσβύτατον ἔμπορον, δεύτερον δὲ Μνησίλοχον ὑποκριτήν, νεώτατον δὲ Εὐριπίδην, ὃς ἐδίδαξε τοῦ πατρὸς ἔνια δράματα.} confirment qu'il eut pour fils aîné Μνησαρχίδης, portant le même nom que son père, et pour second Μνησίλοχος.
+
+
+Rien, nous l'avons vu, ne justifie de rejeter comme inauthentique l'identification du Parent avec Mnésiloque. Au contraire, tout un faisceau d'indices concordant -- chose rare en présence d'anecdote apocryphe -- nous incline à conserver la tradition qui reconnaît Mnésiloque derrière le protagoniste des \italique{Thesmophories}.
+
+Cependant, si nous acceptons que le protagoniste soit Mnésiloque, le père de Χοιρίνη, épouse d'Euripide, il faut alors bien interpréter la prière de Mnésiloque à sa fille (χοῖρον au vers 289, corrigé χοιρίον d'après la scholie... mais qu'il faudrait peut-être bien lire Χοιρίν'. Cf. la fin du commentaire au vers 291).
+
+%2° Démosthène : correspond à l'usage d'appeler son premier fils du nom du grand-père paternel et le second du grand-père maternel... ce qui certes ne prouve rien puique c'est justement en allant fouiller dans l'arbre généalo ... au moins y a-t-il une cohérence, ce qui n'est que rarement le cas des anecdotes forgées postérieurement
+
+%Les \italique{Thesmophories} ne nous est parvenue que par un seul manuscrit, le manuscrit de Ravenne (probablement du \nieme{X} siècle).
+
+
+\Partie{Témoins de la pièce}
+
+Je ne recense ici que les témoins principaux. Le lecteur trouvera au fil du commentaire un apparat des témoins secondaires plus complet. (Le sigle correspond à l'abréviation de l'apparat critique.)\\
+
+R\decalageN{R }\decalage{AAAAAAAAA}\italique{Ravennas}, codex gr. 429 de la Biblioteca Classense de Ravenne, \nieme{X} siècle.\\
+
+\Mon\decalageN{\Mon}\decalage{AAAAAAAAA}\italique{Monacensis}, codex gr. 492 de la Bayerische Staatsbibliothek (BSB) de Munich, copie du \italique{Ravennas} du \nieme{XV} siècle.\\
+
+\PsiUn\decalageN{\PsiUn}\decalage{AAAAAAAAA}\italique{Papiri della Società Italiana} XI n° 1194 : vers 145-156 ; 237-245 ; 273-288 ; 594-596 ; 804-809 ; 1231 (et 133-144 \italique{PSI} XIV, p. XV.), \nieme{II} siècle.\\
+
+\PsiDeux\decalageN{\PsiDeux}\decalage{AAAAAAAAA}\italique{The Oxyrhynchus Papyri} LVI  n° 3839 : vers 742-766 (fr. 1) ; vers 941-953 (fr. 2), \italique{circa} 200 ap. J.-C.\\
+
+\PsiTrois\decalageN{\PsiTrois}\decalage{AAAAAAAAA}\italique{The Oxyrhynchus Papyri} LVI n° 3840 : vers 1185-1193, \nieme{IV} siècle.\\
+
+\PsiQuatre\decalageN{\PsiQuatre}\decalage{AAAAAAAAA}\italique{The Oxyrhynchus Papyri} LXXIII n° 4935 : vers 1043-1051 (fr. 1) ; vers 1201-1210 (fr. 2), \nieme{II} siècle.\\
+
+\PsiCinq\decalageN{\PsiCinq}\decalage{AAAAAAAAA}\italique{The Oxyrhynchus Papyri} IX n° 1176, fr. 39, col. XII : vers 335-337 ; 373-375, \nieme{II} siècle. \\
+
+Suid.\decalageN{Suid.}\decalage{AAAAAAAAA}\italique{Souda} (\italique{Suidae Lexicon}, ed. Ada Adler), lexique du \nieme{X} siècle.
+
+\Partie{Τὰ τοῦ δράματος πρόσωπα}
+
+
+	Μνησίλοχος, κηδεστὴς Εὐριπίδου
+	
+	
+	Εὐριπίδης
+	
+	θεράπων Ἀγάθωνος
+	
+	Ἀγάθων
+	
+	κορυφαῖος
+	
+	χορὸς θεσμοφοριαζυσῶν
+	
+	Μίκα
+	
+	Κρίτυλλα
+	
+	Κλεισθένης 
+	
+	Πρύτανις 
+	
+	Τοξότης \\
+	
+	(κωφὰ πρόσωπα.)
+	
+	Μανία 
+	
+	
+	Ἐλάφιον
+	
+	Τερηδών
+	
+\cleardoublepage
+
+
+
+\end{document}

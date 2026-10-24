@@ -1,0 +1,442 @@
+\documentclass{book}%
+\usepackage{graphicx} % pour l'image de la coupe d'Onésime
+\usepackage[french]{babel}
+\usepackage{fontspec}%
+\usepackage{xunicode}%
+%\usepackage{yfonts}%
+%\usepackage{hyperref}% pour le courriel
+\usepackage{amsmath}%
+%\usepackage{cancel}% pour \inRas
+\usepackage{quoting}%
+\usepackage{ulem}% pour souligner en pointillé
+\usepackage{comment}%
+\usepackage{xcolor}%
+\usepackage{graphicx}
+%scale = {hscale, vscale}
+%\usepackage[scale={0.75,0.8}]{geometry}%
+%\setlength{\hoffset}{-18pt}        
+%\setlength{\oddsidemargin}{20pt} % Marge gauche sur pages impaires ATTENTION écrit 2 fois
+
+
+\newfontfamily{\policeFr}{GFS Bodoni}%
+%\newfontfamily{\policeLat}{Book Antiqua}%
+\newfontfamily{\policeLat}{GFS Neohellenic}%
+%\newfontfamily{\policeAn}{Comic Sans MS}%
+\newfontfamily{\policeAn}{Courier 10 Pitch}%
+%\newfontfamily{\policeAll}{Fraktur}%
+%\newfontfamily{\policeAll}{fraktur-bt.ttf}%
+\newfontfamily{\policeAll}{Bertholdr Mainzer Fraktur}%
+%\newfontfamily{\policeIt}{BodoniFLF}%
+\newfontfamily{\policeIt}{GFS Artemisia}%
+%\newfontfamily{\policeEsp}{Great Moravia}%
+%\newfontfamily\policeGr{GFSBodoni.otf}[BoldFont = GFSBodoniBold.otf, ItalicFont = GFSBodoniIt.otf, BoldItalicFont = GFSBodoniBoldIt.otf]%
+%\setmainfont{GFSBodoni.otf}[BoldFont = GFSBodoniBold.otf, ItalicFont = GFSBodoniIt.otf, BoldItalicFont = GFSBodoniBoldIt.otf]
+\newfontfamily\policeGr{GFS Bodoni}%
+\setmainfont{GFS Bodoni}
+%\setdefaultlanguage[variant=ancient]{greek}%
+\usepackage{polyglossia}%
+\setdefaultlanguage{french}%
+%\setotherlanguage[variant=ancient]{greek}%
+%\setmainlanguage[variant=ancient]{greek} 
+%\setotherlanguage[variant=ancient]{greek} 
+%\setmainfont{Libertinus Serif} 
+%\newfontfamily{\greekfont}{Liberation Serif}[
+%  Script=Greek,
+%  NFSSFamily=liberationserif,
+%]
+
+\usepackage[maxlevel=3]{csquotes}%
+%\MakeOuterQuote{"}% pour les guillemets français
+%\usepackage{verse}%
+
+
+\newcommand{\italique}[1]{\textit{#1}}%
+%\newcommand{\citComm}[1]{\begin{quoting}[vskip=0pt] #1 \end{quoting}}% vskip = \topsep + \partopsep par défaut
+\newcommand{\espace}[1]{\hspace{#1}}%
+\newcommand{\cesure}[0]{ [...] }%
+\newcommand{\nieme}[1]{#1\italique{e}}%
+\newcommand{\lettreBreve}[1]{$\breve{\mbox{#1}}$}
+\newcommand{\synizese}[1]{$\widearc{\mbox{#1}}$}
+\newcommand{\inRas}[2]{$\overset{\text{#2}}{\text{\sout{#1}}}$}
+\newcommand{\auDessus}[2]{$\overset{\text{#2}}{\text{#1}}$}
+%\newcommand{\etc}[0]{κτλ}%
+%\newcommand{\cit}[0]{\espace{1cm}} % indent. pour une citation
+\newcommand{\expo}[1]{\textsuperscript{#1}}%
+\newcommand{\alinea}[0]{ \ \ }%
+\newcommand{\Syn}[0]{ Συναγωγή }%
+\newcommand{\SynB}[0]{ Συναγωγή\expo{B} }% la deuxième version pour la lettre A
+\newcommand{\ClemAlex}{ Clemens Alexandrinus }
+\newcommand{\Eustathe}{ Eustathius }
+\newcommand{\AelDion}{ Aelius Dionysius }
+\newcommand{\EtymMagnum}{ Etymologicum magnum }
+\newcommand{\EtymGen}{ Etymologicum genuinum }
+\newcommand{\EtymSym}{ Etymologicum Symeonis }
+\newcommand{\Apostol}{ Michael Apostolius }
+\newcommand{\Phryn}{ Phrynichus \italique{Praep. soph.} }
+\newcommand{\Stobee}{ Joannes Stobaeus }
+\newcommand{\EpimAlphab}{ Epimerismi alphabetici in Homerum (ed. Cramer) }
+\newcommand{\GregCor}{ Gregorius Corinthius }
+\newcommand{\Antiatt}{ Antiatticista (ed. Bekker) }
+\newcommand{\Harp}{ Harpocration }% Autre édition de référence : Dindorf
+\newcommand{\Rpc}[0]{R\expo{pc}}%
+\newcommand{\Rac}[0]{R\expo{ac}}%
+\newcommand{\Rdeux}[0]{R\expo{2}}%
+\newcommand{\Mon}[0]{ M }%
+\newcommand{\PsiUn}[0]{PSI-1194}
+\newcommand{\PsiDeux}[0]{POxy-3839}
+\newcommand{\PsiTrois}[0]{POxy-3840}
+\newcommand{\PsiQuatre}[0]{POxy-4935}
+
+\newcommand{\francais}[1]{{\policeFr #1}}%
+\newcommand{\latin}[1]{{\policeLat #1}}%
+\newcommand{\allemand}[1]{{\policeAll #1}}%
+%\newcommand{\allemand}[1]{{\textfrak{#1}}}%
+%\newcommand{\grec}[1]{{\policeGr #1}}%
+\newcommand{\grec}[1]{#1}%
+\newcommand{\anglais}[1]{{\policeAn \scriptsize{#1}}}%
+\newcommand{\italien}[1]{{\policeIt #1}}%
+\newcommand{\espagnol}[1]{{\policeEsp #1}}%
+
+\newcommand{\Nauck}[0]{N\expo{2}}%
+\newcommand*{\auteur}[1]{\textsc{#1}*}%
+\newcommand{\cf}[0]{\italique{cf.}\xspace}%
+\newcommand{\chap}[1]{\^{#1}}%
+
+\newlength{\larg}%
+\newcommand{\decalage}[1]{%
+\settowidth{\larg}{#1}%
+\espace{\larg}%
+}
+\newcommand{\decalageN}[1]{%
+\settowidth{\larg}{#1}%
+\espace{-\larg}%
+}
+
+\usepackage{xcolor}
+\newcommand{\fantome}{{\color{white}v}}
+
+\newcommand{\lecon}[1]{\textbf{#1}}
+%\newcommand{\douteux}[1]{\dotuline{#1}} % pour les lettres douteuses : un point en-dessous
+\newcommand{\douteux}[1]{$\underset{\cdot}{\text{#1}}$}
+\newcommand{\difference}[1]{\dotuline{#1}}
+
+\newcommand{\marqueur}[1]{\textsuperscript{#1}}%
+
+\newcommand{\eff}[1]{%
+{\color{orange}#1}%
+}%
+
+\newcommand{\LSJ}[0]{LSJ}%
+
+
+
+\newcommand{\Index}[1]{\section*{#1}%
+\addcontentsline{toc}{section}{#1}}
+\newcommand{\note}[1]{\footnote{#1}}
+\newcommand{\biblio}[2]{\hspace*{-1.5cm}\textbf{[#1]}\hspace*{1.5cm}#2\\
+
+}
+\newcommand{\Auteur}[1]{\hspace*{-1.5cm}\textbf{#1} \\}
+\newcommand{\livre}[1]{\hspace*{0.5cm}#1\\}
+\newcommand{\passage}[3]{\hspace*{1.0cm} #1 \hspace*{1.2cm}\decalageN{#1} #2 \dotfill \hfill	\textbf{#3}\\} % passage Corrigé ou expliqué
+%\newcommand{\passageC}[3]{\hspace*{2.5cm} #1 \hspace*{1cm} #2 \dotfill \hfill	\textbf{#3}\\} % passage Corrigé ou expliqué
+
+\pagenumbering{alph}
+
+
+\usepackage{minipage-marginpar}
+\usepackage{marginnote}
+\usepackage[marginparwidth=3cm]{geometry}% pour les marges
+%\usepackage{geometry}
+\usepackage{multicol}
+
+\begin{document} 
+\renewcommand{\contentsname}{Index}
+\title{Index}
+\author{}\date{}
+\maketitle
+\setcounter{page}{0}
+
+
+\tableofcontents
+%\setcounter{page}{0}
+\cleardoublepage
+%\setcounter{page}{1}
+
+
+%
+%\Index{Index des auteurs cités}
+%dsvdsvs
+%\begin{multicols}{2}
+%texte à placer sur N colonnes
+%	
+%fnrene
+%
+%rzbqze
+%
+%gzqerg
+%dvqezzzzzzzzzzzzzzzzzzzzzzz
+%
+%
+%zrgzg
+%\end{multicols}
+
+\Index{Index des allusions proverbiales}
+(Une liste des proverbes cités par Platon -- qu'il faudrait certainement compléter -- a été dressée par Jowett, \italique{The dialogues of Plato}, V, pp. 497-498.)
+
+
+\Auteur{Aristophane}
+\livre{\italique{Acharniens}}
+\passage{258}{περιτράγῃ τὰ χρυσία}{894}
+\livre{\italique{Nuées}}
+\passage{55}{σπαθᾶν [τὴν κρόκην]}{738}
+\passage{394}{`βροντὴ' καὶ `πορδή' ὁμοίω}{49-50 n. 2}
+\livre{\italique{Guêpes}}
+\passage{170}{αὐτοῖσι τοῖς κανθηλίοις}{819-23}
+\livre{\italique{Paix}}
+\passage{793-5}{ἔφασκε [$=$ Καρκίνος] τὸ δρᾶμα [$=$ Μῦες] γαλῆν τῆς ἑσπέρας ἀπάγξαι}{558-9}
+\passage{1253}{συρμαίαν μετρεῖν $\sim$ κύματα μετρεῖν}{855-7}
+\livre{\italique{Thesmophories}}
+\passage{19}{μήτ' ἀκούω μήθ' ὁρῶ}{19}
+\passage{21}{οἷόν τέ που ’στιν αἱ σοφαὶ ξυνουσίαι}{21}
+\passage{24}{προσμάθοιμι χωλὸς εἶναι τὼ σκέλει}{22-4}
+\passage{94}{ἡμέτερος ὁ πυραμοῦς}{94}
+\passage{140}{τίς δαὶ κατόπτρου καὶ ξίφους κοινωνία}{140}
+\passage{168}{ὁ Φιλοκλέης αἰσχρὸς $=$ κορυδός}{168-70}
+\passage{241-2}{ὕδωρ ὦ γείτονες πρὶν ἀντιλαβέσθαι πρωκτὸν ἓτερον τῆς φλογός}{241-2}
+\passage{247}{μὴ φροντίσῃς· ἕτερος σπογγιεῖ (cf. \italique{Grenouilles} 487 ?)}{247 n. 1}
+\passage{248}{οἰμώξετ' ἄρ' εἴ τις τὸν ἐμὸν πρωκτὸν πλυνεῖ}{248}
+\passage{394}{τὰς οὐδὲν ὑγιές. Cf. Érasme n° 738, \italique{nihil sanum}.}{394}
+\passage{455-6}{ἄγρια δρᾷ κακά ἅτ' ἐν ἀγρίοισι τοῖς λαχάνοις αὐτὸς τραφείς}{455-6}
+\passage{489}{ἐχομένη τῆς δάφνης}{489}
+\passage{527}{ἀλλ' ἅπαν γένοιτ' ἂν ἤδη}{527}
+\passage{529-30}{ὑπὸ λίθῳ παντί ἀθρεῖν}{528-30}
+\passage{530}{δάκῃ ῥητωρ $\sim$ δῆγμα συκοφάντου}{528-30}
+\passage{531-2}{οὐδὲν κάκιον φύσει τῶν γυναικῶν πλὴν ἄρ' εἰ γυναῖκες}{531-2}
+\passage{559}{ἔπειτα τὴν γαλῆν φαμεν}{558-9}
+\passage{568}{λαβὲ θοἰμάτιον Φιλίστη}{568}
+\passage{633}{σκάφιον Ξένυλλ' ᾔτησεν· οὐ γὰρ ἦν ἀμίς}{633}
+\passage{702}{ἅπαντα τόλμης κἀναισχυντίας}{702}
+\passage{738}{κακὸν δὲ καὶ τοῖς σκευαρίοις καὶ τῇ κρόκῃ}{738}
+\passage{773}{ἀντὶ τῶν πλατῶν $\sim$ ἄλλο γένος κώπης ?}{773-4}
+\passage{822}{αὐτῶ κανῷ}{819-23}
+\passage{894}{ἐπὶ κλοπῇ τοῦ χρυσίου}{894}
+\passage{928}{αὕτη μὲν ἡ μήρινθος οὐδὲν ἔσπασεν}{928}
+\passage{938}{καίπερ ἀποθανουμένῳ $\sim$ Ἀττικὸς ὑπέχει τὴν χεῖρα ἀποθνήσκων}{936-7}
+\passage{940}{πρὸς τῇ σανίδι δεῖν $=$ δῆσαι πρὸς σανίδι (Hesychius δ 926)}{939-42}
+\passage{949}{Παύσων σέβεται καὶ νηστεύει $\sim$ Παύσωνος πτωχότερος}{949-52}
+\passage{1079}{ἐς κόρακας}{1079}
+\passage{1192}{ὠς γλυκερὸ τὸ γλῶσσ', ὤσπερ Ἀττικὸς μέλις $\sim$ μελίγλωσσος}{1192}
+\livre{\italique{Grenouilles}}
+\passage{172}{βούλει σκευάρι' εἰς Ἅιδου φέρειν}{738}
+\passage{560}{αὐτοῖς τοῖς ταλάροις}{819-23}
+
+
+
+
+
+\Index{Index des gloses d'Hésychius utiles pour l'établissement et la bonne compréhension du texte}
+(Je ne recense ici que les gloses d'Hésychius qui ont servi au rétablissement de l\allemand{Urtext} ou à la bonne compréhension d'un passage encore mal expliqué. Il n'y a qu'à jeter un œil sur les \latin{testimonia} pour constater combien les commentaires les plus érudits d'Aristophane ont scrupuleusement été dépouillés et intégrés au lexique d'Hésychius.)\\
+\Auteur{Aristophane}
+\livre{\italique{Cavaliers}}
+\passage{20}{α 6416 : ἀπόκυνον : μάζα [ ... ] πρὸς ἀναίρεσιν κυνῶν}{455-6}
+\livre{\italique{Oiseaux}}
+\passage{1126}{δ 2227 : ἐλύμνιαι· δοκοὶ ὀρόφιναι}{1069}
+\livre{\italique{Thesmophories}}
+\passage{50}{π 3188 : πραῖνοι· πρηνίζει, καταστρέφει}{49-50}
+\passage{80}{τ 1440 : τρίτη Θεσμοφορίων· ζητεῖται πῶς ἅμα μὲν λέγει τρίτην Θεσμοφορίων εἶναι, ἅμα δὲ μέσην, τεττάρων οὐσῶν ἡμερῶν}{80}
+\passage{100}{μ 1904 : Μύρμηκος ἀτραπούς· [ ... ] ἀπὸ ἥρωος Μύρμηκος ὀνομαζομένη}{100}
+\passage{163}{δ 1805 : δίκανα· ποικίλα ἱμάτια}{161-3}
+\passage{291}{θ 50 : θάλλικα· σάκκου εἶδος}{291}
+\passage{704}{ε 3599 : ἐξαρῆξαι· ἐκφορῆσαι}{704}
+\passage{743}{τ 1388 : τρικότυλος οἶνος· οὗ τρεῖς κοτύλαι ὀβολοῦ πωλοῦνται}{743}
+\passage{781}{τ 1162 : τορεῖν· τορῆσαι, τρῆσαι, τεμεῖν}{781}
+\passage{853}{ε 1995 : ἑλένη· λαμπάς, δετή}{853}
+\passage{894}{χ 792 : χρυσίον· τὸ τῶν παιδίων αἰδοῖον}{894 n.5}
+\passage{910}{λ 171 : λαίφια· ῥάκη}{910}
+\passage{940}{δ 926 : δῆσαι πρὸς σανίδι· Ἀττικῶς· βασανίσαι ἐν τῷ δεσμωτηρίῳ}{939-42}
+\passage{945}{κ 4170, 4270 : κρόκαλον· τὸ πανοῦργον παιδίον (κρόκαλ' $\sim$ κροκώθ' ?)}{945}
+\passage{1041}{ψ 135 : ψεφαυγοῦς· σκοτεινῆς (cf Schol. ad v.1054)}{1041}
+\Auteur{Euripide}
+\livre{\italique{Fragments} (ed. Kannicht)}
+\passage{228}{κ 468 : †κάλλης (immo καλλήϊον)· καρπίμου}{855-7}
+\passage{228}{γ 66 : Γαιών· ποταμός, παρ' Ἕλλησι Νεῖλος}{855-7}
+
+
+
+\clearpage
+
+
+
+\Index{Index des corrections proposées}
+\Auteur{Aristophane}
+\livre{\italique{Cavaliers}}
+\passage{20}{ἀπόκινον codices omnes : ἀπόκυνον Bibi ap. Hesych. α 6416}{455-6}
+\livre{\italique{Lysistrata}}
+\passage{104;114}{Les deux répliques sont prononcées par la même femme}{643}
+\livre{\italique{Thesmophories}}
+\passage{1}{χελιδὼν R : Χελιδὼν Bibi ap. Clements}{1-10}
+\passage{31}{Ἀγάθων R : ἀγαθῶν ; Bibi}{30-3}
+\passage{50}{πράμος R : πραῖνοι Bibi ap. Hesych. π 3188}{49-50}
+\passage{71-4}{(Μνη.) (71) et (Εὐρ.) (72-4) R : (Μνη.) (71- 4) Bibi ap. Schol.}{70-4}
+\passage{163}{διεκίνων R : διεκίνουν Suid. : δίκανον Bibi ap. Hesych. δ 1805}{161-3}
+\passage{217}{διδόναι γ’ αὐτὸν R : διδόναι γ’ ἑαυτὸν Bibi auctore Willems}{217}
+\passage{291}{πρὸς θάληκον R : Ποσθαλίσκον Dindorf : πρὸς θάλικα Bibi}{291}
+\passage{446}{ἐν Κύπρῳ R : ἐγκύμων Bibi}{446}
+\passage{557}{τὸν σῖτον R, Schol., Suid. σ 512 : τὸν κύσθον Bibi, cf. v. 1114}{556-7}
+\passage{637-40}{(Μνη.) R : (Μνη.) (637-8) et (Μίκα) (639-40) Bibi}{637-40}
+\passage{638}{χάλᾳ R : χάλα Grynaeus : χαλᾷ Bibi}{637-40}
+\passage{702}{ἔργα R : πλέα Suid. : δοῦλα cod. Laur. : διπλὰ Bibi}{702}
+\passage{704}{ἐξάρξω R : ἐξαράξω Bentley : ἐξαρήξω Bibi}{704}
+\passage{710}{ἥκεις R : ἥκεις Suid. : ἥκων Willems : ἥκειν Bibi ap. Phot. η 88}{710-2}
+\passage{711}{οὐ λέξεις R, Suid. : οὐκ ἔξει. Bibi ap. Schol.}{711-2}
+\passage{721}{ἀθέοις ἔργοις R : ξὺν ἀθέοις ἔργοις Bibi ap. Taillardat, cf. v. 716}{721-5 n.3}
+\passage{743}{τρικότυλον ; ἢ πῶς. --- εἰπέ μοι· τί μ' ἠργάσω ; (ap. POxy-3839)}{743}
+\passage{781}{τὸ ῥῶ R : τορῶ Bibi ap. Hesych. τ 1162}{781}
+\passage{822-3}{ταὐτὸ κανοῦν \inRas{οἱ καλαθίσκοι}{} καὶ τὸ σκιάδειον}{819-23}
+\passage{839}{ὦ πόλεις R : ὦ πόλις Gelenius : ωὖπολι Bibi}{839}
+\passage{853}{Ἑλένη R : Ἑλένην Bonini : ἑλένην Bibi, ap. Hesych. ε 1995}{853}
+\passage{910}{ἀφύων R : ἰφύων Schol., Suid. : ἀμφίων Grégoire : λαιφίων Bibi}{910}
+\passage{1031}{κημὸν ἕστηκ' ἔχουσ' R : ἕστηκ' ἔχουσα κημόν, cf. schol. \italique{Vesp.} 674c}{1031}
+\passage{1041}{φεύγουσαν R : ψεφαυγοῦς Bibi, cf Schol. ad v.1054, Hesych. ψ 135}{1041}
+\passage{1071}{μέρος ἐξέλαχον; R : μόρος ἔξελ' ἄχος. Bibi}{1071}
+\passage{1074}{στωμυλωμένη R : στωμυλιομενής Bibi}{1073-5}
+\passage{1078}{παῦσαι R : παΰσαι Bibi}{1078}
+\passage{1079}{βάλλ' ἐς κόρακας R : βάλλε σύ κόρακας Bibi}{1079}
+\passage{1093}{(Εὐρ.) ποῖ ποῖ πέτει om. R : suppl. Bibi}{1093}
+\passage{1151}{θεμιτὸν R : θέμις Burges : θεμιτ' Bothe : θεμιτεύετον Bibi}{1150-3}
+\passage{Σ 1174}{τὸ ἁβρῶς βαδίζειν R : τὸ ἄκρως βαδίζειν Bibi ap. Zonaras}{1174}
+\passage{1197}{συμβήνην R, Bibi : συβήνην Schol., Suid., edd. omn.}{1196-217}
+\livre{\italique{Grenouilles}}
+\passage{19-20}{οὐκ ἐρεῖ codd. : οὐ κε ῥεῖ Bibi}{647-8 n.3}
+\livre{\italique{Fragments} (ed. Kassel-Austin)}
+\passage{192.96}{[τὸ]\douteux{ν} ναυτικὸν \douteux{ἄ}[ργυρον}{839}
+\Auteur{Diogenianus}
+\passage{IV 78}{ταὐτὸ τῇ codd. : ταὐτότητι Bibi}{489}
+\Auteur{Euripide}
+\livre{\italique{Fragments} (ed. Kannicht)}
+\passage{228}{κάλλιστον ἐκ γαίας : καλλήϊον Γαιᾶ Bibi ap Hesych. κ 468, γ 66}{855-7}
+\Auteur{Eustathe de Thessalonique}
+\livre{\italique{Commentaire à l'}Iliade}
+\passage{976.13}{λέγεται δὲ φησίν codd. : λέγεται δὲ σφῇσιν Bibi}{643}
+\Auteur{Hipponax}
+\livre{\italique{Fragments} (ed. Masson / Degani)}
+\passage{30 / 42}{οὔ μοι δικαίως μοιχὸς edd. : οὔ μοι δίκᾳ ὡς μοιχὸς Bibi}{894}
+\Auteur{Sappho}
+\livre{\italique{Fragments} (ed. Reinach-Puech / Éva-Maria Voigt)}
+\passage{70/125}{αὐτὰ κόραις στεφαναπλόκεο}{400-1}
+
+
+
+
+
+\clearpage
+
+
+
+\Index{Index des passages davantage explicités.}
+{\centering }
+\Auteur{Aristophane}
+\livre{\italique{Cavaliers}}
+\passage{765}{[Κλέων] βέλτιστος ἀνὴρ μετὰ Λυσικλέα καὶ Κύνναν καὶ Σαλαβακχώ}{805}
+\livre{\italique{Nuées}}
+\passage{133}{κόρακες $=$ \italique{marteaux de porte}}{1079}
+\passage{394}{`βροντὴ' καὶ `πορδή' ὁμοίω}{49-50 n. 2}
+\passage{508}{εἰς Τροφωνίου}{570}
+\livre{\italique{Guêpes}}
+\passage{98-9}{Δῆμον καλόν ... κημὸς καλός}{1031}
+\passage{853}{τοὺς καδίσκους $=$ \italique{les muselières}}{1031}
+\livre{\italique{Paix}}
+\passage{793-5}{[Καρκίνος] ἔφασκε τὸ δρᾶμα [$=$ Μῦες] γαλῆν τῆς ἑσπέρας ἀπάγξαι}{558-9}
+\passage{1252-3}{πώλει [τὰ κράνη] τοῖς Αἰγυπτίοις ... ἐπιτήδεια συρμαίαν μετρεῖν}{855-7}
+\livre{\italique{Oiseaux}}
+\passage{1126}{Aller se faire pendre εἰς Ἐλύμνιον}{1069}
+\livre{\italique{Lysistrata}}
+\passage{111-4}{τοὔγκυκλον τουτὶ καταθεῖσαν ἐκπιεῖν αὐθημερόν}{643}
+\passage{681}{αὐχήν}{647-8 n. 2}
+\livre{\italique{Thesmophories}}
+\passage{1-10}{ὦ Ζεῦ ... οὐχ ἅ γ᾽ ἂν ἀκούειν δέῃ.}{1-10}
+\passage{80}{ἐπεὶ τρίτη ’στὶ Θεσμοφορίων ἡ μέση}{80}
+\passage{98}{Κυρήνην δ' ὁρῶ}{98}
+\passage{100}{μύρμηκος ἀτραπούς}{100}
+\passage{101-29}{Chant d'Agathon}{101-29}
+\passage{273}{τὴν Ὑποκράτους ξυνοικίαν}{273}
+\passage{336-7}{ἢ 'πικηρυκεύεται Εὐριπίδῃ Μήδοις ἐπὶ βλάβῃ τινὶ.}{336-7}
+\passage{346}{ἢ καὶ δέχεται προδιδοῦσ' ἑταίρα τὸν φίλον}{346}
+\passage{455-6}{ἄγρια δρᾷ κακά ἅτ' ἐν ἀγρίοισι τοῖς λαχάνοις αὐτὸς τραφείς}{455-6}
+\passage{487}{ἐγὼ δὲ καταχέασα τοῦ στροφέως ὕδωρ}{487}
+\passage{500}{ὑπ' αὐγὰς οἷόν ἐστιν ἐγκεκαλυμμένον}{500}
+\passage{529-30}{ὑπὸ λίθῳ γὰρ παντί που χρὴ μὴ δάκῃ ῥητωρ ἀθρεῖν}{528-30}
+\passage{556-7}{στλεγγίδας λαβοῦσαι ἔπειτα σιφωνίζομεν τὸν κύσθον}{556-7}
+\passage{570}{τὸν σησαμοῦνθ' ὃν κατέφαγες, τοῦτον χεσεῖν ποιήσω}{570}
+\passage{605}{Κλεώνυμος / ῥίψασπις}{605}
+\passage{633}{σκάφιον Ξένυλλ' ᾔτησεν· οὐ γὰρ ἦν ἀμίς}{633}
+\passage{643}{ἔγκυκλον}{643}
+\passage{647}{ἰσθμόν}{647-8}
+\passage{747}{σχεδὸν τοσοῦτον χὤσον ἐκ Διονυσίων.}{747}
+\passage{754}{δός \{μοι\} τὸ σφαγεῖον}{754}
+\passage{760-1}{τίς ἐξεκόρησέ σε; τίς τὴν ἀγαπητὴν παῖδά σοὐξηράσατο;}{760-1}
+\passage{782}{χώρει, χώρει}{782}
+\passage{782-4}{ποίαν αὔλακα ... ταχέως χρή}{782-4}
+\passage{804}{Ναυσιμάχης ἥττων ἐστὶν Χαρμῖνος}{804}
+\passage{805}{Κλεοφῶν χείρων πάντως δήπου Σαλαβακχοῦς}{805}
+\passage{811}{κατὰ πεντήκοντα τάλαντα, cf. Hérodote (VI 132-136)}{811-2}
+\passage{826}{ἐκ τῶν οἴκων $=$ τὰ πατρῷα}{826}
+\passage{841-2}{Ὑπέρβολος ... Λάμαχος}{841-2}
+\passage{855-7}{Νείλου ῥοαί ὃς Αἰγύπτου πέδον λευκῆς νοτίζει μελανοσυρμαῖον λεών}{855-7}
+\passage{870}{μὴ ψεῦσον ὦ Ζεῦ τῆς ἐπιούσης ἐλπίδος}{870}
+\passage{898}{εἰ μὴ Κρίτυλλά γ' Ἀντιθέου Γαργηττόθεν}{898}
+\passage{910}{ἐγὼ δὲ Μενελέῳ σ' ὅσα γ' ἐκ τῶν λαιφίων}{910}
+\passage{915}{ἄπαγέ μ' ἄπαγ' ἄπαγέ με}{913-5}
+\passage{936-7}{ὦ πρύτανι πρὸς τῆς δεξιᾶς, ἥνπερ φιλεῖς κοίλην προτείνειν}{936-7}
+\passage{939-42}{γυμνὸν ἀποδύσαντά με / πρὸς τῇ σανίδι δεῖν / ἐν κροκωτοῖς μίτραις}{939-42}
+\passage{949}{Παύσων σέβεται καὶ νηστεύει}{949-52}
+\passage{1015-55}{Les phrases musicales semblent aller par paires $\sim$ échos.}{1015-55}
+\passage{1059}{Ἠχὼ λόγων ἀντῳδὸς ἐπικοκκάστρια}{1059}
+\passage{1136-59}{Chant ibycéen du chœur}{1136-59}
+\passage{1174}{πρῶτον μὲν οὖν δίελθε κἀνακόλπασον}{1174}
+\passage{1175}{Περσικόν... distinguer la danse de l'air de flûte}{1175}
+\passage{1192}{ὠς γλυκερὸ τὸ γλῶσσ ̓, ὤσπερ Ἀττικὸς μέλις $\sim$ μελίγλωσσος}{1192}
+\passage{1197}{ἀλλὰ τὸ συμβήνην λαβέ ... ὀρτῶς δὲ συβήνη ’στί· καταβηνῆσι γάρ}{1196-217}
+\livre{\italique{Grenouilles}}
+\passage{19-20}{ἄρ' ὁ τράχηλος οὑτοσί, ὅτι θλίβεται μέν, τὸ δὲ γέλοιον οὐκ ἐρεῖ}{647-8 n.3}
+\livre{\italique{Assemblée des femmes}}
+\passage{535-8}{ἐπιβαλοῦσα τοὔγκυκλον μόνον οὐ στεφανώσασ’ οὐδ’ ἐπιθεῖσα λήκυθον}{643}
+\passage{741}{ὄρθριος νόμος}{643 n. 4}
+\livre{\italique{Fragments} (ed. Kassel-Austin)}
+\passage{192.96-9}{ἐκδανείζει τὸν ναυτικὸν ἄργυρον ἐπὶ τῷ πέμπτῳ μέρει τοὺς τόκους}{839}
+\Auteur{Athénée}
+\livre{\italique{Deipnosophistes}}
+\passage{I 4d}{ἀμίδα δότω τις ἢ πλακοῦντά τις δότω}{570}
+\Auteur{Euripide}
+\livre{\italique{Fragments} (ed. Kannicht)}
+\passage{228}{Νείλου λιπὼν ὕδωρ ὃς πληροῦται ῥοὰς  ἡνίκ’ ἂν τακῇ χιὼν}{855-7}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%\Index{Index général}
+\end{document}
