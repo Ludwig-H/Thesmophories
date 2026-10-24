@@ -33,7 +33,18 @@ Nouvelle édition critique des *Thesmophories* (*Θεσμοφοριάζουσα�
 
 ---
 
-### 3. Manuscrit *Codex Ravennas 429 (137, 4, A)* — Manuscrit complet (Biblioteca Classense) & Fac-similé de 1904 (BnF) ([`ravennas_1904_bnf/`](ravennas_1904_bnf/))
+### 3. Dossier planche par planche & étude paléographique du *Ravennas* pour les *Thesmophories* ([`dossier_ravennas_thesmophories/`](dossier_ravennas_thesmophories/))
+
+Dossier de travail spécialement conçu pour l'édition critique des *Thesmophories* (`ff. 162v–177r`, vv. 1–1231) :
+
+* **[`dossier_ravennas_thesmophories/README.md`](dossier_ravennas_thesmophories/README.md)** : **Notice codicologique, stemmatique et paléographique complète** sur le *Codex Ravennas 429 (137, 4, A)* appliquée à l'édition critique des *Thesmophories* (distinction des mains $\text{R}^1$ et $\text{R}^2$, autorité des *notae personarum* et des 4 *parepigraphai* scéniques, tableau des confusions de lettres en minuscule bouletée du Xᵉ s. et en onciale antique, abréviations tachygraphiques, iotacismes et atticismes, relevé des grattages *in rasura*, et répertoire analytique folio par folio avec incipit/explicit et numéros de vers).
+* **[`dossier_ravennas_thesmophories/Notice_Ravennas_Codicologie_et_Paleographie.tex`](dossier_ravennas_thesmophories/Notice_Ravennas_Codicologie_et_Paleographie.tex)** : Version LaTeX de l'étude codicologique et paléographique, prête à être intégrée dans l'introduction ou les annexes de l'édition.
+* **[`dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/`](dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/)** : **Les 30 folios individuels (`01_f162v` à `30_f177r`)** découpés page par page en haute définition (`2011×2832` px) et nommés avec leurs numéros de vers exacts (`vv. 0001–1231`).
+* **[`dossier_ravennas_thesmophories/planches_doubles_ff162v-177r/`](dossier_ravennas_thesmophories/planches_doubles_ff162v-177r/)** : **Les 15 planches doubles originales (`01_planche166` à `15_planche180`)** en haute définition (`4023×2832` px), nommées avec leurs folios et numéros de vers exacts.
+
+---
+
+### 4. Manuscrit *Codex Ravennas 429 (137, 4, A)* — Volumes PDF complets (Biblioteca Classense) & Fac-similé de 1904 (BnF) ([`ravennas_1904_bnf/`](ravennas_1904_bnf/))
 
 #### A. Numérisation couleur haute définition intégrale du manuscrit original (*Biblioteca Classense*, Ravenne, `MS 429` = `137, 4, A`)
 * **[`Ravennas_MS429_Thesmophoriazusae_COMPLET_15_planches_doubles_ff162v-177r_HD.pdf`](ravennas_1904_bnf/Ravennas_MS429_Thesmophoriazusae_COMPLET_15_planches_doubles_ff162v-177r_HD.pdf)** *(35 Mo, résolution native sans perte `4023×2832` / `3946×2780` px)* : **Intégralité des *Thesmophories* (`ff. 162v–177r`, vers 1 à 1231, avec scholies marginales)** en 15 doubles-planches couleur haute définition, avec signets PDF par double-folio.
