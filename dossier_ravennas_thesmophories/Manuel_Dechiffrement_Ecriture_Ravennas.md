@@ -150,37 +150,41 @@ Les deux planches suivantes (**Planches 03 et 04**) vous donnent, pour chacune d
 
 Tout lecteur qui débute dans le *Codex Ravennas 429* commet les mêmes six erreurs d'identification. En maîtrisant dès maintenant ces six paires ou groupes de lettres « sosies », vous éliminerez plus de 90 % des blocages de lecture.
 
-### 3.1. Piège n° 1 : *Nu* minuscule ($\nu$) en `μ` *versus* *Mu* minuscule ($\mu$) à deux ponts (Planche 05)
+### 3.1. Piège n° 1 : *Nu* minuscule ($\nu$ en `v`) *versus* *Mu* minuscule ($\mu$ à queue plongeante) (Planche 05)
 
 C'est **le piège numéro un de la minuscule byzantine** :
-- Dans nos éditions imprimées modernes, la forme `μ` (une queue à gauche + un creux) représente la lettre **mu** ($\mu$).
-- Dans le *Ravennas* (et dans tous les manuscrits en minuscule des IXᵉ–XIᵉ siècles), cette forme à **un seul creux** après la hampe plongeante gauche est toujours un **nu minuscule ($\nu$)** !
-- Inversement, le **mu minuscule ($\mu$)** commence lui aussi par une hampe plongeante à gauche, mais il est obligatoirement suivi de **deux ponts arrondis** (exactement comme un `m` minuscule français doté d'une queue initiale).
+- Le **nu minuscule ($\nu$)** de $\text{R}^1$ ressemble à un **`v` ou un `u` pointu** strictement confiné dans le noyau médian ($\text{Z}_2$), dont le jambage gauche s'arrête net sur la ligne de base **sans jamais plonger dans $\text{Z}_4$** (ou avec un simple trait d'attaque court venu de $\text{Z}_1$).
+- Au contraire, le **mu minuscule ($\mu$)** commence **toujours** par une **longue hampe verticale plongeante à gauche dans $\text{Z}_4$**, suivie de deux ponts arrondis posés sur $\text{Z}_2$.
+- La **Planche 05** réunit trois comparaisons directes sur le manuscrit :
+  1. **f. 162v, v. 3** (`οἷόν τε πρὶν τὸν σπλῆνα κομιδῆι μ' ἐκβαλεῖν`) : comparez sur la même ligne les trois $\nu$ courts en `v` de $\pi\rho\grave{\iota}\nu$, $\tau\grave{\omicron}\nu$ et $\dot{\varepsilon}\kappa\beta\alpha\lambda\varepsilon\tilde{\iota}\nu$ avec les deux $\mu$ à longue queue plongeante gauche de $\kappa\omicron\mu\iota\delta\tilde{\eta}\iota$ et $\mu'$.
+  2. **f. 163v, v. 94** (`τὸ γὰρ τεχνάζειν· ἡμέτερος ὁ πυραμοῦς`) : opposition immédiate entre le $-\nu$ final de $\tau\varepsilon\chi\nu\dot{\alpha}\zeta\varepsilon\iota\nu$ (en `v` sur $\text{Z}_2$) et les deux $-\mu-$ à queue plongeante de $\dot{\eta}\mu\varepsilons\tau\varepsilon\rho\omicron\varsigma$ et $\pi\upsilon\rho\alpha\mu\omicron\tilde{\upsilon}\varsigma$ (dont la finale $-\omicron\tilde{\upsilon}\varsigma$ a été récrite sur le grattage de $-\acute{\iota}\delta\omicron\varsigma$).
+  3. **f. 175v, v. 1114** (`σκέψαι τὸ σῦκον· μή τι μικρὸν φαίνεται;`) : les deux mots $\mu\acute{\eta}$ et $\mu\iota\kappa\rho\grave{\omicron}\nu$ débutent chacun par la longue hampe plongeante gauche du $\mu$, tandis que la finale $-\grave{\omicron}\nu$ de $\mu\iota\kappa\rho\grave{\omicron}\nu$ se referme en `v` court sur $\text{Z}_2$.
 
-![Planche 05 — Piège n° 1 : ne jamais confondre le Nu minuscule (en μ) et le Mu minuscule (à deux ponts)](exemples_dechiffrement/05_piege1_nu_minuscule_vs_mu_minuscule.jpg)
+![Planche 05 — Piège n° 1 : ne jamais confondre le Nu minuscule (en v) et le Mu minuscule (à queue plongeante gauche)](exemples_dechiffrement/05_piege1_nu_minuscule_vs_mu_minuscule.jpg)
 
-> **Règle mnémotechnique infaillible :**  
-> **1 sommet / 1 vallon après la hampe = $\nu$ (*nu*).**  
-> **2 sommets (deux arches de `m`) après la hampe = $\mu$ (*mu*).**  
-> *Exemple sur le f. 162v, v. 2* : dans $\dot{\alpha}\lambda\omicron\tilde{\omega}\nu$ (`ἀλοῶν`), la dernière lettre a une queue gauche et un seul creux remontant : c'est un **$\nu$** (participe présent), et non la 1re personne $\dot{\alpha}\lambda\omicron\tilde{\omega}\mu$ ! De même, au v. 3, dans $\pi\rho\grave{\iota}\nu\ \tau\grave{\omicron}\nu\ \sigma\pi\lambda\tilde{\eta}\nu\alpha\ \kappa\omicron\mu\iota\delta\tilde{\eta}\iota\ \mu'\ \dot{\varepsilon}\kappa\beta\alpha\lambda\varepsilon\tilde{\iota}\nu$, vous observez quatre $\nu$ à un seul creux et deux $\mu$ à deux ponts.
+> **Règle mnémotechnique infaillible (Test de la queue gauche) :**  
+> **Aucune queue plongeante à gauche sous la ligne ($\text{Z}_4$) = $\nu$ (*nu* en `v`) ou $\upsilon$ (*upsilon* en `u`).**  
+> **Longue hampe verticale plongeant à gauche sous la ligne ($\text{Z}_4$) + double pont = $\mu$ (*mu*).**
 
-### 3.2. Piège n° 2 : *Bêta* bilobé cursif ($\beta$ en `u`) *versus* $\text{B}$ oncial, *Kappa* ($\kappa$) et *Nu* ($\nu$) (Planche 06)
+### 3.2. Piège n° 2 : *Bêta* bilobé cursif ($\beta$ en `u`) *versus* $\text{B}$ semi-oncial, *Kappa* ($\kappa$) et *Nu* ($\nu$) (Planche 06)
 
 Lorsque le lecteur moderne cherche un *bêta* ($\beta$), il s'attend à voir deux boucles superposées verticalement (`B`). Or, dans le corps des mots, $\text{R}^1$ trace presque toujours le **bêta minuscule cursif**, dit « bêta bilobé » ou « bêta en `u` » :
-- Le calame descend verticalement, remonte au milieu pour former une pointe médiane, redescend pour former une seconde panse à droite et se referme vers le haut : le résultat ressemble à un **`u`**, à un **`υ`** ou à un **`ω` étroit**, sans aucune boucle supérieure !
-- Ce $\beta$ en `u` est si proche du $\kappa$, du $\nu$ et de l'$\alpha$ que les copistes eux-mêmes s'y trompaient :
-  - Au **v. 35 (f. 162v)**, $\text{R}^1$ avait d'abord écrit $\beta\varepsilon\alpha\acute{\iota}\nu\eta\kappa\alpha\varsigma$ avant qu'un grattage sur parchemin (*in rasura*) ne corrige l'$\alpha$ en $\beta$ ($\beta\varepsilon\beta\acute{\iota}\nu\eta\kappa\alpha\varsigma$).
-  - Au **v. 1215 (f. 177r)**, l'Archer scythe dit $\delta\iota\alpha\beta\alpha\lambda\varepsilon\tilde{\iota}\varsigma\ \sigma'\ \dot{\eta}\ \gamma\rho\alpha\tilde{\upsilon}\varsigma$ (« la vieille t'a trompé ») : mais $\text{R}^1$, trompé par le $\beta$ en `u` de son modèle, a lu un $\nu$ et copié $\delta\iota\alpha\nu\alpha\lambda\varepsilon\tilde{\iota}\varsigma$ !
+- Le calame descend sur $\text{Z}_2$, remonte au milieu pour former une pointe médiane, redescend pour former une seconde cuvette à droite et se referme vers le haut : le résultat ressemble à un **`u` latin à double fond**, sans aucune boucle supérieure !
+- La **Planche 06** illustre ses quatre emplois caractéristiques dans *Les Thesmophories* :
+  1. **f. 162v, v. 35** (`βε[[α->β]]ίνηκας`) : ce mot unique réunit côte à côte les deux allographes du bêta : le premier ($\beta\varepsilon-$) est le $\beta$ minuscule bilobé en `u` ; le second ($-\beta\acute{\iota}-$), récrit par $\text{R}^2$ sur le grattage d'un $\alpha$ fautif ($\beta\varepsilon\alpha\acute{\iota}\nu\eta\kappa\alpha\varsigma$), adopte la forme semi-onciale haute « $\text{B}$ » pour occuper tout l'espace du grattage.
+  2. **f. 168r, v. 489** (`κύβδ' ἐχομένην τῆς δάφνης`) : dans le groupe consonantique $-\beta\delta-$, la cuvette bilobée du $\beta$ en `u` suit l'upsilon ($\acute{\upsilon}$) et s'attache par la base à la panse ronde du delta ($\delta$).
+  3. **f. 173r, v. 895** (`βαΰζα σὺ... βάλλουσα ψόγωι`) : même à l'initiale absolue de mot, $\text{R}^1$ emploie deux fois sur la même ligne le $\beta$ minuscule bilobé en `u` suivi de l'alpha ($\beta\alpha-$).
+  4. **f. 176v, $\Sigma$ v. 1174** (`τὸ ἁβρῶς βαδίζειν· ὡς οἱ πέρσαι ÷`) : dans la semi-cursive scholiographique de $\text{R}^2$ également, les deux bêta de $\dot{\alpha}\beta\rho\tilde{\omega}\varsigma$ et de $\beta\alpha\delta\acute{\iota}\zeta\varepsilon\iota\nu$ sont tracés comme de petites cuvettes doubles en `u`.
 
-![Planche 06 — Piège n° 2 : le Bêta minuscule bilobé (en u) face au B oncial, à Kappa et à Nu](exemples_dechiffrement/06_piege2_beta_bilobe_u_vs_B_oncial_kappa_nu.jpg)
+![Planche 06 — Piège n° 2 : le Bêta minuscule bilobé (en u) face au B semi-oncial](exemples_dechiffrement/06_piege2_beta_bilobe_u_vs_B_oncial_kappa_nu.jpg)
 
 ### 3.3. Piège n° 3 : La triade des hastes hautes — *Êta* ($\eta$ en `h`), *Kappa* ($\kappa$) et *Lambda* ($\lambda$) (Planche 07)
 
-Trois consonnes/voyelles fréquentes dressent une haute hampe verticale dans l'interligne supérieur : **$\eta$**, **$\kappa$** et **$\lambda$**. Comment les distinguer au premier coup d'œil ?
+Trois lettres fréquentes dressent une haute hampe dans l'interligne supérieur ($\text{Z}_3$) : **$\eta$**, **$\kappa$** et **$\lambda$**. Comment les distinguer au premier coup d'œil avec les quatre exemples de la **Planche 07** ?
 
-1. **L'êta minuscule ($\eta$)** est le sosie parfait de notre **`h` minuscule latin** : une haute haste verticale à gauche, suivie d'un pont arrondi qui redescend sur la ligne de base sans jamais se relever en accolade.
-2. **Le kappa minuscule ($\kappa$)** possède la même haute haste verticale à gauche, mais sa partie droite est formée d'un **petit croissant ou d'une accolade à deux becs (`c` ou `<`)** dont le trait supérieur remonte obliquement vers la droite.
-3. **Le lambda ($\lambda$)** n'a pas de haste verticale droite à gauche : il débute par une petite jambe courbe à gauche que surmonte une **longue diagonale descendante** allant du haut à gauche vers le bas à droite.
+1. **L'êta minuscule ($\eta$)** est le sosie parfait de notre **`h` minuscule latin** : une haute haste verticale à gauche, suivie d'un pont arrondi qui redescend sur la ligne de base sans jamais se relever en accolade — voir **Planche 07, n° 1** (`f. 163v, v. 80` : les deux $\eta$ en `h` de $\tau\rho\acute{\iota}\tau\eta$ et $\dot{\eta}\ \mu\varepsilons\sigma\eta$).
+2. **Le kappa minuscule ($\kappa$)** possède la même haute haste verticale à gauche, mais sa partie droite est formée d'une **accolade brisée à deux becs (`{` ou `<`)** — voir **Planche 07, n° 4** (`f. 168r, v. 500` : séquence complète $\dot{\varepsilon}\gamma\kappa\varepsilon\kappa\alpha\lambda\upsilon\mu\mu\varepsilons\nu\omicron\nu$ réunissant deux $\kappa$ à accolade, un $\lambda$ en arche, deux $\mu$ à queue et deux $\nu$ en `v`).
+3. **Le lambda ($\lambda$)** n'a pas de haste verticale droite à gauche : il débute par une petite jambe courbe à gauche que surmonte une **longue diagonale descendante** allant du haut à gauche vers le bas à droite — voir **Planche 07, n° 2** (`f. 173r, v. 910` : faute de lecture de $\text{R}^1$ écrivant $\dot{\alpha}\varphi\acute{\upsilon}\omega\nu$ au lieu de $\grave{\iota}\kappa\rho\acute{\iota}\omega\nu$, corrigée en marge par $\text{R}^2$ $\grave{\iota}\varphi\acute{\upsilon}\omega\nu$) et **n° 3** (`f. 172r, v. 815` : $\pi\omicron\theta\omicron\tilde{\upsilon}\nu\tau\alpha\varsigma$ de $\text{R}^1$ pour $\dot{\varepsilon}\lambda\theta\omicron\tilde{\upsilon}\sigma\alpha\varsigma$).
 
 ![Planche 07 — Piège n° 3 : distinguer Êta (en h), Kappa (à accolade) et Lambda (en arche)](exemples_dechiffrement/07_piege3_eta_kappa_lambda_nu.jpg)
 
@@ -193,42 +197,45 @@ Trois consonnes/voyelles fréquentes dressent une haute hampe verticale dans l'i
 
 Dans le noyau bilinéaire, cinq lettres présentent une silhouette arrondie :
 - **Omicron ($\omicron$)** : petit anneau parfaitement fermé au sommet, sans queue latérale.
-- **Alpha ($\alpha$)** : panse ronde qui se prolonge à droite par un trait de liaison oblique ou horizontal.
+- **Alpha ($\alpha$)** : panse ronde qui se prolonge à droite par un dard de liaison oblique ou horizontal.
 - **Oméga ($\omega$)** : deux anneaux accolés ($\omega$ ou `∞`), souvent refermés au sommet mais **sans barre horizontale droite au-dessus** (ce qui le distingue du $\pi$ bouclé $\varpi$).
-- **Sigma ($\sigma$)** : croissant lunaire ouvert à droite (`c`), coiffé d'une casquette horizontale.
+- **Sigma ($\sigma$)** : anneau fermé coiffé d'une casquette horizontale (ou croissant lunaire `c` en fin de mot et dans $\text{R}^2$).
 - **Thêta ($\theta$)** : grand ovale plus haut que $\omicron$, traversé de part en part par une barre médiane.
 
 ![Planche 08 — Piège n° 4 : distinguer les lettres rondes et lire les corrections par surcharge](exemples_dechiffrement/08_piege4_lettres_rondes_alpha_omicron_omega_theta_sigma.jpg)
 
-**Comment lire une correction vocalique dans le *Ravennas* ?**  
-Lorsqu'une voyelle ronde a été confondue par iotacisme ou isochronie ($\omicron \leftrightarrow \omega$, $\varepsilon \leftrightarrow \alpha\iota$, $\eta \leftrightarrow \varepsilon\iota$), $\text{R}^1$ ou $\text{R}^2$ la corrige selon deux procédés que la **Planche 08** illustre côte à côte :
-1. **Par surcharge directe (*in linea*)** : le second anneau d'un $\omega$ est tracé à l'encre plus foncée directement par-dessus un $\omicron$ primitif (ex. f. 162v, v. 23 : $\chi\omega\lambda\grave{\omicron}\nu$ corrigé de $\chi\omicron\lambda\grave{\omicron}\nu$ ; f. 163r, v. 77 : $\zeta\tilde{\omega}$ corrigé de $\zeta\tilde{\omicron}$).
-2. **Par lettre supralinéaire (*supra lineam*)** : la lettre correcte est écrite en petit module juste au-dessus de la lettre fautive non barrée (ex. f. 162v, v. 24 : petit $\omicron$ au-dessus du $\omega$ de $\pi\rho\omicron\sigma\mu\alpha\theta\omicron\tilde{\upsilon}\sigma\alpha$ ; f. 168r, v. 500 : petit $\omicron$ au-dessus de l'$\alpha$ de $\kappa\alpha\tau\varepsilon\sigma\pi\omicron\delta\eta\sigma\alpha$).
+**Les quatre cas d'école de la Planche 08 sur les lettres rondes :**
+1. **Correction par surcharge directe $\omicron \rightarrow \alpha$ (`f. 172v, v. 838` : `ὑστέρ[ο->α]ν`)** : $\text{R}^1$ avait commencé par tracer un omicron rond ($\dot{\upsilon}\sigma\tau\varepsilons\rho\omicron\nu$) ; le correcteur l'a transformé en alpha ($\dot{\upsilon}\sigma\tau\varepsilons\rho\alpha\nu$) en rajoutant à droite le dard oblique de sortie.
+2. **Confusion entre oméga ($\omega$) et omicron ($\omicron$) (`f. 172v, v. 839` : `ὦ πόλεις` pour `ὁπόλις`)** : trompé par l'isochronie byzantine entre $\omicron$ et $\omega$, $\text{R}^1$ a coupé l'interrogatif $\dot{\omicron}\pi\acute{\omicron}\lambda\iota\varsigma$ en $\tilde{\omega}\ \pi\acute{\omicron}\lambda\varepsilon\iota\varsigma$.
+3. **Correction par surcharge $\alpha \rightarrow \omicron$ (`f. 172v, v. 844` : `τ[ὰ->ο]δὶ`)** : la panse de l'alpha fautif ($\tau\grave{\alpha}\delta\grave{\iota}$) a été refermée en anneau rond d'omicron ($\tau\omicron\delta\grave{\iota}$).
+4. **Coexistence des deux sigma ($\sigma$ à casquette et `c` lunaire) (`f. 163r, v. 53` : `ἀσπίδας`)** : dans le corps du mot ($\dot{\alpha}\sigma\pi-$), $\text{R}^1$ trace un sigma fermé à casquette horizontale soudée au $\pi$, tandis qu'en fin de mot ($-\delta\alpha\varsigma$), il trace un sigma lunaire ouvert (`c`).
 
 ### 3.5. Piège n° 5 : Les lettres à potence ($\gamma/\Gamma, \pi/\Pi, \tau$) et les plongeantes sinueuses ($\zeta, \xi, \psi$) (Planche 09)
 
-Deux familles géométriques méritent une attention particulière :
+Deux familles géométriques méritent une attention particulière, illustrées par les quatre spécimens de la **Planche 09** :
 
 1. **Les lettres à toit horizontal (« à potence » : $\gamma/\Gamma, \pi/\Pi, \tau$)** :
-   - **Tau ($\tau$)** : une seule haste verticale plantée **au milieu** sous la barre horizontale.
-   - **Gamma ($\gamma/\Gamma$)** : la haste verticale est à **gauche** ; en minuscule, elle descend sous la ligne en formant une boucle étroite ; en forme haute ($\Gamma$), elle forme un angle droit en haut à gauche. *Attention* : un $\Gamma$ suivi d'une apostrophe d'élision ($\gamma'$) ressemble à s'y méprendre à un $\Pi$ ($\pi$) ! C'est l'origine de la célèbre faute du **v. 605 (f. 169v)** où $\text{R}^1$ écrit $\pi'\ \ddot{\upsilon}\mu\varepsilon\tilde{\iota}\varsigma$ au lieu de $\gamma'\ \dot{\upsilon}\mu\varepsilon\tilde{\iota}\varsigma$.
-   - **Pi ($\pi/\Pi$)** : **deux jambages** sous la barre horizontale (droits dans $\Pi$, recourbés en $\varpi$ dans $\pi$).
-
+   - **Tau ($\tau$)** : une seule haste verticale courte plantée **au milieu** sous la barre horizontale et s'arrêtant net sur $\text{Z}_2$.
+   - **Gamma ($\gamma/\Gamma$)** : en minuscule, la haste plonge profondément sous la ligne ($\text{Z}_4$) en formant une boucle étroite ; en forme haute ($\Gamma$), elle forme une équerre droite. Voir **Planche 09, n° 1** (`f. 162v, vv. 30–31`) : juxtaposition de $\tau$, $\gamma$ et $\pi$ dans $\dot{\omicron}\ \tau\rho\alpha\gamma\omega\iota\delta\omicron\pi\omicron\iota\acute{\omicron}\varsigma$, suivie du jeu de mots $\dot{\alpha}\gamma\dot{\alpha}\theta\omega\nu$ (v. 30) / $\dot{\alpha}\gamma\alpha\theta\tilde{\omega}\nu$ (v. 31, corrigé de $\dot{\alpha}\gamma\dot{\alpha}\theta\omega\nu$).
+   - **Pi ($\pi/\Pi$)** : **deux jambages** sous la barre horizontale (recourbés en oméga fermé dans le $\pi$ minuscule). Voir **Planche 09, n° 4** (`f. 172v, vv. 852–853` : `πικρὰν ἑλένην`), où le $\pi-$ initial à double jambage de $\pi\iota\kappa\rho\grave{\alpha}\nu$ a remplacé dans l'archétype le $\mu-$ de $\mu\iota\kappa\rho\grave{\alpha}\nu$.
 2. **Les trois descendantes axiales ou sinueuses ($\zeta, \xi, \psi$)** :
-   - **Zêta ($\zeta$)** : tête plate + **une seule courbure** médiane avant la queue plongeante (silhouette de `3`).
-   - **Xi ($\xi$)** : tête plate + **deux courbures** serrées en accordéon avant la queue plongeante (silhouette de tire-bouchon).
-   - **Psi ($\psi$)** : long mât vertical droit traversé par un **calice ou deux petites boucles symétriques** sur la ligne.
+   - **Zêta ($\zeta$)** : tête plate sur $\text{Z}_1$ + **une seule courbure** médiane avant la queue plongeante (silhouette de `3`). Voir **Planche 09, n° 2** (`f. 163v, v. 100` : `μύρμηκος ἀτραπούς, ἢ τί διαμινυρίζεται`), qui aligne $\tau\rho$, $\pi$ et le $\zeta$ en éclair de $\delta\iota\alpha\mu\iota\nu\upsilon\rho\acute{\iota}\zeta\varepsilon\tau\alpha\iota$.
+   - **Xi ($\xi$)** : tête plate + **deux courbures** serrées en accordéon avant la queue plongeante. Voir **Planche 09, n° 3** (`f. 165v, vv. 288–289` : `ξυνεύχου... χοῖρον`), qui oppose le $\xi-$ initial en triple serpentin de $\xi\upsilon\nu\varepsilon\acute{\upsilon}\chi\omicron\upsilon$ et le $\chi-$ en sautoir de $\chi\omicron\tilde{\iota}\rho\omicron\nu$.
+   - **Psi ($\psi$)** : long mât vertical droit traversant $\text{Z}_3$–$\text{Z}_4$, embrassé par un **calice ouvert** sur $\text{Z}_2$ (ex. $\ddot{\omicron}\psi\varepsilon\iota$ v. 6, $\psi\acute{\omicron}\gamma\omega\iota$ v. 895).
 
 ![Planche 09 — Piège n° 5 : les lettres à potence (gamma, pi, tau) et les plongeantes (zêta, xi, psi)](exemples_dechiffrement/09_piege5_potences_gamma_pi_tau_et_zeta_xi_psi.jpg)
 
 ### 3.6. Piège n° 6 : La grande spirale finale `-ος` (`@`) *versus* l'idéogramme astronomique `☉` (*hêlios*) (Planche 10)
 
-En regardant la fin des lignes du *Ravennas*, vous remarquerez fréquemment un grand signe circulaire enroulé sur lui-même comme un escargot ou un arobase (`@`). Mais au folio 172r (v. 856), vous rencontrerez aussi un cercle parfait muni d'un point ou d'un rayon diagonal (`☉`) au milieu du vers ! Il ne faut jamais les confondre :
+En regardant la fin des mots du *Ravennas*, vous remarquerez fréquemment un grand signe circulaire enroulé sur lui-même comme un colimaçon ou un arobase (`@`). Mais dans la marge gauche du **folio 162v (face au v. 17)**, vous rencontrerez aussi un cercle isolé centré d'un point et surmonté d'un rayon oblique (`☉`) ! La **Planche 10** vous apprend à ne jamais les confondre :
 
-- **La spirale ouverte enroulée (`@`) en fin de mot** est la **ligature tachygraphique de la finale `-ος`** : le calame trace l'omicron et, sans lever la plume, s'enroule autour de lui pour former un grand sigma lunaire enveloppant (ex. f. 162v, v. 26 : $\dot{\text{H}}\rho\alpha\kappa\lambda\varepsilon\tilde{\iota}\omicron\varsigma$ ; f. 176v : $\dot{\alpha}\pi\varepsilon\psi\omega\lambda\eta\mu\varepsilons\nu\omicron\varsigma$).
-- **Le cercle solaire pointé/rayonné (`☉`)** est un **idéogramme astronomique et alchimique** qui remplace le mot entier **$\ἥ\lambda\iota\omicron\varsigma$ (« le soleil »)** sous son cas fléchi ! Au f. 172r, v. 856 ($\lambda\varepsilon\upsilon\kappa\tilde{\eta}\varsigma\ \nu\omicron\tau\acute{\iota}\zeta\varepsilon\iota\ \mu\varepsilon\lambda\alpha\nu\omicron\sigma\upsilon\rho\mu\alpha\tilde{\iota}\omicron\nu\ \lambda\varepsilon\grave{\omega}\nu$), Euripide cite l'*Hélène* où il est question du Nil blanc et de ses peuples basanés par le soleil : $\text{R}^1$ a dessiné le symbole `☉` dans le texte, et $\text{R}^2$ a pris soin d'écrire la glose **$\dot{\eta}\lambda\acute{\iota}\omicron\upsilon$** juste au-dessus pour aider le lecteur !
+- **La spirale ouverte enroulée (`@`) attachée à la fin d'un mot** est la **ligature tachygraphique de la finale `-ος` (parfois `-ον`)** : le calame trace l'omicron et, sans lever la plume, s'enroule autour de lui pour former un grand sigma lunaire enveloppant :
+  1. **f. 162v, v. 31** : `μῶν ὁ μέλας ὁ καρτερ@` (= $\kappa\alpha\rho\tau\varepsilon\rho\acute{\omicron}\varsigma$).
+  2. **f. 170r, v. 636** : `ξενύλλ@ αἴτησον σκάφην` — cas pathologique fascinant où $\text{R}^1$, habitué à abréger les masculins en $-\omicron\varsigma$ par la spirale `@`, a machinalement affublé le vocatif féminin élidé $\Xi\varepsilons\nu\upsilon\lambda\lambda'$ de la spirale `@` ($\xi\varepsilon\nu\acute{\upsilon}\lambda\lambda\omicron\varsigma$) !
+  3. **f. 176v, après le v. 1187** : `ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημέν@·` (= $\dot{\alpha}\nu\alpha\kappa\acute{\upsilon}\pi\tau\varepsilon\iota\ \kappa\alpha\grave{\iota}\ \pi\alpha\rho\alpha\kappa\acute{\upsilon}\pi\tau\varepsilon\iota\ \dot{\alpha}\pi\varepsilon\psi\omega\lambda\eta\mu\varepsilons\nu\omicron\varsigma$, en fin de la quatrième *parepigraphè* scénique).
+- **Le cercle solaire pointé et rayonné (`☉`)** est l'**idéogramme astronomique antique du Soleil ($\ἥ\lambda\iota\omicron\varsigma$)**, employé par le scholiaste $\text{R}^2$ pour remplacer le mot entier sous son cas fléchi ! Au **f. 162v, v. 17** (`ὀφθαλμὸν ἀντίμιμον ἡλίου τροχῶι`, « l'œil imitant la roue du soleil »), $\text{R}^1$ écrit **$\dot{\eta}\lambda\acute{\iota}\omicron\upsilon$** en toutes lettres dans la colonne centrale, tandis qu'en marge gauche ($\Sigma$ v. 17), $\text{R}^2$ écrit : `ὁμοί(ως) δὲ τῶι ☉ τὸ περιφερές` (« car la rondeur est semblable au **soleil** [$\tau\tilde{\ῳ}\ \dot{\eta}\lambda\acute{\iota}\ῳ$] ») en dessinant l'idéogramme `☉` au lieu du mot $\dot{\eta}\lambda\acute{\iota}\omega\iota$ !
 
-![Planche 10 — Piège n° 6 : la spirale finale -ος (@) face au symbole astronomique du Soleil (f. 172r, v. 856)](exemples_dechiffrement/10_piege6_spirale_finale_os_vs_soleil_helios.jpg)
+![Planche 10 — Piège n° 6 : la spirale finale -ος (@) face au symbole astronomique du Soleil (f. 162v, Σ v. 17)](exemples_dechiffrement/10_piege6_spirale_finale_os_vs_soleil_helios.jpg)
 
 ---
 
@@ -394,8 +401,8 @@ Fait exceptionnel dans toute la tradition manuscrite du théâtre grec, le *Code
 
 Le manuscrit de Ravenne nous montre sur le vif le travail de contrôle philologique effectué dans le *scriptorium* de Constantinople :
 
-1. **La renumérotation par lettres-chiffres ($\alpha, \beta, \gamma, \delta$)** : au **f. 162v (vv. 28–34)**, $\text{R}^1$ avait sauté la réplique du v. 33 ($\ἢ\ \beta\varepsilon\beta\acute{\iota}\nu\eta\kappa\alpha\varsigma\ \sigma\acute{\upsilon}\ \mu\varepsilon$) et interverti l'ordre des vers. Le réviseur $\text{R}^2$ a écrit la réplique manquante dans la marge droite et placé des **lettres-chiffres grecques** en face des lignes : **$\alpha$ (= 1)** à la ligne 1, **$\beta$ (= 2)** devant le vers marginal, **$\gamma$ (= 3)** à la ligne 2 et **$\delta$ (= 4)** à la ligne 3, rétablissant ainsi l'ordre exact $\alpha \rightarrow \beta \rightarrow \gamma \rightarrow \delta$ !
-2. **Les additions supralinéaires** : lorsqu'une préposition ou une particule a été oubliée par $\text{R}^1$ (comme $\kappa\alpha\tau\grave{\alpha}$ au **f. 163r, v. 61**), elle est insérée en petit module au-dessus de la ligne à l'endroit exact où le sens et le mètre l'appellent.
+1. **La renumérotation par lettres-chiffres ($\alpha', \gamma', \delta', \beta'$) et l'ajout marginal du v. 33** : au **f. 162v (vv. 27–34)**, $\text{R}^1$ avait copié le v. 28 après le v. 30, et avait sauté par *homoioteleuton* le v. 33 (`μῶν ὁ δασυπώγων· / οὐχ ἑόρακας πώποτε·`). Le réviseur $\text{R}^2$ a placé en fin des vv. 27, 29, 30 et 28 les **lettres-chiffres ioniennes $\alpha', \gamma', \delta', \beta'$** pour rétablir l'ordre exact $\alpha \rightarrow \beta \rightarrow \gamma \rightarrow \delta$, et a suppléé le v. 33 sur deux lignes dans la marge droite !
+2. **Les additions supralinéaires** : lorsqu'une préposition ou une particule a été oubliée par $\text{R}^1$ (comme $\kappa\alpha\tau\grave{\alpha}$ au **f. 163r, v. 60/61**), elle est insérée en petit module au-dessus de la ligne à l'endroit exact où le sens et le mètre l'appellent.
 3. **Les vers restitués en marge inférieure avec signe de renvoi** : au **f. 175v**, $\text{R}^1$ avait sauté deux vers entiers (**vv. 1102–1103**) par *saut du même au même* ($\Gamma\omicron\rho\gamma\acute{\omicron}\nu\omicron\varsigma$... $\Gamma\omicron\rho\gamma\acute{\omicron}\nu\omicron\varsigma$). $\text{R}^2$ a tracé un signe d'appel dans la colonne et copié intégralement les deux vers manquants dans la marge inférieure du feuillet.
 
 ![Planche 20 — Chiffres d'ordre (a, b, g, d), additions supralinéaires et vers ajoutés en marge](exemples_dechiffrement/20_chiffres_transposition_et_ajouts_marginaux_R2.jpg)
@@ -408,128 +415,146 @@ La **Planche 21** vous apprend à reconnaître les **quatre types de grattages**
 
 ![Planche 21 — Anatomie matérielle des grattages sur parchemin (in rasura) : les quatre types](exemples_dechiffrement/21_anatomie_des_grattages_in_rasura_quatre_types.jpg)
 
-- **Type A — Grattage d'une lettre fautive avec surcharge immédiate** : ex. **f. 162v, v. 35**, $\beta\varepsilon\text{[[}\alpha\rightarrow\beta\text{]]}\acute{\iota}\nu\eta\kappa\alpha\varsigma$, où l'$\alpha$ initial a été gratté et remplacé par un second $\beta$ en `u`.
-- **Type B — Grattage d'un mot intrus laissé à blanc (*vacat*)** : ex. **f. 166r, v. 295**, où le nom de personnage $\text{[[}\kappa\tilde{\eta}\rho\upsilon\xi\text{]]}$ avait été copié par erreur dans le texte même avant $\varepsilon\dot{\upsilon}\varphi\eta\mu\acute{\iota}\alpha\ '\sigma\tau\omega$, puis gratté sans être remplacé.
-- **Type C — Grattage de censure morale byzantine et substitution euphémique** : ex. **f. 168r, v. 493**, où le verbe cru d'Aristophane **$\lambda\eta\kappa\acute{\omega}\mu\varepsilon\theta\alpha$** a vu ses trois premières lettres $\lambda\eta\kappa-$ grattées au canif et remplacées par le radical plus banal **$\kappa\iota\nu-$** ($\kappa\iota\nu\acute{\omega}\mu\varepsilon\theta\alpha$) !
-- **Type D — Grattage d'une dittographie accidentelle** : ex. **f. 170r, v. 670**, où $\text{R}^1$ avait écrit deux fois de suite le mot $\ddot{\alpha}\pi\alpha\sigma\iota\nu$ ($\ddot{\alpha}\pi\alpha\sigma\iota\nu\ \text{[[}\ddot{\alpha}\pi\alpha\sigma\iota\nu\text{]]}\ \ἔ\sigma\tau\alpha\iota$) ; le second a été effacé au grattoir, mais son empreinte fantôme reste perceptible.
+- **Type I — Grattage d'une lettre fautive avec surcharge immédiate** : ex. **f. 162v, v. 35**, $\beta\varepsilon\text{[[}\alpha\rightarrow\beta\text{]]}\acute{\iota}\nu\eta\kappa\alpha\varsigma$, où l'$\alpha$ initial a été gratté et remplacé par un second $\beta$ semi-oncial (`Β`).
+- **Type II — Grattage d'un mot intrus laissé à blanc (*vacat*)** : ex. **f. 166r, v. 295**, où le sigle de personnage $\text{[[}\kappa\tilde{\eta}\rho\upsilon\xi\text{]]}$ avait été copié par erreur dans le texte même avant $\varepsilon\dot{\upsilon}\varphi\eta\mu\acute{\iota}\alpha\ '\sigma\tau\omega$, puis gratté sans être remplacé.
+- **Type III — Substitution lexicale sur grattage** : ex. **f. 168r, v. 493**, où le verbe rare **$\lambda\eta\kappa\acute{\omega}\mu\varepsilon\theta\alpha$** a vu ses trois premières lettres $\lambda\eta\kappa-$ grattées au canif et remplacées par le radical plus banal **$\kappa\iota\nu-$** ($\kappa\iota\nu\acute{\omega}\mu\varepsilon\theta\alpha$) !
+- **Type IV — Grattage d'une dittographie accidentelle** : ex. **f. 170r, v. 670**, où $\text{R}^1$ avait écrit deux fois de suite le mot $\ddot{\alpha}\pi\alpha\sigma\iota\nu$ ($\ddot{\alpha}\pi\alpha\sigma\iota\nu\ \text{[[}\ddot{\alpha}\pi\alpha\sigma\iota\nu\text{]]}\ \ἔ\sigma\tau\alpha\iota$) ; le second a été effacé au grattoir, mais son empreinte fantôme reste perceptible.
 
 ---
 
 ## 8. Leçon 7 — Parcours d'entraînement progressif en 5 niveaux (8 exercices corrigés)
 
-Vous disposez maintenant de tous les outils paléographiques nécessaires pour lire le manuscrit par vous-même. Pour consolider votre apprentissage, voici **huit exercices progressifs répartis en 5 niveaux de difficulté**, allant des premiers vers limpides du Prologue jusqu'au grec volontairement estropié de l'Archer scythe et aux scholies abrégées.
+Vous disposez maintenant de tous les outils paléographiques nécessaires pour lire le manuscrit par vous-même. Pour consolider votre apprentissage, voici **huit exercices progressifs répartis en 5 niveaux de difficulté**, correspondant très exactement aux **Planches 22, 23 et 24**, depuis l'*Hypothesis* et le titre d'apparat jusqu'aux répliques barbares de l'Archer scythe et à la *korônis* finale.
 
 > **Méthode de travail conseillée :**  
-> Pour chaque exercice, observez d'abord l'image de la planche en cachant le corrigé ci-dessous, notez votre transcription lettre par lettre, puis vérifiez votre lecture à l'aide du corrigé analytique détaillé.
+> Pour chaque exercice, observez d'abord l'image de la planche correspondante en cachant le corrigé ci-dessous, notez votre transcription diplomatique ligne par ligne, puis vérifiez votre lecture à l'aide du corrigé analytique détaillé.
 
-### 8.1. Niveaux 1 et 2 (Débutant & Intermédiaire) : le Prologue et la scène du Serviteur (Planche 22)
+### 8.1. Niveaux 1 et 2 (Débutant & Intermédiaire) : Titre, Prologue et scène du Serviteur (Planche 22)
 
 ![Planche 22 — Exercices progressifs de déchiffrement : Niveaux 1 (Débutant) et 2 (Intermédiaire)](exemples_dechiffrement/22_exercice_progressif_niveau1_et_2_f162v_f163r.jpg)
 
-#### Exercice 1 (Niveau 1 — Débutant) : Les trois premiers vers de la comédie (f. 162v, l. 1–3 = vv. 1–3)
+#### Exercice 1 (Niveau 1 — Débutant) : L'*Hypothesis* ($\text{R}^2$) et le Titre d'apparat ($\text{R}^1$) (f. 162v, haut de page)
+
+- **Transcription diplomatique fidèle ($\text{R}^2$ puis $\text{R}^1$)** :
+  1. `ὁ χορὸς ἐκ θεσμοφοριαζουσῶν· καὶ τοῦτο τὸ δρᾶμα τῶν κατ' εὐριπίδου πεποιημένων· ἀπὸ δ(ὲ) τῶν θεσμο-`
+  2. `φορίων, τὰς θεσμοφοριαζούσας γυναῖκας ἐπέγραψεν, ἀφ' ὧν καὶ ὁ χορ(ός)· εὐριπίδου γυνὴ μὲν χοιρίλη,`
+  3. `μή(τ)ηρ δὲ κλειτώ :~`
+  4. `προλογίζει μνησίλοχ(ος) κηδεστὴς εὐριπίδου ÷`
+  5. **[Titre monumental en semi-onciale d'apparat]** : `⁘ ΑΡΙϹΤΟΦΑΝΟΥϹ ΘΕϹΜΟΦΟΡΙΑΖΟΥϹΑΙ —`
+- **Clés de décodage** :
+  - Dans le bandeau supérieur (copié par $\text{R}^2$ en semi-onciale de glose sur 4 lignes, sans liste séparée des *dramatis personae*), repérez à la fin de la ligne 2 le nom propre **`χοιρίλη`** ($\text{Χοιρίλη}$, épouse d'Euripide et fille de Mnésiloque, clé de la restitution `Χοιρίλ'` de `Bibi` au v. 289) et sur la ligne 4 centrée **`προλογίζει μνησίλοχ(ος) κηδεστὴς εὐριπίδου ÷`**.
+  - Le titre monumental en semi-onciale alexandrine (`⁘ ΑΡΙϹΤΟΦΑΝΟΥϹ ΘΕϹΜΟΦΟΡΙΑΖΟΥϹΑΙ —`), précédé d'un *asteriscus* à quatre points (`⁘`), permet de lire chaque lettre séparément : notez les **sigmas lunaires (`Ϲ`)**, l'alpha à boucle et le phi à grand anneau aplati.
+
+#### Exercice 2 (Niveau 1 — Débutant) : L'ouverture dialoguée en trimètres iambiques (f. 162v, vv. 1–10)
 
 - **Transcription diplomatique fidèle ($\text{R}^1$)** :
-  1. `ὦ ζεῦ· χελιδὼν ἆρά πότε φανήσεται·`
+  1. `ὦ ζεῦ· χελιδὼν ἄρα πότε φανήσεται·`
   2. `ἀπολεῖ μ' ἀλοῶν ἄνθρωπος ἐξ ἑωθινοῦ·`
-  3. `οἷόν τε πρὶν τὸν σπλῆνα κομιδῆι μ' ἐκβαλεῖν`
+  3. `οἷόν τι πρὶν τὸν σπλῆνα κομιδῆι μ' ἐκβαλεῖν·`
+  4. `παρὰ σοῦ πυθέσθαι ποῖ μ' ἄγεις ὠὐριπίδη·`
+  5. `ἀλλ' οὐκ ἀκούειν δεῖ σε πάνθ' ὅσ' αὐτίκα :`
+  6. `ὄψει παρεστώς : πῶς λέγεις αὖθις φράσον·`
 - **Décomposition pas à pas des difficultés** :
-  - **Ligne 1** : `ὦ` (esprit doux + circonflexe) — `ζεῦ·` ($\zeta$ plongeant en `3` + ligature $\varepsilon\upsilon$ + point en haut) — `χελιδὼν` ($\delta$ à long col oblique, $\nu$ final en forme de `μ` !) — `ἆρά` (ligature haute $\alpha\rho$ + second accent aigu d'enclise) — `πότε` — `φανήσεται·` (grand $\varphi$, $\nu$ en `μ`, $\eta$ en `h`, ligature $\sigma\varepsilon\tau\alpha\iota$).
-  - **Ligne 2** : `ἀπολεῖ` (ligature $\varepsilon\iota$ à trait vertical plongeant) — `μ'` ($\mu$ à deux ponts) — `ἀλοῶν` ($\lambda$ à longue jambe droite, $\nu$ final en `μ`) — `ἄνθρωπος` (ligature $\theta\rho$ par la barre médiane du $\theta$) — `ἐξ` ($\varepsilon$ en as de pique + $\xi$ à trois boucles) — `ἑωθινοῦ·`.
-  - **Ligne 3** : `οἷόν` — `τε` — `πρὶν` (ligature $\pi\rho$ enroulée) — `τὸν` — `σπλῆνα` (ligature $\sigma\pi$ + $\lambda$ + $\eta$ en `h` + $\nu$ en `μ` + $\alpha$) — `κομιδῆι` (**iota muet adscrit** sur la ligne après $\tilde{\eta}$ !) — `μ'` — `ἐκβαλεῖν` (**$\beta$ bilobé en `u`** entre $\kappa$ et $\alpha$, suivi de $\lambda$ et de la ligature $\varepsilon\iota$ + $\nu$).
-- **Texte grec normalisé** :
-  > **ΜΝ.** Ὦ Ζεῦ, χελιδὼν ἆρά ποτε φανήσεται;  
-  > Ἀπολεῖ μ' ἀλοῶν ἄνθρωπος ἐξ ἑωθινοῦ.  
-  > Οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ' ἐκβαλεῖν,
+  - **v. 1** : `ὦ` initial en huit couché (`∞`) coiffé de l'esprit doux et du circonflexe — `ζεῦ·` ($\zeta$ plongeant en `3`) — `χελιδὼν` ($\delta$ à long col oblique, $-\nu$ final en `v` sur $\text{Z}_2$) — `ἄρα πότε` (*falsa divisio* de $\text{R}^1$ pour `ἆρά ποτε`) — `φανήσεται·` (grand $\varphi$ traversant $\text{Z}_3$–$\text{Z}_4$, $\eta$ en `h`).
+  - **v. 2** : `ἀπολεῖ` (ligature $\lambda\varepsilon\iota$ à trait vertical plongeant) — `μ'` ($\mu$ à longue queue gauche dans $\text{Z}_4$) — `ἀλοῶν` ($\omega$ fermé en `∞` et $-\nu$ en `v`) — `ἐξ` ($\varepsilon$ en as de pique + serpentin $\xi$).
+  - **v. 3** : `οἷόν τι` (faute de $\text{R}^1$ pour `οἷόν τε`, corrigée par $\Sigma^{\text{R}}$) — `πρὶν τὸν σπλῆνα κομιδῆι μ' ἐκβαλεῖν` : observez côte à côte les trois $\nu$ en `v`, les deux $\mu$ à queue gauche, la ligature $\sigma\pi$, l'**iota muet adscrit** dans `κομιδῆι` et le **$\beta$ bilobé en `u`** dans `ἐκβαλεῖν`.
+  - **vv. 5–6** : les **dikôla (`:`)** après `αὐτίκα` et après `παρεστώς` marquent les changements d'interlocuteur.
 
-#### Exercice 2 (Niveau 1 — Débutant) : Stichomythie rapide avec *dikôlon* et *notae personarum* (f. 162v, vv. 6–8)
+#### Exercice 3 (Niveau 2 — Intermédiaire) : Les dimètres anapestiques du Serviteur d'Agathon (f. 163r, vv. 49–57)
 
-- **Transcription diplomatique fidèle ($\text{R}^1 + \text{R}^2$)** :
-  1. `μέλλω γ' ὁρᾶν· ἢ 'κωτάτω θυμοῦμαί σοι :`
-  2. `[εὐρ/] ἀλλ' οὐκ ἀκούειν δεῖ σε πάνθ' ὅσ' αὐτίκα`
-  3. `[μ(ν/Η)] ὄψει παρεστώς : οὐκ ἀκούειν δεῖ με : [εὐρ/] οὔ :`
+- **Transcription diplomatique fidèle ($\text{R}^1$)** :
+  1. *(v. 49)* `μέλλει γὰρ ὁ καλλιεπὴς ἀγάθων`
+  2. *(v. 50)* `πράμος ἡμέτερος· —`
+  3. *(v. 51)* `μῶν βινεῖσθαι·`
+  4. *(v. 52)* `— τίς ὁ φωνήσας· — νήνεμος αἰθήρ·`
+  5. *(v. 53)* `δρυόχους τιθέναι δράματος ἀρχάς·`
+  6. *(v. 54)* `κάμπτει δὲ νέας ἁσπίδας ἐπῶν`
+  7. *(v. 55)* `τὰ δὲ τορνεύει· τὰ δὲ κολλομελεῖ·`
+  8. *(v. 56)* `καὶ γνωμοτυπεῖ· κἀντονομάζει·`
 - **Clés de décodage** :
-  - Observez comment le dialogue rebondit à l'intérieur même du v. 8 grâce aux **trois *dikôla* (`:`)** successifs.
-  - Dans la marge gauche, $\text{R}^2$ a inscrit le monogramme **$\mu^{\text{H}}_{\nu}$** ($\text{Μνησίλοχος}$), et au-dessus du second *dikôlon* du v. 8, il a logé en interligne l'abréviation **$\varepsilon\dot{\upsilon}\rho/$** pour indiquer qu'Euripide répond l'unique syllabe `οὔ :` !
+  - Observez la colométrie plus courte des dimètres anapestiques, le **double $-\lambda\lambda-$ imbriqué** dans `μέλλει`, `καλλιεπὴς` et `κολλομελεῖ`, la faute de minuscule **`πράμος`** au v. 50 (restituée en `πρανοῦν` par `Bibi` d'après Hésychius $\pi\ 3188$), le **$\beta$ bilobé en `u`** initial de `βινεῖσθαι` (v. 51) et la faute **`ἁσπίδας`** (pour `ἁψῖδας`) au v. 54.
 
-#### Exercice 3 (Niveau 2 — Intermédiaire) : Le chant solennel du Serviteur d'Agathon (f. 162v, vv. 39–43)
-
-- **Transcription diplomatique fidèle ($\text{R}^1 + \text{R}^2$)** :
-  1. `[θερ(α/π)] — εὔφημος πᾶς ἔστω λαός`
-  2. `στόμα συγκλήσας· ἐπιδημεῖ γὰρ`
-  3. `θίασος μουσῶν ἔνδον μελάθρων`
-  4. `τῶν δεσποσύνων μελοποιῶν·`
-- **Clés de décodage** :
-  - Le passage du trimètre parlé aux anapestes paratragiques est signalé en marge gauche par la *paragraphos* (`—`) et le monogramme **$\theta\varepsilon\rho^{\pi}_{\alpha}$** ($\Theta\varepsilon\rho\dot{\alpha}\pi\omega\nu$).
-  - À la ligne 2, dans `συγκλήσας`, notez l'orthographe attique ancienne en $-\kappa\lambda\eta-$ (sans iota adscrit) et la ligature $\gamma\kappa$.
-  - À la ligne 3, dans `θίασος`, la finale `-ος` est écrite au moyen de la **grande spirale enroulée (`@`)**.
-
-### 8.2. Niveaux 3 et 4 (Avancé & Confirmé) : *parepigraphè*, parabase et *Andromède* (Planche 23)
+### 8.2. Niveaux 3 et 4 (Avancé & Confirmé) : Prière au Thesmophorion, Parabase et scène d'Écho (Planche 23)
 
 ![Planche 23 — Exercices progressifs de déchiffrement : Niveaux 3 (Avancé) et 4 (Confirmé)](exemples_dechiffrement/23_exercice_progressif_niveau3_et_4_f165v_f172v_f175v.jpg)
 
-#### Exercice 4 (Niveau 3 — Avancé) : L'arrivée du sanctuaire et la prière à Déméter (f. 165v, post v. 276–v. 285)
+#### Exercice 4 (Niveau 3 — Avancé) : La prière parodique de Mnésiloque au Thesmophorion (f. 165v, vv. 284–291)
 
 - **Transcription diplomatique fidèle ($\text{R}^1 + \Sigma^{\text{R}}$)** :
-  - **Marge gauche ($\Sigma^{\text{R}}$)** : `παρεπιγραφὴ ἐκκυκλεῖται ἐπὶ τὸ ἔξω τὸ θεσμοφόριον ÷`
-  - **Ligne 1 (*parepigraphè*)** : `[Korônis] ὀλολύζουσι τε ἱερὸν ὠθεῖται`
-  - **Ligne 2 (v. 277)** : `ἔσπευδε ταχέως· ὡς τὸ τῆς ἐκκλησίας`
-  - **Ligne 3 (v. 278)** : `σημεῖον ἐν τῶι θεσμοφορίωι φαίνεται·`
+  1. *(v. 285)* `τὸ πόπανον ὅπως λαβοῦσα θύσω ταῖν θεαῖν·`
+  2. *(v. 286)* `δέσποιναι πολυτίμητε δήμητερ φίλη`
+  3. *(v. 287)* `καὶ φερρέφαττα· πολλὰ πολλάκις μέ σοι`
+  4. *(v. 288)* `θύειν ἔχουσαν· εἰ δὲ μὴ ἀλλὰ νῦν λαθεῖν·`
+  5. *(v. 289)* `καὶ τὴν θυγατέρα χοῖρον ἀνδρός μοι τυχεῖν`
+  6. *(v. 290)* `πλουτοῦντος· ἄλλως δ' ἠλιθίου κἀβελτέρου·`
+  7. *(v. 291)* `καὶ πρὸς θάληκον μὴ νοῦν ἔχειν μοι καὶ φρένας·`
+  - **Marge gauche ($\Sigma$ 289 de $\text{R}^2$)** : `ὡς τῆς θυγατρὸς αὐ(τοῦ)... γρ(άφεται) χοιρίον... κύσθον ἴσως αἰνίττεται ÷`
 - **Clés de décodage** :
-  - La grande ***korônis*** dans la marge gauche signale le changement de tableau scénique.
-  - À la ligne 3, remarquez les **deux iotas muets adscrits** consécutifs dans `ἐν τῶι θεσμοφορίωι` (= $\dot{\varepsilon}\nu\ \tau\tilde{\ῳ}\ \Theta\varepsilon\sigma\mu\omicron\varphi\omicron\rho\acute{\iota}\ῳ$).
+  - Repérez les **iotas adscrits** des datifs duels (`ταῖν θεαῖν`), la géminée `-ρρ-` de `φερρέφαττα`, la leçon **`χοῖρον`** au v. 289 (restituée en **`Χοιρίλ'`** par `Bibi` d'après le nom de la fille de Mnésiloque dans l'*Hypothesis*), le $\beta$ bilobé en `u` de `κἀβελτέρου` (v. 290) et la métathèse **`πρὸς θάληκον`** (pour `πρὸς θυλάκιον` / `θάλικα`, Hésychius $\theta\ 50$) au v. 291.
 
-#### Exercice 5 (Niveau 3 — Avancé) : La Parabase du Chœur des femmes (f. 172r, vv. 785–790)
+#### Exercice 5 (Niveau 3 — Avancé) : L'épirrhème de la Parabase en tétramètres trochaïques (f. 172v, vv. 838–845)
 
 - **Transcription diplomatique fidèle ($\text{R}^1$)** :
-  1. `[Korônis] ἡμεῖς τοίνυν ἡμᾶς αὐτὰς εὖ λέξομεν· καίτοι πᾶς τις`
-  2. `τὸ γυναικεῖον φῦλον κακὰ πόλλ' ἀγορεύει·`
-  3. `ὡς πᾶν ἐσμὲν κακὸν ἀνθρώποις· κἀξ ἡμῶν ἐστὶν ἅπαντα·`
-  4. `ἔριδες· νείκη· στάσις ἀργαλέα· λύπη· πόλεμος· φέρε δὴ νῦν·`
+  1. *(v. 838)* `ὑστέρ[ο->α]ν αὐτὴν καθῆσθαι σκάφιον ἀποκεκαρμένην`
+  2. *(v. 839)* `τῆς τὸν ἀνδρεῖον τεκούσης· τῶι γὰρ εἰκὸς ὦ πόλεις·`
+  3. *(v. 840)* `τὴν ὑπερβόλου καθῆσθαι μητέρ' ἠμφιεσμένην`
+  4. *(v. 841)* `λευκὰ καὶ κόμας καθεῖσαν πλησίον τῆς λαμάχου·`
+  5. *(v. 842)* `καὶ δανείζειν χρήματα· τῆι χρῆν...`
+  6. *(v. 844)* `ἀλλ' ἀφαιρεῖσθαι βίαι τὰ χρήματα τὰς πόρνας τ[ὰ->ο]δὶ`
 - **Clés de décodage** :
-  - Ces tétramètres anapestiques catalectiques (*kommation* et début de la parabase) sont très longs : $\text{R}^1$ utilise donc ses ligatures les plus rapides (`εὖ`, `λέξομεν`, `ἀνθρώποις`, `ἅπαντα`).
-  - À la ligne 4, observez l'usage rythmé du **point en haut (`·`)** qui détache chaque fléau reproché aux femmes : `ἔριδες· νείκη· στάσις ἀργαλέα· λύπη· πόλεμος·`.
+  - Ces longs tétramètres trochaïques côtoient à gauche un dense bloc de scholies historiques sur Hyperbolos et Lamachos. Repérez les deux corrections vocaliques par surcharge (**`ὑστέρ[ο->α]ν`** au v. 838 et **`τ[ὰ->ο]δὶ`** au v. 844), les ligatures $\sigma\theta$ (`καθῆσθαι`) et $\sigma\kappa$ (`σκάφιον`), ainsi que la crase corrompue **`ὦ πόλεις`** au v. 839 (= **`ωὖπολι`**, « ô Eupolis ! », restituée par `Bibi`).
 
-#### Exercice 6 (Niveau 4 — Confirmé) : Parodie de l'*Andromède* d'Euripide et duo avec Écho (f. 175v, vv. 1098–1104)
+#### Exercice 6 (Niveau 4 — Confirmé) : La mise en page bicolonne de la scène d'Écho (f. 175v, vv. 1082–1097)
+
+- **Transcription diplomatique fidèle ($\text{R}^1 + \text{R}^2$, deux sous-colonnes en miroir)** :
+  1. *(v. 1082)* `μν/ οἴμωζ'` || `ἠχ/ οἴμωζ'`
+  2. *(v. 1083)* `σκυ/ οὗτος τί λαλεῖς·` || `ἠχ/ οὗτος τί λαλεῖς`
+  3. *(v. 1084)* `σκυ/ πρυτάνεις καλέσω :` || `ἠχ/ πρυτάνεις καλέσω`
+  4. *(v. 1085)* `σκυ/ σὶ κακόν :` || `ἠχ/ σὶ κακόν`
+  5. *(v. 1086)* `σκυ/ π[[ρ]]ῶτε φωνή :` || `ἠχ/ π[[ρ]]ῶτε φωνή`
+  6. *(vv. 1090–1091)* `μὰ δί' ἀλλὰ γυνὴ πλησίον αὕτη` || `ἠχ/ πλησίον αὕτη`
+  7. *(v. 1094)* `ποῖ ποῖ φεύγεις οὐ καιρήσεις` || `[Σ R2 dr.] ἀν(τὶ) τοῦ οὐχ αἱρήσεις`
+- **Clés de décodage** :
+  - Pour figurer visuellement le phénomène acoustique de l'écho, $\text{R}^1$ a divisé sa colonne en **deux sous-colonnes parallèles** !
+  - Observez au v. 1086 le double grattage du $\rho$ dans **`π[[ρ]]ῶτε φωνή`** sur les deux sous-colonnes, et au v. 1094 la glose marginale droite **`ἀν(τὶ) τοῦ οὐχ αἱρήσεις`** qui conserve la véritable réplique parodique d'Écho (`οὐχ αἱρήσεις` répondant au scythe `οὐ καιρήσεις`, restituée par `Bibi`).
+
+### 8.3. Niveau 5 (Expert) : Quatrième *parepigraphè*, barbarismes du Scythe et *korônis* finale (Planche 24)
+
+![Planche 24 — Exercices progressifs de déchiffrement : Niveau 5 (Expert — Archer scythe et korônis finale)](exemples_dechiffrement/24_exercice_progressif_niveau5_expert_scythe_et_scholies_f176v_f177r.jpg)
+
+#### Exercice 7 (Niveau 5 — Expert) : Quatrième *parepigraphè*, jargon du Scythe, *rasurae* et main de Boninus (f. 176v, vv. 1185–1201)
+
+- **Pourquoi c'est l'épreuve ultime du déchiffreur** : dans cette scène finale, l'Archer scythe parle un grec « barbare » qui remplace les consonnes aspirées ($\theta, \varphi, \chi$) par des sourdes ($\tau, \pi, \kappa$) et altère les finales. Il faut donc **déchiffrer strictement chaque lettre tracée par $\text{R}^1$**, tout en repérant les grattages au canif et les notes d'Euphrosynus Boninus (1515) !
+- **Transcription diplomatique fidèle ($\text{R}^1 + \text{R}^2 + \text{Boninus 1515}$)** :
+  1. *(v. 1187)* `καλὸ γε τὸ πυγή· οὐ κλαυσ[[' ε]]ϊ γ' ἂν μὴ 'νδον μένῃς :`
+  2. *(post v. 1187 — 4ᵉ parepigraphè)* : `ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημέν@·`
+  3. *(v. 1188)* `σκ/ εἶεν· καλὴ τὸ σχῆμα περὶ τὸ [[σ]]ποστίον·`
+  4. *(v. 1189)* `[γϋ. Boninus] καλῶς ἔχει· λαβὲ θοἰμάτιον ὦ παιδίον·`
+  5. *(v. 1195)* `[[σὺ]] κάρισοσ οὐ τούτο· δὸς ὁ σὺ ζωμὸ`
+  6. *(v. 1197)* `φύλαξον καὶ τὴν συμβήνην·`
+  7. *(v. 1198)* `[γϋ. Boninus] ἔπειτα κ[[ω->ο]]μίζεις αὐτοῖς· [σκ'] ἀκουλούτι τέκνον·`
+- **Clés de décodage** :
+  - **Ligne 2** : la quatrième *parepigraphè* scénique (**`ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημέν@·`**) est copiée par $\text{R}^1$ dans la colonne même et terminée par la spirale `@` (`-ος`).
+  - **Grattages au canif (*in rasura*)** : `κλαυσ[[' ε]]ϊ γ'` (v. 1187), `τὸ [[σ]]ποστίον` (v. 1188), `[[σὺ]] κάρισοσ` (v. 1195) et `κ[[ω->ο]]μίζεις` (v. 1198).
+  - **v. 1197** : $\text{R}^1$ conserve la graphie précieuse **`συμβήνην`** (avec $-\mu-$ devant le $\beta$ bilobé en `u`, défendue par `Bibi` d'après Hésychius $\sigma\ 2137$), préparant le calembour obscène sur $\sigma\upsilon\mu\beta\iota\nu\varepsilon\tilde{\iota}\nu$ !
+  - **vv. 1189 et 1198** : dans la marge gauche apparaissent les **deux seules interventions autographes d'Euphrosynus Boninus (1515)** (**`γϋ.`** à l'encre noire, préparant l'édition Juntine de 1516).
+
+#### Exercice 8 (Niveau 5 — Expert) : L'*Exodos* des *Thesmophories*, la *korônis* finale et l'*Hypothesis* des *Ecclésiazuses* (f. 177r, vv. 1222–1231)
 
 - **Transcription diplomatique fidèle ($\text{R}^1 + \text{R}^2$)** :
-  - **Marge gauche ($\text{R}^2$)** : `εὐριπ(ίδης) ὡς περσεύς` puis `κηδ(εστὴς) ὡς ἀνδρομέδ(α)`
-  - **Texte central** : `ὦ θεοί· τίν' ἐς γῆν βαρβάρων ἀφίγμεθα / ταχεῖ πεδίλωι· διὰ μέσου γὰρ αἰθέρος / τέμνων κέλευθον πόδα τίθημ' ὑπόπτερον...`
-  - **Marge inférieure ($\text{R}^2$)** : `[+%] εὐρ(ιπίδης) αἰαῖ· τί δῆτ' ἂν λέγει τῆς γοργόνος πέρι / τὴν γραμματέο σὺ τὴν κεφαλὴν τὴν γοργόνος·`
+  1. *(v. 1223)* `ὀρθὴν ἄνω δίωκε· ποῖ θεῖς· οὐ πάλιν`
+  2. *(v. 1224)* `τῆιδὶ διώξεις· τοὔμπαλιν τρέχεις σύ γε·`
+  3. *(v. 1225)* `σκ/ κακόδαιμον ἀλλὰ τρέξι ἀρταμουξία·`
+  4. *(v. 1226)* `Χ [chœur] τρέχε νυν κατὰ τοὺς κόρακας ἐπουρίσας·`
+  5. *(v. 1227)* `ἀλλὰ πέπυσται μετρίως ἡμῖν·`
+  6. *(vv. 1228–1230)* `ὥσθ' ὥρα δή 'στι βαδίζειν / οἴκαδ' ἑκάστη· τὼ θεσμοφόρω δ' / ἡμῖν ἀγαθὴν`
+  7. *(v. 1231)* `τούτων χάριν ἀνταδοῖτον·`
+  8. **[Grande *korônis* finale et trait horizontal de clôture]**
+  9. **[Bandeau de la pièce suivante]** : `Ὑπόθ(εσις) ἐκκλησιαζουσῶν ἀριστοφάν(ους) :~`
 - **Clés de décodage** :
-  - Cet extrait combine **trois phénomènes paléographiques majeurs** : 1) les indications de déguisement paratragique en marge gauche ; 2) l'iota adscrit dans `ταχεῖ πεδίλωι` ; 3) le signe de renvoi qui envoie le lecteur chercher au bas du feuillet les deux vers (vv. 1102–1103) sautés par $\text{R}^1$ !
-
-### 8.3. Niveau 5 (Expert) : barbarismes de l'Archer scythe, *korônis* finale et scholies denses (Planche 24)
-
-![Planche 24 — Exercices progressifs de déchiffrement : Niveau 5 (Expert — Archer scythe et scholies)](exemples_dechiffrement/24_exercice_progressif_niveau5_expert_scythe_et_scholies_f176v_f177r.jpg)
-
-#### Exercice 7 (Niveau 5 — Expert) : Le jargon barbare de l'Archer scythe et la fin de la comédie (f. 177r, vv. 1214–1231)
-
-- **Pourquoi c'est l'épreuve ultime du déchiffreur** : dans la dernière scène, l'Archer scythe parle un grec « petit-nègre » qui remplace les consonnes aspirées ($\theta, \varphi, \chi$) par des sourdes ($\tau, \pi, \kappa$), confond les genres et tronque les désinences. Le lecteur ne peut donc plus deviner les mots par la grammaire classique : il doit **lire strictement chaque lettre tracée par $\text{R}^1$** !
-- **Transcription diplomatique des vers clés (f. 177r)** :
-  - **v. 1215** : `οὐκ ἐπαινῶ γράδιο· διαναλεῖς σ' ἡ γραῦς· ἀπότρεχε ὡς τάχος·` (où `διαναλεῖς` est une faute de lecture de $\text{R}^1$ pour `διαβαλεῖς` à cause du $\beta$ en `u` !).
-  - **v. 1216** : `ὀρῶσ' ἀπότρεχε·` (= $\ὀ\rho\theta\tilde{\omega}\varsigma\ \dot{\alpha}\pi\acute{\omicron}\tau\rho\varepsilon\chi\varepsilon$).
-  - **vv. 1225–1226 (derniers mots du Scythe)** : `ὦ μιαρὸ γρᾶο· τοῦτο δρᾶς σὺ μέ; / οἴμοι κακοδαίμων·`
-  - **vv. 1227–1231 (chœur final des femmes et *korônis* de clôture)** :
-    `ἀλλὰ πέπαισται μετρίως ἡμῖν· / ὥσθ' ὥρα δή 'στι βαδίζειν / οἴκαδ' ἑκάστηι· τὼ θεσμοφόρω δ' / ἡμῖν ἀγαθὴν` / **`τούτων χάριν ἀνταποδοίτην : —`** suivi de la grande ***korônis* finale** qui clôt *Les Thesmophories*.
-
-#### Exercice 8 (Niveau 5 — Expert) : Déchiffrement intégral de la grande scholie marginale $\Sigma$ 1 (f. 162v)
-
-- **Transcription diplomatique avec localisation des signes tachygraphiques** :
-  1. `ὦ ζεῦ χελιδών· ἐπὶ τ\ ἐν θλίψει`
-  2. `ὄντ\· χειμῶνος δ' εὐχόμ(ε)θα τ\ ἔαρ Ϛ`
-  3. `χελιδόνας φαίνεσθ(αι)· ἐλθούσ^ς`
-  4. `γὰρ ἐκείν^ς παύετ(αι) ὁ χειμών ÷`
-- **Résolution pas à pas des abréviations de $\text{R}^2$** :
-  - `τ\` = $\tau(\tilde{\omega}\nu)$ (barre oblique descendante = `-ων`).
-  - `ὄντ\` = $\ὄ\nu\tau(\omega\nu)$ (barre oblique descendante = `-ων`).
-  - `εὐχόμ(ε)θα` = $\theta$ inscrit en exposant au-dessus du $\mu$.
-  - `Ϛ` = conjonction **$\kappa\alpha\acute{\iota}$**.
-  - `φαίνεσθ(αι)` = ligature $\sigma\theta$ barrée d'un trait d'abréviation.
-  - `ἐλθούσ^ς γὰρ ἐκείν^ς` = petits sigmas lunaires en exposant valant `-ης` ($\dot{\varepsilon}\lambda\theta\omicron\acute{\upsilon}\sigma\eta\varsigma\ \gamma\grave{\alpha}\rho\ \dot{\varepsilon}\kappa\varepsilon\acute{\iota}\nu\eta\varsigma$).
-  - `÷` = *lemnisque* final marquant la fin de la scholie.
-- **Texte grec normalisé et traduction** :
-  > **Ὦ Ζεῦ χελιδών·** ἐπὶ τῶν ἐν θλίψει ὄντων· χειμῶνος δ' εὐχόμεθα τὸ ἔαρ καὶ χελιδόνας φαίνεσθαι· ἐλθούσης γὰρ ἐκείνης παύεται ὁ χειμών.  
-  > *(« Ô Zeus, l'hirondelle ! » : se dit de ceux qui sont dans l'affliction ; en hiver, en effet, nous souhaitons voir paraître le printemps et les hirondelles, car à la venue de celle-ci l'hiver prend fin.)*
+  - **vv. 1223–1226** : le Chœur envoie l'Archer scythe courir dans la mauvaise direction (`ὀρθὴν ἄνω δίωκε...`), avec l'iota adscrit de `τῆιδὶ` et le barbarisme scythe `τρέξι ἀρταμουξία`.
+  - **v. 1227** : $\text{R}^1$ écrit `πέπυσται` par confusion vocalique au lieu de **`πέπαισται`** (« nous avons assez joué », conservé par $\Sigma^{\text{R}}$ `ἀν(τὶ) τοῦ πέπαικται ÷`).
+  - **v. 1231** : $\text{R}^1$ porte **`ἀνταδοῖτον`** par haplographie syllabique (omission de $-\pi\omicron-$ dans `ἀνταποδοίτην`), immédiatement souligné par la **grande *korônis* finale** qui clôt *Les Thesmophories*, avant que $\text{R}^1$ n'enchaîne avec l'*Hypothesis* des *Ecclésiazuses* coiffée du monogramme **`Ὑπόθ(εσις)`** !
 
 ---
 
@@ -537,27 +562,27 @@ Vous disposez maintenant de tous les outils paléographiques nécessaires pour l
 
 | N° | Fichier dans `exemples_dechiffrement/` | Thème pédagogique illustré |
 | :---: | :--- | :--- |
-| **01** | [`01_les_quatre_registres_ecriture_ravennas.jpg`](exemples_dechiffrement/01_les_quatre_registres_ecriture_ravennas.jpg) | Les 4 registres d'écriture d'une page du *Ravennas* (titre, $\text{R}^1$, *notae*, scholies) |
+| **01** | [`01_les_quatre_registres_ecriture_ravennas.jpg`](exemples_dechiffrement/01_les_quatre_registres_ecriture_ravennas.jpg) | Les 4 registres d'écriture d'une page du *Ravennas* (titre, $\text{R}^1$, $\text{R}^2$, main 1515) |
 | **02** | [`02_anatomie_ligne_R1_suspension_et_quadrilinearite.jpg`](exemples_dechiffrement/02_anatomie_ligne_R1_suspension_et_quadrilinearite.jpg) | Géométrie de la ligne : écriture suspendue sous la réglure et système quadrilinéaire |
 | **03** | [`03_abecedaire_visuel_alpha_a_mu.jpg`](exemples_dechiffrement/03_abecedaire_visuel_alpha_a_mu.jpg) | Abécédaire photographique de $\text{R}^1$ (1re partie : d'*Alpha* $\alpha$ à *Mu* $\mu$) |
-| **04** | [`04_abecedaire_visuel_nu_a_omega.jpg`](exemples_dechiffrement/04_abecedaire_visuel_nu_a_omega.jpg) | Abécédaire photographique de $\text{R}^1$ (2e partie : de *Nu* $\nu$ à *Oméga* $\omega$ + `-ος` et `Ϛ`) |
-| **05** | [`05_piege1_nu_minuscule_vs_mu_minuscule.jpg`](exemples_dechiffrement/05_piege1_nu_minuscule_vs_mu_minuscule.jpg) | Piège n° 1 : *Nu* minuscule ($\nu$ en `μ`) *vs* *Mu* minuscule ($\mu$ à deux ponts) |
-| **06** | [`06_piege2_beta_bilobe_u_vs_B_oncial_kappa_nu.jpg`](exemples_dechiffrement/06_piege2_beta_bilobe_u_vs_B_oncial_kappa_nu.jpg) | Piège n° 2 : *Bêta* bilobé cursif ($\beta$ en `u`) *vs* $\text{B}$ oncial, $\kappa$ et $\nu$ |
+| **04** | [`04_abecedaire_visuel_nu_a_omega.jpg`](exemples_dechiffrement/04_abecedaire_visuel_nu_a_omega.jpg) | Abécédaire photographique de $\text{R}^1$ (2e partie : de *Nu* $\nu$ à *Oméga* $\omega$) |
+| **05** | [`05_piege1_nu_minuscule_vs_mu_minuscule.jpg`](exemples_dechiffrement/05_piege1_nu_minuscule_vs_mu_minuscule.jpg) | Piège n° 1 : *Nu* minuscule ($\nu$ en `v`) *vs* *Mu* minuscule ($\mu$ à queue plongeante gauche) |
+| **06** | [`06_piege2_beta_bilobe_u_vs_B_oncial_kappa_nu.jpg`](exemples_dechiffrement/06_piege2_beta_bilobe_u_vs_B_oncial_kappa_nu.jpg) | Piège n° 2 : *Bêta* bilobé cursif ($\beta$ en `u`) *vs* $\text{B}$ semi-oncial |
 | **07** | [`07_piege3_eta_kappa_lambda_nu.jpg`](exemples_dechiffrement/07_piege3_eta_kappa_lambda_nu.jpg) | Piège n° 3 : La triade des hastes hautes — *Êta* ($\eta$ en `h`), *Kappa* ($\kappa$) et *Lambda* ($\lambda$) |
 | **08** | [`08_piege4_lettres_rondes_alpha_omicron_omega_theta_sigma.jpg`](exemples_dechiffrement/08_piege4_lettres_rondes_alpha_omicron_omega_theta_sigma.jpg) | Piège n° 4 : Lettres rondes ($\alpha, \omicron, \omega, \theta, \sigma$) et surcharges vocaliques |
 | **09** | [`09_piege5_potences_gamma_pi_tau_et_zeta_xi_psi.jpg`](exemples_dechiffrement/09_piege5_potences_gamma_pi_tau_et_zeta_xi_psi.jpg) | Piège n° 5 : Lettres à potence ($\gamma, \pi, \tau$) et descendantes sinueuses ($\zeta, \xi, \psi$) |
-| **10** | [`10_piege6_spirale_finale_os_vs_soleil_helios.jpg`](exemples_dechiffrement/10_piege6_spirale_finale_os_vs_soleil_helios.jpg) | Piège n° 6 : Spirale finale `-ος` (`@`) *vs* symbole astronomique du Soleil (`☉`, v. 856) |
+| **10** | [`10_piege6_spirale_finale_os_vs_soleil_helios.jpg`](exemples_dechiffrement/10_piege6_spirale_finale_os_vs_soleil_helios.jpg) | Piège n° 6 : Spirale finale `-ος` (`@`) *vs* idéogramme astronomique du Soleil (`☉`, f. 162v $\Sigma$ 17) |
 | **11** | [`11_ligatures_epsilon_as_de_pique_ei_ex_er_es_et.jpg`](exemples_dechiffrement/11_ligatures_epsilon_as_de_pique_ei_ex_er_es_et.jpg) | Ligatures d'*epsilon* : $\varepsilon\iota$, $\varepsilon\xi$, $\varepsilon\rho$, $\varepsilon\sigma$ (« as de pique ») et $\varepsilon\tau$ |
-| **12** | [`12_ligatures_sigma_sp_st_sth_sk_sch.jpg`](exemples_dechiffrement/12_ligatures_sigma_sp_st_sth_sk_sch.jpg) | Ligatures de *sigma* lunaire : $\sigma\pi$, $\sigma\tau$, $\sigma\theta$, $\sigma\kappa$ et $\sigma\chi$ |
-| **13** | [`13_ligatures_alpha_tau_gamma_rho_et_double_lambda.jpg`](exemples_dechiffrement/13_ligatures_alpha_tau_gamma_rho_et_double_lambda.jpg) | Ligatures de consonnes ($\pi\rho, \tau\rho, \gamma\omega\iota$) et double lambda ($-\lambda\lambda-$ *vs* $-\lambda-$) |
+| **12** | [`12_ligatures_sigma_sp_st_sth_sk_sch.jpg`](exemples_dechiffrement/12_ligatures_sigma_sp_st_sth_sk_sch.jpg) | Ligatures de *sigma* à casquette : $\sigma\pi$, $\sigma\tau$, $\sigma\theta$, $\sigma\kappa$ et $\sigma\chi$ |
+| **13** | [`13_ligatures_alpha_tau_gamma_rho_et_double_lambda.jpg`](exemples_dechiffrement/13_ligatures_alpha_tau_gamma_rho_et_double_lambda.jpg) | Ligatures d'*alpha*, potences sur *rhô* ($\tau\rho, \gamma\rho$) et double lambda ($-\lambda\lambda-$ *vs* $-\lambda-$) |
 | **14** | [`14_regle_iota_muet_adscrit_et_piege_deictique.jpg`](exemples_dechiffrement/14_regle_iota_muet_adscrit_et_piege_deictique.jpg) | Règle de l'iota muet adscrit ($\alpha\iota, \eta\iota, \omega\iota$) et piège du $-\iota$ déictique |
-| **15** | [`15_esprits_accents_trema_et_scriptio_plena.jpg`](exemples_dechiffrement/15_esprits_accents_trema_et_scriptio_plena.jpg) | Esprits, accents, tréma inorganique ($\ddot{\iota}, \ddot{\upsilon}$) et *scriptio plena* |
+| **15** | [`15_esprits_accents_trema_et_scriptio_plena.jpg`](exemples_dechiffrement/15_esprits_accents_trema_et_scriptio_plena.jpg) | Esprits, accents, tréma organique ($\ddot{\iota}, \ddot{\upsilon}$) et *scriptio plena* |
 | **16** | [`16_signes_dialogue_paragraphos_dikolon_koronis.jpg`](exemples_dechiffrement/16_signes_dialogue_paragraphos_dikolon_koronis.jpg) | Signes de dialogue : *paragraphos* (`—`), *dikôlon* (`:`) et *korônis* |
 | **17** | [`17_notae_personarum_monogrammes_par_superposition.jpg`](exemples_dechiffrement/17_notae_personarum_monogrammes_par_superposition.jpg) | Les *notae personarum* de $\text{R}^2$ : monogrammes par superposition verticale |
-| **18** | [`18_tachygraphie_scholies_suspensions_et_finales.jpg`](exemples_dechiffrement/18_tachygraphie_scholies_suspensions_et_finales.jpg) | Tachygraphie des scholies ($\Sigma^{\text{R}}$) : suspensions, `Ϛ`, $\gamma\rho/$ et lemnisque (`÷`) |
+| **18** | [`18_tachygraphie_scholies_suspensions_et_finales.jpg`](exemples_dechiffrement/18_tachygraphie_scholies_suspensions_et_finales.jpg) | Tachygraphie des scholies ($\Sigma^{\text{R}}$) : suspensions, finales hautes et lemnisque (`÷`) |
 | **19** | [`19_les_quatre_parepigraphai_sceniques_antiques.jpg`](exemples_dechiffrement/19_les_quatre_parepigraphai_sceniques_antiques.jpg) | Les quatre *parepigraphai* (didascalies scéniques antiques) des *Thesmophories* |
-| **20** | [`20_chiffres_transposition_et_ajouts_marginaux_R2.jpg`](exemples_dechiffrement/20_chiffres_transposition_et_ajouts_marginaux_R2.jpg) | Chiffres d'ordre ($\alpha, \beta, \gamma, \delta$), ajouts supralinéaires et vers restitués en marge |
+| **20** | [`20_chiffres_transposition_et_ajouts_marginaux_R2.jpg`](exemples_dechiffrement/20_chiffres_transposition_et_ajouts_marginaux_R2.jpg) | Chiffres d'ordre ($\alpha', \beta', \gamma', \delta'$), ajouts supralinéaires et vers restitués en marge |
 | **21** | [`21_anatomie_des_grattages_in_rasura_quatre_types.jpg`](exemples_dechiffrement/21_anatomie_des_grattages_in_rasura_quatre_types.jpg) | Anatomie matérielle des grattages sur parchemin (*in rasura*) : les 4 types |
 | **22** | [`22_exercice_progressif_niveau1_et_2_f162v_f163r.jpg`](exemples_dechiffrement/22_exercice_progressif_niveau1_et_2_f162v_f163r.jpg) | Exercices progressifs corrigés — Niveaux 1 (Débutant) et 2 (Intermédiaire) |
 | **23** | [`23_exercice_progressif_niveau3_et_4_f165v_f172v_f175v.jpg`](exemples_dechiffrement/23_exercice_progressif_niveau3_et_4_f165v_f172v_f175v.jpg) | Exercices progressifs corrigés — Niveaux 3 (Avancé) et 4 (Confirmé) |
-| **24** | [`24_exercice_progressif_niveau5_expert_scythe_et_scholies_f176v_f177r.jpg`](exemples_dechiffrement/24_exercice_progressif_niveau5_expert_scythe_et_scholies_f176v_f177r.jpg) | Exercices progressifs corrigés — Niveau 5 (Expert : Archer scythe et scholies) |
+| **24** | [`24_exercice_progressif_niveau5_expert_scythe_et_scholies_f176v_f177r.jpg`](exemples_dechiffrement/24_exercice_progressif_niveau5_expert_scythe_et_scholies_f176v_f177r.jpg) | Exercices progressifs corrigés — Niveau 5 (Expert : Archer scythe et *korônis* finale) |

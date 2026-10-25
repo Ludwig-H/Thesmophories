@@ -5,12 +5,30 @@
 \setdefaultlanguage{french}
 \setotherlanguage[variant=polytonic]{greek}
 
-\setmainfont{FreeSerif}
-\setsansfont{FreeSans}
+\setmainfont{Libertinus Serif}
+\newfontfamily\latinfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
 \setmonofont{FreeMono}
-\newfontfamily\greekfont{FreeSerif}
-\newfontfamily\greekfontsf{FreeSans}
+\newfontfamily\greekfont{GFS Didot}[Scale=MatchLowercase]
+\newfontfamily\greekfontsf{Libertinus Sans}
 \newfontfamily\greekfonttt{FreeMono}
+\newfontfamily\fallbackfont{FreeSerif}
+\usepackage[Latin,Greek]{ucharclasses}
+\setTransitionsForLatin{\latinfont}{}
+\setTransitionsForGreek{\greekfont}{\latinfont}
+\XeTeXinterchartoks\GreekExtendedClass\GreekAndCopticClass={}
+\XeTeXinterchartoks\GreekAndCopticClass\GreekExtendedClass={}
+\XeTeXcharclass"0308=\GreekAndCopticClass
+\XeTeXcharclass"0313=\GreekAndCopticClass
+\XeTeXcharclass"0342=\GreekAndCopticClass
+\newcommand{\fbchar}[1]{{\XeTeXinterchartokenstate=0\fallbackfont\mdseries\upshape #1}}
+\usepackage{newunicodechar}
+\newunicodechar{Ϛ}{\fbchar{Ϛ}}
+\newunicodechar{Ϲ}{\fbchar{Ϲ}}
+\newunicodechar{⊢}{\fbchar{⊢}}
+\newunicodechar{⊣}{\fbchar{⊣}}
+\newunicodechar{∞}{\fbchar{∞}}
+\newunicodechar{⁘}{\fbchar{⁘}}
 
 \usepackage[margin=1.8cm, top=2.1cm, bottom=2.1cm]{geometry}
 \usepackage{amsmath}
@@ -59,7 +77,7 @@
   \begin{figure}[H]
     \centering
     \fboxsep=2pt\fboxrule=0.8pt
-    \fcolorbox{BorderGold}{white}{\includegraphics[width=0.97\textwidth,height=0.80\textheight,keepaspectratio]{exemples_dechiffrement/#1}}
+    \fcolorbox{BorderGold}{white}{\includegraphics[width=0.97\textwidth,height=0.64\textheight,keepaspectratio]{exemples_dechiffrement/#1}}
     \caption{#2}
     \label{#3}
   \end{figure}
@@ -154,7 +172,7 @@ Lorsque vous êtes bloqué devant un mot du \textit{Ravennas}, appliquez systém
 \begin{enumerate}
     \item \textbf{Repérez d'abord les esprits et les accents dans l'interligne supérieur} : même lorsque les mots sont collés les uns aux autres (\textit{scriptio continua}), \textbf{chaque mot grec porte son accent propre} et chaque mot à initiale vocalique porte son esprit. Compter les accents et les esprits d'une ligne permet de découper instantanément la phrase en mots !
     \item \textbf{Identifiez les lettres à longues queues plongeantes sous la ligne} (ρ, φ, χ, ψ, ζ, ξ, μ, γ et les ligatures ει, τι) : elles constituent les piliers visuels immuables du mot.
-    \item \textbf{Vérifiez toujours si un jambage en forme de \texttt{μ} a un ou deux sommets} : un seul creux remontant = \textbf{ν} (\textit{nu}) ; deux ponts arrondis = \textbf{μ} (\textit{mu}).
+    \item \textbf{Appliquez le test de la queue plongeante gauche entre ν et μ} : aucune queue plongeante à gauche sous la ligne ($\text{Z}_4$) = \textbf{ν} (\textit{nu} en \texttt{v}) ; longue hampe verticale plongeant à gauche sous la ligne + double pont = \textbf{μ} (\textit{mu}).
     \item \textbf{Ne cherchez jamais d'iota souscrit sous α, η, ω} : dans le \textit{Ravennas}, l'iota muet est soit \textbf{écrit sur la ligne à droite de la voyelle longue} (αι, ηι, ωι), soit omis.
     \item \textbf{Regardez si le point en haut (\texttt{·}) ou le double point (\texttt{:}) suit le mot} : le double point (\texttt{:}) signale un changement d'interlocuteur !
 \end{enumerate}
@@ -169,7 +187,7 @@ Lorsque vous êtes bloqué devant un mot du \textit{Ravennas}, appliquez systém
 Pourquoi une même lettre (comme \textit{bêta}, \textit{êta}, \textit{kappa}, \textit{lambda}, \textit{nu}, \textit{pi} ou \textit{sigma}) peut-elle revêtir deux formes complètement différentes à l'intérieur d'un même vers ? Parce qu'au milieu du X\textsuperscript{e} siècle, la minuscule livresque issue de la réforme studite du IX\textsuperscript{e} siècle a réintroduit, pour aérer la lecture, un certain nombre d'\textbf{allographes empruntés à l'ancienne majuscule onciale} :
 \begin{itemize}
     \item \textbf{En attaque de vers ou en fin de mot}, $\text{R}^1$ aime tracer des formes hautes d'origine onciale (Β, Γ, Η, Κ, Λ, Ν, Π, C).
-    \item \textbf{Au cœur des mots}, il privilégie les formes minuscules cursives rapides (β en \texttt{u}, γ bouclé, η en \texttt{h}, κ en deux traits, ν en \texttt{μ}, π bas) qui permettent d'enchaîner les ligatures sans lever le calame.
+    \item \textbf{Au cœur des mots}, il privilégie les formes minuscules cursives rapides (β en \texttt{u}, γ bouclé, η en \texttt{h}, κ en deux traits, ν en \texttt{v}, π bas) qui permettent d'enchaîner les ligatures sans lever le calame.
 \end{itemize}
 
 \subsection{Dictionnaire visuel des 24 lettres grecques : d'Alpha (α) à Mu (μ) (Planche 03)}
@@ -178,7 +196,7 @@ Pourquoi une même lettre (comme \textit{bêta}, \textit{êta}, \textit{kappa}, 
 
 \subsection{Dictionnaire visuel des 24 lettres grecques : de Nu (ν) à Oméga (ω) (Planche 04)}
 
-\platefig{04_abecedaire_visuel_nu_a_omega.jpg}{Planche 04 — Abécédaire photographique de $\text{R}^1$ (2\textsuperscript{e} partie : de Nu ν à Oméga ω, spirale -ος et sigle καί).}{fig:pl04}
+\platefig{04_abecedaire_visuel_nu_a_omega.jpg}{Planche 04 — Abécédaire photographique de $\text{R}^1$ (2\textsuperscript{e} partie : de Nu ν à Oméga ω).}{fig:pl04}
 
 \begin{longtable}{@{}p{1.6cm}p{3.8cm}p{3.4cm}p{7.2cm}@{}}
 \caption{Tableau analytique complet des 24 lettres et signes spéciaux dans $\text{R}^1$.}\\
@@ -216,7 +234,7 @@ Pourquoi une même lettre (comme \textit{bêta}, \textit{êta}, \textit{kappa}, 
 \addlinespace
 \textbf{Μ / μ} & Hampe plongeante + \textbf{deux ponts} & Μ oncial à anse centrale & \textbf{Règle absolue} : commence par une queue verticale sous la ligne à gauche, suivie de \textbf{deux arches arrondies} (\texttt{m}). \\
 \addlinespace
-\textbf{Ν / ν} & \textbf{Forme en \texttt{μ} à un seul creux} & Grand \textbf{Ν} capital & \textbf{Faux-ami n° 1} : le ν minuscule commence par une hampe plongeante à gauche suivie d'\textbf{un seul vallon qui remonte}. \\
+\textbf{Ν / ν} & \textbf{Forme en \texttt{v} pointu sans queue} & Grand \textbf{Ν} capital & \textbf{Faux-ami n° 1} : le ν minuscule ressemble à un \texttt{v} ou \texttt{u} pointu posé sur la ligne, sans queue plongeante à gauche. \\
 \addlinespace
 \textbf{Ξ / ξ} & Serpentin vertical à 3 boucles & Ξ à trois barres & Plonge bas sous la ligne en décrivant \textbf{deux ondulations intermédiaires} avant sa queue inférieure. \\
 \addlinespace
@@ -252,49 +270,48 @@ Pourquoi une même lettre (comme \textit{bêta}, \textit{êta}, \textit{kappa}, 
 
 Tout lecteur qui débute dans le \textit{Codex Ravennas 429} commet les mêmes six erreurs d'identification. En maîtrisant dès maintenant ces six paires ou groupes de lettres « sosies », vous éliminerez plus de 90\,\% des blocages de lecture.
 
-\subsection{Piège n° 1 : Nu minuscule (ν) en \texttt{μ} \textit{versus} Mu minuscule (μ) à deux ponts (Planche 05)}
+\subsection{Piège n° 1 : Nu minuscule (ν en \texttt{v}) \textit{versus} Mu minuscule (μ à queue plongeante) (Planche 05)}
 
 \begin{itemize}
-    \item Dans nos éditions imprimées modernes, la forme \texttt{μ} (une queue à gauche + un creux) représente la lettre \textbf{mu} (μ).
-    \item Dans le \textit{Ravennas}, cette forme à \textbf{un seul creux} après la hampe plongeante gauche est toujours un \textbf{nu minuscule (ν)} !
-    \item Inversement, le \textbf{mu minuscule (μ)} commence lui aussi par une hampe plongeante à gauche, mais il est obligatoirement suivi de \textbf{deux ponts arrondis} (comme un \texttt{m} minuscule français doté d'une queue initiale).
+    \item Le \textbf{nu minuscule (ν)} de $\text{R}^1$ ressemble à un \textbf{\texttt{v} ou un \texttt{u} pointu} strictement confiné dans le noyau médian ($\text{Z}_2$), sans queue plongeante à gauche sous la ligne de base.
+    \item Au contraire, le \textbf{mu minuscule (μ)} commence \textbf{toujours} par une \textbf{longue hampe verticale plongeant à gauche sous la ligne ($\text{Z}_4$)}, suivie de deux ponts arrondis sur $\text{Z}_2$ (ex. f. 162v v. 3 : πρὶν, τὸν, ἐκβαλεῖν face à κομιδῆι, μ' ; f. 163v v. 94 : τεχνάζειν face à ἡμέτερος, πυραμοῦς ; f. 175v v. 1114 : μή τι μικρὸν).
 \end{itemize}
 
-\platefig{05_piege1_nu_minuscule_vs_mu_minuscule.jpg}{Planche 05 — Piège n° 1 : ne jamais confondre le Nu minuscule (en \texttt{μ}) et le Mu minuscule (à deux ponts).}{fig:pl05}
+\platefig{05_piege1_nu_minuscule_vs_mu_minuscule.jpg}{Planche 05 — Piège n° 1 : ne jamais confondre le Nu minuscule (en \texttt{v}) et le Mu minuscule (à queue plongeante gauche).}{fig:pl05}
 
-\subsection{Piège n° 2 : Bêta bilobé cursif (β en \texttt{u}) \textit{versus} Β oncial, Kappa (κ) et Nu (ν) (Planche 06)}
+\subsection{Piège n° 2 : Bêta bilobé cursif (β en \texttt{u}) \textit{versus} Β semi-oncial (Planche 06)}
 
-Dans le corps des mots, $\text{R}^1$ trace presque toujours le \textbf{bêta minuscule cursif}, dit « bêta bilobé » ou « bêta en \texttt{u} » : le calame descend verticalement, remonte au milieu pour former une pointe médiane, redescend pour former une seconde panse à droite et se referme vers le haut. Ce β en \texttt{u} est si proche de κ, ν et α que les copistes eux-mêmes s'y trompaient (au f. 177r, v. 1215, $\text{R}^1$ a lu un ν au lieu d'un β en \texttt{u} et écrit διαναλεῖς pour διαβαλεῖς !).
+Dans le corps des mots, $\text{R}^1$ trace presque toujours le \textbf{bêta minuscule cursif}, dit « bêta bilobé » ou « bêta en \texttt{u} » : le calame descend sur $\text{Z}_2$, remonte au milieu pour former une pointe médiane, redescend pour former une seconde cuvette à droite et se referme vers le haut, comme un \texttt{u} latin à double fond (ex. f. 162v v. 35 : βε[[α$\rightarrow$β]]ίνηκας réunissant côte à côte le β en \texttt{u} et le Β semi-oncial sur grattage ; f. 168r v. 489 : κύβδ' ; f. 173r v. 895 : βαΰζα... βάλλουσα ; f. 176v $\Sigma$ 1174 : ἁβρῶς βαδίζειν).
 
-\platefig{06_piege2_beta_bilobe_u_vs_B_oncial_kappa_nu.jpg}{Planche 06 — Piège n° 2 : le Bêta minuscule bilobé (en \texttt{u}) face au Β oncial, à Kappa et à Nu.}{fig:pl06}
+\platefig{06_piege2_beta_bilobe_u_vs_B_oncial_kappa_nu.jpg}{Planche 06 — Piège n° 2 : le Bêta minuscule bilobé (en \texttt{u}) face au Β semi-oncial.}{fig:pl06}
 
 \subsection{Piège n° 3 : La triade des hastes hautes — Êta (η en \texttt{h}), Kappa (κ) et Lambda (λ) (Planche 07)}
 
 \begin{enumerate}
-    \item \textbf{L'êta minuscule (η)} est le sosie parfait de notre \textbf{\texttt{h} minuscule latin} : une haute haste verticale à gauche, suivie d'un pont arrondi qui redescend sur la ligne de base sans jamais se relever en accolade.
-    \item \textbf{Le kappa minuscule (κ)} possède la même haute haste verticale à gauche, mais sa partie droite est formée d'un \textbf{petit croissant ou d'une accolade à deux becs (\texttt{c} ou \texttt{<})} dont le trait supérieur remonte obliquement vers la droite.
-    \item \textbf{Le lambda (λ)} débute par une petite jambe courbe à gauche que surmonte une \textbf{longue diagonale descendante} allant du haut à gauche vers le bas à droite.
+    \item \textbf{L'êta minuscule (η)} est le sosie parfait de notre \textbf{\texttt{h} minuscule latin} : une haute haste verticale à gauche, suivie d'un pont arrondi qui redescend sur la ligne de base (ex. f. 163v v. 80 : τρίτη... ἡ μέση).
+    \item \textbf{Le kappa minuscule (κ)} possède la même haute haste verticale à gauche, mais sa partie droite est formée d'une \textbf{accolade brisée à deux becs (\texttt{\{} ou \texttt{<})} (ex. f. 168r v. 500 : ἐγκεκαλυμμένον).
+    \item \textbf{Le lambda (λ)} débute par une petite jambe courbe à gauche que surmonte une \textbf{longue diagonale descendante} allant du haut à gauche vers le bas à droite (ex. f. 172r v. 815 : ποθοῦντας pour ἐλθούσας).
 \end{enumerate}
 
 \platefig{07_piege3_eta_kappa_lambda_nu.jpg}{Planche 07 — Piège n° 3 : distinguer Êta (en \texttt{h}), Kappa (à accolade) et Lambda (en arche).}{fig:pl07}
 
 \subsection{Piège n° 4 : Les lettres rondes (α, ο, ω, θ, σ) et la lecture des surcharges vocaliques (Planche 08)}
 
-Lorsqu'une voyelle ronde a été confondue par iotacisme ou isochronie (ο $\leftrightarrow$ ω, ε $\leftrightarrow$ αι), $\text{R}^1$ ou $\text{R}^2$ la corrige soit \textbf{par surcharge directe (\textit{in linea})} (second anneau de ω tracé sur ο dans χωλὸν v. 23 ou ζῶ v. 77), soit \textbf{par lettre supralinéaire (\textit{supra lineam})} (petit ο écrit au-dessus de ω dans προσμαθοῦσα v. 24).
+Dans le noyau médian, l'\textbf{omicron (ο)} est un anneau fermé sans queue, tandis que l'\textbf{alpha (α)} projette un dard oblique à droite : la \textbf{Planche 08} montre comment le correcteur transforme un ο en α par ajout du dard (f. 172v v. 838 : ὑστέρ[ο$\rightarrow$α]ν) ou un α en ο (v. 844 : τ[ὰ$\rightarrow$ο]δὶ), comment l'isochronie fait confondre ω et ο (v. 839 : ὦ πόλεις pour ὁπόλις), et comment coexistent dans un même mot le σ fermé à casquette et le sigma lunaire final \texttt{c} (f. 163r v. 53 : ἀσπίδας).
 
 \platefig{08_piege4_lettres_rondes_alpha_omicron_omega_theta_sigma.jpg}{Planche 08 — Piège n° 4 : distinguer les lettres rondes et lire les corrections par surcharge.}{fig:pl08}
 
 \subsection{Piège n° 5 : Les lettres à potence (γ/Γ, π/Π, τ) et les plongeantes sinueuses (ζ, ξ, ψ) (Planche 09)}
 
-Attention en particulier à la confusion entre \textbf{Γ suivi d'une apostrophe (γ')} et \textbf{Π (π)} : au v. 605 (f. 169v), $\text{R}^1$ a écrit π' ϋμεῖς au lieu de γ' ὑμεῖς parce que Γ' dans son modèle ressemblait à Π ! Pour les descendantes sinueuses, comptez les boucles intermédiaires : \textbf{une seule courbure} pour \textbf{ζ} (en \texttt{3}), \textbf{deux courbures en accordéon} pour \textbf{ξ}, et un \textbf{axe vertical droit traversé d'un calice} pour \textbf{ψ}.
+Sous la ligne de tête ($\text{Z}_1$), le \textbf{tau (τ)} a un fût médian court s'arrêtant sur $\text{Z}_2$, le \textbf{gamma (γ)} plonge en $\text{Z}_4$ par une boucle étroite, et le \textbf{pi (π)} possède deux jambages recourbés (ex. f. 162v vv. 30--31 : ὁ τραγωιδοποιός... ἀγάθων / ἀγαθῶν ; f. 172v v. 852 : πικρὰν ἑλένην). Pour les descendantes sinueuses, comptez les replis : \textbf{une seule courbure} pour \textbf{ζ} en \texttt{3} (f. 163v v. 100 : διαμινυρίζεται), \textbf{deux courbures en accordéon} pour \textbf{ξ} (f. 165v v. 288 : ξυνεύχου), et un \textbf{axe vertical droit traversé d'un calice} pour \textbf{ψ}.
 
 \platefig{09_piege5_potences_gamma_pi_tau_et_zeta_xi_psi.jpg}{Planche 09 — Piège n° 5 : les lettres à potence (γ, π, τ) et les plongeantes sinueuses (ζ, ξ, ψ).}{fig:pl09}
 
 \subsection{Piège n° 6 : La grande spirale finale -ος (\texttt{@}) \textit{versus} l'idéogramme astronomique $\odot$ (\textit{hêlios}) (Planche 10)}
 
-Ne confondez jamais la \textbf{grande spirale ouverte (\texttt{@})} qui abrège la finale \textbf{-ος} en fin de mot (ex. Ἡρακλεῖος v. 26, ἀπεψωλημένος f. 176v) avec le \textbf{cercle solaire fermé et rayonné ($\odot$)} du f. 172r (v. 856), qui est un idéogramme astronomique remplaçant le mot entier \textbf{ἥλιος} (avec la glose supralinéaire ἡλίου de $\text{R}^2$).
+Ne confondez jamais la \textbf{grande spirale ouverte (\texttt{@})} qui abrège la finale \textbf{-ος} en fin de mot (ex. f. 162v v. 31 : καρτερ\texttt{@} ; f. 170r v. 636 : ξενύλλ\texttt{@} pour Ξένυλλ' ; f. 176v post v. 1187 : ἀπεψωλημέν\texttt{@}) avec le \textbf{cercle solaire centré d'un point et rayonné ($\odot$)} de la scholie marginale $\Sigma$ v. 17 au \textbf{f. 162v} (\textit{ὁμοί(ως) δὲ τῶι $\odot$ [= ἡλίωι] τὸ περιφερές}, en regard de \textit{ὀφθαλμὸν ἀντίμιμον ἡλίου τροχῶι}), qui est l'idéogramme astronomique antique remplaçant le mot entier \textbf{ἥλιος / ἡλίῳ} !
 
-\platefig{10_piege6_spirale_finale_os_vs_soleil_helios.jpg}{Planche 10 — Piège n° 6 : la spirale finale -ος (\texttt{@}) face au symbole astronomique du Soleil (f. 172r, v. 856).}{fig:pl10}
+\platefig{10_piege6_spirale_finale_os_vs_soleil_helios.jpg}{Planche 10 — Piège n° 6 : la spirale finale -ος (\texttt{@}) face au symbole astronomique du Soleil (f. 162v, $\Sigma$ v. 17).}{fig:pl10}
 
 \newpage
 % ==============================================================================
@@ -315,17 +332,17 @@ Dans l'écriture de $\text{R}^1$, certaines lettres dites « liantes » (ε, σ,
 
 \subsection{Les ligatures de sigma (σ) : groupes σπ, στ, σθ, σκ et σχ (Planche 12)}
 
-Le sigma lunaire (σ) possède au sommet une « casquette » horizontale qui sert de pont vers la consonne suivante : \textbf{στ} (barre du τ), \textbf{σπ} (toit du π), \textbf{σθ} (barre médiane de l'ovale du θ) et \textbf{σχ} (attaque haute du χ).
+Le sigma minuscule (σ) possède au sommet une « casquette » horizontale qui sert de pont vers la consonne suivante : \textbf{στ} (barre du τ), \textbf{σπ} (toit du π), \textbf{σθ} (barre médiane de l'ovale du θ), \textbf{σκ} (attaque de la hampe du κ) et \textbf{σχ} (attaque haute du χ).
 
-\platefig{12_ligatures_sigma_sp_st_sth_sk_sch.jpg}{Planche 12 — Les ligatures de sigma lunaire : σπ, στ, σθ, σκ et σχ.}{fig:pl12}
+\platefig{12_ligatures_sigma_sp_st_sth_sk_sch.jpg}{Planche 12 — Les ligatures de sigma à casquette : σπ, στ, σθ, σκ et σχ.}{fig:pl12}
 
 \subsection{Les ligatures de consonnes (πρ, τρ, γωι) et la gémination du lambda (-λλ- \textit{vs} -λ-) (Planche 13)}
 
 Dans \textbf{πρ} (ex. πρὶν) et \textbf{τρ} (ex. τραγωιδοποιός), le second jambage du π ou l'extrémité droite du τ descend sous la ligne et s'enroule pour former le ρ. Lorsque deux λ se suivent (\textbf{-λλ-}, ex. ἀλλ', μέλλω), les deux chevrons s'emboîtent étroitement avec deux longues jambes droites parallèles. La \textbf{Planche 13 (n° 4)} montre sur le f. 175r (vv. 1073--1074) le contraste saisissant à une ligne d'intervalle entre στωμυλλομένη (avec \textbf{-λλ-}) et στωμυλομένη (avec un seul \textbf{-λ-}) !
 
-\platefig{13_ligatures_alpha_tau_gamma_rho_et_double_lambda.jpg}{Planche 13 — Ligatures de consonnes (πρ, τρ, γωι) et gémination du lambda (-λλ- \textit{vs} -λ-).}{fig:pl13}
+\platefig{13_ligatures_alpha_tau_gamma_rho_et_double_lambda.jpg}{Planche 13 — Ligatures d'alpha, potences sur rhô (τρ, γωι) et gémination du lambda (-λλ- \textit{vs} -λ-).}{fig:pl13}
 
-\begin{longtable}{@{}p{1.8cm}p{4.8cm}p{5.5cm}p{4.2cm}@{}}
+\begin{longtable}{@{}p{1.8cm}p{4.7cm}p{5.2cm}p{4.2cm}@{}}
 \caption{Tableau synoptique de résolution des principales ligatures de $\text{R}^1$.}\\
 \toprule
 \textbf{Groupe} & \textbf{Aspect visuel dans $\text{R}^1$} & \textbf{Décomposition du tracé (\textit{ductus})} & \textbf{Exemple type} \\
@@ -362,19 +379,19 @@ Dans \textbf{πρ} (ex. πρὶν) et \textbf{τρ} (ex. τραγωιδοποι�
 
 \subsection{La règle absolue de l'iota muet adscrit (αι, ηι, ωι) et le piège du -ι déictique (Planche 14)}
 
-\textbf{Dans le \textit{Codex Ravennas 429}, l'iota souscrit n'existe pas !} Lorsqu'il est noté par $\text{R}^1$, l'iota muet des datifs singuliers et des subjonctifs est \textbf{toujours adscrit sur la ligne}, immédiatement à droite de la voyelle longue : \textbf{κομιδῆι} (= κομιδῇ, v. 3), \textbf{οὔσηι} (= οὔσῃ, v. 11), \textbf{τραγωιδεῖν} (= τραγῳδεῖν, v. 28). Au v. 26 (f. 162v), devant le démonstratif \textbf{τηνδὶ} (avec -ί déictique prononcé), $\text{R}^1$ a cru avoir affaire à un iota adscrit muet de datif et a écrit par hypercorrection \textbf{τῆνδι} avec un circonflexe !
+\textbf{Dans le \textit{Codex Ravennas 429}, l'iota souscrit n'existe pas !} Lorsqu'il est noté par $\text{R}^1$, l'iota muet des datifs singuliers et des subjonctifs est \textbf{toujours adscrit sur la ligne}, immédiatement à droite de la voyelle longue : \textbf{κομιδῆι} (= κομιδῇ, v. 3), \textbf{τραγωιδοποιός} (= τραγῳδοποιός, v. 30), \textbf{ψόγωι} (= ψόγῳ, v. 895), \textbf{τῶι κηρίωι} (= τῷ κηρίῳ, v. 506). Avant de lire un déictique comique en -ί (ὁδί, τουτί), vérifiez toujours si la voyelle précédente est une voyelle longue (ᾱ, η, ω).
 
 \platefig{14_regle_iota_muet_adscrit_et_piege_deictique.jpg}{Planche 14 — La règle de l'iota muet adscrit sur la ligne et le piège du -ι déictique.}{fig:pl14}
 
-\subsection{Esprits (carrés ou ronds), accents, tréma inorganique (ϊ, ϋ) et \textit{scriptio plena} (Planche 15)}
+\subsection{Esprits (carrés ou ronds), accents, tréma organique (ϊ, ϋ) et \textit{scriptio plena} (Planche 15)}
 
 \begin{enumerate}
-    \item \textbf{Esprits carrés et ronds} : $\text{R}^1$ emploie tantôt l'esprit angulaire en demi-Η (\texttt{⊢} rude, \texttt{⊣} doux), tantôt l'esprit rond.
-    \item \textbf{Tréma inorganique (ϊ, ϋ)} : deux points sont placés sur ι et υ (ex. ϊδεῖν, ϋμεῖς) même sans hiatus pour isoler visuellement la lettre des jambages voisins.
-    \item \textbf{\textit{Scriptio plena}} : la voyelle élidée est parfois écrite en toutes lettres malgré l'apostrophe d'élision (ex. v. 15 : τοῦτο 'καλέσατο pour τοῦτ' ἐκαλέσατο).
+    \item \textbf{Esprits carrés et ronds} : $\text{R}^1$ emploie tantôt l'esprit angulaire en demi-Η (\texttt{⊢} rude, \texttt{⊣} doux), tantôt l'esprit rond (ex. f. 162v v. 1 : ὦ ζεῦ· χελιδὼν ἆρά ποτε).
+    \item \textbf{Tréma organique (ϊ, ϋ)} : deux points sont placés sur ι et υ (ex. f. 173r v. 895 : βαΰζα σὺ) pour marquer la diérèse ou isoler visuellement la cuvette étroite de la voyelle.
+    \item \textbf{\textit{Scriptio plena}} : la voyelle finale est souvent écrite en toutes lettres sans crase ni élision graphique (ex. f. 165v post v. 276 : ὀλολύζουσι τε ἱερὸν ὠθεῖται).
 \end{enumerate}
 
-\platefig{15_esprits_accents_trema_et_scriptio_plena.jpg}{Planche 15 — Esprits, accents, tréma inorganique et élision non faite (\textit{scriptio plena}).}{fig:pl15}
+\platefig{15_esprits_accents_trema_et_scriptio_plena.jpg}{Planche 15 — Esprits, accents, tréma organique et élision non faite (\textit{scriptio plena}).}{fig:pl15}
 
 \subsection{La ponctuation dramatique : \textit{paragraphos} (\texttt{—}), \textit{dikôlon} (\texttt{:}) et \textit{korônis} (Planche 16)}
 
@@ -395,7 +412,7 @@ Pour faire tenir le nom d'un personnage dans un espace marginal réduit, $\text{
 
 \subsection{La tachygraphie des scholies marginales ($\Sigma^{\text{R}}$) : suspensions et finales (Planche 18)}
 
-Dans les marges, $\text{R}^2$ abrège systématiquement les désinences casuelles et les mots outils : la barre oblique descendante (\texttt{\textbackslash}) vaut \textbf{-ων}, le petit circonflexe/godet haut vaut \textbf{-ου}, le petit rond haut vaut \textbf{-ος}, le petit sigma lunaire haut vaut \textbf{-ης/-ας}, le signe en S (\textbf{Ϛ}) vaut \textbf{καί}, \textbf{ἀν\textsuperscript{ι}\textsubscript{τ} τ(οῦ)} vaut \textbf{ἀντὶ τοῦ}, \textbf{γρ/} vaut \textbf{γράφεται}, et le \textbf{lemnisque (÷)} clôt chaque scholie.
+Dans les marges, $\text{R}^2$ abrège systématiquement les désinences casuelles et les mots outils : la barre oblique descendante (\texttt{\textbackslash}) vaut \textbf{-ων}, le petit circonflexe/godet haut vaut \textbf{-ου}, le petit rond haut vaut \textbf{-ος}, le petit sigma lunaire haut vaut \textbf{-ης/-ας}, le signe en S (\textbf{Ϛ}) vaut \textbf{καί}, \textbf{ἀν\textsuperscript{ι}\textsubscript{τ} τ(οῦ)} vaut \textbf{ἀντὶ τοῦ}, et le \textbf{lemnisque (÷)} clôt chaque scholie.
 
 \platefig{18_tachygraphie_scholies_suspensions_et_finales.jpg}{Planche 18 — Le système abréviatif et tachygraphique des scholies marginales ($\text{R}^2$).}{fig:pl18}
 
@@ -410,15 +427,15 @@ Fait exceptionnel dans la tradition du théâtre grec, le \textit{Codex Ravennas
 \section{Leçon 6 — Lire les corrections du manuscrit : transpositions et grattages (\textit{in rasura})}
 % ==============================================================================
 
-\subsection{Chiffres d'ordre (α, β, γ, δ), additions supralinéaires et vers restitués en marge (Planche 20)}
+\subsection{Chiffres d'ordre (α', β', γ', δ'), additions supralinéaires et vers restitués en marge (Planche 20)}
 
-La \textbf{Planche 20} montre trois interventions majeures de révision : 1) au f. 162v (vv. 28--34), l'ajout en marge droite du v. 33 omis (ἢ βεβίνηκας σύ με) avec renumérotation des lignes par les lettres-chiffres \textbf{α, γ, δ, β} ; 2) au f. 163r (v. 61), l'insertion supralinéaire de \textbf{\^{}κατὰ} ; 3) au f. 175v, la restitution dans la marge inférieure des deux vers sautés (\textbf{vv. 1102--1103}) grâce à un signe de renvoi.
+La \textbf{Planche 20} montre trois interventions majeures de révision : 1) au f. 162v (vv. 27--34), l'ajout en marge droite du v. 33 omis (\textit{μῶν ὁ δασυπώγων· / οὐχ ἑόρακας πώποτε·}) et la renumérotation des vv. 27--30 par les lettres-chiffres \textbf{α', γ', δ', β'} ; 2) au f. 163r (v. 60/61), l'insertion supralinéaire de \textbf{κατὰ} ; 3) au f. 175v, la restitution dans la marge inférieure des deux vers sautés (\textbf{vv. 1102--1103}) grâce au signe de renvoi cruciforme (\texttt{+÷}).
 
-\platefig{20_chiffres_transposition_et_ajouts_marginaux_R2.jpg}{Planche 20 — Chiffres d'ordre (α, β, γ, δ), additions supralinéaires et vers ajoutés en marge.}{fig:pl20}
+\platefig{20_chiffres_transposition_et_ajouts_marginaux_R2.jpg}{Planche 20 — Chiffres d'ordre (α', β', γ', δ'), additions supralinéaires et vers ajoutés en marge.}{fig:pl20}
 
 \subsection{Anatomie matérielle des grattages sur parchemin (\textit{in rasura}) : les quatre types (Planche 21)}
 
-La \textbf{Planche 21} présente les quatre types de grattages au canif (\textit{in rasura}) : \textbf{Type A} (correction immédiate d'une lettre : βε[[α$\rightarrow$β]]ίνηκας, f. 162v, v. 35) ; \textbf{Type B} (effacement d'un mot intrus laissé à blanc : [[κῆρυξ]] εὐφημία 'στω, f. 166r, v. 295) ; \textbf{Type C} (censure morale byzantine substituant un euphémisme : [[ληκ$\rightarrow$κιν]]ώμεθα, f. 168r, v. 493) ; \textbf{Type D} (effacement d'une dittographie : ἅπασιν [[ἅπασιν]] ἔσται, f. 170r, v. 670).
+La \textbf{Planche 21} présente les quatre types de grattages au canif (\textit{in rasura}) : \textbf{Type I} (correction immédiate d'une lettre : βε[[α$\rightarrow$β]]ίνηκας, f. 162v, v. 35) ; \textbf{Type II} (effacement d'un mot intrus laissé à blanc : [[κῆρυξ]] εὐφημία 'στω, f. 166r, v. 295) ; \textbf{Type III} (substitution lexicale sur grattage : [[ληκ$\rightarrow$κιν]]ώμεθα, f. 168r, v. 493) ; \textbf{Type IV} (effacement d'une dittographie : ἅπασιν [[ἅπασιν]] ἔσται, f. 170r, v. 670).
 
 \platefig{21_anatomie_des_grattages_in_rasura_quatre_types.jpg}{Planche 21 — Anatomie matérielle des grattages sur parchemin (\textit{in rasura}) : les quatre types.}{fig:pl21}
 
@@ -429,35 +446,35 @@ La \textbf{Planche 21} présente les quatre types de grattages au canif (\textit
 
 Pour consolider votre apprentissage, les \textbf{Planches 22, 23 et 24} réunissent \textbf{huit exercices progressifs répartis en 5 niveaux de difficulté}, accompagnés de leur transcription diplomatique, de leur texte normalisé et de leur corrigé paléographique pas à pas.
 
-\subsection{Niveaux 1 et 2 (Débutant \& Intermédiaire) : le Prologue et la scène du Serviteur (Planche 22)}
+\subsection{Niveaux 1 et 2 (Débutant \& Intermédiaire) : Titre, Prologue et scène du Serviteur (Planche 22)}
 
 \platefig{22_exercice_progressif_niveau1_et_2_f162v_f163r.jpg}{Planche 22 — Exercices progressifs de déchiffrement : Niveaux 1 (Débutant) et 2 (Intermédiaire).}{fig:pl22}
 
 \begin{itemize}
-    \item \textbf{Exercice 1 (f. 162v, vv. 1--3)} : \textit{ὦ ζεῦ· χελιδὼν ἆρά πότε φανήσεται· / ἀπολεῖ μ' ἀλοῶν ἄνθρωπος ἐξ ἑωθινοῦ· / οἷόν τε πρὶν τὸν σπλῆνα κομιδῆι μ' ἐκβαλεῖν}. Vérifiez sur cet extrait les 5 clés fondamentales : ν en \texttt{μ} vs μ à deux ponts, η en \texttt{h}, β en \texttt{u} dans ἐκβαλεῖν, ligature ει à trait plongeant, et iota muet adscrit dans κομιδῆι.
-    \item \textbf{Exercice 2 (f. 162v, vv. 6--8)} : \textit{μέλλω γ' ὁρᾶν· ἢ 'κωτάτω θυμοῦμαί σοι : / [εὐρ/] ἀλλ' οὐκ ἀκούειν δεῖ σε πάνθ' ὅσ' αὐτίκα / [μ\textsuperscript{Η}\textsubscript{ν}] ὄψει παρεστώς : οὐκ ἀκούειν δεῖ με : [εὐρ/] οὔ :}. Observez le jeu combiné des trois \textit{dikôla} (\texttt{:}), du monogramme marginal μ\textsuperscript{Η}\textsubscript{ν} et du sigle interlinéaire εὐρ/.
-    \item \textbf{Exercice 3 (f. 162v, vv. 39--43)} : \textit{[θερ\textsuperscript{π}\textsubscript{α}] — εὔφημος πᾶς ἔστω λαός / στόμα συγκλήσας· ἐπιδημεῖ γὰρ / θίασος μουσῶν ἔνδον μελάθρων / τῶν δεσποσύνων μελοποιῶν·}. Remarquez le monogramme θερ\textsuperscript{π}\textsubscript{α} et la spirale finale -ος (\texttt{@}) de θίασος.
+    \item \textbf{Exercice 1 (f. 162v, haut de page — Hypothesis de $\text{R}^2$ et titre d'apparat de $\text{R}^1$)} : \textit{ὁ χορὸς ἐκ θεσμοφοριαζουσῶν· καὶ τοῦτο τὸ δρᾶμα τῶν κατ' εὐριπίδου πεποιημένων... εὐριπίδου γυνὴ μὲν χοιρίλη, μή(τ)ηρ δὲ κλειτώ :$\sim$ // προλογίζει μνησίλοχ(ος) κηδεστὴς εὐριπίδου ÷ // ⁘ ΑΡΙϹΤΟΦΑΝΟΥϹ \allowbreak ΘΕϹΜΟΦΟΡΙΑΖΟΥϹΑΙ —}. Idéal pour comparer les petites capitales de glose de l'\textit{Hypothesis} (où se lisent les noms \textit{χοιρίλη} et \textit{μνησίλοχος}) avec la semi-onciale d'apparat du titre (sigmas lunaires Ϲ, alpha à boucle).
+    \item \textbf{Exercice 2 (f. 162v, vv. 1--10)} : \textit{ὦ ζεῦ· χελιδὼν ἄρα πότε φανήσεται· / ἀπολεῖ μ' ἀλοῶν ἄνθρωπος ἐξ ἑωθινοῦ· / οἷόν τι πρὶν τὸν σπλῆνα κομιδῆι μ' ἐκβαλεῖν· / παρὰ σοῦ πυθέσθαι ποῖ μ' ἄγεις ὠὐριπίδη· / ἀλλ' οὐκ ἀκούειν δεῖ σε πάνθ' ὅσ' αὐτίκα : / ὄψει παρεστώς : πῶς λέγεις αὖθις φράσον·}. Vérifiez sur cet extrait les clés fondamentales : ω initial en \texttt{∞}, ν en \texttt{v} sans queue vs μ à queue plongeante gauche, η en \texttt{h}, β en \texttt{u} dans ἐκβαλεῖν, iota muet adscrit dans κομιδῆι, et jeu combiné du \textit{dikôlon} (\texttt{:}) et de la \textit{paragraphos} (\texttt{—}).
+    \item \textbf{Exercice 3 (f. 163r, vv. 49--57)} : \textit{μέλλει γὰρ ὁ καλλιεπὴς ἀγάθων / πράμος ἡμέτερος· — μῶν βινεῖσθαι· / — τίς ὁ φωνήσας· — νήνεμος αἰθήρ· / δρυόχους τιθέναι δράματος ἀρχάς· / κάμπτει δὲ νέας ἁσπίδας ἐπῶν / τὰ δὲ τορνεύει· τὰ δὲ κολλομελεῖ·}. Observez le double -\textbf{λλ}- imbriqué dans μέλλει, καλλιεπὴς et κολλομελεῖ, la faute de minuscule \textit{πράμος} (pour \textit{πρανοῦν}), le β bilobé en \texttt{u} de βινεῖσθαι et la faute \textit{ἁσπίδας} (pour \textit{ἁψῖδας}).
 \end{itemize}
 
 \newpage
-\subsection{Niveaux 3 et 4 (Avancé \& Confirmé) : \textit{parepigraphè}, parabase et \textit{Andromède} (Planche 23)}
+\subsection{Niveaux 3 et 4 (Avancé \& Confirmé) : Prière au Thesmophorion, Parabase et Écho (Planche 23)}
 
 \platefig{23_exercice_progressif_niveau3_et_4_f165v_f172v_f175v.jpg}{Planche 23 — Exercices progressifs de déchiffrement : Niveaux 3 (Avancé) et 4 (Confirmé).}{fig:pl23}
 
 \begin{itemize}
-    \item \textbf{Exercice 4 (f. 165v, post v. 276--v. 285)} : Lecture conjointe de la \textit{korônis}, de la 3\textsuperscript{e} \textit{parepigraphè} (\textit{ὀλολύζουσι τε ἱερὸν ὠθεῖται}), de sa scholie explicative (\textit{παρεπιγραφὴ ἐκκυκλεῖται ἐπὶ τὸ ἔξω τὸ θεσμοφόριον ÷}) et des datifs à iota adscrit (\textit{ἐν τῶι θεσμοφορίωι}).
-    \item \textbf{Exercice 5 (f. 172r, vv. 785--790)} : Début de la Parabase des femmes en tétramètres anapestiques (\textit{ἡμεῖς τοίνυν ἡμᾶς αὐτὰς εὖ λέξομεν...}), illustrant l'emploi du point en haut (\texttt{·}) pour scander l'énumération \textit{ἔριδες· νείκη· στάσις ἀργαλέα· λύπη· πόλεμος·}.
-    \item \textbf{Exercice 6 (f. 175v, vv. 1098--1104)} : Scène paratragique de l'\textit{Andromède} avec les indications marginales \textit{εὐριπ(ίδης) ὡς περσεύς} et \textit{κηδ(εστὴς) ὡς ἀνδρομέδ(α)}, et renvoi au bas du feuillet pour les vv. 1102--1103 omis par $\text{R}^1$.
+    \item \textbf{Exercice 4 (f. 165v, vv. 284--291 et $\Sigma$ 289)} : Prière parodique de Mnésiloque (\textit{τὸ πόπανον ὅπως λαβοῦσα θύσω ταῖν θεαῖν... / καὶ τὴν θυγατέρα χοῖρον ἀνδρός μοι τυχεῖν / πλουτοῦντος· ἄλλως δ' ἠλιθίου κἀβελτέρου· / καὶ πρὸς θάληκον...}), illustrant les iotas adscrits des datifs duels (\textit{ταῖν θεαῖν}), la leçon \textit{χοῖρον} au v. 289 (restituée en \textit{Χοιρίλ'} par \texttt{Bibi} d'après l'\textit{Hypothesis}) et la glose marginale de $\text{R}^2$ (\textit{γρ(άφεται) χοιρίον... κύσθον ἴσως αἰνίττεται ÷}).
+    \item \textbf{Exercice 5 (f. 172v, vv. 838--845)} : Épirrhème de la Parabase en tétramètres trochaïques (\textit{ὑστέρ[ο\allowbreak$\rightarrow$α]ν αὐτὴν καθῆσθαι σκάφιον ἀποκεκαρμένην / τῆς τὸν ἀνδρεῖον τεκούσης· τῶι γὰρ εἰκὸς ὦ πόλεις... / ἀλλ' ἀφαιρεῖσθαι βίαι τὰ χρήματα τὰς πόρνας τ[ὰ$\rightarrow$ο]δὶ}), réunissant deux corrections vocaliques par surcharge, les ligatures σθ et σκ, et la crase corrompue \textit{ὦ πόλεις} (= \textit{ωὖπολι}, \texttt{Bibi}).
+    \item \textbf{Exercice 6 (f. 175v, vv. 1082--1097)} : Mise en page bicolonne de la scène d'Écho (\textit{μν/ οἴμωζ' || ἠχ/ οἴμωζ' / ... / σκυ/ σὶ κακόν : || ἠχ/ σὶ κακόν / σκυ/ π[[ρ]]ῶτε φωνή : || ἠχ/ π[[ρ]]ῶτε φωνή}), avec double grattage du ρ dans les deux sous-colonnes au v. 1086 et la glose marginale \textit{ἀν(τὶ) τοῦ οὐχ αἱρήσεις} au v. 1094.
 \end{itemize}
 
 \newpage
-\subsection{Niveau 5 (Expert) : barbarismes de l'Archer scythe, \textit{korônis} finale et scholies denses (Planche 24)}
+\subsection{Niveau 5 (Expert) : Quatrième \textit{parepigraphè}, barbarismes du Scythe et \textit{korônis} finale (Planche 24)}
 
-\platefig{24_exercice_progressif_niveau5_expert_scythe_et_scholies_f176v_f177r.jpg}{Planche 24 — Exercices progressifs de déchiffrement : Niveau 5 (Expert — Archer scythe et scholies).}{fig:pl24}
+\platefig{24_exercice_progressif_niveau5_expert_scythe_et_scholies_f176v_f177r.jpg}{Planche 24 — Exercices progressifs de déchiffrement : Niveau 5 (Expert — Archer scythe et \textit{korônis} finale).}{fig:pl24}
 
 \begin{itemize}
-    \item \textbf{Exercice 7 (f. 177r, vv. 1214--1231)} : Déchiffrement du grec barbare de l'Archer scythe (\textit{οὐκ ἐπαινῶ γράδιο· διαναλεῖς σ' ἡ γραῦς· ἀπότρεχε ὡς τάχος· / ὀρῶσ' ἀπότρεχε... / ὦ μιαρὸ γρᾶο· τοῦτο δρᾶς σὺ μέ; / οἴμοι κακοδαίμων·}) et du chœur final des Thesmophores jusqu'au dernier vers \textbf{τούτων χάριν ἀνταποδοίτην : —} suivi de la grande \textbf{\textit{korônis} de clôture}.
-    \item \textbf{Exercice 8 (f. 162v, $\Sigma$ 1)} : Déchiffrement intégral et résolution tachygraphique de la première scholie marginale : \textit{ὦ ζεῦ χελιδών· ἐπὶ τ(ῶν) ἐν θλίψει / ὄντ(ων)· χειμῶνος δ' εὐχόμ(ε)θα τ(ὸ) ἔαρ Ϛ [= καὶ] / χελιδόνας φαίνεσθ(αι)· ἐλθούσ(ης) / γὰρ ἐκείν(ης) παύετ(αι) ὁ χειμών ÷}.
+    \item \textbf{Exercice 7 (f. 176v, vv. 1185--1201)} : Déchiffrement de la 4\textsuperscript{e} \textit{parepigraphè} scénique (\textit{ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημέν\texttt{@}·}), des grattages au canif (\textit{κλαυσ[[' ε]]ϊ γ'}, \textit{τὸ [[σ]]ποστίον}, \textit{κ[[ω$\rightarrow$ο]]μίζεις}), de la graphie \textit{συμβήνην} avec -\textbf{μ}- devant β au v. 1197 et des deux seules notes autographes d'Euphrosynus Boninus en 1515 (\textit{γϋ.} en marge des vv. 1189 et 1198).
+    \item \textbf{Exercice 8 (f. 177r, vv. 1222--1231)} : Fuite de l'Archer scythe (\textit{ὀρθὴν ἄνω δίωκε· ποῖ θεῖς· οὐ πάλιν / τῆιδὶ διώξεις· τοὔμπαλιν τρέχεις σύ γε· / σκ/ κακόδαιμον ἀλλὰ τρέξι ἀρταμουξία·}) et sortie du Chœur des Thesmophores (\textit{ἀλλὰ πέπυσται μετρίως ἡμῖν· / ὥσθ' ὥρα δή 'στι βαδίζειν / οἴκαδ' ἑκάστη· τὼ θεσμοφόρω δ' / ἡμῖν ἀγαθὴν / \textbf{τούτων χάριν ἀνταδοῖτον·}}) suivie de la grande \textbf{\textit{korônis} finale} et du bandeau de l'\textit{Hypothesis} des \textit{Ecclésiazuses} (\textit{Ὑπόθ(εσις) ἐκκλησιαζουσῶν ἀριστοφάν(ους) :$\sim$}).
 \end{itemize}
 
 \end{document}
