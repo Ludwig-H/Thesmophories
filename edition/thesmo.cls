@@ -89,7 +89,7 @@
 \dim_set:Nn \l_thesmo_commsep_dim {7mm}
 \dim_set:Nn \l_thesmo_commgap_dim {7mm}
 \dim_set:Nn \l_thesmo_commmin_dim {30mm}
-\AtBeginDocument{ \dim_set:Nn \l_thesmo_commcol_dim { (\textwidth - \l_thesmo_commgap_dim) / 2 } \dim_set:Nn \l_thesmo_H_dim { \textheight } }
+\AtBeginDocument{ \dim_set:Nn \l_thesmo_commcol_dim { (\textwidth - \l_thesmo_commgap_dim) / 2 } \dim_set:Nn \l_thesmo_H_dim { \textheight } \thesmo_set_dwidths: }
 
 %% --- paramètres typographiques (modifiables)
 \tl_new:N \l_thesmo_grsize_tl  \tl_set:Nn \l_thesmo_grsize_tl {\fontsize{11}{15}\selectfont}
@@ -134,11 +134,11 @@
     \seq_gput_right:Nx \g_thesmo_row_secfr_seq { \exp_not:V \g_thesmo_section_fr_tl }
   }
 
-%% Article de commentaire ancré à la dernière rangée émise
-\cs_new_protected:Npn \thesmo_add_item:n #1
+%% Article de commentaire ancré à la rangée #1
+\cs_new_protected:Npn \thesmo_add_item_at:nn #1#2
   {
     \int_gincr:N \g_thesmo_items_int
-    \seq_gput_right:Nx \g_thesmo_item_anchor_seq { \int_max:nn {1} { \g_thesmo_rows_int } }
+    \seq_gput_right:Nx \g_thesmo_item_anchor_seq { \int_max:nn {1} {#1} }
     \vbox_gset:Nn \g_thesmo_stream_box
       {
         \vbox_unpack_drop:N \g_thesmo_stream_box
@@ -146,10 +146,33 @@
         \linewidth = \hsize
         \tex_marks:D \g_thesmo_item_marks { \int_use:N \g_thesmo_items_int }
         \l_thesmo_commsize_tl
-        \raggedbottom
         \parfillskip = 0pt plus 1fil
-        #1
+        #2
         \par
+      }
+  }
+\cs_new_protected:Npn \thesmo_add_item:n #1
+  { \thesmo_add_item_at:nn { \g_thesmo_rows_int } {#1} }
+%% rangée où figure le vers #1 (premier nombre de l'étiquette) ; 0 si absent
+\int_new:N \l_thesmo_anchorrow_int
+\int_new:N \l_thesmo_target_int
+\cs_new_protected:Npn \thesmo_row_of_verse:n #1
+  {
+    \thesmo_first_number:n {#1}
+    \int_set_eq:NN \l_thesmo_target_int \l_thesmo_key_int
+    \int_zero:N \l_thesmo_anchorrow_int
+    \int_step_inline:nn { \seq_count:N \g_thesmo_row_verse_seq }
+      {
+        \int_compare:nNnT { \l_thesmo_anchorrow_int } = {0}
+          {
+            \tl_set:Nx \l_tmpa_tl { \seq_item:Nn \g_thesmo_row_verse_seq {##1} }
+            \tl_if_empty:NF \l_tmpa_tl
+              {
+                \thesmo_first_number:V \l_tmpa_tl
+                \int_compare:nNnF { \l_thesmo_key_int } < { \l_thesmo_target_int }
+                  { \int_set:Nn \l_thesmo_anchorrow_int {##1} }
+              }
+          }
       }
   }
 
@@ -486,6 +509,8 @@
 \tl_new:N \l_thesmo_numshow_tl
 
 \NewDocumentCommand \vers { O{} m m m m }
+  { \group_begin: \thesmo_vers:nnnnn {#1} {#2} {#3} {#4} {#5} \group_end: }
+\cs_new_protected:Npn \thesmo_vers:nnnnn #1#2#3#4#5
   {
     \keys_set:nn { thesmo / vers } {#1}
     \bool_if:NT \l_thesmo_suite_bool
@@ -581,10 +606,13 @@
 \NewDocumentCommand \blanc { O{3mm} }
   { \thesmo_add_row:nnn { \vbox_to_ht:nn {#1} {} } { \vbox_to_ht:nn {#1} {} } {} }
 
-%% commentaire : {plage}{lemme}{texte}
+%% commentaire : {plage}{lemme}{texte} — ancré à la rangée du premier vers de la plage
 \NewDocumentCommand \comm { m m +m }
   {
-    \thesmo_add_item:n
+    \thesmo_row_of_verse:n {#1}
+    \int_compare:nNnT { \l_thesmo_anchorrow_int } = {0}
+      { \int_set_eq:NN \l_thesmo_anchorrow_int \g_thesmo_rows_int }
+    \thesmo_add_item_at:nn { \l_thesmo_anchorrow_int }
       {
         \noindent
         \textbf{#1}\nobreakspace
@@ -631,6 +659,11 @@
 \tl_new:N \l_thesmo_schsize_tl \tl_set:Nn \l_thesmo_schsize_tl {\fontsize{6.8}{8.1}\selectfont}
 
 \int_new:N \g_thesmo_dline_int
+\seq_new:N \g_thesmo_dline_v_seq
+\seq_new:N \g_thesmo_dline_n_seq
+\seq_new:N \g_thesmo_app_seq
+\seq_new:N \g_thesmo_sch_seq
+\dim_new:N \l_thesmo_dln_dim \dim_set:Nn \l_thesmo_dln_dim {5mm}
 \box_new:N \g_thesmo_dtext_box
 \box_new:N \g_thesmo_dapp_box
 \box_new:N \g_thesmo_dsch_box
@@ -643,12 +676,12 @@
 \tl_new:N \g_thesmo_fvv_tl
 \tl_new:N \g_thesmo_fimage_tl
 
-%% ancrage : place la boîte #2 dans la colonne #1 (app|sch) à la hauteur de la ligne courante
-\cs_new_protected:Npn \thesmo_anchor:nn #1#2
+%% ancrage : place la boîte #3 dans la colonne #1 (app|sch) à la hauteur de la ligne #2
+\cs_new_protected:Npn \thesmo_anchor_at:nnn #1#2#3
   {
-    \vbox_set_top:Nn \l_thesmo_entry_box {#2}
+    \vbox_set_top:Nn \l_thesmo_entry_box {#3}
     %% ligne de base visée = (n-1)*bs + strut
-    \dim_set:Nn \l_tmpa_dim { \l_thesmo_dbs_dim * (\g_thesmo_dline_int - 1) + 0.72\l_thesmo_dbs_dim - \box_ht:N \l_thesmo_entry_box }
+    \dim_set:Nn \l_tmpa_dim { \l_thesmo_dbs_dim * (#2 - 1) + 0.72\l_thesmo_dbs_dim - \box_ht:N \l_thesmo_entry_box }
     \dim_set:Nn \l_tmpb_dim { \use:c { g_thesmo_d #1 _cur_dim } }
     \dim_compare:nNnT { \l_tmpa_dim } < { \l_tmpb_dim } { \dim_set_eq:NN \l_tmpa_dim \l_tmpb_dim }
     \vbox_gset:cn { g_thesmo_d #1 _box }
@@ -659,6 +692,54 @@
       }
     \dim_gset:cn { g_thesmo_d #1 _cur_dim }
       { \l_tmpa_dim + \box_ht:N \l_thesmo_entry_box + \box_dp:N \l_thesmo_entry_box + 1.6pt }
+  }
+%% numéro (premier nombre) d'une étiquette de vers : « 13-8 » → 13
+\int_new:N \l_thesmo_key_int
+\seq_new:N \l_thesmo_rx_seq
+\cs_new_protected:Npn \thesmo_first_number:n #1
+  {
+    \regex_extract_once:nnNTF { \d+ } {#1} \l_thesmo_rx_seq
+      { \int_set:Nn \l_thesmo_key_int { \seq_item:Nn \l_thesmo_rx_seq {1} } }
+      { \int_set:Nn \l_thesmo_key_int {0} }
+  }
+\cs_generate_variant:Nn \thesmo_first_number:n { V }
+%% indice de la ligne diplomatique où commence le vers #1 (0 si absent)
+\int_new:N \l_thesmo_lineidx_int
+\int_new:N \l_thesmo_cand_int
+\cs_new_protected:Npn \thesmo_line_of_verse:n #1
+  {
+    \thesmo_first_number:n {#1}
+    \int_set_eq:NN \l_thesmo_cand_int \l_thesmo_key_int
+    \int_zero:N \l_thesmo_lineidx_int
+    \int_step_inline:nn { \seq_count:N \g_thesmo_dline_v_seq }
+      {
+        \int_compare:nNnT { \l_thesmo_lineidx_int } = {0}
+          {
+            \tl_set:Nx \l_tmpa_tl { \seq_item:Nn \g_thesmo_dline_v_seq {##1} }
+            \tl_if_empty:NF \l_tmpa_tl
+              {
+                \seq_set_split:NnV \l_tmpa_seq {,} \l_tmpa_tl
+                \seq_map_inline:Nn \l_tmpa_seq
+                  {
+                    \thesmo_first_number:n {####1}
+                    \int_compare:nNnT { \l_thesmo_key_int } = { \l_thesmo_cand_int }
+                      { \int_set:Nn \l_thesmo_lineidx_int {##1} }
+                  }
+              }
+          }
+      }
+  }
+%% indice de la ligne diplomatique de numéro de ligne (manuscrit) #1
+\cs_new_protected:Npn \thesmo_line_of_msline:n #1
+  {
+    \int_zero:N \l_thesmo_lineidx_int
+    \int_step_inline:nn { \seq_count:N \g_thesmo_dline_n_seq }
+      {
+        \str_if_eq:eeT { \seq_item:Nn \g_thesmo_dline_n_seq {##1} } {#1}
+          { \int_compare:nNnT { \l_thesmo_lineidx_int } = {0} { \int_set:Nn \l_thesmo_lineidx_int {##1} } }
+      }
+    \int_compare:nNnT { \l_thesmo_lineidx_int } = {0}
+      { \regex_match:nnT { \A\d+\Z } {#1} { \int_set:Nn \l_thesmo_lineidx_int {#1} } }
   }
 
 \NewDocumentEnvironment{folio}{ m m m }
@@ -679,28 +760,45 @@
     \box_gclear:N \g_thesmo_dsch_box
     \dim_gzero:N \g_thesmo_dapp_cur_dim
     \dim_gzero:N \g_thesmo_dsch_cur_dim
-    \dim_set:Nn \l_thesmo_dapp_dim
-      { \textwidth - \l_thesmo_dsch_dim - \l_thesmo_dsig_dim - \l_thesmo_dtxt_dim - \l_thesmo_dvnum_dim - 2\l_thesmo_dgap_dim }
+    \seq_gclear:N \g_thesmo_dline_v_seq
+    \seq_gclear:N \g_thesmo_dline_n_seq
+    \thesmo_set_dwidths:
   }
   { }
+\cs_new_protected:Npn \thesmo_set_dwidths:
+  {
+    \dim_gset:Nn \l_thesmo_dapp_dim
+      { \textwidth - \l_thesmo_dsch_dim - \l_thesmo_dln_dim - \l_thesmo_dsig_dim - \l_thesmo_dtxt_dim - \l_thesmo_dvnum_dim - 2\l_thesmo_dgap_dim }
+  }
 
 %% \ligne[v=…, n=…, retrait=…]{sigles}{texte}
+%%   v = vers qui commence sur la ligne (« 6 », ou « 6,7 ») ; n = numéro de ligne du manuscrit
 \keys_define:nn { thesmo / ligne }
   {
     v .tl_set:N = \l_thesmo_lv_tl, v .initial:n = {},
+    n .tl_set:N = \l_thesmo_ln_tl, n .initial:n = {},
     retrait .dim_set:N = \l_thesmo_lind_dim, retrait .initial:n = 0pt,
     echelle .tl_set:N = \l_thesmo_lscale_tl, echelle .initial:n = 1,
   }
 \NewDocumentCommand \ligne { O{} m m }
+  { \group_begin: \thesmo_ligne:nnn {#1} {#2} {#3} \group_end: }
+\cs_new_protected:Npn \thesmo_ligne:nnn #1#2#3
   {
     \keys_set:nn { thesmo / ligne } {#1}
     \int_gincr:N \g_thesmo_dline_int
+    \tl_if_empty:NT \l_thesmo_ln_tl { \tl_set:Nx \l_thesmo_ln_tl { \int_use:N \g_thesmo_dline_int } }
+    \seq_gput_right:NV \g_thesmo_dline_v_seq \l_thesmo_lv_tl
+    \seq_gput_right:NV \g_thesmo_dline_n_seq \l_thesmo_ln_tl
+    \tl_clear:N \l_tmpb_tl
+    \regex_match:nVT { \A\d+\Z } \l_thesmo_ln_tl
+      { \int_compare:nNnT { \int_mod:nn { \l_thesmo_ln_tl } {5} } = {0} { \tl_set_eq:NN \l_tmpb_tl \l_thesmo_ln_tl } }
     \vbox_gset:Nn \g_thesmo_dtext_box
       {
         \vbox_unpack_drop:N \g_thesmo_dtext_box
-        \hbox_to_wd:nn { \l_thesmo_dsig_dim + \l_thesmo_dtxt_dim + \l_thesmo_dvnum_dim }
+        \hbox_to_wd:nn { \l_thesmo_dln_dim + \l_thesmo_dsig_dim + \l_thesmo_dtxt_dim + \l_thesmo_dvnum_dim }
           {
             \vbox_to_ht:nn { 0.72\l_thesmo_dbs_dim } { \vss }
+            \hbox_to_wd:nn { \l_thesmo_dln_dim } { { \fontsize{5.5}{6}\selectfont \color{filet} \l_tmpb_tl } \hss }
             \hbox_to_wd:nn { \l_thesmo_dsig_dim } { \hss { \diplofont \fontsize{7.5}{9}\selectfont #2 } \hspace{1.5mm} }
             \hbox_to_wd:nn { \l_thesmo_dtxt_dim }
               { \diplofont \l_thesmo_dsize_tl \hspace*{\l_thesmo_lind_dim}
@@ -711,16 +809,57 @@
           }
       }
   }
-\NewDocumentCommand \app { +m }
+%% apparat ancré au vers #1 ; scholie ancrée à la ligne #2 du manuscrit
+\NewDocumentCommand \app { m +m }
+  { \seq_gput_right:Nn \g_thesmo_app_seq { {#1} {#2} } }
+\NewDocumentCommand \sch { O{} m +m }
+  { \seq_gput_right:Nn \g_thesmo_sch_seq { {#2} {#1} {#3} } }
+\seq_new:N \l_thesmo_place_seq
+\cs_new_protected:Npn \thesmo_place_anchored:
   {
-    \thesmo_anchor:nn {app}
-      { \hsize = \l_thesmo_dapp_dim \l_thesmo_appsize_tl \raggedright \hangindent=1em \hangafter=1 \noindent \strut #1 \strut }
-  }
-\NewDocumentCommand \sch { O{} +m }
-  {
-    \thesmo_anchor:nn {sch}
-      { \hsize = \l_thesmo_dsch_dim \diplofont \l_thesmo_schsize_tl \raggedright \hangindent=0.6em \hangafter=1 \noindent
-        \tl_if_blank:nF {#1} { { \rmfamily\itshape\color{gris} #1 }\nobreakspace } #2 }
+    %% apparat
+    \seq_clear:N \l_thesmo_place_seq
+    \seq_map_inline:Nn \g_thesmo_app_seq
+      {
+        \thesmo_line_of_verse:n { \use_i:nn ##1 }
+        \int_compare:nNnT { \l_thesmo_lineidx_int } = {0}
+          { \int_set:Nn \l_thesmo_lineidx_int { \int_max:nn {1} { \g_thesmo_dline_int } } }
+        \seq_put_right:Nx \l_thesmo_place_seq
+          { { \int_use:N \l_thesmo_lineidx_int } { \exp_not:o { \use_ii:nn ##1 } } }
+      }
+    \seq_sort:Nn \l_thesmo_place_seq
+      {
+        \int_compare:nNnTF { \use_i:nn ##1 } > { \use_i:nn ##2 }
+          { \sort_return_swapped: } { \sort_return_same: }
+      }
+    \seq_map_inline:Nn \l_thesmo_place_seq
+      {
+        \thesmo_anchor_at:nnn {app} { \use_i:nn ##1 }
+          { \hsize = \l_thesmo_dapp_dim \l_thesmo_appsize_tl \raggedright \hangindent=1em \hangafter=1
+            \noindent \strut \use_ii:nn ##1 \strut }
+      }
+    %% scholies
+    \seq_clear:N \l_thesmo_place_seq
+    \seq_map_inline:Nn \g_thesmo_sch_seq
+      {
+        \thesmo_line_of_msline:n { \use_i:nnn ##1 }
+        \int_compare:nNnT { \l_thesmo_lineidx_int } = {0} { \int_set:Nn \l_thesmo_lineidx_int {1} }
+        \seq_put_right:Nx \l_thesmo_place_seq
+          { { \int_use:N \l_thesmo_lineidx_int } { \exp_not:o { \use_ii:nnn ##1 } } { \exp_not:o { \use_iii:nnn ##1 } } }
+      }
+    \seq_sort:Nn \l_thesmo_place_seq
+      {
+        \int_compare:nNnTF { \use_i:nnn ##1 } > { \use_i:nnn ##2 }
+          { \sort_return_swapped: } { \sort_return_same: }
+      }
+    \seq_map_inline:Nn \l_thesmo_place_seq
+      {
+        \thesmo_anchor_at:nnn {sch} { \use_i:nnn ##1 }
+          { \hsize = \l_thesmo_dsch_dim \diplofont \l_thesmo_schsize_tl \raggedright \hangindent=0.6em \hangafter=1 \noindent
+            \tl_if_blank:oF { \use_ii:nnn ##1 } { { \rmfamily\itshape\color{gris} \use_ii:nnn ##1 }\nobreakspace } \use_iii:nnn ##1 }
+      }
+    \seq_gclear:N \g_thesmo_app_seq
+    \seq_gclear:N \g_thesmo_sch_seq
   }
 
 %% registres du bas de la page diplomatique
@@ -744,14 +883,16 @@
 \cs_new_protected:Npn \thesmo_ship_diplo:
   {
     \dim_set:Nn \l_thesmo_commcol_dim { (\textwidth - \l_thesmo_commgap_dim) / 2 }
+    \thesmo_place_anchored:
     %% bloc supérieur
     \hbox_set:Nn \l_thesmo_left_box
       {
-        \vbox_top:n { \hsize=\l_thesmo_dsch_dim \offinterlineskip \box_use:N \g_thesmo_dsch_box }
+        %% chaque colonne commence par un filet de hauteur nulle : alignement par le haut
+        \vbox_top:n { \hsize=\l_thesmo_dsch_dim \offinterlineskip \tex_hrule:D height 0pt \scan_stop: \vbox_unpack_drop:N \g_thesmo_dsch_box }
         \hspace{\l_thesmo_dgap_dim}
-        \vbox_top:n { \offinterlineskip \box_use:N \g_thesmo_dtext_box }
+        \vbox_top:n { \hsize=\dim_eval:n { \l_thesmo_dln_dim + \l_thesmo_dsig_dim + \l_thesmo_dtxt_dim + \l_thesmo_dvnum_dim } \offinterlineskip \tex_hrule:D height 0pt \scan_stop: \vbox_unpack_drop:N \g_thesmo_dtext_box }
         \hspace{\l_thesmo_dgap_dim}
-        \vbox_top:n { \hsize=\l_thesmo_dapp_dim \offinterlineskip \box_use:N \g_thesmo_dapp_box }
+        \vbox_top:n { \hsize=\l_thesmo_dapp_dim \offinterlineskip \tex_hrule:D height 0pt \scan_stop: \vbox_unpack_drop:N \g_thesmo_dapp_box }
       }
     \dim_set:Nn \l_thesmo_dtop_dim { \box_ht:N \l_thesmo_left_box + \box_dp:N \l_thesmo_left_box }
     %% registres du bas : loci paralleli puis commentaire critique, en flux sur deux colonnes
