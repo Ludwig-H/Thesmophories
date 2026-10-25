@@ -1,0 +1,28 @@
+# Documents sous droits et corpus téléchargés (le dépôt est public)
+.sources/
+# Fichiers intermédiaires régénérables (découpes d'images, caches)
+.travail/
+# Auxiliaires LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.xdv
+*.bbl
+*.blg
+*.run.xml
+*.bcf
+*.1
+*.1R
+*.2
+*.2R
+*.Aend
+*.Bend
+*.Cend
+*.Dend
+*.Eend
+*.eledsec*
+__pycache__/
