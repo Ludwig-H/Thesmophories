@@ -1,0 +1,183 @@
+code	gravite	groupe	vers	fichier	ligne_source	message
+numerotation_debut_fichier	info			Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	492	Le fichier commence sans \ligne{n} : compilé seul, reledmac numéroterait à partir de 1 ; la numérotation est ici enchaînée sur celle du fichier précédent (dernier n° 638).
+appel_double	mineure	G0037		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	951	Commentaire C0022 (49-50) : appels répétés 1,2,3,3,4,5
+appel_double	mineure	G0044		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1101	Commentaire C0025 (61) : appels répétés 1,2,3,4,5,6,7,8,9,10,11,12,13,8
+note_sans_appel	mineure	G0103		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1566	Commentaire C0047 (134-5) : \note{4} sans appel \marqueur correspondant
+appel_double	mineure	G0110		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1685	Commentaire C0055 (161-3) : appels répétés 1,2,2,3,3,4,5,6,7,8,9,10
+appel_sans_note	moyenne	G0175		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2339	Commentaire C0083 (248) : appel \marqueur{} sans \note active
+note_sans_appel	mineure	G0175		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2339	Commentaire C0083 (248) : \note{1} sans appel \marqueur correspondant
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2971	\note{1} sans \debutNote préalable
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2972	\note{2} sans \debutNote préalable
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2973	\note{3} sans \debutNote préalable
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2974	\note{4} sans \debutNote préalable
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2975	\note{5} sans \debutNote préalable
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2984	\note{6} sans \debutNote préalable
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2985	\note{7} sans \debutNote préalable
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2986	\note{8} sans \debutNote préalable
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2987	\note{9} sans \debutNote préalable
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2988	\note{10} sans \debutNote préalable
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2989	\note{11} sans \debutNote préalable
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2990	\note{12} sans \debutNote préalable
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2991	\note{13} sans \debutNote préalable
+note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2992	\note{14} sans \debutNote préalable
+appel_double	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2969	Commentaire C0109 (365-6) : appels répétés 1,2,3,4,5,5
+note_sans_appel	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2976	Commentaire C0110 () : \note{6} sans appel \marqueur correspondant
+notes_ordre	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2976	Commentaire C0110 () : notes numérotées 6,7,8,9,10,11,12,13,14
+appel_sans_note	moyenne	G0288		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3717	Commentaire C0146 (494) : appel \marqueur{2} sans \note active
+appel_sans_note	moyenne	G0289		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3810	Commentaire C0154 (518-9) : appel \marqueur{1} sans \note active
+appel_sans_note	moyenne	G0311		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4016	Commentaire C0163 (556-7) : appel \marqueur{4} sans \note active
+note_sans_appel	mineure	G0311		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4016	Commentaire C0163 (556-7) : \note{3} sans appel \marqueur correspondant
+appel_double	mineure	G0478		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1932	Commentaire C0245 (826) : appels répétés 1,1
+appel_double	mineure	G0480		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1996	Commentaire C0250 (839) : appels répétés 1,2,3,3
+note_plage	mineure	G0539		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3097	\debutNote{943-56} après \commentaire{943-56.}
+note_sans_appel	mineure	G0539		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3096	Commentaire C0286 (943-56.) : \note{1} sans appel \marqueur correspondant
+note_plage	mineure	G0733		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4992	\debutNote{1150-53} après \commentaire{1150-3}
+appel_sans_note	moyenne	G0734		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5000	Commentaire C0338 (1151) : appel \marqueur{} sans \note active
+appel_double	mineure	G0744		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5138	Commentaire C0343 (1175) : appels répétés 1,2,2,3
+transposition	grave	G0001	3		533	vv. 3-4 : ordre des lignes inversé par rapport à la tradition (Hall-Geldart 4/3), sans note d'apparat — « παρὰ σοῦ πυθέσθαι ποῖ μ᾽ ἄγεις ωὖριπίδη; » / « οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλ »
+commentaire_sans_plage	info	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2976	Commentaire C0110 sans plage ni lemme (suite du commentaire précédent ?) — « Il y a cependant autre chose dans ce texte : un jeu de mots  »
+alignement_lignes	info	G0012		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4808	Groupe G0012 (v. 13b-18) : 6 ligne(s) grecque(s) numérotée(s) / 7 ligne(s) française(s) — alignement par longueurs
+etiquette_differente	info	G0031		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0031 : étiquette grecque « v. 39-41 » / française « v. 39-45a »
+alignement_lignes	info	G0044		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4994	Groupe G0044 (v. 59-61) : 3 ligne(s) grecque(s) numérotée(s) / 2 ligne(s) française(s) — alignement par longueurs
+etiquette_differente	info	G0103		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0103 : étiquette grecque « v. 130-145 » / française « None »
+alignement_lignes	info	G0109		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5333	Groupe G0109 (v. 159-167) : 2 ligne(s) grecque(s) numérotée(s) / 3 ligne(s) française(s) — alignement par longueurs
+alignement_lignes	mineure	G0122		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5416	Groupe G0122 (v. 184-187) : 4 ligne(s) grecque(s) numérotée(s) / 6 ligne(s) française(s) — alignement par longueurs
+etiquette_differente	info	G0151		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0151 : étiquette grecque « None » / française « v. 223b »
+etiquette_differente	info	G0195		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0195 : étiquette grecque « v. 264 » / française « v. 264a »
+alignement_lignes	info	G0207		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5890	Groupe G0207 (v. 277-279a) : 3 ligne(s) grecque(s) numérotée(s) / 4 ligne(s) française(s) — alignement par longueurs
+alignement_lignes	mineure	G0210		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5921	Groupe G0210 (v. 295-311) : 16 ligne(s) grecque(s) numérotée(s) / 14 ligne(s) française(s) — alignement par longueurs
+etiquette_differente	info	G0214		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0214 : étiquette grecque « v. 315 » / française « v. 312-330 »
+etiquette_differente	info	G0215		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0215 : étiquette grecque « v. 316 » / française « v. 312-330 »
+etiquette_differente	info	G0216		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0216 : étiquette grecque « v. 317 » / française « v. 312-330 »
+etiquette_differente	info	G0217		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0217 : étiquette grecque « v. 318 » / française « v. 312-330 »
+etiquette_differente	info	G0218		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0218 : étiquette grecque « v. 319 » / française « v. 312-330 »
+etiquette_differente	info	G0219		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0219 : étiquette grecque « v. 320 » / française « v. 312-330 »
+etiquette_differente	info	G0220		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0220 : étiquette grecque « v. 321 » / française « v. 312-330 »
+etiquette_differente	info	G0221		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0221 : étiquette grecque « v. 322 » / française « v. 312-330 »
+etiquette_differente	info	G0222		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0222 : étiquette grecque « v. 323 » / française « v. 312-330 »
+etiquette_differente	info	G0223		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0223 : étiquette grecque « v. 324a » / française « v. 312-330 »
+etiquette_differente	info	G0224		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0224 : étiquette grecque « v. 324b » / française « v. 312-330 »
+etiquette_differente	info	G0225		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0225 : étiquette grecque « v. 325 » / française « v. 312-330 »
+etiquette_differente	info	G0226		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0226 : étiquette grecque « v. 326 » / française « v. 312-330 »
+etiquette_differente	info	G0227		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0227 : étiquette grecque « v. 327 » / française « v. 312-330 »
+etiquette_differente	info	G0228		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0228 : étiquette grecque « v. 328 » / française « v. 312-330 »
+etiquette_differente	info	G0229		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0229 : étiquette grecque « v. 329 » / française « v. 312-330 »
+etiquette_differente	info	G0230		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0230 : étiquette grecque « v. 330 » / française « v. 312-330 »
+etiquette_differente	info	G0234		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0234 : étiquette grecque « v. 353 » / française « v. 352-354 »
+etiquette_differente	info	G0235		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0235 : étiquette grecque « v. 354 » / française « v. 352-354 »
+etiquette_differente	info	G0236		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0236 : étiquette grecque « v. 355 » / française « v. 355-357 »
+etiquette_differente	info	G0237		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0237 : étiquette grecque « v. 356 » / française « v. 352-354 »
+etiquette_differente	info	G0238		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0238 : étiquette grecque « v. 357-8 » / française « v. 352-354 »
+etiquette_differente	info	G0239		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0239 : étiquette grecque « v. 359 » / française « v. 358-361 »
+etiquette_differente	info	G0240		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0240 : étiquette grecque « v. 360 » / française « v. 352-354 »
+etiquette_differente	info	G0241		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0241 : étiquette grecque « v. 361 » / française « v. 352-354 »
+etiquette_differente	info	G0242		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0242 : étiquette grecque « v. 362 » / française « v. 362-364 »
+etiquette_differente	info	G0243		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0243 : étiquette grecque « v. 363 » / française « v. 352-354 »
+etiquette_differente	info	G0244		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0244 : étiquette grecque « v. 364 » / française « v. 352-354 »
+etiquette_differente	info	G0245		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0245 : étiquette grecque « v. 365 » / française « v. 365-367 »
+etiquette_differente	info	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0246 : étiquette grecque « v. 366 » / française « v. 352-354 »
+etiquette_differente	info	G0247		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0247 : étiquette grecque « v. 367 » / française « v. 352-354 »
+etiquette_differente	info	G0249		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0249 : étiquette grecque « v. 369 » / française « v. 352-354 »
+etiquette_differente	info	G0250		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0250 : étiquette grecque « v. 370 » / française « v. 352-354 »
+etiquette_differente	info	G0251		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0251 : étiquette grecque « v. 371 » / française « v. 352-354 »
+etiquette_differente	info	G0262		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0262 : étiquette grecque « v. 434-5 » / française « v. 433-442 »
+etiquette_differente	info	G0263		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0263 : étiquette grecque « v. 436 » / française « v. 433-442 »
+etiquette_differente	info	G0264		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0264 : étiquette grecque « v. 437a » / française « v. 433-442 »
+etiquette_differente	info	G0265		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0265 : étiquette grecque « v. 437b » / française « v. 433-442 »
+etiquette_differente	info	G0266		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0266 : étiquette grecque « v. 438 » / française « v. 433-442 »
+etiquette_differente	info	G0267		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0267 : étiquette grecque « v. 439a » / française « v. 433-442 »
+etiquette_differente	info	G0268		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0268 : étiquette grecque « v. 439b » / française « v. 433-442 »
+etiquette_differente	info	G0269		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0269 : étiquette grecque « v. 440 » / française « v. 433-442 »
+etiquette_differente	info	G0270		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0270 : étiquette grecque « v. 441a » / française « v. 433-442 »
+etiquette_differente	info	G0271		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0271 : étiquette grecque « v. 441b » / française « v. 433-442 »
+etiquette_differente	info	G0272		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0272 : étiquette grecque « v. 442a » / française « v. 433-442 »
+etiquette_differente	info	G0273		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0273 : étiquette grecque « v. 442b » / française « v. 433-442 »
+etiquette_differente	info	G0277		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0277 : étiquette grecque « v. 460a » / française « v. 459-465 »
+etiquette_differente	info	G0278		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0278 : étiquette grecque « v. 460b » / française « v. 459-465 »
+etiquette_differente	info	G0279		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0279 : étiquette grecque « v. 461 » / française « v. 459-465 »
+etiquette_differente	info	G0280		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0280 : étiquette grecque « v. 462 » / française « v. 459-465 »
+etiquette_differente	info	G0281		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0281 : étiquette grecque « v. 463 » / française « v. 459-465 »
+etiquette_differente	info	G0282		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0282 : étiquette grecque « v. 464 » / française « v. 459-465 »
+etiquette_differente	info	G0283		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0283 : étiquette grecque « v. 465a » / française « v. 459-465 »
+etiquette_differente	info	G0284		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0284 : étiquette grecque « v. 465b » / française « v. 459-465 »
+etiquette_differente	info	G0285		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0285 : étiquette grecque « v. 465c » / française « v. 459-465 »
+etiquette_differente	info	G0296		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0296 : étiquette grecque « v. 526a » / française « v. 520-530 »
+etiquette_differente	info	G0297		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0297 : étiquette grecque « v. 526b » / française « v. 520-530 »
+etiquette_differente	info	G0298		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0298 : étiquette grecque « v. 527 » / française « v. 520-530 »
+etiquette_differente	info	G0299		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0299 : étiquette grecque « v. 520-5308 » / française « v. 520-530 »
+etiquette_differente	info	G0300		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0300 : étiquette grecque « v. 529 » / française « v. 520-530 »
+etiquette_differente	info	G0301		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0301 : étiquette grecque « v. 530a » / française « v. 520-530 »
+etiquette_differente	info	G0302		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0302 : étiquette grecque « v. 530b » / française « v. 520-530 »
+alignement_lignes	info	G0304		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6463	Groupe G0304 (v. 533-539) : 7 ligne(s) grecque(s) numérotée(s) / 8 ligne(s) française(s) — alignement par longueurs
+personnage_absent	moyenne	G0390		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex		Groupe G0390 (None) : personnages grec ['Κορυφ. β'] / français []
+personnage_absent	moyenne	G0391		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex		Groupe G0391 (v. 663-666) : personnages grec ['Χορός'] / français []
+etiquette_differente	info	G0409		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex		Groupe G0409 : étiquette grecque « v. 680 » / française « v. 663-666 »
+etiquette_differente	info	G0410		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex		Groupe G0410 : étiquette grecque « v. 681-2 » / française « v. 663-666 »
+etiquette_differente	info	G0411		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex		Groupe G0411 : étiquette grecque « v. 683 » / française « v. 663-666 »
+etiquette_differente	info	G0412		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex		Groupe G0412 : étiquette grecque « v. 684-5 » / française « v. 663-666 »
+etiquette_differente	info	G0413		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex		Groupe G0413 : étiquette grecque « v. 686 » / française « v. 663-666 »
+alignement_lignes	info	G0460		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6016	Groupe G0460 (v. 756) : 1 ligne(s) grecque(s) numérotée(s) / 2 ligne(s) française(s) — alignement par longueurs
+alignement_lignes	info	G0471		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6084	Groupe G0471 (v. 776-784) : 3 ligne(s) grecque(s) numérotée(s) / 4 ligne(s) française(s) — alignement par longueurs
+alignement_lignes	info	G0480		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6165	Groupe G0480 (v. 830-845) : 10 ligne(s) grecque(s) numérotée(s) / 9 ligne(s) française(s) — alignement par longueurs
+alignement_lignes	info	G0481		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6177	Groupe G0481 (v. 830-845) : 6 ligne(s) grecque(s) numérotée(s) / 7 ligne(s) française(s) — alignement par longueurs
+alignement_lignes	info	G0494		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6263	Groupe G0494 (v. 869-870) : 2 ligne(s) grecque(s) numérotée(s) / 3 ligne(s) française(s) — alignement par longueurs
+etiquette_differente	info	G0525		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex		Groupe G0525 : étiquette grecque « v. 913-915 » / française « v. 912-916a »
+alignement_lignes	info	G0744		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7509	Groupe G0744 (v. 1172-1175) : 4 ligne(s) grecque(s) numérotée(s) / 5 ligne(s) française(s) — alignement par longueurs
+numero_corrige	info	G0087	113		1475	v. 113 : corrigé : \ligne{112} répète un numéro ; HG indique 113 (n° reledmac 112) — « γέρας ἱερὸν προφέρων. »
+numero_corrige	info	G0090	117		1488	v. 117 : corrigé : \ligne{116} contredit par l'apparat de l'auteur et HG (n° reledmac 116) — « ἕπομαι κλῄζουσα σεμνὰν »
+numero_corrige	info	G0092	119		1496	v. 119 : corrigé : \ligne{118} répète un numéro ; HG indique 119 (n° reledmac 118) — « Ἄρτεμιν ἀπειρολεχῆ. »
+numero_corrige	info	G0195	264		2487	v. 264 : corrigé : \ligne{263} répète un numéro ; HG indique 264 (n° reledmac 263) — « σὺ τοῦτο γίγνωσκ᾽ »
+numero_corrige	info	G0445	739		1366	v. 739 : corrigé : \ligne{738} répète un numéro ; HG indique 739 (n° reledmac 738) — « παράβαλλε πολλὰς κληματίδας ὦ Μανία. »
+numero_corrige	info	G0462	758		1527	v. 758 : corrigé : \ligne{757} répète un numéro ; HG indique 758 (n° reledmac 757) — « τουτὶ τὸ δέρμα τῆς ἱερείας γίγνεται. »
+numero_corrige	info	G0463	759		1534	v. 759 : corrigé : \ligne{758} répète un numéro ; HG indique 759 (n° reledmac 758) — « τί τῆς ἱερείας γίγνεται; »
+numero_diff_HG	moyenne	G0001	3		533	vv. 3-3 (1 ligne(s), trimIamb) : numérotation de l'auteur = Hall-Geldart -1 (ex. « παρὰ σοῦ πυθέσθαι ποῖ μ᾽ ἄγεις ωὖριπίδη; » = HG 4)
+numero_diff_HG	moyenne	G0001	4		557	vv. 4-4 (1 ligne(s), trimIamb) : numérotation de l'auteur = Hall-Geldart +1 (ex. « οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλ » = HG 3)
+numero_diff_HG	info	G0210	296		2721	vv. 296-296 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « εὐφημία ἔστω. | » = HG 295)
+numero_diff_HG	info	G0210	297		2722	vv. 297-297 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +2 (ex. « εὔχεσθε ταῖν Θεσμοφόροιν | » = HG 295-296)
+numero_diff_HG	info	G0210	299		2723	vv. 299-300 (2 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +3 (ex. « καὶ τῷ Πλούτῳ καὶ τῇ Καλλιγενείᾳ | » = HG 296-297)
+numero_diff_HG	info	G0210	302		2728	vv. 302-304 (3 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +2 (ex. « ἐκκλησίαν τήνδε καὶ σύνοδον τὴν νῦν | » = HG 300-301)
+numero_diff_HG	info	G0210	309		2734	vv. 309-309 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +2 (ex. « καὶ τὸν τῶν γυναικῶν | » = HG 307)
+numero_diff_HG	info	G0239	359		2939	vv. 359-359 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « ὅρκους τοὺς νενομισμένους » = HG 358)
+numero_diff_HG	info	G0252	372		3022	vv. 372-378 (7 ligne(s), trimIamb) : numérotation de l'auteur = Hall-Geldart -1 (ex. « ἄκουε πᾶσ᾽. ἔδοξε τῇ βουλῇ τάδε » = HG 373)
+numero_diff_HG	info	G0261	433		3225	vv. 433-433 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart -1 (ex. « οὔπω ταύτης ἤκουσα » = HG 434)
+numero_diff_HG	info	G0265	437		3244	vv. 437-438 (2 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart -1 (ex. « †πάσας δ᾽ ἰδέας ἐξήτασεν†, » = HG 438)
+numero_diff_HG	info	G0268	439		3259	vv. 439-439 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart -1 (ex. « εὖ διεζητημένους· » = HG 440)
+numero_diff_HG	info	G0297	526		3848	vv. 526-528 (3 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart -1 (ex. « οὐδὲ τολμῆσαί ποτ᾽ ἄν. » = HG 527)
+numero_diff_HG	info	G0396	666		736	vv. 666-667 (2 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart -1 (ex. « πάντ᾽ ἀνασκόπει καλῶς. » = HG 667)
+numero_diff_HG	info	G0406	677		776	vv. 677-679 (3 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « μηδομένους ποιεῖν ὅ τι καλῶς ἔχει. » = HG 676)
+numero_diff_HG	info	G0411	683		801	vv. 683-688 (4 ligne(s), chantChoeur, tetramTroch) : numérotation de l'auteur = Hall-Geldart +1 (ex. « ἔσται γυναιξὶ καὶ βροτοῖς, » = HG 682)
+numero_diff_HG	info	G0435	718		1166	vv. 718-718 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart -1 (ex. « ἀλλ᾽ οὐ μὰ τὼ θεὼ τάχ᾽ οὐ » = HG 719)
+numero_diff_HG	info	G0438	724		1195	vv. 724-724 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « τάχα δὲ μεταβαλοῦσ᾽ ἐπὶ κακὸν ἑτερότρο- » = HG 723)
+numero_diff_HG	info	G0554	965		3221	vv. 965-965 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « οὐκ ὀρθῶς φρονεῖ. » = HG 964)
+numero_diff_HG	info	G0564	975		3263	vv. 975-976 (2 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « μέλψωμεν ὥσπερ εἰκός, » = HG 974a)
+numero_diff_HG	info	G0578	987		3324	vv. 987-989 (3 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « ἡγοῦ δέ γ᾽ ὧδ᾽ αὐτὸς σὺ » = HG 986a)
+numero_diff_HG	info	G0603	1014		3467	vv. 1014-1017 (3 ligne(s), paratragiques, trimIamb) : numérotation de l'auteur = Hall-Geldart -1 (ex. « ἥξει με σώσων· οὐ γὰρ ἂν παρέπτετο. » = HG 1015)
+numero_diff_HG	info	G0615	1029		3544	vv. 1029-1029 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +2 (ex. « ἄφιλον ἐκρέμασε κόραξι δεῖπνον. » = HG 1027-1028)
+numero_diff_HG	info	G0634	1048		4197	vv. 1048-1049 (2 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « ἄτεγκτε δαίμων· » = HG 1047)
+numero_diff_HG	info	G0649	1069		4333	vv. 1069-1069 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « τοῦ σεμνοτάτου δι᾽ Ὀλύμπου; » = HG 1068a)
+numero_diff_HG	info	G0671	1083		4566	vv. 1083-1084 (4 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « οὖτος τί λαλῖς; » = HG 1082)
+numero_diff_HG	info	G0681	1088		4633	vv. 1088-1089 (4 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « κλαύσαι. » = HG 1087c)
+numero_diff_HG	info	G0723	1139		4936	vv. 1139-1139 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « παρθένον ἄζυγα κούρην, » = HG 1138)
+numero_diff_HG	info	G0735	1154		5006	vv. 1154-1156 (3 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +2 (ex. « φαίνετον ἄμβροτον ὄψιν. » = HG 1152)
+numero_diff_HG	info	G0739	1159		5022	vv. 1159-1159 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +3 (ex. « νῦν ἀφίκεσθον †ἱκετεύομεν ἐνθάδ᾽ ἡμῖν†. » = HG 1156-1157)
+numero_diff_HG	moyenne	G0768	1216		5417	vv. 1216-1216 (1 ligne(s), trimIamb) : numérotation de l'auteur = Hall-Geldart +3 (ex. « Ἀρταμουξία. » = HG 1213a)
+numero_diff_HG	moyenne	G0774	1222		5452	vv. 1222-1222 (1 ligne(s), trimIamb) : numérotation de l'auteur = Hall-Geldart -1 (ex. « Ἀρταμουξία. » = HG 1223)
+etiquette_vers	mineure	G0289	504		3785	Groupe G0289 : étiquette « v. 520-530 » mais première ligne numérotée 504 — « ὁ δ᾽ ἀνὴρ περιήρχετ᾽ ὠκυτόκι᾽ ὠνούμενος· »
+etiquette_vers	mineure	G0299	528		3874	Groupe G0299 : étiquette « v. 520-5308 » mais première ligne numérotée 528 — « τὴν παροιμίαν δ᾽ ἐπαινῶ »
+etiquette_vers	mineure	G0351	612		4439	Groupe G0351 : étiquette « v. 611b-612 » mais première ligne numérotée 612 — « σὺ δ᾽ οὖν ποίει τοῦτ᾽. ἀναμενῶ γὰρ ἐνθάδε. »
+etiquette_vers	mineure	G0398	668		744	Groupe G0398 : étiquette « v. 663-666 » mais première ligne numérotée 668 — « δώσει τε δίκην καὶ πρὸς τούτῳ »
+etiquette_vers	mineure	G0430	712		1140	Groupe G0430 : étiquette « v. 710 » mais première ligne numérotée 712 — « οἷον δράσας διέδυς ἔργον· »
+etiquette_vers	mineure	G0526	916		2862	Groupe G0526 : étiquette « v. 912-916a » mais première ligne numérotée 916a — « λαβὼν ταχὺ πάνυ. »
+vers_supprime	info	G0015	23		681	v. 23 supprimé par l'auteur (apparat : leçon retenue « del. »)
+numero_saut	info		298			v. 298 absent de la numérotation de l'auteur (absent aussi de Hall-Geldart)
+numero_saut	info		308			v. 308 absent de la numérotation de l'auteur (absent aussi de Hall-Geldart)
+vers_supprime	info		500			v. 500 supprimé par l'auteur (apparat : leçon retenue « del. »)
+numero_saut	moyenne		723			v. 723 absent de la numérotation de l'auteur
+numero_saut	moyenne		1018			v. 1018 absent de la numérotation de l'auteur
+numero_saut	moyenne		1028			v. 1028 absent de la numérotation de l'auteur
+numero_saut	moyenne		1082			v. 1082 absent de la numérotation de l'auteur
+numero_saut	moyenne		1138			v. 1138 absent de la numérotation de l'auteur
+numero_saut	moyenne		1143			v. 1143 absent de la numérotation de l'auteur
+numero_saut	moyenne		1152			v. 1152 absent de la numérotation de l'auteur
+numero_saut	moyenne		1153			v. 1153 absent de la numérotation de l'auteur
+numero_saut	info		1158			v. 1158 absent de la numérotation de l'auteur (absent aussi de Hall-Geldart)

@@ -132,7 +132,7 @@
     \__thesmo_ensure_box:n { \l_tmpb_tl }
     \vbox_gset_top:cn { \l_tmpa_tl } {#1}
     \vbox_gset_top:cn { \l_tmpb_tl } {#2}
-    \seq_gput_right:Nn \g_thesmo_row_verse_seq {#3}
+    \seq_gput_right:Nx \g_thesmo_row_verse_seq {#3}
     \seq_gput_right:Nx \g_thesmo_row_secgr_seq { \exp_not:V \g_thesmo_section_gr_tl }
     \seq_gput_right:Nx \g_thesmo_row_secfr_seq { \exp_not:V \g_thesmo_section_fr_tl }
   }
@@ -150,12 +150,15 @@
         \tex_marks:D \g_thesmo_item_marks { \int_use:N \g_thesmo_items_int }
         \l_thesmo_commsize_tl
         \parfillskip = 0pt plus 1fil
+        \cs_set_eq:NN \\ \thesmo_safebreak
         #2
         \par
       }
   }
 \cs_new_protected:Npn \thesmo_add_item:n #1
   { \thesmo_add_item_at:nn { \g_thesmo_rows_int } {#1} }
+%% « \\ » tolérant dans le commentaire : saut de ligne en mode horizontal, rien ailleurs
+\NewDocumentCommand \thesmo_safebreak { s o } { \mode_if_horizontal:T { \hfil \break } }
 %% rangée où figure le vers #1 (premier nombre de l'étiquette) ; 0 si absent
 \int_new:N \l_thesmo_anchorrow_int
 \int_new:N \l_thesmo_target_int
@@ -525,7 +528,9 @@
     \hbox_set:Nn \l_thesmo_meas_box { \l_thesmo_grsize_tl #4 }
     \dim_gset:Nn \g_thesmo_prevG_dim { \l_thesmo_vindent_dim + \box_wd:N \l_thesmo_meas_box + 0.6em }
     \hbox_set:Nn \l_thesmo_meas_box { \l_thesmo_frsize_tl #5 }
-    \dim_gset:Nn \g_thesmo_prevF_dim { \l_thesmo_findent_dim + \box_wd:N \l_thesmo_meas_box + 0.6em }
+    \dim_gset:Nn \g_thesmo_prevF_dim
+      { \dim_min:nn { \l_thesmo_findent_dim + \box_wd:N \l_thesmo_meas_box + 0.6em } { 0.42\textwidth } }
+    \dim_gset:Nn \g_thesmo_prevG_dim { \dim_min:nn { \g_thesmo_prevG_dim } { 0.5\textwidth } }
     \tl_clear:N \l_thesmo_numshow_tl
     \bool_if:NTF \l_thesmo_shownum_bool
       { \tl_set_eq:NN \l_thesmo_numshow_tl \l_thesmo_vn_tl }
