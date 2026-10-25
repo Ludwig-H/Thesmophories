@@ -26,3 +26,7 @@
 *.Eend
 *.eledsec*
 __pycache__/
+# Produits de compilation et images dérivées de l'édition (régénérables)
+edition/*.pdf
+edition/essais/
+edition/images/*.jpg
