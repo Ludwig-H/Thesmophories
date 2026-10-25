@@ -1,0 +1,420 @@
+id	plage	cote	etat	texte	groupe	fichier	ligne_source
+	1	grec	désactivé	Ar. fragm. (Kassel-Austin) 617 πυθοῦ χελιδὼν πηνίκ᾽ ἄττα φαίνεται	G0001	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	516
+	2	grec	désactivé	(ἀλοῶν) Suidas α 1330 ; Photius α 1029 = Συναγωγήᴮ α 984	G0001	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	517
+T0072	1	francais	actif	Ar. fragm. (Kassel-Austin) 617 πυθοῦ χελιδὼν πηνίκ᾽ ἄττα φαίνεται	G0001	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4747
+T0073	2	francais	actif	(ἀλοῶν) Suidas α 1330 ; Photius α 1029 = Συναγωγήᴮ α 984	G0001	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4748
+	18-9	grec	désactivé	(χοάνη = χώνη) Moeris χ 1 Hesychius χ 576 χοάνη	G0012	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	630
+T0074	18-9	francais	actif	(χοάνη = χώνη) Moeris χ 1 Hesychius χ 576 χοάνη	G0012	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4813
+	24	grec	désactivé	Macarius VI 90 ; Michael Apostolius II 94	G0015	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	682
+T0075	24	francais	actif	Macarius VI 90 ; Michael Apostolius II 94	G0015	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4831
+	33	grec	désactivé	(δασυπώγων) Pollux II 88	G0027	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	798
+T0076	33	francais	actif	(δασυπώγων) Pollux II 88	G0027	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4894
+	36	grec	désactivé	(ἀλλ᾽ – πτήξωμεν) Suidas π 3024	G0030	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	877
+T0077	36	francais	actif	(ἀλλ᾽ – πτήξωμεν) Suidas π 3024	G0030	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4910
+	39-41	grec	désactivé	Suidas ε 3791 (λεὼς codd. AF : λαὸς codd. GIVM, συγκλείσας, ἐνδημεῖ pro ἐπιδημεῖ )	G0031	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	884
+	40-2	grec	désactivé	(ἐπιδημεῖ – μελοποιῶν) Suidas θ 378	G0031	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	886
+T0078	39-41	francais	actif	Suidas ε 3791 (λεὼς codd. AF : λαὸς codd. GIVM, συγκλείσας, ἐνδημεῖ pro ἐπιδημεῖ )	G0031	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4917
+	43-5	grec	désactivé	(ἐχέτω – γλαυκόν) Suidas ε 3792 ; Zonaras 941 ἐχέτω	G0032	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	904
+	44	grec	désactivé	(κελαδείτω) Suidas κ 1278	G0032	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	910
+T0079	40-2	francais	actif	(ἐπιδημεῖ – μελοποιῶν) Suidas θ 378	G0032	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4923
+T0080	43-5	francais	actif	(ἐχέτω – γλαυκόν) Suidas ε 3792 ; Zonaras 941 ἐχέτω	G0032	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4924
+T0081	44	francais	actif	(κελαδείτω) Suidas κ 1278	G0032	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4925
+	45	grec	désactivé	(βομβάξ) Hesychius β 787 βομβάξ ; Suidas ε 2807 ; Eustathius 1718.9	G0033	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	916
+T0082	45	francais	actif	(βομβάξ) Hesychius β 787 βομβάξ ; Suidas ε 2807 ; Eustathius 1718.9	G0033	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4931
+	48	grec	désactivé	(βομβαλοβομβάξ) Suidas ε 2807 ; Eustathius 790.13, 1718.13	G0036	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	940
+T0083	48	francais	actif	(βομβαλοβομβάξ) Suidas ε 2807 ; Eustathius 790.13, 1718.13	G0036	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4948
+	49	grec	désactivé	(καλλιεπὴς) Philostrate Vit. soph. I 9.1 [= II 12.8 Kayser]	G0037	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	947
+	50	grec	désactivé	(πραῖνοι) Hesychius π 3188 †πραῖνοι· πρηνίζειν, καταστρέφειν	G0037	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	949
+T0084	49	francais	actif	(καλλιεπὴς) Philostrate Vit. soph. I 9.1 [= II 12.8 Kayser]	G0037	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4953
+T0085	50	francais	actif	(πραῖνοι) Hesychius π 3188 †πραῖνοι· πρηνίζειν, καταστρέφειν	G0037	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4954
+	52-7	grec	désactivé	Suidas δ 1547 (sed τορεύει pro τορνεύει, χιανεύει pro χοανεύει)	G0041	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1053
+	52	grec	désactivé	Zonaras 569 δρύοχοι	G0041	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1053
+	53	grec	désactivé	(κάμπτει) Hesychius κ 617 κάμπτειν	G0041	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1055
+	54	grec	désactivé	(τορνεύει) Hesychius τ 1168 τορνεύει	G0041	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1057
+	56	grec	désactivé	(γογγύλλει) Hesychius γ 764 γογγύλλειν | Suidas γ 361 = Zonaras 449 γογγυλίζει	G0041	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1060
+	57	grec	désactivé	(χοανεύει) Eustathius 1153.40	G0041	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1062
+T0086	52-7	francais	actif	Suidas δ 1547 (sed τορεύει pro τορνεύει, χιανεύει pro χοανεύει)	G0041	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4974
+T0087	52	francais	actif	Zonaras 569 δρύοχοι	G0041	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4974
+T0088	53	francais	actif	(κάμπτει) Hesychius κ 617 κάμπτειν	G0041	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4975
+T0089	54	francais	actif	(τορνεύει) Hesychius τ 1168 τορνεύει	G0041	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4976
+T0090	56	francais	actif	(γογγύλλει) Hesychius γ 764 γογγύλλειν | Suidas γ 361 = Zonaras 449 γογγυλίζει	G0041	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4978
+T0091	57	francais	actif	(χοανεύει) Eustathius 1153.40	G0041	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4979
+	58	grec	désactivé	(θριγκοῖς) Hesychius θ 750 θριγκοῖς· φραγμοῖς	G0043	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1091
+T0092	58	francais	actif	(θριγκοῖς) Hesychius θ 750 θριγκοῖς· φραγμοῖς	G0043	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4989
+	62	grec	désactivé	(χοανεῦσαι = χωνεῦσαι) Moeris χ 21 ; Hesychius χ 575 χοανεῦσαι	G0045	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1137
+T0093	62	francais	actif	(χοανεῦσαι = χωνεῦσαι) Moeris χ 21 ; Hesychius χ 575 χοανεῦσαι	G0045	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4999
+	74	grec	désactivé	Suidas κ 1487, cf. Moeris κ 38	G0052	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1192
+T0094	74	francais	actif	Suidas κ 1487, cf. Moeris κ 38	G0052	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5039
+	80	grec	désactivé	Hesychius τ 1440 τρίτη Θεσμοφορίων	G0056	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1224
+T0095	80	francais	actif	Hesychius τ 1440 τρίτη Θεσμοφορίων	G0056	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5062
+	93-4	grec	désactivé	Suidas τ 439	G0066	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1314
+	93	grec	désactivé	Suidas κ 2025	G0066	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1314
+	94	grec	désactivé	(ἡμέτερος ὁ πυραμοῦς) Suidas π 3192, cf. Tzetzes Chil. XIII 281-288	G0066	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1317
+T0096	93-4	francais	actif	Suidas τ 439	G0066	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5120
+T0097	93	francais	actif	Suidas κ 2025	G0066	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5120
+T0098	94	francais	actif	(ἡμέτερος ὁ πυραμοῦς) Suidas π 3192, cf. Tzetzes Chil. XIII 281-288	G0066	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5121
+	96	grec	désactivé	(οὑκκυκλούμενος) Zonaras 678 ἐκκυκλεῖ	G0071	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1344
+T0099	96	francais	actif	(οὑκκυκλούμενος) Zonaras 678 ἐκκυκλεῖ	G0071	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5146
+	100	grec	désactivé	Hesychius μ 1904 Μύρμηκος ἀτραπούς ; Photius μ 606 Μύρμηκος ἀτραπός ; Suidas μ 1445	G0074	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1374
+T0100	100	francais	actif	Hesychius μ 1904 Μύρμηκος ἀτραπούς ; Photius μ 606 Μύρμηκος ἀτραπός ; Suidas μ 1445	G0074	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5162
+T0101	104-6	francais	actif	(εὐπίστως – σεβίσαι) Suidas σ 183	G0079	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5183
+	104-6	grec	désactivé	(εὐπίστως – σεβίσαι) Suidas σ 183	G0080	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1445
+	115-6	grec	désactivé	(Ἄρτεμιν ἀγροτέραν) Eustathius 361.37	G0089	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1483
+T0102	115-6	francais	actif	(Ἄρτεμιν ἀγροτέραν) Eustathius 361.37	G0092	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5236
+	120	grec	désactivé	Etymologicum magnum 153.21 Ἀσιάδος κρούματα· τῆς κιθάρας. οὔτως Αριστοφάνης εἶπε, παρῳδῶν τὸ ἐξ Ἐρεχθέως Εὐριπίδου ; Συναγωγήᴮ α 2226 = Photius α 2957 = Suidas 4147 = Etymologicum genuinum (AB) α 1271 ed. Lasserre-Livadaras	G0093	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1500
+T0103	120	francais	actif	Etymologicum magnum 153.21 Ἀσιάδος κρούματα· τῆς κιθάρας. οὔτως Αριστοφάνης εἶπε, παρῳδῶν τὸ ἐξ Ἐρεχθέως Εὐριπίδου ; Συναγωγήᴮ α 2226 = Photius α 2957 = Suidas 4147 = Etymologicum genuinum (AB) α 1271 ed. Lasserre-Livadaras	G0097	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5256
+	125	grec	désactivé	(ἄρσενι βοᾷ δοκιμῳ) Suidas α 4016 = Scholium	G0098	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1521
+T0104	125	francais	actif	(ἄρσενι βοᾷ δοκιμῳ) Suidas α 4016 = Scholium	G0100	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5268
+	128	grec	désactivé	(ἄγαλλε) Photius α 164 = Συναγωγήᴮ α 145	G0101	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1535
+T0105	128	francais	actif	(ἄγαλλε) Photius α 164 = Συναγωγήᴮ α 145	G0101	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5273
+	130-2	grec	désactivé	(ἡδὺ – μανδαλωτόν) Suidas γ 141	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1546
+	130	grec	désactivé	(Γενετυλλίδες) Hesychius γ 343 Γενετυλλίς	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1546
+	131-2	grec	désactivé	(θηλυδριῶδες – μανδαλωτόν) Suidas μ 134	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1549
+	131	grec	désactivé	(θηλυδριῶδες καὶ κατεγλωττισμένον) Suidas κ 912 | Hesychius θ 491 θηλυδριῶδες | (κατεγλωττισμένον) Pollux II.109	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1549
+	132	grec	désactivé	Hesychius μ 224 μανδαλωτόν ≃ Photius μ 86, cf. Photius γ 115	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1553
+	132-3	grec	désactivé	(ὥστ᾽ – γάργαλος) Suidas γ 83 (sed τοῦ μέλους post ἀκροωμένου addito)	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1553
+	133	grec	désactivé	(γάργαλος = γαργαλισμός) Moeris γ 23, cf. Phrynichus Praep. soph. 56.9	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1555
+	134	grec	désactivé	Hesychius η 948 ἥτις· ὅστις (?)	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1558
+	136	grec	désactivé	(ποδαπὸς – πάτρα) Suidas γ 504 | (γύννις) Hesychius γ 1015 γύννις, cf. Phrynichus Praep. soph. 60.19	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1578
+	136-40	grec	désactivé	(τίς ἡ στολή – κοινωνία) Suidas β 110 (δὲ pro δαὶ)	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1578
+T0106	130-2	francais	actif	(ἡδὺ – μανδαλωτόν) Suidas γ 141	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5281
+T0107	130	francais	actif	(Γενετυλλίδες) Hesychius γ 343 Γενετυλλίς	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5281
+T0108	131-2	francais	actif	(θηλυδριῶδες – μανδαλωτόν) Suidas μ 134	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5282
+T0109	131	francais	actif	(θηλυδριῶδες καὶ κατεγλωττισμένον) Suidas κ 912 | Hesychius θ 491 θηλυδριῶδες | (κατεγλωττισμένον) Pollux II.109	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5282
+T0110	132	francais	actif	Hesychius μ 224 μανδαλωτόν ≃ Photius μ 86, cf. Photius γ 115	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5283
+T0111	132-3	francais	actif	(ὥστ᾽ – γάργαλος) Suidas γ 83 (sed τοῦ μέλους post ἀκροωμένου addito)	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5283
+T0112	133	francais	actif	(γάργαλος = γαργαλισμός) Moeris γ 23, cf. Phrynichus Praep. soph. 56.9	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5284
+T0113	134	francais	actif	Hesychius η 948 ἥτις· ὅστις (?)	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5285
+T0114	136	francais	actif	(ποδαπὸς – πάτρα) Suidas γ 504 | (γύννις) Hesychius γ 1015 γύννις, cf. Phrynichus Praep. soph. 60.19	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5287
+T0115	136-40	francais	actif	(τίς ἡ στολή – κοινωνία) Suidas β 110 (δὲ pro δαὶ)	G0103	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5287
+	137	grec	désactivé	(βάρβιτος) Hesychius β 211 βάρβιτος, cf. Photius β 62	G0104	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1583
+	141-2	grec	désactivé	(πότερον – πέος) Suidas π 987	G0104	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1616
+	142	grec	désactivé	(ποῦ τὸ πέος – Λακωνικαί) Suidas λ 63, π 987 (τὸ πέος pro πέος) | Moeris χ 19 χλαῖνα | (Λακωνικαί) Hesychius λ 225 Λακωνικαί ; Photius λ 57 Λακωνικαί ; scholium Vespae 1158-60	G0104	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1632
+T0116	137	francais	actif	(βάρβιτος) Hesychius β 211 βάρβιτος, cf. Photius β 62	G0104	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5291
+T0117	141-2	francais	actif	(πότερον – πέος) Suidas π 987	G0104	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5295
+T0118	142	francais	actif	(ποῦ τὸ πέος – Λακωνικαί) Suidas λ 63, π 987 (τὸ πέος pro πέος) | Moeris χ 19 χλαῖνα | (Λακωνικαί) Hesychius λ 225 Λακωνικαί ; Photius λ 57 Λακωνικαί ; scholium Vespae 1158-60	G0104	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5296
+	146-7	grec	désactivé	Suidas α 1097 (μὲν omisso et δὲ pro δ')	G0105	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1643
+	149-50	grec	désactivé	Michael Apostolius XVIII 41h	G0105	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1647
+T0119	146-7	francais	actif	Suidas α 1097 (μὲν omisso et δὲ pro δ')	G0105	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5304
+T0120	149-50	francais	actif	Michael Apostolius XVIII 41h	G0105	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5307
+	159-61	grec	désactivé	Suidas α 1633 (κ' Ἀνακρ.)	G0109	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1678
+T0121	159-61	francais	actif	Suidas α 1633 (κ' Ἀνακρ.)	G0109	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5333
+	161-2	grec	désactivé	Suidas ε 4049 (Ἀνακρέων, Ἀλκαῖος, οἵπερ ἁρμονίαν ἐχύμισαν)	G0110	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1684
+	162-3	grec	désactivé	(κ' Ἀλκαῖος – Ἰωνικῶς) Suidas ε 989 (sed οἵπερ ἁρμονίαν ἐχύμισαν) ≃ Zonaras 707 ἐμιτροφόρουν	G0110	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1744
+	162	grec	désactivé	Zonaras 942 οἵπερ ἁρμονίαν ἐχύμισαν | (ἐχύμισαν) Hesychius ε 7681 ἐχύμισαν· ἤρτυσαν	G0110	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1744
+	163	grec	désactivé	Suidas ι 495 ἐμιτροφόρουν τε καὶ διεκίνουν Ἰωνικῶς	G0110	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1755
+T0122	161-2	francais	actif	Suidas ε 4049 (Ἀνακρέων, Ἀλκαῖος, οἵπερ ἁρμονίαν ἐχύμισαν)	G0110	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5338
+T0123	162-3	francais	actif	(κ' Ἀλκαῖος – Ἰωνικῶς) Suidas ε 989 (sed οἵπερ ἁρμονίαν ἐχύμισαν) ≃ Zonaras 707 ἐμιτροφόρουν	G0110	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5339
+T0124	162	francais	actif	Zonaras 942 οἵπερ ἁρμονίαν ἐχύμισαν | (ἐχύμισαν) Hesychius ε 7681 ἐχύμισαν· ἤρτυσαν	G0110	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5339
+T0125	163	francais	actif	Suidas ι 495 ἐμιτροφόρουν τε καὶ διεκίνουν Ἰωνικῶς	G0110	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5340
+	168	grec	désactivé	(ὁ Φιλοκλέης αἰσχρὸς = κορυδός) scholium Aves 1295a.α	G0111	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1774
+T0126	168	francais	actif	(ὁ Φιλοκλέης αἰσχρὸς = κορυδός) scholium Aves 1295a.α	G0111	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5350
+	173	grec	désactivé	(βαύ̈ζων – ἦν) Suidas β 192 ≃ Zonaras 379 (sed γὰρ καὶ pro καὶ γὰρ)	G0114	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1820
+T0127	173	francais	actif	(βαύ̈ζων – ἦν) Suidas β 192 ≃ Zonaras 379 (sed γὰρ καὶ pro καὶ γὰρ)	G0114	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5370
+	175	grec	désactivé	(οὐ – παιδεύσεως) Suidas ζ 63	G0115	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1829
+T0128	175	francais	actif	(οὐ – παιδεύσεως) Suidas ζ 63	G0115	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5376
+	176	grec	désactivé	Scholium v. 500 (sed ἀλλ' εἰπεῖν βούλομαι pro ἔα μ' εἰπεῖν)	G0116	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1837
+T0129	176	francais	actif	Scholium v. 500 (sed ἀλλ' εἰπεῖν βούλομαι pro ἔα μ' εἰπεῖν)	G0116	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5381
+	177-80	grec	désactivé	(σοφοῦ – πρὸς σέ) Suidas σ 792	G0118	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1855
+	177-8	grec	désactivé	(σοφοῦ – λόγους) Suidas οι 154	G0118	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1855
+	179	grec	désactivé	Suidas κ 2556	G0118	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1868
+T0130	177-80	francais	actif	(σοφοῦ – πρὸς σέ) Suidas σ 792	G0118	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5392
+T0131	177-8	francais	actif	(σοφοῦ – λόγους) Suidas οι 154	G0118	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5392
+T0132	179	francais	actif	Suidas κ 2556	G0118	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5393
+	192	grec	désactivé	(γυναικόφωνος) Pollux II 111	G0124	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1925
+T0133	192	francais	actif	(γυναικόφωνος) Pollux II 111	G0124	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5432
+	193	grec	désactivé	(ἐποίησάς ποτε) Eustathius 4.9	G0127	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1941
+T0134	193	francais	actif	(ἐποίησάς ποτε) Eustathius 4.9	G0127	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5447
+	195-7	grec	désactivé	(μή νυν – φέρε) Suidas υ 709 (νῦν pro νυν et ἀλλ' omisso)	G0129	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1954
+	198-201	grec	désactivé	(τὰς συμφορὰς – παθήμασιν) Suidas τ 440 (τεχνάσμασι et παθήμασι pro -σιν)	G0129	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1958
+T0135	195-7	francais	actif	(μή νυν – φέρε) Suidas υ 709 (νῦν pro νυν et ἀλλ' omisso)	G0129	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5458
+T0136	198-201	francais	actif	(τὰς συμφορὰς – παθήμασιν) Suidas τ 440 (-σι pro -σιν)	G0129	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5461
+	215-6	grec	désactivé	(ἀποξυρεῖν – ἀφεύειν) Suidas α 4565 (ἀφαύειν pro ἀφεύειν), cf. Scholium ταῦτα δὲ ἔλαβεν ἐκ τῶν Ἰδαίων Κρατίνου (fr. 90 Kassel-Austin) ; Clemens Alexandrinus , Στρώματα VI 26.4 Ἀριστοφάνης δὲ ὁ κωμικὸς ἐν ταῖς πρώταις Θεσμοφοριαζούσαις τὰ ἐκ τῶν Κρατίνου Ἐμπιπραμένων μετήνεγκεν ἔπη.	G0144	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2063
+T0137	215-6	francais	actif	(ἀποξυρεῖν – ἀφεύειν) Suidas α 4565 (ἀφαύειν pro ἀφεύειν), cf. Scholium ταῦτα δὲ ἔλαβεν ἐκ τῶν Ἰδαίων Κρατίνου (fr. 90 Kassel-Austin) ; Clemens Alexandrinus , Στρώματα VI 26.4 Ἀριστοφάνης δὲ ὁ κωμικὸς ἐν ταῖς πρώταις Θεσμοφοριαζούσαις τὰ ἐκ τῶν Κρατίνου Ἐμπιπραμένων μετήνεγκεν ἔπη.	G0144	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5547
+	219-20	grec	désactivé	(χρῆσόν – ξυροδόκης) Pollux X 140 (νῦν omisso)	G0146	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2088
+T0138	219-20	francais	actif	(χρῆσόν – ξυροδόκης) Pollux X 140 (νῦν omisso)	G0146	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5561
+	220	grec	désactivé	(ξυροδόκης) Pollux II 32 ; Eustathius 130.43, 1399.38 ; cf. Scholium	G0147	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2095
+T0139	220	francais	actif	(ξυροδόκης) Pollux II 32 ; Eustathius 130.43, 1399.38 ; cf. Scholium	G0147	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5567
+	223	grec	désactivé	(ἀτταταῖ ἰατταταῖ) Suidas ε 2807	G0151	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2119
+	223	francais	désactivé	(ἀτταταῖ ἰατταταῖ) Suidas ε 2807	G0151	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5589
+	227	grec	désactivé	Suidas η 334 | (ἡμίκραιραν) Hesychius η 496 ἡμίκραιρα ; Etymologicum genuinum (AB) 150 ed. Miller ; Eustathius 710.50, 1127.35 ; Aelius Dionysius η 9	G0154	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2140
+T0140	227	francais	actif	Suidas η 334 | (ἡμίκραιραν) Hesychius η 496 ἡμίκραιρα ; Etymologicum genuinum (AB) 150 ed. Miller ; Eustathius 710.50, 1127.35 ; Aelius Dionysius η 9	G0154	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5608
+	231	grec	désactivé	Etymologicum genuinum (AB) 218 ed. Miller | (μῦ μῦ) Suidas ε 2807 ; cf. Eustathius 723.9 | (τί – καλῶς) Suidas μ 1383 ; Michael Apostolius XVI 60c | (μύζεις) Eustathius 440.23	G0159	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2175
+T0141	231	francais	actif	Etymologicum genuinum (AB) 218 ed. Miller | (μῦ μῦ) Suidas ε 2807 ; cf. Eustathius 723.9 | (τί – καλῶς) Suidas μ 1383 ; Michael Apostolius XVI 60c | (μύζεις) Eustathius 440.23	G0160	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5639
+	232	grec	désactivé	Suidas ψ 105	G0161	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2187
+T0142	232	francais	actif	Suidas ψ 105	G0161	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5644
+	235	grec	désactivé	Suidas κ 1756 Κλεισθένην ὁρῶ	G0165	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2223
+T0143	235	francais	actif	Suidas κ 1756 Κλεισθένην ὁρῶ	G0165	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5665
+	237	grec	désactivé	Suidas δ 205 (sed γέγονα pro γενήσομαι)	G0167	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2236
+T0144	237	francais	actif	Suidas δ 205 (sed γέγονα pro γενήσομαι)	G0167	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5675
+	244-5	grec	désactivé	(τὰ πλεῖστα – ἀσβόλου) Photius α 2946 = Συναγωγήᴮ α 2213 ; Aelius Dionysius α 186	G0172	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2287
+T0145	244-5	francais	actif	(τὰ πλεῖστα – ἀσβόλου) Photius α 2946 = Συναγωγήᴮ α 2213 ; Aelius Dionysius α 186	G0172	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5703
+	245	grec	désactivé	(φεῦ – ἀσβόλου) Suidas α 4132 | (ἄσβολος = ἀσβόλη) Moeris α 17 ≃ Hesychius α 7634 ; cf. Phrynicus Praep. soph 28.1 (ἄσβολος fem.)	G0173	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2294
+	246	grec	désactivé	Suidas τ 903 (sed τὸν pro τὴν) | (αἰθὸς γεγένημαι) Eustathius 83.6, 992.60, 1314.15 | (αἰθὸς) Eustathius 1385.59 | (τράμιν) Hesychius τ 1243 ; Photius τ 415	G0173	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2296
+T0146	245	francais	actif	(φεῦ – ἀσβόλου) Suidas α 4132 | (ἄσβολος = ἀσβόλη) Moeris α 17 ≃ Hesychius α 7634 ; cf. Phrynicus Praep. soph 28.1 (ἄσβολος fem.)	G0173	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5709
+T0147	246	francais	actif	Suidas τ 903 (sed τὸν pro τὴν) | (αἰθὸς γεγένημαι) Eustathius 83.6, 992.60, 1314.15 | (αἰθὸς) Eustathius 1385.59 | (τράμιν) Hesychius τ 1243 ; Photius τ 415	G0173	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5710
+	248	grec	désactivé	(πλυνεῖ) Moeris π 79	G0175	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2337
+T0148	248	francais	actif	(πλυνεῖ) Moeris π 79	G0175	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5720
+	254	grec	désactivé	Suidas π 2114 | (ποσθίου) Photius π 1113 πόσθιον· αἰδοῖον· ἢ (sic) τὴν Ἀφροδίτην ; Hesychius π 3096	G0180	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2377
+T0149	254	francais	actif	Suidas π 2114 | (ποσθίου) Photius π 1113 πόσθιον· αἰδοῖον· ἢ (sic) τὴν Ἀφροδίτην ; Hesychius π 3096	G0180	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5747
+T0150	257-8	francais	actif	(ἡδὶ – φορῶ) Suidas π 1165 (sed ἥδιον pro ἡδὶ)	G0185	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5772
+	257-8	grec	désactivé	(ἡδὶ – φορῶ) Suidas π 1165 (sed ἥδιον pro ἡδὶ)	G0186	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2414
+	258	grec	désactivé	Photius π 690 περίθετος κεφαλή ; Eustathius 1280.63 | (κεφαλὴ περίθετος) Pollux II 35	G0186	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2416
+T0151	258	francais	actif	Photius π 690 περίθετος κεφαλή ; Eustathius 1280.63 | (κεφαλὴ περίθετος) Pollux II 35	G0186	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5778
+	261	grec	désactivé	Suidas ε 135 (sed τουτὶ pro τι) | (ἔγκυκλον – κλινίδος) Suidas κ 1809	G0189	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2436
+T0152	261	francais	actif	Suidas ε 135 (sed τουτὶ pro τι) | (ἔγκυκλον – κλινίδος) Suidas κ 1809	G0190	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5799
+	263	grec	désactivé	Suidas χ 7 χαλαρὰ γοῦν χαίρεις φορῶν ὑποδήματα (sed χαίροις codd. FV)	G0194	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2481
+T0153	263	francais	actif	Suidas χ 7 χαλαρὰ γοῦν χαίρεις φορῶν ὑποδήματα (sed χαίροις codd. FV)	G0194	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5819
+	274	grec	désactivé	(ἄρδην) Hesychius α 7097	G0205	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2566
+T0154	274	francais	actif	(ἄρδην) Hesychius α 7097	G0205	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5879
+	275-6	grec	désactivé	cf. Eustathius 443.37	G0206	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2572
+T0155	275-6	francais	actif	cf. Eustathius 443.37	G0206	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5884
+	277-8	grec	désactivé	(ὡς – φαίνεται) Suidas σ 325 (sed Θεσμοφόρῳ pro Θεσμοφορίῳ)	G0207	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2590
+T0156	277-8	francais	actif	(ὡς – φαίνεται) Suidas σ 325 (sed Θεσμοφόρῳ pro Θεσμοφορίῳ)	G0207	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5891
+	282	grec	désactivé	Photius α 1386 ; Aelius Dionysius α 113	G0208	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2604
+T0157	282	francais	actif	Photius α 1386 ; Aelius Dionysius α 113	G0208	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5901
+	285	grec	désactivé	(πόπαν᾽) Eustathius 437.4	G0209	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2613
+	289	grec	désactivé	(χοῖρον) Euripides, testimonia 4, 18 Kannicht Χοιρίλη	G0209	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2619
+	291	grec	désactivé	(θάληκον) Hesychius θ 50 θάλλικα ; Pollux X 152 θυλάκιον [...] ἐπὶ τοῦ αὐτοῦ δὲ καὶ σακίον, ὅταν φῇ ἐν Θεσμοφοριαζούσαις	G0209	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2637
+	292	grec	désactivé	(τῶν ῥητόρων) Photius ρ 106 ῥήτορα· καὶ τὴν γυναῖκα. Ἀριστοφάνης	G0209	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2707
+T0158	285	francais	actif	(πόπαν᾽) Eustathius 437.4	G0209	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5907
+T0159	289	francais	actif	(χοῖρον) Euripides, testimonia 4, 18 Kannicht Χοιρίλη	G0209	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5911
+T0160	291	francais	actif	(θάληκον) Hesychius θ 50 θάλλικα ; Pollux X 152 θυλάκιον [...] ἐπὶ τοῦ αὐτοῦ δὲ καὶ σακίον, ὅταν φῇ ἐν Θεσμοφοριαζούσαις	G0209	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5913
+T0161	292	francais	actif	(τῶν ῥητόρων) Photius ρ 106 ῥήτορα· καὶ τὴν γυναῖκα. Ἀριστοφάνης	G0209	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5914
+	299	grec	désactivé	(Καλλιγενείᾳ = Δημήτερι) Hesychius κ 472 Καλλιγένειαν ; cf. Photius κ 118 (= fr. Aristophanes 331 Kassel-Austin)	G0210	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2723
+	300	grec	désactivé	(Κουροτρόφῳ = Δημήτηρ) Hesychius κ 3865 κουροτρόφος ; scholium vet. in Hesiodus Opera et dies 227-9	G0210	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2725
+T0162	299	francais	actif	(Καλλιγενείᾳ = Δημήτερι) Hesychius κ 472 Καλλιγένειαν ; cf. Photius κ 118 (= fr. Aristophanes 331 Kassel-Austin)	G0210	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5923
+T0163	300	francais	actif	(Κουροτρόφῳ = Δημήτηρ) Hesychius κ 3865 κουροτρόφος ; scholium vet. in Hesiodus Opera et dies 227-9	G0210	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5924
+	322-4	grec	désactivé	(σύ τε – οἰστροδόνητον) Suidas οι 181 (sed σεμνὲ et ἁλιμέδον omissis)	G0221	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2789
+T0164	322-4	francais	actif	(σύ τε – οἰστροδόνητον) Suidas οι 181 (sed σεμνὲ et ἁλιμέδον omissis)	G0221	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	5979
+	335-7	grec	désactivé	Satyrus Vit. Euripid. (= The Oxyrhynchus Papyri IX 1176) fr. 39 col. XII 8-16 (Εὐριπιδίῳ pro Εὐριπίδῃ (?))	G0231	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2837
+	336	grec	désactivé	('πικηρυκεύεται) Photius ε 1580 ἐπικηρυκεύεται = Συναγωγή ε 682 = Suidas ε 2375 = Etymologicum magnum 360.21 = Etymologicum genuinum (B) ; cf. Hesychius ε 4853	G0231	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2839
+	341	grec	désactivé	Suidas ε 1271 | (προαγωγὸς) Hesychius π 3308 προαγωγός | (ἐνετρύλλισεν) Zonaras 745 οὔ σ' ἐνετρύλλησεν	G0231	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2879
+T0165	335-7	francais	actif	Satyrus Vit. Euripid. (= The Oxyrhynchus Papyri IX 1176) fr. 39 col. XII 8-16 (Εὐριπιδίῳ pro Εὐριπίδῃ (?))	G0231	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6024
+T0166	336	francais	actif	('πικηρυκεύεται) Photius ε 1580 ἐπικηρυκεύεται = Συναγωγή ε 682 = Suidas ε 2375 = Etymologicum magnum 360.21 = Etymologicum genuinum (B) ; cf. Hesychius ε 4853	G0231	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6025
+T0167	341	francais	actif	Suidas ε 1271 | (προαγωγὸς) Hesychius π 3308 προαγωγός | (ἐνετρύλλισεν) Zonaras 745 οὔ σ' ἐνετρύλλησεν	G0231	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6030
+	347-8	grec	désactivé	Suidas χ 394 (sed εἴ pro κεἴ)	G0232	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2896
+T0168	347-8	francais	actif	Suidas χ 394 (sed εἴ pro κεἴ)	G0232	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6039
+	363-4	grec	désactivé	(τἀπόρρητά – λέγουσ᾽) Suidas α 3501 ἀπόρρητά τε τοῖσιν ἐχθροῖσι τοῖς ἡμετέροις λέγουσιν	G0243	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2955
+T0169	363-4	francais	actif	(τἀπόρρητά – λέγουσ᾽) Suidas α 3501 ἀπόρρητά τε τοῖσιν ἐχθροῖσι τοῖς ἡμετέροις λέγουσιν	G0243	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6088
+	369-71	grec	désactivé	(ὥσθ᾽ – οὔσαις) Suidas π 444	G0249	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3006
+T0170	369-71	francais	actif	(ὥσθ᾽ – οὔσαις) Suidas π 444	G0249	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6113
+	373-4	grec	désactivé	Satyrus Vit. Euripid. (= The Oxyrhynchus Papyri IX 1176) fr. 39 col. XII 1 (vid. ad 335-7 ; sed Ἀρ[χίκλ]ει᾽ pro Τιμόκλει᾽, suppl. Hunt) | (Τιμόκλει᾽ – ἐγραμμάτευεν) Suidas ε 2616 (sed ἐπιστάτει pro ἐπεστάτει et ἐγραμμάτευε pro ἐγραμμάτευεν)	G0252	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3024
+	377-8	grec	désactivé	(καὶ χρηματίζειν – παθεῖν) Suidas χ 481 ; Lexicon Vindobonense 190.10	G0252	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3037
+T0171	373-4	francais	actif	Satyrus Vit. Euripid. (= The Oxyrhynchus Papyri IX 1176) fr. 39 col. XII 1 (vid. ad 335-7 ; sed Ἀρ[χίκλ]ει᾽ pro Τιμόκλει᾽, suppl. Hunt) | (Τιμόκλει᾽ – ἐγραμμάτευεν) Suidas ε 2616 (sed ἐπιστάτει pro ἐπεστάτει et ἐγραμμάτευε pro ἐγραμμάτευεν)	G0252	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6128
+T0172	377-8	francais	actif	(καὶ χρηματίζειν – παθεῖν) Suidas χ 481 ; Lexicon Vindobonense 190.10	G0252	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6132
+	380	grec	désactivé	Suid. π 1166 περίθου νῦν τόνδε πρότερον	G0254	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3056
+T0173	380	francais	actif	Suid. π 1166 περίθου νῦν τόνδε πρότερον	G0254	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6144
+	381	grec	désactivé	(χρέμπτεται) Phrynichus Praep. soph. 126.1	G0255	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3060
+T0174	381	francais	actif	(χρέμπτεται) Phrynichus Praep. soph. 126.1	G0255	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6147
+	383-4	grec	désactivé	(φιλοτιμίᾳ – γυναῖκες) Suidas φ 431	G0256	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3070
+	389	grec	désactivé	Suidas ε 2592 | (ἐπισμῇ) Hesychius ε 5195 ἐπισμῇ	G0256	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3077
+	390-4	grec	désactivé	Suidas οι 128 (οἷς θέα pro εἰσὶν θεαταὶ et τραγῳδία pro τραγῳδοὶ)	G0256	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3080
+	390-1	grec	désactivé	scholium Plato Theages 127c (πῶς pro ποῦ et τραγῳδικοὶ pro τραγῳδοὶ καὶ) = scholium Plato Gorgias 457b = scholium Plato Hippias min. 365d | (ποῦ – θεαταὶ) Suidas ε 955 (sed εἰσὶ pro εἰσὶν)	G0256	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3080
+	392	grec	désactivé	(ἀνδρεραστρίας) Pollux III 71 ; Phrynichus Praep. soph. 34.18 ; Eustathius 380.15	G0256	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3088
+	393	grec	désactivé	(οἰνοπίπας) scholium Aves 307	G0256	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3090
+T0175	383-4	francais	actif	(φιλοτιμίᾳ – γυναῖκες) Suidas φ 431	G0256	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6153
+T0176	389	francais	actif	Suidas ε 2592 | (ἐπισμῇ) Hesychius ε 5195 ἐπισμῇ	G0256	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6158
+T0177	390-4	francais	actif	Suidas οι 128 (οἷς θέα pro εἰσὶν θεαταὶ et τραγῳδία pro τραγῳδοὶ)	G0256	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6159
+T0178	390-1	francais	actif	scholium Plato Theages 127c (πῶς pro ποῦ et τραγῳδικοὶ pro τραγῳδοὶ καὶ) = scholium Plato Gorgias 457b = scholium Plato Hippias min. 365d | (ποῦ – θεαταὶ) Suidas ε 955 (sed εἰσὶ pro εἰσὶν)	G0256	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6159
+T0179	392	francais	actif	(ἀνδρεραστρίας) Pollux III 71 ; Phrynichus Praep. soph. 34.18 ; Eustathius 380.15	G0256	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6162
+T0180	393	francais	actif	(οἰνοπίπας) scholium Aves 307	G0256	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6163
+	395-6	grec	désactivé	(ὥστ᾽ εὐθὺς – ἡμᾶς) Suidas ι 275	G0257	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3097
+	395	grec	désactivé	(ἰκρίων) Hesychius ι 501 ἴκρια	G0257	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3097
+T0181	395-6	francais	actif	(ὥστ᾽ εὐθὺς – ἡμᾶς) Suidas ι 275	G0257	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6168
+T0182	395	francais	actif	(ἰκρίων) Hesychius ι 501 ἴκρια	G0257	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6168
+	404	grec	désactivé	(τῷ Κορινθίῳ ξένῳ) Hesychius κ 3629 Κορίνθιος ξένος	G0258	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3121
+T0183	404	francais	actif	(τῷ Κορινθίῳ ξένῳ) Hesychius κ 3629 Κορίνθιος ξένος	G0258	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6180
+	413	grec	désactivé	Menandros Monostich. 191 (= Euripides fr. 804.3 ed. Kannicht) ; Michael Apostolius V 93b	G0259	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3161
+T0184	413	francais	actif	Menandros Monostich. 191 (= Euripides fr. 804.3 ed. Kannicht) ; Michael Apostolius V 93b	G0259	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6192
+	417	grec	désactivé	(μορμολυκεῖα) Etymologicum magnum 590.53	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3177
+	421-8	grec	désactivé	(οἱ γὰρ ἄνδρες – ἐξαψαμένους) Suidas λ 54 (αὐτοὶ, τρεῖς et ᾡκότριψ Εὐριπίδης omissis, Λακωνίκα pro Λακωνίκ᾽, θριπηδέστατ᾽ pro θριπήδεστ᾽ et σφραγῖδα pro σφραγίδια)	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3194
+	421-7	grec	désactivé	(οἱ γὰρ ἄνδρες – θριπήδεστ᾽) Suidas κ 159 (αὐτοὶ et ᾡκότριψ Εὐριπίδης omissis, Λακωνίκα pro Λακωνίκ᾽ et θριπηδέστατ᾽ pro θριπήδεστ᾽)	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3194
+	421-7	grec	désactivé	(οἱ γὰρ ἄνδρες – θριπήδεστ᾽)	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3194
+	422	grec	désactivé	(κακοηθέστατα) Eustathius 974.37, 1108.25, 1603.52	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3196
+	423	grec	désactivé	(γομφίους) Phrynichus Praep. soph. 61.1	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3198
+	426	grec	désactivé	(οἰκότριψ = οἰκοτραφής) Moeris ο 25 ; (ᾡκότριψ) Hesychius ο 265-266 ; Aelius Dionysius ο 8-9	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3203
+	428-9	grec	désactivé	(ἐμοὶ – ἁμωσγέπως) Suidas κ 2771 (τινα pro τιν᾽ ἡμᾶς)	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3207
+	429	grec	désactivé	(κυρκανᾶν) Photius κ 1254 κυρκανᾶν = Hesychius κ 4691 κυρκανᾷ ; Eustathius 1213.50 | (ἁμωσγέπως) Hesychius α 4182 ἁμωσγέπως ; Συναγωγή α 449 = Suidas α 1645	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3209
+	432	grec	désactivé	(μετὰ τῆς γραμματέως συγγράψομαι) Eustathius 1484.53 | (τῆς γραμματέως) Pollux IV 19	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3217
+T0185	417	francais	actif	(μορμολυκεῖα) Etymologicum magnum 590.53	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6199
+T0186	421-8	francais	actif	(οἱ γὰρ ἄνδρες – ἐξαψαμένους) Suidas λ 54 (αὐτοὶ, τρεῖς et ᾡκότριψ Εὐριπίδης omissis, Λακωνίκα pro Λακωνίκ᾽, θριπηδέστατ᾽ pro θριπήδεστ᾽ et σφραγῖδα pro σφραγίδια)	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6203
+T0187	421-7	francais	actif	(οἱ γὰρ ἄνδρες – θριπήδεστ᾽) Suidas κ 159 (αὐτοὶ et ᾡκότριψ Εὐριπίδης omissis, Λακωνίκα pro Λακωνίκ᾽ et θριπηδέστατ᾽ pro θριπήδεστ᾽)	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6203
+T0188	421-7	francais	actif	(οἱ γὰρ ἄνδρες – θριπήδεστ᾽)	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6203
+T0189	422	francais	actif	(κακοηθέστατα) Eustathius 974.37, 1108.25, 1603.52	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6204
+T0190	423	francais	actif	(γομφίους) Phrynichus Praep. soph. 61.1	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6205
+T0191	426	francais	actif	(οἰκότριψ = οἰκοτραφής) Moeris ο 25 ; (ᾡκότριψ) Hesychius ο 265-266 ; Aelius Dionysius ο 8-9	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6208
+T0192	428-9	francais	actif	(ἐμοὶ – ἁμωσγέπως) Suidas κ 2771 (τινα pro τιν᾽ ἡμᾶς)	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6210
+T0193	429	francais	actif	(κυρκανᾶν) Photius κ 1254 κυρκανᾶν = Hesychius κ 4691 κυρκανᾷ ; Eustathius 1213.50 | (ἁμωσγέπως) Hesychius α 4182 ἁμωσγέπως ; Συναγωγή α 449 = Suidas α 1645	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6211
+T0194	432	francais	actif	(μετὰ τῆς γραμματέως συγγράψομαι) Eustathius 1484.53 | (τῆς γραμματέως) Pollux IV 19	G0260	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6214
+	437-9	grec	désactivé	(πάσας – ἀνηῦρεν) Suidas ε 22 πάσας δ' ἰδέας ἐξήτασε πάντα δ' ἐβάστασε φρενί, πυκνῶς τε ποικίλως λόγους ἀνεῦρεν	G0265	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3244
+T0195	437-9	francais	actif	(πάσας – ἀνηῦρεν) Suidas ε 22 πάσας δ' ἰδέας ἐξήτασε πάντα δ' ἐβάστασε φρενί, πυκνῶς τε ποικίλως λόγους ἀνεῦρεν	G0265	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6235
+	438	grec	désactivé	(πυκνῶς) Hesychius π 4335 πυκνῶς	G0266	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3250
+T0196	438	francais	actif	(πυκνῶς) Hesychius π 4335 πυκνῶς	G0266	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6239
+	442	grec	désactivé	(ἄντικρυς) Photius α 2210 ἄντικρυς ; Aelius Dionysius α 107	G0273	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3284
+T0197	442	francais	actif	(ἄντικρυς) Photius α 2210 ἄντικρυς ; Aelius Dionysius α 107	G0273	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6267
+	446	grec	désactivé	Hesychius ε 239 ἔγκυος· ἐγγαστρωμένη γυνή	G0274	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3295
+	447-9	grec	désactivé	(μόλις – τέως μὲν οὖν ἀλλ᾽) scholiumᵀ Plato Hipparch. 229d (μυρίναις pro μυρρίναις et μέν οὐκ ἄν pro μὲν οὖν ἀλλ᾽)	G0274	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3306
+	448	grec	désactivé	(μυρρίνη = μυρσίνη) Moeris μ 23	G0274	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3308
+	449	grec	désactivé	Suidas τ 321 | (ἡμικάκως) Pollux VI 161	G0274	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3311
+T0198	446	francais	actif	Hesychius ε 239 ἔγκυος· ἐγγαστρωμένη γυνή	G0274	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6275
+T0199	447-9	francais	actif	(μόλις – τέως μὲν οὖν ἀλλ᾽) scholiumᵀ Plato Hipparch. 229d (μυρίναις pro μυρρίναις et μέν οὐκ ἄν pro μὲν οὖν ἀλλ᾽)	G0274	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6276
+T0200	448	francais	actif	(μυρρίνη = μυρσίνη) Moeris μ 23	G0274	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6277
+T0201	449	francais	actif	Suidas τ 321 | (ἡμικάκως) Pollux VI 161	G0274	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6278
+	453-6	grec	désactivé	Aulus Gellius XV 20.7	G0275	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3344
+	455-6	grec	désactivé	Plut. Moral., Compar. Arist. et Menandr. (853c)	G0275	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3347
+	457-8	grec	désactivé	(δεῖ γὰρ – εἴκοσιν) Suidas σ 1591 (sed ἀνδράσι et εἴκοσι pro ἀνδράσιν et εἴκοσιν)	G0275	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3549
+	458	grec	désactivé	Athenaeus XV 680c | (στεφάνους συνθηματιαίους) Pollux VII 200 | (συνθηματιαίους) Hesychius σ 2624 συνθηματιαῖοι	G0275	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3551
+T0202	453-6	francais	actif	Aulus Gellius XV 20.7	G0275	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6286
+T0203	455-6	francais	actif	Plut. Moral., Compar. Arist. et Menandr. (853c)	G0275	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6288
+T0204	457-8	francais	actif	(δεῖ γὰρ – εἴκοσιν) Suidas σ 1591 (sed ἀνδράσι et εἴκοσι pro ἀνδράσιν et εἴκοσιν)	G0275	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6289
+T0205	458	francais	actif	Athenaeus XV 680c | (στεφάνους συνθηματιαίους) Pollux VII 200 | (συνθηματιαίους) Hesychius σ 2624 συνθηματιαῖοι	G0275	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6290
+	459-60	grec	désactivé	(ἕτερον – ἀναπέφηνεν) Suidas λ 441 (ἀναπέφηνε pro ἀναπέφηνεν)	G0276	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3561
+T0206	459-60	francais	actif	(ἕτερον – ἀναπέφηνεν) Suidas λ 441 (ἀναπέφηνε pro ἀναπέφηνεν)	G0276	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6295
+	466	grec	désactivé	(ὀξυθυμεῖσθαι) Photius ο 380 ὀξυθυμεῖσθαι	G0286	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3610
+	468	grec	désactivé	(θαυμάσιον = θαυμαστόν) Moeris θ 16 ≃ Hesychius θ 146 θαυμάσιος	G0286	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3613
+	469	grec	désactivé	Suidas ο 330 (sed ἐγώ pro ἔγωγ᾽) ; cf. (ὀναίμην) Hesychius ο 852 ὀναίμην ; Συναγωγή ο 162 ὀναίμην = Photius ο 332	G0286	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3615
+	470	grec	désactivé	Suidas μ 328 (τἄνδρ᾽ pro τὸν ἄνδρ᾽)	G0286	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3617
+	473-4	grec	désactivé	(τί ταῦτ᾽ – φέρομεν) Suidas τ 683	G0286	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3623
+T0207	466	francais	actif	(ὀξυθυμεῖσθαι) Photius ο 380 ὀξυθυμεῖσθαι	G0286	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6336
+T0208	468	francais	actif	(θαυμάσιον = θαυμαστόν) Moeris θ 16 ≃ Hesychius θ 146 θαυμάσιος	G0286	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6338
+T0209	469	francais	actif	Suidas ο 330 (sed ἐγώ pro ἔγωγ᾽) ; cf. (ὀναίμην) Hesychius ο 852 ὀναίμην ; Συναγωγή ο 162 ὀναίμην = Photius ο 332	G0286	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6339
+T0210	470	francais	actif	Suidas μ 328 (τἄνδρ᾽ pro τὸν ἄνδρ᾽)	G0286	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6340
+T0211	473-4	francais	actif	(τί ταῦτ᾽ – φέρομεν) Suidas τ 683	G0286	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6343
+	480	grec	désactivé	Pollux III 42 (οὗτος pro ὅσπερ et διεκόρησεν cod. A pro διεκόρευσεν) | (διεκόρησεν) Hesychius δ 1558 διεκόρησε	G0287	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3645
+	481	grec	désactivé	Suidas ε 520 ; Zonaras 669 ἔκνυεν; Eustathius 1746.6 (μοὔκνυεν ἕλκων pro μου ᾽κνυεν ἐλθὼν)	G0287	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3647
+	484	grec	désactivé	Eustathius 1746.45 | (στρόφος) Eustathius 503.20	G0287	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3651
+	486	grec	désactivé	Suidas σ 1712 | (κεδρίδας) Hesychius κ 1980 κεδρίδες ; Photius κ 1980 κ 517	G0287	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3654
+	489	grec	désactivé	(Ἀγυιᾶ) Stephanus Byzantinus 22.15 ; cf. Moeris α 13	G0287	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3684
+T0212	480	francais	actif	Pollux III 42 (οὗτος pro ὅσπερ et διεκόρησεν cod. A pro διεκόρευσεν) | (διεκόρησεν) Hesychius δ 1558 διεκόρησε	G0287	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6353
+T0213	481	francais	actif	Suidas ε 520 ; Zonaras 669 ἔκνυεν; Eustathius 1746.6 (μοὔκνυεν ἕλκων pro μου ᾽κνυεν ἐλθὼν)	G0287	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6354
+T0214	484	francais	actif	Eustathius 1746.45 | (στρόφος) Eustathius 503.20	G0287	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6357
+T0215	486	francais	actif	Suidas σ 1712 | (κεδρίδας) Hesychius κ 1980 κεδρίδες ; Photius κ 1980 κ 517	G0287	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6359
+T0216	489	francais	actif	(Ἀγυιᾶ) Stephanus Byzantinus 22.15 ; cf. Moeris α 13	G0287	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6362
+	493-4	grec	désactivé	Suidas λ 434 Ληκώμεθα: κινώμεθα. Ἀριστοφάνης: μάλισθ' ὅταν ὑπό του ληκώμεθα τὴν νύχθ' ὅλην. Post νύχθ' add ὅλην Suid. (reminiscentia Pherecratis ? cf. Photius λ 254)	G0288	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3711
+T0217	493-4	francais	actif	Suidas λ 434 Ληκώμεθα: κινώμεθα. Ἀριστοφάνης: μάλισθ' ὅταν ὑπό του ληκώμεθα τὴν νύχθ' ὅλην. Post νύχθ' add ὅλην Suid. (reminiscentia Pherecratis ? cf. Photius λ 254)	G0288	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6370
+	504	grec	désactivé	(ὠκυτόκι᾽) Pollux II 7 ; Phrynichus Praep. soph. 129.3	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3785
+	506	grec	désactivé	(κηρίῳ βεβυσμένον) Hesychius κ 2549 κηρίῳ βύσασα ; Photius κ 675 κηρίῳ βῦσαι	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3788
+	509	grec	désactivé	(τὸ γὰρ ἦτρον – ἐλάκτισεν) Suidas η 637 ; Zonaras 1012 ἦτρον | (ἦτρον) Moeris η 14	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3792
+	514-6	grec	désactivé	Suid. λ 271 ≃ Suid. π 2114	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3799
+	514	grec	désactivé	Pollux IX 131 (λέων² omisso et αὐτὸ ἔκμαγμα pro αὐτέκμαγμα) ; Eustathius 1857.10, 462.40 ; cf. Aelius Dionysius ε 26	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3799
+	515-6	grec	désactivé	(πόσθιον – κύτταρον) Suidas κ 2787	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3801
+	516	grec	désactivé	(στρεβλὸν) Hesychius σ 1977 στρεβλὸν | (κύτταρον) Hesychius κ 4747 ; cf. Photius κ 1270	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3805
+T0218	504	francais	actif	(ὠκυτόκι᾽) Pollux II 7 ; Phrynichus Praep. soph. 129.3	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6382
+T0219	506	francais	actif	(κηρίῳ βεβυσμένον) Hesychius κ 2549 κηρίῳ βύσασα ; Photius κ 675 κηρίῳ βῦσαι	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6384
+T0220	509	francais	actif	(τὸ γὰρ ἦτρον – ἐλάκτισεν) Suidas η 637 ; Zonaras 1012 ἦτρον | (ἦτρον) Moeris η 14	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6387
+T0221	514-6	francais	actif	Suid. λ 271 ≃ Suid. π 2114	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6392
+T0222	514	francais	actif	Pollux IX 131 (λέων² omisso et αὐτὸ ἔκμαγμα pro αὐτέκμαγμα) ; Eustathius 1857.10, 462.40 ; cf. Aelius Dionysius ε 26	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6392
+T0223	515-6	francais	actif	(πόσθιον – κύτταρον) Suidas κ 2787	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6393
+T0224	516	francais	actif	(στρεβλὸν) Hesychius σ 1977 στρεβλὸν | (κύτταρον) Hesychius κ 4747 ; cf. Photius κ 1270	G0289	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6394
+	527-30	grec	désactivé	Suidas α 1073	G0298	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3852
+	528-30	grec	désactivé	Joannes Stobaeus III 13.29	G0299	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3874
+T0225	527-30	francais	actif	Suidas α 1073	G0299	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6438
+T0226	528-30	francais	actif	Joannes Stobaeus III 13.29	G0300	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6442
+	531-2	grec	désactivé	Suidas α 1349 (sed ἄλλαι pro ἄρ᾽ εἰ)	G0303	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3912
+T0227	531-2	francais	actif	Suidas α 1349 (sed ἄλλαι pro ἄρ᾽ εἰ)	G0303	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6456
+	536-7	grec	désactivé	(εἰ μὲν – λαβοῦσαι) scholiumᵇᵀ Homerus Il. I 135-7 (ἔστι τις pro τις ἔστιν et αὐταί omisso)	G0304	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3938
+T0228	536-7	francais	actif	(εἰ μὲν – λαβοῦσαι) scholiumᵇᵀ Homerus Il. I 135-7 (ἔστι τις pro τις ἔστιν et αὐταί omisso)	G0304	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6466
+	554	grec	désactivé	(ᾔδησθ᾽) Etymologicum genuinum (A) ᾔδεισθα	G0310	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4004
+T0229	554	francais	actif	(ᾔδησθ᾽) Etymologicum genuinum (A) ᾔδεισθα	G0310	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6510
+	557	grec	désactivé	(σιφωνίζομεν τὸν σῖτον) Suidas σ 512 | (σιφωνίζομεν) Pollux VI 19	G0311	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4051
+T0230	557	francais	actif	(σιφωνίζομεν τὸν σῖτον) Suidas σ 512 | (σιφωνίζομεν) Pollux VI 19	G0311	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6517
+	560	grec	désactivé	Suidas κ 996 (ἑτέρα pro γυνὴ et κατεσπόδησε vel κατεσπόδωσεν)	G0315	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4113
+T0231	560	francais	actif	Suidas κ 996 (ἑτέρα pro γυνὴ et κατεσπόδησε vel κατεσπόδωσεν)	G0315	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6539
+	566	grec	désactivé	Suidas κ 730 (sed καταπροίξῃ pro καταπροίξει)	G0320	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4146
+	567	grec	désactivé	(ἐκποκιῶ σου τὰς ποκάδας) Suidas ε 588 (ἐκπιῶ cod. A) ; Zonaras 672 ἐκποκιῶ | (ἐκποκιῶ) Heschius ε 1637 ἐκποκιῶ ; Etymologicum magnum 323.25 | (ποκάδας) Hesychius π 2750 ποκάδες = Photius π 1010 π{λ}οκάδες	G0320	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4148
+T0232	566	francais	actif	Suidas κ 730 (sed καταπροίξῃ pro καταπροίξει)	G0320	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6567
+T0233	567	francais	actif	(ἐκποκιῶ σου τὰς ποκάδας) Suidas ε 588 (ἐκπιῶ cod. A) ; Zonaras 672 ἐκποκιῶ | (ἐκποκιῶ) Heschius ε 1637 ἐκποκιῶ ; Etymologicum magnum 323.25 | (ποκάδας) Hesychius π 2750 ποκάδες = Photius π 1010 π{λ}οκάδες	G0321	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6573
+	570	grec	désactivé	(χεσεῖν) Epimerismi alphabetici in Homerum (ed. Cramer) ε 201	G0327	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4195
+T0234	570	francais	actif	(χεσεῖν) Epimerismi alphabetici in Homerum (ed. Cramer) ε 201	G0327	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6603
+	571-2	grec	désactivé	(πρὶν οὖν – πυθώμεθ᾽) Suidas ο 292 (κοσμίως omisso)	G0328	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4249
+T0235	571-2	francais	actif	(πρὶν οὖν – πυθώμεθ᾽) Suidas ο 292 (κοσμίως omisso)	G0328	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6608
+	574	grec	désactivé	(ξυγγενεῖς τοὐμοῦ τρόπου) Suidas ξ 83	G0329	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4256
+	576	grec	désactivé	Suidas π 2541 προξενῶ θ' ὑμᾶς ἀεί	G0329	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4259
+T0236	574	francais	actif	(ξυγγενεῖς τοὐμοῦ τρόπου) Suidas ξ 83	G0329	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6615
+T0237	576	francais	actif	Suidas π 2541 προξενῶ θ' ὑμᾶς ἀεί	G0329	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6617
+	598	grec	désactivé	(ἐλινύειν) Hesychius ε 2095 ; cf. Moeris ε 61 (ἐλινύων = ἀναπαυόμενος) ~ Hesychius ε 2097	G0338	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4333
+	601-2	grec	désactivé	Suidas π 2540	G0338	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4337
+T0238	598	francais	actif	(ἐλινύειν) Hesychius ε 2095, 2097 ; cf. Moeris ε 61 (ἐλινύων = ἀναπαυόμενος)	G0338	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6675
+T0239	601-2	francais	actif	Suidas π 2540	G0338	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6679
+	616	grec	désactivé	Suidas σ 1163 (χθὲς γὰρ pro γάρ ἐχθὲς)	G0354	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4456
+T0240	616	francais	actif	Suidas σ 1163 (χθὲς γὰρ pro γάρ ἐχθὲς)	G0354	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6764
+	620	grec	désactivé	(Κοθωκιδῶν) Photius κ 859 Κοθωκίδαι (ap Scholium) ~ Hesychius κ 3218	G0358	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4492
+T0241	620	francais	actif	(Κοθωκιδῶν) Photius κ 859 Κοθωκίδαι (ap Scholium) ~ Hesychius κ 3218	G0358	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6786
+	630-1	grec	désactivé	Suidas π 2563 (sed προπίνομεν pro προὐ- cod. V)	G0367	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4549
+T0242	630-1	francais	actif	Suidas π 2563 (sed προπίνομεν pro προὐ- cod. V)	G0367	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6837
+	633	grec	désactivé	Pollux X 45 ἐν Πολυίδῳ (sic) Ἀριετοφάνης· σκάφιον Ξένυλλ᾽ ἤτησεν· οὐ γὰρ ἦν ἁμίς | Photius σ 286 σκάφιον	G0371	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4570
+T0243	633	francais	actif	Pollux X 45 ἐν Πολυίδῳ (sic) Ἀριετοφάνης· σκάφιον Ξένυλλ᾽ ἤτησεν· οὐ γὰρ ἦν ἁμίς | Photius σ 286 σκάφιον	G0371	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	6857
+	641	grec	désactivé	(στερίφη) Hesychius σ 1769 στερίφη· στεῖρα, μὴ τεκοῦσα, μηδὲ τίκτουσα = Photius σ 532 ; cf. Moeris σ 46 (στερίφη = στερρά)	G0377	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	500
+T0244	641	francais	actif	(στερίφη) Hesychius σ 1769 στερίφη· στεῖρα, μὴ τεκοῦσα, μηδὲ τίκτουσα = Photius σ 532 ; cf. Moeris σ 46 (στερίφη = στερρά)	G0377	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5593
+T0001	647-8	grec	actif	Suidas ι 640	G0384	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	620
+T0002	659	grec	actif	(εἶα δὴ) Hesychius ε 8 ἔα δή· ἄγε δή = Photius ε 1 = Συναγωγή ε 1 = Suidas ε 3	G0390	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	703
+T0003	696-7	grec	actif	(γυναῖκες – τροπαῖον) Gregor. Corinth. p.20-22 cf. schol.ᴬˡᵈ Plutus 453c	G0418	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	852
+T0004	702	grec	actif	(ἅπαντα pro ἅπαν γὰρ ἐστὶν – κἀναισχυντίας) Suidas α 2902 (sed πλέα pro ἔργα) ; Corpus paroemiographorum Graecorum, Appendices, I, 35 (sed ἔργα omisso) ; Laurentiamus LVIII 24 p. 40 (ed. Cohn) (sed δοῦλα pro ἔργα)	G0422	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	875
+T0005	710-3	grec	actif	Suidas η 170 (sed λήψῃ pro λήψει)	G0428	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1012
+T0006	710	grec	actif	Photius η 88 ἥκειν· ἀντὶ τοῦ ἥκων	G0428	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1012
+T0007	729	grec	actif	(θυμάλωπα) Hesychius θ 862 θυμάλωψ ; cf. Photius θ 256 Θυμάλωψ, Hesychius θ 861	G0441	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1225
+T0008	730-1	grec	actif	(σὺ δὲ – ταχέως) Suidas κ 2408	G0442	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1231
+T0009	731	grec	actif	(Κρητικὸν) Hesychius κ 4087 Κρητικόν· ἱματίδιον λεπτὸν καὶ βραχύ	G0442	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1231
+T0010	734	grec	actif	(Περσικὰς) Eustathius 1522.12	G0443	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1245
+T0011	735-7	grec	actif	Suidas θ 251 (ὦ et αὖ omissis, καλόν et δὲ pro ἀγαθόν et δ᾽)	G0443	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1257
+T0012	735	grec	actif	Eustathius 1441.23 ; Etymologicum Symeonis α 241 (ed. Lasserre-Livadaras) | (ποτίσταται) Etymologicum magnum 31.13	G0443	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1257
+T0013	742	grec	actif	(ἤνεγκον) Antiatticista (ed. Bekker) 98.11 ; Phrynichus Praep. soph. 73.1	G0447	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1379
+T0014	745	grec	actif	(τυννοῦτο) Photius τ 552 τυννοῦτο ~ Hesychius τ 1645	G0451	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1419
+T0015	747	grec	actif	Suidas δ 1168 (καὶ omisso)	G0453	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1438
+T0016	749	grec	actif	(ἐμπίμπρατε) Hesychius ε 2458 ἐμπίπραται ~ Suidas ε 1018 ~ Zonaras 709	G0456	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1460
+T0017	754	grec	actif	Photius σ 850 σφαγεῖον· [...] περισπᾶται ἡ δευτέρα συλλαβή	G0459	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1478
+T0018	769-75	grec	actif	Suidas π 45 (οἶδα δ' pro οἶδ᾽, πότερον pro πόρον et γ' ἔκειντο pro γένοιντ᾽ ἄν)	G0467	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1605
+T0019	770-1	grec	actif	Suidas π 1702	G0467	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1606
+T0020	777	grec	actif	Suidas π 2064	G0469	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1658
+T0021	778-80	grec	actif	(πινάκων – μόχθων) Pollux X 58 (ἄγε δὴ et δέλτοι omissis)	G0469	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1659
+T0022	778-9	grec	actif	Suidas σ 742	G0469	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1659
+T0023	800, 810	grec	actif	(βελτίους = βελτίονες) Moeris β 8	G0474	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1747
+T0024	805	grec	actif	(Σαλαβακχοῦς) Hésychius (σ 88) Σαλαβακχώ· πόρνης ὄνομα. ἀπὸ δὲ ταύτης καὶ τὰς καταφερεῖς εἰς τὰ ἀφροδίσια οὕτως ἔλεγον Ἀττικοί	G0475	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1765
+T0025	808-9	grec	actif	(τις βουλευτής – βουλείαν) Suidas β 431 (ἐστι pro ἐστιν et ἀμείνων omisso)	G0476	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1807
+T0026	809	grec	actif	(παραδοὺς ἑτέρῳ τὴν βουλείαν) Antiatticista (ed. Bekker) 84.30 | (βουλείαν) Harpocration B 19 ; β Photius β 233 βουλία ; Hesychius β 921 βουλεῖα	G0476	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1819
+T0027	816	grec	actif	(γάστριδας) Photius γ 40 γάστρις = Suidas γ 72 ; cf. Aelius Dionysius γ 3	G0477	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1859
+T0028	822	grec	actif	Pollux VII 35 κανὼν ἱστοῦ τὸ καλούμενον ἀντίον	G0478	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1925
+T0029	834	grec	actif	(Στηνίοισι) Suidas σ 1089 Στήνια καὶ Σκίρα (= Scholium) ; Hesychius σ 1825 στήνια	G0480	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1982
+T0030	838	grec	actif	(σκάφιον ἀποκεκαρμένην) Photius σ 291 σκάφιον ἀποκεκαρμένην ; cf. Hesychius σ 879 σκάφιον ; Photius σ 292 (≃ Scholium) ; Eustathius 907.40, 1292.61 ; Aelius Dionysius σ 23	G0480	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1989
+T0031	846	grec	actif	Suidas ι 323 ~ Zonaras 1103 ἰλλός | (ἰλλός) Pollux II 52 ; Eustathius 768.9 ; Aelius Dionysius ι 6 ; cf. Moeris ι 21 (ἰλλόν = στραβόν) ; Hesychius ι 578 ἰλλός ; Hesychius η 257 (ἠίλλοντο = ἐστράβιζον)	G0482	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2109
+T0032	852	grec	actif	Suidas κ 2534 | (κοικύλλεις) Hesychius κ 3232 κοικύλλειν ~ Photius κ 860	G0483	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2125
+T0033	861	grec	actif	(Φρυνώνδας) Suidas φ 700 ; Συναγωγή φ 211 Φρυνώνδας ~ Hesychius φ 938	G0487	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2294
+T0034	863	grec	actif	Suidas γ 496 γυναίκισις et Zonaras 459 πρὶν τῆς ἑτέρας γυναικίσεως δίκην δοῦναι	G0489	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2317
+T0035	868	grec	actif	Suidas τ 648	G0493	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2350
+T0036	869	grec	actif	(αἰκάλλει τι καρδίαν ἐμήν) Suidas αι 161 ; Zonaras 91 (τι omisso)	G0494	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2355
+T0037	870	grec	actif	Gregor. Corinth. p.14-15 (= scholium^(Mosch.) Euripides, Hecub. 225) (sed ἡμέρας pro ἐλπίδος) ; Suidas ψ 62 | (μὴ ψεῦσον) Antiatticista (ed. Bekker) 107.31	G0494	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2356
+T0038	878	grec	actif	Suidas οι 1 ὦ δύστηνος, οἷ πεπλώκαμεν;	G0500	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2449
+T0039	882	grec	actif	(ναυττιᾶν = ναυσιᾶν) Moeris ν 9	G0503	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2471
+T0040	902	grec	actif	(στρέψον ἀνταυγεῖς κόρας) Suidas α 2617 | (ἀνταυγεῖς κόρας) Photius α 2059 ἀνταυγεῖς κόρας	G0515	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2724
+T0041	904	grec	actif	Antiatticista (ed. Bekker) 83.9 ; cf. Hesychius α 8572 ἀφασία	G0517	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2741
+T0042	910	grec	actif	Suidas ι 778 (sed Μενέλεων pro Μενέλαον, ὄσον pro ὅσα γ᾽ et ἰφύων pro ἀφύων)	G0522	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2779
+T0043	912	grec	actif	(ἐσχάρας) Photius ε 2044 ἐσχάρας ⊂ Hesychius ε 6447 ἐσχάραι	G0524	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2824
+T0044	922	grec	actif	(ᾐγυπτιάζετ᾽) Συναγωγήᴮ α 494 αἰγυπτιάζειν = Photius α 518 ⊂ Suidas αι 75	G0529	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2883
+T0045	926	grec	actif	(ἤνπερ ἐμπνέω) Suidas η 379 (ἤν pro ἤνπερ)	G0532	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2906
+T0046	928	grec	actif	Suidas α 4475, μ 978 ; Eustathius 760.44 ; scholium^(RV) Vespae 175b	G0533	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2913
+T0047	931	grec	actif	(σανίδι) Photius σ 68 σανίς, σ 65 σανίδα ; Hesychius σ 169 σανίς ; Aelius Dionysius σ 7	G0534	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2928
+T0048	935	grec	actif	Suidas ι 691 ὀλίγου ταύτην ἱστιορράφος | (ἱστιορράφος) Pollux VII 161	G0535	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2937
+T0049	940	grec	actif	(πρὸς τῇ σανίδι δεῖν) Hesychius δ 926 δῆσαι πρὸς σανίδι· Ἀττικῶς· βασανίσαι ἐν τῷ δεσμωτηρίῳ	G0538	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2992
+T0050	942	grec	actif	Suidas ε 3215 | (ἑστιῶν) Hesychius ε 6411 ἑστιῶν· ἀριστοποιῶν = Photius ε 2031 = Συναγωγή ε 875 = Suidas ε 3227 ; cf. Phrynichus Praep. soph. 66.7	G0538	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2994
+T0051	945	grec	actif	(ἰαππαπαιάξ) Suidas ε 2807	G0540	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3105
+T0052	947	grec	actif	(ὅταν – ἀνέχωμεν) Suidas α 2364 (θεαῖν codd. GFS^(a.c.) vel θεῶν codd. ATS^(p.c) vel θεεῖν cod. I vel θεαῖνων cod. M pro θεοῖν)	G0541	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3131
+T0053	968	grec	actif	(εὐκύκλου) Hesychius ε 6929 εὔκυκλος· εὔχωρος = Photius ε 2236	G0557	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3234
+T0054	973	grec	actif	(τελείαν) Hesychius τ 400 Τελεία	G0563	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3259
+T0055	986	grec	actif	Suidas τ 789	G0577	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3320
+T0056	1049	grec	actif	(παρουσίᾳ) Moeris π 14	G0637	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4210
+T0057	1059	grec	actif	Suidas η 686 (ἐπικοκκάστρια codd. GM^(a.c.) vel ἐπικοκάστρια cod. I vel ἐπικαγχάστρια cod. A vel ἐπικαχάστρια codd. FV^(mg.) vel ἐπικοστράτ textu V) | (ἀντῳδὸς ἐπικοκκάστρια) Eustathius 1761.26 ἐκτίθεται καινοφώνους λέξεις οἷον [ ... ] καὶ τὸ ἐπικοκκάζειν ὕβρει ἤ κατά τινας ἐπιμηκάζειν, ὃθεν παρὰ Ἀριστοφάνει τὸ ‘ἀοιδὸς ἐπικοκκάστρια'	G0646	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4260
+T0058	1066-8	grec	actif	(ὡς μακρὸν – αἰθέρος) Suidas ι 531 ~ Zonaras 1117	G0649	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4330
+T0059	1067	grec	actif	(νῶτα) Moeris ν 6	G0649	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4331
+T0060	1067-8	grec	actif	Suidas αι 122 ~ Zonaras 67, 78 (sed ἀστρο- pro ἀστερο-)	G0649	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4331
+T0061	1125	grec	actif	(δεσμά) Moeris δ 28	G0713	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4865
+T0062	1139	grec	actif	(ἄζυγα) Phrynichus Praep. soph. 100.3	G0723	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4936
+T0063	1169	grec	actif	(στρατιᾶς) Photius σ 608 στρατιάν	G0742	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5046
+T0064	1174	grec	actif	(κἀνακάλπασον) Photius α 1514 ἀνακαλπάζει ; cf. Zonaras 1171 καλπάζειν· τὸ ἄκρως βαδίζειν ≃ Scholium = Suidas κ 623 καλπάζειν	G0744	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5062
+T0065	1175	grec	actif	Suidas τ | (Περσικόν) Pollux IV 100 ; cf. Hesychius π 2005 (?)	G0744	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5136
+T0066	1183	grec	actif	(τὼ πόδε) Hesychius τ 1758 τὼ πόδε· τοὺς πόδας δυϊκῶς	G0748	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5188
+T0067	1187	grec	actif	(πυγή) Hesychius π 4279 πυγή· τὸ κάθισμα	G0751	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5214
+T0068	1197	grec	actif	Photius σ 660 συβήνη = Suidas σ 1273 (sed ἐχω οὐδέν pro έκ' ὠδέν, τὸ omisso et συβήνην pro συμβήνην) | (συμβήνην) Hesychius σ 2137 συμβίνης· καπροβόλον. ἐμβόλιον	G0761	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5289
+T0069	1214	grec	actif	Suidas δ 892 διέβαλέ μ' ἡ γραῦς ; Eustathius 1406.19	G0768	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5414
+T0070	1217	grec	actif	Suidas π 1502	G0769	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5422
+T0071	1231	grec	actif	Subscriptio PSI-1194 fr. 6 ΑΡΙΣΤΟΦΑΝ]ΟΥΣ ΘΕΣΜΟΦΟΡΙ]ΑΖΥΣΑΙ ]ΧΗΗΙ (= 1201, versuum numerus)	G0777	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5473

@@ -1,0 +1,358 @@
+id	plage	lemme	longueur	premier_vers	dernier_vers	notes	groupe	cote	fichier	ligne_source
+C0001	1-10	ὦ Ζεῦ ... οὐχ ἅ γ᾽ ἂν ἀκούειν δέῃ.	2006	1	10	4	G0001	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	518
+C0002	1-4	ὦ Ζεῦ ... πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλεῖν.	1558	1	4	4	G0001	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	534
+C0003	2	ἀλοῶν.	578	2	2	1	G0001	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	558
+C0004	3	πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλεῖν.	270	3	3	1	G0002	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	569
+C0005	13-8		310	13	18	2	G0012	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	632
+C0006	16-8	πρῶτα ἐμηχανήσατο ... ἀκοὴν δὲ χοάνης ὦτα διετετρήνατο.	731	16	18	0	G0012	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	636
+C0007	19	διὰ τὴν χοάνην οὖν μήτ᾽ ἀκούω μήθ᾽ ὁρῶ;	1324	19	19	2	G0013	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	643
+C0008	21	οἷόν τέ που 'στιν αἱ σοφαὶ ξυνουσίαι.	545	21	21	4	G0013	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	661
+C0009	22-4	πῶς ἂν οὖν ... προσμάθοιμι χωλὸς εἶναι τὼ σκέλει;	933	22	24	4	G0015	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	683
+C0010	27-8	σίγα νυν — σιωπῶ τὸ θύριον — ἄκου᾽ — ἀκούω καὶ σιωπῶ τὸ θύριον.	45	27	28	0	G0021	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	735
+C0011	29	Ἀγάθων.	661	29	29	3	G0024	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	752
+C0012	30-3	ποῖος οὗτος Ἁγάθων; ... οὐχ ἑόρακας πώποτε.	2289	30	33	1	G0025	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	767
+C0013	35	καὶ μὴν βεβίνηκας σύ γ᾽, ἀλλ᾽ οὐκ οἶσθ᾽ ἴσως.	1050	35	35	1	G0030	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	815
+C0014	37	μυρρίνας	114	37	37	0	G0030	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	878
+C0015	39-62	Passage en dimètres anapestiques.	309	39	62	0	G0031	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	887
+C0016	39-40	εὔφημος πᾶς ἔστω λέως / στόμα συγκλῄσας·	254	39	40	3	G0031	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	888
+C0017	40	ἐπιδημεῖ.	271	40	40	0	G0031	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	893
+C0018	41-2	θίασος Μουσῶν ἔνδον μελάθρων / τῶν δεσποσύνων μελοποιῶν.	925	41	42	1	G0032	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	899
+C0019	43-7	ἐχέτω δὲ πνοὰς νήνεμος αἰθήρ ...	371	43	47	0	G0032	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	905
+C0020	43	ἐχέτω	96	43	43	0	G0032	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	909
+C0021	45	βομβάξ.	415	45	45	0	G0033	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	917
+C0022	49-50	μέλλει γὰρ ὁ καλλιεπὴς Ἀγάθων / πράμος ἡμέτερος.	3251	49	50	5	G0037	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	951
+C0023	52-7	τιθέναι δράματος ἀρχάς... καὶ χοανεύει.	1206	52	57	2	G0041	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1063
+C0024	56-7	καὶ κηροχυτεῖ καὶ γογγύλίζει / καὶ χοανεύει — καὶ λαικάζει.	818	56	57	2	G0042	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1073
+C0025	61	γογγυλίσας καὶ συστρέψας.	3742	61	61	13	G0044	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1101
+C0026	67-8	χειμῶνος οὖν / ὄντος κατακάμπτειν τὰς στροφὰς οὐ ῥᾴδιον.	257	67	68	0	G0048	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1159
+C0027	70-4	τί οὖν ἐγὼ δρῶ; ... ὄντα κηδεστὴν ἐμόν.	2351	70	74	2	G0049	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1169
+C0028	71	ὦ Ζεῦ τί δρᾶσαι διανοεῖ με τήμερον;	70	71	71	0	G0051	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1186
+C0029	75	προπεφυραμένον	611	75	75	2	G0053	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1199
+C0030	76-7	τῇδε θἠμέρᾳ κριθήσεται / εἴτ᾽ ἔστ᾽ ἔτι ζῶν εἴτ᾽ ἀπόλωλ᾽ Εὐριπίδης.	392	76	77	0	G0055	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1217
+C0031	80	ἐπεὶ τρίτη 'στὶ Θεσμοφορίων ἡ μέση.	1811	80	80	4	G0056	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1226
+C0032	83	κἀν Θεσμοφόροιν.	169	83	83	0	G0057	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1239
+C0033	86-7	νὴ τὸν Ποσειδῶ καὶ δί᾽ και᾽ ἂν πάθοις / ἀτὰρ τίν᾽ ἐκ ταύτης σὺ μηχανὴν ἔχεις;	1390	86	87	3	G0060	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1256
+C0034	87	μηχανὴν.	501	87	87	1	G0060	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1277
+C0035	90-1	ἐκκλησιάσοντ᾽ ἐν ταῖς γυναιξὶν κἂν δέῃ / λέξονθ᾽ ὑπὲρ ἐμοῦ.	876	90	91	0	G0063	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1298
+C0036	94	ἡμέτερος ὁ πυραμοῦς.	352	94	94	0	G0066	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1318
+C0037	96	οὑκκυκλούμενος	261	96	96	0	G0071	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1345
+C0038	98	Κυρήνην δ᾽ ὁρῶ.	1160	98	98	0	G0072	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1356
+C0039	99	μινυρισμός.	208	99	99	0	G0073	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1367
+C0040	100	μύρμηκος ἀτραπούς.	1320	100	100	1	G0074	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1376
+C0041	101	Χθονίαιν	90	101	101	0	G0074	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1394
+C0042	101-29	Agathon chante un fragment de tragédie.	6079	101	129	5	G0075	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1400
+C0043	130	ὦ πότνιαι Γενετυλλίδες.	248	130	130	0	G0103	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1548
+C0044	131	θηλυδριῶδες.	294	131	131	1	G0103	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1550
+C0045	131-2	καὶ κατεγλωττισμένον / καὶ μανδαλωτόν	871	131	132	0	G0103	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1554
+C0046	134	νεανίσχ᾽ εἴ τις εἶ.	811	134	134	2	G0103	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1560
+C0047	134-5	κατ᾽ Αἰσχύλον / ἐκ τῆς Λυκουργείας.	3252	134	135	7	G0103	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1566
+C0048	139-44	Fragments d'un ancien papyrus.	528	139	144	0	G0104	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1604
+C0049	139	τί λήκυθος καὶ στρόφιον;	978	139	139	3	G0104	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1605
+C0050	140	κατόπτρου.	285	140	140	1	G0104	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1612
+C0051	140	τίς δαὶ κατόπτρου καὶ ξίφους κοινωνία;	924	140	140	3	G0104	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1618
+C0052	153	κελητίζεις, ὅταν Φαίδραν ποιῇς.	325	153	153	0	G0106	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1657
+C0053	157	ὅταν σατύρους τοίνυν ποιῇς.	142	157	157	0	G0108	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1670
+C0054	158	συμποιῶ σοὔπισθεν ἐστυκὼς	161	158	158	0	G0108	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1672
+C0055	161-3	Ἴβυκος ἐκεῖνος κἀνακρέων ὁ Τήιος / κἀλκαῖος, οἳ περὶ ἁρμονίαν ἐχύμησαν / ἐμιτροφόρουν τε καὶ διεκίνων Ἰωνικῶς,	4453	161	163	10	G0110	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1685
+C0056	164	Φρύνιχος, τοῦτον γὰρ οὖν ἀκήκοας.	1008	164	164	0	G0110	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1758
+C0057	168-70	Φιλοκλῆς, Ξενοκλῆς, Θέογνις.	1900	168	170	8	G0111	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1781
+C0058	172-3	πῶς πρὸς τῶν θεῶν; — παῦσαι βαΰζων.	559	172	173	0	G0114	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1822
+C0059	173-5	καὶ γὰρ ἐγὼ τοιοῦτος ἦν ... — οὐ ζηλῶ σε τῆς παιδεύσεως.	159	173	175	1	G0115	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1830
+C0060	176	λέγε.	329	176	176	0	G0117	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1845
+C0061	177-8	Ἀγάθων σοφοῦ πρὸς ἀνδρός ὅστις ἐν βραχεῖ / πολλοὺς καλῶς οἷός τε συντέμνειν λόγους.	317	177	178	1	G0118	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1859
+C0062	179	ἐγὼ δὲ κοινῇ ξυμφορᾷ πεπληγμένος.	1034	179	179	2	G0118	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1869
+C0063	180	τοῦ χρείαν ἔχων;	66	180	180	0	G0119	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1886
+C0064	186	σαφῶς σώσεις ἐμέ.	363	186	186	1	G0122	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1906
+C0065	193	χαίρεις ὁρῶν φῶς, πατέρα δ᾽ οὐ χαίρειν δοκεῖς;	301	193	193	0	G0127	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1944
+C0066	200-1	εὐρύπρωκτος εἶ / οὐ τοῖς λόγοισιν ἀλλὰ τοῖς παθήμασιν.	296	200	201	0	G0130	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1966
+C0067	204	νυκτερείσια.	369	204	204	0	G0134	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1989
+C0068	205	ὑφαρπάζειν τε θήλειαν Κύπριν.	467	205	205	0	G0134	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1993
+C0069	207	ἀτὰρ ἡ πρόφασίς γε νὴ Δί᾽ εἰκότως ἔχει.	217	207	207	0	G0135	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2009
+C0070	209	ὦ τρισκακόδαιμον ὡς ἀπόλωλ᾽ Εὐριπίδης.	768	209	209	0	G0138	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2028
+C0071	217	ἢ μὴ διδόναι γ' αὐτὸν ὤφελόν ποτε.	741	217	217	0	G0145	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2075
+C0072	224	οὗτος σὺ ποῖ θεῖς;	41	224	224	0	G0152	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2125
+C0073	224	εἰς τὸ τῶν σεμνῶν θεῶν·	108	224	224	0	G0153	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2131
+C0074	230	ἔχ᾽ ἀτρέμα σαυτὸν κἀνάκυπτε·	658	230	230	2	G0158	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2163
+C0075	232	ψιλὸς αὖ στρατεύσομαι.	1427	232	232	0	G0161	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2189
+C0076	234	βούλει θεάσασθαι σεαυτόν; — εἰ δοκεῖ, φέρε.	257	234	234	0	G0162	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2205
+C0077	235	Κλεισθένην.	715	235	235	0	G0165	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2225
+C0078	237	δελφάκιον	668	237	237	2	G0167	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2237
+C0079	239	τὴν κέρκον φυλάττου νυν ἄκραν.	92	239	239	0	G0168	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2254
+C0080	241-2	οἴμοι τάλας. ὕδωρ ὕδωρ ὦ γείτονες / πρὶν ἀντιλαβέσθαι πρωκτὸν ἓτερον τῆς φλογός.	720	241	242	3	G0169	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2261
+C0081	243	θάρρει — τί θαρρῶ;	59	243	243	0	G0171	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2282
+C0082	247	μὴ φροντίσῃς· ἕτερος γὰρ αὐτὰ σπογγιεῖ.	617	247	247	1	G0174	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2303
+C0083	248	οἰμώξετ᾽ ἄρ᾽ εἴ τις τὸν ἐμὸν πρωκτὸν πλυνεῖ.	752	248	248	2	G0175	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2339
+C0084	255	σύζωσον ἀνύσας — αἶρε νῦν στρόφιον.	1164	255	255	0	G0182	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2389
+C0085	258	κεφαλὴ περίθετος, ἣν ἐγὼ νύκτωρ φορῶ.	1188	258	258	0	G0186	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2417
+C0086	261	φέρ᾽ ἔγκυκλον.	111	261	261	0	G0189	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2437
+C0087	263	ἆρ᾽ ἁρμόσει μοι Ἀγ. χαλαρὰ γ᾽οῦ^(ν) χαίρεις φορῶν.	2031	263	263	1	G0193	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2458
+C0088	265	εἴσω τις ὡς τάχιστά μ᾽ ἐσκυκλησάτω.	225	265	265	0	G0196	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2494
+C0089	272	ὄμνυμι τοίνυν αἰθέρ᾽ οἴκησιν Διός.	229	272	272	1	G0203	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2537
+C0090	273	τί μᾶλλον ἢ τὴν Ὑποκράτους ξυνοικίαν;	2082	273	273	1	G0204	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2545
+C0091	275-6	ὅτι ἡ φρὴν ὤμοσεν / ἡ γλῶττα δ᾽ οὐκ ὀμώμοκ᾽· οὐδ᾽ ὥρκωσ᾽ ἐγώ.	256	275	276	1	G0206	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2575
+C0092	post 276	ὀλολύζουσι τε ἱερὸν ὠθεῖται.	777			0	G0206	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2581
+C0093	280	Θρᾷττα	73	280	280	0	G0208	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2601
+C0094	281	ὑπὸ τῆς λιγνύος.	265	281	281	0	G0208	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2603
+C0095	288	εἰ δὲ μή, ἀλλὰ νῦν λαθεῖν.	123	288	288	0	G0209	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2618
+C0096	289	καὶ τὴν θυγατέρα χοῖρον ἀνδρός μοι τυχεῖν.	1841	289	289	4	G0209	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2621
+C0097	291	καὶ πρὸς θάληκον νοῦν ἔχειν μοι καὶ φρένας.	5500	291	291	5	G0209	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2639
+C0098	295-311		203	295	311	0	G0210	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2718
+C0099	307-8	τὸν δῆμον τῶν Ἀθηναίων καὶ τὸν τῶν γυναικῶν.	172	307	308	0	G0210	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2735
+C0100	312-30	Chant du chœur.	738	312	330	2	G0211	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2744
+C0101	330	εὐγενεῖς γυναῖκες.	150	330	330	0	G0230	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2827
+C0102	336-7	ἢ 'πικηρυκεύεται / Εὐριπίδῃ Μήδοις ἐπὶ βλάβῃ τινὶ.	1303	336	337	4	G0231	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2842
+C0103	338-9	ἢ τυραννεῖν ἐπινοεῖ ἢ τὸν τύραννον συγκατάγειν.	1332	338	339	1	G0231	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2868
+C0104	346	ἢ καὶ δέχεται προδιδοῦσ᾽ ἑταίρα τὸν φίλον.	1087	346	346	0	G0232	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2890
+C0105	347-8	κεἴ τις κάπηλος ἢ καπηλὶς τοῦ χοὸς ἢ τῶν κοτυλῶν τὸ νόμισμα διαλυμαίνεται.	201	347	348	0	G0232	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2899
+C0106	352-71		74	352	371	0	G0233	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2912
+C0107	354	τάδ᾽ εὔγματα γενέσθαι.	104	354	354	0	G0235	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2922
+C0108	356-67		204	356	367	0	G0237	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2931
+C0109	365-6	ἢ Μήδους ἐπάγουσι τῆς χώρας / οὕνεκ᾽ ἐπὶ βλάβῃ.	2525	365	366	5	G0246	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2969
+C0110			3232			9	G0246	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2976
+C0111	373	Ἀρ[χίκλ]ει᾽ / Τιμόκλει᾽.	450	373	373	2	G0252	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3025
+C0112	376-7	ἐκκλησίαν ποιεῖν ἕωθεν τῇ μέσῃ / τῶν Θεσμοφορίων, ᾗ μάλισθ᾽ ἡμῖν σχολή.	191	376	377	1	G0252	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3034
+C0113	373-9	ἄκουε πᾶς ... τίς ἀγορεύειν βούλεται;	531	373	379	1	G0252	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3041
+C0114	381	χρέμπτεται.	338	381	381	0	G0255	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3061
+C0115	393	τὰς οἰνοπίπας,	681	393	393	0	G0256	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3091
+C0116	394	τὰς οὐδὲν ὑγιές.	68	394	394	0	G0257	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3096
+C0117	400	τοὺς ἄνδρας ἡμῶν· ὥστ᾽ ἐάν τις πλέκῃ.	131	400	400	0	G0258	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3107
+C0118	400-1	ὥστ᾽ ἐάν τις πλέκῃ / γυνὴ στέφανον, ἐρᾶν δοκεῖ·	1525	400	401	1	G0258	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3108
+C0119	401-4	κἂν ἐκβάλῃ ... τῷ Κορινθίῳ ξένῳ.	1510	401	404	2	G0258	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3122
+C0120	405-6	εὐθὺς ἁδελφὸς λέγει· / ‘τὸ χρῶμα τοῦτό μ᾽ οὐκ ἀρέσκει τῆς κόρης.'	221	405	406	0	G0259	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3142
+C0121	406-7	γυνή τις ὑποβαλέσθαι βούλεται / ἀποροῦσα παίδων, οὐδὲ τοῦτ᾽ ἔστιν λαθεῖν.	1419	406	407	2	G0259	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3145
+C0122	413	δέσποινα γὰρ γέροντι νυμφίῳ γυνή.	439	413	413	1	G0259	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3162
+C0123	416-7	Μολοττικοὺς / τρέφουσι μορμολυκεῖα τοῖς μοιχοῖς κύνας.	494	416	417	0	G0260	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3180
+C0124	418-20	ἃ δ᾽ ἦν ἡμῖν πρὸ τοῦ / αὐταῖς ταμιεύεσθαι προαιρούσαις λαβεῖν / ἄλφιτον ἔλαιον οἶνον.	244	418	420	0	G0260	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3192
+C0125	424	ὑποῖξαι τὴν θύραν.	79	424	424	0	G0260	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3201
+C0126	426	ᾡκότριψ Εὐριπίδης.	253	426	426	0	G0260	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3205
+C0127	429	ὄλεθρόν τιν᾽ ἡμᾶς κυρκανᾶν ἁμωσγέπως.	446	429	429	1	G0260	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3210
+C0128	432	τῆς γραμματέως.	189	432	432	0	G0260	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3218
+C0129	433-42		225	433	442	1	G0261	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3226
+C0130	441	Ξενοκλῆς ὁ Καρκίνου.	931	441	441	2	G0270	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3269
+C0131	442	πᾶσιν ὑμῖν.	16	442	442	0	G0272	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3280
+C0132	446	ἐμοὶ γὰρ ἁνὴρ ἀπέθανεν μὲν ἐν Κύπρῳ.	1699	446	446	0	G0274	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3297
+C0133	450-1	ἐν ταῖσιν τραγῳδίαις ποιῶν / τοὺς ἄνδρας ἀναπέπεικεν οὐκ εἶναι θεούς·	570	450	451	3	G0274	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3316
+C0134	455-6	Dossier sur la mère d'Euripide, la vendeuse d'herbes (λαχανοπωλήτρια).	15449	455	456	20	G0275	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3350
+C0135	458	στεφάνους συνθηματιαίους.	320	458	458	0	G0275	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3552
+C0136	463	πολύπλοκον.	269	463	463	0	G0281	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3584
+C0137	466 sqq.		130	466	466	0	G0286	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3611
+C0138	473	τί ταῦτ᾽ ἔχουσαι κεῖνον αἰτιώμεθα.	210	473	473	0	G0286	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3625
+C0139	477	ξύνοιδ᾽ ἐμαυτῇ πολλ᾽ ἐκεῖνο δ᾽ οὖν.	399	477	477	0	G0286	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3633
+C0140	480	με διεκόρευσεν ἑπτέτιν οὖσαν.	231	480	480	0	G0287	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3646
+C0141	484	στρόφος μ᾽ ἔχει τὴν γαστέρ᾽ ὦνερ κὠδύνη·	123	484	484	0	G0287	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3652
+C0142	486	κᾆθ᾽ ὁ μὲν ἔτριβεν κεδρίδας ἄννηθον σφάκον·	445	486	486	0	G0287	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3657
+C0143	487	ἐγὼ δὲ καταχέασα τοῦ στροφέως ὕδωρ.	568	487	487	0	G0287	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3677
+C0144	489	παρὰ τὸν Ἀγυιᾶ κύβδ᾽ ἐχομένη τῆς δάφνης.	1710	489	489	3	G0287	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3685
+C0145	493	μάλισθ᾽ ὑπό του ληκώμεθα.	448	493	493	0	G0288	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3715
+C0146	494	ἕωθεν σκόροδα διαμασώμεθα.	605	494	494	0	G0288	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3717
+C0147	495	ἀπὸ τοῦ τείχους εἰσιὼν.	279	495	495	0	G0288	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3730
+C0148	499	τοὔγκυκλον.	104	499	499	0	G0288	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3741
+C0149	500	ὑπ᾽ αὐγὰς οἷόν ἐστιν ἐγκεκαλυμμένον.	3022	500	500	4	G0288	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3745
+C0150	509	τέξειν.	68	509	509	0	G0289	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3793
+C0151	509	τὸ γὰρ ἦτρον τῆς χύτρας ἐλάκτισεν·	96	509	509	0	G0289	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3794
+C0152	515	ἁπαξάπαντα.	93	515	515	0	G0289	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3802
+C0153	516	κύτταρον,	132	516	516	0	G0289	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3806
+C0154	518-9	θυμούμεθα, / οὐδὲν παθοῦσαι μεῖζον ἢ δεδράκαμεν;	323	518	519	0	G0289	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3810
+C0155	520-30		47	520	530	0	G0290	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3820
+C0156	527	ἀλλ᾽ ἅπαν γένοιτ᾽ ἂν ἤδη·	983	527	527	3	G0298	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3854
+C0157	528-30	τὴν παροιμίαν δ᾽ ἐπαινῶ / τὴν παλαιάν· ὑπὸ λίθῳ γὰρ / παντί που χρὴ / μὴ δάκῃ ῥητωρ ἀθρεῖν.	1458	528	530	8	G0302	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3888
+C0158	531-73		176	531	573	0	G0303	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3914
+C0159	531-2	ἀλλ᾽ οὐ γάρ ἐστι τῶν ἀναισχύτων φύσει γυναικῶν / οὐδὲν κάκιον εἰς ἅπαντα πλὴν ἄρ᾽ εἰ γυναῖκες.	835	531	532	0	G0303	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3917
+C0160	533	μὰ τὴν Ἄγραυλον.	379	533	533	0	G0304	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3932
+C0161	549-50	Μίαν γὰρ οὐκ ἂν εἴποις / τῶν νῦν γυναικῶν Πηνελόπην, Φαίδρας ἁπαξαπάσας.	1101	549	550	0	G0307	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3968
+C0162	550	Πηνελόπην, Φαίδρας.	224	550	550	0	G0307	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	3983
+C0163	556-7	ὁρᾷς ὡς τλεγγίδας λαβοῦσαι / ἔπειτα σιφωνίζομεν τὸν σῖτον.	5083	556	557	3	G0311	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4016
+C0164	558-9	ὥς τ᾽ αὐτὰ κρέ᾽ ἐξ Ἀπατουρίων ταῖς μαστροποῖς διδοῦσαι / ἔπειτα τὴν γαλῆν φαμεν.	4116	558	559	4	G0313	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4066
+C0165	568	λαβὲ θοἰμάτιον Φιλίστη.	556	568	568	2	G0324	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4170
+C0166	569	πρόσθες μόνον.	875	569	569	1	G0325	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4182
+C0167	570	τὸν σησαμοῦνθ᾽ ὃν κατέφαγες, τοῦτον χεσεῖν ποιήσω.	2589	570	570	6	G0327	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4196
+C0168	575-6		103	575	576	0	G0329	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4261
+C0169	578	ὀλίγῳ τι πρότερον κατ᾽ ἀγορὰν λαλούμενον.	942	578	578	0	G0329	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4265
+C0170	579-87	ἥκω φράσων...	190	579	587	1	G0329	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4267
+C0171	582-3	τί δ᾽ ἔστιν ὦ παῖ; παῖδα γάρ σ᾽ εἰκὸς καλεῖν, / ἕως ἂν οὕτως τὰς γνάθους ψιλὰς ἔχῃς.	171	582	583	0	G0330	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4278
+C0172	585	ἀναπέμψαι.	131	585	585	0	G0331	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4289
+C0173	593	ἠλίθιος ὅστις τιλλόμενος ἠνείχετο;	124	593	593	0	G0336	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4320
+C0174	602	ὦ πρόξενε.	194	602	602	0	G0338	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4340
+C0175	605	Κλεωνύμου γυνή.	3652	605	605	10	G0343	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4368
+C0176	609	τίτθη.	130	609	609	0	G0347	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4416
+C0177	616	κάρδαμον	1392	616	616	0	G0354	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4457
+C0178	619	τὸν ἐκ Κοθωκιδῶν;	289	619	619	1	G0358	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4493
+C0179	624	συσκηνήτρια.	144	624	624	0	G0363	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4525
+C0180	633	σκάφιον Ξένυλλ᾽ ᾔτησεν· οὐ γὰρ ἦν ἀμίς.	2239	633	633	3	G0371	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4571
+C0181	637-40	κἄπειτ᾽ ἀποδύσετ᾽ ἐννέα παίδων μητέρα; ... καὶ νὴ Δία τίτθος γ᾽ ὥσπερ ἡμεῖς οὐκ ἔχει.	2320	637	640	2	G0375	grec	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4615
+C0182	641	στερίφη γάρ εἰμι.	599	641	641	1	G0377	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	502
+C0183	642-3	νῦν· τότε δὲ μήτηρ ἦσθα παίδων ἐννέα. / ἀνίστασ᾽ ὀρθός. ποῖ τὸ πέος ὠθεῖς κάτω;	358	642	643	0	G0378	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	516
+C0184	643	ἀνίστασ᾽ ὀρθός.	941	643	643	1	G0378	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	518
+C0185	643	Note sur τὸ ἔγκυκλον = une jupe.	5110	643	643	7	G0378	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	525
+C0186	644	τάλαν.	112	644	644	1	G0379	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	593
+C0187	647-8	ἰσθμόν τιν᾽ ἔχεις ὦνθρωπ᾽· ἄνω τε καὶ κάτω / τὸ πέος διέλκεις πυκνότερον Κορινθίων.	1095	647	648	3	G0384	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	621
+C0188	651	εἰσεκύλισα.	949	651	651	2	G0386	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	652
+C0189	655-86	Le chœur compris entre les vv. 655-686.	2502	655	686	7	G0389	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	674
+C0190	656	τῶν θ᾽ ἱματίων ἀποδύσας.	164	656	656	0	G0389	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	692
+C0191	657	εἰσελήλυθεν.	574	657	657	1	G0389	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	695
+C0192	680	μανίαις φλέγων λύσσῃ παράκοπος.	283	680	680	3	G0409	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	789
+C0193	683	γυναιξὶ καὶ βροτοῖς.	62	683	683	1	G0411	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	803
+C0194	689-761	Parodie du Télèphe d'Euripide.	1681	689	761	1	G0416	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	831
+C0195	693-5	ἐπὶ τῶν μηρίων ... βωμόν.	70	693	695	0	G0417	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	844
+C0196	696-7	οὐ πολλὴν βοὴν / στήσεσθε καὶ τροπαῖον.	116	696	697	0	G0418	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	852
+C0197	702	ὡς ἅπαν γὰρ ἐστὶν τόλμης ἔργα κἀναισχυντίας.	2186	702	702	6	G0422	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	877
+C0198	704	οἷον ὑμῶν ἐξάρξω τὴν ἄγαν αὐθαδίαν.	3207	704	704	8	G0423	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	946
+C0199	707-25		266	707	725	1	G0426	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1000
+C0200	710-2	ἀλλ᾽ οὖν ἥκεις τ᾿ ὅθεν ἥκεις.	1665	710	712	4	G0428	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1013
+C0201	711-2	φαύλως τ᾽ ἀποδρὰς οὐ λέξεις / οἷον δράσας διέδυς ἔργον.	1316	711	712	0	G0429	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1042
+C0202	721-5	ἀθέοις ἔργοις γὰρ ἀνταμει- / ψόμεσθά σ᾽ ὥσπερ εἰκὸς ἀντὶ τῶνδε / τάχα δὲ {σε} μεταβαλοῦσ᾽ ἐπὶ κακὸν ἑτερότροπον / ἐπέχει {τις} τύχη.	2761	721	725	3	G0436	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1173
+C0203	724-5	τάχα δὲ {σε} μεταβαλοῦσ᾽ ἐπὶ κακὸν ἑτερότροπον ἐπέχει {τις} τύχη.	150	724	725	0	G0438	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1196
+C0204	726-7	ἀλλὰ τάσδε μὲν λαβεῖν χρῆν σ᾽ ἐκφέρειν τε τῶν ξύλων, / καὶ καταίθειν τὸν πανοῦργον πυρπολεῖν θ᾽ ὅσον τάχος.	439	726	727	1	G0440	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1206
+C0205	726	Τάσδε	432	726	726	0	G0440	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1210
+C0206	728	ἴωμεν ἐπὶ τὰς κληματίδας.	571	728	728	0	G0441	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1221
+C0207	730	τὸ Κρητικὸν.	99	730	730	0	G0442	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1232
+C0208	733	ἀσκὸς ἐγένεθ᾽ ἡ κόρη.	357	733	733	1	G0443	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1242
+C0209	734	Περσικὰς ἔχων.	545	734	734	5	G0443	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1246
+C0210	735	ὦ θερμόταται γυναῖκες.	957	735	735	1	G0443	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1258
+C0211	738	κακὸν δὲ καὶ τοῖς σκευαρίοις καὶ τῇ κρόκῃ.	5088	738	738	9	G0444	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1285
+C0212	741	δέκα μῆνας.	491	741	741	0	G0447	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1378
+C0213	742-66		594	742	766	1	G0448	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1385
+C0214	743	τρικότυλον ἢ πῶς;	1200	743	743	2	G0450	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1400
+C0215	746	πόσ᾽ ἔτη δὲ γέγονε; τρεῖς Χοᾶς ἢ τέτταρας;	598	746	746	3	G0452	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1429
+C0216	747	σχεδὸν τοσοῦτον χὤσον ἐκ Διονυσίων.	1036	747	747	0	G0453	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1439
+C0217	748	μὰ τὸν Ἀπόλλω τουτονί.	384	748	748	0	G0454	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1447
+C0218	754-7	Scène d'égorgement de l'outre nourrissonne.	368	754	757	1	G0459	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1479
+C0219	754	δός μοι τὸ σφαγεῖον.	1802	754	754	1	G0459	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1484
+C0220	755-7	τό γ᾽ αἷμα τοῦ τέκνου τοὐμοῦ λάβω — ὕπεχ᾽ αὐτό, χαριοῦμαι γὰρ ἕν γε τοῦτό σοι — κακῶς ἀπόλοι᾽, ὡς φθονερὸς εἶ καὶ δυσμενής.	1521	755	757	2	G0459	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1497
+C0221	758	τουτὶ τὸ δέρμα τῆς ἱερείας γίγνεται.	170	758	758	0	G0462	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1528
+C0222	759		347	759	759	0	G0463	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1535
+C0223	760-1	τίς ἐξεκόρησέ σε; / τίς τὴν ἀγαπητὴν παῖδά σου ᾿ξῃρήσατο;	2619	760	761	9	G0465	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1550
+C0224	767	ἐσκυλίσας ἐς τοιαυτὶ πράγματα.	109	767	767	0	G0467	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1603
+C0225	770	ἐκ τοῦ Παλαμήδους·	2514	770	770	2	G0467	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1607
+C0226	770	ὡς ἐκεῖνος,	23	770	770	0	G0467	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1616
+C0227	772	πόθεν οὖν γένοιντ᾽ ἄν μοι πλάται. πόθεν;	896	772	772	0	G0467	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1624
+C0228	773-4	τί δ᾽ ἂν εἶτα διὰ τἀγάλματ᾽ ἀντὶ τῶν πλατῶν / γράφων διαρρίπτοιμι;	445	773	774	2	G0467	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1643
+C0229	781	τουτὶ τὸ ῥῶ μοχθηρόν·	2354	781	781	1	G0471	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1669
+C0230	782	χώρει, χώρει.	961	782	782	0	G0471	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1680
+C0231	782-4	ποίαν αὔλακα / βάσκετ᾽ ἐπείγετε πάσας καθόδους / κείνᾳ ταύτᾳ· ταχέως χρή.	2204	782	784	2	G0471	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1689
+C0232	785-845	Parabase.	118	785	845	1	G0473	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1713
+C0233	788	ἔριδες νείκη στάσις ἀργαλέα	185	788	788	0	G0473	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1719
+C0234	789	εἰ καὶ κακόν ἐσμεν, τί γαμεῖθ᾽ ἡμᾶς, εἴπερ ἀληθῶς κακόν ἐσμεν	795	789	789	3	G0473	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1724
+C0235	797	τὸ κακὸν ζητεῖτε θεᾶσθαι	130	797	797	0	G0474	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1744
+C0236	801-2	ἡμεῖς μὲν γάρ φαμεν ὑμᾶς, ὑμεῖς δ᾽ ἡμᾶς	88	801	802	0	G0474	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1749
+C0237	804	Ναυσιμάχης μέν ἥττων ἐστὶν Χαρμῖνος·	776	804	804	2	G0475	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1759
+C0238	805	Κλεοφῶν χείρων πάντως δήπου Σαλαβακχοῦς.	2337	805	805	6	G0475	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1766
+C0239	806-8	Ἀριστομάχη, Στρατονίκη et Εὐβούλη	305	806	808	2	G0475	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1798
+C0240	808-9	ἀλλ᾽ Εὐβούλης τῶν πέρυσίν τις βουλευτής ἐστιν ἀμείνων / παραδοὺς ἑτέρῳ τὴν βουλείαν; οὐδ᾽ αὐτὸς τοῦτό γε φήσεις.	1760	808	809	3	G0476	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1808
+C0241	811-2	οὐδ᾽ ἂν κλέψασα γυνὴ ζεύγει κατὰ πεντήκοντα τάλαντα / εἰς πόλιν ἔλθοι τῶν δημοσίων·	3084	811	812	2	G0476	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1822
+C0242	814	τούτων.	16	814	814	0	G0477	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1853
+C0243	815	ποθοῦντας.	784	815	815	1	G0477	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1855
+C0244	819-23		4551	819	823	8	G0477	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1863
+C0245	826	ἐκ τῶν οἴκων.	1788	826	826	1	G0478	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1932
+C0246	827-9	πολλοῖς δ᾽ ἑτέροις ἀπὸ τῶν ὤμων / ἐν ταῖς στρατιαῖς / ἔρριπται τὸ σκιάδειον.	1074	827	829	2	G0479	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1966
+C0247	834	Στηνίοισι καὶ Σκίροις.	149	834	834	0	G0480	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1983
+C0248	833-7	ταξίαρχον ἢ στρατηγόν ... ἢ τριήραρχον πονηρὸν ἢ κυβερνήτην κακόν	614	833	837	0	G0480	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1987
+C0249	838	σκάφιον ἀποκεκαρμένην.	353	838	838	0	G0480	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1990
+C0250	839	ὦ πόλεις.	4893	839	839	3	G0480	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	1996
+C0251	840-1	Ὑπερβόλου ... Λαμάχου,	1491	840	841	20	G0481	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2049
+C0252	845	ἀξία γοῦν εἶ τόκου τεκοῦσα τοιοῦτον τόκον.	360	845	845	0	G0481	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2100
+C0253	850	τὴν καινὴν Ἑλένην.	2247	850	850	2	G0482	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2114
+C0254	852	τί κοικύλλεις ἔχων;	674	852	852	3	G0483	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2127
+C0255	853	πικρὰν ἑλένη.	830	853	853	0	G0483	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2137
+C0256	855-8	Début du prologue de l'Hélène.	3997	855	858	9	G0484	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2148
+C0257	858	τὴν Ἑκάτην τὴν φωσφόρον.	396	858	858	0	G0485	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2274
+C0258	859-60		86	859	860	0	G0486	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2284
+C0259	861	Φρυνώνδας.	1280	861	861	0	G0487	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2295
+C0260	862		56	862	862	0	G0488	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2309
+C0261	864-5		101	864	865	0	G0490	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2324
+C0262	866-8		92	866	868	0	G0492	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2340
+C0263	870	μὴ ψεῦσον ὦ Ζεῦ τῆς ἐπιούσης ἐλπίδος.	1874	870	870	0	G0494	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2358
+C0264	871		131	871	871	0	G0495	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2408
+C0265	874-8		61	874	878	0	G0496	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2419
+C0266	874-6	ποίου Πρωτέως; ... ἐπεὶ τέθνηκε Πρωτέας ἔτη δέκα.	109	874	876	2	G0497	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2426
+C0267	878		57	878	878	0	G0500	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2450
+C0268	881		73	881	881	0	G0502	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2465
+C0269	886		72	886	886	0	G0505	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2484
+C0270	894	ὡς τὰς γυναῖκας ἐπὶ κλοπῇ τοῦ χρυσίου,	2924	894	894	4	G0509	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2512
+C0271	895	βαϋζα τοὐμὸν σῶμα βάλλουσα ψόγῳ.	1235	895	895	5	G0510	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2565
+C0272	896	κακορροθοῦσά.	234	896	896	0	G0511	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2625
+C0273	898	εἰ μὴ Κρίτυλλά γ᾽ Ἀντιθέου Γαργηττόθεν·	1363	898	898	3	G0513	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2641
+C0274	898	Γαργηττόθεν·	243	898	898	0	G0513	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2706
+C0275	903	αἰσχύνομαί σε τὰς γνάθους ὑβρισμένη.	351	903	903	1	G0516	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2730
+C0276	904-5		167	904	905	0	G0517	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2742
+C0277	906-12		535	906	912	0	G0518	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2750
+C0357	906	« C'est une question qui m'appartient aussi ».	89	906	906	0	G0518	francais	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6407
+C0278	910	ἐγὼ δὲ Μενέλαον ὅσα γ᾽ ἐκ τῶν ἰφύων.	3867	910	910	11	G0522	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2780
+C0279	912	ἐλθὼν σῆς δάμαρτος ἐσχάρας / λαβέ.	637	912	912	4	G0524	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2825
+C0280	913-5	λαβέ με λαβέ με πόσι, / περίβαλε δὲ χέρας. / φέρε σὲ κύσω. ἄπαγέ μ᾽ ἄπαγ᾽ ἄπαγέ με.	1232	913	915	1	G0525	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2835
+C0281	922	ᾐγυπτιάζετ᾽.	446	922	922	1	G0529	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2884
+C0282	928	αὕτη μὲν ἡ μήρινθος οὐδὲν ἔσπασεν.	609	928	928	1	G0533	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2914
+C0283	935	ἱστιορράφος.	135	935	935	1	G0535	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2938
+C0284	936-7	ὦ πρύτανι πρὸς τῆς δεξιᾶς, ἥνπερ φιλεῖς / κοίλην προτείνειν ἀργύριον ἤν τις διδῷ.	3296	936	937	5	G0536	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2947
+C0285	939-42	γυμνὸν ἀποδύσαντά με / κέλευε πρὸς τῇ σανίδι δεῖν τὸν τοξότην, / ἵνα μὴ 'ν κροκωτοῖς καὶ μίτραις γέρων ἀνὴρ / γέλωτα παρέχω τοῖς κόραξιν ἑστιῶν.	2817	939	942	6	G0538	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	2995
+C0286	943-56.	Le papyrus d'Oxyrhynque n° 3839¹,	323	943	956	2	G0539	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3096
+C0287	945	ὦ κροκώθ᾽ οἷ᾽ εἴργασαι·	119	945	945	0	G0540	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3106
+C0288	947-1000		515	947	1000	2	G0541	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3118
+C0289	949-52	Παύσων σέβεται καὶ νηστεύει κτλ.	2278	949	952	5	G0542	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3135
+C0290	955	χειρὶ σύναπτε χεῖρα.	223	955	955	1	G0546	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3187
+C0291	982	διπλῆν.	543	982	982	0	G0573	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3300
+C0292	1001	τοξότης.	699	1001	1001	1	G0595	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3407
+C0293	1001	ἐνταῦτα νῦν οἰμῶξι πρὸς τὴν αἰτρίαν	90	1001	1001	0	G0595	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3413
+C0294	1007	πέρ᾽ ἐγὼ 'ξινίγκι πορμός, ἴνα πυλάξι σοι	42	1007	1007	0	G0602	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3454
+C0295	1015-135	Parodie de l'Andromède.	2336	1015	1135	2	G0604	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3476
+C0296	1015-55	Monodie d'Andromède-Mnésiloque.	581	1015	1055	1	G0605	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3491
+C0297	1018	ὦ προσᾳδοῦσσαι τὰς ἐν ἄντροις.	406	1018	1018	1	G0607	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3503
+C0298	1026-8	ὅδε γὰρ ὁ Σκύθης φύλαξ / πάλαι ἐφέστηκ᾽ ὀλοὸν / ἄφιλον ἐκρέμασε κόραξι δεῖπνον.	109	1026	1028	1	G0614	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3537
+C0299	1031	ψῆφον κημὸν ἕστηκ᾽ ἔχουσ᾽.	5563	1031	1031	3	G0617	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3554
+C0300	1033	κήτει βορὰ Γλαυκέτῃ πρόκειμαι.	1722	1033	1033	3	G0619	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4004
+C0301	1041	Ἀίδα,	90	1041	1041	0	G0627	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4120
+C0302	1041	πολυδάκρυτον Ἀίδα γόον φεύγουσαν.	1906	1041	1041	1	G0627	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4121
+C0303	1043-51	Papyrus d'Oxyrhynque n° 4935.	421	1043	1051	1	G0629	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4155
+C0304	1054-5	λαιμότμητ᾽ ἄχη δαιμόνων αἰόλαν / νέκυσιν ἐπὶ πορείαν.	320	1054	1055	1	G0642	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4232
+C0305	1059	ἀντῳδὸς ἐπικοκκάστρια.	313	1059	1059	1	G0646	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4261
+C0306	1059	Ἠχὼ λόγων ἀντῳδὸς ἐπικοκκάστρια.	5025	1059	1059	7	G0646	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4268
+C0307	1060	πέρυσιν.	174	1060	1060	0	G0646	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4297
+C0308	1063	σὲ δ᾽ ἐπικλάειν ὕστερον.	294	1063	1063	0	G0647	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4308
+C0309	1065-72	ὦ νὺξ ἱερὰ κτλ.	219	1065	1072	2	G0649	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4326
+C0310	1067	ἀστεροειδέα νῶτα.	62	1067	1067	0	G0649	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4331
+C0311	1069	τοῦ σεμνοτάτου δι᾽ Ὀλύμπου; — δι᾽ Ὀλύμπου.	2386	1069	1069	4	G0650	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4340
+C0312	1071	μέρος ἐξέλαχον;	673	1071	1071	3	G0652	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4392
+C0313	1072	θανάτου τλήμων...	94	1072	1072	0	G0654	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4423
+C0314	1073-5	ὦ γραῦ στωμυλλωμένη — στωμυλωμένη — νὴ Δί᾽.	1577	1073	1075	0	G0655	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4430
+C0315	1078	καὶ χαριεῖ μοι παῦσαι — παῦσαι.	543	1078	1078	0	G0659	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4458
+C0316	1079	βάλλ᾽ ἐς κόρακας — βάλλ᾽ ἐς κόρακας.	1333	1079	1079	1	G0661	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4489
+C0317	1080	τί τὸ κακόν;	441	1080	1080	2	G0663	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4512
+C0318	1080-2	τί τὸ κακόν; [...] ὀτότυζ᾽.	682	1080	1082	1	G0664	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4526
+C0319	1082	ὀτότυζ᾽ — ὀτότυζ᾽.	248	1082	1082	0	G0670	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4561
+C0320	1083	λαλῖς.	81	1083	1083	0	G0671	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4567
+C0321	1085	σί κακόν;	51	1085	1085	0	G0675	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4589
+C0322	1086	πρωτε το πωνη;	391	1086	1086	1	G0677	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4602
+C0323	1089	κακκασκι μοι;	74	1089	1089	0	G0683	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4645
+C0324	1090	μὰ Δί᾽ ἀλλὰ γυνὴ πλησίον αὕτη.	346	1090	1090	0	G0685	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4656
+C0325	1091	πλησίον αὕτη.	580	1091	1091	0	G0686	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4664
+C0326	1093	ποῖ ποῖ φεύγεις;	1771	1093	1093	1	G0690	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4688
+C0327	1094	<οὐ καιρήσεις.> — οὐκ᾽ αἰρήσεις.	116	1094	1094	0	G0691	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4702
+C0328	1098-102	ὦ θεοὶ ... κάρα κομίζων.	135	1098	1102	1	G0698	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4740
+C0329	1102-3	τί λέγι; τὴ Γόργος πέρι / τὸ γραμματέο σὺ τὴ κεπαλή;	234	1102	1103	0	G0699	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4754
+C0330	1105	ἔα· τίν᾽ ὄχθον τόνδ᾽ ὁρῶ καὶ παρθένον.	221	1105	1105	1	G0702	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4777
+C0331	1106	ναῦν ὅπως ὡρμισμένην;	400	1106	1106	0	G0702	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4787
+C0332	1114	σκέψαι τὸ σκύτο·	527	1114	1114	0	G0708	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4827
+C0333	1127	τὸ ξιπομάκαιραν.	38	1127	1127	0	G0716	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4882
+C0334	1130	σκαιοῖσι γάρ τοι καινὰ προσφέρων σοφὰ.	136	1130	1130	0	G0717	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4890
+C0335	1133	οἷον ἐπιτηκίζει μοι	420	1133	1133	0	G0718	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4900
+C0336	1136-59	Chant ibycéen du chœur.	1208	1136	1159	3	G0721	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4918
+C0337	1150-3	οὗ δὴ ἀνδράσιν οὐ / θεμιτὸν εἰσορᾶν / ὄργια σεμνὰ θεαῖν / ἵνα λαμπάσι φαί-/	1133	1150	1153	2	G0733	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4978
+C0338	1151	ἵνα,	88	1151	1151	1	G0734	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5000
+C0339	1168-9	ἃ νῦν ὑποικουρεῖτε τοῖσιν ἀνδράσιν / ἀπὸ τῆς στρατιᾶς παροῦσιν.	116	1168	1169	0	G0742	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5046
+C0340	1170	τὰ μὲν παρ᾽ ἡμῶν ἴσθι σοι πεπεισμένα·	79	1170	1170	0	G0743	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5051
+C0341	1174	πρῶτον μὲν οὖν δίελθε κἀνακόλπασον.	5395	1174	1174	12	G0744	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5063
+C0342	1175	Τερηδὼν,	94	1175	1175	0	G0744	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5137
+C0343	1175	Περσικόν.	2216	1175	1175	3	G0744	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5138
+C0344	1176	κωμοτίς ἀνεγεῖρί μοι;	52	1176	1176	0	G0745	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5158
+C0345	1172 et 1180	ὦλάφιον / ὡς ἐλαπρός, ὥσπερ ψύλλο κατὰ τὸ κῴδιο.	842	1172	1172	2	G0747	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5173
+C0346	1181	φέρε θοἰμάτιον ἄνωθεν.	97	1181	1181	0	G0748	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5186
+C0347	1185	ὡς στεριπὸ τὸ τιττί᾽	25	1185	1185	0	G0749	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5199
+C0348	1185-93	Papyrus d'Oxyrhynque n° 3840.	492	1185	1193	2	G0749	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5200
+C0349	1187	κλαῦσί γ᾽ ἂν μὴ 'νδον μένῃς.	252	1187	1187	0	G0751	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5215
+C0350	1192	ὠς γλυκερὸ τὸ γλῶσσ᾽, ὤσπερ Ἀττικὸς μέλις.	1453	1192	1192	5	G0755	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5242
+C0351	1195	ἐμοὶ κάρισο σὺ τοῦτο	24	1195	1195	0	G0757	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5268
+C0352	1197-216	ἀλλὰ τὸ συμβήνην λαβέ [ ... ] ὀρτῶς δὲ συβήνη 'στί· καταβηνῆσι γάρ.	4648	1197	1216	10	G0761	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5290
+C0353	1201	Ἀρταμουξία.	210	1201	1201	1	G0763	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5371
+C0354	1203-11	Papyrus d'Oxyrhynque n° 4935 fr. 2 & n° 5132.	367	1203	1211	1	G0764	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5382
+C0355	1216	οἴμοι, τί δράσει; ποῖ τὸ γράδιο·	28	1216	1216	0	G0768	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5416
+C0356	1129-31	τὼ Θεσμοφόρω δ᾽ / ἡμῖν ἀγαθὴν / τούτων χάριν ἀνταποδοίτην.	184	1129	1131	0	G0777	grec	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5471

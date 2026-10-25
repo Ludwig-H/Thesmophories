@@ -1,0 +1,482 @@
+[
+ {
+  "folio": "f162v",
+  "source": "01_f162v_classense164v_vv0001-0042.jpg",
+  "boite": [
+   0,
+   0,
+   1920,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f163r",
+  "source": "02_f163r_classense165r_vv0043-0079.jpg",
+  "boite": [
+   72,
+   0,
+   1854,
+   2765
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f163v",
+  "source": "03_f163v_classense165v_vv0080-0122.jpg",
+  "boite": [
+   0,
+   0,
+   1920,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f164r",
+  "source": "04_f164r_classense166r_vv0123-0164.jpg",
+  "boite": [
+   0,
+   0,
+   1854,
+   2763
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f164v",
+  "source": "05_f164v_classense166v_vv0165-0207.jpg",
+  "boite": [
+   0,
+   0,
+   1920,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f165r",
+  "source": "06_f165r_classense167r_vv0208-0251.jpg",
+  "boite": [
+   53,
+   0,
+   1854,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f165v",
+  "source": "07_f165v_classense167v_vv0252-0294.jpg",
+  "boite": [
+   0,
+   0,
+   1920,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f166r",
+  "source": "08_f166r_classense168r_vv0295-0336.jpg",
+  "boite": [
+   0,
+   0,
+   1854,
+   2757
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f166v",
+  "source": "09_f166v_classense168v_vv0337-0379.jpg",
+  "boite": [
+   0,
+   0,
+   1920,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f167r",
+  "source": "10_f167r_classense169r_vv0380-0422.jpg",
+  "boite": [
+   0,
+   0,
+   1854,
+   2771
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f167v",
+  "source": "11_f167v_classense169v_vv0423-0465.jpg",
+  "boite": [
+   0,
+   0,
+   1920,
+   2774
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f168r",
+  "source": "12_f168r_classense170r_vv0466-0508.jpg",
+  "boite": [
+   161,
+   0,
+   1854,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f168v",
+  "source": "13_f168v_classense170v_vv0509-0550.jpg",
+  "boite": [
+   0,
+   0,
+   1920,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f169r",
+  "source": "14_f169r_classense171r_vv0551-0589.jpg",
+  "boite": [
+   0,
+   1,
+   1854,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f169v",
+  "source": "15_f169v_classense171v_vv0590-0634.jpg",
+  "boite": [
+   0,
+   0,
+   1920,
+   2777
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f170r",
+  "source": "16_f170r_classense172r_vv0635-0678.jpg",
+  "boite": [
+   0,
+   6,
+   1854,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f170v",
+  "source": "17_f170v_classense172v_vv0679-0720.jpg",
+  "boite": [
+   0,
+   0,
+   1920,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f171r",
+  "source": "18_f171r_classense173r_vv0721-0764.jpg",
+  "boite": [
+   0,
+   9,
+   1854,
+   2776
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f171v",
+  "source": "19_f171v_classense173v_vv0765-0799.jpg",
+  "boite": [
+   0,
+   0,
+   1920,
+   2777
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f172r",
+  "source": "20_f172r_classense174r_vv0800-0837.jpg",
+  "boite": [
+   0,
+   11,
+   1854,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f172v",
+  "source": "21_f172v_classense174v_vv0838-0875.jpg",
+  "boite": [
+   0,
+   0,
+   1917,
+   2777
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f173r",
+  "source": "22_f173r_classense175r_vv0876-0919.jpg",
+  "boite": [
+   11,
+   10,
+   1854,
+   2769
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f173v",
+  "source": "23_f173v_classense175v_vv0920-0958.jpg",
+  "boite": [
+   0,
+   0,
+   1791,
+   2771
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f174r",
+  "source": "24_f174r_classense176r_vv0959-1000.jpg",
+  "boite": [
+   0,
+   15,
+   1854,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f174v",
+  "source": "25_f174v_classense176v_vv1001-1043.jpg",
+  "boite": [
+   0,
+   0,
+   1920,
+   2771
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f175r",
+  "source": "26_f175r_classense177r_vv1044-1081.jpg",
+  "boite": [
+   6,
+   14,
+   1854,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f175v",
+  "source": "27_f175v_classense177v_vv1082-1127.jpg",
+  "boite": [
+   0,
+   0,
+   1804,
+   2771
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f176r",
+  "source": "28_f176r_classense178r_vv1128-1168.jpg",
+  "boite": [
+   132,
+   14,
+   1854,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ },
+ {
+  "folio": "f176v",
+  "source": "29_f176v_classense178v_vv1169-1210.jpg",
+  "boite": [
+   0,
+   0,
+   1920,
+   2776
+  ],
+  "parchemin": [
+   0,
+   0,
+   1920,
+   2779
+  ]
+ },
+ {
+  "folio": "f177r",
+  "source": "30_f177r_classense179r_vv1211-1231_fin.jpg",
+  "boite": [
+   0,
+   16,
+   1854,
+   2779
+  ],
+  "parchemin": [
+   0,
+   0,
+   1854,
+   2779
+  ]
+ }
+]
