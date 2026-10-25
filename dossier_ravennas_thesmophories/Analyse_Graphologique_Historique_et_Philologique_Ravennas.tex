@@ -10,12 +10,39 @@
 \setmainlanguage{french}
 \setotherlanguage[variant=polytonic]{greek}
 
-\setmainfont{FreeSerif}
-\setsansfont{FreeSans}
-\setmonofont{FreeMono}
-\newfontfamily\greekfont{FreeSerif}
-\newfontfamily\greekfontsf{FreeSans}
-\newfontfamily\greekfonttt{FreeMono}
+\setmainfont{Libertinus Serif}[Ligatures={TeX,Common}]
+\newfontfamily\latinfont{Libertinus Serif}[Ligatures={TeX,Common}]
+\setsansfont{Libertinus Sans}[Ligatures={TeX,Common}]
+\setmonofont{Libertinus Serif}[Ligatures={TeX,Common}]
+\newfontfamily\greekfont{GFSDidot.otf}[
+  Path=/usr/share/fonts/opentype/didot/,
+  Scale=MatchLowercase,
+  BoldFont=GFSDidotBold.otf,
+  ItalicFont=GFSDidotItalic.otf,
+  BoldItalicFont=GFSDidotBoldItalic.otf
+]
+\newfontfamily\greekfontsf{Libertinus Sans}[Ligatures={TeX,Common}]
+\newfontfamily\greekfonttt{GFSDidot.otf}[
+  Path=/usr/share/fonts/opentype/didot/,
+  Scale=MatchLowercase,
+  BoldFont=GFSDidotBold.otf,
+  ItalicFont=GFSDidotItalic.otf,
+  BoldItalicFont=GFSDidotBoldItalic.otf
+]
+\newfontfamily\fallbackfont{Libertinus Serif}[Ligatures={TeX,Common}]
+\usepackage[Latin,Greek]{ucharclasses}
+\setTransitionsForLatin{\latinfont}{}
+\setTransitionsForGreek{\greekfont}{\latinfont}
+\XeTeXinterchartoks\GreekExtendedClass\GreekAndCopticClass={}
+\XeTeXinterchartoks\GreekAndCopticClass\GreekExtendedClass={}
+\XeTeXcharclass"0308=\GreekAndCopticClass
+\XeTeXcharclass"0313=\GreekAndCopticClass
+\XeTeXcharclass"0342=\GreekAndCopticClass
+\newcommand{\fbchar}[1]{{\XeTeXinterchartokenstate=0\fallbackfont\mdseries\upshape #1}}
+\let\origunderscore\_
+\renewcommand{\_}{\origunderscore\penalty0\relax}
+\renewcommand{\texttt}[1]{#1}
+\AtBeginDocument{\lccode"2019=0 \lccode"0027=0}
 
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -23,11 +50,22 @@
 \newunicodechar{ᵉ}{\textsuperscript{e}}
 \newunicodechar{ʳ}{\textsuperscript{r}}
 \newunicodechar{☉}{\ensuremath{\odot}}
-\newunicodechar{ϗ}{{\rmfamily ϗ}}
+\newunicodechar{ϗ}{\fbchar{ϗ}}
+\newunicodechar{Ϛ}{\fbchar{Ϛ}}
+\newunicodechar{ϛ}{\fbchar{ϛ}}
+\newunicodechar{Ϲ}{\fbchar{Ϲ}}
+\newunicodechar{ϲ}{\fbchar{ϲ}}
+\newunicodechar{⊢}{\fbchar{⊢}}
+\newunicodechar{⊣}{\fbchar{⊣}}
+\newunicodechar{∞}{\fbchar{∞}}
+\newunicodechar{※}{\fbchar{※}}
 \usepackage[a4paper, top=2.4cm, bottom=2.6cm, left=2.4cm, right=2.4cm]{geometry}
 \usepackage{microtype}
 \usepackage{setspace}
 \setstretch{1.10}
+\tolerance=1000
+\hbadness=10000
+\emergencystretch=3em
 
 \usepackage{booktabs}
 \usepackage{longtable}
@@ -79,11 +117,31 @@
 \newcommand{\PsiQuatre}{\ensuremath{\Psi^4}}
 \newcommand{\PsiCinq}{\ensuremath{\Psi^5}}
 
-\newcommand{\inRas}[2]{\textit{#1} [in ras.\ #2]}
+\newcommand{\inRas}[2]{[\kern-0.15em[#1]\kern-0.15em]#2}
 \newcommand{\expo}[1]{\textsuperscript{#1}}
-\newcommand{\auDessus}[2]{#1\textsuperscript{#2}}
+\newcommand{\auDessus}[2]{\ensuremath{\overset{\text{#2}}{\text{#1}}}}
 \newcommand{\lecon}[1]{\guillemotleft\,#1\,\guillemotright}
 \newcommand{\lieuCorrompu}[1]{\ensuremath{\dagger}#1\ensuremath{\dagger}}
+
+\pdfstringdefDisableCommands{%
+  \let\greekfont\empty
+  \let\latinfont\empty
+  \let\rmfamily\empty
+  \def\R{R}%
+  \def\Rac{R ac}%
+  \def\Rpc{R pc}%
+  \def\Rdeux{R2}%
+  \def\Bibi{Bibi}%
+  \def\SigmaSchol{Sigma}%
+  \def\PsiUn{Psi 1}%
+  \def\PsiDeux{Psi 2}%
+  \def\PsiTrois{Psi 3}%
+  \def\PsiQuatre{Psi 4}%
+  \def\PsiCinq{Psi 5}%
+  \def\inRas#1#2{[#1]#2}%
+  \def\auDessus#1#2{#1(#2)}%
+  \def\expo#1{#1}%
+}
 
 % ============================================================================
 % MISE EN PAGE DES TITRES ET EN-TÊTES
@@ -95,15 +153,16 @@
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 
+\setcounter{tocdepth}{2}
 \titleformat{\section}
-  {\normalfont\Large\bfseries\color{RavennasRed}}
-  {\thesection.}{0.6em}{}[\titlerule]
+  {\normalfont\Large\bfseries\raggedright\color{RavennasRed}}
+  {}{0em}{}[\titlerule]
 \titleformat{\subsection}
-  {\normalfont\large\bfseries\color{InkBrown}}
-  {\thesubsection}{0.5em}{}
+  {\normalfont\large\bfseries\raggedright\color{InkBrown}}
+  {}{0em}{}
 \titleformat{\subsubsection}
-  {\normalfont\normalsize\bfseries\itshape\color{InkBrown}}
-  {\thesubsubsection}{0.5em}{}
+  {\normalfont\normalsize\bfseries\itshape\raggedright\color{InkBrown}}
+  {}{0em}{}
 
 \begin{document}
 
@@ -138,7 +197,7 @@
 {\normalsize Collection \textit{Kubaba} --- Série Antiquité, L'Harmattan\par}
 \end{titlepage}
 
-\tableofcontents
+{\small\setstretch{0.96}\renewcommand{\numberline}[1]{}\tableofcontents}
 \newpage
 
 
@@ -150,7 +209,7 @@
 
 
 
-\section{Sommaire Général}
+\section*{Sommaire Général}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
   \item \textbf{Introduction : Le miracle d'un \textit{codex unicus} et les trois dimensions de l'enquête}
@@ -245,14 +304,14 @@ Transporté au Musée d'Alexandrie au IIIᵉ siècle av. J.-C., le texte des \te
 Avant le milieu du Xᵉ siècle, cinq témoins papyrologiques d'époque impériale et proto-byzantine (désignés par les sigles \PsiUn{} à \PsiCinq{} dans le \textit{Conspectus siglorum} et l'apparat critique de Louis Hauseux, \texttt{vv 1-641.tex}, ll. 210–214) permettent de sonder l'état du texte des \textit{Thesmophories} entre le IIᵉ et le IVᵉ siècle apr. J.-C. :
 
 {\small
-\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.09\textwidth} >{\raggedright\arraybackslash}p{0.11\textwidth} >{\raggedright\arraybackslash}p{0.15\textwidth} >{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.16\textwidth} >{\raggedright\arraybackslash}p{0.21\textwidth}@{}}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.12\textwidth} >{\raggedright\arraybackslash}p{0.14\textwidth} >{\raggedright\arraybackslash}p{0.12\textwidth} >{\raggedright\arraybackslash}p{0.14\textwidth} >{\raggedright\arraybackslash}p{0.15\textwidth} >{\raggedright\arraybackslash}p{0.20\textwidth}@{}}
 \toprule
 \textbf{Sigle (\Bibi{})} & \textbf{Cote papyrologique} & \textbf{Date} & \textbf{Nature du témoin} & \textbf{Passages conservés} & \textbf{Intérêt paléographique et critique majeur} \\
 \midrule
 \endhead
 \bottomrule
 \endfoot
-\textbf{\PsiUn{}} (\texttt{\textbackslash PsiUn}) & \textit{PSI} XI 1194 + \textit{PSI} XIV p. XV & IIᵉ s. & \textit{Volumen} de papyrus & \texttt{vv. 133–156, 237–245, 273–288, 594–596, 804–809, 1231} & Copie érudite pourvue de gloses marginales ; conserve au fr. 6 sous le dernier vers (\texttt{v. 1231}) le colophon final et la \textbf{note stichométrique acrophonique \texttt{ΑΡΙΣΤΟΦΑΝ]ΟΥΣ ΘΕΣΜΟΦΟΡΙ]ΑΖΥΣΑΙ ]ΧΗΗΙ}} ($1000 + 100 + 100 + 1 = 1201$ lignes). S'interrompt au v. 288 juste avant le v. 289. \\
+\textbf{\PsiUn{}} (\texttt{\textbackslash PsiUn}) & \textit{PSI} XI 1194 + \textit{PSI} XIV p. XV & IIᵉ s. & \textit{Volumen} de papyrus & \texttt{vv. 133–156, 237–245, 273–288, 594–596, 804–809, 1231} & Copie érudite pourvue de gloses marginales ; conserve au fr. 6 sous le dernier vers (\texttt{v. 1231}) le colophon final et la \textbf{note stichométrique acrophonique \texttt{ΑΡΙΣΤΟΦΑΝ]\allowbreak ΟΥΣ ΘΕΣΜΟΦΟΡΙ]\allowbreak ΑΖΥΣΑΙ ]ΧΗΗΙ}} ($1000 + 100 + 100 + 1 = 1201$ lignes). S'interrompt au v. 288 juste avant le v. 289. \\
 \addlinespace[3pt]
 \textbf{\PsiDeux{}} (\texttt{\textbackslash PsiDeux}) & \textit{P.Oxy.} LVI 3839 & ca. 200 (fin IIᵉ–début IIIᵉ s.) & \textit{Volumen} de papyrus & \texttt{vv. 742–766} (fr. 1), \texttt{vv. 941–953} (fr. 2) & Donne la bonne leçon \textbf{\texttt{δὸς τὸ σφαγεῖον}} au v. 754 (contre \texttt{δός μοι τὸ} dans \R{}), mais partage déjà certaines fautes anciennes avec \R{}. \\
 \addlinespace[3pt]
@@ -268,7 +327,7 @@ Avant le milieu du Xᵉ siècle, cinq témoins papyrologiques d'époque impéria
 
 \subsubsection{L'enseignement de la souscription stichométrique \texttt{ΧΗΗΙ} (1201 vers) de \PsiUn{} (\textit{PSI} XI 1194 + XIV p. XV)}
 
-Au bas du fragment final de \textit{PSI} XI 1194 (\PsiUn{}, fr. 6), immédiatement sous la fin du dernier vers des \textit{Thesmophories} (\texttt{v. 1231}), le scribe du IIᵉ siècle a inscrit le titre final suivi du compte total des lignes du rouleau en numération attique acrophonique : \textbf{\texttt{ΑΡΙΣΤΟΦΑΝ]ΟΥΣ ΘΕΣΜΟΦΟΡΙ]ΑΖΥΣΑΙ ]ΧΗΗΙ}} ($\text{Χ} = 1000$, $\text{Η} = 100$, $\text{Η} = 100$, $\text{Ι} = 1$, soit \textbf{1201 lignes}). Or, la numérotation traditionnelle des éditions modernes (héritée de Brunck et Bekker) compte 1231 vers, mais plusieurs \textit{kôla} lyriques très courts ont été scindés par les éditeurs modernes alors que le \textit{Ravennas} les regroupe sur une seule ligne (par ex. \texttt{vv. 126–127}, \texttt{295–311}, \texttt{1150–1159}), et inversement quelques gloses ou vers interpolés (comme le v. 500 ou les gloses des vv. 297–298) se sont glissés dans le texte. Le fait que les 30 pages des \textit{Thesmophories} dans le \textit{Ravennas} (\texttt{ff. 162v–177r}, à raison d'environ 40–42 lignes par page sur 28 pages pleines + deux demi-pages) totalisent \textbf{exactement un peu plus de 1200 lignes écrites} démontre la \textbf{continuité matérielle stupéfiante} de la colométrie alexandrine entre les rouleaux égyptiens du IIᵉ siècle et le \textit{codex} constantinopolitain du Xᵉ siècle.
+Au bas du fragment final de \textit{PSI} XI 1194 (\PsiUn{}, fr. 6), immédiatement sous la fin du dernier vers des \textit{Thesmophories} (\texttt{v. 1231}), le scribe du IIᵉ siècle a inscrit le titre final suivi du compte total des lignes du rouleau en numération attique acrophonique : \textbf{\texttt{ΑΡΙΣΤΟΦΑΝ]\allowbreak ΟΥΣ ΘΕΣΜΟΦΟΡΙ]\allowbreak ΑΖΥΣΑΙ ]ΧΗΗΙ}} ($\text{Χ} = 1000$, $\text{Η} = 100$, $\text{Η} = 100$, $\text{Ι} = 1$, soit \textbf{1201 lignes}). Or, la numérotation traditionnelle des éditions modernes (héritée de Brunck et Bekker) compte 1231 vers, mais plusieurs \textit{kôla} lyriques très courts ont été scindés par les éditeurs modernes alors que le \textit{Ravennas} les regroupe sur une seule ligne (par ex. \texttt{vv. 126–127}, \texttt{295–311}, \texttt{1150–1159}), et inversement quelques gloses ou vers interpolés (comme le v. 500 ou les gloses des vv. 297–298) se sont glissés dans le texte. Le fait que les 30 pages des \textit{Thesmophories} dans le \textit{Ravennas} (\texttt{ff. 162v–177r}, à raison d'environ 40–42 lignes par page sur 28 pages pleines + deux demi-pages) totalisent \textbf{exactement un peu plus de 1200 lignes écrites} démontre la \textbf{continuité matérielle stupéfiante} de la colométrie alexandrine entre les rouleaux égyptiens du IIᵉ siècle et le \textit{codex} constantinopolitain du Xᵉ siècle.
 
 
 
@@ -426,14 +485,14 @@ Au sens strict de l'analyse graphologique et paléographique :
 La caractéristique graphologique la plus féconde du Scribe A — et la plus décisive pour la critique textuelle des \textit{Thesmophories} — est son \textbf{bilinguisme graphique permanent entre la minuscule cursive et l'onciale (majuscule) réintroduite}. Pour la plupart des lettres de l'alphabet, $\text{R}^1$ dispose de deux ou trois allographes qu'il alterne selon la position dans le mot ou la ligature avec la lettre voisine :
 
 {\small
-\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.22\textwidth} >{\raggedright\arraybackslash}p{0.36\textwidth}@{}}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.22\textwidth} >{\raggedright\arraybackslash}p{0.33\textwidth}@{}}
 \toprule
 \textbf{Lettre} & \textbf{Allographe minuscule dominant} & \textbf{Allographe oncial / alternatif} & \textbf{Particularités de \textit{ductus} et confusions paléographiques engendrées dans \R{}} \\
 \midrule
 \endhead
 \bottomrule
 \endfoot
-\textbf{$\alpha$ (Alpha)} & Alpha minuscule cursif en goutte ou en \texttt{a} fermé, lié par le haut ou la droite à la lettre suivante & Alpha à boucle ouverte en ligature haute ($\alpha\gamma, \alpha\iota, \alpha\lambda, \alpha\nu, \alpha\rho, \alpha\sigma, \alpha\tau, \alpha\upsilon$) & Très proche de $\text{ο}$, de $\varepsilon\iota$ et de la base du $\beta$ ou du $\delta$. Explique au \textbf{v. 35} l'écriture initiale \texttt{βεαίνηκας} corrigée \textit{in rasura} en \texttt{βεβίνηκας} (\texttt{α} et \texttt{β} superposables). \\
+\textbf{$\alpha$ (Alpha)} & Alpha minuscule cursif en goutte ou en \texttt{a} fermé, lié par le haut ou la droite à la lettre suivante & Alpha à boucle ouverte en ligature haute ($\alpha\gamma$, $\alpha\iota$, $\alpha\lambda$, $\alpha\nu$, $\alpha\rho$, $\alpha\sigma$, $\alpha\tau$, $\alpha\upsilon$) & Très proche de $\text{ο}$, de $\varepsilon\iota$ et de la base du $\beta$ ou du $\delta$. Explique au \textbf{v. 35} l'écriture initiale \texttt{βεαίνηκας} corrigée \textit{in rasura} en \texttt{βεβίνηκας} (\texttt{α} et \texttt{β} superposables). \\
 \addlinespace[3pt]
 \textbf{$\beta$ (Bêta)} & \textbf{Bêta minuscule bilobé ouvert en forme de \texttt{u}} (\texttt{u}-bêta cursif, sans haste montante) & \textbf{Bêta de type oncial/majuscule (\texttt{Β})} à deux boucles superposées et haute haste verticale & Le \texttt{u}-bêta minuscule ressemble à s'y méprendre à $\upsilon$, $\mu$, $\nu$ ou $\kappa$ cursif ; le \texttt{Β} majuscule se confond avec $\text{Κ}$, $\text{Ρ}$ ou $\Theta$. Explique \textbf{v. 489} \texttt{κυνδ'} ($\text{R}^{\text{ac}}$) pour \texttt{κύβδ'} ($\text{R}^{\text{pc}}$), \textbf{v. 895} \texttt{βαΰζα} (\R{}) pour \texttt{κόνυζα} (\Bibi{}), et \textbf{\SigmaSchol{} 1174} \texttt{ἁβρῶς} (\R{}) pour \texttt{ἄκρως} (\Bibi{}). \\
 \addlinespace[3pt]
@@ -449,7 +508,7 @@ La caractéristique graphologique la plus féconde du Scribe A — et la plus d�
 \addlinespace[3pt]
 \textbf{$\theta$ (Thêta)} & Thêta minuscule ovale fermé traversé de part en part par une barre médiane horizontale & Thêta large à barre débordante en ligature avec la lettre suivante & En minuscule comme en onciale, voisin de $\beta$ et $\text{ο}$ (\textbf{v. 291} \texttt{πρὸς θάληκον} pour \texttt{πρὸς θυλάκιον} \textit{vel} \texttt{θάλικα} \Bibi{} ; \textbf{v. 815} \texttt{ποθοῦντας} pour \texttt{ποοῦντας}). \\
 \addlinespace[3pt]
-\textbf{$\iota$ (Iota)} & Iota court bilinéaire ou iota long descendant sous la ligne en ligature ($\varepsilon\iota, \alpha\iota, \tau\iota, \gamma\iota$) & Iota adscrit systématique après $\alpha, \eta, \omega$ longs (\texttt{τῶι}, \texttt{ῆι}, \texttt{τουτωί}) & Jamais de point sur l'iota simple (sauf tréma sur $\ddot{\iota}$ et $\ddot{\upsilon}$). L'iota adscrit non compris est souvent pris pour une lettre autonome ou omis (\textbf{v. 500} \texttt{ΩΙΟΝ} = \texttt{ᾦόν} « œuf » lu \texttt{ΟΙΟΝ} = \texttt{οἷόν}). \\
+\textbf{$\iota$ (Iota)} & Iota court bilinéaire ou iota long descendant sous la ligne en ligature ($\varepsilon\iota$, $\alpha\iota$, $\tau\iota$, $\gamma\iota$) & Iota adscrit systématique après $\alpha, \eta, \omega$ longs (\texttt{τῶι}, \texttt{ῆι}, \texttt{τουτωί}) & Jamais de point sur l'iota simple (sauf tréma sur $\ddot{\iota}$ et $\ddot{\upsilon}$). L'iota adscrit non compris est souvent pris pour une lettre autonome ou omis (\textbf{v. 500} \texttt{ΩΙΟΝ} = \texttt{ᾦόν} « œuf » lu \texttt{ΟΙΟΝ} = \texttt{οἷόν}). \\
 \addlinespace[3pt]
 \textbf{$\kappa$ (Kappa)} & Kappa minuscule à haute haste verticale et petit chevron ou boucle accolée (\texttt{u}-kappa) & \textbf{Kappa oncial (\texttt{Κ})} de grand module à deux obliques détachées & La forme minuscule est très proche de $\beta$, $\eta$ et $\mu$ : d'où \textbf{v. 493} \texttt{\inRas{ληκ}{κιν}ώμεθα} (\texttt{ληκ} gratté en \texttt{κιν}), \textbf{v. 895} \texttt{κόνυζα} $\to$ \texttt{βαΰζα} (\Bibi{}), \textbf{\SigmaSchol{} 1174} \texttt{ἄκρως} $\to$ \texttt{ἁβρῶς} (\Bibi{}), et en onciale \texttt{Κ/Λ} (\textbf{v. 711} \texttt{οὐκ ἔξει} $\to$ \texttt{οὐ λέξεις} \Bibi{}). \\
 \addlinespace[3pt]
@@ -461,7 +520,7 @@ La caractéristique graphologique la plus féconde du Scribe A — et la plus d�
 \addlinespace[3pt]
 \textbf{$\xi$ (Xi)} & Xi cursif en serpentin vertical (trois boucles superposées descendant bas sous la ligne) & — & Tracé d'un seul jet continu du calame sans lever la plume (\textbf{v. 1091} \texttt{ΠΛΗΞΑϹ} $\to$ \texttt{ΠΛΗϹΙΟΝ} dans \texttt{πλήξασ' αὕτη} \Bibi{}). \\
 \addlinespace[3pt]
-\textbf{$\text{ο}$ (Omicron)} & Petit omicron rond fermé, souvent suspendu dans le haut du corps bilinéaire & Omicron minuscule réduit à un anneau en ligature ($\tau\text{ο}, \rho\text{ο}, \sigma\text{ο}, \pi\text{ο}$) & Confondu phonétiquement et graphiquement avec $\omega$ (\textbf{v. 500} \texttt{ᾦόν} $\to$ \texttt{οἷόν}, \textbf{v. 781} \texttt{ΤΟΡΩ} coupé \texttt{τὸ ῥῶ} pour \texttt{τορῶ} \Bibi{}, \textbf{v. 1198} \texttt{κ\inRas{ω}{ο}μίζεις}). \\
+\textbf{$\text{ο}$ (Omicron)} & Petit omicron rond fermé, souvent suspendu dans le haut du corps bilinéaire & Omicron minuscule réduit à un anneau en ligature ($\tau\text{ο}$, $\rho\text{ο}$, $\sigma\text{ο}$, $\pi\text{ο}$) & Confondu phonétiquement et graphiquement avec $\omega$ (\textbf{v. 500} \texttt{ᾦόν} $\to$ \texttt{οἷόν}, \textbf{v. 781} \texttt{ΤΟΡΩ} coupé \texttt{τὸ ῥῶ} pour \texttt{τορῶ} \Bibi{}, \textbf{v. 1198} \texttt{κ\inRas{ω}{ο}μίζεις}). \\
 \addlinespace[3pt]
 \textbf{$\pi$ (Pi)} & Pi minuscule à deux jambages (parfois bouclés à la base, proches de $\omega$ fermé) sous une large barre & \textbf{Pi oncial (\texttt{Π})} géométrique à deux colonnes droites & En onciale comme en minuscule, $\pi$ équivaut visuellement à \texttt{Γ}, \texttt{ΙϹ} ou \texttt{ΤΙ} (\textbf{v. 50} \texttt{πράμος} $\leftarrow$ \texttt{πρανοῦν}, \textbf{v. 80} \texttt{Π'} [\texttt{= περ}] lu \texttt{Γ'} [\texttt{= τρίτη}], \textbf{v. 446} \texttt{ΕΓΚΥΟϹ} $\to$ \texttt{ΕΝΚΥΠΡΩΙ}). \\
 \addlinespace[3pt]
@@ -574,10 +633,10 @@ Ses propriétés graphologiques, observables dans toutes les marges des folios \
 
 \subsubsection{7.2. Le système tachygraphique de $\text{R}^2$ (abréviations par suspension, superposition et signes spéciaux)}
 
-Pour économiser l'espace marginal, $\text{R}^2$ déploie le répertoire complet de la \textbf{tachygraphie syllabique et des abréviations savantes du Xᵉ siècle} (étudié par Victor Gardthausen, \textit{Griechische Palaeographie}, II, p. 340, et par Albert Martin, 1882), fidèlement reproduit dans les fichiers LaTeX de l'édition de Louis Hauseux grâce à la macro \texttt{\auDessus{lettre\_inf}{lettre\_sup}} :
+Pour économiser l'espace marginal, $\text{R}^2$ déploie le répertoire complet de la \textbf{tachygraphie syllabique et des abréviations savantes du Xᵉ siècle} (étudié par Victor Gardthausen, \textit{Griechische Palaeographie}, II, p. 340, et par Albert Martin, 1882), fidèlement reproduit dans les fichiers LaTeX de l'édition de Louis Hauseux grâce à la macro \texttt{\textbackslash auDessus\{lettre\_inf\}\{lettre\_sup\}} :
 
 \begin{enumerate}[leftmargin=1.6em, itemsep=2pt]
-  \item \textbf{Abréviations par superposition de voyelle ou de consonne (\texttt{\auDessus})} :
+  \item \textbf{Abréviations par superposition de voyelle ou de consonne (\texttt{\textbackslash auDessus})} :
 \end{enumerate}
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
   \item Noms des personnages récurrents dans les marges et les scholies :
@@ -596,7 +655,7 @@ Pour économiser l'espace marginal, $\text{R}^2$ déploie le répertoire complet
 \end{enumerate}
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
   \item \textbf{\texttt{ς} ou crochet en exposant} pour $-\text{ος}$ (nominatif singulier) ;
-  \item \textbf{Trait oblique \texttt{\textbackslash{}} ou double trait \texttt{\textbackslash{}\textbackslash{}} en exposant} pour $-\omega\nu$ (génitif pluriel, par ex. \texttt{θεσμοφοριαζουσ\textbackslash{}}) ou $-\alpha\varsigma$ ;
+  \item \textbf{Trait oblique \texttt{\textbackslash{}} ou double trait \texttt{\textbackslash{}\textbackslash{}} en exposant} pour $-\omega\nu$ (génitif pluriel, par ex. \texttt{θεσμοφορια\allowbreak ζουσ\textbackslash{}}) ou $-\alpha\varsigma$ ;
   \item \textbf{Boucle ouverte en \texttt{c} retourné ou en \texttt{υ} supralinéaire} pour $-\text{ου}$ (génitif singulier) ;
   \item \textbf{Arc surmonté d'un point ou d'un trait ondulé} pour $-\varepsilon\iota\nu$ (infinitif) ou $-\alpha\iota$ (\texttt{εἶναι}, \texttt{λέγεται}) ;
   \item \textbf{Signe en \texttt{S} brisé ou en éclair (\texttt{Ϛ} / \texttt{ϗ})} pour la conjonction \textit{καί}, ainsi que pour la syllabe $\kappa\alpha\iota-$ à l'intérieur d'un mot ;
@@ -617,7 +676,7 @@ Le rôle de $\text{R}^2$ ne s'est pas borné à recopier les scholies marginales
 \end{itemize}
 
 \begin{enumerate}[leftmargin=1.6em, itemsep=2pt]
-  \item \textbf{Suppléance interlinéaire ou marginale des mots omis par $\text{R}^1$ (\texttt{\expo{...}})} :
+  \item \textbf{Suppléance interlinéaire ou marginale des mots omis par $\text{R}^1$ (\texttt{\textbackslash expo\{...\}})} :
 \end{enumerate}
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
   \item \textbf{v. 60 (\texttt{f. 163r}, l. 19, voir Planche 03)} : $\text{R}^1$ avait écrit \texttt{τοῦ καλλιεποῦς τοῦ θριγκοῦ} (dimètre anapestique faux d'un pied) ; $\text{R}^{\text{pc}} / \text{R}^2$ ajoute \textbf{\texttt{κατὰ}} dans l'interligne (\texttt{τοῦ καλλιεποῦς \expo{κατὰ} τοῦ θριγκοῦ}, glosé en marge \texttt{ἀντὶ τοῦ ἐπὶ τοῦ θριγκοῦ}) ;
@@ -669,10 +728,11 @@ Afin d'ancrer chaque observation graphologique et philologique dans la réalité
 
 \subsubsection{Planche 01 — \texttt{f. 162v} (Classense \texttt{164v}), haut de page : \textit{Hypothesis}, titre en semi-onciale d'apparat, incipit (\texttt{vv. 1–19}) et scholies en \textit{Kleinoziale}}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/01_f162v_hypothesis_et_titre_semi_onciale.jpg}
-\caption{Planche 01 : f. 162v Hypothesis, titre et vv. 1-19}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/01_f162v_hypothesis_et_titre_semi_onciale.jpg}}
+\caption{Planche 01 : f.~162v — \textit{Hypothesis}, titre et vv.~1--19}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -689,10 +749,11 @@ Afin d'ancrer chaque observation graphologique et philologique dans la réalité
 
 \subsubsection{Planche 02 — \texttt{f. 162v} (Classense \texttt{164v}), bas de page (\texttt{vv. 23–42}) : Chiffres de transposition \texttt{α, γ, δ, β}, grattages aux vv. 32 et 34, ajout marginal du v. 33 et \texttt{βεβίνηκας} corrigé \textit{in rasura} de \texttt{βεαίνηκας} au v. 35}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/02_f162v_vv28-35_transposition_rasura_marge_v33_bebinekas.jpg}
-\caption{Planche 02 : f. 162v vv. 23-42 transposition, v. 33 marginal et v. 35 bebinekas}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/02_f162v_vv28-35_transposition_rasura_marge_v33_bebinekas.jpg}}
+\caption{Planche 02 : f.~162v, vv.~23--42 — transposition, v.~33 marginal et v.~35 \textit{in rasura}}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -712,10 +773,11 @@ Cette plage de vingt lignes concentre à elle seule \textbf{cinq opérations maj
 
 \subsubsection{Planche 03 — \texttt{f. 163r} (Classense \texttt{165r}), \texttt{vv. 48–62} : \texttt{πράμος ἡμέτερος} (\texttt{v. 50}), \texttt{ἀσπίδας} (\texttt{v. 53}) et l'ajout supralinéaire \texttt{\expo{κατὰ}} (\texttt{v. 60})}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/03_f163r_vv48-62_pramos_aspidas_kata_supralineaire.jpg}
-\caption{Planche 03 : f. 163r vv. 48-62 pramos, aspidas et kata supralineaire}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/03_f163r_vv48-62_pramos_aspidas_kata_supralineaire.jpg}}
+\caption{Planche 03 : f.~163r, vv.~48--62 — \textit{pramos}, \textit{aspidas} et \textit{kata} supralinéaire}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -732,10 +794,11 @@ Cette plage de vingt lignes concentre à elle seule \textbf{cinq opérations maj
 
 \subsubsection{Planche 04 — \texttt{f. 163v} (Classense \texttt{165v}), \texttt{vv. 80–103} : L'abréviation \texttt{Π'} lue \texttt{Γ'} au v. 80 (\texttt{ἐπεὶ τρίτη 'στὶ}), la 1ʳᵉ \textit{parepigraphè} (\texttt{μινυρισμός}, post v. 99) et \texttt{Μύρμηκος ἀτραπούς} (\texttt{v. 100})}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/04_f163v_v80_et_parepigraphe1_minyrysmos.jpg}
-\caption{Planche 04 : f. 163v v. 80 et 1re parepigraphe minyrysmos}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/04_f163v_v80_et_parepigraphe1_minyrysmos.jpg}}
+\caption{Planche 04 : f.~163v, v.~80 et 1\textsuperscript{re} \textit{parepigraphè} (\textit{minyrysmos})}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -752,10 +815,11 @@ Cette plage de vingt lignes concentre à elle seule \textbf{cinq opérations maj
 
 \subsubsection{Planche 05 — \texttt{f. 164r} (Classense \texttt{166r}), \texttt{vv. 128–164} : La 2ᵉ \textit{parepigraphè} (\texttt{ὀλολύζει ὁ γέρων}), la colométrie lyrique et les leçons \texttt{ἐχύμησαν} (\texttt{v. 162}) et \texttt{διεκίνων} (\texttt{v. 163})}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/05_f164r_parepigraphe2_ololyzei_et_vv160-164.jpg}
-\caption{Planche 05 : f. 164r 2e parepigraphe ololyzei ho geron et vv. 160-164}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/05_f164r_parepigraphe2_ololyzei_et_vv160-164.jpg}}
+\caption{Planche 05 : f.~164r — 2\textsuperscript{e} \textit{parepigraphè} (\textit{ololyzei ho geron}) et vv.~160--164}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -775,10 +839,11 @@ Cette plage de vingt lignes concentre à elle seule \textbf{cinq opérations maj
 
 \subsubsection{Planche 06 — \texttt{f. 165v} (Classense \texttt{167v}), \texttt{vv. 274–294} : La 3ᵉ \textit{parepigraphè} (\texttt{ὀλολύζουσι τε ἱερὸν ὠθεῖται}), le dossier \texttt{Χοιρίλ'} (\texttt{v. 289}) et \texttt{πρὸς θάληκον} (\texttt{v. 291})}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/06_f165v_parepigraphe3_ololyzousi_et_choiron_v289.jpg}
-\caption{Planche 06 : f. 165v 3e parepigraphe et v. 289 choiron}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/06_f165v_parepigraphe3_ololyzousi_et_choiron_v289.jpg}}
+\caption{Planche 06 : f.~165v — 3\textsuperscript{e} \textit{parepigraphè} et v.~289 (\textit{choiron})}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -795,10 +860,11 @@ Cette plage de vingt lignes concentre à elle seule \textbf{cinq opérations maj
 
 \subsubsection{Planche 07 — \texttt{f. 166r} (Classense \texttt{168r}), \texttt{vv. 295–309} : Le grattage \texttt{\inRas{Κῆρυξ}{}} au v. 295, les gloses intruses des vv. 297–298 et l'ajout supralinéaire \texttt{\expo{καὶ}} au v. 306}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/07_f166r_v295_rasura_keryx_et_gloses_intruses.jpg}
-\caption{Planche 07 : f. 166r v. 295 rasura Keryx et gloses intruses}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/07_f166r_v295_rasura_keryx_et_gloses_intruses.jpg}}
+\caption{Planche 07 : f.~166r, v.~295 — \textit{rasura Keryx} et gloses intruses}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -815,10 +881,11 @@ Cette plage de vingt lignes concentre à elle seule \textbf{cinq opérations maj
 
 \subsubsection{Planche 08 — \texttt{f. 168r} (Classense \texttt{170r}), \texttt{vv. 488–509} : \texttt{κύβδ'} corrigé de \texttt{κυνδ'} (\texttt{v. 489}), la censure grattée \texttt{\inRas{ληκ}{κιν}ώμεθα} (\texttt{v. 493}), le vers interpolé \texttt{v. 500} (\texttt{ΩΙΟΝ} $\to$ \texttt{ΟΙΟΝ}) et \texttt{\expo{βοῴη}} (\texttt{v. 506})}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/08_f168r_vv488-507_kybda_lekometba_v500_booe.jpg}
-\caption{Planche 08 : f. 168r vv. 488-509 kybda, lekometba, v. 500 et booe}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/08_f168r_vv488-507_kybda_lekometba_v500_booe.jpg}}
+\caption{Planche 08 : f.~168r, vv.~488--509 — \textit{kybda}, \textit{lekometba}, v.~500 et \textit{booe}}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -836,10 +903,11 @@ Cette planche offre l'un des exemples les plus spectaculaires de \textbf{substit
 
 \subsubsection{Planche 09 — \texttt{f. 170r} (Classense \texttt{172r}), \texttt{vv. 636–670} : Abréviations tachygraphiques (\texttt{μν\auDessus{η}{σ}}, \texttt{η\auDessus{μ}{χ}ι γ\auDessus{υ}{ν}}) et le grand grattage de dittographie \texttt{ἅπασιν \inRas{ἅπασιν}{} ἔσται} (\texttt{v. 669})}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/09_f170r_vv636-670_tachygraphie_et_rasura_hapasin.jpg}
-\caption{Planche 09 : f. 170r vv. 636-670 tachygraphie et rasura hapasin}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/09_f170r_vv636-670_tachygraphie_et_rasura_hapasin.jpg}}
+\caption{Planche 09 : f.~170r, vv.~636--670 — tachygraphie et \textit{rasura hapasin}}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -856,10 +924,11 @@ Cette planche offre l'un des exemples les plus spectaculaires de \textbf{substit
 
 \subsubsection{Planche 10 — \texttt{f. 172r} (Classense \texttt{174r}), \texttt{vv. 814–830} : L'orthographe attique de \texttt{ποῶ} au v. 815 (\texttt{ποθοῦντας} $\leftarrow$ \texttt{ΠΟΟΥΝΤΑϹ}) et l'expulsion de la glose \texttt{οἱ καλαθίσκοι} aux vv. 822–823 (\texttt{ταὐτὸ κανοῦν καὶ τὸ σκιάδειον})}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/10_f172r_vv814-830_pothountas_kanon_skiadeion.jpg}
-\caption{Planche 10 : f. 172r vv. 814-830 pothountas, kanon et skiadeion}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/10_f172r_vv814-830_pothountas_kanon_skiadeion.jpg}}
+\caption{Planche 10 : f.~172r, vv.~814--830 — \textit{pothountas}, \textit{kanon} et \textit{skiadeion}}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -875,10 +944,11 @@ Cette planche offre l'un des exemples les plus spectaculaires de \textbf{substit
 
 \subsubsection{Planche 11 — \texttt{f. 172v} (Classense \texttt{174v}), \texttt{vv. 838–854} : \texttt{ὑστέρ\auDessus{ο}{α}ν} (\texttt{v. 838}), \texttt{ὦ πόλεις} (\texttt{v. 839}, restitution \texttt{ωὖπολι} de \Bibi{} datant la pièce de 410 av. J.-C.), \texttt{τ\auDessus{ὰ}{ο}δὶ} (\texttt{v. 844}) et \texttt{ἑλένην} (\texttt{v. 853}, « torche » d'après Hésychius)}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/11_f172v_vv838-854_hypereuge_oupoli_kyrkanas.jpg}
-\caption{Planche 11 : f. 172v vv. 838-854 oupoli et kyrkanas}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/11_f172v_vv838-854_hypereuge_oupoli_kyrkanas.jpg}}
+\caption{Planche 11 : f.~172v, vv.~838--854 — \textit{oupoli} et \textit{kyrkanas}}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -895,10 +965,11 @@ Cette planche offre l'un des exemples les plus spectaculaires de \textbf{substit
 
 \subsubsection{Planche 12 — \texttt{f. 173r} (Classense \texttt{175r}), \texttt{vv. 894–912} : \texttt{βαΰζα} (\texttt{v. 895}, \texttt{κόνυζα} \Bibi{}), \texttt{ἐκ τῶν ἀφύων} (\texttt{v. 910}, \texttt{ἐκ τῶν λαιφίων} \Bibi{}) et la restauration matérielle du parchemin}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/12_f173r_vv894-912_bauza_aphyon_et_restauration.jpg}
-\caption{Planche 12 : f. 173r vv. 894-912 bauza, aphyon et restauration du parchemin}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/12_f173r_vv894-912_bauza_aphyon_et_restauration.jpg}}
+\caption{Planche 12 : f.~173r, vv.~894--912 — \textit{bauza}, \textit{aphyon} et restauration du parchemin}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -915,10 +986,11 @@ Cette planche offre l'un des exemples les plus spectaculaires de \textbf{substit
 
 \subsubsection{Planche 13 — \texttt{f. 175r} (Classense \texttt{177r}), \texttt{vv. 1055–1082} : L'entrée d'Écho (\texttt{λόγων ἀντῳδὸς ἐπικοκκάστρια}, \texttt{v. 1059}), l'opposition \texttt{στωμυλλομένη} / \texttt{στωμυλομένη} (\texttt{vv. 1073–1074}) et le début de la disposition bicolonne (\texttt{vv. 1078–1082})}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/13_f175r_vv1055-1081_echo_epikokkastria_stomyllomene.jpg}
-\caption{Planche 13 : f. 175r vv. 1055-1082 Echo epikokkastria et stomyllomene}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/13_f175r_vv1055-1081_echo_epikokkastria_stomyllomene.jpg}}
+\caption{Planche 13 : f.~175r, vv.~1055--1082 — Écho (\textit{epikokkastria}) et \textit{stomyllomene}}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -942,10 +1014,11 @@ Cette planche offre l'un des exemples les plus spectaculaires de \textbf{substit
 
 \subsubsection{Planche 14 — \texttt{f. 175v} (Classense \texttt{177v}), page entière (\texttt{vv. 1083–1127}) : Suite de l'Écho bicolonne, double grattage \texttt{π\inRas{ρ}{}ωτε} (\texttt{v. 1086}), didascalies de Persée et d'Andromède, et ajout des vv. 1102–1103 dans la marge inférieure}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/14_f175v_vv1082-1108_echo_bicolonne_prote_et_marge_vv1102-1103.jpg}
-\caption{Planche 14 : f. 175v vv. 1083-1127 Echo bicolonne, prote et vv. 1102-1103 en marge}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/14_f175v_vv1082-1108_echo_bicolonne_prote_et_marge_vv1102-1103.jpg}}
+\caption{Planche 14 : f.~175v, vv.~1083--1127 — Écho bicolonne, \textit{prote} et vv.~1102--1103 en marge}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -963,10 +1036,11 @@ Cette planche offre l'un des exemples les plus spectaculaires de \textbf{substit
 
 \subsubsection{Planche 15 — \texttt{f. 176v} (Classense \texttt{178v}), \texttt{vv. 1184–1209} : La 4ᵉ \textit{parepigraphè} (\texttt{ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος·}), les 6 grattages et corrections de la scène scythe et la main autographe d'Euphrosynus Boninus (\texttt{γϋ.}, 1515/1516)}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/15_f176v_parepigraphe4_six_rasurae_et_main_boninus.jpg}
-\caption{Planche 15 : f. 176v 4e parepigraphe, 6 rasurae et main d'Euphrosynus Boninus}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/15_f176v_parepigraphe4_six_rasurae_et_main_boninus.jpg}}
+\caption{Planche 15 : f.~176v — 4\textsuperscript{e} \textit{parepigraphè}, 6 \textit{rasurae} et main d'Euphrosynus Boninus}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -994,10 +1068,11 @@ Cette planche est un véritable joyau paléographique où se superposent \textbf
 
 \subsubsection{Planche 16 — \texttt{f. 177r} (Classense \texttt{179r}), \texttt{vv. 1211–1231} : Fin des \textit{Thesmophories} (\texttt{συβήνη} \texttt{v. 1215}, \texttt{πέπυσται} \texttt{v. 1227}, \texttt{τούτων χάριν ἀνταδοῖτον} \texttt{v. 1231}), \textit{korônis} de clôture et début de l'\textit{Assemblée des femmes}}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth, keepaspectratio]{specimens_paleographiques/16_f177r_exodos_koronis_et_hypothesis_ecclesiazusae.jpg}
-\caption{Planche 16 : f. 177r fin des Thesmophories, koronis et Hypothesis des Ecclesiazusae}
+\setlength{\fboxsep}{3pt}\setlength{\fboxrule}{0.6pt}%
+\fcolorbox{ByzantineGold}{white}{\includegraphics[width=0.92\textwidth, height=0.45\textheight, keepaspectratio]{specimens_paleographiques/16_f177r_exodos_koronis_et_hypothesis_ecclesiazusae.jpg}}
+\caption{Planche 16 : f.~177r — fin des \textit{Thesmophories}, \textit{korônis} et \textit{Hypothesis} des \textit{Ecclesiazusae}}
 \end{figure}
 
 \begin{itemize}[leftmargin=1.5em, itemsep=2pt]
@@ -1006,7 +1081,7 @@ Cette planche est un véritable joyau paléographique où se superposent \textbf
 \end{itemize}
 \begin{enumerate}[leftmargin=1.6em, itemsep=2pt]
   \item \textbf{Ligne 2 de la planche (\texttt{v. 1215})} : \texttt{ὀρθῶς δὲ σὺ συβήνη 'στί :} — Ici, $\text{R}^1$ écrit \texttt{συβήνη} sans le $-\mu-$ du v. 1197, là où \Bibi{} harmonise en \textbf{\texttt{συμβήνη}} pour maintenir le calembour avec $\sigma\upsilon\mu\beta\iota\nu\varepsilon\tilde{\iota}\nu / \kappa\alpha\tau\alpha\beta\eta\nu\tilde{\eta}\sigma\iota$ (Hésychius $\sigma\ 2137$).
-  \item \textbf{Ligne 9 de la planche (\texttt{v. 1227})} : \texttt{ἀλλὰ πέπυσται μετρίως ἡμῖν·} (\R{}, même faute d'iotacisme/confusion vocalique qu'au v. 1127) au lieu de \textbf{\texttt{πέπαισται}} (« nous nous sommes assez ébattues », conservé par la scholie marginale $\Sigma^{\text{R}}$ \texttt{ἀν(τὶ) τοῦ πέπαικται ÷}).
+  \item \textbf{Ligne 9 de la planche (\texttt{v. 1227})} : \texttt{ἀλλὰ πέπυσται μετρίως ἡμῖν·} (\R{}, même faute d'iotacisme\slash confusion vocalique qu'au v. 1127) au lieu de \textbf{\texttt{πέπαισται}} (« nous nous sommes assez ébattues », conservé par la scholie marginale $\Sigma^{\text{R}}$ \texttt{ἀν(τὶ) τοῦ πέπαικται ÷}).
   \item \textbf{Ligne 13 de la planche (\texttt{v. 1231}, dernier vers de la comédie)} : \textbf{\texttt{τούτων χάριν ἀνταδοῖτον·}} (\R{}, haplographie syllabique par saut de \texttt{-πο-}, corrigée en \texttt{ἀνταποδοῖτον} par Grynaeus et \textbf{\texttt{τούτων χάριν ἀνταποδοίτην}} par les éditeurs et Louis Hauseux).
   \item \textbf{Sous la ligne 13} : Long trait ornemental de clôture (\textit{korônis} barrée), suivi immédiatement de l'\textit{Hypothesis} de l'\textit{Assemblée des femmes} (\texttt{ὑπόθεσις ἐκκλησιαζουσῶν ÷ Αἱ γυναῖκες συνέθεντο...}).
 \end{enumerate}
@@ -1024,7 +1099,7 @@ L'analyse matérielle et graphologique du \textit{Ravennas 429} trouve son couro
 
 \subsubsection{10.1. Première strate (IVᵉ–IXᵉ s.) : Les fautes d'onciale (\textit{scriptio continua}, lettres triangulaires, lettres lunaires et hastes droites)}
 
-Lorsque l'ancêtre des \textit{Thesmophories} était encore écrit en majuscules onciales continues (\texttt{ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡϹΤΥΦΧΨΩ}), sans séparation de mots ni accents, quatre familles de confusions visuelles se sont produites lors de la lecture ou de la translittération (\textit{metacharaktèrismos}) :
+Lorsque l'ancêtre des \textit{Thesmophories} était encore écrit en majuscules onciales continues (\texttt{ΑΒΓΔΕΖΗΘΙΚΛΜ\allowbreak ΝΞΟΠΡϹΤΥΦΧΨΩ}), sans séparation de mots ni accents, quatre familles de confusions visuelles se sont produites lors de la lecture ou de la translittération (\textit{metacharaktèrismos}) :
 
 \begin{enumerate}[leftmargin=1.6em, itemsep=2pt]
   \item \textbf{La triade des lettres triangulaires : \texttt{Α} $\leftrightarrow$ \texttt{Δ} $\leftrightarrow$ \texttt{Λ} (et les groupes \texttt{ΛΙ} $\leftrightarrow$ \texttt{Α} / \texttt{Ν}, \texttt{Κ} $\leftrightarrow$ \texttt{Λ})} :
@@ -1156,7 +1231,7 @@ Or, le témoignage du \textit{Ravennas} y est d'une valeur inestimable : tantôt
 Parce que les marges et les interlignes de l'archétype étaient chargés de gloses explicatives, il est arrivé à plusieurs reprises qu'un copiste antérieur à $\text{R}^1$ prenne une note interlinéaire pour une correction de texte :
 
 {\small
-\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.22\textwidth} >{\raggedright\arraybackslash}p{0.36\textwidth}@{}}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.22\textwidth} >{\raggedright\arraybackslash}p{0.33\textwidth}@{}}
 \toprule
 \textbf{Vers} & \textbf{Folio} & \textbf{Texte transmis par \R{}} & \textbf{Diagnostic philologique et texte établi par \Bibi{}} \\
 \midrule
@@ -1249,7 +1324,7 @@ L'un des principes méthodologiques les plus féconds de l'édition de Louis Hau
 Voici le \textbf{tableau récapitulatif des 20 restitutions majeures de Louis Hauseux (\Bibi{})} fondées sur la confrontation paléographique du \textit{Ravennas} et des lexiques anciens :
 
 {\small
-\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.09\textwidth} >{\raggedright\arraybackslash}p{0.11\textwidth} >{\raggedright\arraybackslash}p{0.15\textwidth} >{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.16\textwidth} >{\raggedright\arraybackslash}p{0.21\textwidth}@{}}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.09\textwidth} >{\raggedright\arraybackslash}p{0.11\textwidth} >{\raggedright\arraybackslash}p{0.15\textwidth} >{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.16\textwidth} >{\raggedright\arraybackslash}p{0.17\textwidth}@{}}
 \toprule
 \textbf{Vers} & \textbf{Folio} & \textbf{Leçon du \textit{Ravennas} (\R{})} & \textbf{Mécanisme graphique de la faute dans \R{}} & \textbf{Restitution de \Bibi{} et source lexicographique} & \textbf{Sens restitué} \\
 \midrule
@@ -1268,7 +1343,7 @@ Voici le \textbf{tableau récapitulatif des 20 restitutions majeures de Louis Ha
 \addlinespace[3pt]
 \textbf{v. 291} & \texttt{f. 165v} & \texttt{πρὸς θάληκον} & Métathèse vocalique $\upsilon/\alpha$ de \texttt{θυλάκιον} & \textbf{\texttt{πρὸς θυλάκιον}} (\textit{vel} \textbf{\texttt{θάλικα}}, Hésychius $\theta\ 50$) & « ait l'esprit et le cœur tournés vers l'escarcelle / la bourse » \\
 \addlinespace[3pt]
-\textbf{\SigmaSchol{} 401} & \texttt{f. 167r} & \texttt{αυταόρα αἱστεφανηπλόκουν} & Onciale \texttt{ΑΥΤΑ ΚΟΡΑΙϹ} $\to$ \texttt{ΑΥΤΑΟΡΑ ΑΙ} & \textbf{\texttt{αὐτὰ κόραις στεφαναπλόκεο}} (Sappho fr. 70/125) & « toi-même, tresse des couronnes pour les jeunes filles » \\
+\textbf{\SigmaSchol{} 401} & \texttt{f. 167r} & \texttt{αυταόρα αἱστεφα\allowbreak νηπλόκουν} & Onciale \texttt{ΑΥΤΑ ΚΟΡΑΙϹ} $\to$ \texttt{ΑΥΤΑΟΡΑ ΑΙ} & \textbf{\texttt{αὐτὰ κόραις στεφα\allowbreak ναπλόκεο}} (Sappho fr. 70/125) & « toi-même, tresse des couronnes pour les jeunes filles » \\
 \addlinespace[3pt]
 \textbf{v. 446} & \texttt{f. 167v} & \texttt{ἐν Κύπρῳ} & Onciale \texttt{ΕΓΚΥΟϹ} / \texttt{ΕΓΚΥΜΩΝ} $\to$ \texttt{ΕΝΚΥΠΡΩΙ} & \textbf{\texttt{ἔγκυος}} (\texttt{vv 1-641.tex}) / \textbf{\texttt{ἐγκύμων}} (\texttt{Annexes.tex}) & « mon mari est mort en laissant sa femme enceinte » \\
 \addlinespace[3pt]
@@ -1327,7 +1402,7 @@ Deux vestiges textuels et graphiques préservés sur les folios \texttt{175r} et
 Parce que la \textbf{disposition bicolonne en miroir sur la même ligne} adoptée par le \textit{Ravennas} à partir du v. 1078 (\texttt{ff. 175r–175v}, \textbf{Planches 13 et 14}) a entraîné l'assimilation mécanique de la colonne de droite (Écho) à la colonne de gauche (Mnésiloque / Scythe), voici le tableau synoptique des restitutions et des \textit{cruces} établies par \Bibi{} :
 
 {\small
-\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.08\textwidth} >{\raggedright\arraybackslash}p{0.16\textwidth} >{\raggedright\arraybackslash}p{0.22\textwidth} >{\raggedright\arraybackslash}p{0.20\textwidth} >{\raggedright\arraybackslash}p{0.26\textwidth}@{}}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.08\textwidth} >{\raggedright\arraybackslash}p{0.16\textwidth} >{\raggedright\arraybackslash}p{0.22\textwidth} >{\raggedright\arraybackslash}p{0.20\textwidth} >{\raggedright\arraybackslash}p{0.23\textwidth}@{}}
 \toprule
 \textbf{Vers} & \textbf{Folio} & \textbf{Colonne de gauche (Mnésiloque / Scythe dans \R{})} & \textbf{Colonne de droite (Écho dans \R{})} & \textbf{Texte établi par \Bibi{}} \\
 \midrule
@@ -1366,7 +1441,7 @@ Parce que la \textbf{disposition bicolonne en miroir sur la même ligne} adopté
 Pour clore cette enquête philologique et graphologique, voici le \textbf{catalogue synoptique intégral des 38 lieux des \textit{Thesmophories}} où le parchemin du \textit{Ravennas 429} porte la trace matérielle d'un grattage au canif (\textit{in rasura}), d'une addition marginale ou interlinéaire, ou d'une surcharge corrective de $\text{R}^{\text{pc}} / \text{R}^2$, intégralement collationné sur les photographies haute définition et sur l'apparat critique des fichiers \texttt{latex/Aristophane-Thesmo Harmattan 2023 vv 1-641.tex} et \texttt{latex/Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex} de l'édition de Louis Hauseux :
 
 {\small
-\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.09\textwidth} >{\raggedright\arraybackslash}p{0.11\textwidth} >{\raggedright\arraybackslash}p{0.15\textwidth} >{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.16\textwidth} >{\raggedright\arraybackslash}p{0.21\textwidth}@{}}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.09\textwidth} >{\raggedright\arraybackslash}p{0.11\textwidth} >{\raggedright\arraybackslash}p{0.15\textwidth} >{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.16\textwidth} >{\raggedright\arraybackslash}p{0.17\textwidth}@{}}
 \toprule
 \textbf{N°} & \textbf{Vers} & \textbf{Folio} & \textbf{État avant correction ($\text{R}^{\text{ac}}$)} & \textbf{État après correction ($\text{R}^{\text{pc}} / \text{R}^2$)} & \textbf{Nature de l'intervention matérielle et portée critique} \\
 \midrule

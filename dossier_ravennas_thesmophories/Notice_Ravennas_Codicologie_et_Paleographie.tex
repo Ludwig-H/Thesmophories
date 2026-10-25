@@ -7,35 +7,95 @@
 %% Compilable directement avec XeLaTeX (même préambule et mêmes macros que
 %% Aristophane-Thesmo Introduction.tex et Aristophane-Thesmo Harmattan 2023).
 %% ============================================================================
-\documentclass{book}
+\documentclass[10pt, a4paper, twoside]{book}
 
 \usepackage{fontspec}
-\usepackage{xunicode}
 \usepackage{polyglossia}
 \setdefaultlanguage{french}
 \setotherlanguage[variant=polytonic]{greek}
 
-\setmainfont[
-  Mapping=tex-text,
-  Ligatures=Common,
-   SmallCapsFont={TeX Gyre Termes},
-  SmallCapsFeatures={Letters=SmallCaps}
-]{FreeSerif}
-\setsansfont{FreeSans}
-\setmonofont{FreeMono}
-\newfontfamily\greekfont{FreeSerif}
-\newfontfamily\greekfontsf{FreeSans}
-\newfontfamily\greekfonttt{FreeMono}
+\setmainfont{Libertinus Serif}[Ligatures={TeX,Common}]
+\newfontfamily\latinfont{Libertinus Serif}[Ligatures={TeX,Common}]
+\setsansfont{Libertinus Sans}[Ligatures={TeX,Common}]
+\setmonofont{Libertinus Serif}[Ligatures={TeX,Common}]
+\newfontfamily\greekfont{GFSDidot.otf}[
+  Path=/usr/share/fonts/opentype/didot/,
+  Scale=MatchLowercase,
+  BoldFont=GFSDidotBold.otf,
+  ItalicFont=GFSDidotItalic.otf,
+  BoldItalicFont=GFSDidotBoldItalic.otf
+]
+\newfontfamily\greekfontsf{Libertinus Sans}[Ligatures={TeX,Common}]
+\newfontfamily\greekfonttt{GFSDidot.otf}[
+  Path=/usr/share/fonts/opentype/didot/,
+  Scale=MatchLowercase,
+  BoldFont=GFSDidotBold.otf,
+  ItalicFont=GFSDidotItalic.otf,
+  BoldItalicFont=GFSDidotBoldItalic.otf
+]
+\newfontfamily\fallbackfont{Libertinus Serif}[Ligatures={TeX,Common}]
+\usepackage[Latin,Greek]{ucharclasses}
+\setTransitionsForLatin{\latinfont}{}
+\setTransitionsForGreek{\greekfont}{\latinfont}
+\XeTeXinterchartoks\GreekExtendedClass\GreekAndCopticClass={}
+\XeTeXinterchartoks\GreekAndCopticClass\GreekExtendedClass={}
+\XeTeXcharclass"0308=\GreekAndCopticClass
+\XeTeXcharclass"0313=\GreekAndCopticClass
+\XeTeXcharclass"0342=\GreekAndCopticClass
+\newcommand{\fbchar}[1]{{\XeTeXinterchartokenstate=0\fallbackfont\mdseries\upshape #1}}
+\let\origunderscore\_
+\renewcommand{\_}{\origunderscore\penalty0\relax}
+\renewcommand{\texttt}[1]{#1}
+\AtBeginDocument{\lccode"2019=0 \lccode"0027=0}
 
-\usepackage[a4paper]{geometry}
-\geometry{left=2.5cm, right=2.5cm, top=2.8cm, bottom=2.8cm}
+\usepackage{newunicodechar}
+\newunicodechar{ᵉ}{\textsuperscript{e}}
+\newunicodechar{ʳ}{\textsuperscript{r}}
+\newunicodechar{☉}{\ensuremath{\odot}}
+\newunicodechar{ϗ}{\fbchar{ϗ}}
+\newunicodechar{Ϛ}{\fbchar{Ϛ}}
+\newunicodechar{ϛ}{\fbchar{ϛ}}
+\newunicodechar{Ϲ}{\fbchar{Ϲ}}
+\newunicodechar{ϲ}{\fbchar{ϲ}}
+\newunicodechar{⊢}{\fbchar{⊢}}
+\newunicodechar{⊣}{\fbchar{⊣}}
+\newunicodechar{∞}{\fbchar{∞}}
+\newunicodechar{※}{\fbchar{※}}
 
+\usepackage[a4paper, left=2.4cm, right=2.4cm, top=2.5cm, bottom=2.6cm]{geometry}
+\usepackage{microtype}
 \usepackage{amsmath,amssymb}
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{booktabs}
 \usepackage{setspace}
+\setstretch{1.08}
+\tolerance=1000
+\hbadness=10000
+\emergencystretch=3em
+\usepackage{xcolor}
+\usepackage{fancyhdr}
 \usepackage{hyperref}
+
+\definecolor{RavennasRed}{RGB}{125, 25, 25}
+\definecolor{ByzantineGold}{RGB}{150, 110, 25}
+\definecolor{InkBrown}{RGB}{55, 40, 30}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=RavennasRed,
+    citecolor=ByzantineGold,
+    urlcolor=RavennasRed,
+    pdftitle={Notice Codicologique, Stemmatique et Paléographique du Codex Ravennas 429 (Thesmophories)},
+    pdfauthor={Dossier Philologique et Paléographique — Édition Louis Hauseux (Bibi)}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\small\scshape Codex Ravennas 429 (\textbf{R}) — \textit{Thesmophories}}
+\fancyhead[RO]{\small\itshape Notice codicologique, stemmatique et paléographique}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
 
 %% --- Macros typographiques et critiques de l'édition Louis Hauseux (Bibi) ---
 \providecommand{\italique}[1]{\textit{#1}}
@@ -67,28 +127,29 @@
 \providecommand{\espApp}{\hspace{0.5em}|\hspace{0.5em}}
 
 %% Macros paléographiques : grattage (\inRas) et superposition (\auDessus)
-\providecommand{\inRas}[2]{[\!\![\text{#1}]\!\!]\text{#2}}
-\providecommand{\auDessus}[2]{$\overset{\text{#2}}{\text{#1}}$}
+\providecommand{\inRas}[2]{[\kern-0.15em[\text{#1}]\kern-0.15em]\text{#2}}
+\providecommand{\auDessus}[2]{\ensuremath{\overset{\text{#2}}{\text{#1}}}}
 
 %% Titres de sections dans le style de l'Introduction et des Annexes
 \providecommand{\Partie}[1]{%
-  \vspace{1.5em}\noindent{\Large\textsc{#1}}\par\vspace{0.6em}%
+  \vspace{1.4em}\noindent{\Large\bfseries\color{RavennasRed}\textsc{#1}}\par\vspace{0.2em}\noindent{\color{RavennasRed}\rule{\textwidth}{0.5pt}}\par\vspace{0.5em}%
 }
 \providecommand{\sousPartie}[1]{%
-  \vspace{1.1em}\noindent{\large\textbf{#1}}\par\vspace{0.4em}%
+  \vspace{1.0em}\noindent{\large\bfseries\color{InkBrown}#1}\par\vspace{0.35em}%
 }
 \providecommand{\soussousPartie}[1]{%
-  \vspace{0.8em}\noindent{\normalsize\textbf{#1}}\par\vspace{0.25em}%
+  \vspace{0.75em}\noindent{\normalsize\bfseries\color{InkBrown}#1}\par\vspace{0.2em}%
 }
 
 \begin{document}
 
 \begin{center}
-  {\LARGE\textsc{Le \italique{Codex Ravennas 429} (\latin{olim} 137, 4, A)}}\\[0.4em]
+  {\LARGE\bfseries\color{RavennasRed}\textsc{Le \italique{Codex Ravennas 429} (\latin{olim} 137, 4, A)}}\\[0.4em]
   {\Large\textsc{Étude codicologique, stemmatique et paléographique complète}}\\[0.3em]
-  {\large\italique{appliquée à l'édition critique des \italique{Thesmophories} d'Aristophane (\texttt{ff.~162v--177r}, vv.~1--1231) par Louis Hauseux (\textbf{Bibi})}}
+  {\large\italique{appliquée à l'édition critique des \italique{Thesmophories} d'Aristophane (\texttt{ff.~162v--177r}, vv.~1--1231) par Louis Hauseux (\textbf{Bibi})}}\\[0.5em]
+  {\color{ByzantineGold}\rule{0.85\textwidth}{0.8pt}}
 \end{center}
-\vspace{1em}
+\vspace{0.8em}
 
 \Partie{1. Identité, histoire et codicologie du \italique{Codex Ravennas 429}}
 
@@ -250,7 +311,7 @@ v.~1210 & \texttt{f.~176v} & τυγάθριον (\italique{ut vid.}) & \lecon{τ
 \sousPartie{6.2. Tableau récapitulatif des conjectures et choix éditoriaux propres à Louis Hauseux (\textbf{Bibi})}
 
 \begin{small}
-\begin{longtable}{c c p{3.6cm} p{4.2cm} p{4.0cm}}
+\begin{longtable}{c c p{3.3cm} p{4.0cm} p{3.8cm}}
 \toprule
 \textbf{Vers} & \textbf{Folio} & \textbf{Leçon de R} & \textbf{Texte / conjecture de \textbf{Bibi}} & \textbf{Justification paléographique} \\
 \midrule
@@ -312,7 +373,7 @@ v.~1198 & \texttt{f.~176v} & κ\inRas{ω}{ο}μίζεις αὐτοῖς \Rpc{} 
   \item \textbf{Contenu dramatique :} Notice liminaire (\italique{Hypothesis} succincte de \Rdeux{}, sans liste des personnages) ; Prologue (vv. 1–38 : dialogue philosophico-comique entre Mnésiloque et Euripide devant la maison d'Agathon ; vv. 39–42 : entrée du Serviteur d'Agathon en dimètres anapestiques).
   \item \textbf{Observations paléographiques et matérielles :}
   \begin{itemize}
-    \item En haut de la page, \Rdeux{} (Main~B) a copié en semi-onciale de glose une notice liminaire de trois lignes ($\text{ὁ χορὸς ἐκ θεσμοφοριαζουσῶν}\cdot \text{καὶ τοῦτο τὸ δρᾶμα τῶν κατ' Εὐριπίδου πεποιημένων}\cdot \text{ἀπὸ δὲ τῶν θεσμο} / \text{φορίων, τὰς θεσμοφοριαζούσας γυναῖκας ἐπέγραψεν, ἀφ' ὧν καὶ ὁ χορ(ός)}\cdot \text{Εὐριπίδου γυνὴ μὲν Χοιρίνη,} / \text{μή(τ)ηρ δὲ Κλειτώ :}\sim\ \text{προλογίζει Μνησίλοχ(ος) ὁ κηδεστὴς Εὐριπίδου }\div$, sans liste séparée des \italique{Dramatis personae}), source unique des noms de \textbf{$\text{Μνησίλοχος}$} et de \textbf{$\text{Χοιρίνη / Χοιρίλη}$} défendus par Louis Hauseux (« Le dossier Mnésiloque », \texttt{Introduction.tex}, ll. 325–357).
+    \item En haut de la page, \Rdeux{} (Main~B) a copié en semi-onciale de glose une notice liminaire de trois lignes (ὁ χορὸς ἐκ θεσμοφοριαζουσῶν· καὶ τοῦτο τὸ δρᾶμα τῶν κατ' Εὐριπίδου πεποιημένων· ἀπὸ δὲ τῶν θεσμο / φορίων, τὰς θεσμοφοριαζούσας γυναῖκας ἐπέγραψεν, ἀφ' ὧν καὶ ὁ χορ(ός)· Εὐριπίδου γυνὴ μὲν Χοιρίνη, / μή(τ)ηρ δὲ Κλειτώ :$\sim$ προλογίζει Μνησίλοχ(ος) ὁ κηδεστὴς Εὐριπίδου $\div$, sans liste séparée des \italique{Dramatis personae}), source unique des noms de \textbf{Μνησίλοχος} et de \textbf{Χοιρίνη / Χοιρίλη} défendus par Louis Hauseux (« Le dossier Mnésiloque », \texttt{Introduction.tex}, ll. 325–357).
     \item Au-dessous, le titre de première main précédé d'un \italique{asteriscus} en semi-onciale d'apparat : ※ ἀριστοφάνους θεσμοφοριάζουσαι —.
     \item \textbf{Inversion des vv. 3–4 et transposition des vv. 27–30 corrigées par lettres-chiffres :} Aux vv.~3–4, \Rac{} avait copié le v.~4 avant le v.~3 (\Rpc{} rétablit l'ordre par $\beta', \alpha'$) ; aux vv.~27–30, \Rac{} avait copié le v. 28 après le v. 30, et \Rpc{} a rétabli l'ordre exact en inscrivant à l'extrémité droite des quatre lignes les lettres numérales \textbf{\texttt{α, γ, δ, β}}.
     \item \textbf{Sigle tachygraphique gratté et scholie au v. 32 :} Comme le relève Louis Hauseux (\texttt{vv 1-641.tex}, ll. 777–787), le manuscrit comportait à l'intérieur du vers, devant οὐχ ἑόρακα πώποτε, le sigle tachygraphique μ\auDessus{ν}{Η} ($\overset{\text{Η}}{\text{μν}}$ = $\text{Μνησίλοχος}$), qui a été ensuite \textbf{gratté (\italique{ut videtur})} ; l'erreur de ce sigle est en outre prouvée par la scholie $\Sigma^{\text{R}}$ du v. 32 (ἐπειδὴ οὐ πάλαι ἤρξατο διδάσκειν, ἀλλὰ πρὸ τριῶν ἐτῶν πρὸ τούτου), qui ne se comprend qu'avec la 2\ieme{} personne ἑόρακας prononcée par Euripide.
@@ -659,7 +720,7 @@ v.~1198 & \texttt{f.~176v} & κ\inRas{ω}{ο}μίζεις αὐτοῖς \Rpc{} 
     \item \textbf{v. 477 :} Le vers de R (οὐδ' εἴρηκεν οὐδὲν πρὸς ἃ δρῶμεν· πολλ') est amputé d'une syllabe finale ; \textbf{\textbf{Bibi} restitue πολλά γ'· ἀλλ'} (chute de -ά γ'· ἀλλ' par saut du même au même entre les deux ΛΛ).
     \item \textbf{v. 489 :} \Rac{} avait écrit κυνδ' (confusion minuscule $\beta/\nu$), corrigé en \lecon{κύβδ'} par \Rpc{} (suivi par \Mon{}).
     \item \textbf{v. 493 :} Comme le précise Louis Hauseux (\texttt{vv 1-641.tex}, l. 3715), le copiste avait d'abord écrit la forme crue \lecon{ληκώμεθα} (attestée par la Souda $\sigma\ 1126$ et adoptée par L. Hauseux), puis a \textbf{gratté les trois premières lettres ληκ-} pour les remplacer par κιν- (\lecon{\inRas{ληκ}{κιν}ώμεθα} \Rpc{}) sous l'influence de la glose κινώμεθα.
-    \item \textbf{v. 500 (genèse paléographique d'un vers interpolé) :} Le v. 500 (ὑπ' αὐγὰς οἷόν ἐστιν ἐγκεκαλυμμένον), athétisé par van Herwerden et L. Hauseux (\texttt{vv 1-641.tex}, ll. 3781–3806), est né d'une glose ou citation marginale [τὸν μοιχόν·] ὑπαυγάσας. ᾦόν ἐστιν ἐγκεκαλυμμένον, dans laquelle ΩΙΟΝ (avec iota muet adscrit = $\text{ᾦόν}$, « un œuf enveloppé ») a été lu par iotacisme et bêtacisme $\omega/\text{ο}$ \textbf{ΟΙΟΝ (οἷόν)}, entraînant la réécriture métrique ὑπ' αὐγὰς οἷόν ἐστιν....
+    \item \textbf{v. 500 (genèse paléographique d'un vers interpolé) :} Le v. 500 (ὑπ' αὐγὰς οἷόν ἐστιν ἐγκεκα\-λυμμένον), athétisé par van Herwerden et L. Hauseux (\texttt{vv 1-641.tex}, ll. 3781–3806), est né d'une glose ou citation marginale [τὸν μοιχόν·] ὑπαυγάσας. ᾦόν ἐστιν ἐγκεκα\-λυμμένον, dans laquelle ΩΙΟΝ (avec iota muet adscrit = $\text{ᾦόν}$, « un œuf enveloppé ») a été lu par iotacisme et bêtacisme $\omega/\text{ο}$ \textbf{ΟΙΟΝ (οἷόν)}, entraînant la réécriture métrique ὑπ' αὐγὰς οἷόν ἐστιν....
     \item \textbf{v. 506 :} L'optatif \lecon{βοῴη}, omis par \Rac{}, est suppléé par \Rpc{}.
   \end{itemize}
   \item \textbf{Apparat critique complet et discussions de l'édition Louis Hauseux (\texttt{vv. 466–508}) :}
@@ -1320,9 +1381,9 @@ v.~1198 & \texttt{f.~176v} & κ\inRas{ω}{ο}μίζεις αὐτοῖς \Rpc{} 
 
 \begin{itemize}
   \item \textbf{Notice et visionneuse officielle (\italique{Collezioni Digitali Classensi}) :} \url{https://www.cdc.classense.ra.it/s/Classense/item/4651}
-  \item \textbf{Manifeste IIIF officiel :} \url{https://www.cdc.classense.ra.it/iiif/2/4651/manifest} (copie locale dans le dépôt : \texttt{ravennas\_1904\_bnf/manifest\_iiif\_classense\_ms429.json})
+  \item \textbf{Manifeste IIIF officiel :} \url{https://www.cdc.classense.ra.it/iiif/2/4651/manifest} (copie locale dans le dépôt : \texttt{ravennas\_1904\_bnf/\allowbreak manifest\_iiif\_classense\_ms429.json})
   \item \textbf{Planches doubles haute définition des \italique{Thesmophories} (\texttt{canvas/p166} à \texttt{canvas/p180}, $3946 \times 2780\,\text{px}$) :} \url{https://www.cdc.classense.ra.it/iiif/2/29059/full/full/0/default.jpg} (planche 166) jusqu'à \url{https://www.cdc.classense.ra.it/iiif/2/29073/full/full/0/default.jpg} (planche 180).
-  \item \textbf{Monographie graphologique, historique et philologique approfondie et Atlas des 16 spécimens paléographiques recadrés :} voir dans le même dossier \texttt{Analyse\_Graphologique\_Historique\_et\_Philologique\_Ravennas.md}, \texttt{Analyse\_Graphologique\_Historique\_et\_Philologique\_Ravennas.tex} et le sous-dossier \texttt{specimens\_paleographiques/} (\texttt{01\_...jpg} à \texttt{16\_...jpg}).
+  \item \textbf{Monographie graphologique, historique et philologique approfondie et Atlas des 16 spécimens paléographiques recadrés :} voir dans le même dossier \texttt{Analyse\_\allowbreak Graphologique\_\allowbreak Historique\_\allowbreak et\_\allowbreak Philologique\_\allowbreak Ravennas.md}, \texttt{Analyse\_\allowbreak Graphologique\_\allowbreak Historique\_\allowbreak et\_\allowbreak Philologique\_\allowbreak Ravennas.tex} et le sous-dossier \texttt{specimens\_\allowbreak paleographiques/} (\texttt{01\_...jpg} à \texttt{16\_...jpg}).
   \item \textbf{Bibliographie essentielle :} \textbf{Louis Hauseux} [\textbf{Bibi}], \italique{Aristophane : Les Thesmophories. Texte établi, traduit et commenté}, Paris, L'Harmattan / éd.~révisée ; \textbf{Johannes van Leeuwen}, \italique{Aristophanis Codex Ravennas 137, 4, A phototypice editus}, Leyde, Sijthoff, 1904 ; \textbf{Adolf von Velsen}, \italique{Über den Codex Urbinas der Lysistrata und der Thesmophoriazusen}, Halle, 1871, et \italique{Aristophanis Thesmophoriazusae}, Leipzig, 1883 ; \textbf{Albert Martin}, \italique{Les scolies du manuscrit d'Aristophane à Ravenne}, Paris, 1882 ; \textbf{Alphonse Willems}, \italique{Aristophane}, Paris--Bruxelles, 1919, t.~III ; \textbf{Viktor Gardthausen}, \italique{Griechische Palaeographie}, 2\ieme{} éd., Leipzig, 1911--1913 ; \textbf{Lidia Perria}, « Il \italique{Ravennas 429} di Aristofane », \italique{Scrittura e Civiltà}, 9 (1985), pp.~31--56 ; \textbf{Pasquale Orsini}, \italique{Segno e Testo}, 16 (2018), pp.~265--342.
 \end{itemize}
 
