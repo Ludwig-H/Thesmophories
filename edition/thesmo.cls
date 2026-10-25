@@ -1014,4 +1014,5 @@
 \newcommand\Rpc{R\textsuperscript{pc}}
 \newcommand\Rii{R\textsuperscript{2}}
 \newcommand\Bibi{Bibi}
+\newcommand\fol[2]{#1\textsuperscript{#2}}
 \RequirePackage{thesmo-compat}
