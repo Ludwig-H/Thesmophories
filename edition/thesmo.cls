@@ -49,13 +49,16 @@
 \definecolor{gris}{HTML}{6E6E6E}
 \definecolor{filet}{HTML}{9A9A9A}
 %% Code couleur des mains du Ravennas (à ajuster après l'étude graphologique)
-\definecolor{mainRi}{HTML}{161616}   % R1 : copiste du texte
-\definecolor{mainRic}{HTML}{5A4632}  % R1c : corrections du copiste lui-même
-\definecolor{mainRii}{HTML}{A4161A}  % R2 : correcteur ancien
-\definecolor{mainRiii}{HTML}{1D4E89} % R3 : main postérieure
-\definecolor{mainRrec}{HTML}{2D6A4F} % Rrec : main récente (humaniste)
-\definecolor{mainSch}{HTML}{6B4E16}  % main des scholies (si distincte)
+\definecolor{mainR1}{HTML}{161616}   % R1 : copiste du texte
+\definecolor{mainR1c}{HTML}{6B5235}  % R1c : corrections du copiste lui-même
+\definecolor{mainR2}{HTML}{A4161A}   % R2 : correcteur ancien
+\definecolor{mainR3}{HTML}{7A3E9D}   % R3 : autre main ancienne
+\definecolor{mainRsch}{HTML}{6B4E16} % main des scholies (si distincte de R1)
+\definecolor{mainRrec}{HTML}{1D4E89} % Rrec : main récente (humaniste)
+\definecolor{mainRmod}{HTML}{2D6A4F} % Rmod : main moderne (bibliothécaire…)
+\definecolor{mainR?}{HTML}{707070}   % main non déterminée
 \definecolor{rubrique}{HTML}{B5462B} % encre rouge du manuscrit
+\definecolor{fondras}{HTML}{E9E4DA}  % fond des passages écrits sur grattage
 \newcommand\main[2]{\textcolor{main#1}{#2}}
 
 %% ------------------------------------------------------------------ Divers
@@ -968,14 +971,41 @@
 \ExplSyntaxOff
 
 %% ------------------------------------------------------------------ Signes de transcription
-%% (provisoires : à fixer avec le guide de transcription)
+%% Macros produites par outils/transcription/xml_vers_latex.py (voir ravennas/FORMAT_TRANSCRIPTION.md)
+\RequirePackage{luacolor}
+\RequirePackage{lua-ul}
+\newcommand\Dcol[2]{\textcolor{main#1}{#2}}
+\newcommand\Dpetit{\fontsize{5.8}{6}\selectfont}
+\newcommand\Dnota[2][R1]{{\fontsize{7.5}{9}\selectfont\Dcol{#1}{#2}}\,}
+\newcommand\Dparag{\rlap{\raisebox{-0.42\baselineskip}{\color{encre}\rule{4.2mm}{0.45pt}}}}
+\newcommand\Dsupra[2]{\makebox[0pt][c]{\raisebox{1.32ex}[0pt][0pt]{\Dpetit\Dcol{#1}{#2}}}}
+\newcommand\Dinfra[2]{\makebox[0pt][c]{\raisebox{-1.05ex}[0pt][0pt]{\Dpetit\Dcol{#1}{#2}}}}
+\newcommand\Dadd[3][R1]{%
+  \ifstrequal{#2}{dessus}{\Dsupra{#1}{#3}}{%
+  \ifstrequal{#2}{dessous}{\Dinfra{#1}{#3}}{%
+  \ifstrequal{#2}{ligne}{\Dcol{#1}{#3}}{%
+  {\Dpetit\raisebox{0.6ex}{\color{gris}\textit{mg.}}}\,\Dcol{#1}{#3}}}}}
+\newcommand\Ddel[3][R1]{%
+  \ifstrequal{#2}{grattage}{{\color{gris}⟦}{\color{gris}\ifblank{#3}{\,·\,}{#3}}{\color{gris}⟧}}{%
+  \ifstrequal{#2}{biffure}{\strikeThrough{#3}}{%
+  \ifstrequal{#2}{exponctuation}{\Dcol{#1}{\underLine{#3}}}{%
+  {\color{gris}#3}}}}}
+\newcommand\Dsubst[3][R2]{\Dcol{#1}{#3}\ifblank{#2}{}{\textsuperscript{\Dpetit\color{gris}(#2)}}}
+\newcommand\Dras[2][R1]{\highLight[fondras]{\Dcol{#1}{#2}}}
+\newcommand\Dgap[1]{{\color{gris}[\,\foreach@dots{#1}\,]}}
+\def\foreach@dots#1{\@tempcnta=#1\relax\loop\ifnum\@tempcnta>0 ·\advance\@tempcnta-1 \repeat}
+\newcommand\Dabbr[2]{#1{\color{gris}(}#2{\color{gris})}}
+\newcommand\Dgl[3][R1]{\setbox0\hbox{#2}\makebox[0pt][r]{\makebox[\wd0][c]{\raisebox{1.42ex}[0pt][0pt]{\Dpetit\Dcol{#1}{#3}}}}}
+\newcommand\Dhi[2]{\ifstrequal{#1}{rouge}{\textcolor{rubrique}{#2}}{\ifstrequal{#1}{grand}{{\large #2}}{#2}}}
+\newcommand\Dsp[1]{\hspace{#1\fontdimen2\font}\hspace{#1\fontdimen2\font}}
+\newcommand\Dsigne[2]{{\fontsize{7.5}{9}\selectfont #2}}
+\newcommand\Dzone[2]{\ifstrequal{#1}{titre}{\hfil #2\hfil}{\ifstrequal{#1}{hypothesis}{{\fontsize{8}{9}\selectfont #2}}{#2}}}
+\newcommand\Dmain[2]{\Dcol{#1}{#2}}
+\RequirePackage{etoolbox}
+%% compatibilité avec la maquette d'essai
 \newcommand\sig[1]{{\diplofont\fontsize{7.5}{9}\selectfont #1}}
-\newcommand\supra[3][Rii]{\leavevmode\raisebox{0pt}[0pt][0pt]{\rlap{\raisebox{1.3ex}{\diplofont\fontsize{6}{6}\selectfont\color{main#1}#3}}}#2}
-\newcommand\gl[3][Ri]{\leavevmode\raisebox{0pt}[0pt][0pt]{\rlap{\raisebox{1.35ex}{\diplofont\fontsize{5.6}{5.6}\selectfont\color{main#1}#3}}}#2}
-\newcommand\ras[1]{⟦#1⟧}
-\newcommand\cor[2][Rii]{\textcolor{main#1}{#2}}
-\newcommand\inc[1]{#1\kern-0.0em\textsuperscript{?}}
-\newcommand\lac[1]{[#1]}
+\newcommand\supra[3][R2]{#2\Dsupra{#1}{#3}}
+\newcommand\gl[3][R1]{#2\Dgl[#1]{#2}{#3}}
 \newcommand\vv[1]{\textbf{#1}}
 \newcommand\lem[1]{#1\,]}
 \newcommand\om{\textit{om.}}
