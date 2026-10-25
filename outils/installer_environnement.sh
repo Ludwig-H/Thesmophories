@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Installation des dépendances système du chantier (à relancer après reconstruction du codespace).
+set -euo pipefail
+sudo apt-get update -qq
+sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq texlive-luatex djvulibre-bin tesseract-ocr
+python3 -m pip install -q fonttools
+luaotfload-tool --update
