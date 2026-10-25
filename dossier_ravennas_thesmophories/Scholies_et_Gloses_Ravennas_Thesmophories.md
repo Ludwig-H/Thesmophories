@@ -1,5 +1,7 @@
 # Atlas & Édition Intégrale des Scholies Marginales (Σᴿ), Gloses Interlinéaires et Collation Diplomatique Ligne par Ligne du *Codex Ravennas 429* (*Les Thesmophories*, `ff. 162v–177r`, vv. 1–1231)
-> **Corpus exhaustif des 386 scholies anciennes (Σᴿ), gloses interlinéaires et *parepigraphai* scéniques copiées par la Main B (R²), accompagné de la collation diplomatique intégrale des 30 folios (`f. 162v` à `f. 177r`, 1 239 lignes) et lié à l'édition critique et commentée de Louis Hauseux (sigle d'apparat : `Bibi`).**  > Édition Grand In-Quarto (240 × 340 mm) composée en **Libertinus Serif** (français et apparat) et **GFS Didot** (grec ancien polytonique) : [`Scholies_et_Gloses_Ravennas_Thesmophories.pdf`](Scholies_et_Gloses_Ravennas_Thesmophories.pdf) | Source XeLaTeX : [`Scholies_et_Gloses_Ravennas_Thesmophories.tex`](Scholies_et_Gloses_Ravennas_Thesmophories.tex)
+> **Corpus exhaustif des 386 scholies anciennes (Σᴿ), gloses interlinéaires et *parepigraphai* scéniques copiées par la Main B (R²), accompagné de la collation diplomatique intégrale des 30 folios (`f. 162v` à `f. 177r`, 1 238 lignes) et lié à l'édition critique et commentée de Louis Hauseux (sigle d'apparat : `Bibi`).**
+>
+> Édition Grand In-Quarto (240 × 340 mm) composée en **Libertinus Serif** (français et apparat) et **GFS Didot** (grec ancien polytonique) : [`Scholies_et_Gloses_Ravennas_Thesmophories.pdf`](Scholies_et_Gloses_Ravennas_Thesmophories.pdf) | Source XeLaTeX : [`Scholies_et_Gloses_Ravennas_Thesmophories.tex`](Scholies_et_Gloses_Ravennas_Thesmophories.tex)
 ---
 ## Première Partie — Étude Codicologique, Paléographique, Tachygraphique, Lexicographique et Critique du Corpus Σᴿ
 ### 1. Statut unique des scholies du *Ravennas* (Σᴿ) pour *Les Thesmophories*
@@ -10,7 +12,7 @@ Parmi les onze comédies d'Aristophane conservées dans le ***Codex Ravennas 429
 Le réviseur-scholiaste **R²** organise son commentaire autour de la colonne poétique unique copiée par **R¹** (37 à 46 vers par page, 24 vers sur la dernière page `f. 177r`) selon la géométrie matérielle du bifolio de parchemin :
 - **Sur les 15 folios *versos* (`f. 162v` à `f. 176v`, pages de gauche du livre ouvert)** : la **grande marge extérieure** se situe **à gauche** de la colonne poétique ; c'est là (ainsi que dans la marge supérieure et la marge inférieure) que R² copie les grandes scholies exégétiques, tandis que la marge intérieure droite (côté pliure) reçoit les *notae personarum* de second hémistiche, les chiffres de transposition (α', β', γ', δ' au `f. 162v`), les vers rétablis (v. 33 au `f. 162v`) et les gloses courtes.
 - **Sur les 15 folios *rectos* (`f. 163r` à `f. 177r`, pages de droite du livre ouvert)** : la **grande marge extérieure** se situe **à droite** de la colonne poétique ; c'est dans cette marge droite (ainsi qu'en haut et en bas de page) que R² dispose les scholies développées, tandis que la marge intérieure gauche reçoit les sigles d'interlocuteurs, les *paragraphoi* (`—`) et les notes brèves.
-- **Dans l'interligne (*supra lineam*) et à l'intérieur de la colonne (*intra textum*)** : R² inscrit en minuscule/semi-onciale microscopique les gloses lexicales (`ἀντὶ τοῦ...`, `λείπει...`) juste au-dessus du mot glosé, tandis que la colonne même conserve **quatre *parepigraphai* scéniques antiques** (`μινυρισμός` v. 100, `ὀλολύζει ὁ γέρων` v. 129, `ὀλολύζουσιν· ἱερὸν ὠθεῖται` v. 277, `αὐλεῖ` v. 1175 et `ἀνακύπτει καὶ παρακύπτει ἀπεψωλημένος` v. 1187) ainsi que plusieurs gloses anciennes incorporées par erreur dans le texte poétique de l'archétype (v. 23, vv. 297–298, v. 500, v. 531 `γυναικῶν`, v. 557 `τὸν σῖτον`, v. 701 `ἔργα`, v. 822 `οἱ καλαθίσκοι`).
+- **Dans l'interligne (*supra lineam*) et à l'intérieur de la colonne (*intra textum*)** : R² inscrit en minuscule/semi-onciale microscopique les gloses lexicales (`ἀντὶ τοῦ...`, `λείπει...`) juste au-dessus du mot glosé, tandis que la colonne même conserve **quatre *parepigraphai* scéniques antiques** (`μινυρισμός` v. 100, `ὀλολύζει ὁ γέρων` v. 129, `ὀλολύζουσιν· ἱερὸν ὠθεῖται` v. 277, `αὐλεῖ` v. 1175 et `ἀνακύπτει καὶ παρακύπτει ἀπεψωλημένος` v. 1187) ainsi que plusieurs gloses anciennes incorporées par erreur dans le texte poétique de l'archétype (v. 23, vv. 297 et 300, v. 500, v. 531 `γυναικῶν`, v. 557 `τὸν σῖτον`, v. 701 `ἔργα`, v. 822 `οἱ καλαθίσκοι`).
 
 | N° | Folio ancien | Pagination Classense | R° / V° | Vers couverts | Lignes (`R¹`) | Scholies & Gloses (`R²`) | Numéros dans l'Atlas | Pièces maîtresses du commentaire Σᴿ sur le folio |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
@@ -21,7 +23,7 @@ Le réviseur-scholiaste **R²** organise son commentaire autour de la colonne po
 | **05** | `f. 164v` | `Classense 166v` | V° (g.) | 165–207 | 43 | **8** | `Σ 074`–`Σ 081` | Σ 168 (Philoclès *Korydos*, fr. de Téléclide), Σ 179 (glose `μεγάλῃ καὶ θαυμαστῇ` prouvant `καινῇ` contre `κοινῇ`), Σ 190 (mort d'Euripide 6 ans plus tard), Σ 194 (*Alceste* 691) |
 | **06** | `f. 165r` | `Classense 167r` | R° (dr.) | 208–251 | 44 | **13** | `Σ 082`–`Σ 094` | Σ 215 (*Idéens* de Cratinos), Σ 220 (`ξυροδόκης` sur `δουροδόκη`), Σ 224 (sanctuaire des Érinyes), Σ 231 (`μύζειν`), Σ 236 (`δελφάκια`), Σ 242 (`οἰκίαν`), Σ 246 (`τράμις`) |
 | **07** | `f. 165v` | `Classense 167v` | V° (g.) | 252–294 | 44 | **17** | `Σ 095`–`Σ 111` | Σ 254 (`ποσθίου`), Σ 258 (*Charlatans* d'Aristomène), Σ 261 (`ἔγκυκλον` vs `κροκωτός`), Σ 272 (*Mélanippe*), Σ 273 (`Ὑποκράτους`), Σ 277 (*parepigraphê*), Σ 289 (`Χοιρίλ'`), Σ 291 (`θυλάκιον`) |
-| **08** | `f. 166r` | `Classense 168r` | R° (dr.) | 295–336 | 46 | **10** | `Σ 112`–`Σ 121` | Σ 295 (`γυνὴ μιμουμένη κήρυκα`, grattage de `Κῆρυξ`), Σ 297–299 (gloses intruses `τῇ Δήμητρῃ...` et prologue de Kalligéneia dans les *Thesmophories II*), Σ 336 (`φιλίαν σπένδει`) |
+| **08** | `f. 166r` | `Classense 168r` | R° (dr.) | 295–336 | 42 | **10** | `Σ 112`–`Σ 121` | Σ 295 (`γυνὴ μιμουμένη κήρυκα`, grattage de `Κῆρυξ`), Σ 297–300 (gloses intruses `τῇ Δήμητρῃ...` et prologue de Kalligéneia dans les *Thesmophories II*), Σ 336 (`φιλίαν σπένδει`) |
 | **09** | `f. 166v` | `Classense 168v` | V° (g.) | 337–379 | 42 | **14** | `Σ 122`–`Σ 135` | Σ 339 (imprécation civique contre les Pisistratides et Hippias), Σ 346 (variante `ἑταίρᾳ` avec iota adoptée par `Bibi`), Σ 365 (les Mèdes), Σ 373 (`Τιμόκλεια` épistate) |
 | **10** | `f. 167r` | `Classense 169r` | R° (dr.) | 380–422 | 43 | **18** | `Σ 136`–`Σ 153` | Σ 380 (couronne de l'orateur), Σ 389 (`ἐπισμῇ`, Diodore et *Cléoboulines* de Cratinos), Σ 393 (Symmaque et la vraie leçon `οἰνοπίπας`), Σ 395 (`ἴκρια`), Σ 401 (Sappho fr. 125), Σ 404 (*Sthénébée*) |
 | **11** | `f. 167v` | `Classense 169v` | V° (g.) | 423–465 | 49 | **12** | `Σ 154`–`Σ 165` | Σ 423 (clés laconiennes à trois dents, *Misoumenos* de Ménandre), Σ 427 (`θριπήδεστα`), Σ 441 (Xénoclès fils de Carcinos), Σ 458 (`συνθηματιαίους` = `ἐκδοτικούς`) |
@@ -79,7 +81,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 1 | `μν^(Η)` | ὦ Ζεῦ χελιδὼν **ἆρά ποτε** φανήσεται; | **1** ἄρα πότε R : **ἆρά ποτε** Biset |
 | 2 |  | ἀπολεῖ μ᾽ ἀλοῶν **ἅνθρωπος** ἐξ ἑωθινοῦ· | **2** ἄνθρωπος R : **ἅνθρωπος** Boissonade |
 | 3 |  | οἷόν **τε**, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλεῖν **[β Rᵖᶜ]** | **3** τι R : **τε** Σ (δυνατόν), Suid. οι 150 ∥ vv. 3–4 inv. Rᵃᶜ : litt. β', α' corr. Rᵖᶜ |
-| 4 |  | παρὰ σοῦ πυθέσθαι ποῖ μ᾽ ἄγεις ωὖριπίδη; **[α Rᵖᶜ]** |  |
+| 4 |  | παρὰ σοῦ πυθέσθαι ποῖ μ᾽ ἄγεις **ωὖριπίδη**; **[α Rᵖᶜ]** | **4** εὐριπίδη R : **ωὖριπίδη** Dindorf |
 | 5 | `εὐ^(ρ)` | ἀλλ᾽ οὐκ ἀκούειν δεῖ σε πάνθ᾽ **ὅσ᾽** αὐτίκα | **5** ὅσ R : **ὅσ᾽** M |
 |  | `—` | ὄψει παρεστώς. :^(μν) πῶς λέγεις; αὖθις φράσον· |  |
 |  | `—` | οὐ δεῖ μ᾽ ἀκούειν; :^(εὐ) οὐχ ἅ γ᾽ ἂν μέλλῃς ὁρᾶν· |  |
@@ -103,13 +105,13 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 25 | `εὐ^(ρ)` | βάδιζε δευρὶ καὶ πρόσεχε τὸν νοῦν. :^(μν) ἰδού· |  |
 |  | `εὐ^(ρ)` | ὁρᾷς τὸ θύριον τοῦτο; :^(μν) νὴ τὸν Ἡρακλέα |  |
 | 27 | `—` | οἶμαί γε :^(εὐ) σίγα **νυν** :^(μν) σιωπῶ τὸ θύριον· **[α Rᵖᶜ]** | **27** νῦν R : **νυν** Boissonade ∥ θύριον R : **θύριον;** Dindorf |
-| 28 | `εὐ^(ρ)` | ἄκου᾽ :^(μν) **ἀκούω** καὶ σιωπῶ τὸ θύριον· **[β Rᵖᶜ]** | **28** ἀκούσω R : **ἀκούω** Brunck ∥ vers. 28 post 30 transp. Rᵃᶜ: **corr.** Rᵖᶜ |
+| 28 | `εὐ^(ρ)` | ἄκου᾽ :^(μν) **ἀκούω** καὶ σιωπῶ τὸ θύριον· **[β Rᵖᶜ]** | **28** ἀκούσω R : **ἀκούω** Brunck ∥ vers. 28 post 30 transp. Rᵃᶜ : **corr.** Rᵖᶜ |
 | 29 | `εὐ^(ρ)` | ἐνταῦθ᾽ Ἀγάθων ὁ κλεινὸς οἰκῶν τυγχάνει **[γ Rᵖᶜ]** |  |
 | 30 | `—` | ὁ τραγῳδοποιός :^(μν) ποῖος οὗτος **Ἁγάθων**· **[δ Rᵖᶜ]** | **30-1** Ἀγάθων (bis) R : **Ἁγάθων** et **ἀγαθῶν** Bibi |
-| 31 |  | ἔστιν τις **ἀγαθῶν**; μῶν ὁ μέλας ὁ καρτερός· | **31** ἔστιν τις ἀγαθῶν **(Μνη.) continuat** R : (Εὐρ.) M∥ Ἀγάθων R : **ἀγαθῶν;** Bibi |
-| 32 | `εὐ^(ρ)` | οὔκ, ἀλλ᾽ ἕτερός τις· ⟦~~μν^(Η)~~⟧οὐχ **ἑόρακας** πώποτε; | **32** (Μνη.) οὐχ ... πώποτε Rᵃᶜ: **(Εὐρ.) continuat** Rᵖᶜ, Σ ∥ ἑόρακα R : **ἑόρακας** Bentley ∥ **v. 33** omm. Rᵃᶜ, M: in marg. Rᵖᶜ |
-| 33 | `μν^(Η)` | ⟦in marg. Rᵖᶜ : μῶν ὁ δασυπώγων : οὐχ ἑόρακας πώποτε·⟧ | **33** omm. Rᵃᶜ, M : **in marg.** Rᵖᶜ |
-| 34 | `μν^(Η)` | μὰ τὸν Δί᾽ οὔτοι γ᾽ ὥστε **κἀμέ γ᾽** (~~καὶ~~^(κἀ)μέ γ᾽) εἰδέναι· | **34** καὶ μεγ᾽ Rᵃᶜ (ὶ eras. Rᵖᶜ) : καὶ μεγ᾽ M: **κἀμέ γ᾽** edd. omn. |
+| 31 |  | ἔστιν τις **ἀγαθῶν**; μῶν ὁ μέλας ὁ καρτερός· | **31** ἔστιν τις ἀγαθῶν **(Μνη.) continuat** R : (Εὐρ.) M ∥ Ἀγάθων R : **ἀγαθῶν;** Bibi |
+| 32 | `εὐ^(ρ)` | οὔκ, ἀλλ᾽ ἕτερός τις· ⟦~~μν^(Η)~~⟧ οὐχ **ἑόρακας** πώποτε; | **32** (Μνη.) οὐχ ... πώποτε Rᵃᶜ : **(Εὐρ.) continuat** Rᵖᶜ, Σ ∥ ἑόρακα R : **ἑόρακας** Bentley ∥ **v. 33**  omm. Rᵃᶜ, M : in marg. Rᵖᶜ |
+| 33 | `μν^(Η)` | ⟦in marg. Rᵖᶜ : μῶν ὁ δασυπώγων; : οὐχ ἑόρακας πώποτε·⟧ | **33** omm. Rᵃᶜ, M : in marg. suppl. Rᵖᶜ (**μῶν ὁ δασυπώγων** Rᵖᶜ : οὔκ, ἀλλ᾽ ἕτερός τις Rutherford) |
+| 34 | `μν^(Η)` | μὰ τὸν Δί᾽ οὔτοι γ᾽ ὥστε **κἀμέ γ᾽** (~~καὶ~~^(κἀ)μέ γ᾽) εἰδέναι· | **34** καὶ μεγ᾽ Rᵃᶜ  (ὶ eras. Rᵖᶜ) : καὶ μεγ᾽ M : **κἀμέ γ᾽** edd. omn. |
 | 35 | `εὐ^(ρ)` | καὶ μὴν **†**βε~~α~~^(β)ίνηκας**†** σύ γ᾽, ἀλλ᾽ οὐκ οἶσθ᾽ ἴσως· | **35** βε~~α~~^(β)ίνηκας Rᵖᶜ (ex βεαίνηκας Rᵃᶜ ut vid.) : **†βεβίνηκας†** Bibi |
 |  |  | ἀλλ᾽ ἐκποδὼν πτήξωμεν, ὡς ἐξέρχεται |  |
 |  |  | θεράπων τις αὐτοῦ πῦρ ἔχων καὶ μυρρίνας |  |
@@ -279,7 +281,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 | Vers | Sigle (`R²`) | Transcription diplomatique ligne par ligne de `R` | Apparat critique en regard (éd. Louis Hauseux, `Bibi`) |
 | :---: | :---: | :--- | :--- |
-| 43 | `θερ/` | ἐχέτω^(ἐπεχέτω) δὲ πνοὰς νήνεμος αἰθήρ, | **43** **ἐχέτω** R (avec la glose interne ἐπεχέτω) |
+| 43 | `θερ/` | ἐχέτω^(\tiny ἐπεχέτω) δὲ πνοὰς νήνεμος αἰθήρ, | **43** **ἐχέτω** R (avec la glose interne ἐπεχέτω) |
 | 44 |  | κῦμα δὲ πόντου μὴ κελαδείτω | **44** **δὲ** R : τε Austin, cf. v.46, 47 |
 | 45 | `—` | γλαυκόν — : βομβάξ· : σίγα· τί λέγει~~ς~~; | **45** λέγει~~ς~~ Rᵖᶜ |
 |  | `θερ/` | πτηνῶν τε γένη κατακοιμάσθω, |  |
@@ -296,7 +298,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  | `—` | καὶ χοανεύει— : καὶ λαικάζει· |  |
 | 58 | `θερ/` | τίς **ἀγροιώτας** πελάθει θριγκοῖς; | **58** ἀγριώτας R : **ἀγροιώτας** anonym. Parisinus |
 |  | `μν^(Η)` | ὃς ἕτοιμος σοῦ τοῦ τε ποιητοῦ |  |
-| 60 |  | τοῦ καλλιεποῦς ^(κατὰ) τοῦ θριγκοῦ | **60** κατὰ om. Rᵃᶜ: add. Rᵖᶜ |
+| 60 |  | τοῦ καλλιεποῦς ^(κατὰ) τοῦ θριγκοῦ | **60** κατὰ om. Rᵃᶜ : add. Rᵖᶜ |
 | 61 |  | **συγγογγύλας** καὶ συστρέψας | **61** γογγυλίσας R : **συγγογγύλας** Enger |
 |  |  | τουτὶ τὸ πέος χοανεῦσαι· |  |
 |  | `θερ/` | ἦ που νέος γ᾽ ὢν ἦσθ᾽ ὑβριστὴς ὦ γέρον· |  |
@@ -459,24 +461,24 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | ἀτὰρ τίν᾽ ἐκ ταύτης σὺ μηχανὴν ἔχεις; |  |
 |  | `εὐ^(ρ)` | Ἀγάθωνα πεῖσαι τὸν τραγῳδοδιδάσκαλον |  |
 |  | `—` | ἐς Θεσμοφόροιν ἐλθεῖν. : τί δράσοντ᾽; εἰπέ μοι· |  |
-| 90 | `εὐ^(ρ)` | ἐκκλησιάσοντ᾽ ἐν ταῖς **γυναιξὶ** **χἂν** δέῃ | **90** γυναιξίν R : **γυναιξὶ** M∥ κἂν R : **χἂν** Markland (1763) ad Eur. *Suppl.* 364 |
+| 90 | `εὐ^(ρ)` | ἐκκλησιάσοντ᾽ ἐν ταῖς **γυναιξὶ** **χἂν** δέῃ | **90** γυναιξίν R : **γυναιξὶ** M ∥ κἂν R : **χἂν** Markland (1763) ad Eur. *Suppl.* 364 |
 | 91 | `—` | λέξονθ᾽ ὑπὲρ ἐμοῦ. : πότερα φανερὸν ἢ λάθρᾳ; | **91** **φανερὸν** R : φανερῶς Meineke |
 |  | `εὐ^(ρ)` | λάθρᾳ, στολὴν γυναικὸς ἠμφιεσμένον· |  |
 |  | `μν^(Η)` | τὸ πρᾶγμα κομψὸν καὶ σφόδρ᾽ ἐκ τοῦ σοῦ τρόπου· |  |
 |  |  | τοῦ γὰρ τεχνάζειν ἡμέτερος ὁ πυραμοῦς· |  |
 | 95 | `εὐ^(ρ)` | σίγα. : τί δ᾽ ἔστιν; : Ἁγάθων ἐξέρχεται· | **95** **τί δ᾽** R : τί Kaibel |
-| 96 | `μν^(Η)` | καὶ **ποῖός** ἐστιν; : οὗτος οὑκκυκλούμενος· | **96** ποῖο ἐστὶν οὗτος — οὑκκυκλούμενος R : ποῖος ἐστὶν οὗτος — οὑκκυκλούμενος M: ποῦ ᾽σθ᾽; — ὅπου ᾽στίν; οὗτος οὑκκυκλούμενος Meineke : **ποῖος ἐστὶν; — οὗτος οὑκκυκλούμενος** Tyrwhitt (p. 65) |
-| 97 | `μν^(Η)` | ἀλλ᾽ ἦ τυφλὸς μέν εἰμ᾽· ἐγὼ γὰρ οὐχ ὁρῶ | **97** ἢ R : **ἦ** Biset |
+| 96 | `μν^(Η)` | καὶ **ποῖός** ἐστιν; : οὗτος οὑκκυκλούμενος· | **96** ποῖο ἐστὶν οὗτος — οὑκκυκλούμενος R : ποῖος ἐστὶν οὗτος — οὑκκυκλούμενος M : ποῦ ᾽σθ᾽; — ὅπου ᾽στίν; οὗτος οὑκκυκλούμενος Meineke : **ποῖος ἐστὶν; — οὗτος οὑκκυκλούμενος** Tyrwhitt (p. 65) |
+| 97 | `μν^(Η)` | ἀλλ᾽ **ἦ** τυφλὸς μέν εἰμ᾽· ἐγὼ γὰρ οὐχ ὁρῶ | **97** ἢ R : **ἦ** Biset |
 |  |  | ἄνδρ᾽ οὐδέν᾽ ἐνθάδ᾽ ὄντα, Κυρήνην δ᾽ ὁρῶ· |  |
-| 99 | `εὐ^(ρ)` | σίγα· μελῳδεῖν νῦν παρασκευάζεται· | **99** ἂν R : **νῦν** Rogers : alii alia |
-|  |  | **[παρεπιγραφή R¹ :]** **μινυρισμός** | **post 99** **μινυρισμός** (παρεπιγραφή) R, Σᴿ |
-| 100 | `μν^(Η)` | Μύρμηκος ἀτραπούς, ἢ τί διαμινύρεται; | **100** μύρμ- R : **Μύρμ-** Bibi ap Hesych. μ 1904 |
-| 101 | `ἀγάθ/` | ἱερὰν Χθονίαιν δε- | **101** χθονίαις R : **χθονίαιν** Meineke |
+| 99 | `εὐ^(ρ)` | σίγα· μελῳδεῖν **νῦν** παρασκευάζεται· | **99** ἂν R : **νῦν** Rogers : alii alia |
+|  |  | \hspace2.2em**[παρεπιγραφή R^(1** :]) **μινυρισμός** | **post 99** **μινυρισμός** (παρεπιγραφή) R, Σ^(R) |
+| 100 | `μν^(Η)` | **Μύρμηκος** ἀτραπούς, ἢ τί διαμινύρεται; | **100** μύρμ- R : **Μύρμ-** Bibi ap Hesych. μ 1904 |
+| 101 | `ἀγάθ/` | ἱερὰν **Χθονίαιν** δε- | **101** χθονίαις R : **χθονίαιν** Meineke |
 |  |  | ξάμεναι λαμπάδα κοῦραι |  |
 | 103 |  | ξὺν ἐλευθέρᾳ πατρί- | **103** **πατρίδι** R : πραπίδι Wecklein |
 |  |  | δι χορεύσασθε βοάν· |  |
 |  |  | τίνι δαιμόνων ὁ κῶμος; |  |
-| 105 |  | λέγε **νιν** εὐπείστως δὲ τοὐμὸν | **105** νυν R : **νιν** Dindorf ∥ εὐπίστως R, Suid. σ 178, 183 : **εὐπείστως** Reiske |
+| 105 |  | λέγε **νιν** **εὐπείστως** δὲ τοὐμὸν | **105** νυν R : **νιν** Dindorf ∥ εὐπίστως R, Suid. σ 178, 183 : **εὐπείστως** Reiske |
 | 106 |  | δαίμονας **ἔχει** σεβίσαι· | **106** ἔχεις R : **ἔχει** Suid. |
 | 107 |  | ἄγε νῦν **ὄλβιζε** Μοῦσα | **107** ὅπλιζε R : **ὄλβιζε** Bentley ∥ **Μοῦσα** R : μούσᾳ Bergk |
 |  |  | χρυσέων ῥύτορα τόξων |  |
@@ -487,8 +489,8 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | γέρας ἱερὸν προφέρων· |  |
 |  |  | τάν τ᾽ ἐν ὄρεσι δρυογόνοισι |  |
 | 115 |  | κόραν **ἀείσατ᾽** Ἄρτεμιν ἀγροτέραν· | **115** ἀεισαντ᾽ R : **ἀείσατ᾽** Zanetti (*laudate* Divus) |
-| 116 |  | ἕπομαι κλῄζουσα **σεμνὰν** | **116** σεμνὸν R : **σεμνὰν** Dindorf |
-| 117 |  | γόνον ὀλβίζουσα Λατοῦς |  |
+| 117 |  | ἕπομαι κλῄζουσα **σεμνὰν** | **117** σεμνὸν R : **σεμνὰν** Dindorf |
+|  |  | γόνον ὀλβίζουσα Λατοῦς |  |
 |  |  | Ἄρτεμιν ἀπειρολεχῆ· |  |
 |  |  | Λατώ τε κρούματά τ' Ἀσιάδος ποδὶ |  |
 | 120 |  | παράρυθμ' εὔρυθμα Φρυγίων |  |
@@ -600,19 +602,19 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | :---: | :---: | :--- | :--- |
 | 123 | `ἀγάθ/` | σέβομαι Λατώ τ' ἄνασσαν |  |
 |  |  | κίθαρίν τε ματέρ᾽ ὕμνων |  |
-| 125 |  | ἄρσενι βοᾷ δοκίμῳ· | **125** **δοκίμῳ** R, Σ¹, Suid. α 4016 : δόκιμον Σ² : δοκίμων Schöne |
+| 125 |  | ἄρσενι βοᾷ δοκίμῳ· | **125** **δοκιμῳ** R, Σ^(1), Suid. α 4016 : δόκιμον Σ^(2) : δοκίμων Schöne |
 | 126 |  | τᾷ **φάος** ἔσσυτο δαιμονίοις | **126** φῶς R : **φάος** Burges |
 | 127 |  | ὄμμασιν **ἁμετέρας** τε δι᾽ αἰφνι- | **127** ἡμετέρας R : ὑμετέρας Nietzsche : **ἁμετέρας** Meineke |
-| 127 |  | δίου ὀπός. ὧν χάριν | **127** ἡμετέρας R : ὑμετέρας Nietzsche : **ἁμετέρας** Meineke |
+|  |  | δίου ὀπός. ὧν χάριν |  |
 | 128 |  | ἄνακτ᾽ ἄγαλλε **Φοῖβον**· | **128** **ἄγαλλε** R : ἀγάλλετε Austin (1987) ∥ Φοῖβον τιμᾷ R : **Φοῖβον** Dindorf |
 |  |  | χαῖρ᾽ ὄλβιε παῖ Λατοῦς· |  |
-|  |  | **[παρεπιγραφή R¹ :]** **ὀλολύζει ὁ γέρων** | **post 129** **ὀλολύζει ὁ γέρων** (παρεπιγραφή) R |
+|  |  | \hspace2.2em**[παρεπιγραφή R^(1** :]) **ὀλολύζει ὁ γέρων** | **post 129** **ὀλολύζει ὁ γέρων** (παρεπιγραφή) R |
 | 130 | `μν^(Η)` | ὡς ἡδὺ τὸ μέλος ὦ **πότνιαι** Γενετυλλίδες | **130** πότνια R : **πότνιαι** Suid. γ 141 |
 |  |  | καὶ θηλυδριῶδες καὶ κατεγλωττισμένον |  |
 |  |  | καὶ μανδαλωτόν, ὥστ᾽ ἐμοῦ γ᾽ ἀκροωμένου |  |
 |  |  | ὑπὸ τὴν ἕδραν αὐτὴν ὑπῆλθε γάργαλος· |  |
-| 134 |  | καί σ᾽ ὦ **νεανίσκ᾽ εἴ τις** εἶ, κατ᾽ Αἰσχύλον | **134-5** νεανίσχ᾽ εἴ τις R : **νεανίσκ᾽ εἴ τις** M: νεανίσχ᾽ ἥτις Gelenius ∥ Λυκουργίας R : **Λυκουργείας** Dindorf |
-| 135 |  | ἐκ τῆς Λυκουργείας ἐρέσθαι βούλομαι· |  |
+| 134 |  | καί σ᾽ ὦ **νεανίσκ᾽ εἴ τις** εἶ, κατ᾽ Αἰσχύλον | **134** νεανίσχ᾽ εἴ τις R : **νεανίσκ᾽ εἴ τις** M : νεανίσχ᾽ ἥτις Gelenius |
+| 135 |  | ἐκ τῆς **Λυκουργείας** ἐρέσθαι βούλομαι· | **135** Λυκουργίας R : **Λυκουργείας** Dindorf |
 |  |  | ποδαπὸς ὁ γύννις; τίς πάτρα; τίς ἡ στολή; |  |
 |  |  | τίς ἡ τάραξις τοῦ βίου; τί βάρβιτος |  |
 |  |  | λαλεῖ κροκωτῷ; τί δὲ λύρα κεκρυφάλῳ; |  |
@@ -654,8 +656,8 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 ##### `Σ 053` — **v. 125** · Lemme : *ἄρσενι βοᾷ δοκίμῳ,*
 - **Position sur le `f. 164r`** : Marge supérieure et marge droite (extérieure, f. 164r, en face du v. 125)
-- **Texte grec établi (Σᴿ)** : `εὐτόνῳ. προεῖπε γὰρ ὅτι ἐκ παρθένων ἐστὶν ὁ χορός. ἢ ἄρσενι βοᾷ δοκίμῳ, ἐπεὶ Ἀπόλλων ἐστὶν ὁ κιθαρίζων. τῆς οὖν κιθάρας ἄρσενι βοᾷ δοκίμου οὔσης φῶς ἔσσυτο. ἐπάγει δὲ σημεῖον τοῦ παρὰ Ἀπόλλωνος λελέ- χθαι. τῇ θαυμαστῇ φωνῇ καὶ δεδοκιμασμένῃ.`
-- **Tracé diplomatique et abréviations tachygraphiques de R²** : `εὐτόνῳ · προεῖπε γ(ὰρ) ὅτι ἐκ παρθένων ἐστ(ὶν) ὁ χορός · ἢ ἄρσενι βοᾷ δοκίμῳ, ἐπεὶ Ἀπόλλ^(ων) ἐστ(ὶν) ὁ κιθαρίζων · τ^(ῆς) οὖν κιθάρας ἄρσενι βοᾷ δοκίμου οὔσ^(ης) φῶς ἔσσυτο · ἐπάγει δ(ὲ) σημεῖ(ον) τ^(οῦ) παρὰ Ἀπόλλων^(ος) λελέ- χθ(αι) · τῇ θαυμαστῇ φωνῇ Ϛ δεδοκιμασμένῃ ÷`
+- **Texte grec établi (Σᴿ)** : `εὐτόνῳ. προεῖπε γὰρ ὅτι ἐκ παρθένων ἐστὶν ὁ χορός. ἢ ἄρσενι βοᾷ δοκίμῳ, ἐπεὶ Ἀπόλλων ἐστὶν ὁ κιθαρίζων. τῆς οὖν κιθάρας ἄρσενι βοᾷ δοκίμου οὔσης φῶς ἔσσυτο. ἐπάγει δὲ σημεῖον τοῦ παρὰ Ἀπόλλωνος λελέχθαι. τῇ θαυμαστῇ φωνῇ καὶ δεδοκιμασμένῃ.`
+- **Tracé diplomatique et abréviations tachygraphiques de R²** : `εὐτόνῳ · προεῖπε γ(ὰρ) ὅτι ἐκ παρθένων ἐστ(ὶν) ὁ χορός · ἢ ἄρσενι βοᾷ δοκίμῳ, ἐπεὶ Ἀπόλλ^(ων) ἐστ(ὶν) ὁ κιθαρίζων · τ^(ῆς) οὖν κιθάρας ἄρσενι βοᾷ δοκίμου οὔσ^(ης) φῶς ἔσσυτο · ἐπάγει δ(ὲ) σημεῖ(ον) τ^(οῦ) παρὰ Ἀπόλλων^(ος) λελέχθ(αι) · τῇ θαυμαστῇ φωνῇ Ϛ δεδοκιμασμένῃ ÷`
 - **Traduction française** : « Vigoureuse, bien tendue (εὐτόνῳ), car il a dit plus haut que le chœur est composé de jeunes filles (ou par contraste avec la voix féminine). Ou bien : “par une clameur mâle éprouvée” (ἄρσενι βοᾷ δοκίμῳ), parce que c'est Apollon qui joue de la cithare ; la cithare étant donc éprouvée par une voix mâle, une lumière s'est élancée (φῶς ἔσσυτο). Il ajoute ensuite la preuve que cela est dit d'Apollon. — Autre glose : Par la voix admirable et éprouvée (δοκίμῳ). »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Comme le note Louis Hauseux (Bibi, v. 125, vv 1-641.tex, ll. 1521-1522), la première rédaction de cette scholie (Σ¹) ainsi que la Souda α 4016 confirment le datif δοκίμῳ de R (retenu par Bibi) contre la variante δόκιμον de Σ².
 
@@ -813,8 +815,8 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 165 | `ἀγάθ/` | αὐτός τε καλὸς ἦν καὶ καλῶς ἠμπέσχετο | **165** **ἠμπέσχετο** R : ἠμπισχετο Elmsley ad Eur. *Med.* 1128 (*induebatur* Divus) |
 |  |  | διὰ τοῦτ᾽ ἄρ᾽ αὐτοῦ καὶ κάλ᾽ ἦν τὰ δράματα· |  |
 |  |  | ὅμοια γὰρ ποιεῖν ἀνάγκη τῇ φύσει· |  |
-| 168 | `μν^(Η)` | ταῦτ᾽ ἄρ᾽ ὁ **Φιλοκλέης** αἰσχρὸς ὢν αἰσχρῶς ποιεῖ, | **168-9** Φιλοκλῆς, Ξενοκλῆς R : **Φιλοκλέης**, **Ξενοκλέης** Bentley ∥ **ὁ δ᾽ αὖ** R : ὁ δὲ Brunck |
-|  |  | ὁ δ᾽ αὖ Ξενοκλέης ὢν κακὸς κακῶς ποιεῖ, |  |
+| 168 | `μν^(Η)` | ταῦτ᾽ ἄρ᾽ ὁ **Φιλοκλέης** αἰσχρὸς ὢν αἰσχρῶς ποιεῖ, | **168** Φιλοκλῆς R : **Φιλοκλέης** Bentley |
+| 169 |  | ὁ δ᾽ αὖ **Ξενοκλέης** ὢν κακὸς κακῶς ποιεῖ, | **169** **ὁ δ᾽ αὖ** R : ὁ δὲ Brunck ∥ Ξενοκλῆς R : **Ξενοκλέης** Bentley |
 | 170 |  | ὁ δ᾽ αὖ Θέογνις ψυχρὸς ὢν ψυχρῶς ποιεῖ· |  |
 |  | `ἀγάθ/` | ἅπασ᾽ ἀνάγκη ταῦτα γάρ τοι γνοὺς ἐγὼ |  |
 |  | `—` | ἐμαυτὸν ἐθεράπευσα. : πῶς πρὸς τῶν θεῶν; |  |
@@ -823,8 +825,8 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 175 | `μν^(Η)` | μὰ τὸν Δί᾽ οὐ ζηλῶ σε τῆς παιδεύσεως· |  |
 | 176 | `εὐ^(ρ)` | ἀλλ᾽ ὧνπερ οὕνεκ᾽ ἦλθον, ἔα μ᾽ εἰπεῖν. : λέγε· | **176** **(Ἀγάθ.)** λέγε R, Fritzsche : (Μνη.) Küster |
 |  | `εὐ^(ρ)` | Ἀγάθων, σοφοῦ πρὸς ἀνδρός, ὅστις ἐν βραχεῖ |  |
-| 178 |  | πολλοὺς καλῶς **οἷός** τε συντέμνειν λόγους· | **178** οἷόν R : **οἷός** Suid. σ 792, οι 154, Stob. III,35.3 ∥ **συντέμνειν** R, Suid. οι 154, Stob. : συντεμεῖν Suid. σ 792 ∥ κοινῇ R, Suid. κ 2556, σ 792 : **καινῇ** Biset ap. Σ |
-| 179 |  | ἐγὼ δὲ **καινῇ** ξυμφορᾷ πεπληγμένος | **179** κοινῇ R, Souda κ 2556, σ 792 (confusion minuscule α → ο) : **καινῇ** Biset d'après Σᴿ |
+| 178 |  | πολλοὺς καλῶς **οἷός** τε συντέμνειν λόγους· | **178** οἷόν R : **οἷός** Suid. σ 792, οι 154, Stob. III,35.3 ∥ **συντέμνειν** R, Suid. οι 154, Stob. : συντεμεῖν Suid. σ 792 |
+| 179 |  | ἐγὼ δὲ **καινῇ** ξυμφορᾷ πεπληγμένος | **179** κοινῇ R, Souda κ 2556, σ 792 (confusion minuscule α → ο) : **καινῇ** Biset d'après Σ^(R) |
 | 180 | `—` | ἱκέτης ἀφῖγμαι πρὸς σέ. : τοῦ χρείαν ἔχων; |  |
 |  | `εὐ^(ρ)` | μέλλουσί μ᾽ αἱ γυναῖκες ἀπολεῖν τήμερον |  |
 |  |  | τοῖς Θεσμοφορίοις, ὅτι κακῶς αὐτὰς λέγω· |  |
@@ -858,8 +860,8 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 ##### `Σ 074` — **v. 168** · Lemme : *ταῦτ᾽ ἄρ᾽ ὁ Φιλοκλέης αἰσχρὸς ὢν αἰσχρῶς ποιεῖ,*
 - **Position sur le `f. 164v`** : Marge gauche (extérieure, f. 164v, bloc de 7 lignes en haut du verso)
-- **Texte grec établi (Σᴿ)** : `ἐκ τούτου [...] καὶ ἐν τοῖς Ὄρνισιν [1295] οὐκ ἄλλοθεν κορυδὸν αὐτὸν ὠνόμασεν ἀλλ’ ἢ ὅτι μικρὸς καὶ αἰσχρός. καὶ Τηλεκλείδης Ἡσιόδοις «ἀλλ’ ἡ τάλαινα «Φιλοκλέα [...] οὖν, εἰ δ’ ἐστὶν Αἰσχύλου φρόνημ’ ἔχων.» τραγῳδίας ποιητὴς αἰσχρὸς τὸ πρόσωπον καὶ σιμὸς καὶ μικρὸς τὸ σῶμα.`
-- **Tracé diplomatique et abréviations tachygraphiques de R²** : `ἐκ τούτου Ϛ ἐν τ^(οῖς) Ὄρνισ(ιν) οὐκ ἄλλοθ(εν) κορυδ(ὸν) αὐτ(ὸν) ὠνόμασ(εν) ἀλλ’ ἢ ὅτι μικρὸς Ϛ αἰσχρός · Ϛ Τηλεκλείδης Ἡσιόδοις «ἀλλ’ ἡ τάλαινα «Φιλοκλέα οὖν, εἰ δ’ ἐστ(ὶν) Αἰσχύλου φρόνημ’ ἔχ^(ων) · » τραγῳδίας ποιητὴς αἰσχρὸς τ(ὸ) πρόσωπ(ον) Ϛ σιμὸς Ϛ μικρὸς τ(ὸ) σῶμα ÷`
+- **Texte grec établi (Σᴿ)** : `ἐκ τούτου [...] καὶ ἐν τοῖς Ὄρνισιν [1295] οὐκ ἄλλοθεν κορυδὸν αὐτὸν ὠνόμασεν ἀλλ’ ἢ ὅτι μικρὸς καὶ αἰσχρός. καὶ Τηλεκλείδης Ἡσιόδοις «ἀλλ’ ἡ τάλαινα Φιλοκλέα [...] οὖν, εἰ δ’ ἐστὶν Αἰσχύλου φρόνημ’ ἔχων.» τραγῳδίας ποιητὴς αἰσχρὸς τὸ πρόσωπον καὶ σιμὸς καὶ μικρὸς τὸ σῶμα.`
+- **Tracé diplomatique et abréviations tachygraphiques de R²** : `ἐκ τούτου Ϛ ἐν τ^(οῖς) Ὄρνισ(ιν) οὐκ ἄλλοθ(εν) κορυδ(ὸν) αὐτ(ὸν) ὠνόμασ(εν) ἀλλ’ ἢ ὅτι μικρὸς Ϛ αἰσχρός · Ϛ Τηλεκλείδης Ἡσιόδοις «ἀλλ’ ἡ τάλαινα Φιλοκλέα [...] οὖν, εἰ δ’ ἐστ(ὶν) Αἰσχύλου φρόνημ’ ἔχ^(ων) · » τραγῳδίας ποιητὴς αἰσχρὸς τ(ὸ) πρόσωπ(ον) Ϛ σιμὸς Ϛ μικρὸς τ(ὸ) σῶμα ÷`
 - **Traduction française** : « C'est pour cela que dans les Oiseaux (v. 1295) aussi, il ne l'a appelé “Alouette huppée” (κορυδός) pour aucune autre raison sinon qu'il était petit et laid. Et Téléclide dit dans ses Hésiodes (fr. 15 K.-A.) : “Mais la malheureuse [...] Philoclès donc, s'il a l'orgueil d'Eschyle.” — Autre scholie : Poète tragique (neveu d'Eschyle), laid de visage, camus et petit de corps. »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Double scholie érudite (reprise par la Souda φ 379 et discutée par L. Hauseux, vv 1-641.tex, ll. 1782-1800) conservant un précieux fragment de Téléclide et expliquant le sobriquet physique de Κόρυδος donné à Philoclès.
 
@@ -924,7 +926,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | Vers | Sigle (`R²`) | Transcription diplomatique ligne par ligne de `R` | Apparat critique en regard (éd. Louis Hauseux, `Bibi`) |
 | :---: | :---: | :--- | :--- |
 | 208 | `εὐ^(ρ)` | τί **οὖν**; ποιήσεις **ταῦτα**; : μὴ δόκει γε σύ· | **208** οὖν et ταῦτα R : **οὖν;** et **ταῦτα;** Ellebodius |
-| 209 | `εὐ^(ρ)` | ὦ τρισκακοδαίμον, ὡς ἀπόλωλ᾽ Εὐριπίδης· | **209** **τρισκακόδαιμον** R : τρισκακοδαίμων M∥ **(Εὐρ.)** R : (Μνη.) Elmsley ad *Ach*. 475 |
+| 209 | `εὐ^(ρ)` | ὦ τρισκακοδαίμον, ὡς ἀπόλωλ᾽ Εὐριπίδης· | **209** **τρισκακόδαιμον** R : τρισκακοδαίμων M ∥ **(Εὐρ.)** R : (Μνη.) Elmsley ad *Ach*. 475 |
 | 210 | `μν^(Η)` | ὦ φίλτατ᾽ ὦ κηδεστὰ μὴ σαυτὸν προδῷς· |  |
 |  | `εὐ^(ρ)` | πῶς οὖν ποιήσω δῆτα; : τοῦτον μὲν μακρὰ |  |
 |  |  | κλάειν κέλευ᾽, ἐμοὶ δ᾽ ὅ τι βούλει χρῶ λαβών· |  |
@@ -957,7 +959,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | ἐπίκυπτε· τὴν κέρκον φυλάττου νυν ἄκραν· |  |
 | 240 | `μν^(Η)` | ἐμοὶ μελήσει νὴ Δία, πλήν γ᾽ ὅτι κάομαι· |  |
 |  |  | οἴμοι τάλας. ὕδωρ ὕδωρ ὦ γείτονες |  |
-| 242 |  | πρὶν ἀντιλαβέσθαι πρωκτὸν **[ἕ]τερον** τῆς φλογός· | **242** **[ἕ]τερον** PSI-1194 (restituit Medaglia) : ἕτερον om. R |
+| 242 |  | πρὶν ἀντιλαβέσθαι πρωκτὸν **[ἓ]τερον** τῆς φλογός· | **242** **[ἓ]τερον** PSI-1194  (restituit Medaglia) : ἓτερον om. R |
 |  | `εὐ^(ρ)` | θάρρει. : τί θαρρῶ καταπεπυρπολημένος; |  |
 |  | `εὐ^(ρ)` | ἀλλ᾽ οὐκ ἔτ᾽ οἰδὲν πρᾶγμά σοι· τὰ πλεῖστα γὰρ |  |
 | 245 | `—` | ἀποπεπόνηκας. : φεῦ ἰοὺ τῆς ἀσβόλου· | **245** **φεῦ** R, Suid. α 4132 : φῦ Dindorf, Wilamowitz *Lysistr.* v.294 |
@@ -986,14 +988,14 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 ##### `Σ 084` — **v. 220** · Lemme : *ἐντεῦθεν ἐκ τῆς ξυροδόκης.*
 - **Position sur le `f. 165r`** : Marge droite (extérieure, f. 165r, en face du v. 220, légèrement mutilée en fin de ligne)
-- **Texte grec établi (Σᴿ)** : `παρὰ τὸ δουροδόκης ὡς πολλὰ αυ[...]`
-- **Tracé diplomatique et abréviations tachygraphiques de R²** : `παρὰ τ(ὸ) δουροδόκ(ης) ὡς πολλὰ αυ[...] ÷`
+- **Texte grec établi (Σᴿ)** : `παρὰ τὸ δουροδόκης, ὡς πολλὰ αὐ[τῶν].`
+- **Tracé diplomatique et abréviations tachygraphiques de R²** : `παρὰ τ(ὸ) δουροδόκ(ης) ὡς πολλὰ αὐ[τῶν] ÷`
 - **Traduction française** : « Forgé par parodie sur le modèle homérique δουροδόκη (“étui à lances”, Odyssée I, 128), comme beaucoup d'autres composés de ce genre. »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Crucial pour le texte (L. Hauseux, vv 1-641.tex, ll. 2095-2096) : alors que R¹ porte la coquille d'iotacisme ξυροδίκης, Σᴿ (ainsi que Pollux II, 32 et X, 140) garantit la forme authentique ξυροδόκης (« étui à rasoirs », sur δουροδόκη).
 
 ##### `Σ 085` — **v. 221** · Lemme : *γενναῖος εἶ· / κάθιζε [κάθιξε R]· φύσα τὴν γνάθον τὴν δεξιάν·*
 - **Position sur le `f. 165r`** : Marge droite (extérieure, f. 165r, en face du v. 221)
-- **Texte grec établi (Σᴿ)** : `ἵνα ἀποτεταμένης αὐτῆς καλ[...]νεν.`
+- **Texte grec établi (Σᴿ)** : `ἵνα ἀποτεταμένης αὐτῆς καλ[ῶς ξυρήσῃ].`
 - **Tracé diplomatique et abréviations tachygraphiques de R²** : `ἵνα ἀποτεταμέν^(ης) αὐτ^(ῆς) καλ[ῶς ξυρήσῃ] ÷`
 - **Traduction française** : « (“Gonfle la joue droite”) : afin que, la joue étant bien tendue, il puisse la raser proprement. »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Note pratique expliquant le geste des barbiers antiques qui faisaient gonfler la joue du client pour tendre la peau sous la lame.
@@ -1083,7 +1085,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 260 | `μν^(Η)` | **ἆρ᾽ ἁρμόσει** μοι; : νὴ Δί᾽ ἀλλ᾽ ἄριστ᾽ ἔχει· | **260** ἠραρμοσηι R : **ἆρ᾽ ἁρμόσει** Küster ∥ (Ἀγάθ.) R : **(Εὐρ.)** Ellebodius |
 | 261 | `—` | φέρ᾽ ἔγκυκλον· : **τουτὶ** **λάβ᾽** ἀπὸ τῆς κλινίδος· | **261** τοῦτὶ R : **τουτὶ** Suid. ε 135, κ 1809 ∥ λάμβαν᾽ R, Suid. : **λάβ᾽** Daubuz, Küster |
 |  | `εὐ^(ρ)` | ὑποδημάτων δεῖ. : τἀμὰ ταυτὶ λάμβανε· |  |
-| 263 | `μν^(Η)` | ἆρ᾽ ἁρμόσει **μοι;** : ἀγά^(θ) χαλαρὰ γ᾽ οῦ^(ν) **χαίροις** φορῶν· | **263** μοι R : **μοι;** Küster ∥ **(Ἀγάθ.)** χαλαρὰ ... φορῶν R : (Μνη.) Brunck, edd. post. ∥ γ᾽ οῦ^(ν) Rᵖᶜ∥ χαίρεις R, Suid. AGM : **χαίροις** Suid. FV |
+| 263 | `μν^(Η)` | ἆρ᾽ ἁρμόσει **μοι;** : ἀγά^(θ) χαλαρὰ γ᾽ οῦ^(ν) **χαίροις** φορῶν· | **263** μοι R : **μοι;** Küster ∥ **(Ἀγάθ.)** χαλαρὰ ... φορῶν R : (Μνη.) Brunck, edd. post. ∥ γ᾽ οῦ^(ν) Rᵖᶜ ∥ χαίρεις R, Suid. AGM : **χαίροις** Suid. FV |
 | 264 | `μν^(Η)` | σὺ τοῦτο γίγνωσκ᾽· **:** ἀλλ᾽ ἔχεις γὰρ ὧν δέει, | **264** nulla nota mut. pers. R : **(Ἀγάθ.)** ἀλλ᾽ ... Bibi |
 | 265 |  | εἴσω τις ὡς τάχιστά μ᾽ ἐσκυκλησάτω· |  |
 | 266 | `εὐ^(ρ)` | **ἁνὴρ** μὲν ἡμῖν οὑτοσὶ καὶ δὴ γυνὴ | **266** ἀνὴρ R : **ἁνὴρ** Fritzsche |
@@ -1097,9 +1099,9 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  | `εὐ^(ρ)` | ὄμνυμι τοίνυν πάντας ἄρδην τοὺς θεούς· |  |
 | 275 | `μν^(Η)` | μέμνησο τοίνυν ταῦθ᾽, ὅτι ἡ φρὴν ὤμοσεν, |  |
 |  |  | ἡ γλῶττα δ᾽ οὐκ ὀμώμοκ᾽· οὐδ᾽ ὥρκωσ᾽ ἐγώ· |  |
-|  |  | **[παρεπιγραφή R¹, PSI-1194 :]** **ὀλολύζουσι τε ἱερὸν ὠθεῖται** | **post 276** **ὀλολύζουσι τε ἱερὸν ὠθεῖται** R, ολολυ[ PSI-1194, Σᴿ |
+|  |  | \hspace2.2em**[παρεπιγραφή R^(1**, PSI-1194 :]) **ὀλολύζουσι τε ἱερὸν ὠθεῖται** | **post 276** **ὀλολύζουσι τε ἱερὸν ὠθεῖται** R, ολολυ[ PSI-1194, Σ^(R) |
 | 277 | `εὐ^(ρ)` | ἔκσπευδε ταχέως· ὡς τὸ τῆς ἐκκλησίας | **277** **ἔκσπευδε** R : εἄ· σπεῦδε Maas |
-| 278 |  | σημεῖον ἐν τῷ Θεσμοφορίῳ φαίνεται· | **278** **Θεσμοφορίῳ** R, cf. *IG* II² 1177.24 ; 2498.12 : Θεσμοφόρῳ Suid. σ 325 : Θεσμοφορείῳ Scaliger |
+| 278 |  | σημεῖον ἐν τῷ Θεσμοφορίῳ φαίνεται· | **278** **Θεσμοφορίῳ** R, cf. *IG* II^(2) 1177.24 ; 2498.12 : Θεσμοφόρῳ Suid. σ 325 : Θεσμοφορείῳ Scaliger |
 |  | `—` | ἐγὼ δ᾽ ἄπειμι. : δεῦρό νυν ὦ Θρᾷτθ᾽ ἕπου· |  |
 | 280 |  | ὦ Θρᾷττα θέασαι, καομένων τῶν λαμπάδων |  |
 |  |  | ὅσον τὸ χρῆμ᾽ ἀνέρχεθ᾽ ὑπὸ τῆς λιγνύος· |  |
@@ -1253,13 +1255,13 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | εὐφημία ἔστω· |  |
 | 297 |  | εὔχεσθε ταῖν Θεσμοφόροιν ⟦~~τῇ Δήμητρῃ καὶ τῇ Κόρῃ~~⟧ | **297** Θεσμοφόροιν τῇ Δήμητρῃ καὶ τῇ Κόρῃ R : **Θ.** Blaydes |
 |  |  | καὶ τῷ Πλούτῳ καὶ τῇ Καλλιγενείᾳ |  |
-| 300 |  | καὶ τῇ Κουροτρόφῳ ⟦~~τῇ Γῇ~~⟧ | **300** τῇ Κουροτρόφῳ τῇ Γῇ R : **τῇ Κουροτρόφῳ** Dobree ex Σᴿ |
+| 300 |  | καὶ τῇ Κουροτρόφῳ ⟦~~τῇ Γῇ~~⟧ | **300** τῇ Κουροτρόφῳ τῇ Γῇ R : **τῇ Κουροτρόφῳ** Dobree ex Σ^(R) |
 | 301 |  | καὶ τῷ Ἑρμῇ καὶ **ταῖς Χάρισιν** | **301** Χάρισιν R : **ταῖς Χ.** Meineke |
 |  |  | ἐκκλησίαν τήνδε καὶ σύνοδον τὴν νῦν |  |
 |  |  | κάλλιστα καὶ ἄριστα ποῆσαι, |  |
 | 304 |  | πολυωφελῶς μὲν **τῇ πόλει** τῇ Ἀθηναίων, | **304** πόλει R : **τῇ π.** Meineke |
 | 305 |  | τυχηρῶς δ᾽ ἡμῖν αὐταῖς· | **305** **ἡμῖν** R : ὑμῖν Fritzsche |
-| 306 |  | ^(καὶ) τὴν δρῶσαν καὶ τὴν ἀγορεύουσαν | **306** ^(καὶ) τὴν ἀγορεύουσαν R² |
+| 306 |  | ^(καὶ)τὴν δρῶσαν καὶ ἀγορεύουσαν | **306** ^(καὶ)τὴν ἀγορεύουσαν R² |
 | 307 |  | τὰ βέλτιστα περὶ τὸν δῆμον **τὸν Ἀθηναίων** | **307** τῶν Ἀθηναίων R : **τὸν Ἀθηναίων** Grynaeus |
 |  |  | καὶ τὸν τῶν γυναικῶν |  |
 |  |  | ταύτην νικᾶν· |  |
@@ -1273,17 +1275,17 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 317 |  | καὶ σὺ **παγκρατὲς** **κόρα** | **317** παμκρατὲς R : **παγκρατὲς** ed. pr. ∥ κόρᾳ R : **κόρα** M |
 |  |  | γλαυκῶπι χρυσόλογχε πόλιν |  |
 |  |  | οἰκοῦσα περιμάχητον, ἐλθὲ δεῦρο· |  |
-| 320 |  | καὶ πολυώνυμε **θηροφόνη** (θηροφ~~ω~~^(ό)νε) παῖ, | **320** θηροφ~~ω~~^(ό)νε παῖ-- Rᵖᶜ: **θηροφόνη** Hermann |
+| 320 |  | καὶ πολυώνυμε **θηροφόνη** (θηροφ~~ω~~^(ό)νε παῖ—) | **320** θηροφ~~ω~~^(ό)νε παῖ-- Rᵖᶜ : **θηροφόνη** Hermann |
 |  |  | Λατοῦς χρυσώπιδος ἔρνος, |  |
 |  |  | σύ τε πόντιε σεμνὲ Πόσειδον |  |
 |  |  | ἁλιμέδον |  |
 | 324 |  | προλιπὼν μυχὸν **ἰχθυόεντα**, | **324** ἰχθυόεντ᾽ R, Suid. οι 181 : **ἰχθυόεντα** Wilamowitz |
-| 324 |  | οἰστροδόνητον | **324** ἰχθυόεντ᾽ R, Suid. οι 181 : **ἰχθυόεντα** Wilamowitz |
+|  |  | οἰστροδόνητον |  |
 | 325 |  | Νηρέος **εἰναλίου** τε κόραι | **325** ἐναλίου R : ἐνάλιοί Fritzsche : **εἰναλίου** Bentley |
 | 326 |  | Νύμφαι τ᾽ ὀρείπλαγκτοι· | **326** **ὀρείπλαγκτοι** R : ὀρίπλαγκτοι Austin |
 |  |  | χρυσέα τε φόρμιγξ |  |
 |  |  | ἰαχήσειεν ἐπ᾽ εὐχαῖς |  |
-| 329 |  | ἡμετέραις· τελέως δ᾽ ἐκκλησιάσαιμεν Ἀθηνῶν | **329** Ἀθηναίων R : **Ἀθηνῶν** Reisig |
+| 329 |  | ἡμετέραις· τελέως δ᾽ ἐκκλησιάσαιμεν **Ἀθηνῶν** | **329** Ἀθηναίων R : **Ἀθηνῶν** Reisig |
 | 330 |  | εὐγενεῖς γυναῖκες· |  |
 | 331 | `κηρ/` | εὔχεσθε τοῖς θεοῖσι τοῖς Ὀλυμπίοις | **331** (Κηρ.) R : **(Κορ.)** van Leeuwen |
 |  |  | καὶ ταῖς Ὀλυμπίαισι καὶ τοῖς Πυθίοις |  |
@@ -1301,8 +1303,8 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 - **Traduction française** : « C'est une femme qui imite le héraut (γυνὴ μιμουμένη κήρυκα). Et les poètes comiques emploient une formule de silence sacré en prose (πεζῇ εὐφημίᾳ) chaque fois qu'ils introduisent une prière officielle ou un décret. »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Scholie essentielle (citée par L. Hauseux, vv 1-641.tex, ll. 2716-2720) : dans R, le scribe avait d'abord inscrit la rubrique Κῆρυξ devant εὐφημί' ἔστω, puis R² a gratté Κῆρυξ (laissé en rasura, mais encore copié κη[ρυ] par M) en notant en marge qu'il ne s'agit pas d'un héraut masculin mais d'une femme faisant office de héraut (édité Κορ.-Ἱέρεια par Bibi).
 
-##### `Σ 113` — **v. 297** · Lemme : *[gloses intruses dans R¹ :] εὔχεσθε ταῖν Θεσμοφόροιν [τῇ Δήμητρῃ καὶ τῇ Κόρῃ] ... καὶ τῇ Κουροτρόφῳ [τῇ Γῇ]*
-- **Position sur le `f. 166r`** : Intra-textuel (glose interlinéaire incorporée dans la prose de R¹ aux vv. 297–298, f. 166r)
+##### `Σ 113` — **v. 297, 300** · Lemme : *[gloses intruses dans R¹ :] εὔχεσθε ταῖν Θεσμοφόροιν [τῇ Δήμητρῃ καὶ τῇ Κόρῃ] ... καὶ τῇ Κουροτρόφῳ [τῇ Γῇ]*
+- **Position sur le `f. 166r`** : Intra-textuel (glose interlinéaire incorporée dans la prose de R¹ aux vv. 297 et 300, f. 166r)
 - **Texte grec établi (Σᴿ)** : `[τῇ Δήμητρῃ καὶ τῇ Κόρῃ] (v. 297) · [τῇ Γῇ] (v. 300) (gloses intruses incorporées dans la prose de R¹).`
 - **Tracé diplomatique et abréviations tachygraphiques de R²** : `[τῇ Δήμητρῃ Ϛ τῇ Κόρῃ] (v. 297) · [τῇ Γῇ] (v. 300)`
 - **Traduction française** : « [à Déméter et à Coré] ... [à la Terre]. »
@@ -1375,11 +1377,11 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 | Vers | Sigle (`R²`) | Transcription diplomatique ligne par ligne de `R` | Apparat critique en regard (éd. Louis Hauseux, `Bibi`) |
 | :---: | :---: | :--- | :--- |
-| 337 | `χορ/` | †**Εὐριπίδῃ Μήδοις τ᾽**† ἐπὶ βλάβῃ τινὶ | **337** ευριπιδιωι̣[. .]υ̣τ POxy-1176: Εὐριπίδῃ Μήδοις R : **Εὐριπίδῃ Μήδοις τ᾽** Biset |
+| 337 | `χορ/` | †**Εὐριπίδῃ Μήδοις τ᾽**† ἐπὶ βλάβῃ τινὶ | **337** ευριπιδιωι̣[. .]υ̣τ POxy-1176 : Εὐριπίδῃ Μήδοις R : **Εὐριπίδῃ Μήδοις τ᾽** Biset |
 |  |  | τῇ τῶν γυναικῶν, ἢ τυραννεῖν ἐπινοεῖ |  |
 |  |  | ἢ τὸν τύραννον συγκατάγειν, ἢ παιδίον |  |
 | 340 |  | ὑποβαλλομένης **κατεῖπέ τις**, ἢ δούλη τινὸς | **340** κατεῖπεν τις R : **κατεῖπέ τις** Brunck |
-| 341 |  | προαγωγὸς οὖσ᾽ ἐνετρύλλισεν τῷ δεσπότῃ | **341** ἐνετρύλλισεν R, Suid. ε 1271 : **ἐνετρύλισεν** Dindorf |
+| 341 |  | προαγωγὸς οὖσ᾽ ἐνετρύλλισεν τῷ δεσπότῃ | **341** **ἐνετρύλλισεν** R, Suid. ε 1271 : ἐνετρύλισεν Dindorf |
 |  |  | ἢ πεμπομένη τις ἀγγελίας ψευδεῖς φέρει, |  |
 |  |  | ἢ μοιχὸς εἴ τις ἐξαπατᾷ ψευδῆ λέγων |  |
 | 344 |  | καὶ μὴ δίδωσιν **ἃν** ὑπόσχηταί ποτε, | **344** ἅ ἂν R : **ἃν** Faber |
@@ -1410,7 +1412,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 370 |  | ἡμῖν θεοὺς παραστατεῖν |  |
 |  |  | καίπερ γυναιξὶν οὔσαις· |  |
 | 372 | `χορ/` | ἄκουε **πᾶσ᾽**. ἔδοξε τῇ βουλῇ τάδε | **372** πᾶς R : **πᾶσ᾽** Voss |
-| 373 |  | τῇ τῶν γυναικῶν· Τιμόκλει᾽ ἐπεστάτει, | **373** Ἀρ[. . . .]λ̣(vel α̣, δ̣, μ̣)εια POxy-1176, Ἀρ[χίκλ]ει᾽ suppl. Hunt : **Τιμόκλει᾽** R, Σ, Suid. ε 2616 |
+| 373 |  | τῇ τῶν γυναικῶν· Τιμόκλει᾽ ἐπεστάτει, | **373** Ἀρ[. . . .]λ̣(vel ạ, δ̣, μ̣)ειa POxy-1176, Ἀρ[χίκλ]ει᾽ suppl. Hunt : **Τιμόκλει᾽** R, Σ, Suid. ε 2616 |
 | 374 |  | Λύσιλλ᾽ ἐγραμμάτευεν, εἶπε Ζωστράτη· |  |
 | 375 |  | ἐκκλησίαν ποιεῖν ἕωθεν τῇ μέσῃ |  |
 | 376 |  | τῶν Θεσμοφορίων, ᾗ μάλισθ᾽ ἡμῖν **σχολή**, | **376** σχολῇ R : **σχολή** Zanetti |
@@ -1506,7 +1508,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 ##### `Σ 134` — **v. 376** · Lemme : *χρηματίζειν πρῶτα περὶ Εὐριπίδου, / ὅ τι χρὴ παθεῖν ἐκεῖνον·*
 - **Position sur le `f. 166v`** : Marge gauche (extérieure, f. 166v, en face du v. 376)
-- **Texte grec établi (Σᴿ)** : `ἐν γὰρ ταῖς ἄλλαις ἡμέραις περὶ τὰς θυσίας γίνονται. —ᾗ, ὅπου. Put.`
+- **Texte grec établi (Σᴿ)** : `ἐν γὰρ ταῖς ἄλλαις ἡμέραις περὶ τὰς θυσίας γίνονται.`
 - **Tracé diplomatique et abréviations tachygraphiques de R²** : `ἐν γ(ὰρ) τ^(αῖς) ἄλλ^(αις) ἡμέρ^(αις) π(ερὶ) τ^(ὰς) θυσί^(ας) γίνοντ(αι) ÷`
 - **Traduction française** : « (“Le matin du jour du milieu, où nous avons du loisir”) : car durant les autres journées des Thesmophories, elles sont occupées par les sacrifices. »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Cité par Alphonse Willems et Louis Hauseux (Annexes.tex, l. 1164 n. 1) : le jour de la Nêsteia (Jeûne) ne comporte pas de banquets sacrificiels, ce qui laisse aux femmes le loisir de tenir leur assemblée.
@@ -1532,7 +1534,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 380 | `γυ^(ν)` | ἐγώ. : περίθου νυν τόνδε πρῶτον πρὶν λέγειν· | **380** (Γυνή τις) R : **(Μίκα)** Rogers, cf. v. 760 ∥ **πρῶτον** R : πρότερον Suid. π 1166 |
 |  |  | σίγα σιώπα, πρόσεχε τὸν νοῦν· χρέμπτεται γὰρ ἤδη |  |
 |  |  | ὅπερ ποιοῦσ᾽ οἱ ῥήτορες. μακρὰν ἔοικε λέξειν· |  |
-| 383 | `καλλιλεξία` | φιλοτιμίᾳ μὲν οὐδεμιᾷ μὰ τὼ θεὼ | **383** (γυ^(ν)) Rᵃᶜ: (καλλιλεξία γυνή) Rᵖᶜ, M: (**Μίκα**) Rogers |
+| 383 | `καλλιλεξία` | φιλοτιμίᾳ μὲν οὐδεμιᾷ μὰ τὼ θεὼ | **383** (γυ^(ν)) Rᵃᶜ : (καλλιλεξία γυνή) Rᵖᶜ, M : (**Μίκα**) Rogers |
 |  |  | λέξουσ᾽ ἀνέστην ὦ γυναῖκες· ἀλλὰ γὰρ |  |
 | 385 |  | βαρέως φέρω τάλαινα πολὺν ἤδη χρόνον |  |
 | 386 |  | προπηλακιζομένας ὁρῶς **ἡμᾶς** ὑπὸ | **386** ὑμᾶς R : **ἡμᾶς** Cobet |
@@ -1541,9 +1543,9 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 389 |  | τί γὰρ οὗτος ἡμᾶς οὐκ ἐπισμῇ τῶν κακῶν; | **389** **ἡμᾶς** R, Suid. ε 2592 : ἡμῖν Brunck |
 | 390 |  | ποῦ δ᾽ οὐχὶ διαβέβληχ᾽, ὅπουπερ **ἔμβραχυ** | **390** ἐν βραχὺ R : **ἔμβραχυ** Suid., Σ *Gorg*. et *Hipp.m*. |
 | 391 |  | εἰσὶν θεαταὶ καὶ τραγῳδοὶ καὶ χοροί, | **391** **τραγῳδοὶ καὶ** R : τραγῳδικοὶ Schol. Plat. *Theag* : τραγῳδία καὶ Suid. οι 128 |
-| 392 |  | τὰς μοιχοτρόπους, τὰς ἀνδρεραστρίας καλῶν, | **392** μυ- R : **μοι-** Suid. ∥ ἀνδρεα- R : **ἀνδρερα-** Suid. |
-| 393 |  | τὰς οἰνοπίπας, τὰς προδότιδας, τὰς λάλους, | **393** οἰνοπότιδας R : **-πίπας** Suid. : -πίπους Σ |
-| 394 |  | τὰς οὐδὲν ὑγιές, τὰς μέγ᾽ ἀνδράσιν κακόν· | **394** ἀνδράσι R : **-σιν** Daubuz |
+| 392 |  | τὰς **μοιχοτρόπους**, τὰς **ἀνδρεραστρίας** καλῶν, | **392** μυ- R : **μοι-** Suid. ∥ ἀνδρεα- R : **ἀνδρερα-** Suid. |
+| 393 |  | τὰς **οἰνοπίπας**, τὰς προδότιδας, τὰς λάλους, | **393** οἰνοπότιδας R : **-πίπας** Suid. : -πίπους Σ |
+| 394 |  | τὰς οὐδὲν ὑγιές, τὰς μέγ᾽ **ἀνδράσιν** κακόν· | **394** ἀνδράσι R : **-σιν** Daubuz |
 | 395 |  | ὥστ᾽ εὐθὺς εἰσιόντες ἀπὸ τῶν ἰκρίων |  |
 |  |  | ὑποβλέπουσ᾽ ἡμᾶς σκοποῦνταί τ᾽ εὐθέως |  |
 |  |  | μὴ μοιχὸς ἔνδον ᾖ τις ἀποκεκρυμμένος· |  |
@@ -1568,7 +1570,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | τηροῦντες ἡμᾶς, καὶ προσέτι Μολοττικοὺς |  |
 | 417 |  | τρέφουσι μορμολυκεῖα τοῖς **μοιχοῖς** κύνας· | **417** μυχοῖς R : **μοιχοῖς** M |
 |  |  | καὶ ταῦτα μὲν ξυγγνώσθ᾽. ἃ δ᾽ ἦν ἡμῖν πρὸ τοῦ |  |
-| 419 |  | αὐταῖς ταμιεῦσαι καὶ προαιρούσαις λαβεῖν | **419** ταμιεύεσθαι R : **ταμιεῦσαι καὶ** Reiske |
+| 419 |  | αὐταῖς **ταμιεῦσαι καὶ** προαιρούσαις λαβεῖν | **419** ταμιεύεσθαι R : **ταμιεῦσαι καὶ** Reiske |
 | 420 |  | ἄλφιτον ἔλαιον οἶνον, οὐδὲ ταῦτ᾽ ἔτι |  |
 |  |  | ἔξεστιν. οἱ γὰρ ἄνδρες ἤδη κλῄδια |  |
 |  |  | αὐτοὶ φοροῦσι κρυπτὰ κακοηθέστατα |  |
@@ -1598,8 +1600,8 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 ##### `Σ 139` — **v. 389** · Lemme : *τί γὰρ οὗτος ἡμᾶς οὐκ ἐπισμῇ τῶν κακῶν;*
 - **Position sur le `f. 167r`** : Marge droite (extérieure, f. 167r, grande scholie lexicographique de 10 lignes en face du v. 389)
-- **Texte grec établi (Σᴿ)** : `ἐπιχρίει, ἐπιξύει. σμῆξαι δέ ἐστι τὸ τὸν ῥύπον ἐπιξύσαι. μεταφορικῶς ἀπὸ τοῦ σμήχειν, οἷον ἐπιτρίβει· σφοδρὰν γάρ τινα τρίψιν καὶ τὴν σμῆξιν εἶναι. τάχα δὲ καὶ τὴν σμώδιγγα εἰρῆσθαι ἀπὸ τούτου. Διόδωρος οὐ μεταφορικὴν, ἀλλ’ ἐξ ἔθους γλωσσηματικὴν, καὶ μὴ εἶναι ἐπιτρίβειν ἀλλὰ τύπτειν ἢ σκώπτειν τὸ σμώχειν. Ἄλλως. ἐπισμῇ: καὶ παρὰ Κρατίνῳ ἐστὶν ἐν Κλεοβουλίναις τὸ ἐπισμῇ. ἔστι δὲ λοιδορία, ἀπὸ τοῦ καθά- πτεσθαι τῶν σμωμένων.`
-- **Tracé diplomatique et abréviations tachygraphiques de R²** : `ἐπιχρίει, ἐπιξύει · σμῆξ(αι) δέ ἐστ(ι) τ(ὸ) τ(ὸν) ῥύπον ἐπιξύσαι · μεταφορικ^(ῶς) ἀπ(ὸ) τ^(οῦ) σμήχε(ιν), οἷ(ον) ἐπιτρίβει· σφοδρ(ὰν) γάρ τινα τρίψιν Ϛ τ(ὴν) σμῆξ(ιν) εἶν(αι) · τάχα δ(ὲ) Ϛ τ(ὴν) σμώδιγγα εἰρῆσθ(αι) ἀπ(ὸ) τούτου · Διόδωρ^(ος) οὐ μεταφορικ(ὴν), ἀλλ’ ἐξ ἔθ^(ους) γλωσσηματικ(ὴν), Ϛ μὴ εἶν(αι) ἐπιτρίβε(ιν) ἀλλὰ τύπτ(ειν) ἢ σκώπτ(ειν) τ(ὸ) σμώχε(ιν) · ἄλλ^(ως) · ἐπισμῇ: Ϛ παρὰ Κρατίνῳ ἐστ(ὶν) ἐν Κλεοβουλίναις τ(ὸ) ἐπισμῇ · ἔστι δ(ὲ) λοιδορία, ἀπ(ὸ) τ^(οῦ) καθά- πτεσθ(αι) τ^(ῶν) σμωμένων ÷`
+- **Texte grec établi (Σᴿ)** : `ἐπιχρίει, ἐπιξύει. σμῆξαι δέ ἐστι τὸ τὸν ῥύπον ἐπιξύσαι. μεταφορικῶς ἀπὸ τοῦ σμήχειν, οἷον ἐπιτρίβει· σφοδρὰν γάρ τινα τρίψιν καὶ τὴν σμῆξιν εἶναι. τάχα δὲ καὶ τὴν σμώδιγγα εἰρῆσθαι ἀπὸ τούτου. Διόδωρος οὐ μεταφορικὴν, ἀλλ’ ἐξ ἔθους γλωσσηματικὴν, καὶ μὴ εἶναι ἐπιτρίβειν ἀλλὰ τύπτειν ἢ σκώπτειν τὸ σμώχειν. Ἄλλως. ἐπισμῇ: καὶ παρὰ Κρατίνῳ ἐστὶν ἐν Κλεοβουλίναις τὸ ἐπισμῇ. ἔστι δὲ λοιδορία, ἀπὸ τοῦ καθάπτεσθαι τῶν σμωμένων.`
+- **Tracé diplomatique et abréviations tachygraphiques de R²** : `ἐπιχρίει, ἐπιξύει · σμῆξ(αι) δέ ἐστ(ι) τ(ὸ) τ(ὸν) ῥύπον ἐπιξύσαι · μεταφορικ^(ῶς) ἀπ(ὸ) τ^(οῦ) σμήχε(ιν), οἷ(ον) ἐπιτρίβει· σφοδρ(ὰν) γάρ τινα τρίψιν Ϛ τ(ὴν) σμῆξ(ιν) εἶν(αι) · τάχα δ(ὲ) Ϛ τ(ὴν) σμώδιγγα εἰρῆσθ(αι) ἀπ(ὸ) τούτου · Διόδωρ^(ος) οὐ μεταφορικ(ὴν), ἀλλ’ ἐξ ἔθ^(ους) γλωσσηματικ(ὴν), Ϛ μὴ εἶν(αι) ἐπιτρίβε(ιν) ἀλλὰ τύπτ(ειν) ἢ σκώπτ(ειν) τ(ὸ) σμώχε(ιν) · ἄλλ^(ως) · ἐπισμῇ: Ϛ παρὰ Κρατίνῳ ἐστ(ὶν) ἐν Κλεοβουλίναις τ(ὸ) ἐπισμῇ · ἔστι δ(ὲ) λοιδορία, ἀπ(ὸ) τ^(οῦ) καθάπτεσθ(αι) τ^(ῶν) σμωμένων ÷`
 - **Traduction française** : « ἐπισμῇ : il nous enduit, il nous racle. σμῆξαι signifie gratter la crasse. Métaphoriquement, de σμήχειν (“frotter rudement”), au sens de “il nous écorche, il nous accable” (ἐπιτρίβει) : car la σμῆξις est un frottement violent, d'où vient peut-être aussi le mot σμῶδιξ (“meurtrissure, zébrure de coup”). Mais Diodore (de Tarse, grammairien du Ier s. av. J.-C.) soutient que l'emploi n'est pas métaphorique, mais idiomatique et glosématique, et que σμώχειν ne signifie pas “frotter”, mais “frapper” ou “railler”. — Autre rédaction : ἐπισμῇ se trouve aussi chez Cratinos dans ses Cléoboulines (fr. 99 K.-A.). C'est une injure, tirée du fait de mordre la peau de ceux que l'on frotte au savon acide. »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Grande scholie alexandrine (Didyme / Symmaque) citant le grammairien Diodore et les Cléoboulines de Cratinos, reprise intégralement par la Souda ε 2608 et Photius ε 1705.
 
@@ -1626,8 +1628,8 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 ##### `Σ 143` — **v. 401** · Lemme : *ὥστ᾽ ἐάν τις ξυμπλέκῃ [πλέκῃ R] / γυνὴ στέφανον, ἐρᾶν δοκεῖ·*
 - **Position sur le `f. 167r`** : Marge droite (extérieure, f. 167r, en face du v. 401)
-- **Texte grec établi (Σᴿ)** : `νεωτέρων καὶ ἐρωτικῶν τὸ στεφανοπλοκεῖν. πρὸς τὸ ἔθος, ὅτι ἐστεφανηπλόκουν αἱ παλαιαί. Σαπφὼ «αυταόρα αιστεφανηπλόκουν.»`
-- **Tracé diplomatique et abréviations tachygraphiques de R²** : `νεωτέρ^(ων) Ϛ ἐρωτικ^(ῶν) τ(ὸ) στεφανοπλοκ(εῖν) · πρ(ὸς) τ(ὸ) ἔθ^(ος), ὅτι ἐστεφανηπλόκ^(ουν) αἱ παλαιαί · Σαπφὼ «αὐτὰ δ' ὥραις ἐστεφαναπλόκην» ÷`
+- **Texte grec établi (Σᴿ)** : `νεωτέρων καὶ ἐρωτικῶν τὸ στεφανοπλοκεῖν. πρὸς τὸ ἔθος, ὅτι ἐστεφανηπλόκουν αἱ παλαιαί· Σαπφώ· «αὐτὰ δ’ ὥραις ἐστεφαναπλόκην [αυταόρα αιστεφανηπλόκουν R].»`
+- **Tracé diplomatique et abréviations tachygraphiques de R²** : `νεωτέρ^(ων) Ϛ ἐρωτικ^(ῶν) τ(ὸ) στεφανοπλοκ(εῖν) · πρ(ὸς) τ(ὸ) ἔθ^(ος), ὅτι ἐστεφανηπλόκ^(ουν) αἱ παλαιαί · Σαπφὼ «αυταόρα αιστεφανηπλόκ^(ουν)» ÷`
 - **Traduction française** : « Tresser des couronnes est le propre des jeunes gens et des amoureux. — Autre note : En référence à l'usage ancien selon lequel les femmes d'autrefois tressaient des couronnes ; Sappho (fr. 125 Voigt) : “Moi-même, en ma jeunesse, je tressais des couronnes (αὐτὰ δ' ὥραις ἐστεφαναπλόκην / αὐτὰ κόραις στεφαναπλόκεον).” »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Joyau philologique commenté par Louis Hauseux (vv 1-641.tex, ll. 3108-3115) : c'est cette unique scholie du Ravennas (reprise dans l'Etymologicum Genuinum) qui nous a conservé le fragment 125 de Sappho !
 
@@ -1722,20 +1724,20 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 430 |  | ἢ φαρμάκοισιν ἢ μιᾷ γέ τῳ τέχνῃ, |  |
 |  |  | ὅπως ἀπολεῖται. ταῦτ᾽ ἐγὼ φανερῶς λέγω, |  |
 |  |  | τὰ δ᾽ ἄλλα μετὰ τῆς γραμματέως συγγράψομαι· |  |
-| 433 | `χ/` | **οὔπω** (οὐπώ^(πο)τε) ταύτης ἤκουσα | **433** οὔπω τε Rᵃᶜ: οὐπώ^(πο)τε Rᵖᶜ: **οὔπω** Dindorf |
+| 433 | `χ/` | **οὔπω** (οὐπώ^(πο)τε) ταύτης ἤκουσα | **433** οὔπω τε Rᵃᶜ : οὐπώ^(πο)τε Rᵖᶜ : **οὔπω** Dindorf |
 |  |  | πολυπλοκωτέρας γυναικὸς |  |
 |  |  | οὐδὲ δεινότερον λεγούσης· |  |
-| 437 |  | πάντα γὰρ λέγει δίκαια, | **437** **πάσας** εἰδέας **ἐξήτασεν** R (sed **ἰδέας** Suid. ε 22) : πᾶσαν ἰδέαν ἐξετάζει Hermann |
+|  |  | πάντα γὰρ λέγει δίκαια, |  |
 | 437 |  | †**πάσας** δ᾽ **ἰδέας** ἐξήτασεν†, | **437** **πάσας** εἰδέας **ἐξήτασεν** R (sed **ἰδέας** Suid. ε 22) : πᾶσαν ἰδέαν ἐξετάζει Hermann |
-| 438 |  | πάντα δ᾽ ἐβάστασεν φρενὶ πυκνῶς τε | **438** ἐβάστασεν R : **-σε** Suid. |
+| 438 |  | πάντα δ᾽ **ἐβάστασε** φρενὶ πυκνῶς τε | **438** ἐβάστασεν R : **-σε** Suid. |
 | 439 |  | ποικίλους λόγους **ἀνηῦρεν** | **439** ἀνεῦρεν R, Suid. : **ἀνηῦρεν** Meineke |
-| 439 |  | εὖ διεζητημένους· | **439** ἀνεῦρεν R, Suid. : **ἀνηῦρεν** Meineke |
+|  |  | εὖ διεζητημένους· |  |
 | 440 |  | ὥστ᾽ ἂν εἰ λέγοι παρ᾽ αὐτῆς | **440** **αὐτῆς** R : αὐτὴν Zanetti |
 | 441 |  | **Ξενοκλέης** ὁ Καρκίνου, δο- | **441** Ξενοκλῆς R : **Ξενοκλέης** Bentley |
-| 441 |  | κεῖν ἂν αὐτόν, ὡς ἐγᾦμαι, | **441** Ξενοκλῆς R : **Ξενοκλέης** Bentley |
+|  |  | κεῖν ἂν αὐτόν, ὡς ἐγᾦμαι, |  |
 |  |  | πᾶσιν ὑμῖν |  |
 |  |  | ἄντικρυς μηδὲν λέγειν· |  |
-| 443 | `γυνὴ ἑτέρα` | ὀλίγων **ἕνεκα καὐτὴ** παρῆλθον ῥημάτων· | **443** γυνὴ ἑτέρα Rᵖᶜ∥ ἕνεκ᾽ αὐτὴ R : **ἕνεκα καὐτὴ** Porson |
+| 443 | `γυνὴ ἑτέρα` | ὀλίγων **ἕνεκα καὐτὴ** παρῆλθον ῥημάτων· | **443** γυνὴ ἑτέρα Rᵖᶜ ∥ ἕνεκ᾽ αὐτὴ R : **ἕνεκα καὐτὴ** Porson |
 |  |  | τὰ μὲν γὰρ ἄλλ᾽ αὕτη κατηγόρηκεν εὖ· |  |
 | 445 |  | ἃ δ᾽ ἐγὼ πέπονθα, ταῦτα λέξαι βούλομαι· |  |
 | 446 |  | ἐμοὶ γὰρ **ἁνὴρ** ἀπέθανεν μὲν **ἔγκυος** | **446** ἀνὴρ R : **ἁνὴρ** Brunck ∥ ἐν Κύπρῳ R : **ἔγκυος** Bibi |
@@ -1753,14 +1755,14 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | πλέξαι στεφάνους συνθηματιαίους εἴκοσιν· |  |
 |  | `χορ/` | ἕτερον αὖ τι λῆμα τοῦτο |  |
 | 460 |  | κομψότερον ἔτ᾽ ἢ τὸ πρότερον |  |
-| 460 |  | ἀναπέφηνεν· |  |
+|  |  | ἀναπέφηνεν· |  |
 | 461 |  | οἷα κατεστωμύλατο | **461** **κατεστωμύλατο** R : κἀστωμύλατο Dobree |
 | 462 |  | οὐκ **ἄκαιρα**, φρένας ἔχουσα | **462** ἄκερα R : **ἄκαιρα** Zanetti |
 | 463 |  | καὶ πολύπλοκον νόημ᾽, οὐδ᾽ | **463** **πολύπλοκον** R : τι πολύπλοκον Dobree : πολύστροφον Hermann |
 |  |  | ἀσύνετ᾽ ἀλλὰ πιθανὰ πάντα· |  |
 | 465 |  | δεῖ δὲ ταύτης τῆς ὕβρεως ἡ- |  |
-| 465 |  | μῖν τὸν ἄνδρα |  |
-| 465 |  | περιφανῶς δοῦναι δίκην· |  |
+|  |  | μῖν τὸν ἄνδρα |  |
+|  |  | περιφανῶς δοῦναι δίκην· |  |
 
 #### B. Édition, tachygraphie (R²), traduction française et commentaire philologique des 12 scholies et gloses du `f. 167v`
 
@@ -1873,7 +1875,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 477 |  | ξύνοιδ᾽ ἐμαυτῇ **πολλά γ᾽· ἀλλ᾽** ἐκεῖνο δ᾽ οὖν | **477** πολλ᾽ R : δεινὰ πολλ᾽ Bentley : **πολλά γ᾽· ἀλλ᾽** Bibi |
 | 478 |  | δεινότατον, ὅτε νύμφη μὲν **ἦ** τρεῖς ἡμέρας, | **478** ἦν R : **ἦ** Dindorf (1825) |
 | 479 |  | ὁ δ᾽ ἀνὴρ παρ᾽ ἐμοὶ **καθηῦδεν**· ἦν δέ μοι φίλος, | **479** καθεύδειν R : **καθηῦδεν** Scaliger |
-| 480 |  | ὅσπερ με διεκόρησεν **οὖσαν ἑπτ**έτιν· | **480** διεκόρευσεν R : **-ρησεν** Pollux cf. *Pax* 59 ∥ ἑπτ. οὖσ. R : **οὖσαν ἑπτ.** Pollux |
+| 480 |  | ὅσπερ με διεκόρησεν **οὖσαν ἑπτέτιν**· | **480** διεκόρευσεν R : **-ρησεν** Pollux cf. *Pax* 59 ∥ ἑπτ. οὖσ. R : **οὖσαν ἑπτ.** Pollux |
 | 481 |  | οὖτος πόθῳ **μου ᾽κνυεν** ἐλθὼν τὴν θύραν· | **481** μ᾽ οὔκνυεν R : **μου ᾽κνυεν** Suid. ε 520 |
 | 482 |  | **κᾆτ᾽** εὐθὺς ἔγνων· εἶτα καταβαίνω λάθρᾳ· | **482** κᾶτ᾽ R : **κᾆτ᾽** Küster |
 |  |  | ὁ δ᾽ ἀνὴρ ἐρωτᾷ `ποῖ σὺ καταβαίνεις;' `ὅποι; |  |
@@ -1882,12 +1884,12 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 486 |  | κᾆθ᾽ ὁ μὲν ἔτριβεν κεδρίδας **ἄννηθον** σφάκον· | **486** ἄνηθον R, Suid. : **ἄννηθον** Dindorf (1830) |
 |  |  | ἐγὼ δὲ καταχέασα τοῦ στροφέως ὕδωρ |  |
 | 488 |  | ἐξῆλθον ὡς τὸν μοιχόν· εἶτ᾽ **ἠρειδόμην** | **488** ἐρειδόμην R : **ἠρειδόμην** Küster |
-| 489 |  | παρὰ τὸν Ἀγυιᾶ κ~~υν~~^(ύβ)δ᾽ ἐχομένη τῆς δάφνης· | **489** κυνδ᾽ Rᵃᶜ: **κύβδ᾽** Rᵖᶜ, M |
+| 489 |  | παρὰ τὸν Ἀγυιᾶ κ~~υν~~^(ύβ)δ᾽ ἐχομένη τῆς δάφνης· | **489** κυνδ᾽ Rᵃᶜ : **κύβδ᾽** Rᵖᶜ, M |
 | 490 |  | ταῦτ᾽ οὐδεπώποτ᾽ εἶφ᾽, ὁρᾶτ᾽, Εὐριπίδης· |  |
 |  |  | οὐδ᾽ ὡς ὑπὸ τῶν δούλων τε κὠρεωκόμων |  |
 |  |  | σποδούμεθ᾽, ἢν μὴ 'χωμεν ἕτερον, οὐ λέγει· |  |
-| 493 |  | οὐδ᾽ ὡς ὅταν μάλισθ᾽ ὑπό του **ληκώμεθα** (~~ληκ~~^(κιν)ώμεθα) | **493** **ληκώμεθα** Rᵃᶜ(?), Suid. σ 1126 : ~~ληκ~~^(κιν)ώμεθα Rᵖᶜ |
-| 494 |  | τὴν νύχθ᾽, ἕωθεν **σκόροδα δια**μασώμεθα, | **494** σκορόδια R : **σκόροδα δια** Bentley ∥ post νύχθ' add. ὅλην Suid. (reminiscentia Pherecratis ? cf. Photius λ 254) |
+| 493 |  | οὐδ᾽ ὡς ὅταν μάλισθ᾽ ὑπό του **ληκώμεθα** (~~ληκ~~^(κιν)ώμεθα) | **493** **ληκώμεθα** Rᵃᶜ (?), Suid. σ 1126 : ~~ληκ~~^(κιν)ώμεθα Rᵖᶜ |
+| 494 |  | τὴν νύχθ᾽, ἕωθεν **σκόροδα διαμασώμεθα**, | **494** σκορόδια R : **σκόροδα δια** Bentley ∥ post νύχθ' add. ὅλην Suid. (reminiscentia Pherecratis ? cf. Photius λ 254) |
 | 495 |  | ἵν᾽ **ὀσφρόμενος** **ἁνὴρ** **ἀπὸ** τείχους εἰσιὼν | **495** ἀπὸ τοῦ R : **ἀπὸ** Biset ∥ ὀσφραινόμενος R : **ὀσφρόμενος** Bentley, Küster ∥ ἀνὴρ R : **ἁνὴρ** Dawes |
 |  |  | μηδὲν κακὸν δρᾶν ὑποτοπῆται. ταῦθ᾽, ὁρᾷς, |  |
 |  |  | οὐπώποτ᾽ εἶπεν. εἰ δὲ Φαίδραν λοιδορεῖ, |  |
@@ -2017,7 +2019,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 509 | `μν^(Η)` | τέξειν.' τὸ γὰρ ἦτρον τῆς χύτρας ἐλάκτισεν· |  |
 | 510 |  | χὠ μὲν γεγηθὼς **ἀπέτρεχ᾽**, ἡ δ᾽ ἐξέσπασεν | **510** ἔτρεχεν R : **ἀπέτρεχ᾽** van Herwerden |
 | 511 |  | ἐκ τοῦ στόματος τοῦ παιδίου, τὸ δ᾽ ἀνέκραγεν· | **511** **τοῦ παιδίου** R : τὸ κηρίον Hirschig |
-| 512 |  | εἶθ᾽ ἡ μιαρὰ γραῦς, **ἣ ᾽φερεν** (εἰ^(η)~~σ~~έφερε) τὸ παιδίον, | **512** εἰ^(η)~~σ~~έφερε Rᵖᶜ: **ἥ ᾽φερεν** Bentley |
+| 512 |  | εἶθ᾽ ἡ μιαρὰ γραῦς, **ἣ ᾽φερεν** (εἰ^(η)~~σ~~έφερε) τὸ παιδίον, | **512** εἰ^(η)~~σ~~έφερε Rᵖᶜ : **ἥ ᾽φερεν** Bentley |
 |  |  | θεῖ μειδιῶσα πρὸς τὸν ἄνδρα καὶ λέγει, |  |
 | 514 |  | λέων λέων σοι γέγονεν, **αὐτέκμαγμα** (αὖτ᾽ ἔ~~γ~~^(κ)μαγμα) σόν, | **514** αὖτ᾽ ἔκμαγμα (ex έγμαγμα) Rᵖᶜ, Pollux IX.131 : ἔκμαγμα Suid. λ 271, π 2114 : **αὐτέκμαγμα** Reiske |
 | 515 |  | τά τ᾽ ἄλλ᾽ ἁπαξάπαντα καὶ τὸ πόσθιον |  |
@@ -2032,15 +2034,15 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | τάδε γὰρ εἰπεῖν τὴν πανοῦργον |  |
 | 525 |  | κατὰ τὸ φανερὸν ὧδ᾽ ἀναιδῶς |  |
 | 526 |  | οὐκ ἂν ᾠόμην ἐν **ἡμῖν** | **526** ὑμῖν R : **ἡμῖν** Bonini |
-| 526 |  | οὐδὲ τολμῆσαί ποτ᾽ ἄν· | **526** ὑμῖν R : **ἡμῖν** Bonini |
+|  |  | οὐδὲ τολμῆσαί ποτ᾽ ἄν· |  |
 | 527 |  | **ἀλλὰ πᾶν** γένοιτ᾽ ἂν ἤδη· | **527** ἀλλ᾽ ἅπαν R : **ἀλλὰ πᾶν** Cobet |
 |  |  | τὴν παροιμίαν δ᾽ ἐπαινῶ |  |
 |  |  | τὴν παλαιάν· ὑπὸ λίθῳ γὰρ |  |
 | 530 |  | παντί που χρὴ |  |
-| 530 |  | μὴ δάκῃ ῥήτωρ ἀθρεῖν· |  |
+|  |  | μὴ δάκῃ ῥήτωρ ἀθρεῖν· |  |
 | 531 | `χορ/` | ἀλλ᾽ οὐ γάρ ἐστι τῶν ἀναισχύτων φύσει γυναικῶν | **531** (Κορ.) add. von Velsen |
 | 532 |  | οὐδὲν κάκιον εἰς ἅπαντα πλὴν ἄρ᾽ εἰ γυναῖκες· | **532** **ἄρ᾽ εἰ** R : ἄλλαι Suid. α 1349 |
-| 533 | `γυνή τις` | οὔτοι μὰ τὴν **Ἄγλαυρον** ὦ γυναῖκες εὖ φρονεῖτε, | **533** (γυνὴ τις) Rᵖᶜ: **(Μίκα)** Rogers ∥ Ἄγραυλον R : **Ἄγλαυρον** Daubuz |
+| 533 | `γυνή τις` | οὔτοι μὰ τὴν **Ἄγλαυρον** ὦ γυναῖκες εὖ φρονεῖτε, | **533** (γυνὴ τις) Rᵖᶜ : **(Μίκα)** Rogers ∥ Ἄγραυλον R : **Ἄγλαυρον** Daubuz |
 |  |  | ἀλλ᾽ ἢ πεφάρμαχθ᾽ ἢ κακόν τι μέγα πεπόνθατ᾽ ἄλλο, |  |
 | 535 |  | ταύτην ἐῶσαι τὴν φθόρον τοιαῦτα περιυβρίζειν |  |
 | 536 |  | ἡμᾶς ἁπάσας. εἰ μὲν οὖν τις ἔστιν· εἰ δὲ μή, ἡμεῖς | **536** **μή ἡμεῖς** R : μἠμεῖς Bentley |
@@ -2057,7 +2059,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | ἐγένετο, Μελανίππας ποιῶν Φαίδρας τε· Πηνελόπην δὲ |  |
 | 548 |  | οὐπώποτ᾽ **ἐποίησ᾽**, ὅτι γυνὴ σώφρων ἔδοξεν εἶναι· | **548** ἐποίησεν R : **ἐποίησ᾽** Scaliger |
 | 549 | `μν^(Η)` | ἐγὼ γὰρ οἶδα ταἴτιον· μίαν γὰρ οὐκ ~~ἂρ~~^(ἂν) εἴποις | **549** **ἂν** ex ἂρ corr. Rᵖᶜ |
-| 550 |  | τῶν νῦν γυναικῶν Πηνελόπην, Φαίδρας **δ᾽ ἁπαξαπάσας**· | **550** ἁπαξαπάσας R, Mᵖᶜ : **δ᾽ ἁπαξαπάσας** Mᵃᶜ |
+| 550 |  | τῶν νῦν γυναικῶν Πηνελόπην, Φαίδρας **δ᾽ ἁπαξαπάσας**· | **550** ἁπαξαπάσας R, M^(pc) : **δ᾽ ἁπαξαπάσας** M^(ac) |
 
 #### B. Édition, tachygraphie (R²), traduction française et commentaire philologique des 9 scholies et gloses du `f. 168v`
 
@@ -2070,8 +2072,8 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 ##### `Σ 181` — **v. 516** · Lemme : *τά τ᾽ ἄλλ᾽ ἁπαξάπαντα καὶ τὸ πόσθιον / τῷ σῷ προσόμοιον, στρεβλὸν ὥσπερ κύτταρον·*
 - **Position sur le `f. 168v`** : Marge gauche (extérieure, f. 168v, grande scholie alexandrine de 10 lignes en face du v. 516)
-- **Texte grec établi (Σᴿ)** : `Θεόφραστος τὴν προάνθησίν φησι τῆς πίτυος καὶ τῆς πεύκης. Ἐρατοσθένης ἀγγεῖον τοῦ σφηκὸς ἢ τῆς μελίσσης, ὅπου οἱ σκώληκες ἔπεισιν. ἀλλ’ οὐδὲ οὕτως πάνυ σώζεται ἡ ἀκολουθία. δεῖ οὖν χωρίζειν ἑκάτερον οὕτως, καὶ ὡς στρεβλὸν καὶ ὥσπερ κύτταρον, προσόμοιον κυττάρῳ πλήρει καὶ ἔχοντι τὸν σκώληκα. Ἄλλως. κύτταρος καλεῖται τὰ κοιλώματα τῶν μελικηρίδων· ὁμοίως δὲ καὶ τὸ πῶμα τῆς βαλάνου, ὅπου ἐγκάθηται ἡ βάλανος, ὅπερ νῦν ἀκουστέον· περὶ γὰρ αἰδοίου λέ- γει.`
-- **Tracé diplomatique et abréviations tachygraphiques de R²** : `Θεόφραστ^(ος) τ(ὴν) προάνθησίν φησ(ι) τ^(ῆς) πίτυ^(ος) Ϛ τ^(ῆς) πεύκης · Ἐρατοσθένης ἀγγεῖ(ον) τ^(οῦ) σφηκὸς ἢ τ^(ῆς) μελίσσ^(ης), ὅπ^(ου) οἱ σκώληκες ἔπεισ(ιν) · ἀλλ’ οὐδὲ οὕτ^(ως) πάνυ σώζετ(αι) ἡ ἀκολουθία · δεῖ οὖν χωρίζε(ιν) ἑκάτερ(ον) οὕτ^(ως), Ϛ ὡς στρεβλ(ὸν) Ϛ ὥσπ(ερ) κύτταρ(ον), προσόμοι(ον) κυττάρῳ πλήρει Ϛ ἔχοντι τ(ὸν) σκώληκα · ἄλλ^(ως) · κύτταρ^(ος) καλεῖτ(αι) τὰ κοιλώματα τ^(ῶν) μελικηρίδων· ὁμοίως δ(ὲ) Ϛ τ(ὸ) πῶμα τ^(ῆς) βαλάνου, ὅπ^(ου) ἐγκάθητ(αι) ἡ βάλαν^(ος), ὅπερ νῦν ἀκουστέον· π(ερὶ) γ(ὰρ) αἰδοίου λέ- γει ÷`
+- **Texte grec établi (Σᴿ)** : `Θεόφραστος τὴν προάνθησίν φησι τῆς πίτυος καὶ τῆς πεύκης. Ἐρατοσθένης ἀγγεῖον τοῦ σφηκὸς ἢ τῆς μελίσσης, ὅπου οἱ σκώληκες ἔπεισιν. ἀλλ’ οὐδὲ οὕτως πάνυ σώζεται ἡ ἀκολουθία. δεῖ οὖν χωρίζειν ἑκάτερον οὕτως, καὶ ὡς στρεβλὸν καὶ ὥσπερ κύτταρον, προσόμοιον κυττάρῳ πλήρει καὶ ἔχοντι τὸν σκώληκα. Ἄλλως. κύτταρος καλεῖται τὰ κοιλώματα τῶν μελικηρίδων· ὁμοίως δὲ καὶ τὸ πῶμα τῆς βαλάνου, ὅπου ἐγκάθηται ἡ βάλανος, ὅπερ νῦν ἀκουστέον· περὶ γὰρ αἰδοίου λέγει.`
+- **Tracé diplomatique et abréviations tachygraphiques de R²** : `Θεόφραστ^(ος) τ(ὴν) προάνθησίν φησ(ι) τ^(ῆς) πίτυ^(ος) Ϛ τ^(ῆς) πεύκης · Ἐρατοσθένης ἀγγεῖ(ον) τ^(οῦ) σφηκὸς ἢ τ^(ῆς) μελίσσ^(ης), ὅπ^(ου) οἱ σκώληκες ἔπεισ(ιν) · ἀλλ’ οὐδὲ οὕτ^(ως) πάνυ σώζετ(αι) ἡ ἀκολουθία · δεῖ οὖν χωρίζε(ιν) ἑκάτερ(ον) οὕτ^(ως), Ϛ ὡς στρεβλ(ὸν) Ϛ ὥσπ(ερ) κύτταρ(ον), προσόμοι(ον) κυττάρῳ πλήρει Ϛ ἔχοντι τ(ὸν) σκώληκα · ἄλλ^(ως) · κύτταρ^(ος) καλεῖτ(αι) τὰ κοιλώματα τ^(ῶν) μελικηρίδων· ὁμοίως δ(ὲ) Ϛ τ(ὸ) πῶμα τ^(ῆς) βαλάνου, ὅπ^(ου) ἐγκάθητ(αι) ἡ βάλαν^(ος), ὅπερ νῦν ἀκουστέον· π(ερὶ) γ(ὰρ) αἰδοίου λέγει ÷`
 - **Traduction française** : « Théophraste (Histoire des plantes III, 3, 8) dit que le κύτταρος est le chaton (la préfloraison conique) du pin et du sapin. Ératosthène dit que c'est l'alvéole de la guêpe ou de l'abeille, dans lequel se logent les larves ; mais même ainsi la suite des idées n'est pas tout à fait claire. Il faut donc séparer chaque terme : à la fois “tordu” (στρεβλόν) et “pareil à un alvéole plein contenant sa larve”. — Autre rédaction : On appelle κύτταρος les cavités des rayons de miel, et pareillement la cupule du gland de chêne (τὸ πῶμα τῆς βαλάνου), dans laquelle est enchâssé le gland : c'est en ce dernier sens qu'il faut l'entendre ici, car il parle du gland de la verge enfantine (βαλάνου / αἰδοίου). »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : L'une des plus belles scholies lexicographiques du Ravennas (reprise par la Souda κ 2789, Photius κ 1244 et Hésychius κ 4738), citant Théophraste et le traité Περὶ τῆς ἀρχαίας κωμῳδίας d'Ératosthène de Cyrène, avant de donner la vraie clé du jeu de mots anatomique sur βάλανος (gland du chêne / gland du pénis) et sa cupule (κύτταρος / prépuce).
 
@@ -2139,11 +2141,11 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  | `—` | ἡμᾶς ἁπάσας αὖθις αὖ. : καὶ νὴ Δί᾽ οὐδέπω γε |  |
 | 553 |  | εἴρηχ᾽ ὅσα ξύνοιδ᾽· ἐπεὶ βούλεσθε **πλείον᾽** εἴπω; | **553** πλεῖον R : **πλείον᾽** Bentley |
 | 554 | `γυ^(ν)` | ἀλλ᾽ οὐκ ἂν ἔτ᾽ ἔχοις· ὅσα γὰρ **ᾔδησθ᾽** ἐξέχεας ἅπαντα· | **554** ᾔδεις R : **ᾔδησθ᾽** Hirschig (Ar. *Vesp*.146) |
-| 555 | `μν^(Η)` | μὰ Δί᾽ οὐδὲ τήν γε μυριοστὴν μοῖραν ὧν ποιοῦμεν· | **555** **add. γε** Faber |
-| 556 |  | **ἐπεὶ τάδ᾽** **οὐκ** εἴρηχ᾽, ὁρᾷς, ὡς **στλεγγίδας** λαβοῦσαι | **556** ἔπειτά γ᾽ R : **ἐπεὶ τάδ᾽** Dindorf ∥ οὐχ R : **οὐκ** M∥ τλεγγίδας R : **στλεγγίδας** M |
+| 555 | `μν^(Η)` | μὰ Δί᾽ οὐδὲ τήν **γε** μυριοστὴν μοῖραν ὧν ποιοῦμεν· | **555** **add. γε** Faber |
+| 556 |  | **ἐπεὶ τάδ᾽** **οὐκ** εἴρηχ᾽, ὁρᾷς, ὡς **στλεγγίδας** λαβοῦσαι | **556** ἔπειτά γ᾽ R : **ἐπεὶ τάδ᾽** Dindorf ∥ οὐχ R : **οὐκ** M ∥ τλεγγίδας R : **στλεγγίδας** M |
 | 557 | `—` | ἔπειτα σιφωνίζομεν **τὸν κύσθον**. : ἐπιτριβείης· | **557** τὸν σῖτον R, Σ, Suid. σ 512 : **τὸν κύσθον** Bibi cf. v.1114 |
-| 558 | `μν^(Η)` | **ὥς τ᾽ αὖ τὰ** κρέ᾽ ἐξ Ἀπατουρίων ταῖς μαστροποῖς διδοῦσαι | **558** ὥς τ᾽ αὐτὰ R : ὥς ταῦτα M: **ὥς τ᾽ αὖ τὰ** Zanetti |
-| 558 | `—` | ἔπειτα τὴν γαλῆν φαμεν– : τάλαιν᾽ ἐγώ· φλυαρεῖς· | **558** ὥς τ᾽ αὐτὰ R : ὥς ταῦτα M: **ὥς τ᾽ αὖ τὰ** Zanetti |
+| 558 | `μν^(Η)` | **ὥς τ᾽ αὖ τὰ** κρέ᾽ ἐξ Ἀπατουρίων ταῖς μαστροποῖς διδοῦσαι | **558** ὥς τ᾽ αὐτὰ R : ὥς ταῦτα M : **ὥς τ᾽ αὖ τὰ** Zanetti |
+| 559 | `—` | ἔπειτα τὴν γαλῆν φαμεν– : τάλαιν᾽ ἐγώ· φλυαρεῖς· |  |
 | 560 | `μν^(Η)` | οὐδ᾽ ὡς τὸν ἄνδρα τῷ πελέκει γυνὴ κατεσπόδησεν, | **560** **τὸν ἄνδρα τῷ πελέκει γυνὴ** R : ἑτέρα τὸν ἄνδρα τῷ πελέκει Suid. κ 996 |
 |  |  | οὐκ εἶπον· οὐδ᾽ ὡς φαρμάκοις ἑτέρα τὸν ἄνδρ᾽ ἔμηνεν, |  |
 | 562 | `—` | οὐδ᾽ ὡς ὑπὸ τῇ πυέλῳ κατώρυξέν ποτε— : ἐξόλοιο· | **562** **ποτε** R : ποτ᾽ ed. pr. |
@@ -2164,7 +2166,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | καὶ νῦν ἀκούσας πρᾶγμα περὶ ὑμῶν μέγα |  |
 |  |  | ὀλίγῳ τι πρότερον κατ᾽ ἀγορὰν λαλούμενον, |  |
 |  |  | ἥκω φράσων τοῦτ᾽ ἀγγελῶν θ᾽ ὑμῖν, ἵνα |  |
-| 580 |  | **σκοπῆτε καὶ τηρῆτε** **μὴ καὶ** προσπέσῃ | **580** σκοπεἴτε καὶ τηρεἴτε R : **σκοπῆτε καὶ τηρῆτε** Biset ∥ καὶ μὴ R : **μὴ καὶ** Porson (*Aristophanica* p. 216) ∥ ἡμῖν R : **ὑμῖν** M∥ ἀφράκτοις R : **ἀφάρκτοις** Dindorf (1830) |
+| 580 |  | **σκοπῆτε καὶ τηρῆτε** **μὴ καὶ** προσπέσῃ | **580** σκοπεἴτε καὶ τηρεἴτε R : **σκοπῆτε καὶ τηρῆτε** Biset ∥ καὶ μὴ R : **μὴ καὶ** Porson (*Aristophanica* p. 216) |
 | 581 |  | **ὑμῖν** **ἀφάρκτοις** πρᾶγμα δεινὸν καὶ μέγα· | **581** ἡμῖν R : **ὑμῖν** M ∥ ἀφράκτοις R : **ἀφάρκτοις** Dindorf (1830, métathèse attique ancienne -ρκ-) |
 |  | `χορ/` | τί δ᾽ ἔστιν ὦ παῖ; παῖδα γάρ σ᾽ εἰκὸς καλεῖν, |  |
 |  |  | ἕως ἂν οὕτως τὰς γνάθους ψιλὰς ἔχῃς· |  |
@@ -2299,7 +2301,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | ἠλίθιος ὅστις τιλλόμενος ἠνείχετο; |  |
 | 594 |  | οὐκ **οἴομαι 'γωγ᾽** ὦ πολυτιμήτω θεώ· | **594** οἴομ᾽ ἔγωγ᾽ R : **οἴομαι 'γωγ᾽** anonymus Parisinus |
 | 595 | `κλεισθ/` | ληρεῖς· ἐγὼ γὰρ οὐκ ἂν ἦλθον ἀγγελῶν, |  |
-| 596 |  | εἰ μὴ **᾽πεπύσμην** **ταῦτα** τῶν σάφ᾽ εἰδότων· | **596** πεπύσμην R, PSI-1194: **᾽πεπύσμην** Faber ∥ ταυτὶ R : **ταῦτα** Bentley |
+| 596 |  | εἰ μὴ **᾽πεπύσμην** **ταῦτα** τῶν σάφ᾽ εἰδότων· | **596** πεπύσμην R, PSI-1194 : **᾽πεπύσμην** Faber ∥ ταυτὶ R : **ταῦτα** Bentley |
 |  | `χορ/` | τὸ πρᾶγμα τουτὶ δεινὸν εἰσαγγέλλεται· |  |
 | 598 |  | ἀλλ᾽ ὦ γυναῖκες οὐκ **ἐλινύειν** ἐχρῆν, | **598** ἐλιννύειν R : **ἐλινύειν** Bourdin |
 |  |  | ἀλλὰ σκοπεῖν τὸν ἄνδρα καὶ ζητεῖν ὅπου |  |
@@ -2309,7 +2311,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  | `κλεισθ/` | φέρ᾽ ἴδω· τίς ἡ πρώτη σύ; : ποῖ τις τρέψεται; |  |
 | 604 | `κλεισθ/` | ζητητέαι γάρ ἐστε. : κακοδαίμων ἐγώ· | **604** **ζητητέαι γάρ ἐστε** R : ζητητέον τἄρ᾽ ἐστί Maas ∥ 604 ante 603 transp. Maas, post 607 collocare malui |
 | 605 | `γυ^(ν)` | ἔμ᾽ **ἥτις** **εἴμ᾽ ἤρου**; Κλεωνύμου γυνή· | **605** εἰτις ἤρου; R : **ἥτις** (Zanetti) **εἴμ᾽ ἤρου;** Bentley |
-| 606 | `κλεισθ/` | γιγνώσκεθ᾽ ὑμεῖς ἥτις ἔσθ᾽ **ἡδὶ** γυνή; | **606** ἥδε R : ἥδ᾽ ἡ M: **ἡδὶ** Grynaeus |
+| 606 | `κλεισθ/` | γιγνώσκεθ᾽ ὑμεῖς ἥτις ἔσθ᾽ **ἡδὶ** γυνή; | **606** ἥδε R : ἥδ᾽ ἡ M : **ἡδὶ** Grynaeus |
 |  | `χορ/` | γιγνώσκομεν δῆτ᾽. ἀλλὰ τὰς ἄλλας ἄθρει· |  |
 |  | `κλεισθ/` | ἡδὶ δὲ δὴ τίς ἐστιν ἡ τὸ παιδίον |  |
 | 609 | `—` | ἔχουσα; : **τίτθη νὴ Δί᾽** ἐμή. : διοίχομαι· | **609** τίτθην η δί᾽ R : **τίτθη νὴ Δί᾽** Ellebodius |
@@ -2333,11 +2335,11 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | ἐκ τῶν ἱερῶν τῶν πέρυσι· σὺ δ᾽ ἀπόστηθί μοι, |  |
 |  |  | ἵνα μὴ 'πακούσῃς ὢν ἀνήρ. σὺ δ᾽ εἰπέ μοι |  |
 |  |  | ὅ τι πρῶτον ἡμῖν τῶν ἱερῶν ἐδείκνυτο· |  |
-| 630 | `μν^(Η)` | φέρ᾽ ἴδω, τί ^(μέντοι) (in mg. Rᵖᶜ) πρῶτον ἦν; : ἐπίνομεν· | **630** **μέντοι** Rᵖᶜin mg., Suid. π 2563 : om. Rᵃᶜ, M |
+| 630 | `μν^(Η)` | φέρ᾽ ἴδω, τί ^(μέντοι) (\textin mg. Rᵖᶜ) πρῶτον ἦν; : ἐπίνομεν· | **630** **μέντοι** Rᵖᶜ in mg., Suid. π 2563 : om. Rᵃᶜ, M |
 | 631 | `γυ^(ν)` | τί δὲ **μετὰ** τοῦτο δεύτερον; : προὐπίνομεν· | **631** **δὲ** R, Suid. π 2563 : δαὶ Bentley ∥ με R : **μετὰ** Suid. |
 | 632 | `γυ^(ν)` | ταυτὶ μὲν ἤκουσάς τινος· **τί δ᾽ ἦν τρίτον**; | **632** τί δὲ τρίτον R : τί δ᾽ αὖ Bentley : τί δαὶ τρίτον Elmsley : **τί δ᾽ ἦν τρίτον** Teubner |
 |  | `μν^(Η)` | σκάφιον Ξένυλλ᾽ ᾔτησεν· οὐ γὰρ ἦν ἀμίς· |  |
-| 634 | `γυ^(ν)` | οὐδὲν λέγεις· δεῦρ᾽ ἐλθὲ **δεῦρ᾽ ὦ** (δευρ ὦ R²) **Κλείσθενες**· | **634** δεῦρο Rᵃᶜ, M: **δευρ ὦ** R²∥ Κλεισόσθενες R : **Κλείσθενες** Bonini |
+| 634 | `γυ^(ν)` | οὐδὲν λέγεις· δεῦρ᾽ ἐλθὲ **δεῦρ᾽ ὦ** (δευρ ὦ R²) **Κλείσθενες**· | **634** δεῦρο Rᵃᶜ, M : **δευρ ὦ** R² ∥ Κλεισόσθενες R : **Κλείσθενες** Bonini |
 
 #### B. Édition, tachygraphie (R²), traduction française et commentaire philologique des 12 scholies et gloses du `f. 169v`
 
@@ -2448,7 +2450,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 644 | `γυ^(ν)` | **τοδὶ διέκυψε** καὶ μάλ᾽ εὔχρων ὦ τάλαν· | **644** τὸ δὶ δὴ ἔκυψε R : **τοδὶ διέκυψε** Dobree, Dindorf |
 | 645 | `κλεισθ/` | καὶ ποῦ 'στιν; : αὖθις εἰς τὸ πρόσθεν οἴχεται· |  |
 | 646 | `κλεισθ/` | οὐκ ἐνγεταυθί. : ἀλλὰ δεῦρ᾽ ἥκει πάλιν· | **646** **ἐνγεταυθί** R : ἐγγεταυθί Thiersch ∥ **ἀλλὰ** R : μἀλλὰ Bentley |
-| 647 | `κλεισθ/` | ἰσθμόν τιν᾽ ἔχεις **ὤνθρωπ᾽**· ἄνω τε καὶ κάτω | **647** ῶνθρωπε R : ἄνθρωπε M: ἄνθρωπ᾽ Suid. ι 640 : **ὤνθρωπ᾽** Ellebodius |
+| 647 | `κλεισθ/` | ἰσθμόν τιν᾽ ἔχεις **ὤνθρωπ᾽**· ἄνω τε καὶ κάτω | **647** ῶνθρωπε R : ἄνθρωπε M : ἄνθρωπ᾽ Suid. ι 640 : **ὤνθρωπ᾽** Ellebodius |
 |  |  | τὸ πέος διέλκεις πυκνότερον Κορινθίων· |  |
 |  | `γυ^(ν)` | ὤ μιαρὸς οὗτος· ταῦτ᾽ ἄρ᾽ ὑπὲρ Εὐριπίδου |  |
 | 650 | `—` | ἡμῖν ἐλοιδορεῖτο. : κακοδαίμων ἐγώ, |  |
@@ -2458,10 +2460,10 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 654 |  | ἐγὼ δὲ ταῦτα τοῖς **πρυτάνεσιν** ἀγγελῶ· | **654** πρυτάνεσσιν R : **πρυτάνεσιν** M |
 | 655 | `χορ/` | ἡμᾶς τοίνυν μετὰ τοῦτ᾽ ἤδη τὰς λαμπάδας ἁψαμένας χρὴ |  |
 |  |  | ξυζωσαμένας εὖ κἀνδρείως τῶν θ᾽ ἱματίων ἀποδύσας |  |
-| 657 |  | ζητεῖν, εἴ που κἄλλος τις ἀνὴρ **ἐπελήλυθε**, καὶ περιθρέξαι | **657** εἰσελήλυθεν R : **ἐπελήλυθε** Handley **658** ἀθρῆσαι R : **διαθρῆσαι** Daubuz |
+| 657 |  | ζητεῖν, εἴ που κἄλλος τις ἀνὴρ **ἐπελήλυθε**, καὶ περιθρέξαι | **657** εἰσελήλυθεν R : **ἐπελήλυθε** Handley |
 | 658 |  | τὴν Πύκνα πᾶσαν καὶ τὰς σκηνὰς καὶ τὰς διόδους **διαθρῆσαι**· | **658** ἀθρῆσαι R : **διαθρῆσαι** Daubuz |
 | 659 | `ἡμιχ/` | εἶα δὴ πρώτιστα μὲν χρὴ κοῦφον ἐξορμᾶν πόδα | **659** (Ἡμιχ. γυν.) Rᵖᶜ |
-| 660 |  | καὶ διασκοπεῖν σιωπῇ πανταχῇ· μόνον δὲ χρὴ | **660** πανταχῇ post χρὴ R : **ante μόνον** Küster |
+| 660 |  | καὶ διασκοπεῖν σιωπῇ **πανταχῇ**· μόνον δὲ χρὴ | **660** πανταχῇ post χρὴ R : **ante μόνον** Küster |
 |  |  | μὴ βραδύνειν, ὡς ὁ καιρός ἐστι μὴ μέλλειν ἔτι, |  |
 | 662 |  | ἀλλὰ τὴν πρώτην τρέχειν **χρῆν** ὡς τάχιστ᾽ ἤδη κύκλῳ· | **662** χρὴ R : **χρῆν** Bentley : χρῆ μ᾽ Austin |
 |  | `χορ/` | εἶά νυν ἴχνευε καὶ μά- |  |
@@ -2470,9 +2472,9 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 665 |  | πανταχῇ **δὲ ῥῖψον** ὄμμα, | **665** διάρριψον R : **δὲ ῥῖψον** Hermann |
 | 666 |  | καὶ τὰ τῇδε καὶ τὰ δεῦρο | **666** **καὶ τὰ τῇδε** R (post καὶ τὰ τῇδε add. καὶ τὰ κεῖσε Kaibel) |
 |  |  | πάντ᾽ ἀνασκόπει καλῶς· |  |
-| 667 |  | ἢν γάρ ληφθῇ δράσας ἀνόσια, | **667** μὴ λάθῃ R : **ληφθῇ** Reisig : με λάθῃ Bergk |
+| 667 |  | ἢν γὰρ **ληφθῇ** δράσας ἀνόσια, | **667** μὴ λάθῃ R : **ληφθῇ** Reisig : με λάθῃ Bergk |
 |  |  | δώσει τε δίκην καὶ πρὸς τούτῳ |  |
-| 669 |  | τοῖς ἄλλοις **ἀνδράσιν** (ἅπασιν ~~ἅπασιν~~) ἔσται | **669** ἅπασιν ~~ἅπασιν~~ ἔσται Rᵖᶜ: ἅπασιν ἔσται M: **ἀνδράσιν ἔσται** Beer ap. Hermann (1845) : ἔσται ἅπασιν Bergk : alii alia |
+| 669 |  | τοῖς ἄλλοις **ἀνδράσιν** (ἅπασιν ~~ἅπασιν~~) ἔσται | **669** ἅπασιν ~~ἅπασιν~~ ἔσται Rᵖᶜ : ἅπασιν ἔσται M : **ἀνδράσιν ἔσται** Beer ap. Hermann (1845) : ἔσται ἅπασιν Bergk : alii alia |
 | 670 |  | παράδειγμ᾽ ὕβρεως |  |
 |  |  | ἀδίκων τ᾽ ἔργων ἀθέων τε τρόπων· |  |
 |  |  | φήσει δ᾽ εἶναί τε θεοὺς φανερῶς, |  |
@@ -2556,19 +2558,19 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | πος, εἴ τι δρῴη πᾶσιν ἐμφανὴς ὁρᾶν |  |
 | 683 |  | **ἔσται** γυναιξὶ καὶ βροτοῖς, | **683** ἐστὶν R : **ἔσται** Bothe ∥ γυναιξὶν : **-ξὶ** Brunck |
 |  |  | ὅτι τά παράνομα τά τ᾽ ἀνόσια παρὼν |  |
-| 686 |  | θεὸς **παραχρῆμ᾽ ἀποτίνεται**· | **686** ἀποτίνεται· \| παραχρῆμά τε τίνεται R : **παραχρῆμ᾽ ἀποτίνεται** Hermann |
+| 686 |  | θεὸς **παραχρῆμ᾽ ἀποτίνεται**· | **686** ἀποτίνεται· &#124; παραχρῆμά τε τίνεται R : **παραχρῆμ᾽ ἀποτίνεται** Hermann |
 | 687 | `χορ/` | ἀλλ᾽ ἔοιχ᾽ ἡμῖν ἅπαντά πως διεσκέφθαι καλῶς· | **687** (Κορ.) add. von Velsen ∥ Κορ. add. Velsen ∥ **πως** R : που Blaydes |
 |  |  | οὐχ ὁρῶμεν γοῦν ἔτ᾽ ἄλλον οὐδέν᾽ ἐγκαθήμενον |  |
-| 689 | `γυ^(ν)` | **ἆ ἆ** | **689** ἀά supra lin. R : **ἆ ἆ** Thiersch ∥ ποῖ R : **ποῖ ποῖ** Biset |
-| 689 |  | **ποῖ ποῖ** σὺ φεύγεις; οὗτος οὗτος οὐ μενεῖς; | **689** ἀά supra lin. R : **ἆ ἆ** Thiersch ∥ ποῖ R : **ποῖ ποῖ** Biset |
+| 689a | `γυ^(ν)` | **ἆ ἆ** (ἀά supra lin. R) | **689a** ἀά supra lin. R : **ἆ ἆ** Thiersch |
+| 689b |  | **ποῖ ποῖ** σὺ φεύγεις; οὗτος οὗτος οὐ μενεῖς; | **689b** ποῖ R : **ποῖ ποῖ** Biset |
 | 690 |  | τάλαιν᾽ ἐγὼ τάλαινα, καὶ τὸ παιδίον |  |
 |  |  | ἐξαρπάσας μοι φροῦδος ἀπὸ τοῦ τιτθίου· |  |
 |  | `μν^(Η)` | κέκραχθι· τοῦτο δ᾽ οὐδέποτε σὺ ψωμιεῖς, |  |
-| 693 |  | ἢν μή μ᾽ **ἀφῆτ᾽** (ἀφεῖ^(ῆ)τ᾽ R²)· ἀλλ᾽ ἐνθάδ᾽ ἐπὶ τῶν μηρίων | **693** **ἀφεῖ^(ῆ)τ᾽** R²: ἀφεῖτ᾽ M |
+| 693 |  | ἢν μή μ᾽ **ἀφῆτ᾽** (ἀφεῖ^(ῆ)τ᾽ R²)· ἀλλ᾽ ἐνθάδ᾽ ἐπὶ τῶν μηρίων | **693** **ἀφεῖ^(ῆ)τ᾽** R² : ἀφεῖτ᾽ M |
 |  |  | πληγὲν μαχαίρᾳ τῇδε φοινίας φλέβας |  |
 | 695 | `—` | καθαιματώσει βωμόν. : ὢ τάλαιν᾽ ἐγώ· |  |
 |  |  | γυναῖκες, οὐκ ἀρήξετ᾽; οὐ πολλὴν βοὴν |  |
-| 697 |  | στήσεσθε καὶ τροπαῖον, ἀλλὰ τοῦ μόνου | **697** καὶ om. R : καὶ suppl. Σ ad *Pl.* v.453 et Greg. Cor. *de dialectis* p.22 |
+| 697 |  | στήσεσθε **καὶ** τροπαῖον, ἀλλὰ τοῦ μόνου | **697** καὶ om. R : **καὶ** suppl. Σ ad *Pl.* v.453 et Greg. Cor. *de dialectis* p.22 |
 |  | `—` | τέκνου με περιόψεσθ᾽ ἀποστερουμένην; : ἔα ἔα· |  |
 | 700 |  | ὦ πότνιαι Μοῖραι τί **τόδε** δέρκομαι | **700** δὲ R : **τόδε** Dobree : δὴ Reisig |
 |  |  | νεοχμὸν αὖ τέρας; |  |
@@ -2587,7 +2589,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  | `μν^(Η)` | τοῦτο μέντοι μὴ γένοιτο μηδαμῶς, ἀπεύχομαι· |  |
 | 715 | `χορ/` | τίς οὖν σοι, τίς ἂν σύμμαχος ἐκ θεῶν | **715** **οὖν σοι** R : ἂν σοι Hamaker |
 |  |  | ἀθανάτων ἔλθοι ξὺν ἀδίκοις ἔργοις; |  |
-| 717 | `μν^(Η)` | μάτην λαλεῖτε· τὴνδ᾽ ἐγὼ οὐκ ἀφήσω· | **717** τὴν δ᾽ R : **τήνδ᾽** Biset |
+| 717 | `μν^(Η)` | μάτην λαλεῖτε· **τήνδ᾽** ἐγὼ οὐκ ἀφήσω· | **717** τὴν δ᾽ R : **τήνδ᾽** Biset |
 |  | `χορ/` | ἀλλ᾽ οὐ μὰ τὼ θεὼ τάχ᾽ οὐ |  |
 | 719 |  | χαίρων ἴσως **ἐνυβριεῖς** | **719** ἐνυβρίσεις R : **ἐνυβριεῖς** anonymus Romanus |
 | 720 |  | λόγους τε λέξεις ἀνοσίους |  |
@@ -2675,11 +2677,11 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 | Vers | Sigle (`R²`) | Transcription diplomatique ligne par ligne de `R` | Apparat critique en regard (éd. Louis Hauseux, `Bibi`) |
 | :---: | :---: | :--- | :--- |
-| 721 | `χορ/` | ξὺν ἀθέοις ἔργοις | **721** ἀθέοις ἔργοις γὰρ R : ἀθ. γὰρ ἔργ. Burges : ἐπ' ἀθ. ἔρ. γὰρ Enger : **ξὺν ἀθ. ἔργ. γὰρ** Bibi ap. Taillardat cf. v.716 ∥ γὰρ R : **καὶ γὰρ** Hermann |
-|  |  | καὶ γὰρ ἀνταμειψόμεσθά σ᾽ ὥσπερ εἰκὸς ἀντὶ τῶνδε· |  |
+| 721 | `χορ/` | **ξὺν** ἀθέοις ἔργοις | **721** ἀθέοις ἔργοις γὰρ R : ἀθ. γὰρ ἔργ. Burges : ἐπ' ἀθ. ἔρ. γὰρ Enger : **ξὺν ἀθέοις ἔργοις** Bibi ap. Taillardat cf. v.716 |
+| 722 |  | **καὶ γὰρ** ἀνταμειψόμεσθά σ᾽ ὥσπερ εἰκὸς ἀντὶ τῶνδε· | **722** γὰρ R : **καὶ γὰρ** Hermann |
 | 724 |  | **τάχα δὲ** μεταβαλοῦσ᾽ ἐπὶ κακὸν ἑτερότρο- | **724** τάχα δέ σε R : **τάχα δὲ** Fritzsche |
 | 725 |  | πον ἐπέχει **τύχη**· | **725** τις τύχη R : **τύχη** Bergk |
-| 726 | `χορ/` | ἀλλὰ τάσδε μὲν λαβεῖν χρῆν σ᾽ ἐκφέρειν τε τῶν ξύλων, | **726** **^(χ)ρῆν σ᾽** R²: χρὴ μ᾽ M |
+| 726 | `χορ/` | ἀλλὰ τάσδε μὲν λαβεῖν ^(χ)ρῆν σ᾽ ἐκφέρειν τε τῶν ξύλων, | **726** **^(χ**ρῆν σ᾽) R² : χρὴ μ᾽ M |
 |  |  | καὶ καταίθειν τὸν πανοῦργον πυρπολεῖν θ᾽ ὅσον τάχος· |  |
 |  | `γυ^(ν)` | ἴωμεν ἐπὶ τὰς κληματίδας ὦ Μανία· |  |
 | 729 |  | κἀγώ σ᾽ ἀποδείξω θυμάλωπα τήμερον· | **729** **κἀγώ** R : ἦ ᾽γώ Sommerstein |
@@ -2696,25 +2698,25 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 740 | `μν^(Η)` | παράβαλλε δῆτα· σὺ δ᾽ **ἀπόκριναί** μοι τοδί, | **740** ἀπόκρινέ R : **ἀπόκριναί** Μυ2 |
 | 741 | `—` | τουτὶ τεκεῖν φῄς; : **καὶ δέκα μῆνας** αὔτ᾽ ἐγὼ | **741** δέκα μῆνας R : **καὶ δέκα μῆνας** Biset : δέκα μῆνας γε Scaliger |
 |  | `—` | ἤνεγκον. : ἤνεγκας σύ; : νὴ τὴν Ἄρτεμιν· |  |
-| 743 | `μν^(Η)` | τρικότυλον; ἢ πῶς. : εἰπέ μοι· τί μ᾽ **ἠργάσω**; | **743** _τρικοτ̣υ̣λ̣ο̣ν·ηπ̣ω̣c̣ ειπε̣μ̣οιτ̣[ POxy-3839: τρικότυλον ἢ πῶς; εἰπέ μοι --- τί μ᾽ εἰργάσω; R : **ἠργάσω** Hall-Geldart |
+| 743 | `μν^(Η)` | τρικότυλον; ἢ πῶς. : εἰπέ μοι· τί μ᾽ **ἠργάσω**; | **743** \_τρικοτ̣υ̣λ̣ο̣ν·ηπ̣ω̣c̣   ειπε̣μ̣οιτ̣[ POxy-3839 : τρικότυλον ἢ πῶς; εἰπέ μοι --- τί μ᾽ εἰργάσω; R : **ἠργάσω** Hall-Geldart |
 |  |  | ἀπέδυσας ὦναίσχυντέ μου τὸ παιδίον |  |
-| 745 | `—` | **τυννοῦτον** ὄν. : **τυννοῦτο**; μικρὸν νὴ Δία· | **745** **τυννοῦτον** et **τυννοῦτο** POxy-3839, Brunck : τυνοῦτον et τυνοῦτο R ∥ Γϋ. ante μικρὸν R : **nulla nota mutat. pers.** POxy-3839 |
+| 745 | `—` | **τυννοῦτον** ὄν. : **τυννοῦτο**; μικρὸν νὴ Δία· | **745** **τυννοῦτον** et **τυννοῦτο** POxy-3839, Brunck : τυνοῦτον et τυνοῦτο R ∥ Γϋ. ante μικρὸν R : **nulla nota mutat. pers. ** POxy-3839 |
 | 746 |  | πόσ᾽ ἔτη δὲ **γέγονε**; τρεῖς χοᾶς ἢ τέτταρας; | **746** **γέγονε** POxy-3839, Brunck : γέγονεν R |
 | 747 | `γυ^(ν)` | σχεδὸν τοσοῦτον **χὤσον** ἐκ Διονυσίων· | **747** καὶ ὅσον POxy-3839, R : ὅσον Suid. δ 1168 : **χὤσον** Bentley |
 |  | `—` | ἀλλ᾽ ἀπόδος αὐτό. : μὰ τὸν Ἀπόλλω τουτονί· |  |
-| 749 | `γυ^(ν)` | ἐμπρήσομεν τοίνυν σε. : πάνυ γ᾽ ἐμπίμπρατε· | **749** ἐμπιμπρᾶται R : **ἐμπιμπράτε** (sic) M |
+| 749 | `γυ^(ν)` | ἐμπρήσομεν τοίνυν σε. : πάνυ γ᾽ **ἐμπίμπρατε**· | **749** ἐμπιμπρᾶται R : **ἐμπιμπράτε** (sic) M |
 | 750 |  | αὕτη δ᾽ ἀποσφαγήσεται μάλ᾽ αὐτίκα· |  |
 |  | `γυ^(ν)` | μὴ δῆθ᾽, ἱκετεύω σ᾽· ἀλλ᾽ ἔμ᾽ ὅ τι χρῄζεις ποίει |  |
 |  | `—` | ὑπέρ γε τούτου. : φιλότεκνός τις εἶ φύσει· |  |
 |  |  | ἀλλ᾽ οὐδὲν ἧττον ἥδ᾽ ἀποσφαγήσεται |  |
-| 754 | `γυ^(ν)` | οἴμοι τέκνον· **δὸς τὸ** **σφαγεῖον** (σφαγ~~ί~~^(εῖ)ον Rᵖᶜ) Μανία, | **754** **δὸς τὸ** POxy-3839, Lobeck (ad Soph. *Ai.* 1066) : δός μοι τὸ R ∥ σφαγίον Rᵃᶜ: **σφαγεῖον** Rᵖᶜ, M |
+| 754 | `γυ^(ν)` | οἴμοι τέκνον· **δός τὸ** **σφαγεῖον** (σφαγ~~ί~~^(εῖ)ον Rᵖᶜ) Μανία, | **754** **δός τὸ** POxy-3839, Lobeck (ad Soph. *Ai.* 1066) : δός μοι τὸ R ∥ σφαγίον Rᵃᶜ : **σφαγεῖον** Rᵖᶜ, M |
 | 755 |  | ἵν᾽ οὖν τό γ᾽ αἷμα τοῦ τέκνου τοὐμοῦ λάβω· |  |
 |  | `μν^(Η)` | ὕπεχ᾽ αὐτό, χαριοῦμαι γὰρ ἕν γε τοῦτό σοι· |  |
 |  | `γυ^(ν)` | κακῶς ἀπόλοι᾽, ὡς φθονερὸς εἶ καὶ δυσμενής· |  |
 |  | `μν^(Η)` | τουτὶ τὸ δέρμα τῆς ἱερείας γίγνεται· |  |
-| 758 | `γυ^(ν)` | τί τῆς **ἱερείας** γίγνεται; : τουτί. λαβέ· | **758-9** **ἱερείας** POxy-3839, R : ἱερέας Austin & Olson |
-| 760 | `ἄλλη γυνή` | ταλαντάτη Μίκα τίς ἐξεκόρησέ σε; | **760** ἐξεκόρησεν R : **ἐξεκόρησε** M |
-| 761 |  | τίς τὴν ἀγαπητὴν παῖδά **σοὐξηράσατο**; | **761** []απητ̣ην̣π̣ιαυξ[ POxy-3839 ∥ σοὐξῃρήσατο R : **σοὐξηράσατο** Fritzsche |
+| 758 | `γυ^(ν)` | τί τῆς **ἱερείας** γίγνεται; : τουτί. λαβέ· | **758-9** **ἱερείας** POxy-3839, R : ἱερέας Austin \& Olson |
+| 760 | `ἄλλη γυνή` | ταλαντάτη Μίκα τίς **ἐξεκόρησέ** σε; | **760** ἐξεκόρησεν R : **ἐξεκόρησε** M |
+| 761 |  | τίς τὴν ἀγαπητὴν παῖδά **σοὐξηράσατο**; | **761** [ ̣ ̣ ̣ ̣ ̣ ̣ ̣ ̣]απητ̣ην̣π̣ ̣ι ̣α ̣ ̣υξ[ POxy-3839 ∥ σοὐξῃρήσατο R : **σοὐξηράσατο** Fritzsche |
 |  | `γυ^(ν)` | ὁ πανοῦργος οὗτος. ἀλλ᾽ ἐπειδήπερ πάρει, |  |
 |  |  | φύλαξον αὐτόν, ἵνα λαβοῦσα Κλεισθένη |  |
 |  |  | τοῖσιν πρυτάνεσιν ἃ πεποίηχ᾽ οὗτος φράσω· |  |
@@ -2844,7 +2846,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | πέμψαιμ᾽ ἐπ᾽ αὐτόν; οἶδ᾽ ἐγὼ καὶ δὴ πόρον |  |
 | 770 |  | ἐκ τοῦ Παλαμήδους· ὡς ἐκεῖνος, τὰς πλάτας |  |
 | 771 |  | ῥίψω γράφων. ἀλλ᾽ οὐ πάρεισιν αἱ πλάται· | **771** **οὐ πάρεισιν** R : οὐ γάρ εἰσιν Fritzsche |
-| 772 |  | πόθεν οὖν γένοιτ᾽ ἄν μοι πλάται. πόθεν; πόθεν; | **772** **γένοιτ᾽** R : γένοιντ᾽ Grynaeus ∥ πόθεν; R : **πόθεν; πόθεν;** Scaliger |
+| 772 |  | πόθεν οὖν γένοιτ᾽ ἄν μοι πλάται. πόθεν; πόθεν; | **772** **γένοιτ᾽** R : γένοιντ᾽ Grynaeus ∥ πόθεν; R : \lecon πόθεν; πόθεν; Scaliger |
 | 773 |  | τί δ᾽ ἂν **εἰ ταδὶ τἀγάλματ᾽** ἀντὶ τῶν πλατῶν | **773** εἶτα διὰ τἀγάλματ᾽ R : ταδὶ τἀγάλματ᾽ Suid. : **εἰ ταδὶ τἀγάλματ᾽** Ellebodius |
 |  |  | γράφων διαρρίπτοιμι; βέλτιον πολύ· |  |
 | 775 |  | ξύλον γέ τοι καὶ ταῦτα κἀκεῖν᾽ ἦν ξύλον· |  |
@@ -2853,24 +2855,24 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | ἄγε δὴ πινάκων ξεστῶν δέλτοι, |  |
 |  |  | δέξασθε σμίλης ὁλκοὺς |  |
 | 780 |  | κήρυκας ἐμῶν μόχθων· οἴμοι |  |
-| 781 |  | τουτὶ **τορῶ** μοχθηρόν· | **781** τὸ ῥῶ R : **τορῶ** Bibi ap. Hesych. τ 1162 |
+| 781 |  | τουτὶ **τορῶ** μοχθηρόν· | **781** τὸ ῥῶ R~: **τορῶ** Bibi ap. Hesych. τ 1162 |
 | 782 |  | `**χώρει**', `χώρει'. ποίαν αὔλακα; | **782** **χώρει** bis R : χωρεῖ bis Brunck |
 | 783 |  | βάσκετ᾽ ἐπείγετε πάσας **καθ᾽ ὁδοὺς** | **783** καθόδους R : **καθ᾽ ὁδοὺς** Biset |
-| 784 |  | κείνᾳ ταύτᾳ· ταχέως χρή· | **784** ταῦτα R : ταύτᾳ Grynaeus (*hac* Divus) |
+| 784 |  | κείνᾳ **ταύτᾳ**· ταχέως χρή· | **784** ταῦτα R : **ταύτᾳ** Grynaeus (*hac* Divus) |
 | 785 | `χορ/` | ἡμεῖς τοίνυν ἡμᾶς αὐτὰς εὖ λέξωμεν παραβᾶσαι, |  |
 |  |  | καίτοι πᾶς τις τὸ γυναικεῖον φῦλον κακὰ πόλλ᾽ ἀγορεύει, |  |
 |  |  | ὡς πᾶν ἐσμὲν κακὸν ἀνθρώποις κἀξ ἡμῶν ἐστιν ἅπαντα, |  |
-| 788 |  | ἔριδες νείκη **στάσις ἀργαλέα** λύπη πόλεμος. φέρε δή νυν, | **788** στάσεισ· ἀργαλέα· R : **στάσις ἀργαλέα** Scaliger ∥ εἰ καὶ κακόν R : **εἰ κακόν** Zanetti |
+| 788 |  | ἔριδες νείκη **στάσις ἀργαλέα** λύπη πόλεμος. φέρε δή νυν, | **788** στάσεισ· ἀργαλέα· R : **στάσις ἀργαλέα** Scaliger |
 | 789 |  | **εἰ κακόν** ἐσμεν, τί γαμεῖθ᾽ ἡμᾶς, εἴπερ ἀληθῶς κακόν ἐσμεν, | **789** εἰ καὶ κακόν R : **εἰ κακόν** Zanetti |
-| 790 |  | κἀπαγορεύετε μήτ᾽ ἐξελθεῖν μήτ᾽ ἐκκύψασαν ἁλῶναι, | **790** ἐγκύψασαν R : **ἐκκύψασαν** Reiske |
+| 790 |  | κἀπαγορεύετε μήτ᾽ ἐξελθεῖν μήτ᾽ **ἐκκύψασαν** ἁλῶναι, | **790** ἐγκύψασαν R : **ἐκκύψασαν** Reiske |
 |  |  | ἀλλ᾽ οὑτωσὶ πολλῇ σπουδῇ τὸ κακὸν βούλεσθε φυλάττειν; |  |
 | 792 |  | κἂν ἐξέλθῃ τὸ γύναιόν ποι, **κᾆθ᾽ εὕρητ᾽** αὐτὸ θύρασιν, | **792** κᾆθ᾽ εὕροιτ' R : **κᾆθ᾽ εὕρητ᾽** Porson |
-| 793 |  | μανίας **μαίνεσθ᾽**, οὓς **χρῆν** σπένδειν καὶ χαίρειν, εἴπερ ἀληθῶς | **793** μαίνεθ᾽ R : **μαίνεσθ᾽** M∥ χρή R : **χρῆν** Brunck |
+| 793 |  | μανίας **μαίνεσθ᾽**, οὓς **χρῆν** σπένδειν καὶ χαίρειν, εἴπερ ἀληθῶς | **793** μαίνεθ᾽ R : **μαίνεσθ᾽** M ∥ χρή R : **χρῆν** Brunck |
 | 794 |  | ἔνδοθεν **ηὕρετε** φροῦδον τὸ κακὸν καὶ μὴ **κατελαμβάνετ᾽** ἔνδον· | **794** εὕρετε R : **ηὕρετε** Meineke ∥ καταλαμβάνετ᾽ R : **κατελαμβάνετ᾽** Brunck |
 | 795 |  | κἂν **καταδάρθωμεν** ἐν ἀλλοτρίων παίζουσαι καὶ κοπιῶσαι, | **795** καταδαρθῶμεν R : **καταδάρθωμεν** Dindorf |
 |  |  | πᾶς τις τὸ κακὸν τοῦτο ζητεῖ περὶ τὰς κλίνας περινοστῶν· |  |
 | 797 |  | κἂν ἐκ θυρίδος παρακύπτωμεν, **τὸ κακὸν ζητεῖτε θεᾶσθαι**· | **797** ζητεῖ τὸ κακὸν τεθεᾶσθαι R : **τὸ κακὸν ζητεῖτε θεᾶσθαι** J. Kaye |
-| 798 |  | κἂν **αἰσχυνθεῖσ᾽** (αἰσχυνθ~~η~~^(εὶ)ς Rᵖᶜ) ἀναχωρήσῃ, πολὺ μᾶλλον πᾶς ἐπιθυμεῖ | **798** αἰσχυνθεὶς (ex αἰσχυνθῆς) Rᵖᶜ: **αἰσχυνθεῖσ᾽** Zanetti |
+| 798 |  | κἂν **αἰσχυνθεῖσ᾽** (αἰσχυνθ~~η~~^(εὶ)ς Rᵖᶜ) ἀναχωρήσῃ, πολὺ μᾶλλον πᾶς ἐπιθυμεῖ | **798** αἰσχυνθεὶς (ex αἰσχυνθῆς) Rᵖᶜ : **αἰσχυνθεῖσ᾽** Zanetti |
 | 799 |  | αὖθις **τὸ κακὸν παρακύψαν ἰδεῖν**. οὕτως ἡμεῖς ἐπιδήλως | **799** παρακύψασαν ἰδεῖν τὸ κακὸν R : **τὸ κακὸν παρακύψαν ἰδεῖν** Dindorf |
 
 #### B. Édition, tachygraphie (R²), traduction française et commentaire philologique des 8 scholies et gloses du `f. 171v`
@@ -2944,18 +2946,18 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | :---: | :---: | :--- | :--- |
 | 800 | `χορ/` | ὑμῶν ἐσμεν πολὺ βελτίους, βάσανός τε πάρεστιν ἰδέσθαι· |  |
 |  |  | βάσανον δῶμεν πότεροι χείρους. ἡμεῖς μὲν γάρ φαμεν ὑμᾶς, |  |
-| 802 |  | **ὑμεῖς δ᾽ ἡμᾶς**. **σκεψώμεθα** δὴ κἀντιτιθῶμεν πρὸς ἕκαστον, | **802** ὑμεῖς δ᾽ ὑμᾶς R : **ὑμεῖς δ᾽ ἡμᾶς** M∥ σκεψώμεσθα R : **σκεψώμεθα** M |
+| 802 |  | **ὑμεῖς δ᾽ ἡμᾶς**. **σκεψώμεθα** δὴ κἀντιτιθῶμεν πρὸς ἕκαστον, | **802** ὑμεῖς δ᾽ ὑμᾶς R : **ὑμεῖς δ᾽ ἡμᾶς** M ∥ σκεψώμεσθα R : **σκεψώμεθα** M |
 | 803 |  | παραβάλλουσαι τῆς τε γυναικὸς καὶ τἀνδρὸς τοὔνομ᾽ **ἑκάστου**· | **803** ἕκαστον R : **ἑκάστου** Grynaeus |
 | 804 |  | Ναυσιμάχης **μέν γ᾽** ἥττων **ἐστὶν** Χαρμῖνος· **δῆλα δὲ** τἄργα· | **804** μέν R : **μέν γ᾽** Dobree ∥ ἐστὶ R : **ἐστὶν** Küster ∥ δηλαδῆ R : **δῆλα δὲ** Grynaeus |
 | 805 |  | καὶ μὲν δὴ καὶ Κλεοφῶν **χείρων** πάντως δήπου Σαλαβακχοῦς· | **805** χεῖρον R : **χείρων** Zanetti |
 |  |  | πρὸς Ἀριστομάχην δὲ χρόνου πολλοῦ, πρὸς ἐκείνην τὴν Μαραθῶνι, |  |
-| 807 |  | καὶ **Στρατονίκην** ὑμῶν οὐδεὶς οὐδ᾽ ἐγχειρεῖ πολεμίζειν· | **807** **Στρατονίκην** PSI-1194: στρατωνίκην R |
+| 807 |  | καὶ **Στρατονίκην** ὑμῶν οὐδεὶς οὐδ᾽ ἐγχειρεῖ πολεμίζειν· | **807** **Στρατονίκην** PSI-1194 : στρατωνίκην R |
 | 808 |  | ἀλλ᾽ Εὐβούλης τῶν πέρυσίν **τις βουλευτής** ἐστιν ἀμείνων | **808** τίς βουλευτής R : **τις βουλευτής** Küster |
 | 809 |  | παραδοὺς ἑτέρῳ τὴν βουλείαν; οὐδ᾽ αὐτὸς τοῦτό γε **φήσει**· | **809** **αὐτὸς** R : Ἄνυτος Maas ∥ φήσεις R : **φήσει** Küster |
 | 810 |  | οὕτως ἡμεῖς πολὺ βελτίους τῶν ἀνδρῶν **εὐχόμεθ᾽** εἶναι· | **810** εὐχόμεσθ᾽ R : **εὐχόμεθ᾽** M |
-| 811 |  | οὐδ᾽ ἂν κλέψασα γυνὴ ζεύγει κατὰ πεντήκοντα τάλαντα | **811** ζεύγει post γυνὴ R : post οὐδ᾽ ἂν van Herwerden |
+| 811 |  | οὐδ᾽ ἂν κλέψασα γυνὴ **ζεύγει** κατὰ πεντήκοντα τάλαντα | **811** **ζεύγει post γυνὴ** R : post οὐδ᾽ ἂν van Herwerden |
 |  |  | εἰς πόλιν ἔλθοι τῶν δημοσίων· ἀλλ᾽ ἢν τὰ μέγισθ᾽ ὑφέληται |  |
-| 813 |  | φορμὸν πυρῶν τἀνδρὸς κλέψασ᾽, αὐθημερὸν αὔτ᾽ ἀπέδωκεν | **813** **αὔτ᾽ ἀπέδωκεν** R, Mᵖᶜ : ἀνταπέδωκεν Mᵃᶜ, Bentley |
+| 813 |  | φορμὸν πυρῶν τἀνδρὸς κλέψασ᾽, αὐθημερὸν αὔτ᾽ ἀπέδωκεν | **813** **αὔτ᾽ ἀπέδωκεν** R, M^(pc) : ἀνταπέδωκεν M^(ac), Bentley |
 |  | `—` | ἀλλ᾽ ἡμεῖς ἂν πολλοὺς τούτων |  |
 | 815 |  | **ἀποδείξαιμεν** ταῦτα **ποιοῦντας**· | **815** ἀποδείξομεν R : **ἀποδείξαιμεν** Bentley ∥ ποθοῦντας R : **ποιοῦντας** Zanetti (*facientes* Divus) |
 |  |  | καὶ πρὸς τούτοις γάστριδας ἡμῶν |  |
@@ -3005,8 +3007,8 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 ##### `Σ 260` — **v. 808** · Lemme : *ἀλλ᾽ Εὐβούλης τῶν πέρυσίν τις βουλευτής ἐστιν ἀμείνων / παραδοὺς ἑτέρῳ τὴν βουλείαν;*
 - **Position sur le `f. 172r`** : Marge droite (extérieure, f. 172r, grande scholie alexandrine de 11 lignes en face des vv. 808–809)
-- **Texte grec établi (Σᴿ)** : `καὶ ἡ Εὐβούλη πέπλασται. τὸ δὲ ὅλον τί βούλεται, οὐκ ἔστι σαφές. ἀλλ’ οὐδὲ παρὰ Πλάτωνι ἐν τῷ Ὑπερβόλῳ· λέγει γάρ τι περὶ τοῦ ἐπιλαγχάνειν τοῖς βουλευταῖς «εὐτυχεῖς ὦ δέσποτα. τί δ’ ἔστι; βουλεύειν «ὀλίγου ’λαχες πάνυ. ἀτὰρ οὐ λαχὼν ὅμως ἔλαχες, «ἢν νοῦν ἔχῃς. πῶς ἢν ἔχω νοῦν; ὅτι πονηρῷ καὶ ξένῳ ἐπέλαχες ἀνδρί· [...] οὐδέπω γὰρ ἐλευθέρῳ.» καὶ ἐν ταὐτῷ «ἄπερρ’· ἐγὼ δ’ ὑμῖν τὸ πρᾶγμα δὴ φράσω. Ὑπερβόλῳ (βουλῆς γὰρ) ἄνδρες ἐπέλαχον.» τὸ βουλεῦσαι βουλείαν ἔλεγον.`
-- **Tracé diplomatique et abréviations tachygraphiques de R²** : `Ϛ ἡ Εὐβούλη πέπλαστ(αι) · τ(ὸ) δ(ὲ) ὅλ(ον) τί βούλετ(αι), οὐκ ἔστι σαφές · ἀλλ’ οὐδὲ παρὰ Πλάτωνι ἐν τῷ Ὑπερβόλῳ· λέγει γάρ τι π(ερὶ) τ^(οῦ) ἐπιλαγχάνε(ιν) τ^(οῖς) βουλευτ^(αῖς) «εὐτυχεῖς ὦ δέσποτα · τί δ’ ἔστι; βουλεύειν «ὀλίγου ’λαχες πάνυ · ἀτὰρ οὐ λαχὼν ὅμ^(ως) ἔλαχες, «ἢν νοῦν ἔχῃς · πῶς ἢν ἔχω νοῦν; ὅτι πονηρῷ Ϛ ξένῳ ἐπέλαχες ἀνδρί· οὐδέπω γ(ὰρ) ἐλευθέρῳ · » Ϛ ἐν ταὐτῷ «ἄπερρ’· ἐγὼ δ’ ὑμῖν τ(ὸ) πρᾶγμα δὴ φράσω · Ὑπερβόλῳ (βουλ^(ῆς) γ(ὰρ)) ἄνδρες ἐπέλαχ(ον) · » τ(ὸ) βουλεῦσ(αι) βουλείαν ἔλεγ(ον) ÷`
+- **Texte grec établi (Σᴿ)** : `καὶ ἡ Εὐβούλη πέπλασται. τὸ δὲ ὅλον τί βούλεται, οὐκ ἔστι σαφές. ἀλλ’ οὐδὲ παρὰ Πλάτωνι ἐν τῷ Ὑπερβόλῳ· λέγει γάρ τι περὶ τοῦ ἐπιλαγχάνειν τοῖς βουλευταῖς «εὐτυχεῖς, ὦ δέσποτα. — τί δ’ ἔστι; — βουλεύειν ὀλίγου ’λαχες πάνυ· ἀτὰρ οὐ λαχὼν ὅμως ἔλαχες, ἢν νοῦν ἔχῃς. πῶς ἢν ἔχω νοῦν; ὅτι πονηρῷ καὶ ξένῳ ἐπέλαχες ἀνδρί· [...] οὐδέπω γὰρ ἐλευθέρῳ.» καὶ ἐν ταὐτῷ «ἄπερρ’· ἐγὼ δ’ ὑμῖν τὸ πρᾶγμα δὴ φράσω. Ὑπερβόλῳ (βουλῆς γὰρ) ἄνδρες ἐπέλαχον.» τὸ βουλεῦσαι βουλείαν ἔλεγον.`
+- **Tracé diplomatique et abréviations tachygraphiques de R²** : `Ϛ ἡ Εὐβούλη πέπλαστ(αι) · τ(ὸ) δ(ὲ) ὅλ(ον) τί βούλετ(αι), οὐκ ἔστι σαφές · ἀλλ’ οὐδὲ παρὰ Πλάτωνι ἐν τῷ Ὑπερβόλῳ· λέγει γάρ τι π(ερὶ) τ^(οῦ) ἐπιλαγχάνε(ιν) τ^(οῖς) βουλευτ^(αῖς) «εὐτυχεῖς ὦ δέσποτα · τί δ’ ἔστι; βουλεύειν ὀλίγου ’λαχες πάνυ · ἀτὰρ οὐ λαχὼν ὅμ^(ως) ἔλαχες, ἢν νοῦν ἔχῃς · πῶς ἢν ἔχω νοῦν; ὅτι πονηρῷ Ϛ ξένῳ ἐπέλαχες ἀνδρί· οὐδέπω γ(ὰρ) ἐλευθέρῳ · » Ϛ ἐν ταὐτῷ «ἄπερρ’· ἐγὼ δ’ ὑμῖν τ(ὸ) πρᾶγμα δὴ φράσω · Ὑπερβόλῳ (βουλ^(ῆς) γ(ὰρ)) ἄνδρες ἐπέλαχ(ον) · » τ(ὸ) βουλεῦσ(αι) βουλείαν ἔλεγ(ον) ÷`
 - **Traduction française** : « Le nom d'Euboulé (“Bon-Conseil”) est lui aussi choisi pour le jeu de mots (face aux bouleutes de l'année précédente qui avaient cédé leur place aux Quatre-Cents). Mais ce qu'il veut dire au juste n'est pas clair, pas plus que chez Platon le Comique dans son Hyperbolos (fr. 182-183 K.-A.), où il parle du tirage au sort des bouleutes suppléants (ἐπιλαγχάνειν) : “Tu as de la chance, maître ! — Qu'y a-t-il ? — Il s'en est fallu de bien peu que tu ne sois tiré au sort pour siéger au Conseil ! Car sans avoir été tiré titulaire, tu l'as été tout de même, si tu as du bon sens. — Comment cela ? — Parce que tu as été tiré comme suppléant (ἐπέλαχες) d'un coquin et d'un étranger [...] qui n'est pas encore citoyen libre !” Et dans la même pièce : “Va-t'en au diable ! Quant à moi, je vais vous expliquer l'affaire : à Hyperbolos (car il est du Conseil), des citoyens ont été tirés comme suppléants.” — Et l'on appelait βουλεία la charge de bouleute. »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Joyau inestimable de la critique alexandrine (Didyme / Symmaque, discuté par L. Hauseux, vv 642-fin-bis.tex, ll. 1798-1820) : c'est à cette seule scholie du Ravennas que nous devons la conservation des deux célèbres fragments de l'Hyperbolos de Platon le Comique sur l'institution des bouleutes suppléants (ἐπιλαχόντες) !
 
@@ -3070,13 +3072,13 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 | Vers | Sigle (`R²`) | Transcription diplomatique ligne par ligne de `R` | Apparat critique en regard (éd. Louis Hauseux, `Bibi`) |
 | :---: | :---: | :--- | :--- |
-| 838 | `χορ/` | ὑστέρο^(α)ν αὐτὴν καθῆσθαι σκάφιον ἀποκεκαρμένην | **838** **ὑστέρο^(α)ν** Rᵖᶜ: ὑστάτην Σ |
+| 838 | `χορ/` | ὑστέρο^(α)ν αὐτὴν καθῆσθαι σκάφιον ἀποκεκαρμένην | **838** **ὑστέρο^(α)ν** Rᵖᶜ : ὑστάτην Σ |
 | 839 |  | τῆς τὸν ἀνδρεῖον τεκούσης· τῷ γὰρ εἰκὸς **ωὖπολι** | **839** ὦ πόλεις R : ὦ πόλις Gelenius : **ωὖπολι** Bibi |
 | 840 |  | τὴν Ὑπερβόλου καθῆσθαι μητέρ᾽ ἠμφιεσμένην |  |
 |  |  | λευκὰ καὶ κόμας καθεῖσαν πλησίον τῆς Λαμάχου· |  |
-| 842 |  | καὶ δανείζειν **χρήμαθ᾽**, ἥν χρῆν, εἰ **δανείσειέν** τινι | **842** χρήματα τ' R : **χρήμαθ᾽** Scaliger ∥ **ἥν χρῆν** R : ᾗ χρῆν Scaliger ∥ χρῆν ἦν R : **χρῆν εἰ** Brunck ∥ δανείσειε R : **δανείσειέν** Biset |
+| 842 |  | καὶ δανείζειν **χρήμαθ᾽**, ἥν χρῆν, **εἰ** **δανείσειέν** τινι | **842** χρήματα τ' R : **χρήμαθ᾽** Scaliger ∥ **ἥν χρῆν** R : ᾗ χρῆν Scaliger ∥ χρῆν ἦν R : **χρῆν εἰ** Brunck ∥ δανείσειε R : **δανείσειέν** Biset |
 |  |  | καὶ τόκον πράττοιτο, διδόναι μηδέν᾽ ἀνθρώπων τόκον, |  |
-| 844 |  | ἀλλ᾽ **ἀφαιρεῖσθαι** βίᾳ τὰ **χρήματ᾽** εἰπόντας **τοδί** (τὰ^(ο)δὶ Rᵖᶜ), | **844** ἀφερεῖσθαι R : **ἀφαιρεῖσθαι** M∥ χρήματατ᾽ R : **χρήματ᾽** Grynaeus ∥ τὰ^(ο)δὶ Rᵖᶜ: **τοδί** M |
+| 844 |  | ἀλλ᾽ **ἀφαιρεῖσθαι** βίᾳ τὰ **χρήματ᾽** εἰπόντας **τοδί** (τὰ^(ο)δὶ Rᵖᶜ), | **844** ἀφερεῖσθαι R : **ἀφαιρεῖσθαι** M ∥ χρήματατ᾽ R : **χρήματ᾽** Grynaeus ∥ τὰ^(ο)δὶ Rᵖᶜ : **τοδί** M |
 | 845 |  | `ἀξία γοῦν εἶ τόκου τεκοῦσα τοιοῦτον τόκον.' |  |
 |  | `μν^(Η)` | ἰλλὸς γεγένημαι προσδοκῶν· ὁ δ᾽ οὐδέπω· |  |
 |  |  | τί δῆτ᾽ ἂν εἴη τοὐμποδών; οὐκ ἔσθ᾽ ὅπως |  |
@@ -3092,7 +3094,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | λευκῆς νοτίζει μελανοσυρμαῖον λεών· |  |
 |  | `γυ^(ν)` | πανοῦργος εἶ νὴ τὴν Ἑκάτην τὴν φωσφόρον· |  |
 |  | `μν^(Η)` | ἐμοὶ δὲ γῆ μὲν πατρὶς οὐκ ἀνώνυμος |  |
-| 860 | `—` | Σπάρτη, πατὴρ δὲ Τυνδάρεως· : **σοί** (σί^(ύ) R²) **γ᾽** ὦλεθρε | **860** σύ (ex σί) R²: **σοί** Zanetti (*tibi* Divus) ∥ τ' R : **γ᾽** Gelenius |
+| 860 | `—` | Σπάρτη, πατὴρ δὲ Τυνδάρεως· : **σοί** (σί^(ύ) R²) **γ᾽** ὦλεθρε | **860** σύ (ex σί) R² : **σοί** Zanetti (*tibi* Divus) ∥ τ' R : **γ᾽** Gelenius |
 | 861 |  | πατὴρ ἐκεῖνός **ἐστι**; Φρυνώνδας μὲν οὖν· | **861** ἐστιν R : **ἐστι** M |
 | 862 | `μν^(Η)` | Ἑλένη δ᾽ ἐκλήθην. : αὖθις αὖ **γίγνει** γυνή, | **862** γίγνη R : **γίγνει** Brunck |
 | 863 |  | πρὶν τῆς ἑτέρας δοῦναι γυναικίσεως δίκην; | **863** **δοῦναι post ἑτέρας** R : post δίκην Suid. γ 496 |
@@ -3102,7 +3104,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 867 |  | οὑμὸς **Μενέλεως** οὐδέπω προσέρχεται· | **867** Μενέλαος R : **Μενέλεως** Brunck, cf. v.901 |
 | 868 | `—` | τί οὖν ἔτι ζῶ; : τῶν κοράκων πονηρίᾳ· | **868** τῶν κορ. πον. continuat (Μνη.) R : **(Γυνή)** Σ, Ellebodius |
 |  | `μν^(Η)` | ἀλλ᾽ ὥσπερ αἰκάλλει τι καρδίαν ἐμήν· |  |
-| 870 |  | μὴ ψεῦσον ὦ Ζεῦ τῆς ἐπιούσης ἐλπίδος· | **870** **ἐλπίδος** R : ἡμέρας ap. Greg. Cor. p.14-15, Σ ad Eur. *Hec*.225 ∥ post v. 870 < οἶσθ᾽ οὖν ὃ δρᾶσον; — ˘ — \| × — ˘ — > **om.** R : restituit ap. Σ Bibi (cf. Eur. *Hel.*325) |
+| 870 |  | μὴ ψεῦσον ὦ Ζεῦ τῆς ἐπιούσης ἐλπίδος· | **870** **ἐλπίδος** R : ἡμέρας ap. Greg. Cor. p.14-15, Σ ad Eur. *Hec*.225 ∥ post v. 870 < οἶσθ᾽ οὖν ὃ δρᾶσον; — ˘ — &#124; × — ˘ — > **om.** R : restituit ap. Σ Bibi (cf. Eur. *Hel.*325) |
 | 871 | `εὐ^(ρ)` | τίς τῶνδ᾽ ἐρυμνῶν δωμάτων ἔχει κράτος, | **871** ὡς Περσεύς in mg. R : **ὡς Μενέλαος** Zanetti |
 | 872 |  | ὅστις **ξένους** δέξαιτο ποντίῳ σάλῳ | **872** ξένος R : **ξένους** Zanetti |
 | 873 |  | κάμνοντας ἐν χειμῶνι καὶ ναυαγίαις; | **873** **κάμνοντας** R : καμόντας Lenting |
@@ -3243,7 +3245,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 889 | `εὐ^(ρ)` | **τί δὴ σὺ** θάσσεις τάσδε τυμβήρεις ἕδρας | **889** τί δὲ σὺ R : τί δαὶ σὺ Faber : **τί δὴ σὺ** Scaliger |
 | 890 | `—` | φάρει καλυπτὸς ὦ ξένη; : βιάζομαι |  |
 | 891 |  | γάμοισι Πρωτέως παιδὶ **συμμεῖξαι** λέχος· | **891** συμμῖξαι R : **συμμεῖξαι** van Leeuwen |
-| 892 | `γυ^(ν)` | τί ὦ κακόδαιμον ἐξαπατᾷς **αὖ τὸν** ξένον; | **892** αὐτὸν (ex αὖτὸν) Rᵖᶜ: **αὖ τὸν** Casaubon |
+| 892 | `γυ^(ν)` | τί ὦ κακόδαιμον ἐξαπατᾷς **αὖ τὸν** ξένον; | **892** αὐτὸν (ex αὖτὸν) Rᵖᶜ : **αὖ τὸν** Casaubon |
 |  |  | οὗτος πανουργῶν δεῦρ᾽ ἀνῆλθεν ὦ ξένε |  |
 |  |  | ὡς τὰς γυναῖκας ἐπὶ κλοπῇ τοῦ χρυσίου· |  |
 | 895 | `μν^(Η)` | **κόνυζα** τοὐμὸν σῶμα βάλλουσα ψόγῳ· | **895** βαϋζα R : βάϋζε Zanetti : **κόνυζα** Bibi |
@@ -3370,7 +3372,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | οὐ γὰρ προδώσω σ᾽ οὐδέποτ᾽, ἤνπερ ἐμπνέω, |  |
 | 927 |  | ἢν μὴ **προλίπωσ᾽** αἱ μυρίαι με μηχαναί· | **927** προλείπωσ᾽ R : **προλίπωσ᾽** Scaliger |
 | 928 | `μν^(Η)` | αὕτη μὲν ἡ μήρινθος οὐδὲν ἔσπασεν· | **928** (Γυ.) R : **(Μνη.)** Scaliger |
-| 929 | `πρυτ/` | ὅδ᾽ **ἔσθ᾽** ὁ πανοῦργος ὃν **ἔλεγ᾽** ἡμῖν Κλεισθένης; | **929** ἔστ᾽ R : **ἔσθ᾽** M∥ ἔλεγεν R : **ἔλεγ᾽** M |
+| 929 | `πρυτ/` | ὅδ᾽ **ἔσθ᾽** ὁ πανοῦργος ὃν **ἔλεγ᾽** ἡμῖν Κλεισθένης; | **929** ἔστ᾽ R : **ἔσθ᾽** M ∥ ἔλεγεν R : **ἔλεγ᾽** M |
 | 930 |  | οὗτος τί κύπτεις; δῆσον αὐτὸν εἰσάγων |  |
 |  |  | ὦ τοξότ᾽ ἐν τῇ σανίδι, κἄπειτ᾽ ἐνθαδὶ |  |
 |  |  | στήσας φύλαττε καὶ προσιέναι μηδένα |  |
@@ -3398,7 +3400,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | κοῦφα ποσὶν ἄγ᾽ ἐς κύκλον, |  |
 | 955 |  | χειρὶ σύναπτε χεῖρα, | **955** **χειρὶ** R : χερὶ Dobree |
 | 956 |  | †ῥυθμὸν χορείας ὕπαγε πᾶσα†· | **956** **ὕπαγε πᾶσα** R : πᾶσ' ὕπαγε Austin |
-| 956 |  | βαῖνε καρπαλίμοιν ποδοῖν· | **956** **ὕπαγε πᾶσα** R : πᾶσ' ὕπαγε Austin |
+|  |  | βαῖνε καρπαλίμοιν ποδοῖν· |  |
 |  |  | ἐπισκοπεῖν δὲ πανταχῇ |  |
 |  |  | κυκλοῦσαν ὄμμα χρὴ χοροῦ κατάστασιν· |  |
 
@@ -3513,7 +3515,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | ἐπιγελάσαι προθύμως |  |
 | 980 |  | ταῖς **ἡμετέραισι** | **980** ἡμετέραις R : **ἡμετέραισι** Hermann |
 |  |  | χαρέντα χορείαις· |  |
-| 982 |  | ἔξαιρε δὴ προθύμως | **982** χαίρειν R : **χάριν** Ellebodius |
+|  |  | ἔξαιρε δὴ προθύμως |  |
 | 982 |  | διπλῆν **χάριν** χορείας· | **982** χαίρειν R : **χάριν** Ellebodius |
 |  |  | παίσωμεν ὦ γυναῖκες οἷάπερ νόμος, |  |
 | 984 |  | **νηστεύομεν** δὲ πάντως· | **984** νηστεύωμεν R : **νηστεύομεν** Bentley |
@@ -3521,14 +3523,14 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | τόρευε πᾶσαν ᾠδήν· |  |
 | 987 |  | ἡγοῦ δέ γ᾽ ὧδ᾽ αὐτὸς σὺ | **987** γ᾽ ὧδ᾽ suspectum |
 |  |  | κισσοφόρε Βακχεῖε |  |
-| 989 |  | δέσποτ᾽· ἐγὼ δὲ κώμοις | **989** φιλοχόροισιν R : **φιλοχόροισι** Scaliger |
+|  |  | δέσποτ᾽· ἐγὼ δὲ κώμοις |  |
 | 989 |  | σὲ **φιλοχόροισι** μέλψω· | **989** φιλοχόροισιν R : **φιλοχόροισι** Scaliger |
 | 990 |  | †εὔιον ὦ Διόνυσε | **990** **Διόνυσε** R : Διὸς σὺ Enger : Διός τε Fritzsche |
 |  |  | Βρόμιε καὶ Σεμέλας παῖ, |  |
 |  |  | χοροῖς τερπόμενος |  |
 | 993 |  | κατ᾽ ὄρεα νυμφᾶν ἐρατοῖς ἐν ὕμνοις, | **993** **ἐρατοῖς ἐν ὕμνοις** R : ἐρατοῖσιν ὕμνοις Wilamowitz |
-| 994 |  | †εὔιον εὔιον εὐοῖ | **994** lacunam statuit Hermann : ἥκεις γὰρ von Velsen : ἡδόμενος Austin cf. *Plut*.288 ∥ **εὔιον εὔιον** R : ὦ Εὔι Εὔι' Hermann |
-| 994 |  | < × ˘ ˘ ˘ > ἀναχορεύων· | **994** lacunam statuit Hermann : ἥκεις γὰρ von Velsen : ἡδόμενος Austin cf. *Plut*.288 ∥ **εὔιον εὔιον** R : ὦ Εὔι Εὔι' Hermann |
+| 994a |  | †εὔιον εὔιον εὐοῖ | **994a** **εὔιον εὔιον** R : ὦ Εὔι Εὔι' Hermann |
+| 994b |  | < × ˘˘ ˘ > ἀναχορεύων· | **994b** lacunam statuit Hermann : ἥκεις γὰρ von Velsen : ἡδόμενος Austin cf. *Plut*. 288 |
 | 995 |  | ἀμφὶ δὲ **σοὶ κτυπεῖται** | **995** συῒ κτυπεῖται R : **σοὶ κτυπεῖται** Zanetti |
 | 996 |  | **Κιθαιρώνιος** ἠχώ, | **996** Κιθαρώνιος R : **Κιθαιρώνιος** Zanetti |
 |  |  | μελάμφυλλά τ᾽ ὄρη |  |
@@ -3592,14 +3594,14 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | Vers | Sigle (`R²`) | Transcription diplomatique ligne par ligne de `R` | Apparat critique en regard (éd. Louis Hauseux, `Bibi`) |
 | :---: | :---: | :--- | :--- |
 | 1001 | `τοξ/` | ἐνταῦτα νῦν **οἰμῶξι** πρὸς τὴν αἰτρίαν· | **1001** οἰμώξει R : **οἰμῶξι** Brunck |
-| 1002 | `μν^(Η)` | ὦ τοξόθ᾽ ἱκετεύω σε. : μή μ᾽ ἰκετεῦσι σύ· | **1002** ἱκετεῦση R : **ἱκετεῦσι** Brunck |
+| 1002 | `μν^(Η)` | ὦ τοξόθ᾽ ἱκετεύω σε. : μή μ᾽ **ἰκετεῦσι** σύ· | **1002** ἱκετεῦση R : **ἱκετεῦσι** Brunck |
 | 1003 | `μν^(Η)` | χάλασον τὸν ἧλον. : ἀλλὰ ταῦτα **δρᾶσ᾽** ἐγώ· | **1003** δρᾷς R : **δρᾶσ᾽** Voss |
 | 1004 | `μν^(Η)` | οἴμοι κακοδαίμων, μᾶλλον **ἐπικρούεις** σύ γε· | **1004** ἐπικρούσεις R : **ἐπικρούεις** M |
 | 1005 | `τοξ/` | ἔτι **μᾶλλο** βοῦλις; : ἀτταταῖ **ἰατταταῖ**· | **1005** μᾶλλον R : **μᾶλλο** Bentley ∥ τατταταί R : **ἰατταταῖ** Faber |
-| 1006 | `—` | κακῶς ἀπόλοιο. : σῖγα κακοδαίμω^(ν) γέρ~~ω~~^(ο)ν· | **1006** κακοδαίμω^(ν) γέρ~~ω~~^(ο)ν Rᵖᶜ, Mᵖᶜ |
+| 1006 | `—` | κακῶς ἀπόλοιο. : σῖγα κακοδαίμω^(ν) γέρ~~ω~~^(ο)ν· | **1006** κακοδαίμω^(ν) γέρ~~ω~~^(ο)ν Rᵖᶜ, M^(pc) |
 | 1007 |  | πέρ᾽ ἐγὼ **'ξινίγκι** πορμός, **ἴνα** πυλάξι σοι· | **1007** ξεινίγκι R : **'ξινίγκι** Enger ∥ ἵνα R : **ἴνα** Brunck ∥ **πυλάξι** R : πυλάξῃ Σ |
 |  | `μν^(Η)` | ταυτὶ τὰ βέλτιστ᾽ ἀπολέλαυκ᾽ Εὐριπίδου· |  |
-| 1009 |  | ἔα· θεοί, Ζεῦ σῶτερ, εἰσὶν ἐλπίδες· | **1009** εἰσὶν R : εἴς ἔτ᾽ Naber (Faber ?) *cf.*946 |
+| 1009 |  | ἔα· θεοί, Ζεῦ σῶτερ, εἰσὶν ἐλπίδες· | **1009** εἰσὶν R : εἴς ἔτ᾽ Naber (Faber ?) \cf 946 |
 | 1010 |  | **ἁνὴρ** ἔοικεν οὐ προδώσειν, ἀλλά μοι | **1010** ἀνὴρ R : **ἁνὴρ** Bothe |
 | 1011 |  | σημεῖον **ὑπεδήλωσε** Περσεὺς ἐκδραμών, | **1011** ὑπεδήλωσεν R : **ὑπεδήλωσε** Biset |
 |  |  | ὅτι δεῖ με γίγνεσθ᾽ Ἀνδρομέδαν· πάντως δέ μοι |  |
@@ -3622,13 +3624,13 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  |  | ἀλλ᾽ ἐν πυκνοῖς δεσμοῖσιν ἐμπεπλεγμένη |  |
 |  |  | κήτει βορὰ Γλαυκέτῃ πρόκειμαι, |  |
 | 1034 |  | γαμηλίῳ μὲν οὐ **ξὺν** | **1034-5** ξυμπαιῶνι R : **ξὺν παιῶνι** Zanetti (*cum carmine* Divus) |
-| 1035 |  | παιῶνι δεσμίῳ δὲ |  |
+| 1035 |  | **παιῶνι** δεσμίῳ δὲ | **1035** cf. 1034 |
 |  |  | γοᾶσθέ μ᾽ ὦ γυναῖκες ὡς |  |
 |  |  | μέλεα μὲν πέπονθα μέλεος, |  |
 |  |  | ὢ τάλας ἐγὼ τάλας, |  |
 | 1039 |  | ἀπὸ δὲ συγγόνων **ἀλλ᾽** ἄνομα πάθεα, | **1039** ἀλλὰν R : **ἀλλ᾽** Scaliger |
 | 1040 |  | †φῶτά **λιτομένα**†, | **1040** λιτομέναν R : ἀντομένα (vel -αν) Σ : **λιτομένα** Enger |
-| 1041 |  | πολυδάκρυτον Ἀίδα γόον **ψεφαυγοῦς**· | **1041** φεύγουσαν R : χέουσα Rau (*Paratragödia*, p.75) : φλέγουσαν Musgrave (ad Eur. *Or.* 1402=1396) : **ψεφαυγοῦς** Bibi, cf. Σ ad v. 1054, Hesych. ψ 135 |
+| 1041 |  | πολυδάκρυτον Ἀίδα γόον **ψεφαυγοῦς**· | **1041** φεύγουσαν R : χέουσα Rau (*Paratragödia*, p.75) : φλέγουσαν Musgrave (ad Eur. *Or.*1402=1396) : **ψεφαυγοῦς** Bibi, cf. Σ ad v.1054, Hesych. ψ 135 |
 |  |  | αἰαῖ αἰαῖ ἒ ἒ, |  |
 |  |  | ὃς ἔμ᾽ ἀπεξύρησε πρῶτον, |  |
 
@@ -3685,7 +3687,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 ##### `Σ 318` — **v. 1018** · Lemme : *κλύεις; ὦ προσᾴδουσ᾽ ἀϋτὰς ἐν ἄντροις,*
 - **Position sur le `f. 174v`** : Marge gauche (extérieure, f. 174v, bloc de 6 lignes en face des vv. 1018–1021)
-- **Texte grec établi (Σᴿ)** : `πάλιν ἐξ Ἀνδρομέδας. πρὸς τὴν ἠχὼ Ἀνδρομέδα λέγει «προσαιδοῦσσαι τὰς «ἐν ἄντροις ἀπόπαυσον ἔασον ἀχοῖ με σὺν φίλαις γόου πόθον λαβεῖν.» διὰ τὸ λαμβάνειν ἀποσπάσματα ἀσύνδετον τὸ ὅλον γίνεται.`
+- **Texte grec établi (Σᴿ)** : `πάλιν ἐξ Ἀνδρομέδας. πρὸς τὴν ἠχὼ Ἀνδρομέδα λέγει «προσαιδοῦσσαι τὰς ἐν ἄντροις ἀπόπαυσον ἔασον ἀχοῖ με σὺν φίλαις γόου πόθον λαβεῖν.» διὰ τὸ λαμβάνειν ἀποσπάσματα ἀσύνδετον τὸ ὅλον γίνεται.`
 - **Tracé diplomatique et abréviations tachygraphiques de R²** : `πάλ(ιν) ἐξ Ἀνδρομέδ^(ας) · πρ(ὸς) τ(ὴν) ἠχὼ Ἀνδρομέδα λέγ(ει) «προσαιδοῦσσαι τὰς ἐν ἄντρ^(οις) ἀπόπαυσ^(ον) ἔασ^(ον) ἀχοῖ με σὺν φίλ^(αις) γό^(ου) πόθ^(ον) λαβ(εῖν)» · διὰ τ(ὸ) λαμβάν(ειν) ἀποσπάσματ(α) ἀσύνδετ^(ον) τ(ὸ) ὅλ^(ον) γίνετ(αι) ÷`
 - **Traduction française** : « De nouveau tiré de l'Andromède (fr. 118 Kannicht). Andromède s'adresse à Écho et dit : “Ô toi qui accompagnes mes cris au fond des grottes, cesse, laisse-moi, ô Écho, rassasier avec mes amies mon désir de lamentations !” Et parce qu'Aristophane prélève des lambeaux détachés (ἀποσπάσματα) de la tragédie, l'ensemble de la monodie paraît décousu (ἀσύνδετον). »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Témoignage majeur (commenté par L. Hauseux, vv 642-fin-bis.tex, ll. 3502-3520) : non seulement cette scholie nous restitue le texte complet du fragment 118 d'Euripide, mais elle formule un jugement critique d'une grande finesse sur la technique de montage en centon (διὰ τὸ λαμβάνειν ἀποσπάσματα ἀσύνδετον τὸ ὅλον γίνεται).
@@ -3699,7 +3701,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 ##### `Σ 320` — **v. 1022** · Lemme : *ἄνοικτος ὅς μ᾽ ἔδησε, / τὸν πολυπονώτατον βροτῶν·*
 - **Position sur le `f. 174v`** : Marge gauche (extérieure, f. 174v, en face des vv. 1022–1023)
-- **Texte grec établi (Σᴿ)** : `παρὰ τὸ τοῦ χοροῦ ἐν Ἀνδρομέδᾳ «ἄνοικτος «ὃς τεκών σε τὴν πολυπονωτάτην βροτῶν μεθῆκεν ᾍδᾳ πατρὸς ὑπερθανεῖν.»`
+- **Texte grec établi (Σᴿ)** : `παρὰ τὸ τοῦ χοροῦ ἐν Ἀνδρομέδᾳ «ἄνοικτος ὃς τεκών σε τὴν πολυπονωτάτην βροτῶν μεθῆκεν ᾍδᾳ πατρὸς ὑπερθανεῖν.»`
 - **Tracé diplomatique et abréviations tachygraphiques de R²** : `παρὰ τ(ὸ) τ^(οῦ) χορ^(οῦ) ἐν Ἀνδρομέδᾳ «ἄνοικτ^(ος) ὃς τεκών σε τ(ὴν) πολυπονωτάτ(ην) βροτ^(ῶν) μεθῆκ(εν) ᾍδᾳ πατρ(ὸς) ὑπερθαν(εῖν)» ÷`
 - **Traduction française** : « Parodie de la réplique du Chœur dans l'Andromède (fr. 119 Kannicht) : “Impitoyable est celui qui, t'ayant engendrée, t'a livrée à Hadès, toi la plus infortunée des mortelles, pour mourir au nom de ta patrie (ou de ton père Céphée) !” »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Autre fragment capital de l'Andromède d'Euripide conservé par la seule scholie du Ravennas (commenté par L. Hauseux, vv 642-fin-bis.tex, l. 3524).
@@ -3774,8 +3776,8 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 1044 | `μν^(Η)` | ὃς ἐμὲ κροκόεντ᾽ ἐνέδυσεν· | **1044** **κροκόεντ᾽** R : κροκόεν τόδ' Bergk ∥ ἐνέδυσεν R : ἀμφέδυσεν Hermann ap Σ |
 | 1045 |  | ἐπὶ δὲ τοῖσδε τόδ᾽ ἀνέπεμψεν |  |
 |  |  | ἱερόν, ἔνθα γυναῖκες· |  |
-| 1047 |  | ἰώ μοι μοίρας | **1047** [ι]ω̣μοιρ̣[ας POxy-4935: ἰώ μοι μοίρας R : ἰώ μοίρας Hermann ∥ δαίμων R : δαῖμον Burges ∥ ἀνέτικτε R : **ἄτεγκτε** Ellebodius : ἅν ἔτικτε Casaubon |
-|  |  | ἄτεγκτε δαίμων· |  |
+| 1047 |  | ἰώ μοι μοίρας | **1047** [ι]ω̣μοιρ̣[ας POxy-4935 : **ἰώ μοι μοίρας** R : ἰώ μοίρας Hermann |
+|  |  | **ἄτεγκτε** δαίμων· | **1047b** ἀνέτικτε R : **ἄτεγκτε** Ellebodius : ἅν ἔτικτε Casaubon ∥ **δαίμων** R : δαῖμον Burges |
 |  |  | ὦ κατάρατος ἐγώ· |  |
 |  |  | τίς ἐμὸν οὐκ ἐπόψεται |  |
 |  |  | πάθος ἀμέγαρτον ἐπὶ κακῶν παρουσίᾳ; |  |
@@ -3783,7 +3785,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 1051 |  | τὸν **βάρβαρον** ἐξολέσειεν· | **1051** **βάρβαρον** POxy-4935, R, Willems |
 | 1052 |  | οὐ γὰρ ἔτ᾽ ἀθανάταν φλόγα **λεύσσειν** | **1052** λεύσειν R : **λεύσσειν** Biset |
 |  |  | ἐστὶν ἐμοὶ φίλον, ὡς ἐκρεμάσθην, |  |
-| 1054 |  | λαιμότμητ᾽ ἄχη δία μένων αἰόλαν | **1054** δαιμόνων R, Σ : δαιμονῶν Brunck : δαιμόνι᾽ amicus Fritzschii : **διὰ μένων** Willems |
+| 1054 |  | λαιμότμητ᾽ ἄχη **δία μένων** αἰόλαν | **1054** δαιμόνων R, Σ : δαιμονῶν Brunck : δαιμόνι᾽ amicus Fritzschii : **διὰ μένων** Willems |
 | 1055 |  | νέκυσιν ἐπὶ πορείαν· |  |
 | 1056 | `ευρι^(π) ηχω` | χαῖρ᾽ ὦ φίλη παῖ· τὸν δὲ πατέρα Κηφέα | **1056** ευρι^(π) ηχω in mg. Rᵖᶜ, M |
 |  |  | ὅς σ᾽ ἐξέθηκεν ἀπολέσειαν οἱ θεοί· |  |
@@ -3801,13 +3803,13 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 1069 | `—` | τοῦ σεμνοτάτου δι᾽ Ὀλύμπου; : †δι᾽ Ὀλύμπου;† | **1069** **δι᾽ Ὀλύμπου** R : †δι᾽† ὀλυμπίας Bibi ap. Hesych. (ο 649) |
 | 1070 | `μν^(Η)` | τί ποτ᾽ Ἀνδρομέδα **περίαλλα** κακῶν | **1070** περὶ ἄλλα R : **περίαλλα** Ellebodius |
 | 1071 | `—` | μέρος ἐξέλαχον; : **μόρος ἔξελ᾽ ἄχος**· | **1071** μέρος ἐξέλαχον; R : **μόρος ἔξελ᾽ ἄχος.** Bibi |
-| 1072 | `μν^(Η)` | θανάτου τλήμων : †θανάτου τλήμων†· | **1072** θανάτου τλήμων R : θαλάττης τέμνον Bibi |
+| 1072 | `μν^(Η)` | θανάτου τλήμων : **†**θανάτου τλήμων**†**· | **1072** **†θανάτου τλήμων†** (θανάτου τλήμων R : θαλάττης τέμνον Bibi) |
 | 1073 | `μν^(Η)` | ἀπολεῖς μ᾽ ὦ γραῦ **στωμυλλομένη**· | **1073** στωμυλλωμένη R : **στωμυλλομένη** Grynaeus |
 | 1074 | `εὐ^(ρ)` | **στωμυλιομενής**· | **1074** στωμυλωμένη R : **στωμυλιομενής** Bibi |
 | 1075 | `μν^(Η)` | νὴ Δί᾽, ὀχληρά γ᾽ εἰσήρρηκας |  |
 |  | `—` | λίαν. : †λίαν†· |  |
 |  | `μν^(Η)` | ὦγάθ᾽ ἔασόν με μονῳδῆσαι, |  |
-| 1078 | `—` | καὶ χαριεῖ μοι παῦσαι. : ᾽παΰσαι· | **1078** Μνη. χαριεῖ μοι παῦσαι --- Εὐρ. παῦσαι R : **Μνη. χαριεῖ μοι ᾽παΰσαι --- simul Μνη. et Εὐρ. παῦσαι** Bibi ∥ (Εὐρ.) παῦσαι R : **(Εὐρ.) ᾽παΰσαι** Bibi |
+| 1078 | `—` | καὶ χαριεῖ μοι παῦσαι. : **᾽παΰσαι**· | **1078** (Μνη.) χαριεῖ μοι παῦσαι --- (Εὐρ.) παῦσαι R : **(Μνη.) χαριεῖ μοι παῦσαι --- (Εὐρ.) ᾽παΰσαι** Bibi |
 | 1079 | `μν^(Η)` | βάλλ᾽ ἐς κόρακας. : **βάλλε σύ κόρακας**· | **1079** βάλλ᾽ ἐς κόρακας R : **βάλλε σύ κόρακας** Bibi |
 | 1080 | `μν^(Η)` | †**τί τὸ κακόν**†; : †τί τὸ κακόν;† : ληρεῖς. : †ληρεῖς†· | **1080** **τί τὸ κακόν** bis R : τί κακόν bis Bentley |
 |  | `μν^(Η)` | οἴμωζ᾽. : †οἴμωζ᾽†· |  |
@@ -3931,17 +3933,17 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | Vers | Sigle (`R²`) | Transcription diplomatique ligne par ligne de `R` | Apparat critique en regard (éd. Louis Hauseux, `Bibi`) |
 | :---: | :---: | :--- | :--- |
 | 1082 | `μν^(Η)` | ὀτότυζ᾽. : †ὀτότυζ᾽†· | **1082** **ὀτότυζ᾽** R : ὀλόφυγ᾽ Bibi |
-| 1083 | `τοξ/` | οὖτος τί λαλ~~εῖ~~^(ῖ)ς; **[Ἠχώ :]** οὖτος τί λαλ~~εῖ~~^(ῖ)ς; | **1083** οῦτος οὗτος R : **οὖτος** bis Brunck ∥ λαλεῖς bis Rᵃᶜ: **λαλῖς** bis R², Σ |
-| 1084 | `τοξ/` | πρυτάνεις καλέσω· **[Ἠχώ :]** πρυτάνεις καλέσω· |  |
-| 1085 | `τοξ/` | σί κακόν; **[Ἠχώ :]** σί κακόν; | **1085** σί bis R, sch. : τί Coulon |
-| 1086 | `τοξ/` | **†**π~~ρ~~ῶτε**†** τὸ πωνή; **[Ἠχώ :]** **†**π~~ρ~~ῶτε**†** τὸ πωνή; | **1086** π~~ρ~~ωτε bis Rᵖᶜ: πωτε bis M |
-| 1087 | `τοξ/` | σὺ λαλῖ^(εῖ)ς; **[Ἠχώ :]** σὺ λαλῖ^(εῖ)ς; | **1087** **λαλῖς** bis R : λαλεῖς bis Rᵖᶜ |
-| 1088 | `τοξ/` | **κλαύσαι**· **[Ἠχώ :]** **κλαύσαι**· | **1088** κλαύσαιμι bis R : κλαύσει bis Brunck : **κλαύσαι** bis Rogers : κλαῦσ' ἔτι bis Austin |
-| 1089 | `τοξ/` | κακκάσκι μοι; **[Ἠχώ :]** κακκάσκι μοι; | **1089** κακκασκι bis R : κἀγκάσκις bis van Leeuwen (<ς> add. Fritzsche) : κἀγκάσκι bis Coulon : alii alia |
+| 1083 | `τοξ/` | **οὖτος** τί λαλ~~εῖ~~^(ῖ)ς;  **[Ἠχώ :]** **οὖτος** τί λαλ~~εῖ~~^(ῖ)ς; | **1083** οῦτος οὗτος R : **οὖτος** bis Brunck ∥ λαλεῖς bis Rᵃᶜ : **λαλῖς** bis R², Σ |
+| 1084 | `τοξ/` | πρυτάνεις καλέσω·  **[Ἠχώ :]** πρυτάνεις καλέσω· |  |
+| 1085 | `τοξ/` | σί κακόν;  **[Ἠχώ :]** σί κακόν; | **1085** σί bis R, sch. : τί Coulon |
+| 1086 | `τοξ/` | **†**π~~ρ~~ῶτε**†** τὸ πωνή;  **[Ἠχώ :]** **†**π~~ρ~~ῶτε**†** τὸ πωνή; | **1086** π~~ρ~~ωτε bis Rᵖᶜ : πωτε bis M |
+| 1087 | `τοξ/` | σὺ λαλῖ^(εῖ)ς;  **[Ἠχώ :]** σὺ λαλῖ^(εῖ)ς; | **1087** **λαλῖς** bis R : λαλεῖς bis Rᵖᶜ |
+| 1088 | `τοξ/` | **κλαύσαι**·  **[Ἠχώ :]** **κλαύσαι**· | **1088** κλαύσαιμι bis R : κλαύσει bis Brunck : **κλαύσαι** bis Rogers : κλαῦσ' ἔτι bis Austin |
+| 1089 | `τοξ/` | **κἀκκάσκι** μοι;  **[Ἠχώ :]** **†κἀκκάσκι μοι;†** | **1089** κακκασκι bis R : κἀγκάσκις bis van Leeuwen (<ς> add. Fritzsche) : κἀγκάσκι bis Coulon : alii alia |
 | 1090 | `χορ/` | μὰ Δί᾽ ἀλλὰ γυνὴ πλησίον αὕτη· | **1090** (Μνη.) edd. plerique : **(Χορ.)** Bibi, cf. Σ |
 | 1091 | `εὐ^(ρ)` | **πλήξασ᾿ αὕτη**· | **1091** πλησίον αὕτη R : **πλήξασ᾿ αὕτη** Bibi |
-| 1092 | `τοξ/` | ποῦ ᾿στ᾽ ἠ μιαρά; : καὶ δὴ φεύγει· | **1092** 'σθ' ἡ R : ᾿στ᾽ ἠ Brunck ∥ (Μνη.) edd. plerique : **(Χορ.)** Bibi |
-| 1093 | `τοξ/` | ποῖ ποῖ **πεύγεις**; : ποῖ ποῖ πέτει· | **1093** φεύγεις R : **πεύγεις** Enger ∥ (Εὐρ.) ποῖ ποῖ πέτει om. R : **suppl.** Bibi |
+| 1092 | `τοξ/` | ποῦ **᾿στ᾽ ἠ** μιαρά; : καὶ δὴ φεύγει· | **1092** 'σθ' ἡ R : **᾿στ᾽ ἠ** Brunck ∥ (Μνη.) edd. plerique : **(Χορ.)** Bibi |
+| 1093 | `τοξ/` | ποῖ ποῖ **πεύγεις**; : **<ποῖ ποῖ πέτει>**· | **1093** φεύγεις R : **πεύγεις** Enger ∥ (Εὐρ.) ποῖ ποῖ πέτει om. R : **suppl.** Bibi |
 | 1094 | `τοξ/` | οὐ καιρήσεις. : **οὐχ αἱρήσεις**· | **1094** (Τοξ.) οὐ καιρήσεις om. R : **suppl.** Brunck ap. Σ ∥ οὐκ᾽ αἰρήσεις; R : **οὐχ αἱρήσεις.** Wilamowitz (*Kleine Schriften* IV, p.486n.1) |
 | 1095 | `τοξ/` | ἔτι γὰρ γρύζεις; : †ἔτι γὰρ γρύζεις;† |  |
 | 1096 | `τοξ/` | λαβὲ **τὴ** μιαρά. : †λαβὲ τὴ μιαρά.† | **1096** τῇ et τῆ R : **τὴ** bis Bothe |
@@ -3955,27 +3957,27 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 |  | `—` | ἔγωγε φημί. : Γόργο τοι κἀγὼ λέγι· |  |
 | 1105 | `εὐ^(ρ)` | ἔα· τίν᾽ ὄχθον τόνδ᾽ ὁρῶ καὶ παρθένον |  |
 |  |  | θεαῖς ὁμοίαν ναῦν ὅπως ὡρμισμένην; |  |
-| 1107 | `κη^(δ) ἀνδρ.` | ὦ ξένε **κατοίκτιρόν** με τὴν παναθλίαν, | **1107** κη^(δ) ως ανδρομε^(δ) in mg. Rᵖᶜ, M∥ κατοικτειρόν R : **κατοίκτιρόν** van Herwerden |
+| 1107 | `κη^(δ) ἀνδρ.` | ὦ ξένε **κατοίκτιρόν** με τὴν παναθλίαν, | **1107** κη^(δ) ως ανδρομε^(δ) in mg. Rᵖᶜ, M ∥ κατοικτειρόν R : **κατοίκτιρόν** van Herwerden |
 | 1108 | `—` | λῦσόν με δεσμῶν. : οὐκὶ μὶ λαλῆσι σύ; | **1108** **μὶ λαλῆσι** R : μὴ λαλῆσι Brunck |
 | 1109 |  | κατάρατο τολμᾷς ἀποτανουμένη **λαλῖς**; | **1109** λαλᾶς R : **λαλῖς;** Bergk (cf. vv. 1082 et 1087) : λαλᾷς; Hall-Geldart |
 | 1110 | `εὐ^(ρ)` | ὦ παρθέν᾽ **οἰκτίρω** σὲ κρεμαμένην ὁρῶν· | **1110** οἰκτείρω R : **οἰκτίρω** van Herwerden |
 |  | `τοξ/` | οὐ παρτέν᾽ ἐστίν, ἀλλ᾽ ἀμαρτωλὴ γέρων |  |
 |  | `—` | καὶ κλέπτο καὶ πανοῦργο. : ληρεῖς ὦ Σκύθα· |  |
 |  |  | αὕτη γάρ ἐστιν Ἀνδρομέδα παῖς Κηφέως· |  |
-| 1114 | `τοξ/` | σκέψαι τὸ **κύστο**· **μή τι** **μικκὸν** παίνεται; | **1114** σκύτο R : **κύστο** Scaliger grat. metr. : σῦκο Sommerstein ∥ μῆτι R : **μή τι** M(*numquid* Divus) ∥ μικτὸν R : **μικκὸν** Bentley : μικρὸ Enger |
-| 1115 | `εὐ^(ρ)` | φέρε δεῦρό μοι τὴν χεῖρ᾽, ἵν᾽ ἅψωμαι κόρης· | **1115** δεῦρο δεῦρο R : **δεῦρο** Biset |
+| 1114 | `τοξ/` | σκέψαι τὸ **κύστο**· **μή τι** **μικκὸν** παίνεται; | **1114** σκύτο R : **κύστο** Scaliger grat. metr. : σῦκο Sommerstein ∥ μῆτι R : **μή τι** M (*numquid* Divus) ∥ μικτὸν R : **μικκὸν** Bentley : μικρὸ Enger |
+| 1115 | `εὐ^(ρ)` | φέρε **δεῦρό** μοι τὴν χεῖρ᾽, ἵν᾽ ἅψωμαι κόρης· | **1115** δεῦρο δεῦρο R : **δεῦρο** Biset |
 |  |  | φέρε Σκύθ᾽· ἀνθρώποισι γὰρ νοσήματα |  |
 |  |  | ἅπασίν ἐστιν· ἐμὲ δὲ καὐτὸν τῆς κόρης |  |
 |  | `—` | ταύτης ἔρως εἴληφεν. : οὐ ζηλῶσί σε· |  |
 | 1119 |  | ἀτὰρ εἰ **τὸ πρωκτὸ** δεῦρο περιεστραμμένον, | **1119** τῶ πρωκτῶ R : **τὸ πρωκτὸ** Biset |
 | 1120 |  | οὐκ **ἐπτόνησά σ᾽** αὐτὸ πυγίζεις ἄγων· | **1120** ἐπτόνησας R : **ἐπτόνησά σ᾽** Bentley |
 |  | `εὐ^(ρ)` | τί δ᾽ οὐκ ἐᾷς λύσαντά μ᾽ αὐτὴν ὦ Σκύθα |  |
-| 1122 |  | πεσεῖν **ἐς** εὐνὴν καὶ γαμήλιον λέχος; | **1122** ἐστ᾽ R : ἐς τ᾽ M: **ἐς** Grynaeus |
+| 1122 |  | πεσεῖν **ἐς** εὐνὴν καὶ γαμήλιον λέχος; | **1122** ἐστ᾽ R : ἐς τ᾽ M : **ἐς** Grynaeus |
 |  | `τοξ/` | εἰ σπόδρ᾽ ἐπιτυμεῖς τὴ γέροντο πύγισο, |  |
 | 1124 |  | τὴ σανίδο τρήσας **ἐξόπιστο** πρώκτισον· | **1124** ἐξόπισθο R : **ἐξόπιστο** Daubuz |
 | 1125 | `εὐ^(ρ)` | μὰ Δί᾽ ἀλλὰ λύσω **δεσμά**. : μαστιγῶ σ᾽ ἄρα· | **1125** δέμας R : **δεσμά** Grynaeus |
-| 1126 | `εὐ^(ρ)` | καὶ μὴν ποιήσω τοῦτο : **τὸ κεπαλή σ᾽** (τὸ κ~~αὶ~~^(ε)παλῆς) ἄρα | **1126** τὸ κεπαλῆς (ex καὶ παλῆς) Rᵖᶜ, M: **τὸ κεπαλή σ᾽** Brunck |
-| 1127 |  | τὸ ξιπομάκαιραν **ἀποκεκόψι** (ἀποκεκόψ~~᾽~~^(οι)) τουτοΐ· | **1127** ἀποκέκοιψ᾽ Rᵃᶜ: ἀποκεκόψοι Rᵖᶜ: ἀποκεκόψο M: **ἀποκεκόψι** Brunck |
+| 1126 | `εὐ^(ρ)` | καὶ μὴν ποιήσω τοῦτο : **τὸ κεπαλή σ᾽** (τὸ κ~~αὶ ~~^(ε)παλῆς) ἄρα | **1126** τὸ κεπαλῆς (ex καὶ παλῆς) Rᵖᶜ, M : **τὸ κεπαλή σ᾽** Brunck |
+| 1127 |  | τὸ ξιπομάκαιραν **ἀποκεκόψι** (ἀποκεκόψ~~᾽~~^(οι)) τουτοΐ· | **1127** ἀποκέκοιψ᾽ Rᵃᶜ : ἀποκεκόψοι Rᵖᶜ : ἀποκεκόψο M : **ἀποκεκόψι** Brunck |
 
 #### B. Édition, tachygraphie (R²), traduction française et commentaire philologique des 18 scholies et gloses du `f. 175v`
 
@@ -4000,7 +4002,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 - **Traduction française** : « “D'où vient cette voix (πόθεν ἡ φωνή) ?” Le Scythe s'ébahit devant le phénomène de l'écho. »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Analysé en détail par Louis Hauseux (Bibi, v. 1086, vv 642-fin-bis.tex, ll. 4602-4615) : R¹ avait écrit πρωτε (bis), dont les deux ρ ont été grattés postérieurement (π[ρ]ωτε) pour s'accorder avec l'interprétation du scholiaste (πόθεν) ; mais comme le Scythe ne confond jamais ο et ω, L. Hauseux appose les cruces †πῶτε†.
 
-##### `Σ 347` — **v. 1089** · Lemme : *κακκάσκι μοι;*
+##### `Σ 347` — **v. 1089** · Lemme : *κἀκκάσκι [κακκάσκι R] μοι;*
 - **Position sur le `f. 175v`** : Interlinéaire (supra lineam au-dessus de κακκάσκι μοι, f. 175v, v. 1089)
 - **Texte grec établi (Σᴿ)** : `καταγελᾷς μοι.`
 - **Tracé diplomatique et abréviations tachygraphiques de R²** : `καταγελᾷς μοι ÷`
@@ -4058,14 +4060,14 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 ##### `Σ 355` — **v. 1103** · Lemme : *τί λέγι; τὴ Γόργος πέρι / τὸ γραμματέο σὺ τὴ κεπαλή; — τὴν Γοργόνος*
 - **Position sur le `f. 175v`** : Marge inférieure du f. 175v (sous les vv. 1102–1103 rétablis en marge inférieure par R² avec signe de renvoi, Planche 20)
-- **Texte grec établi (Σᴿ)** : `τί λέγει περὶ τῆς κεφαλῆς τοῦ Γόργου τοῦ γραπτέως, ἐπεὶ προεῖπεν ἐκεῖνος «Γοργόνος κάρα κομίζων.» ὁ δὲ Γόργος γραμματεὺς, ἀλλὰ καὶ βάρβαρος.`
+- **Texte grec établi (Σᴿ)** : `τί λέγει περὶ τῆς κεφαλῆς τοῦ Γόργου τοῦ γραμματέως, ἐπεὶ προεῖπεν ἐκεῖνος «Γοργόνος κάρα κομίζων.» ὁ δὲ Γόργος γραμματεὺς, ἀλλὰ καὶ βάρβαρος.`
 - **Tracé diplomatique et abréviations tachygraphiques de R²** : `τί λέγ(ει) π(ερὶ) τ^(ῆς) κεφαλ^(ῆς) τ^(οῦ) Γόργ^(ου) τ^(οῦ) γραμματέ^(ως), ἐπεὶ προεῖπ(εν) ἐκεῖν^(ος) «Γοργόν^(ος) κάρα κομίζ^(ων)» · ὁ δ(ὲ) Γόργ^(ος) γραμματεὺς, ἀλλὰ Ϛ βάρβαρ^(ος) ÷`
 - **Traduction française** : « “Que dit-il au sujet de la tête de Gorgos le greffier (τοῦ Γόργου τοῦ γραμματέως) ?”, parce qu'Euripide-Persée vient de dire (au v. 1101) : “apportant la tête de la Gorgone (Γοργόνος κάρα κομίζων)”. Et ce Gorgos était un greffier (secrétaire du Conseil), mais aussi d'origine barbare. »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Double intérêt paléographique et philologique majeur (Louis Hauseux, Bibi, vv. 1102-1103, vv 642-fin-bis.tex, ll. 4753-4765, et Planche 20 du Manuel) : 1° les vv. 1102-1103, sautés par R¹ dans la colonne par homéotéleute sur Γοργόνος (et absents de M !), ont été rétablis par R² dans la marge inférieure du f. 175v ; 2° la scholie de R² conserve le nom exact Γόργος (adopté par Bibi) là où le texte marginal de R² avait écrit Γοργόνος.
 
 ##### `Σ 356` — **v. 1105** · Lemme : *ἔα· τίν᾽ ὄχθον τόνδ᾽ ὁρῶ καὶ παρθένον / θεαῖς ὁμοίαν ναῦν ὅπως ὡρμισμένην;*
 - **Position sur le `f. 175v`** : Marge gauche (extérieure, f. 175v, en face des vv. 1105–1106)
-- **Texte grec établi (Σᴿ)** : `πάλιν ἐξ Ἀνδρομέδας «ἔα, τίν’ ὄχθον τόνδ’ «ὁρῶ περίρρυτον ἀφρῷ θαλάσσης, παρθένου τ’ εἰκώ τινα.»`
+- **Texte grec établi (Σᴿ)** : `πάλιν ἐξ Ἀνδρομέδας «ἔα, τίν’ ὄχθον τόνδ’ ὁρῶ περίρρυτον ἀφρῷ θαλάσσης, παρθένου τ’ εἰκώ τινα.»`
 - **Tracé diplomatique et abréviations tachygraphiques de R²** : `πάλ(ιν) ἐξ Ἀνδρομέδ^(ας) «ἔα, τίν' ὄχθ^(ον) τόνδ' ὁρῶ περίρρυτ^(ον) ἀφρῷ θαλάσσ^(ης), παρθέν^(ου) τ' εἰκώ τινα» ÷`
 - **Traduction française** : « De nouveau tiré de l'Andromède d'Euripide (fr. 125 Kannicht) : “Ah ! quel est ce tertre rocheux que je vois tout entouré de l'écume de la mer, et cette image d'une vierge...” »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Cité par Louis Hauseux (vv 642-fin-bis.tex, ll. 4777-4790) : conserve les vers originaux prononcés par Persée en apercevant Andromède enchaînée à son rocher.
@@ -4093,7 +4095,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 ##### `Σ 360` — **v. 1119** · Lemme : *ἀτὰρ εἰ τὸ πρωκτὸ δεῦρο περιεστραμμένον, / οὐκ ἐπτόνησά σ᾽ αὐτὸ πυγίζεις ἄγων·*
 - **Position sur le `f. 175v`** : Marge gauche (extérieure, f. 175v, en face des vv. 1119–1120)
-- **Texte grec établi (Σᴿ)** : `εἰ μὴ τὸν νῶτον ἦν, φησὶ, πρὸς τῇ σανίδι, ἀλλὰ πρὸς ἡμᾶς ἐτέτραπτο, οὐκ ἄν σοι ἐφόνησα ἀπαγαγόντι περανεῖν.`
+- **Texte grec établi (Σᴿ)** : `εἰ μὴ τὸν νῶτον ἦν, φησὶ, πρὸς τῇ σανίδι, ἀλλὰ πρὸς ἡμᾶς ἐτέτραπτο, οὐκ ἄν σοι ἐφθόνησα ἀπαγαγόντι περανεῖν.`
 - **Tracé diplomatique et abréviations tachygraphiques de R²** : `εἰ μὴ τ(ὸν) νῶτ^(ον) ἦν, φησ(ὶ), πρ(ὸς) τῇ σανίδι, ἀλλὰ πρ(ὸς) ἡμᾶς ἐτέτραπτ(ο), οὐκ ἄν σοι ἐφθόνησ(α) ἀπαγαγόντ(ι) περανεῖν ÷`
 - **Traduction française** : « “Si son dos n'était pas plaqué contre la planche du carcan”, dit le Scythe, “mais que son derrière fût tourné de notre côté, je ne t'aurais pas refusé de l'emmener pour le besogner (περανεῖν) !” »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Traduit en grec attique la boutade grivoise du Scythe (commentée par L. Hauseux, vv 642-fin-bis.tex, ll. 4828-4850).
@@ -4123,7 +4125,7 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 1132 |  | **τούτῳ** πρέπουσαν μηχανὴν προσοιστέον· | **1132** τοῦτο R : **τούτῳ** Zanetti |
 | 1133 | `τοξ/` | μιαρὸς ἀλώπηξ, **οἶον** **ἐπιτήκιζί** μοι· | **1133** οἷον R : **οἶον** Brunck ∥ ἐπιτηκίζει R : **ἐπιτήκιζί** anonymus Parisinus |
 |  | `μν^(Η)` | μέμνησο Περσεῦ μ᾽ ὡς καταλείπεις ἀθλίαν· |  |
-| 1135 | `τοξ/` | ἔτι γὰρ σὺ **τὴ μάστιγαν** (τῆ μαστ~~η~~^(ι)γᾶν) ἐπιτυμεῖς **λαβεῖν;** | **1135** **τῆ μαστιγᾶν** (ex μαστηγαν) Rᵖᶜ∥ λαβεῖν· R : **λαβεῖν;** Scaliger |
+| 1135 | `τοξ/` | ἔτι γὰρ σὺ **τὴ μάστιγαν** (τῆ μαστ~~η~~^(ι)γᾶν) ἐπιτυμεῖς **λαβεῖν;** | **1135** **τῆ μαστιγᾶν** (ex μαστηγαν) Rᵖᶜ ∥ λαβεῖν· R : **λαβεῖν;** Scaliger |
 |  | `χορ/` | Παλλάδα τὴν φιλόχορον ἐμοὶ |  |
 | 1138 |  | δεῦρο καλεῖν νόμος **εἰς** χορόν, | **1138** ἐς R : **εἰς** von Velsen |
 | 1139 |  | παρθένον ἄζυγα **κούρην**, | **1139** κόρην R : **κούρην** Bothe |
@@ -4193,8 +4195,8 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 1172 | `εὐ^(ρ)` | ἐμὸν ~~γ᾽~~ ἔργον ἐστίν· καὶ σὸν ὦλάφιον ἅ σοι | **1172** Εὐριπίδης ἐν σχήματι προαγωγοῦ γραός Σ ∥ **ἐμὸν** ~~γ᾽~~ R² |
 | 1173 |  | καθ᾽ ὁδὸν ^(ἔφραζον) (ἔφ^(ραζ)ον Rᵖᶜ) ταῦτα μεμνῆσθαι ποιεῖν· | **1173** **ἔφραζον** (ex ἔφρον) Rᵖᶜ |
 | 1174 |  | πρῶτον μὲν οὖν δίελθε **κἀνακάλπασον**· | **1174** κἀνακόλπασον R : **κἀνακάλπασον** Hermann, cf. Σ, Suid. κ 623, Zonar. p.1171 |
-| 1175 |  | σὺ δ᾽ ὦ **Τερηδὸν** ἐπαναφύσα Περσικόν· | **1175** Τερηδὼν R, Suid. τ 340 AGFMᵃᶜ : **Τερηδὸν** Suid. VMᵖᶜ |
-| 1176 | `τοξ/` | τί τὸ βόμβο τοῦτο; κῶμό τις ἀνεγεῖρί μοι; | **1176** κωμοτίς ἀν- R : κωμοδρίαν Σ : **κῶμό τις ἀν-** van Velsen |
+| 1175 |  | σὺ δ᾽ ὦ **Τερηδὸν** ἐπαναφύσα Περσικόν· | **1175** Τερηδὼν R, Suid. τ 340 AGFM^(ac) : **Τερηδὸν** Suid. VM^(pc) |
+| 1176 | `τοξ/` | τί τὸ βόμβο τοῦτο; **κῶμό τις** ἀνεγεῖρί μοι; | **1176** κωμοτίς ἀν- R : κωμοδρίαν Σ : **κῶμό τις ἀν-** van Velsen |
 |  | `εὐ^(ρ)` | ἡ παῖς ἔμελλε προμελετᾶν ὦ τοξότα· |  |
 | 1178 |  | ὀρχησομένη γὰρ **ἔρχεθ᾽** ὡς ἄνδρας τινάς· | **1178** ἔρχετ᾽ R : **ἔρχεθ᾽** Brunck |
 | 1179 | `τοξ/` | ὀρκῆσι καὶ μελετῆσι, οὐ **κωλῦσ᾽** ἐγώ· | **1179** κωλύσ᾽ R : **κωλῦσ᾽** Blaydes (κωλῦσι = κωλύσω), cf. ad 1003, 1196, 1201, 1225 |
@@ -4203,21 +4205,21 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 1182 |  | καθιζομένη δ᾽ ἐπὶ **τοῖσι** γόνασι τοῦ Σκύθου | **1182** τοῖς R : **τοῖσι** Bentley |
 |  | `—` | τὼ πόδε πρότεινον, ἵν᾽ ὑπολύσω. : ναῖκι ναὶ |  |
 | 1184 |  | κάτησο κάτησο, ναίκι ναί, τυγάτριον· | **1184** **ναίκι ναὶ** R : ναίκι ναίκι Bothe |
-| 1185 |  | οἴμ᾽ **ὠς στέριπο** (ὡ σ~~π~~^(τ)εριπὸ) τὸ τιττί᾽, **ὤσπερ** **γογγυλί**· | **1185** ὡ στεριπὸ (ex σπεριπο) Rᵖᶜ: **ὡς στεριπὸ** (sic) M∥ ὥσπερ R : **ὤσπερ** Brunck ∥ **γογγυλί** POxy-3840, Enger : γογγύλῃ R |
+| 1185 |  | οἴμ᾽ **ὠς στέριπο** (ὡ σ~~π~~^(τ)εριπὸ) τὸ τιττί᾽, **ὤσπερ** **γογγυλί**· | **1185** ὡ στεριπὸ (ex σπεριπο) Rᵖᶜ : **ὡς στεριπὸ** (sic) M ∥ ὥσπερ R : **ὤσπερ** Brunck ∥ **γογγυλί** POxy-3840, Enger : γογγύλῃ R |
 |  | `εὐ^(ρ)` | αὔλει σὺ θᾶττον· ἔτι δέδοικας τὸν Σκύθην; |  |
-| 1187 | `τοξ/` | καλό γε τὸ πυγή· **κλαῦσί γ᾽** (κλαυσ~~᾽ ε~~ϊ γ᾽) **ἢν** μὴ ᾽νδον μένῃς· | **1187** κλαυσ~~᾽ ε~~ϊ γ᾽ R²: κλαυσεῖ γ᾽ M∥ ἂν R : **ἢν** Dindorf (1839) |
-|  |  | **[παρεπιγραφή R¹, POxy-3840 :]** **ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος·** | **post 1187** **ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος·** R, μ]ενο[ POxy-3840 |
-| 1188 |  | εἶεν· καλὴ τὸ σκῆμα περὶ τὸ ~~σ~~πόστιον· | **1188** τὸ ~~σ~~ποστίον Rᵖᶜ: τὸ ποστίον M |
+| 1187 | `τοξ/` | καλό γε τὸ πυγή· **κλαῦσί γ᾽** (κλαυσ~~᾽ ε~~ϊ γ᾽) **ἢν** μὴ ᾽νδον μένῃς· | **1187** κλαυσ~~᾽ ε~~ϊ γ᾽ R² : κλαυσεῖ γ᾽ M ∥ ἂν R : **ἢν** Dindorf (1839) |
+|  |  | \hspace2.2em**[παρεπιγραφή R^(1**, POxy-3840 :]) **ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος·** | **post 1187** **ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος·** R, μ]ενο[ POxy-3840 |
+| 1188 |  | εἶεν· καλὴ τὸ σκῆμα περὶ τὸ ~~σ~~πόστιον· | **1188** τὸ ~~σ~~ποστίον Rᵖᶜ : τὸ ποστίον M |
 | 1189 | `εὐ^(ρ)` | καλῶς ἔχει. λαβὲ θοἰμάτιον· ὥρα **'στὶ** νῷν | **1189** 'στιν R : **'στὶ** M |
 | 1190 | `—` | ἤδη βαδίζειν. : **οὐκὶ** **πιλῆσι** πρῶτά με; | **1190** τί οὐκ ἐπιλήσει R : **οὐκὶ** (Biset) **πιλῆσι** Porson (ad *Aristophanica* p.222), cf. Σ `οὐχὶ φιλήσειν' |
 | 1191 | `εὐ^(ρ)` | πάνυ γε· φίλησον αὐτόν. : **ὂ ὂ ὂ** παπαπαπαῖ, | **1191** ὂ R : **ὂ ὂ ὂ** M |
-| 1192 |  | **ὠς** γλυκερὸ τὸ γλῶσσ᾽, **ὤσπερ** Ἀττικὸς **μέλι**· | **1192** ὡς et ὥσπερ R : **ὠς** et **ὤσπερ** Brunck ∥ **μέλι** POxy-3840, M: μέλις R |
+| 1192 |  | **ὠς** γλυκερὸ τὸ γλῶσσ᾽, **ὤσπερ** Ἀττικὸς **μέλι**· | **1192** ὡς et ὥσπερ R : **ὠς** et **ὤσπερ** Brunck ∥ **μέλι** POxy-3840, M : μέλις R |
 |  | `—` | τί οὐ κατεύδει παρ᾽ ἐμέ; : χαῖρε τοξότα, |  |
 | 1194 | `—` | οὐ γὰρ γένοιτ᾽ ἂν τοῦτο. : **ναὶ ναὶ** **γρᾴδιο**· | **1194** ναὶ R : ναίκι Bentley : **ναὶ ναὶ** Brunck ∥ γράδιον R : **γρᾴδιο** Bothe |
-| 1195 | `—` | ἐμοὶ ~~σὺ~~ **κάρισο σὺ** τοῦτο : δώσεις οὖν δραχμήν; | **1195** ~~σὺ~~ κάρισοσ οὐ Rᵖᶜ: κάρισο σοῦ M: **κάρισο σὺ** Brunck |
+| 1195 | `—` | ἐμοὶ ~~σὺ~~ **κάρισο σὺ** τοῦτο : δώσεις οὖν δραχμήν; | **1195** ~~σὺ~~ κάρισοσ οὐ Rᵖᶜ : κάρισο σοῦ M : **κάρισο σὺ** Brunck |
 |  | `τοξ/` | ναὶ ναῖκι δῶσι. : τἀργύριον τοίνυν φέρε· |  |
 | 1197 | `τοξ/` | ἀλλ᾽ οὐκ **ἔκὠδέν**· ἀλλὰ τὸ συμβήνην λαβέ· | **1197** έκ' ὠδέν R : ἐχω οὐδέν Suid. σ 1273, Photius σ 660 : **ἔκὠδέν** Bergk ∥ **συμβήνην** R : συβήνην Σ, Suid., Photius |
-| 1198 | `γϋ. (Bon.)` | ἔπειτα **κομίζι σ᾽ αὐτίκ᾽** (κ~~ω~~^(ο)μίζεις αὐτοῖς)· **[σκ᾽.]** **ἀκολούτι** τέκνον· | **1198** κ~~ω~~^(ο)μίζεις αὐτοῖς Rᵖᶜ: **(Τοξότ.) κομίζι σ᾽ αὐτίκ᾽** Bibi ∥ γϋ. ante v. 1198 (Boninus) et σκ᾽. ante ἀκολ. in R ∥ ἀκουλούτι R : **ἀκολούτι** M |
+| 1198 | `γϋ. (Bon.)` | ἔπειτα **κομίζι σ᾽ αὐτίκ᾽** (κ~~ω~~^(ο)μίζεις αὐτοῖς)· **[σκ᾽.]** **ἀκολούτι** τέκνον· | **1198** κ~~ω~~^(ο)μίζεις αὐτοῖς Rᵖᶜ : **(Τοξότ.) κομίζι σ᾽ αὐτίκ᾽** Bibi ∥ γϋ. ante v. 1198 (Boninus) et σκ᾽. ante ἀκολ. in R ∥ ἀκουλούτι R : **ἀκολούτι** M |
 |  |  | σὺ δὲ τοῦτο τήρει τὴ γέροντο, γρᾴδιο· |  |
 | 1200 | `—` | ὄνομα δέ σοι τί ἔστιν; : Ἀρτεμισία· |  |
 | 1201 | `τοξ/` | μεμνῆσι τοίνυν τοὔνομ᾽· **Ἀρταμουξία**· | **1201** ἀρτομουξία R : **Ἀρταμουξία** ed. Lipsiensis (1814) |
@@ -4227,9 +4229,9 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 | 1205 |  | ὅταν λυθῇς τάχιστα φεύξει καὶ τενεῖς |  |
 |  |  | ὡς τὴν γυναῖκα καὶ τὰ παιδί᾽ οἴκαδε· |  |
 |  | `μν^(Η)` | ἐμοὶ μελήσει ταῦτά γ᾽ ἢν ἅπαξ λυθῶ· |  |
-| 1208 | `εὐ^(ρ)` | λέλυσο~~ν~~· σὸν ἔργον, φεῦγε πρὶν τὸν τοξότην | **1208** ca. 6 litt. ]· σο̣[νεργον POxy-4935: **λέλυσο**~~ν~~ Rᵖᶜ: λέλυσαι Bentley |
+| 1208 | `εὐ^(ρ)` | λέλυσο~~ν~~· σὸν ἔργον, φεῦγε πρὶν τὸν τοξότην | **1208** ca. 6 litt. ]· σο̣[νεργον POxy-4935 : **λέλυσο**~~ν~~ Rᵖᶜ : λέλυσαι Bentley |
 |  | `—` | ἥκοντα καταλαβεῖν. : ἐγὼ δὴ τοῦτο δρῶ· |  |
-| 1210 | `τοξ/` | ὦ γρᾴδι᾽ ὠς καρίεντό σοι τὸ **τυγά θ ^(τ)ριο**, | **1210** τυγά~~θ~~^(τ)ριον Rᵖᶜ(ex τυγάθριον Rᵃᶜ) : τυγάτριον M: **τυγάτριο** Bibi |
+| 1210 | `τοξ/` | ὦ γρᾴδι᾽ ὠς καρίεντό σοι τὸ **τυγά~~θ~~^(τ)ριο**, | **1210** τυγά~~θ~~^(τ)ριον Rᵖᶜ (ex τυγάθριον Rᵃᶜ) : τυγάτριον M : **τυγάτριο** Bibi |
 
 #### B. Édition, tachygraphie (R²), traduction française et commentaire philologique des 15 scholies et gloses du `f. 176v`
 
@@ -4242,12 +4244,12 @@ Contrairement à la colonne poétique copiée par R¹ en minuscule bouletée où
 
 ##### `Σ 366` — **v. 1172** · Lemme : *ἐμὸν ἔργον ἐστίν· καὶ σὸν, ὦλάφιον, ἅ σοι / καθ᾽ ὁδὸν ἔφραζον,*
 - **Position sur le `f. 176v`** : Marge gauche (extérieure, f. 176v, deux scholies en face du v. 1172)
-- **Texte grec établi (Σᴿ)** : `Εὐριπίδης ἐν σχήματι προαγωγοῦ γραός. ἑταίρας ὄνομα Ἐλάφιον ὡς Χρυσίον, ..ον καὶ τὰ ὅμοια.`
+- **Texte grec établi (Σᴿ)** : `Εὐριπίδης ἐν σχήματι προαγωγοῦ γραός. ἑταίρας ὄνομα Ἐλάφιον ὡς Χρυσίον, [Μύρτι]ον καὶ τὰ ὅμοια.`
 - **Tracé diplomatique et abréviations tachygraphiques de R²** : `Εὐριπίδ(ης) ἐν σχήματ(ι) προαγωγ^(οῦ) γραός ÷ // ἑταίρ^(ας) ὄνομα Ἐλάφι^(ον) ὡς Χρυσί^(ον), [Μύρτι]^(ον) Ϛ τὰ ὅμοια ÷`
 - **Traduction française** : « Euripide entre ici sous le déguisement d'une vieille entremetteuse (προαγωγὸς γραῦς, qui se fera appeler Artémisia au v. 1200). — Ἐλάφιον (“Petit Faon, Biche”) est un nom de courtisane (danseuse), formé au neutre diminutif comme Χρυσίον, Μύρτιον et autres noms semblables (cf. Σ 289). »
 - **Commentaire philologique et lien avec l'édition Louis Hauseux (`Bibi`)** : Cité par Louis Hauseux (vv 642-fin-bis.tex, l. 5059) : c'est d'après cette scholie (ἐν σχήματι προαγωγοῦ γραός) qu'Euphrosynus Boninus en 1515 a ajouté de sa propre main sur le f. 176v (vv. 1189 et 1198) le sigle γϋ. (= γυνή), comme l'ont démontré Velsen et Martin.
 
-##### `Σ 367` — **v. 1174** · Lemme : *πρῶτον μὲν οὖν δίελθε κἀνακάλπασον.*
+##### `Σ 367` — **v. 1174–1175** · Lemme : *πρῶτον μὲν οὖν δίελθε κἀνακάλπασον [κἀνακόλπασον R]. / σὺ δ᾽, ὦ Τερηδὸν [Τερηδών R], ἐπαναφύσα Περσικόν·*
 - **Position sur le `f. 176v`** : Marge gauche (extérieure) et interlinéaire sur Τερηδών (f. 176v, vv. 1174–1175)
 - **Texte grec établi (Σᴿ)** : `σημειωτέον τοῦτο. σημαίνει δὲ τὸ ἁβρῶς βαδίζειν. ἡ αὐλητρίς.`
 - **Tracé diplomatique et abréviations tachygraphiques de R²** : `σημειωτέ^(ον) τοῦτ(ο) · σημαίν(ει) δ(ὲ) τ(ὸ) ἁβρ^(ῶς) βαδίζ(ειν) ÷ // ἡ αὐλητρίς ÷`
