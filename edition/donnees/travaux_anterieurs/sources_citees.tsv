@@ -1,0 +1,97 @@
+categorie	source	commentaires	occ_commentaire	occ_notes	occ_testimonia	occ_apparat	total	motif
+lexicographie	Hésychius	41	44	30	73	7	154	Hésychius|Hesychius|Hesych\b|Hesych\.|\bHsch\b
+lexicographie	Souda (Suidas)	37	37	30	140	89	296	\bSouda\b|Suidas|\bSuid\b|Suid\.|Suidae
+lexicographie	Photius	20	11	15	47	4	77	Photius|\bPhot\.
+lexicographie	Pollux	11	9	8	21	5	43	Pollux|\bPoll\.|Onomasticon
+lexicographie	Athénée	26	19	19	1	0	39	Athénée|Athenaeus|\bAth\.
+lexicographie	Synagoge	2	0	2	11	0	13	Συναγωγ|Synagog
+lexicographie	Etymologica	7	2	8	11	0	21	Etymologicum|\bEtym\.|\bEM\b
+lexicographie	Eustathe	6	3	4	29	2	38	Eustathe|Eustathius|\bEust\.
+lexicographie	Zonaras	3	2	6	18	1	27	Zonaras|Zonar\.
+lexicographie	Harpocration	0	0	0	1	0	1	Harpocration|\bHarp\.
+lexicographie	Phrynichus	1	0	1	10	0	11	Phrynichus|Phrynicus|\bPhryn\.
+lexicographie	Moeris	0	0	0	20	0	20	Moeris|Mœris
+lexicographie	Antiatticiste	0	0	0	4	0	4	Antiattici
+lexicographie	Aelius Dionysius	0	0	0	10	0	10	Aelius Dionysius|Ælius Dionysius
+lexicographie	Stobée	7	3	4	1	0	8	Stobée|Stobaeus|Stobæus
+scholies	scholies, scholiaste	108	133	48	19	46	246	[Ss]choli|\bΣ\b|\bΣ\s|Schol\.
+parémiographie	proverbe (mot)	29	49	44	1	0	94	[Pp]roverb|παροιμ|parœm|paroem
+parémiographie	Érasme, Adages	21	5	36	0	0	41	Érasme|Erasme|Erasmus|\bAdages?\b
+parémiographie	Zénobius	8	0	8	0	0	8	Zénobius|Zenobius|\bZen\.
+parémiographie	Diogénien	4	0	5	0	0	5	Diogénien|Diogenian|Diogén\.
+parémiographie	Apostolius	8	2	9	4	0	15	Apostolius|\bApost\.
+parémiographie	Macarius	2	1	1	1	0	3	Macarius|Macaire
+parémiographie	Grégoire de Chypre	0	0	0	0	0	0	Grégoire de Chypre|Gregorius Cyprius
+parémiographie	Corpus Paroemiographorum (Leutsch-Schneidewin)	6	0	8	0	0	8	Leutsch|Corpus Par[oœ]|\bCPG\b
+parémiographie	Tosi	7	1	8	0	0	9	\bTosi\b
+parémiographie	Gaisford	0	0	0	0	0	0	Gaisford
+moderne	Willems	89	98	28	0	8	134	Willems
+moderne	Taillardat	44	33	28	0	1	62	Taillardat
+moderne	Austin & Olson	6	2	7	0	1	10	Austin\s*(?:&|et|\\&)\s*Olson|Austin-Olson|\bA\.?\s*&\s*O\.|\bA&O\b
+moderne	Austin (seul)	4	1	7	0	9	17	(?<!Kassel-)(?<!Kassel & )(?<!Kassel et )(?<!Kassel-\s)\bAustin\b(?!\s*(?:&|et|\\&)\s*Olson)(?!-Olson)
+moderne	Kassel-Austin (PCG)	30	9	26	3	0	38	Kassel
+moderne	Kannicht (TrGF V)	17	2	17	2	0	21	Kannicht
+moderne	Nauck	3	1	2	0	1	4	Nauck|\bN²
+moderne	Radt	9	0	10	0	0	10	\bRadt\b
+moderne	Sommerstein	5	2	3	0	4	9	Sommerstein
+moderne	Prato	6	5	3	0	0	8	\bPrato\b
+moderne	Coulon	4	3	1	0	1	5	\bCoulon\b
+moderne	Rogers	3	1	3	0	5	9	\bRogers\b
+moderne	Fritzsche	14	11	5	0	13	29	Fritzsche
+moderne	van Leeuwen	5	2	4	0	4	10	Leeuwen
+moderne	Enger	4	2	2	0	11	15	\bEnger\b
+moderne	von Velsen	7	3	6	0	7	16	Velsen
+moderne	Parker (« Lætitia »)	11	7	10	0	0	17	Lætitia|Laetitia|\bParker\b
+moderne	Henderson	3	1	2	0	0	3	Henderson
+moderne	LSJ	11	3	9	0	0	12	\bLSJ\b|L\.S\.J\.|Liddell
+moderne	Chantraine	9	3	7	0	0	10	Chantraine
+moderne	Bailly	5	2	3	0	0	5	\bBailly\b
+moderne	Daremberg-Saglio	10	1	11	0	0	12	Daremberg
+moderne	Pauly-Wissowa (RE)	3	0	7	0	0	7	Pauly|Realencyclop
+moderne	Jouan & van Looy	18	5	17	0	0	22	Jouan
+moderne	Kühner-Gerth	2	1	3	0	1	5	Kühner
+moderne	Boudreaux	2	0	3	0	0	3	Boudreaux
+moderne	Vernhes	2	2	1	0	0	3	Vernhes|Verhnes
+moderne	Brunck	5	6	3	0	49	58	\bBrunck\b
+moderne	Bentley	3	4	0	0	45	49	\bBentley\b
+moderne	Hermann	5	2	4	0	21	27	\bHermann\b
+moderne	Dindorf	5	2	3	0	23	28	\bDindorf\b
+moderne	Meineke	4	2	2	0	13	17	Meineke
+moderne	Blaydes	4	1	4	0	5	10	Blaydes
+Aristophane	Acharniens	29	21	17	0	0	38	Acharniens
+Aristophane	Cavaliers	19	19	12	0	0	31	Cavaliers
+Aristophane	Nuées	29	20	20	0	1	41	\bNuées\b|\bNubes\b
+Aristophane	Guêpes	34	27	16	0	2	45	Guêpes|\bVesp\.
+Aristophane	Paix	23	13	20	0	0	33	\bPaix\b
+Aristophane	Oiseaux	22	20	8	0	0	28	Oiseaux
+Aristophane	Lysistrata	25	20	16	0	1	37	Lysistrata|\bLys\.
+Aristophane	Grenouilles	35	21	21	0	1	43	Grenouilles|\bRan\.
+Aristophane	Assemblée des femmes	11	6	6	0	0	12	Assemblée des [Ff]emmes|\bEccl\.
+Aristophane	Ploutos	13	7	7	2	2	18	Ploutos|Plutus|\bPlut\.
+Aristophane	fragments d'Aristophane	12	7	7	2	0	16	[Ff]ragments? d'Aristophane|Ar\. fragm\.|fr\.\s*\d+[^.;]{0,20}Kassel
+auteurs	Homère	22	23	20	0	0	43	Homère|homérique|Iliade|Odyssée
+auteurs	Hésiode	4	3	3	0	0	6	Hésiode
+auteurs	Pindare	4	1	4	0	0	5	Pindare
+auteurs	Eschyle	17	19	12	0	0	31	Eschyle
+auteurs	Sophocle	18	11	9	0	0	20	Sophocle
+auteurs	Euripide (auteur et personnage)	107	216	51	3	0	270	Euripide
+auteurs	Eupolis	6	19	2	0	0	21	Eupolis
+auteurs	Cratinos	3	2	1	0	0	3	Cratin
+auteurs	Ménandre	6	6	2	0	0	8	Ménandre
+auteurs	Hérodote	10	10	5	0	0	15	Hérodote
+auteurs	Thucydide	16	7	18	0	0	25	Thucydide
+auteurs	Xénophon	8	7	3	0	0	10	Xénophon
+auteurs	Platon	23	15	15	0	0	30	Platon(?! le Comique)
+auteurs	Aristote	8	3	8	0	0	11	Aristote
+auteurs	Démosthène	7	10	4	0	0	14	Démosthène
+auteurs	Plutarque	14	4	13	0	0	17	Plutarque
+auteurs	Lucien	4	1	3	0	0	4	Lucien
+auteurs	Théocrite	4	1	3	0	0	4	Théocrite
+auteurs	Plaute	4	3	1	0	0	4	Plaute
+auteurs	Cicéron	4	4	3	0	0	7	Cicéron
+auteurs	Pline	3	3	2	0	0	5	Pline
+français	Brassens	2	1	3	0	0	4	Brassens
+français	La Fontaine	2	2	0	0	0	2	La Fontaine
+français	Molière	2	2	0	0	0	2	Molière
+français	Rabelais	1	0	1	0	0	1	Rabelais
+français	Villon	1	1	0	0	0	1	Villon

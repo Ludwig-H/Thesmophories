@@ -2,7 +2,7 @@
 
 *Ravenne, Biblioteca Classense, ms. 429 (olim 137, 4, A). Aristophane, onze comédies avec scholies ; *Thesmophories* aux ff. 162v–177r (vv. 1–1231).*
 
-> **Statut** : dossier de travail, en cours (dernière mise à jour : 25 oct. 2026). Chaque affirmation est suivie de sa source, au format `Auteur année, page` ; les sigles des sources sont développés au § 16, avec le chemin du fichier local quand il existe. Les points marqués **[image]** sont repris dans la liste du § 15 ; **[à vérifier]** signale une donnée que je n'ai pas pu contrôler sur une source primaire. Les travaux de l'assistant précédent (`dossier_ravennas_thesmophories/*.md|tex`) n'ont pas été utilisés comme autorité.
+> **Statut** : dossier de travail, en cours (première rédaction : 25 oct. 2026 ; reprise après interruption : 26 oct. 2026, §§ 14–15 et compléments en cours). Chaque affirmation est suivie de sa source, au format `Auteur année, page` ; les sigles des sources sont développés au § 16, avec le chemin du fichier local quand il existe. Les points marqués **[image]** sont repris dans la liste du § 15 ; **[à vérifier]** signale une donnée que je n'ai pas pu contrôler sur une source primaire. Les travaux de l'assistant précédent (`dossier_ravennas_thesmophories/*.md|tex`) n'ont pas été utilisés comme autorité.
 
 ## Sommaire
 
@@ -36,8 +36,10 @@
 6. **R est la copie d'impression de l'*editio princeps* des *Thesmophories* et de la *Lysistrata***, achevée « quinto Kal. Februarii MDXV », soit le **28 janvier 1516** selon le style florentin, et non dans la Juntine de septembre 1515, qui ne contient que neuf pièces. Dans les marges des deux pièces, des chiffres arabes et des traits renvoient aux pages des cahiers de la Juntine (Velsen 1871, 3–6 ; Clark 1871, 159 ; Martin 1882, iv–v).
 7. **Euphrosynus Boninus.** L'identification de la main du XVIe siècle avec la sienne remonte à une conjecture de R. Schöll (Velsen 1871, 6–7) ; elle a été reprise par Velsen 1883, 5, Martin 1882, xiii, White 1906, II, 257, Prato 2001, xxxii et Scotti 2024, 462. Aucune des sources consultées ne la vérifie par comparaison avec des autographes de Bonini.
 8. **Le *pinax* final n'est pas de Bonini.** Martin l'attribuait à Euphrosynus (Martin 1882, xiii). Eleuteri–Canart l'attribuent à **Paolo Canal**, qui l'aurait écrit lors d'une étape à Urbino en 1505, pendant un voyage avec Pietro Bembo (Eleuteri–Canart 1991, 74 ; Orsini 2011, 322 n. 3).
-9. **Histoire.** Le manuscrit apparaît à Urbino dans l'*Index vetus* sous le n° 123 (Scotti 2024, 466). Une note marginale de ce même index, « Habuit Petrus Florentinus Cartularius stampandum », prouve son prêt pour l'impression florentine (Scotti 2024, 469–470). Il n'est jamais revenu à Urbino. Pietro Canneti l'achète à Pise et le fait entrer à la Classense en **mai 1712** (Allen 1896, 324–325, d'après l'inventaire Canneti–Fiacchi ; Mazzatinti 1894, 145 et 239).
+9. **Histoire.** Avant Urbino, rien n'est prouvé. La seule mention d'un Aristophane dans la correspondance de Giovanni Aurispa est une lettre de juillet 1430 : parmi six manuscrits qu'on lui a envoyés **de Sicile**, l'un contient « multae τοῦ Ἀριστοφάνους κωμῳδίαι » (Sabbadini 1931, 71). Rien n'y identifie R, et la date de 1423 avancée par Scotti 2024, 462 n'en découle pas. Le manuscrit apparaît à Urbino dans l'*Index vetus* sous le n° 123 (Scotti 2024, 466). Une note marginale de ce même index, « Habuit Petrus Florentinus Cartularius stampandum », prouve son prêt pour l'impression florentine (Scotti 2024, 469–470). Il n'est jamais revenu à Urbino. Pietro Canneti l'achète à Pise et le fait entrer à la Classense en **mai 1712** (Allen 1896, 324–325, d'après l'inventaire Canneti–Fiacchi ; Mazzatinti 1894, 145 et 239).
 10. **Apographe.** Le seul apographe connu des *Thesmophories* est le **Monacensis gr. 492** (« Augustanus », G chez Velsen, Mu2 chez Wilson), du XVe siècle (Velsen 1871, 7 ; Velsen 1883, 5 ; Wilson 2007, II, 68). Ses leçons propres ne valent que comme conjectures.
+11. **Les sigles de Velsen 1883.** Sa préface définit trois mains correctrices : R² (main des scholies), R³ (« paullo recentior ») et Boninus (Velsen 1883, 5). Son apparat des *Thesmophories* n'emploie pourtant que R² : 79 occurrences relevées pour les vv. 1–930 dans le répertoire critique, plus de 200 pour l'ensemble de la pièce d'après mon relevé, et aucun R³ (§ 5.1). Un même correctif est parfois attribué à R² en 1883 et à Boninus en 1871 (v. 54, § 11). Le « R² » de Velsen ne doit donc pas être lu comme une attribution sûre au Xe siècle.
+12. **Colométrie.** Velsen 1883 consigne, passage par passage, les fins de ligne de R dans les parties lyriques et anapestiques (« ita distributa sunt, ut singuli versus finiantur vocibus… »). Son apparat est donc le point de départ du relevé colométrique (§ 8.4).
 
 ---
 
@@ -59,8 +61,8 @@
   - La foliotation savante est celle **à l'encre**, dans la marge supérieure intérieure (1–191).
   - Une **seconde foliotation, au crayon**, dans la marge supérieure extérieure, commence à la première garde de parchemin (1–193) (Orsini 2011, 322 n. 3).
   - Martin parle d'une foliotation « au crayon, sur le recto seulement » (Martin 1882, x).
-  - Les fichiers d'images du dépôt portent une numérotation « Classense » décalée de +2 (`01_f162v_classense164v`), qui correspond à la foliotation au crayon **[à vérifier sur l'image]**. Concordance pour la pièce : f. 162v = 164v ; f. 163r = 165r ; … ; f. 177r = 179r. Dans le manifeste IIIF, les planches doubles p166–p180 couvrent les ff. 162v–177r.
-- **Signatures de cahiers.** Les signatures anciennes ne survivent qu'aux ff. 57r (η´) et 116r (ια´) (Orsini 2011, 322–323 ; Allen 1896, 301–302 et 310 n. 1). Une signature moderne en chiffres arabes figure au bas du premier recto de chaque cahier, en partie rognée : 21 au f. 159r, 22 au f. 167r (Orsini 2011, 322 n. 4 ; Martin 1882, x). Le 23 n'est pas signalé par Orsini **[image : f. 175r]**.
+  - Les fichiers d'images du dépôt portent une numérotation « Classense » décalée de +2 (`01_f162v_classense164v`). C'est bien la foliotation au crayon. Sur l'image du f. 167r, j'ai vu « 167 » à l'encre dans l'angle supérieur intérieur, en partie caché par le pli, et « 169 » au crayon dans l'angle supérieur extérieur (`.travail/ravennas_dossier/f167r_haut.png`). Concordance pour la pièce : f. 162v = 164v ; f. 163r = 165r ; … ; f. 177r = 179r. Dans le manifeste IIIF, les planches doubles p166–p180 couvrent les ff. 162v–177r.
+- **Signatures de cahiers.** Les signatures anciennes ne survivent qu'aux ff. 57r (η´) et 116r (ια´) (Orsini 2011, 322–323 ; Allen 1896, 301–302 et 310 n. 1). Une signature moderne en chiffres arabes figure au bas du premier recto de chaque cahier, en partie rognée : 21 au f. 159r, 22 au f. 167r (Orsini 2011, 322 n. 4 ; Martin 1882, x). J'ai vu sur l'image le « 22 » du f. 167r, au crayon, au centre de la marge inférieure. Orsini ne signale pas de « 23 ». Je n'en vois aucune trace dans la marge inférieure du f. 175r, premier feuillet du cahier XXIII (`.travail/ravennas_dossier/f175r_bas.png`) **[à revoir sur l'original]**.
 
 ## 2. Datation et localisation
 
@@ -81,8 +83,10 @@
 | van Leeuwen 1904 et 1908 | « exeunte saeculo X° aut ineunte XI° » | van Leeuwen 1908, 270 ; compte rendu anonyme du fac-similé : JHS 1904, 168 |
 | White 1906 | XIe s. (liste des manuscrits) | White 1906, I, 16 |
 | Coulon 1928 | « saec. X » | Coulon 1928, sigla |
+| Koster 1963 | « le Ravennas du xe siècle ou du début du siècle suivant » | Koster 1963, 391 |
 | Prato 2001 | « circa IX–X sec. » | Prato 2001, xxxi |
 | Wilson 2007 | « from the middle of the tenth century » | Wilson 2007, I, v |
+| Tordoff 2008, compte rendu de Regtuit 2007 | « written in miniscule around AD950 » ; Regtuit lui-même non consulté | BMCR 2008.09.24 |
 | Orsini 2011 | « intorno alla metà del X secolo » | Orsini 2011, 321 et 326 |
 | Dovico 2016 | « R (XI sec.) » (reprise de la datation ancienne) | Dovico 2016, 97 |
 | Scotti 2024 | « mid-10th century circa », sur base paléographique, d'après Orsini | Scotti 2024, 462 |
@@ -120,6 +124,7 @@ Ce que donne la paléographie :
   - Au f. 116, l'encre est noire et l'écriture plus fine ; au f. 117, l'encre est jaunâtre et l'écriture plus grosse (Martin 1882, x).
   - Ces observations ne concernent pas les ff. 162v–177r, qui suivent le changement du f. 143r. Une homogénéité est à vérifier **[image]**.
 - **Abréviations.** Le texte en emploie peu ; les compendia de ανηρ et de -ευς sont signalés comme rares (Allen 1896, 324). Les abréviations des scholies sont recensées par Martin 1882, xvi–xix.
+- **Séparation des préverbes.** « The scribe of R regularly splits up compound verbs and writes the preposition separately » : 186 ὑπὲρ ἀποκρίνηι, 504 περὶ ἤρχετ', 601 σὺν ἐξευρ', 803 παρὰ βάλλουσαι, 1175 ἐπ' ἀναφύσα, 1221 κατὰ λάβοις (Austin 1987, 79, note au v. 500 : il y voit l'origine de la corruption ὑπ' αὐγάς, pour ὑπαυγάσ'). Velsen consigne aussi ces coupes, par exemple au v. 550 : « απαξ‿ἁπασ R » (Velsen 1883, app., d'après le répertoire critique). La transcription diplomatique doit garder ces coupes et les accents qui les accompagnent.
 
 ### 3.2 Manuscrits comparables
 
@@ -148,6 +153,12 @@ Les onze pièces sont d'une seule main, sans contestation (Zacher 1888, 535 ; Al
 | Écriture | mélange de majuscule et de minuscule, axe légèrement incliné à droite, hauteur d'environ 2 mm, tracé fin, ductus rapide (Orsini 2011, 327). « spaced, upright, stiff, written with a hard pen … extreme elegance » (Allen 1896, 318) | majuscule inclinée à droite, hauteur d'environ 1,7 mm, clair-obscur un peu marqué, tracé anguleux et brisé (Orsini 2011, 327). « coarser and thicker … uncalligraphic, the letters are short, square, without tails ; usually thick, but where the writing is cramped, thin and shaky » ; minuscule « very large, sloped to the right, and fine » (Allen 1896, 320) |
 | Usages | n'accentue presque jamais les compendia (Rutherford 1896, I, xxvii) ; abréviation de ὅτι fréquente (Martin 1882, xiv) | accentue les compendia (Rutherford 1896, I, xxvii) ; ὅτι rare (Martin 1882, xiv) |
 | Mise en page | cadre fermé sur les quatre marges, lemmes, scholies séparées, signes de renvoi (Orsini 2011, 328 ; Rutherford 1896, I, xxvii) | marges extérieure et intérieure seulement ; ni lemmes ni séparations ni signes de renvoi (Orsini 2011, 328 ; Zacher 1888, 536) |
+
+Observations générales de Koster :
+- les scholies de R sont écrites « en onciales de faible dimension » (Koster 1963, 388 n. 2) ;
+- le commentaire des Cavaliers s'arrête au v. 214, exemple de la « désinvolture » des copistes envers le commentaire (Koster 1963, 390) ;
+- R n'a pas de prolégomènes (Koster 1963, 383) ;
+- les scholies métriques y sont « en général fort rares » et manquent pour les Acharniens (Koster 1963, 392).
 
 Particularités de S2 dans les *Thesmophories* :
 - Parmi les Guêpes, les *Thesmophories* et l'Assemblée, c'est la pièce la plus riche en scholies (Zacher 1888, 538).
@@ -190,7 +201,7 @@ Divergences sur ces mains :
 |---|---|---|
 | Velsen 1871 (*Lys.*, *Thesm.*) | I m. ; schol. m. ; 2 m. | I m. : le copiste lui-même. schol. m. : la main des scholies, « ersichtlich verschieden von der, welche den Text geschrieben hat, aber nicht viel später ». 2 m. : un correcteur « viel später », XVe ou XVIe s., identifié à Boninus par Schöll ; présent seulement dans ces deux pièces, « viel kleiner und mit einer viel blasseren Tinte » (Velsen 1871, 6–7) |
 | Velsen 1881 (*Ploutos*) | R², R³, R⁴ | R² : main des scholies, « fere suppar aetate primae manui ». R³ : « paullo recentior ». R⁴ : « XV fere saeculi » (préface citée par Martin 1882, xiv n. 1) |
-| Velsen 1883 (*Thesm.*) | R², R³ ; Boninus non noté | R² : main des scholies, « fere suppar ». R³ : « altera manus correctrix paullo recentior ». La troisième main, celle de Boninus (XVIe s.), n'est pas relevée : « Euphrosyni Bonini manum non adnotabo » (Velsen 1883, 5) |
+| Velsen 1883 (*Thesm.*) | R², R³ ; Boninus non noté | Préface : « scholia scripta manu diversa. Haec manus, fere suppar aetate primae manui, multis locis correctricis munere functa est (R²). Inest in codice etiam altera manus correctrix paullo recentior (R³) et tertia, Euphrosyni Bonini, XVI saeculi. Euphrosyni Bonini manum non adnotabo » (Velsen 1883, 5, avec renvoi à Velsen 1871, 28). Dans l'apparat, je ne trouve que R² : 79 occurrences pour les vv. 1–930 d'après le répertoire critique (`edition/donnees/repertoire_critique/velsen1883_*.jsonl`) ; 120 occurrences détectées automatiquement aux pp. 55–86 (vv. 794–1231) et toutes contrôlées à l'œil sur l'imprimé (`.travail/ravennas_dossier/sigles_R_60_92.png`). Aucun R³ |
 | Martin 1882 | R¹–R⁴ | R¹ : texte et scholies de S1. R² : scholies de S2. R³ : main du XIIIe s. R⁴ : main du XVe s. ; « la part que ces deux mains ont prise à la transcription des scolies est des plus faibles » (Martin 1882, xiv) |
 | Clark 1871 | — | au moins trois correcteurs : « a tremulous hand of nearly the same date as the MS. itself » ; une main à l'encre plus noire, du XIVe ou du début du XVe s., surtout dans les Nuées ; « one if not two still later in the Lysistrate and Thesmophoriazusae » (Clark 1871, 154), à l'encre rougeâtre, la seconde imitant la première (Clark 1871, 159–160) |
 | Allen 1896 | T, A, B | T : texte. A et B : les deux scholiastes, qui corrigent chacun la partie qu'ils annotent (Allen 1896, 311–322) |

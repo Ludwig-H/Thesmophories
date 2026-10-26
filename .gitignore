@@ -30,3 +30,6 @@ __pycache__/
 edition/*.pdf
 edition/essais/
 edition/images/*.jpg
+
+# découpes de travail des inventaires graphologiques (régénérables depuis les bbox des .jsonl)
+ravennas/graphologie/specimens/

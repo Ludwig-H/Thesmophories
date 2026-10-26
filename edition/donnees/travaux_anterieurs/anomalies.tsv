@@ -34,6 +34,11 @@ note_sans_appel	mineure	G0539		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.
 note_plage	mineure	G0733		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	4992	\debutNote{1150-53} après \commentaire{1150-3}
 appel_sans_note	moyenne	G0734		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5000	Commentaire C0338 (1151) : appel \marqueur{} sans \note active
 appel_double	mineure	G0744		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	5138	Commentaire C0343 (1175) : appels répétés 1,2,2,3
+apparat_numero_manuel	mineure	G0103	135		1559	Apparat A0043 (134-5) : numéro de vers « 135 » saisi en gras (\textbf) au lieu de \ligneApp ; segment découpé comme un \ligneApp
+apparat_numero_manuel	mineure	G0111	169		1775	Apparat A0048 (168-9) : numéro de vers « 169 » saisi en gras (\textbf) au lieu de \ligneApp ; segment découpé comme un \ligneApp
+apparat_numero_manuel	mineure	G0118	179		1858	Apparat A0051 (178) : numéro de vers « 179 » saisi en gras (\textbf) au lieu de \ligneApp ; segment découpé comme un \ligneApp
+apparat_numero_manuel	mineure	G0329	581		4270	Apparat A0178 (580) : numéro de vers « 581 » saisi en gras (\textbf) au lieu de \ligneApp ; segment découpé comme un \ligneApp
+apparat_numero_manuel	mineure	G0389	658		693	Apparat A0211 (657) : numéro de vers « 658 » saisi en gras (\textbf) au lieu de \ligneApp ; segment découpé comme un \ligneApp
 transposition	grave	G0001	3		533	vv. 3-4 : ordre des lignes inversé par rapport à la tradition (Hall-Geldart 4/3), sans note d'apparat — « παρὰ σοῦ πυθέσθαι ποῖ μ᾽ ἄγεις ωὖριπίδη; » / « οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλ »
 commentaire_sans_plage	info	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2976	Commentaire C0110 sans plage ni lemme (suite du commentaire précédent ?) — « Il y a cependant autre chose dans ce texte : un jeu de mots  »
 alignement_lignes	info	G0012		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4808	Groupe G0012 (v. 13b-18) : 6 ligne(s) grecque(s) numérotée(s) / 7 ligne(s) française(s) — alignement par longueurs

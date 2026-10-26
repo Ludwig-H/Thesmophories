@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Télécharge toutes les images d'un manifeste IIIF (v2 ou v3) et les assemble en un PDF
 (JPEG insérés tels quels, sans recompression).
-Usage : python3 -I iiif_vers_pdf.py MANIFESTE_URL SORTIE.pdf [--max-largeur 2000] [--threads 8] [--pages 1-50]
+Usage : python3 -I iiif_vers_pdf.py MANIFESTE_URL SORTIE.pdf [--max-largeur 2000] [--threads 8] [--pages 1-50 | 1-30,519-577]
 Les images intermédiaires sont mises en cache dans SORTIE.pdf.cache/ (supprimé à la fin si --nettoyer).
 """
 import argparse, concurrent.futures as cf, io, json, os, sys, time, urllib.request
@@ -46,9 +46,12 @@ def main():
     a = ap.parse_args()
     man = json.loads(get(a.manifest))
     cv = canvases(man)
-    if a.pages:
-        lo, hi = [int(x) for x in a.pages.split('-')]
-        cv = cv[lo-1:hi]
+    if a.pages:  # « 1-50 » ou liste « 1-30,519-577,845 » (rangs 1..n des canvases)
+        sel = []
+        for part in a.pages.split(','):
+            lo, _, hi = part.strip().partition('-')
+            sel += range(int(lo), int(hi or lo) + 1)
+        cv = [cv[i - 1] for i in sel if 1 <= i <= len(cv)]
     cache = a.out + '.cache'; os.makedirs(cache, exist_ok=True)
     def fetch(i_c):
         i, (lab, svc, direct) = i_c
