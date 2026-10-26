@@ -1,32 +1,105 @@
-%% Pages liminaires (provisoires) : titre, légende des mains et des signes.
+%% Pages liminaires : titre, principes de l'édition, légende de la transcription, sigles, personnages.
+%% Provisoires sur deux points : la liste des mains (après l'étude graphologique) et les sigles des
+%% papyri et des éditeurs (après l'établissement de l'apparat).
 \thispagestyle{empty}
-\vspace*{60mm}
+\vspace*{62mm}
 \begin{center}
-{\fontsize{30}{36}\selectfont\addfontfeature{LetterSpace=8}ARISTOPHANE}\par\vspace{9mm}
-{\fontsize{20}{26}\selectfont\itshape Les Thesmophories}\par\vspace{4mm}
-{\capsgr{\fontsize{14}{18}\selectfont ΘΕΣΜΟΦΟΡΙΑΖΟΥΣΑΙ}}\par\vspace{18mm}
-{\large Édition du \textit{Ravennas} (Ravenne, Biblioteca Classense, ms.~429),\\[1mm]
-texte établi, traduction et commentaire}\par
+{\fontsize{30}{36}\selectfont\addfontfeature{LetterSpace=10}ARISTOPHANE}\par\vspace{10mm}
+{\fontsize{21}{26}\selectfont\itshape Les Thesmophories}\par\vspace{5mm}
+{\capsgr{\fontsize{13}{17}\selectfont ΘΕΣΜΟΦΟΡΙΑΖΟΥΣΑΙ}}\par\vspace{24mm}
+{\large Le \textit{Ravennas} transcrit et figuré,\\[1.2mm]
+texte établi, traduit et commenté}\par
 \end{center}
 \clearpage
 \entetes{}{}
-\section*{Légende}
-\subsection*{Les mains du \textit{Ravennas}}
-\begin{tabular}{@{}ll@{}}
-\textcolor{mainR1}{\rule{8mm}{2mm}} & R\textsuperscript{1} : copiste du texte\\
-\textcolor{mainR1c}{\rule{8mm}{2mm}} & R\textsuperscript{1c} : corrections du copiste lui-même\\
-\textcolor{mainR2}{\rule{8mm}{2mm}} & R\textsuperscript{2} : correcteur ancien\\
-\textcolor{mainRsch}{\rule{8mm}{2mm}} & main des scholies (si distincte)\\
-\textcolor{mainRrec}{\rule{8mm}{2mm}} & main récente\\
+\thispagestyle{empty}
+\null
+\clearpage
+
+\newcommand\rubriqueLim[1]{\par\vspace{6mm}{\centering\addfontfeature{LetterSpace=12}\MakeUppercase{#1}\par}\vspace{4mm}}
+\newcommand\sousRubriqueLim[1]{\par\vspace{3mm}{\itshape #1}\par\vspace{1.5mm}}
+
+\entetes{\petcap{principes de l'édition}}{}
+\begingroup\fontsize{10.5}{14}\selectfont
+\rubriqueLim{Principes de l'édition}
+Les \textit{Thesmophories} ne nous sont parvenues que par un seul manuscrit médiéval,
+le \textit{Ravennas} (Ravenne, Biblioteca Classense, ms.~429, copié vers le milieu du
+\textsc{x}\textsuperscript{e}~siècle), dont dérivent l'\textit{editio princeps} de 1516 et
+la copie de Munich (\textit{Monacensis gr.}~492). L'édition est donc construite autour de
+lui : chaque page du manuscrit donne lieu à une unité de quatre pages au moins.
+
+\sousRubriqueLim{La double page du manuscrit}
+À gauche, la page du \textit{Ravennas} est transcrite ligne pour ligne, de la manière la
+plus diplomatique possible : orthographe, accents, esprits et ponctuation du copiste, sigles
+de personnages, paragraphoi et dicola, corrections, grattages et additions, gloses
+interlinéaires ; les scholies sont placées à la hauteur de la ligne en face de laquelle elles
+commencent. Chaque main a sa couleur. Dans le prolongement des lignes figure l'apparat
+critique : il dit, à chaque endroit où le texte établi s'écarte du manuscrit, d'où vient la
+leçon retenue. Au bas de la page : les \textit{loci paralleli}, puis le commentaire
+critique. À droite, le fac-similé de la page, aussi grand que possible, permet de contrôler
+chaque lecture.
+
+\sousRubriqueLim{La double page du texte}
+À gauche, le texte grec établi, découpé selon la structure de la pièce, avec l'indication des
+mètres et la scansion des parties chantées ; à droite, la traduction, avec les didascalies ;
+au bas des deux pages, le commentaire, qui se lit d'une colonne à l'autre à travers la double
+page. Selon l'abondance du commentaire, plusieurs doubles pages suivent la double page du
+manuscrit.
+\endgroup
+\clearpage
+
+\entetes{\petcap{transcription diplomatique}}{}
+\begingroup\fontsize{10}{13.5}\selectfont
+\rubriqueLim{Légende de la transcription diplomatique}
+\sousRubriqueLim{Les mains (couleurs provisoires, à arrêter au terme de l'étude graphologique)}
+\begin{tabular}{@{}l@{\quad}l@{}}
+\textcolor{mainR1}{\rule{9mm}{2.2mm}} & R\textsuperscript{1} : le copiste du texte\\[1mm]
+\textcolor{mainR1c}{\rule{9mm}{2.2mm}} & R\textsuperscript{1c} : corrections du copiste lui-même\\[1mm]
+\textcolor{mainR2}{\rule{9mm}{2.2mm}} & R\textsuperscript{2} : la main des scholies, correcteur ancien (\textsc{x}\textsuperscript{e}~s.)\\[1mm]
+\textcolor{mainR3}{\rule{9mm}{2.2mm}} & R\textsuperscript{3} : autre main médiévale\\[1mm]
+\textcolor{mainRrec}{\rule{9mm}{2.2mm}} & R\textsuperscript{XVI} : main du \textsc{xvi}\textsuperscript{e}~siècle (préparation de l'impression de 1516)\\[1mm]
+\textcolor{mainRmod}{\rule{9mm}{2.2mm}} & main moderne\\
 \end{tabular}
-\par\medskip
-\textit{(Légende provisoire : elle sera arrêtée au terme de l'étude graphologique.)}
-\subsection*{Signes de la transcription diplomatique}
-\begin{tabular}{@{}ll@{}}
-⟦α⟧ & lettres grattées \\
-\Dras{αβ} & lettres écrites sur grattage \\
-α̣ & lecture douteuse \\
-{[\,··\,]} & lettres illisibles \\
-κ(αί) & abréviation développée \\
+
+\sousRubriqueLim{Signes}
+{\diplofont
+\begin{tabular}{@{}l@{\quad}l@{}}
+ε\Dsupra{R2}{ι} & lettre ajoutée au-dessus de la ligne (dans la couleur de sa main)\\[1mm]
+\Dsubst[R2]{ι}{ε} & lettre corrigée ; en exposant, la lecture première\\[1mm]
+⟦α⟧ & lettres grattées\\[1mm]
+\Dras{αβ} & lettres écrites sur un grattage\\[1mm]
+\strikeThrough{αβ} & lettres biffées\\[1mm]
+α̣ & lecture douteuse\\[1mm]
+{[\,··\,]} & lettres illisibles (une par point)\\[1mm]
+κ(αί) & abréviation développée\\[1mm]
+λέξις\Dgl{λέξις}{γλῶσσα} & glose interlinéaire (au-dessus du mot)\\[1mm]
+\Dparag\hspace{6mm} & paragraphos (changement de locuteur)\\
+\end{tabular}}
+\endgroup
+\clearpage
+
+\entetes{\petcap{sigles et personnages}}{}
+\begingroup\fontsize{10}{13.5}\selectfont
+\rubriqueLim{Sigles}
+\begin{tabular}{@{}p{24mm}p{150mm}@{}}
+R & Ravenne, Biblioteca Classense, ms.~429 (olim 137,4,A), milieu du \textsc{x}\textsuperscript{e}~siècle ; R\textsuperscript{ac}, R\textsuperscript{pc} : avant, après correction\\[1mm]
+Σ & scholies du \textit{Ravennas}\\[1mm]
+M & Munich, Bayerische Staatsbibliothek, \textit{Cod. graec.}~492 (\textsc{xv}\textsuperscript{e}~siècle), copie de R\\[1mm]
+Iunt. & \textit{editio princeps}, Florence, Giunta, 28 janvier 1516, imprimée sur R\\[1mm]
+Π & papyrus (liste dans l'introduction)\\[1mm]
+Bibi & conjectures de l'auteur de la présente édition\\
 \end{tabular}
+
+\rubriqueLim{Personnages}
+\begin{tabular}{@{}ll@{\qquad}ll@{}}
+\capsgr{ΜΝ.} & Μνησίλοχος, Mnésiloque, parent d'Euripide & \capsgr{ΚΛ.} & Κλεισθένης, Clisthène\\
+\capsgr{ΕΥ.} & Εὐριπίδης, Euripide & \capsgr{ΚΡ.} & Κρίτυλλα, Critylla\\
+\capsgr{ΘΕ.} & Θεράπων, le serviteur d'Agathon & \capsgr{ΠΡ.} & Πρύτανις, un prytane\\
+\capsgr{ΑΓ.} & Ἀγάθων, Agathon & \capsgr{ΤΟ.} & Τοξότης, l'archer scythe\\
+\capsgr{ΧΟ.} & Χορός, le chœur des Thesmophoriazuses & \capsgr{ΗΧ.} & Ἠχώ, Écho\\
+\capsgr{ΚΟ.} & Κορυφαῖος, la coryphée & & \\
+\capsgr{ΜΙ.} & Μίκα, Mika, première oratrice & & \\
+\capsgr{ΣΤ.} & Στεφανόπωλις, la marchande de couronnes & & \\
+\end{tabular}
+\endgroup
 \clearpage
