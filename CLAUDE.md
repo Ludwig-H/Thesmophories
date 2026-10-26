@@ -7,7 +7,7 @@
 - **Esprit critique** : ne jamais tenir pour acquis le texte établi (ni Gemini, ni les éditions modernes, ni même les travaux antérieurs de l'auteur). Toute leçon du *Ravennas* se vérifie sur l'image.
 - **Travaux de Gemini** : `dossier_ravennas_thesmophories/` et les fichiers `latex/Aristophane-Thesmo Edition 4 pages Ravennas*.tex` (et PDF associés) ont été produits par un précédent assistant ; peu fiables, ne jamais les citer comme autorité.
 - **Exactitude des références** : toute référence (loci paralleli, testimonia, scholies, bibliographie) doit être vérifiée sur un texte source (corpus local, scan, édition). Jamais de référence inventée ; dans le doute, ne pas citer ou marquer `[à vérifier]`.
-- **Persistance** : le codespace peut redémarrer. Rien d'important dans `/tmp`. Intermédiaires régénérables : `.travail/` (ignoré). Résultats : dans le dépôt.
+- **Persistance** : le codespace redémarre souvent et `/tmp` est alors vidé : **ne jamais utiliser `/tmp`** (ni le répertoire temporaire du système) ; tout fichier intermédiaire va dans `.travail/` (persistant, ignoré par git), tout résultat dans le dépôt. Écrire ses livrables **au fil de l'eau** (pas seulement à la fin) : une tâche interrompue doit pouvoir être reprise à partir des fichiers.
 - **Git** : une seule branche, `main`. Pas de branches parasites. Les sous-agents ne committent pas (l'orchestrateur s'en charge).
 - **Langue** : documents de travail et édition en français.
 
