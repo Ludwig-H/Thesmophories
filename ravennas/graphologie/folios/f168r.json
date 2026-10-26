@@ -1,16 +1,29 @@
 {
  "folio": "f168r",
  "image": "dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/12_f168r_classense170r_vv0466-0508.jpg",
- "etat": "en cours",
+ "etat": "inventaire graphologique fait (voir f168r.jsonl et f168r.md)",
  "vers": "466-508",
- "lignes_texte": null,
- "mains": [],
+ "lignes_texte": 43,
+ "mains": [
+  "T (texte, ponctuation, tirets devant les vv. 498 et 502, correction de εἰσιὼν)",
+  "S2 (12 scholies de la marge extérieure ; gloses intérieures et supplément βοώιη probables, à encre du type de T)",
+  "correcteur ancien à encre neutre (κιν sur grattage l. 28 ; εῖ sur grattage l. 3) : S2 selon Allen et Velsen, non confirmé par l'encre",
+  "main du XVIe s. à encre rougeâtre (sigle κηδ ευ, l. 1)",
+  "moderne : graphite (marque de page b 7 de la Juntine l. 26 ; trait l. 23 ; foliotation 170)"
+ ],
  "interventions": [],
  "formes": [],
  "abreviations": [],
  "ponctuation_accentuation": {},
  "notae": [],
- "scholies": {"nombre": null, "mains": [], "remarques": "", "liste": []},
+ "scholies": {
+  "nombre": 12,
+  "mains": [
+   "S2"
+  ],
+  "remarques": "marge extérieure seulement ; 3 gloses dans la marge intérieure (ll. 7, 8, 20)",
+  "liste": []
+ },
  "etat_materiel": [],
  "pieges": []
 }

@@ -1,19 +1,26 @@
 {
  "folio": "f169v",
  "image": "dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/15_f169v_classense171v_vv0590-0634.jpg",
- "etat": "en cours",
+ "etat": "inventaire graphologique fait (voir f169v.jsonl et f169v.md)",
  "vers": "593-635",
  "lignes_texte": 43,
- "mains": [],
+ "mains": [
+  "T (texte, paragraphoi, dicola ; corrections d'accent probables ; μέντοι en marge l. 38, présumé)",
+  "S2 (9 scholies et 4 gloses ; 13 sigles : κλεισ^θ ×5, χ^ρ ×3, κη^δ, γυ^ν μία, γυ^ν, μνη^σ ×2)",
+  "main du XVIe s. à encre orangée (κλ et κη au v. 604, κλ au v. 608)",
+  "indéterminée, moderne ? (traînée gris-noir l. 30–34 ; trait gris l. 39)"
+ ],
  "interventions": [],
  "formes": [],
  "abreviations": [],
  "ponctuation_accentuation": {},
  "notae": [],
  "scholies": {
-  "nombre": null,
-  "mains": [],
-  "remarques": "",
+  "nombre": 13,
+  "mains": [
+   "S2"
+  ],
+  "remarques": "9 scholies (dont celle du v. 624, en deux parties) et 4 gloses ; toutes de S2 ; tiret initial, ÷ final, sans lemme ; mots coupés sans trait d'union",
   "liste": []
  },
  "etat_materiel": [],

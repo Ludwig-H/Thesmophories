@@ -1,9 +1,16 @@
 {
  "folio": "f170r",
  "image": "dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/16_f170r_classense172r_vv0635-0678.jpg",
- "vers": "636-677 (à vérifier)",
- "lignes_texte": null,
- "mains": [],
+ "vers": "636-677 (Hall-Geldart) = 636-678 (Velsen 1883, édition)",
+ "lignes_texte": 43,
+ "mains": [
+  "T (texte, paragraphoi, dicola, biffure l. 34, surcharge l. 36)",
+  "S2 (scholies, gloses, sigles bruns l. 2, 10, 13, 14, 16, v. 647 en marge)",
+  "encre orangée (sigles χ^ρ l. 19 et ἡμι^χ γυν^αικῶν l. 24 : S2 selon Velsen 1883 ou main du XVIe s. ? à trancher)",
+  "correcteur à l'encre neutre (ἥκει πάλιν sur grattage l. 11, aigus ajoutés sur ἐγώ l. 14 et καιρός l. 26)",
+  "main du XVIe s. (repères de la Juntine « 14 » l. 9-10, trait l. 35-36)",
+  "mains modernes (foliotations « 172 » au crayon, « 170 » à l'encre)"
+ ],
  "interventions": [],
  "formes": [],
  "abreviations": [],
@@ -16,6 +23,6 @@
   "liste": []
  },
  "pieges": [],
- "avancement": "en cours",
+ "avancement": "inventaire graphologique fait (voir f170r.jsonl et f170r.md)",
  "etat": []
 }
