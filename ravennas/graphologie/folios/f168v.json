@@ -1,10 +1,15 @@
 {
  "folio": "f168v",
  "image": "dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/13_f168v_classense170v_vv0509-0550.jpg",
- "etat": [],
+ "etat": "inventaire graphologique fait (voir f168v.jsonl et f168v.md)",
  "vers": "509-550",
- "lignes_texte": null,
- "mains": [],
+ "lignes_texte": 43,
+ "mains": [
+  "T (texte, paragraphoi, initiales agrandies, corrections l. 4, 6, 41)",
+  "S2 (scholies, χ^ρ l. 12, κη^δ l. 32, γυ^νη τίς l. 25, correction ᾠόμην l. 18)",
+  "main du XVIe s. à encre orangée (Γυνη l. 36, κηδ l. 41, retouche du sigle l. 25, traits obliques)",
+  "intervention moderne (réactif, marge extérieure)"
+ ],
  "interventions": [],
  "formes": [],
  "abreviations": [],
@@ -17,5 +22,5 @@
   "liste": []
  },
  "pieges": [],
- "etat_redaction": "en cours"
+ "etat_redaction": "inventaire fait"
 }

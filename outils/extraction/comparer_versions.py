@@ -177,6 +177,12 @@ def collecter(res: dict) -> dict:
             for t in g[cote]["testimonia"]:
                 out["testimonia"].append({"id": t["id"], "plage": t["plage"], "texte": t["texte"],
                                           "cote": cote, "groupe": g["id"]})
+                # parties commentées à l'intérieur d'une macro active (fragments réunis : une
+                # entrée peut être commentée sur plusieurs lignes)
+                if t.get("desactive_interne"):
+                    out["testimonia_desactive"].append({
+                        "plage": t["plage"], "groupe": g["id"],
+                        "texte": " ".join(x["texte"] for x in t["desactive_interne"])})
             for d in g[cote]["desactives"]:
                 t = {"commentaire": "commentaire_desactive", "note": "note_desactivee",
                      "apparat": "apparat_desactive", "testimonia": "testimonia_desactive"}.get(d["type"])
@@ -193,8 +199,21 @@ def collecter(res: dict) -> dict:
             for sgm in a["segments"]:
                 for e in sgm["entrees"]:
                     lem = e["lecons"][0]["lecon"] if e["lecons"] else ""
+                    autres = " ".join(l["texte"] for l in e["lecons"][1:])
+                    retenues = " ; ".join(l["lecon"] for l in e["lecons"] if l["retenue"])
+                    if not retenues and len(e["lecons"]) > 1 and not (e["lecons"][-1]["attribution"] or "").strip():
+                        # dernière leçon sans autorité ni \lecon : proposition de l'auteur non signée
+                        # (« … Ellebodius : (Κλεισθ.) (642-3) », nov. 2022)
+                        retenues = e["lecons"][-1]["lecon"]
                     out["apparat"].append({"id": a["id"], "vers": sgm["vers"], "debut": sgm["debut"],
-                                           "texte": e["texte"], "lemme": lem, "groupe": g["id"]})
+                                           "texte": e["texte"], "lemme": lem, "autres": autres,
+                                           "retenues": retenues, "groupe": g["id"]})
+            # entrées commentées à l'intérieur d'une macro active (« \apparat{417}{%μορμολύκεια R :
+            # \lecon{μορμολυκεῖα} Dindorf (1830) \espApp … ») : désactivées, non absentes
+            if a.get("desactive_interne"):
+                out["apparat_desactive"].append({
+                    "plage": a["plage"], "groupe": g["id"], "id": a["id"],
+                    "texte": " ".join(x["texte"] for x in a["desactive_interne"])})
         for l in g["grec"]["lignes"]:
             if l["vers"] is not None:
                 out["grec"].setdefault(l["vers"], []).append(l["texte"])
@@ -375,6 +394,11 @@ def comparer_apparat(A, R, dans_plage, res):
         if e["debut"] is not None:
             par_vers[e["debut"]].append(e)
     idx_des = Index(R["apparat_desactive"])
+    des_par_vers = defaultdict(list)
+    for x in R["apparat_desactive"]:
+        v = premier_vers(x.get("plage"))
+        if v is not None:
+            des_par_vers[v].append(x)
     idx_tout = Index(R["apparat"])
     st = Counter()
     for e in A["apparat"]:
@@ -402,6 +426,21 @@ def comparer_apparat(A, R, dans_plage, res):
             m, v = idx_tout.meilleur(e["texte"])
             if m is not None and v > sc and v >= 0.8:
                 best, sc, detail = m, v, "texte (autre vers)"
+        if sc < 0.5 and aut:
+            # notation récrite (« εἰσέφερε Rᵃᶜ : ἥ ἔφερε Rᵖᶜ (cum η supra ει scripto…) » devenu
+            # « εἰ^(η)⟦σ⟧έφερε Rᵖᶜ ») : mêmes autorités et une même leçon variante
+            var = set(mots_grecs(e.get("autres", ""), 3))
+            for c in cands:
+                if aut <= (noms_propres(c["texte"]) - {"R"}) and var & set(mots_grecs(c["texte"], 3)):
+                    best, sc, detail = c, 0.5, "autorités+variante"
+                    break
+        if sc < 0.5 and e.get("retenues"):
+            # même leçon retenue, autorités ou rédaction changées (« (Κλεισθ.) (642-3) » sans
+            # nom en 2022, signé Bibi en 2023, les autres attributions étant commentées)
+            for c in cands:
+                if c.get("retenues") and normaliser(c["retenues"]) == normaliser(e["retenues"]):
+                    best, sc, detail = c, 0.5, "leçon retenue"
+                    break
         if sc >= 0.8:
             st["conservé" if detail.startswith("texte") else CONSERVE_ABREGE] += 1
             continue
@@ -412,12 +451,39 @@ def comparer_apparat(A, R, dans_plage, res):
                                     "extrait": e["texte"][:300], "recent": best["texte"][:300]})
             continue
         md, scd = idx_des.meilleur(e["texte"])
+        if scd < 0.6:
+            # entrée désactivée et récrite (« πῶς Schol. Plat. Theag. » → « πῶς Σ Theag. ») :
+            # lemme et autorités, parmi les parties commentées des vers voisins
+            for c in (x for d in range(-2, 3) for x in des_par_vers.get((e["debut"] or -99) + d, [])):
+                v_lem = inclusion(lem, set(mots_grecs(c["texte"]))) if lem else 0.0
+                v_aut = inclusion(aut, noms_propres(c["texte"]) - {"R"}) if aut else 1.0
+                v = 0.5 * v_lem + 0.5 * v_aut if v_lem >= 0.5 else 0.0
+                if v > scd:
+                    md, scd = c, v
         if scd >= 0.6:
             st["désactivé"] += 1
             res["elements"].append({"type": "apparat", "statut": "désactivé (commenté) dans la version récente",
-                                    "plage": e["vers"], "id_ancien": e["id"], "id_recent": None,
+                                    "plage": e["vers"], "id_ancien": e["id"],
+                                    "id_recent": (md or {}).get("id"),
                                     "score": round(scd, 2), "extrait": e["texte"][:300]})
             continue
+        # information passée de l'apparat aux testimonia (« τὸ πέος Suid. λ 63, π 987 », v. 142)
+        sig = signature_test(e["texte"])
+        if len(sig) >= 3:
+            vt, mt = 0.0, None
+            for t in R["testimonia"]:
+                v0 = premier_vers(t["plage"])
+                if v0 is not None and e["debut"] is not None and abs(v0 - e["debut"]) <= 2:
+                    x = inclusion(sig, signature_test(t["texte"]))
+                    if x > vt:
+                        vt, mt = x, t
+            if vt >= 0.7:
+                st["transféré dans les testimonia"] += 1
+                res["elements"].append({"type": "apparat", "statut": "transféré dans les testimonia",
+                                        "plage": e["vers"], "id_ancien": e["id"], "id_recent": mt["id"],
+                                        "score": round(vt, 2), "extrait": e["texte"][:300],
+                                        "recent": mt["texte"][:300]})
+                continue
         statut = "absent" if dans_plage(e["vers"]) else "hors du champ de la version récente"
         st[statut] += 1
         res["elements"].append({"type": "apparat", "statut": statut, "plage": e["vers"],

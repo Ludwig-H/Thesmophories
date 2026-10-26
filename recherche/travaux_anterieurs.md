@@ -1,8 +1,8 @@
 # Travaux antérieurs de l'auteur (dossier `latex/`) — analyse et extraction
 
-> État : **version de travail** (2ᵉ reprise le 2026-10-26 après interruption). Sections 1-9 rédigées ;
-> l'extraction et la comparaison des versions sont reproductibles à l'identique (contrôlé à la reprise) ;
-> sections 10-11 en cours de rédaction.
+> État : **complet** (3ᵉ reprise, 2026-10-26). Sections 1-11 rédigées ; chiffres recalculés sur la dernière
+> extraction (reproductible à l'identique : `python3 outils/extraction/extraire_travaux.py && python3
+> outils/extraction/comparer_versions.py`).
 > Sources : `latex/Aristophane-Thesmo Harmattan 2023 vv 1-641.tex` et `… vv 642-fin-bis.tex` (version de
 > référence, dite ici « Harmattan 2023 »), versions antérieures `… nov 2022.tex` et `… Harmattan mars 2023.tex`,
 > `… Introduction.tex`, `… Annexes.tex`, `… Index.tex`. Les fichiers « Edition 4 pages Ravennas » (Gemini) sont
@@ -58,7 +58,7 @@ chaque côté, sans écart.
 | Types de vers (grec / français) | `\trimIamb`, `\trimIambCat`, `\tetramIamb`, `\tetramIambCat`, `\tetramTroch`, `\tetramAnap`, `\dimAnap`, `\anap`, `\diDoch`, `\chantAgath`, `\chantChoeur`, `\paratragiques`, `\prose` et leurs doublets `…Fr` | indentation (`\hangindent`) propre à chaque mètre ; l'argument contient les vers séparés par `\\` |
 | Métrique | `\typeVers{…}` (marge gauche), `\cat` (catalexe), `\decoupeVers{a|b|chiffres}` (aujourd'hui vide ; ancien `\linenumannotation`) | analyse métrique colon par colon dans les parties lyriques |
 | Personnages | `\personnageGrec{…}`, `\personnageFr{…}` (`\ledleftnote`), `\strophe{…}`, `\Strophe{…}` | locuteur en marge ; étiquettes strophe/antistrophe/mésode/pnigos |
-| Numérotation | `\ligne{n}` = `\setline{n}\hidenumbering`, `\passeLigne` = `\skipnumbering`, `\fin` (rejet : saut de ligne non compté + `[`), `\linenumberlist{…}` (numéros imprimés) | voir § 3.3 |
+| Numérotation | `\ligne{n}` = `\setline{n}\hidenumbering`, `\passeLigne` = `\skipnumbering`, `\fin` (rejet : saut de ligne non compté + `[`), `\linenumberlist{…}` (numéros imprimés) | voir § 2.3 |
 | Antilabè | `\decalage{texte}` (espace de la largeur du texte), `\decalageN` | seconde moitié de vers décalée |
 | Apparat critique | `\apparat{vers}{…}` (`\ledrightnote` : minipage en marge droite), `\lecon{…}` (leçon retenue, gras), `\ligneApp{n}` (vers suivant), `\espApp` (entrée suivante) | apparat **positif** : R : leçon retenue + autorité |
 | Commentaire | `\commentaire{plage}{lemme}{texte}` (`\Bfootnote`), `\citComm{…}` (citation en retrait), `\marqueur{n}` (appel) | commentaire continu en bas de page |
@@ -81,7 +81,10 @@ chaque côté, sans écart.
 - `outils/extraction/extraire_travaux.py` : extraction des deux fichiers Harmattan 2023 (enchaînés),
   numérotation, alignement grec/français, contrôles ; écrit `edition/donnees/travaux_anterieurs/`.
 - `outils/extraction/comparer_versions.py` : extraction des versions nov 2022 et mars 2023 avec le même
-  analyseur, comparaison avec Harmattan 2023.
+  analyseur, comparaison avec Harmattan 2023 (chaque élément ancien reçoit un statut : conservé, remanié,
+  désactivé, transféré, absent… ; les parties commentées `%` à l'intérieur d'une macro restée active sont
+  prises en compte, § 10).
+- `outils/extraction/sources_citees.py` : comptage des sources citées (§ 8).
 
 Commande : `python3 outils/extraction/extraire_travaux.py && python3 outils/extraction/comparer_versions.py`
 (≈ 15 s). Le nom réel de l'auteur est lu dans `\author{}` et masqué dans toutes les sorties (contrôle bloquant).
@@ -90,14 +93,14 @@ Commande : `python3 outils/extraction/extraire_travaux.py && python3 outils/extr
 
 | Fichier | Contenu |
 |---|---|
-| `thesmo.json` | 777 groupes : ordre, étiquette `%% v.`, vers couverts, personnages, types de vers et mètres, en-têtes, strophes, lignes grecques (vers, partie, texte brut et LaTeX, n° reledmac, méthode d'attribution, vers HG), apparat (brut, découpé par vers, entrées, leçons, leçon retenue), testimonia, commentaires (plage, lemme, LaTeX, texte, appels `\marqueur`, notes rattachées avec numéro, passages commentés internes), notes orphelines, macros désactivées ; côté français : lignes par vers, didascalies, testimonia ; + `statistiques` et `anomalies` |
+| `thesmo.json` | 777 groupes : ordre, étiquette `%% v.`, vers couverts, personnages, types de vers et mètres, en-têtes, strophes, lignes grecques (vers, partie, texte brut et LaTeX, n° reledmac, méthode d'attribution, vers HG), apparat (brut, découpé par vers, entrées, leçons, leçon retenue), testimonia, commentaires (plage, lemme, LaTeX, texte, appels `\marqueur`, notes rattachées avec numéro), parties commentées (`%`) internes aux commentaires, notes, apparats et testimonia (`desactive_interne`), notes orphelines, macros désactivées ; côté français : lignes par vers, didascalies, testimonia ; + `statistiques` (dont répartition par type de vers et par personnage) et `anomalies` |
 | `texte_grec.tsv` | une ligne par vers ou partie de vers : `vers, partie, vers_fin, personnage, texte, groupe, type, metre, n_reledmac, vers_HG, methode_vers, fichier, ligne_source` |
 | `traduction.tsv` | idem pour la traduction (`didascalies`, méthode d'appariement) |
 | `apparat.tsv` | une ligne par segment d'apparat (vers) : texte, leçon(s) retenue(s), drapeau `Bibi`, LaTeX |
 | `commentaires.tsv` | `id, plage, lemme, longueur, premier_vers, dernier_vers, notes, groupe, cote, fichier, ligne_source` |
 | `testimonia.tsv` | testimonia actifs et désactivés, des deux côtés |
-| `anomalies.tsv` | rapport de vérification (§ 12) |
-| `comparaison_versions.json/.tsv` | § 11 |
+| `anomalies.tsv` | rapport de vérification (§ 11) |
+| `comparaison_versions.json/.tsv` | comparaison des versions (§ 10) |
 
 ### 2.3 Numérotation des vers : méthode
 
@@ -118,6 +121,9 @@ La numérotation imprimée par reledmac n'est pas lisible directement dans la so
    écarts regroupés en séries de décalage constant ; HG ne prévaut jamais seul contre un numéro explicite de
    l'auteur (HG a lui-même ses lacunes et ses vers « a », et diverge de la numérotation moderne, par ex. à
    1014-1018 : la monodie d'Andromède commence au v. 1015 chez l'auteur comme dans l'usage, au v. 1016 chez HG).
+   La numérotation de l'auteur est celle de l'usage moderne : contrôle sur l'OCT de N. G. Wilson (2007, scan
+   local, numéros seulement) aux repères 372-380, 724-726, 1015-1019, 1025-1030, 1080-1085, 1135-1145, 1155 et
+   1160, où l'auteur et Wilson concordent et où HG diffère (§ 11.2).
 
 Résultat : 1 400 lignes grecques numérotées, 1 208 numéros de vers distincts de 1 à 1231 ; 6 étiquettes de
 groupe seulement (sur 777) restent en désaccord avec le numéro attribué, toutes des étiquettes périmées
@@ -128,8 +134,12 @@ groupe seulement (sur 777) restent en désaccord avec le numéro attribué, tout
 Appariement groupe à groupe (777/777) puis ligne à ligne : identité du nombre de lignes dans 764 groupes ;
 pour les 13 autres, alignement par programmation dynamique sur les longueurs (fusions 2:1, 1:2, 3:1 ;
 didascalie isolée rattachée au vers précédent). Méthode tracée dans `traduction.tsv` (`methode_vers`).
-Limite connue : aux vv. 3-4 le grec est transposé (§ 12) mais la traduction suit l'ordre traditionnel : la
-traduction de 3 et 4 est donc croisée dans `traduction.tsv`.
+Cas particulier : aux vv. 3-4, le grec est imprimé dans l'ordre 4-3 (§ 11.1) alors que la traduction suit
+l'ordre usuel ; l'appariement se fait sur l'ordre usuel (« Y a-t-il moyen, avant que perdre tout de bon la
+rate » = v. 3, οἷόν τε…), ce que signale `methode_vers`. Contrôle global : les 1 400 lignes grecques et
+les 1 407 lignes françaises sont toutes rattachées à un vers ; chaque vers grec a sa traduction (quatre
+lignes françaises valent deux vers : 59-60, 295-296, 309-310, 836-837) ; tout groupe pourvu d'un nom de
+personnage côté grec l'a aussi côté français, sauf deux (vv. 663-666, § 11.1).
 
 ## 3. Statistiques (Harmattan 2023)
 
@@ -137,17 +147,17 @@ traduction de 3 et 4 est donc croisée dans `traduction.tsv`.
 |---|---:|
 | Groupes (de chaque côté) | 777 (375 + 402) |
 | Lignes grecques / françaises | 1 400 / 1 407 |
-| Vers distincts numérotés | 1 208 (1-1231 ; vv. 23 et 500 supprimés ; autres lacunes = conventions de numérotation, § 12) |
-| Répartition des lignes grecques | trimètres 884 ; parties chorales `\chantChoeur` 181 ; anapestes 86 + dimètres 37 + tétramètres 35 ; tétramètres iambiques catalectiques 52 ; trochaïques 31 ; monodie paratragique 40 ; chant d'Agathon 30 ; prose (prière 295-311) 16 ; dochmiaques 4 |
-| Locuteurs (lignes) | Mnésiloque 418, Chœur 236, Euripide 229, Mika 123, Coryphée 96, Agathon 80, Archer scythe 71, Clisthène 42, Critylla 35, Serviteur 25, Coryphée-prêtresse 16, Marchande de couronnes 16, Prytane 9 |
+| Vers distincts numérotés | 1 208 (1-1231) ; 1 220 numéros couverts (lignes valant deux numéros comprises) ; 11 numéros absents : vv. 23 et 500 supprimés, 9 conventions de numérotation (§ 11.2) |
+| Répartition des lignes grecques | trimètres 884 (+ 1 catalectique) ; parties chorales `\chantChoeur` 181 (+ 1 saisie par erreur avec `\chantChoeurFr`, v. 330) ; anapestes 86 + dimètres 37 + tétramètres 35 ; tétramètres iambiques catalectiques 52 (+ 2 acatalectes) ; trochaïques 31 ; monodie paratragique 40 ; chant d'Agathon 30 ; prose (prière 295-311) 16 ; dochmiaques 4 |
+| Locuteurs (lignes) | Mnésiloque 418, Chœur 236, Euripide 229 (Écho comprise), Mika 123, Coryphée 96, Agathon 80, Archer scythe 71, Clisthène 42, Critylla 35, Serviteur 25, Coryphée-prêtresse 16, Marchande de couronnes 16, Prytane 9, second Coryphée 4 |
 | Commentaires | 357 (181 dans le premier fichier, 176 dans le second ; 356 côté grec, 1 côté français) — 335 689 caractères ; médiane 439 ; plus longs : 455-6 (15 449 c.), 101-29 (6 079), 1031 (5 563), 291 (5 500), 1174 (5 395), 643, 738, 556-7, 1059, 839 |
 | Notes de commentaire | 541 (130 900 caractères) |
-| Apparat | 425 macros, 531 segments (un par vers), 628 entrées, 1 341 leçons ; 529 vers pourvus d'apparat |
-| Leçons signées « Bibi » (actives) | 42 (§ 6) |
+| Apparat | 425 macros, 536 segments (un par vers), 629 entrées, 1 345 leçons ; 532 vers pourvus d'apparat ; 36 macros contiennent en outre des entrées commentées (`%`, 59 fragments) |
+| Leçons signées « Bibi » (actives) | 42 (§ 5) |
 | Testimonia actifs | 244 (71 côté grec, 173 côté français) ; 175 testimonia désactivés |
 | Vers couverts par au moins un commentaire | 854 |
-| Didascalies repérées dans la traduction | 60 |
-| Macros désactivées (lignes `%`) | 175 testimonia, 79 apparats, 60 commentaires, 145 notes |
+| Didascalies repérées dans la traduction | 63 (indications entre parenthèses) |
+| Macros désactivées (lignes `%`) | 175 testimonia, 79 apparats, 60 commentaires, 145 notes (+ 15 `\debutNote`, 3 noms de personnages) |
 
 ## 4. Conspectus siglorum de l'auteur
 
@@ -158,29 +168,32 @@ D'après `Introduction.tex` (« Témoins de la pièce ») et les macros :
 | R | *Ravennas*, codex gr. 429 de la Biblioteca Classense, Xᵉ s. — avec R^ac, R^pc, R² (main correctrice), « in mg. », « supra lin. » |
 | M | *Monacensis*, codex gr. 492 de la BSB, copie du *Ravennas*, XVᵉ s. |
 | PSI-1194 | *PSI* XI 1194 : vv. 145-156 ; 237-245 ; 273-288 ; 594-596 ; 804-809 ; 1231 (et 133-144, *PSI* XIV p. XV), IIᵉ s. |
-| POxy-3839 | *P. Oxy.* LVI 3839 : vv. 742-766 (fr. 1) ; 941-953 (fr. 2), *c.* 200 |
+| POxy-3839 | *P. Oxy.* LVI 3839 : vv. 742-766 (fr. 1) ; 941-953 (fr. 2), *c.* 200 — *sic* : le fr. 2 contient les vv. 941-956 (voir `recherche/papyrus.md`) |
 | POxy-3840 | *P. Oxy.* LVI 3840 : vv. 1185-1193, IVᵉ s. |
 | POxy-4935 | *P. Oxy.* LXXIII 4935 : vv. 1043-1051 (fr. 1) ; 1201-1210 (fr. 2), IIᵉ s. |
 | POxy-1176 | *P. Oxy.* IX 1176 (Satyros, *Vie d'Euripide*), fr. 39 col. XII : vv. 335-337 ; 373-375, IIᵉ s. |
 | Suid. | *Souda* (éd. Adler), Xᵉ s. |
 | Σ | scholies (Σ¹, Σ², Σ^T, Σ^bT…) ; « ed. Iuntina » ; « Divus » (traduction latine) |
 
-Critiques et éditeurs nommés dans l'apparat (attributions, occurrences) : Brunck 49, Bentley 45, Biset 33,
-Zanetti 24, Dindorf 23, Scaliger 22, Grynaeus 21 (+ 3 graphies fautives), Hermann 21, Ellebodius 16, Küster 16,
-Meineke 13, Fritzsche 13, Bothe 13, Dobree 12, Enger 11, Austin 10, Porson 10, Bergk 9, Willems 8, Burges 8,
-Daubuz 8, Faber 8, Elmsley 7, von Velsen 7, Cobet 7, Gelenius 5, Wilamowitz 5, Rogers 5, Blaydes 5,
-van Herwerden 5, Boissonade 4, Reiske 4, Bonini 4, Thiersch 4, Sommerstein 4, Casaubon 4, Kaibel 3,
-van Leeuwen 3, Reisig 3, puis (≤ 2) Tyrwhitt, Bourdin, Voss, Hirschig, Jackson, Denniston, Valckenaer, Nauck,
-Markland, Wecklein, Schöne, Nietzsche, Dover, Toup, Medaglia, Hunt, Kappeyne, Dawes, Bekker, Schaefer, Handley,
-Richards, Hamaker, Lobeck, Kaye, Maas, Lenting, Grégoire, Musgrave (écrit « Mugrave »), Olson, Taillardat…
-(liste complète par `apparat.tsv`).
+Critiques et éditeurs nommés dans l'apparat (attributions, occurrences ; `statistiques.apparat_classement`
+de `thesmo.json`) : Brunck 49, Bentley 45, Biset 33 (+ 1 « Bizet »), Zanetti 24, Dindorf 23, Scaliger 22,
+Grynaeus 21 (+ 2 « Gryaneus », « Gryaneaus »), Hermann 21, Ellebodius 16, Küster 16, Meineke 13, Fritzsche 13,
+Bothe 13, Dobree 12, Enger 11, Austin 10 (dont 1 « Austin & Olson »), Porson 10, Bergk 9, Willems 8, Burges 8,
+Daubuz 8 (+ 1 « Daubruz »), Faber 8, Elmsley 7, von Velsen 7 (dont 1 « van Velsen »), Cobet 7, Gelenius 5,
+Wilamowitz 5, Rogers 5, Blaydes 5, van Herwerden 5, Boissonade 4, Reiske 4, Bonini 4, van Leeuwen 4,
+Thiersch 4, Sommerstein 4, Casaubon 4, Kaibel 3, Reisig 3, puis (≤ 2) Tyrwhitt, Bourdin, Voss, Hirschig,
+Jackson, Denniston, Hall–Geldart, Valckenaer, Nauck, Markland, Wecklein, Schöne, Nietzsche, Dover, Toup,
+Medaglia, Hunt, Kappeyne, Dawes, Bekker, Schaefer, Handley, Beer, Richards, Hamaker, Lobeck, Kaye, Maas,
+Lenting, Grégoire, Rau, Musgrave (écrit « Mugrave »), Coulon, Bachmann, Taillardat… (liste complète par
+`apparat.tsv`). Les « anonymus Parisinus » et « anonymus Romanus », la Juntine (« ed. pr. », « ed.
+Iuntina ») et « edd. plerique / omnes » complètent les autorités.
 
 ## 5. Conjectures signées « Bibi »
 
 ### 5.1 Vue d'ensemble
 
 L'apparat de 2023 contient **42 leçons actives signées « Bibi »**, réparties sur 41 segments (vers) de
-36 macros `\apparat` (requête : colonne `Bibi` de `apparat.tsv`). Toutes sont imprimées dans le texte
+37 macros `\apparat` (requête : colonne `Bibi` de `apparat.tsv`). Toutes sont imprimées dans le texte
 sauf une (v. 1069, proposée mais non adoptée). Par nature :
 
 | Nature | Nombre | Vers |
@@ -211,8 +224,10 @@ des gloses (Latte, Hansen–Cunningham) reste à contrôler sur ces éditions.
 
 ### 5.2 Liste complète (état 2023), avec la justification de l'auteur résumée
 
-Abréviations : « nov. 2022 » = état de la version de novembre 2022 (et de l'« Index des corrections
-proposées », qui reflète cet état) ; « nouv. 2023 » = absente de nov. 2022, présente dès mars 2023.
+Abréviations : « nov. 2022 » = état de la version de novembre 2022 (que reflète aussi, pour les leçons
+qu'il recense, l'« Index des corrections proposées », § 5.4) ; « nouv. 2023 » = absente de nov. 2022,
+présente dès mars 2023 (pour les vv. 1-946, la version de mars 2023 contient déjà toutes les leçons
+« Bibi » de 2023).
 Les justifications se lisent dans le commentaire du vers indiqué (`commentaires.tsv`).
 
 **Émendations et relectures**
@@ -363,9 +378,13 @@ Eustathe, *Il.* 976.13 σφῇσιν (comm. 643) ; Hipponax fr. 30 Masson / 42 D
 papyrus ; rangé par erreur sous Aristophane dans l'Index) ἄ[ργυρον (comm. 839) ; *Lys.* 104 et 114 attribués à la même femme (comm. 643) ; *Thesm.* 743,
 répartition des répliques d'après P. Oxy. 3839 (τρικότυλον; ἢ πῶς. — εἰπέ μοι· τί μ' ἠργάσω;).
 
-L'Index (fichier `Index.tex`) reflète l'état de novembre 2022 : il ignore les leçons nouvelles de 2023
-(vv. 100, 162, 264, 289, 477, 642-3, 895, 1090-1092, 1153, 1198) et donne encore πραῖνοι, δίκανον,
-θάλικα, ἐγκύμων, διπλὰ et Χελιδών.
+L'« Index des corrections proposées » (fichier `Index.tex`, 32 entrées pour les *Thesmophories*) est
+antérieur à la version de 2023 : il donne encore les leçons de novembre 2022 (Χελιδών, ἀγαθῶν; au seul
+v. 31, πραῖνοι, δίκανον, θάλικα, ἐγκύμων, διπλὰ), ignore les leçons nouvelles de 2023 (vv. 30 Ἁγάθων,
+162, 264, 289, 642-3, 895), et omet aussi neuf leçons déjà présentes en novembre 2022 (vv. 100, 477,
+1069, 1090, 1091, 1092, 1153, 1198, 1215) ; il contient en revanche trois entrées qui ne sont pas des
+leçons « Bibi » de l'apparat (743, répartition d'après P. Oxy. 3839 ; 1197, συμβήνην R maintenu ;
+Σ 1174, τὸ ἄκρως βαδίζειν « ap. Zonaras »).
 
 ## 6. Principes d'établissement du texte
 
@@ -378,17 +397,20 @@ d'Aristophane. *Urtext* avec commentaire, traduction, apparats (critique & témo
 dans le commentaire (vv. 80, 822-3 : « l'*Urtext* — comportait certainement au vers 822 le terme
 κανοῦν ») et dans l'Index des gloses d'Hésychius « qui ont servi au rétablissement de l'*Urtext* ».
 R est « notre unique source pour la version complète » ; M (Monacensis gr. 492) est traité comme une
-copie de R, utile pour ses corrections (64 mentions, 35 leçons retenues) ; les papyrus (PSI 1194,
-P. Oxy. 3839, 3840, 4935, 1176) apparaissent 23 fois ; la tradition indirecte est très présente (Souda
-89 mentions, scholies 53, Hésychius et Photius 11).
+copie de R, utile pour ses corrections (≈ 70 mentions dans l'apparat, 37 leçons retenues) ; les papyrus
+(PSI 1194, P. Oxy. 3839, 3840, 4935, 1176) apparaissent dans 23 entrées ; la tradition indirecte est très
+présente (occurrences dans l'apparat : Souda 89, scholies 53 — « Σ » ou « Schol. » —, Hésychius 7,
+Photius 4).
 
 **2. Un apparat positif, un segment par vers.** Forme constante : leçon de R, deux-points, leçon
-retenue en gras (`\lecon`) suivie de son autorité, autres conjectures. Sur 628 entrées, 584 marquent
-une leçon retenue : 350 adoptent la correction d'un critique nommé (Brunck 34, Bentley 34, Biset 26,
-Dindorf 19, Zanetti 19, Scaliger 17, Grynaeus 15, Küster 15, Ellebodius 12, Meineke 9…, soit surtout
-les éditions de la Renaissance et la critique des XVIIIᵉ-XIXᵉ s.), 106 conservent R contre une ou
-plusieurs conjectures citées, 52 suivent la tradition indirecte ou un papyrus, 35 M, 41 « Bibi » ; 44
-entrées sont purement descriptives (corrections de R, ajouts marginaux, sigles de personnages). Les
+retenue en gras (`\lecon`) suivie de son autorité, autres conjectures. Sur 629 entrées, 585 marquent
+une leçon retenue (classement heuristique par l'autorité de la leçon retenue,
+`statistiques.apparat_classement`) : 342 adoptent la correction d'un critique nommé (Brunck 34,
+Bentley 32, Biset 25, Zanetti 19, Dindorf 18, Scaliger 17, Grynaeus 15, Küster 14, Ellebodius 12,
+Meineke 9…, soit surtout les éditions de la Renaissance et la critique des XVIIIᵉ-XIXᵉ s.), 107
+conservent R contre une ou plusieurs conjectures citées, 58 suivent la tradition indirecte ou un
+papyrus, 37 M, 41 « Bibi » ; 44 entrées sont purement descriptives (corrections de R, ajouts
+marginaux, sigles de personnages). Les
 attributions fines aux premières éditions (Zanetti, Grynaeus, Gelenius, Divus…) supposent un appui sur
 les apparats modernes (Prato, Austin–Olson, Wilson), que l'auteur ne cite pas comme tels.
 
@@ -433,8 +455,9 @@ l'origine des déformations moqueuses. Une lacune est notée avec son schéma m�
 note d'apparat) ; deux vers sont supprimés et exclus du texte numéroté (v. 23, del. Willems ; v. 500,
 del. van Herwerden) ; deux répliques sont suppléées (v. 1093, Bibi ; v. 1094 οὐ καιρήσεις, Brunck ap. Σ).
 
-**8. Numérotation.** Celle de la vulgate (Hall–Geldart), avec des écarts locaux dans les parties
-lyriques, où l'auteur numérote d'après sa propre colométrie au moyen de `\ligne{n}` (§ 2.3 et § 11).
+**8. Numérotation.** Celle de l'usage moderne (contrôlée sur Wilson 2007, § 2.3), non celle de Hall–Geldart, dont elle
+s'écarte dans plusieurs parties lyriques et aux vv. 372-379 ; dans les parties lyriques, l'auteur suit sa
+propre colométrie et recale sa numérotation au moyen de `\ligne{n}` (§ 2.3 et § 11.2).
 
 ## 7. Style et ton du commentaire
 
@@ -450,7 +473,7 @@ images et proverbes (v. 19 : *nec aures me credo habere nec tango*). Le dépouil
 | Axe | Indicateurs (Harmattan 2023) |
 |---|---|
 | Hésychius | cité dans 41 articles (74 occurrences dans le commentaire et ses notes, 49 références « lettre + numéro », 46 gloses distinctes), 73 fois dans les testimonia ; 10 des 42 leçons « Bibi » reposent sur lui (§ 5) ; Index des gloses d'Hésychius : 18 entrées ; « le plus utile des lexicographes pour les *Thesmophories* », « ce bon vieil Hésychius ne nous ayant jamais trahi » |
-| Langue proverbiale | « proverbe/proverbial » dans 29 articles (94 occurrences, pour moitié dans les notes) ; Érasme, *Adages*, dans 21 articles (41 occurrences, presque toutes en note) ; parémiographes (Zénobius 8 articles, Apostolius 8, Diogénien 4, Macarius 2, *Corpus Paroemiographorum* 6) ; Tosi 7 ; Index des allusions proverbiales : 38 entrées ; 106 passages latins balisés `\latin` |
+| Langue proverbiale | « proverbe/proverbial » dans 29 articles (93 occurrences, pour moitié dans les notes) ; Érasme, *Adages*, dans 21 articles (41 occurrences, presque toutes en note) ; parémiographes (Zénobius 8 articles, Apostolius 8, Diogénien 4, Macarius 2, *Corpus Paroemiographorum* 6) ; Tosi 7 ; Index des allusions proverbiales : 38 entrées ; 106 passages latins balisés `\latin` |
 | Images | J. Taillardat, *Les images d'Aristophane*, dans 44 articles (61 occurrences) ; méthode des « matrices métaphoriques » appliquée à l'établissement du texte (vv. 704, 1069) |
 | Modèle | Alphonse Willems dans 89 articles (126 occurrences, plus 8 dans l'apparat) : « Lisez Willems ! aucune excuse » ; ses notes sur les *Thesmophories* sont reproduites en annexe et la traduction française de l'auteur est, selon l'Annexe, « la quasi-intégralité » celle de Willems retouchée |
 
@@ -460,7 +483,7 @@ images et proverbes (v. 19 : *nec aures me credo habere nec tango*). Le dépouil
 200 ; le plus long, 455-6, « Dossier sur la mère d'Euripide, la vendeuse d'herbes », atteint 15 449
 caractères hors notes et traite aussi du scandix et de *Cav.* 19-20), dont 176
 pourvus de notes (541 notes numérotées par article, appelées par `\marqueur`). 344 citations en bloc
-(`\citComm`), le grec presque toujours suivi d'une traduction française ; 13,7 % des lettres du
+(`\citComm`), le grec presque toujours suivi d'une traduction française ; 13,6 % des lettres du
 commentaire sont grecques. Un article type : lemme grec ; énoncé du problème (« Le vers pèche contre le
 mètre », « La répartition des répliques de ce passage fluctue d'une édition à l'autre ») ; revue des
 corrections antérieures ; témoin décisif (glose d'Hésychius, scholie mal comprise, proverbe) ;
@@ -471,8 +494,9 @@ pointe finale.
 
 - **Énonciation.** Alternance du « je » (≈ 200 occurrences) et du « nous » d'auteur (≈ 250, plus
   ≈ 145 « notre/nos ») ; une fois « je [Bibi] » et « N.D.É. » (note 3 au v. 721-5) ; 28 adresses au
-  « lecteur ». Ton oral : 210 points d'exclamation, 205 points d'interrogation, 195 points de
-  suspension.
+  « lecteur ». Ton oral : 210 points d'exclamation, 205 points d'interrogation, ≈ 190 points de
+  suspension (sans compter 35 « .. », presque toujours après un point d'exclamation ou d'interrogation :
+  « !.. », « ?.. »).
 - **Érudition enjouée.** Jeux de mots français (le coureur « dé-raté », v. 3 ; « (Re-)prends ton habit
   Grégoire ! », v. 910), pastiches de comptines et de chansons (v. 557), Brassens, La Fontaine,
   Molière, Villon, Rabelais ; anecdotes contemporaines (Félix Faure, v. 446 ; la « carte de crédit »
@@ -574,7 +598,7 @@ auteurs cités » et un « Index général » sont commentés (ébauches vides).
 |---|---:|---|
 | Allusions proverbiales | 38 | 30 pour les *Thesmophories*, 8 pour d'autres pièces ; renvoi liminaire à la liste des proverbes de Platon dressée par Jowett |
 | Gloses d'Hésychius utiles pour l'établissement et la compréhension du texte | 18 | 14 pour les *Thesmophories*, 1 *Cav.*, 1 *Ois.*, 2 Eur. fr. 228 |
-| Corrections proposées | 41 | état de novembre 2022 (voir § 5.3-5.4) |
+| Corrections proposées | 41 | 32 pour les *Thesmophories* ; état antérieur à 2023, incomplet même pour nov. 2022 (§ 5.4) |
 | Passages davantage explicités | 60 | dont les grands dossiers (chant d'Agathon, monodie d'Andromède, chant ibycéen 1136-59, 1197-1216) |
 
 ## 10. Comparaison des versions

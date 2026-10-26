@@ -1,13 +1,18 @@
 {
  "folio": "f174r",
  "image": "dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/24_f174r_classense176r_vv0959-1000.jpg",
- "statut": "en cours",
+ "statut": "inventaire graphologique fait (voir f174r.jsonl et f174r.md)",
  "vers": [
   959,
-  1000
+  1001
  ],
- "lignes_texte": null,
- "mains": [],
+ "lignes_texte": 43,
+ "mains": [
+  "T (texte ; corrections grave → aigu l. 9, 13, 16 et τ de αἰτρίαν selon Velsen 1883)",
+  "S2 (scholies, gloses ; accents ajoutés selon Velsen 1883)",
+  "encre orangée de main indécise (sigle τοξ(ότης) l. 43)",
+  "crayon (marques de la Juntine « 11 » l. 6, croix l. 31-32 ; foliotation « 176 »)"
+ ],
  "interventions": [],
  "formes": [],
  "abreviations": [],

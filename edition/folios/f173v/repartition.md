@@ -8,6 +8,17 @@ l. 2877–3206). Règles : `edition/CONVENTIONS.md` § 3 et § 7. Articles criti
 scindé ; **8 PIÈCE** conservés. `critique.tex` compte 2 articles `\cc`, `commentaire.tex` 9 articles `\comm`.
 Compilation : `./edition/compiler_folio.sh f173v` — OK.
 
+**Reprise** (2026-10-26, seconde passe, sans nouveau déplacement) : `critique.tex` et `commentaire.tex` relus
+contre la conversion initiale (révision 478170c) et contre la source. `outils/controle/repartition_commentaire.py
+f173v` ne trouve que les changements décrits ci-dessous : 15 mots disparus, soit les 14 formes fautives des
+13 coquilles corrigées (dont le n' de « n'en n'est ») et le « 1 » de `\marqueur{1}` ; 14 ajoutés, soit les 12
+formes corrigées, « j' » et le « structure » du renvoi (« notre » → « mon » porte sur des mots que le script ne
+compte pas). Recompilation OK (7 pages). Un seul `Overfull \hbox` (9,7 pt), dans 949–52
+(« L'on trouvera… *Recueil Milliet* d'Adolphe »), qui existait déjà dans le livre complet : question de mise
+en page, pas de texte. Renvois internes contrôlés : comm. 738 (f171r), comm. 558–9 (f169r), critique 742–66
+(f171r) ; *Paix* 906 et *Ach.* 854 vérifiés dans le corpus local (Hall–Geldart). Deux passages ajoutés à la
+liste des passages signalés (943–56, annexe ; 949–52, « fût »).
+
 ## Articles
 
 | n° | Plage | Lemme (abrégé) | Classement | Action |
@@ -106,11 +117,19 @@ Compilation : `./edition/compiler_folio.sh f173v` — OK.
 - **943–56** (critique) : la plage de l'article ne couvre pas tout le fragment : P.Oxy. 3839 fr. 2 porte les
   vv. **941-956** (`recherche/papyrus.md`, d'après Cockle ; « 941-953 » dans l'Introduction et les Annexes de
   l'auteur, sigle `\PsiDeux`). Plage non modifiée.
+- **943–56** (critique) : « Le lecteur le trouvera néanmoins reproduit en annexe » renvoie à l'annexe du livre de
+  2023 (`latex/Aristophane-Thesmo Annexes.tex`, l. 1030–1073 : photographie du papyrus et pages de l'édition de
+  Cockle, « fr. 2 vers 941-953 »). La nouvelle édition n'a pas d'annexe pour l'instant, et ces pages de P.Oxy. LVI
+  sont sous droits. Il faudra garder ou adapter ce renvoi selon les annexes retenues (même remarque aux
+  folios f164r, f165r, f170r et f170v). Non modifié.
 - **945** : « Hésychius (κ 4170 et 4270) » ne cite que κρόκαλον· τὸ πανοῦργον παιδίον ; κ 4270 est sans doute
   κρωκαλέον· παιδίον πανοῦργον (Hsch., cité par LSJ s.v.) — numéros non contrôlés sur Latte–Cunningham.
 - **949–52** : « au vers **853** des *Acharniens* » : οὐδ᾽ αὖθις αὖ σε σκώψεται / Παύσων ὁ παμπόνηρος est le
   v. **854** chez Hall–Geldart (Perseus), dans les scholies de Dübner et chez LSJ. Non modifié [à vérifier sur
   l'édition de référence].
+- **949–52** : « seuls les commentateurs indiquent que Pauson **fût** peintre » : on attend l'indicatif (« fut »)
+  après « indiquent que ». Le « fût » de la phrase suivante (« Il paraît douteux que ce Pauson-là […] fût le peintre »)
+  est, lui, correct. Il s'agit d'une faute de grammaire, non de frappe : non modifié.
 
 ### Passages marqués en orange (`\eff`) dans la source
 

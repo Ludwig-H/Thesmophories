@@ -6,6 +6,7 @@ note_sans_appel	mineure	G0103		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	15
 appel_double	mineure	G0110		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	1685	Commentaire C0055 (161-3) : appels répétés 1,2,2,3,3,4,5,6,7,8,9,10
 appel_sans_note	moyenne	G0175		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2339	Commentaire C0083 (248) : appel \marqueur{} sans \note active
 note_sans_appel	mineure	G0175		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2339	Commentaire C0083 (248) : \note{1} sans appel \marqueur correspondant
+macro_francaise_cote_grec	mineure	G0230		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2826	Ligne grecque saisie avec la macro française \chantChoeurFr (indentation du français) — « εὐγενεῖς γυναῖκες. »
 note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2971	\note{1} sans \debutNote préalable
 note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2972	\note{2} sans \debutNote préalable
 note_sans_debutNote	mineure	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2973	\note{3} sans \debutNote préalable
@@ -128,6 +129,7 @@ alignement_lignes	info	G0481		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.t
 alignement_lignes	info	G0494		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6263	Groupe G0494 (v. 869-870) : 2 ligne(s) grecque(s) numérotée(s) / 3 ligne(s) française(s) — alignement par longueurs
 etiquette_differente	info	G0525		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex		Groupe G0525 : étiquette grecque « v. 913-915 » / française « v. 912-916a »
 alignement_lignes	info	G0744		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7509	Groupe G0744 (v. 1172-1175) : 4 ligne(s) grecque(s) numérotée(s) / 5 ligne(s) française(s) — alignement par longueurs
+coquille_traduction	mineure	G0774		Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7701	Didascalie « (ll court vers l'entrée de l'orchestre.) » : « ll » pour « Il »
 numero_corrige	info	G0087	113		1475	v. 113 : corrigé : \ligne{112} répète un numéro ; HG indique 113 (n° reledmac 112) — « γέρας ἱερὸν προφέρων. »
 numero_corrige	info	G0090	117		1488	v. 117 : corrigé : \ligne{116} contredit par l'apparat de l'auteur et HG (n° reledmac 116) — « ἕπομαι κλῄζουσα σεμνὰν »
 numero_corrige	info	G0092	119		1496	v. 119 : corrigé : \ligne{118} répète un numéro ; HG indique 119 (n° reledmac 118) — « Ἄρτεμιν ἀπειρολεχῆ. »
@@ -172,13 +174,13 @@ etiquette_vers	mineure	G0398	668		744	Groupe G0398 : étiquette « v. 663-666 »
 etiquette_vers	mineure	G0430	712		1140	Groupe G0430 : étiquette « v. 710 » mais première ligne numérotée 712 — « οἷον δράσας διέδυς ἔργον· »
 etiquette_vers	mineure	G0526	916		2862	Groupe G0526 : étiquette « v. 912-916a » mais première ligne numérotée 916a — « λαβὼν ταχὺ πάνυ. »
 vers_supprime	info	G0015	23		681	v. 23 supprimé par l'auteur (apparat : leçon retenue « del. »)
-numero_saut	info		298			v. 298 absent de la numérotation de l'auteur (absent aussi de Hall-Geldart)
-numero_saut	info		308			v. 308 absent de la numérotation de l'auteur (absent aussi de Hall-Geldart)
+numero_saut	info	G0210	298		2723	v. 298 absent de la numérotation de l'auteur (absent aussi de Hall-Geldart)
+numero_saut	info	G0210	308		2734	v. 308 absent de la numérotation de l'auteur (absent aussi de Hall-Geldart)
 vers_supprime	info		500			v. 500 supprimé par l'auteur (apparat : leçon retenue « del. »)
-numero_saut	moyenne		723			v. 723 absent de la numérotation de l'auteur
-numero_saut	moyenne		1018			v. 1018 absent de la numérotation de l'auteur
-numero_saut	moyenne		1028			v. 1028 absent de la numérotation de l'auteur
-numero_saut	moyenne		1082			v. 1082 absent de la numérotation de l'auteur
-numero_saut	moyenne		1138			v. 1138 absent de la numérotation de l'auteur
-numero_saut	moyenne		1143			v. 1143 absent de la numérotation de l'auteur
-numero_saut	info		1158			v. 1158 absent de la numérotation de l'auteur (absent aussi de Hall-Geldart)
+numero_saut	info	G0438	723		1195	v. 723 absent de la numérotation de l'auteur : saut explicite (\ligne{724} sur « τάχα δὲ μεταβαλοῦσ᾽ ἐπὶ κακὸν  ») après le v. 722 (« καὶ γὰρ ἀνταμειψόμεσθά σ᾽ ὥσπε ») ; numérotation recalée par l'auteur (colométrie différente de celle de Hall-Geldart)
+numero_saut	info	G0607	1018		3502	v. 1018 absent de la numérotation de l'auteur : saut explicite (\ligne{1019} sur « κλύεις; ὦ προσᾴδουσ' ἀϋτὰς ἐν  ») après le v. 1017 (« τὸν Σκύθην λάθοιμι; ») ; numérotation recalée par l'auteur (colométrie différente de celle de Hall-Geldart)
+numero_saut	info	G0615	1028		3544	v. 1028 absent de la numérotation de l'auteur : saut explicite (\ligne{1029} sur « ἄφιλον ἐκρέμασε κόραξι δεῖπνον ») après le v. 1026 (« ὅδε γὰρ ὁ Σκύθης φύλαξ πάλαι ἐ ») ; numérotation recalée par l'auteur (colométrie différente de celle de Hall-Geldart)
+numero_saut	info	G0671	1082		4566	v. 1082 absent de la numérotation de l'auteur : saut explicite (\ligne{1083} sur « οὖτος τί λαλῖς; ») après le v. 1081 (« †ὀτότυζ᾽†. ») ; numérotation recalée par l'auteur (colométrie différente de celle de Hall-Geldart)
+numero_saut	info	G0723	1138		4936	v. 1138 absent de la numérotation de l'auteur : saut explicite (\ligne{1139} sur « παρθένον ἄζυγα κούρην, ») après le v. 1137 (« δεῦρο καλεῖν νόμος εἰς χορόν, ») ; numérotation recalée par l'auteur (colométrie différente de celle de Hall-Geldart)
+numero_saut	info	G0727	1143		4952	v. 1143 absent de la numérotation de l'auteur : saut explicite (\ligne{1144} sur « φάνηθ᾽ ὦ τυράννους στυγοῦσ᾽ ὥσ ») après le v. 1142 (« κλῃδοῦχός τε καλεῖται. ») ; numérotation recalée par l'auteur (colométrie différente de celle de Hall-Geldart)
+numero_saut	info	G0739	1158		5022	v. 1158 absent de la numérotation de l'auteur (absent aussi de Hall-Geldart)

@@ -1093,7 +1093,7 @@ vers	partie	vers_fin	personnage	texte	didascalies	groupe	methode_vers	fichier	li
 965			Chœur	il s'abuse.		G0554	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6597
 966			Chœur	Mais d'abord il convient,		G0555	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6601
 967			Chœur	c'est la règle,		G0556	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6605
-968			Chœur	de procéder aux figures élégantes de la danse cyclique. (Danse.)		G0557	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6609
+968			Chœur	de procéder aux figures élégantes de la danse cyclique. (Danse.)	Danse.	G0557	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6609
 969			Chœur	Pars du pied en célébrant le dieu à la belle lyre		G0558	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6613
 970			Chœur	et Artémis armée de l'arc, la chaste souveraine.		G0559	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6617
 971			Chœur	Salut, dieu tutélaire,		G0560	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	6621
@@ -1383,7 +1383,7 @@ vers	partie	vers_fin	personnage	texte	didascalies	groupe	methode_vers	fichier	li
 1211			Archer	et pas méchante... gentille! Où est la vieille ?		G0768	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7661
 1212			Archer	Ah ! je suis perdu! Où s'est éclipsé le vieillard ?		G0768	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7662
 1213	a		Archer	Ah! petite vieille, petite vieille ! Ce n'est pas bien, petite vieille.		G0768	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7663
-1213	b		Archer	(Appelant.) Artamouxia !		G0768	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7664
+1213	b		Archer	(Appelant.) Artamouxia !	Appelant.	G0768	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7664
 1214			Archer	Elle m'a trompé, la vieille. (La danseuse s'esquive.) Va-t'en au plus vite, toi.	La danseuse s'esquive.	G0768	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7665
 1215			Archer	(Reprenant sa lance :) La lance est droite, je descends.	Reprenant sa lance :	G0768	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7666
 1216	a		Archer	Ah ! que vais-je faire ? Où est la petite vieille ?		G0768	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7667
@@ -1396,7 +1396,7 @@ vers	partie	vers_fin	personnage	texte	didascalies	groupe	methode_vers	fichier	li
 1220	b		Coryphée	Tout juste.		G0773	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7694
 1221			Coryphée	Tu peux encore les rattraper en tirant de ce côté. (Indiquant une autre direction.)	Indiquant une autre direction.	G0773	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7695
 1222	a		Archer	Ô la vieille canaille! Par quel chemin prendre ?		G0774	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7700
-1222	b		Archer	Artamouxia ! (ll court vers l'entrée de l'orchestre.)		G0774	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7701
+1222	b		Archer	Artamouxia ! (ll court vers l'entrée de l'orchestre.)	ll court vers l'entrée de l'orchestre.	G0774	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7701
 1223			Coryphée	Monte tout droit. Où cours-tu ?		G0775	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7706
 1224			Coryphée	Veux-tu bien revenir ici ? Tu cours à contresens.		G0775	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7707
 1225			Archer	Malheureux !... Mais je me sauve. Artamouxia !		G0776	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	7712

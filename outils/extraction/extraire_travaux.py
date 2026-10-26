@@ -349,15 +349,27 @@ class Extracteur:
         return res
 
     # -- annotations ----------------------------------------------------------
-    def comm_desactives(self, debut_actif: int, fin_actif: int) -> list:
-        """Lignes commentées (%) comprises dans un intervalle du texte actif."""
+    def comm_desactives(self, debut_actif: int, fin_actif: int, convertir: bool = False) -> list:
+        """Parties commentées (%) comprises dans un intervalle du texte actif (une macro).
+
+        L'intervalle s'arrête juste après le dernier caractère actif de la macro (son accolade
+        fermante) : un commentaire placé après elle sur la même ligne (`}%\\testimonia{…}`)
+        n'en fait pas partie. Avec `convertir`, le LaTeX commenté est aussi converti en texte
+        (`texte`), le source étant gardé dans `latex` (apparat, testimonia)."""
         a = self.src.orig_de_actif(debut_actif)
-        b = self.src.orig_de_actif(fin_actif)
+        b = self.src.orig_de_actif(max(debut_actif, fin_actif - 1)) + 1
         res = []
         for c in self.src.commentaires_entre(a, b):
             txt = c.texte.strip()
             if txt and not re.fullmatch(r"[%\s]*", txt):
-                res.append({"ligne": self.src.ligne_orig(c.debut), "texte": c.texte})
+                d = {"ligne": self.src.ligne_orig(c.debut), "texte": c.texte}
+                if convertir:
+                    d["latex"] = c.texte
+                    try:
+                        d["texte"] = normaliser_blancs(self.conv.texte(self.an.analyser(c.texte)))
+                    except Exception:  # accolades déséquilibrées dans un fragment commenté
+                        d["texte"] = normaliser_blancs(re.sub(r"\\[A-Za-z]+|[{}]", " ", c.texte))
+                res.append(d)
         return res
 
     def annotation(self, typ, nd, ancre):
@@ -368,10 +380,14 @@ class Extracteur:
             d["latex"] = self.latex(args[1]) if len(args) > 1 else ""
             d["texte"] = self.texte(args[1]) if len(args) > 1 else ""
             d["segments"] = self.segments_apparat(d["plage"], args[1] if len(args) > 1 else [])
+            # entrées commentées à l'intérieur d'une macro active (« \apparat{417}{%μορμολύκεια
+            # R : … \espApp » : l'entrée est désactivée, la macro reste)
+            d["desactive_interne"] = self.comm_desactives(nd.debut, nd.fin, convertir=True)
         elif typ == "testimonia":
             d["plage"] = self.texte(args[0]) if args else ""
             d["latex"] = self.latex(args[1]) if len(args) > 1 else ""
             d["texte"] = self.texte(args[1]) if len(args) > 1 else ""
+            d["desactive_interne"] = self.comm_desactives(nd.debut, nd.fin, convertir=True)
         elif typ == "commentaire":
             d["plage"] = self.texte(args[0]) if args else ""
             d["lemme_latex"] = self.latex(args[1]) if len(args) > 1 else ""
@@ -1254,8 +1270,10 @@ def didascalies(txt: str) -> list:
     res = []
     for m in re.finditer(r"\(([^()]{3,})\)", txt):
         s = m.group(1).strip()
-        if s[:1].isupper() and not re.match(r"^(?:v\.|vv\.|cf\.|sic)", s) \
-                and not s.isdigit() and len(s.split()) >= 2:
+        # majuscule initiale ; « ll » = coquille de l'auteur pour « Il » (v. 1222b) ; un seul
+        # mot s'il est ponctué comme une phrase (« (Danse.) », « (Appelant.) »)
+        if (s[:1].isupper() or s.startswith("ll ")) and not re.match(r"^(?:v\.|vv\.|cf\.|sic)", s) \
+                and not s.isdigit() and (len(s.split()) >= 2 or s[-1:] in ".:!"):
             res.append(s)
     return res
 
@@ -1366,6 +1384,11 @@ def extraire(depot: str, sortie: str | None, fichiers=None, ecrire=True):
             L["sq"] = grec_squelette(L["texte"])
             L["etiquette"] = G["etiquette"]
             L["ordre_groupe"] = gi
+            if (lb.type_vers or "").endswith("Fr"):
+                anomalie("macro_francaise_cote_grec", "mineure",
+                         "Ligne grecque saisie avec la macro française \\%s (indentation du "
+                         "français) — « %s »" % (lb.type_vers, L["texte"][:60]), groupe=gid,
+                         fichier=ex.nom, ligne=L["ligne_source"])
             lignes.append(L)
             lb._L = L
         # annotations (après avoir les lignes, pour les ancres)
@@ -1518,6 +1541,11 @@ def extraire(depot: str, sortie: str | None, fichiers=None, ecrire=True):
                  "type": lb.type_vers, "personnage": normaliser_personnage(lb.personnage),
                  "ligne_source": ex.ligne_src(lb.debut), "fin_par": lb.fin_par,
                  "rejet": lb.rejet, "didascalies": didascalies(txt), "groupe": gid}
+            for s in F["didascalies"]:
+                if s.startswith("ll "):
+                    anomalie("coquille_traduction", "mineure",
+                             "Didascalie « (%s) » : « ll » pour « Il »" % s, groupe=gid,
+                             fichier=gj["fichier"], ligne=F["ligne_source"])
             lignes_fr.append(F)
             for typ, nd in lb.annotations:
                 d = ex.annotation(typ, nd, lb.n_reledmac)
@@ -1688,9 +1716,24 @@ def extraire(depot: str, sortie: str | None, fichiers=None, ecrire=True):
                          % (n, L["vers"], " ; absent aussi de Hall-Geldart" if hg_absent else ""),
                          groupe=L["groupe"], vers=n, ligne=L["ligne_source"])
             else:
-                anomalie("numero_saut", "info" if hg_absent else "moyenne",
-                         "v. %d absent de la numérotation de l'auteur%s" % (
-                             n, " (absent aussi de Hall-Geldart)" if hg_absent else ""), vers=n)
+                suiv = next((x for x in numerotees if x["vers"] > n), None)
+                prec = next((x for x in reversed(numerotees) if x["vers"] < n), None)
+                if hg_absent:
+                    detail = " (absent aussi de Hall-Geldart)"
+                elif suiv is not None and suiv["vers"] in (suiv.get("lignes_expl") or []):
+                    # saut voulu : \ligne{n+1} explicite ; dans les parties lyriques, l'auteur recale
+                    # sa colométrie sur la numérotation usuelle (une ligne voisine vaut deux numéros)
+                    detail = (" : saut explicite (\\ligne{%d} sur « %s ») après le v. %d (« %s ») ; "
+                              "numérotation recalée par l'auteur (colométrie différente de celle de "
+                              "Hall-Geldart)"
+                              % (suiv["vers"], suiv["texte"][:30], prec["vers"] if prec else 0,
+                                 prec["texte"][:30] if prec else ""))
+                else:
+                    detail = ""
+                anomalie("numero_saut", "info" if (hg_absent or detail) else "moyenne",
+                         "v. %d absent de la numérotation de l'auteur%s" % (n, detail), vers=n,
+                         groupe=suiv["groupe"] if suiv else None,
+                         ligne=suiv["ligne_source"] if suiv else None)
 
     # -- 6. sérialisation ----------------------------------------------------------------
     sortie_groupes = []
@@ -1880,6 +1923,26 @@ def statistiques(groupes, anomalies):
             if l["vers"] is not None:
                 couverts.update(range(l["vers"], (l.get("vers_fin") or l["vers"]) + 1))
     entrees = [e for a in apps for sg in a["segments"] for e in sg["entrees"]]
+    vers_app, vers_comm = set(), set()
+    for a in apps:
+        for sg in a["segments"]:
+            if sg["debut"] is not None:
+                vers_app.update(range(sg["debut"], (sg["fin"] or sg["debut"]) + 1))
+    for c in comms:
+        if c.get("debut") is not None:
+            vers_comm.update(range(c["debut"], (c.get("fin") or c["debut"]) + 1))
+    longueurs = sorted(c["longueur"] for c in comms)
+    supplements = {
+        "vers_avec_apparat": len(vers_app),
+        "vers_commentes": len(vers_comm),
+        "commentaires_avec_notes": sum(1 for c in comms if c["notes"]),
+        "caracteres_notes": sum(len(n.get("texte", "")) for c in comms for n in c["notes"]),
+        "longueur_mediane_commentaire": longueurs[len(longueurs) // 2] if longueurs else 0,
+        "didascalies": sum(len(l.get("didascalies") or []) for g in groupes for l in g["francais"]["lignes"]),
+        "lignes_grecques_par_type": dict(Counter(l["type"] for g in groupes for l in g["grec"]["lignes"]).most_common()),
+        "lignes_grecques_par_personnage": dict(Counter(l["personnage"] for g in groupes
+                                                       for l in g["grec"]["lignes"]).most_common()),
+    }
     return {
         "groupes": len(groupes), "lignes_grecques": nl_g, "lignes_francaises": nl_f,
         "vers_distincts": len(vers), "numeros_couverts": len(couverts),
@@ -1892,12 +1955,13 @@ def statistiques(groupes, anomalies):
         "apparat_entrees": len(entrees),
         "apparat_lecons": sum(len(e["lecons"]) for e in entrees),
         "apparat_classement": classer_apparat(entrees),
+        **supplements,
         "anomalies": dict(Counter(a["code"] for a in anomalies)),
     }
 
 
 RE_APP_INDIRECTE = re.compile(r"Suid|Σ|Schol|Hesych|Phot|Pollux|PSI|POxy|Eust|Greg|Stob|Moeris|Zonar|Etym|"
-                              r"Harp|Antiatt|cod\. Laur|Ael")
+                              r"Harp|Antiatt|cod\. Laur|Ael|Gellius|Plut\.|(?<!ad )Eur\. |(?<!ad )Hel\.\d")
 RE_APP_R = re.compile(r"(?:^|[\s,⟧)])R(?![A-Za-z])")
 RE_APP_M = re.compile(r"(?:^|[\s,)])M(?![A-Za-z])|Μυ2")
 RE_APP_NOM = re.compile(r"(?:van |von )?[A-ZÀ-Ý][a-zà-ÿ]+(?:(?: & |-)[A-Z][a-z]+)?|edd?\.(?: pr\.| omn(?:es)?\.?| pler(?:ique)?\.?)?")
@@ -1911,7 +1975,7 @@ NON_CRITIQUES = {"Suid", "Schol", "Hesych", "Hesychius", "Phot", "Photius", "Pol
 
 
 def classer_apparat(entrees: list) -> dict:
-    """Classement heuristique des entrées d'apparat selon l'autorité de la leçon retenue
+    r"""Classement heuristique des entrées d'apparat selon l'autorité de la leçon retenue
     (\lecon) : Bibi ; R conservé (R, R², Rᵖᶜ) ; tradition indirecte ou papyrus ; M ; critique
     nommé (ou « edd. ») ; entrées sans leçon retenue (descriptives : corrections de R, sigles de
     personnages…). Compte aussi les critiques nommés dans tout l'apparat."""

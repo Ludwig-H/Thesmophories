@@ -1,6 +1,6 @@
 # Ressources documentaires locales (`.sources/drive/`) — synthèse par usage
 
-> **État : en cours de rédaction** (2026-10-26, reprise). Sections 0 à 8 rédigées ; en cours : § 9 (fichiers non récupérés), intégration des fichiers arrivés après la première passe (Hésychius, Érasme), levée de quelques [à vérifier].
+> **État** (26 octobre 2026, seconde reprise) : document complet (§ 0 à 9). Les fichiers locaux ont été recontrôlés le 26 au soir : aucun nouveau fichier depuis la reprise précédente (les derniers arrivés, Hésychius et Érasme, sont intégrés au § 4), aucun fichier altéré en dehors du cas signalé au § 8.3. Restent ouverts, faute d'accès aux fichiers eux-mêmes, les points marqués [à vérifier] ou [à identifier] (une douzaine, surtout au § 9.2).
 
 ## 0. Conventions
 
@@ -36,7 +36,7 @@ Aucun manuel de paléographie de référence n'est disponible localement (voir �
 
 ### 3.1 Éditions critiques et textes de référence
 
-- **N. G. Wilson, *Aristophanis fabulae*, Oxford (OCT), 2007**, 2 t. — t. I : `D/editions/Wilson I*.pdf` (435 p. ; = `D/ravennas/Wilson_2007_OCT_I.pdf`) ; t. II : `D/editions/Wilson II Aristophanis*.pdf` (328 p. ; = `D/thesmophories/Wilson_2007_OCT_II.pdf`) [I] (les `.txt` voisins sont vides). *Thesmophories* : t. II, p. 66-124 (p. PDF 68-126) ; conspectus p. PDF 70 (papyrus : PSI 1194 = Π13, P.Oxy. 1176 = Π50, P.Oxy. 3839 = Π14, P.Oxy. 3840 = Π68 ; codex : R ; apographe cité : Mu2 = Monacensis gr. 492). Extrait des p. 48-138 : `AR/Wilson II pp 50-140*(z-lib.org).pdf` [I] et version océrisée `D/editions/Wilson II pp 50-140*ocred 2 greek.pdf` [T-] (*Thesm.* = p. PDF 19-77 ; grec très fautif, utilisable seulement pour repérer une page).
+- **N. G. Wilson, *Aristophanis fabulae*, Oxford (OCT), 2007**, 2 t. — t. I : `D/editions/Wilson I*.pdf` (435 p. ; = `D/ravennas/Wilson_2007_OCT_I.pdf`) ; t. II : `D/editions/Wilson II Aristophanis*.pdf` (328 p. ; = `D/thesmophories/Wilson_2007_OCT_II.pdf`) [I] (les `.txt` voisins sont vides). *Thesmophories* : t. II, p. 66-124 (p. PDF 68-126) ; conspectus p. PDF 70 (papyrus : PSI 1194 = Π13, P.Oxy. 1176 = Π50, P.Oxy. 3839 = Π14, P.Oxy. 3840 = Π68 ; codex : R ; apographe cité : Mu2 = Monacensis gr. 492). Extrait des p. 48-138 : `AR/Wilson II pp 50-140*.pdf` [I] et version océrisée `D/editions/Wilson II pp 50-140*ocred 2 greek.pdf` [T-] (*Thesm.* = p. PDF 19-77 ; grec très fautif, utilisable seulement pour repérer une page).
 - **V. Coulon (texte) et H. van Daele (trad.), *Aristophane*, t. IV : *Les Thesmophories. Les Grenouilles*, Paris, CUF, 1928** (5e tirage 1962). — Pages grecques seules : `AR/Œuvres complètes/Gec_seulement_Les Thesmophories*.pdf` [T-] (*Thesm.* = p. PDF 1-60, hypothesis comprise ; *Grenouilles* p. PDF 61-133 ; errata p. PDF 134 ; OCR aux accents fautifs). Extrait textuel : `D/ravennas/Coulon_1928_Thesm_Grenouilles_textrep.txt` [X] (page de titre, sigla, notice p. 9-13, hypothesis, texte et traduction des p. 17-48, soit jusque vers le v. 780).
 - **A. von Velsen, *Aristophanis Thesmophoriazusae*, Leipzig, Teubner, 1883.** — Trois numérisations : `TH/Aristophanis_Thesmophoriazusae Von Velsen 1883.pdf` (97 p.), `TH/Aristophanis_Thesmophoriazusae_von Velsen.pdf` (101 p.), `TH/Von Velsen Aristophanis_Thesmophoriazusae.pdf` (37 vues : autre impression de la même édition, compacte, 28 p. à deux colonnes, sans page de titre ni préface ; la description des sigles R, R² et G, donnée ailleurs dans la préface, ouvre ici l'apparat de la p. 1 ; date non indiquée) [T-]. Apparat double (*adnotatio critica*, *scripturae discrepantia*) fondé sur une collation de R : première source à consulter pour les leçons et corrections de R avant vérification sur l'image.
 - **J. Fr. Boissonade (éd.), *Aristophanes*, t. III (*Poetarum Graecorum sylloge*, t. XXIII), Paris, Lefèvre, 1826** : *Thesmophories*, *Lysistrata*, *Grenouilles*. — `TH/Boissonade comoediaethesmo00boisgoog.pdf` [I] (341 p.). Texte et brèves notes (Austin 1990 en cite une, v. 1059).
@@ -73,7 +73,7 @@ Classées dans l'ordre des vers.
 - **vv. 497-501** — R. Cowan, « Nothing to do with Phaedra ? Aristophanes, *Thesmophoriazusae* 497-501 », *CQ* 58 (2008), p. 315-320. — `AR/thesmophories 497-501.pdf` [T] (même article dans `AR/Nothing_to_do_with_Phaedra_Aristophanes.pdf`, sans la page de garde de l'éditeur).
 - **v. 638** — E. Degani, « Ar. *Thesm.* 638 », *Eikasmos* 7 (1996), p. 119 sqq. **Attention** : le fichier `AR/Eikasmos VII Deganis Ar Thesm 638.pdf` [I] ne contient pas cette note, mais la couverture, le sommaire et l'article de F. Citti sur Horace (p. 261 sqq.) ; la note de Degani reste à trouver.
 - **vv. 855-857** — A. Y. Campbell, « Aristophanes *Thesmophoriazusae* 855-7 and Euripides *Helena* 1-3 », *Classical Review* 63 (1949), p. 81-83. — `AR/thesmophories 855*.pdf` [T].
-- **v. 910 (et v. 1187b)** — A. Hartwig, « Interpretative Notes on Aristophanes' *Thesmophoriazusae* », *Philologus* 152 (2008), p. 49-64 (défend notamment l'authenticité du v. 1187b). — `AR/thesmophor 910.pdf` [T]. J. Méndez Dosuna, « Menelaus' Thriving Shrub of Lavender and his Double-Edged Sword : Aristophanes, *Thesmophoriazusae* 910 and *Lysistrata* 156 », *Philologus* 160 (2016), p. 163-171. — `AR/thesm 910.pdf` [T].
+- **v. 910 (et v. 1187b)** — A. Hartwig, « Interpretive Notes on Aristophanes' *Thesmophoriazusae* », *Philologus* 152 (2008), p. 49-64 (défend notamment l'authenticité du v. 1187b). — `AR/thesmophor 910.pdf` [T]. J. Méndez Dosuna, « Menelaus' Thriving Shrub of Lavender and his Double-Edged Sword : Aristophanes, *Thesmophoriazusae* 910 and *Lysistrata* 156 », *Philologus* 160 (2016), p. 163-171. — `AR/thesm 910.pdf` [T].
 - **v. 942** — A. Hartwig, « Feasting and Flattering the Crows : A Reinterpretation of Aristophanes, *Thesmophoriazusae* 942 », *Mnemosyne* 62 (2009), p. 90-93. — `AR/thesmophories 942*.pdf` [T].
 - **v. 986** — R. E. Wycherley, « *Thesmophoriazusae* 986 », *Classical Review* n.s. 9 (1959), p. 205-206. — `AR/thesmophories 986 wycherley1959.pdf` (= `AR/thesmophories 986 s0009840x00173159.pdf`) [T].
 - Notes de l'auteur sur des passages des *Thesmophories* (articles parus dans *Λύχνος* et ailleurs) : § 8.2.
@@ -143,7 +143,7 @@ La plupart des grands instruments (Souda, Pollux, Athénée, Stobée, Eustathe, 
 - **Cl. Rolley, « À propos d'un vase et de quelques injures (*Assemblée des femmes*, v. 1101-1111) »**, *L'Antiquité classique* 43 (1974), p. 166-171. — `AR/Sur le lecythe Claude Rolley.pdf` [T].
 - **Cl. Rolley**, communication sur la fin du *Ploutos* (« Les marmites sur la tête ») résumée dans les « Actes de l'Association », *REG* 79 (1966), p. IX-XXVI : rapproche *Thesm.* 740 sqq. (l'outre « sacrifiée ») des gestes du sacrifice éleusinien du porcelet. — `TH/thesmophories 740 sacrifice*.pdf` [T].
 - **E. Harris, J.-M. Carbon, « The Documents in Sokolowski's *Lois sacrées des cités grecques* (LSCG) »**, *Kernos* 28 (2015). — `F/Grec/Dictionnaires/Lois sacrées des cités grecques/kernos-2373.pdf` [T]. Concordance des lois sacrées (règlements de fêtes).
-- **A. Zucker, « Album mythique des coquillages voyageurs. De l'écume au labyrinthe »**, *Techniques & Culture* 59 (2012). — `AR/conque coquillage sexe.pdf` [T].
+- **A. Zucker, « Album mythique des coquillages voyageurs. De l'écume au labyrinthe »**, *Techniques & Culture* 59 (2012), p. 110-125. — `AR/conque coquillage sexe.pdf` [T].
 
 ## 5. Métrique et structure
 
@@ -189,7 +189,7 @@ Les ouvrages de base (Koster, *Traité de métrique grecque*, 2e éd. ; White, *
 - **E. Bobrick, « Iphigeneia Revisited : *Thesmophoriazusae* 1160-1225 »**, *Arethusa* 24 (1991), p. 67-76. — `TH/IPHIGENEIA REVISITED*.pdf` [T].
 - **A. Clements, « *Thesmophoriazusae*'s Two Dawns »**, *Mnemosyne* 62 (2009), p. 535-547. — `TH/Chelidon Ashley Clements*.pdf` [T]. Vv. 1-2 (χελιδών).
 - **I. Fletcher, « Aristophanes' *Thesmophoriazusae* (1-176) »**, *Arion* 2.3 (1963), p. 78-85. — `AR/thesmophories 1-176.pdf` [T].
-- **O. M. Freidenberg, « Folklore in Aristophanes : *Thesmophoriazusae* »**, *Soviet Studies in Literature* (1991). — `AR/folklore thesmophories*.pdf` [T].
+- **O. M. Freidenberg, « Folklore in Aristophanes : *Thesmophoriazusae* »**, *Soviet Studies in Literature* 27, 3 (1991), p. 50-60. — `AR/folklore thesmophories*.pdf` [T].
 - **A. Giacomoni, « Rito e trasgressione erotica : Aristoph. *Thesm.* 466 ss. »**, *QUCC* n.s. 63 (1999), p. 91-95. — `TH/thesm 466 sq giacomoni1999.pdf` [T].
 - **I. C. Storey, « The "Blameless Shield" of Kleonymos »**, *RhM* 132 (1989), p. 247-261. — `F/thesm v 605 Cleonyme Storey.pdf` [T]. Kléonymos chez Aristophane (*Thesm.* 605).
 - **M. Valdés Guía, « Fêtes de citoyennes, délibération et justice féminine sur l'Aréopage (Athènes, Ve siècle avant J.-C.) »**, *Clio. Femmes, genre, histoire* 45 (2017), p. 279-307. — `TH/areopage *.pdf` [T]. Dimension politique de la fête.
@@ -201,7 +201,7 @@ Les ouvrages de base (Koster, *Traité de métrique grecque*, 2e éd. ; White, *
 ### 7.3 Aristophane, la comédie et son contexte
 
 - ***Le théâtre grec antique : la comédie*** (Cahiers de la Villa Kérylos 10, Paris, 2000) : Chr. Hunzinger, « Aristophane, lecteur d'Euripide », p. 99-110, `AR/Aristophane lecteur d'Euripide7.pdf` [T] ; J. Jouanna, « Maladies et médecine chez Aristophane », p. 171-195, `AR/jouanna maladie*.pdf` [T] ; Carrière (§ 4.4) et Moutsopoulos (§ 5).
-- **D. Soleil, « Les mots d'Aristophane et les mots d'Hippocrate : encore une fois sur le vocabulaire médical d'Aristophane »**, *Lucida intervalla* (Belgrade) 40, p. 31-48 [année à vérifier]. — `AR/Les_mots_dAristophane*.pdf` [T].
+- **D. Soleil, « Les mots d'Aristophane et les mots d'Hippocrate : encore une fois sur le vocabulaire médical d'Aristophane »**, *Lucida intervalla* (Belgrade) 40 (2011), p. 31-48. — `AR/Les_mots_dAristophane*.pdf` [T].
 - **P. Thiercy, « L'ὕβρις chez Aristophane »**, *Kentron* 23 (2007), p. 179-191. — `AR/kentron-1754.pdf` [T].
 - **G. Jay-Robert, « Fonction des dieux chez Aristophane. Exemple de Zeus, d'Hermès et de Dionysos »**, *REA* 104 (2002), p. 11-24. — `AR/rea_0035-2004_2002_*.pdf` [T].
 - **S. Byl, « Φροντιστήριον as Μυστήριον »**, *Kernos* 17 (2004). — `AR/kernos-1477.pdf` [T].
@@ -298,4 +298,193 @@ Notes philologiques tirées du travail d'édition (sources `.tex`, `.odt`, `.doc
 
 ## 9. Fichiers non récupérés et manques
 
-*(à compléter)*
+Les fichiers retenus pour l'édition lors de l'inventaire préparatoire (472 : 428 « essentiels » et 44 « utiles ») n'ont pas tous pu être copiés localement. La limite de l'outil de copie est en principe de 10 Mo par fichier ; en pratique, aucun fichier de plus de 6,3 Mo n'a été obtenu (le plus lourd des fichiers présents pèse 6 302 740 octets), de sorte que les fichiers de 6,3 à 10 Mo manquent aussi. Les fichiers de plus de 200 Mio avaient été écartés dès l'inventaire (§ 9.4).
+
+- **Conventions de ce paragraphe.** Tailles en Mo (10⁶ octets). « (B) » : fichier classé « utile » et non « essentiel ». Substituts : `ED/` = `.sources/web/editions/` (voir `recherche/bibliographie_editions.md`) ; `W/` = `.sources/web/` ; « corpus » = index plein texte de `.sources/corpus/`, interrogeable par `outils/corpus/chercher.py` (voir `recherche/corpus_numeriques.md`) ; un substitut est une autre édition ou un autre exemplaire, à contrôler avant toute citation.
+- **Liste de travail.** La correspondance avec les noms et emplacements d'origine des fichiers est tenue dans `.travail/drive_synthese/etat2_absents.tsv` (non versionné ; régénéré par `etat2.py`, même dossier ; tableaux ci-dessous produits par `section9.py`).
+
+### 9.1 Bilan
+
+- **189 fichiers manquent** sur 472 (4,86 Go) : 130 de plus de 10 Mo ; 19 entre 6,3 et 10 Mo ; 40 plus légers, à savoir 39 PDF compilés des versions de l'auteur (§ 9.3) et une version HTML océrisée de l'extrait de Wilson (raison de l'échec inconnue).
+- **Ce qui manque le plus** (pas de substitut local équivalent) :
+  1. pour le texte et l'apparat : l'édition commentée d'Austin–Olson (2004) et celles de Sommerstein (1994) et de Prato (2001), accessibles seulement par extraits ; le volume complet de la CUF (Coulon) ; l'*editio princeps* de P.Oxy. 3839 et 3840 (P.Oxy. LVI) ; le *Satyros* de Schorn ;
+  2. pour les testimonia : la Souda d'Adler, Photius α-μ de Theodoridis, Hésychius κ-ο (Latte), les *PCG* de Kassel–Austin, les *TrGF* (en particulier le t. V, Euripide), Pollux (Bethe, l. I-V), Eustathe, l'*Etymologicum Gudianum* ;
+  3. pour la langue et le commentaire : Taillardat, *Les Images d'Aristophane* ; Henderson, *The Maculate Muse* ; Willi, *The Languages of Aristophanes* ; Chantraine (*DELG*, *Formation des noms*) ; Kühner–Blass ;
+  4. pour la graphologie : les manuels de paléographie et d'abréviations (Thompson, Gardthausen, Tsereteli, Oikonomides ; tous, sauf Oikonomides, sont librement accessibles en ligne : § 9.2) et le fac-similé de 1904 ;
+  5. les notes critiques de Willems : notes océrisées sur les *Thesmophories* (ouvrage d'origine non identifié) ; la traduction annotée de 1919, elle, est librement accessible (§ 9.2) ;
+  6. les PDF compilés de l'auteur dépourvus de source homonyme (§ 9.3).
+- **Pistes de récupération** : (a) retenter les 40 fichiers légers, dont l'absence ne tient pas à la limite de taille ; (b) à la place de certains PDF trop lourds, prendre les pièces plus petites que le fonds contient déjà et que l'inventaire avait écartées comme doublons : volumes HathiTrust découpés page par page (Willems 1919, t. I-III ; Hall–Geldart, t. II ; Stobée de Wachsmuth–Hense, t. IV), PDF séparés du *Dictionnaire des images du poétique dans l'Antiquité* ; (c) pour les ouvrages du domaine public, télécharger directement les numérisations libres signalées dans la colonne de droite des tableaux (archive.org, HathiTrust, Gallica).
+- **Substituts locaux** : les éditions anciennes (Küster, Brunck, Thiersch, Fritzsche, Enger, Hall–Geldart, Rogers), les scholies de Dübner, les fragments comiques (Kock, Meineke, Kaibel) et tragiques (Nauck), les lexiques anciens (Souda de Bekker, Photius de Porson et de Naber, Pollux de Dindorf, Hésychius de Schmidt) et les parémiographes sont disponibles dans d'autres exemplaires du domaine public (colonne de droite des tableaux).
+
+### 9.2 Ouvrages non récupérés, par usage
+
+#### (1) Étude graphologique
+
+| Ouvrage | Fichier(s) et taille (Mo) | Substitut local ou accès |
+|---|---|---|
+| E. M. Thompson, *An Introduction to Greek and Latin Palaeography*, Oxford, 1912 | 50,7 | numérisation libre : archive.org, `introductiontogr00thomuoft` |
+| E. M. Thompson, *Handbook of Greek and Latin Palaeography* (1re éd. 1893) | 22,0 | numérisation libre de l'éd. de 1893 : archive.org, `handbookpale00thom` |
+| V. Gardthausen, *Griechische Palaeographie*, 2e éd., t. II : *Die Schrift, Unterschriften und Chronologie im Altertum und im byzantinischen Mittelalter*, Leipzig, Veit, 1913 (le nom du fichier renvoie à la p. 338) | 44,1 | numérisation libre : archive.org, `griechischepalae02gard` |
+| G. F. Tsereteli, *Sokrashcheniia v grecheskikh rukopisiakh* (les abréviations dans les manuscrits grecs), Saint-Pétersbourg, 1896 (le nom du fichier renvoie à la p. 156) | 26,1 | numérisation libre : archive.org, `sokrashcheniiavg00tser` |
+| Al. N. Oikonomides, *Abbreviations in Greek Inscriptions, Papyri, Manuscripts and Early Printed Books. A Manual* | 41,3 | — |
+| Fac-similé phototypique du *Ravennas* (Leyde, Sijthoff, 1904) : préface de J. van Leeuwen, version océrisée | 54,7 | ff. 162v-163r du fac-similé : `ravennas_1904_bnf/` (dans le dépôt) ; PDF intégral et archive d'images : § 9.4 |
+
+#### (2) Transcription diplomatique
+
+| Ouvrage | Fichier(s) et taille (Mo) | Substitut local ou accès |
+|---|---|---|
+| Fr. Dübner, *Scholia Graeca in Aristophanem*, Paris, 1842 (scholies des *Thesmophories* d'après R) | 161,6 | même édition : `ED/1842_Paris_Dubner_scholia/scholiagraecain00unkngoog.pdf` (OCR indexé dans le corpus) |
+
+#### (3) Établissement du texte et apparat
+
+| Ouvrage | Fichier(s) et taille (Mo) | Substitut local ou accès |
+|---|---|---|
+| F. V. Fritzsche, *Aristophanis Thesmophoriazusae*, Leipzig, 1838 (deux numérisations) | autre ex. 38,2 (B) ; ex. « propre » 75,1 | `ED/1838_Leipzig_Fritzsche/` (deux exemplaires, OCR) |
+| R. Enger, *Aristophanis Thesmophoriazusae cum scholiis*, Bonn, 1844 | 18,5 | `ED/1844_Bonn_Enger/bsb10232531.pdf` |
+| B. Thiersch, *Ἀριστοφάνους Θεσμοφοριάζουσαι*, Halberstadt, 1832 | 7,6 | `ED/1832_Halberstadt_Thiersch/thesmophoriazus00arisgoog.pdf` |
+| L. Küster, *Aristophanis comoediae undecim, Graece et Latine*, Amsterdam, 1710 | 121,0 | `ED/1710_Amsterdam_Kuster/` (OCR complet et extraits des *Thesm.*) |
+| R. F. Ph. Brunck, *Aristophanis comoediae ex optimis exemplaribus emendatae* (deux fichiers ; éditions ou tomes [à identifier]) | « emendatae studio » 18,3 ; « ex optimis exemplaribus » 17,1 | éd. de Strasbourg, 1783 : `ED/1783_Strasbourg_Brunck/` |
+| *Aristophanis comoediae undecim* avec les notes de J. Scaliger (Leyde, 1624, ou Amsterdam, 1670 [à vérifier]) | 42,9 | éd. d'Amsterdam, 1670 : `ED/1670_Amsterdam_Ravestein_t1/`, `ED/1670_Amsterdam_Ravestein_t2/` |
+| J. Le Paulmier de Grentemesnil, *Exercitationes in optimos fere auctores Graecos* (conjectures) | 49,4 | — |
+| G. Bourdin, scholies sur les *Thesmophories* (Paris, 1545 selon `recherche/bibliographie_editions.md` ; le nom du fichier porte « 1540 ») | 28,6 | Gallica (`bpt6k857402r`, d'après le nom du fichier) ; scholies de Bourdin reproduites dans `ED/1823_Leipzig_Invernizi_t11_scholies_Biset/` et dans l'éd. Portus de 1607 (`ED/1607_Geneve_Portus_Biset/`) |
+| *Aristophanis Comoediae*, t. II : très probablement l'OCT de Hall–Geldart (le fonds contient aussi, découpé page par page, l'exemplaire HathiTrust `coo.31924024799623`, qui est le t. II de Hall–Geldart, Oxford, [1906] selon la notice du catalogue) | 53,6 | Hall–Geldart, t. II : `ED/1907_Oxford_Hall_Geldart_t2/` ; texte TEI de Perseus (§ 3.1) |
+| V. Coulon, H. van Daele, *Aristophane*, t. IV : *Les Thesmophories. Les Grenouilles* (CUF), volume complet | 10,4 | pages grecques seules et extrait textuel (§ 3.1) |
+| C. Austin, S. D. Olson, *Aristophanes. Thesmophoriazusae*, Oxford, 2004 (texte, apparat, commentaire) | 26,4 | extrait textuel partiel (§ 3.1) |
+| A. H. Sommerstein, *The Comedies of Aristophanes*, vol. 8 : *Thesmophoriazusae*, 1994 (texte, traduction, commentaire) | 7,8 | extrait textuel partiel (§ 3.1) |
+| C. Prato (éd.), D. Del Corno (trad.), *Aristofane. Le donne alle Tesmoforie*, 2001 (texte, apparat, commentaire) | 7,8 | extrait textuel partiel (§ 3.1) |
+| G. Mastromarco, P. Totaro, *Commedie di Aristofane* (Turin, UTET) : vraisemblablement le vol. II (2006 : *Uccelli*, *Lisistrata*, *Tesmoforiazuse*, *Rane* ; introduction, traduction, notes critiques et commentaire, celui des *Tesmoforiazuse* étant de P. Totaro), qui porte les noms des deux éditeurs, le vol. I (1983) étant de G. Mastromarco seul [à vérifier sur le fichier] | 26,2 | — |
+| A. Willems, *Aristophane. Traduction avec notes et commentaires critiques*, 1919, t. I-III | t. I 99,3 ; t. II 88,9 ; t. III 73,7 | exemplaires HathiTrust en accès libre (domaine public aux États-Unis) : `uc1.b4517639` (t. I), `mdp.39015008735469` (t. II), `mdp.39015051095480` (t. III) ; le fonds contient aussi ces trois volumes découpés page par page (654, 604 et 498 fichiers) |
+| A. Willems, notes critiques sur les *Thesmophories* (version océrisée ; ouvrage d'origine [à vérifier]) | 30,1 | — |
+| B. B. Rogers, *The Thesmophoriazusae* (texte, traduction, commentaire) : trois fichiers, à savoir le vol. III de la Loeb (Londres, Heinemann, 1924 ; `aristophaneswith03arisuoft`), *The Comedies of Aristophanes*, vol. IV (*Lysistrata*, *Thesmophoriazusae*) d'après le nom du fichier, et une troisième numérisation (« Thesmophories, Lysistrata » ; édition [à identifier]) | Loeb III 20,9 ; « Comedies IV » 15,0 ; « Thesmophories, Lysistrata » 35,3 | `ED/1904_Londres_Rogers/` (éd. de 1904) ; `W/metrique/aristophaneswith03arisuoft/` (Loeb, vol. III) |
+| C. Austin, « Observations critiques sur les *Thesmophories* d'Aristophane », 1990 (autre exemplaire) | 15,8 | exemplaire plus léger présent : `AR/1. Observations critiques*.pdf` (§ 3.2) |
+| A. Nauck, note sur le v. 80 (conjecture ἐπείπερ ἐστί), dans ses *Mélanges gréco-romains tirés du Bulletin de l'Académie impériale des sciences de Saint-Pétersbourg* (extrait ; les travaux antérieurs de l'auteur citent t. II, 1866, p. 468-471 [à vérifier]) | 7,9 | — |
+| *The Oxyrhynchus Papyri*, vol. LVI, 1989 : n° 3839 (vv. 742-766, 941-956 ; éd. W. E. H. Cockle) et n° 3840 (vv. 1185-1193 ; éd. P. J. Parsons) | 22,1 | images : `W/papyrus/POxy_LVI_3839_hires.jpg`, `…_3839_couleur.jpg`, `…_3840_hires.jpg` ; voir `recherche/papyrus.md` |
+| *The Oxyrhynchus Papyri*, vol. LXXVIII, 2012 : n° 5132 (vv. 1203-1209 ; éd. W. B. Henry) | 19,5 | extrait textuel `D/papyrus/POxy78_readcontent.txt` (§ 3.4) ; image `W/papyrus/POxy_LXXVIII_4935+5132.jpg` |
+| *The Oxyrhynchus Papyri*, vol. IX : n° 1176 (Satyros, *Vie d'Euripide* ; Π50 de Wilson), extrait (le nom du fichier renvoie à la p. 155) | 16,4 | volume complet : `W/papyrus/POxy_IX/pt9oxyrhynchuspa00grenuoft.pdf` |
+| *Commentaria et lexica Graeca in papyris reperta* (CLGP) I 1, fasc. 4 : *Aristophanes-Bacchylides* (fascicule complet) | 11,6 | pages liminaires et table seulement (§ 3.4) |
+| P. Boudreaux, *Le Texte d'Aristophane et ses commentateurs*, ouvrage posthume publié par G. Méautis, Paris, 1919 | 14,5 | — |
+| N. G. Wilson, OCT, t. II, p. 50-140 : version océrisée au format HTML (fichier léger, 3,8 Mo, non récupéré pour une raison inconnue) | 3,8 | autre version océrisée du même extrait : `D/editions/Wilson II pp 50-140*ocred 2 greek.pdf` (§ 3.1) |
+
+#### (4) Loci paralleli et testimonia
+
+| Ouvrage | Fichier(s) et taille (Mo) | Substitut local ou accès |
+|---|---|---|
+| *Suidae Lexicon*, éd. A. Adler, t. I-V | I (Α-Γ) 42,6 ; II (Δ-Θ) 43,1 ; III (Κ-Ο) 45,6 ; IV (Π-Ψ) 29,4 ; V (préface, index) 10,2 | éd. Bekker (1854), OCR découpé en articles, et Adler partielle (First1KGreek) dans le corpus (`recherche/corpus_numeriques.md`) |
+| Photius, *Lexicon*, éd. Chr. Theodoridis, t. I (Α-Δ) et II (Ε-Μ) | I 96,1 ; II 19,7 | t. III (Theodoridis) et éd. Porson (π-ω) présents (§ 4.1) ; éd. Naber et Porson en OCR dans le corpus |
+| Hésychius, éd. Latte–Hansen–Cunningham : fichier réunissant l'ensemble (contenu exact [à vérifier] ; il pourrait combler la lacune Κ-Ο) | 11,8 | t. I, IIa, III et IV présents (§ 4.1) ; pour Κ-Ο, éd. M. Schmidt (1867), OCR découpé en articles, dans le corpus |
+| Pollux, *Onomasticon*, éd. E. Bethe : l. I-V, l. VI-X, index | index 7,5 ; l. I-V 24,9 ; l. VI-X 18,0 | éd. Dindorf (1824, texte complet) et Bethe, l. VI-X, en OCR dans le corpus |
+| Athénée, *Deipnosophistae*, éd. G. Kaibel, t. I-III et index | index 32,5 ; texte 93,2 | texte TEI de Perseus (éd. Kaibel) dans le corpus |
+| Eustathe, *Commentarii ad Homeri Iliadem*, éd. M. van der Valk, t. II (chants V-IX) ; *Commentarii ad Homeri Odysseam*, t. I-II | Il. II 86,4 ; Od. I 49,6 ; Od. II 37,0 | t. I, III et IV de l'*Iliade* : § 9.4 ; Miller 1942 sur ὁ κωμικός chez Eustathe (§ 4.1) |
+| *Etymologicum Graecae linguae Gudianum*, éd. Fr. W. Sturz, Leipzig, 1818 | 110,1 | — |
+| *Etymologicum magnum genuinum, Symeonis Etymologicum una cum Magna Grammatica, Etymologicum magnum auctum*, éd. F. Lasserre, N. Livadaras | 25,8 | *Etymologicum magnum* (réimpr. de l'éd. Sylburg) en OCR dans le corpus |
+| Zonaras, *Lexicon*, éd. J. A. H. Tittmann, t. I-II | t. I 64,6 ; t. II 47,9 | t. I (1808) en OCR dans le corpus |
+| Phrynichos, *Ecloga*, éd. E. Fischer | 41,8 | — |
+| W. G. Rutherford, *The New Phrynichus*, 1881 | 17,6 | — |
+| Moeris, *Lexique attique* : D. U. Hansen (éd.), *Das attizistische Lexikon des Moeris*, réuni avec K. Hajdú (éd.), *Ps.-Herodian, De figuris. Überlieferungsgeschichte und kritische Ausgabe* (1re éd. 1998) en un volume de la *Sammlung griechischer und lateinischer Grammatiker* (Berlin-Boston, De Gruyter, 2013, d'après la notice de Google Books ; le nom du fichier porte les deux titres) | 8,7 | — |
+| Harpocration, *Lexeis of the Ten Orators*, éd. J. J. Keaney | 6,5 | texte de Harpocration dans le corpus Perseus |
+| *Lexica Segueriana* : Δικῶν ὀνόματα, Λέξεις ῥητορικαί ; très probablement I. Bekker, *Anecdota Graeca*, t. I, Berlin, 1814, dont les p. 181-194 (pagination citée par le nom du fichier) contiennent les Δικῶν ὀνόματα, les Λέξεις ῥητορικαί commençant p. 195 (contrôlé sur la numérisation archive.org `anecdotagraeca00bekkgoog`) | 40,1 | même édition librement accessible : archive.org, `anecdotagraeca00bekkgoog` (OCR d'archive.org inutilisable pour le grec) ; la version océrisée du corpus n'en contient encore que deux passages |
+| H. Erbse, *Untersuchungen zu den attizistischen Lexika* (fragments d'Ælius Dionysius et de Pausanias), Berlin, Akademie-Verlag | 13,3 | — |
+| J. Taillardat, *Suétone. Περὶ βλασφημιῶν. Περὶ παιδιῶν* (extraits byzantins ; version océrisée) | 202,1 | — |
+| E. L. von Leutsch, F. G. Schneidewin, *Corpus paroemiographorum Graecorum*, t. I-II | 46,5 | OCR des deux tomes dans le corpus ; CPG I en TEI (First1KGreek) |
+| Th. Gaisford, *Paroemiographi Graeci*, Oxford, 1836 | 18,9 | OCR dans le corpus |
+| *De usu proverbiorum apud Aristophanem* (dissertation ; auteur et date [à vérifier]) | 16,8 | — |
+| R. Tosi, *Dictionnaire des sentences latines et grecques* (PDF) | 75,6 | OCR intégral présent (§ 4.2) |
+| L. Cohn, *Zu den Paroemiographen* (version océrisée) | 27,6 (B) | image seule présente (§ 4.2) |
+| R. Kassel, C. Austin, *Poetae Comici Graeci* (PCG) | I 11,8 ; II 14,4 ; III 2 (Aristophane) 11,7 ; III 2, version océrisée 63,4 (B) ; IV 34,1 ; V 27,9 ; VI 2 (Ménandre) 10,8 ; VII 21,0 | Kock (CAF), Meineke (FCG) et Kaibel (CGF) en OCR dans le corpus ; numéros K.-A. à contrôler sur l'imprimé |
+| Th. Kock, *Comicorum Atticorum fragmenta*, t. I-III | I 22,6 ; II 15,2 ; III 20,3 | OCR des trois tomes dans le corpus |
+| A. Meineke, *Fragmenta comicorum Graecorum*, t. II 1-2 | II 1 20,1 ; II 2 18,9 | OCR des t. I-IV dans le corpus |
+| J. Demiańczuk, *Supplementum comicum* | 9,5 | — |
+| *Tragicorum Graecorum Fragmenta* (TrGF) : t. I et II (B. Snell, R. Kannicht), III et IV (S. Radt), V (R. Kannicht : Euripide) | I 18,0 ; II 22,9 ; III 31,2 ; IV 45,6 ; V 61,5 | Nauck, TGF² (1889), en OCR dans le corpus |
+| D. L. Page, *Poetae Melici Graeci* | 19,7 | Bergk, *Poetae lyrici Graeci* (OCR) dans le corpus |
+| A. S. F. Gow, *Theocritus*, 2 vol. (commentaire ; *Idylle* XV) | 33,8 (B) | — |
+| Euripide, t. V : *Hélène. Les Phéniciennes* (CUF) | 52,4 | texte grec d'*Hélène* dans le corpus Perseus |
+| St. Schorn, *Satyros aus Kallatis. Sammlung der Fragmente mit Kommentar* | 22,3 | P.Oxy. IX 1176 : `W/papyrus/POxy_IX/pt9oxyrhynchuspa00grenuoft.pdf` |
+| R. Knobl, *Biographical Representations of Euripides. Some Examples of their Development from Classical Antiquity to Byzantium*, thèse de doctorat, Durham University, 2008 (identification d'après le titre du fichier) | 12,0 (B) | accès libre : Durham E-Theses (n° 2190) |
+| H. Dunbar, *A Complete Concordance to the Comedies and Fragments of Aristophanes* (deux numérisations) | autre ex. 41,2 (B) ; ex. complet 28,1 | recherche plein texte et par lemme dans le corpus (`outils/corpus/chercher.py`) |
+| V. Coulon, H. van Daele, *Aristophane* (CUF) : volumes *Acharniens-Cavaliers-Nuées*, *Guêpes-Paix*, *Assemblée des femmes-Ploutos* ; texte grec seul des onze comédies | Ach.-Cav.-Nuées 16,6 ; Assemblée-Ploutos 10,3 ; Guêpes-Paix 8,6 ; grec seul, 11 pièces 25,9 | texte grec des onze comédies (Hall–Geldart) dans le corpus Perseus |
+| Commentaires de référence des autres comédies : S. D. Olson, *Acharnians* ; S. D. Olson, *Peace* ; K. J. Dover, *Clouds* ; K. J. Dover, *Frogs* ; A. H. Sommerstein, *Frogs*, *Birds*, *Lysistrata*, *Wealth* ; N. Dunbar, *Birds* ; D. M. MacDowell, *Wasps* ; Z. P. Biles, S. D. Olson, *Wasps* ; J. Henderson, *Lysistrata* | Biles–Olson, Guêpes 27,6 ; Dover, Gren. 32,5 ; Dover, Nuées 16,6 ; Dunbar, Ois. 27,9 ; Henderson, Lys. 12,8 ; MacDowell, Guêpes 9,3 ; Olson, Ach. 33,1 ; Olson, Paix 84,4 ; Sommerstein, Gren. 13,1 ; Sommerstein, Lys. 6,9 ; Sommerstein, Ois. 7,0 ; Sommerstein, Ploutos 9,3 | Sommerstein, *Clouds* (complet) et Landfester, *Lysistrate*, présents (§ 4.4) |
+| *Scholia in Aristophanem* (Groningue) : *Aves* (D. Holwerda) ; *Nubes*, scholies récentes (W. J. W. Koster) ; *Ranae*, scholies récentes (M. Chantry) ; *Plutus*, scholies anciennes et récentes (M. Chantry) | Aves 14,7 ; Nubes rec. 7,9 ; Plutus rec. 18,4 ; Plutus vet. 13,3 ; Ranae rec. 13,0 | Dübner 1842 (voir plus haut, usage 2) |
+| Plutarque, *Œuvres morales*, t. XII 1 (traités 54-57), éd. M. Cuvigny, G. Lachenaud (CUF), Paris, 1981 : contient le résumé de la *Comparaison d'Aristophane et de Ménandre* (853a-854d) | 19,9 (B) | texte grec de la *Comparaison* (Perseus) dans le corpus |
+
+#### (5) Métrique et structure
+
+| Ouvrage | Fichier(s) et taille (Mo) | Substitut local ou accès |
+|---|---|---|
+| J. W. White, *The Verse of Greek Comedy* | 24,1 | `W/metrique/verseofgreekcome00whituoft/` |
+| O. Schroeder, *Aristophanis cantica*, Leipzig, Teubner, 1909 (2e éd. 1930) ; édition du fichier [à vérifier] | 19,3 | — |
+| W. J. W. Koster, *Traité de métrique grecque suivi d'un précis de métrique latine*, 2e éd. augmentée (version océrisée) | 52,7 | M. L. West, *Introduction to Greek Metre* (1987) : `W/metrique/west-1987-introduction-to-greek-metre/` |
+| P. Mazon, *Essai sur la composition des comédies d'Aristophane* | 33,3 | `W/metrique/essaisurlacompos00mazouoft/` |
+| M. Emmanuel, *La Danse grecque antique d'après les monuments figurés* | 17,3 (B) | Gallica (`bpt6k11810621`, d'après le nom du fichier) |
+
+#### (6) Traduction
+
+Aucun fichier propre à cet usage ne manque ; les traductions non récupérées sont dans des volumes déjà listés : A. Willems, 1919 (français) ; Coulon–van Daele, CUF IV (français) ; B. B. Rogers (anglais) ; A. H. Sommerstein, 1994 (anglais) ; C. Prato, D. Del Corno, 2001 (italien) ; G. Mastromarco, P. Totaro (italien).
+
+#### (7) Commentaire
+
+| Ouvrage | Fichier(s) et taille (Mo) | Substitut local ou accès |
+|---|---|---|
+| J. Taillardat, *Les Images d'Aristophane. Études de langue et de style* | 40,5 | version océrisée (plus de 200 Mio) : § 9.4 |
+| J. Henderson, *The Maculate Muse. Obscene Language in Attic Comedy* | 15,8 | — |
+| A. Willi, *The Languages of Aristophanes* | 14,7 | — |
+| A. H. Sommerstein (éd.), *The Encyclopedia of Greek Comedy* | 15,5 | — |
+| A. M. Bowie, *Aristophanes. Myth, Ritual and Comedy* | 7,1 | — |
+| M. Dillon, *Girls and Women in Classical Greek Religion* | 14,7 | — |
+| Cl. Rolley, « Le sanctuaire des dieux patrôoi et le Thesmophorion de Thasos », *BCH* 89 (1965), p. 441-483 | 19,6 | accès libre sur Persée |
+| J.-J. Maffre, « Comédie et iconographie : les grands problèmes », *Cahiers de la Villa Kérylos* 10 (2000), p. 269-315 | 7,3 | accès libre sur Persée |
+| G. Compton-Engle, *Costume in the Comedies of Aristophanes*, Cambridge, 2015 (identification d'après le titre abrégé du fichier) | 6,7 | — |
+| A. Willems, « Le nu dans la comédie ancienne » (version océrisée) | 10,4 | — |
+| A. Willems, *Notes sur Aristophane*, Bruxelles, 1897 | 18,2 (B) | même numérisation : `ED/1897_Bruxelles_Willems_Notes/notessuraristoph00will.pdf` |
+| A. D. Trendall, *Phlyax Vases* | 9,2 | — |
+| E. Bobrick, « The Tyranny of Roles : Playacting and Privilege in Aristophanes' *Thesmophoriazusae* », dans G. W. Dobrov (éd.), *The City as Comedy. Society and Representation in Athenian Drama*, Chapel Hill-Londres, 1997, p. 177-197 (le nom du fichier renvoie aux p. 177 sqq. ; titre et pagination d'après la bibliographie d'Austin–Olson) | 22,0 | — |
+| M. Blomberg, « The Meaning of χελιδών in Hesiod », *Opuscula Atheniensia* 19 (1992), p. 49-57 (cf. § 4.5) | 12,6 | — |
+| Zadi Grekou, *Aristophane. Recherches sur le vocabulaire de la satire sociale* (thèse, 1983) | 16,8 (B) | — |
+| C. Couëlle, « Balaneutikè : le bain et les soins du corps dans l'Antiquité gréco-romaine », *Travaux & documents* (Université de La Réunion) 48, p. 259-284 (identification d'après le nom du fichier, « Couelle2-TD48 », et la notice de HAL) | 10,6 (B) | accès libre : HAL, `hal-01885863` |
+| J.-Ph. Guez, F. Klein, J. Peigney, É. Prioux (dir.), *Dictionnaire des images du poétique dans l'Antiquité*, Paris, Classiques Garnier, 2025 (2 vol.), PDF complet | 34,7 (B) | les PDF séparés du même dictionnaire (une quarantaine : lettres, bibliographie, index ; 0,1 à 2,1 Mo chacun) sont dans le fonds, écartés comme doublons : à récupérer à la place du PDF complet |
+| P. Chantraine, *Dictionnaire étymologique de la langue grecque* | 132,3 | — |
+| P. Chantraine, *La Formation des noms en grec ancien* | 142,8 | version océrisée (plus de 200 Mio) : § 9.4 |
+| P. Chantraine, *Morphologie historique du grec* | 16,4 | — |
+| R. S. P. Beekes, avec L. van Beek, *Etymological Dictionary of Greek*, 2 vol. | 25,8 | — |
+| A. Bailly, *Dictionnaire grec-français*, édition revue « Bailly 2020 » | 33,6 | LSJ (Perseus) dans le corpus |
+| R. Kühner, F. Blass, *Ausführliche Grammatik der griechischen Sprache*, 1re partie (*Elementar- und Formenlehre*), 3e éd., t. I-II | t. I 55,4 ; t. II (DjVu) 12,6 | — |
+
+### 9.3 PDF compilés des versions de travail de l'auteur
+
+Toutes les sources `.tex` sont présentes (§ 8.1), mais aucun des 42 PDF compilés sélectionnés n'a été copié (0,02 à 15,6 Mo). Trois seulement dépassent la limite : `GCA/Aristophane-Thesmo grec - commentaire - traduction - apparats.pdf` (15,6 Mo), `GCA/Aristophane Thesmophories sept 2022.pdf` (11,9 Mo) et `GCA/Aristophane-Thesmo Annexes.pdf` (7,7 Mo) ; les 39 autres, plus légers, manquent pour une raison non établie.
+
+- **À récupérer en priorité** : les treize PDF qui n'ont pas de source `.tex` du même nom et peuvent donc conserver des états sans source : les deux fichiers lourds cités ci-dessus ; `GCA/Aristophane-Thesmo août 2022.pdf`, `… septembre 2022.pdf`, `… V1 avec index.pdf` ; les copies numérotées `… juin 2022 (copie 1)` à `(copie 5)`, `… oct 2022 (copie 1)`, `… nov 2022 (copie 1)` et `(copie 2)`.
+- **Fichier corrompu** : le PDF `TH/texte - traduction - commentaire - Copie.pdf` (0,3 Mo) correspond au `.tex` illisible signalé au § 8.3.
+- **Déjà accessible autrement** : `TH/myEdition/myEdition.pdf` est contenu dans l'archive `TH/myEdition.zip` (§ 8.1).
+- **Liste complète** (taille en Mo) : `GCA/AT 18 aout 2020.pdf` (0,7) ; `GCA/Aristophane Thesmophories sept 2022.pdf` (11,9) ; `GCA/Aristophane-Thesmo 18 aout 2020.pdf` (0,7) ; `GCA/Aristophane-Thesmo Annexes.pdf` (7,7) ; `GCA/Aristophane-Thesmo Harmattan 2023 vv 1-641.pdf` (0,6) ; `GCA/Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.pdf` (0,7) ; `GCA/Aristophane-Thesmo Harmattan 2023 vv 642-fin.pdf` (0,1) ; `GCA/Aristophane-Thesmo Index.pdf` (0,06) ; `GCA/Aristophane-Thesmo Introduction.pdf` (1,9) ; `GCA/Aristophane-Thesmo V1 avec index.pdf` (1,1) ; `GCA/Aristophane-Thesmo aout 2021 test 2.pdf` (0,3) ; `GCA/Aristophane-Thesmo aout 2021 test 3.pdf` (0,3) ; `GCA/Aristophane-Thesmo aout 2021 test 4.pdf` (0,04) ; `GCA/Aristophane-Thesmo aout 2021 test 5.pdf` (0,03) ; `GCA/Aristophane-Thesmo aout 2021 test.pdf` (0,4) ; `GCA/Aristophane-Thesmo aout 2021.pdf` (0,9) ; `GCA/Aristophane-Thesmo août 2022.pdf` (1,1) ; `GCA/Aristophane-Thesmo grec - commentaire - traduction - apparats.pdf` (15,6) ; `GCA/Aristophane-Thesmo juin 2022 (copie 1).pdf` (1,2) ; `GCA/Aristophane-Thesmo juin 2022 (copie 2).pdf` (1,2) ; `GCA/Aristophane-Thesmo juin 2022 (copie 3).pdf` (0,9) ; `GCA/Aristophane-Thesmo juin 2022 (copie 4).pdf` (1,2) ; `GCA/Aristophane-Thesmo juin 2022 (copie 5).pdf` (1,2) ; `GCA/Aristophane-Thesmo juin 2022.pdf` (1,2) ; `GCA/Aristophane-Thesmo mai 2021.pdf` (0,8) ; `GCA/Aristophane-Thesmo mai 2022.pdf` (0,2) ; `GCA/Aristophane-Thesmo nov 2022 (copie 1).pdf` (1,2) ; `GCA/Aristophane-Thesmo nov 2022 (copie 2).pdf` (1,2) ; `GCA/Aristophane-Thesmo nov 2022.pdf` (0,02) ; `GCA/Aristophane-Thesmo oct 2022 (copie 1).pdf` (1,2) ; `GCA/Aristophane-Thesmo oct 2022.pdf` (1,2) ; `GCA/Aristophane-Thesmo sept 2022.pdf` (1,2) ; `GCA/Aristophane-Thesmo septembre 2022.pdf` (1,1) ; `GCA/Aristophane-Thesmophories (copie).pdf` (0,7) ; `GCA/Article août 2020.pdf` (0,1) ; `GCA/copie 12 juillet 2020.pdf` (0,7) ; `TH/Versions/version 2 2 mai.pdf` (0,5) ; `TH/Versions/version 2 mai.pdf` (0,2) ; `TH/myEdition/myEdition.pdf` (0,03) ; `TH/texte - traduction - commentaire - Copie.pdf` (0,3) ; `TH/texte - traduction - commentaire 21 mars 2020 - Copie.pdf` (0,3) ; `TH/texte - traduction - commentaire.pdf` (0,5).
+
+### 9.4 Fichiers de plus de 200 Mio (écartés dès l'inventaire)
+
+53 des fichiers retenus pour l'édition (6 « essentiels », 47 « utiles ») dépassaient 200 Mio (209 715 200 octets) ; aucun n'a été sélectionné.
+
+| Ouvrage | Taille (Mo) | Remarque |
+|---|---:|---|
+| Fac-similé phototypique intégral du *Ravennas* (Leyde, Sijthoff, 1904 ; exemplaire de la BnF, FOL-FAC SIM-182 (9)) | 330 | ff. 162v-163r : `ravennas_1904_bnf/` (dans le dépôt) ; les images du manuscrit lui-même, à pleine résolution, sont dans `dossier_ravennas_thesmophories/` |
+| Archive d'images (BnF) du même fac-similé | 323 | idem |
+| Eustathe, *Commentarii ad Homeri Iliadem*, éd. M. van der Valk, t. I (chants I-IV), III (X-XVI), IV (XVII-XXIV) | 243 ; 250 ; 254 | t. II : § 9.2 |
+| J. Taillardat, *Les Images d'Aristophane*, version océrisée | 2 809 | version non océrisée : § 9.2 |
+
+Les 47 autres, classés « utiles », sont pour la plupart des versions océrisées très lourdes d'ouvrages listés plus haut (fac-similé de 1904, Dübner, Willems t. I-II, texte grec de la CUF, Chantraine, *Formation des noms*, Eustathe, Hésychius, Photius, Pollux, *Synagoge*, *PMG*, *CPG*, Tosi, *TrGF* V) ou des compilations ; s'y ajoutent l'*Etymologicum magnum* de Gaisford (904 Mo), neuf fichiers du *Dictionnaire des antiquités grecques et romaines* de Daremberg et Saglio (consultable en ligne), un demi-volume de la *Realencyclopädie* (t. XIII 2), un volume des *FGrHist* de Jacoby (II A) et un tome du Stobée de Wachsmuth–Hense (t. III).
+
+### 9.5 Titres absents du fonds
+
+Recherchés sans résultat lors de l'inventaire (le fonds ne les contient pas) ; substituts locaux entre parenthèses :
+
+- **Grammaires et dictionnaires** : LSJ (LSJ de Perseus dans le corpus) ; J. D. Denniston, *The Greek Particles* ; Kühner–Gerth (syntaxe) ; E. Schwyzer, *Griechische Grammatik* ; H. W. Smyth, *Greek Grammar*.
+- **Aristophane** : L. P. E. Parker, *The Songs of Aristophanes* ; N. G. Wilson, *Aristophanea* ; l'édition de J. van Leeuwen (`ED/1904_Leyde_van_Leeuwen/`) ; celle de F. H. M. Blaydes (`ED/1880_Halle_Blaydes/`) ; C. Austin, *Comicorum Graecorum Fragmenta in papyris reperta*.
+- **Scholies** : W. G. Rutherford, *Scholia Aristophanica* (`ED/1896_Londres_Rutherford_t2/` ; `W/scholies/`, t. I-III) ; K. Zacher, *Die Handschriften und Classen der Aristophanesscholien* (`W/ravennas/scholies/diehandschrifte02zachgoog.pdf`) ; l'édition de Groningue des scholies des *Thesmophories* (aucun substitut).
+- **Euripide** : aucun commentaire moderne d'*Hélène* (seule l'édition de la CUF figurait dans le fonds, et elle n'a pas été récupérée) ; pour l'*Andromède* et le *Télèphe*, seulement les *TrGF* V (non récupérés) et quelques articles (§ 4.3).
+
+### 9.6 Fichiers du fonds restés hors sélection
+
+L'inventaire a classé « utiles » sans les retenir 309 fichiers de moins de 200 Mio (doublons, autres exemplaires, ouvrages d'intérêt secondaire). Quelques-uns mériteraient d'être récupérés (identifications d'après le nom des fichiers, non contrôlées sur leur contenu) :
+
+- **Stobée**, éd. C. Wachsmuth et O. Hense, t. I-V (42 à 201 Mo par volume) ; le t. IV existe aussi, découpé page par page, dans l'exemplaire HathiTrust `uc1.b4810319` (domaine public). Substitut local : le *Florilegium* de Meineke et le t. III de Hense, en OCR dans le corpus.
+- **A. Nauck, *Mélanges gréco-romains***, volume complet d'où provient la note sur le v. 80 (26,0 Mo ; l'extrait retenu, 7,9 Mo, manque : § 9.2).
+- **B. B. Rogers, *The Comedies of Aristophanes*** : six volumes (6,7 à 70,7 Mo), dont un vol. IV (« 4 Lysistrata », 41,3 Mo), sans doute le même ouvrage que le fichier « Comedies IV » du § 9.2 ; et un exemplaire de la Loeb, vol. III (20,9 Mo), probablement identique à `aristophaneswith03arisuoft`.
+- **Édition ou traduction hongroise des *Thesmophories*** (numérisation de la bibliothèque de l'Académie hongroise des sciences, « MTA Könyvek » ; 73,8 Mo).
+- **Scholies d'Euripide** : éd. E. Schwartz, volume d'*Hécube*, *Oreste* et des *Phéniciennes* (23,8 Mo) ; éd. W. Dindorf, t. IV (10,0 Mo). Substitut local : scholies d'Euripide de First1KGreek dans le corpus.
