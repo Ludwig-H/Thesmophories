@@ -139,6 +139,10 @@ numero_corrige	info	G0462	758		1527	v. 758 : corrigé : \ligne{757} répète un 
 numero_corrige	info	G0463	759		1534	v. 759 : corrigé : \ligne{758} répète un numéro ; HG indique 759 (n° reledmac 758) — « τί τῆς ἱερείας γίγνεται; »
 apparat_decale	mineure	G0252	374		3022	Apparat A0117, segment « 374 » (τιμοκλει) : la leçon se trouve dans la ligne numérotée 373 — « τῇ τῶν γυναικῶν· Τιμόκλει᾽ ἐπεστάτει, »
 apparat_decale	mineure	G0263	435		3236	Apparat A0133, segment « 435 » (δεινοτερον) : la leçon se trouve dans la ligne numérotée 436 — « οὐδὲ δεινότερον λεγούσης. »
+commentaire_decale	mineure	G0127	193		1944	Commentaire C0065 (plage « 193 », lemme « χαίρεις ὁρῶν φῶς, πατέρα δ᾽ οὐ χαίρειν δ ») : le lemme se lit dans la ligne numérotée 194 — « ‘χαίρεις ὁρῶν φῶς, πατέρα δ᾽ οὐ χαίρειν δοκεῖς;' »
+commentaire_decale	mineure	G0252	376		3034	Commentaire C0112 (plage « 376-7 », lemme « ἐκκλησίαν ποιεῖν ἕωθεν τῇ μέσῃ / τῶν Θεσ ») : le lemme se lit dans la ligne numérotée 375 — « ἐκκλησίαν ποιεῖν ἕωθεν τῇ μέσῃ »
+commentaire_decale	mineure	G0358	619		4493	Commentaire C0178 (plage « 619 », lemme « τὸν ἐκ Κοθωκιδῶν; ») : le lemme se lit dans la ligne numérotée 620 — « τὸν δεῖνα γιγνώσκεις, τὸν ἐκ Κοθωκιδῶν. »
+commentaire_decale	mineure	G0669	1082		4561	Commentaire C0319 (plage « 1082 », lemme « ὀτότυζ᾽ — ὀτότυζ᾽. ») : le lemme se lit dans la ligne numérotée 1081c — « ὀτότυζ᾽. »
 numero_diff_HG	info	G0210	296		2721	vv. 296-296 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « εὐφημία ἔστω. | » = HG 295)
 numero_diff_HG	info	G0210	297		2722	vv. 297-297 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +2 (ex. « εὔχεσθε ταῖν Θεσμοφόροιν | » = HG 295-296)
 numero_diff_HG	info	G0210	299		2723	vv. 299-300 (2 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +3 (ex. « καὶ τῷ Πλούτῳ καὶ τῇ Καλλιγενείᾳ | » = HG 296-297)

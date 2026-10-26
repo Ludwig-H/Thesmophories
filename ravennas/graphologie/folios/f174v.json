@@ -1,20 +1,64 @@
 {
  "folio": "f174v",
  "image": "dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/25_f174v_classense176v_vv1001-1043.jpg",
- "statut": "en cours",
- "vers": null,
- "lignes_texte": null,
- "mains": [],
- "interventions": [],
+ "statut": "inventaire graphologique fait (voir f174v.jsonl et f174v.md)",
+ "vers": [
+  1002,
+  1044
+ ],
+ "lignes_texte": 43,
+ "mains": [
+  "T (texte, paragraphoi et dicola des l. 1-5, ponctuation, accents)",
+  "S2 (scholies et gloses ; sigles μνη l. 1, ΕΥΡΙ^Π l. 14, μνη^σ l. 21 ; ν suscrit l. 5 ; accents ajoutés selon Velsen 1883 ; correction interne de la scholie au v. 1044)",
+  "main du XVIe s. à encre orangée pâle (sigles imprimables τοξ l. 1, 2, 5 ; μν l. 2, 3, 7 ; trait de la page c 13 de la Juntine l. 13-14 ; trait isolé de la marge supérieure)",
+  "mine de plomb ? (croix grise l. 28-29 ; plage grise l. 40, début de la page c 14)",
+  "intervention moderne possible (tache gris-vert, réactif ?, au début de la scholie au v. 1044)"
+ ],
+ "interventions": [
+  "l. 5 κακοδαίμω^ν (S2) ; γέρ⟦ω⟧ον grattage",
+  "l. 6 πυλάξι accent (S2 selon Velsen)",
+  "l. 11 ἀνδρομέδαν grattage, πάντως accent",
+  "l. 13 σῶσον accent complété",
+  "l. 18 προσαιδοῦσσαι accent",
+  "l. 34 δὲ grave",
+  "l. 38 ἀλλὰν esprit",
+  "l. 39 λιτομέναν aigu",
+  "l. 42 ἀπεξύρησε grattage + υ + aigu",
+  "scholie au v. 1044 : ⟦ἐνε⟧ → ἀμφε (S2)"
+ ],
  "formes": [],
  "abreviations": [],
  "ponctuation_accentuation": {},
  "notae": [],
  "scholies": {
-  "nombre": null,
-  "mains": [],
-  "remarques": "",
-  "liste": []
+  "nombre": 21,
+  "mains": [
+   "S2"
+  ],
+  "remarques": "21 notes de S2, qui répondent une à une aux scholies imprimées par Dübner pour les vv. 1003-1044 : 12 en marge gauche, 5 en marge droite, 1 glose au bord droit de la l. 10, 3 notes dans les blancs de la colonne (l. 17, 20, 33). Aucune minuscule de correcteur ; traces illisibles en marge gauche aux l. 12-13 et 15-16.",
+  "liste": [
+   "1003 g. l.1-2",
+   "1007 g. l.5-6",
+   "1009 g. l.8-9",
+   "1011 dr. l.10",
+   "1012 g. l.10-11",
+   "1016 dr. l.13-15",
+   "1018a col. l.17",
+   "1018b g. l.18-19",
+   "1018c dr. l.18-19",
+   "1021 col. l.20",
+   "1022 g. l.21-22",
+   "1024 dr. l.23-24",
+   "1025 g. l.23-24",
+   "1030 g. l.27-28",
+   "1031 g. l.29-30",
+   "1033 g. l.31-32",
+   "1034 col. l.33",
+   "1040a dr. l.38-40",
+   "1040b g. l.38-41",
+   "1041 dr. l.40",
+   "1044 g. l.42-43"
+  ]
  },
  "etat": [],
  "pieges": []

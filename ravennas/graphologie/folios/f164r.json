@@ -2,8 +2,13 @@
  "folio": "f164r",
  "image": "dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/04_f164r_classense166r_vv0123-0164.jpg",
  "vers": "123-164",
- "lignes_texte": null,
- "mains": [],
+ "lignes_texte": 43,
+ "mains": [
+  "T (texte, paragraphoi, points d'interrogation ; biffures de κρο[τ]κωτῶι et ψό[ι]γον, τ suscrit de τιτθία probables)",
+  "S2 (toutes les scholies et gloses ; sigles ΜΝΗΣΙ^λο v. 130 et ἀγά^θ v. 146 ; renvois ∈, ·϶·, ✕ ; ajouts γ(άρ) v. 149, κα v. 151, θ v. 155, reprise de κεκρυφάλωι, β de βάρβιτος probables ; variante γρ. v. 141)",
+  "main du XVIe s. à encre orangée (sigles μν^η vv. 153, 157 ; ἀγ vv. 154, 159)",
+  "lecteur(s) postérieur(s) : soulignement rouge de la parépigraphe (l. 8) ; marques au graphite (l. 17), foliotation au graphite « 164 » et « 166 »"
+ ],
  "interventions": [],
  "formes": [],
  "abreviations": [],
@@ -15,6 +20,6 @@
   "remarques": "",
   "liste": []
  },
- "etat": [],
+ "etat": "inventaire graphologique fait (voir f164r.jsonl et f164r.md)",
  "pieges": []
 }

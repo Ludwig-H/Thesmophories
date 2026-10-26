@@ -1,16 +1,27 @@
 {
  "folio": "f173r",
  "image": "dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/22_f173r_classense175r_vv0876-0919.jpg",
- "etat": "en cours",
- "vers": "876-919",
- "lignes_texte": null,
- "mains": [],
+ "etat": "inventaire graphologique fait (voir f173r.jsonl et f173r.md)",
+ "vers": "877-919",
+ "lignes_texte": 43,
+ "mains": [
+  "T (texte, ponctuation, paragraphoi et dicola)",
+  "S2 (scholies et gloses ; 12 sigles ευρι^π, μνη^σ, γυ^ν ; corrections d'accent selon Velsen 1883, non démontrables)",
+  "main du XVIe s. à encre rouge orangé (16 sigles imprimables ευ, μν, Γϋ ; deux sur grattage, l. 31-32)",
+  "matière grise de 1516 (chiffre « 9 » de la Juntine en marge gauche, l. 39 ; trait de la l. 12)",
+  "moderne (foliotation « 175 », crayons rouge et bleu-gris)"
+ ],
  "interventions": [],
  "formes": [],
  "abreviations": [],
  "ponctuation_accentuation": {},
  "notae": [],
- "scholies": {"nombre": null, "mains": [], "remarques": "", "liste": []},
+ "scholies": {
+  "nombre": null,
+  "mains": [],
+  "remarques": "",
+  "liste": []
+ },
  "etat_materiel": [],
  "pieges": []
 }

@@ -25,7 +25,6 @@ from __future__ import annotations
 
 import argparse
 import csv
-import datetime
 import difflib
 import hashlib
 import json
@@ -1225,6 +1224,51 @@ def controle_apparat(lignes_g: list, apparats: list, anomalie):
     return ok, ko
 
 
+def controle_commentaires(lignes_g: list, commentaires: list, apparats: list, anomalie):
+    """Vérifie que le lemme de chaque commentaire (plage brève, au plus 4 vers) se lit dans une
+    ligne numérotée dans sa plage (ou dans l'apparat de ces vers : lemme donnant la leçon de R
+    corrigée dans le texte) ; sinon, si le lemme se lit dans une ligne voisine (± 3 vers), signale
+    l'écart entre la plage du commentaire et la numérotation du texte."""
+    par_vers = defaultdict(list)
+    for L in lignes_g:
+        if L["vers"] is None:
+            continue
+        for n in range(L["vers"], (L.get("vers_fin") or L["vers"]) + 1):
+            par_vers[n].append(L)
+    app_vers = defaultdict(set)
+    for app in apparats:
+        for seg in app["segments"]:
+            if seg["debut"] is not None:
+                for n in range(seg["debut"], (seg["fin"] or seg["debut"]) + 1):
+                    app_vers[n].update(grec_mots(seg["texte"]))
+    ok = ko = 0
+    for c in commentaires:
+        m, f = plage_vers(c.get("plage") or "")
+        if m is None or f is None or f - m > 3:
+            continue
+        mots = [w for w in grec_mots(c.get("lemme") or "") if len(w) >= 4][:3]
+        if not mots:
+            continue
+
+        def contient(L):
+            lm = set(grec_mots(L["texte"]))
+            return all(w in lm for w in mots)
+        if any(contient(L) for n in range(m, f + 1) for L in par_vers.get(n, [])) or \
+                any(all(w in app_vers.get(n, ()) for w in mots) for n in range(m, f + 1)):
+            ok += 1
+            continue
+        voisins = [L for n in range(m - 3, f + 4) for L in par_vers.get(n, []) if contient(L)]
+        if voisins:
+            ko += 1
+            L = voisins[0]
+            anomalie("commentaire_decale", "mineure",
+                     "Commentaire %s (plage « %s », lemme « %s ») : le lemme se lit dans la ligne numérotée "
+                     "%s%s — « %s »" % (c["id"], c.get("plage"), (c.get("lemme") or "")[:40], L["vers"],
+                                         L["partie"], L["texte"][:50]),
+                     groupe=L["groupe"], vers=m, ligne=c["ligne_source"])
+    return ok, ko
+
+
 # ---------------------------------------------------------------------------
 # Programme principal
 # ---------------------------------------------------------------------------
@@ -1634,6 +1678,9 @@ def extraire(depot: str, sortie: str | None, fichiers=None, ecrire=True):
                      groupe=L["groupe"], vers=v, ligne=L["ligne_source"])
     ok_app, ko_app = controle_apparat(lignes_g_all, apparats_all, anomalie)
     controle_app = {"segments_verifies": ok_app + ko_app, "concordants": ok_app, "decales": ko_app}
+    ok_com, ko_com = controle_commentaires(lignes_g_all, [c for gj in groupes_json for c in gj["_comms"]],
+                                           apparats_all, anomalie)
+    controle_com = {"commentaires_verifies": ok_com + ko_com, "concordants": ok_com, "decales": ko_com}
     # écarts avec Hall-Geldart regroupés en séries de décalage constant ; les lignes brèves
     # que HG contient dans plusieurs vers (refrain « Ἀρταμουξία. », vv. 1201-1225) ne sont pas
     # comparées : leur appariement désigne n'importe laquelle des occurrences
@@ -1801,10 +1848,10 @@ def extraire(depot: str, sortie: str | None, fichiers=None, ecrire=True):
 
     stats = statistiques(sortie_groupes, anomalies)
     stats["controle_apparat_numerotation"] = controle_app
+    stats["controle_commentaires_numerotation"] = controle_com
     meta = {
         "titre": "Thesmophories — extraction des travaux antérieurs de l'auteur (Harmattan 2023)",
         "genere_par": "outils/extraction/extraire_travaux.py",
-        "date": datetime.date.today().isoformat(),
         "sources": [{"fichier": rel, "sha256": sha256(os.path.join(depot, rel)),
                      "lignes": extracteurs[i].src.orig.count("\n") + 1}
                     for i, rel in enumerate(fichiers)],
