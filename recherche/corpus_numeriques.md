@@ -71,16 +71,29 @@ déjà téléchargés sont indexés (collection « drive ») ; les PDF dont le g
 
 ## 3. Couverture des fonds prioritaires
 
-*(à compléter)*
+| Fonds | Couverture dans l'index | Remarques |
+|---|---|---|
+| Théâtre (Aristophane, tragiques, Ménandre) | complète (Perseus, textes TEI) | Thesmophories : Hall–Geldart (vulgate de collation exportée dans `.sources/corpus/thesmo_hall_geldart.tsv`) |
+| Fragments comiques | Kock (CAF), Meineke (FCG), Kaibel (CGF), OCR | Kassel–Austin (PCG) présent sur le Drive mais non téléchargeable (> 10 Mo) : vérifier les numéros K.-A. sur les éditions papier ou les concordances |
+| Fragments tragiques | Nauck, TGF² (OCR) | TrGF (Snell, Kannicht, Radt) : Drive, non téléchargeable |
+| Hésychius | éd. minor de Schmidt (1867), découpée en articles (OCR, colonnes rétablies) | Latte–Hansen–Cunningham : Drive, non téléchargeable ; numéros d'articles de Latte à contrôler |
+| Souda | Adler (First1KGreek, partielle) et Bekker (1854, OCR, en articles) | |
+| Photius, Pollux, Etymologica, Zonaras, Lexica Segueriana | Porson et Naber ; Dindorf et Bethe II ; *Etymologicum magnum* (Sylburg) ; Tittmann I ; Bekker, *Anecdota* I (OCR) | |
+| Parémiographes | CPG I (First1KGreek et OCR) et II (OCR) ; Gaisford ; Miller | |
+| Scholies d'Aristophane | Dübner 1842 ; Rutherford 1896 (scholies de R) ; Martin 1882 (OCR) | éd. de Groningue (Regtuit 2007 pour les *Thesm.*) : non disponible |
+| Florilèges | Stobée (Meineke ; Hense III) | |
+| Papyrus | DCLP (papyri.info) | |
 
 ## 4. Fiabilité
 
-*(à compléter)*
+Les textes TEI (Perseus, First1KGreek) sont fiables mais non exempts de coquilles (ex. *Thesm.* 4 « πυφέσθαι » chez Perseus). Les OCR sont signalés comme tels par `chercher.py`, avec le taux de mots grecs reconnus et le lien vers l'image de la page : **toute citation tirée d'un OCR doit être vérifiée sur l'image**. L'index « souple » neutralise les confusions systématiques de l'OCR (κ/χ, lettres latines, ς/ζ).
 
 ## 5. Lacunes et pistes
 
-*(à compléter)*
+- Éditions modernes de référence sous droits et trop lourdes pour l'outil de téléchargement du Drive (limite de 10 Mo) : Kassel–Austin, TrGF, Latte (Hésychius), Theodoridis (Photius), Adler complète, Regtuit (scholies). Si l'auteur les rend accessibles (partage par lien ou accès `rclone`), relancer `sources_drive.py` puis `indexer.py`.
+- Numérotations : citer les lexiques dans la numérotation de l'édition de référence (Latte pour Hésychius α–ο, Adler pour la Souda, Theodoridis pour Photius α–φ) ; l'index donne souvent celle d'une édition ancienne (Schmidt, Bekker) : convertir avec prudence.
 
 ## 6. Statistiques de l'index et tests
 
-*(à compléter)*
+Index reconstruit le 26 octobre 2026 en 343 s sur 6 processus : **4 188 œuvres, 817 823 passages, 49,2 millions de mots** (Perseus 814 œuvres ; First1KGreek 1 126 ; OCR 35 ; Drive 4) ; base `.sources/corpus/index.sqlite` (1,9 Go).
+Tests de contrôle réussis : « πυθοῦ χελιδών » (Harpocration s.v. ἄττα, CPG, Fritzsche) ; « ἀπόκυνον » (Hésychius, Schmidt col. 199) ; « σοφοὶ τύραννοι » (Aelius Aristide 46, 288 ; Platon, *Rép.* 568a et *Théagès* 125b).
