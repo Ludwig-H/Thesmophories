@@ -451,6 +451,10 @@
         \vfill
         \dim_compare:nNnT { \l_thesmo_h_dim } > {0pt}
           {
+            %% filet de séparation (dans l'espace réservé \l_thesmo_commsep_dim)
+            \hbox_to_wd:nn { \textwidth }
+              { \str_if_eq:nnTF {#2} {G} { { \color{filet} \rule{0.22\textwidth}{0.35pt} } \hfil } { \hfil { \color{filet} \rule{0.22\textwidth}{0.35pt} } } }
+            \skip_vertical:n { 2.6mm }
             \hbox_to_wd:nn { \textwidth }
               {
                 \str_if_eq:nnTF {#2} {G}
@@ -808,10 +812,17 @@
             \vbox_to_ht:nn { 0.72\l_thesmo_dbs_dim } { \vss }
             \hbox_to_wd:nn { \l_thesmo_dln_dim } { { \fontsize{5.5}{6}\selectfont \color{filet} \l_tmpb_tl } \hss }
             \hbox_to_wd:nn { \l_thesmo_dsig_dim } { \hss { \diplofont \fontsize{7.5}{9}\selectfont #2 } \hspace{1.5mm} }
+            \hbox_set:Nn \l_thesmo_meas_box { \diplofont \l_thesmo_dsize_tl \hspace*{\l_thesmo_lind_dim} #3 }
             \hbox_to_wd:nn { \l_thesmo_dtxt_dim }
-              { \diplofont \l_thesmo_dsize_tl \hspace*{\l_thesmo_lind_dim}
-                \fp_compare:nNnTF { \l_thesmo_lscale_tl } < { 1 }
-                  { \scalebox{\l_thesmo_lscale_tl}[1]{#3} } {#3} \hfil }
+              {
+                \dim_compare:nNnTF { \box_wd:N \l_thesmo_meas_box } > { \l_thesmo_dtxt_dim }
+                  { %% ligne trop longue (tétramètres) : resserrement horizontal, au plus de 15 %
+                    \box_scale:Nnn \l_thesmo_meas_box
+                      { \fp_max:nn { 0.85 } { \dim_to_fp:n { \l_thesmo_dtxt_dim } / \dim_to_fp:n { \box_wd:N \l_thesmo_meas_box } } }
+                      { 1 }
+                    \box_use:N \l_thesmo_meas_box \hss }
+                  { \box_use:N \l_thesmo_meas_box \hfil }
+              }
             \hbox_to_wd:nn { \l_thesmo_dvnum_dim } { \hfil { \scriptsize \color{gris} \l_thesmo_lv_tl } }
             \vrule width 0pt depth 0.28\l_thesmo_dbs_dim
           }
