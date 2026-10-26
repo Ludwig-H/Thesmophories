@@ -774,6 +774,8 @@
     \dim_gzero:N \g_thesmo_dsch_cur_dim
     \seq_gclear:N \g_thesmo_dline_v_seq
     \seq_gclear:N \g_thesmo_dline_n_seq
+    \seq_gclear:N \g_thesmo_dlines_seq
+    \dim_gzero:N \g_thesmo_dmaxw_dim
     \thesmo_set_dwidths:
   }
   { }
@@ -794,6 +796,8 @@
   }
 \NewDocumentCommand \ligne { O{} m m }
   { \group_begin: \thesmo_ligne:nnn {#1} {#2} {#3} \group_end: }
+\seq_new:N \g_thesmo_dlines_seq
+\dim_new:N \g_thesmo_dmaxw_dim
 \cs_new_protected:Npn \thesmo_ligne:nnn #1#2#3
   {
     \keys_set:nn { thesmo / ligne } {#1}
@@ -804,26 +808,43 @@
     \tl_clear:N \l_tmpb_tl
     \regex_match:nVT { \A\d+\Z } \l_thesmo_ln_tl
       { \int_compare:nNnT { \int_mod:nn { \l_thesmo_ln_tl } {5} } = {0} { \tl_set_eq:NN \l_tmpb_tl \l_thesmo_ln_tl } }
+    %% mesure de la largeur naturelle (pour la largeur adaptative de la colonne)
+    \hbox_set:Nn \l_thesmo_meas_box { \diplofont \l_thesmo_dsize_tl \hspace*{\l_thesmo_lind_dim} #3 }
+    \dim_gset:Nn \g_thesmo_dmaxw_dim { \dim_max:nn { \g_thesmo_dmaxw_dim } { \box_wd:N \l_thesmo_meas_box } }
+    %% la ligne est composée au moment de la sortie, quand la largeur est connue
+    \seq_gput_right:Nx \g_thesmo_dlines_seq
+      { { \exp_not:V \l_tmpb_tl } { \exp_not:n {#2} } { \exp_not:n {#3} } { \exp_not:V \l_thesmo_lv_tl } { \dim_use:N \l_thesmo_lind_dim } }
+  }
+\cs_new_protected:Npn \thesmo_compose_dlines:
+  {
+    %% largeur de la colonne du texte : la plus longue ligne de la page (bornes 70–102 mm)
+    \dim_set:Nn \l_thesmo_dtxt_dim { \dim_min:nn { 102mm } { \dim_max:nn { 70mm } { \g_thesmo_dmaxw_dim + 1.5mm } } }
+    \thesmo_set_dwidths:
+    \box_gclear:N \g_thesmo_dtext_box
+    \seq_map_inline:Nn \g_thesmo_dlines_seq { \thesmo_compose_dline:nnnnn ##1 }
+  }
+\cs_new_protected:Npn \thesmo_compose_dline:nnnnn #1#2#3#4#5
+  {
     \vbox_gset:Nn \g_thesmo_dtext_box
       {
         \vbox_unpack_drop:N \g_thesmo_dtext_box
         \hbox_to_wd:nn { \l_thesmo_dln_dim + \l_thesmo_dsig_dim + \l_thesmo_dtxt_dim + \l_thesmo_dvnum_dim }
           {
             \vbox_to_ht:nn { 0.72\l_thesmo_dbs_dim } { \vss }
-            \hbox_to_wd:nn { \l_thesmo_dln_dim } { { \fontsize{5.5}{6}\selectfont \color{filet} \l_tmpb_tl } \hss }
+            \hbox_to_wd:nn { \l_thesmo_dln_dim } { { \fontsize{5.5}{6}\selectfont \color{filet} #1 } \hss }
             \hbox_to_wd:nn { \l_thesmo_dsig_dim } { \hss { \diplofont \fontsize{7.5}{9}\selectfont #2 } \hspace{1.5mm} }
-            \hbox_set:Nn \l_thesmo_meas_box { \diplofont \l_thesmo_dsize_tl \hspace*{\l_thesmo_lind_dim} #3 }
+            \hbox_set:Nn \l_thesmo_meas_box { \diplofont \l_thesmo_dsize_tl \hspace*{#5} #3 }
             \hbox_to_wd:nn { \l_thesmo_dtxt_dim }
               {
                 \dim_compare:nNnTF { \box_wd:N \l_thesmo_meas_box } > { \l_thesmo_dtxt_dim }
-                  { %% ligne trop longue (tétramètres) : resserrement horizontal, au plus de 15 %
+                  { %% ligne trop longue : resserrement horizontal, au plus de 18 %
                     \box_scale:Nnn \l_thesmo_meas_box
-                      { \fp_max:nn { 0.85 } { \dim_to_fp:n { \l_thesmo_dtxt_dim } / \dim_to_fp:n { \box_wd:N \l_thesmo_meas_box } } }
+                      { \fp_max:nn { 0.82 } { \dim_to_fp:n { \l_thesmo_dtxt_dim } / \dim_to_fp:n { \box_wd:N \l_thesmo_meas_box } } }
                       { 1 }
                     \box_use:N \l_thesmo_meas_box \hss }
                   { \box_use:N \l_thesmo_meas_box \hfil }
               }
-            \hbox_to_wd:nn { \l_thesmo_dvnum_dim } { \hfil { \scriptsize \color{gris} \l_thesmo_lv_tl } }
+            \hbox_to_wd:nn { \l_thesmo_dvnum_dim } { \hfil { \scriptsize \color{gris} #4 } }
             \vrule width 0pt depth 0.28\l_thesmo_dbs_dim
           }
       }
@@ -894,14 +915,16 @@
       { \hsize = \l_thesmo_commcol_dim \l_thesmo_bottomsize_tl
         \noindent \petcap{commentaire~critique} \par \vspace{1pt} #1 \par } } {}
 \NewDocumentCommand \lp { m +m } { \noindent \textbf{#1}\nobreakspace #2 \par \vspace{1.5pt} }
+%% \cc : les notes \nc de l'article sont composées à sa fin, comme pour \comm
 \NewDocumentCommand \cc { m m +m }
-  { \noindent \textbf{#1}\nobreakspace \tl_if_blank:nF {#2} { #2\,]\nobreakspace } #3 \par \vspace{2pt} }
+  { \noindent \textbf{#1}\nobreakspace \tl_if_blank:nF {#2} { #2\,]\nobreakspace } #3 \thesmo_flush_cnotes: \par \vspace{2pt} }
 
 %% composition et sortie de la double page diplomatique + fac-similé
 \dim_new:N \l_thesmo_dtop_dim
 \cs_new_protected:Npn \thesmo_ship_diplo:
   {
     \dim_set:Nn \l_thesmo_commcol_dim { (\textwidth - \l_thesmo_commgap_dim) / 2 }
+    \thesmo_compose_dlines:
     \thesmo_place_anchored:
     %% bloc supérieur
     \hbox_set:Nn \l_thesmo_left_box
