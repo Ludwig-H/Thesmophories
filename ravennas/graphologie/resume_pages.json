@@ -1,0 +1,562 @@
+{
+ "f167v": {
+  "mains": [
+   {
+    "label": "T",
+    "role": "copiste du texte ; ponctuation, esprits et accents ; correction τούτω (l. 6) ; paragraphos du v. 443 selon Velsen 1871 (douteux)",
+    "criteres": "minuscule ronde liée ; encre homogène G/R 1,33–1,36, B/R 2,26–2,35, teinte 40–41° ; π en ϖ, ξ en ʒ, ψ cruciforme, esprits en point ou anguleux, goutte d'amorce du τ"
+   },
+   {
+    "label": "S2",
+    "role": "toutes les scholies et gloses ; ajout supralinéaire πο (v. 434) ; sigles χ^ο (v. 434) et χ^ρ (v. 459) probables ; σ de σὐν- sur grattage (v. 458) selon Velsen",
+    "criteres": "semi-onciale (majuscule) légèrement inclinée, lettres de 12–15 px, scholies ouvertes par « – » et closes par « :– » ; encre G/R 1,37–1,47, B/R 2,37–2,79, plus saturée que T ; minuscule fine pour les ajouts au texte ; gloses et χ^ρ d'encre intermédiaire"
+   },
+   {
+    "label": "main du XVIe s. (« 2 m. » de Velsen 1871, attribuée à Boninus)",
+    "role": "sigle ἑτ(έρα) γυνή (v. 443) ; seconde boucle de ὀλίγων (v. 443)",
+    "criteres": "cursive moderne de grand module, ductus continu ; encre orangé-rouge G/R 1,67–1,77, B/R 2,9–4,0, teinte 34–38° (rouge en décorrélation Lab) ; ne s'accorde pas avec le « viel kleiner, viel blasser » de Velsen"
+   },
+   {
+    "label": "trait de mine (préparation de la Juntine)",
+    "role": "trait diagonal des ll. 18–20 marquant la page b6 de la Juntine (v. 440)",
+    "criteres": "tracé à la règle, gris presque neutre (G/R 1,09–1,12, B/R 1,54–1,58), coupe scholies et texte"
+   }
+  ],
+  "nb_interventions": 6,
+  "nb_pieges": 18,
+  "faits_saillants": [
+   "Fichiers : /workspaces/Thesmophories/ravennas/graphologie/folios/f167v.jsonl (53 observations : 18 pièges, 9 formes, 6 interventions, 4 sigles, 4 scholies, 5 gloses, 4 mise en page, 2 état, 1 imprimeur) et /workspaces/Thesmophories/ravennas/graphologie/folios/f167v.md (synthèse) ; 35 spécimens dans /workspaces/Thesmophories/ravennas/graphologie/specimens/f167v/. J'ai repris les relevés de l'exécution interrompue (ll. 1–6) et contrôlé deux de ses affirmations sur les spécimens.",
+   "Mise en page : 43 lignes, vv. 423–465 ; colométrie lyrique conforme au relevé de Velsen 1883. Le renfoncement des lignes lyriques varie : la plupart commencent à x≈910–950, mais les ll. 18, 20, 41 et 43 partent de l'alignement des trimètres, et la l. 43 déborde à droite. Pas de numéro de folio, réglure non perceptible, marge inférieure vide.",
+   "Encres de la page. Texte (T) homogène : G/R 1,33–1,36, B/R 2,26–2,35. Scholies (S2) : 1,37–1,47 / 2,37–2,79, plus saturées. Main du XVIe s. : 1,67–1,77 / 2,9–4,0, orangé-rouge. Trait de mine presque neutre : 1,09–1,12 / 1,54–1,58.",
+   "v. 434 (l. 11) : « πο » suscrit dans οὐπώ^πο^ τε, de la main S2 (certitude haute : 1,46 / 2,72 contre 1,31 / 2,21–2,30 pour le texte de la ligne). Le τε n'est pas effacé. Sigle χ^ο ajouté par S2 ; pas de paragraphos de T.",
+   "v. 443 (l. 21) : sigle ἑτ(έρα) γυνή de la main du XVIe s., grand module, encre rouge-orangé (certitude haute). Il est écrit à gauche d'une paragraphos que Velsen 1871 attribue à T, mais dont l'encre est de type S2 (1,42 / 2,61). Même ligne : ὀλίγον changé en ὀλίγων par une seconde boucle plus pâle et rosée (1,48 / 2,75 contre 1,26 / 2,24), conforme à Velsen 1871 (« ὀλίγων 2 m. »). Velsen 1883 et Enger donnent ὀλίγον sans signaler cette correction : c'est un piège pour les transcripteurs.",
+   "v. 440 (ll. 18–20) : long trait de mine (graphite probable) tracé à la règle, de x≈430 (au milieu des scholies) à x≈1670 (fin de la l. 20). Il marque la page b6 de la Juntine (Velsen 1871) et ne doit pas être lu comme une biffure. C'est la seule marque de l'imprimeur de 1516 sur la page ; aucun chiffre visible.",
+   "v. 458 (l. 36) : σ de σὐνθηματιαίους très foncé, avec un grattage probable ; l'esprit resté sur l'υ trahit l'ancienne leçon οὐν- (Velsen : « in rasura σὐ ab R² »). v. 428 : correction τούτω par T, relevée par l'exécution antérieure. vv. 439 (διἔζ-) et 449 (τεὼς) : je ne vois pas sur l'image les corrections que signale Velsen 1883.",
+   "v. 459 (l. 37) : je lis le sigle χ^ρ (ligature χρ, traits croisés), comme Velsen, et non « γρ. » comme Allen. Il est probablement de S2, mais son encre est celle du texte. Aucun dicolon sur la page, et aucun signal marginal du copiste (√, +, ⋎, ÷).",
+   "Pièges principaux : π en ϖ (pris pour ω) ; ligature υν en double arceau (pris pour ω) ; ν final plongeant (pris pour μ) ; ξ en ʒ (pris pour ζ) ; ψ cruciforme (pris pour un signal +) ; esprit + accent en deux points (pris pour un tréma) ; esprits doux anguleux en croix (ll. 11, 34, 41) ; goutte d'amorce du τ prise pour un point ; point + virgule en figure « ; » après γυναικὸς ; ο plein de προ ; fin de scholie « :– » proche de la colonne, à ne pas prendre pour un signal ÷ ou un dicolon ; iota adscrit (τέχνηι, τραγωιδίαις, δρᾶι).",
+   "Scholies, toutes de S2 (semi-onciale, ouvertes par « – » et closes par « :– », sans lemme ni renvoi) : 2 lignes en marge supérieure (v. 423) et 12 scholies ou gloses en marge gauche (vv. 423–429, 440–441, 445, 448–449, 458, 459). La glose « ταράττειν κ(αὶ) κινεῖν » (l. 7) manque dans la segmentation. Deux gloses en marge intérieure, ὀδόντ(ας) et φανερῶς : semi-onciales, mais d'une encre intermédiaire entre T et S2.",
+   "État : tache d'humidité verticale dans la marge extérieure (x≈320–460, y≈640–1990) ; scholies touchées mais lisibles, texte épargné. Marge inférieure salie par la manipulation. Ombre de la gouttière, motif circulaire clair (artefact probable). Encre du texte bien conservée, sans restauration visible."
+  ],
+  "doutes": [
+   "Paragraphos du v. 443 : T, comme le dit Velsen 1871, ou S2, comme le suggère l'encre ? À comparer avec les paragraphoi des folios voisins.",
+   "Gloses ὀδόντ(ας) et φανερῶς, sigle χ^ρ : encre intermédiaire entre T et S2. Seconde encre de S2, ou ces signes sont-ils de T ?",
+   "Lecture du sigle de la l. 37 : χ^ρ (Velsen) ou γρ (Allen) ? Je retiens χ^ρ.",
+   "ὀλίγων : confirmer sur l'original (UV, lumière rasante) l'encre de la seconde boucle, et expliquer pourquoi la Juntine imprime ὀλίγον.",
+   "Main du XVIe s. : le sigle du v. 443 est grand et d'une encre soutenue, alors que Velsen 1871 la dit « viel kleiner » et « viel blasser ». Y a-t-il deux mains modernes ? Comparer avec les autres sigles « 2 m. ».",
+   "Corrections signalées par Velsen 1883 et invisibles sur l'image : διἔζ- (v. 439) et τεὼς (v. 449). À contrôler sur l'original.",
+   "Esprit en croix de αὐτοστραφεὶς (v. 456), d'encre de type S2 : esprit repassé, ajouté, ou simple variation de charge ?",
+   "σ de σὐν- (v. 458) : auteur incertain, grattage à confirmer en lumière rasante.",
+   "Scholie de la marge supérieure : elle commence par « …ους », sans tiret. Suite d'une scholie du f. 167r ?",
+   "Compendium après θρῖπες (scholie de la l. 5), abréviations τ(οὺ)ς et τ(ῆς) : à vérifier.",
+   "Tache ronde (x≈322, y≈286) : piqûre ou tache d'encre ? Motif circulaire de la marge intérieure : artefact de prise de vue ?"
+  ]
+ },
+ "f168r": {
+  "mains": [
+   {
+    "label": "T (copiste)",
+    "role": "texte, ponctuation, tirets devant les vv. 498 et 502, correction d'accent de εἰσιὼν",
+    "criteres": "minuscule ; β en « u », ν plongeant, circonflexe en crochet arrondi ; encre B/R 2,18–2,28 à densité égale (l. 43 plus pâle)"
+   },
+   {
+    "label": "S2 (B d'Allen, R² de Velsen)",
+    "role": "les 12 scholies de la marge extérieure",
+    "criteres": "semi-onciale inclinée ≈ 2 mm, finale ÷, tirets initiaux ; encre plus jaune que T à densité égale (B/R 2,45–2,69)"
+   },
+   {
+    "label": "S2 ?, campagne distincte",
+    "role": "gloses de la marge intérieure (ll. 7, 8, 20) et supplément βοώιη (l. 41)",
+    "criteres": "écriture semi-onciale de type S2 (Η majuscule, β « ϐ ») mais encre du type de T (B/R 2,15–2,47)"
+   },
+   {
+    "label": "Correcteur ancien à encre neutre",
+    "role": "reprises sur grattage : κιν (l. 28), εῖ (l. 3) ; probablement aussi le β de κύβδ' et les aigus en coin de δρώσας et ξύνοιδ'",
+    "criteres": "κιν B/R 1,91–1,99, plus neutre que T et que S2 ; Κ majuscule en deux traits ; circonflexe anguleux ; S2 selon Allen et Velsen, non confirmé par l'encre"
+   },
+   {
+    "label": "Main du XVIe s. (« 2 m. » de Velsen 1871, préparation de la Juntine)",
+    "role": "sigle imprimable κηδ· ευ· sur grattage (l. 1)",
+    "criteres": "encre rougeâtre, teinte 36–38°, B/R 2,50–2,97 ; minuscule fine, κ en x"
+   },
+   {
+    "label": "Moderne (graphite)",
+    "role": "marque de page b 7 de la Juntine après le v. 491 (l. 26) ; trait sous ἐρειδόμην (l. 23) ; foliotation « 170 »",
+    "criteres": "gris neutre, G/R 1,11–1,16, B/R 1,45–1,50"
+   }
+  ],
+  "nb_interventions": 11,
+  "nb_pieges": 20,
+  "faits_saillants": [
+   "Inventaire repris et terminé : ravennas/graphologie/folios/f168r.jsonl compte 64 observations, consolidées. Les doublons de l'exécution interrompue sont fusionnés et deux erreurs corrigées : la reprise de ἐpiζεῖν était mal localisée (x 783–832 au lieu de x 752–780), et la glose de la l. 20 se lit λ(είπει) τὸ ἔφη (Rutherford : « (485) λείπει τὸ ἔφη int. ») et non ἀ(νὴρ) τὸ ἔφη. La synthèse est dans ravennas/graphologie/folios/f168r.md, les 46 spécimens dans ravennas/graphologie/specimens/f168r/.",
+   "Mise en page : 43 lignes, un vers par ligne (vv. 466–508, v. 500 compris), sans titre, sans blanc et sans renfoncement. Une réglure verticale gauche à la pointe sèche est visible par endroits (x ≈ 217–227), ce qui corrige le « pas de réglure » de la première passe. Les ll. 1–8 commencent 5 à 8 mm à droite de cette réglure. Foliotation « 170 » au crayon.",
+   "J'ai mesuré les encres à densité de trait égale (nouvel outil .travail/graphologie/f168r_inv3/densite.py), parce que les rapports d'absorbance dépendent de l'épaisseur du trait. Résultat (rapport bleu/rouge, B/R) : T 2,18–2,28 ; scholies de S2 2,45–2,69, donc séparables de T sur cette page ; sigle du XVIe s. 2,50–2,97 (encre rougeâtre) ; κιν sur grattage 1,91–1,99, une troisième encre, plus neutre.",
+   "κινώμεθα (l. 28, v. 493) : κιν est récrit sur grattage, avec un Κ majuscule en deux traits. Autour, un nuage gris et une bande oblique de grattage. La leçon d'origine est illisible. ἐπιζεῖν (l. 3) : la reprise εῖ va dans le même sens d'encre, plus faiblement. Allen et Velsen donnent ces deux reprises à S2 ; l'image confirme un correcteur ancien, mais l'encre n'est pas celle des scholies.",
+   "βοώιη (l. 41, v. 506) : le mot a été ajouté dans une lacune laissée par T, en petit module, avec un Η majuscule (que la Juntine a lu Ν, d'où βοῶν) et un β fermé « ϐ ». S2 est probable par la forme, mais l'encre est du type de T, comme celle des trois gloses de la marge intérieure.",
+   "Deux formes de β : T écrit partout β en « u » (ll. 9, 20, 41). Le β fermé « ϐ » ne se trouve que dans κύβδ' (l. 24) et dans βοώιη. Cela appuie une correction ancienne ν > β dans κύβδ'. Velsen 1871 (pp. 26, 44) l'attribue à la main de 1516, mais l'encre l'exclut et le Monacensis (XVe s.) a déjà κύβδ'.",
+   "Autres interventions : δρώσας et ξύνοιδ' (circonflexes changés en aigus épais en coin, correcteur ancien) ; ἵν' (l. 30 : arc d'un η probablement gratté, ἦν > ἶν) ; εἰσιὼν (aigu barré d'une petite croix, grave au-dessus, main de T) ; ὤνερ (α > ω, possible) ; ἀγυιᾶ (crochet de main incertaine) ; trait au graphite sous ἐρειδόμην.",
+   "Sigles : un seul, κηδ· ευ· (l. 1), de la main du XVIe s., sur une note grattée ; pas de paragraphos visible au v. 466. Les tirets devant les vv. 498 et 502 sont d'encre de T, et il y a des « ⁚ » aux ll. 12 et 37. Mnésiloque parlant seul, aucun de ces signes ne marque un changement de locuteur. Aucun sigle de S2, aucun signal du copiste (√, +, ⋎, ÷).",
+   "Marque d'imprimeur : un trait gris courbe après le v. 491 (l. 26) correspond à la marque de page b 7 de la Juntine signalée par Velsen 1871, 5. Son matériau est du graphite (G/R 1,13–1,16 ; B/R 1,47–1,50), et non l'encre de 1516, ce qui rejoint les « pencil marks » de Clark 1871.",
+   "Scholies : 12 dans la marge extérieure, toutes de S2, sans lemme ni renvoi, terminées par ÷, et toutes identifiées sur le texte diplomatique de Rutherford sauf celle des ll. 4–6 (vv. 469, 472, 481, 486, 487, 489, 491, 495, 499, 501, 505, 506). Abréviations relevées : τ(οῦ)τ(ο), τ(ὸ), -ον et -ος suscrits, γ(ὰρ), ϗ = καί, λ̸ = λείπει. Toutes sont bien lisibles. Trois gloses dans la marge intérieure (ll. 7, 8, 20).",
+   "20 pièges de lecture documentés, chacun avec un spécimen. Les principaux : la chaîne de ligatures de ἄπελθ' ἄπελθε (l. 43), qui ressemble à une biffure ; la ligature -ος en « © » (l. 39) ; le ν de T, plongeant, qui se lit μ ou ρ ; π en ϖ pris pour ω ; ε barré pris pour θ ; κᾆτ'/κᾆθ' avec un crochet de crase et non une brève ; esprits détachés en début de ligne ; marque de la Juntine à ne pas prendre pour un renvoi.",
+   "Références vérifiées sur les pages de Velsen 1871 et corrigées dans le JSONL : ἀγυιᾶ et κύβδ' sont aux pp. 26 et 44 (la première passe écrivait « 44 et 6 ») ; βοώιη est à la p. 44 ; κιν à la p. 33 ; la marque de la Juntine à la p. 5 ; le sigle du v. 466 aux pp. 10 et 33."
+  ],
+  "doutes": [
+   "Leçon d'origine sous κιν (l. 28) : la bande grise oblique évoque le jambage d'un λ (ληκ- de la Souda ?), mais elle est trop large pour une lettre. Piste seulement, à examiner à la lampe UV ou en imagerie multispectrale.",
+   "Le correcteur à encre neutre (κιν, εῖ) est-il S2 avec une autre encre, ou une autre main (R³ de Velsen) ? À comparer aux autres reprises sur grattage attribuées à B (f. 170r, v. 646).",
+   "Gloses de la marge intérieure et βοώιη : écriture de S2 mais encre de T. S2 dans une autre campagne, ou T lui-même, qui écrit aussi la semi-onciale dans les titres ?",
+   "κύβδ' : reste-t-il des traces d'un ν sous le β ? ἀγυιᾶ : le signe est-il un circonflexe ou un grave, et de quelle main ?",
+   "ἵν' (l. 30) : le grattage de l'arc du η n'est pas démontrable par la couleur du fond, car l'auréole d'humidité de la marge gauche atteint cette zone. À examiner en lumière rasante.",
+   "v. 466 : quelle note a été grattée ? Le « ⁚ » et le « · » d'encre ancienne en sont-ils des restes, ou des marques de T ? Pourquoi n'y a-t-il pas de paragraphos ?",
+   "Fonction des tirets devant les vv. 498 et 502, alors que le locuteur ne change pas, et du trait isolé entre les ll. 16 et 17.",
+   "Signes entre ῷ et δ dans ἐγῷδ' (l. 37) ; accent de ὅποι (l. 18), caché par une ride ; correction α > ω de ὤνερ (l. 19).",
+   "Scholie des ll. 4–6 (ἐπίτηδες ὁ κηδεστὴς…) absente de l'OCR de Rutherford consulté : identification et ancre (v. 469 ?) à vérifier."
+  ]
+ },
+ "f168v": {
+  "mains": [
+   {
+    "label": "T",
+    "role": "copiste du texte ; paragraphoi ; Ο agrandis en saillie aux entrées de réplique ; corrections au v. 512 (σ gratté, η suscrit), au v. 514 (κ suscrit) et au v. 549 (ν suscrit)",
+    "criteres": "minuscule (ν à jambe descendante, π en ϖ, ε en crosse, ligatures ει et ετ) ; encre G/R 1,22–1,33, B/R 1,81–2,12"
+   },
+   {
+    "label": "S2 (R² de Velsen, « B » d'Allen)",
+    "role": "les 10 scholies ; sigles χ^ρ (v. 520), κη^δ (v. 540) et γυ^νη τίς (v. 533, retouché) ; correction οἰόμην → ὠόμην (v. 526)",
+    "criteres": "semi-onciale petite et inclinée (Ε et Ϲ lunaires, Υ en V, Κ en deux pièces, accents sur majuscules) ; encre 1,27–1,32 / 1,90–2,13, recouvrant celle de T ; boucle ajoutée du ω 1,37/2,19 contre 1,24/1,81 pour la boucle de T"
+   },
+   {
+    "label": "Main du XVIe s. (préparation de la Juntine, attribuée à Boninus)",
+    "role": "sigles imprimables Γυνη (v. 544) et κηδ avec trait (v. 549) ; retouche du sigle du v. 533 ; traits obliques au-dessus des sigles des vv. 533 et 544 ; touche grise en fin de v. 543 (marque de page b 9, probable)",
+    "criteres": "minuscule rapide mêlée de majuscules (Γ à crochet, Η à traverse prolongée, κ à longue queue) ; encre orangée, plus pâle, 1,56–1,66 / 2,66–3,19, rouge uniforme en décorrélation Lab"
+   },
+   {
+    "label": "Intervention moderne",
+    "role": "réactif appliqué pour raviver l'encre au début des scholies des vv. 516 et 533",
+    "criteres": "taches gris-bleu, lettres noircies et auréolées ; pixels sombres G/R ≈ 0,98–1,00, B/R ≈ 0,65 (rapports de canaux), teinte 57–59°"
+   }
+  ],
+  "nb_interventions": 9,
+  "nb_pieges": 37,
+  "faits_saillants": [
+   "I resumed the interrupted run: its 60 observations are kept, and the inventory now has 82 entries in /workspaces/Thesmophories/ravennas/graphologie/folios/f168v.jsonl. The synthesis is in /workspaces/Thesmophories/ravennas/graphologie/folios/f168v.md, the specimens in /workspaces/Thesmophories/ravennas/graphologie/specimens/f168v/. The f168v.json status stub is updated to 'inventaire fait'. The resumed run covered l. 13–15, 20–27, 30–31, 33–35, 39–40 and 42, and re-examined the v. 533 sigle.",
+   "Mise en page : 43 lignes, vv. 509–550, sans titre ni blanc. L. 1–11 = trimètres. L. 12–22 = chant du chœur, en retrait (x ≈ 864–901), avec les fins de ligne données par Velsen 1883 ; les vv. 526–527 tiennent sur la seule l. 18. L. 23–42 = tétramètres. La l. 43 porte le seul mot ἁπαξ ἁπάσας, centré et souligné d'un trait ondulé. Écriture suspendue, interligne 42,9 px. Pas de numéro de folio (le « 169 » visible appartient au recto en regard).",
+   "Trois mains et une intervention moderne. Encres mesurées avec l'outil commun (rapports d'absorbance G/R ; B/R) : T 1,22–1,33 ; 1,81–2,12. S2 1,27–1,32 ; 1,90–2,13. Main de 1516 1,56–1,66 ; 2,66–3,19, orangée. T et S2 ne se distinguent pas par l'encre ; la main de 1516 se reconnaît sans ambiguïté.",
+   "Sigles : T marque les changements de locuteur par une paragraphos (vv. 533, 540) et par un Ο agrandi de module triple, en saillie, aux deux entrées de la première femme (vv. 533, 544). C'est un indice d'appoint seulement : l'ο du v. 548, sans changement de locuteur, est aussi un peu agrandi. Aucun dicolon sur la page ; tous les points sont simples. Rien ne marque le v. 520 (seulement le monogramme χ^ρ de S2) ni le v. 531 (zone vide, conforme à Velsen « omm. RG »).",
+   "Attribution révisée du sigle γυ^νη τίς (v. 533). La première exécution le donnait à S2 seul. Les formes sont bien celles de la semi-onciale de S2, mais l'encre est mixte : moyenne 1,45/2,44 ; sur la carte B/R pixel par pixel, bords bruns et cœurs orangés. Le Ϲ final, l'oblique de droite et la tête de la paragraphos sont entièrement orangés. Témoins sur la même carte : κη^δ de S2 (v. 540) uniformément brun, Γυνη de 1516 (v. 544) uniformément orangé. Conclusion : sigle de S2 repassé ou complété par la main de 1516.",
+   "La main de 1516 a écrit Γυνη (v. 544) et κηδ avec un trait horizontal orangé (v. 549). Elle place aussi un trait oblique au-dessus de son sigle du v. 544, comme au-dessus de celui du v. 533. Une touche gris neutre (mine ?) en fin de v. 543 correspond à la coupure de page b 9 de la Juntine signalée par Velsen 1871 : marque de 1516 probable.",
+   "Interventions sûres : v. 512 (σ gratté, η suscrit, T), v. 514 (κ suscrit sur γ, T), v. 526 (οἰόμην → ὠόμην par S2 ; les deux boucles du ω ont des encres différentes, 1,24/1,81 contre 1,37/2,19, confirmé par l'outil commun), v. 549 (ν suscrit sur ἂρ, T). Corrections données par Velsen mais non vérifiables sur la photographie ou douteuses : vv. 509, 518, 529, 545, 550 (pour la finale -ας du v. 550, le tracé continu plaide pour T). Aucun signal marginal du copiste sur la page.",
+   "Pièges valables pour toute la page :\n- ν final à jambe descendante, lu μ ou ρ ;\n- π en ϖ, lu ω (et ω de ῥήτωρ en forme de ϖ) ;\n- λ tracé comme μ (λίθω, λέγειν, λοιπόν) ;\n- ε en crosse lu δ ou θ (ἐστι lu « δαι ») ;\n- ligature ει lue δ, ξ, q ou ἆ ;\n- ψ réduit ou en croix ; β lu μ ; λλ lu ζλ ;\n- σ final détaché du mot ;\n- faux trémas formés par esprit + accent ou apostrophe + esprit ;\n- apostrophes parasites (οὐκ᾽, ῥήτωρ᾽) ;\n- mots soudés (ἀλλουγὰρ) ;\n- accents de la ligne suivante qui tombent dans le blanc de fin de ligne et ressemblent à une ponctuation (après χώρα l. 14 et après ἐπαινῶ l. 20) ;\n- faux sigles relevés par la segmentation automatique (l. 19, 28, 33, 37–41).",
+   "Leçons de R à ne pas normaliser d'après le texte imprimé, vues sur l'image : εὑρέθη, ὑμῖν, ἀλλ᾽ ἅπαν, ὑπο λίθω (sans accent ni iota), εἰ (532), περὶ ὑβρίζειν, αὐτοί γε … πόθεν, ὡς, ἐξεπίτηδες, τ᾽ αἴτιον, φαίδρας sans δ᾽. Les plus incertaines sont marquées dans le .md : δάκη sans iota (530), ἃ γίγνωσκον (542), εποίησεν (548).",
+   "Scholies : 10, toutes de S2 (marge supérieure : 509 ; marge intérieure : 509, 519, 531, 532 ; marge extérieure : 516, 529, 533, 536, 547). Encre homogène, ni lemme ni signe de renvoi, finale ÷. Abréviations relevées : φη(σί), κ(αί), τ(ῆ)ς, τ(ὰ), εὐρι(πίδου), κύτταρ(ος), ὁμοίω(ς), ἀναφερομέν(ων), τοῦ(το), ἰαμβικ(ὸν), τετράμετρ(ον), δ(ὲ), ο(ὖν), αὐτ(ὸν).",
+   "État matériel :\n- bande effacée le long du bord extérieur (x ≈ 250–450), qui emporte le début de toutes les scholies de gauche et de la scholie supérieure ;\n- taches de réactif moderne gris-bleu au début des scholies des vv. 516 et 533 (lettres noircies, ni autre encre ni autre main) ;\n- tache translucide brun-jaune sur πλὴν (l. 24), probablement de la cire ;\n- colonne de texte bien conservée."
+  ],
+  "doutes": [
+   "Sigle du v. 533 : y a-t-il bien un sigle brun de S2 sous l'orangé, ou est-ce un sigle de 1516 d'une encre plus sombre ? Que sont les deux traits obliques au-dessus (accents du sigle, marques d'imprimeur) ?",
+   "Paragraphoi des vv. 544 et 549 : celle que Velsen voit au v. 544 (« — I m. ») est-elle sous la traverse du Η du sigle de 1516 ? Le trait orangé du v. 549 recouvre-t-il une paragraphos brune de T ?",
+   "Corrections de Velsen invisibles sur la photographie : ητρόν (509 ; aigu gratté sur ο ?), ἥμεις (518), παλαιὰν (529), κακα (545).",
+   "v. 550 : la finale -ας de ἁπάσας est-elle de S2 (Velsen) ou de T (tracé continu, encre homogène) ? Quelle est la fonction du trait ondulé sous la l. 43 ?",
+   "Fin de la l. 23 : le point isolé est-il une ponctuation de T ou le point initial de la scholie au v. 531 ? Accent de ἐστι (ἔστι ou ἐστὶ) ?",
+   "v. 542 : ἃ γίγνωσκον (Velsen) ou ἃ ᾽γίγνωσκον (Enger) ? Le petit signe placé sur la jonction α-γ a l'inclinaison d'un grave.",
+   "v. 530 : δάκη est-il sans iota ? v. 545 : quelle est la finale de δέδρακ… en fin de ligne ? v. 520 : le point sous μέντοι est-il une ponctuation ?",
+   "Nature du réactif (teinture de Gioberti ?) [à vérifier], de la tache de la l. 24 et du signe « = » brun-rouge au bord gauche à la hauteur de la l. 1."
+  ]
+ },
+ "f169r": {
+  "mains": [
+   {
+    "label": "T",
+    "role": "copiste du texte ; paragraphoi devant le vers ; dicola et points dans le vers ; queue du ξ (l. 24) et Φ en ekthesis (l. 25)",
+    "criteres": "minuscule du texte ; encre G/R 1,22–1,26, B/R 1,81–1,95 ; paragraphos courte, épaisse à gauche et effilée à droite, à mi-hauteur de la ligne (modèle non recouvert : l. 22)"
+   },
+   {
+    "label": "S2 (R² de Velsen)",
+    "role": "toutes les scholies et gloses ; sigles χ^ο (v. 571) et κλει(σ) (v. 574) ; renvoi ·×· (v. 566) ; τα suscrit (v. 557, probable) ; corrections de texte attribuées par Velsen, non confirmées par l'encre",
+    "criteres": "semi-onciale inclinée (Ε et C lunaires, capitales Μ, Ν, Η, accents sur les majuscules), finale ÷ ; encre G/R 1,23–1,34, B/R 1,86–2,16, qui recouvre celle de T"
+   },
+   {
+    "label": "Main du XVIe s. (« 2 m. » de Velsen 1871, attribuée à Boninus)",
+    "role": "sigles imprimables à presque chaque changement de locuteur ; renvoi + et ʌ avec κη^δ dans la marge supérieure (v. 552) ; complément θενησ (v. 574) ; peut-être repassage du κη^δ du v. 592",
+    "criteres": "encre orangée, souvent pâle : G/R 1,39–1,71, B/R 2,45–3,29 ; minuscule fine et rapide ; Γ très haut en crochet, κ en x cursif, η en H, δ suscrit, très grands χ à boucle (ο) ; sigles écrits sur la paragraphos ou le dicolon de T"
+   }
+  ],
+  "nb_interventions": 7,
+  "nb_pieges": 5,
+  "faits_saillants": [
+   "Fichiers produits : /workspaces/Thesmophories/ravennas/graphologie/folios/f169r.jsonl (56 observations : 9 reprises de l'exécution interrompue, 47 nouvelles) et /workspaces/Thesmophories/ravennas/graphologie/folios/f169r.md (synthèse). 38 spécimens dans /workspaces/Thesmophories/ravennas/graphologie/specimens/f169r/. Outils et carte d'encre dans /workspaces/Thesmophories/.travail/graphologie/f169r/ (outil.py, carte.py, carte_rb.png).",
+   "Mise en page : 43 lignes, vv. 551–592 (le nom du fichier, vv0551-0589, est faux). Le v. 567 est coupé à la réplique sur deux lignes (l. 17–18). Tétramètres aux l. 1–24, qui débordent le cadre à droite ; trimètres aux l. 25–43. Passage marqué par la queue en S du ξ de λέξει (l. 24) et par un Φ en ekthesis (l. 25, entrée de Clisthène). Pas de renfoncement, pas de titre.",
+   "Les encres séparent trois populations. T : G/R 1,22–1,26, B/R 1,81–1,95. S2 : 1,23–1,34 et 1,86–2,16. La main du XVIe s. a une encre orangée et pâle (1,39–1,71 et 2,45–3,29), reconnaissable à l'œil comme à la mesure. T et S2 se recouvrent : l'encre ne peut pas confirmer les attributions à R² de Velsen pour les petites corrections.",
+   "Presque tous les sigles de personnages sont de la main du XVIe s. : Γυνη (l. 1, 4), κη^δ (l. 5, 8, 10), Γυ^η (l. 16), Γυ dans les vers (l. 7, 9, 20), grands χ^ο (l. 33, 37, 40), κλ (l. 35, 38, 41). Ils sont souvent écrits sur la paragraphos de T, dont la barre a alors une encre mixte (1,48/2,40). Tous concordent avec la liste de Velsen 1871.",
+   "V. 552 : la main du XVIe s. a placé une croix (+) et un chevron (ʌ) dans le texte, après αὖ, avec le sigle κη^δ dans la marge supérieure. Elle déplace ainsi la coupe de réplique : T avait mis son dicolon plus tôt, après αὖθις.",
+   "S2 n'a que deux sigles visibles : χ^ο sous la paragraphos du v. 571, et κλει(σ) au v. 574. Dans ce dernier, σ et θενησ (au-dessus) ont l'encre orangée, ce qui donne Κλεισθένης en toutes lettres. Le κη^δ du v. 592, que Velsen 1883 attribue à R², a l'encre de la 3e main.",
+   "Renvoi de S2 : un signe ·×· est posé dans l'interligne au-dessus de τὼ θεώ (v. 566), et le même signe ouvre la scholie écrite en haut de la marge extérieure (ὡς τὼ χεῖρε· οὐκέτι δὲ μὰ τοῖν θεοῖν…). La scholie a été déplacée parce que la marge voisine était pleine. C'est une exception à l'idée que S2 n'emploie pas de signes de renvoi.",
+   "Interventions confirmées sur l'image : τα suscrit sur ἐπεὶ (v. 557, encre de S2) ; φιλίστη écrit sur le grattage d'un η (v. 568) ; ἀεί avec un accent en V, aigu ajouté sur le grave (v. 576) ; ν suscrit dans φράσω^ν (v. 579). Non confirmées : χεσεῖν ποήσω « in rasura » (v. 570, ni grattage ni changement d'encre visibles) ; accents de φαμέν (v. 559), de ὁμοῦ (v. 572) et de ἀγγελῶν (v. 579).",
+   "Pièges de lecture : aux vv. 562 et 563, T n'a qu'un point simple, pas de dicolon. ἀχαρνικὴ se lit facilement ἀγχαρνικὴ : le γ est intact sur l'image, contre la correction que signale Velsen. L'accent en V de ἀεί n'est pas un circonflexe. Le long trait final de διδοῦσ(αι) est le compendium de -αι. Les grands χ des l. 37 et 40 débordent sur le début des vers (ρ fantôme devant ἐκεῖνος). Au v. 569, le dicolon de T se confond avec le sigle Γυ.",
+   "Scholies et gloses, toutes de S2 (semi-onciale, finale ÷, sans lemme). Marge extérieure : scholies aux vv. 566 (déplacée), 556, 557, 560, 561, 565, 566–567, 572, 574–576 et 585. Marge intérieure : gloses aux vv. 560 (κατέκοψεν), 562 et 564 (même glose ὡς ϗ τ(ού)τ(ου) πάλ(ιν) γενομένου, deux fois) et 578 (πρὸ ὀλίγου) ; scholies aux vv. 567 (11 lignes) et 585 (doublet partiel de la scholie de la marge extérieure). Leur texte concorde avec Rutherford 1896, II, 477–479.",
+   "État matériel : pièce de restauration au coin supérieur extérieur, sous laquelle une ligne d'écriture est cachée ; auréole d'humidité en haut ; fente réparée dans la marge extérieure, qui fait perdre la moitié droite des scholies des l. 7–18 et 23–28 ; colonne de texte bien conservée. Aucun signal marginal de T (√, +, ⋎, ÷) sur la page. La marque « 12 » de la Juntine, que Velsen 1871 place après le v. 592, n'est pas retrouvée ; seuls subsistent trois traits pâles de fonction indéterminée."
+  ],
+  "doutes": [
+   "V. 592 (l. 43) : le κη^δ, que Velsen 1883 donne à R², a l'encre de la 3e main. Est-ce un sigle de S2 repassé, ou un sigle propre à la 3e main ?",
+   "V. 574 (l. 25) : la répartition κλει (S2) / σ + θενησ (XVIe s.) est-elle juste ? À qui revient le θ suscrit que Velsen attribue à R² ?",
+   "V. 570 : y a-t-il un grattage sous χεσεῖν ποήσω, et de quelle main est l'écriture (R² selon Velsen) ?",
+   "V. 563 : la correction ἀγχαρνικὴ → ἀχαρνικὴ existe-t-elle ? Le γ paraît intact sur la photographie.",
+   "Vv. 559, 572, 579 : l'état des accents de φαμέν, ὁμοῦ et ἀγγελῶν n'est pas lisible avec sûreté sur l'image.",
+   "Vv. 567b et 568 : quelles notations de la 3e main subsistent ? Il y a un trait orangé devant οὐ (l. 18), le « γυ. α » de Velsen est introuvable, et la plage frottée après le dicolon de la l. 17 pourrait être un grattage.",
+   "V. 582 : le tiret et le signe en ε d'encre brune devant τί sont-ils les restes d'un sigle de S2 gratté, ou une paragraphos de T ?",
+   "Paragraphoi de T sous les sigles des l. 10, 16, 40 et 41 : sont-elles encore visibles sur l'original (l'encre de la barre est entièrement orangée aux l. 10 et 16) ?",
+   "Marque « 12 » de la Juntine après le v. 592 : est-elle au bas de cette page ou en tête de f. 169v ? Quelle est la fonction des trois traits pâles d'encre neutre (marge supérieure, devant la l. 43, sous la l. 43) ?"
+  ]
+ },
+ "f169v": {
+  "mains": [
+   {
+    "label": "T",
+    "role": "copiste du texte : texte, paragraphoi, dicola, points ; corrections d'accent probables ; μέντοi en marge au v. 630 (présumé)",
+    "criteres": "minuscule du texte ; paragraphos en massue de 25 à 42 px entre x ≈ 650 et 725 ; encre G/R 1,28–1,37 et B/R 2,11–2,42 (10 prélèvements)"
+   },
+   {
+    "label": "S2 (R² de Velsen)",
+    "role": "scholiaste et principal correcteur ancien : 9 scholies, 4 gloses, 13 sigles de personnages ; δεῦρ' ὦ selon Velsen",
+    "criteres": "semi-onciale inclinée ; sigles en petites majuscules détachées (Κ fait d'une haste et d'un c, σ lunaire, θ suscrit barré), sauf μνη^σ au v. 615, en minuscule fine dans l'interligne ; scholies ouvertes par un tiret et closes par ÷, mots coupés sans trait d'union ; encre G/R 1,34–1,39 et B/R 2,21–2,54, non séparable de celle de T"
+   },
+   {
+    "label": "main du XVIe s. (« 2 m. » de Velsen 1871, attribuée à Boninus)",
+    "role": "sigles imprimables pour la Juntine : κλ et κη au v. 604, κλ au v. 608 ; marques de page (« 12 », trait après le v. 618) probablement de la même campagne",
+    "criteres": "encre orangée nettement distincte, G/R 1,51–1,75 et B/R 2,76–3,82 ; κ en croix, η en h ; carte pixel par pixel : rien d'autre sur la page"
+   },
+   {
+    "label": "indéterminée, moderne ?",
+    "role": "traînée gris-noir en pointillé dans la marge gauche aux l. 30–34 ; trait fin oblique après la paragraphos du v. 631",
+    "criteres": "gris à l'œil, différent de l'encre brune (mine de plomb ou salissure ?) ; mesure peu fiable sur des tracés aussi fins"
+   }
+  ],
+  "nb_interventions": 10,
+  "nb_pieges": 29,
+  "faits_saillants": [
+   "Reprise de deux passes interrompues (l. 1–18 et l. 28–43, marges, état). Il manquait les l. 19–27 et la tête de la l. 11 : je les ai traitées. Le JSONL passe à 114 observations (32 ajoutées). La synthèse f169v.md est rédigée et f169v.json mis à jour. Il y a 86 spécimens, tous de 600 px de large au plus.",
+   "Mise en page : 43 lignes de trimètres, un vers par ligne, vv. 593–635 (le nom du fichier, vv0590-0634, est faux). Pas de titre, de blanc ni de renfoncement. Réglure à la pointe sèche (sillons à x ≈ 708, 765, 1604, 1647 ; justification d'environ 104 mm, comme chez Zacher), écriture suspendue. Côté poil, pas de foliotation au verso.",
+   "Trois mains certaines : T, S2 et la main du XVIe s. S2 a écrit toutes les scholies et gloses et 13 sigles. La main du XVIe s. (encre orangée) n'a que 3 sigles : κλ et κη au v. 604, κλ au v. 608. Une carte pixel par pixel de l'encre orangée le confirme, en accord avec Velsen 1871.",
+   "T et S2 ne se séparent pas par l'encre (T : G/R 1,28–1,37 et B/R 2,11–2,42 ; scholies de S2 : 1,34–1,39 et 2,21–2,54). Seuls le module et le ductus permettent d'attribuer une petite intervention à l'un ou à l'autre.",
+   "Précaution de mesure établie sur cette page : les points et traits fins mesurent toujours « gris » (dicola de T : B/R 1,5–1,9), à cause de la compression JPEG. Une teinte grise mesurée sur un petit signe ne prouve donc pas une autre encre. La bande jaunie de la marge extérieure (x < 420) fausse aussi les rapports.",
+   "Sigles de T : 25 paragraphoi visibles, dont 2 annulées par un trait vertical (vv. 608 et 620), plus 2 non isolables (vv. 604, 605), et 13 dicola.",
+   "Écarts de T avec la répartition des éditions : aucune marque aux vv. 597 et 609 (avant τίτθη) ; paragraphos barrée au v. 608 alors que le locuteur change ; point simple au v. 621 ; marques sans changement de locuteur aux vv. 601, 605 (dicolon), 622, 623 et 635.",
+   "Sigles de S2 : κλεισ^θ (5 fois), χ^ρ pour le chœur (3 fois), κη^δ suscrit, γυ^ν μία, γυ^ν et μνη^σ (2 fois). Sur cette même page, S2 écrit les deux noms du Parent : κη^δ au v. 603, μνη^σ aux vv. 615 et 630.",
+   "Interventions : trois corrections d'accent faites de la même façon, un aigu ajouté au grave sans grattage, d'où un accent en V (θεώ, σύ, ἐγώ). S'y ajoutent des graves grattés au v. 609 ; ceux de ὃς et νὴ, signalés par Velsen, sont invisibles sur l'image.",
+   "Autres interventions : deux paragraphoi annulées (vv. 608 et 620) ; μέντοι, omis, écrit en marge de la main du texte (T présumé) ; δεῦρο corrigé en δεῦρ' ὦ, de S2 selon Velsen, sans vérification possible sur l'image. Aucun signal du copiste (√, +, ⋎, ÷) sur la page.",
+   "Correction 1 (v. 601) : le trait collé au ÷ de la scholie était lu comme une fin de scholie « ÷— » de S2. C'est probablement une paragraphos de T : même longueur et même forme, aucune autre fin « ÷— » chez S2. Velsen et l'apographe G lisent aussi une paragraphos.",
+   "Correction 2 (vv. 617–618) : les deux tirets au bout des lignes de la scholie au v. 616 sont des paragraphoi de T. S2 a raccourci ces deux lignes (fin à x ≈ 670–680 au lieu de 700–708 aux lignes voisines). Il ne met jamais de trait d'union : le mot χρῶν|ται est coupé sans signe.",
+   "Correction 3 : les sigles du chœur, lus χ^ο « en astérisque », sont des χ^ρ. La haste du ρ traverse le χ, comme chez Velsen.",
+   "Correction 4 : le « signe en volute » de la fin de la l. 8 est très probablement la ligature -ος de ἐγκαθήμενος, et non un signal ou un renvoi.",
+   "Pièges de lecture : ν en forme de μ ; π en forme de ϖ ; barres de liaison qui imitent des biffures ; ligature ει « en q », qui ressemble au ζ en 3 (dans εἶ, πόει, πυνθάνει) ; γι en forme de Π ; ψ en croix, qui imite le signal + ; στ qui ressemble à α.",
+   "Pièges propres à cette page : un point simple suivi de l'apostrophe de la l. 20, qui imite un dicolon (l. 19) ; le σ du μνη^σ de la l. 23 logé dans le γι de la l. 22 ; μέντοι en marge, qui n'est pas un sigle ; les paragraphoi qui touchent les scholies.",
+   "Scholies : 9 scholies (vv. 600, 603, 616, 620, 622, 623, 624 en deux parties, 630, 633) et 4 gloses (vv. 600, 602, 612, 631), toutes de S2. Elles ouvrent par un tiret, finissent par ÷, sans lemme ; les abréviations sont relevées et développées. Toutes sont lisibles.",
+   "État matériel : texte intact. Dans la marge extérieure, une bande jaunie et un pli. Dans la marge droite, un grand croissant clair, probablement un reflet de prise de vue (la « plage claire » d'une passe précédente en fait partie). À gauche, une traînée gris-noir aux l. 30–34, mine de plomb ou salissure.",
+   "Les traces pâles du haut de la marge gauche ne sont pas une scholie effacée : c'est la transparence de la scholie au v. 566 du f. 169r (position exacte en miroir). Marques pour l'imprimeur : un « 12 » très pâle (certitude faible) et un trait après le v. 618."
+  ],
+  "doutes": [
+   "V. 601 : paragraphos de T (interprétation retenue) ou tiret final de S2 ?",
+   "V. 600 : le signe en volute est-il bien la ligature -ος ? Il faut trouver d'autres fins de vers comparables dans R.",
+   "V. 604 : la paragraphos et le dicolon de T sont-ils encore présents sous les sigles orangés ? Le signe au-dessus du κη est-il un Λ ou un δ ?",
+   "V. 608 : la croix est-elle une paragraphos barrée ou un signal + ? Qui a tracé le trait vertical ?",
+   "V. 605 : le trait oblique devant le vers est-il une paragraphos ou la queue du ζ de la l. 12 ?",
+   "V. 609 : quels signes ont été grattés au-dessus de τιτθην et de η ? Vv. 621 et 623 : il ne reste rien de visible des graves grattés de ὃς et νὴ.",
+   "V. 634 : laquelle des deux boucles de l'ω de δεῦρ' ὦ a été ajoutée, et de quelle encre ?",
+   "V. 618 : le groupe de quatre points forme-t-il un ou deux dicola ? V. 616 : ἐχθεσ porte-t-il un accent ?",
+   "V. 615 : le μνη^σ est-il bien de S2 ? Son encre est un peu plus jaune (B/R 2,68). V. 630 : le μέντοι de la marge est-il de T ou de S2 ?",
+   "Les corrections d'accent en série sont-elles d'un seul correcteur, T en relecture ou S2 ?",
+   "Le croissant clair est-il un reflet ou une décoloration ? De quelle matière et de quand datent le trait gris de la l. 39 et la traînée des l. 30–34 ?",
+   "La marque « 12 » de la Juntine en haut à gauche est-elle bien lue ?",
+   "Références tirées de Dübner (Xénophon, Cyr. I 2, 16 ; εἰπεῖν ou λέγειν dans la scholie au v. 622) : à vérifier sur une édition des scholies."
+  ]
+ },
+ "f170r": {
+  "mains": [
+   {
+    "label": "T (copiste)",
+    "role": "Texte, paragraphoi, dicola, points et virgules, traits de remplissage, compendium ϗ. Corrections faites en écrivant : biffure de la l. 34, surcharge de τρόπων et accent de ἀθέων (l. 36). Probablement les ÷ de renvoi du v. 647.",
+    "criteres": "Minuscule du texte ; G/R 1,30–1,37 ; B/R 2,03–2,30 (grandes plages 1,33–1,36 ; 2,23–2,30), rouge-orangé en décorrélation Lab."
+   },
+   {
+    "label": "S2 (scholiaste, R² de Velsen, B d'Allen)",
+    "role": "Deux blocs de scholies, quatre gloses, sigles bruns (l. 2, 10, 13, 14, 16), v. 647 ajouté en marge, et probablement la correction de ἰσθμὸν.",
+    "criteres": "Semi-onciale inclinée, lettres disjointes, Ε et C lunaires ; minuscule de grand module inclinée pour le vers ajouté. G/R 1,35–1,45 ; B/R 2,10–2,66 (scholies 1,40 ; 2,49 ; v. 647 1,44 ; 2,48). Recouvrement avec T sur les petits signes."
+   },
+   {
+    "label": "Encre orangée (S2 selon Velsen 1883, ou main du XVIe s. ?)",
+    "role": "Sigles du chœur χ^ρ (l. 19) et ἡμι^χ γυν^αικῶν (l. 24), paragraphos de la l. 24 repassée.",
+    "criteres": "Tracé fin, sans plein ni délié ; G/R 1,57–1,70 ; B/R 3,0–3,6, magenta en décorrélation Lab, comme les sigles imprimables des ff. 168r–169v."
+   },
+   {
+    "label": "Correcteur à l'encre neutre",
+    "role": "ἥκει πάλιν sur grattage (l. 11) ; aigu ajouté sur ἐγώ (l. 14) ; probablement aigu de καιρός (l. 26) ; peut-être un point sous l'esprit de ἦν (l. 32).",
+    "criteres": "Semi-onciale droite, un peu plus grande que celle des scholies ; encre dense et neutre, G/R 1,20–1,24 ; B/R 1,75–1,85, brun olive en décorrélation Lab. Corrections d'accent faites selon la règle de l'oxyton."
+   },
+   {
+    "label": "Main du XVIe s. (préparation de la Juntine)",
+    "role": "Repères de page : « 14 » et trait entre les l. 9 et 10, trait entre les l. 35 et 36.",
+    "criteres": "Chiffre arabe humanistique (4 ouvert) ; gris pâle peu saturé, G/R 1,15–1,29 ; B/R 1,50–2,27, rose-gris en décorrélation Lab ; positions conformes à Velsen 1871."
+   },
+   {
+    "label": "Mains modernes",
+    "role": "Foliotations « 172 » (crayon, Classense) et « 170 » (encre, contre la gouttière).",
+    "criteres": "Graphite (G/R 0,99–1,13) ; chiffres arabes modernes."
+   },
+   {
+    "label": "Main indéterminée",
+    "role": "Deux paires de traits « // » à l'interligne 1/2, aux deux bords de la page.",
+    "criteres": "Encre brune voisine de T et S2 ; fonction inconnue."
+   }
+  ],
+  "nb_interventions": 11,
+  "nb_pieges": 12,
+  "faits_saillants": [
+   "Fichiers : /workspaces/Thesmophories/ravennas/graphologie/folios/f170r.jsonl (57 observations, reprise des 43 de l'exécution interrompue + 14 nouvelles), /workspaces/Thesmophories/ravennas/graphologie/folios/f170r.md (synthèse a–i), /workspaces/Thesmophories/ravennas/graphologie/folios/f170r.json (en-tête mis à jour), spécimens dans /workspaces/Thesmophories/ravennas/graphologie/specimens/f170r/ (tous ≤ 600 px).",
+   "Mise en page : 43 lignes réglées, vv. 636–677 de Hall–Geldart (= 636–678 de Velsen et de l'édition). Le v. 647, omis par T, est ajouté par S2 en marge droite (l. 9–10). « ἀθρῆσαι » (fin du v. 658) occupe seul la l. 23. Les vv. 664+664a sont sur la l. 29, les vv. 666+667 sur la l. 31, le v. 675 sur trois lignes. Ekthesis aux l. 19–22 (anapestes, Η agrandi), 26 et 31 ; aucun renfoncement lyrique. Foliotations « 172 » (crayon) et « 170 » (encre, contre la gouttière).",
+   "Découverte principale : un correcteur à encre neutre et dense (G/R 1,20–1,24 ; B/R 1,75–1,85, contre T 1,33–1,36 / 2,23–2,30 et S2 1,40–1,44 / 2,48). Il a écrit ἥκει πάλιν sur grattage (l. 11 ; « B » pour Allen 1896, 316, R² pour Velsen) et ajouté un aigu à côté du grave de T sur ἐγώ (l. 14), et probablement sur καιρός (l. 26). Ces accents en V appliquent la règle de l'oxyton devant une ponctuation ou un enclitique. Pour ἐγώ, c'est l'inverse de Velsen 1883 (« ἐγὼ· corr. ex ἐγώ· ») ; G a ἐγὼ.",
+   "Les sigles du chœur χ^ρ (l. 19) et ἡμι^χ γυν^αικῶν (l. 24, sur la paragraphos de T) sont à l'encre orangée (G/R 1,57–1,70 ; B/R 3,0–3,6), celle de la main de 1516 aux ff. 168r–169v. Pourtant Velsen 1883 les attribue à R², G les reproduit, et Velsen 1871 n'en relève aucun pour la « 2 m. » entre les vv. 608 et 710 (vérifié sur l'imprimé OCR) : question ouverte. Les sigles bruns de S2 (μνη^σ l. 2 et dans l'interligne l. 14, κλεισ^θ l. 10, γυ^ν l. 13 et 16) sont abrégés par une lettre suscrite et posés à gauche de la paragraphos.",
+   "Marques de T : paragraphoi aux seules l. 6, 9, 10, 11, 13 et 24 (contrôlé sur une bande de la marge gauche). Dicola aux l. 10, 11 et 14 (changement de locuteur), mais aussi sans changement aux l. 22, 30 et 34. Au v. 652 (l. 16), le changement de locuteur n'est marqué que par un point simple. Aucune marque de locuteur aux l. 25–43.",
+   "Renvoi du v. 647 : ÷ à barre ondulée identiques après la fin de la l. 11 et en tête du vers marginal, variante oblique pointée devant la l. 12. Leur encre est plus proche de T que de S2, d'où l'hypothèse que T signale l'omission et que S2 écrit le vers ensuite. Cela corrige la forme « ·/· » donnée plus haut pour le signe de tête. Aucun √, +, ni ⋎ sur la page.",
+   "Autres interventions : dittographie ἅπασιν ἅπασιν, le second biffé d'un trait (l. 34, T probable) ; τρόπων surchargé sur τρωόπων et double accent de ἀθέων, d'une même encre dense (l. 36, T probable) ; λέλη^θ ὤν, θ barré suscrit pour le -θεν omis (l. 29) ; grattage probable entre τό et π de τόποις (τούτοις → τόποις, R² selon Velsen) ; ἰσθμὸν du v. 647, où un ο d'encre légèrement différente et une trace abrasée s'accordent avec ἰσθμὶν → ἰσθμον. Non vérifiables sur la photographie : ὣς → ὡς (l. 27) ; ἧν → ἦν (l. 32, seulement un point d'encre neutre).",
+   "Pièges principaux : δημήτηρ = δὲ μήτηρ, à ne pas lire Δημήτηρ (l. 7) ; τὸ δὶ δὴ ἔκυψε (l. 9) ; κ' οὐκ' (l. 6) ; traits de remplissage du ε final (πώποτε l. 6, φυλάττετε l. 16), qui ne sont pas des biffures ; compendium ϗ en « S » dans le texte (l. 21, 22) ; queue du α de πόδα descendant jusqu'à la l. 26, qui n'est pas un renvoi ; χ^ρ en forme de chrisme ; ν onciale « н » (ἅπασιν) ; haste du φ (l. 37–38) ; ξ et ζ semblables ; ει en « 4 » ; δι à iota plongeant ; π en oméga ; ν final qui ressemble à μ ; virgule basse et crochet du σ dans ἀνίστασ (l. 8).",
+   "Scholies et gloses, toutes de S2 (semi-onciale inclinée, encre brune homogène) : deux blocs dans la marge extérieure (l. 11–15, vv. 646–648 : οὐκ ἐνταῦθα γὰρ…, ἐπεὶ τὰς ναῦς διὰ τοῦ ἰσθμοῦ…; l. 20–26, vv. 656–658 : τῶν ἐγκυκλίων ἀποδυσαμένας, περιδραμεῖν, τὴν ἐκκλησίαν…, ἐπεποίητο γὰρ ἐκκλησία…), chacune ouverte par un tiret et fermée par ÷ ou :-. Quatre gloses dans la marge intérieure (ἀντ(ὶ) τ(οῦ) στεῖρα, ἀντ(ὶ) τ(οῦ) διὰ ταῦτα, ἐπεὶ μόναι γυναῖκες / ἡ ἐκκλησία, παρακαθεζόμενος). Abréviations : ἀν^τ, τ̆, lettres suscrites, ϗ, suspensions.",
+   "Impression de 1516 : « 14 » et trait pâle entre les l. 9 et 10, trait pâle entre les l. 35 et 36 ; concordance vérifiée avec Velsen 1871 (« v. 644 R — 14 Junt. b. 14, v. 670 R — 15 »). Le chiffre « 15 » n'a pas été retrouvé. Les repères sont gris pâles (mine de plomb ou encre diluée).",
+   "État matériel : bande d'humidité verticale dans la marge extérieure (fins des scholies et du v. 647 assombries, sans perte) ; plage claire aux pores apparents entre les blocs de scholies ; auréoles dans le bas de page. Dans la marge intérieure, un point gris-noir (l. 24) et une salissure (l. 32), qui ne sont pas de l'encre. La colonne de texte est entièrement lisible et sans restauration."
+  ],
+  "doutes": [
+   "Encre orangée des l. 19 et 24 : S2 avec une autre encre (Velsen 1883 ; G reproduit ces sigles), « premier correcteur à l'encre rougeâtre » de Clark, ou main de 1516 (même encre qu'aux ff. 168r–169v ; absents de la liste de Velsen 1871) ?",
+   "Correcteur à l'encre neutre (ἥκει πάλιν, aigus de ἐγώ et de καιρός) : S2 avec une autre encre (Allen, Velsen) ou main plus tardive (R³) ? À comparer avec les écrits sur grattage du f. 168r (vv. 468, 493) et avec l'accent en V de ἀεί (f. 169r).",
+   "ἐγώ (v. 650) : sur l'image, l'aigu est ajouté au grave de T, à l'inverse de Velsen 1883 ; à confirmer sur l'original (ordre des tracés).",
+   "Leçon grattée sous ἥκει πάλιν (grattage plus long que les mots) : illisible sur la photographie ; lecture aux UV à tenter.",
+   "Corrections ὣς → ὡς (v. 662) et ἧν → ἦν (v. 668) de Velsen : non vérifiables ; l'accent qui suit ὡς appartient-il à ὡς ou à τάχιστ' ?",
+   "τόποις (v. 664) : trace de τούτοις et main de la correction ; λέλη^θ (v. 664a) : T ou S2, et valeur de la barre du θ (-εν ?).",
+   "Signes ÷ du v. 647 : signal de T (encre plus proche de T) ou renvoi du correcteur ? Grattage de ἰσθμὶν visible sur l'original ?",
+   "Chiffre « 15 » de la Juntine (v. 670) absent ou effacé ; fonction des « // » des l. 1–2.",
+   "Valeur des dicola sans changement de locuteur (l. 22, 30, 34 ; demi-chœurs ?) et des ekthesis des l. 26 et 31 dans la colométrie de R.",
+   "Mesures d'encre sur très petites surfaces (18 à 77 px) pour les accents et les signes ; pour le ÷ de la fin de la l. 11, le résultat dépend du cadre retenu (1,23/1,79 ou 1,33/2,08) : valeur indicative seulement."
+  ]
+ },
+ "f170v": {
+  "mains": [
+   {
+    "label": "T",
+    "role": "Copiste du texte. Il trace les paragraphoi (l. 11, 28, 30, 32, 37, 38, 40) et le dicolon (l. 18), et ajoute probablement le ν suscrit de la l. 21.",
+    "criteres": "Minuscule du texte. Encre G/R 1,27–1,30, B/R 1,96–2,05. Paragraphoi courtes en massue ou en crochet. Ligature ει en boucle ; esprits initiaux souvent posés à gauche de la voyelle."
+   },
+   {
+    "label": "S2 (R² de Velsen, B d'Allen)",
+    "role": "Écrit toutes les scholies et les gloses, et les sigles μνη^σ, γυ^ν et χορ (monogramme). Probablement aussi le Η suscrit du v. 693 et peut-être le sigle de la l. 11.",
+    "criteres": "Semi-onciale inclinée, petite ; Η onciale. Encre G/R 1,25–1,39, B/R 1,81–2,23, indiscernable de T. Ses scholies n'ont pas de lemme et finissent par ÷."
+   },
+   {
+    "label": "Main du XVIe s. (« 2 m. » de Velsen 1871, préparation de la Juntine)",
+    "role": "Écrit le Γυ du v. 710 (sûr). Très probablement aussi le Κ et le zigzag sur le μνη du v. 709, et le repassage du sigle du v. 689.",
+    "criteres": "Encre orangée G/R 1,43–1,64, B/R 2,38–3,23 ; sur la carte B/R, cœur des traits orange. Minuscule rapide, Γ à longue barre recourbée, Κ onciale épais."
+   },
+   {
+    "label": "Marque de mise en page de 1516 (crayon ou encre pâle)",
+    "role": "Trait fin entre les l. 18 et 19, vraisemblablement la fin de la p. b 16 de la Juntine.",
+    "criteres": "Encre neutre G/R 1,25–1,31, B/R 1,64–1,75. Position exacte indiquée par Velsen 1871, 5."
+   }
+  ],
+  "nb_interventions": 8,
+  "nb_pieges": 7,
+  "faits_saillants": [
+   "Fichiers produits : ravennas/graphologie/folios/f170v.jsonl (55 observations) et ravennas/graphologie/folios/f170v.md ; 43 découpes dans ravennas/graphologie/specimens/f170v/ ; outils et vues intermédiaires dans .travail/graphologie/f170v/ (outil.py, cote.py, carte.py, inv/).",
+   "La page a 43 lignes : vv. 679–720 dans la numérotation de l'édition et de Velsen 1883. Le nom du fichier image est juste ; la numérotation Hall–Geldart s'en écarte d'une ou deux unités aux vv. 679–688. Les vv. 684–686 sont répartis ainsi : θεὸς | ἀποτίνεται· | παραχρῆμά τε τίνεται. Les interjections ἄ α· (l. 11) et ἔα· ἔα (l. 22) sont seules sur leur ligne et centrées.",
+   "Colométrie lisible à l'alignement : les parties lyriques sont renfoncées (x ≈ 805–885), les trimètres commencent sur le filet intérieur (x ≈ 795), les tétramètres un peu en saillie entre les deux filets de gauche (737/795). Au f. 170r, au contraire, les lyriques ne sont pas renfoncées.",
+   "Aucun numéro de folio sur ce verso. La réglure est à la pointe sèche, avec un double filet à gauche ; la justification 795–1681 px fait environ 103 mm, comme chez Zacher.",
+   "Trois encres se distinguent. T et S2 se recouvrent : T a G/R 1,27–1,30 et B/R 1,96–2,05 ; S2 a 1,25–1,39 et 1,81–2,23. La main du XVIe s. est orangée : 1,43–1,64 et 2,38–3,23. Comme au f. 169r, une petite correction ne peut donc pas être attribuée à T ou à S2 par l'encre.",
+   "Les sigles de personnages sont presque tous de S2, ce qui confirme Allen : « nearly all the dram. pers. are by B ». S2 en a 8 sûrs (9 avec celui de la l. 11) : μνη^σ quatre fois pour le Parent, jamais κηδ. ; γυ^ν pour Mica ; un monogramme χ + ρ (χορός) trois fois pour le chœur. T met 7 paragraphoi (en massue ou en crochet) et 1 dicolon (l. 18). Ces marques de T et ces sigles de S2 concordent tous avec Velsen 1883.",
+   "La main du XVIe s. a un sigle sûr : Γυ au v. 710 (l. 33), le seul que relève Velsen 1871, 11. Deux autres cas nouveaux portent la même encre orangée : au v. 709 (l. 32), un Κ et un tracé en zigzag sur le μνη de S2 ; au v. 689 (l. 11), un sigle Γυ^ν(η) écrit sur la paragraphos de T et orangé au cœur des traits.",
+   "Il y a 8 interventions dans le texte, aucune par grattage ou par exponctuation. Trois sont des lettres suscrites : un Η onciale au-dessus du ει de ἀφεῖτ', qui corrige en ἀφῆτ' (l. 16) ; ν sur ἀποστερουμένης (l. 21) ; α sur ἐπεύχομαi (l. 37). Les cinq autres sont des accents que Velsen dit corrigés (vv. 683, 695, 697, 703 ×2, 706). La correction τρόπαιον → τροπαῖον n'est pas retrouvée sur l'image.",
+   "Le Η suscrit du v. 693 confirme Velsen 1871, 34 (ἀφεῖτ' avec η suscrit dans R, ἀφείητ' dans la Juntine) et Velsen 1883. Je l'avais d'abord pris pour une croix : c'est un piège à signaler.",
+   "Il n'y a aucun signal marginal du copiste (√, +, ⋎, ÷) sur la page.",
+   "Un trait fin d'encre neutre (B/R ≈ 1,7) se trouve entre les l. 18 et 19, à l'endroit où Velsen 1871, 5 place la marque « 16 — » de la Juntine (fin de b 16, après le v. 695). Le chiffre n'est pas visible. La marque de c 1 doit se trouver au f. 171r.",
+   "Pièges principaux. (1) La ligature ει de T ressemble à un η ou à un q (φεύγεις, ἀφεῖτ', ἔχει). (2) Dans ἔοιχ', l'ι est pincé et imite un dicolon (l. 9). (3) Le monogramme χορ ressemble à un astérisque. (4) Les esprits des voyelles initiales sont posés à gauche de la lettre, à mi-hauteur (l. 4, 5, 9, 23, 39). (5) ὁσια est écrit avec une ligature σι (l. 1). (6) Les sigles sont collés au bout des lignes de la scholie aux vv. 688–690. (7) La paragraphos en crochet de la l. 40 prolonge une ligne de la scholie au v. 717.",
+   "Scholies et gloses sont toutes de S2, sans lemme, terminées par ÷ et sans signe de renvoi. Elles sont identifiées sur Dübner 1842 : vv. 680, 682, 686, 688–690, 693, 697, 700–702, 710 (deux notes), 714, 717. Les gloses des l. 2 et 7 sont écrites dans le blanc de la ligne lyrique courte. La scholie au v. 717 (κάθηται ἐπὶ βωμοῦ…) commente en fait le v. 693 : elle est déplacée, sans renvoi.",
+   "État matériel : une tache bleu-vert foncé (teinte ≈ 112°, matière étrangère aux encres) masque le début de la scholie aux vv. 688–690. Une bande d'humidité verticale dans la marge extérieure pâlit le début des lignes de scholies, et deux lignes effacées y sont illisibles. Une auréole marque la marge supérieure. La colonne de texte est bien conservée."
+  ],
+  "doutes": [
+   "L. 11 (v. 689) : le sigle est-il le γυ^ν de S2 repassé par la main du XVIe s., ou un γυνη de cette main ? Il faut aussi établir la lecture exacte (ΓΥ^Ν ΝΗ) et la fonction des deux traits pâles voisins.",
+   "L. 32 (v. 709) : le zigzag orangé est-il une biffure du μνη de S2, et le Κ (pour Κη(δεστής) ?) est-il de la main du XVIe s. ? Velsen n'en dit rien. Il faut vérifier sur un exemplaire de 1516 quel sigle la Juntine imprime à ce vers.",
+   "L. 16 : le Η suscrit est-il de S2 (forme onciale) ou de T ? Les deux points qui l'encadrent sont-ils des circonflexes ?",
+   "L. 20 (v. 697) : la correction τρόπαιον → τροπαῖον donnée par Velsen 1883 existe-t-elle ? Je ne la vois pas sur la photographie.",
+   "Accents corrigés des vv. 683, 695, 703 (×2) et 706 : y a-t-il vraiment correction, et de quelle main ? Velsen les donne à R², mais l'encre de T et celle de S2 sont indiscernables.",
+   "ν suscrit (l. 21) et α suscrit (l. 37) : sont-ils de T ou de S2 ?",
+   "Trait des l. 18–19 : est-il au crayon ou à l'encre ? Pourquoi le chiffre 16 manque-t-il (jamais écrit, ou effacé) ?",
+   "Tache bleu-vert de la l. 9 : réactif, encre moderne ou dépôt ? Que portaient les deux lignes effacées de la marge extérieure (l. 8–9 et 25–26) ?",
+   "Les deux points au-dessus du Γυ de la l. 33 sont-ils de la main du XVIe s. ? En décorrélation Lab, ils ont la même teinte que le zigzag de la l. 32.",
+   "Les faits diplomatiques de T signalés par Velsen 1883 sont listés dans le JSONL, catégorie « forme ». Je n'en ai vérifié que quelques-uns (ὅτ ἂν, ἄ α·, στήσεσθε sans καί) ; les autres sont à contrôler ligne à ligne par les transcripteurs."
+  ]
+ },
+ "f171r": {
+  "mains": [
+   {
+    "label": "T",
+    "role": "copiste du texte ; paragraphoi, dicola, points, trait d'union (l. 3), biffure de τὸ (v. 754)",
+    "criteres": "minuscule liée du texte ; encre G/R 1,20–1,31, B/R 1,72–2,02 (paragraphoi 1,26–1,36 ; 1,87–2,15) ; paragraphos courte à tête épaisse"
+   },
+   {
+    "label": "S2 (R² de Velsen, B d'Allen)",
+    "role": "scholiaste et correcteur ancien : 11 scholies, 4 gloses, indications de scène πρὸ(ς) τ(ὰς) γυναῖκας (v. 726) et ἄλλη γυ(νή) (v. 760), forme du sigle μνη^σι (v. 730), χ et σι suscrits (vv. 726, 734 ; probables), rature dans une scholie",
+    "criteres": "semi-onciale inclinée pour les scholies, petite minuscule droite pour les gloses ; encre 1,22–1,36 ; 1,75–2,11, indiscernable de celle de T à la mesure ; abréviations τ(οῦ)το, δ(ὲ), εἰπ(ὼ)ν, ἄλλ(ως)"
+   },
+   {
+    "label": "Main du XVIe s. (2 m. de Velsen 1871, attribuée à Boninus)",
+    "role": "11 sigles imprimables Γυ/Γϋ aux vv. 739–751 ; encre actuelle du μνη^σι (v. 730) ; trait de la marque c 1 de la Juntine (l. 1) ; trait oblique de la marge intérieure (l. 36), probable",
+    "criteres": "encre orangée : sigles G/R 1,32–1,65, B/R 2,19–3,13, traits fins 1,29–1,36 ; 2,13–2,33 ; orangée en décorrélation Lab ; Γ en crochet dont la haste est souvent le dicolon de T"
+   },
+   {
+    "label": "Moderne",
+    "role": "foliotations « 171 » et « 173 » ; peut-être la trace grise contre le pli aux l. 27–28 (marque c 2 ?)",
+    "criteres": "mine de plomb, trait gris sans encre"
+   }
+  ],
+  "nb_interventions": 12,
+  "nb_pieges": 15,
+  "faits_saillants": [
+   "Mise en page : 43 lignes, vv. 721–763 (le nom du fichier, « 0721-0764 », est inexact). L. 1–5 : fin du chant du chœur (vv. 721–725), en renfoncement, avec la colométrie que décrit Velsen 1883 (fins de ligne ἄντα | τῶνδε | μεταβαλοῦ- | ἑτερότροπον | τύχη) ; trait d'union de T à la l. 3. L. 6–7 : tétramètres qui débordent le cadre. L. 8–43 : trimètres, ligne n = vers 720 + n. Pas de titre ni d'initiale ornée. Réglure à la pointe sèche. Foliotations à la mine « 171 » et « 173 ».",
+   "Segmentation fautive : ravennas/segmentation/f171r.json a omis la l. 3. Ses lignes 3–42, et les planches .travail/lignes/f171r/lNN, correspondent aux l. NN+1 du manuscrit. La table corrigée est dans .travail/graphologie/f171r/lignes_ms.json.",
+   "Trois mains, plus des marques modernes. T : texte, paragraphoi, dicola, biffure de τὸ (l. 34). S2 : 11 scholies, 4 gloses, deux indications de scène (πρὸ(ς) τ(ὰς) γυναῖκας au v. 726, ἄλλη γυ(νή) au v. 760), et probablement χ suscrit (v. 726) et σι suscrit (v. 734). Main du XVIe s. : 11 sigles Γυ/Γϋ. Les encres de T (G/R 1,20–1,31 ; B/R 1,72–2,02) et de S2 (1,22–1,36 ; 1,75–2,11) se recouvrent. La main de 1516 s'en sépare nettement (sigles 1,32–1,65 ; 2,19–3,13, orangé en décorrélation Lab).",
+   "Sigles : T marque les changements de locuteur par une paragraphos et un dicolon, mais irrégulièrement. Aucune marque aux vv. 728, 730, 740, 747, 749, 757, 759, 762, ni dans le vers au v. 741 ; un point simple au v. 752 ; un blanc au v. 746 ; au v. 743, le dicolon suit εἰπέ μοι. La main de 1516 n'écrit que Γυ (4 en tête de vers) ou Γϋ (7 dans le vers, le Γ posé sur le dicolon de T), tous aux vv. 739–751. Plusieurs précèdent des répliques que les éditions donnent au Parent (ἤνεγκας σύ, τρικότυλον, τυνοῦτο, πόσ' ἔτη, μὰ τὸν Ἀπόλλω). Ces sigles concordent tous avec les listes de Velsen 1871, pp. 11 et 21.",
+   "Cas à part au v. 730 (l. 10) : le sigle μνη^σι a la forme de S2, et Velsen 1883 l'attribue à R², mais son encre est l'orangé de 1516 (1,50–1,65 ; 2,59–2,90). Velsen 1871 ne le compte pas parmi les interventions de cette main. Hypothèse : sigle de S2 repassé par le correcteur de 1516.",
+   "Interventions confirmées sur l'image : χ suscrit (ῥῆν → χρῆν, v. 726) ; σι suscrit (περκὰς → περσικὰς, v. 734) ; plage grattée dans τοῦ (v. 731) ; τὸ biffé devant δὸς (v. 754, encre de T) ; aigu tracé sur un grave dans δυσμενής (v. 757) ; circonflexe gratté sur ἀπόλλω (v. 748) ; rature dans la scholie au v. 758 (ἱερεί[..]αις, S2). Interventions possibles mais non démontrables : μειψόμεσθά σ' (v. 722), μῆνας et ἐγώ (v. 741), νη (v. 745), σφαγεῖον (v. 754), ταλαντάτη (v. 760).",
+   "Pièges principaux : le Γϋ posé sur un dicolon se lit τϋ ou ι. Fausses marques de locuteur : le long ι de ἴωμεν devant la l. 9, la barre du τ de τουτὶ (l. 13), point haut et accent à la l. 29. Vraies paragraphoi soudées aux gloses (l. 24, 38). Formes trompeuses : π en ϖ, ν final en forme de μ, second τ de ττ en forme de γ, ει en ligature. Iota adscrit dans οὐξηιρήσατο. τυνοῦτον avec un seul ν.",
+   "Scholies et gloses toutes de S2 : semi-onciale inclinée, sans lemme, fin marquée par ÷, tiret au début. Abréviations relevées : τ(οῦ)το, κύρι(ον), δ(ὲ), εἰπ(ὼ)ν, ἄλλ(ως), εὔπ(ολις), μην(ῶν), οἴν(ου). Gloses de la marge intérieure : σπινθῆρ(α), ὦ μέθυσοι, τρεῖς κοτύλας οἴν(ου) χωροῦν, ἀπὸ ἔθους. La scholie au v. 717 que Rutherford place sur ce folio n'est pas lisible ; des traces très pâles dans la marge extérieure (l. 5–7 et 12–13) pourraient être ses restes.",
+   "Marques de 1516 : à la fin de la l. 1, un trait oblique ocre pâle correspond à la marque c 1 de la Juntine signalée par Velsen 1871, 5 ; à côté, un « c » très pâle, de lecture incertaine. Pour c 2 (après le v. 747), seule une trace grise contre le pli est un candidat. Un trait oblique de même encre dans la marge intérieure à la l. 36 a une fonction inconnue. Aucun signal marginal de T (√, +, ⋎, ÷) sur la page.",
+   "État matériel : marge extérieure touchée par une auréole d'humidité brune, avec des taches bleu-vert, et par une fente verticale réparée par une pièce de peau à grain alvéolé, comme au f. 169r. Les fins des scholies y sont pâlies ou perdues. La colonne de texte est bien conservée.",
+   "Livrables : ravennas/graphologie/folios/f171r.jsonl (71 observations) ; ravennas/graphologie/folios/f171r.md (synthèse) ; 62 spécimens dans ravennas/graphologie/specimens/f171r/. Outils de travail dans .travail/graphologie/f171r/."
+  ],
+  "doutes": [
+   "V. 730 : le μνη^σι est-il un sigle de S2 repassé par la main de 1516, ou un sigle de cette main ? Sa forme est celle de S2 et Velsen 1883 l'attribue à R², mais son encre est orangée et Velsen 1871 ne le compte pas parmi les interventions de 1516.",
+   "Scholie au v. 717 (Rutherford, ext.) : je ne la trouve pas sur l'image. Les traces pâles de la marge extérieure (l. 5–7, 12–13) sont-elles cette scholie, délavée, ou une transparence du verso ? Examen aux UV à prévoir.",
+   "V. 746 : dicolon (Velsen 1883) ou simple blanc (Velsen 1871, « spat. rel. ») entre γεγονεν et τρεῖς ? Je ne vois qu'un blanc.",
+   "V. 722 : quelle est la nature de la correction μειψόμεσθ' άσ' → μειψόμεσθά σ' ? On voit un aigu pâle et un point au-dessus du θ.",
+   "V. 731 : τῶ → τοῦ, obtenu par simple grattage ou récrit ? De quelle main ?",
+   "V. 754 : l'ε de σφαγεῖον est-il récrit sur un ι ? Le circonflexe est-il de la main de 1516 (Velsen 1871, 34) ou de S2 (Velsen 1883) ? Je ne lui trouve pas l'encre orangée.",
+   "Accents corrigés ou grattés aux vv. 741, 745, 746, 747, 748, 757, 760 : quel est leur état exact, et de quelle main sont-ils ? À vérifier sur l'original.",
+   "Paragraphoi signalées par Velsen sous les Γυ de tête (l. 19, 26, 31) : je ne les vois pas séparément.",
+   "Marques de la Juntine : le « c » pâle à côté du trait c 1 et la trace grise des l. 27–28 (c 2 ?) sont-ils de 1516 ? Quelle est la fonction du trait oblique de la l. 36 ?",
+   "Répartition des répliques par la main de 1516 (Γυ partout, y compris devant le Parent) : à confronter avec la Juntine, cahier c, ff. 1–2."
+  ]
+ },
+ "f171v": {
+  "mains": [
+   {
+    "label": "T",
+    "role": "copiste du texte ; paragraphos l. 2 ; dicola l. 9 et l. 21 ; ponctuation ; corrections faites en écrivant (τί biffé l. 5, δ barré l. 16)",
+    "criteres": "minuscule du texte ; encre brune G/R 1,31–1,39, B/R 2,15–2,40"
+   },
+   {
+    "label": "S2 (B d'Allen, R² de Velsen)",
+    "role": "7 scholies (marge extérieure), 5 gloses (marge intérieure), sigle μνη^σ l. 2, flèche de renvoi l. 18 ; peut-être les retouches des l. 3, 30 et 39",
+    "criteres": "semi-onciale inclinée, lettres disjointes, Ε et C lunaires, Μ, Ν, Λ, Δ, Η onciaux, tiret initial et ÷ final ; encre un peu plus jaune que T : G/R 1,35–1,48, B/R 2,37–2,64"
+   },
+   {
+    "label": "Encre orangée",
+    "role": "sigle du chœur χ^ορ devant la l. 22 (v. 785)",
+    "criteres": "G/R 1,70–1,71, B/R 3,19–3,27, rouge vif en décorrélation Lab, même signature que les sigles orangés du f. 170r ; grand module appuyé ; reproduit par G ; attribué à R² par Velsen 1883"
+   },
+   {
+    "label": "Main du XVIe s. (préparation de la Juntine de 1516)",
+    "role": "trait de l'interligne 12/13 ; « 4 » et trait des l. 36/37 (« v. 795 R — 4 Junt. c 4 », Velsen 1871)",
+    "criteres": "gris pâle peu saturé (S 0,31–0,37), G/R 1,23–1,27, B/R 1,62–1,90 ; chiffre arabe humanistique (4 ouvert)"
+   },
+   {
+    "label": "Indéterminée",
+    "role": "petite croix oblique dans la marge, à la hauteur de la l. 42",
+    "criteres": "G/R 1,41, B/R 2,15 sur 15 pixels seulement ; forme différente du + de T"
+   }
+  ],
+  "nb_interventions": 9,
+  "nb_pieges": 10,
+  "faits_saillants": [
+   "Les deux livrables sont écrits : ravennas/graphologie/folios/f171v.jsonl (45 observations) et ravennas/graphologie/folios/f171v.md (synthèse). Les 37 découpes sont dans ravennas/graphologie/specimens/f171v/ ; les intermédiaires dans .travail/graphologie/f171v/. Rien n'a été committé.",
+   "Mise en page : 43 lignes. Malgré le nom du fichier (vv0765-0799), la page porte les vv. 764–800. Les trimètres (l. 1–12) commencent vers x 725–750. La monodie (l. 13–21) et les six lignes de débordement des tétramètres (l. 26, 32, 34, 36, 41, 43) sont renfoncées d'environ 17 mm. Les tétramètres de la parabase (l. 22–43) débordent de 3–4 mm à gauche de la verticale de réglure. Page de verso : scholies à gauche, gloses à droite ; aucune foliotation.",
+   "Marques de locuteur : une seule paragraphos de T (l. 2, v. 765), avec le sigle μνη^σ de S2 en encre brune. Deux dicola de T : l'un dans la l. 9 (v. 772), sans changement de locuteur ; l'autre en fin de l. 21 (χρή :), qui marque seul le passage au chœur. À la l. 22 (v. 785), grand sigle χ^ορ sans paragraphos. Aucun sigle de la main de 1516 (conforme aux listes de Velsen 1871).",
+   "Le sigle χ^ορ de la l. 22 est à l'encre orangée (G/R 1,70 ; B/R 3,2). Il se distingue nettement de T (1,31–1,39 ; 2,15–2,40), de S2 (1,35–1,48 ; 2,37–2,64) et de la scholie qu'il touche. C'est la signature des sigles orangés du f. 170r. Velsen 1883 l'attribue à R², et G le reproduit (χορ̊).",
+   "Repères de la Juntine. Un « 4 » humanistique et son trait aux l. 36/37 concordent avec Velsen 1871 (« v. 795 R — 4 »). Un long trait pâle de même encre (1,23–1,27 ; 1,62–1,90) court dans l'interligne 12/13, entre les vv. 775 et 776. Velsen 1871 place pourtant le « 3 » après le v. 778, et le chiffre « 3 » est introuvable.",
+   "Nouvelle observation : la scholie qui finit par « … εὐρι^π ÷ » s'arrête juste devant la l. 13 renfoncée (v. 776). On dirait un sigle, et c'est très probablement l'origine du « ευρί^π ὦ » de G au v. 776. R n'a aucune marque de locuteur à ce vers.",
+   "Interventions confirmées sur l'image : τί biffé devant φέρε (l. 5) ; δ barré entre σ et θ de δέξασθε (l. 16), qui ressemble alors à un θ ; lettre grattée dans ἔρ⟦ ⟧ιδες (l. 25), avec un petit signe pâle dans le blanc ; η surchargé de ἐξέλθη (l. 30) ; ligature ει retouchée de αἰσχυνθεὶς (l. 39). Les retouches des l. 30 et 39, et la finale -ος de αἴτιος (l. 3, un ο dans un grand ϲ), ont une encre qui penche vers S2.",
+   "Deux points de Velsen 1883 ne se vérifient pas à cette résolution : la correction d'accent de μοχθηρόν (l. 18) et le grattage de περινοστῶν (l. 37). Le circonflexe de σμιλῆς (l. 16), que Velsen donne à R², ne se distingue de T ni par l'encre ni par la forme. Sous la fin de la l. 18, une flèche « → » d'encre S2 semble renvoyer à la glose de la marge intérieure.",
+   "Pièges principaux : ν à haste plongeante semblable à μ ; ligature ει en « q / 4 » qu'on prend pour η, d'où ἤπερ au lieu de εἴπερ (l. 27, 32) ; compendium ϗ dans le texte de T (εἰ ϗ, l. 27) ; κ et β ouverts en « u » ; ν final en croix, à ne pas lire χ (πόρον l. 6, πάρεστιν l. 42) ; π en ω barré dont la barre prolongée imite une biffure ; δ barré pris pour θ ; branche descendante du χ^ορ qui plonge jusqu'aux l. 23–24.",
+   "Scholies et gloses : 7 scholies dans la marge extérieure et 5 gloses dans la marge intérieure, toutes de S2 (semi-onciale inclinée, encre brune). La marge extérieure porte un bloc de 14 lignes sur Palamède et les πινάκια (ancres : vv. 770–773), puis quatre scholies courtes aux vv. 779, 781, 785 (τῇ παραβάσει χρησάμεναι ÷) et 790 (καταληφθῆναι παρακύψασαν ÷). Les gloses portent sur ὁ αἴτιος (ὁ εὐριπίδης), τἀγάλματ' (πᾶν ἐφ' ᾧ τις ἀγάλλεται…), πορίμῳ, σμίλης et ῥῶ. Abréviations relevées : εὐρι^π, τ surmonté d'un trait, θάνατ̄, π^ρα, ϗ en « ʒ ».",
+   "Aucun signal de copiste (√, +, ⋎, ÷) sur la page. La seule petite croix oblique de la marge (l. 42) a une fonction et une main inconnues. État : une fente verticale du parchemin dans la marge extérieure fait perdre quelques lettres de scholies ; une bande brune diffuse occupe la marge supérieure ; la colonne de texte est intacte et entièrement lisible."
+  ],
+  "doutes": [
+   "Main de l'encre orangée du χ^ορ (l. 22) : S2 avec une autre encre, « premier correcteur à l'encre rougeâtre » de Clark (peut-être le copiste de G), ou autre main ? Comme G le reproduit, il est antérieur à la copie de G. Même question qu'au f. 170r.",
+   "Repère « 3 » de la Juntine : le trait de l'interligne 12/13 (après le v. 775) contredit le « v. 778 R — 3 » de Velsen 1871. Il faut vérifier sa numérotation et l'incipit de la p. c 3 de la Juntine ; le chiffre reste introuvable.",
+   "Retouches de ἐξέλθη (l. 30), αἰσχυνθεὶς (l. 39) et de la finale -ος de αἴτιος (l. 3) : T (c'est ce que Velsen 1871 dit pour le v. 798) ou S2, vers qui penche l'encre ? Les leçons premières (-οι, -ῆς) sont illisibles.",
+   "Le circonflexe de σμιλῆς (l. 16) est-il un ajout de S2, comme le dit Velsen ? L'image ne permet pas de trancher.",
+   "μοχθηρόν (l. 18) : la correction ὸ → ό n'est pas vérifiable. Il faut aussi établir la valeur du « ; » apparent, de la flèche « → » et du signe ·/· de la glose, qui formeraient un système de renvoi, contre ce qu'Orsini dit de S2.",
+   "ἔρ⟦ ⟧ιδες (l. 25) : la lettre grattée est illisible, et le petit signe pâle dans le blanc est d'interprétation incertaine.",
+   "περινοστῶν (l. 37) : le grattage signalé par Velsen n'est pas visible ; une lecture aux UV serait à tenter.",
+   "Fonction et main de la croix oblique de la l. 42.",
+   "Le « ευρί^π » de G au v. 776 vient-il de la fin de scholie placée devant la l. 13 ? À vérifier sur la numérisation BSB du Mon. gr. 492.",
+   "La saillie de 3–4 mm des tétramètres sur la réglure est-elle une ekthesis voulue ? À comparer avec les ff. 172r–v.",
+   "Les accentuations propres à R relevées par Velsen 1883 pour ces vers (πεπόηχ', έσται, πείρα, ἐμαὶ·, πάς, φύλον, μὴτ', μη, κακον…) n'ont pas toutes été contrôlées : c'est à faire par les transcripteurs."
+  ]
+ },
+ "f172r": {
+  "mains": [
+   {
+    "label": "T (copiste)",
+    "role": "texte, ponctuation, signal ⋎ pointé de la l. 12, probablement le τ récrit de la l. 3",
+    "criteres": "minuscule liée ; encre G/R 1,25–1,40, B/R 1,99–2,62 (grandes plages 1,30–1,33 ; 2,13–2,23), teinte ≈ 41,8°"
+   },
+   {
+    "label": "S2 (R² de Velsen, B d'Allen)",
+    "role": "toutes les scholies et gloses ; probablement l'exponctuation du λ (l. 9), τινα suscrit (l. 42), le circonflexe de ἐγχειρεῖ ; peut-être le ι de ναυσιμάχη et γα sur grattage (l. 7)",
+    "criteres": "semi-onciale inclinée, capitales disjointes, Ε et C lunaires, esprit rude en ͱ ; encre 1,31–1,43 ; 2,20–2,59, teinte 38,6–40,7° ; recouvre T pour les petits signes"
+   },
+   {
+    "label": "Encre orangée (main du XVIe s., « 2 m. » de Velsen 1871)",
+    "role": "trait qui annule le grave de παρὰ (l. 5) ; grave ajouté sur πρὸς (l. 10)",
+    "criteres": "1,57–1,63 ; 2,81–3,02, rouge-orangé en décorrélation Lab ; coïncide avec la liste des corrections de la 2 m. (Velsen 1871, 26)"
+   },
+   {
+    "label": "Mine de plomb (préparation de la Juntine, 1516)",
+    "role": "trait de l'interligne 20/21 et chiffre « 5 » (p. c 5)",
+    "criteres": "gris neutre, signature graphite 1,03–1,11 ; 1,24–1,45 (« 174 » au crayon : 0,99–1,00 ; 1,47–1,53)"
+   },
+   {
+    "label": "Mains non identifiées",
+    "role": "grave ajouté de εἰσὶν (l. 29), aigu ajouté sur ἄ (l. 7), tache noire (l. 7), trait de biffure de ποτε (l. 42)",
+    "criteres": "traits minces ou isolés : 1,17 ; 2,18 / 1,17 ; 1,87 / 1,27 ; 1,80 / 1,49 ; 2,91 ; pour les traits minces, la teinte n'est pas probante"
+   },
+   {
+    "label": "Mains modernes",
+    "role": "foliotations « 174 » (crayon) et « 172 » (encre, contre la gouttière)",
+    "criteres": "chiffres arabes modernes ; graphite pour « 174 » ; encre de « 172 » 1,20 ; 1,83"
+   }
+  ],
+  "nb_interventions": 14,
+  "nb_pieges": 13,
+  "faits_saillants": [
+   "Livrables : ravennas/graphologie/folios/f172r.jsonl (51 observations) et ravennas/graphologie/folios/f172r.md (synthèse). 42 spécimens dans ravennas/graphologie/specimens/f172r/, dont un tiré de la planche double 10. Intermédiaires et outils dans .travail/graphologie/f172r/ (zz.py, obs.py, renf.py). Rien n'a été écrit dans /tmp.",
+   "Mise en page : 43 lignes réglées pour les vv. 801–834. Anapestes 801–813 sur les l. 1–22 : neuf tétramètres sont coupés en deux, la fin étant écrite en retrait sur la ligne suivante. Pnigos 814–829 sur les l. 23–38, en léger retrait. Trochaïques 830–834 sur les l. 39–43. Foliotation « 174 » au crayon et « 172 » à l'encre contre la gouttière (lisible sur la planche 10).",
+   "La page n'a aucune paragraphos, aucun sigle de personnage, aucun dicolon de changement de locuteur (parabase). Contrôlé sur une bande de la marge gauche ; cela concorde avec Velsen 1883 (ΧΟΡ./ΚΟΡ. « omm. RG ») et Velsen 1871 (aucun sigle entre les vv. 752 et 857). Les points du pnigos sont des pauses.",
+   "Encre orangée (G/R 1,57–1,63 ; B/R 2,81–3,02, contre T 1,30–1,33 ; 2,13–2,23 et S2 1,31–1,43 ; 2,20–2,59) : elle barre le grave de παρὰ (l. 5, v. 803), ce qui forme un « × » qui n'est pas un signe critique, et elle ajoute le grave de πρὸς (l. 10, v. 806). Ces deux corrections figurent dans la liste de la « 2 m. » de Velsen 1871, 26. C'est un appui indépendant pour attribuer l'encre orangée à la main de 1516, question restée ouverte au f. 170r.",
+   "Repère de la p. c 5 de la Juntine : trait au crayon dans l'interligne 20/21, qui aboutit au-dessus du φ de φορμὸν (début du v. 813), et restes du chiffre « 5 » dans la marge. La signature graphite (1,03–1,11 ; 1,24–1,45) le distingue de l'encre orangée. Concorde avec Velsen 1871, 5.",
+   "Interventions confirmées sur l'image : σαλλαβακχοῦσ, second λ exponctué par des points au-dessus et au-dessous (encre brune, S2 probable) ; ι à tréma suscrit dans ναυσ‿μάχη (encre de T/S2, pas l'orangé, contre l'attribution de Velsen 1871 à la main de 1516) ; γα de τ' ἄργα sur grattage ; second τ de κἀντιτιθῶμεν sur grattage, avec un reste pâle ; circonflexe mince ajouté sur ἐγχειρεῖ ; εἰσὶν, où le grave est ajouté sans gratter l'aigu de T.",
+   "v. 833 (l. 42) : ποτε est barré d'un trait épais et τινα est écrit au-dessus, en petite minuscule inclinée avec un ν en forme de Ν onciale (S2 probable). Le trait de biffure est un peu plus orangé (1,49 ; 2,91). Les entrées de Velsen 1883 pour les vv. 833–834 (στρατηγὸν·, λαμβάνει(ν), τινα ex ποτε, τ᾿αυτῇ, τηνίοισι·) manquent dans edition/donnees/repertoire_critique/velsen1883_776-930.jsonl, qu'il faut compléter.",
+   "Signal du copiste devant le v. 807 (l. 12) : « ⋎ » arrondi avec un point en haut à droite et un en bas à gauche, à l'encre de T, sans correction. C'est le signe noté par Allen 1896 (faute visée : στρατωνίκην). La segmentation automatique l'avait pris pour un sigle.",
+   "Scholies et gloses : toutes de S2 (semi-onciale inclinée, ÷ final). Elles sont réparties ainsi : marge supérieure (3 l. ½, vv. 804–805, ναυσιμάχης μέν· πέπλασται…) ; marge droite, l. 8–9 (κλεοφῶν·…), l. 13–21 (ἡ εὐβούλη πέπλασται…), l. 21–23 (~ τάλαντα ~), l. 32, 34–35, 37–38, 38–39 ; marge inférieure (2 l., ἀμφότεραι ἑορταὶ γυναικῶν…). Quatre gloses : πόρνης ὄνομα ; τὸ βουλευ- καὶ βουλεία(ν) ἔλεγον ; τὴν κάμακα τῆς λόγχης λέγει ; τῶι σιδήρωι.",
+   "Principaux pièges : β ouvert en « u » ; λλ qui ressemble à μμ (l. 13) ou à un χ (l. 39, sous la haste d'un ρ) ; ligatures à longue barre horizontale qui imitent des biffures (ἕκαστος l. 6, δ᾽ ἑτέροις l. 36) ; ξ et ζ en zigzag ; ει en « 4 » ; ϗ en « S » ; hastes très longues (φ de la l. 21, ρ de la l. 43) ; « ; » après ἡμᾶσ ; εἶναι probablement abrégé en ε, ι et un signe en X (l. 17) ; esprit rude de S2 en « ͱ » qui imite le signal +.",
+   "État matériel : grande tache d'humidité brune sur la marge extérieure (x ≈ 1370–1640), qui assombrit les fins de scholies sans perte ; bande claire courbe contre le bord gauche ; pli oblique du parchemin sur les l. 27–29 ; tache noire sous la fin de la l. 7. La colonne de texte est entièrement lisible et sans restauration."
+  ],
+  "doutes": [
+   "Encre orangée = main de 1516 : la vérifier sur d'autres corrections de la liste de Velsen 1871 (vv. 11, 33, 45, 54… 909, 934, 1009) avant d'étendre la conclusion aux sigles orangés du f. 170r.",
+   "ι de Ναυσιμάχη (v. 804) : encre non orangée. Est-il de S2 (Velsen 1883), la main de 1516 n'ayant fait que gratter le circonflexe (trace pâle sur -αυ-) ?",
+   "τ' ἄργα (v. 804) : leçon grattée sous γα ? Le court trait pâle au-dessus de ρ|γ est-il bien l'aigu ajouté ? Origine de la tache noire au-dessous ?",
+   "δηλαδη (v. 804) : Velsen 1883 imprime δηλαδή R dans son apparat, le répertoire critique note δηλαδῆ ; l'accent n'est pas net sur l'image.",
+   "κἀντιτιθῶμεν (v. 802) : quelle lettre a été grattée sous le second τ ?",
+   "εἰσὶν (v. 820) et στρατηγὸν· (v. 833) : ordre des tracés et main du grave ajouté à côté de l'aigu de T.",
+   "τινα / ποτε (v. 833) : la suscription est-elle de S2 ? Le trait de biffure, plus orangé, est-il d'une autre main ?",
+   "λαμβάνειν (v. 833) : le ν ajouté par R² selon Velsen n'est pas isolable sur la photographie.",
+   "τηνίοισι (v. 834), ἀνδρασι (v. 824), τἀντίον (v. 822) : traces d'accent ou d'apostrophe grattés seulement possibles.",
+   "Signal ⋎ pointé de la l. 12 : est-ce une forme distincte des autres signaux de T (√, +, ⋎, ÷) ?",
+   "Signe en X de la fin de la l. 17 : abréviation de εἶναι ou ν cursif barré ?",
+   "Chiffre « 5 » de la Juntine : seule la barre supérieure est nette ; à confirmer sur l'original."
+  ]
+ }
+}

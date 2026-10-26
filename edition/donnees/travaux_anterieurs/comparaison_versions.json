@@ -275,6 +275,7 @@
      "coquille_traduction": 1,
      "numero_corrige": 6,
      "apparat_decale": 3,
+     "commentaire_decale": 4,
      "numero_diff_HG": 29,
      "etiquette_vers": 6,
      "vers_supprime": 2,
@@ -284,6 +285,11 @@
      "segments_verifies": 435,
      "concordants": 432,
      "decales": 3
+    },
+    "controle_commentaires_numerotation": {
+     "commentaires_verifies": 227,
+     "concordants": 223,
+     "decales": 4
     }
    }
   },
@@ -528,6 +534,7 @@
      "personnage_absent": 2,
      "numero_corrige": 7,
      "apparat_decale": 2,
+     "commentaire_decale": 3,
      "numero_diff_HG": 17,
      "etiquette_vers": 6,
      "vers_supprime": 2,
@@ -537,6 +544,11 @@
      "segments_verifies": 284,
      "concordants": 282,
      "decales": 2
+    },
+    "controle_commentaires_numerotation": {
+     "commentaires_verifies": 179,
+     "concordants": 176,
+     "decales": 3
     }
    }
   },
@@ -804,6 +816,7 @@
      "coquille_traduction": 1,
      "numero_corrige": 7,
      "apparat_decale": 2,
+     "commentaire_decale": 4,
      "numero_diff_HG": 28,
      "etiquette_vers": 6,
      "vers_supprime": 2,
@@ -813,6 +826,11 @@
      "segments_verifies": 399,
      "concordants": 397,
      "decales": 2
+    },
+    "controle_commentaires_numerotation": {
+     "commentaires_verifies": 223,
+     "concordants": 219,
+     "decales": 4
     }
    }
   }

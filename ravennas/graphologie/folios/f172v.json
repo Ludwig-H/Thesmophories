@@ -1,16 +1,26 @@
 {
  "folio": "f172v",
  "image": "dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/21_f172v_classense174v_vv0838-0875.jpg",
- "etat": "en cours",
- "vers": "838-875 (à vérifier)",
- "lignes_texte": null,
- "mains": [],
+ "etat": "inventaire graphologique fait (voir f172v.jsonl et f172v.md)",
+ "vers": "835-876",
+ "lignes_texte": 43,
+ "mains": [
+  "T (texte, ponctuation, paragraphoi, dicolon l. 40 ; corrections l. 21 et l. 42 probables)",
+  "S2 (scholies et glose ; sigles μνη^σ, γυ^ν, tiret, εὐρι^π à encre rougeâtre ; corrections αἷσιν l. 1 et ποίου l. 41 probables)",
+  "main de 1516 à encre orangée pâle (sigles imprimables Γϋ, μν, εὐ ; ὡς περσεύς l. 37–39)",
+  "crayon de l'imprimeur (traits des coupures de la Juntine, l. 3 et 29)"
+ ],
  "interventions": [],
  "formes": [],
  "abreviations": [],
  "ponctuation_accentuation": {},
  "notae": [],
- "scholies": {"nombre": null, "mains": [], "remarques": "", "liste": []},
+ "scholies": {
+  "nombre": null,
+  "mains": [],
+  "remarques": "",
+  "liste": []
+ },
  "etat_materiel": [],
  "pieges": []
 }

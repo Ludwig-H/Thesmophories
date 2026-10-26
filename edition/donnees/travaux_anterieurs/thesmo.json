@@ -2,7 +2,6 @@
  "meta": {
   "titre": "Thesmophories — extraction des travaux antérieurs de l'auteur (Harmattan 2023)",
   "genere_par": "outils/extraction/extraire_travaux.py",
-  "date": "2026-10-26",
   "sources": [
    {
     "fichier": "latex/Aristophane-Thesmo Harmattan 2023 vv 1-641.tex",
@@ -284,6 +283,7 @@
    "coquille_traduction": 1,
    "numero_corrige": 7,
    "apparat_decale": 2,
+   "commentaire_decale": 4,
    "numero_diff_HG": 28,
    "etiquette_vers": 6,
    "vers_supprime": 2,
@@ -293,6 +293,11 @@
    "segments_verifies": 399,
    "concordants": 397,
    "decales": 2
+  },
+  "controle_commentaires_numerotation": {
+   "commentaires_verifies": 223,
+   "concordants": 219,
+   "decales": 4
   }
  },
  "groupes": [
@@ -144525,6 +144530,42 @@
    "fichier": null,
    "ligne_source": 3236,
    "message": "Apparat A0133, segment « 435 » (δεινοτερον) : la leçon se trouve dans la ligne numérotée 436 — « οὐδὲ δεινότερον λεγούσης. »"
+  },
+  {
+   "code": "commentaire_decale",
+   "gravite": "mineure",
+   "groupe": "G0127",
+   "vers": 193,
+   "fichier": null,
+   "ligne_source": 1944,
+   "message": "Commentaire C0065 (plage « 193 », lemme « χαίρεις ὁρῶν φῶς, πατέρα δ᾽ οὐ χαίρειν δ ») : le lemme se lit dans la ligne numérotée 194 — « ‘χαίρεις ὁρῶν φῶς, πατέρα δ᾽ οὐ χαίρειν δοκεῖς;' »"
+  },
+  {
+   "code": "commentaire_decale",
+   "gravite": "mineure",
+   "groupe": "G0252",
+   "vers": 376,
+   "fichier": null,
+   "ligne_source": 3034,
+   "message": "Commentaire C0112 (plage « 376-7 », lemme « ἐκκλησίαν ποιεῖν ἕωθεν τῇ μέσῃ / τῶν Θεσ ») : le lemme se lit dans la ligne numérotée 375 — « ἐκκλησίαν ποιεῖν ἕωθεν τῇ μέσῃ »"
+  },
+  {
+   "code": "commentaire_decale",
+   "gravite": "mineure",
+   "groupe": "G0358",
+   "vers": 619,
+   "fichier": null,
+   "ligne_source": 4493,
+   "message": "Commentaire C0178 (plage « 619 », lemme « τὸν ἐκ Κοθωκιδῶν; ») : le lemme se lit dans la ligne numérotée 620 — « τὸν δεῖνα γιγνώσκεις, τὸν ἐκ Κοθωκιδῶν. »"
+  },
+  {
+   "code": "commentaire_decale",
+   "gravite": "mineure",
+   "groupe": "G0669",
+   "vers": 1082,
+   "fichier": null,
+   "ligne_source": 4561,
+   "message": "Commentaire C0319 (plage « 1082 », lemme « ὀτότυζ᾽ — ὀτότυζ᾽. ») : le lemme se lit dans la ligne numérotée 1081c — « ὀτότυζ᾽. »"
   },
   {
    "code": "numero_diff_HG",

@@ -2,7 +2,12 @@
 
 *Ravenne, Biblioteca Classense, ms. 429 (olim 137, 4, A). Aristophane, onze comédies avec scholies ; *Thesmophories* aux ff. 162v–177r (vv. 1–1231).*
 
-> **Statut** : dossier de travail, en cours (première rédaction : 25 oct. 2026 ; reprises après interruption : 26 oct. 2026, à quatre reprises ; § 14 achevé à la troisième reprise — quatrième reprise en cours : *notae personarum* d'après van Leeuwen 1904 et Velsen 1871, § 15 liste détaillée, vérification des points **[à vérifier]**, compléments sur les collations). Chaque affirmation est suivie de sa source, au format `Auteur année, page` ; les sigles des sources sont développés au § 16, avec le chemin du fichier local quand il existe. Les points marqués **[image]** sont repris dans la liste du § 15 ; **[à vérifier]** signale une donnée que je n'ai pas pu contrôler sur une source primaire. Les travaux de l'assistant précédent (`dossier_ravennas_thesmophories/*.md|tex`) n'ont pas été utilisés comme autorité.
+> **Statut** : dossier de travail. Première rédaction le 25 oct. 2026 ; quatre reprises après interruption le 26 oct. 2026.
+>
+> - La quatrième reprise a ajouté : les bornes des pages vérifiées sur l'image (§ 1) ; les *notae personarum* d'après Velsen 1871 et van Leeuwen 1904 (§ 8.2) ; les parépigraphes (§ 8.1) ; la colométrie relevée par Velsen (§ 8.4) ; les collations et leurs divergences (§§ 11–12 : Enger, titre « πρότεραι », vv. 28, 29, 60, 130) ; les gardes et le *pinax* (§ 6) ; le détail du § 15 ; les sources à lire (§ 16.4).
+> - Restent ouverts : les points **[image]** du § 15, et les sources du § 16.4 (Drive non encore téléchargé, sites hors ligne).
+>
+> Méthode : chaque affirmation est suivie de sa source, au format `Auteur année, page` ; les sigles des sources sont développés au § 16, avec le chemin du fichier local quand il existe. Les points marqués **[image]** sont repris dans la liste du § 15 ; **[à vérifier]** signale une donnée que je n'ai pas pu contrôler sur une source primaire. Les travaux de l'assistant précédent (`dossier_ravennas_thesmophories/*.md|tex`) n'ont pas été utilisés comme autorité.
 
 ## Sommaire
 
@@ -32,14 +37,24 @@
 2. **Une seule main pour le texte** (Zacher 1888, 535 ; Allen 1896, 311 ; van Leeuwen 1908, 270 ; Orsini 2011, 325). Orsini la décrit comme une « minuscola informale con una certa pretesa alla formalità », de module carré, au ductus tantôt posé tantôt cursif (Orsini 2011, 325).
 3. **Deux mains de scholiastes, S1 et S2** (Orsini 2011, 327 ; ce sont les mains A et B d'Allen 1896, 312). **Toutes les scholies des *Thesmophories* sont de S2**, qui écrit aux ff. 76r–78r et 111v–191v (Orsini 2011, 327 et tabl. 1 ; Martin 1882, xiv). S2 est aussi le principal correcteur ancien du texte : il ajoute les vers omis et les noms des personnages (Zacher 1888, 536 ; Allen 1896, 316–317).
 4. **Une troisième main, contemporaine et en minuscule**, aurait écrit au f. 162v la scholie au v. 32 (Orsini 2011, 327 n. 24). Allen attribuait au contraire à S2 l'ensemble des scholies en minuscule de cette page (Allen 1896, 320–321). C'est un point à trancher sur l'image.
-5. **Personnages.** Le copiste ne nomme pas les personnages. Il marque le changement d'interlocuteur par une paragraphos en tête de vers et par un dicolon à l'intérieur du vers (Bekker 1829, vi ; Velsen 1871, 8 ; Velsen 1883, 5–6). Les sigles des noms ont été ajoutés par S2, puis, pour l'impression de 1516, par une main du XVIe siècle (Velsen 1871, 7–23).
+5. **Personnages.** Le copiste ne nomme pas les personnages. Il marque le changement d'interlocuteur par une paragraphos en tête de vers et par un dicolon à l'intérieur du vers (Bekker 1829, vi ; Velsen 1871, 8 ; Velsen 1883, 5–6). Les sigles des noms ont été ajoutés par S2, puis, pour l'impression de 1516, par une main du XVIe siècle (Velsen 1871, 7–22 ; corrections de cette main dans le texte : 25–26).
 6. **R est la copie d'impression de l'*editio princeps* des *Thesmophories* et de la *Lysistrata***, achevée « quinto Kal. Februarii MDXV », soit le **28 janvier 1516** selon le style florentin, et non dans la Juntine de septembre 1515, qui ne contient que neuf pièces. Dans les marges des deux pièces, des chiffres arabes et des traits renvoient aux pages des cahiers de la Juntine (Velsen 1871, 3–6 ; Clark 1871, 159 ; Martin 1882, iv–v).
 7. **Euphrosynus Boninus.** L'identification de la main du XVIe siècle avec la sienne remonte à une conjecture de R. Schöll (Velsen 1871, 6–7) ; elle a été reprise par Velsen 1883, 5, Martin 1882, xiii, White 1906, II, 257, Prato 2001, xxxii et Scotti 2024, 462. Aucune des sources consultées ne la vérifie par comparaison avec des autographes de Bonini.
 8. **Le *pinax* final n'est pas de Bonini.** Martin l'attribuait à Euphrosynus (Martin 1882, xiii). Eleuteri–Canart l'attribuent à **Paolo Canal**, qui l'aurait écrit lors d'une étape à Urbino en 1505, pendant un voyage avec Pietro Bembo (Eleuteri–Canart 1991, 74 ; Orsini 2011, 322 n. 3).
 9. **Histoire.** Avant Urbino, rien n'est prouvé. La seule mention d'un Aristophane dans la correspondance de Giovanni Aurispa est une lettre de juillet 1430 : parmi six manuscrits qu'on lui a envoyés **de Sicile**, l'un contient « multae τοῦ Ἀριστοφάνους κωμῳδίαι » (Sabbadini 1931, 71). Rien n'y identifie R, et la date de 1423 avancée par Scotti 2024, 462 n'en découle pas. Le manuscrit apparaît à Urbino dans l'*Index vetus* sous le n° 123 (Scotti 2024, 466). Une note marginale de ce même index, « Habuit Petrus Florentinus Cartularius stampandum », prouve son prêt pour l'impression florentine (Scotti 2024, 469–470). Il n'est jamais revenu à Urbino. Pietro Canneti l'achète à Pise et le fait entrer à la Classense en **mai 1712** (Allen 1896, 324–325, d'après l'inventaire Canneti–Fiacchi ; Mazzatinti 1894, 145 et 239).
 10. **Apographe.** Le seul apographe connu des *Thesmophories* est le **Monacensis gr. 492** (« Augustanus », G chez Velsen, Mu2 chez Wilson), du XVe siècle (Velsen 1871, 7 ; Velsen 1883, 5 ; Wilson 2007, II, 68). Ses leçons propres ne valent que comme conjectures.
 11. **Les sigles de Velsen 1883.** Sa préface définit trois mains correctrices : R² (main des scholies), R³ (« paullo recentior ») et Boninus (Velsen 1883, 5). Son apparat des *Thesmophories* n'emploie pourtant que R² : 79 occurrences relevées pour les vv. 1–930 dans le répertoire critique, plus de 200 pour l'ensemble de la pièce d'après mon relevé, et aucun R³ (§ 5.1). Un même correctif est parfois attribué à R² en 1883 et à Boninus en 1871 (v. 54, § 11). Le « R² » de Velsen ne doit donc pas être lu comme une attribution sûre au Xe siècle.
-12. **Colométrie.** Velsen 1883 consigne, passage par passage, les fins de ligne de R dans les parties lyriques et anapestiques (« ita distributa sunt, ut singuli versus finiantur vocibus… »). Son apparat est donc le point de départ du relevé colométrique (§ 8.4).
+12. **Colométrie.** Velsen 1883 consigne, passage par passage, les fins de ligne de R dans les parties lyriques et anapestiques (« ita distributa sunt, ut singuli versus finiantur vocibus… », par ex. Velsen 1883, 27). Douze passages sont relevés pour les vv. 45–1097 dans le répertoire critique. Son apparat est donc le point de départ du relevé colométrique (§ 8.4).
+13. **Bornes des pages.** J'ai vérifié sur les images le premier et le dernier vers de chaque page (§ 1). Les noms des fichiers d'images, hérités de l'assistant précédent, sont faux pour 17 pages sur 30, par exemple f. 165v = vv. 252–293 et non 252–294. Les coupures entre cahiers concordent avec Allen 1896, 302 et 306.
+14. **Divergences de collation résolues sur l'image** (§ 11).
+    - v. 28 : T l'a copié après le v. 30, et des lettres α–δ rétablissent l'ordre (Velsen 1883). Il n'en existe aucune copie marginale : l'« om. T, add. in marg. B » d'Allen 1896, 316 est une erreur, sans doute une confusion avec le v. 33, suppléé en marge (observation personnelle et inventaire graphologique du f. 162v).
+    - Titre : le « Θεσμοφοριάζουσαι πρότεραι » prêté à R par Fritzsche 1838, 585 et Enger 1844, 3 ne se lit ni en tête de la pièce, ni dans l'index de Martini, ni dans le *pinax*.
+    - v. 29 : R a ἐνταῦθ᾽, non ἐνθάδε δ' (Invernizi).
+15. **Qui a vu R ?** Enger n'a pas collationné R : il en déduit les leçons de Bekker, de l'Augustanus et de la Juntine (Enger 1844 *Lys.*, x). Prato 2001, xxxv dit le contraire.
+    - Les relevés fondamentaux pour les mains restent ceux de Velsen 1871. Ses pp. 8–26 donnent, vers par vers, la marque de T, le sigle de S2 et celui de 1516.
+    - Viennent ensuite ceux de van Leeuwen 1904, faits sur le fac-similé (pp. 1–2, sigles par main).
+    - Wilson 2007 n'a fait que des contrôles ponctuels sur le fac-similé (I, vi). Le chapitre d'Austin–Olson 2004 sur la tradition manuscrite (lxxxix–xcviii) n'a pas encore pu être lu.
+16. **Parépigraphes.** Deux indications scéniques sont copiées comme des lignes du texte : « ὀλολύζεις γέρων » après le v. 129 et « ὀλολύζουσί τε· ἱερὸν ὠθεῖται » après le v. 276 (Velsen 1883, 16 et 25 ; vues sur l'image).
 
 ---
 
@@ -50,13 +65,50 @@
 - **Les *Thesmophories*** occupent les **ff. 162v–177r**. Il n'y a ni hypothesis proprement dite ni liste des personnages (Zacher 1888, 531 ; Allen 1896, 302 ; Velsen 1883, 8 : « Deest index personarum in codd. »).
   - **Début.** Les Guêpes s'achèvent au f. 162r, dont le reste est laissé blanc (Allen 1896, 302 ; Zacher 1888, 531). Le haut du f. 162v porte des notes en petite minuscule, au contenu d'hypothesis : « ὁ χορὸς ἐκ Θεσμοφοριαζουσῶν… » et « προλογίζει Μνησίλοχος κηδεστὴς Εὐριπίδου » (incipit chez Allen 1896, 320–321). Viennent ensuite le titre « ἀριστοφάνους θεσμοφοριάζουσαι » (Velsen 1883, 8) et le v. 1. J'ai observé cette disposition sur l'image (`dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/01_f162v_…jpg` ; agrandissement : `.travail/ravennas_dossier/v28/f162v_haut.png`) : trois lignes de note en petite minuscule (« ὁ χορὸς ἐκ θεσμο[φορια]ζουσῶν … Εὐριπίδου γυνὴ μὲν Χοιρίνη / μήτηρ δὲ Κλειτώ ÷ »), puis, en retrait, « προλογίζει Μνησίλοχος κηδεστὴς Εὐριπίδου », puis le titre en lettres plus grandes, précédé d'un ornement (※) et suivi d'un trait. L'attribution des mains reste à établir **[image]**.
   - **Un titre fantôme : « Θεσμοφοριάζουσαι πρότεραι ».** Enger imprime « Inscripta fabula Θεσμοφοριάζουσαι πρότεραι in R » (Enger 1844, 3, lu sur l'imprimé). Il reprend Fritzsche, qui s'en sert pour distinguer les deux *Thesmophories* : « quod et Codex Ravennas fabulae superstiti titulum praeposuit Θεσμοφοριάζουσαι πρότεραι ». Fritzsche précise pourtant en note : « Hoc neque Invernizius tradidit, neque Bekkerus. Sed vide Scholior. T. II, p. 945. Idemque videtur Dindorfius ab Seidlero accepisse » (Fritzsche 1838, 585 et n. 12, lu sur l'imprimé). Je ne vois « πρότεραι » ni dans le titre ni dans les notes du haut du f. 162v, ni dans l'index de Martini, ni dans le *pinax* final (§ 6). Le titre semble donc né d'une collation de seconde main. Il faudra relire les trois lignes de note du f. 162v lettre à lettre pour l'exclure tout à fait **[image]**.
-  - **Fin.** La pièce s'achève au milieu du f. 177r, sans colophon. Suit immédiatement la première hypothesis de l'Assemblée des femmes, dont le texte commence au f. 177v (Allen 1896, 302 et 307 ; Zacher 1888, 531–532 ; Orsini 2011, tabl. 1 : transition de « tipo A »).
+  - **Fin.** La pièce s'achève au milieu du f. 177r, sans colophon ; sur l'image, une ligne ornementale de points et de traits la sépare de l'hypothesis de l'*Assemblée*, intitulée « ἐκκλησιαζουσῶν ἀριστοφάνους » (`.travail/ravennas_dossier/bornes/f177r_fin.png`). Suit immédiatement la première hypothesis de l'Assemblée des femmes, dont le texte commence au f. 177v (Allen 1896, 302 et 307 ; Zacher 1888, 531–532 ; Orsini 2011, tabl. 1 : transition de « tipo A »).
 - **Cahiers des *Thesmophories*.**
   - XXI (ff. 159–166) : Guêpes 1271 – *Thesm.* 379.
   - XXII (ff. 167–174) : *Thesm.* 380–1044.
   - XXIII (ff. 175–182) : *Thesm.* 1045 – Eccl. 446.
 
   Sources : Allen 1896, 302 et 306 ; Orsini 2011, tabl. 1. Ce sont des quaternions réguliers, et les mêmes cahiers figurent dans la reconstruction de la structure originelle (Orsini 2011, tabl. 5 : XV–XVII).
+- **Contenu de chaque page, vérifié sur les images** (observation personnelle, 26 oct. 2026 : premières et dernières lignes de la colonne de texte de chaque page, `.travail/ravennas_dossier/bornes/bornes_1-6.png`, script `scripts/bornes_composite.py`). Les noms des fichiers d'images, hérités de l'assistant précédent, sont faux pour 17 pages sur 30. Les coupures entre cahiers concordent avec Allen 1896, 302 et 306 (fin du cahier XXI au v. 379, fin du XXII au v. 1044).
+  - La numérotation est celle du texte de l'auteur (`edition/donnees/travaux_anterieurs/texte_grec.tsv`). Dans les parties lyriques, elle peut différer d'une unité de celle d'autres éditions.
+  - Les inventaires graphologiques en cours (`ravennas/graphologie/folios/*.md`) emploient déjà ces bornes. Seule différence : le f. 170r, qu'ils arrêtent au v. 677. Sa dernière ligne, « κἂν μὴ ποιῶσι ταῦτα τοιάδ᾽ ἔσται », est le v. 678 dans la numérotation de l'auteur.
+
+  | Folio | Vers (image) | Nom de fichier | Remarques |
+  |---|---|---|---|
+  | 162v | titre, 1–42 | 1–42 | v. 28 copié après le v. 30 ; v. 33 en marge |
+  | 163r | 43–79 | = | |
+  | 163v | 80–122 | = | |
+  | 164r | 123–164 | = | parépigraphe après le v. 129 |
+  | 164v | 165–208 | 165–207 | v. 169 en marge |
+  | 165r | 209–251 | 208–251 | |
+  | 165v | 252–293 | 252–294 | parépigraphe après le v. 276 |
+  | 166r | 294–336 | 295–336 | |
+  | 166v | 337–379 | = | fin du cahier XXI |
+  | 167r | 380–422 | = | début du cahier XXII |
+  | 167v | 423–465 | = | |
+  | 168r | 466–508 | = | la segmentation omet la dernière ligne (v. 508), vérifié sur l'image |
+  | 168v | 509–550 | = | v. 550 sur deux lignes (« ἁπαξαπάσας ») |
+  | 169r | 551–592 | 551–589 | |
+  | 169v | 593–635 | 590–634 | |
+  | 170r | 636–678 | 635–678 | |
+  | 170v | 679–720 | = | |
+  | 171r | 721–763 | 721–764 | la segmentation détecte 42 lignes et s'arrête bien au v. 763 : ligne manquée ou fusionnée au milieu de la page ? |
+  | 171v | 764–800 | 765–799 | |
+  | 172r | 801–834 | 800–837 | tétramètres souvent coupés en deux lignes |
+  | 172v | 835–876 | 838–875 | |
+  | 173r | 877–919 | 876–919 | |
+  | 173v | 920–958 | = | |
+  | 174r | 959–1001 | 959–1000 | |
+  | 174v | 1002–1044 | 1001–1043 | fin du cahier XXII |
+  | 175r | 1045–1081 (1re moitié) | 1044–1081 | début du cahier XXIII |
+  | 175v | 1081 (2e moitié)–1126 | 1082–1127 | vv. 1102–1103 ajoutés dans la marge inférieure (la segmentation les compte comme lignes 44–45) |
+  | 176r | 1127–1168 | 1128–1168 | |
+  | 176v | 1169–1210 | = | dans la marge gauche, au v. 1170, sigle χο(ρός) en monogramme, d'une encre orangée ; « εὐ » au v. 1172, « σκυ » au v. 1176 |
+  | 177r | 1211–1231 | = | puis une ligne ornementale de points et de traits, et l'hypothesis I de l'*Assemblée* (la segmentation compte ses lignes avec le texte) |
+
 - **Nombre de lignes.** 43 lignes par page, de façon constante, dans les *Thesmophories*, une fois exclues les pages de début et de fin de pièce (Orsini 2011, 324 n. 13 ; van Leeuwen 1908, 270). Zacher 1888, 534 compte 43 lignes réglées, 42 dans les trois premiers cahiers.
 - **Foliotations.**
   - La foliotation savante est celle **à l'encre**, dans la marge supérieure intérieure (1–191).
@@ -209,7 +261,7 @@ Divergences sur ces mains :
 | Clark 1871 | — | au moins trois correcteurs : « a tremulous hand of nearly the same date as the MS. itself » ; une main à l'encre plus noire, du XIVe ou du début du XVe s., surtout dans les Nuées ; « one if not two still later in the Lysistrate and Thesmophoriazusae » (Clark 1871, 154), à l'encre rougeâtre, la seconde imitant la première (Clark 1871, 159–160) |
 | Allen 1896 | T, A, B | T : texte. A et B : les deux scholiastes, qui corrigent chacun la partie qu'ils annotent (Allen 1896, 311–322) |
 | Orsini 2011 | S1, S2 (et une 3e main) | voir § 4 |
-| Coulon 1928 | R¹, R² (l'OCR local ne distingue pas les exposants) | Les *sigla* du t. IV donnent seulement « R = Ravennas 137, 4 A. saec. X » et renvoient pour le reste à la préface du t. I (Coulon 1928, sigla). Ce t. I (CUF, 1923) est sur le Drive et attend son téléchargement par le chantier Drive **[à vérifier]** |
+| Coulon 1928 | R¹, R² (l'OCR local ne distingue pas les exposants) | Les *sigla* du t. IV donnent seulement « R = Ravennas 137, 4 A. saec. X ». Le renvoi qui y figure à la préface du t. I (« p. XIX, ii. 2 ») concerne les manuscrits de la Souda, non R (Coulon 1928, sigla, relu). La description de R et le sens des exposants de R sont donc à chercher dans la préface générale du t. I (CUF, 1923), qui est sur le Drive mais n'est pas encore téléchargée **[à vérifier]** |
 
 Conséquence pratique : un « R² » de Velsen (la main des scholies) est un R² de Martin dans les *Thesmophories*, puisque S2 y annote. En revanche, le « R¹ » de Martin englobe S1, qui est absent de la pièce, alors que le R¹ de Velsen est le copiste seul. Dans notre apparat, il faudra définir les sigles par la main, sans les reprendre tels quels d'un éditeur.
 
@@ -227,7 +279,7 @@ Allen précise que la liste n'est pas exhaustive.
 
 - **f. 162v**
   - v. 4 : leçon ὠϋριπίδη, signe √ de T en marge, sans correction.
-  - v. 28 : omis par T, ajouté en marge par B en minuscule ; « this v. has perished, and been partly revived ; a late hand has affixed signs ».
+  - v. 28 : omis par T, ajouté en marge par B en minuscule ; « this v. has perished, and been partly revived ; a late hand has affixed signs ». L'image dément cette notice pour le v. 28, qui est dans la colonne, transposé ; elle convient au v. 33 (§ 11).
   - v. 33 : omis par T, ajouté en marge par B.
 - **f. 164** : v. 169 omis par T, ajouté en marge par B avec un signe de renvoi dans le texte.
 - **f. 167v**
@@ -287,7 +339,7 @@ Allen précise que la liste n'est pas exhaustive.
 ### 6.2 Garde finale : le *pinax* de Paolo Canal (1505)
 
 - **La garde.** Le f. 191 est attaché à une garde portant, d'une main du XVe ou du XVIe siècle, une liste des pièces : « ἀριστοφάνους ἀθηναίου κωμῳδίαι ια´ κτλ. » (Allen 1896, 302).
-- **L'attribution à Paolo Canal.** « [Paolo Canal] fu amico di Pietro Bembo, assieme al quale nel 1505 compì un viaggio a Roma, Urbino, Mantova e Ferrara. Durante la sosta a Urbino poté studiare anche il famoso codice Ravennate di Aristofane, alla fine del quale (f. 192) scrisse il pinax » (Eleuteri–Canart 1991, 74, notice XXIV, Paolo Canal, vers 1481–1508). Orsini reprend l'attribution (Orsini 2011, 322 n. 3). Le « f. 192 » renvoie sans doute à la foliotation au crayon, ou à la garde qui suit le f. 191 **[image]**.
+- **L'attribution à Paolo Canal.** « [Paolo Canal] fu amico di Pietro Bembo, assieme al quale nel 1505 compì un viaggio a Roma, Urbino, Mantova e Ferrara. Durante la sosta a Urbino poté studiare anche il famoso codice Ravennate di Aristofane, alla fine del quale (f. 192) scrisse il pinax » (Eleuteri–Canart 1991, 74, notice XXIV, Paolo Canal, vers 1481–1508). Orsini reprend l'attribution (Orsini 2011, 322 n. 3). Le « f. 192 » ne renvoie pas à la foliotation au crayon, qui donne « 194 » à cette garde : il désigne la garde qui suit le f. 191 (voir ci-dessous).
 - **L'attribution à Euphrosynus, contradictoire.** Pour Martin, l'index final est « de la même main que les chiffres, indications de personnages et autres signes qui sont à côté du texte de Lysistrata et des Thesmophoriazusae », donc d'Euphrosynus (Martin 1882, xiii, avec renvoi à Velsen 1871, 1). Velsen dit seulement que, dans l'index final, les deux pièces sont signalées par des traits dans la même encre pâle que les chiffres pour l'imprimeur (Velsen 1871, 6). Les deux témoignages se concilient : le *pinax* serait de Canal, en 1505, et les traits du correcteur de 1515–1516 **[image]**.
 - **Ce que montre l'image** (planche 195 de `ravennas_1904_bnf/…Tome2_planches_101-196…pdf` ; `.travail/ravennas_dossier/gardes/pinax_zoom.png`, `pinax_traits.png`). La garde finale, en regard du f. 191v (« τέλος ἐκκλησιαζουσῶν »), porte « 194 » au crayon dans l'angle supérieur extérieur. Le *pinax* occupe le haut de la page : « ἀριστοφάνους ἀθηναίου κωμῳδίαι ια´ », puis les onze titres (πλοῦτος, νεφέλαι, βάτραχοι, ὄρνιθες, ἱππῆς, εἰρήνη, λυσιστράτη, ἀχαρνῆς, σφῆκες, θεσμοφοριάζουσαι, ἐκκλησιάζουσαι), avec à droite une colonne de numéros α´–ια´. Dans la marge gauche, des traits obliques visent λυσιστράτη et θεσμοφοριάζουσαι ; un troisième, plus bas, semble viser ἐκκλησιάζουσαι **[à confirmer]**.
 - **Numérotation de la garde.** Le « f. 192 » d'Eleuteri–Canart correspond à la garde qui suit le f. 191 de la foliotation à l'encre ; la foliotation au crayon lui donne « 194 ». Orsini dit pourtant que cette foliotation va de 1 à 193 (Orsini 2011, 322 n. 3) **[à vérifier]**.
@@ -299,7 +351,9 @@ Allen précise que la liste n'est pas exhaustive.
   - Préface de l'édition des *Thesmophories* et de la *Lysistrata*, datée « Florentiae X. ianuarii MDXV » : « ex urbinate bibliotheca antiquissimum Aristophanis exemplar nacti sumus ».
   - Postface : « quas ex codice adeo vetusto excerpsimus ut altera interdum dictionis pars ibi desideretur … quia ἀπαραλλάκτως cudere voluimus ».
   - Achevé d'imprimer : « quinto Kl. Februarii M.D.XV. Leonis Papae nostri anno tertio » (Velsen 1871, 2–3 ; Martin 1882, iv ; Clark 1871, 157 : 28 janvier 1516).
-- **L'identification de la main du XVIe siècle.** Elle vient de R. Schöll, qui l'a communiquée à Velsen : « dass dieser Corrector Niemand anders ist, als jener … genannte Euphrosynus Boninus, von dem sich erweisen lasse, dass er den Druck des Aristophanes für Junta geleitet habe » (Velsen 1871, 6–7). Velsen 1883, 5 la reprend, ainsi que van Leeuwen 1904, vi, cité par Scotti 2024, 464 n. 17, White 1906, II, 257, Prato 2001, xxxii (« dallo stesso Bonini fornito di sigle dei personaggi o di altri segni e accenti omessi dal copista ») et Scotti 2024, 462. **Aucune comparaison avec des autographes de Bonini n'est publiée dans ces sources** **[à vérifier : recherche d'autographes d'Eufrosino Bonini, élève de Politien, professeur de grec à Pise d'après Clark 1871, 157 et White 1906, II, 257 n. 1]**.
+- **L'identification de la main du XVIe siècle.** Elle vient de R. Schöll, qui l'a communiquée à Velsen : « dass dieser Corrector Niemand anders ist, als jener … genannte Euphrosynus Boninus, von dem sich erweisen lasse, dass er den Druck des Aristophanes für Junta geleitet habe » (Velsen 1871, 6–7). Velsen 1883, 5 la reprend, ainsi que van Leeuwen 1904, vi, cité par Scotti 2024, 464 n. 17, White 1906, II, 257, Prato 2001, xxxii (« dallo stesso Bonini fornito di sigle dei personaggi o di altri segni e accenti omessi dal copista ») et Scotti 2024, 462. **Aucune comparaison avec des autographes de Bonini n'est publiée dans ces sources.** Bonini était élève de Politien et professeur de grec à Pise (Clark 1871, 157 ; White 1906, II, 257 n. 1).
+  - **Un autographe signalé.** Le catalogue en ligne de la collection Theodorou décrit un manuscrit sur papier de 1493 (Manuel Chrysoloras, *Erotemata*, 69 ff.) comme « the only known Greek manuscript written by Frosino Bonini, a pupil of Angelo Poliziano who later became the principal editor of Greek texts for Filippo Giunta ». Provenance : Agostino Nettucci ; J.-B. J. Barrois ; Ashburnham ; vente Ashburnham-Barrois, Sotheby's, 10 juin 1901, lot 129 ; George Dunn ; Maggs, cat. 395 (1920), n° 15 (Theodorou, consulté le 26 oct. 2026).
+  - C'est l'assertion d'un catalogue de collection privée, sans reproduction en ligne. Elle donne pourtant le seul terme de comparaison connu pour éprouver l'identification de Schöll **[à vérifier : obtenir des reproductions ; chercher d'autres autographes, lettres ou livres annotés]**. Les recherches web du 26 oct. 2026 n'ont rien donné de plus ; le *Repertorium der griechischen Kopisten* reste à consulter.
 - **R copie d'impression ?**
   - Velsen remarque que les chiffres et les traits de la *Lysistrata* et des *Thesmophories* coïncident avec les pages des cahiers de la Juntine de 1516 ; Schöll, puis Velsen lui-même sur l'exemplaire de Munich, l'ont vérifié (Velsen 1871, 3–6).
   - Clark a noté de son côté « faint pencil marks » tracés en travers du texte selon la pagination de la Juntine, avec une seule exception, ainsi qu'une empreinte de pouce d'imprimeur (« printer's black thumb-mark ») (Clark 1871, 159).
@@ -348,7 +402,7 @@ Allen précise que la liste n'est pas exhaustive.
   - Après le v. 276 : « post versum 276 sequitur novo versu in contextu verborum parepigraphe: — ὀλολύζουσί τε· ἱερὸν ὠθεῖται » ; Fritzsche a vu qu'il fallait lire τό (Velsen 1883, 25, *ibid.*). Velsen tire de cette ligne le ἔκσπευδε du v. 277 dans R.
   - Sur les images, les deux lignes sont écrites en retrait dans la colonne de texte, de la main du texte semble-t-il (observation personnelle ; `.travail/ravennas_dossier/f164r_v128-132.png` et `v28/f165v_v274-280.png`). La première est soulignée d'un trait ondulé rougeâtre ; dans la marge gauche de la seconde, deux signes « + ».
   - Une scholie au v. 100 rapporte qu'une parépigraphe μινυρισμός figurait « in libris nonnullis » (Enger 1844, 23, d'après la scholie). R l'a-t-il ? **[image : f. 163v]**
-  - Pour la transcription diplomatique, chacune de ces lignes occupe une ligne de la colonne de texte. Les bornes de vers inscrites dans les noms des fichiers d'images viennent de l'assistant précédent et sont parfois fausses. Le fichier du f. 165v porte « vv0252-0294 », mais la page s'achève sur le v. 293 (« ἵν᾽ ἐξακούω· σὺ δ᾽ ἄπιθ᾽ ὦ Θρᾷττ᾽ ἐκποδών »), et le v. 294 ouvre le f. 166r, dont le fichier porte « vv0295-0336 » (observation personnelle ; `.travail/ravennas_dossier/v28/f165v_fin.png`, `f166r_debut.png`). Les bornes sont à recontrôler page par page **[image]** ; le champ `vers_nom_fichier` de `ravennas/segmentation/*.json` les reprend telles quelles.
+  - Pour la transcription diplomatique, chacune de ces lignes occupe une ligne de la colonne de texte. Les bornes de vers inscrites dans les noms des fichiers d'images viennent de l'assistant précédent et sont souvent fausses : le f. 165v s'achève sur le v. 293 et non 294, et le v. 294 ouvre le f. 166r (tableau du § 1). Le champ `vers_nom_fichier` de `ravennas/segmentation/*.json` reprend ces bornes fausses.
 
 ### 8.2 Changement d'interlocuteur et *notae personarum*
 
@@ -362,10 +416,11 @@ Allen précise que la liste n'est pas exhaustive.
 - **Le relevé vers par vers de Velsen 1871.** Pour chaque changement d'interlocuteur, Velsen donne chaque leçon suivie de sa main : la marque de la première main (« — », « : » ou « om. », suivie de « I m. »), le sigle de la main des scholies quand il existe (« schol. m. »), le sigle de la main de 1516 (« 2 m. R », avec « in rasura » quand il est écrit sur grattage, « überziehend » quand il repasse un sigle plus ancien), puis la leçon de la Juntine (« Junt. ») et, entre parenthèses, celle de l'Augustanus. Trois exemples, lus sur l'imprimé (Velsen 1871, 8–9) :
   - « 5 — I m. ευ^ρ schol. m. überzogen von 2 m. R Εὐ Junt. (ευ^ρ Aug.) » : paragraphos de T ; sigle εὐρ de S2, repassé par la main de 1516 ; l'Augustanus reproduit le sigle de S2 ;
   - « 19 om. I m. μνη^ς schol. m. μν. 2 m. überziehend R Μν. Junt. (μνη^σι Aug.) » : aucune marque de T ; sigle de S2 repassé en 1516 ;
-  - « 34 μν. 2 m. in rasura R Μν. Junt. (om. Aug.) » : sigle de 1516 écrit sur grattage. Répartition, vérifiée sur l'imprimé (`.travail/ravennas_dossier/velsen1871_ocr/`, images i015–i033) :
+  - « 34 μν. 2 m. in rasura R Μν. Junt. (om. Aug.) » : sigle de 1516 écrit sur grattage.
+- **Répartition du relevé de Velsen 1871**, vérifiée sur l'imprimé (`.travail/ravennas_dossier/velsen1871_ocr/`, images i015–i033) :
   - *Thesm.*, sigles en tête de vers : pp. 8–13 (vv. 5–1226) ; *Lys.* : pp. 13–19 ;
   - *Thesm.*, sigles à l'intérieur du vers : pp. 19–22 (vv. 6–1220) ; *Lys.* : pp. 22–25 ;
-  - *Thesm.*, corrections de la main de 1516 dans le texte même : pp. 25–26, aux vv. 11, 33, 45, 54, 57, 96, 171, 193, 220, 222, 257, 258, 290, 306, 373, 443, 489 (deux fois), 803, 804, 806, 909, 934, 1009, 1097 (deux fois), 1144, 1173, 1180, 1191 (liste lue sur l'OCR, numéros à recontrôler sur l'imprimé).
+  - *Thesm.*, corrections de la main de 1516 dans le texte même : pp. 25–26, aux vv. 11, 33, 45, 54, 57, 96, 174, 193, 220, 222, 257, 258, 290, 306, 373, 443, 489 (deux fois), 803, 804, 806, 909, 934, 1009, 1097 (deux fois), 1144, 1173, 1180, 1191 (liste vérifiée sur l'imprimé). Cette main touche aussi la ponctuation : elle change πώποτε· en πώποτε; aux vv. 32 et 33 (Velsen 1871, 25).
   - Velsen isole les cas « bezeichnend », où la correction de 1516 manque dans l'Augustanus et date donc l'intervention (lu sur l'imprimé, Velsen 1871, 7–8) : sigles en tête de vers aux vv. 23, 66, 75, 154, 159, 168, 206, 232, 246, 260, 263, 264, 265, 273, 274, 275, 871, 887, 943, 945, 1008, 1058, 1059, 1064, 1076, 1126, 1127, 1170, 1184, 1188 ; à l'intérieur du vers aux vv. 95, 216, 552, 1179, 1183, 1187, 1191 ; corrections du texte aux vv. 443, 909, 1191. Ce ne sont donc pas les seules interventions de cette main dans le texte, comme je l'avais d'abord compris, mais les seules qui soient probantes.
 - **Le relevé de van Leeuwen 1904, d'après le fac-similé** (van Leeuwen 1904, 1 n. 2 et 2 n. 2 et 4, lu sur l'imprimé). Il distingue un « corrector » et une « manus recens ». Je comprends le premier comme la main des scholies (S2) et la seconde comme la main de 1516, mais van Leeuwen ne le dit pas.
   - Le copiste « solas paragraphos allevit ». Il aurait pourtant écrit lui-même « μνησι^λο » devant le v. 130 **[image : f. 164r]**.
@@ -374,7 +429,7 @@ Allen précise que la liste n'est pas exhaustive.
   - Mica : « γυ^ν μια » du corrector au v. 605, « γυ^ν » aux vv. 626, 649, 652, 689, 706 ; « γυνή τις » de la manus recens aux vv. 380 et 533, et passim « γυνή » ou « γυ ».
   - Critylla : « ἄλλη γυ^ν » du corrector au v. 760, « γυ^ν » aux vv. 879 et 892.
   - Le nom de Mnésiloque figure aussi dans les notes et les scholies : en tête de la pièce (« προλογίζει Μνησίλοχος κηδεστὴς Εὐριπίδου »), au v. 266 (« ὁ Μνησίλοχος »), au v. 603 (« Μνησίλοχος τοῦτο »), au v. 1065 (« ὁ Μνησίλοχος ὡς Ἀνδρομέδα »). Une note préliminaire donne « Εὐριπίδου γυνὴ μὲν Χοιρίνη, μήτηρ δὲ Κλειτώ ».
-  - Velsen est le premier éditeur à avoir écrit Κηδεστής au lieu de Mnésiloque, à l'instigation de Hiller (van Leeuwen 1904, 2 n.).
+  - Velsen est le premier éditeur à avoir écrit Κηδεστής au lieu de Mnésiloque, à l'instigation de Hiller (van Leeuwen 1904, 1–2 n. 2 : « Primus κηδεστήν pro Mnesilocho scripsit editor vVelsen auctore Hillero »).
   - Le « corrector » de van Leeuwen correspond bien à la « schol. m. » de Velsen au moins une fois : au v. 19, van Leeuwen attribue « μνη^σ » au corrector, Velsen « μνη^ς » à la main des scholies. Les deux relevés ne se superposent pourtant pas entièrement ; leur confrontation sur l'image est l'un des premiers travaux de la transcription (§ 15).
 - **Noms du Parent.** « Κηδ. R passim, Σ compluribus locis : Μνη. R compluribus locis, Σ passim » (Coulon 1928, app. au v. 1). Des abréviations de Μνησίλοχος « appear sporadically as marginal speaker-indications in R » (Sommerstein 1994, note sur les personnages). Wilson écrit : « R et sch. saepe eum ita nominant, saepe autem Mnesilochum » (Wilson 2007, II, 71, app. au v. 1). Il faut établir sur l'image quelle main écrit κηδ. et quelle main écrit μν(η). **[image]**
 - **Position de Wilson.** Son apparat exclut volontairement les attributions de répliques données par les manuscrits : « Ratio et res ipsa must be the basis for decisions » (Wilson 2007, I, viii).
@@ -390,7 +445,9 @@ Allen précise que la liste n'est pas exhaustive.
 
 ### 8.4 Colométrie
 
-- **Ce que disent les sources consultées.** Aucune ne décrit la disposition des parties lyriques des *Thesmophories* dans R.
+- **Ce que disent les sources consultées.** Aucune ne décrit de façon générale la disposition des parties lyriques des *Thesmophories* dans R. Velsen consigne pourtant, passage par passage, les mots qui terminent chaque ligne de R (et de G), sous la forme « Verba in vv. 295—311 ita distributa sunt, ut singuli versus finiantur vocibus: ἔστω | ἔστω | θεσμοφόροιν | … | χαίρωμεν RG » (Velsen 1883, 27, lu sur l'imprimé).
+- **Passages ainsi relevés par Velsen 1883**, d'après le répertoire critique (`edition/donnees/repertoire_critique/velsen1883_*.jsonl`) : vv. 45–57 (p. 12), 101–129 (p. 15), 295–311 (p. 27), 312–330 (p. 28), 352–371 (p. 31), 434–443 (p. 34), 459–466 (p. 36), 520–530 (p. 39), 663–688 (p. 49), 719–727 (p. 52), 947–1001 (p. 69), 1078–1097 (p. 79). Le répertoire est encore lacunaire après le v. 1085 : il faudra compléter la liste sur l'imprimé (pp. 75–86 : monodie d'Andromède, hymne des vv. 1136–1159, exodos).
+- **Ce qu'on en tire.** Le sigle « RG » montre que l'Augustanus reproduit les fins de ligne de R. Le relevé de Velsen donne donc un point de départ, et un moyen de contrôle, pour la colométrie diplomatique.
 - **Indices.**
   - Pas de scholies métriques dans R. Le commentaire « qui versuum rationem explicat » manque : « Ne huius quidem ulla extant vestigia in libro Ravennate » (Invernizi 1794, I, xi–xii).
   - Le nombre de lignes est constant (43). La colométrie doit donc se lire directement sur les pages.
@@ -418,7 +475,7 @@ Allen précise que la liste n'est pas exhaustive.
 - **Dommages.**
   - Humidité, surtout dans les marges, donc dans les scholies (Martin 1882, x ; Bekker 1829, vi : « margine passim detrita aut madore corrupta » ; Velsen 1883, 5 ; van Leeuwen 1908, 270 : « sordibus et magis etiam madore multae paginae sunt deturpatae »).
   - Les premiers feuillets sont usés au point que des parties de vers ont disparu, ce qui explique la remarque de Giunta (Velsen 1871, 6 ; Zacher 1888, 529 n. 1).
-  - Au f. 162v, le v. 28 « has perished, and been partly revived » (Allen 1896, 316). La formule suggère l'usage d'un réactif chimique. Sur l'image, la ligne marginale correspondante, à la hauteur du v. 27, est entourée d'une tache bleu-vert qui va dans ce sens (§ 11). Elle était déjà effacée sur la planche de 1904. Le f. 1r porte des taches du même aspect, plus étendues (planche 4 du PDF intégral). Il faudra relever les autres taches de ce type dans les ff. 162v–177r **[image]**.
+  - Au f. 162v, Allen écrit d'un vers suppléé en marge qu'il « has perished, and been partly revived » (Allen 1896, 316 ; il s'agit en fait du v. 33, § 11). La formule suggère l'usage d'un réactif chimique. Dans la marge gauche, des traînées bleu-vert sont alignées sur les débuts des lignes de scholie, et une bande couvre toute une ligne à la hauteur du v. 27 : c'est la trace probable d'un réactif du XIXe s. (bleu de Prusse ?), selon l'inventaire graphologique (`ravennas/graphologie/folios/f162v.md`, obs. #67) et mon observation. Cette ligne était déjà effacée sur la planche de 1904. Le f. 1r porte des taches du même aspect, plus étendues (planche 4 du PDF intégral). Il faudra relever les autres taches de ce type dans les ff. 162v–177r **[image]**.
 - **Reliure et couture.** Le cahier 19 a été recousu avec du fil moderne (Allen 1896, 310). Selon Martin, la signature moderne des cahiers « a été enlevée par la rognure quand le manuscrit a été relié » (Martin 1882, x) : la reliure actuelle est donc postérieure à cette signature. Je n'ai pas trouvé sa date dans les sources consultées **[à vérifier]**.
 - **Gardes.**
   - En tête : I en papier, II et III en parchemin.
@@ -440,7 +497,7 @@ Allen précise que la liste n'est pas exhaustive.
 - **Dépendance.** C'est une copie directe de R : Enger, *praef. Lys.*, x, et *Rh. Mus.* N.F. 2, 245 (cités par Velsen 1871, 7) ; Velsen 1871, 7 ; Clark 1871, 160 ; van Leeuwen 1908, 342 ; Prato 2001, xxxi ; Austin 1987, 71 ; Wilson 2007, II, 68 (« eius apographon … Mu2 »). Pour la *Lysistrata*, voir aussi Henderson 1987, li–liii (cité par Orsini 2011, 325 n. 16).
 - **Stratigraphie des corrections.**
   - Pour Clark, la copie a été faite après le premier correcteur à l'encre rougeâtre et avant le second ; le premier pourrait être le copiste de Munich lui-même, le second l'éditeur de Giunta (Clark 1871, 160).
-  - Pour Velsen, les corrections caractéristiques de « 2 m. » manquent dans l'Augustanus (Velsen 1871, 7–23, avec ses leçons entre parenthèses).
+  - Pour Velsen, les corrections caractéristiques de « 2 m. » manquent dans l'Augustanus (Velsen 1871, 7–8 ; leçons de l'Augustanus entre parenthèses dans les relevés des pp. 8–26).
   - Le copiste de G omet par endroits des ajouts marginaux anciens : le v. 33 manque dans G (Velsen 1871, liste ; Velsen 1883, app. au v. 33).
   - Il faut en tenir compte avant de conclure, comme Austin à propos du v. 60, qu'une leçon absente de G est postérieure (§ 5.4).
 - **Témoignages indirects.** R et le Mon. gr. 492 omettent τοῖς au v. 455, que porte l'extrait de Constantin Lascaris dans le Matr. gr. 4621, f. 10r (Dovico 2016, 73, citant Velsen 1883, 35). Scotti écrit « Monacensis Augustanus 494 » (Scotti 2024, 470) : c'est une erreur pour 492.
@@ -470,11 +527,12 @@ Allen précise que la liste n'est pas exhaustive.
 | K. Zacher | 1888 | description codicologique et scholies | Allen 1896, 303–311 (critique des « Hefte ») |
 | T. W. Allen | 1889–1894 ; publ. 1896 | codicologie et mains | Orsini 2011, 321 |
 | W. G. Rutherford et H. Graeven | années 1890 ; publ. 1896 | transcription des scholies vérifiée sur R par Graeven (ponctuation, accents, abréviations) | Rutherford 1896, I, vi |
-| J. van Leeuwen | fac-similé 1904 ; éd. *Thesm.* 1904 ; *Prolegomena* 1908 | — | Orsini 2011, 321 |
-| V. Coulon | éd. CUF 1928 | apparat | Austin 1987, 69 n. 2 (« very careless in his attribution of conjectures ») ; Gannon 1982, 8–15 (cité par Austin) |
-| C. Austin | 1987 ; Austin–Olson 2004 | — | — |
+| J. van Leeuwen | fac-similé 1904 ; éd. *Thesm.* 1904 ; *Prolegomena* 1908 | texte et scholies collationnés sur le fac-similé : « Ut Lysistratae, sic huius fabulae textum et scholia mihi licuit conferre cum imagine phototypa codicis Ravennatis » ; il relève des listes précises de sigles de personnages par main (§ 8.2) | « Perpauca autem in textu Velsenum, in scholiis Rutherfordium fugisse aut fefellisse vidi » (van Leeuwen 1904, xvi, lu sur l'imprimé) ; Orsini 2011, 321 |
+| V. Coulon | éd. CUF 1928 | apparat ; les *sigla* du t. IV se bornent à « R = Ravennas 137, 4 A. saec. X » (leur renvoi au t. I, p. xix, concerne la Souda) ; il date encore l'*editio princeps* de « 1515 » (app. aux vv. 216 et 248), selon le style florentin | Austin 1987, 69 n. 2 (« very careless in his attribution of conjectures ») ; Gannon 1982, 8–15 (cité par Austin) |
+| C. Austin | 1987 ; Austin–Olson 2004 | dépouillement des éditions anciennes et des notes manuscrites d'humanistes (Austin 1987, 67–71) ; contrôle critique des attributions à R² (v. 60). L'introduction d'Austin–Olson 2004 consacre un chapitre à la tradition manuscrite (« VII The Manuscript Tradition », lxxxix–xcviii) et un autre aux travaux modernes (« VIII Modern Work on the Text », xcix) : non lus, l'extrait local s'arrêtant à la p. lxxix. D'après le compte rendu de Storey, les pp. xcii–xcviii résument les « idiosyncrasies and aberrations » du copiste de R (BMCR 2006.01.05) | — |
+| A. H. Sommerstein | éd. 1994 | apparat sélectif du type « 1231 ἀνταποδοῖτον Grynaeus : ἀνταδοῖτον R » ; l'extrait local (`Sommerstein_1994_Thesm_textrep.txt`) ne mentionne aucune collation de R | — |
 | C. Prato | éd. 2001 | doutes paléographiques vérifiés par M. D'Agostino et G. Prato sur microfilm et sur l'original | Prato 2001, xxxvi–xxxvii |
-| N. G. Wilson | OCT 2007 | contrôle de variantes suspectes sur le fac-similé | Wilson 2007, I, vi : R « had not been correctly reported in all passages » |
+| N. G. Wilson | OCT 2007 | il accepte en général les leçons publiées, mais vérifie « a considerable number of variants that aroused suspicion or curiosity » ; R « can be easily consulted in the facsimile and is not written in a difficult hand » (Wilson 2007, I, vi). Description plus détaillée de la tradition dans *Aristophanea*, Oxford 2007, 1–14 (non consulté) | « even the Ravenna manuscript … had not been correctly reported in all passages » (Wilson 2007, I, vi). La Souda « drew on a copy extremely similar to the Ravenna manuscript » (*ibid.*, vii) |
 
 Divergences de lecture documentées pour les *Thesmophories* (échantillon) :
 - **v. 28.**
@@ -483,9 +541,9 @@ Divergences de lecture documentées pour les *Thesmophories* (échantillon) :
   - Allen 1896, 316 : « om. T, add. in marg. B in minusc. », vers effacé et en partie ravivé, signes ajoutés par une main tardive.
   - **Ce que montre l'image** (observation personnelle ; `.travail/ravennas_dossier/f162v_v24-33.png`, `v28/marge_*.png`) :
     - dans la colonne de texte, T a bien copié le v. 28 (« ἄκουε· … ἀκούω καὶ σιωπῶ τὸ θύριον »), mais après le v. 30 ;
-    - en fin de ligne, de petites lettres d'une encre brun-rouge rétablissent l'ordre : α après le v. 27, β après le v. 28 déplacé, γ après le v. 29, δ après le v. 30 ;
-    - dans la marge gauche, à la hauteur du v. 27, une ligne en minuscule, très effacée, est noyée dans une tache bleu-vert qui fait penser à un réactif. Je n'arrive pas à la lire, ni sur l'image de la Classense ni sur la planche de 1904 (`ravennas_1904_bnf/`).
-  - Velsen et Allen décrivent donc deux faits distincts, tous deux visibles : la transposition par T, corrigée par des lettres d'ordre (Velsen), et une ligne marginale aujourd'hui presque perdue (Allen). L'« om. T » d'Allen est inexact. Restent à établir **[image]** : la lecture de la ligne marginale (le v. 28 ou une scholie ?) et la main des lettres α–δ (R² selon Velsen, « a late hand » selon Allen).
+    - en fin de ligne, de petites lettres rétablissent l'ordre : α après le v. 27, β après le v. 28 déplacé, γ après le v. 29, δ après le v. 30. D'après les mesures d'encre de l'inventaire graphologique, γ est d'une encre brune (S2 probable) ; α, β et δ sont de l'encre orangée de la main de 1516, tracés ou repassés (`ravennas/graphologie/folios/f162v.md`, obs. #30) ;
+    - dans la marge gauche, à la hauteur du v. 27, une ligne en minuscule, très effacée, est noyée dans une tache bleu-vert qui fait penser à un réactif. Je n'arrive pas à la lire, ni sur l'image de la Classense ni sur la planche de 1904 (`ravennas_1904_bnf/`). L'inventaire graphologique y voit une ligne de scholie commençant par « ὑπὸ … » (obs. #67), et non une copie du v. 28.
+  - **Conclusion.** Velsen a raison : T a transposé le v. 28, et l'ordre a été rétabli par des lettres numérales. L'« om. T, add. in marg. B in minusc. » d'Allen ne correspond à rien sur la page pour le v. 28. Sa description (« perished, and been partly revived ; a late hand has affixed signs ») convient au v. 33, suppléé dans la marge droite et en partie repassé (inventaire graphologique, obs. #31). Allen a sans doute confondu les deux vers. Il reste à lire la scholie bleuie **[image]**.
 - **v. 33.** Omis par T et ajouté en marge par B selon Allen 1896, 316 et Velsen 1883 (app.). Le vers manque dans G (Velsen 1871).
 - **v. 29.** Invernizi imprime ἐνθάδε δ' ; Bekker imprime ἐνταῦθ' sans rien dire du manuscrit ; Enger, qui n'a pas vu R, imprime ἐνθάδ' (Enger 1844, 11, lu sur l'imprimé). Velsen 1883 ne signale aucune variante. Sur l'image, R porte clairement « ἐνταῦθ᾽ ἀγάθων » (observation personnelle ; `.travail/ravennas_dossier/v28/f162v_v29.png`). C'est un bon exemple des fausses leçons d'Invernizi, recopiées pendant un demi-siècle.
 - **v. 60.** Trois positions :
@@ -513,7 +571,7 @@ Divergences de lecture documentées pour les *Thesmophories* (échantillon) :
 | R en 1525 | à Florence, utilisé par Francinus (Velsen 1871, 52 ; Prato 2001, xxxiv) | à Pise chez Boninus (White 1906, II, 257) | ouvert |
 | Provenance de l'achat de 1712 | Pise (Allen 1896, 324–325, document ; Mazzatinti 1894, 145) | Rome, sur un étal (tradition orale rapportée par Clark 1871, 156) | le document Canneti–Fiacchi tranche pour Pise |
 | v. 60 κατά | R², Xe s. (Velsen 1883) | conjecture moderne (Austin 1987, 71) | **[image]** |
-| v. 28 | transposé après le v. 30, ordre rétabli par R² (Velsen 1883, app.) | omis par T, ajouté en marge par B en minuscule (Allen 1896, 316) | les deux faits sont visibles sur l'image (§ 11) ; « om. T » est inexact |
+| v. 28 | transposé après le v. 30, ordre rétabli par R² (Velsen 1883, app.) | omis par T, ajouté en marge par B en minuscule (Allen 1896, 316) | l'image donne raison à Velsen ; la notice d'Allen convient au v. 33 (§ 11) |
 | Titre de la pièce | « Θεσμοφοριάζουσαι πρότεραι in R » (Fritzsche 1838, 585 ; Enger 1844, 3) | « ἀριστοφάνους θεσμοφοριάζουσαι » (Velsen 1883, 8) | l'image donne raison à Velsen ; Fritzsche avouait que ni Invernizi ni Bekker ne rapportaient « πρότεραι » (§ 1) |
 | v. 130, sigle « μνησι^λο » | de R², main des scholies (Velsen 1883, app.) | du copiste lui-même (van Leeuwen 1904, 1 n. 2) | **[image : f. 164r]** |
 | Nombre de cahiers | 21 (Martin 1882, x) | 24 (Zacher 1888, 530 n. 1) ; 25 en comptant à part les feuillets isolés (Allen 1896, 302–303 ; Orsini 2011, tabl. 1) | affaire de convention |
@@ -526,7 +584,8 @@ Divergences de lecture documentées pour les *Thesmophories* (échantillon) :
     - archive.org : l'item `ldpd_11894535_009` de Columbia est le *Supplementum IX* (fragments des prophètes de Constance–Weingarten, 1912), pas le t. IX.
     - Gallica : interrogation bloquée par Cloudflare ; une recherche web n'a rien donné.
     - Une notice de Stanford SearchWorks (957469) annoncerait un accès « full view » selon un moteur de recherche ; je ne l'ai pas confirmé, la page étant illisible en mode texte **[à vérifier]**.
-  - **Exemplaire BnF FOL-FAC SIM-182 (9)** : sur le Drive de l'auteur, un PDF de 315 Mo, une version OCR de la préface (54 Mo) et une archive d'images (323 Mo). Le chantier Drive doit télécharger la préface (`.sources/drive/lots.json`). Les planches des ff. 162v–163r sont dans `ravennas_1904_bnf/`.
+  - **Exemplaire BnF FOL-FAC SIM-182 (9)** : sur le Drive de l'auteur, un PDF de 315 Mo, une version OCR de la préface (54 Mo) et une archive d'images (323 Mo). La préface OCR est dans la file d'attente du chantier Drive (`.sources/drive/a_telecharger.json`), mais n'était pas téléchargée le 26 oct. 2026 à 21 h. Les planches des ff. 162v–163r sont dans `ravennas_1904_bnf/`.
+  - La notice Stanford SearchWorks 957469 reste illisible en mode texte (nouvel essai le 26 oct. 2026) **[à vérifier]**.
 - **Reproductions partielles antérieures.** Allen 1896, 300 et n. 3 en donne la liste :
   - Invernizi 1794, pour quelques lignes ;
   - Wattenbach, *Scripturae Graecae specimina*, pl. 26 (une page des Acharniens avec scholies de B) ;
@@ -535,6 +594,8 @@ Divergences de lecture documentées pour les *Thesmophories* (échantillon) :
 
   Orsini 2011 en ajoute aux pl. 55–57 : ff. 116r, 93v et des spécimens de S1 et S2.
 - **Numérique.** Manifeste IIIF de la Classense, `https://www.cdc.classense.ra.it/iiif/2/4651/manifest`, 196 vues ; copie locale `ravennas_1904_bnf/manifest_iiif_classense_ms429.json`. Les *Thesmophories* correspondent aux vues p166–p180, en planches doubles de 3946 × 2780 px. La licence déclarée est « rightsstatements.org/vocab/CNE/1.0/ » (copyright non évalué).
+  - Le serveur IIIF refuse aujourd'hui les téléchargements directs (403). Je n'ai pas cherché à contourner ce refus.
+  - Les deux PDF intégraux du dépôt (`ravennas_1904_bnf/Ravennas_MS429_INTEGRAL_11_Comedies_Tome1_planches_001-100.pdf` et `…Tome2_planches_101-196_incl_Thesmophories.pdf`, 2400 px de large par planche double) reproduisent ces images couleur modernes : on y voit la mire Kodak. Malgré le nom du dossier, ce n'est pas le fac-similé de 1904. Ils donnent accès aux gardes (planches 1–4 et 195–196) et aux autres pièces, utiles pour comparer les mains (ff. 159r, 178v…).
 - **Microfilm** : Prato y a fait vérifier ses doutes (Prato 2001, xxxvi–xxxvii).
 
 ## 14. HTR/OCR pour la minuscule grecque médiévale
@@ -583,21 +644,82 @@ Le dépôt officiel de Kraken (`kraken list`, interrogé le 26 oct. 2026) ne pro
 
 ## 15. Points à vérifier sur les images (ff. 162v–177r et gardes)
 
-*(liste détaillée en cours d'établissement ; noyau ci-dessous)*
+Images de travail : `dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/` (1921 × 2780 px par page, la meilleure résolution disponible). Pour comparer, la planche de 1904 des ff. 162v–163r est dans `ravennas_1904_bnf/`. Les numéros de vers suivent le tableau du § 1, vérifié sur l'image, et non les noms de fichiers.
 
-1. **f. 162v, haut de page.** Identifier les mains : les trois lignes au contenu d'hypothesis (« ὁ χορὸς ἐκ Θεσμοφοριαζουσῶν… »), la ligne « προλογίζει Μνησίλοχος κηδεστὴς Εὐριπίδου » et le titre « ἀριστοφάνους θεσμοφοριάζουσαι ». Encres, et éventuel ornement (※ visible avant le titre).
-2. **f. 162v, scholies en minuscule de la marge gauche** (ὦ Ζεῦ χελιδών…, ἔξωθεν ἐν κύκλῳ…) et **scholie au v. 32** dans la partie basse de la marge intérieure : une troisième main (Orsini) ou B (Allen) ? Comparer avec la minuscule de B aux ff. 159r, 175v et 178v.
-3. **f. 162v, v. 4** : ὠϋριπίδη et le signe √ de T. **v. 28** : vers omis, ajouté par B en marge, ou transposé après le v. 30 ; trace d'un réactif. **v. 33** : ajout marginal de B.
-4. **f. 163r, v. 60** : κατα suscrit. Ductus et encre de B ou main moderne (Austin 1987, 71) ? Comparer à l'encre de B et à celle des corrections du XVIe s.
-5. **Liste d'Allen 1896, 316–317** : contrôler chaque intervention (§ 5.3) et compléter.
-6. **Marques pour l'imprimeur de 1516.** Vérifier la liste de Velsen 1871, 5–6, qui renvoie aux cahiers a–d de la Juntine. Après les vv. 150 (a 11), 178 (a 12), 231 (a 14), 258 (a 15), 284 (a 16), 311 (b 1), 363 (b 3), 388 (b 4), 414 (b 5), 440 (b 6), 491 (b 7), 543 (b 9), 592 (b 12), 618 (b 13), 644 (b 14), 670 (b 15), 695 (b 16), 721 (c 1), 747 (c 2), 773 (c 3), 795 (c 4), 812 ? (c 5), 837 ? (c 6), 864 (c 7), 888 (c 8), 914 (c 9), 938 (c 10), 964 (c 11), 989 (c 12), 1014 (c 13), 1040 (c 14), 1066 (c 15), 1090 (c 16), 1167 (d 3), 1191 (d 4), 1216 (d 5). L'OCR de Velsen est douteux pour plusieurs numéros de vers : vérifier aussi sur le PDF de 1871 et sur la Juntine (`.sources/web/editions/1515_Florence_Iunta_editio_princeps_Thesm_Lys/bsb10912207.pdf`). Noter les « faint pencil marks » de Clark et l'empreinte de pouce.
-7. ***Notae personarum*.** Pour chaque sigle, distinguer la paragraphos ou le dicolon de T, le sigle de S2 (abrégé, encre des scholies) et le sigle imprimable du XVIe s. (petit, encre pâle ou rougeâtre, parfois sur grattage), à l'aide des listes de Velsen 1871, 8–23. Établir qui écrit κηδ. et qui écrit μν(η).
-8. **Grattages attribués à « Giunta ».** vv. 1102–1103 (f. 175v) et, pour comparaison, *Lys.* 499 (f. 117v).
-9. **Couleur des encres du XVIe s.** : « reddish » (Clark) ou « viel blasser » (Velsen). Une ou deux mains ?
-10. **Gardes.** Garde finale (« f. 192 ») : *pinax* attribué à Paolo Canal et traits marquant *Thesm.* et *Lys.* Garde initiale : note de Martini et index (vues IIIF p1–p4 et p195–p196).
-11. **Foliotations** : encre (marge supérieure intérieure) et crayon (marge extérieure) sur les ff. 162–177. Concordance avec la numérotation « Classense ».
-12. **Signature moderne du cahier XXIII** (f. 175r ?). Réglure et piqûres, état des marges (humidité).
-13. **Colométrie des parties lyriques.** Vérifier l'homogénéité de l'encre et du module de T sur les ff. 162v–177r.
+### 15.1 Contrôles sur l'ensemble des pages
+
+1. **Bornes des pages et lignes.** Reporter dans `ravennas/segmentation/*.json` les bornes vérifiées (§ 1), puis corriger les noms de fichiers ou leur table de concordance. La segmentation du f. 168r omet sa dernière ligne (v. 508) ; celle du f. 171r compte 42 lignes, à contrôler. Celle des ff. 175v et 177r compte comme lignes de texte des lignes qui n'en sont pas : les vv. 1102–1103 en marge inférieure, l'hypothesis de l'*Assemblée*.
+2. **Mains et encres.** Constituer, pour chaque main, une planche de référence de lettres et de sigles :
+   - T (texte, titres, parépigraphes) ;
+   - S2 (semi-onciale des scholies, minuscule de ses ajouts) ;
+   - la ou les mains de 1516 (encre pâle ou rougeâtre, sigles « imprimables ») ;
+   - d'éventuelles mains modernes (v. 60 ?).
+   
+   Questions à trancher : une ou deux mains au XVIe s. (Velsen 1871, 7 ; Clark 1871, 159–160) ? Le R³ de Velsen 1883 intervient-il dans la pièce ? Les sigles en encre orangée (εὐ, μν, χο…), très nombreux, sont-ils de S2 ou de 1516 ?
+3. ***Notae personarum*.** Contrôler sur l'image chaque entrée du relevé de Velsen (1871, 8–13 pour les débuts de vers, 19–22 pour l'intérieur des vers) et de van Leeuwen (1904, 1 n. 2 ; 2 n. 2 et 4). Pour chaque réplique, noter la marque de T (paragraphos, dicolon ou rien), le sigle de S2, le sigle de 1516, les grattages et les repassages. Priorité aux cas « bezeichnend » de Velsen 1871, 7–8 (§ 8.2) et aux vers où les deux relevés divergent (v. 130).
+4. **Corrections de 1516 dans le texte** (Velsen 1871, 25–26) : vv. 11, 33, 45, 54, 57, 96, 174, 193, 220, 222, 257, 258, 290, 306, 373, 443, 489, 803, 804, 806, 909, 934, 1009, 1097, 1144, 1173, 1180, 1191. Pour chacune, l'encre, le ductus, et si la correction est sur grattage.
+5. **Marques pour l'imprimeur** (Velsen 1871, 5–6, liste vérifiée sur l'imprimé). Ce sont un trait et un chiffre de page, à chercher après les vv. 150 (a 11), 178 (a 12), 231 (a 14), 258 (a 15), 284 (a 16), 311 (b 1), 363 (b 3), 388 (b 4), 414 (b 5), 440 (b 6), 491 (b 7), 543 (b 9), 592 (b 12), 618 (b 13), 644 (b 14), 670 (b 15), 695 (b 16), 721 (c 1), 747 (c 2), 773 (c 3), 795 (c 4), 812 (c 5), 837 (c 6), 864 (c 7), 888 (c 8), 914 (c 9), 938 (c 10), 964 (c 11), 989 (c 12), 1014 (c 13), 1040 (c 14), 1066 (c 15), 1090 (c 16), 1167 (d 3), 1191 (d 4), 1216 (d 5).
+   - Velsen ne signale aucune marque pour a 13, b 2, b 8, b 10, b 11, d 1, d 2, ni avant le v. 150 ; il faut chercher ces marques absentes.
+   - Elles sont très pâles. Après le v. 150 (f. 164r), un trait et peut-être « 11 » n'apparaissent qu'en renforçant le contraste du canal bleu (`.travail/ravennas_dossier/v28/f164r_marque150.png`).
+   - Il faut aussi chercher les « faint pencil marks » et l'empreinte de pouce d'imprimeur vues par Clark (Clark 1871, 159).
+6. **Signes marginaux de T** (√, +, ⋎, ÷ ; Allen 1896, 312–317) : relevé complet. J'ai par exemple vu deux « + » dans la marge gauche du f. 165v, autour de la parépigraphe du v. 276.
+7. **Usages graphiques de T**, à noter dans la transcription :
+   - préverbes écrits à part, avec leur accent (Austin 1987, 79) ;
+   - apostrophe après οὐκ (Martin 1882, xiii) ;
+   - confusions ο/ω, ποεῖν (*ibid.*) ;
+   - compendia de ἀνήρ et de -ευς (Allen 1896, 324) ;
+   - deux points (dicolon) au changement d'interlocuteur.
+8. **Colométrie.** Relevé ligne par ligne des parties lyriques et des tétramètres coupés, par exemple au v. 550 (f. 168v) et au v. 801 (f. 172r). Le confronter aux notes de Velsen 1883 sur les fins de ligne de R (§ 8.4).
+9. **État matériel.**
+   - Taches bleu-vert de réactif : déjà vues aux ff. 162v (marge gauche, v. 27), 176v (marge gauche, en haut) et 1r.
+   - Humidité dans les marges, grattages, recousures.
+   - Foliotation à l'encre (marge supérieure intérieure) et au crayon (marge supérieure extérieure), signatures de cahiers (« 22 » au f. 167r ; « 23 » au f. 175r ?).
+10. **Comparaisons extérieures.**
+    - Planches 1904 et images actuelles, pour les pertes survenues depuis 1904.
+    - Mon. gr. 492 (BSB, 136 vues locales), pour savoir quels sigles et quelles corrections existaient avant 1516.
+    - *Editio princeps* (`.sources/web/editions/1515_Florence_Iunta_editio_princeps_Thesm_Lys/`), pour la pagination des cahiers a–d et les leçons imprimées.
+
+### 15.2 Contrôles folio par folio
+
+| Folio (vers) | À vérifier | Sources |
+|---|---|---|
+| 162v (1–42) | Mains des trois lignes de note, de « προλογίζει… » et du titre ; exclure « πρότεραι » ; scholies en minuscule de la marge gauche et scholie au v. 32 : S2 ou une troisième main ? ; v. 4 ὠϋριπίδη et √ ; vv. 27–30 : main des lettres α–δ, lecture de la ligne marginale bleuie ; v. 33 en marge ; sigles des vv. 5 et 19 (S2 repassé), 25 et 34 (grattés), 23 (cas probant) ; corrections de 1516 aux vv. 11 et 33 | Allen 1896, 316 et 320–321 ; Orsini 2011, 327 n. 24 ; Velsen 1871, 8–9 et 25 ; Velsen 1883, 10–11 ; § 1 et § 11 |
+| 163r (43–79) | v. 60 : κατα suscrit ; v. 45 : λέγεις (accent, ς sur grattage) ; v. 54 τὰ δὲ ; v. 57 λαικάζει (grattage) ; sigles des vv. 39 (θερά^π de S2 repassé), 45–46 (μνησι^λο, εὐ^ρ, θερ.), 66 et 75 (cas probants) | Velsen 1871, 9 et 25 ; Velsen 1883, 11–12 ; Enger 1844, 15 ; Austin 1987, 71 |
+| 163v (80–122) | v. 80 ἐπεὶ τρίτη 'στι (R) ; v. 95 (sigle à l'intérieur du vers, cas probant) ; v. 96 οὐκκυκλούμενος ; parépigraphe μινυρισμός avant le v. 100 ? | Velsen 1871, 8–9, 19 et 25 ; Enger 1844, 23 |
+| 164r (123–164) | Parépigraphe après le v. 129 et son soulignement rougeâtre ; v. 130 : main de « μνησι^λο » ; marque « — 11 » après le v. 150 ; sigles des vv. 154 et 159 (cas probants) | Velsen 1883, 16 ; van Leeuwen 1904, 1 n. 2 ; Velsen 1871, 5 et 8 |
+| 164v (165–208) | v. 169 omis, ajouté en marge avec renvoi ; vv. 174 et 193 (1516) ; marque « — 12 » après le v. 178 ; a 13 absent ; « μνη » du correcteur au v. 200 ; sigles des vv. 168 et 206 (cas probants), 173 (sur grattage) | Allen 1896, 316 ; Velsen 1871, 5, 8–10 et 25 ; van Leeuwen 1904, 1 n. 2 |
+| 165r (209–251) | vv. 220 εἶ, 222 κέκραγας (1516) ; marque après le v. 231 ; v. 211 (sigle sur grattage) ; vv. 232 et 246 (cas probants) | Velsen 1871, 5, 10 et 25 |
+| 165v (252–293) | Parépigraphe après le v. 276 et signes « + » ; vv. 257, 258, 290 (1516) ; marques après les vv. 258 et 284 ; sigles des vv. 260, 263–265, 273–275 (cas probants) | Velsen 1883, 25 ; Velsen 1871, 5, 8 et 25–26 |
+| 166r (294–336) | v. 295 : sigle gratté (« erasa est nota personae in R », κη^ρυ dans G) et scholie marginale « γυνὴ … μιμουμένη κήρυκα » (lecture à confirmer) ; fins de ligne des vv. 295–330 ; v. 306 καί suscrit (1516) ; marque après le v. 311 ; b 2 absent | Velsen 1871, 5 et 26 ; Velsen 1883, 27–28 ; Sommerstein 1994, note au v. 295 |
+| 166v (337–379) | v. 373 τιμόκλει (1516) ; marque après le v. 363 ; fin du cahier XXI | Velsen 1871, 5 et 26 |
+| 167r (380–422) | « 167 » à l'encre, « 169 » au crayon, signature « 22 » ; « γυνή τις » de la main récente au v. 380 ; marques après les vv. 388 et 414 ; essai HTR (§ 14) | van Leeuwen 1904, 2 n. 2 ; Velsen 1871, 5 ; Orsini 2011, 322 n. 4 |
+| 167v (423–465) | v. 434 : χ et πο ajoutés par B ; v. 443 ὀλίγων (1516, cas probant) ; v. 455 sans τοῖς ; v. 459 γρ. de B ; marque après le v. 440 | Allen 1896, 316 ; Velsen 1871, 5 et 26 ; Dovico 2016, 73 |
+| 168r (466–508) | « κηδ » au v. 466 (main récente) ; v. 468 ἐπιζεῖν (εῖ sur grattage, B) ; v. 489 ἀγυιά, κύνδ' (1516) ; marque après le v. 491 ; v. 493 κινώμεθα (κιν sur grattage, B) | Allen 1896, 316 ; van Leeuwen 1904, 1 n. 2 ; Velsen 1871, 5 et 26 |
+| 168v (509–550) | v. 520 γρ. (B) ; « γυνή τις » au v. 533 (main récente) ; « κη^δ » au v. 540 (B ou correcteur) ; « κηδ » au v. 549 (main récente) ; v. 550 ἁπαξ‿ἁπασ, coupé ; marque après le v. 543 ; b 8 absent | Allen 1896, 316 ; van Leeuwen 1904, 1–2 ; Velsen 1883, app. au v. 550 ; Velsen 1871, 5 |
+| 169r (551–592) | v. 552 (sigle à l'intérieur du vers, cas probant) ; « κηδ » aux vv. 555, 558, 567 s. et 592 (main récente ; vu au v. 592) ; b 10 et b 11 absents ; marque « 12 » après le v. 592 | Velsen 1871, 5 et 8 ; van Leeuwen 1904, 1 n. 2 |
+| 169v (593–635) | « κηδ » aux vv. 603 s. ; scholie au v. 603 (« Μνησίλοχος τοῦτο ») ; « γυ μια » au v. 605, « μνη » aux vv. 615 et 630, « γυ » au v. 626 (correcteur) ; marque après le v. 618 | van Leeuwen 1904, 1–2 ; Velsen 1871, 5 |
+| 170r (636–678) | « μνη » aux vv. 637 (vu) et 650 ; v. 646 ἥκει πάλιν sur grattage (B) ; v. 647 omis, ajouté en marge par B avec signe au v. 648 ; « γυ » aux vv. 649 et 652 ; marques après les vv. 644 et 670 | Allen 1896, 316 ; van Leeuwen 1904, 1–2 ; Velsen 1871, 5 |
+| 170v (679–720) | « Nearly all the dram. pers. are by B » ; « γυ » aux vv. 689 et 706, « μνη » aux vv. 692, 704 et 714 ; marque après le v. 695 | Allen 1896, 316 ; van Leeuwen 1904, 1–2 ; Velsen 1871, 5 |
+| 171r (721–763) | « ἄλλη γυ » au v. 760 (correcteur) ; marques après les vv. 721 et 747 ; segmentation à 42 lignes, à contrôler | van Leeuwen 1904, 2 n. 4 ; Velsen 1871, 5 |
+| 171v (764–800) | « μνη » au v. 765 (vu) ; marques après les vv. 773 et 795 ; coupure des tétramètres anapestiques | van Leeuwen 1904, 1 n. 2 ; Velsen 1871, 5 |
+| 172r (801–834) | vv. 803 παραβάλλουσαι, 804 Ναυσιμάχης, 806 πρός (1516) ; v. 805 σαλλαβακχοῦσ (second λ exponctué par B) ; v. 807 signe sans correction ; marque après le v. 812 | Allen 1896, 316–317 ; Velsen 1871, 6 et 26 |
+| 172v (835–876) | Marques après les vv. 837 et 864 ; v. 871 (cas probant) | Velsen 1871, 6 et 8 |
+| 173r (877–919) | « μνη » aux vv. 878 (vu), 886 et 895 ; « γυ » aux vv. 879 et 892 ; v. 887 (cas probant) ; marques après les vv. 888 et 914 ; v. 909 Ἑλένης' (1516, cas probant) ; v. 910 ἐκ τῶν ἀφύων | van Leeuwen 1904, 1–2 ; Velsen 1871, 6, 8 et 26 |
+| 173v (920–958) | « μνη » au v. 925 ; v. 934 νὴ δία (grattage) ; v. 938 περ (B) ; vv. 943 et 945 (cas probants) ; v. 953 α et ν (B) ; marque après le v. 938 | Allen 1896, 317 ; van Leeuwen 1904, 1 n. 2 ; Velsen 1871, 6, 8 et 26 |
+| 174r (959–1001) | Marques après les vv. 964 et 989 ; sigle « τοξ » au v. 1001 | Velsen 1871, 6 |
+| 174v (1002–1044) | « μνη » aux vv. 1002 (vu) et 1022 ; v. 1008 (cas probant) ; v. 1009 ἔα (1516) ; marques après les vv. 1014 et 1040 ; fin du cahier XXII | van Leeuwen 1904, 1 n. 2 ; Velsen 1871, 6, 8 et 26 |
+| 175r (1045–1081) | Signature « 23 » ? ; vv. 1058, 1059, 1064, 1076 (cas probants) ; scholie au v. 1065 ; marque après le v. 1066 ; disposition du dialogue avec Écho | Velsen 1871, 6 et 8 ; van Leeuwen 1904, 1 n. 2 |
+| 175v (1081–1126) | Marque après le v. 1090 ; d 1 et d 2 absents ; v. 1097 καί, γύναικο (1516) ; vv. 1102–1103 en marge inférieure, signe de renvoi gratté « by Giunta » ; « κηδ » au v. 1107 ; v. 1126 (cas probant) | Allen 1896, 317 ; Velsen 1871, 6, 8 et 26 ; van Leeuwen 1904, 1 n. 2 |
+| 176r (1127–1168) | v. 1127 (cas probant) ; « μνη » au v. 1134 ; v. 1135 √ et μαστιγῶν ; v. 1144 στυγνούς (leçons de T, de S2 et de 1516) ; marque après le v. 1167 | Allen 1896, 317 ; Velsen 1871, 6, 8 et 26 ; van Leeuwen 1904, 1 n. 2 |
+| 176v (1169–1210) | Sigle χο(ρός) au v. 1170 (sigle de 1516 cas probant selon Velsen) ; v. 1173 ἔφραζον (1516) ; v. 1176 signe de T ; vv. 1179, 1183, 1187 (à l'intérieur du vers) et 1184, 1188 (en tête de vers), cas probants ; v. 1180 κατὰ τό ; v. 1191 σκ (correction de 1516, cas probant) ; marque après le v. 1191 ; « κηδ » au v. 1207 | Allen 1896, 317 ; Velsen 1871, 6, 8 et 26 ; van Leeuwen 1904, 1 n. 2 |
+| 177r (1211–1231) | Marque après le v. 1216 ; v. 1231 ἀνταδοῖτον ; ligne ornementale finale ; main de l'hypothesis de l'*Assemblée* | Velsen 1871, 6 ; Sommerstein 1994, app. au v. 1231 |
+
+### 15.3 Gardes et reliure
+
+1. Garde finale (crayon « 194 ») : main du *pinax* (Paolo Canal ?) ; encre et nombre des traits devant λυσιστράτη, θεσμοφοριάζουσαι et peut-être ἐκκλησιάζουσαι ; main de la colonne de numéros α´–ια´ (Eleuteri–Canart 1991, 74 ; Velsen 1871, 6).
+2. Garde initiale (f. IIIv) : écriture de Martini et de l'index des pièces, cachets (Martin 1882, xii–xiii ; Allen 1896, 301).
+3. Foliotation au crayon : va-t-elle jusqu'à 193 (Orsini 2011, 322 n. 3) ou jusqu'à 194, comme sur la garde finale ?
+4. Reliure : date, et rognure des signatures modernes (Martin 1882, x).
 
 ## 16. Sources (sigles, fichiers locaux, état des téléchargements)
 
@@ -618,24 +740,37 @@ Le dépôt officiel de Kraken (`kraken list`, interrogé le 26 oct. 2026) ne pro
 - **Coulon 1928** — V. Coulon et H. van Daele, *Aristophane*, t. IV, Paris 1928 (5e tirage 1962). Extrait textuel : `.sources/drive/ravennas/Coulon_1928_Thesm_Grenouilles_textrep.txt` (OCR sans exposants).
 - **Dovico 2016** — G. Dovico, « Excerpta manoscritti dalle commedie di Aristofane : per una prima recensio », *FuturoClassico* 2 (2016), 62–118. `.sources/drive/ravennas/Excerpta…PB.pdf`.
 - **Eleuteri–Canart 1991** — P. Eleuteri et P. Canart, *Scrittura greca nell'umanesimo italiano*, Milan 1991, notice XXIV (Paolo Canal), p. 74. Texte et image de la p. 74 : `.sources/web/ravennas/humanistes/` (copie archive.org, ouvrage sous droits).
+- **Enger 1844** — R. Enger (éd.), *Aristophanis Thesmophoriazusae cum scholiis*, Bonn 1844 (cité « Enger 1844 » ou « Enger 1844 *Thesm.* »). `.sources/web/editions/1844_Bonn_Enger/bsb10232531.pdf` (BSB) ; pages rendues : `.travail/ravennas_dossier/enger1844/`.
+- **Enger 1844 *Lys.*** — R. Enger (éd.), *Aristophanis comoediae cum scholiis*, I, 1 : *Lysistrata*, Bonn 1844, praefatio v–xii (BSB bsb10232530). Pages 1–36 : `.sources/web/ravennas/collations/enger1844_lysistrata/` ; OCR : `.travail/ravennas_dossier/enger_lys_ocr/`.
+- **Fritzsche 1838** — F. V. Fritzsche (éd.), *Aristophanis Thesmophoriazusae*, Leipzig 1838, 585 et n. 12. `.sources/web/editions/1838_Leipzig_Fritzsche/thesmophoriazus01fritgoog.pdf` (p. 585 = page 612 du PDF).
 - **Irigoin 1962** — J. Irigoin, « Survie et renouveau de la littérature antique à Constantinople (IXe siècle) », *Cahiers de civilisation médiévale* 5 (1962), 287–302 (DOI 10.3406/ccmed.1962.1234). Texte des pp. 300–302 extrait des pages HTML de Persée, le PDF étant protégé : `.sources/web/ravennas/articles/Irigoin_1962_CCM5_pp300-302_persee.txt`.
 - **Invernizi 1794** — Ph. Invernizi, *Aristophanis comoediae auctoritate libri praeclarissimi saeculi decimi emendatae*, I, Leipzig 1794, Prooemium. `.sources/web/editions/1794_Leipzig_Invernizi_t1/`.
 - **JHS 1904** — notice anonyme, *Journal of Hellenic Studies* 24 (1904), 168 (DOI 10.2307/623999). `.sources/web/ravennas/fac-simile-1904/zenodo_2348064_…pdf`.
 - **Koster 1963** — W. J. W. Koster, « Aristophane dans la tradition byzantine », *REG* 76 (1963), 381–396. `.sources/drive/ravennas/`.
 - **Martin 1882** — A. Martin, *Les scolies du manuscrit d'Aristophane à Ravenne. Étude et collation*, Paris 1882, préface i–xxx. `.sources/drive/ravennas/Martin_1882_…pdf` (+ OCR) ; autre exemplaire : `.sources/web/ravennas/articles/bordeaux_1886.pdf`.
 - **Mazzatinti 1894** — G. Mazzatinti, *Inventari dei manoscritti delle biblioteche d'Italia*, IV, Forlì 1894, 145 et 239. `.sources/web/ravennas/histoire/InventariDeiManoscrittiDelleBiblioteche4*`.
+- **Montana** — F. Montana, « L'anello mancante : l'esegesi ad Aristofane tra l'antichità e Bisanzio », *Atti della Accademia Roveretana degli Agiati*, pp. 17–34 (PDF de 2016 ; volume et année exacts **[à vérifier]**). `.sources/web/ravennas/articles/Montana_L_anello_mancante_Agiati.pdf`. Sur la parenté des scholies de R et de V avec les notes de P.Oxy. 1371 (pp. 21–23) ; ne traite pas des mains de R.
 - **Orsini 2011** — P. Orsini, « L'Aristofane di Ravenna. Genesi e formazione tecnica e testuale di un codice », *Scriptorium* 65 (2011), 321–337, pl. 55–57. `.sources/drive/ravennas/L'aristofane di ravenna…pdf`.
 - **Prato 2001** — C. Prato (éd.) et D. Del Corno (trad.), *Aristofane. Le donne alle Tesmoforie*, Milan 2001, Introduzione, xxxi–xxxvii. Extrait : `.sources/drive/ravennas/Prato_2001_…textrep.txt`.
 - **Rutherford 1896** — W. G. Rutherford, *Scholia Aristophanica*, I, Londres 1896, v–vii et xxvii–xxix. `.sources/web/ravennas/scholies/scholiaaristopha01ruthuoft*`.
 - **Scotti 2024** — M. Scotti, « The Odyssey of the Ravenna manuscript : Urbino time », *Sapiens ubique civis* 5 (2024), 461–472. `.sources/web/ravennas/articles/Scotti_2024_…pdf`.
 - **Sommerstein 1994** — A. H. Sommerstein, *Aristophanes. Thesmophoriazusae*, Warminster 1994. Extrait : `.sources/drive/ravennas/Sommerstein_1994_…textrep.txt`.
+- **van Leeuwen 1904** — J. van Leeuwen (éd.), *Aristophanis Thesmophoriazusae*, Leyde 1904, prolegomena xvi et notes des pp. 1–3. `.sources/web/ravennas/collations/aristophanisthe00leeugoog.pdf` ; OCR et images : `.travail/ravennas_dossier/vl1904/`.
 - **van Leeuwen 1908** — J. van Leeuwen, *Prolegomena ad Aristophanem*, Leyde 1908, 270–272 et 342. `.sources/web/ravennas/collations/prolegomenaadari00leeu*`.
+- **Storey 2006** — I. Storey, compte rendu d'Austin–Olson 2004, *BMCR* 2006.01.05 (https://bmcr.brynmawr.edu/?p=25137), consulté le 26 oct. 2026.
 - **Velsen 1871** — A. von Velsen, *Über den Codex Urbinas der Lysistrata und der Thesmophoriazusen des Aristophanes*, Halle 1871. `.sources/web/ravennas/collations/berdencodexurbi00velsgoog*`.
 - **Velsen 1883** — A. von Velsen (éd.), *Aristophanis Thesmophoriazusae*, Leipzig 1883, praefatio 5–6. `.sources/web/ravennas/collations/aristophanisthe00velsgoog.pdf` ; OCR latin de la préface : `.travail/ravennas_dossier/velsen1883/`.
 - **White 1906** — J. W. White, « The manuscripts of Aristophanes », *Classical Philology* 1 (1906), 1–20 (I) et 255–278 (II). `.sources/web/ravennas/articles/sim_classical-philology_1906-01_1_1*` (I) ; `.sources/drive/ravennas/the manuscripts of Aristophanes…` (II).
+- **Theodorou** — catalogue en ligne de la collection Theodorou, « Books & Manuscripts » (https://adairtoelgin.com/books), consulté le 26 oct. 2026 ; copie : `.travail/ravennas_dossier/web/theodorou.html`. Signale un manuscrit autographe de Bonini (Chrysoloras, *Erotemata*, 1493).
 - **Wilson 2007** — N. G. Wilson (éd.), *Aristophanis fabulae*, Oxford 2007, I, v–viii ; II, 68–71. Numéros de page de l'OCR déduits de la pagination imprimée. OCR dans `.travail/ocr/wilson1`, `wilson2`.
 - **Zacher 1888** — K. Zacher, *Die Handschriften und Classen der Aristophanesscholien*, Leipzig 1888 (*Jahrb. f. class. Philol.*, Suppl. XVI), 529–543. `.sources/web/ravennas/scholies/diehandschrifte02zachgoog*`.
 
 ### 16.3 Cité de seconde main, non consulté
 
 Jones 1952 (*CQ* 2, 168–185) ; Mioni 1964 (*Catalogo di manoscritti greci esistenti nelle biblioteche italiane* II, 363–364, n° 244) ; Diller 1974 (*Serta Turyniana*, 514–524) ; Eberline 1980 ; Turyn 1943 ; Wilson 1983 (*Scholars of Byzantium*, 137) ; Dillon Bussi–Giuliani 1996 (*Biblioteca Classense*, 32, fiche de S. Marcon) ; Stefec 2012 (*RHM* 54, 95–198) ; Perusino–Beta 2020 ; Regtuit 2007 (*Scholia in Thesm.*) ; Holzinger 1882 (*WS* 4) ; Guasti 1862 ; Stornajolo 1895.
+
+### 16.4 Sources repérées, à lire
+
+- **Sur le Drive de l'auteur, non encore téléchargées** (file d'attente `.sources/drive/a_telecharger.json`) : Austin–Olson 2004 complet (introduction, chap. VII « The Manuscript Tradition », lxxxix–xcviii, et VIII, xcix–) ; Coulon, t. I (CUF 1923), préface générale (description des témoins ; p. xix pour les manuscrits de la Souda) ; Coulon t. IV et Prato 2001 complets ; préface de van Leeuwen au fac-similé de 1904 (« FOL-FAC SIM-182 (9) ROC Preface Hellenike Gimagereader.pdf », 55 Mo) ; préfaces des *Scholia in Aristophanem* de Groningue (Holwerda, *Aves* ; Chantry, *Plutus* et *Ranae* ; Koster, *Nubes*), qui décrivent R ; Boudreaux 1919.
+- **Hors ligne ou non accessibles le 26 oct. 2026** : notice Pinakes (IRHT) du manuscrit (serveur injoignable) ; Wilson, *Aristophanea* (2007), 1–14 ; Wilson 1983 (prêt numérique archive.org seulement) ; L. P. E. Parker, *The Songs of Aristophanes* (1997), absent du Drive ; notice de la Sapienza sur Bonini (accès refusé).
+- **Fac-similé de 1904 en accès libre** : non trouvé (HathiTrust, archive.org, Gallica, recherche web).

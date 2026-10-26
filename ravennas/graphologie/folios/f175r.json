@@ -1,16 +1,43 @@
 {
  "folio": "f175r",
  "image": "dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/26_f175r_classense177r_vv1044-1081.jpg",
- "statut": "en cours",
- "vers": "1044-1081 (à vérifier)",
- "lignes_texte": null,
- "mains": [],
- "interventions": [],
+ "statut": "inventaire graphologique fait (voir f175r.jsonl et f175r.md)",
+ "vers": [
+  1045,
+  1081
+ ],
+ "lignes_texte": 43,
+ "mains": [
+  "T (texte, paragraphoi, dicolon l. 19, biffure currente calamo l. 28)",
+  "S2 (scholies et gloses ; notes-sigles εὐρι(πίδης) ἠχώ l. 12, ὁ μνησίλοχος ὡς ἀνδρομέδα l. 21, ηχω l. 26 ; note de jeu l. 19 ; corrections R² selon Velsen 1883 aux l. 4, 23, 39)",
+  "main tardive à l'encre rousse (sigles imprimables μν / Ηχ, μνη l. 19 ; « 2 m. » de Velsen 1871)",
+  "main de 1516, gris neutre (mine de plomb ou encre très pâle) : repère de la page c 15 de la Juntine (l. 22/23), annulation de la paragraphos l. 35",
+  "correcteur(s) indéterminé(s) : exponctuation l. 15, rasure l. 32, annulation l. 39",
+  "foliotations : « 177 » mine de plomb (Classense) ; « [1]75 » encre brune"
+ ],
+ "interventions": [
+  "l. 4 ἐπόψεται sur grattage",
+  "l. 15 ε exponctué (ἐπικοκκάστρια)",
+  "l. 19 μνη en interligne",
+  "l. 21 μν sur la note de S2",
+  "l. 23 υ suscrit (διφρεύου)",
+  "l. 28 ⟦ελέγχων⟧ ἔλαχον (T)",
+  "l. 32 λ gratté",
+  "l. 35 et 39 paragraphoi barrées",
+  "l. 39 circonflexe ajouté sur le 1er παῦσαι"
+ ],
  "formes": [],
  "abreviations": [],
  "ponctuation_accentuation": {},
  "notae": [],
- "scholies": {"nombre": null, "mains": [], "remarques": "", "liste": []},
+ "scholies": {
+  "nombre": 8,
+  "mains": [
+   "S2"
+  ],
+  "remarques": "5 scholies à droite (l. 6–7, 10, 12, 13, 15–20), 3 notes à gauche (l. 14–17, 26, 27) ; gloses aux l. 7, 10, 19, 21 (dans la ligne), 22, 30, 32, 37",
+  "liste": []
+ },
  "etat": [],
  "pieges": []
 }

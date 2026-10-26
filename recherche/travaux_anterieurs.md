@@ -87,7 +87,9 @@ chaque côté, sans écart.
 - `outils/extraction/sources_citees.py` : comptage des sources citées (§ 8).
 
 Commande : `python3 outils/extraction/extraire_travaux.py && python3 outils/extraction/comparer_versions.py`
-(≈ 15 s). Le nom réel de l'auteur est lu dans `\author{}` et masqué dans toutes les sorties (contrôle bloquant).
+(≈ 15 s ; puis `python3 outils/extraction/sources_citees.py`). Les sorties sont identiques octet pour octet
+d'une exécution à l'autre (contrôlé). Le nom réel de l'auteur est lu dans `\author{}` et masqué dans toutes
+les sorties (contrôle bloquant).
 
 ### 2.2 Sorties (`edition/donnees/travaux_anterieurs/`)
 
@@ -122,8 +124,13 @@ La numérotation imprimée par reledmac n'est pas lisible directement dans la so
    l'auteur (HG a lui-même ses lacunes et ses vers « a », et diverge de la numérotation moderne, par ex. à
    1014-1018 : la monodie d'Andromède commence au v. 1015 chez l'auteur comme dans l'usage, au v. 1016 chez HG).
    La numérotation de l'auteur est celle de l'usage moderne : contrôle sur l'OCT de N. G. Wilson (2007, scan
-   local, numéros seulement) aux repères 372-380, 724-726, 1015-1019, 1025-1030, 1080-1085, 1135-1145, 1155 et
-   1160, où l'auteur et Wilson concordent et où HG diffère (§ 11.2).
+   local, numéros seulement) aux repères 372-380, 724-726, 1015-1019, 1025-1030, 1080, 1085-1090, 1135-1145,
+   1155 et 1160, où l'auteur et Wilson concordent alors que HG s'en écarte le plus souvent ; seuls les
+   vv. 1081-1084 font difficulté (§ 11.1-11.2) ;
+5. **contrôle les renvois internes** : la leçon de chaque segment d'apparat bref doit se lire dans la ligne
+   du vers indiqué (399 segments vérifiés, 397 concordants, 2 décalés) et le lemme de chaque commentaire bref
+   dans une ligne de sa plage ou dans l'apparat de ces vers (223 commentaires vérifiés, 219 concordants,
+   4 décalés) : `statistiques.controle_apparat_numerotation` et `controle_commentaires_numerotation`.
 
 Résultat : 1 400 lignes grecques numérotées, 1 208 numéros de vers distincts de 1 à 1231 ; 6 étiquettes de
 groupe seulement (sur 777) restent en désaccord avec le numéro attribué, toutes des étiquettes périmées
@@ -147,11 +154,11 @@ personnage côté grec l'a aussi côté français, sauf deux (vv. 663-666, § 11
 |---|---:|
 | Groupes (de chaque côté) | 777 (375 + 402) |
 | Lignes grecques / françaises | 1 400 / 1 407 |
-| Vers distincts numérotés | 1 208 (1-1231) ; 1 220 numéros couverts (lignes valant deux numéros comprises) ; 11 numéros absents : vv. 23 et 500 supprimés, 9 conventions de numérotation (§ 11.2) |
+| Vers distincts numérotés | 1 208 (1-1231) ; 1 220 numéros couverts (lignes valant deux numéros comprises) ; 11 numéros absents : vv. 23 et 500 supprimés, 9 sauts de numérotation (conventions, sauf 1082 : § 11.1-11.2) |
 | Répartition des lignes grecques | trimètres 884 (+ 1 catalectique) ; parties chorales `\chantChoeur` 181 (+ 1 saisie par erreur avec `\chantChoeurFr`, v. 330) ; anapestes 86 + dimètres 37 + tétramètres 35 ; tétramètres iambiques catalectiques 52 (+ 2 acatalectes) ; trochaïques 31 ; monodie paratragique 40 ; chant d'Agathon 30 ; prose (prière 295-311) 16 ; dochmiaques 4 |
 | Locuteurs (lignes) | Mnésiloque 418, Chœur 236, Euripide 229 (Écho comprise), Mika 123, Coryphée 96, Agathon 80, Archer scythe 71, Clisthène 42, Critylla 35, Serviteur 25, Coryphée-prêtresse 16, Marchande de couronnes 16, Prytane 9, second Coryphée 4 |
 | Commentaires | 357 (181 dans le premier fichier, 176 dans le second ; 356 côté grec, 1 côté français) — 335 689 caractères ; médiane 439 ; plus longs : 455-6 (15 449 c.), 101-29 (6 079), 1031 (5 563), 291 (5 500), 1174 (5 395), 643, 738, 556-7, 1059, 839 |
-| Notes de commentaire | 541 (130 900 caractères) |
+| Notes de commentaire | 541 (130 896 caractères), réparties entre 176 commentaires |
 | Apparat | 425 macros, 536 segments (un par vers), 629 entrées, 1 345 leçons ; 532 vers pourvus d'apparat ; 36 macros contiennent en outre des entrées commentées (`%`, 59 fragments) |
 | Leçons signées « Bibi » (actives) | 42 (§ 5) |
 | Testimonia actifs | 244 (71 côté grec, 173 côté français) ; 175 testimonia désactivés |
@@ -363,8 +370,8 @@ Les justifications se lisent dans le commentaire du vers indiqué (`commentaires
 | 1 | Χελιδὼν (nom propre, « ap. Clements ») | active en nov. 2022 ; supprimée dès mars 2023 (la note sur l'article d'A. Clements a disparu) |
 | 702 | διπλὰ (pour ἔργα R) | active en nov. 2022 ; commentée (`%`) dès mars 2023 ; le texte imprime †πλέα† (Souda) |
 | post 870 | < οἶσθ' οὖν ὃ δρᾶσον; > restitué « ap. Σ » (cf. Eur. *Hél.* 325) | active en nov. 2022 ; désactivée ensuite |
-| 1072 | θαλάττης τέμνον (pour θανάτου τλήμων) | désactivée dans toutes les versions |
-| 1082 | ὀλόφυγ' (pour ὀτότυζ') | désactivée dans toutes les versions |
+| 1072 | θαλάττης τέμνον (pour θανάτου τλήμων) | désactivée (`%`) en nov. 2022 comme en 2023 (mars 2023 s'arrête au v. 946) |
+| 1082 | ὀλόφυγ' (pour ὀτότυζ') | désactivée (`%`) en nov. 2022 comme en 2023 |
 | Eur. fr. 228 Kannicht | καλλήϊον Γαιᾶ (pour κάλλιστον ἐκ γαίας) | active dans le commentaire de 855-7 en nov. 2022 ; commentée (`%`) dès mars 2023 |
 | 50, 163, 291, 446 | πραῖνοι, δίκανον, πρὸς θάλικα, ἐγκύμων | remplacées en 2023 par πρανοῦν, διέκειντ', θυλάκιον, ἔγκυος |
 
@@ -603,8 +610,157 @@ auteurs cités » et un « Index général » sont commentés (ébauches vides).
 
 ## 10. Comparaison des versions
 
-*(section en cours de rédaction)*
+Méthode (`outils/extraction/comparer_versions.py`) : chaque version est extraite avec le même analyseur que
+la version de référence ; chaque élément ancien (commentaire, note, entrée d'apparat, testimonium) reçoit un
+statut d'après le texte le plus proche dans la version de 2023 (actif ou commenté par `%`, y compris les
+entrées commentées à l'intérieur d'une macro restée active) ; le texte grec et les attributions sont comparés
+vers par vers. Détail complet dans `comparaison_versions.json` ; une ligne par élément non conservé à
+l'identique dans `comparaison_versions.tsv` (267 lignes).
+
+### 10.1 Les trois états
+
+| | nov 2022 | Harmattan mars 2023 | Harmattan 2023 |
+|---|---:|---:|---:|
+| Fichiers (lignes) | 1 (13 092) | 1 (10 307) | 2 (6 886 + 7 729) |
+| Vers couverts | 1-1231 | 1-946 | 1-1231 |
+| Groupes | 773 | 541 | 777 |
+| Lignes grecques / françaises | 1 401 / 1 404 | 1 068 / 1 074 | 1 400 / 1 407 |
+| Commentaires (caractères) | 356 (337 166) | 289 (284 313) | 357 (335 689) |
+| Notes | 558 | 466 | 541 |
+| Apparat : macros / segments / entrées | 465 / 560 / 671 | 300 / 387 / 454 | 425 / 536 / 629 |
+| Leçons « Bibi » actives | 39 | 27 (vv. 1-946) | 42 (27 pour les vv. 1-946) |
+| Testimonia actifs (page grecque / française) | 239 / 0 | 225 / 0 | 71 / 173 |
+| Macros désactivées (comm. / notes / apparat / test.) | 58 / 46 / 33 / 0 | 36 / 118 / 60 / 0 | 60 / 145 / 79 / 175 |
+
+Deux mouvements dominent : (1) entre novembre 2022 et mars 2023, l'élagage (désactivation par `%`) de notes
+et d'entrées d'apparat, et le remaniement de quelques grands dossiers (1-10, 49-50, 161-3, 291, 455-6) ;
+(2) en 2023, le passage des testimonia de la page grecque à la page française (`\Xonlyside[A]{R}` : sur
+les 175 testimonia désactivés, 174 sont sur la page grecque, et 173 d'entre eux ont leur homologue actif,
+de même plage, sur la page française) et le découpage en deux fichiers. Pour les vv. 1-946, la version de mars 2023 est presque identique à celle de 2023.
+
+### 10.2 Novembre 2022 → 2023 : ce qui a disparu ou changé
+
+| Élément (nov 2022) | Conservé | Conservé, rédaction abrégée | Remanié | Désactivé (`%`) | Autres statuts | Absent |
+|---|---:|---:|---:|---:|---|---:|
+| Commentaires (356) | 293 | — | 43 | 3 | réécrits 9 ; abrégés (partie désactivée) 6 ; reformulé 1 | 1 |
+| Notes (558) | 459 | — | 18 | 57 (+ 1 reformulée) | abrégées 8 ; intégrées au commentaire 6 ; reformulées 4 ; réécrites 4 | 1 |
+| Apparat, entrées (671) | 488 | 94 | 45 | 39 | transférées dans les testimonia 2 | 3 |
+| Testimonia (239) | 225 | 12 | 1 | 1 | — | 0 |
+
+- **Commentaires absents ou désactivés** : v. 1 (« Hirondelle avec un H majuscule », d'après l'article
+  d'A. Clements, *Mnemosyne* 62, 2009 : seul article véritablement supprimé, avec sa note et la leçon
+  Χελιδών) ; désactivés : 45 (βομβάξ, note de Chantraine), 162 (οἵπερ ἁρμονίαν de la Souda, arguments
+  de Coulon), 204 (νυκτερήσια). **Réécrits** (même plage, texte largement nouveau) : 1-10, 21, 22-4, 49-50,
+  56-7, 179, 248, 263, 455-6. **Abrégés** (une partie passée en `%`) : 161-3, 247, 291, 486, 702, 855-7.
+- **Notes désactivées** (58, par passage) : 455-6 (14), 161-3 (6), 291 (6), 939-42 (6), 49-50 (3), 702 (3),
+  100, 162, 643, 855-7, 894 (2 chacun), 101-29, 217, 248, 273, 556-7, 605, 704, 711-2, 804, 896 (1 chacun).
+  Ce sont pour beaucoup des digressions ou des pointes polémiques (« le rire du soldat allemand dans la
+  *Traversée de Paris* », 455-6 ; « le chef de cette meute », 556-7 ; « Aristophane est drôle ! », 804 ;
+  « l'internationale du commentaire », 939-42) et des références bibliographiques secondaires : l'auteur a
+  lui-même commencé l'allègement qu'appelle une édition de référence (§ 7.3).
+- **Apparat** : les 39 entrées désactivées sont des conjectures écartées, R étant conservé dans le texte
+  (21 : 27, 165, 245, 277, 305, 353, 389, 440, 461, 511, 516, 536, 562, 687, 768, 771, 782, 967, 990, 994,
+  1010), des variantes de la tradition indirecte (8 : après 129, 390, 391, 439, 481, 486, 494, 910), des
+  corrections pourtant imprimées dans le texte (6 : 417 μορμολυκεῖα Dindorf, 537 ποθὲν Küster, 542
+  ᾽γίγνωσκον Bentley, 798 αἰσχυνθεῖσ᾽ Zanetti, 808 τις Küster, 1014 σώσων M ; de même 481 μου ᾽κνυεν de
+  la Souda), deux notes sur les sigles de personnages (295, 372), une entrée récrite (555, réduite à
+  « add. γε Faber ») et la restitution « Bibi » après le v. 870 ; deux informations sont passées dans les
+  testimonia (142 τὸ πέος Suid. λ 63, π 987 ; 162 οἵπερ ἁρμονίαν Suid. ε 989) ; trois entrées ont disparu
+  sans trace : 1 (Χελιδών Bibi ap. Clements), 289 (καὶ τὴν θυγατέρα R : del. Willems), 726 (χρῆν σ᾽
+  R² : χρὴ μ᾽ M).
+- **Testimonia** : 50 (la glose d'Hésychius π 3188 passe de πραῖνοι· πρηνίζει, καταστρέφει à
+  †πραῖνοι· πρηνίζειν, καταστρέφειν, c'est-à-dire de la leçon normalisée à la leçon du manuscrit) ;
+  223 (Souda ε 2807, désactivé).
+- **Texte grec : 20 vers diffèrent.** Mots (11) : 50 πραῖνοι ἡμέτερος → πρανοῦν προτέρους ; 99 γὰρ → νῦν
+  (Rogers au lieu de Burger) ; 162 ἐχύμισαν → ἐκεχήνεσαν ; 163 δίκανον → διέκειντ᾽ ; 263 χαλαρὰ γ᾽ οὐ
+  χαίρεις → (Ἀγάθ.) χαλαρὰ γοῦν χαίροις ; 289 χοιρίον → Χοιρίλ᾽ ; 291 θάλικα → θυλάκιον ; 446 ἐγκύμων →
+  ἔγκυος ; 657 ἐπελήλυθ᾽ → ἐπελήλυθε ; 702 διπλὰ → †πλέα† ; 895 βάϋζε → κόνυζα. Ponctuation (5) : 3, 27,
+  28, 52, 264. Accent ou majuscule (2) : 1 Χελιδὼν → χελιδὼν ; 45 τι → τί. Répartition des lignes (2) :
+  913-914 et 959-960 réunis chacun sur une ligne.
+- **Attributions (3 vers)** : 45 (le dernier mot du vers n'est plus rendu à Mnésiloque), 263-264
+  (Agathon répond dès le v. 263 ; l'attribution du v. 264 est signée « Bibi » en 2023).
+- **Traduction** : 110 vers retouchés (9 seulement entre mars 2023 et 2023).
+- **Conjectures « Bibi »** : 5 nouvelles en 2023 (162, 264, 289, 642-3, 895) et une étendue (30-1) ;
+  4 remplacées (50, 163, 291, 446) ; 3 abandonnées (1 Χελιδών, 702 διπλὰ, restitution après 870) : § 5.
+
+### 10.3 Mars 2023 → 2023 (vv. 1-946)
+
+Commentaires : 284 conservés, 3 remaniés (207, 808-9, 894), 2 désactivés (49-50, le long exposé sur
+†πράμος†, remplacé par le dossier πρανοῦν προτέρους ; 204). Notes : 443 conservées ; 14 désactivées (49-50 ×6,
+100 ×2, 101-29, 217, 605, 702, 894 ×2), 3 abrégées, 3 remaniées, 2 intégrées au commentaire (616, 894),
+1 réécrite (605). Apparat : 453 entrées conservées sur 454, 1 désactivée (417 μορμολυκεῖα). Testimonia :
+224 sur 225 (223 désactivé). Texte grec : une seule différence (913-914 réunis). Aucune attribution ne
+change.
 
 ## 11. Anomalies relevées
 
-*(section en cours de rédaction)*
+Le rapport complet est dans `anomalies.tsv` (189 anomalies : code, gravité, groupe, vers, fichier, ligne
+source, message ; 22 codes). On distingue ci-dessous les fautes ou incohérences du travail de l'auteur, à corriger ou à
+trancher dans la nouvelle édition (§ 11.1), et les conventions de numérotation, qui ne sont pas des fautes
+(§ 11.2). Les décomptes « info » (étiquettes `%% v.` divergentes entre pages grecque et française : 72 ;
+alignements par longueurs : 13) relèvent du contrôle de l'extraction.
+
+### 11.1 Fautes et incohérences
+
+- **vv. 3-4 transposés sans note** (gravité « grave ») : le texte grec imprime 1, 2, 4 (παρὰ σοῦ
+  πυθέσθαι…), 3 (οἷόν τε, πρὶν τὸν σπλῆνα…), déjà en novembre 2022. R donne l'ordre usuel (vérifié sur
+  l'image du f. 162v, où on lit d'ailleurs οἷόν τι, conformément à l'apparat « τι R : τε ») ; la
+  traduction suit l'ordre usuel ; l'apparat (« 3 τι R ») et le commentaire de 1-4 (« παρὰ σοῦ πυθέσθαι
+  (v. 3) ») se contredisent. Interversion accidentelle ou choix non justifié : à rétablir selon R.
+- **Glose entre accolades sans apparat** : v. 828 { ἐν ταῖς στρατιαῖς } (§ 6).
+- **Corrections imprimées sans mention dans l'apparat de 2023** (l'entrée de 2022 a été commentée) :
+  417, 481, 537, 542, 798, 808, 1014 (§ 10.2) ; à rétablir dans un apparat complet.
+- **Apparat** : deux segments rattachés au mauvais vers (`\ligneApp{374}` pour Τιμόκλει᾽, vers numéroté 373
+  dans le texte : numéro de Hall–Geldart ; `\apparat{435}` pour δεινότερον, vers 436) ; cinq numéros de
+  vers saisis en gras au lieu de `\ligneApp` (135, 169, 179, 581, 658) ; graphies fautives de noms
+  d'éditeurs (« Mugrave » pour Musgrave, 1041 ; « Gryaneus », « Gryaneaus », 501 et 733 ; « Daubruz »,
+  352 ; « Bizet », 1013 ; « van Velsen », 1176).
+- **Notes du commentaire** : appels `\marqueur` répétés dans 7 articles (49-50, 61, 161-3, 365-6, 826,
+  839, 1175) ; 5 notes sans appel (134-5, 248, 365-6, 556-7, 943-56) et 5 appels sans note active (248,
+  494, 518-9, 556-7, 1151 : la note a été commentée, l'appel est resté) ; au v. 365-6, la seconde partie
+  du commentaire forme un article sans plage ni lemme dont les notes (6 à 14) n'ont pas de `\debutNote`
+  (14 anomalies `note_sans_debutNote`) ; deux `\debutNote` dont la plage diffère de celle du commentaire
+  (943-56 / « 943-56. » ; 1150-53 / 1150-3).
+- **Plages de commentaire décalées** : sur 223 commentaires à plage brève dont le lemme a pu être
+  cherché dans le texte, 4 ne portent pas le numéro de la ligne où se lit leur lemme : 193 (lemme du
+  v. 194), 376-7 (lemme des vv. 375-376 : numérotation de Hall–Geldart restée dans la plage), 619 (lemme
+  du v. 620), 1082 (ὀτότυζ᾽, imprimé sur la ligne du v. 1081 ; voir ci-dessous).
+- **Vv. 1081-1084 (scène d'Écho)** : le grec place les deux ὀτότυζ᾽ sur la ligne du v. 1081
+  (`\ligne{1081}`), mais le commentaire les numérote 1082 et le texte poursuit par οὖτος τί λαλῖς (1083)
+  et πρυτάνεις καλέσω (1084) ; or Hall–Geldart et Wilson (apparat « 1082 λαλῖς ») comptent οὖτος τί
+  λαλῖς pour le v. 1082, et l'auteur lui-même renvoie aux « vv. 1082 et 1087 » pour λαλῖς dans l'apparat du
+  v. 1109. Les numéros 1082-1084 sont à revoir (concordance rétablie au v. 1085).
+- **Étiquettes `%% v.` périmées** : six groupes dont l'étiquette ne correspond pas au premier vers (504 :
+  « v. 520-530 » ; 528 : « v. 520-5308 » ; 612 ; 668 ; 712 ; 916a) ; sans effet à l'impression.
+- **Numérotation** : sept `\ligne{n}` donnent à un vers le numéro du vers précédent (113, 117 — contredit
+  aussi par l'apparat —, 119, 264, 739, 758, 759) : reledmac compterait ces lignes une unité trop bas
+  (l'extraction rétablit le numéro et le signale dans `methode_vers`) ; le second fichier commence sans
+  `\ligne` (compilé seul, il serait numéroté à partir de 1 ; l'extraction enchaîne la numérotation) ; le
+  premier fichier, intitulé « vv 1-641 », s'arrête au v. 638.
+- **Personnages** : la page française omet le nom du locuteur dans deux groupes (vv. 663-666 : second
+  Coryphée, Chœur).
+- **Saisie** : v. 330 saisi avec la macro française `\chantChoeurFr` (indentation du français) ; coquille
+  « (ll court vers l'entrée de l'orchestre.) » pour « Il », v. 1222b de la traduction.
+- **Conspectus** : P. Oxy. 3839 fr. 2 est donné pour les vv. 941-953 dans l'Introduction et dans les
+  Annexes ; le fragment contient les vv. 941-956 (voir `recherche/papyrus.md`).
+- **Index** : l'« Index des corrections proposées » est antérieur à la version de 2023 et incomplet (§ 5.4).
+
+### 11.2 Numérotation : conventions, non fautes
+
+Onze numéros de 1 à 1231 ne portent aucune ligne : 23 et 500 (vers supprimés, « del. » retenu dans
+l'apparat : Willems, van Herwerden) ; 298 et 308 (absents aussi de Hall–Geldart : la prière 295-311 est en
+prose et sa numérotation est conventionnelle) ; 1158 (absent aussi de Hall–Geldart ; Wilson numérote 1158 la
+ligne ⟨καὶ⟩ νῦν ἀφίκεσθ᾽…, que l'auteur numérote 1159, avant 1160 chez l'un comme chez l'autre) ; 723,
+1018, 1028, 1082, 1138 et 1143,
+que l'auteur saute par un `\ligne{n}` explicite dans des parties lyriques : sa colométrie réunit sur une
+ligne ce que la numérotation usuelle compte pour deux (par exemple φάνηθ᾽ ὦ τυράννους στυγοῦσ᾽ ὥσπερ
+εἰκός, numéroté 1144, qui vaut 1143-1144), puis il recale ses numéros sur l'usage (1082 fait exception,
+voir § 11.1). Douze lignes valent deux numéros (`vers_fin` de `texte_grec.tsv`, déduit de `\decoupeVers`,
+de l'apparat ou du `\ligne` suivant : 115-116, 357-358, 434-435,
+675-676, 681-682, 684-685, 822-823, 913-914, 959-960, 1026-1027, 1150-1151, 1152-1153). Les 28 séries
+d'écarts avec Hall–Geldart (`numero_diff_HG`) tiennent pour l'essentiel à Hall–Geldart, dont la
+numérotation diverge de l'usage moderne dans les parties lyriques et aux vv. 372-379 (Hall–Geldart n'a pas
+de v. 372) : aux repères contrôlés sur l'OCT de Wilson (372-380, 724-726, 1015-1019, 1025-1030, 1080,
+1085-1090, 1135-1145, 1155, 1160), l'auteur concorde avec Wilson. La nouvelle édition peut donc reprendre la
+numérotation de l'auteur, qui est la numérotation usuelle, en corrigeant les vv. 1081-1084 et en vérifiant
+les parties lyriques sur une édition moderne.
