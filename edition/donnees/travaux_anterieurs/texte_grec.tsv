@@ -1,8 +1,8 @@
 vers	partie	vers_fin	personnage	texte	groupe	type	metre	n_reledmac	vers_HG	methode_vers	fichier	ligne_source
 1			Μνησίλοχος	ὦ Ζεῦ χελιδὼν ἆρά ποτε φανήσεται;	G0001	trimIamb	3 ia.	1	1	incrément	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	516
 2			Μνησίλοχος	ἀπολεῖ μ᾽ ἀλοῶν ἅνθρωπος ἐξ ἑωθινοῦ.	G0001	trimIamb		2	2	incrément	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	517
-3			Μνησίλοχος	παρὰ σοῦ πυθέσθαι ποῖ μ᾽ ἄγεις ωὖριπίδη;	G0001	trimIamb		3	4	incrément	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	533
-4			Μνησίλοχος	οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλεῖν.	G0001	trimIamb		4	3	incrément	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	557
+4			Μνησίλοχος	παρὰ σοῦ πυθέσθαι ποῖ μ᾽ ἄγεις ωὖριπίδη;	G0001	trimIamb		3	4	transposition : ligne imprimée avant le v. 3 ; numéro usuel (Hall-Geldart 4)	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	533
+3			Μνησίλοχος	οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλεῖν.	G0001	trimIamb		4	3	transposition : ligne imprimée après le v. 4 ; numéro usuel (Hall-Geldart 3)	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	557
 5			Εὐριπίδης	ἀλλ᾽ οὐκ ἀκούειν δεῖ σε πάνθ᾽ ὅσ᾽ αὐτίκα	G0002	trimIamb		5	5	incrément	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	567
 6	a		Εὐριπίδης	ὄψει παρεστώς.	G0002	trimIamb		6	6	incrément	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	568
 6	b		Μνησίλοχος	πῶς λέγεις; αὖθις φράσον.	G0003	trimIamb		6	6b	suite du vers précédent (étiquette « v. 6b-7a »)	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	577

@@ -44,14 +44,14 @@
      "personnage_absent": 3,
      "numero_corrige": 6,
      "apparat_decale": 3,
-     "numero_diff_HG": 33,
+     "numero_diff_HG": 29,
      "etiquette_vers": 6,
      "vers_supprime": 2,
      "numero_saut": 9
     },
     "controle_apparat_numerotation": {
-     "segments_verifies": 434,
-     "concordants": 431,
+     "segments_verifies": 435,
+     "concordants": 432,
      "decales": 3
     }
    }
@@ -100,7 +100,7 @@
      "personnage_absent": 2,
      "numero_corrige": 7,
      "apparat_decale": 2,
-     "numero_diff_HG": 19,
+     "numero_diff_HG": 17,
      "etiquette_vers": 6,
      "vers_supprime": 2,
      "numero_saut": 3
@@ -159,14 +159,14 @@
      "personnage_absent": 2,
      "numero_corrige": 7,
      "apparat_decale": 2,
-     "numero_diff_HG": 32,
+     "numero_diff_HG": 28,
      "etiquette_vers": 6,
      "vers_supprime": 2,
      "numero_saut": 9
     },
     "controle_apparat_numerotation": {
-     "segments_verifies": 398,
-     "concordants": 396,
+     "segments_verifies": 399,
+     "concordants": 397,
      "decales": 2
     }
    }
@@ -266,7 +266,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "45",
      "id_ancien": "C0020",
-     "id_recent": null,
+     "id_recent": "C0021",
      "score": 0.88,
      "extrait": "Forgée sur βόμβος, bruit sourd, grondement, bourdonnement, βομβάξ est une interjection créée pour railler un style pompeux « ran plan plan » et avec redoublement (βομβαλοβομβάξ, v. 48). (Note de Chantraine.)\nIl pourrait être plaisant de la traduire en citant la célèbre chanson de Dalida « Paroles & "
     },
@@ -301,13 +301,12 @@
     },
     {
      "type": "commentaire",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "161-3",
      "id_ancien": "C0053",
      "id_recent": "C0055",
-     "score": 0.32,
-     "longueur": 3580,
-     "extrait": "Les trois poètes lyriques Ibycos de Rhégium, Anacréon de Téos et Alcée de Lesbos sont aussi rapprochés par le scholiaste de Pindare (Isthmiques, 2.1b¹) pour d'autres raisons que d'ordre harmonique : ce sont trois auteurs pédérastiques ; Cicéron les regroupe aussi sur le critère de la passion amoureuse (Tusculanes, IV, 33) :\n> quid denique homines doctissimi et summi poëtae de se ipsis et carminibus edant et cantibus ? Fortis vir in sua re publica cognitus quae de iuvenum amore scribit Alcaeus ! nam Anacreontis quidem tota poësis est amatoria. Maxume vero omnium flagrasse amore Reginum Ibycum a"
+     "score": 0.77,
+     "extrait": "Les trois poètes lyriques Ibycos de Rhégium, Anacréon de Téos et Alcée de Lesbos sont aussi rapprochés par le scholiaste de Pindare (Isthmiques, 2.1b¹) pour d'autres raisons que d'ordre harmonique : ce sont trois auteurs pédérastiques ; Cicéron les regroupe aussi sur le critère de la passion amoureu"
     },
     {
      "type": "commentaire",
@@ -330,23 +329,21 @@
     },
     {
      "type": "commentaire",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "désactivé (commenté) dans la version récente",
      "plage": "204",
      "id_ancien": "C0066",
      "id_recent": "C0067",
-     "score": 0.29,
-     "longueur": 547,
-     "extrait": "Bon nombre d'éditeurs corrigent en νυκτερήσια (nocturne, attesté que tardivement ; par Lucien et Sextus Empiricus). S'il n'est pas douteux qu'Aristophane emploie cet adjectif en ce sens – ou bien le forge en miroir de ἡμερήσιος (Eschyle, Agamemnon, 22) –, la phrase perdrait de son sel aristophanesque si l'on ne conservait pas la prononciation transmise par le codex de Ravenne et certainement voulue par Aristophane lui-même : νυκτ-ερείσια fait entendre le substantif du verbe ἐρείδειν, « quod in comoedia est, subagitare mulierem » (Fritzsche)."
+     "score": 0.76,
+     "extrait": "Bon nombre d'éditeurs corrigent en νυκτερήσια (nocturne, attesté que tardivement ; par Lucien et Sextus Empiricus). S'il n'est pas douteux qu'Aristophane emploie cet adjectif en ce sens – ou bien le forge en miroir de ἡμερήσιος (Eschyle, Agamemnon, 22) –, la phrase perdrait de son sel aristophanesqu"
     },
     {
      "type": "commentaire",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "247",
      "id_ancien": "C0081",
      "id_recent": "C0082",
-     "score": 0.53,
-     "longueur": 1114,
-     "extrait": "Les Grecs se servaient d'éponges pour la toilette et, dans un usage détourné, pouvaient même les utiliser en guise de torche-cul comme cela ressort de la scène des Grenouilles (vv. 481 sqq.)\n> Διόνυσος — ἀλλ᾽ ὡρακιῶ.\n> ἀλλ᾽ οἶσε πρὸς τὴν καρδίαν μου σφογγιάν.\n> Ξανθίας — ἰδοὺ λαβέ, προσθοῦ.\n> Διόνυσος — ποῦ 'στιν; Ξανθίας — ὦ χρυσοῖ θεοὶ\n> ἐνταῦθ᾽ ἔχεις τὴν καρδίαν;\n> Διόνυσος — δείσασα γὰρ\n> ἐς τὴν κάτω μου κοιλίαν καθείρπυσεν.\n> Dionysos — Je me sens défaillir ; apporte-moi une éponge à m'appliquer sur le cœur. — Tiens, prends, applique-là. — Où est-elle ? — Dieux d'or ! c'est là que tu loge"
+     "score": 0.95,
+     "extrait": "Les Grecs se servaient d'éponges pour la toilette et, dans un usage détourné, pouvaient même les utiliser en guise de torche-cul comme cela ressort de la scène des Grenouilles (vv. 481 sqq.)\n> Διόνυσος — ἀλλ᾽ ὡρακιῶ.\n> ἀλλ᾽ οἶσε πρὸς τὴν καρδίαν μου σφογγιάν.\n> Ξανθίας — ἰδοὺ λαβέ, προσθοῦ.\n> Διόνυσ"
     },
     {
      "type": "commentaire",
@@ -370,13 +367,12 @@
     },
     {
      "type": "commentaire",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "291",
      "id_ancien": "C0095",
      "id_recent": "C0097",
-     "score": 0.46,
-     "longueur": 4841,
-     "extrait": "Le vers 291 a fait l'objet de nombreux débats ; et pour cause : le mot θάληκον (v. 291) est inconnu au bataillon des lexiques !.. Que signifie donc ce ‘θάληκον', inconnu autrement ?\nUne scholie en marge du manuscrit de Ravenne se référant probablement au 291ᵉ vers indique :\n> τὸν παιδαρίσκον¹. ἴσως δὲ παρὰ τὴν πόσθην αὐτὸ συνέθηκεν,\n> le jeune garçon. Peut-être à rapprocher du pénis (πόσθη).\nÀ l'unanimité, les commentateurs s'en sont remis à cette scholie pour en induire que πρὸς θάληκον était une transmission fautive d'un surnom de garçon, forgé sur le mot πόσθη, le membre². La reconstruction"
+     "score": 0.85,
+     "extrait": "Le vers 291 a fait l'objet de nombreux débats ; et pour cause : le mot θάληκον (v. 291) est inconnu au bataillon des lexiques !.. Que signifie donc ce ‘θάληκον', inconnu autrement ?\nUne scholie en marge du manuscrit de Ravenne se référant probablement au 291ᵉ vers indique :\n> τὸν παιδαρίσκον¹. ἴσως "
     },
     {
      "type": "commentaire",
@@ -390,21 +386,20 @@
     },
     {
      "type": "commentaire",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "486",
      "id_ancien": "C0141",
-     "id_recent": null,
-     "score": 0.81,
+     "id_recent": "C0142",
+     "score": 0.87,
      "extrait": "Le niais mari se jette sur les graines de genévrier, d'aneth et de sauge car elles sont réputées préserver du mal dont sa femme dit souffrir. À toutes fins utiles pour le lecteur – qui pourrait bien trouver un réel secours grâce à ces connaissances qui ne sont pas toutes théoriques –, nous reproduis"
     },
     {
      "type": "commentaire",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "reformulé (repris dans un commentaire ou une note de même plage)",
      "plage": "642-3",
      "id_ancien": "C0182",
      "id_recent": "C0183",
-     "score": 0.59,
-     "longueur": 263,
+     "score": null,
      "extrait": "Il n'y a aucun paragraphos aux vers 642 et 643 alors qu'assurément ces vers ne peuvent être dits par Mnésiloque. Les éditeurs ajoutent deux changement d'interlocuteurs. Par simplicité, je préfère n'en ajouter qu'un et attribue donc le distique entier à Clisthène."
     },
     {
@@ -418,11 +413,11 @@
     },
     {
      "type": "commentaire",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "702",
      "id_ancien": "C0195",
-     "id_recent": null,
-     "score": 0.67,
+     "id_recent": "C0197",
+     "score": 0.88,
      "extrait": "Le scholiaste met en avant le tour proverbial de la formule en commentant d'un sobre « παροιμία » ; à nous donc de mener une enquête plus approfondie !\nPour ce faire, commençons par recenser quelques autres attestations de l'expression (ou de ses proches cousines). Et tout d'abord, remarquons que le"
     },
     {
@@ -463,11 +458,11 @@
     },
     {
      "type": "commentaire",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "855-7",
      "id_ancien": "C0254",
-     "id_recent": null,
-     "score": 0.91,
+     "id_recent": "C0256",
+     "score": 0.96,
      "extrait": "Ainsi commence la véritable pièce d'Euripide :\n> Ἑλένη — Νείλου μὲν αἵδε καλλιπάρθενοι ῥοαί,\n> ὃς ἀντὶ δίας ψακάδος Αἰγύπτου πέδον\n> λευκῆς τακείσης χιόνος ὑγραίνει γύας.\n> Du Nil voici les rives aux belles Nymphes,\n> Nil qui à la place de la pluie dispensée par Zeus\n> arrose la plaine d'Égypte une "
     },
     {
@@ -508,61 +503,57 @@
     },
     {
      "type": "note",
-     "statut": "absent",
+     "statut": "reformulé (repris dans un commentaire ou une note de même plage)",
      "plage": "1-10",
      "id_ancien": "N0004",
-     "id_recent": "N0004",
-     "score": 0.35,
-     "longueur": 375,
-     "extrait": "Aristophane ayant mis à dessein ces particules dans un ordre inhabituel : le cas se rencontre une seule autre fois dans les onze comédies d'Aristophane... et c'est encore dans la bouche d'Euripide (celui des Grenouilles, cette fois, vers 960) : ἐξ ὧν γ᾽ ἂν ἐξηλεγχόμην. Le véritable Euripide s'exprimait ainsi : (Oreste, vers 81) : Ἑλένη, τί σοι λέγοιμ᾽ ἂν ἅ γε παροῦσ᾽ ὁρᾷς;"
+     "id_recent": "C0001",
+     "score": null,
+     "extrait": "Aristophane ayant mis à dessein ces particules dans un ordre inhabituel : le cas se rencontre une seule autre fois dans les onze comédies d'Aristophane... et c'est encore dans la bouche d'Euripide (celui des Grenouilles, cette fois, vers 960) : ἐξ ὧν γ᾽ ἂν ἐξηλεγχόμην. Le véritable Euripide s'exprim"
     },
     {
      "type": "note",
      "statut": "absent",
      "plage": "1",
      "id_ancien": "N0005",
-     "id_recent": "N0417",
+     "id_recent": "N0039",
      "score": 0.06,
      "longueur": 313,
      "extrait": "Dans l'article « Thesmophoriazusae's Two Dawns », in Mnemosyne 62 (2009), pp. 535-547. A. Clements se base sur l'article de Mary Blomberg « The meaning of χελιδών in Hesiod », Opuscula Atheniensia 19 (1992), pp. 49-57. Confer le fragment 617 d'Aristophane (ed. Kassel-Austin) : πυθοῦ χελιδὼν πηνίκ᾽ ἄττα φαίνεται."
     },
     {
      "type": "note",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "reformulé (repris dans un commentaire ou une note de même plage)",
      "plage": "3",
      "id_ancien": "N0007",
-     "id_recent": "N0010",
-     "score": 0.42,
-     "longueur": 118,
+     "id_recent": "C0004",
+     "score": null,
      "extrait": "Voir Pline l'Ancien, Histoire naturelle 11,205 ; et l'esclave épuisé préposé à la course de Plaute (Mercator, v. 124)."
     },
     {
      "type": "note",
-     "statut": "absent",
+     "statut": "reformulé (repris dans un commentaire ou une note de même plage)",
      "plage": "21",
      "id_ancien": "N0017",
-     "id_recent": null,
-     "score": 0.33,
-     "longueur": 49,
+     "id_recent": "C0008",
+     "score": null,
      "extrait": "Dans ses Nuits attiques, livre XIII, chapitre 18."
     },
     {
      "type": "note",
-     "statut": "absent",
+     "statut": "reformulé (repris dans un commentaire ou une note de même plage)",
      "plage": "21",
      "id_ancien": "N0018",
-     "id_recent": null,
-     "score": 0.0,
-     "longueur": 23,
+     "id_recent": "C0008",
+     "score": null,
      "extrait": "Fragment 695 chez Radt."
     },
     {
      "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "29",
      "id_ancien": "N0025",
-     "id_recent": null,
-     "score": 0.79,
+     "id_recent": "N0025",
+     "score": 0.97,
      "extrait": "Aristophane n'est d'ailleurs pas le seul à rapprocher Euripide & Agathon : ainsi fait Aristote dans sa Poétique (1456a25-32) : Agathon introduisit des interludes (ἐμβόλιμα) chantés par le chœur sans rapport avec l'action, suivant la voie ouverte par Euripide :\n> καὶ τὸν χορὸν δὲ ἕνα δεῖ ὑπολαμβάνειν"
     },
     {
@@ -587,12 +578,11 @@
     },
     {
      "type": "note",
-     "statut": "absent",
+     "statut": "désactivé (reformulé) dans la version récente",
      "plage": "49-50",
      "id_ancien": "N0032",
      "id_recent": null,
-     "score": 0.0,
-     "longueur": 58,
+     "score": null,
      "extrait": "L'erreur inverse se produit en effet aux vers 117 ou 1174."
     },
     {
@@ -600,7 +590,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "49-50",
      "id_ancien": "N0033",
-     "id_recent": null,
+     "id_recent": "C0022",
      "score": 0.89,
      "extrait": "Sommerstein voit en πρόμος une légère déformation suggérant à l'oreille πόρνος... « Notre chef de file — Celui qu'on enfile ? » Mais que c'est loin en grec !.. Il faut croire que Sommerstein a pris un peu trop au pied de la lettre la plaisanterie dans les Nuées (v. 394) sur l'indissociabilité – cert"
     },
@@ -609,8 +599,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "49-50",
      "id_ancien": "N0034",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0032",
+     "score": 0.81,
      "extrait": "Ou d'une synalèphe pour reprendre le vocabulaire de Koster dans son Traité de métrique grecque. D'autres parlent de synizèse ; on croise même parfois le mot crase... Que les grammairiens se mettent d'accord pour nous proposer un jargon qui soit sans ambiguïté."
     },
     {
@@ -627,29 +617,27 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "100",
      "id_ancien": "N0052",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0066",
+     "score": 0.86,
      "extrait": "Voir l'article de la Souda (φ 393) qui lui est consacré, à l'entrée Φιλόξενος."
     },
     {
      "type": "note",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "101-29",
      "id_ancien": "N0054",
      "id_recent": "N0068",
-     "score": 0.44,
-     "longueur": 355,
-     "extrait": "À ce propos, cf. les Grenouilles v. 1299 où Eschyle dit s'être écarté du pré des Muses de Phrynichos – Muses par trop efféminées et ionisantes ; de même, dans l'Assemblée des femmes, quand une vieille veut alpaguer les beaux jeunes hommes qu'elle est en droit de s'approprier par force de loi, elle se lance alors dans une ariette au goût ionien (v. 883)."
+     "score": 0.92,
+     "extrait": "À ce propos, cf. les Grenouilles v. 1299 où Eschyle dit s'être écarté du pré des Muses de Phrynichos – Muses par trop efféminées et ionisantes ; de même, dans l'Assemblée des femmes, quand une vieille veut alpaguer les beaux jeunes hommes qu'elle est en droit de s'approprier par force de loi, elle s"
     },
     {
      "type": "note",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "désactivé (commenté) dans la version récente",
      "plage": "101-29",
      "id_ancien": "N0055",
      "id_recent": "N0069",
-     "score": 0.42,
-     "longueur": 1326,
-     "extrait": "L'internationale du commentaire s'est donné le mot : « Vor allem aber wird die Musik selbst durch Karikatur verspottet » (Rau, p. 106) ; « più agli aspetti ritmico-musicali dell'inno che a quelli stilistici » (Prato, p. 177) ; « are due to the metre and the music rather than the words » (Austin & Olson p. 87) ; légèrement plus nuancé chez Rosella Saetta Cottone : « une partie essentielle de la parodie devait reposer sur les modulations vocales par lesquelles l'acteur imitait la voix féminine » ; &c... en dépouillant minutieusement tous les glosateurs d'Aristophane, on devrait pouvoir traduire "
+     "score": 0.96,
+     "extrait": "L'internationale du commentaire s'est donné le mot : « Vor allem aber wird die Musik selbst durch Karikatur verspottet » (Rau, p. 106) ; « più agli aspetti ritmico-musicali dell'inno che a quelli stilistici » (Prato, p. 177) ; « are due to the metre and the music rather than the words » (Austin & Ol"
     },
     {
      "type": "note",
@@ -665,8 +653,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "161-3",
      "id_ancien": "N0077",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0098",
+     "score": 0.89,
      "extrait": "Le lecteur pourra très avantageusement se reporter au livre de Pierre Boudreaux, Le texte d'Aristophane et ses commentateurs (1920)."
     },
     {
@@ -674,8 +662,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "161-3",
      "id_ancien": "N0079",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0098",
+     "score": 0.88,
      "extrait": "Semni Papaspyridi-Karouzou, « Anacréon à Athènes ». In Bulletin de correspondance hellénique (1942), vol. 66-67, pp. 248-254."
     },
     {
@@ -683,7 +671,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "161-3",
      "id_ancien": "N0080",
-     "id_recent": null,
+     "id_recent": "N0098",
      "score": 1.0,
      "extrait": "C'est avec ces mêmes caractéristiques qu'est représenté Ibycus sur un monument à Reggio de Calabre."
     },
@@ -692,8 +680,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "161-3",
      "id_ancien": "N0081",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0098",
+     "score": 0.93,
      "extrait": "L'Etymologicum magnum donne une définition plus précise à l'entrée δείκανα :\n> Δείκανα : Τὰ ποικίλα ὑφάσματα καὶ μορφὰς ἔχοντα.\n> Dikana : tissus chamarrés brodés de figures (?) [sic ; lire φορβειάς ?⁹].\nCe complément qu'on trouve dans la glose de l'Etymologicum magnum est aussi présent chez Hésychi"
     },
     {
@@ -701,8 +689,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "161-3",
      "id_ancien": "N0082",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0098",
+     "score": 0.93,
      "extrait": "Cf. l'article de Victor Coulon, « Notes critiques et exégétiques sur Aristote, Poétique , 1450a12, 1450a29, sur Thucydide I, 1, 2 et sur cinq passages d'Aristophane », in Revue des Études Grecques (1937), t. 50 fasc. 238, p. 458. (À propos du vers 122 et de la correction de Bentley δινεύματα à la pl"
     },
     {
@@ -710,7 +698,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "161-3",
      "id_ancien": "N0083",
-     "id_recent": null,
+     "id_recent": "N0098",
      "score": 1.0,
      "extrait": "Le manuscrit d'Hésychius – encore un unicodex !.. – porte φόρβας en place de μορφάς."
     },
@@ -734,40 +722,38 @@
     },
     {
      "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "217",
      "id_ancien": "N0099",
-     "id_recent": null,
+     "id_recent": "C0071",
      "score": 1.0,
      "extrait": "En fait légèrement modifié : γ' ἑμαυτὸν à la place de γ' αὐτὸν. Willems a-t-il été trompé par Dindorf ? (qui prétendait – à tort – que γ' ἑμαυτὸν était la lecture originale du manuscrit de Münich.)"
     },
     {
      "type": "note",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "247",
      "id_ancien": "N0107",
      "id_recent": "N0119",
-     "score": 0.53,
-     "longueur": 633,
-     "extrait": "Jean Taillardat, « Aristophane, Thesmophories v. 247, 289, 721 sqq. : essai d'interprétation du texte transmis », in Revue des Études Grecques, t. 85, fasc. 406-408, juillet-décembre 1972, p. XVII. Le grand Taillardat avait donc compris le sens de ce passage avant même que le 242ᵉ vers, lacunaire, ne fût rétabli par la découverte d'un papyrus. Il n'en demeure pas moins encore énigmatique : dans les Grenouilles, Dionysos s'écrie au vers 487, indigné qu'on l'ait pu traiter de lâche : Πῶς δειλὸς ὅστις σπογγιὰν ᾔτησά σε; / Οὐ τἂν ἕτερός γ᾽ αὔτ᾽ εἰργάσατ᾽ ἀνήρ. L'éponge et le courage semblent prove"
+     "score": 0.98,
+     "extrait": "Jean Taillardat, « Aristophane, Thesmophories v. 247, 289, 721 sqq. : essai d'interprétation du texte transmis », in Revue des Études Grecques, t. 85, fasc. 406-408, juillet-décembre 1972, p. XVII. Le grand Taillardat avait donc compris le sens de ce passage avant même que le 242ᵉ vers, lacunaire, n"
     },
     {
      "type": "note",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "désactivé (commenté) dans la version récente",
      "plage": "248",
      "id_ancien": "N0108",
      "id_recent": "N0121",
-     "score": 0.58,
-     "longueur": 407,
-     "extrait": "Il est repris tel quel par les parémiographes, Hésychius (π 4144), Photius (π 1450), Suidas (π 2951). La source principale doit être d'anciens commentaires au vers 604 des Guêpes. (Cf. les scholies aux manuscrits d'Aristophane ; on y apprend que Καλλίστρατος signalait l'expression comme proverbiale.) L'exégèse est de mon cru ; les anciens commentateurs n'ayant semble-t-il pas compris le sens du proverbe."
+     "score": 0.75,
+     "extrait": "Il est repris tel quel par les parémiographes, Hésychius (π 4144), Photius (π 1450), Suidas (π 2951). La source principale doit être d'anciens commentaires au vers 604 des Guêpes. (Cf. les scholies aux manuscrits d'Aristophane ; on y apprend que Καλλίστρατος signalait l'expression comme proverbiale."
     },
     {
      "type": "note",
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "273",
      "id_ancien": "N0111",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0124",
+     "score": 0.95,
      "extrait": "Le scholiaste des Nuées (v. 1001) confirme ce jeu de mots : l'Injuste s'adresse à Phidippide : « Écoute-le [le Juste], jeune homme... et tu ressembleras aux fils d'Hippocratès », τοῖς Ἱπποκράτους υἱέσιν εἴξεις. Tous les spectateurs comprenant ὑσίν."
     },
     {
@@ -790,21 +776,20 @@
     },
     {
      "type": "note",
-     "statut": "absent",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "291",
      "id_ancien": "N0115",
      "id_recent": "N0126",
-     "score": 0.5,
-     "longueur": 327,
-     "extrait": "Tome II de son édition posthume d'Aristophane (1919), pp. 548-549. Édition malheureusement désormais introuvable mais en accès libre chez les grandes bibliothèques américaines numériques – à condition de se faire passer pour américain. Cette note sur ce passage des Thesmophories, la 8ᵉ qu'il écrivit, est reproduite en annexe."
+     "score": 0.92,
+     "extrait": "Tome II de son édition posthume d'Aristophane (1919), pp. 548-549. Édition malheureusement désormais introuvable mais en accès libre chez les grandes bibliothèques américaines numériques – à condition de se faire passer pour américain. Cette note sur ce passage des Thesmophories, la 8ᵉ qu'il écrivit"
     },
     {
      "type": "note",
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "291",
      "id_ancien": "N0117",
-     "id_recent": null,
-     "score": 0.96,
+     "id_recent": "N0131",
+     "score": 0.9,
      "extrait": "Willems pense notamment à Hésychius, qui semble avoir fait un dépouillement complet d'Aristophane (ou, du moins, a dépouillé le commentaire que Didyme en a fait, cf. P. Boudreaux, Le texte d'Aristophane et ses commentateurs), à une époque où le texte transmis était bien meilleur que le nôtre, Hésych"
     },
     {
@@ -812,8 +797,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "291",
      "id_ancien": "N0119",
-     "id_recent": null,
-     "score": 0.85,
+     "id_recent": "N0133",
+     "score": 0.82,
      "extrait": "Le remplacement du double lambda ‘λλ' par un simple ‘λ' est commandé par les lois de scansion, Aristophane prenant souvent des libertés avec le doublement des consonnes, et Hésychius n'étant pas bien sûr sur ce point (Hésychius, lui aussi, est conservé par un unique manuscrit bien postérieur : qu'on"
     },
     {
@@ -821,7 +806,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "291",
      "id_ancien": "N0123",
-     "id_recent": null,
+     "id_recent": "N0134",
      "score": 1.0,
      "extrait": "L'épigraphie fait état de plusieurs Χοιρίνη tandis que le nom Χοιρίλη ne semble pas attesté."
     },
@@ -830,7 +815,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "291",
      "id_ancien": "N0124",
-     "id_recent": null,
+     "id_recent": "N0134",
      "score": 1.0,
      "extrait": "Je n'exclue d'ailleurs pas que ce fût peut-être la leçon originale ; le iota de ‘χοιρίον' ayant été ajouté d'après la scholie. Voir le « dossier Mnésiloque » en Introduction."
     },
@@ -839,8 +824,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
      "id_ancien": "N0163",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0192",
+     "score": 0.92,
      "extrait": "Pour ce genre de situation, le rire du soldat allemand dans la Traversée de Paris est, ce me semble, la réaction la plus saine qui soit."
     },
     {
@@ -848,8 +833,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
      "id_ancien": "N0171",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0192",
+     "score": 0.93,
      "extrait": "Voir la note sur le vers 910 et ces étranges plantes, ἰφύων, des nielles des blés (Agrostemma githago), qui ont envahi bien mal à propos jusqu'aux sources les plus fiables."
     },
     {
@@ -857,8 +842,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
      "id_ancien": "N0172",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0192",
+     "score": 0.95,
      "extrait": "Pour un article passionnant sur quelques plantes apparaissant chez Aristophane, passionnant car il mêle avec un rare bonheur de savantes études de textes et des connaissances botaniques fort appréciables, le lecteur se reportera à l'article de Suzanne Amigues : « Quelques légumes de disette chez Ari"
     },
     {
@@ -866,8 +851,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
      "id_ancien": "N0175",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0192",
+     "score": 0.97,
      "extrait": "Le maître, c'est Δῆμος Πυκνίτης, le Populo-citoyen-roi-de-l'Assemblée, mené par le bout du nez par la pire espèce rustique d'embabouineur qui soit : le Marchand-de-cuir Cléon."
     },
     {
@@ -875,7 +860,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
      "id_ancien": "N0176",
-     "id_recent": null,
+     "id_recent": "N0192",
      "score": 1.0,
      "extrait": "Bailly. Idem pour le Liddell-Scott : « feed on chervil (σκάνδιξ) ». Quant au Diccionario Griego-Español, il donne : « dar de comer perifollo »."
     },
@@ -884,7 +869,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
      "id_ancien": "N0179",
-     "id_recent": null,
+     "id_recent": "N0192",
      "score": 1.0,
      "extrait": "Je dois au grand Alponse Willems cette jolie trouvaille qui évoque tout en un : le « branle de sortie »… trouvaille qui porte malheureusement sur une transmission fautive du texte comme nous l'allons voir tout à l'heure."
     },
@@ -893,7 +878,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
      "id_ancien": "N0180",
-     "id_recent": null,
+     "id_recent": "N0192",
      "score": 1.0,
      "extrait": "Et je n'ai encore jamais trouvé chez Aristophane d'analogue à notre éculée « sans transition »."
     },
@@ -902,8 +887,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
      "id_ancien": "N0182",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0192",
+     "score": 0.95,
      "extrait": "J'accorderais ainsi plus de crédit aux biographies d'Euripide qui le présentent comme ayant eu des parents riches que celles qui en font – peut-être d'après des interprétations trop littérales des Comiques – un self-made-man né dans l'indigence."
     },
     {
@@ -920,8 +905,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
      "id_ancien": "N0184",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0192",
+     "score": 0.96,
      "extrait": "Pour le sens imagé de κάπηλος, voir par exemple ce qu'en dit Hésychius : κίβδης· κακοῦργος, κάπηλος, « frelateur : malfaiteur, boutiquier » ; on trouve encore ceci : Φοινικελίκτην καὶ λόγων ἀλαζόνα: ἀπατηλὸν καὶ κάπηλον, « Phénichien et fort en gueule : un fourbe et un boutiquier » ; les Phéniciens "
     },
     {
@@ -938,8 +923,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
      "id_ancien": "N0186",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0192",
+     "score": 0.86,
      "extrait": "« Entre l'artisan et le politique », in : Dieux, héros et médecins grecs (2001), pp. 65-96."
     },
     {
@@ -947,8 +932,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
      "id_ancien": "N0187",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0192",
+     "score": 0.95,
      "extrait": "Tzetzes (dans une scholie citée par Fornaro) parle, à propos d'Euripide, de κάπηλα γράμματα et oppose ce poète κάπηλον et ἀγοραῖον à Eschyle. De même Lucien (De Historia conscribenda, 44) emploie ces deux adjectifs pour caractériser un vocabulaire vulgaire (ὀνόματα ἀγοραῖα καὶ καπηλικά)."
     },
     {
@@ -956,8 +941,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
      "id_ancien": "N0191",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0192",
+     "score": 0.88,
      "extrait": "Voir Dioscoride, De Materia medica Libri V, ed. M. Wellmann, Berlin 1907, vol. I, livre II 123, 138."
     },
     {
@@ -965,8 +950,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
      "id_ancien": "N0192",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0192",
+     "score": 0.86,
      "extrait": "Cf. lorsque Ion demande à Xouthos (Ion, v. 542) :\n> Ἴων – γῆς ἄρ᾽ ἐκπέφυκα μητρός;\n> J'ai donc eu la terre pour mère ?\nL'adage fut recensé par Érasme : (n° 786, terrae filius). Est-ce là qu'Eschyle veut en venir dans les Grenouilles (v. 840), lorsqu'il lance à Euripide la cinglante réponse : ἄληθες "
     },
     {
@@ -980,13 +965,12 @@
     },
     {
      "type": "note",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "489",
      "id_ancien": "N0200",
      "id_recent": "N0195",
-     "score": 0.49,
-     "longueur": 377,
-     "extrait": "Corpus paroemiographorum graecorum, I, ed. E. L. a Leutsch, Diogeniani centuria IV 78, p. 244. On pourra consulter la Souda ou Photius à l'entrée Ἀλεξιφάρμακα : ces charmes pouvaient concerner des époux. Noter que ce fameux bâton de laurier que pouvaient prendre les convives lors de symposies avant d'entonner le chant était appelé αἴσακος, qui est aussi le nom d'un centaure."
+     "score": 0.97,
+     "extrait": "Corpus paroemiographorum graecorum, I, ed. E. L. a Leutsch, Diogeniani centuria IV 78, p. 244. On pourra consulter la Souda ou Photius à l'entrée Ἀλεξιφάρμακα : ces charmes pouvaient concerner des époux. Noter que ce fameux bâton de laurier que pouvaient prendre les convives lors de symposies avant "
     },
     {
      "type": "note",
@@ -1002,8 +986,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "556-7",
      "id_ancien": "N0221",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0212",
+     "score": 0.98,
      "extrait": "Le chef de cette meute, le sus-nommé Jeffrey Henderson, ne s'en cache même pas : il affiche clairement ses ‘ambitions' jusque dans le titre de son exégèse porcine d'Aristophane : Maculate Muse. Le livre fait autorité et cependant une bonne moitié – sans exagération aucune – n'est que pure élucubrica"
     },
     {
@@ -1011,8 +995,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "605",
      "id_ancien": "N0242",
-     "id_recent": null,
-     "score": 0.82,
+     "id_recent": "N0233",
+     "score": 0.85,
      "extrait": "« Drôles de noms pour des prisons ! » objecteront les plus prudents ; ce à quoi les plus érudits répondront que l'Élysée fait référence ironiquement au lieu que devait rejoindre son unique résident après avoir reçu les douze balles qui devaient immanquablement être promises à ce “héros jupitérien”, "
     },
     {
@@ -1067,8 +1051,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "643",
      "id_ancien": "N0254",
-     "id_recent": null,
-     "score": 0.67,
+     "id_recent": "N0246",
+     "score": 0.89,
      "extrait": "Et certainement pas un mantello ampio, pesante, comme le conclue Franca Perusino dans son article « L'ἔγκυκλον, un mantello femminile nelle commedie di Aristofane », Quaderni Urbinati di Cultura Classica, 72.3 (2002), pp. 129-133. Je ne cite cet article que par pur scrupule bibliographique : il prés"
     },
     {
@@ -1076,27 +1060,26 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "643",
      "id_ancien": "N0260",
-     "id_recent": null,
+     "id_recent": "N0251",
      "score": 1.0,
      "extrait": "La faussaire précitée avait mutilé ce texte, et ce afin de le tordre à ses conclusions – selon la pente bien connue de ces gens-là. On constate qu'il n'était nul besoin de le charcuter : une minuscule émendation (ajouter un sigma à φησίν et lire σφῇσιν) suffit à le rendre intelligible."
     },
     {
      "type": "note",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "702",
      "id_ancien": "N0286",
      "id_recent": "N0273",
-     "score": 0.38,
-     "longueur": 467,
-     "extrait": "Il s'agit d'un manuscrit conservé à la Biblioteca Medicea Laurenziana (BML) de Florence, au dépôt Plutarque, sous la cote 58. 24. (J'en profite pour signaler au lecteur un outil sur l'internet fort pratique pour tout ce qui touche aux manuscrits : Πίνακες. Il y trouvera, par exemples, l'historique de notre manuscrit ainsi que sa numérisation.) Je me reporte à l'édition qu'en fit Leopold Cohn en 1887 : Zu den Paroemoigraphen (notre proverbe y figure à la page 40)."
+     "score": 0.88,
+     "extrait": "Il s'agit d'un manuscrit conservé à la Biblioteca Medicea Laurenziana (BML) de Florence, au dépôt Plutarque, sous la cote 58. 24. (J'en profite pour signaler au lecteur un outil sur l'internet fort pratique pour tout ce qui touche aux manuscrits : Πίνακες. Il y trouvera, par exemples, l'historique d"
     },
     {
      "type": "note",
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "702",
      "id_ancien": "N0287",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0273",
+     "score": 0.87,
      "extrait": "Cette émendation, proposée par Bentley et unanimement adoptée se justifierait d'autant mieux si le scribe du Ravennas recopiait un manuscrit déjà élidé – du moins partiellement, le modèle restant majoritairement à scriptio plena."
     },
     {
@@ -1104,8 +1087,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "702",
      "id_ancien": "N0288",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0098",
+     "score": 0.93,
      "extrait": "Cf. l'article de Victor Coulon, « Notes critiques et exégétiques sur Aristote, Poétique , 1450a12, 1450a29, sur Thucydide I, 1, 2 et sur cinq passages d'Aristophane », in Revue des Études Grecques (1937), t. 50 fasc. 238, p. 458. (À propos du vers 122 et de la correction de Bentley δινεύματα à la pl"
     },
     {
@@ -1113,8 +1096,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "702",
      "id_ancien": "N0289",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0276",
+     "score": 0.94,
      "extrait": "Et donc incompréhensible ; cf. la version courte ἅπαντα τόλμης καὶ ἀναισχυντίας citée plus haut : le scribe du Corpus a tout simplement décidé de ne pas recopier le mot qu'il n'arrivait pas à lire."
     },
     {
@@ -1122,8 +1105,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "704",
      "id_ancien": "N0299",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0285",
+     "score": 0.91,
      "extrait": "Dictionnaire dont le grand'œuvre de Taillardat, ses Images d'Aristophane, en est la première pierre... et pourrait en être la pierre d'angle !"
     },
     {
@@ -1146,11 +1129,11 @@
     },
     {
      "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "755-7",
      "id_ancien": "N0334",
-     "id_recent": null,
-     "score": 0.67,
+     "id_recent": "N0319",
+     "score": 0.96,
      "extrait": "C'est notamment l'opinion du scholiaste : τοῦτο ἅμα εἰπὼν ἐκχέει τὸν οἶνον ὁ κηδεστὴς ἐν τῷ βωμῷ. Je passe sur les autres explications alambiquées pour metteur en scène payé à l'heure de spectacle produit. (Mnésiloque en boit un peu, en verse par terre, mais pris de scrupules, finit par en tendre le"
     },
     {
@@ -1167,7 +1150,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "804",
      "id_ancien": "N0358",
-     "id_recent": null,
+     "id_recent": "N0341",
      "score": 1.0,
      "extrait": "À l'instar des précédents commentateurs qui, du haut de leur tour d'érudition, ignorent l'essentiel : Aristophane est drôle !"
     },
@@ -1239,26 +1222,25 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "896",
      "id_ancien": "N0435",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "C0272",
+     "score": 0.97,
      "extrait": "Aristophane possède un talent sans pareil pour nous croquer ses contemporains – au moins ceux qui en valaient la peine à ses yeux. Pour s'en assurer, on peut relire le Banquet, l'Apologie et les autres pièces de Platon où Socrate apparaît pour constater avec amusement que les traits grossiers qu'Ari"
     },
     {
      "type": "note",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "910",
      "id_ancien": "N0439",
      "id_recent": "N0421",
-     "score": 0.37,
-     "longueur": 395,
-     "extrait": "Il se trouve néanmoins de nombreux défenseurs de la leçon « ἐκ τῶν ἰφύων », leçon qui fait beaucoup rire de savants hellénistes (?!) – décidément très bon public ! Nous avons expliqué, aux vers 455-456, les λάχανα ἄγρια, le σκάνδιξ et le verbe διασκανδικίζειν ; la présence de ces ἴφυα, elle, ne s'explique que par une mauvaise compréhension des quolibets des Comiques visant la mère d'Euripide."
+     "score": 1.0,
+     "extrait": "Il se trouve néanmoins de nombreux défenseurs de la leçon « ἐκ τῶν ἰφύων », leçon qui fait beaucoup rire de savants hellénistes (?!) – décidément très bon public ! Nous avons expliqué, aux vers 455-456, les λάχανα ἄγρια, le σκάνδιξ et le verbe διασκανδικίζειν ; la présence de ces ἴφυα, elle, ne s'ex"
     },
     {
      "type": "note",
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "939-42",
      "id_ancien": "N0461",
-     "id_recent": null,
+     "id_recent": "N0449",
      "score": 1.0,
      "extrait": "Cf. vers 637 sqq. et les notes afférentes ; Mnésiloque n'a plus sur lui que sa crocote tout-à-fait transparente."
     },
@@ -1267,8 +1249,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "939-42",
      "id_ancien": "N0462",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0449",
+     "score": 0.9,
      "extrait": "L'expression grecque correcte pour dire lier à la planche est ἐν σανίδι et non πρός σανίδι, cf. vers 934 et 1165."
     },
     {
@@ -1276,7 +1258,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "939-42",
      "id_ancien": "N0463",
-     "id_recent": null,
+     "id_recent": "N0449",
      "score": 1.0,
      "extrait": "Je prie le lecteur d'excuser la présence de remarques aussi évidentes mais il faut bien rectifier la clique des commentateurs capable d'écrire à l'unisson et sans sourciller ce genre d'âneries."
     },
@@ -1285,8 +1267,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "939-42",
      "id_ancien": "N0464",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0449",
+     "score": 0.93,
      "extrait": "Et non les habits de Mnésiloque comme le prétend l'internationale du commentaire !.. d'abord, on les lui a retirés ; ensuite cette interprétation fantaisiste ne tient même pas du point de vue du grec : nous ne sommes dans un pastiche de style tragique que je sache ; le pluriel ἐν κροκωτοῖς καὶ μίτρα"
     },
     {
@@ -1294,8 +1276,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "939-42",
      "id_ancien": "N0465",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0449",
+     "score": 0.95,
      "extrait": "Ou le si l'on voulait rester conforme au genre du mot grec ; mais l'oreille française interdit toute féminisation de « crocote »."
     },
     {
@@ -1303,7 +1285,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "939-42",
      "id_ancien": "N0466",
-     "id_recent": null,
+     "id_recent": "N0449",
      "score": 1.0,
      "extrait": "Cf. les vers 90-91 et la note qui s'y rapporte."
     },
@@ -1335,16 +1317,6 @@
      "score": 0.0,
      "extrait": "χελιδὼν R : Χελιδὼν Bibi ap. Clements",
      "recent": ""
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "21",
-     "id_ancien": "A0006",
-     "id_recent": "A0006",
-     "score": 0.67,
-     "extrait": "τε R : γε Schol.",
-     "recent": "τε R : γε Σ"
     },
     {
      "type": "apparat",
@@ -1398,16 +1370,6 @@
     {
      "type": "apparat",
      "statut": "remanié",
-     "plage": "100",
-     "id_ancien": "A0035",
-     "id_recent": "A0034",
-     "score": 0.57,
-     "extrait": "μύρμηκος R : Μύρμηκος Bibi ap Hesych. μ 1904",
-     "recent": "μύρμ- R : Μύρμ- Bibi ap Hesych. μ 1904"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
      "plage": "105",
      "id_ancien": "A0038",
      "id_recent": "A0037",
@@ -1433,16 +1395,6 @@
      "score": 0.75,
      "extrait": "Λυκουργίας R : Λυκουργείας Dindorf, Dobree",
      "recent": "Λυκουργίας R : Λυκουργείας Dindorf"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "139",
-     "id_ancien": "A0046",
-     "id_recent": "A0044",
-     "score": 0.58,
-     "extrait": "οὐ ξύμφορον R, Suid. β 190 cod. V : ἀξυμφορον Suid. cod. M : ὀξύμφορον Suid. codd. AGI : ξύμφορον Suid. cod. F",
-     "recent": "οὐ ξύμ- R, Suid. β 190 V : ἀξυμ- Suid. M : ὀξύμ- Suid. A,G,I : ξύμ- Suid. F"
     },
     {
      "type": "apparat",
@@ -1504,16 +1456,6 @@
     },
     {
      "type": "apparat",
-     "statut": "remanié",
-     "plage": "273",
-     "id_ancien": "A0088",
-     "id_recent": "A0086",
-     "score": 0.67,
-     "extrait": "Ὑποκράτους R : Ἱπποκράτους Schol.",
-     "recent": "Ὑποκράτους R : Ἱπποκράτους Σ"
-    },
-    {
-     "type": "apparat",
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "277",
      "id_ancien": "A0090",
@@ -1557,7 +1499,7 @@
      "plage": "289",
      "id_ancien": "A0095",
      "id_recent": "A0091",
-     "score": 0.5,
+     "score": 0.75,
      "extrait": "χοῖρον R : χοιρίον Fritzsche ap. Schol.",
      "recent": "χοῖρον R : χοιρίον Σ : Χοιρίλ' Bibi"
     },
@@ -1570,26 +1512,6 @@
      "score": 0.0,
      "extrait": "⟦Κῆρυξ⟧ R²: κη^(ρυ) M : γυνὴ μιμουμένη κήρυκα Schol. : Κρίτυλλα Sommerstein",
      "recent": ""
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "295",
-     "id_ancien": "A0097",
-     "id_recent": "A0093",
-     "score": 0.75,
-     "extrait": "εὐφημί᾽ ἔστω R : εὐφημία ἔστω Suid. ε 3797",
-     "recent": "εὐφημί᾽ R : εὐφημία Suid. ε 3797"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "298",
-     "id_ancien": "A0097",
-     "id_recent": "A0093",
-     "score": 0.75,
-     "extrait": "τῇ Κουροτρόφῳ τῇ Γῇ R : τῇ Κουροτρόφῳ Dobree ex Schol.",
-     "recent": "τῇ Κουροτρόφῳ τῇ Γῇ R : τῇ Κ. Dobree ex Σ"
     },
     {
      "type": "apparat",
@@ -1609,16 +1531,6 @@
      "score": 0.75,
      "extrait": "κατεῖπεν τις R : κατεῖπέ τις Brunck : del. τις Bentley",
      "recent": "κατεῖπεν τις R : κατεῖπέ τις Brunck"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "341",
-     "id_ancien": "A0112",
-     "id_recent": "A0106",
-     "score": 0.75,
-     "extrait": "ἐνετρύλλισεν R, Suid. ε 1271 (sed ἐνετρύλλισε) : ἐνετρύλισεν Dindorf",
-     "recent": "ἐνετρύλλισεν R, Suid. ε 1271: ἐνετρύλισεν Dindorf"
     },
     {
      "type": "apparat",
@@ -1660,16 +1572,6 @@
     },
     {
      "type": "apparat",
-     "statut": "remanié",
-     "plage": "390",
-     "id_ancien": "A0133",
-     "id_recent": "A0122",
-     "score": 0.75,
-     "extrait": "ἐν βραχὺ R, Schol. Plat. Theag. : ἔμβραχυ Suid., Schol. Plat. Gorg.457b et Hipp.min.365d",
-     "recent": "ἐν βραχὺ R : ἔμβραχυ Suid., Σ Gorg. et Hipp.m."
-    },
-    {
-     "type": "apparat",
      "statut": "absent",
      "plage": "391",
      "id_ancien": "A0133",
@@ -1680,33 +1582,13 @@
     },
     {
      "type": "apparat",
-     "statut": "absent",
-     "plage": "392",
-     "id_ancien": "A0133",
-     "id_recent": null,
-     "score": 0.0,
-     "extrait": "μυχοτρόπους R : μοιχοτρόπους Suid. οι 128",
-     "recent": ""
-    },
-    {
-     "type": "apparat",
-     "statut": "absent",
-     "plage": "392",
-     "id_ancien": "A0133",
-     "id_recent": null,
-     "score": 0.0,
-     "extrait": "ἀνδρεαστρίας R, Suid. AV : ἀνδρεραστρίας Suid. GFM",
-     "recent": ""
-    },
-    {
-     "type": "apparat",
      "statut": "remanié",
-     "plage": "393",
+     "plage": "392",
      "id_ancien": "A0133",
      "id_recent": "A0122",
-     "score": 0.75,
-     "extrait": "οἰνοπότιδας R : οἰνοπίπας Suid. : οἰνοπίπους Schol.",
-     "recent": "οἰνοπότιδας R : -πίπας Suid. : -πίπους Σ"
+     "score": 0.67,
+     "extrait": "ἀνδρεαστρίας R, Suid. AV : ἀνδρεραστρίας Suid. GFM",
+     "recent": "ἀνδρεα- R: ἀνδρερα- Suid."
     },
     {
      "type": "apparat",
@@ -1799,16 +1681,6 @@
     {
      "type": "apparat",
      "statut": "absent",
-     "plage": "480",
-     "id_ancien": "A0164",
-     "id_recent": "A0147",
-     "score": 0.2,
-     "extrait": "ἑπτέτιν οὖσαν R : οὖσαν ἑπτέτιν Pollux",
-     "recent": "ἑπτ. οὖσ. R : οὖσαν ἑπτ. Pollux"
-    },
-    {
-     "type": "apparat",
-     "statut": "absent",
      "plage": "481",
      "id_ancien": "A0164",
      "id_recent": null,
@@ -1867,12 +1739,13 @@
     },
     {
      "type": "apparat",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "remanié",
      "plage": "495",
      "id_ancien": "A0168",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "ὀσφραινόμενος R : ὀσφρόμενος Bentley, Küster"
+     "id_recent": "A0150",
+     "score": 0.75,
+     "extrait": "ὀσφραινόμενος R : ὀσφρόμενος Bentley, Küster",
+     "recent": "ὀσφραινό- R : ὀσφρόμενος Küster"
     },
     {
      "type": "apparat",
@@ -1972,16 +1845,6 @@
     {
      "type": "apparat",
      "statut": "remanié",
-     "plage": "567",
-     "id_ancien": "A0196",
-     "id_recent": "A0174",
-     "score": 0.75,
-     "extrait": "ποκάδας R, Suid. ε 588 : πλοκάδας Schol.",
-     "recent": "ποκάδας R, Suid. : πλοκ- Σ"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
      "plage": "598",
      "id_ancien": "A0206",
      "id_recent": "A0184",
@@ -2008,16 +1871,6 @@
      "score": 0.15,
      "extrait": "nulla nota mutatae personae R : (Γυνή) (642) et (Κλεισθ.) (643) Ellebodius : (Κλεισθ.) (642-3)",
      "recent": "(Μνησ.) (641-3) R : (Κλεισθ.) (642-3) Bibi"
-    },
-    {
-     "type": "apparat",
-     "statut": "absent",
-     "plage": "642",
-     "id_ancien": "A0226",
-     "id_recent": "A0204",
-     "score": 0.33,
-     "extrait": "νῦν τότε δὴ R : νῦν τότε δὲ M",
-     "recent": "δὴ R : δὲ M"
     },
     {
      "type": "apparat",
@@ -2091,16 +1944,6 @@
     {
      "type": "apparat",
      "statut": "remanié",
-     "plage": "758-9",
-     "id_ancien": "A0268",
-     "id_recent": "A0242",
-     "score": 0.75,
-     "extrait": "τῆς ἱερείας POxy-3839, R : τῆς ἱερέας Austin & Olson",
-     "recent": "ἱερείας POxy-3839, R : ἱερέας Austin & Olson"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
      "plage": "759",
      "id_ancien": "A0269",
      "id_recent": "A0243",
@@ -2128,11 +1971,11 @@
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
      "plage": "772",
      "id_ancien": "A0275",
      "id_recent": "A0246",
-     "score": 0.42,
+     "score": 0.67,
      "extrait": "γένοιτ᾽ ἄν R : γ᾽ ἔκειντό Suid. π 45 : γένοιντ᾽ ἄν Grynaeus (fierent Divus)",
      "recent": "γένοιτ᾽ R : γένοιντ᾽ Grynaeus"
     },
@@ -2206,16 +2049,6 @@
     },
     {
      "type": "apparat",
-     "statut": "remanié",
-     "plage": "868",
-     "id_ancien": "A0308",
-     "id_recent": "A0273",
-     "score": 0.75,
-     "extrait": "τῶν κορ. πον. continuat (Μνη.) R : (Γυνή) Schol., Ellebodius",
-     "recent": "τῶν κορ. πον. continuat (Μνη.) R : (Γυνή) Σ, Ellebodius"
-    },
-    {
-     "type": "apparat",
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "post v. 870",
      "id_ancien": "A0309",
@@ -2251,16 +2084,6 @@
      "id_recent": null,
      "score": 1.0,
      "extrait": "ὅσα γ᾽ R : ὄσον Suid."
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "910",
-     "id_ancien": "A0325",
-     "id_recent": "A0288",
-     "score": 0.75,
-     "extrait": "ἀφύων R : ἰφύων Schol., Suid. : ἀμφίων Grégoire : φυκίων Austin & Olson : λαιφίων Bibi",
-     "recent": "ἀφύων R : ἰφύων Σ, Suid. : ἀμφίων Grégoire : λαιφίων Bibi"
     },
     {
      "type": "apparat",
@@ -2312,16 +2135,6 @@
     },
     {
      "type": "apparat",
-     "statut": "remanié",
-     "plage": "1007",
-     "id_ancien": "A0362",
-     "id_recent": "A0323",
-     "score": 0.67,
-     "extrait": "πυλάξι R : πυλάξῃ Schol.",
-     "recent": "πυλάξι R : πυλάξῃ Σ"
-    },
-    {
-     "type": "apparat",
      "statut": "absent",
      "plage": "1010",
      "id_ancien": "A0363",
@@ -2338,36 +2151,6 @@
      "id_recent": null,
      "score": 1.0,
      "extrait": "σῶσον R : σώσων M"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "1023",
-     "id_ancien": "A0371",
-     "id_recent": "A0331",
-     "score": 0.75,
-     "extrait": "πολυπονώτατον R, Schol. : πολυστονώτατον Burges",
-     "recent": "πολυπονώτατον R, Σ : πολυστονώτατον Burges"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "1040",
-     "id_ancien": "A0377",
-     "id_recent": "A0337",
-     "score": 0.75,
-     "extrait": "λιτομέναν R : ἀντομένα (vel -αν) Schol. : λιτομένα Enger",
-     "recent": "λιτομέναν R : ἀντομένα (vel -αν) Σ : λιτομένα Enger"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "1102",
-     "id_ancien": "A0413",
-     "id_recent": "A0373",
-     "score": 0.75,
-     "extrait": "Γοργόνος R : Γόργος Schol., Bothe",
-     "recent": "Γοργόνος R : Γόργος Σ, Bothe"
     },
     {
      "type": "apparat",
@@ -2390,26 +2173,6 @@
      "recent": "λαβεῖν· R : λαβεῖν; Scaliger"
     },
     {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "1176",
-     "id_ancien": "A0441",
-     "id_recent": "A0401",
-     "score": 0.78,
-     "extrait": "κωμοτίς ἀν- R : κωμοδρίαν Schol. : κῶμό τις ἀν- van Velsen",
-     "recent": "κωμοτίς ἀν- R : κωμοδρίαν Σ : κῶμό τις ἀν- van Velsen"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "1127",
-     "id_ancien": "A0464",
-     "id_recent": "A0424",
-     "score": 0.67,
-     "extrait": "πέπυσται R : πέπαισται Schol.",
-     "recent": "πέπυσται R : πέπαισται Σ"
-    },
-    {
      "type": "texte_grec",
      "statut": "différent (accentuation, esprit ou majuscule)",
      "plage": "1",
@@ -2421,7 +2184,7 @@
     {
      "type": "texte_grec",
      "statut": "différent (ponctuation)",
-     "plage": "4",
+     "plage": "3",
      "id_ancien": null,
      "id_recent": null,
      "score": null,
@@ -2588,22 +2351,54 @@
      "id_recent": null,
      "score": null,
      "extrait": "ἅμα δὲ καὶ ‖ ἅμα δὲ καὶ γένος Ὀλυμπίων θεῶν"
+    },
+    {
+     "type": "personnage",
+     "statut": "attribution différente",
+     "plage": "45",
+     "id_ancien": null,
+     "id_recent": null,
+     "score": null,
+     "extrait": "Θεράπων / Μνησίλοχος / Εὐριπίδης / Μνησίλοχος → Θεράπων / Μνησίλοχος / Εὐριπίδης"
+    },
+    {
+     "type": "personnage",
+     "statut": "attribution différente",
+     "plage": "263",
+     "id_ancien": null,
+     "id_recent": null,
+     "score": null,
+     "extrait": "Μνησίλοχος → Μνησίλοχος / Ἀγάθων"
+    },
+    {
+     "type": "personnage",
+     "statut": "attribution différente",
+     "plage": "264",
+     "id_ancien": null,
+     "id_recent": null,
+     "score": null,
+     "extrait": "Ἀγάθων → Μνησίλοχος / Ἀγάθων"
     }
    ],
    "stats": {
     "commentaire": {
-     "réécrit (même plage, texte largement nouveau)": 14,
+     "réécrit (même plage, texte largement nouveau)": 9,
      "absent": 1,
      "conservé": 293,
      "remanié": 43,
-     "désactivé": 5
+     "désactivé": 3,
+     "abrégé (partie désactivée)": 6,
+     "reformulé (repris dans un commentaire ou une note de même plage)": 1
     },
     "note": {
      "remanié": 18,
      "conservé": 459,
-     "absent": 6,
-     "réécrit (même plage, texte largement nouveau)": 12,
-     "désactivé": 57,
+     "reformulé (repris dans un commentaire ou une note de même plage)": 4,
+     "absent": 1,
+     "abrégé (partie désactivée)": 9,
+     "réécrit (même plage, texte largement nouveau)": 4,
+     "désactivé (reformulé) dans la version récente": 1,
+     "désactivé": 56,
      "intégré au commentaire": 6
     },
     "testimonia": {
@@ -2613,11 +2408,11 @@
      "désactivé": 1
     },
     "apparat": {
-     "absent": 26,
-     "conservé": 506,
-     "conservé (rédaction abrégée ou modifiée)": 54,
-     "remanié": 58,
-     "désactivé": 27
+     "absent": 21,
+     "conservé": 488,
+     "conservé (rédaction abrégée ou modifiée)": 94,
+     "désactivé": 26,
+     "remanié": 42
     },
     "traduction_vers_modifies": 110,
     "texte_grec_vers_differents": 20,
@@ -2627,7 +2422,9 @@
      "mots": 11,
      "répartition des lignes entre vers voisins": 2
     },
-    "texte_grec_renumerotations": 0
+    "texte_grec_renumerotations": 0,
+    "personnages_vers_differents": 3,
+    "personnages_blocs": 3
    },
    "texte_grec": {
     "vers_communs": 1208,
@@ -2650,7 +2447,7 @@
       "differences": "Χελιδὼν → χελιδὼν"
      },
      {
-      "vers": 4,
+      "vers": 3,
       "ancien": "οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλεῖν,",
       "recent": "οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλεῖν.",
       "nature": "ponctuation",
@@ -2784,6 +2581,46 @@
      }
     ]
    },
+   "personnages": {
+    "vers_differents": 3,
+    "blocs": 3,
+    "differences": [
+     {
+      "vers": 45,
+      "ancien": [
+       "Θεράπων",
+       "Μνησίλοχος",
+       "Εὐριπίδης",
+       "Μνησίλοχος"
+      ],
+      "recent": [
+       "Θεράπων",
+       "Μνησίλοχος",
+       "Εὐριπίδης"
+      ]
+     },
+     {
+      "vers": 263,
+      "ancien": [
+       "Μνησίλοχος"
+      ],
+      "recent": [
+       "Μνησίλοχος",
+       "Ἀγάθων"
+      ]
+     },
+     {
+      "vers": 264,
+      "ancien": [
+       "Ἀγάθων"
+      ],
+      "recent": [
+       "Μνησίλοχος",
+       "Ἀγάθων"
+      ]
+     }
+    ]
+   },
    "plage_version": [
     1,
     1231
@@ -2794,23 +2631,21 @@
    "elements": [
     {
      "type": "commentaire",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "désactivé (commenté) dans la version récente",
      "plage": "49-50",
      "id_ancien": "C0022",
      "id_recent": "C0022",
-     "score": 0.33,
-     "longueur": 8185,
-     "extrait": "L'on reste dubitatif devant le †πράμος† du vers 50. Ce mot, ni autrement attesté – si tant est que le texte ait été correctement transmis – ni même relevé par les grammairiens, doit nécessairement être scandé ∪∪ pour rentrer dans le mètre anapestique... ce qui empêche tout rapprochement étymologique pertinent. Autant d'indices qui font davantage soupçonner une erreur textuelle plutôt qu'un hapax agathonien.\nπρόμος, le chef, fut proposé par Grynaeus et quasi-unanimement repris depuis. La correction est très légère¹ mais n'est pas satisfaisante : il manque au terme πρόμος une acception sensu obs"
+     "score": 0.86,
+     "extrait": "L'on reste dubitatif devant le †πράμος† du vers 50. Ce mot, ni autrement attesté – si tant est que le texte ait été correctement transmis – ni même relevé par les grammairiens, doit nécessairement être scandé ∪∪ pour rentrer dans le mètre anapestique... ce qui empêche tout rapprochement étymologique"
     },
     {
      "type": "commentaire",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "désactivé (commenté) dans la version récente",
      "plage": "204",
      "id_ancien": "C0067",
      "id_recent": "C0067",
-     "score": 0.29,
-     "longueur": 541,
-     "extrait": "Bon nombre d'éditeurs corrigent en νυκτερήσια (nocturne, attesté tardivement par Lucien et Sextus Empiricus). S'il n'est pas douteux qu'Aristophane emploie cet adjectif en ce sens – ou bien le forge en miroir de ἡμερήσιος (Eschyle, Agamemnon, 22) –, la phrase perdrait de son sel aristophanesque si l'on ne conservait pas la prononciation transmise par le codex de Ravenne et certainement voulue par Aristophane lui-même : νυκτ-ερείσια fait entendre le substantif du verbe ἐρείδειν, « quod in comoedia est, subagitare mulierem » (Fritzsche)."
+     "score": 0.79,
+     "extrait": "Bon nombre d'éditeurs corrigent en νυκτερήσια (nocturne, attesté tardivement par Lucien et Sextus Empiricus). S'il n'est pas douteux qu'Aristophane emploie cet adjectif en ce sens – ou bien le forge en miroir de ἡμερήσιος (Eschyle, Agamemnon, 22) –, la phrase perdrait de son sel aristophanesque si l"
     },
     {
      "type": "commentaire",
@@ -2850,21 +2685,20 @@
     },
     {
      "type": "note",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "49-50",
      "id_ancien": "N0036",
      "id_recent": "N0036",
-     "score": 0.59,
-     "longueur": 461,
-     "extrait": "Les écrits anciens comportaient de nombreuses abréviations. (Cf. par exemple la très ingénieuse reconstruction du vers 80 par Nauck.) προσ, par exemple, était souvent abrégé d'une sorte de Ʒ renversé qui ressemblait à un epsilon : Ʒ. Faut-il supposer l'existence de la même abréviation pour προ qui expliquerait sa confusion avec ε ? Voir de G. Bady Paléographie grecque : éléments de cours ou dans V. Gardthausen, Griechische palaeographie², II (1913), p. 340."
+     "score": 0.8,
+     "extrait": "Les écrits anciens comportaient de nombreuses abréviations. (Cf. par exemple la très ingénieuse reconstruction du vers 80 par Nauck.) προσ, par exemple, était souvent abrégé d'une sorte de Ʒ renversé qui ressemblait à un epsilon : Ʒ. Faut-il supposer l'existence de la même abréviation pour προ qui e"
     },
     {
      "type": "note",
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "49-50",
      "id_ancien": "N0037",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0036",
+     "score": 0.79,
      "extrait": "Comme Diogénianus (III, 62), Érasme (Adages, n° 563) ou Suidas (β 261). Nous citons la Souda."
     },
     {
@@ -2872,7 +2706,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "49-50",
      "id_ancien": "N0038",
-     "id_recent": null,
+     "id_recent": "N0036",
      "score": 1.0,
      "extrait": "Le parémiographe Macaire (IV, 11) a recensé la formule des partisans de Boëthus"
     },
@@ -2881,8 +2715,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "49-50",
      "id_ancien": "N0039",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0036",
+     "score": 0.88,
      "extrait": "Vers qui depuis longtemps était rentré dans la langue proverbiale. Voir Tosi, Dictionnaire des sentences latines et grecques, §1081."
     },
     {
@@ -2890,7 +2724,7 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "49-50",
      "id_ancien": "N0040",
-     "id_recent": null,
+     "id_recent": "N0036",
      "score": 1.0,
      "extrait": "‘ἀλλὰ τίς ὕει ;’ (v. 368). En grec, il pleut, il tonne, il neige, etc., ne sont pas proprement des impersonnels : on sous-entend le sujet, Zeus (exprimé dans Homère). [Note de Willems.] Cette explication sera évidemment comprise de travers par Strepsiade qui pense que dans la lutte des dieux, le tou"
     },
@@ -2899,8 +2733,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "49-50",
      "id_ancien": "N0041",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0036",
+     "score": 0.83,
      "extrait": "Voir Érasme (Adages n° 676, Oppedere et oppedere contra tonitrua) et les exemples qu’il cite : Ploutos, v. 618 ; Horace, Satires, I, 9, 69-70. On trouve aussi cet adage remanié dans le genre des actions vaines : « péter au nez d’un sourd », παρὰ κωφὸν ἀποπαρδεῖν. (Voir l’érudite note qu’a consacrée "
     },
     {
@@ -2917,29 +2751,27 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "100",
      "id_ancien": "N0073",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0066",
+     "score": 0.86,
      "extrait": "Voir l'article de la Souda (φ 393) qui lui est consacré, à l'entrée Φιλόξενος."
     },
     {
      "type": "note",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "101-29",
      "id_ancien": "N0075",
      "id_recent": "N0068",
-     "score": 0.44,
-     "longueur": 355,
-     "extrait": "À ce propos, cf. les Grenouilles v. 1299 où Eschyle dit s'être écarté du pré des Muses de Phrynichos – Muses par trop efféminées et ionisantes ; de même, dans l'Assemblée des femmes, quand une vieille veut alpaguer les beaux jeunes hommes qu'elle est en droit de s'approprier par force de loi, elle se lance alors dans une ariette au goût ionien (v. 883)."
+     "score": 0.92,
+     "extrait": "À ce propos, cf. les Grenouilles v. 1299 où Eschyle dit s'être écarté du pré des Muses de Phrynichos – Muses par trop efféminées et ionisantes ; de même, dans l'Assemblée des femmes, quand une vieille veut alpaguer les beaux jeunes hommes qu'elle est en droit de s'approprier par force de loi, elle s"
     },
     {
      "type": "note",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "désactivé (commenté) dans la version récente",
      "plage": "101-29",
      "id_ancien": "N0076",
      "id_recent": "N0069",
-     "score": 0.42,
-     "longueur": 1326,
-     "extrait": "L'internationale du commentaire s'est donné le mot : « Vor allem aber wird die Musik selbst durch Karikatur verspottet » (Rau, p. 106) ; « più agli aspetti ritmico-musicali dell'inno che a quelli stilistici » (Prato, p. 177) ; « are due to the metre and the music rather than the words » (Austin & Olson p. 87) ; légèrement plus nuancé chez Rosella Saetta Cottone : « une partie essentielle de la parodie devait reposer sur les modulations vocales par lesquelles l'acteur imitait la voix féminine » ; &c... en dépouillant minutieusement tous les glosateurs d'Aristophane, on devrait pouvoir traduire "
+     "score": 0.96,
+     "extrait": "L'internationale du commentaire s'est donné le mot : « Vor allem aber wird die Musik selbst durch Karikatur verspottet » (Rau, p. 106) ; « più agli aspetti ritmico-musicali dell'inno che a quelli stilistici » (Prato, p. 177) ; « are due to the metre and the music rather than the words » (Austin & Ol"
     },
     {
      "type": "note",
@@ -2952,10 +2784,10 @@
     },
     {
      "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "217",
      "id_ancien": "N0119",
-     "id_recent": null,
+     "id_recent": "C0071",
      "score": 1.0,
      "extrait": "En fait légèrement modifié : γ' ἑμαυτὸν à la place de γ' αὐτὸν. Willems a-t-il été trompé par Dindorf ? (qui prétendait – à tort – que γ' ἑμαυτὸν était la lecture originale du manuscrit de Münich.)"
     },
@@ -2964,8 +2796,8 @@
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "605",
      "id_ancien": "N0241",
-     "id_recent": null,
-     "score": 0.81,
+     "id_recent": "N0233",
+     "score": 0.84,
      "extrait": "« Drôles de noms pour des prisons ! » objecteront les plus prudents ; ce à quoi les plus érudits répondront que l'Élysée fait référence ironiquement au lieu que devait rejoindre son unique résident après avoir reçu les douze balles qui devaient immanquablement être promises à ce “héros jupitérien”, "
     },
     {
@@ -2998,21 +2830,20 @@
     },
     {
      "type": "note",
-     "statut": "réécrit (même plage, texte largement nouveau)",
+     "statut": "abrégé (partie désactivée dans la version récente)",
      "plage": "702",
      "id_ancien": "N0282",
      "id_recent": "N0273",
-     "score": 0.38,
-     "longueur": 466,
-     "extrait": "Il s'agit d'un manuscrit conservé à la Biblioteca Medicea Laurenziana (BML) de Florence, au dépôt Plutarque, sous la cote 58. 24. (J'en profite pour signaler au lecteur un outil sur l'internet fort pratique pour tout ce qui touche aux manuscrits : Πίνακες. Il y trouvera, par exemple, l'historique de notre manuscrit ainsi que sa numérisation.) Je me reporte à l'édition qu'en fit Leopold Cohn en 1887 : Zu den Paroemoigraphen (notre proverbe y figure à la page 40)."
+     "score": 0.91,
+     "extrait": "Il s'agit d'un manuscrit conservé à la Biblioteca Medicea Laurenziana (BML) de Florence, au dépôt Plutarque, sous la cote 58. 24. (J'en profite pour signaler au lecteur un outil sur l'internet fort pratique pour tout ce qui touche aux manuscrits : Πίνακες. Il y trouvera, par exemple, l'historique de"
     },
     {
      "type": "note",
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "702",
      "id_ancien": "N0283",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "N0273",
+     "score": 0.87,
      "extrait": "Cette émendation, proposée par Bentley et unanimement adoptée se justifierait d'autant mieux si le scribe du Ravennas recopiait un manuscrit déjà élidé – du moins partiellement, le modèle restant majoritairement à scriptio plena."
     },
     {
@@ -3083,14 +2914,15 @@
    "stats": {
     "commentaire": {
      "conservé": 284,
-     "réécrit (même plage, texte largement nouveau)": 2,
+     "désactivé": 2,
      "remanié": 3
     },
     "note": {
      "conservé": 443,
      "désactivé": 13,
-     "réécrit (même plage, texte largement nouveau)": 5,
+     "abrégé (partie désactivée)": 4,
      "remanié": 3,
+     "réécrit (même plage, texte largement nouveau)": 1,
      "intégré au commentaire": 2
     },
     "testimonia": {
@@ -3099,8 +2931,8 @@
      "désactivé": 1
     },
     "apparat": {
-     "conservé": 452,
-     "conservé (rédaction abrégée ou modifiée)": 1,
+     "conservé": 450,
+     "conservé (rédaction abrégée ou modifiée)": 3,
      "absent": 1
     },
     "traduction_vers_modifies": 9,
@@ -3108,7 +2940,9 @@
     "texte_grec_natures": {
      "répartition des lignes entre vers voisins": 1
     },
-    "texte_grec_renumerotations": 0
+    "texte_grec_renumerotations": 0,
+    "personnages_vers_differents": 0,
+    "personnages_blocs": 0
    },
    "texte_grec": {
     "vers_communs": 933,
@@ -3128,6 +2962,11 @@
       "differences": ""
      }
     ]
+   },
+   "personnages": {
+    "vers_differents": 0,
+    "blocs": 0,
+    "differences": []
    },
    "plage_version": [
     1,

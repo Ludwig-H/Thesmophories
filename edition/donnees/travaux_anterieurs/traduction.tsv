@@ -1,8 +1,8 @@
 vers	partie	vers_fin	personnage	texte	didascalies	groupe	methode_vers	fichier	ligne_source
 1			Mnésiloque	Ô Zeus, est-ce qu'à la fin une hirondelle paraîtra ?		G0001	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4747
 2			Mnésiloque	Cet homme me tuera de me faire tribuler dès le matin.		G0001	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4748
-3			Mnésiloque	Y a-t-il moyen, avant que perdre tout de bon la rate,		G0001	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4749
-4			Mnésiloque	de savoir de toi où tu me mènes, Euripide ?		G0001	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4750
+3			Mnésiloque	Y a-t-il moyen, avant que perdre tout de bon la rate,		G0001	appariement ligne à ligne dans l'ordre usuel des vers (grec imprimé transposé)	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4749
+4			Mnésiloque	de savoir de toi où tu me mènes, Euripide ?		G0001	appariement ligne à ligne dans l'ordre usuel des vers (grec imprimé transposé)	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4750
 5			Euripide	Eh ! il n'est pas besoin que tu entendes tout ce que		G0002	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4755
 6	a		Euripide	tout à l'heure tu verras de tes yeux.		G0002	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4756
 6	b		Mnésiloque	Comment dis-tu ? Répète.		G0003	appariement ligne à ligne dans le groupe	Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4761

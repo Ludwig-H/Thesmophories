@@ -15,7 +15,8 @@
   - CLGP I.1.4 (Aristophanes–Bacchylides, 2ᵉ éd.), table des matières : `.sources/drive/papyrus/ARISTOPHANES - BACCHYLIDES INDICE CLGP I.1.4.pdf` ;
   - fiches en ligne : PSIonline (PSI XI 1194, page sauvegardée `.sources/web/papyrus/PSI_XI_1194_psi-online.html`) ; Oxford, Papyrology (portail SDS, API Figshare) ; Oxyrhynchus Online (pages archivées de `csad.ox.ac.uk/POxy/papyri/vol56/`).
 - **Images** (toutes « In Copyright » : usage d'étude, non versionnées) dans `.sources/web/papyrus/` : `PSI_XI_1194_r.jpg`, `POxy_LVI_3839_hires.jpg`, `POxy_LVI_3839_couleur.jpg` (13 080 × 12 866 px), `POxy_LVI_3840_hires.jpg` (petite : 367 × 934 px), `POxy_LXXIII_4935_hires.jpg`, `POxy_LXXVIII_4935+5132.jpg`.
-- **Non consultés** (Drive de l'auteur pas encore téléchargé, ou introuvables en libre accès) : P.Oxy. LVI (1989), pp. 72-79 (3839, 3840) ; PSI XI (1935) et XIV (1957) ; Austin–Olson 2004 (introduction, § sur le texte) ; Wilson, OCT (2007) ; Schorn, *Satyros aus Kallatis* (2004). Leurs données sont reprises ici de seconde main et marquées comme telles.
+  - N. G. Wilson, *Aristophanis Fabulae*, II (OCT, 2007), liste « Papyri » en tête des *Thesmophories* (p. 68, non numérotée) et apparat (lu sur les images des pages) : `.sources/drive/editions/` ;
+- **Non consultés** (Drive de l'auteur pas encore téléchargé, ou introuvables en libre accès) : P.Oxy. LVI (1989), pp. 72-79 (3839, 3840) ; PSI XI (1935) et XIV (1957) ; Austin–Olson 2004 (introduction, § sur le texte) ; Schorn, *Satyros aus Kallatis* (2004). Leurs données sont reprises ici de seconde main et marquées comme telles.
 
 ## 2. Tableau récapitulatif
 
@@ -29,6 +30,19 @@ Quatre manuscrits antiques (tous d'Oxyrhynchus, tous des rouleaux) et une citati
 | P.Oxy. IX 1176 (Satyros, *Vie d'Euripide*), fr. 39, col. XII 1-16 | — (texte de Satyros) | — / 62717 | IIᵉ s. (Hunt) | citation de 373-374 et 335-337 | A. S. Hunt, P.Oxy. IX (1912), 124-182 (n° 1176) | `\PsiCinq` |
 
 Sources du tableau : notices MP³ 153.1, 154, 154.001 (et 154.01 « delendum ») ; DCLP 59255, 59265, 59292, 62717 ; PSIonline ; portail Oxford (dates et éditeurs : 3839 « Second/third century », éd. Cockle ; 3840 « Fourth century », éd. Parsons ; 4935 « Second century », éd. Benaissa ; 5132 « Second / third century », éd. Henry). Le balayage des numéros MP³ voisins (152 à 155.1) confirme qu'il n'y a pas d'autre papyrus des *Thesmophories* dans MP³ : 153 à 153.02 = *Grenouilles*, 154.02 et suivants = *Guêpes*.
+
+## 2 bis. Les papyrus dans l'OCT de Wilson (2007)
+
+Liste « Papyri » en tête de la pièce (Wilson, *Aristophanis Fabulae* II, p. 68 ; lue sur l'image de la page) :
+
+| Wilson | Papyrus | Date | Vers selon Wilson | Remarque |
+|---|---|---|---|---|
+| P13 | PSI 1194 | saec. II | 139-46, 237-46, 272-88, 594-6, 804-9 | PSIonline : 145-156, 237-245, 273-288, 594-596, 804-809, et 133-144 pour le fragment de Grassi : écarts à contrôler sur l'image et sur PSI XIV p. XV |
+| P50 | P.Oxy. 1176 (Satyros) | saec. II | 335-7, 374-5 | « 374-5 » est la numérotation de Hall–Geldart (décalée d'une unité) ; dans son apparat, Wilson écrit pourtant « 373 Ἀρ[χίκλ]ει' P50, suppl. Hunt : Τιμόκλει' R, sch., Su. ε 2616 » (numérotation usuelle) et imprime Ἀρχίκλει' dans le texte |
+| P14 | P.Oxy. 3839 | saec. II-III | 25 (?), 742-66, 941-56 | |
+| P68 | P.Oxy. 3840 | saec. IV | 1185-93 | date de Parsons, abandonnée depuis (Henry 2012, voir § 3.3) |
+
+Wilson ne connaît ni P.Oxy. 4935 (publié en 2009) ni 5132 (2012). Codex : « R Ravennas 429 ; rarius citatur eius apographon, Monacensis gr. 492 = Mu2 ». Les numéros P13, P14, P50, P68 renvoient à la liste générale des papyrus d'Aristophane de l'OCT (t. I, *praefatio*) *[liste générale non revue]*.
 
 ## 3. Notices
 
@@ -68,7 +82,7 @@ Un seul rouleau, d'une seule main semi-cursive (Henry, P.Oxy. LXXVIII, introd. �
 
 - **3840** — inv. 87/281(a) ; éd. P. J. Parsons, P.Oxy. LVI (1989) 78-79 ; vv. 1185-1193, avec le vers 1187a (ἀνακύπτῃ καὶ παρακύπτει ἀπεψωλημένος, supprimé par Ellebodius) attesté par μ]ενο[ (apparat de l'auteur) ; un dicolon marque le changement d'interlocuteur au v. 1190 (Henry). Datation de Parsons : IVᵉ s. (portail d'Oxford, MP³) ; l'auteur reprend « IVᵉ siècle », qu'il faut corriger depuis l'identification de la main (IIᵉ/IIIᵉ s.).
 - **4935** — inv. 88/287 part ; éd. A. Benaissa, P.Oxy. LXXIII (2009) 23-25 ; fr. 1 : vv. 1043-1051 (aucune marge) ; fr. 2 : vv. 1202-1210, haut de colonne (marge supérieure ≥ 1,4 cm). Même copiste que P.Oxy. LXXVI 5084 (Platon, *Criton*). Benaissa date la main du IIᵉ s. L'auteur écrit « 1201-1210 » : Benaissa et MP³ donnent 1202-1210.
-- **5132** — inv. 87/281(c) ; éd. W. B. Henry, P.Oxy. LXXVIII (2012) ; fragment de 2,2 × 4,5 cm qui se place à droite de 4935 fr. 2, dans la même colonne ; vv. 1203-1209 ; IIᵉ/IIIᵉ s. ; dicolon au v. 1209. Henry : « There are no readings of interest. » Il signale que le rouleau est le Π… d'Austin–Olson et le « P68 » (OCR ; sans doute Π68) de l'OCT de Wilson (2007) *[à vérifier sur l'imprimé]*.
+- **5132** — inv. 87/281(c) ; éd. W. B. Henry, P.Oxy. LXXVIII (2012) ; fragment de 2,2 × 4,5 cm qui se place à droite de 4935 fr. 2, dans la même colonne ; vv. 1203-1209 ; IIᵉ/IIIᵉ s. ; dicolon au v. 1209. Henry : « There are no readings of interest. » Il signale que le rouleau est le Π… d'Austin–Olson et le « P68 » de l'OCT de Wilson (2007) : vérifié, Wilson désigne P.Oxy. 3840 par « P68 » (P latin), avec la date de Parsons (« saec. IV »).
 - **Études** : W. Luppe, *APF* 38 (1992) 76 (sur 3840) ; M. F. Di Bari, *ZPE* 174 (2010) 33-36 (sur 4935) ; Johnson 2004 ; Litinas 2014 ; Del Corso 2017 (liste MP³).
 - **Images** : portail d'Oxford (3840 : DOI 10.25446/oxford.21176500 ; 4935 : 10.25446/oxford.21180460 ; 4935 + 5132 réunis : 10.25446/oxford.21184774).
 - **Leçons notables** :
@@ -106,12 +120,12 @@ Un seul rouleau, d'une seule main semi-cursive (Henry, P.Oxy. LXXVIII, introd. �
 | `\PsiDeux` = POxy-3839 | « 742-766 (fr. 1) ; 941-953 (fr. 2), circa 200 » | 941-956 ; ajouter 25 (?) ; IIᵉ/IIIᵉ s. |
 | `\PsiTrois` = POxy-3840 | « 1185-1193, IVᵉ siècle » | IIᵉ/IIIᵉ s. ; même rouleau que 4935 et 5132 |
 | `\PsiQuatre` = POxy-4935 | « 1043-1051 (fr. 1) ; 1201-1210 (fr. 2), IIᵉ siècle » | 1202-1210 ; ajouter 5132 (1203-1209), même colonne que fr. 2 |
-| `\PsiCinq` = POxy-1176 (commentaire « P50 ») | « fr. 39, col. XII : vers 335-337 ; 373-375 » | 335-337 et 373-374 ; « P50 » est peut-être le sigle de l'OCT de Wilson *[à vérifier]* ; le fichier du Drive « P50 p 155(171).pdf » correspond sans doute à la p. 155 de P.Oxy. IX (texte de la col. XII) |
+| `\PsiCinq` = POxy-1176 (commentaire « P50 ») | « fr. 39, col. XII : vers 335-337 ; 373-375 » | 335-337 et 373-374 ; « P50 » est le sigle de Wilson (OCT 2007) pour P.Oxy. 1176 (vérifié) ; le fichier du Drive « P50 p 155(171).pdf » correspond sans doute à la p. 155 de P.Oxy. IX (texte de la col. XII) |
 
 ## 6. Vérifications à faire
 
 1. Relire sur P.Oxy. LVI (Drive : « Oxyrhynchus Papyri 56 … 3839 et 3840 … ») les leçons de 3839 et 3840 reprises de l'apparat de l'auteur ; contrôler la lecture de 3840 sur une image meilleure que la vignette d'Oxford.
 2. Relire PSI XI 1194 et PSI XIV p. XV (et Austin, Pap. Flor. VII) pour les leçons de PSI 1194, notamment 141, 242, 276, 285, 287, 807.
-3. Sigles et liste des papyrus chez Austin–Olson (2004, introduction, pp. lxxxix-xcii selon Tordoff, *BMCR* 2008.09.24) et chez Wilson (OCT 2007) ; confirmer « Π68 ».
+3. Sigles et liste des papyrus chez Austin–Olson (2004, introduction, pp. lxxxix-xcii selon Tordoff, *BMCR* 2008.09.24). (Wilson : fait, voir § 2 bis.)
 4. Satyros : texte de Schorn (2004) pour les vv. 337 et 373 (source de la transcription de l'auteur).
 5. CGFP 46 ou 16 pour PSI 1194 (PSIonline contre MP³).

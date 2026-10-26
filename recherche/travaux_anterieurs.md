@@ -1,7 +1,8 @@
 # Travaux antérieurs de l'auteur (dossier `latex/`) — analyse et extraction
 
-> État : **version de travail** (reprise le 2026-10-26 après interruption). Sections 1-4 rédigées et
-> revérifiées (l'extraction est reproductible à l'identique) ; sections 5-11 en cours de rédaction.
+> État : **version de travail** (2ᵉ reprise le 2026-10-26 après interruption). Sections 1-9 rédigées ;
+> l'extraction et la comparaison des versions sont reproductibles à l'identique (contrôlé à la reprise) ;
+> sections 10-11 en cours de rédaction.
 > Sources : `latex/Aristophane-Thesmo Harmattan 2023 vv 1-641.tex` et `… vv 642-fin-bis.tex` (version de
 > référence, dite ici « Harmattan 2023 »), versions antérieures `… nov 2022.tex` et `… Harmattan mars 2023.tex`,
 > `… Introduction.tex`, `… Annexes.tex`, `… Index.tex`. Les fichiers « Edition 4 pages Ravennas » (Gemini) sont

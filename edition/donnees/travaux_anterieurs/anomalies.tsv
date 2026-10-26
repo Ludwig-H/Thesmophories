@@ -39,7 +39,7 @@ apparat_numero_manuel	mineure	G0111	169		1775	Apparat A0048 (168-9) : numéro de
 apparat_numero_manuel	mineure	G0118	179		1858	Apparat A0051 (178) : numéro de vers « 179 » saisi en gras (\textbf) au lieu de \ligneApp ; segment découpé comme un \ligneApp
 apparat_numero_manuel	mineure	G0329	581		4270	Apparat A0178 (580) : numéro de vers « 581 » saisi en gras (\textbf) au lieu de \ligneApp ; segment découpé comme un \ligneApp
 apparat_numero_manuel	mineure	G0389	658		693	Apparat A0211 (657) : numéro de vers « 658 » saisi en gras (\textbf) au lieu de \ligneApp ; segment découpé comme un \ligneApp
-transposition	grave	G0001	3		533	vv. 3-4 : ordre des lignes inversé par rapport à la tradition (Hall-Geldart 4/3), sans note d'apparat — « παρὰ σοῦ πυθέσθαι ποῖ μ᾽ ἄγεις ωὖριπίδη; » / « οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλ »
+transposition	grave	G0001	3		533	vv. 3-4 : lignes imprimées dans l'ordre inverse de la tradition (Hall-Geldart 4 puis 3), sans note d'apparat ; l'extraction leur rend leur numéro usuel — « παρὰ σοῦ πυθέσθαι ποῖ μ᾽ ἄγεις ωὖριπίδη; » / « οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλ »
 commentaire_sans_plage	info	G0246		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	2976	Commentaire C0110 sans plage ni lemme (suite du commentaire précédent ?) — « Il y a cependant autre chose dans ce texte : un jeu de mots  »
 alignement_lignes	info	G0012		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex	4808	Groupe G0012 (v. 13b-18) : 6 ligne(s) grecque(s) numérotée(s) / 7 ligne(s) française(s) — alignement par longueurs
 etiquette_differente	info	G0031		Aristophane-Thesmo Harmattan 2023 vv 1-641.tex		Groupe G0031 : étiquette grecque « v. 39-41 » / française « v. 39-45a »
@@ -137,8 +137,6 @@ numero_corrige	info	G0462	758		1527	v. 758 : corrigé : \ligne{757} répète un 
 numero_corrige	info	G0463	759		1534	v. 759 : corrigé : \ligne{758} répète un numéro ; HG indique 759 (n° reledmac 758) — « τί τῆς ἱερείας γίγνεται; »
 apparat_decale	mineure	G0252	374		3022	Apparat A0117, segment « 374 » (τιμοκλει) : la leçon se trouve dans la ligne numérotée 373 — « τῇ τῶν γυναικῶν· Τιμόκλει᾽ ἐπεστάτει, »
 apparat_decale	mineure	G0263	435		3236	Apparat A0133, segment « 435 » (δεινοτερον) : la leçon se trouve dans la ligne numérotée 436 — « οὐδὲ δεινότερον λεγούσης. »
-numero_diff_HG	moyenne	G0001	3		533	vv. 3-3 (1 ligne(s), trimIamb) : numérotation de l'auteur = Hall-Geldart -1 (ex. « παρὰ σοῦ πυθέσθαι ποῖ μ᾽ ἄγεις ωὖριπίδη; » = HG 4)
-numero_diff_HG	moyenne	G0001	4		557	vv. 4-4 (1 ligne(s), trimIamb) : numérotation de l'auteur = Hall-Geldart +1 (ex. « οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλ » = HG 3)
 numero_diff_HG	info	G0210	296		2721	vv. 296-296 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « εὐφημία ἔστω. | » = HG 295)
 numero_diff_HG	info	G0210	297		2722	vv. 297-297 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +2 (ex. « εὔχεσθε ταῖν Θεσμοφόροιν | » = HG 295-296)
 numero_diff_HG	info	G0210	299		2723	vv. 299-300 (2 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +3 (ex. « καὶ τῷ Πλούτῳ καὶ τῇ Καλλιγενείᾳ | » = HG 296-297)
@@ -167,8 +165,6 @@ numero_diff_HG	info	G0723	1139		4936	vv. 1139-1139 (1 ligne(s), lyrique) : numé
 numero_diff_HG	info	G0734	1152		4999	vv. 1152-1152 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « ὄργια σεμνὰ θεαῖν ἵνα λαμπάσι. » = HG 1151)
 numero_diff_HG	info	G0735	1154		5006	vv. 1154-1156 (3 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +2 (ex. « φαίνετον ἄμβροτον ὄψιν. » = HG 1152)
 numero_diff_HG	info	G0739	1159		5022	vv. 1159-1159 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +3 (ex. « νῦν ἀφίκεσθον †ἱκετεύομεν ἐνθάδ᾽ ἡμῖν†. » = HG 1156-1157)
-numero_diff_HG	moyenne	G0768	1216		5417	vv. 1216-1216 (1 ligne(s), trimIamb) : numérotation de l'auteur = Hall-Geldart +3 (ex. « Ἀρταμουξία. » = HG 1213a)
-numero_diff_HG	moyenne	G0774	1222		5452	vv. 1222-1222 (1 ligne(s), trimIamb) : numérotation de l'auteur = Hall-Geldart -1 (ex. « Ἀρταμουξία. » = HG 1223)
 etiquette_vers	mineure	G0289	504		3785	Groupe G0289 : étiquette « v. 520-530 » mais première ligne numérotée 504 — « ὁ δ᾽ ἀνὴρ περιήρχετ᾽ ὠκυτόκι᾽ ὠνούμενος· »
 etiquette_vers	mineure	G0299	528		3874	Groupe G0299 : étiquette « v. 520-5308 » mais première ligne numérotée 528 — « τὴν παροιμίαν δ᾽ ἐπαινῶ »
 etiquette_vers	mineure	G0351	612		4439	Groupe G0351 : étiquette « v. 611b-612 » mais première ligne numérotée 612 — « σὺ δ᾽ οὖν ποίει τοῦτ᾽. ἀναμενῶ γὰρ ἐνθάδε. »
