@@ -3,10 +3,20 @@
 Un fichier par page : `ravennas/transcription/fXXX.xml` (ex. `f162v.xml`). Format XML
 inspiré de la TEI (noms d'éléments francisés, sous-ensemble réduit), converti en LaTeX
 par `outils/transcription/xml_vers_latex.py`, et vérifié par
-`outils/transcription/valider.py`. Les mains (`main="…"`) sont définies par l'étude
-graphologique (`ravennas/graphologie/`) ; valeurs provisoires : `R1` (copiste du texte),
-`R1c` (correction du copiste lui-même), `R2` (correcteur ancien), `Rsch` (main des
-scholies, si distincte), `Rrec` (main récente).
+la fonction `valider` de `outils/transcription/diploxml.py`. Les mains (`main="…"`) sont
+définies par l'étude graphologique (`ravennas/graphologie/`, `ravennas/GUIDE_TRANSCRIPTION.md`) ;
+étiquettes à employer (correspondance avec la littérature : `recherche/ravennas_dossier.md`) :
+
+| étiquette | main | littérature |
+|---|---|---|
+| `R1` | le copiste du texte | T (Allen), I m. (Velsen) |
+| `R1c` | correction du copiste lui-même (en écrivant ou en relisant) | — |
+| `R2` | la main des scholies des *Thesmophories*, correcteur ancien (Xe s.) : vers omis ajoutés, sigles de personnages | S2 (Orsini), B (Allen), R² (Velsen 1883), schol. m. (Velsen 1871) |
+| `R3` | autre main médiévale (troisième main contemporaine ? « paullo recentior » de Velsen) | R³ (Velsen 1883) |
+| `Rsch` | main de scholies distincte de R2 (si l'image l'impose) | — |
+| `Rrec` | main du XVIe siècle (préparation de l'impression de 1516 : sigles « imprimables », chiffres et traits renvoyant à la Juntine, grattages de signes) ; imprimée R^XVI | 2 m. (Velsen 1871), « Boninus » |
+| `Rmod` | main moderne (XVIIIe–XIXe s. : corrections, crayon, foliotation) | — |
+| `R?` | main indéterminable | — |
 
 ## Principes
 
