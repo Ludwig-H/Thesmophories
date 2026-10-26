@@ -190,15 +190,29 @@
 \box_new:N \l_thesmo_tmp_box
 \box_new:N \l_thesmo_part_box
 \int_new:N \l_thesmo_done_items_int  % articles déjà commencés avant cette double page
+\dim_new:N \l_thesmo_savevfuzz_dim
+\int_new:N \l_thesmo_savevbad_int
+\bool_new:N \l_thesmo_overfull_bool
+\box_new:N \l_thesmo_nat_box
 \cs_new_protected:Npn \thesmo_test_split:n #1
   {
+    %% essais de coupe : pas d'avertissement « Overfull \vbox » pour les hauteurs trop petites
+    \dim_set_eq:NN \l_thesmo_savevfuzz_dim \tex_vfuzz:D
+    \int_set_eq:NN \l_thesmo_savevbad_int \tex_vbadness:D
+    \dim_set_eq:NN \tex_vfuzz:D \c_max_dim
+    \int_set:Nn \tex_vbadness:D { 10000 }
     \vbox_set:Nn \l_thesmo_tmp_box { \vbox_unpack:N \g_thesmo_stream_box }
+    \bool_set_false:N \l_thesmo_overfull_bool
     \int_set_eq:NN \l_thesmo_last_int \l_thesmo_done_items_int
     \prg_replicate:nn {4}
       {
         \box_if_empty:NF \l_thesmo_tmp_box
           {
             \vbox_set_split_to_ht:NNn \l_thesmo_part_box \l_thesmo_tmp_box {#1}
+            %% un bloc insécable plus haut que la colonne : la hauteur essayée ne convient pas
+            \vbox_set:Nn \l_thesmo_nat_box { \vbox_unpack:N \l_thesmo_part_box }
+            \dim_compare:nNnT { \box_ht:N \l_thesmo_nat_box } > { #1 + 0.5pt }
+              { \bool_set_true:N \l_thesmo_overfull_bool }
             \tl_set:Nx \l_tmpa_tl { \tex_splitbotmarks:D \g_thesmo_item_marks }
             \tl_if_empty:NF \l_tmpa_tl
               { \int_set:Nn \l_thesmo_last_int { \int_max:nn { \l_thesmo_last_int } { \l_tmpa_tl } } }
@@ -208,6 +222,9 @@
     \box_if_empty:NF \l_thesmo_tmp_box
       { \dim_compare:nNnT { \box_ht:N \l_thesmo_tmp_box + \box_dp:N \l_thesmo_tmp_box } > {0pt}
           { \bool_set_true:N \l_thesmo_rest_bool } }
+    \bool_if:NT \l_thesmo_overfull_bool { \bool_set_true:N \l_thesmo_rest_bool }
+    \dim_set_eq:NN \tex_vfuzz:D \l_thesmo_savevfuzz_dim
+    \int_set_eq:NN \tex_vbadness:D \l_thesmo_savevbad_int
   }
 
 %% hauteur d'une rangée
