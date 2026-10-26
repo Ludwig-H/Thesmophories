@@ -17,7 +17,7 @@
     "caracteres_commentaires": 337166,
     "notes": 558,
     "apparats": 465,
-    "segments_apparat": 555,
+    "segments_apparat": 560,
     "lecons_Bibi": 39,
     "testimonia_grec": 239,
     "testimonia_francais": 0,
@@ -36,6 +36,7 @@
      "notes_ordre": 1,
      "note_plage": 2,
      "appel_sans_note": 1,
+     "apparat_numero_manuel": 5,
      "transposition": 1,
      "commentaire_sans_plage": 1,
      "etiquette_differente": 69,
@@ -49,8 +50,8 @@
      "numero_saut": 9
     },
     "controle_apparat_numerotation": {
-     "segments_verifies": 427,
-     "concordants": 424,
+     "segments_verifies": 434,
+     "concordants": 431,
      "decales": 3
     }
    }
@@ -72,7 +73,7 @@
     "caracteres_commentaires": 284313,
     "notes": 466,
     "apparats": 300,
-    "segments_apparat": 382,
+    "segments_apparat": 387,
     "lecons_Bibi": 27,
     "testimonia_grec": 225,
     "testimonia_francais": 0,
@@ -91,6 +92,7 @@
      "note_sans_appel": 6,
      "note_sans_debutNote": 14,
      "note_plage": 1,
+     "apparat_numero_manuel": 5,
      "transposition": 1,
      "commentaire_sans_plage": 1,
      "alignement_lignes": 14,
@@ -104,8 +106,8 @@
      "numero_saut": 3
     },
     "controle_apparat_numerotation": {
-     "segments_verifies": 276,
-     "concordants": 274,
+     "segments_verifies": 284,
+     "concordants": 282,
      "decales": 2
     }
    }
@@ -128,7 +130,7 @@
     "caracteres_commentaires": 335689,
     "notes": 541,
     "apparats": 425,
-    "segments_apparat": 531,
+    "segments_apparat": 536,
     "lecons_Bibi": 42,
     "testimonia_grec": 71,
     "testimonia_francais": 173,
@@ -149,6 +151,7 @@
      "note_sans_debutNote": 14,
      "notes_ordre": 1,
      "note_plage": 2,
+     "apparat_numero_manuel": 5,
      "transposition": 1,
      "commentaire_sans_plage": 1,
      "alignement_lignes": 13,
@@ -162,8 +165,8 @@
      "numero_saut": 9
     },
     "controle_apparat_numerotation": {
-     "segments_verifies": 390,
-     "concordants": 388,
+     "segments_verifies": 398,
+     "concordants": 396,
      "decales": 2
     }
    }
@@ -189,7 +192,7 @@
      "plage": "1",
      "id_ancien": "C0002",
      "id_recent": "C0306",
-     "score": 0.03,
+     "score": 0.04,
      "longueur": 693,
      "extrait": "Hirondelle avec un ‘H' majuscule ! Comme l'a très justement vu Ashley Clements¹, Χελιδών désigne une étoile (qu'évoque Hésiode aux vers 564-70 des Travaux et des jours) et, par suite, l'heure de la nuit où cette étoile est visible, savoir : peu de temps avant que le jour ne blanchisse. Signe du jour nouveau et, croit-il, de la fin de ses tribulations, Mnésiloque guette cette étoile et non pas, comme on peut le lire dans les différents commentaires, une hirondelle, synonyme de printemps et de jours meilleurs (la période des Thesmophories, en plein mois de Pyanepsion, c'est-à-dire pendant notre "
     },
@@ -388,15 +391,6 @@
     {
      "type": "commentaire",
      "statut": "désactivé (commenté) dans la version récente",
-     "plage": "471",
-     "id_ancien": "C0136",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Même expression dans Hérodote (I, 97) : « καὶ ἐδίδοσαν σφίσι λόγον »."
-    },
-    {
-     "type": "commentaire",
-     "statut": "désactivé (commenté) dans la version récente",
      "plage": "486",
      "id_ancien": "C0141",
      "id_recent": null,
@@ -518,7 +512,7 @@
      "plage": "1-10",
      "id_ancien": "N0004",
      "id_recent": "N0004",
-     "score": 0.26,
+     "score": 0.35,
      "longueur": 375,
      "extrait": "Aristophane ayant mis à dessein ces particules dans un ordre inhabituel : le cas se rencontre une seule autre fois dans les onze comédies d'Aristophane... et c'est encore dans la bouche d'Euripide (celui des Grenouilles, cette fois, vers 960) : ἐξ ὧν γ᾽ ἂν ἐξηλεγχόμην. Le véritable Euripide s'exprimait ainsi : (Oreste, vers 81) : Ἑλένη, τί σοι λέγοιμ᾽ ἂν ἅ γε παροῦσ᾽ ὁρᾷς;"
     },
@@ -527,8 +521,8 @@
      "statut": "absent",
      "plage": "1",
      "id_ancien": "N0005",
-     "id_recent": "N0428",
-     "score": 0.02,
+     "id_recent": "N0417",
+     "score": 0.06,
      "longueur": 313,
      "extrait": "Dans l'article « Thesmophoriazusae's Two Dawns », in Mnemosyne 62 (2009), pp. 535-547. A. Clements se base sur l'article de Mary Blomberg « The meaning of χελιδών in Hesiod », Opuscula Atheniensia 19 (1992), pp. 49-57. Confer le fragment 617 d'Aristophane (ed. Kassel-Austin) : πυθοῦ χελιδὼν πηνίκ᾽ ἄττα φαίνεται."
     },
@@ -548,7 +542,7 @@
      "plage": "21",
      "id_ancien": "N0017",
      "id_recent": null,
-     "score": 0.0,
+     "score": 0.33,
      "longueur": 49,
      "extrait": "Dans ses Nuits attiques, livre XIII, chapitre 18."
     },
@@ -603,13 +597,12 @@
     },
     {
      "type": "note",
-     "statut": "absent",
+     "statut": "désactivé (commenté) dans la version récente",
      "plage": "49-50",
      "id_ancien": "N0033",
-     "id_recent": "N0032",
-     "score": 0.12,
-     "longueur": 1948,
-     "extrait": "Sommerstein voit en πρόμος une légère déformation suggérant à l'oreille πόρνος... « Notre chef de file — Celui qu'on enfile ? » Mais que c'est loin en grec !.. Il faut croire que Sommerstein a pris un peu trop au pied de la lettre la plaisanterie dans les Nuées (v. 394) sur l'indissociabilité – certes pas au niveau de la prononciation – entre βροντή et πορδή. En passant, profitons-en pour exégéter ce jeu de mots mécompris. Il y avait en grec un proverbe, βὴξ ἀντὶ πορδῆς, « une toux à la place d'un pet », qui servait à désigner quelqu'un tentant vainement de camoufler une chose honteuse. (Suida"
+     "id_recent": null,
+     "score": 0.89,
+     "extrait": "Sommerstein voit en πρόμος une légère déformation suggérant à l'oreille πόρνος... « Notre chef de file — Celui qu'on enfile ? » Mais que c'est loin en grec !.. Il faut croire que Sommerstein a pris un peu trop au pied de la lettre la plaisanterie dans les Nuées (v. 394) sur l'indissociabilité – cert"
     },
     {
      "type": "note",
@@ -675,15 +668,6 @@
      "id_recent": null,
      "score": 1.0,
      "extrait": "Le lecteur pourra très avantageusement se reporter au livre de Pierre Boudreaux, Le texte d'Aristophane et ses commentateurs (1920)."
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "161-3",
-     "id_ancien": "N0078",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "La μίτρα est ici un bandeau servant de coiffure. (Bailly.)"
     },
     {
      "type": "note",
@@ -836,33 +820,6 @@
      "type": "note",
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "291",
-     "id_ancien": "N0120",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "ὁ θύλακος désigne en grec le sac à provisions."
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "291",
-     "id_ancien": "N0121",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Les vers 74 et 210 l'attestent."
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "291",
-     "id_ancien": "N0122",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Voir, par exemple, la Souda à l'entrée Εὐριπίδης."
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "291",
      "id_ancien": "N0123",
      "id_recent": null,
      "score": 1.0,
@@ -885,15 +842,6 @@
      "id_recent": null,
      "score": 1.0,
      "extrait": "Pour ce genre de situation, le rire du soldat allemand dans la Traversée de Paris est, ce me semble, la réaction la plus saine qui soit."
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "455-6",
-     "id_ancien": "N0169",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Stobée, livre IV, chapitre 25, 6."
     },
     {
      "type": "note",
@@ -930,15 +878,6 @@
      "id_recent": null,
      "score": 1.0,
      "extrait": "Bailly. Idem pour le Liddell-Scott : « feed on chervil (σκάνδιξ) ». Quant au Diccionario Griego-Español, il donne : « dar de comer perifollo »."
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "455-6",
-     "id_ancien": "N0178",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Deipnosophistes, VI, 56d."
     },
     {
      "type": "note",
@@ -987,11 +926,11 @@
     },
     {
      "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "intégré au commentaire",
      "plage": "455-6",
      "id_ancien": "N0185",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "C0134",
+     "score": 0.7,
      "extrait": "Nous n'avons pas encore parlé d'une citation non identifiée à l'entrée Σκάνδιξ de la Souda : καὶ μή μοι τὰ τοῦ σκανδικοπώλου παρατραγῴδει, σεμνὸν τὸ τῆς Πειρήνης ὕδωρ ἀποκαλοῦντος, « et ne m'use pas de l'emphase du vendeur de scandix qui appelle ‘sacrée' la fontaine de Pirène ». La cible est clairem"
     },
     {
@@ -1016,33 +955,6 @@
      "type": "note",
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "455-6",
-     "id_ancien": "N0188",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Quintilien Inst. orat. XII, 10, 58."
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "455-6",
-     "id_ancien": "N0189",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Acharniens, vers 469."
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "455-6",
-     "id_ancien": "N0190",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Grenouilles, vers 941-942."
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "455-6",
      "id_ancien": "N0191",
      "id_recent": null,
      "score": 1.0,
@@ -1059,30 +971,12 @@
     },
     {
      "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "intégré au commentaire",
      "plage": "486",
      "id_ancien": "N0195",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "C0142",
+     "score": 0.73,
      "extrait": "Pline l'Ancien, Histoire naturelle, XXIV, 36. Je reprends l'édition et la traduction d'Émile Littré, Histoire naturelle de Pline, tome second (1877)."
-    },
-    {
-     "type": "note",
-     "statut": "remanié",
-     "plage": "486",
-     "id_ancien": "N0196",
-     "id_recent": "N0010",
-     "score": 0.6,
-     "extrait": "Pline l'Ancien, Histoire naturelle, XX, 74."
-    },
-    {
-     "type": "note",
-     "statut": "remanié",
-     "plage": "486",
-     "id_ancien": "N0197",
-     "id_recent": "N0010",
-     "score": 0.6,
-     "extrait": "Pline l'Ancien, Histoire naturelle, XXII, 71."
     },
     {
      "type": "note",
@@ -1096,28 +990,10 @@
     },
     {
      "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "494",
-     "id_ancien": "N0201",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Athénée, XIII, 572c."
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "494",
-     "id_ancien": "N0202",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Xénophon, Symposium, IV, 8."
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "intégré au commentaire",
      "plage": "518-9",
      "id_ancien": "N0207",
-     "id_recent": null,
+     "id_recent": "C0154",
      "score": 1.0,
      "extrait": "fragment 20 du Télèphe de l'édition Jouan-van Looy aux Belles Lettres, tome VIII, 3ᵉ partie. Correspond aux fragments 711 de l'édition Kannicht et 965 de celle de Mette."
     },
@@ -1160,11 +1036,11 @@
     },
     {
      "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "intégré au commentaire",
      "plage": "616",
      "id_ancien": "N0247",
-     "id_recent": null,
-     "score": 0.98,
+     "id_recent": "C0177",
+     "score": 0.94,
      "extrait": "Les dictionnaires LSJ, Bailly et Pape désignent le κάρδαμον respectivement comme « nose-smart, Lepidium sativum » (cresson alénois), « cresson » et « eine Art Kresse mit bitterem Kraut ».Pour aller dans le sens de Willems, ajoutons que le cresson, outre ses vertus sialagogiques, est loin d'être dysu"
     },
     {
@@ -1324,10 +1200,10 @@
     },
     {
      "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "intégré au commentaire",
      "plage": "858",
      "id_ancien": "N0421",
-     "id_recent": null,
+     "id_recent": "C0257",
      "score": 1.0,
      "extrait": "Cf. Lysistrata vers 453 ; fr. 592.5 Kassel-Austin [= Athénée XV, 701b] : ἐκφέρετε πεύκας κατ᾽ Ἀγάθωνα φωσφόρους."
     },
@@ -1351,30 +1227,12 @@
     },
     {
      "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "intégré au commentaire",
      "plage": "894",
      "id_ancien": "N0426",
-     "id_recent": null,
-     "score": 0.95,
+     "id_recent": "C0270",
+     "score": 0.78,
      "extrait": "Ce que semble confirmer un passage de Lysistrata (v. 1189-1193) : c'est le chœur des femmes qui parle :\n> στρωμάτων δὲ ποικίλων καὶ\n> χλανιδίων καὶ ξυστίδων καὶ\n> χρυσίων, ὅσ᾽ ἐστί μοι,\n> οὐ φθόνος ἔνεστί μοι πᾶσι παρέχειν φέρειν\n> τοῖς παισίν, ὁπόταν τε θυγάτηρ τινὶ κανηφορῇ.\n> Et de surtouts brodé"
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "894",
-     "id_ancien": "N0427",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Oiseaux, v. 669."
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "894",
-     "id_ancien": "N0429",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Vers 676-684."
     },
     {
      "type": "note",
@@ -1451,12 +1309,13 @@
     },
     {
      "type": "testimonia",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "198-201",
-     "id_ancien": "T0064",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "(τὰς συμφορὰς – παθήμασιν) Suidas τ 440 (τεχνάσμασι et παθήμασι pro -σιν)"
+     "statut": "remanié",
+     "plage": "50",
+     "id_ancien": "T0013",
+     "id_recent": "T0085",
+     "score": 0.5,
+     "extrait": "(πραῖνοι) Hesychius π 3188 πραῖνοι· πρηνίζει, καταστρέφει",
+     "recent": "(πραῖνοι) Hesychius π 3188 †πραῖνοι· πρηνίζειν, καταστρέφειν"
     },
     {
      "type": "testimonia",
@@ -1468,42 +1327,14 @@
      "extrait": "(ἀτταταῖ ἰατταταῖ) Suidas ε 2807"
     },
     {
-     "type": "testimonia",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "598",
-     "id_ancien": "T0164",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "(ἐλινύειν) Hesychius ε 2095 ; cf. Moeris ε 61 (ἐλινύων = ἀναπαυόμενος) ~ Hesychius ε 2097"
-    },
-    {
-     "type": "testimonia",
-     "statut": "absent",
-     "plage": "696-7",
-     "id_ancien": "T0173",
-     "id_recent": "T0003",
-     "score": 0.11,
-     "longueur": 82,
-     "extrait": "(γυναῖκες – τροπαῖον) Gregorius Corinthius pp. 20-22 ; cf. scholiumᴬˡᵈ Plutus 453c"
-    },
-    {
      "type": "apparat",
      "statut": "absent",
      "plage": "1",
      "id_ancien": "A0001",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "χελιδὼν R : Χελιδὼν Bibi ap. Clements"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "3",
-     "id_ancien": "A0001",
-     "id_recent": "A0001",
-     "score": 0.71,
-     "extrait": "τι R : τε schol. (δυνατόν), Suid. οι 150",
-     "recent": "τι R : τε Σ (δυνατόν), Suid. οι 150"
+     "extrait": "χελιδὼν R : Χελιδὼν Bibi ap. Clements",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -1526,51 +1357,13 @@
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
      "plage": "30",
      "id_ancien": "A0011",
      "id_recent": "A0010",
-     "score": 0.33,
-     "extrait": "Ἀγάθων R : Ἁγάθων Biset"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "31",
-     "id_ancien": "A0012",
-     "id_recent": "A0010",
-     "score": 0.56,
-     "extrait": "(Μνη.) continuat ἔστιν τις ἀγαθῶν R : (Εὐρ.) M , edd. plerique",
-     "recent": "ἔστιν τις ἀγαθῶν (Μνη.) continuat R : (Εὐρ.) M"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "31",
-     "id_ancien": "A0012",
-     "id_recent": "A0010",
-     "score": 0.67,
-     "extrait": "Ἀγάθων R : ἀγαθῶν; Bibi",
+     "score": 0.5,
+     "extrait": "Ἀγάθων R : Ἁγάθων Biset",
      "recent": "Ἀγάθων (bis) R : Ἁγάθων et ἀγαθῶν Bibi"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "50",
-     "id_ancien": "A0017",
-     "id_recent": "A0016",
-     "score": 0.78,
-     "extrait": "πράμος R : πρόμος Grynaeus : πραῖνοι Bibi ap. Hesych. π 3188",
-     "recent": "πράμος R : πρόμος Grynaeus : πρανοῦν Bibi ap. Hesych. π 3188"
-    },
-    {
-     "type": "apparat",
-     "statut": "absent",
-     "plage": "60",
-     "id_ancien": "A0021",
-     "id_recent": "A0020",
-     "score": 0.33,
-     "extrait": "κατὰ om. Rᵃᶜ: suppl. manus coaeva Rᵖᶜ"
     },
     {
      "type": "apparat",
@@ -1578,19 +1371,9 @@
      "plage": "61",
      "id_ancien": "A0022",
      "id_recent": "A0021",
-     "score": 0.4,
+     "score": 0.75,
      "extrait": "γογγυλίσας R : συγγογγυλίσας Brunck : συγγογγύλας Enger",
      "recent": "γογγυλίσας R : συγγογγύλας Enger"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "90",
-     "id_ancien": "A0029",
-     "id_recent": "A0028",
-     "score": 0.75,
-     "extrait": "κἂν R : χἂν Markland (ad Eur. Suppl. 364, (1763))",
-     "recent": "κἂν R : χἂν Markland (1763) ad Eur. Suppl. 364"
     },
     {
      "type": "apparat",
@@ -1598,18 +1381,19 @@
      "plage": "96",
      "id_ancien": "A0032",
      "id_recent": "A0031",
-     "score": 0.53,
+     "score": 0.67,
      "extrait": "ποῖο ἐστὶν οὗτος — οὑκκυκλούμενος R : ποῖος ἐστὶν οὗτος — οὑκκυκλούμενος M : ποῦ ᾽σθ᾽; — ὅπου ᾽στίν; οὗτος οὑκκυκλούμενος Meineke : ποῖος ἐστὶν; — οὗτος οὑκκυκλούμενος Tyrwhitt (p. 65)",
      "recent": "ποῖο ἐστὶν οὗτος — οὑκκυκλούμενος R : ποῖος ἐστὶν; — οὗτος οὑκκυκλούμενος Tyrwhitt (p. 65)"
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
      "plage": "99",
      "id_ancien": "A0034",
      "id_recent": "A0033",
-     "score": 0.08,
-     "extrait": "ἂν R : δὴ Sykutris (utique Divus) : οὖν Ellebodius : γὰρ Burger : ἢν Austin (1987)"
+     "score": 0.5,
+     "extrait": "ἂν R : δὴ Sykutris (utique Divus) : οὖν Ellebodius : γὰρ Burger : ἢν Austin (1987)",
+     "recent": "ἂν R : νῦν Rogers : alii alia"
     },
     {
      "type": "apparat",
@@ -1633,16 +1417,6 @@
     },
     {
      "type": "apparat",
-     "statut": "remanié",
-     "plage": "125",
-     "id_ancien": "A0041",
-     "id_recent": "A0040",
-     "score": 0.45,
-     "extrait": "δοκιμῳ R, Schol.¹, Suid. α 4016 : δόκιμον Schol.² : δοκίμων Schöne",
-     "recent": "δοκιμῳ R, Σ¹, Suid. α 4016 : δόκιμον Σ² : δοκίμων Schöne"
-    },
-    {
-     "type": "apparat",
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "post v. 129",
      "id_ancien": "A0043",
@@ -1652,32 +1426,23 @@
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
+     "plage": "135",
+     "id_ancien": "A0045",
+     "id_recent": "A0043",
+     "score": 0.75,
+     "extrait": "Λυκουργίας R : Λυκουργείας Dindorf, Dobree",
+     "recent": "Λυκουργίας R : Λυκουργείας Dindorf"
+    },
+    {
+     "type": "apparat",
+     "statut": "remanié",
      "plage": "139",
      "id_ancien": "A0046",
      "id_recent": "A0044",
-     "score": 0.17,
-     "extrait": "οὐ ξύμφορον R, Suid. β 190 cod. V : ἀξυμφορον Suid. cod. M : ὀξύμφορον Suid. codd. AGI : ξύμφορον Suid. cod. F"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "140",
-     "id_ancien": "A0046",
-     "id_recent": "A0044",
-     "score": 0.67,
-     "extrait": "κατόπτρου R, Suid. β 110 : κατρόπτου Dover ad Nub. 752 et Ran. 47",
-     "recent": "κατόπτρου R, Suid. β 110 : κατρόπτου Dover ad Ran. 47"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "141",
-     "id_ancien": "A0046",
-     "id_recent": "A0044",
-     "score": 0.56,
-     "extrait": "σύ τ᾽ PSI-1194, schol. varia lectio : τίς δ᾽ R",
-     "recent": "σύ τ᾽ PSI-1194, Σ : τίς δ᾽ R"
+     "score": 0.58,
+     "extrait": "οὐ ξύμφορον R, Suid. β 190 cod. V : ἀξυμφορον Suid. cod. M : ὀξύμφορον Suid. codd. AGI : ξύμφορον Suid. cod. F",
+     "recent": "οὐ ξύμ- R, Suid. β 190 V : ἀξυμ- Suid. M : ὀξύμ- Suid. A,G,I : ξύμ- Suid. F"
     },
     {
      "type": "apparat",
@@ -1686,7 +1451,8 @@
      "id_ancien": "A0046",
      "id_recent": "A0044",
      "score": 0.1,
-     "extrait": "πέος PSI-1194, R : τὸ πέος Suid. λ 63, π 987"
+     "extrait": "πέος PSI-1194, R : τὸ πέος Suid. λ 63, π 987",
+     "recent": "σύ τ᾽ PSI-1194, Σ : τίς δ᾽ R"
     },
     {
      "type": "apparat",
@@ -1695,16 +1461,7 @@
      "id_ancien": "A0049",
      "id_recent": "A0047",
      "score": 0.25,
-     "extrait": "οἳ περὶ ἁρμονίαν R : οἵπερ ἁρμονίαν Suid. ε 989"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "163",
-     "id_ancien": "A0049",
-     "id_recent": "A0047",
-     "score": 0.6,
-     "extrait": "διεκίνων R : διεκίνουν Suid. ε 989, ι 495 : διεκλῶντ᾽ Toup : δίκανον Bibi ap. Hesych. δ 1805",
+     "extrait": "οἳ περὶ ἁρμονίαν R : οἵπερ ἁρμονίαν Suid. ε 989",
      "recent": "διεκίνων R : διεκίνουν Suid. ε 989, ι 495 : διεκλῶντ᾽ Toup : διέκειντ' Bibi"
     },
     {
@@ -1718,26 +1475,6 @@
     },
     {
      "type": "apparat",
-     "statut": "remanié",
-     "plage": "217",
-     "id_ancien": "A0062",
-     "id_recent": "A0060",
-     "score": 0.71,
-     "extrait": "διδόναι γ' αὐτὸν R : διδόναι γ' ἑμαυτὸν Scaliger : 'πιδοῦναι 'μαυτὸν Dawes : διδόναι γ' ἑαυτὸν Bibi auctore Willems",
-     "recent": "διδόναι γ' αὐτὸν R : διδόναι γ' ἑμαυτὸν Scaliger : διδόναι γ' ἑαυτὸν Bibi auctore Willems"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "220",
-     "id_ancien": "A0063",
-     "id_recent": "A0061",
-     "score": 0.75,
-     "extrait": "ξυροδίκης R : ξυροδόκης Schol., Pollux II.32, X.140",
-     "recent": "ξυροδίκης R : ξυροδόκης Σ, Pollux II.32, X.140"
-    },
-    {
-     "type": "apparat",
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "245",
      "id_ancien": "A0072",
@@ -1747,12 +1484,13 @@
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
      "plage": "263",
      "id_ancien": "A0085",
      "id_recent": "A0084",
-     "score": 0.12,
-     "extrait": "γ᾽ οὐ Rᵃᶜ, Willems : γοῦν Rᵖᶜ, Suid. χ 7"
+     "score": 0.5,
+     "extrait": "γ᾽ οὐ Rᵃᶜ, Willems : γοῦν Rᵖᶜ, Suid. χ 7",
+     "recent": "γ᾽οῦ^(ν) Rᵖᶜ"
     },
     {
      "type": "apparat",
@@ -1760,7 +1498,7 @@
      "plage": "263",
      "id_ancien": "A0085",
      "id_recent": "A0084",
-     "score": 0.43,
+     "score": 0.67,
      "extrait": "χαίρεις R, Suid. codd. AGM : χαίροις Suid. codd. FV",
      "recent": "χαίρεις R, Suid. A,G,M : χαίροις Suid. F,V"
     },
@@ -1799,7 +1537,7 @@
      "plage": "285",
      "id_ancien": "A0093",
      "id_recent": "A0089",
-     "score": 0.71,
+     "score": 0.75,
      "extrait": "τὰ πόπαν᾽ PSI-1194, Porson : τὸ πόπανον R",
      "recent": "τὰ πόπαν᾽ PSI-1194: τὸ πόπανον R"
     },
@@ -1810,7 +1548,8 @@
      "id_ancien": "A0095",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "καὶ τὴν θυγατέρα R : del. Willems"
+     "extrait": "καὶ τὴν θυγατέρα R : del. Willems",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -1818,19 +1557,9 @@
      "plage": "289",
      "id_ancien": "A0095",
      "id_recent": "A0091",
-     "score": 0.4,
+     "score": 0.5,
      "extrait": "χοῖρον R : χοιρίον Fritzsche ap. Schol.",
      "recent": "χοῖρον R : χοιρίον Σ : Χοιρίλ' Bibi"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "291",
-     "id_ancien": "A0096",
-     "id_recent": "A0092",
-     "score": 0.71,
-     "extrait": "πρὸς θάληκον R : Ποσθαλίσκον Dindorf : πρὸς θάλικα Bibi",
-     "recent": "πρὸς θάληκον R : Ποσθαλίσκον Dindorf : πρὸς θυλάκιον Bibi"
     },
     {
      "type": "apparat",
@@ -1839,7 +1568,8 @@
      "id_ancien": "A0097",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "⟦Κῆρυξ⟧ R²: κη^(ρυ) M : γυνὴ μιμουμένη κήρυκα Schol. : Κρίτυλλα Sommerstein"
+     "extrait": "⟦Κῆρυξ⟧ R²: κη^(ρυ) M : γυνὴ μιμουμένη κήρυκα Schol. : Κρίτυλλα Sommerstein",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -1847,19 +1577,9 @@
      "plage": "295",
      "id_ancien": "A0097",
      "id_recent": "A0093",
-     "score": 0.43,
+     "score": 0.75,
      "extrait": "εὐφημί᾽ ἔστω R : εὐφημία ἔστω Suid. ε 3797",
      "recent": "εὐφημί᾽ R : εὐφημία Suid. ε 3797"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "297",
-     "id_ancien": "A0097",
-     "id_recent": "A0093",
-     "score": 0.75,
-     "extrait": "Θεσμοφόροιν τῇ Δήμητρῃ καὶ τῇ Κόρῃ R : Θεσμοφόροιν Blaydes",
-     "recent": "Θεσμοφόροιν τῇ Δήμητρῃ καὶ τῇ Κόρῃ R : Θ. Blaydes"
     },
     {
      "type": "apparat",
@@ -1873,26 +1593,6 @@
     },
     {
      "type": "apparat",
-     "statut": "remanié",
-     "plage": "301",
-     "id_ancien": "A0097",
-     "id_recent": "A0093",
-     "score": 0.5,
-     "extrait": "Χάρισιν R : ταῖς Χάρισιν Meineke",
-     "recent": "Χάρισιν R : ταῖς Χ. Meineke"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "304",
-     "id_ancien": "A0098",
-     "id_recent": "A0094",
-     "score": 0.5,
-     "extrait": "πόλει R : τῇ πόλει Meineke",
-     "recent": "πόλει R : τῇ π. Meineke"
-    },
-    {
-     "type": "apparat",
      "statut": "désactivé (commenté) dans la version récente",
      "plage": "305",
      "id_ancien": "A0099",
@@ -1902,29 +1602,11 @@
     },
     {
      "type": "apparat",
-     "statut": "absent",
-     "plage": "312",
-     "id_ancien": "A0103",
-     "id_recent": "A0098",
-     "score": 0.33,
-     "extrait": "δεχόμεσθα R : δεχόμεθα Dindorf"
-    },
-    {
-     "type": "apparat",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "313",
-     "id_ancien": "A0104",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "λιτόμεσθα R : λιτόμεθα Bourdin"
-    },
-    {
-     "type": "apparat",
      "statut": "remanié",
      "plage": "340",
      "id_ancien": "A0112",
      "id_recent": "A0106",
-     "score": 0.62,
+     "score": 0.75,
      "extrait": "κατεῖπεν τις R : κατεῖπέ τις Brunck : del. τις Bentley",
      "recent": "κατεῖπεν τις R : κατεῖπέ τις Brunck"
     },
@@ -1934,7 +1616,7 @@
      "plage": "341",
      "id_ancien": "A0112",
      "id_recent": "A0106",
-     "score": 0.62,
+     "score": 0.75,
      "extrait": "ἐνετρύλλισεν R, Suid. ε 1271 (sed ἐνετρύλλισε) : ἐνετρύλισεν Dindorf",
      "recent": "ἐνετρύλλισεν R, Suid. ε 1271: ἐνετρύλισεν Dindorf"
     },
@@ -1954,7 +1636,8 @@
      "id_ancien": "A0126",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "(Κηρ.) R : (Κορ.) van Leeuwen : (Κρίτ.) Sommerstein"
+     "extrait": "(Κηρ.) R : (Κορ.) van Leeuwen : (Κρίτ.) Sommerstein",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -1972,16 +1655,18 @@
      "id_ancien": "A0133",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "ποῦ R, Suid. : πῶς Schol. Plat. Theag.127c"
+     "extrait": "ποῦ R, Suid. : πῶς Schol. Plat. Theag.127c",
+     "recent": ""
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
      "plage": "390",
      "id_ancien": "A0133",
      "id_recent": "A0122",
-     "score": 0.29,
-     "extrait": "ἐν βραχὺ R, Schol. Plat. Theag. : ἔμβραχυ Suid., Schol. Plat. Gorg.457b et Hipp.min.365d"
+     "score": 0.75,
+     "extrait": "ἐν βραχὺ R, Schol. Plat. Theag. : ἔμβραχυ Suid., Schol. Plat. Gorg.457b et Hipp.min.365d",
+     "recent": "ἐν βραχὺ R : ἔμβραχυ Suid., Σ Gorg. et Hipp.m."
     },
     {
      "type": "apparat",
@@ -1990,7 +1675,8 @@
      "id_ancien": "A0133",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "τραγῳδοὶ καὶ R : τραγῳδικοὶ Schol. Plat. Theag : τραγῳδία καὶ Suid. οι 128"
+     "extrait": "τραγῳδοὶ καὶ R : τραγῳδικοὶ Schol. Plat. Theag : τραγῳδία καὶ Suid. οι 128",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -1999,7 +1685,8 @@
      "id_ancien": "A0133",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "μυχοτρόπους R : μοιχοτρόπους Suid. οι 128"
+     "extrait": "μυχοτρόπους R : μοιχοτρόπους Suid. οι 128",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -2008,25 +1695,18 @@
      "id_ancien": "A0133",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "ἀνδρεαστρίας R, Suid. AV : ἀνδρεραστρίας Suid. GFM"
+     "extrait": "ἀνδρεαστρίας R, Suid. AV : ἀνδρεραστρίας Suid. GFM",
+     "recent": ""
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
      "plage": "393",
      "id_ancien": "A0133",
      "id_recent": "A0122",
-     "score": 0.2,
-     "extrait": "οἰνοπότιδας R : οἰνοπίπας Suid. : οἰνοπίπους Schol."
-    },
-    {
-     "type": "apparat",
-     "statut": "absent",
-     "plage": "394",
-     "id_ancien": "A0133",
-     "id_recent": "A0122",
-     "score": 0.33,
-     "extrait": "ἀνδράσι R : ἀνδράσιν Daubuz"
+     "score": 0.75,
+     "extrait": "οἰνοπότιδας R : οἰνοπίπας Suid. : οἰνοπίπους Schol.",
+     "recent": "οἰνοπότιδας R : -πίπας Suid. : -πίπους Σ"
     },
     {
      "type": "apparat",
@@ -2035,26 +1715,8 @@
      "id_ancien": "A0140",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "μορμολύκεια R : μορμολυκεῖα Dindorf (1830)"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "437",
-     "id_ancien": "A0146",
-     "id_recent": "A0134",
-     "score": 0.64,
-     "extrait": "πάσας εἰδέας ἐξήτασεν R, Suid. ε 22 (sed ἰδέας ἐξήτασε Suid.) : πᾶσαν ἰδέαν ἐξετάζει Hermann",
-     "recent": "πάσας εἰδέας ἐξήτασεν R (sed ἰδέας Suid. ε 22) : πᾶσαν ἰδέαν ἐξετάζει Hermann"
-    },
-    {
-     "type": "apparat",
-     "statut": "absent",
-     "plage": "438",
-     "id_ancien": "A0146",
-     "id_recent": "A0134",
-     "score": 0.33,
-     "extrait": "ἐβάστασεν R : ἐβάστασε Suid."
+     "extrait": "μορμολύκεια R : μορμολυκεῖα Dindorf (1830)",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -2063,7 +1725,8 @@
      "id_ancien": "A0146",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "ποικίλους R : ποικίλως Suid."
+     "extrait": "ποικίλους R : ποικίλως Suid.",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -2076,22 +1739,13 @@
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
      "plage": "443",
      "id_ancien": "A0149",
      "id_recent": "A0136",
-     "score": 0.22,
-     "extrait": "γυνὴ ἑτέρα Rᵖᶜ: Γυ. Β. Brunck : Κρίτυλλα Sommerstein : Στεφανόπωλις Rossella"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "446",
-     "id_ancien": "A0150",
-     "id_recent": "A0137",
      "score": 0.5,
-     "extrait": "ἐν Κύπρῳ R : ἐγκύμων Bibi",
-     "recent": "ἐν Κύπρῳ R : ἔγκυος Bibi"
+     "extrait": "γυνὴ ἑτέρα Rᵖᶜ: Γυ. Β. Brunck : Κρίτυλλα Sommerstein : Στεφανόπωλις Rossella",
+     "recent": "γυνὴ ἑτέρα Rᵖᶜ"
     },
     {
      "type": "apparat",
@@ -2108,7 +1762,7 @@
      "plage": "467",
      "id_ancien": "A0157",
      "id_recent": "A0142",
-     "score": 0.6,
+     "score": 0.75,
      "extrait": "ἀκουούσαις R : ἀκουούσας Zanetti (audientes Divus)",
      "recent": "ἀκουούσαις R : ἀκουούσας Zanetti"
     },
@@ -2118,19 +1772,9 @@
      "plage": "474",
      "id_ancien": "A0161",
      "id_recent": "A0145",
-     "score": 0.71,
+     "score": 0.75,
      "extrait": "ἢ δύ᾽ R : εἰ δύ᾽ Grynaeus (si Divus)",
      "recent": "ἢ δύ᾽ R : εἰ δύ᾽ Grynaeus"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "478",
-     "id_ancien": "A0163",
-     "id_recent": "A0146",
-     "score": 0.75,
-     "extrait": "ἦν R : ἦ Dindorf (1825)",
-     "recent": "ἦν R : ἦ Dindorf"
     },
     {
      "type": "apparat",
@@ -2138,18 +1782,19 @@
      "plage": "479",
      "id_ancien": "A0164",
      "id_recent": "A0147",
-     "score": 0.5,
+     "score": 0.67,
      "extrait": "καθεύδειν R : καθηῦδεν Scaliger : καθεῦδεν Bentley, Brunck",
      "recent": "καθεύδειν R : καθηῦδεν Scaliger"
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
      "plage": "480",
      "id_ancien": "A0164",
      "id_recent": "A0147",
-     "score": 0.21,
-     "extrait": "διεκόρευσεν R, Pollux III.42 codd.FS : διεκόρησεν Pollux codd.A, Fritzsche (cf. Pax 59)"
+     "score": 0.7,
+     "extrait": "διεκόρευσεν R, Pollux III.42 codd.FS : διεκόρησεν Pollux codd.A, Fritzsche (cf. Pax 59)",
+     "recent": "διεκόρευσεν R : -ρησεν Pollux cf. Pax 59"
     },
     {
      "type": "apparat",
@@ -2158,7 +1803,8 @@
      "id_ancien": "A0164",
      "id_recent": "A0147",
      "score": 0.2,
-     "extrait": "ἑπτέτιν οὖσαν R : οὖσαν ἑπτέτιν Pollux"
+     "extrait": "ἑπτέτιν οὖσαν R : οὖσαν ἑπτέτιν Pollux",
+     "recent": "ἑπτ. οὖσ. R : οὖσαν ἑπτ. Pollux"
     },
     {
      "type": "apparat",
@@ -2167,7 +1813,8 @@
      "id_ancien": "A0164",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "μ᾽ οὔκνυεν R : μου ᾽κνυεν Suid. ε 520"
+     "extrait": "μ᾽ οὔκνυεν R : μου ᾽κνυεν Suid. ε 520",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -2175,7 +1822,7 @@
      "plage": "482",
      "id_ancien": "A0164",
      "id_recent": "A0147",
-     "score": 0.6,
+     "score": 0.75,
      "extrait": "κᾶτ᾽ R : κᾆτ᾽ Küster : κἀγὼ Lenting",
      "recent": "κᾶτ᾽ R : κᾆτ᾽ Küster"
     },
@@ -2186,7 +1833,8 @@
      "id_ancien": "A0165",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "ἔτριβεν R : ἔτριβε Suid. σ 1712"
+     "extrait": "ἔτριβεν R : ἔτριβε Suid. σ 1712",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -2194,18 +1842,19 @@
      "plage": "488",
      "id_ancien": "A0166",
      "id_recent": "A0149",
-     "score": 0.5,
+     "score": 0.75,
      "extrait": "ἐρειδόμην R : ἠρειδόμην Bentley, Küster",
      "recent": "ἐρειδόμην R : ἠρειδόμην Küster"
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
      "plage": "493",
      "id_ancien": "A0168",
      "id_recent": "A0150",
-     "score": 0.29,
-     "extrait": "ληκώμεθα Rᵃᶜ(?), Suid. λ 434 : κινώμεθα Rᵖᶜ, M"
+     "score": 0.75,
+     "extrait": "ληκώμεθα Rᵃᶜ(?), Suid. λ 434 : κινώμεθα Rᵖᶜ, M",
+     "recent": "ληκώμεθα Rᵃᶜ(?), Suid. : κινώ- Rᵖᶜ"
     },
     {
      "type": "apparat",
@@ -2227,20 +1876,11 @@
     },
     {
      "type": "apparat",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "495",
-     "id_ancien": "A0168",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "ἀνὴρ R : ἁνὴρ Dawes"
-    },
-    {
-     "type": "apparat",
      "statut": "remanié",
      "plage": "v. 500",
      "id_ancien": "A0169",
      "id_recent": "A0151",
-     "score": 0.43,
+     "score": 0.75,
      "extrait": "ὑπ᾽ αὐγὰς οἷόν ἐστιν ἐγκεκαλυμμένον R : ὑπαυγάσ᾽ οἷόν κτλ. Hermann (1838) : del van Herwerden (Mnemosyne N. S., 24, 1896, p.293), Willems",
      "recent": "ὑπ᾽ αὐγὰς οἷόν ἐστιν ἐγκεκαλυμμένον R : ὑπαυγάσ᾽ κτλ. Hermann : del van Herwerden"
     },
@@ -2260,7 +1900,8 @@
      "id_ancien": "A0173",
      "id_recent": "A0154",
      "score": 0.2,
-     "extrait": "εἰσέφερε Rᵃᶜ: ἥ ἔφερε Rᵖᶜ(cum η supra ει scripto et σ eraso) : ἥ ᾽φερεν Bentley"
+     "extrait": "εἰσέφερε Rᵃᶜ: ἥ ἔφερε Rᵖᶜ(cum η supra ει scripto et σ eraso) : ἥ ᾽φερεν Bentley",
+     "recent": "εἰ^(η)⟦σ⟧έφερε Rᵖᶜ: ἥ ᾽φερεν Bentley"
     },
     {
      "type": "apparat",
@@ -2282,22 +1923,13 @@
     },
     {
      "type": "apparat",
-     "statut": "remanié",
-     "plage": "537",
-     "id_ancien": "A0182",
-     "id_recent": "A0162",
-     "score": 0.7,
-     "extrait": "γε R : τε schol. T ad Hom.Il.I.135, Reiske",
-     "recent": "γε R : τε Σ T ad Hom.Il.I.135"
-    },
-    {
-     "type": "apparat",
      "statut": "absent",
      "plage": "537",
      "id_ancien": "A0182",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "πόθεν R : ποθὲν Küster"
+     "extrait": "πόθεν R : ποθὲν Küster",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -2314,7 +1946,7 @@
      "plage": "545",
      "id_ancien": "A0184",
      "id_recent": "A0163",
-     "score": 0.6,
+     "score": 0.75,
      "extrait": "ὡς R : ὃς Grynaeus (qui Divus)",
      "recent": "ὡς R : ὃς Grynaeus"
     },
@@ -2325,17 +1957,8 @@
      "id_ancien": "A0191",
      "id_recent": "A0170",
      "score": 0.12,
-     "extrait": "οὐδὲ τὴν R : οὐδέπω τὴν Dobree : οὐδὲ τήν γε Faber"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "556",
-     "id_ancien": "A0191",
-     "id_recent": "A0170",
-     "score": 0.67,
-     "extrait": "οὐχ R : οὐκ Μυ2",
-     "recent": "οὐχ R : οὐκ M"
+     "extrait": "οὐδὲ τὴν R : οὐδέπω τὴν Dobree : οὐδὲ τήν γε Faber",
+     "recent": "add. γε Faber"
     },
     {
      "type": "apparat",
@@ -2348,31 +1971,23 @@
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
      "plage": "567",
      "id_ancien": "A0196",
      "id_recent": "A0174",
-     "score": 0.33,
-     "extrait": "ποκάδας R, Suid. ε 588 : πλοκάδας Schol."
-    },
-    {
-     "type": "apparat",
-     "statut": "absent",
-     "plage": "598",
-     "id_ancien": "A0206",
-     "id_recent": "A0184",
-     "score": 0.27,
-     "extrait": "ἐλιννύειν R : ἐλινύειν Bourdin, cf. Moeris Gram. ε 61, Hesychius ε 2097"
+     "score": 0.75,
+     "extrait": "ποκάδας R, Suid. ε 588 : πλοκάδας Schol.",
+     "recent": "ποκάδας R, Suid. : πλοκ- Σ"
     },
     {
      "type": "apparat",
      "statut": "remanié",
-     "plage": "605",
-     "id_ancien": "A0209",
-     "id_recent": "A0187",
-     "score": 0.54,
-     "extrait": "εἰτις ἤρου; R : ἥτις (Zanetti) εἴμ᾽ ἤρου; Bentley : ἥτις ἤρου; τοῦ Biset : alii alia",
-     "recent": "εἰτις ἤρου; R : ἥτις (Zanetti) εἴμ᾽ ἤρου; Bentley"
+     "plage": "598",
+     "id_ancien": "A0206",
+     "id_recent": "A0184",
+     "score": 0.62,
+     "extrait": "ἐλιννύειν R : ἐλινύειν Bourdin, cf. Moeris Gram. ε 61, Hesychius ε 2097",
+     "recent": "ἐλιννύειν R : ἐλινύειν Bourdin"
     },
     {
      "type": "apparat",
@@ -2380,7 +1995,7 @@
      "plage": "637-40",
      "id_ancien": "A0223",
      "id_recent": "A0201",
-     "score": 0.5,
+     "score": 0.75,
      "extrait": "(Μνη.) R : (Μνη.) (637), (Κλεισθ.) (638) et (Γυν.) (639-40) Brunck, edd. post. : (Μνη.) (637-8) et (Μίκα) (639-40) Bibi",
      "recent": "(Μνη.) R : (Μνη.) (637-8) et (Μίκα) (639-40) Bibi"
     },
@@ -2391,7 +2006,8 @@
      "id_ancien": "A0226",
      "id_recent": "A0204",
      "score": 0.15,
-     "extrait": "nulla nota mutatae personae R : (Γυνή) (642) et (Κλεισθ.) (643) Ellebodius : (Κλεισθ.) (642-3)"
+     "extrait": "nulla nota mutatae personae R : (Γυνή) (642) et (Κλεισθ.) (643) Ellebodius : (Κλεισθ.) (642-3)",
+     "recent": "(Μνησ.) (641-3) R : (Κλεισθ.) (642-3) Bibi"
     },
     {
      "type": "apparat",
@@ -2400,16 +2016,8 @@
      "id_ancien": "A0226",
      "id_recent": "A0204",
      "score": 0.33,
-     "extrait": "νῦν τότε δὴ R : νῦν τότε δὲ M"
-    },
-    {
-     "type": "apparat",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "654",
-     "id_ancien": "A0233",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "πρυτάνεσσιν R : πρυτάνεσιν M"
+     "extrait": "νῦν τότε δὴ R : νῦν τότε δὲ M",
+     "recent": "δὴ R : δὲ M"
     },
     {
      "type": "apparat",
@@ -2417,18 +2025,19 @@
      "plage": "657",
      "id_ancien": "A0234",
      "id_recent": "A0211",
-     "score": 0.4,
+     "score": 0.75,
      "extrait": "εἰσελήλυθεν R : ἀνελήλυθε Fritzsche : ἐπελήλυθε Handley",
-     "recent": "εἰσελήλυθεν R : ἐπελήλυθε Handley 658 ἀθρῆσαι R : διαθρῆσαι Daubuz"
+     "recent": "εἰσελήλυθεν R : ἐπελήλυθε Handley"
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
      "plage": "659",
      "id_ancien": "A0235",
      "id_recent": "A0212",
-     "score": 0.2,
-     "extrait": "(Ἡμιχ. γυν.) in mg. Rᵖᶜ, M"
+     "score": 0.5,
+     "extrait": "(Ἡμιχ. γυν.) in mg. Rᵖᶜ, M",
+     "recent": "(Ἡμιχ. γυν.) Rᵖᶜ"
     },
     {
      "type": "apparat",
@@ -2436,28 +2045,9 @@
      "plage": "683",
      "id_ancien": "A0244",
      "id_recent": "A0219",
-     "score": 0.6,
+     "score": 0.75,
      "extrait": "ἐστὶν R : ἔσται Bothe (erit Divus)",
      "recent": "ἐστὶν R : ἔσται Bothe"
-    },
-    {
-     "type": "apparat",
-     "statut": "absent",
-     "plage": "683",
-     "id_ancien": "A0244",
-     "id_recent": null,
-     "score": 0.0,
-     "extrait": "γυναιξὶν : γυναιξὶ Brunck"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "687",
-     "id_ancien": "A0246",
-     "id_recent": "A0220",
-     "score": 0.5,
-     "extrait": "Κορ. add. Velsen",
-     "recent": "(Κορ.) add. von Velsen"
     },
     {
      "type": "apparat",
@@ -2470,22 +2060,13 @@
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
      "plage": "689",
      "id_ancien": "A0247",
      "id_recent": "A0221",
-     "score": 0.36,
-     "extrait": "ἀά supra lin. R : ἔα Farraeus : ἆ ab init. v. 689 Bergler : ἆ ἆ Thiersch"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "702",
-     "id_ancien": "A0251",
-     "id_recent": "A0225",
-     "score": 0.53,
-     "extrait": "ἅπαν γὰρ ἐστὶν R : ἅπαντα Suid. α 2902, cod. Laurent. LVIII 24 : ἅπαντ᾽ ἄρ᾽ ἐστὶ Bentley",
-     "recent": "ἅπαν γὰρ ἐστὶν R : ἅπαντα Suid., cod. Laur. : ἅπαντ᾽ ἄρ᾽ ἐστὶ Bentley"
+     "score": 0.67,
+     "extrait": "ἀά supra lin. R : ἔα Farraeus : ἆ ab init. v. 689 Bergler : ἆ ἆ Thiersch",
+     "recent": "ἀά supra lin. R : ἆ ἆ Thiersch"
     },
     {
      "type": "apparat",
@@ -2494,28 +2075,8 @@
      "id_ancien": "A0251",
      "id_recent": "A0225",
      "score": 0.75,
-     "extrait": "ἔργα R : πλέα Suid. : δοῦλα cod. Laur. : διπλὰ Bibi",
-     "recent": "ἔργα R : πλέα Suid. : δοῦλα cod. Laur. : μεστὰ Porson"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "721",
-     "id_ancien": "A0258",
-     "id_recent": "A0232",
-     "score": 0.67,
-     "extrait": "ἀθέοις ἔργοις γὰρ R : ἀθέοις γὰρ ἔργοις Burges : ἐπ' ἀθέοις ἔργοις γὰρ Enger : ξὺν ἀθέοις ἔργοις γὰρ Bibi ap. Taillardat, cf. v.716",
-     "recent": "ἀθέοις ἔργοις γὰρ R : ἀθ. γὰρ ἔργ. Burges : ἐπ' ἀθ. ἔρ. γὰρ Enger : ξὺν ἀθ. ἔργ. γὰρ Bibi ap. Taillardat cf. v.716"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "725",
-     "id_ancien": "A0258",
-     "id_recent": "A0232",
-     "score": 0.67,
-     "extrait": "τις τύχη R : τύχη Bergk grat. metr.",
-     "recent": "τις τύχη R : τύχη Bergk"
+     "extrait": "ἅπαν γὰρ ἐστὶν R : ἅπαντα Suid. α 2902, cod. Laurent. LVIII 24 : ἅπαντ᾽ ἄρ᾽ ἐστὶ Bentley",
+     "recent": "ἅπαν γὰρ ἐστὶν R : ἅπαντα Suid., cod. Laur. : ἅπαντ᾽ ἄρ᾽ ἐστὶ Bentley"
     },
     {
      "type": "apparat",
@@ -2524,27 +2085,8 @@
      "id_ancien": "A0258",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "^(χ)ρῆν σ᾽ R²: χρὴ μ᾽ M"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "745",
-     "id_ancien": "A0265",
-     "id_recent": "A0239",
-     "score": 0.67,
-     "extrait": "Γϋ. ante μικρὸν R : nulla nota mutatae personae POxy-3839",
-     "recent": "Γϋ. ante μικρὸν R : nulla nota mutat. pers. POxy-3839"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "747",
-     "id_ancien": "A0265",
-     "id_recent": "A0239",
-     "score": 0.5,
-     "extrait": "καὶ ὅσον POxy-3839, R : ὅσον Suid. δ 1168 : χὤσον Bentley",
-     "recent": "καὶ ὅσον POxy-3839, R : χὤσον Bentley"
+     "extrait": "^(χ)ρῆν σ᾽ R²: χρὴ μ᾽ M",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -2552,7 +2094,7 @@
      "plage": "758-9",
      "id_ancien": "A0268",
      "id_recent": "A0242",
-     "score": 0.62,
+     "score": 0.75,
      "extrait": "τῆς ἱερείας POxy-3839, R : τῆς ἱερέας Austin & Olson",
      "recent": "ἱερείας POxy-3839, R : ἱερέας Austin & Olson"
     },
@@ -2562,18 +2104,9 @@
      "plage": "759",
      "id_ancien": "A0269",
      "id_recent": "A0243",
-     "score": 0.54,
+     "score": 0.75,
      "extrait": "nulla nota personae in R : ἄλλη γυνή Rᵖᶜ(ad v.760), M : (Κρίτ.). Sommerstein",
      "recent": "∅ R : (ἄλλη γυνή) Rᵖᶜ(ad v.760) : (Κρίτ.). Sommerstein"
-    },
-    {
-     "type": "apparat",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "759",
-     "id_ancien": "A0270",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "post τουτί interpunxit Bergk"
     },
     {
      "type": "apparat",
@@ -2598,28 +2131,20 @@
      "statut": "absent",
      "plage": "772",
      "id_ancien": "A0275",
-     "id_recent": null,
-     "score": 0.0,
-     "extrait": "γένοιτ᾽ ἄν R : γ᾽ ἔκειντό Suid. π 45 : γένοιντ᾽ ἄν Grynaeus (fierent Divus)"
-    },
-    {
-     "type": "apparat",
-     "statut": "absent",
-     "plage": "772",
-     "id_ancien": "A0275",
      "id_recent": "A0246",
-     "score": 0.33,
-     "extrait": "πόθεν; R : πόθεν πλάται; Biset : πόθεν; πόθεν; Scaliger : πλάται πόθεν; Sandbach : alii alia"
+     "score": 0.42,
+     "extrait": "γένοιτ᾽ ἄν R : γ᾽ ἔκειντό Suid. π 45 : γένοιντ᾽ ἄν Grynaeus (fierent Divus)",
+     "recent": "γένοιτ᾽ R : γένοιντ᾽ Grynaeus"
     },
     {
      "type": "apparat",
      "statut": "remanié",
-     "plage": "773",
+     "plage": "772",
      "id_ancien": "A0275",
      "id_recent": "A0246",
-     "score": 0.73,
-     "extrait": "εἶτα διὰ τἀγάλματ᾽ R : ταδὶ τἀγάλματ᾽ Suid. σ 742 : εἰ ταδὶ τἀγάλματ᾽ Ellebodius",
-     "recent": "εἶτα διὰ τἀγάλματ᾽ R : ταδὶ τἀγάλματ᾽ Suid. : εἰ ταδὶ τἀγάλματ᾽ Ellebodius"
+     "score": 0.67,
+     "extrait": "πόθεν; R : πόθεν πλάται; Biset : πόθεν; πόθεν; Scaliger : πλάται πόθεν; Sandbach : alii alia",
+     "recent": "πόθεν; R : πόθεν; πόθεν; Scaliger"
     },
     {
      "type": "apparat",
@@ -2637,7 +2162,8 @@
      "id_ancien": "A0285",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "αἰσχυνθεὶς (ex αἰσχυνθῆς) Rᵖᶜ: αἰσχυνθεῖσ᾽ Zanetti"
+     "extrait": "αἰσχυνθεὶς (ex αἰσχυνθῆς) Rᵖᶜ: αἰσχυνθεῖσ᾽ Zanetti",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -2650,22 +2176,13 @@
     },
     {
      "type": "apparat",
-     "statut": "remanié",
-     "plage": "834",
-     "id_ancien": "A0295",
-     "id_recent": "A0262",
-     "score": 0.67,
-     "extrait": "Τηνίοισι R : Στηνίοισι Schol., Suid. σ 1089",
-     "recent": "Τηνίοισι R : Στηνίοισι Σ, Suid. σ 1089"
-    },
-    {
-     "type": "apparat",
      "statut": "absent",
      "plage": "838",
      "id_ancien": "A0297",
      "id_recent": "A0264",
      "score": 0.2,
-     "extrait": "ὑστέραν (ex ὕστερον) Rᵖᶜ: ὑστάτην Schol."
+     "extrait": "ὑστέραν (ex ὕστερον) Rᵖᶜ: ὑστάτην Schol.",
+     "recent": "ὑστέρο^(α)ν Rᵖᶜ: ὑστάτην Σ"
     },
     {
      "type": "apparat",
@@ -2673,7 +2190,7 @@
      "plage": "842",
      "id_ancien": "A0299",
      "id_recent": "A0265",
-     "score": 0.5,
+     "score": 0.75,
      "extrait": "χρήματα τ' R : χρήματ' M : χρήμαθ᾽ Scaliger",
      "recent": "χρήματα τ' R : χρήμαθ᾽ Scaliger"
     },
@@ -2683,29 +2200,9 @@
      "plage": "842",
      "id_ancien": "A0299",
      "id_recent": "A0265",
-     "score": 0.71,
+     "score": 0.75,
      "extrait": "ἥν χρῆν R : ᾗ χρῆν Scaliger (cui Divus)",
      "recent": "ἥν χρῆν R : ᾗ χρῆν Scaliger"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "852",
-     "id_ancien": "A0302",
-     "id_recent": "A0268",
-     "score": 0.62,
-     "extrait": "ἢ τί κοικύλλεις R, Suid. κ 2534 : τί κοικύλλεις Faber",
-     "recent": "ἢ τί κοικύλλεις R, Suid. : τί κοικύλλεις Faber"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "853",
-     "id_ancien": "A0302",
-     "id_recent": "A0268",
-     "score": 0.78,
-     "extrait": "Ἑλένη R : Ἑλένην Bonini : ἑλένην Bibi, ap. Hesych. ε 1995",
-     "recent": "Ἑλένη R : ἑλένην Bibi ap. Hesych. ε 1995"
     },
     {
      "type": "apparat",
@@ -2729,21 +2226,12 @@
     {
      "type": "apparat",
      "statut": "remanié",
-     "plage": "879",
-     "id_ancien": "A0313",
-     "id_recent": "A0277",
-     "score": 0.75,
-     "extrait": "τῷ R : τούτῳ τῷ Grynaeus (1544) : τῷ κακῷ Scaliger",
-     "recent": "τῷ R : τούτῳ τῷ Grynaeus : τῷ κακῷ Scaliger"
-    },
-    {
-     "type": "apparat",
-     "statut": "absent",
      "plage": "880",
      "id_ancien": "A0313",
      "id_recent": "A0277",
-     "score": 0.33,
-     "extrait": "Θεσμοφόριον R, cf. v.278 : Θεσμοφορεῖον Meineke"
+     "score": 0.5,
+     "extrait": "Θεσμοφόριον R, cf. v.278 : Θεσμοφορεῖον Meineke",
+     "recent": "Θεσμοφόριον R, cf.278"
     },
     {
      "type": "apparat",
@@ -2751,7 +2239,7 @@
      "plage": "910",
      "id_ancien": "A0325",
      "id_recent": "A0288",
-     "score": 0.42,
+     "score": 0.75,
      "extrait": "Μενέλαον R : Μενέλεων Suid. ι 778 : Μενελέῳ σ᾽ Thiersch (cf. Eur. Hel.564)",
      "recent": "Μενέλαον R : Μενέλεων Suid. : Μενελέῳ σ᾽ Thiersch"
     },
@@ -2770,7 +2258,7 @@
      "plage": "910",
      "id_ancien": "A0325",
      "id_recent": "A0288",
-     "score": 0.45,
+     "score": 0.75,
      "extrait": "ἀφύων R : ἰφύων Schol., Suid. : ἀμφίων Grégoire : φυκίων Austin & Olson : λαιφίων Bibi",
      "recent": "ἀφύων R : ἰφύων Σ, Suid. : ἀμφίων Grégoire : λαιφίων Bibi"
     },
@@ -2790,7 +2278,8 @@
      "id_ancien": "A0351",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "εὔιον R : Εὔιε Enger : Εὐοῖ Hermann (1845)"
+     "extrait": "εὔιον R : Εὔιε Enger : Εὐοῖ Hermann (1845)",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -2798,7 +2287,7 @@
      "plage": "993",
      "id_ancien": "A0352",
      "id_recent": "A0314",
-     "score": 0.6,
+     "score": 0.67,
      "extrait": "ἐρατοῖς ἐν ὕμνοις R : ἐρατοῖσιν ὕμνοις Wilamowitz (Gr. Versk. p.476)",
      "recent": "ἐρατοῖς ἐν ὕμνοις R : ἐρατοῖσιν ὕμνοις Wilamowitz"
     },
@@ -2817,7 +2306,7 @@
      "plage": "995",
      "id_ancien": "A0353",
      "id_recent": "A0315",
-     "score": 0.71,
+     "score": 0.75,
      "extrait": "συῒ κτυπεῖται R : σοὶ κτυπεῖται Zanetti : συγκτυπεῖται Wilamowitz",
      "recent": "συῒ κτυπεῖται R : σοὶ κτυπεῖται Zanetti"
     },
@@ -2838,7 +2327,8 @@
      "id_ancien": "A0363",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "ἔοικεν R : μ᾽ ἔοικε von Velsen"
+     "extrait": "ἔοικεν R : μ᾽ ἔοικε von Velsen",
+     "recent": ""
     },
     {
      "type": "apparat",
@@ -2855,7 +2345,7 @@
      "plage": "1023",
      "id_ancien": "A0371",
      "id_recent": "A0331",
-     "score": 0.5,
+     "score": 0.75,
      "extrait": "πολυπονώτατον R, Schol. : πολυστονώτατον Burges",
      "recent": "πολυπονώτατον R, Σ : πολυστονώτατον Burges"
     },
@@ -2865,7 +2355,7 @@
      "plage": "1040",
      "id_ancien": "A0377",
      "id_recent": "A0337",
-     "score": 0.71,
+     "score": 0.75,
      "extrait": "λιτομέναν R : ἀντομένα (vel -αν) Schol. : λιτομένα Enger",
      "recent": "λιτομέναν R : ἀντομένα (vel -αν) Σ : λιτομένα Enger"
     },
@@ -2875,7 +2365,7 @@
      "plage": "1102",
      "id_ancien": "A0413",
      "id_recent": "A0373",
-     "score": 0.5,
+     "score": 0.75,
      "extrait": "Γοργόνος R : Γόργος Schol., Bothe",
      "recent": "Γοργόνος R : Γόργος Σ, Bothe"
     },
@@ -2885,18 +2375,19 @@
      "plage": "1132",
      "id_ancien": "A0426",
      "id_recent": "A0386",
-     "score": 0.6,
+     "score": 0.75,
      "extrait": "τοῦτο R : τούτῳ Zanetti (huic Divus)",
      "recent": "τοῦτο R : τούτῳ Zanetti"
     },
     {
      "type": "apparat",
-     "statut": "absent",
+     "statut": "remanié",
      "plage": "1135",
      "id_ancien": "A0428",
      "id_recent": "A0388",
-     "score": 0.33,
-     "extrait": "λαβεῖν· R : λαβεῖν; Scaliger (consequi? iam Ellebodius in vers. Lat.)"
+     "score": 0.67,
+     "extrait": "λαβεῖν· R : λαβεῖν; Scaliger (consequi? iam Ellebodius in vers. Lat.)",
+     "recent": "λαβεῖν· R : λαβεῖν; Scaliger"
     },
     {
      "type": "apparat",
@@ -2911,16 +2402,6 @@
     {
      "type": "apparat",
      "statut": "remanié",
-     "plage": "1197",
-     "id_ancien": "A0452",
-     "id_recent": "A0412",
-     "score": 0.6,
-     "extrait": "συμβήνην R : συβήνην Schol., Suid., Photius",
-     "recent": "συμβήνην R : συβήνην Σ, Suid., Photius"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
      "plage": "1127",
      "id_ancien": "A0464",
      "id_recent": "A0424",
@@ -2930,7 +2411,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (accentuation, esprit ou majuscule)",
      "plage": "1",
      "id_ancien": null,
      "id_recent": null,
@@ -2939,7 +2420,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (ponctuation)",
      "plage": "4",
      "id_ancien": null,
      "id_recent": null,
@@ -2948,7 +2429,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (ponctuation)",
      "plage": "27",
      "id_ancien": null,
      "id_recent": null,
@@ -2957,7 +2438,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (ponctuation)",
      "plage": "28",
      "id_ancien": null,
      "id_recent": null,
@@ -2966,7 +2447,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (accentuation, esprit ou majuscule)",
      "plage": "45",
      "id_ancien": null,
      "id_recent": null,
@@ -2975,7 +2456,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (mots)",
      "plage": "50",
      "id_ancien": null,
      "id_recent": null,
@@ -2984,7 +2465,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (ponctuation)",
      "plage": "52",
      "id_ancien": null,
      "id_recent": null,
@@ -2993,7 +2474,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (mots)",
      "plage": "99",
      "id_ancien": null,
      "id_recent": null,
@@ -3002,7 +2483,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (mots)",
      "plage": "162",
      "id_ancien": null,
      "id_recent": null,
@@ -3011,7 +2492,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (mots)",
      "plage": "163",
      "id_ancien": null,
      "id_recent": null,
@@ -3020,7 +2501,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (mots)",
      "plage": "263",
      "id_ancien": null,
      "id_recent": null,
@@ -3029,7 +2510,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (ponctuation)",
      "plage": "264",
      "id_ancien": null,
      "id_recent": null,
@@ -3038,7 +2519,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (mots)",
      "plage": "289",
      "id_ancien": null,
      "id_recent": null,
@@ -3047,7 +2528,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (mots)",
      "plage": "291",
      "id_ancien": null,
      "id_recent": null,
@@ -3056,7 +2537,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (mots)",
      "plage": "446",
      "id_ancien": null,
      "id_recent": null,
@@ -3065,7 +2546,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (mots)",
      "plage": "657",
      "id_ancien": null,
      "id_recent": null,
@@ -3074,7 +2555,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (mots)",
      "plage": "702",
      "id_ancien": null,
      "id_recent": null,
@@ -3083,7 +2564,7 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (mots)",
      "plage": "895",
      "id_ancien": null,
      "id_recent": null,
@@ -3092,211 +2573,214 @@
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (répartition des lignes entre vers voisins)",
      "plage": "913",
      "id_ancien": null,
      "id_recent": null,
      "score": null,
-     "extrait": "∅ → περίβαλε δὲ χέρας."
+     "extrait": "λαβέ με λαβέ με πόσι, ‖ λαβέ με λαβέ με πόσι, περίβαλε δὲ χέρας."
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (répartition des lignes entre vers voisins)",
      "plage": "959",
      "id_ancien": null,
      "id_recent": null,
      "score": null,
-     "extrait": "∅ → γένος Ὀλυμπίων θεῶν"
-    },
-    {
-     "type": "texte_grec",
-     "statut": "différent",
-     "plage": "993",
-     "id_ancien": null,
-     "id_recent": null,
-     "score": null,
-     "extrait": "∅ → †εὔιον εὔιον εὐοῖ"
-    },
-    {
-     "type": "texte_grec",
-     "statut": "différent",
-     "plage": "994",
-     "id_ancien": null,
-     "id_recent": null,
-     "score": null,
-     "extrait": "†εὔιον εὔιον εὐοῖ → ∅"
+     "extrait": "ἅμα δὲ καὶ ‖ ἅμα δὲ καὶ γένος Ὀλυμπίων θεῶν"
     }
    ],
    "stats": {
     "commentaire": {
      "réécrit (même plage, texte largement nouveau)": 14,
      "absent": 1,
-     "conservé": 292,
+     "conservé": 293,
      "remanié": 43,
-     "désactivé": 6
+     "désactivé": 5
     },
     "note": {
-     "remanié": 20,
-     "conservé": 444,
-     "absent": 7,
+     "remanié": 18,
+     "conservé": 459,
+     "absent": 6,
      "réécrit (même plage, texte largement nouveau)": 12,
-     "désactivé": 75
+     "désactivé": 57,
+     "intégré au commentaire": 6
     },
     "testimonia": {
-     "conservé": 226,
-     "remanié": 9,
-     "désactivé": 3,
-     "absent": 1
+     "conservé": 225,
+     "conservé (rédaction abrégée ou modifiée)": 12,
+     "remanié": 1,
+     "désactivé": 1
     },
     "apparat": {
-     "absent": 47,
-     "conservé": 519,
-     "remanié": 74,
-     "désactivé": 31
+     "absent": 26,
+     "conservé": 506,
+     "conservé (rédaction abrégée ou modifiée)": 54,
+     "remanié": 58,
+     "désactivé": 27
     },
-    "traduction_vers_modifies": 112,
-    "texte_grec_vers_differents": 22
+    "traduction_vers_modifies": 110,
+    "texte_grec_vers_differents": 20,
+    "texte_grec_natures": {
+     "accentuation, esprit ou majuscule": 2,
+     "ponctuation": 5,
+     "mots": 11,
+     "répartition des lignes entre vers voisins": 2
+    },
+    "texte_grec_renumerotations": 0
    },
    "texte_grec": {
     "vers_communs": 1208,
-    "vers_differents": 22,
-    "seulement_ancien": [
-     914,
-     960
-    ],
+    "vers_differents": 20,
+    "natures": {
+     "accentuation, esprit ou majuscule": 2,
+     "ponctuation": 5,
+     "mots": 11,
+     "répartition des lignes entre vers voisins": 2
+    },
+    "renumerotations": [],
+    "seulement_ancien": [],
     "seulement_recent": [],
     "differences": [
      {
       "vers": 1,
       "ancien": "ὦ Ζεῦ Χελιδὼν ἆρά ποτε φανήσεται;",
       "recent": "ὦ Ζεῦ χελιδὼν ἆρά ποτε φανήσεται;",
+      "nature": "accentuation, esprit ou majuscule",
       "differences": "Χελιδὼν → χελιδὼν"
      },
      {
       "vers": 4,
       "ancien": "οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλεῖν,",
       "recent": "οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλεῖν.",
+      "nature": "ponctuation",
       "differences": "ἐκβαλεῖν, → ἐκβαλεῖν."
      },
      {
       "vers": 27,
       "ancien": "οἶμαί γε. | σίγα νυν. | σιωπῶ τὸ θύριον;",
       "recent": "οἶμαί γε. | σίγα νυν. | σιωπῶ τὸ θύριον.",
+      "nature": "ponctuation",
       "differences": "θύριον; → θύριον."
      },
      {
       "vers": 28,
       "ancien": "ἄκου᾽. | ἀκούω καὶ σιωπῶ τὸ θύριον;",
       "recent": "ἄκου᾽. | ἀκούω καὶ σιωπῶ τὸ θύριον.",
+      "nature": "ponctuation",
       "differences": "θύριον; → θύριον."
      },
      {
       "vers": 45,
       "ancien": "γλαυκόν— | βομβάξ. | σίγα. | τι λέγει;",
       "recent": "γλαυκόν— | βομβάξ. | σίγα. τί λέγει;",
+      "nature": "accentuation, esprit ou majuscule",
       "differences": "τι → τί"
      },
      {
       "vers": 50,
       "ancien": "πραῖνοι ἡμέτερος— | μῶν βινεῖσθαι;",
       "recent": "πρανοῦν προτέρους— | μῶν βινεῖσθαι;",
+      "nature": "mots",
       "differences": "πραῖνοι ἡμέτερος— → πρανοῦν προτέρους—"
      },
      {
       "vers": 52,
       "ancien": "δρυόχους τιθέναι δράματος ἀρχάς.",
       "recent": "δρυόχους, τιθέναι δράματος ἀρχάς.",
+      "nature": "ponctuation",
       "differences": "δρυόχους → δρυόχους,"
      },
      {
       "vers": 99,
       "ancien": "σίγα· μελῳδεῖν γὰρ παρασκευάζεται.",
       "recent": "σίγα· μελῳδεῖν νῦν παρασκευάζεται.",
+      "nature": "mots",
       "differences": "γὰρ → νῦν"
      },
      {
       "vers": 162,
       "ancien": "κἀλκαῖος, οἳ περὶ ἁρμονίαν ἐχύμισαν,",
       "recent": "κἀλκαῖος, οἳ περὶ ἁρμονίαν ἐκεχήνεσαν,",
+      "nature": "mots",
       "differences": "ἐχύμισαν, → ἐκεχήνεσαν,"
      },
      {
       "vers": 163,
       "ancien": "ἐμιτροφόρουν τε καὶ δίκανον Ἰωνικῶς,",
       "recent": "ἐμιτροφόρουν τε καὶ διέκειντ᾽ Ἰωνικῶς,",
+      "nature": "mots",
       "differences": "δίκανον → διέκειντ᾽"
      },
      {
       "vers": 263,
       "ancien": "ἆρ᾽ ἁρμόσει μοι; χαλαρὰ γ᾽ οὐ χαίρεις φορῶν.",
       "recent": "ἆρ᾽ ἁρμόσει μοι; | χαλαρὰ γοῦν χαίροις φορῶν.",
+      "nature": "mots",
       "differences": "γ᾽ οὐ χαίρεις → γοῦν χαίροις"
      },
      {
       "vers": 264,
       "ancien": "σὺ τοῦτο γίγνωσκ᾽· ἀλλ᾽ ἔχεις γὰρ ὧν δέει,",
       "recent": "σὺ τοῦτο γίγνωσκ᾽ | ἀλλ᾽ ἔχεις γὰρ ὧν δέει,",
+      "nature": "ponctuation",
       "differences": "γίγνωσκ᾽· → γίγνωσκ᾽"
      },
      {
       "vers": 289,
       "ancien": "καὶ τὴν θυγατέρα χοιρίον ἀνδρός μοι τυχεῖν",
       "recent": "καὶ τὴν θυγατέρα Χοιρίλ᾽ ἀνδρός μοι τυχεῖν",
+      "nature": "mots",
       "differences": "χοιρίον → Χοιρίλ᾽"
      },
      {
       "vers": 291,
       "ancien": "καὶ πρὸς θάλικα νοῦν ἔχειν μοι καὶ φρένας.",
       "recent": "καὶ πρὸς θυλάκιον νοῦν ἔχειν μοι καὶ φρένας.",
+      "nature": "mots",
       "differences": "θάλικα → θυλάκιον"
      },
      {
       "vers": 446,
       "ancien": "ἐμοὶ γὰρ ἁνὴρ ἀπέθανεν μὲν ἐγκύμων",
       "recent": "ἐμοὶ γὰρ ἁνὴρ ἀπέθανεν μὲν ἔγκυος",
+      "nature": "mots",
       "differences": "ἐγκύμων → ἔγκυος"
      },
      {
       "vers": 657,
       "ancien": "ζητεῖν, εἴ που κἄλλος τις ἀνὴρ ἐπελήλυθ, καὶ περιθρέξαι",
       "recent": "ζητεῖν, εἴ που κἄλλος τις ἀνὴρ ἐπελήλυθε, καὶ περιθρέξαι",
+      "nature": "mots",
       "differences": "ἐπελήλυθ, → ἐπελήλυθε,"
      },
      {
       "vers": 702,
       "ancien": "ὡς ἅπαντ᾽ ἄρ᾽ ἐστὶ τόλμης διπλὰ κἀναισχυντίας.",
       "recent": "ὡς ἅπαντ᾽ ἄρ᾽ ἐστὶ τόλμης †πλέα† κἀναισχυντίας.",
+      "nature": "mots",
       "differences": "διπλὰ → †πλέα†"
      },
      {
       "vers": 895,
       "ancien": "βάϋζε τοὐμὸν σῶμα βάλλουσα ψόγῳ.",
       "recent": "κόνυζα τοὐμὸν σῶμα βάλλουσα ψόγῳ.",
+      "nature": "mots",
       "differences": "βάϋζε → κόνυζα"
      },
      {
       "vers": 913,
       "ancien": "λαβέ με λαβέ με πόσι,",
       "recent": "λαβέ με λαβέ με πόσι, περίβαλε δὲ χέρας.",
-      "differences": "∅ → περίβαλε δὲ χέρας."
+      "nature": "répartition des lignes entre vers voisins",
+      "differences": ""
      },
      {
       "vers": 959,
       "ancien": "ἅμα δὲ καὶ",
       "recent": "ἅμα δὲ καὶ γένος Ὀλυμπίων θεῶν",
-      "differences": "∅ → γένος Ὀλυμπίων θεῶν"
-     },
-     {
-      "vers": 993,
-      "ancien": "κατ᾽ ὄρεα νυμφᾶν ἐρατοῖς ἐν ὕμνοις,",
-      "recent": "κατ᾽ ὄρεα νυμφᾶν ἐρατοῖς ἐν ὕμνοις, | †εὔιον εὔιον εὐοῖ",
-      "differences": "∅ → †εὔιον εὔιον εὐοῖ"
-     },
-     {
-      "vers": 994,
-      "ancien": "†εὔιον εὔιον εὐοῖ | < × ∪∪ ∪ > ἀναχορεύων.",
-      "recent": "< × ∪∪ ∪ > ἀναχορεύων.",
-      "differences": "†εὔιον εὔιον εὐοῖ → ∅"
+      "nature": "répartition des lignes entre vers voisins",
+      "differences": ""
      }
     ]
    },
@@ -3505,11 +2989,11 @@
     },
     {
      "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "intégré au commentaire",
      "plage": "616",
      "id_ancien": "N0246",
-     "id_recent": null,
-     "score": 1.0,
+     "id_recent": "C0177",
+     "score": 0.97,
      "extrait": "Les dictionnaires LSJ, Bailly et Pape désignent le κάρδαμον respectivement comme « nose-smart, Lepidium sativum » (cresson alénois), « cresson » et « eine Art Kresse mit bitterem Kraut ».Pour aller dans le sens de Willems, ajoutons que le cresson, outre ses vertus sialagogiques, est loin d'être dysu"
     },
     {
@@ -3560,39 +3044,12 @@
     },
     {
      "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
+     "statut": "intégré au commentaire",
      "plage": "894",
      "id_ancien": "N0419",
-     "id_recent": null,
-     "score": 0.95,
+     "id_recent": "C0270",
+     "score": 0.78,
      "extrait": "Ce que semble confirmer un passage de Lysistrata (v. 1189-1193) : c'est le chœur des femmes qui parle :\n> στρωμάτων δὲ ποικίλων καὶ / χλανιδίων καὶ ξυστίδων καὶ / χρυσίων, ὅσ᾽ ἐστί μοι, / οὐ φθόνος ἔνεστί μοι πᾶσι παρέχειν φέρειν / τοῖς παισίν, ὁπόταν τε θυγάτηρ τινὶ κανηφορῇ. / Et de surtouts brodé"
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "894",
-     "id_ancien": "N0420",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Oiseaux, v. 669."
-    },
-    {
-     "type": "note",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "894",
-     "id_ancien": "N0422",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "Vers 676-684."
-    },
-    {
-     "type": "testimonia",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "198-201",
-     "id_ancien": "T0065",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "(τὰς συμφορὰς – παθήμασιν) Suidas τ 440 (τεχνάσμασι et παθήμασι pro -σιν)"
     },
     {
      "type": "testimonia",
@@ -3604,51 +3061,23 @@
      "extrait": "(ἀτταταῖ ἰατταταῖ) Suidas ε 2807"
     },
     {
-     "type": "testimonia",
-     "statut": "désactivé (commenté) dans la version récente",
-     "plage": "598",
-     "id_ancien": "T0168",
-     "id_recent": null,
-     "score": 1.0,
-     "extrait": "(ἐλινύειν) Hesychius ε 2095 ; cf. Moeris ε 61 (ἐλινύων = ἀναπαυόμενος) ~ Hesychius ε 2097"
-    },
-    {
-     "type": "testimonia",
-     "statut": "absent",
-     "plage": "696-7",
-     "id_ancien": "T0177",
-     "id_recent": "T0003",
-     "score": 0.11,
-     "longueur": 82,
-     "extrait": "(γυναῖκες – τροπαῖον) Gregorius Corinthius pp. 20-22 ; cf. scholiumᴬˡᵈ Plutus 453c"
-    },
-    {
-     "type": "apparat",
-     "statut": "remanié",
-     "plage": "217",
-     "id_ancien": "A0060",
-     "id_recent": "A0060",
-     "score": 0.71,
-     "extrait": "διδόναι γ' αὐτὸν R : διδόναι γ' ἑμαυτὸν Scaliger : 'πιδοῦναι 'μαυτὸν Dawes : διδόναι γ' ἑαυτὸν Bibi auctore Willems",
-     "recent": "διδόναι γ' αὐτὸν R : διδόναι γ' ἑμαυτὸν Scaliger : διδόναι γ' ἑαυτὸν Bibi auctore Willems"
-    },
-    {
      "type": "apparat",
      "statut": "absent",
      "plage": "417",
      "id_ancien": "A0129",
      "id_recent": null,
      "score": 0.0,
-     "extrait": "μορμολύκεια R : μορμολυκεῖα Dindorf (1830)"
+     "extrait": "μορμολύκεια R : μορμολυκεῖα Dindorf (1830)",
+     "recent": ""
     },
     {
      "type": "texte_grec",
-     "statut": "différent",
+     "statut": "différent (répartition des lignes entre vers voisins)",
      "plage": "913",
      "id_ancien": null,
      "id_recent": null,
      "score": null,
-     "extrait": "∅ → περίβαλε δὲ χέρας."
+     "extrait": "λαβέ με λαβέ με πόσι, ‖ λαβέ με λαβέ με πόσι, περίβαλε δὲ χέρας."
     }
    ],
    "stats": {
@@ -3658,314 +3087,45 @@
      "remanié": 3
     },
     "note": {
-     "conservé": 441,
-     "désactivé": 17,
+     "conservé": 443,
+     "désactivé": 13,
      "réécrit (même plage, texte largement nouveau)": 5,
-     "remanié": 3
+     "remanié": 3,
+     "intégré au commentaire": 2
     },
     "testimonia": {
-     "conservé": 218,
-     "désactivé": 3,
-     "absent": 1,
-     "remanié": 3
+     "conservé": 217,
+     "conservé (rédaction abrégée ou modifiée)": 7,
+     "désactivé": 1
     },
     "apparat": {
-     "conservé": 451,
-     "remanié": 1,
+     "conservé": 452,
+     "conservé (rédaction abrégée ou modifiée)": 1,
      "absent": 1
     },
     "traduction_vers_modifies": 9,
-    "texte_grec_vers_differents": 1
+    "texte_grec_vers_differents": 1,
+    "texte_grec_natures": {
+     "répartition des lignes entre vers voisins": 1
+    },
+    "texte_grec_renumerotations": 0
    },
    "texte_grec": {
     "vers_communs": 933,
     "vers_differents": 1,
-    "seulement_ancien": [
-     914
-    ],
-    "seulement_recent": [
-     947,
-     948,
-     949,
-     950,
-     951,
-     952,
-     953,
-     954,
-     955,
-     956,
-     957,
-     958,
-     959,
-     961,
-     962,
-     963,
-     964,
-     965,
-     966,
-     967,
-     968,
-     969,
-     970,
-     971,
-     972,
-     973,
-     974,
-     975,
-     976,
-     977,
-     978,
-     979,
-     980,
-     981,
-     982,
-     983,
-     984,
-     985,
-     986,
-     987,
-     988,
-     989,
-     990,
-     991,
-     992,
-     993,
-     994,
-     995,
-     996,
-     997,
-     998,
-     999,
-     1000,
-     1001,
-     1002,
-     1003,
-     1004,
-     1005,
-     1006,
-     1007,
-     1008,
-     1009,
-     1010,
-     1011,
-     1012,
-     1013,
-     1014,
-     1015,
-     1016,
-     1017,
-     1019,
-     1020,
-     1021,
-     1022,
-     1023,
-     1024,
-     1025,
-     1026,
-     1029,
-     1030,
-     1031,
-     1032,
-     1033,
-     1034,
-     1035,
-     1036,
-     1037,
-     1038,
-     1039,
-     1040,
-     1041,
-     1042,
-     1043,
-     1044,
-     1045,
-     1046,
-     1047,
-     1048,
-     1049,
-     1050,
-     1051,
-     1052,
-     1053,
-     1054,
-     1055,
-     1056,
-     1057,
-     1058,
-     1059,
-     1060,
-     1061,
-     1062,
-     1063,
-     1064,
-     1065,
-     1066,
-     1067,
-     1068,
-     1069,
-     1070,
-     1071,
-     1072,
-     1073,
-     1074,
-     1075,
-     1076,
-     1077,
-     1078,
-     1079,
-     1080,
-     1081,
-     1083,
-     1084,
-     1085,
-     1086,
-     1087,
-     1088,
-     1089,
-     1090,
-     1091,
-     1092,
-     1093,
-     1094,
-     1095,
-     1096,
-     1097,
-     1098,
-     1099,
-     1100,
-     1101,
-     1102,
-     1103,
-     1104,
-     1105,
-     1106,
-     1107,
-     1108,
-     1109,
-     1110,
-     1111,
-     1112,
-     1113,
-     1114,
-     1115,
-     1116,
-     1117,
-     1118,
-     1119,
-     1120,
-     1121,
-     1122,
-     1123,
-     1124,
-     1125,
-     1126,
-     1127,
-     1128,
-     1129,
-     1130,
-     1131,
-     1132,
-     1133,
-     1134,
-     1135,
-     1136,
-     1137,
-     1139,
-     1140,
-     1141,
-     1142,
-     1144,
-     1145,
-     1146,
-     1147,
-     1148,
-     1149,
-     1150,
-     1152,
-     1154,
-     1155,
-     1156,
-     1157,
-     1159,
-     1160,
-     1161,
-     1162,
-     1163,
-     1164,
-     1165,
-     1166,
-     1167,
-     1168,
-     1169,
-     1170,
-     1171,
-     1172,
-     1173,
-     1174,
-     1175,
-     1176,
-     1177,
-     1178,
-     1179,
-     1180,
-     1181,
-     1182,
-     1183,
-     1184,
-     1185,
-     1186,
-     1187,
-     1188,
-     1189,
-     1190,
-     1191,
-     1192,
-     1193,
-     1194,
-     1195,
-     1196,
-     1197,
-     1198,
-     1199,
-     1200,
-     1201,
-     1202,
-     1203,
-     1204,
-     1205,
-     1206,
-     1207,
-     1208,
-     1209,
-     1210,
-     1211,
-     1212,
-     1213,
-     1214,
-     1215,
-     1216,
-     1217,
-     1218,
-     1219,
-     1220,
-     1221,
-     1222,
-     1223,
-     1224,
-     1225,
-     1226,
-     1227,
-     1228,
-     1229,
-     1230,
-     1231
-    ],
+    "natures": {
+     "répartition des lignes entre vers voisins": 1
+    },
+    "renumerotations": [],
+    "seulement_ancien": [],
+    "seulement_recent": [],
     "differences": [
      {
       "vers": 913,
       "ancien": "λαβέ με λαβέ με πόσι,",
       "recent": "λαβέ με λαβέ με πόσι, περίβαλε δὲ χέρας.",
-      "differences": "∅ → περίβαλε δὲ χέρας."
+      "nature": "répartition des lignes entre vers voisins",
+      "differences": ""
      }
     ]
    },

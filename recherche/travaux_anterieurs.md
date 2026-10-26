@@ -176,23 +176,405 @@ Richards, Hamaker, Lobeck, Kaye, Maas, Lenting, Grégoire, Musgrave (écrit « M
 
 ## 5. Conjectures signées « Bibi »
 
-*(section en cours de rédaction — liste et justifications)*
+### 5.1 Vue d'ensemble
+
+L'apparat de 2023 contient **42 leçons actives signées « Bibi »**, réparties sur 41 segments (vers) de
+36 macros `\apparat` (requête : colonne `Bibi` de `apparat.tsv`). Toutes sont imprimées dans le texte
+sauf une (v. 1069, proposée mais non adoptée). Par nature :
+
+| Nature | Nombre | Vers |
+|---|---:|---|
+| Émendations modifiant les lettres du texte | 27 | 50 (×2), 162, 163, 217, 289, 291, 446, 477, 557, 704, 710, 711, 721, 822-3, 839, 895, 910, 1031, 1041, 1071, 1074, 1079, 1091, 1150-1, 1198, 1215 |
+| Relecture des mêmes lettres (accent, esprit, coupe, majuscule) | 6 | 30-1, 100, 638, 781, 853, 1078 |
+| Vers suppléé (réplique omise par R) | 1 | 1093 |
+| Attributions de répliques | 6 | 71-4, 264, 637-40, 642-3, 1090, 1092 |
+| Ponctuation | 1 | 1153 |
+| Proposition non adoptée dans le texte | 1 | 1069 |
+
+L'instrument est le plus souvent lexicographique : Hésychius fonde ou appuie 10 de ces 42 leçons
+(vv. 50, 100, 291, 704, 781, 853, 910, 1041, 1069, 1215), Photius une (710), la Souda une (163), Pollux
+une (291) ; les scholies sont invoquées pour 71-4, 711, 1090 ; les « matrices métaphoriques » et
+l'article de J. Taillardat pour 704 et 721 ; la langue proverbiale pour 822-3 (αὐτῷ κανῷ) et 895 (πόᾳ
+λίθον ἐκβάλλει) ; Willems pour 217 et 710. Neuf de ces leçons (vv. 1069-1093) se concentrent dans la
+scène d'Écho, où l'auteur restitue les réponses « moqueuses » (ἐπικοκκάστρια) de la nymphe jouée par
+Euripide.
+
+**Contrôle par sondage des gloses citées** (éd. minor d'Hésychius par M. Schmidt, 1867, OCR et image de
+la page, via `outils/corpus/chercher.py`) : θάλλικα· σάκκου εἶδος, Μύρμηκος ἀτραπός…, ἑλένη· λαμπάς,
+δετή, λαίφια· ῥάκη, τορεῖν· τορῆσαι, τρῆσαι, τεμεῖν, Ὀλυμπία· δοκός, δίκανα· ποικίλα ἱμάτια sont
+attestées ; †ἐξαρῆξαι· ἐκφορῆσαι et †ψεφαυγοῦς· σκοτεινῆς sont imprimées sous croix par Schmidt ;
+pour π 3188 et σ 2137, Schmidt normalise (πραινοῖ· πρηνίζει. καταστρέφει ; συβίνη) mais son apparat
+donne la leçon du manuscrit que cite l'auteur (infinitifs -ειν -ειν ; συμβίνης). Photius η 88 ἥκειν·
+ἀντὶ τοῦ ἥκων (éd. Naber, I p. 256) et Apostolius XIV 72 (CPG II p. 620) sont exacts. La numérotation
+des gloses (Latte, Hansen–Cunningham) reste à contrôler sur ces éditions.
+
+### 5.2 Liste complète (état 2023), avec la justification de l'auteur résumée
+
+Abréviations : « nov. 2022 » = état de la version de novembre 2022 (et de l'« Index des corrections
+proposées », qui reflète cet état) ; « nouv. 2023 » = absente de nov. 2022, présente dès mars 2023.
+Les justifications se lisent dans le commentaire du vers indiqué (`commentaires.tsv`).
+
+**Émendations et relectures**
+
+1. **30-1** — Ἀγάθων (bis) R → Ἁγάθων (v. 30, crase) et **ἀγαθῶν** (v. 31 : ἔστιν τις ἀγαθῶν;).
+   Jeu sur le nom (*nomen omen*) : pour le rustre Mnésiloque, un « homme de bien » est un gaillard
+   hâlé (μῶν ὁ μέλας ὁ καρτερός;). Le v. 32 est rendu en entier à Euripide d'après une scholie et
+   une indication de personnage grattée. *(nov. 2022 : ἀγαθῶν; au seul v. 31.)*
+2. **50** — πράμος ἡμέτερος R → **πρανοῦν προτέρους** (δρυόχους). πράμος n'est attesté nulle part
+   et doit se scander ∪∪ ; πρόμος (Grynaeus) n'explique pas la saillie μῶν βινεῖσθαι; et μέλλει
+   attend un infinitif ; Hésychius π 3188 (†πραῖνοι†· πρηνίζειν, καταστρέφειν) atteste un verbe
+   πρανόω « jeter en avant », mais aussi « se mettre tête baissée » (d'où la plaisanterie) ; mécoupure
+   πρανοῦν → πρανοι ν → πραμος ημ- ; προτέρους d'après la variante ἑτέρας/προτέρας de *Nuées* 562
+   (R contre V). *(nov. 2022 : πραῖνοι.)*
+3. **100** — μύρμ(ηκος) R → **Μύρμ(ηκος)**, nom propre : Hésychius μ 1904 (sentier de Myrmex au dème
+   des Scambonides) ; allusion possible à Philoxène de Cythère, surnommé Μύρμηξ (Souda φ 393).
+4. **162** — ἐχύμησαν R → **ἐκεχήνεσαν**. Les trois poètes « pédérastes » portent la ceinture lâche
+   (Souda ε 989 : μίτραις… ζώναις) ; χάσκειν + ἁρμονία (*Cav.* 533 τῶν θ' ἁρμονιῶν διαχασκουσῶν),
+   double sens de περιχάσκειν (ouvrir une ceinture, Héliodore ap. Oribase) ; iotacisme η/υ, μ/ν,
+   haplographie εκεχ → εχ. *(nouv. 2023.)*
+5. **163** — διεκίνων R (contre le mètre) → **διέκειντ'**. La Souda glose le mot par περιεπάτουν
+   (« vivre de telle façon »), ce qui exclut διεκλῶντ' (Toup) ; διάκειμαι + Ἰωνικῶς = « être enclin
+   à la mollesse ionienne ». *(nov. 2022 : δίκανον, d'après Hésychius δ 1805 δίκανα· ποικίλα ἱμάτια.)*
+6. **217** — διδόναι γ' αὐτὸν R (contre le mètre) → **διδόναι γ' ἑαυτὸν**, « auctore Willems » :
+   Willems (note 4) défendait ἑμαυτόν, sans doute trompé par Dindorf ; διδόναι ἑαυτόν τινι est la
+   formule ordinaire (*Cav.* 740, Soph. *Phil.* 84, etc.).
+7. **289** — χοῖρον R (Σ : χοιρίον) → **Χοιρίλ'** : la fille de Mnésiloque, première femme
+   d'Euripide, s'appelle Χοιρίλη dans la biographie ; refus de l'interprétation obscène au milieu
+   d'une prière aux Thesmophores ; confusion Ν/Λ sur un nom propre rare. *(nouv. 2023.)*
+8. **291** — πρὸς θάληκον R → **πρὸς θυλάκιον**. Contre Ποσθαλίσκον (Dindorf), avec Willems
+   (suffixe -αλισκος non grec, ignoré des lexicographes) ; Hésychius θ 50 θάλλικα· σάκκου εἶδος
+   serait une métathèse de θυλάκιον ; Pollux X 152 cite comme des *Thesmophories* σακίον, ἐν οἷσπερ
+   τἀργύριον ταμιεύεται (fr. 343 K.-A. selon l'auteur, fr. 328 dans la numérotation que cite LSJ),
+   que l'auteur rattache au v. 291 comme glose de θυλάκιον ; idée de la bourse du ménage suggérée
+   par J.-V. Vernhes. *(nov. 2022 : πρὸς θάλικα.)*
+9. **446** — ἐν Κύπρῳ R → **ἔγκυος** : ni l'interprétation scabreuse (aucun lexique) ni le sens
+   littéral (chronologie des expéditions de Chypre) ne tiennent ; aucune scholie ; lieu commun
+   pathétique de la veuve enceinte. *(nov. 2022 : ἐγκύμων.)*
+10. **477** — πολλ' R (un pied manque) → **πολλά γ'· ἀλλ'** : saut du même au même (ΠΟΛΛΑΓ'ΑΛΛ' →
+    ΠΟΛΛ'), contre δεινὰ πολλ' (Bentley) et πολλὰ δείν' (Dawes).
+11. **557** — τὸν σῖτον R, Σ, Souda → **τὸν κύσθον**, cf. v. 1114 (σκέψαι τὸ σκύτο → τὸ κύστο,
+    Scaliger) : σίφων = πέος (Eur. *Cycl.* 339), d'où σιφωνίζω ; usage détourné du strigile, que
+    l'auteur croit illustré par une coupe d'Onésimos (Bâle BS 440) ; métathèse du σ et iotacisme.
+12. **638** — χάλᾳ R → **χαλᾷ**, subjonctif délibératif dans la bouche de Mnésiloque (« il défait
+    mon strophion ! ») : le iota adscrit est nettement écrit dans R ; χάλα (Grynaeus) supposait un
+    ordre de Clisthène (voir n° 38).
+13. **704** — ἐξάρξω R (une syllabe manque) → **ἐξαρήξω**. « Briser l'arrogance » serait une image
+    unique (Taillardat § 628), « chasser, repousser » un sentiment est courant (αὐθαδίαν αὐθαδίᾳ,
+    Antiphane ap. Athénée II 44a ; Eur. fr. 339 Kannicht) ; Hésychius ε 3599 †ἐξαρῆξαι· ἐκφορῆσαι ;
+    méthode des « matrices métaphoriques » de Taillardat.
+14. **710** — ἥκεις τ' R → **ἥκειν γ'**, après ἥκων γ' de Willems (note 21) : Photius η 88 ἥκειν·
+    ἀντὶ τοῦ ἥκων ; simple permutation ν/ς.
+15. **711** — οὐ λέξεις R, Souda → **οὐκ ἔξει.** : λέξεις n'a pas de complément ; confusion Κ/Λ ;
+    la scholie ἥκεις… ὅθεν οὐ φεύξῃ glose οὐκ ἔξει ; le v. 712 se rattache au v. 713.
+16. **721** — ἀθέοις ἔργοις γὰρ R (défaut métrique) → **ξὺν ἀθέοις ἔργοις γὰρ**, « ap. Taillardat,
+    cf. v. 716 » : datif d'accompagnement selon l'interprétation de J. Taillardat (résumé dans *REG*
+    101, 1988, Actes, p. XVIII-XIX), parallèle de ξὺν ἀδίκοις ἔργοις (v. 716) ; Enger ajoutait ἐπ'.
+17. **781** — τὸ ῥῶ R → **τορῶ** : aoriste homérique τορεῖν « percer » (Hésychius τ 1162 τορεῖν·
+    τορῆσαι, τρῆσαι, τεμεῖν) ; Mnésiloque grave au couteau son message sur les tablettes de bois ;
+    remarque due à J.-V. Vernhes.
+18. **822-3** — τἀντίον ὁ κανὼν οἱ καλαθίσκοι / τὸ σκιάδειον R → **ταὐτὸ κανοῦν καὶ τὸ σκιάδειον**.
+    Liste hétéroclite dont seuls κανών et σκιάδειον sont repris ensuite, quatre brèves au v. 822 ;
+    proverbe αὐτῷ κανῷ (Zénobius II 31 ; Platon com. fr. 15 K.-A. ; Érasme, *Adages* 1088), écho
+    de l'αὐτῇ λόγχῃ du v. 826 ; οἱ καλαθίσκοι serait une glose de κανοῦν ; image de procession
+    (canéphores, skirophores).
+19. **839** — ὦ πόλεις R → **ωὖπολι** (= ὦ Εὔπολι) : hommage à Eupolis, mort selon N. Kyriakidi
+    (2007) à Cynossema en 411, peu avant la pièce ; rapprochement avec le commentaire du *Maricas*
+    (fr. 192 K.-A.).
+20. **853** — Ἑλένη R → **ἑλένην**, nom commun : Hésychius ε 1995 ἑλένη· λαμπάς, δετή ; Critylla
+    menace Mnésiloque d'un coup de torche (cf. v. 858).
+21. **895** — βαϋζα R → **κόνυζα** (la conyze) : βάϋζε (Zanetti) est inintelligible ; suffixe -υζα
+    des noms de plantes ; κ et β semblables ; ψόγῳ mis παρὰ προσδοκίαν pour λίθῳ, d'après le proverbe
+    πόᾳ λίθον ἐκβάλλει (Apostolius XIV 72). *(nouv. 2023.)*
+22. **910** — ἀφύων R (Σ, Souda : ἰφύων) → **λαιφίων** : Ménélas reconnu à ses haillons (Fritzsche,
+    Grégoire : ἀμφίων ; C. Austin, *Dodone* 19.2, 1990) ; Hésychius λ 171 λαίφια· ῥάκη ; chute du λ
+    initial, d'où αιφιων lu ἀφύων ou ἰφύων.
+23. **1031** — κημὸν ἕστηκ' ἔχουσ' R → **ἕστηκ' ἔχουσα κημόν** (cf. Σ *Vesp.* 674c) : expression
+    consacrée du joueur prêt à lancer les dés (fragment d'Hermippe καὶ πρὸς κύβους ἕστηκ' ἔχων <τὸ>
+    κήθιον) ; κημός = cornet (Pollux X 150), non urne de vote ; responsion avec les vers précédents ;
+    l'auteur s'en remet aux métriciens.
+24. **1041** — φεύγουσαν R → **ψεφαυγοῦς** (génitif dorique) : Hésychius ψ 135 ψεφαυγοῦς·
+    σκοτεινῆς, glose σκοτεινήν égarée au v. 1054 ; goût d'Euripide pour les composés en -αυγής ;
+    chute de ψε- et finale -αν analogique de λιτομέναν ; contre χέουσα (Rau) et φλέγουσαν (Musgrave).
+25. **1071** — μέρος ἐξέλαχον; R → **μόρος ἔξελ' ἄχος.** : réponse d'Écho (« la Mort ôte la
+    douleur ») ; cf. Soph. fr. 698 Radt.
+26. **1074** — στωμυλωμένη R (στωμυλλωμένη au v. 1073) → **στωμυλιομενής** : la différence
+    d'orthographe λλ/λ dans R serait l'indice d'un mot différent ; composé sur le modèle de
+    στωμυλιοσυλλεκτάδης (*Gren.* 839).
+27. **1078** — (Εὐρ.) παῦσαι R → **'παΰσαι** (ἐπαΰω, Eschyle, *Choéph.* 828) : Écho « crie dessus ».
+28. **1079** — βάλλ' ἐς κόρακας R → **βάλλε σύ κόρακας** : κόρακες = crochets, marteaux (Pollux X
+    22) ; même jeu supposé en *Nuées* 133.
+29. **1091** — πλησίον αὕτη R → **πλήξασ' αὕτη** : Écho-Euripide frappe l'archer, d'où sa fureur
+    (ποῦ 'στ' ἠ μιαρά;).
+30. **1150-1** — (οὐ) θεμιτὸν R → **θεμιτεύετον** (duel) : Eur. *Bacch.* 79 ὄργια… θεμιτεύων ;
+    haplographie ; responsion avec le v. 1158.
+31. **1198** — κ⟦ω⟧ομίζεις αὐτοῖς Rᵖᶜ → (Τοξ.) **κομίζι σ' αὐτίκ'** (= κομίζω σοι αὐτίκα) : l'archer
+    ira chercher la drachme ; confusion ις/κ ; les sigles de personnages en marge (γϋ.) sont tardifs
+    (main d'Euphrosynus Boninus selon von Velsen).
+32. **1215** — συβήνη R → **συμβήνη**, cf. v. 1197 (où R a συμβήνην, conservé contre tous les
+    éditeurs) et Hésychius σ 2137 (συμβίνης· καπροβόλον, ἐμβόλιον) : une lance, non un carquois ou
+    un étui à flûte ; jeu de mots avec καταβηνῆσι.
+
+**Vers suppléé, proposition non adoptée, ponctuation**
+
+33. **1093** — réplique omise par R : **(Εὐρ.) ποῖ ποῖ πέτει** suppléée (cri d'oiseau d'Écho qui
+    s'envole sur la μηχανή ; cf. *Oiseaux* 226, 310, 1199).
+34. **1069** — δι' Ὀλύμπου R (conservé dans le texte) ; proposé : †δι'† **ὀλυμπίας**, d'après
+    Hésychius ο 649 (Ὀλυμπία· δοκός : « poutre » = pendaison), autre réplique moqueuse d'Écho.
+35. **1153** — λαμπάσι R → **λαμπάσι.** : ponctuation forte, liée à la structure strophique proposée
+    pour 1136-1159 (deux paires strophe/antistrophe séparées par des mésodes : 1143-4 et 1154).
+
+**Attributions de répliques**
+
+36. **71-4** — R : Mnésiloque 71, Euripide 72-4 → **Mnésiloque 71-4** : pendant exact du quatrain
+    1-4 (invocation à Zeus puis question) ; la scholie τὸ σημεῖον· οὐ μόνον κηδεστὴς ὁ ἐκδιδούς, ἀλλὰ
+    καὶ ὁ λαμβάνων montrerait que le signe ne marque pas de changement de locuteur.
+37. **264** — R sans changement d'interlocuteur → **(Ἀγάθ.) ἀλλ'…** : Agathon, excédé par la pique
+    σὺ τοῦτο γίγνωσκ', se fait rentrer par l'eccyclème (commentaire du v. 263). *(nouv. 2023.)*
+38. **637-40** — R : Mnésiloque sans autre signe → **Mnésiloque 637-8, Mika 639-40** (contre Brunck
+    et la vulgate : Clisthène 638, la femme 639-40) : un seul paragraphos à rétablir ; Clisthène est
+    déjà en train de déshabiller Mnésiloque sur l'ordre de Mika (v. 636).
+39. **642-3** — R : Mnésiloque 641-3 → **Clisthène 642-3** (un changement au lieu de deux). *(nouv.
+    2023.)*
+40. **1090** et 41. **1092** — (Μνη.) chez la plupart des éditeurs → **(Χορ.)**, d'après la scholie
+    τοῦτο ὁ χορὸς ἢ ὁ γέρων : Mnésiloque ne dénoncerait pas son complice.
+
+(Le 42ᵉ élément est la seconde leçon du v. 50, προτέρους, comptée à part dans l'apparat.)
+
+### 5.3 Conjectures abandonnées ou désactivées
+
+| Vers | Conjecture | Statut |
+|---|---|---|
+| 1 | Χελιδὼν (nom propre, « ap. Clements ») | active en nov. 2022 ; supprimée dès mars 2023 (la note sur l'article d'A. Clements a disparu) |
+| 702 | διπλὰ (pour ἔργα R) | active en nov. 2022 ; commentée (`%`) dès mars 2023 ; le texte imprime †πλέα† (Souda) |
+| post 870 | < οἶσθ' οὖν ὃ δρᾶσον; > restitué « ap. Σ » (cf. Eur. *Hél.* 325) | active en nov. 2022 ; désactivée ensuite |
+| 1072 | θαλάττης τέμνον (pour θανάτου τλήμων) | désactivée dans toutes les versions |
+| 1082 | ὀλόφυγ' (pour ὀτότυζ') | désactivée dans toutes les versions |
+| Eur. fr. 228 Kannicht | καλλήϊον Γαιᾶ (pour κάλλιστον ἐκ γαίας) | active dans le commentaire de 855-7 en nov. 2022 ; commentée (`%`) dès mars 2023 |
+| 50, 163, 291, 446 | πραῖνοι, δίκανον, πρὸς θάλικα, ἐγκύμων | remplacées en 2023 par πρανοῦν, διέκειντ', θυλάκιον, ἔγκυος |
+
+### 5.4 Conjectures sur d'autres textes (Index des corrections proposées)
+
+Présentes dans le commentaire de 2023 : *Cav.* 20 ἀπόκυνον (codd. ἀπόκινον ; Hésychius α 6416 ; comm.
+455-6) ; *Gren.* 19-20 οὐ κε ῥεῖ (codd. οὐκ ἐρεῖ ; comm. 647-8) ; Diogénien IV 78 ταὐτότητι (comm. 489) ;
+Eustathe, *Il.* 976.13 σφῇσιν (comm. 643) ; Hipponax fr. 30 Masson / 42 Degani οὔ μοι δίκᾳ ὡς μοιχός
+(comm. 894) ; Sappho fr. 125 Voigt αὐτὰ κόραις στεφαναπλόκεο (comm. 400-1) ; Σ *Thesm.* 1174 τὸ ἄκρως
+βαδίζειν « ap. Zonaras » (comm. 1174) ; Eupolis fr. 192.96 K.-A. (commentaire du *Maricas* sur
+papyrus ; rangé par erreur sous Aristophane dans l'Index) ἄ[ργυρον (comm. 839) ; *Lys.* 104 et 114 attribués à la même femme (comm. 643) ; *Thesm.* 743,
+répartition des répliques d'après P. Oxy. 3839 (τρικότυλον; ἢ πῶς. — εἰπέ μοι· τί μ' ἠργάσω;).
+
+L'Index (fichier `Index.tex`) reflète l'état de novembre 2022 : il ignore les leçons nouvelles de 2023
+(vv. 100, 162, 264, 289, 477, 642-3, 895, 1090-1092, 1153, 1198) et donne encore πραῖνοι, δίκανον,
+θάλικα, ἐγκύμων, διπλὰ et Χελιδών.
 
 ## 6. Principes d'établissement du texte
 
-*(section en cours de rédaction)*
+Les principes ne sont exposés nulle part de façon suivie (l'Introduction ne contient ni *praefatio* ni
+note sur l'édition) ; ils se déduisent de la page de titre, de l'apparat et des déclarations éparses
+du commentaire.
+
+**1. Un « Urtext » reconstruit à partir de R.** La page de titre annonce « Les *Thesmophories*
+d'Aristophane. *Urtext* avec commentaire, traduction, apparats (critique & témoins) ». Le mot revient
+dans le commentaire (vv. 80, 822-3 : « l'*Urtext* — comportait certainement au vers 822 le terme
+κανοῦν ») et dans l'Index des gloses d'Hésychius « qui ont servi au rétablissement de l'*Urtext* ».
+R est « notre unique source pour la version complète » ; M (Monacensis gr. 492) est traité comme une
+copie de R, utile pour ses corrections (64 mentions, 35 leçons retenues) ; les papyrus (PSI 1194,
+P. Oxy. 3839, 3840, 4935, 1176) apparaissent 23 fois ; la tradition indirecte est très présente (Souda
+89 mentions, scholies 53, Hésychius et Photius 11).
+
+**2. Un apparat positif, un segment par vers.** Forme constante : leçon de R, deux-points, leçon
+retenue en gras (`\lecon`) suivie de son autorité, autres conjectures. Sur 628 entrées, 584 marquent
+une leçon retenue : 350 adoptent la correction d'un critique nommé (Brunck 34, Bentley 34, Biset 26,
+Dindorf 19, Zanetti 19, Scaliger 17, Grynaeus 15, Küster 15, Ellebodius 12, Meineke 9…, soit surtout
+les éditions de la Renaissance et la critique des XVIIIᵉ-XIXᵉ s.), 106 conservent R contre une ou
+plusieurs conjectures citées, 52 suivent la tradition indirecte ou un papyrus, 35 M, 41 « Bibi » ; 44
+entrées sont purement descriptives (corrections de R, ajouts marginaux, sigles de personnages). Les
+attributions fines aux premières éditions (Zanetti, Grynaeus, Gelenius, Divus…) supposent un appui sur
+les apparats modernes (Prato, Austin–Olson, Wilson), que l'auteur ne cite pas comme tels.
+
+**3. Conservatisme revendiqué, conjecture assumée.** Les modèles sont Willems, « en guerre perpétuelle
+contre les retoucheurs de texte », et Coulon, qui « s'est astreint à conserver le plus possible les
+leçons des manuscrits contre les conjectures des philologues ». L'auteur défend R contre la vulgate
+quand il le peut (v. 18 ἀκοὴν δὲ χοάνης avec Willems ; v. 638 χάλᾳ, « le iota adscrit est nettement
+écrit » ; v. 1197 συμβήνην, « nous nous garderons bien de biffer le μ ») et raille les corrections qui
+laissent le texte aussi obscur. Mais quand R lui paraît corrompu, il conjecture hardiment, en
+s'imposant trois exigences : (a) la correction doit expliquer la faute (iotacisme, confusions μ/ν, κ/β,
+Κ/Λ, Ν/Λ, ις/κ, haplographie, saut du même au même, métathèse, mécoupure, glose entrée dans le texte) ;
+(b) elle doit être appuyée par un témoin ancien, de préférence une glose d'Hésychius ou une scholie
+mal comprise ; (c) elle doit restituer un sens comique ou une image attestée. Il écarte pour cette
+raison les corrections « banales » qui n'expliquent pas l'erreur (v. 1041 : χέουσα « est le mot banal
+qu'on attendait, il paraît alors très difficile qu'un scribe s'y soit trompé »). Il signale souvent la
+part d'hypothèse (v. 291 « pour séduisante que soit cette reconstruction, elle n'en demeure pas moins
+conjecturale » ; v. 1031 « je laisse le soin d'en juger à des métriciens compétents » ; v. 1069 « je
+m'arrête ici, au bord de la reconstruction tentatrice »).
+
+**4. Le sens comique et la « décence » d'Aristophane comme critères.** Les interprétations obscènes
+jugées gratuites sont rejetées avec véhémence (vv. 263, 289, 446, 910, 1197-1216 ; formule récurrente,
+placée sous l'autorité de Willems : « Mais pour qui prennent-ils Aristophane ? »), ce qui oriente certaines émendations
+(289 Χοιρίλ', 446 ἔγκυος) ; à l'inverse, une obscénité jugée démontrée est introduite (557 κύσθον).
+
+**5. Répartition des répliques.** L'auteur part des signes de R, dont il donne une typologie
+(paragraphos en début de vers, dicolon ou abréviation du nom en milieu de vers ; note au v. 637-40) et
+s'efforce de « respecter le découpage des vers du manuscrit de Ravenne, sans tailler ni fusionner » (v.
+255) ; les noms de personnages ajoutés tardivement en marge sont récusés (v. 1198 : main du XVIᵉ s.) ;
+les arguments sont le caractère des personnages, le jeu de scène et les scholies (6 attributions
+« Bibi », § 5). Écho est attribuée à Euripide (« Euripide — qui joue dans ce passage la nymphe Écho »),
+d'où l'absence de personnage Ἠχώ dans l'extraction.
+
+**6. Métrique et colométrie.** Chaque côlon des parties lyriques forme un groupe pourvu d'une étiquette
+métrique (`\typeVers`, 288 étiquettes). La métrique sert d'argument (vv. 217, 477, 704, 721, 1031,
+1150-1), mais l'auteur s'en remet aux métriciens (L. P. E. Parker, qu'il appelle « Lætitia », Prato,
+Dale, White) et refuse de forcer la responsion (1136-1159).
+
+**7. Signes critiques dans le texte.** 30 lignes portent des croix (†), dont 18 dans la scène d'Écho
+(1069-1096) : l'auteur y marque comme corrompues les « répétitions » d'Écho, qu'il suppose avoir été à
+l'origine des déformations moqueuses. Une lacune est notée avec son schéma métrique (v. 994 : < × ∪∪ ∪ >,
+« lacunam statuit Hermann ») ; une glose est mise entre accolades (v. 828 { ἐν ταῖς στρατιαῖς }, sans
+note d'apparat) ; deux vers sont supprimés et exclus du texte numéroté (v. 23, del. Willems ; v. 500,
+del. van Herwerden) ; deux répliques sont suppléées (v. 1093, Bibi ; v. 1094 οὐ καιρήσεις, Brunck ap. Σ).
+
+**8. Numérotation.** Celle de la vulgate (Hall–Geldart), avec des écarts locaux dans les parties
+lyriques, où l'auteur numérote d'après sa propre colométrie au moyen de `\ligne{n}` (§ 2.3 et § 11).
 
 ## 7. Style et ton du commentaire
 
-*(section en cours de rédaction)*
+### 7.1 Les deux axes revendiqués
+
+L'Introduction (partie « Parémiographie ») le dit en toutes lettres : « Mon commentaire possède deux
+principaux mérites : celui d'avoir dépouillé Hésychius à chaque difficulté et de recourir massivement
+— et même parfois abusivement — à ce qu'il nous est parvenu de la langue proverbiale grecque ». Une
+note signale elle-même le risque de cercle (justifier un vers par un proverbe que les parémiographes ont
+tiré… de ce vers, ex. v. 702), et l'auteur recourt au latin comme « langue voisine » pour identifier
+images et proverbes (v. 19 : *nec aures me credo habere nec tango*). Le dépouillement se mesure :
+
+| Axe | Indicateurs (Harmattan 2023) |
+|---|---|
+| Hésychius | cité dans 41 articles (74 occurrences dans le commentaire et ses notes, 49 références « lettre + numéro », 46 gloses distinctes), 73 fois dans les testimonia ; 10 des 42 leçons « Bibi » reposent sur lui (§ 5) ; Index des gloses d'Hésychius : 18 entrées ; « le plus utile des lexicographes pour les *Thesmophories* », « ce bon vieil Hésychius ne nous ayant jamais trahi » |
+| Langue proverbiale | « proverbe/proverbial » dans 29 articles (94 occurrences, pour moitié dans les notes) ; Érasme, *Adages*, dans 21 articles (41 occurrences, presque toutes en note) ; parémiographes (Zénobius 8 articles, Apostolius 8, Diogénien 4, Macarius 2, *Corpus Paroemiographorum* 6) ; Tosi 7 ; Index des allusions proverbiales : 38 entrées ; 106 passages latins balisés `\latin` |
+| Images | J. Taillardat, *Les images d'Aristophane*, dans 44 articles (61 occurrences) ; méthode des « matrices métaphoriques » appliquée à l'établissement du texte (vv. 704, 1069) |
+| Modèle | Alphonse Willems dans 89 articles (126 occurrences, plus 8 dans l'apparat) : « Lisez Willems ! aucune excuse » ; ses notes sur les *Thesmophories* sont reproduites en annexe et la traduction française de l'auteur est, selon l'Annexe, « la quasi-intégralité » celle de Willems retouchée |
+
+### 7.2 Forme
+
+357 articles (moyenne 940 caractères, médiane 439 ; 49 dépassent 2 000 caractères, 98 en ont moins de
+200 ; le plus long, 455-6, « Dossier sur la mère d'Euripide, la vendeuse d'herbes », atteint 15 449
+caractères hors notes et traite aussi du scandix et de *Cav.* 19-20), dont 176
+pourvus de notes (541 notes numérotées par article, appelées par `\marqueur`). 344 citations en bloc
+(`\citComm`), le grec presque toujours suivi d'une traduction française ; 13,7 % des lettres du
+commentaire sont grecques. Un article type : lemme grec ; énoncé du problème (« Le vers pèche contre le
+mètre », « La répartition des répliques de ce passage fluctue d'une édition à l'autre ») ; revue des
+corrections antérieures ; témoin décisif (glose d'Hésychius, scholie mal comprise, proverbe) ;
+explication paléographique ; texte restitué et traduit ; souvent reconstitution du jeu de scène ;
+pointe finale.
+
+### 7.3 Voix et ton
+
+- **Énonciation.** Alternance du « je » (≈ 200 occurrences) et du « nous » d'auteur (≈ 250, plus
+  ≈ 145 « notre/nos ») ; une fois « je [Bibi] » et « N.D.É. » (note 3 au v. 721-5) ; 28 adresses au
+  « lecteur ». Ton oral : 210 points d'exclamation, 205 points d'interrogation, 195 points de
+  suspension.
+- **Érudition enjouée.** Jeux de mots français (le coureur « dé-raté », v. 3 ; « (Re-)prends ton habit
+  Grégoire ! », v. 910), pastiches de comptines et de chansons (v. 557), Brassens, La Fontaine,
+  Molière, Villon, Rabelais ; anecdotes contemporaines (Félix Faure, v. 446 ; la « carte de crédit »
+  de J.-V. Vernhes, v. 291) ; hommages appuyés (« l'immense Jean Taillardat », « le grand Alphonse
+  Willems »).
+- **Polémique.** Vive hostilité aux « modernes scholiastes » qui voient partout l'obscénité et à
+  plusieurs commentateurs récents (Austin–Olson, Henderson, un auteur désigné par un sobriquet au v.
+  910), avec un vocabulaire d'invective concentré dans quelques articles (vv. 263, 455-6, 738, 910,
+  1063, 1197-1216) ; le scholiaste byzantin, « ignare », est opposé à « l'alexandrin » Hésychius.
+- **Digressions personnelles.** Remarques politiques ou d'actualité (v. 1031 sur la démocratie, v.
+  637-40 sur « l'administration française » ; dans l'Annexe polémique, une injure visant un chef d'État).
+
+Pour une édition de référence « beaucoup plus sobre », c'est la part la plus à reprendre : conserver
+les arguments, la documentation et les trouvailles, éliminer l'invective, les attaques *ad hominem* et
+les digressions d'actualité, et unifier la voix (« je », conformément aux consignes).
 
 ## 8. Sources les plus citées
 
-*(section en cours de rédaction)*
+Comptes produits par `outils/extraction/sources_citees.py` → `edition/donnees/travaux_anterieurs/sources_citees.tsv`
+(96 sources ; nombre d'articles de commentaire où la source apparaît, notes comprises, et occurrences
+dans le commentaire, les notes, les testimonia et l'apparat ; motifs simples, à lire comme des ordres de
+grandeur).
 
-## 9. Annexes et index
+| Source | Articles | Occurrences (comm. + notes / testimonia / apparat) |
+|---|---:|---|
+| Scholies, scholiaste | 108 | 181 / 19 / 46 |
+| Euripide (auteur et personnage) | 107 | 267 / 3 / 0 |
+| Willems | 89 | 126 / 0 / 8 |
+| Taillardat, *Images d'Aristophane* | 44 | 61 / 0 / 1 |
+| Hésychius | 41 | 74 / 73 / 7 |
+| Souda | 37 | 67 / 140 / 89 |
+| Autres pièces d'Aristophane | *Gren.* 35, *Guêpes* 34, *Ach.* 29, *Nuées* 29, *Lys.* 25, *Paix* 23, *Ois.* 22, *Cav.* 19, *Ploutos* 13, *Assemblée* 11 | — |
+| Kassel–Austin (*PCG*) | 30 | 35 / 3 / 0 |
+| « proverbe », « proverbial » | 29 | 93 / 1 / 0 |
+| Athénée | 26 | 38 / 1 / 0 |
+| Platon | 23 | 30 / 0 / 0 |
+| Homère | 22 | 43 / 0 / 0 |
+| Érasme, *Adages* | 21 | 41 / 0 / 0 |
+| Photius | 20 | 26 / 47 / 4 |
+| Jouan–van Looy (fragments d'Euripide, CUF) | 18 | 22 / 0 / 0 |
+| Sophocle | 18 | 20 / 0 / 0 |
+| Kannicht (*TrGF* V) | 17 | 19 / 2 / 0 |
+| Eschyle | 17 | 31 / 0 / 0 |
+| Thucydide | 16 | 25 / 0 / 0 |
+| Fritzsche | 14 | 16 / 0 / 13 |
+| Plutarque | 14 | 17 / 0 / 0 |
+| Pollux | 11 | 17 / 21 / 5 |
+| Parker (« Lætitia »), LSJ | 11 chacun | 17 ; 12 |
 
-*(section en cours de rédaction)*
+Les éditions modernes de la pièce sont peu citées dans le commentaire (Austin–Olson 6 articles,
+Prato 6, Sommerstein 5, Coulon 4, Rogers 3, van Leeuwen 5, Enger 4, von Velsen 7), sinon pour être
+contredites ; les instruments de travail le sont un peu plus (Daremberg–Saglio 10, Chantraine 9,
+Radt 9, Bailly 5). Dans les testimonia, la tradition lexicographique domine : Souda (140 occurrences),
+Hésychius (73), Photius (47), Eustathe (29), Pollux (21), Moeris (20), Zonaras (18), *Synagoge* et
+*Etymologica* (11 chacun), Aelius Dionysius et Phrynichus (10 chacun).
+
+## 9. Introduction, annexes et index
+
+### 9.1 Introduction (`Introduction.tex`, 421 lignes)
+
+Date (Grandes Dionysies de 410, avec Rogers ; critique interne privilégiée sur les scholies) ;
+synopsis (le procès d'Euripide, le contexte historique) ; « Bibliographie thématique (et sélective) à
+l'usage de l'apprenti-chercheur » : éditions (Juntine 1516, Fritzsche 1838, Willems 1919, fac-similé
+de van Leeuwen 1904, Rogers 1904, Coulon 1928, Sommerstein 1994, Prato 2001, Austin–Olson 2004/2008,
+Wilson 2007, Saetta Cottone 2016), scholies (Dübner ; Koster, Regtuit 2007), lexicographie (Hésychius
+de Latte–Cunningham et de Schmidt, Souda d'Adler, Photius de Theodoridis, *Synagoge* de Cunningham,
+Pollux de Bethe), parémiographie (CPG de Leutsch–Schneidewin, Gaisford, Tosi, Érasme éd. Saladin,
+Taillardat ; c'est là que figurent les « deux principaux mérites » cités au § 7.1), outils (Logeion,
+Perseus, TLG, Courtaud–Diverneresse) et encyclopédies (Daremberg–Saglio, *RE*) ; « Le dossier
+Mnésiloque » (identification du Parent avec Mnésiloque, beau-père d'Euripide : Téléclide fr. 40 K.-A.,
+usage onomastique attesté par Démosthène, *Vies* d'Euripide) ; « Témoins de la pièce » (§ 4) ; liste des
+personnages (avec les muets Μανία, Ἐλάφιον, Τερηδών). Les jugements sur les éditeurs y sont
+tranchés (la traduction de Van Daele dans la CUF serait celle de Willems retouchée ; la « conspiration
+du silence » autour de Willems).
+
+### 9.2 Annexes (`Annexes.tex`, 1 869 lignes)
+
+Préambule : « La quasi-intégralité de la traduction proposée des *Thesmophories* ainsi que les notes qui
+composent ces annexes sont tirées de l'œuvre d'Alphonse Willems ».
+
+| Ensemble | Contenu | Taille (caractères actifs) |
+|---|---|---:|
+| Dossier Willems | notice par Maurice Leroy ; bibliographie de Willems (Leroy) ; « Alphonse Willems. Notes d'un vieil élève » (Charles Lacomblé) | ≈ 66 000 |
+| Notes de Willems sur les *Thesmophories* (*Bull. Acad. roy. de Belgique*, Classe des lettres, nov. 1908) | introduction et **28 notes** : vv. 16-18, 21, 22-24, 217, 230, 263, 280-281, 289-291, 352-354, 365-367, 400-401, 418-420, 499-501, 509-510, 531-532, 569, 575-576, 592-593, chœur 655-686, 656, 710-712, 773-774, 808-809, 811-812, 1019-1020, 1050-1051, 1052-1055, 1181 | ≈ 87 000 |
+| Autres textes de Willems | introduction aux notes sur la *Paix* (1899) ; note sur *Nuées* 83 ; « Le nu dans la Comédie ancienne des Grecs » (1901) ; note sur *Guêpes* 1341 | ≈ 60 000 |
+| Papyrus | PSI 1194, P. Oxy. 3839, 4935, 3840 : photographies et pages d'édition (figures), insérées à la place de leurs vers | ≈ 3 100 |
+| Iconographie | coupe d'Onésimos (Bâle BS 440, d'après Boardman ; cf. v. 557), ἔγκυκλον à franges pourpres, crocote transparente, cratère de Würzburg (égorgement de l'outre, vv. 754-757) | ≈ 1 400 |
+| Polémique | « Un commentaire du commentaire et son droit de réponse (ou la *Passion de Philologus*) » : les « Impressions » d'un lecteur (avril 2021) sur les « Nouvelles notes thesmophoriennes » que l'auteur avait publiées dans ὁ λύχνος (*Connaissance hellénique*), n° 158 (mars 2021), et la saynète satirique de l'auteur en réponse (personnages : Philologus, Bibi, Pluton, le fantôme d'Aristophane, chœur sur la *Passion selon saint Matthieu*) | ≈ 39 000 |
+
+Les notes de Willems sont celles auxquelles renvoie le commentaire (« note 4 », « 21ᵉ note », etc.) ;
+deux des leçons « Bibi » en dérivent directement (vv. 217, 710).
+
+### 9.3 Index (`Index.tex`, 441 lignes)
+
+Quatre index actifs, renvoyant au commentaire par plage de vers (« 49-50 n. 2 ») ; un « Index des
+auteurs cités » et un « Index général » sont commentés (ébauches vides).
+
+| Index | Entrées | Remarque |
+|---|---:|---|
+| Allusions proverbiales | 38 | 30 pour les *Thesmophories*, 8 pour d'autres pièces ; renvoi liminaire à la liste des proverbes de Platon dressée par Jowett |
+| Gloses d'Hésychius utiles pour l'établissement et la compréhension du texte | 18 | 14 pour les *Thesmophories*, 1 *Cav.*, 1 *Ois.*, 2 Eur. fr. 228 |
+| Corrections proposées | 41 | état de novembre 2022 (voir § 5.3-5.4) |
+| Passages davantage explicités | 60 | dont les grands dossiers (chant d'Agathon, monodie d'Andromède, chant ibycéen 1136-59, 1197-1216) |
 
 ## 10. Comparaison des versions
 

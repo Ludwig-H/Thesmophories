@@ -1,16 +1,36 @@
 #!/usr/bin/env python3
 """Comparaison des versions successives des travaux de l'auteur.
 
-Versions : « nov 2022 » (pièce entière), « Harmattan mars 2023 » (vv. 1-952),
+Versions : « nov 2022 » (pièce entière), « Harmattan mars 2023 » (vv. 1-946),
 « Harmattan 2023 » (deux fichiers, version de référence). Chaque version est extraite
 avec le même analyseur que `extraire_travaux.py`, puis on recense, pour chaque version
 ancienne, les commentaires, notes, entrées d'apparat et testimonia qui ne se retrouvent
-pas dans la version la plus récente (ni actifs, ni désactivés), ainsi que les
+pas dans la version la plus récente (ni actifs, ni désactivés, ni déplacés), ainsi que les
 différences de texte grec vers par vers.
+
+Méthode d'appariement (chaque élément ancien reçoit un statut) :
+- commentaires et notes : inclusion des trigrammes de mots de l'ancien texte dans le texte
+  récent le plus proche, cherché parmi les éléments du même type, puis de l'autre type (une
+  note peut avoir été intégrée au corps du commentaire, ou l'inverse), puis parmi les
+  éléments désactivés (lignes commentées « % ») ; les textes courts (moins de 12 mots) sont
+  cherchés tels quels (après normalisation) dans tout le texte récent ;
+- testimonia : signature (mots grecs et nombres, sans les abréviations latines, qui varient
+  d'une version à l'autre : « Gregorius Corinthius » / « Gregor. Corinth. ») comparée aux
+  testimonia du même passage (± 2 vers) ;
+- apparat : lemme de R (mots grecs de la première leçon) et autorités (noms propres, sigles)
+  comparés aux entrées des vers voisins (± 2) ; l'auteur abrège souvent en 2023 la leçon
+  corrigée (« δεχόμεσθα R : -μεθα Dindorf »), ce que la comparaison de mots ne voit pas ;
+- texte grec : comparaison vers par vers ; un vers présent sous un autre numéro (± 3) est
+  classé « numérotation différente » ; les différences sont qualifiées (ponctuation seule,
+  accentuation ou esprit seuls, découpage, mots).
+
+Statuts : conservé ; conservé (rédaction abrégée ou modifiée) ; remanié ; intégré au
+commentaire / mis en note ; désactivé (commenté) dans la version récente ; réécrit (même
+plage, texte largement nouveau) ; absent ; hors du champ de la version récente.
 
 Sorties (edition/donnees/travaux_anterieurs/) :
   comparaison_versions.json   détail complet
-  comparaison_versions.tsv    une ligne par élément absent/modifié
+  comparaison_versions.tsv    une ligne par élément non conservé à l'identique
 
 Usage : python3 outils/extraction/comparer_versions.py [--depot CHEMIN]
 """
@@ -34,12 +54,42 @@ VERSIONS = [
     ("mars2023", "Harmattan mars 2023", ["latex/Aristophane-Thesmo Harmattan mars 2023.tex"]),
     ("harmattan2023", "Harmattan 2023", FICHIERS_2023),
 ]
+CONSERVE_ABREGE = "conservé (rédaction abrégée ou modifiée)"
+
+
+# ---------------------------------------------------------------------------
+# Normalisation
+# ---------------------------------------------------------------------------
+
+def sans_diacritiques(s: str) -> str:
+    s = unicodedata.normalize("NFD", s or "")
+    return "".join(ch for ch in s if not unicodedata.combining(ch))
+
+
+def normaliser(s: str) -> str:
+    s = sans_diacritiques(s).lower().replace("ς", "σ")
+    s = re.sub(r"[’'ʼ᾽᾿`]", "'", s)
+    return re.sub(r"\s+", " ", s).strip()
 
 
 def mots(s: str) -> list:
-    s = unicodedata.normalize("NFD", s or "")
-    s = "".join(ch for ch in s if not unicodedata.combining(ch)).lower()
-    return re.findall(r"\w+", s)
+    return re.findall(r"\w+", normaliser(s))
+
+
+def mots_grecs(s: str, mini: int = 2) -> list:
+    return [m for m in re.findall(r"[Ͱ-Ͽἀ-῿]+", normaliser(s)) if len(m) >= mini]
+
+
+def nombres(s: str) -> list:
+    return re.findall(r"\d+[a-z]?", s or "")
+
+
+def noms_propres(s: str) -> set:
+    """Autorités et sigles : mots latins à majuscule initiale (Brunck, Suid, PSI…) ; R et M
+    avec leurs exposants sont ramenés à R et M."""
+    s = re.sub(r"\bR[ᵃᵖᶜ²\^()\w]*", "R ", s or "")
+    noms = set(re.findall(r"\b[A-Z][A-Za-zäöüéèëï\-]+|\bR\b|\bM\b|Σ", s))
+    return noms - {"Bibi"} | ({"Bibi"} if "Bibi" in s else set())
 
 
 def bardeaux(s: str, k: int = 3) -> set:
@@ -53,15 +103,19 @@ def inclusion(a: set, b: set) -> float:
     return len(a & b) / len(a) if a else 0.0
 
 
+def premier_vers(plage):
+    m = re.search(r"\d+", plage or "")
+    return int(m.group()) if m else None
+
+
 class Index:
-    """Index inversé de bardeaux pour retrouver rapidement le meilleur candidat."""
+    """Index inversé de trigrammes : meilleur candidat par inclusion de l'ancien texte."""
 
     def __init__(self, elements: list, cle_texte="texte"):
         self.el = elements
-        self.sh = [bardeaux(e.get(cle_texte, "")) for e in elements]
         self.inv = defaultdict(set)
-        for i, s in enumerate(self.sh):
-            for x in s:
+        for i, e in enumerate(elements):
+            for x in bardeaux(e.get(cle_texte, "")):
                 self.inv[x].add(i)
 
     def meilleur(self, texte: str):
@@ -78,8 +132,11 @@ class Index:
         return self.el[i], n / len(s)
 
 
+# ---------------------------------------------------------------------------
+# Collecte des éléments comparables d'une extraction
+# ---------------------------------------------------------------------------
+
 def collecter(res: dict) -> dict:
-    """Éléments comparables d'une extraction."""
     out = {"commentaire": [], "note": [], "apparat": [], "testimonia": [],
            "commentaire_desactive": [], "note_desactivee": [], "apparat_desactive": [],
            "testimonia_desactive": [], "grec": {}, "francais": {}}
@@ -91,6 +148,15 @@ def collecter(res: dict) -> dict:
                 for n in c["notes"]:
                     out["note"].append({"id": n["id"], "plage": c["plage"], "numero": n["numero"],
                                         "texte": n["texte"], "commentaire": c["id"], "groupe": g["id"]})
+                if c.get("desactive_interne"):
+                    out["commentaire_desactive"].append({
+                        "plage": c["plage"], "groupe": g["id"],
+                        "texte": " ".join(x["texte"] for x in c["desactive_interne"])})
+                for n in c["notes"]:
+                    if n.get("desactive_interne"):
+                        out["note_desactivee"].append({
+                            "plage": c["plage"], "groupe": g["id"],
+                            "texte": " ".join(x["texte"] for x in n["desactive_interne"])})
             for t in g[cote]["testimonia"]:
                 out["testimonia"].append({"id": t["id"], "plage": t["plage"], "texte": t["texte"],
                                           "cote": cote, "groupe": g["id"]})
@@ -102,107 +168,143 @@ def collecter(res: dict) -> dict:
                     if d["type"] == "commentaire" and d.get("args"):
                         txt = " ".join(d["args"][1:])
                     out[t].append({"plage": d["args"][0] if d.get("args") else "", "texte": txt,
-                                   "groupe": g["id"], "ligne_source": d["ligne_source"]})
+                                   "groupe": g["id"]})
         for a in g["grec"]["apparat"]:
             for sgm in a["segments"]:
                 for e in sgm["entrees"]:
+                    lem = e["lecons"][0]["lecon"] if e["lecons"] else ""
                     out["apparat"].append({"id": a["id"], "vers": sgm["vers"], "debut": sgm["debut"],
-                                           "texte": e["texte"], "groupe": g["id"]})
+                                           "texte": e["texte"], "lemme": lem, "groupe": g["id"]})
         for l in g["grec"]["lignes"]:
             if l["vers"] is not None:
                 out["grec"].setdefault(l["vers"], []).append(l["texte"])
         for l in g["francais"]["lignes"]:
             if l["vers"] is not None:
                 out["francais"].setdefault(l["vers"], []).append(l["texte"])
-    # les commentaires désactivés contiennent souvent des commentaires internes commentés
-    for g in res["groupes"]:
-        for cote in ("grec", "francais"):
-            for c in g[cote]["commentaires"]:
-                if c.get("desactive_interne"):
-                    out["commentaire_desactive"].append({
-                        "plage": c["plage"], "groupe": g["id"],
-                        "texte": " ".join(x["texte"] for x in c["desactive_interne"]),
-                        "ligne_source": c["desactive_interne"][0]["ligne"]})
-                for n in c["notes"]:
-                    if n.get("desactive_interne"):
-                        out["note_desactivee"].append({
-                            "plage": c["plage"], "groupe": g["id"],
-                            "texte": " ".join(x["texte"] for x in n["desactive_interne"]),
-                            "ligne_source": n["desactive_interne"][0]["ligne"]})
     return out
 
 
-def norm_grec(s: str) -> str:
-    s = unicodedata.normalize("NFC", s or "")
-    s = s.replace("'", "᾽").replace("’", "᾽").replace("ʼ", "᾽").replace("᾿", "᾽")
-    return re.sub(r"\s+", " ", s).strip()
+# ---------------------------------------------------------------------------
+# Comparaisons par type
+# ---------------------------------------------------------------------------
 
-
-def diff_mots(a: str, b: str) -> str:
-    wa, wb = a.split(), b.split()
-    sm = difflib.SequenceMatcher(None, wa, wb, autojunk=False)
-    parts = []
-    for op, i1, i2, j1, j2 in sm.get_opcodes():
-        if op == "equal":
+def comparer_textes(A, R, typ, autre, dans_plage, res):
+    """Commentaires et notes."""
+    idx_meme = Index(R[typ])
+    idx_autre = Index(R[autre])
+    des = "commentaire_desactive" if typ == "commentaire" else "note_desactivee"
+    idx_des = Index(R[des] + R["note_desactivee" if typ == "commentaire" else "commentaire_desactive"])
+    tout_recent = " | ".join(normaliser(x["texte"]) for k in (typ, autre, "commentaire_desactive",
+                                                              "note_desactivee") for x in R[k])
+    plages_recentes = defaultdict(list)
+    for x in R[typ]:
+        plages_recentes[re.sub(r"\W", "", x.get("plage", ""))].append(x)
+    st = Counter()
+    for e in A[typ]:
+        if not e["texte"].strip():
             continue
-        parts.append("%s → %s" % (" ".join(wa[i1:i2]) or "∅", " ".join(wb[j1:j2]) or "∅"))
-    return " ; ".join(parts)
-
-
-def comparer(ancien: dict, recent: dict, nom: str, plage_vers=None) -> dict:
-    A, R = collecter(ancien), collecter(recent)
-    res = {"version": nom, "elements": [], "stats": {}}
-    seuil = 0.6
-
-    def dans_plage(plage: str) -> bool:
-        if plage_vers is None:
-            return True
-        m = re.match(r"\D*(\d+)", plage or "")
-        return bool(m) and plage_vers[0] <= int(m.group(1)) <= plage_vers[1]
-
-    for typ, typ_des in (("commentaire", "commentaire_desactive"), ("note", "note_desactivee"),
-                         ("testimonia", "testimonia_desactive")):
-        idx_actif = Index(R[typ])
-        idx_des = Index(R[typ_des])
-        plages_recentes = defaultdict(list)
-        for x in R[typ]:
-            plages_recentes[re.sub(r"\W", "", x.get("plage", ""))].append(x)
-        st = Counter()
-        for e in A[typ]:
-            if not e["texte"].strip():
-                continue
-            m, sc = idx_actif.meilleur(e["texte"])
-            if sc >= 0.9:
-                st["conservé"] += 1
-                continue
-            if sc >= seuil:
-                st["remanié"] += 1
-                if typ != "testimonia" and sc < 0.75:
-                    res["elements"].append({"type": typ, "statut": "remanié", "plage": e["plage"],
-                                            "id_ancien": e["id"], "id_recent": m["id"], "score": round(sc, 2),
-                                            "extrait": e["texte"][:300]})
-                continue
-            md, scd = idx_des.meilleur(e["texte"])
-            if scd >= seuil:
-                st["désactivé"] += 1
-                res["elements"].append({"type": typ, "statut": "désactivé (commenté) dans la version récente",
-                                        "plage": e["plage"], "id_ancien": e["id"], "id_recent": None,
-                                        "score": round(scd, 2), "extrait": e["texte"][:300]})
-                continue
-            statut = "absent" if dans_plage(e["plage"]) else "hors du champ de la version récente"
-            meme = plages_recentes.get(re.sub(r"\W", "", e["plage"]))
-            if meme and typ == "commentaire":
-                statut = "réécrit (même plage, texte largement nouveau)"
-                m = meme[0]
-            elif m is not None and sc >= 0.3 and re.sub(r"\W", "", m.get("plage", "")) == re.sub(r"\W", "", e["plage"]):
-                statut = "réécrit (même plage, texte largement nouveau)"
+        m, sc = idx_meme.meilleur(e["texte"])
+        if sc >= 0.9:
+            st["conservé"] += 1
+            continue
+        if len(mots(e["texte"])) < 12 and normaliser(e["texte"]).strip(" .") in tout_recent:
+            st["conservé"] += 1
+            continue
+        m2, sc2 = idx_autre.meilleur(e["texte"])
+        if sc2 >= 0.6 and sc2 > sc:
+            statut = "intégré au commentaire" if typ == "note" else "mis en note"
             st[statut] += 1
             res["elements"].append({"type": typ, "statut": statut, "plage": e["plage"],
-                                    "id_ancien": e["id"], "id_recent": m["id"] if m else None,
-                                    "score": round(sc, 2), "longueur": len(e["texte"]),
-                                    "extrait": e["texte"][:600]})
-        res["stats"][typ] = dict(st)
-    # apparat : par vers (± 2) puis global
+                                    "id_ancien": e["id"], "id_recent": m2["id"], "score": round(sc2, 2),
+                                    "extrait": e["texte"][:300]})
+            continue
+        if sc >= 0.6:
+            st["remanié"] += 1
+            if sc < 0.75:
+                res["elements"].append({"type": typ, "statut": "remanié", "plage": e["plage"],
+                                        "id_ancien": e["id"], "id_recent": m["id"], "score": round(sc, 2),
+                                        "extrait": e["texte"][:300]})
+            continue
+        md, scd = idx_des.meilleur(e["texte"])
+        if scd >= 0.6:
+            st["désactivé"] += 1
+            res["elements"].append({"type": typ, "statut": "désactivé (commenté) dans la version récente",
+                                    "plage": e["plage"], "id_ancien": e["id"], "id_recent": None,
+                                    "score": round(scd, 2), "extrait": e["texte"][:300]})
+            continue
+        statut = "absent" if dans_plage(e["plage"]) else "hors du champ de la version récente"
+        meme = plages_recentes.get(re.sub(r"\W", "", e["plage"]))
+        if statut == "absent" and meme and typ == "commentaire":
+            statut, m = "réécrit (même plage, texte largement nouveau)", meme[0]
+        elif statut == "absent" and m is not None and sc >= 0.3 and \
+                re.sub(r"\W", "", m.get("plage", "")) == re.sub(r"\W", "", e["plage"]):
+            statut = "réécrit (même plage, texte largement nouveau)"
+        st[statut] += 1
+        res["elements"].append({"type": typ, "statut": statut, "plage": e["plage"],
+                                "id_ancien": e["id"], "id_recent": m["id"] if m else None,
+                                "score": round(max(sc, sc2), 2), "longueur": len(e["texte"]),
+                                "extrait": e["texte"][:600]})
+    res["stats"][typ] = dict(st)
+
+
+def signature_test(t: str) -> set:
+    return set(mots_grecs(t, 3)) | set(nombres(t))
+
+
+def comparer_testimonia(A, R, dans_plage, res):
+    par_vers = defaultdict(list)
+    for x in R["testimonia"]:
+        v = premier_vers(x["plage"])
+        if v is not None:
+            par_vers[v].append(x)
+    des_par_vers = defaultdict(list)
+    for x in R["testimonia_desactive"]:
+        v = premier_vers(x["plage"])
+        if v is not None:
+            des_par_vers[v].append(x)
+    st = Counter()
+    for e in A["testimonia"]:
+        if not e["texte"].strip():
+            continue
+        v = premier_vers(e["plage"])
+        sig = signature_test(e["texte"])
+        best, sc = None, 0.0
+        for d in range(-2, 3):
+            for c in par_vers.get((v or -99) + d, []):
+                x = inclusion(sig, signature_test(c["texte"]))
+                if x > sc:
+                    best, sc = c, x
+        if sc >= 0.7:
+            exact = inclusion(bardeaux(e["texte"]), bardeaux(best["texte"])) >= 0.9
+            st["conservé" if exact else CONSERVE_ABREGE] += 1
+            continue
+        bestd, scd = None, 0.0
+        for d in range(-2, 3):
+            for c in des_par_vers.get((v or -99) + d, []):
+                x = inclusion(sig, signature_test(c["texte"]))
+                if x > scd:
+                    bestd, scd = c, x
+        if sc >= 0.4 and sc >= scd:
+            st["remanié"] += 1
+            res["elements"].append({"type": "testimonia", "statut": "remanié", "plage": e["plage"],
+                                    "id_ancien": e["id"], "id_recent": best["id"], "score": round(sc, 2),
+                                    "extrait": e["texte"][:300], "recent": best["texte"][:300]})
+            continue
+        if scd >= 0.6:
+            st["désactivé"] += 1
+            res["elements"].append({"type": "testimonia", "statut": "désactivé (commenté) dans la version récente",
+                                    "plage": e["plage"], "id_ancien": e["id"], "id_recent": None,
+                                    "score": round(scd, 2), "extrait": e["texte"][:300]})
+            continue
+        statut = "absent" if dans_plage(e["plage"]) else "hors du champ de la version récente"
+        st[statut] += 1
+        res["elements"].append({"type": "testimonia", "statut": statut, "plage": e["plage"],
+                                "id_ancien": e["id"], "id_recent": best["id"] if best else None,
+                                "score": round(sc, 2), "extrait": e["texte"][:300]})
+    res["stats"]["testimonia"] = dict(st)
+
+
+def comparer_apparat(A, R, dans_plage, res):
     par_vers = defaultdict(list)
     for e in R["apparat"]:
         if e["debut"] is not None:
@@ -211,21 +313,29 @@ def comparer(ancien: dict, recent: dict, nom: str, plage_vers=None) -> dict:
     idx_tout = Index(R["apparat"])
     st = Counter()
     for e in A["apparat"]:
+        lem = set(mots_grecs(e["lemme"]))
+        aut = noms_propres(e["texte"]) - {"R"}
         cands = [x for d in range(-2, 3) for x in par_vers.get((e["debut"] or -99) + d, [])]
+        best, sc, detail = None, 0.0, ""
         sa = bardeaux(e["texte"], 2)
-        best, sc = None, 0.0
         for c in cands:
-            v = inclusion(sa, bardeaux(c["texte"], 2))
+            v_txt = inclusion(sa, bardeaux(c["texte"], 2))
+            l2 = set(mots_grecs(c["lemme"]))
+            v_lem = inclusion(lem, l2) if lem else (1.0 if not l2 else 0.0)
+            a2 = noms_propres(c["texte"]) - {"R"}
+            v_aut = inclusion(aut, a2) if aut else 1.0
+            v = max(v_txt, 0.5 * v_lem + 0.5 * v_aut if v_lem >= 0.5 else 0.0)
             if v > sc:
                 best, sc = c, v
+                detail = "texte" if v == v_txt else "lemme+autorités"
         if sc < 0.8:
             m, v = idx_tout.meilleur(e["texte"])
             if m is not None and v > sc and v >= 0.8:
-                best, sc = m, v
+                best, sc, detail = m, v, "texte (autre vers)"
         if sc >= 0.8:
-            st["conservé"] += 1
+            st["conservé" if detail.startswith("texte") else CONSERVE_ABREGE] += 1
             continue
-        if sc >= 0.4:
+        if sc >= 0.5:
             st["remanié"] += 1
             res["elements"].append({"type": "apparat", "statut": "remanié", "plage": e["vers"],
                                     "id_ancien": e["id"], "id_recent": best["id"], "score": round(sc, 2),
@@ -242,35 +352,120 @@ def comparer(ancien: dict, recent: dict, nom: str, plage_vers=None) -> dict:
         st[statut] += 1
         res["elements"].append({"type": "apparat", "statut": statut, "plage": e["vers"],
                                 "id_ancien": e["id"], "id_recent": best["id"] if best else None,
-                                "score": round(sc, 2), "extrait": e["texte"][:300]})
+                                "score": round(sc, 2), "extrait": e["texte"][:300],
+                                "recent": best["texte"][:300] if best else ""})
     res["stats"]["apparat"] = dict(st)
-    # texte grec
-    diffs = []
+
+
+def norm_grec(s: str) -> str:
+    s = unicodedata.normalize("NFC", s or "")
+    s = re.sub(r"[’'ʼ᾿]", "᾽", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def diff_mots(a: str, b: str) -> str:
+    wa, wb = a.split(), b.split()
+    sm = difflib.SequenceMatcher(None, wa, wb, autojunk=False)
+    parts = []
+    for op, i1, i2, j1, j2 in sm.get_opcodes():
+        if op == "equal":
+            continue
+        parts.append("%s → %s" % (" ".join(wa[i1:i2]) or "∅", " ".join(wb[j1:j2]) or "∅"))
+    return " ; ".join(parts)
+
+
+def nature_difference(a: str, b: str) -> str:
+    sa, sb = a.replace(" | ", " "), b.replace(" | ", " ")
+    if sa == sb:
+        return "découpage (antilabè/répartition)"
+    lettres = lambda s: re.sub(r"[^\w]", "", s)
+    if lettres(sa) == lettres(sb):
+        return "ponctuation"
+    if lettres(normaliser(sa)) == lettres(normaliser(sb)):
+        return "accentuation, esprit ou majuscule"
+    return "mots"
+
+
+def comparer_grec(A, R, plage_ancien, res):
+    diffs, renum = [], []
     communs = sorted(set(A["grec"]) & set(R["grec"]))
+    seulement_ancien = sorted(set(A["grec"]) - set(R["grec"]))
+    seulement_recent = sorted(set(R["grec"]) - set(A["grec"]))
+    if plage_ancien:
+        seulement_recent = [v for v in seulement_recent if plage_ancien[0] <= v <= plage_ancien[1]]
+    # vers numérotés différemment : même texte sous un numéro voisin
+    textes_r = {v: normaliser(" ".join(t)) for v, t in R["grec"].items()}
+    textes_a = {v: normaliser(" ".join(t)) for v, t in A["grec"].items()}
+    renum_a, renum_r = set(), set()
+    for v in seulement_ancien:
+        for d in (-1, 1, -2, 2, -3, 3):
+            w = v + d
+            if w in seulement_recent and w not in renum_r and \
+                    difflib.SequenceMatcher(None, textes_a[v], textes_r[w]).ratio() >= 0.9:
+                renum.append({"ancien": v, "recent": w, "texte": " | ".join(A["grec"][v])})
+                renum_a.add(v)
+                renum_r.add(w)
+                break
+    lettres = lambda s: re.sub(r"[^\w]", "", norm_grec(s))
+    absorbes = set()
     for v in communs:
         a = norm_grec(" | ".join(A["grec"][v]))
         b = norm_grec(" | ".join(R["grec"][v]))
-        if a != b:
-            sa, sb = a.replace(" | ", " "), b.replace(" | ", " ")
-            if sa == sb:
-                nature = "découpage (antilabè/répartition) seulement"
-            else:
-                nature = diff_mots(sa, sb)
-            diffs.append({"vers": v, "ancien": a, "recent": b, "differences": nature})
-            res["elements"].append({"type": "texte_grec", "statut": "différent", "plage": str(v),
+        if a == b:
+            continue
+        # lignes réparties autrement entre vers voisins (vers sur deux lignes, partie a/b
+        # rattachée au vers précédent ou suivant) : le texte des vv. v-1 à v+1 est identique
+        fen = [w for w in (v - 1, v, v + 1)]
+        ua = "".join(lettres(" ".join(A["grec"].get(w, []))) for w in fen)
+        ub = "".join(lettres(" ".join(R["grec"].get(w, []))) for w in fen)
+        if nature_difference(a, b) == "mots" and ua == ub:
+            nat = "répartition des lignes entre vers voisins"
+            absorbes.update(w for w in fen if w not in R["grec"] or w not in A["grec"])
+            diffs.append({"vers": v, "ancien": a, "recent": b, "nature": nat, "differences": ""})
+            res["elements"].append({"type": "texte_grec", "statut": "différent (%s)" % nat, "plage": str(v),
                                     "id_ancien": None, "id_recent": None, "score": None,
-                                    "extrait": nature[:300]})
-    seulement_ancien = sorted(set(A["grec"]) - set(R["grec"]))
-    seulement_recent = sorted(set(R["grec"]) - set(A["grec"]))
-    if plage_vers:
-        seulement_recent = [v for v in seulement_recent if plage_vers[0] <= v <= plage_vers[1]]
-    res["texte_grec"] = {"vers_communs": len(communs), "vers_differents": len(diffs),
-                         "seulement_ancien": seulement_ancien, "seulement_recent": seulement_recent,
-                         "differences": diffs}
+                                    "extrait": "%s ‖ %s" % (a[:140], b[:140])})
+            continue
+        nat = nature_difference(a, b)
+        detail = diff_mots(a.replace(" | ", " "), b.replace(" | ", " ")) if nat != "découpage (antilabè/répartition)" else ""
+        diffs.append({"vers": v, "ancien": a, "recent": b, "nature": nat, "differences": detail})
+        res["elements"].append({"type": "texte_grec", "statut": "différent (%s)" % nat, "plage": str(v),
+                                "id_ancien": None, "id_recent": None, "score": None,
+                                "extrait": (detail or nat)[:300]})
+    for r_ in renum:
+        res["elements"].append({"type": "texte_grec", "statut": "numérotation différente",
+                                "plage": "%d → %d" % (r_["ancien"], r_["recent"]), "id_ancien": None,
+                                "id_recent": None, "score": None, "extrait": r_["texte"][:300]})
+    res["texte_grec"] = {
+        "vers_communs": len(communs), "vers_differents": len(diffs),
+        "natures": dict(Counter(d["nature"] for d in diffs)),
+        "renumerotations": renum,
+        "seulement_ancien": [v for v in seulement_ancien if v not in renum_a and v not in absorbes],
+        "seulement_recent": [v for v in seulement_recent if v not in renum_r and v not in absorbes],
+        "differences": diffs}
     trad = sum(1 for v in set(A["francais"]) & set(R["francais"])
                if re.sub(r"\s+", " ", " ".join(A["francais"][v])) != re.sub(r"\s+", " ", " ".join(R["francais"][v])))
     res["stats"]["traduction_vers_modifies"] = trad
     res["stats"]["texte_grec_vers_differents"] = len(diffs)
+    res["stats"]["texte_grec_natures"] = dict(Counter(d["nature"] for d in diffs))
+    res["stats"]["texte_grec_renumerotations"] = len(renum)
+
+
+def comparer(ancien: dict, recent: dict, nom: str, plage_ancien=None, plage_recent=None) -> dict:
+    A, R = collecter(ancien), collecter(recent)
+    res = {"version": nom, "elements": [], "stats": {}}
+
+    def dans_plage(plage: str) -> bool:
+        if plage_recent is None:
+            return True
+        v = premier_vers(plage)
+        return v is None or plage_recent[0] <= v <= plage_recent[1]
+
+    comparer_textes(A, R, "commentaire", "note", dans_plage, res)
+    comparer_textes(A, R, "note", "commentaire", dans_plage, res)
+    comparer_testimonia(A, R, dans_plage, res)
+    comparer_apparat(A, R, dans_plage, res)
+    comparer_grec(A, R, plage_ancien, res)
     return res
 
 
@@ -284,7 +479,7 @@ def main():
     for cle, nom, fichiers in VERSIONS:
         extractions[cle] = extraire(a.depot, None, fichiers=fichiers, ecrire=False)
         s = extractions[cle]["statistiques"]
-        print("%-14s groupes %4d  lignes gr. %4d  vers %s-%s  commentaires %3d  notes %3d  apparats %3d"
+        print("%-20s groupes %4d  lignes gr. %4d  vers %s-%s  commentaires %3d  notes %3d  apparats %3d"
               % (nom, s["groupes"], s["lignes_grecques"], s["premier_vers"], s["dernier_vers"],
                  s["commentaires"], s["notes"], s["apparats"]))
     recent = extractions["harmattan2023"]
@@ -294,21 +489,23 @@ def main():
     for cle, nom, fichiers in VERSIONS[:-1]:
         s = extractions[cle]["statistiques"]
         plage = (s["premier_vers"], s["dernier_vers"])
-        c = comparer(extractions[cle], recent, nom, plage_vers=None)
+        r_plage = (recent["statistiques"]["premier_vers"], recent["statistiques"]["dernier_vers"])
+        c = comparer(extractions[cle], recent, nom, plage_ancien=plage, plage_recent=r_plage)
         c["plage_version"] = plage
         resultat["comparaisons"].append(c)
         print(nom, json.dumps(c["stats"], ensure_ascii=False))
-    # mars 2023 -> nov 2022 : ce qui a changé entre les deux premières versions (texte grec seulement)
     with open(os.path.join(sortie, "comparaison_versions.json"), "w", encoding="utf-8") as f:
         json.dump(resultat, f, ensure_ascii=False, indent=1)
     with open(os.path.join(sortie, "comparaison_versions.tsv"), "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
-        w.writerow(["version", "type", "statut", "plage", "id_ancien", "id_recent_proche", "score", "extrait"])
+        w.writerow(["version", "type", "statut", "plage", "id_ancien", "id_recent_proche", "score",
+                    "extrait", "recent"])
         for c in resultat["comparaisons"]:
             for e in c["elements"]:
                 w.writerow([c["version"], e["type"], e["statut"], e["plage"], e.get("id_ancien") or "",
                             e.get("id_recent") or "", "" if e.get("score") is None else e["score"],
-                            (e.get("extrait") or "").replace("\t", " ").replace("\n", " ¶ ")])
+                            (e.get("extrait") or "").replace("\t", " ").replace("\n", " ¶ "),
+                            (e.get("recent") or "").replace("\t", " ").replace("\n", " ¶ ")])
 
 
 if __name__ == "__main__":

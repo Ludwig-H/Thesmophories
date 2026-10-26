@@ -2,7 +2,7 @@
  "meta": {
   "titre": "Thesmophories — extraction des travaux antérieurs de l'auteur (Harmattan 2023)",
   "genere_par": "outils/extraction/extraire_travaux.py",
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "sources": [
    {
     "fichier": "latex/Aristophane-Thesmo Harmattan 2023 vv 1-641.tex",
@@ -38,7 +38,7 @@
   "caracteres_commentaires": 335689,
   "notes": 541,
   "apparats": 425,
-  "segments_apparat": 531,
+  "segments_apparat": 536,
   "lecons_Bibi": 42,
   "testimonia_grec": 71,
   "testimonia_francais": 173,
@@ -59,6 +59,7 @@
    "note_sans_debutNote": 14,
    "notes_ordre": 1,
    "note_plage": 2,
+   "apparat_numero_manuel": 5,
    "transposition": 1,
    "commentaire_sans_plage": 1,
    "alignement_lignes": 13,
@@ -72,8 +73,8 @@
    "numero_saut": 9
   },
   "controle_apparat_numerotation": {
-   "segments_verifies": 390,
-   "concordants": 388,
+   "segments_verifies": 398,
+   "concordants": 396,
    "decales": 2
   }
  },
@@ -16404,8 +16405,8 @@
         "vers": "134-5",
         "debut": 134,
         "fin": 135,
-        "latex": "νεανίσχ᾽ εἴ τις R : \\lecon{νεανίσκ᾽ εἴ τις} \\Mon : νεανίσχ᾽ ἥτις Gelenius \\espApp \\textbf{135} Λυκουργίας R : \\lecon{Λυκουργείας} Dindorf",
-        "texte": "νεανίσχ᾽ εἴ τις R : νεανίσκ᾽ εἴ τις M : νεανίσχ᾽ ἥτις Gelenius | 135 Λυκουργίας R : Λυκουργείας Dindorf",
+        "latex": "νεανίσχ᾽ εἴ τις R : \\lecon{νεανίσκ᾽ εἴ τις} \\Mon : νεανίσχ᾽ ἥτις Gelenius \\espApp",
+        "texte": "νεανίσχ᾽ εἴ τις R : νεανίσκ᾽ εἴ τις M : νεανίσχ᾽ ἥτις Gelenius |",
         "entrees": [
          {
           "latex": "νεανίσχ᾽ εἴ τις R : \\lecon{νεανίσκ᾽ εἴ τις} \\Mon : νεανίσχ᾽ ἥτις Gelenius",
@@ -16430,14 +16431,23 @@
             "retenue": false
            }
           ]
-         },
+         }
+        ]
+       },
+       {
+        "vers": "135",
+        "debut": 135,
+        "fin": 135,
+        "latex": "Λυκουργίας R : \\lecon{Λυκουργείας} Dindorf",
+        "texte": "Λυκουργίας R : Λυκουργείας Dindorf",
+        "entrees": [
          {
-          "latex": "\\textbf{135} Λυκουργίας R : \\lecon{Λυκουργείας} Dindorf",
-          "texte": "135 Λυκουργίας R : Λυκουργείας Dindorf",
+          "latex": "Λυκουργίας R : \\lecon{Λυκουργείας} Dindorf",
+          "texte": "Λυκουργίας R : Λυκουργείας Dindorf",
           "lecons": [
            {
-            "texte": "135 Λυκουργίας R",
-            "lecon": "135 Λυκουργίας",
+            "texte": "Λυκουργίας R",
+            "lecon": "Λυκουργίας",
             "attribution": "R",
             "retenue": false
            },
@@ -16449,7 +16459,8 @@
            }
           ]
          }
-        ]
+        ],
+        "separateur_manuel": true
        }
       ],
       "cote": "grec",
@@ -19935,8 +19946,8 @@
         "vers": "168-9",
         "debut": 168,
         "fin": 169,
-        "latex": "Φιλοκλῆς, Ξενοκλῆς R : \\lecon{Φιλοκλέης}, \\lecon{Ξενοκλέης} Bentley \\espApp \\textbf{169} \\lecon{ὁ δ᾽ αὖ} R : ὁ δὲ Brunck",
-        "texte": "Φιλοκλῆς, Ξενοκλῆς R : Φιλοκλέης, Ξενοκλέης Bentley | 169 ὁ δ᾽ αὖ R : ὁ δὲ Brunck",
+        "latex": "Φιλοκλῆς, Ξενοκλῆς R : \\lecon{Φιλοκλέης}, \\lecon{Ξενοκλέης} Bentley \\espApp",
+        "texte": "Φιλοκλῆς, Ξενοκλῆς R : Φιλοκλέης, Ξενοκλέης Bentley |",
         "entrees": [
          {
           "latex": "Φιλοκλῆς, Ξενοκλῆς R : \\lecon{Φιλοκλέης}, \\lecon{Ξενοκλέης} Bentley",
@@ -19955,14 +19966,23 @@
             "retenue": true
            }
           ]
-         },
+         }
+        ]
+       },
+       {
+        "vers": "169",
+        "debut": 169,
+        "fin": 169,
+        "latex": "\\lecon{ὁ δ᾽ αὖ} R : ὁ δὲ Brunck",
+        "texte": "ὁ δ᾽ αὖ R : ὁ δὲ Brunck",
+        "entrees": [
          {
-          "latex": "\\textbf{169} \\lecon{ὁ δ᾽ αὖ} R : ὁ δὲ Brunck",
-          "texte": "169 ὁ δ᾽ αὖ R : ὁ δὲ Brunck",
+          "latex": "\\lecon{ὁ δ᾽ αὖ} R : ὁ δὲ Brunck",
+          "texte": "ὁ δ᾽ αὖ R : ὁ δὲ Brunck",
           "lecons": [
            {
-            "texte": "169 ὁ δ᾽ αὖ R",
-            "lecon": "169 ὁ δ᾽ αὖ",
+            "texte": "ὁ δ᾽ αὖ R",
+            "lecon": "ὁ δ᾽ αὖ",
             "attribution": "R",
             "retenue": true
            },
@@ -19974,7 +19994,8 @@
            }
           ]
          }
-        ]
+        ],
+        "separateur_manuel": true
        }
       ],
       "cote": "grec",
@@ -21138,8 +21159,8 @@
         "vers": "178",
         "debut": 178,
         "fin": 178,
-        "latex": "οἷόν R : \\lecon{οἷός} Suid. σ 792, οι 154, Stob. III,35.3 \\espApp \\lecon{συντέμνειν} R, Suid. οι 154, Stob. : συντεμεῖν Suid. σ 792 \\espApp \\textbf{179} κοινῇ R, Suid. κ 2556, σ 792 : \\lecon{καινῇ} Biset ap. Σ",
-        "texte": "οἷόν R : οἷός Suid. σ 792, οι 154, Stob. III,35.3 | συντέμνειν R, Suid. οι 154, Stob. : συντεμεῖν Suid. σ 792 | 179 κοινῇ R, Suid. κ 2556, σ 792 : καινῇ Biset ap. Σ",
+        "latex": "οἷόν R : \\lecon{οἷός} Suid. σ 792, οι 154, Stob. III,35.3 \\espApp \\lecon{συντέμνειν} R, Suid. οι 154, Stob. : συντεμεῖν Suid. σ 792 \\espApp",
+        "texte": "οἷόν R : οἷός Suid. σ 792, οι 154, Stob. III,35.3 | συντέμνειν R, Suid. οι 154, Stob. : συντεμεῖν Suid. σ 792 |",
         "entrees": [
          {
           "latex": "οἷόν R : \\lecon{οἷός} Suid. σ 792, οι 154, Stob. III,35.3",
@@ -21176,14 +21197,23 @@
             "retenue": false
            }
           ]
-         },
+         }
+        ]
+       },
+       {
+        "vers": "179",
+        "debut": 179,
+        "fin": 179,
+        "latex": "κοινῇ R, Suid. κ 2556, σ 792 : \\lecon{καινῇ} Biset ap. Σ",
+        "texte": "κοινῇ R, Suid. κ 2556, σ 792 : καινῇ Biset ap. Σ",
+        "entrees": [
          {
-          "latex": "\\textbf{179} κοινῇ R, Suid. κ 2556, σ 792 : \\lecon{καινῇ} Biset ap. Σ",
-          "texte": "179 κοινῇ R, Suid. κ 2556, σ 792 : καινῇ Biset ap. Σ",
+          "latex": "κοινῇ R, Suid. κ 2556, σ 792 : \\lecon{καινῇ} Biset ap. Σ",
+          "texte": "κοινῇ R, Suid. κ 2556, σ 792 : καινῇ Biset ap. Σ",
           "lecons": [
            {
-            "texte": "179 κοινῇ R, Suid. κ 2556, σ 792",
-            "lecon": "179 κοινῇ R, Suid. κ 2556, σ",
+            "texte": "κοινῇ R, Suid. κ 2556, σ 792",
+            "lecon": "κοινῇ R, Suid. κ 2556, σ",
             "attribution": "792",
             "retenue": false
            },
@@ -21195,7 +21225,8 @@
            }
           ]
          }
-        ]
+        ],
+        "separateur_manuel": true
        }
       ],
       "cote": "grec",
@@ -62457,8 +62488,8 @@
         "vers": "580",
         "debut": 580,
         "fin": 580,
-        "latex": "σκοπεἴτε καὶ τηρεἴτε R : \\lecon{σκοπῆτε καὶ τηρῆτε} Biset \\espApp καὶ μὴ R : \\lecon{μὴ καὶ} Porson (\\italique{Aristophanica} p. 216) \\espApp \\textbf{581} ἡμῖν R : \\lecon{ὑμῖν} \\Mon \\espApp ἀφράκτοις R : \\lecon{ἀφάρκτοις} Dindorf (1830)",
-        "texte": "σκοπεἴτε καὶ τηρεἴτε R : σκοπῆτε καὶ τηρῆτε Biset | καὶ μὴ R : μὴ καὶ Porson (Aristophanica p. 216) | 581 ἡμῖν R : ὑμῖν M | ἀφράκτοις R : ἀφάρκτοις Dindorf (1830)",
+        "latex": "σκοπεἴτε καὶ τηρεἴτε R : \\lecon{σκοπῆτε καὶ τηρῆτε} Biset \\espApp καὶ μὴ R : \\lecon{μὴ καὶ} Porson (\\italique{Aristophanica} p. 216) \\espApp",
+        "texte": "σκοπεἴτε καὶ τηρεἴτε R : σκοπῆτε καὶ τηρῆτε Biset | καὶ μὴ R : μὴ καὶ Porson (Aristophanica p. 216) |",
         "entrees": [
          {
           "latex": "σκοπεἴτε καὶ τηρεἴτε R : \\lecon{σκοπῆτε καὶ τηρῆτε} Biset",
@@ -62495,14 +62526,23 @@
             "retenue": true
            }
           ]
-         },
+         }
+        ]
+       },
+       {
+        "vers": "581",
+        "debut": 581,
+        "fin": 581,
+        "latex": "ἡμῖν R : \\lecon{ὑμῖν} \\Mon \\espApp ἀφράκτοις R : \\lecon{ἀφάρκτοις} Dindorf (1830)",
+        "texte": "ἡμῖν R : ὑμῖν M | ἀφράκτοις R : ἀφάρκτοις Dindorf (1830)",
+        "entrees": [
          {
-          "latex": "\\textbf{581} ἡμῖν R : \\lecon{ὑμῖν} \\Mon",
-          "texte": "581 ἡμῖν R : ὑμῖν M",
+          "latex": "ἡμῖν R : \\lecon{ὑμῖν} \\Mon",
+          "texte": "ἡμῖν R : ὑμῖν M",
           "lecons": [
            {
-            "texte": "581 ἡμῖν R",
-            "lecon": "581 ἡμῖν",
+            "texte": "ἡμῖν R",
+            "lecon": "ἡμῖν",
             "attribution": "R",
             "retenue": false
            },
@@ -62532,7 +62572,8 @@
            }
           ]
          }
-        ]
+        ],
+        "separateur_manuel": true
        }
       ],
       "cote": "grec",
@@ -71945,12 +71986,12 @@
         "vers": "657",
         "debut": 657,
         "fin": 657,
-        "latex": "εἰσελήλυθεν R : \\lecon{ἐπελήλυθε} Handley \\textbf{658} ἀθρῆσαι R : \\lecon{διαθρῆσαι} Daubuz",
-        "texte": "εἰσελήλυθεν R : ἐπελήλυθε Handley 658 ἀθρῆσαι R : διαθρῆσαι Daubuz",
+        "latex": "εἰσελήλυθεν R : \\lecon{ἐπελήλυθε} Handley",
+        "texte": "εἰσελήλυθεν R : ἐπελήλυθε Handley",
         "entrees": [
          {
-          "latex": "εἰσελήλυθεν R : \\lecon{ἐπελήλυθε} Handley \\textbf{658} ἀθρῆσαι R : \\lecon{διαθρῆσαι} Daubuz",
-          "texte": "εἰσελήλυθεν R : ἐπελήλυθε Handley 658 ἀθρῆσαι R : διαθρῆσαι Daubuz",
+          "latex": "εἰσελήλυθεν R : \\lecon{ἐπελήλυθε} Handley",
+          "texte": "εἰσελήλυθεν R : ἐπελήλυθε Handley",
           "lecons": [
            {
             "texte": "εἰσελήλυθεν R",
@@ -71959,10 +72000,31 @@
             "retenue": false
            },
            {
-            "texte": "ἐπελήλυθε Handley 658 ἀθρῆσαι R",
+            "texte": "ἐπελήλυθε Handley",
             "lecon": "ἐπελήλυθε",
-            "attribution": "Handley 658 ἀθρῆσαι R",
+            "attribution": "Handley",
             "retenue": true
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "vers": "658",
+        "debut": 658,
+        "fin": 658,
+        "latex": "ἀθρῆσαι R : \\lecon{διαθρῆσαι} Daubuz",
+        "texte": "ἀθρῆσαι R : διαθρῆσαι Daubuz",
+        "entrees": [
+         {
+          "latex": "ἀθρῆσαι R : \\lecon{διαθρῆσαι} Daubuz",
+          "texte": "ἀθρῆσαι R : διαθρῆσαι Daubuz",
+          "lecons": [
+           {
+            "texte": "ἀθρῆσαι R",
+            "lecon": "ἀθρῆσαι",
+            "attribution": "R",
+            "retenue": false
            },
            {
             "texte": "διαθρῆσαι Daubuz",
@@ -71972,7 +72034,8 @@
            }
           ]
          }
-        ]
+        ],
+        "separateur_manuel": true
        }
       ],
       "cote": "grec",
@@ -108579,7 +108642,7 @@
     "lignes": [
      {
       "vers": 993,
-      "partie": "a",
+      "partie": "",
       "texte": "κατ᾽ ὄρεα νυμφᾶν ἐρατοῖς ἐν ὕμνοις,",
       "latex": "κατ᾽ ὄρεα νυμφᾶν ἐρατοῖς ἐν ὕμνοις,",
       "personnage": "Χορός",
@@ -108684,7 +108747,7 @@
     "lignes": [
      {
       "vers": 993,
-      "partie": "a",
+      "partie": "",
       "vers_fin": null,
       "texte": "et qui dans les montagnes, parmi les hymnes aimables des Nymphes,",
       "latex": "et qui dans les montagnes, parmi les hymnes \\fin aimables des Nymphes,",
@@ -108712,8 +108775,8 @@
    "fichier": "Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex",
    "etiquette": "v. 990-994 strophe g",
    "vers": [
-    993,
-    993
+    994,
+    994
    ],
    "personnages": [],
    "personnage_courant": "Χορός",
@@ -108732,8 +108795,8 @@
    "grec": {
     "lignes": [
      {
-      "vers": 993,
-      "partie": "b",
+      "vers": 994,
+      "partie": "a",
       "texte": "†εὔιον εὔιον εὐοῖ",
       "latex": "†εὔιον εὔιον εὐοῖ",
       "personnage": "Χορός",
@@ -108744,7 +108807,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "suite du vers précédent (déduit : \\ligne{994} plus loin)",
+      "methode_vers": "incrément",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "990",
@@ -108774,8 +108837,8 @@
     "personnages": [],
     "lignes": [
      {
-      "vers": 993,
-      "partie": "b",
+      "vers": 994,
+      "partie": "a",
       "vers_fin": null,
       "texte": "Évios ! Évios ! Évoé !",
       "latex": "Évios ! Évios ! Évoé !",
@@ -108824,7 +108887,7 @@
     "lignes": [
      {
       "vers": 994,
-      "partie": "",
+      "partie": "b",
       "texte": "< × ∪∪ ∪ > ἀναχορεύων.",
       "latex": "< $ \\times \\ \\widearc{\\cup \\cup} \\ \\cup $ > ἀναχορεύων.",
       "personnage": "Χορός",
@@ -108835,7 +108898,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "\\ligne explicite (répétition résolue en amont)",
+      "methode_vers": "suite du vers précédent (\\ligne{994} répète le numéro de la ligne précédente)",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "994",
@@ -108855,7 +108918,7 @@
     "lignes": [
      {
       "vers": 994,
-      "partie": "",
+      "partie": "b",
       "vers_fin": null,
       "texte": "te livres à la danse.",
       "latex": "te livres à la danse.",
@@ -139114,6 +139177,51 @@
    "fichier": "Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex",
    "ligne_source": 5138,
    "message": "Commentaire C0343 (1175) : appels répétés 1,2,2,3"
+  },
+  {
+   "code": "apparat_numero_manuel",
+   "gravite": "mineure",
+   "groupe": "G0103",
+   "vers": 135,
+   "fichier": null,
+   "ligne_source": 1559,
+   "message": "Apparat A0043 (134-5) : numéro de vers « 135 » saisi en gras (\\textbf) au lieu de \\ligneApp ; segment découpé comme un \\ligneApp"
+  },
+  {
+   "code": "apparat_numero_manuel",
+   "gravite": "mineure",
+   "groupe": "G0111",
+   "vers": 169,
+   "fichier": null,
+   "ligne_source": 1775,
+   "message": "Apparat A0048 (168-9) : numéro de vers « 169 » saisi en gras (\\textbf) au lieu de \\ligneApp ; segment découpé comme un \\ligneApp"
+  },
+  {
+   "code": "apparat_numero_manuel",
+   "gravite": "mineure",
+   "groupe": "G0118",
+   "vers": 179,
+   "fichier": null,
+   "ligne_source": 1858,
+   "message": "Apparat A0051 (178) : numéro de vers « 179 » saisi en gras (\\textbf) au lieu de \\ligneApp ; segment découpé comme un \\ligneApp"
+  },
+  {
+   "code": "apparat_numero_manuel",
+   "gravite": "mineure",
+   "groupe": "G0329",
+   "vers": 581,
+   "fichier": null,
+   "ligne_source": 4270,
+   "message": "Apparat A0178 (580) : numéro de vers « 581 » saisi en gras (\\textbf) au lieu de \\ligneApp ; segment découpé comme un \\ligneApp"
+  },
+  {
+   "code": "apparat_numero_manuel",
+   "gravite": "mineure",
+   "groupe": "G0389",
+   "vers": 658,
+   "fichier": null,
+   "ligne_source": 693,
+   "message": "Apparat A0211 (657) : numéro de vers « 658 » saisi en gras (\\textbf) au lieu de \\ligneApp ; segment découpé comme un \\ligneApp"
   },
   {
    "code": "transposition",

@@ -34,7 +34,7 @@
   BoldFont=EBGaramond-SemiBold, Numbers=OldStyle, RawFeature={fallback=thesmofb}]{EB Garamond}
 \babelfont[ancientgreek]{sf}[Extension=.ttf, UprightFont=Cardo-Regular, ItalicFont=Cardo-Italic,
   BoldFont=Cardo-Bold, RawFeature={fallback=thesmofb}]{Cardo}
-\newfontfamily\thesmo@metfont{Cardo}[Extension=.ttf, UprightFont=Cardo-Regular]
+\newfontfamily\thesmo@metfont{Cardo}[Extension=.ttf, UprightFont=Cardo-Regular, LetterSpace=7]
 \newfontfamily\thesmo@grcaps{GFS Porson}[Scale=0.93, LetterSpace=12]
 \newcommand\diplofont{\sffamily}
 \newcommand\metfont{\thesmo@metfont}
@@ -508,10 +508,14 @@
     met .initial:n = {},
     metre .tl_set:N = \l_thesmo_metre_tl,
     metre .initial:n = {},
+    colon .tl_set:N = \l_thesmo_colon_tl,
+    colon .initial:n = {},
     shownum .bool_set:N = \l_thesmo_shownum_bool,
     shownum .default:n = true,
     shownum .initial:n = false,
   }
+\dim_new:N \l_thesmo_colw_dim
+\dim_set:Nn \l_thesmo_colw_dim { 11mm }
 \dim_new:N \g_thesmo_prevG_dim
 \dim_new:N \g_thesmo_prevF_dim
 \box_new:N \l_thesmo_meas_box
@@ -552,15 +556,23 @@
         \noindent
         \hbox_to_wd:nn { \l_thesmo_spkG_dim } { \capsgr { \footnotesize #2 } \hfil }
         \hbox_overlap_left:n
-          { \tl_if_empty:NF \l_thesmo_metre_tl { \footnotesize\itshape\color{gris} \l_thesmo_metre_tl \hspace{\l_thesmo_spkG_dim + 3mm} } }
+          {
+            \tl_if_empty:NF \l_thesmo_metre_tl
+              { \footnotesize\itshape\color{gris} \l_thesmo_metre_tl \skip_horizontal:n { \l_thesmo_spkG_dim + 2.5mm } }
+          }
         \vtop
           {
             \hsize = \dim_eval:n { \textwidth - \l_thesmo_spkG_dim - \l_thesmo_num_dim }
             \rightskip = 0pt plus 1fil
             \hangindent = 2em \hangafter = 1
             \noindent \strut \hspace*{\l_thesmo_vindent_dim} #4
-            \tl_if_empty:NF \l_thesmo_met_tl
-              { \hfill { \metfont \fontsize{8}{10}\selectfont \color{gris} \l_thesmo_met_tl } \hspace*{2mm} }
+            \bool_if:nT { ! \tl_if_empty_p:N \l_thesmo_met_tl || ! \tl_if_empty_p:N \l_thesmo_colon_tl }
+              {
+                \hfill
+                { \metfont \fontsize{8}{10}\selectfont \color{gris} \l_thesmo_met_tl }
+                \hbox_to_wd:nn { \l_thesmo_colw_dim }
+                  { \skip_horizontal:n { 1.6mm } { \fontsize{7.5}{10}\selectfont \color{gris} \l_thesmo_colon_tl } \hfil }
+              }
             \strut
           }
         \hbox_to_wd:nn { \l_thesmo_num_dim } { \hfil { \footnotesize \color{gris} \l_thesmo_numshow_tl } }

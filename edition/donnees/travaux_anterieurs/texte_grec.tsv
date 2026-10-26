@@ -1115,9 +1115,9 @@ vers	partie	vers_fin	personnage	texte	groupe	type	metre	n_reledmac	vers_HG	metho
 990			Χορός	†εὔιον ὦ Διόνυσε	G0582	chantChoeur	aristoph.	990	990	\ligne explicite	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3341
 991			Χορός	Βρόμιε καὶ Σεμέλας παῖ,	G0583	chantChoeur	pherecr.	991	991	incrément	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3348
 992			Χορός	χοροῖς τερπόμενος	G0584	chantChoeur	hexasyll. aeol.	992	992	incrément	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3352
-993	a		Χορός	κατ᾽ ὄρεα νυμφᾶν ἐρατοῖς ἐν ὕμνοις,	G0585	chantChoeur	ia. + arist.	993	993	incrément	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3356
-993	b		Χορός	†εὔιον εὔιον εὐοῖ	G0586	chantChoeur	2 iamb^	994	990	suite du vers précédent (déduit : \ligne{994} plus loin)	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3362
-994			Χορός	< × ∪∪ ∪ > ἀναχορεύων.	G0587	chantChoeur	2 iamb^	994	994	\ligne explicite (répétition résolue en amont)	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3369
+993			Χορός	κατ᾽ ὄρεα νυμφᾶν ἐρατοῖς ἐν ὕμνοις,	G0585	chantChoeur	ia. + arist.	993	993	incrément	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3356
+994	a		Χορός	†εὔιον εὔιον εὐοῖ	G0586	chantChoeur	2 iamb^	994	990	incrément	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3362
+994	b		Χορός	< × ∪∪ ∪ > ἀναχορεύων.	G0587	chantChoeur	2 iamb^	994	994	suite du vers précédent (\ligne{994} répète le numéro de la ligne précédente)	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3369
 995			Χορός	ἀμφὶ δὲ σοὶ κτυπεῖται	G0588	chantChoeur	aristoph.	995	995	incrément	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3373
 996			Χορός	Κιθαιρώνιος ἠχώ,	G0589	chantChoeur	pherecr.	996	996	incrément	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3378
 997			Χορός	μελάμφυλλά τ᾽ ὄρη	G0590	chantChoeur	hexasyll. aeol.	997	997	incrément	Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex	3382

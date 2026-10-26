@@ -274,6 +274,7 @@ class Parcours:
 # ---------------------------------------------------------------------------
 
 RE_GROUPE_DEBUT = re.compile(r"\\begin\{groupe\}")
+RE_NUM_VERS = re.compile(r"\s*\d{1,4}[a-z]?(?:\s*[-–]\s*\d{1,4}[a-z]?)?\s*")
 RE_GROUPE_FIN = re.compile(r"\\end\{groupe\}")
 RE_ETIQ = re.compile(r"^\s*%{2,}\s*(v\.?\s*.*?)\s*$")
 
@@ -412,6 +413,12 @@ class Extracteur:
             if nd.type == "cmd" and nd.nom == "ligneApp":
                 segs.append(courant)
                 courant = {"vers": self.texte(nd.args[0]) if nd.args else "?", "noeuds": []}
+            elif nd.type == "cmd" and nd.nom == "textbf" and nd.args and \
+                    RE_NUM_VERS.fullmatch(self.texte(nd.args[0])):
+                # numéro de vers saisi à la main en gras au lieu de \ligneApp (vv. 135, 169,
+                # 179, 581, 658) : même valeur de séparateur
+                segs.append(courant)
+                courant = {"vers": self.texte(nd.args[0]).strip(), "noeuds": [], "manuel": True}
             else:
                 courant["noeuds"].append(nd)
         segs.append(courant)
@@ -434,9 +441,12 @@ class Extracteur:
                     continue
                 ents.append(self.entree_apparat(e))
             d1, d2 = plage_vers(s["vers"])
-            res.append({"vers": s["vers"], "debut": d1, "fin": d2,
-                        "latex": self.latex(s["noeuds"]).strip(),
-                        "texte": self.texte(s["noeuds"]), "entrees": ents})
+            seg = {"vers": s["vers"], "debut": d1, "fin": d2,
+                   "latex": self.latex(s["noeuds"]).strip(),
+                   "texte": self.texte(s["noeuds"]), "entrees": ents}
+            if s.get("manuel"):
+                seg["separateur_manuel"] = True
+            res.append(seg)
         return res
 
     def entree_apparat(self, noeuds: list) -> dict:
@@ -868,12 +878,20 @@ def attribuer_vers_grec(lignes: list, anomalies: list, hg: ReferenceHG | None, s
                 hs = hg_suffixe(L)
                 e_etq = etq[0] if etq else None
                 prec_L = next((M for M in reversed(lignes[:i]) if M.get("vers") is not None), None)
+                hp = hg_base(prec_L) if prec_L is not None else None
                 if hs and hb == prec_vers:
                     v, cont = prec_vers, True
                     methode = "suite du vers précédent (\\ligne répété ; HG %s)" % L["HG"]["n"]
                 elif prec_L is not None and preuve_apparat(prec_L) == prec_vers and e_app in (None, prec_vers):
                     v, cont = prec_vers, True
                     methode = "suite du vers précédent (\\ligne répété ; l'apparat confirme le vers précédent)"
+                elif expl == prec_vers and prec_L is not None and hp in (None, expl) \
+                        and not hg_suffixe(prec_L) and hb != prec_vers + 1 and e_app != prec_vers + 1 \
+                        and prec_L["methode"].startswith("incrément"):
+                    # \ligne{n} répète le numéro que la ligne précédente porte déjà (reledmac et
+                    # intention de l'auteur) : seconde partie du même vers (ex. v. 994)
+                    v, cont = prec_vers, True
+                    methode = "suite du vers précédent (\\ligne{%d} répète le numéro de la ligne précédente)" % expl
                 elif (hg_base(L, strict=True) == expl and not hs) or (e_etq == expl):
                     # le numéro explicite est juste : une ligne précédente partage un vers
                     k = prec_vers - expl + 1
@@ -1395,6 +1413,13 @@ def extraire(depot: str, sortie: str | None, fichiers=None, ecrire=True):
                 continue
             lb._L["apres_vide"] = apres_vide
             apres_vide = False
+    for app in apparats_all:
+        for seg in app["segments"]:
+            if seg.get("separateur_manuel"):
+                anomalie("apparat_numero_manuel", "mineure",
+                         "Apparat %s (%s) : numéro de vers « %s » saisi en gras (\\textbf) au lieu de "
+                         "\\ligneApp ; segment découpé comme un \\ligneApp" % (app["id"], app["plage"], seg["vers"]),
+                         groupe=app["groupe"], vers=seg["debut"], ligne=app["ligne_source"])
     preuves_apparat(lignes_g_all, apparats_all)
     supprimes = vers_supprimes(apparats_all)
     attribuer_vers_grec(lignes_g_all, anomalies, hg, supprimes)
