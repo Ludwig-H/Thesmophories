@@ -906,14 +906,22 @@
 \box_new:N \g_thesmo_par_box
 \box_new:N \g_thesmo_crit_box
 \tl_new:N \l_thesmo_bottomsize_tl \tl_set:Nn \l_thesmo_bottomsize_tl {\fontsize{8.2}{10.1}\selectfont}
+%% registre avec intitulé, seulement s'il a un contenu
+\cs_new_protected:Npn \thesmo_registre:Nnnn #1#2#3#4 % boîte, intitulé, réglages, contenu
+  {
+    \vbox_set:Nn \l_thesmo_tmp_box { \hsize = \l_thesmo_commcol_dim \l_thesmo_bottomsize_tl #3 #4 \par }
+    \dim_compare:nNnTF { \box_ht:N \l_thesmo_tmp_box + \box_dp:N \l_thesmo_tmp_box } > { 1pt }
+      {
+        \vbox_gset:Nn #1
+          { \hsize = \l_thesmo_commcol_dim \l_thesmo_bottomsize_tl
+            \noindent \petcap{#2} \par \vspace{1pt} \vbox_unpack_drop:N \l_thesmo_tmp_box }
+      }
+      { \box_gclear:N #1 }
+  }
 \NewDocumentEnvironment{paralleles}{ +b }
-  { \vbox_gset:Nn \g_thesmo_par_box
-      { \hsize = \l_thesmo_commcol_dim \l_thesmo_bottomsize_tl \raggedright
-        \noindent \petcap{loci~paralleli} \par \vspace{1pt} #1 \par } } {}
+  { \thesmo_registre:Nnnn \g_thesmo_par_box { loci~paralleli } { \raggedright } {#1} } {}
 \NewDocumentEnvironment{critique}{ +b }
-  { \vbox_gset:Nn \g_thesmo_crit_box
-      { \hsize = \l_thesmo_commcol_dim \l_thesmo_bottomsize_tl
-        \noindent \petcap{commentaire~critique} \par \vspace{1pt} #1 \par } } {}
+  { \thesmo_registre:Nnnn \g_thesmo_crit_box { commentaire~critique } { } {#1} } {}
 \NewDocumentCommand \lp { m +m } { \noindent \textbf{#1}\nobreakspace #2 \par \vspace{1.5pt} }
 %% \cc : les notes \nc de l'article sont composées à sa fin, comme pour \comm
 \NewDocumentCommand \cc { m m +m }
