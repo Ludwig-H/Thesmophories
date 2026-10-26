@@ -2,7 +2,7 @@
 
 *Ravenne, Biblioteca Classense, ms. 429 (olim 137, 4, A). Aristophane, onze comédies avec scholies ; *Thesmophories* aux ff. 162v–177r (vv. 1–1231).*
 
-> **Statut** : dossier de travail, en cours (première rédaction : 25 oct. 2026 ; reprise après interruption : 26 oct. 2026, §§ 14–15 et compléments en cours). Chaque affirmation est suivie de sa source, au format `Auteur année, page` ; les sigles des sources sont développés au § 16, avec le chemin du fichier local quand il existe. Les points marqués **[image]** sont repris dans la liste du § 15 ; **[à vérifier]** signale une donnée que je n'ai pas pu contrôler sur une source primaire. Les travaux de l'assistant précédent (`dossier_ravennas_thesmophories/*.md|tex`) n'ont pas été utilisés comme autorité.
+> **Statut** : dossier de travail, en cours (première rédaction : 25 oct. 2026 ; reprises après interruption : 26 oct. 2026, à trois reprises ; § 14 achevé à la troisième reprise — en cours : § 15 liste détaillée, vérification des points **[à vérifier]**, compléments sur les collations). Chaque affirmation est suivie de sa source, au format `Auteur année, page` ; les sigles des sources sont développés au § 16, avec le chemin du fichier local quand il existe. Les points marqués **[image]** sont repris dans la liste du § 15 ; **[à vérifier]** signale une donnée que je n'ai pas pu contrôler sur une source primaire. Les travaux de l'assistant précédent (`dossier_ravennas_thesmophories/*.md|tex`) n'ont pas été utilisés comme autorité.
 
 ## Sommaire
 
@@ -83,6 +83,7 @@
 | van Leeuwen 1904 et 1908 | « exeunte saeculo X° aut ineunte XI° » | van Leeuwen 1908, 270 ; compte rendu anonyme du fac-similé : JHS 1904, 168 |
 | White 1906 | XIe s. (liste des manuscrits) | White 1906, I, 16 |
 | Coulon 1928 | « saec. X » | Coulon 1928, sigla |
+| Irigoin 1962 | aucun des beaux manuscrits de poètes conservés « n'est antérieur au milieu du Xe siècle, ni le Laurentianus 32,9 …, ni le Ravennas 429 (olim 137 4 A) d'Aristophane, ni surtout le Venetus A de l'Iliade, qui est le plus récent des trois » | Irigoin 1962, 301 |
 | Koster 1963 | « le Ravennas du xe siècle ou du début du siècle suivant » | Koster 1963, 391 |
 | Prato 2001 | « circa IX–X sec. » | Prato 2001, xxxi |
 | Wilson 2007 | « from the middle of the tenth century » | Wilson 2007, I, v |
@@ -104,8 +105,9 @@ Ce que donne la paléographie :
 
 - **Aucune des sources lues ne localise explicitement la copie.**
   - Orsini place R dans le contexte de la « Rinascenza macedone » (Orsini 2011, 321, avec renvoi à Irigoin 1962, 301). Il le compare à des manuscrits datés, Marc. gr. 201 et Vat. gr. 1591, dont je n'ai pas vérifié la localisation.
+  - Irigoin cite R dans un article sur la renaissance byzantine à Constantinople. Il l'y range seulement parmi les manuscrits de poètes « postérieurs au milieu du Xe siècle », avec le Laur. 32.9 et le Venetus A de l'Iliade, sans lui assigner de lieu de copie (Irigoin 1962, 301 ; texte lu sur Persée).
   - Clark imaginait un riche monastère de l'époque macédonienne, par pure conjecture (Clark 1871, 155).
-  - L'hypothèse usuelle d'une origine constantinopolitaine reste donc à documenter **[à vérifier : Irigoin 1962 ; Wilson, *Scholars of Byzantium*, 1983, 137 ; Mioni 1964]**.
+  - L'hypothèse usuelle d'une origine constantinopolitaine n'est donc démontrée par aucune des sources lues. Restent à consulter Wilson, *Scholars of Byzantium*, 1983, 137, et Mioni 1964, 363–364 **[à vérifier]**.
 
 ## 3. Écriture du texte ; manuscrits comparables
 
@@ -116,8 +118,8 @@ Ce que donne la paléographie :
 - **Martin 1882, xiii.**
   - Écriture « au-dessous de la ligne à la pointe sèche » ; Allen dit aussi « the writing is below the line » (Allen 1896, 301).
   - Esprits souvent anguleux, mais formes arrondies fréquentes.
-  - Formes onciales fréquentes de Γ (?), Η, Κ, Λ, Ν. Pour le Γ, l'OCR donne « I » ; lecture à contrôler sur l'imprimé.
-  - Apostrophe après οὐκ (« οὐκ' »), habitude que le copiste reproduit sans la comprendre. Ce détail compte pour la transcription diplomatique.
+  - Formes onciales fréquentes de Γ, Η, Κ, Λ, Ν (liste lue sur l'imprimé, Martin 1882, xiii).
+  - Apostrophe après οὐκ (« οὐκ' »), habitude que le copiste reproduit sans la comprendre ; autre exemple, rare : Grenouilles 7 μόνον' (Martin 1882, xiii). Ce détail compte pour la transcription diplomatique.
 - **Changements d'encre et de plume.**
   - Au début des Grenouilles (f. 33/34), l'écriture devient « kräftigerer grösserer dickerer » (Zacher 1888, 533).
   - Nouvelle encre et nouvelle plume aux ff. 117r et 143r (Zacher 1888, 533 et 535).
@@ -206,7 +208,7 @@ Divergences sur ces mains :
 | Clark 1871 | — | au moins trois correcteurs : « a tremulous hand of nearly the same date as the MS. itself » ; une main à l'encre plus noire, du XIVe ou du début du XVe s., surtout dans les Nuées ; « one if not two still later in the Lysistrate and Thesmophoriazusae » (Clark 1871, 154), à l'encre rougeâtre, la seconde imitant la première (Clark 1871, 159–160) |
 | Allen 1896 | T, A, B | T : texte. A et B : les deux scholiastes, qui corrigent chacun la partie qu'ils annotent (Allen 1896, 311–322) |
 | Orsini 2011 | S1, S2 (et une 3e main) | voir § 4 |
-| Coulon 1928 | R¹, R² (l'OCR local ne distingue pas les exposants) | définitions à lire dans la préface de son t. I **[à vérifier]** |
+| Coulon 1928 | R¹, R² (l'OCR local ne distingue pas les exposants) | Les *sigla* du t. IV donnent seulement « R = Ravennas 137, 4 A. saec. X » et renvoient pour le reste à la préface du t. I (Coulon 1928, sigla). Ce t. I (CUF, 1923) est sur le Drive et attend son téléchargement par le chantier Drive **[à vérifier]** |
 
 Conséquence pratique : un « R² » de Velsen (la main des scholies) est un R² de Martin dans les *Thesmophories*, puisque S2 y annote. En revanche, le « R¹ » de Martin englobe S1, qui est absent de la pièce, alors que le R¹ de Velsen est le copiste seul. Dans notre apparat, il faudra définir les sigles par la main, sans les reprendre tels quels d'un éditeur.
 
@@ -261,7 +263,8 @@ Allen précise que la liste n'est pas exhaustive.
   - Ses ajouts au texte sont en minuscule « very large, sloped to the right, fine » (Allen 1896, 320).
   - Préfixe κεί(μενον) (Allen 1896, 322).
   - Sigles de personnages souvent abrégés d'une façon inutilisable pour l'imprimeur (Velsen 1871, 8).
-  - Il emploie des sigles comme μνη(σίλοχος) : Velsen 1883 note « add. R² » aux vv. 33, 39 (θερά(πων)) et 45 (μνη), selon l'apparatus *scripturae discrepantia*, pp. 9–11 ; l'OCR est à contrôler **[à vérifier sur l'imprimé]**.
+  - Il ajoute des sigles abrégés. Velsen 1883, 11 (*scripturae discrepantia*, lu sur l'imprimé) : au v. 33, vers suppléé en marge par R² avec le sigle « M » ; au v. 39, θερά^π add. R² ; au v. 45, μνησι^λο R² et εὐ^ρ add. R² ; au v. 46, Θερ. add. R².
+  - Velsen note aussi, pour chaque réplique, la marque laissée par T : « — » (paragraphos), « : » (dicolon) ou « om. » (aucune marque). Il signale des sigles grattés : v. 25 « erasa est nota personae in R », de même au v. 34 (Velsen 1883, 10–11).
 - **R³ de Velsen 1883** (« paullo recentior »). Velsen ne donne pas de critère. Martin situe son R³ au XIIIe s. et son R⁴ au XVe s. (Martin 1882, xiv). Le « tremulous hand » de Clark est presque contemporain ; sa main « blacker ink » date du XIVe ou du XVe s. et intervient surtout dans les Nuées (Clark 1871, 154). Rien ne permet encore de dire si l'une de ces mains intervient dans les *Thesmophories* **[image]**.
 - **Main(s) du XVIe siècle** (« 2 m. » de Velsen, attribuée à Boninus).
   - Écriture beaucoup plus petite, encre beaucoup plus pâle (Velsen 1871, 7) ; Clark parle d'une encre « reddish » (Clark 1871, 160).
@@ -302,7 +305,7 @@ Allen précise que la liste n'est pas exhaustive.
   - Velsen pense que R est resté à Florence chez les Giunta jusqu'en 1525, puisque cette édition est corrigée sur R en plusieurs endroits. Il renvoie à Reisig et à Dindorf, *praef.* de l'édition d'Oxford, p. xiii (Velsen 1871, 52).
   - White admet que les scholies de Paix 948–1011 dérivent de R ou d'un proche parent. Il juge pourtant « highly improbable » que R ait été entre les mains de Francinus : l'édition de 1525 ne contient ni les *Thesmophories* ni la *Lysistrata*. Selon lui, Boninus aurait gardé le manuscrit à Pise (White 1906, II, 256–257).
   - Prato suit Velsen : le manuscrit serait resté à Florence jusqu'en 1525, puis retourné à Pise (Prato 2001, xxxiv–xxxv).
-- **Grynaeus 1532.** Prato affirme que Grynaeus a utilisé « qua e là, per le Tesmoforiazuse, il codice su cui era stata condotta la Iuntina » (Prato 2001, xxxiii). Aucune autre source ne le confirme **[à vérifier]**.
+- **Grynaeus 1532.** Prato affirme que Grynaeus a utilisé « qua e là, per le Tesmoforiazuse, il codice su cui era stata condotta la Iuntina » (Prato 2001, xxxiii). Aucune autre source consultée ne le confirme. Austin, qui a dépouillé les éditions anciennes, traite les leçons de l'édition de Bâle de 1532 (Cratander) et de ses successeurs comme des conjectures. Il crédite ainsi l'édition de 1532 (p. 439) de τὸν δῆμον τὸν Ἀθηναίων au v. 307, leçon jusque-là attribuée à Dindorf (Austin 1987, 67 n. 4, 68–69 et 76–77) **[à vérifier : collation de l'édition de 1532 sur R]**.
 
 ## 7. Histoire du manuscrit
 
@@ -389,7 +392,7 @@ Allen précise que la liste n'est pas exhaustive.
   - Humidité, surtout dans les marges, donc dans les scholies (Martin 1882, x ; Bekker 1829, vi : « margine passim detrita aut madore corrupta » ; Velsen 1883, 5 ; van Leeuwen 1908, 270 : « sordibus et magis etiam madore multae paginae sunt deturpatae »).
   - Les premiers feuillets sont usés au point que des parties de vers ont disparu, ce qui explique la remarque de Giunta (Velsen 1871, 6 ; Zacher 1888, 529 n. 1).
   - Au f. 162v, le v. 28 « has perished, and been partly revived » (Allen 1896, 316). La formule suggère l'usage d'un réactif chimique **[image]**.
-- **Reliure et couture.** Le cahier 19 a été recousu avec du fil moderne (Allen 1896, 310). Je n'ai pas trouvé de date de reliure dans les sources consultées **[à vérifier]**.
+- **Reliure et couture.** Le cahier 19 a été recousu avec du fil moderne (Allen 1896, 310). Selon Martin, la signature moderne des cahiers « a été enlevée par la rognure quand le manuscrit a été relié » (Martin 1882, x) : la reliure actuelle est donc postérieure à cette signature. Je n'ai pas trouvé sa date dans les sources consultées **[à vérifier]**.
 - **Gardes.**
   - En tête : I en papier, II et III en parchemin.
   - En fin : IV en parchemin, avec le *pinax*, suivie d'une garde de papier (Orsini 2011, 322 n. 3 ; Martin 1882, xii–xiii).
@@ -431,7 +434,7 @@ Allen précise que la liste n'est pas exhaustive.
 | J. Ph. d'Orville | 1728 | simple examen | Allen 1896, 324 |
 | Ph. Invernizi | éd. Leipzig 1794 | première utilisation ; planches de spécimens (« Specimina cod. Rav. aere expressa ») | Invernizi 1794, I, viii n. ; Allen 1896, 300 (« a very rough representation of a few lines ») ; Bekker 1829, v (« incredibili socordia cum pari inscitia ») ; Prato 2001, xxxiv (« maldestra utilizzazione ») |
 | I. Bekker | 1818 ; éd. 1829 | collation complète | Clark 1871, 153 (« far from accurate ») ; Martin 1882, ii (faite trop vite ; critique de Cobet) ; Prato 2001, xxxv (Cobet, *Var. lect.*, xviii) |
-| E. Miller | 1837 | transcription des scholies pour Dindorf | Clark 1871, 153 ; Rutherford 1896, I, xvi (« transcribed in 1837 for Dindorf's edition ») **[page à confirmer]** |
+| E. Miller | 1837 | transcription des scholies pour Dindorf | Clark 1871, 153, cité par Rutherford 1896, I, xiv n. Selon Rutherford, Dindorf ne dit nulle part avoir vu R ; Fritzsche le croyait tributaire de la collation de Bekker mise en forme par Seidler (*ibid.*) |
 | R. Enger | 1840–1844 | lecture améliorée ; rapport entre R, G et l'Urbinas | Prato 2001, xxxv ; Velsen 1871, 51 (erreur d'Enger sur la Juntine) |
 | W. G. Clark | 1852 et 1867 | notes et collation partielle | Clark 1871, 153 |
 | A. von Velsen | 1866–1867 | collation complète de R et de V | Clark 1871, 153 (« thorough and complete ») ; Martin 1882, ii–iii |
@@ -495,7 +498,47 @@ Divergences de lecture documentées pour les *Thesmophories* (échantillon) :
 
 ## 14. HTR/OCR pour la minuscule grecque médiévale
 
-*(section en cours de rédaction : recensement des modèles Kraken, eScriptorium et Transkribus et essai local)*
+### 14.1 Outil installé
+
+- **Kraken 7.1.1**, sur processeur (PyTorch 2.14), dans `.travail/kraken-venv312/`. Commande d'essai : `kraken -i IMAGE SORTIE segment -bl ocr -m MODÈLE`. Scripts : `.travail/ravennas_dossier/scripts/htr_eval.sh` (reconnaissance) et `htr_cer.py` (évaluation).
+- Ni eScriptorium ni Transkribus en local. Transkribus est un service en ligne ; je ne l'ai pas utilisé.
+
+### 14.2 Modèles en accès libre
+
+Copies locales dans `.sources/web/ravennas/htr/` ; notices Zenodo consultées le 26 oct. 2026.
+
+| Modèle | Données d'entraînement | Licence | Référence |
+|---|---|---|---|
+| PTA « greek_minuscule_s9-12 », NFC (A. von Stockhausen, BBAW), préversion du 8 juil. 2025 | 25 manuscrits datés du IXe au XIIe s. (Vatican, Athènes, Paris, Milan, Jérusalem, Munich, Cambridge, Florence…). Transcriptions de la *Vatican Library Greek Paleography* et du *Patristic Text Archive*, corrigées à la main (liste : `.travail/ravennas_dossier/greekhtr_MssList.md`). Ni R ni le Laur. 32.9 n'y figurent | CC BY-SA 4.0 | DOI 10.5281/zenodo.15838142 ; dépôt github.com/PatristicTextArchive/GreekHTR |
+| PTA « greekmix_01 », NFD (même auteur, même date) | mêmes données | CC BY-SA 4.0 | DOI 10.5281/zenodo.15837901 |
+| Meleagre-NFC | 70 pages du Pal. gr. 23 (Anthologie palatine, Xe s.) ; modèle entraîné à partir de zéro | CC BY 4.0 | DOI 10.5281/zenodo.10932711 (avec un modèle de segmentation, `meleagre-segment`) |
+| Meleagre-NFD-finetuned | même vérité terrain : pp. 143–195, puis pp. 196–215 pour l'affinage ; dérivé du modèle « CREMMA Medieval » | CC BY 4.0 | DOI 10.5281/zenodo.10932751 |
+| Vat. gr. 2228, v2 (N. Sindlev Andersen), Kraken 7.1.1 | 247 pages, soit 10 058 lignes, du Vat. gr. 2228 (XIVe s.) | CC BY-SA 4.0 | DOI 10.5281/zenodo.22856948 ; données : 10.5281/zenodo.22850225 |
+
+Le dépôt officiel de Kraken (`kraken list`, interrogé le 26 oct. 2026) ne propose en grec que des modèles pour éditions imprimées (« CLLG Polytonic Greek Model », DOI 10.5281/zenodo.21295925, 22232480 et 22232579 ; liste complète : `.travail/ravennas_dossier/kraken_list.txt`).
+
+### 14.3 Essai sur R : f. 167r, vv. 380–422
+
+- **Protocole.**
+  - Image : la colonne de texte du f. 167r, découpée d'après `ravennas/segmentation/f167r.json`.
+  - Segmentation par lignes de base (modèle `blla` par défaut de Kraken), puis reconnaissance avec chacun des cinq modèles.
+  - Évaluation : chaque vers de référence est apparié à la ligne reconnue la plus proche. La référence est le texte de l'auteur (`edition/donnees/travaux_anterieurs/texte_grec.tsv`). On compare les seules lettres, en minuscules, sans accents, esprits ni ponctuation, avec σ = ς. Base : 43 vers, 1 341 lettres.
+  - Limite : le taux mesure l'écart au texte édité, non à une transcription diplomatique. Il compte donc aussi les leçons propres de R comme des erreurs.
+- **Résultats** (`.travail/ravennas_dossier/htr_eval/f167r/cer.txt`).
+
+  | Modèle | Taux d'erreur médian par vers | Taux global | Lignes reconnues |
+  |---|---|---|---|
+  | PTA greek_minuscule_s9-12 (NFC) | 9,4 % | 12,2 % | 61 |
+  | PTA greekmix_01 (NFD) | 9,4 % | 12,9 % | 64 |
+  | Meleagre-NFD-finetuned | 12,5 % | 15,7 % | 63 |
+  | Vat. gr. 2228 v2 | 38,9 % | 38,9 % | 65 |
+  | Meleagre-NFC | 52,8 % | 49,1 % | 50 |
+
+- **Observations.**
+  - Plus de lignes reconnues que de vers (43) : la segmentation par défaut capte aussi des fragments des scholies marginales (lignes « 4ν », « γοῦ ἔ »…). Il faudra un masque de la colonne de texte ou un modèle de segmentation adapté.
+  - Exemple de sortie du meilleur modèle, ligne 1 : « ἐγώ: περιθουνῦντόν δε πρωτολπρὶν λέγειν », pour ἐγώ. περίθου νυν τόνδε πρῶτον πρὶν λέγειν. On y voit des mots soudés, des confusions de lettres (ν/λ) et des accents placés sans fiabilité. Le dicolon de changement d'interlocuteur est en revanche rendu par « : ».
+  - Aucun modèle ne fournit de transcription diplomatique : les accents, les esprits, les coupes, les abréviations et les signes marginaux restent à faire à la main. Le modèle PTA peut fournir un premier jet des lettres, à corriger sur l'image.
+  - Prochaine étape évidente : affiner le modèle PTA sur quelques pages de R corrigées à la main (`ketos train -i`) **[à tester]**. Aucun modèle n'a été essayé sur la semi-onciale inclinée des scholies de S2.
 
 ## 15. Points à vérifier sur les images (ff. 162v–177r et gardes)
 
@@ -528,12 +571,13 @@ Divergences de lecture documentées pour les *Thesmophories* (échantillon) :
 ### 16.2 Littérature (sigles utilisés)
 
 - **Allen 1896** — T. W. Allen, « On the composition of some Greek manuscripts. II. The Ravenna Aristophanes », *Journal of Philology* 24 (1896), 300–326. `.sources/web/ravennas/articles/journal-of-philology_1896_24_47-48.pdf` (+ `_djvu.txt`).
-- **Austin 1987** — C. Austin, « Textual problems in Ar. Thesm. », *Dodone* 16 (1987), 61–92 [numéro du volume à confirmer]. `.sources/drive/ravennas/Austin_1987_…Dodone.pdf`.
+- **Austin 1987** — C. Austin, « Textual problems in Ar. Thesm. », *Dodone (philol.)* 16 (1987), 61–92, paru en 1988 (bibliographie de C. Austin, n° 127, `.sources/drive/fichiers/Grec/Aristophane/C._Austin._Bibliographie_1964-2010_Eikas.txt`). `.sources/drive/ravennas/Austin_1987_…Dodone.pdf`.
 - **Bekker 1829** — I. Bekker, *Aristophanis comoediae cum scholiis et varietate lectionis*, I, Londres 1829, praefatio v–vii. `.sources/web/editions/1829_Londres_Bekker_t1_texte/`.
 - **Clark 1871** — W. G. Clark, « The history of the Ravenna manuscript of Aristophanes », *Journal of Philology* 3 (1871), 153–160. `.sources/web/ravennas/histoire/journal-of-philology_1871_3.pdf`.
 - **Coulon 1928** — V. Coulon et H. van Daele, *Aristophane*, t. IV, Paris 1928 (5e tirage 1962). Extrait textuel : `.sources/drive/ravennas/Coulon_1928_Thesm_Grenouilles_textrep.txt` (OCR sans exposants).
 - **Dovico 2016** — G. Dovico, « Excerpta manoscritti dalle commedie di Aristofane : per una prima recensio », *FuturoClassico* 2 (2016), 62–118. `.sources/drive/ravennas/Excerpta…PB.pdf`.
 - **Eleuteri–Canart 1991** — P. Eleuteri et P. Canart, *Scrittura greca nell'umanesimo italiano*, Milan 1991, notice XXIV (Paolo Canal), p. 74. Texte et image de la p. 74 : `.sources/web/ravennas/humanistes/` (copie archive.org, ouvrage sous droits).
+- **Irigoin 1962** — J. Irigoin, « Survie et renouveau de la littérature antique à Constantinople (IXe siècle) », *Cahiers de civilisation médiévale* 5 (1962), 287–302 (DOI 10.3406/ccmed.1962.1234). Texte des pp. 300–302 extrait des pages HTML de Persée, le PDF étant protégé : `.sources/web/ravennas/articles/Irigoin_1962_CCM5_pp300-302_persee.txt`.
 - **Invernizi 1794** — Ph. Invernizi, *Aristophanis comoediae auctoritate libri praeclarissimi saeculi decimi emendatae*, I, Leipzig 1794, Prooemium. `.sources/web/editions/1794_Leipzig_Invernizi_t1/`.
 - **JHS 1904** — notice anonyme, *Journal of Hellenic Studies* 24 (1904), 168 (DOI 10.2307/623999). `.sources/web/ravennas/fac-simile-1904/zenodo_2348064_…pdf`.
 - **Koster 1963** — W. J. W. Koster, « Aristophane dans la tradition byzantine », *REG* 76 (1963), 381–396. `.sources/drive/ravennas/`.
@@ -553,4 +597,4 @@ Divergences de lecture documentées pour les *Thesmophories* (échantillon) :
 
 ### 16.3 Cité de seconde main, non consulté
 
-Irigoin 1962 (*CCM* 5, 287–302) ; Jones 1952 (*CQ* 2, 168–185) ; Mioni 1964 (*Catalogo di manoscritti greci esistenti nelle biblioteche italiane* II, 363–364, n° 244) ; Diller 1974 (*Serta Turyniana*, 514–524) ; Eberline 1980 ; Turyn 1943 ; Wilson 1983 (*Scholars of Byzantium*, 137) ; Dillon Bussi–Giuliani 1996 (*Biblioteca Classense*, 32, fiche de S. Marcon) ; Stefec 2012 (*RHM* 54, 95–198) ; Perusino–Beta 2020 ; Regtuit 2007 (*Scholia in Thesm.*) ; Holzinger 1882 (*WS* 4) ; Guasti 1862 ; Stornajolo 1895.
+Jones 1952 (*CQ* 2, 168–185) ; Mioni 1964 (*Catalogo di manoscritti greci esistenti nelle biblioteche italiane* II, 363–364, n° 244) ; Diller 1974 (*Serta Turyniana*, 514–524) ; Eberline 1980 ; Turyn 1943 ; Wilson 1983 (*Scholars of Byzantium*, 137) ; Dillon Bussi–Giuliani 1996 (*Biblioteca Classense*, 32, fiche de S. Marcon) ; Stefec 2012 (*RHM* 54, 95–198) ; Perusino–Beta 2020 ; Regtuit 2007 (*Scholia in Thesm.*) ; Holzinger 1882 (*WS* 4) ; Guasti 1862 ; Stornajolo 1895.

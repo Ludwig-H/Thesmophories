@@ -1,1 +1,127 @@
-[]
+[
+ {
+  "v": "940",
+  "lemme": "πρὸς τῇ σανίδι δεῖν",
+  "categorie": "testimonium",
+  "ref": "Hsch. δ 926",
+  "citation": "δῆσαι πρὸς σανίδι· Ἀττικῶς· βασανίσαι ἐν τῷ δεσμωτηρίῳ",
+  "traduction": "lier contre la planche : (tour) attique ; mettre à la question dans la prison.",
+  "verifie": "scan",
+  "verification": "Latte–Cunningham, Hesychii Alexandrini Lexicon I (2018), p. 574 (PDF local .sources/drive/fichiers/Grec/Lexiques/Hesychius/Latte_I_alpha-delta.pdf, feuillet 612, lu en image) ; cf. Schmidt, ed. min., col. 394",
+  "signale_par": "auteur (testimonia ; commentaire des vv. 939–942)",
+  "pertinence": 3,
+  "remarque": "Latte : sigle marginal « Att.? » et renvoi « (Ar. Thesm. 940?) » ; app. : δῆσ. Voss., Biel : δησ. H ; Ἀττικῶς transposé à la glose suivante par Alberti. Seul lexique à relever le tour, selon l'auteur."
+ },
+ {
+  "v": "940",
+  "lemme": "πρὸς τῇ σανίδι δεῖν",
+  "categorie": "comiques",
+  "ref": "Cratin. fr. 341 Kock",
+  "citation": "πρὸς σανίσιν ἐδεσμεύοντο πολλάκις, ὡς καὶ Κρατῖνος δηλοῖ",
+  "traduction": "on était souvent attaché à des planches, comme le montre aussi Cratinos.",
+  "verifie": "scan",
+  "verification": "Kock, CAF I, p. 112–113 (ia:comicorumatticor01kockuoft n141–142), fragment connu par Σ Ar. Th. 940",
+  "signale_par": "LSJ s.v. σανίς (« Cratin. 341 ») ; Kock",
+  "pertinence": 2,
+  "remarque": "Fragment sans texte conservé (simple mention du scholiaste). Kock renvoie à Fritzsche, Thesm. p. 360, et à Alexis fr. 217, 10 Kock. Numéro K.-A. non contrôlé (PCG IV absent)."
+ },
+ {
+  "v": "940",
+  "lemme": "πρὸς τῇ σανίδι δεῖν",
+  "categorie": "scholies",
+  "ref": "Σ Ar. Th. 940",
+  "citation": "πρὸς σανίσιν ἐδεσμεύοντο πολλάκις, ὡς καὶ Κρατῖνος δηλοῖ. « ἐπίτρεψον οὖν τῷ τοξότῃ » φησὶ « γυμνόν με πρὸς τῇ σανίδι δῆσαι. »",
+  "verifie": "scan",
+  "verification": "Dübner, Scholia (1842), p. 270, col. 2, l. 6–8 (ia:scholiagraecain00unkngoog n348)",
+  "signale_par": "scholies (Dübner) ; Kock",
+  "pertinence": 3,
+  "remarque": "La scholie glose le vers par ἐπίτρεψον … δῆσαι."
+ },
+ {
+  "v": "942",
+  "lemme": "τοῖς κόραξιν ἑστιῶν",
+  "categorie": "comiques",
+  "ref": "Eup. fr. 59 Kock",
+  "citation": "ὡς καὶ παρ᾽ Εὐπόλιδί ἐστιν ἐν Αὐτολύκῳ θατέρῳ",
+  "verifie": "scan",
+  "verification": "Kock, CAF I, p. 271 (ia:comicorumatticor01kockuoft n301), d'après Σ Ar. Th. 941",
+  "signale_par": "scholies (Dübner) ; Kock",
+  "pertinence": 1,
+  "remarque": "Le scholiaste allègue l'Autolycos II d'Eupolis pour ἑστιᾶν + datif ; Kock tient ὥστε οὔτε ἐκεῖ οὔτε ἐνθάδε δεῖ ξενίζεσθαι pour des mots du scholiaste, non d'Eupolis, et note que chez Aristophane τοῖς κόραξιν dépend de παρέχω, non de ἑστιῶν. Numéro K.-A. non contrôlé."
+ },
+ {
+  "v": "942",
+  "lemme": "ἑστιῶν (construction)",
+  "categorie": "prose",
+  "ref": "Pl. R. 404b–c",
+  "urn": "urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:3.404",
+  "citation": "ἐν ταῖς τῶν ἡρώων ἑστιάσεσιν οὔτε ἰχθύσιν αὐτοὺς ἑστιᾷ … οὔτε ἑφθοῖς κρέασιν",
+  "traduction": "aux festins des héros, (Homère) ne les régale ni de poissons… ni de viandes bouillies.",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἑστιᾷ ἰχθύσιν' -a Pl",
+  "signale_par": "Kock (note à Eup. fr. 59)",
+  "pertinence": 1,
+  "remarque": "ἑστιᾶν τινά τινι « régaler quelqu'un de quelque chose » : le vieillard régale les corbeaux de sa propre chair."
+ },
+ {
+  "v": "942",
+  "lemme": "τοῖς κόραξιν ἑστιῶν",
+  "categorie": "scholies",
+  "ref": "Σ Ar. Th. 941",
+  "citation": "μετὰ κροκωτοῦ τοῖς κόραξιν ἑστίασιν παρέχων. … Ἀττικὴ δὲ ἡ σύνταξις, ὅτι τὸ ἑστιᾶν καὶ δοτικῇ συντάσσουσιν",
+  "traduction": "(en) offrant, avec la crocote, un festin aux corbeaux… La construction est attique : on construit aussi ἑστιᾶν avec le datif.",
+  "verifie": "scan",
+  "verification": "Dübner, Scholia (1842), p. 270, col. 2, l. 9–13 (ia:scholiagraecain00unkngoog n348)",
+  "signale_par": "scholies (Dübner)",
+  "pertinence": 2,
+  "remarque": "Numérotée 941 chez Dübner (lemme du v. 942)."
+ },
+ {
+  "v": "944",
+  "lemme": "δῆλος ᾖς πανοῦργος ὤν",
+  "categorie": "scholies",
+  "ref": "Σ Ar. Th. 944",
+  "citation": "ὅτι ἐνδυσάμενος καὶ ἐλθὼν εἰς τὰς γυναῖκας κατάδηλος ἐγενόμην",
+  "verifie": "scan",
+  "verification": "Dübner, Scholia (1842), p. 270, col. 2, l. 14–15 (ia:scholiagraecain00unkngoog n348)",
+  "signale_par": "scholies (Dübner)",
+  "pertinence": 2,
+  "remarque": ""
+ },
+ {
+  "v": "947",
+  "lemme": "παίσωμεν",
+  "categorie": "scholies",
+  "ref": "Σ Ar. Th. 947",
+  "citation": "τὸ παίξωμεν οἱ Ἀττικοὶ παίσωμεν ἔλεγον, καὶ τὸ παίσωμεν πάλιν παίξωμεν. καὶ « πολυπαίγμονος ὀρχηθμοῖο »",
+  "verifie": "scan",
+  "verification": "Dübner, Scholia (1842), p. 270, col. 2, l. 16–18 (ia:scholiagraecain00unkngoog n348)",
+  "signale_par": "scholies (Dübner)",
+  "pertinence": 2,
+  "remarque": "Dübner identifie la citation : Hom. Od. 23.134, où l'on lit φιλοπαίγμονος ὀρχηθμοῖο."
+ },
+ {
+  "v": "948",
+  "lemme": "ὄργια σεμνὰ … ἀνέχωμεν",
+  "categorie": "scholies",
+  "ref": "Σ Ar. Th. 948",
+  "citation": "ὅταν τὰ μυστήρια αὔξωμεν, φησίν, τῶν θεῶν. λέγει δὲ Δήμητρας καὶ Περσεφόνης. Ἄλλως. ὅταν τὰς τελετὰς αὔξωμεν· τοῖς γὰρ ὕμνοις ἐπαίρομεν αὐτάς. καὶ τοῦτό ἐστι τὸ ἀνέχωμεν.",
+  "verifie": "scan",
+  "verification": "Dübner, Scholia (1842), p. 270, col. 2, l. 19–22 (ia:scholiagraecain00unkngoog n348)",
+  "signale_par": "scholies (Dübner)",
+  "pertinence": 2,
+  "remarque": "θεῶν dans le lemme de la scholie (cf. les variantes θεαῖν / θεοῖν)."
+ },
+ {
+  "v": "949",
+  "lemme": "Παύσων … νηστεύει",
+  "categorie": "scholies",
+  "ref": "Σ Ar. Th. 949",
+  "citation": "Παύσων ὁ ζωγράφος εἰς πενίαν διαβάλλεται, καὶ διὰ τοῦτο εἶπε νηστεύει.",
+  "verifie": "scan",
+  "verification": "Dübner, Scholia (1842), p. 270, col. 2, l. 23–24 (ia:scholiagraecain00unkngoog n348)",
+  "signale_par": "auteur (commentaire des vv. 949–952) ; scholies (Dübner)",
+  "pertinence": 3,
+  "remarque": ""
+ }
+]

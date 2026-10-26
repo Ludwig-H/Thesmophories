@@ -1,6 +1,6 @@
 # Audit des productions du précédent assistant (Gemini)
 
-*Document de travail, rédigé au fil des contrôles (reprise après interruption, 26 oct. 2026). État : § 3.1 terminé (30/30 folios) ; §§ 3.2–3.5 en cours ; §§ 1, 2, 4–6 à rédiger en fin d'audit.*
+*Document de travail, rédigé au fil des contrôles (2e reprise après interruption, 26 oct. 2026). État : §§ 2 et 3.1 terminés ; §§ 3.2–3.5 en cours ; §§ 1, 4–6 à rédiger en fin d'audit.*
 
 **Périmètre.** `dossier_ravennas_thesmophories/` (README.md, Analyse_Graphologique…, Manuel_Dechiffrement…, Notice…, Scholies_et_Gloses…, generer_planches_dechiffrement.py, planches) et `latex/Aristophane-Thesmo Edition 4 pages Ravennas*.tex` (versions simple, Integrale, vv 1-641, vv 642-fin).
 
@@ -14,7 +14,19 @@
 
 ## 2. Inventaire des productions
 
-*(à rédiger)*
+| Fichier(s) | Taille | Contenu annoncé |
+|:--|:--|:--|
+| `dossier_ravennas_thesmophories/README.md` | 216 Ko, 1 483 l. | « Dossier codicologique, paléographique, stemmatique et iconographique complet » : fiche du manuscrit, « atelier d'Éphrem », histoire, ordre des pièces (§ 1) ; stemma, papyrus Ψ¹–Ψ⁵, tradition indirecte, « dossier Mnésiloque » (§ 2) ; trois mains, alphabet, *notae personarum*, « quatre *parepigraphai* », typologie des fautes, « tableau exhaustif des grattages », conjectures « Bibi » (§ 3) ; tableau et notices des 30 folios (§ 4) ; IIIF (§ 5) ; bibliographie (§ 6). |
+| `Analyse_Graphologique_Historique_et_Philologique_Ravennas.{md,tex,pdf}` | 165 Ko (md), 55 p. | Monographie en trois parties : histoire du texte, « graphologie comparée » de R¹, R² et Boninus avec un « atlas » de 16 planches, « stratigraphie des fautes » et « répertoire intégral des 38 lieux *in rasura* ». |
+| `Manuel_Dechiffrement_Ecriture_Ravennas.{md,tex,pdf}` | 88 Ko (md), 29 p. | Cours de lecture du manuscrit : « 4 registres d'écriture », abécédaire, « pièges », ligatures, abréviations, exercices corrigés ; renvoie aux 24 planches. |
+| `Notice_Ravennas_Codicologie_et_Paleographie.{tex,pdf}` | 172 Ko (tex), 35 p. | Notice codicologique et paléographique, folio par folio. |
+| `Scholies_et_Gloses_Ravennas_Thesmophories.{md,tex,pdf}` | 664 Ko (md), 96 p. | « Atlas et édition intégrale » de 386 scholies et gloses : position sur la page, texte grec, « tracé diplomatique » avec abréviations, traduction, commentaire ; « collation diplomatique ligne par ligne » de chaque folio. |
+| `generer_planches_dechiffrement.py` | 148 Ko, 2 337 l. | Génère les planches de `exemples_dechiffrement/` (coordonnées de découpe et légendes codées en dur). |
+| `exemples_dechiffrement/` (24 JPEG), `specimens_paleographiques/` (16 JPEG) | 15 + 15 Mo | Planches annotées (lettres, ligatures, « pièges », grattages, *parepigraphai*, exercices) et détails recadrés. |
+| `folios_individuels_ff162v-177r/` (30 JPEG, ≈ 1 921 × 2 780 px), `planches_doubles_ff162v-177r/` (15 JPEG, 3 946 × 2 780 px) | 41 + 36 Mo | Images de la Classense (serveur IIIF), nommées avec les vers supposés de chaque page. |
+| `latex/Aristophane-Thesmo Edition 4 pages Ravennas.tex` ; `… - Integrale.tex` ; `… vv 1-641.tex` ; `… vv 642-fin.tex` (+ `latex/folios_recadres_ff162v-177r/`, PDF dans `pdf/`) | 1,5 Mo ; 1,6 Mo ; 0,76 Mo ; 0,80 Mo | « Édition synoptique » en 30 étalements de 4 pages : « transcription diplomatique corrigée de R » (1 238 lignes `\ligneRav` : numéro, sigle, texte, apparat), *loci paralleli*, scholies du folio ; fac-similé recadré ; texte établi et traduction. Les quatre variantes ne diffèrent que par l'habillage et le découpage. |
+
+**Remarque générale.** Le nom réel de l'auteur de l'édition figure plus d'un millier de fois dans ces fichiers, tous versionnés : README (118 occurrences), Scholies (md 565, tex 192, pdf 190), Notice (tex 82, pdf 80), Analyse (md 26, tex 26, pdf 26), éditions LaTeX (19 à 39 chacune), et les copies PDF de `pdf/` (26 à 190). Seul le Manuel n'en contient pas. C'est contraire à la règle absolue de `CLAUDE.md`, sur un dépôt public.
 
 ## 3. Tableau des contrôles
 

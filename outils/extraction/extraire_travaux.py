@@ -458,12 +458,15 @@ class Extracteur:
             if cour and self.texte(cour).strip():
                 lecons.append(self.lecon(cour))
 
+        # séparateur « : » ; aussi collé au sigle ou au numéro qui précède (« R~: », « R: »,
+        # « ε 1271: »), pourvu qu'une espace le suive
+        SEP = r"[\s~ ]+:\s|[\s~ ]+:$|^:\s|(?<=[^\s:])~?:\s"
         for nd in noeuds:
             if nd.type == "texte" and ":" in nd.texte:
-                morceaux = re.split(r"(\s:\s|\s:$|^:\s)", nd.texte)
+                morceaux = re.split("(%s)" % SEP, nd.texte)
                 debut = nd.debut
-                for m in morceaux:
-                    if re.fullmatch(r"\s:\s|\s:$|^:\s", m or "x"):
+                for k, m in enumerate(morceaux):
+                    if k % 2 == 1:          # séparateur (groupe capturant de re.split)
                         pousser()
                         cour = []
                     elif m:
@@ -501,17 +504,43 @@ class Extracteur:
                 "retenue": retenue is not None}
 
 
+RE_SIGLE_R = re.compile(r"R(?![A-Za-zΑ-Ωα-ωἀ-ῼ])")          # R, R², Rᵖᶜ, Rᵃᶜ(… — pas Rau, Rogers
+RE_SIGLE_SIGMA = re.compile(r"\(?Σ(?![α-ωάέήίόύώϊϋΐΰἀ-ῷ])")  # Σ, Σ¹, Σᵀ — pas Σκύθης
+RE_SIGLE_LEX = re.compile(r"\(?[α-ωϊϋ]{1,2}")                  # Suid. ε 989, Hesych. (ο 649)
+RE_NUM_PAR = re.compile(r"\(\d+(?:-\d+)?\)|\(bis\)")
+
+
 def separer_attribution(txt: str):
-    """Sépare « leçon témoins » : la leçon s'arrête au dernier mot grec avant les sigles/noms
-    latins (heuristique ; Σ = scholie est traité comme témoin)."""
+    """Sépare « leçon témoins » : la leçon s'arrête au dernier mot grec avant les sigles et
+    noms latins (heuristique). Ne comptent pas comme mots de la leçon : le sigle Σ (scholie),
+    les lettres d'article de lexique suivies d'un numéro (Suid. ε 989), et tout ce qui suit le
+    premier sigle de R (« στυγνὰς ὡσσε Rᵃᶜ(cf. στυγοῦσ᾽ ὥσπερ v. sq. ?) ») ; une mention de
+    vers entre parenthèses qui suit le dernier mot grec reste dans la leçon (« (Μνη.) (71) et
+    (Εὐρ.) (72-4) R »). Les mots descriptifs placés avant le sigle (om., bis, in mg., suppl.)
+    vont avec l'attribution."""
     mots = txt.split()
-    dernier = -1
+
+    def mot_de_lecon(i):
+        m = mots[i]
+        if not est_grec(m) or RE_SIGLE_SIGMA.match(m):
+            return False
+        if RE_SIGLE_LEX.fullmatch(m) and i + 1 < len(mots) and re.match(r"\d", mots[i + 1]):
+            return False
+        return True
+
+    borne = len(mots)
     for i, m in enumerate(mots):
-        if est_grec(m) and m not in ("Σ",) and not m.startswith("Σ"):
+        if RE_SIGLE_R.match(m) and any(mot_de_lecon(k) for k in range(i)):
+            borne = i
+            break
+    dernier = -1
+    for i in range(borne):
+        if mot_de_lecon(i):
             dernier = i
     if dernier == -1:
         return "", txt
-    # parenthèses fermantes immédiates rattachées à la leçon
+    while dernier + 1 < borne and RE_NUM_PAR.fullmatch(mots[dernier + 1]):
+        dernier += 1
     return " ".join(mots[: dernier + 1]), " ".join(mots[dernier + 1:])
 
 
@@ -839,6 +868,12 @@ def attribuer_vers_grec(lignes: list, anomalies: list, hg: ReferenceHG | None, s
                 if expl == attendu:
                     v = expl
                     methode = "\\ligne explicite"
+                    if e_app is None:
+                        # leçons de plusieurs vers dans la même ligne (ex. 1026 « ὁ Σκύθης » et
+                        # 1027 « ἐφέστηκ᾽ ὀλοὸν ») : le numéro le plus élevé indique la couverture
+                        pa_ = set(L.get("preuves_apparat") or [])
+                        if expl in pa_ and any(x > expl for x in pa_):
+                            e_app = max(pa_)
                     h = L["HG"]
                     couvre = bool(h and h["k"] == 2 and h["cov_a"] >= 0.75
                                   and h["base"] <= min(expl, e_app or expl)
@@ -1005,17 +1040,29 @@ def attribuer_vers_grec(lignes: list, anomalies: list, hg: ReferenceHG | None, s
                 L["partie"] = "abcdefghij"[k] if k < 10 else str(k)
     for L in lignes:
         L.setdefault("partie", "")
-    # transpositions : deux lignes consécutives dont les appariements HG sont croisés
+    # transpositions : deux lignes consécutives dont les appariements HG sont croisés.
+    # L'ordre d'impression est inversé sans note d'apparat ; chaque ligne reçoit son numéro
+    # usuel (seul cas : vv. 3-4, où l'apparat de l'auteur — « 3 τι R : τε » — et sa traduction
+    # suivent l'ordre usuel) ; n_reledmac garde la position imprimée.
     for L, M in zip(numerotees, numerotees[1:]):
         a, b = L.get("HG"), M.get("HG")
         if a and b and a["k"] == 1 and b["k"] == 1 and min(a["cov_a"], b["cov_a"]) >= 0.85 \
                 and min(a["cov_b"], b["cov_b"]) >= 0.8 and M["vers"] == L["vers"] + 1 \
-                and a["base"] == M["vers"] and b["base"] == L["vers"]:
+                and a["base"] == M["vers"] and b["base"] == L["vers"] \
+                and not L.get("transposee") and not M.get("transposee"):
+            v1, v2 = L["vers"], M["vers"]
+            L["vers"], M["vers"] = v2, v1
+            L["transposee"] = M["transposee"] = True
+            L["methode"] = ("transposition : ligne imprimée avant le v. %d ; numéro usuel (Hall-Geldart %s)"
+                            % (v1, a["n"]))
+            M["methode"] = ("transposition : ligne imprimée après le v. %d ; numéro usuel (Hall-Geldart %s)"
+                            % (v2, b["n"]))
             anomalies.append({"code": "transposition", "gravite": "grave", "groupe": L["groupe"],
-                              "vers": L["vers"], "fichier": None, "ligne_source": L["ligne_source"],
-                              "message": "vv. %d-%d : ordre des lignes inversé par rapport à la "
-                                         "tradition (Hall-Geldart %s/%s), sans note d'apparat — « %s » / « %s »" % (
-                                             L["vers"], M["vers"], a["n"], b["n"],
+                              "vers": v1, "fichier": None, "ligne_source": L["ligne_source"],
+                              "message": "vv. %d-%d : lignes imprimées dans l'ordre inverse de la "
+                                         "tradition (Hall-Geldart %s puis %s), sans note d'apparat ; "
+                                         "l'extraction leur rend leur numéro usuel — « %s » / « %s »" % (
+                                             v1, v2, a["n"], b["n"],
                                              L["texte"][:40], M["texte"][:40])})
 
 
@@ -1216,6 +1263,8 @@ def didascalies(txt: str) -> list:
 def normaliser_personnage(p):
     if not p:
         return p
+    # césure manuelle dans la marge (« Στεφανό-\\πωλις », nov 2022) : mot recollé
+    p = re.sub(r"-\s*\n\s*", "", p)
     return normaliser_blancs(p).strip(" .:")
 
 
@@ -1377,6 +1426,13 @@ def extraire(depot: str, sortie: str | None, fichiers=None, ecrire=True):
         for c in comms:
             nums = [n["numero"].strip() for n in c["notes"]]
             appels = [a.strip() for a in c["appels"]]
+            # rattachement explicite de chaque note à son (ses) appel(s) \marqueur{n} dans le
+            # commentaire : nombre d'appels et contexte LaTeX qui précède chacun
+            for nd_ in c["notes"]:
+                num = nd_["numero"].strip()
+                ctx = [re.sub(r"\s+", " ", c["latex"][max(0, m.start() - 70):m.start()]).strip()
+                       for m in re.finditer(r"\\marqueur\{\s*%s\s*\}" % re.escape(num), c["latex"])]
+                nd_["appel"] = {"marqueur": num, "occurrences": appels.count(num), "contexte": ctx}
             for a in appels:
                 if a not in nums:
                     anomalie("appel_sans_note", "moyenne",
@@ -1484,11 +1540,19 @@ def extraire(depot: str, sortie: str | None, fichiers=None, ecrire=True):
         for F in lignes_fr:
             F["vers"], F["vers_fin"], F["partie"] = None, None, ""
         if nb_f == nb_g:
-            for F, L in zip(lignes_fr, Lg):
+            # grec transposé (lignes imprimées hors de l'ordre usuel) : la traduction, elle,
+            # suit l'ordre usuel ; on l'apparie aux lignes grecques rangées par numéro de vers
+            if any(L.get("transposee") for L in Lg):
+                Lg_ordre = [Lg[k] for k in sorted(range(nb_g), key=lambda k: (Lg[k]["vers"], k))]
+            else:
+                Lg_ordre = Lg
+            for F, L in zip(lignes_fr, Lg_ordre):
                 F["vers"] = L["vers"]
                 F["vers_fin"] = L.get("vers_fin")
                 F["partie"] = L["partie"]
-                F["methode_vers"] = "appariement ligne à ligne dans le groupe"
+                F["methode_vers"] = ("appariement ligne à ligne dans l'ordre usuel des vers "
+                                     "(grec imprimé transposé)" if L.get("transposee")
+                                     else "appariement ligne à ligne dans le groupe")
         elif nb_g and nb_f:
             paires = aligner_traduction(lignes_fr, Lg)
             for fi, gi_ in paires:
@@ -1542,13 +1606,21 @@ def extraire(depot: str, sortie: str | None, fichiers=None, ecrire=True):
                      groupe=L["groupe"], vers=v, ligne=L["ligne_source"])
     ok_app, ko_app = controle_apparat(lignes_g_all, apparats_all, anomalie)
     controle_app = {"segments_verifies": ok_app + ko_app, "concordants": ok_app, "decales": ko_app}
-    # écarts avec Hall-Geldart regroupés en séries de décalage constant
+    # écarts avec Hall-Geldart regroupés en séries de décalage constant ; les lignes brèves
+    # que HG contient dans plusieurs vers (refrain « Ἀρταμουξία. », vv. 1201-1225) ne sont pas
+    # comparées : leur appariement désigne n'importe laquelle des occurrences
+    def ambigu_hg(sq):
+        return hg is not None and 0 < len(sq) < 20 and \
+            len({l["base"] for l in hg.lignes if sq in l["sq"]}) >= 2
+    ambigus_hg = {L["sq"] for L in lignes_g_all if ambigu_hg(L["sq"])}
     serie = None
     series_hg = []
     for L in lignes_g_all:
         v = L["vers"]
         hgb = L.get("HG")
         if v is None or not hgb or hgb["cov_a"] < 0.85:
+            continue
+        if L["sq"] in ambigus_hg:
             continue
         lo = hgb["base"]
         hi = int(re.match(r"\d+", hgb["n_fin"]).group())
@@ -1596,7 +1668,8 @@ def extraire(depot: str, sortie: str | None, fichiers=None, ecrire=True):
             consommes[n] = L
     hg_bases = {l["base"] for l in hg.lignes} if hg else set()
     for a, b in zip(numerotees, numerotees[1:]):
-        if b["vers"] < a["vers"]:
+        if b["vers"] < a["vers"] and not (a.get("transposee") and b.get("transposee")):
+            # (une transposition est déjà signalée comme telle)
             anomalie("numero_regression", "moyenne", "Régression de numérotation : %d puis %d (« %s »)"
                      % (a["vers"], b["vers"], b["texte"][:50]), groupe=b["groupe"], vers=b["vers"],
                      ligne=b["ligne_source"])
@@ -1806,6 +1879,7 @@ def statistiques(groupes, anomalies):
         for l in g["grec"]["lignes"]:
             if l["vers"] is not None:
                 couverts.update(range(l["vers"], (l.get("vers_fin") or l["vers"]) + 1))
+    entrees = [e for a in apps for sg in a["segments"] for e in sg["entrees"]]
     return {
         "groupes": len(groupes), "lignes_grecques": nl_g, "lignes_francaises": nl_f,
         "vers_distincts": len(vers), "numeros_couverts": len(couverts),
@@ -1815,8 +1889,57 @@ def statistiques(groupes, anomalies):
         "notes": notes, "apparats": len(apps), "segments_apparat": segs,
         "lecons_Bibi": bibi, "testimonia_grec": tg, "testimonia_francais": td,
         "macros_desactivees": dict(desact),
+        "apparat_entrees": len(entrees),
+        "apparat_lecons": sum(len(e["lecons"]) for e in entrees),
+        "apparat_classement": classer_apparat(entrees),
         "anomalies": dict(Counter(a["code"] for a in anomalies)),
     }
+
+
+RE_APP_INDIRECTE = re.compile(r"Suid|Σ|Schol|Hesych|Phot|Pollux|PSI|POxy|Eust|Greg|Stob|Moeris|Zonar|Etym|"
+                              r"Harp|Antiatt|cod\. Laur|Ael")
+RE_APP_R = re.compile(r"(?:^|[\s,⟧)])R(?![A-Za-z])")
+RE_APP_M = re.compile(r"(?:^|[\s,)])M(?![A-Za-z])|Μυ2")
+RE_APP_NOM = re.compile(r"(?:van |von )?[A-ZÀ-Ý][a-zà-ÿ]+(?:(?: & |-)[A-Z][a-z]+)?|edd?\.(?: pr\.| omn(?:es)?\.?| pler(?:ique)?\.?)?")
+NON_CRITIQUES = {"Suid", "Schol", "Hesych", "Hesychius", "Phot", "Photius", "Pollux", "Divus", "Bibi", "Eur", "Hel",
+                 "Il", "Pl", "Nub", "Nubes", "Vesp", "Pax", "Ach", "Lys", "Lysistr", "Ran", "Av", "Eq", "Med", "Or",
+                 "Theag", "Gorg", "Hipp", "Greg", "Cor", "Stob", "Eust", "Eustathe", "Moeris", "Gram", "Etym",
+                 "Magn", "Gen", "Ael", "Dion", "Harp", "Antiatt", "Zonaras", "Plat", "Mosch", "Hom", "Gr", "Versk",
+                 "Paratragödia", "Mnemosyne", "Iuntina", "Laur", "Laurent", "Parisinus", "Hec", "Bacch",
+                 "Aristophanica", "Gellius", "Plut", "Stob", "Oxy", "Mél", "Suppl", "Obs", "Mor", "Ar", "Gregor",
+                 "Coppello", "Sigma"}
+
+
+def classer_apparat(entrees: list) -> dict:
+    """Classement heuristique des entrées d'apparat selon l'autorité de la leçon retenue
+    (\lecon) : Bibi ; R conservé (R, R², Rᵖᶜ) ; tradition indirecte ou papyrus ; M ; critique
+    nommé (ou « edd. ») ; entrées sans leçon retenue (descriptives : corrections de R, sigles de
+    personnages…). Compte aussi les critiques nommés dans tout l'apparat."""
+    cl, retenus, cites = Counter(), Counter(), Counter()
+    for e in entrees:
+        for n in RE_APP_NOM.findall(e["texte"]):
+            if n.split()[-1] not in NON_CRITIQUES and not n.startswith("ed"):
+                cites[n] += 1
+        r = [l for l in e["lecons"] if l["retenue"]]
+        if not r:
+            cl["descriptive (sans leçon retenue)"] += 1
+            continue
+        a = " ".join(l["attribution"] or "" for l in r)
+        if "Bibi" in a:
+            cl["Bibi"] += 1
+        elif RE_APP_R.search(a):
+            cl["R conservé"] += 1
+        elif RE_APP_INDIRECTE.search(a):
+            cl["tradition indirecte ou papyrus"] += 1
+        elif RE_APP_M.search(a):
+            cl["M"] += 1
+        else:
+            m = RE_APP_NOM.search(a)
+            cl["critique nommé"] += 1
+            retenus[m.group() if m else "?"] += 1
+    return {"par_autorite_de_la_lecon_retenue": dict(cl.most_common()),
+            "critiques_retenus": dict(retenus.most_common()),
+            "critiques_cites": dict(cites.most_common())}
 
 
 def ecrire_tsv(res, sortie):
