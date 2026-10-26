@@ -665,27 +665,29 @@
         \par \vspace{2.2pt}
       }
   }
-%% notes de commentaire (appel + texte reporté à la fin de l'article)
-\int_new:N \l_thesmo_cnote_int
-\tl_new:N \l_thesmo_cnotes_tl
+%% notes de commentaire (appel + texte reporté à la fin de l'article) ; variables globales :
+%% une note appelée dans un groupe (citation \citComm, italique…) n'est pas perdue
+\int_new:N \g_thesmo_cnote_int
+\tl_new:N \g_thesmo_cnotes_tl
 \NewDocumentCommand \nc { +m }
   {
-    \int_incr:N \l_thesmo_cnote_int
-    \textsuperscript{ \int_use:N \l_thesmo_cnote_int }
-    \tl_put_right:Nx \l_thesmo_cnotes_tl
-      { \exp_not:N \thesmo_cnote:nn { \int_use:N \l_thesmo_cnote_int } { \exp_not:n {#1} } }
+    \int_gincr:N \g_thesmo_cnote_int
+    \textsuperscript{ \int_use:N \g_thesmo_cnote_int }
+    \tl_gput_right:Nx \g_thesmo_cnotes_tl
+      { \exp_not:N \thesmo_cnote:nn { \int_use:N \g_thesmo_cnote_int } { \exp_not:n {#1} } }
   }
 \cs_new_protected:Npn \thesmo_cnote:nn #1#2
   { \textsuperscript{#1}\,#2\space }
 \cs_new_protected:Npn \thesmo_flush_cnotes:
   {
-    \tl_if_empty:NF \l_thesmo_cnotes_tl
+    \tl_if_empty:NF \g_thesmo_cnotes_tl
       {
         \par
-        { \l_thesmo_notesize_tl \leftskip=1em \noindent \l_thesmo_cnotes_tl \par }
-        \tl_clear:N \l_thesmo_cnotes_tl
+        \tl_set_eq:NN \l_tmpa_tl \g_thesmo_cnotes_tl
+        \tl_gclear:N \g_thesmo_cnotes_tl
+        { \l_thesmo_notesize_tl \leftskip=1em \noindent \l_tmpa_tl \par }
       }
-    \int_zero:N \l_thesmo_cnote_int
+    \int_gzero:N \g_thesmo_cnote_int
   }
 
 %% ---------------------------------------------------------- Page diplomatique
