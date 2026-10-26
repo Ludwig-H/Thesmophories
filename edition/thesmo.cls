@@ -643,6 +643,8 @@
       }
       {}
   }
+%% didascalie dans la ligne de traduction : (texte en italique, parenthèses droites)
+\NewDocumentCommand \didasc { m } { \textup{(}{\itshape #1\/}\textup{)} }
 %% espace entre unités
 \NewDocumentCommand \blanc { O{3mm} }
   { \thesmo_add_row:nnn { \vbox_to_ht:nn {#1} {} } { \vbox_to_ht:nn {#1} {} } {} }
