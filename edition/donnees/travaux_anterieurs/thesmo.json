@@ -31,6 +31,7 @@
   "lignes_grecques": 1400,
   "lignes_francaises": 1407,
   "vers_distincts": 1208,
+  "numeros_couverts": 1220,
   "premier_vers": 1,
   "dernier_vers": 1231,
   "commentaires": 357,
@@ -64,10 +65,16 @@
    "etiquette_differente": 72,
    "personnage_absent": 2,
    "numero_corrige": 7,
+   "apparat_decale": 2,
    "numero_diff_HG": 32,
    "etiquette_vers": 6,
    "vers_supprime": 2,
-   "numero_saut": 11
+   "numero_saut": 9
+  },
+  "controle_apparat_numerotation": {
+   "segments_verifies": 390,
+   "concordants": 388,
+   "decales": 2
   }
  },
  "groupes": [
@@ -4059,8 +4066,8 @@
            },
            {
             "texte": "Ἁγάθων et ἀγαθῶν Bibi",
-            "lecon": "Ἁγάθων",
-            "attribution": "et ἀγαθῶν Bibi",
+            "lecon": "Ἁγάθων ἀγαθῶν",
+            "attribution": "et Bibi",
             "retenue": true
            }
           ]
@@ -19943,8 +19950,8 @@
            },
            {
             "texte": "Φιλοκλέης, Ξενοκλέης Bentley",
-            "lecon": "Φιλοκλέης",
-            "attribution": ", Ξενοκλέης Bentley",
+            "lecon": "Φιλοκλέης Ξενοκλέης",
+            "attribution": "Bentley",
             "retenue": true
            }
           ]
@@ -24009,8 +24016,8 @@
            },
            {
             "texte": "οὖν; et ταῦτα; Ellebodius",
-            "lecon": "οὖν;",
-            "attribution": "et ταῦτα; Ellebodius",
+            "lecon": "οὖν; ταῦτα;",
+            "attribution": "et Ellebodius",
             "retenue": true
            }
           ]
@@ -33587,8 +33594,8 @@
       "segments": [
        {
         "vers": "post 276",
-        "debut": null,
-        "fin": null,
+        "debut": 276,
+        "fin": 276,
         "latex": "parepigraphe ὀλολύζουσι τε ἱερὸν ὠθεῖται R : ολολυ[ \\PsiUn",
         "texte": "parepigraphe ὀλολύζουσι τε ἱερὸν ὠθεῖται R : ολολυ[ PSI-1194",
         "entrees": [
@@ -33673,8 +33680,8 @@
       "id": "C0092",
       "notes": [],
       "debut_note": null,
-      "debut": null,
-      "fin": null,
+      "debut": 276,
+      "fin": 276,
       "longueur": 777
      }
     ],
@@ -41782,6 +41789,8 @@
        }
       ],
       "debut_note": null,
+      "suite_de": "C0109",
+      "plage_effective": "365-6",
       "debut": null,
       "fin": null,
       "longueur": 3232
@@ -47485,8 +47494,8 @@
           "lecons": [
            {
             "texte": "πάσας εἰδέας ἐξήτασεν R (sed ἰδέας Suid. ε 22)",
-            "lecon": "πάσας",
-            "attribution": "εἰδέας ἐξήτασεν R (sed ἰδέας Suid. ε 22)",
+            "lecon": "πάσας ἐξήτασεν ἰδέας",
+            "attribution": "εἰδέας R (sed Suid. ε 22)",
             "retenue": true
            },
            {
@@ -52941,7 +52950,7 @@
            {
             "texte": "κύβδ᾽ Rᵖᶜ, M",
             "lecon": "κύβδ᾽",
-            "attribution": "Rᵖᶜ, M",
+            "attribution": "Rᵖᶜ M",
             "retenue": true
            }
           ]
@@ -64951,8 +64960,8 @@
            },
            {
             "texte": "ἥτις (Zanetti) εἴμ᾽ ἤρου; Bentley",
-            "lecon": "ἥτις",
-            "attribution": "(Zanetti) εἴμ᾽ ἤρου; Bentley",
+            "lecon": "ἥτις εἴμ᾽ ἤρου;",
+            "attribution": "(Zanetti) Bentley",
             "retenue": true
            }
           ]
@@ -82095,8 +82104,8 @@
           "lecons": [
            {
             "texte": "τυννοῦτον et τυννοῦτο POxy-3839, Brunck",
-            "lecon": "τυννοῦτον",
-            "attribution": "et τυννοῦτο POxy-3839, Brunck",
+            "lecon": "τυννοῦτον τυννοῦτο",
+            "attribution": "et POxy-3839, Brunck",
             "retenue": true
            },
            {
@@ -83206,7 +83215,7 @@
            {
             "texte": "σφαγεῖον Rᵖᶜ, M",
             "lecon": "σφαγεῖον",
-            "attribution": "Rᵖᶜ, M",
+            "attribution": "Rᵖᶜ M",
             "retenue": true
            }
           ]
@@ -104731,7 +104740,7 @@
     "lignes": [
      {
       "vers": 955,
-      "partie": "a",
+      "partie": "",
       "texte": "χειρὶ σύναπτε χεῖρα,",
       "latex": "χειρὶ σύναπτε χεῖρα,",
       "personnage": "Χορός",
@@ -104841,7 +104850,7 @@
     "lignes": [
      {
       "vers": 955,
-      "partie": "a",
+      "partie": "",
       "vers_fin": null,
       "texte": "les mains enlacées aux mains,",
       "latex": "les mains enlacées aux mains,",
@@ -104869,8 +104878,8 @@
    "fichier": "Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex",
    "etiquette": "v. 953-958",
    "vers": [
-    955,
-    955
+    956,
+    956
    ],
    "personnages": [],
    "personnage_courant": "Χορός",
@@ -104887,8 +104896,8 @@
    "grec": {
     "lignes": [
      {
-      "vers": 955,
-      "partie": "b",
+      "vers": 956,
+      "partie": "a",
       "texte": "†ῥυθμὸν χορείας ὕπαγε πᾶσα†·",
       "latex": "†ῥυθμὸν χορείας ὕπαγε πᾶσα†·",
       "personnage": "Χορός",
@@ -104899,7 +104908,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "suite du vers précédent (déduit : \\ligne{956} plus loin)",
+      "methode_vers": "incrément",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "955a",
@@ -104912,7 +104921,7 @@
      {
       "type": "apparat",
       "ligne_source": 3193,
-      "ancre": 955,
+      "ancre": 956,
       "plage": "956",
       "latex": "\\lecon{ὕπαγε πᾶσα} R : πᾶσ' ὕπαγε Austin",
       "texte": "ὕπαγε πᾶσα R : πᾶσ' ὕπαγε Austin",
@@ -104959,8 +104968,8 @@
     "personnages": [],
     "lignes": [
      {
-      "vers": 955,
-      "partie": "b",
+      "vers": 956,
+      "partie": "a",
       "vers_fin": null,
       "texte": "marque le rythme de la danse.",
       "latex": "marque le rythme de la danse.",
@@ -105009,7 +105018,7 @@
     "lignes": [
      {
       "vers": 956,
-      "partie": "",
+      "partie": "b",
       "texte": "βαῖνε καρπαλίμοιν ποδοῖν.",
       "latex": "βαῖνε καρπαλίμοιν ποδοῖν.",
       "personnage": "Χορός",
@@ -105020,7 +105029,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "\\ligne explicite (répétition résolue en amont)",
+      "methode_vers": "suite du vers précédent (\\ligne répété ; l'apparat confirme le vers précédent)",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "956",
@@ -105040,7 +105049,7 @@
     "lignes": [
      {
       "vers": 956,
-      "partie": "",
+      "partie": "b",
       "vers_fin": null,
       "texte": "Avance de tes pieds alertes.",
       "latex": "Avance de tes pieds alertes.",
@@ -106475,7 +106484,7 @@
     "lignes": [
      {
       "vers": 974,
-      "partie": "",
+      "partie": "a",
       "texte": "Ἥραν τε τὴν τελείαν",
       "latex": "Ἥραν τε τὴν τελείαν",
       "personnage": "Χορός",
@@ -106518,7 +106527,7 @@
     "lignes": [
      {
       "vers": 974,
-      "partie": "",
+      "partie": "a",
       "vers_fin": null,
       "texte": "Héra la conjugale,",
       "latex": "Héra la conjugale,",
@@ -106546,8 +106555,8 @@
    "fichier": "Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex",
    "etiquette": "v. 969-976 strophe b",
    "vers": [
-    975,
-    975
+    974,
+    974
    ],
    "personnages": [],
    "personnage_courant": "Χορός",
@@ -106566,8 +106575,8 @@
    "grec": {
     "lignes": [
      {
-      "vers": 975,
-      "partie": "",
+      "vers": 974,
+      "partie": "b",
       "texte": "μέλψωμεν ὥσπερ εἰκός,",
       "latex": "μέλψωμεν ὥσπερ εἰκός,",
       "personnage": "Χορός",
@@ -106578,7 +106587,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "incrément",
+      "methode_vers": "suite du vers précédent (déduit : \\ligne{979} plus loin)",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "974a",
@@ -106597,8 +106606,8 @@
     "personnages": [],
     "lignes": [
      {
-      "vers": 975,
-      "partie": "",
+      "vers": 974,
+      "partie": "b",
       "vers_fin": null,
       "texte": "qui se récrée",
       "latex": "qui se récrée",
@@ -106626,8 +106635,8 @@
    "fichier": "Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex",
    "etiquette": "v. 969-976 strophe b",
    "vers": [
-    976,
-    976
+    975,
+    975
    ],
    "personnages": [],
    "personnage_courant": "Χορός",
@@ -106646,8 +106655,8 @@
    "grec": {
     "lignes": [
      {
-      "vers": 976,
-      "partie": "a",
+      "vers": 975,
+      "partie": "",
       "texte": "ἣ πᾶσι τοῖς χοροῖσιν ἐμπαίζει τε καὶ",
       "latex": "ἣ πᾶσι τοῖς χοροῖσιν ἐμπαίζει τε καὶ",
       "personnage": "Χορός",
@@ -106658,7 +106667,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "incrément",
+      "methode_vers": "incrément (recalé sur \\ligne{979})",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "975",
@@ -106677,8 +106686,8 @@
     "personnages": [],
     "lignes": [
      {
-      "vers": 976,
-      "partie": "a",
+      "vers": 975,
+      "partie": "",
       "vers_fin": null,
       "texte": "avec tous les chœurs et",
       "latex": "avec tous les chœurs et",
@@ -106727,7 +106736,7 @@
     "lignes": [
      {
       "vers": 976,
-      "partie": "b",
+      "partie": "",
       "texte": "κλῇδας γάμου φυλάττει.",
       "latex": "κλῇδας γάμου φυλάττει.",
       "personnage": "Χορός",
@@ -106738,7 +106747,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "suite du vers précédent (étiquette « v. 969-976 strophe b »)",
+      "methode_vers": "incrément (recalé sur \\ligne{979})",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "976",
@@ -106758,7 +106767,7 @@
     "lignes": [
      {
       "vers": 976,
-      "partie": "b",
+      "partie": "",
       "vers_fin": null,
       "texte": "garde les clefs de l'hymen.",
       "latex": "garde les clefs de l'hymen.",
@@ -106823,7 +106832,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": "(ἀντιστρ. β)",
-      "methode_vers": "incrément",
+      "methode_vers": "incrément (recalé sur \\ligne{979})",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "977",
@@ -106903,7 +106912,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "incrément",
+      "methode_vers": "incrément (recalé sur \\ligne{979})",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "978",
@@ -106983,7 +106992,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "\\ligne explicite",
+      "methode_vers": "\\ligne explicite (répétition résolue en amont)",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "979",
@@ -107802,7 +107811,7 @@
     "lignes": [
      {
       "vers": 986,
-      "partie": "",
+      "partie": "a",
       "texte": "τόρευε πᾶσαν ᾠδήν·",
       "latex": "τόρευε πᾶσαν ᾠδήν·",
       "personnage": "Χορός",
@@ -107845,7 +107854,7 @@
     "lignes": [
      {
       "vers": 986,
-      "partie": "",
+      "partie": "a",
       "vers_fin": null,
       "texte": "Chante à pleine voix.",
       "latex": "Chante à pleine voix.",
@@ -107873,8 +107882,8 @@
    "fichier": "Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex",
    "etiquette": "v. 985-989 mesodos b",
    "vers": [
-    987,
-    987
+    986,
+    986
    ],
    "personnages": [],
    "personnage_courant": "Χορός",
@@ -107893,8 +107902,8 @@
    "grec": {
     "lignes": [
      {
-      "vers": 987,
-      "partie": "",
+      "vers": 986,
+      "partie": "b",
       "texte": "ἡγοῦ δέ γ᾽ ὧδ᾽ αὐτὸς σὺ",
       "latex": "ἡγοῦ δέ γ᾽ ὧδ᾽ αὐτὸς σὺ",
       "personnage": "Χορός",
@@ -107905,7 +107914,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "incrément",
+      "methode_vers": "suite du vers précédent (déduit : \\ligne{989} plus loin)",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "986a",
@@ -107935,8 +107944,8 @@
     "personnages": [],
     "lignes": [
      {
-      "vers": 987,
-      "partie": "",
+      "vers": 986,
+      "partie": "b",
       "vers_fin": null,
       "texte": "Et guide-nous toi-même,",
       "latex": "Et guide-nous toi-même,",
@@ -107964,8 +107973,8 @@
    "fichier": "Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex",
    "etiquette": "v. 985-989 mesodos b",
    "vers": [
-    988,
-    988
+    987,
+    987
    ],
    "personnages": [],
    "personnage_courant": "Χορός",
@@ -107984,7 +107993,7 @@
    "grec": {
     "lignes": [
      {
-      "vers": 988,
+      "vers": 987,
       "partie": "",
       "texte": "κισσοφόρε Βακχεῖε",
       "latex": "κισσοφόρε Βακχεῖε",
@@ -107996,7 +108005,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "incrément",
+      "methode_vers": "incrément (recalé sur \\ligne{989})",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "987",
@@ -108015,7 +108024,7 @@
     "personnages": [],
     "lignes": [
      {
-      "vers": 988,
+      "vers": 987,
       "partie": "",
       "vers_fin": null,
       "texte": "couronné de lierre, seigneur Bacchus.",
@@ -108044,8 +108053,8 @@
    "fichier": "Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex",
    "etiquette": "v. 985-989 mesodos b",
    "vers": [
-    989,
-    989
+    988,
+    988
    ],
    "personnages": [],
    "personnage_courant": "Χορός",
@@ -108064,8 +108073,8 @@
    "grec": {
     "lignes": [
      {
-      "vers": 989,
-      "partie": "a",
+      "vers": 988,
+      "partie": "",
       "texte": "δέσποτ᾽· ἐγὼ δὲ κώμοις",
       "latex": "δέσποτ᾽· ἐγὼ δὲ κώμοις",
       "personnage": "Χορός",
@@ -108076,7 +108085,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "incrément",
+      "methode_vers": "incrément (recalé sur \\ligne{989})",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "988",
@@ -108095,8 +108104,8 @@
     "personnages": [],
     "lignes": [
      {
-      "vers": 989,
-      "partie": "a",
+      "vers": 988,
+      "partie": "",
       "vers_fin": null,
       "texte": "Je te célébrerai",
       "latex": "Je te célébrerai",
@@ -108145,7 +108154,7 @@
     "lignes": [
      {
       "vers": 989,
-      "partie": "b",
+      "partie": "",
       "texte": "σὲ φιλοχόροισι μέλψω.",
       "latex": "σὲ φιλοχόροισι μέλψω.",
       "personnage": "Χορός",
@@ -108156,7 +108165,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "suite du vers précédent (étiquette « v. 985-989 mesodos b »)",
+      "methode_vers": "\\ligne explicite (répétition résolue en amont)",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "989",
@@ -108217,7 +108226,7 @@
     "lignes": [
      {
       "vers": 989,
-      "partie": "b",
+      "partie": "",
       "vers_fin": null,
       "texte": "en des chants bien rythmés.",
       "latex": "en des chants bien rythmés.",
@@ -108570,7 +108579,7 @@
     "lignes": [
      {
       "vers": 993,
-      "partie": "",
+      "partie": "a",
       "texte": "κατ᾽ ὄρεα νυμφᾶν ἐρατοῖς ἐν ὕμνοις,",
       "latex": "κατ᾽ ὄρεα νυμφᾶν ἐρατοῖς ἐν ὕμνοις,",
       "personnage": "Χορός",
@@ -108675,7 +108684,7 @@
     "lignes": [
      {
       "vers": 993,
-      "partie": "",
+      "partie": "a",
       "vers_fin": null,
       "texte": "et qui dans les montagnes, parmi les hymnes aimables des Nymphes,",
       "latex": "et qui dans les montagnes, parmi les hymnes \\fin aimables des Nymphes,",
@@ -108703,8 +108712,8 @@
    "fichier": "Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex",
    "etiquette": "v. 990-994 strophe g",
    "vers": [
-    994,
-    994
+    993,
+    993
    ],
    "personnages": [],
    "personnage_courant": "Χορός",
@@ -108723,8 +108732,8 @@
    "grec": {
     "lignes": [
      {
-      "vers": 994,
-      "partie": "a",
+      "vers": 993,
+      "partie": "b",
       "texte": "†εὔιον εὔιον εὐοῖ",
       "latex": "†εὔιον εὔιον εὐοῖ",
       "personnage": "Χορός",
@@ -108735,7 +108744,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "incrément",
+      "methode_vers": "suite du vers précédent (déduit : \\ligne{994} plus loin)",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "990",
@@ -108765,8 +108774,8 @@
     "personnages": [],
     "lignes": [
      {
-      "vers": 994,
-      "partie": "a",
+      "vers": 993,
+      "partie": "b",
       "vers_fin": null,
       "texte": "Évios ! Évios ! Évoé !",
       "latex": "Évios ! Évios ! Évoé !",
@@ -108815,7 +108824,7 @@
     "lignes": [
      {
       "vers": 994,
-      "partie": "b",
+      "partie": "",
       "texte": "< × ∪∪ ∪ > ἀναχορεύων.",
       "latex": "< $ \\times \\ \\widearc{\\cup \\cup} \\ \\cup $ > ἀναχορεύων.",
       "personnage": "Χορός",
@@ -108826,7 +108835,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "suite du vers précédent (étiquette « v. 990-994 strophe g »)",
+      "methode_vers": "\\ligne explicite (répétition résolue en amont)",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "994",
@@ -108846,7 +108855,7 @@
     "lignes": [
      {
       "vers": 994,
-      "partie": "b",
+      "partie": "",
       "vers_fin": null,
       "texte": "te livres à la danse.",
       "latex": "te livres à la danse.",
@@ -111740,8 +111749,8 @@
            },
            {
             "texte": "προσᾴδουσ' Elmsley, ἀϋτὰς Burges (ἀϋταῖς Sommerstein)",
-            "lecon": "προσᾴδουσ'",
-            "attribution": "Elmsley, ἀϋτὰς Burges (ἀϋταῖς Sommerstein)",
+            "lecon": "προσᾴδουσ' ἀϋτὰς",
+            "attribution": "Elmsley, Burges (ἀϋταῖς Sommerstein)",
             "retenue": true
            },
            {
@@ -117781,8 +117790,8 @@
           "lecons": [
            {
             "texte": "κλαίειν et ἐπικλαίειν R",
-            "lecon": "κλαίειν",
-            "attribution": "et ἐπικλαίειν R",
+            "lecon": "κλαίειν ἐπικλαίειν",
+            "attribution": "et R",
             "retenue": true
            },
            {
@@ -129857,8 +129866,8 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "incrément",
-      "vers_fin": null,
+      "methode_vers": "incrément (la ligne couvre les vv. 1150-1151 selon l'apparat)",
+      "vers_fin": 1151,
       "numeros_consommes": [],
       "vers_HG": "1150",
       "HG_couverture": 0.781,
@@ -130040,7 +130049,7 @@
      {
       "vers": 1150,
       "partie": "",
-      "vers_fin": null,
+      "vers_fin": 1151,
       "texte": "où vous ne permettez pas aux hommes de contempler",
       "latex": "où vous ne permettez pas aux hommes de contempler",
       "personnage": "Chœur",
@@ -130067,8 +130076,8 @@
    "fichier": "Aristophane-Thesmo Harmattan 2023 vv 642-fin-bis.tex",
    "etiquette": "v. 1136-1159",
    "vers": [
-    1151,
-    1151
+    1152,
+    1152
    ],
    "personnages": [],
    "personnage_courant": "Χορός",
@@ -130087,7 +130096,7 @@
    "grec": {
     "lignes": [
      {
-      "vers": 1151,
+      "vers": 1152,
       "partie": "",
       "texte": "ὄργια σεμνὰ θεαῖν ἵνα λαμπάσι.",
       "latex": "ὄργια σεμνὰ θεαῖν ἵνα λαμπάσι.",
@@ -130099,8 +130108,8 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": null,
-      "methode_vers": "incrément",
-      "vers_fin": null,
+      "methode_vers": "incrément (la ligne couvre aussi le v. 1153 selon l'apparat)",
+      "vers_fin": 1153,
       "numeros_consommes": [],
       "vers_HG": "1151",
       "HG_couverture": 0.96,
@@ -130114,7 +130123,7 @@
      {
       "type": "commentaire",
       "ligne_source": 5000,
-      "ancre": 1151,
+      "ancre": 1152,
       "plage": "1151",
       "lemme_latex": "ἵνα,",
       "lemme": "ἵνα,",
@@ -130132,7 +130141,7 @@
        {
         "type": "note",
         "ligne_source": 5002,
-        "ancre": 1151,
+        "ancre": 1152,
         "numero": "1",
         "latex": "On retrouve une glose identique dans de nombreux lexiques : Συναγωγή ι 82 ; Hésychius ι 648 ; Photius ι 133 ; Suidas ι 360 ; \\&c.",
         "texte": "On retrouve une glose identique dans de nombreux lexiques : Συναγωγή ι 82 ; Hésychius ι 648 ; Photius ι 133 ; Suidas ι 360 ; &c.",
@@ -130168,9 +130177,9 @@
     "personnages": [],
     "lignes": [
      {
-      "vers": 1151,
+      "vers": 1152,
       "partie": "",
-      "vers_fin": null,
+      "vers_fin": 1153,
       "texte": "vos saintes orgies à la lueur des torches.",
       "latex": "vos saintes orgies à la lueur des torches.",
       "personnage": "Chœur",
@@ -130234,7 +130243,7 @@
       "antilabe": false,
       "decoupe": null,
       "strophe": "(μεσῳδός β)",
-      "methode_vers": "\\ligne explicite (saut de numérotation)",
+      "methode_vers": "\\ligne explicite",
       "vers_fin": null,
       "numeros_consommes": [],
       "vers_HG": "1152",
@@ -131696,7 +131705,7 @@
            {
             "texte": "ἐμὸν ⟦γ᾽⟧ R²",
             "lecon": "ἐμὸν",
-            "attribution": "⟦γ᾽⟧ R²",
+            "attribution": "⟦γ᾽⟧R²",
             "retenue": true
            }
           ]
@@ -132802,8 +132811,8 @@
            },
            {
             "texte": "ὠς et ὤσπερ Brunck",
-            "lecon": "ὠς",
-            "attribution": "et ὤσπερ Brunck",
+            "lecon": "ὠς ὤσπερ",
+            "attribution": "et Brunck",
             "retenue": true
            }
           ]
@@ -133709,8 +133718,8 @@
        },
        {
         "vers": "post 1187",
-        "debut": null,
-        "fin": null,
+        "debut": 1187,
+        "fin": 1187,
         "latex": "μ$]$\\douteux{ε}νο\\douteux{ }$[$ \\PsiTrois : ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος· R : \\lecon{del.} Ellebodius",
         "texte": "μ]ε̣νο [ POxy-3840: ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένος· R : del. Ellebodius",
         "entrees": [
@@ -134118,8 +134127,8 @@
            },
            {
             "texte": "οὐκὶ (Biset) πιλῆσι Porson (ad Aristophanica p.222), cf. Σ ‘οὐχὶ φιλήσειν'",
-            "lecon": "οὐκὶ",
-            "attribution": "(Biset) πιλῆσι Porson (ad Aristophanica p.222), cf. Σ ‘οὐχὶ φιλήσειν'",
+            "lecon": "οὐκὶ πιλῆσι",
+            "attribution": "(Biset) Porson (ad Aristophanica p.222), cf. Σ ‘οὐχὶ φιλήσειν'",
             "retenue": true
            }
           ]
@@ -134407,8 +134416,8 @@
            },
            {
             "texte": "ὠς et ὤσπερ Brunck",
-            "lecon": "ὠς",
-            "attribution": "et ὤσπερ Brunck",
+            "lecon": "ὠς ὤσπερ",
+            "attribution": "et Brunck",
             "retenue": true
            }
           ]
@@ -134420,7 +134429,7 @@
            {
             "texte": "μέλι POxy-3840, M",
             "lecon": "μέλι",
-            "attribution": "POxy-3840, M",
+            "attribution": "POxy-3840 M",
             "retenue": true
            },
            {
@@ -136535,7 +136544,7 @@
            {
             "texte": "λέλυσο⟦ν⟧ Rᵖᶜ",
             "lecon": "λέλυσο",
-            "attribution": "⟦ν⟧ Rᵖᶜ",
+            "attribution": "⟦ν⟧Rᵖᶜ",
             "retenue": true
            },
            {
@@ -138055,8 +138064,8 @@
            },
            {
             "texte": "γρᾷο et ὀδό Brunck",
-            "lecon": "γρᾷο",
-            "attribution": "et ὀδό Brunck",
+            "lecon": "γρᾷο ὀδό",
+            "attribution": "et Brunck",
             "retenue": true
            }
           ]
@@ -138216,8 +138225,8 @@
            },
            {
             "texte": "διώξει Elmsley (ad Ach. 278) ᾽ς Cobet (Mnemos. 2 (1853), p.213)",
-            "lecon": "διώξει",
-            "attribution": "Elmsley (ad Ach. 278) ᾽ς Cobet (Mnemos. 2 (1853), p.213)",
+            "lecon": "διώξει ᾽ς",
+            "attribution": "Elmsley (ad Ach. 278) Cobet (Mnemos. 2 (1853), p.213)",
             "retenue": true
            }
           ]
@@ -138545,8 +138554,8 @@
            },
            {
             "texte": "κατ᾽ αὐτοὺς Jackson (p.82) ἐς O. Bachmann",
-            "lecon": "κατ᾽ αὐτοὺς",
-            "attribution": "Jackson (p.82) ἐς O. Bachmann",
+            "lecon": "κατ᾽ αὐτοὺς ἐς",
+            "attribution": "Jackson (p.82) O. Bachmann",
             "retenue": true
            }
           ]
@@ -139971,6 +139980,24 @@
    "message": "v. 759 : corrigé : \\ligne{758} répète un numéro ; HG indique 759 (n° reledmac 758) — « τί τῆς ἱερείας γίγνεται; »"
   },
   {
+   "code": "apparat_decale",
+   "gravite": "mineure",
+   "groupe": "G0252",
+   "vers": 374,
+   "fichier": null,
+   "ligne_source": 3022,
+   "message": "Apparat A0117, segment « 374 » (τιμοκλει) : la leçon se trouve dans la ligne numérotée 373 — « τῇ τῶν γυναικῶν· Τιμόκλει᾽ ἐπεστάτει, »"
+  },
+  {
+   "code": "apparat_decale",
+   "gravite": "mineure",
+   "groupe": "G0263",
+   "vers": 435,
+   "fichier": null,
+   "ligne_source": 3236,
+   "message": "Apparat A0133, segment « 435 » (δεινοτερον) : la leçon se trouve dans la ligne numérotée 436 — « οὐδὲ δεινότερον λεγούσης. »"
+  },
+  {
    "code": "numero_diff_HG",
    "gravite": "moyenne",
    "groupe": "G0001",
@@ -140135,29 +140162,20 @@
   {
    "code": "numero_diff_HG",
    "gravite": "info",
+   "groupe": "G0547",
+   "vers": 956,
+   "fichier": null,
+   "ligne_source": 3193,
+   "message": "vv. 956-956 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « †ῥυθμὸν χορείας ὕπαγε πᾶσα†· » = HG 955a)"
+  },
+  {
+   "code": "numero_diff_HG",
+   "gravite": "info",
    "groupe": "G0554",
    "vers": 965,
    "fichier": null,
    "ligne_source": 3221,
    "message": "vv. 965-965 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « οὐκ ὀρθῶς φρονεῖ. » = HG 964)"
-  },
-  {
-   "code": "numero_diff_HG",
-   "gravite": "info",
-   "groupe": "G0564",
-   "vers": 975,
-   "fichier": null,
-   "ligne_source": 3263,
-   "message": "vv. 975-976 (2 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « μέλψωμεν ὥσπερ εἰκός, » = HG 974a)"
-  },
-  {
-   "code": "numero_diff_HG",
-   "gravite": "info",
-   "groupe": "G0578",
-   "vers": 987,
-   "fichier": null,
-   "ligne_source": 3324,
-   "message": "vv. 987-989 (3 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « ἡγοῦ δέ γ᾽ ὧδ᾽ αὐτὸς σὺ » = HG 986a)"
   },
   {
    "code": "numero_diff_HG",
@@ -140221,6 +140239,15 @@
    "fichier": null,
    "ligne_source": 4936,
    "message": "vv. 1139-1139 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « παρθένον ἄζυγα κούρην, » = HG 1138)"
+  },
+  {
+   "code": "numero_diff_HG",
+   "gravite": "info",
+   "groupe": "G0734",
+   "vers": 1152,
+   "fichier": null,
+   "ligne_source": 4999,
+   "message": "vv. 1152-1152 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « ὄργια σεμνὰ θεαῖν ἵνα λαμπάσι. » = HG 1151)"
   },
   {
    "code": "numero_diff_HG",
@@ -140401,24 +140428,6 @@
    "fichier": null,
    "ligne_source": null,
    "message": "v. 1143 absent de la numérotation de l'auteur"
-  },
-  {
-   "code": "numero_saut",
-   "gravite": "moyenne",
-   "groupe": null,
-   "vers": 1152,
-   "fichier": null,
-   "ligne_source": null,
-   "message": "v. 1152 absent de la numérotation de l'auteur"
-  },
-  {
-   "code": "numero_saut",
-   "gravite": "moyenne",
-   "groupe": null,
-   "vers": 1153,
-   "fichier": null,
-   "ligne_source": null,
-   "message": "v. 1153 absent de la numérotation de l'auteur"
   },
   {
    "code": "numero_saut",

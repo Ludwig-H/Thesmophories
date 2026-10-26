@@ -1,0 +1,43 @@
+# Ouvrages du domaine public numérisés sur archive.org, avec OCR Tesseract grec (grc).
+# Indexés page par page (collection « ocr »). OCR NON CORRIGÉ : toute référence trouvée
+# par ce biais se vérifie sur l'image de la page (lien fourni par chercher.py).
+# Colonnes : identifiant archive.org | catégorie | sigle (préfixe de référence) | description bibliographique
+# | options (facultatif, séparées par « ; ») : colonnes=2 (rétablir l'ordre des colonnes d'après le hOCR,
+#   voir hocr_colonnes.py), entrees=suspendu|alinea (découper les pages en articles de lexique :
+#   article commençant à la marge, suite en retrait = suspendu ; article en retrait = alinea)
+identifiant	categorie	sigle	description	options
+scholiagraecain00unkngoog	scholies	Σ Ar. (Dübner)	F. Dübner, Scholia Graeca in Aristophanem, Paris, Firmin-Didot, 1842	colonnes=2
+comicorumatticor01kockuoft	fragments	Kock I	Th. Kock, Comicorum Atticorum fragmenta, I : Antiquae comoediae fragmenta, Leipzig, Teubner, 1880
+comicorumatticor02kockuoft	fragments	Kock II	Th. Kock, Comicorum Atticorum fragmenta, II : Novae comoediae fragmenta, pars I, Leipzig, Teubner, 1884
+comicorumatticor03kockuoft	fragments	Kock III	Th. Kock, Comicorum Atticorum fragmenta, III : Novae comoediae fragmenta, pars II, comicorum incertae aetatis fragmenta, fragmenta incertorum poetarum, Leipzig, Teubner, 1888
+fragmentacomicor01meinuoft	fragments	Meineke I	A. Meineke, Fragmenta comicorum Graecorum, I : Historia critica comicorum Graecorum, Berlin, Reimer, 1839
+p1fragmentacomic02meinuoft	fragments	Meineke II.1	A. Meineke, Fragmenta comicorum Graecorum, II.1 : Fragmenta poetarum comoediae antiquae, Berlin, Reimer, 1839
+fragmentacomicor02meinuoft	fragments	Meineke II.2	A. Meineke, Fragmenta comicorum Graecorum, II.2 : Fragmenta poetarum comoediae antiquae, Berlin, Reimer, 1840
+fragmentacomicor03meinuoft	fragments	Meineke III	A. Meineke, Fragmenta comicorum Graecorum, III : Fragmenta poetarum comoediae mediae, Berlin, Reimer, 1840
+fragmentacomicor04meinuoft	fragments	Meineke IV	A. Meineke, Fragmenta comicorum Graecorum, IV : Fragmenta poetarum comoediae novae, Berlin, Reimer, 1841
+comicorumgraecor11kaib	fragments	Kaibel CGF	G. Kaibel, Comicorum Graecorum fragmenta, I.1 : Doriensium comoedia, mimi, phlyaces, Berlin, Weidmann, 1899
+phtioutoupatria00porsgoog	lexiques	Phot. (Porson)	R. Porson, Φωτίου τοῦ πατριάρχου Λέξεων συναγωγή. Photii Lexicon e codice Galeano descripsit, Londres, 1822 (réimpr. Leipzig, 1823)
+photiipatriarch00nabegoog	lexiques	Phot. (Naber) I	S. A. Naber, Photii patriarchae Lexicon, I, Leyde, Brill, 1864
+photiipatriarcha02phot	lexiques	Phot. (Naber) II	S. A. Naber, Photii patriarchae Lexicon, II, Leyde, Brill, 1865
+etymologikontome00etymuoft_201708	lexiques	EM (Sylburg)	Etymologicum Magnum, éd. F. Sylburg, réimpr. Leipzig, Weigel, 1816 (pagination du scan, à convertir en pages Sylburg/Gaisford pour citer)
+bub_gb_R-zVabafOucC	lexiques	Hsch. (Schmidt min.)	M. Schmidt, Hesychii Alexandrini lexicon, editio minor, Iéna, Mauke, 1867	colonnes=2;entrees=suspendu
+Stobaeus-florilegium-meineke-complet	florileges	Stob. Flor. (Meineke)	A. Meineke, Ioannis Stobaei Florilegium, I–IV, Leipzig, Teubner, 1855–1857
+corpusparoemiogr02leutuoft	paremiographes	CPG II	E. L. von Leutsch, Corpus paroemiographorum Graecorum, II, Göttingen, 1851
+aristophaniscomo02arisuoft	editions	Hall–Geldart II	F. W. Hall – W. M. Geldart, Aristophanis comoediae, II, Oxford, Clarendon Press, 1907 (texte de la « vulgate » Perseus)
+thesmophoriazusa00aris	commentaires	Fritzsche 1838	F. V. Fritzsche, Aristophanis Thesmophoriazusae, Leipzig, 1838
+aristophanisthe00velsgoog	commentaires	Velsen 1883	A. von Velsen, Aristophanis Thesmophoriazusae, Leipzig, Teubner, 1883
+bub_gb_bT0OAAAAYAAJ	paremiographes	CPG I	E. L. von Leutsch – F. G. Schneidewin, Corpus paroemiographorum Graecorum, I : Zenobius, Diogenianus, Plutarchus, Gregorius Cyprius, Appendix, Göttingen, Vandenhoeck & Ruprecht, 1839 (avec les notes, absentes du TEI First1K)
+paroemiographigr00gaisuoft	paremiographes	Gaisford, Paroem.	Th. Gaisford, Paroemiographi Graeci, quorum pars nunc primum ex codicibus manuscriptis vulgatur, Oxford, 1836
+bub_gb_yH0QhhRjYE4C	paremiographes	Miller, Mélanges	E. Miller, Mélanges de littérature grecque contenant un grand nombre de textes inédits, Paris, Imprimerie impériale, 1868 (Zénobius de l'Athous, Etymologicum Florentinum, etc.)
+iuliipollucison00dindgoog	lexiques	Poll. (Dindorf)	W. Dindorf, Iulii Pollucis Onomasticon, I (texte, l. I–X), Leipzig, Kühn, 1824 (l'OCR du vol. I de Bethe, 1900, est inutilisable)
+pollucisonomasti02polluoft	lexiques	Poll. (Bethe) II	E. Bethe, Pollucis Onomasticon, II : libri VI–X, Leipzig, Teubner, 1931 (Lexicographi Graeci IX)
+suidaelexiconexr00suid	lexiques	Sud. (Bekker)	I. Bekker, Suidae Lexicon, Berlin, Reimer, 1854 (complète les lettres absentes de l'Adler First1K : ζ η θ ι υ φ χ ψ, fin de ε et de τ)	colonnes=2;entrees=alinea
+lexiconextribus00albegoog	lexiques	Zonar. (Tittmann) I	J. A. H. Tittmann, Iohannis Zonarae Lexicon ex tribus codicibus manuscriptis, I, Leipzig, Crusius, 1808	colonnes=2;entrees=suspendu
+tragicorumgraeco00naucuoft	fragments	TGF² (Nauck)	A. Nauck, Tragicorum Graecorum fragmenta, 2e éd., Leipzig, Teubner, 1889
+adw8682.0003.001.umich.edu	florileges	Stob. (Hense) III	C. Wachsmuth – O. Hense, Ioannis Stobaei Anthologium, III (= Florilegium, I), Berlin, Weidmann, 1894
+scholiaaristopha01ruthuoft	scholies	Rutherford, Schol. Ar. I	W. G. Rutherford, Scholia Aristophanica, being such comments adscript to the text of Aristophanes as have been preserved in the Codex Ravennas, I, Londres, Macmillan, 1896
+scholiaaristoph00ruthgoog	scholies	Rutherford, Schol. Ar. II	W. G. Rutherford, Scholia Aristophanica, being such comments adscript to the text of Aristophanes as have been preserved in the Codex Ravennas, II, Londres, Macmillan, 1896
+lesscoliesdumanu00martuoft	scholies	Martin 1882	A. Martin, Les scolies du manuscrit d'Aristophane à Ravenne, Paris, Thorin, 1882 (Bibliothèque des Écoles françaises d'Athènes et de Rome, 27)
+poetaelyricigra03berggoog	fragments	Bergk PLG⁴ II	Th. Bergk, Poetae lyrici Graeci, 4e éd., II : poetae elegiaci et iambographi, Leipzig, Teubner, 1882	
+poetaelyricigra02berggoog	fragments	Bergk PLG⁴ III	Th. Bergk, Poetae lyrici Graeci, 4e éd., III : poetae melici, Leipzig, Teubner, 1882	
+bub_gb_y5sQAAAAIAAJ	lexiques	Bekker, Anecd. I	I. Bekker, Anecdota Graeca, I : Lexica Segueriana (Phrynichus, Praeparatio sophistica ; Antiatticista ; Περὶ συντάξεως ; Δικῶν ὀνόματα ; Λέξεις ῥητορικαί ; Συναγωγὴ λέξεων χρησίμων), Berlin, Nauck, 1814 (OCR local Tesseract grc+lat : celui d’archive.org est inutilisable)	

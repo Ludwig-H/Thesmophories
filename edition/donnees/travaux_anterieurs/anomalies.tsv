@@ -130,6 +130,8 @@ numero_corrige	info	G0195	264		2487	v. 264 : corrigé : \ligne{263} répète un 
 numero_corrige	info	G0445	739		1366	v. 739 : corrigé : \ligne{738} répète un numéro ; HG indique 739 (n° reledmac 738) — « παράβαλλε πολλὰς κληματίδας ὦ Μανία. »
 numero_corrige	info	G0462	758		1527	v. 758 : corrigé : \ligne{757} répète un numéro ; HG indique 758 (n° reledmac 757) — « τουτὶ τὸ δέρμα τῆς ἱερείας γίγνεται. »
 numero_corrige	info	G0463	759		1534	v. 759 : corrigé : \ligne{758} répète un numéro ; HG indique 759 (n° reledmac 758) — « τί τῆς ἱερείας γίγνεται; »
+apparat_decale	mineure	G0252	374		3022	Apparat A0117, segment « 374 » (τιμοκλει) : la leçon se trouve dans la ligne numérotée 373 — « τῇ τῶν γυναικῶν· Τιμόκλει᾽ ἐπεστάτει, »
+apparat_decale	mineure	G0263	435		3236	Apparat A0133, segment « 435 » (δεινοτερον) : la leçon se trouve dans la ligne numérotée 436 — « οὐδὲ δεινότερον λεγούσης. »
 numero_diff_HG	moyenne	G0001	3		533	vv. 3-3 (1 ligne(s), trimIamb) : numérotation de l'auteur = Hall-Geldart -1 (ex. « παρὰ σοῦ πυθέσθαι ποῖ μ᾽ ἄγεις ωὖριπίδη; » = HG 4)
 numero_diff_HG	moyenne	G0001	4		557	vv. 4-4 (1 ligne(s), trimIamb) : numérotation de l'auteur = Hall-Geldart +1 (ex. « οἷόν τε, πρὶν τὸν σπλῆνα κομιδῇ μ᾽ ἐκβαλ » = HG 3)
 numero_diff_HG	info	G0210	296		2721	vv. 296-296 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « εὐφημία ἔστω. | » = HG 295)
@@ -148,9 +150,8 @@ numero_diff_HG	info	G0406	677		776	vv. 677-679 (3 ligne(s), lyrique) : numérota
 numero_diff_HG	info	G0411	683		801	vv. 683-688 (4 ligne(s), chantChoeur, tetramTroch) : numérotation de l'auteur = Hall-Geldart +1 (ex. « ἔσται γυναιξὶ καὶ βροτοῖς, » = HG 682)
 numero_diff_HG	info	G0435	718		1166	vv. 718-718 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart -1 (ex. « ἀλλ᾽ οὐ μὰ τὼ θεὼ τάχ᾽ οὐ » = HG 719)
 numero_diff_HG	info	G0438	724		1195	vv. 724-724 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « τάχα δὲ μεταβαλοῦσ᾽ ἐπὶ κακὸν ἑτερότρο- » = HG 723)
+numero_diff_HG	info	G0547	956		3193	vv. 956-956 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « †ῥυθμὸν χορείας ὕπαγε πᾶσα†· » = HG 955a)
 numero_diff_HG	info	G0554	965		3221	vv. 965-965 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « οὐκ ὀρθῶς φρονεῖ. » = HG 964)
-numero_diff_HG	info	G0564	975		3263	vv. 975-976 (2 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « μέλψωμεν ὥσπερ εἰκός, » = HG 974a)
-numero_diff_HG	info	G0578	987		3324	vv. 987-989 (3 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « ἡγοῦ δέ γ᾽ ὧδ᾽ αὐτὸς σὺ » = HG 986a)
 numero_diff_HG	info	G0603	1014		3467	vv. 1014-1017 (3 ligne(s), paratragiques, trimIamb) : numérotation de l'auteur = Hall-Geldart -1 (ex. « ἥξει με σώσων· οὐ γὰρ ἂν παρέπτετο. » = HG 1015)
 numero_diff_HG	info	G0615	1029		3544	vv. 1029-1029 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +2 (ex. « ἄφιλον ἐκρέμασε κόραξι δεῖπνον. » = HG 1027-1028)
 numero_diff_HG	info	G0634	1048		4197	vv. 1048-1049 (2 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « ἄτεγκτε δαίμων· » = HG 1047)
@@ -158,6 +159,7 @@ numero_diff_HG	info	G0649	1069		4333	vv. 1069-1069 (1 ligne(s), lyrique) : numé
 numero_diff_HG	info	G0671	1083		4566	vv. 1083-1084 (4 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « οὖτος τί λαλῖς; » = HG 1082)
 numero_diff_HG	info	G0681	1088		4633	vv. 1088-1089 (4 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « κλαύσαι. » = HG 1087c)
 numero_diff_HG	info	G0723	1139		4936	vv. 1139-1139 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « παρθένον ἄζυγα κούρην, » = HG 1138)
+numero_diff_HG	info	G0734	1152		4999	vv. 1152-1152 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +1 (ex. « ὄργια σεμνὰ θεαῖν ἵνα λαμπάσι. » = HG 1151)
 numero_diff_HG	info	G0735	1154		5006	vv. 1154-1156 (3 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +2 (ex. « φαίνετον ἄμβροτον ὄψιν. » = HG 1152)
 numero_diff_HG	info	G0739	1159		5022	vv. 1159-1159 (1 ligne(s), lyrique) : numérotation de l'auteur = Hall-Geldart +3 (ex. « νῦν ἀφίκεσθον †ἱκετεύομεν ἐνθάδ᾽ ἡμῖν†. » = HG 1156-1157)
 numero_diff_HG	moyenne	G0768	1216		5417	vv. 1216-1216 (1 ligne(s), trimIamb) : numérotation de l'auteur = Hall-Geldart +3 (ex. « Ἀρταμουξία. » = HG 1213a)
@@ -178,6 +180,4 @@ numero_saut	moyenne		1028			v. 1028 absent de la numérotation de l'auteur
 numero_saut	moyenne		1082			v. 1082 absent de la numérotation de l'auteur
 numero_saut	moyenne		1138			v. 1138 absent de la numérotation de l'auteur
 numero_saut	moyenne		1143			v. 1143 absent de la numérotation de l'auteur
-numero_saut	moyenne		1152			v. 1152 absent de la numérotation de l'auteur
-numero_saut	moyenne		1153			v. 1153 absent de la numérotation de l'auteur
 numero_saut	info		1158			v. 1158 absent de la numérotation de l'auteur (absent aussi de Hall-Geldart)

@@ -1,0 +1,416 @@
+# Abréviations d'auteurs et d'œuvres pour l'affichage des références (« Eur. Hel. 255 »).
+# Clé : tlgNNNN (auteur) ou tlgNNNN.tlgNNN (œuvre, numérotation des fichiers CTS Perseus/First1K).
+# Une abréviation d'œuvre vide signifie : « auteur + référence » (Hdt. 1.1, Thuc. 2.40.1).
+# Conventions latines usuelles (OCD/LSJ/DGE adaptées). À enrichir au besoin ; relancer indexer.py.
+# --- Auteurs
+tlg0001	Ap. Rhod.
+tlg0003	Thuc.
+tlg0004	Diog. Laert.
+tlg0005	Theoc.
+tlg0006	Eur.
+tlg0007	Plut.
+tlg0008	Ath.
+tlg0010	Isoc.
+tlg0011	Soph.
+tlg0012	Hom.
+tlg0013	h.Hom.
+tlg0014	Dem.
+tlg0015	Herodian.
+tlg0016	Hdt.
+tlg0017	Isae.
+tlg0018	Philo
+tlg0019	Ar.
+tlg0020	Hes.
+tlg0022	Nic.
+tlg0023	Opp.
+tlg0024	[Opp.]
+tlg0026	Aeschin.
+tlg0027	Andoc.
+tlg0028	Antiph.
+tlg0029	Din.
+tlg0030	Hyp.
+tlg0031	NT
+tlg0032	Xen.
+tlg0033	Pind.
+tlg0034	Lycurg.
+tlg0035	Mosch.
+tlg0036	Bion
+tlg0057	Gal.
+tlg0059	Pl.
+tlg0060	Diod. Sic.
+tlg0061	[Luc.]
+tlg0062	Luc.
+tlg0074	Arr.
+tlg0081	Dion. Hal.
+tlg0082	Ap. Dysc.
+tlg0084	Dion. Per.
+tlg0085	Aesch.
+tlg0086	Arist.
+tlg0087	Hdn.
+tlg0093	Theophr.
+tlg0094	[Plut.]
+tlg0096	Aesop.
+tlg0097	Diogenian.
+tlg0098	Zen.
+tlg0099	Str.
+tlg0199	Bacchyl.
+tlg0233	Hippon.
+tlg0284	Aristid.
+tlg0319	Critias
+tlg0341	Lycoph.
+tlg0385	Cass. Dio
+tlg0521	Epich.
+tlg0525	Paus.
+tlg0526	Joseph.
+tlg0527	LXX
+tlg0532	Ach. Tat.
+tlg0533	Callim.
+tlg0540	Lys.
+tlg0541	Men.
+tlg0542	Poll.
+tlg0543	Polyb.
+tlg0545	Ael.
+tlg0548	Apollod.
+tlg0551	App.
+tlg0555	Clem. Al.
+tlg0557	Epict.
+tlg0561	Longus
+tlg0562	M. Ant.
+tlg0579	Orph.
+tlg0612	Dio Chrys.
+tlg0614	Babr.
+tlg0627	Hippoc.
+tlg0638	Philostr.
+tlg0640	Alciphr.
+tlg0644	Ar. Byz.
+tlg0653	Arat.
+tlg0708	Ammon.
+tlg1220	Batr.
+tlg1252	Certamen
+tlg1389	Harp.
+tlg1402	Heph.
+tlg1486	Matro
+tlg1801	Parod. anon.
+tlg1805	Vit. Hom.
+tlg2003	Julian.
+tlg2018	Euseb.
+tlg2045	Nonnus
+tlg2046	Q. Smyrn.
+tlg2200	Lib.
+tlg2691	Musae.
+tlg3135	Zonar.
+tlg4036	Procl.
+tlg5019	Σ Dion. Per.
+tlg5023	Σ Eur.
+tlg5026	Σ Hom.
+tlg5028	Σ Isoc.
+tlg5029	Σ Luc.
+tlg5031	Σ Nic.
+tlg5034	Σ Pind.
+tlg5037	Σ Soph.
+tlg7000	Anth. Gr.
+tlg9006	Greg. Cypr.
+tlg9007	App. Prov.
+tlg9010	Suda
+# --- Homère, Hymnes, Hésiode
+tlg0012.tlg001	Il.
+tlg0012.tlg002	Od.
+tlg0012.tlg003	Epigr.
+tlg0013.tlg001	1
+tlg0013.tlg002	Cer.
+tlg0013.tlg003	Ap.
+tlg0013.tlg004	Merc.
+tlg0013.tlg005	Ven.
+tlg0013.tlg006	6
+tlg0013.tlg007	7
+tlg0013.tlg008	8
+tlg0013.tlg009	9
+tlg0013.tlg010	10
+tlg0013.tlg011	11
+tlg0013.tlg012	12
+tlg0013.tlg013	13
+tlg0013.tlg014	14
+tlg0013.tlg015	15
+tlg0013.tlg016	16
+tlg0013.tlg017	17
+tlg0013.tlg018	18
+tlg0013.tlg019	19
+tlg0013.tlg020	20
+tlg0013.tlg021	21
+tlg0013.tlg022	22
+tlg0013.tlg023	23
+tlg0013.tlg024	24
+tlg0013.tlg025	25
+tlg0013.tlg026	26
+tlg0013.tlg027	27
+tlg0013.tlg028	28
+tlg0013.tlg029	29
+tlg0013.tlg030	30
+tlg0013.tlg031	31
+tlg0013.tlg032	32
+tlg0013.tlg033	33
+tlg0020.tlg001	Th.
+tlg0020.tlg002	Op.
+tlg0020.tlg003	Sc.
+# --- Tragiques
+tlg0085.tlg001	Supp.
+tlg0085.tlg002	Pers.
+tlg0085.tlg003	PV
+tlg0085.tlg004	Sept.
+tlg0085.tlg005	Ag.
+tlg0085.tlg006	Cho.
+tlg0085.tlg007	Eum.
+tlg0011.tlg001	Trach.
+tlg0011.tlg002	Ant.
+tlg0011.tlg003	Aj.
+tlg0011.tlg004	OT
+tlg0011.tlg005	El.
+tlg0011.tlg006	Phil.
+tlg0011.tlg007	OC
+tlg0011.tlg008	Ichn.
+tlg0006.tlg001	Cyc.
+tlg0006.tlg002	Alc.
+tlg0006.tlg003	Med.
+tlg0006.tlg004	Heracl.
+tlg0006.tlg005	Hipp.
+tlg0006.tlg006	Andr.
+tlg0006.tlg007	Hec.
+tlg0006.tlg008	Supp.
+tlg0006.tlg009	HF
+tlg0006.tlg010	Ion
+tlg0006.tlg011	Tro.
+tlg0006.tlg012	El.
+tlg0006.tlg013	IT
+tlg0006.tlg014	Hel.
+tlg0006.tlg015	Phoen.
+tlg0006.tlg016	Or.
+tlg0006.tlg017	Ba.
+tlg0006.tlg018	IA
+tlg0006.tlg019	Rhes.
+tlg0006.tlg020	fr.
+# --- Aristophane
+tlg0019.tlg001	Ach.
+tlg0019.tlg002	Eq.
+tlg0019.tlg003	Nub.
+tlg0019.tlg004	Vesp.
+tlg0019.tlg005	Pax
+tlg0019.tlg006	Av.
+tlg0019.tlg007	Lys.
+tlg0019.tlg008	Thesm.
+tlg0019.tlg009	Ran.
+tlg0019.tlg010	Eccl.
+tlg0019.tlg011	Plut.
+# --- Lyrique, poésie hellénistique
+tlg0033.tlg001	Ol.
+tlg0033.tlg002	Pyth.
+tlg0033.tlg003	Nem.
+tlg0033.tlg004	Isthm.
+tlg0199.tlg001	Epin.
+tlg0199.tlg002	Dith.
+tlg0005.tlg001	Id.
+tlg0005.tlg002	Epigr.
+tlg0005.tlg003	Syrinx
+tlg0533.tlg003	Epigr.
+tlg0533.tlg004	Epigr. et fr.
+tlg0533.tlg006	Aet.
+tlg0533.tlg007	Iamb.
+tlg0533.tlg009	Hec.
+tlg0533.tlg015	Hymn. 1
+tlg0533.tlg016	Hymn. 2
+tlg0533.tlg017	Hymn. 3
+tlg0533.tlg018	Hymn. 4
+tlg0533.tlg019	Hymn. 5
+tlg0533.tlg020	Hymn. 6
+tlg0001.tlg001	Arg.
+tlg0341.tlg002	Alex.
+tlg0022.tlg001	Ther.
+tlg0022.tlg002	Alex.
+tlg0653.tlg001	Phaen.
+tlg7000.tlg001
+tlg0233.tlg001	fr.
+tlg0521.tlg008	fr.
+tlg0319.tlg004	fr.
+tlg0541.tlg042	Sent.
+tlg0614.tlg001
+tlg0096.tlg002	Fab.
+tlg1220.tlg001
+tlg1486.tlg001	Conv.
+tlg1486.tlg002	fr.
+tlg2691.tlg002	fr.
+tlg0579.tlg010	fr.
+# --- Historiens, géographes
+tlg0016.tlg001
+tlg0003.tlg001
+tlg0060.tlg001
+tlg0099.tlg001
+tlg0525.tlg001
+tlg0548.tlg001	Bibl.
+tlg0548.tlg002	Epit.
+tlg0004.tlg001
+# --- Xénophon
+tlg0032.tlg001	Hell.
+tlg0032.tlg002	Mem.
+tlg0032.tlg003	Oec.
+tlg0032.tlg004	Symp.
+tlg0032.tlg005	Ap.
+tlg0032.tlg006	An.
+tlg0032.tlg007	Cyr.
+tlg0032.tlg008	Hier.
+tlg0032.tlg009	Ages.
+tlg0032.tlg010	Lac.
+tlg0032.tlg011	Vect.
+tlg0032.tlg012	Eq. mag.
+tlg0032.tlg013	Eq.
+tlg0032.tlg014	Cyn.
+# --- Platon
+tlg0059.tlg001	Euthphr.
+tlg0059.tlg002	Ap.
+tlg0059.tlg003	Cri.
+tlg0059.tlg004	Phd.
+tlg0059.tlg005	Cra.
+tlg0059.tlg006	Tht.
+tlg0059.tlg007	Soph.
+tlg0059.tlg008	Plt.
+tlg0059.tlg009	Prm.
+tlg0059.tlg010	Phlb.
+tlg0059.tlg011	Symp.
+tlg0059.tlg012	Phdr.
+tlg0059.tlg013	Alc. 1
+tlg0059.tlg014	Alc. 2
+tlg0059.tlg015	Hipparch.
+tlg0059.tlg016	Amat.
+tlg0059.tlg017	Thg.
+tlg0059.tlg018	Chrm.
+tlg0059.tlg019	La.
+tlg0059.tlg020	Ly.
+tlg0059.tlg021	Euthd.
+tlg0059.tlg022	Prt.
+tlg0059.tlg023	Grg.
+tlg0059.tlg024	Men.
+tlg0059.tlg025	Hp. mai.
+tlg0059.tlg026	Hp. mi.
+tlg0059.tlg027	Ion
+tlg0059.tlg028	Menex.
+tlg0059.tlg029	Clit.
+tlg0059.tlg030	Resp.
+tlg0059.tlg031	Ti.
+tlg0059.tlg032	Criti.
+tlg0059.tlg033	Min.
+tlg0059.tlg034	Leg.
+tlg0059.tlg035	Epin.
+tlg0059.tlg036	Ep.
+tlg0059.tlg037	Def.
+# --- Aristote, Théophraste
+tlg0086.tlg001	An. pr.
+tlg0086.tlg002	de An.
+tlg0086.tlg003	Ath. Pol.
+tlg0086.tlg005	Cael.
+tlg0086.tlg006	Cat.
+tlg0086.tlg009	EE
+tlg0086.tlg010	EN
+tlg0086.tlg012	GA
+tlg0086.tlg013	GC
+tlg0086.tlg014	HA
+tlg0086.tlg017	Int.
+tlg0086.tlg022	MM
+tlg0086.tlg025	Metaph.
+tlg0086.tlg026	Mete.
+tlg0086.tlg027	Mir.
+tlg0086.tlg029	Oec.
+tlg0086.tlg030	PA
+tlg0086.tlg031	Ph.
+tlg0086.tlg034	Poet.
+tlg0086.tlg035	Pol.
+tlg0086.tlg036	Pr.
+tlg0086.tlg038	Rh.
+tlg0086.tlg045	VV
+tlg0093.tlg009	Char.
+# --- Orateurs : numéro du discours
+tlg0034.tlg001	Leoc.
+tlg0029.tlg004	1
+tlg0029.tlg005	2
+tlg0029.tlg006	3
+# --- Athénée, lexicographes, parémiographes
+tlg0008.tlg001
+tlg0542.tlg001
+tlg1389.tlg001
+tlg0708.tlg001	Diff.
+tlg9010.tlg001
+tlg0097.tlg001
+tlg0098.tlg001
+tlg9007.tlg001
+tlg9006.tlg001
+tlg1402.tlg001	Ench.
+tlg1402.tlg002	Introd.
+tlg1402.tlg003	Poem.
+tlg1402.tlg004	Sign.
+tlg1402.tlg005	fr.
+tlg0644.tlg001	Epit.
+# --- Scholies
+tlg5023.tlg001	vet.
+tlg5023.tlg010	Vit.
+tlg5023.tlg011	Rhes.
+tlg5023.tlg012	Tro.
+tlg5023.tlg013	Hipp.
+tlg5023.tlg014	Hec.
+tlg5023.tlg015	Or.
+tlg5023.tlg016	Phoen.
+tlg5026.tlg001	Il.
+tlg5026.tlg007	Od.
+tlg5034.tlg001a	Ol.
+tlg5034.tlg001b	Pyth.
+tlg5034.tlg001c	Nem.
+tlg5034.tlg001d	Isthm.
+tlg5037.tlg004	vet.
+tlg5029.tlg001
+tlg5031.tlg001	Ther.
+tlg5031.tlg002	Alex.
+tlg5028.tlg001
+# --- Divers
+tlg0545.tlg001	NA
+tlg0545.tlg002	VH
+tlg0545.tlg003	Ep.
+tlg0545.tlg004	fr.
+tlg0640.tlg001	Ep.
+tlg0612.tlg001	Or.
+tlg0284.tlg001	Or.
+tlg2200.tlg001	Ep.
+tlg0561.tlg001
+tlg0532.tlg001
+# --- Orateurs : par défaut, numéro du discours = numéro CTS (Dem., Lys., Aeschin., Andoc., Antiph., Isae., Hyp.)
+tlg0014.tlg062	Ex.
+tlg0014.tlg063	Ep.
+tlg0026.tlg004	Ep.
+# Isocrate : numérotation CTS ≠ numérotation usuelle des discours
+tlg0010.tlg001	21
+tlg0010.tlg002	18
+tlg0010.tlg003	20
+tlg0010.tlg004	16
+tlg0010.tlg005	17
+tlg0010.tlg006	19
+tlg0010.tlg007	1
+tlg0010.tlg008	13
+tlg0010.tlg009	10
+tlg0010.tlg010	11
+tlg0010.tlg011	4
+tlg0010.tlg012	14
+tlg0010.tlg013	2
+tlg0010.tlg014	3
+tlg0010.tlg015	9
+tlg0010.tlg016	6
+tlg0010.tlg017	8
+tlg0010.tlg018	7
+tlg0010.tlg019	15
+tlg0010.tlg020	5
+tlg0010.tlg021	12
+tlg0010.tlg022	Ep. 1
+tlg0010.tlg023	Ep. 6
+tlg0010.tlg024	Ep. 9
+tlg0010.tlg025	Ep. 8
+tlg0010.tlg026	Ep. 7
+tlg0010.tlg027	Ep. 2
+tlg0010.tlg028	Ep. 5
+tlg0010.tlg029	Ep. 4
+tlg0010.tlg030	Ep. 3
+tlg0007.tlg146	Prov. Alex.
+tlg0007.tlg147	De imposs.
