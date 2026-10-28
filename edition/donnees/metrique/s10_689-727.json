@@ -1,0 +1,297 @@
+[
+  {
+    "v": "688",
+    "partie": "a",
+    "schema": "",
+    "colon": "extra metrum",
+    "note": "= v. 688 Wilson ; dans le v. 689 chez Coulon. Interjection hors mètre. R écrit ἀά en petit, au-dessus du début de la ligne de 689 (lu sur l'image, f. 170v). ἆ ἆ isolé hors mètre : Thiersch (Wilson 2007, p. 100, qui l'imprime ainsi) ; « extr. metr. » dans les travaux antérieurs de l'auteur. Coulon 1928 (p. 47) et Hall–Geldart font entrer un seul ἆ (Bergler) dans le trimètre (ἆ ποῖ σὺ φεύγεις…, avec un seul ποῖ) : même compte de douze syllabes."
+  },
+  {
+    "v": "688",
+    "partie": "b",
+    "schema": "––⏑– ––⏑– ⏑–⏑– ‖",
+    "colon": "3ia",
+    "note": "= v. 689 (Coulon, Wilson). Rangée « suite » de 688 dans texte.tex, mais c'est un trimètre complet, à numéroter 689. Le second ποῖ (Biset ; Wilson) est exigé par le mètre : R, ποῖ σὺ φεύγεις… (vu sur l'image), n'a que onze syllabes ; Rogers 1904 (p. 209) : le redoublement convient au style de la femme (οὗτος οὗτος, τάλαινα τάλαινα). Césure penthémimère après φεύγεις. -τος bref devant οὗ- et devant οὐ (resyllabation)."
+  },
+  {
+    "v": "690",
+    "partie": "",
+    "schema": "⏑–⏑– ⏑–⏑– ⏑–⏑– ‖",
+    "colon": "3ia",
+    "note": "Trimètre pur : aucune résolution, les trois ancipitia brefs."
+  },
+  {
+    "v": "691",
+    "partie": "",
+    "schema": "––⏑– ––⏑⏖ ––⏑– ‖",
+    "colon": "3ia",
+    "note": "Résolution de la 8e position (ἀπὸ). -δος bref devant ἀ- (resyllabation)."
+  },
+  {
+    "v": "692",
+    "partie": "",
+    "schema": "⏑–⏑– ⏑–⏑⏖ ⏑–⏑– ‖",
+    "colon": "3ia",
+    "note": "κέ- bref devant κρ (correption attique). Résolution de la 8e position (-ποτε)."
+  },
+  {
+    "v": "693",
+    "partie": "",
+    "schema": "––⏑– ––⏑⏖ ––⏑– ‖",
+    "colon": "3ia",
+    "note": "Résolution de la 8e position (δ᾽ ἐπὶ)."
+  },
+  {
+    "v": "694",
+    "partie": "",
+    "schema": "––⏑– ––⏑– ⏑–⏑– ‖",
+    "colon": "3ia",
+    "note": "Sans résolution, de facture tragique (693-695 : citation ou adaptation d'Euripide, voir le commentaire de l'auteur). μαχαίρᾳ : -ρᾳ long (anceps long)."
+  },
+  {
+    "v": "695",
+    "partie": "a",
+    "schema": "⏑–⏑– ––⏑",
+    "colon": "3ia",
+    "note": "Trimètre partagé (695a-b) : Mnésiloque achève sa période, Mika reprend à la 8e position (ὢ). -μόν bref devant ὢ (resyllabation). Pas de signe final : le vers continue en 695b."
+  },
+  {
+    "v": "695",
+    "partie": "b",
+    "schema": "– ⏑–⏑– ‖",
+    "colon": "",
+    "note": "Suite du trimètre 695 (positions 8 à 12)."
+  },
+  {
+    "v": "696",
+    "partie": "",
+    "schema": "⏑–⏑– ⏑–⏑– ––⏑– ‖",
+    "colon": "3ia",
+    "note": "-κες bref devant οὐκ, -ξετ᾽ devant οὐ (resyllabation)."
+  },
+  {
+    "v": "697",
+    "partie": "",
+    "schema": "––⏑– ⏑–⏑– ⏑–⏑– ‖",
+    "colon": "3ia",
+    "note": "καί manque dans R (vu sur l'image : στήσεσθε τροπαῖον) ; donné par la scholie à Plut. 453 et par Grégoire de Corinthe (apparats de l'auteur, de Coulon et de Wilson). Sans lui le vers n'a que onze syllabes : le mètre garantit le supplément. τρο- bref devant π ; τροπαῖον et τρόπαιον ont la même quantité."
+  },
+  {
+    "v": "698",
+    "partie": "",
+    "schema": "⏑–⏑⏖ ––⏑– ⏑–⏑– ‖",
+    "colon": "3ia",
+    "note": "τέ- bref devant κν (correption ; position d'anceps, sans conséquence). Résolution de la 4e position (περι-). -πο- long devant στ."
+  },
+  {
+    "v": "699",
+    "partie": "",
+    "schema": "",
+    "colon": "extra metrum",
+    "etiquette": "do",
+    "note": "Cri du chœur hors mètre, suivi d'hiatus (ἔα | ὦ). « extra metrum » : Zimmermann 1987, p. 74 (avec Hiat) ; Prato 2001, p. 351 (⏑– ⏑–) ; « anaphonema » : White 1912, p. 449 ; « προαναφώνημα » : travaux antérieurs de l'auteur. R : ἔα ἔα seul sur sa ligne, au milieu de la colonne (f. 170v) ; de même Coulon, Wilson. Étiquette « do » (forme de la consigne ; texte.tex : « lyr. ») : 699-701 sont purement dochmiaques."
+  },
+  {
+    "v": "700",
+    "partie": "",
+    "schema": "–⏖––– ⏑⏖–⏑– |",
+    "colon": "2do",
+    "note": "ὦ long (premier élément long) ; πό- bref devant τν (correption, la règle dans les dochmiaques : West 1987, p. 58) ; Μοῖ- long au 4e élément : –⏖––– ; puis ⏑⏖–⏑– avec τί τόδε (Dobree), leçon de l'auteur, de Coulon, Wilson, Prato et Zimmermann. R τί δὲ δέρκομαι (vu sur l'image) est trop court d'une syllabe (⏑⏑–⏑–, « ia » : Di Virgilio 2026, p. 100) ; τί δή (Reisig) donnerait ⏑––⏑–. Même analyse chez Zimmermann 1987, p. 74 (« 2 do (18,2) »), Prato 2001, p. 351, Di Virgilio 2026, p. 99-100. Une ligne de R pour 700, une pour 701 (vu sur l'image) : coupe de l'auteur, de Coulon, Wilson, Zimmermann, Prato. Les trois dochmiaques en un seul vers : Dindorf et Blaydes d'après Conradt 1910 (p. 53), qui les approuve ; « dochmischer Trimeter » : Rossbach 1889, p. 806. Enger 1844 (p. 123) eût préféré ὦ πότνιαι Μοῖραι | τί τόδε … τέρας (do | 2do), sans changer la coupe reçue."
+  },
+  {
+    "v": "701",
+    "partie": "",
+    "schema": "⏑⏖–⏑– ‖",
+    "colon": "do",
+    "note": "-ο- de νεοχμὸν bref devant χμ (correption) : premier long résolu (-οχμὸ-) ; -ὸν bref devant αὖ. En allongeant -ο- on aurait ⏑–⏑–⏑– (forme dite kaibélienne), moins probable après 700. Même forme que le second dochmiaque de 700 (Di Virgilio 2026, p. 99-100, qui n'exclut pas un hypodochmiaque ; Zimmermann : « do (2) »). Fin de la section : changement de mètre (‖)."
+  },
+  {
+    "v": "702",
+    "partie": "",
+    "schema": "–⏑–⏑ –⏑–– ⏑––– –⏑– ‖",
+    "colon": "4tr∧",
+    "etiquette": "tr⁴",
+    "note": "Tel qu'imprimé, le vers est faux aux 9e et 10e positions : πλέα (Souda α 2902) vaut ⏑– (πλέᾱ, n. pl. de πλέως : LSJ), là où le tétramètre veut –⏑. La croix de l'auteur est donc fondée sur le mètre, comme le dit son commentaire critique. ἔργα (R ; gardé par Coulon et Rogers 1904, p. 210) et μεστά (Porson ; Hall–Geldart, Wilson) donnent –⏑. ἅπαντ᾽ ἄρ᾽ (Bentley) et ἅπαν γὰρ (R) ont la même quantité ; ἐστὶν (R, ν éphelcystique) rendrait longue la 6e position. κἀ- long (crase)."
+  },
+  {
+    "v": "703",
+    "partie": "",
+    "schema": "–⏑–⏑ –⏑–⏑ –⏑–⏑ –⏑⏓ ‖",
+    "colon": "4tr∧",
+    "note": "δρᾱ- long (δέδρᾱκα) ; les quatre ancipitia brefs (-γον bref devant οἷον, par resyllabation)."
+  },
+  {
+    "v": "704",
+    "partie": "",
+    "schema": "–⏑–– –⏑–– –⏑–– –⏑– ‖",
+    "colon": "4tr∧",
+    "note": "R ἐξάρξω (vu sur l'image) a une syllabe de moins. ἐξαράξω (Coulon, Prato, Wilson), ἐξαράξει (Enger 1844) et ἐξαρήξω (Bibi) donnent tous ⏑–– aux positions 6-8. ῡμῶν ; ἄγᾱν (α final long) ; αὐθᾱ-."
+  },
+  {
+    "v": "705",
+    "partie": "",
+    "schema": "–⏑–– –⏑–⏑ –⏑–⏑ –⏑– ‖",
+    "colon": "4tr∧",
+    "note": "πρᾱγ- long. Tétramètre de la coryphée selon Muff 1872 (p. 162-165), du chœur dans texte.tex."
+  },
+  {
+    "v": "706",
+    "partie": "",
+    "schema": "–⏑–⏖ –⏑–– –⏑–⏑ –⏑– ‖",
+    "colon": "4tr∧",
+    "note": "ὁτιή (Faber selon Prato et Wilson ; Bentley selon Coulon) : la 4e position (anceps) est résolue (θ᾽ ὁτι-), « dactyle » admis dans le tétramètre comique. R ὅτι (vu sur l'image) est faux : la 5e position serait brève. ὅστις (Porson ; Enger, Hall–Geldart) donne un vers sans résolution."
+  },
+  {
+    "v": "707",
+    "partie": "",
+    "schema": "⏑⏑––– ––⏑⏑⏖ |",
+    "colon": "2an",
+    "etiquette": "an.",
+    "renfoncement": 3,
+    "note": "Dimètre à procéleusmatique final (τά τις ὅτε) : Rogers 1904, p. 71-72 ; Prato 2001, p. 351 (« soluzione proceleusmatica », comme en 667) ; Di Virgilio 2026, p. 101. τί bref en hiatus (τί ἂν) ; -τε en synaphie avec 708. Colométrie de 707-713 : celle de R (une ligne par rangée, toutes en retrait : vu sur l'image), de Coulon, Prato, Zimmermann et de l'auteur. White 1912 (§ 472) les réunit en deux « hexamètres » anapestiques ; Mazon 1904 (p. 132) parle de deux systèmes."
+  },
+  {
+    "v": "708",
+    "partie": "",
+    "schema": "––⏑⏑– ⏑⏑––– |",
+    "colon": "2an",
+    "renfoncement": 3,
+    "note": "τοι- long malgré la voyelle suivante (Prato 2001, p. 351 : « mancato abbreviamento in iato ») ; ποι- bref devant -ῶν (correption ; Schroeder 1909, p. 62, imprime πο(ι)ῶν). Zimmermann : pause (⁞) après 708."
+  },
+  {
+    "v": "709",
+    "partie": "",
+    "schema": "–––– ⏑⏑–– ‖",
+    "colon": "2an∧",
+    "renfoncement": 3,
+    "note": "Parémiaque de Mnésiloque, suivi d'hiatus (-μαι | ἀλλ᾽) et d'un changement d'interlocuteur : fin de période (Zimmermann ‖ Hiat ; Prato ‖H). Même schéma, syllabe pour syllabe, que 669 dans le texte de l'auteur (τοῖς ἄλλοις ἀνδράσιν ἔσται)."
+  },
+  {
+    "v": "710",
+    "partie": "",
+    "schema": "–––– ⏑⏑–– ‖",
+    "colon": "2an∧",
+    "renfoncement": 3,
+    "note": "Parémiaque. ἥκειν γ᾽ (Bibi, d'après Photius η 88), ἥκεις τ᾽ (R), ἥκεις γ᾽ (Souda), ἥκων γ᾽ (Willems ; Coulon, Prato) : même quantité. L'étiquette « lyr. » de texte.tex est supprimée : 707-713 forment un seul système d'anapestes lyriques (étiquette « an. » en 707) ; même renfoncement que 707-709, comme dans R. Avec le texte que suppose la scholie (ἥκεις, φησίν, εἰς τὰς χεῖρας ἡμῶν, ὅθεν οὐ φεύξῃ) : ἀλλ᾽ οὖν ἥκεις γ᾽ ὅθεν οὐ φαύλως (γ᾽) | ἀποδρὰς λέξεις (Reisig : Enger 1844, p. 124, Hall–Geldart ; Meineke : Wilson 2007, p. 101 ; Sommerstein 1994, p. 199, suit la scholie et tient 707-713 pour « metrically identical » à 667-673), ou ὅθεν οὐ λέξεις | φαύλως γ᾽ ἀποδράς (Schroeder 1909, p. 62), on a 2an | an, comme en 670-671 (voir l'analyse, § 4)."
+  },
+  {
+    "v": "711",
+    "partie": "",
+    "schema": "––⏑⏑– ––– ‖",
+    "colon": "2an∧",
+    "renfoncement": 3,
+    "note": "Parémiaque dont le troisième biceps est contracté (οὐκ) : rare, mais transmis (R οὐ λέξεις, même schéma ; Prato et Di Virgilio : ––⏑⏑––––). -πο- bref devant δρ (correption) ; ἀποδρᾱ́ς. Avec οὐκ ἔξει (Bibi ; Cobet avait proposé ἥκεις γ᾽ ὅθεν οὐκ ἔξει en 710, selon Enger 1844, p. 124), hiatus ἔξει | οἷον, admissible en fin de période après une catalexe."
+  },
+  {
+    "v": "712",
+    "partie": "",
+    "schema": "–––– ⏑⏑––– |",
+    "colon": "2an",
+    "renfoncement": 3,
+    "note": "δρᾱ- long ; διέδῡς : -δυ- long (aoriste radical ἔδῡν) ; -γον long devant λ (synaphie avec 713)."
+  },
+  {
+    "v": "713",
+    "partie": "",
+    "schema": "––⏑⏑– ‖",
+    "colon": "an",
+    "renfoncement": 3,
+    "note": "Monomètre qui clôt le système (Zimmermann ‖). λήψει (R) et λήψῃ (Souda) : même quantité."
+  },
+  {
+    "v": "714",
+    "partie": "",
+    "schema": "–⏑–– –⏑–⏑ –⏑–⏑ –⏑– ‖",
+    "colon": "4tr∧",
+    "etiquette": "tr⁴",
+    "note": "Tétramètre de Mnésiloque au milieu de l'amébée. -τοι long devant μ (anceps long). Il répond au trimètre trochaïque catalectique 674 (Rossbach 1889, p. 172, qui soupçonne ἀπεύχομαι ; Sommerstein 1994, p. 199, « cf. 674 ») : un mètre de plus dans l'antistrophe."
+  },
+  {
+    "v": "715",
+    "partie": "",
+    "schema": "⏑––⏑– –⏖–⏑– |",
+    "colon": "2do",
+    "etiquette": "do",
+    "note": "τίς bref devant οὖν et devant ἂν (resyllabation) ; σοι long ; -χος bref devant ἐκ. Dochmiaque simple, puis –⏖–⏑– (premier élément long, première longue résolue : σύμ-μαχο-). οὖν (R, gardé par l'auteur) ou ἂν (Coulon, Wilson) : même quantité. = Zimmermann 1987, p. 74 (« 2 do (1,10) ») ; Prato 2001, p. 351 ; Di Virgilio 2026, p. 101-102. R : ligne propre, commencée à la marge comme 716-717 (vu sur l'image)."
+  },
+  {
+    "v": "716",
+    "partie": "",
+    "schema": "–⏖––– ⏑⏖––– ‖",
+    "colon": "2do",
+    "note": "ᾱθανάτων : ᾱ- long, comme partout chez Aristophane où la quantité se laisse établir (Nub. 288 ; Av. 220, 688, 700 ; Thesm. 1052) ; ξὺν bref devant ἀ- (resyllabation). Deux dochmiaques au 4e élément long (–⏖––– et ⏑⏖–––) : Di Virgilio 2026, p. 101-102, et Parker 1997 selon le tableau de Di Virgilio (p. 115). Zimmermann 1987 (p. 74 : « 2 do (26) ») et Prato 2001 (p. 351) notent ἀ- bref, d'où deux dochmiaques identiques ⏑⏖––– : symétrie séduisante, prosodie moins probable."
+  },
+  {
+    "v": "717",
+    "partie": "",
+    "schema": "⏑–⏑– ⏑–⏑– ⏑–– ‖",
+    "colon": "3ia∧",
+    "etiquette": "ia³ cat.",
+    "note": "Synizèse ἐγὼ οὐκ (une seule longue : ἐγὼ͜ οὐκ) ; ἐγ᾽ οὐκ (Biset) ou ἐγὼ ᾽κ (Bentley), cités par Prato 2001 (p. 78), reviennent au même. Prato (p. 351) note la synecphonèse « al v. 718 » [sic, pour 717]. Hiatus final (ἀφήσω | ἀλλ᾽) et changement d'interlocuteur : fin de période (Zimmermann et Prato ‖ Hiat). Répond au 3ia∧ 678 de la strophe. Étiquette « ia³ cat. » ajoutée : sans elle, « do » (715) courrait jusqu'à 717."
+  },
+  {
+    "v": "719",
+    "partie": "",
+    "schema": "––⏑– ⏑–⏑– |",
+    "colon": "2ia",
+    "etiquette": "lyr.",
+    "note": "= v. 718 Coulon, Wilson (719 dans texte.tex, numérotation Hall–Geldart, dont la coupe est différente). θεὼ dissyllabique (⏑–). Coupe de R (trois lignes pour 718-720 : vu sur l'image), de Coulon, de Zimmermann (2 ia ×3) et de l'auteur. Prato (p. 351 : « 4 ia ») et Wilson réunissent 718-719 en une ligne ; White 1912 (§ 472) et Schroeder 1909 lisent ἀλλ᾽ … ἴσως comme un trimètre iambique, suivi d'un trimètre dochmiaque (ἐνυβριεῖς λόγους | λέξεις τ᾽ ἀνοσίους | ἐπ᾽ ἀθέοις ἔργοις, avec λέξεις τ᾽ de Fritzsche). Rogers 1904 (p. 208-209) défend au contraire les trois dimètres de 718-720 et refuse de les aligner sur la strophe."
+  },
+  {
+    "v": "720",
+    "partie": "a",
+    "schema": "––⏑– ⏑–⏑– |",
+    "colon": "2ia",
+    "note": "= v. 719 Coulon, Wilson. ἴσως : ῐ bref. -νυ- de ἐνυβριεῖς allongé devant βρ (Prato 2001, p. 351 : « allungamento della vocale breve dinanzi a muta cum liquida ») : sans cet allongement le dimètre ne se scande pas. ἐνυβρίσεις (R) a la même quantité (⏑–⏑–)."
+  },
+  {
+    "v": "720",
+    "partie": "b",
+    "schema": "⏑–⏑– –⏖⏑– |",
+    "colon": "2ia",
+    "note": "= v. 720 Coulon, Wilson (rangée non numérotée dans texte.tex ; partie « b » attribuée ici à la suite de la rangée 720). Résolution de la 6e position (ἀνο-). Le texte de R se scande sans faute : rien dans le mètre ne confirme le jugement de Mazon 1904 (p. 132 n. 3 : « 720 est certainement altéré »)."
+  },
+  {
+    "v": "721",
+    "partie": "",
+    "schema": "⏑⏖––– |",
+    "colon": "do",
+    "note": "ξὺν ἀθέοις ἔργοις (ξὺν Bibi) : ξὺν bref devant ἀ- ; 4e élément long. C'est exactement la forme et presque les mots de 716 (ξὺν ἀδίκοις ἔργοις, ⏑⏖–––). ἐπ᾽ (Enger 1844, p. 125, sur une idée d'Hermann : ἀθέοις ἐπ᾽ ἔργοις ; Velsen, Schroeder, White, Hall–Geldart, Wilson ; Parker selon l'auteur et Di Virgilio 2026, p. 115 n. 43) donne le même schéma. R : ἀθέοις ἔργοις γὰρ ἀντα- | μειψόμεσθα… (vu sur l'image, f. 171r), que Di Virgilio (p. 101) scande io tr | 3tr. ἀθέοις γὰρ ἔργοις ἀνταμει- (Burges selon Wilson et l'auteur ; Voss selon Zimmermann) | ψόμεσθα… : 2ia | 3ia∧ (Zimmermann, p. 75 ; Prato, p. 351). Voir l'analyse, § 5.12."
+  },
+  {
+    "v": "722",
+    "partie": "",
+    "schema": "–⏑–⏑ –⏑–⏑ –⏑–⏑ –⏑–⏓ ‖",
+    "colon": "4tr",
+    "note": "Tétramètre trochaïque acatalecte, chanté par le chœur (« tetram. troch. » dans les travaux antérieurs de l'auteur, à côté de « 4 troch. cat. » pour les tétramètres récités). Il repose sur le καί d'Hermann (H–G, White, Schroeder, Wilson) ; avec le seul γάρ de R, la même suite (γὰρ ἀνταμειψόμεσθα … τῶνδε) vaut ⏑–⏑– ⏑–⏑– ⏑–⏑– ⏑–⏓, tétramètre iambique catalectique. -με- long devant σθ. L'étiquette « tr⁴ » de texte.tex est supprimée : ce n'est pas un tétramètre récité, le chant « lyr. » continue (voir l'analyse, § 5.12)."
+  },
+  {
+    "v": "723",
+    "partie": "",
+    "schema": "⏑⏖⏖⏑– ⏑⏖⏖⏑⏖",
+    "colon": "2do",
+    "note": "= vv. 723-724 Coulon, Wilson. Deux dochmiaques très résolus (⏑⏖⏖⏑–, puis ⏑⏖⏖⏑⏖) : la limite tombe dans μεταβαλοῦ|σ᾽, le second finit par une longue résolue (-ρότρο-) ; pas de signe final : le colon s'arrête à l'intérieur de ἑτερότρο|πον. Texte de l'auteur : σε supprimé (Fritzsche ; glose selon Taillardat), τάχα (R ; ταχύ Coulon, Wilson : même quantité). = Zimmermann 1987, p. 75 (« 2 do (5,6) ») ; Prato, p. 351 (3 do pour 723-725) ; Parker selon Di Virgilio 2026, n. 44 et 45 (p. 115-116). Avec le σε de R (et la coupe de R : τάχα δέ σε μεταβαλοῦ- | σ᾽ ἐπὶ κακὸν ἑτερότροπον) : ⏑⏖⏑⏖⏑– | ⏑⏖⏑⏖⏑⏖, dochmiaques dits kaibéliens selon Di Virgilio (p. 101-103)."
+  },
+  {
+    "v": "725",
+    "partie": "",
+    "schema": "⏑⏖–⏑– ‖",
+    "colon": "do",
+    "note": "πον ἐπέχει τύχη : -πον bref devant ἐ- ; premier long résolu (ἐπέ-). ἑτερότροπον (R, gardé par l'auteur) ou -τροπος (Blaydes ; Coulon, Wilson, Prato) : même quantité. τις supprimé (Bergk) ; Parker scande de même ⏑⏖–⏑– (d'après Di Virgilio 2026, n. 41). Avec le τις de R (ligne ἐπέχει τις τύχη) : ⏖––⏑–, premier élément réalisé par deux brèves (Di Virgilio 2026, p. 103 : « non individuato dalla Parker »). Fin du chant."
+  },
+  {
+    "v": "726",
+    "partie": "",
+    "schema": "–⏑–⏑ –⏑–– –⏑–⏑ –⏑– ‖",
+    "colon": "4tr∧",
+    "etiquette": "tr⁴",
+    "note": "χρῆν σ᾽ (R ; Wilson) ou χρῆν (Enger ; Coulon) : même schéma. Les deux tétramètres de la coryphée répondent à 687-688 (White 1912, p. 448 ; Rossbach 1889, p. 172)."
+  },
+  {
+    "v": "727",
+    "partie": "",
+    "schema": "–⏑–– –⏑–– –⏑–⏑ –⏑– ‖",
+    "colon": "4tr∧",
+    "note": "-σον long devant τ ; -χος final long (syllabe fermée en fin de vers)."
+  }
+]

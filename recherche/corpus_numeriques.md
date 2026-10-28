@@ -76,7 +76,7 @@ déjà téléchargés sont indexés (collection « drive ») ; les PDF dont le g
 | Théâtre (Aristophane, tragiques, Ménandre) | complète (Perseus, textes TEI) | Thesmophories : Hall–Geldart (vulgate de collation exportée dans `.sources/corpus/thesmo_hall_geldart.tsv`) |
 | Fragments comiques | Kock (CAF), Meineke (FCG), Kaibel (CGF), OCR | Kassel–Austin (PCG) présent sur le Drive mais non téléchargeable (> 10 Mo) : vérifier les numéros K.-A. sur les éditions papier ou les concordances |
 | Fragments tragiques | Nauck, TGF² (OCR) | TrGF (Snell, Kannicht, Radt) : Drive, non téléchargeable |
-| Hésychius | éd. minor de Schmidt (1867), découpée en articles (OCR, colonnes rétablies) | Latte–Hansen–Cunningham : Drive, non téléchargeable ; numéros d'articles de Latte à contrôler |
+| Hésychius | Latte–Hansen–Cunningham, t. I (Α–Δ), IIa (Ε–Ι), III (Π–Σ), IV (Τ–Ω) : PDF du Drive, texte rétabli et découpé en gloses numérotées (§ 7, en cours) ; éd. minor de Schmidt (1867), en articles (OCR, colonnes rétablies), seule source pour Κ–Ο | t. IIb (Κ–Ο) de Latte–Cunningham absent du Drive |
 | Souda | Adler (First1KGreek, partielle) et Bekker (1854, OCR, en articles) | |
 | Photius, Pollux, Etymologica, Zonaras, Lexica Segueriana | Porson et Naber ; Dindorf et Bethe II ; *Etymologicum magnum* (Sylburg) ; Tittmann I ; Bekker, *Anecdota* I (OCR) | |
 | Parémiographes | CPG I (First1KGreek et OCR) et II (OCR) ; Gaisford ; Miller | |
@@ -90,10 +90,46 @@ Les textes TEI (Perseus, First1KGreek) sont fiables mais non exempts de coquille
 
 ## 5. Lacunes et pistes
 
-- Éditions modernes de référence sous droits et trop lourdes pour l'outil de téléchargement du Drive (limite de 10 Mo) : Kassel–Austin, TrGF, Latte (Hésychius), Theodoridis (Photius), Adler complète, Regtuit (scholies). Si l'auteur les rend accessibles (partage par lien ou accès `rclone`), relancer `sources_drive.py` puis `indexer.py`.
+- Éditions modernes de référence sous droits et trop lourdes pour l'outil de téléchargement du Drive (limite de 10 Mo) : Kassel–Austin, TrGF, Photius de Theodoridis t. I–II (Α–Μ), le t. IIb (Κ–Ο) de l'Hésychius de Latte–Cunningham, Adler complète, Regtuit (scholies). Si l'auteur les rend accessibles (partage par lien ou accès `rclone`), relancer `sources_drive.py` puis `indexer.py`. En revanche, contrairement à ce que disait la première version de ce document, quatre tomes sur cinq de l'Hésychius (I, IIa, III, IV) et le t. III (Ν–Φ) du Photius de Theodoridis sont bien sur le disque (`recherche/drive_ressources.md`, § 4.1) : le Photius est indexé par sa couche texte ; l'Hésychius, dont la couche texte est brouillée, est traité à part (§ 7).
 - Numérotations : citer les lexiques dans la numérotation de l'édition de référence (Latte pour Hésychius α–ο, Adler pour la Souda, Theodoridis pour Photius α–φ) ; l'index donne souvent celle d'une édition ancienne (Schmidt, Bekker) : convertir avec prudence.
 
 ## 6. Statistiques de l'index et tests
 
 Index reconstruit le 26 octobre 2026 en 343 s sur 6 processus : **4 188 œuvres, 817 823 passages, 49,2 millions de mots** (Perseus 814 œuvres ; First1KGreek 1 126 ; OCR 35 ; Drive 4) ; base `.sources/corpus/index.sqlite` (1,9 Go).
 Tests de contrôle réussis : « πυθοῦ χελιδών » (Harpocration s.v. ἄττα, CPG, Fritzsche) ; « ἀπόκυνον » (Hésychius, Schmidt col. 199) ; « σοφοὶ τύραννοι » (Aelius Aristide 46, 288 ; Platon, *Rép.* 568a et *Théagès* 125b).
+
+## 7. Hésychius de Latte–Hansen–Cunningham (texte rétabli, gloses numérotées)
+
+*Section en cours de rédaction (chantier du 28 octobre 2026) ; les chiffres seront donnés
+à la fin du traitement.*
+
+### 7.1 Fichiers et couverture
+
+Tomes présents (`.sources/drive/fichiers/Grec/Lexiques/Hesychius/`, sous droits, jamais
+versionnés) : t. I (Α–Δ, éd. Latte, 2e éd. Cunningham, 2018, 698 p. PDF) ; t. IIa (Ε–Ι,
+même éd., 2020, 1014 p. ; le nom du fichier annonce à tort « Iota-Omicron ») ; t. III (Π–Σ,
+éd. Hansen, 2005, 440 p. ; deux copies identiques) ; t. IV (Τ–Ω, éd. Hansen et Cunningham,
+2009, 313 p.). Manque le t. IIb (Κ–Ο). La numérotation des gloses est celle de Latte
+(« The numbering of the glosses is unchanged » : Cunningham, t. I, Prolegomena § VII, p. XII).
+
+### 7.2 Méthode
+
+1. OCR : pages rendues à 400 dpi, Tesseract 5 (grc+lat), 8 processus, reprenable
+   (`outils/corpus/ocr_hesychius.py ocr`).
+2. Décodage de la couche texte. La couche texte n'est pas perdue : les polices Kleinlogel
+   (Type 1/CFF) portent des noms de glyphes brouillés (le glyphe « epsilongrave » est un β,
+   « alpha » le point en haut, « nonbreakingspace » un ἠ…), mais le lien nom → dessin est
+   constant dans les cinq PDF de ces éditions (Hésychius I, IIa, III, IV ; Synagoge), ce que
+   prouve l'empreinte des contours (4 800 couples famille-nom, aucun écart). D'où une table
+   nom → caractère (`outils/corpus/kleinlogel.tsv`, 233 entrées), proposée par le vote de
+   l'OCR aligné sur les glyphes puis contrôlée glyphe par glyphe sur l'image (mot en
+   contexte ; contour du glyphe pour les signes), et un module (`outils/corpus/kleinlogel.py`)
+   qui réécrit en mémoire le /ToUnicode des polices et rattache à leur lettre les signes
+   superposés (iota souscrit, brève, point souscrit). Le texte obtenu est celui de l'éditeur,
+   accents et esprits compris (« 225 ἀβυδοκόμας· ὁ ἐπὶ τῷ συκοφαντεῖν κομῶν (Ar. fr. 755
+   K.–A.) »).
+3. Découpage en gloses (à venir).
+
+### 7.3 Qualité (à venir)
+
+### 7.4 Tests (à venir)

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et notes marginales de R, f. 162v (vv. 1–42) ; transcription diplomatique, brouillon (en cours).
+     Ancre = numéro de la ligne du bloc de texte (1 = titre, 2–42 = vv. 1–32, 34–42) en face de laquelle la scholie commence ;
+     marge supérieure : ancre 1 ; marge inférieure : ancre 42.
+     Coordonnées entre crochets dans les notes : pixels de l'image pleine résolution 1921 × 2780 (x0–x1, y0–y1).
+     Les fins de lignes des scholies ne sont pas marquées dans le texte (le format n'a pas d'élément pour cela) : elles sont données dans les notes. -->
+<page folio="f162v" image="01_f162v_classense164v_vv0001-0042.jpg" vers="1-42">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="1" place="mg-sup" main="R2"><unclear cert="moyenne">ο χορος εκ θεσμοφ</unclear><unclear cert="faible">οριαζ</unclear>ουσων <abbr dev="αὶ">κ</abbr> τοῦτο τὸ δρᾶμα τῶν κατευριπίδου πεποιημένων ἀπὸ <abbr dev="δὲ"/> τῶν θεσμοφορίων· τὰς θεσμοφοριαζούσας γυναῖκας ἀπέγραψεν ἀφ᾽ ὧν <abbr dev="αὶ">κ</abbr> ὁ <abbr dev="ός">χορ</abbr></sch>
+    <sch n="2" ancre="1" place="mg-sup" main="R2">εὐριπίδου γυνὴ μὲν χοιρίνη μ<unclear cert="moyenne">ήτη</unclear>ρ <abbr dev="δὲ"/> κλειτώ ÷</sch>
+    <sch n="3" ancre="1" place="mg-sup" main="R2">προλογίζει <abbr dev="ος">μνησίλοχ</abbr> κηδεστὴς εὐριπίδου</sch>
+    <sch n="4" ancre="2" place="mg-g" main="R2" lemme="ὦ ζεῦ χελιδών">ὦ ζεῦ χελιδών· <abbr dev="εὶ">ἐπ</abbr> εἰώθασιν ἀπὸ χειμῶνος εὔχεσθαι ἔαρ τῷ <abbr dev="δὲ"/> ἔαρι χελιδόνες <abbr dev="αι">φαίνοντ</abbr> <abbr dev="ος">οὗτ</abbr> <abbr dev="δὲ"/> ὥσπερ <unclear cert="faible">ἐ</unclear><unclear cert="moyenne">χει</unclear>μάσθη <abbr dev="ερι">π</abbr>αγό<abbr dev="ος">μεν</abbr> ὑπὸ <abbr dev="ου">εὐριπίδ</abbr> <unclear cert="faible">ἀλ</unclear><abbr dev="ος">οῶντ</abbr> <abbr dev="ο">τοῦτ</abbr> ἔφη ἐν ἤθει οἷον <abbr dev="ε">πότ</abbr> <unclear cert="moyenne">ἀπ</unclear>αλλάξομαι <abbr dev="οῦ">τ</abbr> κακοῦ τούτου <unclear cert="faible">ὥσπ</unclear>ερ οἱ ἐκ χειμῶνος <abbr dev="ες">ἐπιθυμοῦντ</abbr> <unclear cert="faible">ἔα</unclear>ρ ἀφικέσθαι·</sch>
+    <sch n="5" ancre="6" place="mg-g" main="R2">ἔξωθεν ἐν κύκλω <abbr dev="ν">περιάγω</abbr> <gap n="5" unite="lettres" raison="illisible"/> ἐν ταῖς ἅλωσι <abbr dev="αὶ">κ</abbr> τὸ τύπτειν <abbr dev="δὲ"/> ἀλοᾶν <unclear cert="moyenne">λέγ</unclear>ουσι ἀπὸ τῶν κοπτόντων τοὺς <unclear cert="faible">στάχυ</unclear>ας —</sch>
+    <sch n="6" ancre="9" place="mg-g" main="R2"><gap n="7" unite="lettres" raison="illisible"/> <unclear cert="moyenne">δ</unclear>υνατ<abbr dev="ὸν"/>· <abbr dev="ς">ἐρωτηματικῶ</abbr></sch>
+    <sch n="7" ancre="10" place="mg-g" main="R2" lemme="ἀκούειν"><unclear cert="moyenne">α</unclear>κουειν· ὁ μὲν <abbr dev="ον">τραγικώτερ</abbr> <unclear cert="faible">κ</unclear><abbr dev="αὶ"/> <unclear cert="faible">ὑψη</unclear><abbr dev="ον">λότερ</abbr> φράζει ὁ <abbr dev="δὲ"/> <abbr dev="ον">ταπεινότερ</abbr></sch>
+    <sch n="8" ancre="11" place="mg-g" main="R2"><gap n="8" unite="lettres" raison="illisible"/> <unclear cert="moyenne">ἀ</unclear>κούει· ÷</sch>
+    <sch n="9" ancre="11" place="mg-g" main="R2">ταῦτα <abbr dev="ῶν">τ</abbr> φυσικῶν λόγων μνῆσαι· <gap n="9" unite="lettres" raison="illisible"/> τοῦ ἀκούειν <unclear cert="moyenne"><abbr dev="αὶ">κ</abbr> ὁρᾶν</unclear> ÷</sch>
+    <sch n="10" ancre="13" place="mg-g" main="R2" lemme="εὖ ἴσθ᾽ ὅτι">εὖ ἴσθοτι· ἀντὶ <abbr dev="οῦ">τ</abbr> <gap n="6" unite="lettres" raison="illisible"/> ἀκούειν καὶ ὁρᾶν <abbr dev="εν">εἶπ</abbr> <abbr dev="οῦ">τ</abbr> <abbr dev="ε">μήτ</abbr> <gap n="7" unite="lettres" raison="illisible"/> μήθ ὁρᾶν·</sch>
+    <sch n="11" ancre="16" place="mg-g" main="R2"><gap n="8" unite="lettres" raison="illisible"/> <unclear cert="faible">ὁ αἰ</unclear>θὴρ δοκεῖ τρέφειν <abbr dev="ᾶς">ἡμ</abbr>·</sch>
+    <sch n="12" ancre="16" place="mg-g" main="R2">οὐδὲν <abbr dev="ὰρ">γ</abbr> δίχα κινήσεως <gap n="9" unite="lettres" raison="illisible"/><unclear cert="moyenne">τ</unclear>έκνου <abbr dev="δὲ"/> ἀντὶ <abbr dev="οῦ">τ</abbr> ἐτεκνοποίει·</sch>
+    <sch n="13" ancre="18" place="mg-g" main="R2"><gap n="6" unite="lettres" raison="illisible"/><unclear cert="moyenne">μ</unclear>ον· <abbr dev="ον">ὅμοι</abbr> λείπει τὸ <abbr dev="ές">περιφερ</abbr></sch>
+    <sch n="14" ancre="19" place="mg-g" main="R2"><unclear cert="faible">λέ</unclear>πει ὡς·</sch>
+    <sch n="15" ancre="21" place="mg-g" main="R2"><gap n="6" unite="lettres" raison="illisible"/> <unclear cert="moyenne">αἱ σο</unclear>φαὶ ξυν<abbr dev="ου"/>σίαι· διὰ <abbr dev="ούτου">τ</abbr> ὑπο<gap n="10" unite="lettres" raison="illisible"/>πίδου εἶναι ἐκεῖνο· σοφοὶ τύ<gap n="6" unite="lettres" raison="illisible"/> τῶν σοφῶν ξυνουσίαι <abbr dev="στι">ἐ</abbr> <abbr dev="δὲ"/>· <gap n="4" unite="lettres" raison="illisible"/><unclear cert="moyenne">κ</unclear>λέους ἐξ <abbr dev="ος">αἴαντ</abbr> λοκροῦ ἢ <abbr dev="ν">οὖ</abbr> <gap n="7" unite="lettres" raison="illisible"/><unclear cert="moyenne">ς</unclear> ἵνα <abbr dev="αὶ">κ</abbr> τοὺς ἄλλους ἐξα<gap n="4" unite="lettres" raison="illisible"/><unclear cert="moyenne">σ</unclear>ηι· <unclear cert="moyenne">ἢ</unclear> συνέμπτωσις σοφοκλεῖ <gap n="6" unite="lettres" raison="illisible"/>ιπίδη ἐγένετο·</sch>
+    <sch n="16" ancre="26" place="mg-g" main="R2"><gap n="7" unite="lettres" raison="illisible"/> εναι· ἵνα μὴ περιπατ<unclear cert="faible">ήσῃ</unclear> <gap n="9" unite="lettres" raison="illisible"/></sch>
+    <sch n="17" ancre="27" place="mg-g" main="R2" lemme="πρόσεχε">προσεχε· <abbr dev="ὶ">αντ</abbr> <abbr dev="οῦ">τ</abbr> μνῆσαι</sch>
+    <sch n="18" ancre="28" place="mg-g" main="R2"><unclear cert="faible">υπο</unclear> <gap n="30" unite="lettres" raison="illisible"/></sch>
+    <sch n="19" ancre="30" place="mg-g" main="R2"><gap n="6" unite="lettres" raison="illisible"/><unclear cert="faible">ίσ</unclear>ταρχον <abbr dev="αὶ"/> δίδυμ<abbr dev="ον"/> φ<abbr dev="ασὶν"/> εἶναι τοι<gap n="3" unite="lettres" raison="tache"/><unclear cert="faible">ἀγ</unclear>άθωνα ἐγὼ <abbr dev="δὲ"/> οὐχ ἡγοῦμαι· ἀλλ ἐπειδὴ βούλεται <abbr dev="ῖν">κωμωδε</abbr> τ<abbr dev="ὸν"/> ἀγάθωνα ὡς μή τε <unclear cert="faible">καρτε</unclear><abbr dev="ν">ρὸ</abbr> μή τε μέλαν<abbr dev="α"/> <abbr dev="ο">τοῦτ</abbr> εἶπ<abbr dev="εν"/> ἢ ἄσημ<abbr dev="όν"/> <unclear cert="faible">τινα ÷</unclear></sch>
+    <sch n="20" ancre="34" place="mg-g" main="R2" lemme="μῶν ὁ δασυπώγων"><gap n="5" unite="lettres" raison="illisible"/> δασυπώγων· διαβάλλει τ<abbr dev="ὸν"/> ἀγάθω<unclear cert="faible">να</unclear> πάλ<abbr dev="ιν"/> ὡς λεῖον <abbr dev="αὶ"/> ἀποτί<sp/><abbr dev="α">λλοντ</abbr> <unclear cert="faible">αὐτοῦ τὰς</unclear> τρίχας <abbr dev="οῦ">τ</abbr> <abbr dev="ος">πώγων</abbr></sch>
+    <sch n="21" ancre="36" place="mg-g" main="R2"><unclear cert="faible">κρυβῶ</unclear>μεν κυρίως <abbr dev="δὲ"/> πτήσσειν <abbr dev="ἐστὶ"/> τὸ <abbr dev="ειν">φευγ</abbr> <unclear cert="faible"><abbr dev="αὶ"/> φο</unclear>βεῖσθαι ÷</sch>
+    <sch n="22" ancre="28" place="mg-d" main="Rsch"><abbr dev="ει">λειπ</abbr> ἡ δια οἷον <abbr dev="ῶ">σιωπ</abbr> δια τὸ θύριον ἔπαιξε <abbr dev="δὲ"/>·</sch>
+    <sch n="23" ancre="30" place="mg-d" main="Rsch">ἐπειδὴ οὐ πάλαι ἤρξατο <abbr dev="ειν">διδασκ</abbr> αλλὰ τρισὶν προ τούτων ἔτεσιν</sch>
+    <sch n="24" ancre="38" place="mg-d" main="R2">ὅτε <abbr dev="ὰρ">γ</abbr> δρᾶμα ποιῆσαι ἤ<abbr dev="ον">θελ</abbr> πρότερον θυσία<unclear cert="moyenne">ς</unclear> ἐποίουν·</sch>
+    <sch n="25" ancre="39" place="interl" main="R2"><abbr dev="ει">λειπ</abbr> τὸ ὡς ὡς εοικε</sch>
+    <sch n="26" ancre="38" place="mg-g" main="R2"><unclear cert="faible">πα</unclear>ρὰ τοῖς τραγικοῖς οὕτω λέγεται <unclear cert="faible">πᾶ</unclear>ς ἔστω λαός·</sch>
+    <sch n="27" ancre="41" place="mg-g" main="R2">ὁ ἱερὸς χορός·</sch>
+  </scholies>
+  <notes>
+  </notes>
+</page>

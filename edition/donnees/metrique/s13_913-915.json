@@ -1,0 +1,17 @@
+[
+  {
+    "v": "914",
+    "partie": "",
+    "schema": "⏑⏖⏖⏑⏖ ⏑⏖⏖⏑– |",
+    "colon": "2do",
+    "etiquette": "do",
+    "note": "Rangée = vv. 913-914 : numérotation de l'auteur (texte Perseus de Hall–Geldart) ; Zimmermann 1987 et Prato 2001 la numérotent 913, Enger 1844, Fritzsche 1838 et Di Virgilio 2026 en font deux vers (913 | 914), comme R (f. 173r, l. 37-38). Toutes les syllabes sont brèves sauf la dernière : λα | βέ με (⏖) | λα βέ (⏖) | με | πό σι (⏖) = dochmiaque entièrement résolu (Conomis 6 ; GL c11) ; πε | ρί βα (⏖) | λε δὲ (⏖) | χέ | ρας = ⏑⏖⏖⏑– (Conomis 5 ; GL c7). -ρας long par position devant φέρε (synaphie avec 915) : quatorze brèves de suite (Sommerstein 1994, p. 216 ; Prato 2001, p. 304). Aucune synizèse ni correption. Avec περίβαλλε de R : πε ρί (⏖, premier élément long et résolu) | βαλ (–) | λε δὲ (⏖) | χέ | ρας = ⏖–⏖⏑– (GL c24 : Di Virgilio 2026, p. 104), forme rare ; περίβαλε (Biset, texte de l'auteur) donne la forme courante et la suite continue de brèves. Pas de fin de période après χέρας : ni hiatus ni syllabe indifférente (Zimmermann n'y marque qu'une fin de mot). Même analyse (2 do) chez Bothe 1845, Fritzsche 1838, Enger 1844, Mazon 1904 (p. 134), Conradt 1910 (p. 54), White 1912 (p. 449), Zimmermann 1987 (p. 75 : « 2 do (6,5) »), Parker 1997 (d'après Di Virgilio 2026, n. 44-45), Prato 2001 (p. 352). Étiquette : « do » (le texte porte aujourd'hui « do. », conversion du « 2. dochm. » de l'auteur). Renfoncement de l'auteur (2,5 em) conservé."
+  },
+  {
+    "v": "915",
+    "partie": "",
+    "schema": "⏑⏖⏖⏑⏖ ⏑⏖⏖⏑⏖ ‖",
+    "colon": "2do",
+    "note": "TEXTE À CORRIGER AVANT D'APPLIQUER LE SCHÉMA : texte.tex n'a que trois ἄπαγε. R (f. 173r, l. 39, lu sur l'image), Hall–Geldart 1907 imprimé, Fritzsche, Enger, Velsen, Coulon, Prato et Wilson ont ἄπαγέ μ᾽ ἄπαγ᾽ ἄπαγ᾽ ἄπαγέ με. L'omission vient du texte numérique Perseus ; elle se trouvait déjà dans la Juntine (vérifié sur le scan, p. c9), d'où Bothe l'a reprise. Le schéma vaut pour le texte de R, seize syllabes toutes brèves : φέ | ρε σε (⏖) | κύ σω (⏖) | ἄ | πα γέ (⏖) — μ᾽ἄ | πα γ᾽ἄ (⏖) | πα γ᾽ἄ (⏖) | πα | γέ με (⏖) = deux dochmiaques entièrement résolus (Conomis 6 ; GL c11). Correption de -σω (κύσω) en hiatus devant ἄπαγε, au point fort de la phrase : « harsh and unusual in dochmiacs » (Parker 1997, p. 429, cité par l'auteur dans son commentaire [à vérifier]). Élisions : ἄπαγέ μ᾽, ἄπαγ᾽ (deux fois). Le dernier élément (γέ με) est résolu ; la phrase continue dans le trimètre 916 (ἄπαγέ με | λαβὼν ταχὺ πάνυ). Dochmiaques chez Bothe 1845, p. 161 (« manifesto dochmiaco », avec trois ἄπαγε), Fritzsche 1838 (p. 353), Mazon 1904 (p. 134), Conradt 1910 (p. 54), White 1912 (p. 449), Zimmermann 1987 (p. 75 : « 2 do (6) »), Parker 1997 (d'après Di Virgilio 2026, n. 44) et Prato 2001 (p. 352 : seize brèves). Autre analyse : trimètre iambique ⏑⏖⏑– ⏑⏖⏑⏖ ⏑⏖⏑⏓, avec ω long en hiatus et quatre résolutions. C'est la lecture de Brunck (d'après Fritzsche et Bothe), d'Enger 1844 (p. 153 : « hic senarius transitum parat a dochmiis ad dialogi senarios »), implicitement de Sommerstein 1994 (p. 216 : 913-914 seuls chantés), et celle que Di Virgilio 2026 juge « forse più verisimilmente » (n. 44). L'hiatus y est sans correption : « offendit nonnihil » pour Blaydes 1880 (p. 90), « nicht zu duldender Hiatus » pour Hermann (Opuscula VIII, p. 303). R écrit ce vers à la marge des trimètres, sans le renfoncement de 913-914. Je garde l'analyse de l'auteur (« 2. dochm. »), suivie par la majorité."
+  }
+]

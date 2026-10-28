@@ -46,57 +46,57 @@
   établies le 26 oct. 2026 sur la partie alors dépouillée du répertoire (Enger 1844 : vv. 1-930 ; Velsen 1883 :
   tranches partielles) : ce sont des exemples, non des relevés complets. Le répertoire est désormais dépouillé
   en entier pour Enger 1844, Velsen 1883 et Wilson 2007 ; le tableau ci-dessous en donne le poids relatif.
-- **Fréquence des noms** (critiques cités au moins 10 fois en tout) : nombre de vers où le critique est cité
+- **Fréquence des noms** (critiques cités au moins 10 fois en tout ; état du répertoire le 28 oct. 2026 à 13 h) : nombre de vers où le critique est cité
   (leçon, conjecture, attribution, ponctuation ou note) dans l'apparat d'Enger 1844, de Velsen 1883 et de
   Wilson 2007 (répertoire critique), et nombre d'occurrences du nom dans l'apparat de l'auteur. Chez Velsen,
   « Velsen » compte ses propres propositions ; chez Wilson, « Austin » réunit Austin 1987 et Austin–Olson 2004.
 
 | Critique | Enger 1844 | Velsen 1883 | Wilson 2007 | apparat de l'auteur |
 |---|---|---|---|---|
-| Brunck | 131 | 64 | 39 | 59 |
-| Fritzsche | 183 | 18 | 14 | 19 |
-| Bentley | 91 | 45 | 41 | 55 |
-| Dindorf | 92 | 42 | 27 | 28 |
-| Hermann | 48 | 34 | 22 | 26 |
-| Küster | 66 | 22 | 17 | 21 |
-| Enger | 54 | 27 | 19 | 13 |
+| Brunck | 143 | 64 | 44 | 59 |
+| Fritzsche | 209 | 18 | 14 | 19 |
+| Bentley | 99 | 45 | 43 | 55 |
+| Dindorf | 111 | 42 | 27 | 28 |
+| Hermann | 58 | 34 | 22 | 26 |
+| Enger | 73 | 27 | 19 | 13 |
+| Küster | 70 | 22 | 17 | 21 |
 | Velsen | — | 89 | 9 | 10 |
-| Bothe | 57 | 12 | 16 | 13 |
-| Dobree | 45 | 16 | 16 | 17 |
-| Biset | 11 | 5 | 37 | 37 |
-| Porson | 31 | 18 | 12 | 12 |
-| Scaliger | 19 | 17 | 15 | 22 |
+| Bothe | 65 | 12 | 16 | 13 |
+| Dobree | 49 | 16 | 18 | 17 |
+| Biset | 11 | 5 | 38 | 37 |
+| Porson | 33 | 18 | 12 | 12 |
+| Scaliger | 21 | 17 | 15 | 22 |
 | Meineke | 7 | 31 | 16 | 17 |
-| Zanetti | 7 | — | 23 | 31 |
-| Reisig | 40 | 8 | 5 | 3 |
-| Blaydes | — | 8 | 32 | 7 |
-| Grynaeus | — | — | 23 | 24 |
-| Reiske | 22 | 11 | 6 | 6 |
-| Elmsley | 18 | 6 | 7 | 8 |
+| Zanetti | 7 | — | 24 | 31 |
+| Reisig | 42 | 8 | 5 | 3 |
+| Blaydes | — | 8 | 34 | 7 |
+| Grynaeus | — | — | 25 | 24 |
+| Reiske | 23 | 11 | 6 | 6 |
+| Elmsley | 18 | 6 | 8 | 8 |
+| Austin | — | — | 25 | 14 |
+| Bergler | 31 | 5 | 1 | 1 |
 | Divus | — | — | 24 | 14 |
-| Austin | — | — | 23 | 14 |
-| Bergler | 28 | 5 | 1 | 1 |
-| Bekker | 27 | 4 | 1 | 1 |
+| Bekker | 28 | 4 | 1 | 1 |
 | Bergk | 9 | 8 | 5 | 10 |
 | Ellebodius | — | — | 9 | 20 |
-| Burges | 9 | 1 | 5 | 9 |
+| Burges | 10 | 1 | 5 | 9 |
 | Cobet | 1 | 7 | 4 | 8 |
 | Dawes | 8 | 3 | 5 | 3 |
+| Sommerstein | — | — | 12 | 7 |
+| Thiersch | 7 | 1 | 6 | 5 |
 | van Herwerden | — | 2 | 11 | 6 |
 | Daubuz | — | — | 9 | 9 |
-| Sommerstein | — | — | 11 | 7 |
-| Thiersch | 6 | 1 | 6 | 5 |
-| Voss | 12 | — | 2 | 2 |
+| Voss | 14 | — | 2 | 2 |
+| Droysen | 13 | — | — | — |
+| Faber | — | — | 3 | 9 |
+| Valckenaer | 5 | 2 | 3 | 2 |
 | van Leeuwen | — | — | 7 | 5 |
-| Faber | — | — | 2 | 9 |
 | Gelenius | — | — | 5 | 6 |
 | Invernizi | 11 | — | — | — |
 | Lenting | — | 4 | 5 | 2 |
 | Tyrwhitt | 5 | 3 | — | 3 |
 | Willems | — | — | 2 | 9 |
-| Droysen | 10 | — | — | — |
 | Lobeck | 6 | 2 | 1 | 1 |
-| Valckenaer | 3 | 2 | 3 | 2 |
 
 ## 2. Renaissance et XVIIᵉ siècle
 
@@ -202,7 +202,10 @@
 
 ### Jacques Le Paulmier de Grentemesnil (Palmerius, 1587-1670)
 - *Exercitationes in optimos fere auctores Graecos*, Leyde, 1668 (archive.org `bub_gb_gYS3XKHDkPgC` ; copie
-  sur le Drive). Enger, v. 808 (interprétation des βουλευταί) ; page à repérer.
+  sur le Drive) : section « Ad Aristophanis Thesmophoriazusas », p. 758-762 env. (vues 780-784 de
+  l'exemplaire d'archive.org, OCR consulté ; non téléchargé), qui renvoie aux pages de l'édition de Genève 1607
+  (« Pag. 768 », « 805 », « 813 ») et discute la date de la pièce (contre S. Petit) et des notes de Biset.
+  Enger, v. 808 (les βουλευταί et la date).
 
 ## 3. XVIIIᵉ siècle
 
@@ -338,7 +341,10 @@ Les listes « Enger : vv. … » et « Velsen : vv. … » viennent du premier d
 
 ### Karl Reisig (1792-1829)
 - *Conjectaneorum in Aristophanem libri duo*, Leipzig, 1816 (`ED/1816_Leipzig_Reisig/carolireisigiit00hermgoog.pdf`) :
-  remarques sur les *Thesm.* dispersées dans les deux livres (pagination à relever : couche texte médiocre).
+  remarques sur les *Thesm.* dispersées dans les deux livres. Relevé des pages où l'OCR d'archive.org donne
+  « Thesm » (non exhaustif ; p. = PDF − 43, contrôlé sur les titres courants) : p. 33, 40, 49, 56, 63, 67, 85,
+  98-99, 102, 106, 120, 123, 128, 140, 149, 172, 176, 179, 185-186, 190, 193, 195, 208, 217, 226, 244-245, 248,
+  263, 266, 269-271 (vv. 659 sqq. : « Coniect. p. 269 sq. » d'Enger), 302, 304, 312, 325.
   Sa collation de la Juntine, notée dans son exemplaire, a servi à Enger (préface de 1844, p. V).
 - Enger : vv. 16, 45, 56, 168, 196, 217, 225, 234, 317-319, 320, 329, 366, 495… ; Velsen : vv. 104, 261,
   329, 683, 710-711, 720 ; apparat de l'auteur : 3 mentions.
@@ -448,8 +454,8 @@ Les listes « Enger : vv. … » et « Velsen : vv. … » viennent du premier d
   p. 209-222 : liste collective de corrections signées d'initiales (« C. » = Cobet ; « G. » = J. Geel ; « H. v.
   Herwerden » au v. 284…), *Thesm.* p. 210-213 (`ED/articles_jstor/4423847.pdf`, PDF 3-6) ; Prato 2001,
   p. LXIX : « Cobet, «Mnemosyne» II 1853, pp. 210-3 ». Autres livraisons de la même liste : *Mnemosyne* 1
-  (1852), p. 413-428 et 2 (1853), p. 97-110 (`ED/articles_jstor/4423824.pdf`, `4423836.pdf`) [part des
-  *Thesm.* à vérifier] ; « Variae lectiones », *Mnemosyne* 2 (1853), p. 390-426 (`4423862.pdf`).
+  (1852), p. 413-428 (*Ach.* à *Guêpes*) et 2 (1853), p. 97-110 (*Paix* à *Lys.*) (`ED/articles_jstor/4423824.pdf`,
+  `4423836.pdf` : pas de *Thesm.*, contrôlé sur les titres courants) ; « Variae lectiones », *Mnemosyne* 2 (1853), p. 390-426 (`4423862.pdf`).
 - Enger : v. 710 ; Velsen : vv. 91, 386, 528, 575, 918 ; apparat de l'auteur : 8 mentions.
 
 ### Hendrik Gerard Hamaker (1819-1867)
@@ -458,8 +464,8 @@ Les listes « Enger : vv. … » et « Velsen : vv. … » viennent du premier d
 - Velsen : vv. 504, 691, 833, 837 ; apparat de l'auteur : 1 mention.
 
 ### Adolf von Velsen (1832-1900)
-- « Zur Kritik des Aristophanes », *RhM* 20 (1865), p. 390-400 (`ED/articles_jstor/41249869.pdf`) [part des
-  *Thesm.* à vérifier] ; *Über den Codex Urbinas …*, Halle, 1871 (collation R/Juntine, p. 9-51) ; éditions de
+- « Zur Kritik des Aristophanes », *RhM* 20 (1865), p. 390-400 (`ED/articles_jstor/41249869.pdf` : l'article
+  s'ouvre sur *Gren.* 969 ; aucun passage des *Thesm.* repéré par recherche plein texte) ; *Über den Codex Urbinas …*, Halle, 1871 (collation R/Juntine, p. 9-51) ; éditions de
   1878 et 1883 (E36, E38 : apparat p. 7-88).
 - Velsen (ses propres propositions dans son apparat) : vv. 15, 86-87, 93, 102-103, 162, 167, 172, 198, 219,
   232, 239, 242, 263… ; apparat de l'auteur : 8 mentions (« von Velsen »).
@@ -501,7 +507,7 @@ Les listes « Enger : vv. … » et « Velsen : vv. … » viennent du premier d
 | G. M. Thomas | *Commentatio de Aristophanis Avibus*, Munich, 1844 (appendice de corrections aux *Thesm.* ; discuté par Hermann, *Opuscula* VIII, p. 249-252) | `ED/1877_Hermann_Opuscula_VIII/` (compte rendu) | — |
 | F. G. Schöne | « Zu Aristophanes », *RhM* N. F. 5 (1847), p. 627-628 (Prato 2001, p. LXXIV) | `ED/articles_jstor/41250936.pdf` | apparat de l'auteur |
 | F. Ritschl | « Zu Aristophanes. Thesmophor. 18 », *RhM* 17 (1862), p. 460-462 (signé « F. R. ») | `ED/articles_jstor/41249499.pdf` | v. 18 |
-| W. Brambach | « Zu Aristophanes », *RhM* 21 (1866), p. 149-152 et 632-634 [part des *Thesm.* à vérifier] | `ED/articles_jstor/41251084.pdf`, `41251148.pdf` | — |
+| W. Brambach | « Zu Aristophanes », *RhM* 21 (1866) [pages à vérifier] : les fichiers locaux `41251084.pdf` (p. 149-152, « Kritisch-Exegetisches » sur Euripide, *Médée*) et `41251148.pdf` (p. 632-634, « Miscellen » sur la fable de Rhampsinite) ne contiennent rien sur Aristophane : référence à reprendre | `ED/articles_jstor/41251084.pdf`, `41251148.pdf` (hors sujet) | — |
 | N. Wecklein | « Zu Aristophanes », *RhM* 24 (1869), p. 547 (Prato 2001, p. LXXV) | — | apparat de l'auteur |
 | W. Roscher | « Zu Aristophanes », *RhM* 24 (1869), p. 628 (ad v. 138) (Prato 2001, p. LXXIV) | — | v. 138 |
 | O. Bachmann | *Conjecturarum observationumque Aristophanearum specimen* I, diss. Göttingen, 1878 (renvois aux *Thesm.*, index) | `ED/1878_Goettingen_Bachmann/` | apparat de l'auteur (v. 500 : ὑπ' αὐγὰς, adopté par Velsen et Rogers) |
@@ -525,12 +531,17 @@ Les listes « Enger : vv. … » et « Velsen : vv. … » viennent du premier d
   p. LXXV) ; notes critiques jointes à la traduction des *Thesm.* au même tome. Fichiers : Drive (t. I-III,
   numérisations HathiTrust, et une version océrisée des notes sur les *Thesm.*), non encore copiés.
 - *Notes sur Aristophane*, Bruxelles, 1897 (`ED/1897_Bruxelles_Willems_Notes/notessuraristoph00will.pdf`) :
-  renvois épars aux *Thesm.*, sans section propre.
+  recueil de mémoires à paginations propres ; renvois épars aux *Thesm.*, surtout exégétiques, sans section
+  propre (recherche « Thesm » dans l'OCR : PDF 61, 72, 95, 131, 191, 195, 220, 239, 259, 265, 280 [v. 626],
+  295, 300-304 [vv. 191, 238, 538 sqq.], 324, 328 [v. 60, contre la correction de Blaydes], 353-354, 368, 382,
+  424, 437-438).
 - Apparat de l'auteur : 9 mentions (v. 18 : la leçon de R défendue par Willems).
 
 ### Victor Coulon (1871-1973 ?)
 - Édition de la CUF, 1928 (E44). *Quaestiones criticae in Aristophanis fabulas*, Strasbourg, 1907
-  (`ED/1907_Strasbourg_Coulon_Quaestiones/IA41538722_0058.pdf`). *Essai sur la méthode de la critique
+  (`ED/1907_Strasbourg_Coulon_Quaestiones/IA41538722_0058.pdf` : p. 7, pour les *Thesm.*, Coulon dit n'utiliser
+  que R, d'après Velsen ; aucune discussion de vers des *Thesm.* repérée par recherche plein texte, OCR du grec
+  non contrôlé). *Essai sur la méthode de la critique
   conjecturale appliquée au texte d'Aristophane*, Paris, 1933 (non local).
 - Articles (Prato 2001, p. LXIX-LXX ; copies Persée sur le Drive pour trois d'entre eux) : *REG* 38 (1925),
   p. 91-94 ; *REG* 39 (1926), p. 91-95 (*Thesm.* 241-247) ; *REG* 42 (1929), p. 17-18 (*Thesm.* 450-452,
@@ -626,8 +637,8 @@ Les listes « Enger : vv. … » et « Velsen : vv. … » viennent du premier d
 
 Noms sans rubrique aux §§ 2-5, relevés dans l'apparat de l'auteur (`latex/…`, macro `\apparat`) et dans le
 répertoire critique, désormais dépouillé en entier pour Enger 1844, Velsen 1883 et Wilson 2007
-(`edition/donnees/repertoire_critique/`, 6 738 entrées ; décompte par critique :
-`.travail/recension_editions/R3/auteurs_repertoire.tsv`). Colonne « Source » : lieu indiqué par l'éditeur
+(`edition/donnees/repertoire_critique/`, 7 805 entrées le 28 oct. 2026 à 13 h ; décompte par critique :
+`.travail/recension_editions/R3/auteurs_repertoire_v2.tsv`). Colonne « Source » : lieu indiqué par l'éditeur
 qui cite, ou retrouvé ; « contrôlé » = vu sur le document (page citée) ; « non contrôlé » = renvoi recopié,
 à vérifier avant toute citation ; « non localisé » = aucune indication de source.
 
@@ -636,34 +647,43 @@ qui cite, ou retrouvé ; « contrôlé » = vu sur le document (page citée) ; �
 | Anonymus Parisinus (début du XVIIᵉ s.) | auteur 58, 594, 1133 ; Wilson 58, 594 | notes marginales (encres rouge et noire) d'un exemplaire de l'édition de Leyde, Plantin–Raphelengius, 1600 (E10), BnF, Rés. Yb 739 : Austin 1987, p. 71 (ad v. 58), autres leçons p. 72 (v. 99), 73 (103), 80 (594), 84 (952), 86 (1133, 1198) ; Prato 2001, p. XLIV | contrôlé sur Austin 1987 (`.sources/drive/thesmophories/Austin_1987.txt`) ; exemplaire non numérisé |
 | Anonymus Romanus | auteur 719 (ἐνυβριεῖς) | aucune indication ; absent d'Austin 1987 et de Prato 2001 (extraits locaux) | non localisé |
 | Arnoldt, Richard | Velsen 597-602, 607, 613-614 (au coryphée, « Arnoldtio praeeunte ») | R. Arnoldt, *Die Chorpartien bei Aristophanes scenisch erläutert*, Leipzig, Teubner, 1873 : liste des passages des *Thesm.* dits par le coryphée p. 135-136 | OCR d'archive.org consulté (`diechorpartienbe00arno`, vues 150-151) ; non téléchargé |
-| Bach, N. | Enger 335 (allusion à Tyrtée) | *Jahrbücher für Philologie und Paedagogik* (Jahn) 1840, I, p. 38 | non contrôlé |
+| Bach | Enger 335 (allusion à Tyrtée) | *Jahrbücher für Philologie und Paedagogik* (Jahn) 1840, I, p. 38 | non contrôlé |
+| Bachmann, L. | Wilson 1054 (δαιμόνι') | rapportée par Fritzsche (« ap. Fritzsche ») : Fritzsche 1838, note au v. 1054 (E28) | non contrôlé |
 | Barrett, W. S. | Wilson 234 (ponctuation après δοκεῖ) | aucune indication | non localisé |
 | Becker, W. A. | Enger 448 (exégèse, contre lui) | *Charikles*, Leipzig, 1840, I, p. 278 | non contrôlé |
 | Beer, Carl | Velsen 295 (ΙΕΡ. = ἱέρεια) ; auteur 669 (ἀνδράσιν ἔσται, « Beer ap. Hermann (1845) ») | C. Beer, *Ueber die Zahl der Schauspieler bei Aristophanes, nebst einem Anhange : Personenänderungen…*, Leipzig, Weidmann, 1844, appendice, section « Die Thesmophoriazusen » (p. 62-69 env.) ; Hermann, compte rendu d'Enger (*Opuscula* VIII, p. 288-308) | OCR d'archive.org consulté (`ueberdiezahlder00beergoog`, vues 77-85) ; pages exactes à relever |
 | Bernhardy, G. | Enger, scholie au v. 600 (κρυπτευταί) | aucune indication | non localisé |
 | Burmeister | Enger 799 (χοὔτως, « G. Hermanni et Burmeisteri emendatio », reçue par Fritzsche) | aucune indication (à chercher dans Fritzsche 1838, ad loc.) | non localisé |
 | Buttmann, Ph. | Enger 165 (ἠμπείχετο) | « Gr. grammat. » = *Ausführliche griechische Sprachlehre* (Berlin, 1819-1827 ; 2ᵉ éd. 1830-1839), lieu non précisé | non contrôlé |
+| Denniston, J. D. | auteur et Wilson 819 (δή που en deux mots), 887 (κακῶς γ' ἄρ') | v. 887 : *Classical Review* 44 (1930), p. 215 (apparat de l'auteur) ; v. 819 : aucune indication | non contrôlé |
 | Dover, K. J. | Wilson 140 (κατρόπτου, cf. les inscriptions) | aucune indication ; Dover a communiqué des remarques à Austin (Austin 1987, p. 61) | non localisé |
 | Droysen, J. G. | Enger 12, 62, 328-329 | traduction, *Des Aristophanes Werke* III, Berlin, 1838 (`bibliographie_editions.md` § 5.4) | BSB `bsb10232563`, non téléchargé |
 | Dübner, Fr. | Enger, scholies aux vv. 168, 747 | *Scholia Graeca in Aristophanem*, Paris, 1842, *adnotatio* | `ED/1842_Paris_Dubner_scholia/`, *adnotatio* PDF 636-641 |
+| Farreus (édition de Venise, 1542) | auteur 689, Wilson 688 (ἔα) | *Comoediae undecim*, Venise, Farreus et fratres, 1542 (E05) | `ED/1542_Venise_Farreus/bub_gb_Wu5-_TQ_tCoC.pdf` (numérisation à rebours, *Thesm.* PDF 97→53) |
 | Gaisford, Th. | Enger 530 (colométrie) | *Hephaestionis Alexandrini Enchiridion*, Oxford, 1810, p. 262 | non contrôlé (archive.org `hphaistinosegch00hephgoog`) |
-| Halbertsma, Tjalling | Wilson 314 (χαρέντας ἐπιφανῆναι) | aucune indication ; ses *Adversaria critica* (éd. H. van Herwerden, Leyde, Brill, 1896) traitent des *Thesm.* 607, 637, 936, 941 (archive.org `tjallingihalber00halbgoog`, vues 104-113), mais l'OCR n'y montre pas le v. 314 | non localisé |
+| Gannon, J. F. | Wilson 1214 (ἐπίτρεκ') | sans doute son texte de 1988 (*Aristophanes' Thesmophoriazusae*, Bryn Mawr Commentaries, E47) ou sa thèse de 1982 | non localisé |
+| Halbertsma | Wilson 314 (χαρέντας ἐπιφανῆναι) | aucune indication ; les *Adversaria critica* de Tjalling Halbertsma (éd. H. van Herwerden, Leyde, Brill, 1896) traitent des *Thesm.* 607, 637, 936, 941 (archive.org `tjallingihalber00halbgoog`, vues 104-113), mais l'OCR n'y montre pas le v. 314 [identification à vérifier] | non localisé |
 | Handley, E. W. | Wilson 657 (ἐπελήλυθε) | proposition communiquée à Austin : Austin 1987, p. 81 | contrôlé (Austin 1987) |
 | Helwig | Velsen 305 (καὶ τὴν ὁρῶσαν) | aucune indication | non localisé |
 | Hiller, E. | Velsen 1, Wilson 1 (désignation ΚΗΔΕΣΤΗΣ) | « Über einige Personenbezeichnungen griechischer Dramen », *Hermes* 8 (1874), p. 442-456 (bibliographie de Prato 2001) | non contrôlé |
+| Holford-Strevens, L. | Wilson 910 (ὀσφύων) | aucune indication (Holford-Strevens a relu Austin–Olson 2004 pour l'éditeur : préface, extrait local) | non localisé |
 | Hunt, A. S. | Wilson 373 (Ἀρ[χίκλ]ει', P50) | *The Oxyrhynchus Papyri* IX, Londres, 1912, n° 1176 (Satyros, *Vie d'Euripide*) ; voir `recherche/papyrus.md` | — |
-| Kappeyne van de Coppello, J. | auteur et Wilson 412 (ἐθέλει) | « *Obs. crit.* I.2 » (apparat de l'auteur) : ouvrage non identifié ; Velsen attribue la même correction à Bachmann (« v. 412 ἐθέλει Bachmannus ») ; Kappeyne a donné des « Kritische aanteekeningen » à *Mnemosyne* 2 (1853) et 3 (1854) (archive.org `jstor-4423860`, `jstor-4423890`), contenu non vérifié | non localisé |
+| Kappeyne van de Coppello | auteur et Wilson 412 (ἐθέλει) | « *Obs. crit.* I.2 » (apparat de l'auteur) : ouvrage non identifié ; Velsen attribue la même correction à Bachmann (« v. 412 ἐθέλει Bachmannus ») ; Kappeyne a donné des « Kritische aanteekeningen » à *Mnemosyne* 2 (1853) et 3 (1854) (archive.org `jstor-4423860`, `jstor-4423890`), contenu non vérifié | non localisé |
 | Kaye, J. | Enger, Velsen, auteur 797 (τὸ κακὸν ζητεῖτε θεᾶσθαι) | rapportée par Dobree : « Lege cum J. Kaye τὸ κακὸν ζητεῖτε θεᾶσθαι » (numérotation ancienne 804), *Adversaria* II, éd. Scholefield, 1833, p. 241, et éd. Wagner, 1874, p. 243 | contrôlé : `ED/1843_Dobree_Adversaria_t2/…`, PDF 252 ; `ED/1874_Dobree_Adversaria_Wagner/…`, PDF 405 |
 | Klotz, R. | Enger 225, 536 (exégèse) | *Matthaei Devarii liber de Graecae linguae particulis*, éd. R. Klotz, Leipzig, 1835-1842, t. II, p. 522 (v. 536) | non contrôlé |
 | Kühner–Blass | auteur 426 (οἱκότριψ) | R. Kühner, *Ausführliche Grammatik der griechischen Sprache* I, 3ᵉ éd. par F. Blass, Hanovre, 1890-1892, lieu non précisé | non contrôlé |
-| Matthiae, A. | Enger, scholies aux vv. 21, 519 | aucune indication | non localisé |
-| Müller, K. O. | Enger 808 (note historique) | aucune indication | non localisé |
+| Lowe | Wilson 887 (κακῶς γὰρ, « dubitanter ») | aucune indication | non localisé |
+| Matthiae | Enger, scholies aux vv. 21, 519 | aucune indication | non localisé |
+| Mehler | Wilson 1029 (supplément ⟨με⟩) | aucune indication | non localisé |
+| Mitsdörffer | Wilson 1030 (suppression de ὑφ') | aucune indication [article sur le chant de Mnésiloque, vv. 1015 sqq., à identifier] | non localisé |
+| Müller, O. (« O. Muellerus ») | Enger 808 (note historique) | aucune indication | non localisé |
 | Naber, S. A. | Velsen 935 (allusion à ἱστοριορράφος) ; auteur 1009 (εἴς ἔτ', « Naber (Faber ?) ») | aucune indication ; l'auteur hésite lui-même entre Naber et Faber | non localisé |
 | Naeke, A. F. | Enger 633 (interprétation) | *Rheinisches Museum* [ancienne série] 1, p. 499 | non contrôlé |
 | Nauck, A. | auteur et Wilson 80 (ἐπείπερ ἐστὶ) | *Mélanges gréco-romains tirés du Bulletin de l'Académie impériale des sciences de Saint-Pétersbourg* II (1866), p. 468-471 (apparat de l'auteur) | non contrôlé |
 | Nietzsche, F. | auteur et Wilson 127 (ὑμετέρας) | travail de séminaire de 1866, publié dans *Werke und Briefe. Historisch-kritische Gesamtausgabe, Werke* IV (éd. H. J. Mette et K. Schlechta, Munich, 1937), p. 32-35 : Austin 1987, p. 74 ; Coulon, *REG* 50 (1937), p. 455-456 | contrôlé sur Austin 1987 et sur Coulon (`.sources/drive/fichiers/Grec/Aristophane/Coulon notes criti et ex chant agathon Nietsche.pdf`) |
 | Passow, F. | Enger 204 (ἐρείδειν) | aucune indication | non localisé |
 | Preller, L. | Enger, scholie au v. 80 (κατὰ Καλλίμαχον) | aucune indication | non localisé |
+| Rau, P. | auteur et Wilson 1041 (χέουσα) | *Paratragodia. Untersuchung einer komischen Form des Aristophanes*, Munich, 1967 (Zetemata 45), p. 75 (apparat de l'auteur) | non contrôlé ; sous droits |
 | Ritschl, F. | Velsen 106 (μάκαρας) | aucune indication (pour le v. 18, voir § 4, tableau : *RhM* 17, 1862) | non localisé |
 | Sandbach, F. H. | Wilson 87 (εἰς ταύτας) | propositions communiquées à Austin : Austin 1987, p. 72 (v. 87) et p. 83 (v. 797, ζητεῖ τὸ κακόν γε θεᾶσθαι) | contrôlé (Austin 1987) |
 | Schömann, G. F. | Enger 341, 432 | *De comitiis Atheniensium libri tres*, Greifswald, 1819, p. 118 (v. 432) | non contrôlé (archive.org `decomitiisatheni00sch`) |
@@ -688,7 +708,8 @@ Renvoi à la section où figure la rubrique ou la ligne de tableau (index régé
 - Anonymus Romanus : § 6
 - Arnoldt, Richard : § 6
 - Austin, Colin : § 5
-- Bach, N. : § 6
+- Bach : § 6
+- Bachmann, L. : § 6
 - Bachmann, O. : § 4
 - Bamberg, M. : § 4
 - Barrett, W. S. : § 6
@@ -716,12 +737,14 @@ Renvoi à la section où figure la rubrique ou la ligne de tableau (index régé
 - Casaubon, Isaac : § 2
 - Cobet, Carel Gabriel : § 4
 - Cockle, W. E. H. : § 5
+- Coppello, Kappeyne van de : § 6
 - Coulon, Victor : § 5
 - Cowan, R. : § 5
 - D'Orville, J. Ph. : § 3
 - Daubuz, Charles : § 3
 - Dawes, Richard : § 3
 - Degani, E. : § 5
+- Denniston, J. D. : § 6
 - Dindorf, Wilhelm : § 4
 - Divus, Andreas : § 2
 - Dobree, Peter Paul : § 4
@@ -733,16 +756,18 @@ Renvoi à la section où figure la rubrique ou la ligne de tableau (index régé
 - Ellebodius, Nicasius : § 2
 - Elmsley, Peter : § 4
 - Enger, Robert : § 4
+- Farreus : § 6
 - Fraenkel, Eduard : § 5
 - Fritzsche, Franz Volkmar : § 4
 - Gaisford, Th. : § 6
+- Gannon, J. F. : § 6
 - Gelenius, Sigismundus : § 2
 - Giacomoni, A. : § 5
 - Gordziejew, W. : § 5
 - Grassi, E. : § 5
 - Grégoire, H. : § 5
 - Grynaeus : § 2
-- Halbertsma, Tjalling : § 6
+- Halbertsma : § 6
 - Hamaker, Hendrik Gerard : § 4
 - Handley, E. W. : § 6
 - Hanow, Karl Friedrich : § 4
@@ -752,13 +777,13 @@ Renvoi à la section où figure la rubrique ou la ligne de tableau (index régé
 - Herwerden, Henricus van : § 4
 - Hiller, E. : § 6
 - Hirschig, Gottfried Adam : § 4
+- Holford-Strevens, L. : § 6
 - Hose, M. : § 5
 - Hunt, A. S. : § 6
 - Invernizi, Filippo : § 4
 - Jackson, J. : § 5
 - Kaibel, Georg : § 4
 - Kamerbeek, J. C. : § 5
-- Kappeyne van de Coppello, J. : § 6
 - Kaye, J. : § 6
 - Klotz, R. : § 6
 - Koen, G. : § 3
@@ -772,16 +797,19 @@ Renvoi à la section où figure la rubrique ou la ligne de tableau (index régé
 - Leeuwen, Jan van : § 5
 - Lenting, Jacob : § 4
 - Lobeck, C. A. : § 4
+- Lowe : § 6
 - Maas, Paul : § 5
 - Manfredi, M. : § 5
 - Markland, J. : § 3
 - Marzullo, B. : § 5
-- Matthiae, A. : § 6
+- Matthiae : § 6
 - Medaglia, S. : § 5
+- Mehler : § 6
 - Meineke, August : § 4
 - Méndez Dosuna, J. : § 5
+- Mitsdörffer : § 6
 - Moreau, J. : § 5
-- Müller, K. O. : § 6
+- Müller, O. : § 6
 - Musgrave, S. : § 3
 - Naber, S. A. : § 6
 - Naeke, A. F. : § 6
@@ -794,6 +822,7 @@ Renvoi à la section où figure la rubrique ou la ligne de tableau (index régé
 - Portus, Aemilius : § 2
 - Prato, Carlo : § 5
 - Preller, L. : § 6
+- Rau, P. : § 6
 - Reisig, Karl : § 4
 - Reiske, Johann Jacob : § 3
 - Richards, H. : § 5

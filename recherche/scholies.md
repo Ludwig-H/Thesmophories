@@ -1,6 +1,6 @@
 # Scholies des *Thesmophories* — recension
 
-> État : **version de travail** (26/10/2026). Chaque affirmation renvoie à la source où elle a été lue ; ce qui n'a pas pu être contrôlé est marqué *[à vérifier]*. Les éditions anciennes citées sont dans `.sources/web/editions/` et `.sources/web/scholies/` (domaine public, non versionnées) ; l'édition moderne (Regtuit 2007) n'est pas disponible localement.
+> État : **version de travail** (26/10/2026, revue le 28/10/2026 : intitulé de l'édition de Groningue, scholies à d'autres auteurs qui citent la pièce, copies locales). Chaque affirmation renvoie à la source où elle a été lue ; ce qui n'a pas pu être contrôlé est marqué *[à vérifier]*. Les éditions anciennes citées sont dans `.sources/web/editions/` et `.sources/web/scholies/` (domaine public, non versionnées) ; l'édition moderne (Regtuit 2007) n'est pas disponible localement.
 
 ## 1. Conventions et sources consultées
 
@@ -8,7 +8,7 @@
 - Sources lues pour cette notice :
   - F. Dübner, *Scholia Graeca in Aristophanem*, Paris, Didot, 1842 : préface (datée « exeunte anno MDCCCXLI »), préface de W. Dindorf réimprimée, scholies des *Thesm.* pp. 264-272, *adnotatio* pp. 507-510 (`.sources/web/editions/1842_Paris_Dubner_scholia/`) ;
   - W. G. Rutherford, *Scholia Aristophanica*, I (1896), introduction pp. v-xv ; II (1896), scholies des *Thesm.* pp. 440-509 environ (`.sources/web/scholies/`) ;
-  - A. Martin, *Les scolies du manuscrit d'Aristophane à Ravenne*, Paris, 1882, *Thesm.* pp. 196-209 (index OCR du corpus) ;
+  - A. Martin, *Les scolies du manuscrit d'Aristophane à Ravenne*, Paris, 1882, *Thesm.* pp. 196-209 (index OCR du corpus ; PDF sans couche texte dans le Drive de l'auteur : `.sources/drive/fichiers/Grec/Aristophane/Scholies/`) ;
   - K. Zacher, *Die Handschriften und Classen der Aristophanesscholien*, Leipzig, 1888 (*Jahrbücher für classische Philologie*, Suppl. 16) (`.sources/web/editions/1888_Leipzig_Zacher/`) ;
   - Invernizi–Beck–Dindorf, *Aristophanis Comoediae*, t. XI = *Scholia Graeca* (« Odoardi Biseti et Aegidii Bourdini scholia continens »), Leipzig, Weidmann (`.sources/web/editions/1823_Leipzig_Invernizi_t11_scholies_Biset/`) ;
   - R. Tordoff, compte rendu de l'édition de Groningue, *BMCR* 2008.09.24 (copie : `.travail/recension/web2/bmcr_26108.html`).
@@ -38,6 +38,10 @@
 - **Mu2** (Monacensis gr. 492), apographe de R pour la pièce (Wilson, OCT II, liste des sigles) : présence de scholies *[à vérifier]*.
 - **Tradition indirecte** : la Souda puise dans les scholies d'Aristophane (« Suidam haec scholia expilare solitum », Dübner, préface) ; pour les *Thesm.*, de nombreuses notices de la Souda reproduisent la scholie de R (ex. : Souda α 1330 = Σ 2 ἀλοῶν, « excerpsit Suidas sub Ἀλοῶ, verbis leviter mutatis », Dübner, *adnotatio*, p. 507) ou en donnent une forme plus complète. Enger (1844) a ajouté au corpus d'autres scholies anciennes (Tordoff) *[nature et source de ces ajouts à vérifier dans l'édition d'Enger]*. Voir `recherche/testimonia.md`, où les notices de la Souda qui citent la pièce sont relevées vers par vers.
 
+### 2.4 Scholies à d'autres auteurs qui citent la pièce
+
+Relevé fait pour `recherche/testimonia.md` (texte lu, référence vérifiée sauf mention contraire) : Σ *Ach.* 79 (vv. 53-57, citation abrégée avec ἁψῖδας ; scholie absente de R, Dübner p. 5) ; Σ *Ach.* 1201 (vv. 131-132, glose μανδαλωτόν) ; Σ *Vesp.* 1158 (v. 142, pièce nommée) ; Σ *Vesp.* 175 (v. 928, proverbe) ; Σ *Eq.* 435 dans l'Aldine (v. 566, interpolée de la Souda selon Dübner) ; Σ *Plut.* 453 (vv. 696-697, pièce nommée) ; Σ *Il.* 1, 135-137 (vv. 536-537, Dindorf et Maass) ; Σ Eur. *Hec.* 225 (v. 870, ἡμέρας pour ἐλπίδος, d'après Grégoire de Corinthe) ; Σ Lucien, *Alex.* 4 (v. 861, Φρυνώνδας, pièce nommée ; non relevée par l'auteur). Non vérifiées : Σ Platon (*Gorg.* 457b, *Hipp. min.* 365d, *Théag.* 127c, *Hipparque* 229d ; vv. 390-391 et 447-449 ; éd. Greene 1938, archive.org `scholia-platonica-1838_1838`), Σ Hésiode, *Op.* 227-229 (v. 300), Σ *Av.* 307 et 1295 (vv. 393 et 168).
+
 ## 3. Éditions
 
 | Année | Éditeur | Ouvrage | Nature | Copie locale |
@@ -56,7 +60,7 @@
 | 1882 | A. Martin | *Les scolies du manuscrit d'Aristophane à Ravenne*, Paris (BEFAR 27) | collation (faite à l'été 1880) | index OCR (`ia:lesscoliesdumanu00martuoft`) |
 | 1882 | C. R. von Holzinger | « Beiträge zur Kenntniss der Ravennasscholien zu Aristophanes », *Wiener Studien* 4, pp. 2-32 | collation (décembre 1881), moins détaillée que celle de Martin (Rutherford I, p. VI, n. 1) | — |
 | 1896 | W. G. Rutherford | *Scholia Aristophanica*, I-II, Londres, Macmillan | scholies de R seules, avec traduction ; transcription contrôlée sur le manuscrit par H. Graeven ; t. III (1905) : *A Chapter in the History of Annotation* | `.sources/web/scholies/` (t. I, II, III) |
-| 2007 | R. F. Regtuit | *Scholia in Aristophanem*, Pars III, fasc. 2-3 : *Scholia in Thesmophoriazusas et Ecclesiazusas*, Groningue, Egbert Forsten | **seule édition critique moderne** ; dernier fascicule de l'édition de Groningue (1960-2007) | non disponible *[intitulé exact et ISBN à vérifier]* |
+| 2007 | R. F. Regtuit | *Scholia in Aristophanem*, Pars III (*Scholia in Thesmophoriazusas, Ranas, Ecclesiazusas et Plutum*), fasc. 2-3 : *Scholia in Thesmophoriazusas et Ecclesiazusas*, Groningue, Egbert Forsten (titres de la Pars III et du fascicule d'après *BMCR* 2008.09.24 et la notice Zenon du DAI) | **seule édition critique moderne** ; dernier fascicule de l'édition de Groningue (1960-2007) ; numérotation propre des scholies (ex. « 162a ») | non disponible *[ISBN non établi : la notice Zenon de la Pars III énumère plusieurs ISBN sans les attribuer aux fascicules ; seul 978-90-6980-173-5 a le format en usage à partir de 2007]* |
 
 Remarques :
 - Le Ravennas, provenant de la bibliothèque d'Urbino, a servi de modèle à la Juntine (Florence, 1515) pour la *Lysistrata* et les *Thesm.* (identité établie par Velsen, *Über den Codex Urbinas der Lysistrata und der Thesmophoriazusen*, Halle, 1871 ; rappel chez Zacher 1888) ; il fut retrouvé à Ravenne vers 1790 (Invernizi, cité par Rutherford I, p. XIV, n.).
@@ -93,7 +97,7 @@ Remarques :
 
 ## 7. Vérifications à faire
 
-1. Obtenir Regtuit 2007 (intitulé exact, ISBN, numérotation des scholies, prolégomènes) : c'est l'édition à citer.
+1. Obtenir Regtuit 2007 (ISBN, numérotation des scholies, prolégomènes ; intitulé établi d'après *BMCR* et Zenon) : c'est l'édition à citer.
 2. Bourdin : contrôler la date (1545, d'après Kuster et Dindorf ; le fichier du Drive porte « 1540 ») sur la page de titre de l'exemplaire Gallica.
 3. Dupuy (Puteanus) : identifier l'exemplaire annoté de l'édition de Froben (BnF) et relever ses scholies aux *Thesm.*
 4. Mu2 (Monacensis gr. 492) : présence et nature des scholies.
