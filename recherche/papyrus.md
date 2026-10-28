@@ -1,6 +1,6 @@
 # Papyrus des *Thesmophories* — recension
 
-> État : **version de travail** (2026-10-26). Rien n'est donné pour acquis sans avoir été lu dans une source (édition, base de données, image) ; la colonne « vérifié » et les mentions *[à vérifier]* disent ce qui reste à contrôler. Les éditions et images sous droits sont dans `.sources/` (non versionné).
+> État : **version de travail** (26/10/2026, revue le 28/10/2026 : leçons de P.Oxy. 3839 et 3840 contrôlées sur les pages de l'éd. princeps conservées dans le Drive de l'auteur ; deux leçons de PSI 1194 lues sur l'image). Rien n'est donné pour acquis sans avoir été lu dans une source (édition, base de données, image) ; la colonne « vérifié » et les mentions *[à vérifier]* disent ce qui reste à contrôler. Les éditions et images sous droits sont dans `.sources/` (non versionné).
 
 ## 1. Conventions et sources
 
@@ -16,7 +16,8 @@
   - fiches en ligne : PSIonline (PSI XI 1194, page sauvegardée `.sources/web/papyrus/PSI_XI_1194_psi-online.html`) ; Oxford, Papyrology (portail SDS, API Figshare) ; Oxyrhynchus Online (pages archivées de `csad.ox.ac.uk/POxy/papyri/vol56/`).
 - **Images** (toutes « In Copyright » : usage d'étude, non versionnées) dans `.sources/web/papyrus/` : `PSI_XI_1194_r.jpg`, `POxy_LVI_3839_hires.jpg`, `POxy_LVI_3839_couleur.jpg` (13 080 × 12 866 px), `POxy_LVI_3840_hires.jpg` (petite : 367 × 934 px), `POxy_LXXIII_4935_hires.jpg`, `POxy_LXXVIII_4935+5132.jpg`.
   - N. G. Wilson, *Aristophanis Fabulae*, II (OCT, 2007), liste « Papyri » en tête des *Thesmophories* (p. 68, non numérotée) et apparat (lu sur les images des pages) : `.sources/drive/editions/` ;
-- **Non consultés** (Drive de l'auteur pas encore téléchargé, ou introuvables en libre accès) : P.Oxy. LVI (1989), pp. 72-79 (3839, 3840) ; PSI XI (1935) et XIV (1957) ; Austin–Olson 2004 (introduction, § sur le texte) ; Schorn, *Satyros aus Kallatis* (2004). Leurs données sont reprises ici de seconde main et marquées comme telles.
+- **Pages de l'éd. princeps de P.Oxy. LVI** (découpes faites par l'auteur, dans son Drive : `.sources/drive/fichiers/Grec/Aristophane/Thesmophories/Grec - commentaire - traduction - apparat/`) : 3839 fr. 1, transcription diplomatique, texte restitué et commentaire de Cockle (`POxy3839 fr1 Coockle TOxPap 56.png`, `POxy3839fr1Coockle.png`, `… c.png`) ; 3839 fr. 2, transcription, texte et commentaire (`POxy3839fr2Coockle t.png`, `… c.png`) ; 3840, transcription de Parsons (`POxy3840 t.png`). Numéros de pages imprimées non visibles sur les découpes.
+- **Non consultés** (Drive de l'auteur pas encore téléchargé, ou introuvables en libre accès) : P.Oxy. LVI (1989), pp. 72-79, en dehors des découpes ci-dessus (introductions, planches) ; PSI XI (1935) et XIV (1957) ; Austin–Olson 2004 (introduction, § sur le texte) ; Schorn, *Satyros aus Kallatis* (2004). Leurs données sont reprises ici de seconde main et marquées comme telles.
 
 ## 2. Tableau récapitulatif
 
@@ -61,10 +62,10 @@ Wilson ne connaît ni P.Oxy. 4935 (publié en 2009) ni 5132 (2012). Codex : « R
 | 154 | ἄν | ἄν R : ἢν Dindorf | confirme R |
 | 242 | [ἕ]τερον (restitution Medaglia) | om. R (vers trop court) | Goossens (1941) : les traces excluent le texte de R ; il pense à π[ρό]τερον (ou ὑπέρτερον) et conjecture τοὐπερῷον ; cf. Austin, *ZPE* 26 et 57 |
 | après 276 | ολολυ[ (parépigraphe) | ὀλολύζουσι, τὸ ἱερὸν ὠθεῖται R (selon l'apparat de l'auteur) | cf. Koster 1955 |
-| 285 | τὰ πόπαν' | τὸ πόπανον R | confirme Porson (Austin 1990, p. 10 n. 4) |
+| 285 | τὰ πόπαν' | τὸ πόπανον R | confirme Porson (Austin 1990, p. 10 n. 4) ; **lu sur l'image** (PSIonline) : ΤΑΠΟΠ[, au-dessous de ΩΘΡΑ[ (284) et au-dessus de ΔΕϹΠΟΙΝ[ (286) |
 | 287 | Φερρέφαττα | Φερσέφαττα R | confirme Thiersch (Austin 1990, ibid.) |
 | 596 | πεπύσμην | πεπύσμην R : 'πεπύσμην Faber | confirme R |
-| 807 | Στρατονίκην | στρατωνίκην R | |
+| 807 | Στρατονίκην | στρατωνίκην R | **lu sur l'image** (PSIonline) : ΚΑΙϹΤΡΑΤΟΝΙΚ[, avec omicron ; ligne suivante ΑΛΛΕΥΒΟΥΛΗϹ[ (808) |
 
 ### 3.2 P.Oxy. LVI 3839 (MP³ 153.1)
 
@@ -74,7 +75,27 @@ Wilson ne connaît ni P.Oxy. 4935 (publié en 2009) ni 5132 (2012). Codex : « R
 - **Éditions** : W. E. H. Cockle, P.Oxy. LVI (1989) 72-78, pl. IX ; id., « An unpublished papyrus of Aristophanes from Oxyrhynchus : *Thesmophoriazusae* 25 (?), 742-766, 941-956 », dans E. M. Craik (éd.), *Owls to Athens. Essays on Classical Subjects presented to Sir Kenneth Dover*, Oxford, 1990, 51-60 (photographie p. 53).
 - **Études** : W. Luppe, *APF* 38 (1992) 76 ; C. Austin, *Dodone* 19 (1990) 10 n. 4 ; W. A. Johnson, *Bookrolls and Scribes in Oxyrhynchus* (2004) ; Litinas 2014 ; Del Corso 2017 (liste MP³).
 - **Images** : portail d'Oxford, DOI 10.25446/oxford.21176497 (copies locales, dont une prise de vue en couleur à très haute résolution).
-- **Leçons notables** (apparat de l'auteur, d'après l'éd. princeps ; non revérifiées) : 743 τρικοτυλον· η πως ειπε μοι τ[ (R τρικότυλον ἢ πῶς ; εἰπέ μοι — τί μ' εἰργάσω ;) ; 745 τυννοῦτον et τυννοῦτο (Brunck : τυνοῦτον, τυνοῦτο R) et pas de changement d'interlocuteur noté devant μικρόν ; 746 γέγονε (Brunck : γέγονεν R) ; 747 καὶ ὅσον (= R : χὤσον Bentley) ; 754 δός τὸ (Lobeck : δός μοι τὸ R) ; 758-759 ἱερείας (= R : ἱερέας Austin–Olson) ; 760 traces ]απητην.ι.α..υξ[ (R σοὐξῃρήσατο). Austin (1990, p. 10 n. 4) : 3839 et 3840 confirment « les corrections de Brunck aux v. 745 et 746, de Fritzsche au v. 745, de Lobeck au v. 754 et d'Enger au v. 1185 ».
+- **Fr. 3 (v. 25 ?)** : ]ονν[. Cockle relève sept passages de la pièce qui contiennent cette suite (25, 291, 381, 463, 623, 745, 1158 ?) et retient τ]ὸν ν[οῦν (v. 25), « the only one to match precisely the twenty-five lines per column in this manuscript and hence is the bottom line of the column » : le fragment viendrait du pied de la première colonne de la pièce. Au verso, une ligne qu'on a rapprochée d'Apollonius le Sophiste (renvoi de Cockle à *BICS* 28, 1981, 139).
+- **Leçons** (vérifiées sur les pages de l'éd. princeps : transcription diplomatique, texte et commentaire de Cockle ; le texte restitué est celui de Cockle) :
+
+| Vers | Papyrus | R et éditeurs | Commentaire de Cockle |
+|---|---|---|---|
+| 743 | τρικοτυλον·ηπως ειπεμοιτ[ | même texte ; R place le changement d'interlocuteur après εἰπέ μοι | « Pap. has the change of speaker before εἰπέ μοι, while R places it after » ; Cockle préfère la répartition de R |
+| 745 | ]νου[.]ονον τυ..ουτο, restitué [τ]υ[ν]νοῦ[τ]ον … τυννοῦτο | τυνοῦτον, τυνοῦτο R : τυνν- Brunck | « Pap. supports Brunck's spelling » ; pas de changement d'interlocuteur devant μικρόν (R en a un) : le papyrus va dans le sens de Fritzsche (μικρὸν νὴ Δία dit par le parent) |
+| 746 | ]οσ'ετηδεγεγονετρ..ϲχοα[ | γεγονεν R : γέγονε Brunck | confirme Brunck ; pas de changement d'interlocuteur devant τρεῖς, à la différence de R |
+| 747 | ]ντοσουτονκα[.]οσον | καὶ ὅσον R : χὤσον Bentley | scriptio plena dans le papyrus comme dans R (cf. R 1061 καὶ αὐτή) |
+| 748 | — | — | changement d'interlocuteur devant μά dans le papyrus et dans R |
+| 749 | blanc de deux lettres avant παν | ἐμπιπρᾶται R : ἐμπίμπρατε Aug. (non Bentley) | paragraphos possible, de seconde main |
+| 754 | ]....ε..ονδοϲτοϲφαγειονμ[ | δός μοι τὸ R : δός μοι Tyrwhitt : δὸς τὸ Lobeck | « δοςτο Pap., confirming Lobeck's δὸς τό » ; σφαγεῖον Pap. = R² (σφάγιον R¹) |
+| 757 | ].ολοι· | — | le papyrus est endommagé au-dessus du point en haut : pas de trace possible d'apostrophe |
+| 758-759 | ]ερματηϲιερειαϲγιγ[ ; ].γιγνεται τουτ[ | ἱερείας R : ἱερέας Austin–Olson | paragraphos dans R au début de 759 |
+| 760 | ]ημικα·τιϲεξεκορηϲ[ | Μίκα R : Μίκκα Lobeck | Μίκα attesté par une inscription attique du Vᵉ s. (*SEG* 21, 97, 15) ; pas de signe sûr de changement d'interlocuteur |
+| 761 | ]απητηνπ.ι.α..υξ[ | σοὐξῃρήσατο R : σοὐξηράσατο Fritzsche | le vers, supprimé par Lobeck et par Hall–Geldart, figure dans le papyrus ; pour le verbe, « there is no way of finding what the papyrus had » |
+| 947-948 | — | R coupe après ἐνθάδε et ἀνέχω- | colométrie |
+| 950 | ]ιν..των[ | — | Cockle lit ]ιν et préfère ce texte à τ]ων ωρων[ |
+| 955-956 | ]ονχο[ ; ]...πο[ | — | Cockle approuve la colométrie de Rogers (χειρὶ σύναπτε χεῖρα, ῥυθ- / μὸν χορείας ὕπαγε πᾶσα· / βαῖνε καρπαλίμοιν ποδοῖν) |
+
+Correction : l'apparat de l'auteur range la ligne ]απητηνπ.ι.α..υξ[ au v. 760 (plage d'apparat) ; c'est le v. 761. Austin (1990, p. 10 n. 4) : 3839 et 3840 confirment « les corrections de Brunck aux v. 745 et 746, de Fritzsche au v. 745, de Lobeck au v. 754 et d'Enger au v. 1185 ».
 
 ### 3.3 P.Oxy. LVI 3840 + LXXIII 4935 + LXXVIII 5132 (MP³ 154.001)
 
@@ -93,9 +114,13 @@ Un seul rouleau, d'une seule main semi-cursive (Henry, P.Oxy. LXXVIII, introd. �
 | 1048-1049 | en ekthesis (de sept et cinq lettres) ; colométrie de R | la plupart des éditeurs répartissent en trois lignes | Benaissa (vérifié) |
 | 1051 | τ]ὸν β[άρβαρον | τὸν βάρβαρον R : τὸν δύσμορον Brunck | Benaissa (vérifié) : confirme R |
 | 1208 | point en haut devant σὸν ἔργον ; place de six lettres environ | λέλυσο (λέλυσον Rᵃᶜ) R : λέλυσαι Bentley | Benaissa (vérifié) : λέλυσο et λέλυσαι possibles, λέλυσαι « would fit the space comfortably » |
-| 1185 | γογγυλί | γογγύλῃ R : γογγυλί Enger | apparat de l'auteur ; Austin 1990 (confirmation d'Enger) ; non revérifié |
-| 1187a | μ]ενο[ (le vers est présent) | vers présent dans R ; del. Ellebodius | apparat de l'auteur ; non revérifié |
-| 1192 | μέλι (avec le Monacensis) | μέλις R | apparat de l'auteur ; non revérifié |
+| 1185 | ].υλι (transcription de Parsons) | γογγύλῃ R : γογγυλί Enger | vérifié (P.Oxy. LVI, transcription) ; confirme Enger (Austin 1990) |
+| 1186 | ]κυθη.[ | Σκύθην | vérifié |
+| 1187a | ]ενο.[ (le vers est présent ; μ]ενο[ chez l'auteur) | vers présent dans R ; del. Ellebodius | vérifié (P.Oxy. LVI, transcription : la ligne est numérotée 1187a) |
+| 1189 | ]ωιν[ | νῷν | vérifié ; iota adscrit |
+| 1190 | ].αμε: | με; | vérifié ; dicolon (changement d'interlocuteur) |
+| 1191 | ]απαπαπαι | παπαπαπαῖ | vérifié |
+| 1192 | ]..οϲμελι, fin de ligne (avec le Monacensis) | μέλις R | vérifié (P.Oxy. LVI, transcription) |
 
 ### 3.4 Citation papyrologique : Satyros, *Vie d'Euripide* (P.Oxy. IX 1176)
 
@@ -124,8 +149,8 @@ Un seul rouleau, d'une seule main semi-cursive (Henry, P.Oxy. LXXVIII, introd. �
 
 ## 6. Vérifications à faire
 
-1. Relire sur P.Oxy. LVI (Drive : « Oxyrhynchus Papyri 56 … 3839 et 3840 … ») les leçons de 3839 et 3840 reprises de l'apparat de l'auteur ; contrôler la lecture de 3840 sur une image meilleure que la vignette d'Oxford.
-2. Relire PSI XI 1194 et PSI XIV p. XV (et Austin, Pap. Flor. VII) pour les leçons de PSI 1194, notamment 141, 242, 276, 285, 287, 807.
+1. P.Oxy. LVI : leçons de 3839 (fr. 1 et 2) et de 3840 contrôlées sur les découpes de l'éd. princeps (fait le 28/10/2026) ; restent à lire l'introduction de Cockle (datation, main, colonnes de 25 lignes) et celle de Parsons, et à relever les numéros de pages (Drive : « Oxyrhynchus Papyri 56 … 3839 et 3840 … », non encore téléchargé).
+2. Relire PSI XI 1194 et PSI XIV p. XV (et Austin, Pap. Flor. VII) pour les leçons de PSI 1194, notamment 141, 242, 276, 287 (285 et 807 lus sur l'image de PSIonline ; la parépigraphe après 276 n'est pas lisible sur cette image).
 3. Sigles et liste des papyrus chez Austin–Olson (2004, introduction, pp. lxxxix-xcii selon Tordoff, *BMCR* 2008.09.24). (Wilson : fait, voir § 2 bis.)
 4. Satyros : texte de Schorn (2004) pour les vv. 337 et 373 (source de la transcription de l'auteur).
 5. CGFP 46 ou 16 pour PSI 1194 (PSIonline contre MP³).

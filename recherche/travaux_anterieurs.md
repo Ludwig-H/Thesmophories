@@ -610,6 +610,8 @@ auteurs cités » et un « Index général » sont commentés (ébauches vides).
 
 ## 10. Comparaison des versions
 
+> **Réécriture en cours (28 octobre 2026)** : extension de la comparaison à tous les états du dossier de travail du Drive (`GCA/`, `TH/Versions/`, états du printemps 2020), avec recensement des contenus récupérables (`edition/donnees/travaux_anterieurs/contenus_recuperables.tsv`). Plan : 10.1 inventaire et chronologie des états ; 10.2 méthode ; 10.3 ce qui a disparu, et quand ; 10.4 contenus récupérables. Le texte ci-dessous (comparaison limitée aux copies de `latex/`) reste valable jusqu'à son remplacement.
+
 Méthode (`outils/extraction/comparer_versions.py`) : chaque version est extraite avec le même analyseur que
 la version de référence ; chaque élément ancien (commentaire, note, entrée d'apparat, testimonium) reçoit un
 statut d'après le texte le plus proche dans la version de 2023 (actif ou commenté par `%`, y compris les

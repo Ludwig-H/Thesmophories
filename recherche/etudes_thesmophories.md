@@ -1301,7 +1301,8 @@ a été relevé automatiquement sur l'extrait textuel (`.sources/drive/ravennas/
 lemmes peuvent manquer. Les vers des commentaires (AO, S., P., Wilson) ne sont pas indexés ici ; les éditions
 anciennes sont dans `recherche/conjectures_sources.md`. « *Apparat de Wilson* » signale, pour mémoire, les
 conjectures de critiques des XXe-XXIe s. (et de Kaibel, van Leeuwen, Richards) citées dans l'apparat de l'OCT, d'après
-le répertoire critique du dépôt (`edition/donnees/repertoire_critique/wilson2007_*.jsonl`) : le lieu de publication
+le répertoire critique du dépôt (`edition/donnees/repertoire_critique/wilson2007_*.jsonl`, état du 28 octobre 2026,
+certaines tranches étant encore en cours de saisie) : le lieu de publication
 de ces conjectures est à chercher parmi les notices ci-dessus (Austin 1987, 1990 ; S. ; AO…). Index produit par
 `.travail/etudes/scripts/index_vers.py` (données manuelles : `.travail/etudes/index_manuel.tsv`).
 

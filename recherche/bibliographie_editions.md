@@ -103,6 +103,7 @@ Les références complètes, URL et justifications sont dans les notices du § 3
 | E43 | 1904 ; 1924 | B. B. Rogers | *The Thesmophoriazusae*, Londres, Bell ; repris dans la Loeb, t. III, 1924 | T, Tr. angl., C, A | — | oui | `ED/1904_Londres_Rogers/thesmophoriazus00rogegoog.pdf` ; `ED/1924_Londres_Rogers_Loeb_t3/aristophaneswith03arisuoft.pdf` | 1904 : texte PDF 50–227, appendice PDF 228–281 ; 1924 : PDF 135–252 = p. 125–242 |
 | E44 | 1928 | V. Coulon, H. Van Daele | *Aristophane* IV, Paris, Les Belles Lettres (CUF) | T, A, Tr. fr. | R | non | Drive (CUF IV) ; extrait : `.sources/drive/ravennas/Coulon_1928_Thesm_Grenouilles_textrep.txt` | — |
 | E45 | 1956 | R. Cantarella | *Aristophanis Comoediae* IV, Milan, ISEI | T, A, Tr. it. | — | non | — | — |
+| E45b | 1974 | M. Balasch | *Aristòfanes, Comèdies* V : *Les Tesmofòries. Les Granotes*, Barcelone, Fundació Bernat Metge (n° 190), 185 p. | T révisé, Tr. cat. | — | non | — | — |
 | E46 | 1983 | G. Paduano | *Aristofane, La festa delle donne*, Milan, BUR | T (Coulon retouché), Tr. it., notes | — | non | Drive (`TH/Le donne alle Tesmoforie…pdf`) | — |
 | E47 | 1988 | J. F. Gannon | *Aristophanes' Thesmophoriazusae*, Bryn Mawr | T (+ notes ?) | — | non | — | — |
 | E48 | 1994 | A. H. Sommerstein | *Thesmophoriazusae*, Warminster, Aris & Phillips | T, A, Tr. angl., C | R | non | Drive ; extrait : `.sources/drive/ravennas/Sommerstein_1994_Thesm_textrep.txt` | — |
@@ -397,8 +398,8 @@ fichier local ; pages des *Thesm.* ; remarques.
   aristophaniscom09arisgoog (1829) [tome non identifié].
 - Contenu (contrôlé sur les images de la BSB) : le **t. III de 1814** contient *Ach.* (canevas 7 sqq.), *Guêpes*
   (85 sqq.), *Thesm.* (173 sqq.) et *Assemblée* (247 sqq.) ; la notice de la BSB attribue à tort ce contenu au
-  t. II, dont le volume numérisé contient la fin des *Cavaliers*, la *Paix* (canevas 201 sqq.) et la *Lysistrata*
-  (canevas 277 sqq.).
+  t. II, dont le volume numérisé contient notamment les *Cavaliers* (jusqu'au canevas 200), la *Paix* (201 sqq.) et la
+  *Lysistrata* (277 sqq.).
 - Nature : T sans apparat. Base : vulgate [modèle à préciser]. DP : oui.
 - C'est l'« ed. Lipsiensis (1814) » que cite l'apparat de l'auteur au v. 1201 (Ἀρταμουξία : t. III, p. 237,
   « μεμνῆσι τοίνυν τοὔνομ᾽· Ἀρταμουξία », PDF 79 de l'extrait local, contrôlé).
@@ -719,6 +720,13 @@ T seul ; DP : oui ; pas de numérisation trouvée.
   R. Cantarella, Milano, Istituto Editoriale Italiano, 1949–1964, 5 vol. ; *Thesm.* au t. IV, 1956 (Prato
   2001, p. XLVI). Nature : T, A, Tr. it. DP : non. Fichier : —.
 
+**E45b. 1974 — Manuel Balasch, Barcelone (Fundació Bernat Metge).**
+- Réf. : *Aristòfanes, Comèdies*, vol. V : *Les Tesmofòries. Les Granotes*, text revisat i traducció de Manuel
+  Balasch, Barcelona, Fundació Bernat Metge (n° 190 de la collection), 1974, 185 p. (Prato 2001, p. XLVI ;
+  numéro, pagination et ISBN 9788472250994 d'après une notice de libraire en ligne).
+- Nature : texte grec révisé et traduction catalane en regard (présentation habituelle de la collection)
+  [à vérifier sur l'exemplaire]. Base : [à vérifier]. DP : non. Fichier : —.
+
 **E46. 1983 — Guido Paduano, Milan (BUR).**
 - Réf. : *Aristofane, La festa delle donne*, introduzione, traduzione e note di G. Paduano, Milano, BUR,
   1983 (Prato 2001, p. XLVII). Nature : T (celui de Coulon, retouché ; `recherche/drive_ressources.md` § 6),
@@ -828,11 +836,11 @@ Blaydes, van Herwerden…) sont décrits critique par critique dans `recherche/c
 | 1829 | I. Bekker (éd.) | *Aristophanis comoediae* … t. IV : *Notae variorum in Pac., Av., Thesm., Lys.*, Londres | notes *variorum* | `1829_Londres_Bekker_t4_notes/aristophanouskm01bekkgoog.pdf` | p. 253–329 = PDF 252–328 |
 | 1834 | (Invernizi–Beck–Dindorf) | t. IX, 2ᵉ partie : scholies des *Thesm.* réimprimées d'après l'édition de Londres (Rutherford 1896, I, p. XIV n., cité dans `recherche/scholies.md`) | scholies | — | — |
 | 1837 | W. Dindorf | *Aristophanis comoediae*, t. III : *Annotationes*, Oxford | notes *variorum* et de Dindorf | `1837_Oxford_Dindorf_t3_annotationes/aristophans00unkngoog.pdf` | p. 701–756 = PDF 710–765 |
-| 1838 | G. Hermann | compte rendu de Fritzsche, *Zeitschrift für die Alterthumswissenschaft* 5 (1838), col. 672–693 (Prato 2001, p. LXXI) | conjectures | `1838_ZfAW_5_Hermann_Fritzsche/` | [colonnes à localiser dans le PDF] |
+| 1838 | G. Hermann | compte rendu de Fritzsche, *Zeitschrift für die Alterthumswissenschaft* 5 (1838), col. 672–693 (Prato 2001, p. LXXI) | conjectures | `1838_ZfAW_5_Hermann_Fritzsche/` | PDF 341–353 = col. 670–693 (deux colonnes par page : PDF n = col. 2n−13 et 2n−12) |
 | 1841 | J. Zastra | *Ueber den Zweck von Aristophanes Thesmophoriazusen*, Breslau, Kupfer (B3Kat) | étude | — | — |
 | 1842 | Fr. Dübner | *Scholia Graeca in Aristophanem*, Paris, Didot | scholies, *adnotatio* | `1842_Paris_Dubner_scholia/scholiagraecain00unkngoog.pdf` | p. 264–272 = PDF 343–353 ; *adnotatio* PDF 636–641 |
 | 1843 | R. Enger | « Beiträge zur Kritik und Erklärung der Thesmophoriazusen des Aristophanes und der Scholien zu diesem Stücke », *RhM* N. F. 2 (1843) | conjectures, exégèse | `1843_Enger_Beitraege_RhM/41250706.pdf` | 26 p. |
-| 1845 | G. Hermann | compte rendu d'Enger, *ZfAW* 1845, col. 905–920 = *Opuscula* VIII, Leipzig, 1877, p. 288–308 | conjectures | `1877_Hermann_Opuscula_VIII/opuscula07hermuoft.pdf` ; copie Drive | [pages PDF à localiser] |
+| 1845 | G. Hermann | compte rendu d'Enger, *ZfAW* 1845, col. 905–920 = *Opuscula* VIII, Leipzig, 1877, p. 288–308 | conjectures | `1877_Hermann_Opuscula_VIII/opuscula07hermuoft.pdf` ; copie Drive | *Opuscula* VIII, p. 288–308 = PDF 740–760 |
 | 1846 | R. Enger | « Zu Aristophanes Thesmophoriazusen », *RhM* N. F. 4 (1846) | date, critique | `1846_Enger_Zu_Thesm_RhM/41250353.pdf` | 28 p. |
 | 1865 | A. von Velsen | « Zur Kritik des Aristophanes », *RhM* 20 (1865), p. 390–400 | critique | `articles_jstor/41249869.pdf` | — |
 | 1865 | M. Bamberg | *De Ravennate et Veneto Aristophanis codicibus*, Bonn | manuscrits | `1865_Bonn_Bamberg/deravennateetven00bambuoft.pdf` | — |
@@ -882,6 +890,7 @@ le latin, l'italien, le français, l'allemand et l'anglais (§ 7).
 |---|---|---|---|---|
 | 1545 | Bartolomeo et Pietro Rositini | *Le Comedie del facetissimo Aristofane, tradutte di greco in lingua commune d'Italia*, Venise, V. Valgrisi (« Vaugris ») ; *Thesm.* = « Le Cereali, comedia X » | BnF cb30027161z | `ED/1545_Venise_Rositini_traduction_italienne/bsb10169312.pdf` : PDF 513–563 = f. 254r–279r |
 | s. d. | Domenico Capellina | *Commedie di Aristofane tradotte dal professore Domenico Capellina*, Turin, Stamperia Reale | B3Kat [date et contenu à vérifier] | — |
+| 1904 | Ettore Romagnoli | *Le Tesmoforiazuse d'Aristofane*, versione poetica con introduzione e note, Piacenza, A. Del Maino | notice reprise par Open Library (OL42930614W) | — |
 | 1905 | Augusto Franchetti | *Aristofane, Le donne alle Tesmoforie*, introd. e note di D. Comparetti, Città di Castello | Prato 2001, p. XLVII | — |
 | 1907 | Ettore Romagnoli | *Aristofane, Le commedie, tradotte in versi italiani*, Turin ; rééd. (5 vol.) : *Thesm.* au t. IV (Milan, ISEI, 1956 : « Gli uccelli. Lisistrata. Le tesmoforiazuse ») | Prato 2001, p. XLVII ; B3Kat | — |
 | 1956 | R. Cantarella | traduction jointe à l'édition (E45) | Prato 2001, p. XLVI | — |
@@ -894,10 +903,10 @@ le latin, l'italien, le français, l'allemand et l'anglais (§ 7).
 
 | Date | Traducteur | Titre, lieu, éditeur | Contrôle | Fichier / URL |
 |---|---|---|---|---|
-| 1784 | Louis Poinsinet de Sivry | *Théâtre d'Aristophane, traduit en français, partie en vers, partie en prose, avec les fragments de Ménandre et de Philémon*, Paris, Didot jeune, 4 vol. (rééd. Desray, 1790) | BnF cb300271493, cb47656021x [présence des *Thesm.* à vérifier] | — |
+| 1784 | Louis Poinsinet de Sivry | *Théâtre d'Aristophane, traduit en français, partie en vers, partie en prose, avec les fragments de Ménandre et de Philémon*, Paris, Didot jeune, 4 vol. (rééd. 1788 ; Desray, 1790) : « Les Fêtes de Cérès, comédie en cinq actes », t. III, p. 205 sqq. (notice p. 206) | BnF cb300271493, cb47656021x ; OCR d'archive.org (`bub_gb_A4lqXgnAl58C`, 1784, vues 211-215 ; aussi `thatredaristoph01sivrgoog`, 1790) | https://archive.org/details/bub_gb_A4lqXgnAl58C |
 | 1785–1789 | « M. *** » (A.-Ch. Brotier) | *Théâtre des Grecs, par le P. Brumoy*, nouvelle éd., Paris, t. XII : « Les Thesmophories, ou les fêtes de Cérès et de Proserpine », extrait du P. Brumoy, puis « la même, traduite en entier par M. *** » ; traduction attribuée à Brotier et réimprimée sous le nom de Brotier, revue par L. Humbert, *Théâtre d'Aristophane*, Paris, Garnier, 1882 | table du t. XII (IA thtredesgrec12brum) ; Dindorf 1821, préface p. VI (« Gallica versio legitur in eodem Theatri a Brumoeo editi volumine quo Lysistrata ») ; BnF cb30027156c (1882) | https://archive.org/details/thtredesgrec12brum |
-| 1830 | [Nicolas-Louis] Artaud | *Comédies d'Aristophane, traduites du grec*, Paris, Brissot-Thivars ; 2ᵉ éd. Lefèvre–Charpentier, 1841 ; 4ᵉ éd. F. Didot, 1855 | BnF cb300271509, cb38691127x, cb30027151n [contenu à vérifier] | — |
-| 1860 | C. Poyard | *Aristophane, traduction nouvelle, avec une introduction et des notes*, Paris, Hachette (2ᵉ éd. 1869 ; 4ᵉ 1873 ; 11ᵉ 1903, *Œuvres complètes*) | BnF cb300271520, cb386911288, cb36583211n, cb31729897q | — |
+| 1830 | [Nicolas-Louis] Artaud | *Comédies d'Aristophane, traduites du grec*, Paris, Brissot-Thivars, 6 vol. ; 2ᵉ éd. Lefèvre–Charpentier, 1841 : « Les Thesmophories, ou Fêtes de Cérès et de Proserpine », p. 363-402 (notice p. 361, note p. 403) ; 4ᵉ éd. F. Didot, 1855 | BnF cb300271509, cb38691127x, cb30027151n ; 2ᵉ éd. contrôlée sur l'OCR d'archive.org (`bub_gb_YW6O6V9BMlUC`, table des matières et titre de la pièce) | https://archive.org/details/bub_gb_YW6O6V9BMlUC |
+| 1860 | C. Poyard | *Aristophane, traduction nouvelle, avec une introduction et des notes*, Paris, Hachette (2ᵉ éd. 1869 ; 4ᵉ 1873 ; 11ᵉ 1903, *Œuvres complètes*) | BnF cb300271520, cb386911288, cb36583211n, cb31729897q ; traduction des *Thesm.* citée par Coulon, *REG* 50 (1937), p. 456 (vv. 126-127) | — |
 | 1862 | Amédée Fleury | *Comédies d'Aristophane, essai de traduction*, Paris, Garnier (1864, 1869 avec une table de A. Feuillemorte) | BnF cb30027153b [contenu à vérifier] | — |
 | 1889 | Charles Zévort | *Comédies d'Aristophane, traduction nouvelle, avec une introduction et des notes* (achevée et publiée par J. Denis), Paris, Charpentier | BnF cb30027157q [contenu à vérifier] | — |
 | 1897 | Eugène Talbot | *Aristophane, traduction nouvelle*, préface de Sully Prudhomme, Paris, Lemerre, 2 vol. ; t. II : « Thesmophoriazouses, ou Les femmes aux fêtes de Dèmètèr » | BnF cb300271582 ; Project Gutenberg n° 20664 (t. II) | https://www.gutenberg.org/ebooks/20664 |
@@ -933,6 +942,7 @@ le latin, l'italien, le français, l'allemand et l'anglais (§ 7).
 | 1912 | anonyme (Athenian Society) | *Aristophanes, The Eleven Comedies*, Londres, Athenian Society, 2 vol. (t. I : … *The Thesmophoriazusae* …) ; rééd. New York, Liveright, 1928 | IA aristophaneselev0001vari_n0q0 ; BnF cb35360944x (1928) | https://archive.org/details/aristophaneselev0001vari_n0q0 |
 | 1927–1934 | Arthur S. Way | *Aristophanes in English Verse*, Londres, Macmillan | B3Kat [tome à vérifier] | — |
 | 1959 | Dudley Fitts | *Ladies' Day* (*Thesmophoriazusae*) | B3Kat (notice de 1960) | — |
+| 1962 | (trad. diverses, éd. Moses Hadas) | *The Complete Plays of Aristophanes*, New York, Bantam Books (rééd. 1968) : contient les *Thesm.* | Open Library (OL31536086W) [traducteur des *Thesm.* à vérifier] | — |
 | 1964 | David Barrett | *The Frogs and Other Plays* (*The Wasps, The Poet and the Women, The Frogs*), Harmondsworth, Penguin ; rév. Shomit Dutta, 2007 | B3Kat (éd. 2007) [contenu à vérifier] | — |
 | 1994 | A. H. Sommerstein | traduction de l'édition (E48) | BnF | Drive |
 | 1996 | Jeffrey Henderson | *Three Plays by Aristophanes : Staging Women*, New York, Routledge | BnF cb37103229h | — |
@@ -940,20 +950,31 @@ le latin, l'italien, le français, l'allemand et l'anglais (§ 7).
 | 2001 | anonyme, éd. W.-A. Landes | *The Women at the Festival of Demeter (Thesmophoriazusae)*, Studio City (Calif.), Players Press | B3Kat | — |
 | 2010 | Michael Ewans | *Lysistrata, The Women's Festival, and Frogs*, Norman, University of Oklahoma Press | BnF cb425330766 | — |
 | 2015 | Stephen Halliwell | *Aristophanes, Clouds, Women at the Thesmophoria, Frogs : A Verse Translation, with Introductions and Notes*, Oxford, OUP | B3Kat | Drive (`AR/Halliwel Aristophane…pdf`) |
+| 2015 | Thomas L. Pangle | *Thesmophoriazusae [Women Celebrating the Festival of the Thesmophoria]*, traduction dactylographiée (PDF daté du 13 août 2015, 47 p.) | Drive (métadonnées du PDF) | `.sources/drive/fichiers/Grec/Aristophane/Thesmophories/Aristophanes_THESMOPORIAZUSAE_a_translat.pdf` |
+| 2024 | Diane Arnson Svarlien (trad.), Ian C. Storey (introd. et notes) | *Aristophanes, Lysistrata, Women at the Thesmophoria, Frogs*, Indianapolis, Hackett (Hackett Classics), 416 p. | Open Library ; notice de l'éditeur (ISBN 9781647921859) | — |
 
 ### 5.6. Autres langues
 
 | Langue | Date | Traducteur | Titre, lieu, éditeur | Contrôle |
 |---|---|---|---|---|
 | espagnol | 1880–1881 | Federico Baráibar y Zumárraga | *Comedias de Aristófanes*, Madrid (Biblioteca Clásica), 3 vol. ; *Thesm.* au t. III | IA comediasdearistf00aris (microfilm) |
+| espagnol | 1962 ; 1966 | Ángel María Garibay K. | *Las once comedias*, versión directa del griego, México, Porrúa (« Sepan cuantos » ; « Tesmoforias ») | Open Library (OL15101025W, éd. 1966, 367 p., table des matières) |
 | espagnol | 2013 | Luis Gil Fernández | *Aristófanes, Comedias* 3 : *Lisístrata. Las tesmoforiantes. Las ranas. Las asambleístas. Pluto*, Madrid, Gredos | B3Kat |
-| catalan | 1974 | Manuel Balasch | *Aristòfanes, Comèdies* V : *Les Tesmofòries. Les Granotes*, Barcelone (Fundació Bernat Metge), texte révisé et traduction | Prato 2001, p. XLVI |
+| espagnol | 2012 | [traducteur non relevé] | *Las tesmoforiantes*, Buenos Aires, Losada, 160 p. | Open Library (OL34988753W) [à vérifier] |
+| catalan | 1974 | Manuel Balasch | *Aristòfanes, Comèdies* V : *Les Tesmofòries. Les Granotes*, Barcelone (Fundació Bernat Metge), texte révisé et traduction (E45b) | Prato 2001, p. XLVI ; notice de libraire |
 | portugais | 1978 ; 2001 | Maria de Fátima Sousa e Silva | *As mulheres que celebram as Tesmofórias*, [Coimbra], 1978 ; Lisbonne, Edições 70, 2001 | B3Kat |
+| portugais (Brésil) | 2005 | Adriane da Silva Duarte | *Duas comédias : Lisístrata e As tesmoforiantes*, São Paulo, Martins Fontes | Open Library (OL9158259M) ; bibliographies universitaires (date 2005 la plus fréquente) |
+| grec moderne | 1978 | Ilías S. Papalás | Ἀριστοφάνους Θεσμοφοριάζουσαι, λογοτεχνικὴ μετάφρασις, Athènes, 80 p. | Open Library (OL15100950W) |
 | grec moderne | 1997 | Pávlos Mátesis | Θεσμοφοριάζουσαι, Athènes, Kastaniotis | BnF cb37685764d |
 | grec moderne | 2003 | K. Ch. Myrís (introd. et scholies Ath. Frankoulis) | Θεσμοφοριάζουσαι, Athènes, Patakis | B3Kat |
 | grec moderne | 2008 | Theódoros G. Mavrópoulos | Θεσμοφοριάζουσαι, Thessalonique, Zitros | B3Kat |
 | tchèque | 1914 | Augustin Krejčí | *Komoedie Aristofanovy* 4 : *Ženy o thesmoforiích*, Prague, Académie | B3Kat |
 | hongrois | (1880–1885) | János Arany | traduction complète d'Aristophane, rééditée dans *Arany János összes művei* 9 (*Drámafordítások* 3), Budapest, Akadémiai kiadó, 1961 | BnF cb32905219c [titre hongrois et date de 1ʳᵉ éd. à vérifier] |
+| polonais | 1955 | Stefan Srebrny | *Wybór komedii : Osy, Pokój, Ptaki, Tesmoforie*, Varsovie, PIW, 506 p. | Open Library (OL42724723W) |
+| russe | 1983 | [A. Piotrovski ou V. Jarkho : à vérifier] | Аристофан, *Комедии* в 2 т., Moscou, Iskousstvo, t. 2 (« Женщины на празднике Фесмофорий ») | notice de libraire citée par une recherche web [à vérifier sur le catalogue de la RGB] |
+| hébreu | 1997 | Ziva Caspi (trad.), Dwora Gilula (introd. et commentaire) | *Ḥag ha-nashim : ḳomedyah*, Jérusalem, Magnes, 140 p. | Open Library (OL18118730M) |
+| turc | 2022 | Erman Gören, Eser Yavuz | *Thesmophoria'yı Kutlayan Kadınlar*, Istanbul, Türkiye İş Bankası Kültür Yayınları (première traduction turque directe d'après le grec, selon l'éditeur) | Open Library ; notice de libraire (Kitapyurdu) |
+| japonais | 2025 | Tobe Jun'ichi (戸部順一) | アリストパネス『喜劇全集 2』, Kyoto, Kyoto University Press (西洋古典叢書) : « 女だけの祭（テスモポリアズサイ） » | notice de la NDL citée par une recherche web [à vérifier] |
 
 ## 6. Contrôle d'intégrité des fichiers locaux
 
@@ -987,7 +1008,7 @@ Particularités :
   celles-ci sont dans `1816_Classical_Journal_14`, p. 130–138). Dates d'IA erronées : Invernizi t. VIII et
   XI (« 1794 » pour 1821 et 1823), Dindorf t. IV 3 (« 1835 » pour 1838), Holden (« 1867 » pour 1868).
 - **Notice de catalogue erronée** : BSB `bsb10232504` (« Aristophanis Comoediae. 2, Acharnenses, Vespae,
-  Thesmophoriazusae, Ecclesiazusae », 1812) contient en fait la fin des *Cavaliers*, la *Paix* et la *Lysistrata* ;
+  Thesmophoriazusae, Ecclesiazusae », 1812) contient en fait, entre autres, les *Cavaliers*, la *Paix* et la *Lysistrata* ;
   les *Thesm.* sont au t. III (1814, `bsb10232505`), dont l'extrait est local (E19).
 - **Numérisations à rebours** : Juntine de 1515 (*Comoediae novem*), Farreus 1542, édition de 1548.
 - **Désordres de reliure ou de numérisation** : Divus 1539 (p. 507–510 reliées avant 507–508 ; doublon
@@ -1155,12 +1176,18 @@ le « τί δ' ἦν olim Dindorfius » d'Enger permet d'attribuer à W. Dindorf
 (1812) décrit en réalité le contenu du t. III ; le t. I de l'Oxford de 1810 contient le texte grec et les notes,
 le t. IV la version latine.
 
-**Points à vérifier.** Mode de collation de R par Coulon, Cantarella, Gannon, Sommerstein, Austin–Olson ;
-contenu exact de l'édition de Bourdin (texte complet ou seulement lemmes) ; pages des *Thesm.* dans l'édition
-de 1624 ; contenu des traductions françaises complètes de Poinsinet de Sivry, Artaud, Poyard, Fleury,
-Zévort ; notice de la traduction de Voss (1821) ; tome des *Thesm.* chez Hickie (1853) et Way (1927–1934) ;
-titre hongrois d'Arany ; autres traductions (russe, polonais, néerlandais, langues scandinaves, autres
-traductions espagnoles et grecques modernes) à rechercher dans KVK et WorldCat. Pour les adaptations
+**Points à vérifier.** Mode de collation de R par Coulon (préface du t. I de la CUF, 1923), Cantarella,
+Gannon, Sommerstein, Austin–Olson (Introduction, § VII « The Manuscript Tradition », p. lxxxix–xcviii, absente de
+l'extrait local) ; contenu exact de l'édition de Bourdin (texte complet ou seulement lemmes) ; pages des *Thesm.*
+dans l'édition de 1624 (et identité de la « Batava minor » d'Enger : `conjectures_sources.md` § 6) ; date de la
+première édition stéréotype de Weise (avant 1840) ; contenu des traductions de Fleury (1862) et de Zévort (1889) ;
+notice de la traduction de Voss (1821) ; tome des *Thesm.* chez Hickie (1853 ; numérisations DLI d'archive.org
+sans OCR) et Way (1927–1934) ; traducteurs des *Thesm.* dans la Bantam de M. Hadas (1962), chez Losada (2012) et
+dans l'Aristophane russe de 1983 (Piotrovski ou Jarkho) ; titre hongrois d'Arany ; présentation (bilingue ou
+non) de l'édition Balasch (1974) ; autres traductions (néerlandais, langues scandinaves, roumain, coréen, chinois…)
+à rechercher dans KVK et WorldCat. Contrôlés le 28 oct. 2026 : présence des *Thesm.* chez Poinsinet de Sivry
+(1784, t. III), Artaud (2ᵉ éd., 1841, p. 363–402) et Poyard (cité par Coulon 1937). Pour les adaptations
 scéniques (grec moderne : Solomos 1958, Koun 1985), voir Austin–Olson 2004, p. xxxiii n. 13, qui renvoie à
 G. Van Steen, *Venom in Verse* (Princeton, 2000) et à l'*Archive of Performances of Greek and Roman Drama*
-(Oxford).
+(Oxford) ; plus récemment, traduction de P. Boukalas pour la mise en scène de V. Theodoropoulos au festival
+d'Épidaure (2018), d'après la presse grecque (*Ta Nea*, 30 juill. 2018) [publication imprimée à vérifier].

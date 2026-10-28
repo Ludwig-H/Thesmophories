@@ -1,0 +1,213 @@
+[
+ {
+  "v": 39,
+  "partie": "",
+  "schema": "–––– –––– |",
+  "colon": "2an",
+  "etiquette": "an.",
+  "note": "Dimètre entièrement spondaïque (huit longues), diérèse médiane après πᾶς. λᾱός (ᾱ long, LSJ) : leçon de la scholie et de la Souda (ε 3792, mss GIVM), rétablie par Bothe après Dindorf (Enger 1844, p. 13) et reçue depuis ; λεώς de R (et des mss AF de la Souda) est amétrique : λε-ώς (⏑–) laisse une brève seule dans le dernier biceps, et, par synizèse (une longue), le vers n'aurait que sept positions, forme de parémiaque impossible en tête d'un système récitatif. Brunck rétablissait le mètre en gardant λεώς (πᾶς ὁ λεὼς ἔστω : Rogers 1904, p. 184). Rythme de l'εὐφημία rituelle : Bergk rapprochait le v. 39 du proème de l'hymne de Mésomède à Hélios (Εὐφαμείτω πᾶς αἰθήρ…), dont « das Vorspiel sind Spondeen » (Wilamowitz 1921, p. 603-604)."
+ },
+ {
+  "v": 40,
+  "partie": "",
+  "schema": "⏑⏑––– ⏑⏑––– |",
+  "colon": "2an",
+  "note": "στόμα : biceps non contracté ; -σᾱς long (participe aoriste) ; ἐπι- : biceps non contracté ; γὰρ final long par position devant θ- de 41 (synaphie). συγκλῄσας (Dindorf) et συγκλείσας (R, Souda) : même quantité."
+ },
+ {
+  "v": 41,
+  "partie": "",
+  "schema": "⏑⏑––– ––⏑⏑– |",
+  "colon": "2an",
+  "note": "θῐ́ᾰσος : deux brèves (LSJ) ; -σος long par position devant Μ- ; μελάθρων : -λᾰ- bref devant θρ (correption attique, norme du dialogue comique : West 1987, p. 16-17) ; long, il laisserait le biceps à une seule brève."
+ },
+ {
+  "v": 42,
+  "partie": "",
+  "schema": "––⏑⏑– ⏑⏑–– ‖",
+  "colon": "2an∧",
+  "note": "Parémiaque (dimètre catalectique) ; troisième pied anapeste, seule forme admise hors du vers mélique (White 1912, § 273, p. 109). Clôt le premier système, 39-42 (Mazon 1904, p. 127 n. 1 ; Conradt 1910, p. 48-49 ; White 1912, § 329, p. 137, compte « Th. 42 » parmi les parémiaques qui ferment un hypermètre à l'intérieur de la période). μελοποιῶν : -ποι- long (diphtongue maintenue), contre ποη- bref au v. 59. μελωποιῶν de R (Velsen 1883, p. 11 ; image) est une faute d'orthographe, amétrique (με- seul au biceps)."
+ },
+ {
+  "v": 43,
+  "partie": "",
+  "schema": "⏑⏑–⏑⏑– –⏖–– |",
+  "colon": "2an",
+  "note": "Ouvre le second système (43-62). ἐχέ- et δὲ πνο- : biceps non contractés ; δὲ bref devant πν- (correption à la jonction des mots) ; νήνεμος αἰθήρ : « dactyle » = biceps contracté + princeps résolu (-νεμο-), forme normale de la résolution dans l'anapeste (West 1987, p. 29-30) ; -μος bref devant αἰ- (resyllabation). πνοάς : R corrigé de πνοᾶς (Velsen) ; même quantité."
+ },
+ {
+  "v": 44,
+  "partie": "",
+  "schema": "–⏖–– –⏖–– |",
+  "colon": "2an",
+  "note": "Deux mètres de même forme, à « dactyle » initial (κῦμα δὲ, μὴ κελα-) ; μα δὲ et κελα- = principes résolus ; κελᾰδέω (en tragédie et en comédie seulement « in lyr. and anap. », LSJ). δὲ (R, Souda κ 1278 ; l'auteur) ou τε (Austin, Wilson, Prato) : même quantité."
+ },
+ {
+  "v": 45,
+  "partie": "a",
+  "schema": "––",
+  "colon": "2an",
+  "note": "Le dimètre 45 est partagé entre trois locuteurs. γλαυκόν— et βομβάξ forment un seul mètre : changement de locuteur à l'intérieur du mètre, cas exceptionnel dans les hypermètres anapestiques (White 1912, § 325, p. 132-133 : quatre exemples chez Aristophane, dont celui-ci). Pour White, les parties des vers partagés sont des monomètres (dix dans le passage : 45ᵃ-ᵇ, 48ᵃ-ᵇ, 50ᵃ-ᵇ, 51ᵃ-ᵇ, 57ᵃ-ᵇ) ; je garde le dimètre de l'auteur et des éditeurs (an | an ou 2an : aucune quantité ne change ; voir le .md, § 4). R écrit γλαυκόν, βομβάξ et σίγα τί λέγει sur trois lignes (image) ; la Juntine (1515) imprime γλαυκόν et βομβάξ sur une même ligne, en décalé, puis σίγα τί λέγεις seul (image) : c'est la division de White."
+ },
+ {
+  "v": 45,
+  "partie": "b",
+  "schema": "––",
+  "colon": "",
+  "note": "βομβάξ : l'interjection de Mnésiloque achève le mètre commencé par γλαυκόν (–– + ––) ; -κόν et βάξ longs par position."
+ },
+ {
+  "v": 45,
+  "partie": "c",
+  "schema": "––⏑⏑– |",
+  "colon": "",
+  "note": "σίγᾱ : impératif contracte de σῑγάω (-ᾱ < -αε ; l'aigu de σίγα le marque) ; τί λέ- : deux brèves. Avec -α bref, la suite ⏑⏑⏑ serait amétrique. λέγει R^pc / λέγεις R^ac (rasure visible sur l'image) : même quantité. τίς λέγει (Reiske, réplique du Serviteur) est amétrique (σίγᾱ τίς λέ- : – – – ⏑) : « contra metrum » (Rogers 1904, p. 184). La répartition de R (σίγα et τί λέγει à Euripide), suivie par l'auteur, Wilson et Prato, évite un second changement de locuteur à l'intérieur d'un mètre, que White compte avec le texte de Hall–Geldart (σίγα | τί λέγει : « Th. 45ᵃ, 45ᵇ », § 325)."
+ },
+ {
+  "v": 46,
+  "partie": "",
+  "schema": "––⏑⏑– ⏑⏑––– |",
+  "colon": "2an",
+  "note": "τε γέ- et κατα- : biceps non contractés ; γένη : -η long ; -μᾰ- de κατακοιμάσθω long par position devant σθ."
+ },
+ {
+  "v": 47,
+  "partie": "",
+  "schema": "––⏑⏑– ⏑⏑–⏑⏑– |",
+  "colon": "2an",
+  "note": "τ᾽ ἀγρί- : ἀ- bref devant γρ (correption attique), -γρῐ- bref ; πόδες : -δες bref devant ὑ- (resyllabation) ; ὑλοδρόμων : ῡ long (ὕλη [ῡ], LSJ), d'où ⏑⏑–⏑⏑– ; avec ῠ, cinq brèves de suite seraient amétriques. White 1912, § 327 (p. 136), lit 47-48a comme une unité « trimétrique » (dimètre + monomètre)."
+ },
+ {
+  "v": 48,
+  "partie": "a",
+  "schema": "––––",
+  "colon": "2an",
+  "note": "λῡέσθων : ῡ long (« in pres. and impf. ῡ always in Att. », LSJ s.v. λύω) ; -έ- long par position devant σθ. Mètre spondaïque, achevé par l'interjection de Mnésiloque."
+ },
+ {
+  "v": 48,
+  "partie": "b",
+  "schema": "–⏖–– |",
+  "colon": "",
+  "note": "βομβαλοβομβάξ : « dactyle » initial (-βαλο- = princeps résolu) puis spondée : la forme –⏖–– de trois mètres du Serviteur (43, 44 deux fois), que Mnésiloque reprendra en 51b avec les mots mêmes de 43."
+ },
+ {
+  "v": 49,
+  "partie": "",
+  "schema": "––⏑⏑– ⏑⏑–⏑⏑– |",
+  "colon": "2an",
+  "note": "γὰρ ὁ : γᾰ- bref (resyllabation) ; καλλιεπής : -λι-ε- brefs ; Ἀγάθων : Ἀ-γᾰ- brefs. Seul dimètre du passage sans diérèse médiane : le premier mètre finit dans le mot (καλ|λιεπής) ; la jointure du composé (καλλι-|επής) tombe là où West 1987, p. 48, place la coupe de remplacement (« after the first short of the next biceps »). Négligence attestée dans les hypermètres récitatifs (16 dimètres sur 380 chez Aristophane : White 1912, § 330, p. 137-138). Même attaque μέλλει γάρ dans le proème de l'hymne de Mésomède (v. 5, texte de Wilamowitz 1921, p. 603), après l'injonction de silence à la nature (cf. 43-48)."
+ },
+ {
+  "v": 50,
+  "partie": "a",
+  "schema": "––⏑⏑–",
+  "colon": "2an",
+  "note": "Texte de l'auteur (πρανοῦν προτέρους, conjecture de Bibi pour πράμος ἡμέτερος de R ; commentaire critique 49-50) : πρᾱ- long (πρᾱνής, attique : LSJ), νοῦν long, προ-τέ- brefs : monomètre régulier (spondée + anapeste). R ne se scande qu'avec πρᾰ- bref (⏑⏑–⏑⏑–), comme l'auteur le relève ; πρόμος (Grynaeus selon Wilson ; Scaliger selon Enger et Velsen) donne le même schéma. Le mètre ne départage pas ces textes."
+ },
+ {
+  "v": 50,
+  "partie": "b",
+  "schema": "–––– |",
+  "colon": "",
+  "note": "μῶν βῑνεῖσθαι (βῑνέω, LSJ) : quatre longues ; comme en 48b et 57b, l'interjection de Mnésiloque occupe le second mètre du dimètre, après la diérèse médiane."
+ },
+ {
+  "v": 51,
+  "partie": "a",
+  "schema": "⏑⏑–––",
+  "colon": "2an",
+  "note": "τίς ὁ : τῐ- bref (resyllabation) ; -σᾱς long (participe aoriste). La Juntine donne τίς ὁ φωνήσας à Euripide et νήνεμος αἰθήρ au Serviteur (Enger 1844, p. 14) : sans effet sur le mètre."
+ },
+ {
+  "v": 51,
+  "partie": "b",
+  "schema": "–⏖–– |",
+  "colon": "",
+  "note": "Mnésiloque reprend la fin de 43 (νήνεμος αἰθήρ), avec le même schéma (–⏖––)."
+ },
+ {
+  "v": 52,
+  "partie": "",
+  "schema": "⏑⏑–⏑⏑– –⏖–– |",
+  "colon": "2an",
+  "note": "δρῠόχους (δρύοχοι [ῠ], LSJ) : ⏑⏑– ; τιθέ- : biceps non contracté ; δρᾶμα : δρᾱ- long, -ματος = princeps résolu ; -τος bref devant ἀρ- (resyllabation)."
+ },
+ {
+  "v": 53,
+  "partie": "",
+  "schema": "––⏑⏑– ––⏑⏑– |",
+  "colon": "2an",
+  "note": "νέᾱς : -ᾱς long (acc. pl.) ; ἁψῖδας : ἁ- long par position (ψ), -ψῑ- long (ἁψῖδος, LSJ) ; -δας bref devant ἐ- (resyllabation). ἀσπίδας de R (ἀσπῐ́δας : –⏑⏑ puis une brève isolée, σἐ-) est amétrique : le mètre garantit ἁψῖδας (Souda δ 1547, λ 181 ; Bentley selon Enger)."
+ },
+ {
+  "v": 54,
+  "partie": "",
+  "schema": "⏑⏑––– ⏑⏑–⏑⏑– |",
+  "colon": "2an",
+  "note": "τὰ δὲ, deux fois : biceps non contractés ; τορ- long par position. τορεύει (Souda s.vv. δρύοχοι, λαικαστής, d'après Enger 1844, p. 14) est amétrique (τὰ δὲ το- : trois brèves) : le mètre confirme τορνεύει de R."
+ },
+ {
+  "v": 55,
+  "partie": "",
+  "schema": "––⏑⏑– –⏖–– |",
+  "colon": "2an",
+  "note": "καὶ γνω- : deux longues ; -μοτυ- : biceps non contracté ; κἀντονομάζει (crase) : κἀν- long, -τονο- = princeps résolu, -μά- long par position (ζ)."
+ },
+ {
+  "v": 56,
+  "partie": "",
+  "schema": "––⏑⏑– –––– |",
+  "colon": "2an",
+  "note": "γογγύλλει (Porson) : trois longues (-γῠλ- long par position devant λλ). γογγυλίζει de R et de la Souda (γ 361) est amétrique : καὶ γογ-γῠ-λί-ζει (γογγῠλίζω, LSJ) laisse une brève seule au biceps (« ametrico » : Prato 2001, p. 157). Les autres corrections recensées par Rogers 1904, p. 184 (γογγυλέει Brunck, γογυλίζει Bentley, γογγλίζει Reisig, γογγύζει Thiersch, γογγυλίει Hermann) sont toutes métriques : le mètre n'exclut que la leçon de R."
+ },
+ {
+  "v": 57,
+  "partie": "a",
+  "schema": "–⏖––",
+  "colon": "2an",
+  "note": "καὶ χοανεύει : χο-α- = princeps résolu (χοᾰνεύω, LSJ). χιανεύει (Souda, d'après Enger) : même mètre."
+ },
+ {
+  "v": 57,
+  "partie": "b",
+  "schema": "–––– |",
+  "colon": "",
+  "note": "λαι- (diphtongue) et -κά- (position devant ζ) longs : quatre longues. Mnésiloque calque 57a (καί + verbe de trois syllabes en -ει) et achève le dimètre. Dans R, αι est écrit sur grattage, « correctum, ut videtur, ex ε » (Velsen 1883, p. 12 ; rasure visible sur l'image) : λε- bref serait amétrique."
+ },
+ {
+  "v": 58,
+  "partie": "",
+  "schema": "⏑⏑––– ⏑⏑––– |",
+  "colon": "2an",
+  "note": "τίς ἀ- : deux brèves (resyllabation ; ἀ- bref devant γρ) ; ἀγροιώτᾱς : -γροι- et -ώ- longs, -τᾱς long (désinence dorienne -ᾱς, déjà dans R) ; πελάθει : πε-λᾰ- brefs. ἀγριώτας de R est amétrique (τίς ἀγρι- : trois brèves, ou une brève isolée si ἀ- s'allonge devant γρ) ; ἀγροι- : un anonyme du XVIIᵉ s. (« Anon. Par. » : Austin 1987, p. 71 ; Wilson), puis Bentley (Enger, Velsen). Dernière réplique du Serviteur : le système se poursuit, sans catalexe, dans la réponse de Mnésiloque."
+ },
+ {
+  "v": 59,
+  "partie": "",
+  "schema": "⏑⏑––– –⏖–– |",
+  "colon": "2an",
+  "note": "ὃς ἕ- : deux brèves (resyllabation) ; -μος long par position ; ποι- bref devant voyelle (correption interne, fréquente dans ποιεῖν chez les Attiques : West 1987, p. 14) : τε ποι- = princeps résolu. R écrit ποητοῦ (Velsen 1883, p. 12 ; image), graphie qu'imprime Prato 2001. La suppression de τε (Enger 1844, p. 15 : σοῦ τοῦ ποιητοῦ) donnerait aussi un dimètre, mais avec ποι- long, contre la graphie de R. Mnésiloque (59-62) répond en trois dimètres et un parémiaque, comme le premier système du Serviteur (39-42)."
+ },
+ {
+  "v": 60,
+  "partie": "",
+  "schema": "––⏑⏑– ⏑⏑––– |",
+  "colon": "2an",
+  "note": "κατὰ : biceps non contracté. κατα manque dans la ligne de R et est écrit au-dessus (image) : par R² selon Velsen, par une « manus coaeva » selon Wilson, ajout moderne selon Austin 1987, p. 71, parce que G et l'édition princeps l'omettent (la Juntine l'omet en effet : image). Sans lui, le vers n'a que sept positions (forme de parémiaque) au milieu du système : il faut un dissyllabe ⏑⏑ (κατὰ ; διὰ Kuster et Brunck) ou une autre construction (ἐς τοὺς θριγκούς Blaydes, d'après Austin 1987 : ––⏑⏑– ––––)."
+ },
+ {
+  "v": 61,
+  "partie": "",
+  "schema": "–––– –––– |",
+  "colon": "2an",
+  "note": "συγγογγύλας (Enger) : συγ-γογ-γῡ-λᾱς, quatre longues (aoriste à allongement compensatoire d'un verbe en -λλω ; -ᾱς du participe) : dimètre entièrement spondaïque, comme 39. γογγυλίσας de R n'a que sept positions (–⏖– ––––) : il manque un élément en tête. Suppléments également métriques : συγγογγυλίσας (Brunck, d'après Lys. 975 ξυστρέψας καὶ ξυγγογγυλίσας des manuscrits : ––⏑⏑– ––––) ; καὶ γογγυλίσας (Bentley, d'après Prato) ; γογγυλλήσας (Fritzsche, d'après Enger 1844, p. 15). Le mètre ne départage pas : le choix d'Enger repose sur l'écho de 56 (γογγύλλει)."
+ },
+ {
+  "v": 62,
+  "partie": "",
+  "schema": "––⏑⏑– ⏑⏑–– ‖",
+  "colon": "2an∧",
+  "note": "Parémiaque à troisième pied anapeste, qui clôt le second système : même schéma que 42. τουτὶ : -τῑ déictique long ; τὸ πέ- : biceps non contracté ; -ος long par position devant χ- ; χοα- : biceps non contracté. χοανεῦσαι reprend le χοανεύει du Serviteur (57a)."
+ }
+]

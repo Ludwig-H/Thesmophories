@@ -1,0 +1,30 @@
+fichier	verification	folio	boite	legende
+v01_f162v_trois_minuscules.png	V1	f162v	[330, 645, 710, 690]	162v marge ext. : minuscule (a) de S2
+v01_f162v_trois_minuscules.png	V1	f162v	[1585, 1660, 1800, 1750]	162v marge int. : minuscule ronde (b)
+v01_f162v_trois_minuscules.png	V1	f162v	[1470, 1795, 1800, 1840]	162v : v. 33 suppléé (S2)
+v01_f162v_trois_minuscules.png	V1	f162v	[760, 1645, 1140, 1700]	162v l. 30 : T
+v01_f162v_pi_en_varpi.png	V1	f162v	[560, 510, 725, 550]	(a) εὐριϖίδου
+v01_f162v_pi_en_varpi.png	V1	f162v	[1480, 1845, 1800, 1920]	v. 33 : …ϖώ|ποτε
+v01_f162v_pi_en_varpi.png	V1	f162v	[1585, 1660, 1800, 1705]	(b) ἐπειδὴ οὐ ϖάλαι
+v03_f162v_mnesai_couleur_1904.png	V3	f162v	[395, 1512, 720, 1565]	162v l. 26 : πρόσεχε· ἀν^τ τ^ου μνῆσαι
+v03_f162v_mnesai_couleur_1904.png	V3	fac1904	[380, 783, 530, 810]	fac-similé de 1904 (×3,5)
+v07_finale_os_163v_164r.png	V7	f163v	[1280, 1050, 1640, 1135]	163v l. 17 : -ος de T (faux renvoi)
+v07_finale_os_163v_164r.png	V7	f164r	[760, 2005, 1060, 2080]	164r l. 40 : τήιος
+v08_f167r_stephanousthai.png	V8	f167r	[1250, 385, 1480, 420]	167r l. 2 : στεφανοῦσθαι (σ écrit, θ à barre)
+v09_f164r_renvois.png	V9	f164r	[900, 525, 990, 560]	fin l. 5 : ∈
+v09_f164r_renvois.png	V9	f164r	[915, 622, 1060, 655]	l. 7 : ∈ πάλιν
+v09_f164r_renvois.png	V9	f164r	[370, 905, 440, 950]	interligne 13/14
+v09_f164r_renvois.png	V9	f164r	[1065, 1218, 1200, 1255]	l. 21 : ✕ λυκουρ-
+v10_f176r_opou.png	V10	f176r	[105, 1530, 200, 1582]	176r l. 28 : ὅπου
+v13_compendium_ai.png	V13	f165r	[1050, 1912, 1485, 1950]	165r l. 37 : καλεῖτ(αι)
+v13_compendium_ai.png	V13	f165v	[1595, 1572, 1720, 1604]	165v int. : μιμεῖτ(αι)
+v13_compendium_ai.png	V13	f166r	[1050, 1675, 1300, 1715]	166r l. 31 : πᾶσαν δ(ὲ) κίνησιν
+v14_f173v_eisi_syntaxis.png	V14	f173v	[560, 1095, 700, 1145]	173v l. 17 : λινοποιοί ·//·
+v14_f173v_eisi_syntaxis.png	V14	f173v	[590, 1400, 760, 1455]	173v l. 25 : ἀττικὴ δ(ὲ) ἡ σύντ(αξις)
+v16_f175v_renvois_orange.png	V16	f175v	[1550, 1190, 1760, 1240]	175v fin l. 20 : —+:— (orangé)
+v16_f175v_renvois_orange.png	V16	f175v	[245, 2140, 330, 2200]	marge inf. : +:
+v19_f176v_ked_orange.png	V19	f176v	[670, 1980, 800, 2092]	176v l. 40–41 : ΚΗ orangé ; εὐρι^π brun
+v21_f168r_sch506.png	V21	f168r	[1000, 2082, 1565, 2186]	168r Σ 506 : B/R 2,3 (g.) → 2,9–3,3 (dr.)
+v22_modules_meme_echelle.png	V22	f174v	[1460, 1330, 1800, 1400]	174v (planche 1, h)
+v22_modules_meme_echelle.png	V22	f168r	[1000, 2082, 1340, 2140]	168r Σ 506
+v22_modules_meme_echelle.png	V22	f166r	[1050, 1650, 1400, 1712]	166r Σ 324
