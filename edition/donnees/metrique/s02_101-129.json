@@ -1,0 +1,213 @@
+[
+ {
+  "v": 101,
+  "partie": "",
+  "schema": "⏑⏑– ⏑⏑––",
+  "colon": "ion∧ ion",
+  "etiquette": "lyr.",
+  "note": "δε- long par position devant ξ- de 102 (synaphie verbale δε-|ξάμεναι). Colométrie de l'auteur = Schroeder 1909 et Zimmermann 1987 ; R écrit ἱερὰν χθονίαις δεξάμεναι | λαμπάδα κοῦραι ξὺν ἐλευθέρᾳ | πατρίδι χορεύσασθαι βοάν (coupes à fin de mot qui tranchent les mètres ioniques). Χθονίαιν (Meineke) et χθονίαις (R) : même quantité. Zimmermann : an io ; White : ⏑⏑–· ⏑⏑–– (protraction, que West 1987, p. 62, refuse)."
+ },
+ {
+  "v": 102,
+  "partie": "",
+  "schema": "⏑⏑–– ⏑⏑––",
+  "colon": "2ion",
+  "note": "Dimètre ionique pur. Zimmermann : 2 io (pause de sens après κοῦραι) ; White, Schroeder : idem."
+ },
+ {
+  "v": 103,
+  "partie": "a",
+  "schema": "⏑⏑– ⏑–⏖",
+  "colon": "ion∧ ba",
+  "note": "ξὺν ἐ- : ξυ- bref ; πα- bref (correption devant τρ) ; ⏖ = πατρί-, résolution du dernier élément du bacchée ; -δι ouvre 103b (synaphie verbale). πραπίδι (Wecklein, Wilson) : même schéma. Zimmermann : an ba ; travaux antérieurs de l'auteur : io. min.∧ + bacch. Avec ἐλευθερίᾳ (Hermann ; White, Schroeder, Sommerstein p. 165) : ⏑⏑– ⏑⏑–⏖ (ion∧ ion, comme 101)."
+ },
+ {
+  "v": 103,
+  "partie": "b",
+  "schema": "⏑⏑–– ⏑⏑– ‖",
+  "colon": "2ion∧",
+  "note": "χορεύσασθε (Divus « tripudiate », Bentley, Kuster) : χορεύσασθαι R (lu sur l'image). Avec -σθαι, long devant β-, on aurait ⏑⏑–– –⏑– : le dimètre ionique catalectique, qui clôt aussi 110, 113 et 122, confirme la correction. βοάν (R) / βοᾷ (Kuster, Schroeder) : même quantité. Fin de la 1re exhortation d'Agathon. Zimmermann : 2 io∧ ; White : idem (8 mètres pour 101-103)."
+ },
+ {
+  "v": 104,
+  "partie": "",
+  "schema": "⏑⏑–⏑ –⏑––",
+  "colon": "anacr",
+  "note": "Anacréontique (dimètre ionique anaclastique). Zimmermann : 2 io anacl, avec ‖ après κῶμος (pause de sens, sans indice métrique) ; White : idem. R rattache λέγε νυν à ce vers (τίνι δαιμόνων ὁ κῶμος· λέγε νυν), colométrie gardée par Fritzsche, abandonnée depuis Reisig, Dindorf et Hermann (Enger 1844)."
+ },
+ {
+  "v": 105,
+  "partie": "",
+  "schema": "⏖⏑–– –⏑––",
+  "colon": "2tr",
+  "note": "⏖ = λέγε (résolution du premier élément) ; νιν (Dindorf, Meineke ; νυν R, accentué νῦν) bref devant voyelle — un νῦν long donnerait une syllabe de trop ; εὐπείστως (Reiske) / εὐπίστως (R, Souda) : même quantité. = Zimmermann (2 tr). White, qui n'admet pas ⏑⏑⏑–– dans l'ionique, lit λέγε νυν· πίστως (Wilamowitz) : ⏑⏑–– –⏑––, comme 107 ; Austin 1987, p. 73 : mètre ionique « irrégulier » ⏑⏑⏑– en tête. Avec le texte transmis, 105 = 112 (2tr) dans la réponse chorale correspondante."
+ },
+ {
+  "v": 106,
+  "partie": "",
+  "schema": "–⏑⏖– ⏑⏑– ‖",
+  "colon": "tr ion∧",
+  "note": "-νας bref devant ἔ- ; ⏖ = -νας ἔ- ; hiatus σεβίσαι | ἄγε : fin de période. Clausule chorale : même schéma que 119 et 125 ; 113 n'en diffère que par la première syllabe (⏑). Zimmermann et Rogers p. 14 : p ch ; Masqueray § 227 : dimètre ionique catalectique à syllabe initiale « irrationnelle » ; Zielinski p. 88 n. 2 : trochée disème au lieu des deux brèves initiales ; Enger : anacréontique catalectique ; White : –⏑⏖– ⏑⏑–. μάκαρας (Ritschl, Velsen) régulariserait en ⏑⏑⏖– ⏑⏑– (= 113) : correction inutile, puisque 119 et 125 ont la même longue initiale. ἔχει (Souda) / ἔχεις (R) : même quantité."
+ },
+ {
+  "v": 107,
+  "partie": "",
+  "schema": "⏑⏑–– –⏑––",
+  "colon": "ion tr",
+  "note": "νῦν long (accent de R) ; avec νυν enclitique bref la séquence commencerait par ⏑⏑⏑– (cf. Austin 1987, p. 73). ὄλβιζε (Bentley) / ὅπλιζε (R) : même schéma si πλ fait position (sinon ⏑⏑–⏑ –⏑––, anacréontique) ; Μοῦσα (R) / μούσᾳ (Bergk, Wilson) / Μοῦσαι (Wilamowitz) : syllabe finale indifférente. = Zimmermann (io tr), White."
+ },
+ {
+  "v": 108,
+  "partie": "",
+  "schema": "–⏑–– ⏑⏑––",
+  "colon": "tr ion",
+  "note": "χρυσέων trisyllabe (sans synizèse) ; ῥῡ- long ; τό- long devant ξ. = Zimmermann (tr io), White."
+ },
+ {
+  "v": 109,
+  "partie": "",
+  "schema": "–⏑⏖– ⏑⏑––",
+  "colon": "tr ion",
+  "note": "ἱ- bref (aoriste sans augment, correption devant δρ), avec White : ⏖ = ὃς ἱ- ; même schéma que 106, 119, 125 augmenté d'une longue, et même type que 108. Zimmermann compte ἱ- long : –⏑⏑– –⏑⏑–– « 2 ch – (= – 2 io) » ; travaux antérieurs de l'auteur : 2 io. min. Hermann (ἐπὶ Φοῖβον) voulait un vers ionique ; Enger y voit un choriambique voulu."
+ },
+ {
+  "v": 110,
+  "partie": "",
+  "schema": "⏑⏑⏖– ⏑⏑– ‖",
+  "colon": "2ion∧",
+  "note": "⏖ = -λα Σι- : résolution du premier élément long (⏑⏑⏑⏑–, forme admise chez « Agathon » selon West 1987, p. 62). Fin de la 2e exhortation. = Zimmermann (2 io∧), White, Masqueray § 227."
+ },
+ {
+  "v": 111,
+  "partie": "",
+  "schema": "–⏑–– –⏑––",
+  "colon": "2tr",
+  "note": "λί- long par position (στ). = Zimmermann (2 tr), White (forme –⏑–– de l'ionique)."
+ },
+ {
+  "v": 112,
+  "partie": "",
+  "schema": "–⏑–– –⏑––",
+  "colon": "2tr",
+  "note": "Φοῖβ' ἐν : βε- bref ; τῑμαῖς. = Zimmermann (2 tr), White."
+ },
+ {
+  "v": 113,
+  "partie": "",
+  "schema": "⏑⏑⏖– ⏑⏑– ‖",
+  "colon": "2ion∧",
+  "note": "-ρας bref devant ἱ- ; ⏖ = ἱε- ; clausule chorale (cf. 106, 119, 125). ἱρὸν (Dindorf) supprimerait la résolution (⏑⏑–– ⏑⏑–) ; Enger le refuse au nom de la correspondance avec 106. = Zimmermann (2 io∧), White, Masqueray § 227."
+ },
+ {
+  "v": 114,
+  "partie": "",
+  "schema": "–⏑⏖⏑ ⏖⏑–⏑",
+  "colon": "2tr",
+  "note": "τ' ἐν : τε- bref ; ⏖ = -ν ὄρε-, puis δρυο- ; σι- bref devant δρ ; syllabe finale brève (δρυογόνοισι R, sans ν). = Zimmermann (2 tr). White, avec δρυογόνοισιν (Wilamowitz ; Burges) : –⏑⏖⏖ ⏑⏑–– (tr ion). R coupe τάν τ' ἐν ὄρεσι δρυογόνοι-|σι κόραν ἀείσαντ' Ἄρ-|τεμιν ἀγροτέραν."
+ },
+ {
+  "v": 115,
+  "partie": "",
+  "schema": "⏑–⏑–⏑ –⏑⏑–⏑⏑– ‖",
+  "colon": "iambel",
+  "note": "Rangée = vv. 115-116. Iambélégos (ia ⏓ | D) : l'anceps (-σατ') est bref ; ἀ- de ἀγροτέραν long par position (γρ), comme dans la formule homérique Ἄρτεμις ἀγροτέρη (Il. 21, 471). Hall–Geldart coupe 115 κόραν ἀείσατ' | 116 Ἄρτεμιν ἀγροτέραν, à la jointure des deux membres. ἀείσαντ' (R) rendrait l'anceps long : indifférent. = Zimmermann (iambelegus, 115/6) ; White, ἀ- bref : ⏑–⏑– ⏑–⏑⏖ ⏑⏑–. Sommerstein p. 164 : passage brusque du trochaïque à l'iambique (114-116), comme Eur. Méd. 207-209. Fin de la 3e exhortation."
+ },
+ {
+  "v": 117,
+  "partie": "",
+  "schema": "⏑⏑–– –⏑––",
+  "colon": "ion tr",
+  "note": "σεμνὰν (Dindorf) / σεμνὸν (R) : indifférent. = Zimmermann (io tr), White, Schroeder."
+ },
+ {
+  "v": 118,
+  "partie": "",
+  "schema": "⏑⏑–– –⏑––",
+  "colon": "ion tr",
+  "note": "Λᾱ- long (ᾱ dorien = η attique). Même schéma que 117 (participes parallèles). ὀλβίαν τε (van Herwerden, Sommerstein, Wilson) donnerait ⏑⏑–⏑ –⏑–– (anacréontique), qui répondrait exactement à 124 : la métrique ne tranche pas. = Zimmermann (io tr), White, Schroeder."
+ },
+ {
+  "v": 119,
+  "partie": "",
+  "schema": "–⏑⏖– ⏑⏑– ‖",
+  "colon": "tr ion∧",
+  "note": "ἀ- bref ; ⏖ = -μιν ἀ- ; clausule chorale (= 106, 125). Zimmermann, Rogers : p ch ; Masqueray § 227 : ionique à syllabe initiale irrationnelle ; White : –⏑⏖– ⏑⏑–."
+ },
+ {
+  "v": 120,
+  "partie": "",
+  "schema": "––⏑– ⏑⏑– ⏑⏑–⏖",
+  "colon": "ia ion∧ ion",
+  "note": "Ἀ- de Ἀσιάδος compté long, comme le font White (––⏑– ⏑⏑–· ⏑⏑–⏖) et Schroeder ; or Ἀσιάς a l'Ἀ- bref dans tous les trimètres tragiques (Pers. 249 ; Pr. 735 ; Cycl. 443 ; Tr. 748 ; Ion 74, 1356, 1586) : il faut admettre un allongement à l'épique (cf. Ἀσίῳ, ᾱ, Il. 2, 461) ou une faute ; avec Ἀ- bref (––⏑– ⏑⏑⏑⏑⏑– ⏑⏑) le colon ne s'analyse pas. ⏖ = ποδὶ. Zimmermann lit Ἀσίδος (déjà Bothe et Burges selon Austin 1987, p. 74) : ––⏑– ⏑⏑– ⏑–⏖ « ia an ba », avec Ἀ- long lui aussi. Mètre iambique devant les ioniques : Austin 1987, p. 73. R : …Ἀσιάδος | ποδὶ παράρυθμ'… (coupe suivie par Wilson). Wilson : « de numeris parum constat » (120-122)."
+ },
+ {
+  "v": 121,
+  "partie": "",
+  "schema": "⏑⏑–– ⏑⏑⏖–",
+  "colon": "2ion",
+  "note": "ρυθ- long dans παράρυθμ' (θμ fait position), ρυ- bref dans εὔρυθμα (correption) : jeu relevé par Sommerstein (p. 166) ; ⏖ = Φρυγί-. παρ' εὔρυθμα (Dindorf, Velsen) : pas exigé par le mètre. = Zimmermann (2 io), White."
+ },
+ {
+  "v": 122,
+  "partie": "",
+  "schema": "⏑⏑–⏖ ⏑⏑– ‖",
+  "colon": "2ion∧",
+  "note": "⏖ = -ματα : résolution du second élément long (⏑⏑–⏑⏑, West 1987, p. 62). διανεύματα (R) : même schéma ; δινεύματα (Bentley ; Schroeder : ––⏖ ⏑⏑–). Fin de la 4e exhortation. = Zimmermann (2 io∧), White."
+ },
+ {
+  "v": 123,
+  "partie": "",
+  "schema": "⏑⏑–– –⏑––",
+  "colon": "ion tr",
+  "note": "= 117 (Λᾱ- long). = Zimmermann (io tr), White."
+ },
+ {
+  "v": 124,
+  "partie": "",
+  "schema": "⏑⏑–⏑ –⏑––",
+  "colon": "anacr",
+  "note": "κῐ- bref ; μᾱ- long (dorien) ; τέ- bref devant ὕ- ; anacréontique comme 104. = Zimmermann (2 io anacl), White."
+ },
+ {
+  "v": 125,
+  "partie": "",
+  "schema": "–⏑⏖– ⏑⏑– ‖",
+  "colon": "tr ion∧",
+  "note": "⏖ = -νι βο- ; δοκίμῳ (R, Souda) / δόκιμον (Dindorf d'après la scholie, Wilson) / δοκίμων (Schöne ; Zimmermann, Wilamowitz) : syllabe finale indifférente en fin de période. Clausule chorale (= 106, 119). Zimmermann, Rogers : p ch ; White : –⏑⏖– ⏑⏑⏑ (δόκιμον). Texte imprimé : accent à rétablir (δοκίμῳ)."
+ },
+ {
+  "v": 126,
+  "partie": "",
+  "schema": "–⏑⏑ –⏑⏑ –⏑⏑ –",
+  "colon": "4dact∧",
+  "note": "φάος (Burges ; Enger selon Velsen) : φῶς R ; avec φῶς le premier pied serait un spondée (–– –⏑⏑ –⏑⏑ –), admissible. -οις long devant ὄ- (σ resyllabé). Catalexe interne, sans fin de période (enjambement δαιμονίοις | ὄμμασιν). = Zimmermann (4 dact∧), White (2ᶜ en dipodies), Schroeder. R : τᾷ φῶς ἔσσυτο δαιμονίοις ὄμμασιν (ligne propre). Avec ⟨θεοῦ⟩ après δαιμονίοις (Meineke ; Velsen, Hall–Geldart), les lignes de R donnent deux pentamètres dactyliques sans catalexe interne ; avec δαίμονος (Bothe), deux tétramètres (Conradt)."
+ },
+ {
+  "v": 127,
+  "partie": "a",
+  "schema": "–⏑⏑ –⏑⏑ –⏑⏑ –⏑",
+  "colon": "6dact",
+  "note": "Un seul colon, hexamètre dactylique (6 dact), imprimé sur deux rangées (127a-b), comme dans les travaux antérieurs de l'auteur (« 6 dact. acatal. ») et chez White (« dactylic trimeter » en dipodies) et Wilson (une ligne). La coupure typographique αἰφνι-|δίου tombe dans le 4e biceps ; Zimmermann et Schroeder coupent à la fin du pied (αἰφνιδί-|ου : 4 dact | 2 dact). ἁ- long (ᾱ dorien ; ἡμ- R, ὑμ- Nietzsche : même quantité). R : ἡμετέρας τε δι' αἰφνιδίου ὀπός seul sur sa ligne (tétramètre dactylique)."
+ },
+ {
+  "v": 127,
+  "partie": "b",
+  "schema": "⏑ –⏑⏑ –⏑⏑",
+  "colon": "",
+  "note": "Suite du 6dact de 127a : δί- achève le 4e pied ; -ου reste long au temps fort malgré l'hiatus ; -πός bref devant ὧν (resyllabation) ; -ριν bref devant ἄ- de 128."
+ },
+ {
+  "v": 128,
+  "partie": "",
+  "schema": "⏑–⏑– ⏑–– ‖",
+  "colon": "2ia∧",
+  "note": "Dimètre iambique catalectique. τιμᾷ (R), après Φοῖβον, supprimé par Dindorf comme glose, ajouterait deux longues hors schéma (Conradt supprime Φοῖβον τιμᾷ). ἀγάλλετε (Austin 1987, Wilson) : ⏑–⏑– ⏑⏑–– (ia ion), comme le début de 120 selon Austin. = Zimmermann (2 ia∧, son v. 129), White, Schroeder."
+ },
+ {
+  "v": 129,
+  "partie": "",
+  "schema": "––⏑⏑––– ‖",
+  "colon": "tel",
+  "note": "Télésilléen dont la 6e position est longue (Λᾱ-) : ––⏑⏑–––. Zimmermann (son v. 130) : tel, Λα marqué long ; White : « acephalous Glyconic » (– – ⏑ ⏑ – – –) ; Schroeder : même schéma ; travaux antérieurs de l'auteur : « telesil. scazon ». Fin du chant ; R ajoute ensuite, sur une ligne, la parépigraphe ὀλολύζεις γέρων."
+ }
+]

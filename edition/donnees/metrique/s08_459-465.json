@@ -1,0 +1,73 @@
+[
+  {
+    "v": "459",
+    "partie": "",
+    "schema": "⏖ ⏑ – ⏑ – ⏑ – ⏑ |",
+    "colon": "2tr",
+    "etiquette": "tr",
+    "note": "Première longue résolue (ἕτε-) ; -ρον bref devant αὖ (le ν passe à la syllabe suivante) ; anceps (τι) et dernière syllabe (-το) brefs, en synaphie avec 460."
+  },
+  {
+    "v": "460",
+    "partie": "a",
+    "schema": "– ⏑ ⏖ ⏑ – ⏑ ⏖ ⏑ |",
+    "colon": "2tr",
+    "note": "Deux longues résolues (-τερον, πρότε-) ; ἔτ᾽ ἢ : élision ; τὸ bref devant πρ- (correption à la jonction des mots) ; -ρον bref devant ἀ- (synaphie). 460a-b forment un trimètre trochaïque (Christ 1879, p. 316-317), écrit sur une seule ligne dans R, chez White 1912 et chez Wilson 2007."
+  },
+  {
+    "v": "460",
+    "partie": "b",
+    "schema": "⏖ ⏑ – ⏑ |",
+    "colon": "tr",
+    "note": "Monomètre, première longue résolue (ἀνα-) ; -νεν bref devant οἷα (synaphie). Conradt 1910 (p. 51) supprime ἢ τὸ πρότερον pour ramener 460 à un dimètre : inutile, le même trimètre 2 tr + tr revenant en 465a-b."
+  },
+  {
+    "v": "461",
+    "partie": "",
+    "schema": "– ⏑ ⏑ – – – ⏑ ⏓ ‖",
+    "colon": "ch ia",
+    "note": "Analyse de l'auteur (« choria. + ia. ») et de Prato 2001 (p. 349-350 : « chor ia ») : οἷ- long ; μῡ long (aoriste sigmatique, cf. Ach. 579 κἀστωμυλάμην, μυ en position longue du trimètre ; LSJ : aor. ἐστωμῡλάμην) ; -το bref en fin de période (brevis in longo), devant l'hiatus κατεστωμύλατο | οὐκ. White 1912 (§ 205 et 237) lit la même suite comme dimètre trochaïque catalectique à « dactyle » initial (– ⏑⏑ – – | – ⏑ ⏓). Zimmermann 1987 (p. 73) abrège οἷ- (correption interne, fréquente dans οἷος chez les Attiques : West 1987, p. 14) : ⏖ ⏑ – – – ⏑ ⏓ = 2tr∧ (lécythion), de même forme que 465c ; Prato juge cette abréviation « inusuale » (renvoi à West, Greek Metre, p. 104 n. 76, non consulté). κἀστωμύλατο (Dobree ; Dindorf, Fritzsche, Enger, Velsen, Blaydes, Schroeder) et οἷά τ᾽ ἐστωμύλατο (texte de Christ 1879, p. 316) donnent un lécythion pur avec οἷ- long."
+  },
+  {
+    "v": "462",
+    "partie": "",
+    "schema": "– ⏑ – ⏑ ⏖ ⏑ – ⏑ |",
+    "colon": "2tr",
+    "note": "οὐκ ἄ- : οὐ long, κἀ- bref ; -ρα bref devant φρ- (anceps, correption à la jonction des mots) ; cinquième position résolue (φρένα-) ; -νας bref devant ἔ-. La leçon de R ἄκερα (⏑ ⏑ ⏑, lue sur l'image) est amétrique : ἄκαιρα (Zanetti selon Wilson 2007 ; Brunck selon Velsen 1883 et Blaydes 1880) est garanti par le mètre (-καί- long en troisième position)."
+  },
+  {
+    "v": "463",
+    "partie": "",
+    "schema": "– ⏑ – ⏑ – ⏑ – – |",
+    "colon": "2tr",
+    "note": "Scansion de l'auteur (commentaire critique au v. 463) : λυ allongé devant πλ (pas de correptio attica), comme déjà Blaydes 1880 (p. 45 : « brevis syllabae in arsi productio », renvoi à Nub. 513) ; Dindorf tenait πολύπλοκον pour suspect « propter syllabam secundam productam » (cité par Blaydes). Prosodie ordinaire chez Aristophane (White 1912, § 790-792 ; West 1987, p. 16-17) : λῠ bref, d'où – ⏑ ⏖ – ⏑ – – = cr tr (crétique à seconde longue résolue : « paeonic-trochaic metre », White 1912, § 237 ; « p tr », Zimmermann 1987, p. 73) ; même correption en 435 πολυπλοκωτέρας. καί ‹τι› (Dobree ; Fritzsche, Velsen, Schroeder, Prato 2001) ou πολύστροφον (Hermann ; Enger 1844) donnent un 2 tr avec correption. νόημ᾽ : élision exigée par le mètre (R νόημα, scriptio plena ; νόημ᾽ Augustanus, Brunck). Fin de colon à l'élision οὐδ᾽ | ἀσύνετ᾽ : synaphie."
+  },
+  {
+    "v": "464",
+    "partie": "",
+    "schema": "⏖ ⏑ – ⏑ ⏖ ⏑ – ⏑ |",
+    "colon": "2tr",
+    "note": "Deux longues résolues (ἀσύ-, πιθα-) ; ἀσύνετ᾽ ἀλλὰ : élision, syllabe fermée -τἀλ- ; dernière syllabe brève (anceps). Le texte de R est métrique : la suppression de ἀλλά avec ἀσύνετα (Enger 1844, p. 87 ; imprimée par Velsen 1883 et Schroeder 1909) ne sert qu'une responsion hypothétique."
+  },
+  {
+    "v": "465",
+    "partie": "a",
+    "schema": "– ⏑ – – – ⏑ – –",
+    "colon": "2tr",
+    "note": "ὕβρεως : ῠ bref devant βρ (correption) et synizèse de -εω- (une seule longue) ; mot coupé en fin de colon (ἡ-|μῖν) : synaphie, d'où l'absence de signe final. R porte ὕβρεως (lu sur l'image), non ὕβρεος (Dindorf, Invernizzi, Blaydes, Schroeder), forme non attique qui se scanderait sans synizèse (– ⏑ ⏖ –)."
+  },
+  {
+    "v": "465",
+    "partie": "b",
+    "schema": "– ⏑ – ⏑ |",
+    "colon": "tr",
+    "note": "Monomètre ; τὸν ἄν- : τὸ bref, νἄν- long ; -δρα bref devant περι- (synaphie). 465a-b forment un second trimètre trochaïque (Christ 1879, p. 317 ; une seule ligne chez Wilson 2007)."
+  },
+  {
+    "v": "465",
+    "partie": "c",
+    "schema": "⏖ ⏑ – – – ⏑ – ‖",
+    "colon": "2tr∧",
+    "note": "Lécythion, première longue résolue (περι-) ; fin du chant. Même forme que 461 si l'on y abrège οἷ- (Zimmermann 1987)."
+  }
+]
