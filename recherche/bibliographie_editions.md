@@ -1,6 +1,7 @@
 # Éditions, commentaires et traductions des *Thesmophories* (1515–2026)
 
-> État : **version de travail** (26 oct. 2026, deuxième reprise ; complétée au fil des vérifications).
+> État : **version de travail** (28 oct. 2026, troisième reprise : E18, E18b, E19, E25, E29b complétés et
+> téléchargés, intégrité recontrôlée ; complétée au fil des vérifications).
 > Chaque donnée a été lue sur l'exemplaire numérisé (page citée) ou sur une notice de catalogue (BnF,
 > B3Kat), ou dans une bibliographie imprimée nommément citée ; « [à vérifier] » signale ce qui n'a pas pu
 > être contrôlé. Compagnon : `recherche/conjectures_sources.md` (où trouver les conjectures des critiques).
@@ -72,18 +73,20 @@ Les références complètes, URL et justifications sont dans les notices du § 3
 | E15 | 1760 | St. Bergler, P. Burman II | *Comoediae undecim, Graece et Latine*, Leyde, S. et J. Luchtmans, 2 vol. | T, Tr. lat., C | vulg. | oui | `ED/1760_Leyde_Bergler_Burman_t2/bub_gb_kRH7s1SMeIUC.pdf` | PDF 434–522 = p. [999]–1087 |
 | E16 | 1781–1783 | R. F. Ph. Brunck | *Comoediae ex optimis exemplaribus emendatae*, Strasbourg, Treuttel | T, Tr. lat., A, C | G (collation de Brunck) | oui | `ED/1783_Strasbourg_Brunck/aristophaniscom02arisgoog.pdf` | texte PDF 97–159 = p. 74–136 ; notes PDF 400–465 = p. 81–146 |
 | E17 | 1794 | Ph. Invernizi | *Comoediae … auctoritate libri praeclarissimi saeculi decimi emendatae*, Leipzig, Weidmann, t. II | T, A | R (première édition fondée sur R) | oui | `ED/1794_Leipzig_Invernizi_t2_texte/comoediaearis02aris.pdf` | PDF 431–522 = p. [423]–514 |
-| E18 | 1810 | Brunck (réimpr.) | *Comoediae … cum versione Latina, variis lectionibus, notis et emendationibus*, Oxford, 4 vol. | T, Tr. lat., A, C | G | oui | — (IA : volume des *Thesm.* à identifier) | — |
-| E19 | 1812 ? | anonyme (stéréotype Tauchnitz) | *Comoediae ad optimorum librorum fidem accurate editae*, Leipzig, Tauchnitz (*Thesm.* au t. 2 ou 3 selon les tirages) | T | vulg. | oui | — (BSB `bsb10232504`) | — |
+| E18 | 1810 | Brunck (réimpr.) | *Comoediae … cum versione Latina, variis lectionibus, notis et emendationibus*, Oxford, N. Bliss, 4 vol. | T, A, C (t. I) ; Tr. lat. (t. IV) | G (d'après Brunck) | oui | `ED/1810_Oxford_Brunck_reimpr_t1/bub_gb_GC_TY4PiDqQC.pdf` (t. I) | PDF 111–185 = p. [83]–157 |
+| E18b | 1823 | Brunck (réimpr.) | *Comoediae ex optimis exemplaribus emendatae, cum versione Latina*, Londres, G. et W. B. Whittaker, 3 vol. | T, Tr. lat. en regard | G (d'après Brunck) | oui | `ED/1823_Londres_Brunck_reimpr_t1/aristophaniscom04brungoog.pdf` (t. I) | PDF 134–240 = p. [123]–229 |
+| E19 | 1812–1814 | anonyme (stéréotype Tauchnitz) | *Comoediae ad optimorum librorum fidem accurate editae*, Leipzig, Tauchnitz, 3 vol. (*Thesm.* au t. III, 1814 : c'est l'« ed. Lipsiensis (1814) » de l'apparat de l'auteur) | T | vulg. [à préciser] | oui | `ED/1814_Leipzig_Tauchnitz_t3/bsb10232505_extraits_Thesm.pdf` (extrait) | PDF 9–80 = p. [167]–238 |
 | E20 | 1825 | [W. Dindorf] | *Comoediae ad optimorum librorum fidem cum brevi annotatione critica editae*, Leipzig, Teubner, 2 vol. | T, A brève | [à vérifier] | oui | `ED/1825_Leipzig_Teubner_Dindorf_t2/aristophaniscom00passgoog.pdf` | PDF 95–152 = p. [88]–145 |
 | E21 | 1826 | J. Fr. Boissonade | *Poetarum Graecorum Sylloge*, Aristophanes t. III, Paris, Lefèvre | T, notules | [à vérifier] | oui | `ED/1826_Paris_Boissonade_t3/comoediaethesmo00boisgoog.pdf` | PDF 10–92 = p. [1]–83 ; notules PDF 314–318 = p. 293–297 |
 | E22 | 1829 | I. Bekker | *Comoediae cum scholiis et varietate lectionis*, Londres, Whittaker et al., 5 vol. | T, A, Sch., Tr. lat., C (*variorum*) | R (autopsie, 1818) | oui | `ED/1829_Londres_Bekker_t1_texte/…`, `…_t2_scholies/…`, `…_t4_notes/…` | t. I PDF 388–432 = p. 361–405 ; t. II PDF 152–171, 584–592 ; t. IV PDF 252–328 |
 | E23 | 1830 | F. H. Bothe | *Comoediae*, Leipzig, Hahn, t. IV | T, A, C brèves | R (d'après Invernizi) [à préciser] | oui | `ED/1830_Leipzig_Bothe1/comoediaebothe03aris.pdf` | PDF 339–422 = t. IV p. [1]–84 |
 | E24 | 1830 | W. Dindorf | *Comoediae, accedunt perditarum fabularum fragmenta*, Leipzig, Weidmann, 2 vol. (tirage à part des *Poetae scenici*) | T | — | oui | — (t. II introuvable en ligne) | — |
-| E25 | 1830–1869 | W. Dindorf | *Poetae scenici Graeci* (Leipzig, 1830 ; Oxford, 1846 ; Leipzig, 1851, 1865 ; 5ᵉ éd. 1869) | T | — | oui | — (IA, cf. notice) | — |
+| E25 | 1830–1869 | W. Dindorf | *Poetae scenici Graeci* (Leipzig, 1830 ; Oxford, 1846 ; Leipzig, 1851, 1865 ; 5ᵉ éd. 1869) | T | [à vérifier] | oui | `ED/1830_Leipzig_Dindorf_Poetae_scenici/poetaescenicigra00dind.pdf` (1830) | PDF 724–741 = p. 687–704 |
 | E26 | 1832 | B. Thiersch | *Thesmophoriazusae cum scholiis cod. Ravennatis et fragm. Thesmoph. poster.*, Halberstadt, Helm | T, A, C, Sch. | G et Iunt. (collations de Thiersch) ; R d'après Bekker 1829 | oui | `ED/1832_Halberstadt_Thiersch/thesmophoriazus00arisgoog.pdf` | préf. PDF 8–16 ; texte PDF 34–147 ; scholies PDF 148–186 ; fragm. PDF 187–199 |
 | E27 | 1835–1838 | W. Dindorf | *Comoediae*, Oxford : t. II (texte, 1835), t. III (*Annotationes*, 1837), t. IV 3 (scholies, 1838) | T, A, C, Sch. | R d'après Invernizi et Bekker | oui | `ED/1835_Oxford_Dindorf_t2_texte/…` ; `ED/1837_…_t3_annotationes/…` ; `ED/1838_…_t4-3_scholies/…` | t. II PDF 4–41 = p. [415]–452 ; t. III PDF 710–765 = p. 701–756 ; t. IV 3 PDF 311–335 = p. 310–334 |
 | E28 | 1838 | F. V. Fritzsche | *Thesmophoriazusae*, Leipzig, Koehler | T, A, C ample | Iunt., G, R (d'après Invernizi et Bekker–Seidler) | oui | `ED/1838_Leipzig_Fritzsche/thesmophoriazusa00aris.pdf` (+ `thesmophoriazus01fritgoog.pdf`) | préf. PDF 9–24 = p. V–XX ; texte et comm. PDF 25–597 = p. 1–573 |
 | E29 | 1838 | Didot (W. Dindorf) | *Comoediae et perditarum fragmenta, ex nova recensione G. Dindorf*, Paris, A. F. Didot | T, Tr. lat. | texte de Dindorf | oui | `ED/1838_Paris_Didot_Dindorf/aristophaniscome00long.pdf` | PDF 300–335 = p. 286–321 |
+| E29b | 1842 | C. H. Weise | *Comoediae ad optimorum librorum fidem accurate recensuit C. H. Weise*, *nova editio stereotypa*, Leipzig, Tauchnitz, 2 vol. in-32, t. II (*Pax, Aves, Lysistrata, Thesm.*) | T, notes critiques (variantes) | vulg. | oui | `ED/1842_Leipzig_Tauchnitz_Weise_t2/aristophaniscom00collgoog.pdf` | PDF 290–360 = p. [265]–335 ; notes PDF 368–369 = p. 343–344 |
 | E30 | 1844 | R. Enger | *Aristophanis comoediae cum scholiis* I 2 : *Thesmophoriazusae*, Bonn, H. B. König | T, A, C, Sch. | R d'après Bekker 1829 ; G et Iunt. d'après Thiersch et Reisig | oui | `ED/1844_Bonn_Enger/bsb10232531.pdf` | préf. PDF 5–6 = p. V–VI ; texte, scholies et notes PDF 7–211 = p. 1–205 |
 | E31 | 1845 | F. H. Bothe | *Comoediae*, 2ᵉ éd., Leipzig, Hahn, t. III | T, A, C brèves | R d'après Bekker, G d'après Brunck | oui | `ED/1845_Leipzig_Bothe2_t3/aristophaniscom00bothgoog.pdf` | PDF 108–191 = p. 97–184 |
 | E32 | 1848 ; 1868 | H. A. Holden | *Comoediae quae supersunt cum perditarum fragmentis*, Cambridge–Londres (3ᵉ éd. 1868) | T | — | oui | `ED/1868_Cambridge_Holden/aristophaniscom01arisgoog.pdf` | PDF 546–592 = p. 455–501 |
@@ -94,7 +97,7 @@ Les références complètes, URL et justifications sont dans les notices du § 3
 | E37 | 1880 | F. H. M. Blaydes | *Aristophanis comoediae* I : *Thesmophoriazusae*, Halle, Orphanotropheum | T, A, C, Sch. | R (collation personnelle « cum ed. Bergk. 1857 ») | oui | `ED/1880_Halle_Blaydes/comoediaeblaydes01aris.pdf` (+ `aristophaniscom01blaygoog.pdf`) | préf. PDF 9–13 ; texte PDF 15–140 = p. 1–126 ; comm. PDF 141–273 = p. 127–259 ; *Addenda* PDF 274–285 = p. 260–271 |
 | E38 | 1883 | A. von Velsen | *Aristophanis Thesmophoriazusae*, Leipzig, Teubner | T, A | R (autopsie, 1866–1867), G | oui | `ED/1883_Leipzig_Velsen/aristophanisthe00velsgoog.pdf` | préf. PDF 10–11 = p. 5–6 ; texte PDF 12–93 = p. 7–88 |
 | E39 | 1891 | Th. Bergk | *Thesmophoriazusae*, Leipzig, Teubner (tirage séparé ; retirage 1932) | T | — | oui | — | — |
-| E40 | 1898 | C. H. Weise | *Aristophanis comoediae ad optimorum librorum fidem*, Leipzig, Holtze, t. II | T | — | oui | — | — |
+| E40 | 1898 | C. H. Weise | *Aristophanis comoediae ad optimorum librorum fidem*, Leipzig, Holtze, t. II (retirage de E29b) | T | vulg. | oui | — (voir E29b) | — |
 | E41 | 1901 ; 1907 | F. W. Hall, W. M. Geldart | *Aristophanis comoediae*, Oxford (OCT), t. II | T, A | R (photographies) | oui | 1901 : `ED/1907_Oxford_Hall_Geldart_t2/aristophaniscomo02arisuoft.pdf` (dossier mal daté) ; 1907 : `ED/1907_Oxford_Hall_Geldart_t2_ed2_reimpr/bwb_P9-BTV-995_2.pdf` | PDF 66–110 (les deux) |
 | E42 | 1904 | J. van Leeuwen | *Thesmophoriazusae cum prolegomenis et commentariis*, Leyde, Sijthoff | T, C, A brèves | R (fac-similé de 1904) | oui | `ED/1904_Leyde_van_Leeuwen/aristophanisthe00leeugoog.pdf` | prolég. PDF 10–25 = p. I–XVI ; texte et comm. PDF 26–179 = p. 1–154 |
 | E43 | 1904 ; 1924 | B. B. Rogers | *The Thesmophoriazusae*, Londres, Bell ; repris dans la Loeb, t. III, 1924 | T, Tr. angl., C, A | — | oui | `ED/1904_Londres_Rogers/thesmophoriazus00rogegoog.pdf` ; `ED/1924_Londres_Rogers_Loeb_t3/aristophaneswith03arisuoft.pdf` | 1904 : texte PDF 50–227, appendice PDF 228–281 ; 1924 : PDF 135–252 = p. 125–242 |
@@ -362,21 +365,47 @@ fichier local ; pages des *Thesm.* ; remarques.
 
 ### 3.3. Le XIXᵉ siècle (1810–1898)
 
-**E18. 1810 — Réimpression d'Oxford de Brunck.**
+**E18. 1810 — Réimpression d'Oxford de Brunck (N. Bliss).**
 - Réf. : *Aristophanis comoediae ex optimis exemplaribus emendatae, cum versione Latina, variis lectionibus,
-  notis et emendationibus*, Oxonii, 1810, 4 vol. (Prato 2001, p. XLV : « Thesm. vol. I, p. 83 sgg. »).
-- Nature : T, Tr. lat., A, C (Brunck). Base : G (d'après Brunck). DP : oui.
-- URL : plusieurs numérisations IA, volume des *Thesm.* non identifié (OCR inexploitable) :
-  aristophaniscom00brungoog (« vol. 4 »), aristophaniscom05brungoog, aristophaniscom07arisgoog,
-  aristophaniscom08arisgoog, bub_gb_7krgajoQm14C, bub_gb_aDjB6ScCuA8C, bub_gb_GC_TY4PiDqQC,
-  aristophaniscomo05aris (microfilm). Fichier : —.
+  notis et emendationibus. Accedunt deperditarum comoediarum fragmenta, a R. F. Ph. Brunck*, Oxonii, typis et
+  sumtu N. Bliss, 1810, 4 vol. (titre du t. I, PDF 5) ; Prato 2001, p. XLV : « Thesm. vol. I, p. 83 sgg. ».
+- Nature : t. I : texte grec de *Lys.*, *Thesm.*, *Gren.*… avec les notes de Brunck au bas des pages ; t. IV :
+  version latine (*Thesm.* dans les exemplaires IA aristophaniscom00brungoog et bub_gb_aDjB6ScCuA8C, titre
+  « Tom. IV », PDF 5 et 8). Base : G (d'après Brunck). DP : oui.
+- URL : https://archive.org/details/bub_gb_GC_TY4PiDqQC (t. I ; autre exemplaire : aristophaniscom05brungoog).
+- Fichier : `ED/1810_Oxford_Brunck_reimpr_t1/bub_gb_GC_TY4PiDqQC.pdf` (358 vues ; contrôlé sur les images).
+  *Thesm.* : PDF 111–185 = p. [83]–157 (faux-titre p. [83], personnages p. [84], texte p. 85 sqq. ; p. 86 =
+  PDF 114 ; *Gren.* : hypothesis PDF 186, texte PDF 189).
 
-**E19. 1812 ? — Édition stéréotype Tauchnitz, Leipzig.**
-- Réf. : *Aristophanis comoediae ad optimorum librorum fidem accurate editae*, Lipsiae, Tauchnitz : B3Kat
-  donne un t. 2 « Acharnenses, Vespae, Thesmophoriazusae, Ecclesiazusae » daté « (1812) » (numérisé : BSB
-  `bsb10232504`, http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10232504-1) et des tirages « ed.
-  stereotypa » de 1819 et 1828 (t. 3) ; IA aristophaniscom09arisgoog (1829) [tome à vérifier].
-- Nature : T sans apparat. Base : vulgate [à vérifier]. DP : oui. Fichier : —.
+**E18b. 1823 — Réimpression de Londres de Brunck (Whittaker).**
+- Réf. : Ἀριστοφάνους κωμῳδίαι. *Aristophanis comoediae ex optimis exemplaribus emendatae : cum versione
+  Latina, a Rich. Franc. Phil. Brunck*, Londini, sumtibus G. et W. B. Whittaker, 1823, 3 vol. (titre du t. I,
+  PDF 8 ; « 3 volumes ; 23 cm » d'après les métadonnées d'IA).
+- Nature : T et version latine de Brunck en regard (verso grec, recto latin) ; sans les notes. Base : G
+  (d'après Brunck). DP : oui.
+- URL : https://archive.org/details/aristophaniscom04brungoog (t. I) ; autres tomes et exemplaires :
+  aristophaniscom03brungoog, aristophaniscom05arisgoog, aristophaniscom06arisgoog, aristophaniscomo01aris,
+  aristophaniscomo02aris_1, aristophaniscomo02aris_2, aristophaniscomo03aris_0, aristophaniscomo03aris_1.
+- Fichier : `ED/1823_Londres_Brunck_reimpr_t1/aristophaniscom04brungoog.pdf` (385 vues ; contrôlé sur les
+  images). *Thesm.* : PDF 134–240 = p. [123]–229 (faux-titre PDF 134, personnages PDF 136, texte grec p. 127 =
+  PDF 138 ; p. 228 = PDF 239 porte le v. 1220 ; *Gren.* : faux-titre PDF 242). *Lys.* précède (PDF 12–132).
+
+**E19. 1812–1814 — Édition stéréotype anonyme, Leipzig, Tauchnitz.**
+- Réf. : *Aristophanis comoediae ad optimorum librorum fidem accurate editae*, Lipsiae, sumtu Caroli
+  Tauchnitii, 3 vol. : t. I (1812, 286 p. ; BSB `bsb10232503`), t. II (1812, 350 p. ; BSB `bsb10232504`), t. III
+  (1814, 311 p. ; BSB `bsb10232505`) ; tirages « ed. stereotypa » de 1819 et 1828 (B3Kat) ; IA
+  aristophaniscom09arisgoog (1829) [tome non identifié].
+- Contenu (contrôlé sur les images de la BSB) : le **t. III de 1814** contient *Ach.* (canevas 7 sqq.), *Guêpes*
+  (85 sqq.), *Thesm.* (173 sqq.) et *Assemblée* (247 sqq.) ; la notice de la BSB attribue à tort ce contenu au
+  t. II, dont le volume numérisé contient la fin des *Cavaliers*, la *Paix* (canevas 201 sqq.) et la *Lysistrata*
+  (canevas 277 sqq.).
+- Nature : T sans apparat. Base : vulgate [modèle à préciser]. DP : oui.
+- C'est l'« ed. Lipsiensis (1814) » que cite l'apparat de l'auteur au v. 1201 (Ἀρταμουξία : t. III, p. 237,
+  « μεμνῆσι τοίνυν τοὔνομ᾽· Ἀρταμουξία », PDF 79 de l'extrait local, contrôlé).
+- URL : https://www.digitale-sammlungen.de/view/bsb10232505.
+- Fichier : `ED/1814_Leipzig_Tauchnitz_t3/bsb10232505_extraits_Thesm.pdf` (84 p. : PDF 1–8 = canevas 1–8,
+  titre du t. III PDF 5 ; PDF 9–84 = canevas 173–248) et manifeste IIIF. *Thesm.* : PDF 9–80 = p. [167]–238
+  (hypothesis p. [167], personnages p. [168], texte p. 169–238 ; p. n = PDF n+158) ; *Assemblée* PDF 81.
 
 **E20. 1825 — Leipzig, Teubner (anonyme ; W. Dindorf).**
 - Réf. : Ἀριστοφάνους κωμῳδίαι. *Aristophanis comoediae ad optimorum librorum fidem cum brevi annotatione
@@ -435,14 +464,19 @@ fichier local ; pages des *Thesm.* ; remarques.
   *Nuées*, *Guêpes*, *Paix*, sans les *Thesm.* ; téléchargé puis écarté). Fichier : —.
 
 **E25. 1830–1869 — W. Dindorf, *Poetae scenici Graeci*.**
-- Réf. : *Poetae scenici Graeci, accedunt perditarum fabularum fragmenta, recensuit Guil. Dindorfius*,
-  Lipsiae et Londini, 1830 (xxxi-766-162 p.) ; rééd. *Poetarum scenicorum Graecorum … fabulae superstites et
-  perditarum fragmenta*, Oxonii, J. Abrams et C. Richards, 1846 ; Lipsiae, 1851 ; 1865 ; 5ᵉ éd., Lipsiae,
-  Teubner, 1869 (citée par Velsen 1871, p. 1).
-- Nature : T. DP : oui. URL (IA) : poetaescenicigra00dind, poetaescenicigr00arisgoog, bub_gb_mGYGAAAAQAAJ,
-  bub_gb_rm0MAAAAYAAJ (1830) ; poetarumscenico01arisgoog (1846) ; poetarumscenico00dind (1851) ;
-  poetarumsenicor00unkngoog (1865) ; poetarumscenicor00dind, poetarumscenic00dind, poetarumscenico00arisgoog,
-  bub_gb_X5UFpxf3aeEC (1869). Fichier : — (voir E35 pour le texte de 1869).
+- Réf. : *Poetae scenici Graeci, accedunt perditarum fabularum fragmenta, recognovit et praefatus est Guil.
+  Dindorfius*, Lipsiae, libraria Weidmannia ; Londini, Black, Young et Young, 1830 (xxxi-766-162 p.) ; rééd.
+  *Poetarum scenicorum Graecorum … fabulae superstites et perditarum fragmenta*, Oxonii, J. Abrams et
+  C. Richards, 1846 ; Lipsiae, 1851 ; 1865 ; 5ᵉ éd., Lipsiae, Teubner, 1869 (citée par Velsen 1871, p. 1).
+- Nature : T (deux colonnes). La préface de 1830 discute des leçons de R (« codex Ravennas », à propos du
+  v. 494 : PDF 17 de l'exemplaire bub_gb_mGYGAAAAQAAJ). DP : oui.
+- URL (IA) : poetaescenicigra00dind, poetaescenicigr00arisgoog, bub_gb_mGYGAAAAQAAJ, bub_gb_rm0MAAAAYAAJ
+  (1830) ; poetarumscenico01arisgoog (1846) ; poetarumscenico00dind (1851) ; poetarumsenicor00unkngoog (1865) ;
+  poetarumscenicor00dind, poetarumscenic00dind, poetarumscenico00arisgoog, bub_gb_X5UFpxf3aeEC (1869).
+- Fichier : `ED/1830_Leipzig_Dindorf_Poetae_scenici/poetaescenicigra00dind.pdf` (972 vues ; OCR d'IA
+  exploitable). *Thesm.* : PDF 724–741 = p. 687–704 (*Lys.* p. 667 ; *Gren.* p. 705 = PDF 742) ; fragments des
+  *Thesm. secondes* dans les *Fragmenta* (2ᵉ pagination, p. 145–146 dans l'exemplaire bub_gb_mGYGAAAAQAAJ).
+  Pour le texte de 1869, voir E35.
 
 **E26. 1832 — Bernhard Thiersch, Halberstadt.**
 - Réf. : Ἀριστοφάνους Θεσμοφοριάζουσαι. *Aristophanis Thesmophoriazusae cum scholiis cod. Ravennatis et
@@ -498,6 +532,19 @@ fichier local ; pages des *Thesm.* ; remarques.
 - URL : https://archive.org/details/aristophaniscome00long.
 - Fichier : `ED/1838_Paris_Didot_Dindorf/aristophaniscome00long.pdf` (742 vues). *Thesm.* : PDF 300–335 =
   p. 286–321 (*Gren.* p. 322).
+
+**E29b. 1842 — Carl Hermann Weise, Leipzig (Tauchnitz, stéréotype).**
+- Réf. : Ἀριστοφάνους κωμῳδίαι. *Aristophanis comoediae ad optimorum librorum fidem accurate recensuit C. H.
+  Weise. Nova editio stereotypa*, Lipsiae, sumtibus et typis Caroli Tauchnitii, 1842, 2 vol. in-32 (BnF
+  cb41619769x) ; t. II : *Pax, Aves, Lysistrata, Thesmophoriazusae* (titre, PDF 8). Weise (1787–1840) est mort
+  avant ce tirage ; date de la première édition [à vérifier]. Retirage : Leipzig, Holtze, 1898 (E40).
+- Nature : T ; « Notae criticae » en fin de volume, qui opposent les leçons des éditions anciennes (« Vett. »,
+  « Ald. ») et récentes (« Recc. »). Base : vulgate. DP : oui.
+- URL : https://archive.org/details/aristophaniscom00collgoog.
+- Fichier : `ED/1842_Leipzig_Tauchnitz_Weise_t2/aristophaniscom00collgoog.pdf` (381 vues ; contrôlé sur les
+  images). *Thesm.* : PDF 290–360 = p. [265]–335 (faux-titre PDF 290, hypothesis PDF 292, personnages PDF 293,
+  texte p. 269 sqq. ; p. n = PDF n−25) ; « Ad Thesmophoriazusas » p. 343–344 = PDF 368–369 (le cahier des
+  *Notae* est numérisé deux fois : PDF 361–369 et 371–377).
 
 **E30. 1844 — Robert Enger, Bonn.**
 - Réf. : *Aristophanis comoediae cum scholiis. Ex recensione Roberti Enger. Tomus I. Pars II.
@@ -605,8 +652,8 @@ T seul ; DP : oui ; pas de numérisation trouvée.
 
 **E40. 1898 — Carl Hermann Weise, Leipzig (Holtze).**
 - Réf. : *Aristophanis comoediae ad optimorum librorum fidem accurate rec. Carl Herm. Weise*, Lipsiae, Holtze,
-  1898, t. 2 : *Pax, Aves, Lysistrata, Thesmophoriazusae* (B3Kat). T seul ; DP : oui ; pas de numérisation
-  trouvée.
+  1898, t. 2 : *Pax, Aves, Lysistrata, Thesmophoriazusae*, 344 p. (B3Kat BV011749333) : retirage de l'édition
+  stéréotype de Tauchnitz (E29b). T ; DP : oui ; pas de numérisation trouvée (le tirage de 1842 est local).
 
 ### 3.4. XXᵉ et XXIᵉ siècles (1901–2025)
 
@@ -918,7 +965,11 @@ mots-clés puis **contrôle visuel** des pages de début et de fin (planches con
 `.travail/recension_editions/R2/` et `.travail/editions_reprise/`). Textes par page (couche PDF, hOCR ou
 djvu d'archive.org, OCR Tesseract pour les numérisations de la BSB) : `.travail/editions_reprise/pages/`.
 
-Bilan (26 oct. 2026) : **115 PDF contrôlés, tous lisibles, aucune erreur de rendu**. Les écarts de 1 à
+Bilan (26 oct. 2026) : **115 PDF contrôlés, tous lisibles, aucune erreur de rendu** ; nouveau contrôle après
+redémarrage (28 oct. 2026, `.travail/recension_editions/R3/integrite_reprise3b.tsv`) : **123 PDF**, tous lisibles,
+nombres de pages inchangés pour les 115 premiers ; 5 PDF ajoutés le 28 oct. (Brunck 1810 et 1823, Tauchnitz 1814,
+Dindorf 1830, Weise 1842 : pages des *Thesm.* contrôlées sur les images) ; 3 doubles en noir et blanc fournis
+par archive.org (`*_bw.pdf` : Bamberg 1865, Lange 1891, Willems 1897), identiques aux originaux. Les écarts de 1 à
 4 pages avec le décompte d'archive.org correspondent aux mires et feuillets de garde que le PDF d'IA omet.
 Particularités :
 
@@ -935,6 +986,9 @@ Particularités :
   `1823_Classical_Journal_27` (vol. 27, sans rapport avec le « n° XXVII » où paraissent les notes de Bentley :
   celles-ci sont dans `1816_Classical_Journal_14`, p. 130–138). Dates d'IA erronées : Invernizi t. VIII et
   XI (« 1794 » pour 1821 et 1823), Dindorf t. IV 3 (« 1835 » pour 1838), Holden (« 1867 » pour 1868).
+- **Notice de catalogue erronée** : BSB `bsb10232504` (« Aristophanis Comoediae. 2, Acharnenses, Vespae,
+  Thesmophoriazusae, Ecclesiazusae », 1812) contient en fait la fin des *Cavaliers*, la *Paix* et la *Lysistrata* ;
+  les *Thesm.* sont au t. III (1814, `bsb10232505`), dont l'extrait est local (E19).
 - **Numérisations à rebours** : Juntine de 1515 (*Comoediae novem*), Farreus 1542, édition de 1548.
 - **Désordres de reliure ou de numérisation** : Divus 1539 (p. 507–510 reliées avant 507–508 ; doublon
   PDF 526–537) ; Dübner 1842 (nombreuses pages en double) ; Meineke 1860 (exemplaire interfolié : deux vues
@@ -974,9 +1028,11 @@ Particularités :
 | `1794_Leipzig_Invernizi_t1/comoediainverniz01aris.pdf` | 656 | 660 | IA | -4 | PDF | 0 |
 | `1794_Leipzig_Invernizi_t2_texte/comoediaearis02aris.pdf` | 620 | 624 | IA | -4 | PDF | 0 |
 | `1808_Berlin_Hotibius_Bothe_Lectiones/bsb10232652.pdf` | 160 | — | BSB | — | OCR Tesseract | 0 |
+| `1810_Oxford_Brunck_reimpr_t1/bub_gb_GC_TY4PiDqQC.pdf` | 358 | 359 | IA | -1 | djvu IA (grec illisible) | 0 |
 | `1812_Cambridge_Porson_Adversaria/adversarianotaee00pors.pdf` | 372 | 374 | IA | -2 | PDF | 0 |
 | `1812_Quarterly_Review_7_Elmsley/londonquarterly18unkngoog.pdf` | 539 | 539 | IA | 0 | hOCR/djvu IA | 0 |
 | `1813_Oxford_Elmsley_Heraclidae/geripdouyrakled00eurigoog.pdf` | 325 | 325 | IA | 0 | hOCR/djvu IA | 0 |
+| `1814_Leipzig_Tauchnitz_t3/bsb10232505_extraits_Thesm.pdf` | 84 | 322 | BSB, extrait | — | non | 0 |
 | `1815_Classical_Journal_11/classicaljournal1118unse.pdf` | 402 | 404 | IA | -2 | PDF | 0 |
 | `1815_Londres_Porson_Tracts/tractsmiscellane00porsuoft.pdf` | 524 | 528 | IA | -4 | PDF | 0 |
 | `1816_Classical_Journal_13/classicaljournal1318unse.pdf` | 464 | 466 | IA | -2 | PDF | 0 |
@@ -990,12 +1046,14 @@ Particularités :
 | `1822_Oxford_Tyrwhitt_Coniecturae/thomaetyrwhittic00tyrw.pdf` | 184 | 186 | IA | -2 | PDF | 0 |
 | `1823_Classical_Journal_27/2015.94795.The-Classical-Journal--Vol-27january-And-March1823.pdf` | 404 | — | — | — | non | 0 |
 | `1823_Leipzig_Invernizi_t11_scholies_Biset/comoediae11aris.pdf` | 596 | 600 | IA | -4 | PDF | 0 |
+| `1823_Londres_Brunck_reimpr_t1/aristophaniscom04brungoog.pdf` | 385 | 385 | IA | 0 | djvu IA (grec illisible) | 0 |
 | `1825_Leipzig_Teubner_Dindorf_t2/aristophaniscom00passgoog.pdf` | 459 | 459 | IA | 0 | hOCR/djvu IA | 0 |
 | `1826_Paris_Boissonade_t3/comoediaethesmo00boisgoog.pdf` | 341 | 341 | IA | 0 | hOCR/djvu IA | 0 |
 | `1829_Londres_Bekker_t1_texte/aristophanouskm03bekkgoog.pdf` | 749 | 749 | IA | 0 | hOCR/djvu IA | 0 |
 | `1829_Londres_Bekker_t2_scholies/aristophanouskm02bekkgoog.pdf` | 739 | 739 | IA | 0 | hOCR/djvu IA | 0 |
 | `1829_Londres_Bekker_t4_notes/aristophanouskm01bekkgoog.pdf` | 440 | 440 | IA | 0 | hOCR/djvu IA | 0 |
 | `1830_Leipzig_Bothe1/comoediaebothe03aris.pdf` | 702 | 706 | IA | -4 | PDF | 0 |
+| `1830_Leipzig_Dindorf_Poetae_scenici/poetaescenicigra00dind.pdf` | 972 | 974 | IA | -2 | PDF et hOCR IA | 0 |
 | `1830_Leipzig_Elmsley_Acharnenses/bsb10232593.pdf` | 152 | — | BSB | — | OCR Tesseract | 0 |
 | `1830_Leipzig_Hanow_Exercitationes/exercitationumc00hanogoog.pdf` | 174 | 174 | IA | 0 | hOCR/djvu IA | 0 |
 | `1832_Halberstadt_Thiersch/thesmophoriazus00arisgoog.pdf` | 223 | 223 | IA | 0 | hOCR/djvu IA | 0 |
@@ -1009,6 +1067,7 @@ Particularités :
 | `1838_Paris_Didot_Dindorf/aristophaniscome00long.pdf` | 742 | 746 | IA | -4 | PDF | 0 |
 | `1838_ZfAW_5_Hermann_Fritzsche/Zeitschrift_für_die_Alterthumswissensch.pdf` | 648 | — | — | — | PDF | 0 |
 | `1839_Zutphen_Lenting_Observationes/observationescr00lentgoog.pdf` | 161 | 161 | IA | 0 | hOCR/djvu IA | 0 |
+| `1842_Leipzig_Tauchnitz_Weise_t2/aristophaniscom00collgoog.pdf` | 381 | 381 | IA | 0 | djvu IA (grec illisible) | 0 |
 | `1842_Paris_Dubner_scholia/scholiagraecain00unkngoog.pdf` | 867 | 867 | IA | 0 | hOCR/djvu IA | 0 |
 | `1843_Dobree_Adversaria_t2/petripaulidobre00schogoog.pdf` | 435 | 435 | IA | 0 | hOCR/djvu IA | 0 |
 | `1843_Enger_Beitraege_RhM/41250706.pdf` | 26 | — | JSTOR (IA) | — | PDF | 0 |
@@ -1068,13 +1127,15 @@ Particularités :
 ## 7. Manques, erreurs relevées et pistes
 
 **Éditions non disponibles localement.**
-- Accessibles en ligne mais non téléchargées (intérêt limité, ou volume à identifier) : Brunck, Oxford,
-  1810 (E18 : identifier le tome des *Thesm.* parmi les numérisations IA) ; stéréotype Tauchnitz (E19, BSB
-  `bsb10232504`) ; *Poetae scenici* de Dindorf (E25, IA) ; Fritzsche 1838 et Blaydes 1880 en exemplaires BSB
-  (`bsb10232639`, `bsb11413137`), Velsen 1883 (`bsb11536315`), doublons possibles de meilleure qualité.
+- Accessibles en ligne mais non téléchargées (intérêt limité) : Brunck, Oxford, 1810, t. IV (version latine ;
+  IA aristophaniscom00brungoog) ; Brunck, Londres, 1823, t. II–III ; *Poetae scenici* de 1846, 1851, 1865 (IA) ;
+  Fritzsche 1838 et Blaydes 1880 en exemplaires BSB (`bsb10232639`, `bsb11413137`), Velsen 1883 (`bsb11536315`),
+  doublons possibles de meilleure qualité. Complétés le 28 oct. 2026 : Brunck 1810 t. I (E18), Brunck 1823 t. I
+  (E18b), Tauchnitz 1814 t. III (E19, extrait), *Poetae scenici* 1830 (E25), Weise 1842 t. II (E29b).
 - Introuvables en ligne : Leyde 1624 (copie sur le Drive, à contrôler : 1624 ou 1670 ?) ; Bourdin 1545
   (Gallica `bpt6k857402r`, bloqué par Cloudflare depuis cette machine ; copie sur le Drive) ; Velsen 1878 ;
-  Bergk 1852 (fascicule des *Thesm.*) et 1891 ; Weise 1898 ; Dindorf, Leipzig, 1830, t. II ; Holden 1848.
+  Bergk 1852 (fascicule des *Thesm.* ; seul le t. I de 1852 est numérisé : IA `B-001-001-664`) et 1891 ; Holden
+  1848 ; Dindorf, Leipzig, Weidmann, 1830, t. II (le texte est celui des *Poetae scenici* de 1830, E25, local).
 - Sous droits (à consulter en bibliothèque ou via le Drive) : Coulon 1928, Cantarella 1956, Paduano 1983,
   Gannon 1988, Sommerstein 1994, Henderson 2000, Prato 2001, Marzullo 2003, Austin–Olson 2004,
   Mastromarco–Totaro 2006, Wilson 2007, Saetta Cottone 2016, Di Virgilio 2025.
@@ -1088,7 +1149,11 @@ Enger 1844 n'a **pas** collationné R (il dépend de Bekker ; préface de *Lys.*
 des apparats est la Brubachiana de 1544 ; les scholies de Bourdin sont de 1545 (non 1540) ; le tome local de
 Bergk est de 1872 ; le Hall–Geldart de Toronto est la 1ʳᵉ éd. ; l'édition de 1548 est sans lieu ; Blaydes
 1880 déclare avoir collationné R lui-même (p. VII) ; la Wechel de 1540 contient bien les *Thesm.*
-(p. [469]–517).
+(p. [469]–517). Ajouts du 28 oct. 2026 : l'« ed. Lipsiensis (1814) » de l'apparat de l'auteur (v. 1201) est le t. III de
+l'édition stéréotype de Tauchnitz (E19), et le « Teubner » du v. 632 l'édition anonyme de 1825 (E20), que
+le « τί δ' ἦν olim Dindorfius » d'Enger permet d'attribuer à W. Dindorf ; la notice BSB du t. II de Tauchnitz
+(1812) décrit en réalité le contenu du t. III ; le t. I de l'Oxford de 1810 contient le texte grec et les notes,
+le t. IV la version latine.
 
 **Points à vérifier.** Mode de collation de R par Coulon, Cantarella, Gannon, Sommerstein, Austin–Olson ;
 contenu exact de l'édition de Bourdin (texte complet ou seulement lemmes) ; pages des *Thesm.* dans l'édition

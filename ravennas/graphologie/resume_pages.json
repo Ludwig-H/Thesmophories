@@ -1578,6 +1578,66 @@
    "Les zones ovales à bords nets sont-elles des défauts de la peau ou des pièces collées ? La salissure grise du haut est-elle l'empreinte noire d'imprimeur que signale Clark 1871, 159 [à vérifier] ?"
   ]
  },
+ "f176v": {
+  "mains": [
+   {
+    "label": "T (copiste)",
+    "role": "Texte, ligne supplémentaire, ponctuation, paragraphoi (dont six fausses) et dicola, τὼ ajouté au v. 1183.",
+    "criteres": "Minuscule ronde et liée ; encre brune G/R 1,18–1,32, B/R 1,84–2,11."
+   },
+   {
+    "label": "S2 (R² de Velsen, B d'Allen)",
+    "role": "Onze scholies et six gloses. Notes de personnage σκυ^θ, ευρι^π ὡσ γραῦσ, ευρι^π, κη^δ. Correction ἔφρον → ἔφραζον (attribuée à 2 m. par Velsen 1871) et τ de στεριπό sur rasure. Corrections d'accents que Velsen lui attribue, non démontrables sur l'image.",
+    "criteres": "Petite majuscule (semi-onciale) disjointe, lettres suscrites, ÷ final ; encre brune 1,20–1,30 / 1,85–2,13, que l'encre ne permet pas de distinguer de T."
+   },
+   {
+    "label": "Main du XVIe s. (« 2 m. » de Velsen 1871, préparation de l'édition de 1516)",
+    "role": "Environ 27 sigles imprimables (χο, εὐ, σκ, γυ/Γυ, Κη^δ), traits d'insertion aux vv. 1179 et 1187, hastes qui barrent quatre paragraphoi, ο ο ο → σκ au v. 1191, accents de κατὰ τὸ au v. 1180 (d'après Velsen).",
+    "criteres": "Capitales et sigles à queue ; encre orangée G/R 1,41–1,76, B/R 2,39–3,23, rouge franc en décorrélation Lab ; concordance avec Velsen 1871 ; ces signes manquent dans l'Augustanus."
+   },
+   {
+    "label": "Crayon (1516)",
+    "role": "« 4 » et trait de renvoi aux pages de la Juntine (d 4, après le v. 1191).",
+    "criteres": "Gris neutre G/R 1,06, B/R 1,27–1,31, comme aux ff. 174r et 175v."
+   },
+   {
+    "label": "Main indéterminée",
+    "role": "Grattages (paragraphoi des vv. 1193 et 1200 ; lettres aux vv. 1172, 1180, 1183, 1188, 1195, 1210), ν de λέλυσον noyé sous une tache d'encre (avant G), points bruns sur les γυ et sur le ο ο ο.",
+    "criteres": "Pas d'encre nouvelle, ou des mesures sur trop peu de pixels ; ordre relatif déduit de l'Augustanus."
+   },
+   {
+    "label": "Intervention moderne (?)",
+    "role": "Taches bleu-vert de réactif dans la marge gauche (scholies aux vv. 1172 et 1174).",
+    "criteres": "Absorbances G/R 0,75–0,80, B/R 0,71–0,86 ; bandes alignées sur les lignes ; même aspect qu'au f. 162v."
+   }
+  ],
+  "nb_interventions": 25,
+  "nb_pieges": 17,
+  "faits_saillants": [
+   "Livrables : ravennas/graphologie/folios/f176v.jsonl (101 observations, avec bbox et spécimen) et ravennas/graphologie/folios/f176v.md (synthèse) ; 94 spécimens dans ravennas/graphologie/specimens/f176v/. Les 32 observations de l'exécution interrompue (ll. 1–19 et les quatre « + ») sont reprises telles quelles. Rien n'est committé.",
+   "Mise en page : 43 lignes de T pour 42 vers. La l. 20 est la ligne supplémentaire « ἀνακύπτη· καὶ παρακύπτι· ἀπεψωλημένοσ· », copiée après le v. 1187 comme un vers ordinaire. Correspondance : l. 1–19 = vv. 1169–1187, l. 20 = ligne supplémentaire, l. 21–43 = vv. 1188–1210. Uniquement des trimètres ; pas de titre ; pas de foliotation sur ce verso.",
+   "Réglure à la pointe sèche : verticales à x≈308 (elle borne les scholies), 747–752 et 802–810, horizontale à y≈229 ; l'écriture est suspendue sous la ligne.",
+   "Marque d'imprimeur : un seul « 4 » au crayon avec un trait, dans la marge droite entre les ll. 24 et 25. Il signale la page d 4 de la Juntine, qui commence au v. 1192 (Velsen 1871, p. 6). Encre gris neutre : G/R 1,06, B/R 1,27–1,31.",
+   "La main de 1516 (encre orangée, G/R 1,41–1,76, B/R 2,39–3,23) a posé environ 27 sigles : χο, εὐ, σκ, γυ/Γυ, Κη^δ. Tous ceux que Velsen 1871 relève se retrouvent sur l'image (pp. 12–13 pour les têtes de vers, p. 22 pour l'intérieur des vers). Le γυ du v. 1198 n'est signalé qu'à la p. 35.",
+   "Façons de faire de cette main : elle greffe un Γ sur la paragraphos de T (ll. 22, 31) ou sur son dicolon (l. 26). Elle transforme la leçon ο ο ο en « σκ ὸ » (v. 1191, l. 24). Elle place un sigle dans la marge et un trait d'insertion dans le vers, avec deux attributions fausses : coupe après μελετῆσι au v. 1179, γυ après πυγή au v. 1187.",
+   "Paragraphoi fausses de T, traitées de trois façons. Barrées d'une haste orangée aux vv. 1184, 1194, 1195 et 1204 : ce sont les quatre « + » de la page, et non des signaux. Grattées aux vv. 1193 et 1200 ; au v. 1200, G a encore la paragraphos, donc le grattage est postérieur à sa copie. Laissées intactes aux vv. 1192 et 1199.",
+   "S2 n'a que des notes nominatives : σκυ^θ (vv. 1176, 1210), ευρι^π ὡσ γραῦσ (vv. 1177, 1181), ευρι^π (v. 1208), κη^δ (v. 1207). La main de 1516 n'ajoute rien là où S2 a écrit. Le dicolon du v. 1195 est le seul changement de locuteur à l'intérieur d'un vers qui n'ait reçu aucun sigle.",
+   "Onze scholies de S2 en six blocs dans la marge gauche : vv. 1172 (deux), 1174, 1175, 1185, 1186, 1187, 1197 (suite), 1199, 1202, 1203. Six gloses dans la marge droite : vv. 1170, 1176, 1180, 1190, 1197, 1205. La scholie au v. 1197 commence à droite (l. 30) et se poursuit à gauche (l. 29). Le tiers gauche des scholies est pâli : les premiers mots se reconstituent d'après le texte imprimé, ils ne se lisent pas.",
+   "Interventions visibles dans le texte. Rasures : ναί(κι) (l. 15), (σ)ποστίον (l. 21), deux lettres entre ἐμοὶ et κάρισο (l. 28), boucle du θ de τυγά(θ)ριον (l. 43), μ d'ἐλα(μ)πρός (l. 12), τ de στεριπό écrit sur un π gratté (l. 17). Le ν de λέλυσον est noyé sous une tache d'encre (l. 41 ; la leçon λέλυσο est déjà dans G). ἔφρον est corrigé en ἔφραζον par des signes suscrits bruns (l. 5).",
+   "Pièges principaux pour les transcripteurs :\n- les « + » (paragraphoi barrées) et les blancs grattés ;\n- les sigles soudés aux mots (βαδίζειν+σκ, σκ+ναὶ, σκ+ἀκουλούτι, Γυ+ἀρτεμισία, καταλαβεῖν+Κη) et les traits d'insertion à ne pas lire comme ι ;\n- les ligatures ετ (≈ θ : ἔρχετ', ἔτι), ει en « q » (εἴεν), ἐπ en « G » (δ' ἐπὶ), σο (κάρισοσ οὐ) ;\n- le ν à jambage plongeant, lu μ ;\n- ξ et ζ (ἀρτομουξία) ;\n- l'encre épuisée de οὖν δρ- (l. 28) et la ride horizontale de la l. 32 ;\n- dans les scholies : le compendium de καί (ϗ) en forme de « ις », et le signe en « ʒ » qui vaut δέ ou -αι selon le contexte.",
+   "État matériel :\n- taches bleu-vert en bandes sur les débuts des scholies aux vv. 1172 et 1174 (absorbances inverses de l'encre : réactif du XIXe s. probable, comme au f. 162v) ;\n- tache d'humidité devant les ll. 16–19 ;\n- auréole dans la marge supérieure ; pli et craquelures dans la marge inférieure ;\n- tache grise sur ἀκουλούτι (l. 31), peut-être l'empreinte de pouce d'imprimeur signalée par Clark."
+  ],
+  "doutes": [
+   "La note κη^δ du v. 1207 (l. 40) est orangée (G/R 1,76, B/R 3,23), alors que Velsen 1871, p. 35 la donne à la main des scholies et que G la reproduit. Est-ce un repassage de 1516, ou S2 a-t-il parfois écrit à l'encre orangée ? Même cas au f. 175v (κη^δ ὡς ἀνδρομε^δ).",
+   "Deux points bruns surmontent les γυ de 1516 (ll. 26, 29, 31, 33) : tréma ou trace antérieure ? Deux points bruns sur le dernier ο du v. 1191 : exponctuation, ce qui expliquerait que la Juntine omette ὂ ὂ ὂ ? Les mesures portent sur trop peu de pixels.",
+   "Signe en « √ » du v. 1176 : signal de T (Allen) ou trait lié à la scholie au v. 1175 (λελύσθ(αι), note σκυ^θ) ? Son trait long mesure plus gris (B/R 1,69) que l'encre de T et de S2.",
+   "ἔφρον → ἔφραζον (v. 1173) : Velsen 1871 l'attribue à 2 m., mais l'encre est brune et G a déjà la correction. Je propose S2, à confirmer.",
+   "Qui a fait les grattages ? Ceux des paragraphoi des vv. 1193 et 1200 sont postérieurs à G au v. 1200, donc sans doute de la campagne de 1516, alors que cette main barre ailleurs. Les grattages de lettres restent à attribuer.",
+   "Corrections R² de Velsen non démontrables sur ce cliché, à contrôler sur l'original en lumière rasante ou sous UV : accents aux vv. 1174, 1182, 1183, 1193 et 1206 ; χ → κ au v. 1179 ; ω → ο au v. 1198 ; γ' supprimé au v. 1172.",
+   "Scholies, à vérifier sur l'imprimé de Dübner : ἁβρῶς (lu sur l'image) ou ἁδρῶς (OCR) au v. 1174 ; ἐπιπλήσσων ou ἐπιπλήττων au v. 1187 ; ordre des mots de la première ligne au v. 1175. Les citations de Dübner viennent de l'OCR local.",
+   "Fil gris de la marge gauche à la l. 43 (sillon de réglure ou crayon ?) et tache grise de la l. 31 (empreinte d'imprimeur ?) : comparer avec les ff. 173r et 173v."
+  ]
+ },
  "f177r": {
   "mains": [
    {

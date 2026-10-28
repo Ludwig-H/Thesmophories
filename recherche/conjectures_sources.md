@@ -1,8 +1,9 @@
 # Où trouver les conjectures des critiques cités dans les apparats des *Thesmophories*
 
-> État : **en cours de rédaction** (reprise du 2026-10-26). Pour chaque critique : ouvrage(s), année,
-> fichier local, pages où se trouvent ses propositions sur les *Thesmophories*. Les mentions
-> « [à vérifier] » signalent ce qui n'a pas encore été contrôlé sur le document lui-même.
+> État : **version de travail complète** (reprise 3, 28 oct. 2026 : §§ 6-7 ajoutés, rubrique Burges, compléments
+> du répertoire critique désormais dépouillé en entier). Pour chaque critique : ouvrage(s), année, fichier local,
+> pages où se trouvent ses propositions sur les *Thesmophories*. Les mentions « [à vérifier] » ou « non
+> contrôlé » signalent ce qui n'a pas encore été contrôlé sur le document lui-même.
 > Compagnon : `recherche/bibliographie_editions.md` (éditions, tableau chronologique) ;
 > répertoire vers par vers : `edition/donnees/repertoire_critique/`.
 
@@ -15,7 +16,7 @@
    Enger, Meineke, Bergk, Cobet, Velsen, Blaydes, van Herwerden, Kaibel…)
 5. XXᵉ et XXIᵉ siècles (van Leeuwen, Willems, Coulon, Wilamowitz, Maas, Fraenkel, Austin, Sommerstein,
    Prato, Wilson…)
-6. Noms relevés dans les apparats sans source localisée
+6. Autres noms relevés dans les apparats (sources localisées ou non)
 7. Index alphabétique des critiques
 
 ## 1. Méthode, conventions et sources de la liste des noms
@@ -41,9 +42,61 @@
   propositions inédites des humanistes (Biset, Ellebodius, Casaubon, Faber, Daubuz…) : voir Prato 2001,
   p. XXXVI, qui le dit expressément. Austin 1987 est la source première pour toutes les annotations
   manuscrites citées ci-dessous (exemplaires annotés conservés à Cambridge, Londres, Paris, Milan, Oxford).
-- **Couverture du répertoire** : les listes de vers « (Enger) » et « (Velsen) » ne valent que pour la
-  partie déjà dépouillée de `edition/donnees/repertoire_critique/` (Enger 1844 : vv. 1-930 ; Velsen 1883 :
-  tranches partielles) ; elles donnent des exemples, non des relevés complets.
+- **Couverture du répertoire** : les listes de vers « Enger : … » et « Velsen : … » des §§ 2-5 ont été
+  établies le 26 oct. 2026 sur la partie alors dépouillée du répertoire (Enger 1844 : vv. 1-930 ; Velsen 1883 :
+  tranches partielles) : ce sont des exemples, non des relevés complets. Le répertoire est désormais dépouillé
+  en entier pour Enger 1844, Velsen 1883 et Wilson 2007 ; le tableau ci-dessous en donne le poids relatif.
+- **Fréquence des noms** (critiques cités au moins 10 fois en tout) : nombre de vers où le critique est cité
+  (leçon, conjecture, attribution, ponctuation ou note) dans l'apparat d'Enger 1844, de Velsen 1883 et de
+  Wilson 2007 (répertoire critique), et nombre d'occurrences du nom dans l'apparat de l'auteur. Chez Velsen,
+  « Velsen » compte ses propres propositions ; chez Wilson, « Austin » réunit Austin 1987 et Austin–Olson 2004.
+
+| Critique | Enger 1844 | Velsen 1883 | Wilson 2007 | apparat de l'auteur |
+|---|---|---|---|---|
+| Brunck | 131 | 64 | 39 | 59 |
+| Fritzsche | 183 | 18 | 14 | 19 |
+| Bentley | 91 | 45 | 41 | 55 |
+| Dindorf | 92 | 42 | 27 | 28 |
+| Hermann | 48 | 34 | 22 | 26 |
+| Küster | 66 | 22 | 17 | 21 |
+| Enger | 54 | 27 | 19 | 13 |
+| Velsen | — | 89 | 9 | 10 |
+| Bothe | 57 | 12 | 16 | 13 |
+| Dobree | 45 | 16 | 16 | 17 |
+| Biset | 11 | 5 | 37 | 37 |
+| Porson | 31 | 18 | 12 | 12 |
+| Scaliger | 19 | 17 | 15 | 22 |
+| Meineke | 7 | 31 | 16 | 17 |
+| Zanetti | 7 | — | 23 | 31 |
+| Reisig | 40 | 8 | 5 | 3 |
+| Blaydes | — | 8 | 32 | 7 |
+| Grynaeus | — | — | 23 | 24 |
+| Reiske | 22 | 11 | 6 | 6 |
+| Elmsley | 18 | 6 | 7 | 8 |
+| Divus | — | — | 24 | 14 |
+| Austin | — | — | 23 | 14 |
+| Bergler | 28 | 5 | 1 | 1 |
+| Bekker | 27 | 4 | 1 | 1 |
+| Bergk | 9 | 8 | 5 | 10 |
+| Ellebodius | — | — | 9 | 20 |
+| Burges | 9 | 1 | 5 | 9 |
+| Cobet | 1 | 7 | 4 | 8 |
+| Dawes | 8 | 3 | 5 | 3 |
+| van Herwerden | — | 2 | 11 | 6 |
+| Daubuz | — | — | 9 | 9 |
+| Sommerstein | — | — | 11 | 7 |
+| Thiersch | 6 | 1 | 6 | 5 |
+| Voss | 12 | — | 2 | 2 |
+| van Leeuwen | — | — | 7 | 5 |
+| Faber | — | — | 2 | 9 |
+| Gelenius | — | — | 5 | 6 |
+| Invernizi | 11 | — | — | — |
+| Lenting | — | 4 | 5 | 2 |
+| Tyrwhitt | 5 | 3 | — | 3 |
+| Willems | — | — | 2 | 9 |
+| Droysen | 10 | — | — | — |
+| Lobeck | 6 | 2 | 1 | 1 |
+| Valckenaer | 3 | 2 | 3 | 2 |
 
 ## 2. Renaissance et XVIIᵉ siècle
 
@@ -207,7 +260,7 @@
 | Critique | Ouvrage (lieu cité par Enger) | Vers |
 |---|---|---|
 | L. C. Valckenaer | *Euripidis Hippolytus* (Leyde 1768), ad v. 294 ; *Phoenissae* (1755) | 472 (ἐκφορά) ; 15, 413 ; Velsen 74, 906 |
-| J. Pierson | *Moeridis Atticistae lexicon* (Leyde 1759), p. 7 | 910 |
+| J. Pierson | *Moeridis Atticistae lexicon* (Leyde 1759), p. 7 (v. 910) et p. 106 (v. 939, χαριοῦμαι) | 910, 939 ; Velsen 910 |
 | J. Ph. D'Orville | *Chariton* (Amsterdam 1750), p. 560 | 163, 768, 772 |
 | J. Markland | *Euripidis Supplices* (Londres 1763), ad v. 364 | 90 (χἂν) |
 | S. Musgrave | *Euripides* (Oxford 1778), ad *Or.* 1402 | 1041 (φλέγουσαν, apparat de l'auteur) ; 830-831 |
@@ -235,9 +288,8 @@ avant toute citation dans l'apparat).
 
 ## 4. XIXᵉ siècle
 
-Les listes « Enger : vv. … » et « Velsen : vv. … » viennent du dépouillement partiel de leurs notes
-(`edition/donnees/repertoire_critique/`, synthèse `.travail/recension_editions/B_vers_par_critique.txt`) :
-exemples, non relevés complets. Les éditions elles-mêmes sont décrites dans `bibliographie_editions.md`
+Les listes « Enger : vv. … » et « Velsen : vv. … » viennent du premier dépouillement (partiel) de leurs notes
+(`edition/donnees/repertoire_critique/`) : exemples, non relevés complets (voir le tableau des fréquences au § 1). Les éditions elles-mêmes sont décrites dans `bibliographie_editions.md`
 (numéros E…).
 
 ### Richard Porson (1759-1808)
@@ -333,6 +385,21 @@ exemples, non relevés complets. Les éditions elles-mêmes sont décrites dans 
 - Enger : plus de 200 entrées (souvent pour les réfuter) ; Velsen : vv. 10, 21, 266, 372, 488, 565, 657, 675,
   720, 724 ; apparat de l'auteur : 18 mentions.
 
+### George Burges (1786-1864)
+- Éditeur (anonyme) des « Bentleii emendationes ineditae in Aristophanem », *Classical Journal* 11-14
+  (1815-1816) : ses remarques entre crochets accompagnent les notes de Bentley (*Thesm.* : n° XXVII, t. 14,
+  p. 130-138 ; voir Bentley, § 3).
+- « De carminibus Aristophanis commentarius. Pars III », *Classical Journal* 14 (1816), n° XXVIII,
+  p. 225-240 : colométrie et corrections des parties lyriques ; *Thesm.* p. 231-240
+  (`ED/1816_Classical_Journal_14/10689.18395.pdf`, PDF 242-251, contrôlé sur l'OCR d'archive.org : chant
+  d'Agathon p. 232 ; vv. 295 et 312 sqq. p. 233 ; 433 sqq., 459 sqq. p. 234 ; 520 sqq. p. 234-235 ; 659 sqq.
+  p. 235-236 ; 707 sqq. p. 236 ; 953 sqq. p. 237 ; 1022 sqq. p. 238-239 ; hymne à Pallas, 1136 sqq.,
+  p. 240). Parties précédentes : *Classical Journal* 13 (1816), n° XXV, p. 33 sqq., et n° XXVI, p. 381 sqq.
+  (renvoi en tête de la partie III, PDF 236, et index du t. 14, PDF 411 ; non contrôlé sur le t. 13). C'est le
+  « classical Journal XXVIII. p. 233-235 » d'Enger (numéro XXVIII, non tome 28).
+- Enger : vv. 312-330, 354, 433-442, 459-465, 520-530, 659, 714 ; Velsen : v. 1023 (πολυστονώτατον, p. 238) ;
+  Wilson : vv. 99, 126 (φάος), 679 (ὅσια ‹μὴ›), 721-722 ; apparat de l'auteur : 9 mentions.
+
 ### Robert Enger (1813-1873)
 - « Beiträge zur Kritik und Erklärung der Thesmophoriazusen des Aristophanes und der Scholien zu diesem
   Stücke », *RhM* N. F. 2 (1843) (`ED/1843_Enger_Beitraege_RhM/41250706.pdf`, 26 p.) ; avec H. L. Ahrens,
@@ -426,12 +493,11 @@ exemples, non relevés complets. Les éditions elles-mêmes sont décrites dans 
 
 | Critique | Source (lieu exact quand vérifié) | Fichier local | Vers (exemples) |
 |---|---|---|---|
-| A. Wellauer | *De Thesmophoriis dissertatio*, Breslau, 1820 ; extraits dans Invernizi t. VIII, p. 504 sqq. | `ED/1821_Leipzig_Invernizi_t8_commentaire_Thesm/` | Enger 1, 18, 24, 29 |
-| C. A. Lobeck | notes à Phrynichus (1820) et *Aglaophamus* [lieux à vérifier] | — | Enger 4, 448, 449, 491, 760, 761 |
-| G. H. Schaefer | [source à identifier] | — | Enger 504, 624, 625 ; Velsen 624 ; apparat de l'auteur |
-| A. Seidler | copie de la collation de Bekker (Fritzsche 1838, p. VIII-IX) | — | Enger 29, 777 |
-| Ph. Buttmann | [source à identifier] | — | Enger 165 |
-| O. Schneider | *De veterum in Aristophanem scholiorum fontibus* (Stralsund, 1838) [à vérifier] ; « Emendationes Aristophaneae », *Jahrb. f. class. Philol.* 121 (1880), p. 155-164 (Prato 2001, p. LXXIV) | — | Enger 2, 21, 80, 101, 162, 427… ; Velsen 400 |
+| A. Wellauer | *De Thesmophoriis dissertatio*, Breslau, 1820, p. 51 (vv. 1, 18, 24) et p. 53 (colométrie des vv. 312 sqq.), d'après Enger ; extraits dans Invernizi t. VIII, p. 504 sqq. | `ED/1821_Leipzig_Invernizi_t8_commentaire_Thesm/` (extraits) ; dissertation non numérisée trouvée | Enger 1, 18, 24, 29 ; Velsen 24 |
+| C. A. Lobeck | *Phrynichi eclogae* (Leipzig, 1820), p. 336 (v. 449) et p. 650 (v. 448) ; notes à l'*Ajax* de Sophocle, ad v. 1154 (v. 4) et ad v. 1066 (v. 754, apparat de l'auteur) ; Μίκκα (v. 760) et athétèse du v. 761 (Velsen) ; *Aglaophamus* (1829) pour les vv. 491, 760-761 [lieux non contrôlés] | — | Enger 4, 448, 449, 491, 760, 761 ; Velsen 760, 761 ; auteur 754 |
+| G. H. Schaefer | notes à Gregorius Corinthius (*Gregorii Corinthii et aliorum grammaticorum libri de dialectis*, Leipzig, 1811), p. 65 (vv. 624-625, ὁσέτη : lieu cité par Enger, par Wilson et par l'auteur) ; notes aux *Ellipses Graecae* de L. Bos (Leipzig, 1808), p. 512 (v. 504, ὠκυτόκι', d'après Pollux II 7) [non contrôlés] | archive.org `gregoriicorinthi00greg` (non téléchargé) | Enger 504, 624, 625 ; Velsen 624 ; Wilson 624 ; apparat de l'auteur |
+| A. Seidler | copie de la collation de Bekker (Fritzsche 1838, p. VIII-IX) ; *De versibus dochmiacis tragicorum Graecorum*, Leipzig, 1811-1812, p. 81 (hiatus du v. 777) et colométrie du v. 1019 (Velsen) [non contrôlé] | archive.org `deversibusdochm00seidgoog` (non téléchargé) | Enger 29, 777 ; Velsen 1019 |
+| O. Schneider | *De veterum in Aristophanem scholiorum fontibus* (Stralsund, 1838), p. 4-5 (corrections de scholies citées par Enger) ; « Emendationes Aristophaneae », *Jahrb. f. class. Philol.* 121 (1880), p. 155-164 (Prato 2001, p. LXXIV) | — | Enger 2, 21, 80, 101, 162, 427… ; Velsen 400 |
 | G. M. Thomas | *Commentatio de Aristophanis Avibus*, Munich, 1844 (appendice de corrections aux *Thesm.* ; discuté par Hermann, *Opuscula* VIII, p. 249-252) | `ED/1877_Hermann_Opuscula_VIII/` (compte rendu) | — |
 | F. G. Schöne | « Zu Aristophanes », *RhM* N. F. 5 (1847), p. 627-628 (Prato 2001, p. LXXIV) | `ED/articles_jstor/41250936.pdf` | apparat de l'auteur |
 | F. Ritschl | « Zu Aristophanes. Thesmophor. 18 », *RhM* 17 (1862), p. 460-462 (signé « F. R. ») | `ED/articles_jstor/41249499.pdf` | v. 18 |
@@ -545,7 +611,6 @@ exemples, non relevés complets. Les éditions elles-mêmes sont décrites dans 
 | S. Medaglia | *Boll. Class.* n. s. 3 (1982), p. 154-164 ; 4 (1983), p. 137 (v. 242) ; s. 3, 17 (1996), p. 96-100 | — |
 | J. Moreau | « Note sur le vers 1174 des *Thesmophories* », *AC* 7 (1938), p. 227-231 | — |
 | D. Sansone | « Aristophanes, *Thesmophoriazusae* 148 », *CQ* n. s. 37 (1987), p. 224-227 | Drive (`thesmophories 148.pdf`) |
-| J. Seager | *CJ* (1910), p. 499-501 [revue et tome à vérifier] | — |
 | J. Taillardat | « πόσθαλίσκος et ποσθαλίσκος (Ar. *Thesm.* 291) », *RPh* 35 (1961), p. 249-250 ; *REG* 101 (1988), p. XVI-XIX (vv. 247, 289, 721-725) ; avec A. Blanc, « Aristophane, *Thesmophories*, v. 366 », *RPh* 60 (1986), p. 183-186 | Drive (actes de l'Association, *REG* 85, 1972 : vv. 123-127) |
 | O. Thomsen | « Some Notes on the *Thesmophoriazusae* 947-1000 », *C&M* 9 (1973), p. 27-46 ; « Drei Emendationen zu den Thesmophoriazusen des Aristophanes : 369, 1019, 1051 », *C&M* 39 (1988), p. 15-18 | — |
 | E. Viketos | « Aristophanes, *Thesmophoriazusae* 148-152 », *Hermes* 117 (1989), p. 359 | Drive (`Thesmophories 148-152 4476703.pdf`) |
@@ -556,3 +621,220 @@ exemples, non relevés complets. Les éditions elles-mêmes sont décrites dans 
 | A. Hartwig | « Feasting and Flattering the Crows : … *Thesmophoriazusae* 942 », *Mnemosyne* 62 (2009), p. 90-93 (hors Prato) | Drive (`thesmophories 942 …pdf`) |
 | J. Méndez Dosuna | « Menelaus' Thriving Shrub … *Thesmophoriazusae* 910 and *Lysistrata* 156 », *Philologus* 160 (2016) (hors Prato) | Drive (`thesm 910.pdf`) |
 | A. Giacomoni | « Rito e trasgressione erotica : Aristoph. *Thesm.* 466 ss. », *QUCC* n. s. 63 (1999), p. 91-95 (hors Prato) | Drive (`Thesmophories/thesm 466 sq giacomoni1999.pdf`) |
+
+## 6. Autres noms relevés dans les apparats (sources localisées ou non)
+
+Noms sans rubrique aux §§ 2-5, relevés dans l'apparat de l'auteur (`latex/…`, macro `\apparat`) et dans le
+répertoire critique, désormais dépouillé en entier pour Enger 1844, Velsen 1883 et Wilson 2007
+(`edition/donnees/repertoire_critique/`, 6 738 entrées ; décompte par critique :
+`.travail/recension_editions/R3/auteurs_repertoire.tsv`). Colonne « Source » : lieu indiqué par l'éditeur
+qui cite, ou retrouvé ; « contrôlé » = vu sur le document (page citée) ; « non contrôlé » = renvoi recopié,
+à vérifier avant toute citation ; « non localisé » = aucune indication de source.
+
+| Nom | Cité par (vers) | Source | État ; fichier |
+|---|---|---|---|
+| Anonymus Parisinus (début du XVIIᵉ s.) | auteur 58, 594, 1133 ; Wilson 58, 594 | notes marginales (encres rouge et noire) d'un exemplaire de l'édition de Leyde, Plantin–Raphelengius, 1600 (E10), BnF, Rés. Yb 739 : Austin 1987, p. 71 (ad v. 58), autres leçons p. 72 (v. 99), 73 (103), 80 (594), 84 (952), 86 (1133, 1198) ; Prato 2001, p. XLIV | contrôlé sur Austin 1987 (`.sources/drive/thesmophories/Austin_1987.txt`) ; exemplaire non numérisé |
+| Anonymus Romanus | auteur 719 (ἐνυβριεῖς) | aucune indication ; absent d'Austin 1987 et de Prato 2001 (extraits locaux) | non localisé |
+| Arnoldt, Richard | Velsen 597-602, 607, 613-614 (au coryphée, « Arnoldtio praeeunte ») | R. Arnoldt, *Die Chorpartien bei Aristophanes scenisch erläutert*, Leipzig, Teubner, 1873 : liste des passages des *Thesm.* dits par le coryphée p. 135-136 | OCR d'archive.org consulté (`diechorpartienbe00arno`, vues 150-151) ; non téléchargé |
+| Bach, N. | Enger 335 (allusion à Tyrtée) | *Jahrbücher für Philologie und Paedagogik* (Jahn) 1840, I, p. 38 | non contrôlé |
+| Barrett, W. S. | Wilson 234 (ponctuation après δοκεῖ) | aucune indication | non localisé |
+| Becker, W. A. | Enger 448 (exégèse, contre lui) | *Charikles*, Leipzig, 1840, I, p. 278 | non contrôlé |
+| Beer, Carl | Velsen 295 (ΙΕΡ. = ἱέρεια) ; auteur 669 (ἀνδράσιν ἔσται, « Beer ap. Hermann (1845) ») | C. Beer, *Ueber die Zahl der Schauspieler bei Aristophanes, nebst einem Anhange : Personenänderungen…*, Leipzig, Weidmann, 1844, appendice, section « Die Thesmophoriazusen » (p. 62-69 env.) ; Hermann, compte rendu d'Enger (*Opuscula* VIII, p. 288-308) | OCR d'archive.org consulté (`ueberdiezahlder00beergoog`, vues 77-85) ; pages exactes à relever |
+| Bernhardy, G. | Enger, scholie au v. 600 (κρυπτευταί) | aucune indication | non localisé |
+| Burmeister | Enger 799 (χοὔτως, « G. Hermanni et Burmeisteri emendatio », reçue par Fritzsche) | aucune indication (à chercher dans Fritzsche 1838, ad loc.) | non localisé |
+| Buttmann, Ph. | Enger 165 (ἠμπείχετο) | « Gr. grammat. » = *Ausführliche griechische Sprachlehre* (Berlin, 1819-1827 ; 2ᵉ éd. 1830-1839), lieu non précisé | non contrôlé |
+| Dover, K. J. | Wilson 140 (κατρόπτου, cf. les inscriptions) | aucune indication ; Dover a communiqué des remarques à Austin (Austin 1987, p. 61) | non localisé |
+| Droysen, J. G. | Enger 12, 62, 328-329 | traduction, *Des Aristophanes Werke* III, Berlin, 1838 (`bibliographie_editions.md` § 5.4) | BSB `bsb10232563`, non téléchargé |
+| Dübner, Fr. | Enger, scholies aux vv. 168, 747 | *Scholia Graeca in Aristophanem*, Paris, 1842, *adnotatio* | `ED/1842_Paris_Dubner_scholia/`, *adnotatio* PDF 636-641 |
+| Gaisford, Th. | Enger 530 (colométrie) | *Hephaestionis Alexandrini Enchiridion*, Oxford, 1810, p. 262 | non contrôlé (archive.org `hphaistinosegch00hephgoog`) |
+| Halbertsma, Tjalling | Wilson 314 (χαρέντας ἐπιφανῆναι) | aucune indication ; ses *Adversaria critica* (éd. H. van Herwerden, Leyde, Brill, 1896) traitent des *Thesm.* 607, 637, 936, 941 (archive.org `tjallingihalber00halbgoog`, vues 104-113), mais l'OCR n'y montre pas le v. 314 | non localisé |
+| Handley, E. W. | Wilson 657 (ἐπελήλυθε) | proposition communiquée à Austin : Austin 1987, p. 81 | contrôlé (Austin 1987) |
+| Helwig | Velsen 305 (καὶ τὴν ὁρῶσαν) | aucune indication | non localisé |
+| Hiller, E. | Velsen 1, Wilson 1 (désignation ΚΗΔΕΣΤΗΣ) | « Über einige Personenbezeichnungen griechischer Dramen », *Hermes* 8 (1874), p. 442-456 (bibliographie de Prato 2001) | non contrôlé |
+| Hunt, A. S. | Wilson 373 (Ἀρ[χίκλ]ει', P50) | *The Oxyrhynchus Papyri* IX, Londres, 1912, n° 1176 (Satyros, *Vie d'Euripide*) ; voir `recherche/papyrus.md` | — |
+| Kappeyne van de Coppello, J. | auteur et Wilson 412 (ἐθέλει) | « *Obs. crit.* I.2 » (apparat de l'auteur) : ouvrage non identifié ; Velsen attribue la même correction à Bachmann (« v. 412 ἐθέλει Bachmannus ») ; Kappeyne a donné des « Kritische aanteekeningen » à *Mnemosyne* 2 (1853) et 3 (1854) (archive.org `jstor-4423860`, `jstor-4423890`), contenu non vérifié | non localisé |
+| Kaye, J. | Enger, Velsen, auteur 797 (τὸ κακὸν ζητεῖτε θεᾶσθαι) | rapportée par Dobree : « Lege cum J. Kaye τὸ κακὸν ζητεῖτε θεᾶσθαι » (numérotation ancienne 804), *Adversaria* II, éd. Scholefield, 1833, p. 241, et éd. Wagner, 1874, p. 243 | contrôlé : `ED/1843_Dobree_Adversaria_t2/…`, PDF 252 ; `ED/1874_Dobree_Adversaria_Wagner/…`, PDF 405 |
+| Klotz, R. | Enger 225, 536 (exégèse) | *Matthaei Devarii liber de Graecae linguae particulis*, éd. R. Klotz, Leipzig, 1835-1842, t. II, p. 522 (v. 536) | non contrôlé |
+| Kühner–Blass | auteur 426 (οἱκότριψ) | R. Kühner, *Ausführliche Grammatik der griechischen Sprache* I, 3ᵉ éd. par F. Blass, Hanovre, 1890-1892, lieu non précisé | non contrôlé |
+| Matthiae, A. | Enger, scholies aux vv. 21, 519 | aucune indication | non localisé |
+| Müller, K. O. | Enger 808 (note historique) | aucune indication | non localisé |
+| Naber, S. A. | Velsen 935 (allusion à ἱστοριορράφος) ; auteur 1009 (εἴς ἔτ', « Naber (Faber ?) ») | aucune indication ; l'auteur hésite lui-même entre Naber et Faber | non localisé |
+| Naeke, A. F. | Enger 633 (interprétation) | *Rheinisches Museum* [ancienne série] 1, p. 499 | non contrôlé |
+| Nauck, A. | auteur et Wilson 80 (ἐπείπερ ἐστὶ) | *Mélanges gréco-romains tirés du Bulletin de l'Académie impériale des sciences de Saint-Pétersbourg* II (1866), p. 468-471 (apparat de l'auteur) | non contrôlé |
+| Nietzsche, F. | auteur et Wilson 127 (ὑμετέρας) | travail de séminaire de 1866, publié dans *Werke und Briefe. Historisch-kritische Gesamtausgabe, Werke* IV (éd. H. J. Mette et K. Schlechta, Munich, 1937), p. 32-35 : Austin 1987, p. 74 ; Coulon, *REG* 50 (1937), p. 455-456 | contrôlé sur Austin 1987 et sur Coulon (`.sources/drive/fichiers/Grec/Aristophane/Coulon notes criti et ex chant agathon Nietsche.pdf`) |
+| Passow, F. | Enger 204 (ἐρείδειν) | aucune indication | non localisé |
+| Preller, L. | Enger, scholie au v. 80 (κατὰ Καλλίμαχον) | aucune indication | non localisé |
+| Ritschl, F. | Velsen 106 (μάκαρας) | aucune indication (pour le v. 18, voir § 4, tableau : *RhM* 17, 1862) | non localisé |
+| Sandbach, F. H. | Wilson 87 (εἰς ταύτας) | propositions communiquées à Austin : Austin 1987, p. 72 (v. 87) et p. 83 (v. 797, ζητεῖ τὸ κακόν γε θεᾶσθαι) | contrôlé (Austin 1987) |
+| Schömann, G. F. | Enger 341, 432 | *De comitiis Atheniensium libri tres*, Greifswald, 1819, p. 118 (v. 432) | non contrôlé (archive.org `decomitiisatheni00sch`) |
+| Seager, John | Enger 621 | *Classical Journal* [Londres] 3 (1811), p. 501 (« classical Journal III. p. 501 ») ; la bibliographie de Prato 2001 (« J. Seager, CJ III 1910, pp. 499-501 ») confond ce tome avec le *Classical Journal* américain | non contrôlé (les numérisations du t. 3 consultées sur archive.org ne donnent rien par recherche plein texte) |
+| Seager, R. J. | Wilson 33 (ponctuation) | aucune indication | non localisé |
+| Starkie, W. J. M. | Wilson 273 (συν-, jeu sur συοικίαν) | aucune indication (Starkie a commenté *Guêpes* 1897, *Acharniens* 1909, *Nuées* 1911) | non localisé |
+| Stephanus, H. (Estienne) | Enger 393, 420 | *Thesaurus Graecae linguae*, éd. de Londres (Valpy), p. 6643 (v. 393) | non contrôlé |
+| Sykutris, J. | Wilson 99 (δή) | aucune indication ; Sykutris suivait le séminaire de Wilamowitz dont les notes sont consignées dans l'exemplaire de van Leeuwen 1904 ayant appartenu à P. Maas (Austin 1987, p. 68) | non localisé |
+| Wex, F. C. | Enger 47 | *Sophoclis Antigona*, Leipzig, 1829-1831, t. II, p. 133 | non contrôlé |
+| « vir doctus » de la Zeitschrift für die Alterthumswissenschaft | Enger 413 (ἐχθρόν dans le vers cité par Clément) | « in Zimmermanni Diar. philolog. a. 1835 » = *ZfAW* 2 (1835), colonne non indiquée | non localisé |
+| « editor ignotus » | Enger 612 (ἀναμενῶ, reçu par Küster) | une édition antérieure à 1710 | non localisé |
+| « Batava minor » | Enger 625 (οἴμοι τάλας continué à Mnésiloque), 651 (εἰσεκύλισα) | petite édition de Leyde : pas celle de 1600, qui donne οἴμοι τάλας à Clisthène (p. 545, `ED/1600_Leyde_Raphelengius/…`, PDF 595, contrôlé) ; vraisemblablement celle de J. Maire, 1624, in-12 (E12) | à vérifier sur la copie du Drive (1624) |
+| « ed. Lipsiensis (1814) » | auteur 1201 (Ἀρταμουξία) | édition stéréotype anonyme de Leipzig, Tauchnitz, t. III (*Ach.*, *Guêpes*, *Thesm.*, *Assemblée*), 1814 (E19), p. 237 : « μεμνῆσι τοίνυν τοὔνομ᾽· Ἀρταμουξία » ; Velsen attribue la correction à Dindorf ; l'édition Teubner de 1825 (E20) imprime au contraire Ἀρτομουξία au v. 1201 (p. 143, PDF 150) | contrôlé : `ED/1814_Leipzig_Tauchnitz_t3/bsb10232505_extraits_Thesm.pdf`, PDF 79 |
+| « Teubner » | auteur 632 (τί δ' ἦν τρίτον) | édition anonyme de Leipzig, Teubner, 1825 (E20), p. 116 (`ED/1825_Leipzig_Teubner_Dindorf_t2/…`, PDF 123, contrôlé) : c'est le « τί δ' ἦν olim Dindorfius » d'Enger, qui confirme l'attribution de cette édition à W. Dindorf | contrôlé |
+
+## 7. Index alphabétique des critiques
+
+Renvoi à la section où figure la rubrique ou la ligne de tableau (index régénéré par `.travail/recension_editions/R3/scripts/index_conjectures.py`).
+
+- Allen, J. T. : § 5
+- Anonymus Parisinus : § 6
+- Anonymus Romanus : § 6
+- Arnoldt, Richard : § 6
+- Austin, Colin : § 5
+- Bach, N. : § 6
+- Bachmann, O. : § 4
+- Bamberg, M. : § 4
+- Barrett, W. S. : § 6
+- « Batava minor » : § 6
+- Becker, W. A. : § 6
+- Beer, Carl : § 6
+- Bekker, Immanuel : § 4
+- Bentley, Richard : § 3
+- Bergk, Theodor : § 4
+- Bergler, Stephan : § 3
+- Bernhardy, G. : § 6
+- Biset, Odet : § 2
+- Blaydes, Frederick Henry Marvell : § 4
+- Boninus, Euphrosynus (Bonini) : § 2
+- Bothe, Friedrich Heinrich : § 4
+- Bourdin, Gilles : § 2
+- Box, H. : § 5
+- Brambach, W. : § 4
+- Brunck, R. F. Ph. : § 3
+- Burges, George : § 4
+- Burmeister : § 6
+- Buttmann, Ph. : § 6
+- Campbell, A. Y. : § 5
+- Caninius, Angelus : § 2
+- Casaubon, Isaac : § 2
+- Cobet, Carel Gabriel : § 4
+- Cockle, W. E. H. : § 5
+- Coulon, Victor : § 5
+- Cowan, R. : § 5
+- D'Orville, J. Ph. : § 3
+- Daubuz, Charles : § 3
+- Dawes, Richard : § 3
+- Degani, E. : § 5
+- Dindorf, Wilhelm : § 4
+- Divus, Andreas : § 2
+- Dobree, Peter Paul : § 4
+- Dover, K. J. : § 6
+- Droysen, J. G. : § 6
+- Dübner, Fr. : § 6
+- « ed. Lipsiensis » : § 6
+- « editor ignotus » : § 6
+- Ellebodius, Nicasius : § 2
+- Elmsley, Peter : § 4
+- Enger, Robert : § 4
+- Fraenkel, Eduard : § 5
+- Fritzsche, Franz Volkmar : § 4
+- Gaisford, Th. : § 6
+- Gelenius, Sigismundus : § 2
+- Giacomoni, A. : § 5
+- Gordziejew, W. : § 5
+- Grassi, E. : § 5
+- Grégoire, H. : § 5
+- Grynaeus : § 2
+- Halbertsma, Tjalling : § 6
+- Hamaker, Hendrik Gerard : § 4
+- Handley, E. W. : § 6
+- Hanow, Karl Friedrich : § 4
+- Hartwig, A. : § 5
+- Helwig : § 6
+- Hermann, Gottfried : § 4
+- Herwerden, Henricus van : § 4
+- Hiller, E. : § 6
+- Hirschig, Gottfried Adam : § 4
+- Hose, M. : § 5
+- Hunt, A. S. : § 6
+- Invernizi, Filippo : § 4
+- Jackson, J. : § 5
+- Kaibel, Georg : § 4
+- Kamerbeek, J. C. : § 5
+- Kappeyne van de Coppello, J. : § 6
+- Kaye, J. : § 6
+- Klotz, R. : § 6
+- Koen, G. : § 3
+- Koppiers, J. D. : § 3
+- Koster, W. J. W. : § 5
+- Kühner–Blass : § 6
+- Küster, Ludolph : § 3
+- Lange, G. : § 4
+- Le Fèvre, Tanneguy (Faber) : § 2
+- Le Paulmier de Grentemesnil, Jacques : § 2
+- Leeuwen, Jan van : § 5
+- Lenting, Jacob : § 4
+- Lobeck, C. A. : § 4
+- Maas, Paul : § 5
+- Manfredi, M. : § 5
+- Markland, J. : § 3
+- Marzullo, B. : § 5
+- Matthiae, A. : § 6
+- Medaglia, S. : § 5
+- Meineke, August : § 4
+- Méndez Dosuna, J. : § 5
+- Moreau, J. : § 5
+- Müller, K. O. : § 6
+- Musgrave, S. : § 3
+- Naber, S. A. : § 6
+- Naeke, A. F. : § 6
+- Nauck, A. : § 6
+- Nietzsche, F. : § 6
+- Passow, F. : § 6
+- Petri, F. : § 4
+- Pierson, J. : § 3
+- Porson, Richard : § 4
+- Portus, Aemilius : § 2
+- Prato, Carlo : § 5
+- Preller, L. : § 6
+- Reisig, Karl : § 4
+- Reiske, Johann Jacob : § 3
+- Richards, H. : § 5
+- Ritschl, F. : § 4, § 6
+- Roscher, W. : § 4
+- Ruhnken, D. : § 3
+- Rutherford, W. G. : § 5
+- Sandbach, F. H. : § 6
+- Sansone, D. : § 5
+- Scaliger, Joseph Juste : § 2
+- Schaefer, G. H. : § 4
+- Schneider, O. : § 4
+- Schömann, G. F. : § 6
+- Schöne, F. G. : § 4
+- Seager, John : § 6
+- Seager, R. J. : § 6
+- Seidler, A. : § 4
+- Sommerstein, Alan H. : § 5
+- Starkie, W. J. M. : § 6
+- Stephanus, H. : § 6
+- Sykutris, J. : § 6
+- Taillardat, J. : § 5
+- Taylor, J. : § 3
+- « Teubner » : § 6
+- Thiersch, Bernhard : § 4
+- Thomas, G. M. : § 4
+- Thomsen, O. : § 5
+- Toup, Jonathan : § 3
+- Tyrwhitt, Thomas : § 3
+- Valckenaer, L. C. : § 3
+- Valesius, H. : § 3
+- Velsen, Adolf von : § 4
+- Viketos, E. : § 5
+- « vir doctus » de la Zeitschrift für die Alterthumswissenschaft : § 6
+- Voss, Johann Heinrich : § 4
+- Wecklein, N. : § 4
+- Wellauer, A. : § 4
+- Wex, F. C. : § 6
+- Wilamowitz-Moellendorff, Ulrich von : § 5
+- Willems, Alphonse : § 5
+- Wilson, Nigel G. : § 5
+- Wycherley, R. E. : § 5
+- Zanetti, Bartolomeo : § 2
+- Zuretti, C. O. : § 4
