@@ -1,0 +1,58 @@
+[
+  {"v": 1, "type": "rubrique", "gr": "ΠΡΟΛΟΓΟΣ", "fr": "Prologue", "v_usuel": 1, "incipit": "ὦ Ζεῦ χελιδὼν"},
+  {"v": 1, "type": "scene", "gr": "", "fr": "Euripide et Mnésiloque devant la maison d'Agathon", "v_usuel": 1, "incipit": "ὦ Ζεῦ χελιδὼν"},
+  {"v": 39, "type": "scene", "gr": "", "fr": "Le serviteur d'Agathon", "v_usuel": 39, "incipit": "εὔφημος πᾶς ἔστω"},
+  {"v": 71, "type": "scene", "gr": "", "fr": "Le dessein d'Euripide ; Agathon paraît", "v_usuel": 71, "incipit": "ὦ Ζεῦ τί δρᾶσαι"},
+  {"v": 101, "type": "scene", "gr": "", "fr": "Le chant d'Agathon", "v_usuel": 101, "incipit": "ἱερὰν Χθονίαιν"},
+  {"v": 130, "type": "scene", "gr": "", "fr": "Mnésiloque raille Agathon ; le poète et ses personnages", "v_usuel": 130, "incipit": "ὡς ἡδὺ τὸ μέλος"},
+  {"v": 176, "type": "scene", "gr": "", "fr": "Euripide supplie Agathon, qui refuse", "v_usuel": 176, "incipit": "ἀλλ᾽ ὧνπερ οὕνεκ᾽"},
+  {"v": 209, "type": "scene", "gr": "", "fr": "Mnésiloque se dévoue : rasé, flambé, travesti", "v_usuel": 209, "incipit": "ὦ τρισκακοδαίμον"},
+  {"v": 279, "partie": "b", "type": "scene", "gr": "", "fr": "Mnésiloque au Thesmophorion", "v_usuel": 279, "incipit": "δεῦρό νυν ὦ Θρᾷτθ᾽"},
+
+  {"v": 295, "type": "rubrique", "gr": "ΠΑΡΟΔΟΣ", "fr": "Parodos", "v_usuel": 295, "incipit": "εὐφημία ἔστω"},
+  {"v": 295, "type": "scene", "gr": "", "fr": "Prière d'ouverture, en prose", "v_usuel": 295, "incipit": "εὐφημία ἔστω"},
+  {"v": 312, "type": "scene", "gr": "", "fr": "Chant du chœur : invocation des dieux", "v_usuel": 312, "incipit": "δεχόμεθα καὶ θεῶν"},
+  {"v": 331, "type": "scene", "gr": "", "fr": "Invitation à la prière ; les imprécations", "v_usuel": 331, "incipit": "εὔχεσθε τοῖς θεοῖσι"},
+  {"v": 352, "type": "scene", "gr": "", "fr": "Chant du chœur : vœux et malédictions", "v_usuel": 352, "incipit": "ξυνευχόμεσθα"},
+
+  {"v": 373, "type": "rubrique", "gr": "ΕΠΕΙΣΟΔΙΟΝ Α´", "fr": "Premier épisode", "v_usuel": 372, "incipit": "ἄκουε πᾶσ᾽"},
+  {"v": 373, "type": "scene", "gr": "", "fr": "L'assemblée des femmes : le décret du Conseil", "v_usuel": 372, "incipit": "ἄκουε πᾶσ᾽"},
+  {"v": 383, "type": "scene", "gr": "", "fr": "Premier discours : Mika", "v_usuel": 383, "incipit": "φιλοτιμίᾳ μὲν"},
+  {"v": 443, "type": "scene", "gr": "", "fr": "Deuxième discours : la marchande de couronnes", "v_usuel": 443, "incipit": "ὀλίγων ἕνεκα"},
+  {"v": 466, "type": "scene", "gr": "", "fr": "Troisième discours : Mnésiloque", "v_usuel": 466, "incipit": "τὸ μὲν ὦ γυναῖκες"},
+  {"v": 531, "type": "scene", "gr": "", "fr": "La querelle : Mika contre Mnésiloque", "v_usuel": 531, "incipit": "ἀλλ᾽ οὐ γάρ ἐστι"},
+  {"v": 574, "type": "scene", "gr": "", "fr": "Clisthène ; Mnésiloque démasqué", "v_usuel": 574, "incipit": "φίλαι γυναῖκες"},
+
+  {"v": 655, "type": "rubrique", "gr": "ΧΟΡΙΚΟΝ", "fr": "Chant choral", "v_usuel": 655, "incipit": "ἡμᾶς τοίνυν μετὰ"},
+  {"v": 655, "type": "scene", "gr": "", "fr": "La battue : le chœur cherche un autre intrus", "v_usuel": 655, "incipit": "ἡμᾶς τοίνυν μετὰ"},
+
+  {"v": 688, "type": "rubrique", "gr": "ΕΠΕΙΣΟΔΙΟΝ Β´", "fr": "Deuxième épisode", "v_usuel": 689, "incipit": "ἆ ἆ"},
+  {"v": 688, "type": "scene", "gr": "", "fr": "Parodie du Télèphe : l'enfant en otage", "v_usuel": 689, "incipit": "ἆ ἆ"},
+  {"v": 765, "type": "scene", "gr": "", "fr": "Parodie du Palamède : les tablettes", "v_usuel": 765, "incipit": "ἄγε δὴ τίς ἔσται"},
+
+  {"v": 785, "type": "rubrique", "gr": "ΠΑΡΑΒΑΣΙΣ", "fr": "Parabase", "v_usuel": 785, "incipit": "ἡμεῖς τοίνυν ἡμᾶς"},
+  {"v": 814, "type": "scene", "gr": "ΠΝΙΓΟΣ", "fr": "Pnigos", "v_usuel": 814, "incipit": "ἀλλ᾽ ἡμεῖς ἂν πολλοὺς"},
+  {"v": 830, "type": "scene", "gr": "ΕΠΙΡΡΗΜΑ", "fr": "Épirrhème", "v_usuel": 830, "incipit": "πόλλ᾽ ἂν αἱ γυναῖκες"},
+
+  {"v": 846, "type": "rubrique", "gr": "ΕΠΕΙΣΟΔΙΟΝ Γ´", "fr": "Troisième épisode", "v_usuel": 846, "incipit": "ἰλλὸς γεγένημαι"},
+  {"v": 846, "type": "scene", "gr": "", "fr": "Parodie de l'Hélène", "v_usuel": 846, "incipit": "ἰλλὸς γεγένημαι"},
+  {"v": 929, "type": "scene", "gr": "", "fr": "Le prytane et l'archer scythe", "v_usuel": 929, "incipit": "ὅδ᾽ ἔσθ᾽ ὁ πανοῦργος"},
+
+  {"v": 947, "type": "rubrique", "gr": "ΣΤΑΣΙΜΟΝ Α´", "fr": "Premier stasimon", "v_usuel": 947, "incipit": "ἄγε νυν ἡμεῖς"},
+  {"v": 947, "type": "scene", "gr": "", "fr": "Danse et hymne du chœur", "v_usuel": 947, "incipit": "ἄγε νυν ἡμεῖς"},
+
+  {"v": 1001, "type": "rubrique", "gr": "ΕΠΕΙΣΟΔΙΟΝ Δ´", "fr": "Quatrième épisode", "v_usuel": 1001, "incipit": "ἐνταῦτα νῦν οἰμῶξι"},
+  {"v": 1001, "type": "scene", "gr": "", "fr": "Mnésiloque attaché à l'ais", "v_usuel": 1001, "incipit": "ἐνταῦτα νῦν οἰμῶξι"},
+  {"v": 1016, "type": "scene", "gr": "", "fr": "Parodie de l'Andromède : la monodie", "v_usuel": 1015, "incipit": "φίλαι παρθένοι"},
+  {"v": 1056, "type": "scene", "gr": "", "fr": "Euripide en Écho", "v_usuel": 1056, "incipit": "χαῖρ᾽ ὦ φίλη παῖ"},
+  {"v": 1098, "type": "scene", "gr": "", "fr": "Euripide en Persée", "v_usuel": 1098, "incipit": "ὦ θεοὶ τίν᾽ εἰς γῆν"},
+
+  {"v": 1136, "type": "rubrique", "gr": "ΣΤΑΣΙΜΟΝ Β´", "fr": "Second stasimon", "v_usuel": 1136, "incipit": "Παλλάδα τὴν φιλόχορον"},
+  {"v": 1136, "type": "scene", "gr": "", "fr": "Hymne à Pallas et aux Thesmophores", "v_usuel": 1136, "incipit": "Παλλάδα τὴν φιλόχορον"},
+
+  {"v": 1160, "type": "rubrique", "gr": "ΕΞΟΔΟΣ", "fr": "Exodos", "v_usuel": 1160, "incipit": "γυναῖκες εἰ βούλεσθε"},
+  {"v": 1160, "type": "scene", "gr": "", "fr": "Euripide fait la paix avec les femmes", "v_usuel": 1160, "incipit": "γυναῖκες εἰ βούλεσθε"},
+  {"v": 1172, "type": "scene", "gr": "", "fr": "La danseuse et l'archer ; Mnésiloque délivré", "v_usuel": 1172, "incipit": "ἐμὸν ἔργον ἐστίν"},
+  {"v": 1210, "type": "scene", "gr": "", "fr": "L'archer égaré par le chœur", "v_usuel": 1210, "incipit": "ὦ γρᾴδι᾽ ὠς καρίεντό"},
+  {"v": 1227, "type": "scene", "gr": "", "fr": "Sortie du chœur", "v_usuel": 1227, "incipit": "ἀλλὰ πέπαισται"}
+]
