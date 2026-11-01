@@ -1,6 +1,6 @@
 # Chapitre 2 — L'écriture du copiste : alphabet, ligatures, abréviations du texte
 
-> **État** : rédigé le 28 oct. 2026 à partir des 30 inventaires de page et de vérifications sur les images. Les points restés ouverts sont réunis au § 10.
+> **État** : rédigé le 28 oct. 2026 à partir des 30 inventaires de page et de vérifications sur les images. Les points restés ouverts sont réunis au § 10. Le même jour, une relecture critique a contrôlé sur les images vingt-deux affirmations du chapitre et corrigé le texte là où elles ne tenaient pas, ou devaient être nuancées (§ 12).
 >
 > **Sources** :
 > - les 30 inventaires de page (`ravennas/graphologie/folios/fXXX.md` et `fXXX.jsonl`, 2 203 observations, dont 157 « formes » et 519 « pièges ») et leurs relevés détaillés de lignes (`fXXX_texte.jsonl`) ;
@@ -27,6 +27,7 @@
 9. Corrections apportées aux inventaires de page
 10. Questions ouvertes
 11. Planches et spécimens
+12. Vérification
 
 ---
 
@@ -53,7 +54,14 @@ Limites :
 ### 2.1 Une seule main, homogène sur les 30 pages
 
 Les 30 inventaires attribuent tout le texte, la ponctuation, les esprits, les accents, les paragraphoi et les dicola à une seule main. Aucun ne relève de changement de copiste, de plume ou d'encre dans la pièce.
-- **Encre.** Partout brun moyen. Les mesures des inventaires varient avec la méthode et la page : rapports RVB G/R ≈ 1,2–1,4 et B/R ≈ 1,8–2,4 ; ou bien absorbances relatives A_G/A_R 1,24–1,38 et A_B/A_R 1,91–2,32 (f. 174r, f. 174v). Ces valeurs sont stables à l'intérieur de chaque page. Elles recouvrent celles de S2 : l'encre ne sépare donc jamais T de S2, et seule l'écriture les distingue (inv. f. 162v à f. 177r, section « Mains »). Elle sépare en revanche toujours T de la main de 1516, orangée.
+- **Encre.** Partout brun moyen. Les inventaires donnent des rapports d'absorbance relatifs au fond local, G/R ≈ 1,2–1,4 et B/R ≈ 1,8–2,4, ou, selon une autre méthode, A_G/A_R 1,24–1,38 et A_B/A_R 1,91–2,32 (f. 174r, f. 174v). Ce ne sont pas des rapports de valeurs RVB : en RVB, l'encre brune donne G/R ≈ 0,85 et B/R ≈ 0,5. Les valeurs de T sont stables à l'intérieur de chaque page.
+  - **T et S2.** L'encre ne les sépare pas toujours : nettement sur certaines pages, pas du tout sur d'autres. J'ai mesuré, à contraste égal, quatre lignes de T et trois à cinq blocs de scholies par page (§ 12, n° 8) :
+    - au f. 168r, les plages sont disjointes : T A_G/A_R 1,29–1,33 et A_B/A_R 2,11–2,20 ; S2 1,35–1,43 et 2,34–2,71, avec une saturation plus forte ; l'inv. f. 168r le notait déjà ;
+    - au f. 170r, elles se chevauchent en partie ;
+    - au f. 165v, elles se recouvrent.
+
+    Sur beaucoup de pages, la forme reste donc le seul critère (inv. f. 162v à f. 177r, section « Mains »). Les scholies étant en marge, une part de l'écart peut aussi tenir au parchemin.
+  - **T et la main de 1516.** L'encre les sépare toujours : celle de 1516 est orangée.
 - **Accidents d'encre.** Ils sont locaux et ne trahissent pas une autre main. Une plume fraîchement rechargée donne un tracé plus dense (πρ et Η de προΐῃ, f. 163r l. 33, v. 69). Une plume épuisée donne un tracé gris et fin, puis T reprend de l'encre ([D_ink] : οὖν δρ|αχμήν, f. 176v l. 28, v. 1195, vérifié).
 - **Littérature.** Elle est unanime : une seule main pour les onze pièces (Zacher 1888, 535 ; Allen 1896, 311 ; van Leeuwen 1908, 270 ; Orsini 2011, 325). Les changements d'encre et de plume signalés par Zacher et Martin (ff. 33–34, 116–117, 143r) précèdent tous les *Thesmophories*. Les mesures des inventaires montrent qu'il n'y en a pas d'autre dans les ff. 162v–177r.
 
@@ -71,19 +79,20 @@ Les 30 inventaires attribuent tout le texte, la ponctuation, les esprits, les ac
 - Orsini 2011, 325 : « minuscola informale con una certa pretesa alla formalità », de module carré et de stylisation arrondie, au ductus tantôt posé, tantôt cursif. Ces deux descriptions s'accordent avec ce que je vois.
 - Orsini ajoute trois détails :
   - Le second τ de ττ a la forme d'un γ : c'est constant dans la pièce (§ 5.4).
-  - ρ et φ se lient peu à la voyelle suivante : je le vérifie. Exceptions : υρ lié dans κυρκανᾶισ (f. 172v l. 18).
+  - ρ et φ se lient peu à la voyelle suivante : je le vérifie, sans exception relevée. Dans κυρκανᾶισ (f. 172v l. 18), le bras de l'υ entre dans la panse du ρ, mais le ρ reste séparé du κ qui suit : la liaison va vers le ρ, non à partir de lui, et ne contredit donc pas la remarque.
   - α et ε sont simplement accolés à ζ et à ξ, sans ligature : c'est à nuancer. Dans δεξιάν (f. 165r l. 13, v. 221, [x_3]) et ἔξεστ' (f. 166r l. 1), la barre de tête du ξ part de la langue de l'ε. Sur l'image, c'est une liaison graphique, même si la forme du ξ n'est pas altérée.
 
 ### 2.3 Module
 
 Je l'ai mesuré sur toutes les lignes de texte des 30 pages. Le profil horizontal du masque d'encre donne deux valeurs (fichier `mesures_ecriture.json`) :
 - **Corps des lettres** (bande où la densité dépasse la moitié du maximum) : médiane par page de 14 à 16 px, soit **1,6–1,9 mm**, sur 27 pages. Trois pages donnent des valeurs aberrantes : f. 165v (35 px), f. 166v (20 px) et f. 167r (17 px). Ce sont des artefacts des boîtes de ligne de la segmentation, qui y englobent des morceaux de deux lignes ; je ne les retiens pas.
+  - Une remesure indépendante (profil redressé selon la pente de chaque ligne, 8 lignes sur chacune des pages f. 163r, 170r, 173v et 176v) donne des médianes de 13 à 15 px. D'une ligne à l'autre, la valeur va de 11 à 28 px, à cause des accents et des hampes. Le chiffre dépend donc de la méthode à 1 px près : **≈ 13–16 px, soit 1,5–1,9 mm**.
 - **Hauteur totale des lettres rondes**, traits compris (seuil au quart du maximum) : médiane par page de 18 à 24 px, soit **2,1–2,8 mm**. Les « 18–20 px (2,3–2,5 mm) » de l'inv. f. 162v et les « 15–20 px » de l'inv. f. 166v correspondent à cette mesure.
 - **Valeurs locales des inventaires** pour le ο : ≈ 13 px (f. 167v l. 2) et 15–18 px (f. 164r).
-- **Interligne** (pas de la segmentation) : 41,9–43,8 px, soit **4,9–5,1 mm**, pour 43 lignes par page.
+- **Interligne** (pas de la segmentation) : 41,9–43,8 px, soit **4,9–5,1 mm**, pour 43 lignes par page. Le compte de 43 lignes vient des inventaires : la segmentation automatique n'en trouve que 42 aux ff. 168r et 171r, où elle manque une ligne.
   - Le f. 162v compte 42 lignes, dont le titre.
   - Le f. 175v compte 43 lignes, plus les vv. 1102–1103 ajoutés en marge inférieure.
-  - Le f. 177r est la fin de la pièce.
+  - Le f. 177r est la fin de la pièce : 23 lignes pour les vv. 1211–1231, puis le titre de l'*Assemblée*.
 
 Le corps des lettres vaut donc à peu près le tiers de l'interligne.
 
@@ -103,9 +112,16 @@ Le module est **constant** d'une page à l'autre. Il ne varie qu'à l'intérieur
 
 ### 2.5 Inclinaison
 
-**Ce que je vois.** Le corps des lettres est droit. Les hampes de φ, ρ, ι long et κ penchent légèrement vers la droite : je l'estime à l'œil à 5–15° sur les spécimens [f_1], [f_3], [i_j1], [i_j2], [r_q], [k_lc]. Les jambages plongeants du ν et du μ et la diagonale du λ sont des obliques de construction, non une pente de l'écriture.
+**Ce que je vois.** Le corps des lettres est droit. Les hampes de φ, ρ, ι long et κ penchent vers la droite. Les jambages plongeants du ν et du μ et la diagonale du λ sont des obliques de construction, non une pente de l'écriture.
 
-**Limite de la mesure.** J'ai tenté une mesure automatique : axes des composantes allongées au-dessus et au-dessous du corps des lettres. Elle n'est pas utilisable. Elle est dominée par les accents aigus, inclinés à 30–45°, et par les obliques de construction des lettres. Je ne donne donc pas de chiffre.
+**Mesures ponctuelles.** J'ai pointé à la main, sur agrandissements gradués, quelques traits isolés. Quand le trait était bien isolé, j'ai contrôlé par l'axe principal de ses pixels d'encre :
+- ι long : ἱκέτης ≈ 5°, ἴβυκος ≈ 13° ([i_j1], [i_j2]) ;
+- φ : φορμὸν ≈ 10° ([f_3]) ;
+- queues de ρ : σπάρτην ≈ 17–18° ([r_q]), π̅η̅ρ (f. 172v l. 27) ≈ 20°, στρατιᾶσ (f. 176v l. 1) ≈ 20°.
+
+La pente va donc d'environ 5° à 20°, et les queues de ρ sont les plus penchées. Sur des traits de 10 à 20 px, l'incertitude est de 5 à 10°.
+
+**Limite de la mesure automatique.** J'ai tenté une mesure automatique : axes des composantes allongées au-dessus et au-dessous du corps des lettres. Elle n'est pas utilisable. Elle est dominée par les accents aigus, inclinés à 30–45°, et par les obliques de construction des lettres.
 
 ### 2.6 Rapport à la réglure
 
@@ -125,7 +141,7 @@ Ces deux indices s'accordent avec une écriture suspendue sous la réglure. Je n
 
 **Ce que mes observations permettent d'en dire.**
 1. **Esprits.** T emploie à la fois des esprits anguleux (petits triangles pleins, f. 162v l. 2, [D_spir1] pour un esprit en point) et des esprits ronds ou ponctiformes (f. 167r, f. 172v, f. 173r). L'« esprit anguleux » n'est donc pas un trait exclusif de la main.
-2. **Formes onciales.** Η et Ν sont très fréquents, Γ, Є, C, Ο et Π occasionnels. Je n'ai trouvé **aucun Κ oncial de T** (§ 4.1). Le Λ ne se distingue pas : le λ minuscule de T a déjà la forme du lambda majuscule. La liste de Martin ne se vérifie donc qu'en partie dans les *Thesmophories*.
+2. **Formes onciales.** Η et Ν sont très fréquents, Γ, Є, C, Ο et Π occasionnels. Je n'ai trouvé **aucun Κ oncial dans le texte de T** (§ 4.1) ; T ne l'emploie que dans le titre de l'*Assemblée*. Le Λ ne se distingue pas : le λ minuscule de T a déjà la forme du lambda majuscule. La liste de Martin ne se vérifie donc qu'en partie dans les *Thesmophories*.
 3. **Usage des formes onciales.** Elles sont réglées par la position (initiales, finales, fin de ligne, initiales de réplique) plus que par le hasard.
 4. **Conclusion.** Rien de ce que j'observe ne contredit la datation au milieu du Xe siècle. Je ne peux pas la confirmer par moi-même sans comparer les images des manuscrits datés.
 
@@ -155,18 +171,19 @@ Pour chaque lettre, je donne :
 - **Confusion.** La ligature στ prend l'aspect d'un α accentué (§ 5.2).
 
 ### β
-- **Forme unique de T : β en « u ».** Ce sont deux jambages arrondis ouverts en haut, le gauche un peu plus haut, sans boucle supérieure fermée. Exemples : βομβάξ, f. 163r l. 4, v. 45 [b_u1] ; λαμβάνετε, f. 165v l. 1, v. 252 [b_u2] ; ἄμβροτον, f. 176r l. 29, v. 1154 [b_u3]. Je n'ai vu aucun β fermé de la main de T.
-- **Le β fermé « ϐ » est celui des correcteurs.**
-  - κύβδ' (f. 168r l. 24, v. 489 [b_corr]) est une correction de κύνδ' (Velsen 1871).
-  - Le supplément βοώιη (f. 168r l. 41) a le même β (inv. f. 168r).
-  - Le premier β de βάρβιτος est un B oncial de correction (f. 164r l. 16, inv.).
+- **Forme unique de T : β en « u ».** Ce sont deux jambages arrondis ouverts en haut, le gauche un peu plus haut, sans boucle supérieure fermée. Exemples : βομβάξ, f. 163r l. 4, v. 45 [b_u1] ; λαμβάνετε, f. 165v l. 1, v. 252 [b_u2] ; ἄμβροτον, f. 176r l. 29, v. 1154 [b_u3]. Je n'ai vu aucun β fermé de la main de T : le contrôle a porté sur une quinzaine de β de neuf pages (§ 12, n° 1), dont διέβαλλε (f. 177r, v. 1214), où l'inv. f. 177r voyait un β « en 6 » ; le « 6 » y est l'ε, et le β est en « u ».
+- **Le β fermé « ϐ » n'appartient pas à la minuscule courante de T.** On ne le trouve que dans des corrections ou des ajouts.
+  - κύβδ' (f. 168r l. 24, v. 489 [b_corr]) a un β à deux panses. C'est **probablement** une correction de κύνδ'. Velsen 1871 la donne pour telle et l'attribue à la « 2 m. », c'est-à-dire à la main de 1516 (p. 26 : « κύνδ' 1 m., κύβδ' 2 m. R » ; p. 44 : « κύβδ' corr. 2 m. ex κύνδ' R »). Velsen 1883 donne κυνδ' pour R. Mais à ×8, je ne vois ni grattage ni trace de ν.
+  - Le supplément βοώιη (f. 168r l. 41) a le même β (vu).
+  - Le premier β de βάρβιτος (f. 164r l. 16) est un B oncial, plus chargé d'encre que le β « u » de T qui suit dans le même mot (vu). L'inv. f. 164r y voit une correction.
+  - **Encre.** Les trois β fermés ont l'encre du texte de T. J'ai mesuré à contraste égal les rapports A_G/A_R et A_B/A_R : κύβδ' 1,31 et 2,14 ; βοώιη 1,32 et 2,17 ; B de βάρβιτος 1,31 et 2,08. Le texte voisin de T donne 1,30–1,32 et 2,08–2,23. Les scholies de S2 du f. 168r donnent 1,35–1,43 et 2,34–2,71, un sigle de 1516 1,68 et 3,23 (f. 175v). L'encre contredit donc l'attribution de κύβδ' à la main de 1516. Elle ne distingue pas non plus ces β de T.
 
-  La forme du β est donc un critère d'attribution : un β fermé dans la colonne n'est pas de T.
+  Un β fermé dans la colonne signale donc une **intervention** : correction ou ajout. Il n'en désigne pas l'auteur. Ce peut être un correcteur ancien qui use de la même encre, ou T lui-même, dans une autre campagne et dans l'écriture plus posée de ses titres. Pour κύβδ', l'argument est en partie circulaire, car c'est la forme fermée elle-même qui fait conclure à une correction.
 - **Confusions** (inv. de presque toutes les pages) :
   - υ, ι + ι, κ : « uάδιζε » ; βραχὺ lu « ἱεραχύ », f. 173v l. 21 ; ἀσεβοῦσιν, f. 166v l. 31 [b_k] ;
   - μ : « λαμμάνετε », f. 165v l. 1 ; « ὑμρίζειν », f. 168v l. 27.
 
-  Critère de l'inv. f. 175r : le β a la haste gauche basse, le κ la haste haute (βάρβαρον, l. 7).
+  Critère de l'inv. f. 175r : le β a la haste gauche basse, le κ la haste haute (βάρβαρον, l. 7). Ce n'est qu'une tendance. Il vaut pour les deux β de βάρβαρον, mais non pour ἀσεβοῦσ' (f. 166v l. 31, v. 367) : la haste du β y monte aussi haut que celle du κ d'ἀδικοῦσί, dans la même ligne, et les deux lettres prennent la même forme « l + u » (vu à ×3,5). Seul le contexte permet alors de trancher.
 
 ### γ
 Trois allographes :
@@ -205,7 +222,7 @@ Trois allographes :
 Deux formes, souvent dans la même ligne :
 1. **η minuscule en « h »** ([h_h] : νή-, f. 163r l. 1, v. 43). On le lit κ, ιι, « l + ι », et même « καί » (η 'στί, f. 177r l. 6, inv.).
 2. **Η oncial**, à barre médiane. Il est très fréquent :
-   - à l'initiale : ἦ, f. 163r l. 27, v. 63 [h_H1] ; ἡ, f. 164v l. 19, v. 184 [h_H2] ; ἢ en tête de vers huit fois au f. 166v ;
+   - à l'initiale : ἦ, f. 163r l. 27, v. 63 [h_H1] ; ἡ, f. 164v l. 19, v. 184 [h_H2]. Au f. 166v, huit vers commencent par ἢ : six ont le Η oncial (vv. 339, 342, 343, 346, 348, 365), un le « h » minuscule (v. 345), un le « н » étroit (v. 361) ;
    - à la finale : μέσΗ, f. 163v l. 1, v. 80 [h_H3] ; πάσΗ, προΐΗ, f. 163r l. 29, 33 ;
    - dans ΤΗ de τῆι (f. 166v l. 36–37, inv.).
 - **Variante étroite « н »**, qui se lie à la lettre précédente : δη μήτηρ, f. 170r l. 7, v. 642 [L_demeter] ; R y soude δὲ (écrit δη) à μήτηρ.
@@ -223,7 +240,7 @@ Deux formes, souvent dans la même ligne :
 
 ### κ
 - **Forme unique de T : κ minuscule en deux temps.** C'est une haste suivie d'une panse en « u » bouclé ou en « c », liée à la voyelle suivante ([k_lu] : κῦμα, f. 163r l. 2, v. 44 ; [k_lc] : ἱκέτης, f. 164v l. 15, v. 180 ; [k_2] : κροκωτὸν, f. 165v l. 2, v. 253). On le lit « lc », « ιc », « lu », « ις », ιε, λυ, ου, ιι : κροκωτοῖς lu « ἱεροκωτοῖς », f. 173v l. 24 ; κεκό lu « lιblo », f. 176r l. 1 [L_kekopsoi].
-- **Pas de Κ oncial chez T** (§ 4.1). Le seul Κ oncial de la colonne, en deux traits disjoints (« Ι< »), est celui de κιν récrit sur grattage par un correcteur ancien (f. 168r l. 28, v. 493, inv.).
+- **Pas de Κ oncial chez T dans le texte** (§ 4.1). Hors des titres, le seul Κ oncial de la colonne est celui de κιν, récrit sur grattage (f. 168r l. 28, v. 493). Il est fait de deux traits disjoints (« Ι< »), d'une encre plus grise, sur un fond éclairci (vu à ×6). Ce Κ « Ι< » a pourtant la forme des deux Κ du titre de l'*Assemblée* (ἘΚΚΛΗCΙΑΖΟΥCΩΝ, f. 177r, vu à ×5), que j'attribue à T (§ 4.2). Ce n'est donc pas la forme qui prouve un correcteur ancien pour κιν : ce sont le grattage et l'encre.
 
 ### λ
 - **λ à très longue diagonale**, qui descend sous la ligne vers la gauche. La lettre suivante s'attache au sommet ([l_1] : κελαδείτω, f. 163r l. 2 ; [l_2] : λαμβάνετε, f. 165v l. 1, v. 252). Sans haste montante visible, il se lit ρ ou μ : λαθεῖν lu « μαθεῖν », f. 167r l. 29, v. 408, contrôlé à ×5,5 par l'inventaire.
@@ -243,16 +260,17 @@ La lettre la plus trompeuse de la main.
 2. **Ν oncial** en fin de mot, surtout en fin de ligne : τεχνάσμασιΝ, f. 164v l. 33, v. 198 [n_N1] ; θεῶΝ, f. 165r l. 20, v. 228 [n_N2] ; λύχνοΝ, f. 165r l. 30 ; λέγουσιΝ, f. 166v l. 28. Il se combine avec un Ο oncial dans τήμερΟΝ (f. 163v l. 4, v. 83 [n_ON]).
 3. **Ν réduit en « н »**, qu'on lit η ou κ (ἅπασιν, f. 170r l. 34, inv.). Ν et Η onciaux ont le même gabarit (inv. f. 174v).
 4. **ν final en longue queue oblique** en fin de vers ([n_q] : εἰδότων, f. 169v l. 4, v. 596 ; κοθωκιδῶν, l. 28). Ce n'est ni un λ ni un trait de renvoi.
-5. **ν final en « x »** : πόρον, f. 171v l. 6, v. 769 [n_x], avec ο suscrit ; πάρεστιν, l. 42 (inv.). Ne pas lire χ.
+5. **ν final en « x »** : πόρον, f. 171v l. 6, v. 769 [n_x], avec ο suscrit ; πάρεστιν, l. 42 (inv.) ; πρώκτισον, f. 175v l. 41, v. 1124 (vu). Ne pas lire χ.
 
 ### ξ
 - **ξ** : trait de tête plat, parfois amorcé par un petit crochet et souvent lié à la lettre précédente, puis un zigzag de deux ou trois angles et une longue queue sous la ligne. Exemples : βομβάξ, f. 163r l. 4, v. 45 [x_1] ; ξυρόν, f. 165r l. 11, v. 219 [x_2] ; δεξιάν, f. 165r l. 13, v. 221 [x_3] ; ξένους, f. 172v l. 38, v. 872 [x_4].
-- **Critère vérifié** sur les ff. 163r, 165r, 172v et 177r :
+- **Critère vérifié** sur les ff. 163r, 165r, 168v, 172v, 175v et 177r :
   - ζ = deux lobes ronds (« 3 ») ;
   - ξ = barre de tête et zigzag (« Ƶ », « ʒ »).
 
-  Ce critère est formulé, en des termes différents, par les inv. f. 165r, f. 166v, f. 172v, f. 174v, f. 175v et f. 176v (« ζ à deux étages, ξ à trois »). Il permet de lire ἀρτομουξία (f. 176v l. 34), ἀρ ταμουξία (f. 177r), ὀτότυζε (f. 175v l. 1, contre ὀτότυξε chez Velsen 1883) et οἰμώζετ' (f. 165r l. 40).
-- **Ce n'est qu'une forte tendance.** En fin de ligne et en grand module, le ζ peut prendre une tête plate. C'est le cas du ζ de βαδίζ(ειν) (f. 177r l. 20, v. 1228), que l'inventaire juge de même forme que le ξ.
+  Ce critère est formulé, en des termes différents, par les inv. f. 165r, f. 166v, f. 172v, f. 174v, f. 175v et f. 176v (« ζ à deux étages, ξ à trois »). Il permet de lire ἀρτομουξία (f. 176v l. 34), ἀρ ταμουξία (f. 177r), ὀτότυζε (f. 175v l. 1, deux fois) et οἰμώζετ' (f. 165r l. 40).
+  - Pour ὀτότυζε, ma lecture s'accorde avec celle de Velsen 1883 : il imprime ὀτότυζ' et note « ὀτότυζε RG » (p. 77 ; de même la liste des fins de ligne, p. 79). Le « ὀτότυξε » que l'inv. f. 175v prête à Velsen est une faute de la couche texte (OCR) du scan, qui lit ξ là où l'image porte ζ. La même faute se trouve dans le répertoire critique (`velsen1883_1086-1231.jsonl`, notice « colometria » des vv. 1078–1097).
+- **Pas d'exception relevée.** L'inv. f. 177r jugeait le ζ de βαδίζ(ειν) (f. 177r, fin de la ligne des vv. 1227–1228) de même forme que le ξ. À ×5, ce ζ est un « 3 » à deux lobes ronds. Le « 7 » qui le précède, trait horizontal puis jambage descendant, est l'ι lié en queue au δ, comme dans διὰ ([L_di]).
 - **Confusion propre à la ligature ει à ι descendant**, qui prend l'aspect d'un ξ (§ 5.1).
 
 ### ο
@@ -268,7 +286,7 @@ La lettre la plus trompeuse de la main.
 2. **Π majuscule à barre de tête plate**, rare ([p_Pi] : ποιεῖν, f. 170r l. 42, v. 677 ; -ποις, l. 29, inv.).
 
 ### ρ
-- **ρ à longue hampe**, presque verticale. Elle devient démesurée sur les dernières lignes de page : σπάρτην, f. 173r l. 43, v. 919 [r_q], jusqu'à 90 px sous la ligne ; ἄρα, f. 175v l. 43 ; προεδρίαν et σκίροις, f. 172r l. 43.
+- **ρ à longue hampe**, penchée à droite d'environ 15–20° (§ 2.5). Elle devient démesurée sur les dernières lignes de page : σπάρτην, f. 173r l. 43, v. 919 [r_q], dont la queue descend d'environ 65 px (7,5 mm) sous la ligne de base, pour une lettre haute d'environ 90 px en tout ; ἄρα, f. 175v l. 43 ; προεδρίαν et σκίροις, f. 172r l. 43.
 - **Sortie du ρ** en petite virgule sous la ligne, qu'on prend pour une ponctuation (f. 167r l. 34, 37, inv., douteux).
 - **ρ peu lié** à la voyelle suivante (Orsini 2011, 325, vérifié).
 
@@ -329,7 +347,7 @@ La lettre la plus trompeuse de la main.
 | **C** lunaire | dans des positions fixes | ligature -ος de fin de ligne ; « grand sigma » (f. 177r l. 19) | [L_os1]–[L_os4] |
 | **Π** à barre plate | rare | dans le mot | [p_Pi] |
 | **Υ** (ϒ) | rare | initiale | ὑμῶν (f. 171v l. 42) |
-| **Κ** | **non observé chez T** | — | le Κ « Ι< » de κιν (f. 168r l. 28) est un correcteur |
+| **Κ** | **non observé dans le texte de T** ; « Ι< » dans le titre de l'*Assemblée* | titre seulement | le Κ « Ι< » de κιν (f. 168r l. 28) est récrit sur grattage par un correcteur |
 | **Λ** | indiscernable | — | le λ minuscule de T a la forme du lambda majuscule |
 
 ### 4.2 Ce que règle l'usage
@@ -344,7 +362,7 @@ La lettre la plus trompeuse de la main.
 3. **Des ligatures fixes** : γι en « Π », ΤΗ.
 4. **Les titres**, en « majuscule de distinction » mêlée.
    - Titre des *Thesmophories* (f. 162v l. 1) : σ et ε lunaires, Ν, ζ en « Ƶ », θ ovale, α en « d » (inv.).
-   - Titre de l'*Assemblée* (f. 177r l. 25) : ε lunaire, κ, λ, η en « н », σ lunaire, α oncial, ζ en « Z », ω minuscule (inv.).
+   - Titre de l'*Assemblée* (f. 177r l. 25) : ε lunaire, deux Κ en deux traits disjoints « Ι< » (vu), λ, η en « н », σ lunaire, α oncial, ζ en « Z », ω minuscule (inv.).
 
    La forme Κ n'apparaît, chez T, que dans cette écriture de titre.
 
@@ -370,7 +388,7 @@ Je compte au moins six formes, relevées sur toutes les pages. Elles sont décis
 | en « q » | boucle triangulaire, haste descendant à gauche | μέλει, f. 165r l. 20 [L_ei_q1] ; εἴ τις, f. 166v l. 7, v. 343 [L_ei_q2] ; εἴπερ, f. 171v l. 27, 32 | α, ο, σ, φ, ψ, ᾳ ; **avec accent ou esprit : ἢ, ἡ** (εἴπερ lu ἤπερ ; εἶτα lu ἢ τα ; εἶδεσ lu « ἦδεσ », f. 177r l. 10) |
 | en « ξ » ou « ζ » | ι descendant sous la ligne en zigzag | χορομανεῖ, f. 174r l. 3, v. 961 [L_ei_xi] ; παίζει ; ἥξει, κλύεισ, f. 174v | ξ, ζ, ϙ, φ |
 | en « 4 » | ε anguleux et ι croisé | δείξει, f. 170r l. 38, v. 673 [L_ei_4] ; ποιεῖν ; εἰσὶν, f. 172r l. 29 | chiffre 4 |
-| ε fermé en boucle, ι montant puis redescendant avec un pied | | φεύγεις, f. 170v l. 12, v. 690 [L_ei_v] | η (**φεύγης**) : le η de T est toujours un « h » ou un Η, jamais cette forme |
+| ε fermé en boucle, ι montant puis redescendant avec un pied | | φεύγεις, f. 170v l. 12, v. 690 [L_ei_v] | η (**φεύγης**) : le η de T est un « h », un Η ou un « н » étroit, jamais cette forme. Dans la même ligne, μενεῖσ a ε et ι séparés |
 | en « α à crochet », en « ἕ » | | κλεισθένης, προτείνειν, ἀφείλετ', f. 173v l. 10, 17, 20 | α, ἀφ' ἕλετ' |
 | ι long oblique, montant au-dessus de la ligne | | εἰσὶν, f. 167r l. 12 | accent (« ἔσὶν ») |
 
@@ -384,12 +402,12 @@ Dans les ligatures, τει et σει prennent des formes propres :
 
 ### 5.2 στ, σπ, σχ, σο
 
-- **στ en « α »**. Le σ ouvert se prolonge dans la barre du τ, et le tout a l'aspect d'un α accentué au trait oblique montant. Exemples : στί, f. 163v l. 1, v. 80 [L_st_a1] ; ὥστ', lu « ὥ ἀ », f. 167r l. 32, v. 411 [L_st_a2] ; οὗτοσ τί, lu « οὗτο αἰ », f. 175v l. 2, v. 1083 [L_st_a3] ; στρέφει, lu « ἀρέφει », f. 169v l. 18, v. 610 [L_strephei] ; νηστεύωμεν, lu « μὴ ἀθεο μεν », f. 174r l. 26, v. 984 [L_nesteuomen] ; ὑστέραν lu « ὑαβραν », τῆσ τὸν lu « τῆ ἀὸν », f. 172v l. 4–5.
+- **στ en « α »**. Le σ ouvert se prolonge dans la barre du τ, et le tout a l'aspect d'un α, souvent surmonté de l'accent de la voyelle suivante (ί). Ce qui le distingue de l'α : la boucle est fermée en haut par un trait horizontal qui file vers la lettre suivante (barre du τ), alors que l'α a un court trait vertical à droite (comparaison des deux στ et des deux α de λαλῖσ au f. 175v l. 2). Exemples : στί, f. 163v l. 1, v. 80 [L_st_a1] ; ὥστ', lu « ὥ ἀ », f. 167r l. 32, v. 411 [L_st_a2] ; οὗτοσ τί, lu « οὗτο αἰ », f. 175v l. 2, v. 1083 [L_st_a3] ; στρέφει, lu « ἀρέφει », f. 169v l. 18, v. 610 [L_strephei] ; νηστεύωμεν, lu « μὴ ἀθεο μεν », f. 174r l. 26, v. 984 [L_nesteuomen] ; ὑστέραν lu « ὑαβραν », τῆσ τὸν lu « τῆ ἀὸν », f. 172v l. 4–5.
 - **Autres formes de στ** :
   - en « ϛ » dans ἐστιν (f. 164v l. 18, 32, 37) ;
   - en « q », boucle et haste, dans 'στί et πέπυσται (f. 177r l. 6, 20) ;
   - εστ en « δα » : ἐστιν lu « δαιμ » (f. 173r l. 28).
-- **σπ** : le σ est soudé au ϖ, et l'on voit « trois panses sous une barre » ([L_sp1] : ἀσπίδας, f. 163r l. 16, v. 53 ; [L_sp2] : σπογγιεῖ, f. 165r l. 39, v. 247 ; σπονδὰς, f. 176r l. 36). Le σ peut aussi se réduire à un point appuyé et à une barre soudée au π : σπέος lu « πέος », f. 164r l. 21. R a σπέος (Velsen 1883), et G πέος.
+- **σπ** : le σ est soudé au ϖ, et l'on voit « trois panses sous une barre » ([L_sp1] : ἀσπίδας, f. 163r l. 16, v. 53 ; [L_sp2] : σπογγιεῖ, f. 165r l. 39, v. 247 ; σπονδὰς, f. 176r l. 36). Dans σπέος (f. 164r l. 21, v. 142), la première panse est un amas d'encre très chargé, suivi de deux panses sous la même barre. Si l'on prend l'amas pour une tache, on lit « πέος ». Mais on compte bien trois panses, alors que le ϖ de ποῦ, dans la même ligne, n'en a que deux ; la structure est celle de σπογγιεῖ ([L_sp2]) (vu à ×5 et ×8). R a donc σπέος, comme le dit Velsen 1883 (« καὶ ποῦ σπέος R καὶ ποῦ πέος G »).
 - **σχ** : le σ final est une boucle soudée au χ ([L_sch] : τοῖσ χοροῖσιν, f. 174r l. 17, v. 975, lu « τοῖ χοροῖσιν »).
 - **σο** : deux petites boucles, qu'on lit σσ ou οο (εἰσορᾶν, f. 176r l. 26). Dans κάρισοσ οὐ, il prend l'aspect du ϖ (f. 176v l. 28).
 
@@ -441,20 +459,20 @@ Dans les ligatures, τει et σει prennent des formes propres :
 
 ![Planche 4](../planches/ch2_pl4_abreviations_signes.png)
 
-T abrège **très peu**. C'est conforme à Allen 1896, 324, qui signale comme rares, dans le texte, les compendia de ἀνήρ et de -ευς ; je n'en ai trouvé aucun dans la pièce. Le copiste écrit καί en toutes lettres des centaines de fois. Le relevé complet des abréviations de T dans les *Thesmophories* se réduit aux cas suivants.
+T abrège **très peu**. C'est conforme à Allen 1896, 324, qui signale comme rares, dans le texte, les compendia de ἀνήρ et de -ευς ; je n'en ai trouvé aucun dans la pièce. Le texte de l'auteur compte 178 καί, crases non comprises : le copiste en écrit donc environ 170 en toutes lettres. Les abréviations de T relevées dans les *Thesmophories* se réduisent aux cas suivants. Ce relevé vient des inventaires ; je n'ai pas balayé moi-même les 30 pages (§ 6.1).
 
 ### 6.1 Le compendium de καί (ϗ)
 
 **Forme.** C'est un « S » ou un « ʒ » couché, à queue descendante, parfois accentué. On ne doit le lire ni ζ ni ς ([A_kai1]–[A_kai4]).
 
-**Sept occurrences** dans le texte de T, sur les 30 pages :
+**Sept occurrences relevées** dans le texte de T. Ce sont celles des inventaires. Je les ai toutes revues, et j'ai balayé entièrement deux pages (ff. 170r et 172r) sans en trouver d'autre. Le chiffre est donc un minimum, non un compte exhaustif :
 
 | Page, ligne | Vers | Contexte | Spécimen | Contrôle |
 |---|---|---|---|---|
 | f. 166r l. 15 | 309a | en tête de ligne : ϗ τὸν τῶν γυναικῶν | [A_kai1] | vu |
 | f. 169v l. 7 | 599 | ϗ ζητεῖν, ϗ suivi d'un ζ « en 3 » de forme voisine | [A_kaizeta] | vu |
 | f. 170r l. 21 | 657 | ἐσεληλυθεν ϗ περὶθρέξαι | [A_kai2] | vu |
-| f. 170r l. 22 | 658 | σκηνὰς ϗ τὰς | — | inventaire |
+| f. 170r l. 22 | 658 | σκηνὰς ϗ τὰς, après un καί en toutes lettres dans la même ligne | — | vu |
 | f. 171v l. 27 | 789 | εἰ ϗ κακὸν, ει en « q » puis ϗ | [L_ei_kai] | vu |
 | f. 172r l. 43 | 834 | dernière ligne de la page | [A_kai4] | vu |
 | f. 174r l. 39 | 998 | δάσκια ϗ νάπαι | [A_kai3] | vu |
@@ -470,8 +488,8 @@ Tous les cas sont en **fin de ligne**, là où la place manque. Ce sont des abr�
 | ἀθηναί(ων) | f. 166r l. 14, v. 307 | trait courbe « ⌒ » au-dessus de -αι | [A_on] | sûre (vue) |
 | διαλυμαίνετ(αι) | f. 166v l. 12, v. 348 | crochet ondulé au bout de la barre du τ | [A_ai1] | probable (vue) |
 | διδοῦσ(αι) | f. 169r l. 8, v. 558 | long trait courbe après le σ | [A_ai2] | probable (vue) |
-| βαδίζ(ειν) | f. 177r l. 20, v. 1228 | long trait oblique montant après un grand ζ | spécimen de l'inventaire (ci-dessous) | probable |
-| εἶ(ναι) | f. 172r l. 17, v. 810 | ε, ι, puis un signe en X | [A_einai] | probable (vue) |
+| βαδίζ(ειν) | f. 177r l. 20, v. 1228 | long trait oblique montant au-dessus et à droite d'un grand ζ en « 3 » | spécimen de l'inventaire (ci-dessous) | probable (vue) |
+| εἶ(ναι) ou εἶν(αι) | f. 172r l. 17, v. 810 | ε, ι, puis un signe en X ; ce X a exactement la forme du ν final « en x » (comparé à πόρον, f. 171v l. 6) : ce peut être un ν écrit, avec -αι suspendu | [A_einai] | probable (vue) |
 | ἀποκεκαρμέν(ην) | f. 172v l. 4, v. 838 | signe en Λ après -μεν | [A_men] | possible (renvoi ?) |
 | ἀποδύσ(ας) | f. 170r l. 20, v. 656 | σ final prolongé | — | possible (inventaire) |
 
@@ -479,7 +497,7 @@ Le spécimen de βαδίζ(ειν) est celui de l'inventaire : `../specimens/f17
 
 ### 6.3 Une contraction de type *nomen sacrum* : π̅η̅ρ
 
-Au f. 172v l. 27 (v. 861, πατὴρ ἐκεῖνός ἐστι;), T écrit **π̅η̅ρ** : π, η et ρ, avec un trait suscrit sur πη ([A_pater], vu). C'est la contraction des *nomina sacra* appliquée à un père profane (Tyndare). La ligne précédente (f. 172v l. 26, v. 860, πατὴρ δὲ Τυνδάρεως) porte **ϖατὴρ en toutes lettres** (vérifié).
+Au f. 172v l. 27 (v. 861, πατὴρ ἐκεῖνός ἐστι;), T écrit **π̅η̅ρ** ([A_pater], vu à ×6) : un π de forme Π à barre plate, et non le ϖ habituel, un η en « h » et un ρ. Un trait horizontal, crocheté à droite, surmonte l'η ; il commence à l'aplomb de l'intervalle π–η et ne couvre pas le π. Le mot ne porte pas d'autre accent. C'est la contraction des *nomina sacra* appliquée à un père profane (Tyndare). La ligne précédente (f. 172v l. 26, v. 860, πατὴρ δὲ Τυνδάρεως) porte **ϖατὴρ en toutes lettres** (vérifié).
 
 L'abréviation est isolée. μήτηρ est écrit en entier au v. 642 (δη μήτηρ, f. 170r l. 7). Les formes de θεός et d'ἄνθρωπος que j'ai rencontrées dans la colonne sont toutes pleines. Dans les scholies, au contraire, S2 contracte ἄνθρωποι (ἀνοι surligné, f. 170v, inv.).
 
@@ -562,10 +580,10 @@ La table va de ce que l'on croit voir à ce qu'il faut lire, avec le critère di
 |---|---|---|---|
 | μ | **ν** | ν : un arceau et une pointe montante ; μ : deux arceaux, le second en crochet | νὴ lu « μὴ » (f. 165r l. 32 ; f. 164v l. 41) ; νῦν lu « μῶ » ; [n_2]/[m_2] |
 | ω | **π (ϖ)** ; **υν** | barre du ϖ, même pâle ; υν : arceau ouvert à gauche | ὅπως lu « ὅωως » ; οὖν lu « οω » ; [p_varpi], [L_un] |
-| υ, κ, ιι, μ | **β** | β : deux jambages, sans haste montante ; κ : haste haute | λαμβάνετε lu « λαμμάνετε » ; βραχὺ lu « ἱεραχύ » ; [b_u2], [k_lu] |
+| υ, κ, ιι, μ | **β** | β : deux jambages, d'ordinaire sans haste montante ; κ : haste haute. Le critère peut faillir (ἀσεβοῦσ', f. 166v l. 31) : contexte | λαμβάνετε lu « λαμμάνετε » ; βραχὺ lu « ἱεραχύ » ; [b_u2], [k_lu], [b_k] |
 | ζ | **ξ** | ξ : barre de tête et zigzag ; ζ : deux lobes ronds | ἔξεστι lu « ἔζεστι » ; [z_3]/[x_4] (même page) |
 | ξ, ζ, φ, q, ἢ | **ει** | accent ou esprit au-dessus ; contexte | εἴπερ lu ἤπερ ; φεύγεις lu φεύγης ; [L_ei_q2], [L_ei_xi] |
-| α (accentué) | **στ** | trait oblique montant du τ | ὥστ' lu « ὥ ἀ » ; στρέφει lu « ἀρέφει » ; [L_st_a2] |
+| α (accentué) | **στ** | boucle fermée en haut par un trait horizontal (barre du τ) qui file vers la lettre suivante ; l'α n'a qu'un court trait vertical à droite | ὥστ' lu « ὥ ἀ » ; στρέφει lu « ἀρέφει » ; [L_st_a2] |
 | ν | **γ** | γ : v plongeant, sans arceau | σύ γε lu σὺν ; [g_v] |
 | τ | **Γ** ; **ψ** | Γ : barre plus courte, liée à la lettre suivante ; ψ : courbe sur la haste | γινώσκομεν lu *τινώσκομεν* ; ὄψιν lu « ὄτιν » ; [g_gi], [y_3] |
 | θ | **ετ** ; **δ** | ετ : boucle de l'ε au-dessus de la barre ; δ : hampe vers la gauche | ἔρχετ', ἔτι ; [L_et2], [d_2] |
@@ -588,22 +606,26 @@ J'ai vérifié sur l'image ces points, sur lesquels je m'écarte d'un ou de plus
 
 1. **ν/μ (inv. f. 165r, observation #54).** L'inventaire écrit que « le vrai μ n'est pas distinguable par la seule forme sur cette page ». Or, sur la même page, l. 32 (ἐμοὶ μελήσει νὴ δία, v. 240), le μ de ἐμοὶ et de μελ- a deux arceaux, le second terminé en crochet, et le ν de νὴ un seul arceau suivi d'une pointe montante ([m_2], [n_2]). La distinction existe ; elle est seulement fragile dans l'écriture rapide.
 2. **σ final (inv. f. 168r, observation #18, et inv. f. 167r, « Pièges propres à la page »).** Ce qu'ils appellent « ς final prolongé » (ὁρᾶις, f. 168r l. 31) et « ς final de μείρακας, à longue queue » (f. 167r l. 31) sont des **σ ronds de forme médiale**, dont le trait supérieur s'allonge en remplissage ([s_bar] ; μείρακας vérifié). T n'emploie pas de ς. Les inv. f. 163r et f. 165r le disent déjà (« σ final identique au σ médial »).
-3. **Κ oncial de T (inv. f. 165v, tableau des mains : « onciales Η, Ν, Κ fréquentes »).** Je ne trouve aucun Κ oncial de T, ni sur cette page (καὶ de la l. 15, κροκωτὸν de la l. 2 : κ minuscule [k_2]) ni ailleurs. Dans la colonne, le seul Κ oncial est un correcteur (κιν, f. 168r l. 28). Le Κ de forme onciale est par ailleurs celui de S2 (scholies) et des sigles de 1516 (Κη). Le tableau du f. 165v est à corriger.
+3. **Κ oncial de T (inv. f. 165v, tableau des mains : « onciales Η, Ν, Κ fréquentes »).** Je ne trouve aucun Κ oncial dans le texte de T, ni sur cette page (καὶ de la l. 15, κροκωτὸν de la l. 2 : κ minuscule [k_2] ; quatre καί, trois κ initiaux d'autres mots) ni ailleurs. Dans le texte de la colonne, le seul Κ oncial est récrit sur grattage par un correcteur (κιν, f. 168r l. 28). Les titres mis à part : celui de l'*Assemblée* a des Κ « Ι< » (§ 3, κ). Le Κ de forme onciale est par ailleurs celui de S2 (scholies) et des sigles de 1516 (Κη). Le tableau du f. 165v est à corriger.
 4. **ζ/ξ (inv. f. 172v, tableau des formes : « ξ en ʒ (petite boucle initiale), ζ en З (barre droite) »).** Sur l'image, le ζ de Ζεῦ (l. 36, v. 870) a la tête arrondie en « 3 », et le ξ de ξένους (l. 38, v. 872) a une barre de tête plate et un zigzag ([z_3], [x_4]). Le critère est donc le même que sur les autres pages ; seule la mention « barre droite » attribuée au ζ est erronée, puisque la barre droite est celle du ξ. Les glyphes « ʒ » et « З » de l'inventaire sont trompeurs.
 5. **Module (inv. f. 162v : « hauteur d'x de 18–20 px (2,3–2,5 mm) »).** C'est la hauteur totale des lettres rondes, traits compris. Le corps des lettres, mesuré à mi-densité, fait 14–16 px (1,6–1,9 mm) sur 27 pages (§ 2.3). Les deux valeurs sont justes, mais ne mesurent pas la même chose.
 6. **Initiales agrandies (inv. f. 164r, observation #57 : « critère à vérifier »).** Elles ne signalent pas une nouvelle réplique : on en trouve aussi sans changement d'interlocuteur (ὑποβλέπουσ', f. 167r l. 17), § 4.2.
 7. **Rapport à la remarque d'Orsini sur ζ et ξ** (§ 2.2). Ce n'est pas une correction d'inventaire, mais une nuance à la littérature : la barre de tête du ξ part souvent de l'ε précédent ([x_3]).
+8. **ὀτότυζε et Velsen (inv. f. 175v, observation de la l. 1 et « Pièges », n° 7).** L'inventaire lit justement ὀτότυζε dans R, mais il a tort d'écrire que Velsen 1883 imprime ὀτότυξε. Velsen imprime ὀτότυζ' et note « ὀτότυζε RG » (p. 77 ; p. 79, liste des fins de ligne). La faute vient de la couche OCR du scan (§ 3, ξ).
+9. **βαδίζ(ειν) et διέβαλλε (inv. f. 177r, « Formes », n° 5 et 14).** Le ζ de βαδίζ(ειν) n'a pas la forme du ξ : c'est un « 3 », précédé de la liaison δι en « 7 » (§ 3, ξ). Le β de διέβαλλε (v. 1214) n'est pas « en 6 » : il est en « u », et le « 6 » est l'ε qui le précède (§ 3, β).
+10. **Abréviations de fin de ligne (inv. f. 172r).** Le signe en X de εἶ(ναι) peut être un ν en « x » (§ 6.2).
 
 ## 10. Questions ouvertes
 
-1. **Inclinaison.** Une mesure fiable demande d'isoler les hampes de φ, ρ, ι et κ, par exemple par une détection des lettres. L'estimation visuelle (5–15° vers la droite) reste à chiffrer.
+1. **Inclinaison.** Une mesure fiable demande d'isoler les hampes de φ, ρ, ι et κ, par exemple par une détection des lettres. Les six pointés du § 2.5 (5–20° vers la droite, queues de ρ les plus penchées) restent à étendre à un échantillon par page.
 2. **Κ et Λ onciaux.** Il faudrait vérifier dans d'autres pièces du manuscrit, sur lesquelles se fondait Martin, si T emploie un Κ oncial hors des titres.
-3. **ϗ et καί.** Le compte exact des καί en toutes lettres face aux 7 ϗ attend la transcription complète. Il faudra aussi chercher si les ϗ correspondent à des lieux où le modèle abrégeait : fautes voisines, place dans la page.
+3. **ϗ et καί.** Le compte exact des καί en toutes lettres (environ 170 d'après le texte édité) et des ϗ (7 relevés, ff. 170r et 172r seuls balayés en entier) attend la transcription complète. Il faudra aussi chercher si les ϗ correspondent à des lieux où le modèle abrégeait : fautes voisines, place dans la page.
 4. **Abréviations de fin de ligne.** Les signes de εἶ(ναι) (f. 172r l. 17), de -μεν(ην) (f. 172v l. 4) et de ἀποδύσ(ας) (f. 170r l. 20) sont à contrôler sur l'original ou sur un meilleur cliché.
 5. **π̅η̅ρ.** Il faudra rechercher, sur la transcription complète, toute autre contraction de type *nomen sacrum* dans le texte de T : θεός, ἄνθρωπος, οὐρανός, μήτηρ, πατήρ.
-6. **β « en 6 »** (inv. f. 177r, διέβαλλε, l. 5) : je ne l'ai pas contrôlé. Si la forme se confirme, ce serait le seul β non « u » de T.
+6. **β « en 6 »** (inv. f. 177r, διέβαλλε, l. 5) : question résolue (§ 3, β). Le β est en « u » ; le « 6 » est l'ε. Il reste à savoir si le β de κύβδ' (f. 168r l. 24) est bien une correction : un meilleur cliché, sous ultraviolet, pourrait montrer un ν sous-jacent. Il faudrait aussi savoir qui l'a faite. Son encre, comme celle de βοώιη, est celle de T : ce peut être T lui-même ou un correcteur ancien à la même encre.
 7. **Comparaison paléographique** avec le Laur. plut. 32.9 (main 1) et avec les manuscrits datés invoqués par Orsini (Marc. gr. 201 ; Vat. gr. 1591), sur images. C'est la seule façon de discuter la datation et la thèse de l'identité des mains par l'observation et non par la seule autorité.
-8. **ζ/ξ en grand module ou en fin de ligne** (βαδίζ(ειν), f. 177r l. 20). Il faudra dresser une liste complète des ζ et des ξ de la pièce pour mesurer les exceptions au critère.
+8. **ζ/ξ en grand module ou en fin de ligne.** Le seul cas d'exception allégué, βαδίζ(ειν) (f. 177r), n'en est pas un (§ 3, ξ). Une liste complète des ζ et des ξ de la pièce reste utile pour éprouver le critère.
+9. **Encre de T et de S2.** La séparation observée au f. 168r et en partie au f. 170r, mais non au f. 165v, demande une mesure page par page, avec un fond de parchemin pris au même endroit pour les deux mains.
 
 ## 11. Planches et spécimens
 
@@ -615,9 +637,54 @@ Planches (dans `ravennas/graphologie/planches/`) :
 - [ch2_pl5_formes_ambigues.png](../planches/ch2_pl5_formes_ambigues.png) : formes ambiguës.
 
 Spécimens :
-- 128 découpes de ce chapitre dans `ravennas/graphologie/specimens/ch2/` (`<id>.png`, 600 px de large au plus, agrandies au plus ×4). La liste, avec les coordonnées dans l'image pleine résolution, la page, la ligne, le vers et la légende, est dans [specimens_ch2.tsv](../planches/specimens_ch2.tsv).
+- 139 découpes de ce chapitre dans `ravennas/graphologie/specimens/ch2/` (`<id>.png`, 600 px de large au plus, agrandies au plus ×4), dont les 11 de la vérification (`V_*`, § 12). La liste, avec les coordonnées dans l'image pleine résolution, la page, la ligne, le vers et la légende, est dans [specimens_ch2.tsv](../planches/specimens_ch2.tsv).
 - Spécimens des inventaires cités : `../specimens/f165r/forme_zeta_xi.jpg` (ζ/ξ), `../specimens/f165r/forme_nu_comme_mu.jpg` (ν/μ), `../specimens/f168r/f168r_cmp_beta_T_correcteur.jpg` (β de T et β du correcteur), `../specimens/f177r/f177r_l20_badiz.jpg` (βαδίζ(ειν)), `../specimens/f169v/f169v_l08_enkathemen_os_ligature.jpg` (-ος en volute), `../specimens/f174v/f174v_forme_xi_ei.png` (ξ et ει).
 
 Outils :
 - `outils/graphologie/planches_ecriture.py` régénère les spécimens et les planches à partir de `specimens_ch2.tsv` ; avec `--controle`, il produit des planches de contrôle des découpes dans `.travail/ch2/`.
 - `outils/graphologie/mesures_ecriture.py` mesure le module et l'interligne sur les 30 pages.
+
+## 12. Vérification
+
+**Objet.** Relecture critique du 28 oct. 2026. J'ai choisi les affirmations du chapitre qui engagent le plus : attributions de mains, généralisations (« toujours », « jamais », « seul »), lectures, chiffres. J'ai cherché à les réfuter sur les images à pleine résolution, sur au moins trois occurrences quand il y en avait. Dans le doute, j'ai conclu « à nuancer ». Les corrections sont reportées plus haut, aux paragraphes cités.
+
+**Moyens.**
+- Découpes agrandies ×2 à ×8 avec règle graduée en pixels de la page ; grilles de comparaison à la même échelle.
+- Encre : mesure sur les seuls pixels de trait (`masque_encre` de `outils/images/recadrer_facsimile.py`), à contraste égal (35 à 80 niveaux sous le fond local ; 25 à 90 pour des lettres isolées) ; absorbances relatives au fond local, A_G/A_R et A_B/A_R, et saturation.
+- Inclinaison : pointés manuels et axe principal des pixels d'un trait isolé.
+- Sources imprimées : Velsen 1883 (scan, p. 77 et 79, relu à 600 dpi) ; Velsen 1871 (texte du scan) ; répertoire critique (`edition/donnees/repertoire_critique/`) pour Velsen 1883 et Enger 1844.
+- Scripts et vues : `.travail/ch2_verif/` (non versionné). Spécimens : les identifiants `V_*` de `specimens_ch2.tsv`, régénérables par `outils/graphologie/planches_ecriture.py`.
+
+| n° | Affirmation (§) | Verdict | Contrôle sur l'image | Suite donnée |
+|---|---|---|---|---|
+| 1 | β : forme unique de T en « u » ; β fermé = correcteurs, « un β fermé dans la colonne n'est pas de T » ; κύβδ' « est une correction » (§ 3 β) | à nuancer | Une quinzaine de β de T sur neuf pages, tous en « u » : βομβάξ (f. 163r l. 4) ; βίου et second β de βάρβιτος (f. 164r l. 16) ; λαμβάνετε (f. 165v l. 1) ; βεβυσμένον (f. 168r l. 41) ; περὶ ὑβρίζειν (f. 168v l. 27) ; βραχὺ (f. 173v l. 21) ; βάρβαρον (f. 175r l. 7) ; ἄμβροτον (f. 176r l. 29) ; διέβαλλε, συμβήνη, καταβηνῆσι (f. 177r). β fermés : κύβδ' (×8), βοώιη, premier β de βάρβιτος. Dans κύβδ', ni grattage ni ν sous-jacent visibles. Les trois β fermés ont l'encre du texte de T (A_G/A_R 1,31–1,32 ; A_B/A_R 2,08–2,17), non celle de S2 ni celle de 1516 | β fermé = signe d'une intervention, sans auteur désigné ; attribution de κύβδ' à 1516 (Velsen 1871) contredite par l'encre ; correction ramenée à « probable » ; question du β « en 6 » résolue : c'est l'ε ([V_dieballe]) |
+| 2 | Aucun ς chez T (§ 3 σ ; § 9, n° 2) | confirmée | Environ 25 σ finals de six pages (ff. 163r, 167r, 168r, 170v, 175v, 176v), dont μείρακασ (f. 167r l. 31, ×4) : toujours σ rond fermé par le trait de tête | — |
+| 3 | Pas de Κ oncial chez T ; seul Κ oncial de la colonne : κιν (§ 3 κ ; § 4 ; § 9, n° 3) | confirmée pour le texte ; à nuancer | κ minuscule partout : f. 165v (huit κ, dont quatre καί), f. 166r (six καί en tête de ligne), f. 168r (quatre κ initiaux). κιν (f. 168r l. 28, ×6) : « Ι< », fond éclairci, encre plus grise. Mais le titre de l'*Assemblée* (f. 177r, ×5) a deux Κ « Ι< » de même forme | « hors titres » ; κιν attribué au correcteur par le grattage et l'encre, non par la forme |
+| 4 | Critère ν/μ (§ 3 ν ; § 9, n° 1) | confirmée | Dix lettres : f. 163r l. 1–2, f. 165r l. 32, f. 176v l. 1–2 | — |
+| 5 | ὀτότυζε (f. 175v l. 1) « contre ὀτότυξε chez Velsen 1883 » ; critère ζ/ξ (§ 3 ξ) | réfutée pour Velsen ; critère confirmé | ζ en « 3 » : sept exemples sur cinq pages, dont les deux ζ d'ὀτότυζε ([V_otutuze]) ; ξ à barre plate et zigzag : cinq exemples sur quatre pages. Velsen 1883 imprime ὀτότυζ' et note « ὀτότυζε RG » (p. 77), « ὀτότυζε altero » (p. 79). « ὀτότυξε » est une faute de la couche OCR du scan, reprise par le répertoire et par l'inv. f. 175v | texte corrigé ; § 9, n° 8 |
+| 6 | Exception au critère : ζ « à tête plate » de βαδίζ(ειν), f. 177r (§ 3 ξ ; § 10, n° 8) | réfutée | ×4 et ×5 ([V_badiz]) : δι lié en « 7 », puis ζ en « 3 » à deux lobes. La « tête plate » était la liaison δι | exception supprimée ; § 9, n° 9 |
+| 7 | ϗ : « sept occurrences sur les 30 pages » ; « καί en toutes lettres des centaines de fois » (§ 6) | à nuancer | Les sept ϗ revus, y compris celui du f. 170r l. 22, donné jusque-là d'après l'inventaire. Balayage complet des ff. 170r et 172r : aucun autre ϗ. Les 28 autres pages n'ont pas été balayées. Le texte de l'auteur compte 178 καί, crases non comprises | « sept relevés », chiffre minimum ; « environ 170 » |
+| 8 | Encre : « l'encre ne sépare jamais T de S2 » ; « rapports RVB » (§ 2.1) | réfutée | À contraste égal : au f. 168r, plages disjointes (A_B/A_R : T 2,11–2,20, S2 2,34–2,71 ; S2 plus saturé) ; au f. 170r, chevauchement partiel ; au f. 165v, recouvrement. Les rapports des inventaires sont des absorbances, non des valeurs RVB (en RVB, G/R ≈ 0,85 et B/R ≈ 0,5) | § 2.1 réécrit ; § 10, n° 9 |
+| 9 | π̅η̅ρ (f. 172v l. 27, v. 861) (§ 6.3) | confirmée | ×6 : π de forme Π, η « h », ρ ; trait suscrit sur l'η seul. ϖατὴρ en toutes lettres à la l. 26 (×4) | description précisée |
+| 10 | ττ : second τ en γ, forme constante (§ 5.4) | confirmée | Cinq cas sur quatre pages : πάτταλον, ἄττα, φύλαττε, μολοττικοὺς ([V_tt_molott]), θρᾶττ' | — |
+| 11 | -ος de fin de ligne en « © » (§ 5.5) | confirmée | Les quatre exemples à ×3. Faux positif contrôlé : la fin du f. 175v l. 41 est πρώκτισον, à ν en « x » | πρώκτισον ajouté au § 3 ν |
+| 12 | Abréviations de fin de ligne (§ 6.2) | à nuancer | ×3 : ἀθηναί(ων) sûre ; διαλυμαίνετ(αι) et διδοῦσ(αι) probables. Le X d'εἶ(ναι) a la forme du ν « en x » (comparé à πόρον, f. 171v l. 6) : on peut lire εἶν(αι) | tableau complété ; § 9, n° 10 |
+| 13 | Module de 14–16 px ; 43 lignes par page (§ 2.3) | confirmée, chiffres arrondis | `mesures_ecriture.json` relu. Remesure sur quatre pages (huit lignes chacune) : médianes du corps 13–15 px. La segmentation ne trouve que 42 lignes aux ff. 168r et 171r | « ≈ 13–16 px (1,5–1,9 mm) » |
+| 14 | « ἢ en tête de vers huit fois au f. 166v », donné comme exemple de Η oncial (§ 3 η) | à nuancer | Les huit ἢ revus : six Η ; un « h » au v. 345 ([V_eta_h345]) ; un « н » au v. 361 ([V_eta_n361]) | texte corrigé |
+| 15 | σπέος (f. 164r l. 21) : σ « réduit à un point appuyé » (§ 5.2) | confirmée ; description changée | ×5 et ×8 : trois panses sous la barre, contre deux pour le ϖ de ποῦ, comme dans σπογγιεῖ ([V_speos]). Velsen 1883 : « σπέος R πέος G » | description corrigée |
+| 16 | Trémas de τουτωῒ et d'εὔϊον, « que Velsen omet » ; ι adscrit de ἐφ' ὧι τ' (§ 7.3) | confirmée | ×4–5. Velsen 1883 : « τουτωὶ R τουτοΐ G » ; aucune note sur ἐφ' ὧι τ' (v. 1162) | — |
+| 17 | στ en « α » ; critère du « trait oblique montant » (§ 5.2 ; § 8) | à nuancer | Les quatre lieux. Au f. 175v l. 2, deux στ et deux α comparés à ×5 ([V_st_lalis]) : le trait distinctif est horizontal (barre du τ) ; l'« accent » est celui de l'ί qui suit | critère corrigé |
+| 18 | ει de φεύγεις ; « le η de T est toujours un h ou un Η » (§ 5.1) | à nuancer | ×4,5 : forme d'ει plausible. Mais T a aussi un η en « н » (δη μήτηρ ; ἢ du v. 361) | tableau corrigé |
+| 19 | Γ oncial initial ; γι « en Π » (§ 3 γ) | confirmée | γλαυκόν (f. 163r l. 3) ; f. 169v l. 14, 15, 22 ([V_gi_l22]) ; R écrit γιν- | — |
+| 20 | Inclinaison de « 5–15° » ; ρ de σπάρτην « jusqu'à 90 px sous la ligne » (§ 2.5 ; § 3 ρ) | à nuancer | Pointés : ι 5° et 13°, φ ≈ 10°, ρ 17–20°. σπάρτην : environ 65 px sous la ligne de base, 90 px de haut en tout | chiffres corrigés |
+| 21 | Remarques d'Orsini : ε lié au ξ ; « exception » de υρ dans κυρκανᾶισ (§ 2.2) | à nuancer | δεξιάν (×6) et ἔξεστ' : liaison confirmée. κυρκανᾶισ (×5) : liaison υ→ρ seulement, le ρ reste séparé du κ suivant | « exception » retirée |
+| 22 | Critère β/κ par la hauteur de la haste (§ 3 β ; § 8) | à nuancer | βάρβαρον (f. 175r l. 7) : le critère tient. ἀσεβοῦσ' (f. 166v l. 31) : la haste du β monte aussi haut que celle du κ d'ἀδικοῦσί, dans la même ligne ([V_b_asebou], [V_k_adikou]) | critère donné comme tendance |
+
+**Bilan.** Sur 22 contrôles : 9 affirmations confirmées, 10 à nuancer, 3 réfutées. Les descriptions des formes de lettres tiennent : ν/μ, ζ/ξ, σ final, β en « u », ττ, -ος en « © », γι en « Π », π̅η̅ρ. Les erreurs relèvent de trois cas :
+- des affirmations secondaires reprises des inventaires sans contrôle : le prétendu ὀτότυξε de Velsen, l'exception de βαδίζ(ειν), le β « en 6 » ;
+- des généralisations trop absolues : « jamais », « toujours », « le seul », « sept occurrences » ;
+- l'encre, où le chapitre généralisait le recouvrement observé sur certaines pages.
+
+**Non contrôlé dans cette relecture** : les signes de lecture (§ 7, hormis le tréma et l'ι adscrit), la réglure (§ 2.6), la littérature (§ 2.7), la plupart des lignes de la table des confusions (§ 8). Le fac-similé de 1904 n'a pas servi : il ne couvre que les ff. 162v–163r, où aucune lecture contrôlée n'était douteuse.
+
+**À reporter ailleurs** : la faute « ὀτότυξε » est aussi dans le répertoire critique (`velsen1883_1086-1231.jsonl`, notice « colometria » des vv. 1078–1097) et dans l'inv. f. 175v ; l'inv. f. 177r donne à tort un β « en 6 » (διέβαλλε) et un ζ de la forme du ξ (βαδίζ(ειν)).

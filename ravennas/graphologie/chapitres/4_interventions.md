@@ -1,6 +1,6 @@
 # Chapitre 4 — Corrections, grattages et interventions : répertoire et stratigraphie
 
-> **Statut** : première rédaction complète, 28 oct. 2026.
+> **Statut** : première rédaction complète, 28 oct. 2026 ; vérification adversariale le même jour (§ 9), dont les corrections sont portées dans le texte.
 >
 > **Sources.** Les 30 inventaires de page (`ravennas/graphologie/folios/fXXX.md` et `fXXX.jsonl`, 2 203 observations, dont 325 de la catégorie « intervention »), les relevés détaillés (`fXXX_texte.jsonl`), les spécimens (`ravennas/graphologie/specimens/fXXX/`) et mes propres contrôles sur les images à pleine résolution (spécimens `ravennas/graphologie/specimens/chap4/`, planches `ravennas/graphologie/chapitres/planches/4_*.png`). Pour dater, j'ai consulté l'apographe G (Monac. gr. 492, XVe s., numérisation BSB `bsb00108707`) et la Juntine de 1516 (BSB `bsb10912207`). La littérature vient de `recherche/ravennas_dossier.md` et du répertoire critique (`edition/donnees/repertoire_critique/velsen1883_*.jsonl`). Je la cite à part : ce qu'affirment Velsen, Allen ou Austin n'est jamais donné comme observé.
 >
@@ -16,6 +16,7 @@
 6. Conséquences pour l'apparat critique
 7. Contrôles sur l'image : confirmations et rectifications des inventaires
 8. Questions ouvertes
+9. Vérification
 
 ---
 
@@ -60,8 +61,8 @@ Je n'attribue donc aucun accent isolé sur la seule foi de l'encre, sauf quand l
 |---|---|---|---|---|---|
 | **T** (copiste) | R, R^ac/R^pc | minuscule ronde et liée du texte ; lettres suscrites de même module | référence : Δ ≈ 0 (de −0,06 à +0,12 en G/R ; de −0,06 à +0,20 en B/R ; 8 mesures) | corrections en écrivant (biffure, puis le bon mot à la suite) ; relecture (lettres et mots suscrits, μέντοι en marge) ; lacune laissée au v. 506 ; signaux marginaux pour le correcteur | milieu du Xe s. (consensus rapporté par le dossier, § 0) |
 | **S2** (scholiaste) | R² | semi-onciale inclinée (sigles, notes, -εῖν du v. 370) ; minuscule penchée de grand module pour les vers suppléés (« very large, sloped to the right, and fine », Allen 1896, 320) ; esprit rude anguleux « ⊢ » ; circonflexe en « ^ » | souvent un peu plus roux que T : Δ G/R de −0,05 à +0,09, Δ B/R de −0,11 à +0,45 (10 mesures) ; plages qui recouvrent celles de T | vers omis suppléés en marge ; lacune comblée ; suscriptions ; écrits sur grattage ; exponctuations ; accents et esprits ; corrections de ses propres scholies ; sigles abrégés ; signes de renvoi | Xe s., campagne « ultérieure mais rapprochée » (Orsini 2011, 328, d'après le dossier) ; antérieur à G |
-| **Rⁿ** (correcteur à l'encre brun-noir) | R³ redéfini, ou Rⁿ | semi-onciale droite d'assez grand module (ἥκει πάλιν, v. 646) ; Κ majuscule en deux traits (κιν, v. 493) ; ailleurs lettres isolées et accents | **plus neutre et plus sombre que T** : Δ G/R de −0,06 à −0,13, Δ B/R de −0,13 à −0,56 (8 mesures) ; hors des plages de T et de S2 | écrits sur grattage (vv. 493, 646, 874, 939) ; aigus ajoutés sur des oxytons (vv. 650, 661 ?) ; grave (vv. 54, 820 ?) ; esprit rude (v. 1149) | **antérieur à G** : G a ἥκει πάλιν (v. 646, f. 10v de G, contrôlé) ; position relative par rapport à S2 inconnue |
-| **1516, encre orangée** | R^rec | cursive humanistique ; sigles « imprimables » (εὐ, μν, ἀγ, Γυ, κηδ, σκ, χο…) ; Η capital suscrit ; tréma sur υ | **plus jaune-rouge** : Δ G/R de +0,09 à +0,44, Δ B/R de +0,10 à +1,37 (8 mesures ; les plus faibles viennent de sigles posés sur une paragraphos de T, qui mêlent les deux encres) | sigles ; repassage de sigles et de vers suppléés de S2 pâlis ; grattage de sigles anciens ; paragraphoi barrées ; signes d'insertion ; « ; » ; quelques accents et lettres (vv. 443, 803, 806, 1097, 1180, 1191) | préparation de l'édition achevée le 28 janv. 1516 (Velsen 1871, 2–3 ; Clark 1871, 157, d'après le dossier) |
+| **Rⁿ** (correcteur à l'encre brun-noir) | R³ redéfini, ou Rⁿ | écriture droite et espacée d'assez grand module, qui mêle formes majuscules (Κ en deux traits, Α triangulaire, Π à barre, Ε lunaire) et minuscules (η en « h », ν) (ἥκει πάλιν, v. 646) ; Κ majuscule en deux traits (κιν, v. 493) ; ailleurs lettres isolées et accents | **plus neutre et plus sombre que T** pour les lettres récrites : Δ G/R de −0,06 à −0,10, Δ B/R de −0,31 à −0,56 (4 mesures), hors des plages de T et de S2 ; pour les accents isolés, l'écart ne dépasse pas celui des petits signes de T (§ 9) | écrits sur grattage (vv. 493, 646, 874, 939) ; aigu ajouté au v. 650 (probable) ; grave du v. 54 et esprit rude du v. 1149 (possibles) ; vv. 661 et 820 non démontrés | **antérieur à G** : G a ἥκει πάλιν (v. 646, f. 10v de G, contrôlé) ; position relative par rapport à S2 inconnue |
+| **1516, encre orangée** | R^rec | cursive humanistique ; sigles « imprimables » (εὐ, μν, ἀγ, Γυ, κηδ, σκ, χο…) ; Η capital suscrit ; tréma sur υ | **plus jaune-rouge** : Δ G/R de +0,09 à +0,44, Δ B/R de +0,10 à +1,37 (8 mesures ; les plus faibles viennent de sigles posés sur une paragraphos de T, qui mêlent les deux encres) | sigles ; repassage de sigles et de vers suppléés de S2 pâlis ; grattage de sigles anciens ; paragraphoi barrées ; signes d'insertion ; « ; » ; quelques accents et lettres (vv. 443, 803, 806, 1097 à l'encre orangée ; vv. 1180 et 1191 selon Velsen 1871, encre non orangée, § 9) | préparation de l'édition achevée le 28 janv. 1516 (Velsen 1871, 2–3 ; Clark 1871, 157, d'après le dossier) |
 | **1516, mine ou encre pâle grise** | — | traits fins, chiffres arabes humanistiques | gris neutre : G/R ≈ 1,0–1,1 ; B/R ≈ 1,2–1,5 (inventaires) | repères de pages de la Juntine ; barre grise d'une paragraphos au f. 175r (v. 1076a) | 1516 (les « faint pencil marks » de Clark 1871, 159) |
 | **Mains postérieures à G** | R^rec | petite minuscule cursive très légère (κατα, v. 60) ; compendium de καί (v. 306) | brune, non distinctive (κατα) ; trop pâle pour une mesure par classes (καί) | κατα (v. 60) et καί (v. 306) suscrits ; effacement après coup de sigles de 1516 (f. 163r) ; paragraphoi grattées après G (vv. 1193 ?, 1200) | entre G (XVe s.) et 1794 pour κατα |
 | **Modernes** | — | — | crayon rouge, graphite, réactif bleu-vert | soulignement (f. 164r, l. 8) ; traits de crayon ; taches de réactif sur les débuts de scholies ; pièces de restauration ; foliotations | XIXe–XXe s. (réactif, restaurations) |
@@ -76,7 +77,7 @@ Je ne trouve dans la pièce aucune trace d'un correcteur du XIIIe ou du XIVe s. 
 
 1. **T et S2 ne se séparent pas par l'encre sur la plupart des pages.** Les plages se recouvrent (inventaires des ff. 162v, 164r, 164v, 166r, 168v, 169r, 169v, 170v, 171r, 176r, 176v, 177r). Quelques pages font exception : aux ff. 168r, 173r, 173v et 174v (et pour les sigles au f. 172v), l'encre de S2 est un peu plus rousse dans une même zone, et mes mesures à densité égale le confirment au f. 173v (περ du v. 938 : Δ +0,09/+0,17 ; υ de ὀλίγου au v. 935 : Δ +0,08/+0,09). Pour une lettre ou un accent isolés, l'attribution entre T et S2 repose donc sur la forme (semi-onciale, Ν majuscule, esprit en équerre, circonflexe en « ^ » chez S2) ou reste indécise. C'est la raison des 35 entrées « T ou S2 » du répertoire.
 2. **La main de 1516 se sépare toujours de T** par l'encre orangée. Elle ne se sépare pas de certaines notes de forme S2, également orangées (§ 2.4).
-3. **Le groupe Rⁿ se sépare de T et de S2** dans l'autre sens : plus neutre, plus sombre (§ 2.3).
+3. **Le groupe Rⁿ se sépare de T et de S2** dans l'autre sens : plus neutre, plus sombre (§ 2.3). Cela vaut pour les lettres récrites, non pour les accents isolés, que leur petite taille fait mesurer « neutres » quelle que soit la main (§ 9).
 4. **Les grattages ne gardent pas d'encre.** Leur main est presque toujours indéterminée, d'où les 39 grattages seuls rangés en « indét. » (§ 3). Seuls le contexte (sigle de 1516 écrit sur le grattage), la chronologie (leçon de G) ou une série homogène permettent de les rattacher à une campagne.
 
 ### 2.3 Le correcteur à l'encre brun-noir (Rⁿ)
@@ -105,11 +106,13 @@ L'inventaire du f. 176r proposait déjà de les comparer. Je les ai remesurés a
 
 Par classes de densité, l'écart se maintient à chaque niveau : pour ἥκει πάλιν, par exemple, 1,22–1,26 / 1,82–1,90 contre 1,29–1,32 / 2,25–2,38 pour T. Ce n'est donc pas un effet de la densité. L'aigu de καιρός (v. 661) va dans le même sens (Δ −0,05/−0,31), mais sur 11 px seulement. En revanche, l'εῖ récrit sur grattage de ἐπιζεῖν (v. 468), que l'inventaire du f. 168r rapprochait de κιν, a l'encre de T à densité égale (1,26–1,28 / 2,03–2,21 contre 1,26–1,30 / 2,16–2,22) : je ne l'inclus pas dans le groupe.
 
+**Ce que la vérification (§ 9) retient du tableau.** Les quatre lettres récrites (vv. 493, 646, 874, 939) forment un noyau solide. Une mesure indépendante, par classes de contraste, donne le même écart. Les écrits sur grattage d'autres mains ne dévient pas, ce qui écarte un effet du support gratté. L'écart dépasse aussi la variabilité locale de l'encre de T. Les accents sont un autre cas : les petits signes de T (points, accents) mesurent eux aussi « neutres », à cause de leur taille. Le grave du v. 54 a les rapports d'un point de T de la même ligne ; l'esprit du v. 1149 a ceux de l'aigu voisin, il est seulement plus foncé ; le grave du v. 820 ne s'écarte qu'en G/R. Seul l'aigu du v. 650 dispose d'un témoin interne : à côté de lui, un grave de même taille a l'encre de T. Je tiens donc le v. 650 pour probable, les vv. 54 et 1149 pour possibles, les vv. 661 et 820 pour non démontrés.
+
 Planche : `ravennas/graphologie/chapitres/planches/4_groupe_Rn.png`.
 
 ![Groupe Rⁿ](planches/4_groupe_Rn.png)
 
-**Ce que fait ce correcteur.** Il gratte et récrit des lettres ou des mots (vv. 493, 646, 874, 939). Il ajoute aussi des accents : un aigu sur un oxyton devant une pause (v. 650), un grave (vv. 54, 820), un esprit rude (v. 1149). Son écriture, là où elle est assez étendue pour être jugée, est une semi-onciale : ἥκει πάλιν est en lettres espacées, droites, avec Κ, Π, Λ, Ν majuscules, d'un module un peu supérieur à celui des scholies (inventaire du f. 170r, vu) ; κιν a un Κ majuscule en deux traits (inventaire du f. 168r, vu).
+**Ce que fait ce correcteur.** Il gratte et récrit des lettres ou des mots (vv. 493, 646, 874, 939). Il ajoute probablement un aigu sur un oxyton devant une pause (v. 650), peut-être un grave (v. 54) et un esprit rude (v. 1149) ; le grave du v. 820 ne lui est pas rattaché de façon sûre. Son écriture, là où elle est assez étendue pour être jugée, est droite et espacée, d'un module un peu supérieur à celui des scholies. Elle mêle des formes majuscules et minuscules : dans ἥκει πάλιν, Κ en deux traits, Α triangulaire, Π à barre et Ε lunaire, mais η en « h » et ν minuscules (contrôle ×5–×8, spécimen `ravennas/graphologie/specimens/chap4/verif_f170r_l11_v646_hekei_palin_formes.png`) ; κιν a un Κ majuscule en deux traits, avec ι et ν minuscules (`…/verif_f168r_l28_v493_kin.png`).
 
 **Date.** G lit ἀλλὰ δεῦρ᾽ ἥκει πάλιν au v. 646 (Monac. gr. 492, f. 10v, image BSB `bsb00108707_0024`, contrôlée). Velsen 1883 ne signale pas non plus de divergence de G pour κινώμεθα (v. 493) ni pour ποίου (v. 874). Ces écrits sur grattage sont donc **antérieurs au XVe s.** Pour les accents, G ne tranche pas : il garde le grave de ἐγὼ (v. 650) et le τάδε sans accent nouveau (v. 54). Son copiste a pu ignorer une correction d'accent.
 
@@ -118,27 +121,30 @@ Planche : `ravennas/graphologie/chapitres/planches/4_groupe_Rn.png`.
 - S2 dans une autre campagne, avec une autre encre : les formes de semi-onciale sont les siennes, et Allen (1896, 316) comme Velsen 1883 donnent ἥκει πάλιν et κιν à B / R² ;
 - une troisième main ancienne, ce que suggère l'écart d'encre. Ce serait le seul candidat au « R³ paullo recentior » de la préface de Velsen 1883.
 
-Je n'ai observé aucune superposition entre une intervention de Rⁿ et une intervention de S2 : leur ordre relatif est inconnu. Velsen 1871 donne le grave du v. 54 à la « 2 m. » (1516), mais l'encre n'est pas orangée, et c'est celle du groupe.
+Je n'ai observé aucune superposition entre une intervention de Rⁿ et une intervention de S2 : leur ordre relatif est inconnu. Velsen 1871 donne le grave du v. 54 à la « 2 m. » (1516), mais l'encre n'est pas orangée : un trait orangé de taille voisine garde sa couleur (haste du v. 1194 : B/R 3,38), alors que ce grave mesure 1,51. Cette encre est plus neutre que celle de T, comme celle du groupe ; mais un point de T de la même ligne mesure de même (§ 9) : la main reste indécise.
 
 ### 2.4 L'encre orangée : ce qu'elle prouve et ce qu'elle ne prouve pas
 
-**La main de 1516.** L'encre orangée signe d'abord la main de 1516. Ses sigles « imprimables » manquent dans G et passent dans la Juntine, avec leurs erreurs : fausses attributions aux vv. 173, 206 et 208 (inventaire du f. 164v). Ses corrections du texte ont la même encre :
+**La main de 1516.** L'encre orangée signe d'abord la main de 1516. Ses sigles « imprimables » manquent dans G et passent dans la Juntine, avec leurs erreurs : fausses attributions aux vv. 173, 206 et 208 (inventaire du f. 164v). Quatre de ses corrections du texte ont la même encre :
 
-- le grave de παρὰ barré au v. 803 (Δ +0,33/+1,02, contrôlé) ;
-- le grave ajouté sur πρὸς au v. 806 (Δ +0,36/+0,91, contrôlé) ;
-- la seconde boucle de ὀλίγων au v. 443 (Δ +0,13/+0,48, contrôlé) ;
-- le grave de καὶ au v. 1097 ;
-- les accents de κατὰ τὸ au v. 1180 ;
-- σκ tiré de ο ο ο au v. 1191.
+- le grave de παρὰ barré au v. 803 (Δ +0,33/+1,02, contrôlé ; la branche qui barre mesure B/R 3,19, le grave de T 1,63) ;
+- le grave ajouté sur πρὸς au v. 806 (Δ +0,36/+0,91, contrôlé ; B/R 2,62 contre 2,26 pour T) ;
+- la seconde boucle de ὀλίγων au v. 443 (Δ +0,13/+0,48, contrôlé ; B/R 2,79 contre 2,19 pour la première boucle, écart faible sur une ligne de T déjà rousse, 2,49) ;
+- le grave de καὶ au v. 1097 (B/R 3,49 contre 2,32 pour T, vérifié).
 
-Velsen 1871 donne à sa « 2 m. » celles des vv. 443, 803, 806, 1097 et 1180 (d'après les inventaires).
+Deux autres ne l'ont pas (§ 9) :
 
-**Le repassage.** Cette main repasse aussi des écritures anciennes pâlies. Velsen 1871 le dit des sigles de S2 aux vv. 5, 19 et 39 (« schol. m. überzogen von 2 m. », d'après l'inventaire du f. 162v, où les lettres suscrites de S2 sont restées brunes). Je le vois sur deux vers suppléés par S2 :
+- les graves de κατὰ τὸ au v. 1180 mesurent 1,60 et 1,78, moins que T (1,89) ;
+- le σκ tiré de ο ο ο au v. 1191 mesure comme le troisième ο, que personne n'a corrigé (2,27–2,29 contre 2,15), et la carte B/R n'y montre aucune plage orangée.
 
-- **v. 33** (f. 162v). La ligne (a), μῶν ὁ δασυπώγων, est brune. Les lignes (b) et (c), οὐχ ἑόρακας πώ|ποτε, ainsi que le δ de δασυπώγων, sont repassées en orangé. L'εὐ et le « ; » sont ajoutés (spécimens `ravennas/graphologie/specimens/chap4/f162v_v33_marge.png` et `…/f162v_v33_marge_carte_BR.png`). G omet ce vers (Velsen 1883 : « versum omm. RG »). La Juntine l'imprime : « Μν· μῶν ὁ δασυπώγων ; Εὐ· οὐχ ἑώρακας πώποτε ; » (f. a iii v°, contrôlé), avec précisément les sigles et la ponctuation de 1516.
-- **v. 169** (f. 164v). Le début, « — ὁ δ᾽ αὖ ξενο- », est plus orangé que la suite (`ravennas/graphologie/specimens/chap4/f164v_v169_marge_carte_BR.png`). Or G a laissé un blanc à la place de δ᾽ αὖ, ajouté ensuite en marge (Velsen 1883 : « ὁ spat. rel. ξενοκλῆς et in margine δ᾽ αὖ G »).
+Pour ces deux lieux, l'attribution à 1516 ne repose que sur Velsen 1871 et sur les inventaires. Velsen 1871 donne à sa « 2 m. » les corrections des vv. 443, 803, 806, 1097 et 1180 (d'après les inventaires).
 
-Les parties repassées en 1516 sont donc celles que G, un siècle plus tôt, lisait mal ou pas du tout. Allen décrivait déjà un vers « perished, and been partly revived » ; sa notice vise le v. 28, mais elle ne convient qu'au v. 33 (inventaire du f. 162v).
+**Le repassage.** Cette main repasse aussi des écritures anciennes pâlies. Velsen 1871 le dit des sigles de S2 aux vv. 5, 19 et 39 (« schol. m. überzogen von 2 m. », d'après l'inventaire du f. 162v, où les lettres suscrites de S2 sont restées brunes). Je le vois nettement sur un vers suppléé par S2, le v. 33 ; le v. 169 est moins clair :
+
+- **v. 33** (f. 162v). La ligne (a), μῶν ὁ δασυπώγων, est brune. Les lignes (b) et (c), οὐχ ἑόρακας πώ|ποτε, ainsi que le δ de δασυπώγων, sont repassées en orangé (vérifié : (a) B/R 1,91, δ 2,66, (b) 2,63, (c) 2,53, contre 2,03 pour T et 2,09 pour la scholie voisine). L'εὐ et le « ; » sont ajoutés (spécimens `ravennas/graphologie/specimens/chap4/f162v_v33_marge.png` et `…/f162v_v33_marge_carte_BR.png`). G omet ce vers (Velsen 1883 : « versum omm. RG »). La Juntine l'imprime : « Μν· μῶν ὁ δασυπώγων ; Εὐ· οὐχ ἑώρακας πώποτε ; » (f. a iii v°, contrôlé), avec précisément les sigles et la ponctuation de 1516.
+- **v. 169** (f. 164v). L'inventaire et ma première lecture voyaient le début, « — ὁ δ᾽ αὖ ξενο- », plus orangé que la suite (`ravennas/graphologie/specimens/chap4/f164v_v169_marge_carte_BR.png`). La vérification ne le confirme pas (§ 9, `…/verif_f164v_v169_carteBR.png`). Tout le supplément est plus roux que la scholie voisine (B/R 2,11) et que T (2,00) : tiret 2,88, ὁ δ᾽ αὖ 2,54, ξενο- 2,59, κακὸς κακῶς 2,48, ποεῖ 2,62 ; seul -κλῆς ὢν l'est moins (2,25). G a laissé un blanc à la place de δ᾽ αὖ, ajouté ensuite en marge (Velsen 1883 : « ὁ spat. rel. ξενοκλῆς et in margine δ᾽ αὖ G »). Mais ποεῖ, que G lisait, est aussi roux que le début. Le v. 169 a donc pu être repassé en entier, ou écrit d'une encre plus rousse ; il ne prouve pas un repassage limité à ce que G lisait mal.
+
+Au v. 33, les parties repassées en 1516 sont bien celles que G, un siècle plus tôt, ne lisait pas. Allen décrivait déjà un vers « perished, and been partly revived » ; sa notice vise le v. 28, mais elle ne convient qu'au v. 33 (inventaire du f. 162v).
 
 **Les notes orangées attestées par G.** Des notes de forme S2 sont à l'encre orangée alors que G les reproduit déjà :
 
@@ -152,7 +158,7 @@ J'ai contrôlé les deux notes du f. 175v (`ravennas/graphologie/specimens/chap4
 - S2 aurait eu une encre qui a viré à l'orangé ;
 - la main de 1516 aurait repassé des notes que G avait déjà copiées.
 
-La seconde est la plus économique : elle applique à ces notes la pratique attestée aux vv. 5, 19, 39, 33 et 169. L'inventaire du f. 176v voit d'ailleurs des pixels bruns sur les contours du κη^δ du v. 1207. Elle n'est pas prouvée.
+La seconde est la plus économique : elle applique à ces notes la pratique attestée aux vv. 5, 19, 39 et 33 (le v. 169 est moins net, voir ci-dessus). L'inventaire du f. 176v voit des pixels bruns sur les contours du κη^δ du v. 1207. Ce n'est pas un indice : les sigles orangés de 1516 de la même page (σκ, ll. 17 et 19) ont eux aussi des contours « bruns » (52 % et 31 % des pixels de bord, contre 55 % pour le κη^δ). C'est un effet du bord du trait et de la compression (§ 9). L'hypothèse du repassage n'est pas prouvée.
 
 Planche : `ravennas/graphologie/chapitres/planches/4_main_1516.png`.
 
@@ -164,10 +170,10 @@ Planche : `ravennas/graphologie/chapitres/planches/4_main_1516.png`.
 
 Les repères des pages de la Juntine (tableau C) sont des traits fins et des chiffres gris neutres. C'est de la mine de plomb ou une encre très diluée, les « faint pencil marks » de Clark 1871, 159. Deux exceptions :
 
-- au f. 174v, le repère de la p. c 13 est un trait **orangé** ;
+- au f. 174v, le repère de la p. c 13 est un trait fin **d'encre** brun-orangé pâle : B/R 2,19, contre 1,95 pour la scholie voisine et 2,7–3,9 pour les sigles orangés (vérifié, § 9) ;
 - au f. 171r, celui de c 1 est ocre pâle.
 
-Au f. 175r, la paragraphos du v. 1076a est barrée d'un trait gris, et non orangé. La préparation de 1516 a donc employé au moins deux matériaux. La distinction ne se laisse pas réduire à « sigles à l'encre, repères à la mine ». Il peut s'agir d'une seule main en plusieurs passes ou de deux mains (questions ouvertes des inventaires des ff. 165v et 175r).
+Au f. 175r, la paragraphos du v. 1076a est barrée d'un trait gris, et non orangé ; au f. 165r, les barres des vv. 232 et 234 ne sont pas orangées non plus (§ 9). La préparation de 1516 a donc employé au moins deux matériaux, si ces barres sont bien d'elle. La distinction ne se laisse pas réduire à « sigles à l'encre, repères à la mine ». Il peut s'agir d'une seule main en plusieurs passes ou de deux mains (questions ouvertes des inventaires des ff. 165v et 175r).
 
 ### 2.6 Ajouts postérieurs à G
 
@@ -234,16 +240,16 @@ La biffure est de T pour les deux premières. Pour παυ, comme pour γε au v.
 - κ sur le γ de ἔγμαγμα (v. 514) ; ν sur le ρ de ἂρ (v. 549) ;
 - ν de ἀποστερουμένη^ν (v. 698) ; κ de κα^κ^κάσκι (v. 1089) ; θ de πα^θ^ρνον (v. 1105).
 
-Il écrit aussi en marge : μέντοι au v. 630, dans sa minuscule et son encre (contrôlé ; `ravennas/graphologie/specimens/chap4/f169v_l38_v630_mentoi_T.png`) ; τὼ ajouté en tête du v. 1183, hors justification.
+Il écrit aussi en marge : μέντοι au v. 630 (`ravennas/graphologie/specimens/chap4/f169v_l38_v630_mentoi_T.png`, `…/verif_f169v_l38_v630_mentoi.png`) ; τὼ ajouté en tête du v. 1183, hors justification. Pour μέντοι, la main de T est probable, non prouvée. L'encre est celle de T (Δ +0,03/+0,11), mais elle ne départage pas T et S2 (§ 2.2). C'est la forme qui décide : une petite minuscule rapide, de module inférieur au texte, avec le μ à longue haste de T, et non la minuscule penchée de grand module des vers suppléés par S2.
 
-**Lacune et signaux.** Au v. 506, T laisse un blanc que S2 comble par βοώιη. Il laisse aussi des **signaux** au correcteur, sans corriger lui-même :
+**Lacune et signaux.** Au v. 506, T laisse un blanc que S2 comble par βοώιη. Il laisse aussi des **signaux** au correcteur, sans corriger lui-même (attribution d'Allen 1896 ; voir la réserve ci-dessous) :
 
 - signe incliné à crochet après ὠϋριπίδη au v. 4 (f. 162v) ;
 - « ⋎ » arrondi devant le v. 807, au f. 172r (la faute présumée est στρατωνίκην, Allen 1896, 317) ;
 - « √ » pointé au v. 1135, au f. 176r ;
 - trait oblique en « √ » au v. 1176, au f. 176v (main probable).
 
-Ce sont les seuls signaux de T dans la pièce. Tous les autres « + » des bandes de sigles sont des paragraphoi barrées (tableau B).
+Ce sont les seuls signaux relevés par les inventaires. Tous les autres « + » des bandes de sigles sont des paragraphoi barrées (tableau B). Les quatre signes sont de la même famille : un trait oblique ou en « √ », flanqué de deux points (vérifié aux vv. 4, 807, 1135 et 1176, § 9). Leur attribution à T vient d'Allen 1896 et ne se vérifie pas à l'image. Aux vv. 1135 et 1176, le signe touche le σκυ^θ de S2 et en a l'encre pâle : S2 n'est pas exclu.
 
 ### 3.3 Les corrections de S2
 
@@ -252,7 +258,7 @@ Ce sont les seuls signaux de T dans la pièce. Tous les autres « + » des bande
 | v. | Page | Remarque |
 |---|---|---|
 | 33 | f. 162v, marge droite | sigle μ· de S2 ; repassé en partie en 1516, qui ajoute εὐ et « ; » |
-| 169 | f. 164v, marge extérieure | croix de renvoi de S2 prolongée par un trait de 1516 ; début repassé en 1516 |
+| 169 | f. 164v, marge extérieure | croix de renvoi de S2 prolongée par un trait de 1516 ; supplément roux d'un bout à l'autre, repassage en 1516 incertain (§ 9) |
 | 647 | f. 170r, marge droite | encadré par des ÷ de renvoi ; ἰσθμὸν corrigé (ο sur une trace abrasée) |
 | 1102–1103 | f. 175v, marge inférieure | signe de renvoi « —+:— » / « +: » ; jargon du Scythe normalisé (γοργόνος, κεφαλῆ) |
 
@@ -291,8 +297,8 @@ Les accents et les esprits forment 40 % du répertoire (142 entrées sur 351), a
    - καινόν, ἁγνήν, εἰκός (vv. 967, 971, 974, f. 174r) ;
    - en croix : κακόν (v. 195), σεαυτόν (v. 234), πόντου (v. 44), τουτί (v. 73).
 
-   Le correcteur applique la règle de l'oxyton à la pause et laisse visible le grave de T. La main n'est identifiable qu'aux vv. 650 et 661, où l'aigu a l'encre de Rⁿ. Ailleurs, on reste entre T relisant, S2 et Rⁿ.
-2. **Le sens inverse : un grave ajouté contre l'aigu de T.** C'est le cas de εἰσὶν (v. 820, encre de type Rⁿ) et de στρατηγὸν (v. 833).
+   Le correcteur applique la règle de l'oxyton à la pause et laisse visible le grave de T. La forme n'est pas uniforme (vérifié, § 9). Aux vv. 594, 603, 604, 967 et 974, l'accent est un « ✓ » soudé : un trait court et épais, prolongé par un délié capillaire montant. Les aigus ordinaires de T sur les mêmes lignes sont des traits simples, ce qui confirme une correction. Au v. 650, au contraire, deux traits séparés et de même poids forment un « \ / ». La main n'est probable qu'au v. 650 : l'aigu y a une encre plus neutre que le grave voisin, qui a celle de T. Au v. 661, 11 px ne suffisent pas, et les déliés des « ✓ » sont trop fins pour être mesurés. Ailleurs, on reste entre T relisant, S2 et Rⁿ.
+2. **Le sens inverse : un grave ajouté contre l'aigu de T.** C'est le cas de εἰσὶν (v. 820 ; l'encre du grave n'est plus neutre que celle de T qu'en G/R, ce qui ne suffit pas à le donner à Rⁿ) et de στρατηγὸν (v. 833).
 3. **Accents grattés.** Un grave ou un circonflexe est supprimé sur les enclitiques et les monosyllabes : εἰμι (v. 190), ἐστιν (vv. 904, 1172), γαρ (v. 898), νη (v. 745 ; v. 623 selon Velsen seul), ὁς (v. 621, selon Velsen seul). Un second accent est supprimé : ἀνταυγεῖς (v. 902), ὕμνων (v. 124), ἀπόλλω (v. 748), τιμοκλεῖ (v. 373), ἡμῖν changé en ἥμιν (v. 376). Ces grattages ne gardent pas d'encre. Le correcteur est indéterminé, mais la correction est systématique et de même esprit que la série 1 : une normalisation grammaticale de l'accentuation de T.
 
 À cela s'ajoutent des accents et des esprits simplement **ajoutés** sur des mots que T n'accentuait pas : huit au f. 174r, plusieurs aux ff. 173r, 173v, 174v, 176v. Velsen 1883 les donne à R². Ils sont minces, souvent hauts placés, et l'encre ne tranche pas (§ 2.2).
@@ -307,9 +313,9 @@ Les accents et les esprits forment 40 % du répertoire (142 entrées sur 351), a
 
 - sigles écrits sur les sigles grattés de S2 (vv. 34, 173, 211, 295, 380, 466, 907–908) ;
 - repassages ;
-- paragraphoi barrées d'une haste quand la Juntine ne veut pas de changement de locuteur (vv. 232, 234, 246, 264, 273, 274, 1076a, 1078a, 1092b, 1093, 1095, 1184, 1194, 1195, 1204, 1221).
+- paragraphoi barrées d'une haste quand la Juntine ne veut pas de changement de locuteur (vv. 232, 234, 246, 264, 273, 274, 1076a, 1078a, 1092b, 1093, 1095, 1184, 1194, 1195, 1204, 1221). La haste est orangée aux vv. 1194 et 1204 (vérifié : B/R 3,38 et 2,53, contre 2,08 et 1,69 pour la paragraphos). Elle est grise ou brun pâle aux vv. 232 et 234 (1,93 et 1,83, comme la paragraphos, alors que le sigle orangé voisin mesure 2,69) et au v. 1076a. Là, l'attribution à 1516 repose sur Velsen 1871 (« — I m. del. 2 m. »).
 
-Une partie de ces barres est fausse : au v. 608, le changement de locuteur est réel.
+La barre du v. 608 annule à tort un changement de locuteur réel. Elle n'est pas de 1516 : sa haste a l'encre brune de la paragraphos (B/R 2,09 contre 2,37), alors que le κλ orangé de 1516, juste à côté, mesure 3,90. Velsen 1871 écrit « ipsa I m. delevit » (tableau B).
 
 ---
 
@@ -358,7 +364,7 @@ Spécimens : `ravennas/graphologie/specimens/f163r/`.
 | 5 | 45c | λέγει — rasure de la fin du mot ; seuls des résidus bruns y restent | ras. | lettre/mot | indét. | probable (rasure) | f163r_l05_legei_grattage.jpg |
 | 6 | 46 | κατακοιμάσθω — grave gratté sur κατα ? | ras. | accent/esprit | indét. | incertaine | f163r_l06_kata_grave_gratte_bleu.jpg |
 | 17 | 54 | 1er τάδε — grave sur δε | acc. | accent/esprit | T/S2 | incertaine | f163r_l17_tade_grave.jpg |
-| 17 | 54 | 2e τάδε — grave brun-noir sur δε ; hachures sur l'α (aigu gratté ?) **[Contrôle : encre brun-noir, Δ −0,07/−0,44 à densité égale : groupe Rⁿ.]** | acc. | accent/esprit | Rⁿ | probable (encre distincte) | f163r_l17_tade2_grave_sombre.jpg |
+| 17 | 54 | 2e τάδε — grave brun-noir sur δε ; hachures sur l'α (aigu gratté ?) **[Contrôle : encre brun-noir, Δ −0,07/−0,44 à densité égale : groupe Rⁿ.] [Vérification : trace dense de 35 px, non orangée ; un point de T de la même ligne mesure de même (1,14/1,60 contre 1,19/1,51) : Rⁿ possible, non démontré.]** | acc. | accent/esprit | Rⁿ ? | possible (encre non concluante) | f163r_l17_tade2_grave_sombre.jpg |
 | 21 | 57b | λαικάζει — αι sur rasure (état premier λεκ- ?) | ras. + écr. | lettre/mot | S2 | probable | f163r_l21_ai_sur_grattage.jpg |
 | 24 | 60 | καλλιεποῦσ ^κατα^ τοῦ — κατα suscrit en petite minuscule **[Contrôle : encre non distincte de T ; κατα absent de G (f. 2r, contrôlé) et de la Juntine.]** | add. supra | lettre/mot | tardive ? | incertaine (attribution) | f163r_l24_kata_suscrit.jpg |
 | 27 | 63 | ὢν — accent empâté par surcharge (ὧν → ὢν) | surch. | accent/esprit | S2 | probable | f163r_l27_on_accent.jpg |
@@ -409,7 +415,7 @@ Spécimens : `ravennas/graphologie/specimens/f164v/`.
 |---|---|---|---|---|---|---|---|
 | 2 | 166 | sigle gratté (Velsen 1883) ; zone abrasée, résidus ponctuels | loc. | locuteur | 1516 | possible | l02_zone_grattee_166.jpg |
 | 4 | 168–169 | renvoi : croix « × » pointée après ποεῖ·, prolongée par un long trait | signe | signe | S2 + 1516 | probable | l04_signe_renvoi.jpg |
-| marge, l. 5–6 | 169 | vers omis par T (saut du même au même), suppléé : ὁ δ᾽ αὖ ξενοκλῆς ὢν κακὸς κακῶς / ποεῖ· **[Contrôle : le début (— ὁ δ᾽ αὖ ξενο-) est repassé à l'encre orangée, là où G laisse un blanc.]** | add. marg. | vers/ligne | S2 + 1516 | écriture S2 probable ; repassage […] | mg_v169.jpg |
+| marge, l. 5–6 | 169 | vers omis par T (saut du même au même), suppléé : ὁ δ᾽ αὖ ξενοκλῆς ὢν κακὸς κακῶς / ποεῖ· **[Contrôle : le début (— ὁ δ᾽ αὖ ξενο-) est repassé à l'encre orangée, là où G laisse un blanc.] [Vérification : tout le supplément est plus roux que la scholie voisine (B/R 2,25–2,88 contre 2,11), ποεῖ (2,62) autant que le début ; le repassage limité au début n'est pas établi.]** | add. marg. | vers/ligne | S2 + 1516 | écriture S2 probable ; repassage […] | mg_v169.jpg |
 | 5 | 170 | ὢν omis, ajouté au-dessus de la ligne | add. supra | lettre/mot | T | probable | l05_on_supra.jpg |
 | 8 | 173 | sigle gratté, remplacé par ἀγ | loc. | locuteur | 1516 | certain | l08_sigle_ag_rasura.jpg |
 | 23 | 188 | παρών : aigu (corr. ex παρὼν, Velsen) ; aucune trace du grave | acc. | accent/esprit | T/S2 | possible | l23_parwn_accent.jpg |
@@ -431,7 +437,7 @@ Spécimens : `ravennas/graphologie/specimens/f165r/`.
 | 14 | 222 | κέκραγας ; — virgule ajoutée au point inférieur du dicolon, qui devient « ; » | ponct. | ponctuation | 1516 | probable | l14_kekragas_point_interrogation.jpg |
 | 14 | 222 | ὤιμοι √ τί — signe d'insertion en coche | signe | signe | 1516 | probable | l14_signe_insertion_v.jpg |
 | 16 | 224 | θεῖσ ^ εἰσ — signe d'insertion | signe | signe | 1516 | probable | l16_signe_insertion_zoom.jpg |
-| 24, 26, 38 | 232, 234, 246 | bande des sigles — paragraphos de T barrée d'un trait vertical | loc. | locuteur | 1516 | probable | l24_paragraphos_barree.jpg |
+| 24, 26, 38 | 232, 234, 246 | bande des sigles — paragraphos de T barrée d'un trait vertical **[Vérification : hastes des vv. 232 et 234 non orangées (B/R 1,93 et 1,83 ; sigle orangé voisin 2,69) : 1516 d'après Velsen 1871 seulement.]** | loc. | locuteur | 1516 | probable | l24_paragraphos_barree.jpg |
 | 26 | 234 | σεαυτόν — accent en croix : grave changé en aigu | surch. | accent/esprit | T/S2 | possible | l26_seauton_accent_corrige.jpg |
 | 27 | 235 | ὁρᾶι^σ — petit σ suscrit ajouté | add. supra | lettre/mot | T/S2 | probable | l27_horais_sigma_suscrit.jpg |
 | 37 | 245 | ἰοὺ — grave traversé (reste du circonflexe ?) | acc. | accent/esprit | S2 | possible | l37_ious_accent_corrige.jpg |
@@ -515,7 +521,7 @@ Spécimens : `ravennas/graphologie/specimens/f167v/`.
 | 11 | 434 | οὐπώ^πο^ τε — « πο » suscrit entre ώ et τε, sans doute avec l'aigu de ώ ; τε non effacé | add. supra | lettre/mot | S2 | haute | f167v_l11_chi_po_S2.jpg |
 | 17 | 439 | διεζητημένους — trait court de l'encre de T au-dessus de l'ε ; correction « ex διἔζ- » (Velsen 1883) non visible | non visible | accent/esprit | indét. | basse ; Velsen seul | f167v_l17_diezetemenous.jpg |
 | 18–20 | 440 | trait diagonal — trait de mine, de x≈430 (milieu des scholies) à x≈1670 (fin de la l. 20) ; coupe scholies et texte | impr. | repère | 1516 (mine) | moyenne | f167v_l18_trait_graphite.jpg |
-| 21 | 443 | ὀλίγον → ὀλίγων — seconde boucle ajoutée à droite de l'ο **[Contrôle : boucle droite orangée, Δ +0,13/+0,48.]** | surch. | lettre/mot | 1516 | moyenne | f167v_l21_oligwn_contraste.jpg |
+| 21 | 443 | ὀλίγον → ὀλίγων — seconde boucle ajoutée à droite de l'ο **[Contrôle : boucle droite orangée, Δ +0,13/+0,48.] [Vérification : boucle droite B/R 2,79, boucle gauche 2,19 ; écart confirmé, mais faible sur une ligne rousse (T 2,49).]** | surch. | lettre/mot | 1516 | moyenne | f167v_l21_oligwn_contraste.jpg |
 | 27 | 449 | τέως — correction « ex τεὼς » (Velsen 1883) non visible : aigu sur ε, pas de grave ni de grattage sur ω | ras. | accent/esprit | indét. | basse ; Velsen seul | f167v_l27_teos.jpg |
 | 34 | 456 | αὐτοστραφεὶς — esprit anguleux en croix sur l'υ, d'encre de type S2 (1,49 ; 2,83) | acc. | accent/esprit | T/S2 | basse | f167v_l34_esprit_croix.jpg |
 | 36 | 458 | σὐνθηματιαίους — σ très foncé et épais, fond éclairci autour de συ (grattage probable) ; l'esprit resté sur l'υ trahit l'ancienne leçon οὐν- | ras. | lettre/mot | S2 ? | moyenne | f167v_l36_syn_grattage.jpg |
@@ -533,7 +539,7 @@ Spécimens : `ravennas/graphologie/specimens/f168r/`.
 | 23 | 488 | trait au graphite sous ἐρειδόμην | lecteur | repère | moderne | probable | f168r_l23_crayon_ereid.jpg |
 | 24 | 489 | κύβδ' : β fermé « ϐ », peut-être sur un ν | surch. | lettre/mot | indét. | possible | f168r_l24_agyia_kybd.jpg |
 | 24 | 489 | ἀγυιᾶ : crochet sur l'α final | acc. | accent/esprit | indét. | incertaine | f168r_l24_agyia_kybd.jpg |
-| 28 | 493 | κινώμεθα : κιν récrit sur grattage ; nuage gris et bande oblique de grattage **[Contrôle : Δ −0,06/−0,31 : groupe Rⁿ.]** | ras. + écr. | lettre/mot | Rⁿ | grattage certain ; leçon première […] | f168r_l28_kin_rasura.jpg |
+| 28 | 493 | κινώμεθα : κιν récrit sur grattage ; nuage gris et bande oblique de grattage **[Contrôle : Δ −0,06/−0,31 : groupe Rⁿ.]** **[Vérification : Κ en deux traits, ι et ν minuscules ; Δ −0,07/−0,30 par classes de contraste.]** | ras. + écr. | lettre/mot | Rⁿ | grattage certain ; leçon première […] | f168r_l28_kin_rasura.jpg |
 | 30 | 495 | ἵν' : arc d'un η gratté (ἦν > ἶν), la haste restant comme ι | ras. | lettre/mot | S2 (Velsen) | probable | f168r_l30_in_rasura.jpg |
 | 30 | 495 | εἰσιὼν : aigu barré (petite croix), grave au-dessus | acc. | accent/esprit | T | probable | f168r_l30_eision_accents.jpg |
 | 41 | 506 | βοώιη ajouté dans une lacune laissée par T | suppl. lac. | lettre/mot | S2 | ajout certain | f168r_l41_boie_supplement.jpg |
@@ -575,14 +581,14 @@ Spécimens : `ravennas/graphologie/specimens/f169v/`.
 | l. | v. | Intervention | Procédé | Objet | Main | Cert. | Spécimen |
 |---|---|---|---|---|---|---|---|
 | 2 | 594 | θεώ : aigu long à départ en crochet, grave transformé en aigu (Velsen : « corr. ex θεὼ ») | acc. | accent/esprit | T/S2 | moyenne | f169v_l02_theo_accent.jpg |
-| 11 | 603 | σύ : accent en V, aigu ajouté au grave sans grattage (Velsen : « corr. ex σὺ ») | acc. | accent/esprit | T/S2 | haute (correction) | f169v_l11_su_accent_V.jpg |
+| 11 | 603 | σύ : accent en V, aigu ajouté au grave sans grattage (Velsen : « corr. ex σὺ ») **[Vérification : « ✓ » soudé : trait court et épais prolongé par un délié montant ; les aigus ordinaires de T sont simples. Même forme aux vv. 594 et 604.]** | acc. | accent/esprit | T/S2 | haute (correction) | f169v_l11_su_accent_V.jpg |
 | 12 | 604 | ἐγώ· : accent en V (Velsen : « corr. ex ἐγὼ· ») | acc. | accent/esprit | T/S2 | moyenne | f169v_l12_ego_accent_V.jpg |
-| 16 | 608 | paragraphos barrée d'un trait vertical fin et pâle | loc. | locuteur | T | moyenne | f169v_l16_kl_1516_croix.jpg |
+| 16 | 608 | paragraphos barrée d'un trait vertical fin et pâle **[Vérification : haste brune (B/R 2,09 ; paragraphos 2,37), alors que le κλ orangé voisin mesure 3,90 : pas l'encre de 1516.]** | loc. | locuteur | T | moyenne | f169v_l16_kl_1516_croix.jpg |
 | 17 | 609 | τίτθην η δι' : traces d'un grave et de points grattés au-dessus de τιτθην et de η (Velsen : « corr. ex τιτθὴν ἥ (vel ἤ) ») | ras. | accent/esprit | indét. | moyenne | f169v_l17_titthen_grattage.jpg |
 | 28 | 620 | paragraphos annulée par un petit trait vertical (⊥) | loc. | locuteur | T | haute | f169v_l28_paragraphos_annulee.jpg |
 | 29 | 621 | ὁς : grave gratté selon Velsen, invisible sur l'image | ras. | accent/esprit | indét. | faible ; Velsen seul | f169v_l29_poion_esth_o_os.jpg |
 | 31 | 623 | νη : grave gratté selon Velsen (« ras. »), invisible sur l'image | ras. | accent/esprit | indét. | faible ; Velsen seul | f169v_l31_ne_dia.jpg |
-| 38 | 630 | μέντοι, omis, écrit en marge dans la zone des sigles et relié au vers par un trait **[Contrôle : minuscule et encre de T ; G omet μέντοι.]** | add. marg. | lettre/mot | T | moyenne | f169v_l38_mentoi_marge.jpg |
+| 38 | 630 | μέντοι, omis, écrit en marge dans la zone des sigles et relié au vers par un trait **[Contrôle : minuscule et encre de T ; G omet μέντοι.]** **[Vérification : encre de T (Δ +0,03/+0,11), qui ne sépare pas T et S2 ; petite minuscule rapide à μ de T : main de T probable par la forme.]** | add. marg. | lettre/mot | T | moyenne | f169v_l38_mentoi_marge.jpg |
 | 42 | 634 | δεῦρο → δεῦρ' ὦ : point et crochet au-dessus de ρο, ω de deux boucles accolées | non visible | lettre/mot | S2 (Velsen) | faible ; Velsen seul | f169v_l42_deuro_corr.jpg |
 
 #### f170r
@@ -593,9 +599,9 @@ Spécimens : `ravennas/graphologie/specimens/f170r/`.
 |---|---|---|---|---|---|---|---|
 | marge dr., l. 9–10 | 647 | vers omis ajouté : ÷ ἰσ^θμὸν τίν' ἔχ^εις ὤνθρ^ε ἄνω τε καὶ κάτω, suivi d'un petit x **[Contrôle : encre de S2 (Δ +0,08/+0,23).]** | add. marg. | vers/ligne | S2 | certaine | f170r_add647_marge.jpg |
 | id. | 647 | ἰσθμὸν : ο d'encre un peu différente, trace pâle et abrasée au-dessus de -ον ; cela s'accorde avec « ἰσθμον ras. corr. ex ἰσθμὶν » (Velsen 1883) | ras. | lettre/mot | S2 | probable | f170r_isthmon_m647.jpg |
-| 11 | 646 | ἥκει πάλιν écrit sur un grattage qui dépasse les mots vers la droite (jusqu'à x ≈ 1100) ; leçon grattée illisible **[Contrôle : Δ −0,09/−0,41 à densité égale : groupe Rⁿ ; G a déjà ἥκει πάλιν.]** | ras. + écr. | lettre/mot | Rⁿ | grattage et autre écriture : certains […] | f170r_hekei_palin_l11_clahe.jpg |
+| 11 | 646 | ἥκει πάλιν écrit sur un grattage qui dépasse les mots vers la droite (jusqu'à x ≈ 1100) ; leçon grattée illisible **[Contrôle : Δ −0,09/−0,41 à densité égale : groupe Rⁿ ; G a déjà ἥκει πάλιν.]** **[Vérification : Δ −0,09/−0,42 par classes de contraste ; Κ, Α, Π, Ε de type majuscule, η et ν minuscules ; G (BSB 0024) a bien « ἀλλὰ δεῦρ᾽ ἥκει πάλιν ».]** | ras. + écr. | lettre/mot | Rⁿ | grattage et autre écriture : certains […] | f170r_hekei_palin_l11_clahe.jpg |
 | 11, 12, marge | 646–648 | signes de renvoi : ÷ à barre ondulée après la fin de la l. 11 et en tête du v. 647 (formes identiques) ; variante oblique devant la l. 12 | signe | signe | T ? | formes : certaines ; main : hypothèse | f170r_renvois_l12_m647_l11.jpg |
-| 14 | 650 | ἐγώ : accent en V. Grave de T et aigu ajouté à l'encre neutre, donc ἐγὼ· corrigé en ἐγώ·. C'est l'inverse de Velsen 1883 (« ἐγὼ· corr. ex ἐγώ· ») ; G a ἐγὼ **[Contrôle : aigu Δ −0,11/−0,43 : groupe Rⁿ.]** | acc. | accent/esprit | Rⁿ | deux accents : certaine […] | f170r_ego_accents_l14.jpg |
+| 14 | 650 | ἐγώ : accent en V. Grave de T et aigu ajouté à l'encre neutre, donc ἐγὼ· corrigé en ἐγώ·. C'est l'inverse de Velsen 1883 (« ἐγὼ· corr. ex ἐγώ· ») ; G a ἐγὼ **[Contrôle : aigu Δ −0,11/−0,43 : groupe Rⁿ.]** **[Vérification : deux traits séparés « \ / » ; grave 1,34/2,26 (= T), aigu 1,23/1,86 : sens ἐγὼ → ἐγώ confirmé.]** | acc. | accent/esprit | Rⁿ | deux accents : certaine […] | f170r_ego_accents_l14.jpg |
 | 26 | 661 | καιρός : même V, grave de T et aigu ajouté ; s'accorde avec « corr. ex καιρὸς » (Velsen) **[Contrôle : aigu plus neutre que T (Δ −0,05/−0,31), sur 11 px seulement.]** | acc. | accent/esprit | Rⁿ ? | probable | f170r_kairos_accents_l26.jpg |
 | 27 | 662 | ὡς : esprit rude, puis un aigu qui appartient à ὡς ou à τάχιστ'. Aucune trace de grattage : la correction ὣς → ὡς (Velsen) n'est pas vérifiable | acc. | accent/esprit | T | non vérifiable ; Velsen seul | f170r_hos_l27.jpg |
 | 29 | 664 | τό‿ποις : blanc d'environ 4 mm et surface abrasée entre τό et π ; π à barre prolongée vers la gauche. Cela s'accorde avec « τούτοις R corr. in τόποις R² » | ras. | lettre/mot | S2 (Velsen) | grattage : probable | f170r_topois_l29_clahe.jpg |
@@ -661,13 +667,13 @@ Spécimens : `ravennas/graphologie/specimens/f172r/`.
 | l. | v. | Intervention | Procédé | Objet | Main | Cert. | Spécimen |
 |---|---|---|---|---|---|---|---|
 | 3 | 802 | κἀντι‿τιθῶμεν : le second τ est écrit sur une lettre grattée. Un trait pâle oblique reste au-dessus de la barre du τ (x 846–860, y 478–496). Velsen : « alterum τ in rasura est R » | ras. + écr. | lettre/mot | T | grattage probable | f172r_l03_tithomen_rasura.jpg |
-| 5 | 803 | παρὰ βάλλουσαι : le grave de παρὰ (encre de T) est barré par un trait orangé qui passe par-dessus, d'où le « × » de x 276–300, y 539–560. La correction donne παραβάλλουσαι. La coupe des mots n'est pas touchée **[Contrôle : barre orangée, Δ +0,33/+1,02.]** | acc. | accent/esprit | 1516 | barre : certaine ; main : probable | f172r_l05_para_grave_barre.jpg |
+| 5 | 803 | παρὰ βάλλουσαι : le grave de παρὰ (encre de T) est barré par un trait orangé qui passe par-dessus, d'où le « × » de x 276–300, y 539–560. La correction donne παραβάλλουσαι. La coupe des mots n'est pas touchée **[Contrôle : barre orangée, Δ +0,33/+1,02.]** **[Vérification : branche qui barre B/R 3,19 ; grave de T 1,63 : confirmé.]** | acc. | accent/esprit | 1516 | barre : certaine ; main : probable | f172r_l05_para_grave_barre.jpg |
 | 7 | 804 | ναυσ‿μάχη : ι à tréma suscrit au-dessus de σ\|μ (→ ναυσιμάχη) ; trace pâle sur -αυ- (circonflexe gratté de ναῦσ ?) | add. supra | lettre/mot | T/S2 | ajout certain ; main à trancher | f172r_l07_nausimache_iota.jpg |
 | 7 | 804 | τ' ἄργα : γα écrit sur grattage ; court trait pâle au-dessus de ρ\|γ = aigu ajouté sur ἄ | ras. + écr. | lettre/mot | T/S2 (+ Rⁿ ? pour l'aigu) | probable | f172r_l07_targa_rasura.jpg |
 | 9 | 805 | σαλλαβακχοῦσ : le second λ est exponctué par trois points au-dessus et un ou deux au-dessous (Allen : B ; Velsen : R²) | expunct. | lettre/mot | S2 | certaine | f172r_l09_salla_exponctuation.jpg |
-| 10 | 806 | πρὸς (début de ligne) : le grave est ajouté en encre orangée (x 241–250, y 772–789) **[Contrôle : grave orangé, Δ +0,36/+0,91.]** | acc. | accent/esprit | 1516 | probable | f172r_l10_pros_grave_orange.jpg |
+| 10 | 806 | πρὸς (début de ligne) : le grave est ajouté en encre orangée (x 241–250, y 772–789) **[Contrôle : grave orangé, Δ +0,36/+0,91.]** **[Vérification : B/R 2,62 contre 2,26 pour T : confirmé.]** | acc. | accent/esprit | 1516 | probable | f172r_l10_pros_grave_orange.jpg |
 | 12 | 807 | ἐγχειρεῖ : le circonflexe est un petit crochet mince et anguleux, différent des circonflexes en vague de T. Velsen : « εγχειρει R corr. in εγχειρεῖ R² » | acc. | accent/esprit | S2 ? | probable | f172r_l12_egcheirei_circonflexe.jpg |
-| 29 | 820 | εἰσὶν : l'aigu de T (tache dense « / ») est gardé, et un grave mince « \\ » est ajouté à sa droite. Velsen : « εἰσὶν corr. ex εἰσίν R » **[Contrôle : grave plus neutre en G/R (Δ −0,13), à peine en B/R.]** | acc. | accent/esprit | Rⁿ ? | probable | f172r_l29_eisin_accents.jpg |
+| 29 | 820 | εἰσὶν : l'aigu de T (tache dense « / ») est gardé, et un grave mince « \\ » est ajouté à sa droite. Velsen : « εἰσὶν corr. ex εἰσίν R » **[Contrôle : grave plus neutre en G/R (Δ −0,13), à peine en B/R.]** **[Vérification : grave 1,21/2,10 ; rang 3 % en G/R mais 21 % en B/R parmi les petits signes de T : non démontré.]** | acc. | accent/esprit | Rⁿ ? | probable | f172r_l29_eisin_accents.jpg |
 | 31 | 822 | τ' ἀντίον : τ pâle, bande claire sur le ν, point au-dessus de τ\|α (Velsen : « corr. ex τ᾽ ἀντίον ») | non visible | accent/esprit | indét. | non vérifiable ; Velsen seul | f172r_l31_tantion.jpg |
 | 33 | 824 | ἀνδρασι(ν) : pas d'accent sur le second α ; une trace très faible au-dessus de -ρα-. Velsen : « corr. ex ἀνδρᾶσιν » | acc. | accent/esprit | indét. | possible | f172r_l33_andrasi.jpg |
 | 42 | 833 | ποτε barré, τινα suscrit : ποτε est barré d'un trait horizontal épais (x 990–1108) ; τινα est écrit dans l'interligne en petite minuscule inclinée, avec un ν en Ν onciale et un long trait final. Velsen : « τινα] corr. ex ποτε R » | biff. + add. supra | lettre/mot | S2 | biffure et suscription certaines | f172r_l42_pote_tina.jpg |
@@ -693,7 +699,7 @@ Spécimens : `ravennas/graphologie/specimens/f172v/`.
 | 23 | 857 | μέλανο συρμαῖον — long trait fin et ondulé sous συρμαῖον (liaison ?) ; Velsen : « mut. in μέλανο συρμαῖον R² » | signe | signe | T/S2 | à trancher | f172v_l23_trait_ondule_melanosyrmaion.jpg |
 | 26 | 860 | σύ τ' — tache floue sous l'υ (σί → σύ ?), υ net | ras. | lettre/mot | indét. | possible | f172v_l26_su_detail.jpg |
 | 27 | 861 | μὲν οὖν — petit grave sur μεν (séparation μενοῦν → μὲν οὖν, Velsen : R²) | acc. | accent/esprit | indét. | possible | f172v_l27_men_oun.jpg |
-| 41 | 874 | ποίου — σ gratté (plage abrasée x 842–865) et ι ajouté contre l'ο : πόσου → ποίου **[Contrôle : ι brun-noir, Δ −0,10/−0,53 : groupe Rⁿ, non l'encre de S2.]** | ras. + add. | lettre/mot | Rⁿ | grattage et ajout sûrs ; main probable | f172v_l41_poiou_sigma_gratte.jpg |
+| 41 | 874 | ποίου — σ gratté (plage abrasée x 842–865) et ι ajouté contre l'ο : πόσου → ποίου **[Contrôle : ι brun-noir, Δ −0,10/−0,53 : groupe Rⁿ, non l'encre de S2.]** **[Vérification : plage abrasée et ι presque noir vus (×5) ; Δ −0,13/−0,51.]** | ras. + add. | lettre/mot | Rⁿ | grattage et ajout sûrs ; main probable | f172v_l41_poiou_sigma_gratte.jpg |
 | 42 | 875 | θεώ / θεὼ — grave épais au pied d'un long trait fin en direction d'aigu (« flèche ») ; Velsen : « θεὼ· corr. ex θεώ· R » | acc. | accent/esprit | T | probable | f172v_l42_theo_accent_fleche.jpg |
 
 #### f173r
@@ -731,7 +737,7 @@ Spécimens : `ravennas/graphologie/specimens/f173v/`.
 | 17 | 935 | ἀφείλετ' : grattage après τ (Velsen : ο effacé ?) | ras. | lettre/mot | indét. | non confirmé ; Velsen seul | f173v_l17_apheilet.png |
 | 7, 17 | 926, 935 | paragraphoi barrées d'un trait vertical | loc. | locuteur | 1516 ? | probable | f173v_l07_paragraphos_barree.png |
 | 21 | 938 | καί^περ^ : περ suscrit (T avait καὶ) **[Contrôle : encre de S2 (Δ +0,09/+0,17).]** | add. supra | lettre/mot | S2 | sûre ; probable | f173v_l21_kaiper_S2.png |
-| 22 | 939 | ἀποδύσαντα : υ sur grattage, très sombre ; grave de ἀπὸ resté visible (« ο corr. ex ὸ R ») **[Contrôle : υ brun-noir, Δ −0,10/−0,56 : groupe Rⁿ.]** | ras. + écr. | lettre/mot | Rⁿ | probable ; main incertaine | f173v_l22_apo_signe.png |
+| 22 | 939 | ἀποδύσαντα : υ sur grattage, très sombre ; grave de ἀπὸ resté visible (« ο corr. ex ὸ R ») **[Contrôle : υ brun-noir, Δ −0,10/−0,56 : groupe Rⁿ.]** **[Vérification : υ noirâtre, Δ −0,43 à −0,74 contre six zones voisines de T ; grattage sous le υ non discernable à cette résolution.]** | ras. + écr. | lettre/mot | Rⁿ | probable ; main incertaine | f173v_l22_apo_signe.png |
 | 25 | 942 | γε biffé après παρέχω (T avait παρέχω γε τοῖς) | biff. | lettre/mot | T + S2 ? | sûre ; probable | f173v_l25_ge_biffe.png |
 | 33 | 948 | παυ commencé puis biffé (anticipation de Παύσων) | biff. | lettre/mot | S2 ? | sûre ; probable | f173v_l33_pau_biffe.png |
 | 34–35 | 949–950 | premières lettres empâtées, plus rousses (repassées ?) | surch. | lettre/mot | indét. | incertaine | f173v_l34-35_debuts_empates.png |
@@ -745,7 +751,7 @@ Spécimens : `ravennas/graphologie/specimens/f174r/`.
 
 | l. | v. | Intervention | Procédé | Objet | Main | Cert. | Spécimen |
 |---|---|---|---|---|---|---|---|
-| 9, 13, 16 | 967, 971, 974 | καινόν, ἁγνήν, εἰκός : accent en « ✓ ». Un grave court et épais est prolongé par un aigu mince ajouté, sans grattage. Velsen : « corr. ex καινὸν / ἁγνὴν / εἰκὸς R » | acc. | accent/esprit | T/S2 | probable | f174r_l09_kainon_accent.png |
+| 9, 13, 16 | 967, 971, 974 | καινόν, ἁγνήν, εἰκός : accent en « ✓ ». Un grave court et épais est prolongé par un aigu mince ajouté, sans grattage. Velsen : « corr. ex καινὸν / ἁγνὴν / εἰκὸς R » **[Vérification : « ✓ » vu aux vv. 967 et 974 ; délié plus pâle que le trait épais au v. 967.]** | acc. | accent/esprit | T/S2 | probable | f174r_l09_kainon_accent.png |
 | 36 | 994 | ἀν^α^χορεύων : α suscrit entre ν et χ (ανχορεύων corrigé) ; petit esprit doux sur l'α initial | add. supra | lettre/mot | T/S2 | correction certaine ; main incertaine | f174r_l36_ana_alpha_suscrit.png |
 | 43 | 1001 | αἰτρίαν : τ « in ras., corr. ex θ, ut videtur R ». Sur l'image, τ plus sombre que ses voisines (contraste 105 contre 80–86), même teinte que T, aucune trace de θ | ras. + écr. | lettre/mot | T (Velsen) | incertaine ; Velsen seul | f174r_l43_aitrian_tau.png |
 | 8 | 966 | χρὴ : « accentu in ras. correcto R » ; accent un peu plus gris, rasure non visible | acc. | accent/esprit | T (Velsen) | incertaine ; Velsen seul | f174r_l08_chrh_accent.png |
@@ -802,7 +808,7 @@ Spécimens : `ravennas/graphologie/specimens/f175v/`.
 | 5 | 1086 | πρῶτε → π(ρ)ωτε (×2) : ρ gratté sans trace, place comblée par un trait de liaison | surch. | lettre/mot | S2 (Velsen) | probable | f175v_l05_pr_ote_rasure.jpg |
 | 8 | 1089 | κα^κ^κάσκι : κ suscrit (1re occurrence) ; 2e occurrence κακκάσκι écrite en entier (Velsen : corrigée en κακάσκι, rien de visible) | add. supra | lettre/mot | T | probable / incertaine ; Velsen seul | f175v_l08_kappa_suscrit.jpg |
 | 11 (milieu), 12, 13 | 1092b, 1093, 1095 | paragraphoi barrées en « + » | loc. | locuteur | 1516 | probable | f175v_l12_13_paragraphoi_biffees.jpg |
-| 16 | 1097 | accent grave de καὶ ajouté (Velsen 1871 : « καί I m. καὶ 2 m. » ; l'Augustanus est sans accent) ; accent de γύναικο non concluant | acc. | accent/esprit | 1516 | probable / incertaine | f175v_l16_accent_kai_tardif.jpg |
+| 16 | 1097 | accent grave de καὶ ajouté (Velsen 1871 : « καί I m. καὶ 2 m. » ; l'Augustanus est sans accent) ; accent de γύναικο non concluant **[Vérification : grave orangé, B/R 3,49 contre 2,32 pour T : confirmé.]** | acc. | accent/esprit | 1516 | probable / incertaine | f175v_l16_accent_kai_tardif.jpg |
 | 17 | 1098 | accent gratté sur le 1er α de βαρβάρων (Velsen) : rien de visible | ras. | accent/esprit | indét. | non vérifiée ; Velsen seul | f175v_l17_barbaron.jpg |
 | 20 | 1101 | ναυτολων → ναυτολῶν (circonflexe ; Velsen) | acc. | accent/esprit | S2 (Velsen) | non vérifiée ; Velsen seul | f175v_l20_ligature_os.jpg |
 | 20 et marge inf. | 1101-1103 | signe de renvoi « —+:— » / « +: » (Allen : signe « erased by Giunta » ; ici visible) | signe | signe | S2 ou 1516 | probable | f175v_l20_signe_renvoi.jpg |
@@ -830,7 +836,7 @@ Spécimens : `ravennas/graphologie/specimens/f176r/`.
 | 19 | 1144 | στυγνοὺσ → στυγοῦσ : délié du γ à l'ο à la place du ν, circonflexe anguleux | acc. | accent/esprit | S2 | probable | f176r_l19_stygous.jpg |
 | 19 | 1144 | apostrophe de στυγοῦσ' : trait court, plus jaune (1,35 ; 2,31) | acc. | accent/esprit | 1516 ? | ajout probable ; main possible | f176r_l19_apostrophe.jpg |
 | 23 | 1148 | ευφρονες → εὔφρονες (R² selon Velsen) | non visible | accent/esprit | indét. | non vérifiable ; Velsen seul | f176r_l23_euphrones.jpg |
-| 24 | 1149 | ἀλσος → ἅλσος : esprit rude anguleux ⊢ à l'encre presque noire **[Contrôle : esprit noir, Δ −0,11/−0,35 : groupe Rⁿ.]** | acc. | accent/esprit | Rⁿ | ajout et encre distincte sûrs […] | f176r_l24_halsos_esprit_noir.jpg |
+| 24 | 1149 | ἀλσος → ἅλσος : esprit rude anguleux ⊢ à l'encre presque noire **[Contrôle : esprit noir, Δ −0,11/−0,35 : groupe Rⁿ.]** **[Vérification : esprit en « ⊢ » très foncé, mais de mêmes rapports que l'aigu voisin (1,15/1,78 contre 1,21/1,82) ; rang 6 % parmi les petits signes de T : Rⁿ possible.]** | acc. | accent/esprit | Rⁿ ? | ajout sûr ; encre non concluante | f176r_l24_halsos_esprit_noir.jpg |
 | 25 | 1150 | ἀνδρασιν → ἀνδράσιν (R² selon Velsen) : aigu de la couleur de T | acc. | accent/esprit | indét. | non vérifiable ; Velsen seul | f176r_l25_andrasin_queue_lambda.jpg |
 | 27 | 1152 | ὅργια → ὄργια (Velsen, correcteur non précisé) : esprit en pâté dense, plus foncé que les lettres, de la même teinte | acc. | accent/esprit | T/S2 | retouche possible | f176r_l27_orgia_esprit.jpg |
 | 35 | 1160 | βούλεσθαι → βούλεσθε : ε final très chargé (A_R 0,38 contre 0,19–0,25), trait de remplissage dans la place de -αι | surch. | lettre/mot | S2 (Velsen) | probable | f176r_l35_boulesthe.jpg |
@@ -849,7 +855,7 @@ Spécimens : `ravennas/graphologie/specimens/f176v/`.
 | 11 | 1179 | ὀρχῆσι → ὀρκῆσι : trace pâle d'un jambage sous le κ | surch. | lettre/mot | S2 (Velsen) | incertaine | f176v_l11_orkesi.jpg |
 | 11 | 1179 | trait d'insertion orangé entre μελετῆσι et οὐ, renvoyant au σκ marginal | signe | signe | 1516 | probable | f176v_l11_trait_insertion.jpg |
 | 12 | 1180 | ἐλαμπρὸσ → ἐλαπρὸσ : μ gratté, reste de jambage | ras. | lettre/mot | S2 (Velsen) | probable | f176v_l12_elapros_mu_gratte.jpg |
-| 12 | 1180 | κατὰ τὸ : deux accents graves minces | acc. | accent/esprit | 1516 | probable | f176v_l12_kata_to_accents.jpg |
+| 12 | 1180 | κατὰ τὸ : deux accents graves minces **[Vérification : graves non orangés (B/R 1,60 et 1,78 ; T 1,89) : 1516 d'après Velsen 1871 seulement.]** | acc. | accent/esprit | 1516 ? | probable | f176v_l12_kata_to_accents.jpg |
 | 14 | 1182 | ἐπι → ἐπὶ : accent séparé, encre de T | acc. | accent/esprit | S2 (Velsen) | incertaine | f176v_l14_epi_ligature.jpg |
 | 15 | 1183 | τὼ ajouté en tête, hors justification | add. (ligne) | lettre/mot | T | probable | f176v_l15_to_ajoute.jpg |
 | 15 | 1183 | προτεινον → πρότεινον : accent décalé au-dessus du ρ | acc. | accent/esprit | S2 (Velsen) | incertaine | f176v_l15_proteinon_accent.jpg |
@@ -857,7 +863,7 @@ Spécimens : `ravennas/graphologie/specimens/f176v/`.
 | 17 | 1185 | σπεριπο → στεριπὸ : τ récrit sur un π gratté | ras. + écr. | lettre/mot | S2 | probable | f176v_l17_steripo_tau_rasure.jpg |
 | 19 | 1187 | γυ orangé et trait d'insertion entre πυγή et κλαυσῖ | loc. + signe | locuteur | 1516 | certaine | f176v_l19_gy_insertion.jpg |
 | 21 | 1188 | (σ)ποστίον : σ gratté devant le π | ras. | lettre/mot | indét. | probable | f176v_l21_postion_rasure_sigma.jpg |
-| 24 | 1191 | ο ο ο → σκ ὸ : deux ο transformés en σκ ; deux points bruns sur le 3e ο (exponctuation ?) | surch. | lettre/mot | 1516 | probable | f176v_l24_ooo_corrige_sk.jpg |
+| 24 | 1191 | ο ο ο → σκ ὸ : deux ο transformés en σκ ; deux points bruns sur le 3e ο (exponctuation ?) **[Vérification : σκ (B/R 2,27–2,29) mesure comme le 3e ο non corrigé (2,15) ; pas d'orangé sur la carte B/R : 1516 non démontré par l'encre.]** | surch. | lettre/mot | 1516 ? | probable | f176v_l24_ooo_corrige_sk.jpg |
 | 26 | 1193 | paragraphos grattée | loc. | locuteur | indét. (post-G) | probable | f176v_l26_paragraphos_grattee.jpg |
 | 26 | 1193 | τι → τί : accent non séparable du ι | acc. | accent/esprit | S2 (Velsen) | incertaine | f176v_l26_ti_accent.jpg |
 | 27 | 1194 | γενοιτ' → γένοιτ' : accent mince et grisâtre (1,11 ; 1,77) | acc. | accent/esprit | S2 (Velsen) | probable | f176v_l27_genoit_accent.jpg |
@@ -906,7 +912,7 @@ Je ne retiens ici que les marques **modifiées ou détruites** : sigles grattés
 | f164v | 8 | 173 | sigle antérieur gratté ; ἀγ écrit dessus | 1516 | fausse attribution (le vers est d'Euripide), imprimée par la Juntine |
 | f165r | 2 | 210 | μνη^σ (de S2 ?) repassé à l'encre de 1516 | S2 ?, puis 1516 | Velsen 1883 : « corr. R² » |
 | f165r | 3 | 211 | εὐ écrit sur une plage grattée | 1516 | Velsen 1871 : « in rasura » |
-| f165r | 24, 26, 38 | 232, 234, 246 | paragraphoi de T barrées d'un trait vertical (« + ») | 1516 | Velsen 1871 : « — I m. delevit 2 m. » |
+| f165r | 24, 26, 38 | 232, 234, 246 | paragraphoi de T barrées d'un trait vertical (« + ») | 1516 (Velsen) | Velsen 1871 : « — I m. delevit 2 m. » ; hastes des vv. 232 et 234 grises ou brun pâle, non orangées (§ 9) |
 | f165v | 13, 22, 23, 26 | 264, 273, 274, parépigraphe | paragraphoi de T barrées (« + ») | 1516 | haste orangée sur paragraphos brune |
 | f166r | 2 | 295 | sigle gratté ; κήρυξ écrit en toutes lettres sur le grattage | 1516 | G, copié avant le grattage, a κη^ρυξ, forme de S2 (Velsen 1871, 10) |
 | f167r | 1 | 380 | sigle gratté ; « Γυνὴ τίς. » écrit dessus | 1516 | G a γυνή τις (inventaire) |
@@ -933,7 +939,7 @@ Je ne retiens ici que les marques **modifiées ou détruites** : sigles grattés
 | f175v | 2, 17, 24, 25 | 1083, 1098, 1107, 1108 | notes de forme S2 à l'encre orangée (ηχω ; εὐριπ ὡς περσεύς ; κηδ ὡς ἀνδρομεδ ; σκυθ) | S2, repassé en 1516 ? | G les reproduit déjà (Velsen 1883) ; § 2.4 |
 | f176v | 16, 27, 28, 37 | 1184, 1194, 1195, 1204 | paragraphoi barrées d'une haste orangée | 1516 | la Juntine imprime pourtant Εὐ. au v. 1204 |
 | f176v | 26, 33 | 1193, 1200 | paragraphoi grattées | après G (v. 1200) | G a encore la paragraphos du v. 1200 (Velsen 1883) |
-| f176v | 40 | 1207 | κη^δ de S2 à l'encre orangée, pixels bruns sur les contours | S2, repassé en 1516 | G la reproduit (Velsen 1871, 35) |
+| f176v | 40 | 1207 | κη^δ de S2 à l'encre orangée, pixels bruns sur les contours | S2, repassé en 1516 ? | G la reproduit (Velsen 1871, 35) ; les contours bruns se voient aussi sur des sigles de 1516 de la même page : non probants (§ 9) |
 | f177r | 13 | 1221 | paragraphos barrée d'un trait vertical roussâtre | 1516 | Velsen 1871 : « — I m. del. 2 m. » |
 | f177r | 10, 12 | 1218, 1220 | χο de 1516 écrits sur les dicola de T | 1516 | — |
 
@@ -941,7 +947,7 @@ Bilan :
 
 - **Sigles grattés puis récrits par 1516** : 10 cas sûrs ou probables (vv. 34, 173, 211, 295, 380, 466, 582, 584, 907, 908) et 3 possibles (vv. 25, 166, et 1084, où Velsen voit le σκυ^θ « in ras. »). G permet de lire deux des marques grattées : au v. 295, κη^ρυξ, forme abrégée de S2 « inutilisable pour l'imprimeur » (Velsen 1871, 8 et 10, d'après le dossier et l'inventaire) ; au v. 380, γυνή τις.
 - **Sigles de S2 repassés en orangé** : une douzaine de cas, sans compter les notes orangées attestées par G.
-- **Paragraphoi barrées** : 22, toutes par 1516 sauf peut-être celles des vv. 608, 620 et 926.
+- **Paragraphoi barrées** : 22. La haste est orangée au f. 176v, là où je l'ai mesurée (vv. 1194 et 1204 ; celle du v. 1184 est trop fine) ; elle ne l'est pas aux vv. 232 et 234 (f165r) ni au v. 1076a (f175r), où l'attribution à 1516 repose sur Velsen 1871. Celle du v. 608 a l'encre brune de T (§ 3.5) ; celles des vv. 620 et 926 restent indéterminées.
 - **Effacements après coup** de sigles de 1516 ou de marques que G avait encore : ff. 163r, 175v, 176v. C'est la trace d'une campagne de **nettoyage postérieure** à la pose des sigles de 1516. Elle est peut-être immédiate (repentir) ; elle est en tout cas postérieure à la composition pour les sigles du f. 163r que la Juntine imprime.
 
 ### 4.C Repères de l'impression de 1516 (pages de la Juntine)
@@ -971,7 +977,7 @@ Coupures données par Velsen 1871, 5–6 (d'après les inventaires) ; leur prés
 | f173r | c 8 (v. 888/889) ; c 9 (v. 914/915) | petit trait ; « 9 » | gris |
 | f173v | c 10 (v. 938/939) | trait et « 10 » | gris neutre |
 | f174r | c 11 (v. 964/965) ; c 12 (v. 989/990) | « 11 » ; petite croix | crayon |
-| f174v | c 13 (v. 1014/1015) ; c 14 (v. 1040) | trait **orangé** à crochet ; rien pour c 14 (coupure vérifiée sur la Juntine) ; croix grise hors coupure (v. 1029/1030) | orangé ; mine |
+| f174v | c 13 (v. 1014/1015) ; c 14 (v. 1040) | trait fin à crochet, d'encre brun-orangé pâle (B/R 2,19 ; scholie voisine 1,95) ; rien pour c 14 (coupure vérifiée sur la Juntine) ; croix grise hors coupure (v. 1029/1030) | encre brun-orangé ; mine |
 | f175r | v. 1066/1067 | trait gris dans la bande des sigles | gris |
 | f175v | c 16 (v. 1090/1091) | « 16 » | crayon |
 | f176r | d 3 (v. 1167) | non retrouvée | — |
@@ -1003,9 +1009,9 @@ La chronologie relative ne repose que sur ce que l'image montre : une main écri
 | S2 écrit sur T : suscription, écrit sur grattage, exponctuation | λαικάζει (f163r, 57b) ; παραστατεῖν (f166v, 370) ; ὀλίγου (f173v, 935) ; σαλλαβακχοῦσ (f172r, 805) | certaine |
 | S2 comble une lacune laissée par T | βοώιη (f168r, 506) | certaine |
 | Rⁿ écrit sur un grattage du texte de T | κιν (f168r, 493) ; ἥκει πάλιν (f170r, 646) ; ποίου (f172v, 874) ; ἀποδύσαντα (f173v, 939) | certaine |
-| Rⁿ ajoute un accent à côté de l'accent de T | ἐγώ (f170r, 650) ; εἰσὶν (f172r, 820) | certaine |
+| Rⁿ ajoute un accent à côté de l'accent de T | ἐγώ (f170r, 650) ; εἰσὶν (f172r, 820) | la juxtaposition est certaine ; la main Rⁿ est probable au v. 650, non démontrée au v. 820 (§ 9) |
 | 1516 écrit sur la paragraphos ou le dicolon de T | sigles bâtis sur la paragraphos (ff. 165r, 165v, 169r, 172v, 175r) ; Γ et χο sur le dicolon (ff. 176v, 177r) | certaine (deux encres sur un même tracé) |
-| 1516 repasse des écritures de S2 | sigles des vv. 5, 19, 39 ; vers 33 et 169 en partie | certaine pour les sigles (lettres suscrites restées brunes) ; probable pour les vers |
+| 1516 repasse des écritures de S2 | sigles des vv. 5, 19, 39 ; vers 33 en partie ; vers 169 ? | certaine pour les sigles (lettres suscrites restées brunes) ; probable pour le v. 33 ; incertaine pour le v. 169, roux d'un bout à l'autre (§ 9) |
 | 1516 gratte des sigles de S2 et récrit dessus | κήρυξ (f166r, 295 ; G a la forme de S2) ; vv. 34, 173, 211, 380, 466, 907–908 | certaine pour le v. 295 |
 | Effacement de sigles de 1516 | f163r (vv. 48b–52, 57b, 77) ; f175v (εὐ du v. 1116) | certaine (résidus orangés) |
 
@@ -1013,7 +1019,7 @@ Aucune superposition n'a été observée entre S2 et Rⁿ, ni entre Rⁿ et 1516
 
 ### 5.2 Les phases
 
-**Phase 1 — T, en écrivant et en relisant (milieu du Xe s.).** Le copiste corrige au fil de la plume ses anticipations et ses dittographies : biffure suivie du bon mot (§ 3.2), frottis à l'encre fraîche (v. 855), surcharges dans la même encre (τρόπων, ἀθέων, v. 671). En relisant, il ajoute au-dessus de la ligne les lettres et les mots omis, et deux additions marginales (μέντοι, v. 630 ; τὼ, v. 1183). Il laisse une lacune (v. 506) et quatre signaux pour le correcteur (vv. 4, 807, 1135, 1176). Ce système de signaux est celui qu'Allen décrit pour l'ensemble du manuscrit (dossier, § 5.2). Dans les *Thesmophories*, aucun signal n'est suivi d'une correction certaine au même endroit, sauf au v. 1135 (μαστιγαν, ι de S2 selon Velsen 1871).
+**Phase 1 — T, en écrivant et en relisant (milieu du Xe s.).** Le copiste corrige au fil de la plume ses anticipations et ses dittographies : biffure suivie du bon mot (§ 3.2), frottis à l'encre fraîche (v. 855), surcharges dans la même encre (τρόπων, ἀθέων, v. 671). En relisant, il ajoute au-dessus de la ligne les lettres et les mots omis, et deux additions marginales (μέντοι, v. 630 ; τὼ, v. 1183). Il laisse une lacune (v. 506) et, selon Allen, quatre signaux pour le correcteur (vv. 4, 807, 1135, 1176 ; S2 n'est pas exclu, § 3.2). Ce système de signaux est celui qu'Allen décrit pour l'ensemble du manuscrit (dossier, § 5.2). Dans les *Thesmophories*, aucun signal n'est suivi d'une correction certaine au même endroit, sauf au v. 1135 (μαστιγαν, ι de S2 selon Velsen 1871).
 
 **Phase 2 — S2, le correcteur du livre (Xe s.).** S2 annote toute la pièce et la corrige :
 
@@ -1026,11 +1032,11 @@ Aucune superposition n'a été observée entre S2 et Rⁿ, ni entre Rⁿ et 1516
 
 Ses corrections sont antérieures à G, qui en a les leçons (§ 3.3). La forme seule (semi-onciale, minuscule penchée de grand module) les identifie à coup sûr. Pour une lettre ou un accent isolés, on ne peut souvent pas choisir entre S2 et T relisant (35 entrées « T ou S2 »).
 
-**Phase 3 — Rⁿ, le correcteur à l'encre brun-noir (avant le XVe s.).** Ce correcteur récrit sur grattage quatre passages et ajoute quelques accents d'une encre plus neutre que celle de T et de S2 (§ 2.3). Il est antérieur à G (v. 646). Sa place par rapport à S2 est inconnue : il peut s'agir de S2 dans une autre campagne, ou d'une troisième main ancienne. Je le range après S2 par convention, sans preuve.
+**Phase 3 — Rⁿ, le correcteur à l'encre brun-noir (avant le XVe s.).** Ce correcteur récrit sur grattage quatre passages d'une encre plus neutre que celle de T et de S2, et ajoute probablement l'aigu du v. 650 ; les autres accents qu'on lui prêtait restent possibles ou non démontrés (§ 2.3, § 9). Il est antérieur à G (v. 646). Sa place par rapport à S2 est inconnue : il peut s'agir de S2 dans une autre campagne, ou d'une troisième main ancienne. Je le range après S2 par convention, sans preuve.
 
-**Phase 4 — Grammairien(s) des accents (date indéterminée, avant 1516 pour une partie).** Les séries d'accents en V et de grattages d'accents (§ 3.4) normalisent l'accentuation de T. Certaines sont de Rⁿ (vv. 650, 661 ?, 820). Les autres ne gardent pas d'encre attribuable. Il est plausible, sans plus, qu'une même campagne de relecture grammaticale soit à l'œuvre aux ff. 169v–174r.
+**Phase 4 — Grammairien(s) des accents (date indéterminée, avant 1516 pour une partie).** Les séries d'accents en V et de grattages d'accents (§ 3.4) normalisent l'accentuation de T. Une seule correction est probablement de Rⁿ (v. 650) ; aux vv. 661 et 820, l'encre ne permet pas de conclure. Les autres ne gardent pas d'encre attribuable, et la forme diffère entre le « ✓ » soudé des ff. 169v et 174r et le « \ / » séparé du v. 650. Il est plausible, sans plus, qu'une même campagne de relecture grammaticale soit à l'œuvre aux ff. 169v–174r.
 
-**Phase 5 — La préparation de l'*editio princeps* (Florence, achevée le 28 janv. 1516).** Le préparateur pose les sigles « imprimables », en grattant ou en repassant ceux de S2. Il repasse les vers suppléés par S2 qui avaient pâli : le v. 33, que G avait omis, passe ainsi dans la Juntine. Il barre les paragraphoi que l'édition ne retient pas, ajoute des signes d'insertion et des « ; ». Il corrige quelques accents (παρὰ barré, πρὸς, καὶ, κατὰ τὸ) et deux formes (ὀλίγων, v. 443 ; σκ tiré de ο ο ο, v. 1191). Il marque les pages de la Juntine à la mine de plomb, et une fois à l'encre orangée. L'identification de cette main avec Euphrosynus Boninus reste une conjecture de Schöll (Velsen 1871, 6–7, d'après le dossier), jamais vérifiée sur un autographe.
+**Phase 5 — La préparation de l'*editio princeps* (Florence, achevée le 28 janv. 1516).** Le préparateur pose les sigles « imprimables », en grattant ou en repassant ceux de S2. Il repasse les vers suppléés par S2 qui avaient pâli : le v. 33, que G avait omis, passe ainsi dans la Juntine. Il barre les paragraphoi que l'édition ne retient pas, ajoute des signes d'insertion et des « ; ». Il corrige quelques accents (παρὰ barré, πρὸς, καὶ) et une forme (ὀλίγων, v. 443), à l'encre orangée. Les graves de κατὰ τὸ (v. 1180) et le σκ tiré de ο ο ο (v. 1191) lui reviennent selon Velsen 1871, mais leur encre n'est pas orangée (§ 9). Il marque les pages de la Juntine à la mine de plomb, et une fois à l'encre orangée. L'identification de cette main avec Euphrosynus Boninus reste une conjecture de Schöll (Velsen 1871, 6–7, d'après le dossier), jamais vérifiée sur un autographe.
 
 **Phase 6 — Après la composition de 1516.** Plusieurs gestes sont postérieurs aux sigles de 1516 ou à G :
 
@@ -1049,12 +1055,12 @@ Xe s.     T  ── corrections en écrivant, relecture, signaux, lacune (v. 506
            │        exponctuations, accents, sigles abrégés, renvois
            │
   ? ─────  ├─ Rⁿ ── encre brun-noir : κιν (493), ἥκει πάλιν (646), ποίου (874), ύ (939),
-           │        accents (54, 650, 661 ?, 820 ?), esprit (1149)          [ordre S2 / Rⁿ inconnu]
+           │        aigu (650) ; peut-être grave (54 ?) et esprit (1149 ?)  [ordre S2 / Rⁿ inconnu]
            │
 XVe s.    G (Monac. gr. 492) copie R : terminus ante quem pour S2 et Rⁿ (lettres et mots)
            │
-1516      Préparation de la Juntine : sigles, repassages (33, 169, sigles de S2), grattages de sigles,
-           │        paragraphoi barrées, « ; », accents (803, 806, 1097, 1180), ὀλίγων (443), σκ (1191),
+1516      Préparation de la Juntine : sigles, repassages (33, 169 ?, sigles de S2), grattages de sigles,
+           │        paragraphoi barrées, « ; », accents (803, 806, 1097 ; 1180 ?), ὀλίγων (443), σκ (1191 ?),
            │        repères de pages (mine, une fois encre orangée)
            │
 après     effacement de sigles de 1516 (f. 163r), grattages après G (1116, 1200),
@@ -1076,7 +1082,7 @@ Le dossier (§ 5.1) a montré que R¹, R², R³ n'ont pas le même sens d'un éd
 | **R** | le texte de T | leçon de première main ; pour une correction de T faite en écrivant, citer seulement le texte final, et noter la biffure si elle a un intérêt textuel (anticipations, dittographies) |
 | **R^ac / R^pc** | avant / après correction, correcteur non identifiable | règle par défaut pour les accents et les lettres isolés (T relisant, S2 ou Rⁿ) : 35 entrées « T ou S2 », 37 entrées « S2 (Velsen) », 106 entrées « indét. » |
 | **R²** | S2, identifié par la forme ou par l'encre de ses scholies | vers suppléés, suscriptions et écrits sur grattage en semi-onciale ou en minuscule penchée de grand module, esprits « ⊢ », circonflexes « ^ » ; ne pas reprendre sans contrôle le R² de Velsen 1883 |
-| **R³** (redéfini) ou **Rⁿ** | correcteur ancien à l'encre brun-noir (§ 2.3), antérieur à G | vv. 54, 493, 646, 650, 874, 939, 1149 ; vv. 661 et 820 avec « ut vid. » |
+| **R³** (redéfini) ou **Rⁿ** | correcteur ancien à l'encre brun-noir (§ 2.3), antérieur à G | vv. 493, 646, 874, 939 (lettres récrites) et 650 (aigu) ; vv. 54 et 1149 avec « ut vid. » ; vv. 661 et 820 : R^pc (§ 9) |
 | **R^rec** | toute main postérieure à G : la préparation de 1516 et les mains plus tardives | à citer comme une conjecture ancienne, sans autorité ; préciser « (1516) » quand l'encre orangée ou la Juntine l'établit, « (post 1516 ?) » pour κατα et καί |
 
 Si l'auteur préfère garder le chiffre 3 pour une main de date connue, Rⁿ (ou R^c) évite toute confusion avec le R³ de Velsen 1881 et de Martin 1882, qui désigne d'autres mains dans d'autres pièces.
@@ -1088,9 +1094,9 @@ G et la Juntine ne sont pas des témoins. Ils servent à dater une correction, e
 1. **Accent en V** (aigu ajouté au grave, sans grattage) : R^ac porte le grave, R^pc l'aigu. Il n'y a pas lieu de choisir un seul accent « de R ». La correction est grammaticale, et l'édition l'adopte d'ordinaire : il suffit de la signaler dans l'apparat de l'accentuation, ou dans l'introduction, en une notice collective plutôt qu'à chaque vers.
 2. **Grattage sans leçon première lisible** : noter « in ras. R^pc (ou R², R³) ». Ne pas tirer un R^ac de l'« ut videtur » de Velsen sans l'en créditer (« R^ac ut vid. Velsen »).
 3. **Corrections que seul Velsen atteste** (51 entrées) : ne pas les donner pour un fait. Écrire « sec. Velsen », ou mieux, les contrôler sur l'original, sous lumière rasante ou UV.
-4. **Vers suppléés** : « om. R, add. R² in mg. » (vv. 33, 169, 647, 1102–1103). Pour le v. 33, ajouter « partim refictum R^rec (1516) ; om. G ». Pour μέντοι (v. 630) : « in textu om., in mg. add. R » (main de T ; G l'omet).
+4. **Vers suppléés** : « om. R, add. R² in mg. » (vv. 33, 169, 647, 1102–1103). Pour le v. 33, ajouter « partim refictum R^rec (1516) ; om. G ». Pour μέντοι (v. 630) : « in textu om., in mg. add. R » (main de T probable, par la forme ; G l'omet).
 5. **Lignes annulées** : la ligne « στυγνᾶς ὦσσε » après le v. 1142 (exponctuée) et la ligne « παῖ᾽ ἦν προσήει τίς » au v. 934 (biffée par T ; points de S2 selon Velsen). Elles ne font pas partie du texte, mais les signaler documente le modèle de T, qui lui a fait anticiper ou répéter.
-6. **Interventions de 1516** : ce sont des conjectures d'éditeur, à citer comme R^rec (= Junt.) quand elles touchent le texte : vv. 443, 803, 806, 1097, 1180, 1191. Les sigles et les barres de paragraphoi de 1516 n'ont aucune autorité pour les attributions : seuls comptent les signes de T (paragraphos, dicolon) et, comme interprétation médiévale, les notes de S2.
+6. **Interventions de 1516** : ce sont des conjectures d'éditeur, à citer comme R^rec (= Junt.) quand elles touchent le texte : vv. 443, 803, 806, 1097 (encre orangée) ; vv. 1180 et 1191 d'après Velsen 1871, l'encre n'étant pas orangée (§ 9). Les sigles et les barres de paragraphoi de 1516 n'ont aucune autorité pour les attributions : seuls comptent les signes de T (paragraphos, dicolon) et, comme interprétation médiévale, les notes de S2.
 7. **Encre orangée présente dans G** (notes de forme S2 aux ff. 174r, 175v, 176v) : citer R², car le texte est antérieur au XVe s. ; le repassage éventuel ne change pas la leçon.
 
 ### 6.3 Formulations proposées pour les cas décisifs
@@ -1100,10 +1106,10 @@ Ce sont des propositions de notation, non des choix de texte : l'établissement 
 | v. | Formulation proposée | Fondement |
 |---|---|---|
 | 33 | om. R (et G), in mg. suppl. R², partim refictum R^rec (1516) | f162v ; § 2.4 |
-| 54 | τάδε alterum : τὰ δὲ R³ (gravis atramento fusco-nigro) ; τάδε G | f163r, l. 17 ; groupe Rⁿ |
+| 54 | τάδε alterum : gravis super δε additus R^pc (atramento obscuriore ; R³ ut vid.) ; τάδε G | f163r, l. 17 ; Rⁿ possible (§ 9) |
 | 60 | κατα s.l. add. R^rec (post 1516 ?) ; om. G Junt. | f163r, l. 24 ; G contrôlé ; § 2.6 |
 | 149 | γάρ s.l. add. R² ; habet G, om. Junt. | f164r, l. 28 |
-| 169 | om. R, in mg. add. R² (initium refictum R^rec) | f164v ; § 2.4 |
+| 169 | om. R, in mg. add. R² (refictum ut vid. R^rec) | f164v ; § 2.4, § 9 |
 | 306 | καί s.l. add. R^rec (post 1516 ?) ; om. G Junt. | f166r, l. 13 ; G contrôlé |
 | 443 | ὀλίγων R^rec (1516) : ὀλίγον R G | f167v, l. 21 |
 | 468 | ἐπιζεῖν : εῖ in ras. R^pc (R² Velsen, B Allen) | f168r, l. 3 ; encre de T ou S2 |
@@ -1119,7 +1125,7 @@ Ce sont des propositions de notation, non des choix de texte : l'établissement 
 | 939 | ἀποδύσαντα : ύ in ras. R³ | f173v, l. 22 |
 | 1102–1103 | om. R, in mg. inf. add. R² | f175v |
 | après 1142 | στυγνᾶς ὦσσε in col. scripsit R, expunxit R^pc (R² Velsen) | f176r, l. 17 |
-| 1149 | ἅλσος R³ (spiritus asper atramento nigro) : ἀλσος R | f176r, l. 24 |
+| 1149 | ἅλσος R^pc (spiritus asper atramento obscuriore ; R³ ut vid.) : ἀλσος R^ac | f176r, l. 24 ; Rⁿ possible (§ 9) |
 
 ---
 
@@ -1131,19 +1137,19 @@ Ce sont des propositions de notation, non des choix de texte : l'établissement 
 | aigu de ἐγώ (f170r, v. 650) | aigu ajouté, encre neutre ; état premier ἐγὼ | aigu olive à droite d'un grave brun ; Δ −0,11/−0,43 | **confirmé** |
 | κιν sur grattage (f168r, v. 493) | correcteur ancien, encre neutre | Κ en deux traits, nuage d'abrasion ; Δ −0,06/−0,31 | **confirmé**, rattaché au groupe Rⁿ |
 | εῖ de ἐπιζεῖν (f168r, v. 468) | même correcteur que κιν, écart plus faible | à densité égale, encre de T ou de S2 | **rectifié** : pas le groupe Rⁿ |
-| grave du second τάδε (f163r, v. 54) | encre brun-noir unique dans la colonne | grave très sombre ; Δ −0,07/−0,44 | **confirmé**, rattaché au groupe Rⁿ |
+| grave du second τάδε (f163r, v. 54) | encre brun-noir unique dans la colonne | grave très sombre ; Δ −0,07/−0,44 | **nuancé** au § 9 : un point de T de la même ligne mesure de même ; Rⁿ possible |
 | υ de ἀποδύσαντα (f173v, v. 939) | encre brun noir, autre main que S2 ? | Δ −0,10/−0,56 | **confirmé**, rattaché au groupe Rⁿ |
 | ι de ποίου (f172v, v. 874) | S2 (« ι très dense ») | grattage du σ visible ; ι brun-noir, Δ −0,10/−0,53, hors de la plage de S2 | **rectifié** : groupe Rⁿ, non S2 |
-| esprit de ἅλσος (f176r, v. 1149) | correcteur à l'encre noire | esprit « ⊢ » noir ; Δ −0,11/−0,35 | **confirmé**, rattaché au groupe Rⁿ |
+| esprit de ἅλσος (f176r, v. 1149) | correcteur à l'encre noire | esprit « ⊢ » noir ; Δ −0,11/−0,35 | **nuancé** au § 9 : plus foncé, mais de mêmes rapports que l'aigu voisin ; Rⁿ possible |
 | grave de παρὰ barré, grave de πρὸς (f172r, vv. 803, 806) | encre orangée de 1516 | Δ +0,33/+1,02 et +0,36/+0,91 | **confirmé** |
 | ὀλίγων (f167v, v. 443) | seconde boucle plus pâle et rosée, 1516 probable | boucle droite Δ +0,13/+0,48 | **confirmé** (probable) |
 | λ de ἄλ^λως (f165v, v. 290) | encre pâle presque neutre du XVIe s. | à densité égale, pas d'écart net avec T (la diagonale croise d'autres tracés) | **non confirmé** : main indéterminée |
 | κατα (f163r, v. 60) | S2 (Velsen) ou main moderne (Austin) | petite minuscule légère, encre non distinctive ; **absent de G** (f. 2r, contrôlé) et de la Juntine | présomption d'ajout **postérieur à 1516** |
 | καί (f166r, v. 306) | main postérieure à T ; la Juntine l'ignore | compendium très pâle, non orangé ; **absent de G** (f. 5v, contrôlé) | présomption d'ajout **postérieur à 1516** |
 | v. 33 (f162v) | S2, en partie repassé en 1516 | lignes (b)-(c) et δ orangés ; la Juntine imprime le vers avec Μν·, Εὐ· et « ; » (f. a iii v°, contrôlé) ; G l'omet | **confirmé** ; le repassage a servi l'impression |
-| v. 169 (f164v) | S2 ; début orangé, repassage hypothétique | « — ὁ δ᾽ αὖ ξενο- » plus orangé que la suite ; G a laissé un blanc pour δ᾽ αὖ | **renforcé** : repassage de ce que G ne lisait plus |
+| v. 169 (f164v) | S2 ; début orangé, repassage hypothétique | « — ὁ δ᾽ αὖ ξενο- » plus orangé que la suite ; G a laissé un blanc pour δ᾽ αὖ | **rectifié** au § 9 : tout le supplément est roux, ποεῖ autant que le début ; repassage limité à ce que G ne lisait plus non établi |
 | notes orangées de forme S2 (f175v, vv. 1098, 1107) | antérieures à 1516 (G les a) ; encre ne séparant pas S2 et 1516 | encre uniformément orangée, Δ +0,30/+0,86 et +0,26/+0,84 | **confirmé** ; repassage en 1516 probable (§ 2.4) |
-| μέντοι en marge (f169v, v. 630) | T | minuscule liée et encre de T | **confirmé** ; l'omission de G n'a donc pas valeur de preuve |
+| μέντοι en marge (f169v, v. 630) | T | minuscule liée et encre de T | **confirmé**, avec une réserve (§ 9) : l'encre ne sépare pas T et S2, c'est la forme qui fait pencher pour T ; l'omission de G n'a donc pas valeur de preuve |
 | ποίου, grattage du σ (f172v, v. 874) | grattage sûr | plage abrasée claire entre πο et ου | **confirmé** |
 
 Une remarque de méthode s'ajoute à ce tableau. Mes mesures à densité égale confirment, pour le f. 173v, que l'encre de S2 y est un peu plus rousse que celle de T (περ, v. 938 ; υ de ὀλίγου, v. 935). Elles ne valent pas pour les autres pages, où S2 et T se confondent. Plusieurs corrections de S2 sont même légèrement plus neutres que T : le ν et l'α du v. 954, -εῖν au v. 370, χ au v. 726, σι au v. 734. L'encre n'est donc pas un critère de main pour S2.
@@ -1153,7 +1159,7 @@ Une remarque de méthode s'ajoute à ce tableau. Mes mesures à densité égale 
 ## 8. Questions ouvertes
 
 1. **Qui est Rⁿ ?** Faut-il y voir S2 dans une autre campagne, ou une troisième main ancienne ? Il faudrait chercher la même encre dans les autres pièces annotées par S2 (*Lysistrata*, *Acharniens*, *Guêpes*, *Assemblée*), et examiner sous UV ou en imagerie multispectrale les huit interventions du § 2.3. Il faudrait aussi comparer la semi-onciale de ἥκει πάλιν à celle des scholies, lettre à lettre.
-2. **Les accents en V et les grattages d'accents** sont-ils d'une seule campagne ? L'encre de Rⁿ n'est démontrée qu'aux vv. 650 et 820, et probable au v. 661. Pour les autres, une mesure sur l'original (spectrométrie) serait nécessaire.
+2. **Les accents en V et les grattages d'accents** sont-ils d'une seule campagne ? L'encre de Rⁿ n'est probable qu'au v. 650. Aux vv. 54, 661, 820 et 1149, la photographie ne suffit pas, car les petits signes y mesurent « neutres » quelle que soit la main (§ 9). Les formes, de plus, diffèrent : « ✓ » soudé aux ff. 169v et 174r, « \ / » séparé au v. 650. Pour les autres, une mesure sur l'original (spectrométrie) serait nécessaire.
 3. **Les notes orangées de forme S2** (ff. 173v, 174r, 175v, 176v) : repassage de 1516 ou encre propre de S2 ? Il faut chercher sous forte résolution des contours bruns sous l'orangé, comme au v. 1207.
 4. **κατα (v. 60) et καί (v. 306)** : de quand datent ces ajouts ? Il faudrait contrôler les éditions qui ont pu utiliser R entre 1516 et 1794, comme la Juntine de 1525 ou Grynaeus 1532 (dossier, § 6.3), pour voir si κατά et le second καί y apparaissent.
 5. **Les effacements après coup du f. 163r** (sigles de 1516 imprimés par la Juntine) : repentir du préparateur, ou nettoyage plus tardif ? La même question se pose pour les grattages postérieurs à G (vv. 1116, 1200).
@@ -1168,6 +1174,65 @@ Une remarque de méthode s'ajoute à ce tableau. Mes mesures à densité égale 
 - Chapitre : `ravennas/graphologie/chapitres/4_interventions.md`.
 - Planches : `ravennas/graphologie/chapitres/planches/4_encres_corrections.png`, `4_groupe_Rn.png`, `4_main_1516.png`, `4_additions_G_Juntine.png`.
 - Spécimens de mes contrôles (≤ 600 px) : `ravennas/graphologie/specimens/chap4/`.
-- Outil de mesure : `outils/graphologie/encres_interventions.py`.
-- Données : `ravennas/graphologie/chapitres/4_repertoire.json` (tableau maître du répertoire A : page, ligne, vers, procédé, objet, main, certitude, spécimen, renvoi à l'observation `fXXX#n` du JSONL) ; `ravennas/graphologie/chapitres/4_mesures_encres.json` (mesures de la planche des encres).
+- Outils de mesure : `outils/graphologie/encres_interventions.py` ; pour la vérification (§ 9), `outils/graphologie/verif_ch4.py`.
+- Données : `ravennas/graphologie/chapitres/4_repertoire.json` (tableau maître du répertoire A : page, ligne, vers, procédé, objet, main, certitude, spécimen, renvoi à l'observation `fXXX#n` du JSONL) ; `ravennas/graphologie/chapitres/4_mesures_encres.json` (mesures de la planche des encres) ; `ravennas/graphologie/chapitres/4_verification_mesures.json` (mesures de la vérification).
+- Spécimens de la vérification : `ravennas/graphologie/specimens/chap4/verif_*.png` (24 fichiers, dont 4 cartes B/R).
 - Fichiers de travail, non versionnés : `.travail/chap4/`. Ils contiennent les vues de contrôle `verif/`, dont les vues de G et de la Juntine. Ces dernières viennent de numérisations de la BSB et ne sont pas reproduites dans le dépôt.
+
+---
+
+## 9. Vérification
+
+J'ai fait le contrôle adversarial le 28 oct. 2026. J'ai choisi vingt affirmations parmi les plus importantes ou les plus risquées du chapitre : attributions de mains, lectures, formes, chiffres et généralisations. J'ai cherché à les réfuter sur les images à pleine résolution, sur plusieurs occurrences quand c'était possible. Dans le doute, j'ai conclu « à nuancer ». Les corrections qui en découlent sont portées dans le texte ci-dessus (§ 2.1 à 8).
+
+### 9.1 Protocole
+
+- **Mesure indépendante** (`outils/graphologie/verif_ch4.py` ; résultats dans `ravennas/graphologie/chapitres/4_verification_mesures.json`) :
+  - pixels de trait : fond local (flou de 15 px) moins luminance, au-dessus de 25, sans condition de teinte ;
+  - rapports d'absorbance G/R et B/R (médianes), chaque canal étant rapporté à son propre fond local ;
+  - comparaison par classes de **contraste** (25–40, 40–55, 55–70, 70–90, 90–130), et non par classes d'absorbance rouge comme au § 1.2.
+- **Trois témoins**, pour éprouver les causes non graphiques d'un écart d'encre :
+  1. le *support gratté* : quatre écrits sur grattage d'autres mains (αι, v. 57b ; -εῖν, v. 370 ; εῖ, v. 468 ; υ, v. 935) ;
+  2. la *taille du signe* : tous les petits signes isolés de 15 à 90 px de la colonne, sur sept pages, c'est-à-dire surtout les points et les accents de T (246 à 478 par page) ;
+  3. la *variabilité de T* : des fenêtres de 60 px le long d'une ligne sur trois, comparées au reste de leur ligne (51 à 78 fenêtres par page).
+- **Formes** : découpes agrandies ×4 à ×8, et cartes B/R où le rouge marque l'orangé. Pour G, j'ai relu les vues BSB `bsb00108707_0007`, `_0014` et `_0024`.
+
+Ce que donnent les témoins :
+
+- Les écrits sur grattage d'autres mains ne s'écartent pas de T : Δ G/R ; Δ B/R = +0,06/+0,08 ; 0,00/−0,16 ; −0,01/−0,10 ; +0,10/+0,17.
+- Les fenêtres de T s'écartent au plus de −0,10 à −0,19 en B/R (5ᵉ centile selon la page), et de −0,25 au pire. Seul le f. 173v descend à −0,64, dans une bande pâle du bord droit (x > 1540).
+- Les petits signes de T mesurent « neutres » du seul fait de leur taille. Entre 15 et 30 px, leur B/R médian va de 1,67 à 2,01 selon la page, et 89 % sont au-dessous de 1,9 aux ff. 163r et 172v. Un trait franchement orangé garde pourtant sa couleur à cette taille : la haste du v. 1194, de 41 px, mesure 3,38.
+
+### 9.2 Contrôles
+
+| # | Affirmation (§) | Occurrences contrôlées | Constat | Verdict |
+|---|---|---|---|---|
+| 1 | Rⁿ : lettres récrites d'une encre plus neutre et plus sombre que T, hors des plages de T et de S2 (§ 2.3) | vv. 493, 646, 874, 939 | Δ −0,07/−0,30 (493) ; −0,09/−0,42 (646, 1 500 px) ; −0,13/−0,51 (874) ; −0,14/−0,68 (939). C'est au-delà de la variabilité ordinaire de T, alors que les témoins sur grattage ne s'écartent pas. G a bien « ἀλλὰ δεῦρ᾽ ἥκει πάλιν » au v. 646 | confirmée |
+| 2 | Rⁿ : accents ajoutés de la même encre aux vv. 54, 650, 661, 820, 1149 (§ 2.3, 3.4) | vv. 54, 650, 820, 1149 ; v. 661 trop petit | Rang du B/R parmi les petits signes de T de même taille et de même contraste : 1 % (54), 3 % (650), 6 % (1149), 21 % (820). Mais un point de T de la ligne du v. 54 mesure comme le grave (1,14/1,60 contre 1,19/1,51), et l'esprit du v. 1149 a les rapports de l'aigu voisin (1,15/1,78 contre 1,21/1,82). Seul le v. 650 a un témoin interne : le grave voisin, de même taille, a l'encre de T (1,34/2,26), l'aigu non (1,23/1,86) | à nuancer : 650 probable ; 54 et 1149 possibles ; 661 et 820 non démontrés |
+| 3 | Écriture de ἥκει πάλιν : « semi-onciale… avec Κ, Π, Λ, Ν majuscules » (§ 2.3) | les neuf lettres | Lettres droites et espacées ; Κ en deux traits, Α triangulaire, Π à barre, Ε lunaire ; mais η en « h » (avec esprit et accent) et ν sont minuscules | à nuancer : écriture mixte, sans Ν majuscule |
+| 4 | κιν (v. 493) : Κ majuscule en deux traits, sur grattage | κ, ι, ν et leur fond | Haste et chevron séparés ; ι et ν minuscules ; nuage gris d'abrasion au-dessus | confirmée |
+| 5 | v. 650 : grave de T et aigu ajouté, donc ἐγὼ → ἐγώ, contre Velsen 1883 (§ 4.A, 6.3) | les deux accents | Deux traits séparés « \ / » ; le grave a l'encre de T, l'aigu une encre plus neutre : c'est l'aigu qui est ajouté | confirmée |
+| 6 | v. 874 : σ gratté et ι ajouté contre l'ο, πόσου → ποίου (§ 4.A) | ποιου | Plage abrasée ovale (x ≈ 845–868) entre ποι et ου ; ι presque noir, serré contre l'ο | confirmée |
+| 7 | v. 939 : υ récrit sur grattage, très sombre (§ 4.A) | le υ et six zones de T voisines | υ noirâtre et épais ; Δ B/R de −0,43 à −0,74 selon la zone de référence ; aucun grattage discernable à cette résolution | à nuancer : encre distincte, grattage non vérifié |
+| 8 | v. 54 : grave « brun-noir » du second τάδε, de Rⁿ ; formulation « τὰ δὲ R³ » (§ 6.3) | ce grave, le grave du 1er τάδε, le point de T voisin | Trace dense de 35 px, non orangée (contre la « 2 m. » de Velsen 1871) ; mêmes rapports qu'un point de T de la ligne | à nuancer : main indécise, formulation affaiblie |
+| 9 | Accents « en V » : une série, dont la main est identifiable aux vv. 650 et 661 (§ 3.4) | vv. 594, 603, 604, 650, 967, 974 | « ✓ » soudé aux vv. 594, 603, 604, 967, 974 : un trait épais prolongé par un délié capillaire montant. Les aigus ordinaires de T sur les mêmes lignes sont simples, la correction est donc confirmée. Au v. 650, en revanche, deux traits séparés et de même poids. Les déliés sont trop fins pour être mesurés | à nuancer : deux types de geste ; main probable au seul v. 650 |
+| 10 | Corrections de 1516 « à la même encre » orangée : vv. 443, 803, 806, 1097, 1180, 1191 (§ 2.4) | les six lieux | Orangé confirmé : 1097 (B/R 3,49 ; T 2,32), 803 (barre 3,19 sur un grave de T à 1,63), 806 (2,62 ; T 2,26), 443 (boucle droite 2,79, gauche 2,19 ; écart faible). Non confirmé : 1180 (graves 1,60 et 1,78 ; T 1,89), 1191 (σκ 2,27–2,29, comme le 3e ο non corrigé, 2,15 ; pas d'orangé sur la carte B/R) | à nuancer : 4 lieux sur 6 |
+| 11 | v. 33 : ligne (a) brune, lignes (b)–(c) et δ repassés en orangé (§ 2.4) | les trois lignes, T, la scholie voisine | (a) 1,91 (μῶν 2,18) ; δ 2,66 ; (b) 2,63 ; εὐ 2,51 ; (c) 2,53 ; T 2,03 ; scholie 2,09. Le « ; » est trop fin pour être mesuré | confirmée |
+| 12 | v. 169 : seul le début (« — ὁ δ᾽ αὖ ξενο- ») est repassé en orangé, là où G laisse un blanc (§ 2.4, 7) | six segments, la scholie voisine, T | Tiret 2,88 ; ὁ δ᾽ αὖ 2,54 ; ξενο- 2,59 ; -κλῆς ὢν 2,25 ; κακὸς κακῶς 2,48 ; ποεῖ 2,62 ; scholie 2,11 ; T 2,00. Tout le supplément est roux, et ποεῖ, que G lisait, l'est autant que le début | réfutée |
+| 13 | Paragraphoi barrées : 22, toutes de 1516 sauf aux vv. 608, 620, 926 ; haste orangée (§ 3.5, 4.B) | vv. 232, 234, 608, 1184, 1194, 1204 ; décompte du tableau B | Décompte de 22 exact. Haste orangée aux vv. 1194 (3,38 ; paragraphos 2,08) et 1204 (2,53 ; 1,69). Non orangée aux vv. 232 et 234 (1,93 et 1,83 ; paragraphos 1,96 et 2,04 ; sigle orangé voisin 2,69) | à nuancer : au f. 165r, 1516 repose sur Velsen seul |
+| 14 | « Une partie de ces barres [de 1516] est fausse : au v. 608 » (§ 3.5) | haste, paragraphos, sigle κλ voisin | Haste brune (2,09 ; paragraphos 2,37), contre 3,90 pour le κλ orangé de 1516 ; le tableau B (« T, puis main pâle ») et Velsen 1871 (« ipsa I m. delevit ») vont dans le même sens | réfutée : la barre fautive n'est pas de 1516 |
+| 15 | κατα (v. 60) et καί (v. 306) : absents de G, encres non orangées (§ 2.6) | R aux deux lieux ; G, vues 0007 et 0014 | G : « τοῦ καλλιεποῦς τοῦ θριγκοῦ » et « καὶ τὴν δρῶσαν τὴν ἀγορεύουσαν ». R : κατα en petite cursive légère et penchée, Δ +0,01/+0,16 ; καί très pâle, 1,21/2,08 contre 1,32/2,14 pour T | confirmée |
+| 16 | μέντοι (v. 630) « dans sa minuscule et son encre » de T (§ 3.2, 7) | μέντοι, T de la ligne | Encre de T (Δ +0,03/+0,11), mais l'encre ne sépare pas T et S2 (§ 2.2) ; petite minuscule rapide, de module inférieur au texte, avec le μ à longue haste de T | à nuancer : T probable par la forme |
+| 17 | Contours bruns du κη^δ du v. 1207 : indice de repassage (§ 2.4) | κη^δ ; σκ de 1516 aux ll. 17 et 19 ; κλ du v. 608 | Pixels de bord sous B/R 2,45 : 55 % pour le κη^δ ; 52 % et 31 % pour les σκ de 1516 de la même page ; 17 % pour le κλ, très orangé | à nuancer : effet de bord, non probant |
+| 18 | Repère de la page c 13 (f. 174v) : « trait orangé » (§ 2.5, 4.C) | le trait, la scholie voisine | Trait fin d'encre, B/R 2,19 contre 1,95 pour la scholie ; loin des sigles orangés (2,7–3,9) ; ce n'est pas de la mine (B/R ≤ 1,35) | à nuancer : brun-orangé pâle |
+| 19 | Signaux de T aux vv. 4, 807, 1135, 1176, « seuls signaux de T dans la pièce » (§ 3.2) | les quatre signes | Une même famille : trait oblique ou en « √ », flanqué de deux points. Aux vv. 1135 et 1176, le signe touche le σκυ^θ de S2 et en a l'encre pâle. L'attribution à T vient d'Allen 1896 | à nuancer : main non vérifiable à l'image |
+| 20 | Bilan chiffré (§ 3.1) | `4_repertoire.json` | Recompte : 351 entrées ; 142 accents ou esprits et 142 lettres ou mots ; 35 « T ou S2 » ; 39 grattages seuls indéterminés ; 51 « Velsen seul » ; 9 Rⁿ ; 43 1516 | confirmée ; mais ces chiffres comptent des attributions que les contrôles 2, 8 et 10 affaiblissent |
+
+Spécimens : `ravennas/graphologie/specimens/chap4/verif_*.png`, dont quatre cartes B/R (vv. 33, 169, 1191, 1207).
+
+### 9.3 Ce qui change
+
+- **Rⁿ** garde un noyau sûr : les lettres récrites des vv. 493, 646, 874 et 939, et l'aigu probable du v. 650. Les accents des vv. 54 et 1149 deviennent possibles ; ceux des vv. 661 et 820 ne sont pas démontrés. Les sigles d'apparat (§ 6.1, 6.3) et le schéma (§ 5.3) sont corrigés en conséquence ; dans `4_repertoire.json`, les vv. 54 et 1149 passent à « Rⁿ ? ».
+- **1516** : l'encre orangée n'est vérifiée que pour quatre corrections du texte (vv. 443, 803, 806, 1097). Pour les vv. 1180 et 1191, l'attribution repose sur Velsen 1871 (ces lieux passent à « 1516 ? »). Le repassage du v. 169 n'est plus limité à son début, et il devient incertain.
+- **Paragraphoi** : la barre fautive du v. 608 n'est pas de 1516 ; les barres du f. 165r ne sont pas orangées.
+- **Non contrôlé ici** : le grattage sous le υ du v. 939 ; la leçon première de ποίου ; les notes orangées du f. 175v (vv. 1098, 1107), que je n'ai pas remesurées ; les leçons de G et de la Juntine autres que celles des vv. 60, 306 et 646.

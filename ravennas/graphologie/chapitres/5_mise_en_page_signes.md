@@ -2,7 +2,7 @@
 
 *Étude graphologique de R (Ravenne, Biblioteca Classense, ms. 429), Thesmophories, ff. 162v–177r (vv. 1–1231).*
 
-> **État** : chapitre rédigé le 28 octobre 2026 (sections 1–11), à partir des trente inventaires de page et de contrôles propres sur les images ; § 10 : contrôles effectués ; § 11 : corrections apportées aux inventaires. À soumettre à la vérification adversariale du chantier.
+> **État** : chapitre rédigé le 28 octobre 2026 (sections 1–11), à partir des trente inventaires de page et de contrôles propres sur les images ; § 10 : contrôles effectués ; § 11 : corrections apportées aux inventaires. Vérification adversariale faite le même jour (§ 12) : vingt affirmations contrôlées sur les images, corrections reportées dans le texte (paragraphos « antique », encre du ΜΝΗΣΙ^λο, scène d'Écho, virgule du v. 222, οὐκ᾽, Ο agrandis, coupes de mots).
 
 ## Sources, conventions, méthode
 
@@ -17,13 +17,13 @@
 
 1. **Cadre fixe.** Chaque page est réglée à la pointe sèche pour **43 lignes** (y compris le f. 162v, où la 2e réglure reste blanche sous le titre) ; justification ≈ 103–104 mm ; double verticale à gauche, qui ménage une **bande des sigles** de 6–7 mm où T pose ses paragraphoi ; écriture **suspendue** sous la réglure.
 2. **Pas d'apparat de titre** : titre de T en majuscule de distinction, à l'encre du texte, **sans rubrique**, sans hypothesis ni liste de personnages ; pas de souscription finale. La notice et le « προλογίζει μνησίλοχος κηδεστὴς εὐριπίδου » de la marge supérieure du f. 162v sont de la main des scholies.
-3. **Colométrie** : un côlon par ligne, renfoncement (eisthesis) variable des parties lyriques, ekthesis des vers longs ; les fins de ligne de R coïncident avec les relevés de Velsen 1883 (« RG ») dans les quatorze passages contrôlés, et la Juntine les reproduit. Quinze mots sont coupés en fin de ligne, un seul avec trait d'union. La scène d'Écho est mise en page sur deux « colonnes » séparées par une paragraphos en milieu de ligne.
+3. **Colométrie** : un côlon par ligne, renfoncement (eisthesis) variable des parties lyriques, ekthesis des vers longs ; les fins de ligne de R coïncident avec les relevés de Velsen 1883 (« RG ») dans les quatorze passages contrôlés, et la Juntine les reproduit. Au moins quinze mots sont coupés en fin de ligne (relevé des inventaires, non exhaustif), un seul avec trait d'union. La scène d'Écho est mise en page sur deux « colonnes » séparées par une paragraphos en milieu de ligne.
 4. **T ne nomme aucun personnage.** Ses seules marques sont la paragraphos (en tête de ligne), le dicolon (dans la ligne ou en fin de ligne), et parfois un blanc ou un point simple. Il omet beaucoup : environ un tiers des changements en tête de vers n'ont pas de paragraphos.
-5. **La paragraphos de T garde des traces de l'usage antique** : dans environ deux cas possibles sur cinq (25 sur 61), elle se trouve en tête du vers qui *suit* un changement intérieur, c'est-à-dire sous la ligne où le changement a lieu. Dix-sept paragraphoi tenues pour « fausses » (barrées ou grattées par la main de 1516, ou jugées telles par les inventaires) s'expliquent ainsi ; d'autres marquent une division du discours. Une paragraphos en tête du v. *n* ne prouve donc pas un changement de locuteur en tête du v. *n*.
+5. **La paragraphos de T garde des traces de l'usage antique** : dans environ un tiers des cas vraiment discriminants (14 cas, dont un seulement probable, plus 2 présumés sous un sigle de 1516 et 1 douteux, sur ≈ 47 au décompte brut), elle se trouve en tête du vers qui *suit* un changement intérieur, c'est-à-dire sous la ligne où le changement a lieu. Huit autres paragraphoi du même type tombent sur un vers qui contient lui-même un changement : elles ne permettent pas de trancher (vérification, § 12). Une quinzaine de paragraphoi tenues pour « fausses » (barrées ou grattées par la main de 1516, ou jugées telles par les inventaires) s'expliquent ainsi ; d'autres marquent une division du discours. Une paragraphos en tête du v. *n* ne prouve donc pas un changement de locuteur en tête du v. *n*.
 6. **Trois couches de sigles** : aucune de T ; des sigles abrégés à lettre suscrite de S2 (Xe s., encre brune, semi-onciale) ; des sigles « imprimables » de la main de 1516 (encre orangée), qui sont ceux de la Juntine et n'ont aucune valeur de tradition.
 7. **Le nom du Parent.** S2 l'appelle surtout **Μνησίλοχος** (près de trente sigles et notes : μνη^σ, μνησι^λο, μ·…) et seulement cinq fois **κηδ(εστής)** (vv. 466, 540, 603, 1107, 1207), comme dans sa notice initiale qui donne les deux noms. La main de 1516 écrit μν partout, sauf aux vv. 466–604 et 1209, où elle reprend le κηδ de S2 voisin. R ne donne donc aucun appui à « Κηδ. R passim » (Coulon 1928) : la désignation dominante du manuscrit est Μνησίλοχος, et les deux désignations sont byzantines, non de T.
 8. **Ponctuation de T** : point (surtout médian), point-virgule « ; » (interrogation ou pause), virgule basse, dicolon de pause, tirets de fin ; à transcrire signe pour signe, en distinguant les vrais dicola des faux (ι adscrit en deux touches, esprit ou accent de la ligne voisine).
-9. **Accentuation complète mais non normalisée** : graves et aigus fautifs, doubles accents, esprits souvent omis ou indistincts (doux/rude), parfois rejetés dans la bande des sigles ; un correcteur ancien a changé une quinzaine de graves en aigus devant ponctuation ou enclitique (accents « en V », « en ✓ » ou « en croix »). **Iota adscrit** sur la ligne, irrégulier, jamais souscrit. **Apostrophe** notée de façon irrégulière, et ajoutée après οὐκ / οὐχ (οὐκ᾽), habitude du copiste.
+9. **Accentuation complète mais non normalisée** : graves et aigus fautifs, doubles accents, esprits souvent omis ou indistincts (doux/rude), parfois rejetés dans la bande des sigles ; un correcteur ancien a changé une quinzaine de graves en aigus devant ponctuation ou enclitique (accents « en V », « en ✓ » ou « en croix »). **Iota adscrit** sur la ligne, irrégulier, jamais souscrit. **Apostrophe** notée de façon irrégulière, et probablement ajoutée après οὐκ / οὐχ (οὐκ᾽), habitude du copiste ; devant voyelle, la marque peut être l'esprit du mot suivant (§ 6.4).
 
 ---
 
@@ -107,7 +107,7 @@ Les signes de renvoi de S2 sont rares mais réels (ff. 163v l. 17 ; 164r ll. 5, 
 
 | Vers | Folio | Lieu de l'ajout | Main | Renvoi |
 |---|---|---|---|---|
-| 33 | 162v | marge droite, en trois lignes, à la hauteur des ll. 34–36 | S2 (minuscule de grand module, inclinée) ; sigles εὐ et « ; » de 1516 | aucun visible (f162v #31) |
+| 33 | 162v | marge droite, en trois lignes, à la hauteur des ll. 34–36 | S2 (minuscule de grand module, inclinée) ; sigles εὐ et « ; » de 1516. Encre : 1re ligne brune (1,45/2,32, comme T), suite plus orangée (1,62/3,13 ; vérification) | aucun visible (f162v #31) |
 | 169 | 164v | marge extérieure, à la hauteur des ll. 5–6 | S2 | croix « × » après le v. 168 (f164v #85) |
 | 647 | 170r | marge droite, à la hauteur des ll. 9–10 | S2 | « ÷ » à barre ondulée en tête du vers ajouté et après la l. 11, « ·/· » devant la l. 12 (f170r #31, #39, #56) |
 | 1102–1103 | 175v | marge inférieure, deux lignes | S2 (signes de renvoi : S2 ou main tardive) | « —+:— » après la l. 20 et « +: » en tête de l'ajout (f175v #24, #25) |
@@ -129,7 +129,7 @@ Chacune de ces lignes est une ligne `<l>` de plein droit dans la transcription (
 T n'a ni initiales ornées ni lettrines, mais il **agrandit ou fait saillir l'initiale** de certaines répliques ou sections, sans régularité :
 - ω de ὦ en tête de la pièce (f162v l. 2, x 689 contre ≈ 740) ;
 - ω de ὦ πρέσβυ (f164r l. 25, v. 146), grands Ο de Οὐκοῦν et de Ὅταν (ll. 32, 36 ; vv. 153, 157) ;
-- **Ο agrandi de module triple, en saillie**, aux deux entrées de la première femme (f168v vv. 533, 544) ; mais aussi, sans changement, au v. 548 ;
+- **Ο agrandi, en saillie**, aux deux entrées de la première femme (f168v vv. 533, 544) : ≈ 29 px de haut contre 12–13 px pour un ο ordinaire, donc un module **double** environ (non « triple ») ; au v. 548, sans changement, un ο moins agrandi (≈ 20 px) (vérification) ;
 - **Φ** de φίλαι en ekthesis, à longue queue fine, à l'entrée de Clisthène (f169r l. 25, v. 574), répondant à la queue en S du ξ de λέξει qui clôt les tétramètres (l. 24) : c'est la seule « marque de section » de la page (f169r #2, #46 ; `../specimens/f169r/l25_phi_initial.jpg`, `../specimens/f169r/l24_queue_xi.jpg`) ;
 - **Η** initial agrandi au début des anapestes du chœur (f170r l. 19, v. 655) ;
 - Π de παραδοὺς et φ de φορμὸν (f172r ll. 15, 21), dans les anapestes de la parabase.
@@ -149,7 +149,7 @@ La colonne ne change jamais de largeur ; c'est le **point de départ des lignes*
 3. **Vers longs** (tétramètres) : soit simplement plus longs, débordant la double verticale de droite (f167r vv. 381–382 ; f169r vv. 551–573 ; f171r vv. 726–727), soit **en saillie** (ekthesis) sur la verticale extérieure (f171v vv. 785–800, 3–4 mm ; f172v vv. 835–845 ; f170v), soit, sur une page lyrique, dans la bande des sigles (f174r ll. 3, 10, 30, 43).
 4. **Débordements** : la fin d'un tétramètre trop long est reportée sur la ligne suivante, renfoncée vers le milieu de la colonne (f171v : six cas, φέρε δὴ νῦν l. 26, εἴπερ ἀληθῶς l. 32, λαμβάνετ᾽ ἔνδον l. 34, καὶ κοπιῶσαι l. 36, ἐπιδήλως l. 41, ἰδέσθαι l. 43 ; f172r : neuf tétramètres sur 13 aux vv. 801–813 ; f173v : vv. 947–948). Ailleurs, T serre la fin de ligne et surélève les dernières lettres (ἀγορεύ^ει, ἅπαν^τα, ἐπιθυμ^εῖ, f171v ll. 23, 24, 39).
 5. **Extra metrum** et répliques brèves sur une ligne propre : γλαυκόν, βομβάξ, σίγα· τί λέγει;, etc. (f163r ll. 3–21) ; ἄ α· et ἔα ἔα, centrés (f170v ll. 11, 22) ; πρῶ, seul et en ekthesis (f174r l. 10) ; ἀρταμουξία (f177r ll. 4, 8, 15, en retrait, mais pas au v. 1225, l. 18).
-6. **Mots coupés en fin de ligne** : quinze cas, **sans trait d'union** sauf un ; T coupe aussi bien après une consonne que dans un groupe consonantique.
+6. **Mots coupés en fin de ligne** : quinze cas relevés par les inventaires (relevé non exhaustif : d'autres peuvent avoir échappé), **sans trait d'union** sauf un ; T coupe aussi bien après une consonne que dans un groupe consonantique.
 
 | Folio, lignes | Coupe |
 |---|---|
@@ -206,9 +206,9 @@ Au f. 166r, l. 27, un **tiret** après παῖ relie la fin de ligne au côlon s
 La mise en page de la scène est la plus élaborée de la pièce (planche `../planches/5_planche_mise_en_page.jpg` ; vues `.travail/chap5/vues/f175r_l30-43.png` et `.travail/chap5/vues/f175v_l1-16.png` ; `../specimens/f175r/f175r_sigles_l26_37.png`, `../specimens/f175v/f175v_mep_blocs.jpg`) :
 
 - **f. 175r, ll. 21–43** (vv. 1065–1081) : lignes courtes, commençant vers x ≈ 335, précédées d'une large bande de sigles (x ≈ 250–335). Les répliques de Mnésiloque et d'Écho occupent chacune une ligne ; T met une paragraphos devant la plupart des lignes qui commencent une réplique (il n'en met pas aux vv. 1065 et 1074, ni, dans les trimètres qui précèdent, aux vv. 1058, 1059 et 1064), mais aussi devant λίαν (l. 35, v. 1076a) et παῦσαι (l. 39, v. 1078a), qui terminent des répliques de Mnésiloque : il a pris ces mots, que l'écho va répéter, pour des répliques séparées (paragraphoi barrées d'un trait gris, sans doute pour l'impression).
-- **f. 175r, ll. 39–43, et f. 175v, ll. 1–16** : **deux répliques par ligne**. La première (Mnésiloque, puis le Scythe) commence à la justification ; après un blanc, la répétition d'Écho forme une **seconde colonne** (vers x ≈ 600 au f. 175r, x ≈ 1050–1250 au f. 175v), introduite par une **paragraphos de T en milieu de ligne** — trait mince, plus pâle que le texte (A_R 0,14–0,16, f175v). Exceptions : ff. 175v ll. 9–12 et 16, sans répétition ; le v. 1095 sur deux lignes (ll. 13–14) ; les répétitions d'Écho aux vv. 1093–1094 manquent dans R (l. 12).
+- **f. 175r, ll. 39–43, et f. 175v, ll. 1–16** : **deux répliques par ligne**. La première (Mnésiloque, puis le Scythe) commence à la justification ; après un blanc, la répétition d'Écho forme une **seconde colonne** (vers x ≈ 600 au f. 175r, x ≈ 1050–1250 au f. 175v), introduite par une **paragraphos de T en milieu de ligne** — trait mince, de la même encre que le texte et que les paragraphoi de la bande des sigles (f175v ll. 4, 6–8 : G/R 1,35–1,42, B/R 2,22–2,42, A_R 0,12–0,16 ; texte des mêmes lignes 1,42–1,44/2,49–2,55, A_R 0,15 ; paragraphoi de gauche, ll. 3–5, 1,29–1,36/2,26–2,49) : elle n'est pas nettement « plus pâle que le texte », comme je l'avais écrit (vérification). Exceptions : ff. 175v ll. 9–12 et 16, sans répétition ; le v. 1095 sur deux lignes (ll. 13–14) ; les répétitions d'Écho aux vv. 1093–1094 manquent dans R (l. 12).
 - **Sigles.** S2 écrit des notes développées : εὐρι(πίδης) ἠχώ (f175r l. 12, v. 1056 : Euripide joue Écho), ηχω (f175r l. 26 ; f175v l. 2), ὁ μνησίλ(ο)χ(ος) ὡς ἀνδρομέδα (f175r l. 21), et la note de jeu ἠρέμα ὁ κηδεστ(ής), [τὸ] πρὸς τ(ὸν) εὐρι(πίδην) (f175r l. 19, f175r #64). La main de 1516 pose Ηχ et μν (μ réduit à un crochet aux ll. 41–43) sur les paragraphoi de T, ou greffe sur elles les hastes du Η (f175r ll. 39–43 ; f175v ll. 6–7).
-- **Annulations de 1516.** La main de 1516 barre d'une haste orangée la paragraphos de milieu de ligne du v. 1092b et celles des vv. 1093 et 1095 (f175v ll. 11–13, f175v #11, `../specimens/f175v/f175v_l12_13_paragraphoi_biffees.jpg`) : ce sont pourtant de vrais changements de locuteur dans le texte de l'édition ; la Juntine n'imprime simplement pas de sigle à ces endroits.
+- **Annulations de 1516.** La main de 1516 barre d'une haste orangée la paragraphos de milieu de ligne du v. 1092b et celles des vv. 1093 et 1095 (f175v ll. 11–13, f175v #11, `../specimens/f175v/f175v_l12_13_paragraphoi_biffees.jpg` ; croisements orangés sur trait brun, contrôlés sur la carte des encres). Aux vv. 1092b et 1093, ce sont de vrais changements de locuteur, dans le texte de R comme dans celui de l'édition. Au v. 1095, en revanche, le changement n'existe que dans le texte restitué : la l. 12 de R ne porte que les répliques de l'archer (« ποῖ ποῖ φεύγεις· οὐ καιρήσεις· », 1093a + 1094a, sans les échos 1093b–1094b), et la l. 13 (« ἔτι γὰρ γρύζεις », 1095a) est encore de l'archer ; l'annulation s'accorde donc ici avec le texte de R. La Juntine n'imprime pas de sigle à ces endroits.
 
 **Conséquence pour la transcription.** La paragraphos de milieu de ligne s'encode à sa place dans la ligne (`<parag/>` suivi du texte d'Écho), précédée d'un blanc `<sp/>` ; la ligne reste une seule `<l>`.
 
@@ -242,46 +242,47 @@ Ces chiffres reposent sur les attributions modernes et sur la visibilité actuel
 
 Plusieurs inventaires ont relevé des paragraphoi « fausses » ou « décalées » : en tête d'un vers où le locuteur ne change pas (f162v vv. 7, 14 ; f165r vv. 217, 225 ; f169v vv. 622, 623 ; f173v vv. 926, 935, 940 ; f176v vv. 1184, 1192, 1194, 1195…). L'inventaire du f. 173v a proposé d'y voir la convention antique, où la paragraphos est tracée **sous la ligne qui contient le changement**, le dicolon marquant le point exact (f173v § 3). Je l'ai éprouvée sur toute la pièce (`.travail/chap5/convention.py` ; planche `../planches/5_planche_paragraphos.jpg`) :
 
-- **cas discriminants** : un changement à l'intérieur du v. *n*−1, aucun en tête du v. *n* ; on en compte une soixantaine sur les pages renseignées ;
-- **résultat** : T met une paragraphos en tête du v. *n* dans **25 cas sur 61** (≈ 40 %), et rien dans les autres.
+- **cas retenus** : un changement à l'intérieur du v. *n*−1, aucun en tête du v. *n* ; on en compte une soixantaine sur les pages renseignées ;
+- **résultat brut** : T met une paragraphos en tête du v. *n* dans 25 cas sur 61 (≈ 40 %), et rien dans les autres ;
+- **résultat corrigé (vérification, § 12)** : dans 8 de ces 25 cas (vv. 7, 216, 622, 623, 742, 1006, 1194, 1195, marqués « ‡ » ci-dessous), le v. *n* contient **lui-même** un changement intérieur ; la paragraphos y est donc aussi bien rattachée à la ligne du changement (la règle que j'invoque plus bas pour les vv. 234, 1193 et 1200) que placée sous la ligne précédente : ces cas ne discriminent pas. Restent comme cas vraiment discriminants (v. *n* sans aucun changement) ≈ 47 vers (décompte brut de `.travail/verif_chap5/conv2.py`, avant relecture), où T met une paragraphos dans **14 cas** (vv. 14, 217, 225, 246, 620, 744, 750, 875, 926, 935, 940, 1184, 1192, 1221 ; celle du v. 744 seulement probable), plus 2 présumées sous un sigle de 1516 (vv. 898, 1219) et 1 douteuse (v. 1119) : **environ un tiers** (30–36 %).
 
 | Paragraphos devant le v. | Folio, l. | Changement intérieur au vers précédent | Sort de la paragraphos |
 |---|---|---|---|
-| 7 | 162v, 8 | 6 (Euripide → Parent) | laissée |
-| 14 | 162v, 15 | 13 (Parent → Euripide) | laissée (vue : `../specimens/f162v/f162v_l15_paragraphos.png`) |
-| 216 | 165r, 8 | 215 (Parent → Euripide) | laissée (changement aussi dans le v. 216) |
-| 217 | 165r, 9 | 216 (Euripide → Parent) | laissée |
-| 225 | 165r, 17 | 224 (Euripide → Parent) | laissée |
+| 7 ‡ | 162v, 8 | 6 (Euripide → Parent) | laissée |
+| 14 | 162v, 15 | 13 (Parent → Euripide) | laissée (vue : `../specimens/f162v/f162v_l15_paragraphos.png` ; revue : trait épais, brun) |
+| 216 ‡ | 165r, 8 | 215 (Parent → Euripide) | laissée (changement aussi dans le v. 216) |
+| 217 | 165r, 9 | 216 (Euripide → Parent) | laissée (revue : en massue, brune, 1,31/2,04) |
+| 225 | 165r, 17 | 224 (Euripide → Parent) | laissée (revue : brune, 1,34/1,92) |
 | 246 | 165r, 38 | 245 (Euripide → Parent) | barrée par 1516 (`../specimens/f165r/l38_paragraphos_barree.jpg`) |
 | 620 | 169v, 28 | 619 (Clisthène → Parent) | annulée en ⊥ d'**encre brune** (T ou S2, f169v #74) |
-| 622 | 169v, 30 | 621 (Clisthène → Parent) | laissée (vue) |
-| 623 | 169v, 31 | 622 (Parent → Clisthène) | laissée (vue) |
-| 742 | 171r, 22 | 741 (Parent → Mica ; **sans dicolon** dans le v. 741) | laissée (1516 pose ses Γϋ sur les dicola intérieurs du v. 742) |
-| 744 | 171r, 24 | 743 (Parent → Mica) | laissée |
-| 750 | 171r, 30 | 749 (Mica → Parent) | laissée |
+| 622 ‡ | 169v, 30 | 621 (Clisthène → Parent) | laissée (vue) |
+| 623 ‡ | 169v, 31 | 622 (Parent → Clisthène) | laissée (vue) |
+| 742 ‡ | 171r, 22 | 741 (Parent → Mica ; **sans dicolon** dans le v. 741) | laissée (1516 pose ses Γϋ sur les dicola intérieurs du v. 742) |
+| 744 | 171r, 24 | 743 (Parent → Mica) | **probable** : trait contigu à la fin de la glose χωροῦν de S2 (« soudée à la glose », inventaire), qui peut en être le prolongement |
+| 750 | 171r, 30 | 749 (Mica → Parent) | laissée (revue : nette) |
 | 875 | 172v, 42 | 874 (Parent → Critylla) | 1516 y greffe Γϋ |
 | 898 | 173r, 22 | 897 (Parent → Critylla) | sous la barre du Γϋ de 1516 (vue par Velsen 1871 ; f173r n° 80) |
 | 926 | 173v, 7 | 925 (Parent → Euripide) | barrée (main indéterminée) |
 | 935 | 173v, 17 | 934 (prytane → Critylla) | barrée (1516 selon Velsen 1871) |
 | 940 | 173v, 23 | 939 (prytane → Parent) | 1516 y pose μν, que la Juntine n'imprime pas |
-| 1006 | 174v, 5 | 1005 (archer → Parent) | laissée |
-| 1119 | 175v, 36 | 1118 (Euripide → archer) | laissée |
+| 1006 ‡ | 174v, 5 | 1005 (archer → Parent) | laissée |
+| 1119 | 175v, 36 | 1118 (Euripide → archer) | **douteuse** : trait court (≈ 13 px, contre 25–42 px pour une paragraphos), semblable à la marque placée devant οὐκ à la l. 37 (v. 1120, sans changement) ; esprit rejeté ou trace (vérification) |
 | 1184 | 176v, 16 | 1183 (Euripide → archer) | barrée par 1516 (deux encres, f176v #9) |
-| 1192 | 176v, 25 | 1191 (Euripide → archer) | laissée (vue) |
-| 1194 | 176v, 27 | 1193 (archer → Euripide) | barrée par 1516 (vue) |
-| 1195 | 176v, 28 | 1194 (Euripide → archer) | barrée par 1516 (vue) |
+| 1192 | 176v, 25 | 1191 (Euripide → archer) | laissée (vue ; revue : brune) |
+| 1194 ‡ | 176v, 27 | 1193 (archer → Euripide) | barrée par 1516 (vue ; croisement orangé) |
+| 1195 ‡ | 176v, 28 | 1194 (Euripide → archer) | barrée par 1516 (vue ; croisement orangé) |
 | 1219 | 177r, 11 | 1218 (archer → coryphée) | sous le σκ de 1516 (Velsen) |
 | 1221 | 177r, 13 | 1220 (archer → coryphée) | barrée par 1516 |
 
-Deux détails confirment l'interprétation :
-- au v. 742, T ne met **aucun dicolon** dans le v. 741, mais une paragraphos en tête du v. 742 : c'est la paragraphos seule qui signale le changement intérieur de la ligne précédente ;
-- au v. 875, T a coupé le v. 874 en deux lignes à la réplique (ll. 40–41, avec un tiret devant la seconde) et garde *en plus* la paragraphos du v. 875 : il la tient d'un modèle où le v. 874 tenait sur une ligne et où la paragraphos, sous cette ligne, signalait son changement intérieur.
+Deux détails vont dans le sens de l'interprétation, sans la prouver (vérification) :
+- au v. 742, T ne met **aucun dicolon** dans le v. 741 (vu), mais une paragraphos en tête du v. 742 : elle peut signaler le changement intérieur de la ligne précédente ; mais le v. 742 contient lui-même deux changements (ἤνεγκον. | ἤνεγκας σύ; | νὴ τὴν Ἄρτεμιν), et la paragraphos peut aussi bien se rapporter à eux : le cas n'est pas décisif ;
+- au v. 875, T a coupé le v. 874 en deux lignes à la réplique (ll. 40–41 ; le tiret devant la seconde, signalé par Velsen 1871, est aujourd'hui caché sous l'εὐ de 1516 et ne se voit pas sur l'image) et garde *en plus* la paragraphos du v. 875 (sous le Γϋ de 1516), alors que le v. 875 est tout entier de Critylla : il la tient peut-être d'un modèle où le v. 874 tenait sur une ligne et où la paragraphos, sous cette ligne, signalait son changement intérieur.
 
 **Paragraphoi de division du discours.** D'autres paragraphoi, sans aucun changement de locuteur, tombent à une articulation du sens, comme la paragraphos antique dans un texte continu : f168r vv. 498 et 502, dans le discours de Mnésiloque (après la pause intérieure du v. 497, οὐπώποτ᾽ εἶπεν. εἰ δὲ Φαίδραν…, puis au début d'une nouvelle anecdote, ἑτέραν δ᾽ ἐγᾦδ᾽…), où l'inventaire les note « tirets » et recommande de les transcrire sans les interpréter ; f169v v. 601 (le coryphée se tourne vers Clisthène) et v. 635 (après le δεῦρ᾽ ἐλθὲ … ὦ Κλείσθενες du v. 634) ; f176v vv. 1199 et 1204 (changements d'interlocuteur adressé dans la scène de l'archer).
 
 **Résidu inexpliqué** : f163r v. 72 (paragraphos nette, sans changement dans le texte reçu ; le modèle répartissait-il autrement les vv. 70–72 ?), f165r v. 234 (barrée par 1516), f176v vv. 1193 et 1200 (grattées ; l'Augustanus a encore celle du v. 1200, Velsen 1883) et v. 1198 (?). Les vv. 234, 1193 et 1200 contiennent eux-mêmes un changement intérieur : la paragraphos y est rattachée à la ligne du changement plutôt que placée sous elle.
 
-**Interprétation.** Le système de T est **mixte**. La paragraphos sert d'abord, comme dans les éditions modernes, à signaler une réplique qui commence en tête de ligne ; mais dans deux cas sur cinq, elle suit encore la règle antique, et quelques fois elle marque une simple division du discours. Le plus vraisemblable est que T (ou un ancêtre proche) a reporté en tête de ligne, à mi-hauteur, une paragraphos qui, dans un modèle plus ancien, était tracée **entre** deux lignes : selon qu'il la rattachait à la ligne d'au-dessus ou à celle d'au-dessous, elle tombe en tête de la réplique nouvelle ou en tête du vers qui suit le changement. Le système n'était déjà plus compris au Xe siècle : une paragraphos de type antique (v. 620), et une autre qui marque pourtant un vrai changement (v. 608, « ipsa I m. delevit », Velsen 1871, 11), sont annulées à l'encre brune ; la main de 1516, qui ne connaît que la convention de la Juntine, barre ou couvre les autres.
+**Interprétation.** Le système de T est **mixte**. La paragraphos sert d'abord, comme dans les éditions modernes, à signaler une réplique qui commence en tête de ligne ; mais dans un tiers environ des cas discriminants, elle suit encore la règle antique, et quelques fois elle marque une simple division du discours. Le plus vraisemblable est que T (ou un ancêtre proche) a reporté en tête de ligne, à mi-hauteur, une paragraphos qui, dans un modèle plus ancien, était tracée **entre** deux lignes : selon qu'il la rattachait à la ligne d'au-dessus ou à celle d'au-dessous, elle tombe en tête de la réplique nouvelle ou en tête du vers qui suit le changement. Le système n'était déjà plus compris au Xe siècle : une paragraphos de type antique (v. 620), et une autre qui marque pourtant un vrai changement (v. 608, « ipsa I m. delevit », Velsen 1871, 11), sont annulées à l'encre brune ; la main de 1516, qui ne connaît que la convention de la Juntine, barre ou couvre les autres.
 
 **Conséquences.** Une paragraphos en tête du v. *n* signifie seulement : « changement de locuteur en tête du v. *n*, ou à l'intérieur du v. *n*−1, ou articulation du discours ». Elle ne justifie pas à elle seule une attribution nouvelle (c'était déjà la prudence de l'inventaire du f. 162v pour les vv. 7 et 14). Dans l'apparat des attributions, il faut citer la marque telle qu'elle est (« — R ante v. *n* »), à la manière de Coulon 1928 (sigle « par. »), et non la traduire en nom de personnage.
 
@@ -314,14 +315,14 @@ Paragraphoi annulées après coup, et ce qu'en dit le texte de l'édition :
 | 620 | 169v, 28 | ⊥ brun (T ou S2) | non, mais changement intérieur au v. 619 |
 | 926, 935 | 173v, 7, 17 | haste (935 : 1516 selon Velsen 1871) | non, mais changement intérieur aux vv. 925, 934 |
 | 1076a, 1078a | 175r, 35, 39 | trait gris | non (erreur de T dans la scène d'Écho) |
-| 1092b, 1093, 1095 | 175v, 11–13 | haste orangée | **oui** dans les trois cas |
+| 1092b, 1093, 1095 | 175v, 11–13 | haste orangée | **oui** aux vv. 1092b et 1093 ; au v. 1095, seulement dans le texte restitué (R omet les échos 1093b–1094b, § 2.3) |
 | 1114 | 175v, 31 | grattée | **oui** (Euripide → archer) |
 | 1184, 1194, 1195 | 176v, 16, 27, 28 | haste orangée | non, mais changement intérieur aux vv. 1183, 1193, 1194 |
 | 1193, 1200 | 176v, 26, 33 | grattées (1200 après la copie de G) | non (changement intérieur au v. lui-même) |
 | 1204 | 176v, 37 | haste | non (articulation du discours) |
 | 1221 | 177r, 13 | haste roussâtre, 1516 | non, mais changement intérieur au v. 1220 |
 
-Sur ces vingt-cinq annulations, dix suppriment donc un **vrai** changement de locuteur, et huit une paragraphos de type antique : la main de 1516 corrige T d'après la Juntine, non d'après le sens. Ses barres ne doivent jamais être lues comme le signal « + » du copiste (piège signalé par tous les inventaires concernés).
+Sur ces vingt-cinq annulations, neuf suppriment donc un **vrai** changement de locuteur (dix avec le v. 1095, où le changement n'existe que dans le texte restitué ; et l'une d'elles, au v. 608, est brune, non de 1516), et huit une paragraphos placée sous la ligne d'un changement (dont deux, vv. 1194–1195, sur des vers qui contiennent eux-mêmes un changement, § 3.3) : la main de 1516 corrige T d'après la Juntine, non d'après le sens. Ses barres ne doivent jamais être lues comme le signal « + » du copiste (piège signalé par tous les inventaires concernés).
 
 ---
 
@@ -329,7 +330,7 @@ Sur ces vingt-cinq annulations, dix suppriment donc un **vrai** changement de lo
 
 ### 4.1 Trois couches
 
-1. **T n'écrit aucun nom de personnage.** Aucun inventaire n'a trouvé de sigle de sa main. Le seul cas allégué, « μνησι^λο » devant le v. 130, que van Leeuwen 1904 donne au copiste (dossier § 8.2), est un sigle de S2 : petites majuscules ΜΝΗΣΙ et λ suscrit enfermant un ο, de l'encre des scholies (1,39/2,33, contre 1,33–1,36/2,13–2,27 pour T ; f164r #71) ; vérifié sur l'image (`.travail/chap5/vues/f164r_l7-10.png`).
+1. **T n'écrit aucun nom de personnage.** Aucun inventaire n'a trouvé de sigle de sa main. Le seul cas allégué, « μνησι^λο » devant le v. 130, que van Leeuwen 1904 donne au copiste (dossier § 8.2), est un sigle de S2 : petites majuscules ΜΝΗΣΙ et λ suscrit enfermant un ο (vérifié sur l'image, `.travail/chap5/vues/f164r_l7-10.png`). L'argument d'encre de l'inventaire (1,39/2,33, contre 1,33–1,36/2,13–2,27 pour T ; f164r #71) ne résiste pas à la mesure uniforme (fond local, outil du chapitre 1) : ΜΝΗΣΙ 1,41/2,38, texte de la même ligne 1,42/2,50, texte de la page 1,39–1,41/2,36–2,47, scholies de la page 1,41–1,51/2,52–2,76 ; seul le petit λο (1,53/2,97, 31 px) s'écarte un peu. L'attribution à S2 repose donc sur la **forme** (suspension, petites capitales, lettre suscrite) et la **position**, non sur l'encre (vérification).
 2. **S2** (Xe s.) écrit des sigles **abrégés par suspension**, avec une lettre suscrite (μνη^σ, κη^δ, ευρι^π, αγα^θ, κλεισ^θ, γυ^ν, σκυ^θ, χ^ρ…), en petites majuscules ou en semi-onciale, de l'encre brune des scholies, à gauche de la paragraphos de T sans la recouvrir, ou dans l'interligne au-dessus du dicolon ; parfois des **notes développées** (καλλιλεξία γυ^ν, v. 383 ; γυ^ν μία, v. 605 ; ΠΡΥΤΑΝΙϹ, v. 929 ; εὐρι^π ὡς περσεύς, v. 1098 ; ὁ μνησίλ(ο)χ(ος) ὡς ἀνδρομέδα, v. 1065 ; κη^δ ὡς ἀνδρομε^δ, v. 1107 ; ευρι^π ὡς γραῦς, vv. 1177, 1181) et des **indications de jeu** (πρὸ(ς) τ(ὰς) γυναῖκας, v. 726 ; ἠρέμα ὁ κηδεστ(ής), [τὸ] πρὸς τ(ὸν) εὐρι(πίδην), v. 1063b).
 3. **La main de 1516** écrit des sigles « **imprimables** » (Εὐ, Μν, Ἀγ, Γυ, Κλ, Σκ, Ηχ, Χο…), d'encre orangée, souvent suivis d'un point d'abréviation, pour l'imprimeur de la Juntine, qui les reproduit tels quels (Velsen 1871, 7–26) ; elle repasse ou gratte parfois les sigles de S2 (f162v vv. 5, 19, 39 repassés ; v. 34 gratté et récrit ; f163r vv. 45b–c repassés ; f165r v. 210 repassé ; f168r v. 466 gratté et récrit) ; d'autres sigles, dont certains de sa main que la Juntine imprime, ont été grattés plus tard (f163r vv. 57b, 58, 63, 77 ; f175v v. 1116).
 
@@ -404,7 +405,7 @@ Les deux couches sont **complémentaires** : là où S2 a pourvu le texte de sig
 | 19 | 162v, 20 | μνη^σι | repassé μνη par 1516 |
 | 33 | 162v, marge | μ· | en tête du vers suppléé |
 | 45b | 163r, 4 | μνησι^λο | λό brun (S2), μνησι repassé en orangé (f163r #12) |
-| 130 | 164r, 9 | ΜΝΗΣΙ^λο | vu ; non de T (§ 4.1) |
+| 130 | 164r, 9 | ΜΝΗΣΙ^λο | vu ; non de T par la forme (§ 4.1), l'encre ne tranche pas |
 | 200 | 164v, 35 | μνη^σ | — |
 | 210 | 165r, 2 | μνη^σ | R² selon Velsen 1883 ; encre actuelle de 1516 (repassé) |
 | 615, 630 | 169v, 23, 38 | μνη^σ | au-dessus du dicolon ; en marge |
@@ -463,16 +464,16 @@ Planche : `../planches/5_planche_accents_ponctuation.jpg`.
 | Signe | Forme et place | Emplois relevés | Exemples |
 |---|---|---|---|
 | point | surtout **à mi-hauteur** ; parfois haut ; le point final est souvent détaché loin à droite (f172v ll. 5, 18, 20, 31, 43) | fin de phrase, de vers ou de côlon ; après un vocatif ; **à la place du point d'interrogation** ; pauses intérieures du pnigos | ὦ ζεῦ· … φανήσεται· (f162v v. 1, vu) ; τούτοις·, μᾶλλον·, βωμολόχους· (f172r ll. 25–27) ; points de pause du pnigos (f172r #23) |
-| point-virgule « ; » | point haut et virgule descendante | **interrogation** le plus souvent ; parfois simple pause | σίγα· τί λέγει; (f163r l. 5) ; τί σ πάτρα; (f164r l. 15, vu) ; ἐπινοεῖ; (f166v l. 2) ; στρέφει; (f169v l. 18) ; ἡμᾶσ; (f172r l. 3) ; με; (f176v l. 23, vu) ; pause : συγκλείσας ; (f162v v. 40, `../specimens/f162v/f162v_l40_semicolon_epi.png`) ; après γυναικὸς et λεγούσης, sans question (f167v l. 13) |
+| point-virgule « ; » | point haut et virgule descendante | **interrogation** le plus souvent ; parfois simple pause | σίγα· τί λέγει; (f163r l. 5 ; le « ; » ne se lit pas à cette résolution, zone frottée : à vérifier) ; τί σ πάτρα; (f164r l. 15, vu) ; ἐπινοεῖ; (f166v l. 2) ; στρέφει; (f169v l. 18, revu) ; ἡμᾶσ; (f172r l. 3, revu) ; με; (f176v l. 23, vu ; virgule brune, 1,36/2,17) — dans ces quatre cas revus, point et virgule sont bruns, sans orangé sur la carte des encres ; pause : συγκλείσας ; (f162v v. 40, `../specimens/f162v/f162v_l40_semicolon_epi.png`) ; après γυναικὸς et λεγούσης, sans question (f167v l. 13) |
 | virgule basse | sous la ligne de base | valeur incertaine : hypodiastole (séparation) ou pause | καθῆ σθαι, γεγένημαι, πικρὰν, ἐμοὶ (f172v ll. 6, 12, 19, 25) ; ἀνίστασ , ὀρθός (f170r l. 8) ; σὲ (f174r l. 31) ; ἐμέ, (f176v l. 26, vu) |
-| dicolon | deux points superposés | changement de locuteur ; pause forte ; question (§ 3.4) | κέκραγας : (f165r l. 14), changé en « ; » par 1516 |
+| dicolon | deux points superposés | changement de locuteur ; pause forte ; question (§ 3.4) | κέκραγας : (f165r l. 14), changé en « ; » par 1516 selon Velsen 1871 (encre de la virgule non distincte, voir ci-dessous) |
 | tiret, point allongé | trait horizontal à mi-hauteur en fin de ligne | fin de période | f173r l. 25 (v. 901) ; f174r ll. 3, 39 |
 | « :– », « :— » | dicolon et tiret | clôture | f174r l. 29 ; titre et fin de l'hypothesis de l'*Assemblée* (f177r) |
 | trois points | trois petits points alignés | renvoi ou rattachement ? | devant ταύτην νικᾶν (f166r l. 16, f166r #12, `../specimens/f166r/f166r_l16_trois_points.jpg`) |
 
 La ponctuation est **fréquente mais non systématique** : beaucoup de fins de vers n'en ont pas (f168v ll. 1, 13), et le point peut couper ce que les éditions lient (« προσμάθοι· μὴ » pour προσμάθοιμι, f162v v. 24, f162v #46). Le **point d'interrogation moderne** n'est pas en usage de façon régulière : T emploie indifféremment le point, le point-virgule ou le dicolon après une question.
 
-**Interventions de la main de 1516.** Elle ajoute une virgule orangée sous un point ou un dicolon de T pour en faire un « ; » à l'usage de l'imprimeur : v. 193 (f164v l. 28, `../specimens/f164v/l28_point_interrogation_1516.jpg`), v. 222 (κέκραγας : → κέκραγας;, Velsen 1871, `../specimens/f165r/l14_kekragas_point_interrogation.jpg`), v. 252 (f165v l. 1, non signalé par Velsen), vv. 32 et 33 (πώποτε· → πώποτε;, Velsen 1871, 25 ; au v. 33 suppléé, le « ; » est orangé, f162v #31) ; elle gratte le dicolon du v. 32 (f162v #51). Ces signes sont la ponctuation de la Juntine, non de R.
+**Interventions de la main de 1516.** Elle ajoute une virgule orangée sous un point ou un dicolon de T pour en faire un « ; » à l'usage de l'imprimeur : v. 193 (f164v l. 28, `../specimens/f164v/l28_point_interrogation_1516.jpg` ; virgule 1,58/2,80 contre 1,21/2,02 pour le point, orangée sur la carte des encres), v. 252 (f165v l. 1, non signalé par Velsen ; virgule 1,66/3,14, plus orangée que T à densité égale), vv. 32 et 33 (πώποτε· → πώποτε;, Velsen 1871, 25 ; au v. 33 suppléé, le « ; » est orangé, f162v #31) ; elle gratte le dicolon du v. 32 (f162v #51). Au v. 222 (κέκραγας : → κέκραγας;, Velsen 1871, `../specimens/f165r/l14_kekragas_point_interrogation.jpg`), l'ajout n'est **pas confirmé par l'encre** : la virgule (1,29/2,07) a l'encre du point qu'elle prolonge (1,32/2,07) et du texte (1,33/2,15) ; seuls la forme et le témoignage de Velsen la donnent à 1516 (vérification). Ces signes sont la ponctuation de la Juntine, non de R.
 
 **La ponctuation des scholies** (quatre points, hypodiastole, point haut avant les citations : Rutherford 1896, I, xxix, dossier § 8.3) est traitée au chapitre 3.
 
@@ -508,7 +509,7 @@ Il faut donc, devant chaque point ou dicolon douteux, vérifier à fort grossiss
 
 | Mot | Folio, l. (v.) | Forme | Source |
 |---|---|---|---|
-| καινόν·, ἁγνήν·, εἰκός· | 174r, 9, 13, 16 (967, 971, 974) | « ✓ » : grave épais et court, aigu long et mince | f174r #10, #50 ; Velsen 1883 « corr. ex καινὸν· » ; vu (`../specimens/f174r/f174r_l09_kainon_accent.png`) |
+| καινόν·, ἁγνήν·, εἰκός· | 174r, 9, 13, 16 (967, 971, 974) | « ✓ » : grave épais et court, aigu long et mince ; celui de ἁγνήν est placé très haut, dans l'interligne, sous les lettres de la l. 12 (τοξοφόρον) : à ne pas rattacher à cette ligne | f174r #10, #50 ; Velsen 1883 « corr. ex καινὸν· » ; vu (`../specimens/f174r/f174r_l09_kainon_accent.png`) ; καινόν et εἰκός revus |
 | ἐγώ·, καιρός (devant ἐστι) | 170r, 14, 26 (650, 661) | V : grave de T et aigu à l'encre neutre | f170r §d (contre Velsen 1883, qui donne le sens inverse au v. 650) |
 | ἀεί | 169r, 27 | V | f169r §e |
 | κακόν, παρών | 164v, 30, 23 (195, 188) | croix ; aigu seul | f164v §d |
@@ -540,7 +541,7 @@ Dans les scholies, Rutherford imprime des ι adscrits là où l'image montre de 
 
 - **L'apostrophe est notée le plus souvent** (γ᾽, τ᾽, θ᾽, δεῦρ᾽, εἶτ᾽, f163r) ; formes : petit crochet, chevron (πότ᾽, f168v l. 18), point (τάδ᾽ εὔγματα, f166v l. 18).
 - **Elle manque souvent** : μὴδὲν, ἱκέτευ (f163r l. 30) ; εὐφημί ἔστω, deux fois (f166r ll. 2–3) ; λέξουσ, ποοῦσ (f167r) ; λακωνὶκ ἄττα (f167v l. 1) ; χ ἥτις, ὧδ (f168v vv. 522, 525) ; ἀνίστασ (f170r l. 8, « RG ») ; μὸ (f177r l. 5).
-- **Apostrophe ajoutée après une consonne finale**, surtout **οὐκ᾽ / οὐχ᾽**, habitude du copiste déjà notée par Martin 1882, xiii (dossier ; f162v vv. 5, 7, 8 selon Velsen 1883) : οὐκ᾽ οὖν (f165r l. 18), οὐχ᾽ (f165v l. 9), οὐκ᾽ (f164v l. 23 ; f167v ll. 29, 40 ; f168v ll. 18, 41), κ᾽ οὐκ᾽ ἐκύησα (f170r l. 6 ; l'apostrophe de οὐκ᾽ est visible, `.travail/chap5/vues/f170r_l6_ouk.png`), κ᾽ οὐκ᾽ ἔστιν (f173v v. 946) ; aussi ῥήτωρ᾽ (f168v l. 22), ἀπόλλω᾽ (f165v). Au f. 174r l. 7, l'apostrophe que Velsen lit après οὐκ n'est pas distincte.
+- **Apostrophe ajoutée après une consonne finale**, surtout **οὐκ᾽ / οὐχ᾽**, habitude du copiste déjà notée par Martin 1882, xiii (dossier ; f162v vv. 5, 7, 8 selon Velsen 1883) : οὐκ᾽ οὖν (f165r l. 18), οὐχ᾽ ὀμώμοκ᾽ (f165v l. 25, v. 276 ; et non l. 9), οὐκ᾽ (f164v l. 23 ; f167v ll. 29, 40 ; f168v ll. 18, 41), κ᾽ οὐκ᾽ ἐκύησα (f170r l. 6 ; l'apostrophe de οὐκ᾽ est visible, `.travail/chap5/vues/f170r_l6_ouk.png`), κ᾽ οὐκ᾽ ἔστιν (f173v v. 946) ; aussi ῥήτωρ᾽ (f168v l. 22), ἀπόλλω᾽ (f165v). Au f. 174r l. 7, l'apostrophe que Velsen lit après οὐκ n'est pas distincte. **Réserve** (vérification) : tous ces οὐκ précèdent une voyelle ; quand on ne voit qu'**une** marque entre les deux mots (οὐκ οὖν, f165r l. 18 ; οὐχ ὀμώμοκ᾽, f165v l. 25), elle peut être l'esprit, rejeté à gauche, du mot suivant (§ 5.2) ; l'apostrophe n'est sûre que là où l'esprit du mot suivant est vu à part (f170r l. 6). L'« habitude » est donc probable, non démontrée ; à transcrire avec `<note>` dans les cas d'une seule marque.
 - **Crase.** T écrit souvent la crase de καί comme une élision : κ᾽ ἀλκαῖος, κ᾽ ανακρέων (f164r l. 42), κ᾽ ἄλλός (f170r l. 21), κ᾽ ἀξ, κ᾽ ἀπάγορεύετε (f171v ll. 24, 28), κ᾽ ἀνδραποδιστάς (f172r l. 27) ; ailleurs avec le crochet de crase (κᾆτ᾽, κᾆθ᾽, f168r ll. 17, 21 : ce n'est pas une brève, contre l'impression de Velsen 1883). ὠϋριπίδη (f162v v. 4), avec tréma, est accompagné en marge du signal ÷ de T (f162v #11).
 
 ### 6.5 Le tréma
@@ -561,7 +562,7 @@ La minuscule de T groupe les mots selon l'accent plus que selon le lexique :
 
 - **Accents et esprits tels qu'écrits**, y compris fautifs, doubles ou absents ; un accent corrigé s'encode `<subst>` (état premier lisible : grave de T, aigu ajouté), avec la main `R?` si elle n'est pas tranchée ; un esprit rejeté dans la bande des sigles se transcrit sur sa voyelle (c'est sa fonction), avec une `<note>` si la position peut tromper.
 - **Iota adscrit** : écrire ι sur la ligne là où R l'a (τῆι), ne jamais l'ajouter ni le convertir en souscrit ; l'ι détaché reste attaché au mot dans la transcription.
-- **Apostrophe** : noter celle de R, y compris οὐκ᾽, et ne pas en restituer quand elle manque (λέξουσ, εὐφημί ἔστω).
+- **Apostrophe** : noter celle de R, y compris οὐκ᾽, et ne pas en restituer quand elle manque (λέξουσ, εὐφημί ἔστω) ; quand une seule marque sépare οὐκ d'un mot à initiale vocalique, la noter avec une `<note>` (apostrophe ou esprit du mot suivant, § 6.4).
 - **Tréma** : transcrire ϊ, ϋ.
 - **Coupe des mots** : normalisée, sauf les cas qui touchent la leçon (liste ci-dessus), où l'on garde la séparation ou la soudure de R.
 
@@ -597,7 +598,7 @@ Ces règles complètent `ravennas/FORMAT_TRANSCRIPTION.md` ; les points marqués
 
 ## 8. Questions à trancher sur l'original
 
-1. **Réglure du f. 162v** : la 2e réglure est-elle bien vide (sillon à y ≈ 414) ? Le titre est-il écrit sur la réglure, et non suspendu dessous comme le texte ?
+1. **Réglure du f. 162v** : la 2e réglure est-elle bien vide (sillon à y ≈ 414) ? Le titre est-il écrit sur la réglure, et non suspendu dessous comme le texte ? (Le sillon vide est retrouvé par un second profil indépendant, § 12 ; reste à le voir sur l'original.)
 2. **Paragraphoi présumées sous les sigles de 1516** (vv. 22, 26 au f. 162v ; ff. 164v, 173r, 175r, 175v, 177r) : sont-elles réellement présentes ? Une lumière rasante ou une image UV séparerait l'encre de T de l'orangé.
 3. **Annulations brunes** des vv. 608, 620 (f169v) et 926 (f173v) : T en relecture ou S2 ? L'ordre des traits (paragraphos, puis barre) se lit-il au microscope ?
 4. **Notes de forme S2 à l'encre orangée** (vv. 655, 659, 785, 1001, 1107, 1207 ; f175v) : seconde encre de S2, autre correcteur ancien, ou repassage de 1516 ? La présence dans G des vv. 655, 785, 1107 et 1207 exclut une création de 1516.
@@ -618,7 +619,7 @@ Planches (`../planches/`), composées à partir des images à pleine résolution
 - `../planches/5_planche_mise_en_page.jpg` — titre, fin de la pièce et titre de l'*Assemblée*, scène d'Écho sur deux colonnes, renfoncement lyrique (ff. 162v, 177r, 175r, 166v) ;
 - `../planches/5_planche_accents_ponctuation.jpg` — accent corrigé en crochet et en V, esprit rejeté, iota adscrit, οὐκ᾽, point-virgule, dicolon de pause, dicolon pur (ff. 174r, 170r, 166v, 164v, 164r, 165r, 162v).
 
-Spécimens individuels (≤ 600 px) : `../specimens/chap5/5_*.png` (24 fichiers, un par panneau des planches). Les autres spécimens cités viennent des inventaires (`../specimens/fXXX/`).
+Spécimens individuels (≤ 600 px) : `../specimens/chap5/5_*.png` (24 fichiers, un par panneau des planches) ; spécimens de la vérification : `../specimens/chap5/5v_*.png` (11 fichiers, § 12). Les autres spécimens cités viennent des inventaires (`../specimens/fXXX/`).
 
 ---
 
@@ -634,7 +635,7 @@ J'ai vérifié moi-même, sur les images à pleine résolution (vues `.travail/c
 | paragraphos annulée (⊥) du v. 620, paragraphoi des vv. 621–623, dicola | f169v ll. 26–31 | confirmé |
 | paragraphoi barrées des vv. 926 et 935 ; dicolon du v. 935 ; ligne annulée | f173v ll. 5–8, 15–18 | confirmé |
 | paragraphoi des vv. 1184 (barrée), 1192 (intacte), 1194–1195 (barrées) | f176v ll. 15–17, 23–29 | confirmé |
-| ΜΝΗΣΙ^λο du v. 130 : S2, non T | f164r l. 9 | confirmé (petites majuscules, encre des scholies) ; contre van Leeuwen 1904 |
+| ΜΝΗΣΙ^λο du v. 130 : S2, non T | f164r l. 9 | confirmé pour la forme (petites majuscules, λ suscrit) ; contre van Leeuwen 1904 ; l'encre, en mesure uniforme, ne se distingue pas de celle du texte (§ 12) |
 | parépigraphe ὀλολύζεις γέρων, trait ondulé rouge | f164r l. 8 | confirmé |
 | κη^δ de S2 au v. 540 (brun) | f168v l. 32 (spécimen de l'inventaire) | confirmé |
 | κη^δ de S2 suscrit au v. 603 ; κη + Λ orangé de 1516 au v. 604 | f169v ll. 11–12 | confirmé |
@@ -654,7 +655,42 @@ J'ai vérifié moi-même, sur les images à pleine résolution (vues `.travail/c
 ## 11. Corrections et compléments aux inventaires de page
 
 - **f. 162v** : la page a **43 réglures** (et non 42) : la 2e, sous le titre, est restée vide (§ 1.1).
-- **Paragraphoi « fausses »** (ff. 162v, 165r, 169v, 171r, 172v, 173r, 173v, 174v, 175v, 176v, 177r) : vingt-cinq d'entre elles suivent la convention antique (§ 3.3) et six marquent une division du discours ; l'inventaire du f. 169v (suivi par le chapitre 4, tableau B), qui juge « juste » l'annulation du v. 620, et ceux des ff. 175v et 176v, qui parlent de marques « fautives » aux vv. 1119, 1184, 1192, 1194, 1195, sont à nuancer en ce sens. L'hypothèse de l'inventaire du f. 173v est confirmée sur toute la pièce, avec la réserve d'un système mixte.
+- **Paragraphoi « fausses »** (ff. 162v, 165r, 169v, 171r, 172v, 173r, 173v, 174v, 175v, 176v, 177r) : dix-sept d'entre elles (dont deux présumées et une douteuse) suivent la convention antique dans des cas discriminants, huit autres lui sont compatibles sans la prouver (§ 3.3), et six marquent une division du discours ; l'inventaire du f. 169v (suivi par le chapitre 4, tableau B), qui juge « juste » l'annulation du v. 620, et ceux des ff. 175v et 176v, qui parlent de marques « fautives » aux vv. 1184, 1192, 1194, 1195, sont à nuancer en ce sens ; au v. 1119, la marque elle-même est douteuse (§ 12). L'hypothèse de l'inventaire du f. 173v est confirmée sur toute la pièce, avec la réserve d'un système mixte.
 - **Sigles κηδ de S2** : ceux des vv. 603, 1107 et 1207 sont antérieurs à 1516 (G) ; il faut corriger en ce sens Velsen 1871, 21 (v. 603) et van Leeuwen 1904 (« manus recens » aux vv. 603 s., 1107, 1207). Le κηδ ευ de 1516 au v. 466 récrit une note de S2 que G a conservée.
 - **Dicola de fin de ligne** non relevés par Velsen 1883 : vv. 194, 199 (f164v), 874 (f172v) — déjà notés par les inventaires, à reporter dans l'apparat des attributions.
 - **Encre orangée** : elle ne suffit pas à attribuer un sigle à 1516 (§ 4.1) ; les inventaires des ff. 170r, 171v, 174r, 175v, 176v l'avaient vu chacun pour sa page : c'est un fait général.
+
+---
+
+## 12. Vérification
+
+Vérification adversariale du chapitre (28 octobre 2026) : j'ai cherché à réfuter les affirmations les plus importantes ou les plus risquées, chacune sur les images à pleine résolution et, quand c'était possible, sur trois lieux au moins. Les corrections sont reportées dans le texte ci-dessus (renvois « vérification » ou « § 12 »).
+
+**Méthode.** Vues agrandies ×2 à ×9 (`.travail/verif_chap5/vues/`, non versionnées) ; mesures d'encre par l'outil uniforme du chapitre 1 (`.travail/ch1/outil.py` : masque d'encre, fond local par convolution normalisée, absorbances A = −log₁₀(I/fond), rapports G/R et B/R sur le cœur des traits, écart à T de la même page *à densité égale*) ; cartes des encres (bleu : comme T ; orangé : plus rouge que T) ; profils passe-haut du canal bleu, hors encre, pour la réglure (`.travail/verif_chap5/reglure.py`) ; recalcul de la statistique des paragraphoi (`.travail/verif_chap5/conv2.py`, variante de `.travail/chap5/convention.py`) ; notes de travail : `.travail/verif_chap5/notes.md`. Les valeurs sont données en G/R / B/R. Spécimens : `../specimens/chap5/5v_*.png`.
+
+| N° | Affirmation contrôlée | Lieux | Observation | Verdict |
+|---|---|---|---|---|
+| 1 | 43 réglures par page ; au f. 162v, la 2e est vide sous le titre (§ 1.1) | f162v, trois bandes de marge (x 1500–1640, 1660–1710, 1710–1785) ; écarts des lignes | sillons à y ≈ 363–370 (faible : réglure du titre), 405–415 (vide), 453–458 (v. 1), 503, 551…, dernier ≈ 2196 ; du titre au v. 1, 89 px (2,07 pas) ; du v. 1 au v. 42, 40 pas réguliers de 43,4 px (`5v_f162v_reglure_titre_hp.png`) | confirmée |
+| 2 | Titre à l'encre du texte, sans rubrique ; notice et « προλογίζει » de la main des scholies (§ 1.3) | f162v l. 1 et marge sup. | titre 1,34/2,08, texte 1,36/2,16 et 1,37/2,18 ; notice 1,43/2,44, « προλογίζει » 1,42/2,33, scholies de la page 1,37–1,40/2,28–2,32 ; minuscule des scholies | confirmée |
+| 3 | Lettres α–δ de la transposition : γ brun, α, β, δ orangés (§ 1.4) | f162v marge droite, ll. 28–31 | γ 1,40/2,63 ; α 1,76/3,35 ; δ 1,86/3,83 ; β 1,78/3,53 | confirmée |
+| 4 | v. 33 suppléé par S2 (§ 1.4) | f162v marge droite, ll. 34–36 | même minuscule sur les trois lignes ; 1re ligne brune (1,45/2,32), suite plus orangée (1,62/3,13) ; εὐ et « ; » orangés | à nuancer (précision d'encre ajoutée) |
+| 5 | Ο agrandis « de module triple » aux vv. 533, 544, et aussi au v. 548 (§ 1.5) | f168v ll. 25, 36, 40 | Ο de 29 px (533, 544) et ο de 20 px (548) contre 12–13 px pour un ο ordinaire | à nuancer (corrigé) |
+| 6 | Colométrie du f. 170r : anapestes 655–658 en ekthesis, lyrique 663 ss. non renfoncé (§ 2.2) | f170r ll. 17–43, vue à règle graduée | trimètres à x ≈ 228–240 ; ll. 19–22 à x ≈ 157–163 (ekthesis ≈ 75 px, 8,7 mm) ; ll. 28–43 à x ≈ 205–240 ; ekthesis aux ll. 26 et 31 | confirmée |
+| 7 | Un seul trait d'union, quinze mots coupés (§ 2.1) | f171r l. 3 ; f176r l. 20 ; f166v l. 27 | trait court à mi-hauteur après μεταβαλοῦ- ; rien après γυναι- ; ε de ἐ- prolongé, sans trait séparé ; le compte de quinze vient des inventaires, sans relevé systématique | à nuancer (« au moins quinze ») |
+| 8 | Écho : paragraphoi de milieu de ligne de T, « plus pâles que le texte » (§ 2.3) | f175v ll. 2–8 (milieu et bande de gauche) | même encre que le texte et que les paragraphoi de gauche (1,35–1,42/2,22–2,42 ; texte 1,42–1,44/2,49–2,55 ; gauche 1,29–1,36/2,26–2,49), densité comparable (A_R 0,12–0,16 ; texte 0,15) ; ηχ de 1516 1,91/3,95 (`5v_f175v_l4-8_paragraphoi_milieu.png`) | à nuancer (corrigé) |
+| 9 | Annulations orangées de 1516 aux vv. 1092b, 1093, 1095, « vrais changements » ; traits gris aux vv. 1076a, 1078a (§§ 2.3, 3.5) | f175v ll. 11–13 ; f175r ll. 35, 39 | croisements orangés sur paragraphoi brunes (carte des encres, `5v_f175v_l11-13_paragraphoi_barrees.png`) ; mais la l. 12 de R ne porte que l'archer (1093a + 1094a) et la l. 13 aussi (1095a) : pas de changement dans le texte de R avant 1095 ; croix pâles aux ll. 35 et 39 du f. 175r | à nuancer (corrigé) |
+| 10 | Convention antique : paragraphos en tête du v. *n* après un changement intérieur au v. *n*−1, « 25 cas sur 61 » (§ 3.3) | f162v l. 15 ; f165r ll. 9, 17 ; f171r ll. 21–24, 30 ; f172v ll. 40–42 ; f174v l. 5 ; f175v ll. 36–37 ; f176v ll. 25, 27–28 ; recalcul | paragraphoi présentes et brunes aux vv. 14, 217, 225, 742, 750, 1006, 1192 ; barrées en orangé aux vv. 1194–1195 ; Γϋ greffé au v. 875 ; v. 744 : trait soudé à la glose χωροῦν, probable seulement ; v. 1119 : trait de 13 px, comme la marque de la l. 37, douteux (`5v_f175v_l36-37_marque_courte.png`) ; v. 741 sans dicolon (vu, `5v_f171r_l21-22_v741_sans_dicolon.png`), mais le v. 742 contient lui-même deux changements ; tiret de la l. 41 du f. 172v invisible (sous l'εὐ de 1516) ; **8 des 25 cas** tombent sur un v. *n* qui contient lui-même un changement (non discriminants) ; reste 14 cas (dont 1 probable) + 2 présumés + 1 douteux sur ≈ 47 (décompte brut) | à nuancer (corrigé : conclusion 5, § 3.3, § 11) |
+| 11 | Dicola de pause sans changement de locuteur ; dicola de fin de ligne aux vv. 194, 199 (§§ 3.1, 3.4) | f165r ll. 21, 24, 36 ; f164v ll. 29, 34 | trois dicola nets à deux points superposés (με : χώρει, κακοδαίμων : ψιλὸς, σοι : τὰ), sans changement au point du dicolon ; deux points superposés, le second un peu décalé, en fin des ll. 29 et 34 | confirmée |
+| 12 | ΜΝΗΣΙ^λο du v. 130 de S2, « de l'encre des scholies » (§ 4.1) | f164r l. 9 | forme de S2 (petites capitales, λ suscrit enfermant ο) ; encre en mesure uniforme : ΜΝΗΣΙ 1,41/2,38, texte de la ligne 1,42/2,50, scholies 1,41–1,51/2,52–2,76 (`5v_f164r_l09_mnesilo.png`) | à nuancer (corrigé : la forme seule tranche) |
+| 13 | κη^δ de S2 : brun aux vv. 540 et 603, orangé aux vv. 1107 et 1207 ; κη + Λ de 1516 au v. 604 (§ 4.4) | f168v l. 32 ; f169v ll. 11–12 ; f175v l. 24 ; f176v l. 40 | 540 brun (1,31/2,08, comme T) et 603 brun (carte des encres) ; au v. 604, κλ· orangé à gauche et κη + Λ orangé dans la ligne ; 1107 : 1,71–1,81/3,43–3,48 ; 1207 : ΚΗ 1,89/3,65, Δ 1,58/3,11, εὐρι^π voisin brun 1,33/2,31 | confirmée |
+| 14 | κηδ de 1516 seulement aux vv. 466–604 et 1209, μν ailleurs (§ 4.4) | f168v l. 41 ; f169r ll. 1–43 ; f162v ll. 9–10 ; f174v ll. 1–3 ; f175r ll. 30–43 | κη^δ orangés aux vv. 549, 555, 558, 560 ; aucun μν de 1516 au f. 169r ; μν orangés ailleurs (1,71/3,44 ; 1,76/3,41, μ tracé sur la paragraphos) ; μνη^ϲ de S2 au v. 1002 brun (1,38/2,48) | confirmée (sur échantillon) |
+| 15 | « ; » interrogatif de T (§ 5.1) | f164r l. 15 ; f169v l. 18 ; f172r l. 3 ; f176v l. 23 ; f163r l. 5 | point et virgule bruns, sans orangé, dans les quatre premiers cas (virgule de με; 1,36/2,17) ; f163r l. 5 : zone frottée, « ; » illisible | confirmée (f163r l. 5 : à vérifier) |
+| 16 | Virgules orangées ajoutées par 1516 aux vv. 193, 222, 252 (§ 5.1) | f164v l. 28 ; f165r l. 14 ; f165v l. 1 | v. 193 : virgule 1,58/2,80 contre 1,21/2,02 pour le point, orangée sur la carte (`5v_f164v_l28_virgule_orangee.png`) ; v. 252 : 1,66/3,14 (+0,37 à densité égale) ; v. 222 : virgule 1,29/2,07, point 1,32/2,07, texte 1,33/2,15, sans orangé (`5v_f165r_l14_kekragas_virgule.png`) | à nuancer (corrigé : v. 222 non confirmé par l'encre) |
+| 17 | Accents en « ✓ » (grave corrigé en aigu) (§ 6.1) | f174r ll. 9, 13, 16 ; f170r ll. 14, 26 | καινόν, εἰκός et καιρός nets ; le ✓ de ἁγνήν est très haut, dans l'interligne, sous τοξοφόρον de la l. 12 (`5v_f174r_l12-13_hagnen_accent.png`) ; ἐγώ (f170r l. 14) peu net | confirmée (précision ajoutée) |
+| 18 | Apostrophe ajoutée après οὐκ / οὐχ, habitude du copiste (§ 6.4) | f165r l. 18 ; f165v l. 25 ; f167v l. 29 ; f170r l. 6 | renvoi « f165v l. 9 » erroné (οὐχ ὀμώμοκ᾽ est à la l. 25) ; devant voyelle, une seule marque entre les deux mots, qui peut être l'esprit du mot suivant (`5v_f165v_l25_ouch_omomok.png`) ; apostrophe sûre au f. 170r l. 6 | à nuancer (corrigé) |
+| 19 | Esprits initiaux rejetés en point dans la bande des sigles (§ 5.2) | f167v ll. 5–7 ; f168r ll. 20–23 | points et virgules de 4–6 px devant la première lettre, à distinguer d'une paragraphos (25–42 px) | confirmée |
+| 20 | Fin de la pièce : pas de souscription ; ligne ornementale, titre et hypothesis de l'*Assemblée* de la main de T (§ 1.3) | f177r ll. 20–43 | 23 lignes, une réglure vide, ornement, titre, 12 lignes d'hypothesis, 5 réglures vides ; encres du texte 1,28/1,98, de l'hypothesis 1,31/2,05, du titre 1,28/1,99, de l'ornement 1,27/1,96 | confirmée |
+
+**Bilan.** Aucune affirmation n'est réfutée en bloc ; onze sont confirmées, neuf sont à nuancer. Les corrections de fond portent sur : (1) la statistique de la paragraphos « antique » (un tiers des cas discriminants, non deux sur cinq ; huit cas ambigus ; deux marques incertaines) ; (2) l'argument d'encre pour le ΜΝΗΣΙ^λο du v. 130 et pour la virgule du v. 222, qui ne tient pas en mesure uniforme ; (3) le v. 1095, où l'annulation de 1516 s'accorde avec le texte de R ; (4) l'apostrophe de οὐκ᾽, ambiguë devant voyelle ; (5) des précisions de forme (Ο agrandis, ✓ de ἁγνήν, encre de la paragraphos de milieu de ligne, coupes de mots).
+
+**Non contrôlé ici** (repris des inventaires ou de la littérature) : les témoignages de Velsen 1871 et 1883, de G et de la Juntine ; les comptages des §§ 3.2 et 4.3 ; la généralisation « iota adscrit jamais souscrit » ; les bornes des pages et les autres passages du relevé colométrique.

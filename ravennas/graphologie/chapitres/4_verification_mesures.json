@@ -1,0 +1,1140 @@
+{
+ "v939_contre_six_zones_de_T": [
+  {
+   "zone": [
+    1100,
+    1295,
+    1440,
+    1335
+   ],
+   "delta": {
+    "dGR": -0.14,
+    "dBR": -0.68,
+    "classes": 5
+   }
+  },
+  {
+   "zone": [
+    1490,
+    1295,
+    1600,
+    1335
+   ],
+   "delta": {
+    "dGR": -0.16,
+    "dBR": -0.65,
+    "classes": 5
+   }
+  },
+  {
+   "zone": [
+    1400,
+    1250,
+    1500,
+    1290
+   ],
+   "delta": {
+    "dGR": -0.2,
+    "dBR": -0.74,
+    "classes": 4
+   }
+  },
+  {
+   "zone": [
+    1500,
+    1250,
+    1660,
+    1290
+   ],
+   "delta": {
+    "dGR": -0.12,
+    "dBR": -0.5,
+    "classes": 5
+   }
+  },
+  {
+   "zone": [
+    1400,
+    1340,
+    1500,
+    1380
+   ],
+   "delta": {
+    "dGR": -0.18,
+    "dBR": -0.64,
+    "classes": 5
+   }
+  },
+  {
+   "zone": [
+    1500,
+    1340,
+    1660,
+    1380
+   ],
+   "delta": {
+    "dGR": -0.11,
+    "dBR": -0.43,
+    "classes": 5
+   }
+  }
+ ],
+ "contours": [
+  {
+   "v": 1207,
+   "objet": "κη^δ de forme S2, orangé (G l'a)",
+   "page": "f176v",
+   "bord_brun": 0.55,
+   "coeur_brun": 0.24,
+   "BR_coeur": 3.06
+  },
+  {
+   "v": "l. 17",
+   "objet": "σκ orangé de 1516",
+   "page": "f176v",
+   "bord_brun": 0.52,
+   "coeur_brun": 0.35,
+   "BR_coeur": 2.67
+  },
+  {
+   "v": "l. 19",
+   "objet": "σκ orangé de 1516",
+   "page": "f176v",
+   "bord_brun": 0.31,
+   "coeur_brun": 0.15,
+   "BR_coeur": 3.41
+  },
+  {
+   "v": 608,
+   "objet": "κλ orangé de 1516",
+   "page": "f169v",
+   "bord_brun": 0.17,
+   "coeur_brun": 0.03,
+   "BR_coeur": 4.14
+  }
+ ],
+ "grattages": [
+  {
+   "groupe": "Rn",
+   "v": 646,
+   "objet": "ἥκει πάλιν",
+   "page": "f170r",
+   "mesure": {
+    "n": 1500,
+    "contraste": 64.8,
+    "GR": 1.24,
+    "BR": 1.88
+   },
+   "T": {
+    "n": 11410,
+    "contraste": 47.8,
+    "GR": 1.35,
+    "BR": 2.3
+   },
+   "delta": {
+    "dGR": -0.09,
+    "dBR": -0.42,
+    "classes": 5
+   }
+  },
+  {
+   "groupe": "Rn",
+   "v": 493,
+   "objet": "κιν",
+   "page": "f168r",
+   "mesure": {
+    "n": 541,
+    "contraste": 56.7,
+    "GR": 1.26,
+    "BR": 1.99
+   },
+   "T": {
+    "n": 2478,
+    "contraste": 50.9,
+    "GR": 1.32,
+    "BR": 2.24
+   },
+   "delta": {
+    "dGR": -0.07,
+    "dBR": -0.3,
+    "classes": 5
+   }
+  },
+  {
+   "groupe": "Rn",
+   "v": 874,
+   "objet": "ι de ποίου",
+   "page": "f172v",
+   "mesure": {
+    "n": 76,
+    "contraste": 86.8,
+    "GR": 1.19,
+    "BR": 1.59
+   },
+   "T": {
+    "n": 2235,
+    "contraste": 64.1,
+    "GR": 1.31,
+    "BR": 2.09
+   },
+   "delta": {
+    "dGR": -0.13,
+    "dBR": -0.51,
+    "classes": 4
+   }
+  },
+  {
+   "groupe": "Rn",
+   "v": 939,
+   "objet": "υ de ἀποδύσαντα",
+   "page": "f173v",
+   "mesure": {
+    "n": 175,
+    "contraste": 93.6,
+    "GR": 1.22,
+    "BR": 1.74
+   },
+   "T": {
+    "n": 2885,
+    "contraste": 46.8,
+    "GR": 1.34,
+    "BR": 2.33
+   },
+   "delta": {
+    "dGR": -0.14,
+    "dBR": -0.68,
+    "classes": 5
+   }
+  },
+  {
+   "groupe": "témoin",
+   "v": "57b",
+   "objet": "αι de λαικάζει (S2)",
+   "page": "f163r",
+   "mesure": {
+    "n": 223,
+    "contraste": 73.3,
+    "GR": 1.29,
+    "BR": 2.01
+   },
+   "T": {
+    "n": 1663,
+    "contraste": 58.0,
+    "GR": 1.26,
+    "BR": 1.89
+   },
+   "delta": {
+    "dGR": 0.06,
+    "dBR": 0.08,
+    "classes": 5
+   }
+  },
+  {
+   "groupe": "témoin",
+   "v": 370,
+   "objet": "-εῖν de παραστατεῖν (S2)",
+   "page": "f166v",
+   "mesure": {
+    "n": 382,
+    "contraste": 67.7,
+    "GR": 1.26,
+    "BR": 1.85
+   },
+   "T": {
+    "n": 3687,
+    "contraste": 57.2,
+    "GR": 1.28,
+    "BR": 2.0
+   },
+   "delta": {
+    "dGR": -0.0,
+    "dBR": -0.16,
+    "classes": 5
+   }
+  },
+  {
+   "groupe": "témoin",
+   "v": 468,
+   "objet": "εῖ de ἐπιζεῖν",
+   "page": "f168r",
+   "mesure": {
+    "n": 339,
+    "contraste": 55.9,
+    "GR": 1.3,
+    "BR": 2.2
+   },
+   "T": {
+    "n": 2981,
+    "contraste": 47.2,
+    "GR": 1.32,
+    "BR": 2.26
+   },
+   "delta": {
+    "dGR": -0.01,
+    "dBR": -0.1,
+    "classes": 4
+   }
+  },
+  {
+   "groupe": "témoin",
+   "v": 935,
+   "objet": "υ de ὀλίγου (S2)",
+   "page": "f173v",
+   "mesure": {
+    "n": 215,
+    "contraste": 52.1,
+    "GR": 1.39,
+    "BR": 2.33
+   },
+   "T": {
+    "n": 3372,
+    "contraste": 53.0,
+    "GR": 1.29,
+    "BR": 2.13
+   },
+   "delta": {
+    "dGR": 0.1,
+    "dBR": 0.17,
+    "classes": 5
+   }
+  }
+ ],
+ "petits_signes_T": {
+  "f163r": {
+   "nombre": 383,
+   "BR_med_15_30px": 1.69,
+   "part_BR_inf_1_9_15_30px": 0.89
+  },
+  "f168r": {
+   "nombre": 434,
+   "BR_med_15_30px": 1.85,
+   "part_BR_inf_1_9_15_30px": 0.58
+  },
+  "f170r": {
+   "nombre": 415,
+   "BR_med_15_30px": 2.01,
+   "part_BR_inf_1_9_15_30px": 0.36
+  },
+  "f172r": {
+   "nombre": 316,
+   "BR_med_15_30px": 1.96,
+   "part_BR_inf_1_9_15_30px": 0.37
+  },
+  "f172v": {
+   "nombre": 441,
+   "BR_med_15_30px": 1.67,
+   "part_BR_inf_1_9_15_30px": 0.89
+  },
+  "f173v": {
+   "nombre": 478,
+   "BR_med_15_30px": 1.89,
+   "part_BR_inf_1_9_15_30px": 0.5
+  },
+  "f176r": {
+   "nombre": 246,
+   "BR_med_15_30px": 1.81,
+   "part_BR_inf_1_9_15_30px": 0.6
+  }
+ },
+ "accents": [
+  {
+   "groupe": "Rn",
+   "v": 54,
+   "objet": "grave du 2e τάδε",
+   "page": "f163r",
+   "mesure": {
+    "n": 35,
+    "contraste": 89.1,
+    "GR": 1.19,
+    "BR": 1.51
+   },
+   "comparables": 86,
+   "rang_GR": 0.24,
+   "rang_BR": 0.01
+  },
+  {
+   "groupe": "T",
+   "v": 54,
+   "objet": "grave du 1er τάδε",
+   "page": "f163r",
+   "mesure": {
+    "n": 66,
+    "contraste": 48.7,
+    "GR": 1.25,
+    "BR": 1.89
+   },
+   "comparables": 23,
+   "rang_GR": 0.13,
+   "rang_BR": 0.22
+  },
+  {
+   "groupe": "T",
+   "v": 54,
+   "objet": "point de T après τορνεύει (même ligne)",
+   "page": "f163r",
+   "mesure": {
+    "n": 26,
+    "contraste": 80.6,
+    "GR": 1.14,
+    "BR": 1.6
+   },
+   "comparables": 153,
+   "rang_GR": 0.18,
+   "rang_BR": 0.17
+  },
+  {
+   "groupe": "Rn",
+   "v": 650,
+   "objet": "aigu de ἐγώ",
+   "page": "f170r",
+   "mesure": {
+    "n": 45,
+    "contraste": 58.7,
+    "GR": 1.23,
+    "BR": 1.86
+   },
+   "comparables": 216,
+   "rang_GR": 0.18,
+   "rang_BR": 0.03
+  },
+  {
+   "groupe": "T",
+   "v": 650,
+   "objet": "grave de ἐγὼ (à côté)",
+   "page": "f170r",
+   "mesure": {
+    "n": 35,
+    "contraste": 47.7,
+    "GR": 1.34,
+    "BR": 2.26
+   },
+   "comparables": 211,
+   "rang_GR": 0.77,
+   "rang_BR": 0.65
+  },
+  {
+   "groupe": "Rn?",
+   "v": 820,
+   "objet": "grave mince de εἰσὶν",
+   "page": "f172r",
+   "mesure": {
+    "n": 56,
+    "contraste": 54.6,
+    "GR": 1.21,
+    "BR": 2.1
+   },
+   "comparables": 104,
+   "rang_GR": 0.03,
+   "rang_BR": 0.21
+  },
+  {
+   "groupe": "T",
+   "v": 820,
+   "objet": "aigu de T de εἰσίν (à côté)",
+   "page": "f172r",
+   "mesure": {
+    "n": 62,
+    "contraste": 74.5,
+    "GR": 1.35,
+    "BR": 2.37
+   },
+   "comparables": 37,
+   "rang_GR": 0.73,
+   "rang_BR": 0.81
+  },
+  {
+   "groupe": "Rn",
+   "v": 1149,
+   "objet": "esprit rude de ἅλσος",
+   "page": "f176r",
+   "mesure": {
+    "n": 45,
+    "contraste": 91.3,
+    "GR": 1.15,
+    "BR": 1.78
+   },
+   "comparables": 18,
+   "rang_GR": 0.06,
+   "rang_BR": 0.06
+  },
+  {
+   "groupe": "T",
+   "v": 1149,
+   "objet": "aigu de ἅλσος (à côté)",
+   "page": "f176r",
+   "mesure": {
+    "n": 47,
+    "contraste": 58.2,
+    "GR": 1.21,
+    "BR": 1.82
+   },
+   "comparables": 119,
+   "rang_GR": 0.22,
+   "rang_BR": 0.18
+  }
+ ],
+ "variabilite_T": {
+  "f163r": {
+   "fenetres": 51,
+   "dBR_p5": -0.1,
+   "dBR_min": -0.1,
+   "dGR_p5": -0.03,
+   "dGR_min": -0.03
+  },
+  "f168r": {
+   "fenetres": 70,
+   "dBR_p5": -0.15,
+   "dBR_min": -0.23,
+   "dGR_p5": -0.05,
+   "dGR_min": -0.07
+  },
+  "f170r": {
+   "fenetres": 71,
+   "dBR_p5": -0.17,
+   "dBR_min": -0.25,
+   "dGR_p5": -0.06,
+   "dGR_min": -0.08
+  },
+  "f172r": {
+   "fenetres": 65,
+   "dBR_p5": -0.17,
+   "dBR_min": -0.23,
+   "dGR_p5": -0.06,
+   "dGR_min": -0.07
+  },
+  "f172v": {
+   "fenetres": 78,
+   "dBR_p5": -0.11,
+   "dBR_min": -0.18,
+   "dGR_p5": -0.04,
+   "dGR_min": -0.07
+  },
+  "f173v": {
+   "fenetres": 60,
+   "dBR_p5": -0.19,
+   "dBR_min": -0.64,
+   "dGR_p5": -0.07,
+   "dGR_min": -0.14
+  },
+  "f176r": {
+   "fenetres": 53,
+   "dBR_p5": -0.15,
+   "dBR_min": -0.21,
+   "dGR_p5": -0.04,
+   "dGR_min": -0.06
+  }
+ },
+ "1516": [
+  {
+   "v": 443,
+   "objet": "ὀλίγων : boucle droite (ajoutée)",
+   "page": "f167v",
+   "mesure": {
+    "n": 97,
+    "contraste": 36.1,
+    "GR": 1.52,
+    "BR": 2.79
+   }
+  },
+  {
+   "v": 443,
+   "objet": "ὀλίγων : boucle gauche (T)",
+   "page": "f167v",
+   "mesure": {
+    "n": 122,
+    "contraste": 48.0,
+    "GR": 1.28,
+    "BR": 2.19
+   }
+  },
+  {
+   "v": 443,
+   "objet": "T, l. 21",
+   "page": "f167v",
+   "mesure": {
+    "n": 3888,
+    "contraste": 49.1,
+    "GR": 1.42,
+    "BR": 2.49
+   }
+  },
+  {
+   "v": 803,
+   "objet": "croix : branche haut-droite (barre)",
+   "page": "f172r",
+   "mesure": {
+    "n": 54,
+    "contraste": 36.5,
+    "GR": 1.63,
+    "BR": 3.19
+   }
+  },
+  {
+   "v": 803,
+   "objet": "croix : branche haut-gauche (grave de T)",
+   "page": "f172r",
+   "mesure": {
+    "n": 41,
+    "contraste": 32.1,
+    "GR": 1.14,
+    "BR": 1.63
+   }
+  },
+  {
+   "v": 803,
+   "objet": "T, l. 5",
+   "page": "f172r",
+   "mesure": {
+    "n": 6155,
+    "contraste": 53.1,
+    "GR": 1.3,
+    "BR": 2.21
+   }
+  },
+  {
+   "v": 806,
+   "objet": "grave de πρὸς",
+   "page": "f172r",
+   "mesure": {
+    "n": 98,
+    "contraste": 26.5,
+    "GR": 1.4,
+    "BR": 2.62
+   }
+  },
+  {
+   "v": 806,
+   "objet": "T, l. 10",
+   "page": "f172r",
+   "mesure": {
+    "n": 6537,
+    "contraste": 52.7,
+    "GR": 1.34,
+    "BR": 2.26
+   }
+  },
+  {
+   "v": 1097,
+   "objet": "grave de καὶ",
+   "page": "f175v",
+   "mesure": {
+    "n": 88,
+    "contraste": 44.0,
+    "GR": 1.68,
+    "BR": 3.49
+   }
+  },
+  {
+   "v": 1097,
+   "objet": "T, l. 16",
+   "page": "f175v",
+   "mesure": {
+    "n": 3689,
+    "contraste": 52.1,
+    "GR": 1.36,
+    "BR": 2.32
+   }
+  },
+  {
+   "v": 1180,
+   "objet": "grave de κατὰ",
+   "page": "f176v",
+   "mesure": {
+    "n": 18,
+    "contraste": 31.4,
+    "GR": 1.14,
+    "BR": 1.6
+   }
+  },
+  {
+   "v": 1180,
+   "objet": "grave de τὸ",
+   "page": "f176v",
+   "mesure": {
+    "n": 42,
+    "contraste": 33.1,
+    "GR": 1.28,
+    "BR": 1.78
+   }
+  },
+  {
+   "v": 1180,
+   "objet": "T, l. 12",
+   "page": "f176v",
+   "mesure": {
+    "n": 3224,
+    "contraste": 64.3,
+    "GR": 1.24,
+    "BR": 1.89
+   }
+  },
+  {
+   "v": 1191,
+   "objet": "σκ : boucle du σ",
+   "page": "f176v",
+   "mesure": {
+    "n": 222,
+    "contraste": 61.5,
+    "GR": 1.4,
+    "BR": 2.27
+   }
+  },
+  {
+   "v": 1191,
+   "objet": "σκ : masse du κ",
+   "page": "f176v",
+   "mesure": {
+    "n": 198,
+    "contraste": 74.5,
+    "GR": 1.46,
+    "BR": 2.29
+   }
+  },
+  {
+   "v": 1191,
+   "objet": "3e ο (T, non corrigé)",
+   "page": "f176v",
+   "mesure": {
+    "n": 164,
+    "contraste": 75.6,
+    "GR": 1.41,
+    "BR": 2.15
+   }
+  },
+  {
+   "v": 1191,
+   "objet": "T, l. 24",
+   "page": "f176v",
+   "mesure": {
+    "n": 5764,
+    "contraste": 60.9,
+    "GR": 1.23,
+    "BR": 1.89
+   }
+  },
+  {
+   "v": "c 13",
+   "objet": "repère de la page c 13 (f174v)",
+   "page": "f174v",
+   "mesure": {
+    "n": 229,
+    "contraste": 33.7,
+    "GR": 1.35,
+    "BR": 2.19
+   }
+  },
+  {
+   "v": "c 13",
+   "objet": "scholie de S2 voisine",
+   "page": "f174v",
+   "mesure": {
+    "n": 5468,
+    "contraste": 70.1,
+    "GR": 1.26,
+    "BR": 1.95
+   }
+  }
+ ],
+ "vers_suppleés": [
+  {
+   "v": 33,
+   "objet": "(a) μῶν",
+   "page": "f162v",
+   "mesure": {
+    "n": 387,
+    "contraste": 62.1,
+    "GR": 1.35,
+    "BR": 2.18
+   }
+  },
+  {
+   "v": 33,
+   "objet": "(a) ὁ δασυπώγων sans le δ",
+   "page": "f162v",
+   "mesure": {
+    "n": 1074,
+    "contraste": 50.2,
+    "GR": 1.32,
+    "BR": 1.91
+   }
+  },
+  {
+   "v": 33,
+   "objet": "(a) δ de δασυπώγων",
+   "page": "f162v",
+   "mesure": {
+    "n": 255,
+    "contraste": 64.8,
+    "GR": 1.51,
+    "BR": 2.66
+   }
+  },
+  {
+   "v": 33,
+   "objet": "(b) εὐ",
+   "page": "f162v",
+   "mesure": {
+    "n": 336,
+    "contraste": 51.5,
+    "GR": 1.46,
+    "BR": 2.51
+   }
+  },
+  {
+   "v": 33,
+   "objet": "(b) οὐχ ἑόρακας πώ-",
+   "page": "f162v",
+   "mesure": {
+    "n": 1891,
+    "contraste": 49.0,
+    "GR": 1.44,
+    "BR": 2.63
+   }
+  },
+  {
+   "v": 33,
+   "objet": "(c) -ποτε",
+   "page": "f162v",
+   "mesure": {
+    "n": 565,
+    "contraste": 49.2,
+    "GR": 1.45,
+    "BR": 2.53
+   }
+  },
+  {
+   "v": 33,
+   "objet": "texte de T, l. 33",
+   "page": "f162v",
+   "mesure": {
+    "n": 5163,
+    "contraste": 56.9,
+    "GR": 1.3,
+    "BR": 2.03
+   }
+  },
+  {
+   "v": 33,
+   "objet": "scholie voisine",
+   "page": "f162v",
+   "mesure": {
+    "n": 2940,
+    "contraste": 63.3,
+    "GR": 1.32,
+    "BR": 2.09
+   }
+  },
+  {
+   "v": 169,
+   "objet": "tiret initial",
+   "page": "f164v",
+   "mesure": {
+    "n": 219,
+    "contraste": 49.2,
+    "GR": 1.63,
+    "BR": 2.88
+   }
+  },
+  {
+   "v": 169,
+   "objet": "ὁ δ᾽ αὖ",
+   "page": "f164v",
+   "mesure": {
+    "n": 546,
+    "contraste": 38.8,
+    "GR": 1.42,
+    "BR": 2.54
+   }
+  },
+  {
+   "v": 169,
+   "objet": "ξενο-",
+   "page": "f164v",
+   "mesure": {
+    "n": 617,
+    "contraste": 39.0,
+    "GR": 1.42,
+    "BR": 2.59
+   }
+  },
+  {
+   "v": 169,
+   "objet": "-κλῆς ὢν",
+   "page": "f164v",
+   "mesure": {
+    "n": 501,
+    "contraste": 36.2,
+    "GR": 1.3,
+    "BR": 2.25
+   }
+  },
+  {
+   "v": 169,
+   "objet": "κακὸς κακῶς",
+   "page": "f164v",
+   "mesure": {
+    "n": 1341,
+    "contraste": 36.7,
+    "GR": 1.36,
+    "BR": 2.48
+   }
+  },
+  {
+   "v": 169,
+   "objet": "ποεῖ (2e ligne)",
+   "page": "f164v",
+   "mesure": {
+    "n": 569,
+    "contraste": 36.1,
+    "GR": 1.39,
+    "BR": 2.62
+   }
+  },
+  {
+   "v": 169,
+   "objet": "scholie voisine (ξενοκλέης…)",
+   "page": "f164v",
+   "mesure": {
+    "n": 1426,
+    "contraste": 43.9,
+    "GR": 1.27,
+    "BR": 2.11
+   }
+  },
+  {
+   "v": 169,
+   "objet": "texte de T",
+   "page": "f164v",
+   "mesure": {
+    "n": 4384,
+    "contraste": 52.1,
+    "GR": 1.28,
+    "BR": 2.0
+   }
+  }
+ ],
+ "paragraphoi": [
+  {
+   "page": "f165r",
+   "v": 232,
+   "objet": "haste",
+   "mesure": {
+    "n": 14,
+    "contraste": 47.9,
+    "GR": 1.26,
+    "BR": 1.93
+   }
+  },
+  {
+   "page": "f165r",
+   "v": 232,
+   "objet": "paragraphos",
+   "mesure": {
+    "n": 65,
+    "contraste": 85.0,
+    "GR": 1.29,
+    "BR": 1.96
+   }
+  },
+  {
+   "page": "f165r",
+   "v": 234,
+   "objet": "haste",
+   "mesure": {
+    "n": 26,
+    "contraste": 66.0,
+    "GR": 1.17,
+    "BR": 1.83
+   }
+  },
+  {
+   "page": "f165r",
+   "v": 234,
+   "objet": "paragraphos",
+   "mesure": {
+    "n": 36,
+    "contraste": 58.3,
+    "GR": 1.34,
+    "BR": 2.04
+   }
+  },
+  {
+   "page": "f165r",
+   "v": 234,
+   "objet": "sigle orangé voisin",
+   "mesure": {
+    "n": 306,
+    "contraste": 68.0,
+    "GR": 1.49,
+    "BR": 2.69
+   }
+  },
+  {
+   "page": "f169v",
+   "v": 608,
+   "objet": "haste",
+   "mesure": {
+    "n": 63,
+    "contraste": 46.7,
+    "GR": 1.31,
+    "BR": 2.09
+   }
+  },
+  {
+   "page": "f169v",
+   "v": 608,
+   "objet": "paragraphos",
+   "mesure": {
+    "n": 84,
+    "contraste": 44.1,
+    "GR": 1.29,
+    "BR": 2.37
+   }
+  },
+  {
+   "page": "f169v",
+   "v": 608,
+   "objet": "sigle κλ orangé voisin",
+   "mesure": {
+    "n": 384,
+    "contraste": 37.2,
+    "GR": 1.79,
+    "BR": 3.9
+   }
+  },
+  {
+   "page": "f176v",
+   "v": 1194,
+   "objet": "haste",
+   "mesure": {
+    "n": 41,
+    "contraste": 32.7,
+    "GR": 1.74,
+    "BR": 3.38
+   }
+  },
+  {
+   "page": "f176v",
+   "v": 1194,
+   "objet": "paragraphos",
+   "mesure": {
+    "n": 75,
+    "contraste": 72.1,
+    "GR": 1.31,
+    "BR": 2.08
+   }
+  },
+  {
+   "page": "f176v",
+   "v": 1204,
+   "objet": "haste",
+   "mesure": {
+    "n": 26,
+    "contraste": 52.2,
+    "GR": 1.46,
+    "BR": 2.53
+   }
+  },
+  {
+   "page": "f176v",
+   "v": 1204,
+   "objet": "paragraphos",
+   "mesure": {
+    "n": 20,
+    "contraste": 56.3,
+    "GR": 1.22,
+    "BR": 1.69
+   }
+  },
+  {
+   "page": "f176v",
+   "v": 1184,
+   "objet": "haste",
+   "mesure": {
+    "n": 14,
+    "contraste": 24.5,
+    "GR": 1.38,
+    "BR": 2.33
+   }
+  },
+  {
+   "page": "f176v",
+   "v": 1184,
+   "objet": "paragraphos",
+   "mesure": {
+    "n": 96,
+    "contraste": 78.0,
+    "GR": 1.28,
+    "BR": 1.88
+   }
+  }
+ ],
+ "autres": [
+  {
+   "v": 60,
+   "objet": "κατα suscrit",
+   "page": "f163r",
+   "mesure": {
+    "n": 409,
+    "contraste": 39.1,
+    "GR": 1.3,
+    "BR": 2.14
+   },
+   "T": {
+    "n": 3980,
+    "contraste": 58.8,
+    "GR": 1.28,
+    "BR": 1.98
+   },
+   "delta": {
+    "dGR": 0.01,
+    "dBR": 0.16,
+    "classes": 4
+   }
+  },
+  {
+   "v": 306,
+   "objet": "compendium de καί suscrit",
+   "page": "f166r",
+   "mesure": {
+    "n": 101,
+    "contraste": 29.0,
+    "GR": 1.21,
+    "BR": 2.08
+   },
+   "T": {
+    "n": 4130,
+    "contraste": 60.1,
+    "GR": 1.32,
+    "BR": 2.14
+   },
+   "delta": {
+    "dGR": -0.17,
+    "dBR": -0.1,
+    "classes": 2
+   }
+  },
+  {
+   "v": 630,
+   "objet": "μέντοι en marge",
+   "page": "f169v",
+   "mesure": {
+    "n": 842,
+    "contraste": 52.9,
+    "GR": 1.36,
+    "BR": 2.35
+   },
+   "T": {
+    "n": 5040,
+    "contraste": 50.2,
+    "GR": 1.33,
+    "BR": 2.23
+   },
+   "delta": {
+    "dGR": 0.03,
+    "dBR": 0.11,
+    "classes": 5
+   }
+  }
+ ]
+}

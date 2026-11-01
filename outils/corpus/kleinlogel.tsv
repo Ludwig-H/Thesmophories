@@ -1,0 +1,243 @@
+# Polices Kleinlogel et polices de signes des éditions De Gruyter (Hésychius de Latte–Hansen–
+# Cunningham, Synagoge de Cunningham) : nom de glyphe → caractère(s) Unicode.
+# Établi le 28/10/2026 : vote de l'OCR Tesseract aligné sur les glyphes (114 pages), puis contrôle
+# visuel de chaque glyphe dans son contexte et, pour les signes, de son contour (planches dans
+# .travail/hesychius/planches/). Voir outils/corpus/kleinlogel.py.
+# famille « Kleinlogel » = Kleinlogel(-Neu)-Upright, -Bold, -Italic ; les familles « Punkt » (lettre
+# pointée) et « Strich » (lettre surlignée) en dérivent par ajout de U+0323 et U+0305 ;
+# « KleinlogelPiHaken » = KleinlogelPiHaken-Regular et KleinlogelNeuPiHaken-Regular.
+# Notation U+XXXX : signes combinants (rattachés à la lettre qu'ils recouvrent) et espaces.
+famille	glyphe	caractere	controle
+Kleinlogel	alphagrave	α	planche normal_01
+Kleinlogel	omikronaspergrave	ν	planche normal_01
+Kleinlogel	lenistilde	ο	planche normal_01
+Kleinlogel	omegalenistilde	τ	planche normal_01
+Kleinlogel	omikrongrave	ε	planche normal_01
+Kleinlogel	alphalenisgrave	ι	planche normal_01
+Kleinlogel	iotalenistilde	ρ	planche normal_01 (dessin ϱ)
+Kleinlogel	guillemotleft	ς	planche normal_01
+Kleinlogel	upsilonlenistilde	σ	planche normal_01
+Kleinlogel	alphalenistilde	π	planche normal_01
+Kleinlogel	omikronlenisgrave	κ	planche normal_01
+Kleinlogel	aspergrave	λ	planche normal_01
+Kleinlogel	etaaspergrave	μ	planche normal_01
+Kleinlogel	alpha	·	planche normal_01 (point en haut)
+Kleinlogel	iotagrave	δ	planche normal_01
+Kleinlogel	upsilonaspertilde	υ	planche normal_01
+Kleinlogel	iotaacute	ί	planche normal_01
+Kleinlogel	lenisgrave	η	planche normal_01
+Kleinlogel	omegagrave	γ	planche normal_01
+Kleinlogel	omikronlenisacute	θ	planche normal_01
+Kleinlogel	alphaaspertilde	ω	planche normal_02
+Kleinlogel	etaaspertilde	έ	planche normal_02
+Kleinlogel	iotasubscripto	ά	planche normal_02
+Kleinlogel	dollar	ἀ	planche normal_02
+Kleinlogel	omikronacute	ό	planche normal_02
+Kleinlogel	acutegreek	ἐ	planche normal_02
+Kleinlogel	iotaaspertilde	χ	planche normal_02
+Kleinlogel	alphaasperacute	1	planche normal_02 (chiffre)
+Kleinlogel	upsilongrave	φ	planche normal_02
+Kleinlogel	iotasubscripta	ύ	planche normal_02
+Kleinlogel	epsilongrave	β	planche normal_02
+Kleinlogel	omegaaspergrave	Σ	planche normal_02
+Kleinlogel	period	.	planche normal_02
+Kleinlogel	epsilonasperacute	2	planche normal_02 (chiffre)
+Kleinlogel	comma	,	planche normal_02
+Kleinlogel	etaacute	ή	planche normal_02
+Kleinlogel	iotatilde	ῖ	planche normal_02
+Kleinlogel	lambda	ὶ	planche normal_02
+Kleinlogel	epsilonlenis	ῶ	planche normal_02
+Kleinlogel	etaasperacute	3	planche normal_02 (chiffre)
+Kleinlogel	mu	ὸ	planche normal_03
+Kleinlogel	iotaasperacute	4	planche normal_03 (chiffre)
+Kleinlogel	upsilontilde	ῦ	planche normal_03
+Kleinlogel	Beta	5	planche normal_03 (chiffre)
+Kleinlogel	etalenisgrave	ξ	planche normal_03
+Kleinlogel	omegatilde	ῆ	planche normal_03
+Kleinlogel	Epsilon	6	planche normal_03 (chiffre)
+Kleinlogel	Dzeta	7	planche normal_03 (chiffre)
+Kleinlogel	Eta	8	planche normal_03 (chiffre)
+Kleinlogel	Iota	9	planche normal_03 (chiffre)
+Kleinlogel	omegaaspertilde	ζ	planche normal_03
+Kleinlogel	Stigma	ὰ	planche normal_03
+Kleinlogel	Alpha	0	planche normal_03 (chiffre)
+Kleinlogel	periodcenteredgreek	ώ	planche normal_03
+Kleinlogel	iotalenis	ἰ	planche normal_03
+Kleinlogel	Upsilon	’	planche normal_03 (signe d'abréviation au-dessus de la dernière lettre, apparat)
+Kleinlogel	lenis	ὐ	planche normal_03
+Kleinlogel	Nu	ἄ	planche normal_03
+Kleinlogel	parenright	U+0345	planche normal_03, contours_1 (iota souscrit, glyphe superposé à ω, α)
+Kleinlogel	phi	φ	planche normal_03
+Kleinlogel	epsilonlenisacute	ἔ	planche normal_04
+Kleinlogel	etalenistilde	)	planche normal_04
+Kleinlogel	numbersign	᾿	planche normal_04 (esprit doux espaçant devant capitale)
+Kleinlogel	onesuperior	ἱ	planche normal_04
+Kleinlogel	etatilde	ὑ	planche normal_04
+Kleinlogel	twosuperior	ὁ	planche normal_04
+Kleinlogel	A	Α	planche normal_04
+Kleinlogel	nu	ἢ	planche normal_04
+Kleinlogel	ksi	ὲ	planche normal_04
+Kleinlogel	etagrave	ψ	planche normal_04
+Kleinlogel	hyphen	-	planche normal_04
+Kleinlogel	kappa	ὴ	planche normal_04
+Kleinlogel	omikronlenis	ὀ	planche normal_04
+Kleinlogel	pi	ἡ	planche normal_04
+Kleinlogel	bracketright	]	planche normal_04
+Kleinlogel	iotaaspergrave	(	planche normal_04
+Kleinlogel	guillemotright	ᾶ	planche normal_04
+Kleinlogel	semicolon	;	planche normal_04
+Kleinlogel	nine	U+0345	planche normal_04, zoom_1, contours_1 (iota souscrit, glyphe superposé à la lettre suivante : η)
+Kleinlogel	rhoasper	ῥ	planche normal_04
+Kleinlogel	asterisk	*	planche normal_05 (astérisque des gloses de Cyrille)
+Kleinlogel	lenisacute	ὄ	planche normal_05
+Kleinlogel	Rho	ὅ	planche normal_05
+Kleinlogel	Epsilonacute	ὺ	planche normal_05
+Kleinlogel	plus	/	planche normal_05
+Kleinlogel	iotalenisacute	ἴ	planche normal_05
+Kleinlogel	iotalenisgrave	Δ	planche normal_05
+Kleinlogel	E	Ε	planche normal_05
+Kleinlogel	ellipsis	…	planche normal_05
+Kleinlogel	rho	ἶ	planche normal_05
+Kleinlogel	K	Κ	planche normal_05
+Kleinlogel	gravegreek	ἑ	planche normal_05
+Kleinlogel	P	Π	planche normal_05
+Kleinlogel	upsilonasperacute	ὕ	planche normal_05
+Kleinlogel	B	Β	planche normal_05
+Kleinlogel	four	ἁ	planche normal_05
+Kleinlogel	alphaaspergrave	Λ	planche normal_05
+Kleinlogel	asper	῾	planche normal_05 (esprit rude espaçant devant capitale)
+Kleinlogel	threesuperior	ὡ	planche normal_05
+Kleinlogel	I	Ι	planche normal_05
+Kleinlogel	Khi	+	planche normal_06 (signe plus)
+Kleinlogel	omegaasper	ἤ	planche normal_06
+Kleinlogel	Kappa	ὔ	planche normal_06
+Kleinlogel	omegalenis	ὠ	planche normal_06
+Kleinlogel	Alphaacute	=	planche normal_06 (signe égal)
+Kleinlogel	M	Μ	planche normal_06
+Kleinlogel	bracketleft	[	planche normal_06
+Kleinlogel	iotadieresisgrave	Θ	planche normal_06
+Kleinlogel	equal	ϊ	planche normal_06
+Kleinlogel	etalenisacute	ἕ	planche normal_06
+Kleinlogel	upsilonlenisgrave	Γ	planche normal_06
+Kleinlogel	T	Τ	planche normal_06
+Kleinlogel	iotasubscripte	Φ	planche normal_06
+Kleinlogel	omikronasperacute	ἵ	planche normal_06
+Kleinlogel	H	Η	planche normal_06
+Kleinlogel	O	Ο	planche normal_06
+Kleinlogel	epsilonasper	ἷ	planche normal_06
+Kleinlogel	N	Ν	planche normal_06
+Kleinlogel	Iotadieresis	ἅ	planche normal_06
+Kleinlogel	omegaacute	ἦ	planche normal_06
+Kleinlogel	omikronasper	‖	planche normal_07 (double barre, séparateur de l'apparat)
+Kleinlogel	iotadieresisacute	ΐ	planche normal_07
+Kleinlogel	Z	Ζ	planche normal_07
+Kleinlogel	endash	–	planche normal_07
+Kleinlogel	alphalenisacute	†	planche normal_07 (croix)
+Kleinlogel	upsilonlenisacute	ἥ	planche normal_07
+Kleinlogel	five	῎	planche normal_07 (esprit doux et aigu espaçants devant capitale)
+Kleinlogel	etaasper	ὧ	planche normal_07
+Kleinlogel	Omega	ὼ	planche normal_07
+Kleinlogel	khi	ὃ	planche normal_07
+Kleinlogel	sigma	ὖ	planche normal_07
+Kleinlogel	epsilonaspergrave	ὗ	planche normal_07
+Kleinlogel	upsilonaspergrave	Ρ	planche normal_07
+Kleinlogel	X	Χ	planche normal_07
+Kleinlogel	omegalenisgrave	Ξ	planche normal_07
+Kleinlogel	emdash	ὥ	planche normal_07
+Kleinlogel	omegalenisacute	ὤ	planche normal_07
+Kleinlogel	upsilondieresisgrave	Ω	planche normal_07
+Kleinlogel	epsilonlenisgrave	Ψ	planche normal_07
+Kleinlogel	Omegaacute	ἧ	planche normal_07
+Kleinlogel	Y	Υ	planche normal_08
+Kleinlogel	six	῞	planche normal_08 (esprit rude et aigu espaçants devant capitale)
+Kleinlogel	dzeta	Ϝ	planche normal_08 (digamma)
+Kleinlogel	tau	ὦ	planche normal_08
+Kleinlogel	alphatilde	ἣ	planche normal_08
+Kleinlogel	psi	ἃ	planche normal_08
+Kleinlogel	colon	:	planche normal_08
+Kleinlogel	bar	?	planche normal_08
+Kleinlogel	two	ʹ	planche normal_08 (signe numéral / d'abréviation)
+Kleinlogel	thetatwo	ἂ	planche normal_08
+Kleinlogel	Theta	ἆ	planche normal_08
+Kleinlogel	upsilondieresisacute	ΰ	planche normal_08, zoom_1
+Kleinlogel	three	ϋ	planche normal_08, zoom_1
+Kleinlogel	question	ὓ	planche normal_08, zoom_1
+Kleinlogel	quoteleft	ἓ	planche normal_08
+Kleinlogel	theta	ἳ	planche normal_08
+Kleinlogel	eta	ῒ	planche normal_08
+Kleinlogel	quoteright	’	planche normal_08
+Kleinlogel	beta	ϋ	planche normal_08, zoom_1 (variante du précédent)
+Kleinlogel	seven	῏	planche normal_08 (esprit doux et circonflexe espaçants devant capitale)
+Kleinlogel	omegaasperacute	’	planche normal_09, zoom_1 (trait d'abréviation après lettre suscrite, apparat)
+Kleinlogel	phitwo	ὢ	planche normal_09
+Kleinlogel	epsilon	ἲ	planche normal_09
+Kleinlogel	betatwo	>	planche normal_09
+Kleinlogel	rholenis	ῤ	planche normal_09
+Kleinlogel	aspertilde	ϑ	planche normal_09 (thêta cursif)
+Kleinlogel	Lambda	῀	planche normal_09 (tilde d'abréviation, apparat)
+Kleinlogel	section	ϛ	planche normal_09 (stigma)
+Kleinlogel	etalenis	`	planche normal_09, zoom_1, contours_1 (trait d'abréviation en grave, apparat)
+Kleinlogel	iotaasper	{	planche normal_09
+Kleinlogel	omikron	ὂ	planche normal_09
+Kleinlogel	upsilonasper	}	planche normal_09
+Kleinlogel	gamma	ὣ	planche normal_09
+Kleinlogel	Omikron	ῧ	planche normal_09, zoom_1
+Kleinlogel	Delta	U+0323	planche normal_09, zoom_2, contours_1 (point souscrit isolé : lettre illisible)
+Kleinlogel	sigmafinal	ἇ	planche normal_09, zoom_2
+Kleinlogel	alphalenis	Ϲ	planche normal_09 (sigma lunaire)
+Kleinlogel	parenleft	͵	planche normal_09 (signe numéral inférieur : ͵δωʹ)
+Kleinlogel	slash	῟	planche normal_09 (esprit rude et circonflexe espaçants devant capitale)
+Kleinlogel	zero	U+0306	planche normal_09, zoom_2, contours_1 (brève superposée : ᾰ, ῠ)
+Kleinlogel	delta	ἒ	planche normal_10
+Kleinlogel	percent	῍	planche normal_10, zoom_2, contours_1 (esprit doux et grave espaçants)
+Kleinlogel	omega	ἂ	planche normal_10, zoom_2
+Kleinlogel	Psi	Ά	planche normal_10, zoom_2 (capitale avec aigu attaché)
+Kleinlogel	alphaacute	ὒ	planche normal_10
+Kleinlogel	exclam	῭	planche normal_10, zoom_2, contours_1 (tréma et grave espaçants)
+Kleinlogel	Pi	Ͱ	planche normal_10 (hêta)
+Kleinlogel	iota	ῢ	planche normal_10
+Kleinlogel	iotadieresis	ϲ	planche normal_10 (sigma lunaire minuscule)
+Kleinlogel	upsilondieresis	ῗ	planche normal_10, zoom_2
+Kleinlogel	space	U+0020	espace (contour vide : contours_6)
+Kleinlogel	nonbreakingspace	ἠ	contours_6, contours_7 (le nom « nonbreakingspace » désigne ἠ : vérifié sur le contour)
+KleinlogelPiHaken	Udieresis	″	planche speciaux_01, contours_2 (double prime : Σ″)
+KleinlogelPiHaken	udieresis	′	planche speciaux_01, contours_2 (prime : Σ′)
+KleinlogelPiHaken	d	⌈	planche speciaux_01, contours_2
+KleinlogelPiHaken	k	⌉	planche speciaux_01, contours_2
+KleinlogelPiHaken	f	⌊	planche speciaux_01, contours_4
+KleinlogelPiHaken	j	⌋	planche speciaux_01, contours_4
+KleinlogelPiHaken	H	‖	contours_4 (double barre)
+KleinlogelPiHaken	adieresis	]	zoom_3, contours_4 (crochet gras)
+KleinlogelPiHaken	odieresis	[	zoom_3, contours_4 (crochet gras)
+KleinlogelPiHaken	caron	:	zoom_3, contours_2 (deux points)
+KleinlogelPiHaken	asterisk	*	contours_5 (astérisque gras, Synagoge)
+KleinlogelPiHaken	brokenbar	¦	contours_5 (Synagoge)
+KleinlogelPiHaken	product	≅	contours_5 (Synagoge)
+KleinlogelPiHaken	space	U+0020	espace
+SciencePiBQ	exclam	⟨	planche autres_01 (chevron ouvrant des suppléments)
+SciencePiBQ	quotedbl	⟩	planche autres_01 (chevron fermant)
+SciencePiBQ	a	∼	planche autres_01 (sigle tachygraphique décrit dans l'apparat)
+SciencePiBQ	f	△	planche autres_01 (idem)
+SciencePiBQ	i	⇦	planche autres_01 (idem)
+SciencePiBQ	n	□	planche autres_01 (idem)
+SciencePiBQ	o	∞	planche autres_01 (idem)
+SciencePiBQ	r	▲	planche autres_01 (idem)
+SciencePiBQ	s	⊥	planche autres_02 (idem)
+SciencePiBQ	Udieresis	ι	planche autres_01 (idem, signe en forme de iota)
+SymbolNeu	braceleftbt	⌊	planche autres_02 (demi-crochet inférieur)
+MathematicalPiOneBQ-Regular	asciicircum	⟦	planche autres_01
+MathematicalPiOneBQ-Regular	backslash	⟧	planche autres_01
+MathematicalPiOneBQ-Regular	bracketright	[	planche autres_01 (crochet gras ouvrant)
+MathematicalPiOneBQ-Regular	two	≃	planche autres_01
+MathematicalPiOneBQ-Regular	Udieresis	∞	planche autres_01 (symbole du papier permanent, page de copyright)
+AGFiguresPiBQneu-Regular	dotlessi	≃	planche autres_01
+IPAKiel-Regular	nine	U+0325	planche autres_01 (rond souscrit : r̥)
+TimesAkz-Roman	E	Ē	planche autres_02
+TimesAkz-Roman	a	ā	planche autres_02
+TimesAkz-Roman	h	ḥ	planche autres_02
+TimesAkz-Roman	i	ī	planche autres_02
+TimesAkz-Roman	m	ῑ	planche autres_02 (iota long)
+TimesAkz-Roman	s	ṣ	planche autres_02
+TimesAkz-Italic	h	ḥ	planche autres_02
+TimesAssyr-Italic	a	ā	planche autres_02
+TimesAssyr-Italic	u	ū	planche autres_02

@@ -5,7 +5,7 @@ b_u1	f163r	400	478	428	524	4	45	β	β en « u » (βομβάξ)
 b_u2	f165v	830	405	858	447	1	252	β	β en « u » (λαμβάνετε)
 b_u3	f176r	478	1583	522	1628	29	1154	β	β en « u » (ἄμβροτον)
 b_k	f166v	958	1660	1030	1704	31	367	β	σεβ- : β proche de κ (ἀσεβοῦσιν)
-b_corr	f168r	560	1360	650	1410	24	489	β	β fermé « ϐ » d'un correcteur (κύβδ')
+b_corr	f168r	560	1360	650	1410	24	489	β	β fermé « ϐ » d'une correction, encre de T (κύβδ')
 g_v	f165r	830	868	854	917	12	220	γ	γ en v plongeant (γενναῖος)
 g_ge	f167r	900	1668	940	1712	32	411	γ	γ en v, ε lié au-dessus (γέρων)
 g_G	f163r	338	426	386	472	3	45	γ	Γ oncial lié au λ (γλαυκόν)
@@ -127,3 +127,14 @@ D_iota1	f168v	783	700	914	747	8	516	ι	τῶ ι σῶ ι : ι adscrits
 D_iota2	f177r	751	376	940	434	1	1211	ι	γρᾶιδιο : ι adscrit
 D_fill	f172v	1453	2178	1607	2230	43	876	—	δεκα + trait de remplissage
 D_ink	f176v	1520	1520	1730	1580	28	1195	encre	οὖν δραχμήν : encre épuisée
+V_otutuze	f175v	860	375	1000	440	1	1082	ζ	vérification : ζ en « 3 » de ὀτότυζε (Velsen 1883 : ὀτότυζε RG)
+V_badiz	f177r	1100	1195	1262	1282	20	1228	ζ	vérification : βαδί-ζ(ειν), δι lié en « 7 », ζ en « 3 », trait montant
+V_dieballe	f177r	200	560	400	622	5	1214	β	vérification : διέβαλλε, ε en « 6 », β en « u »
+V_b_asebou	f166v	975	1655	1100	1702	31	367	β	vérification : ἀσεβοῦσ', β à haste haute, de même forme que κ
+V_k_adikou	f166v	1180	1655	1300	1702	31	367	κ	vérification : ἀδικοῦσί, κ de la même ligne
+V_st_lalis	f175v	900	420	1060	476	2	1083	στ	vérification : στ τί λαλῖσ, στ en « α » et α de λαλῖσ
+V_speos	f164r	270	1220	470	1276	21	142	σπ	vérification : ποῦ σπέος, ϖ à deux panses, σπ à trois
+V_eta_h345	f166v	760	720	900	790	9	345	η	vérification : ἢ δῶρα, η minuscule en « h »
+V_eta_n361	f166v	860	1385	1060	1470	25	361	η	vérification : ἢ ψηφίσματα, η en « н »
+V_gi_l22	f169v	1330	1262	1425	1322	22	614	γι	vérification : οὐ γινώσκομεν, γι en « Π »
+V_tt_molott	f167r	850	1868	960	1925	37	416	ττ	vérification : μολοττικοὺς, second τ en γ

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lecture B (par passes successives) de R, f. 163v (Classense 165v). Brouillon en cours. -->
+<page folio="163v" image="03_f163v_classense165v_vv0080-0122.jpg" vers="80-122">
+  <lignes>
+  </lignes>
+  <scholies>
+  </scholies>
+  <notes>
+    <note>Lecture B, par passes : (1) lettres et mots, sur découpes ×3 de l'image pleine résolution (original et CLAHE), par segments de trois à cinq mots ; (2) signes diacritiques, mot par mot, ×4 à ×6 (original, canal bleu inversé, décorrélation) ; (3) ponctuation, sigles, paragraphoi, gloses, corrections ; (4) confrontation avec le texte de l'édition antérieure de l'auteur et avec les leçons de R rapportées par les éditeurs. Scholies marginales non transcrites (consigne). Coordonnées en pixels de l'image pleine résolution (1921 × 2780). Outils et découpes : .travail/lectB_f163v/.</note>
+  </notes>
+</page>

@@ -314,12 +314,13 @@
   "texte": "2e τάδε — **grave brun-noir** sur δε ; hachures sur l'α (aigu gratté ?)",
   "proc": "acc.",
   "obj": "accent/esprit",
-  "main": "Rⁿ",
+  "main": "Rⁿ ?",
   "main_inv": "2 m. selon Velsen 1871, mais l'encre n'est pas orangée",
-  "certitude": "probable (encre distincte)",
+  "certitude": "possible (encre non concluante)",
   "etat": "vu",
   "specimen": "f163r_l17_tade2_grave_sombre.jpg",
-  "obs": "f163r#21"
+  "obs": "f163r#21",
+  "verification": "point de T de la même ligne de mêmes rapports (1,14/1,60 contre 1,19/1,51) ; § 9"
  },
  {
   "page": "f163r",
@@ -4374,12 +4375,13 @@
   "texte": "**ἀλσος → ἅλσος** : esprit rude anguleux ⊢ à l'encre presque noire",
   "proc": "acc.",
   "obj": "accent/esprit",
-  "main": "Rⁿ",
+  "main": "Rⁿ ?",
   "main_inv": "correcteur à l'encre noire (§ 2)",
-  "certitude": "ajout et encre distincte sûrs ; main à trancher",
+  "certitude": "ajout sûr ; encre non concluante",
   "etat": "vu",
   "specimen": "f176r_l24_halsos_esprit_noir.jpg",
-  "obs": "f176r#30"
+  "obs": "f176r#30",
+  "verification": "mêmes rapports que l'aigu voisin (1,15/1,78 contre 1,21/1,82) ; § 9"
  },
  {
   "page": "f176r",
@@ -4542,12 +4544,13 @@
   "texte": "κατὰ τὸ : deux accents graves minces",
   "proc": "acc.",
   "obj": "accent/esprit",
-  "main": "1516",
+  "main": "1516 ?",
   "main_inv": "1516 (Velsen) ; mesure non probante",
   "certitude": "probable",
   "etat": "vu",
   "specimen": "f176v_l12_kata_to_accents.jpg",
-  "obs": "f176v#24"
+  "obs": "f176v#24",
+  "verification": "graves non orangés (B/R 1,60 et 1,78 ; T 1,89) : Velsen 1871 seul ; § 9"
  },
  {
   "page": "f176v",
@@ -4654,12 +4657,13 @@
   "texte": "ο ο ο → σκ ὸ : deux ο transformés en σκ ; deux points bruns sur le 3e ο (exponctuation ?)",
   "proc": "surch.",
   "obj": "lettre/mot",
-  "main": "1516",
+  "main": "1516 ?",
   "main_inv": "1516 ; points : ?",
   "certitude": "probable",
   "etat": "vu",
   "specimen": "f176v_l24_ooo_corrige_sk.jpg",
-  "obs": "f176v#42"
+  "obs": "f176v#42",
+  "verification": "σκ 2,27–2,29 comme le 3e ο non corrigé (2,15) ; pas d'orangé ; § 9"
  },
  {
   "page": "f176v",
