@@ -274,7 +274,7 @@
   "citation": "Ἠμπέσχετο: περιεβάλλετο. καὶ Ἠμπίσχετο· δοτικῇ. Ἠμπείχετο δέ",
   "traduction": "ἠμπέσχετο : il s'enveloppa ; et ἠμπίσχετο, avec le datif ; mais ἠμπείχετο",
   "verifie": "scan",
-  "verification": "edition/donnees/testimonia/souda_adler.tsv (Adler II 572, 6-7, contrôlé sur l'image de la page) ; recherche/testimonia.md, v. 165",
+  "verification": "Adler II, p. 572, 6–7 (PDF local, feuillet 585, image affichée et lue) ; edition/donnees/testimonia/souda_adler.tsv",
   "signale_par": "recherche/testimonia.md (v. 165)",
   "pertinence": 2,
   "remarque": "glose sans citation : sa source n'est pas assurée (Eur. Med. 1159 selon Hsch. η 552). Apparat d'Adler : Ἠμπίσχετο A"
@@ -288,7 +288,7 @@
   "citation": "ἠμπέσχετο· περιεβάλετο",
   "traduction": "ἠμπέσχετο : il se revêtit",
   "verifie": "scan",
-  "verification": "Naber I, p. 262 (image n272 effectivement lue ; n. 4 : perperam Codex περιεβάλλετο, renvoi à Elmsley ad Eur. Med.) ; numéro : Synag. η 88 Cunningham (« Su. η 362, Ph. η 177 »)",
+  "verification": "Naber I, p. 262, et n. 4 (image n272 affichée et lue : perperam Codex περιεβάλλετο ; renvoi à Elmsley ad Eur. Med. 1128) ; numéro : Synag. η 88 Cunningham (« Su. η 362, Ph. η 177 »)",
   "signale_par": "Naber 1864 ; Cunningham, Synag.",
   "pertinence": 2,
   "remarque": "correction de Naber ; Photius distingue ibid. ἠμπείχετο· περιεβέβλητο"
@@ -330,7 +330,7 @@
   "citation": "Ἠμπίσχετο· ἐνεδύετο. καὶ ἠμπέσχετο. ἠμπείχετο δὲ δίφθογγον",
   "traduction": "ἠμπίσχετο : il se revêtait ; et ἠμπέσχετο ; mais ἠμπείχετο avec diphtongue",
   "verifie": "scan",
-  "verification": "Tittmann, col. 994, avec n. 11 (image n629 effectivement lue : renvoi à Eur. Med. 1159)",
+  "verification": "Tittmann, col. 994, avec n. 11 (image n629 affichée et lue : renvoi à Eur. Med. 1159)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "les trois formes ensemble"
@@ -344,7 +344,7 @@
   "citation": "ὅττι καλόν, φίλον ἐστί· τὸ δ’ οὐ καλὸν οὐ φίλον ἐστίν",
   "traduction": "ce qui est beau est aimé ; ce qui n'est pas beau n'est pas aimé",
   "verifie": "scan",
-  "verification": "citation de Thgn. 17 dans la note de CPG II, p. 220 (image n255 effectivement lue) ; Théognis n'est pas indexé dans le corpus TEI",
+  "verification": "citation de Thgn. 17 dans la note de CPG II, p. 220 (image n255 affichée et lue) ; Théognis n'est pas indexé dans le corpus TEI",
   "signale_par": "CPG II, p. 220 (n.)",
   "pertinence": 1,
   "remarque": "proverbe du beau (la même note : Eur. Ba. 881 ὅτι καλὸν φίλον ἀεί ; Pl. Lys. 216c κατὰ τὴν ἀρχαίαν παροιμίαν τὸ καλὸν φίλον εἶναι) ; pour le goût d'Agathon"
@@ -400,7 +400,7 @@
   "citation": "ταῦτ᾽· διὰ ταῦτα. λείπει ἡ διά. ἀντὶ τοῦ διὰ ταῦτα, Ἀττικῶς",
   "traduction": "ταῦτα : à cause de cela. Il manque διά ; pour διὰ ταῦτα, à la manière attique",
   "verifie": "scan",
-  "verification": "Dübner, p. 97, col. droite, l. 30–31 (rendu PDF idx 151, image effectivement lue)",
+  "verification": "Dübner, p. 97, col. droite, l. 30–31 (rendu PDF idx 151, image affichée et lue)",
   "signale_par": "Prato 2001, ad 168",
   "pertinence": 3,
   "remarque": "les grammairiens comprennent ταῦτ᾽ ἄρα par ellipse de διά : le v. 166 donne la forme développée, le v. 168 le tour usuel"
@@ -750,7 +750,7 @@
   "citation": "Οἷος ὁ τρόπος, τοιοῦτος ὁ λόγος",
   "traduction": "tel le caractère, tel le discours",
   "verifie": "scan",
-  "verification": "CPG II, p. 552, l. 23, et n. (image n587 effectivement lue : Arsen. XXXVIII, 85 ; Aristid. Rhet. T. II, 99 Iebb. ; Senec. Epist. 114)",
+  "verification": "CPG II, p. 552, l. 23, et n. (image n587 affichée et lue : Arsen. XXXVIII, 85 ; Aristid. Rhet. T. II, 99 Iebb. ; Senec. Epist. 114)",
   "signale_par": "Tosi n° 1711",
   "pertinence": 3,
   "remarque": "le proverbe même, en son lieu chez les parémiographes"
@@ -764,7 +764,7 @@
   "citation": "Ὦ παῖ Κρέοντος, ὡς ἀληθὲς ἦν ἄρα, / ἐσθλῶν ἀπ᾽ ἀνδρῶν ἐσθλὰ γίγνεσθαι τέκνα· / κακῶν δ᾽ ὅμοια τῇ φύσει τῇ τοῦ πατρός",
   "traduction": "fils de Créon, combien il était donc vrai que de nobles hommes naissent de nobles enfants, et de méchants des enfants semblables à la nature de leur père",
   "verifie": "scan",
-  "verification": "CPG II, p. 737, l. 23–25 (image n772 effectivement lue)",
+  "verification": "CPG II, p. 737, l. 23–25 (image n772 affichée et lue)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
   "remarque": "le fragment d'Euripide (fr. 75) passé dans les recueils de sentences"
@@ -806,7 +806,7 @@
   "citation": "Ἀνδρὸς χαρακτὴρ ἐκ λόγου γνωρίζεται",
   "traduction": "le caractère d'un homme se reconnaît à son discours",
   "verifie": "scan",
-  "verification": "Meineke, FCG IV, p. 341, v. 26 (image n362 effectivement lue) ; Kock III, p. 41 (fr. 143, OCR)",
+  "verification": "Meineke, FCG IV, p. 341, v. 26 (image n362 affichée et lue) ; Kock III, p. 41 (fr. 143, OCR)",
   "signale_par": "Tosi n° 1711",
   "pertinence": 2,
   "remarque": "Tosi : « 27 J. » (Jäkel), Men. Arrhéphoros fr. 72 K.-A. ; Kock le range en fr. 143 avec Ter. Haut. 384 (nam mihi quale ingenium haberes, fuit indicio oratio)"
@@ -862,7 +862,7 @@
   "citation": "Τοῦ πατρὸς τὸ παιδίον: ἐπὶ τοῦ ὁμοίου",
   "traduction": "le petit de son père : pour ce qui est semblable",
   "verifie": "scan",
-  "verification": "CPG II, p. 220, l. 3 (image n255 effectivement lue) ; n. : Apost. XVI, 72 ; Varron, Sat. Men. ; Strabon X, 3, 15",
+  "verification": "CPG II, p. 220, l. 2, et n. (image n255 affichée et lue : Apost. XVI, 72 ; Varron, Sat. Men. ; Strabon X, 3, 15 ; Liban. Ep. 1476 ; Basil. Ep. 339)",
   "signale_par": "Tosi n° 375",
   "pertinence": 2,
   "remarque": "l'explication du recueil tient en un mot : ἐπὶ τοῦ ὁμοίου"
@@ -876,7 +876,7 @@
   "citation": "Φιλοκλῆς, κωμῳδίας ποιητής, αἰσχροπρόσωπος. ἦν δὲ προκέφαλος, ὡς ἔποψ, ἤγουν ὀξυκέφαλος· Αἰσχύλου ἀδελφῆς υἱός. οἱ δὲ Ἁλμίωνα αὐτόν φασιν ἐπιθετικῶς, διὰ τὸ πικρὸν εἶναι· ἅλμη γὰρ ἡ πικρία",
   "traduction": "Philoclès, poète comique, hideux de visage. Il avait la tête proéminente, comme la huppe, c'est-à-dire pointue ; fils d'une sœur d'Eschyle. D'autres l'appellent par surnom Halmion, parce qu'il est amer : car ἅλμη, c'est l'amertume",
   "verifie": "scan",
-  "verification": "Adler IV, p. 727, 29 – 728, 3 (PDF local, feuillets 742–743, images effectivement lues ; Adler : « 379 — αἰσχροπρόσωπος sch. Ar. Th. 168 ; ἦν sq. sch. Ar. Av. 281 plenius ») ; recherche/testimonia.md",
+  "verification": "Adler IV, p. 727, 29 – 728, 3 (PDF local, feuillets 742–743, images affichées et lues ; Adler : « 379 — αἰσχροπρόσωπος sch. Ar. Th. 168 ; ἦν sq. sch. Ar. Av. 281 plenius ») ; recherche/testimonia.md",
   "signale_par": "commentaire de l'auteur (n. 2) ; recherche/testimonia.md",
   "pertinence": 3,
   "remarque": "αἰσχροπρόσωπος est tiré de la scholie au v. 168 (Adler) ; κωμῳδίας est une erreur de la Souda"
@@ -1041,13 +1041,13 @@
   "categorie": "comiques",
   "ref": "Telecl. fr. 15 K.-A. (14 Kock)",
   "urn": "ia:scholiaaristoph00ruthgoog#n467",
-  "citation": "ἅλμη τάλαινα, Φιλοκλέα βδύλλεις· πόθεν; | ⏓ – ⏑ ἐστιν, Αἰσχύλου φρόνημ᾽ ἔχων",
+  "citation": "ἀλλ᾽ ἡ τάλαινα Φιλοκλέα * * * * οὖν, εἰ δ᾽ ἔστιν Αἰσχύλου φρόνημ᾽ ἔχων",
   "traduction": "saumure malheureuse, tu as peur de Philoclès ; pourquoi ? … il est…, ayant l'orgueil d'Eschyle",
   "verifie": "scan",
-  "verification": "Rutherford II, p. 457 (image n467 lue, texte restitué par lui ; R : ἀλλ ἡ τάλαινα φιλοκλέα βδελλ……οθεν οὖν·ει|δε εστι αἰσχύλου φρόνημ᾽ ἔχων) ; Dübner, p. 266, l. 4–6 (rendu PDF idx 344, image lue) ; Kock I, p. 212 (fr. 14, OCR)",
+  "verification": "Dübner, p. 266, l. 4–6 (rendu PDF idx 344), Rutherford II, p. 457 (image n467) et Kock I, p. 212, fr. 14 (image n242) : images affichées et lues",
   "signale_par": "Σ Thesm. 168 ; commentaire de l'auteur (fr. 15 K.-A.)",
   "pertinence": 3,
-  "remarque": "connu par la seule scholie à ce vers ; l'auteur : fr. 15 K.-A., lecture de R (ἀλλ᾽ ἡ τάλαινα Φιλοκλέα βδελλ…οθεν οὖν· εἰ δ᾽ ἐστὶν Αἰσχύλου φρόνημ᾽ ἔχων) ; ἅλμη et βδύλλεις sont des restitutions de Rutherford ; Cobet βδελύττομαι (Blaydes 1880, p. 152) : à revoir sur le fac-similé"
+  "remarque": "connu par la seule scholie à ce vers. Kock : ἀλλ᾽ ἡ τάλαινα Φιλοκλέα β… δεν οὖν ; Dindorf lisait λελύθημαι ὅθεν dans R, « literis prope obliteratis ». R selon Rutherford : βδελλ……οθεν οὖν ; il restitue ἅλμη τάλαινα, Φιλοκλέα βδύλλεις· πόθεν; (d'où ἅλμῃ ὅτι πικρός dans la scholie) ; Cobet βδελύττομαι (Blaydes 1880, p. 152). Numéro K.-A. d'après le commentaire de l'auteur, K.-A. non consulté ; à revoir sur le fac-similé"
  },
  {
   "v": "168",
@@ -1114,7 +1114,7 @@
   "citation": "ἐκ τούτου δηλονότι καὶ ἐν τοῖς Ὄρνισιν οὐκ ἄλλως κορυδῷ αὐτὸν ὡμοίου ἀλλ᾽ ἢ ὅτι μικρὸς καὶ αἰσχρός … τραγῳδίας ποιητὴς αἰσχρὸς τὸ πρόσωπον καὶ σιμὸς καὶ μικρὸς τὸ σῶμα",
   "traduction": "d'où, clairement, aux Oiseaux aussi, il ne le comparait à l'alouette huppée que parce qu'il était petit et laid… poète tragique laid de visage, camus et petit de corps",
   "verifie": "scan",
-  "verification": "Dübner, p. 266, l. 2–8 (rendu PDF idx 344, image lue) ; Rutherford II, p. 457–458 (images n467–n468 lues, avec la transcription de R)",
+  "verification": "Dübner, p. 266, l. 2–8 (rendu PDF idx 344) et Rutherford II, p. 457–458 (images n467–n468, avec la transcription de R) : images affichées et lues",
   "signale_par": "commentaire de l'auteur",
   "pertinence": 3,
   "remarque": "scholie de R au vers ; Dübner : οὐκ ἄλλοθεν κορυδὸν αὐτὸν ὠνόμασεν ἀλλ᾽ ἢ ὅτι μικρὸς καὶ αἰσχρός ; R selon Rutherford : οὐκ ἄλλωσ κορυδῶ αὐτον ὡμοίου αλλη ὅτι μικρὸς καὶ αἰσχρὸς (il corrige ἅλμῃ ὅτι πικρός : conjecture) ; Rutherford propose ἀνάσιλλος pour σιμός"
@@ -1198,7 +1198,7 @@
   "citation": "Φιλοκλῆς, Πολυπείθους, Ἀθηναῖος, τραγικός, τοῖς χρόνοις μετὰ Εὐριπίδην. ἐπεκαλεῖτο δὲ Χολὴ διὰ τὸ πικρόν … Αἰσχύλου δὲ τοῦ τραγικοῦ ἦν ἀδελφιδοῦς καὶ ἔσχεν υἱὸν Μόρσιμον, τὸν τραγικόν",
   "traduction": "Philoclès, fils de Polypithès, Athénien, tragique, postérieur à Euripide. On le surnommait Bile, à cause de son amertume… Il était neveu du tragique Eschyle et eut pour fils Morsimos, le tragique",
   "verifie": "scan",
-  "verification": "Adler IV, p. 727, 23–28 (PDF local, feuillet 742, image effectivement lue ; apparat : 23 Φιλοπείθους sch. Ar. Av. 281 ; μετὰ] κατ᾽ Clinton, recte)",
+  "verification": "Adler IV, p. 727, 23–28 (PDF local, feuillet 742, image affichée et lue ; apparat : 23 Φιλοπείθους sch. Ar. Av. 281 ; μετὰ] κατ᾽ Clinton, recte)",
   "signale_par": "Sommerstein 1994, ad 168",
   "pertinence": 3,
   "remarque": "le poète, sa bile et sa descendance de tragiques : la φύσις héréditaire (cf. v. 167)"
@@ -1254,7 +1254,7 @@
   "citation": "Κορυδέως εἰδεχθέστερος: ἐπὶ δυσμορφίᾳ οὗτος διεβάλλετο",
   "traduction": "plus hideux que Corydée : celui-ci était décrié pour sa laideur",
   "verifie": "scan",
-  "verification": "CPG II, p. 481, l. 21–22 (image n516 lue)",
+  "verification": "CPG II, p. 481, l. 21–22 (image n516 affichée et lue)",
   "signale_par": "commentaire de l'auteur (n. 5)",
   "pertinence": 3,
   "remarque": ""
@@ -1422,7 +1422,7 @@
   "citation": "Ξενοκλῆς ὁ δωδεκαμήχανος ὁ Καρκίνου παῖς τοῦ θαλαττίου",
   "traduction": "Xénoclès aux douze machines, le fils de Carcinos le marin",
   "verifie": "scan",
-  "verification": "Σ Ar. Pax 792 : Dübner, p. 195, col. droite, l. 33–34 (rendu PDF idx 251, image lue) ; Kock I, p. 635 (OCR)",
+  "verification": "Σ Ar. Pax 792 : Dübner, p. 195, col. droite, l. 33–34 (rendu PDF idx 251, image affichée et lue) ; Kock I, p. 635 (OCR)",
   "signale_par": "Fritzsche 1838, p. 56 (« Schol. ad Pac. 769 »)",
   "pertinence": 3,
   "remarque": "Sophistes de Platon le Comique ; surnom d'auteur à machines"
@@ -1531,10 +1531,10 @@
   "categorie": "scholies",
   "ref": "Σ Ar. Pax 792",
   "urn": "ia:scholiagraecain00unkngoog#n251",
-  "citation": "μηχανοδίφας· ἀπὸ μέρους τοῦτο· Ξενοκλῆς γὰρ ὁ Καρκίνου δοκεῖ μηχανὰς καὶ τερατείας εἰσάγειν ἐν τοῖς δράμασι",
+  "citation": "μηχανοδίφας : ἀπὸ μέρους τοῦτο· Ξενοκλῆς γὰρ ὁ Καρκίνου δοκεῖ μηχανὰς καὶ τερατείας εἰσάγειν ἐν τοῖς δράμασι",
   "traduction": "chercheurs de machines : cela vaut pour l'un d'eux, car Xénoclès fils de Carcinos passe pour introduire machines et merveilles dans ses drames",
   "verifie": "scan",
-  "verification": "Dübner, p. 195, col. droite, l. 31–34 (rendu PDF idx 251, image lue)",
+  "verification": "Dübner, p. 195, col. droite, l. 31–33 (rendu PDF idx 251, image affichée et lue)",
   "signale_par": "Prato 2001, ad 169",
   "pertinence": 3,
   "remarque": ""
@@ -1545,10 +1545,10 @@
   "categorie": "scholies",
   "ref": "Σ Ar. Ran. 86",
   "urn": "ia:scholiagraecain00unkngoog#n357",
-  "citation": "Ξενοκλῆς· υἱὸς Καρκίνου, ὃς κωμῳδεῖται ὡς ἄξεστος ἐν τῇ ποιήσει (καὶ ἀλληγορικός)",
+  "citation": "Ξενοκλῆς : υἱὸς Καρκίνου, ὃς κωμῳδεῖται ὡς ἄξεστος ἐν τῇ ποιήσει (καὶ ἀλληγορικός)",
   "traduction": "Xénoclès : fils de Carcinos, moqué comme mal dégrossi en poésie (et allégorique)",
   "verifie": "scan",
-  "verification": "Dübner, p. 277, col. gauche, l. 44–45 (rendu PDF idx 357, image lue)",
+  "verification": "Dübner, p. 277, col. gauche, l. 44–45 (rendu PDF idx 357, image affichée et lue)",
   "signale_par": "Prato 2001, ad 169",
   "pertinence": 3,
   "remarque": "le jugement sur l'homme et le jugement sur l'œuvre confondus ; la scholie ajoute : εἰσὶ δέ, ὥς φασι, δύο Ξενοκλεῖς τραγῳδοὶ γεγονότες"
@@ -1562,7 +1562,7 @@
   "citation": "διὰ τὸ εὐμήχανον ἐν τοῖς δράμασι λέγεσθαι τὸν Ξενοκλέα πρὸς τὰς τῆς γυναικὸς μηχανὰς παρελήφθη … ἤτοι δὲ διαβάλλει αὐτὸν ὡς ἀφυᾶ",
   "traduction": "à cause de l'ingéniosité qu'on lui prête dans ses drames, Xénoclès est mis en regard des machinations de la femme… ou bien il le décrie comme sans don naturel",
   "verifie": "scan",
-  "verification": "Dübner, p. 267, col. droite, l. 19–22 (rendu PDF idx 345, image lue)",
+  "verification": "Dübner, p. 267, col. droite, l. 19–22 (rendu PDF idx 345, image affichée et lue)",
   "signale_par": "Fritzsche 1838, p. 56 (renvoi ad 441)",
   "pertinence": 3,
   "remarque": "ἀφυής : sans φύσις, le mot du v. 167"
@@ -1576,7 +1576,7 @@
   "citation": "εἰς σμικρὸν τὸν Ξενοκλέα. καὶ τὸ φαλάγγιον μικρὸν καὶ συνεστραμμένον",
   "traduction": "pour le petit Xénoclès : l'araignée elle aussi est petite et ramassée",
   "verifie": "scan",
-  "verification": "Dübner, p. 167, col. droite, l. 24–25 (rendu PDF idx 223, image lue)",
+  "verification": "Dübner, p. 167, col. droite, l. 24–25 (rendu PDF idx 223, image affichée et lue)",
   "signale_par": "Prato 2001, ad 169",
   "pertinence": 2,
   "remarque": "suit la citation de Phérécrate, Agrioi, sur les Carcinites"
@@ -1954,7 +1954,7 @@
   "citation": "Θέογνις, τραγῳδοποιητὴς πάνυ ψυχρός, ἐκ τῶν λ΄, ὃς καὶ Χιὼν ἐλέγετο",
   "traduction": "Théognis, auteur de tragédies très froid, l'un des Trente, qu'on appelait aussi Neige",
   "verifie": "scan",
-  "verification": "Adler II, p. 692, 20–21 (PDF local, feuillet 705, image effectivement lue ; Adler : — ἐλέγετο sch. Ar. Ach. 11)",
+  "verification": "Adler II, p. 692, 20–21 (PDF local, feuillet 705, image affichée et lue ; Adler : — ἐλέγετο sch. Ar. Ach. 11)",
   "signale_par": "Fritzsche 1838, p. 58",
   "pertinence": 3,
   "remarque": ""
@@ -1968,7 +1968,7 @@
   "citation": "ἡνίκα Θέογνις ἠγωνίζετο, κατένιψε τὴν Θρᾴκην χιόνι πολλῇ καὶ τοὺς ποταμοὺς ἔπηξεν ὑπ᾽ αὐτὸν τὸν χρόνον. οὗτος τραγῳδίας ποιητὴς ψυχρός. κωμῳδῶν οὖν αὐτὸν παρίστησι τὴν πολλὴν χιόνα τῆς τούτου περὶ τὰ ποιήματα ψυχρότητος",
   "traduction": "quand Théognis concourait, il neigea sur la Thrace en abondance et les fleuves gelèrent à ce moment même. C'était un poète tragique froid. Pour le railler, il présente la neige abondante comme celle de sa froideur en matière de poèmes",
   "verifie": "scan",
-  "verification": "Adler IV, p. 854, 17–22 (PDF local, feuillet 869, image effectivement lue)",
+  "verification": "Adler IV, p. 854, 17–22 (PDF local, feuillet 869, image affichée et lue)",
   "signale_par": "Dübner, app. à Σ Ach. 11",
   "pertinence": 3,
   "remarque": ""
@@ -2052,7 +2052,7 @@
   "citation": "Ψυχρολογία: ψευδολογία, ἀκαιρολογία. καὶ Ψυχρολόγος ἄνθρωπος, ὁ μηδὲν ἀγαθὸν λέγων",
   "traduction": "froideur de parole : fausseté, mal à-propos ; et homme à parole froide, celui qui ne dit rien de bon",
   "verifie": "scan",
-  "verification": "Adler IV, p. 854, 11–12 (PDF local, feuillet 869, image effectivement lue)",
+  "verification": "Adler IV, p. 854, 11–12 (PDF local, feuillet 869, image affichée et lue)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": ""
@@ -2066,7 +2066,7 @@
   "citation": "Ψυχρός: ἀσθενής. ἦν δὲ ὁ Μόρσιμος Φιλοκλέους τοῦ ποιητοῦ υἱός, τραγῳδίας ποιητὴς ψυχρός. ἦν δὲ καὶ ἰατρός",
   "traduction": "froid : faible. Morsimos, fils du poète Philoclès, était un poète tragique froid. Il était aussi médecin",
   "verifie": "scan",
-  "verification": "Adler IV, p. 854, 13–14 (PDF local, feuillet 869, image effectivement lue)",
+  "verification": "Adler IV, p. 854, 13–14 (PDF local, feuillet 869, image affichée et lue)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
   "remarque": "le fils de Philoclès (v. 168) qualifié comme Théognis (v. 170) ; cf. Sud. μ 1261"
@@ -2122,7 +2122,7 @@
   "citation": "Ἰαλέμου ψυχρότερος: Ἰάλεμον τὸν θρῆνόν φασι. λέγουσι δὲ αὐτὸν υἱὸν Καλλιόπης γενέσθαι κακοδαίμονα καὶ ὑστερούμενον καὶ ὀρφανόν",
   "traduction": "plus froid qu'Ialémos : Ialémos, c'est le thrène. On dit qu'il fut un fils de Calliope malheureux, sans ressources et orphelin",
   "verifie": "scan",
-  "verification": "CPG II, p. 460, l. 3–5 (image n495 lue)",
+  "verification": "CPG II, p. 460, l. 3–5 (image n495 affichée et lue)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "cf. Greg. Cypr. (CPG II, p. 118, OCR)"
@@ -2444,7 +2444,7 @@
   "citation": "Βαΰζων. ὑλακτῶν. Ἀριστοφάνης· βαΰζων γὰρ καὶ ἐγὼ τοιοῦτος ἦν",
   "traduction": "βαΰζων : aboyant. Aristophane : « aboyant, et moi aussi, tel j'étais »",
   "verifie": "scan",
-  "verification": "Tittmann, col. 379 (image n324 effectivement lue)",
+  "verification": "Tittmann, col. 379, avec n. 97–98 (image n324 affichée et lue ; n. 98 : « Thesmophor. v. 180 »)",
   "signale_par": "recherche/testimonia.md (v. 173)",
   "pertinence": 3,
   "remarque": "variante d'ordre : γὰρ καί (texte καὶ γάρ)"
@@ -2668,7 +2668,7 @@
   "citation": "τοιοῦτος ἦ· κακὸς ἤμην",
   "traduction": "« tel j'étais » : j'étais mauvais",
   "verifie": "scan",
-  "verification": "Dübner, p. 266, l. 9 (rendu PDF idx 344, image lue) ; Rutherford II, p. 458 (image n468 lue ; R : κακος ἤμην, int.)",
+  "verification": "Dübner, p. 266, l. 9 (rendu PDF idx 344) et Rutherford II, p. 458 (image n468 ; R : κακοσ ἤμην, int.) : images affichées et lues",
   "signale_par": "Blaydes 1880, p. 152",
   "pertinence": 3,
   "remarque": "glose interprétative : le scholiaste entend la vie honteuse (Blaydes). Le lemme τοιοῦτος ἦ est de Rutherford, Dübner n'a que κακὸς ἤμην"
@@ -2738,10 +2738,10 @@
   "citation": "ἦν· ἤμην. … ἦν· ἀντὶ τοῦ ἤμην· τὸ δὲ παλαιὸν ἔλεγον ἦ κατὰ συναλιφήν, οἷον ἦα καὶ ἔα",
   "traduction": "ἦν : j'étais… ἦν : pour ἤμην ; anciennement on disait ἦ par contraction, comme ἦα et ἔα",
   "verifie": "scan",
-  "verification": "Naber I, p. 262 (image n272 et agrandissement de la ligne effectivement lus)",
+  "verification": "Naber I, p. 262, avec n. 10 et 13 (image n272 affichée et lue)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
-  "remarque": "le numéro de Theodoridis (t. II non consulté) reste à fixer"
+  "remarque": "Naber, n. 10, corrige la première glose en ἦ· ἤμην et renvoie à Σ Hom. Od. 8.186 ; la seconde mêle ἦν et ἦ. Numéro de Theodoridis non consulté (t. II)"
  },
  {
   "v": "173",
@@ -2752,7 +2752,7 @@
   "citation": "Ἦ: ἀντὶ τοῦ ἤμην. καὶ χωρὶς τοῦ ν. Ἀριστοφάνης Πλούτῳ· ἃ κρύπτειν ἦ παρεσκευασμένος",
   "traduction": "ἦ : pour ἤμην, avec ou sans ν. Aristophane, Ploutos : « ce que j'étais préparé à cacher »",
   "verifie": "scan",
-  "verification": "Adler II, p. 545, 8–9 (PDF local, feuillet 558, image effectivement lue)",
+  "verification": "Adler II, p. 545, 8–9 (PDF local, feuillet 558, image affichée et lue)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
   "remarque": "la même note grammaticale pour Ar. ; cf. η 4 (ὅτε παῖς ἦ, Ar. Av. ; Lys. ἦ δεκέτις)"
@@ -2906,7 +2906,7 @@
   "citation": "Ζηλῶ: μακαρίζω. Ἀριστοφάνης Θεσμοφοριαζούσαις· οὐ ζηλῶ σε τῆς παιδεύσεως. ζηλῶ σε τῆς εὐβουλίας, μᾶλλον δὲ τῆς εὐωχίας",
   "traduction": "je t'envie : je te tiens pour heureux. Aristophane, Thesmophories : « je ne t'envie pas ton éducation » ; « je t'envie ton bon conseil, ou plutôt ton bon festin »",
   "verifie": "scan",
-  "verification": "Adler II, p. 505, 16–17 pour le vers, 17–18 pour Ach. 1008 sq. (PDF local, feuillet 518, image effectivement lue)",
+  "verification": "Adler II, p. 505, 16–17 (PDF local, feuillet 518, image affichée et lue)",
   "signale_par": "recherche/testimonia.md (v. 175) ; Prato 2001, ad 175",
   "pertinence": 3,
   "remarque": "citation nommée : la pièce même"
@@ -3186,7 +3186,7 @@
   "citation": "Ζηλοτυποῦν· … ζηλοῦν γὰρ τὸ μακαρίζειν, ζηλοτυπεῖν δὲ τὸ εἰς ἀπέχθειαν ἐληλυθέναι",
   "traduction": "être jaloux… car ζηλοῦν, c'est estimer heureux ; ζηλοτυπεῖν, c'est en venir à la haine",
   "verifie": "scan",
-  "verification": "Adler II, p. 505, 8–9 (PDF local, feuillet 518, image effectivement lue)",
+  "verification": "Adler II, p. 505, 8–9 (PDF local, feuillet 518, image affichée et lue)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": ""
@@ -3197,13 +3197,13 @@
   "categorie": "testimonium",
   "ref": "Σ Ar. Thesm. 500",
   "urn": "ia:scholiagraecain00unkngoog#n345",
-  "citation": "ὅτι καὶ συστολαῖς βιαίοις χρῶνται καὶ ἐκτάσεσι. καὶ ἄνω « ἀλλ᾽ ὧνπερ οὕνεκ᾽ ἦλθον ἀλλ᾽ εἰπεῖν βούλομαι. »",
+  "citation": "ὅτι καὶ συστολαῖς βιαίοις χρῶνται καὶ ἐκτάσεσι. καὶ ἄνω « ἀλλ᾽ ὧνπερ οὕνεχ᾽ ἦλθον ἀλλ᾽ εἰπεῖν βούλομαι »",
   "traduction": "car ils usent de brèves et de longues forcées. Et plus haut : « mais ce pour quoi je suis venu, mais je veux le dire »",
   "verifie": "scan",
-  "verification": "Dübner, p. 267, col. droite, l. 45–47 (rendu PDF idx 345, image lue)",
+  "verification": "Dübner, p. 267, col. droite, l. 45–47 (rendu PDF idx 345, image affichée et lue) ; Blaydes 1880, p. 153 ; van Leeuwen 1904, p. 31, app.",
   "signale_par": "testimonia de l'auteur ; Fritzsche 1838, p. 59–60 ; Blaydes 1880, p. 153 ; van Leeuwen 1904, p. 31",
   "pertinence": 3,
-  "remarque": "citation du vers avec la variante ἀλλ᾽ εἰπεῖν βούλομαι (ἔα μ᾽ εἰπεῖν R) ; la note porte sur la métrique ; Dindorf y voit ἔα μ᾽ altéré, Fritzsche une interpolation"
+  "remarque": "le vers est cité avec ἀλλ᾽ εἰπεῖν βούλομαι au lieu de ἔα μ᾽ εἰπεῖν. Fritzsche en tirait une leçon ἀλλ᾽ ὧνπερ οὕνεκ᾽ ἦλθον εἰπεῖν βούλομαι ; Dindorf voit que la note porte sur l'impératif ἔα (van Leeuwen 1904, p. 31, app.)"
  },
  {
   "v": "176",
@@ -3452,10 +3452,10 @@
   "citation": "καὶ αὖθις· σοφοῦ πρὸς ἀνδρός, ὅστις ἐν βραχεῖ πολλοὺς καλῶς οἷός τε συντέμνειν λόγους",
   "traduction": "et encore : « c'est le propre d'un homme sage, celui qui sait en bref tailler de longs discours »",
   "verifie": "scan",
-  "verification": "Adler IV, p. 626, 24–25 (PDF local, feuillet 641, image effectivement lue) ; souda_adler.tsv ; recherche/testimonia.md, v. 177–178",
+  "verification": "Adler IV, p. 626, 24–25 (PDF local, feuillet 641, image affichée et lue ; Adler : σοφοῦ sq. Ar. Th. 177–8 ; renvoi à Σ 792) ; souda_adler.tsv ; recherche/testimonia.md, v. 177–178",
   "signale_par": "testimonia de l'auteur ; Fritzsche 1838, p. 60–61",
   "pertinence": 3,
-  "remarque": "la Souda cite d'après Aristophane, non d'après Euripide (Fritzsche)"
+  "remarque": "la Souda cite d'après Aristophane, non d'après Euripide (Enger 1844, p. 41 ; Adler)"
  },
  {
   "v": "177–180",
@@ -3872,7 +3872,7 @@
   "citation": "σοφοὺς μᾶλλον ἔλεγον καὶ σοφιστὰς τοὺς περὶ μουσικὴν καὶ ποιητικήν",
   "traduction": "sage : on appelait de préférence sages et sophistes ceux qui s'occupaient de musique et de poésie",
   "verifie": "scan",
-  "verification": "Dübner, p. 266, l. 10–11 (rendu PDF idx 344, image lue) ; Rutherford II, p. 458 (image n468 lue)",
+  "verification": "Dübner, p. 266, l. 10–11 (rendu PDF idx 344) et Rutherford II, p. 458 (image n468) : images affichées et lues ; même texte chez Blaydes 1880, p. 153, et Enger 1844, p. 41",
   "signale_par": "Fritzsche 1838, p. 62 ; Blaydes 1880, p. 153",
   "pertinence": 3,
   "remarque": "σοφός comme titre du poète et du musicien"
@@ -4096,7 +4096,7 @@
   "citation": "συντέμνειν λόγους· λέγειν",
   "traduction": "« tailler des discours » : parler",
   "verifie": "scan",
-  "verification": "Rutherford II, p. 458 (image n468 lue ; R : λέγειν, ext.) ; absent de Dübner, p. 266 (image lue)",
+  "verification": "Rutherford II, p. 458 (image n468 affichée et lue ; R : λέγειν, ext.) ; absent de Dübner, p. 266 (image affichée et lue)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
   "remarque": "Rutherford : λέγειν, « seeing that ἐν βραχεῖ precedes » (la glose réduit συντέμνειν à « parler »)"
@@ -4334,7 +4334,7 @@
   "citation": "μεγάλῃ καὶ θαυμαστῇ",
   "traduction": "grande et étonnante",
   "verifie": "scan",
-  "verification": "Dübner, p. 266, l. 12 (rendu PDF idx 344, image lue) ; Rutherford II, p. 458 (image n468 lue ; R : μεγάλη καὶ θαυμαστῆ, ext.)",
+  "verification": "Dübner, p. 266, l. 12 (rendu PDF idx 344) et Rutherford II, p. 458 (image n468) : images affichées et lues ; Enger 1844, p. 41 ; Blaydes 1880, p. 153",
   "signale_par": "commentaire critique de l'auteur ; Fritzsche 1838, p. 61 ; Enger 1844, p. 41",
   "pertinence": 3,
   "remarque": "la scholie suppose καινῇ (Biset) ; le lemme καινῇ est de Rutherford, R n'ayant que la glose, sans doute double selon lui (« two adscripts »)"
@@ -4950,7 +4950,7 @@
   "citation": "Θεσμοφόρια: ὄνομα ἑορτῆς. ὥσπερ ἐν θεσμοφορίοισι νηστεύομεν ἂν θυηλῶν. Ἀριστοφάνης",
   "traduction": "Thesmophories : nom d'une fête. « comme si, aux Thesmophories, nous jeûnions sans offrandes », Aristophane",
   "verifie": "scan",
-  "verification": "Adler II, p. 710, 14–15 (PDF local, feuillet 723, image effectivement lue)",
+  "verification": "Adler II, p. 710, 13–14 (PDF local, feuillet 723, image affichée et lue)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "Ar. Av. 1519–20, cité de mémoire (Adler : ὥσπερ sq. Ar. Av. 1519–20)"
@@ -5188,7 +5188,7 @@
   "citation": "Θεσμοφόρος. ὅτι Βάττος ὁ Κυρήνην κτίσας τῆς Θεσμοφόρου τὰ μυστήρια ἐγλίχετο μαθεῖν καὶ προσῆγε βίαν λίχνοις ὀφθαλμοῖς χαριζόμενος",
   "traduction": "Thesmophore : Battos, fondateur de Cyrène, brûlait de connaître les mystères de la Thesmophore, et il usait de violence, pour complaire à ses yeux gourmands",
   "verifie": "scan",
-  "verification": "Adler II, p. 710, 18–20, et apparat (« 272 ὅτι sq. Aelian. fr. 44 ») (PDF local, feuillet 723, image effectivement lue)",
+  "verification": "Adler II, p. 710, 18–20, et apparat (« 272 ὅτι sq. Aelian. fr. 44 ») (PDF local, feuillet 723, image affichée et lue)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
   "remarque": "fragment d'Élien (fr. 44, Adler) : histoire de l'intrus aux mystères de la Thesmophore, qui veut voir et apprendre (μαθεῖν), comme Mnésiloque plus loin"

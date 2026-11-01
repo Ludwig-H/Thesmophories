@@ -33,7 +33,7 @@ GFS Porson (grec établi), Cardo (transcription du manuscrit).
 | [`recherche/`](recherche/) | recension : éditions et sources des conjectures, numérotation des vers, dossier sur le manuscrit, *Monacensis* gr. 492, scholies, papyri, testimonia, métrique, études, corpus numériques |
 | [`outils/`](outils/) | scripts : images (recadrage, segmentation, versions améliorées), corpus grec local et moteur de recherche, extraction des travaux antérieurs, transcription |
 | [`latex/`](latex/) | travaux de l'auteur, version de 2023 (texte, apparat, traduction, commentaire, introduction, annexes, index, figures), source de la présente édition |
-| [`ravennas_1904_bnf/`](ravennas_1904_bnf/) | planches du fac-similé phototypique de 1904 (ff. 162v–163r), PDF complets du manuscrit, manifeste IIIF de la Classense |
+| [`ravennas_1904_bnf/`](ravennas_1904_bnf/) | planches du fac-similé phototypique de 1904 (ff. 162v–163r), manifeste IIIF de la Classense |
 | [`dossier_ravennas_thesmophories/`](dossier_ravennas_thesmophories/) | images haute définition des 30 pages (`folios_individuels_ff162v-177r/`) |
 
 Les documents sous droits utilisés pour le travail (éditions et commentaires modernes,

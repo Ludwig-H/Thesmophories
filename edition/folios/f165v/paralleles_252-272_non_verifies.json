@@ -4,5 +4,17 @@
   "lemme": "τὸν κροκωτόν",
   "ref": "D. L. 7.169",
   "motif": "Blaydes 1880, p. 158 renvoie à ce lieu pour la crocote portée par des hommes : 7.5.169 (Cléanthe) ne parle que d’un manteau soulevé par le vent (ἀχίτωνα) ; rien sur la crocote. Référence erronée, écartée"
+ },
+ {
+  "v": "258",
+  "lemme": "περίθετον κόμην (Ath. 415a)",
+  "ref": "Ath. 10.415a",
+  "motif": "Blaydes 1880, p. 158 et Ath. 10.7 : κόμη περίθετος de la trompettiste Aglaïs ; texte vu partiellement dans la sortie de chercher.py (… τὸ πομπικόν, πε…), non contrôlé en entier : à relire avant citation ; Ael. VH 1.26 donne le même fait"
+ },
+ {
+  "v": "258",
+  "lemme": "περιθετή (Ménandre, Amphis)",
+  "ref": "Men. Olynth. ; Amphis, Alcm.",
+  "motif": "cités par Poll. 10.170 ; la référence K.-A. n’a pas été contrôlée (PCG non accessible ici)"
  }
 ]

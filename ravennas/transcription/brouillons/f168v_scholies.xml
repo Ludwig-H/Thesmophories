@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 168v (vv. 509–550) ; transcription diplomatique, lecture en cours. -->
+<page folio="f168v" image="13_f168v_classense170v_vv0509-0550.jpg" vers="509-550">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="1" place="mg-sup" main="R2"><unclear cert="moyenne">δεον</unclear> <unclear cert="faible">ειπειν το βρεφοσ το ητρον</unclear> <unclear cert="moyenne">τησ μη</unclear>τρασ ελακτισεν ε<unclear cert="moyenne">ἶ</unclear>πεν τῆσ χύτρασ ἐπειδὴ ἐν χύτρα ἐισῆλθεν τὸ παιδίον ÷</sch>
+    <sch n="2" ancre="1" place="mg-d" main="R2">τὸ κάλυμμα <abbr signe="ς" dev="ῆς">τ</abbr><lb/>μητρασ ὃ καλοῦ<lb coupe="oui"/>σιν ελυτρον</sch>
+  </scholies>
+  <notes>
+  </notes>
+</page>

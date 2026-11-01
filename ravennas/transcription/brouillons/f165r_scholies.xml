@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Scholies marginales de R, f. 165r (vv. 209–251) ; transcription diplomatique (lecteur des scholies, DiploXML v1). ÉTAT PROVISOIRE : première lecture sur l'image, avant confrontation aux éditions. -->
+<!-- Scholies marginales de R, f. 165r (vv. 209–251) ; transcription diplomatique (lecteur des scholies, 1er nov. 2026, DiploXML v1).
+     ÉTAT : lecture sur l'image faite ; confrontation en cours ; notes détaillées à venir.
+     Ancre = ligne du bloc de texte (1–43) en face de laquelle la note commence (droites de ravennas/segmentation/f165r.json, prises à l'abscisse de la note).
+     Ordre : par ancre, et pour une même ancre gauche avant droite. Recto : mg-g = marge intérieure, mg-d = marge extérieure. -->
 <page folio="f165r" image="06_f165r_classense167r_vv0208-0251.jpg" vers="209-251">
   <lignes/>
   <scholies>
-    <sch n="1" ancre="7" place="mg-d" main="R2">τὰ γένεια ταῦ<hi rend="sus">τ</hi> <abbr signe="ʒ" dev="δέ"/> ἔλαβ<gap n="3" unite="lettres" raison="illisible"/> <unclear cert="faible">ἐκ</unclear> τῶ<unclear cert="moyenne">ν</unclear><lb/>ϊδαιῶν <abbr signe="ȣ" dev="ου">κρατιν</abbr> ÷</sch>
-    <sch n="2" ancre="12" place="mg-d" main="R2">παρὰ τὸ δουροδόκησ ὡσ πομὰ<gap n="10" unite="lettres" raison="tache"/></sch>
-    <sch n="3" ancre="13" place="mg-d" main="R2">ἵνα ἀπὸ τεταμένησ αὐτῆσ καλ<gap n="10" unite="lettres" raison="tache"/></sch>
-    <sch n="4" ancre="16" place="mg-d" main="R2">ἀντὶ <abbr signe="˘" dev="οῦ">τ</abbr> εἰσ τῶν ἐρινύων ἄσυλ<gap n="8" unite="lettres" raison="tache"/><lb/>οἱ καταλαμβάνοντεσ τὰ ἱ<gap n="8" unite="lettres" raison="tache"/></sch>
-    <sch n="5" ancre="19" place="mg-d" main="R2">τὴν μίαν κ<unclear cert="faible">όμ</unclear> ἢ γνάθον τη<gap n="3" unite="lettres" raison="illisible"/><lb/>ἐψιλωμέν ÷</sch>
-    <sch n="6" ancre="22" place="mg-d" main="R2">ὅτι τὸ μύζειν παρ<gap n="8" unite="lettres" raison="tache"/><lb/>τοῦ μῦ πο<add place="dessus" main="R2">λ</add>λοῖσ ἄλλοισ ὁμ<gap n="8" unite="lettres" raison="tache"/><lb/>ζειν <abbr signe="ʒ" dev="δέ"/> <abbr signe="·/·" dev="ἐστί"/> τὸ τοῖσ μυκτῆρσι<gap n="8" unite="lettres" raison="tache"/><lb/>ἦχον ἀποτελεῖν ÷</sch>
-    <sch n="7" ancre="25" place="mg-d" main="R2">ψιλ<gap n="10" unite="lettres" raison="tache"/><lb/>ἔστιν ἀγεννεστάτη ἡ τῆσ βο<gap n="8" unite="lettres" raison="illisible"/><lb/>πρόσθεν <abbr signe="˘" dev="οῦ">τ</abbr> στρατοπέδου γυ<gap n="8" unite="lettres" raison="illisible"/><lb/>δο πλ ϗ ἐὰν ταραχὴ γένη<gap n="8" unite="lettres" raison="illisible"/><lb/>πρώτη ἀναιρεῖται τοῦτο <abbr signe="ʒ" dev="δέ"/><gap n="8" unite="lettres" raison="tache"/><lb/>ἐπεὶ ἐψίλωται ÷</sch>
-    <sch n="8" ancre="27" place="mg-g" main="R2">διαβάλλει<lb/>τ τ ὡσ ξυ<lb coupe="oui"/>ρούμενον</sch>
-    <sch n="9" ancre="30" place="mg-d" main="R2">μετὰ τὸ τυθῆναι τὰ δελφάκια<gap n="8" unite="lettres" raison="illisible"/><lb/>ζοντ ʒ ἵνα ψιλωθῶσιν ÷</sch>
-    <sch n="10" ancre="34" place="mg-d" main="R2">ὡσ εἰ ἔλεγεν οἰκίαν</sch>
-    <sch n="11" ancre="37" place="mg-d" main="R2">ἄσβολοσ καλεῖτ ʒ ἡ αἰθάλη τ πυρόσ</sch>
+    <sch n="1" ancre="7" place="mg-d" main="R2">τὰ γένεια <abbr dev="α">ταυ<hi rend="sus">τ</hi></abbr> <abbr signe="ʒ" dev="δὲ"/> ἔλαβ<gap n="3" unite="lettres" raison="illisible"/><unclear cert="faible">ε</unclear><unclear cert="moyenne">κ</unclear> τ<unclear cert="moyenne">ω</unclear>ν<lb/>ϊδαιῶν <abbr signe="ȣ" dev="ου">κρατίν</abbr> ÷</sch>
+    <sch n="2" ancre="12" place="mg-d" main="R2">παρα τὸ δουροδόκησ ὡσ πο<unclear cert="moyenne">λλ</unclear>ὰ α<unclear cert="moyenne">υ</unclear><gap n="5" unite="lettres" raison="tache"/></sch>
+    <sch n="3" ancre="13" place="mg-d" main="R2">ϊνα απὸ τεταμένησ αὐτῆσ καλ<gap n="3" unite="lettres" raison="illisible"/><unclear cert="faible">ησηι</unclear> ÷</sch>
+    <sch n="4" ancre="16" place="mg-d" main="R2">αντι <abbr signe="˘" dev="οῦ">τ</abbr> εἰσ τῶν ερινύων ασυλ<gap n="4" unite="lettres" raison="illisible"/><unclear cert="faible">ε</unclear><unclear cert="faible">ι</unclear><unclear cert="moyenne">χ</unclear>ον<lb/>οἱ καταλαμβάνοντεσ τὰ ι<unclear cert="faible">ε</unclear><gap n="1" unite="lettres" raison="illisible"/><unclear cert="moyenne">α</unclear> <unclear cert="faible">των</unclear> ϊε<lb coupe="oui"/>ρείων</sch>
+    <sch n="5" ancre="19" place="mg-d" main="R2"><signe type="renvoi" main="R2">—</signe>τὴν μίαν κομῶν γνάθον τὴ<unclear cert="moyenne">ν</unclear> <gap n="2" unite="lettres" raison="illisible"/><unclear cert="faible">ε</unclear><unclear cert="faible">ρα</unclear>ν<lb/><abbr signe="°" dev="ος">εψιλωμέν</abbr> ÷</sch>
+    <sch n="6" ancre="23" place="mg-d" main="R2">ὅτι τὸ μύζειν παρ<gap n="6" unite="lettres" raison="tache"/><lb/><signe type="renvoi" main="R2">—</signe>τοῦ μῦ πο<add place="dessus" main="R2">λ</add>λοῖσ ἄλλοισ ὁμ<gap n="6" unite="lettres" raison="tache"/><lb coupe="oui"/>ζειν <abbr signe="ʒ" dev="δὲ"/> <abbr signe="·/·" dev="ἐστι"/> το τοῖσ μυκτηρσι<gap n="6" unite="lettres" raison="tache"/><lb/>ηχον αποτελεῖν ÷</sch>
+    <sch n="7" ancre="25" place="mg-d" main="R2">ψιλ<gap n="7" unite="lettres" raison="tache"/><lb/>εστὶν ἀγεννεστάτη ἥτισ βα<gap n="8" unite="lettres" raison="tache"/><lb/>προσθεν <abbr signe="˘" dev="οῦ">τ</abbr> στρατοπέδου γυ<unclear cert="faible">μνη</unclear> <unclear cert="moyenne">ου</unclear>σ<lb coupe="oui"/>α <abbr signe="⌒" dev="ων">ὅπλ</abbr> <abbr signe="ϗ" dev="καὶ"/> εαν ταραχῆ γένη<gap n="8" unite="lettres" raison="tache"/><lb/>πρώτη ἀναιρεῖται τοῦτο <abbr signe="ʒ" dev="δὲ"/><gap n="6" unite="lettres" raison="tache"/><lb/>ἐπεὶ ἐψίλωται ÷</sch>
+    <sch n="8" ancre="27" place="mg-g" main="R2">διαβάλλει<lb/><abbr signe="˘" dev="ου">τ</abbr><abbr signe="\" dev="ον">τ</abbr> ὡσ ξυ<lb coupe="oui"/>ρούμενον</sch>
+    <sch n="9" ancre="29" place="mg-d" main="R2">μετὰ <abbr signe="λ" dev="ὰρ">γ</abbr> το τυθῆναι τὰ δελφάκια <unclear cert="moyenne">φλ</unclear>ογι<lb coupe="oui"/><abbr signe="ʒ" dev="αι">ζοντ</abbr> ἵνα ψιλωθῶσιν ÷</sch>
+    <sch n="10" ancre="34" place="mg-d" main="R2">ὡσεὶ έλεγεν οἰκίαν</sch>
+    <sch n="11" ancre="37" place="mg-d" main="R2">ἄσβολοσ <abbr signe="ʒ" dev="αι">καλεῖτ</abbr> ἡ αιθάλη <abbr signe="˘" dev="οῦ">τ</abbr> πυρόσ</sch>
     <sch n="12" ancre="38" place="mg-d" main="R2">τράμισ ὁ πρωκτόσ ÷</sch>
   </scholies>
   <notes>
-    <note>Brouillon : lecture en cours.</note>
+    <note>Brouillon : notes détaillées en cours de rédaction (état intermédiaire dans .travail/scholies/f165r/notes.txt).</note>
   </notes>
 </page>
