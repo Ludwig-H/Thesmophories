@@ -14,14 +14,38 @@ Chaque rangée \\vers est retrouvée dans le TSV par son grec, dans l'ordre. Rè
 Usage : python3 outils/controle/numeroter_usuel.py [--appliquer]
 Sans --appliquer : rapport seul (rien n'est écrit dans les folios).
 """
-import csv, difflib, json, os, re, sys
+import csv, difflib, json, os, re, sys, unicodedata
 
 RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.insert(0, os.path.join(RACINE, 'outils', 'controle'))
-from renumeroter import norm, arguments
 
 TSV = os.path.join(RACINE, 'edition', 'donnees', 'travaux_anterieurs', 'texte_grec.tsv')
 TABLE = os.path.join(RACINE, 'edition', 'donnees', 'numerotation_texte.tsv')
+
+
+def norm(t):
+    """Lettres grecques de base, sans diacritiques ni ponctuation ni commandes LaTeX."""
+    t = re.sub(r'\\[a-zA-Z@]+\*?(\[[^\]]*\])?', ' ', t)
+    t = unicodedata.normalize('NFD', t.lower())
+    t = ''.join(c for c in t if 'α' <= c <= 'ω' or c == 'ς')
+    return t.replace('ς', 'σ')
+
+
+def arguments(l, debut):
+    """Les arguments {…} successifs à partir de la position debut."""
+    args, i = [], debut
+    while i < len(l) and l[i] == '{':
+        d, j = 0, i
+        while j < len(l):
+            if l[j] == '{':
+                d += 1
+            elif l[j] == '}':
+                d -= 1
+                if d == 0:
+                    break
+            j += 1
+        args.append(l[i + 1:j])
+        i = j + 1
+    return args
 
 
 def etiquette(r):

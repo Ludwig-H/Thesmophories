@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 173v (vv. 920–958) : LECTURE EN COURS (brouillon de premier passage, diacritiques à revoir). -->
+<page folio="f173v" image="23_f173v_classense175v_vv0920-0958.jpg" vers="920-958">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="2" place="mg-d" main="R2">οὐ κυρίωσ ἀλλ οι<lb/>κενοβουλοσ ÷</sch>
+    <sch n="2" ancre="3" place="mg-g" main="R2">— ἐπανουργεῖτε ὡσ δὴ τῶν αἰγυπτίων<lb/>πανούργων ὄντων ÷</sch>
+    <sch n="3" ancre="7" place="mg-d" main="R2">ἕωσ ζῶ</sch>
+    <sch n="4" ancre="9" place="mg-g" main="R2">παροιμία ἐπὶ τῶν <abbr signe="⌒" dev="ων">ἐπιχειρούντ</abbr> τι<lb/>ποιεῖν <abbr signe="ϗ" dev="καὶ"/> ἀποτυγχανόντων ÷</sch>
+    <sch n="5" ancre="9" place="mg-d" main="R2">ἡ σπάρτ(οσ) ἀν(τὶ) τ(οῦ)<lb/>ἡ μηχανή ÷</sch>
+    <sch n="6" ancre="16" place="mg-g" main="R2">— ἐπεὶ ἄνω αἰγυπτιάζειν αὐτοὺσ ἔφη<lb/>οἱ <abbr signe="ʒ" dev="δὲ"/> αἰγύπτιοι λινοποιοὶ <abbr signe="·//·" dev="εἰσί"/> ÷</sch>
+    <sch n="7" ancre="18" place="col" main="R2">ὁ πανοῦργοσ ἀπὸ μεταφορᾶσ τῶν τὰ ἄρμενα<lb/>ῥαπτόντων ÷</sch>
+    <sch n="8" ancre="22" place="mg-g" main="R2">— πρὸσ σανίσιν ἐδεσμεύοντο πολ<lb coupe="oui"/>λάκισ ὡσ <abbr signe="ϗ" dev="καὶ"/> κρατῖνοσ δηλοῖ· ἐπί<lb coupe="oui"/>τρεψον οὖν τῶι τοξότηι <abbr dev="σὶ">φ<hi rend="sus">η</hi></abbr> γυμνόν<lb/>με δῆσαι πρὸσ τῆι σανίδι ÷</sch>
+    <sch n="9" ancre="25" place="mg-g" main="R2">αντι ἑστίασιν παρέχων ἀττικὴ <abbr signe="ʒ" dev="δὲ"/> ἡ <abbr dev="αξισ">σύν<hi rend="sus">τ</hi></abbr><lb/>ὅτι τὸ ἑστιῶν <abbr signe="ϗ" dev="καὶ"/> δοτικῆ συντάσσουσιν<lb/>κεῖτ(αι) παρ εὐπόλι(δι) ·/· ἐν αὐτολύκωι θα<lb coupe="oui"/>τέρωσ ὥστε οὐ <abbr signe="ʒ" dev="δὲ"/> ἐκεῖ οὐδὲ ἐνθάδε δεῖ<lb/>ξενίζεσθ(αι) ÷</sch>
+  </scholies>
+  <notes>
+    <note>Brouillon en cours de lecture.</note>
+  </notes>
+</page>

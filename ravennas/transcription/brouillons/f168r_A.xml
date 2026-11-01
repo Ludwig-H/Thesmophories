@@ -2,7 +2,7 @@
 <!-- Lecture A (lecture directe) de R, f. 168r ; en cours -->
 <page folio="168r" image="12_f168r_classense170r_vv0466-0508.jpg" vers="466-508">
   <lignes>
-    <l n="1" v="466"><nota main="Rrec">κηδ</nota>:<nota main="Rrec">ευ</nota>·τὸ μὲν ὦ γυναῖκεσ ὀξυθυμεῖσθαι σφόδρα</l>
+    <l n="1" v="466"><nota main="Rrec">κηδ:</nota><nota main="Rrec">ευ·</nota>τὸ μὲν ὦ γυναῖκεσ ὀξυθυμεῖσθαι σφόδρα</l>
     <l n="2" v="467">εὐρ ιπί δηι τοι αῦτ ἀκουούσασ κακὰ</l>
     <l n="3" v="468">οὐθαυμάσιον ἔστ᾽ οὐδ ἐπιζ<ras main="R?">εῖ</ras>ντὴνχολήν·</l>
     <l n="4" v="469">κἀὐτὴ γὰρ ἐγωγ᾽οὕτωσ ὀνοί μηντῶντέκνων</l>
@@ -13,7 +13,7 @@
     <l n="9" v="474">βαρέωστεφερομεν· ἢ δύ᾽ ἡ μῶν ἢ τρία</l>
     <l n="10" v="475">κακὰξυνει δὼσ· εἶπεδρώσασμυρί α·</l>
     <l n="11" v="476">ἐγὼ γὰρ αὐτ<unclear cert="moyenne">ὴ</unclear>· πρῶτον ἵναμὴ ἄλληνλέγω·</l>
-    <l n="12" v="477">ξ ύνοι δἐμαυτῆι πόλλ᾽· ἐκεῖνο δ᾽οὖν</l>
+    <l n="12" v="477">ξ <subst main="R?"><del type="surcharge">υ</del><add place="ligne">ύ</add></subst>νο<subst main="R?"><del type="grattage"><unclear cert="moyenne">ῖ</unclear></del><add place="ligne">ι</add></subst> δἐμαυτῆι πόλλ᾽· ἐκεῖνο δ᾽οὖν</l>
     <l n="13" v="478">δει νό τατον ὅ τενύμφη μεν ἦντρεῖσ ἡμέρασ·</l>
     <l n="14" v="479">ὁ δἀνὴρ παρ᾽ ἐμοὶ καθεύδει ν ἦν δ<unclear cert="faible">έ</unclear>μοι φίλοσ</l>
     <l n="15" v="480">ὅ σπερ μεδι εκόρευσεν ἑπτέτιν οὖσαν</l>
@@ -34,7 +34,7 @@
     <l n="30" v="495"><unclear cert="moyenne">ἵ</unclear><del type="grattage" main="R?"><gap n="1" unite="lettres" raison="grattage"/></del>ν ὀσφραινόμενοσ ἀνὴρ ἀπὸ τοῦ τέίχουσ εἰσι<subst main="R1c"><del type="biffure">ώ</del><add place="ligne">ὼ</add></subst>ν</l>
     <l n="31" v="496">μὴ δὲν κακὸν δρᾶν ὑποτοπῆται· ταῦθ<unclear cert="faible">᾽</unclear>ὁρᾶισ</l>
     <l n="32" v="497">οὐπώποτεἶπεν· εἰ δεφαίδρανλοιδορεῖ</l>
-    <l n="33" v="498"><parag/>ἡ μῖν τί τοῦτ᾽ ἔστοὐ δὲ τοῦτ<unclear cert="faible">ο</unclear>ν εἴρηκέ πω·</l>
+    <l n="33" v="498"><parag/>ἡ μῖν τί τοῦτ᾽ <unclear cert="moyenne">ἔ</unclear>στ᾽οὐδ<unclear cert="moyenne">ἐ</unclear>κεῖν᾽ εἴρηκέ πω·</l>
     <l n="34" v="499">ὡ σ ἡ γυνὴ δει κνυσα τἀνδρὶ τοὔγκυκλον</l>
     <l n="35" v="500">ὑπ᾽ αὐγὰσ οἷόν <unclear cert="moyenne">ἐ</unclear>στιν ἐγκεκαλυμμένον</l>
     <l n="36" v="501">τὸν μυχὸν· ἐξ έπεμψεν· οὐκεἴρηκε πω·</l>
@@ -48,5 +48,25 @@
   </lignes>
   <scholies/>
   <notes>
+    <note ligne="1">Sigle de la main de 1516, encre orangée (κηδ et ευ : ΔB/R +0,75, n = 179) ; ε de ευ lunaire, κ en x. Les deux points superposés entre κηδ et ευ (x ≈ 165–172, ΔB/R +0,57, n = 36) mesurent eux aussi orangé : je les range dans le sigle, comme le point après ευ (x ≈ 216, trop petit pour une mesure), contre l'inventaire (« encre ancienne »). Aucune paragraphos visible. « Note grattée » sec. Velsen 1883 : aucun tracé ne se lit sous le sigle (zone nuageuse ; traînée grise très fine au-dessus de ευ, x ≈ 170–195) ; non encodée.</note>
+    <note ligne="2">Une seule marque (x ≈ 647) entre τ et α : apostrophe de αῦτ ou esprit de ἀκου- ; écrite comme esprit. Le trait en zigzag au-dessus (x ≈ 655–670) est la queue du ξ de la l. 1. Blancs de 19 et 23 px gardés dans εὐρ ιπί δηι, de 16 px dans τοι αῦτ. κακὰ : grave net, référence κακά.</note>
+    <note ligne="3">ἔστ᾽ : esprit (x ≈ 540) et aigu (x ≈ 553) visibles ; référence ἐστʼ. εῖ récrit sur grattage (x ≈ 752–780) : encre de T d'après le guide ; leçon première invisible (ἐπιζῆν sec. Velsen 1883, non contrôlable).</note>
+    <note ligne="4">R a ὀνοί μην : ο fermé sans queue, ι libre, aigu sur ι (x ≈ 770) ; référence ὀναίμην. κἀὐτὴ : deux marques, un coin sur α (x ≈ 311) et un point rond sur υ (x ≈ 345), esprits probables ; grave sur η (x ≈ 386). ἐγωγ᾽ : esprit seul, rejeté à gauche (x ≈ 468), aucun accent sur ε ; référence ἔγωγʼ. Apostrophe en petit arc (x ≈ 553).</note>
+    <note ligne="6">ἀλλήλαι σιν : R a le ν, soudé à χ ; référence ἀλλήλαισι (ν absent). Blanc de 17 px gardé devant σιν. Pas de ponctuation visible en fin de ligne ; référence « · ».</note>
+    <note ligne="7">εσμὲν : pas d'esprit, grave déporté sur ν (x ≈ 565) ; référence ἐσμεν. κὀὐδεμί : deux esprits, sur ο et sur υ ; aigu sur ι (x ≈ 730) ; pas d'apostrophe distincte : les deux coins suivants (x ≈ 743, 762) sont l'esprit et l'accent de ἔκφοροσ.</note>
+    <note ligne="8">ταῦτἐχουσαι : une seule marque (x ≈ 375) entre ταῦτ et ε, apostrophe ou esprit, écrite comme esprit ; aucun aigu sur ε ; référence ἔχουσαι. κεῖνον sans signe d'aphérèse. Point en fin de vers.</note>
+    <note ligne="9">R a ἢ, non εἰ (référence) : Η oncial à barre, sans ligature, esprit et grave au-dessus (x ≈ 680, 692). φερομεν sans accent visible ; point net après -μεν (x ≈ 650).</note>
+    <note ligne="10">Point net après δὼσ (x ≈ 590). δρώσασ : accent en clé, aigu fin à talon épais en bas à gauche (x ≈ 770–790, y ≈ 790–805 ; ΔB/R −0,09), forme étrangère aux aigus de T, comme à la l. 12 ; correction possible d'un circonflexe (inv. ; schol. m. sec. Velsen 1871), que l'image ne démontre pas : non encodée. Boucle très pâle juste après ω (x ≈ 772–785).</note>
+    <note ligne="12">Accent en deux temps : aigu épais à talon sur υ (x ≈ 296–312), traces grattées d'un circonflexe au-dessus de ο–ι (x ≈ 348–355, y ≈ 872–878, petites taches en arc) ; main indécise (ΔB/R −0,51 sur 36 px, sans valeur pour un petit signe). πόλλ᾽· : apostrophe (x ≈ 695) puis point à mi-hauteur (x ≈ 703), non un dicolon : deux objets inégaux, 22 px d'écart ; le coin x ≈ 710 est l'esprit de ἐκεῖνο. λλ croisés (« χχ »). Référence : πολλὰ ⟨δείνʼ·⟩ (supplément moderne).</note>
+    <note ligne="13">μεν sans accent visible (x ≈ 780–830), référence μὲν. νύμφη : aigu déporté (x ≈ 662).</note>
+    <note ligne="14">καθεύδει ν : ligature ει en « 4 », longue oblique qui traverse la ligne (x ≈ 745–762), puis ν séparé (x ≈ 775–796) ; aigu sur υ (x ≈ 714). Référence καθηῦδεν. δέμοι : le trait au-dessus de ε (x ≈ 906–912) peut être la tête de l'ε ou un aigu.</note>
+    <note ligne="15">Ordre de R : διεκόρευσεν ἑπτέτιν οὖσαν ; référence (corrigée) διεκόρησεν οὖσαν ἑπτέτιν. -ευσ- net. Aucune ponctuation finale visible.</note>
+    <note ligne="16">μὀὔ κνυεν : trois marques, coin sur ο (x ≈ 517), esprit et aigu sur υ (x ≈ 540, 552) ; blanc de 23 px gardé ; référence μου ʼκνυεν. Trait isolé en fin de ligne, sous θύραν· (x ≈ 1035–1060, y ≈ 1076–1090) : petit tiret entre les l. 16 et 17, encre non mesurable (18 px) ; fonction inconnue. οὗτοσ : la référence a οὖτος, coquille.</note>
+    <note ligne="17">εὐθὺσ : θ ouvert à hampe oblique (x ≈ 352–375), non φ ; le εὐφὺς de la référence est une coquille. κᾆτ᾽ : crochet de crase (x ≈ 293), apostrophe (x ≈ 317). Point net après ἔγνων (x ≈ 574).</note>
+    <note ligne="18">ὅποι : l'esprit et l'accent tombent sur la ride du parchemin (x ≈ 1027–1050, y ≈ 1131) : d'où l'unclear. Point après -νεισ (x ≈ 1007).</note>
+    <note ligne="19">ὤνερ : aigu visible (x ≈ 745) au bord de la ride, esprit peu distinct ; référence ὦνερ. Première panse du ω pointue, en forme d'α (corr. ex α sec. Velsen : indémontrable ici). Ride aux l. 18–19 : diacritiques de ὤνερ et de κὠδύνη peu sûrs.</note>
+    <note ligne="20">νῦν : circonflexe en crochet au-dessus de υν (x ≈ 1032–1045) ; βάδιζε sans accent d'enclise ; référence βάδιζέ νυν. Point isolé, loin du mot (x ≈ 1065).</note>
+    <note ligne="21">ἐτριβεν· : ν final écrit (ν plongeant, x ≈ 570–590), point après ; esprit seul (x ≈ 432), pas d'aigu ; référence ἔτριβε. ἄνηθον : un seul ν (un seul jambage plongeant, x ≈ 882) ; référence ἄννηθον. Points nets après κεδρίδασ (x ≈ 847) et ἄνηθον (x ≈ 1025).</note>
+    <note ligne="23">ἐρειδόμην : ε lunaire à langue liée au ρ, non η ; référence ἠρειδόμην. Une seule marque (x ≈ 762) sur ε. Trait gris neutre sous ει- (x ≈ 815–830, y ≈ 1375) : mine ou crayon, sans rapport avec le texte, non encodé (inv. : moderne).</note>
   </notes>
 </page>

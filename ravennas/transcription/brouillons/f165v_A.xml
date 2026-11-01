@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page folio="165v" image="07_f165v_classense167v_vv0252-0294.jpg" vers="252-293">
   <lignes>
+    <l n="1" v="252"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">ἀγ·</nota>λαμβάνετε καὶ χρῆσθ᾽ οὐ φθονῶ<nota main="Rrec">εὐ</nota> τί οὖν λάβω<unclear cert="faible">·</unclear><add place="ligne" main="Rrec">,</add></l>
+    <l n="2" v="253"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">ἀγ·</nota>ὅ τι; τὸν κροκωτὸ νπρῶτον ἐνδύου λαβών<unclear cert="moyenne">·</unclear></l>
+    <l n="3" v="254"><parag/><nota main="Rrec">εὐ</nota>νὴ τὴν ἀφροδίτην ἡδὺ γ᾽ ὄζει ποσθίου<add place="ligne" main="R?">,</add><unclear cert="faible">·</unclear></l>
+    <l n="4" v="255"><parag/><nota main="Rrec">ἀγ</nota>σ<subst main="R?"><del type="surcharge">ὺ</del><add place="ligne">ύ</add></subst>ζωσον ἀνύσας: αἴρε νῦν στρόφιον<unclear cert="moyenne">:</unclear><nota main="Rrec">εὐ</nota> ἰδού</l>
+    <l n="5" v="256"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν<hi rend="sus">ή</hi></nota>ἴθι νῦν κατάστειλό ν με τὰ περὶ τὼ σκέλη·</l>
+    <l n="6" v="257"><parag/><nota main="Rrec">εὐ</nota>κεκρυφάλου δεῖ καὶ μί τρας<nota main="Rrec">ἀγ·</nota> ἡ δὶ μὲν οὖν</l>
+    <l n="7" v="258">κεφαλ<unclear cert="moyenne">ὴ</unclear> περίθετος <unclear cert="moyenne">ἣ</unclear>ν ἐγὼ νύκτωρ φορῶ·</l>
+    <l n="8" v="259"><signe type="repere" main="Rrec">—</signe><parag/><nota main="Rrec">εὐ</nota>ν ὴ τὸν δί᾽ ἀλλὰ κἀπιτηδεί α πάνυ</l>
+    <l n="9" v="260"><nota main="Rrec">μν<hi rend="sus">η</hi>·</nota>ἠρ αρμόσηι μοι<unclear cert="moyenne">:</unclear><nota main="Rrec">ἀγ</nota> νὴ δί᾽ ἀλλ᾽ ἄρ ι στ ἔχει·</l>
   </lignes>
   <scholies>
   </scholies>
