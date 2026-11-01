@@ -50,12 +50,12 @@
 \definecolor{filet}{HTML}{9A9A9A}
 %% Code couleur des mains du Ravennas (à ajuster après l'étude graphologique)
 \definecolor{mainR1}{HTML}{161616}   % R1 : copiste du texte
-\definecolor{mainR1c}{HTML}{6B5235}  % R1c : corrections du copiste lui-même
-\definecolor{mainR2}{HTML}{A4161A}   % R2 : correcteur ancien
-\definecolor{mainR3}{HTML}{7A3E9D}   % R3 : autre main ancienne
-\definecolor{mainRsch}{HTML}{6B4E16} % main des scholies (si distincte de R1)
-\definecolor{mainRrec}{HTML}{1D4E89} % Rrec : main récente (humaniste)
-\definecolor{mainRmod}{HTML}{2D6A4F} % Rmod : main moderne (bibliothécaire…)
+\definecolor{mainR1c}{HTML}{4F5D2F}  % R1c : T qui se corrige (vert-de-gris)
+\definecolor{mainR2}{HTML}{B2182B}   % R2 : S2, scholiaste et correcteur ancien (carmin)
+\definecolor{mainR3}{HTML}{7A3E9D}   % R3 : correcteur ancien à l'encre brun-noir (violet)
+\definecolor{mainRsch}{HTML}{00727A} % Rsch : main de la marge intérieure du f. 162v (sarcelle)
+\definecolor{mainRrec}{HTML}{A85400} % Rrec : campagne de 1516 (orange brûlé)
+\definecolor{mainRmod}{HTML}{1D4E89} % Rmod : mains modernes (bleu)
 \definecolor{mainR?}{HTML}{707070}   % main non déterminée
 \definecolor{rubrique}{HTML}{B5462B} % encre rouge du manuscrit
 \definecolor{fondras}{HTML}{E9E4DA}  % fond des passages écrits sur grattage
@@ -870,9 +870,9 @@
             \hbox_to_wd:nn { \l_thesmo_dtxt_dim }
               {
                 \dim_compare:nNnTF { \box_wd:N \l_thesmo_meas_box } > { \l_thesmo_dtxt_dim }
-                  { %% ligne trop longue : resserrement horizontal, au plus de 18 %
+                  { %% ligne trop longue : resserrement horizontal, au plus de 28 %
                     \box_scale:Nnn \l_thesmo_meas_box
-                      { \fp_max:nn { 0.82 } { \dim_to_fp:n { \l_thesmo_dtxt_dim } / \dim_to_fp:n { \box_wd:N \l_thesmo_meas_box } } }
+                      { \fp_max:nn { 0.72 } { \dim_to_fp:n { \l_thesmo_dtxt_dim } / \dim_to_fp:n { \box_wd:N \l_thesmo_meas_box } } }
                       { 1 }
                     \box_use:N \l_thesmo_meas_box \hss }
                   { \box_use:N \l_thesmo_meas_box \hfil }
@@ -887,52 +887,152 @@
   { \seq_gput_right:Nn \g_thesmo_app_seq { {#1} {#2} } }
 \NewDocumentCommand \sch { O{} m +m }
   { \seq_gput_right:Nn \g_thesmo_sch_seq { {#2} {#1} {#3} } }
-\seq_new:N \l_thesmo_place_seq
+\seq_new:N \l_thesmo_appplace_seq
+\seq_new:N \l_thesmo_schplace_seq
+\box_new:N \g_thesmo_schsuite_box
+\dim_new:N \l_thesmo_dsch_base_dim \dim_set:Nn \l_thesmo_dsch_base_dim {33mm}
+\dim_new:N \l_thesmo_dapp_min_dim  \dim_set:Nn \l_thesmo_dapp_min_dim {38mm}
+\dim_new:N \l_thesmo_dcol_lim_dim    % bas autorisé des colonnes (bas du bloc de texte + 2 lignes)
+\dim_new:N \l_thesmo_essai_dim       % bas d'une colonne, composée à vide
+\bool_new:N \l_thesmo_continuer_bool
+\bool_new:N \l_thesmo_debord_bool
+\tl_new:N \l_thesmo_schsuite_tl
+%% corps d'une entrée : {ligne}{place}{texte} pour une scholie, {ligne}{texte} pour l'apparat
+\cs_new_protected:Npn \thesmo_sch_corps:nnn #1#2#3
+  {
+    \hsize = \l_thesmo_dsch_dim \diplofont \l_thesmo_schsize_tl \raggedright \hangindent=0.6em \hangafter=1 \noindent
+    \tl_if_blank:nF {#2} { { \rmfamily\itshape\color{gris} #2 }\nobreakspace } #3
+  }
+\cs_new_protected:Npn \thesmo_app_corps:nn #1#2
+  {
+    \hsize = \l_thesmo_dapp_dim \l_thesmo_appsize_tl \raggedright \hangindent=1em \hangafter=1
+    \noindent \strut #2 \strut
+  }
+%% position verticale d'une entrée de boîte \l_thesmo_entry_box, sous la cote #2, à la ligne #1 : dans \l_tmpa_dim
+\cs_new_protected:Npn \thesmo_pos_entree:nn #1#2
+  {
+    \dim_set:Nn \l_tmpa_dim { \l_thesmo_dbs_dim * (#1 - 1) + 0.72\l_thesmo_dbs_dim - \box_ht:N \l_thesmo_entry_box }
+    \dim_compare:nNnT { \l_tmpa_dim } < {#2} { \dim_set:Nn \l_tmpa_dim {#2} }
+  }
+\cs_new_protected:Npn \thesmo_essai_cumul:n #1
+  {
+    \thesmo_pos_entree:nn {#1} { \l_thesmo_essai_dim }
+    \dim_set:Nn \l_thesmo_essai_dim { \l_tmpa_dim + \box_ht:N \l_thesmo_entry_box + \box_dp:N \l_thesmo_entry_box + 1.6pt }
+  }
+\cs_new_protected:Npn \thesmo_essai_sch:
+  {
+    \dim_zero:N \l_thesmo_essai_dim
+    \seq_map_inline:Nn \l_thesmo_schplace_seq
+      {
+        \vbox_set_top:Nn \l_thesmo_entry_box { \thesmo_sch_corps:nnn ##1 }
+        \thesmo_essai_cumul:n { \use_i:nnn ##1 }
+      }
+  }
+\cs_new_protected:Npn \thesmo_essai_app:
+  {
+    \dim_zero:N \l_thesmo_essai_dim
+    \seq_map_inline:Nn \l_thesmo_appplace_seq
+      {
+        \vbox_set_top:Nn \l_thesmo_entry_box { \thesmo_app_corps:nn ##1 }
+        \thesmo_essai_cumul:n { \use_i:nn ##1 }
+      }
+  }
+%% scholies abondantes : on élargit leur colonne par pas de 5 mm, tant que l'apparat
+%% garde sa largeur minimale et tient dans la hauteur du bloc de texte
+\cs_new_protected:Npn \thesmo_largeur_scholies:
+  {
+    \dim_set_eq:NN \l_thesmo_dsch_dim \l_thesmo_dsch_base_dim
+    \thesmo_set_dwidths:
+    \dim_set:Nn \l_thesmo_dcol_lim_dim { \l_thesmo_dbs_dim * \g_thesmo_dline_int + 2\l_thesmo_dbs_dim }
+    \bool_set_true:N \l_thesmo_continuer_bool
+    \bool_while_do:Nn \l_thesmo_continuer_bool
+      {
+        \thesmo_essai_sch:
+        \bool_set_false:N \l_thesmo_continuer_bool
+        \dim_compare:nNnT { \l_thesmo_essai_dim } > { \l_thesmo_dcol_lim_dim }
+          {
+            \dim_compare:nNnF { \l_thesmo_dapp_dim - 5mm } < { \l_thesmo_dapp_min_dim }
+              {
+                \dim_add:Nn \l_thesmo_dsch_dim { 5mm }
+                \thesmo_set_dwidths:
+                \thesmo_essai_app:
+                \dim_compare:nNnTF { \l_thesmo_essai_dim } > { \l_thesmo_dcol_lim_dim }
+                  { \dim_sub:Nn \l_thesmo_dsch_dim { 5mm } \thesmo_set_dwidths: }
+                  { \bool_set_true:N \l_thesmo_continuer_bool }
+              }
+          }
+      }
+  }
 \cs_new_protected:Npn \thesmo_place_anchored:
   {
-    %% apparat
-    \seq_clear:N \l_thesmo_place_seq
+    %% apparat : entrées triées par ligne
+    \seq_clear:N \l_thesmo_appplace_seq
     \seq_map_inline:Nn \g_thesmo_app_seq
       {
         \thesmo_line_of_verse:n { \use_i:nn ##1 }
         \int_compare:nNnT { \l_thesmo_lineidx_int } = {0}
           { \int_set:Nn \l_thesmo_lineidx_int { \int_max:nn {1} { \g_thesmo_dline_int } } }
-        \seq_put_right:Nx \l_thesmo_place_seq
+        \seq_put_right:Nx \l_thesmo_appplace_seq
           { { \int_use:N \l_thesmo_lineidx_int } { \exp_not:o { \use_ii:nn ##1 } } }
       }
-    \seq_sort:Nn \l_thesmo_place_seq
+    \seq_sort:Nn \l_thesmo_appplace_seq
       {
         \int_compare:nNnTF { \use_i:nn ##1 } > { \use_i:nn ##2 }
           { \sort_return_swapped: } { \sort_return_same: }
       }
-    \seq_map_inline:Nn \l_thesmo_place_seq
-      {
-        \thesmo_anchor_at:nnn {app} { \use_i:nn ##1 }
-          { \hsize = \l_thesmo_dapp_dim \l_thesmo_appsize_tl \raggedright \hangindent=1em \hangafter=1
-            \noindent \strut \use_ii:nn ##1 \strut }
-      }
-    %% scholies
-    \seq_clear:N \l_thesmo_place_seq
+    %% scholies : idem
+    \seq_clear:N \l_thesmo_schplace_seq
     \seq_map_inline:Nn \g_thesmo_sch_seq
       {
         \thesmo_line_of_msline:n { \use_i:nnn ##1 }
         \int_compare:nNnT { \l_thesmo_lineidx_int } = {0} { \int_set:Nn \l_thesmo_lineidx_int {1} }
-        \seq_put_right:Nx \l_thesmo_place_seq
+        \seq_put_right:Nx \l_thesmo_schplace_seq
           { { \int_use:N \l_thesmo_lineidx_int } { \exp_not:o { \use_ii:nnn ##1 } } { \exp_not:o { \use_iii:nnn ##1 } } }
       }
-    \seq_sort:Nn \l_thesmo_place_seq
+    \seq_sort:Nn \l_thesmo_schplace_seq
       {
         \int_compare:nNnTF { \use_i:nnn ##1 } > { \use_i:nnn ##2 }
           { \sort_return_swapped: } { \sort_return_same: }
       }
-    \seq_map_inline:Nn \l_thesmo_place_seq
+    \thesmo_largeur_scholies:
+    %% placement
+    \seq_map_inline:Nn \l_thesmo_appplace_seq
+      { \thesmo_anchor_at:nnn {app} { \use_i:nn ##1 } { \thesmo_app_corps:nn ##1 } }
+    \bool_set_false:N \l_thesmo_debord_bool
+    \tl_clear:N \l_thesmo_schsuite_tl
+    \seq_map_inline:Nn \l_thesmo_schplace_seq
       {
-        \thesmo_anchor_at:nnn {sch} { \use_i:nnn ##1 }
-          { \hsize = \l_thesmo_dsch_dim \diplofont \l_thesmo_schsize_tl \raggedright \hangindent=0.6em \hangafter=1 \noindent
-            \tl_if_blank:oF { \use_ii:nnn ##1 } { { \rmfamily\itshape\color{gris} \use_ii:nnn ##1 }\nobreakspace } \use_iii:nnn ##1 }
+        \bool_if:NF \l_thesmo_debord_bool
+          {
+            \vbox_set_top:Nn \l_thesmo_entry_box { \thesmo_sch_corps:nnn ##1 }
+            \thesmo_pos_entree:nn { \use_i:nnn ##1 } { \g_thesmo_dsch_cur_dim }
+            \dim_compare:nNnT
+              { \l_tmpa_dim + \box_ht:N \l_thesmo_entry_box + \box_dp:N \l_thesmo_entry_box } > { \l_thesmo_dcol_lim_dim }
+              { \bool_set_true:N \l_thesmo_debord_bool }
+          }
+        \bool_if:NTF \l_thesmo_debord_bool
+          { \tl_put_right:Nn \l_thesmo_schsuite_tl { \thesmo_sch_suite:nnn ##1 } }
+          { \thesmo_anchor_at:nnn {sch} { \use_i:nnn ##1 } { \thesmo_sch_corps:nnn ##1 } }
+      }
+    %% trop-plein : registre « scholies (suite) », sous le bloc de texte
+    \box_gclear:N \g_thesmo_schsuite_box
+    \tl_if_empty:NF \l_thesmo_schsuite_tl
+      {
+        \vbox_gset:Nn \g_thesmo_schsuite_box
+          {
+            \hsize = \l_thesmo_commcol_dim \l_thesmo_bottomsize_tl
+            \noindent \petcap{scholies~(suite)} \par \vspace{1pt}
+            \diplofont \l_thesmo_schsize_tl \raggedright \parindent=0pt
+            \l_thesmo_schsuite_tl \par
+          }
       }
     \seq_gclear:N \g_thesmo_app_seq
     \seq_gclear:N \g_thesmo_sch_seq
+  }
+\cs_new_protected:Npn \thesmo_sch_suite:nnn #1#2#3
+  {
+    \noindent \hangindent=0.6em \hangafter=1
+    { \rmfamily\itshape\color{gris} l.~\seq_item:Nn \g_thesmo_dline_n_seq {#1} \tl_if_blank:nF {#2} { ,~#2 } }\nobreakspace #3 \par
   }
 
 %% registres du bas de la page diplomatique
@@ -981,6 +1081,7 @@
     %% registres du bas : loci paralleli puis commentaire critique, en flux sur deux colonnes
     \vbox_set:Nn \l_thesmo_tmp_box
       {
+        \box_if_empty:NF \g_thesmo_schsuite_box { \vbox_unpack_drop:N \g_thesmo_schsuite_box \vspace{4pt} }
         \box_if_empty:NF \g_thesmo_par_box { \vbox_unpack_drop:N \g_thesmo_par_box \vspace{4pt} }
         \box_if_empty:NF \g_thesmo_crit_box { \vbox_unpack_drop:N \g_thesmo_crit_box }
       }
@@ -1081,6 +1182,10 @@
 \newcommand\Dsigne[2]{{\fontsize{7.5}{9}\selectfont #2}}
 \newcommand\Dzone[2]{\ifstrequal{#1}{titre}{\hfil #2\hfil}{\ifstrequal{#1}{hypothesis}{{\fontsize{8}{9}\selectfont #2}}{#2}}}
 \newcommand\Dmain[2]{\Dcol{#1}{#2}}
+%% tracé de S2 repassé en 1516 (repasse="Rrec") et repères à la mine de 1516 (instrument="mine") : pointillé orange
+\newunderlinetype\thesmo@pointille[\number\dimexpr 1ex\relax]{\cleaders\hbox to 0.42ex{\hss\textcolor{mainRrec}{\rule[-0.32ex]{0.17ex}{0.17ex}}\hss}}
+\newcommand\Drepasse[1]{{\thesmo@pointille #1}}
+\newcommand\Dmine[1]{{\thesmo@pointille\Dcol{Rrec}{#1}}}
 \RequirePackage{etoolbox}
 %% compatibilité avec la maquette d'essai
 \newcommand\sig[1]{{\diplofont\fontsize{7.5}{9}\selectfont #1}}

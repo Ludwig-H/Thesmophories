@@ -111,6 +111,16 @@ def interieur(el):
 
 
 def convertir(el):
+    """Élément → LaTeX ; repasse et instrument ajoutent le pointillé orange de la légende."""
+    s = convertir_nu(el)
+    if el.get('instrument') == 'mine':
+        return r'\Dmine{%s}' % s
+    if el.get('repasse'):
+        return r'\Drepasse{%s}' % s
+    return s
+
+
+def convertir_nu(el):
     tag, m = el.tag, el.get('main', '')
     if tag == 'nota':
         return r'\Dnota[%s]{%s}' % (m or 'R1', interieur(el))
@@ -186,11 +196,15 @@ def ligne_vers_latex(l):
     return r'\ligne[%s]{%s}{%s}' % (', '.join(opts), ''.join(sig), corps.strip())
 
 
-def sch_vers_latex(s):
+def sch_vers_latex(s, folio=''):
     corps = interieur(s).strip()   # l'attribut lemme est une métadonnée (index), non imprimée
     if s.get('main') and s.get('main') not in ('R1',):
         corps = r'\Dmain{%s}{%s}' % (s.get('main'), corps)
-    return r'\sch[%s]{%s}{%s}' % (PLACES_SCH.get(s.get('place', 'mg-g'), ''), s.get('ancre'), corps)
+    # sans indication, la scholie est dans la marge extérieure (gauche au verso, droite au recto)
+    place = s.get('place', 'mg-g')
+    if place == ('mg-g' if str(folio).endswith('v') else 'mg-d'):
+        place = ''
+    return r'\sch[%s]{%s}{%s}' % (PLACES_SCH.get(place, ''), s.get('ancre'), corps)
 
 
 def page_vers_latex(racine):
@@ -198,7 +212,7 @@ def page_vers_latex(racine):
     for l in racine.iter('l'):
         out.append(ligne_vers_latex(l))
     for s in racine.iter('sch'):
-        out.append(sch_vers_latex(s))
+        out.append(sch_vers_latex(s, racine.get('folio')))
     return '\n'.join(out) + '\n'
 
 
