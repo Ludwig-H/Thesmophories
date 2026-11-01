@@ -93,11 +93,12 @@ la colonne ; gauche et droite physiques, non intérieure et extérieure), `main`
 | `<unclear cert="faible">α</unclear>` | lecture douteuse (`moyenne` : probable ; `faible` : hypothèse parmi d'autres) | |
 | `<gap n="3" unite="lettres" raison="illisible"/>` | lettres illisibles ou perdues (`raison` : `illisible`, `grattage`, `tache`, `reliure`, `surcharge`) | |
 | `<abbr dev="αί">κ</abbr>` | suspension : lettres écrites, plus `dev` = lettres suppléées | κ(αί) |
-| `<abbr signe="ʒ" dev="δέ"/>` | compendium : `signe` = forme du signe, `dev` = tout le mot ou toute la syllabe | (δέ) |
+| `<abbr signe="ʒ" dev="δέ"/>` | compendium : `signe` = forme du signe, **imprimée** ; `dev` = tout le mot ou toute la syllabe, imprimés en gris | ʒ(δέ) |
 | `<gl sur="χοάνης" main="R2">χώνης</gl>` | glose au-dessus du mot `sur` (rare : voir le guide, § 2.11) | |
 | `<hi rend="grand">…</hi>` | mise en valeur (`grand` : initiale agrandie, `monogramme`, `sus`, voir plus haut) | |
 | `<sp n="2"/>` | blanc laissé par le copiste (`n` = largeur en lettres) | |
 | `<signe type="renvoi" main="R2">∈</signe>` | signe (`renvoi`, `insertion`, `signal`, `transposition`, `ornement`, `repere`, `coronis`, `diple`, `autre`) ; `repere` n'est pas imprimé | |
+| `<corr lire="ἆρά ποτε" type="coupe">ἀρ ἀπό τε</corr>` | **couche de correction, posée après la vérification** (jamais par les lecteurs ni l'arbitre) : le contenu reste la leçon de R, le livre imprime `lire` ; `type` : `accent`, `coupe`, `faute` ; ne s'applique qu'à du texte nu | ἆρά ποτε |
 | `<lb/>`, `<lb coupe="oui"/>` | fin de ligne dans une scholie ou un vers suppléé ; `coupe` : à l'intérieur d'un mot | |
 | `<note>…</note>` | (dans `<notes>` seulement) remarque du transcripteur | |
 

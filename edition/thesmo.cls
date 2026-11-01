@@ -1175,7 +1175,8 @@
 \newcommand\Dras[2][R1]{\highLight[fondras]{\Dcol{#1}{#2}}}
 \newcommand\Dgap[1]{{\color{gris}[\,\foreach@dots{#1}\,]}}
 \def\foreach@dots#1{\@tempcnta=#1\relax\loop\ifnum\@tempcnta>0 ·\advance\@tempcnta-1 \repeat}
-\newcommand\Dabbr[2]{#1{\color{gris}(}#2{\color{gris})}}
+%% abréviation : [signe du manuscrit]{lettres écrites}{développement} ; ce qui est en gris est de l'éditeur
+\newcommand\Dabbr[3][]{#2#1{\color{gris}(#3)}}
 \newcommand\Dgl[3][R1]{\setbox0\hbox{#2}\makebox[0pt][r]{\makebox[\wd0][c]{\raisebox{1.42ex}[0pt][0pt]{\Dpetit\Dcol{#1}{#3}}}}}
 \newcommand\Dhi[2]{\ifstrequal{#1}{rouge}{\textcolor{rubrique}{#2}}{\ifstrequal{#1}{grand}{{\large #2}}{#2}}}
 \newcommand\Dsp[1]{\hspace{#1\fontdimen2\font}\hspace{#1\fontdimen2\font}}

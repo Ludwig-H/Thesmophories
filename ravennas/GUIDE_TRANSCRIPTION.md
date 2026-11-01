@@ -10,7 +10,7 @@
 
 1. **L'image d'abord.** Aucun texte imprimé, aucune vulgate avant la fin de la lecture (§ 5).
 2. **Le signe, non sa fonction.** Un dicolon se transcrit « : », qu'il y ait ou non changement de personnage. Une paragraphos se transcrit même si elle est « fausse ». L'interprétation appartient à l'apparat.
-3. **Rien de normalisé, rien de restitué.** Fautes, accents doubles ou absents, apostrophes parasites, barbarismes du Scythe : tels quels. Le texte attendu ne sert qu'à provoquer un recontrôle.
+3. **Rien de normalisé, rien de restitué.** Fautes, accents doubles ou absents, apostrophes parasites, barbarismes du Scythe : tels quels. Le texte attendu ne sert qu'à provoquer un recontrôle. L'auteur a décidé que le livre corrigerait les fautes évidentes et d'accentuation : cela se fait **après** la vérification, par une couche `<corr>` qui laisse intacte la leçon de R (`ravennas/FORMAT_TRANSCRIPTION.md`) ; lecteurs, arbitre et vérificateur n'y touchent pas : ils établissent ce que porte le parchemin. Noter `signe=` à chaque compendium : le livre imprime le signe.
 4. **Une marque, un objet.** La paragraphos de T et le sigle de 1516 posé dessus sont deux objets, encodés séparément, chacun avec sa main.
 5. **L'encre ne décide que dans trois cas** (§ 1.3). Partout ailleurs, la forme tranche, ou l'attribution reste `R?`.
 6. **Le doute se balise.** `<unclear>`, `R?`, `<note>` ; jamais une lecture plausible sans balise.

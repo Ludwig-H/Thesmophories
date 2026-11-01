@@ -6,7 +6,10 @@ from lxml import etree
 
 MAINS = {'R1', 'R1c', 'R2', 'R3', 'Rsch', 'Rrec', 'Rmod', 'R?'}
 ELEMENTS_EN_LIGNE = {'nota', 'parag', 'add', 'del', 'subst', 'ras', 'unclear', 'gap',
-                     'abbr', 'gl', 'hi', 'sp', 'signe', 'w', 'lb'}
+                     'abbr', 'gl', 'hi', 'sp', 'signe', 'w', 'lb', 'corr'}
+# corr : couche de correction de l'édition, posée après la vérification. Le contenu reste la
+# leçon de R (collation, apparat) ; le livre imprime l'attribut lire. Voir FORMAT_TRANSCRIPTION.md.
+TYPES_CORR = {'accent', 'coupe', 'faute'}
 # repasse = main de la campagne qui a repassé le tracé (R2 repassé en 1516 : repasse="Rrec") ;
 # instrument = matière autre que l'encre (mine des repères de 1516, crayon moderne).
 MAINIFS = {'main', 'repasse', 'instrument'}
@@ -20,7 +23,7 @@ ATTRS = {
     'add': {'place'} | MAINIFS, 'del': {'type'} | MAINIFS, 'subst': set(MAINIFS),
     'ras': set(MAINIFS), 'unclear': {'cert'}, 'gap': {'n', 'unite', 'raison'},
     'abbr': {'dev', 'signe'}, 'gl': {'sur'} | MAINIFS, 'hi': {'rend'}, 'sp': {'n'},
-    'signe': {'type'} | MAINIFS, 'w': set(), 'lb': {'coupe'},
+    'signe': {'type'} | MAINIFS, 'w': set(), 'lb': {'coupe'}, 'corr': {'lire', 'type'},
 }
 PLACES_SCH = {'mg-g': 'mg. g.', 'mg-d': 'mg. d.', 'mg-sup': 'mg. sup.', 'mg-inf': 'mg. inf.', 'interl': 'interl.',
               'col': 'dans la col.'}
@@ -53,6 +56,13 @@ def valider(racine):
         m = el.get('instrument')
         if m and m not in INSTRUMENTS:
             pb.append(f'ligne {el.sourceline} : instrument inconnu {m}')
+        if el.tag == 'corr':
+            if not el.get('lire'):
+                pb.append(f'ligne {el.sourceline} : <corr> sans lire=')
+            if el.get('type') not in TYPES_CORR:
+                pb.append(f'ligne {el.sourceline} : <corr> de type inconnu {el.get("type")}')
+            if len(el):
+                pb.append(f'ligne {el.sourceline} : <corr> ne s\'applique qu\'à du texte nu (une intervention reste visible)')
     ns = []
     for l in racine.iter('l'):
         try:
@@ -85,7 +95,13 @@ def avertir(racine):
     return av
 
 
+def sigma_final(t):
+    """Le copiste n'a qu'une forme de sigma ; le livre imprime ς en fin de mot (allographe, non leçon)."""
+    return re.sub(r'(?<=\w)σ(?=[\s·,.;:!?—–\-)\]⟧]|$)', 'ς', t)
+
+
 def esc(t):
+    t = re.sub(r'(?<=\w)σ(?=[\s·,.;:!?—–\-)\]⟧])', 'ς', t)
     t = t.replace('\\', r'\textbackslash{}')
     for c in '&%$#_{}':
         t = t.replace(c, '\\' + c)
@@ -144,8 +160,10 @@ def convertir_nu(el):
         return s
     if tag == 'gap':
         return r'\Dgap{%s}' % el.get('n', '1')
-    if tag == 'abbr':
-        return r'\Dabbr{%s}{%s}' % (interieur(el), esc(el.get('dev', '')))
+    if tag == 'abbr':   # le signe du manuscrit est imprimé ; le développement, en gris, l'explique
+        return r'\Dabbr[%s]{%s}{%s}' % (esc(el.get('signe', '')), interieur(el), esc(el.get('dev', '')))
+    if tag == 'corr':
+        return esc(sigma_final(el.get('lire', '')))
     if tag == 'gl':
         return r'\Dgl[%s]{%s}{%s}' % (m or 'R1', esc(el.get('sur', '')), interieur(el))
     if tag == 'hi':
@@ -193,11 +211,11 @@ def ligne_vers_latex(l):
         corps = r'\Dzone{%s}{%s}' % (z, corps)
     if l.get('main') and l.get('main') != 'R1':
         corps = r'\Dmain{%s}{%s}' % (l.get('main'), corps)
-    return r'\ligne[%s]{%s}{%s}' % (', '.join(opts), ''.join(sig), corps.strip())
+    return r'\ligne[%s]{%s}{%s}' % (', '.join(opts), ''.join(sig), sigma_final(corps.strip()))
 
 
 def sch_vers_latex(s, folio=''):
-    corps = interieur(s).strip()   # l'attribut lemme est une métadonnée (index), non imprimée
+    corps = sigma_final(interieur(s).strip())   # l'attribut lemme est une métadonnée (index), non imprimée
     if s.get('main') and s.get('main') not in ('R1',):
         corps = r'\Dmain{%s}{%s}' % (s.get('main'), corps)
     # sans indication, la scholie est dans la marge extérieure (gauche au verso, droite au recto)

@@ -17,6 +17,18 @@ Document de référence pour tous les contributeurs (humains ou agents). Il comp
 Tous les fichiers sont dans `edition/folios/fXXX/`. L'apparat et le commentaire
 sont ancrés par numéro de vers ; les scholies par numéro de ligne du manuscrit.
 
+## 1 bis. La transcription diplomatique (décision de l'auteur, 1er nov. 2026)
+
+- **Abréviations** : celles du manuscrit sont conservées et expliquées : le signe ou les lettres
+  écrites sont imprimés dans la couleur de la main, le développement en gris : κ(αί), ϗ(καί).
+- **Fautes évidentes et d'accentuation** : corrigées sans mention dans le livre, le fac-similé en
+  regard permettant de les voir. La correction est une couche distincte (`<corr>`), posée après la
+  vérification : le XML garde toujours la leçon de R, qui nourrit l'apparat.
+- **Ce qu'on ne corrige jamais** : une leçon qui compte pour le texte (correction attribuée à un
+  éditeur dans le répertoire, ou discutée dans l'apparat ou le commentaire critique) ; les
+  barbarismes de l'Archer, les dorismes et autres formes voulues ; une intervention de main, qui
+  reste visible ; l'iota adscrit, la ponctuation, les signes, les sigles.
+
 ## 2. L'apparat critique
 
 ### 2.1 Principe
