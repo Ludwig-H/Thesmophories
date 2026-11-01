@@ -1,0 +1,80 @@
+[
+ {
+  "v": "231",
+  "lemme": "τί μύζεις;",
+  "ref": "Érasme, Adages 702",
+  "motif": "pense-bête de l’auteur (\\eff{Érasme 702}, source l. 2181) : les Adages intégraux ne sont pas au Drive (anthologie des Belles Lettres seulement) et le site de l’ASD n’est pas joignable ; contenu de l’adage non contrôlé."
+ },
+ {
+  "v": "231",
+  "lemme": "μυμῦ",
+  "ref": "Enn. inc. 10 V. ; Lucil. 426 M.",
+  "motif": "références de Tosi n. 2123, non contrôlées sur les éditions (seul Petr. 57.8 l’est)."
+ },
+ {
+  "v": "231",
+  "lemme": "τί μύζεις;",
+  "ref": "Aesch. fr. 461 R. (μυχθίζω)",
+  "motif": "cité par LSJ s.v. μυχθίζω ; texte non contrôlé."
+ },
+ {
+  "v": "234",
+  "lemme": "miroir",
+  "ref": "Aesch. fr. 61, 1 R. (κατόπτρου καὶ ξίφους)",
+  "motif": "source de Thesm. 140 selon les commentateurs ; à traiter au v. 140 ; non contrôlé ici."
+ },
+ {
+  "v": "245",
+  "lemme": "τὰ πλεῖστα – ἀσβόλου",
+  "ref": "Ael. Dion. α 186 Erbse",
+  "motif": "testimonium de l’auteur ; Erbse non disponible dans le corpus ; Naber rapporte la glose de Photius à Aelius Dionysius."
+ },
+ {
+  "v": "245",
+  "lemme": "φεῦ",
+  "ref": "Phot. α 2946 (Theodoridis I)",
+  "motif": "le texte imprimé n’a pas été lu (citation d’après Naber) : à relire, à cause de σφουΐου de Synag. α 2213."
+ },
+ {
+  "v": "246",
+  "lemme": "αἰθός",
+  "ref": "Bacchyl. fr. 4.69–70 ; Soph. fr. 269a.54 R. ; Callim. Dian. 69",
+  "motif": "exemples de Sommerstein 1994, p. 173 ; non retrouvés (texte non indexé ou leçon différente)."
+ },
+ {
+  "v": "246",
+  "lemme": "τράμις",
+  "ref": "Erot. τ (Archil. fr.)",
+  "motif": "Blaydes 1880, p. 161 (« Erotian. p. 360 : τράμιν … μέμνηται καὶ Ἀρχίλοχος ») ; Érotien non indexé ; OCR de Blaydes douteux."
+ },
+ {
+  "v": "246",
+  "lemme": "τὰ περὶ τὴν τράμιν",
+  "ref": "EM 763, 55",
+  "motif": "renvoi de Fritzsche et de Blaydes ; page de Sylburg non lue."
+ },
+ {
+  "v": "248",
+  "lemme": "πρωκτὸς λουτροῦ",
+  "ref": "Diogen. 3.53",
+  "motif": "référence de l’auteur ; absente de l’épitomé e cod. Mazarinaeo indexé et de l’index du CPG I (qui donne App. Prov. 4.61)."
+ },
+ {
+  "v": "248",
+  "lemme": "πρωκτὸς λουτροῦ",
+  "ref": "Apostol. 14.78",
+  "motif": "référence de l’auteur ; l’index de CPG II, p. 823, renvoie bien à Ap XIV 78 (OCR), texte non lu."
+ },
+ {
+  "v": "251",
+  "lemme": "στρόφιον",
+  "ref": "Poll. 7.65–67",
+  "motif": "glose de Pollux signalée par la recherche (Bethe II, p. 78, OCR), § non établi."
+ },
+ {
+  "v": "243",
+  "lemme": "καταπεπυρπολημένος",
+  "ref": "Plb. 5.19.8 ; Palaeph. 52",
+  "motif": "LSJ s.v. καταπυρπολέω : forme non recopiée ici."
+ }
+]

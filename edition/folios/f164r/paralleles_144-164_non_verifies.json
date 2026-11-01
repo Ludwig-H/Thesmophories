@@ -1,0 +1,170 @@
+[
+ {
+  "v": "144–164",
+  "lemme": "ensemble du passage",
+  "ref": "Austin–Olson 2004, commentaire ad loc.",
+  "source": "consigne de la tâche",
+  "raison": "commentaire inaccessible : PDF du Drive > 10 Mo (téléchargement refusé), la lecture du Drive s’arrête à l’introduction ; à dépouiller"
+ },
+ {
+  "v": "156",
+  "lemme": "συνθηρεύεται",
+  "ref": "Taillardat, Les images d’Aristophane, p. 447",
+  "source": "Prato 2001, ad 156",
+  "raison": "ouvrage absent du corpus local ; à contrôler sur le livre"
+ },
+ {
+  "v": "162",
+  "lemme": "ἐχύμισαν",
+  "ref": "Taillardat, Les images d’Aristophane, p. 441 ; Borthwick, Hermes 96 (1968), p. 61",
+  "source": "Prato 2001, ad 162 (image culinaire)",
+  "raison": "ouvrages absents du corpus local"
+ },
+ {
+  "v": "162",
+  "lemme": "ἐκεχήνεσαν (Bibi)",
+  "ref": "Taillardat, Les images d’Aristophane, §§ 472 et 578",
+  "source": "commentaire de l’auteur (critique.tex)",
+  "raison": "ouvrage absent du corpus local ; à contrôler sur le livre"
+ },
+ {
+  "v": "148",
+  "lemme": "ἐγὼ δὲ τὴν ἐσθῆθ᾽",
+  "ref": "Érasme, Adages 3.1.60 et 1.6.50",
+  "source": "Tosi, Dictionnaire des sentences (n°s 2183, 2186)",
+  "raison": "texte latin des Adages non disponible : l’epub local est abrégé"
+ },
+ {
+  "v": "153",
+  "lemme": "κελητίζεις",
+  "ref": "Henderson, The Maculate Muse, p. 164 sq.",
+  "source": "Prato 2001, ad 153",
+  "raison": "ouvrage non consulté"
+ },
+ {
+  "v": "157",
+  "lemme": "καλεῖν ἐμέ",
+  "ref": "Ar. fr. 693 Kock : κάλει με (Kock) ou καλεῖν με (Blaydes)",
+  "source": "Blaydes 1880, p. 149",
+  "raison": "forme du fragment à contrôler sur K.-A. ; numéro K.-A. à établir"
+ },
+ {
+  "v": "158",
+  "lemme": "συμποιῶ",
+  "ref": "Eup. fr. 78 Kock (= fr. 89 K.-A. ?)",
+  "source": "Σ Nub. 554, citée dans le fichier principal",
+  "raison": "numéro K.-A. non contrôlé"
+ },
+ {
+  "v": "160",
+  "lemme": "ἀγρεῖον",
+  "ref": "Com. adesp. Kock III, p. 450 (ἄγροικός εἰμι τὴν σκάφην σκάφην λέγων)",
+  "source": "Luc. JTr. 32 ; OCR de Kock",
+  "raison": "image de Kock III inaccessible (archive.org) ; numéro du fragment à lire sur le livre"
+ },
+ {
+  "v": "161",
+  "lemme": "Ἴβυκος",
+  "ref": "Arcad. p. 52, 10",
+  "source": "Enger 1844, p. 37 (accent du nom)",
+  "raison": "édition d’Arcadius absente du corpus"
+ },
+ {
+  "v": "162",
+  "lemme": "κἀλκαῖος",
+  "ref": "Eup. fr. 280 Kock (Σ Thesm. 162)",
+  "source": "Σ Thesm. 162, Dübner",
+  "raison": "numéro K.-A. à établir"
+ },
+ {
+  "v": "162",
+  "lemme": "περὶ ἁρμονίαν",
+  "ref": "Snyder, « Aristophanes’ Agathon as Anacreon », Hermes 102 (1974), p. 244–246",
+  "source": "bibliographie d’Austin–Olson 2004",
+  "raison": "étude moderne non consultée"
+ },
+ {
+  "v": "163",
+  "lemme": "μίτρα",
+  "ref": "Alcm. fr. 1.67 (μίτρα Λυδία νεανίδων ἄγαλμα)",
+  "source": "LSJ s.v. μίτρα (« Alcm. 23.67 »)",
+  "raison": "non relu dans une édition"
+ },
+ {
+  "v": "163",
+  "lemme": "μίτρα",
+  "ref": "Theoc. 27.54 (μίτραν cj., μικράν codd.)",
+  "source": "LSJ s.v. μίτρα",
+  "raison": "texte absent de l’index ; leçon conjecturale"
+ },
+ {
+  "v": "163",
+  "lemme": "μίτρα",
+  "ref": "Soph. fr. 162 N.",
+  "source": "van Leeuwen 1904, note ad 163 (pp. 26–30)",
+  "raison": "fragment non identifié dans Nauck ; renvoi à contrôler"
+ },
+ {
+  "v": "163",
+  "lemme": "Ἰωνικῶς",
+  "ref": "Érasme, Adages n° 469 (Risus Ionicus)",
+  "source": "commentaire de l’auteur (critique.tex)",
+  "raison": "texte latin non disponible, numéro non contrôlé ; proverbe vérifié : Diogenian. 3.87, Greg. Cypr. 2.9"
+ },
+ {
+  "v": "163",
+  "lemme": "Ἰωνικῶς",
+  "ref": "Harpocr. plenior s.v. Ἰωνικός",
+  "source": "Fritzsche 1838 ; Rogers 1904 ; apparat d’Adler",
+  "raison": "article absent de l’édition de Dindorf (Perseus) et de Bekker ; non localisé"
+ },
+ {
+  "v": "163",
+  "lemme": "Ἰωνικῶς",
+  "ref": "Anacr. PMG 426 (= Anacr. 85 LSJ), Πάλαι ποτ᾽ ἦσαν ἄλκιμοι Μιλήσιοι",
+  "source": "LSJ s.v. ἄλκιμος, Μιλήσιος",
+  "raison": "attribution non contrôlée ; proverbe vérifié : Ar. Plut. 1002, Ath. 12.26, Zen. 5.80, Sud. π 61"
+ },
+ {
+  "v": "163",
+  "lemme": "Ἰωνικῶς",
+  "ref": "Eup. fr. 272 et Antiphanes fr. 91 K.-A.",
+  "source": "Sommerstein 1994, ad 163",
+  "raison": "non retrouvés dans Kock ni Meineke par la recherche locale"
+ },
+ {
+  "v": "163",
+  "lemme": "Ἰωνικῶς",
+  "ref": "Pl. Com. frr. 69 et 188 Kock",
+  "source": "Ath. 15.1 ; Blaydes 1880",
+  "raison": "numéros K.-A. à établir"
+ },
+ {
+  "v": "163",
+  "lemme": "διασαυλούμενον",
+  "ref": "Cramer, An. Par. IV 198, 26 ; Zonaras I 539 ; Lobeck, Pathol. prol. 392 n. 21",
+  "source": "Kock I, p. 548",
+  "raison": "non consultés"
+ },
+ {
+  "v": "163",
+  "lemme": "σαικωνίσαι",
+  "ref": "Bachmann, Anecd. I 360, 26",
+  "source": "Kock I, p. 582",
+  "raison": "non consulté ; Synag. σ 5 et Phot. σ 23 vérifiés"
+ },
+ {
+  "v": "164",
+  "lemme": "γὰρ οὖν",
+  "ref": "Denniston, Greek Particles², p. 446",
+  "source": "Prato 2001, ad 164",
+  "raison": "ouvrage non consulté"
+ },
+ {
+  "v": "163",
+  "lemme": "Toup, Dorville",
+  "ref": "Toup, Emend. in Suid. I, p. 166 ; Dorville ad Charit. p. 560 ; Bentley (Ἰωνικῶς)",
+  "source": "Enger 1844, p. 38",
+  "raison": "sources de conjectures, non consultées"
+ }
+]

@@ -1,1 +1,122 @@
-[]
+[
+ {
+  "v": "62",
+  "lemme": "χοανεῦσαι",
+  "categorie": "lexicographes",
+  "ref": "EM s.v. χόανος / Ap. S. 168, 17 / Poll. 7.106, 10.147",
+  "source": "Hansen–Cunningham, test. ad Hsch. χ 577 ; OCR Bethe II p. 80 et p. 233",
+  "motif": "Renvois de l'éditeur ; les passages de Pollux se lisent dans l'OCR de Bethe (χοάναι parmi les outils du forgeron), image non contrôlée ; OCR de l'EM illisible, page non repérée."
+ },
+ {
+  "v": "63",
+  "lemme": "ὑβριστής",
+  "categorie": "prose",
+  "ref": "K. J. Dover, Greek Popular Morality, p. 103",
+  "source": "Sommerstein ad loc.",
+  "motif": "Ouvrage moderne absent des sources locales."
+ },
+ {
+  "v": "66",
+  "lemme": "αὐτός",
+  "categorie": "lexicographes",
+  "ref": "Poll. 3.74 ; Bekker, Anecd. 78, 29",
+  "source": "Kock ad Ar. fr. 268 (déjà cité dans la remarque de cette entrée)",
+  "motif": "Cités d'après Kock, non contrôlés directement. Numéro K.-A. du fragment non contrôlé (PCG III.2 absent localement)."
+ },
+ {
+  "v": "67–68",
+  "lemme": "χειμῶνος",
+  "categorie": "prose",
+  "ref": "Ar. Nub. 311 ; Ar. Pax 800 ; Thuc. 5.20.1 ; Meritt, The Athenian Year ; Sommerstein, JHS 97 (1977)",
+  "source": "Sommerstein ad 67–68",
+  "motif": "Concernent la saison de la représentation et le calendrier de 412/1, non le vers ; non contrôlés, non retenus."
+ },
+ {
+  "v": "68",
+  "lemme": "ὄντος",
+  "categorie": "poetes",
+  "ref": "Hor. Carm. 2.2.1–4",
+  "source": "Fritzsche ad 68",
+  "motif": "Corpus latin absent ; concerne la seule conjecture ἐντός."
+ },
+ {
+  "v": "69",
+  "lemme": "πρὸς τὸν ἥλιον",
+  "categorie": "lexicographes",
+  "ref": "Ael. Dion. ε 17, ε 19 ; Tim. ε 11 ; [Did.] 26 ; Σ Ar. Vesp. 772b ; Ar. fr. 636 K.-A.",
+  "source": "Latte, test. ad Hsch. ε 875–876",
+  "motif": "Renvois de l'éditeur ; Erbse et Timée non consultés ; PCG III.2 absent localement."
+ },
+ {
+  "v": "74",
+  "lemme": "κηδεστήν",
+  "categorie": "comiques",
+  "ref": "Plaut. Aul. 3,4,14 et 5,62 (numérotation ancienne)",
+  "source": "Blaydes ad loc. (d'après Brunck)",
+  "motif": "Corpus latin absent ; numérotation ancienne à convertir (adfinis)."
+ },
+ {
+  "v": "74",
+  "lemme": "κηδεστήν",
+  "categorie": "lexicographes",
+  "ref": "Ael. Dion. κ 23 ; Cyr. κηδ 16 et 20",
+  "source": "Cunningham, app. ad Synag. κ 310",
+  "motif": "Erbse absent de la copie locale ; téléchargement Drive échoué (réponse trop volumineuse pour le connecteur)."
+ },
+ {
+  "v": "74",
+  "lemme": "χρῆν",
+  "categorie": "testimonium",
+  "ref": "Sud. κ 1487, variante χρή des mss",
+  "source": "Enger ad loc. ; apparat de l'auteur",
+  "motif": "Apparat d'Adler non disponible localement (vol. III absent)."
+ },
+ {
+  "v": "75",
+  "lemme": "κακόν μοι … προπεφυραμένον",
+  "categorie": "proverbes",
+  "ref": "Ter. Phorm. 318 ; Donat ; Aus. Biss. (Tute hoc intristi)",
+  "source": "Tosi n. 890",
+  "motif": "Corpus latin absent : référence donnée seulement d'après Tosi."
+ },
+ {
+  "v": "75",
+  "lemme": "κακόν μοι … προπεφυραμένον",
+  "categorie": "proverbes",
+  "ref": "Prov. Bodl. 597 Gaisford (index : B 604) ; Phot. s.v. λευκὴν μᾶζαν (Ph. 217)",
+  "source": "Latte, test. ad Hsch. λ 728 ; Gaisford, Paroem. p. 409",
+  "motif": "Numérotation divergente entre Latte (597) et l'index de Gaisford (604) à contrôler ; Photius λ (Theodoridis II) absent localement."
+ },
+ {
+  "v": "75",
+  "lemme": "προπεφυραμένον",
+  "categorie": "scholies",
+  "ref": "Σ Ar. Av. 462 (Dübner p. 219 : ὁμοῦ γὰρ ἐφύρων, εἶτα εἰς μάκτρας διενέμοντο)",
+  "source": "Index du corpus (OCR)",
+  "motif": "Vu seulement dans l'OCR (μάχτρας) ; Sud. ο 519 lit εἰς μοίρας διένεμον : à contrôler sur l'image avant de citer."
+ },
+ {
+  "v": "76–77",
+  "lemme": "εἴτ᾽ ἔστ᾽ ἔτι ζῶν εἴτ᾽ ἀπόλωλ᾽",
+  "categorie": "comiques",
+  "ref": "Men. fr. 934 (K.-Th.)",
+  "source": "LSJ s.v. κολοκύνθη",
+  "motif": "Non contrôlé sur le texte."
+ },
+ {
+  "v": "77",
+  "lemme": "εἴτ᾽ ἔστ᾽ ἔτι ζῶν εἴτ᾽ ἀπόλωλ᾽",
+  "categorie": "proverbes",
+  "ref": "Apostol. 8.73 ; Plut. Nic. (renvoi de Kock)",
+  "source": "Kock III p. 401, ad com. adesp. 20 ; image de ce volume indisponible à la date de la vérification",
+  "motif": "Non contrôlés ; numéro de PCG VIII non contrôlé."
+ },
+ {
+  "v": "79",
+  "lemme": "βουλῆς ἐσθ᾽ ἕδρα",
+  "categorie": "prose",
+  "ref": "IG ii² 111.37–39 ; J. D. Mikalson, The Sacred and Civil Calendar, p. 193–197",
+  "source": "Sommerstein ad 78–79",
+  "motif": "Épigraphie et ouvrage moderne absents des sources locales."
+ }
+]

@@ -1,0 +1,86 @@
+[
+ {
+  "v": "212",
+  "lemme": "ἐμοὶ δ᾽ ὅ τι βούλει χρῶ λαβών",
+  "ref": "Alciphr. III. 41 (χρῶ εἰς ὅ τι ἂν θέλῃς)",
+  "source": "Blaydes 1880, p. 154",
+  "raison": "phrase non retrouvée dans le texte d’Alciphron indexé (autre numérotation possible)"
+ },
+ {
+  "v": "212",
+  "lemme": "ἐμοὶ δ᾽ ὅ τι βούλει χρῶ λαβών",
+  "ref": "Ar. Nub. (νῦν οὖν χρήσθων ὅ τι βούλονται)",
+  "source": "Blaydes 1880, p. 154",
+  "raison": "vers ainsi formulé introuvable : Nub. 439 porte νῦν οὖν ἀτεχνῶς ὅ τι βούλονται ; sans doute une leçon propre à Blaydes"
+ },
+ {
+  "v": "213",
+  "lemme": "σαυτὸν ἐπιδίδως ἐμοί",
+  "ref": "Pl. Phaedr. p. 342 E (ἐνδοῦναι ἑαυτόν τινι)",
+  "source": "Blaydes 1880, p. 154",
+  "raison": "page impossible pour le Phèdre (Stephanus s’arrête à 279) ; exemple non retrouvé"
+ },
+ {
+  "v": "215",
+  "lemme": "ἀποξυρεῖν ταδί",
+  "ref": "Cass. Dio 57.10.5 ; Suet. Tib. 32",
+  "source": "LSJ s.v. κείρω ; Tosi, Dictionnaire n° 1479",
+  "raison": "livre 57 de Dion absent du corpus (texte lu chez Zonaras 11.1 et Sud. τ 552) ; Suétone non disponible localement"
+ },
+ {
+  "v": "215",
+  "lemme": "ἀποξυρεῖν ταδί",
+  "ref": "numéros K.-A. de Cratin. frr. 37 et 41 Kock, Eup. fr. 278 Kock, Pl. Com. fr. 174 Kock, Archipp. fr. 42 Kock, Hermipp. fr. 14 Kock, Ameips. fr. 7 Kock, Crobyl. fr. 6 Kock, Alex. fr. 264 Kock, Men. frr. 404, 626 Kock, Ar. fr. 453 Kock",
+  "source": "numérotation Kock seule vérifiée",
+  "raison": "PCG non présents sur le disque local : concordance K.-A. à établir (sauf Ar. fr. 332, donné par Sommerstein 1994)"
+ },
+ {
+  "v": "217",
+  "lemme": "ἢ μὴ διδόναι γ᾽ ἑαυτὸν ὤφελόν ποτε",
+  "ref": "Dem., Sur la couronne, 503d",
+  "source": "Willems (note 4), repris au commentaire critique, art. 217",
+  "raison": "référence non identifiée (la pagination de Reiske pour Dem. 18 ne va pas jusque-là) ; j’ai cité à la place Dem. 18.219"
+ },
+ {
+  "v": "219",
+  "lemme": "ξυρόν (mesure)",
+  "ref": "Moer. ξ 5 H. (p. 272 Pierson)",
+  "source": "Theodoridis, app. à Phot. ξ 79",
+  "raison": "article non retrouvé dans l’OCR de Moeris (Bekker 1833) ; édition Hansen absente"
+ },
+ {
+  "v": "219",
+  "lemme": "ξυρόν (mesure)",
+  "ref": "Thom. Mag. 251, 10 ; Aristid. ἐν Περικλεῖ (3, 97) μὴ λέοντα ξυρεῖν δόξωμεν",
+  "source": "Theodoridis, app. à Phot. ξ 78",
+  "raison": "Thomas Magister absent du corpus ; la citation d’Aristide n’a pas été recherchée dans l’édition de Dindorf"
+ },
+ {
+  "v": "220",
+  "lemme": "ξυροδόκης",
+  "ref": "Lobeck ad Phryn. p. 307",
+  "source": "Fritzsche 1838, p. 75 ; Enger 1844, p. 47",
+  "raison": "Lobeck absent des sources locales ; même cas pour Phryn. p. 328 Lob. (ἡμικεφάλαιον), lu seulement dans l’apparat de Bethe"
+ },
+ {
+  "v": "225",
+  "lemme": "οὐ γὰρ μὰ τὴν Δήμητρά γ᾽",
+  "ref": "Ar. Av. 1443",
+  "source": "Blaydes 1880, p. 155",
+  "raison": "le vers (Perseus : λέγων ἀνεπτέρωκεν ὥσθ᾽ ἱππηλατεῖν) ne présente pas le tour ; renvoi sans objet ou faute d’impression"
+ },
+ {
+  "v": "227",
+  "lemme": "ἡμίκραιραν",
+  "ref": "Aelius Dionysius η 9 (Erbse)",
+  "source": "testimonia de l’auteur (edition/donnees/travaux_anterieurs/testimonia.tsv, G0154)",
+  "raison": "recueil d’Erbse absent du corpus local et des scans ; Hsch. η 496 et Eust. relus, mais pas cet article"
+ },
+ {
+  "v": "227",
+  "lemme": "ἡμίκραιραν",
+  "ref": "IG II² 1356 (ἡμίκραιραν χορδῆς)",
+  "source": "LSJ s.v. ἡμίκραιρα",
+  "raison": "inscription non consultée"
+ }
+]

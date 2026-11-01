@@ -3,16 +3,16 @@
 <page folio="167v" image="11_f167v_classense169v_vv0423-0465.jpg" vers="423-465">
   <lignes>
     <l n="1" v="423">λακωνὶκἄττατρεῖσ ἔχονταγομφίουσ</l>
-    <l n="2" v="424">προ τοῦ μὲν οὖν ἦν ἀλλὑπο<unclear cert="moyenne">ῖ</unclear>ξαι τὴνθύραν</l>
+    <l n="2" v="424">προ τοῦ μ<unclear cert="moyenne">ὲ</unclear>ν οὖν ἦν ἀλλὑπο<unclear cert="faible">ῖ</unclear>ξαι τὴνθύραν</l>
     <l n="3" v="425">ποι η σαμέναισι δακτύλιοντριω βόλου·</l>
     <l n="4" v="426">νῦν δ᾽οὗτοσαὐτοὺσ· ὦ κότριψἐὐρ ιπί δησ·</l>
     <l n="5" v="427">ἐδί δαξ ενθριπήδεστα· ἔχειν σφραγίδια</l>
-    <l n="6" v="428">ἐξαψαμένουσ· νῦν οὖν ἐμοὶ το<subst main="R1c"><del type="surcharge">ῦ</del><add place="ligne">ύ</add></subst>τ<subst main="R1c"><del type="surcharge">ο</del><add place="ligne">ω</add></subst> δοκεῖ</l>
+    <l n="6" v="428">ἐξαψαμένουσ· νῦν οὖν ἐμοὶ το<unclear cert="moyenne">ῦ</unclear>τ<subst main="R1c"><del type="surcharge">ο</del><add place="ligne">ω</add></subst> δοκεῖ</l>
     <l n="7" v="429">ὄλεθρόντιν᾽ ἡ μᾶσ κυρκανᾶν ἁμωσγέπωσ</l>
     <l n="8" v="430">ἡ φαρμάκοισιν· ἢ μίᾶ<unclear cert="moyenne">ι</unclear> γέτω τέχνηι</l>
     <l n="9" v="431">ὅπω σ ἀπολεῖται ταῦτ᾽ἐγὼ φανερῶσλέγω</l>
-    <l n="10" v="432">τὰδ᾽ἄλλαμετὰτῆσγρ αμματέωσ· συγγράψομαι·</l>
-    <l n="11" v="434" retrait="6"><nota main="R2">χ<hi rend="sus">ο</hi></nota>ο<unclear cert="moyenne">ὔ</unclear>π<subst main="R2"><del type="surcharge">ω</del><add place="ligne">ώ</add></subst><add place="dessus" main="R2">πο</add> τεταύτησ</l>
+    <l n="10" v="432">τὰδἄλλαμετὰτῆσγρ αμματέωσ· συγγράψομαι·</l>
+    <l n="11" v="434" retrait="6"><nota main="R2">χ<hi rend="sus">ο</hi></nota>ο<unclear cert="moyenne">ὔ</unclear>π<subst main="R?"><del type="surcharge">ω</del><add place="ligne">ώ</add></subst><add place="dessus" main="R2">πο</add> τεταύτησ</l>
     <l n="12" retrait="6">ἤ κουσαπολυπλοκωτέρασ</l>
     <l n="13" retrait="5">γυναι κὸσ· οὐδε δεινότερονλεγούσησ·</l>
     <l n="14" retrait="5">πάνταγὰρ λέγει δί καια· πάσασδεἰδέασ</l>
@@ -32,6 +32,19 @@
     <l n="28" v="450">νῦν δ᾽οὗτοσ ἐνταῖσι τραγωιδίαισποῶν</l>
     <l n="29" v="451">τοὺσἄνδρασ ἀναπεπεικεν οὐκ᾽εἶναι θεούσ·</l>
     <l n="30" v="452">ὥστ᾽οὐκέτἐμπολῶμεν οὐδ᾽εἰ σήμισυ·</l>
+    <l n="31" v="453">νῦν οὖν ἁπάσαισι παραινῶ καὶ λέγω·</l>
+    <l n="32" v="454">τοῦτον κολάσαι τὸν ἄνδραπολλῶν οὕνεκα·</l>
+    <l n="33" v="455">ἄγριαγὰρ ἡμᾶσ ὦ γυναῖ κεσ δρᾶι κακὰ</l>
+    <l n="34" v="456">ἅτ᾽ἐν ἀγρ ί οισι λαχάνοισ αὐτοστραφεὶσ</l>
+    <l n="35" v="457">ἀλλ᾽εἰσ ἀγορὰν ἄπειμι· δεῖ γὰρ ἀνδράσιν</l>
+    <l n="36" v="458">πλέξαι στεφάνουσ· <ras main="R3">σὐ</ras>νθηματιαίουσ εἴκοσιν·</l>
+    <l n="37" v="459"><nota main="R2"><hi rend="monogramme">χρ</hi></nota>ἕτερον αὖτί λῆ ματοῦτο</l>
+    <l n="38" retrait="5">κόμψό τερον ἔτ᾽ ἢ τὸ πρότερον ἀναπέφην<hi rend="sus">εν</hi>·</l>
+    <l n="39" retrait="6">οἷα κατεστωμύλατο</l>
+    <l n="40" retrait="6">οὐκ᾽ἄκαιραφρένασἔχουσα·</l>
+    <l n="41">καὶ πολύπλοκον νόημα· οὐδἀσύνετ᾽ἀλλὰ</l>
+    <l n="42" retrait="5">πιθανὰπάντα· δεῖ δὲταύτησ·</l>
+    <l n="43">τῆσ ὕβρεωσ ἡμῖ ν τὸν ἄνδρα περιφανῶσ δοῦναι δίκην</l>
   </lignes>
   <scholies>
   </scholies>

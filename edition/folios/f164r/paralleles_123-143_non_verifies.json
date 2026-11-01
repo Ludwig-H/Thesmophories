@@ -1,0 +1,142 @@
+[
+ {
+  "v": "124",
+  "lemme": "κίθαρίν",
+  "ref": "Alc. fr. 41.15 V.",
+  "source": "Prato 2001, ad 124 ; LSJ s.v. κίθαρις (Alc. Supp. 17)",
+  "raison": "non retrouvé dans le corpus local (Bergk, DCLP) ; l'édition de Voigt n'est pas disponible"
+ },
+ {
+  "v": "124",
+  "lemme": "κίθαρίν",
+  "ref": "Eur. Hyps. I iii 10 Bond (κίθαρις ἐξανατέλλει ?)",
+  "source": "Prato 2001, ad 124",
+  "raison": "non retrouvé dans le corpus local ; la phrase de Prato semble mêler Timothée et Hypsipyle : à contrôler sur Bond"
+ },
+ {
+  "v": "124",
+  "lemme": "ματέρ᾽ ὕμνων",
+  "ref": "Muecke, CQ 32 (1982), p. 48",
+  "source": "Prato 2001, ad 124",
+  "raison": "étude moderne non consultée"
+ },
+ {
+  "v": "125",
+  "lemme": "ἄρσενι βοᾷ",
+  "ref": "Aristid. Quint. 2.12 (2.101 Mb.)",
+  "source": "Sommerstein 1994, ad 124–8 ; LSJ s.v. ἄρσην (ἄ. φθόγγοι)",
+  "raison": "Aristide Quintilien n'est pas dans le corpus local"
+ },
+ {
+  "v": "128",
+  "lemme": "ἄγαλλε",
+  "ref": "Phot. α 164",
+  "source": "testimonia de l'auteur (Photius α 164 = Συναγωγήᴮ α 145)",
+  "raison": "numéro confirmé par l'apparat de Cunningham à Σᵇ α 145, mais le texte de Photius (Theodoridis t. I) n'est pas sur le disque ; Naber et Porson ne donnent pas la glose à l'endroit attendu"
+ },
+ {
+  "v": "130",
+  "lemme": "ὡς ἡδὺ τὸ μέλος",
+  "ref": "Anon. Ambros., Anecd. var. p. 228 Studemund ; Sapph. fr. 44.24 V.",
+  "source": "Prato 2001, ad 130–2",
+  "raison": "non disponibles dans le corpus local"
+ },
+ {
+  "v": "133",
+  "lemme": "γάργαλος",
+  "ref": "Moer. γ 23 ; Phryn. PS 56, 9 de Borries",
+  "source": "testimonia de l'auteur ; LSJ s.v. γαργαλισμός (Moeris)",
+  "raison": "Moeris et Phrynichus PS (de Borries) non disponibles dans le corpus local ; Phrynichus cité par Meineke IV, p. 386 (Bekk. Anecd. 31, 25) : γάργαλος· ὁ ἐρεθισμός, καὶ γαργαλισμός· τὸ δὲ γαργαλίζεσθαι οὐκ ἀττικόν : à lire sur l'édition"
+ },
+ {
+  "v": "133",
+  "lemme": "ὑπὸ τὴν ἕδραν",
+  "ref": "Rabelais, Gargantua XIII (« [sa soye] me causoit au fondement une volupté bien grande »)",
+  "source": "l'auteur (article 133 désactivé)",
+  "raison": "parallèle français, texte non contrôlé"
+ },
+ {
+  "v": "133",
+  "lemme": "γάργαλος",
+  "ref": "Ar. fr. 44 K.-A. (δυσγάργαλις ; Kock I, p. 402) ; Ael. NA 16.9 ; Lib. Ep. 234.1",
+  "source": "van Leeuwen 1904, p. 25 ; Kock ; LSJ",
+  "raison": "numérotation K.-A. non contrôlée"
+ },
+ {
+  "v": "134",
+  "lemme": "κατ᾽ Αἰσχύλον",
+  "ref": "Ar. Nub. 1366 ; Lys. 188 ; fr. 153 K.-A. (Eschyle nommé) ; Ach. 1000, Eq. 499, Nub. 626 (κατά + acc.)",
+  "source": "Prato 2001, ad 134",
+  "raison": "rapprochements généraux, non retenus au fichier principal, à reprendre si l'auteur le souhaite"
+ },
+ {
+  "v": "135",
+  "lemme": "ἐκ τῆς Λυκουργείας",
+  "ref": "Demetr. Lac. = TrGF III, T 69 Gi Radt ; Naev. Lycurgus",
+  "source": "Prato 2001, ad 135",
+  "raison": "non disponibles dans le corpus local"
+ },
+ {
+  "v": "135",
+  "lemme": "Λυκουργείας",
+  "ref": "Eust. Il. 785, 20",
+  "source": "Fritzsche 1838, p. 42",
+  "raison": "page d'Eustathe non lue"
+ },
+ {
+  "v": "136",
+  "lemme": "γύννις",
+  "ref": "Phryn. PS 60, 19 de Borries ; Zon. 457 ; Et. M. 243, 8 ; Thom. Mag. 24, 17",
+  "source": "Prato 2001, ad 136 ; testimonia de l'auteur ; apparat des sources d'Adler (Sud. γ 504)",
+  "raison": "Phrynichus, Thomas Magister non disponibles ; Zonaras (OCR de Tittmann) et EM : mot non trouvé par l'index ; à lire sur les éditions"
+ },
+ {
+  "v": "137",
+  "lemme": "βάρβιτος",
+  "ref": "Phot. β 62 ; Poll. 4.59",
+  "source": "testimonia de l'auteur ; Hsch. β 211 (test.)",
+  "raison": "Photius α–μ (Theodoridis) absent ; index de Naber sans entrée ; Pollux OCR non retrouvé"
+ },
+ {
+  "v": "138",
+  "lemme": "τί βάρβιτος λαλεῖ κροκωτῷ",
+  "ref": "Plaut. Truc. II 3, 48",
+  "source": "Hotibius, Fritzsche 1838, p. 45 ; Blaydes 1880, p. 147",
+  "raison": "numérotation ancienne, vers non identifié dans le texte de Leo"
+ },
+ {
+  "v": "138",
+  "lemme": "κεκρυφάλῳ",
+  "ref": "Ar. fr. 332, 6 K.-A. (320, 6 K.) ; Eup. fr. 170 K. ; Antiph. fr. 117 K.",
+  "source": "Blaydes 1880, p. 148 ; van Leeuwen 1904, p. 26 ; Kock III, p. 77 ; LSJ",
+  "raison": "fragments non lus"
+ },
+ {
+  "v": "139",
+  "lemme": "λήκυθος",
+  "ref": "Clearch. fr. 109 W. (LSJ : 72) ; Soph. fr. 1063 R. ; Phryn. PS p. 86 B. ; Poll. 4.114",
+  "source": "Hsch. λ 856–857 (renvois de l'éd.) ; LSJ ; l'auteur",
+  "raison": "connus par le renvoi seulement"
+ },
+ {
+  "v": "139",
+  "lemme": "ὡς οὐ ξύμφορον",
+  "ref": "Ar. Vesp. 1126 ; Eccl. 515 (ξύμφορος πρός) ; Eq. 1233 ; Ran. 175, 807 (ξυμβαίνειν)",
+  "source": "van Leeuwen 1904, p. 26",
+  "raison": "renvois non repris : usage général, à lire si l'auteur le souhaite"
+ },
+ {
+  "v": "140",
+  "lemme": "κατρόπτου",
+  "ref": "IG II² 1471.47 ; 1544.58 ; Threatte I, p. 477 ; Dover ad Nub. 752 et ad Ran. 47",
+  "source": "l'auteur (critique.tex, 140) ; Prato 2001, ad 140",
+  "raison": "épigraphie et études modernes hors du corpus local : κάτροπτον n'est attesté dans aucun texte de l'index (LSJ s.v. κάτροπον renvoie seulement à κάτοπτρον)"
+ },
+ {
+  "v": "142",
+  "lemme": "χλαῖνα",
+  "ref": "Moer. χ 19 ; Phot. λ 57",
+  "source": "testimonia de l'auteur",
+  "raison": "Moeris non disponible ; Phot. (Theodoridis II) absent"
+ }
+]

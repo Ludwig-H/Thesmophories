@@ -1,1 +1,98 @@
-[]
+[
+ {
+  "ref": "Orph. Arg. 272 sq.",
+  "lemme": "δρυόχους (v. 52)",
+  "signale_par": "van Leeuwen ad 52",
+  "raison": "Texte absent du corpus local ; non lu."
+ },
+ {
+  "ref": "Ar. fr. 488 K.-A.",
+  "lemme": "γογγύλλει (v. 56)",
+  "signale_par": "mémoire de la correspondance Kock / K.-A.",
+  "raison": "Le fragment est cité d'après Kock (fr. 471, p. 512) ; numéro K.-A. non contrôlé."
+ },
+ {
+  "ref": "Cratin. fr. 342 K.-A.",
+  "lemme": "γνωμοτυπεῖ (v. 55)",
+  "signale_par": "mémoire de la correspondance Kock / K.-A.",
+  "raison": "Le fragment est cité d'après Kock (fr. 307, p. 102, image lue) ; numéro K.-A. non contrôlé."
+ },
+ {
+  "ref": "Simon. fr. 543 PMG",
+  "lemme": "κῦμα … κατακοιμάσθω (vv. 44–46)",
+  "signale_par": "mémoire",
+  "raison": "Cité d'après Denys d'Halicarnasse et Bergk (fr. 37) ; numéro PMG non contrôlé."
+ },
+ {
+  "ref": "Agathon, TrGF 39 (numéros des fragments)",
+  "lemme": "γνωμοτυπεῖ κἀντονομάζει (v. 55)",
+  "signale_par": "recherche directe",
+  "raison": "Les fragments sont cités d'après Aristote et Athénée ; numéros TrGF non contrôlés (Snell absent du corpus local)."
+ },
+ {
+  "ref": "Epicr. (n° K.-A. du fragment ap. Ath. 11.782f)",
+  "lemme": "πόδες … μὴ λυέσθων (vv. 47–48)",
+  "signale_par": "Meineke, FCG III, p. 371–372",
+  "raison": "Fragment cité d'après Athénée ; numéro K.-A. non contrôlé."
+ },
+ {
+  "ref": "Strato, fr. 1 K.-A.",
+  "lemme": "καὶ λαικάζει (v. 57)",
+  "signale_par": "mémoire",
+  "raison": "Cité d'après Ath. 9.382b–383b (Στράτων ἐν Φοινικίδῃ) et Kock III, p. 362 ; numéro K.-A. non contrôlé."
+ },
+ {
+  "ref": "Men. Epitr. 987 Sandbach ; Men. fr. 507 K.-A. ; Ar. fr. 927 K.-A.",
+  "lemme": "βομβάξ (πάξ) ; ἀγροιώτας (τὴν σκάφην σκάφην)",
+  "signale_par": "Hansen ad Hsch. π 433 ; Tosi n. 2272",
+  "raison": "Références de seconde main ; textes non lus. Mentionnés seulement dans les remarques."
+ },
+ {
+  "ref": "Archil. 32 (LSJ s.v. κύβδα)",
+  "lemme": "πρανοῦν (v. 50)",
+  "signale_par": "LSJ",
+  "raison": "Vers non lu sur un texte source."
+ },
+ {
+  "ref": "Ael. Dion. λ 6 ; Phryn. PS 120, 3 ; Schol. Plat. Euthyd. 303a",
+  "lemme": "λαικάζει ; βομβάξ",
+  "signale_par": "testimonia de Latte et Hansen ; Meineke I, p. 10–11",
+  "raison": "Renvois d'éditeurs, textes non consultés (Aelius Dionysius et les scholies à Platon sont absents du corpus)."
+ },
+ {
+  "ref": "Ar. Nub. 562, leçon de V (προτέρας)",
+  "lemme": "προτέρους (v. 50)",
+  "signale_par": "critique.tex",
+  "raison": "Variante non contrôlée sur un apparat ou sur le manuscrit."
+ },
+ {
+  "ref": "EM 455, 55 (θριγκός) ; Et. Gen. ; Et. Gud. 264, 56",
+  "lemme": "θριγκοῖς (v. 58)",
+  "signale_par": "apparat de Latte à Hsch. θ 749",
+  "raison": "OCR de l'Etymologicum Magnum illisible à cet endroit ; page non lue."
+ },
+ {
+  "ref": "Moer. ; Antiatt. ; Aelius Dionysius ; Phot. α–μ (Theodoridis I–II)",
+  "lemme": "ensemble des vv. 43–61",
+  "signale_par": "consigne de la tâche",
+  "raison": "Antiatticiste (Bekker, Anecd. I) non indexé, Aelius Dionysius et Moeris absents du corpus, Photius α–μ seulement en OCR médiocre de Naber : le dépouillement de ces lexiques reste incomplet."
+ },
+ {
+  "ref": "Taillardat, Les images d'Aristophane, §§ 166, 758, 784 ; Austin–Olson 2004, commentaire",
+  "lemme": "ensemble des vv. 43–61",
+  "signale_par": "commentaire de l'auteur ; consigne de la tâche",
+  "raison": "PDF du Drive trop lourds pour le téléchargement (> 10 Mo) et extraits locaux sans commentaire : signalements seulement à travers le commentaire de l'auteur, Sommerstein, van Leeuwen, Rogers, Fritzsche et Blaydes."
+ },
+ {
+  "ref": "Enger 1844, commentaire",
+  "lemme": "ensemble des vv. 43–61",
+  "signale_par": "consigne de la tâche",
+  "raison": "PDF sans couche texte, non parcouru pour ces vers."
+ },
+ {
+  "ref": "M. L. West, ZPE 92 (1992) 47–50 ; H. D. Jocelyn, PCPhS 206 (1980) 12–66",
+  "lemme": "vv. 43–50 ; λαικάζει",
+  "signale_par": "Sommerstein ; Austin, Dodone 19 (1990)",
+  "raison": "Bibliographie secondaire non consultée."
+ }
+]

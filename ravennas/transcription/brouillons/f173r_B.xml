@@ -1,53 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page folio="173r" image="22_f173r_classense175r_vv0876-0919.jpg" vers="877-919">
   <lignes>
-    <l n="1" v="877"><parag/><nota main="R2">ευρι<hi rend="sus">π</hi></nota>ποίαν δε χώραν· εἰσεκέλσαμεν σκάφει·</l>
-    <l n="2" v="878"><parag/><nota main="R2">μνη<hi rend="sus">σ</hi></nota>αἴγυπτον· ὦ δυστηνοσ οἵ πεπλώκαμεν·</l>
-    <l n="3" v="879"><nota main="R2">γυ<hi rend="sus">ν</hi></nota>πείθει τί τῶι κακῶσ ἀπολουμένωι·</l>
+    <l n="1" v="877"><parag/><nota main="R2">ευρι<hi rend="sus">π</hi></nota>πο<subst main="R?"><del type="surcharge">ῖ</del><add place="ligne">ί</add></subst>αν δε χώραν· εἰσεκέλσαμεν σκάφει·</l>
+    <l n="2" v="878"><parag/><nota main="R2">μνη<hi rend="sus">σ</hi></nota>αἴγυπτον· ὦ δ<unclear cert="moyenne">ύ</unclear>στηνοσ οἵ πεπλώκαμεν·</l>
+    <l n="3" v="879"><nota main="R2">γυ<hi rend="sus">ν</hi></nota>πείθει τί<signe type="autre" main="R?">z</signe> τῶι κακῶσ ἀπολουμένωι·</l>
     <l n="4" v="880">ληροῦντι λῆρον θεσμοφόριον τουτογί·</l>
-    <l n="5" v="881"><nota main="Rrec">ευ</nota>αὐτὸσ δε πρωτεὺσ ἔνδον ἔστ᾽ἠξώπιοσ</l>
-    <l n="6" v="882"><nota main="R2">γυ<hi rend="sus">ν</hi></nota>οὐκ ἔσθ᾽ὅπωσ οὐ ναυτιᾶισ ἔτ ὦ ξένε·</l>
+    <l n="5" v="881"><unclear cert="faible"><parag main="R?"/></unclear><nota main="Rrec">εὐ</nota>αὐτὸσ δε πρωτεὺσ ἔνδον ἔστ᾽ἠξώπιοσ</l>
+    <l n="6" v="882"><nota main="R2">γυ<hi rend="sus">ν</hi></nota>οὐκ έσθ᾽ ὅπωσ οὐ ναυτιᾶισ ἔτ ὦ ξένε·</l>
     <l n="7" v="883">ὅστισ ἀκούσασ ὅ τι τέθνηκε πρωτέασ·</l>
     <l n="8" v="884">ἔπειτ᾽ ἐρωτᾶισ ἐνδον ἔστ᾽ἠξώπιοσ·</l>
     <l n="9" v="885"><parag/><nota main="R2">ευρι<hi rend="sus">π</hi></nota>αἰαὶ· τέθνηκεν· ποῦ δ᾽ ἐτυμβεύθη· τάφωι</l>
-    <l n="10" v="886"><nota main="R2">μνη<hi rend="sus">σ</hi></nota>τό δ ἐστιν αὐτοῦ σῆμ᾽ ἐφ᾽ ὧι καθήμεθα·</l>
-    <l n="11" v="887"><nota main="Rrec">γϋ</nota>κακῶ στἄρ᾽ ἐξόλοιο κἀξολεῖ γέτοι·</l>
+    <l n="10" v="886"><nota main="R2">μνη<hi rend="sus">σ</hi></nota>τό δ᾽ εστιν αὐτοῦ σῆμ᾽ ἐφ᾽ ὧι καθήμεθα·</l>
+    <l n="11" v="887"><nota main="Rrec">γϋ</nota>κακῶ στἄρ ἐξόλοιο κἀξολεῖ γέτοι·</l>
     <l n="12" v="888">ὅστισ γε τολμᾶισ σῆμα τὸν βωμὸν καλεῖν<unclear cert="moyenne">·</unclear></l>
     <l n="13" v="889"><parag/><nota main="R2">ευρι<hi rend="sus">π</hi></nota>τί δε σὺ θάσσεισ· τάσδε τυμβήρεισ ἕδρασ</l>
-    <l n="14" v="890">φάρει καλυπτὸσ ὦ ξένη<unclear cert="moyenne">:</unclear><nota main="Rrec">μν<hi rend="sus">η</hi>·</nota> βιάζομαι·</l>
-    <l n="15" v="891">γάμοισι πρωτέωσ παιδὶ συμμῖξαι λέχοσ —</l>
-    <l n="16" v="892"><parag/><nota main="R2">γυ<hi rend="sus">ν</hi></nota>τί ὦ κακόδαιμον ἐξαπατᾶι σ α<subst main="R?"><del type="surcharge">ὐ</del><add place="dessus">ὖ</add></subst>τὸν ξένον·</l>
-    <l n="17" v="893">οὗτο πανουργῶν δεῦρ᾽ ἀνῆλθεν ὦ ξένε·</l>
+    <l n="14" v="890">φάρει καλυπτὸσ ὦ ξένη<nota main="Rrec">μν<hi rend="sus">η</hi>·</nota> βιάζομαι·</l>
+    <l n="15" v="891">γάμοισι πρωτέωσ παιδὶ συμμίξαι λέχοσ —</l>
+    <l n="16" v="892"><parag/><nota main="R2">γυ<hi rend="sus">ν</hi></nota>τί ὦ κακόδαιμον ἐξαπατᾶ<unclear cert="moyenne">ι</unclear> σ α<subst main="R?"><del type="surcharge">ὐ</del><add place="ligne">ὖ</add></subst>τὸν ξένον·</l>
+    <l n="17" v="893">οὗτο σπανουργῶν δεῦρ᾽ ἀνῆλθεν ὦ ξένε·</l>
     <l n="18" v="894">ὡστὰσ γυναῖκασ· ἐπὶ κλοπῆι τοῦ χρυσίου·</l>
     <l n="19" v="895"><parag/><nota main="R2">μνη<hi rend="sus">σ</hi></nota>βαϋζα τοὐμὸν σῶμα βάλλουσα ψόγωι·</l>
     <l n="20" v="896"><parag/><nota main="R2">ευρι<hi rend="sus">π</hi></nota>ξένη· τί σ ἡ γραῦσ ἡ κακορροθοῦσά σε·</l>
     <l n="21" v="897"><parag/><nota main="Rrec">μν·</nota>αὕτη· θεονόη πρωτέωσ μὰ τὼ θεώ·</l>
-    <l n="22" v="898"><unclear cert="faible"><parag/></unclear><nota main="Rrec">γϋ</nota>εἰ μη κριτύλλάγ ἀντι θεου γ<subst main="R?"><del type="grattage">ὰ</del><add place="ligne">α</add></subst>ρ γηττόθεν·</l>
-    <l n="23" v="899">σὺ δ εἶ πανοῦργοσ<unclear cert="moyenne">:</unclear><nota main="Rrec">μν<hi rend="sus">η</hi></nota> ὁπόσα τοι βούλει λ<unclear cert="moyenne">έ</unclear>γε·</l>
-    <l n="24" v="900">οὐγαρ γαμοῦμαι σῶ κασιγνήτωι ποτε·</l>
+    <l n="22" v="898"><unclear cert="faible"><parag/></unclear><nota main="Rrec">γϋ</nota>εἰ μη κριτύλλάγἀντι θεου γ<subst main="R?"><del type="grattage">ὰ</del><add place="ligne">α</add></subst>ρ γηττόθεν·</l>
+    <l n="23" v="899">σὺ δ᾽ εῖ πανοῦργοσ<nota main="Rrec">μν<hi rend="sus">η</hi></nota> ὁπόσα τοι βούλει λ<unclear cert="moyenne">έ</unclear>γε·</l>
+    <l n="24" v="900">οὐγαρ γαμοῦμαι σῶ κασιγνήτωι ποτὲ·</l>
     <l n="25" v="901">προδοῦσα μενέλαον τὸν ἐμὸν ἐν τροίαι πόσιν —</l>
-    <l n="26" v="902"><parag/><nota main="R2">ευρι<hi rend="sus">π</hi></nota>γύναι· τί εἴπασ· άρ ἐστον ἀνταυγεῖσ κόρασ·</l>
+    <l n="26" v="902"><parag/><nota main="R2">ευρι<hi rend="sus">π</hi></nota>γύναι· τί εἴπασ· στρέψον ἀντα<subst main="R?"><del type="grattage"><unclear cert="faible">ὐ</unclear></del><add place="ligne">υ</add></subst>γεῖσ κόρασ·</l>
     <l n="27" v="903"><parag/><nota main="Rrec">μν</nota>αἰσχύνομαί σε· τὰσ γνάθουσ ὑβρισμένη·</l>
-    <l n="28" v="904"><nota main="Rrec">ευ</nota>τουτὶ· τί εστιν· ἀφασία τίστοί μ ἔχει·</l>
+    <l n="28" v="904"><parag/><nota main="Rrec">ευ</nota>τουτὶ· τί εστ<subst main="R?"><del type="grattage"><unclear cert="moyenne">ὶ</unclear></del><add place="ligne">ι</add></subst>ν· ἀφασία τίστοί μ ἐχει·</l>
     <l n="29" v="905">ὦ θεοὶ· τίν᾽ ὄψιν εἰσορῶ· τίσ εἶ γύναι·</l>
-    <l n="30" v="906"><nota main="Rrec">μν·</nota>σὺ δ εἶ τίσ· αὐτὸσ γάρ σε κάμ ἔχει λόγοσ<unclear cert="moyenne">—</unclear></l>
-    <l n="31" v="907"><nota main="Rrec">ευ</nota>ἑλληνὶσ εἶ τίσ· ἢ πιχωρία γυνή·</l>
-    <l n="32" v="908"><nota main="Rrec">μν·</nota>ἑλληνὶσ· ἀλλὰ καὶ τὸ σὸν θέλω μαθεῖν·</l>
-    <l n="33" v="909"><nota main="Rrec">ευ</nota>ἑλένησ σ᾽ ὁμοῖαν δὴ μάλισθ᾽ ἴδον γύναι·</l>
-    <l n="34" v="910"><parag/><nota main="Rrec">μν·</nota>ἐγὼ δὲ μενέλαον· ὅσα γ᾽ ἐκ τῶν ἀφύων·</l>
-    <l n="35" v="911"><nota main="Rrec">ευ</nota>ἔγνωσ ἄρ ὀρθῶσ· ἄνδρ᾽ ἀδυστυχέστατον:</l>
+    <l n="30" v="906"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">μν·</nota>σὺ δ᾽ εῖ τίσ· αὐτὸσ γάρ σε κάμ ἐχει λόγοσ<unclear cert="moyenne">—</unclear></l>
+    <l n="31" v="907"><del type="grattage" main="R?"><gap n="2" unite="lettres" raison="grattage"/></del><nota main="Rrec">εὐ</nota>ἑλληνὶσ εἶ τίσ· ἢ πιχωρία γυνή·</l>
+    <l n="32" v="908"><del type="grattage" main="R?"><gap n="2" unite="lettres" raison="grattage"/></del><nota main="Rrec">μν·</nota>ἑλληνὶσ· ἀλλὰ καὶ τὸ σὸν θέλω μαθεῖν·</l>
+    <l n="33" v="909"><unclear cert="faible"><parag/></unclear><nota main="Rrec">εὐ</nota>ἑλένησ᾽ ὁμοῖαν δὴ μάλισθ᾽ ἴδον γύναι·</l>
+    <l n="34" v="910"><parag/><nota main="Rrec">μν·</nota>ἐγὼ δὲ μενέλαον· ὅσα γ ἐκ τῶν ἀφύων·</l>
+    <l n="35" v="911"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">εὐ</nota>ἔγνωσ ἄρ᾽ ὀρθῶσ· ἄνδρα δυστυχέστατον:</l>
     <l n="36" v="912"><parag/><nota main="Rrec">μν</nota>ὦ χρόνιοσ ἐλθὼν σῆσ δάμαρτοσ ἐσχάρασ·</l>
-    <l n="37" v="913" retrait="6">λαβε με· λαβε με πό σι·</l>
-    <l n="38" retrait="6">περίβαλλε δὲχέρασ</l>
-    <l n="39" v="915">φερεσε κύσω· ἄπαγέ μ᾽ ἄπαγ᾽ ἄπαγ᾽ ἄπαγέ με·</l>
+    <l n="37" v="913" retrait="5">λάβε με· λάβε με πό σι·</l>
+    <l n="38" v="914" retrait="5">περίβαλλε δὲχέρασ</l>
+    <l n="39" v="915"><signe type="repere" main="Rrec" instrument="mine">9</signe>φερεσε κύσω· ἄπαγέ μ᾽ ἄπαγ᾽ ἄπαγ᾽ ἄπαγέ με·</l>
     <l n="40" v="916">λαβὼν ταχὺ πάνυ<unclear cert="moyenne">:</unclear><nota main="Rrec">γϋ</nota> κλαύσετ᾽ ἄρα νὴ τὼ θεὼ</l>
-    <l n="41" v="917">ὅστισσ᾽ ἀπάξει τυπτόμενο στῆι λαμπάδι·</l>
+    <l n="41" v="917">ὅστισσ ἀπάξει τυπτόμενο στῆι λαμπάδι·</l>
     <l n="42" v="918"><parag/><nota main="R2">ευρι<hi rend="sus">π</hi></nota>σὺ τὴν ἐμὴν· γυναῖκα κωλύεισ ἐμὲ</l>
-    <l n="43" v="919">τὴν τυνδάρειον παῖδ ἐπι σπάρτην ἄγειν·</l>
+    <l n="43" v="919">τὴν τυνδάρειον παῖδ ἐπι σπάρτην άγειν·</l>
   </lignes>
   <scholies>
   </scholies>
   <notes>
-    <note>Brouillon en cours : première passe des lettres, à contrôler mot à mot.</note>
+    <note>Lecture B, par passes. 43 lignes, n identique à l'index de la segmentation ; aucune réglure vide. Vers : numérotation usuelle (l. 38 = v. 914, colon à part dans R). Esprits d'espèce indistincte sur la page : points, virgules, triangles ; la valeur doux/rude n'y est pas une donnée, sauf quand une note le dit. Sur toute la page, T pose entre deux mots jusqu'à trois marques distinctes : crochet (apostrophe), virgule ou triangle (esprit), oblique (accent), déportées à droite (ainsi l. 6, 11, 39, 40). Une seule marque entre deux mots est écrite comme esprit du mot suivant (l. 11, 22, 28, 30, 34, 41, 43), selon le guide, § 2.8. Blancs nets gardés (l. 11, 16, 20, 37, 41, 43) ; soudures à trait continu (l. 5, 8, 18, 22, 24, 28, 38, 41).</note>
+    <note>Sigles : S2 (ευρι^π, μνη^σ, γυ^ν) par la forme ; 1516 orangés à la mesure (l. 22 ΔB/R +0,53 ; l. 14 +0,60 ; l. 23 +0,76 ; l. 30 +1,47 ; l. 34 +1,16 ; l. 36 +0,93 ; l. 27 +1,19). Décalque du f. 172v en marge extérieure et scholies non transcrits.</note>
+    <note ligne="1">ποίαν : accent à base épaisse et sombre (x 286–296, y 386–392), prolongée d'un long trait fin jusqu'à x≈312 : circonflexe réduit allongé en aigu, d'accord avec Velsen 1883 (ποῖαν R corr. in ποίαν R²), contre l'inventaire (« aucune trace »). Main R? (R² Velsen). δε : aucun accent visible, à ×7, entre δ et χ ; Velsen 1883 ne le signale pas ; référence δὲ.</note>
+    <note ligne="2">δύστηνοσ : pas d'accent isolé ; oblique à tête épaisse (x 558–567, y 434–441) soudée au pied de l'ει de la l. 1 (εἰσεκέλσαμεν) : aigu déporté probable, ou queue de cette ligature. οἵ : signe unique en crochet, comme Velsen 1883 (οἵ R) ; référence οἷ. Au changement de réplique du v. 878, simple point après αἴγυπτον, sans dicolon ni blanc, comme Velsen 1883 (om. R).</note>
+    <note ligne="3">Aucune paragraphos devant πείθει (bleu et original), contre Velsen 1883 et 1871 (— R) : γυ^ν seul. τί, aigu net (Velsen : τί R). Signe pâle en z (x 398–410, y 488–505) entre τί et τῶι : matière claire, peut-être reste d'un tracé gratté ; ni lettre ni ponctuation lisibles ; sens inconnu. R n'a ni τούτῳ (référence) ni κακῷ (texte de l'auteur) : τῶι κακῶσ. Mouchetures sur le τ de τί, sans valeur.</note>
+    <note ligne="4">Pas de point après λῆρον (l'inventaire en imprime un). λῆρον : circonflexe réduit à un point rond (x≈462). θεσμοφόριον comme Velsen 1883 ; référence Θεσμοφορεῖον.</note>
+    <note ligne="5">εὐ de 1516 très pâle, avec petite marque « ) » au-dessus à gauche (x≈160, y 565–575). Barre horizontale dans le sigle (x 190–212, y≈592) : langue de l'ε ou trait « — » que Velsen 1871 donne à la main des scholies et Velsen 1883 à R² ; mesure sans écart net avec le sigle ; d'où parag douteuse, main R?. δε sans accent visible. ἔστ᾽ἠξώπιοσ : τ lié à η ; crochet (apostrophe) x≈826, point (esprit) x≈844 ; aucun accent sur η ; en un mot, comme Velsen 1883 (Prato : ἠξώπιος R). -ος en spirale, sans point final (la l. 8 en a un).</note>
+    <note ligne="6">έσθ᾽ : aigu seul sur ε (x≈323), sans esprit, comme Velsen 1883. Au-dessus de ο et π : crochet x≈384 (apostrophe), virgule x≈400 (esprit), oblique x≈412 (aigu). ναυτιᾶισ : circonflexe sur α, ι écrit ; corr. ex ναυτίαις sec. Velsen 1883, non visible (l'inventaire : trace « possible » ; rien de net à ×9, original et contraste). ἔτ sans apostrophe ni ponctuation, comme Velsen 1883.</note>
+    <note ligne="7">ὅστισ sans γ᾽, comme Velsen 1883 (RG) ; référence ὅστις ⟨γʼ⟩. ὅ τι en deux mots.</note>
+    <note ligne="8">Esprit de ἔπειτ᾽ : point isolé rejeté à gauche (x≈220). ἐνδον : une seule marque, à gauche de ε (x≈584) : pas d'accent visible. ἔστ᾽ἠξώπιοσ· : crochet x≈777, triangle x≈798 ; point final.</note>
+    <note ligne="9">αἰαὶ : grave, comme Enger et Velsen 1883 ; référence αἰαῖ. τέθνηκεν· avec point, ν comme Velsen 1883 ; référence τέθνηκε. Point après ἐτυμβεύθη (x≈898) : séparé du τ par un blanc de 4 px à ×12, donc point et non goutte d'attaque ; non signalé par Velsen 1883. τάφωι sans ponctuation finale. Paragraphos courte, x≈152–177 : l'inventaire hésite T ou S2 ; encre non discriminante, traitée comme marque de T.</note>
+    <note ligne="10">τό δ᾽ en deux mots ; crochet (apostrophe) à x≈306, au-dessus du début de ε. εστιν sans esprit ni accent, comme Velsen 1883 ; référence ἐστὶν. Pas de paragraphos, comme Velsen 1883 (om. R).</note>
+    <note ligne="11">κακῶ στἄρ : blanc de 16 px après ω ; σ, τ, α, ρ liés (στ en α à pied). Marques : crochet x≈396 (apostrophe de τ᾽), virgule x≈410 (esprit), oblique x≈425 (aigu), triangle x≈441 (esprit de ἐξόλοιο, ou apostrophe de ἄρ) : Velsen et Prato impriment τ᾽ ἄρ᾽. γέτοι : γέ τοι écrit d'un trait, ε lié à τ ; référence γέ τοι. Pas de marque de T, comme Velsen 1883 (omm. RG).</note>
+    <note ligne="12">R a βωμὸν, net (référence et auteur de même) ; β en « u » + ω, grave sur ο. Fin de ligne : petite oblique isolée (x 1098–1106, y 895–899) : point allongé de T, ou repère gris de la coupure c 8 de la Juntine (Velsen 1871, v. 888) ; la mesure (ΔB/R −0,50, n = 23) ne décide pas pour un si petit signe. Trait fin, pâle et long au-dessus de -νκ- (x≈895–945, y≈892) : pli ou réglure.</note>
+    <note ligne="13">δε sans accent, comme Velsen 1883 ; référence δὴ, Wilson donne δὲ R. θάσσεισ· : point. ἕδρασ : queue du σ prolongée, sans valeur ; pas de point final.</note>
+    <note ligne="14">Ni dicolon ni paragraphos lisibles au changement de réplique. Velsen 1883 et 1871 (:) et l'inventaire (« deux points bruns sous le ν ») ont un dicolon : sur l'image, μν est partout orangé, sans brun dessous ; le point inférieur de l'inventaire (x≈747, y≈1007) est le grave de παιδὶ (l. 15) ; reste, à droite du ν, un petit point pâle oblique (x≈762, y≈991) : point d'abréviation, comme aux l. 21, 30, 32, 34 ; dicolon non écrit (guide, § 2.6). Oblique pâle au-dessus à droite de η suscrit (x 769–775, y 959–976), comme à la l. 23 : prolongement du bras du ν ? Non transcrite.</note>
+    <note ligne="15">συμμίξαι : aigu, comme Velsen 1883 et Prato (RG), contre Wilson (-μῖξαι R). Après λέχοσ : trait fin prolongeant le σ, puis tiret isolé (x 1083–1100, y 1004–1016), grisâtre (ΔB/R −0,23, n = 49), de même aspect que le tiret de la l. 25 (−0,31) : écrit « — ».</note>
+    <note ligne="16">ἐξαπατᾶι σ : le signe en z de l'inventaire (x 818–832, y 1058–1078) est un ι en deux touches, sur le modèle des l. 18 et 41 ; σ séparé ensuite par un blanc net. αὖτὸν : esprit triangulaire sombre (x≈928) et petit tilde fin et pâle au-dessus à droite (x≈935, y≈1041) : circonflexe ajouté, d'accord avec Velsen 1883 (αὐτὸν R corr. in αὖτὸν R²) et Prato. Main R? (R² Velsen, schol. m. Velsen 1871). κακόδαιμον comme Prato ; pas de blanc entre αὖ et τὸν.</note>
+    <note ligne="17">οὗτο σπανουργῶν : blanc de 17 px après ο ; le σ final est soudé au π : trois panses sous la barre (x 315–350), contre deux pour le ϖ (guide, [L_sp2]), non οὗτο πανουργῶν. Esprit et circonflexe au-dessus de υ. ξένε : aigu mince et déporté (x≈969) ; corr. ex ξενε sec. Velsen 1883 (R²), non visible comme ajout : non encodé.</note>
+    <note ligne="18">ὡστὰσ : σ final de ὡσ et τ liés en στ à pied, trait continu. Accent de τὰσ à x≈311. ἐπὶ : petit point à x≈646 pour le grave. κλοπῆι : ι en deux touches (guide, [P_klop]), non dicolon.</note>
+    <note ligne="19">βαϋζα sans accent, tréma à deux petits points, comme Velsen 1883 et Wilson ; ζ en « 3 », non ξ ; référence βάυζε, auteur κόνυζα. Prato : βαῦζα R, à rejeter sur ce point.</note>
+    <note ligne="20">τί σ : blanc net, l'accent appartient à τί (la coupe de R est τί σ, non τίσ). κακορροθοῦσά : signe anguleux sur ου (x≈882), différent des circonflexes ronds de la page : corr. ex κακορροθουσά, R² Velsen 1883 ; pas d'état premier lisible : non encodé. Aigu sur σά.</note>
+    <note ligne="21">μν· de 1516 sur paragraphos épaisse de T. Pas de dicolon avant μὰ, comme Velsen (omm. RG). θεώ : aigu long et mince.</note>
+    <note ligne="22">Parag sec. Velsen 1871 et 1883 (— R), sous la barre orangée du Γ : invisible. εἰ μη : ει en q ; μη sans accent, comme Velsen 1883. κριτύλλάγἀντι : aigus sur ύ et ά, comme Velsen et Prato, contre Enger (κριτύλλα) ; γ lié à α ; un seul triangle (x≈519), écrit esprit de ἀντι ; Velsen, Prato : γ᾽. θεου sans accent. γαρ : trace grise de grave grattée au-dessus de α (x 748–762, y 1294–1306), visible sur le canal bleu : corr. ex γὰρ, Velsen 1883. Blanc entre γαρ et γηττόθεν : gardé, comme Velsen 1883 ; référence Γαργηττόθεν. Tréma de γϋ olive, à la mesure proche de T ; sigle orangé (ΔB/R +0,53).</note>
+    <note ligne="23">δ᾽ εῖ : crochet (apostrophe, x≈295), bloc (circonflexe réduit, x≈312) ; ει en q ; pas d'esprit, comme Velsen 1883. Dicolon de Velsen (: R) non visible sous μν^η : ni brun ni point dégagés ; non écrit. Oblique pâle qui prolonge le bras du ν vers le haut. λέγε : accent peu distinct des hampes voisines.</note>
+    <note ligne="24">οὐγαρ : pas d'accent sur α (un seul signe à gauche, sur ο) ; υ et γ liés ; Velsen 1883 ne signale rien ; référence οὐ γὰρ. σῶ sans ι, κασιγνήτωι avec ι : tels qu'écrits. ποτὲ : grave sur ε (x≈967), non ποτε.</note>
+    <note ligne="25">Ligne allongée, dépasse la réglure droite. προδοῦσα ; μενέλαον comme Enger, Prato, Wilson (référence Μενέλεων). τὸν ἐμὸν ἐν, comme Velsen 1883 et Prato. Tiret final de T (x≈1125–1175), cf. guide, § 2.6.</note>
+    <note ligne="26">εἴπασ : aigu, comme Velsen 1883 ; référence εἶπας. στρέψον : στ en α à pied, ρ, ε, ψ en croix ; l'ensemble se lit d'abord « ἄρ ἔστον » ; R n'a pas ἄρ᾽ ἔστον. ἀνταυγεῖσ : trace grise oblique (x≈785–793, y≈1455–1464) au-dessus de α, à gauche de υ ; signe gratté ; d'accord avec Velsen 1883 (corr. ex ἀνταὐγεῖς) sur le fait, non sur l'espèce (inventaire : aigu sur υ) ; circonflexe intact. Main R?.</note>
+    <note ligne="27">Paragraphos pâle (x 124–150, y 1518–1529), brune (ΔB/R −0,61), au-dessus du ÷ de la glose de gauche, distincte du μν orangé (+1,19). αἰσχύνομαί σε avec les deux aigus.</note>
+    <note ligne="28">Parag : tête grise du trait de l'ε du sigle (x 125–133, y 1561–1571 ; G/R 0,88, B/R 0,65, contre 0,79/0,45 pour l'ε orangé) : marque de T sous le sigle, comme Velsen 1871 et 1883 (— RG) ; l'inventaire ne la voyait pas. ευ sans marque d'esprit. τουτὶ· grave et point. εστιν : trace très pâle au-dessus de ι (x 454–462, y 1537–1545) : grave gratté, Velsen 1883 (corr. ex εστὶν·), probable. τίστοί : στ à cheval sur deux mots, en α à pied ; aigus de τί (x≈757) et de τοί (x≈822). μ ἐχει : un seul point rond (x≈865) ; aucun accent distinct, sauf s'il se confond avec le haut du χ.</note>
+    <note ligne="29">Point isolé dans la bande des sigles, x≈146, y≈1592 : sans fonction ; souillure ou point sans rapport avec le texte, non transcrit. θεοὶ : grave ; τίν᾽. εἶ : petit triangle à gauche + arc : esprit peut-être ajouté (R² Velsen, εῖ corr. in εἶ), l'image ne le prouve pas : corr. non encodée.</note>
+    <note ligne="30">Parag sous μν· : trait gris entre μ et ν (x 152–162, y 1649–1657 ; 0,84/0,55 contre 0,79/0,43 pour μ) : marque de T (Velsen 1871 : — I m.). δ᾽ εῖ : crochet (apostrophe, x≈288), point (circonflexe réduit, x≈306), comme Velsen 1883 (εῖ τίς·). αὐτὸσ esprit doux lisible, non αὑτὸς. γάρ σε, κάμ, accents comme Velsen 1883 ; κάμ : point oblique x≈746 écrit esprit de ἐχει ; Velsen κάμ᾽ ; pas de coronis ; aucun accent sur ε, sauf confusion avec le haut du χ. Après λόγοσ : petit tiret pâle (x≈961).</note>
+    <note ligne="31">Plage plus claire sous εὐ (x 135–170) ; ancienne marque illisible ; Velsen 1871 et 1883 : in rasura, erasa nota personae. Petite marque orangée « ) » au-dessus du sigle (x≈153, y≈1673). ἑλληνὶσ : λλ croisés ; esprit à part (x≈204). εἶ τίσ· : point après τίσ, non après εἶ : Velsen 1883 (εῖ corr. in εἶ R², τίς·). Le ι de εἶ a une traverse, en croix. ἢ πιχωρία en deux mots, ἢ grave : non ἡ.</note>
+    <note ligne="32">Même plage grattée sous μν· (Velsen 1871 : in rasura). ἑλληνὶσ : ι en deux touches, grave au-dessus (x≈337) ; point ensuite ; référence Ἑλληνίς.</note>
+    <note ligne="33">ἑλένησ᾽ : après le σ final, petite virgule en « ) » (x 366–376, y 1743–1760), à gauche de l'esprit de ὁ, qui est à part (x≈387) ; encre de T à la mesure (0,88/0,61 ; μν de 1516 : 0,79/0,48). Non signalée par Velsen 1883 (ἑλένης RG) ; la Juntine imprime ἑλένης᾽ (Velsen 1871, à contrôler sur l'imprimé). Forme inhabituelle : à revoir. Esprit de ἑ : Velsen 1871, correction de la 2e main (ἐλένης I m.) ; aucune retouche visible. εὐ : marque minuscule au-dessus (x≈150). Parag sec. Velsen 1871 : tache sombre à l'ε du sigle (x 143–150), non concluante. ὁμοῖαν : circonflexe en bloc sur ι, comme Velsen 1883. μάλισθ᾽ ἴδον : crochet, triangle, oblique, comme Velsen 1883 et Prato ; référence μάλιστʼ εἶδον.</note>
+    <note ligne="34">μν· posé sur la paragraphos de T : non biffé. μενέλαον· : point, comme Velsen, Enger, Prato ; R n'a pas σ᾽. ὅσα γ ἐκ : point rond unique (x≈689) ; Prato et Wilson γ᾽ R. ἀφύων : α, net ; référence ἰφύων, auteur λαιφίων.</note>
+    <note ligne="35">Parag : trait gris-olive à travers le sigle (x 146–162, y 1847–1857), distinct de l'orange (Velsen 1871 : — I m.). εὐ : grande marque pâle « ) » au-dessus (x≈132, y≈1829). ἄρ᾽ ὀρθῶσ : virgule, oblique, bloc (apostrophe, x≈387), triangle (esprit de ὀ, x≈418). δυστυχέστατον: : dicolon de ponctuation à deux points nets (x≈1024 ; écart 15 px), pas de changement de réplique ; comme Velsen 1883 (: R).</note>
+    <note ligne="36">μν posé sur la paragraphos de T : non biffé. ἐσχάρασ en un mot, comme Velsen et Prato, contre Enger (ἐς χάρας R) ; aigu mince déporté (x≈1000) ; corr. ex ἐσχαρας, R² Velsen 1883 : non visible comme ajout ; non encodé. Queue du σ prolongée, point isolé à x≈1108.</note>
+    <note ligne="37">Colon renfoncé (x≈347). λάβε deux fois, aigu sur α, comme Velsen 1883 et Prato ; référence λαβέ. πό σι : blanc de 16 px. Point après le premier με. Glose de S2 dans le blanc de gauche, non transcrite.</note>
+    <note ligne="38">Colon à part, comme Velsen 1883 (unum versum explent RG). περίβαλλε, λλ en deux obliques parallèles, comme Velsen, Prato, Wilson ; référence περίβαλε. δὲχέρασ : ε lié à χ. Pas de point final.</note>
+    <note ligne="39">« 9 » gris dans la marge gauche (x 32–54, y 1984–2040), visible après soustraction du fond seulement : repère de la page c 9 de la Juntine (Velsen 1871 : après le v. 914). φερεσε : sans accents, comme Velsen 1883 ; blanc de 9 px après ρ, langue de ε continue vers σ et ε ; lettres 6 = ε, non σ. Quatre ἄπαγ, quatre γ en V : ἄπαγέ μ᾽ ἄπαγ᾽ ἄπαγ᾽ ἄπαγέ με, comme Enger (ἄπαγ᾽ ἄπαγ᾽ R) ; référence et auteur trois seulement. Accents et apostrophes : crochet, virgule, oblique à x≈637–678, 742–787, 844–887. Point allongé après κύσω. π en ϖ partout.</note>
+    <note ligne="40">Dicolon de Velsen 1871 (: I m.) : deux blocs dans le Γ de γϋ, tête (x 522–538, y 2058–2071) et bloc bas (x 522–536, y 2072–2084), écartés de 15 px : T sous le sigle ; lecture probable. γϋ : forme de 1516, mais encre sans écart à T (ΔB/R −0,00, n = 73), contrairement aux autres sigles de la page ; G laisse un blanc (Velsen 1871). πάνυ : aigu très déporté (x≈481). Pas de point final. κλαύσετ᾽ ἄρα : crochet x≈729, virgule x≈753, oblique x≈771.</note>
+    <note ligne="41">ὅστισσ : deux σ liés, le second à longue barre vers α ; pas d'apostrophe : un seul point (x≈378), rejeté à droite, écrit esprit de ἀπάξει. τυπτόμενο στῆι : blanc de 15 px avant σ, στ en α à pied. τῆι : ι en deux touches, non dicolon (guide, § 3.3).</note>
+    <note ligne="42">ἐμὴν· : point net (x≈446), après le possessif. κωλύεισ comme Velsen, Prato. ἐμὲ : grave déporté (x≈862) ; référence ἐμέ ; pas de ponctuation finale. σὺ : grave.</note>
+    <note ligne="43">παῖδ ἐπι σπάρτην : marque unique (x≈634, y≈2176) au-dessus de ε, apostrophe de παῖδ᾽ ou esprit de ἐπι, écrite esprit ; sans accent sur ι. Blanc de 22 px entre ι et σ : gardé (Velsen 1883 : επισπάρτην, en un mot, sans esprit : la coupe n'est pas celle de R). ἄγειν : oblique seule (x≈913), aigu ; pas d'esprit distinct : άγειν. Queue du ρ démesurée, sans valeur ; point final.</note>
   </notes>
 </page>

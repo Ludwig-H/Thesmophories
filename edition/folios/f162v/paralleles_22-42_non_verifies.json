@@ -1,1 +1,128 @@
-[]
+[
+ {
+  "v": "24",
+  "lemme": "χωλὸς εἶναι",
+  "ref": "Ar. fr. 53 K.-A.",
+  "signale_par": "l'auteur (commentaire aux vv. 22–24)",
+  "motif": "Le texte est vérifié sous le n° 53 de Kock (entrée conservée) ; la concordance avec K.-A. n'a pas pu être contrôlée (PCG III.2 absent du disque)."
+ },
+ {
+  "v": "29",
+  "lemme": "Ἀγάθων",
+  "ref": "Ar. fr. 178 K.-A. (Gérytadès)",
+  "signale_par": "Sommerstein 1994, p. 159",
+  "motif": "Simple mention d'Agathon connue par Σ Luc. Rh. Pr. 11 (entrée conservée) ; numéro K.-A. repris de Sommerstein, non contrôlé sur PCG."
+ },
+ {
+  "v": "29",
+  "lemme": "ὁ κλεινός (ironique)",
+  "ref": "Eur. HF 38",
+  "signale_par": "Prato 2001, p. 147",
+  "motif": "Le texte de Perseus (Murray) porte ὁ καινὸς οὗτος, non κλεινός. Leçon à contrôler sur une édition critique avant citation."
+ },
+ {
+  "v": "31",
+  "lemme": "ἔστιν τις + nom propre",
+  "ref": "Ar. Pax 912",
+  "signale_par": "Prato 2001, p. 148",
+  "motif": "Le tour ne se lit pas à ce vers dans Perseus : référence probablement fautive."
+ },
+ {
+  "v": "31",
+  "lemme": "ὁ μέλας",
+  "ref": "Ar. fr. 596 K.-A.",
+  "signale_par": "Prato 2001, p. 149",
+  "motif": "Fragment non identifié : PCG III.2 absent, aucune concordance avec Kock."
+ },
+ {
+  "v": "31",
+  "lemme": "ὁ μέλας (μελάμπυγος)",
+  "ref": "Phot. μ 225, λ 223 ; Ael. Dion. λ 9",
+  "signale_par": "Latte, testimonia à Hsch. μ 641, λ 739",
+  "motif": "Theodoridis t. II et Erbse absents ; λευκοπύγους· δειλούς lu seulement dans l'OCR de Naber."
+ },
+ {
+  "v": "31",
+  "lemme": "ὁ μέλας (μελάμπυγος)",
+  "ref": "Érasme, Adages (Mélampyge)",
+  "signale_par": "recherche directe",
+  "motif": "Adage à chercher : rien dans l'extrait local de l'EPUB (.travail/paralleles_f162v_22-42/erasme/erasme.txt) ; numéro inconnu, PDF non téléchargé."
+ },
+ {
+  "v": "33, 32",
+  "lemme": "numéros K.-A.",
+  "ref": "Eub. fr. 61 Kock ; Eup. fr. 182 Kock",
+  "signale_par": "Blaydes, van Leeuwen, Kock",
+  "motif": "Textes vérifiés (entrées conservées), numéros K.-A. à établir."
+ },
+ {
+  "v": "37",
+  "lemme": "μυρρίνας (sens obscène)",
+  "ref": "Phot. μ 611 ; Poll. 2.174",
+  "signale_par": "Latte, testimonia à Hsch. μ 1926",
+  "motif": "Non consultés."
+ },
+ {
+  "v": "38",
+  "lemme": "προθυσόμενος",
+  "ref": "IG II² 1635, 37 (τὰ προθύματα τῆς ἑορτῆς)",
+  "signale_par": "Prato 2001, p. 151 ; LSJ s.v. πρόθυμα",
+  "motif": "Inscription absente du corpus local."
+ },
+ {
+  "v": "39",
+  "lemme": "εὔφημος πᾶς",
+  "ref": "Mesom. Hymn. Sol., éd. Jan, Musici Graeci, p. 462",
+  "signale_par": "van Leeuwen 1904",
+  "motif": "Le texte n'a été lu que dans la citation de van Leeuwen (entrée conservée, verifie = scan) ; à contrôler sur l'édition. Numéro de vers à confirmer."
+ },
+ {
+  "v": "39",
+  "lemme": "Favete linguis",
+  "ref": "Tib. 2.2.1–2 ; Ov. Fast. 1.71 ; Cic. Div. 1.102, 2.83 ; Sen. Vit. beat. 26.7",
+  "signale_par": "Tosi n° 2083 ; souvenir pour Tibulle",
+  "motif": "Latin non contrôlé sur le texte (seuls Hor. Carm. 3.1 et Verg. Aen. 5.71 l'ont été)."
+ },
+ {
+  "v": "40",
+  "lemme": "ἐπιδημεῖ (les Muses présentes)",
+  "ref": "Pl. Epigr. 14 Diehl",
+  "signale_par": "Prato 2001, p. 152",
+  "motif": "Texte vérifié dans Dübner p. xxix (voir Ar. fr. 348 K.-A.) ; numéro de Diehl repris de Prato."
+ },
+ {
+  "v": "42",
+  "lemme": "τῶν δεσποσύνων",
+  "ref": "Xen. Oec. 9.16, 14.2",
+  "signale_par": "LSJ s.v. δεσπόσυνος",
+  "motif": "LSJ cite τὰ δεσπόσυνα χρήματα, mais le mot ne se trouve pas dans le texte de Perseus de l'Économique : à contrôler sur une édition."
+ },
+ {
+  "v": "42",
+  "lemme": "μελοποιῶν",
+  "ref": "Rau, Paratragodia, p. 101 ; Willems (note à Ran. 148)",
+  "signale_par": "Prato 2001, p. 152 ; l'auteur (commentaire au v. 40)",
+  "motif": "Études non consultées ; le choix participe / nom reste à trancher."
+ },
+ {
+  "v": "22–42",
+  "lemme": "(général)",
+  "ref": "Austin–Olson 2004, commentaire",
+  "signale_par": "consigne de la tâche",
+  "motif": "Le fichier local (_textrep.txt) s'arrête à l'introduction ; le commentaire n'a pas pu être dépouillé. PDF de 26 Mo sur le Drive, non téléchargé."
+ },
+ {
+  "v": "22–42",
+  "lemme": "(général)",
+  "ref": "Taillardat, Les images d'Aristophane",
+  "signale_par": "consigne de la tâche",
+  "motif": "Ouvrage non disponible localement (PDF de 40 Mo et 2,8 Go sur le Drive) : les renvois de l'auteur (§§ 138, 606, 662) n'ont pas été contrôlés."
+ },
+ {
+  "v": "22–42",
+  "lemme": "(général)",
+  "ref": "Σ Thesm., éd. Regtuit 2007",
+  "signale_par": "recherche/corpus_numeriques.md",
+  "motif": "Scholies citées d'après Dübner 1842 ; à collationner sur Regtuit."
+ }
+]

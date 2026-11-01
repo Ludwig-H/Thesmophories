@@ -12,7 +12,7 @@
   "partie": "",
   "schema": "––⏑– ––⏑⏖ ––⏑⏓ ‖",
   "colon": "3ia",
-  "note": "ποι- bref à la 3e position : abrègement interne devant voyelle (White 1912, § 801) ; R écrit ποήσασθαι (Velsen 1883, image f. 176r), graphie qui note cette prononciation. πρὸς ἐμέ : -ς passe à ἐ-, et ἐμέ résout la 8e position (tribraque au 4e pied, préposition et son cas : White, § 105 v). νῡνί : ῡ long, -ί déictique long. -ρα bref en fin de vers (⏓)."
+  "note": "ποι- bref à la 3e position : abrègement interne devant voyelle (White 1912, § 801) ; R écrit ποήσασθαι (Velsen 1883, image f. 176r), graphie qui note cette prononciation. πρὸς ἐμέ : -ς passe à ἐ-, et ἐμέ résout la 8e position (tribraque au 4e pied, divisé ⏑|⏑⏑, type ordinaire : White, § 104 ; le § 105 v ne vise que les tribraques ⏑⏑|⏑, à préposition dissyllabique). νῡνί : ῡ long, -ί déictique long. -ρα bref en fin de vers (⏓). La coupe hephthémimère ne tombe qu'après la préposition πρὸς : la fin de mot réelle est après la 6e position (White, § 137)."
  },
  {
   "v": "1162",
@@ -68,7 +68,7 @@
   "partie": "",
   "schema": "⏖–⏖– ⏑–⏑– –⏖⏑– ‖",
   "colon": "3ia",
-  "note": "Trois résolutions : anapestes aux 1er et 2e pieds (ἀπὸ τῆς, στρατιᾶς), « dactyle » au 5e (ὑμῶν δια-). ὑμῶν : ῡ long (8e position). στρα-τι- : στρᾰ, -τῐ- brefs ; -ᾶς long. διαβαλῶ en trois brèves et une longue."
+  "note": "Trois résolutions : anapestes aux 1er et 2e pieds (ἀπὸ τῆς, στρατιᾶς), « dactyle » au 5e (-μῶν δια-). ὑμῶν : ῡ long (8e position). στρα-τι- : στρᾰ, -τῐ- brefs ; -ᾶς long. διαβαλῶ en trois brèves et une longue."
  },
  {
   "v": "1170",
@@ -110,7 +110,7 @@
   "partie": "",
   "schema": "⏑–⏑– ⏑⏖⏑– ––⏑– ‖",
   "colon": "3ia",
-  "note": "Tribraque au 3e pied (-δὸν ἐπα-). Τερηδὸν (Souda τ 340, codd. V M^pc, apparat antérieur de l'auteur ; M^ac selon Wilson 2007, à contrôler) : δο- bref, ν passant à ἐ-. Avec Τερηδών (R, Brunck, Coulon, Wilson), – à la 5e position, anceps : le mètre ne tranche pas. ἐπαναφύσα : φῡ long ; -σᾱ long, impératif contracte (9e position, anceps)."
+  "note": "Tribraque au 3e pied (-δὸν ἐπα-). Τερηδὸν (Souda τ 340, V M^ec : Adler IV 526, 15, lu sur l'image, comme l'apparat antérieur de l'auteur ; le M^ac de Wilson 2007 ne s'accorde pas avec Adler) : δο- bref, ν passant à ἐ-. Avec Τερηδών (R, Brunck, Coulon, Wilson), – à la 5e position, anceps : le mètre ne tranche pas. ἐπαναφύσα : φῡ long ; -σᾱ long, impératif contracte (9e position, anceps)."
  },
  {
   "v": "1176",
@@ -138,7 +138,7 @@
   "partie": "",
   "schema": "––⏑– ⏖–⏑– ––⏑– ‖",
   "colon": "3ia",
-  "note": "Anapeste au 3e pied (μελετῆ-). Hiatus μελετῆσι | οὐ, à la pause de sens : Enger 1844 (p. 194-195) le tolère dans le parler du Scythe ; Prato 2001 (p. 334) le juge voulu ; Sommerstein 1994 (n. ad 1187-8) le rapproche de la ligne 1187a ; Velsen (μελετῆσιν·) le supprime. κωλῦσ᾽ = κωλῦσι, κωλύσω (Blaydes) : ῡ long du futur, 10e position ; le -ι est élidé devant ἐγώ."
+  "note": "Anapeste au 3e pied (μελετῆ-). Hiatus μελετῆσι | οὐ, à la pause de sens : Enger 1844 (p. 194-195) le tolère dans le parler du Scythe ; Prato 2001 (p. 334) le juge voulu ; Sommerstein 1994 (n. ad 1187-8) le rapproche de la ligne 1187b ; Velsen (μελετῆσιν·) le supprime. κωλῦσ᾽ = κωλῦσι, κωλύσω (Blaydes) : ῡ long du futur, 10e position ; le -ι est élidé devant ἐγώ."
  },
  {
   "v": "1180",
@@ -159,7 +159,7 @@
   "partie": "",
   "schema": "⏑–⏖– ⏖–⏑⏖ ⏑–⏑– ‖",
   "colon": "3ia",
-  "note": "Trois résolutions : anapestes aux 2e et 3e pieds (-ζομένη, δ᾽ ἐπὶ τοῖ-), tribraque au 4e (-σι γόνα-). θι- long devant ζ. τοῖσι (Bentley) est exigé par le mètre : avec τοῖς (R), Σκύ-, à ῠ bref, tomberait à la 10e position."
+  "note": "Trois résolutions : anapestes aux 2e et 3e pieds (-ζομένη, δ᾽ ἐπὶ τοῖ-), tribraque au 4e (-σι γόνα-). θι- long devant ζ. τοῖσι (Bentley) est exigé par le mètre : avec τοῖς (R), Σκύ-, à ῠ bref, tomberait à la 10e position. Pas de vraie penthémimère ni hephthémimère : ἐπὶ et τοῖσι sont prépositifs, et la fin de mot réelle tombe après δ᾽, à la 4e position (White 1912, § 137)."
  },
  {
   "v": "1183",
@@ -180,7 +180,7 @@
   "partie": "",
   "schema": "⏑–⏖– ⏑–⏑– ⏑–⏑– ‖",
   "colon": "3ia",
-  "note": "Deux points de prosodie. (1) Anapeste au 2e pied coupé après sa première brève (-σο | κά-τη-) : ordinaire pour White 1912, § 121 iii, qui cite Th. 1184 (césure penthémimère) ; même coupe en Ran. 1393 (Blaydes 1880, p. 118) ; « eccezionale » pour Prato 2001, p. 335. (2) τυγάτριον : γα- long par position devant τρ, 10e position, sans correption : White, § 791, range τυγάτριον Th. 1184 parmi les exceptions souvent corrigées ; défendu par Rogers 1904, App. p. 226 (« the Scythian may well have lengthened the second syllable ») et Prato (p. 335), qui gardent ναίκι ναί de R, comme l'auteur. Avec ναίκι ναίκι (Bothe, Fritzsche ; Coulon, Wilson), tribraque au 5e pied et correption normale (⏑⏖⏑–). Autres suppléments : ναῖκι ναὶ, ὦ Enger ; ναὶ σὺ Velsen. R : ναὶ κι· ναὶ τυγάτριον (image f. 176v) ; le « καὶ R » de Wilson 2007 est inexact. Comparer 1210, avec correption."
+  "note": "Deux points de prosodie. (1) Anapeste au 2e pied coupé après sa première brève (-σο | κά-τη-) : ordinaire pour White 1912, § 121 iii, qui cite Th. 1184 (césure penthémimère) ; West 1987, p. 26 (« split anapaest », exemple Ach. 6), ne l'exclut qu'en comédie nouvelle ; même coupe en Ran. 1393 (Blaydes 1880, p. 118) ; « eccezionale » pour Prato 2001, p. 335. (2) τυγάτριον : γα- long par position devant τρ, 10e position, sans correption : White, § 791, range τυγάτριον Th. 1184 parmi les exceptions souvent corrigées ; défendu par Rogers 1904, App. p. 226 (« the Scythian may well have lengthened the second syllable ») et Prato (p. 335), qui gardent ναίκι ναί de R, comme l'auteur. Avec ναίκι ναίκι (Bothe, Fritzsche ; Hall-Geldart, Coulon, Wilson), tribraque au 5e pied et correption normale (⏑⏖⏑–). Autres suppléments : ναῖκι ναὶ, ὦ Enger ; ναὶ σὺ Velsen. R : ναὶ κι· ναὶ τυγάτριον (image f. 176v) ; le « καὶ R » de Wilson 2007 est inexact. Comparer 1210, avec correption."
  },
  {
   "v": "1185",
@@ -201,7 +201,7 @@
   "partie": "",
   "schema": "⏑⏖⏑– ––⏑– ––⏑– ‖",
   "colon": "3ia",
-  "note": "Tribraque au 1er pied (καλό γε). πῡγή : ῡ long (4e position). κλαῦσί γ᾽ (Bentley) : -σῐ bref à la 7e position, que la forme κλαυσεῖ de R¹ (Velsen 1883, p. 85) occuperait par une longue. ἢν (Dindorf) / ἂν R : même mesure. Prodélision μὴ 'νδον. Après ce vers, R (comme P.Oxy. 3840) a la ligne ἀνακύπτη καὶ παρακύπτι ἀπεψωλημένος (1187a H.-G.), que l'auteur retranche avec Ellebodius : voir le .md, § 3.5."
+  "note": "Tribraque au 1er pied (καλό γε, ⏑⏑|⏑ avec enclitique : White 1912, § 105 ii). πῡγή : ῡ long (4e position). κλαῦσί γ᾽ (Bentley) : -σῐ bref à la 7e position, que la forme κλαυσεῖ de R¹ (Velsen 1883, p. 85) occuperait par une longue. ἢν (Dindorf) / ἂν R : même mesure. Prodélision μὴ 'νδον. Après ce vers, R (comme P.Oxy. 3840) a la ligne ἀνακύπτη καὶ παρακύπτι ἀπεψωλημένος (1187b de Hall-Geldart imprimé, de White, de Wilson et de Prato ; 1187a dans le TEI Perseus et chez Parsons), que l'auteur retranche avec Ellebodius : voir le .md, § 3.5."
  },
  {
   "v": "1188",
@@ -215,7 +215,7 @@
   "partie": "",
   "schema": "⏑–⏑– ⏖–⏑⏖ ––⏑– ‖",
   "colon": "3ia",
-  "note": "Anapeste au 3e pied (λαβὲ θοἰ-) ; tribraque au 4e (-μάτιο(ν)). ὥρᾱ long ; prodélision ὥρα 'στὶ (M ; R -ὶν, Wilson 2007). Le ν de θοἰμάτιον passe à ὥρα."
+  "note": "Anapeste au 3e pied (λαβὲ θοἰ-) ; tribraque au 4e (-μάτιο(ν)). ὥρᾱ long ; prodélision ὥρα 'στὶ (M) : R 'στιν (Velsen 1883 ; Wilson 2007), fermé devant νῷν, mettrait une longue à la 11e position. Le ν de θοἰμάτιον passe à ὥρα."
  },
  {
   "v": "1190",
@@ -229,21 +229,21 @@
   "partie": "b",
   "schema": "–⏖– ⏑–⏑⏓ ‖",
   "colon": "",
-  "note": "Anapeste au 4e pied coupé après sa première brève par la césure hephthémimère (οὐκὶ | πιλῆσι) : type ordinaire au 4e pied (White 1912, § 121 iii). Texte : οὐκὶ Biset, πιλῆσι Porson d'après Σ (Wilson 2007). R τί οὐκ ἐπιλήσει a une syllabe de trop si τί οὐκ n'est pas en synizèse (Lenting 1839, p. 27, pour τί οὐκὶ πιλήσει) ; la synizèse n'a pas de parallèle dans la section (1193 τί οὐ, hiatus)."
+  "note": "Anapeste au 4e pied coupé après sa première brève (οὐκὶ | πιλῆσι), à la place de la césure hephthémimère : type ordinaire au 4e pied (White 1912, § 121 iii). La pause principale reste pourtant à la 5e position, au changement de locuteur, cas moins fréquent chez White (ibid.). Texte : οὐκὶ Biset, πιλῆσι Porson d'après Σ (Wilson 2007). R τί οὐκ ἐπιλήσει a une syllabe de trop si τί οὐκ n'est pas en synizèse (Lenting 1839, p. 27, pour τί οὐκὶ πιλήσει) ; la synizèse n'a pas de parallèle dans la section (1193 τί οὐ, hiatus)."
  },
  {
   "v": "1191",
   "partie": "",
   "schema": "⏑⏖⏑– ⏑–⏑",
   "colon": "3ia",
-  "note": "Vers partagé : Euripide, positions 1-7 ; le Scythe, 8-12. Tribraque au 1er pied (πάνυ γε, ῠ bref). Le ν de φίλησον passe à αὐ-, celui de αὐτόν à ὂ."
+  "note": "Vers partagé : Euripide, positions 1-7 ; le Scythe, 8-12. Tribraque au 1er pied (πάνυ γε, ῠ bref, ⏑⏑|⏑ avec enclitique : White 1912, § 105 ii). Le ν de φίλησον passe à αὐ-, celui de αὐτόν à ὂ."
  },
  {
   "v": "1191",
   "partie": "b",
   "schema": "⏖ ⏑⏖⏑– ‖",
   "colon": "",
-  "note": "ὂ à omicron, bref : ν᾽ ὂ ὂ résout la 8e position, ὂ occupe la 9e, παπα résout la 10e. Avec celui du 1er pied, ces deux tribraques font de 1191 l'un des six trimètres à trois tribraques relevés par White 1912, § 124. Sept brèves de suite (-τό(ν) ὂ ὂ ὂ πα πα πα) avant παῖ. R : trois ο sans esprit, serrés, le second repassé (image f. 176v ; Velsen 1883, p. 85 : ο ο ο dans R et M ; Enger 1844 : ὂ ὂ ὂ R), puis παπαπα· παῖ· : contre Coulon et Prato (⟨ὂ ὂ⟩ Brunck) et Wilson (« semel R »). Un seul ὂ laisserait une brève à la 10e position. P.Oxy. 3840 ]απαπαπαι."
+  "note": "ὂ à omicron, bref : ν᾽ ὂ ὂ résout la 8e position, ὂ occupe la 9e, παπα résout la 10e. Avec celui du 1er pied, ces deux tribraques font de 1191 l'un des six trimètres à trois tribraques relevés par White 1912, § 124. Sept brèves de suite (-τό(ν) ὂ ὂ ὂ πα πα πα) avant παῖ. R (image f. 176v) : trois signes ronds serrés, puis παπαπα· παῖ·. Velsen 1883, p. 85, y lit ο ο ο dans R et M, Enger 1844 et Rogers 1904 (App. p. 226) ὂ ὂ ὂ ; Coulon et Prato (⟨ὂ ὂ⟩ Brunck) et Wilson (« semel R ») n'en comptent qu'un. L'image ne tranche pas tout à fait : le premier signe a le trait supérieur du σ de φίλησον, le deuxième est repassé, et le groupe est d'une encre plus rouge que le texte voisin (.md, § 8). Le mètre exige les trois ὂ, quoi qu'ait R : avec un seul, le vers a une position de moins et une brève à la 10e. P.Oxy. 3840 ]απαπαπαι."
  },
  {
   "v": "1192",
@@ -313,7 +313,7 @@
   "partie": "",
   "schema": "––⏑– ⏑–⏖– ––⏑⏓ ‖",
   "colon": "3ia",
-  "note": "Anapeste au 4e pied (-λὰ τὸ συμ-), coupé après ἀλλὰ (White 1912, § 121). Avec συβήνην (Souda, Σ ; Wilson, Prato) ou συβίνην (Brunck ; Coulon), tribraque (7e position ⏑, τὸ συ- résout la 8e) : même nombre de syllabes, le mètre ne tranche pas entre συμ- (R) et συ-. ἔκὠδέν : crase, κὠ long. Le ν de ὠδέν passe à ἀλλά."
+  "note": "Anapeste au 4e pied (-λὰ τὸ συμ-), coupé après ἀλλὰ (White 1912, § 121 iii) ; la pause principale est à la 5e position, après ὠδέν. Avec συβήνην (Souda, Σ ; Wilson, Prato) ou συβίνην (Brunck ; Coulon), tribraque (7e position ⏑, τὸ συ- résout la 8e) : même nombre de syllabes, le mètre ne tranche pas entre συμ- (R) et συ-. ἔκὠδέν : crase, κὠ long. Le ν de ὠδέν passe à ἀλλά. τὸ supprimé (Bentley, Elmsley, Dindorf, d'après Enger 1844 ; Prato 2001) : avec συμ-, le vers reste métrique et perd l'anapeste."
  },
  {
   "v": "1198",
@@ -355,7 +355,7 @@
   "partie": "",
   "schema": "––⏑⏖ ––⏑⏖ ⏑–⏑– ‖",
   "colon": "3ia",
-  "note": "Tribraques aux 2e et 4e pieds (δόλιε, μὲν ἔτι). ταυτὶ : -ὶ déictique long. ποι- bref (11e position) ; Prato 2001 imprime ποεῖς."
+  "note": "Tribraques aux 2e et 4e pieds (δόλιε, μὲν ἔτι). ταυτὶ : -ὶ déictique long. ποι- bref (11e position) : R ποεῖς (Velsen 1883), que Prato 2001 imprime."
  },
  {
   "v": "1203",
@@ -397,14 +397,14 @@
   "partie": "",
   "schema": "⏑⏖⏑– ––⏑– ––⏑– ‖",
   "colon": "3ia",
-  "note": "Tribraque au 1er pied (λέλυσο, ῠ bref). λέλυσο (R^pc) ; R^ac λέλυσον et λέλυσαι (Bentley) donneraient un anapeste au 1er pied (λέλυ- ⏖, -σον ou -σαι long) : le mètre ne tranche pas."
+  "note": "Tribraque au 1er pied (λέλυσο, ῠ bref). λέλυσο (R^pc) ; R^ac λέλυσον et λέλυσαι (Bentley) donneraient un anapeste au 1er pied (λέλυ- ⏖, -σον ou -σαι long) : le mètre ne tranche pas. P.Oxy. 4935 fr. 2 : place de six lettres environ, λέλυσο ou λέλυσαι (Benaissa 2009, p. 25) ; f176v/critique.tex écarte λέλυσον pour cette raison."
  },
  {
   "v": "1209",
   "partie": "",
   "schema": "––⏑⏖ ⏑–",
   "colon": "3ia",
-  "note": "Vers partagé : Euripide, positions 1-6 ; Mnésiloque, 7-12. Tribraque au 2e pied (-τα κατα-). Le changement de locuteur tombe après la 6e position : seul vers de la section sans penthémimère ni hephthémimère."
+  "note": "Vers partagé : Euripide, positions 1-6 ; Mnésiloque, 7-12. Tribraque au 2e pied (-τα κατα-). Le changement de locuteur tombe après la 6e position : seul vers de la section sans aucune fin de mot à la 5e ou à la 7e position (voir aussi 1161 et 1182, où la coupe ne tombe qu'après un prépositif)."
  },
  {
   "v": "1209",
@@ -425,14 +425,14 @@
   "partie": "",
   "schema": "––⏑– ⏑–⏑– ⏑–⏑⏓ ‖",
   "colon": "3ia",
-  "note": "Sans résolution. πρᾶο : ᾱ long. τὸ bref devant γρ- (9e position)."
+  "note": "Sans résolution. δύσκολ᾽ (Grynaeus ; Wilson 2007) : R δύσκολλ᾽ (Velsen 1883 ; image f. 177r) mettrait une longue à la 3e position. πρᾶο : ᾱ long. τὸ bref devant γρ- (9e position)."
  },
  {
   "v": "1212",
   "partie": "",
   "schema": "––⏖– ⏑–⏖– ––⏑– ‖",
   "colon": "3ia",
-  "note": "Anapestes aux 2e et 4e pieds (ἀπόλω-, τὸ γέρον-). ἐντευτενί : -ί déictique long. R^ac ἀπόλωλ᾽, R^pc ἀπόλωλο (Velsen 1883)."
+  "note": "Anapestes aux 2e et 4e pieds (ἀπόλω-, τὸ γέρον-, ce dernier ouvert par l'article : White 1912, § 121 i). ἐντευτενί : -ί déictique long. R^ac ἀπόλωλ᾽, R^pc ἀπόλωλο (Velsen 1883)."
  },
  {
   "v": "1213",
@@ -538,7 +538,7 @@
   "schema": "",
   "colon": "extra metrum",
   "v_usuel": "1222b",
-  "note": "= 1222 b de Coulon, de Wilson et de Prato. Cri hors mètre : White 1912, p. 450 ; « 1222b extra metrum » (Prato 2001, p. 356). R : ligne à part, au milieu de la colonne (image f. 177r). Dindorf le supprimait (Conradt 1910, p. 57)."
+  "note": "= 1222 b de Prato (p. 356), 1222 de White ; ligne sans numéro propre chez Coulon et chez Wilson. Cri hors mètre : White 1912, p. 450 ; « 1222b extra metrum » (Prato 2001, p. 356). R : ligne à part, au milieu de la colonne (image f. 177r). Dindorf le supprimait (Conradt 1910, p. 57)."
  },
  {
   "v": "1223a",
@@ -560,7 +560,7 @@
   "partie": "",
   "schema": "⏖–⏑– ⏑–⏑– ⏑–⏑– ‖",
   "colon": "3ia",
-  "note": "Anapeste au 1er pied (κακό-). Hiatus τρέξι | Ἀρταμουξία, excusé par le nom propre pour Enger 1844 (p. 195), voulu pour Prato 2001 (p. 334). R joint le mot au vers (Velsen 1883, p. 88 ; image f. 177r) : le trimètre est ainsi complet, et la lacune de Velsen (ἀλλὰ τρέξι * * *), qui l'en sépare, est inutile. ἀλλὰ (Iuntina ; Wilson) / ἄλλα R / ἄλλᾳ (Biset ; Prato) : 5e position, anceps."
+  "note": "Anapeste au 1er pied (κακό-). Hiatus τρέξι | Ἀρταμουξία, excusé par le nom propre pour Enger 1844 (p. 195), voulu pour Prato 2001 (p. 334). R joint le mot au vers (Velsen 1883, p. 88 ; image f. 177r) : le trimètre est ainsi complet, et la lacune de Velsen (ἀλλὰ τρέξι * * *), qui l'en sépare, est inutile. ἀλλὰ (Iuntina ; Wilson) / ἀλλα R, sans accent (Velsen, Coulon, Prato ; image f. 177r) / ἄλλᾳ (Biset ; Prato) : 5e position, anceps."
  },
  {
   "v": "1226",
@@ -577,7 +577,7 @@
   "colon": "2an",
   "etiquette": "an.",
   "renfoncement": 3,
-  "note": "Début du système final ; étiquette reprise de s00. Dactyle + spondée | anapeste + spondée, diérèse après πέπαισται. -με- bref devant τρ (correption), -ως long, -μῖν long. πέπαισται (lemme de Σ R, Biset) / πέπυσται R : même mesure. R réunit 1227 et 1228 sur une ligne, à la marge (image f. 177r) : tétramètre anapestique catalectique, formule de Nub. 1510-1511. Voir le .md, § 4."
+  "note": "Début du système final ; étiquette reprise de s00. Dactyle + spondée | anapeste + spondée, diérèse après πέπαισται. -με- bref devant τρ (correption), -ως long, -μῖν long. πέπαισται (Biset ; lemme de Σ dans R selon Velsen, Wilson et, « ut uidetur », Prato ; πέπαικται selon Enger et Dübner, la lettre étant ambiguë sur l'image) / πέπυσται R : même mesure. R réunit 1227 et 1228 sur une ligne, à la marge (image f. 177r) : tétramètre anapestique catalectique, formule de Nub. 1510-1511. Voir le .md, § 4."
  },
  {
   "v": "1228",
@@ -585,7 +585,7 @@
   "schema": "–––– ⏑⏑–– ‖",
   "colon": "2an∧",
   "renfoncement": 3,
-  "note": "Parémiaque : quatre longues | anapeste + longue finale. ὥρᾱ long ; 'στι bref, prodélision après δή (R δἤστι : Velsen 1883, p. 88). Avec 1227, il forme le tétramètre de R. Hermann a fini par le défendre (Enger 1844, p. 205) ; Coulon, Wilson et Prato le gardent. Pour éviter un parémiaque à l'intérieur du système, on a écrit δῆτ᾽ ἐστὶ (Bothe ; Fritzsche, Rogers), ⟨νῦν⟩ (Hermann) ou ⟨καὶ⟩ (Blaydes, Wilamowitz) : dimètre complet."
+  "note": "Parémiaque : quatre longues | anapeste + longue finale. ὥρᾱ long ; 'στι bref, prodélision après δή (R δἤστι : Velsen 1883, p. 88). Avec 1227, il forme le tétramètre de R, déjà relevé par Fritzsche 1838, p. 572, et Rogers 1904, App. p. 229. Hermann a fini par le défendre (Enger 1844, p. 205) ; Coulon, Wilson et Prato le gardent. Pour éviter un parémiaque à l'intérieur du système, on a écrit δῆτ᾽ ἐστὶ (Bothe ; Fritzsche, Rogers), ⟨νῦν⟩ (Hermann) ou ⟨καὶ⟩ (Blaydes, Wilamowitz) : dimètre complet."
  },
  {
   "v": "1229",

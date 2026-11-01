@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies marginales de R, f. 165r (vv. 209–251) ; transcription diplomatique (lecteur des scholies, DiploXML v1). ÉTAT PROVISOIRE : première lecture sur l'image, avant confrontation aux éditions. -->
+<page folio="f165r" image="06_f165r_classense167r_vv0208-0251.jpg" vers="209-251">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="7" place="mg-d" main="R2">τὰ γένεια ταῦ<hi rend="sus">τ</hi> <abbr signe="ʒ" dev="δέ"/> ἔλαβ<gap n="3" unite="lettres" raison="illisible"/> <unclear cert="faible">ἐκ</unclear> τῶ<unclear cert="moyenne">ν</unclear><lb/>ϊδαιῶν <abbr signe="ȣ" dev="ου">κρατιν</abbr> ÷</sch>
+    <sch n="2" ancre="12" place="mg-d" main="R2">παρὰ τὸ δουροδόκησ ὡσ πομὰ<gap n="10" unite="lettres" raison="tache"/></sch>
+    <sch n="3" ancre="13" place="mg-d" main="R2">ἵνα ἀπὸ τεταμένησ αὐτῆσ καλ<gap n="10" unite="lettres" raison="tache"/></sch>
+    <sch n="4" ancre="16" place="mg-d" main="R2">ἀντὶ <abbr signe="˘" dev="οῦ">τ</abbr> εἰσ τῶν ἐρινύων ἄσυλ<gap n="8" unite="lettres" raison="tache"/><lb/>οἱ καταλαμβάνοντεσ τὰ ἱ<gap n="8" unite="lettres" raison="tache"/></sch>
+    <sch n="5" ancre="19" place="mg-d" main="R2">τὴν μίαν κ<unclear cert="faible">όμ</unclear> ἢ γνάθον τη<gap n="3" unite="lettres" raison="illisible"/><lb/>ἐψιλωμέν ÷</sch>
+    <sch n="6" ancre="22" place="mg-d" main="R2">ὅτι τὸ μύζειν παρ<gap n="8" unite="lettres" raison="tache"/><lb/>τοῦ μῦ πο<add place="dessus" main="R2">λ</add>λοῖσ ἄλλοισ ὁμ<gap n="8" unite="lettres" raison="tache"/><lb/>ζειν <abbr signe="ʒ" dev="δέ"/> <abbr signe="·/·" dev="ἐστί"/> τὸ τοῖσ μυκτῆρσι<gap n="8" unite="lettres" raison="tache"/><lb/>ἦχον ἀποτελεῖν ÷</sch>
+    <sch n="7" ancre="25" place="mg-d" main="R2">ψιλ<gap n="10" unite="lettres" raison="tache"/><lb/>ἔστιν ἀγεννεστάτη ἡ τῆσ βο<gap n="8" unite="lettres" raison="illisible"/><lb/>πρόσθεν <abbr signe="˘" dev="οῦ">τ</abbr> στρατοπέδου γυ<gap n="8" unite="lettres" raison="illisible"/><lb/>δο πλ ϗ ἐὰν ταραχὴ γένη<gap n="8" unite="lettres" raison="illisible"/><lb/>πρώτη ἀναιρεῖται τοῦτο <abbr signe="ʒ" dev="δέ"/><gap n="8" unite="lettres" raison="tache"/><lb/>ἐπεὶ ἐψίλωται ÷</sch>
+    <sch n="8" ancre="27" place="mg-g" main="R2">διαβάλλει<lb/>τ τ ὡσ ξυ<lb coupe="oui"/>ρούμενον</sch>
+    <sch n="9" ancre="30" place="mg-d" main="R2">μετὰ τὸ τυθῆναι τὰ δελφάκια<gap n="8" unite="lettres" raison="illisible"/><lb/>ζοντ ʒ ἵνα ψιλωθῶσιν ÷</sch>
+    <sch n="10" ancre="34" place="mg-d" main="R2">ὡσ εἰ ἔλεγεν οἰκίαν</sch>
+    <sch n="11" ancre="37" place="mg-d" main="R2">ἄσβολοσ καλεῖτ ʒ ἡ αἰθάλη τ πυρόσ</sch>
+    <sch n="12" ancre="38" place="mg-d" main="R2">τράμισ ὁ πρωκτόσ ÷</sch>
+  </scholies>
+  <notes>
+    <note>Brouillon : lecture en cours.</note>
+  </notes>
+</page>

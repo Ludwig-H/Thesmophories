@@ -1,0 +1,100 @@
+[
+ {
+  "v": "187-208",
+  "lemme": "numéros K.-A.",
+  "ref": "Philyll. ; Antiph. ; Alex. ; Anaxandr. ; Metag. ; Callias Com. ; Men.",
+  "source": "entrées citées d’après Kock",
+  "raison": "PCG IV, V, VII sur le Drive (> 10 Mo, non téléchargeables ; lecture partielle) : les numéros K.-A. restent à établir ; ceux d’Ar., Cratin., Eub., Alex. fr. 254 et Men. fr. 171 viennent de Cunningham, Prato, Sommerstein ou Tosi"
+ },
+ {
+  "v": "188",
+  "lemme": "ἔπειτα",
+  "ref": "Stevens, Colloquial Expressions, p. 47 (et p. 16 pour v. 196)",
+  "source": "Prato 2001, p. 192, 194",
+  "raison": "ouvrage non disponible localement"
+ },
+ {
+  "v": "191",
+  "lemme": "σὺ δ᾽ εὐπρόσωπος : Agathon",
+  "ref": "TrGF 39 T 14",
+  "source": "Prato 2001, p. 193",
+  "raison": "TrGF I hors du corpus local (PDF du Drive > 10 Mo, non téléchargeable) ; remplacé par les textes mêmes : Pl. Prt. 315d-e, Symp. 174a, Ael. VH 13.4, Plut. Mor. 177a-b, 770c"
+ },
+ {
+  "v": "191",
+  "lemme": "λευκός",
+  "ref": "Ar. Eq. 1279",
+  "source": "Prato 2001, p. 193",
+  "raison": "vers lu (ὅστις ἢ τὸ λευκὸν οἶδεν ἢ τὸν ὄρθιον νόμον) : τὸ λευκόν n’y concerne pas le teint ; écarté"
+ },
+ {
+  "v": "192",
+  "lemme": "γυναικόφωνος",
+  "ref": "Poll. 4.114",
+  "source": "Prato 2001, p. 193",
+  "raison": "livre IV absent de l’index (Bethe I non indexé) ; passage non retrouvé dans l’OCR de Dindorf"
+ },
+ {
+  "v": "194",
+  "lemme": "χαίρεις ὁρῶν φῶς",
+  "ref": "Plut. Mor. 20D",
+  "source": "Fritzsche 1838, p. 65 (Wyttenbach)",
+  "raison": "vers d’Euripide visé non identifié dans De aud. poet. 19a-22b ; Fritzsche lui préfère d’ailleurs Hec. 1256"
+ },
+ {
+  "v": "194",
+  "lemme": "χαίρεις ὁρῶν φῶς",
+  "ref": "Ar. Vesp. 749–750 ; Lys. 865 sqq.",
+  "source": "Prato 2001, p. 194 (parodies de l’Alceste)",
+  "raison": "vers d’Aristophane lus, mais modèle précis dans l’Alceste non établi ; Prato ne le donne pas"
+ },
+ {
+  "v": "198",
+  "lemme": "τοῖς τεχνάσμασιν",
+  "ref": "Ar. Lys. 398 (ἀκολαστάσματα)",
+  "source": "van Leeuwen 1904, p. 34 ; Enger 1844, p. 43",
+  "raison": "le texte Perseus porte ἀκόλαστʼ ᾄσματα : leçon à contrôler dans une édition critique (Wilson 2007)"
+ },
+ {
+  "v": "198",
+  "lemme": "τὰς συμφορὰς γὰρ … φέρειν",
+  "ref": "Plut. Cons. Apoll. 102a ; Men. fr. 856 K.-A.",
+  "source": "Tosi, n° du dossier Ducunt volentem fata (corpus : § 114)",
+  "raison": "renvois de Tosi non contrôlés sur le texte ; n° du lemme de Tosi non établi (OCR)"
+ },
+ {
+  "v": "201",
+  "lemme": "τοῖς παθήμασιν (sens obscène)",
+  "ref": "Men. Dysc. 891–892",
+  "source": "Paduano 1994, n. 33 ; Prato 2001, p. 195",
+  "raison": "Dyscolos absent du corpus local ; à contrôler sur une édition"
+ },
+ {
+  "v": "204",
+  "lemme": "νυκτερείσια",
+  "ref": "Ar. fr. 715 K.-A. ; Ar. Fr. 74 (LSJ s.v. ἐρείδω)",
+  "source": "Sommerstein 1994, p. 172 ; LSJ",
+  "raison": "fragments non retrouvés sous ces numéros ; Kock I, p. 518, fr. 493 (ἐρείδετον, que Photius glose τὸ ἐσθίειν) est à examiner"
+ },
+ {
+  "v": "205",
+  "lemme": "ὑφαρπάζειν … Κύπριν",
+  "ref": "Eur. fr. 951 N.²",
+  "source": "Prato 2001, p. 195-196 (OCR de la note peu lisible)",
+  "raison": "numéro et vers non assurés"
+ },
+ {
+  "v": "206",
+  "lemme": "ἰδού γε",
+  "ref": "Starkie, Clouds, ad 818 ; Denniston, GP, p. 129 ; Lowe 1967, p. 61",
+  "source": "Prato 2001, p. 196",
+  "raison": "études non disponibles localement : pas de citation de seconde main"
+ },
+ {
+  "v": "207",
+  "lemme": "ἀτὰρ ἡ πρόφασίς γε",
+  "ref": "Molière, Le Misanthrope, IV, 3",
+  "source": "commentaire de l’auteur (d’après Willems)",
+  "raison": "parallèle moderne : vers non contrôlé sur le texte ; conservé dans le commentaire"
+ }
+]
