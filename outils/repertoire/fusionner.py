@@ -43,6 +43,15 @@ LATIN = {
 IGNORER = {'alii', 'libri', 'vulgo', 'codd', 'edd', 'vulg', 'plerique', 'nonnulli', 'quidam', 'omnes'}
 
 
+def sigle_temoin(t, edition):
+    """Le Monacensis gr. 492 porte le sigle M dans toute l'édition : G (Velsen, Prato), Aug. (Enger), Mu2 (Wilson)."""
+    if edition.startswith(('Velsen', 'Prato')):
+        t = re.sub(r'^G(?=$|[\^ (])', 'M', t)
+    elif edition.startswith('Enger'):
+        t = re.sub(r'^Aug\.', 'M', t)
+    return re.sub(r'^Mu2(?=$|[\^ (])', 'M', t)
+
+
 def plier(a):
     d = unicodedata.normalize('NFD', a)
     return ''.join(c for c in d if not unicodedata.combining(c)).lower()
@@ -99,9 +108,9 @@ def main():
                 g['lemmes'].add(e['lemme'])
             if e.get('type'):
                 g['types'].add(e['type'])
-            for t in e.get('temoins') or []:
-                g['temoins'].add(t)
             ed = e.get('edition', os.path.basename(f).split('_')[0])
+            for t in e.get('temoins') or []:
+                g['temoins'].add(sigle_temoin(t, ed))
             g['editions'].add(ed)
             for a in e.get('auteurs') or []:
                 g['auteurs'][norm_auteur(a)].add(ed)

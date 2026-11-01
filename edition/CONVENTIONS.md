@@ -65,8 +65,11 @@ italique : *om.*, *add.*, *del.*, *transp.*, *suppl.*, *coni.*, *fort.*, *in ras
   γρ(άφεται).
 - **Σ** — scholies de R (Σ^lem : lemme d'une scholie).
 - **Π** — papyri (numérotation et contenu : `recherche/papyrus.md`).
-- **M** — Monacensis gr. 492 (XVe s.), apographe de R : ses leçons propres ne valent
-  que comme conjectures.
+- **M** — Monacensis gr. 492 (G de Velsen et de Prato, Aug. d'Enger, Mu2 de Wilson),
+  apographe de R, probablement de la main de Paolo Canal, vers 1505 (`recherche/monacensis_492.md` ;
+  main et date à contrôler sur l'original, donc pas encore dans les liminaires) : ses leçons
+  propres ne valent que comme conjectures. Le sigle reste M (décision de l'auteur) ; quand la
+  leçon est manifestement une émendation, écrire « M (Canal) ».
 - **Iunt.** — *editio princeps*, Florence, Giunta, 28 janvier 1516 (imprimée sur R).
 - **Bibi** — conjectures de l'auteur de la présente édition.
 - Éditeurs et critiques : par leur nom (liste et lieux de publication :
