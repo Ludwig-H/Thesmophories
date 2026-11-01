@@ -5,17 +5,20 @@ Entrées (dans .sources/corpus/, voir telecharger.py et README.md) :
   canonical-greekLit/data   Perseus (TEI CTS)                  → collection « perseus »
   First1KGreek/data         Open Greek and Latin (TEI CTS)     → collection « first1k »
   ocr_archive/<id>/         OCR archive.org (sources_ocr.tsv)  → collection « ocr »
+  adler/pages.jsonl.gz      Souda d'Adler, OCR archive.org (adler.py) → collection « ocr »
   lexica/…/lsj              LSJ (TEI P4, Beta Code)            → collection « lsj »
   idp.data/DCLP             papyrus littéraires (EpiDoc)       → collection « dclp »
   ../drive/fichiers/…       PDF du Drive de l'auteur (sources_drive.tsv, couche texte,
                             sous droits : usage local)          → collection « drive »
+  hesychius/gloses.jsonl.gz Hésychius de Latte–Hansen–Cunningham, glose par glose
+                            (ocr_hesychius.py, même source)     → collection « drive »
   diorisis/x                Diorisis (formes lemmatisées)      → table « formes »
 
 Sortie : .sources/corpus/index.sqlite (construit dans un fichier temporaire puis renommé :
 une recherche en cours n'est jamais perturbée).
 
 Chaque « passage » est la plus petite unité citable : vers, section ou entrée (TEI),
-article de lexique ou page/colonne (OCR), page (PDF). Le texte original (NFC) et sa forme
+article de lexique ou page/colonne (OCR), page (PDF), glose (Hésychius). Le texte original (NFC) et sa forme
 normalisée (grec.normaliser : sans diacritiques, minuscules, σ = ς, sans apostrophes ni
 coronis) sont stockés ; l'index FTS5 « passages_fts » porte sur la forme normalisée.
   - « fenetres_fts » indexe la jointure de deux passages consécutifs (20 + 20 mots) pour
@@ -38,6 +41,7 @@ import json
 import multiprocessing as mp
 import os
 import re
+import shutil
 import sqlite3
 import subprocess
 import sys
@@ -649,10 +653,12 @@ def part_grec(textes):
 def traiter_drive(args):
     src, = args
     chemin = DRIVE / src["chemin"]
+    etude = src.get("categorie") == "etudes"
     res = {"collection": "drive", "fichier": str(chemin), "urn": "drive:" + src["chemin"],
            "urn_oeuvre": "drive:" + src["chemin"], "tlg_auteur": "drive", "tlg_oeuvre": src["sigle"],
-           "auteur": src["sigle"], "titre": src["description"], "edition": src["chemin"],
-           "abr_auteur": src["sigle"], "abr_titre": "", "categorie": src.get("categorie", ""),
+           "auteur": src["sigle"], "titre": src["description"] or src["sigle"], "edition": src["chemin"],
+           "abr_auteur": ("Étude : " if etude else "") + src["sigle"], "abr_titre": "",
+           "categorie": src.get("categorie", ""),
            "niveaux": "page", "passages": [], "erreur": None, "source_url": "", "options": ""}
     try:
         if chemin.suffix.lower() == ".txt":
@@ -672,15 +678,25 @@ def traiter_drive(args):
                     res["passages"].append((f"§ {i + 1}", None, tt, normaliser(tt), f"b{i + 1}", None))
             return res
         import pymupdf
+        pymupdf.TOOLS.mupdf_display_errors(False)
         doc = pymupdf.open(str(chemin))
-        textes = [texte_pdf_page(p) for p in doc]
+        if any(fo[3].split("+")[-1].startswith("Kleinlogel") for i in range(0, len(doc), max(1, len(doc) // 20))
+               for fo in doc[i].get_fonts()):
+            # polices à encodage propre des éditions De Gruyter : couche texte rétablie
+            import kleinlogel
+            kleinlogel.corriger(doc)
+            textes = [kleinlogel.texte_page(p) for p in doc]
+            res["fiabilite_detail"] = "grec rétabli d'après les polices Kleinlogel (table kleinlogel.tsv)"
+        else:
+            textes = [texte_pdf_page(p) for p in doc]
         if sum(len(x.strip()) for x in textes) < 100 * max(1, len(textes)) * 0.2:
             res["erreur"] = "pas de couche texte exploitable"
             return res
         if src.get("categorie") in ("lexiques", "fragments", "scholies") and part_grec(textes) < 0.05:
             res["erreur"] = "couche texte inutilisable (grec illisible : police non Unicode ou OCR latin)"
             return res
-        num = numeros_pages(textes)
+        # titre courant sur deux lignes dans les PDF rétablis (« α 353–385 » / « 95 ») : réunies
+        num = numeros_pages([t.replace("\n", " ", 1) if res.get("fiabilite_detail") else t for t in textes])
         for i, t in enumerate(textes):
             tt = nettoyer_ocr(t)
             if not tt:
@@ -690,6 +706,79 @@ def traiter_drive(args):
             res["passages"].append((ref, None, tt, normaliser(tt), f"pdf{i + 1}", None))
     except Exception as ex:
         res["erreur"] = f"{type(ex).__name__}: {ex}"
+    return res
+
+
+def traiter_hesychius(args):
+    """Hésychius de Latte–Hansen–Cunningham : une œuvre par tome pour les gloses (une glose, un
+    passage : « Hsch. χ 576 (Hansen–Cunningham IV, p. 223) »), une pour leurs apparats."""
+    src, = args
+    import ocr_hesychius as h
+    tome = src["traitement"].split(":", 1)[1]
+    lettres, lib, edition = h.VOLUMES[tome][1], h.VOLUMES[tome][2], h.VOLUMES[tome][3]
+    plage = f"{lettres[0].upper()}–{lettres[-1].upper()}"
+    base = {"collection": "drive", "fichier": str(DRIVE / src["chemin"]), "tlg_auteur": "drive",
+            "auteur": "Hésychius", "edition": edition, "categorie": "lexiques", "niveaux": "glose",
+            "passages": [], "erreur": None, "source_url": "", "sans_pliage": True,
+            "fiabilite_detail": "texte de l'éditeur rétabli d'après les polices (non un OCR ; contrôlé par "
+                                "l'OCR et sur l'image), numéro de glose et page vérifiés ; le taux de mots "
+                                "reconnus mesure ici la rareté du vocabulaire"}
+    gl = dict(base, urn=f"drive:hsch:{tome}", urn_oeuvre=f"drive:hsch:{tome}", tlg_oeuvre=f"hsch{tome}",
+              titre=f"Lexicon, t. {tome} ({plage}), gloses", abr_auteur="Hsch.", abr_titre=f"gloses, t. {tome}",
+              options=f"hesychius={tome}", passages=[])
+    app = dict(base, urn=f"drive:hsch:{tome}:app", urn_oeuvre=f"drive:hsch:{tome}:app", tlg_oeuvre=f"hsch{tome}app",
+               titre=f"Lexicon, t. {tome} ({plage}), testimonia et apparat critique", abr_auteur="Hsch. app.",
+               abr_titre=f"apparats, t. {tome}", options=f"hesychius={tome}", passages=[])
+    try:
+        for ligne in gzip.open(h.fichier_texte(tome), "rt", encoding="utf-8"):
+            pg = json.loads(ligne)
+            if pg["page_pdf"] > h.PREMIERE_GLOSE[tome] - 1:
+                break
+            tt = espaces(pg.get("brut") or "")
+            if tt:
+                gl["passages"].append((f"liminaires, {lib}, PDF p. {pg['page_pdf']}", None, tt, normaliser(tt),
+                                       f"pdf{pg['page_pdf']}", None))
+        for ligne in gzip.open(h.FICHIER_GLOSES, "rt", encoding="utf-8"):
+            g = json.loads(ligne)
+            if g["tome"] != tome:
+                continue
+            ref = f"{g['ref']} ({lib}, p. {g['page']})"
+            cible = f"pdf{g['page_pdf']}"
+            marge = g["marge"] or None
+            if g["texte"]:
+                gl["passages"].append((ref, marge, g["texte"], normaliser(h.pour_recherche(g["texte"])), cible, None))
+            parties = []
+            if g["testimonia"]:
+                parties.append("[test.] " + g["testimonia"])
+            if g["apparat"]:
+                parties.append("[app.] " + g["apparat"])
+            if parties:
+                tt = " ‖ ".join(parties)
+                app["passages"].append((ref, None, tt, normaliser(h.pour_recherche(tt)), cible, None))
+    except Exception as ex:
+        gl["erreur"] = f"{type(ex).__name__}: {ex}"
+    return [gl, app]
+
+
+def traiter_adler(args):
+    """Souda d'Adler, OCR archive.org page par page (adler.py) : une œuvre par tome."""
+    pages, = args
+    import adler
+    import urllib.parse
+    vol = pages[0]["tome"]
+    id_livre = adler.ITEM + "/" + urllib.parse.quote(adler.sous_prefixe(vol))
+    romain = ["", "I", "II", "III", "IV", "V"][vol]
+    res = {"collection": "ocr", "fichier": str(adler.fichier(vol, "_hocr_pageindex.json.gz")),
+           "urn": f"ia:{id_livre}", "urn_oeuvre": f"ia:{id_livre}", "tlg_auteur": "ocr", "tlg_oeuvre": f"adler{vol}",
+           "auteur": f"Sud. (Adler) {romain}", "titre": f"Suidae Lexicon, ed. A. Adler, t. {romain}",
+           "edition": f"A. Adler, Suidae Lexicon, t. {romain}, Leipzig, Teubner, 1928–1938",
+           "abr_auteur": f"Sud. (Adler) {romain}", "abr_titre": "", "categorie": "lexiques", "niveaux": "page",
+           "passages": [], "erreur": None, "source_url": f"https://archive.org/details/{id_livre}",
+           "options": "", "fiabilite_detail": "OCR d'archive.org (Tesseract), pages rangées par adler.py"}
+    for p in pages:
+        tt = nettoyer_ocr(p["texte"])
+        if tt:
+            res["passages"].append((f"p. {p['page']}", None, tt, normaliser(tt), f"n{p['feuillet']}", None))
     return res
 
 
@@ -907,7 +996,7 @@ class Ecrivain:
         oid = cur.lastrowid
         lignes, fen, souple = [], [], []
         premier = self.id_passage + 1
-        plier = r["collection"] in ("ocr", "drive")
+        plier = r["collection"] in ("ocr", "drive") and not r.get("sans_pliage")
         for i, p in enumerate(passages):
             self.id_passage += 1
             ref, loc, texte, norm = p[0], p[1], p[2], p[3]
@@ -984,6 +1073,8 @@ def main():
     ap.add_argument("--processus", type=int, default=os.cpu_count() or 8)
     ap.add_argument("--base", default=str(BASE))
     a = ap.parse_args()
+    if not shutil.disk_usage(CORPUS).free > 6e9:
+        sys.exit("moins de 6 Go libres : l'index temporaire risque de saturer le disque")
 
     t0 = time.time()
     base = Path(a.base)
@@ -1028,13 +1119,36 @@ def main():
             ecr.oeuvre(r, r["passages"], abrs)
         con.commit()
 
+    fadler = CORPUS / "adler" / "pages.jsonl.gz"
+    if "ocr" in a.sources and fadler.exists():
+        volumes = defaultdict(list)
+        for ligne in gzip.open(fadler, "rt", encoding="utf-8"):
+            p = json.loads(ligne)
+            volumes[p["tome"]].append(p)
+        print(f"[ocr] Souda d'Adler : {len(volumes)} tomes…", flush=True)
+        for r in pool.imap(traiter_adler, [(volumes[v],) for v in sorted(volumes)]):
+            ecr.oeuvre(r, r["passages"], abrs)
+        con.commit()
+
     fdrive = CORPUS / "sources_drive.tsv"
     if "drive" in a.sources and fdrive.exists():
         srcs = lire_tsv(fdrive)
         presents = [s for s in srcs if (DRIVE / s["chemin"]).exists()]
         absents = [s["sigle"] for s in srcs if not (DRIVE / s["chemin"]).exists()]
         print(f"[drive] {len(presents)} fichiers présents sur {len(srcs)} retenus…", flush=True)
-        for r in pool.imap_unordered(traiter_drive, [(s,) for s in presents]):
+        # Hésychius d'abord et dans l'ordre des tomes (l'ordre des œuvres règle celui des résultats)
+        hsch = sorted((s for s in presents if s.get("traitement", "").startswith("hesychius:")),
+                      key=lambda s: s["sigle"].split()[-1])
+        if hsch and not (CORPUS / "hesychius" / "gloses.jsonl.gz").exists():
+            print("[drive] gloses d'Hésychius absentes : lancer ocr_hesychius.py gloses", flush=True)
+            hsch = []
+        for rs in pool.imap(traiter_hesychius, [(s,) for s in hsch]):
+            for r in rs:
+                if r["erreur"]:
+                    erreurs.append((r["fichier"], r["erreur"]))
+                ecr.oeuvre(r, r["passages"], abrs)
+        autres = [s for s in presents if not s.get("traitement", "").startswith("hesychius:")]
+        for r in pool.imap_unordered(traiter_drive, [(s,) for s in autres]):
             if r["erreur"]:
                 erreurs.append((r["fichier"], r["erreur"]))
             ecr.oeuvre(r, r["passages"], abrs)

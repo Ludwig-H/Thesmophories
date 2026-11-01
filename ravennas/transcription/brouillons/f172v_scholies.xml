@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies de R, f. 172v (vv. 835-876) : première lecture sur l'image, en cours (reprise possible à partir de ce fichier). -->
+<page folio="f172v" image="21_f172v_classense174v_vv0838-0875.jpg" vers="835-876">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="4" place="mg-g" main="R2"><signe type="autre" main="R2">—</signe> <unclear cert="faible">εἶ</unclear>δ<unclear cert="moyenne">ο</unclear><gap n="1" unite="lettres" raison="illisible"/> κ<unclear cert="moyenne">ου</unclear>ρᾶσ δουλικῆσ ÷</sch>
+    <sch n="2" ancre="4" place="mg-g" main="R2"><signe type="autre" main="R2">—</signe> <unclear cert="moyenne">τὸ ἑξῆσ ὑσ</unclear> τέραν τῆσ τὸν ἀνδρεῖον<lb/><unclear cert="moyenne">τεκούσησ</unclear> ἀντὶ μιᾶσ γυναικὸσ ὑστέ<lb coupe="oui"/>ραν ἐὰν δὲ ὑστάτην ἁπάντων ὑστάτ ÷</sch>
+    <sch n="3" ancre="6" place="mg-g" main="R2">πολλάκισ εἶπεν ὅτι προβάλλει ὁ ὁμη<lb coupe="oui"/>ρικ… ἐν τῶ πρὸσ πολύβιον προτατι<lb coupe="oui"/>κῶ … ερβόλου μήτηρ οὐκ ἐχο<lb coupe="oui"/>με… εἰ δὲ χρὴ τὰ τοιαῦτα<lb/>ζη…τωσαν καὶ τὴν ἑξῆσ<lb/>… τ γὰρ πρα μόνον οἶδα<lb/>… ξενόφαντον ÷</sch>
+  </scholies>
+  <notes>
+    <note>Brouillon en cours.</note>
+  </notes>
+</page>

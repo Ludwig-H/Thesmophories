@@ -77,7 +77,7 @@ def caractere(fam, nom, table=None):
     base = table.get(("Kleinlogel", nom))
     if base is None or fam in NORMALES or not fam.startswith("Kleinlogel"):
         return base if fam.startswith("Kleinlogel") else None
-    if not base.strip() or all(unicodedata.combining(c) for c in base):
+    if not base[:1].isalpha():   # ponctuation et signes : ni point souscrit ni trait suscrit
         return base
     if fam in POINTEES:
         return base + "\u0323"
@@ -283,7 +283,7 @@ def _combinant(c):
 # (contours des glyphes : iota souscrit 130–389, brève −3–281, point souscrit 60–160).
 _ENCRE = {"\u0345": 260, "\u0306": 140, "\u0323": 110}
 # Lettres qui peuvent porter le signe (sinon : toute lettre)
-_PORTEURS = {"\u0345": "αηωΑΗΩ", "\u0306": "αιυΑΙΥ"}
+_PORTEURS = {"\u0345": "αηωΑΗΩ", "\u0306": "αιυΑΙΥ", "\u0308": "ιυΙΥ"}
 
 
 def _porteur(mark, base):
@@ -299,6 +299,11 @@ def _rattacher(chars):
     attaches = {}
     for k, ch in enumerate(chars):
         if not _combinant(ch["c"]):
+            continue
+        # familles Punkt et Strich : un glyphe rend lettre + signe, le signe suit donc sa lettre
+        if k and ("Punkt" in ch["police"] or "Strich" in ch["police"]) and chars[k - 1]["c"].strip() \
+                and not _combinant(chars[k - 1]["c"]):
+            attaches.setdefault(k - 1, []).append(k)
             continue
         x0, _, x1, _ = ch["bbox"]
         if x1 - x0 < 0.3:  # chasse nulle : l'encre est à droite de l'origine
@@ -322,6 +327,34 @@ def _rattacher(chars):
         for m in attaches.get(k, []):
             out.append(dict(chars[m], bbox=ch["bbox"]))
     return out
+
+
+def reporter_souscrit(a, b):
+    """Iota souscrit égaré : PyMuPDF coupe une ligne justifiée en fragments, et le signe, qui
+    précède sa lettre dans le flux, reste à la fin du fragment précédent (« ἐνͅ » + « ὧ »…).
+    Le reporte sur la première lettre du fragment b (lignes de lignes_page) si elle peut le porter."""
+    t = a["texte"].rstrip()
+    if not t.endswith("\u0345"):
+        return False
+    tb = b["texte"].lstrip()
+    if not tb or not _porteur("\u0345", tb[0]):
+        return False
+    nouveau = unicodedata.normalize("NFC", tb[0] + "\u0345")
+    a["texte"] = t[:-1]
+    b["texte"] = nouveau + tb[1:]
+    for k in range(len(a["spans"]) - 1, -1, -1):
+        sp = a["spans"][k]
+        if sp[0].strip():
+            if sp[0].rstrip().endswith("\u0345"):
+                a["spans"][k] = (sp[0].rstrip()[:-1],) + tuple(sp[1:])
+            break
+    for k, sp in enumerate(b["spans"]):
+        s = sp[0]
+        s2 = s.lstrip()
+        if s2:
+            b["spans"][k] = (s[:len(s) - len(s2)] + nouveau + s2[1:],) + tuple(sp[1:])
+            break
+    return True
 
 
 def lignes_page(page, flags=None):

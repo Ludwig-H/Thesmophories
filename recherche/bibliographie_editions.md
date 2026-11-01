@@ -46,7 +46,7 @@
 - **Sources des listes** : catalogues BnF (SRU) et B3Kat (SRU), requêtes conservées dans
   `.travail/editions_reprise/catalogues/` ; C. Prato, *Le donne alle Tesmoforie*, Milan, 2001, « Nota sul
   testo e sulle sue edizioni » (p. XXXI–XXXVI) et « Indicazioni bibliografiche », § 2 *Edizioni e commenti*
-  et § 3 *Traduzioni* (p. XLIV–XLVII) (extrait textuel : `.sources/drive/ravennas/Prato_2001_LeDonneAlleTesmoforie_textrep.txt`) ;
+  et § 3 *Traduzioni* (p. XLIV–XLVII) (lus sur l'exemplaire complet, voir E50) ;
   liste d'éditions de Blaydes 1880, p. VII–VIII.
 
 ## 2. Tableau chronologique des éditions (texte grec)
@@ -108,7 +108,7 @@ Les références complètes, URL et justifications sont dans les notices du § 3
 | E47 | 1988 | J. F. Gannon | *Aristophanes' Thesmophoriazusae*, Bryn Mawr | T (+ notes ?) | — | non | — | — |
 | E48 | 1994 | A. H. Sommerstein | *Thesmophoriazusae*, Warminster, Aris & Phillips | T, A, Tr. angl., C | R | non | Drive ; extrait : `.sources/drive/ravennas/Sommerstein_1994_Thesm_textrep.txt` | — |
 | E49 | 2000 | J. Henderson | *Aristophanes* III (*Birds, Lysistrata, Women at the Thesmophoria*), Cambridge (Mass.), Loeb | T, Tr. angl. | — | non | — | — |
-| E50 | 2001 | C. Prato, D. Del Corno | *Le donne alle Tesmoforie*, Milan, Fondazione Valla | T, A, Tr. it., C | R (microfilm ; vérifications sur l'original) | non | Drive ; extrait : `.sources/drive/ravennas/Prato_2001_…textrep.txt` | — |
+| E50 | 2001 | C. Prato, D. Del Corno | *Le donne alle Tesmoforie*, Milan, Fondazione Valla | T, A, Tr. it., C, métrique | R (microfilm ; vérifications sur l'original) | non | exemplaire de travail non versionné ; apparat relevé : `edition/donnees/repertoire_critique/prato2001_*.jsonl` | T et A p. 8–132 (pages paires) ; C p. 135–342 ; *Appendice metrica* p. 345–356 |
 | E51 | 2003 | B. Marzullo | *Le commedie*, Rome, Newton & Compton (« testo greco integralmente rinnovato e appendice critica ») | T, A (appendice), Tr. it. | — | non | — | — |
 | E52 | 2004 | C. Austin, S. D. Olson | *Thesmophoriazusae*, Oxford, OUP | T, A, C | R | non | Drive ; extrait des p. i–lxxix : `.sources/drive/ravennas/AustinOlson_2004_Thesm_textrep.txt` | — |
 | E53 | 2006 | G. Mastromarco, P. Totaro | *Commedie di Aristofane* II, Turin, UTET | T, Tr. it., notes, C (Totaro) | — | non | Drive [à vérifier] | — |
@@ -756,11 +756,33 @@ T seul ; DP : oui ; pas de numérisation trouvée.
 **E50. 2001 — Carlo Prato et Dario Del Corno, Milan (Fondazione Valla).**
 - Réf. : *Aristofane, Le donne alle Tesmoforie*, a cura di Carlo Prato, traduzione di Dario Del Corno,
   Milano, Fondazione Lorenzo Valla – Mondadori, 2001, LXXXV-372 p. (BnF cb39242238h).
-- Nature : T, apparat, Tr. it., commentaire, bibliographie (dont la liste des « Contributi filologici »
-  utilisée pour `conjectures_sources.md`). Base : R ; doutes paléographiques résolus par M. D'Agostino et
-  G. Prato « sul microfilm o sull'esemplare ravennate » ; apparat relu par C. Austin (p. XXXVI). DP : non.
-- Fichier : Drive (`Thesmophories/Prato LeDonAllTes.pdf`) ; extrait textuel :
-  `.sources/drive/ravennas/Prato_2001_LeDonneAlleTesmoforie_textrep.txt`.
+- Nature : T, apparat positif en latin, Tr. it., commentaire, *Appendice metrica*, bibliographie (dont la
+  liste des « Contributi filologici » utilisée pour `conjectures_sources.md`). Base : R ; doutes
+  paléographiques résolus par M. D'Agostino et G. Prato « sul microfilm o sull'esemplare ravennate » ;
+  apparat relu par C. Austin (p. XXXVI). Commentaire « ultimato nel maggio del 1997 » (p. 342). DP : non.
+- Contenu (page imprimée = rang du fichier − 87) : divergences d'avec Coulon p. XXXVI–XXXIX ; *Sigla* p. 3 ;
+  *personae* p. 6 ; texte et apparat p. 8–132 (pages paires, traduction en regard) ; commentaire p. 135–342 ;
+  *Appendice metrica* p. 343–356 (titre p. 343, analyses p. 345–356, résumées dans
+  `recherche/metrique_structure.md` § 3).
+- Sigles : Π¹ = PSI 1194 + PSI XIV p. XV ; Π² = P.Oxy. 1176 (Satyros) ; Π³ = P.Oxy. 3839 ; Π⁴ = P.Oxy. 3840 ;
+  R ; G = Monac. gr. 492 ; R² = « R manus recentior », sigle unique ; Σ ; Σ^u.l. Prato n'a pas P.Oxy. 4935
+  ni 5132.
+- Numérotation : marge de cinq en cinq, celle de Coulon. Sous-numéros propres (texte, apparat ou *Appendice*) : 103a/b, 128b, 129a/b, 324a/b,
+  437a/b, 439a/b, 441a/b, 442a/b, 460a/b, 465a/b/c (465, 465a, 465b dans l'*Appendice*), 664a/b, 666a/b, 955a/b, 972a/b, 988a/b, 992a/b, 993a/b,
+  1039a/b, 1048a/b, 1092a/b ; lignes doubles 115-6, 357-8, 434-5, 675-6, 681-2, 684-5, 718-9, 722-3, 724-5, 914-5,
+  961-2, 975-6, 1040-1, 1137-8, 1150-1, 1152-3. Le champ `v` du relevé garde ces numéros : la fusion doit donc
+  rattacher chaque entrée d'après son lemme. **Piège** : les *Sigla* et l'apparat portent « 374-5 » pour
+  Satyros, numérotation de Hall–Geldart héritée telle quelle ; dans la numérotation de Prato, Satyros cite
+  373-374 (son apparat place d'ailleurs Ἀρ[χίκλ]εια au v. 373).
+- Texte : base Coulon, avec 180 écarts relevés par Prato lui-même (`edition/donnees/prato2001_divergences_coulon.tsv`,
+  avec l'origine de chaque leçon d'après l'apparat) : 82 rétablissent la leçon de R ou d'un papyrus, 73 adoptent
+  une conjecture ; les autres sont des attributions, des ponctuations, des suppléments. Conjectures propres
+  adoptées : 86 δικαί‹αν› ἂν (d'après Wilamowitz), 209 ὢ, 273 συνοικίαν (d'après Bergk), 892 ὦ κακοδαίμων (d'après
+  Wilamowitz), 1158 ἤλθετε, 1159 ‹ἥκετον›, 1203 λαβόν, 1215 ‹σι›, 1216 σί ; répartition propre au v. 639 ;
+  transposition 721 ἀθέοις γὰρ ἔργοις (après Burges).
+- Relevé : apparat complet, 2 142 entrées, contrôlées sur l'image des pages
+  (`edition/donnees/repertoire_critique/prato2001_<v0>-<v1>.jsonl`) ; OCR de travail dans `.sources/` (non versionné).
+- Fichier : exemplaire de travail non versionné (`.sources/…/Prato_2001_LeDonneAlleTesmoforie.pdf`, 467 p.).
 
 **E51. 2003 — Benedetto Marzullo, Rome (Newton & Compton).**
 - Réf. : *Aristofane, Le commedie : Acarnesi, Cavalieri, Nuvole, Vespe, Pace, Uccelli, Tesmoforiazuse,

@@ -1,8 +1,9 @@
 # Études modernes sur les *Thesmophories* — recension
 
-> **État** (28 octobre 2026) : recension complète dans ses six parties (reprise après interruption du
-> 26 octobre : sections 2.4 à 6 rédigées, index par vers généré). Ce qui n'a pas pu être contrôlé sur le document
-> lui-même est marqué **[à vérifier]** ; la liste des points ouverts est au § 6. Les éditions et commentaires sont
+> **État** (1ᵉʳ novembre 2026) : recension complète dans ses six parties. Reprise du 1ᵉʳ novembre : notes de Coulon
+> dépouillées quand elles sont accessibles ; accès libres récupérés par HAL, OpenEdition, RODERIC, Dialnet et dépôts
+> institutionnels (§ 5). Ce qui n'a pas pu être contrôlé sur le document lui-même est marqué **[à vérifier]** ; la liste
+> des points ouverts est au § 6. Les éditions et commentaires sont
 > recensés dans `recherche/bibliographie_editions.md`, les sources des conjectures des critiques des XVIe-XIXe s.
 > dans `recherche/conjectures_sources.md`, les papyrus dans `recherche/papyrus.md`, la métrique dans
 > `recherche/metrique_structure.md`, les ressources du Drive dans `recherche/drive_ressources.md` : on n'y revient
@@ -233,6 +234,13 @@ sont déjà téléchargés par d'autres chantiers.
   la leçon ἔκσπευδε n'a jamais été sérieusement défendue ; vv. 601-605 : transposition du v. 604 avant le v.
   603 (adoptée par S.) ; vv. 808-809 : Ἄνυτος pour αὐτός (le stratège de 410/09). *Accès* :
   `W/Maas_1913_RhM68_Zu_Ar_Thesm.pdf` ; libre : DOI 10.18716/ojs/rhm/1913.68.8332. [lu]
+- **Coulon 1922** — V. Coulon, « Observations sur le texte d'Aristophane (*Cavaliers*, v. 271-77. — *Thesmophor.*, v. 289-91) »,
+  *REG* 35 (1922), p. 408-414 : θυγατέρ' εὔχοιρον au v. 289 (p. 412-413), δ' pour τ' au v. 290 (p. 414, avec Hermann), σαθίσκον
+  au v. 291 (p. 413, d'après Willems). Absent de P. *Vers* : 289-291. *Accès* : `W/conjectures/Coulon_1922_REG35_p408-414_ocr.txt` (archive.org `revuedestudesg35assouoft`). [lu, OCR]
+- **Coulon 1925** — V. Coulon, « Observations critiques et exégétiques sur l'argument II des *Oiseaux* et sur le texte d'Aristophane »,
+  *REG* 38 (1925), p. 73-98, DOI 10.3406/reg.1925.5187. *Vers* : 285 (p. 82, d'après Coulon 1953, p. 35) [autres à relever]. [méta]
+- **Coulon 1926b** — V. Coulon, « Interprétation de quelques passages d'Euripide et d'Aristophane », *REG* 39 (1926), p. 335-350,
+  DOI 10.3406/reg.1926.5271. *Vers* : [à relever]. [méta]
 - **Coulon 1926** — V. Coulon, « Notes critiques sur deux hyperbates dans le *Plutus* (v. 119 et 512) et sur
   un passage des *Thesmophoriazusai* (v. 241-47) d'Aristophane », *REG* 39 (1926), p. 90-96. *Vers* :
   241-247. *Accès* : libre (Persée), DOI 10.3406/reg.1926.5236. [méta]
@@ -244,9 +252,14 @@ sont déjà téléchargés par d'autres chantiers.
   et Anacréon », *REG* 44 (1931), p. 8-33, DOI 10.3406/reg.1931.6999. *Vers* : 1047 (1931, p. 13 : approuve
   l'ἂν ἔτικτε de Wilamowitz, d'après Coulon 1957) [autres vers à relever]. *Accès* : libre (Persée). [méta]
 - **Coulon 1934a** — V. Coulon, « Notes sur Aristophane et sur deux passages d'une inscription chrétienne
-  d'Asie-Mineure », *REG* 47 (1934), p. 421-443. *Vers* : 63, 280-281, 706, 941-945, 1030, 1224.
+  d'Asie-Mineure », *REG* 47 (1934), p. 421-443. *Vers* : 63 (p. 431), 149-150 (ἃ χρῇς ποεῖν, p. 440-442), 280-281 et 1030 (p. 435), 706 (p. 423), 941-945
+  (p. 427), 1224 (p. 425).
   *Accès* : `AR/Coulon notes sur Aris et sur deux passages.pdf` ; libre (Persée), DOI 10.3406/reg.1934.7186.
   [lu]
+- **Coulon 1930b, 1936, 1937b** — V. Coulon, « Supplément critique et exégétique au tome III de mon édition d'Aristophane », *REG* 43
+  (1930), p. 36-63, DOI 10.3406/reg.1930.6973 ; « Interprétation de quelques passages d'Aristophane », *REG* 49 (1936), p. 407-428,
+  DOI 10.3406/reg.1936.2786 ; « Observations philologiques sur divers passages d'Aristophane », *REG* 50 (1937), p. 15-41, DOI
+  10.3406/reg.1937.2803. *Vers* : [à relever]. [méta]
 - **Coulon 1934b** — V. Coulon, « Interprétation d'un passage d'Aristophane imité par les conteurs du moyen
   âge », dans *Mélanges Bidez*, t. II, Bruxelles, 1934, p. 122-134. *Vers* : [à identifier]. [P]
 - **Allen 1935** — J. T. Allen, « Notes on Aristophanes », *CPh* 30 (1935), p. 262-264. *Vers* : [à relever].
@@ -272,8 +285,8 @@ sont déjà téléchargés par d'autres chantiers.
   νοτίζει, en gardant πέδον et le datif de van Herwerden (μελανοσυρμαίῳ λεῴ). *Vers* : 855-857. *Accès* :
   `AR/thesmophories 855 10.1017_S0009840X00095068.pdf`. [lu]
 - **Coulon 1953** — V. Coulon, « Notes critiques et exégétiques sur divers passages controversés d'Aristophane
-  et sur Sophocle, *Antigone* 613-614 », *REG* 66 (1953), p. 34-55. *Vers* : 100, 142, 166-168, 217, 285,
-  806, 995. *Accès* : `AR/Coulon notes critiques et exégétiques.pdf` ; libre (Persée), DOI
+  et sur Sophocle, *Antigone* 613-614 », *REG* 66 (1953), p. 34-55. *Vers* : 100 et 285 (p. 35-38), 141-142 (p. 36 n. 1), 162 (p. 45-46), 166-168 (p. 42), 217 (p. 49-50),
+  806 (p. 43), 995 (p. 46 n. 1), 1150 (θεμίτ' de Bothe, p. 41). Détail : `edition/donnees/conjectures_references.tsv`. *Accès* : `AR/Coulon notes critiques et exégétiques.pdf` ; libre (Persée), DOI
   10.3406/reg.1953.3304. [lu]
 - **Koster 1955** — W. J. W. Koster, « Ad Aristophanis *Thesmophoriazusarum* fragmenta in PSI 1194 servata :
   de coronide ; de parepigrapha ; de proceleusmatico », *Acme* 8 (1955), p. 93-103. *Vers* : 273-288
@@ -969,8 +982,7 @@ sont déjà téléchargés par d'autres chantiers.
 - **Kyriakou 2013** — P. Kyriakou, « Poetic Representation and Nature in the Agathon Scene of Aristophanes'
   *Thesmophoriazusae* », *C&M* 64 (2013), p. 139-159 ; libre : ikee.lib.auth.gr (serveur injoignable). [méta]
 - **Navarro Martínez 2013** — V. L. Navarro Martínez, « La *Agathonszene* : una teoría poética en *Tesmoforiantes*
-  de Aristófanes », n° 1, p. 55-74 [revue à identifier ; dépôt RODERIC, Valence, protégé par un défi anti-robot].
-  [méta]
+  de Aristófanes », *Tycho* 1 (2013), p. 55-74. *Accès* : `W/Navarro_2013_Agathonszene.pdf` (RODERIC, hdl 10550/37578). [lu, première page]
 - **Di Virgilio 2018** — L. Di Virgilio, « Che cosa sta componendo Agatone nelle *Tesmoforiazuse* di
   Aristofane », p. 71-101 [revue à identifier ; Fabrizio Serra, DOI 10.19272/201806501004]. *Vers* : 101-129.
   [méta]
@@ -1039,7 +1051,7 @@ sont déjà téléchargés par d'autres chantiers.
 - **Compton-Engle 2015** — G. Compton-Engle, *Costume in the Comedies of Aristophanes*, Cambridge, 2015, ch. 3
   « Disguise, Gender, and the Poet », p. 88-109. DOI 10.1017/CBO9781316018217.004. [méta]
 - **Boscà Cuquerella 2017** — A. Boscà Cuquerella, « Tres travestismos : tres tratamientos y tres finalidades
-  diferentes en las *Tesmoforiantes* de Aristófanes », n° 5, p. 7-28 [revue à identifier ; dépôt RODERIC] : les
+  diferentes en las *Tesmoforiantes* de Aristófanes », *Tycho* 5 (2017), p. 7-28 (`W/Bosca_2017_Tres_travestismos.pdf` ; RODERIC, hdl 10550/100784) : les
   travestissements d'Agathon, du Parent et d'Euripide. [méta]
 - **Sells 2019** — [D. Sells ?, auteur à vérifier], *Parody, Politics and the Populace in Greek Old Comedy*,
   Londres, Bloomsbury, 2019, ch. « The Feminine Mistake : Household Economy in Aristophanes' *Thesmophoriazusae* ».
@@ -1373,14 +1385,17 @@ de ces conjectures est à chercher parmi les notices ci-dessus (Austin 1987, 199
 - **v. 138** : Austin 1990, βάρβιτος, p. 17-18
 - **v. 139** : *apparat de Wilson* : van Leeuwen, ξύμφορα
 - **v. 140** : Olson 1995, R défendu — *apparat de Wilson* : Dover, κατρόπτου
+- **v. 141** : Coulon 1953, τίς δ' de R (p. 36 n. 1)
 - **v. 142** : Coulon 1953
 - **v. 148** : Austin 1974 ; Austin 1987, p. 74 ; Sansone 1987 ; Viketos 1989
 - **vv. 149-150** : *interprétation* : Muecke 1982a, théorie de la mimèsis
+- **v. 149** : Coulon 1934a, ἃ χρῇς ποεῖν
 - **v. 153** : *interprétation* : Pretagostini 1977, κελητίζειν
 - **vv. 154-155** : Stepantsov 2022
 - **v. 158** : Austin 1990
 - **v. 159** : Austin 1987, p. 75
 - **vv. 161-162** : *interprétation* : Chirico 1989, 1990 ; Snyder 1974, Agathon et Anacréon
+- **v. 162** : Coulon 1953, περί de R (p. 45-46)
 - **v. 164** : Olson 1995, R défendu — *apparat de Wilson* : Sommerstein, τούτου
 - **v. 165** : Austin 1987, p. 75
 - **vv. 166-168** : Coulon 1953
@@ -1412,9 +1427,10 @@ de ces conjectures est à chercher parmi les notices ci-dessus (Austin 1987, 199
 - **v. 285** : Coulon 1953
 - **v. 287** : Austin 1987, p. 76
 - **v. 288** : Olson 1995
-- **v. 289** : Austin 1990 ; Taillardat 1988
+- **v. 289** : Austin 1990 ; Taillardat 1988 ; Coulon 1922, θυγατέρ' εὔχοιρον
 - **vv. 289-291** : Willems 1908
-- **v. 291** : Taillardat 1961
+- **v. 290** : Coulon 1922, δ' pour τ'
+- **v. 291** : Taillardat 1961 ; Coulon 1922, σαθίσκον
 - **v. 295** : Liberman 2008, conjecture d'Austin–Olson ; Residori 1979 ; Wilamowitz 1929, « Lesefrüchte », p. 468-469, d'après S. — *apparat de Wilson* : Austin & Olson, attribution ; Sommerstein, attribution
 - **vv. 295-382** : Notsu 1995
 - **v. 306** : *apparat de Wilson* : van Leeuwen, καὶ
@@ -1629,6 +1645,7 @@ de ces conjectures est à chercher parmi les notices ci-dessus (Austin 1987, 199
 - **v. 1133** : Austin 1987, p. 86
 - **vv. 1136-1159** : *mètre* : Di Virgilio 2026
 - **vv. 1150-1151** : *apparat de Wilson* : Austin, note
+- **v. 1150** : Coulon 1953, θεμίτ' de Bothe (p. 41)
 - **v. 1157** : *apparat de Wilson* : van Leeuwen, εἰ
 - **vv. 1160-1226** : *interprétation* : Gelzer 1993, scène finale : Th. Gelzer, Entretiens Hardt 38, 1993, p. 84, d'après S.
 - **vv. 1160-1231** : Di Bari 2010, 2013 — *interprétation* : Totaro 2022
@@ -1681,14 +1698,29 @@ anciennes (`ED/`, `ME/`) sont décrites dans `recherche/drive_ressources.md` et 
 | `Ritschl_1867_RhM22_Zu_Ar_Thesm.pdf` | Ritschl 1867 | 186 Kio | journals.ub.uni-koeln.de |
 | `Hartwig_2009_RhM152_polos_1210-1211.pdf` | Hartwig 2009b | 46 Kio | journals.ub.uni-koeln.de |
 | `hermes8/hermeswies08wies_djvu.txt` (+ métadonnées) | Hiller 1874 (*Hermes* 8, OCR du volume) | 1269 Kio | archive.org |
+| `Germain_2021_REA_espace_Thesm.pdf` | Germain 2021 | voir manifeste | hal.science (hal-03355961) |
+| `Germain_2023_Scholies_Thesm_*.html` | Germain 2023 (sommaire, introduction, traduction et commentaire, bibliographie) | voir manifeste | books.openedition.org |
+| `SaettaCottone_2010_Penthee_spectateur.html` | Saetta Cottone 2010 | voir manifeste | books.openedition.org |
+| `Mastromarco_2016_SPhV18_Thesm_Eccl.pdf` | Mastromarco 2016 | voir manifeste | dialnet.unirioja.es |
+| `Navarro_2013_Agathonszene.pdf` | Navarro Martínez 2013 | voir manifeste | roderic.uv.es |
+| `Bosca_2017_Tres_travestismos.pdf` | Boscà Cuquerella 2017 | voir manifeste | roderic.uv.es |
+| `Ruffell_2020_ICS45_Transgender.pdf` | Ruffell 2020 | voir manifeste | eprints.gla.ac.uk |
+| `Plassart_1913_REG26_archers_ocr.txt` | Plassart 1913 (OCR d'archive.org, p. 151-213) | voir manifeste | archive.org |
+| `conjectures/` | pages ou OCR des sources contrôlées pour `edition/donnees/conjectures_references.tsv` | voir manifeste | archive.org |
 
-26 documents. Accès libres repérés mais non téléchargés (défi anti-robot, certificat invalide ou serveur
-injoignable) : Persée (Coulon 1926-1953, Blanc–Taillardat, Saetta Cottone 2003, Blanchard 2001, Plassart 1913),
-OpenEdition (Germain 2023 ; Saetta Cottone 2010 ; Trümpy 2004), HAL (Germain 2021, hal-03355961), *Emerita*
-(Macía Aparicio 2002, Quijada Sagredo 2012), RODERIC Valence (Mastromarco 2016, Navarro Martínez 2013, Boscà
-Cuquerella 2017), *Humanitas* (Lourenço), OpenstarTs (Nieddu 2010), IKEE (Kyriakou 2013), *Elephant & Castle*
-(Volpi 2024), *ICS* (Ruffell 2020), dépôt du Nebraska (Duncan 2001), *Temenos* (Prytz Johansen 1975), *BMCR*
-(comptes rendus lus en ligne).
+Récupérations du 1ᵉʳ novembre 2026 : requêtes identifiées, `robots.txt` contrôlé avant chaque téléchargement, aucun défi
+anti-robot contourné (journal : `.travail/refs_conj/acces_journal.tsv`).
+
+Accès libres toujours non récupérés :
+
+| Document | Raison | Voie possible |
+|---|---|---|
+| Coulon 1925, 1926, 1926b, 1929, 1930, 1930b, 1931, 1936, 1937b ; Blanchard 2001 ; Blanc–Taillardat 1986 ; Saetta Cottone 2003 | Persée : `robots.txt` interdit tout robot générique ; PDF derrière un captcha ; l'entrepôt OAI ne donne que les notices. La p. 90 de Coulon 1926 a été lue une seule fois, avant le constat | copie manuelle dans un navigateur, ou décision expresse de l'auteur |
+| Quijada Sagredo 2012, Macía Aparicio 2002 (*Emerita*) | certificat non vérifiable depuis cet environnement | copie manuelle |
+| Lourenço (*Humanitas* 47) | certificat du serveur invalide (nom d'hôte) | copie manuelle |
+| Nieddu 2010 (OpenstarTs), Kyriakou 2013 (IKEE), Volpi 2024 (*Elephant & Castle*), Prytz Johansen 1975 (*Temenos*) | serveur injoignable (délai dépassé) | nouvel essai |
+| Trümpy 2004 (*Kernos* 17), Duncan 2001 (Nebraska), *BMCR* | non essayés faute d'URL exacte | OpenEdition, DigitalCommons |
+| Gallica | `robots.txt` refusé (403) | — |
 
 ## 6. Lacunes et vérifications à faire
 
@@ -1699,8 +1731,7 @@ Cuquerella 2017), *Humanitas* (Lourenço), OpenstarTs (Nieddu 2010), IKEE (Kyria
   notes de Prato 1993-1999, Schöne 1847, Clements 2013, Rau 1967 (pages des *Thesm.*).
 - Titres ou supports à établir : Dover 1977 (*ICS* 2), Brixhe 1988, Rehm 1988, Chirico 1989, West 1992 (*ZPE* 92),
   Webster 1965 (*BICS* 12 ou Suppl.), Brizi 1928 (« *AR* »), Luce 1918 (scène représentée), Todisco 2012 et 2017,
-  Capra 2013, Romani 2006, Palerm 2014, Esteban Santos 2016, Méndez Dosuna 2010, Navarro Martínez 2013, Boscà
-  Cuquerella 2017, Di Virgilio 2018 et 2019, Saetta Cottone 2023, Sells 2019 (auteur), éditeurs de *Der Chor im
+  Capra 2013, Romani 2006, Palerm 2014, Esteban Santos 2016, Méndez Dosuna 2010, Di Virgilio 2018 et 2019, Saetta Cottone 2023, Sells 2019 (auteur), éditeurs de *Der Chor im
   antiken und modernen Drama* (Bierl 1999) et de *Chorodidaskalia* (Tammaro 2022), Lourenço (*Humanitas* 47 :
   année), Torchio 1999-2000 (titres), réplique de Butrica à Olson–Austin (*LICS*), Grégoire 1938 (support : *RBPh*
   ou *Byzantion* ?), tomaison de Sommerstein 1980 (*QS*) et de Lowe 1967 (*Hermes* 95).
@@ -1718,7 +1749,12 @@ Cuquerella 2017), *Humanitas* (Lourenço), OpenstarTs (Nieddu 2010), IKEE (Kyria
   (tesseract, anglais) avant lecture.
 - Ouvrages signalés comme non récupérés du Drive (`recherche/drive_ressources.md` § 9.2) : Bobrick 1997, Bowie 1993 ;
   absents du fonds : Zeitlin 1981/1996, Taaffe 1993, Tzanetou 2002, Stehle 2002 (accès par JSTOR, Project MUSE).
-- Accès libres non téléchargés (défis anti-robot, certificats) : voir la fin du § 5.
+- Accès libres non récupérés : voir la fin du § 5.
+
+*Autorisation à demander à l'auteur*
+
+- Persée sert le texte OCR page à page à une requête ordinaire, mais son `robots.txt` exclut les robots génériques : les notes de
+  Coulon non dépouillées (liste à la fin du § 5) attendent une copie manuelle ou une décision expresse.
 
 *Fichiers du Drive examinés et écartés (hors sujet ou mal intitulés)*
 

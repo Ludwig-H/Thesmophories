@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 167v (vv. 423–465) ; BROUILLON EN COURS (première lecture sur l'image, avant confrontation aux imprimés). -->
+<page folio="f167v" image="11_f167v_classense169v_vv0423-0465.jpg" vers="423-465">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="1" place="mg-sup" main="R2">τὰ <abbr dev="άρ">γ</abbr> ἀρχαῖα μονοβάλανα <abbr dev="ησὶν">φ</abbr> εἶναι γομφίουσ τουσ ἡμεῖσ ὀδόντασ μένανδροσ μισουμένωι λακωνικὴ κλεῖσ <unclear cert="faible">ἐστίν</unclear> ὡσ ἔοικε μοι<lb/><gap n="9" unite="lettres" raison="illisible"/> ἐξωθεν περικλείει τοὺσ μοχλοὺσ ἢ τιθεμένου ἢ τινὸσ τοιούτου ὥστε τοῖσ ἔνδον μὴ εἶναι ἀνοῖξαι</sch>
+    <sch n="2" ancre="1" place="mg-g" main="R2">περιβόητοι εἰσὶν αἱ λακωνικαὶ κλεῖδεσ ÷</sch>
+    <sch n="3" ancre="1" place="mg-d" main="R2"><abbr dev="ας">ὀδόντ</abbr></sch>
+    <sch n="4" ancre="3" place="mg-g" main="R2">— σφραγίδιον παρα πλήσι ὧι ἐσφράγιζεν ὁ ἀνήρ ÷</sch>
+    <sch n="5" ancre="4" place="mg-g" main="R2">— ξύλα ὑπὸ θριπῶν βεβρωμένα οἷσ ἐσφρα<lb coupe="oui"/>γιζον θρῖπεσ <abbr signe="ʒ" dev="δὲ"/> εἶδοσ σκωλήκων ÷</sch>
+    <sch n="6" ancre="6" place="mg-g" main="R2">— ἐξάψαντασ ἑαυτῶν ÷</sch>
+    <sch n="7" ancre="7" place="mg-g" main="R2">— ταράττειν <abbr signe="ϗ" dev="καὶ"/> κινεῖν ÷</sch>
+  </scholies>
+  <notes/>
+</page>

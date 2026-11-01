@@ -1,13 +1,14 @@
 # Travaux antérieurs de l'auteur (dossier `latex/`) — analyse et extraction
 
-> État : **complet** (3ᵉ reprise, 2026-10-26). Sections 1-11 rédigées ; chiffres recalculés sur la dernière
-> extraction (reproductible à l'identique : `python3 outils/extraction/extraire_travaux.py && python3
-> outils/extraction/comparer_versions.py`).
+> État : **complet** (3ᵉ reprise, 2026-10-26 ; § 9-10 réécrits le 2026-11-01 sur tous les états du Drive). Sections 1-11
+> rédigées ; chiffres recalculés sur la dernière extraction (reproductible à l'identique : `python3
+> outils/extraction/extraire_travaux.py && python3 outils/extraction/comparer_versions.py`, contrôle :
+> `python3 outils/extraction/verifier_recuperables.py`).
 > Sources : `latex/Aristophane-Thesmo Harmattan 2023 vv 1-641.tex` et `… vv 642-fin-bis.tex` (version de
-> référence, dite ici « Harmattan 2023 »), versions antérieures `… nov 2022.tex` et `… Harmattan mars 2023.tex`,
-> `… Introduction.tex`, `… Annexes.tex`, `… Index.tex`. Les fichiers « Edition 4 pages Ravennas » (Gemini) sont
-> exclus. Les citations du commentaire de l'auteur sont données ici à titre d'analyse ; le nom réel de l'auteur
-> (présent dans `\author{}` et dans les annexes) n'est jamais reproduit.
+> référence, dite ici « Harmattan 2023 ») ; pour les § 9-10, les 54 états de travail du Drive (juillet 2020 - avril 2024,
+> printemps 2020 compris) et les `Introduction`, `Annexes` et `Index` du Drive, plus complets que leurs copies de `latex/`.
+> Les fichiers « Edition 4 pages Ravennas » (Gemini) sont exclus. Les citations du commentaire de l'auteur sont données
+> ici à titre d'analyse ; le nom réel de l'auteur (présent dans `\author{}` et dans les annexes) n'est jamais reproduit.
 
 ## 1. Architecture des fichiers et des macros
 
@@ -17,11 +18,11 @@
 |---|---:|---|
 | `Harmattan 2023 vv 1-641.tex` | 6 886 | vv. 1-638 (le dernier groupe est 637-8, malgré le nom) |
 | `Harmattan 2023 vv 642-fin-bis.tex` | 7 729 | vv. 639-1231 (`\setcounter{page}{151}`) |
-| `Harmattan mars 2023.tex` | 10 307 | vv. 1-946 (état intermédiaire, 541 groupes) |
-| `nov 2022.tex` | 13 092 | pièce entière (773 groupes) |
-| `Introduction.tex` | 421 | date, synopsis, bibliographie commentée, dossier Mnésiloque, témoins (sigles), personnages |
-| `Annexes.tex` | 1 869 | Willems (notice, bibliographie, 28 notes sur les *Thesmophories*), papyrus, iconographie, polémique |
-| `Index.tex` | 441 | quatre index (allusions proverbiales, gloses d'Hésychius, corrections proposées, passages expliqués) |
+| `Harmattan mars 2023.tex` | 10 307 | copie tronquée au v. 946 (541 groupes) ; la version complète est sur le Drive (§ 10.1) |
+| `nov 2022.tex` | 13 092 | pièce entière (773 groupes) ; antérieure à la version du Drive (§ 10.1) |
+| `Introduction.tex` | 421 | date, synopsis, bibliographie commentée, dossier Mnésiloque, témoins (sigles), personnages ; Drive : 435 lignes (§ 9) |
+| `Annexes.tex` | 1 869 | Willems (notice, bibliographie, 28 notes sur les *Thesmophories*), papyrus, iconographie, polémique ; Drive : 2 036 lignes (§ 9) |
+| `Index.tex` | 441 | quatre index (allusions proverbiales, gloses d'Hésychius, corrections proposées, passages expliqués) ; Drive : 453 lignes (§ 9) |
 
 Classe `book` 12 pt, `fontspec` + `polyglossia` (français ; grec en Unicode direct, police GFS Bodoni),
 `reledmac` (option `parapparatus`) et `reledpar` (`parledgroup`, `nomaxlines`), `fancyhdr`, `geometry`
@@ -80,15 +81,16 @@ chaque côté, sans écart.
   (exposants Unicode, `⟦ ⟧` = rature, lettre pointée = douteuse, `> ` = `\citComm`), normalisation du grec.
 - `outils/extraction/extraire_travaux.py` : extraction des deux fichiers Harmattan 2023 (enchaînés),
   numérotation, alignement grec/français, contrôles ; écrit `edition/donnees/travaux_anterieurs/`.
-- `outils/extraction/comparer_versions.py` : extraction des versions nov 2022 et mars 2023 avec le même
-  analyseur, comparaison avec Harmattan 2023 (chaque élément ancien reçoit un statut : conservé, remanié,
-  désactivé, transféré, absent… ; les parties commentées `%` à l'intérieur d'une macro restée active sont
-  prises en compte, § 10).
+- `outils/extraction/comparer_versions.py` : extraction de tous les états du Drive et de `latex/` avec le même
+  analyseur, doublons écartés par empreinte, comparaison avec Harmattan 2023 (chaque élément ancien reçoit un
+  statut : conservé, remanié, désactivé, déplacé, disparu… ; les parties commentées `%` sont prises en compte),
+  lignées des contenus perdus, Introduction, Annexes et Index du Drive (§ 9-10).
+- `outils/extraction/verifier_recuperables.py` : contrôle de `contenus_recuperables.tsv` sur les fichiers sources (§ 10.2).
 - `outils/extraction/sources_citees.py` : comptage des sources citées (§ 8).
 
-Commande : `python3 outils/extraction/extraire_travaux.py && python3 outils/extraction/comparer_versions.py`
-(≈ 15 s ; puis `python3 outils/extraction/sources_citees.py`). Les sorties sont identiques octet pour octet
-d'une exécution à l'autre (contrôlé). Le nom réel de l'auteur est lu dans `\author{}` et masqué dans toutes
+Commande : `python3 outils/extraction/extraire_travaux.py` (≈ 15 s), `python3 outils/extraction/comparer_versions.py`
+(≈ 3 min ; il lit le Drive dans `.sources/`, puis `python3 outils/extraction/sources_citees.py`). Les sorties sont identiques
+octet pour octet d'une exécution à l'autre (contrôlé). Le nom réel de l'auteur est lu dans `\author{}` et masqué dans toutes
 les sorties (contrôle bloquant).
 
 ### 2.2 Sorties (`edition/donnees/travaux_anterieurs/`)
@@ -102,7 +104,8 @@ les sorties (contrôle bloquant).
 | `commentaires.tsv` | `id, plage, lemme, longueur, premier_vers, dernier_vers, notes, groupe, cote, fichier, ligne_source` |
 | `testimonia.tsv` | testimonia actifs et désactivés, des deux côtés |
 | `anomalies.tsv` | rapport de vérification (§ 11) |
-| `comparaison_versions.json/.tsv` | comparaison des versions (§ 10) |
+| `comparaison_versions.json/.tsv` | comparaison de tous les états (§ 10) |
+| `contenus_recuperables.tsv` | contenus absents de la version active de 2023 : version, fichier, ligne, type, vers, extrait, statut (§ 10.4) |
 
 ### 2.3 Numérotation des vers : méthode
 
@@ -365,6 +368,8 @@ Les justifications se lisent dans le commentaire du vers indiqué (`commentaires
 
 ### 5.3 Conjectures abandonnées ou désactivées
 
+Depuis novembre 2022 (liste complète, tous états confondus : § 10.3).
+
 | Vers | Conjecture | Statut |
 |---|---|---|
 | 1 | Χελιδὼν (nom propre, « ap. Clements ») | active en nov. 2022 ; supprimée dès mars 2023 (la note sur l'article d'A. Clements a disparu) |
@@ -391,7 +396,8 @@ v. 31, πραῖνοι, δίκανον, θάλικα, ἐγκύμων, διπλ�
 162, 264, 289, 642-3, 895), et omet aussi neuf leçons déjà présentes en novembre 2022 (vv. 100, 477,
 1069, 1090, 1091, 1092, 1153, 1198, 1215) ; il contient en revanche trois entrées qui ne sont pas des
 leçons « Bibi » de l'apparat (743, répartition d'après P. Oxy. 3839 ; 1197, συμβήνην R maintenu ;
-Σ 1174, τὸ ἄκρως βαδίζειν « ap. Zonaras »).
+Σ 1174, τὸ ἄκρως βαδίζειν « ap. Zonaras »). Ce paragraphe décrit la copie de `latex/` ; la version du Drive ajoute le v. 1198
+et Sappho (§ 9.3), sans mettre à jour les leçons de novembre 2022.
 
 ## 6. Principes d'établissement du texte
 
@@ -562,7 +568,19 @@ Hésychius (73), Photius (47), Eustathe (29), Pollux (21), Moeris (20), Zonaras 
 
 ## 9. Introduction, annexes et index
 
-### 9.1 Introduction (`Introduction.tex`, 421 lignes)
+Pour ces trois ensembles, le texte à suivre est celui du dossier de travail du Drive (`GCA/`, voir § 10.1) :
+il est plus récent et plus complet que les copies de `latex/`. Aucun état du corps de l'édition ne contient
+d'introduction ni d'annexes : hors des pages parallèles, ils n'ont qu'un titre (au plus 366 caractères actifs).
+Le détail des écarts est dans `contenus_recuperables.tsv` (types `introduction`, `annexes`, `index`) et le
+bilan dans `comparaison_versions.json` (`introduction_annexes_index`).
+
+| Fichier | `latex/` | `GCA/` | Ce que `GCA/` apporte |
+|---|---:|---:|---|
+| `Introduction.tex` | 421 l., 49 729 o | 435 l., 50 923 o | 6 passages ajoutés ou récrits, 1 figure |
+| `Annexes.tex` | 1 869 l., 281 876 o | 2 036 l., 346 018 o | 1 long article de Willems, 1 figure, 1 intertitre, 1 vers corrigé |
+| `Index.tex` | 441 l., 22 815 o | 453 l., 24 003 o | 9 entrées de plus, 4 entrées complétées, 1 index renommé |
+
+### 9.1 Introduction (`GCA/Aristophane-Thesmo Introduction.tex`, 435 lignes)
 
 Date (Grandes Dionysies de 410, avec Rogers ; critique interne privilégiée sur les scholies) ;
 synopsis (le procès d'Euripide, le contexte historique) ; « Bibliographie thématique (et sélective) à
@@ -579,120 +597,492 @@ personnages (avec les muets Μανία, Ἐλάφιον, Τερηδών). Les ju
 tranchés (la traduction de Van Daele dans la CUF serait celle de Willems retouchée ; la « conspiration
 du silence » autour de Willems).
 
-### 9.2 Annexes (`Annexes.tex`, 1 869 lignes)
+Écarts avec la copie de `latex/` (numéros de ligne de la version du Drive) :
+
+- l. 172 : note ajoutée à la présentation de la pièce sur les éditions récentes des fragments (M. Pellegrino,
+  2015 ; K. Amaral Sacconi, 2020) ;
+- l. 278 : phrase récrite (« ce manuscrit qui, croyait-on, allait combler lacunes & pertes définitive[s] ») ;
+- l. 332 : note du dossier Mnésiloque complétée (Mnésiloque en marge des *Thesmophories*, dans de nombreuses
+  scholies et dans une scholie au v. 332 des *Acharniens*) ;
+- l. 337 : « raillés par les poètes et dont le masque comique ou quelque trait particulier suffisait à le faire
+  reconnaître des spectateurs », au lieu de « joués par les poètes comiques […] » ;
+- l. 426-429 : figure finale, la première page des *Thesmophories* dans R (`Premiere page sans bord.png`) ;
+- supprimé : un début de phrase inachevé de la copie de `latex/` (l. 257 de cette copie).
+
+Hors de ce fichier, `GCA/Présentation Thesmophories.txt` (aussi `.odt`, `.pdf`) est un texte de présentation
+en deux pages (résumé, contexte historique, « Προλεγόμενα ») dont 236 mots sur 657 ne se lisent nulle part
+ailleurs, en particulier la définition de l'édition comme « synopse » (apparat en regard du vers : savoir
+« instantanément » si l'on lit Aristophane ou l'« Aristophane travesti » de quelque éditeur) et le parallèle
+entre *Nuées*/Délion et *Thesmophories*/Sicile (6 lignes du tableau).
+
+### 9.2 Annexes (`GCA/Aristophane-Thesmo Annexes.tex`, 2 036 lignes)
 
 Préambule : « La quasi-intégralité de la traduction proposée des *Thesmophories* ainsi que les notes qui
 composent ces annexes sont tirées de l'œuvre d'Alphonse Willems ».
 
 | Ensemble | Contenu | Taille (caractères actifs) |
 |---|---|---:|
-| Dossier Willems | notice par Maurice Leroy ; bibliographie de Willems (Leroy) ; « Alphonse Willems. Notes d'un vieil élève » (Charles Lacomblé) | ≈ 66 000 |
+| Dossier Willems | portrait ; notice par Maurice Leroy ; bibliographie de Willems (Leroy) ; « Alphonse Willems. Notes d'un vieil élève » (Charles Lacomblé) | ≈ 66 000 |
 | Notes de Willems sur les *Thesmophories* (*Bull. Acad. roy. de Belgique*, Classe des lettres, nov. 1908) | introduction et **28 notes** : vv. 16-18, 21, 22-24, 217, 230, 263, 280-281, 289-291, 352-354, 365-367, 400-401, 418-420, 499-501, 509-510, 531-532, 569, 575-576, 592-593, chœur 655-686, 656, 710-712, 773-774, 808-809, 811-812, 1019-1020, 1050-1051, 1052-1055, 1181 | ≈ 87 000 |
 | Autres textes de Willems | introduction aux notes sur la *Paix* (1899) ; note sur *Nuées* 83 ; « Le nu dans la Comédie ancienne des Grecs » (1901) ; note sur *Guêpes* 1341 | ≈ 60 000 |
+| **« Aristophane et la démocratie athénienne »** (Willems, *Bull. Acad. roy. de Belgique*, Classe des lettres, n° 5, mai 1907 ; repris dans l'*Aristophane* de 1919, t. III, p. 445-473, d'après la note de l'auteur) | **seulement dans la version du Drive** (l. 1489-1635) : 10 594 mots | ≈ 60 000 |
 | Papyrus | PSI 1194, P. Oxy. 3839, 4935, 3840 : photographies et pages d'édition (figures), insérées à la place de leurs vers | ≈ 3 100 |
-| Iconographie | coupe d'Onésimos (Bâle BS 440, d'après Boardman ; cf. v. 557), ἔγκυκλον à franges pourpres, crocote transparente, cratère de Würzburg (égorgement de l'outre, vv. 754-757) | ≈ 1 400 |
+| Iconographie | coupe d'Onésimos (Bâle BS 440, d'après Boardman ; cf. v. 557), ἔγκυκλον à franges pourpres, crocote transparente, cratère de Würzburg (égorgement de l'outre, vv. 754-757) ; **dans la version du Drive seulement**, « La nymphe Écho se drapant sous son manteau » (l. 1341-1349 : vase n° 7864 du *Corpus Vasorum Antiquorum* de Beazley, indications de l'auteur) | ≈ 1 400 |
 | Polémique | « Un commentaire du commentaire et son droit de réponse (ou la *Passion de Philologus*) » : les « Impressions » d'un lecteur (avril 2021) sur les « Nouvelles notes thesmophoriennes » que l'auteur avait publiées dans ὁ λύχνος (*Connaissance hellénique*), n° 158 (mars 2021), et la saynète satirique de l'auteur en réponse (personnages : Philologus, Bibi, Pluton, le fantôme d'Aristophane, chœur sur la *Passion selon saint Matthieu*) | ≈ 39 000 |
+
+Autres écarts : intertitre « Portrait d'Alphonse Willems » (l. 189) ; dans la note 21 de Willems, le premier
+vers cité est corrigé (ἀλλ᾽ οὖν ἥκεις ὅθεν ἥκεις, l. 1017). Aucun passage de la copie de `latex/` n'a disparu.
 
 Les notes de Willems sont celles auxquelles renvoie le commentaire (« note 4 », « 21ᵉ note », etc.) ;
 deux des leçons « Bibi » en dérivent directement (vv. 217, 710).
 
-### 9.3 Index (`Index.tex`, 441 lignes)
+### 9.3 Index (`GCA/Aristophane-Thesmo Index.tex`, 453 lignes)
 
 Quatre index actifs, renvoyant au commentaire par plage de vers (« 49-50 n. 2 ») ; un « Index des
 auteurs cités » et un « Index général » sont commentés (ébauches vides).
 
-| Index | Entrées | Remarque |
+| Index | Entrées `latex/` → Drive | Remarque |
 |---|---:|---|
-| Allusions proverbiales | 38 | 30 pour les *Thesmophories*, 8 pour d'autres pièces ; renvoi liminaire à la liste des proverbes de Platon dressée par Jowett |
-| Gloses d'Hésychius utiles pour l'établissement et la compréhension du texte | 18 | 14 pour les *Thesmophories*, 1 *Cav.*, 1 *Ois.*, 2 Eur. fr. 228 |
-| Corrections proposées | 41 | 32 pour les *Thesmophories* ; état antérieur à 2023, incomplet même pour nov. 2022 (§ 5.4) |
-| Passages davantage explicités | 60 | dont les grands dossiers (chant d'Agathon, monodie d'Andromède, chant ibycéen 1136-59, 1197-1216) |
+| Allusions proverbiales | 38 → 40 | renvoi liminaire à la liste des proverbes de Platon dressée par Jowett ; ajouts : *Paix* 289-291 Λυδὸς [= Δᾶτις] ἐν μεσημβρίᾳ (633 n. 2) ; *Gren.* 840 ἄληθες ὦ παῖ τῆς ἀρουραίας θεοῦ ~ *terrae filius*, Érasme n° 786 (455-6) |
+| Gloses d'Hésychius utiles pour l'établissement et la compréhension du texte | 18 → 19 | ajout : *Thesm.* 1197, σ 2137 συμβίνης (1196-217) |
+| Corrections proposées | 41 → 42 | ajouts : *Thesm.* 1198 (Τοξότ.) κομίζι σ᾽ αὐτίκ᾽ ; Sappho fr. 70 Reinach-Puech / 125 Voigt αὐτὰ κόραις στεφαναπλόκεο (400-1). Reste un état antérieur à 2023 : il donne encore Χελιδών, πραῖνοι, δίκανον, θάλικα, ἐγκύμων, διπλὰ (§ 5.4) |
+| Passages spécialement étudiés (`latex/` : « davantage explicités ») | 60 → 65 | ajouts : *Cav.* 19-20 (455-6) ; *Cav.* 1370 (605 n. 9) ; *Nuées* 55 (738) ; *Nuées* 508 εἰς Τροφωνίου (570) ; *Thesm.* 853/858 τὴν Ἑλένην = τὸ φῶς (853). Entrées précisées : *Lys.* 681 αὐχήν = πέος ; *Thesm.* 643 ἔγκυκλον = jupe courte ; *Thesm.* 647 ἰσθμός |
 
 ## 10. Comparaison des versions
 
-> **Réécriture en cours (28 octobre 2026)** : extension de la comparaison à tous les états du dossier de travail du Drive (`GCA/`, `TH/Versions/`, états du printemps 2020), avec recensement des contenus récupérables (`edition/donnees/travaux_anterieurs/contenus_recuperables.tsv`). Plan : 10.1 inventaire et chronologie des états ; 10.2 méthode ; 10.3 ce qui a disparu, et quand ; 10.4 contenus récupérables. Le texte ci-dessous (comparaison limitée aux copies de `latex/`) reste valable jusqu'à son remplacement.
+Tous les états conservés sont comparés à la version de référence, Harmattan 2023 : dossier de travail du Drive,
+série du printemps 2020, archive de juillet 2020, copies de `latex/`. Abréviations de chemins (celles de
+`recherche/drive_ressources.md`) : `TH/` = `.sources/drive/fichiers/Grec/Aristophane/Thesmophories/` ;
+`GCA/` = `TH/Grec - commentaire - traduction - apparat/`. Sorties, dans `edition/donnees/travaux_anterieurs/` :
+`comparaison_versions.json` (inventaire, états, statistiques), `comparaison_versions.tsv` (un élément non conservé
+à l'identique par ligne, avec les états où il figure), `contenus_recuperables.tsv` (§ 10.4).
 
-Méthode (`outils/extraction/comparer_versions.py`) : chaque version est extraite avec le même analyseur que
-la version de référence ; chaque élément ancien (commentaire, note, entrée d'apparat, testimonium) reçoit un
-statut d'après le texte le plus proche dans la version de 2023 (actif ou commenté par `%`, y compris les
-entrées commentées à l'intérieur d'une macro restée active) ; le texte grec et les attributions sont comparés
-vers par vers. Détail complet dans `comparaison_versions.json` ; une ligne par élément non conservé à
-l'identique dans `comparaison_versions.tsv` (267 lignes).
+**En bref.** 54 états distincts, de mars 2020 à avril 2024. Le commentaire culmine dans l'état « décembre 2021 » (396 articles,
+367 576 caractères, contre 357 et 335 689 en 2023) ; deux élagages l'ont réduit, entre mai et septembre 2022, puis pour la version Harmattan. Mais
+l'essentiel n'est pas perdu : sur ce qui manque à la version active de 2023, 20 000 mots sont seulement commentés (`%`) dans les
+fichiers de 2023, contre 11 500 mots réellement disparus, à reprendre dans les états anciens ; 8 450 mots de brouillons, dont 3 811
+rédigés, n'ont jamais été imprimés par aucun état. `contenus_recuperables.tsv` donne chaque passage, avec son lieu et son statut.
 
-### 10.1 Les trois états
+### 10.1 Inventaire et chronologie des états
 
-| | nov 2022 | Harmattan mars 2023 | Harmattan 2023 |
-|---|---:|---:|---:|
-| Fichiers (lignes) | 1 (13 092) | 1 (10 307) | 2 (6 886 + 7 729) |
-| Vers couverts | 1-1231 | 1-946 | 1-1231 |
-| Groupes | 773 | 541 | 777 |
-| Lignes grecques / françaises | 1 401 / 1 404 | 1 068 / 1 074 | 1 400 / 1 407 |
-| Commentaires (caractères) | 356 (337 166) | 289 (284 313) | 357 (335 689) |
-| Notes | 558 | 466 | 541 |
-| Apparat : macros / segments / entrées | 465 / 560 / 671 | 300 / 387 / 454 | 425 / 536 / 629 |
-| Leçons « Bibi » actives | 39 | 27 (vv. 1-946) | 42 (27 pour les vv. 1-946) |
-| Testimonia actifs (page grecque / française) | 239 / 0 | 225 / 0 | 71 / 173 |
-| Macros désactivées (comm. / notes / apparat / test.) | 58 / 46 / 33 / 0 | 36 / 118 / 60 / 0 | 60 / 145 / 79 / 175 |
+**Inventaire.** 88 fichiers `.tex` : 56 fichiers analysés, qui forment 54 états distincts ; 8 doublons écartés
+par empreinte SHA-256 (`GCA/Aristophane-Thesmophories (copie).tex` = `AT 18 aout 2020.tex` ;
+`GCA/… 18 aout 2020.tex` = `… avril 2021.tex` ; `GCA/… mai 2022.tex` = `… decembre 2021.tex` ; `… avec page
+break manuel.tex` = `… avec page break.tex` ; `TH/Versions/… 21 mars 2020 - Copie.tex` = `… 21 mars 2020.tex` ;
+`TH/Versions/… 25 mars 2020 - Copie.tex` = `TH/… 21 mars 2020 - Copie.tex` ; les deux fichiers Harmattan 2023 de
+`GCA/` = leurs homonymes de `latex/`). Sont hors comparaison : 6 fichiers d'introduction, d'annexes et d'index
+(§ 9), 9 articles de l'auteur (`recherche/drive_ressources.md` § 8.2), 4 fichiers de Gemini, et 5 fichiers sans
+contenu comparable :
 
-Deux mouvements dominent : (1) entre novembre 2022 et mars 2023, l'élagage (désactivation par `%`) de notes
-et d'entrées d'apparat, et le remaniement de quelques grands dossiers (1-10, 49-50, 161-3, 291, 455-6) ;
-(2) en 2023, le passage des testimonia de la page grecque à la page française (`\Xonlyside[A]{R}` : sur
-les 175 testimonia désactivés, 174 sont sur la page grecque, et 173 d'entre eux ont leur homologue actif,
-de même plage, sur la page française) et le découpage en deux fichiers. Pour les vv. 1-946, la version de mars 2023 est presque identique à celle de 2023.
+- `TH/overleaf/…/main.tex` (1er mars 2020) et `TH/thesm.tex` : texte grec seul, sans apparat ni commentaire, malgré
+  le nom du dossier ; `TH/myEdition/myEdition.tex` : essai de mise en page ;
+- `TH/Versions/version 2 mai.tex` : copie de `version 2 2 mai.tex` réenregistrée en codage 8 bits (le grec y est
+  remplacé par des « ? »), identique par ailleurs : la question laissée ouverte dans `drive_ressources.md` § 8.1 est
+  ainsi réglée ;
+- `TH/texte - traduction - commentaire - Copie.tex` : fichier corrompu (octets nuls), à récupérer de nouveau sur le
+  Drive ; sa taille le place vers le 21-25 mars 2020, dont les états voisins sont conservés.
 
-### 10.2 Novembre 2022 → 2023 : ce qui a disparu ou changé
+**Dates.** Une date interne (`\date`) n'existe que depuis « juin 2022 » (IX 2022 jusqu'à « nov 2022 », III 2023 ensuite).
+Pour les fichiers récents, l'inventaire du Drive conserve la date d'enregistrement : `… decembre 2021.tex` et `… mai 2022.tex`, 26 mai 2022 ; `… juin 2022.tex` et
+`… sept 2022.tex`, 24 septembre 2022 ; `… oct 2022.tex`, 25 septembre 2022 ; `… nov 2022.tex` et `… Harmattan mars
+2023.tex`, 22 août 2023. Les noms ne sont donc pas des dates de travail : l'état « décembre 2021 » va jusqu'en mai
+2022, et les PDF `… nov 2022 (copie 1).pdf`, `(copie 2)` sont du 27 septembre 2022. Les autres fichiers portent la date de
+leur dépôt (24 octobre 2026), sans valeur. L'ordre retenu repose donc sur le contenu : nombre de lignes communes
+entre états (sériation), noms de fichiers, et, à partir de 2022, ces dates. La version du Drive de novembre 2022
+(Σ pour « Schol. », comme en 2023) est postérieure à la copie de `latex/` ; la version complète de mars 2023 contient
+celle de `latex/`, qui s'arrête au v. 946, sur les deux pages (le dernier `\ligne` explicite y est le v. 939).
 
-| Élément (nov 2022) | Conservé | Conservé, rédaction abrégée | Remanié | Désactivé (`%`) | Autres statuts | Absent |
+**Limite.** Sur le Drive, les 42 PDF compilés sélectionnés n'ont pas été copiés (`drive_ressources.md`). Trois au moins
+pourraient répondre à un état sans source conservée : `… août 2022.pdf` (5 août 2022), `… septembre 2022.pdf`
+(16 septembre 2022), `… V1 avec index.pdf` (27 septembre 2022). Ils n'ont pas pu être comparés.
+
+**Phases.**
+
+1. *Février-mars 2020, le texte seul* : essai de mise en page, puis texte grec sans annotation.
+2. *Mars-juin 2020, série « texte - traduction - commentaire »* (19 états) : la traduction est complète dès le premier
+   état ; les 121 commentaires de celui-ci (19 711 caractères) sont pour l'essentiel les notes de la traduction de
+   Willems, reconnaissables à leurs renvois (« Bull. cité, note 14, ci-après », « t. I, p. 477, note 1 ») et aux
+   mentions « Note de Willems » [à vérifier sur Willems 1919, absent de `.sources/`], avec les premières remarques de
+   l'auteur (« Je lis ἀλλ᾽ ἦ », v. 97). L'apparat naît entre le 11 et le 29 mars : 6 entrées, 141 le 27 mars, 451 le
+   28, 476 le 29. Fin de la série : 227 commentaires, 100 499 caractères, 64 notes.
+3. *Été 2020* : l'état du 3 juillet (seulement dans l'archive) fait un bond (146 439 caractères, 145 notes). L'été se
+   partage en deux branches : A (`main2` → 1er août → `main`), sans suite ; B (12 juillet, 2 août, 3 août : ces
+   fichiers ne diffèrent que de 1 à 5 lignes), qui se poursuit dans `Aristophane-Thesmophories.tex` et les copies du
+   18 août (177 007 caractères, 239 notes).
+4. *2021* : « avril 2021 » (le même fichier s'appelle aussi « 18 août 2020 » : son contenu le place après l'état du 18
+   août et juste avant mai 2021), mai 2021 (`TH/Versions`, puis `GCA/`), août 2021 (270 433 caractères, 395 notes, avec
+   5 essais de mise en page qui n'en sont que des extraits), enfin « décembre 2021 », enregistré en mai 2022 : **le
+   commentaire atteint son maximum** (396 commentaires, 367 576 caractères, 504 notes, 45 leçons « Bibi »).
+5. *2022, élagage et testimonia* : « juin 2022 » (fichier de septembre) crée `\testimonia` (239), ramène le commentaire
+   à 356 articles et double le volume des parties commentées (de 84 000 à 170 000 caractères) ; « sept » et « oct » n'y
+   changent presque rien (découpage en deux volumes, sauts de page) ; « nov 2022 » ajoute 10 groupes.
+6. *2023* : « Harmattan mars 2023 » (266 macros désactivées contre 145 ; dossier 455-6 récrit d'après `GCA/note.txt`) ;
+   `… vv 642-fin.tex`, début du second volume ; Harmattan 2023, en deux fichiers, où les testimonia passent en page
+   française (`\Xonlyside[A]{R}` : sur les 175 testimonia désactivés, 174 sont sur la page grecque, et 173 d'entre eux
+   ont leur homologue actif, de même plage, sur la page française).
+7. *13 avril 2024* : copie du second volume, avec de simples bascules de macros ; aucune différence de commentaire,
+   de notes ni de texte.
+
+Les 54 états, dans l'ordre retenu (*ttc* = `texte - traduction - commentaire`, *%-macros* = commentaires, notes,
+apparats et testimonia désactivés ; statistiques complètes dans `comparaison_versions.json`) :
+
+| Clé | État | Fichier(s) | Groupes | Comm. (car.) | Notes | Apparat | Bibi | Test. (g./d.) | %-macros |
+|---|---|---|---:|---:|---:|---:|---:|---|---:|
+| 2020-03a | mars 2020 (avant le 11) | `TH/Versions/ttc - Copie.tex` | 533 | 121 (19 711) | 0 | 0 | 0 | 0/0 | 0 |
+| 2020-03-11 | 11 mars 2020 | `TH/Versions/ttc - Copie 11 mars.tex` | 533 | 125 (31 752) | 7 | 6 | 1 | 0/0 | 0 |
+| 2020-03-21 | 21 mars 2020 | `TH/Versions/ttc 21 mars 2020.tex` | 533 | 134 (38 845) | 3 | 10 | 4 | 0/0 | 5 |
+| 2020-03-21b | 21-25 mars 2020 | `TH/ttc 21 mars 2020 - Copie.tex` | 533 | 143 (53 675) | 14 | 26 | 6 | 0/0 | 0 |
+| 2020-03-25 | 25 mars 2020 | `TH/Versions/ttc 25 mars 2020.tex` | 533 | 148 (55 943) | 15 | 30 | 6 | 0/0 | 0 |
+| 2020-03-26 | 26 mars 2020 | `TH/Versions/ttc 26 mars 2020.tex` | 533 | 166 (60 486) | 17 | 57 | 6 | 0/0 | 0 |
+| 2020-03-27 | 27 mars 2020 | `TH/Versions/ttc 27 mars 2020.tex` | 533 | 171 (60 769) | 17 | 141 | 7 | 0/0 | 0 |
+| 2020-03-27b | 27 mars 2020 (2) | `TH/Versions/ttc 27 mars 2020 2.tex` | 533 | 172 (60 694) | 19 | 193 | 7 | 0/0 | 0 |
+| 2020-03-28 | 28 mars 2020 | `TH/ttc 28 mars 2020.tex` | 533 | 177 (61 385) | 19 | 451 | 7 | 0/0 | 0 |
+| 2020-03-29 | 29 mars 2020 | `TH/ttc 29 mars 2020.tex` | 533 | 177 (61 385) | 19 | 476 | 7 | 0/0 | 0 |
+| 2020-04-11 | 11 avril 2020 | `TH/ttc 11 avril 2020.tex` | 533 | 177 (61 377) | 20 | 510 | 7 | 0/0 | 0 |
+| 2020-04-12 | 12 avril 2020 | `TH/ttc 12 avril 2020.tex` | 533 | 177 (61 381) | 20 | 510 | 7 | 0/0 | 0 |
+| 2020-04-19 | 19 avril 2020 | `TH/ttc 19 avril 2020.tex` | 533 | 176 (62 803) | 20 | 511 | 7 | 0/0 | 0 |
+| 2020-04-25 | 25 avril 2020 | `TH/ttc 25 avril 2020.tex` | 533 | 179 (64 750) | 20 | 512 | 7 | 0/0 | 0 |
+| 2020-04-30 | 30 avril 2020 | `TH/ttc 30 avril 2020.tex` | 533 | 188 (76 234) | 35 | 516 | 7 | 0/0 | 0 |
+| 2020-05-02 | 2 mai 2020 | `TH/Versions/version 2 2 mai.tex` | 538 | 197 (79 472) | 38 | 516 | 7 | 0/0 | 0 |
+| 2020-05a | mai 2020 (copie 2) | `TH/ttc - Copie (2).tex` | 538 | 206 (84 315) | 40 | 514 | 7 | 0/0 | 0 |
+| 2020-05b | mai 2020 (copie 3) | `TH/ttc - Copie (3).tex` | 538 | 226 (98 461) | 59 | 515 | 8 | 0/0 | 0 |
+| 2020-06 | mai-juin 2020 | `TH/ttc.tex` | 538 | 227 (100 499) | 64 | 515 | 8 | 0/0 | 0 |
+| 2020-07-03 | 3 juillet 2020 (archive) | `TH/Thesmophories Grec – Traduction – Commentaire  – Apparat.zip:main.tex` | 625 | 269 (146 439) | 145 | 583 | 12 | 0/0 | 1 |
+| 2020-07-11 | 11 juillet 2020 | `GCA/copie 11 juillet 2020.tex` | 625 | 269 (146 622) | 146 | 585 | 12 | 0/0 | 1 |
+| 2020-07m2 | été 2020 (main2) [branche A] | `GCA/main2.tex` | 646 | 266 (147 077) | 146 | 590 | 12 | 0/0 | 1 |
+| 2020-07-12 | 12 juillet 2020 | `GCA/copie 12 juillet 2020.tex` | 648 | 269 (149 251) | 151 | 589 | 12 | 0/0 | 1 |
+| 2020-08-01 | 1er août 2020 [branche A] | `GCA/copie 1er aout 2020.tex` | 646 | 266 (147 077) | 146 | 589 | 12 | 0/0 | 1 |
+| 2020-08m | août 2020 (main) [branche A] | `GCA/main.tex` | 646 | 267 (149 315) | 153 | 589 | 12 | 0/0 | 1 |
+| 2020-08-02 | 2 août 2020 | `GCA/copie 2 aout 2020.tex` | 648 | 268 (149 215) | 151 | 589 | 12 | 0/0 | 1 |
+| 2020-08-03 | 3 août 2020 | `GCA/copie 3 aout 2020.tex` | 648 | 269 (149 251) | 151 | 589 | 12 | 0/0 | 1 |
+| 2020-08a | août 2020 | `GCA/Aristophane-Thesmophories.tex` | 658 | 293 (177 007) | 239 | 599 | 15 | 0/0 | 3 |
+| 2020-08-18 | 18 août 2020 | `GCA/AT 18 aout 2020.tex` | 658 | 293 (177 007) | 239 | 599 | 15 | 0/0 | 3 |
+| 2021-04 | avril 2021 | `GCA/… avril 2021.tex` | 658 | 293 (176 999) | 239 | 599 | 15 | 0/0 | 3 |
+| 2021-05a | mai 2021 (TH/Versions) | `TH/Versions/… mai 2021.tex` | 656 | 292 (182 796) | 255 | 603 | 18 | 0/0 | 10 |
+| 2021-05 | mai 2021 | `GCA/… mai 2021.tex` | 657 | 298 (203 923) | 308 | 618 | 18 | 0/0 | 11 |
+| 2021-08 | août 2021 | `GCA/… aout 2021.tex` | 656 | 326 (270 433) | 395 | 639 | 28 | 0/0 | 21 |
+| 2021-08e1 | août 2021, essai 1 [essai] | `GCA/… aout 2021 test.tex` | 266 | 135 (112 040) | 164 | 212 | 8 | 0/0 | 9 |
+| 2021-08e2 | août 2021, essai 2 [essai] | `GCA/… aout 2021 test 2.tex` | 251 | 116 (89 373) | 121 | 174 | 8 | 0/0 | 8 |
+| 2021-08e3 | août 2021, essai 3 [essai] | `GCA/… aout 2021 test 3.tex` | 228 | 107 (81 717) | 103 | 161 | 8 | 0/0 | 8 |
+| 2021-08e4 | août 2021, essai 4 [essai] | `GCA/… aout 2021 test 4.tex` | 1 | 3 (1 179) | 4 | 4 | 0 | 0/0 | 0 |
+| 2021-08e5 | août 2021, essai 5 [essai] | `GCA/… aout 2021 test 5.tex` | 1 | 1 (442) | 0 | 3 | 0 | 0/0 | 0 |
+| 2021-12s | août-décembre 2021 (sauvegarde) [sauvegarde] | `GCA/… decembre 2021.tex~` | 656 | 326 (270 433) | 395 | 639 | 28 | 0/0 | 21 |
+| 2021-12 | décembre 2021 | `GCA/… decembre 2021.tex` | 759 | 396 (367 576) | 504 | 689 | 45 | 0/0 | 45 |
+| 2022-06 | juin 2022 | `GCA/… juin 2022.tex` | 763 | 356 (337 131) | 558 | 671 | 39 | 239/0 | 136 |
+| 2022-09 | septembre 2022 | `GCA/… sept 2022.tex` | 763 | 356 (337 131) | 558 | 671 | 39 | 239/0 | 136 |
+| 2022-09v | septembre 2022 (deux volumes) [variante] | `GCA/… sept 2022 1 vv 1-633.tex` + `GCA/… sept 2022 2 vv 634-1231.tex` | 763 | 356 (337 131) | 558 | 671 | 39 | 239/0 | 136 |
+| 2022-09e | septembre 2022, essai (vv. 372-698) [essai] | `GCA/Test.tex` | 162 | 86 (84 396) | 136 | 181 | 5 | 76/0 | 33 |
+| 2022-10 | octobre 2022 | `GCA/… oct 2022.tex` | 763 | 356 (337 132) | 558 | 671 | 39 | 239/0 | 136 |
+| 2022-10p | octobre 2022 (sauts de page) [variante] | `GCA/… oct 2022  avec page break.tex` | 763 | 356 (337 132) | 558 | 671 | 39 | 239/0 | 136 |
+| 2022-11L | novembre 2022 (latex/) | `latex/… nov 2022.tex` | 773 | 356 (337 166) | 558 | 671 | 39 | 239/0 | 137 |
+| 2022-11 | novembre 2022 (Drive) | `GCA/… nov 2022.tex` | 773 | 356 (336 415) | 559 | 671 | 39 | 239/0 | 145 |
+| 2023-03 | mars 2023 (Drive) | `GCA/… Harmattan mars 2023.tex` | 778 | 358 (340 745) | 556 | 630 | 42 | 245/0 | 266 |
+| 2023-03L | mars 2023 (latex/, tronqué) [variante] | `latex/… Harmattan mars 2023.tex` | 541 | 289 (284 313) | 466 | 454 | 27 | 225/0 | 214 |
+| 2023-03s | mars 2023 (sauvegarde) [sauvegarde] | `GCA/… Harmattan mars 2023.tex~` | 1 | 3 (3 316) | 6 | 4 | 1 | 1/0 | 5 |
+| 2023p | Harmattan 2023, vol. 2 (état partiel) [variante] | `GCA/… Harmattan 2023 vv 642-fin.tex` | 61 | 21 (26 017) | 49 | 47 | 5 | 6/1 | 18 |
+| 2023 | Harmattan 2023 (référence) | `latex/… Harmattan 2023 vv 1-641.tex` + `latex/… Harmattan 2023 vv 642-fin-bis.tex` | 777 | 357 (335 689) | 541 | 629 | 42 | 71/173 | 459 |
+| 2024-04-13 | copie du 13 avril 2024 [variante] | `latex/… Harmattan 2023 vv 1-641.tex` + `GCA/… Harmattan 2023 vv 642-fin-copie13-4-2024.tex` | 777 | 357 (335 689) | 541 | 629 | 42 | 71/173 | 459 |
+
+### 10.2 Méthode et statuts
+
+Chaque état est extrait avec l'analyseur de `extraire_travaux.py` (`outils/extraction/comparer_versions.py`, ≈ 3 min sur
+deux cœurs ; sorties identiques d'une exécution à l'autre). Le commentaire et les notes sont comparés **au mot près** : un
+mot ancien est couvert s'il appartient à une suite de quatre mots présente dans le commentaire actif de 2023 (îlots d'au
+moins 6 mots) ; toute suite non couverte d'au moins 8 mots, ou tout élément plus court non retrouvé tel quel, est un
+passage perdu, qualifié ainsi, dans l'ordre :
+
+| Statut (`statut_2023`) | Critère |
+|---|---|
+| désactivé (commenté) en 2023 | 60 % au moins du passage se lit dans une partie commentée (`%`) des fichiers de 2023 ; `proche_2023` donne le fichier et la ligne |
+| déplacé en 2023 | 60 % au moins se lit ailleurs : apparat, testimonia, traduction, autre partie du corps, Introduction, Annexes, Index du Drive |
+| remanié en 2023 | même suite de mots à 50 % (trigrammes), ou 75 % au moins des mots rares du passage (5 mots rares au moins) dans le commentaire de 2023 sur ces vers (± 3) : même idée, autre rédaction |
+| disparu | ni l'un ni l'autre. `proche_2023` signale le commentaire de 2023 sur ces vers s'il reprend 30 % au moins des mots rares : le sujet peut survivre sous une autre forme |
+| disparu (déjà désactivé dans cet état) | commenté dans l'état ancien, absent de 2023 même commenté |
+
+Pour le reste : entrées d'apparat appariées par lemme et autorités (± 2 vers), sigles anciens rapportés à ceux de 2023
+(Mu2 = M ; P13, P14, P68, P4935, P50 = PSI-1194, POxy-3839, POxy-3840, POxy-4935, POxy-1176 ; Schol. = Σ) ; une entrée
+sans leçon grecque (« suppl. Bentley ») est tenue pour remaniée si le même critique figure au vers (± 1) ; testimonia
+appariés par mots grecs et nombres ; texte grec vers par vers, après recalage des numérotations décalées des états de 2020
+(un vers est rapporté au vers voisin dont le texte lui ressemble nettement mieux) ; une différence qui ne tient qu'à la
+colométrie (le même texte se lit à la suite dans les vers voisins, ± 3, des deux côtés) n'est pas une leçon ; traduction
+retenue seulement si elle ressemble à moins de 75 % à celle de 2023, y compris à ± 8 vers ; remarques entre parenthèses
+de la traduction retenues à part ; analyses métriques comparées notation mise à part.
+
+Les contenus perdus sont regroupés d'un état à l'autre en **lignées** : du plus récent au plus ancien, chaque contenu se
+rattache à une lignée (vers voisins, texte inclus à 75 % au moins dans son représentant) ou en ouvre une ; ce qu'une forme
+ancienne a en propre forme une ligne à part. Une ligne = une forme distincte : `version` est l'état le plus récent où elle
+se lit, `premiere_version` le premier, `nb_versions` le nombre d'états, et `remarque` dit à partir de quel état de la filiation
+principale elle manque (« absent à partir de », « plus actif à partir de »). Les formes successives d'un même
+dossier ont donc chacune leur ligne, et les totaux de mots qui suivent distinguent mots cumulés et mots distincts.
+
+**Contrôles** (reproductibles : `outils/extraction/verifier_recuperables.py`). (1) Chaque ligne du tableau est rapprochée de
+son fichier et de sa ligne : sur 1 775 lignes, 10 seulement ne sont pas validées par le script, à cause d'un
+collage de macros (`\cf v. 288`, `Bentley\Rpc`), et ont été vérifiées à la main ; les 51 attributions et les figures ne
+sont pas testées. (2) Aucun passage « disparu » de 8 mots au moins ne se lit, même à moitié, dans le texte actif de 2023.
+(3) Les 506 renvois à une partie commentée de 2023 tombent sur une ligne en `%` et le texte se lit à cet endroit (504 par le
+script, 2 à la main) ; 12 lignes désactivées, de trop peu de mots, n'ont pas de renvoi. (4) Audit de complétude : le texte actif
+et commenté de tous les états a été confronté, ligne à ligne, à 2023 et au tableau ; ne restent que des fragments de moins
+de 8 mots, de légères retouches de la traduction et les lignes qui mêlent vers, mètre et apparat, propres à cette lecture. (5) Les 31 lignes de conjectures ont été relues une
+à une. Le statut reste une mesure de surface : « disparu » veut dire que le texte n'y est plus, non que l'idée a disparu ;
+et le remaniement d'un passage peut échapper au seuil de 75 % (voir `proche_2023`).
+
+### 10.3 Ce qui a disparu, et quand
+
+Ordre de grandeur : le commentaire actif de 2023 compte 56 696 mots et ses notes 22 126. Par rapport à ce total de 78 800
+mots, **11 500 mots distincts ont disparu** (13 400 mots cumulés), **20 000 mots distincts sont désactivés mais présents dans
+les fichiers de 2023** (21 700 cumulés), et 750 sont remaniés. Il faut y ajouter 8 450 mots de brouillons commentés que
+n'imprime aucun état (3 811 mots rédigés, 4 639 mots de sources grecques copiées, § 10.4).
+
+Le tableau suivant donne, pour chaque état, ce dont il est le **dernier témoin** : ce qui manque ou n'est plus actif à
+l'état suivant (commentaire et notes : lignées / mots cumulés ; autres types : lignées).
+
+| Dernier état où se lit le contenu | comm.+notes disparus (lignées / mots) | remaniés | désactivés | Bibi | apparat | texte grec | attrib. | mètre | trad. |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| mars 2020 (avant le 11) | 0 / 0 | 0 / 0 | 0 / 0 |  |  | 6 | 1 |  | 4 |
+| 11 mars 2020 | 0 / 0 | 0 / 0 | 0 / 0 |  |  | 3 |  |  |  |
+| 21 mars 2020 | 3 / 41 | 0 / 0 | 1 / 62 |  | 1 | 3 |  |  |  |
+| 25 mars 2020 | 0 / 0 | 0 / 0 | 0 / 0 |  |  | 9 | 1 |  | 1 |
+| 26 mars 2020 | 2 / 32 | 0 / 0 | 0 / 0 |  |  | 4 | 4 |  | 2 |
+| 27 mars 2020 | 0 / 0 | 0 / 0 | 0 / 0 |  | 1 | 1 |  |  |  |
+| 27 mars 2020 (2) | 0 / 0 | 0 / 0 | 0 / 0 |  | 2 | 17 |  |  |  |
+| 28 mars 2020 | 0 / 0 | 0 / 0 | 0 / 0 |  |  | 3 |  |  |  |
+| 29 mars 2020 | 1 / 9 | 0 / 0 | 0 / 0 |  |  | 2 |  |  |  |
+| 12 avril 2020 | 1 / 19 | 0 / 0 | 0 / 0 |  |  |  |  |  |  |
+| 19 avril 2020 | 2 / 11 | 0 / 0 | 0 / 0 |  |  | 1 |  |  |  |
+| 25 avril 2020 | 1 / 7 | 1 / 18 | 0 / 0 |  | 6 | 7 |  |  | 1 |
+| 30 avril 2020 | 0 / 0 | 0 / 0 | 0 / 0 |  |  | 2 |  |  |  |
+| 2 mai 2020 | 1 / 11 | 1 / 20 | 0 / 0 |  | 5 | 4 |  |  |  |
+| mai 2020 (copie 2) | 2 / 31 | 0 / 0 | 0 / 0 |  | 4 | 4 |  |  | 1 |
+| mai-juin 2020 | 60 / 2 303 | 6 / 72 | 4 / 362 |  | 23 | 42 | 16 |  | 46 |
+| 3 juillet 2020 (archive) | 2 / 21 | 0 / 0 | 0 / 0 |  | 2 | 1 |  |  |  |
+| 11 juillet 2020 | 8 / 105 | 0 / 0 | 1 / 24 |  | 12 | 12 | 4 |  | 1 |
+| été 2020 (main2) | 0 / 0 | 0 / 0 | 0 / 0 |  |  | 1 |  |  |  |
+| août 2020 (main) | 2 / 31 | 0 / 0 | 0 / 0 |  |  |  |  |  | 2 |
+| 3 août 2020 | 22 / 704 | 1 / 57 | 1 / 13 |  | 17 | 17 | 2 |  | 8 |
+| 18 août 2020 | 0 / 0 | 0 / 0 | 0 / 0 |  |  | 2 | 1 |  | 1 |
+| avril 2021 | 19 / 851 | 0 / 0 | 3 / 149 | 1 | 6 | 7 | 2 |  |  |
+| mai 2021 (TH/Versions) | 8 / 775 | 0 / 0 | 2 / 342 | 2 | 15 | 7 | 2 |  |  |
+| mai 2021 | 19 / 539 | 3 / 44 | 9 / 705 | 3 | 24 | 38 | 4 | 3 | 8 |
+| août 2021 | 29 / 1 692 | 5 / 50 | 12 / 769 | 3 | 52 | 72 | 5 |  | 14 |
+| décembre 2021 | 96 / 2 436 | 21 / 238 | 109 / 10 716 | 12 | 72 | 36 | 5 | 9 | 58 |
+| octobre 2022 | 0 / 0 | 0 / 0 | 0 / 0 |  |  |  | 1 |  |  |
+| novembre 2022 (latex/) | 1 / 5 | 0 / 0 | 3 / 369 |  | 1 |  |  |  |  |
+| novembre 2022 (Drive) | 57 / 3 620 | 13 / 276 | 108 / 6 373 | 7 | 86 | 13 | 3 | 2 | 17 |
+| mars 2023 (Drive) | 7 / 176 | 0 / 0 | 25 / 1 798 |  | 1 |  |  |  | 1 |
+
+Par période (commentaire et notes) :
+
+| Dernier état | Disparus | Désactivés |
+|---|---:|---:|
+| mars - juin 2020 | 73 lignées, 2 464 mots | 5 lignées, 424 mots |
+| juillet - août 2020 | 34 lignées, 861 mots | 2 lignées, 37 mots |
+| avril - août 2021 | 75 lignées, 3 857 mots | 26 lignées, 1 965 mots |
+| « décembre 2021 » (mai 2022) | 96 lignées, 2 436 mots | 109 lignées, 10 716 mots |
+| octobre - novembre 2022 | 58 lignées, 3 625 mots | 111 lignées, 6 742 mots |
+| mars 2023 | 7 lignées, 176 mots | 25 lignées, 1 798 mots |
+
+- **Sortie de la série du printemps 2020 (mai-juin → 3 juillet 2020)** : le commentaire est récrit. Disparaissent les
+  renvois et notes brèves venus de Willems (26 lignes du tableau portent la mention « note ou renvoi de Willems »), le
+  premier dossier sur 2-3 (821 mots, d'après l'article d'A. Clements) et des pages plus libres sur 241 (οἴμοι τάλας,
+  θάλασσ᾽), 246 (αἰθός), 232, 489. Le dossier de 2-3 reparaît, récrit, mais commenté (791 mots), de juillet 2020 à
+  novembre 2022.
+- **2021** : les rédactions anciennes sont remplacées passage par passage : 288-91 (606 mots), 7-8, 5-6, 22-4, 241, 246, 100,
+  puis, après août 2021, 855-7 (348 mots), 939-42 (518 mots), 811-2 (Miltiade), 1056-97, 1073-5.
+- **« Décembre 2021 » → « juin 2022 » : premier élagage**, le plus important : 10 716 mots passent en `%` (1031, 855-7,
+  138, 939-42, 898, 895, 702, 570, 840-1, 616…) et 2 436 disparaissent. Les notes de travail actives
+  (`\eff`, « à revoir : … ») disparaissent ou passent en `%`, ainsi que 58 lignes de traduction et de remarques (didascalies,
+  doutes sur les attributions). Le nombre de commentaires tombe de 396 à 356 ; 5 leçons « Bibi » sont abandonnées, 6 remplacées,
+  et une (1047) est rendue à Hermann.
+- **Novembre 2022 → mars 2023 : second élagage**, pour la version Harmattan : 6 373 mots passent en `%` (161-3, 291, 486, 702,
+  896 n. 1, 49-50 n. 2…) et 3 620 disparaissent, surtout parce que deux dossiers sont refaits : 455-6, dont la première
+  rédaction (1 271 mots) cède la place au dossier de `GCA/note.txt` (3 714 mots, dont 3 681 actifs en 2023 ; le brouillon
+  n'a rien en propre), et le dossier Χελιδών d'A. Clements (commentaire de v. 1, 105 mots ; note ; 791 mots déjà commentés ;
+  conjecture), retiré tout entier. Reformulés aussi : 1-10, 21, 22-4, 49-50, 56-7, 179, 248, 263.
+- **Mars 2023 → 2023** : 49-50 (710 mots : l'ancien dossier †πράμος†, remplacé par πρανοῦν προτέρους), 605 n. 6, notes de 100,
+  702, 894, 217 ; 25 lignées en `%`, 7 disparues (176 mots). Le reste est presque identique : 353 commentaires sur 358 et
+  533 notes sur 556 conservés tels quels ; une entrée d'apparat désactivée (417 μορμολυκεῖα) ; testimonium 223 désactivé.
+
+**Novembre 2022 (Drive) → 2023**, élément par élément :
+
+| Élément | Conservé | Conservé, rédaction abrégée | Remanié | Désactivé (`%`) | Autres statuts | Absent |
 |---|---:|---:|---:|---:|---|---:|
-| Commentaires (356) | 293 | — | 43 | 3 | réécrits 9 ; abrégés (partie désactivée) 6 ; reformulé 1 | 1 |
-| Notes (558) | 459 | — | 18 | 57 (+ 1 reformulée) | abrégées 8 ; intégrées au commentaire 6 ; reformulées 4 ; réécrites 4 | 1 |
-| Apparat, entrées (671) | 488 | 94 | 45 | 39 | transférées dans les testimonia 2 | 3 |
+| Commentaires (356) | 294 | — | 43 | 3 | réécrits 9 ; abrégés (partie désactivée) 5 ; reformulé 1 | 1 |
+| Notes (559) | 462 | — | 18 | 55 (+ 1 reformulée) | abrégées 8 ; intégrées au commentaire 6 ; reformulées 4 ; réécrites 4 | 1 |
+| Apparat, entrées (671) | 526 | 56 | 45 | 39 | transférées dans les testimonia 2 | 3 |
 | Testimonia (239) | 225 | 12 | 1 | 1 | — | 0 |
 
-- **Commentaires absents ou désactivés** : v. 1 (« Hirondelle avec un H majuscule », d'après l'article
-  d'A. Clements, *Mnemosyne* 62, 2009 : seul article véritablement supprimé, avec sa note et la leçon
-  Χελιδών) ; désactivés : 45 (βομβάξ, note de Chantraine), 162 (οἵπερ ἁρμονίαν de la Souda, arguments
-  de Coulon), 204 (νυκτερήσια). **Réécrits** (même plage, texte largement nouveau) : 1-10, 21, 22-4, 49-50,
-  56-7, 179, 248, 263, 455-6. **Abrégés** (une partie passée en `%`) : 161-3, 247, 291, 486, 702, 855-7.
-- **Notes désactivées** (58, par passage) : 455-6 (14), 161-3 (6), 291 (6), 939-42 (6), 49-50 (3), 702 (3),
-  100, 162, 643, 855-7, 894 (2 chacun), 101-29, 217, 248, 273, 556-7, 605, 704, 711-2, 804, 896 (1 chacun).
-  Ce sont pour beaucoup des digressions ou des pointes polémiques (« le rire du soldat allemand dans la
-  *Traversée de Paris* », 455-6 ; « le chef de cette meute », 556-7 ; « Aristophane est drôle ! », 804 ;
-  « l'internationale du commentaire », 939-42) et des références bibliographiques secondaires : l'auteur a
-  lui-même commencé l'allègement qu'appelle une édition de référence (§ 7.3).
-- **Apparat** : les 39 entrées désactivées sont des conjectures écartées, R étant conservé dans le texte
-  (21 : 27, 165, 245, 277, 305, 353, 389, 440, 461, 511, 516, 536, 562, 687, 768, 771, 782, 967, 990, 994,
-  1010), des variantes de la tradition indirecte (8 : après 129, 390, 391, 439, 481, 486, 494, 910), des
-  corrections pourtant imprimées dans le texte (6 : 417 μορμολυκεῖα Dindorf, 537 ποθὲν Küster, 542
-  ᾽γίγνωσκον Bentley, 798 αἰσχυνθεῖσ᾽ Zanetti, 808 τις Küster, 1014 σώσων M ; de même 481 μου ᾽κνυεν de
-  la Souda), deux notes sur les sigles de personnages (295, 372), une entrée récrite (555, réduite à
-  « add. γε Faber ») et la restitution « Bibi » après le v. 870 ; deux informations sont passées dans les
-  testimonia (142 τὸ πέος Suid. λ 63, π 987 ; 162 οἵπερ ἁρμονίαν Suid. ε 989) ; trois entrées ont disparu
-  sans trace : 1 (Χελιδών Bibi ap. Clements), 289 (καὶ τὴν θυγατέρα R : del. Willems), 726 (χρῆν σ᾽
-  R² : χρὴ μ᾽ M).
-- **Testimonia** : 50 (la glose d'Hésychius π 3188 passe de πραῖνοι· πρηνίζει, καταστρέφει à
-  †πραῖνοι· πρηνίζειν, καταστρέφειν, c'est-à-dire de la leçon normalisée à la leçon du manuscrit) ;
-  223 (Souda ε 2807, désactivé).
-- **Texte grec : 20 vers diffèrent.** Mots (11) : 50 πραῖνοι ἡμέτερος → πρανοῦν προτέρους ; 99 γὰρ → νῦν
-  (Rogers au lieu de Burger) ; 162 ἐχύμισαν → ἐκεχήνεσαν ; 163 δίκανον → διέκειντ᾽ ; 263 χαλαρὰ γ᾽ οὐ
-  χαίρεις → (Ἀγάθ.) χαλαρὰ γοῦν χαίροις ; 289 χοιρίον → Χοιρίλ᾽ ; 291 θάλικα → θυλάκιον ; 446 ἐγκύμων →
-  ἔγκυος ; 657 ἐπελήλυθ᾽ → ἐπελήλυθε ; 702 διπλὰ → †πλέα† ; 895 βάϋζε → κόνυζα. Ponctuation (5) : 3, 27,
-  28, 52, 264. Accent ou majuscule (2) : 1 Χελιδὼν → χελιδὼν ; 45 τι → τί. Répartition des lignes (2) :
-  913-914 et 959-960 réunis chacun sur une ligne.
-- **Attributions (3 vers)** : 45 (le dernier mot du vers n'est plus rendu à Mnésiloque), 263-264
-  (Agathon répond dès le v. 263 ; l'attribution du v. 264 est signée « Bibi » en 2023).
-- **Traduction** : 110 vers retouchés (9 seulement entre mars 2023 et 2023).
-- **Conjectures « Bibi »** : 5 nouvelles en 2023 (162, 264, 289, 642-3, 895) et une étendue (30-1) ;
-  4 remplacées (50, 163, 291, 446) ; 3 abandonnées (1 Χελιδών, 702 διπλὰ, restitution après 870) : § 5.
+- **Commentaires absents ou désactivés** : v. 1 (seul article véritablement supprimé, avec sa note et la leçon Χελιδών) ;
+  désactivés : 45 (βομβάξ, note de Chantraine), 162 (οἵπερ ἁρμονίαν de la Souda, arguments de Coulon), 204 (νυκτερήσια).
+  **Réécrits** (même plage, texte largement nouveau) : 1-10, 21, 22-4, 49-50, 56-7, 179, 248, 263, 455-6. **Abrégés** (une
+  partie passée en `%`) : 161-3, 247, 291, 486, 702.
+- **Notes désactivées** (56, par passage) : 455-6 (14), 161-3 (6), 291 (6), 939-42 (6), 49-50 (3), 702 (3), 100, 162, 643,
+  894 (2 chacun), 101-29, 217, 248, 273, 556-7, 605, 704, 711-2, 804, 896 (1 chacun). Ce sont pour beaucoup des digressions ou
+  des pointes polémiques (« le rire du soldat allemand dans la *Traversée de Paris* », 455-6 ; « le chef de cette meute »,
+  556-7 ; « Aristophane est drôle ! », 804 ; « l'internationale du commentaire », 939-42) et des références bibliographiques
+  secondaires : l'auteur a lui-même commencé l'allègement qu'appelle une édition de référence (§ 7.3).
+- **Apparat** : les 39 entrées désactivées sont des conjectures écartées, R étant conservé dans le texte (21 : 27, 165,
+  245, 277, 305, 353, 389, 440, 461, 511, 516, 536, 562, 687, 768, 771, 782, 967, 990, 994, 1010), des variantes de la
+  tradition indirecte (8 : après 129, 390, 391, 439, 481, 486, 494, 910), des corrections pourtant imprimées dans le texte
+  (6 : 417 μορμολυκεῖα Dindorf, 537 ποθὲν Küster, 542 ᾽γίγνωσκον Bentley, 798 αἰσχυνθεῖσ᾽ Zanetti, 808 τις Küster, 1014 σώσων M ;
+  de même 481 μου ᾽κνυεν de la Souda), deux notes sur les sigles de personnages (295, 372), une entrée récrite (555, réduite
+  à « add. γε Faber ») et la restitution « Bibi » après le v. 870 ; deux informations sont passées dans les testimonia (142
+  τὸ πέος Suid. λ 63, π 987 ; 162 οἵπερ ἁρμονίαν Suid. ε 989) ; trois entrées ont disparu sans trace : 1 (Χελιδών Bibi ap.
+  Clements), 289 (καὶ τὴν θυγατέρα R : del. Willems), 726 (χρῆν σ᾽ R² : χρὴ μ᾽ M).
+- **Testimonia** : 50 (la glose d'Hésychius π 3188 passe de πραῖνοι· πρηνίζει, καταστρέφει à †πραῖνοι· πρηνίζειν, καταστρέφειν,
+  c'est-à-dire de la leçon normalisée à la leçon du manuscrit) ; 223 (Souda ε 2807, désactivé). Ce sont les deux seules pertes
+  de testimonia de toute l'histoire du texte : la catégorie n'existe que depuis juin 2022.
+- **Texte grec : 20 vers diffèrent.** Mots (11) : 50 πραῖνοι ἡμέτερος → πρανοῦν προτέρους ; 99 γὰρ → νῦν (Rogers au lieu de
+  Burger) ; 162 ἐχύμισαν → ἐκεχήνεσαν ; 163 δίκανον → διέκειντ᾽ ; 263 χαλαρὰ γ᾽ οὐ χαίρεις → (Ἀγάθ.) χαλαρὰ γοῦν χαίροις ; 289 χοιρίον →
+  Χοιρίλ᾽ ; 291 θάλικα → θυλάκιον ; 446 ἐγκύμων → ἔγκυος ; 657 ἐπελήλυθ᾽ → ἐπελήλυθε ; 702 διπλὰ → †πλέα† ; 895 βάϋζε → κόνυζα.
+  Ponctuation (5) : 3, 27, 28, 52, 264. Accent ou majuscule (2) : 1 Χελιδὼν → χελιδὼν ; 45 τι → τί. Découpage (2) : 913-914 et
+  959-960 réunis chacun sur une ligne.
+- **Attributions (3 vers)** : 45 (le dernier mot du vers n'est plus rendu à Mnésiloque), 263-264 (Agathon répond dès le v. 263 ;
+  l'attribution du v. 264 est signée « Bibi » en 2023).
+- **Traduction** : 46 vers retouchés, 17 nettement différents (3 retouchés seulement entre mars 2023 et 2023).
 
-### 10.3 Mars 2023 → 2023 (vv. 1-946)
+**Sur toute la période** (tableau, types `texte grec`, `attribution`, `traduction`, `analyse métrique`) :
 
-Commentaires : 284 conservés, 3 remaniés (207, 808-9, 894), 2 désactivés (49-50, le long exposé sur
-†πράμος†, remplacé par le dossier πρανοῦν προτέρους ; 204). Notes : 443 conservées ; 14 désactivées (49-50 ×6,
-100 ×2, 101-29, 217, 605, 702, 894 ×2), 3 abrégées, 3 remaniées, 2 intégrées au commentaire (616, 894),
-1 réécrite (605). Apparat : 453 entrées conservées sur 454, 1 désactivée (417 μορμολυκεῖα). Testimonia :
-224 sur 225 (223 désactivé). Texte grec : une seule différence (913-914 réunis). Aucune attribution ne
-change.
+- *Texte grec* : 314 lignées (267 de mots, 47 d'accent, d'esprit ou de majuscule). Beaucoup sont des coquilles des états de
+  2020 (Παίδρας pour Φαίδρας, v. 550) ; d'autres sont de vrais choix, à relire : 196 μαινοίμεθα, 555 οὐδέπω, 702 μεστὰ, 864
+  Σκαμανδρίαις, 1054 δαιμόνων. L'interversion des vv. 3-4 (§ 11.1) apparaît dans « juin 2022 » : tous les états
+  antérieurs ont l'ordre usuel.
+- *Attributions* : 51 lignées : 16 prennent fin avec la série du printemps 2020, 20 entre juillet 2020 et août 2021, 9 ensuite.
+  Les remarques de la traduction (« Mnésiloque chez Willems », « Willems attribue à Mnésiloque la suite ») montrent que la
+  répartition des répliques suivait d'abord Willems.
+- *Traduction* : 165 lignées (142 lignes nettement différentes, 3 absentes, 20 remarques ou didascalies), dont 46 s'arrêtent à
+  « mai-juin 2020 » et 58 à « décembre 2021 ». Les remarques sont utiles à l'établissement du texte : « l'archer scythe
+  n'intervient-il pas peu avant ? » (1078), « D'aucuns – pas Willems – attribuent la réplique… » (745), « Chez W., à Mn. : καὶ δὴ
+  πεύγει » (1092).
+- *Mètre* : 14 lignées seulement ; les autres écarts ne sont que de notation (`trim. iamb.` / `3 ia.`, `ion. min.` / `io. min.`).
+
+**Conjectures « Bibi » : liste complète**, tous états confondus, de celles qui ne sont pas conservées telles quelles
+(complète le § 5.3) :
+
+| Vers | Entrée d'apparat (forme la plus récente) | Présente dans | Devenir |
+|---|---|---|---|
+| 1 | χελιδὼν R : Χελιδὼν Bibi ap. Clements | mai 2021 (TH/Versions) → novembre 2022 (Drive) | abandonnée |
+| 31 | ἔστιν τις ἀγαθῶν (Μνη.) continuat R : (Εὐρ.) M / Ἀγάθων R : ἀγαθῶν; Bibi | commentée en 2023 | désactivée |
+| 50 | πράμος R : πρόμος Grynaeus : πραῖνοι Bibi ap. Hesych. π 3188 | juin 2022 → novembre 2022 (Drive) | remplacée : πρανοῦν Bibi ap. Hesych. π 3188 |
+| 70-4 | Μνη. et Εὐρ. (70) Μνη. (71) et Εὐρ. (72-4) R : Μνη. et Εὐρ. (70) et Μνη. (71-4) Bibi : alii ali… | 3 juillet 2020 (archive) → décembre 2021 | remplacée : (Μνη.) (71) et (Εὐρ.) (72-4) R : (Μνη.) (71-4) Bibi ap. Σ :  |
+| 86 | δίʹ καιʹ R : δίκαιά γ᾽ Grynaeus : διὰ δίκην Bibi | 3 juillet 2020 (archive) → avril 2021 | abandonnée |
+| 163 | διεκίνων R : διεκίνουν Suid. ε 989, ι 495 : διεκλῶντ᾽ Toup : δίκανον Bibi ap. Hesych. δ 1805 | juin 2022 → novembre 2022 (Drive) | remplacée : διέκειντ' Bibi |
+| 164 | διεκίνων R : διεκίνουν Suid. ε 989, ι 495 : διεκλῶντ᾽ Toup : δίκανα Bibi ap. Hesych. | mai 2021 (TH/Versions) → décembre 2021 | remplacée : διέκειντ' Bibi |
+| 288 | λαθεῖν R : λαβεῖν Bibi, cf. v. 1017 | 21-25 mars 2020 → mai 2021 (TH/Versions) | abandonnée |
+| 291 | καὶ πρὸς θάληκον R : πρὸς θυλάκιον καὶ Bibi | 27 mars 2020 → mai 2021 (TH/Versions) | remplacée (texte de 2023 : leçon imprimée) : πρὸς θυλάκιον Bibi |
+| 291 | πρὸς θάληκον R : Ποσθαλίσκον Dindorf : πρὸς θάλικα Bibi | mai 2021 → novembre 2022 (Drive) | remplacée : πρὸς θυλάκιον Bibi |
+| 337 | ευριπιδιωι̣[. .]υ̣τ P50 : Εὐριπίδῃ Μήδοις R : Εὐριπίδῃ Μήδοις τ᾽ Biset : Εὐριπίδῃ ᾧ ταῦτʹ Bibi | mai 2021 → décembre 2021 | abandonnée |
+| 446 | ἐν Κύπρῳ R : ἐγκύμων Bibi | août 2021 → novembre 2022 (Drive) | remplacée : ἔγκυος Bibi |
+| 500 | ὑπ᾽ αὐγὰς οἷόν R : ὑπαυγάσ᾽ οἷόν Hermann (1838) : ὑπαυγάσοι ὄν Bibi | mai 2020 (copie 3) → mai 2021 | abandonnée |
+| 557 | τὸν σῖτον R, Suid. σ 512, legebat sch. : τὴν μᾶζαν Bibi | 11 mars 2020 → décembre 2021 | remplacée : τὸν κύσθον Bibi cf. v.1114 |
+| 639-40 | (Μνη.) 639 et (Γυνή) 640 R : (Μίκα) Bibi | commentée en 2023 | désactivée |
+| 702 | ἔργα R : πλέα Suid. : δοῦλα cod. Laur. : διπλὰ Bibi | août 2021 → novembre 2022 (Drive) | abandonnée |
+| 734 | θερμόταται R, Suid. θ 251 : θερμοπόται Bibi | août 2021 → décembre 2021 | abandonnée |
+| 815 | ταῦτα R : ταὐτά Bibi | décembre 2021 | abandonnée (texte de 2023 : leçon imprimée) |
+| post v. 870 | < οἶσθ᾽ οὖν ὃ δρᾶσον; - ∪- / ×- ∪- > om. R : restituit ap. Σ Bibi (cf. Eur. Hel.325) | août 2020 → novembre 2022 (Drive) | désactivée |
+| 942 | ἑστιῶν R : ἡστίων Bibi | décembre 2021 | abandonnée |
+| 1040 | λιτομέναν R : ἀντομένα (et -αν) Schol. : λιτομένα Enger : ἀλιτόμην ἄν Bibi | décembre 2021 | abandonnée |
+| 1041 | φεύγουσαν R : χέουσα Rau (Paratragödia, p.75) post Casaubon : φλέγουσαν Mugrave (ad Eur. Or.140… | décembre 2021 | remplacée : ψεφαυγοῦς Bibi, cf Σ ad v.1054, Hesych. ψ 135 |
+| 1047 | [ι]ω̣μοιρ̣[ας P4935 : ἰώ μοι μοίρας R : ἰώ μοίρας Bibi | décembre 2021 | attribuée à un autre critique : ἰώ μοίρας Hermann |
+| 1069 | δι᾽ Ὀλύμπου R : διό λυποῦ Bibi | 21 mars 2020 → mai 2021 | remplacée : †δι᾽† ὀλυμπίας Bibi ap. Hesych. (ο 649) |
+| 1069 | δι᾽ Ὀλύμπου R : διάλυ᾽ ᾽μπουσ᾽ Bibi | août 2021 | remplacée : †δι᾽† ὀλυμπίας Bibi ap. Hesych. (ο 649) |
+| 1071 | μέρος ἐξέλαχον R : μέρος ἐκ σέλαχος Bibi | 21 mars 2020 → mai 2021 | remplacée : μόρος ἔξελ᾽ ἄχος. Bibi |
+| 1072 | θανάτου τλήμων R : θαλάττης τέμνον Bibi | 21 mars 2020 → août 2021 | désactivée |
+| 1074 | στωμυλωμένη R : στωμύλα μένη Bibi | 21-25 mars 2020 → août 2021 | remplacée : στωμυλιομενής Bibi |
+| 1078 | Μνη. χαριεῖ μοι παῦσαι — Εὐρ. παῦσαι R : Μνη. χαριεῖ μοι ᾽παΰσαι — simul Μνη. et Εὐρ. παῦσαι Bi… | décembre 2021 | remplacée : (Εὐρ.) ᾽παΰσαι Bibi |
+| 1082 | ὀτότυζ᾽ R : ὀλόφυγ᾽ Bibi | commentée en 2023 | désactivée |
+| 1093 | (Εὐρ.) ποῖ ποῖ πέτομαι om. R : suppl. Bibi | décembre 2021 | remplacée : (Εὐρ.) ποῖ ποῖ πέτει om. R : suppl. Bibi |
+
+Sur les 42 leçons « Bibi » de 2023, 32 étaient déjà dans « novembre 2022 » ; le nombre maximal, 45, est atteint dans
+« décembre 2021 ».
+
+### 10.4 Contenus récupérables
+
+`edition/donnees/travaux_anterieurs/contenus_recuperables.tsv` compte 1 775 lignes. Colonnes : `version` (état le plus récent où le contenu se lit), `fichier`,
+`ligne`, `type`, `vers` (entre crochets : déduit du groupe), `extrait`, `statut_2023`, `premiere_version`, `nb_versions`,
+`proche_2023` (ce qui lui répond en 2023 : leçon, article, ou ligne commentée), `remarque`, `nature`, `mots`. Le texte du
+commentaire et des notes y est complet (les brouillons et les ajouts des Annexes sont abrégés, la ligne source étant donnée) ;
+`nature`, automatique, sert au tri : `texte rédigé`, `note de travail`, `note ou renvoi de Willems`, `renvoi`, `matériaux
+(textes grecs copiés)`.
+
+| Type | Lignes | Disparu | Désactivé | Remanié, déplacé | Autre |
+|---|---:|---:|---:|---:|---|
+| commentaire | 464 | 277 (11 199 mots) | 155 (16 719) | 32 (584) | |
+| note | 197 | 55 (1 218) | 123 (4 963) | 19 (191) | |
+| déjà commenté dans l'état, absent de 2023 | 11 | 11 (1 002) | | | |
+| brouillon commenté (2023) | 146 | | 146 (8 450) | | |
+| conjecture « Bibi » | 31 | | 5 | | 10 abandonnées, 15 remplacées, 1 attribuée à un autre |
+| apparat | 345 | 81 | 90 | 174 | |
+| testimonium | 2 | | 1 | 1 | |
+| texte grec | 314 | | | | 267 leçons, 47 accents |
+| attribution | 51 | | | | abandonnées |
+| analyse métrique | 14 | | | | abandonnées |
+| traduction | 165 | | | | 142 différentes, 3 absentes, 20 remarques |
+| introduction, annexes, index | 35 | 6 (Présentation) | | | ajouts du Drive, § 9 |
+
+**Comment s'en servir.** Pour rétablir un contenu désactivé, il suffit de lever les `%` à la ligne indiquée dans `proche_2023` ;
+pour un contenu disparu, de reprendre le texte de la colonne `extrait`, ou la source indiquée (une ligne `[…]` signale un passage
+pris au milieu d'un article). Beaucoup de ces pages ont été retirées à dessein (ton polémique, digressions, conjectures
+abandonnées) : le tableau les rend disponibles, il ne dit pas qu'il faut les rétablir, et toute référence ou leçon qu'elles
+contiennent reste à vérifier (CLAUDE.md).
+
+**Désactivés : les principaux dossiers**, présents dans les fichiers de 2023 :
+
+| Vers | Mots | Dernier état actif | Ligne en 2023 | Sujet |
+|---|---:|---|---|---|
+| 1031 | 1 322 | décembre 2021 | vv 642-fin-bis, l. 3626 | détour par les *Guêpes* 669-680 : κηθάριον, Κόννου ψῆφον (proposition Χίων ψῆφον), Eudème et la pierre ponce |
+| 855-7 | 1 077 | décembre 2021 | vv 642-fin-bis, l. 2235 | prologue de l'*Archélaos* (Eur. fr. 228), καλλήϊον Γαιᾶ ; les Égyptiens et la syrméa ; forme longue |
+| 138 | 717 | décembre 2021 | vv 1-641, l. 1594 | τί δὲ λύρα κεκρυφάλῳ : un proverbe (lyre et choucas, Aulu-Gelle) sous le jeu κεκρύφαλος / κόκκυξ |
+| 49-50 | 710 | mars 2023 (Drive) | vv 1-641, l. 990 | ancien dossier †πράμος† : πρόμος, πραῖνοι, glose d'Hésychius π 3188, βροντὴ ἀντὶ πορδῆς |
+| 939-42 | 532 | décembre 2021 | vv 642-fin-bis, l. 3062 | les corbeaux du v. 942 : dossier de la conjecture ἡστίων (παραχοῖ τοῖς κόραξι νήστιων) |
+| 898 | 520 | décembre 2021 | vv 642-fin-bis, l. 2697 | Ἀντιθέου Γαργηττόθεν : un proverbe caché (τις θεῶν … κατώρθωσεν) ; Critylla manieuse de torche |
+| 895 | 509 | décembre 2021 | vv 642-fin-bis, l. 2574 | βαϋζα R : objections à βάϋζε ; matériaux sur βρύα, κόνυζα, les pierres et le pic (Élien) |
+| 702 | 451 | décembre 2021 | vv 642-fin-bis, l. 908 | le proverbe de l'audace : ἔργα, πλέα, δοῦλα dérivés d'un même διπλά ; Pseudo-Maxime |
+| 702 | 293 | novembre 2022 (Drive) | vv 642-fin-bis, l. 905 | même dossier, seconde rédaction |
+| 1069-72 | 420 | août 2021 | vv 642-fin-bis, l. 4378 | Empuse (Hésychius ε 2507) : διάλυ᾽ ᾽μπουσ᾽ ; μέρος ἐκ σέλαχος ; θαλάττης τέμνον |
+| 161-3 | 414 | novembre 2022 (Drive) | vv 1-641, l. 1712 | la mitre et δίκανον (Hésychius δ 1805), Ibycos, Anacréon, Alcée |
+| 500 | 414 | mai 2021 | vv 1-641, l. 3766 | défense du v. 500 : ὑπαυγάσ(αι) d'après Hermann, le stratagème de la femme, ἐγκεκαλυμμένον |
+| 570 | 410 | décembre 2021 | vv 1-641, l. 4228 | Athénée XIV 645e (fr. 269 [256]) : ἐγκρίδες, κάθαρμα, querelle des vendeurs |
+| 896 n. 1 | 366 | novembre 2022 (Drive) | vv 642-fin-bis, l. 2628 | digression : le Socrate d'Aristophane et celui de Platon (Boutang, Boudou) |
+| 452 | 337 | mai 2021 (TH/Versions) | vv 1-641, l. 3341 | la « crise couronnomique » et le double discours de la vendeuse de couronnes |
+| 291 | 333 | novembre 2022 (Drive) | vv 1-641, l. 2684 | θάλικα, métonymie du portefeuille ; la question du nom de Mnésiloque |
+| 486 | 313 | novembre 2022 (Drive) | vv 1-641, l. 3668 | κεδρίδας, ἄννηθον, σφάκον : vertus de ces plantes d'après Pline (extraits traduits) |
+| 49-50 n. 2 | 277 | novembre 2022 (Drive) | vv 1-641, l. 990 | βὴξ ἀντὶ πορδῆς et Sommerstein |
+| 1040 | 277 | décembre 2021 | vv 642-fin-bis, l. 4088 | φῶτα λιτομέναν, variante ἀντομένα de la scholie, ἀλιτόμην ἄν |
+| 840-1 | 265 | décembre 2021 | vv 642-fin-bis, l. 2063 | la mère d'Hyperbolos et les comiques |
+| 616 | 241 | décembre 2021 | vv 1-641, l. 4457 | κάρδαμον : objection de Willems à l'identification au cresson |
+| 735 | 202 | décembre 2021 | vv 642-fin-bis, l. 1271 | ὦ θερμόταται γυναῖκες : contre LSJ et Taillardat |
+
+**Disparus : les principaux dossiers**, à reprendre dans l'état indiqué :
+
+| Vers | Mots | État | Lieu | Sujet |
+|---|---:|---|---|---|
+| 455-6 | 1 271 | novembre 2022 (Drive) | `GCA/… nov 2022.tex`, l. 2911 | première rédaction du dossier : la vendeuse de couronnes, Chypre, Euripide fils de la terre ; remplacée par le dossier actuel (`GCA/note.txt`) |
+| 2-3 | 821 | mai-juin 2020 | `TH/ttc.tex`, l. 273 | χελιδών, l'étoile d'A. Clements ; ἐξ ἑωθινοῦ |
+| 2-3 | 791 | novembre 2022 (Drive) | `GCA/… nov 2022.tex`, l. 457 | même dossier récrit, avec un exposé de méthode : commenté dès juillet 2020, supprimé en 2023 |
+| 288-91 | 606 | mai 2021 (TH/Versions) | `TH/Versions/… mai 2021.tex`, l. 1884 | le texte corrompu, la route de Willems, le porcelet et la glose τὴν θυγατέρα |
+| 939-42 | 518 | août 2021 | `GCA/… aout 2021.tex`, l. 5218 | les corbeaux : Hésychius, jeux de mots, première rédaction |
+| 855-7 | 348 | août 2021 | `GCA/… aout 2021.tex`, l. 4719 | λευκῆς Αἰγύπτου, les crues du Nil, la syrméa, première rédaction |
+| 49-50 | 196 | décembre 2021 | `GCA/… decembre 2021.tex`, l. 698 | objections à la correction πρόμος (confusion Α/Ο, hapax) ; πρηνίζει : première rédaction |
+| 178 | 156 | décembre 2021 | `GCA/… decembre 2021.tex`, l. 1380 | κοινῇ / καινῇ : la scholie et la Souda (Κοινολογία) |
+| 894 | 152 | 3 août 2020 | `GCA/copie 3 aout 2020.tex`, l. 3768 | ἐπὶ κλοπῇ τοῦ χρυσίου : les bijoux aux cérémonies, *Lysistrata* 1189-1193 |
+| 1-10 | 149 | novembre 2022 (Drive) | `GCA/… nov 2022.tex`, l. 440 | ouverture de la pièce : les sentences d'Euripide et la surdité de Mnésiloque |
+| 7-8 | 121 | avril 2021 | `GCA/… avril 2021.tex`, l. 407 | seconde amphibologie du dialogue initial |
+| 246 | 110 | mai-juin 2020 | `TH/ttc.tex`, l. 1247 | αἰθὸς γεγένημαι : Souda αι 134-135 |
+| 1 | 105 | novembre 2022 (Drive) | `GCA/… nov 2022.tex`, l. 453 | Hirondelle avec un H majuscule : l'étoile de Clements |
+
+**Brouillons que n'imprime aucun état** (type `brouillon commenté (2023)`, 146 lignes dont 128 jamais actives) : avant tout la grande
+pile de la ligne 3602 du second fichier, sources copiées pour le dossier de κημός et Κόννου ψῆφον (*Guêpes*, scholies, Souda, Hésychius :
+18 lignes, 4 121 mots, dont 3 354 de textes grecs) avec quelques remarques rédigées ; et des pages rédigées restées en `%` : 1069 (διαλάμπειν, 330 mots, l. 4356),
+35-38 (βεβίνηκας, 350 mots, vol. 1, l. 821), 1172-5 (κἀνακάλπασον, 375 mots, l. 5102-5120), 1197-8 (†αὐτοῖς†, 300 mots, l. 5317-5337),
+le dossier Mnésiloque (l. 526 du vol. 1). Les conjectures commentées qui n'ont pas de forme active (31 ἀγαθῶν;, 639-40, 1082 ὀλόφυγ᾽)
+figurent au tableau des conjectures ci-dessus.
+
+**Apparat à rétablir.** Les corrections imprimées sans entrée d'apparat (417, 481, 537, 542, 798, 808, 1014 : § 11.1) sont dans le
+tableau, avec leur ligne commentée quand elle existe. Les entrées « disparues » sont surtout des corrections ponctuelles, des
+indications sur la tradition indirecte et sur les signes de changement de personnage dans R : elles pèsent peu une à une, mais
+une édition de référence aura à les reprendre, après vérification sur l'image de R et sur les éditions.
+
+**Introduction, Annexes, Index** : partir des fichiers de `GCA/` (§ 9), et non des copies de `latex/`.
 
 ## 11. Anomalies relevées
 
@@ -705,13 +1095,13 @@ alignements par longueurs : 13) relèvent du contrôle de l'extraction.
 ### 11.1 Fautes et incohérences
 
 - **vv. 3-4 transposés sans note** (gravité « grave ») : le texte grec imprime 1, 2, 4 (παρὰ σοῦ
-  πυθέσθαι…), 3 (οἷόν τε, πρὶν τὸν σπλῆνα…), déjà en novembre 2022. R donne l'ordre usuel (vérifié sur
+  πυθέσθαι…), 3 (οἷόν τε, πρὶν τὸν σπλῆνα…), depuis l'état « juin 2022 » (les états antérieurs ont l'ordre usuel). R donne l'ordre usuel (vérifié sur
   l'image du f. 162v, où on lit d'ailleurs οἷόν τι, conformément à l'apparat « τι R : τε ») ; la
   traduction suit l'ordre usuel ; l'apparat (« 3 τι R ») et le commentaire de 1-4 (« παρὰ σοῦ πυθέσθαι
   (v. 3) ») se contredisent. Interversion accidentelle ou choix non justifié : à rétablir selon R.
 - **Glose entre accolades sans apparat** : v. 828 { ἐν ταῖς στρατιαῖς } (§ 6).
 - **Corrections imprimées sans mention dans l'apparat de 2023** (l'entrée de 2022 a été commentée) :
-  417, 481, 537, 542, 798, 808, 1014 (§ 10.2) ; à rétablir dans un apparat complet.
+  417, 481, 537, 542, 798, 808, 1014 (§ 10.3) ; à rétablir dans un apparat complet.
 - **Apparat** : deux segments rattachés au mauvais vers (`\ligneApp{374}` pour Τιμόκλει᾽, vers numéroté 373
   dans le texte : numéro de Hall–Geldart ; `\apparat{435}` pour δεινότερον, vers 436) ; cinq numéros de
   vers saisis en gras au lieu de `\ligneApp` (135, 169, 179, 581, 658) ; graphies fautives de noms

@@ -1,0 +1,540 @@
+[
+ {
+  "v": "947",
+  "v_usuel": "947",
+  "partie": "",
+  "schema": "⏑⏑––– ––⏑⏑– | ⏑⏑–⏑⏑– ⏑⏑–⏓ ‖",
+  "colon": "an⁴∧",
+  "etiquette": "an⁴∧",
+  "ligne_R": "173v.30-31",
+  "note": "Tétramètre anapestique catalectique de la coryphée, récité (« rezitierte Anapäste (Prokerygma) », Zimmermann 1987, p. 75 ; Muff 1872, p. 164). Schéma donné comme en s01 et s12 ; CONVENTIONS § 5 le réserve aux vers chantés (s00, s09) : à omettre à l'impression si l'on applique ce paragraphe, ici et jusqu'à 952. νυν : ῡ dans la comédie (LSJ s.v. νῦν, II : « ū in Com. »), d'où l'anapeste initial ; R écrit νῦν. Diérèse après ἅπερ. -ξίν bref devant ὅταν : syllabe indifférente. R (f. 173v, l. 30-31) : πέσωμεν met un iambe au 3e pied, ταῖς γυναιξίν une brève de moins : παίσωμεν (Σ, Zanetti) et ταῖσι (Daubuz selon Austin 1987, Prato, Wilson ; Brunck selon Enger, Velsen, White) sont imposés par le mètre. La coupe de R après ἐνθάδε est mécanique. Même scansion : Prato 2001, p. 352 ; White 1912, § 589."
+ },
+ {
+  "v": "948",
+  "v_usuel": "948",
+  "partie": "",
+  "schema": "⏑⏑–⏑⏑– ⏑⏑–⏑⏑– | ––⏑⏑– ⏑⏑–– ‖",
+  "colon": "an⁴∧",
+  "ligne_R": "173v.32-33",
+  "note": "TEXTE À CORRIGER AVANT D'APPLIQUER LE SCHÉMA : le schéma vaut pour ὅταν ὄργια … ἅπερ καὶ (21 syllabes), sans παραχώρει. Ce mot manque dans R (f. 173v, l. 32 : ὅτ' ἂν ὄργια…, image), dans la Souda (α 2364, Adler I 211 : Ἀριστοφάνης· ὅταν ὄργια…), chez Hall–Geldart, Coulon, Prato et Wilson ; il ajoute quatre syllabes qu'aucun tétramètre ne peut recevoir, et la traduction ne le rend pas : scorie de saisie, présente depuis la version de novembre 2022 (déjà signalée dans s00_etiquettes.md, § 4.11). Scansion : quatre anapestes purs, diérèse après ἱεραῖς. θεαῖν (R, P.Oxy. 3839, Souda GF S^ac) ou θεοῖν (Cobet ; Coulon, Prato) : même mesure. ἅπερ καὶ | Παύσων : enjambement sur le système ; R coupe ἀνέχω-|μεν (coupe mécanique) et biffe παύ à la fin de la l. 33."
+ },
+ {
+  "v": "949",
+  "v_usuel": "949",
+  "partie": "",
+  "schema": "––⏑⏑– –––– |",
+  "colon": "2an",
+  "etiquette": "an.",
+  "ligne_R": "173v.34",
+  "note": "Système anapestique : trois dimètres et un parémiaque (Prato 2001, p. 352 ; Mazon 1904, p. 134 ; Conradt 1910, p. 54), « octameter » de White 1912, § 589 (période aab, 4 4 8). σέβεται = ⏑⏑–."
+ },
+ {
+  "v": "950",
+  "v_usuel": "950",
+  "partie": "",
+  "schema": "–⏖–– –––– |",
+  "colon": "2an",
+  "ligne_R": "173v.35",
+  "note": "Dactyle au 1er pied (noté –⏖ comme en s09 et s12) : -κις bref, ς passe à αὐ-. αὐταῖν (R, P.Oxy. 3839) ou αὐτοῖν (Cobet) : même mesure."
+ },
+ {
+  "v": "951",
+  "v_usuel": "951",
+  "partie": "",
+  "schema": "–––– ⏑⏑–⏑⏑– |",
+  "colon": "2an",
+  "ligne_R": "173v.36",
+  "note": "-νος long devant τ-. ξυνεπευχόμενος R (la Juntine a ξυνευχόμενος, amétrique ; Enger)."
+ },
+ {
+  "v": "952",
+  "v_usuel": "952",
+  "partie": "",
+  "schema": "––⏑⏑– ⏑⏑–– ‖",
+  "colon": "2an∧",
+  "ligne_R": "173v.37",
+  "note": "Parémiaque (l'auteur : paroem. ; Prato ; White : fin de l'octamètre). Hiatus ἑαυτῷ | ὅρμα : fin du système. μέλειν (Zanetti ; curae esse Divus) pour μέλλειν de R (l. 37, image), qui donnerait ⏑–– au 2e pied : amétrique. μολεῖν (Casaubon) : même mesure."
+ },
+ {
+  "v": "953",
+  "v_usuel": "953",
+  "partie": "",
+  "schema": "–––– |",
+  "colon": "an",
+  "etiquette": "lyr.",
+  "ligne_R": "173v.38",
+  "note": "Début du chant (proode : Enger 1844, p. 159, structure reprise par l'auteur). Quatre longues : ὅρμᾱ (impératif contracte), χώρει. Monomètre anapestique pour l'auteur (anap.), Schroeder 1909, p. 64, Zimmermann 1987, p. 75 (avec ‖), Prato 2001, p. 353 (« attacco di strofa » comme en 433). Désaccords : White 1912, § 589, dimètre ditrochaïque « protracted » ; Wilamowitz 1921, p. 475 n. 2, début d'un tétramètre trochaïque (« die beiden schweren Takte ») ; Coulon imprime ὅρμα χώρει κοῦφα … κύκλον en une ligne ; Pretagostini : extra metrum (d'après Prato, p. 309, qui lui oppose le parallèle ὅρμα ~ βαῖνε)."
+ },
+ {
+  "v": "954",
+  "v_usuel": "954",
+  "partie": "",
+  "schema": "–⏑⏖⏑ –⏑– |",
+  "colon": "lec",
+  "ligne_R": "173v.39",
+  "note": "Lécythion, 2e longum résolu (ποσί-, ῐ) ; le ν passe à ἄγ᾽. R¹ : ποσί. γεσ ; R² ajoute ν et α (f. 173v, l. 39, image ; Velsen 1883) : sans cette correction il manque une syllabe. εἰς (Hall–Geldart impr., Coulon, Prato, Wilson) ou ἐς (R) : même mesure. Accord : l'auteur (lecyth.), Schroeder, Zimmermann, Prato, White."
+ },
+ {
+  "v": "955",
+  "v_usuel": "955a",
+  "partie": "",
+  "schema": "–⏑⏑– ⏑–– |",
+  "colon": "ar",
+  "ligne_R": "173v.40",
+  "note": "Aristophanien (l'auteur : aristoph.), texte de R (l. 40) : χειρὶ … χεῖρα. -ρα long devant ῥ- initial, règle sans exception chez Aristophane sauf Vesp. 1067 (White 1912, § 796) ; et de toute façon fin de colon. Désaccords : (a) Rogers, Schroeder, Zimmermann, Cockle coupent χεῖρα ῥυθ-|μόν (lécythion) ; Zimmermann garde R (–⏑⏑– ⏑–⏑–, « 2 tr∧ ») ; Schroeder lit χε[ι]ρί (⏖⏑–⏑–⏑–) ; dans les deux cas -ρα bref devant ῥ- et ῥυθ- long, deux licences (cf. 955 b) ; (b) Prato : χερὶ (Dobree), ith ⏖⏑–⏑–⏑, -ρα bref (« eccezionale », p. 309) ; (c) White, Wilamowitz, Coulon : χερὶ … χέρα (Hermann et Dobree selon Enger 1844, p. 160, qui doute de cette correption devant ρ « in trochaico versu »), trochées. χερί et χέρα ne sont nécessaires que dans une analyse trochaïque. Colométrie de R et de P.Oxy. 3839 : voir 955 b."
+ },
+ {
+  "v": "955",
+  "v_usuel": "955b",
+  "partie": "b",
+  "schema": "⏑–⏑–– ⏖⏑–⏓ |",
+  "colon": "†",
+  "v_perseus": "955a",
+  "ligne_R": "173v.40-41",
+  "note": "Rangée obélisée par l'auteur, sans étiquette en 2023. Rangée 955a du fichier Perseus (pas de numéro propre dans Hall–Geldart imprimé) : `suite` de texte.tex par erreur de conversion (pas d'antilabè, sigle ΧΟ. de trop). Les quantités sont sûres : ῥῠ- bref (θμ ne fait pas position chez Aristophane : White 1912, § 790 ; Nub. 638, 647, 648), -ᾱς long, ὕπα- = longum résolu, -σα bref devant β- (anceps). Soit ⏓–⏑–– (le « reiz » de Prato pour ῥυθμὸν χορείας) + mètre trochaïque ⏖⏑–⏓. Le mètre n'impose pas l'obèle : Prato imprime sans obèle. πᾶσ᾽ ὕπαγε (Austin ap. Parker 1997, p. 431, selon Prato ; Wilson) : ⏑–⏑– ––⏑⏖, dimètre iambique. Zimmermann, Schroeder, Rogers : μὸν χορείας ὕπαγε πᾶσα = 2tr. Coulon : ⟨ἱερᾶς⟩ (Wilamowitz), tétramètres. R (l. 40-41) et P.Oxy. 3839 fr. 2 (]ον χο[, ]...πο[, Cockle) répartissent autrement : χειρὶ … χορείας | ὕπαγε … ποδοῖν ; Prato s'y tient en grande partie, White aussi. Même suite de syllabes : colométrie de l'auteur gardée (elle suit la syntaxe)."
+ },
+ {
+  "v": "956",
+  "v_usuel": "956",
+  "partie": "",
+  "schema": "–⏑–⏑⏑–⏑– ‖",
+  "colon": "gl",
+  "ligne_R": "173v.41",
+  "note": "Glyconien à base –⏑ (l'auteur : glyc. ; Schroeder : glycon). Autres analyses des mêmes syllabes : 2tr∧ à « zweisilbige Senkung » (Wilamowitz 1921, p. 475 n. 1 ; Zimmermann) ; fin d'un 3tr∧ ὕπαγε … ποδοῖν avec « raro dattilo IV » (Prato, p. 353, conforme à la ligne de R). ‖ : pause forte et passage aux iambes (Zimmermann ‖ ; Prato |)."
+ },
+ {
+  "v": "957",
+  "v_usuel": "957",
+  "partie": "",
+  "schema": "⏑–⏑– ⏑–⏑– |",
+  "colon": "2ia",
+  "ligne_R": "173v.42",
+  "note": "Dimètre iambique pur : l'auteur, Schroeder, Zimmermann, Prato. R (l. 42-43) coupe après πανταχῇ. Autre coupe : ἐπισκοπεῖν δὲ | πανταχῇ … κατάστασιν (Dindorf ; Reisig, Wellauer, Fritzsche font un tétramètre, d'après Enger 1844, p. 160 ; Rogers, Conradt, Wilamowitz, Coulon), d'où un tétramètre trochaïque πανταχῇ … κατάστασιν."
+ },
+ {
+  "v": "958",
+  "v_usuel": "958",
+  "partie": "",
+  "schema": "⏑–⏑– ⏑–⏑– ⏑–⏑⏓ ‖",
+  "colon": "3ia",
+  "ligne_R": "173v.43",
+  "note": "Trimètre iambique. -σιν bref devant ἅμα (σι-νἅ-) : syllabe indifférente, fin de la proode (Zimmermann |||). Schroeder coupe ia ia | ia (… χοροῦ | κατάστασιν). White : fin d'un octamètre diiambique."
+ },
+ {
+  "v": "959",
+  "v_usuel": "959-960",
+  "partie": "",
+  "schema": "⏖⏑– | ⏖⏑–⏑–⏑– |",
+  "colon": "cr lec",
+  "etiquette": "str. α",
+  "ligne_R": "174r.1-2",
+  "note": "Rangée = vv. 959-960 (l'auteur : cret. + lec.). R : deux lignes (f. 174r, l. 1-2) ; Hall–Geldart, Coulon, Prato, Wilson de même. Premier longum résolu dans les deux cola (ἅμα, γένος). καὶ long devant γ-, -νος bref (ς passe à Ὀλ-). Str. α (Coulon : Str. α′ 1 ; Wilson : [στρ. α′). Responsion : 962-963, –⏑– –⏑–⏑–⏑– (⏖ ~ – aux deux places). Accord : Zimmermann, Prato (lec), Schroeder, White."
+ },
+ {
+  "v": "961",
+  "v_usuel": "961-962",
+  "partie": "",
+  "schema": "–⏑–⏑ –⏑–– –⏑⏖⏑ –⏑– ‖",
+  "colon": "tr⁴∧",
+  "ligne_R": "174r.3",
+  "note": "Tétramètre trochaïque catalectique chanté (l'auteur : 4 troch cat ; Prato : 4 tr∧). νῇ et -μα- aux ancipitia, χορο- = longum résolu ; diérèse après φωνῇ. R : ligne unique en ekthesis (l. 3). Enger (p. 160) et Schroeder coupent φωνῇ | πᾶσα ; White : heptamètre continu. 961-962 chez Zimmermann et Prato. Responsion : 964-965, ⏖⏑–⏑ –⏑–⏑ –⏑–– –⏑–. R paraît écrire χαρομανεῖ (image, l. 3 ; Enger ; Velsen ne le dit que de G) : même mesure, à contrôler pour l'apparat."
+ },
+ {
+  "v": "962",
+  "v_usuel": "963",
+  "partie": "",
+  "schema": "–⏑– |",
+  "colon": "cr",
+  "etiquette": "ant. α",
+  "ligne_R": "174r.4",
+  "note": "Ant. α. = 963 de Coulon, Zimmermann, Prato. τις long devant πρ-. Répond à ἅμα δὲ καὶ. L'édition de 2023 réunissait 962 et 963 en une rangée (cret. + lec.), comme 959-960 : la scission vient de la conversion (marque \\ligne{963}) ; R a deux lignes (l. 4-5). Schéma de la rangée réunie : –⏑– | –⏑–⏑–⏑– |."
+ },
+ {
+  "v": "963",
+  "v_usuel": "964",
+  "partie": "",
+  "schema": "–⏑–⏑–⏑– |",
+  "colon": "lec",
+  "ligne_R": "174r.5",
+  "note": "Lécythion pur. = 964 de Coulon, Zimmermann, Prato : c'est ce vers que Zimmermann (p. 76) et Enger (p. 159) opposent à 967. Répond à γένος Ὀλυμπίων θεῶν."
+ },
+ {
+  "v": "964",
+  "v_usuel": "965 (1re partie)",
+  "partie": "",
+  "schema": "⏖⏑–⏑ –⏑–⏑ –⏑",
+  "colon": "tr⁴∧",
+  "ligne_R": "174r.6",
+  "note": "Début du tétramètre (965 de Coulon, Zimmermann, Prato ; 964 du fichier Perseus). Pas de signe final : la rangée s'arrête dans le 3e mètre ; l'édition de 2023 imprimait 964-965 en une rangée (4 troch cat), scindée à la conversion (marque \\ligne{965}). À réunir de préférence : schéma ⏖⏑–⏑ –⏑–⏑ –⏑–– –⏑– ‖. ἐν ἱερῷ : ἐ-νῐ- = longum résolu (ἱερός, ῐ) ; -δρας bref (ς passe à οὐκ). R (l. 6-7) coupe après ἄνδρας : coupe mécanique (961 et 968, aussi longs, sont en ekthesis) ; un seul vers chez Dindorf, Bothe, Fritzsche (Enger, p. 160), Hall–Geldart, Coulon, Prato, Wilson. Responsion avec 961 : ⏖ ~ – (1re place), ⏑ ~ – (8e, anceps), – ~ ⏖ (11e), – ~ ⏑ (12e, anceps). Diérèse après οὖσαν."
+ },
+ {
+  "v": "965",
+  "v_usuel": "965 (fin)",
+  "partie": "",
+  "schema": "–– –⏑– ‖",
+  "colon": "",
+  "ligne_R": "174r.7",
+  "note": "Fin du tétramètre commencé à la rangée 964 (11e-15e places). ὀρ- à l'anceps, long. Colon nommé sur la rangée 964."
+ },
+ {
+  "v": "966",
+  "v_usuel": "966",
+  "partie": "",
+  "schema": "–⏑– ‖",
+  "colon": "cr",
+  "etiquette": "més.",
+  "ligne_R": "174r.8",
+  "note": "Mésode (Enger 1844, p. 159 et 161 ; Parker d'après Austin 1987, p. 84 : « does not actually correspond » ; l'auteur) ; 3e stance d'une triade pour Schroeder, Zimmermann, White, Coulon (Str. α′ 3), Prato. χρή (R, l. 8) + ὥσπερ : hiatus, donc ‖ (Prato |ᴴ) ; gardé par Wilamowitz selon Austin 1987, p. 84 (« The hiatus marks the sudden break »). χρῆν (Bothe ; White, Coulon), χρή ‹σ᾽› (Maas ms. selon Austin ; Zimmermann), χρή ‹μ᾽› (Meineke ; note de Wilson) suppriment le hiatus sans changer la mesure."
+ },
+ {
+  "v": "967",
+  "v_usuel": "967",
+  "partie": "",
+  "schema": "–⏑–⏑ –⏑–– |",
+  "colon": "2tr",
+  "ligne_R": "174r.9",
+  "note": "Dimètre trochaïque complet (l'auteur : dim. troch.) : une syllabe de plus que 959-960 et 963 (lec). Anomalie relevée par Enger (p. 159), Schroeder (p. 64), Zimmermann (p. 76), Prato (« ~ 2 tr ») ; elle disparaît si 966-968 est une mésode. Dans l'hypothèse d'une triade : αὐτίκα (Dindorf ; Coulon : ὥσπερ ἔργον, αὐτίκα) rétablit le lécythion. ὡς πρὸς (Austin 1987 ; Prato, Wilson), ὡς ἐπ᾽ (Enger ; Zimmermann) : même mesure que R. -νόν long devant πρ-."
+ },
+ {
+  "v": "968",
+  "v_usuel": "968",
+  "partie": "",
+  "schema": "–⏑–⏑ –⏑–– –⏑–– –⏑– ‖",
+  "colon": "tr⁴∧",
+  "ligne_R": "174r.10",
+  "note": "Tétramètre trochaïque catalectique sans résolution (R : ekthesis, l. 10 ; Enger, p. 161, le coupe en deux). κύ- bref devant κλ. -ᾱς et στῆ- longs aux ancipitia. εὐφυᾶ (Brunck ; R εὐφυῆ) : même mesure. Zimmermann : 4 tr∧. Fin de la section trochaïque."
+ },
+ {
+  "v": "969",
+  "v_usuel": "969",
+  "partie": "",
+  "schema": "⏑–⏑⏖ ⏑–⏑– |",
+  "colon": "2ia",
+  "etiquette": "str. β",
+  "ligne_R": "174r.11",
+  "note": "Str. β. ποσὶ = longum résolu ; τὸν bref (ν passe à εὐ-). R (l. 11) : ποσὶν τὸν ἐλύραν, amétrique. ποσὶ (Bentley selon Prato, Wilson ; Reisig selon Velsen, White) et εὐλύραν (Zanetti selon Prato, Wilson, Coulon ; Küster selon Velsen, White) sont imposés par le mètre et par 977. Responsion : 977, ––⏑⏖ ⏑–⏑– (anceps initial). Accord : Zimmermann, Prato, White."
+ },
+ {
+  "v": "970",
+  "v_usuel": "970",
+  "partie": "",
+  "schema": "––⏑– ––⏑⏖ |",
+  "colon": "2ia",
+  "ligne_R": "174r.12",
+  "note": "Dernier longum résolu (-φόρο-) : -ρον reste bref parce que le ν passe à Ἄρτεμιν ; synaphie avec 971, pas de pause (Zimmermann et Schroeder sans barre ; Prato |). Responsion : 978, ––⏑– ––⏑– (⏖ ~ –). Enger soupçonne l'ordre (p. 161 : μέλπουσα καὶ τὴν Ἄρτεμιν τοξότιν) sans raison métrique."
+ },
+ {
+  "v": "971",
+  "v_usuel": "971",
+  "partie": "",
+  "schema": "–⏖⏑– ⏑–– ‖",
+  "colon": "2ia∧",
+  "ligne_R": "174r.13",
+  "note": "-τεμι- = longum résolu ; -μιν et -σαν brefs (ν passe à la voyelle suivante). Fin de période (Zimmermann). Responsion : 979, ⏑⏖⏑– ⏑–– (anceps initial). 969-971 : hexamètre diiambique de White."
+ },
+ {
+  "v": "972",
+  "v_usuel": "972a",
+  "partie": "",
+  "schema": "––⏑⏑–⏓ ‖",
+  "colon": "reiz",
+  "ligne_R": "174r.14",
+  "note": "Reizianum ⏓–⏑⏑–⏓ (l'auteur, Zimmermann, Prato, Sommerstein ; Schroeder : trinar ; White : phérécratien acéphale ; prosodiaque : Rossbach 1889, p. 244-245, Mazon 1904, p. 135 n. 1). ὦ Ἑ- : pas de correption. -ε | ὄ- : hiatus et brève à la dernière place, d'où ‖ (Zimmermann, Prato ; Conradt, p. 55, l'excuse par le vocatif). R (l. 14) écrit 972-973 sur une ligne, avec ponctuation forte entre les deux. Reisig, Bothe, Fritzsche : Ἑκάεργ᾽ en un seul vers ; Hermann et Dindorf coupent (Enger 1844, p. 161). Réponse exacte : 980."
+ },
+ {
+  "v": "973",
+  "v_usuel": "972b",
+  "partie": "",
+  "schema": "⏑–⏑⏑–– ‖",
+  "colon": "reiz",
+  "ligne_R": "174r.14",
+  "note": "Reizianum. -πα- long devant ζ. = 972b de Coulon, Zimmermann, Prato. Réponse exacte : 981."
+ },
+ {
+  "v": "974",
+  "v_usuel": "973",
+  "partie": "",
+  "schema": "––⏑– ⏑–– |",
+  "colon": "2ia∧",
+  "ligne_R": "174r.15",
+  "note": "= 973 de Coulon, Zimmermann, Prato. τε R, δὲ Hall–Geldart : même mesure. Réponse : 982, ––⏑– ⏑––."
+ },
+ {
+  "v": "974",
+  "v_usuel": "974",
+  "partie": "b",
+  "schema": "––⏑– ⏑–⏓ ‖",
+  "colon": "2ia∧",
+  "v_perseus": "974a",
+  "ligne_R": "174r.16",
+  "note": "= 974 de Coulon, Zimmermann, Prato ; 974a du fichier Perseus (`suite` de texte.tex par erreur de conversion, sigle ΧΟ. de trop). -κός bref devant ἣ : brève à la dernière place, ‖ (Zimmermann). Réponse : 982 b, ⏑–⏑– ⏑––."
+ },
+ {
+  "v": "975",
+  "v_usuel": "975",
+  "partie": "",
+  "schema": "––⏑– ⏑–⏑– ––⏑–",
+  "colon": "3ia",
+  "ligne_R": "174r.17-18",
+  "note": "Trimètre sans fin de colon : τε καὶ | κλῇδας, pentamètre de White (5c), 3ia + 2ia∧ sans barre chez Zimmermann et Prato. χοροῖσιν ἐμπαίζει (R) ou χοροῖσι συμπαίζει (Meineke selon Coulon, Zimmermann, Wilson ; Biset selon Prato) : même mesure. R (l. 17-18) coupe ἐμ-|παίζει, Schroeder aussi (ia ia | ia ia ba) ; la coupe tombe à la même syllabe en 983 (οἱ-|άπερ) : 8 + 11 syllabes. Responsion : 983 (9e place – ~ ⏑, anceps)."
+ },
+ {
+  "v": "976",
+  "v_usuel": "976",
+  "partie": "",
+  "schema": "––⏑– ⏑–– ‖",
+  "colon": "2ia∧",
+  "ligne_R": "174r.18",
+  "note": "Fin de strophe. Réponse exacte : 984. R : κλήδας (accent)."
+ },
+ {
+  "v": "977",
+  "v_usuel": "977",
+  "partie": "",
+  "schema": "––⏑⏖ ⏑–⏑– |",
+  "colon": "2ia",
+  "etiquette": "ant. β",
+  "ligne_R": "174r.19",
+  "note": "Ant. β (Coulon, Wilson). νόμι- = longum résolu ; -ον bref (ν passe à ἄ-). Responsion exacte avec 969 (hors anceps initial)."
+ },
+ {
+  "v": "978",
+  "v_usuel": "978",
+  "partie": "",
+  "schema": "––⏑– ––⏑– |",
+  "colon": "2ia",
+  "ligne_R": "174r.20",
+  "note": "Dimètre sans résolution. -ᾱς (φίλας) long. Répond à 970 (– ~ ⏖ à la dernière place)."
+ },
+ {
+  "v": "979",
+  "v_usuel": "979",
+  "partie": "",
+  "schema": "⏑⏖⏑– ⏑–– ‖",
+  "colon": "2ia∧",
+  "ligne_R": "174r.21",
+  "note": "-πιγε- = longum résolu ; ἐπιγελάσαι (R -ᾶσαι : accent). Répond à 971 (anceps initial)."
+ },
+ {
+  "v": "980",
+  "v_usuel": "980a",
+  "partie": "",
+  "schema": "––⏑⏑–⏓ ‖",
+  "colon": "reiz",
+  "ligne_R": "174r.22",
+  "note": "Reizianum ; -σι bref devant χ-, à la dernière place, ‖ d'après 972. -ραισι (Hermann selon Velsen, White, Wilson, Coulon ; Dindorf et Enger selon Prato) : R (f. 174r, l. 22, image) et la Souda ont ἡμετέραις. La syllabe ajoutée rétablit la responsion avec 972. Autre voie, sans toucher à R : ταῖς ἡμετέραις χαρέντα χορείαις (R, une ligne) ~ χαῖρ᾽ ὦ Ἑκάεργ᾽ ὄπαζε δὲ νίκην (Reisig, Bothe, Fritzsche, élision seulement) : deux vers de 11 syllabes ––⏑⏑–⏑–⏑⏑––. L'auteur suit Hermann, gardé ici. = 980a de Zimmermann."
+ },
+ {
+  "v": "981",
+  "v_usuel": "980b",
+  "partie": "",
+  "schema": "⏑–⏑⏑–– ‖",
+  "colon": "reiz",
+  "ligne_R": "174r.22",
+  "note": "Reizianum ; réponse exacte à 973. = 980b de Zimmermann, Prato. R : même ligne que 980."
+ },
+ {
+  "v": "982",
+  "v_usuel": "981",
+  "partie": "",
+  "schema": "––⏑– ⏑–– |",
+  "colon": "2ia∧",
+  "ligne_R": "174r.23",
+  "note": "= 981 de Coulon, Zimmermann, Prato. ἔξαιρε (R) ou ἔξαρχε (Meineke ; Coulon) : même mesure. Répond à 974."
+ },
+ {
+  "v": "982",
+  "v_usuel": "982",
+  "partie": "b",
+  "schema": "⏑–⏑– ⏑–– ‖",
+  "colon": "2ia∧",
+  "v_perseus": "982a",
+  "ligne_R": "174r.24",
+  "note": "= 982 de Hall–Geldart imprimé, Coulon, Zimmermann, Prato ; 982a du fichier Perseus (`suite` de texte.tex par erreur de conversion, sigle ΧΟ. de trop). χάριν (Ellebodius selon Prato, Wilson, l'auteur ; Biset selon Enger, Velsen, Coulon, White) : R (l. 24) διπλὴν χαίρειν met une longue à la 3e place, amétrique. Répond à 974 b."
+ },
+ {
+  "v": "983",
+  "v_usuel": "983",
+  "partie": "",
+  "schema": "––⏑– ⏑–⏑– ⏑–⏑–",
+  "colon": "3ia",
+  "ligne_R": "174r.25-26",
+  "note": "Trimètre ; pas de barre, pour répondre à 975 (Zimmermann, Prato), bien que le sens s'arrête après νόμος. -κες bref (ς passe à οἷ-). R (l. 25-26) coupe οἱ-|άπερ. Responsion : 975."
+ },
+ {
+  "v": "984",
+  "v_usuel": "984",
+  "partie": "",
+  "schema": "––⏑– ⏑–– ‖",
+  "colon": "2ia∧",
+  "ligne_R": "174r.26",
+  "note": "Fin de l'antistrophe ; réponse exacte à 976. νηστεύομεν (Bentley) : R -ωμεν met une longue à la 3e place, amétrique (Enger : sententia et numeri). Rogers 1904 garde le subjonctif par transposition : πάντως δὲ νηστεύωμεν."
+ },
+ {
+  "v": "985",
+  "v_usuel": "985",
+  "partie": "",
+  "schema": "––⏑– ⏑–⏑– ⏑–⏑⏓ ‖",
+  "colon": "3ia",
+  "etiquette": "més.",
+  "ligne_R": "174r.27",
+  "note": "Mésode β : 985-986 reprennent la fin de 975-976 = 983-984 (ia³ + 2ia∧ : Enger 1844, p. 163). -ρύ- bref (θμ sans position : Zimmermann, Prato, White), -δί bref à la dernière place, ‖. εἶα πάλλ᾽ (Casaubon pour εἶα, Blaydes pour πάλλ᾽, selon Prato) ou εἶ᾽ ἐπ᾽ ἄλλ᾽ (Boninus ; Enger, Velsen, Rogers) : même mesure. R : ειαπάλλ᾽."
+ },
+ {
+  "v": "986",
+  "v_usuel": "986",
+  "partie": "",
+  "schema": "⏑–⏑– ⏑–– ‖",
+  "colon": "2ia∧",
+  "ligne_R": "174r.28",
+  "note": "-σαν bref (ν passe à ᾠ-). Pause forte. τόρευε (R, Σ, Souda) ; τόρνευε (Bentley ; Wilamowitz, Coulon) donne une longue à l'anceps initial : le mètre ne décide pas."
+ },
+ {
+  "v": "986",
+  "v_usuel": "987",
+  "partie": "b",
+  "schema": "––⏑– ––⏓ ‖",
+  "colon": "ia mol",
+  "v_perseus": "986a",
+  "ligne_R": "174r.29-30",
+  "note": "= 987 de Coulon, Zimmermann, Prato ; 986a du fichier Perseus (`suite` de texte.tex par erreur de conversion, sigle ΧΟ. de trop). ia + molosse (l'auteur ; Schroeder ; Zimmermann). σὺ, bref à une place longue, force un ‖ en pleine phrase, devant le vocatif. R (l. 29-30) met un point fort après αὐτός et rattache σὺ à la ligne suivante ; Enger, Rogers, White, Prato (pros : ––⏑–––) de même ; Reisig, Wilamowitz (« Glossem ») et Coulon suppriment σύ. Colométrie de l'auteur gardée ; voir s14 .md § 5.4. γ᾽ ὧδ᾽ suspect (Wilson 2007 ; Sommerstein 1994, p. 220) : le mètre ne dit rien (ᾠδῆς Rogers, αὐτὸς ὧδε Hermann : mêmes longueurs)."
+ },
+ {
+  "v": "987",
+  "v_usuel": "988a",
+  "partie": "",
+  "schema": "–⏑⏖ ––⏓ ‖",
+  "colon": "cr mol",
+  "ligne_R": "174r.30",
+  "note": "= 988a de Coulon, Zimmermann, Prato. Crétique à dernier longum résolu + molosse : l'auteur (cret. + mol.), Schroeder. Zimmermann : ia sp, –⏖⏑– –⏓ (mêmes syllabes). Prato, avec σύ : ⏑–⏑⏖ ––⏓ (2ia∧) ; White coupe Βάκχει-|ε. -ε bref à la dernière place : ‖ (Zimmermann). Βακχεῖε (Blaydes selon Coulon, Wilson ; Fritzsche selon Prato), R Βάκχειε : même mesure."
+ },
+ {
+  "v": "988",
+  "v_usuel": "988b",
+  "partie": "",
+  "schema": "–⏑⏑– ⏑–– |",
+  "colon": "ar",
+  "ligne_R": "174r.30",
+  "note": "= 988b. Aristophanien : l'auteur, Prato (arist), Zimmermann et Schroeder (ch ba). Sur la même ligne de R que 987."
+ },
+ {
+  "v": "989",
+  "v_usuel": "989",
+  "partie": "",
+  "schema": "⏑⏖⏑– ⏑–– ‖",
+  "colon": "2ia∧",
+  "ligne_R": "174r.31",
+  "note": "φιλο- = longum résolu. φιλοχόροισι (Scaliger selon Prato, Wilson, Coulon ; Bentley selon Enger, Velsen, White) : R -σιν, long à l'anceps, n'est pas amétrique. Hiatus μέλψω | εὔιον : fin de la mésode. Accord : Zimmermann, Prato, Schroeder (ia ba), White."
+ },
+ {
+  "v": "990",
+  "v_usuel": "990",
+  "partie": "",
+  "schema": "–⏖–⏑⏑–⏓ ‖",
+  "colon": "pher",
+  "etiquette": "str. γ",
+  "ligne_R": "174r.32",
+  "note": "Str. γ. Texte imprimé (R, l. 32, avec obèle de l'auteur) = PHÉRÉCRATIEN de huit syllabes, base –⏖ : Δῐόνῡσε (LSJ), -ον bref. L'étiquette « aristoph. » de 2023 ne convient qu'au texte corrigé (Εὔιε ὦ Διὸς σύ Enger ; Εὔιον ὦ Διός τε Fritzsche : –⏑⏑– ⏑–⏓) ou à une synizèse de Δι-ό (Schroeder 1909, p. 65, seul à garder R dans une responsion exacte). Responsion : NON (995 = ar, 7 syllabes). Phérécratien aussi chez Prato (Εὐοῖ ὦ Διόνυσε Hermann), White (εὔι᾽ ὦ Διόνυσε) et Wilamowitz (σὺ Διὸς ὦ Διόνυσε, sans strophe). ‖ : -σε bref à la dernière place. Discordance avec la traduction (« fils de Zeus », absent du texte imprimé)."
+ },
+ {
+  "v": "991",
+  "v_usuel": "991",
+  "partie": "",
+  "schema": "⏑⏖–⏑⏑–– |",
+  "colon": "pher",
+  "ligne_R": "174r.33",
+  "note": "Phérécratien, 2e élément de la base résolu : l'auteur (pherecr.), Zimmermann, Prato, White. Réponse à 996 (⏑– –⏑⏑––) : ⏖ ~ –. Enger (p. 164) excuse le tribraque par le nom propre, après avoir songé à Διὸς καὶ Σεμέλας παῖ (Hermann)."
+ },
+ {
+  "v": "992",
+  "v_usuel": "992a",
+  "partie": "",
+  "schema": "⏑––⏑⏑– |",
+  "colon": "dodr B",
+  "ligne_R": "174r.34",
+  "note": "Hexasyllabe éolien de l'auteur ; dodrans B de Zimmermann ; dodr de Prato. Réponse exacte à 997. χοροῖς (R, Prato, Zimmermann) ou χωρεῖς (Wilamowitz, Coulon) : anceps initial, le mètre ne décide pas. τερπόμενον (Bentley) : même mesure."
+ },
+ {
+  "v": "993",
+  "v_usuel": "992b-993a",
+  "partie": "",
+  "schema": "⏑⏖⏑– –⏑⏑– ⏑–– ‖",
+  "colon": "ia ar",
+  "ligne_R": "174r.34-35",
+  "note": "ia + aristophanien (l'auteur ; Schroeder, Zimmermann, Wilson coupent Νυμ-|φᾶν). R (l. 34-35) et Prato coupent après νυμφᾶν : ⏑⏖⏑–– | ⏖–⏑––. Quantités indépendantes de la coupe. Responsion avec 998 obtenue seulement par la transposition d'Enger. ἐρατοῖς ἐν (R) ou ἐρατοῖσιν (Wilamowitz, Coulon) : même mesure ; ἐρατοῖσιν ἐν (Burges) : une syllabe de trop. ἐν ὕμνοις : ἐν R ; σὺν Velsen."
+ },
+ {
+  "v": "993",
+  "v_usuel": "993b",
+  "partie": "b",
+  "schema": "–⏑⏑–⏑⏑–– ‖",
+  "colon": "†",
+  "v_perseus": "993a",
+  "ligne_R": "174r.36",
+  "note": "Texte de R, obèle de l'auteur ; 993b de Hall–Geldart imprimé, Coulon, Zimmermann, Prato ; 993a du fichier Perseus (`suite` de texte.tex par erreur de conversion, sigle ΧΟ. de trop). Schéma des syllabes imprimées, qui ne répondent pas à 999 (2e et 4e places). L'étiquette « 2 iamb cat » de 2023 suppose ὦ Εὔι᾽ Εὔι᾽ εὐοῖ (Hermann ; Zimmermann, Prato, Wilson) : ––⏑– ⏑–– ou, avec correption de ὦ, ⏑–⏑– ⏑–– : réponse exacte. Schroeder, sans corriger, admet ces deux schémas face à face. ‖ d'après 999 et Zimmermann."
+ },
+ {
+  "v": "994",
+  "v_usuel": "994",
+  "partie": "",
+  "schema": "⏓⏖⏑ ⏖⏑–– ‖",
+  "colon": "2ia∧",
+  "ligne_R": "174r.36",
+  "note": "Les trois premiers signes répondent au signe de lacune imprimé (⟨× ⏖ ⏑⟩) et à εὐπέταλος (1000). Lacune d'Hermann : R (l. 36) n'a que ἀναχορεύων, sur la ligne de 993 b, alors que 999 et 1000 ont deux lignes. Compléments de la forme –⏖⏑ : ⟨παννύχιος⟩ (Schroeder -ον, Coulon -ος), ⟨ἡδόμενος⟩ (Austin ; Wilson) ; de la forme ––⏑ : ⟨ὦ Εὔι᾽⟩ (Hermann ; Zimmermann), ἥκεις γάρ (Velsen). R¹ ανχορεύων, α ajouté (image). Wilamowitz : ⟨θίασον⟩, sans responsion."
+ },
+ {
+  "v": "995",
+  "v_usuel": "995",
+  "partie": "",
+  "schema": "–⏑⏑– ⏑–– ‖",
+  "colon": "ar",
+  "etiquette": "ant. γ",
+  "ligne_R": "174r.37",
+  "note": "Ant. γ. Aristophanien (l'auteur ; ch ba de Schroeder et Zimmermann ; Sommerstein). σοὶ (Zanetti) ou συγ- (Wilamowitz ; Coulon, Wilson) : même mesure ; R (l. 37, image) συῒ κτυπεῖται : huit syllabes, –⏖⏑– ⏑–– (-ῒ long devant κτ-), sans responsion. ‖ d'après 990. Le schéma commun de Prato (p. 353, « pher ») ne convient pas aux sept syllabes de ce vers, qu'il imprime pourtant."
+ },
+ {
+  "v": "996",
+  "v_usuel": "996",
+  "partie": "",
+  "schema": "⏑––⏑⏑–– |",
+  "colon": "pher",
+  "ligne_R": "174r.38",
+  "note": "Phérécratien à base ⏑– (l'auteur ; Zimmermann ; Prato). Κιθαιρώνιος (Zanetti) : R κιθαρώνιος donnerait une base ⏑⏑, faute d'orthographe plutôt que de mètre."
+ },
+ {
+  "v": "997",
+  "v_usuel": "997",
+  "partie": "",
+  "schema": "⏑––⏑⏑– |",
+  "colon": "dodr B",
+  "ligne_R": "174r.39",
+  "note": "Réponse exacte à 992. R (l. 39) poursuit la ligne jusqu'à νάπαι (12 syllabes, comme l. 34)."
+ },
+ {
+  "v": "998",
+  "v_usuel": "998",
+  "partie": "",
+  "schema": "–⏑⏑–⏑– ⏑––⏑–– ‖",
+  "colon": "†",
+  "ligne_R": "174r.39-40",
+  "note": "Texte de R (l. 39-40), obèles de l'auteur (« (?) » en 2023). Douze syllabes comme 993, mais trois quantités diffèrent (4e, 5e et 8e syllabes). Lu seul, le vers donne –⏑⏑–⏑– (dodrans A) + ⏑––⏑–– (2 ba), sens où vont White et Conradt, qui gardent R. πετρώδεις τε νάπαι (Enger ; Coulon, Zimmermann, Prato, Wilson) donne –⏖⏑– –⏑⏑– ⏑––, réponse exacte à 993 : une seule permutation et τε pour καὶ. Mazon 1904, p. 135 n. 3 : « 998 semble trochaïque ». R met un point après νάπαι."
+ },
+ {
+  "v": "999",
+  "v_usuel": "999",
+  "partie": "",
+  "schema": "⏑–⏑⏖ ⏑–⏓ ‖",
+  "colon": "2ia∧",
+  "ligne_R": "174r.41",
+  "note": "πε-ρὶ = longum résolu. -σὸς bref devant εὐ- : brève à la dernière place, ‖ (Zimmermann). περί σε (Blaydes ; Wilson) ou περὶ σὲ (R) : même mesure."
+ },
+ {
+  "v": "1000",
+  "v_usuel": "1000",
+  "partie": "",
+  "schema": "–⏖⏑⏖ ⏑–– ‖",
+  "colon": "2ia∧",
+  "ligne_R": "174r.42",
+  "note": "Deux longa résolus (πέτα-, ἕλι-) : neuf syllabes pour sept places. Accord : Zimmermann, Prato (– ⏑⏑⏑⏑⏑⏑ – –). Clausule du chant. R (l. 42)."
+ }
+]

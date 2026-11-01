@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lecture B (par passes successives) de R, f. 164r (Classense 166r). Brouillon en cours : passe 1. -->
+<page folio="164r" image="04_f164r_classense166r_vv0123-0164.jpg" vers="123-164">
+  <lignes>
+    <l n="1" v="123" retrait="7">σέβομαι λατώ τ᾽ ἀνάσσαν</l>
+    <l n="2" v="124" retrait="7">κίθαρίν τε ματέρ᾽· ὕμνων</l>
+    <l n="3" v="125" retrait="8">ἄρσενι βοᾶι· δοκίμωι·</l>
+    <l n="4" v="126">τᾶι φῶς ἔσσυτο δαιμονίοισ ὄμμασιν·</l>
+    <l n="5" v="127">ἡ μετέρασ τε δι αιφνιδίου ὀποσ</l>
+    <l n="6" v="128">ὧν χάριν ἀνακτ᾽ ἀγάλλε φοῖβον τιμᾶι·</l>
+    <l n="7" v="129" retrait="7">χαῖρ᾽ ὄλβιε παῖ λατοῦσ·</l>
+    <l n="8" retrait="6">ὀλολύζεισ γέρων·</l>
+    <l n="9" v="130"><nota main="R2">μνησι<add place="dessus" main="R2">λο</add></nota>ὡσ ἡδὺ τὸ μέλοσ ὦ πότνια γενετυλλίδεσ</l>
+    <l n="10" v="131">καὶ θηλυδριῶδεσ· καὶ κατεγλωττισμένον <signe type="renvoi" main="R2">·϶·</signe></l>
+    <l n="11" v="132">καὶ μανδαλωτὸν ὥστ᾽ ἐμοῦ γ᾽ ἀκροωμένου</l>
+    <l n="12" v="133">ὑπὸ τὴν ἕδραν αὐτὴν ὑπῆλθε γάργαλοσ</l>
+    <l n="13" v="134">καὶ σ᾽ ὦ νεανίσχ᾽ εἴ τισ εἶ κατ᾽ αἰσχύλον</l>
+    <l n="14" v="135">ἐκ τῆσ λυκουργίασ ἐρέσθαι βούλομαι</l>
+    <l n="15" v="136">ποδαπὸσ ὁ γύννισ· τίσ πάτρα; τίσ ἡ στολή</l>
+    <l n="16" v="137">τίσ ἡ τάραξισ τοῦ βίου· τί βάρβιτοσ</l>
+    <l n="17" v="138">λαλεῖ κρο<del type="biffure" main="R1"><unclear cert="moyenne">τ</unclear></del>κωτῶι· τί δὲ λύρα κ<subst main="R?"><del type="surcharge"><gap n="1" unite="lettres" raison="surcharge"/></del><add place="ligne">ε</add></subst>κρυφάλωι</l>
+    <l n="18" v="139">τί λήκυθοσ· καὶ στρόφιον· ὡσ οὐ ξύμφορον·</l>
+    <l n="19" v="140">τίσ δαὶ κατόπτρου· καὶ ξίφουσ κοινωνία·</l>
+    <l n="20" v="141">τίσ δ αὐτὸσ ὦ παῖ πότερον ὡσ ἀνὴρ τρέφει·</l>
+    <l n="21" v="142">καὶ ποῦ σπέοσ· ποῦ χλαῖνα· ποῦ λακωνικαί·</l>
+    <l n="22" v="143">ἀλλ᾽ ὡσ γυνὴ δῆτ᾽ εἶτα ποῦ τὰ τι<add place="dessus" main="R1c">τ</add>θία·</l>
+    <l n="23" v="144">τί φήισ τί σιγᾶισ ἀλλα δῆτ ἐκ τοῦ μέλουσ</l>
+    <l n="24" v="145">ζητῶ σ ἐπειδὴ γ ἀυτὸσ οὐ βούλει φράσαι·</l>
+    <l n="25" v="146"><parag/><nota main="R2">αγα<add place="dessus" main="R2">θ</add></nota>ὦ πρέσβϋ πρέσβϋ τοῦ φθόνου μὲν τὸν ψό<del type="biffure" main="R?"><unclear cert="moyenne">ι</unclear></del>γον<unclear cert="moyenne">·</unclear></l>
+    <l n="26" v="147">ἤκουσα· τὴν δ ἄλγησιν οὐ παρεσχόμην<unclear cert="moyenne">·</unclear></l>
+    <l n="27" v="148">ἐγὼ δὲ τὴν ἐσθῆτ ἅμα γνώμη φορῶ·</l>
+    <l n="28" v="149">χρὴ <add place="dessus" main="R2"><unclear cert="moyenne"><abbr dev="ὰρ">γ</abbr></unclear></add> ποητὴν ἄνδρα πρὸσ τὰ δράματα</l>
+    <l n="29" v="150">ἃ δεῖ ποεῖν· πρὸσ ταῦτα τοὺσ τρόπουσ ἔχειν</l>
+    <l n="30" v="151">αὐτί<add place="dessus" main="R2">κα</add> γυναικεῖ<unclear cert="moyenne">᾽</unclear> ἠν ποῆ τίσ δράματα<unclear cert="moyenne">·</unclear></l>
+    <l n="31" v="152">μετουσίαν δεῖ τῶν τρόπων τὸ σῶμ ἔχειν</l>
+    <l n="32" v="153"><parag/><nota main="Rrec">μν<add place="dessus" main="Rrec">η</add></nota>οὐκοῦν κελητίζεισ; ὅτ᾽ ἂν φαίδραν ποῆισ</l>
+    <l n="33" v="154"><nota main="Rrec">ἀγ</nota>ἀνδρεῖα δ ἂν ποῆ τίσ ἐν τῶι σώματι</l>
+    <l n="34" v="155">ἔνεσθ<unclear cert="moyenne">᾽</unclear> ὑπάρχον τοῦ<add place="dessus" main="R2">θ᾽</add> ἃ δ<unclear cert="moyenne">᾽</unclear> οὐ κεκτήμεθα<unclear cert="moyenne">·</unclear></l>
+    <l n="35" v="156">μίμησισ ἤδη ταῦτα· συνθηρεύεται·</l>
+    <l n="36" v="157"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν<add place="dessus" main="Rrec">η</add></nota><hi rend="grand">ὅ</hi>τ᾽ ἂν σατύρουσ τοίνυν ποῆ<unclear cert="faible">ι</unclear>σ καλεῖν ἐμὲ</l>
+    <l n="37" v="158">ἵνα συμποῶ σ<unclear cert="moyenne">᾽</unclear> οὔπισθεν εστυκὼσ ἐγ<subst main="R?"><del type="surcharge">ὼ</del><add place="ligne">ώ</add></subst></l>
+    <l n="38" v="159"><nota main="Rrec">ἀγ</nota>ἄλλ<unclear cert="moyenne">᾽</unclear> ωσ τ<unclear cert="moyenne">᾽</unclear> ἄμουσόν εστιν ποιητὴν ἰδεῖν</l>
+    <l n="39" v="160">ἀγρεῖον ὄντα καὶ δασύν· σκέψαι δ ὅτι</l>  </lignes>
+  <scholies>
+  </scholies>
+  <notes>
+  </notes>
+</page>

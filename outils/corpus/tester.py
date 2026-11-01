@@ -24,11 +24,23 @@ import chercher  # noqa: E402
 TESTS = [
     ('"Νείλου μὲν αἵδε καλλιπάρθενοι ῥοαί"', {}, ["Eur. Hel. 1", "Ar. Thesm. 855"],
      "Eur. Hel. 1, cité par Mnésiloque-Hélène en Thesm. 855"),
-    ('"σοφοὶ τύραννοι τῶν σοφῶν ξυνουσίᾳ"', {}, ["Pl. Resp.", "Pl. Theag."],
-     "vers cité par Platon (graphie συν-) : variantes ξυν-/συν- admises par défaut"),
-    ("ὀρθρογόη", {}, ["Hsch."], "épithète de l'hirondelle (Hés. Op. 568 a ὀρθογόη dans Perseus)"),
+    ('"σοφοὶ τύραννοι τῶν σοφῶν ξυνουσίᾳ"', {}, ["Pl. Thg.", "Aristid."],
+     "vers cité par Platon (graphie συν-) : variantes ξυν-/συν- admises par défaut (Rép. 568b intercale εἰσι)"),
+    ("ὀρθρογόη", {}, ["LSJ s.v. ὀρθρογόη", "Phot. (Naber)", "Sud. (Adler) III p. 559"],
+     "épithète de l'hirondelle (Hés. Op. 568 a ὀρθογόη dans Perseus) ; absente d'Hésychius"),
     ("πυθοῦ χελιδὼν", {}, [], "expression testée telle quelle (voir le compte rendu)"),
     ("ἀπόκυνον", {"auteur": "Hsch"}, ["Hsch. (Schmidt min.)"], "glose d'Hésychius (OCR de Schmidt)"),
+    ("χοάνη", {"auteur": "Hsch.", "oeuvre": "gloses"}, ["Hsch. χ 576 (Hansen–Cunningham IV, p. 223)"],
+     "Hésychius de Latte–Hansen–Cunningham : glose numérotée, Thesm. 18"),
+    ("ἀϋτή", {"auteur": "Hsch.", "oeuvre": "gloses"}, ["Hsch. α 8382 (Latte I, p. 382)"],
+     "tréma rattaché à sa lettre (glyphe isolé des polices Kleinlogel)"),
+    ("Thesm", {"auteur": "Hsch.", "oeuvre": "gloses"}, ["Hsch. χ 575", "Hsch. π 3096", "Hsch. σ 2044"],
+     "gloses rapportées aux Thesmophories par l'éditeur"),
+    ("κατοπτρον", {"auteur": "Hsch. app."}, ["Hsch. app."], "apparats, indexés à part"),
+    ("κάμπτειν", {"auteur": "Hsch.", "oeuvre": "gloses"}, ["Hsch. κ 617 (Latte II, p. 516)"],
+     "Κ–Ο : le fichier du t. II contient aussi le t. IIb"),
+    ("ἀμείβεσθαι ἀποκρίνεσθαι", {"auteur": "Synag"}, ["Synag. (Cunningham) p. 95"], "Synagoge : polices Kleinlogel rétablies"),
+    ("ἀνακλώμενον", {"auteur": "Adler"}, ["Sud. (Adler) I p. 171"], "Souda d'Adler (OCR d'archive.org, feuillet 200)"),
 ]
 
 

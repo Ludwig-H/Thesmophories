@@ -22,7 +22,7 @@
     "partie": "",
     "schema": "",
     "colon": "",
-    "note": "an⁴∧ récité. Scansion : –––– ––⏑⏑– | ⏑⏑–⏑⏑– ⏑⏑––. τις ἀ- : τι bref ; περι- bref devant θρ. R εἰσελήλυθεν (image, f. 170r, l. 21) met une longue suivie d'un bref là où il faut un biceps (–⏑–⏑–) : amétrique. ἐπελήλυθε (Handley ; l'auteur, Wilson), ἐσελήλυθε (Coulon) et ἀνελήλυθε (Fritzsche ; Hall–Geldart) se scandent de même : la métrique ne choisit pas."
+    "note": "an⁴∧ récité. Scansion : –––– ––⏑⏑– | ⏑⏑–⏑⏑– ⏑⏑––. τις ἀ- : τι bref ; περι- bref devant θρ. R εἰσελήλυθεν (image, f. 170r, l. 21 : même ligature ει que dans le εἴ de cette ligne, contre l'ἐσελήλυθεν que rapportent Velsen et Hall–Geldart ; Coulon et Wilson ont εἰσ-) met une longue suivie d'un bref là où il faut un biceps (–⏑–⏑–) : amétrique. ἐπελήλυθε (Handley ; l'auteur, Wilson), ἐσελήλυθε (Coulon) et ἀνελήλυθε (Fritzsche ; Hall–Geldart) se scandent de même : la métrique ne choisit pas."
   },
   {
     "v": 658,
@@ -72,7 +72,7 @@
     "schema": "–⏑–⏑ –⏑–⏑",
     "colon": "2tr",
     "etiquette": "lyr.",
-    "note": "Début du chant du chœur (étiquette « lyr. », comme dans texte.tex). Dimètre trochaïque : εἶ-ά-νυ-νι-χνευ-ε-καὶ-μά. νυν long (ῡ, quantité ordinaire de l'enclitique dans la comédie : LSJ s.v. νῦν ; Wilson accentue νῦν) ; ἴχ- bref (χν sans position). Pas de signe final : la rangée finit dans le mot (μά-|τευε), en synaphie ; 663-664 forment la suite de cinq trochées que l'auteur étiquetait « 5 troch. ». Même schéma chez White 1912, § 221, et Zimmermann 1987, p. 73."
+    "note": "Début du chant du chœur (étiquette « lyr. », comme dans texte.tex). Dimètre trochaïque : εἶ-ά-νυ-νι-χνευ-ε-καὶ-μά. νυν long (ῡ, quantité ordinaire de l'enclitique dans la comédie : LSJ s.v. νῦν, qui cite Guêpes 1381 et Ploutos 975 ; exceptions : Cratinos 144, Thesm. 105 ; Wilson accentue νῦν) ; ἴχ- bref (χν sans position). Pas de signe final : la rangée finit dans le mot (μά-|τευε), en synaphie ; 663-664 forment la suite de cinq trochées que l'auteur étiquetait « 5 troch. ». Même schéma chez White 1912, § 221, Zimmermann 1987, p. 73, et Prato 2001, AM p. 350."
   },
   {
     "v": 664,
@@ -80,7 +80,7 @@
     "partie": "",
     "schema": "–⏑⏖– –⏑–⏑ –⏑–⏑ |",
     "colon": "3tr",
-    "note": "Trimètre trochaïque ; premier longum résolu (τα-χὺ). πάντ᾽ εἴ- : πάν- long ; ἑ- bref devant δρ ; -ος bref devant ἄλ- (synaphie). R écrit τ᾽ εἴ τις … ἄλλος αὖ λέληθεν ὤν sur une seule ligne, qui a la forme d'un tétramètre trochaïque catalectique (image, f. 170r, l. 29) ; Coulon et Zimmermann coupent τό-|ποις ἑδραῖος (2tr | tr)."
+    "note": "Trimètre trochaïque ; troisième élément résolu (τα-χὺ : « soluzione anapestica del trocheo », Prato 2001, AM p. 351). πάντ᾽ εἴ- : πάν- long ; ἑ- bref devant δρ ; -ος bref devant ἄλ- (synaphie). R écrit τ᾽ εἴ τις … ἄλλος αὖ λέληθεν ὤν sur une seule ligne, qui a la forme d'un tétramètre trochaïque catalectique (image, f. 170r, l. 29) ; Coulon et Zimmermann coupent τό-|ποις ἑδραῖος (2tr | tr). τόποις : τούτοις en première main de R selon Velsen 1883, p. 49 ; -τού- tomberait sur un anceps : la métrique ne choisit pas."
   },
   {
     "v": 664,
@@ -94,9 +94,9 @@
     "v": 665,
     "v_usuel": "665",
     "partie": "",
-    "schema": "–⏑–⏑ –⏑–⏑ |",
+    "schema": "–⏑–– –⏑–⏑ |",
     "colon": "2tr",
-    "note": "Dimètre trochaïque. δὲ ῥῖψον (Hermann) : δὲ bref, l'initiale ῥ- ne faisant pas position (Zimmermann) ; White le compte long : élément anceps, sans conséquence. R πανταχῆ διάρριψον (image, f. 170r, l. 30) a une syllabe de trop (–⏑–⏑ ––⏑–⏑) : amétrique."
+    "note": "Dimètre trochaïque. δὲ ῥῖψον (Hermann) : δὲ long, ῥ- initial faisant position (White 1912, § 796, qui cite ce vers : une seule exception chez Aristophane, Guêpes 1067 ; schéma de White, § 221 ; West 1987, p. 17). Zimmermann 1987, p. 73, marque δὲ bref ; Prato a une longue parce qu'il imprime δὴ ῥῖψον (Bergk). Élément anceps : le colon ne change pas. R πανταχῆ διάρριψον (image, f. 170r, l. 30) a une syllabe de trop (–⏑–⏑ ––⏑–⏑) : amétrique."
   },
   {
     "v": 666,
@@ -112,7 +112,7 @@
     "partie": "b",
     "schema": "–⏑–⏑ –⏑– ‖",
     "colon": "lec",
-    "note": "Lécythion ; fin de la partie trochaïque (Zimmermann ‖‖ ; 665-666 = six mètres catalectiques). Rangée « suite » : sigle ΧΟ. de trop."
+    "note": "Lécythion ; fin de la partie trochaïque (Zimmermann ||| ; 665-666 = six mètres catalectiques). Rangée « suite » : sigle ΧΟ. de trop."
   },
   {
     "v": 668,
@@ -120,7 +120,7 @@
     "partie": "",
     "schema": "–––– ––⏑⏑⏖ |",
     "colon": "2an",
-    "note": "V. 667 de la numérotation usuelle (texte.tex suit ici Hall–Geldart). Dimètre anapestique à procéleusmatique final (Rogers 1904) : ἢν γὰρ ληφθῇ (quatre longues) | δρά-σᾱ- (ᾱ d'aoriste ; le ς passe à ἀ-) ἀνό- (biceps ⏑⏑) -σια (longum résolu). ληφθῇ (Reisig ; Wilamowitz, Zimmermann, Wilson, l'auteur) ; με λάθῃ (Bergk ; Coulon, Hall–Geldart) donne ––⏑⏑– au premier mètre ; R μὴ λάθῃ (image, f. 170r, l. 32) met un bref isolé au biceps (–– –⏑–) : amétrique. Wilamowitz 1921, p. 590 : με λάθῃ « ist lächerlich », la faute vient de la graphie λημφθῇ. ~ 707 τί ἂν οὖν εἴποι πρὸς ταῦτά τις, ὅτε (⏑⏑––– ––⏑⏑⏖) : même dimètre, même procéleusmatique final. Accent : lire γὰρ (γάρ dans texte.tex, reste du γάρ με de Hall–Geldart)."
+    "note": "V. 667 de la numérotation usuelle (texte.tex suit ici Hall–Geldart). Dimètre anapestique à procéleusmatique final (Rogers 1904) : ἢν γὰρ ληφθῇ (quatre longues) | δρά-σᾱ- (ᾱ d'aoriste ; le ς passe à ἀ-) ἀνό- (biceps ⏑⏑) -σια (longum résolu). ληφθῇ (Reisig ; Wilamowitz, Zimmermann, Wilson, l'auteur) ; με λάθῃ (Bergk ; Coulon, Hall–Geldart) donne ––⏑⏑– au premier mètre ; R μὴ λάθῃ (image, f. 170r, l. 32) laisse un bref isolé entre deux longues (–– –⏑–), ce que l'anapeste n'admet pas : amétrique. Wilamowitz 1921, p. 590 : με λάθῃ « ist lächerlich », la faute vient de la graphie λημφθῇ. ~ 707 τί ἂν οὖν εἴποι πρὸς ταῦτά τις, ὅτε (⏑⏑––– ––⏑⏑⏖) : même dimètre, même procéleusmatique final. Accent : lire γὰρ (γάρ dans texte.tex, reste du γάρ με de Hall–Geldart)."
   },
   {
     "v": "668a",
@@ -136,7 +136,7 @@
     "partie": "",
     "schema": "–––– ⏑⏑–– ‖",
     "colon": "2an∧",
-    "note": "Parémiaque, fin de période (Zimmermann ‖). ἀνδράσιν (Beer selon Wilson et l'auteur ; Bergk selon Coulon, Hall–Geldart, Wilamowitz) : ἀν- long, -δρά-σιν brefs. R ἅπασιν ἅπασιν ἔσται, le second barré (image, f. 170r, l. 34) : ἅπᾱσιν ἔσται donne –––⏑–⏑––, amétrique ; la transposition ἔσται ἅπασιν (Bothe selon White 1912, § 472 ; Hermann, Fritzsche, Enger, Bergk, Blaydes selon Rogers) donne le même parémiaque, avec correption de -ται. ~ 709 κοὔπω μέντοι γε πέπαυμαι (Mnésiloque) : –––– ⏑⏑––, schéma identique, suivi lui aussi d'une fin de période (marquée en 709 par l'hiatus)."
+    "note": "Parémiaque, fin de période (Zimmermann ‖). ἀνδράσιν (Beer selon Wilson et l'auteur ; Bergk selon Coulon, Hall–Geldart, Wilamowitz) : ἀν- long, -δρά-σιν brefs. R ἅπασιν ἅπασιν ἔσται, le second barré (image, f. 170r, l. 34) : ἅπᾱσιν ἔσται donne –––⏑–⏑––, amétrique ; la transposition ἔσται ἅπασιν (Bothe selon White 1912, § 472 ; Hermann, Fritzsche, Enger, Bergk, Blaydes selon Rogers ; imprimée par Prato 2001, p. 74) donne le même parémiaque, avec correption de -ται. ~ 709 κοὔπω μέντοι γε πέπαυμαι (Mnésiloque) : –––– ⏑⏑––, schéma identique, suivi lui aussi d'une fin de période (marquée en 709 par l'hiatus)."
   },
   {
     "v": 670,
@@ -144,7 +144,7 @@
     "partie": "",
     "schema": "⏑⏑–⏑⏑– |",
     "colon": "an",
-    "note": "Monomètre anapestique. παράδειγμ᾽ ὕβρεως : ὕ- bref devant βρ, -εως dissyllabe (⏑–, sans synizèse). Colométrie de l'auteur (= Wilson) : an | 2an ; R (image, f. 170r, l. 35-36), Coulon, Hall–Geldart, Zimmermann et Wilamowitz coupent après ἔργων (2an | an), d'où deux fois « 2an + an » (670-671, 672-673)."
+    "note": "Monomètre anapestique. παράδειγμ᾽ ὕβρεως : ὕ- bref devant βρ, -εως en deux syllabes (⏑–, sans synizèse ; mêmes quantités chez White 1912, § 472, Zimmermann 1987, p. 73, Prato 2001, AM p. 350). C'est l'usage d'Aristophane en anapestes (πόλεως ⏑⏑– : Cav. 763, 796, 1334 ; Lys. 575 ; Gren. 361 ; στάσεως : Cav. 527). En vers iambo-trochaïque, ὕβρεως vaut ⏑– par synizèse (465 ; Ois. 1259 ; Lys. 425 ; Guêpes 1418). Colométrie de l'auteur (= Wilson) : an | 2an ; R (image, f. 170r, l. 35-36), Coulon, Hall–Geldart, Zimmermann et Wilamowitz coupent après ἔργων (2an | an), d'où deux fois « 2an + an » (670-671, 672-673)."
   },
   {
     "v": 671,
@@ -152,7 +152,7 @@
     "partie": "",
     "schema": "⏑⏑––– ⏑⏑–⏑⏑– |",
     "colon": "2an",
-    "note": "Dimètre anapestique ; pause (Zimmermann ⁞). τε τρό- : τε bref. 670-671 (trois mètres) ne répondent pas à 710-711 dans le texte de l'auteur (deux parémiaques : –––– ⏑⏑–– | ––⏑⏑– –––) ; avec ὅθεν οὐ φαύλως | ἀποδρὰς λέξεις (Meineke d'après Reisig ; Wilson), 710-711 = 2an + an, comme 670-671 dans la colométrie de R. Rogers 1904 : lacune d'un dimètre après τρόπων."
+    "note": "Dimètre anapestique ; pause (Zimmermann ⁞). τε τρό- : τε bref. 670-671 (trois mètres) ne répondent pas à 710-711 dans le texte de l'auteur (deux parémiaques : –––– ⏑⏑–– | ––⏑⏑– –––) ; avec ὅθεν οὐ φαύλως | ἀποδρὰς λέξεις (Meineke d'après Reisig ; Wilson), 710-711 = 2an + an, comme 670-671 dans la colométrie de R. Rogers 1904 (note et appendice) : une dipodie anapestique perdue après τρόπων, pour que cette ligne soit, comme 711, un dimètre complet."
   },
   {
     "v": 672,
@@ -176,7 +176,7 @@
     "partie": "",
     "schema": "–⏑–– –⏑–– –⏑– |",
     "colon": "3tr∧",
-    "note": "Trimètre trochaïque catalectique (« 3 tr∧ » Zimmermann, « 3 troch∧ » l'auteur) : le chant passe aux trochées au milieu de la phrase (Sommerstein 1994, p. 197 ; « eine Seltenheit », Wilamowitz 1921, p. 590). ~ 714 τοῦτο μέντοι μὴ γένοιτο μηδαμῶς, ἀπεύχομαι (–⏑–– –⏑–⏑ –⏑–⏑ –⏑–, Mnésiloque) : tétramètre catalectique, un mètre de plus. D'où la lacune marquée après δαίμονας (Meineke, Hall–Geldart ; une dipodie selon Rogers, qui cite δαιμόνων δίκην ἀεί de Velsen), la suppression de ἀπεύχομαι en 714 (Rossbach 1889, p. 173) ou le rattachement de δικαίως τ᾽ à 674 (tétramètre chez White 1912, § 472)."
+    "note": "Trimètre trochaïque catalectique (« 3 tr∧ » Zimmermann, « 3 troch∧ » l'auteur) : le chant passe aux trochées au milieu de la phrase (Sommerstein 1994, p. 197 ; « eine Seltenheit », Wilamowitz 1921, p. 590). ~ 714 τοῦτο μέντοι μὴ γένοιτο μηδαμῶς, ἀπεύχομαι (–⏑–– –⏑–⏑ –⏑–⏑ –⏑–, Mnésiloque) : tétramètre catalectique, un mètre de plus. D'où la lacune marquée après δαίμονας (Meineke, Hall–Geldart ; une dipodie selon Rogers, qui cite δαιμόνων δίκην ἀεί de Velsen), la suppression de ἀπεύχομαι en 714 (Rossbach 1889, p. 172) ou le rattachement de δικαίως τ᾽ à 674 (tétramètre chez White 1912, § 472)."
   },
   {
     "v": 675,
@@ -184,7 +184,7 @@
     "partie": "",
     "schema": "⏑⏑–⏑⏑– ⏖⏖–⏑⏖ |",
     "colon": "an do",
-    "note": "Texte de R entre cruces (l'auteur ; δικαίως τ᾽ ἐφέποντας, image, f. 170r, l. 40). Scansion du texte imprimé : δικαίως avec αι bref devant ω (correption interne : δι-κᾰι-ως, ⏑⏑–), -τας bref devant ὅ- ; d'où an (δικαίως τ᾽ ἐφέπον-) + do à trois résolutions (-τας ὅσια καὶ νόμιμα, ⏖⏖–⏑⏖, premier élément long résolu : forme exceptionnelle). Avec ἐφέπειν (Hermann ; Coulon, Wilson) : an do ⏑⏑–⏑⏑– ⏑⏖–⏑⏖ (« an do » Zimmermann 1987, p. 73) ; « do do ? » Parker (d'après Di Virgilio 2026, n. 46) et l'auteur (« 2 dochm. ? ») ; Wilamowitz 1921, p. 590, restitue δικαίως τε ὅσια ἐφέπειν καὶ νόμιμα pour avoir des dochmiaques. R coupe δικαίως τ᾽ ἐφέποντας | ὅσια καὶ νόμιμα μηδομένους | ποιεῖν ὅ τι καλῶς ἔχει (Di Virgilio, avec ἐφέπειν : an | tr ia | ia tr, sans dochmiaque). ~ 715 τίς οὖν σοι, τίς ἂν σύμμαχος ἐκ θεῶν (⏑––⏑– –⏖–⏑–, 2do). Espace parasite avant la seconde crux dans texte.tex."
+    "note": "Texte de R entre cruces (l'auteur ; δικαίως τ᾽ ἐφέποντας, image, f. 170r, l. 40). Scansion du texte imprimé : δικαίως avec αι bref devant ω (correption interne : δι-κᾰι-ως, ⏑⏑– ; tous les schémas publiés l'admettent, mais δίκαιος ne figure pas parmi les exemples de West 1987, p. 14, ni de White 1912, § 801), -τας bref devant ὅ- ; d'où an (δικαίως τ᾽ ἐφέπον-) + do à trois résolutions (-τας ὅσια καὶ νόμιμα, ⏖⏖–⏑⏖ ; le premier élément, anceps réalisé long, est résolu : forme exceptionnelle, absente du tableau de Parker reproduit par Di Virgilio 2026, p. 97 ; cette seule résolution est déjà rare, ibid., n. 5). Avec ἐφέπειν (Hermann ; Coulon, Wilson, Prato) : ⏑⏑–⏑⏑– ⏑⏖–⏑⏖, soit « an do » Zimmermann 1987, p. 73, « an (= do) do » Prato 2001, AM p. 350-351 (σχῆμα euripidéen), « do do ? » Parker (d'après Di Virgilio 2026, n. 46), « 2 dochm. ? » l'auteur : même suite de quantités, étiquettes différentes. Wilamowitz 1921, p. 590, restitue δικαίως τε ὅσια ἐφέπειν καὶ νόμιμα pour avoir des dochmiaques ; Meineke et Rossbach 1889, p. 172, mettent δικαίως τ᾽ ἐφέποντας entre crochets. R coupe δικαίως τ᾽ ἐφέποντας | ὅσια καὶ νόμιμα μηδομένους | ποιεῖν ὅ τι καλῶς ἔχει (Di Virgilio, avec ἐφέπειν : an | tr ia | ia tr, sans dochmiaque). ~ 715 τίς οὖν σοι, τίς ἂν σύμμαχος ἐκ θεῶν (⏑––⏑– –⏖–⏑–, 2do) : le deuxième do répond (mêmes éléments, ⏖⏖–⏑⏖ ~ –⏖–⏑–) ; le premier mètre est un an face à un do. Espace parasite avant la seconde crux dans texte.tex."
   },
   {
     "v": 676,
@@ -192,7 +192,7 @@
     "partie": "",
     "schema": "–⏖–⏑– ⏑⏖–⏑– |",
     "colon": "2do",
-    "note": "Dimètre dochmiaque : –⏖–⏑– (μηδομένους ποι-) + ⏑⏖–⏑– (-εῖν ὅ τι καλῶς ἔχει). ποι- bref (correption interne ; Coulon écrit ποεῖν). Dochmiaques chez Rossbach 1889, p. 806 (trimètre dochmiaque avec ὅσια καὶ νόμιμα), White 1912, § 472, Zimmermann 1987, p. 74 (« 2 do »), Parker (d'après Di Virgilio), l'auteur (« 2 dochm. ») ; Di Virgilio 2026, n. 41, lit dans la colométrie de R ia tr (ποιεῖν ὅ τι καλῶς ἔχει). Pause (Zimmermann ⁞) : fin de la première partie. ~ 716 ἀθανάτων ἔλθοι ξὺν ἀδίκοις ἔργοις (–⏖––– ⏑⏖–––, ᾱ- allongé) : 2do = 2do."
+    "note": "Dimètre dochmiaque : –⏖–⏑– (μηδομένους ποιεῖν) + ⏑⏖–⏑– (ὅ τι καλῶς ἔχει). ποι- bref (correption interne ; Coulon écrit ποεῖν). Dochmiaques chez Rossbach 1889, p. 806 (trimètre dochmiaque avec ὅσια καὶ νόμιμα), White 1912, § 472, Zimmermann 1987, p. 74 (« 2 do »), Prato 2001, AM p. 350 (« 2 do », son 677), Parker (d'après Di Virgilio), l'auteur (« 2 dochm. ») ; Di Virgilio 2026, n. 41, lit dans la colométrie de R ia tr (ποιεῖν ὅ τι καλῶς ἔχει). Pause (Zimmermann ⁞) : fin de la première partie. ~ 716 ἀθανάτων ἔλθοι ξὺν ἀδίκοις ἔργοις (–⏖––– ⏑⏖–––, ᾱ- allongé) : 2do = 2do, responsion exacte, seul variant le 4e élément de chaque dochmiaque, qui est anceps."
   },
   {
     "v": 677,
@@ -208,7 +208,7 @@
     "partie": "",
     "schema": "––⏑– ––⏑⏖ ⏑– |",
     "colon": "†",
-    "note": "V. 679 usuel. Texte de R entre cruces (ὅσια δρῶν, image, f. 170v, l. 1). Le texte imprimé n'a que dix éléments : ––⏑– ––⏑⏖ ⏑– (ὅ-σι résolu ; -α bref devant δρ), soit un trimètre iambique catalectique auquel manque une longue (« 2 iamb... » l'auteur). ὅσια ‹μὴ› δρῶν (Burges ; Coulon, Zimmermann, Wilson) donne 3ia∧ (… ⏑––), le colon de 677 et de 717 ; ἀνόσιόν τι δρῶν (Hermann ; Hall–Geldart) et οὐκέθ᾽ ὅσια δρῶν (Meineke ; White) donnent 3ia ; ἀνόσια (Zanetti) corrige le sens, non le mètre. τις ὅ- : τι bref. ~ 718 (719 de texte.tex) ἀλλ᾽ οὐ μὰ τὼ θεὼ τάχ᾽ οὐ (––⏑– ⏑–⏑–, 2ia) : pas de responsion."
+    "note": "V. 679 usuel. Texte de R entre cruces (ὅσια δρῶν, image, f. 170v, l. 1). Le texte imprimé n'a que dix éléments : ––⏑– ––⏑⏖ ⏑– (ὅ-σι résolu ; -α bref devant δρ), soit un trimètre iambique catalectique auquel manque un élément (« 2 iamb... » l'auteur) : une longue si -α est bref, une brève s'il est long devant δρ. ὅσια ‹μὴ› δρῶν (Burges ; Coulon, Zimmermann, Wilson) donne 3ia∧ (… ⏑––), le colon de 677 et de 717 ; ἀνόσιόν τι δρῶν (Hermann ; Hall–Geldart) et οὐκέθ᾽ ὅσια δρῶν (Meineke ; White) donnent 3ia ; ‹ἀν›όσια δρῶν (Zanetti ; Prato 2001, p. 74 et 269, AM p. 350) donne aussi 3ia∧ si -α reste long devant δρ (––⏑– ––⏑⏖ ⏑––, « mancata correptio attica », licence que Prato retrouve en 719, ἐνῡβριεῖς) ; avec -α bref, il ne corrige que le sens. τις ὅ- : τι bref. ~ 718 (719 de texte.tex) ἀλλ᾽ οὐ μὰ τὼ θεὼ τάχ᾽ οὐ (––⏑– ⏑–⏑–, 2ia) : pas de responsion."
   },
   {
     "v": 680,
@@ -224,7 +224,7 @@
     "partie": "",
     "schema": "⏑–⏑– ––⏑– ⏑–⏑– |",
     "colon": "3ia",
-    "note": "Trimètre iambique. πος εἴ- : πο bref (le ς passe à εἴ-) ; τι bref devant δρ ; δρῴ- et -η longs. Avec εἴ τι δρῴη (R ; Wilamowitz, Coulon, l'auteur) : 3ia ; sans (Bothe ; Zimmermann, Wilson ; Meineke le met entre crochets) : πος long devant πᾶ-, 2ia. La métrique admet les deux ; la suppression se défend par le sens."
+    "note": "Trimètre iambique. πος εἴ- : πο bref (le ς passe à εἴ-) ; τι bref devant δρ ; δρῴ- et -η longs. Avec εἴ τι δρῴη (R ; Wilamowitz, Coulon, l'auteur) : 3ia ; sans (Bothe ; Zimmermann, Wilson ; Meineke le met entre crochets, avec Enger) : πος long devant πᾶ-, 2ia. La métrique admet les deux ; la suppression se défend par le sens."
   },
   {
     "v": 682,
@@ -232,7 +232,7 @@
     "partie": "",
     "schema": "––⏑– ⏑–⏑– |",
     "colon": "2ia",
-    "note": "V. 682 de Coulon (683 Wilson ; ligne 683 de R). Dimètre iambique. ἔσται (Bothe selon Coulon et Wilson ; Reisig selon Hall–Geldart, Velsen et White) et γυναιξὶ (Brunck) : R ἐστὶν γυναιξὶν (image, f. 170v, l. 5) se scande aussi ––⏑– ––⏑– : correction de sens, non de mètre. βροτοῖς (R, l'auteur) convient à la colométrie iambique ; βροτοῖσιν (Enger ; White, Hall–Geldart, Wilson) suppose la lecture trochaïque πᾶσιν ἐμφανὴς ὁρᾶν ἔσται γυναιξὶ καὶ βροτοῖσιν (tétramètre chez White ; « tro tro | tro tro » Schroeder)."
+    "note": "V. 682 de Coulon (683 Wilson ; ligne 683 de R). Dimètre iambique. ἔσται (Bothe selon Coulon et Wilson ; Reisig selon Hall–Geldart, Velsen et White) et γυναιξὶ (Brunck) : R ἐστὶν γυναιξὶν (image, f. 170v, l. 5) se scande aussi ––⏑– ––⏑– : correction de sens, non de mètre. βροτοῖς (R ; Coulon, Zimmermann, Prato, l'auteur) convient à la colométrie iambique ; βροτοῖσιν (Enger ; White, Hall–Geldart, Wilson) suppose la lecture trochaïque πᾶσιν ἐμφανὴς ὁρᾶν ἔσται γυναιξὶ καὶ βροτοῖσιν (tétramètre chez White ; « tro tro | tro tro » Schroeder)."
   },
   {
     "v": 683,
@@ -248,7 +248,7 @@
     "partie": "",
     "schema": "⏑–⏑⏑– ⏑⏖⏑– ‖",
     "colon": "2ia",
-    "note": "V. 686 de Coulon (685 Wilson et Hall–Geldart). Texte d'Hermann (θεὸς παραχρῆμ᾽ ἀποτίνεται ; R : … θεὸς | ἀποτίνεται | παραχρῆμά τε τίνεται, image, f. 170v, l. 6-8). Avec τῐ bref (τῐ́νω attique, chez les tragiques selon LSJ ; Zimmermann et Di Virgilio scandent de même) et ρα bref devant χρ, le colon n'est un dimètre iambique qu'avec un anapeste au deuxième pied (θεὸς | πα-ρα-χρῆμ᾽ | ἀπο-τι- | νεται), licence du vers parlé : c'est le « 2 ia » de Zimmermann 1987, p. 74 ; Di Virgilio 2026, n. 45, rattache θεός au colon précédent et lit παραχρῆμ᾽ ἀποτίνεται ⏖–⏑⏖⏑–. L'étiquette de l'auteur (« dochm... ») vaut pour θεὸς ἀποτίνεται de R (⏑⏖⏖⏑–, le dochmiaque de Parker) et non pour le texte d'Hermann. Fin du chant (‖)."
+    "note": "V. 686 de Coulon (685 Wilson et Hall–Geldart). Texte d'Hermann (θεὸς παραχρῆμ᾽ ἀποτίνεται ; R : … θεὸς | ἀποτίνεται | παραχρῆμά τε τίνεται, image, f. 170v, l. 6-8). Avec τῐ bref (τῐ́νω attique, chez les tragiques selon LSJ ; Zimmermann et Di Virgilio scandent de même) et ρα bref devant χρ, le colon n'est un dimètre iambique qu'avec un anapeste au deuxième pied (θεὸς | πα-ρα-χρῆμ᾽ | ἀπο-τι- | νεται), licence du vers parlé : c'est le « 2 ia » de Zimmermann 1987, p. 74, et de Prato 2001, AM p. 350-351 (« sostituzione dell'anapesto al giambo », avec renvoi à Esch. Pers. 559, 1038, 1054) ; Di Virgilio 2026, n. 45, rattache θεός au colon précédent et lit παραχρῆμ᾽ ἀποτίνεται ⏖–⏑⏖⏑–. L'étiquette de l'auteur (« dochm... ») vaut pour θεὸς ἀποτίνεται de R (⏑⏖⏖⏑–, le dochmiaque de Parker) et non pour le texte d'Hermann. Fin du chant (‖)."
   },
   {
     "v": 686,

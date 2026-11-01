@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lecture A (lecture directe) de R, f. 164v ; en cours -->
+<page folio="164v" image="05_f164v_classense166v_vv0165-0207.jpg" vers="165-208">
+  <lignes>
+    <l n="1" v="165">αὐτόστε καλὸσ ἦν καὶ καλῶσ ἠμπέσχετο·</l>
+    <l n="2" v="166"><del type="grattage" main="R?"><gap n="2" unite="lettres" raison="grattage"/></del>διατοῦτ᾽ἄρ᾽· αὐτοῦ καὶ καλὰ ἦν τὰ δράματα·</l>
+    <l n="3" v="167">ὅ μοια γὰρ ποιεῖ ν ἀνάγκη τῆι φύσει·</l>
+    <l n="4" v="168,169"><nota main="Rrec">μν<hi rend="sus">η</hi><unclear cert="moyenne">·</unclear></nota>ταῦτ᾽ ἄρ᾽ ὦ φιλοκλῆσ αἰσχρὸσ ὢν αἰσχρῶσποεῖ· <signe type="renvoi" main="R2">×</signe><signe type="renvoi" main="Rrec">—</signe> <add place="mg-g" main="R2"><signe type="renvoi" main="Rrec">—</signe> ὁ δαὖ ξενοκλῆσ ὢν κακὸσ κακῶσ<lb/>ποεῖ·</add></l>
+    <l n="5" v="170">ὁ δαὖ θέο γνισ ψυχρὸσ <add place="dessus" main="R1c">ὼν</add> ψυχρῶσποε<unclear cert="moyenne">ῖ</unclear></l>
+    <l n="6" v="171">ἅπασ·<nota main="Rrec">ἀγ</nota> ἀνάγκη ταῦτα γάρ τοι γνοῦσ εγὼ</l>
+    <l n="7" v="172">ἐμαυτὸν ἐθεράπευσα<nota main="Rrec">μν<hi rend="sus">η</hi></nota><unclear cert="faible">·</unclear> πῶσ πρὸ στῶν θεῶν·</l>
+    <l n="8" v="173"><del type="grattage" main="R?"><gap n="2" unite="lettres" raison="grattage"/></del><nota main="Rrec"><ras main="Rrec">ἀγ</ras>·</nota>παῦσαι βαΰζων· καὶ γὰρ ἐγὼ τοιοῦτοσ ἦν</l>
+    <l n="9" v="174">ὢ ν τηλικοῦτοσ ἡνίκ᾽ ἠρ χό μηνπο εῖν·</l>
+    <l n="10" v="175"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν<hi rend="sus">η</hi></nota>ματὸν δί᾽ οὐζηλῶ σε τῆσ παιδεύσεωσ·</l>
+    <l n="11" v="176">ἀλλ᾽ὧ νπερ οὕνεκ᾽ἦλθον· ἔαμ᾽εἰπεῖν<unclear cert="moyenne">:</unclear><nota main="Rrec">ἀγ·</nota> λέγε·</l>
+    <l n="12" v="177"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν<hi rend="sus">η</hi>·</nota>ἀγάθων σοφοῦ πρὸ σ ἀνδρὸσ· ὅ στισ ἐν βραχεῖ</l>
+    <l n="13" v="178">πολλοὺσ καλῶσ οἷ όντε συντέμνειν λόγουσ· <signe type="repere" main="Rrec" instrument="mine">— 1<unclear cert="moyenne">2</unclear></signe></l>
+    <l n="14" v="179">ἐγὼ δεκοινὴ ξυμφορᾶι πεπληγμένοσ</l>
+    <l n="15" v="180">ἱκέτησ ἀφίγμαι πρὸσσέ<unclear cert="moyenne">:</unclear><nota main="Rrec">ἀγ·</nota> τοῦ χρείαν ἐχων·</l>
+    <l n="16" v="181"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν·</nota>μέλλο υσι μ᾽αἱ γυναῖ κεσ ἀπολεῖ ν τήμερον·</l>
+    <l n="17" v="182">τοῖ σ θεσμο φορίοισ ὅτι καλῶσ αὐτὰσ λέγω·</l>
+    <l n="18" v="183"><unclear cert="faible"><parag/></unclear><nota main="Rrec">ἀγ</nota>τί σ οὖν παρ᾽ ἡ μῶν εστιν ὠφέλει ά σοι·</l>
+    <l n="19" v="184"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν·</nota>ἡ πᾶσα· ἐὰν γὰρ ἐγκαθεζό μενοσλάθρ<unclear cert="faible">ᾶ</unclear>ι·</l>
+    <l n="20" v="185">ἐνταῖσ γυναιξ ὶ ν ὡσδο κῶν εἶναι γυνὴ·</l>
+    <l n="21" v="186">ὑπερ ἀπο κρί νη· μου σαφῶσ σώ σεισ ἐμέ·</l>
+    <l n="22" v="187">μό νο σγὰρ ἂν λέξ ει ασ ἀξ ί ωσ ἐμοῦ·</l>
+    <l n="23" v="188"><nota main="Rrec">ἀγ</nota>ἔπειτα πῶσ οὐκ αὐτὸσ ἀπολογεῖ παρ<unclear cert="moyenne"><subst main="R?"><del type="surcharge">ὼ</del><add place="ligne">ώ</add></subst></unclear>ν</l>
+    <l n="24" v="189"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν·</nota>εγὼ φρ άσω σοι πρῶ τα μὲν γινώσκομαι</l>
+    <l n="25" v="190">ἔπειτα· πολιόσ εἰ μ<subst main="R?"><del type="grattage">ὶ</del><add place="ligne">ι</add></subst> καὶ πώγων᾽ ἔχω·</l>
+    <l n="26" v="191">σὺ δ᾽εὐπρ ό σωπο σλευκὸσ ἐξ υρημενοσ·</l>
+    <l n="27" v="192">γυναικόφωνοσ· ἁπαλόσ· εὐπρεπὴσ ἰδεῖν·</l>
+    <l n="28" v="193"><unclear cert="faible"><parag/></unclear><nota main="Rrec">ἀγ·</nota>εὐριπίδη<nota main="Rrec">εὐ</nota><unclear cert="faible">·</unclear> τί εστιν<nota main="Rrec">ἀγ·</nota> ἐποί ησάσποτε·<add place="ligne" main="Rrec">,</add></l>
+    <l n="29" v="194">χαίρεισ ὁρῶν φῶσ· πατέραδ᾽οὐ χαίρειν δοκεῖσ:</l>
+  </lignes>
+  <scholies/>
+  <notes>
+  </notes>
+</page>

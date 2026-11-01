@@ -1,6 +1,6 @@
 # Ressources documentaires locales (`.sources/drive/`) — synthèse par usage
 
-> **État** (26 octobre 2026, seconde reprise) : document complet (§ 0 à 9). Les fichiers locaux ont été recontrôlés le 26 au soir : aucun nouveau fichier depuis la reprise précédente (les derniers arrivés, Hésychius et Érasme, sont intégrés au § 4), aucun fichier altéré en dehors du cas signalé au § 8.3. Restent ouverts, faute d'accès aux fichiers eux-mêmes, les points marqués [à vérifier] ou [à identifier] (une douzaine, surtout au § 9.2).
+> **État** (26 octobre 2026, seconde reprise ; retouché le 1er novembre 2026 pour Prato 2001 : § 3.1, § 6, § 9) : document complet (§ 0 à 9). Les fichiers locaux ont été recontrôlés le 26 au soir : aucun nouveau fichier depuis la reprise précédente (les derniers arrivés, Hésychius et Érasme, sont intégrés au § 4), aucun fichier altéré en dehors du cas signalé au § 8.3. Restent ouverts, faute d'accès aux fichiers eux-mêmes, les points marqués [à vérifier] ou [à identifier] (une douzaine, surtout au § 9.2).
 
 ## 0. Conventions
 
@@ -15,7 +15,7 @@
 - **Pages.** « p. » = pagination imprimée ; « p. PDF » = rang de la page dans le fichier.
 - **Identification.** Chaque notice a été établie en ouvrant le fichier (page de titre, en-tête d'article, couche texte, rendu d'images). Les noms de fichiers sont souvent trompeurs (voir les cas signalés) : ne pas s'y fier. Ce qui n'a pas pu être contrôlé est marqué **[à vérifier]**.
 - **Doublons.** Une ressource présente en plusieurs exemplaires identiques n'est décrite qu'une fois (« = » signale une copie identique, contrôlée par empreinte ou par taille et contenu).
-- **Intégrité** (contrôle du 26 octobre 2026). Sur les 472 fichiers sélectionnés, 283 sont présents localement ; s'y ajoutent 6 fichiers arrivés après coup (quatre tomes de l'Hésychius de Latte-Hansen-Cunningham, dont un en double, et un EPUB d'Érasme, § 4.1-4.2). Tous ont la taille attendue d'après l'inventaire ; les 159 PDF locaux (14 156 pages) s'ouvrent tous. Un seul fichier est corrompu (contenu entièrement nul) : voir § 8.3. Les 189 fichiers manquants sont recensés au § 9.
+- **Intégrité** (contrôle du 26 octobre 2026). Sur les 472 fichiers sélectionnés, 283 étaient présents localement à cette date (284 avec Prato 2001, § 3.1) ; s'y ajoutent 6 fichiers arrivés après coup (quatre tomes de l'Hésychius de Latte-Hansen-Cunningham, dont un en double, et un EPUB d'Érasme, § 4.1-4.2). Tous ont la taille attendue d'après l'inventaire ; les 159 PDF locaux (14 156 pages) s'ouvrent tous. Un seul fichier est corrompu (contenu entièrement nul) : voir § 8.3. Les 189 fichiers manquants sont recensés au § 9.
 
 ## 1. Étude graphologique du manuscrit
 
@@ -41,10 +41,10 @@ Aucun manuel de paléographie de référence n'est disponible localement (voir �
 - **A. von Velsen, *Aristophanis Thesmophoriazusae*, Leipzig, Teubner, 1883.** — Trois numérisations : `TH/Aristophanis_Thesmophoriazusae Von Velsen 1883.pdf` (97 p.), `TH/Aristophanis_Thesmophoriazusae_von Velsen.pdf` (101 p.), `TH/Von Velsen Aristophanis_Thesmophoriazusae.pdf` (37 vues : autre impression de la même édition, compacte, 28 p. à deux colonnes, sans page de titre ni préface ; la description des sigles R, R² et G, donnée ailleurs dans la préface, ouvre ici l'apparat de la p. 1 ; date non indiquée) [T-]. Apparat double (*adnotatio critica*, *scripturae discrepantia*) fondé sur une collation de R : première source à consulter pour les leçons et corrections de R avant vérification sur l'image.
 - **J. Fr. Boissonade (éd.), *Aristophanes*, t. III (*Poetarum Graecorum sylloge*, t. XXIII), Paris, Lefèvre, 1826** : *Thesmophories*, *Lysistrata*, *Grenouilles*. — `TH/Boissonade comoediaethesmo00boisgoog.pdf` [I] (341 p.). Texte et brèves notes (Austin 1990 en cite une, v. 1059).
 - **Texte TEI de Perseus** d'après F. W. Hall et W. M. Geldart (OCT). — `TH/Perseus_text_1999.01.0041.xml` [S]. Pratique pour les recherches et les alignements ; pas une autorité.
+- **C. Prato (éd.), D. Del Corno (trad.), *Aristofane. Le donne alle Tesmoforie*, Milan, Fondazione Lorenzo Valla – Mondadori, 2001** (LXXXV-372 p.). — Exemplaire complet de travail, non versionné (`.sources/…/Prato_2001_LeDonneAlleTesmoforie.pdf`, 467 p.) [I pour le grec ; T- pour l'italien]. Page imprimée = index pymupdf − 86 = rang dans le fichier − 87. Divergences d'avec Coulon : index 36-39 (p. XXXVI-XXXIX). *Sigla* : index 89. Texte, apparat et traduction : index 90-219 (texte et apparat aux pages paires, p. 8-132 ; traduction aux pages impaires), sans couche texte, rendus à 400 dpi et océrisés (grc+ita ; OCR de travail non versionné). Commentaire : index 221-428 (p. 135-342), couche OCR où le grec est illisible : lire le grec sur l'image. *Appendice metrica* : index 429-442 (p. 343-356). Exploitation : apparat entier relevé dans `edition/donnees/repertoire_critique/prato2001_*.jsonl` (2 142 entrées), divergences dans `edition/donnees/prato2001_divergences_coulon.tsv`, analyses métriques résumées dans `recherche/metrique_structure.md` § 3. Notice complète, numérotation et piège de la référence à Satyros (« 374-5 ») : `recherche/bibliographie_editions.md`, E50.
 - **Éditions commentées dont seul un extrait textuel est disponible** [X] (les PDF n'ont pas été récupérés, § 9.2) :
   - **C. Austin, S. D. Olson, *Aristophanes. Thesmophoriazusae*, Oxford, 2004.** — `D/ravennas/AustinOlson_2004_Thesm_textrep.txt` (deux copies identiques dans `D/textes/` et `D/thesmophories/`) : pages liminaires, préface, abréviations et bibliographie, introduction (§ I-IV, jusque vers p. lxv), quelques fragments traduits de la seconde *Thesmophories*. Ni texte, ni apparat, ni commentaire.
   - **A. H. Sommerstein, *The Comedies of Aristophanes*, vol. 8 : *Thesmophoriazusae*, Warminster, 1994.** — `D/ravennas/Sommerstein_1994_Thesm_textrep.txt` : « Introductory Note », bibliographie choisie, et l'essentiel des notes du commentaire (jusqu'aux vv. 1227-1231). Texte et traduction absents.
-  - **C. Prato (éd.), D. Del Corno (trad.), *Aristofane. Le donne alle Tesmoforie*, Fondazione Lorenzo Valla / Mondadori, 2001.** — `D/ravennas/Prato_2001_LeDonneAlleTesmoforie_textrep.txt` (= `D/textes_metrique/Prato_2001_LeDonAllTes_readcontent.txt`) : quatrième de couverture, introduction (p. XI-XXXIX), *Indicazioni bibliografiche* (p. XLIII-LXXVI). Texte, apparat et commentaire absents.
 - **G. Paduano, *Aristofane. La festa delle donne*, Milan, BUR, 1983** (texte de Coulon avec quelques modifications, traduction, notes) : voir § 6.
 
 ### 3.2 Critique textuelle : études d'ensemble et conjectures anciennes
@@ -161,7 +161,7 @@ Les ouvrages de base (Koster, *Traité de métrique grecque*, 2e éd. ; White, *
 - **S. Halliwell, *Aristophanes. Clouds, Women at the Thesmophoria, Frogs. A Verse Translation, with Introductions and Notes***, Oxford, Oxford University Press, 2015. — `AR/Halliwel Aristophane*.pdf` [T] (395 p.).
 - **G. Paduano, *Aristofane. La festa delle donne***, introduction, traduction et notes, texte grec en regard, Milan, BUR, 1983 (texte grec : Coulon, avec quelques modifications). — `TH/Le donne alle Tesmoforie*.pdf` [T] (le titre réel est *La festa delle donne*).
 - **Th. L. Pangle, traduction anglaise des *Thesmophories*** (document dactylographié, 47 p. ; s. d.). — `TH/Aristophanes_THESMOPORIAZUSAE_a_translat.pdf` [T].
-- **Traductions accessibles seulement par extraits** [X] : van Daele (CUF, jusque vers le v. 780), Sommerstein 1994 (notes de traduction), Del Corno (Prato 2001, introduction seule) : § 3.1.
+- **Traductions accessibles seulement par extraits** [X] : van Daele (CUF, jusque vers le v. 780), Sommerstein 1994 (notes de traduction) : § 3.1. La traduction de Del Corno est désormais lisible en entier dans l'exemplaire complet de Prato 2001 (§ 3.1).
 - **G. Stenger, « Le sacré et le salace : flâneries traductologiques à travers la Bible et quelques passages d'Aristophane et de Martial »** (39 p. ; texte diffusé en ligne par le laboratoire LAMO de l'Université de Nantes, daté de 2010 par les métadonnées du fichier ; publication imprimée non identifiée). — `AR/Le_sacre_et_le_salace*.pdf` [T]. Traduction des passages obscènes.
 - **S. Pagni, c. r. de R. Saetta Cottone, *Aristophane, « Les Thesmophories » ou « La Fête des femmes »*, traduction commentée (Paris, De Boccard, 2016)**, *Lexis* 35 (2017), p. 458-465. — `TH/Recensione_a_Aristophane_Les_Thesmophori.pdf` [T-] (fascicule : couverture et sommaire ; la couche texte du compte rendu est inutilisable, lire l'image). La traduction de Saetta Cottone elle-même n'est pas disponible.
 
@@ -305,9 +305,9 @@ Les fichiers retenus pour l'édition lors de l'inventaire préparatoire (472 : 4
 
 ### 9.1 Bilan
 
-- **189 fichiers manquent** sur 472 (4,86 Go) : 130 de plus de 10 Mo ; 19 entre 6,3 et 10 Mo ; 40 plus légers, à savoir 39 PDF compilés des versions de l'auteur (§ 9.3) et une version HTML océrisée de l'extrait de Wilson (raison de l'échec inconnue).
+- **188 fichiers manquent** sur 472 (4,85 Go) : 130 de plus de 10 Mo ; 18 entre 6,3 et 10 Mo ; 40 plus légers, à savoir 39 PDF compilés des versions de l'auteur (§ 9.3) et une version HTML océrisée de l'extrait de Wilson (raison de l'échec inconnue).
 - **Ce qui manque le plus** (pas de substitut local équivalent) :
-  1. pour le texte et l'apparat : l'édition commentée d'Austin–Olson (2004) et celles de Sommerstein (1994) et de Prato (2001), accessibles seulement par extraits ; le volume complet de la CUF (Coulon) ; l'*editio princeps* de P.Oxy. 3839 et 3840 (P.Oxy. LVI) ; le *Satyros* de Schorn ;
+  1. pour le texte et l'apparat : l'édition commentée d'Austin–Olson (2004) et celle de Sommerstein (1994), accessibles seulement par extraits ; le volume complet de la CUF (Coulon) ; l'*editio princeps* de P.Oxy. 3839 et 3840 (P.Oxy. LVI) ; le *Satyros* de Schorn ;
   2. pour les testimonia : la Souda d'Adler, Photius α-μ de Theodoridis, Hésychius κ-ο (Latte), les *PCG* de Kassel–Austin, les *TrGF* (en particulier le t. V, Euripide), Pollux (Bethe, l. I-V), Eustathe, l'*Etymologicum Gudianum* ;
   3. pour la langue et le commentaire : Taillardat, *Les Images d'Aristophane* ; Henderson, *The Maculate Muse* ; Willi, *The Languages of Aristophanes* ; Chantraine (*DELG*, *Formation des noms*) ; Kühner–Blass ;
   4. pour la graphologie : les manuels de paléographie et d'abréviations (Thompson, Gardthausen, Tsereteli, Oikonomides ; tous, sauf Oikonomides, sont librement accessibles en ligne : § 9.2) et le fac-similé de 1904 ;
@@ -351,7 +351,6 @@ Les fichiers retenus pour l'édition lors de l'inventaire préparatoire (472 : 4
 | V. Coulon, H. van Daele, *Aristophane*, t. IV : *Les Thesmophories. Les Grenouilles* (CUF), volume complet | 10,4 | pages grecques seules et extrait textuel (§ 3.1) |
 | C. Austin, S. D. Olson, *Aristophanes. Thesmophoriazusae*, Oxford, 2004 (texte, apparat, commentaire) | 26,4 | extrait textuel partiel (§ 3.1) |
 | A. H. Sommerstein, *The Comedies of Aristophanes*, vol. 8 : *Thesmophoriazusae*, 1994 (texte, traduction, commentaire) | 7,8 | extrait textuel partiel (§ 3.1) |
-| C. Prato (éd.), D. Del Corno (trad.), *Aristofane. Le donne alle Tesmoforie*, 2001 (texte, apparat, commentaire) | 7,8 | extrait textuel partiel (§ 3.1) |
 | G. Mastromarco, P. Totaro, *Commedie di Aristofane* (Turin, UTET) : vraisemblablement le vol. II (2006 : *Uccelli*, *Lisistrata*, *Tesmoforiazuse*, *Rane* ; introduction, traduction, notes critiques et commentaire, celui des *Tesmoforiazuse* étant de P. Totaro), qui porte les noms des deux éditeurs, le vol. I (1983) étant de G. Mastromarco seul [à vérifier sur le fichier] | 26,2 | — |
 | A. Willems, *Aristophane. Traduction avec notes et commentaires critiques*, 1919, t. I-III | t. I 99,3 ; t. II 88,9 ; t. III 73,7 | exemplaires HathiTrust en accès libre (domaine public aux États-Unis) : `uc1.b4517639` (t. I), `mdp.39015008735469` (t. II), `mdp.39015051095480` (t. III) ; le fonds contient aussi ces trois volumes découpés page par page (654, 604 et 498 fichiers) |
 | A. Willems, notes critiques sur les *Thesmophories* (version océrisée ; ouvrage d'origine [à vérifier]) | 30,1 | — |
@@ -418,7 +417,7 @@ Les fichiers retenus pour l'édition lors de l'inventaire préparatoire (472 : 4
 
 #### (6) Traduction
 
-Aucun fichier propre à cet usage ne manque ; les traductions non récupérées sont dans des volumes déjà listés : A. Willems, 1919 (français) ; Coulon–van Daele, CUF IV (français) ; B. B. Rogers (anglais) ; A. H. Sommerstein, 1994 (anglais) ; C. Prato, D. Del Corno, 2001 (italien) ; G. Mastromarco, P. Totaro (italien).
+Aucun fichier propre à cet usage ne manque ; les traductions non récupérées sont dans des volumes déjà listés : A. Willems, 1919 (français) ; Coulon–van Daele, CUF IV (français) ; B. B. Rogers (anglais) ; A. H. Sommerstein, 1994 (anglais) ; G. Mastromarco, P. Totaro (italien).
 
 #### (7) Commentaire
 

@@ -21,13 +21,18 @@ Pour chaque état distinct : extraction avec l'analyseur de `extraire_travaux.py
    îlots d'au moins 6 mots) présente dans le commentaire actif de 2023 ; les suites non couvertes
    d'au moins 8 mots (ou l'élément entier, s'il est plus court) sont cherchées dans les parties
    commentées (%) des fichiers de 2023 (→ désactivé), dans les autres parties de l'édition
-   (apparat, testimonia, traduction, Introduction, Annexes, Index du Drive → déplacé), puis parmi
-   les commentaires de 2023 par trigrammes (→ reformulé) ; sinon : disparu ;
-3. traduction (vers par vers : seules les traductions nettement différentes sont retenues) et
-   conjectures « Bibi » (conservée, remplacée, désactivée, abandonnée).
+   (apparat, testimonia, traduction, Introduction, Annexes, Index du Drive → déplacé), parmi les
+   commentaires de 2023 par trigrammes ou par mots rares des mêmes vers (→ remanié) ; sinon :
+   disparu ;
+3. traduction (vers par vers : seules les traductions nettement différentes et les remarques entre
+   parenthèses sont retenues), conjectures « Bibi » (conservée, remplacée, désactivée, abandonnée),
+   analyses métriques (notation mise à part).
 Les contenus perdus sont ensuite regroupés d'un état à l'autre (lignées) : chacun n'est recensé
 qu'une fois, sous sa forme la plus récente, avec le premier état qui le contient, le nombre
-d'états où il figure et l'état de la filiation principale dont il est absent.
+d'états où il figure et l'état de la filiation principale dont il est absent ; ce qu'une forme
+ancienne a en propre est recensé à part (rien ne se perd au dédoublonnage). S'y ajoutent les
+parties commentées de 2023 qu'aucun état n'imprime (brouillons, dossiers de travail) et deux
+fichiers hors série (note.txt, texte de présentation).
 
 Méthode d'appariement élément par élément (comparaison avec la référence) :
 - commentaires et notes : inclusion des trigrammes de mots de l'ancien texte dans le texte
@@ -50,6 +55,8 @@ Sorties (edition/donnees/travaux_anterieurs/) :
   comparaison_versions.tsv    une ligne par élément non conservé à l'identique, par état
   contenus_recuperables.tsv   contenus absents de la référence, une ligne par lignée
 
+Contrôle de ce tableau sur les fichiers sources : outils/extraction/verifier_recuperables.py.
+
 Usage : python3 outils/extraction/comparer_versions.py [--depot CHEMIN] [--processus N]
 """
 from __future__ import annotations
@@ -69,7 +76,7 @@ from collections import Counter, defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from extraire_travaux import FICHIERS_2023, extraire  # noqa: E402
-from analyse_latex import Source  # noqa: E402
+from analyse_latex import Source, plage_vers  # noqa: E402
 
 CONSERVE_ABREGE = "conservé (rédaction abrégée ou modifiée)"
 
@@ -155,7 +162,7 @@ ETATS = [
       nature="essai de mise en page", filiation="essai"),
     E("2021-08e5", "août 2021, essai 5", "2021-08", [GCA + "Aristophane-Thesmo aout 2021 test 5.tex"],
       nature="essai de mise en page", filiation="essai"),
-    E("2021-12s", "automne 2021 (sauvegarde)", "2021-10", [GCA + "Aristophane-Thesmo decembre 2021.tex~"],
+    E("2021-12s", "août-décembre 2021 (sauvegarde)", "2021-10", [GCA + "Aristophane-Thesmo decembre 2021.tex~"],
       nature="sauvegarde d'éditeur", filiation="sauvegarde",
       remarque="sauvegarde automatique (« ~ ») de l'état de décembre 2021, très voisine d'août 2021"),
     E("2021-12", "décembre 2021", "2021-12", [GCA + "Aristophane-Thesmo decembre 2021.tex"],
@@ -323,11 +330,23 @@ def nombres(s: str) -> list:
     return re.findall(r"\d+[a-z]?", s or "")
 
 
+# Sigles des états anciens rapportés à ceux de 2023 pour la comparaison (macro \\PsiCinq :
+# « POxy-1176 %P50 » ; les autres d'après les vers couverts : P13 v. 287, P14 v. 743, P68 v. 1187)
+SIGLES_ANCIENS = [(r"\bMu2(?=[ᵃᵖᶜ\b\W]|$)", "M"), (r"\bP13\b", "PSI-1194"), (r"\bP14\b", "POxy-3839"),
+                  (r"\bP68\b", "POxy-3840"), (r"\bP4935\b", "POxy-4935"), (r"\bP50\b", "POxy-1176"),
+                  (r"\bSchol\b\.?", "Σ"), (r"\b[Ss]ch\.(?=[\s,;:)]|$)", "Σ")]
+
+
+def sigles_modernes(s: str) -> str:
+    for motif, rempl in SIGLES_ANCIENS:
+        s = re.sub(motif, rempl, s or "")
+    return s or ""
+
+
 def noms_propres(s: str) -> set:
     """Autorités et sigles : mots latins à majuscule initiale (Brunck, Suid, PSI…) ; R et M
     avec leurs exposants sont ramenés à R et M."""
-    s = re.sub(r"\bR[ᵃᵖᶜ²\^()\w]*", "R ", s or "")
-    s = re.sub(r"\bSchol\b\.?", "Σ", s)      # « Schol. » (2022) = « Σ » (2023)
+    s = re.sub(r"\bR[ᵃᵖᶜ²\^()\w]*", "R ", sigles_modernes(s))
     noms = set(re.findall(r"\b[A-Z][A-Za-zäöüéèëï\-]+|\bR\b|\bM\b|Σ", s))
     return noms - {"Bibi"} | ({"Bibi"} if "Bibi" in s else set())
 
@@ -393,6 +412,15 @@ class Index:
 # Collecte des éléments comparables d'une extraction
 # ---------------------------------------------------------------------------
 
+def plage_groupe(plage: str, g: dict) -> str:
+    """Plage d'un élément, ou à défaut (argument vide ou fautif : « \\ligneApp κάρισος ») vers du
+    groupe, entre crochets."""
+    if re.search(r"\d", plage or "") or not g.get("vers"):
+        return plage
+    a, b = g["vers"]
+    return "[%s]" % a if a == b else "[%s-%s]" % (a, b)
+
+
 def collecter(res: dict, noms_fichiers: dict | None = None) -> dict:
     """Éléments comparables d'une extraction ; chaque élément porte son lieu (fichier abrégé,
     ligne de la source)."""
@@ -408,14 +436,15 @@ def collecter(res: dict, noms_fichiers: dict | None = None) -> dict:
         for cote in ("grec", "francais"):
             for c in g[cote]["commentaires"]:
                 f, l = lieu(g, c)
-                out["commentaire"].append({"id": c["id"], "plage": c["plage"], "lemme": c["lemme"],
+                c_plage = plage_groupe(c["plage"], g)
+                out["commentaire"].append({"id": c["id"], "plage": c_plage, "lemme": c["lemme"],
                                            "texte": c["texte"], "groupe": g["id"], "cote": cote,
                                            "fichier": f, "ligne": l,
                                            "complet": " ".join([c["texte"]] + [x["texte"] for x in
                                                                                c.get("desactive_interne") or []])})
                 for n in c["notes"]:
                     fn, ln = lieu(g, n)
-                    out["note"].append({"id": n["id"], "plage": c["plage"], "numero": n["numero"],
+                    out["note"].append({"id": n["id"], "plage": c_plage, "numero": n["numero"],
                                         "texte": n["texte"], "commentaire": c["id"], "groupe": g["id"],
                                         "cote": cote, "fichier": fn, "ligne": ln,
                                         "complet": " ".join([n["texte"]] + [x["texte"] for x in
@@ -448,7 +477,7 @@ def collecter(res: dict, noms_fichiers: dict | None = None) -> dict:
                 if t:
                     txt = d.get("texte", "")
                     if d["type"] == "commentaire" and d.get("args"):
-                        txt = " ".join(d["args"][1:])
+                        txt = detex(" ".join(d["args"][1:]))
                     plage = d["args"][0] if d.get("args") else ""
                     if d["type"] == "note" and g.get("vers"):
                         # l'argument d'une \note est son numéro : on prend les vers du groupe
@@ -466,7 +495,9 @@ def collecter(res: dict, noms_fichiers: dict | None = None) -> dict:
                         # dernière leçon sans autorité ni \lecon : proposition de l'auteur non signée
                         # (« … Ellebodius : (Κλεισθ.) (642-3) », nov. 2022)
                         retenues = e["lecons"][-1]["lecon"]
-                    out["apparat"].append({"id": a["id"], "vers": sgm["vers"], "debut": sgm["debut"],
+                    out["apparat"].append({"id": a["id"], "vers": plage_groupe(sgm["vers"], g),
+                                           "debut": sgm["debut"] if sgm["debut"] is not None
+                                           else premier_vers(plage_groupe(sgm["vers"], g)),
                                            "texte": e["texte"], "lemme": lem, "autres": autres,
                                            "retenues": retenues, "groupe": g["id"], "fichier": f, "ligne": l,
                                            "lecons": [(l_["lecon"], l_["attribution"] or "") for l_ in e["lecons"]]})
@@ -480,6 +511,8 @@ def collecter(res: dict, noms_fichiers: dict | None = None) -> dict:
             if l_["vers"] is not None:
                 out["grec"].setdefault(l_["vers"], []).append(l_["texte"])
                 out["lieu_grec"].setdefault(l_["vers"], lieu(g, l_))
+                if l_.get("metre"):
+                    out.setdefault("metres", {}).setdefault(l_["vers"], []).append(l_["metre"])
                 out.setdefault("personnages", {}).setdefault(l_["vers"], []).append(l_["personnage"] or "∅")
         for l_ in g["francais"]["lignes"]:
             if l_["vers"] is not None:
@@ -673,7 +706,7 @@ def comparer_apparat(A, R, dans_plage, res):
         aut = noms_propres(e["texte"]) - {"R"}
         cands = [x for d in range(-2, 3) for x in par_vers.get((e["debut"] or -99) + d, [])]
         best, sc, detail = None, 0.0, ""
-        sa = bardeaux(e["texte"], 2)
+        sa = bardeaux(sigles_modernes(e["texte"]), 2)
         for c in cands:
             v_txt = inclusion(sa, bardeaux(c["texte"], 2))
             l2 = set(mots_grecs(c["lemme"]))
@@ -689,9 +722,17 @@ def comparer_apparat(A, R, dans_plage, res):
                 best, sc = c, v
                 detail = "texte" if v == v_txt else "lemme+autorités"
         if sc < 0.8:
-            m, v = idx_tout.meilleur(e["texte"])
+            m, v = idx_tout.meilleur(sigles_modernes(e["texte"]))
             if m is not None and v > sc and v >= 0.8:
                 best, sc, detail = m, v, "texte (autre vers)"
+        if sc < 0.5 and aut and (not lem or re.match(r"\s*suppl\b", e["texte"])):
+            # entrée sans leçon grecque (« suppl. Bentley ») : le même critique dans une entrée du
+            # vers (± 1) ; 2023 rédige en toutes lettres (« καὶ δεῦρο πάλιν R : καὶ δεῦρο καὶ
+            # πάλιν Bentley »)
+            for c in cands:
+                if abs((c["debut"] or -99) - (e["debut"] or 0)) <= 1 and aut <= (noms_propres(c["texte"]) - {"R"}):
+                    best, sc, detail = c, 0.5, "autorités (rédaction développée)"
+                    break
         if sc < 0.5 and aut:
             # notation récrite (« εἰσέφερε Rᵃᶜ : ἥ ἔφερε Rᵖᶜ (cum η supra ει scripto…) » devenu
             # « εἰ^(η)⟦σ⟧έφερε Rᵖᶜ ») : mêmes autorités et une même leçon variante
@@ -837,7 +878,12 @@ def comparer_grec(A, R, plage_ancien, res):
         fen = [w for w in (v - 1, v, v + 1)]
         ua = "".join(lettres(" ".join(A["grec"].get(w, []))) for w in fen)
         ub = "".join(lettres(" ".join(R["grec"].get(w, []))) for w in fen)
-        if nature_difference(a, b) == "mots" and ua == ub:
+        # plus largement (colométrie différente, surtout dans les parties lyriques) : le texte de
+        # chaque version se lit à la suite dans les vers voisins (± 3) de l'autre, sans mot changé
+        la, lb = lettres(" ".join(A["grec"][v])), lettres(" ".join(R["grec"][v]))
+        fa = "".join(lettres(" ".join(A["grec"].get(w, []))) for w in range(v - 3, v + 4))
+        fb = "".join(lettres(" ".join(R["grec"].get(w, []))) for w in range(v - 3, v + 4))
+        if nature_difference(a, b) == "mots" and (ua == ub or (la != lb and la in fb and lb in fa)):
             nat = "répartition des lignes entre vers voisins"
             absorbes.update(w for w in fen if w not in R["grec"] or w not in A["grec"])
             diffs.append({"vers": v, "ancien": a, "recent": b, "nature": nat, "differences": ""})
@@ -904,12 +950,53 @@ def comparer_personnages(A, R, res):
     res["stats"]["personnages_blocs"] = len(blocs)
 
 
+def metre_canonique(m: str) -> str:
+    """Notation des mètres ramenée à une forme commune (« trim. iamb. » = « 3 ia. », « ion. min.
+    cat. » = « io. min^ », « anaclast. » = « anacl. ») : seules comptent les différences d'analyse."""
+    m = re.sub(r"\s+", " ", m or "").strip().lower()
+    for a, b in ((r"\bion?\.? ?min\.?|\bio\.? ?mi\.?|\bio\.? ?m\b\.?", "io"), (r"\biamb\.?|\bia\.?", "ia"),
+                 (r"\btroch\.?|\btr\.", "tr"), (r"anaclast\.?|anacl\.?", "anacl"), (r"\bcat\.?", "^"),
+                 (r"\bparoem\.?|\bpar\.", "par"), (r"\blecyth\.?|\blec\.?", "lec"),
+                 (r"\bchoriamb\.?|\bchoria\.?|\bchor\.?", "cho"), (r"\btetram\.?|\btetr\.?", "4"), (r"\btrim\.?", "3"),
+                 (r"\bdim\.?", "2"), (r"\bdact\.?", "da"), (r"\bcret\.?", "cr"), (r"\bbacch\.?", "ba"),
+                 (r"\banap\.?", "an"), (r"[\s.]+", "")):
+        m = re.sub(a, b, m)
+    return m
+
+
+def comparer_metres(A, R, res):
+    """Analyses métriques (\\typeVers) différentes de 2023, notation mise à part."""
+    MA, MR = A.get("metres", {}), R.get("metres", {})
+    diffs = []
+    for v in sorted(MA):
+        a = [metre_canonique(x) for x in MA[v]]
+        b = [metre_canonique(x) for x in MR.get(v, [])]
+        if a != b and not (set(a) <= {metre_canonique(x) for w in (v - 1, v, v + 1) for x in MR.get(w, [])}):
+            diffs.append({"vers": v, "ancien": " / ".join(MA[v]), "recent": " / ".join(MR.get(v, [])) or "∅"})
+    res["metres"] = diffs
+    res["stats"]["metres_differents"] = len(diffs)
+
+
 SEUIL_TRAD = 0.75        # traduction « nettement différente » : ressemblance des mots < 0.75
 
 
 def mots_fr(s: str) -> list:
     """Mots d'une ligne de traduction, sans les mots grecs (citations, restes de balisage)."""
-    return [m for m in mots(s) if not re.match(r"[α-ωϊϋ]", m)]
+    return [m for m in mots((s or "").replace("œ", "oe").replace("Œ", "Oe")) if not re.match(r"[α-ωϊϋ]", m)]
+
+
+def lue_a_cote(wa: list, RF: dict, v: int, fenetre: int = 8) -> bool:
+    """La ligne ancienne se lit-elle, à la suite, dans la traduction de 2023 à quelques vers de
+    distance (colométrie ou numérotation différente des parties lyriques) ? Blocs d'au moins deux
+    mots, ou bloc entier pour les lignes très courtes."""
+    large = mots_fr(" ".join(" ".join(RF.get(w, [])) for w in range(v - fenetre, v + fenetre + 1)))
+    if not large:
+        return False
+    sm = difflib.SequenceMatcher(None, wa, large, autojunk=False)
+    blocs = sm.get_matching_blocks()
+    if len(wa) <= 3:
+        return any(t.size == len(wa) for t in blocs)
+    return sum(t.size for t in blocs if t.size >= 2) / len(wa) >= SEUIL_TRAD
 
 
 def comparer_traduction(A, R, res, plage=None):
@@ -926,9 +1013,18 @@ def comparer_traduction(A, R, res, plage=None):
         wa = mots_fr(a)
         if not wa:
             continue
+        # didascalies et remarques de travail entre parenthèses (« Chez W., à Mn. : … »)
+        for m in re.finditer(r"\(([^()]{8,})\)", a):
+            wi = mots_fr(m.group(1))
+            voisins = mots_fr(" ".join(" ".join(RF.get(w, [])) for w in range(v - 3, v + 4)))
+            lue = sum(t.size for t in difflib.SequenceMatcher(None, wi, voisins, autojunk=False).get_matching_blocks())
+            if len(wi) >= 3 and lue / len(wi) < 0.6:
+                f, l = A["lieu_francais"].get(v, (None, None))
+                out.append({"vers": v, "ancien": m.group(1), "recent": " ".join(RF.get(v, [])),
+                            "ratio": None, "statut": "remarque ou didascalie absente en 2023", "fichier": f, "ligne": l})
         if v not in RF:
             fen = " ".join(" ".join(RF.get(w, [])) for w in (v - 1, v + 1))
-            if inclusion(set(wa), set(mots_fr(fen))) >= 0.8:
+            if inclusion(set(wa), set(mots_fr(fen))) >= 0.8 or lue_a_cote(wa, RF, v):
                 st["répartie autrement"] += 1
                 continue
             st["absente de 2023"] += 1
@@ -948,7 +1044,7 @@ def comparer_traduction(A, R, res, plage=None):
         large = mots_fr(" ".join(" ".join(RF.get(w, [])) for w in (v - 1, v, v + 1)))
         sm = difflib.SequenceMatcher(None, wa, large, autojunk=False)
         couverts = sum(t.size for t in sm.get_matching_blocks())
-        if couverts / len(wa) >= SEUIL_TRAD:
+        if couverts / len(wa) >= SEUIL_TRAD or lue_a_cote(wa, RF, v):
             st["répartie autrement"] += 1
             continue
         st["différente"] += 1
@@ -968,11 +1064,11 @@ def lecon_bibi(e: dict) -> str:
 
 
 def formes_bibi(s: str) -> list:
-    """Mots grecs sans diacritiques, casse conservée (Χελιδών ≠ χελιδών), trait d'abréviation
-    final gardé (« Μύρμ- »)."""
+    """Mots grecs sans diacritiques, casse conservée (Χελιδών ≠ χελιδών), marque d'abréviation
+    finale gardée (« Μύρμ- », « ἀθ. »)."""
     s = sans_diacritiques(s).replace("ς", "σ")
     s = re.sub(r"[᾽᾿ʼ’'ʹʹ΄`´]", " ", s)          # élisions et apostrophes de toute forme
-    return re.findall(r"[Ͱ-Ͽἀ-῿]+-?", s)
+    return re.findall(r"[Ͱ-Ͽἀ-῿]+[-.]?", s)
 
 
 def meme_lecon(a: str, b: str) -> bool:
@@ -981,13 +1077,20 @@ def meme_lecon(a: str, b: str) -> bool:
         return normaliser(a) == normaliser(b)
 
     def couvert(x, ys):
-        xs = x.rstrip("-")
+        xs = x.rstrip("-.")
         for y in ys:
-            ys_ = y.rstrip("-")
-            if xs == ys_ or (x.endswith("-") and ys_.startswith(xs)) or (y.endswith("-") and xs.startswith(ys_)):
+            ys_ = y.rstrip("-.")
+            if xs == ys_ or (x[-1] in "-." and ys_.startswith(xs)) or (y[-1] in "-." and xs.startswith(ys_)):
                 return True
         return False
     return sum(1 for x in A_ if couvert(x, B_)) / len(A_) >= 0.8
+
+
+def graphie_retouchee(a: str, b: str) -> bool:
+    """Même conjecture, majuscule ou faute de frappe mise à part (« Μόρος ἐξελ᾽ ἄχος » / « μόρος
+    ἔξελ᾽ ἄχος », « πλήξασασ᾿ αὕτη » / « πλήξασ᾿ αὕτη »)."""
+    x, y = " ".join(formes_bibi(a.lower())), " ".join(formes_bibi(b.lower()))
+    return bool(x and y) and difflib.SequenceMatcher(None, x, y, autojunk=False).ratio() >= 0.88
 
 
 def lemmes_proches(a: dict, b: dict) -> bool:
@@ -1028,6 +1131,9 @@ def comparer_bibi(A, R, res):
             cands = [x for x in rb.get(v, []) if not mots_grecs(x.get("lemme", ""), 1)]
         if any(meme_lecon(lec, lecon_bibi(x)) for x in cands):
             st["conservée"] += 1
+            continue
+        if any(graphie_retouchee(lec, lecon_bibi(x)) for x in cands):
+            st["conservée (graphie retouchée)"] += 1
             continue
         grec23 = formes_bibi(" ".join(R["grec"].get(v, [])))
         fl = [x.rstrip("-") for x in formes_bibi(lec)]
@@ -1093,7 +1199,7 @@ def renumeroter(A: dict, carte: dict) -> dict:
     if not carte:
         return A
     B = dict(A)
-    for k in ("grec", "francais", "personnages"):
+    for k in ("grec", "francais", "personnages", "metres"):
         d = {}
         for v in sorted(A.get(k, {})):
             d.setdefault(carte.get(v, v), []).extend(A[k][v])
@@ -1137,6 +1243,7 @@ def comparer(A: dict, R: dict, nom: str, plage_ancien=None, plage_recent=None) -
     A2 = renumeroter(A, carte)
     comparer_grec(A2, R, plage_ancien, res)
     comparer_personnages(A2, R, res)
+    comparer_metres(A2, R, res)
     res["_A2"] = A2
     # lieux (fichier, ligne) des éléments anciens
     for e in res["elements"]:
@@ -1246,6 +1353,27 @@ def texte_actif_fichier(chemin: str) -> tuple:
     return actif, comms
 
 
+MOTS_VIDES = set("""dans pour avec cette comme mais plus sans sont être fait faire aussi encore très
+bien tout tous toute toutes autre autres même mêmes leur leurs nous vous elle elles avoir était
+étaient quand alors ainsi donc entre après avant depuis sous vers chez dont ceux celle celui ceci
+cela peut peuvent semble doit tant quelque aucun aucune notre votre parce lorsque contre selon sens
+texte passage note voir""".split())
+SEUIL_REMANIE = 0.75     # part des mots rares d'un passage retrouvés dans le commentaire de 2023
+RARES_MIN = 5            # des mêmes vers (± 3) : au-dessus, le passage est « remanié », non « disparu »
+
+
+def mots_rares(t: str) -> set:
+    """Mots porteurs de sens d'un passage : mots français d'au moins 5 lettres, mots grecs d'au
+    moins 4 lettres, nombres d'au moins 2 chiffres (renvois)."""
+    return {x for x in mots(t) if (len(x) >= 5 and x not in MOTS_VIDES)
+            or (len(x) >= 4 and re.match(r"[α-ω]", x)) or (x.isdigit() and len(x) >= 2)}
+
+
+def bornes(plage) -> tuple:
+    a, b = plage_vers(re.sub(r"[\[\]]", "", str(plage or "")))
+    return a, b if b is not None else a
+
+
 class Reference:
     """Corpus de référence (2023) pour la recherche des passages perdus."""
 
@@ -1253,6 +1381,16 @@ class Reference:
         self.actifs = R["commentaire"] + R["note"]
         self.act = Couverture(x["texte"] for x in self.actifs)
         self.idx = Index(self.actifs)
+        # « articles » : commentaire et ses notes, avec leurs bornes
+        notes_de = defaultdict(list)
+        for n in R["note"]:
+            notes_de[n["commentaire"]].append(n["texte"])
+        self.articles = []
+        for c in R["commentaire"]:
+            a, b = bornes(c["plage"])
+            if a is not None:
+                self.articles.append({"id": c["id"], "plage": c["plage"], "a": a, "b": b,
+                                      "rares": mots_rares(" ".join([c["texte"]] + notes_de[c["id"]]))})
         des = [x["texte"] for k in ("commentaire_desactive", "note_desactivee", "apparat_desactive",
                                     "testimonia_desactive") for x in R[k]]
         for rel in FICHIERS_2023:
@@ -1263,12 +1401,56 @@ class Reference:
             "testimonia": Couverture(x["texte"] for x in R["testimonia"]),
             "traduction": Couverture(" ".join(t) for t in R["francais"].values()),
         }
+        self.autres["autre partie du corps"] = Couverture(
+            texte_actif_fichier(os.path.join(depot, rel))[0] for rel in FICHIERS_2023)
         for cle, nom, drive, _ in INTRO_ANNEXES:
             p = os.path.join(depot, drive)
             if os.path.exists(p):
                 a, c = texte_actif_fichier(p)
                 self.autres[nom] = Couverture([a])
                 self.des.ajouter(c)
+
+
+    def article_proche(self, texte: str, plage) -> tuple:
+        """Article de 2023 sur les mêmes vers (± 3) qui reprend le plus de mots rares du passage :
+        (article, part des mots rares, nombre de mots rares)."""
+        a, b = bornes(plage)
+        rares = mots_rares(texte)
+        best, sc = None, 0.0
+        if a is not None and rares:
+            for art in self.articles:
+                if art["a"] - 3 <= b and a <= art["b"] + 3:
+                    x = len(rares & art["rares"]) / len(rares)
+                    if x > sc:
+                        best, sc = art, x
+        return best, sc, len(rares)
+
+
+class Pointeur:
+    """Lieu (fichier, ligne) des parties commentées (%) des fichiers de 2023 : pour réactiver un
+    contenu désactivé, il suffit de lever le % à cette ligne."""
+
+    def __init__(self, depot: str):
+        self.inv = defaultdict(list)
+        for rel in FICHIERS_2023:
+            src = Source(os.path.join(depot, rel))
+            nom = re.sub(r"^.*Harmattan 2023 ", "", os.path.basename(rel)).replace(".tex", "")
+            for c in src.commentaires:
+                w = [j[0] for j in jetons(detex(c.texte))[1]]
+                ln = src.ligne_orig(c.debut)
+                for i in range(len(w) - 2):
+                    self.inv[tuple(w[i:i + 3])].append((nom, ln))
+
+    def lieu(self, texte: str):
+        w = [j[0] for j in jetons(texte)[1]]
+        c = Counter()
+        for i in range(len(w) - 2):
+            for x in set(self.inv.get(tuple(w[i:i + 3]), ())):
+                c[x] += 1
+        if not c:
+            return None
+        (nom, ln), _ = min(c.items(), key=lambda kv: (-kv[1], kv[0]))
+        return "commenté en 2023 : %s, l. %d" % (nom, ln)
 
 
 def passages_perdus(A: dict, REF: Reference, etat: str) -> list:
@@ -1306,16 +1488,25 @@ def passages_perdus(A: dict, REF: Reference, etat: str) -> list:
                         best, part = nom, p
                 if part >= 0.6:
                     st_ = "déplacé en 2023 (%s)" % best
+            frag = t[js[i][1]:js[j - 1][2]]
             if st_ is None:
-                frag = t[js[i][1]:js[j - 1][2]]
                 m, sc = REF.idx.meilleur(frag)
                 if m is not None and sc >= 0.5 and j - i >= 4:
-                    st_ = "reformulé en 2023"
-                    proche = "%s %s" % (m["id"], m["plage"])
-            if st_ is None:
-                st_ = "disparu"
-            elif deja_desactive:
+                    st_ = "remanié en 2023"
+                    proche = "%s (%s) : %d %% des suites de mots" % (m["id"], m["plage"], round(100 * sc))
+            if st_ is not None and deja_desactive:
                 continue          # contenu commenté dans l'état ancien, repris ailleurs en 2023
+            if st_ is None:
+                # mêmes mots rares dans le commentaire de 2023 sur ces vers, rédaction différente
+                art, part, nb = REF.article_proche(frag, e.get("plage"))
+                if art is not None and part >= SEUIL_REMANIE and nb >= RARES_MIN:
+                    st_ = "remanié en 2023"
+                    proche = "%s (%s) : %d %% des mots rares" % (art["id"], art["plage"], round(100 * part))
+                else:
+                    st_ = "disparu"
+                    if art is not None and part >= 0.3:
+                        proche = "commentaire de 2023 sur ces vers : %s (%s), %d %% des mots rares" % (
+                            art["id"], art["plage"], round(100 * part))
             groupes[st_].append((i, j, proche))
         couverts_tot = sum(cov) / n
         for st_, lst in groupes.items():
@@ -1390,7 +1581,11 @@ def analyser_etat(cle: str) -> dict:
         c["elements"] = [x for x in c["elements"]
                          if x["type"] not in ("texte_grec", "personnage")
                          or (premier_vers(x["plage"]) or 0) >= plage[0]]
-    comparer_traduction(c.pop("_A2"), R, c, plage)
+        c["texte_grec"]["differences"] = [d for d in c["texte_grec"]["differences"] if d["vers"] >= plage[0]]
+        c["metres"] = [d for d in c["metres"] if d["vers"] >= plage[0]]
+    A2 = c.pop("_A2")
+    res["lieux_grec"] = A2.get("lieu_grec", {})
+    comparer_traduction(A2, R, c, plage)
     comparer_bibi(A, R, c)
     res["comparaison"] = c
     res["passages"] = passages_perdus(A, _W["REF"], cle)
@@ -1443,6 +1638,12 @@ def items_de(res: dict) -> list:
                         "statut": "attribution abandonnée", "proche": "2023 : " + x["extrait"].split(" → ")[-1],
                         "fichier": x.get("fichier"), "ligne": x.get("ligne"), "etat": cle,
                         "cle_exacte": (x["plage"], x["extrait"]), "note": note_num(premier_vers(x["plage"]))})
+    for d in c["metres"]:
+        f, l = PREMIER_LIEU.get((cle, d["vers"]), (None, None))
+        out.append({"famille": "metre", "type": "analyse métrique", "vers": str(d["vers"]), "v0": d["vers"],
+                    "extrait": d["ancien"], "statut": "analyse métrique abandonnée", "proche": "2023 : " + d["recent"],
+                    "fichier": f, "ligne": l, "etat": cle,
+                    "cle_exacte": (d["vers"], metre_canonique(d["ancien"]))})
     for t in c["traduction"]["elements"]:
         f, l = PREMIER_LIEU_FR.get((cle, t["vers"]), (None, None))
         out.append({"famille": "trad", "type": "traduction", "vers": str(t["vers"]), "v0": t["vers"],
@@ -1454,7 +1655,10 @@ def items_de(res: dict) -> list:
         out.append({"famille": "bibi", "type": "conjecture « Bibi »", "vers": b["vers"], "v0": b["debut"],
                     "extrait": b["texte"], "statut": b["statut"], "proche": "2023 : " + court(b["recent"], 200),
                     "fichier": b.get("fichier"), "ligne": b.get("ligne"), "etat": cle,
-                    "cle_exacte": (b["debut"], normaliser(b["lecon"]))})
+                    "cle_exacte": (b["debut"], " ".join(formes_bibi(b["lecon"].lower())[:6])
+                                   or " ".join(formes_bibi(b["texte"].lower())[:4]) or normaliser(b["lecon"]))})
+    for it in out:
+        corriger_plage(it)
     return out
 
 
@@ -1467,27 +1671,64 @@ STATUTS_COMPTES = {"différent (ponctuation)", "différent (découpage (antilab�
 FENETRE = {"comm": 3, "apparat": 2, "testimonia": 2, "trad": 0}
 
 
+def corriger_plage(it: dict):
+    """Plages fautives des états de mars 2020 : le dossier στωμύλα μένη (vv. 1073-1075) y est
+    numéroté 173-5, 173 et 174. Le contenu est rapporté aux vers véritables."""
+    if it["v0"] in (173, 174) and "στωμ" in normaliser(it.get("extrait", "")):
+        ancien = it["vers"]
+        it["vers"] = str(it["vers"]).replace("173", "1073").replace("174", "1074")
+        it["v0"] += 900
+        it["note"] = "plage saisie « %s » dans cet état (lapsus pour %s)" % (ancien, it["vers"])
+        if "cle_exacte" in it:
+            it["cle_exacte"] = (it["v0"],) + tuple(it["cle_exacte"][1:])
+
+
+def residus(it: dict, couverture: Couverture) -> list:
+    """Parts d'un contenu rattaché à une lignée qui ne se lisent dans aucun contenu déjà recensé
+    (au plus 25 % du texte, le seuil d'inclusion le permettant) : elles sont recensées à part, pour
+    que rien ne soit perdu en dédoublonnant."""
+    t, js = jetons(it["texte_cle"])
+    w = [j[0] for j in js]
+    out = []
+    for i, j in lacunes(couverture.masque(w), PASSAGE_MIN):
+        frag = t[js[i][1]:js[j - 1][2]]
+        stat = it["statut"].split(" — ")[0]
+        stat += " — passage(s)" if stat.startswith("disparu (déjà") else " — passage(s) d'un élément conservé en partie"
+        out.append(dict(it, extrait="[…] %s […]" % frag, texte_cle=frag, sig=bardeaux(frag), mots=j - i,
+                        statut=stat, note="partie propre à la forme ancienne d'un passage recensé par ailleurs"))
+    return out
+
+
 def regrouper(items: list) -> list:
     """Lignées : du plus récent au plus ancien état, chaque contenu est rattaché à une lignée
     existante (même famille, vers voisins, texte inclus à 75-85 % dans celui de la lignée, ou clé
-    identique) ; sinon il en ouvre une nouvelle, dont il est le représentant."""
+    identique) ; sinon il en ouvre une nouvelle, dont il est le représentant. Ce qu'un contenu
+    rattaché a en propre (commentaire et notes) forme une lignée à part (résidu)."""
     # représentant : forme la plus récente dans la filiation principale ; à défaut, dans un
     # essai, une variante, une sauvegarde ou la branche A
     items = sorted(items, key=lambda x: (not est_principal(x["etat"]), -RANG[x["etat"]]))
     lignees = []
     seaux = defaultdict(list)
     exactes = {}
+    deja = Couverture()      # texte du commentaire et des notes déjà recensé
+
+    def ouvrir(it: dict) -> dict:
+        lg = {"rep": it, "etats": {it["etat"]}, "residus": []}
+        lignees.append(lg)
+        seaux[(it["famille"], it["v0"] if it["v0"] is not None else -1)].append(lg)
+        if it["famille"] == "comm":
+            deja.ajouter(it["texte_cle"])
+        return lg
+
     for it in items:
         fam = it["famille"]
         if "cle_exacte" in it:
             k = (fam, it["cle_exacte"])
             if k in exactes:
-                lg = exactes[k]
-                lg["etats"].add(it["etat"])
-                continue
-            lg = {"rep": it, "etats": {it["etat"]}}
-            exactes[k] = lg
-            lignees.append(lg)
+                exactes[k]["etats"].add(it["etat"])
+            else:
+                exactes[k] = {"rep": it, "etats": {it["etat"]}}
+                lignees.append(exactes[k])
             continue
         v0 = it["v0"] if it["v0"] is not None else -1
         best, sc = None, 0.0
@@ -1499,10 +1740,14 @@ def regrouper(items: list) -> list:
                     best, sc = lg, x
         if best is not None and sc >= SEUIL_LIGNEE[fam]:
             best["etats"].add(it["etat"])
+            if fam == "comm":
+                for r in best["residus"]:
+                    if inclusion(r["rep"]["sig"], it["sig"]) >= SEUIL_LIGNEE[fam]:
+                        r["etats"].add(it["etat"])
+                for rs in residus(it, deja):
+                    best["residus"].append(ouvrir(rs))
             continue
-        lg = {"rep": it, "etats": {it["etat"]}}
-        lignees.append(lg)
-        seaux[(fam, v0)].append(lg)
+        ouvrir(it)
     return lignees
 
 
@@ -1522,8 +1767,30 @@ def suivant_principal(cle: str):
 
 
 ORDRE_TYPES = ["commentaire", "note", "commentaire (désactivé dans l'état)", "note (désactivé dans l'état)",
-               "conjecture « Bibi »", "apparat", "testimonium", "texte grec", "attribution", "traduction",
-               "introduction", "annexes", "index"]
+               "brouillon commenté (2023)", "conjecture « Bibi »", "apparat", "testimonium", "texte grec", "attribution", "analyse métrique",
+               "traduction", "introduction", "annexes", "index"]
+POINTEUR = []           # Pointeur (construit dans main)
+
+
+RE_WILLEMS = re.compile(r"Bull\. (?:cité|Acad)|Note (?:de|d['’]Alphonse) Willems|, ci-après\b|, ci-devant\b|"
+                        r"\bci-après\.?$|note sur (?:Oiseaux|Lysistrata|Guêpes|Nuées|Paix)\b|\bt\. I+, p\.")
+RE_TRAVAIL = re.compile(r"⟨à revoir|à retrouver|à vérifier|\bvérif\.|\?\?|\.\.\. \.\.\.|^voir\b|^cf\.|ytrtyrjt", re.I)
+
+
+def nature_contenu(rep: dict) -> str:
+    """Nature d'un passage de commentaire ou de note (indication de tri, automatique) : note de
+    travail, note ou renvoi de Willems, simple renvoi, texte rédigé."""
+    if not rep["type"].startswith(("commentaire", "note")):
+        return ""
+    corps = re.sub(r"^« .*? » — ", "", rep["extrait"]).strip(" […]")
+    n = rep.get("mots") or len(mots(corps))
+    if RE_WILLEMS.search(corps):
+        return "note ou renvoi de Willems"
+    if RE_TRAVAIL.search(corps) and n <= 40:
+        return "note de travail"
+    if n <= 15 and re.match(r"(Cf\.?|Voir|cf\.|voir)\b", corps):
+        return "renvoi"
+    return "texte rédigé"
 
 
 def ligne_recuperable(lg: dict) -> dict:
@@ -1553,11 +1820,15 @@ def ligne_recuperable(lg: dict) -> dict:
         rq.append("%d mots" % rep["mots"])
     if "⟨à revoir" in rep["extrait"]:
         rq.append("contient une note de travail de l'auteur (macro \\eff)")
+    proche = rep.get("proche") or ""
+    if not proche and rep["statut"].startswith("désactiv") and POINTEUR:
+        proche = POINTEUR[0].lieu(rep.get("texte_cle") or rep["extrait"]) or ""
     return {"version": PAR_CLE[dernier]["libelle"], "fichier": rep.get("fichier") or "",
             "ligne": rep.get("ligne") or "", "type": rep["type"], "vers": rep.get("vers") or "",
             "extrait": rep["extrait"], "statut_2023": rep["statut"],
             "premiere_version": PAR_CLE[premier]["libelle"], "nb_versions": len(etats),
-            "proche_2023": rep.get("proche") or "", "remarque": " ; ".join(rq),
+            "proche_2023": proche, "remarque": " ; ".join(rq), "nature": nature_contenu(rep),
+            "mots": rep.get("mots") or "",
             "_tri": (ORDRE_TYPES.index(rep["type"]) if rep["type"] in ORDRE_TYPES else 99,
                      rep.get("v0") if rep.get("v0") is not None else 99999, RANG[dernier],
                      str(rep.get("ligne") or ""))}
@@ -1620,6 +1891,35 @@ def index_mots(unites: list) -> dict:
     return inv
 
 
+def fondre_blocs(lignes: list, mini: int = 4) -> list:
+    """Paragraphes consécutifs d'un même ensemble ajouté (au moins `mini`) : une seule ligne, début
+    et fin de l'ensemble, lignes et nombre de mots (le texte complet est dans le fichier source)."""
+    out, bloc = [], []
+
+    def vider():
+        if len(bloc) >= mini:
+            x = dict(bloc[0])
+            x["extrait"] = court(bloc[0]["extrait"], 500) + " […] " + bloc[-1]["extrait"][-200:]
+            n = sum(b["mots"] for b in bloc)
+            x["mots"] = n
+            x["remarque"] = "%d paragraphes, lignes %s-%s ; %d mots ; texte complet dans le fichier" % (
+                len(bloc), bloc[0]["ligne"], bloc[-1]["ligne"], n)
+            out.append(x)
+        else:
+            out.extend(bloc)
+        bloc.clear()
+
+    for l in lignes:
+        if bloc and l["statut_2023"] == bloc[-1]["statut_2023"] and l["fichier"] == bloc[-1]["fichier"] \
+                and 0 <= l["ligne"] - bloc[-1]["ligne"] <= 3:
+            bloc.append(l)
+        else:
+            vider()
+            bloc.append(l)
+    vider()
+    return out
+
+
 def comparer_intro_annexes(depot: str) -> tuple:
     """Pour chaque fichier : passages propres à la version du Drive (absents de latex/), passages
     de latex/ supprimés ou désactivés dans la version du Drive, figures ajoutées ou retirées.
@@ -1630,8 +1930,8 @@ def comparer_intro_annexes(depot: str) -> tuple:
     def ligne(version, fichier, num, typ, extrait, statut, remarque, proche="", ordre=0):
         return {"version": version, "fichier": fichier, "ligne": num, "type": typ, "vers": "",
                 "extrait": court(extrait, 1500), "statut_2023": statut, "premiere_version": version,
-                "nb_versions": 1, "proche_2023": court(proche, 300), "remarque": remarque,
-                "_tri": (ORDRE_TYPES.index(typ), num, ordre, "")}
+                "nb_versions": 1, "proche_2023": court(proche, 300), "remarque": remarque, "nature": "",
+                "mots": len(mots(extrait)), "_tri": (ORDRE_TYPES.index(typ), num, ordre, "")}
 
     for cle, nom, drive, local in INTRO_ANNEXES:
         pd, pl = os.path.join(depot, drive), os.path.join(depot, local)
@@ -1708,6 +2008,192 @@ def comparer_intro_annexes(depot: str) -> tuple:
 
 
 # ---------------------------------------------------------------------------
+# Parties commentées de 2023 : contenus qu'aucun état n'imprime
+# ---------------------------------------------------------------------------
+
+RE_ETIQ_VERS = re.compile(r"^\s*%{2,}\s*v\.?\s*(\d+[a-z]?(?:\s*[-–]\s*\d+[a-z]?)?)")
+
+
+def empreintes(texte: str) -> set:
+    w = [j[0] for j in jetons(texte)[1]]
+    return {hash(x) for x in zip(w, w[1:], w[2:], w[3:])}
+
+
+def nature_brouillon(mots_: list, frag: str) -> str:
+    grecs = sum(1 for m in mots_ if re.match(r"[α-ω]", m))
+    if grecs >= 0.5 * len(mots_):
+        return "matériaux (textes grecs copiés)"
+    if RE_TRAVAIL.search(frag) and len(mots_) <= 40:
+        return "note de travail"
+    return "texte rédigé"
+
+
+def brouillons_2023(depot: str, deja: Couverture, etats: list) -> tuple:
+    """Texte des lignes commentées des fichiers de 2023 qui ne se lit ni dans leur texte actif, ni
+    parmi les contenus déjà recensés : brouillons, dossiers de travail, citations copiées. Une
+    ligne par suite d'au moins 8 mots ; le premier état (filiation principale) où le texte se lit,
+    et s'il a jamais été actif, sont cherchés par 4-grammes de mots (≥ 60 %)."""
+    act = Couverture(texte_actif_fichier(os.path.join(depot, rel))[0] for rel in FICHIERS_2023)
+    series = []
+    for e in etats:
+        if not est_principal(e["cle"]) or e["cle"] == REFERENCE:
+            continue
+        a_, c_ = set(), set()
+        for rel in e["fichiers"]:
+            a, c = texte_actif_fichier(os.path.join(depot, rel))
+            a_ |= empreintes(a)
+            c_ |= empreintes(c)
+        series.append((e, a_, c_))
+    lignes = []
+    st = Counter()
+    for rel in FICHIERS_2023:
+        src = Source(os.path.join(depot, rel))
+        lignes_src = src.orig.split("\n")
+        debut = src.orig.find("\\begin{document}")
+        blocs = []
+        for c in src.commentaires:
+            if c.debut < debut:
+                continue
+            ln = src.ligne_orig(c.debut)
+            if blocs and ln - blocs[-1]["fin"] <= 1:
+                blocs[-1]["t"].append(c.texte)
+                blocs[-1]["fin"] = ln
+            else:
+                blocs.append({"debut": ln, "fin": ln, "t": [c.texte]})
+        for b in blocs:
+            t, js = jetons(detex("\n".join(b["t"])))
+            w = [j[0] for j in js]
+            if len(w) < 4:
+                continue
+            ca = act.masque(w)
+            cov = [x or y for x, y in zip(ca, deja.masque(w))]
+            st["mots commentés"] += len(w)
+            st["mots actifs ailleurs dans 2023"] += sum(ca)
+            st["mots déjà recensés"] += sum(cov) - sum(ca)
+            for i, j in lacunes(cov, PASSAGE_MIN):
+                sous = w[i:j]
+                # étiquettes de groupes (« v. 663-666 ») et essais de polices : rien à recenser
+                if sum(1 for m in sous if m == "v" or m.isdigit() or re.fullmatch(r"\d+[a-z]", m)) >= 0.5 * len(sous):
+                    continue
+                frag = t[js[i][1]:js[j - 1][2]]
+                if frag.startswith("Une phrase en"):
+                    continue
+                vers = ""
+                for k in range(b["debut"] - 1, -1, -1):
+                    m = RE_ETIQ_VERS.match(lignes_src[k])
+                    if m:
+                        vers = "[%s]" % re.sub(r"\s+", "", m.group(1))
+                        break
+                emp = empreintes(frag)
+                pres = [(e, len(emp & a_) / len(emp), len(emp & c_) / len(emp)) for e, a_, c_ in series] if emp else []
+                vus = [e for e, x, y in pres if max(x, y) >= 0.6]
+                actifs = [e for e, x, y in pres if x >= 0.6]
+                premier = (vus or [PAR_CLE[REFERENCE]])[0]
+                statut = "désactivé (commenté) en 2023 — " + (
+                    "actif dans un état antérieur" if actifs else "brouillon jamais actif")
+                st["mots de brouillons recensés"] += j - i
+                st["lignes"] += 1
+                rq = "%d mots ; texte complet à la ligne indiquée" % (j - i)
+                if actifs:
+                    rq += " ; actif en dernier dans : " + actifs[-1]["libelle"]
+                nom = re.sub(r"^.*Harmattan 2023 ", "", os.path.basename(rel)).replace(".tex", "")
+                lignes.append({"version": "Harmattan 2023 (parties commentées)", "fichier": abreger(rel),
+                               "ligne": b["debut"], "type": "brouillon commenté (2023)", "vers": vers,
+                               "extrait": court(frag, 800), "statut_2023": statut,
+                               "premiere_version": premier["libelle"], "nb_versions": len(vus) + 1,
+                               "proche_2023": "commenté en 2023 : %s, l. %d" % (nom, b["debut"]), "remarque": rq,
+                               "nature": nature_brouillon(sous, frag), "mots": j - i,
+                               "_tri": (ORDRE_TYPES.index("brouillon commenté (2023)"), premier_vers(vers) or 99999,
+                                        RANG[REFERENCE], "%06d" % b["debut"])})
+    return lignes, dict(st)
+
+
+def bibi_commentees(depot: str, R: dict, deja: Couverture) -> list:
+    """Entrées d'apparat commentées de 2023 (conjectures « Bibi » comprises : v. 1082 ὀλόφυγ᾽) qui ne
+    se lisent ni dans le texte actif de 2023, ni dans une ligne du tableau. Les restes de macros
+    (« , Reiske », sans leçon ni deux-points) ne sont pas des entrées et sont écartés."""
+    act = Couverture(texte_actif_fichier(os.path.join(depot, rel))[0] for rel in FICHIERS_2023)
+    lignes = []
+    for x in R["apparat_desactive"]:
+        w = [j[0] for j in jetons(x["texte"])[1]]
+        if len(w) < 3 or not (" : " in x["texte"] or "Bibi" in x["texte"]):
+            continue
+        cov = [a or b for a, b in zip(deja.masque(w), act.masque(w))]
+        if sum(cov) >= 0.6 * len(w):
+            continue
+        typ = "conjecture « Bibi »" if "Bibi" in x["texte"] else "apparat"
+        lignes.append({"version": "Harmattan 2023 (parties commentées)", "fichier": x.get("fichier") or "",
+                       "ligne": x.get("ligne") or "", "type": typ, "vers": x.get("plage") or "",
+                       "extrait": x["texte"], "statut_2023": ("désactivée (commentée) en 2023" if "Bibi" in x["texte"]
+                                                              else "désactivé (commenté) en 2023"),
+                       "premiere_version": "Harmattan 2023 (parties commentées)", "nb_versions": 1,
+                       "proche_2023": "commenté en 2023 : %s, l. %s" % (
+                           re.sub(r"^.*Harmattan 2023 ", "", x.get("fichier") or "").replace(".tex", ""), x.get("ligne")),
+                       "remarque": "entrée commentée, sans forme active antérieure recensée", "nature": "", "mots": "",
+                       "_tri": (ORDRE_TYPES.index(typ), premier_vers(x.get("plage")) or 99999, RANG[REFERENCE], "")})
+    return lignes
+
+
+# ---------------------------------------------------------------------------
+# Fichiers de travail hors série : brouillon note.txt, texte de présentation
+# ---------------------------------------------------------------------------
+
+COMPLEMENTS = [
+    ("note.txt (brouillon du dossier 455-6)", GCA + "note.txt", "commentaire", "455-6",
+     "brouillon non daté du commentaire de 455-6"),
+    ("Présentation de la pièce", GCA + "Présentation Thesmophories.txt", "introduction", "",
+     "texte de présentation de la pièce (.odt, .pdf, .txt)"),
+]
+
+
+def comparer_complements(depot: str, REF: Reference, recense: Couverture) -> tuple:
+    """Paragraphes de ces fichiers : ce qui ne se lit ni dans le corps de 2023 (actif ou commenté),
+    ni dans l'Introduction, les Annexes et l'Index du Drive, ni dans les contenus déjà recensés."""
+    lignes, bilan = [], {}
+    for version, rel, typ, vers, rq in COMPLEMENTS:
+        p = os.path.join(depot, rel)
+        if not os.path.exists(p):
+            continue
+        texte = open(p, encoding="utf-8").read()
+        texte = re.sub(r"^===== p\. \d+ =====$", "", texte, flags=re.M)
+        texte = re.sub(r"(\w)-\n(\w)", r"\1\2", texte)      # coupures de fin de ligne du .txt tiré du PDF
+        st = Counter()
+        n = 0
+        debut, bloc = 1, []
+        paras = []
+        for i, l in enumerate(texte.split("\n") + [""], start=1):
+            if l.strip():
+                if not bloc:
+                    debut = i
+                bloc.append(l)
+            elif bloc:
+                paras.append((debut, " ".join(bloc)))
+                bloc = []
+        for num, par in paras:
+            t, js = jetons(detex(par))
+            w = [j[0] for j in js]
+            if len(w) < PASSAGE_MIN:
+                continue
+            masques = [REF.act.masque(w), REF.des.masque(w)] + [c.masque(w) for c in REF.autres.values()]
+            cov23 = [any(x) for x in zip(*masques)]
+            st["mots"] += len(w)
+            st["mots présents en 2023"] += sum(cov23)
+            cov = [a or b for a, b in zip(cov23, recense.masque(w))]
+            st["mots déjà recensés par un autre état"] += sum(cov) - sum(cov23)
+            for i, j in lacunes(cov, PASSAGE_MIN):
+                st["mots propres à ce fichier"] += j - i
+                frag = t[js[i][1]:js[j - 1][2]]
+                lignes.append({"version": version, "fichier": abreger(rel), "ligne": num, "type": typ, "vers": vers,
+                               "extrait": frag, "statut_2023": "disparu — passage propre à ce fichier",
+                               "premiere_version": version, "nb_versions": 1, "proche_2023": "", "remarque": rq,
+                               "nature": "texte rédigé", "mots": j - i,
+                               "_tri": (ORDRE_TYPES.index(typ), premier_vers(vers) or 99998, RANG[REFERENCE], "%06d" % num)})
+                n += 1
+        bilan[version] = {"fichier": abreger(rel), "passages": n, **st}
+    return lignes, bilan
+
+
+# ---------------------------------------------------------------------------
 # Masquage du nom de l'auteur (dépôt public)
 # ---------------------------------------------------------------------------
 
@@ -1726,6 +2212,8 @@ def motif_masquage(depot: str):
                 parties = nom.split()
                 if len(parties) >= 2 and len(parties[-1]) >= 4:
                     motifs.add(re.escape(parties[-1]))
+                    # initiales, relevées dans une note de travail (« Note XX : … »)
+                    motifs.add(r"(?<=Note )" + "".join(x[0] for x in parties))
     motifs.add(r"[\w.+-]+@[\w-]+\.[\w.]+")
     return re.compile("|".join(sorted(motifs)), re.I)
 
@@ -1789,10 +2277,8 @@ def main():
         c = r.get("comparaison")
         if not c:
             continue
-        for x in c["elements"]:
-            if x["type"] == "texte_grec" and x.get("ligne") is not None:
-                v = premier_vers(x["plage"])
-                PREMIER_LIEU[(r["cle"], v)] = (x.get("fichier"), x.get("ligne"))
+        for v, lieu_ in r.get("lieux_grec", {}).items():
+            PREMIER_LIEU[(r["cle"], v)] = lieu_
         for t in c["traduction"]["elements"]:
             PREMIER_LIEU_FR[(r["cle"], t["vers"])] = (t.get("fichier"), t.get("ligne"))
 
@@ -1801,9 +2287,20 @@ def main():
         if r["cle"] != REFERENCE:
             items.extend(items_de(r))
     lignees = regrouper(items)
+    POINTEUR.append(Pointeur(depot))
     lignes = [ligne_recuperable(lg) for lg in lignees]
     lignes_ia, bilan_ia = comparer_intro_annexes(depot)
-    lignes += lignes_ia
+    lignes_ia = fondre_blocs(sorted(lignes_ia, key=lambda x: x["_tri"]))
+    ext_ref = extraire(depot, None, fichiers=list(FICHIERS_2023), ecrire=False)
+    noms_ref = {os.path.basename(f): abreger(f) for f in FICHIERS_2023}
+    R_ref = collecter(ext_ref, noms_ref)
+    REF = Reference(depot, R_ref)
+    recense = Couverture(lg["rep"]["texte_cle"] for lg in lignees if lg["rep"]["famille"] == "comm")
+    lignes_cp, bilan_cp = comparer_complements(depot, REF, recense)
+    tout = Couverture(x["extrait"] for x in lignes)
+    lignes_bb = bibi_commentees(depot, R_ref, tout)
+    lignes_br, bilan_br = brouillons_2023(depot, tout, etats)
+    lignes += lignes_ia + lignes_cp + lignes_bb + lignes_br
     lignes.sort(key=lambda x: x["_tri"])
 
     # disparitions par état : lignées dont c'est le dernier état
@@ -1831,6 +2328,8 @@ def main():
                   for e in etats],
         "comparaisons": [],
         "introduction_annexes_index": bilan_ia,
+        "complements": bilan_cp,
+        "parties_commentees_2023": bilan_br,
         "lignees": {"total": len(lignees), "par_type": dict(sorted(Counter(lg["rep"]["type"] for lg in lignees).items())),
                     "par_statut": dict(sorted(Counter(lg["rep"]["statut"].split(" — ")[0] for lg in lignees).items()))},
     }
@@ -1889,7 +2388,7 @@ def main():
     with open(os.path.join(sortie, "contenus_recuperables.tsv"), "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         cols = ["version", "fichier", "ligne", "type", "vers", "extrait", "statut_2023", "premiere_version",
-                "nb_versions", "proche_2023", "remarque"]
+                "nb_versions", "proche_2023", "remarque", "nature", "mots"]
         w.writerow(cols)
         for x in lignes:
             w.writerow([nettoyer(x[k]) for k in cols])
@@ -1898,8 +2397,9 @@ def main():
         with open(os.path.join(sortie, nom), encoding="utf-8") as f:
             if rx.search(f.read()):
                 raise SystemExit("ERREUR : donnée personnelle non masquée dans " + nom)
-    print("États analysés : %d ; lignées de contenus absents de 2023 : %d (+ %d Introduction/Annexes/Index)"
-          % (len(etats), len(lignees), len(lignes_ia)))
+    print("États analysés : %d ; lignées de contenus absents de 2023 : %d (+ %d Introduction/Annexes/Index, "
+          "+ %d fichiers hors série, + %d entrées d'apparat et %d passages commentés de 2023)"
+          % (len(etats), len(lignees), len(lignes_ia), len(lignes_cp), len(lignes_bb), len(lignes_br)))
     print(json.dumps(resultat["lignees"], ensure_ascii=False))
 
 

@@ -18,7 +18,10 @@ les scripts et cette notice sont versionnés. Bilan de la couverture et de la fi
 | `telecharger.py` | collecte : dépôts git (Perseus, First1KGreek, LSJ, DCLP), Diorisis, OCR archive.org |
 | `sources_ocr.tsv` | ouvrages du domaine public pris sur archive.org (OCR), avec options de mise en page |
 | `hocr_colonnes.py` | rétablit l'ordre de lecture des pages à deux colonnes d'après le hOCR (Hésychius, Souda, Zonaras, Dübner) |
-| `sources_drive.py` | dresse la liste locale (non versionnée) des PDF du Drive de l'auteur à indexer |
+| `adler.py` | Souda d'Adler (OCR archive.org, `.sources/web/testimonia/adler/`) : pages rangées pour l'index, doubles pages du t. III séparées |
+| `kleinlogel.py`, `kleinlogel.tsv` | polices Kleinlogel des éditions De Gruyter : table glyphe → caractère (sans texte des éditions), réécriture du /ToUnicode en mémoire |
+| `ocr_hesychius.py` | Hésychius de Latte–Hansen–Cunningham : OCR reprenable, décodage des polices, découpage en gloses, qualité, tests, contrôle sur l'image |
+| `sources_drive.py` | dresse la liste locale (non versionnée) des fichiers du Drive de l'auteur à indexer |
 | `indexer.py` | construit `.sources/corpus/index.sqlite` (SQLite FTS5), sur 8 processus |
 | `chercher.py` | recherche (mots, expressions, préfixes, NEAR, filtres, contexte, JSON) |
 | `exporter_vulgate.py` | exporte les *Thesmophories* de Perseus (Hall–Geldart) vers par vers : `.sources/corpus/thesmo_hall_geldart.tsv` |
@@ -27,9 +30,10 @@ les scripts et cette notice sont versionnés. Bilan de la couverture et de la fi
 
 ## Installation
 
-Python 3 avec `lxml` (et `pymupdf` pour les PDF du Drive), `git`, accès réseau. Place
-disque : environ 5 Go pour les textes (dont 2,5 Go pour Diorisis décompressé) et 2 à 3 Go
-pour l'index.
+Python 3 avec `lxml` (et, pour les PDF du Drive, `pymupdf` et `fonttools`), `git`, accès
+réseau ; Tesseract 5 avec les modèles `grc` et `lat` pour l'OCR d'Hésychius. Place disque :
+environ 5 Go pour les textes (dont 2,5 Go pour Diorisis décompressé) et 2 à 3 Go pour
+l'index (6 Go libres exigés au lancement).
 
 ## Construire ou mettre à jour
 
@@ -40,7 +44,14 @@ une interruption) :
 python3 outils/corpus/telecharger.py            # --maj pour mettre à jour les dépôts git
 python3 outils/corpus/hocr_colonnes.py --tous   # pages à deux colonnes (télécharge les hOCR)
 python3 outils/corpus/sources_drive.py          # si le Drive a été (re)téléchargé
+python3 outils/corpus/ocr_hesychius.py ocr      # reprenable (2 465 pages, ≈ 1 h sur 8 processus)
+python3 outils/corpus/ocr_hesychius.py decoder  # texte de l'éditeur, zone par zone (≈ 2 min)
+python3 outils/corpus/ocr_hesychius.py gloses   # une glose par ligne, numéro et page
+python3 outils/corpus/adler.py                  # si les volumes d'Adler sont présents
 python3 outils/corpus/indexer.py                # ≈ 15 min sur 8 processus
+python3 outils/corpus/ocr_hesychius.py qualite  # mesures (qualite.json)
+python3 outils/corpus/ocr_hesychius.py tester   # gloses attendues, recherche/testimonia.md
+python3 outils/corpus/tester.py                 # requêtes de contrôle de l'index
 python3 outils/corpus/exporter_vulgate.py       # vulgate Hall–Geldart pour la collation
 ```
 
@@ -101,11 +112,38 @@ python3 outils/corpus/chercher.py '"Νείλου μὲν αἵδε καλλιπ�
 python3 outils/corpus/chercher.py '"σοφοὶ τύραννοι τῶν σοφῶν ξυνουσίᾳ"'
 # une glose d'Hésychius (OCR de Schmidt, article par article)
 python3 outils/corpus/chercher.py 'ἀπόκυνον' -a Hsch
+# une glose dans l'édition de référence (numéro de l'édition, page imprimée, signes de la marge)
+python3 outils/corpus/chercher.py 'χοάνη' -a 'Hsch.' -o gloses
+# son image et ses apparats, pour la citer
+python3 outils/corpus/ocr_hesychius.py voir χ 576
+# tout ce qu'Hésychius rapporte aux Thesmophories : texte des gloses, puis apparats
+python3 outils/corpus/chercher.py 'Thesm' -a 'Hsch.' -o gloses -n 400
+python3 outils/corpus/chercher.py 'Thesm' -a 'Hsch. app.' -n 400
 # toutes les formes d'un lemme chez les comiques et les lexicographes
 python3 outils/corpus/chercher.py --lemme 'χελιδών' -a Ar. -c 1
 # vérification diacritique stricte
 python3 outils/corpus/chercher.py 'ὀρθρογόη' --exact
 ```
+
+## Hésychius : deux voies, une référence
+
+Les PDF de Latte–Hansen–Cunningham sont vectoriels et composés en polices Kleinlogel, aux noms de
+glyphes brouillés (couche texte : charabia). `ocr_hesychius.py` mène deux voies de front :
+**OCR** Tesseract à 400 dpi (`ocr/`, page par page, reprenable, sert de contrôle) et **décodage**
+des glyphes par `kleinlogel.tsv`, qui rend le texte exact de l'éditeur, accents compris : c'est lui
+qui est indexé, et il n'est pas plié (pas de χ = κ dans ces œuvres).
+
+| Œuvre de l'index | Passages | Référence |
+|---|---|---|
+| `Hsch.`, `abr_titre` « gloses, t. I » … « t. IV » | une glose ; pages liminaires à part | `Hsch. χ 576 (Hansen–Cunningham IV, p. 223)` ; la colonne `locuteur` porte les signes de la marge (`[D]`, `[Hom.]`…) |
+| `Hsch. app.`, « apparats, t. I » … | testimonia et apparat de la glose | `Hsch. app. χ 576 (Hansen–Cunningham IV, p. 223)` |
+
+La numérotation est celle de l'édition imprimée : celle de Latte pour α–ο, celle de Schmidt (ed. maior)
+pour π–ω, que Hansen et Cunningham ont gardée. Les pages de t. I et II sont celles de la 2e édition
+(Cunningham, 2018 et 2020), libellées « Latte I », « Latte II ». Dans la forme de recherche, les
+signes éditoriaux sont retirés à l'intérieur des mots (`ὄρ⟨ρ⟩ος` se trouve par `ὄρρος`). Sorties
+dans `.sources/corpus/hesychius/` : `ocr/`, `texte/`, `gloses.jsonl.gz`, `anomalies.tsv` (suite des
+numéros), `qualite.json`, `controle_testimonia.tsv`.
 
 ## Structure de la base
 

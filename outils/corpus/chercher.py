@@ -185,6 +185,9 @@ def urn_et_lien(o, p):
     if coll == "lsj":
         return f"lsj:{p['cible'] or p['ref']}", ""
     if coll == "drive":
+        if o["urn"].startswith("drive:hsch:") and " (" in (p["ref"] or ""):
+            # contrôle sur l'image : ocr_hesychius.py découpe la glose dans le PDF
+            return f"{o['urn']}#{p['cible'] or ''}", f"image : ocr_hesychius.py voir {p['ref'].split(' (')[0]}"
         return f"{o['urn']}#{p['cible'] or ''}", ""
     return o["urn"], ""
 

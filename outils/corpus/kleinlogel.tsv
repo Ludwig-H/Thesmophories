@@ -160,7 +160,7 @@ Kleinlogel	two	ʹ	planche normal_08 (signe numéral / d'abréviation)
 Kleinlogel	thetatwo	ἂ	planche normal_08
 Kleinlogel	Theta	ἆ	planche normal_08
 Kleinlogel	upsilondieresisacute	ΰ	planche normal_08, zoom_1
-Kleinlogel	three	ϋ	planche normal_08, zoom_1
+Kleinlogel	three	U+0308	contour : deux points seuls (y 606–706), posés sur le υ qui suit dans le flux ; corrigé le 01/11/2026 (ἀϋτή, et non ἀ ϋυτή)
 Kleinlogel	question	ὓ	planche normal_08, zoom_1
 Kleinlogel	quoteleft	ἓ	planche normal_08
 Kleinlogel	theta	ἳ	planche normal_08

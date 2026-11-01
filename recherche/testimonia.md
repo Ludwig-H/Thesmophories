@@ -1,6 +1,6 @@
 # Tradition indirecte (testimonia) des *Thesmophories* — recension
 
-> État : **version de travail** (26/10/2026 ; reprise du 28/10/2026 : renvois à Eustathe contrôlés sur l'édition Stallbaum, une partie de Pollux sur Dindorf et Bethe, Étienne de Byzance, Harpocration, Clément, Satyros ; recherche des mentions explicites de la pièce dans tout le corpus TEI). Le fichier est produit à partir des relevés de `.travail/recension/testimonia/` (scripts `generer_md.py`, `reprise_maj.py`) et complété au fil des vérifications. Rien n'est marqué « vérifié » sans avoir été lu dans un texte ; la colonne « Vérifié » dit où.
+> État : **version de travail** (26/10/2026 ; reprise du 28/10/2026 : renvois à Eustathe contrôlés sur l'édition Stallbaum, une partie de Pollux sur Dindorf et Bethe, Étienne de Byzance, Harpocration, Clément, Satyros ; recherche des mentions explicites de la pièce dans tout le corpus TEI ; reprise du 01/11/2026 : Souda contrôlée sur Adler, Pollux sur Bethe, Phrynichus sur de Borries, Moeris sur Bekker, *Etymologicum magnum*, Zonaras t. I, *Lexicon Vindobonense*, Antiatticiste, Photius dans Naber). Le fichier est produit à partir des relevés de `.travail/recension/testimonia/` (scripts `generer_md.py`, `reprise_maj.py`) et complété au fil des vérifications. Rien n'est marqué « vérifié » sans avoir été lu dans un texte ; la colonne « Vérifié » dit où.
 
 ## 1. Conventions et méthode
 
@@ -10,15 +10,15 @@
 
 **Types.** *citation* : au moins deux mots consécutifs du texte, dans l'ordre (éventuellement avec omissions ou variantes) ; *lemme* : expression du texte prise comme lemme d'une notice ; *glose* : explication d'un mot du texte (souvent issue d'une scholie à la pièce), sans citation. Les notices qui se bornent à gloser un mot fréquent ont été écartées (§ 4).
 
-**Leçons.** On indique les divergences de la citation par rapport au texte transmis : « R » = leçon du Ravennas d'après l'apparat de l'auteur (`edition/donnees/travaux_anterieurs/apparat.tsv`, non revérifié sur l'image) ; « texte » = texte imprimé par l'auteur (Harmattan 2023) quand l'apparat est muet. Les différences purement graphiques (ν éphelcystique, élision notée ou non, accentuation de la SOL) ne sont pas relevées. « — » : pas de divergence. Les variantes des manuscrits de la Souda (apparat d'Adler) n'ont pas pu être contrôlées : la SOL ne donne que le texte d'Adler.
+**Leçons.** On indique les divergences de la citation par rapport au texte transmis : « R » = leçon du Ravennas d'après l'apparat de l'auteur (`edition/donnees/travaux_anterieurs/apparat.tsv`, non revérifié sur l'image) ; « texte » = texte imprimé par l'auteur (Harmattan 2023) quand l'apparat est muet. Les différences purement graphiques (ν éphelcystique, élision notée ou non, accentuation de la SOL) ne sont pas relevées. « — » : pas de divergence. Les variantes des manuscrits de la Souda sont celles de l'apparat d'Adler, données dans la colonne « Remarques » ; le relevé complet (texte, variantes, marge, apparat des sources) est dans `edition/donnees/testimonia/souda_adler.tsv`.
 
-**Vérification.** « oui (SOL) » : texte grec d'Adler lu sur la *Suda On Line* (notices téléchargées dans `.sources/web/testimonia/sol/adler/`, alignées mot à mot sur le texte de la pièce) ; « oui (First1K) » : texte d'Adler de First1KGreek ; pour les autres sources, l'édition lue est nommée (TEI Perseus/First1K, OCR d'une édition du domaine public contrôlé sur l'image de la page, PDF du Drive de l'auteur). « non » : référence reprise de l'auteur ou d'une source secondaire, non contrôlée.
+**Vérification.** Souda : « oui (Adler …, image de la page) » : texte, variantes, marge et apparat des sources lus le 01/11/2026 sur l'image du PDF (archive.org `adler-a.-suidae-lexicon-3-.`), lecture consignée dans `.travail/recension/adler/relecture_images.log` ; « oui (Adler …, contrôle du 28/10 recoupé sur l'OCR) » : relevé fait le 28/10, non relu sur l'image le 01/11 mais recoupé automatiquement sur l'OCR de la page et sur First1K. Pour les autres sources, l'édition lue est nommée (TEI Perseus/First1K, OCR d'une édition du domaine public contrôlé sur l'image de la page, PDF du Drive de l'auteur). « partiel » : texte lu, mais numéro de l'édition de référence non contrôlé (ainsi Moeris, lu dans Bekker 1833, alors que la référence est celle de Hansen). « non » : référence reprise de l'auteur ou d'une source secondaire, non contrôlée.
 
-**Méthode.** (a) Testimonia de l'auteur (macro `\testimonia` des fichiers `latex/` Harmattan 2023, extraits dans `edition/donnees/travaux_anterieurs/testimonia.tsv`) ; (b) recherche directe dans le corpus local `.sources/corpus/` (suites de mots communes avec le texte de la pièce : `outils/corpus/citations_thesmo.py`, 6 163 groupes candidats, revus à la main) ; (c) interrogation de la Suda On Line (notices dont les notes renvoient aux *Thesmophories*) ; (d) alignement automatique de chaque citation sur le texte de la pièce (Smith–Waterman mot à mot), puis contrôle à la main des divergences ; (e) recherche de toutes les mentions de la pièce (Θεσμοφοριαζ-) dans les textes TEI du corpus (Perseus, First1K) : 42 passages, dont plusieurs se rapportent aux *Thesmophories II* (§ 4) ; (f) pour Eustathe, OCR (Tesseract, grec) des pages de Stallbaum voisines de la page de Rome visée, puis lecture de la page et de ses marges sur l'image.
+**Méthode.** (a) Testimonia de l'auteur (macro `\testimonia` des fichiers `latex/` Harmattan 2023, extraits dans `edition/donnees/travaux_anterieurs/testimonia.tsv`) ; (b) recherche directe dans le corpus local `.sources/corpus/` (suites de mots communes avec le texte de la pièce : `outils/corpus/citations_thesmo.py`, 6 163 groupes candidats, revus à la main) ; (c) interrogation de la Suda On Line (notices dont les notes renvoient aux *Thesmophories*) ; (d) alignement automatique de chaque citation sur le texte de la pièce (Smith–Waterman mot à mot), puis contrôle à la main des divergences ; (e) recherche de toutes les mentions de la pièce (Θεσμοφοριαζ-) dans les textes TEI du corpus (Perseus, First1K) : 42 passages, dont plusieurs se rapportent aux *Thesmophories II* (§ 4) ; (f) pour Eustathe, OCR (Tesseract, grec) des pages de Stallbaum voisines de la page de Rome visée, puis lecture de la page et de ses marges sur l'image ; (g) exhaustivité dans Adler : index du t. V (*Index auctorum*, Thesmophoriazusae et Scholia, transcrits sur l'image), Addenda, renvois « Ar. Th. » et « sch. Ar. Th. » de l'apparat des sources (First1K et OCR de la page), mentions explicites de la pièce dans le texte.
 
 ## 2. Bilan
 
-468 témoignages retenus (165 notices de la Souda, 303 autres) ; 339 vérifiés dans un texte, 11 partiellement (texte lu, numéro non contrôlé), 118 non vérifiés.
+487 témoignages retenus (181 notices de la Souda, 306 autres) ; 310 vérifiés dans un texte, 112 partiellement (texte lu, numéro non contrôlé), 65 non vérifiés.
 
 ## 3. Tableau vers par vers
 
@@ -26,378 +26,393 @@
 |---|---|---|---|---|---|---|---|
 | 1 | Ar. fr. | Ar. fragm. (Kassel-Austin) 617 πυθοῦ χελιδὼν πηνίκ᾽ ἄττα φαίνεται | — |  |  | référence de l'auteur, non contrôlée | non |
 | 2 | Photius | α 1029 | glose | ἀλοῶν (= Synagoge Σᵇ α 984) |  |  | oui (n° et identité de la glose confirmés par l'apparat de Cunningham à la Synagoge Σᵇ α 984 ; texte de Photius non lu) |
-| 2 | Souda | Souda α 1330 | citation | ἀπολεῖ μ' ἀλοῶν ἄνθρωπος ἐξ ἑωθινοῦ | ἄνθρωπος (= R ; ἅνθρωπος Boissonade) |  | oui (SOL) |
+| 2 | Souda | Souda α 1330 | citation | ἀπολεῖ μ' ἀλοῶν ἄνθρωπος ἐξ ἑωθινοῦ | ἄνθρωπος (= R ; ἅνθρωπος Boissonade) | apparat d'Adler : aucune sur la citation (23 ἀλοῶν] ἀλώη A porte sur le lemme) ; A(GITSM) | oui (Adler I 120, 25, contrôle du 28/10 recoupé sur l'OCR) |
 | 2 | Synagoge | Σᵇ α 984 | glose | ἀλοῶν · ἀντὶ τοῦ περιάγων, ὡς οἱ ἀλοῶντες βόες. οὕτως Ἀριστοφάνης |  | Aristophane nommé ; parallèle : Photius α 1029 | oui (Cunningham, PDF p. 601, OCR) |
+| 3 | Souda | Souda οι 150 | glose | Οἷόν τε : δυνατόν, ἀρκούντως ἔχον, κατὰ τὸ δυνατόν | — | notice citée par l'auteur à l'apparat du v. 3 (τε R(?)/Σ) ; glose lexicale ; apparat d'Adler : 11 κατὰ] καὶ κατὰ F ; A(GFVM) | oui (Adler IV 626, 11, image de la page) |
 | 18-19 | Hésychius | χ 576 | glose | χοάνη · χώνη, τύπος, εἰς ὃν μεταχεῖται τὸ χωνευόμενον |  | l'éd. renvoie à Thesm. 18 | oui (Hansen–Cunningham IV, OCR de la page) ; ligne contrôlée sur l'image |
-| 18-9 | Hésychius | Moeris χ 1 Hesychius χ 576 χοάνη | — | χοάνη = χώνη |  | référence de l'auteur, non contrôlée | non |
+| 18-19 | Moeris | χ 1 (Bekker p. 212) | glose | χοάνην Ἀττικοί, χώνην Ἕλληνες |  |  | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
 | 24 | Apostolius | Michael Apostolius II 94 | — |  |  | référence de l'auteur, non contrôlée | non |
 | 24 | Macarius | VI 90 (CPG II p. 199) | glose | Παρὰ χωλὸν οἰκῶν κἂν ἐπισκάζειν μαθήσῃ · πρὸς τοὺς παραπολαύοντας τῶν χαλεπῶν |  | parallèle proverbial, non citation ; numéro du proverbe repris de l'auteur | partiel (texte lu dans l'OCR de CPG II ; n° non contrôlé sur l'image) |
-| 33 | Pollux | II 88 (Dindorf I p. 97) | glose | δασυπώγων δὲ ἐν ταῖς Θεσμοφοριαζούσαις |  | pièce nommée | oui (Dindorf 1824, image de la page ; numérotation des §§ identique chez Bethe) |
-| 36 | Souda | Souda π 3024 | citation | ἀλλ' ἐκποδὼν πτήξωμεν | — |  | oui (SOL) |
-| 39-41 | Souda | Souda ε 3792 | citation | εὔφημος πᾶς ἔστω λεὼς … θίασος Μουσῶν ἔνδον μελάθρων | λεώς (= R ; λαός Σ) ; συγκλείσας (texte συγκλῄσας) ; ἐνδημεῖ (texte ἐπιδημεῖ) | l'auteur cite « ε 3791 » dans ses testimonia (= Ἐφείλιξαν) mais « ε 3792 » dans son apparat | oui (SOL) |
-| 40-42 | Souda | Souda θ 378 | citation | ἐπιδημεῖ γὰρ θίασος Μουσῶν … τῶν δεσποσύνων μελοποιῶν | — |  | oui (SOL) |
-| 43-45 | Souda | Souda ε 3997 | citation | ἐχέτω δὲ πνοὰς νήνεμος αἰθήρ · κῦμα δὲ πόντου μὴ κελαδείτω γλαυκόν | — | l'auteur cite « ε 3792 » : lire ε 3997 (SOL) | oui (SOL) |
+| 33 | Pollux | II 88 (Bethe I p. 111) | glose | δασυπώγων δ' ἐν ταῖς Θεσμοφοριαζούσαις Ἀριστοφάνους (v 33) |  | pièce nommée | partiel (OCR seul, Bethe I ; image à relire ; Dindorf 1824 lu) |
+| 36 | Souda | Souda π 3024 | citation | ἀλλ' ἐκποδὼν πτήξωμεν | — | apparat d'Adler : 8 ἐκποδὼν] ἐκπηδῶν V, ἐκπιδῶν M ; 7 κυρίως—9 Ἀριστοφάνης om. G (la citation manque dans G) ; 9 Ἀριστοφάνης om. VM ; A(GFVM) | partiel (Adler IV 253, 8-9, saisie non confirmée sur l'image) |
+| 39-41 | Souda | Souda ε 3792 | citation | εὔφημος πᾶς ἔστω λεὼς … θίασος Μουσῶν ἔνδον μελάθρων | λεώς (= R ; λαός Σ) ; συγκλείσας (texte συγκλῄσας) ; ἐνδημεῖ (texte ἐπιδημεῖ) | l'auteur cite « ε 3791 » dans ses testimonia (= Ἐφείλιξαν) mais « ε 3792 » dans son apparat ; apparat d'Adler : 26 λεὼς : λαὸς GIVM (Adler ne note que GIVM ; donc λεώς AF) ; A(GIFVM) | partiel (Adler II 477, 25-27, saisie non confirmée sur l'image) |
+| 40-42 | Souda | Souda θ 378 | citation | ἐπιδημεῖ γὰρ θίασος Μουσῶν … τῶν δεσποσύνων μελοποιῶν | — | apparat d'Adler : 12 τῶν] τε GI (A²(GITFVM)) | oui (Adler II 718, 11-12, contrôle du 28/10 recoupé sur l'OCR) |
+| 43-45 | Souda | Souda ε 3997 | citation | ἐχέτω δὲ πνοὰς νήνεμος αἰθήρ · κῦμα δὲ πόντου μὴ κελαδείτω γλαυκόν | — | l'auteur cite « ε 3792 » : lire ε 3997 (SOL) ; apparat d'Adler : 12 νήνεμος] νήρεμος A (A(GIFVM)) | oui (Adler II 493, 12-13, contrôle du 28/10 recoupé sur l'OCR) |
 | 43-45 | Zonaras | col. 941 | citation | Ἐχέτω. κρατείτω. Ἀριστοφάνης · ἐχέτω δὲ πνοὰς νήνεμος αἰθήρ · κῦμα δὲ πόντου μὴ κελαδείτω γλαυκόν | — |  | oui (Tittmann I, image de la page) |
-| 44 | Souda | Souda κ 1278 | lemme | Κελαδείτω | — | lemme seul | oui (SOL) |
+| 44 | Souda | Souda κ 1278 | lemme | Κελαδείτω | — | lemme seul ; apparat d'Adler : aucune (AʳF(GVM)) | oui (Adler III 91, 1, contrôle du 28/10 recoupé sur l'OCR) |
 | 45 | Eustathe | Eust. Od. 1718, 9-10 (Stallbaum, Od. II, scan n26 (p. 19)) | citation | παρὰ τῷ κωμικῷ δὲ βομβὰξ παικτικὸν ἐπίρρημα καθ' ὁμοιότητα τοῦ βαβαί | — | marge : 1718 puis 10 à la ligne de βομβάξ ; l'auteur : 1718.9 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 45 | Hésychius | β 787 | glose | βόμβαξ · τοῦτο παρεμβολοειδές ἐστι. σημαίνει δὲ διασυρμόν |  | l'éd. renvoie à Thesm. 45 | oui (Latte I, OCR de la page) |
-| 45, 48, 223, 231, 945 | Souda | Souda ε 2807 | glose | βομβάξ … βομβαλομβάξ … ἀττατατατατταῖ … μῦ μῦ … ἰαππαπαιάξ | βομβαλομβάξ (texte βομβαλοβομβάξ, v. 48) ; ἀττατατατατταῖ (texte ἀτταταῖ ἰατταταῖ, v. 223) ; μῦ μῦ (texte μυμῦ, v. 231) | notice Ἐποποῖ (interjections d'Aristophane) | oui (SOL) |
+| 45, 48, 223, 231, 945 | Souda | Souda ε 2807 | glose | βομβάξ … βομβαλομβάξ … ἀττατατατατταῖ … μῦ μῦ … ἰαππαπαιάξ | βομβαλομβάξ (texte βομβαλοβομβάξ, v. 48) ; ἀττατατατατταῖ (texte ἀτταταῖ ἰατταταῖ, v. 223) ; μῦ μῦ (texte μυμῦ, v. 231) | notice Ἐποποῖ (interjections d'Aristophane) ; apparat d'Adler : aucune sur ces mots (p. 397 : 2 αὖν] αὖ GI porte sur une autre interjection) ; A(GIFVM) | oui (Adler II 396, 1 - 397, 5 (Thesm. : 397, 2-5), contrôle du 28/10 recoupé sur l'OCR) |
 | 48 | Eustathe | Eust. Il. 790, 13 (Stallbaum, Il. II, scan n322) | citation | οὗ περ ἀκούσας ὁ κωμικὸς ἔπαιξεν ἄν, οἶμαι, καὶ εἰς αὐτὸν τὸ βομβαλοβομβάξ | — | marge : 790 puis 10, trois lignes avant | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 48 | Eustathe | Eust. Od. 1718, 10-11 (Stallbaum, Od. II, scan n26 (p. 19)) | citation | ὡσαύτως καὶ βομβαλοβομβάξ | — | suit immédiatement βομβάξ (l'auteur : 1718.13) | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 49 | Philostrate | VS I 9, 1 | glose | καὶ Ἀγάθων δὲ ὁ τῆς τραγῳδίας ποιητής, ὃν ἡ κωμῳδία σοφόν τε καὶ καλλιεπῆ οἶδε, πολλαχοῦ τῶν ἰάμβων γοργιάζει |  | allusion à Ἀγάθων ὁ καλλιεπής (v. 49) | oui (Perseus, TEI) |
 | 50 | Hésychius | π 3188 | glose | πραῖνοι · πρηνίζειν. καταστρέφειν |  | rapprochement de l'auteur (lemme obscur) | oui (Hansen III, OCR de la page) ; ligne contrôlée sur l'image |
-| 52 | Zonaras | Zonaras 569 δρύοχοι | — |  |  | référence de l'auteur, non contrôlée | non |
-| 52-57 | Souda | Souda δ 1547 | citation | Ἀγάθων ἄρχεται δρυόχους τιθέναι … καὶ χιανεύει καὶ λαικάζει | ἁψῖδας (R ἀσπίδας) ; τορεύει (texte τορνεύει) ; γογγυλίζει (= R ; γογγύλλει Porson) ; χιανεύει (texte χοανεύει) | cf. χ 297, λ 181 | oui (SOL) |
-| 52-57 | Souda | Souda χ 297 | citation | Ἀγάθων ἄρχεται δρυόχους τιθέναι … καὶ χιανεύει καὶ λαικάζει | comme δ 1547 |  | oui (SOL) |
+| 52 | Zonaras | col. 569 | citation | δρυόχους τιθέναι δράματος ἀρχάς | — |  | partiel (OCR seul, Tittmann I ; image à relire) |
+| 52-57 | Souda | Souda δ 1547 | citation | Ἀγάθων ἄρχεται δρυόχους τιθέναι … καὶ χιανεύει καὶ λαικάζει | ἁψῖδας (R ἀσπίδας) ; τορεύει (texte τορνεύει) ; γογγυλίζει (= R ; γογγύλλει Porson) ; χιανεύει (texte χοανεύει) | cf. χ 297, λ 181 ; apparat d'Adler : 10 ἄρχεται FVM, v. χιανεύει, Zon. : ἔρχεται rell. ; 12 κολλομελεῖ AT, v. χιανεύει : κολλομελῆ GI : κολομελεῖ VM : κολομελλεῖ F (A(GITFVM)) | partiel (Adler II 143, 10-13, saisie non confirmée sur l'image) |
+| 52-57 | Souda | Souda χ 297 | citation | Ἀγάθων ἄρχεται δρυόχους τιθέναι … καὶ χιανεύει καὶ λαικάζει | comme δ 1547 | apparat d'Adler : 297 om. AS (notice propre à GFMC) ; aucune sur les mots cités ; Aʳ S (GFMC) | oui (Adler IV 805, 9-12, image de la page) |
 | 53 | Hésychius | κ 617 | glose | κάμπτειν · τὸ ἐν τῇ ᾠδῇ καμπὰς ποιεῖν |  | Schmidt renvoie à Thesm. 68, 73 ; numéro de Latte non contrôlé (vol. II absent) | partiel (glose lue dans Schmidt, éd. minor, OCR ; n° non vérifié) |
 | 53, 56-57 | Scholie | Σ Ach. 79 (Dübner p. 5) | citation | καὶ ἀλλαχοῦ · κάμπτει δὲ νέας ἁψῖδας ἐπῶν, γογγυλίζει καὶ λαικάζει | citation abrégée ; ἁψῖδας (R ἀσπίδας) ; γογγυλίζει (= R) | scholie absente de R (entre parenthèses chez Dübner) ; cf. Souda λ 181 | oui (Dübner, image de la page) |
-| 53-57 | Souda | Souda λ 181 | citation | κάμπτει δὲ νέας ἀψῖδας ἐπῶν, τὸ δὲ τορείη καὶ γογγυλίζει καὶ λαικάζει | citation abrégée ; τὸ δὲ τορείη (texte τὰ δὲ τορνεύει) |  | oui (SOL) |
+| 53-57 | Souda | Souda λ 181 | citation | κάμπτει δὲ νέας ἀψῖδας ἐπῶν, τὸ δὲ τορείη καὶ γογγυλίζει καὶ λαικάζει | citation abrégée ; τὸ δὲ τορείη (texte τὰ δὲ τορνεύει) | apparat d'Adler : aucune variante des mss sur τὸ et τορείη (Adler note τὰ et τορνεύει en δ 1547 et chez Ar.) ; 9 καὶ pr.] τὸ add. F (A(GFVM)) | oui (Adler III 240, 8-9, contrôle du 28/10 recoupé sur l'OCR) |
 | 54 | Hésychius | τ 1168 | glose | τορνεύει · γλύφει |  |  | oui (Hansen–Cunningham IV, OCR de la page) |
-| 55 | Souda | Souda α 2754 | glose | Ἀντονομάζει | — | glose (scholie au v. 55, SOL) | oui (SOL) |
+| 55 | Souda | Souda α 2754 | glose | Ἀντονομάζει | — | glose (scholie au v. 55, SOL) ; apparat d'Adler : aucune (A(GITSM)) | oui (Adler I 246, 16, contrôle du 28/10 recoupé sur l'OCR) |
 | 56 | Hésychius | γ 764 | glose | γογγύλλειν · συστρέφειν |  | l'éd. renvoie à Thesm. 56 | oui (Latte I, OCR de la page) |
-| 56 | Souda | Souda γ 361 | glose | Γογγυλίζει, ἀντὶ τοῦ μεταστρέφει | γογγυλίζει (= R ; γογγύλλει Porson) | la citation qui suit (ὥσπερ γυναικὶ γογγύλην μεμαγμένην) est d'une autre pièce (Paix 28 selon la SOL) | oui (SOL) |
-| 56 | Zonaras | Zonaras 449 γογγυλίζει | — |  |  | référence de l'auteur, non contrôlée | non |
+| 56 | Souda | Souda γ 361 | glose | Γογγυλίζει, ἀντὶ τοῦ μεταστρέφει | γογγυλίζει (= R ; γογγύλλει Porson) | la citation qui suit (ὥσπερ γυναικὶ γογγύλην μεμαγμένην) est d'une autre pièce (Paix 28 selon la SOL) ; apparat d'Adler : aucune sur γογγυλίζει (3 μεμαγμένην FI Ar. : μεμαγμένη rell. porte sur la citation de la Paix) ; A(GITFVM) | oui (Adler I 534, 2, contrôle du 28/10 recoupé sur l'OCR) |
+| 56 | Zonaras | col. 449 | glose | Γογγυλίζει. ἀντὶ τοῦ μεταστρέφει. | γογγυλίζει (= R ; γογγύλλει Porson) | = Souda γ 361 (Adler : « cf. Z 448 ») | partiel (OCR seul, Tittmann I ; image à relire) |
 | 57 | Eustathe | Eust. Il. 1153, 40-41 (Stallbaum, Il. IV, scan n86) | citation | ἀπὸ δὲ τούτου καὶ παρὰ τῷ κωμικῷ τὸ χοανεύειν, ῥηθὲν οὐ σεμνῶς ἐφ' οὗ ἐκεῖνος ἤθελε |  | marge 40 à la ligne précédente ; l'auteur : 1153.40 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 58 | Hésychius | θ 750 | glose | θριγκοῖς · φραγμοῖς |  | marge de l'éd. : « Hom. » (glose rapportée à Homère) | oui (Cunningham IIa, OCR de la page) ; ligne contrôlée sur l'image |
 | 62 | Hésychius | χ 575 | glose | χοανεῦσαι · χωνεῦσαι |  | l'éd. renvoie à Thesm. 62 | oui (Hansen–Cunningham IV, OCR de la page) ; ligne contrôlée sur l'image |
-| 62 | Moeris | Moeris χ 21 | — | χοανεῦσαι = χωνεῦσαι |  | référence de l'auteur, non contrôlée | non |
-| 74 | Souda | Souda κ 1487 | citation | οὐ χρῆν σε κρύπτειν ὄντα κηδεστὴν ἐμόν | — |  | oui (SOL) |
+| 62 | Moeris | χ 21 (Bekker p. 213) | glose | χοανεῦσαι Ἀττικοί, χωνεῦσαι Ἕλληνες |  |  | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
+| 74 | Souda | Souda κ 1487 | citation | οὐ χρῆν σε κρύπτειν ὄντα κηδεστὴν ἐμόν | — | apparat d'Adler : 22 χρῆν] χρή AGM (AʳF(GVM)) | oui (Adler III 107, 22-23, contrôle du 28/10 recoupé sur l'OCR) |
 | 80 | Hésychius | τ 1440 | glose | τρίτη Θεσμοφορίων · ζητεῖται πῶς ἅμα μὲν λέγει τρίτην Θεσμοφορίων εἶναι, ἅμα δὲ μέσην, τεττάρων οὐσῶν ἡμερῶν |  | issue de la scholie au v. 80 ; l'éd. renvoie à Thesm. 80 | oui (Hansen–Cunningham IV, OCR de la page) ; ligne contrôlée sur l'image |
-| 93 | Souda | Souda κ 2025 | citation | τὸ πρᾶγμα κομψὸν καὶ σφόδρ' ἐκ τοῦ σοῦ τρόπου | — | « καὶ αὖθις » | oui (SOL) |
-| 93-94 | Souda | Souda τ 439 | citation | τὸ πρᾶγμα κομψὸν καὶ σφόδρ' ἐκ τοῦ σοῦ τρόπου · τοῦ γὰρ τεχνάζειν ἡμέτερος ὁ πυραμοῦς | — |  | oui (SOL) |
-| 94 | Souda | Souda π 3192 | citation | ἡμέτερος ὁ πυραμοῦς | — | cf. τ 439 | oui (SOL) |
-| 96 | Zonaras | Zonaras 678 ἐκκυκλεῖ | — | οὑκκυκλούμενος |  | référence de l'auteur, non contrôlée | non |
+| 93 | Souda | Souda κ 2025 | citation | τὸ πρᾶγμα κομψὸν καὶ σφόδρ' ἐκ τοῦ σοῦ τρόπου | — | « καὶ αὖθις » ; apparat d'Adler : 6 ὁ—16 τρόπου om. F ; 8 Ἀριστοφάνης—16 τρόπου om. V (la citation manque dans F et V) ; 15 καί (de καὶ αὖθις) om. A ; AʳF(GVM) | oui (Adler III 152, 15-16, contrôle du 28/10 recoupé sur l'OCR) |
+| 93-94 | Souda | Souda τ 439 | citation | τὸ πρᾶγμα κομψὸν καὶ σφόδρ' ἐκ τοῦ σοῦ τρόπου · τοῦ γὰρ τεχνάζειν ἡμέτερος ὁ πυραμοῦς | — | apparat d'Adler : aucune sur la citation (14.15 διαπαννυχίζουσιν] παννυχίζουσιν A ; 15 ἐγρηγορὼς] ἐγρηγορῶν A : scholie) ; A(GFVM) | oui (Adler IV 535, 12-14, image de la page) |
+| 94 | Souda | Souda π 3192 | citation | ἡμέτερος ὁ πυραμοῦς | — | cf. τ 439 ; apparat d'Adler : aucune sur la citation ; A(GFVM) | partiel (Adler IV 273, 18-21, saisie non confirmée sur l'image) |
+| 96 | Souda | Souda ε 699 | glose | Ἐκκυκλεῖ : ἐκκαλύπτει. καὶ Ἐκκυκλούμενος, ἐκκύκλημα ἔχων | — | tiré de la scholie au v. 96 (Adler) ; non relevé par l'auteur ; apparat d'Adler : aucune ; A(GITFVM) | partiel (Adler II 236, 7-8, saisie non confirmée sur l'image) |
+| 96 | Zonaras | col. 678 | glose | Ἐκκυκλεῖ. ἐκκαλύπτει. καὶ ἐκκυκλούμενος, ἐκκύκλημα ἔχων. |  | = Souda ε 699 (Adler : Z 678) | partiel (OCR seul, Tittmann I ; image à relire) |
 | 100 | Hésychius | μ 1904 | glose | Μύρμηκος ἀτραπούς · Ἀθήνησιν ἐν Σκαμβωνιδῶν ἔστι Μύρμηκος ἀτραπός, ἀπὸ ἥρωος Μύρμηκος ὀνομαζομένη |  | Schmidt renvoie à Thesm. 100 ; numéro de Latte non contrôlé (vol. II absent) | partiel (glose lue dans Schmidt, éd. minor, OCR ; n° non vérifié) |
-| 100 | Photius | Photius μ 606 Μύρμηκος ἀτραπός | — |  |  | référence de l'auteur, non contrôlée | non |
-| 100 | Souda | Souda μ 1445 | citation | μυρμήκων ἀτραποὺς ἤ τί διαμινυρίζεται | μυρμήκων (R μύρμηκος) ; διαμινυρίζεται (texte διαμινύρεται) |  | oui (SOL) |
-| 105 | Souda | Souda σ 175 | glose | Σεβίσαι, ἀντὶ τοῦ εὐλογῆσαι | — | tiré de la scholie au v. 105 (SOL) | oui (SOL) |
-| 105-106 | Souda | Souda σ 178 | citation | εὐπίστως τοὐμὸν δαίμονας ἔχει σεβίσαι | εὐπίστως (= R) ; om. δέ ; ἔχει (R ἔχεις) |  | oui (SOL) |
-| 105-106 | Souda | Souda σ 183 | citation | εὐπίστως δὲ τοὐμὸν δαίμονας ἔχει σεβίσαι | εὐπίστως (= R ; εὐπείστως Reiske) ; ἔχει (R ἔχεις) |  | oui (SOL) |
+| 100 | Photius | μ 606 | glose | Μύρμηκος ἀτραπός · ἐν Θεσμοφοριαζούσαις Ἀριστοφάνης · ἀντιφωνεῖ ἤ τι τοιοῦτο διὰ τὴν βραχύτητα · ἔστιν Ἀθήνῃσι Μύρμηκος ἀτραπὸς ἐν Σκαμβωνιδῶν ἀπὸ Μύρμηκος τοῦ Μελανίππου τοῦ Κύκλωπος τοῦ Ζευξίππου | Μύρμηκος (= R ; μυρμήκων Souda μ 1445) | pièce nommée | partiel (texte lu dans Naber 1864, image de la page ; n° de Theodoridis non contrôlé) |
+| 100 | Souda | Souda μ 1445 | citation | μυρμήκων ἀτραποὺς ἤ τί διαμινυρίζεται | μυρμήκων (R μύρμηκος) ; διαμινυρίζεται (texte διαμινύρεται) | apparat d'Adler : 21 μυρμήκων (cf. vs. 23)] μυρμήκους G, Μύρμηκος Ar. Phot. (A(GFVM)) | oui (Adler III 427, 21, contrôle du 28/10 recoupé sur l'OCR) |
+| 101 | Souda | Souda χ 403 | glose | Χορικός : ὁ τοῦ χοροῦ ἐξάρχων. τοιοῦτος ἦν Ἀγάθων, ὃς ὑποκριτικὰ μέλη ἐποίει καὶ αὐτὸς ὑποκρίνεται · διὸ καὶ χορικὰ λέγει | — | tiré de la scholie au v. 101 (Adler) ; non relevé par l'auteur ; apparat d'Adler : 11 ὑπεκρίνετο AGFM, in M 1445 G ; λέγει e sch. Bhd. : cp. GSM, λέγεται F, M 1445, λέγονται A ; Aʳ S (GFMC) | oui (Adler IV 815, 10-11, image de la page) |
+| 105 | Souda | Souda σ 175 | glose | Σεβίσαι, ἀντὶ τοῦ εὐλογῆσαι | — | tiré de la scholie au v. 105 (SOL) ; apparat d'Adler : aucune ; A(GVM) | partiel (Adler IV 332, 2, saisie non confirmée sur l'image) |
+| 105-106 | Souda | Souda σ 178 | citation | εὐπίστως τοὐμὸν δαίμονας ἔχει σεβίσαι | εὐπίστως (= R) ; om. δέ ; ἔχει (R ἔχεις) | apparat d'Adler : 24 Ἀριστοφάνης—25 εὐλογῆσαι om. AV (la citation manque dans A et V) ; A(GVM) | partiel (Adler IV 332, 23-25, saisie non confirmée sur l'image) |
+| 105-106 | Souda | Souda σ 183 | citation | εὐπίστως δὲ τοὐμὸν δαίμονας ἔχει σεβίσαι | εὐπίστως (= R ; εὐπείστως Reiske) ; ἔχει (R ἔχεις) | apparat d'Adler : 183 om. AG(F) (notice propre à V et M) ; 5 τουτέστιν—6 εὐλογῆσαι V, 178, sch. : καὶ ἑξῆς, ὡς πρὸ ὀλίγων ἐγράφη M ; aucune sur les mots cités ; A(GFVM) | partiel (Adler IV 336, 4-6, saisie non confirmée sur l'image) |
 | 115-116 | Eustathe | Eust. Il. 361, 37 (Stallbaum, Il. I, scan n298 (p. 293)) | citation | ἔτι δὲ καὶ ἀγροτέρα Ἄρτεμις, ὡς καὶ ὁ κωμικὸς δηλοῖ |  | 361 en marge de n297 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
-| 120 | EM | Etymologicum magnum 153.21 Ἀσιάδος κρούματα· τῆς κιθάρας. οὔτως Αριστοφάνης εἶπε, παρῳδῶν τὸ ἐξ Ἐρεχθέως Εὐριπίδου | — |  |  | référence de l'auteur, non contrôlée | non |
+| 120 | EM | Et. M. 153, 31 | lemme | Ἀσιάτις] ἀσιάδος κρούματα. τῆς κιθάρας. οὕτως Ἀριστο… | ordre Ἀσιάδος κρούματα (texte κρούματά τ' Ἀσιάδος) | l'auteur : 153.21 ; Adler (α 4147) : Et. M. 153, 31 | partiel (OCR seul, éd. de Leipzig 1816 ; image à relire) |
 | 120 | Et. Gen. | Etymologicum genuinum (AB) α 1271 ed. Lasserre-Livadaras | — |  |  | référence de l'auteur, non contrôlée | non |
 | 120 | Photius | α 2957 | lemme | Ἀσιάδος κρούματα (= Synagoge Σᵇ α 2226) | κρούματος (Photius, selon l'apparat de Cunningham) |  | oui (n° et identité de la glose confirmés par l'apparat de Cunningham à la Synagoge Σᵇ α 2226 ; texte de Photius non lu) |
-| 120 | Souda | Souda α 4147 | lemme | Ἀσιάδος κρούματα, τῆς κιθάρας · οὕτως Ἀριστοφάνης | ordre Ἀσιάδος κρούματα (texte κρούματά τ' Ἀσιάδος) | cf. EM 153, 21 ; Photius α 2957 ; Συναγωγή α 2226 (renvois de l'auteur, voir ces sources) | oui (SOL) |
+| 120 | Souda | Souda α 4147 | lemme | Ἀσιάδος κρούματα, τῆς κιθάρας · οὕτως Ἀριστοφάνης | ordre Ἀσιάδος κρούματα (texte κρούματά τ' Ἀσιάδος) | cf. EM 153, 21 ; Photius α 2957 ; Συναγωγή α 2226 (renvois de l'auteur, voir ces sources) ; apparat d'Adler : aucune sur la citation (A(GITFVM)) | oui (Adler I 381, 1-2, contrôle du 28/10 recoupé sur l'OCR) |
 | 120 | Synagoge | Σᵇ α 2226 | lemme | Ἀσιάδος κρούματα · τῆς κιθάρας. οὕτως Ἀριστοφάνης | ordre Ἀσιάδος κρούματα (texte κρούματά τ' Ἀσιάδος) | parallèles : Souda α 4147, Photius α 2957, Et. Gen. | oui (Cunningham, PDF p. 679, OCR) |
 | 125 | Scholie | Scholium | — | ἄρσενι βοᾷ δοκιμῳ |  | référence de l'auteur, non contrôlée | non |
-| 125 | Souda | Souda α 4016 | lemme | Ἄρσενι βοᾷ δοκίμῳ | δοκίμῳ (= R) |  | oui (SOL) |
-| 127 | Souda | Souda δ 891 | lemme | Δι' αἰφνιδίου ὀπός | — | cf. ο 471 | oui (SOL) |
-| 127 | Souda | Souda ο 471 | lemme | δι' αἰφνιδίου ὀπός | — | cf. δ 891 | oui (SOL) |
+| 125 | Souda | Souda α 4016 | lemme | Ἄρσενι βοᾷ δοκίμῳ | δοκίμῳ (= R) | apparat d'Adler : aucune (A(GITVM)) | oui (Adler I 367, 16, contrôle du 28/10 recoupé sur l'OCR) |
+| 127 | Souda | Souda δ 891 | lemme | Δι' αἰφνιδίου ὀπός | — | cf. ο 471 ; apparat d'Adler : 19 αἰφνιδίου] αἰφηδίου A ; ὀπός] ἤγουν φωνῆς ss. V (A(GITFVM)) | oui (Adler II 82, 19, contrôle du 28/10 recoupé sur l'OCR) |
+| 127 | Souda | Souda ο 471 | lemme | δι' αἰφνιδίου ὀπός | — | cf. δ 891 ; apparat d'Adler : notice om. AFS ; 3 Ὀπός] φωνῆς ss. M (A(GFSM)) | oui (Adler III 549, 3, contrôle du 28/10 recoupé sur l'OCR) |
 | 128 | Photius | α 164 | glose | ἀγῆλαι · τιμῆσαι … (ἄγαλλε) (= Σᵇ α 145, 2ᵉ partie) |  |  | oui (n° et identité de la glose confirmés par l'apparat de Cunningham à la Synagoge Σᵇ α 145 ; texte de Photius non lu) |
 | 128 | Synagoge | Σᵇ α 145 | glose | ἀγῆλαι · τιμῆσαι θεόν, ἀγλαΐσαι … καὶ ἄγαλλε καὶ προσαγήλει τὸν θεόν … |  | parallèles : Souda α 217, Photius α 163-164 | oui (Cunningham, PDF p. 539, OCR) |
-| 129-130 | Souda | Souda ο 194 | glose | Ὀλολύζει ὁ γέρων … | — | tiré de la scholie au v. 129 ; selon la SOL, R porte dans le texte une indication semblable (ὀλολύζεις γέρων), à contrôler sur l'image | oui (SOL) |
+| 129-130 | Souda | Souda ο 194 | glose | Ὀλολύζει ὁ γέρων … | — | tiré de la scholie au v. 129 ; selon la SOL, R porte dans le texte une indication semblable (ὀλολύζεις γέρων), à contrôler sur l'image ; apparat d'Adler : aucune (A(GFVM)) | oui (Adler III 520, 2-3, contrôle du 28/10 recoupé sur l'OCR) |
 | 130 | Hésychius | γ 343 | glose | Γενετυλλίς · γυναικεία θεός, πεποιημένου τοῦ ὀνόματος παρὰ τὰς γενέσεις … |  |  | oui (Latte I, OCR de la page) |
-| 130-132 | Souda | Souda γ 141 | citation | ἡδὺ τὸ μέλος, ὦ πότνιαι Γενετυλλίδες … καὶ μανδαλωτόν | — |  | oui (SOL) |
+| 130-132 | Souda | Souda γ 141 | citation | ἡδὺ τὸ μέλος, ὦ πότνιαι Γενετυλλίδες … καὶ μανδαλωτόν | — | apparat d'Adler : p. 514, 30 ἀπό—p. 515, 3 μανδαλωτόν] καὶ τὰ ἑξῆς F, om. V (la citation manque donc dans F et V) ; A(GITFVM) | oui (Adler I 514, 29 - 515, 3, contrôle du 28/10 recoupé sur l'OCR) |
 | 131 | Hésychius | θ 491 | glose | θηλυδριῶδες · τὸ κατακεκλασμένον |  | l'éd. renvoie à Thesm. 131 | oui (Cunningham IIa, OCR de la page) |
-| 131 | Pollux | II 109 (Dindorf I p. 102) | glose | οἱ δὲ κωμικοί, καταγλωττίζειν ἐν φιλήματι. καὶ καταγλωττισμός, καὶ καταγλωττισμένον | καταγλωττισμένον (texte κατεγλωττισμένον) | glose | oui (Dindorf 1824, image de la page ; numérotation des §§ identique chez Bethe) |
-| 131 | Souda | Souda κ 912 | citation | θηλυδριῶδες καὶ κατεγλωττισμένον | — |  | oui (SOL) |
+| 131 | Pollux | II 109 (Bethe I p. 118) | glose | οἱ δὲ κωμικοὶ (Aristoph Thesm 131) καταγλωττίζειν ἐν φιλήματι καὶ καταγλωττισμός | καταγλωττίζειν, καταγλωττισμός (Dindorf ajoute καὶ καταγλωττισμένον) | renvoi de Bethe à Thesm. 131 | partiel (OCR seul, Bethe I ; image à relire ; Dindorf 1824 lu) |
+| 131 | Souda | Souda κ 912 | citation | θηλυδριῶδες καὶ κατεγλωττισμένον | — | apparat d'Adler : aucune sur la citation (29 ἀντί—30 κατεγλωττισμένον om. F ; 30 καταγλωττισμένον V : portent sur la glose) ; AF(GVM) | oui (Adler III 66, 28-29, contrôle du 28/10 recoupé sur l'OCR) |
 | 131-132 | Scholie | Σ Ach. 1201 (Dübner p. 30) | glose | Ἄλλως. μανδαλωτόν, εἶδος φιλήματος ποικίλον καὶ ἡδύ, θηλυδριῶδες, καὶ κατεγλωττισμένον |  | = Souda μ 134 ; entre parenthèses chez Dübner | oui (Dübner, image de la page) |
-| 131-132 | Souda | Souda μ 134 | citation | θηλυδριῶδες καὶ κατεγλωττισμένον καὶ μανδαλωτόν | — |  | oui (SOL) |
+| 131-132 | Souda | Souda μ 134 | citation | θηλυδριῶδες καὶ κατεγλωττισμένον καὶ μανδαλωτόν | — | apparat d'Adler : aucune (aucune entrée pour les l. 23-24) | oui (Adler III 317, 23-24, contrôle du 28/10 recoupé sur l'OCR) |
 | 132 | Hésychius | μ 224 | glose | μανδαλωτόν · φίλημα ποιὸν οὕτω καλεῖται |  | Schmidt renvoie à Thesm. 132 et Ach. 1201 ; numéro de Latte non contrôlé (vol. II absent) | partiel (glose lue dans Schmidt, éd. minor, OCR ; n° non vérifié) |
-| 132 | Photius | Photius μ 86, cf. Photius γ 115 | — |  |  | référence de l'auteur, non contrôlée | non |
-| 132-133 | Souda | Souda γ 63 | citation | ὥστ' ἐμοῦ γ' ἀκροωμένου τοῦ μέλους … ὑπῆλθε γάργαλος | add. τοῦ μέλους | l'auteur cite « γ 83 » (= Γαιήοχος) : lire γ 63 | oui (SOL) |
+| 132 | Photius | μ 86 | glose | μανδαλωτόν · εἶδος φιλήματος, ὡς γιγγλυμωτὸν καὶ δράπετον καὶ ἕτερα |  |  | partiel (texte lu dans Naber 1864, image de la page ; n° de Theodoridis non contrôlé) |
+| 132-133 | Souda | Souda γ 63 | citation | ὥστ' ἐμοῦ γ' ἀκροωμένου τοῦ μέλους … ὑπῆλθε γάργαλος | add. τοῦ μέλους | l'auteur cite « γ 83 » (= Γαιήοχος) : lire γ 63 ; apparat d'Adler : 27 γ' om. FV (A(GITFVM)) | partiel (Adler I 508, 27 - 509, 1, saisie non confirmée sur l'image) |
 | 132-133 | Zonaras | col. 423 | citation | Γαργαλίζει. κινεῖ, ὑποσημαίνει, προτρέπει, [ἐρεθίζει. ὑπὸ τὴν ἕδραν αὐτὴν ὑπῆλθε γάργαλος.] | — | partie entre crochets chez Tittmann ; non relevé par l'auteur | oui (Tittmann I, image de la page) |
-| 133 | Moeris | Moeris γ 23, cf. Phrynichus Praep. soph. 56.9 | — | γάργαλος = γαργαλισμός |  | référence de l'auteur, non contrôlée | non |
+| 133 | Moeris | γ 23 (Bekker p. 194) | glose | γάργαλος Ἀττικοί, γαργαλισμός Ἕλληνες |  |  | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
+| 133 | Phrynichus | Praep. soph. 56, 9 | glose | γάργαλος (Aristoph. saepius) : ὁ ἐρεθισμός. καὶ γαργαλισμός. τὸ δὲ γαργαλίζεσθαι οὐκ Ἀττικόν |  | de Borries : « Aristoph. saepius » ; Adler (γ 62) renvoie à Phryn. 56, 9 | partiel (OCR seul, de Borries 1911 ; image à relire) |
 | 134 | Hésychius | η 948 | glose | ἥτις · ὅστις |  | glose générique ; rapprochement douteux (« ? » chez l'auteur) | oui (Cunningham IIa, OCR de la page) |
 | 136 | Hésychius | γ 1015 | glose | γύννις · δειλός, ἄνανδρος, γυναικώδης · Ἀριστοφάνης |  | Aristophane nommé ; l'éd. renvoie à Thesm. 136 | oui (Latte I, OCR de la page) ; ligne contrôlée sur l'image |
-| 136 | Souda | Souda γ 504 | citation | ποδαπὸς ὁ γύννις; τίς πάτρα; | — |  | oui (SOL) |
-| 136-140 | Souda | Souda β 110 | citation | τίς ἡ στολή; … τίς δὲ κατόπτρου καὶ ξίφους κοινωνία; | ἀξύμφορον (R οὐ ξύμφορον ; Adler suit ici M selon l'apparat de l'auteur) ; δὲ (texte δαί) | l'apparat de l'auteur cite par erreur « Suid. β 190 » au v. 139 | oui (SOL) |
+| 136 | Souda | Souda γ 504 | citation | ποδαπὸς ὁ γύννις; τίς πάτρα; | — | apparat d'Adler : aucune (A(GITFVM)) | oui (Adler I 548, 28-29, contrôle du 28/10 recoupé sur l'OCR) |
+| 136-140 | Souda | Souda β 110 | citation | τίς ἡ στολή; … τίς δὲ κατόπτρου καὶ ξίφους κοινωνία; | ἀξύμφορον (R οὐ ξύμφορον ; Adler suit ici M selon l'apparat de l'auteur) ; δὲ (texte δαί) | l'apparat de l'auteur cite par erreur « Suid. β 190 » au v. 139 ; apparat d'Adler : 19 ἀξύμφορον M : ἀξύμφον T : ὀξύμφορον AGI : οὐ ξύμφορον V : ξύμφορον F (A(GITFVM)) | partiel (Adler I 454, 17-19, saisie non confirmée sur l'image) |
 | 137 | Photius | Hesychius β 211 βάρβιτος, cf. Photius β 62 | — | βάρβιτος |  | référence de l'auteur, non contrôlée | non |
-| 141-142 | Souda | Souda π 987 | citation | πότερον, ὡς ἀνὴρ τρέφῃ; ποῦ δὲ τὸ πέος; | τρέφῃ (texte τρέφει) ; ποῦ δὲ τὸ πέος (texte καὶ ποῦ πέος) | « καὶ αὖθις » | oui (SOL) |
+| 141-142 | Souda | Souda π 987 | citation | πότερον, ὡς ἀνὴρ τρέφῃ; ποῦ δὲ τὸ πέος; | τρέφῃ (texte τρέφει) ; ποῦ δὲ τὸ πέος (texte καὶ ποῦ πέος) | « καὶ αὖθις » ; apparat d'Adler : 23 καί—24 ἀποτεθρίακεν om. F ; 23 καί—24 πέος pr. om. A (la citation manque dans A et F) ; AʳF(GVM) | oui (Adler IV 85, 23-24, contrôle du 28/10 recoupé sur l'OCR) |
 | 142 | Hésychius | λ 225 | glose | Λακωνικαί |  | référence de l'auteur ; vol. κ–ο de Latte absent, glose non retrouvée dans l'OCR de Schmidt | non |
-| 142 | Moeris | Moeris χ 19 χλαῖνα | — |  |  | référence de l'auteur, non contrôlée | non |
-| 142 | Photius | Photius λ 57 Λακωνικαί | — | Λακωνικαί |  | référence de l'auteur, non contrôlée | non |
+| 142 | Moeris | χ 19 (Bekker p. 213) | glose | χλαῖνα Ἀττικοί, ἱμάτιον χειμερινόν Ἕλληνες |  |  | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
+| 142 | Photius | λ 57 | glose | Λακωνικαί · ὑπόδημα ἀνδρεῖον, σεμνόν |  |  | partiel (texte lu dans Naber 1864, image de la page ; n° de Theodoridis non contrôlé) |
 | 142 | Scholie | Σ Vesp. 1158 (Dübner p. 161) | citation | ὡς αὐτὸς Ἀριστοφάνης ἐν Θεσμοφοριαζούσαις · ποῦ τὸ πέος ; ποῦ χλαῖνα ; ποῦ Λακωνικαί ; | τὸ πέος (texte καὶ ποῦ πέος) | pièce nommée ; cf. Souda λ 63 | oui (Dübner, image de la page) |
-| 142 | Souda | Souda λ 63 | citation | ποῦ τὸ πέος; ποῦ χλαῖνα; ποῦ Λακωνικαί; | τὸ πέος (texte καὶ ποῦ πέος) |  | oui (SOL) |
-| 146-147 | Souda | Souda α 1097 | citation | ὦ πρέσβυ, πρέσβυ, τοῦ φθόνου τὸν ψόγον … οὐ παρεσχόμην | om. μέν ; τὴν δὲ (texte τὴν δ') |  | oui (SOL) |
+| 142 | Souda | Souda λ 63 | citation | ποῦ τὸ πέος; ποῦ χλαῖνα; ποῦ Λακωνικαί; | τὸ πέος (texte καὶ ποῦ πέος) | apparat d'Adler : aucune (A(GFVME)) | oui (Adler III 229, 25-26, contrôle du 28/10 recoupé sur l'OCR) |
+| 146-147 | Souda | Souda α 1097 | citation | ὦ πρέσβυ, πρέσβυ, τοῦ φθόνου τὸν ψόγον … οὐ παρεσχόμην | om. μέν ; τὴν δὲ (texte τὴν δ') | apparat d'Adler : aucune (A(GITSM)) | oui (Adler I 99, 26-28, contrôle du 28/10 recoupé sur l'OCR) |
 | 149-150 | Apostolius | XVIII 41h (CPG II p. 729) | citation | Χρὴ γὰρ ποιητὴν ἄνδρα πρὸς τὰ δράμματα ἃ δεῖ ποιεῖν, πρὸς ταῦτα τοὺς τρόπους ἔχειν. Ἀριστοφάνους | δράμματα (sic) | attribué à Aristophane | oui (CPG II, image de la page) |
-| 159-160 | Souda | Souda α 350 | citation | ἄλλως τ' ἄμουσόν ἐστι … ἀγρεῖον ὄντα καὶ δασύν | — | « καὶ αὖθις » ; reprise de α 1633 | oui (SOL) |
-| 159-161 | Souda | Souda α 1633 | citation | ἄλλως τ' ἄμουσόν ἐστι … κ' Ἀνακρέων ὁ Τήϊος | κ' Ἀνακρέων (texte κἀνακρέων) | suivi de « καὶ τὰ ἑξῆς » | oui (SOL) |
-| 161-162 | Souda | Souda ε 4049 | citation | Ἀνακρέων, Ἀλκαῖος, οἵπερ ἁρμονίαν ἐχύμισαν | ἐχύμισαν (R ἐχύμησαν) ; Ἀνακρέων, Ἀλκαῖος (texte κἀνακρέων … κἀλκαῖος) |  | oui (SOL) |
+| 159-160 | Souda | Souda α 350 | citation | ἄλλως τ' ἄμουσόν ἐστι … ἀγρεῖον ὄντα καὶ δασύν | — | « καὶ αὖθις » ; reprise de α 1633 ; apparat d'Adler : Ἀριστοφάνης (l. 9)—δασύν om. S ; καὶ αὖθις—δασύν hic M, post α 373 AGIT ; καὶ αὖθις om. A | oui (Adler I 36, 10-11, contrôle du 28/10 recoupé sur l'OCR) |
+| 159-161 | Souda | Souda α 1633 | citation | ἄλλως τ' ἄμουσόν ἐστι … κ' Ἀνακρέων ὁ Τήϊος | κ' Ἀνακρέων (texte κἀνακρέων) | suivi de « καὶ τὰ ἑξῆς » ; apparat d'Adler : aucune (A(GITSM)) | oui (Adler I 145, 4-6, contrôle du 28/10 recoupé sur l'OCR) |
+| 161-162 | Souda | Souda ε 4049 | citation | Ἀνακρέων, Ἀλκαῖος, οἵπερ ἁρμονίαν ἐχύμισαν | ἐχύμισαν (R ἐχύμησαν) ; Ἀνακρέων, Ἀλκαῖος (texte κἀνακρέων … κἀλκαῖος) | apparat d'Adler : aucune (A(GIFVM)) | oui (Adler II 496, 30-31, contrôle du 28/10 recoupé sur l'OCR) |
 | 162 | Hésychius | ε 7681 | glose | ἐχύμισαν · ἤρτυσαν | ἐχύμισαν (R ἐχύμησαν) | l'éd. renvoie à Thesm. 162 | oui (Cunningham IIa, OCR de la page) |
 | 162 | Zonaras | Zonaras 942 οἵπερ ἁρμονίαν ἐχύμισαν | — |  |  | référence de l'auteur, non contrôlée | non |
-| 162-163 | Souda | Souda ε 989 | citation | κ' Ἀλκαῖος, οἵπερ ἁρμονίαν ἐχύμισαν … διεκίνουν Ἰωνικῶς | ἐχύμισαν (R ἐχύμησαν) ; διεκίνουν (R διεκίνων) |  | oui (SOL) |
-| 162-3 | Zonaras | Zonaras 707 ἐμιτροφόρουν | — | κ' Ἀλκαῖος – Ἰωνικῶς |  | référence de l'auteur, non contrôlée | non |
-| 163 | Souda | Souda ι 495 | citation | ἐμιτροφόρουν τε καὶ διεκίνουν Ἰωνικῶς | διεκίνουν (R διεκίνων) |  | oui (SOL) |
-| 165 | Souda | Souda η 362 | glose | Ἠμπέσχετο | — | glose (texte ἠμπέσχετο ; source incertaine selon la SOL) | oui (SOL) |
+| 162-163 | Souda | Souda ε 989 | citation | κ' Ἀλκαῖος, οἵπερ ἁρμονίαν ἐχύμισαν … διεκίνουν Ἰωνικῶς | ἐχύμισαν (R ἐχύμησαν) ; διεκίνουν (R διεκίνων) | apparat d'Adler : aucune sur la citation (14 ἐζωώσατο M porte sur la glose) ; (GITFVMB) : A manque | oui (Adler II 257, 14-16, image de la page) |
+| 162-163 | Zonaras | col. 707 | glose | Ἐμιτροφόρουν. ἀντὶ τοῦ μίτρας … |  |  | partiel (OCR seul, Tittmann I ; image à relire) |
+| 163 | Souda | Souda ι 495 | citation | ἐμιτροφόρουν τε καὶ διεκίνουν Ἰωνικῶς | διεκίνουν (R διεκίνων) | apparat d'Adler : aucune sur la citation (p. 654 : 1 ἁβρῶς] ἀκριβῶς F) ; A²(GIFVM) | oui (Adler II 653, 27 - 654, 2, contrôle du 28/10 recoupé sur l'OCR) |
+| 165 | Souda | Souda η 362 | glose | Ἠμπέσχετο | — | glose (texte ἠμπέσχετο ; source incertaine selon la SOL) ; apparat d'Adler : 6 Ἠμπέσχετο] Ἠμπίσχετο A ; Ἠμπίσχετο] Ἠμπέσχετο FI ; δοτικῇ om. F ; 6-7 Ἠμπείσχετο V (A²F(GITVME)) | oui (Adler II 572, 6-7, contrôle du 28/10 recoupé sur l'OCR) |
 | 168 | Scholie | scholium Aves 1295a.α | — | ὁ Φιλοκλέης αἰσχρὸς = κορυδός |  | référence de l'auteur, non contrôlée | non |
-| 173 | Souda | Souda β 192 | citation | βαΰζων · καὶ γὰρ ἐγὼ τοιοῦτος ἦν | ἦν (= R) |  | oui (SOL) |
+| 168 | Souda | Souda φ 379 | glose | Φιλοκλῆς, κωμῳδίας ποιητής, αἰσχροπρόσωπος | — | αἰσχροπρόσωπος tiré de la scholie au v. 168 (Adler) ; d'abord écartée comme notice biographique ; apparat d'Adler : 29 αἰσχροπρόσωπος—p. 728, 3 ὀξυκεφάλων om. F ; A(GFVM) | oui (Adler IV 727, 29 - 728, 3, image de la page) |
+| 173 | Souda | Souda β 192 | citation | βαΰζων · καὶ γὰρ ἐγὼ τοιοῦτος ἦν | ἦν (= R) | apparat d'Adler : aucune (A(GITFVM)) | oui (Adler I 463, 6-7, contrôle du 28/10 recoupé sur l'OCR) |
 | 173 | Zonaras | col. 379 | citation | Βαΰζων. ὑλακτῶν. Ἀριστοφάνης · βαΰζων γὰρ καὶ ἐγὼ τοιοῦτος ἦν | γὰρ καί (texte καὶ γάρ) |  | oui (Tittmann I, image de la page) |
-| 175 | Souda | Souda ζ 63 | citation | οὐ ζηλῶ σε τῆς παιδεύσεως | — |  | oui (SOL) |
+| 175 | Souda | Souda ζ 63 | citation | οὐ ζηλῶ σε τῆς παιδεύσεως | — | apparat d'Adler : aucune (A(GITFVM)) | oui (Adler II 505, 16-17, contrôle du 28/10 recoupé sur l'OCR) |
 | 176 | Scholie | Scholium v. 500 (sed ἀλλ' εἰπεῖν βούλομαι pro ἔα μ' εἰπεῖν) | — |  |  | référence de l'auteur, non contrôlée | non |
-| 177-178 | Souda | Souda οι 154 | citation | σοφοῦ πρὸς ἀνδρός, ὅστις ἐν βραχεῖ … οἷός τε συντέμνειν λόγους | — | « καὶ αὖθις » | oui (SOL) |
-| 177-180 | Souda | Souda σ 792 | citation | σοφοῦ πρὸς ἀνδρός … ἱκέτης ἀφῖγμαι πρὸς σέ | συντεμεῖν (texte συντέμνειν) ; κοινῇ (= R ; καινῇ Biset) |  | oui (SOL) |
-| 179 | Souda | Souda κ 2556 | citation | ἐγὼ δὲ κοινῇ ξυμφορᾷ πεπληγμένος | κοινῇ (= R ; καινῇ Biset) |  | oui (SOL) |
-| 191 | Souda | Souda ε 1871 | glose | Ἐξυρημένος | — | glose (source possible : v. 191, SOL) | oui (SOL) |
-| 192 | Pollux | II 111 (Dindorf I p. 103) | glose | βαρύφωνος, γυναικόφωνος, ὡς Ἀριστοφάνης |  | Aristophane nommé | oui (Dindorf 1824, image de la page ; numérotation des §§ identique chez Bethe) |
+| 177-178 | Souda | Souda οι 154 | citation | σοφοῦ πρὸς ἀνδρός, ὅστις ἐν βραχεῖ … οἷός τε συντέμνειν λόγους | — | « καὶ αὖθις » ; apparat d'Adler : aucune sur la citation (A(GFVM)) | oui (Adler IV 626, 24-25, contrôle du 28/10 recoupé sur l'OCR) |
+| 177-180 | Souda | Souda σ 792 | citation | σοφοῦ πρὸς ἀνδρός … ἱκέτης ἀφῖγμαι πρὸς σέ | συντεμεῖν (texte συντέμνειν) ; κοινῇ (= R ; καινῇ Biset) | apparat d'Adler : 21 ξυμφορᾷ] συμφορᾷ FV cf. v. Κ 2556 ; A(GFVM) | oui (Adler IV 398, 19-21, image de la page) |
+| 179 | Souda | Souda κ 2556 | citation | ἐγὼ δὲ κοινῇ ξυμφορᾷ πεπληγμένος | κοινῇ (= R ; καινῇ Biset) | apparat d'Adler : 18 ξυμφορᾷ] συμφορᾷ GFM (cf. v. σοῦ) ; ἀνθρωπίνῃ] καὶ add. F (A(GFVM)) | oui (Adler III 201, 18, contrôle du 28/10 recoupé sur l'OCR) |
+| 191 | Souda | Souda ε 1871 | glose | Ἐξυρημένος | — | glose (source possible : v. 191, SOL) ; apparat d'Adler : aucune (A(GITFVMB)) | oui (Adler II 323, 13, contrôle du 28/10 recoupé sur l'OCR) |
+| 192 | Pollux | II 111 (Bethe I p. 118-119) | glose | … γυναικόφωνος ὡς Ἀριστοφάνης (Thesm 192) |  | Aristophane nommé (renvoi de Bethe) | partiel (OCR seul, Bethe I ; image à relire ; Dindorf 1824 lu) |
 | 193 | Eustathe | Eust. Il. 4, 9-10 (Stallbaum, Il. I, scan n11 (p. 4)) | citation | ὡς τό, ἐποίησάς ποτε, ὦ Εὐριπίδη, ἀντὶ τοῦ, ἔγραψας ἐν τῇ ποιήσει σου |  | ποιεῖν « ὡς καὶ ὁ κωμικὸς ἐμφαίνει » ; l'auteur : 4.9 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
-| 195-197 | Souda | Souda υ 709 | citation | μὴ νῦν ἐλπίσῃς τὸ σὸν κακὸν … οἰκείως φέρε | add. ἄν (καὶ γὰρ ἂν μαινοίμεθ' ἄν ; R καὶ γὰρ μαινοίμεθ' ἄν) ; om. ἀλλ' |  | oui (SOL) |
-| 198-201 | Souda | Souda τ 440 | citation | τὰς συμφορὰς γὰρ οὐχὶ τοῖς τεχνάσμασι … ἀλλὰ τοῖς παθήμασιν | — |  | oui (SOL) |
+| 195-197 | Souda | Souda υ 709 | citation | μὴ νῦν ἐλπίσῃς τὸ σὸν κακὸν … οἰκείως φέρε | add. ἄν (καὶ γὰρ ἂν μαινοίμεθ' ἄν ; R καὶ γὰρ μαινοίμεθ' ἄν) ; om. ἀλλ' | apparat d'Adler : 25 νῦν] τοίνυν A ; 26 ἡμᾶς om. A ; A(GFVM) | oui (Adler IV 685, 25-27, image de la page) |
+| 198-201 | Souda | Souda τ 440 | citation | τὰς συμφορὰς γὰρ οὐχὶ τοῖς τεχνάσμασι … ἀλλὰ τοῖς παθήμασιν | — | apparat d'Adler : aucune ; A(GFVM) | oui (Adler IV 535, 18-20, image de la page) |
 | 215-216 | Clément | Strom. VI 26, 4 | glose | Ἀριστοφάνης δὲ ὁ κωμικὸς ἐν ταῖς πρώταις Θεσμοφοριαζούσαις τὰ ἐκ τῶν Κρατίνου Ἐμπιπραμένων μετήνεγκεν ἔπη |  | pièce nommée (« les premières Thesmophories ») ; emprunt à Cratinos, sans citation | oui (Perseus, TEI) |
-| 215-216 | Souda | Souda α 4565 | citation | ἀποξυρεῖν ταδί, τὰ κάτω δ' ἀφαύειν | ἀφαύειν (R ἀφεύειν) | sous Ἀφαυανθήσομαι (… καὶ Ἀφαύειν, καίειν) | oui (SOL) |
+| 215-216 | Souda | Souda α 4565 | citation | ἀποξυρεῖν ταδί, τὰ κάτω δ' ἀφαύειν | ἀφαύειν (R ἀφεύειν) | sous Ἀφαυανθήσομαι (… καὶ Ἀφαύειν, καίειν) ; apparat d'Adler : aucune (A(GITFVM)) | oui (Adler I 426, 25-26, contrôle du 28/10 recoupé sur l'OCR) |
 | 219-220 | Pollux | X 140 (Bethe II p. 232) | citation | ὡς ἐν Θεσμοφοριαζούσαις Ἀριστοφάνης · χρῆσόν τι ἡμῖν ξυρόν. — αὐτὸς λάμβανε ἐντεῦθεν ἐκ τῆς ξυροδόχης | om. νῦν ; ξυροδόχης (texte ξυροδόκης) | pièce nommée | oui (Bethe II, image de la page) |
 | 220 | Eustathe | Eust. Il. 130, 43 (Stallbaum, Il. I, scan n115) | citation | πανδοκεύτριαν γοῦν ὁ κωμικός φησι καὶ ξυροδόκην, καπνοδόκην | — | 130 en marge de n114, 40 en marge de n115 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 220 | Eustathe | Eust. Od. 1399, 38 (Stallbaum, Od. I, scan n41 (p. 32)) | citation | κατὰ δὲ ὁμοιότητα ταύτης τῆς λέξεως, τὴν ξυροδόκην εἶπεν ὁ κωμικός … Ἀττικὰ γοῦν, ἡ ξυροδόκη | — | marges 30 et 40 encadrant le passage | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
-| 220 | Pollux | II 32 (Dindorf I p. 81) | glose | ἡ δὲ θήκη, ξυροθήκη, ἢ ξυροδόχη παρὰ Ἀριστοφάνει καλεῖται | ξυροδόχη (texte ξυροδόκης) | Aristophane nommé ; cf. X 140 | oui (Dindorf 1824, image de la page ; numérotation des §§ identique chez Bethe) |
+| 220 | Pollux | II 32 (Bethe I p. 91) | glose | ὧν τὰ ἐργαλεῖα κτένες καὶ ξυρόν, οὗ τὴν θήκην ξυροδόκην Ἀριστοφάνης (Thesm 220) καλεῖ | ξυροδόκην (= texte ; ξηροδόχην A, ξυροθήκη B ; Dindorf imprime ξυροθήκη, ἢ ξυροδόχη) | Aristophane nommé ; cf. X 140 | partiel (OCR seul, Bethe I ; image à relire ; Dindorf 1824 lu) |
 | 220 | Scholie | Scholium | — | ξυροδόκης |  | référence de l'auteur, non contrôlée (« cf. ») | non |
 | 227 | Aelius Dionysius | Aelius Dionysius η 9 | — | ἡμίκραιραν |  | référence de l'auteur, non contrôlée | non |
 | 227 | Et. Gen. | Etymologicum genuinum (AB) 150 ed. Miller | — | ἡμίκραιραν |  | référence de l'auteur, non contrôlée | non |
 | 227 | Eustathe | Eust. Il. 1127, 33-35 (Stallbaum, Il. IV, scan n51 (p. 48)) | citation | ἐξ ἧς οἱ Ἀττικοὶ τὸ τῆς κεφαλῆς ἥμισυ ἡμίκραιραν φασίν, ὡς εὕρηται καὶ παρὰ τῷ κωμικῷ |  | marges 20 et 30 (série de Rome à gauche) ; l'auteur : 1127.35 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 227 | Eustathe | Eust. Il. 710, 50 (Stallbaum, Il. II, scan n212) | citation | ὅθεν παρὰ τῷ κωμικῷ ἐψίλωταί τις τὴν ἑτέραν ἡμίκραιραν ἤτοι τὸ ἡμίκρανον |  | 710 en marge de n211, 50 en marge de n212 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 227 | Hésychius | η 496 | glose | ἡμίκραιρα · ἡμικεφάλαιον. σιαγόνος τὸ ἥμισυ |  | l'éd. renvoie à Thesm. 227 | oui (Cunningham IIa, OCR de la page) |
-| 227 | Souda | Souda η 334 | citation | τὴν ἡμίκραιραν τὴν ἑτέραν ψιλὴν ἔχων | — |  | oui (SOL) |
+| 227 | Souda | Souda η 334 | citation | τὴν ἡμίκραιραν τὴν ἑτέραν ψιλὴν ἔχων | — | apparat d'Adler : aucune (A²F(GITVM)) | oui (Adler II 570, 9-10, contrôle du 28/10 recoupé sur l'OCR) |
 | 231 | Apostolius | Michael Apostolius XVI 60c | — | τί – καλῶς |  | référence de l'auteur, non contrôlée | non |
 | 231 | Et. Gen. | B, dans Miller, Mélanges, p. 218 | citation | Μύζεις · παρὰ τὸ μῦ · Ἀριστοφάνης · μῦ μῦ. — Τί μύζεις ; … τί μύζεις ; πάντα πεποίηται καλῶς · Ἀριστοφάνης Θεσμοφοριαζούσαις | μῦ μῦ (texte μυμῦ) | pièce nommée | oui (Miller, image de la page) |
 | 231 | Eustathe | Eust. Il. 440, 23 (Stallbaum, Il. I, scan n360) | citation | ἔστι δὲ μύζειν, ὡς καὶ ὁ κωμικὸς δηλοῖ, τὸ τὴν φωνὴν τοῦ μ̄ στοιχείου ἐκφωνεῖν |  | 440 puis 10, 20 en marge | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 231 | Eustathe | Eust. Il. 723, 9 (Stallbaum, Il. II, scan n229 (p. 222)) | glose | ἔστι δὲ μύζειν τὸ μεμυκότων χειλέων ἦχον ἀποτελεῖν διὰ τῆς ῥινός |  | glose sur μύζειν, sans mention du comique | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
-| 231 | Souda | Souda μ 1383 | citation | τί μύζεις; πάντα πεποίηται καλῶς | lemme Μῦ, μῦ (texte μυμῦ) |  | oui (SOL) |
-| 232 | Souda | Souda ψ 105 | citation | οἴμοι κακοδαίμων · ψιλὸς αὖ στρατεύσομαι | αὖ (= R) |  | oui (SOL) |
-| 236-237 | Souda | Souda α 4594 | glose | Ἀφευθεὶς τὸν πρωκτόν · Ἀριστοφάνης ἀντὶ τοῦ φλογισθείς | — | tiré de la scholie (cf. δ 205) | oui (SOL) |
-| 237 | Souda | Souda δ 205 | citation | οἴμοι κακοδαίμων, δελφάκιον γέγονα | γέγονα (texte γενήσομαι) | suivi d'une scholie (ἀφευθεὶς τὸν πρωκτόν) | oui (SOL) |
+| 231 | Souda | Souda μ 1383 | citation | τί μύζεις; πάντα πεποίηται καλῶς | lemme Μῦ, μῦ (texte μυμῦ) | apparat d'Adler : aucune sur la citation ; « 1383 extra ord. » (notice hors de l'ordre alphabétique) ; A(GFVM) | oui (Adler III 423, 13-15, contrôle du 28/10 recoupé sur l'OCR) |
+| 232 | Souda | Souda ψ 105 | citation | οἴμοι κακοδαίμων · ψιλὸς αὖ στρατεύσομαι | αὖ (= R) | apparat d'Adler : aucune sur la citation (5 προβάλλεται] παραβάλλεται S) ; Aʳ (GFSMC) | oui (Adler IV 847, 5-7, image de la page) |
+| 235 | Souda | Souda κ 1756 | lemme | Κλεισθένην ὁρῶ · Ἀριστοφάνης | Κλεισθένην (= R ; Κλεισθένη Brunck) | lemme tiré du v. 235 selon Adler, la citation qui suit étant d'Ach. 119-122 ; notice citée par l'auteur à l'apparat ; d'abord écartée à tort d'après la SOL ; apparat d'Adler : aucune sur le lemme (2 λέγεται—7 Στράτων om. F) ; Aʳ F (GVM) | partiel (Adler III 131, 2-7, saisie non confirmée sur l'image) |
+| 236-237 | Souda | Souda α 4594 | glose | Ἀφευθεὶς τὸν πρωκτόν · Ἀριστοφάνης ἀντὶ τοῦ φλογισθείς | — | tiré de la scholie (cf. δ 205) ; apparat d'Adler : notice om. FV (A(GITFVM)) | oui (Adler I 429, 14, contrôle du 28/10 recoupé sur l'OCR) |
+| 237 | Souda | Souda δ 205 | citation | οἴμοι κακοδαίμων, δελφάκιον γέγονα | γέγονα (texte γενήσομαι) | suivi d'une scholie (ἀφευθεὶς τὸν πρωκτόν) ; apparat d'Adler : aucune sur la citation ; 2-3 ἀντὶ τοῦ φλογισθείς om. G(T), mg. AM, ss. V, post εἴρηκεν F ; 3 λογισθείς A (A(GITFVM)) | oui (Adler II 20, 1-2, contrôle du 28/10 recoupé sur l'OCR) |
 | 244-245 | Photius | α 2946 | citation | ἄσβολος · θηλυκῶς … Ἀριστοφάνης ἐν Θεσμοφοριαζούσαις · τὰ πλεῖστα γὰρ ἀποπεπόνηκας. φεῦ ἰοὺ τῆς ἀσβόλου | — | glose citée aussi par Naber (Prolegomena, I p. 147, d'après « p. 450, 32 »), qui la rapporte à Aelius Dionysius | oui (n° et identité de la glose confirmés par l'apparat de Cunningham à la Synagoge Σᵇ α 2213 ; texte de Photius non lu) ; texte cité par Naber, contrôlé sur l'image |
 | 244-245 | Synagoge | Σᵇ α 2213 | citation | ἄσβολος · θηλυκῶς ἡ ἄσβολος … Ἀριστοφάνης Θεσμοφοριαζούσαις · τὰ πλεῖστα γὰρ ἀποπεπόνηκας. φεῦ ἰοὺ τῆς ἀσβόλου | — | pièce nommée ; parallèles : Photius α 2946, Ael. Dion. α 186 | oui (Cunningham, PDF p. 678, OCR) |
 | 244-5 | Aelius Dionysius | Aelius Dionysius α 186 | — | τὰ πλεῖστα – ἀσβόλου |  | référence de l'auteur, non contrôlée | non |
 | 245 | Hésychius | α 7634 | glose | ἄσβολος · ἀσβόλη |  |  | oui (Latte I, OCR de la page) |
-| 245 | Moeris | Moeris α 17 | — | ἄσβολος = ἀσβόλη |  | référence de l'auteur, non contrôlée | non |
-| 245 | Phrynichus | Phrynicus Praep. soph 28.1 (ἄσβολος fem.) | — | ἄσβολος = ἀσβόλη |  | référence de l'auteur, non contrôlée (« cf. ») | non |
-| 245 | Souda | Souda α 3473 | glose | Ἀποπεπόνηκας | — | glose (scholie au v. 245 selon Adler) | oui (SOL) |
-| 245 | Souda | Souda α 4132 | citation | φεῦ, ἰοὺ τῆς ἀσβόλου | — |  | oui (SOL) |
+| 245 | Moeris | α 17 (Bekker p. 187) | glose | ἄσβολος Ἀττικοί, ἀσβόλη Ἕλληνες |  |  | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
+| 245 | Phrynichus | Praep. soph. 28, 1 | glose | ἄσβολος (Aristoph. Thesm. 246) : θηλυκῶς λέγουσιν. Ἱππῶναξ (fr. 105) δ' ἀρσενικῶς. τινὲς δὲ καὶ τὴν ἀσβόλην | ἄσβολος (fém.) | de Borries renvoie à Thesm. 246 (numérotation différente de l'usuelle) | partiel (OCR seul, de Borries 1911 ; image à relire) |
+| 245 | Souda | Souda α 3473 | glose | Ἀποπεπόνηκας | — | glose (scholie au v. 245 selon Adler) ; apparat d'Adler : aucune (A(GITFSM)) | oui (Adler I 313, 31, contrôle du 28/10 recoupé sur l'OCR) |
+| 245 | Souda | Souda α 4132 | citation | φεῦ, ἰοὺ τῆς ἀσβόλου | — | apparat d'Adler : aucune sur la citation (27 καί—ἀσβόλῳ om. TFV porte sur la suite) ; A(GITFVM) | oui (Adler I 378, 26-27, contrôle du 28/10 recoupé sur l'OCR) |
 | 246 | Eustathe | Eust. Il. 1314, 15 (Stallbaum, Il. IV, scan n306 (p. 303)) | citation | αἰθὸς γὰρ ὀξυτόνως ὁ οἷον ἀπηνθρακωμένος κατὰ τό, αἰθὸς γεγένημαι παρὰ τῷ κωμικῷ |  | marge 10 cinq lignes avant | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 246 | Eustathe | Eust. Il. 83, 6 (Stallbaum, Il. I, scan n77) | citation | ἡ δ' αὐτὴ κόμη ῥηθείη ἂν καὶ αἰθὴ ὡς ἐκ τοῦ αἰθός, οὗ χρῆσις ἐν τῷ, αἰθὸς γεγένημαι |  | citation sans nom d'auteur | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 246 | Eustathe | Eust. Il. 992, 58-60 (Stallbaum, Il. III, scan n243 (p. 236)) | glose | οὕτως αἰθὸς πάναιθος, οὗ θηλυκὸν ἡ παναίθη |  | glose sur αἰθός sans mention du comique ; l'auteur : 992.60 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 246 | Eustathe | Eust. Od. 1385, 59 (Stallbaum, Od. I, scan n20) | citation | ὅτι ἀπὸ τοῦ αἴθω ἐξ οὗ καὶ ὁ παρὰ τῷ κωμικῷ αἰθὸς καὶ λέων αἴθων καὶ οἶνος αἶθοψ |  | marge 60 à la ligne suivante | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 246 | Hésychius | τ 1243 | glose | τράμις · τὸ ⟨τ⟩ρῆμα τῆς ἕδρας, ὁ ὄρ⟨ρ⟩ος (Hippon. fr. 114a W.) … |  | l'éd. ne renvoie pas aux Thesm. | oui (Hansen–Cunningham IV, OCR de la page) ; ligne contrôlée sur l'image |
 | 246 | Photius | τ 415 | glose | τράμις · ὁ ὄρρος ἢ ἡ διαγραφή · ἢ τὸ τρῆμα τοῦ ἀρχοῦ |  |  | oui (Theodoridis III, PDF p. 516) |
-| 246 | Souda | Souda αι 135 | glose | Αἰθός | — | glose | oui (SOL) |
-| 246 | Souda | Souda τ 903 | citation | αἰθὸς γεγένημαι πάντα τὰ περὶ τὸν τράμιν | γεγένημαι (R γεγέννημαι) ; τόν (texte τήν) |  | oui (SOL) |
-| 248 | Moeris | Moeris π 79 | — | πλυνεῖ |  | référence de l'auteur, non contrôlée | non |
+| 246 | Souda | Souda αι 135 | glose | Αἰθός | — | glose ; apparat d'Adler : aucune (A(GITFVM)) | oui (Adler II 166, 4, contrôle du 28/10 recoupé sur l'OCR) |
+| 246 | Souda | Souda τ 903 | citation | αἰθὸς γεγένημαι πάντα τὰ περὶ τὸν τράμιν | γεγένημαι (R γεγέννημαι) ; τόν (texte τήν) | apparat d'Adler : 33 τὸν] τὴν ss. M = Ar. ; A(GFVM) | oui (Adler IV 582, 32-33, image de la page) |
+| 248 | Moeris | π 79 (Bekker p. 208, 15) | glose | πλυνεῖς κατὰ τὴν πρώτην Ἀτθίδα, κναφεῖς κατὰ τὴν δευτέραν |  |  | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
 | 254 | Hésychius | π 3096 | glose | πόσθ[ο]ιον · αἰδοῖον ἀνδρός |  | l'éd. renvoie à Thesm. 254 | oui (Hansen III, OCR de la page) |
 | 254 | Photius | π 1113 | glose | πόσθιον · αἰδοῖον · ἢ τὴν Ἀφροδίτην |  |  | oui (Theodoridis III, PDF p. 284) |
-| 257-258 | Souda | Souda π 1165 | citation | ἥδιον μὲν οὖν κεφαλὴ περίθετος, ἣν ἐγὼ νύκτωρ φορῶ | ἥδιον (texte ἡδί) |  | oui (SOL) |
+| 254 | Souda | Souda π 2113 | glose | Πόσθη : τὸ αἰδοῖον τοῦ ἀνδρός | — | de la scholie à Nub. 1013 ; Adler compare la scholie au v. 254 ; d'abord écartée comme glose générique ; apparat d'Adler : aucune sur la ligne ; A(GVM) | partiel (Adler IV 180, 13, saisie non confirmée sur l'image) |
+| 257-258 | Souda | Souda π 1165 | citation | ἥδιον μὲν οὖν κεφαλὴ περίθετος, ἣν ἐγὼ νύκτωρ φορῶ | ἥδιον (texte ἡδί) | apparat d'Adler : 7 ἥδιον] ἤθει F ; 7 ἥδιον—10 Ἀριστοφάνης om. A (la citation manque dans A) ; 7 πρόσωπον] προσωπεῖον GMᵉᶜ (glose) ; A(GFVM) | partiel (Adler IV 99, 7-8, saisie non confirmée sur l'image) |
 | 258 | Eustathe | Eust. Il. 1280, 63 (Stallbaum, Il. IV, scan n260) | citation | ὃν περίθετον κεφαλὴν ἐκάλουν. Ἀριστοφάνης Θεσμοφόροις· κεφαλὴ περίθετος, ἣν ἐγὼ νύκτωρ φορῶ | — | titre « Θεσμοφόροις » (sic) ; marge 60 puis 1281 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 258 | Photius | π 690 | citation | περίθετος κεφαλή · ἡ περιθετή. Ἀριστοφάνης · „κεφαλὴ περίθετος, ἣν ἐγὼ νύκτωρ φορῶ“ | — | Aristophane nommé | oui (Theodoridis III, PDF p. 239) |
-| 258 | Pollux | II 35 (Dindorf I p. 82) | citation | ἔλεγον δὲ καὶ κεφαλὴν περίθετον, ὡς Ἀριστοφάνης. ὡς ἂν εἴποιεν οἱ νῦν περιθετὴν ὥσπερ καὶ περίθετον κόμην | κεφαλὴν περίθετον (acc.) | Aristophane nommé | oui (Dindorf 1824, image de la page ; numérotation des §§ identique chez Bethe) |
-| 261 | Souda | Souda ε 135 | citation | φέρ' ἔγκυκλον · τουτὶ λάμβαν' ἀπὸ τῆς κλινίδος | τουτί (R τοῦτι) ; λάμβαν' (= R ; λάβ' Daubuz) | « καὶ ἀλλαχοῦ » ; cf. κ 1809 | oui (SOL) |
-| 261 | Souda | Souda κ 1809 | citation | ἔγκυκλον · τουτὶ λάμβαν' ἀπὸ τῆς κλινίδος | τουτί (R τοῦτι) ; λάμβαν' (= R) |  | oui (SOL) |
-| 263 | Souda | Souda χ 7 | citation | χαλαρὰ γοῦν χαίρεις φορῶν ὑποδήματα | χαίρεις (= R ; χαίροις codd. FV de la Souda, imprimé par l'auteur) ; add. ὑποδήματα |  | oui (SOL) |
+| 258 | Pollux | II 35 (Bethe I p. 92) | citation | ἔλεγον δὲ καὶ κεφαλὴν περίθετον, ὡς Ἀριστοφάνης (Thesm 258), καὶ ὡς ἂν εἴποιεν οἱ νῦν περιθέτην, καὶ πάλιν τὴν περίθετον κόμην | κεφαλὴν περίθετον (acc.) | Aristophane nommé | partiel (OCR seul, Bethe I ; image à relire ; Dindorf 1824 lu) |
+| 261 | Souda | Souda ε 135 | citation | φέρ' ἔγκυκλον · τουτὶ λάμβαν' ἀπὸ τῆς κλινίδος | τουτί (R τοῦτι) ; λάμβαν' (= R ; λάβ' Daubuz) | « καὶ ἀλλαχοῦ » ; cf. κ 1809 ; apparat d'Adler : aucune sur la citation (11 Ἀριστοφάνης om. GIT etc. porte sur la citation de Lysistrata) ; A(GITFVM) | oui (Adler II 198, 12-13, contrôle du 28/10 recoupé sur l'OCR) |
+| 261 | Souda | Souda κ 1809 | citation | ἔγκυκλον · τουτὶ λάμβαν' ἀπὸ τῆς κλινίδος | τουτί (R τοῦτι) ; λάμβαν' (= R) | apparat d'Adler : 7 ἔγκυκλον] ἔγκυλον A ; εἰστεταμένον] εἰστεταγμένον FG (AʳF(GVM)) | oui (Adler III 136, 7-8, contrôle du 28/10 recoupé sur l'OCR) |
+| 263 | Souda | Souda χ 7 | citation | χαλαρὰ γοῦν χαίρεις φορῶν ὑποδήματα | χαίρεις (= R ; χαίροις codd. FV de la Souda, imprimé par l'auteur) ; add. ὑποδήματα | apparat d'Adler : 22 χαίρεις] χαίροις FV ; Aʳ F (GVM) | oui (Adler IV 779, 22, image de la page) |
 | 274 | Hésychius | α 7097 | glose | ἄρδην · φοράδην. ἢ σφόδρα. ἢ παντελῶς. ἢ ἀθρόως … |  | glose générique | oui (Latte I, OCR de la page) |
-| 274 | Souda | Souda α 3806 | glose | Ἄρδην | — | glose (scholie au v. 274, SOL) | oui (SOL) |
+| 274 | Souda | Souda α 3806 | glose | Ἄρδην | — | glose (scholie au v. 274, SOL) ; apparat d'Adler : 18 ἄρδειν B, Ba, Eust., ἄρδην rell. (A(GITFVMB)) | oui (Adler I 343, 17-19, contrôle du 28/10 recoupé sur l'OCR) |
 | 275-276 | Eustathe | Eust. Il. 443, 37 (Stallbaum, Il. I, scan n362) | glose | δι' ἧς βοηθοῖτ' ἂν καὶ τό, ἡ γλῶσσ' ὀμώμοχ', ἡ δὲ φρὴν ἀνώμοτος, ὃ δὴ πικρῶς λογιστεύει ὁ κωμικός |  | vers d'Euripide (Hipp. 612) que le comique « tourne en dérision » ; 443 en marge | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
-| 277-278 | Souda | Souda σ 325 | citation | ὡς τὸ τῆς ἐκκλησίας σημεῖον ἐν τῷ Θεσμοφόρῳ φαίνεται | Θεσμοφόρῳ (R Θεσμοφορίῳ) |  | oui (SOL) |
+| 277-278 | Souda | Souda σ 325 | citation | ὡς τὸ τῆς ἐκκλησίας σημεῖον ἐν τῷ Θεσμοφόρῳ φαίνεται | Θεσμοφόρῳ (R Θεσμοφορίῳ) | apparat d'Adler : aucune sur la citation (16 ἐτέθη] ἐνετίθη V, dans la scholie) ; A(GFVME) | partiel (Adler IV 351, 13-17, saisie non confirmée sur l'image) |
 | 282 | Aelius Dionysius | Aelius Dionysius α 113 | — |  |  | référence de l'auteur, non contrôlée | non |
 | 282 | Photius | Photius α 1386 | — |  |  | référence de l'auteur, non contrôlée | non |
 | 285 | Eustathe | Eust. Il. 437, 4 (Stallbaum, Il. I, scan n357) | citation | πόπανον τὸ θεῷ ἄνακτι καθοσιούμενον, ὡς ἐμφαίνει καὶ ὁ κωμικός |  | 437 en marge | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 289 | Euripide (test.) | Euripides, testimonia 4, 18 Kannicht Χοιρίλη | — | χοῖρον |  | référence de l'auteur, non contrôlée | non |
 | 291 | Hésychius | θ 50 | glose | θάλλικα · σάκκου εἶδος |  | rapprochement de l'auteur avec θάληκον (texte) | oui (Cunningham IIa, OCR de la page) |
-| 291 | Pollux | Pollux X 152 θυλάκιον [...] ἐπὶ τοῦ αὐτοῦ δὲ καὶ σακίον, ὅταν φῇ ἐν Θεσμοφοριαζούσαις | — | θάληκον |  | référence de l'auteur, non contrôlée | non |
+| 291 | Pollux | X 152 (Bethe II p. 235) | glose | ἐπὶ τοῦ αὐτοῦ δὲ καὶ σακίον, ὅταν φῇ ἐν Θεσμοφοριαζούσαις (fg 328) … |  | parallèle de l'auteur pour sa conjecture πρὸς θυλάκιον (R πρὸς θάληκον) ; Bethe : fg 328 | partiel (OCR seul, Bethe II ; image à relire) |
 | 292 | Photius | ρ 106 | glose | ῥήτορα · καὶ τὴν γυναῖκα. Ἀριστοφάνης |  | Aristophane nommé ; l'éd. renvoie à Thesm. 292 | oui (Theodoridis III, PDF p. 349) |
-| 295 | Souda | Souda ε 3797 | lemme | Εὐφημία ἔστω | — | formule (scholie au v. 295 selon la SOL) | oui (SOL) |
+| 295 | Souda | Souda ε 3797 | lemme | Εὐφημία ἔστω | — | formule (scholie au v. 295 selon la SOL) ; apparat d'Adler : aucune (A(GIFVM)) | oui (Adler II 478, 13-14, contrôle du 28/10 recoupé sur l'OCR) |
 | 299 | Hésychius | κ 472 | glose | Καλλιγένειαν · οὐ τὴν γῆν, ἀλλὰ τὴν Δήμητραν … |  | Schmidt : « Aristoph. » ; cf. Thesm. II fr. 331 K.-A. (renvoi de l'auteur, à propos de Photius κ 118) ; numéro de Latte non contrôlé (vol. II absent) | partiel (glose lue dans Schmidt, éd. minor, OCR ; n° non vérifié) |
-| 299 | Photius | Photius κ 118 (= fr. Aristophanes 331 Kassel-Austin) | — | Καλλιγενείᾳ = Δημήτερι |  | référence de l'auteur, non contrôlée (« cf. ») | non |
+| 299 | Photius | κ 118 | glose | Καλλιγένειαν · Ἀπολλόδωρος μὲν τὴν γῆν · οἱ δὲ Διὸς καὶ Δήμητρος θυγατέρα · Ἀριστοφάνης δὲ ὁ κωμικὸς τροφόν |  | se rapporte aux Thesmophories II (fr. 331 K.-A., renvoi de l'auteur) | partiel (texte lu dans Naber 1864, image de la page ; n° de Theodoridis non contrôlé) |
 | 300 | Hésychius | κ 3865 | glose | Κουροτρόφος · παιδοτρόφος. ὑφ' ἑτέρων ἡ Δημήτηρ |  | Schmidt renvoie à Callimaque et à Thesm. 300 ; numéro de Latte non contrôlé (vol. II absent) | partiel (glose lue dans Schmidt, éd. minor, OCR ; n° non vérifié) |
 | 300 | Scholie | scholium vet. in Hesiodus Opera et dies 227-9 | — | Κουροτρόφῳ = Δημήτηρ |  | référence de l'auteur, non contrôlée | non |
-| 322-324 | Souda | Souda οι 181 | citation | σύ τε Πόντιε Πόσειδον, προλιπὼν μυχὸν ἰχθυόεντ' οἰστροδόνητον | om. σεμνέ et ἁλιμέδον ; ἰχθυόεντ' (= R) |  | oui (SOL) |
+| 322-324 | Souda | Souda οι 181 | citation | σύ τε Πόντιε Πόσειδον, προλιπὼν μυχὸν ἰχθυόεντ' οἰστροδόνητον | om. σεμνέ et ἁλιμέδον ; ἰχθυόεντ' (= R) | apparat d'Adler : 18 οἰστροδόνητον] οἰστροδίνητον G, οἰστρηδόνητον V (A(GFVM)) | oui (Adler IV 629, 16-18, contrôle du 28/10 recoupé sur l'OCR) |
 | 335-337, 373-374 | Satyros | P.Oxy. IX 1176, fr. 39, col. XII 1-16 (Hunt p. 155) | citation | ⟨Τι⟩[μόκλ]ει' ἐπε[στ]άτει, Λυσίλ[λ' ἐ]γραμμάτευεν, εἶπε Σωστράτη … εἴ τις ἐπιβουλεύει τι τῷ δήμῳ κακὸν … Εὐριπίδ⟨ῃ Μήδοις⟩ τ' ἐπὶ βλάβῃ τινί | 373 : nom propre autre que Τιμόκλει' (Ἀρχίκλεια ? Hunt) ; 337 : τ' (Biset) ; voir recherche/papyrus.md, § 3.4 | citation papyrologique | oui (Hunt, image du volume) |
-| 336 | EM | Etymologicum magnum 360.21 | — | 'πικηρυκεύεται |  | référence de l'auteur, non contrôlée | non |
+| 336 | EM | Et. M. 360, 21 | glose | Ἐπικηρυκεύεται, διὰ κήρυκος τινὸς συνθήκας τινὰς ἢ πρεσβείας ποιεῖται · καὶ ἐπικηρυκεία … |  | glose générique | partiel (OCR seul, éd. de Leipzig 1816 ; image à relire) |
 | 336 | Et. Gen. | Etymologicum genuinum (B) | — | 'πικηρυκεύεται |  | référence de l'auteur, non contrôlée | non |
 | 336 | Hésychius | ε 4853 | glose | ἐπικηρυκεύεται · προκηρύσσεται |  | l'éd. renvoie à Thuc. 7, 83, 2 (« cf. » chez l'auteur) | oui (Cunningham IIa, OCR de la page) |
 | 336 | Photius | ε 1580 | glose | ἐπικηρυκεύεται (= Synagoge ε 682 = Souda ε 2375) |  |  | oui (n° et identité de la glose confirmés par l'apparat de Cunningham à la Synagoge ε 682 ; texte de Photius non lu) |
-| 336 | Souda | Souda ε 2375 | glose | Ἐπικηρυκεύεται | — | glose générique (Thucydide selon la SOL) ; l'auteur la range au v. 336 | oui (SOL) |
+| 336 | Souda | Souda ε 2375 | glose | Ἐπικηρυκεύεται | — | glose générique (Adler : cf. sch. Thuc. 6, 48, 1 ; — ποιεῖται = Ba 230, 5, Et. M. 360, 21) ; l'auteur la range au v. 336 ; apparat d'Adler : 9 σπένδει] σπένδεται coni. Bhd. (A(GIFVM)) | oui (Adler II 360, 8-9, contrôle du 28/10 recoupé sur l'OCR) |
 | 336 | Synagoge | Σ ε 682 | glose | ἐπικηρυκεύεται · διὰ κήρυκός τινος συνθήκας τινὰς ἢ πρεσβείας ποιεῖται |  | parallèles : Souda ε 2375, Photius ε 1580, Et. Gen. | oui (Cunningham, PDF p. 228, OCR) |
 | 341 | Hésychius | π 3308 | glose | προαγωγός · διδάσκαλος κακῶν. καὶ μαστροπός. μαυλιστής … |  | l'éd. renvoie à Thesm. 341 | oui (Hansen III, OCR de la page) |
-| 341 | Souda | Souda ε 1271 | citation | προαγωγὸς οὖσ' ἐνετρύλλισε τῷ δεσπότῃ | — |  | oui (SOL) |
-| 341 | Souda | Souda π 2307 | glose | Προαγωγός | — | glose | oui (SOL) |
-| 341 | Zonaras | Zonaras 745 οὔ σ' ἐνετρύλλησεν | — | ἐνετρύλλισεν |  | référence de l'auteur, non contrôlée | non |
-| 347-348 | Souda | Souda χ 394 | citation | εἴ τις κάπηλος ἢ καπηλὶς τοῦ χοὸς … διαλυμαίνεται | εἴ (texte κεἴ) ; χοός (= R) | l'apparat de l'auteur cite par erreur « Suid. λ 394 » | oui (SOL) |
-| 363-364 | Souda | Souda α 3501 | citation | ἀπόρρητά τε τοῖσιν ἐχθροῖσι τοῖς ἡμετέροις λέγουσιν | ἀπόρρητά (texte τἀπόρρητα) ; ἐχθροῖσι (texte ἐχθροῖς) ; λέγουσιν (= R ; λέγουσ' Bentley) |  | oui (SOL) |
-| 369-371 | Souda | Souda π 444 | citation | ὥσθ' ἡμῖν θεοὺς παραστατεῖν καίπερ γυναιξὶν οὔσαις | — | attribué par erreur au Ploutos (« Ἀριστοφάνης Πλούτῳ ») | oui (SOL) |
-| 373-374 | Souda | Souda ε 2616 | citation | Τιμόκλει' ἐπιστάτει · Λύσιλλ' ἐγραμμάτευε | Τιμόκλει' (= R ; Ἀρ[χίκλ]ει' P.Oxy. 1176) ; ἐπιστάτει (texte ἐπεστάτει) |  | oui (SOL) |
-| 377-378 | Souda | Souda χ 481 | citation | καὶ χρηματίζειν πρῶτα περὶ Εὐριπίδου, ὅ τι χρὴ παθεῖν | — |  | oui (SOL) |
-| 377-8 | Lex. Vind. | Lexicon Vindobonense 190.10 | — | καὶ χρηματίζειν – παθεῖν |  | référence de l'auteur, non contrôlée | non |
-| 380 | Souda | Souda π 1166 | citation | περίθου νῦν τόνδε πρότερον, πρὶν λέγειν | πρότερον (R πρῶτον) |  | oui (SOL) |
-| 381 | Phrynichus | Phrynichus Praep. soph. 126.1 | — | χρέμπτεται |  | référence de l'auteur, non contrôlée | non |
-| 383-384 | Souda | Souda φ 431 | citation | φιλοτιμίᾳ μὲν οὐδεμιᾷ, μὰ τὼ θεώ, λέξουσ' ἀνέστην, ὦ γυναῖκες | — |  | oui (SOL) |
+| 341 | Souda | Souda ε 1271 | citation | προαγωγὸς οὖσ' ἐνετρύλλισε τῷ δεσπότῃ | — | apparat d'Adler : aucune (A(GITFVM)) | oui (Adler II 280, 11-12, contrôle du 28/10 recoupé sur l'OCR) |
+| 341 | Souda | Souda π 2307 | glose | Προαγωγός | — | glose ; apparat d'Adler : aucune sur la glose (2307—8 inverso ord. GMᵃᶜ, ordo poscit) ; A(GFVM) | partiel (Adler IV 197, 26, saisie non confirmée sur l'image) |
+| 341 | Zonaras | col. 745 | citation | Ἐνετρύλλησε. κατεῖπεν. Ἀριστοφάνης · … |  |  | partiel (OCR seul, Tittmann I ; image à relire) |
+| 347-348 | Souda | Souda χ 394 | citation | εἴ τις κάπηλος ἢ καπηλὶς τοῦ χοὸς … διαλυμαίνεται | εἴ (texte κεἴ) ; χοός (= R) | l'apparat de l'auteur cite par erreur « Suid. λ 394 » ; apparat d'Adler : aucune sur la citation (14 ἕξ] ἕξω SMᵃᶜ, dans la glose) ; Aʳ (GFSMC) | partiel (Adler IV 814, 14-16, saisie non confirmée sur l'image) |
+| 363-364 | Souda | Souda α 3501 | citation | ἀπόρρητά τε τοῖσιν ἐχθροῖσι τοῖς ἡμετέροις λέγουσιν | ἀπόρρητά (texte τἀπόρρητα) ; ἐχθροῖσι (texte ἐχθροῖς) ; λέγουσιν (= R ; λέγουσ' Bentley) | apparat d'Adler : aucune (A(GITFSM)) | oui (Adler I 316, 6-8, contrôle du 28/10 recoupé sur l'OCR) |
+| 369-371 | Souda | Souda π 444 | citation | ὥσθ' ἡμῖν θεοὺς παραστατεῖν καίπερ γυναιξὶν οὔσαις | — | attribué par erreur au Ploutos (« Ἀριστοφάνης Πλούτῳ ») ; apparat d'Adler : aucune sur la citation (l'attribution Πλούτῳ est sans variante ; 8 καὶ om. A, nov. gl.) ; A(GFVM) | partiel (Adler IV 42, 8-10, saisie non confirmée sur l'image) |
+| 373-374 | Souda | Souda ε 2616 | citation | Τιμόκλει' ἐπιστάτει · Λύσιλλ' ἐγραμμάτευε | Τιμόκλει' (= R ; Ἀρ[χίκλ]ει' P.Oxy. 1176) ; ἐπιστάτει (texte ἐπεστάτει) | apparat d'Adler : aucune (A(GIFVM)) | oui (Adler II 381, 29-30, contrôle du 28/10 recoupé sur l'OCR) |
+| 377-378 | Lex. Vind. | p. 190, 10-11 (Nauck) | citation | Ἀριστοφάνης · καὶ χρηματίζειν πρῶτα περὶ Εὐριπίδου ὅ τι χρὴ παθεῖν | — | Adler (χ 481) : « fort. hinc » (la Souda source du Lex. Vind.) | oui (Nauck 1867, image de la page) |
+| 377-378 | Souda | Souda χ 481 | citation | καὶ χρηματίζειν πρῶτα περὶ Εὐριπίδου, ὅ τι χρὴ παθεῖν | — | apparat d'Adler : aucune sur la citation ; Aʳ S (GFM) | oui (Adler IV 822, 24-26, image de la page) |
+| 380 | Souda | Souda π 1166 | citation | περίθου νῦν τόνδε πρότερον, πρὶν λέγειν | πρότερον (R πρῶτον) | apparat d'Adler : 10 Ἀριστοφάνης—11 λέγειν om. F (citation omise dans F) ; dans A le lemme et la glose (Περίθου—λέγειν) sont ajoutés en marge par Aʳ (A(GFVM)) | oui (Adler IV 99, 10-11, contrôle du 28/10 recoupé sur l'OCR) |
+| 381 | Phrynichus | Praep. soph. 126, 1 | glose | χρέμπτεσθαι (Aristoph. Thesmoph. 382 ; Eurip. Cycl. 622) : καὶ διαχρέμπτεσθαι ἐρεῖς |  | de Borries renvoie à Thesm. 382 | partiel (OCR seul, de Borries 1911 ; image à relire) |
+| 383-384 | Souda | Souda φ 431 | citation | φιλοτιμίᾳ μὲν οὐδεμιᾷ, μὰ τὼ θεώ, λέξουσ' ἀνέστην, ὦ γυναῖκες | — | apparat d'Adler : aucune ; A(GFVM) | oui (Adler IV 735, 11-12, image de la page) |
+| 386 | Souda | Souda π 2562 | glose | Προπηλακίζων : ἀδικῶν, ὑβρίζων, διασύρων, ἐξουθενῶν | — | Adler compare entre autres la scholie au v. 386 ; non relevé par l'auteur ; apparat d'Adler : aucune ; A(GFVM) | oui (Adler IV 217, 27, image de la page) |
 | 389 | Hésychius | ε 5195 | glose | ἐπισμῇ · ἐπιτρίβει, ἀπὸ τοῦ σμήχειν ἢ τρίβειν ἢ πλύνειν · λοιδορεῖ, πλήττει … |  | l'éd. renvoie à Thesm. 389 | oui (Cunningham IIa, OCR de la page) |
-| 389 | Souda | Souda ε 2592 | citation | τί γὰρ οὗτος ἡμᾶς οὐκ ἐπισμῇ τῶν κακῶν | — | avec la scholie (Diodore) | oui (SOL) |
-| 389 | Souda | Souda σ 747 | glose | Σμώχειν · τὸ λοιδορεῖν | — | reste de la scholie au v. 389 (SOL ; cf. ε 2592) | oui (SOL) |
+| 389 | Souda | Souda ε 2592 | citation | τί γὰρ οὗτος ἡμᾶς οὐκ ἐπισμῇ τῶν κακῶν | — | avec la scholie (Diodore) ; apparat d'Adler : aucune sur la citation (A(GITFVM)) | oui (Adler II 379, 18-19, contrôle du 28/10 recoupé sur l'OCR) |
+| 389 | Souda | Souda σ 747 | glose | Σμώχειν · τὸ λοιδορεῖν | — | reste de la scholie au v. 389 (SOL ; cf. ε 2592) ; apparat d'Adler : 6 τὸ om. G ; A(GFVM) | oui (Adler IV 394, 6, image de la page) |
 | 390-1 | Scholie | scholium Plato Gorgias 457b | — |  |  | référence de l'auteur, non contrôlée | non |
 | 390-1 | Scholie | scholium Plato Hippias min. 365d | — |  |  | référence de l'auteur, non contrôlée | non |
 | 390-1 | Scholie | scholium Plato Theages 127c (πῶς pro ποῦ et τραγῳδικοὶ pro τραγῳδοὶ καὶ) | — |  |  | référence de l'auteur, non contrôlée | non |
-| 390-391 | Souda | Souda ε 955 | citation | ποῦ δ' οὐχὶ διαβέβληχ' ὅπου περ ἔμβραχυ εἰσὶ θεαταί; | ἔμβραχυ (R ἐν βραχύ) | cf. οι 128 | oui (SOL) |
-| 390-394 | Souda | Souda οι 128 | citation | ποῦ δ' οὐχὶ διαβέβληχ' … τὰς μέγ' ἀνδράσι κακόν | ἔμβραχυ (R ἐν βραχύ) ; οἷς θέα καὶ τραγῳδία (texte εἰσὶν θεαταὶ καὶ τραγῳδοί) | suivi d'une note de Symmaque (παρὰ τὸ πιπίζειν) | oui (SOL) |
+| 390-391 | Souda | Souda ε 955 | citation | ποῦ δ' οὐχὶ διαβέβληχ' ὅπου περ ἔμβραχυ εἰσὶ θεαταί; | ἔμβραχυ (R ἐν βραχύ) | cf. οι 128 ; apparat d'Adler : 3 διαβέβληχ'] διαβέβλητ' V, διαβέβληται GIT (G(ITFVMB) : A manque) | oui (Adler II 255, 3, contrôle du 28/10 recoupé sur l'OCR) |
+| 390-394 | Souda | Souda οι 128 | citation | ποῦ δ' οὐχὶ διαβέβληχ' … τὰς μέγ' ἀνδράσι κακόν | ἔμβραχυ (R ἐν βραχύ) ; οἷς θέα καὶ τραγῳδία (texte εἰσὶν θεαταὶ καὶ τραγῳδοί) | suivi d'une note de Symmaque (παρὰ τὸ πιπίζειν) ; apparat d'Adler : 12 Ἀριστοφάνης—18 οὖν pr.] Οἰνοπίπας F (citation omise) ; φησὶν post Ἀριστοφάνης add. M ; 13 οἷς] οἴων V ; καὶ τραγῳδία om. V ; χοροί] χορός GM, cp. AV ; ἀνδρεραστρίας] ἀνδρεαστρίας AV ; 14 προδότιδας] προπότιδας A (A(GFVM)) | oui (Adler IV 623, 11-15, contrôle du 28/10 recoupé sur l'OCR) |
 | 392 | Eustathe | Eust. Il. 380, 15 (Stallbaum, Il. I, scan n315 (p. 308)) | citation | ἡ δὲ κωμῳδία τὴν τοιαύτην ἀνδρεράστριαν σκώπτει | ἀνδρεράστριαν (acc. sg.) : forme en -ρ- comme R (ἀνδρεραστρίας) | forme ἀνδρεράστρια (ρ), cf. R ἀνδρεραστρίας | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
-| 392 | Phrynichus | Phrynichus Praep. soph. 34.18 | — | ἀνδρεραστρίας |  | référence de l'auteur, non contrôlée | non |
-| 392 | Pollux | III 71 (Dindorf I p. 154) | glose | καὶ γυναῖκας δέ, ἐραστρίας Εὔπολις εἴρηκε καὶ ἀνδρεράστριαν, Ἀριστοφάνης | ἀνδρεράστριαν (acc. sg.) : forme en -ρ- comme R | Aristophane nommé | oui (Dindorf 1824, image de la page ; numérotation des §§ identique chez Bethe) |
+| 392 | Phrynichus | Praep. soph. 34, 18 | glose | ἀνδρεράστρια γυνή (Aristoph. Thesm. 392) : ἡ ἐπιμαινομένη ἀνδράσιν ἢ ἐρῶσα ἄλλου καὶ ἄλλου | ἀνδρεράστρια (R ἀνδρεαστρίας) | renvoi de de Borries | partiel (OCR seul, de Borries 1911 ; image à relire) |
+| 392 | Pollux | III 71 (Bethe I p. 177) | glose | γυναῖκας δ' ἐραστρίας Εὔπολις (I frg 414 Ko) εἴρηκεν, καὶ ἀνδρε… | ἀνδρεράστριαν (acc. sg.) : forme en -ρ- comme R |  | partiel (OCR seul, Bethe I ; image à relire ; Dindorf 1824 lu) |
 | 393 | Scholie | scholium Aves 307 | — | οἰνοπίπας |  | référence de l'auteur, non contrôlée | non |
 | 395 | Hésychius | ι 501 | glose | ἴκρια · ἡ καθέδρα τοῦ κυβερνήτου … καὶ τὰ ἐπὶ τοῖς ξύλοις κατασκευαζόμενα θεωρεῖα … |  |  | oui (Cunningham IIa, OCR de la page) ; ligne contrôlée sur l'image |
-| 395-396 | Souda | Souda ι 275 | citation | ὥστ' εὐθὺς εἰσιόντες ἀπὸ τῶν ἰκρίων ὑποβλέπουσ' ἡμᾶς | — |  | oui (SOL) |
+| 395-396 | Souda | Souda ι 275 | citation | ὥστ' εὐθὺς εἰσιόντες ἀπὸ τῶν ἰκρίων ὑποβλέπουσ' ἡμᾶς | — | apparat d'Adler : 24 καί—29 ἐμηχανῶντο om. F (la citation manque dans F) ; A²(GITFVM) | oui (Adler II 627, 26-28, contrôle du 28/10 recoupé sur l'OCR) |
 | 404 | Hésychius | κ 3629 | glose | Κορίνθιος ξένος |  | numéro de Latte non contrôlé (vol. II absent) | partiel (glose lue dans Schmidt, éd. minor, OCR ; n° non vérifié) |
 | 413 | Apostolius | V 93b (CPG II p. 361) | citation | Δέσποινα γὰρ γέροντι νυμφίῳ γυνή. Ἀριστοφάνους | — | vers d'Euripide (fr. 804, 3 Kannicht, γαμοῦντι chez Ménandre selon Leutsch) cité au v. 413 | oui (CPG II, image de la page) |
 | 413 | Ménandre | Menandros Monostich. 191 (= Euripides fr. 804.3 ed. Kannicht) | — |  |  | référence de l'auteur, non contrôlée | non |
-| 417 | EM | Etymologicum magnum 590.53 | — | μορμολυκεῖα |  | référence de l'auteur, non contrôlée | non |
-| 421-427 | Souda | Souda κ 159 | citation | οἱ γὰρ ἄνδρες ἤδη κλειδία φοροῦσι … ἐδίδαξε θριπηδέστατα | κλειδία (texte κλῄδια) ; om. αὐτοί ; Λακωνικά (texte Λακωνίκ') ; om. ᾡκότριψ Εὐριπίδης ; θριπηδέστατα (texte θριπήδεστ') | sous Κακοηθέστατα ; cf. λ 64 | oui (SOL) |
-| 421-428 | Souda | Souda λ 64 | citation | οἱ γὰρ ἄνδρες ἤδη κλειδία φοροῦσι … σφραγῖδα ἐξαψαμένους | κλειδία ; om. αὐτοί, τρεῖς, ᾡκότριψ Εὐριπίδης ; Λακωνίκα ; ἐδίδαξε (R -ξεν) ; θριπηδέστατ' (texte θριπήδεστ') ; σφραγῖδα (texte σφραγίδια) | l'auteur cite « λ 54 » (= Λακιδέας) : lire λ 64 | oui (SOL) |
+| 417 | EM | Et. M. 590, 51-53 | glose | … μορμολυκεῖα |  |  | partiel (OCR seul, éd. de Leipzig 1816 ; image à relire) |
+| 417 | Souda | Souda μ 1250 | glose | Μορμολύκεια : τὰ τῶν τραγῳδῶν προσωπεῖα. τὰ τῶν ὑποκριτῶν προσωπεῖα … | — | Adler compare la scholie au v. 417 ; non relevé par l'auteur ; apparat d'Adler : 6 τὰ alt.—7 προσωπεῖα om. F ; A(GFVM) | partiel (Adler III 411, 6-9, saisie non confirmée sur l'image) |
+| 421-427 | Souda | Souda κ 159 | citation | οἱ γὰρ ἄνδρες ἤδη κλειδία φοροῦσι … ἐδίδαξε θριπηδέστατα | κλειδία (texte κλῄδια) ; om. αὐτοί ; Λακωνικά (texte Λακωνίκ') ; om. ᾡκότριψ Εὐριπίδης ; θριπηδέστατα (texte θριπήδεστ') | sous Κακοηθέστατα ; cf. λ 64 ; apparat d'Adler : 22 ποιησαμέναισι] ποιησαμέναις FV (AʳF(GVM)) | oui (Adler III 13, 19-23, contrôle du 28/10 recoupé sur l'OCR) |
+| 421-428 | Souda | Souda λ 64 | citation | οἱ γὰρ ἄνδρες ἤδη κλειδία φοροῦσι … σφραγῖδα ἐξαψαμένους | κλειδία ; om. αὐτοί, τρεῖς, ᾡκότριψ Εὐριπίδης ; Λακωνίκα ; ἐδίδαξε (R -ξεν) ; θριπηδέστατ' (texte θριπήδεστ') ; σφραγῖδα (texte σφραγίδια) | l'auteur cite « λ 54 » (= Λακιδέας) : lire λ 64 ; apparat d'Adler : 30 ὑποῖξαι] ὑποῖξε A ; 31 οὗτος αὐτούς] οὕτως αὐτὸς V (A(GFVME)) ; aucune variante sur p. 230, 1 | oui (Adler III 229, 28 - 230, 1, image de la page) |
 | 422 | Eustathe | Eust. Il. 1108, 25-27 (Stallbaum, Il. IV, scan n27 (p. 24)) | citation | κλειδίων δὲ θύρας χρῆσις παρὰ τῷ κωμικῷ, εἰπόντι κακοηθέστατα κλειδία τὰ κρυπτὰ καὶ δυσεπιβούλευτα |  | paraphrase (κλειδία, κρυπτά) ; marge 20 six lignes avant ; l'auteur : 1108.25 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 422 | Eustathe | Eust. Il. 974, 37-38 (Stallbaum, Il. III, scan n215) | citation | ὁποῖα καὶ τὰ παρὰ τῷ κωμικῷ κακοηθέστατα κλειδία |  | marge 30 à gauche, dix lignes avant ; l'auteur : 974.37 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 422 | Eustathe | Eust. Od. 1603, 52 (Stallbaum, Od. I, scan n316 (p. 307)) | glose | καὶ μάλιστα τὸ κακοηθέστατον, ὃ μισοῦσιν αἱ παρὰ τῷ κωμικῷ δειπνολόχοι γυναῖκες |  | paraphrase (sg. κακοηθέστατον) ; marge 50 à la ligne précédente | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
-| 423 | Phrynichus | Phrynichus Praep. soph. 61.1 | — | γομφίους |  | référence de l'auteur, non contrôlée | non |
+| 423 | Phrynichus | Praep. soph. 61, 1 | glose | γόμφιοι : λέγονται μὲν καὶ οἱ ἐν τῷ στόματι ὀδόντες …, καλοῦνται δὲ καὶ αἱ τῶν κλειδῶν διατομαί |  |  | partiel (OCR seul, de Borries 1911 ; image à relire) |
 | 426 | Aelius Dionysius | Aelius Dionysius ο 8-9 | — | οἰκότριψ = οἰκοτραφής |  | référence de l'auteur, non contrôlée | non |
 | 426 | Hésychius | ο 265-266 | glose | οἰκότριψ |  | référence de l'auteur ; vol. κ–ο de Latte absent, glose non retrouvée dans l'OCR de Schmidt | non |
-| 426 | Moeris | Moeris ο 25 | — | οἰκότριψ = οἰκοτραφής |  | référence de l'auteur, non contrôlée | non |
-| 427 | Souda | Souda θ 503 | glose | Θριπηδέστατον | — | tiré de la scholie au v. 427 (SOL) ; texte θριπήδεστ' | oui (SOL) |
-| 428-429 | Souda | Souda κ 2771 | citation | ἐμοὶ τούτῳ δοκεῖ, ὄλεθρόν τινα κυρκανᾶν ἀμωσγέπως | τινα, om. ἡμᾶς ; ἀμωσγέπως (= R) |  | oui (SOL) |
+| 426 | Moeris | ο 25 (Bekker p. 205) | glose | οἰκότριψ Ἀττικοί, οἰκοτραφής Ἕλληνες |  |  | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
+| 427 | Souda | Souda θ 503 | glose | Θριπηδέστατον | — | tiré de la scholie au v. 427 (SOL) ; texte θριπήδεστ' ; apparat d'Adler : aucune sur le lemme ; 12 ἐσφράγιζον] ἐσφάγιζον F, 13 θρίψ] θρίξ V (dans la partie tirée de la scholie) ; A²F(GIVM) | oui (Adler II 730, 11-14, contrôle du 28/10 recoupé sur l'OCR) |
+| 428-429 | Souda | Souda κ 2771 | citation | ἐμοὶ τούτῳ δοκεῖ, ὄλεθρόν τινα κυρκανᾶν ἀμωσγέπως | τινα, om. ἡμᾶς ; ἀμωσγέπως (= R) | apparat d'Adler : 5 τούτῳ] τοῦτο AF ; 6 ἀμωσγέπως] διόλου ss. V (glose interlinéaire) ; A(GFVM) | partiel (Adler III 220, 5-6, saisie non confirmée sur l'image) |
 | 429 | Eustathe | Eust. Il. 1213, 49-50 (Stallbaum, Il. IV, scan n168) | citation | λέγεται δέ ποτε καὶ ἐπὶ ταράχου πραγμάτων ἡ κύκησις. ἀπ' αὐτοῦ δὲ καὶ παρὰ τῇ κωμῳδίᾳ τὸ κυρκανᾶν |  | marges 40 et 50 ; l'index de Devarius donne 1213, 49 ; l'auteur : 1213.50 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 429 | Hésychius | α 4182 | glose | ἀμωσγέπως · ὁπωσδήποτε καὶ ἐκ παντὸς τρόπου |  |  | oui (Latte I, OCR de la page) ; ligne contrôlée sur l'image |
 | 429 | Hésychius | κ 4691 | glose | κυρκανᾷ · κυκᾷ, ταράσσει |  | Schmidt renvoie à Hippocrate ; numéro de Latte non contrôlé (vol. II absent) | partiel (glose lue dans Schmidt, éd. minor, OCR ; n° non vérifié) |
-| 429 | Photius | Photius κ 1254 κυρκανᾶν | — | κυρκανᾶν |  | référence de l'auteur, non contrôlée | non |
-| 429 | Souda | Souda α 1645 | glose | Ἀμωσγέπως : ὁπωσδήποτε … | — | glose (même notice dans Σ Plat. Phaedr. 228c selon la SOL) | oui (SOL) |
+| 429 | Photius | κ 1254 | glose | κυρκανᾶν · κυκᾶν, ταράσσειν |  |  | partiel (texte lu dans Naber 1864, image de la page ; n° de Theodoridis non contrôlé) |
+| 429 | Souda | Souda α 1645 | glose | Ἀμωσγέπως : ὁπωσδήποτε … | — | glose (même notice dans Σ Plat. Phaedr. 228c selon la SOL) ; apparat d'Adler : aucune | oui (Adler I 146, 4, contrôle du 28/10 recoupé sur l'OCR) |
 | 429 | Synagoge | Σ α 449 | glose | ἁμωσγέπως · ὁπωσδήποτε, ἔν γέ τινι, καθ' ὁντιναοῦν τρόπον |  |  | oui (Cunningham, PDF p. 104, OCR) |
 | 432 | Eustathe | Eust. Od. 1484, 53 (Stallbaum, Od. I, scan n158) | citation | καὶ Ἀριστοφάνης· μετὰ τῆς γραμματέως συγγράψομαι | — | liste d'emplois du masculin pour des femmes ; marge 50 deux lignes avant | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
-| 432 | Pollux | IV 19 (Dindorf I p. 186) | glose | Ἀριστοφάνης δὲ παίζει ἐν Θεσμοφοριαζούσαις, λέγων, ἡ γραμματεύς |  | pièce nommée | oui (Dindorf 1824, image de la page ; numérotation des §§ identique chez Bethe) |
-| 437-439 | Souda | Souda ε 22 | citation | πάσας δ' ἰδέας ἐξήτασε … πυκνῶς τε ποικίλως λόγους ἀνεῦρεν | ἰδέας (R εἰδέας) ; ἐξήτασε, ἐβάστασε (R -σεν) ; ποικίλως (texte ποικίλους) ; ἀνεῦρεν (= R ; ἀνηῦρεν Meineke) |  | oui (SOL) |
+| 432 | Pollux | IV 19 (Bethe I p. 208) | glose | Ἀριστοφάνης δὲ παίζει ἐν Θεσμοφοριαζούσαις (439) λέγων ἡ γραμματεύς |  | pièce nommée ; Bethe imprime (439), à comparer au v. 432 de la numérotation usuelle | partiel (OCR seul, Bethe I ; image à relire ; Dindorf 1824 lu) |
+| 437-439 | Souda | Souda ε 22 | citation | πάσας δ' ἰδέας ἐξήτασε … πυκνῶς τε ποικίλως λόγους ἀνεῦρεν | ἰδέας (R εἰδέας) ; ἐξήτασε, ἐβάστασε (R -σεν) ; ποικίλως (texte ποικίλους) ; ἀνεῦρεν (= R ; ἀνηῦρεν Meineke) | apparat d'Adler : 18 λόγους] τοὺς λόγους GITM (A(GITFVM)) | oui (Adler II 189, 17-18, contrôle du 28/10 recoupé sur l'OCR) |
 | 438 | Hésychius | π 4335 | glose | πυκνῶς · συνεχῶς, συχνῶς |  | l'éd. renvoie à Thesm. 438 (e.g.) | oui (Hansen III, OCR de la page) |
 | 442 | Aelius Dionysius | Aelius Dionysius α 107 | — | ἄντικρυς |  | référence de l'auteur, non contrôlée | non |
 | 442 | Photius | Photius α 2210 ἄντικρυς | — | ἄντικρυς |  | référence de l'auteur, non contrôlée | non |
 | 446 | Hésychius | ε 239 | glose | ἔγκυος · ἐγγαστρωμένη γυνή |  | glose générique | oui (Cunningham IIa, OCR de la page) |
 | 447-9 | Scholie | scholiumᵀ Plato Hipparch. 229d (μυρίναις pro μυρρίναις et μέν οὐκ ἄν pro μὲν οὖν ἀλλ᾽) | — | μόλις – τέως μὲν οὖν ἀλλ᾽ |  | référence de l'auteur, non contrôlée | non |
 | 449 | Pollux | VI 161 (Bethe II p. 42) | glose | Ἀριστοφάνης (Th 449) δὲ καὶ ἡμικάκως |  | Aristophane nommé (renvoi de Bethe) | oui (Bethe II, image de la page) |
-| 449 | Souda | Souda τ 321 | citation | τέως μὲν οὖν, ἀλλ' ἡμικάκως ἐβοσκόμην | — |  | oui (SOL) |
-| 453-6 | Aulu-Gelle | Aulus Gellius XV 20.7 | — |  |  | référence de l'auteur, non contrôlée | non |
+| 449 | Souda | Souda τ 321 | citation | τέως μὲν οὖν, ἀλλ' ἡμικάκως ἐβοσκόμην | — | apparat d'Adler : 11 καὶ—12 ἐβοσκόμην om. F (la citation manque dans F) ; 12 ἡμικάκως] εἰ κακῶς V ; A(GFVM) | oui (Adler IV 524, 10-12, image de la page) |
+| 453-456 | Aulu-Gelle | XV 20, 7 | citation | Eius odii in mulieres Aristophanes quoque meminit ἐν ταῖς προτέραις Θεσμοφοριαζούσαις in his versibus : νῦν οὖν ἁπάσαισιν παραινῶ καὶ λέγω … ἅτ' ἐν ἀγρίοισι τοῖς λαχάνοις αὐτὸς τραφείς | τοῖς (= Plut., Mor. 853C ; om. R) | pièce nommée (« les premières Thesmophories ») ; le TEI imprime τροτέραις | oui (Perseus, TEI) |
 | 455-456 | Plutarque | Comp. Ar. Men. 1, 853c | citation | ἄγρια γὰρ ἡμᾶς, ὦ γυναῖκες, δρᾷ κακά, ἅτ' ἐν ἀγρίοισι τοῖς λαχάνοις αὐτὸς τραφείς | — | exemple du style d'Aristophane | oui (Perseus, TEI, éd. Bernardakis) |
-| 457-458 | Souda | Souda σ 1591 | citation | δεῖ γὰρ ἀνδράσι πλέξαι στεφάνους συνθηματιαίους εἴκοσι | — |  | oui (SOL) |
+| 457-458 | Souda | Souda σ 1591 | citation | δεῖ γὰρ ἀνδράσι πλέξαι στεφάνους συνθηματιαίους εἴκοσι | — | apparat d'Adler : 14 πλέξαι] πλέξας GVM ; A(GFVM) | oui (Adler IV 473, 13-14, image de la page) |
 | 458 | Athénée | XV 680c-d (Kaibel 15, 26) | citation | συνθηματιαῖοι στέφανοι … Ἀριστοφάνης ἐν Θεσμοφοριαζούσαις · πλέξαι στεφάνους συνθηματιαίους εἴκοσιν | — | pièce nommée | oui (Perseus, TEI, pages de Casaubon) |
 | 458 | Hésychius | σ 2624 | glose | συνθηματιαῖοι · οἱ ἠργολαβημένοι καὶ ἐκδεδομένοι, ἐκδόσιμοι |  | l'éd. renvoie à Thesm. 458 | oui (Hansen III, OCR de la page) |
-| 458 | Pollux | Pollux VII 200 | — | στεφάνους συνθηματιαίους |  | référence de l'auteur, non contrôlée | non |
-| 459-460 | Souda | Souda λ 441 | citation | ἕτερον αὖ τι λῆμα τοῦτο κομψότερον ἔτ' ἢ τὸ πρότερον ἀναπέφηνε | — | « καὶ αὖθις » | oui (SOL) |
+| 458 | Pollux | VII 200 (Bethe II p. 106-107) | glose | συνθηματιαίους δὲ στεφάνους εἴρηκεν Ἀριστοφάνης (Thesm 458) τοὺς ἠργολαβημένους … |  | Aristophane nommé (renvoi de Bethe) | partiel (OCR seul, Bethe II ; image à relire) |
+| 459-460 | Souda | Souda λ 441 | citation | ἕτερον αὖ τι λῆμα τοῦτο κομψότερον ἔτ' ἢ τὸ πρότερον ἀναπέφηνε | — | « καὶ αὖθις » ; apparat d'Adler : 1 καί—11 ἐπῶν om. F (la citation manque dans F) ; 4 ἀναπέφηνε] ἀπέφηνε A (A(GFVM)) | oui (Adler III 263, 3-4, contrôle du 28/10 recoupé sur l'OCR) |
 | 466 | Photius | ο 380 | glose | ὀξυθυμεῖσθαι, οὐχὶ ὀξυθυμεῖν λέγουσιν · τὸ ὀργίζεσθαι ἀκραχόλως |  |  | oui (Theodoridis III, PDF p. 120) |
 | 468 | Hésychius | θ 146 | glose | θαυμάσιος · θαυμαστός |  | glose générique | oui (Cunningham IIa, OCR de la page) |
-| 468 | Moeris | Moeris θ 16 | — | θαυμάσιον = θαυμαστόν |  | référence de l'auteur, non contrôlée | non |
+| 468 | Moeris | θ 16 (Bekker p. 199, 5) | glose | θαυμάσιον Ἀττικοί, θαυμαστόν Ἕλληνες |  |  | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
 | 469 | Hésychius | ο 852 | glose | ὀναίμην |  | référence de l'auteur ; vol. κ–ο de Latte absent, glose non retrouvée dans l'OCR de Schmidt | non |
 | 469 | Photius | ο 332 | glose | ὀναίμην · ἀπολαύσω, ἐπιτύχοιμι | ὀναίμην (R ὀνοίμην) |  | oui (Theodoridis III, PDF p. 114) |
-| 469 | Souda | Souda ο 330 | citation | καὐτὴ γὰρ ἐγώ, οὕτως ὀναίμην τῶν τέκνων | ἐγώ (texte ἔγωγ') ; ὀναίμην (R ὀνοίμην) |  | oui (SOL) |
+| 469 | Souda | Souda ο 330 | citation | καὐτὴ γὰρ ἐγώ, οὕτως ὀναίμην τῶν τέκνων | ἐγώ (texte ἔγωγ') ; ὀναίμην (R ὀνοίμην) | apparat d'Adler : aucune ; A(GFSM) | partiel (Adler III 537, 20-21, saisie non confirmée sur l'image) |
 | 469 | Synagoge | Σ ο 162 | glose | ὀναίμην · ἐπιτύχοιμι, ἀπολαύσω |  | parallèles : Souda ο 330, Photius (Porson 335, 25) | oui (Cunningham, PDF p. 372, OCR) |
-| 470 | Souda | Souda μ 328 | citation | μισῶ τἄνδρ' ἐκεῖνον, εἰ μὴ μαίνομαι | τἄνδρ' (texte τὸν ἄνδρ') |  | oui (SOL) |
-| 473-474 | Souda | Souda τ 683 | citation | τί ταῦτ' ἔχουσαι κεῖνον αἰτιώμεθα βαρέως τε φέρομεν; | κεῖνον (= R ; 'κεῖνον Meineke) |  | oui (SOL) |
+| 470 | Souda | Souda μ 328 | citation | μισῶ τἄνδρ' ἐκεῖνον, εἰ μὴ μαίνομαι | τἄνδρ' (texte τὸν ἄνδρ') | apparat d'Adler : aucune (A(GFVM)) | oui (Adler III 340, 12-13, contrôle du 28/10 recoupé sur l'OCR) |
+| 473-474 | Souda | Souda τ 683 | citation | τί ταῦτ' ἔχουσαι κεῖνον αἰτιώμεθα βαρέως τε φέρομεν; | κεῖνον (= R ; 'κεῖνον Meineke) | apparat d'Adler : 5 ταῦτ' GM, Ar. : τον A, τὸν F, τόνον V ; A(GFVM) | oui (Adler IV 563, 5-6, image de la page) |
 | 480 | Hésychius | δ 1558 | glose | διεκόρησε · διέφθειρε κόρην …, διεπαρθένευσε | διεκόρησε (= texte ; διεκόρευσεν Pollux) | l'éd. renvoie à Thesm. 480 (?) | oui (Latte I, OCR de la page) ; ligne contrôlée sur l'image |
-| 480 | Pollux | III 42 (Dindorf I p. 146) | citation | τὸ δὲ τῆς παρθενίας ἀφελέσθαι, διακορῆσαι λέγουσιν, ὡς Ἀριστοφάνης, οὗτός με διεκόρησεν οὖσαν ἑπτέτιν | οὗτος (texte ὅσπερ) ; διεκόρησεν (texte de Dindorf ; διεκόρευσεν chez Bethe d'après l'auteur, qui donne διεκόρησεν comme leçon du cod. A) | Aristophane nommé | oui (Dindorf 1824, image de la page ; numérotation des §§ identique chez Bethe) |
-| 480 | Souda | Souda δ 591 | glose | Διακορεῦσαι | — | glose (texte διεκόρησεν ; διεκόρευσεν Pollux III 42) | oui (SOL) |
+| 480 | Pollux | III 42 (Bethe I p. 168) | citation | … διακορεῦσαι λέγουσιν, ὡς Ἀριστοφάνης (Thesm 480) οὗτός με διεκόρευσεν οὖσαν ἑπτέτιν | οὗτος (texte ὅσπερ) ; διεκόρευσεν (Π et les mss d'Aristophane selon Bethe ; διεκόρησεν A, Dindorf) | Aristophane nommé | partiel (OCR seul, Bethe I ; image à relire ; Dindorf 1824 lu) |
+| 480 | Souda | Souda δ 591 | glose | Διακορεῦσαι | — | glose (texte διεκόρησεν ; διεκόρευσεν Pollux III 42) ; apparat d'Adler : aucune (A(GITFVM)) | oui (Adler II 59, 28, contrôle du 28/10 recoupé sur l'OCR) |
 | 481 | Eustathe | Eust. Od. 1746, 6 (Stallbaum, Od. II, scan n61) | citation | οὗ χρῆσις καὶ παρὰ τῷ κωμικῷ ἐν Θεσμοφοριαζούσαις· οὗτος πόθῳ μοὔκνυεν ἕλκων τὴν θύραν, ἤγουν διὰ τὸν πόθον μου ἔξυε τὴν θύραν | μοὔκνυεν ἕλκων (R μου 'κνυεν ἐλθών) | μοὔκνυεν ἕλκων (R μου 'κνυεν ἐλθών) ; pièce nommée ; 1746 en marge | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 481 | Hérodien | Περὶ καθολικῆς προσῳδίας (Lentz, GG III.1) | citation | καὶ παρὰ τῷ κωμικῷ ἐν Θεσμοφοριαζούσαις · οὗτος πόθῳ μου ἔκνυεν ἐλθὼν τὴν θύραν | — | pièce nommée ; texte reconstitué par Lentz à partir de sources tardives (cf. Eustathe 1746, 6 chez l'auteur) | oui (First1K, TEI, éd. Lentz) |
-| 481 | Souda | Souda ε 520 | citation | οὗτος πόθῳ μου 'κνυεν ἐλθὼν τὴν θύραν | — |  | oui (SOL) |
-| 481 | Zonaras | Zonaras 669 ἔκνυεν | — |  |  | référence de l'auteur, non contrôlée | non |
+| 481 | Souda | Souda ε 520 | citation | οὗτος πόθῳ μου 'κνυεν ἐλθὼν τὴν θύραν | — | apparat d'Adler : 19 πόθῳ] πτόθο F, πτόθῳ V (A(GITFVM)) | oui (Adler II 224, 18-19, contrôle du 28/10 recoupé sur l'OCR) |
+| 481 | Zonaras | col. 669 | citation | Ἔκνυεν. ἔξυεν ἠρέμα. παρὰ τὸ κνᾶν. Ἀριστοφάνης · οὗτος πόθῳ μ' ἔκνυεν ἐλθὼν τὴν θύραν. | μ' ἔκνυεν (R μου 'κνυεν) ; ἐλθών (= R ; ἕλκων Eust.) |  | partiel (OCR seul, Tittmann I ; image à relire) |
 | 484 | Eustathe | Eust. Il. 503, 20 | — |  |  | référence de l'auteur ; passage non retrouvé par l'OCR de l'éd. Stallbaum (pages voisines lues sans résultat) | non |
 | 484 | Eustathe | Eust. Od. 1746, 46-47 (Stallbaum, Od. II, scan n62 (p. 55)) | citation | ὅτι δὲ στρόφος οὐ μόνον ὁ ποιητικός, ἀλλὰ καί τι νόσημα ζωϊκόν, δηλοῖ καὶ ὁ κωμικὸς ἐν τῷ, στρόφος μ' ἔχει, ὦ ἄνερ, καὶ ὀδύνη τὴν γαστέρα | ordre στρόφος μ' ἔχει, ὦ ἄνερ, καὶ ὀδύνη τὴν γαστέρα (texte … τὴν γαστέρ' ὦνερ κὠδύνη) | ordre des mots et ὦ ἄνερ, καὶ ὀδύνη (texte τὴν γαστέρ' ὦνερ κὠδύνη) ; marge 40 quatre lignes avant ; l'auteur : 1746.45 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 486 | Hésychius | κ 1980 | glose | κεδρίδες |  | référence de l'auteur ; vol. κ–ο de Latte absent, glose non retrouvée dans l'OCR de Schmidt | non |
 | 486 | Photius | Photius κ 1980 κ 517 | — | κεδρίδας |  | référence de l'auteur, non contrôlée | non |
-| 486 | Souda | Souda σ 1712 | citation | κᾆθ' ὁ μὲν ἔτριβε κεδρίδας, ἄνηθον, σφάκον | ἄνηθον (= R ; ἄννηθον Dindorf) |  | oui (SOL) |
-| 489 | Moeris | Moeris α 13 | — | Ἀγυιᾶ |  | référence de l'auteur, non contrôlée (« cf. ») | non |
+| 486 | Souda | Souda σ 1712 | citation | κᾆθ' ὁ μὲν ἔτριβε κεδρίδας, ἄνηθον, σφάκον | ἄνηθον (= R ; ἄννηθον Dindorf) | apparat d'Adler : aucune ; A(GFVM) | oui (Adler IV 484, 20-21, image de la page) |
+| 489 | Moeris | α 13 (Bekker p. 187, 12) | glose | ἀγυιᾶ μακρῶς τὴν ἐπὶ τέλους Ἀττικοί, ἀγυιά Ἕλληνες |  | « cf. » chez l'auteur | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
 | 489 | Étienne de Byzance | s.v. Ἀγυιά, p. 22, 14-15 - 23, 1 (Meineke) | glose | λέγεται δὲ κίων ἀγυιεὺς εἰς ὀξὺ ἀπολήγων, ὁ πρὸ τῶν θυρῶν ἱστάμενος, Ἀριστοφάνης Θεσμοφοριαζούσαις |  | pièce nommée ; la notice est reprise dans l'Hérodien de Lentz (GG III.2 p. 497 et III.1, l. X), qui la rapporte par erreur au v. 482 | oui (Meineke 1849, image des pages) |
-| 493-494 | Souda | Souda λ 434 | citation | μάλισθ' ὅταν ὑπό του ληκώμεθα τὴν νύχθ' ὅλην | ὅταν après μάλισθ' (texte ὅταν μάλισθ') ; ληκώμεθα (= Rac ; κινώμεθα Rpc) ; add. ὅλην |  | oui (SOL) |
-| 504 | Phrynichus | Phrynichus Praep. soph. 129.3 | — | ὠκυτόκι᾽ |  | référence de l'auteur, non contrôlée | non |
-| 504 | Pollux | II 7 (Dindorf I p. 75) | glose | ἀτόκιον φάρμακον, ἢ ὠκυτόκιον, ὡς Ἀριστοφάνης |  | Aristophane nommé ; numéro de § repris de l'auteur (marque non visible sur la découpe) | oui (Dindorf 1824, image de la page ; numérotation des §§ identique chez Bethe) |
+| 493-494 | Souda | Souda λ 434 | citation | μάλισθ' ὅταν ὑπό του ληκώμεθα τὴν νύχθ' ὅλην | ὅταν après μάλισθ' (texte ὅταν μάλισθ') ; ληκώμεθα (= Rac ; κινώμεθα Rpc) ; add. ὅλην | apparat d'Adler : 3 ληκώμεθα] ληκώμεσθα GM ; 2 κινώμεθα] νικώμεθα V (glose) ; A(GFVM) | partiel (Adler III 262, 2-3, saisie non confirmée sur l'image) |
+| 504 | Phrynichus | Praep. soph. 129, 3 | glose | ὠκυτόκιον (Aristoph. Thesm. 504) : φάρμακόν τι, ὃ περιάπτουσι ταῖς κυϊσκομέναις ὑπὲρ τοῦ ταχέως τεκεῖν |  | renvoi de de Borries ; numéro de ligne repris de l'auteur | partiel (OCR seul, de Borries 1911 ; image à relire) |
+| 504 | Pollux | II 7 (Bethe I p. 82) | glose | ἀτόκιον φάρμακον, ἢ τικτικόν, ἢ ὠκυτόκια, ὡς Ἀριστοφάνης (Thesmoph 504) | ὠκυτόκια (pl., comme le texte ; ὠκυτόκιον chez Dindorf et C) | Aristophane nommé (renvoi de Bethe) | partiel (OCR seul, Bethe I ; image à relire ; Dindorf 1824 lu) |
 | 506 | Hésychius | κ 2549 | glose | κηρίῳ βύσασα |  | référence de l'auteur ; vol. κ–ο de Latte absent, glose non retrouvée dans l'OCR de Schmidt | non |
-| 506 | Photius | Photius κ 675 κηρίῳ βῦσαι | — | κηρίῳ βεβυσμένον |  | référence de l'auteur, non contrôlée | non |
-| 509 | Moeris | Moeris η 14 | — | ἦτρον |  | référence de l'auteur, non contrôlée | non |
-| 509 | Souda | Souda η 637 | citation | τὸ γὰρ ἦτρον τῆς χύτρας ἐλάκτισεν | — |  | oui (SOL) |
+| 506 | Photius | κ 675 | glose | κηρίῳ βῦσαι · αἱ ὑποβαλλόμεναι κηρίον ἐπετίθεσαν τοῖς παιδίοις ἵνα μὴ βοᾷ | βῦσαι (texte βύσασα) |  | partiel (texte lu dans Naber 1864, image de la page ; n° de Theodoridis non contrôlé) |
+| 509 | Moeris | η 14 (Bekker p. 198, 12) | glose | ἦτρον τὸν ὑπὸ τῷ ὀμφαλῷ τόπον Ἀττικοί, ὑπογάστριον Ἕλληνες |  |  | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
+| 509 | Souda | Souda η 637 | citation | τὸ γὰρ ἦτρον τῆς χύτρας ἐλάκτισεν | — | apparat d'Adler : aucune (A²(GIFVM)) | oui (Adler II 596, 20-22, contrôle du 28/10 recoupé sur l'OCR) |
 | 509 | Zonaras | col. 1012 | citation | Ἦτρον … Ἀριστοφάνης · τὸ γὰρ ἦτρον τῆς χύτρας ἐλάκτισε | — |  | oui (Tittmann I, image de la page) |
 | 514 | Aelius Dionysius | Aelius Dionysius ε 26 | — |  |  | référence de l'auteur, non contrôlée (« cf. ») | non |
 | 514 | Eustathe | Eust. Il. 462, 40 (Stallbaum, Il. I, scan n377 (p. 370)) | citation | καὶ ὅτι τὸ εἰρημένον ἐκμαγεῖον ἔκμαγμα λέγει ὁ κωμικός |  | 462 en marge de n376, 40 en marge de n377 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 514 | Eustathe | Eust. Od. 1857, 17 env. (Stallbaum, Od. II, scan n199) | citation | τὸ δ' αὐτὸ καὶ ἔκμαγμα, ὡς ὁ κωμικός· λέων λέων αὔτ' ἔκμαγμα σόν | om. σοι γέγονεν ; αὔτ' ἔκμαγμα | om. σοι γέγονεν ; 1857 puis 10 en marge, la citation six lignes plus bas (l'auteur : 1857.10) | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 514 | Pollux | IX 131 (Bethe II p. 182) | glose | Ἀριστοφάνης δὲ ἐν ταῖς Θεσμοφοριαζούσαις (514) καὶ ἔκμαγμα εἶπεν | ἔκμαγμα (le mot, non la citation) | pièce nommée | oui (Bethe II, image de la page) |
-| 514-516 | Souda | Souda λ 271 | citation | λέων, λέων σοι γέγονεν ἔκμαγμα σόν … στρεβλὸν ὥσπερ κύτταρον | ἔκμαγμα (R αὖτ' ἔκμαγμα ; αὐτέκμαγμα Reiske) | lemme (v. 514) et citation (515-516) ; cf. π 2114 | oui (SOL) |
-| 514-516 ; 254 | Souda | Souda π 2114 | citation | λέων, λέων σοι γέγονεν ἔκμαγμα σόν … ὥσπερ κύτταρον στρεβλόν ; νὴ τὴν Ἀφροδίτην, ἡδύ γ' ὄζει ποσθίου | ἔκμαγμα (R αὖτ' ἔκμαγμα) ; ὥσπερ κύτταρον στρεβλόν (texte στρεβλὸν ὥσπερ κύτταρον) |  | oui (SOL) |
-| 515-516 | Souda | Souda κ 2787 | citation | πόσθιον τῷ σῷ προσόμοιον, στρεβλὸν ὥσπερ κύτταρον | — |  | oui (SOL) |
+| 514-516 | Souda | Souda λ 271 | citation | λέων, λέων σοι γέγονεν ἔκμαγμα σόν … στρεβλὸν ὥσπερ κύτταρον | ἔκμαγμα (R αὖτ' ἔκμαγμα ; αὐτέκμαγμα Reiske) | lemme (v. 514) et citation (515-516) ; cf. π 2114 ; apparat d'Adler : aucune sur la citation (place de la notice : 271 post 269 V post 268 GM) ; A(GVM) | partiel (Adler III 249, 13-16, saisie non confirmée sur l'image) |
+| 514-516 ; 254 | Souda | Souda π 2114 | citation | λέων, λέων σοι γέγονεν ἔκμαγμα σόν … ὥσπερ κύτταρον στρεβλόν ; νὴ τὴν Ἀφροδίτην, ἡδύ γ' ὄζει ποσθίου | ἔκμαγμα (R αὖτ' ἔκμαγμα) ; ὥσπερ κύτταρον στρεβλόν (texte στρεβλὸν ὥσπερ κύτταρον) | apparat d'Adler : 14 ἔκμαγμα σόν GM, v. Λ 271 : ἔκμασον A, ἐκμάσσον V ; 15 ἁπαξάπαντα] σπαράξαντα V ; 15 προσόμοιον] παρόμοιον G ; 17 Ἀφροδίτην om. V, propter cp. ; 17 γ' GMᵉᶜ, Ar. : τ' AV ; A(GVM) | partiel (Adler IV 180, 14-17, saisie non confirmée sur l'image) |
+| 515-516 | Souda | Souda κ 2787 | citation | πόσθιον τῷ σῷ προσόμοιον, στρεβλὸν ὥσπερ κύτταρον | — | apparat d'Adler : aucune sur la citation ; A(GFVM) | partiel (Adler III 222, 9-11, saisie non confirmée sur l'image) |
 | 516 | Hésychius | κ 4747 | glose | κύτταρον |  | référence de l'auteur ; vol. κ–ο de Latte absent, glose non retrouvée dans l'OCR de Schmidt | non |
 | 516 | Hésychius | σ 1977 | glose | στρεβλόν · καμπύλον, σκολιόν |  | l'éd. renvoie à Thesm. 516 | oui (Hansen III, OCR de la page) |
-| 516 | Photius | Photius κ 1270 | — | κύτταρον |  | référence de l'auteur, non contrôlée (« cf. ») | non |
-| 527-530 | Souda | Souda α 1073 | citation | ἀλλ' ἅπαν γένοιτ' ἂν ἤδη … μὴ δάκῃ ῥήτωρ ἀθρεῖν | ἀλλ' ἅπαν (= R ; ἀλλὰ πᾶν Cobet) | lemme et citation ; suit le proverbe ὑπὸ παντὶ λίθῳ σκορπίος εὕδει | oui (SOL) |
+| 516 | Photius | κ 1270 | glose | κύτταρος · ἡ τῆς βαλάνου πυελίς · ἢ τὸ προεξάνθημα τῆς ῥοιᾶς · ἢ ἡ ἐν τοῖς κηρίοις τῶν μελιττῶν πυελὶς καὶ κατάτρησις |  | « cf. » chez l'auteur ; cf. Souda κ 2786 | partiel (texte lu dans Naber 1864, image de la page ; n° de Theodoridis non contrôlé) |
+| 516 | Souda | Souda κ 2786 | glose | Κύτταρος : τὸ πῶμα τῆς βαλάνου, ὅπου ἐγκάθηται ἡ βάλανος | — | tiré de la scholie au v. 516 (Adler) ; cf. λ 271, π 2114 ; d'abord écartée comme glose générique ; apparat d'Adler : aucune sur ces lignes ; A(GFVM) | partiel (Adler III 222, 1-5, saisie non confirmée sur l'image) |
+| 527-530 | Souda | Souda α 1073 | citation | ἀλλ' ἅπαν γένοιτ' ἂν ἤδη … μὴ δάκῃ ῥήτωρ ἀθρεῖν | ἀλλ' ἅπαν (= R ; ἀλλὰ πᾶν Cobet) | lemme et citation ; suit le proverbe ὑπὸ παντὶ λίθῳ σκορπίος εὕδει ; apparat d'Adler : notice om. S ; non nov. gl. AT (aucune variante sur les mots cités) | oui (Adler I 98, 13-14, contrôle du 28/10 recoupé sur l'OCR) |
 | 528-530 | Stobée | III 13, 29 (Hense p. 457) | citation | Ἀριστοφάνους · τὴν παροιμίαν ἐπαινῶ τὴν παλαιάν · ὑπὸ λίθῳ γὰρ παντί που χρὴ μὴ δάκῃ ῥήτωρ ἀθρεῖν | om. δ' ; (cod. L : λιθίω, χρῆνα) | attribué à Aristophane | oui (Hense, image de la page) |
-| 531-532 | Souda | Souda α 1349 | citation | ἀλλ' οὐ γάρ ἐστι τῶν ἀναισχύντων … πλὴν ἄλλαι γυναῖκες | ἄλλαι (R ἄρ' εἰ) | le texte de l'auteur porte ἀναισχύτων (coquille ?) | oui (SOL) |
+| 531-532 | Souda | Souda α 1349 | citation | ἀλλ' οὐ γάρ ἐστι τῶν ἀναισχύντων … πλὴν ἄλλαι γυναῖκες | ἄλλαι (R ἄρ' εἰ) | le texte de l'auteur porte ἀναισχύτων (coquille ?) ; apparat d'Adler : aucune (A(GITSM)) | oui (Adler I 122, 8-9, contrôle du 28/10 recoupé sur l'OCR) |
 | 536-537 | Scholie | Σ B Il. 1, 137 (Dindorf III p. 33) | citation | καὶ πάλιν · εἰ μὲν οὖν ἔστι τις · εἰ δὲ μή, ἡμεῖς τε καὶ τὰ δουλάρια τέφραν ποθὲν ληψόμεθα | ἔστι τις (texte τις ἔστιν) ; ἡμεῖς τε (texte ἡμεῖς αὐταί γε) ; ληψόμεθα (texte λαβοῦσαι) |  | oui (First1K, TEI, éd. Dindorf) |
 | 536-537 | Scholie | Σ T Il. 1, 135 (Maass V p. 17) | citation | καὶ ἐν Θεσμοφοριαζούσαις · εἰ μὲν οὖν τις ἔστιν · εἰ δὲ μή, ἡμεῖς τε καὶ τὰ δουλάρια τέφραν ποθὲν λαβοῦσαι | ἡμεῖς τε (texte ἡμεῖς αὐταί γε) | pièce nommée ; = Σ bT Il. 1, 135-137 (Erbse) chez l'auteur | oui (First1K, TEI, éd. Maass) |
 | 554 | Et. Gen. | Etymologicum genuinum (A) ᾔδεισθα | — | ᾔδησθ᾽ |  | référence de l'auteur, non contrôlée | non |
-| 557 | Pollux | Pollux VI 19 | — | σιφωνίζομεν |  | référence de l'auteur, non contrôlée | non |
-| 557 | Souda | Souda σ 512 | citation | σιφωνίζομεν τὸν σῖτον | τὸν σῖτον (= R ; τὸν κύσθον conj. de l'auteur) |  | oui (SOL) |
-| 560 | Souda | Souda κ 996 | citation | ἑτέρα τὸν ἄνδρα τῷ πελέκει κατεσπόδησε | ἑτέρα en tête, om. γυνή (R τὸν ἄνδρα τῷ πελέκει γυνή) |  | oui (SOL) |
+| 557 | Pollux | VI 19 (Bethe II p. 5) | glose | σιφωνίζειν δ' Ἀριστοφάνης (Thesm 557). |  | Aristophane nommé (renvoi de Bethe) | partiel (OCR seul, Bethe II ; image à relire) |
+| 557 | Souda | Souda ε 2727 | glose | Ἐπιτριβείη … σημαίνει δὲ καὶ ἀπολεσθείη | — | rattachée au v. 557 par Gaisford, avec le doute d'Adler (index : « 557 (?) ») ; d'abord écartée comme glose générique ; apparat d'Adler : 17 ἔμπειρος] ἔμπυρος GIVM ; 18 δὲ om. A ; καὶ] τὸ add. F ; A(GIFVM) | partiel (Adler II 390, 17-18, saisie non confirmée sur l'image) |
+| 557 | Souda | Souda σ 512 | citation | σιφωνίζομεν τὸν σῖτον | τὸν σῖτον (= R ; τὸν κύσθον conj. de l'auteur) | apparat d'Adler : 7 σιφωνίζομεν] σιφωνίσωμεν G ; lemme et glose : 6 Σιφωνίζειν] Σιφωνίζει M ; ἐπὶ] μὲν ἐπὶ FV ; A(GFVM) | oui (Adler IV 371, 6-7, image de la page) |
+| 560 | Souda | Souda κ 996 | citation | ἑτέρα τὸν ἄνδρα τῷ πελέκει κατεσπόδησε | ἑτέρα en tête, om. γυνή (R τὸν ἄνδρα τῷ πελέκει γυνή) | apparat d'Adler : aucune (AF(GVM)) | oui (Adler III 71, 30-31, contrôle du 28/10 recoupé sur l'OCR) |
 | 566 | Scholie | Σ Eq. 435 (Ald.), Dübner, adnot. p. 406 | citation | καὶ ἀλλαχοῦ · οὔτοι μὰ τὼ θεὼ σὺ καταπροίξει λέγουσα ταυτί | — | addition de l'Aldine, interpolée de la Souda (κ 730) selon Dübner | oui (Dübner, image de la page) |
-| 566 | Souda | Souda κ 730 | citation | οὔτοι, μὰ τὼ θεώ, σὺ καταπροίξῃ λέγουσα ταυτί | καταπροίξῃ (texte καταπροίξει) |  | oui (SOL) |
-| 567 | EM | Etymologicum magnum 323.25 | — | ἐκποκιῶ |  | référence de l'auteur, non contrôlée | non |
+| 566 | Souda | Souda κ 730 | citation | οὔτοι, μὰ τὼ θεώ, σὺ καταπροίξῃ λέγουσα ταυτί | καταπροίξῃ (texte καταπροίξει) | apparat d'Adler : 19 οὔτοι—21 ζημίας] καὶ καταπροδώσει οἷον προῖκα ἐκφύγοι καὶ καταγελάσ(ῃ), deinde 732 F (la citation manque dans F) ; AʳF(GVM) | oui (Adler III 55, 19-20, contrôle du 28/10 recoupé sur l'OCR) |
+| 567 | EM | Et. M. 323, 55 | glose | Ἐκποκιῶ, ἐκτίλλω. ποκάδες γὰρ αἱ τρίχες. |  | l'auteur : 323.25 ; ligne déduite du repère 50 en marge, cinq lignes plus haut | partiel (OCR seul, éd. de Leipzig 1816 ; image à relire) |
 | 567 | Hésychius | ε 1637 | glose | ἐκποκιῶ · ἐκτιλῶ |  | l'éd. renvoie à Thesm. 567 | oui (Cunningham IIa, OCR de la page) |
 | 567 | Hésychius | π 2750 | glose | ποκάδες · τρίχες … ἀπὸ τοῦ πέκεσθαι, ὅθεν καὶ πόκος |  | l'éd. renvoie à Thesm. 567 | oui (Hansen III, OCR de la page) |
 | 567 | Photius | π 1010 | glose | πλοκάδες · τρίχες | πλοκάδες (texte ποκάδας) |  | oui (Theodoridis III, PDF p. 272) |
-| 567 | Souda | Souda ε 588 | citation | ἐκποκιῶ σου τὰς ποκάδας | ποκάδας (= R) |  | oui (SOL) |
+| 567 | Souda | Souda ε 588 | citation | ἐκποκιῶ σου τὰς ποκάδας | ποκάδας (= R) | apparat d'Adler : 7 ἐκποκιῶ] ἐκπιῶ A (minuscule : le mot de la citation) ; A(GITFVM) | oui (Adler II 229, 7-8, contrôle du 28/10 recoupé sur l'OCR) |
 | 567 | Zonaras | col. 672 | citation | [Ἐκποκιῶ. τὰς τρίχας ἐκσπάσω. Ἀριστοφάνης · ἐκποκιῶ σου τὰς ποκάδας …] | — | entre crochets chez Tittmann | oui (Tittmann I, image de la page) |
 | 570 | Epim. Hom. | Epimerismi alphabetici in Homerum (ed. Cramer) ε 201 | — | χεσεῖν |  | référence de l'auteur, non contrôlée | non |
-| 572-573 | Souda | Souda ο 292 | citation | πρὶν οὖν ὁμοῦ γενέσθαι, σιγᾶθ', ἵν' αὐτῆς πυθώμεθα | om. κοσμίως |  | oui (SOL) |
-| 574 | Souda | Souda ξ 83 | lemme | Ξυγγενεῖς τοὐμοῦ τρόπου | — |  | oui (SOL) |
-| 576 | Souda | Souda π 2541 | lemme | Προξενῶ θ' ὑμᾶς ἀεί | ὑμᾶς (R ὑμῶν) |  | oui (SOL) |
+| 572-573 | Souda | Souda ο 292 | citation | πρὶν οὖν ὁμοῦ γενέσθαι, σιγᾶθ', ἵν' αὐτῆς πυθώμεθα | om. κοσμίως | apparat d'Adler : 9 σιγᾶθ'] σιγᾶσθ' F ; ἐγγύς] ἀντὶ τοῦ ἐ(γγύς) S ; 292 non nov. gl. M (A(GFSM)) | oui (Adler III 534, 9-10, contrôle du 28/10 recoupé sur l'OCR) |
+| 574 | Souda | Souda ξ 83 | lemme | Ξυγγενεῖς τοὐμοῦ τρόπου | — | apparat d'Adler : aucune sur le lemme (27 τὰ om. V porte sur l'explication) ; A(GFVM) | oui (Adler III 497, 27, contrôle du 28/10 recoupé sur l'OCR) |
+| 576 | Souda | Souda π 2541 | lemme | Προξενῶ θ' ὑμᾶς ἀεί | ὑμᾶς (R ὑμῶν) | apparat d'Adler : aucune ; A(GFVM) | partiel (Adler IV 216, 26, saisie non confirmée sur l'image) |
 | 598 | Hésychius | ε 2095 | glose | ἐλινύειν · σχολάζειν, λήγειν, ὀκνεῖν, ἀναπαύεσθαι … |  | glose générique | oui (Cunningham IIa, OCR de la page) |
 | 598 | Hésychius | ε 2097 | glose | ἐλινύων · ἀναπαυόμενος |  | l'éd. renvoie à Arrien, An. 4, 30, 1 | oui (Cunningham IIa, OCR de la page) |
-| 598 | Moeris | Moeris ε 61 (ἐλινύων = ἀναπαυόμενος) | — | ἐλινύειν |  | référence de l'auteur, non contrôlée (« cf. ») | non |
-| 601-602 | Souda | Souda π 2540 | citation | καὶ σὺ ξυνέξευρ' αὐτόν … αὐτήν τε κἀκείνην ἔχῃς, ὦ πρόξενε | ξυνέξευρ' (R συνέξευρ') ; αὐτήν (R ταύτην) |  | oui (SOL) |
-| 616 | Souda | Souda σ 1163 | citation | στραγγουριῶ · χθὲς γὰρ ἔφαγον κάρδαμα | χθὲς γάρ (texte γάρ · ἐχθές) |  | oui (SOL) |
+| 598 | Moeris | ε 61 (Bekker p. 197) | glose | ἐλινύων Ἀττικοί, ἀναπαυόμενος Ἕλληνες |  | « cf. » chez l'auteur | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
+| 600 | Souda | Souda ε 65 | glose | καὶ Ἐγκάθηνται, ἀντὶ τοῦ ἐγκεκρυμμένοι εἰσίν · οἱ γὰρ κρυπτόμενοι ὑποκάθηνται | — | la citation (μὴ τοῖς τρίβωσιν ἐγκάθηνται που λίθοι) est d'Ach. 343 ; Adler ajoute « cf. sch. Ar. Th. 600 » ; non relevé par l'auteur ; apparat d'Adler : aucune sur Ἐγκάθηνται (15 που—ἐνεδρεύει om. V, ἐγκάθηται : ἐνεδρεύει om. F) ; A(GITFVMB) | partiel (Adler II 192, 13-15, saisie non confirmée sur l'image) |
+| 601-602 | Souda | Souda π 2540 | citation | καὶ σὺ ξυνέξευρ' αὐτόν … αὐτήν τε κἀκείνην ἔχῃς, ὦ πρόξενε | ξυνέξευρ' (R συνέξευρ') ; αὐτήν (R ταύτην) | apparat d'Adler : 21 ξυνέξευρ'] συνέξευρ' AG ; A(GFVM) | partiel (Adler IV 216, 21-22, saisie non confirmée sur l'image) |
+| 616 | Souda | Souda σ 1163 | citation | στραγγουριῶ · χθὲς γὰρ ἔφαγον κάρδαμα | χθὲς γάρ (texte γάρ · ἐχθές) | apparat d'Adler : aucune ; A(GFVM) | oui (Adler IV 439, 26-27, image de la page) |
 | 620 | Hésychius | κ 3218 | glose | Κοθωκίδαι · δῆμος |  | Schmidt renvoie à la scholie au v. 620 ; numéro de Latte non contrôlé (vol. II absent) | partiel (glose lue dans Schmidt, éd. minor, OCR ; n° non vérifié) |
 | 620 | Photius | Photius κ 859 Κοθωκίδαι (ap Scholium) | — | Κοθωκιδῶν |  | référence de l'auteur, non contrôlée | non |
-| 630-631 | Souda | Souda π 2563 | citation | φέρ' ἴδω, τί μέντοι πρῶτον ἦν; … προὐπίνομεν | μέντοι (= Rpc in mg.) ; μετά (R με) |  | oui (SOL) |
+| 630-631 | Souda | Souda π 2563 | citation | φέρ' ἴδω, τί μέντοι πρῶτον ἦν; … προὐπίνομεν | μέντοι (= Rpc in mg.) ; μετά (R με) | apparat d'Adler : 2 προὐπίνομεν] προπίνομεν V ; 2.3 ἀλλήλους] ἀλλήλοις GM (dans l'explication, non dans la citation) ; A(GFVM) | partiel (Adler IV 218, 1-3, saisie non confirmée sur l'image) |
 | 633 | Photius | σ 286 | glose | σκάφιον · τάχα λέγει τὸν καδίσκον, ᾧ καταχέονται αἱ γυναῖκες … |  |  | oui (Theodoridis III, PDF p. 393) |
 | 633 | Pollux | X 45 (Bethe II p. 201) | citation | ἄμφω δὲ παράλληλα ἐν Πολυίδῳ Ἀριστοφάνης · σκάφιον Ξένυλλ' ἤτησεν · οὐ γὰρ ἦν ἁμίς | — | attribué par erreur au Polyidos (« immo Thesm. 633 » Bethe) | oui (Bethe II, image de la page) |
 | 641 | Hésychius | σ 1769 | glose | στερίφη · στεῖρα, μὴ τεκοῦσα, μηδὲ τίκτουσα |  | l'éd. renvoie à Thesm. 641 | oui (Hansen III, OCR de la page) |
-| 641 | Moeris | Moeris σ 46 (στερίφη = στερρά) | — | στερίφη |  | référence de l'auteur, non contrôlée (« cf. ») | non |
+| 641 | Moeris | σ 46 (Bekker p. 210, 6) | glose | στερίφη Ἀττικοί, στερρά Ἕλληνες |  | Adler (σ 1049) : Moer. 210, 6 | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
 | 641 | Photius | σ 532 | glose | στερίφη · στεῖρα · μὴ τεκοῦσα · μηδὲ τίκτουσα |  |  | oui (Theodoridis III, PDF p. 421) |
-| 641 | Souda | Souda σ 1049 | glose | Στερίφη · στεῖρα, μὴ τεκοῦσα | — | glose ; cf. Hésychius σ 1769, Συναγωγή σ 214, Photius σ 532 (SOL) | oui (SOL) |
-| 647-648 | Souda | Souda ι 640 | citation | ἰσθμόν τιν' ἔχεις, ἄνθρωπ', … πυκνότερον Κορινθίων | ἄνθρωπ' (R ὦνθρωπε) | suivi de la scholie (διϊσθμονίσαι) | oui (SOL) |
-| 648 | Souda | Souda δ 1048 | glose | Διισθμονίσαι | — | tiré de la scholie au v. 648 (cf. ι 640) | oui (SOL) |
+| 641 | Souda | Souda σ 1049 | glose | Στερίφη · στεῖρα, μὴ τεκοῦσα | — | glose ; cf. Hésychius σ 1769, Συναγωγή σ 214, Photius σ 532 (SOL) ; apparat d'Adler : aucune sur la glose (1 καὶ—2 στερεοῦντες, suite de la notice, om. FV, post 1044 Aʳ) ; A et Aʳ in mg., F (GVM) | oui (Adler IV 429, 1, image de la page) |
+| 647-648 | Souda | Souda ι 640 | citation | ἰσθμόν τιν' ἔχεις, ἄνθρωπ', … πυκνότερον Κορινθίων | ἄνθρωπ' (R ὦνθρωπε) | suivi de la scholie (διϊσθμονίσαι) ; apparat d'Adler : 16 Ἀριστοφάνης—19 ἐκάλουν om. F (A²(GITFVM)) | oui (Adler II 669, 16-19, contrôle du 28/10 recoupé sur l'OCR) |
+| 648 | Souda | Souda δ 1048 | glose | Διισθμονίσαι | — | tiré de la scholie au v. 648 (cf. ι 640) ; apparat d'Adler : aucune (A(GITFVM)) | oui (Adler II 92, 24-25, contrôle du 28/10 recoupé sur l'OCR) |
+| 658 | Souda | Souda π 1836 | glose | Πνύξ : ἐκκλησία. παρὰ τὴν τῶν λίθων πυκνότητα … | — | de la scholie à Ach. 20 ; Adler compare la scholie au v. 658 ; non relevé par l'auteur ; apparat d'Adler : aucune sur ces lignes ; A(GFVM) | partiel (Adler IV 154, 6-7, saisie non confirmée sur l'image) |
 | 659 | Hésychius | ε 8 | glose | ἔα δή · ἄγε δή | ἔα δή (texte εἶα δή) | l'éd. renvoie à Thesm. 659 | oui (Cunningham IIa, OCR de la page) |
 | 659 | Photius | ε 1 | glose | ἔα δή · ἄγε δή (= Synagoge ε 1 = Souda ε 3) | ἔα δή (texte εἶα δή) |  | oui (n° et identité de la glose confirmés par l'apparat de Cunningham à la Synagoge ε 1 ; texte de Photius non lu) |
-| 659 | Souda | Souda ε 3 | glose | Ἔα δή · ἄγε δή | ἔα δή (texte εἶα δή) | glose ; cf. Hésychius ε 8, Photius ε 1, Συναγωγή ε 1 (renvois de l'auteur) | oui (SOL) |
+| 659 | Souda | Souda ε 3 | glose | Ἔα δή · ἄγε δή | ἔα δή (texte εἶα δή) | glose ; cf. Hésychius ε 8, Photius ε 1, Συναγωγή ε 1 (renvois de l'auteur) ; apparat d'Adler : 3 ἄγε δή om. V | oui (Adler II 188, 3, contrôle du 28/10 recoupé sur l'OCR) |
 | 659 | Synagoge | Σ ε 1 | glose | ἔα δή · ἄγε δή | ἔα δή (texte εἶα δή) | parallèles : Souda ε 3, Photius ε 1 | oui (Cunningham, PDF p. 189, OCR) |
-| 692 | Souda | Souda κ 1260 | glose | Κέκραθι · κράξον | — | glose (texte κέκραχθι) | oui (SOL) |
+| 692 | Souda | Souda κ 1260 | glose | Κέκραθι · κράξον | — | glose (texte κέκραχθι) ; apparat d'Adler : 14 Κέκραχθι Port. (correction de Porson pour le lemme ; aucune variante des mss) ; AF(GVM) | oui (Adler III 89, 14, contrôle du 28/10 recoupé sur l'OCR) |
 | 696-697 | Scholie | Σ Plut. 453 (Dübner p. 349) | citation | ὡς παρὰ τουτῳῒ τῷ ποιητῇ ἐν Θεσμοφοριαζούσαις · γυναῖκες οὐκ ἀρήξετ' ; οὐ πολλὴν βοὴν στήσεσθε καὶ τροπαῖον ; | — | pièce nommée ; accentuation τροπαῖον discutée par la scholie | oui (Dübner, image de la page) |
 | 696-7 | Grégoire de Corinthe | Gregor. Corinth. p.20-22 cf. schol.ᴬˡᵈ Plutus 453c | — | γυναῖκες – τροπαῖον |  | référence de l'auteur, non contrôlée | non |
-| 701 | Souda | Souda ν 222 | glose | τέρας νεοχμόν · Ἀριστοφάνης | ordre τέρας νεοχμόν (texte νεοχμὸν αὖ τέρας) | rapprochement incertain (la SOL renvoie à Photius ν 154) | oui (SOL) |
+| 697 | Souda | Souda τ 1049 | glose | Τρόπαια : νικητήρια … τὸ τρόπαιον οἱ παλαιοὶ Ἀττικοὶ προπερισπῶσιν, οἱ δὲ νεώτεροι προπαροξύνουσι | — | de la scholie à Plut. 453 ; Adler compare la scholie au v. 697 (accentuation de τροπαῖον) ; non relevé par l'auteur ; apparat d'Adler : 15 ἐν om. GF ; 16 ἀναστήσαιτο] ἂν στῆσαι ss. M ἂν στήσαιτο Ar. ; A(GFVM) | oui (Adler IV 596, 15-17, image de la page) |
 | 702 | CPG | Corpus paroemiographorum Graecorum, Appendices, I, 35 (sed ἔργα omisso) | — | ἅπαντα pro ἅπαν γὰρ ἐστὶν – κἀναισχυντίας |  | référence de l'auteur, non contrôlée | non |
 | 702 | Laur. LVIII 24 | Laurentiamus LVIII 24 p. 40 (ed. Cohn) (sed δοῦλα pro ἔργα) | — | ἅπαντα pro ἅπαν γὰρ ἐστὶν – κἀναισχυντίας |  | référence de l'auteur, non contrôlée | non |
-| 702 | Souda | Souda α 2902 | lemme | Ἅπαντα τόλμης πλέα κἀναισχυντίας | ἅπαντα (R ἅπαν γὰρ ἐστὶν) ; πλέα (R ἔργα) | emploi proverbial (ἐπὶ τῶν ἰταμῶν) ; cf. CPG, Append. I 35 | oui (SOL) |
-| 710 | Photius | Photius η 88 ἥκειν· ἀντὶ τοῦ ἥκων | — |  |  | référence de l'auteur, non contrôlée | non |
-| 710-713 | Souda | Souda η 170 | citation | ἀλλ' οὖν ἥκεις γ' ὅθεν ἥκεις … λήψῃ δὲ κακόν | ἥκεις γ' (R ἥκεις τ') ; φαύλως τ' … οὐ λέξεις (= R) ; λήψῃ (texte λήψει) |  | oui (SOL) |
+| 702 | Souda | Souda α 2902 | lemme | Ἅπαντα τόλμης πλέα κἀναισχυντίας | ἅπαντα (R ἅπαν γὰρ ἐστὶν) ; πλέα (R ἔργα) | emploi proverbial (ἐπὶ τῶν ἰταμῶν) ; cf. CPG, Append. I 35 ; apparat d'Adler : notice om. S (A(GITFSM)) | oui (Adler I 262, 24-25, contrôle du 28/10 recoupé sur l'OCR) |
+| 710 | Photius | η 88 | glose | ἥκειν · ἀντὶ τοῦ ἥκων |  | appuie la conjecture de l'auteur au v. 710 | partiel (texte lu dans Naber 1864, image de la page ; n° de Theodoridis non contrôlé) |
+| 710-713 | Souda | Souda η 170 | citation | ἀλλ' οὖν ἥκεις γ' ὅθεν ἥκεις … λήψῃ δὲ κακόν | ἥκεις γ' (R ἥκεις τ') ; φαύλως τ' … οὐ λέξεις (= R) ; λήψῃ (texte λήψει) | apparat d'Adler : aucune (A²F(GIVM)) | oui (Adler II 557, 24-25, contrôle du 28/10 recoupé sur l'OCR) |
 | 729 | Hésychius | θ 862 | glose | θυμάλωψ · ἡ λιγνυώδης τοῦ πυρὸς ἀναφορά … |  |  | oui (Cunningham IIa, OCR de la page) |
-| 729 | Photius | Photius θ 256 Θυμάλωψ, Hesychius θ 861 | — | θυμάλωπα |  | référence de l'auteur, non contrôlée (« cf. ») | non |
-| 729 | Souda | Souda θ 547 | glose | Θυμάλωπες | — | glose (aussi Ach. 321) | oui (SOL) |
-| 730-731 | Souda | Souda κ 2408 | citation | σὺ δὲ τὸ Κρητικὸν ἀπόδυθι ταχέως | σὺ δὲ τὸ (R σὺ τόδε τὸ) |  | oui (SOL) |
+| 729 | Photius | θ 256 | glose | θυμάλωψ · δαίμων τις οὕτως καλεῖται · καὶ θυμάλωπες οἱ κεκαυμένοι ἄνθρακες ἢ ἡμίκαυτα ξύλα ἢ σπινθῆρες |  | « cf. » chez l'auteur | partiel (texte lu dans Naber 1864, image de la page ; n° de Theodoridis non contrôlé) |
+| 729 | Souda | Souda θ 547 | glose | Θυμάλωπες | — | glose (aussi Ach. 321) ; apparat d'Adler : notice om. TF ; 3 ἀπολελειμμένοι] ἀπολελυμμένοι VM, ἀπολυμμένοι GI ; ἡμίκαυτοι] ἡμίκαυστοι GI (A²(GITFVM)) | oui (Adler II 734, 3, contrôle du 28/10 recoupé sur l'OCR) |
+| 730-731 | Souda | Souda κ 2408 | citation | σὺ δὲ τὸ Κρητικὸν ἀπόδυθι ταχέως | σὺ δὲ τὸ (R σὺ τόδε τὸ) | apparat d'Adler : aucune (A(GFVM)) | oui (Adler III 187, 26-27, contrôle du 28/10 recoupé sur l'OCR) |
 | 731 | Hésychius | κ 4087 | glose | Κρητικόν · ἱματίδιον λεπτὸν καὶ βραχύ … |  | Schmidt renvoie à Eupolis ; numéro de Latte non contrôlé (vol. II absent) | partiel (glose lue dans Schmidt, éd. minor, OCR ; n° non vérifié) |
-| 735 | EM | Etymologicum magnum 31.13 | — | ποτίσταται |  | référence de l'auteur, non contrôlée | non |
+| 735 | EM | Et. M. 31, 13 | glose | καὶ οἱ Ἀττικοὶ διὰ τῷ ισ. ποτίστατον λέγουσι καὶ λαγνίστατον |  | sans citation du vers | partiel (OCR seul, éd. de Leipzig 1816 ; image à relire) |
 | 735 | Et. Sym. | Etymologicum Symeonis α 241 (ed. Lasserre-Livadaras) | — |  |  | référence de l'auteur, non contrôlée | non |
 | 735 | Eustathe | Eust. Od. 1441, 23 (Stallbaum, Od. I, scan n101) | citation | ποτίστατον γάρ φησιν Ἀριστοφάνης· ὡς τό, ὦ θερμόταται γυναῖκες ὦ ποτίσταται | — | texte conforme ; marge 20 deux lignes avant | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
-| 735, 737 | Souda | Souda θ 251 | citation | ὦ θερμόταται γυναῖκες, μέγα καπήλοις καλόν, ἡμῖν δὲ κακόν | om. ὦ ποτίσταται … πιεῖν (735-736) et ὦ (737) ; καλόν (texte ἀγαθόν) ; δέ (texte δ' αὖ) |  | oui (SOL) |
-| 742 | Antiatticiste | Antiatticista (ed. Bekker) 98.11 | — | ἤνεγκον |  | référence de l'auteur, non contrôlée | non |
-| 742 | Phrynichus | Phrynichus Praep. soph. 73.1 | — | ἤνεγκον |  | référence de l'auteur, non contrôlée | non |
+| 735, 737 | Souda | Souda θ 251 | citation | ὦ θερμόταται γυναῖκες, μέγα καπήλοις καλόν, ἡμῖν δὲ κακόν | om. ὦ ποτίσταται … πιεῖν (735-736) et ὦ (737) ; καλόν (texte ἀγαθόν) ; δέ (texte δ' αὖ) | apparat d'Adler : 11 δέ] καί F (A²F(GIVM)) | oui (Adler II 708, 10-11, contrôle du 28/10 recoupé sur l'OCR) |
+| 742 | Antiatticiste | 98, 11 | glose | Ἤνεγκον : ἐπὶ πρώτου προσώπου. Σοφοκλῆς Τυροῖ, Ἀριστοφάνης Θεσμοφορίαις |  | pièce nommée sous le titre Θεσμοφορίαις (le vers n'est pas cité) ; se rapporte peut-être aux Thesmophories II | oui (Bekker, Anecdota I, image de la page) |
+| 742 | Phrynichus | Praep. soph. 73, 1 | glose | ἤνεγκον (Soph. fr. 608 ; Aristoph. Thesmoph. 742 et Ran. 1299) : ἀπὸ τῆς ἐνεγκὼν μετοχῆς … τὸ δὲ ἤνεγκα ἀπὸ τῆς ἐνέγκας. ἄμφω μὲν οὖν δόκιμα |  | renvoi de de Borries | partiel (OCR seul, de Borries 1911 ; image à relire) |
 | 745 | Hésychius | τ 1645 | glose | τυννοῦ⟨το⟩ν · τὸν μικρόν |  | l'éd. renvoie à Thesm. 745 | oui (Hansen–Cunningham IV, OCR de la page) ; ligne contrôlée sur l'image |
 | 745 | Photius | τ 552 | glose | τυννοῦτο · δεικτικῶς τὸ μικρόν |  |  | oui (Theodoridis III, PDF p. 535) |
-| 747 | Souda | Souda δ 1168 | citation | (ἐξ αὐτοῦ) σχεδὸν τοσοῦτον, ὅσον ἐκ Διονυσίων | ὅσον (R et P.Oxy. 3839 καὶ ὅσον ; χὤσον Bentley) | cité comme proverbe | oui (SOL) |
+| 747 | Souda | Souda δ 1168 | citation | (ἐξ αὐτοῦ) σχεδὸν τοσοῦτον, ὅσον ἐκ Διονυσίων | ὅσον (R et P.Oxy. 3839 καὶ ὅσον ; χὤσον Bentley) | cité comme proverbe ; apparat d'Adler : 1 καί—7 Ναυπάκτιοι om. F (la citation manque dans F) ; A(GITFVM) | oui (Adler II 106, 1-2, contrôle du 28/10 recoupé sur l'OCR) |
 | 749 | Hésychius | ε 2458 | glose | ἐμπίπραται · καίεται, ἐμπυρίζεται |  | glose générique | oui (Cunningham IIa, OCR de la page) |
-| 749 | Souda | Souda ε 1018 | glose | Ἐμπίπραται · ἐμπυρίζεται | — | glose générique (texte ἐμπίμπρατε) | oui (SOL) |
+| 749 | Souda | Souda ε 1018 | glose | Ἐμπίπραται · ἐμπυρίζεται | — | glose générique (texte ἐμπίμπρατε) ; apparat d'Adler : 1018—9 inverso ord. ; 10 ἐμπυρίζεται F, Hes., Zon. 709 : ἐμπρίζεται GIVM (G(IFVM)) | oui (Adler II 260, 10, contrôle du 28/10 recoupé sur l'OCR) |
 | 749 | Zonaras | Zonaras 709 | — | ἐμπίμπρατε |  | référence de l'auteur, non contrôlée | non |
 | 754 | Photius | σ 850 | glose | σφαγεῖον · τὸ ἀγγεῖον εἰς ὃ τὸ αἷμα τῶν σφαζομένων ἱερείων δέχονται · περισπᾶται ἡ δευτέρα συλλαβή |  |  | oui (Theodoridis III, PDF p. 455) |
-| 754 | Souda | Souda σ 1702 | glose | Σφαγεῖον | — | tiré de la scholie au v. 754 (SOL) | oui (SOL) |
-| 769-775 | Souda | Souda π 45 | citation | οἶδα δ' ἐγὼ καὶ δὴ πότερον ἐκ τοῦ Παλαμήδους … κἀκεῖν' ἦν ξύλον | οἶδα δ' (texte οἶδ') ; πότερον (texte πόρον) ; om. 771b ; γ' ἔκειντο (R γένοιτ' ἄν) ; om. πόθεν; πόθεν; τί δ' ἂν εἰ ; ταδὶ τἀγάλματα (R εἶτα διὰ τἀγάλματ') ; om. τῶν | citation entrecoupée de la scholie | oui (SOL) |
-| 770-771 | Souda | Souda π 1702 | citation | ὥσπερ Παλαμήδης τὰς πλάτας ῥίψω γράφων Ναυπλίῳ | ὥσπερ Παλαμήδης (texte ἐκ τοῦ Παλαμήδους · ὡς ἐκεῖνος) ; add. Ναυπλίῳ | version négligée de la scholie (SOL, cf. π 45) | oui (SOL) |
-| 777 | Souda | Souda π 2064 | citation | ἐγχειρεῖν χρὴ ἔργῳ πορίμῳ | χρή (= R ; χρῆν Bentley) |  | oui (SOL) |
-| 778-779 | Souda | Souda σ 742 | citation | ἄγε δὴ πινάκων ξεστῶν δέλτοι, δέξασθε σμίλης ὁλκούς | — |  | oui (SOL) |
+| 754 | Souda | Souda σ 1702 | glose | Σφαγεῖον | — | tiré de la scholie au v. 754 (SOL) ; apparat d'Adler : aucune ; A(GFVM) | oui (Adler IV 483, 12-13, image de la page) |
+| 769-775 | Souda | Souda π 45 | citation | οἶδα δ' ἐγὼ καὶ δὴ πότερον ἐκ τοῦ Παλαμήδους … κἀκεῖν' ἦν ξύλον | οἶδα δ' (texte οἶδ') ; πότερον (texte πόρον) ; om. 771b ; γ' ἔκειντο (R γένοιτ' ἄν) ; om. πόθεν; πόθεν; τί δ' ἂν εἰ ; ταδὶ τἀγάλματα (R εἶτα διὰ τἀγάλματ') ; om. τῶν | citation entrecoupée de la scholie ; apparat d'Adler : 3 ὑπολαμβάνω—16 ξύλον] καὶ ὑπὸ τοῦ Ὁμήρου A (citation omise dans A) ; 11 πότερον SMᵃᶜ : πρότερον GMᵉᶜ : πόρον Ar. ; 11 Παλαμήδου S ; 12-13 τῷ πατρὶ γράφει G ; 13 τὸν om. S ; Παλαμήδην GS, sch. ; 14 Ναύπλιον Mᵉᶜ ; 16 ξύλον alt.] ξύλων G (Aʳ(in mg.)GFSM) | partiel (Adler IV 6, 11-16, saisie non confirmée sur l'image) |
+| 770-771 | Souda | Souda π 1702 | citation | ὥσπερ Παλαμήδης τὰς πλάτας ῥίψω γράφων Ναυπλίῳ | ὥσπερ Παλαμήδης (texte ἐκ τοῦ Παλαμήδους · ὡς ἐκεῖνος) ; add. Ναυπλίῳ | version négligée de la scholie (SOL, cf. π 45) ; apparat d'Adler : aucune ; A(GFVM) | partiel (Adler IV 140, 18-19, saisie non confirmée sur l'image) |
+| 773 | Souda | Souda α 131 | glose | Ἄγαλμα : πᾶν ἐφ' ᾧ τις ἀγάλλεται | — | Adler compare la scholie au v. 773 (et Vesp. 313) ; non relevé par l'auteur ; apparat d'Adler : aucune sur la glose ; A(GITSM) | oui (Adler I 18, 16, image de la page) |
+| 777 | Souda | Souda π 2064 | citation | ἐγχειρεῖν χρὴ ἔργῳ πορίμῳ | χρή (= R ; χρῆν Bentley) | apparat d'Adler : aucune ; A(GFVM) | partiel (Adler IV 175, 24, saisie non confirmée sur l'image) |
+| 778 | Pollux | ? (Bethe II p. 206) | glose | καὶ Ἀριστοφάνης δὲ ἐν Θεσμοφοριαζούσαις … |  | § et renvoi à lire sur l'image | partiel (OCR seul, Bethe II ; image à relire) |
+| 778-779 | Souda | Souda σ 742 | citation | ἄγε δὴ πινάκων ξεστῶν δέλτοι, δέξασθε σμίλης ὁλκούς | — | apparat d'Adler : 21 ἄγε—22 ὁλκούς om. F (la citation manque dans F) ; 20 ὁλκοί] ὁλκή GF (lemme) ; A(GFVM) | partiel (Adler IV 393, 19-22, saisie non confirmée sur l'image) |
 | 778-780 | Pollux | X 58 (Bethe II p. 206) | citation | καὶ Ἀριστοφάνης δὲ ἐν Θεσμοφοριαζούσαις ἔφη · πινάκων ξεστῶν δέξασθε σμίλης ὁλκούς, κήρυκας ἐμῶν μόχθων | om. ἄγε δή et δέλτοι | pièce nommée | oui (Bethe II, image de la page) |
-| 800, 810 | Moeris | Moeris β 8 | — | βελτίους = βελτίονες |  | référence de l'auteur, non contrôlée | non |
+| 800, 810 | Moeris | β 8 (Bekker p. 192) | glose | βελτίους Ἀττικοί, βελτίονες Ἕλληνες |  |  | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
 | 805 | Hésychius | σ 88 | glose | Σαλαβακχώ · πόρνης ὄνομα. ἀπὸ δὲ ταύτης καὶ τὰς καταφερεῖς … οὕτως ἔλεγον Ἀττικοί |  | l'éd. renvoie à Cav. 765 et Thesm. 805 | oui (Hansen III, OCR de la page) |
-| 805 | Souda | Souda κ 2692 | glose | Κύννα καὶ Σαλαβακχώ | — | onomastique (la citation est de Cav. 765) | oui (SOL) |
-| 808-809 | Souda | Souda β 431 | citation | τίς βουλευτής ἐστι, παραδοὺς ἑτέρῳ τὴν βουλείαν; | om. ἀμείνων |  | oui (SOL) |
-| 809 | Antiatticiste | Antiatticista (ed. Bekker) 84.30 | — | παραδοὺς ἑτέρῳ τὴν βουλείαν |  | référence de l'auteur, non contrôlée | non |
+| 805 | Souda | Souda κ 2692 | glose | Κύννα καὶ Σαλαβακχώ | — | onomastique ; la citation est de la Paix 754-757 (Adler), non des Cavaliers ; seul lien avec la pièce : le nom Σαλαβακχώ ; apparat d'Adler : 13 Κύννα] Κύνα AGF ; θαυμαζομένων] θαυμαζόμενα V ; 14 πρῶτον V, Ar. : πρῶτα rell. ; 15 Κύννης] Κύννην A ; 16 κολάκων] κολάζων V (A(GFVM)) | oui (Adler III 212, 13-17, contrôle du 28/10 recoupé sur l'OCR) |
+| 808-809 | Souda | Souda β 431 | citation | τίς βουλευτής ἐστι, παραδοὺς ἑτέρῳ τὴν βουλείαν; | om. ἀμείνων | apparat d'Adler : aucune sur la citation ; 2-3 βουλείαν nov. gl. GITF (A(GITFVM)) | oui (Adler I 485, 1-4, contrôle du 28/10 recoupé sur l'OCR) |
+| 809 | Antiatticiste | 84, 29-31 | citation | Βουλίαν : Ἀριστοφάνης Θεσμοφοριαζούσαις τὸ βουλεύειν · παραδοὺς ἑτέρῳ τὴν βουλίαν | βουλίαν (texte βουλείαν) | pièce nommée ; l'auteur : 84.30 | oui (Bekker, Anecdota I, image de la page) |
 | 809 | Harpocration | β 19 Keaney, s.v. βουλεία | glose | ΒΟΥΛΕΙΑ τὸ ἐκ τῆς βουλῆς ὄντα πράττειν ἃ τοῖς βουλευταῖς προσήκει· Δείναρχος καὶ Ἀριστοφάνης ἐν Θεσμοφοριαζούσαις |  | pièce nommée ; numéro de Keaney repris de l'auteur | oui (Perseus, TEI, éd. Dindorf) |
 | 809 | Hésychius | β 921 | glose | βουλεῖα · [ἡ τοῦ] βουλευτήρια καὶ ⟨ἡ τοῦ⟩ βουλεύειν ἀρχή |  | l'éd. renvoie à Thesm. 809 | oui (Latte I, OCR de la page) ; ligne contrôlée sur l'image |
 | 809 | Photius | β Photius β 233 βουλία | — | βουλείαν |  | référence de l'auteur, non contrôlée | non |
 | 816 | Aelius Dionysius | Aelius Dionysius γ 3 | — | γάστριδας |  | référence de l'auteur, non contrôlée (« cf. ») | non |
 | 816 | Photius | Photius γ 40 γάστρις | — | γάστριδας |  | référence de l'auteur, non contrôlée | non |
-| 816 | Souda | Souda γ 72 | glose | Γάστρις | — | glose (texte γάστριδας) ; cf. Photius γ 40 (renvoi de l'auteur) | oui (SOL) |
-| 822 | Pollux | Pollux VII 35 κανὼν ἱστοῦ τὸ καλούμενον ἀντίον | — |  |  | référence de l'auteur, non contrôlée | non |
+| 816 | Souda | Souda γ 72 | glose | Γάστρις | — | glose (texte γάστριδας) ; cf. Photius γ 40 (renvoi de l'auteur) ; apparat d'Adler : aucune (A(GITFVM)) | oui (Adler I 509, 20-21, contrôle du 28/10 recoupé sur l'OCR) |
+| 822 | Pollux | VII 35 (Bethe II p. 61) | glose | κανὼν ἱστοῦ τὸ καλούμενον ἀντίον |  | sans renvoi à la pièce | partiel (OCR seul, Bethe II ; image à relire) |
 | 834 | Hésychius | σ 1825 | glose | στήνια · ἑορτὴ Ἀθήνησι · καὶ διασκώπτουσι καὶ λοιδοροῦσιν |  | l'éd. renvoie à Thesm. 834 | oui (Hansen III, OCR de la page) ; ligne contrôlée sur l'image |
-| 834 | Souda | Souda σ 1089 | glose | Στήνια καὶ Σκίρα · ἑορταὶ γυναικῶν | — | tiré de la scholie au v. 834 (SOL) | oui (SOL) |
+| 834 | Souda | Souda σ 1089 | glose | Στήνια καὶ Σκίρα · ἑορταὶ γυναικῶν | — | tiré de la scholie au v. 834 (SOL) ; apparat d'Adler : aucune ; A(GFVM) | oui (Adler IV 433, 8, image de la page) |
 | 838 | Aelius Dionysius | Aelius Dionysius σ 23 | — | σκάφιον ἀποκεκαρμένην |  | référence de l'auteur, non contrôlée | non |
 | 838 | Eustathe | Eust. Il. 1292, 61 (Stallbaum, Il. IV, scan n277 (p. 274)) | citation | κείρονται δὲ καὶ μέχρι νῦν οἱ μὲν ἐν χρῷ, καθὰ καὶ Ἀλανοί, οἱ δὲ σκάφιον, ὃ παρὰ τῷ κωμικῷ κεῖται |  | marges 50 et 60 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 838 | Eustathe | Eust. Il. 907, 40-43 (Stallbaum, Il. III, scan n125 (p. 118)) | citation | κωμικοὶ δὲ κηποκόμαν τὸν κῆπον κειρόμενον, ὥς περ ἕτερον σκαφιόκουρον. καὶ ἔστι καὶ παρὰ τῷ κωμικῷ ἡ λέξις τοῦ σκάφιον κείρεσθαι |  | 907 en marge de n124 ; contexte : κατὰ Αἴλιον Διονύσιον ; l'auteur : 907.40 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
@@ -408,102 +423,106 @@
 | 846 | Eustathe | Eust. Il. 768, 9-10 (Stallbaum, Il. II, scan n290) | glose | ὁ στραβίζων, ὃ καὶ ἰλλὸς κατὰ τοὺς παλαιούς |  | glose sans mention du comique ; 768 puis 10 en marge ; l'auteur : 768.9 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 846 | Hésychius | η 257 | glose | ἠίλλοντο · ἐστράβιζον |  |  | oui (Cunningham IIa, OCR de la page) |
 | 846 | Hésychius | ι 578 | glose | ἰλλός · στρεβλός, στραβός, διεστραμμένος |  | l'éd. renvoie à Thesm. 846 | oui (Cunningham IIa, OCR de la page) ; ligne contrôlée sur l'image |
-| 846 | Pollux | II 52 (Dindorf I p. 87) | glose | Ἴλλος δὲ ὑπὸ τῶν ποιητῶν καλεῖται, καὶ ἰλλώπειν ἐν τῇ κωμῳδίᾳ, τὸ παραβλέπειν |  | glose (le comique cité pour ἰλλώπειν, non pour ἰλλός) | oui (Dindorf 1824, image de la page ; numérotation des §§ identique chez Bethe) |
-| 846 | Souda | Souda ι 323 | citation | ἴλλος γεγένημαι · ὁ δ' οὐδέπω | om. προσδοκῶν |  | oui (SOL) |
+| 846 | Pollux | II 52 (Bethe I p. 98) | glose | ἰλλὸς δὲ ὑπὸ τῶν ποιητῶν (Aristoph Thesm 846) καλεῖται, καὶ ἰλλώπτειν ἐν τῇ κωμῳδίᾳ (III 579 frg 1019 Ko) τὸ παραβλέπειν |  | renvoi de Bethe à Thesm. 846 ; ἰλλώπτειν : fr. 1019 Kock | partiel (OCR seul, Bethe I ; image à relire ; Dindorf 1824 lu) |
+| 846 | Souda | Souda ι 323 | citation | ἴλλος γεγένημαι · ὁ δ' οὐδέπω | om. προσδοκῶν | apparat d'Adler : 18 Ἀριστοφάνης—19 οὐδέπω om. F (A²F(GIVM)) | oui (Adler II 632, 18-19, contrôle du 28/10 recoupé sur l'OCR) |
 | 846 | Zonaras | Zonaras 1103 ἰλλός | — |  |  | référence de l'auteur, non contrôlée | non |
 | 852 | Hésychius | κ 3232 | glose | κοικύλλειν · περιβλέπειν … |  | Schmidt renvoie à Thesm. 852 ; numéro de Latte non contrôlé (vol. II absent) | partiel (glose lue dans Schmidt, éd. minor, OCR ; n° non vérifié) |
-| 852 | Photius | Photius κ 860 | — | κοικύλλεις |  | référence de l'auteur, non contrôlée | non |
-| 852 | Souda | Souda κ 2534 | citation | τί αὖ σὺ κυρκανᾷς, ἢ τί κοικύλλεις ἔχων; | ἢ τί (= R ; τί Faber) |  | oui (SOL) |
-| 857 | Souda | Souda μ 459 | lemme | Μελανοσυρμαῖον λεών | — |  | oui (SOL) |
+| 852 | Photius | κ 860 | glose | κοικύλλειν · περιβλέ(πειν) |  |  | partiel (texte lu dans Naber 1864, image de la page ; n° de Theodoridis non contrôlé) |
+| 852 | Souda | Souda κ 2534 | citation | τί αὖ σὺ κυρκανᾷς, ἢ τί κοικύλλεις ἔχων; | ἢ τί (= R ; τί Faber) | apparat d'Adler : aucune sur la citation (17 περιβλέπῃ GVM porte sur la glose) ; A(GFVM) | partiel (Adler III 199, 17-18, saisie non confirmée sur l'image) |
+| 857 | Souda | Souda μ 459 | lemme | Μελανοσυρμαῖον λεών | — | apparat d'Adler : 1 μέλαινα] μέλανα ed. pr. (aucune variante des mss sur le lemme) ; A(GFVM) | oui (Adler III 351, 1-2, contrôle du 28/10 recoupé sur l'OCR) |
 | 861 | Hésychius | φ 938 | glose | Φρυνώνδας · πονηρούς |  |  | oui (Hansen–Cunningham IV, OCR de la page) |
 | 861 | Scholie | Σ Luc. Alex. 4 (Rabe) | glose | ὡσαύτως καὶ ὁ Φρυνώνδας ἐπὶ πονηρίᾳ βοᾶται Εὐπόλιδι ἐν Ἀστρατεύτοις, Δήμοις, Ἀριστοφάνει δὲ Προάγωνι, Ἀμφιαράῳ, Θεσμοφοριαζούσαις |  | pièce nommée ; non relevé par l'auteur | oui (First1K, TEI, éd. Rabe) |
-| 861 | Souda | Souda φ 770 | glose | Φρυνώνδας | — | onomastique (la citation est de l'Amphiaraos) ; l'auteur cite « φ 700 » (= Φρενήρης) : lire φ 770 | oui (SOL) |
+| 861 | Souda | Souda φ 770 | glose | Φρυνώνδας | — | onomastique (la citation est de l'Amphiaraos) ; l'auteur cite « φ 700 » (= Φρενήρης) : lire φ 770 ; apparat d'Adler : aucune sur ces mots ; Aʳ V (GM) | oui (Adler IV 768, 8-10, image de la page) |
 | 861 | Synagoge | Σ φ 211 | glose | Φρυνώνδας · τοὺς πονηρούς, ἀπὸ Φρυνώνδα τινός |  | parallèle : Souda φ 770 (et non φ 700) | oui (Cunningham, PDF p. 509, OCR) |
-| 863 | Souda | Souda γ 496 | citation | πρὶν τῆς ἑτέρας γυναικίσεως δίκην δοῦναι | δοῦναι après δίκην (R après ἑτέρας) |  | oui (SOL) |
-| 868 | Souda | Souda τ 648 | lemme | Τί οὖν ἔτι ζῇ τῶν κοράκων πονηρίᾳ | ζῇ (texte ζῶ) |  | oui (SOL) |
-| 869 | Souda | Souda αι 161 | citation | αἰκάλλει τι καρδίαν ἐμήν | — |  | oui (SOL) |
+| 863 | Souda | Souda γ 496 | citation | πρὶν τῆς ἑτέρας γυναικίσεως δίκην δοῦναι | δοῦναι après δίκην (R après ἑτέρας) | apparat d'Adler : aucune (A(GITFVM)) | oui (Adler I 548, 10-11, contrôle du 28/10 recoupé sur l'OCR) |
+| 868 | Souda | Souda τ 648 | lemme | Τί οὖν ἔτι ζῇ τῶν κοράκων πονηρίᾳ | ζῇ (texte ζῶ) | apparat d'Adler : aucune sur le lemme (12 ἐσπάραξαν] πη ss. M porte sur l'explication) ; A(GFVM) | oui (Adler IV 560, 11-12, image de la page) |
+| 869 | Souda | Souda αι 161 | citation | αἰκάλλει τι καρδίαν ἐμήν | — | apparat d'Adler : aucune (A(GITFVM)) | oui (Adler II 167, 21, contrôle du 28/10 recoupé sur l'OCR) |
 | 869 | Zonaras | Zonaras 91 (τι omisso) | — | αἰκάλλει τι καρδίαν ἐμήν |  | référence de l'auteur, non contrôlée | non |
-| 870 | Antiatticiste | Antiatticista (ed. Bekker) 107.31 | — | μὴ ψεῦσον |  | référence de l'auteur, non contrôlée | non |
+| 870 | Antiatticiste | 107, 31 | glose | Μὴ νόμισον : ἀντὶ τοῦ μὴ νομίσῃς. Σοφοκλῆς Πηλεῖ. καὶ μὴ ψεῦσον | μὴ ψεῦσον (les deux mots) | suit immédiatement Σοφοκλῆς Πηλεῖ ; cf. Souda ψ 62, qui attribue le vers à Sophocle (Adler : Ar. Th. 870 et Soph. fr. 453) | oui (Bekker, Anecdota I, image de la page) |
 | 870 | Scholie | Gregor. Corinth. p.14-15 (= scholium^(Mosch.) Euripides, Hecub. 225) (sed ἡμέρας pro ἐλπίδος) | — |  |  | référence de l'auteur, non contrôlée | non |
 | 870 | Scholie | Σ Eur. Hec. 225 (Dindorf I p. 273) | citation | τὸ Ἀριστοφάνους ἐν Θεσμοφοριαζούσαις παράδειγμα · μὴ ψεῦσον, ὦ Ζεῦ, τῆς ἐπιούσης ἡμέρας | ἡμέρας (texte ἐλπίδος) | pièce nommée ; scholie tirée de Grégoire de Corinthe p. 14 selon Dindorf | oui (First1K, TEI, éd. Dindorf) |
-| 870 | Souda | Souda ψ 62 | citation | μὴ ψεῦσον, ὦ Ζεῦ, τῆς ἐπιούσης ἐλπίδος | — | attribué à Sophocle (« καὶ ὁ Σοφοκλῆς ») ; cf. Grégoire de Corinthe et Σ Eur. Hec. 225 (voir ces sources) | oui (SOL) |
-| 878 | Souda | Souda οι 1 | citation | ὦ δύστηνος, οἷ πεπλώκαμεν; | — |  | oui (SOL) |
+| 870 | Souda | Souda ψ 62 | citation | μὴ ψεῦσον, ὦ Ζεῦ, τῆς ἐπιούσης ἐλπίδος | — | attribué à Sophocle (« καὶ ὁ Σοφοκλῆς ») ; cf. Grégoire de Corinthe et Σ Eur. Hec. 225 (voir ces sources) ; apparat d'Adler : aucune sur la citation (2 ὁ om. FS) ; Aʳ (GFSMC) | oui (Adler IV 844, 1-2, image de la page) |
+| 878 | Souda | Souda οι 1 | citation | ὦ δύστηνος, οἷ πεπλώκαμεν; | — | apparat d'Adler : aucune (A(GFVM)) | oui (Adler IV 614, 1-2, contrôle du 28/10 recoupé sur l'OCR) |
+| 882 | Moeris | Moeris ν 9 | — | ναυττιᾶν = ναυσιᾶν |  | référence de l'auteur, non contrôlée | non |
 | 902 | Photius | Photius α 2059 ἀνταυγεῖς κόρας | — | ἀνταυγεῖς κόρας |  | référence de l'auteur, non contrôlée | non |
-| 902 | Souda | Souda α 2617 | lemme | ἀνταυγεῖς κόρας · στρέψον ἀνταυγεῖς κόρας | — |  | oui (SOL) |
-| 904 | Antiatticiste | Antiatticista (ed. Bekker) 83.9 | — |  |  | référence de l'auteur, non contrôlée | non |
+| 902 | Souda | Souda α 2617 | lemme | ἀνταυγεῖς κόρας · στρέψον ἀνταυγεῖς κόρας | — | apparat d'Adler : aucune (A(GITFSM)) | oui (Adler I 232, 3, contrôle du 28/10 recoupé sur l'OCR) |
+| 904 | Antiatticiste | 83, 9-11 | glose | Ἀφασία : Ἀριστοφάνης Θεσμοφοριαζούσαις, καὶ ὁ ποιητής · δὴν δέ μιν ἀμφασίη ἐπέων λάβε |  | pièce nommée | oui (Bekker, Anecdota I, image de la page) |
 | 904 | Hésychius | α 8572 | glose | ἀφασία · ἀφωνία … στέρησις. σιωπή, ἀναυδία |  | glose générique | oui (Latte I, OCR de la page) |
-| 910 | Souda | Souda ι 778 | citation | ἐγὼ δὲ Μενέλεων ὅσον ἐκ τῶν ἰφύων | Μενέλεων (R Μενέλαον) ; ὅσον (R ὅσα γ') ; ἰφύων (R ἀφύων ; = Σ) |  | oui (SOL) |
+| 910 | Souda | Souda ι 778 | citation | ἐγὼ δὲ Μενέλεων ὅσον ἐκ τῶν ἰφύων | Μενέλεων (R Μενέλαον) ; ὅσον (R ὅσα γ') ; ἰφύων (R ἀφύων ; = Σ) | apparat d'Adler : aucune (A²(GIFVM)) | oui (Adler II 679, 5-6, contrôle du 28/10 recoupé sur l'OCR) |
 | 912 | Hésychius | ε 6447 | glose | ἐσχάραι · πυραί … καὶ αἱ τῶν γυναικῶν φύσεις … |  |  | oui (Cunningham IIa, OCR de la page) |
 | 912 | Photius | Photius ε 2044 ἐσχάρας | — | ἐσχάρας |  | référence de l'auteur, non contrôlée | non |
 | 922 | Photius | Photius α 518 | — | ᾐγυπτιάζετ᾽ |  | référence de l'auteur, non contrôlée | non |
-| 922 | Souda | Souda αι 75 | glose | Αἰγυπτιάζειν | — | glose (texte ᾐγυπτιάζετ') ; cf. Photius α 518, Συναγωγή α 494 (renvois de l'auteur) | oui (SOL) |
+| 922 | Souda | Souda αι 75 | glose | Αἰγυπτιάζειν | — | glose (texte ᾐγυπτιάζετ') ; cf. Photius α 518, Συναγωγή α 494 (renvois de l'auteur) ; apparat d'Adler : aucune (A(GITFVM)) | oui (Adler II 160, 26-27, contrôle du 28/10 recoupé sur l'OCR) |
 | 922 | Synagoge | Σᵇ α 494 | glose | αἰγυπτιάζειν · τὸ πανουργεῖν καὶ κακοτροπεύεσθαι |  |  | oui (Cunningham, PDF p. 568, OCR) |
-| 926 | Souda | Souda η 379 | lemme | Ἢν ἐμπνέω · ἕως οὗ ζῶ | ἥν (texte ἤνπερ) |  | oui (SOL) |
+| 926 | Souda | Souda η 379 | lemme | Ἢν ἐμπνέω · ἕως οὗ ζῶ | ἥν (texte ἤνπερ) | apparat d'Adler : aucune (A²F(GITVM)) | oui (Adler II 573, 12, contrôle du 28/10 recoupé sur l'OCR) |
 | 928 | Diogénien | III 35 (CPG I p. 221) | citation | Αὕτη μὲν ἡ μήρινθος οὐδὲν ἔσπακεν · ἐπὶ τῶν μηδὲν ἑλκυσάντων | ἔσπακεν (ἔσπασεν Eustathe et alii, d'après la note de Leutsch) | la note de Leutsch énumère d'autres témoins : Grég. Chypr. I 1, Apostol. IV 85, Arsen. 84, Σ Vesp. 175, Σ Thesm. 928, Eust. Il. p. 760, 45, Souda (s. αὕτη, μήρινθος, ὁμοῦ), Bekker, Anecd. I 464, 27, Bachmann, Anecd. I p. 165 | oui (CPG I, image de la page) |
 | 928 | Eustathe | Eust. Il. 760, 44-45 (Stallbaum, Il. II, scan n281) | citation | ὕστερον δὲ παροιμία ὁμοία τοιαύτη ἐξεφωνήθη, αὕτη μὲν ἡ μήρινθος οὐδὲν ἔσπασεν, ἀντὶ τοῦ αὕτη ἡ μηχανὴ οὐδὲν ἤνυσεν | — | proverbe (cf. Leutsch : « Eust. Il. p. 760, 45 ») ; 760 en marge de n280 ; l'auteur : 760.44 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
 | 928 | Grégoire de Chypre | I 1 (CPG I) | citation | Αὕτη μὲν ἡ μήρινθος οὐδὲν ἔσπασεν · ἀπὸ τῶν ἁλιευτῶν τῶν μηδὲν ἑλκυσάντων εἴρηται | — |  | oui (First1K, TEI) |
 | 928 | Grégoire de Chypre | recueil de Moscou I 1 (CPG II p. 93) | citation | Αὕτη ἡ μήρινθος οὐδὲν ἔσπασεν · ἀπὸ τῶν ἁλιευτῶν εἴρηται | om. μέν |  | oui (CPG II, image de la page) |
 | 928 | Scholie | Σ Vesp. 175 (Dübner p. 139) | citation | παρὰ τὴν παροιμίαν · αὕτη μὲν ἡ μήρινθος οὐδὲν ἔσπασεν | — | proverbe | oui (Dübner, image de la page) |
-| 928 | Souda | Souda α 4475 | citation | αὕτη μὲν ἡ μήρινθος οὐδὲν ἔσπασε | — | proverbe ; cf. μ 978 | oui (SOL) |
-| 928 | Souda | Souda μ 978 | citation | αὕτη μὲν ἡ μήρινθος οὐδὲν ἔσπασεν | — | proverbe | oui (SOL) |
+| 928 | Souda | Souda α 4475 | citation | αὕτη μὲν ἡ μήρινθος οὐδὲν ἔσπασε | — | proverbe ; cf. μ 978 ; apparat d'Adler : aucune sur le lemme (23 ἡ—ἁλιέων om. M) ; A(GITFVM) | oui (Adler I 418, 22, contrôle du 28/10 recoupé sur l'OCR) |
+| 928 | Souda | Souda μ 978 | citation | αὕτη μὲν ἡ μήρινθος οὐδὲν ἔσπασεν | — | proverbe ; apparat d'Adler : aucune sur la citation (13 ἐπιχειρούντων] ἐγχειρούντων F porte sur l'explication) ; A(GFVM) | oui (Adler III 389, 12-13, contrôle du 28/10 recoupé sur l'OCR) |
 | 931 | Aelius Dionysius | Aelius Dionysius σ 7 | — | σανίδι |  | référence de l'auteur, non contrôlée | non |
 | 931 | Hésychius | σ 169 | glose | σανίς · θύρα … τίθεται δὲ καὶ ἐπὶ τοῦ ⟨σ⟩ταυροῦ |  | l'éd. renvoie à Thesm. 931, 940 | oui (Hansen III, OCR de la page) ; ligne contrôlée sur l'image |
 | 931 | Photius | σ 65 | glose | σανίδα · τὸ δεσμωτικὸν ξύλον |  |  | oui (Theodoridis III, PDF p. 368) |
 | 931, 940 | Photius | σ 68 | glose | σανίς · καὶ ἐν ᾗ τοὺς κακούργους ἔδουν, καὶ ἐν ᾗ τὰς δίκας ἐνεχάραττον · τὸ μὲν ἐν Θεσμοφοριαζούσαις, τὸ δὲ ἐν Σφηξὶ δεδήλωται |  | pièce nommée | oui (Theodoridis III, PDF p. 368) |
-| 935 | Pollux | Pollux VII 161 | — | ἱστιορράφος |  | référence de l'auteur, non contrôlée | non |
-| 935 | Souda | Souda ι 691 | citation | ὀλίγου ταύτην ἱστιορράφος | ταύτην (texte μ' ἀφείλετ' αὐτόν) | citation abrégée ou corrompue | oui (SOL) |
+| 935 | Pollux | VII 161 (Bethe II p. 95) | glose | κοσκινοποιός, κόσκινον, ἱστιορράφος, ἱστίον, πλησίστιος |  | simple mention du mot | partiel (OCR seul, Bethe II ; image à relire) |
+| 935 | Souda | Souda ι 691 | citation | ὀλίγου ταύτην ἱστιορράφος | ταύτην (texte μ' ἀφείλετ' αὐτόν) | citation abrégée ou corrompue ; apparat d'Adler : aucune (A²(GITFVM)) | oui (Adler II 672, 26-28, contrôle du 28/10 recoupé sur l'OCR) |
 | 940 | Hésychius | δ 926 | glose | δῆσαι πρὸς σανίδι · Ἀττικῶς · βασανίσαι ἐν τῷ δεσμωτηρίῳ |  | l'éd. renvoie à Thesm. 940 (?) | oui (Latte I, OCR de la page) ; ligne contrôlée sur l'image |
 | 942 | Hésychius | ε 6411 | glose | ἑστιῶν · ἀριστοποιῶν |  | l'éd. renvoie à Thesm. 942 | oui (Cunningham IIa, OCR de la page) |
 | 942 | Photius | ε 2031 | glose | ἑστιῶν · ἀριστοποιῶν (= Synagoge ε 875 = Souda ε 3227) |  |  | oui (n° et identité de la glose confirmés par l'apparat de Cunningham à la Synagoge ε 875 ; texte de Photius non lu) |
-| 942 | Phrynichus | Phrynichus Praep. soph. 66.7 | — | ἑστιῶν |  | référence de l'auteur, non contrôlée (« cf. ») | non |
-| 942 | Souda | Souda ε 3215 | citation | τοῖς κόραξιν ἑστιῶν | — |  | oui (SOL) |
-| 942 | Souda | Souda ε 3227 | glose | Ἑστιῶν · ἀριστοποιῶν | — | glose ; même notice dans Συναγωγή ε 875, Photius ε 2031, Hésychius ε 6411 (SOL) | oui (SOL) |
+| 942 | Phrynichus | Praep. soph. 66, 7 | glose | ἑστιᾶν τῷδε (Aristoph. Thesm. 941) : οὐ μόνον τὸ … |  | de Borries renvoie à Thesm. 941 ; Adler (ε 3215) à Phryn. 66, 7 | partiel (OCR seul, de Borries 1911 ; image à relire) |
+| 942 | Souda | Souda ε 3215 | citation | τοῖς κόραξιν ἑστιῶν | — | apparat d'Adler : aucune sur la citation (p. 430 : 1 δοτικῆς V porte sur la glose) ; A(GIFVM) | oui (Adler II 429, 31 - 430, 2, contrôle du 28/10 recoupé sur l'OCR) |
+| 942 | Souda | Souda ε 3227 | glose | Ἑστιῶν · ἀριστοποιῶν | — | glose ; même notice dans Συναγωγή ε 875, Photius ε 2031, Hésychius ε 6411 (SOL) ; apparat d'Adler : aucune sur la glose (15 ϛ'] καὶ GI) ; A(GIFVM) | oui (Adler II 430, 15-16, contrôle du 28/10 recoupé sur l'OCR) |
 | 942 | Synagoge | Σ ε 875 | glose | ἑστιῶν · ἀριστοποιῶν |  | parallèles : Souda ε 3227, Photius ε 2031 | oui (Cunningham, PDF p. 239, OCR) |
-| 948 | Souda | Souda α 2364 | citation | ὅταν ὄργια σεμνὰ θεαῖν ἱεραῖς ὥραις ἀνέχωμεν | θεαῖν (= R ; θεοῖν Cobet) | l'auteur date le passage du v. 947 ; variantes des manuscrits de la Souda (θεῶν, θεεῖν…) relevées par l'auteur d'après Adler, non contrôlées | oui (SOL) |
+| 948 | Souda | Souda α 2364 | citation | ὅταν ὄργια σεμνὰ θεαῖν ἱεραῖς ὥραις ἀνέχωμεν | θεαῖν (= R ; θεοῖν Cobet) | l'auteur date le passage du v. 947 ; variantes des manuscrits de la Souda (θεῶν, θεεῖν…) relevées par l'auteur d'après Adler, non contrôlées ; apparat d'Adler : θεαῖν GFSᵃᶜ : θεεῖν I : θεαῖνων M : θεῶν ATSᵉᶜ ; ἀνέχωμεν] ἀνέχομεν AF (A(GITFSM)) | partiel (Adler I 211, 20-21, saisie non confirmée sur l'image) |
+| 949 | Souda | Souda π 824 | glose | Παύσωνος πτωχότερος : οὗτος ζωγράφος ἦν καὶ ἐπὶ πενίᾳ διετεθρύλητο | — | de la scholie à Plut. 602 ; Adler compare la scholie au v. 949 ; non relevé par l'auteur ; apparat d'Adler : 26 διεθρύλλητο F ; Aʳ F (GVM) | partiel (Adler IV 71, 25-26, saisie non confirmée sur l'image) |
+| 961 | Souda | Souda γ 193 | glose | Γέραιρε, δόξαζε, τίμα | — | « fort. » de la scholie au v. 961 (Adler) ; d'abord écartée comme glose générique ; apparat d'Adler : aucune ; A(GITFVM) | partiel (Adler I 519, 10-12, saisie non confirmée sur l'image) |
 | 968 | Hésychius | ε 6929 | glose | εὔκυκλος · εὔχωρος |  |  | oui (Cunningham IIa, OCR de la page) |
 | 968 | Photius | Photius ε 2236 | — | εὐκύκλου |  | référence de l'auteur, non contrôlée | non |
 | 973 | Hésychius | τ 400 | glose | Τελεία · … ἡ Ἥρα |  | l'éd. renvoie à Esch. Eum. 214 et Thesm. 973 | oui (Hansen–Cunningham IV, OCR de la page) ; ligne contrôlée sur l'image |
-| 973 | Souda | Souda τ 271 | glose | Τελεία · Ἥρα Τελεία … | — | tiré de la scholie au v. 973 (SOL) | oui (SOL) |
-| 986 | Souda | Souda τ 789 | citation | τόρευε πᾶσαν ᾠδήν | — |  | oui (SOL) |
-| 1054 | Souda | Souda αι 245 | glose | Αἰόλαν · σκοτεινήν | — | glose | oui (SOL) |
+| 973 | Souda | Souda π 2867 | glose | Τέλος λέγεται καὶ ὁ γάμος. καὶ προτέλεια, τὰ ὑπὲρ τοῦ γάμου θύματα | — | tiré de la scholie au v. 973 (Adler) ; cf. τ 271 ; d'abord écartée comme glose générique ; apparat d'Adler : aucune sur ces lignes ; A(GFVM) | oui (Adler IV 237, 15-19, image de la page) |
+| 973 | Souda | Souda τ 271 | glose | Τελεία · Ἥρα Τελεία … | — | tiré de la scholie au v. 973 (SOL) ; apparat d'Adler : 3 ὄντες] ὄντας AF ; A(GFVM) | oui (Adler IV 519, 2-4, image de la page) |
+| 986 | Souda | Souda τ 789 | citation | τόρευε πᾶσαν ᾠδήν | — | apparat d'Adler : aucune sur la citation (17 λέγε τὴν] λέγεται V, dans l'explication) ; A(GFVM) | oui (Adler IV 573, 16-17, image de la page) |
+| 1054 | Souda | Souda αι 245 | glose | Αἰόλαν · σκοτεινήν | — | glose ; apparat d'Adler : aucune (A(GITFVM)) | oui (Adler II 174, 21, contrôle du 28/10 recoupé sur l'OCR) |
 | 1059 | Eustathe | Eust. Od. 1761, 26-28 (Stallbaum, Od. II, scan n80) | citation | ὁ δὲ τὸν σάνναν τοῦτον παρασημηνάμενος Ἀριστοφάνης ὁ γραμματικὸς καὶ ἄλλας ἐκτίθεται καινοφώνους λέξεις … καὶ τὸ ἐπικοκκάζειν ὕβρει … ὅθεν παρὰ Ἀριστοφάνει τό, ἀοιδὸς ἐπικοκκάστρια | ἀοιδός (texte ἀντῳδός) | d'après la liste des καινόφωνοι λέξεις d'Aristophane de Byzance ; marge 20 huit lignes avant ; l'auteur : 1761.26 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
-| 1059 | Souda | Souda η 686 | lemme | Ἠχὼ λόγων ἀντῳδὸς ἐπικοκκάστρια | — | variantes des manuscrits de la Souda (ἐπικαγχάστρια…) relevées par l'auteur d'après Adler, non contrôlées | oui (SOL) |
-| 1066-1067 | Souda | Souda ι 531 | citation | ὡς μακρὸν ἵππευμα διώκεις ἀστεροειδέα νῶτα διφρεύουσ' αἰθέρος | — |  | oui (SOL) |
+| 1059 | Souda | Souda η 686 | lemme | Ἠχὼ λόγων ἀντῳδὸς ἐπικοκκάστρια | — | variantes des manuscrits de la Souda (ἐπικαγχάστρια…) relevées par l'auteur d'après Adler, non contrôlées ; apparat d'Adler : 15 λόγων] λόγον FGVM ; ἀντῳδὸς AF : αὐτῷ δὸς rell. ; ἐπικοκκάστρια GMᵃᶜ Ar. : ἐπικοκάστρια I : ἐπικοκκάστρια ἢ ἐπικαγχάστρια A : ἐπικαχάστρια F, Vᵐᵍ, ss. M : ἐπικοστράτ (textu) V ; 686 non nov. gl. GM (A²F(GITVM)) | partiel (Adler II 600, 15-16, saisie non confirmée sur l'image) |
+| 1066-1067 | Souda | Souda ι 531 | citation | ὡς μακρὸν ἵππευμα διώκεις ἀστεροειδέα νῶτα διφρεύουσ' αἰθέρος | — | apparat d'Adler : 27 διώκεις] διώκειν V (A²(GIFVM)) | oui (Adler II 658, 27-28, contrôle du 28/10 recoupé sur l'OCR) |
 | 1066-8 | Zonaras | Zonaras 1117 | — | ὡς μακρὸν – αἰθέρος |  | référence de l'auteur, non contrôlée | non |
-| 1067 | Moeris | Moeris ν 6 | — | νῶτα |  | référence de l'auteur, non contrôlée | non |
-| 1067-1068 | Souda | Souda αι 122 | citation | ἀστεροειδέα νῶτα διφρεύουσ' αἰθέρος ἱερᾶς | — | « καὶ αὖθις » (sous Αἰθήρ) | oui (SOL) |
+| 1067 | Moeris | ν 6 (Bekker p. 204, 5) | glose | νῶτα καὶ τὸν νῶτον Ἀττικοί, νῶτος καὶ τοὺς νώτους Ἕλληνες |  |  | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
+| 1067-1068 | Souda | Souda αι 122 | citation | ἀστεροειδέα νῶτα διφρεύουσ' αἰθέρος ἱερᾶς | — | « καὶ αὖθις » (sous Αἰθήρ) ; apparat d'Adler : aucune sur la citation (A(GITFVM)) | oui (Adler II 165, 15-16, contrôle du 28/10 recoupé sur l'OCR) |
 | 1067-8 | Zonaras | Zonaras 67, 78 (sed ἀστρο- pro ἀστερο-) | — |  |  | référence de l'auteur, non contrôlée | non |
-| 1125 | Moeris | Moeris δ 28 | — | δεσμά |  | référence de l'auteur, non contrôlée | non |
+| 1125 | Moeris | δ 28 (Bekker p. 194) | glose | δεσμά οὐδετέρως Ἀττικοί, δεσμοί ἀρσενικῶς Ἕλληνες |  |  | partiel (texte lu dans Bekker 1833, image de la page ; n° de Hansen non contrôlé) |
 | 1139 | Phrynichus | Phrynichus Praep. soph. 100.3 | — | ἄζυγα |  | référence de l'auteur, non contrôlée | non |
 | 1169 | Photius | σ 608 | glose | στρατιάν · συστέλλοντες τὴν δευτέραν συλλαβὴν … οὕτως Ἀριστοφάνης |  | Aristophane nommé | oui (Theodoridis III, PDF p. 429) |
 | 1174 | Photius | Photius α 1514 ἀνακαλπάζει | — | κἀνακάλπασον |  | référence de l'auteur, non contrôlée | non |
 | 1174 | Scholie | Scholium | — | κἀνακάλπασον |  | référence de l'auteur, non contrôlée | non |
-| 1174 | Souda | Souda κ 263 | glose | Καλπάζειν · τὸ ἁβρῶς βαδίζειν | — | lu dans First1KGreek (Adler) ; l'auteur cite « κ 623 » (= Κατάληψις) : lire κ 263 | oui (First1K) |
+| 1174 | Souda | Souda κ 263 | glose | Καλπάζειν · τὸ ἁβρῶς βαδίζειν | — | lu dans First1KGreek (Adler) ; l'auteur cite « κ 623 » (= Κατάληψις) : lire κ 263 ; apparat d'Adler : aucune (AʳF(GIVM)) | oui (Adler III 23, 1, contrôle du 28/10 recoupé sur l'OCR) |
 | 1174 | Zonaras | Zonaras 1171 καλπάζειν· τὸ ἄκρως βαδίζειν | — | κἀνακάλπασον |  | référence de l'auteur, non contrôlée (« cf. ») | non |
 | 1175 | Hésychius | π 2005 | glose | περσικά · … καὶ ὄρχησις Περσική |  | l'éd. renvoie à Thesm. 1175 (cf.) | oui (Hansen III, OCR de la page) |
-| 1175 | Pollux | IV 100 (Dindorf I p. 209) | glose | οὕτω γὰρ ἐν Θεσμοφοριαζούσαις ὀνομάζεται τὸ ὄρχημα τὸ Περσικὸν καὶ σύντονον |  | pièce nommée ; la page de Dindorf porte en titre courant « IV 101 » : § 100 ou 101 | oui (Dindorf 1824, image de la page ; numérotation des §§ identique chez Bethe) |
-| 1175 | Souda | Souda τ 340 | citation | σὺ δ', ὦ Τερηδών, ἐπαναφύσα Περσικόν | Τερηδών (= R ; Τερηδόν, codd. VMpc de la Souda, est imprimé par l'auteur) | « καὶ αὖθις » ; l'auteur écrit « Suidas τ » sans numéro | oui (SOL) |
+| 1175 | Pollux | IV 100 (Bethe I p. 230) | glose | οὕτω γὰρ ἐν Θεσμοφοριαζούσαις (v 1175) ὀνομάζεται τὸ ὄρχημα τὸ Περσικὸν καὶ σύντονον |  | pièce nommée ; § 100 confirmé dans Bethe (Dindorf porte IV 101 en titre) | partiel (OCR seul, Bethe I ; image à relire ; Dindorf 1824 lu) |
+| 1175 | Souda | Souda τ 340 | citation | σὺ δ', ὦ Τερηδών, ἐπαναφύσα Περσικόν | Τερηδών (= R ; Τερηδόν, codd. VMpc de la Souda, est imprimé par l'auteur) | « καὶ αὖθις » ; l'auteur écrit « Suidas τ » sans numéro ; apparat d'Adler : 15 Τερηδών] Τερηδόν VMᵉᶜ ; A(GFVM) | oui (Adler IV 526, 15-16, image de la page) |
 | 1183 | Hésychius | τ 1758 | glose | τὼ πόδε · τοὺς πόδας δυϊκῶς |  |  | oui (Hansen–Cunningham IV, OCR de la page) |
 | 1187 | Hésychius | π 4279 | glose | πυγή · τὸ κάθισμα |  | l'éd. renvoie à Thesm. 1187 | oui (Hansen III, OCR de la page) ; ligne contrôlée sur l'image |
 | 1197 | Hésychius | σ 2137 | glose | συ[μ]βίνης · καπροβόλον. ἐμβόλιον | συμβίνης (R συμβήνην ; Σ, Souda, Photius συβήνην) |  | oui (Hansen III, OCR de la page) ; ligne contrôlée sur l'image |
 | 1197 | Photius | σ 660 | citation | συβήνη · ἡ δερματίνη αὐλοθήκη · ἢ ἡ φαρέτρα. Θεσμοφοριαζούσαις Ἀριστοφάνης · „ἀλλὰ οὐκ ἔχω οὐδέν · ἀλλὰ συβήνην λαβέ“ | ἀλλὰ οὐκ ἔχω οὐδέν (R ἀλλ' οὐκ ἔκ' ὠδέν) ; om. τό ; συβήνην (R συμβήνην) | pièce nommée ; cf. Souda σ 1273 | oui (Theodoridis III, PDF p. 436) |
-| 1197 | Souda | Souda σ 1273 | citation | ἀλλ' οὐκ ἔχω οὐδέν · ἀλλὰ συβήνην λάβε | ἔχω οὐδέν (R ἔκ' ὠδέν) ; om. τό ; συβήνην (R συμβήνην ; = Σ) |  | oui (SOL) |
+| 1197 | Souda | Souda σ 1273 | citation | ἀλλ' οὐκ ἔχω οὐδέν · ἀλλὰ συβήνην λάβε | ἔχω οὐδέν (R ἔκ' ὠδέν) ; om. τό ; συβήνην (R συμβήνην ; = Σ) | apparat d'Adler : aucune ; A(GFVM) | oui (Adler IV 449, 9-10, image de la page) |
 | 1214 | Eustathe | Eust. Od. 1406, 18-19 (Stallbaum, Od. I, scan n51) | citation | παρὰ τῷ κωμικῷ δὲ ἐν τῷ, διέβαλέ με ἡ γραῦς | — | texte conforme (cf. Souda δ 892) ; 1406 puis 10 en marge ; l'auteur : 1406.19 | oui (éd. Stallbaum, pagination de Rome en marge ; image de la page) |
-| 1214 | Souda | Souda δ 892 | citation | διέβαλέ μ' ἡ γραῦς | διέβαλε (R διέβαλλε) ; ἡ γραῦς (R ὁ γραῦς) |  | oui (SOL) |
-| 1217 | Souda | Souda π 1502 | citation | τὴν γραῦν ἐρωτᾷς, ἣ 'φέρεν τὰς πηκτίδας; | γραῦν (R γραῦ) |  | oui (SOL) |
+| 1214 | Souda | Souda δ 892 | citation | διέβαλέ μ' ἡ γραῦς | διέβαλε (R διέβαλλε) ; ἡ γραῦς (R ὁ γραῦς) | apparat d'Adler : 21 καὶ διέβαλέ M (A(GITFVM)) | oui (Adler II 82, 20-22, contrôle du 28/10 recoupé sur l'OCR) |
+| 1217 | Souda | Souda π 1502 | citation | τὴν γραῦν ἐρωτᾷς, ἣ 'φέρεν τὰς πηκτίδας; | γραῦν (R γραῦ) | apparat d'Adler : 23 'φέρεν] φέρε AM ; aucune autre sur la citation (« 20 ὄργανον] ὄρν A » et « 21 πανδουρομάχαιρα G » portent sur d'autres lignes) ; A(GFVM) | oui (Adler IV 124, 21-23, image de la page) |
 | 1231 | Souscription PSI | Subscriptio PSI-1194 fr. 6 ΑΡΙΣΤΟΦΑΝ]ΟΥΣ ΘΕΣΜΟΦΟΡΙ]ΑΖΥΣΑΙ ]ΧΗΗΙ (= 1201, versuum numerus) | — |  |  | référence de l'auteur, non contrôlée | non |
 
 ## 4. Notices examinées et écartées
 
+- Souda α 1446 — Ἀλφάνει : « Ἀριστοφάνης Θεσμοφοριαζούσαις · οἴμοι κακοδαίμων τῆς τόθ' ἡμέρας, ὅτε εἶπέ μ' ὁ κήρυξ · οὗτος ἀλφάνει » : vers absent de la pièce conservée ; Adler (I 129) : Ar. fr. 324 (numérotation de Kock) : Thesmophories II
+- Souda α 3932 — Ἀριστοφάνης : la notice biographique énumère les pièces (dont Θεσμοφοριάζουσαι) : mention du titre, sans citation
 - Souda αι 253 — Αἰόλος : glose générique
-- Souda γ 193 — Γεραίρειν : glose générique (cf. v. 961 γέραιρε)
 - Souda γ 83 — Γαιήοχος : référence erronée de l'auteur (lire γ 63)
 - Souda δ 1320 — Δοθιῆνι … ἠμφιεσμένῳ : sans rapport
 - Souda δ 1508 — ὦ Ζεῦ, τί δρασείεις ποθῶν τὸν λεών : vers non identifié, distinct du v. 71 (ὦ Ζεῦ, τί δρᾶσαι διανοεῖ με τήμερον)
 - Souda δ 448 — Démocrite : sans rapport
-- Souda δ 499 — διαβάλλεταί σ' ὁ θεῖος : citation d'une autre pièce
+- Souda δ 499 — Διαβάλλεται : διαβάλλεταί σ' ὁ θεῖος, ὦ πόνηρε σύ : Oiseaux 1648 (Adler, II 50 : « Ar. Av. 1648 c. sch. ; Archipp. fr. 36, 2 »)
 - Souda δ 500 — Διαβάλλειν : glose générique
-- Souda ε 2727 — Ἐπιτριβείη : glose générique (v. 557 ἐπιτριβείης)
 - Souda ε 2729 — Ἐπίτριπτος : glose générique
 - Souda ε 3237 — Ἐστυκώς : la citation est un fragment comique adespoton (fr. 520 K.-A.), non le v. 158
 - Souda ε 3367 — Εὐάθλους δέκα : Holcades
@@ -514,28 +533,25 @@
 - Souda θ 379 — Θίασος : glose générique
 - Souda θ 610 — Θυρίς : glose générique
 - Souda ι 24 — Ἰάμβη : sans rapport
-- Souda κ 1756 — Κλεισθένην ὁρῶ : lemme tiré des Acharniens 117-122 (Σ Ach. 118, selon la SOL), que l'auteur range au v. 235
-- Souda κ 1757 — Κλεισθένης : citation de Sophocle (?)
-- Souda κ 2730 — Κύων Μολοττικός : Aristophane fr. 958 K.-A. (non vv. 416-417, SOL)
-- Souda κ 2786 — Κύτταρος : glose générique
+- Souda κ 1757 — Κλεισθένης : Oiseaux 829-831 (Adler, III 131), la notice attribuant la citation à « Sophocle » (Σοφοκλῆς] Ἀριστοφάνης Portus)
+- Souda κ 2730 — Κύων Μολοττικός : Adler (III 216) : « ὅπου sq. Laert. 4, 20 » ; fr. 958 K.-A. selon la SOL ; non vv. 416-417
 - Souda κ 396 — Carcinos (cf. vv. 169, 441) : notice biographique
 - Souda κ 623 — Κατάληψις : référence erronée de l'auteur (lire κ 263)
 - Souda λ 54 — Λακιδέας : référence erronée de l'auteur (lire λ 64)
-- Souda λ 816 — Λύκος ἔχανεν : Thesmophories II (« Θεσμοφοριαζούσαις β' »)
+- Souda λ 62 — Λακωνίζω : « Ἀριστοφάνης Θεσμοφοριαζούσαις β' » (Adler, III 229 : Ar. fr. 338) : Thesmophories II
+- Souda λ 816 — Λύκος ἔχανεν : Thesmophories II (« Θεσμοφοριαζούσαις β' » ; Adler, III 296 : Ar. fr. 337)
+- Souda ν 222 — Νεοχμός : τέρας νεοχμόν … ἀτοπίας πλέων : Grenouilles 1371-1372 (Adler, III 452, 18-19), non v. 701
 - Souda π 1634 — Πιππίζουσι : glose générique
-- Souda π 2113 — Πόσθη : glose générique
-- Souda π 2867 — Προτέλειον : glose générique
-- Souda π 356 — Παρακεκινδυνευμένον : Grenouilles 96-102 et le vers d'Euripide parodié au v. 272 (ὄμνυμι δ' ἱερὸν αἰθέρ' οἴκησιν Διός)
+- Souda π 356 — Παρακεκινδυνευμένον : Grenouilles 96, 98-102 c. sch. ; Eur. fr. 487 et 42, Hipp. 612 (Adler, IV 34) ; le vers d'Euripide (ὄμνυμι δ' ἱερὸν αἰθέρ' οἴκησιν Διός) est parodié au v. 272, mais la notice ne cite pas la pièce
 - Souda σ 441 — Simonide : sans rapport
-- Souda σ 823 — Σοφοὶ τύραννοι τῇ τῶν σοφῶν συνουσίᾳ : le vers tragique parodié au v. 21, non une citation de la pièce
+- Souda σ 823 — Σοφοὶ τύραννοι τῇ τῶν σοφῶν συνουσίᾳ : Sophocle, fr. 13, tiré de la scholie au v. 21 (Adler, IV 403 : « Soph. fr. 13 ex sch. Ar. Th. 21 cf. Zen. V 98 ») ; vers parodié au v. 21, non citation de la pièce
 - Souda σ 951 — Σπλήν : glose générique
 - Souda τ 1235 — Τυχηρότερος : glose générique
 - Souda τ 812 — Τοὔγκυκλον : Cavaliers
-- Souda φ 379 — Philoclès (cf. v. 168) : notice biographique
 - Souda φ 393 — Philoxène : sans rapport
 - Souda φ 700 — Φρενήρης : référence erronée de l'auteur (lire φ 770)
 - Zonaras (Tittmann I), note de l'éditeur sur θριγκοῖς (v. 58) — relevé par le scan du corpus : il s'agit d'une note de Tittmann (citation de H. Estienne), non du lexique
-- Souda ο 768 — Οὐ γάρ : « καὶ ἐν Θεσμοφοριαζούσαις · οὐ γὰρ ἀλλ' ὑπερφυῶς ὡς λευκοπληθὴς ἦν ἰδεῖν ἡ ἐκκλησία » : vers de l'Assemblée des femmes (386-387) attribué par erreur aux Thesmophories (First1K)
+- Souda ο 768 — Οὐ γάρ : « καὶ ἐν Θεσμοφοριαζούσαις · οὐ γὰρ ἀλλ' ὑπερφυῶς ὡς λευκοπληθὴς ἦν ἰδεῖν ἡ ἐκκλησία » : vers de l'Assemblée des femmes (386-387) attribué par erreur aux Thesmophories
 - Eustathe, Od. 1522, 11 (renvoi de l'auteur au v. 734) — οἱ ἐν τοῖς Περσικοῖς ἑξήκοντα νῆας πληρώσαντες : les guerres médiques, non les chaussures « persiques » (Stallbaum, image)
 - Athénée III 104e, VII 323f-324a (ἰχθὺς ἐωνηταί τις ἢ σηπίδιον), III 117b-c (Κράτητι τάριχος ἐλεφάντινον), XIV 619a (chant des πτίσσουσαι), XV 690d (φάσκωλος … βακκάριδος) — « ἐν Θεσμοφοριαζούσαις » sans autre précision : fragments des Thesmophories II (Perseus)
 - Athénée I 29a — « τὰς δευτέρας Θεσμοφοριαζούσας » : Thesmophories II
@@ -547,23 +563,33 @@
 
 Les testimonia de l'auteur (macro `\testimonia`, éditions Harmattan 2023) ont tous été repris dans le tableau, vérifiés ou non. Corrections et remarques :
 
-**Numéros erronés (Souda).** ε 3791 → ε 3792 (vv. 39-41) ; ε 3792 → ε 3997 (vv. 43-45) ; γ 83 → γ 63 (vv. 132-133) ; κ 623 → κ 263 (v. 1174) ; λ 54 → λ 64 (vv. 421-428) ; φ 700 → φ 770 (v. 861) ; « Suidas τ » sans numéro → τ 340 (v. 1175) ; dans l'apparat : « β 190 » → β 110 (v. 139), « λ 394 » → χ 394 (vv. 347-348).
+**Numéros erronés (Souda ; tous confirmés sur Adler).** ε 3791 → ε 3792 (vv. 39-41 ; ε 3791 = Ἐφείλιξαν) ; ε 3792 → ε 3997 (vv. 43-45) ; γ 83 → γ 63 (vv. 132-133) ; κ 623 → κ 263 (v. 1174) ; λ 54 → λ 64 (vv. 421-428) ; φ 700 → φ 770 (v. 861) ; « Suidas τ » sans numéro → τ 340 (v. 1175) ; dans l'apparat : « β 190 » → β 110 (v. 139), « λ 394 » → χ 394 (vv. 347-348).
 
-**Rapprochements à écarter.** Souda κ 1756 (Κλεισθένην ὁρῶ : *Acharniens* 117-122, non v. 235) ; κ 2730 (κύων Μολοττικός : fr. 958 K.-A., non vv. 416-417) ; ε 3237 (ἐστυκώς : adespoton, fr. 520 K.-A., non v. 158) ; λ 816 (*Thesmophories II*) ; Eustathe, *Od.* 1522, 11 (v. 734 : il s'agit des guerres médiques).
+**Rapprochements à écarter.** Souda ν 222 (τέρας νεοχμόν : *Grenouilles* 1371-1372 selon Adler, non v. 701) ; κ 2730 (κύων Μολοττικός : Adler renvoie à Diogène Laërce 4, 20 ; fr. 958 K.-A. selon la SOL ; non vv. 416-417) ; ε 3237 (ἐστυκώς : adespoton, fr. 520 K.-A. selon la SOL ; non v. 158) ; λ 816 (*Thesmophories II* ; Ar. fr. 337 chez Adler) ; Eustathe, *Od.* 1522, 11 (v. 734 : il s'agit des guerres médiques).
 
-**Renvois précisés.** Eustathe : 1718, 13 (βομβαλοβομβάξ) se lit à la ligne qui suit βομβάξ (1718, 10 env.) ; 1746, 45 (στρόφος) → 1746, 46-47 ; 1857, 10 (ἔκμαγμα) → 1857, 17 env. ; en 1280, 63, Eustathe cite la pièce sous le titre « Θεσμοφόροις ». Pollux X 45 attribue le v. 633 au *Polyidos* (« immo Thesm. 633 », Bethe). Satyros : vv. 335-337 et 373-374 (et non 373-375, numérotation de Hall–Geldart). Pour Pollux IV 100, la page de Dindorf porte en titre « IV 101 ». Pollux nomme la pièce en II 88 (δασυπώγων), IV 19 (ἡ γραμματεύς), IV 100 (Περσικόν), IX 131 (ἔκμαγμα) ; en III 42 il cite le v. 480 sous la forme οὗτός με διεκόρησεν οὖσαν ἑπτέτιν (texte de Dindorf).
+**Notice rétablie.** Souda κ 1756 (Κλεισθένην ὁρῶ), écartée d'après la SOL dans la version précédente, est rattachée par Adler à la fois au v. 235 et à *Ach.* 119-122 (index : 235 : *III 131, 2) : l'apparat de l'auteur avait raison.
+
+**Variantes de la Souda citées par l'auteur, contrôlées sur Adler.** v. 39 λεώς AF, λαός GIVM : exact (Adler ne note que « 26 λαὸς GIVM ») ; v. 74 χρῆν FV, χρή AGM : exact ; v. 139 : exact, mais β 110 et non β 190, et Adler ajoute ἀξύμφον T, omis par l'auteur ; v. 263 χαίρεις AGM, χαίροις FV : exact ; v. 601 συνέξευρ' AG : exact ; v. 1175 Τερηδών : Adler note « Τερηδόν VMᵉᶜ » (l'auteur : VMᵖᶜ).
+
+**Variantes de l'apparat d'Adler absentes de l'apparat de l'auteur** (voir le tableau et `edition/donnees/testimonia/souda_adler.tsv`) : v. 36 ἐκπηδῶν V, ἐκπιδῶν M (π 3024) ; v. 246 τὴν ss. M (τ 903) ; v. 254 τ' AV (π 2114) ; v. 449 εἰ κακῶς V (τ 321) ; v. 458 πλέξας GVM (σ 1591) ; v. 473 τὸν A, τόνον V (τ 683) ; v. 514 ἔκμασον A, ἐκμάσσον V (π 2114) ; v. 557 σιφωνίσωμεν G (σ 512).
+
+**Attribution fausse.** Souda π 444 cite les vv. 369-371 sous « Ἀριστοφάνης Πλούτῳ », sans variante ; l'index d'Adler les range sous les *Thesmophories*.
+
+**Exhaustivité (Adler).** Toutes les entrées de l'*Index auctorum* (t. V, p. 52-53) figurent au tableau ; 16 notices sont ajoutées à partir de l'index des scholies (p. 63) et de l'apparat des sources (gloses tirées d'une scholie à la pièce, ou simples « cf. », à prendre comme tels). L'index des scholies porte « 778-9 : III 393, 20 » là où l'index du texte donne IV 393, 21 (σ 742) : coquille d'Adler. Dans le texte de la Souda, seules les notices α 1446 et λ 62 nomment la pièce pour un passage absent du tableau, et toutes deux relèvent des *Thesmophories II* (§ 4).
+
+**Renvois précisés.** Eustathe : 1718, 13 (βομβαλοβομβάξ) se lit à la ligne qui suit βομβάξ (1718, 10 env.) ; 1746, 45 (στρόφος) → 1746, 46-47 ; 1857, 10 (ἔκμαγμα) → 1857, 17 env. ; en 1280, 63, Eustathe cite la pièce sous le titre « Θεσμοφόροις ». Pollux X 45 attribue le v. 633 au *Polyidos* (« immo Thesm. 633 », Bethe). Satyros : vv. 335-337 et 373-374 (et non 373-375, numérotation de Hall–Geldart). Pour Pollux IV 100, la page de Dindorf porte en titre « IV 101 », mais Bethe confirme le § 100. Pollux nomme la pièce en II 88 (δασυπώγων), IV 19 (ἡ γραμματεύς), IV 100 (Περσικόν), IX 131 (ἔκμαγμα) ; en III 42 il cite le v. 480 sous la forme οὗτός με διεκόρευσεν οὖσαν ἑπτέτιν chez Bethe (διεκόρησεν A, Dindorf). X 152 (σακίον) : Bethe renvoie à « fg 328 » ; parallèle pour la conjecture de l'auteur au v. 291.
 
 **Leçons transmises par la tradition indirecte et utiles à l'apparat** (relevé non exhaustif ; voir le tableau) : v. 2 ἄνθρωπος (Souda α 1330, = R) ; v. 52-57 ἁψῖδας (Souda, Σ Ach. 79 ; R ἀσπίδας) ; v. 100 μυρμήκων (Souda μ 1445 ; R μύρμηκος) ; v. 373 nom de la prytane autre que Τιμόκλει' chez Satyros (Τιμόκλει' dans R, Σ et Souda ε 2616) ; v. 392 ἀνδρεράστρια (Eustathe, 380, 15, et Pollux III 71 : forme en -ρ- comme R) ; v. 480 οὗτός με διεκόρησεν (Pollux III 42) ; v. 481 μοὔκνυεν ἕλκων (Eustathe, 1746, 6 ; R μου 'κνυεν ἐλθών) ; v. 1059 ἀοιδὸς ἐπικοκκάστρια (Eustathe, 1761, 26-28, d'après Aristophane de Byzance ; texte ἀντῳδός) ; v. 870 ἡμέρας pour ἐλπίδος (Σ Eur. Hec. 225, Grégoire de Corinthe) ; v. 1197 ἀλλὰ οὐκ ἔχω οὐδέν (Photius σ 660, Souda σ 1273 ; R ἀλλ' οὐκ ἔκ' ὠδέν) et συβήνην (R συμβήνην).
 
-**Témoignages absents des testimonia de l'auteur.** 30 notices de la Souda ne figurent pas dans les testimonia de l'auteur : α 350 (v. 159-160) ; α 2754 (v. 55) ; α 3473 (v. 245) ; α 3806 (v. 274) ; α 4594 (v. 236-237) ; αι 135 (v. 246) ; αι 245 (v. 1054) ; δ 591 (v. 480) ; δ 891 (v. 127) ; δ 1048 (v. 648) ; ε 1871 (v. 191) ; ε 3797 (v. 295) ; η 362 (v. 165) ; θ 503 (v. 427) ; θ 547 (v. 729) ; κ 1260 (v. 692) ; κ 2692 (v. 805) ; λ 181 (v. 53-57) ; μ 459 (v. 857) ; ν 222 (v. 701) ; ο 194 (v. 129-130) ; ο 471 (v. 127) ; π 2307 (v. 341) ; σ 175 (v. 105) ; σ 178 (v. 105-106) ; σ 747 (v. 389) ; σ 1049 (v. 641) ; σ 1702 (v. 754) ; τ 271 (v. 973) ; χ 297 (v. 52-57). Autres sources : Zonaras, col. 423 (v. 132-133) ; Scholie, Σ Luc. Alex. 4 (Rabe) (v. 861).
+**Témoignages absents des testimonia de l'auteur.** 45 notices de la Souda ne figurent pas dans les testimonia de l'auteur : α 350 (v. 159-160) ; α 2754 (v. 55) ; α 3473 (v. 245) ; α 3806 (v. 274) ; α 4594 (v. 236-237) ; αι 135 (v. 246) ; αι 245 (v. 1054) ; δ 591 (v. 480) ; δ 891 (v. 127) ; δ 1048 (v. 648) ; ε 1871 (v. 191) ; ε 3797 (v. 295) ; η 362 (v. 165) ; θ 503 (v. 427) ; θ 547 (v. 729) ; κ 1260 (v. 692) ; κ 2692 (v. 805) ; λ 181 (v. 53-57) ; μ 459 (v. 857) ; ο 194 (v. 129-130) ; ο 471 (v. 127) ; π 2307 (v. 341) ; σ 175 (v. 105) ; σ 178 (v. 105-106) ; σ 747 (v. 389) ; σ 1049 (v. 641) ; σ 1702 (v. 754) ; τ 271 (v. 973) ; χ 297 (v. 52-57) ; ε 699 (v. 96) ; χ 403 (v. 101) ; φ 379 (v. 168) ; κ 2786 (v. 516) ; α 131 (v. 773) ; γ 193 (v. 961) ; π 2867 (v. 973) ; ε 2727 (v. 557) ; ε 65 (v. 600) ; μ 1250 (v. 417) ; π 824 (v. 949) ; π 1836 (v. 658) ; π 2113 (v. 254) ; π 2562 (v. 386) ; τ 1049 (v. 697) ; οι 150 (v. 3). Autres sources : Zonaras, col. 423 (v. 132-133) ; Scholie, Σ Luc. Alex. 4 (Rabe) (v. 861).
 
 ## 6. Vérifications à faire
 
-1. **Souda** : variantes des manuscrits (apparat d'Adler) citées par l'auteur (ex. v. 39 λεώς AF, λαός GIVM) : à contrôler sur Adler (Drive, non téléchargé ; la SOL ne donne que le texte).
+1. **Souda** : 182 notices relevées sur Adler (`edition/donnees/testimonia/souda_adler.tsv`) ; le statut de chacune y est donné (lue sur l'image le 01/11, relevé du 28/10 recoupé sur l'OCR, ou à relire). Le sens du sigle marginal « A² » du t. II reste à élucider.
 2. **Hésychius κ–ο** (17 lignes « partiel » ou « non ») : numéros de Latte à contrôler sur le vol. II (Drive : « 02 Latte Epsilon - Omicron.pdf », non téléchargé ; le fichier « Volumen II » présent dans `.sources/drive/fichiers/` est en réalité le vol. IIa ε–ι de Cunningham).
 3. **Photius α–μ** : numéros de Theodoridis I-II (Drive, non téléchargés) ; texte lisible dans Naber (OCR du corpus).
 4. **Eustathe** : 36 renvois sur 37 vérifiés sur Stallbaum ; reste 503, 20 (v. 484, στρόφος), absent de l'index de Devarius (1828) : renvoi peut-être erroné, à contrôler dans van der Valk (Drive).
-5. **Pollux** : VI 19, VII 35, VII 161, VII 200, X 152 restent à lire dans Bethe II (OCR du corpus difficilement interrogeable : sigma lunaire) ; pour les livres I–V, le texte a été lu dans Dindorf (1824) : confronter avec Bethe I.
-6. **Lexiques attiques et Etymologica** : Moeris (Hansen 1998 ; texte de Bekker 1833 à OCRiser), Phrynichus (de Borries 1911, archive.org `phrynichoutouara00phry`, OCR médiocre), Antiatticiste (Bekker, *Anecdota* I), Aelius Dionysius (Erbse ; texte de Schwabe 1890), *Etymologicum genuinum* et *Symeonis* (Lasserre–Livadaras, Drive), *Etymologicum magnum* (Gaisford ; OCR de Sylburg dans le corpus), Zonaras (Tittmann, t. II pour les col. > 1100), *Lexicon Vindobonense* (Nauck), *Epimerismi Homerici*.
+5. **Pollux** : II 7, 32, 35, 52, 88, 109, 111, III 42, 71, IV 19, 100 (Bethe I) ; VI 19, VII 35, 161, 200, X 152 (Bethe II) : voir la colonne « Vérifié » du tableau.
+6. **Lexiques attiques et Etymologica** : Moeris : texte lu dans Bekker (1833), numéros de Hansen à contrôler. Aelius Dionysius (Erbse : le Schwabe d'archive.org a une OCR grecque inutilisable et ne suit pas la numérotation d'Erbse), *Etymologicum genuinum* et *Symeonis* (Lasserre–Livadaras, Drive), *Epimerismi Homerici* : à faire. Zonaras, t. II (col. > 1100 : 1103, 1117, 1171) : introuvable sur archive.org ; notice HathiTrust 008375883 non accessible par script. *Etymologicum magnum* : lu dans l'édition de Leipzig 1816 d'archive.org (les renvois de Gaisford, 904 Mio au Drive, ne sont pas contrôlés sur cette édition). Sturz (*Et. Gud.*) n'est pas nécessaire aux témoignages restants.
 7. **Scholies** : Σ Platon (Greene 1938, archive.org `scholia-platonica-1838_1838`), Σ Hésiode, *Op.* 227-229 (Pertusi), Σ Thesm. 125, 220, 1174 (Dübner, Rutherford) ; Grégoire de Corinthe (édition à préciser).
 8. **Divers** : Euripide, test. 4, 18 Kannicht (TrGF V) ; Ar. fr. 617 K.-A. (simple parallèle du v. 1, non témoignage) ; *Monostiques* de Ménandre 191 Jäkel ; Aulu-Gelle XV 20, 7 ; parémiographes (Apostolius II 94, XVI 60c ; Macarius VI 90 ; CPG, *Appendix* I 35 ; Laur. LVIII 24, éd. Cohn).

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 164v (vv. 165–208) ; première lecture sur l'image (avant confrontation aux éditions), en cours. -->
+<page folio="f164v" image="05_f164v_classense166v_vv0165-0207.jpg" vers="165-208">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="1" place="mg-sup" main="R2">εκ το<gap n="20" unite="lettres" raison="tache"/><abbr signe="ϗ" dev="καί"/> ἐν τοῖσ ὄρνισι <abbr signe="ϗ" dev="καί"/> <gap n="30" unite="lettres" raison="tache"/> ἀλλ ἡ τάλαινα φιλοκλέα<lb/><gap n="11" unite="lettres" raison="tache"/></sch>
+    <sch n="2" ancre="4" place="mg-g" main="R2"><gap n="4" unite="lettres" raison="tache"/>κλεῖσ τραγωδίασ <abbr signe="ς" dev="ής">ποιητ</abbr> <abbr signe="°" dev="ός">αἰσχρ</abbr> τὸ πρὸ<lb/><gap n="3" unite="lettres" raison="tache"/> <abbr signe="ϗ" dev="καί"/> <abbr signe="°" dev="ός">σιμ</abbr> <abbr signe="ϗ" dev="καί"/> <abbr signe="°" dev="ός">μικρ</abbr> τὸ σῶμα</sch>
+  </scholies>
+  <notes>
+    <note>Brouillon : première lecture, à compléter.</note>
+  </notes>
+</page>

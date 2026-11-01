@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 168r (vv. 466–508) ; transcription diplomatique en cours (1er nov. 2026).
+     Première lecture sur l'image, avant confrontation aux éditions : à reprendre. -->
+<page folio="f168r" image="12_f168r_classense170r_vv0466-0508.jpg" vers="466-508">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="4" place="mg-d" main="R2">ἐπίτηδεσ ὁ κηδεστὴσ ὑπερ τὰσ ἄλλασ<lb/>γυναῖκασ γυναικίζεται ἵνα διὰ τ<hi rend="sus">ȣ</hi>τ<hi rend="sus">ȣ</hi><lb/>λάθη· ÷</sch>
+    <sch n="2" ancre="7" place="mg-g" main="R2">— ἀντὶ <abbr signe="˘" dev="οῦ">τ</abbr> μόναι</sch>
+    <sch n="3" ancre="7" place="mg-d" main="R2">οὐδεμία ἐκφέρουσα τοὺσ λόγουσ προσ<lb/>τοὺσ ἄνδρασ ÷</sch>
+    <sch n="4" ancre="8" place="mg-g" main="R2">— δια τί·</sch>
+    <sch n="5" ancre="16" place="mg-d" main="R2">ἔξυεν ἠρέμα παρα<abbr dev="ὸ"><hi rend="sus">τ</hi></abbr> κνᾶν</sch>
+    <sch n="6" ancre="20" place="mg-g" main="R2"><abbr signe="λ̸" dev="λείπει"/> τὸ ἔφη·</sch>
+    <sch n="7" ancre="21" place="mg-d" main="R2"><abbr dev="ον">ἐλελίσφακ</abbr> ὡσ ἐπιτήδεια παῦσαι<lb/>στρόφον ÷</sch>
+    <sch n="8" ancre="22" place="mg-d" main="R2">— ἵνα ὀλισθηρὸσ γενόμεν<abbr dev="σ"><hi rend="sus">ο</hi></abbr> μη ψοφῆ· ÷</sch>
+    <sch n="9" ancre="24" place="mg-d" main="R2">ἀγυεὺσ οὕτω καλούμεν<abbr dev="σ"><hi rend="sus">ο</hi></abbr> ἀπόλλων τε<lb coupe="oui"/>τράγωνοσ ÷</sch>
+    <sch n="10" ancre="26" place="mg-d" main="R2">τῶν νῦν καλουμένων σταβλιτων<lb/>ἢ βουρδωναρίων τῶν τοὺσ οὐρῆασ<lb/>κομώντων ÷</sch>
+    <sch n="11" ancre="30" place="mg-d" main="R2">δια <abbr dev="ὰρ">γ</abbr> τὸν προσ πελοποννησίουσ<lb/>πολεμον ἐφύλαττον ἀθηναῖ<lb coupe="oui"/>οι τὰ τείχη· ÷</sch>
+    <sch n="12" ancre="34" place="mg-d" main="R2">— στολῆσ εἶδοσ ÷</sch>
+    <sch n="13" ancre="35" place="mg-d" main="R2">ὅτι <abbr signe="ϗ" dev="καὶ"/> συστολαῖσ βίαιοι χρῶνται <abbr signe="ϗ" dev="καὶ"/> ἐκτάσεσιν<lb/><abbr signe="ϗ" dev="καὶ"/> ἄνω ἀλλ᾽ ὧνπερ οὕνεκ ἦλθον <unclear cert="faible">ἀλλ</unclear> εἰπεῖν<lb/>βούλομαι ÷</sch>
+    <sch n="14" ancre="38" place="mg-d" main="R2">ὅτι εν χύτρα τὰ παιδία ἐξετίθεσαν ÷</sch>
+    <sch n="15" ancre="41" place="mg-d" main="R2">τὸ στόμα πεπληρωμένον <abbr signe="ϗ" dev="καὶ"/> <abbr signe="¯" dev="ως">ἄλλ</abbr> οὐ γάλα <abbr dev="ον">πρότερ</abbr><lb/>τοῖσ βρεφεσιν εδίδοσαν ἀλλὰ μελι ἀπολείχειν<lb/>μενανδροσ <abbr signe="ʒ" dev="δὲ"/> οὐκ ορθωσ ποιεῖ τα ἀρτίτοκα<lb/>γαλακτοσ δεόμενα ÷</sch>
+  </scholies>
+  <notes>
+    <note>Brouillon : voir la version finale.</note>
+  </notes>
+</page>

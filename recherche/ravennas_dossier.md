@@ -2,7 +2,7 @@
 
 *Ravenne, Biblioteca Classense, ms. 429 (olim 137, 4, A). Aristophane, onze comédies avec scholies ; *Thesmophories* aux ff. 162v–177r (vv. 1–1231).*
 
-> **Statut** : dossier de travail. Première rédaction le 25 oct. 2026 ; quatre reprises après interruption le 26 oct. 2026.
+> **Statut** : dossier de travail. Première rédaction le 25 oct. 2026 ; quatre reprises après interruption le 26 oct. 2026 ; Prato 2001 intégré le 1er nov. 2026 (§ 11, § 16).
 >
 > - La quatrième reprise a ajouté : les bornes des pages vérifiées sur l'image (§ 1) ; les *notae personarum* d'après Velsen 1871 et van Leeuwen 1904 (§ 8.2) ; les parépigraphes (§ 8.1) ; la colométrie relevée par Velsen (§ 8.4) ; les collations et leurs divergences (§§ 11–12 : Enger, titre « πρότεραι », vv. 28, 29, 60, 130) ; les gardes et le *pinax* (§ 6) ; le détail du § 15 ; les sources à lire (§ 16.4).
 > - Restent ouverts : les points **[image]** du § 15, et les sources du § 16.4 (Drive non encore téléchargé, sites hors ligne).
@@ -485,6 +485,10 @@ Allen précise que la liste n'est pas exhaustive.
 
 ### 10.1 Monacensis gr. 492 (Augustanus ; G chez Velsen et Brunck ; Mu2 chez Wilson)
 
+- **Renvoi (1er nov. 2026).** Étude complète : `recherche/monacensis_492.md` ; collation aux lieux-tests, 379 lignes : `edition/donnees/mu2_lieux_tests.tsv` ; planche des mains : `recherche/planches/mu2_main_paolo_canal.jpg`. Ce travail rectifie la notice ci-dessous sur trois points :
+  - **date et copiste** : le manuscrit n'est pas du XVe s. ; il est de la main de Paolo Canal, vers 1505 (Urbino ?), au plus tard 1508 (Diller 1952, 22–24 ; Altomare 2012, 8–11 ; comparaison de la souscription du Mon. gr. 546, f. 17r, du Pal. gr. 47 et du *pinax* de R) ;
+  - **contreplat** : lecture sûre « ἰωάννου τ(οῦ) μοϊβάνου εἰμί », ex-libris de Johannes Moibanus (1527–1562), possesseur ; ni Giovanni di Bevagna ni les Fugger (Clark 1871) ;
+  - **stratigraphie** : Mu2 connaît T, S2 et Rⁿ, ignore la couche de 1516, et n'a ni κατα (v. 60) ni le second καί (v. 306). Tout « antérieur à G » signifie donc « antérieur à 1505 », non « antérieur au XVe s. ».
 - **Description.** Papier ; « forma quadrata minore, saeculo XV scriptus, litteris minutis » ; 53 feuillets écrits (Velsen 1883, 5). Contenu :
   - *Thesmophories*, sans argument ni liste de personnages, jusqu'au f. 19r ;
   - *Lysistrata* avec ses arguments, ff. 19v–40 ;
@@ -531,7 +535,7 @@ Allen précise que la liste n'est pas exhaustive.
 | V. Coulon | éd. CUF 1928 | apparat ; les *sigla* du t. IV se bornent à « R = Ravennas 137, 4 A. saec. X » (leur renvoi au t. I, p. xix, concerne la Souda) ; il date encore l'*editio princeps* de « 1515 » (app. aux vv. 216 et 248), selon le style florentin | Austin 1987, 69 n. 2 (« very careless in his attribution of conjectures ») ; Gannon 1982, 8–15 (cité par Austin) |
 | C. Austin | 1987 ; Austin–Olson 2004 | dépouillement des éditions anciennes et des notes manuscrites d'humanistes (Austin 1987, 67–71) ; contrôle critique des attributions à R² (v. 60). L'introduction d'Austin–Olson 2004 consacre un chapitre à la tradition manuscrite (« VII The Manuscript Tradition », lxxxix–xcviii) et un autre aux travaux modernes (« VIII Modern Work on the Text », xcix) : non lus, l'extrait local s'arrêtant à la p. lxxix. D'après le compte rendu de Storey, les pp. xcii–xcviii résument les « idiosyncrasies and aberrations » du copiste de R (BMCR 2006.01.05) | — |
 | A. H. Sommerstein | éd. 1994 | apparat sélectif du type « 1231 ἀνταποδοῖτον Grynaeus : ἀνταδοῖτον R » ; l'extrait local (`Sommerstein_1994_Thesm_textrep.txt`) ne mentionne aucune collation de R | — |
-| C. Prato | éd. 2001 | doutes paléographiques vérifiés par M. D'Agostino et G. Prato sur microfilm et sur l'original | Prato 2001, xxxvi–xxxvii |
+| C. Prato | éd. 2001 | doutes paléographiques vérifiés par M. D'Agostino et G. Prato sur microfilm et sur l'original ; apparat positif relu par C. Austin. Sigle unique R² (« R manus recentior », Sigla, p. 3), sans distinction des mains ; R^a.c. et R^p.c. rares, R¹ une seule fois (v. 1006). Le relevé complet de l'apparat est dans `edition/donnees/repertoire_critique/prato2001_*.jsonl` | Prato 2001, xxxvi. Sur 838 entrées de type R, le recoupement avec Velsen 1883 et Wilson 2007 fait ressortir un rapport inexact de R (v. 439) et deux descriptions à corriger (vv. 1006, 1142) : voir ci-dessous |
 | N. G. Wilson | OCT 2007 | il accepte en général les leçons publiées, mais vérifie « a considerable number of variants that aroused suspicion or curiosity » ; R « can be easily consulted in the facsimile and is not written in a difficult hand » (Wilson 2007, I, vi). Description plus détaillée de la tradition dans *Aristophanea*, Oxford 2007, 1–14 (non consulté) | « even the Ravenna manuscript … had not been correctly reported in all passages » (Wilson 2007, I, vi). La Souda « drew on a copy extremely similar to the Ravenna manuscript » (*ibid.*, vii) |
 
 Divergences de lecture documentées pour les *Thesmophories* (échantillon) :
@@ -552,6 +556,11 @@ Divergences de lecture documentées pour les *Thesmophories* (échantillon) :
   - le mot manque dans le Mon. gr. 492 et dans l'*editio princeps*, « both copied from R » : ce serait une conjecture moderne, imprimée d'abord par Invernizi (« ita liber noster », vol. II, p. 431), et déjà proposée par Faber (« puto legendum κατά τοῦ θριγκοῦ ») (Austin 1987, 71).
   - L'argument d'Austin vaut surtout pour l'*editio princeps*, préparée sur R lui-même : l'Augustanus omet aussi des ajouts anciens, comme le v. 33 (§ 10.1). Il faut comparer sur l'image l'encre et le ductus de κατα avec ceux de S2 et avec les ajouts du XVIe s. **[image : f. 163r]**.
 - **v. 130.** « ΚΗΔ.] om. R μνησι^λο add. R² » (Velsen 1883, 16, d'après le répertoire critique) ; « ipse autem librarius scripsit μνησι^λο ante versum 130 » (van Leeuwen 1904, 1 n. 2). Sur l'image, le sigle est dans la marge gauche, en lettres de type majuscule, d'une encre proche de celle du texte (`.travail/ravennas_dossier/f164r_v128-132.png`). La main reste à déterminer **[image]**. Juste au-dessus, après le v. 129, R porte sur une ligne à part l'indication scénique « ὀλολύζεις γέρων » (Velsen 1883, 16 : « post v. 129 novo versu est parepigraphe »), soulignée d'un trait ondulé rougeâtre (observation personnelle).
+- **v. 439** (438b chez Velsen). Prato 2001, p. 50, écrit « ἀνηῦρεν R: -εῦρεν Su. » et imprime ἀνηῦρεν. Velsen 1883 : « ἀνηῦρεν] ἀνεῦρεν RG », comme Enger 1844. Sur l'image (f. 167v, `.travail/prato2001/vues/Rz_v439.png`), la lettre après ν est un ε, tracé comme dans εὖ qui suit : R a **ἀνεῦρεν** (observation personnelle). La leçon ἀνηῦρεν est une normalisation, non une leçon de R.
+- **v. 1006.** Prato 2001, p. 108 : « γέρων R¹ (in ras.): γέρον R² » ; Velsen 1883 : « γέρων ras. corr. in γέρον R » ; Wilson 2007 : « γέρων R^ac ». Sur l'image (f. 174v, même dossier, `Rz_v1006b.png`), R porte aujourd'hui γέρον, avec à droite du ο une plage grattée : un ω a été réduit à ο. La rasure appartient donc à la correction, non à γέρων comme le dit Prato ; Velsen et Wilson décrivent bien la chose. Dans le même vers, le ν de κακοδαίμων est suscrit (Prato, Velsen : R²).
+- **v. 1142.** Prato 2001, p. 122 : « στυγνᾶς ὥσσε post καλεῖται interiectum del. R » ; Velsen 1883 : ligne à part, « expunxit R² ». L'image (f. 176r, même dossier, `R_v1142.png`) donne raison à Velsen pour la disposition et le procédé : deux mots sur une ligne propre, surmontés de points d'expunction. La main reste à déterminer **[image]**.
+- **v. 1187.** Prato 2001 et Velsen 1883 : κλαυσῖ corrigé de -εῖ ; Wilson 2007 : κλαυσ' εϊ. L'agrandissement (f. 176v, même dossier, `Rz_v1187b.png`) ne tranche pas **[image]**.
+- **v. 155.** Velsen 1883 : « του αδου R corr. in τοῦθ' ἃ δ' οὐ R² » ; le θ suscrit se voit sur l'image (f. 164r, même dossier, `R_v155.png`). Dans l'exemplaire de Prato consulté, une tache masque le premier mot de la leçon de R (p. 24).
 - **Hypothesis.** Wilson l'imprime d'après R, avec les apparats « 3 ἐπ- Dindorf : ἀπ- R ; 4 Χοιρίλη Dindorf : Χοιρίνη R » (Wilson 2007, II, 69). Coulon donne les mêmes leçons (Coulon 1928, app. de l'argument).
 
 ## 12. Contradictions entre auteurs (tableau)
@@ -596,7 +605,7 @@ Divergences de lecture documentées pour les *Thesmophories* (échantillon) :
 - **Numérique.** Manifeste IIIF de la Classense, `https://www.cdc.classense.ra.it/iiif/2/4651/manifest`, 196 vues ; copie locale `ravennas_1904_bnf/manifest_iiif_classense_ms429.json`. Les *Thesmophories* correspondent aux vues p166–p180, en planches doubles de 3946 × 2780 px. La licence déclarée est « rightsstatements.org/vocab/CNE/1.0/ » (copyright non évalué).
   - Le serveur IIIF refuse aujourd'hui les téléchargements directs (403). Je n'ai pas cherché à contourner ce refus.
   - Les deux PDF intégraux du dépôt (`ravennas_1904_bnf/Ravennas_MS429_INTEGRAL_11_Comedies_Tome1_planches_001-100.pdf` et `…Tome2_planches_101-196_incl_Thesmophories.pdf`, 2400 px de large par planche double) reproduisent ces images couleur modernes : on y voit la mire Kodak. Malgré le nom du dossier, ce n'est pas le fac-similé de 1904. Ils donnent accès aux gardes (planches 1–4 et 195–196) et aux autres pièces, utiles pour comparer les mains (ff. 159r, 178v…).
-- **Microfilm** : Prato y a fait vérifier ses doutes (Prato 2001, xxxvi–xxxvii).
+- **Microfilm** : Prato y a fait vérifier ses doutes (Prato 2001, xxxvi).
 
 ## 14. HTR/OCR pour la minuscule grecque médiévale
 
@@ -751,7 +760,7 @@ Images de travail : `dossier_ravennas_thesmophories/folios_individuels_ff162v-17
 - **Mazzatinti 1894** — G. Mazzatinti, *Inventari dei manoscritti delle biblioteche d'Italia*, IV, Forlì 1894, 145 et 239. `.sources/web/ravennas/histoire/InventariDeiManoscrittiDelleBiblioteche4*`.
 - **Montana** — F. Montana, « L'anello mancante : l'esegesi ad Aristofane tra l'antichità e Bisanzio », *Atti della Accademia Roveretana degli Agiati*, pp. 17–34 (PDF de 2016 ; volume et année exacts **[à vérifier]**). `.sources/web/ravennas/articles/Montana_L_anello_mancante_Agiati.pdf`. Sur la parenté des scholies de R et de V avec les notes de P.Oxy. 1371 (pp. 21–23) ; ne traite pas des mains de R.
 - **Orsini 2011** — P. Orsini, « L'Aristofane di Ravenna. Genesi e formazione tecnica e testuale di un codice », *Scriptorium* 65 (2011), 321–337, pl. 55–57. `.sources/drive/ravennas/L'aristofane di ravenna…pdf`.
-- **Prato 2001** — C. Prato (éd.) et D. Del Corno (trad.), *Aristofane. Le donne alle Tesmoforie*, Milan 2001, Introduzione, xxxi–xxxvii. Extrait : `.sources/drive/ravennas/Prato_2001_…textrep.txt`.
+- **Prato 2001** — C. Prato (éd.) et D. Del Corno (trad.), *Aristofane. Le donne alle Tesmoforie*, Milan 2001, Introduzione, xxxi–xxxvii ; Sigla, p. 3 ; apparat, p. 8–132. Exemplaire complet de travail, non versionné ; apparat relevé dans `edition/donnees/repertoire_critique/prato2001_*.jsonl`.
 - **Rutherford 1896** — W. G. Rutherford, *Scholia Aristophanica*, I, Londres 1896, v–vii et xxvii–xxix. `.sources/web/ravennas/scholies/scholiaaristopha01ruthuoft*`.
 - **Scotti 2024** — M. Scotti, « The Odyssey of the Ravenna manuscript : Urbino time », *Sapiens ubique civis* 5 (2024), 461–472. `.sources/web/ravennas/articles/Scotti_2024_…pdf`.
 - **Sommerstein 1994** — A. H. Sommerstein, *Aristophanes. Thesmophoriazusae*, Warminster 1994. Extrait : `.sources/drive/ravennas/Sommerstein_1994_…textrep.txt`.
@@ -771,6 +780,6 @@ Jones 1952 (*CQ* 2, 168–185) ; Mioni 1964 (*Catalogo di manoscritti greci esis
 
 ### 16.4 Sources repérées, à lire
 
-- **Sur le Drive de l'auteur, non encore téléchargées** (file d'attente `.sources/drive/a_telecharger.json`) : Austin–Olson 2004 complet (introduction, chap. VII « The Manuscript Tradition », lxxxix–xcviii, et VIII, xcix–) ; Coulon, t. I (CUF 1923), préface générale (description des témoins ; p. xix pour les manuscrits de la Souda) ; Coulon t. IV et Prato 2001 complets ; préface de van Leeuwen au fac-similé de 1904 (« FOL-FAC SIM-182 (9) ROC Preface Hellenike Gimagereader.pdf », 55 Mo) ; préfaces des *Scholia in Aristophanem* de Groningue (Holwerda, *Aves* ; Chantry, *Plutus* et *Ranae* ; Koster, *Nubes*), qui décrivent R ; Boudreaux 1919.
+- **Sur le Drive de l'auteur, non encore téléchargées** (file d'attente `.sources/drive/a_telecharger.json`) : Austin–Olson 2004 complet (introduction, chap. VII « The Manuscript Tradition », lxxxix–xcviii, et VIII, xcix–) ; Coulon, t. I (CUF 1923), préface générale (description des témoins ; p. xix pour les manuscrits de la Souda) ; Coulon t. IV complet ; préface de van Leeuwen au fac-similé de 1904 (« FOL-FAC SIM-182 (9) ROC Preface Hellenike Gimagereader.pdf », 55 Mo) ; préfaces des *Scholia in Aristophanem* de Groningue (Holwerda, *Aves* ; Chantry, *Plutus* et *Ranae* ; Koster, *Nubes*), qui décrivent R ; Boudreaux 1919.
 - **Hors ligne ou non accessibles le 26 oct. 2026** : notice Pinakes (IRHT) du manuscrit (serveur injoignable) ; Wilson, *Aristophanea* (2007), 1–14 ; Wilson 1983 (prêt numérique archive.org seulement) ; L. P. E. Parker, *The Songs of Aristophanes* (1997), absent du Drive ; notice de la Sapienza sur Bonini (accès refusé).
 - **Fac-similé de 1904 en accès libre** : non trouvé (HathiTrust, archive.org, Gallica, recherche web).
