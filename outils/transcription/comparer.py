@@ -13,7 +13,7 @@ import argparse, csv, difflib, json, os, re, sys, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from diploxml import lire, texte_brut
 
-PONCT = set('·.,;:;·\'’᾽‘"«»()[]—–-')
+PONCT = set('·.,;:;·\'’ʼ᾽‘"«»()[]—–-÷|⟨⟩†…')
 
 
 def sans_diacritiques(s):
@@ -48,6 +48,7 @@ def diff_mots(a, b):
 
 
 def classer(a, b):
+    a, b = a.replace('ς', 'σ'), b.replace('ς', 'σ')   # T n'a qu'un σ : ς et σ ne sont pas une divergence
     if a == b:
         return []
     cats = []
@@ -135,7 +136,8 @@ def main():
                 r = ref.get(v)
                 if r is None:
                     continue
-                if sans_ponct(sans_diacritiques(t)) != sans_ponct(sans_diacritiques(r)):
+                # la coupe des mots de R n'est pas une divergence de lettres (guide, § 2.7)
+                if sans_ponct(sans_diacritiques(t)).replace(' ', '') != sans_ponct(sans_diacritiques(r)).replace(' ', ''):
                     dm = diff_mots(sans_ponct(sans_diacritiques(r)), sans_ponct(sans_diacritiques(t)))
                     rapport['vers_ref'].append({'lecture': nom, 'v': v, 'ref': r, 'trans': t, 'mots': dm})
                     print(f'- {nom} v. {v} : ' + ' ; '.join(f'réf. « {x} » → « {y} »' for _, x, y in dm))

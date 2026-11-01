@@ -1,46 +1,61 @@
-# Format de la transcription diplomatique du *Ravennas* (DiploXML, v0)
+# Format de la transcription diplomatique du *Ravennas* (DiploXML, v1)
 
 Un fichier par page : `ravennas/transcription/fXXX.xml` (ex. `f162v.xml`). Format XML
 inspiré de la TEI (noms d'éléments francisés, sous-ensemble réduit), converti en LaTeX
-par `outils/transcription/xml_vers_latex.py`, et vérifié par
-la fonction `valider` de `outils/transcription/diploxml.py`. Les mains (`main="…"`) sont
-définies par l'étude graphologique (`ravennas/graphologie/`, `ravennas/GUIDE_TRANSCRIPTION.md`) ;
-étiquettes à employer (correspondance avec la littérature : `recherche/ravennas_dossier.md`) :
+par `outils/transcription/xml_vers_latex.py`, vérifié par les fonctions `valider`
+(erreurs) et `avertir` (écarts au guide) de `outils/transcription/diploxml.py`.
+
+Ce fichier donne la **syntaxe**. Les **règles de lecture et de décision** (quelle main,
+quel signe, quel encodage dans chaque cas) sont dans `ravennas/GUIDE_TRANSCRIPTION.md`,
+qui prévaut en cas de doute. La v1 reste compatible avec les brouillons en v0 : tout
+fichier v0 valide reste valide.
+
+## Mains
+
+Étiquettes définitives (étude graphologique, chapitre 1, § 9 ; critères : guide, § 1).
 
 | étiquette | main | littérature |
 |---|---|---|
-| `R1` | le copiste du texte | T (Allen), I m. (Velsen) |
-| `R1c` | correction du copiste lui-même (en écrivant ou en relisant) | — |
-| `R2` | la main des scholies des *Thesmophories*, correcteur ancien (Xe s.) : vers omis ajoutés, sigles de personnages | S2 (Orsini), B (Allen), R² (Velsen 1883), schol. m. (Velsen 1871) |
-| `R3` | autre main médiévale (troisième main contemporaine ? « paullo recentior » de Velsen) | R³ (Velsen 1883) |
-| `Rsch` | main de scholies distincte de R2 (si l'image l'impose) | — |
-| `Rrec` | main du XVIe siècle (préparation de l'impression de 1516 : sigles « imprimables », chiffres et traits renvoyant à la Juntine, grattages de signes) ; imprimée R^XVI | 2 m. (Velsen 1871), « Boninus » |
-| `Rmod` | main moderne (XVIIIe–XIXe s. : corrections, crayon, foliotation) | — |
-| `R?` | main indéterminable | — |
+| `R1` | T, le copiste du texte | T (Allen), I m. (Velsen 1871) |
+| `R1c` | T qui se corrige (en écrivant ou en relisant), même module, même encre | — |
+| `R2` | S2, scholiaste et correcteur ancien : scholies, gloses, sigles à lettre suscrite, vers suppléés, suscriptions | S2 (Orsini), B (Allen), R² (Velsen 1883, Martin 1882), schol. m. (Velsen 1871) |
+| `R3` | correcteur ancien à l'encre brun-noir, antérieur à G (S2 dans une autre campagne ?) : vv. 646, 939 sûrs ; 493, 874 probables | Rⁿ (chap. 4) ; R³ « paullo recentior » (Velsen 1883, préface), défini ici par l'encre |
+| `Rsch` | main M, troisième main ancienne en minuscule : deux scholies de la marge intérieure du f. 162v (vv. 27, 30–32), et rien d'autre | 3e main d'Orsini 2011, 327 n. 24 |
+| `Rrec` | campagne de 1516 (préparation de la Juntine) : sigles imprimables, encre orangée, barres, signes d'insertion | 2 m. (Velsen 1871), manus recens (van Leeuwen) |
+| `Rmod` | mains modernes (foliotations, signature, crayons) | — |
+| `R?` | main indéterminée | — |
+
+Deux attributs précisent une main, sur tout élément qui porte `main` :
+
+- `repasse="Rrec"` : tracé de `main` repassé en 1516 (note de forme S2 à l'encre orangée) ;
+- `instrument="mine"` ou `"crayon"` : matière autre que l'encre (repères de 1516, crayons).
 
 ## Principes
 
 - **Ce que montre le manuscrit, et seulement cela** : orthographe, accents, esprits,
   iota adscrit (ou son absence), ponctuation, élisions telles qu'écrites, même fautives.
-- **Lettres** : formes normalisées (σ médian / ς final selon la position ; pas de
-  distinction des allographes). **Coupe des mots** : normalisée, sauf si elle importe à une
-  leçon (le signaler en `<note>`).
-- **Une ligne du manuscrit = un élément `<l>`**, dans l'ordre de la page, y compris titres,
-  hypothesis, listes de personnages et lignes de chant coupées.
-- **Doute** : toute lettre douteuse est dans `<unclear>` ; rien n'est « deviné » sans
-  balise.
+- **Lettres** : minuscules, sans majuscule ni distinction des allographes (Η, « h » et
+  « н » = η ; Ν = ν ; Є = ε). **σ partout, même en finale** : T n'a pas de ς (chap. 2, § 3).
+  **Jamais d'iota souscrit** : ι sur la ligne, s'il est écrit.
+- **Coupe des mots** : celle de R quand elle est nette ; règle des trois zones au guide, § 2.7.
+- **Une ligne d'écriture du manuscrit = un élément `<l>`**, dans l'ordre de la page, y
+  compris titres, hypothesis et lignes de chant coupées. Une réglure laissée vide n'est
+  pas une `<l>` : elle se signale dans `<notes>`.
+- **Doute** : toute lettre douteuse est dans `<unclear>` ; rien n'est « deviné » sans balise.
+- **Caractères** : NFC ; `·` U+00B7, `;` U+003B, `:` U+003A (dicolon), `,` U+002C,
+  `—` U+2014, `÷` U+00F7, apostrophe `᾽` U+1FBD.
 
 ## Structure
 
 ```xml
 <page folio="162v" image="01_f162v_classense164v_vv0001-0042.jpg" vers="1-42">
   <lignes>
-    <l n="1" zone="titre"><hi rend="rouge">ἀριστοφάνους θεσμοφοριάζουσαι</hi></l>
-    <l n="2" v="1"><nota main="R1">κη</nota>ὦ ζεῦ χελιδὼν ἆρα πότε φανήσεται·</l>
-    <l n="3" v="2">ἀπολεῖ μ' ἀλοῶν …</l>
+    <l n="1" zone="titre"><signe type="ornement">⁜</signe> ἀριστοφάνουσ· ·θεσμοφοριάζουσαι <signe type="ornement">—</signe></l>
+    <l n="2" v="1"><parag/>ὦ ζεῦ· χελιδὼν ἀρ ἀπό τε φανήσεται·</l>
+    <l n="3" v="2">ἀπολεῖ μ᾽ αλοῶν …</l>
   </lignes>
   <scholies>
-    <sch n="1" ancre="2" place="mg-g" main="R1" lemme="ὦ ζεῦ χελιδών">…</sch>
+    <sch n="1" ancre="2" place="mg-g" main="R2" lemme="ὦ ζεῦ χελιδών">…</sch>
   </scholies>
   <notes>
     <note ligne="3">Remarque du transcripteur (encre, doute, état du parchemin…)</note>
@@ -48,32 +63,42 @@ définies par l'étude graphologique (`ravennas/graphologie/`, `ravennas/GUIDE_T
 </page>
 ```
 
-Attributs de `<l>` : `n` (numéro de ligne sur la page, à partir de 1), `v` (vers qui
-commencent sur la ligne : « 6 », « 6,7 »), `zone` (`texte` par défaut, `titre`,
-`hypothesis`, `personnages`, `marge-sup`, `marge-inf`), `retrait` (renfoncement en
-nombre de lettres), `main` (si la ligne entière est d'une autre main).
+(Le titre de la pièce est de T, à l'encre du texte : **aucun `<hi rend="rouge">`** dans les
+*Thesmophories*. Les valeurs de cet exemple illustrent la syntaxe ; f. 162v : voir l'image.)
+
+Attributs de `<l>` : `n` (rang de la ligne **d'écriture** sur la page, à partir de 1,
+réglures vides non comptées, comme dans les inventaires), `v` (vers qui commencent sur
+la ligne, clés de `.sources/corpus/thesmo_hall_geldart.tsv` : « 6 », « 6,7 », « 439a » ;
+vide pour une ligne qui continue un vers ou qui n'est pas un vers), `zone` (`texte` par
+défaut, `titre`, `hypothesis`, `marge-sup`, `marge-inf`), `retrait` (renfoncement, en
+unités de 25 px ; **négatif pour une saillie**, ekthesis), `main` (si la ligne entière
+est d'une autre main), `repasse`.
 
 Attributs de `<sch>` : `n`, `ancre` (numéro de la ligne `<l>` en face de laquelle elle
-commence), `place` (`mg-g`, `mg-d`, `mg-sup`, `mg-inf`, `interl`), `main`, `lemme`
-(lemme écrit par le scholiaste, s'il y en a un).
+commence), `place` (`mg-g`, `mg-d`, `mg-sup`, `mg-inf`, `interl`, `col` : dans un blanc de
+la colonne ; gauche et droite physiques, non intérieure et extérieure), `main`,
+`repasse`, `lemme` (lemme écrit par le scholiaste, s'il y en a un).
 
 ## Éléments en ligne (dans `<l>` et `<sch>`)
 
 | élément | sens | exemple |
 |---|---|---|
-| `<nota main="R1">κη</nota>` | sigle de personnage (*nota personae*) | `<nota>ευ</nota>` |
-| `<parag/>` | paragraphos (trait sous le début de ligne) | |
-| `<add place="dessus" main="R2">ε</add>` | ajout (`dessus`, `dessous`, `ligne`, `mg-g`, `mg-d`) | |
-| `<del type="grattage" main="R2">ι</del>` | suppression (`grattage`, `biffure`, `exponctuation`, `surcharge`) ; contenu vide ou `<gap/>` si illisible | |
-| `<subst main="R2"><del type="surcharge">ο</del><add place="ligne">ω</add></subst>` | correction par substitution | |
-| `<ras main="R1">ᾗ</ras>` | écrit sur grattage (*in rasura*) | |
-| `<unclear cert="faible">α</unclear>` | lecture douteuse (`cert` : `faible`, `moyenne`) | |
-| `<gap n="3" unite="lettres" raison="illisible"/>` | lettres illisibles ou perdues | |
-| `<abbr dev="αί">κ</abbr>` | abréviation : `dev` = lettres suppléées, imprimées entre parenthèses | κ(αί) |
-| `<gl sur="χοάνης" main="R1">χώνης</gl>` | glose interlinéaire au-dessus du mot `sur` | |
-| `<hi rend="rouge">…</hi>` | mise en valeur (`rouge`, `grand`, `monogramme`) | |
-| `<sp n="2"/>` | blanc laissé par le copiste | |
-| `<signe type="renvoi">⁙</signe>` | signe (`renvoi`, `transposition`, `coronis`, `diple`, `autre`) | |
+| `<nota main="R2">κη<hi rend="sus">δ</hi></nota>` | sigle de personnage (*nota personae*) ou note de personnage à sa place | `<nota main="R2" repasse="Rrec">…</nota>` |
+| `<parag/>` | paragraphos ; toujours avant le `<nota>` de la même ligne | `<del type="biffure" main="Rrec"><parag/></del>` |
+| `<add place="dessus" main="R2">ε</add>` | ajout d'un correcteur (`dessus`, `dessous`, `ligne`, `mg-g`, `mg-d`) | vers suppléé : `<add place="mg-d" main="R2">…</add>` |
+| `<hi rend="sus">σ</hi>` | lettre écrite au-dessus de la ligne **sans être un ajout** : abréviation, sigle, lettre finale surélevée | `<abbr dev="σί">φ<hi rend="sus">η</hi></abbr>` |
+| `<del type="grattage" main="R?"/>` | suppression (`grattage`, `biffure`, `exponctuation`, `surcharge`) ; contenu lisible, ou `<gap/>`, ou vide | |
+| `<subst main="R2"><del type="surcharge">ο</del><add place="ligne">ω</add></subst>` | substitution ; un accent corrigé se traite au niveau de la lettre | |
+| `<ras main="R3">ἥκει πάλιν</ras>` | écrit sur grattage (*in rasura*) | |
+| `<unclear cert="faible">α</unclear>` | lecture douteuse (`moyenne` : probable ; `faible` : hypothèse parmi d'autres) | |
+| `<gap n="3" unite="lettres" raison="illisible"/>` | lettres illisibles ou perdues (`raison` : `illisible`, `grattage`, `tache`, `reliure`, `surcharge`) | |
+| `<abbr dev="αί">κ</abbr>` | suspension : lettres écrites, plus `dev` = lettres suppléées | κ(αί) |
+| `<abbr signe="ʒ" dev="δέ"/>` | compendium : `signe` = forme du signe, `dev` = tout le mot ou toute la syllabe | (δέ) |
+| `<gl sur="χοάνης" main="R2">χώνης</gl>` | glose au-dessus du mot `sur` (rare : voir le guide, § 2.11) | |
+| `<hi rend="grand">…</hi>` | mise en valeur (`grand` : initiale agrandie, `monogramme`, `sus`, voir plus haut) | |
+| `<sp n="2"/>` | blanc laissé par le copiste (`n` = largeur en lettres) | |
+| `<signe type="renvoi" main="R2">∈</signe>` | signe (`renvoi`, `insertion`, `signal`, `transposition`, `ornement`, `repere`, `coronis`, `diple`, `autre`) ; `repere` n'est pas imprimé | |
+| `<lb/>`, `<lb coupe="oui"/>` | fin de ligne dans une scholie ou un vers suppléé ; `coupe` : à l'intérieur d'un mot | |
 | `<note>…</note>` | (dans `<notes>` seulement) remarque du transcripteur | |
 
 ## Rendu LaTeX (aperçu)
@@ -81,4 +106,7 @@ commence), `place` (`mg-g`, `mg-d`, `mg-sup`, `mg-inf`, `interl`), `main`, `lemm
 Couleur de la main pour tout ce qui n'est pas de `R1` ; ajouts au-dessus en petit corps ;
 `⟦ ⟧` pour le gratté ; texte barré pour la biffure ; point souscrit pour le douteux ;
 parenthèses pour les abréviations ; sigles et paragraphoi dans la colonne de gauche ;
-scholies dans la colonne des scholies, à la hauteur de leur ligne d'ancrage.
+scholies dans la colonne des scholies, à la hauteur de leur ligne d'ancrage. Les attributs
+`repasse` et `instrument` sont conservés dans les données ; leur rendu (pointillé orange
+brûlé, chap. 1, § 9.4) reste à ajouter à `edition/thesmo.cls`, comme la palette du même
+paragraphe.

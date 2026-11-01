@@ -6,19 +6,24 @@ from lxml import etree
 
 MAINS = {'R1', 'R1c', 'R2', 'R3', 'Rsch', 'Rrec', 'Rmod', 'R?'}
 ELEMENTS_EN_LIGNE = {'nota', 'parag', 'add', 'del', 'subst', 'ras', 'unclear', 'gap',
-                     'abbr', 'gl', 'hi', 'sp', 'signe', 'w'}
+                     'abbr', 'gl', 'hi', 'sp', 'signe', 'w', 'lb'}
+# repasse = main de la campagne qui a repassé le tracé (R2 repassé en 1516 : repasse="Rrec") ;
+# instrument = matière autre que l'encre (mine des repères de 1516, crayon moderne).
+MAINIFS = {'main', 'repasse', 'instrument'}
+INSTRUMENTS = {'mine', 'crayon'}
 ATTRS = {
     'page': {'folio', 'image', 'vers'},
-    'l': {'n', 'v', 'zone', 'retrait', 'main'},
-    'sch': {'n', 'ancre', 'place', 'main', 'lemme'},
+    'l': {'n', 'v', 'zone', 'retrait'} | MAINIFS,
+    'sch': {'n', 'ancre', 'place', 'lemme'} | MAINIFS,
     'note': {'ligne', 'sch'},
-    'nota': {'main'}, 'parag': {'main'},
-    'add': {'place', 'main'}, 'del': {'type', 'main'}, 'subst': {'main'},
-    'ras': {'main'}, 'unclear': {'cert'}, 'gap': {'n', 'unite', 'raison'},
-    'abbr': {'dev'}, 'gl': {'sur', 'main'}, 'hi': {'rend'}, 'sp': {'n'},
-    'signe': {'type', 'main'}, 'w': set(),
+    'nota': set(MAINIFS), 'parag': set(MAINIFS),
+    'add': {'place'} | MAINIFS, 'del': {'type'} | MAINIFS, 'subst': set(MAINIFS),
+    'ras': set(MAINIFS), 'unclear': {'cert'}, 'gap': {'n', 'unite', 'raison'},
+    'abbr': {'dev', 'signe'}, 'gl': {'sur'} | MAINIFS, 'hi': {'rend'}, 'sp': {'n'},
+    'signe': {'type'} | MAINIFS, 'w': set(), 'lb': {'coupe'},
 }
-PLACES_SCH = {'mg-g': 'mg. g.', 'mg-d': 'mg. d.', 'mg-sup': 'mg. sup.', 'mg-inf': 'mg. inf.', 'interl': 'interl.'}
+PLACES_SCH = {'mg-g': 'mg. g.', 'mg-d': 'mg. d.', 'mg-sup': 'mg. sup.', 'mg-inf': 'mg. inf.', 'interl': 'interl.',
+              'col': 'dans la col.'}
 
 
 def lire(chemin):
@@ -42,6 +47,12 @@ def valider(racine):
         m = el.get('main')
         if m and m not in MAINS:
             pb.append(f'ligne {el.sourceline} : main inconnue {m}')
+        m = el.get('repasse')
+        if m and m not in MAINS:
+            pb.append(f'ligne {el.sourceline} : main inconnue {m} (repasse=)')
+        m = el.get('instrument')
+        if m and m not in INSTRUMENTS:
+            pb.append(f'ligne {el.sourceline} : instrument inconnu {m}')
     ns = []
     for l in racine.iter('l'):
         try:
@@ -57,6 +68,21 @@ def valider(racine):
         if s.get('place') and s.get('place') not in PLACES_SCH:
             pb.append(f'ligne {s.sourceline} : place inconnue {s.get("place")}')
     return pb
+
+
+def avertir(racine):
+    """Écarts au guide (ravennas/GUIDE_TRANSCRIPTION.md, § 2) qui n'empêchent pas la compilation :
+    à examiner, jamais à corriger sans retour à l'image."""
+    av = []
+    for el in racine.iter('l'):
+        t = ''.join(el.itertext())
+        for c in sorted(set(c for c in t if c in 'ᾳῃῳᾴῄῴᾲῂῲᾷῇῷᾀᾐᾠ')):
+            av.append(f'l. {el.get("n")} : iota souscrit « {c} » : R ne souscrit jamais (écrire l\'ι sur la ligne, ou rien)')
+        if 'ς' in t:
+            av.append(f'l. {el.get("n")} : ς : T n\'a qu\'un σ (écrire σ, même en finale)')
+        for c in sorted(set(c for c in t if c in '\'’ʼ')):
+            av.append(f'l. {el.get("n")} : apostrophe « {c} » : employer ᾽ (U+1FBD)')
+    return av
 
 
 def esc(t):
@@ -101,8 +127,11 @@ def convertir(el):
                                          interieur(a) if a is not None else '')
     if tag == 'ras':
         return r'\Dras[%s]{%s}' % (m or 'R1', interieur(el))
-    if tag == 'unclear':
-        return souscrire(interieur(el))
+    if tag == 'unclear':   # le point souscrit ne touche que le texte, jamais les macros des enfants
+        s = esc(souscrire(el.text or ''))
+        for c in el:
+            s += convertir(c) + esc(souscrire(c.tail or ''))
+        return s
     if tag == 'gap':
         return r'\Dgap{%s}' % el.get('n', '1')
     if tag == 'abbr':
@@ -110,10 +139,16 @@ def convertir(el):
     if tag == 'gl':
         return r'\Dgl[%s]{%s}{%s}' % (m or 'R1', esc(el.get('sur', '')), interieur(el))
     if tag == 'hi':
+        if el.get('rend') == 'sus':   # lettre écrite au-dessus de la ligne par le scripteur (pas une correction)
+            return r'\textsuperscript{%s}' % interieur(el)
         return r'\Dhi{%s}{%s}' % (el.get('rend', 'rouge'), interieur(el))
+    if tag == 'lb':
+        return '' if el.get('coupe') else ' '
     if tag == 'sp':
         return r'\Dsp{%s}' % el.get('n', '1')
     if tag == 'signe':
+        if el.get('type') == 'repere':   # repères de la Juntine : données, non imprimées dans la ligne
+            return ''
         return r'\Dsigne{%s}{%s}' % (el.get('type', 'autre'), interieur(el))
     if tag == 'w':
         return interieur(el)
@@ -129,7 +164,9 @@ def ligne_vers_latex(l):
     debut = not (l.text or '').strip()
     corps = texte
     for c in enfants:
-        if debut and c.tag in ('nota', 'parag') and not corps.strip():
+        marque = c.tag in ('nota', 'parag') or (c.tag in ('del', 'unclear') and len(c) == 1
+                                                and c[0].tag == 'parag' and not (c.text or '').strip())
+        if debut and marque and not corps.strip():
             sig.append(convertir(c))
             corps += esc((c.tail or '').lstrip()) if not corps else esc(c.tail or '')
             continue
@@ -137,7 +174,7 @@ def ligne_vers_latex(l):
         corps += convertir(c) + esc(c.tail or '')
     opts = []
     if l.get('v'):
-        opts.append('v=' + l.get('v'))
+        opts.append('v={%s}' % l.get('v'))   # accolades : « 6,7 » contient une virgule
     opts.append('n=' + l.get('n'))
     if l.get('retrait'):
         opts.append('retrait=%sem' % (float(l.get('retrait')) * 0.5))
@@ -181,7 +218,9 @@ def texte_brut(el, garder_corrections='pc'):
         if tag == 'gap':
             return '…' + (e.tail or '')
         if tag == 'abbr':
-            return (e.text or '') + e.get('dev', '') + (e.tail or '')
+            return (e.text or '') + ''.join(rec(c) for c in e) + e.get('dev', '') + (e.tail or '')
+        if tag == 'lb':
+            return ('' if e.get('coupe') else ' ') + (e.tail or '')
         if tag == 'sp':
             return ' ' + (e.tail or '')
         return (e.text or '') + ''.join(rec(c) for c in e) + (e.tail or '')
