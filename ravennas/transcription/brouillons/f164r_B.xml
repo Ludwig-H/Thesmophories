@@ -2,17 +2,17 @@
 <!-- Lecture B (par passes successives) de R, f. 164r (Classense 166r). Brouillon en cours : passe 1. -->
 <page folio="164r" image="04_f164r_classense166r_vv0123-0164.jpg" vers="123-164">
   <lignes>
-    <l n="1" v="123" retrait="7">σέβομαι λατώ τ᾽ ἀνάσσαν</l>
-    <l n="2" v="124" retrait="7">κίθαρίν τε ματέρ᾽· ὕμνων</l>
-    <l n="3" v="125" retrait="8">ἄρσενι βοᾶι· δοκίμωι·</l>
-    <l n="4" v="126">τᾶι φῶς ἔσσυτο δαιμονίοισ ὄμμασιν·</l>
-    <l n="5" v="127">ἡ μετέρασ τε δι αιφνιδίου ὀποσ</l>
-    <l n="6" v="128">ὧν χάριν ἀνακτ᾽ ἀγάλλε φοῖβον τιμᾶι·</l>
-    <l n="7" v="129" retrait="7">χαῖρ᾽ ὄλβιε παῖ λατοῦσ·</l>
+    <l n="1" v="123" retrait="7">σέβομαι λατώ τ<unclear cert="moyenne">᾽</unclear> ἀνάσσαν</l>
+    <l n="2" v="124" retrait="7">κίθαρίν τε ματέρ᾽· <subst main="R?"><del type="grattage"><unclear cert="faible">ὑμνῶν</unclear></del><add place="ligne">ὕμνων</add></subst></l>
+    <l n="3" v="125" retrait="7">ἄρσενι βοᾶι· δοκίμωι·</l>
+    <l n="4" v="126">τᾶι φῶσ ἔσσυτο δαιμονίοισ <unclear cert="moyenne">ὄ</unclear>μμασιν·</l>
+    <l n="5" v="127">ἡ μετέρασ τε δι αιφνιδίου ὀποσ <signe type="renvoi" main="R2">∈</signe></l>
+    <l n="6" v="128">ὧν χάριν ἀνακτ<unclear cert="faible">᾽</unclear> ἀγ<unclear cert="moyenne">ά</unclear>λλε φοῖβον τιμᾶι·</l>
+    <l n="7" v="129" retrait="7">χαῖρ<unclear cert="moyenne">᾽</unclear> ὄλβιε παῖ λατοῦσ·</l>
     <l n="8" retrait="6">ὀλολύζεισ γέρων·</l>
     <l n="9" v="130"><nota main="R2">μνησι<add place="dessus" main="R2">λο</add></nota>ὡσ ἡδὺ τὸ μέλοσ ὦ πότνια γενετυλλίδεσ</l>
     <l n="10" v="131">καὶ θηλυδριῶδεσ· καὶ κατεγλωττισμένον <signe type="renvoi" main="R2">·϶·</signe></l>
-    <l n="11" v="132">καὶ μανδαλωτὸν ὥστ᾽ ἐμοῦ γ᾽ ἀκροωμένου</l>
+    <l n="11" v="132">καὶ μανδαλωτ<unclear cert="moyenne">ό</unclear>ν ὥστ᾽ εμοῦ γ᾽ ἀκροωμένου</l>
     <l n="12" v="133">ὑπὸ τὴν ἕδραν αὐτὴν ὑπῆλθε γάργαλοσ</l>
     <l n="13" v="134">καὶ σ᾽ ὦ νεανίσχ᾽ εἴ τισ εἶ κατ᾽ αἰσχύλον</l>
     <l n="14" v="135">ἐκ τῆσ λυκουργίασ ἐρέσθαι βούλομαι</l>
@@ -40,9 +40,27 @@
     <l n="36" v="157"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν<add place="dessus" main="Rrec">η</add></nota><hi rend="grand">ὅ</hi>τ᾽ ἂν σατύρουσ τοίνυν ποῆ<unclear cert="faible">ι</unclear>σ καλεῖν ἐμὲ</l>
     <l n="37" v="158">ἵνα συμποῶ σ<unclear cert="moyenne">᾽</unclear> οὔπισθεν εστυκὼσ ἐγ<subst main="R?"><del type="surcharge">ὼ</del><add place="ligne">ώ</add></subst></l>
     <l n="38" v="159"><nota main="Rrec">ἀγ</nota>ἄλλ<unclear cert="moyenne">᾽</unclear> ωσ τ<unclear cert="moyenne">᾽</unclear> ἄμουσόν εστιν ποιητὴν ἰδεῖν</l>
-    <l n="39" v="160">ἀγρεῖον ὄντα καὶ δασύν· σκέψαι δ ὅτι</l>  </lignes>
+    <l n="39" v="160">ἀγρεῖον ὄντα καὶ δασύν· σκέψαι δ ὅτι</l>
+    <l n="40" v="161"><unclear cert="moyenne">ἴ</unclear>βϋκοσ ἐκεῖνοσ<unclear cert="moyenne">·</unclear> κ᾽ ἀνακρ<unclear cert="faible">έ</unclear>ων ὁ τήϊοσ·</l>
+    <l n="41" v="162">κ᾽ ἀλκαῖοσ· <unclear cert="moyenne">οἷ</unclear> περὶ αρμονίαν ἐχύμησαν</l>
+    <l n="42" v="163">ἐμιτροφόρουν τε· καὶ δι εκίνων ἰωνικῶσ·</l>
+    <l n="43" v="164">καὶ φρύνιχοσ· τοῦτον γὰρ οὖν ἀκήκοασ·</l>  </lignes>
   <scholies>
   </scholies>
   <notes>
-  </notes>
+    <note ligne="1">Trois signes sur τ ἀνάσσαν. (1) Crochet anguleux x≈694, y≈345, juste après la fin de la barre du τ : apostrophe (ou, moins bien, esprit de ἀ). (2) Point à queue en virgule x≈727, y≈351, au-dessus du ν : c'est l'esprit de ἀ rejeté à droite, comme à la l. 6 (ἀνακτ, signe de même forme au-dessus du ν, x≈447) ; T décale couramment esprits et accents de 15 à 30 px vers la droite (ἄρσενι l. 3, ὕμνων l. 2). (3) Aigu fin x≈747–755, y≈335–344, sur le second α : ἀνάσσαν, et non ἄνασσαν. Rien de cela n'est relevé par Velsen 1883.</note>
+    <note ligne="1">Marge gauche des ll. 1–2 : scholie τὸ σέβομαι κοινόν (S2), non transcrite (consigne). Elle ne doit pas être prise pour un sigle : Velsen 1883 note que R n'a pas de sigle au v. 123, ce que je confirme.</note>
+    <note ligne="2">κίθαρίν τε : deux aigus, κί- (x≈403) et -ρίν (x≈511, entre ι et ν), selon la règle de l'enclitique après un proparoxyton : ce n'est pas une faute.</note>
+    <note ligne="2">ματέρ᾽· : gros point haut x≈699, y≈393 (apostrophe, plus haute que d'ordinaire) puis petit point x≈702, y≈413 à mi-hauteur (ponctuation). Le premier ne vient pas d'une lettre de la l. 1.</note>
+    <note ligne="2">ὕμνων : esprit rude en L (x≈736–745, y≈388–393) et aigu long (x≈750–762, y≈387–397), bien noirs, de même encre que le texte. Au-dessus du ω (x≈796–806, y≈386–390), deux petites traces grises et pâles (1,13 / 1,63, mesure sur 4 px, peu sûre), visibles seulement au canal bleu et à ×12 : reste probable d'un circonflexe gratté, ce qui confirme Velsen 1883 (« corr. ex ὑμνῶν in R »). Je ne vois pas de grattage du côté du υ (l'esprit et l'accent de la forme première ne se distinguent pas). L'état premier est encodé d'après Velsen et marqué peu sûr.</note>
+    <note ligne="3">Retrait : le premier mot commence à x≈371, comme les ll. 1–2. La boîte de segmentation (x≈300) et l'inventaire (« l. 3 moins renfoncée, x≈300 ») sont trompés par un petit point isolé à x≈303, y≈472, dans l'interligne 3/4, sans rapport avec le début de la l. 3.</note>
+    <note ligne="4">τᾶι : circonflexe plat, simple trait horizontal (x≈270–290) au-dessus de l'α, de même que dans βοᾶι (l. 3, x≈576–594) ; à la l. 6, le circonflexe de τιμᾶι est au contraire en accent circonflexe aigu « ^ ». Petit point isolé en virgule x≈303, y≈472 au-dessus de l'ι de τᾶι (fonction inconnue, sans doute tache de plume ; non transcrit). φῶσ : le circonflexe est réduit à un point (x≈381).</note>
+    <note ligne="4">ὄμμασιν : un seul signe, épais et oblique comme un aigu (x≈834–842, y≈472–478), à droite au-dessus de l'ο ; ailleurs sur la page, esprit et accent font deux signes séparés (ἂν, ll. 32, 33, 36 ; ἃ, l. 34). Esprit et aigu fondus, ou un seul des deux : d'où le doute.</note>
+    <note ligne="5">δι αιφνιδίου : blanc net (≈15 px) entre δι et αι, comme entre deux mots, sans apostrophe ni esprit ; Velsen 1883 donne διαιφνιδίου R « en un mot ». Il y a un blanc. La ligne interlinéaire de S2 au-dessus (ἀντὶ τῆς ἐνθουσιαστικῆ(ς)) est une scholie, non transcrite.</note>
+    <note ligne="5">Signe ∈ en fin de ligne (x≈945–970) : renvoi de S2 à la scholie de la marge droite au v. 127 (même signe en tête de la scholie, ll. 7 s.).</note>
+    <note ligne="6">ὧν : deux signes, esprit rude en L (x≈246–252) et circonflexe réduit à un point (x≈258–265).</note>
+    <note ligne="6">ἀνακτ ἀγάλλε. Au-dessus du premier ν (x≈447, y≈580), un seul signe en virgule, à double lobe : esprit de ἀ rejeté à droite (voir l. 1) ; je ne vois pas d'aigu. Aucune marque entre τ et le second α (x 540–552). Sur ἀγ- : signe en virgule oblique x≈564–570 (y≈573–576), au-dessus de la droite de l'α, et point gras x≈585–590 (y≈570–576) ; je les comprends comme esprit de ἀ et aigu réduit de -γά-, plutôt que comme apostrophe rejetée de ἄνακτ᾽ et esprit de ἀγ-. D'où les deux doutes. Le long trait mince voisin (x≈590–598) est la hampe du φ de la l. 5.</note>
+    <note ligne="6">τιμᾶι, supprimé par les éditeurs (glose selon Dindorf), est de la main et de l'encre du texte, à sa place dans la ligne.</note>
+    <note ligne="9">ὡσ ἡδὺ τὸ : esprits en virgule sur ω (x≈250) et sur η (x≈300) ; graves courts sur υ (x≈364) et sur ο (x≈389). Sigle : petite majuscule de S2 dans la bande des sigles (μνησι, λ suscrit enfermant un ο) ; pas de paragraphos de T. Le long trait rouge ondulé qui passe au-dessus de la ligne (x≈500–680) souligne la parépigraphe de la l. 8 : il n'appartient pas à la l. 9.</note>
+    <note ligne="10">Fin de ligne : ·϶· (point, ϶ à barre, point ; x≈1016–1050) est un renvoi de S2 à la suite de la scholie (même signe en marge droite, l. 19), et non une ponctuation de T. Point à mi-hauteur après θηλυδριῶδεσ (x≈568) ; le circonflexe de -ῶ- est réduit à un point (x≈480).</note>  </notes>
 </page>

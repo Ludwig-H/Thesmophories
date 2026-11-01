@@ -54,7 +54,7 @@
   "partie": "",
   "schema": "",
   "colon": "",
-  "note": "Trimètre parlé. Scansion : ––⏑– ⏑–⏑– ––⏑–. τέκνον : τε- bref devant κν (correption attique) ; ποι- bref devant voyelle (Coulon et Prato écrivent ποεῖν). τὸ σαυτῆς (Dindorf) et τοσαύτης (R, image) : même mesure."
+  "note": "Trimètre parlé. Scansion : ––⏑– ⏑–⏑– ––⏑–. τέκνον : τε- bref devant κν (correption attique) ; ποι- bref devant voyelle : R écrit ποεῖν (image ; Velsen 1883, p. 76 ; Blaydes 1880, p. 106), comme Coulon et Prato. τὸ σαυτῆς (Dindorf) et τοσαύτης (R, image) : même mesure."
  },
  {
   "v": "1063",
@@ -87,7 +87,7 @@
   "schema": "––⏑⏑– ‖",
   "colon": "an",
   "etiquette": "an. lyr.",
-  "note": "Début du chant de Mnésiloque en Andromède : début de l'Andromède d'Euripide (1065-1069 = fr. 114 N.² ; scholie en marge de R, image : τοῦ προλόγου Ἀνδρομέδας εἰσβολή ; Prato 2001, p. 322 : « anapesti lirici »). Monomètre (spondée + anapeste) : ἱ- et -ε- brefs (ῐ « by nature », LSJ), -ρᾱ́ long. Hiatus ἱερά | ὡς, donc fin de période : hiatus admis en système (Christ 1879, p. 283, avec 776 ; Rossbach 1889, p. 128) et voulu, selon Kaibel : « wo unnütz emendirt wird » (notes de cours, cité par Austin 1987, p. 82, à propos de 776-777). White 1912 (§ 288, p. 114) écrit la finale brève (– – ⏑⏑ ⏑ 1ᴴ) : selon son § 43 (p. 16), la longue s'abrège devant la voyelle de la période suivante ; simple différence de notation. Même forme et même hiatus en 776 (s11), d'où la même étiquette an. lyr. (texte.tex : « an. ») ; voir le .md, § 5. R met tout 1065-1097 en retrait sur les trimètres (image). Coquille : ἱερὰ en fin de période, à lire ἱερά, (Coulon, Wilson, Prato)."
+  "note": "Début du chant de Mnésiloque en Andromède : début de l'Andromède d'Euripide (1065-1069 = fr. 114 N.² ; scholie en marge de R, image : τοῦ προλόγου Ἀνδρομέδας εἰσβολή ; Prato 2001, p. 322 : « anapesti lirici »). Monomètre (spondée + anapeste) : ἱ- et -ε- brefs (ῐ « by nature », LSJ), -ρᾱ́ long. Hiatus ἱερά | ὡς, donc fin de période : hiatus admis en système (Christ 1879, p. 283, avec 776 ; Rossbach 1889, p. 128 et 143) et voulu, selon Kaibel : « wo unnütz emendirt wird » (notes de cours, cité par Austin 1987, p. 82, à propos de 776-777). White 1912 (§ 288, p. 114) écrit la finale brève (– – ⏑⏑ ⏑ 1ᴴ) : selon son § 43 (p. 16), la longue s'abrège devant la voyelle de la période suivante ; simple différence de notation. Même forme et même hiatus en 776 (s11), d'où la même étiquette an. lyr. (texte.tex : « an. ») ; voir le .md, § 5. R met tout 1065-1097 en retrait sur les trimètres (image). Coquille : ἱερὰ en fin de période, à lire ἱερά, (Coulon, Wilson, Prato)."
  },
  {
   "v": "1066",
@@ -95,7 +95,7 @@
   "partie": "",
   "schema": "–⏖–– ⏑⏑–– ‖",
   "colon": "2an∧",
-  "note": "Parémiaque à « dactyle » initial : ὡς (biceps contracté) + μα-κρο- (princeps résolu), seule place où le parémiaque l'admet (White 1912, § 273, p. 109). μᾰκρόν : μα- bref devant κρ, sans autre scansion possible ; -κρὸ-ν ἵπ- : κρο- bref, νἱπ- long. Pas de coupe entre les mètres (ἵπ|πευμα), trait des anapestes lyriques (White, § 275 ; West 1987, p. 60, trait 2). Un parémiaque au deuxième colon appartient à l'anapeste mélique (White, §§ 274, 282 ; West 1987, p. 60, trait 4) ; la catalexe ferme ici une période (White, p. 114 : 2ᶜ). Rossbach 1889, p. 138 n., voit dans la suite monomètre + parémiaque (1065-1066) le passage aux systèmes libres de lamentation. ὡς : R (image) et Souda ι 531 ; πῶς (Meineke, Velsen) et μακρὸν ὡς (Bergk, d'après Rogers 1904, Appendix, p. 222) ôtent l'hiatus de 1065 : inutile."
+  "note": "Parémiaque à « dactyle » initial : ὡς (biceps contracté) + μα-κρο- (princeps résolu), seule place où le parémiaque l'admet (White 1912, § 273, p. 109), et rare : un seul exemple dans l'hypermètre récité, Vesp. 884 (White, § 329). μᾰκρόν : μα- bref devant κρ, sans autre scansion possible ; -κρὸ-ν ἵπ- : κρο- bref, νἱπ- long. Pas de coupe entre les mètres (ἵππευ|μα), trait des anapestes lyriques (White, § 275 ; West 1987, p. 60, trait 2). Un parémiaque au deuxième colon appartient à l'anapeste mélique (White, §§ 274, 282 ; West 1987, p. 60, trait 4) ; la catalexe ferme ici une période (White, p. 114 : 2ᶜ). Rossbach 1889, p. 138 n., voit dans la suite monomètre + parémiaque (1065-1066) le passage aux systèmes libres de lamentation. ὡς : R (image) et Souda ι 531 ; πῶς (Meineke, Velsen) et μακρὸν ὡς (Bergk, d'après Rogers 1904, Appendix, p. 222) ôtent l'hiatus de 1065 : inutile."
  },
  {
   "v": "1067",
@@ -127,7 +127,7 @@
   "partie": "b",
   "schema": "⏑⏑–– ‖",
   "colon": "an∧",
-  "note": "= fin du v. 1069 usuel (« 1069b » de l'auteur). Texte de R entre cruces (l'auteur). Monomètre catalectique : même analyse chez Rossbach 1889, p. 158 (« katalektische Dipodie », qui n'a rien d'un ionique), et Christ 1879, p. 295 (avec Alc. 93 = 106, 132, 461) ; West 1987, p. 60, trait 4 (Alc. 93). L'écho suit une catalexe, donc une vraie pause : Lange 1891, p. 19, en tire que la reprise pouvait déjà se lire chez Euripide. R donne le sigle ΗΧΩ en marge (add. R² : Velsen 1883, p. 76). Fin de période nécessaire : τί ποτ᾽ (⏑⏑) ne peut fournir le longum qui manque au mètre. Une réplique substituée devra garder cette mesure ou remplir un mètre. L'ancienne conjecture ὀλυμπίας (⏑–⏑–) ne l'a pas (.md, § 8.9)."
+  "note": "= fin du v. 1069 usuel (« 1069b » de l'auteur). Texte de R entre cruces (l'auteur). Monomètre catalectique : même analyse chez Rossbach 1889, p. 158 (« katalektische Dipodie », qui n'a rien d'un ionique), et Christ 1879, p. 295 (avec Alc. 93 = 106, 132, 461) ; West 1987, p. 60, trait 4 (Alc. 93). L'écho suit une catalexe, donc une vraie pause : Lange 1891, p. 19, en tire que la reprise pouvait déjà se lire chez Euripide. R donne le sigle ΗΧΩ en marge (add. R² : Velsen 1883, p. 76). Fin de période : τί ποτ᾽ (⏑⏑) ne compléterait le mètre qu'en résolvant son dernier princeps, et tout le système serait décalé d'un pied (.md, § 3). Une réplique substituée devra garder cette mesure ou remplir un mètre. L'ancienne conjecture †δι᾽† ὀλυμπίας (⏑⏑–⏑–, ou ⏑–⏑– sans δι᾽) ne l'a pas (.md, § 8.9)."
  },
  {
   "v": "1070",
@@ -176,7 +176,7 @@
   "schema": "⏑⏑––– ––⏑⏑– |",
   "colon": "2an",
   "etiquette": "an.",
-  "note": "Retour à la langue comique : ici commence la partie récitée pour Sommerstein 1994, p. 227 (« thereafter the anapaests are recitative ») et Zimmermann 1987, p. 102 (index : anapestes mélodiques 1065-72) ; Prato 2001, p. 322 : « 1073-95 … il modello è abbandonato ». White 1912, p. 114, tient tout le passage pour mélique : .md, § 5. Étiquette « an. » proposée. Diérèse après γραῦ. μ᾽ ὦ : une longue. γραῦ (Porson) ou γραῦς (R, σ suscrit) : même mesure. στωμυλλομένη (Grynaeus ; Bentley selon Velsen) : ––⏑⏑– ; R στωμυλλωμένη avant correction, στωμυλωμένη après rasure (image ; Velsen 1883, p. 76) : –––⏑– ou –⏑–⏑–, amétriques."
+  "note": "Retour à la langue comique : ici commence la partie récitée pour Sommerstein 1994, p. 227 (« thereafter the anapaests are recitative ») et Zimmermann 1987, p. 102 (index : anapestes mélodiques 1065-72) ; Prato 2001, p. 322 : « 1073-95 … il modello è abbandonato ». White 1912, p. 114, tient tout le passage pour mélique : .md, § 5. Étiquette « an. » proposée. Diérèse après γραῦ. μ᾽ ὦ : une longue. γραῦ (R¹ selon Coulon ; Brunck selon Prato et Blaydes ; Porson selon Velsen) ou γραῦς (R, σ suscrit, image) : même mesure. στωμυλλομένη (Grynaeus ; Bentley selon Velsen) : ––⏑⏑– ; R στωμυλλωμένη avant correction, στωμυλωμένη après rasure (image ; Velsen 1883, p. 76) : –––⏑– ou –⏑–⏑–, amétriques."
  },
  {
   "v": "1074",
@@ -192,7 +192,7 @@
   "partie": "",
   "schema": "–⏖–– –––– |",
   "colon": "2an",
-  "note": "νὴ Δί᾽ ὀ- : Δι(ά) élidé, princeps résolu Δι-ὀ- ; ὀ- bref devant χλ ; ὀχληρᾱ́ : α long exigé, donc nominatif féminin attribut d'Écho (« molesta », Kuster, Rogers 1904, p. 116), et non neutre pluriel adverbial, qui laisserait une brève seule au biceps. γ᾽ εἰσ-ήρ-ρη-κας : quatre longues ; diérèse dans l'élision de γ(ε). -κας long devant λ-. R : νὴ δία·, scriptio plena (image), à élider."
+  "note": "νὴ Δί᾽ ὀ- : Δι(ά) élidé, princeps résolu Δι-ὀ- ; ὀ- bref devant χλ ; ὀχληρᾱ́ : α long exigé, donc nominatif féminin attribut d'Écho (« molesta », Kuster, Rogers 1904, p. 116), et non neutre pluriel adverbial, qui laisserait une brève seule au princeps (4e élément du mètre). γ᾽ εἰσ-ήρ-ρη-κας : quatre longues ; diérèse dans l'élision de γ(ε). -κας long devant λ-. R : νὴ δία·, scriptio plena (image), à élider."
  },
  {
   "v": "1076",
@@ -200,7 +200,7 @@
   "partie": "",
   "schema": "––",
   "colon": "an",
-  "note": "λῑ́ᾱν : ῑ long « come di solito in commedia » (Prato 2001, p. 323), ᾱ toujours long (LSJ). Avec l'écho, monomètre spondaïque. Avec ῐ, ⏑– ⏑– serait amétrique. Mètre partagé entre deux voix : .md, § 5. R : λίαν seul sur sa ligne, précédé d'une paragraphos (Velsen 1883, p. 76 ; en forme de croix sur l'image), puis l'écho sur la ligne suivante, bien que le locuteur n'ait pas changé."
+  "note": "λῑ́ᾱν : ῑ long « come di solito in commedia » (Prato 2001, p. 323), ᾱ toujours long (LSJ, qui donne les deux quantités de ι en tragédie). ῑ est exigé partout où le mètre tranche chez Aristophane : Ach. 634, Nub. 416, 716, Vesp. 877, Pax 83, Eccl. 584 (.md, § 12). Avec l'écho, monomètre spondaïque. Avec ῐ, ⏑– ⏑– serait amétrique. Mètre partagé entre deux voix : .md, § 5. R : λίαν seul sur sa ligne, précédé d'une paragraphos (Velsen 1883, p. 76 ; en forme de croix sur l'image), puis l'écho sur la ligne suivante, bien que le locuteur n'ait pas changé."
  },
  {
   "v": "1076",
@@ -320,7 +320,7 @@
   "partie": "",
   "schema": "––⏑⏑–",
   "colon": "2an",
-  "note": "= v. 1083 de Coulon, Prato et de l'auteur ; Hall–Geldart et l'apparat de Wilson (p. 118) le numérotent 1082. Le Scythe entre. οὖτος (Brunck ; οὗτος et οὖτος R) : -τος long devant τ- ; τί (R) ou σί (Brunck, d'après Rogers 1904, Appendix, p. 222 ; Velsen ; Prato) : même mesure ; λαλῖς (R², Σ) ou λαλεῖς (R¹) : –."
+  "note": "= v. 1083 de Coulon, Prato et de l'auteur ; Hall–Geldart et l'apparat de Wilson (p. 118) le numérotent 1082. Le Scythe entre. οὖτος (Brunck ; οὗτος et οὖτος R) : -τος long devant τ- ; τί (R) ou σί (Brunck, d'après Rogers 1904, Appendix, p. 222 ; Velsen ; Prato) : même mesure ; λαλῖς (R², Σ ; Wilson, l'auteur) ou λαλεῖς (R¹ ; Coulon, Prato) : –. C'est le seul lieu où cette quantité compte : ς passe à οὖ- de l'écho, et -λῖ- doit être long de nature (.md, § 4.2)."
  },
  {
   "v": "1082",
@@ -400,7 +400,7 @@
   "partie": "c",
   "schema": "––",
   "colon": "",
-  "note": "= v. 1088 de Coulon, Wilson, Prato et de l'auteur. κλαύσαι (Rogers ; Wilson, Prato) : deux longues ; κλαύσει (Brunck ; Hall–Geldart, Enger, Velsen) : même mesure ; κλαῦσ᾽ ἄρα (Blaydes ; Coulon) ou κλαῦσ᾽ ἔτι (Austin, d'après Wilson) : –⏑⏑, d'où –⏖–⏖ avec l'écho. R κλαύσαιμι (image) : ––⏑, amétrique. Rangée sans n= ni suite dans texte.tex : le script actuel lui donnerait le schéma de la clé (1087, \"\") (.md, § 10)."
+  "note": "= v. 1088 de Coulon, Wilson, Prato et de l'auteur. κλαύσαι (Rogers ; Wilson, Prato) : deux longues ; κλαύσει (Brunck ; Hall–Geldart, Enger, Velsen) : même mesure ; κλαῦσ᾽ ἄρα (Blaydes ; Coulon), κλαῦσί γε (Blaydes 1880, p. 108, cf. 1187, avec le -ι bref du Scythe) ou κλαῦσ᾽ ἔτι (Austin, d'après Wilson) : –⏑⏑, d'où –⏖–⏖ avec l'écho. R κλαύσαιμι (image) : ––⏑, amétrique. Rangée sans n= ni suite dans texte.tex : le script actuel lui donnerait le schéma de la clé (1087, \"\") (.md, § 10)."
  },
  {
   "v": "1087",
@@ -416,7 +416,7 @@
   "partie": "",
   "schema": "––⏑–",
   "colon": "†",
-  "note": "= v. 1089 de Coulon, Wilson, Prato et de l'auteur (Hall–Geldart : 1088). κἀκ-κάσ-κῐ-μοι, avec -ι bref, comme λέγι (= λέγεις) en 1102, où la résolution τί λέ- laisse -γι bref au 7e élément du trimètre : une brève seule au biceps, amétrique. Enger 1844, p. 181, le disait déjà (écrivant κακκάσκει, parce que, dans la graphie -ι, « ῑ corripitur »). La syllabe doit être longue : κακκάσκῃ (Bentley, Brunck), κακκάσκει (Enger, Bergk), κακκάσκις (Fritzsche ; Velsen, Blaydes ; Wilson, κἀκκάσκι⟨ς⟩), κἀγκάσκις (van Leeuwen ; Prato) : ––––. κἀγκάσκι (Coulon) reste ––⏑–. R : κακκάσκι, κακάσκι (corrections inverses : Velsen 1883, p. 78). Voir le .md, § 8.2."
+  "note": "= v. 1089 de Coulon, Wilson, Prato et de l'auteur (Hall–Geldart : 1088). κἀκ-κάσ-κῐ-μοι, avec -ι bref, comme λέγι (= λέγεις) en 1102, où la résolution τί λέ- laisse -γι bref au 7e élément du trimètre ; de même οἰμῶξι 1001, ἐπιτήκιζι 1133, ἀνεγεῖρι 1176, ὀρκῆσι et μελετῆσι 1179, κλαῦσι 1187, μεμνῆσι 1201, τρέξι 1225, toujours à une place brève. D'où une brève seule au biceps, amétrique. Enger 1844, p. 181, le disait déjà (écrivant κακκάσκει, parce que, dans la graphie -ι, « ῑ corripitur »). La syllabe doit être longue : κακκάσκῃ (Bentley, Brunck), κακκάσκει (Enger, Bergk), κακκάσκις (Fritzsche ; Velsen, Blaydes ; Wilson, κἀκκάσκι⟨ς⟩), κἀγκάσκις (van Leeuwen ; Prato) : ––––. κἀγκάσκι (Coulon) et κἀκκάσκι (Meineke, d'après Blaydes 1880, p. 109, et l'apparat de Coulon ; texte de l'auteur) restent ––⏑–. R : κακκάσκι, κακάσκι (corrections inverses : Velsen 1883, p. 78). Voir le .md, § 8.2."
  },
  {
   "v": "1088",
@@ -472,7 +472,7 @@
   "partie": "b",
   "schema": "––⏑– |",
   "colon": "†",
-  "note": "Supplément de l'auteur (Bibi ; pas d'écho dans R). ποῖ ποῖ πέ-τει : ––⏑–, mesure iambique, ainsi en Av. 1199 (αὕτη σύ, ποῖ ποῖ ποῖ πέτει ; μέν᾽ ἥσυχος, trimètre) ; dans le système, une brève reste seule au biceps et il manque un temps. L'hiatus πέτει | οὐ (1094) serait en outre le seul de tout le système B ; dans les hypermètres récités, White 1912 (§ 331, p. 138) n'en compte qu'un, au changement de locuteur (Nub. 892). Un écho spondaïque (⟨ποῖ ποῖ πεύγεις⟩, Brunck, Coulon, Prato) ou tout mètre ⏔–⏔– garderait le vers. Voir le .md, § 8.5."
+  "note": "Supplément de l'auteur (Bibi ; pas d'écho dans R). ποῖ ποῖ πέ-τει : ––⏑–, mesure iambique, ainsi en Av. 1199 (αὕτη σύ, ποῖ ποῖ ποῖ πέτει ; μέν᾽ ἥσυχος, trimètre) ; dans le système, une brève reste seule au biceps et il manque un temps. L'hiatus πέτει | οὐ (1094) serait en outre le seul de tout le système B ; dans les hypermètres récités, White 1912 (§ 331, p. 138) n'en compte qu'un, au changement de locuteur (Nub. 892). Un écho spondaïque (⟨ποῖ ποῖ πεύγεις⟩, Brunck, Coulon, Prato) ou tout mètre ⏔–⏔– garderait le vers. Signe | et non ‖ : l'hiatus tombe au changement de locuteur, comme en Nub. 892, et la rangée est déjà marquée †. Voir le .md, § 8.5."
  },
  {
   "v": "1094",
@@ -488,7 +488,7 @@
   "partie": "b",
   "schema": "–––– |",
   "colon": "",
-  "note": "οὐχ αἱρήσεις (l'auteur) ; οὐκ αἱρήσεις (Sommerstein, Wilson) : même mesure que la menace du Scythe, seule la coupe des mots change : écho déformé sans retouche du mètre. L'idée vient de Wilamowitz : elle est déjà imprimée, à son nom, par Lange 1891, p. 18 n. 5 (οὐκ αἱρήσεις)."
+  "note": "οὐχ αἱρήσεις (l'auteur) ; οὐκ αἱρήσεις (Sommerstein, Wilson) : même mesure que la menace du Scythe, seule la coupe des mots change : écho déformé sans retouche du mètre. L'idée vient de Wilamowitz : elle est déjà imprimée, à son nom, par Lange 1891, p. 18 n. 5 (οὐκ αἱρήσεις). Brunck donnait déjà cette forme à l'écho, mais en redite du Scythe, à qui il prêtait les mêmes mots (Prato 2001, p. 118, app. ; Rogers 1904, Appendix, p. 223)."
  },
  {
   "v": "1095",
@@ -528,6 +528,6 @@
   "partie": "",
   "schema": "⏑⏑–⏑⏑– ⏑⏑–⏓ ‖",
   "colon": "2an∧",
-  "note": "Parémiaque final, sans écho : clôt le système, seule fin de période du système B, avant les trimètres de Persée (1098). λᾰ́-λο brefs ; κα-τᾰ́-ρᾱ-το (LSJ) ; γύ-ναι-κο : -κο bref à l'élément final (White 1912, § 273, p. 109). Pas de coupe entre les mètres (κατά|ρατο), négligée 14 fois dans les parémiaques d'hypermètres (White, § 329, p. 137). Troisième pied anapeste, forme ordinaire."
+  "note": "Parémiaque final, sans écho : clôt le système, seule fin de période du système B, avant les trimètres de Persée (1098). λᾰ́-λο brefs ; κα-τᾰ́-ρᾱ-το (LSJ) ; γύ-ναι-κο : -κο bref à l'élément final (White 1912, § 273, p. 109). Pas de coupe entre les mètres (κατάρα|το), négligée 14 fois dans les parémiaques d'hypermètres (White, § 329, p. 137). Troisième pied anapeste, forme ordinaire."
  }
 ]

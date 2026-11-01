@@ -67,7 +67,7 @@
   "schema": "",
   "colon": "",
   "etiquette": "ia³",
-  "note": "Lecture du décret (ἄκουε πᾶσ'…). La rangée porte n=373 dans texte.tex (numérotation de Hall–Geldart) : c'est le v. 372 de Coulon et de Wilson. White 1912, p. 448 (« 372-80 … trimeters ») ; Mazon 1904, p. 129 ; l'auteur : « trim. iamb. ». Prato 2001, p. 346, étend la parodos à 380 mais ne nomme pas 372-380."
+  "note": "Lecture du décret (ἄκουε πᾶσ'…). La rangée porte n=373 dans texte.tex (numérisation Perseus de Hall–Geldart ; l'imprimé n'a pas ce 373 : recherche/numerotation_vers.md, § 4.3) : c'est le v. 372 usuel. White 1912, p. 448 (« 372-80 … trimeters ») ; l'auteur : « trim. iamb. ». Mazon 1904, p. 129, décrit la lecture de l'ordre du jour sans nommer le mètre. Prato 2001, p. 346, étend la parodos à 380 mais ne nomme pas 372-380."
  },
  {
   "v": "381",
@@ -117,7 +117,7 @@
   "schema": "",
   "colon": "",
   "etiquette": "ia⁴∧",
-  "note": "Querelle en tétramètres iambiques catalectiques. R le dit lui-même : Σ R ad 531 τοῦτο ἰαμβικὸν τετράμετρον καταλῆγον (Dübner 1842, p. 268 ; marge droite de R, f. 168v). White 1912, p. 448 (531-532 et 571-573 « recitative », 533-570 « melodramatic iambic tetrameters ») ; Mazon 1904, p. 130 ; Muff 1872, p. 163 ; Schroeder 1909, p. 61 (« 531-73 tetrametris iamb XLIII ») ; Prato 2001, p. 350 ; Sommerstein 1994, n. ad 531-573 ; l'auteur : « 4 ia. cat. ». Une seule étiquette : en 533, c'est le mode d'exécution qui change (White), non le mètre. Remplace « ia⁴ cat. » de texte.tex. Σ R ad 547 signale l'anapeste du septième pied (Πηνελόπην) : τοῦτο μόνον τὸ τετράμετρον ἰαμβεῖον ἀνάπαιστον ἔχει τὸν καταλήγοντα (Dübner 1842, p. 268 ; marge gauche de R, f. 168v)."
+  "note": "Querelle en tétramètres iambiques catalectiques. R le dit lui-même : Σ R ad 531 τοῦτο ἰαμβικὸν τετράμετρον καταλῆγον (Dübner 1842, p. 268 ; marge droite de R, f. 168v). White 1912, p. 448 (531-532 et 571-573 « recitative », 533-570 « melodramatic iambic tetrameters ») ; Mazon 1904, p. 130 ; Muff 1872, p. 163 ; Schroeder 1909, p. 61 (« 531-73 tetrametris iamb XLIII ») ; Prato 2001, p. 350 ; Sommerstein 1994, n. ad 531-573 ; l'auteur : « 4 ia. cat. ». Une seule étiquette : en 533, c'est le mode d'exécution qui change (White), non le mètre. Remplace « ia⁴ cat. » de texte.tex. Σ R ad 547 signale l'anapeste du septième pied (Πηνελόπην) : τοῦτο μόνον τὸ τετράμετρον ἰαμβεῖον ἀνάπαιστον ἔχει τὸν καταλήγοντα (Dübner 1842, p. 268 ; marge gauche de R, f. 168v) ; « μόνον » est exact : aucun autre des 45 tétramètres iambiques n'a d'anapeste à cette place (s00_etiquettes.md, § 9)."
  },
  {
   "v": "574",
@@ -157,7 +157,7 @@
   "schema": "",
   "colon": "",
   "etiquette": "tr⁴∧",
-  "note": "Doublon de sécurité : s09 prévaut (même étiquette). La rangée porte n=686 dans texte.tex (Hall–Geldart) : c'est le v. 687 usuel. Deux tétramètres trochaïques catalectiques de la coryphée : White 1912, p. 449 ; Mazon 1904, p. 132 ; Muff 1872, p. 163 ; Prato 2001, p. 351 ; Sommerstein 1994, n. ad 687-8 ; l'auteur : « tetr. tr. cat. »."
+  "note": "Doublon de sécurité : s09 prévaut (même étiquette). La rangée porte n=686 dans texte.tex (numérisation Perseus) : c'est le v. 687 usuel (686 au compte de Wilson). Deux tétramètres trochaïques catalectiques de la coryphée : White 1912, p. 449 ; Mazon 1904, p. 132 ; Muff 1872, p. 163 ; Prato 2001, p. 351 ; Sommerstein 1994, n. ad 687-8 ; l'auteur : « tetr. tr. cat. »."
  },
  {
   "v": "688",
@@ -167,7 +167,7 @@
   "schema": "",
   "colon": "",
   "etiquette": "ia³",
-  "note": "Trimètres de Mika (ποῖ ποῖ σὺ φεύγεις…) après le cri ἆ ἆ hors mètre (rangée 688). Rangée « suite » de 688 dans texte.tex = v. 689 usuel. White 1912, p. 449 (« 689-98, 728-64 : trimeters (47) ») ; Mazon 1904, p. 132 ; Schroeder 1909, p. 63 (« trim iamb III IV III ») ; Prato 2001, p. 351 ; l'auteur : « extr. metr. » (ἆ ἆ), puis « trim. iamb. ». CONFLIT : s10_689-727.json définit la même clé (688, b) sans étiquette et prévaut sur ce fichier ; il faut ajouter « ia³ » à l'entrée de s10, ou faire fusionner les étiquettes par le script."
+  "note": "Trimètres de Mika (ποῖ ποῖ σὺ φεύγεις…) après le cri ἆ ἆ hors mètre (rangée 688). Rangée « suite » de 688 dans texte.tex = v. 689 usuel. White 1912, p. 449 (« 689-98, 728-64 : trimeters (47) ») ; Mazon 1904, p. 132 ; Schroeder 1909, p. 63 (« trim iamb III IV III ») ; Prato 2001, p. 351 ; l'auteur : « extr. metr. » (ἆ ἆ), puis « trim. iamb. ». Doublon de sécurité : s10_689-727.json définit la même clé (688, b), porte désormais la même étiquette et prévaut (conflit du 28/10 réglé). Si texte.tex est renuméroté, la clé devient (689, b)."
  },
  {
   "v": "702",
@@ -177,7 +177,7 @@
   "schema": "",
   "colon": "",
   "etiquette": "tr⁴∧",
-  "note": "Doublon de sécurité : s10 prévaut, avec l'étiquette « tr⁴ » (à harmoniser en « tr⁴∧ »). Cinq tétramètres trochaïques catalectiques : White 1912, p. 449 ; Mazon 1904, p. 132 ; Schroeder 1909, p. 63 (« tetram troch II I II ») ; Prato 2001, p. 351 ; Sommerstein 1994, n. ad 702-6 ; l'auteur : « 4 troch. cat. »."
+  "note": "Doublon de sécurité : s10 prévaut (même étiquette, harmonisée le 1/11/2026). Cinq tétramètres trochaïques catalectiques : White 1912, p. 449 ; Mazon 1904, p. 132 ; Schroeder 1909, p. 63 (« tetram troch II I II ») ; Prato 2001, p. 351 ; Sommerstein 1994, n. ad 702-6 ; l'auteur : « 4 troch. cat. ». Muff 1872, p. 163, ne donne à la coryphée que 702-703 et 705. Le v. 702 est faux tel qu'imprimé : †πλέα† (⏑–) tombe aux positions 9-10, qui veulent –⏑ ; ἔργα (R) ou μεστά (Porson) rétablissent le tétramètre, et l'étiquette n'en dépend pas (s10)."
  },
  {
   "v": "726",
@@ -187,7 +187,7 @@
   "schema": "",
   "colon": "",
   "etiquette": "tr⁴∧",
-  "note": "Doublon de sécurité : s10 prévaut, avec l'étiquette « tr⁴ » (à harmoniser). Deux tétramètres trochaïques catalectiques de la coryphée : White 1912, p. 449 ; Mazon 1904, p. 132 ; Muff 1872, p. 163 ; Prato 2001, p. 352 ; Sommerstein 1994, n. ad 726-7 ; l'auteur : « 4 troch. cat. »."
+  "note": "Doublon de sécurité : s10 prévaut (même étiquette, harmonisée le 1/11/2026). Deux tétramètres trochaïques catalectiques de la coryphée : White 1912, p. 449 ; Mazon 1904, p. 132 ; Muff 1872, p. 163 ; Prato 2001, p. 352 ; Sommerstein 1994, n. ad 726-7 ; l'auteur : « 4 troch. cat. »."
  },
  {
   "v": "728",
@@ -227,7 +227,7 @@
   "schema": "",
   "colon": "",
   "etiquette": "tr⁴∧",
-  "note": "Doublon de sécurité : s12 prévaut (même étiquette). Épirrhème unique en tétramètres trochaïques catalectiques : White 1912, p. 449 (16 tétramètres) ; Mazon 1904, p. 133 ; Muff 1872, p. 164 ; Prato 2001, p. 352 ; l'auteur : « 4 troch. cat. ». Remplace « tr⁴ » de texte.tex."
+  "note": "Doublon de sécurité : s12 prévaut (même étiquette). Épirrhème unique en tétramètres trochaïques catalectiques : White 1912, p. 449 (16 tétramètres) ; Muff 1872, p. 164 ; Mazon 1904, p. 133, nomme l'ἐπίρρημα sans le mètre ; Prato 2001, p. 352 ; l'auteur : « 4 troch. cat. ». Remplace « tr⁴ » de texte.tex."
  },
  {
   "v": "846",
@@ -257,7 +257,7 @@
   "schema": "",
   "colon": "",
   "etiquette": "an⁴∧",
-  "note": "Deux tétramètres anapestiques catalectiques de la coryphée, suivis d'un système (949-952). Récités : « rezitierte Anapäste (Prokerygma) » (Zimmermann 1987, p. 75) ; Muff 1872, p. 164 (la coryphée) ; Mazon 1904, p. 134 ; Prato 2001, p. 352 (deux « 4 an∧ ») ; Sommerstein 1994, n. ad 947-952 ; White 1912, p. 449 et § 589 (période aab, 4 4 8) ; l'auteur : « 4 an. cat. ». Remplace « an⁴ » de texte.tex. Si s14 définit cette clé, son entrée prévaut. Problème : en 948, le mot παραχώρει, absent de R (f. 173v) et de Hall–Geldart, donne 25 syllabes ; sans lui, an⁴∧ régulier de 21 syllabes (s00_etiquettes.md, § 4.11)."
+  "note": "Doublon de sécurité : s14_947-1000.json prévaut (même étiquette). Deux tétramètres anapestiques catalectiques de la coryphée, suivis d'un système (949-952). Récités : « rezitierte Anapäste (Prokerygma) » (Zimmermann 1987, p. 75) ; Muff 1872, p. 164 (la coryphée) ; Mazon 1904, p. 134 ; Prato 2001, p. 352 (deux « 4 an∧ ») ; Sommerstein 1994, n. ad 947-952 ; White 1912, p. 449 et § 589 (période aab, 4 4 8) ; l'auteur : « 4 an. cat. ». Remplace « an⁴ » de texte.tex. νυν : ῡ en comédie (LSJ s.v. νῦν, II). Problème : en 948, le mot παραχώρει, absent de R (f. 173v), de Hall–Geldart et des états 2020-2021 du texte de l'auteur, donne 25 syllabes ; sans lui, an⁴∧ régulier de 21 syllabes (s00_etiquettes.md, § 4.11)."
  },
  {
   "v": "949",
@@ -267,7 +267,7 @@
   "schema": "",
   "colon": "",
   "etiquette": "an.",
-  "note": "Système anapestique (trois dimètres et un parémiaque) qui prolonge les deux tétramètres : Prato 2001, p. 352 ; Mazon 1904, p. 134 ; Muff 1872, p. 164 ; l'auteur : « dim. anap. », puis « paroem. ». Étiquette déjà présente dans texte.tex. Si s14 définit cette clé, son entrée prévaut."
+  "note": "Doublon de sécurité : s14 prévaut (même étiquette). Système anapestique (trois dimètres et un parémiaque) qui prolonge les deux tétramètres : Prato 2001, p. 352 ; Mazon 1904, p. 134 ; Muff 1872, p. 164 ; l'auteur : « dim. anap. », puis « paroem. ». Étiquette déjà présente dans texte.tex."
  },
  {
   "v": "1001",
@@ -277,7 +277,7 @@
   "schema": "",
   "colon": "",
   "etiquette": "ia³",
-  "note": "Le Scythe et Mnésiloque attaché. White 1912, p. 450 (« 1001-14, 1056-64, 1098-1135 : trimeters (61) ») ; Prato 2001, p. 353 ; l'auteur : « trim. iamb. ». Dans texte.tex, le v. 1014 porte le n° 1015 (Hall–Geldart)."
+  "note": "Le Scythe et Mnésiloque attaché. White 1912, p. 450 (« 1001-14, 1056-64, 1098-1135 : trimeters (61) ») ; Prato 2001, p. 353 ; l'auteur : « trim. iamb. ». Dans texte.tex, le v. 1014 porte le n° 1015 (numérisation Perseus)."
  },
  {
   "v": "1056",
@@ -287,7 +287,7 @@
   "schema": "",
   "colon": "",
   "etiquette": "ia³",
-  "note": "Écho et Mnésiloque, après la monodie (s15). White 1912, p. 450 ; Prato 2001, p. 355 (« 1056-64 trimetri giambici ») ; l'édition antérieure de l'auteur n'a pas d'étiquette en 1056 (sa mention « trim. iamb. » est placée en 1063)."
+  "note": "Doublon de sécurité : s16_1056-1097.json prévaut (même étiquette). Écho et Mnésiloque, après la monodie (s15). White 1912, p. 450 ; Prato 2001, p. 355 (« 1056-64 trimetri giambici ») ; l'édition antérieure de l'auteur n'a pas d'étiquette en 1056 (sa mention « trim. iamb. » est placée en 1063)."
  },
  {
   "v": "1098",
@@ -307,7 +307,7 @@
   "schema": "",
   "colon": "",
   "etiquette": "ia³",
-  "note": "Exodos, après l'hymne 1136-1159 (s17). White 1912, p. 450 (trimètres, avec trois anaphonemata) ; Prato 2001, p. 356 (« 1160-226 trimetri giambici ; 1213b, 1215b, 1222b extra metrum ») ; Muff 1872, p. 165 ; l'auteur : « trim. iamb. ». Les cris Ἀρταμουξία (rangées 1213 b, 1216 b et 1223 de texte.tex) sont hors mètre ; ils relèvent de s18."
+  "note": "Doublon de sécurité : s18_1160-1231.json prévaut (même étiquette). Exodos, après l'hymne 1136-1159 (s17). White 1912, p. 450 (trimètres, avec trois anaphonemata : « 1213, 1215ᵇ, 1222 ») ; Prato 2001, p. 356 (« 1160-226 trimetri giambici ; 1213b, 1215b, 1222b extra metrum ») ; Muff 1872, p. 165 ; l'auteur : « trim. iamb. ». Ces trois cris sont Ἀρταμουξία (rangée 1213 b), οἴμοι (début de la rangée 1216) et Ἀρταμουξία (rangée 1223) ; ils relèvent de s18. Ἀρταμουξία à la rangée 1216 b n'est pas hors mètre : il achève le trimètre 1216."
  },
  {
   "v": "1226",
@@ -318,7 +318,7 @@
   "colon": "",
   "etiquette": "",
   "renfoncement": 0,
-  "note": "Correction. texte.tex, à la suite de l'édition antérieure de l'auteur (« anap. »), fait commencer les anapestes en 1226 (étiquette « an. », renfoncement de 3 em). Or 1226 est un trimètre iambique, le dernier de la série 1160-1226 : τρέχε νυν κατ' αὐτοὺς ἐς κόρακας ἐπουρίσας, ⏖–⏑– ––⏑⏖ ⏑–⏑–. Ainsi White 1912, p. 450 (« 1223-6 : trimeters ») ; Prato 2001, p. 356 (« 1160-226 trimetri giambici ») ; Muff 1872, p. 165. R, f. 177r, écrit 1226 à la marge, comme les trimètres ; les anapestes ne commencent qu'à la ligne suivante. Étiquette supprimée, renfoncement ramené à 0 ; il reste à retirer findent=1.8em dans texte.tex."
+  "note": "Doublon de sécurité : s18 reprend la correction et prévaut (schéma, renfoncement 0, pas d'étiquette). Correction. texte.tex, à la suite de l'édition antérieure de l'auteur (« anap. »), fait commencer les anapestes en 1226 (étiquette « an. », renfoncement de 3 em). Or 1226 est un trimètre iambique, le dernier de la série 1160-1226 : τρέχε νυν κατ' αὐτοὺς ἐς κόρακας ἐπουρίσας, ⏖–⏑– ––⏑⏖ ⏑–⏑–. Ainsi White 1912, p. 450 (« 1223-6 : trimeters ») ; Prato 2001, p. 356 (« 1160-226 trimetri giambici ») ; Muff 1872, p. 165. R, f. 177r, écrit 1226 à la marge, comme les trimètres ; les anapestes ne commencent qu'à la ligne suivante. Étiquette supprimée, renfoncement ramené à 0 ; il reste à retirer findent=1.8em dans texte.tex."
  },
  {
   "v": "1227",
@@ -328,6 +328,6 @@
   "schema": "",
   "colon": "",
   "etiquette": "an.",
-  "note": "Anapestes finaux de la coryphée (ἀλλὰ πέπαισται…), en système : White 1912, p. 450 et § 291 (un tétramètre et un pentamètre) ; Prato 2001, p. 356 (« metri anapestici ») ; Mazon 1904, p. 136 (« court système anapestique ») ; Muff 1872, p. 165 (« ein anapästisches System ») ; Sommerstein 1994, n. ad 1227-31. Désaccord : deux tétramètres pour Schroeder 1909, p. 67 (« duobus coryphaeae tetrametris anapaesticis »). R, f. 177r : 1227-1228 sur une seule ligne, à la marge, puis οἴκαδ' ἑκάστη | τὼ Θεσμοφόρω δ' ἡμῖν ἀγαθὴν | τούτων χάριν ἀνταδοῖτον, en retrait ; l'auteur imprime cinq rangées (deux dimètres, un monomètre, deux parémiaques). Si s18 définit cette clé, son entrée prévaut."
+  "note": "Doublon de sécurité : s18 prévaut (même étiquette). Anapestes finaux de la coryphée (ἀλλὰ πέπαισται…), en système : White 1912, p. 450 et § 291 (un tétramètre et un pentamètre) ; Prato 2001, p. 356 (« metri anapestici ») ; Mazon 1904, p. 136 (« court système anapestique ») ; Muff 1872, p. 165 (« ein anapästisches System ») ; Sommerstein 1994, n. ad 1227-31. Désaccord : deux tétramètres pour Schroeder 1909, p. 67 (« duobus coryphaeae tetrametris anapaesticis »). R, f. 177r : 1227-1228 sur une seule ligne, à la marge, puis οἴκαδ' ἑκάστη | τὼ Θεσμοφόρω δ' ἡμῖν ἀγαθὴν | τούτων χάριν ἀνταδοῖτον, en retrait ; l'auteur imprime cinq rangées (deux dimètres, un monomètre, deux parémiaques)."
  }
 ]
