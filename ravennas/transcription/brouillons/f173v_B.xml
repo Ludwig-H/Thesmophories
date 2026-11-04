@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page folio="173v" image="23_f173v_classense175v_vv0920-0958.jpg" vers="920-958">
   <lignes>
-    <l n="1" v="920">οιμωσ πανουργοσ καυτοσ εναι μοι δοκεισ·</l>
-    <l n="2" v="921">και του δετισ ξυμβουλοσ ουκετοσ παλαι</l>
-    <l n="3" v="922">ηγυπτιαζετ αλλ οδε μεν δωσει δικην·</l>
-    <l n="4" v="923">προ σερχεται γαρ ο πρυτανισ χω τοξοτησ·</l>
-    <l n="5" v="924">τουτι πονηρον· αλλ υπαποκινητεον·</l>
-    <l n="6" v="925">εγω δ ο κακοδαιμων· τι δρω μενε</l>
-    <l n="7" v="926">ου γαρ προδωσω σ· ουδεποτ ην περ ενπνεω·</l>
-    <l n="8" v="927">ην μη προλιπωσ αι μυριαι με μηχαναι·</l>
-    <l n="9" v="928">αυτη μεν η μηρινθοσ ουδεν εσπασεν·</l>
-    <l n="10" v="929">ο δ εστ ο πανουργοσ ον ελεγεν ημιν κλεισθενησ·</l>
-    <l n="11" v="930">ουτοσ· τι κυπτεισ δησον αυτον εισαγων</l>
-    <l n="12" v="931">ω τοξοτ εν τηι σανιδι· καπειτ ενθαδι</l>
-    <l n="13" v="932">στησασ φυλαττε και προσιεναι μηδενα·</l>
-    <l n="14" v="933">εα προσ αυτον: αλλα την μαστιγ εχων</l>
-    <l n="15">παι ην προσιει τισ</l>
-    <l n="16" v="934">παι καν προσιηι τισ νη δι ωσ νυν δη ταρ ηνρ·</l>
-    <l n="17" v="935">ολιγου μ αφειλετ αυτον:</l>
-    <l n="18">ιστιορραφοσ</l>
-    <l n="19" v="936">ω πρυτανι· προσ τησ δεξιασ ηνπερ φιλεισ</l>
-    <l n="20" v="937">κοιλην προτεινειν αργυριον καν τισ διδωι·</l>
-    <l n="21" v="938">χαρισαι βραχυ τι μοι και οντωσ αποθανουμενωι·</l>
-    <l n="22" v="939">τι σοι χαρισομαι· γυμνον αποδυσαντα με</l>
+    <l n="1" v="920"><parag/><nota main="Rrec">γϋ</nota>οἴ μ᾽ὡ σπανοῦργοσ· κἀυτὸσ εἰναί μοι δοκεισ·</l>
+    <l n="2" v="921">καὶ τοῦ δέτισ ξύμβουλοσ οὐ κετὸ σπάλαι</l>
+    <l n="3" v="922">ἠγυπτιάζετ᾽ἀλλὅ δεμὲν δώσει δίκην·</l>
+    <l n="4" v="923">προ σέρχεται γὰρ ὁ πρ ύτανισ χ᾽ὠ τοξότησ·</l>
+    <l n="5" v="924"><nota main="R2">ευρι<hi rend="sus">π</hi></nota>τουτὶ πονηρὸν· ἀλλ᾽ὑπαπο κινητέον·</l>
+    <l n="6" v="925"><nota main="R2">μνη<hi rend="sus">σ</hi></nota>ἐγὼ δ᾽ὁ κακοδαί μων· τί δρῶ:<nota main="Rrec">εὐ</nota> μέν᾽ ἥ συχοσ·</l>
+    <l n="7" v="926"><del type="biffure" main="R?"><parag/></del>ουγὰρ προδώ σω σ· οὐ δέποτ᾽ἧ νπερ ἐνπνέω·</l>
+    <l n="8" v="927">ἦ ν μὴ προλίπωσ αἱ μυρί αι μεμηχαναί·</l>
+    <l n="9" v="928"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">γϋ</nota>ἁυτη μὲν ἡ μή ρινθοσ οὐδὲν ἔσπασεν·</l>
+    <l n="10" v="929"><parag/><nota main="R2">·πρυτάνισ</nota>ὅ δἐστ᾽ὁ πανοῦρ γοσ· ὃν <unclear cert="moyenne">ἔ</unclear>λεγεν <unclear cert="moyenne">ἡ</unclear>μῖν κλεισθένησ·</l>
+    <l n="11" v="930">οὗτοσ· τί κύπτεισ δῆ σον αὐτον εἰ σάγων·</l>
+    <l n="12" v="931">ὦ τοξότἐντῆι σανί δι· κἀπειτἐνθαδὶ</l>
+    <l n="13" v="932">στήσασ φύλαττε και προ σιέναι μηδένα·</l>
+    <l n="14" v="933">ἐαπρ ο σαυτόν: ἀλλὰ τὴ ν μάστιγ <unclear cert="moyenne">ἔ</unclear>χων</l>
+    <l n="15"><del type="exponctuation" main="R?"><del type="biffure" main="R1c">παῖ <unclear cert="moyenne">κἂν</unclear> προσήει τίσ</del></del></l>
+    <l n="16" v="934">παῖ κἂν προσί ηι τίσ<nota main="Rrec">γϋ</nota> νὴ δ<subst main="Rrec"><del type="surcharge">ί᾽</del><add place="dessus">ί᾽</add></subst> ὡσνῦν δῆτ᾽ἀνήρ·</l>
+    <l n="17" v="935"><del type="biffure" main="Rrec"><parag/></del>ὀλίγο<ras main="R2">υ</ras> μἀφείλετ᾽ αὐτον: <del type="exponctuation" main="R?"><del type="biffure" main="R1c">ἱστιοφόρρον</del></del></l>
+    <l n="18" retrait="7"><unclear cert="faible">:</unclear> ἱ στιο ρράφοσ·</l>
+    <l n="19" v="936"><nota main="R2" repasse="Rrec">μνη<hi rend="sus">σ</hi></nota>ὦ πρύτανι· πρὸστῆσ δεξιᾶσ ἥ νπερ φιλεισ·</l>
+    <l n="20" v="937">κοίληνπρο τεί νειν ἀργύ ριον κἄντισδιδῶ·</l>
+    <l n="21" v="938">χάρ ι σαι βραχὺτί μοι καί<add place="dessus" main="R2">περ</add> αποθανουμένωι·<signe type="repere" main="Rrec" instrument="mine">—</signe></l>
+    <l n="22" v="939"><parag/><nota main="R2" repasse="Rrec">πρυ<unclear cert="moyenne"><hi rend="sus">τ</hi></unclear></nota>τί σοι χαρισο μαι· γυμνὸν ἀπ<subst main="R?"><del type="biffure">ὸ</del><add place="ligne">ο</add></subst>δ<ras main="R3">ύ</ras>σαντάμε·<signe type="repere" main="Rrec" instrument="mine">10</signe></l>
     <l n="23" v="940">κελευ προσ τηι σανιδι δειν με τον τοξοτην·</l>
     <l n="24" v="941">ινα μην κροκωτοισ και μιτραισ γερων ανηρ·</l>
     <l n="25" v="942">γελωτα παρεχω τοισ κοραξιν εστιων·</l>
@@ -48,6 +48,6 @@
   <scholies>
   </scholies>
   <notes>
-    <note>Lecture B : ÉTAT PROVISOIRE (passe 1, lettres seulement ; les passes 2 à 4 sont en cours).</note>
+    <note>Lecture B : ÉTAT PROVISOIRE (reprise du 4 nov. : passes 2 et 3 en cours, lignes retraitées au fil de l'eau ; lignes sans accents = passe 1 seule).</note>
   </notes>
 </page>

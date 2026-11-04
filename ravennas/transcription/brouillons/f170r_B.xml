@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page folio="170r" image="16_f170r_classense172r_vv0635-0678.jpg" vers="636-678">
+  <lignes>
+    <l n="1" v="636">ἀπόδυσον αὐτὸν οὐδὲν ὑγιὲσ γὰρ λέγει·</l>
+    <l n="2" v="637"><nota main="R2">μνη<hi rend="sus">σ</hi></nota>κἄπειτἀποδύσετἐννέα παί δων μητέρα·</l>
+    <l n="3" v="638">χάλαι ταχέωσ τὸ στρόφιον ὦ νἀίσχυντέ σύ</l>
+    <l n="4" v="639">ὡ σκαὶ στι βαρά τισ φαί νεται· καὶ καρτερά·</l>
+    <l n="5" v="640">καὶ νὴ δί ατίτθοσγ᾽ ὥσπερ ἡ μεῖσ οὐκ έχει·</l>
+    <l n="6" v="641"><parag/>στεριφῆι γάρ ει μι κ᾽ οὐκ᾽ ἐκύησα πώποτε·</l>
+    <l n="7" v="642">νῦν τό τε δη μήτηρ ῆσθα παί δων ἐννέα·</l>
+  </lignes>
+  <scholies/>
+  <notes>
+    <note ligne="1">Lecture B en cours : passes 1 à 4 non achevées.</note>
+    <note ligne="2">Sigle de S2 : μ en « λι », Ν, Η, C suscrit (x 245–252, y 417–428) ; une fine oblique traverse le Η et descend à un point (x 243, y 457), sans doute trait d'abréviation (rattachement à préciser). Aucune paragraphos. κἄπειτ : τ à goutte d'attaque, lié par sa barre à α ; une seule marque au-dessus de α (x 422), notée comme esprit : pas d'apostrophe distincte. Même chose pour -σετ ἐννέα : une seule marque (x 641), barre continue de ετ à ε. Blanc de 18 px dans παί δων.</note>
+    <note ligne="3">χάλαι : ι court, détaché (x 396–404), sur la ligne, à 5 px de la sortie de α. Petit signe (x 896, y 459) entre ν et α, écrit ici comme esprit de α ; peut aussi être une apostrophe après ν (ὦν᾽). Aigu sur ι (x 932). Aigu fin au-dessus de τε (x 1013, y 469), non venu de la l. 2 : νἀίσχυντέ a deux accents. σχ lié (σ en « q », χ à long bras). Pas de ponctuation en fin de ligne ; l'oblique et le point à x 1112–1120, y 504–510 appartiennent à la l. 4.</note>
+    <note ligne="4">Blancs de 15 px (ω | σκαὶ), 17 px (στι | βαρά), 15 px (φαί | νεται). β en « u » à petit drapeau, à ne pas lire κ. σ lié au κ de καὶ. Aigu de βαρά déporté (x 575), au-dessus de τ. καρτερά : aigu haut (x 1112–1120, y 504–510), trait de remplissage après α, point à x 1156.</note>
+    <note ligne="5">Une seule marque (aigu, x 455, y 557) entre δι et α : aigu de ί ou apostrophe ; α sans esprit, lié à τ. τίτθοσ : θ cursif, ο, σ lié au γ en V ; pas de υ. Apostrophe en crochet au-dessus du γ (x 645–655, y 552–558). ἡ | μεῖσ : blanc de 19 px, esprit à x 820. εῖ : circonflexe réduit à un point (x 862). έχει : une seule marque, tiret montant (x 1022, y 550) ; ε absorbé par la branche du χ ; ει en « q ». Tache brun clair à x 1110–1120, y 540–570 : pas de l'écriture. Point à x 1085.</note>
+    <note ligne="6">Pas d'accent ni d'esprit visible sur ει ni sur μι ; blanc de 18 px (ει | μι). Trois marques sur κ᾽ οὐκ᾽ : point haut au-dessus de ο (x 685, y 590 : apostrophe de κ᾽), esprit sur υ (x 718, y 597), crochet en virgule (x 752–758, y 595–608 : apostrophe de οὐκ᾽, confondue avec le pied du ρ de ὥσπερ, l. 5, qui y aboutit) ; esprit de ἐ à part (x 774, y 594). Trait de remplissage après πώποτε (jusqu'à x 1147), point à x 1162. Glose de S2 en marge (lecteur des scholies).</note>
+    <note ligne="7">δη : δ et η en « н » nets, blanc de 12 px devant μ ; on lit à tort Δημήτηρ d'un seul tenant. Aucun accent sur δη. ῆσθα : une seule marque carrée, au-dessus du σ (x 696, y 643) : circonflexe, ou esprit et circonflexe fondus. Blancs : τό | τε 16 px, παί | δων 17 px (comme l. 2). Trait de remplissage de α jusqu'à x 1136, puis point à x 1138, y 668.</note>
+  </notes>
+</page>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 169v (vv. 593–635) ; transcription diplomatique, lue sur l'image avant toute confrontation (4 nov. 2026).
+     Ancre = numéro de la ligne du bloc de texte (1–43) en face de laquelle la note commence ; v. 593 = l. 1, un vers par ligne, numérotation usuelle.
+     Ordre : par ancre, et pour une même ancre marge gauche avant marge droite.
+     Coordonnées entre crochets dans les notes : [x, y] ou [x0–x1, y0–y1] en pixels de l'image pleine résolution 1921 × 2780.
+     Le validateur signale « ancre invalide » pour chaque note parce que <lignes/> est vide (comme pour les autres brouillons de scholies) ; il ne signale rien d'autre. -->
+<page folio="f169v" image="15_f169v_classense171v_vv0590-0634.jpg" vers="593-635">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="7" place="mg-g" main="R2">— ἀντὶ τ<unclear cert="moyenne">οῦ</unclear> κεκρυμμένοσ <abbr signe="ʒ" dev="αι">καλοῦτ</abbr><lb/>μεν γαρ <abbr signe="ϗ" dev="καὶ"/> κρυπταὶ παρα πλάτωνι<lb/>τῶ φιλοσόφω <abbr signe="ϗ" dev="καὶ"/> παρ <abbr dev="ίδη">ευρι<hi rend="sus">π</hi></abbr> <abbr signe="ϗ" dev="καὶ"/> εν ταῖσ<lb/>των λακεδαιμονίων πολιτείαισ<lb/><abbr signe="ϗ" dev="καὶ"/> ἐν <unclear cert="moyenne">τούτ</unclear>ω αρχη τισ κρύπ<abbr signe="ʒ" dev="αι">τετ</abbr> ÷</sch>
+    <sch n="2" ancre="8" place="mg-d" main="R2">απλῶσ <abbr dev="τὶ">αν</abbr> <abbr dev="οῦ">τ<hi rend="sus">υ</hi></abbr> κεκρυ<lb coupe="oui"/>μενοσ ÷</sch>
+    <sch n="3" ancre="10" place="mg-d" main="R2">ὦ προστάτα ÷</sch>
+    <sch n="4" ancre="11" place="mg-g" main="R2">— <abbr dev="ς">μνη<unclear cert="moyenne">σι</unclear>λοχ<hi rend="sus">ο</hi></abbr> <abbr signe="˘" dev="οῦ">τ</abbr>το δια τὸ μέλλειν<lb/>ερευναν γίνεσθαι ÷</sch>
+    <sch n="5" ancre="20" place="mg-g" main="R2">αντὶ <abbr signe="˘" dev="οῦ">τ</abbr> οὔρει ÷</sch>
+    <sch n="6" ancre="24" place="mg-g" main="R2">— ε<unclear cert="moyenne">πισχ</unclear>ετικὰ <abbr dev="ὰρ">γα</abbr> <abbr signe="·/·" dev="ἐστὶν"/> οὐρου τὰ κάρδαμα<lb/><abbr signe="ϗ" dev="καὶ"/> <abbr dev="ς">πτυ<unclear cert="moyenne">σ</unclear>ματ<hi rend="sus">ο</hi></abbr> <abbr signe="ϗ" dev="καὶ"/> δια φασι τοὺσ πέρσασ<lb/>αὐτοῖσ χρῆσθαι οτι μεν γὰρ χρων<lb coupe="oui"/>ται <abbr signe="ϗ" dev="καὶ"/> ξενοφων <abbr dev="σὶ">φ<hi rend="sus">η</hi></abbr> φυλάττονται<lb/>πολ<unclear cert="moyenne">λὰ</unclear> <unclear cert="moyenne">ο</unclear>υρεῖν ωσπερ <abbr signe="ϗ" dev="καὶ"/> πτύειν <abbr signe="ϗ" dev="καὶ"/> α<lb coupe="oui"/>πομ<unclear cert="moyenne">ύ</unclear>ττεσθαι ÷</sch>
+    <sch n="7" ancre="28" place="mg-g" main="R2">— κοθ<unclear cert="moyenne">ωκ</unclear>ίδαι δῆμοσ τῆσ οἰνηΐ<abbr dev="ς">δ<hi rend="sus">ο</hi></abbr><lb/><abbr dev="ς">φυλ<unclear cert="moyenne">η</unclear></abbr> ÷</sch>
+    <sch n="8" ancre="30" place="mg-d" main="R2">οἱ μὴ<lb/>δυνάμενοι<lb/>τι ειπεῖν τοι<signe type="autre" main="R2">/</signe><lb/>αῦτα λέγουσ ÷</sch>
+    <sch n="9" ancre="31" place="mg-g" main="R2">— <abbr signe="ϗ" dev="καὶ"/> <abbr signe="˘" dev="οῦ">τ</abbr>το πρὸσ τὴν άνοδον ἐπειδη<lb/>ανοδοσ ἦν πρὸσ τὸ ϊερόν ÷</sch>
+    <sch n="10" ancre="32" place="mg-g" main="R2">σκηνασ γὰρ εαυταῖσ εποιουν πρὸσ<lb/>τὸ ϊερὸν ÷</sch>
+    <sch n="11" ancre="32" place="mg-d" main="R2">— φίλη συνδί<lb coupe="oui"/>αιτοσ ÷</sch>
+    <sch n="12" ancre="37" place="mg-g" main="R2">— διαβαλλει <abbr signe="/" dev="ιν">παλ</abbr> τὰσ γυ<lb coupe="oui"/>ναῖκασ ωσ μεθύσουσ ÷</sch>
+    <sch n="13" ancre="39" place="mg-d" main="R2">ἀλλήλασ ἐ<lb coupe="oui"/><abbr dev="α">δεξιουμε<hi rend="sus">θ</hi></abbr></sch>
+    <sch n="14" ancre="40" place="mg-g" main="R2">— μὴ <abbr signe="⌒" dev="ων">εὑρισκ</abbr> τι εἴπη ὁ <abbr dev="ὴς">κηδεσ<hi rend="sus">τ</hi></abbr> <abbr dev="σὶν">φ<hi rend="sus">η</hi></abbr><lb/>ὁτι αν τι αμίδοσ σκαφιον<lb/>ητησεν ἡ ξενύλλα αμεσ <abbr dev="ὰρ">γ</abbr> <abbr signe="·/·" dev="ἐστὶν"/><lb/>οὐροδό<abbr signe="\" dev="ον">χ</abbr> αγγεῖον ÷</sch>
+  </scholies>
+  <notes>
+    <note>Première lecture sur l'image, avant confrontation aux imprimés.</note>
+  </notes>
+</page>
