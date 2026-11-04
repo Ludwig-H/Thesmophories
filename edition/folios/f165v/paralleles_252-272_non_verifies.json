@@ -16,5 +16,23 @@
   "lemme": "περιθετή (Ménandre, Amphis)",
   "ref": "Men. Olynth. ; Amphis, Alcm.",
   "motif": "cités par Poll. 10.170 ; la référence K.-A. n’a pas été contrôlée (PCG non accessible ici)"
+ },
+ {
+  "v": "263",
+  "lemme": "χαλαρὰ φορῶν",
+  "ref": "Lys. 91 sq.",
+  "motif": "van Leeuwen 1904, p. 44, n. 3 y voit des « ioci » semblables ; le passage (χαΐα) ne convient pas, écarté"
+ },
+ {
+  "v": "265",
+  "lemme": "εἴσω … ἐσκυκλησάτω",
+  "ref": "Men. Dysc. 758",
+  "motif": "cité par Sommerstein 1994, p. 175 et Prato 2001, p. 210 (verbe restitué) ; Ménandre n’est pas indexé dans le corpus : non contrôlé"
+ },
+ {
+  "v": "265",
+  "lemme": "ἐσκυκλησάτω",
+  "ref": "Luc. Deor. Conc. 9 ; Luc. Hist. Conscr. 13 ; Philops. 29",
+  "motif": "cités par Fritzsche 1838, p. 97 (ἐπεισκυκλεῖν) ; chercher.py confirme Luc. Hist. Conscr. 13 et Philops. 29, emplois figurés tardifs, non retenus"
  }
 ]
