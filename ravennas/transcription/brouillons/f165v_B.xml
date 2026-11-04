@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page folio="165v" image="07_f165v_classense167v_vv0252-0294.jpg" vers="252-293">
   <lignes>
-    <l n="1" v="252"><parag/><nota main="Rrec">ἀγ</nota>λαμβάνετε καὶ χρῆσθ᾽ οὐ φθονῶ:<nota main="Rrec">εὐ</nota>τί οὖν λάβω·</l>
-    <l n="2" v="253"><parag/><nota main="Rrec">ἀγ</nota>ὅτι τὸν κροκωτὸν πρῶτον ἐνδύου λαβών·</l>
-    <l n="3" v="254"><parag/><nota main="Rrec">εὐ</nota>νὴ τὴν ἀφροδίτην ἡδὺ ὄζει ποσθίου,</l>
-    <l n="4" v="255"><parag/><nota main="Rrec">ἀγ</nota>σὺ ζῶσον ἀνύσασ: αἶρε νῦν στρόφιον:<nota main="Rrec">εὐ</nota>ἰδού</l>
-    <l n="5" v="256"><parag/><nota main="Rrec">μν<hi rend="sus">η</hi></nota>ἴθι νῦν κατάστειλόν με τὰ περὶ τὰ σκέλη</l>
-    <l n="6" v="257"><nota main="Rrec">εὐ</nota><parag/>κεκρύφαλοσ δεῖ καὶ μίτρασ<nota main="Rrec">ἀγ</nota>ἠδὶ μὲν οὖν</l>
+    <l n="1" v="252"><parag/><nota main="Rrec">ἀγ·</nota>λαμβάνετε καὶ χρῆσθ᾽οὐ φθονῶ<nota main="Rrec">εὐ</nota>τί οὖν λάβω·<add place="ligne" main="Rrec">,</add></l>
+    <l n="2" v="253"><parag/><nota main="Rrec">ἀγ·</nota>ὅ τι·<add place="ligne" main="Rrec">,</add> τὸν κροκωτο νπρῶτον ἐν δύου λαβών·</l>
+    <l n="3" v="254"><parag/><nota main="Rrec">εὐ</nota>νὴ τὴν ἀφροδίτην ἡδὺγὄζει ποσθίου·<add place="ligne" main="Rrec">,</add></l>
+    <l n="4" v="255"><parag/><nota main="Rrec">ἀγ</nota>σ<subst main="R?"><del type="surcharge">ὺ</del><add place="ligne">ύ</add></subst>ζωσον ἀνύσασ: αἴρε νῦν στρόφιον<nota main="Rrec">εὐ</nota>ἰδού</l>
+    <l n="5" v="256"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">μν<hi rend="sus">ή</hi></nota>ἴθι νῦν κατάστειλόν με τὰ περὶ τὰ σκέλη<unclear cert="faible">·</unclear></l>
+    <l n="6" v="257"><parag/><nota main="Rrec">εὐ</nota>κεκρυφάλοσ δεῖ καὶ μίτρασ<sp n="2"/><nota main="Rrec">ἀγ·</nota>ἠδὶ μὲν οὖν</l>
     <l n="7" v="258">κεφαλὴ περίθετοσ ἣν ἐγὼ νύκτωρ φορῶ·</l>
     <l n="8" v="259"><parag/><nota main="Rrec">εὐ</nota>νὴ τὸν δί᾽ ἀλλὰ κἀπιτηδεία πάνυ</l>
     <l n="9" v="260"><nota main="Rrec">μν<hi rend="sus">η</hi></nota>ἠραρμόσηι μοι:<nota main="Rrec">ἀγ</nota>μὴ δί᾽ ἄριστα χει·</l>
@@ -47,5 +47,11 @@
   </lignes>
   <notes>
     <note>Lecture B (passes successives). Brouillon provisoire : passe 1 en cours de contrôle.</note>
+    <note ligne="1">(provisoire) Passe 1-2 faites. σθ et ο en trait continu. Dicolon de T non distinct sous εὐ.</note>
+    <note ligne="2">(provisoire) virgule pâle ; pas d'accent visible sur -τον, le V au-dessus est le pied du ρ de χρῆσθ (l. 1).</note>
+    <note ligne="3">(provisoire) γ en v plongeant, lié à υ et à ο.</note>
+    <note ligne="4">(provisoire) accent en croix sur υ ; σύζωσον d'un seul tenant.</note>
+    <note ligne="5">(provisoire) barre sombre dans le sigle : paragraphos de T probable.</note>
+    <note ligne="6">(provisoire) aigu au-dessus de αλ, rien sur υ.</note>
   </notes>
 </page>

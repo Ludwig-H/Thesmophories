@@ -44,6 +44,34 @@
  {
   "v": "80",
   "lemme": "Θεσμοφορίων ἡ μέση",
+  "categorie": "aristophane",
+  "ref": "Ar. Thesm. 949",
+  "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2:949",
+  "citation": "Παύσων σέβεται καὶ νηστεύει",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"παυσων σεβεται και νηστευει\"' -a Ar. -o Thesm ; index : Ar. Thesm. 949",
+  "signale_par": "Prato 2001, p. 162 (Nesteia) ; Hartwig 2010, n. 30",
+  "pertinence": 3,
+  "remarque": "Le second jour (Νηστεία) : le chœur « jeûne » avec Pauson."
+ },
+ {
+  "v": "80",
+  "lemme": "Θεσμοφορίων ἡ μέση",
+  "categorie": "aristophane",
+  "ref": "Ar. Thesm. 984",
+  "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2:984",
+  "citation": "νηστεύωμεν δὲ πάντως.",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"νηστευωμεν δε παντωσ\"' -a Ar. -o Thesm ; index : Ar. Thesm. 984",
+  "signale_par": "Prato 2001, p. 162",
+  "pertinence": 3,
+  "remarque": "Le jeûne du jour médian rappelé dans le chant du chœur."
+ },
+ {
+  "v": "80",
+  "lemme": "Θεσμοφορίων ἡ μέση",
   "categorie": "prose",
   "ref": "Alciphr. 2.37",
   "urn": "urn:cts:greekLit:tlg0640.tlg001.1st1K-grc1:2.37",
@@ -96,6 +124,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": ""
+ },
+ {
+  "v": "80",
+  "lemme": "Θεσμοφορίων ἡ μέση",
+  "categorie": "prose",
+  "ref": "Paus. 1.31.1",
+  "urn": "urn:cts:greekLit:tlg0525.tlg001.perseus-grc2:1.31.1",
+  "citation": "Ἀλιμουσίοις ⟨μὲν⟩ Θεσμοφόρου Δήμητρος καὶ Κόρης ἐστὶν ἱερόν",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Αλιμουσιοις Θεσμοφορου' -a Paus ; index : Paus. Description of Greece 1.31.1",
+  "signale_par": "Prato 2001, p. 162",
+  "pertinence": 2,
+  "remarque": "Le Thesmophorion d'Halimonte, où la scholie place le jour préliminaire (le 10 Pyanepsion) qui justifierait τρίτη chez les défenseurs de R."
  },
  {
   "v": "80",

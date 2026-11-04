@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 174v (vv. 1002–1044) : LECTURE EN COURS (reprendre à la dernière note écrite). -->
+<page folio="f174v" image="25_f174v_classense176v_vv1001-1043.jpg" vers="1002-1044">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="2" place="mg-g" main="R2"><abbr dev="ὶ">αν<hi rend="sus">τ</hi></abbr> δρῶ· τοῦτο <abbr signe="ʒ" dev="δὲ"/> εἰπὼν πλέον <abbr dev="όν">αὐτ̀</abbr><lb/><unclear cert="faible">επικ</unclear><gap n="5" unite="lettres" raison="illisible"/>ει ÷</sch>
+    <sch n="2" ancre="5" place="mg-g" main="R2"><unclear cert="faible">π</unclear>ορμὸσ <abbr dev="ὶ">αν<hi rend="sus">τ</hi></abbr> φορμοσ ψίαθοσ ἵνα πυλά<lb coupe="oui"/>ξηι σοι <abbr dev="ὶ">αν<hi rend="sus">τ</hi></abbr> <abbr signe="˘" dev="οῦ"><unclear cert="moyenne">τ</unclear></abbr> <unclear cert="moyenne">ἵ</unclear>να φυλάξηι σοι ÷</sch>
+    <sch n="3" ancre="9" place="mg-g" main="R2">ὁρᾶ <abbr dev="ίδην">ευρι<hi rend="sus">π</hi></abbr> προσιόντα</sch>
+    <sch n="4" ancre="10" place="mg-g" main="R2">πιθανῶσ συνδεδίδακται γ τῆι ελένηι ÷</sch>
+    <sch n="5" ancre="10" place="mg-d" main="R2"><abbr dev="ὶ">αν<hi rend="sus">τ</hi></abbr> ὡσ<lb/>περσευσ</sch>
+    <sch n="6" ancre="14" place="mg-d" main="R2">παρα <abbr dev="ὰ"><hi rend="sus">τ</hi></abbr> ἐξ ἀνδρομέδασ <abbr dev="ίδου">ευρι<hi rend="sus">π</hi></abbr><lb/>φιλοι παρθένοι φίλαι μοι τὰ <abbr signe="ʒ" dev="δὲ"/><lb/>επιφερομενα προσ το αυτὸ<lb/>χρησιμον ÷</sch>
+    <sch n="7" ancre="17" place="col" main="R2">παλιν εξ <abbr dev="ας">ανδρομε<hi rend="sus">δ</hi></abbr></sch>
+    <sch n="8" ancre="18" place="mg-g" main="R2">— προσ τὴν ηχω ἀνδρομέδα λεγει προσαιδουσσαι<lb/>τασ ἐν άντροισ ἀπόπασον ἔασον αχοι με συν<lb/>φίλαισ γόου πόθου λαβεῖν ÷</sch>
+    <sch n="9" ancre="18" place="mg-d" main="R2">διὰ τὸ <abbr signe="⌒" dev="ειν">λαμβαν</abbr><lb/>ἀσπάσματα ασυν<abbr signe="ʒ" dev="δε"/><lb coupe="oui"/><abbr dev="ον">τ̀</abbr> το ολον γίνετ<abbr signe="ʒ" dev="αι"/> ÷</sch>
+    <sch n="10" ancre="20" place="col" main="R2">ὡσ εν κωμωδία ÷</sch>
+    <sch n="11" ancre="21" place="mg-g" main="R2">παρα<abbr dev="ὰ"><hi rend="sus">τ</hi></abbr> <abbr signe="˘" dev="οῦ">τ</abbr> χορου του εν ανδρομέδα ανοικτοσ<lb/>ὃσ τεκων σε την πολυπονωτατην βροτῶν<lb/>μεθηκεν αῑδᾱι πατροσ υπερθανεῖν ÷</sch>
+    <sch n="12" ancre="23" place="mg-g" main="R2">δέον εἰπεῖν ἐσώθην ἀπωλόμην ειπεν<lb/><abbr dev="ιν">χαρ</abbr> <abbr dev="ος">γέλωτ<hi rend="sus">ο</hi></abbr> ÷</sch>
+    <sch n="13" ancre="23" place="mg-d" main="R2">τὴν τηρήσασαν <abbr dev="όν">αυτ̀</abbr> ἐν τοῖσ<lb/>θεσμοφορίοισι ÷</sch>
+    <sch n="14" ancre="27" place="mg-g" main="R2"><unclear cert="moyenne"><abbr dev="ιν">παλ</abbr></unclear> <unclear cert="moyenne">εξ</unclear> ανδρομεδασ το <abbr signe="ʒ" dev="δὲ"/> επιφερομεν<abbr signe="`" dev="ον"/> σκώπτον<lb/><gap n="5" unite="lettres" raison="illisible"/><unclear cert="faible">τουσ</unclear> ἀθηναίουσ ὡσ φιλοδίκουσ ÷</sch>
+    <sch n="15" ancre="30" place="mg-g" main="R2">παρα τὴν ξιφοθήκην οὗ δικάζω <abbr signe="⌒" dev="σὶ">φ<hi rend="sus">η</hi></abbr> ὁ γέρων ÷</sch>
+    <sch n="16" ancre="32" place="mg-g" main="R2">ἐπεὶ ὀψοφάγοσ <abbr signe="ϗ" dev="καὶ"/> γαστρίμαργ<hi rend="sus">ο</hi> ὁ γλαυκέτησ<lb/>ὡσ ἐν ειρήνη δηλοῦτ<abbr signe="ʒ" dev="αι"/> ÷</sch>
+    <sch n="17" ancre="33" place="col" main="R2"><abbr signe="ϗ" dev="καὶ"/> τοῦτο ἐξ ἀνδρομέδασ ÷</sch>
+    <sch n="18" ancre="39" place="mg-d" main="R2">ἀπὸ κοινοῦ λά<abbr dev="εν">βωμ<hi rend="sus">ν</hi></abbr><lb/>πέπονθα ἄνομα πά<lb coupe="oui"/>θεα <abbr signe="ϗ" dev="καὶ"/> <abbr dev="α">ταυ<hi rend="sus">τ</hi></abbr> εξ <abbr dev="ρομέδας">αν<hi rend="sus">δ</hi></abbr></sch>
+    <sch n="19" ancre="41" place="mg-d" main="R2"><abbr dev="ὶ">αν<hi rend="sus">τ</hi></abbr> <abbr signe="˘" dev="οῦ">τ</abbr> πολυδακρύτου</sch>
+  </scholies>
+  <notes>
+    <note>Brouillon en cours de lecture.</note>
+  </notes>
+</page>
