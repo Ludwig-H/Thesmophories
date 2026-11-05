@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Scholies et gloses marginales de R, f. 175r (vv. 1045–1081) : LECTURE EN COURS, premier état sur l'image, avant confrontation aux éditions. -->
+<!-- Scholies et gloses marginales de R, f. 175r (vv. 1045–1081) : relecture sur l'image à ×5–×16 en cours, avant confrontation aux éditions. -->
 <page folio="f175r" image="26_f175r_classense177r_vv1044-1081.jpg" vers="1045-1081">
   <lignes/>
   <scholies>
-    <sch n="1" ancre="6" place="mg-d" main="R2">ἴσωσ <abbr dev="όν">τ̀</abbr> ἥλιον ἀστέρα ἐκαλέσεν ἢ<lb/>μᾶλλον <abbr dev="όν">τ̀</abbr> <abbr dev="όν">κεραυν̀</abbr> ÷</sch>
+    <sch n="1" ancre="6" place="mg-d" main="R2">ἴσωσ <abbr dev="όν">τ̀</abbr> ἥλιον ἀστέρα ἐκαλ<unclear cert="moyenne">έ</unclear>σεν ἢ <signe type="autre" main="R2">—</signe><lb/>μᾶλλον <abbr dev="όν">τ̀</abbr> <abbr dev="όν">κεραυν̀</abbr> ÷</sch>
     <sch n="2" ancre="7" place="mg-g" main="R2"><abbr dev="ῶς">δι<hi rend="sus">χ</hi></abbr> <abbr dev="ήν">τ̀</abbr> ἄθλιαν</sch>
-    <sch n="3" ancre="10" place="mg-g" main="R2">σκοτεινήν</sch>
-    <sch n="4" ancre="10" place="mg-d" main="R2"><abbr signe="λ̸" dev="λείπει"/> ἔσχον ἐκ τῶν δαιμόνων τὰ ἄχη<lb/>ἔσχον ÷</sch>
+    <sch n="3" ancre="10" place="mg-g" main="R2">σκοτειν<unclear cert="moyenne">ή</unclear>ν</sch>
+    <sch n="4" ancre="10" place="mg-d" main="R2"><abbr signe="λ̸" dev="λείπει"/> ἔσχον ἐκ τῶν δαιμό<unclear cert="moyenne">ν</unclear>ων τὰ ἄχη<lb/>ἔσχον ÷</sch>
     <sch n="5" ancre="12" place="mg-g" main="R2"><abbr dev="ίδης">ευρι<hi rend="sus">π</hi></abbr> ηχω</sch>
-    <sch n="6" ancre="12" place="mg-d" main="R2">— ὑποκρίνεται <abbr dev="ίδης">εὐρι<hi rend="sus">π</hi></abbr> τὸ πρόσωπον <abbr dev="ῆς">τ</abbr> ἠχοῦσ ÷</sch>
-    <sch n="7" ancre="13" place="mg-d" main="R2">— πατὴρ γὰρ τῆσ ἀνδρομέδασ ὁ κηφεύσ ÷</sch>
-    <sch n="8" ancre="14" place="mg-g" main="R2"><unclear cert="faible">εἰ</unclear>ωθυῖα γελᾶν<lb/><gap n="3" unite="lettres" raison="reliure"/>γελάστρια ÷<lb/>ἐπεὶ περ<unclear cert="faible">ι</unclear><gap n="2" unite="lettres" raison="illisible"/> ἔδει<lb/><unclear cert="faible">η</unclear>χων ἀνδρομέ<hi rend="sus">δα</hi></sch>
-    <sch n="9" ancre="15" place="mg-d" main="R2">ἐπεὶ εἰσήγαγεν κακοστεν<unclear cert="moyenne">ά</unclear>κ<abbr dev="ον">τ̀</abbr><lb/>τὴν ἠχὼ ὁ <abbr dev="ίδης">εὐρι<hi rend="sus">π</hi></abbr> ἐν τῆ ἀνδρομέδα<lb/>εἰσ τοῦτο παίζει εζηλ<unclear cert="faible">ωσεν</unclear> <abbr signe="ʒ" dev="δὲ"/> αὐτὸ πτο<lb coupe="oui"/>λεμαῖοσ ὁ φιλοπάτωρ <unclear cert="faible">ἐν</unclear> ἧι πεποί<lb coupe="oui"/>ηκε τραγωδίαι ἀδων<unclear cert="faible">ιν</unclear> περὶ <abbr signe="ϗ" dev="καὶ"/> ὁ<lb/>ἐρώμεν<hi rend="sus">ο</hi> αὐτῶ ἀγαθοκλ<hi rend="sus">ς</hi> <unclear cert="moyenne">γε</unclear>γραφεν<lb/>ὁ ἀδελφὸσ τῆσ ἐρωμένησ αὐτοῦ πάλιν<lb/>ἀγαθοκλείασ ÷</sch>
-    <sch n="10" ancre="19" place="mg-g" main="R2">ἠρέμα ὁ <abbr dev="ής">κηδεστ<hi rend="sus">ς</hi></abbr><lb/><abbr dev="ῦτο">τ<hi rend="sus">υ</hi>το</abbr> πρὸσ <abbr dev="όν">τ̀</abbr> <abbr dev="ίδην">εὐρι<hi rend="sus">π</hi></abbr></sch>
-    <sch n="11" ancre="21" place="mg-g" main="R2">ὁ <abbr dev="ος">μνησίλο<hi rend="sus">χ</hi></abbr> ὡσ<lb/>ἀνδρομέδα ÷</sch>
-    <sch n="12" ancre="21" place="col" main="R2">τοῦ προλόγου ἀνδρομέδασ εἰσβολή ÷</sch>
+    <sch n="6" ancre="12" place="mg-d" main="R2">— ὑποκρίνεται <abbr dev="ίδης">εὐρι<hi rend="sus">π</hi></abbr> το πρόσωπον <abbr signe="¯" dev="ῆς">τ</abbr> ἠχοῦσ ÷</sch>
+    <sch n="7" ancre="13" place="mg-d" main="R2">— πατὴρ γὰρ τῆσ ἀνδρομέδασ ὁ κηφευ<unclear cert="moyenne">σ</unclear> ÷</sch>
+    <sch n="8" ancre="14" place="mg-g" main="R2"><unclear cert="moyenne">εἰ</unclear>ωθυια γελαν<lb/><unclear cert="moyenne">γ</unclear>ελαστρια ÷<lb/><unclear cert="faible">ε</unclear>πεὶ <abbr signe="⌒" dev="ιν">πέρυσ</abbr> ἐδι<lb coupe="oui"/><unclear cert="faible">δ</unclear>αχθη <abbr dev="α">ανδρομε<hi rend="sus">δ</hi></abbr></sch>
+    <sch n="9" ancre="15" place="mg-d" main="R2">— ἐπεὶ εἰσήγαγεν κακοστένακ<abbr dev="ον">τ̀</abbr><lb/>τὴν ἠχὼ ὁ <abbr dev="ίδης">εὐρι<hi rend="sus">π</hi></abbr> ἐν τῆ ἀνδρομέδα<lb/>εἰσ τοῦτο παίζει ἐζήλ<unclear cert="moyenne">ωσεν</unclear> <abbr signe="ϗ" dev="καὶ"/> αὐτὸ πτο<lb coupe="oui"/>λεμαῖοσ ὁ φιλοπάτωρ <unclear cert="moyenne">ἐν</unclear> ἧ<unclear cert="moyenne">ι</unclear> πεποί<lb coupe="oui"/>ηκε τραγωδίαι ἀδων<unclear cert="moyenne">ι</unclear>δι περὶ ἧσ ὁ<lb/>ἐρώμεν<hi rend="sus">ο</hi> αὐτῶ<unclear cert="moyenne">ι</unclear> ἀγαθοκλ<hi rend="sus">σ</hi> <unclear cert="moyenne">γε</unclear>γραφεν<lb/>ὁ ἀδελφὸσ τησ ερωμένησ αὐτοῦ πάλιν<lb/>ἀγαθοκλείασ ÷</sch>
+    <sch n="10" ancre="19" place="mg-g" main="R2">ἠρέμα ὁ <abbr dev="ής">κηδεστ<hi rend="sus">σ</hi></abbr><lb/><abbr dev="ῦτο">τ<hi rend="sus">υ</hi>το</abbr> πρὸσ <abbr dev="όν">τ̀</abbr> <abbr dev="ίδην">εὐρι<hi rend="sus">π</hi></abbr></sch>
+    <sch n="11" ancre="21" place="col" main="R2">ὁ <abbr dev="ος">μνησίλο<hi rend="sus">χ</hi></abbr> ω<unclear cert="moyenne">σ</unclear><lb/>ανδρομέδα ÷</sch>
+    <sch n="12" ancre="21" place="col" main="R2">τοῦ προλό<lb coupe="oui"/>γου ἀνδρομεδασ εἰσβολη ÷</sch>
     <sch n="13" ancre="22" place="mg-g" main="R2">πορείαν</sch>
     <sch n="14" ancre="26" place="mg-g" main="R2"><abbr dev="ῦτο">τ<hi rend="sus">υ</hi>το</abbr> ἡ ἠχὼ λέγει ÷</sch>
     <sch n="15" ancre="26" place="mg-g" main="R2">ηχω</sch>
-    <sch n="16" ancre="27" place="mg-g" main="R2">— <abbr signe="ϗ" dev="καὶ"/> τοῦτο <unclear cert="moyenne">ἐκ</unclear> τοῦ <add place="dessus" main="R2">προ</add>λόγου ÷</sch>
+    <sch n="16" ancre="27" place="mg-g" main="R2">— <abbr signe="ϗ" dev="καὶ"/> τοῦτο ε<unclear cert="moyenne">κ</unclear> τοῦ<add place="dessus" main="R2">προ</add>λόγου ÷</sch>
     <sch n="17" ancre="30" place="col" main="R2"><abbr signe="λ̸" dev="λείπει"/> μέλλουσα τυχεῖν</sch>
     <sch n="18" ancre="32" place="mg-d" main="R2">φλυαροῦσα —</sch>
-    <sch n="19" ancre="37" place="col" main="R2">τὸ πλῆρεσ ὦ ἀγαθή ÷</sch>
+    <sch n="19" ancre="37" place="col" main="R2">το πλῆρεσ ὦ ἀγαθη ÷</sch>
   </scholies>
   <notes>
-    <note>Brouillon en cours : premier état, sur l'image seule.</note>
+    <note>Relecture en cours : état sur l'image seule ; confrontation aux éditions à faire.</note>
   </notes>
 </page>

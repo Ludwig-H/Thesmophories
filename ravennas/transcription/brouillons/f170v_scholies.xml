@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 170v (vv. 679–720) ; transcription diplomatique (lecteur des scholies, 5 nov. 2026, DiploXML v1), reprise sur l'image. EN COURS : sch. 1–3 lues ; suite à reprendre à partir de la scholie de la marge gauche, l. 9. -->
+<page folio="f170v" image="17_f170v_classense172v_vv0679-0720.jpg" vers="679-720">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="2" place="col" main="R2">ἀντι <abbr signe="˘" dev="οῦ">τ</abbr> διάπυροσ ὢν ταῖσ μανίαισ ÷</sch>
+    <sch n="2" ancre="4" place="mg-g" main="R2">— γελοίωσ <abbr dev="εν">ει<hi rend="sus">π</hi></abbr> ὡσ <abbr dev="ρος">αλεξαν<hi rend="sus">δ</hi></abbr> ἦσαν <abbr signe="¯" dev="ἄνθρωποι"/> πέντε<lb/><abbr signe="ϗ" dev="καὶ"/> γυναῖκεσ τρεῖσ <abbr signe="\" dev="κται">πεπαι</abbr> <abbr signe="ȣ" dev="οὖν"/> <abbr dev="ο">του<hi rend="sus">τ</hi></abbr> ὡσ ἐν<lb/>κωμωδία ÷</sch>
+    <sch n="3" ancre="7" place="col" main="R2">ἀποδίδωσιν ÷</sch>
+  </scholies>
+  <notes>
+    <note>Lecture en cours.</note>
+  </notes>
+</page>

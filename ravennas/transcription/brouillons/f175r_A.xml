@@ -2,11 +2,11 @@
 <page folio="175r" image="26_f175r_classense177r_vv1044-1081.jpg" vers="1045-1081">
   <lignes>
     <l n="1">ἐπι δετοῖσδε· τόδ ἀν ἔπεμψεν</l>
-    <l n="2">ἱ ερὸν ἐρθαμῶ αῖ κεσ</l>
+    <l n="2">ἱ ερὸν ἔρθαν<unclear cert="moyenne">ω</unclear> αῖ κ<unclear cert="moyenne">ε</unclear>σ</l>
     <l n="3">ἰ ώ μοι μοί ρασαν ἔτι κτε δαίμων</l>
     <l n="4">ὦ κατάρατοσ ἐγὼ· τί σἐμὸν οὐκ<ras main="R?">επόψετ</ras>αι</l>
     <l n="5">πάθο σ ἀμεγαρτον ἐπι κακῶνπαρουσ<unclear cert="moyenne">ι</unclear></l>
-    <l n="6">εἰθεμε· πυρ φόρο σ αἰθέροσ ἀστὴρ</l>
+    <l n="6">εἴθέμε· πυρ φόρο σ αἰθέροσ ἀστὴρ</l>
     <l n="7">τὸν βάρ βαρον ἐξολέσει εν·</l>
     <l n="8">οὐγὰρ ἔτ᾽ἀθανάταν φλόγαλεύσειν</l>
     <l n="9">ἐστὶν ἐμοὶ φ ίλον ὡ σ ἐκρεμάσθην</l>
@@ -19,6 +19,31 @@
     <l n="16">ἥ περ πέρ υσιν ἐντῶ δεταυτῶι χωρί ωι</l>
     <l n="17">εὐρ ιπί δηι καὶ αὐτὴ ξ υνηγωνιζόμην</l>
     <l n="18">ἀλλ᾽ ὦ τεκνον· σὲ μὲν το σαύτησ χρὴ ποεῖν</l>
+    <l n="19">κλαίειν ἐλεινῶσ:<nota main="R?">μνη<unclear cert="faible"><hi rend="sus">οσ</hi></unclear></nota><signe type="insertion" main="Rrec">^</signe>σεδἐπι κλαίειν ὕστερον</l>
+    <l n="20"><nota main="Rrec">ηχ</nota>ἐμοὶ μελήσει ταῦτάγ᾽ ἀλλ᾽ἄρχου λόγων·</l>
+    <l n="21"><nota main="R2">ὁ μνησίλο<hi rend="sus">χ</hi> ω<unclear cert="moyenne">σ</unclear><lb/>ἀνδρομέδα÷</nota><nota main="Rrec">μ<hi rend="sus">ν</hi></nota>ὦ νὺξ ἱ ερὰ</l>
+    <l n="22">ὡ σμακρὸν ἵππευμα διώκεισ</l>
+    <l n="23">ἀστερο ει δέανῶταδιφρε<add place="dessus" main="R?"><unclear cert="moyenne">ύ</unclear></add>ου</l>
+    <l n="24">σ᾽αἰ θέροσ ἱ ερᾶσ</l>
+    <l n="25">τοῦ σεμνο τάτου δι<unclear cert="moyenne">᾽</unclear>ολύμπου</l>
+    <l n="26"><nota main="R2">ηχω</nota><signe type="autre" main="R?">/</signe>διολύμπου·</l>
+    <l n="27"><parag/><nota main="Rrec">μν</nota>τί ποτ᾽ἀνδρομέδα π<unclear cert="moyenne">έ</unclear>ρὶ ἄλλακακῶν·</l>
+    <l n="28">μέροσ ἐξ<del type="biffure" main="R1c">ελέγχων</del>έλαχον·</l>
+    <l n="29"><nota main="Rrec">ηχ<hi rend="sus">ω</hi></nota>μέροσ ἐξέλαχον·</l>
+    <l n="30"><parag/><nota main="Rrec">μν</nota>θανάτουτλ ήμων·</l>
+    <l n="31"><parag/><nota main="Rrec">ηχ</nota>θανάτουτλ ήμων·</l>
+    <l n="32"><parag/><nota main="Rrec">μν</nota>ἀπολεῖσ μ᾽ ὦ γρ αῦ<add place="dessus" main="R1c">σ</add> στωμυ<del type="grattage" main="R?">λ</del>λωμένη·</l>
+    <l n="33"><nota main="Rrec">ἠχ</nota>στωμυλωμένη·</l>
+    <l n="34"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">μν</nota>νη δία· ὀχληρά γ᾽εἰσήρρηκασ</l>
+    <l n="35"><del type="biffure" main="Rrec" instrument="mine"><parag/></del>λί αν·</l>
+    <l n="36"><parag/><nota main="Rrec">ἠχ</nota>λί αν</l>
+    <l n="37"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">μν·</nota>ὦ γάθ ἔασόν με μονωδῆσαι·</l>
+    <l n="38">καὶ χαριεῖ μοι·</l>
+    <l n="39"><del type="biffure" main="R?"><parag/></del>π<subst main="R?"><del type="surcharge">α</del><add place="ligne">ᾶ</add></subst>υσαι·<sp n="4"/><parag/><nota main="Rrec">ἠχ</nota>παῦσαι·</l>
+    <l n="40"><parag/><nota main="Rrec">μν</nota>βάλλ εἰσ κόρακασ·<sp n="1"/><parag/><nota main="Rrec">ηχ</nota>βάλλ εἰσ κόρακασ·</l>
+    <l n="41"><parag/><nota main="Rrec">μ</nota>τί τὸ κακόν·<sp n="2"/><parag/><nota main="Rrec">ηχ</nota>τί τὸ κακόν·</l>
+    <l n="42"><parag/><nota main="Rrec">μ</nota>ληρεῖσ<sp n="3"/><parag/><nota main="Rrec">ηχ</nota>ληρεῖσ</l>
+    <l n="43"><parag/><nota main="Rrec">μ</nota>οἴμωζε·<sp n="4"/><parag/><nota main="Rrec">ηχ</nota>οἴμωζε·</l>
   </lignes>
   <scholies>
   </scholies>

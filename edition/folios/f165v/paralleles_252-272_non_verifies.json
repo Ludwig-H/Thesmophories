@@ -6,18 +6,6 @@
   "motif": "Blaydes 1880, p. 158 renvoie à ce lieu pour la crocote portée par des hommes : 7.5.169 (Cléanthe) ne parle que d’un manteau soulevé par le vent (ἀχίτωνα) ; rien sur la crocote. Référence erronée, écartée"
  },
  {
-  "v": "258",
-  "lemme": "περίθετον κόμην (Ath. 415a)",
-  "ref": "Ath. 10.415a",
-  "motif": "Blaydes 1880, p. 158 et Ath. 10.7 : κόμη περίθετος de la trompettiste Aglaïs ; texte vu partiellement dans la sortie de chercher.py (… τὸ πομπικόν, πε…), non contrôlé en entier : à relire avant citation ; Ael. VH 1.26 donne le même fait"
- },
- {
-  "v": "258",
-  "lemme": "περιθετή (Ménandre, Amphis)",
-  "ref": "Men. Olynth. ; Amphis, Alcm.",
-  "motif": "cités par Poll. 10.170 ; la référence K.-A. n’a pas été contrôlée (PCG non accessible ici)"
- },
- {
   "v": "263",
   "lemme": "χαλαρὰ φορῶν",
   "ref": "Lys. 91 sq.",
@@ -34,5 +22,23 @@
   "lemme": "ἐσκυκλησάτω",
   "ref": "Luc. Deor. Conc. 9 ; Luc. Hist. Conscr. 13 ; Philops. 29",
   "motif": "cités par Fritzsche 1838, p. 97 (ἐπεισκυκλεῖν) ; chercher.py confirme Luc. Hist. Conscr. 13 et Philops. 29, emplois figurés tardifs, non retenus"
+ },
+ {
+  "v": "261",
+  "lemme": "φέρ᾽ ἔγκυκλον (inscriptions de Brauron)",
+  "ref": "IG II² 1514, 48 ; 1516, 25 ; 1517, 154 ; 1524, 206 et 223",
+  "motif": "signalés par Perusino 2002, p. 131, n. 13 (ἔγκυκλον ποικίλον, περιποίκιλον, λευκόν) et par la note de l’auteur à 643 : inscriptions non contrôlées (PHI refuse l’accès : 403 ; IG non local)"
+ },
+ {
+  "v": "261",
+  "lemme": "φέρ᾽ ἔγκυκλον (Photius)",
+  "ref": "Phot. ε 63 et ε 977 Theodoridis",
+  "motif": "signalés par Perusino 2002, p. 130, n. 4 et p. 131 (ἱμάτιον περιπόρφυρον) ; le tome II de Theodoridis (ε–μ) n’est pas local ; Naber : non retrouvés dans l’OCR"
+ },
+ {
+  "v": "261",
+  "lemme": "φέρ᾽ ἔγκυκλον (scholie)",
+  "ref": "Σ Ar. Eccl. 536",
+  "motif": "signalé par Perusino 2002, p. 130, n. 4 (ἱμάτιον) ; non retrouvé dans l’OCR de Dübner : à voir sur le scan"
  }
 ]

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Scholies et gloses marginales de R, f. 168v (vv. 509–550) ; transcription diplomatique, lecture en cours. -->
+<!-- Scholies et gloses marginales de R, f. 168v (vv. 509–550) ; transcription diplomatique, lecture en cours (reprise du 4 nov. 2026). -->
 <page folio="f168v" image="13_f168v_classense170v_vv0509-0550.jpg" vers="509-550">
   <lignes/>
   <scholies>
-    <sch n="1" ancre="1" place="mg-sup" main="R2"><unclear cert="moyenne">δεον</unclear> <unclear cert="faible">ειπειν το βρεφοσ το ητρον</unclear> <unclear cert="moyenne">τησ μη</unclear>τρασ ελακτισεν ε<unclear cert="moyenne">ἶ</unclear>πεν τῆσ χύτρασ ἐπειδὴ ἐν χύτρα ἐισῆλθεν τὸ παιδίον ÷</sch>
+    <sch n="1" ancre="1" place="mg-sup" main="R2"><unclear cert="moyenne">δεον</unclear> <unclear cert="faible">ειπειν το βρε</unclear><unclear cert="moyenne">φοσ το</unclear> <unclear cert="faible">ητ</unclear><unclear cert="moyenne">ρον τησ</unclear> μητρασ ελακτισεν ε<unclear cert="moyenne">ἶ</unclear>πεν τῆσ χύτρασ ἐπειδὴ ἐν χύτρα ἐισῆλθεν τὸ παιδίον ÷</sch>
     <sch n="2" ancre="1" place="mg-d" main="R2">τὸ κάλυμμα <abbr signe="ς" dev="ῆς">τ</abbr><lb/>μητρασ ὃ καλοῦ<lb coupe="oui"/>σιν ελυτρον</sch>
-    <sch n="3" ancre="7" place="mg-g" main="R2">— θεόφρασ<gap n="4" unite="lettres" raison="illisible"/> πιν⌒ φ<hi rend="sus">η</hi> τῆσ πίτυοσ ϗ̀ τῆσ<lb/>πευκη<gap n="5" unite="lettres" raison="illisible"/>ατοσθένησ ἀγγεῖον<lb/>του σφη<gap n="5" unite="lettres" raison="illisible"/> η τῆσ μελίσσησ ὅπου οἱ σκω<lb coupe="oui"/>ληκ<gap n="7" unite="lettres" raison="illisible"/>εισιν αλλ οὔ ʒ̀ οὕτωσ πάνυ<lb/>σώζεται η ακολουθία δεῖ οῦν χωρί<lb coupe="oui"/>ζειν<gap n="9" unite="lettres" raison="illisible"/>ου τ ϗ̀ ώσ στρεβλον καὶ<lb/>[suite à lire]</sch>
+    <sch n="5" ancre="19" place="mg-g" main="R2">— ἐκ τ<gap n="5" unite="lettres" raison="illisible"/><unclear cert="moyenne">π</unclear><unclear cert="moyenne">ρ</unclear>άξιλλαν ἀναφερομέ<abbr signe="⌒" dev="ων">ν</abbr><lb/>πα<gap n="6" unite="lettres" raison="illisible"/><unclear cert="moyenne">ν</unclear> ὑπο παντὶ λίθω<unclear cert="moyenne">ι</unclear> σκορ<lb coupe="oui"/>πιο<gap n="4" unite="lettres" raison="illisible"/><unclear cert="moyenne">τ</unclear>α<unclear cert="moyenne">ῖ</unclear>ρε φυλάσσεο· <abbr signe="ϗ" dev="καὶ"/> ετέρα<lb/>πα<gap n="5" unite="lettres" raison="illisible"/><unclear cert="moyenne">θ</unclear>ον κινει ÷</sch>
+    <sch n="6" ancre="23" place="mg-d" main="R2"><abbr dev="ο">του<hi rend="sus">τ</hi></abbr> ϊαμβι<abbr signe="\" dev="ὸν">κ</abbr><lb/>τετραμετ<abbr signe="\" dev="ον">ρ</abbr><lb/>καταλήγον <unclear cert="moyenne">÷</unclear></sch>
+    <sch n="7" ancre="24" place="mg-d" main="R2">ει μη αλλη<lb/>γυνη ÷</sch>
+    <sch n="8" ancre="24" place="mg-g" main="R2">— εκ <gap n="4" unite="lettres" raison="illisible"/><unclear cert="faible">γ</unclear><unclear cert="moyenne">ρα</unclear>ύλου ὤμνυον<lb/><unclear cert="moyenne">κα</unclear><gap n="6" unite="lettres" raison="illisible"/>πανδρόσου<lb/>σπαν<gap n="4" unite="lettres" raison="illisible"/><unclear cert="moyenne">τε</unclear>ρον κατα <abbr signe="ʒ" dev="δὲ"/> τῆσ<lb/>ερση<unclear cert="moyenne">σ</unclear> <unclear cert="faible">ουχ</unclear> εὑρήκαμεν ÷</sch>
   </scholies>
   <notes>
+    <note>Lecture en cours : sch. 3 et suivantes à écrire.</note>
   </notes>
 </page>

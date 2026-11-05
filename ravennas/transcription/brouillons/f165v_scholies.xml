@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies marginales de R, f. 165v (vv. 252–293) ; transcription diplomatique (lecteur des scholies, DiploXML v1).
+     BROUILLON EN COURS : première passe écrite au fil de l'eau, avant toute confrontation avec les imprimés.
+     Ancre = ligne du bloc de texte (1–43) en face de laquelle la note commence. Ordre : par ancre, gauche avant droite.
+     Verso : mg-g = marge extérieure, mg-d = marge intérieure. -->
+<page folio="f165v" image="07_f165v_classense167v_vv0252-0294.jpg" vers="252-293">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="3" place="mg-g" main="R2">δέον ειπεῖν μύρου εἶπεν ποσθίου<lb/>ποσθιον <abbr signe="ʒ" dev="δὲ"/> <abbr signe="·/·" dev="ἐστι"/> τὸ αἰδοῖον τοῦ ἀνδροσ<lb/>διαβαλλει <abbr signe="ʒ" dev="δὲ"/> <abbr signe="\" dev="όν">αυτ</abbr> ὡσ μετ <abbr signe="ȣ" dev="οῦ">αυτ</abbr> εται<lb coupe="oui"/>ριζοντα</sch>
+    <sch n="2" ancre="7" place="mg-g" main="R2">ὅτι την περίθετον <abbr dev="ην">αυ<hi rend="sus">τ</hi></abbr> <abbr signe="ϗ" dev="καὶ"/> τ<hi rend="sus">ου</hi>το <abbr signe="ʒ" dev="δὲ"/> εἰσ μα<lb coupe="oui"/>λακίαν ϊνα λανθάνη νυκτὸσ ὡσ γυν<lb coupe="oui"/>…</sch>
+  </scholies>
+  <notes>
+    <note>Brouillon en cours : voir l'en-tête.</note>
+  </notes>
+</page>
