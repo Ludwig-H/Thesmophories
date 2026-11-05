@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page folio="174r" image="24_f174r_classense176r_vv0959-1000.jpg" vers="959-1001">
   <lignes>
-    <l n="1" v="959" retrait="3">ἅμα δὲ καὶ</l>
+    <l n="1" v="959" retrait="3">ἅμαδὲκαὶ</l>
     <l n="2" v="960" retrait="3">γένοσ ὀλυμπίων θεῶν</l>
     <l n="3" v="961" retrait="-3">μέλπε καὶ γέραιρε φωνῆι πᾶσα χορομανεῖ τρόπωι—</l>
     <l n="4" v="962" retrait="3">εἰ δέ τισ·</l>
     <l n="5" retrait="2">προσδοκᾶι κακῶσ ἐρεῖν·</l>
-    <l n="6" retrait="2">ἐν ἱ ερῶ γυναῖ κα μ᾽ οὖσαν ἄνδρασ<signe type="repere" main="Rrec" instrument="mine">11</signe></l>
-    <l n="7" retrait="2">οὐκ<unclear cert="moyenne">᾽</unclear> ὀρθῶσ φρονεῖ</l>
+    <l n="6" retrait="2">ἐν ἱ<signe type="autre">,,</signe> ερῶ γυναῖ κα μ᾽ οὖσαν ἄνδρασ<signe type="repere" main="Rrec" instrument="mine">11</signe></l>
+    <l n="7" retrait="2">οὐκορθῶσ φρονεῖ</l>
     <l n="8" retrait="2">ἀλλὰ χρὴ<unclear cert="faible">·</unclear></l>
-    <l n="9" retrait="1">ὥ σπερ ἔρ γον αὖτί καιν<subst main="R?"><del type="surcharge">ὸ</del><add place="ligne">ό</add></subst>ν·</l>
+    <l n="9" retrait="2">ὥ σπερ ἔρ γον αὖτί καιν<subst main="R?"><del type="surcharge">ὸ</del><add place="ligne">ό</add></subst>ν·</l>
     <l n="10" retrait="-4">πρῶ τον εὐ κύκλου χορείασ εὐφυῆ στῆσαι βάσιν·</l>
-    <l n="11" retrait="1">πρ<unclear cert="moyenne">ό</unclear>βαινεπο σὶντὸν ἐλύραν·</l>
-    <l n="12" retrait="1">μέλπουσα· καὶ τὴν τοξο φόρον</l>
-    <l n="13" retrait="1">ἄρτεμιν ἄνασσαν ἁγν<subst main="R?"><del type="surcharge">ὴ</del><add place="ligne">ή</add></subst>ν·</l>
+    <l n="11" retrait="1">πρόβαινεπο σὶντὸν ἐλύραν·</l>
+    <l n="12" retrait="1">μέλπουσα· καὶ τὴντοξο φόρον</l>
+    <l n="13" retrait="1">ἄρτεμιν ἄν<unclear cert="moyenne">α</unclear>σσαν ἁγν<subst main="R?"><del type="surcharge">ὴ</del><add place="ligne">ή</add></subst>ν·</l>
     <l n="14">χαῖρ᾽ ὦ ἑκάεργε· ὄπαζε δὲ νίκην·</l>
-    <l n="15" v="973" retrait="1">ἥρ αν τε τὴν τελείαν</l>
-    <l n="16" retrait="1">μέλψω μεν ὥ σπερ εἰκ<subst main="R?"><del type="surcharge">ὸ</del><add place="ligne">ό</add></subst>σ·</l>
-    <l n="17"><unclear cert="moyenne">ἣ</unclear> πᾶσι τοῖ σχο ροῖ σιν ἐμ</l>
-    <l n="18" retrait="1">παίζει τε· καὶ κλήδασ γάμου φυλάττει·</l>
-    <l n="19" retrait="1">ἑρ μῆ ντε νό μιο ν ἄντομαι</l>
+    <l n="15" v="973" retrait="1">ἥρ αντετὴντελείαν</l>
+    <l n="16" retrait="1">μέλψω μεν ὥ σπερ εἰ κ<subst main="R?"><del type="surcharge">ὸ</del><add place="ligne">ό</add></subst>σ·</l>
+    <l n="17"><unclear cert="moyenne">ἥ</unclear> πᾶσι τοῖ σχο ροῖ σιν ἐμ</l>
+    <l n="18" retrait="1">παίζει τε· καὶ κλήδασγάμου φυλάττει·</l>
+    <l n="19" retrait="1">ἑρ μῆ ντενό μιο ν ἄντομαι</l>
     <l n="20" retrait="1">καὶ πᾶνα· καὶ νύμφασ φίλασ</l>
-    <l n="21">ἐπιγελᾶσαι προθύμωσ</l>
-    <l n="22">ταῖσ ἡμετέραισ χαρέντα χορείαισ·</l>
+    <l n="21" retrait="1">ἐπιγελᾶσαι προθύμωσ</l>
+    <l n="22">ταῖσ ἡμετέραισ χαρένταχορείαισ·</l>
     <l n="23">ἐξαιρε δὴ προθύμωσ</l>
     <l n="24">διπλὴν χαί ρ ειν χορείασ·</l>
     <l n="25">παί σω μεν ὦ γυναῖκεσ οἷ</l>
-    <l n="26">άπερ νόμοσ· νη στεύω μεν δὲ πάντωσ</l>
-    <l n="27">ἀλλ εῖ απάλλ᾽ ἀνάστρεφ᾽ ευρύθμωι ποδ<unclear cert="moyenne">ί</unclear></l>
+    <l n="26">άπερ νό μοσ· νη στεύωμεν δὲπάντωσ</l>
+    <l n="27">ἀλλ ε<unclear cert="moyenne">ῖ</unclear> απάλλ᾽ ἀνάστρεφ᾽ ευρύθμωι ποδί</l>
     <l n="28">τό ρευεπᾶσαν ὠι δήν</l>
-    <l n="29">ἡ γοῦ δέγὧδαὐτόσ<unclear cert="moyenne">:</unclear>—</l>
-    <l n="30" retrait="-4">σὺ κισσο φόρεβάκχει εδέσποτἐγὼ δὲκώμοισ</l>
+    <l n="29">ἡ γοῦ δέγὧδαὐτόσ<unclear cert="faible">:</unclear>—</l>
+    <l n="30" retrait="-4">σὺ κι σσο φόρεβάκχει εδ<unclear cert="moyenne">έ</unclear>σποτἐγὼ δὲκώμοισ</l>
     <l n="31">σὲ φ ιλοχό ρο ισιν μέλψω</l>
-    <l n="32">εὔϊον ὦ διό ν υσε</l>
+    <l n="32"><signe type="repere" main="Rrec" instrument="mine"><unclear cert="faible">+</unclear></signe>εὔϊον ὦ διό ν υσε</l>
     <l n="33">βρό μι ε· καὶ σεμέλασπαῖ</l>
     <l n="34">χο ροῖστερπό μενοσ· κατόρεανυμφᾶν</l>
-    <l n="35">ἐρ ατοῖ σ ἐν ὕμνο ισ</l>
+    <l n="35">ἐρ ατοῖ σ ἐν ὕμνοισ</l>
     <l n="36">εὔϊον· εὔ ϊον· εὐοῖ <subst main="R2"><del type="surcharge">α</del><add place="ligne">ἀ</add></subst>ν<add place="dessus" main="R?">α</add>χορεύων</l>
     <l n="37">ἀμφὶ δε συῒ κτυπεῖται</l>
     <l n="38">κι θαρώνιοσ ἠ χώ</l>

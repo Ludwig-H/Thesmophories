@@ -1,57 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page folio="165v" image="07_f165v_classense167v_vv0252-0294.jpg" vers="252-293">
   <lignes>
-    <l n="1" v="252"><parag/><nota main="Rrec">ἀγ·</nota>λαμβάνετε καὶ χρῆσθ᾽οὐ φθονῶ<nota main="Rrec">εὐ</nota>τί οὖν λάβω·<add place="ligne" main="Rrec">,</add></l>
-    <l n="2" v="253"><parag/><nota main="Rrec">ἀγ·</nota>ὅ τι·<add place="ligne" main="Rrec">,</add> τὸν κροκωτο νπρῶτον ἐν δύου λαβών·</l>
+    <l n="1" v="252"><parag/><nota main="Rrec">ἀγ·</nota>λαμβάνετε καὶ χρῆσθ᾽ οὐ φθονῶ<unclear cert="moyenne">:</unclear><nota main="Rrec">εὐ</nota>τί οὖν λάβω<unclear cert="moyenne">·</unclear><add place="ligne" main="Rrec">,</add></l>
+    <l n="2" v="253"><parag/><nota main="Rrec">ἀγ·</nota>ὅ τι<unclear cert="moyenne">·</unclear><add place="ligne" main="Rrec">,</add> τὸν κροκωτο νπρῶτον ἐν δύου λαβών·</l>
     <l n="3" v="254"><parag/><nota main="Rrec">εὐ</nota>νὴ τὴν ἀφροδίτην ἡδὺγὄζει ποσθίου·<add place="ligne" main="Rrec">,</add></l>
-    <l n="4" v="255"><parag/><nota main="Rrec">ἀγ</nota>σ<subst main="R?"><del type="surcharge">ὺ</del><add place="ligne">ύ</add></subst>ζωσον ἀνύσασ: αἴρε νῦν στρόφιον<nota main="Rrec">εὐ</nota>ἰδού</l>
+    <l n="4" v="255"><parag/><nota main="Rrec">ἀγ</nota>σ<subst main="R?"><del type="surcharge">ὺ</del><add place="ligne">ύ</add></subst>ζωσον ἀνύσασ: αἴρε νῦν στρόφιον:<nota main="Rrec">εὐ</nota>ἰδού</l>
     <l n="5" v="256"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">μν<hi rend="sus">ή</hi></nota>ἴθι νῦν κατάστειλόν με τὰ περὶ τὰ σκέλη<unclear cert="faible">·</unclear></l>
-    <l n="6" v="257"><parag/><nota main="Rrec">εὐ</nota>κεκρυφάλοσ δεῖ καὶ μίτρασ<sp n="2"/><nota main="Rrec">ἀγ·</nota>ἠδὶ μὲν οὖν</l>
+    <l n="6" v="257"><parag/><nota main="Rrec">εὐ</nota>κεκρυφάλοσ δεῖ καὶ μίτρασ<sp n="2"/><nota main="Rrec">ἀγ·</nota>ἡδὶ μὲν οὖν</l>
     <l n="7" v="258">κεφαλὴ περίθετοσ ἣν ἐγὼ νύκτωρ φορῶ·</l>
-    <l n="8" v="259"><parag/><nota main="Rrec">εὐ</nota>νὴ τὸν δί᾽ ἀλλὰ κἀπιτηδεία πάνυ</l>
-    <l n="9" v="260"><nota main="Rrec">μν<hi rend="sus">η</hi></nota>ἠραρμόσηι μοι:<nota main="Rrec">ἀγ</nota>μὴ δί᾽ ἄριστα χει·</l>
-    <l n="10" v="261"><nota main="Rrec">εὐ</nota>φέρ᾽ ἔγκυκλον:<nota main="Rrec">ἀγ</nota>τουτὶ λάμβαν᾽ ἀπὸ τῆσ κλινίδοσ</l>
-    <l n="11" v="262"><parag/><nota main="Rrec">εὐ</nota>ὑποδημάτων δεῖ:<nota main="Rrec">ἀγ</nota>τἀμὰ ταυτὶ λάμβανε</l>
-    <l n="12" v="263"><nota main="Rrec">μν</nota>ἆρ᾽ ἁρμόσει μοι:<nota main="Rrec">ἀγ</nota>χάλαρὰ οὖν χαίρεισ φορῶν</l>
-    <l n="13" v="264"><del type="biffure" main="Rrec"><parag/></del>σὺ τοῦτο γίνωσκ᾽ ἀλλ᾽ ἔχεισ γὰρ ὧν δέει</l>
-    <l n="14" v="265"><nota main="Rrec">μν<hi rend="sus">η</hi></nota>ἀγ…</l>
+    <l n="8" v="259"><parag/><nota main="Rrec">εὐ</nota>νὴ τὸν δί ἀλλὰ κἀπιτηδεία πάνυ</l>
+    <l n="9" v="260"><nota main="Rrec">μν<hi rend="sus">η</hi></nota>ἠραρμόσηι μοι:<nota main="Rrec">ἀγ</nota>μὴ δί ἀλλ᾽ ἄριστ ἔχει·</l>
+    <l n="10" v="261"><nota main="Rrec">εὐ</nota>φέρ᾽ <unclear cert="moyenne">ἔ</unclear>γκυκλον<unclear cert="moyenne">:</unclear><nota main="Rrec">ἀγ·</nota>τουτὶ λάμβαν᾽ ἀπὸ τῆσ κλινίδοσ</l>
+    <l n="11" v="262"><parag/><nota main="Rrec">εὐ</nota>ὑποδημάτων δεῖ<unclear cert="moyenne">:</unclear><nota main="Rrec">ἀγ·</nota>τἀμὰ ταυτὶ λάμβανε·</l>
+    <l n="12" v="263"><nota main="Rrec">μν</nota>ἆρ᾽ ἁρμόσει μοι:<nota main="Rrec">ἀγ</nota>χάλαράγ ὀῦ<add place="dessus" main="R2">ν</add> χαίρεισ φορῶν·</l>
+    <l n="13" v="264"><del type="biffure" main="Rrec"><parag/></del>σὺ τοῦτο γίνωσκ᾽ ἀλλ᾽ ἔχεισ γὰρ ὧν δέ<subst main="R1c"><del type="surcharge"><unclear cert="faible">η</unclear></del><add place="ligne">ε</add></subst>ι·</l>
+    <l n="14" v="265"><nota main="Rrec">μν<hi rend="sus">η</hi></nota>εἴσω τίσ ὡσ τάχιστ<unclear cert="moyenne">ά</unclear> μ εἰσκυκλησάτω<unclear cert="moyenne">·</unclear></l>
     <l n="15" v="266"><nota main="Rrec">εὐ</nota>ἀνὴρ μὲν ἡμῖν· οὑτοσὶ καὶ δὴ γυνή</l>
-    <l n="16" v="267">τὸ δ᾽ εἶδοσ· κἂν λαλῆισ ὅπωσ τῶι φθέγματι</l>
-    <l n="17" v="268">γυναικιεῖσ εὖ καὶ πιθανῶσ<nota main="Rrec">μν<hi rend="sus">η</hi></nota>πειράσομαι</l>
-    <l n="18" v="269"><parag/><nota main="Rrec">εὐ</nota>βάδιζε τοίνυν<nota main="Rrec">μν<hi rend="sus">η</hi></nota>μὰ τὸν ἀπόλλω οὐκ ἤν γε μὴ</l>
-    <l n="19" v="270">ὀμόσησ ἐμοί:<nota main="Rrec">εὐ</nota>τί χρῆμα<nota main="Rrec">μν<hi rend="sus">η</hi></nota>συσσώσειν ἐμὲ</l>
+    <l n="16" v="267">τό δ εἶδοσ· κἂν λαλῆσ δ ὅπωσ τῶ φθέγματι·</l>
+    <l n="17" v="268">γυναικιεῖσ εὖ καὶ πιθανῶσ<sp n="2"/><nota main="Rrec">μν<hi rend="sus">η</hi></nota>πειράσομαι<unclear cert="faible">·</unclear></l>
+    <l n="18" v="269"><parag/><nota main="Rrec">εὐ</nota>βάδιζε τοίνυν·<nota main="Rrec">μν<hi rend="sus">η</hi></nota>μα τὸν ἀπόλλω οὐκ ἤν γε μὴ</l>
+    <l n="19" v="270">ὀμόσησ ἐμοί:<nota main="Rrec">εὐ</nota>τί χρῆμα<sp n="1"/><nota main="Rrec">μν<hi rend="sus">η</hi></nota>συσσώσειν ἐμὲ</l>
     <l n="20" v="271">πάσαισ τέχναισ ἤν μοι τι περιπίπτηι κακόν·</l>
-    <l n="21" v="272"><nota main="Rrec">εὐ</nota>ὄμνυμι τοίνυν αἰθέρ᾽ οἴκησιν διὸσ·</l>
-    <l n="22" v="273"><del type="biffure" main="Rrec"><parag/></del>τί μᾶλλον· ἢ τὴν ἱπποκράτουσ ξυνοικίαν</l>
-    <l n="23" v="274"><del type="biffure" main="Rrec"><parag/></del>ὄμνυμι τοίνυν πάντασ ἄρδην τοὺσ θεούσ·</l>
+    <l n="21" v="272"><nota main="Rrec">εὐ</nota>ὄμνυμι τοίνυν αἰθέρ᾽ οἴκησιν διόσ·</l>
+    <l n="22" v="273"><del type="biffure" main="Rrec"><parag/></del>τί μᾶλλον· ἢ τὴν ἱπποκράτουσ ξυνοικίαν·</l>
+    <l n="23" v="274"><del type="biffure" main="Rrec"><parag/></del>ὄμνυμι τοίνυν πάντασ ἄρδην τοὺσ θεούσ</l>
     <l n="24" v="275"><nota main="Rrec">μν<hi rend="sus">η</hi></nota>μέμνησο τοίνυν ταῦθ᾽ ὅτι ἡ φρὴν ὤμοσεν</l>
-    <l n="25" v="276">ἡ γλῶττα δ᾽ οὐχ ὀμώμοκ᾽ οὐδ᾽ ὥρκωσ᾽ ἐγώ·</l>
-    <l n="26" retrait="4"><del type="biffure" main="Rrec"><parag/></del>ὀλολύζουσί τε· ἱερὸν ὠθεῖται</l>
-    <l n="27" v="277"><parag/><nota main="Rrec">εὐ</nota>ἔκσπευδε ταχέωσ· ἀπὸ τῆσ ἐκκλησίασ</l>
+    <l n="25" v="276">ἡ γλῶττα δ· οὐχ ὀμώμοκ᾽ οὐδ᾽ ὥρκωσ ἐγώ·</l>
+    <l n="26" retrait="4"><del type="biffure" main="Rrec"><parag/></del>ὀλολύζουσί τε· ἱερὸν ὠθεῖται·</l>
+    <l n="27" v="277"><parag/><nota main="Rrec">εὐ</nota>ἔκσπευδε ταχέωσ· ὡσ τὸ τῆσ ἐκκλησίασ</l>
     <l n="28" v="278">σημεῖον ἐν τῶι θεσμοφορίωι φαίνεται·</l>
-    <l n="29" v="279">ἐγὼ δ᾽ ἄπειμι:<nota main="Rrec">μν<hi rend="sus">η</hi></nota>δεῦρο νῦν ὦ θρᾶττ᾽ ἔπου·</l>
-    <l n="30" v="280">ὦ θρᾶιττα θέασαι· καομένων τῶν λαμπάδων</l>
+    <l n="29" v="279">ἐγὼ δ ἄπειμι:<nota main="Rrec">μν<hi rend="sus">η</hi></nota>δεῦρο νῦν ὦ θρᾶττ᾽ ἔπου·</l>
+    <l n="30" v="280">ὦ θρᾶιττα θέασαι· καομένων τῶν λαμπάδων·</l>
     <l n="31" v="281">ὅσον τὸ χρῆμ᾽ ἀνέρχεθ᾽ ὑπὸ τῆσ λιγνύοσ·</l>
-    <l n="32" v="282">ἀλλ᾽ ὦ περὶ καλλῆ θεσμοφόρω δέξασθέ με</l>
+    <l n="32" v="282">ἀλλ᾽ ὦ περὶ καλλῆ θεσμοφόρω· δέξασθέ με·</l>
     <l n="33" v="283">ἀγαθῆι τύχηι καὶ δεῦρο πάλιν οἴκαδε·</l>
     <l n="34" v="284">ὦ θρᾶιττα τὴν κίστην κάθελε κᾶτ᾽ ἔξελε</l>
     <l n="35" v="285">τὸ πόπανον ὅπωσ λαβοῦσα θύσω ταῖν θεαῖν</l>
-    <l n="36" v="286">δέσποινα πολυτίμητε δήμητερ φίλη</l>
-    <l n="37" v="287">καὶ φερσέφαττα· πολλὰ πολλάκισ μέ σοι</l>
+    <l n="36" v="286">δέσποινα πολυτίμητε δήμητερ φίλη·</l>
+    <l n="37" v="287">καὶ φ ερσέφαττα· πολλὰ πολλάκισ μέ σοι</l>
     <l n="38" v="288">θύειν ἔχουσαν· εἰ δὲ μή· ἀλλὰ νῦν λαθεῖν·</l>
-    <l n="39" v="289">καὶ τὴν θυγατέρα· χοῖρον ἀνδρόσ μοι <del type="biffure" main="R?">δοκεῖν</del> τυχεῖν</l>
-    <l n="40" v="290">πλουτοῦντοσ ἄλ<add place="dessus" main="Rrec">λ</add>ωσ τ᾽ ἠλιθίου κἀβελτέρου</l>
-    <l n="41" v="291">καὶ πρὸ σθάλη κον νοῦν ἔχειν μοι καὶ φρένασ</l>
+    <l n="39" v="289">καὶ τὴν θυγατέρα<del type="grattage" main="R?"><gap n="1" unite="lettres" raison="grattage"/></del>· χοῖρον ἀνδρόσ μοι <del type="biffure" main="R?">δοκεῖν</del> τυχεῖν·</l>
+    <l n="40" v="290">πλουτοῦντοσ ἄλ<add place="dessus" main="Rrec">λ</add>ωσ τ ἠλιθίου κἀβελτέρου</l>
+    <l n="41" v="291">καὶ πρὸ σθάλη κον νοῦν ἔχειν μοι καὶ φρένασ·</l>
     <l n="42" v="292">ποῖ ποῦ καθίζωμεν καλῶσ τῶν ῥητόρων</l>
     <l n="43" v="293">ἵν᾽ ἐξακούω· σὺ δ᾽ ἄπιθ᾽ ὦ θρᾶττ᾽ ἐκποδών</l>
   </lignes>
   <notes>
-    <note>Lecture B (passes successives). Brouillon provisoire : passe 1 en cours de contrôle.</note>
-    <note ligne="1">(provisoire) Passe 1-2 faites. σθ et ο en trait continu. Dicolon de T non distinct sous εὐ.</note>
-    <note ligne="2">(provisoire) virgule pâle ; pas d'accent visible sur -τον, le V au-dessus est le pied du ρ de χρῆσθ (l. 1).</note>
-    <note ligne="3">(provisoire) γ en v plongeant, lié à υ et à ο.</note>
-    <note ligne="4">(provisoire) accent en croix sur υ ; σύζωσον d'un seul tenant.</note>
-    <note ligne="5">(provisoire) barre sombre dans le sigle : paragraphos de T probable.</note>
-    <note ligne="6">(provisoire) aigu au-dessus de αλ, rien sur υ.</note>
+    <note>Lecture B (passes successives), reprise le 5 nov. 2026 sur découpes redressées ×3,5–×8 (.travail/lectureB/f165v/). Brouillon provisoire : passe 1 faite, passes 2–4 en cours.</note>
   </notes>
 </page>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page folio="175v" image="27_f175v_classense177v_vv1082-1127.jpg" vers="1082-1126">
+  <lignes>
+    <!-- Lecture B. Passes 2-3 faites pour l. 1-18 ; l. 19-43 : passe 1 seule, diacritiques et marques à reprendre. -->
+    <l n="1" v="1082"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν</nota>ὀτότυζε: <sp n="1"/><unclear cert="faible"><parag/></unclear><nota main="Rrec">ηχ</nota>ὀτότυζε·</l>
+    <l n="2" v="1083"><parag/><nota main="R2">σκυ<hi rend="sus">θ</hi></nota>οὗτοσ τί λαλεῖσ· <sp n="1"/><parag/><nota main="R2" repasse="Rrec">ηχω</nota>οὗτοσ τί λαλεῖσ·</l>
+    <l n="3" v="1084"><parag/><nota main="R2">σκυ<hi rend="sus">θ</hi></nota>πρυτάνεισ καλέσω· <sp n="1"/><unclear cert="faible"><parag/></unclear><nota main="Rrec">ηχ</nota>πρυτάνεισ καλέσω·</l>
+    <l n="4" v="1085"><parag/><nota main="Rrec">σκ</nota>σί κακόν· <sp n="3"/><parag/><nota main="Rrec">ηχ</nota>σί κακόν·</l>
+    <l n="5" v="1086"><parag/><nota main="Rrec">σκ</nota>π<del type="grattage" main="R?"><gap n="1" unite="lettres" raison="grattage"/></del>ωτε το πωνη· <sp n="1"/><parag/><nota main="Rrec">ηχ</nota>π<del type="grattage" main="R?"><gap n="1" unite="lettres" raison="grattage"/></del>ωτε το πωνή·</l>
+    <l n="6" v="1087"><parag/><nota main="Rrec">σκ</nota>σὺ λαλεῖσ· <sp n="5"/><parag/><nota main="Rrec">ηχ</nota>σὺ λαλεῖσ·</l>
+    <l n="7" v="1088"><unclear cert="faible"><parag/></unclear><nota main="Rrec">σκ</nota>κλαύσαιμι· <sp n="4"/><parag/><nota main="Rrec">ηχ</nota>κλαύσαιμι·</l>
+    <l n="8" v="1089"><unclear cert="faible"><parag/></unclear><nota main="Rrec">σκ</nota>κακ<add place="dessus" main="R1c">κ</add>ασκι μοι <sp n="3"/><parag/><nota main="Rrec">ηχ</nota>κακκάσκι μοι·</l>
+    <l n="9" v="1090"><unclear cert="faible"><parag/></unclear><nota main="Rrec">σκ</nota>μα δί᾽ ἀλλὰ γυνὴ πλησίον αὕτη·</l>
+    <l n="10" v="1091"><signe type="repere" main="Rrec" instrument="mine">16</signe><unclear cert="faible"><parag/></unclear><nota main="Rrec">ηχ</nota>πλησίον αὕτη·</l>
+    <l n="11" v="1092"><unclear cert="faible"><parag/></unclear><nota main="Rrec">σκ</nota>ποῦ σθ᾽ ἡ μιαρά· <sp n="2"/><del type="biffure" main="Rrec"><parag/></del>καὶ δὴ φεύγει·</l>
+    <l n="12" v="1093,1094"><del type="biffure" main="Rrec"><parag/></del>ποῖ ποῖ φε<unclear cert="moyenne">ύ</unclear>γεισ οὐ κ᾽αἰρήσεισ·</l>
+    <l n="13" v="1095"><del type="biffure" main="Rrec"><parag/></del>ἔτι, γὰρ γρύζεισ</l>
+    <l n="14"><unclear cert="faible"><parag/></unclear><nota main="Rrec">ηχ</nota>ἔτι γὰρ γρύζεισ·</l>
+    <l n="15" v="1096"><parag/><nota main="Rrec">σκ</nota>λάβε τῆ<unclear cert="moyenne">ι</unclear> μιαρά· <sp n="1"/><parag/><nota main="Rrec">ηχ</nota>λάβε τῆ μιαρά·</l>
+    <l n="16" v="1097">λαλο κα<subst main="Rrec"><del type="surcharge">ί</del><add place="ligne">ὶ</add></subst> καταρατο γύναικο·</l>
+    <l n="17" v="1098"><unclear cert="moyenne"><parag/></unclear><nota main="R2" repasse="Rrec">εὐρι<hi rend="sus">π</hi> ὡσ<lb/>περσεύσ</nota>ὦ θεοὶ τίν᾽ εἰσ γῆν βαρβάρων ἀφίγμεθα·</l>
+    <l n="18" v="1099">ταχεῖ πεδίλωι· διαμέσου γὰρ αἰθέροσ·</l>
+    <l n="19" v="1100">τεμνων κελευθον ποδα τιθημι υποπτερον</l>
+    <l n="20" v="1101">περσευσ προσ αργοσ ναυτολων το γοργονοσ</l>
+    <l n="21" v="1104">εγωγε φημι γοργο τοι καγω λεγι</l>
+    <l n="22" v="1105">εα τιν οχθον τονδ ορω και παρνον</l>
+    <l n="23" v="1106">θεαισ ομοιαν ναυν οπωσ ωρμισμενην</l>
+    <l n="24" v="1107">ω ξενε κατοικτειρον με την παναθλιαν</l>
+    <l n="25" v="1108">λυσον με δεσμων ουκι μι λαλησ συ</l>
+    <l n="26" v="1109">καταρατο τολμαισ αποτανουμενη λαλασ</l>
+    <l n="27" v="1110">ω παρθεν οικτειρω σε κρεμαμενην ορων</l>
+    <l n="28" v="1111">ου παρτεν εστιν αλλ αμαρτωλη γερων</l>
+    <l n="29" v="1112">και κλεπτο και πανουργο ληρεισ ω σκυθα</l>
+    <l n="30" v="1113">αυτη γαρ εστιν ανδρομεδα παισ κηφεωσ</l>
+    <l n="31" v="1114">σκεψαι το σκυτο μη τι μικτον παινεται</l>
+    <l n="32" v="1115">φερε δευρο δευρο μοι την χειρ ιν αψωμαι κορησ</l>
+    <l n="33" v="1116">φερε σκυθ ανθρωποισι γαρ νοσηματα</l>
+    <l n="34" v="1117">απασιν εστιν εμε δε καυτον τησ κορησ</l>
+    <l n="35" v="1118">ταυτησ ερωσ ειληφεν ου ζηλωσι σε</l>
+    <l n="36" v="1119">ατα ρ ει το πρωκτο δευρο περιεστραμμενον</l>
+    <l n="37" v="1120">ου κ επτονησασ αυτο πυγιζεισ εχων</l>
+    <l n="38" v="1121">τι δ ου κ εασ λυσαντα μ αυτην ω σκυθα</l>
+    <l n="39" v="1122">πεσειν εσ τ ευνην και γαμηλιον λεχοσ</l>
+    <l n="40" v="1123">ει σποδρ επιτυμεισ τηι γεροντο πυγισο</l>
+    <l n="41" v="1124">τη σανιδο τρησασ εξοπισθο πρωκτισον</l>
+    <l n="42" v="1125">μα δι αλλα λυσω δεμασ μαστιγωσ αρα</l>
+    <l n="43" v="1126">και μην ποιησω τουτο το κεπαλησ αρα</l>
+    <!-- vv. 1102-1103 en marge inférieure (à reporter en add à la l. 20) : κάρα κομίζ· τί λέγι τῆ γοργόνος πέρι· / τὸ γραμματέο σὺ τῆ κεφαλῆ· τὴν γοργόνος· -->
+  </lignes>
+  <scholies/>
+  <notes/>
+</page>

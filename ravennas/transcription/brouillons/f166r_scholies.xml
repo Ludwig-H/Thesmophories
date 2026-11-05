@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et notes marginales de R, f. 166r (vv. 294–336) ; transcription diplomatique (lecteur des scholies, DiploXML v1).
+     BROUILLON EN COURS : lecture sur l'image, écrite au fil de l'eau, avant toute confrontation avec les imprimés.
+     Ancre = ligne du bloc de texte (1–43) en face de laquelle la note commence. Ordre : par ancre, gauche avant droite. -->
+<page folio="f166r" image="08_f166r_classense168r_vv0295-0336.jpg" vers="294-336">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="2" place="mg-g" main="R2">γυνὴ μιμου<lb coupe="oui"/>μένη κ<unclear cert="faible">ή</unclear>ρυκα ÷</sch>
+    <sch n="2" ancre="2" place="mg-d" main="R2">πεζῆ<unclear cert="faible">ι</unclear> ευφημ<unclear cert="moyenne">ί</unclear>α χρῶν<abbr signe="ʒ" dev="αι">τ</abbr> οἱ κωμικοὶ ἐπ<hi rend="sus">ει</hi>δὰν ευχὴν ἢ ψήφισμα εἰσά<unclear cert="moyenne">γ</unclear>ω<abbr signe="⌒" dev="ιν">σ</abbr> <unclear cert="moyenne">÷</unclear></sch>
+  </scholies>
+  <notes>
+    <note>Brouillon en cours : voir l'en-tête.</note>
+  </notes>
+</page>

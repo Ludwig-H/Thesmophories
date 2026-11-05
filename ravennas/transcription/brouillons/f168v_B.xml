@@ -1,46 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page folio="168v" image="13_f168v_classense170v_vv0509-0550.jpg" vers="509-550">
   <lignes>
-    <l n="1" v="509">τέξ ειν· τὸ γὰρ <unclear cert="moyenne">ἦ</unclear>τρον τῆσ χύτρασ ἐλάκτισεν</l>
-    <l n="2" v="510">χ᾽<unclear cert="moyenne">ὠ</unclear> μὲν γεγηθὼ σ ἔτρεχεν· ἣ δἐξέσπασεν</l>
-    <l n="3" v="511">ἐκτοῦ στό ματ<unclear cert="moyenne">ο</unclear>στοῦ παιδίου· τό δ᾽ἀνέκραγεν·</l>
+    <l n="1" v="509">τέξ ειν· τὸ γὰρ ῆτροντῆσ χύτρασ ἐλάκτισεν</l>
+    <l n="2" v="510">χ᾽ὠ μὲν γεγηθὼ σ ἔτρεχεν· ἣ δἐξέσπασεν</l>
+    <l n="3" v="511">ἐκτοῦ στό ματοστοῦ παιδίου· τό δ᾽ἀνέκραγεν·</l>
     <l n="4" v="512">εἶθ᾽ἡ μιαρὰ γραῦσ εἰ<add place="dessus" main="R1c">ἡ</add><del type="grattage" main="R?"><gap n="1" unite="lettres" raison="grattage"/></del>ἔφερετὸ παιδίον</l>
-    <l n="5" v="513">θεῖ μει διῶ σα πρὸ στὸ ν ἄνδρα καὶ λέγει·</l>
-    <l n="6" v="514">λέων· λέων σοι γέγονεν αὖτ᾽ἔγ<add place="dessus" main="R1c">κ</add>μαγμα σόν·</l>
-    <l n="7" v="515">τάτ᾽ἀλλ᾽ἅπαξ ἅπαντα καὶ τὸ πό σθιον</l>
-    <l n="8" v="516">τῶ ι σῶ ι προ σόμοὶ στρε<unclear cert="moyenne">π</unclear>τὸν ὥ σπερ κύτταρον·</l>
-    <l n="9" v="517">ταῦτ᾽οὐποι οῦμεντὰκακὰ νὴ τὴν ἄρτεμιν</l>
+    <l n="5" v="513">θεῖ μει διῶ σαπρὸ στὸ ν ἄν δρα καὶ λέγει·</l>
+    <l n="6" v="514">λέων· λέων σοι γέγονεν α<unclear cert="moyenne">ὖ</unclear>τ᾽ἔγ<add place="dessus" main="R1c">κ</add>μαγμα σόν·</l>
+    <l n="7" v="515">τά τ᾽ἀλλ᾽ ἅπαξ ἅπαντα καὶ τὸ πό σθιον</l>
+    <l n="8" v="516">τῶι σῶι προ σόμοὶ στρεβλὸν ὥ σπερ κύτταρον·</l>
+    <l n="9" v="517">ταῦτ᾽οὐποι οῦμεντὰκακὰνὴ τὴν ἄρτεμιν</l>
     <l n="10" v="518">ἡμεῖ σγε· κατ᾽εὐριπίδη θυμούμεθα</l>
     <l n="11" v="519">οὐδὲνπαθοῦσαι μεῖζον <unclear cert="moyenne">ἠ</unclear> δεδράκαμεν·</l>
     <l n="12" v="520" retrait="5"><nota main="R2"><hi rend="monogramme">χρ</hi></nota>τουτὶ μέντοι θαυμαστὸν</l>
     <l n="13" v="521" retrait="5">ὁ πό θεν εὑρέθη τὸ χρῆμα</l>
-    <l n="14" v="522" retrait="4">χ᾽ἥ τι σ ἐξ έθρεψε χώρα</l>
+    <l n="14" v="522" retrait="4">χ᾽ἥ τι σ ἐξ έθρεψεχώρα</l>
     <l n="15" v="523" retrait="4">τῆ ν δετὴνθρασεῖαν οὕτω</l>
     <l n="16" v="524" retrait="4">τάδεγὰρ εἰπεῖντὴνπανοῦργον</l>
     <l n="17" v="525" retrait="5">κατατὸ φανερόν ὧδ᾽ἀναιδῶσ</l>
     <l n="18" v="526" retrait="5">οὐκ᾽ἂν <subst main="R?"><del type="surcharge">οἰ</del><add place="ligne">ὠ</add></subst> ό μην ἐν ὑμῖν οὐδετολμῆσαι πότἄν·</l>
-    <l n="19" v="527" retrait="5">ἀλλ᾽ἅπανγένο ιτ᾽ἂν ἤ δη</l>
+    <l n="19" v="527" retrait="5">ἀλλ᾽ἅπανγ<unclear cert="moyenne">έ</unclear>νο ιτ᾽ἂν ἤ δη</l>
     <l n="20" v="528" retrait="5">τὴ ν παροι μίαν δἐπαινῶ</l>
-    <l n="21" v="529" retrait="5">τὴν παλαι <subst main="R?"><del type="surcharge">ὰ</del><add place="ligne">ά</add></subst>ν· ὑπο λίθω γὰρ</l>
-    <l n="22" v="530" retrait="5">παντί που χρὴ μὴ δάκη ῥήτωρ᾽ ἀθρεῖν·</l>
+    <l n="21" v="529" retrait="5">τὴνπαλαι <subst main="R?"><del type="surcharge">ὰ</del><add place="ligne">ά</add></subst>ν· ὑπο λίθω γὰρ</l>
+    <l n="22" v="530" retrait="5">παντί πουχρὴ μὴ δάκη ῥήτωρ᾽ ἀθρεῖν·</l>
     <l n="23" v="531">ἀλλ᾽οὐγάρ εστι τῶν ἀναισχύντων φύσει γυναι κῶν<unclear cert="moyenne">·</unclear></l>
-    <l n="24" v="532">οὐδὲν κάκιο ν εἰ σ ἅπαντα πλὴν <unclear cert="moyenne">ἄ</unclear>ρ εἰ γυναῖκεσ</l>
-    <l n="25" v="533"><parag/><nota main="R2" repasse="Rrec">γυ<hi rend="sus">νη</hi> τίσ</nota><hi rend="grand">ο</hi> ὔτοι μα τὴν ἄγραυλον ὦ γυναῖκεσ εὖ φρονεῖτε<unclear cert="faible">·</unclear></l>
-    <l n="26" v="534">ἀλλ᾽ἠ πεφάρμαχθ᾽ἠ κακόν τι μέγα πέπονθα τ᾽ἄλλο·</l>
-    <l n="27" v="535">ταύτην ἐῶ σαι τὴν φθόρον τοιαῦταπερὶ ὑβρίζειν</l>
-    <l n="28" v="536">ἡμᾶσ ἁπάσασ· εἰ μὲν οὖν τίσ ἐστὶν εἰ δε μ<unclear cert="moyenne">ὴ</unclear> ἡμε<unclear cert="faible">ῖ</unclear>σ</l>
+    <l n="24" v="532">οὐδὲν κάκιο ν εἰ σ ἅπανταπλὴν ἀρ<unclear cert="moyenne">᾽</unclear> εἰ γυναῖκεσ</l>
+    <l n="25" v="533"><parag/><nota main="R2" repasse="Rrec">γυ<hi rend="sus">νη</hi> τίσ</nota><hi rend="grand">ὄ</hi> υτοι ματὴν ἄγραυλον ὦ γυναῖκεσ εὖ φρονεῖτε<unclear cert="faible">·</unclear></l>
+    <l n="26" v="534">ἀλλ᾽ἠ πεφάρμαχθ᾽ἠ κακόντι μέγαπέπονθατ᾽ἄλλο·</l>
+    <l n="27" v="535">ταύτην ἐῶ σαι τὴν φθόροντοιαῦταπερὶ ὑβρίζειν</l>
+    <l n="28" v="536">ἡ μᾶσ ἁπάσασ· εἰ μὲν ο<unclear cert="moyenne">ῦ</unclear>ντίσ ἐστὶν εἰ δεμ<unclear cert="moyenne">ὴ</unclear> ἡμε<unclear cert="faible">ῖ</unclear>σ</l>
     <l n="29" v="537">αὐτοί γεκαὶ τὰδουλάριατέφρανπ<unclear cert="faible">ό</unclear>θεν λαβοῦσαι·</l>
-    <l n="30" v="538">ταύτησ ἀποψιλώσομεντὸνχοῖρον ἵ να διδαχθῆι·</l>
-    <l n="31" v="539">γυνὴ γυναῖ κασοὖσαμὴ κακῶσλεγει ν τὸ λοιπόν·</l>
+    <l n="30" v="538">ταύτησ ἀποψιλώσομεντὸνχοῖρον ἵ ναδιδαχθῆι·</l>
+    <l n="31" v="539">γυνὴ γυναῖ κασοὖσαμὴ κακῶσλεγει ντὸ λοιπόν·</l>
     <l n="32" v="540"><parag/><nota main="R2">κη<hi rend="sus">δ</hi></nota>μὴ δῆτατόνγεχοῖ ρον ὦ γυναῖκεσ· εἰ γὰρ οὔσησ</l>
     <l n="33" v="541">παρρησίασκἀξὸν λεγειν ὅ σαι πάρεσμεν ἀστα<unclear cert="moyenne">ὶ</unclear>·</l>
     <l n="34" v="542">εἶτεἶπον ἃγίγνωσκον ὑπερ εὐριπί δου δίκαια</l>
     <l n="35" v="543">δι ατοῦτο τιλλομένην με δεῖ δοῦναι δίκην ὑφ᾽ὑμ<unclear cert="faible">ῶ</unclear>ν<unclear cert="moyenne">·</unclear><signe type="repere" main="Rrec" instrument="mine">—</signe></l>
     <l n="36" v="544" retrait="-2"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">γ<unclear cert="moyenne">ϋ</unclear>νὴ</nota><hi rend="grand">ο</hi>ὐγάρ σεδεῖ δοῦναι δ<unclear cert="moyenne">ί</unclear>κην· ἥτισ μό νη τετληκασ·</l>
-    <l n="37" v="545" retrait="-2">ὑπερ ἀνδρὸ σ ἀντειπεῖν ὡσ ἡμᾶσπολλὰκακὰδεδρ<unclear cert="faible">α</unclear>κ<hi rend="sus"><unclear cert="faible">εν</unclear></hi><unclear cert="faible">·</unclear></l>
-    <l n="38" v="546">ἐξεπίτηδεσ εὑρίσκων λό γο υσ ὅπου γυνὴ πονηρὰ<unclear cert="moyenne">ι</unclear></l>
+    <l n="37" v="545" retrait="-2">ὑπερ ἀνδρὸ σ ἀντειπεῖν ὡσ ἡμᾶσπολλὰκακὰδεδρ<unclear cert="faible">α</unclear>κ<hi rend="sus">ε</hi></l>
+    <l n="38" v="546">ἐξεπίτηδεσ εὑρίσκων λό γο υσ ὅπου γυνὴ πονηρὰ</l>
     <l n="39" v="547" retrait="-2">ἐγενετο· μελανί ππασ ποιῶν φαίδραστε· πηνελόπηνδὲ<unclear cert="moyenne">·</unclear></l>
     <l n="40" v="548">οὐπώποτεποίησεν ὅτι γυνὴ σώ φρων ἔδοξεν εἶναι<unclear cert="moyenne">·</unclear></l>
+    <l n="41" v="549" retrait="-2"><unclear cert="faible"><parag/></unclear><signe type="autre" main="Rrec">—</signe><nota main="Rrec">κηδ</nota>ἐγω γὰρ οἶδατ᾽αἴτιον· μίαν γὰρ οὐκ᾽<unclear cert="moyenne">ἂ</unclear>ρ<add place="dessus" main="R1c">ν</add> εἴποισ·</l>
+    <l n="42" v="550">τῶν νῦν γυναικῶν πηνελόπην· φαίδρασ</l>
+    <l n="43" retrait="3">απαξ ἁπάσασ<signe type="autre" main="R1">~</signe></l>
   </lignes>
   <scholies>
   </scholies>

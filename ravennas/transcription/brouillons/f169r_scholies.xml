@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 169r (vv. 551–592) ; transcription diplomatique, lecture en cours sur l'image (première passe, 4 nov. 2026 ; confrontation aux éditions non faite). -->
+<page folio="f169r" image="14_f169r_classense171r_vv0551-0589.jpg" vers="551-592">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="1" place="mg-d" main="R2"><signe type="renvoi" main="R2">·×·</signe> ωσ τὼ χεῖρε οὐκετί <abbr signe="ʒ̀" dev="δὲ"/> μὰ τ<unclear cert="faible">ὼ</unclear><lb/>θεοῖν ἀλλὰ μὰ ταῖν θεαῖν ÷</sch>
+    <sch n="2" ancre="6" place="mg-d" main="R2">ξύστρασ ÷</sch>
+    <sch n="3" ancre="7" place="mg-d" main="R2">κατεχρήσατο εἰποῦσα σιφωνίζο<lb coupe="oui"/>μεν σῖτ κυρίωσ γ σιφωνίζ<lb/>τὸ τὰ ϋγρὰ ἀποσπᾶ<gap n="4" unite="lettres" raison="illisible"/></sch>
+    <sch n="4" ancre="10" place="mg-g" main="R2">κατέκο<lb coupe="oui"/>ψεν ÷</sch>
+    <sch n="5" ancre="10" place="mg-d" main="R2">— τοῦ<hi rend="sus">τ</hi> δια τὴν κλυτ<gap n="4" unite="lettres" raison="illisible"/>στραν<lb/>οὐκ ἀπὸ ϊστορίασ <gap n="10" unite="lettres" raison="illisible"/></sch>
+    <sch n="6" ancre="11" place="mg-d" main="R2">— οὐκ ἀπὸ ϊστορίασ π<gap n="10" unite="lettres" raison="illisible"/><lb/>εἴληφεν ἀλλ ὡσ εν <gap n="10" unite="lettres" raison="illisible"/><lb/>τούτου γενομένου <gap n="6" unite="lettres" raison="illisible"/></sch>
+    <sch n="7" ancre="12" place="mg-g" main="R2">ὡσ <abbr signe="ϗ" dev="καὶ"/> τ τ πάλ<lb/>γενομένου ÷</sch>
+    <sch n="8" ancre="14" place="mg-g" main="R2">ὡσ <abbr signe="ϗ" dev="καὶ"/> τ τ πάλ<lb/>γενομέν ÷</sch>
+    <sch n="9" ancre="15" place="mg-d" main="R2">ἐπιτετήδ<gap n="6" unite="lettres" raison="illisible"/> υφαρ<lb coupe="oui"/>πάζουσαν <gap n="10" unite="lettres" raison="illisible"/><lb/>ποιῆσαι τὸν λ<gap n="8" unite="lettres" raison="illisible"/><lb/>λειπε τὸ λαβ<gap n="4" unite="lettres" raison="illisible"/></sch>
+    <sch n="10" ancre="16" place="mg-g" main="R2">ὅτι ἡ γυναι<lb coupe="oui"/>κείων τριχῶν<lb/>ὡσ τὸ πολὺ <abbr signe="ϗ" dev="καὶ"/> ὃ<lb/>παρετυμολογεῖ<lb/>τ πόκον οὐ καὶ κῶσ<lb/>λυκόφρ ἀπλῶσ<lb/>τὰσ τρίχασ ἐμπλο<lb coupe="oui"/>κή τισ φαίνεται<lb/><abbr signe="ϗ" dev="καὶ"/> πλοκαμίδεσ<lb/>σπανίωσ ποτε<lb/>επὶ ἀνδρ λεγετ ÷</sch>
+    <sch n="11" ancre="17" place="mg-d" main="R2">— καταγελᾷσ εἰ μου <gap n="10" unite="lettres" raison="illisible"/> ιασ</sch>
+    <sch n="12" ancre="18" place="mg-d" main="R2">προῖκα <gap n="1" unite="lettres" raison="illisible"/> λέγ τη <gap n="10" unite="lettres" raison="illisible"/></sch>
+    <sch n="13" ancre="23" place="mg-d" main="R2">ὁμοῦ ἀν<hi rend="sus">τ</hi> τοῦ ε<gap n="6" unite="lettres" raison="illisible"/>ρα<lb/>τοῖσ ἀττικοῖσ <abbr signe="ϗ" dev="καὶ"/> μέν<gap n="8" unite="lettres" raison="illisible"/><lb/><abbr signe="ʒ" dev="δὲ"/> ὁμοῦ τὸ χρῆμα <gap n="6" unite="lettres" raison="illisible"/></sch>
+    <sch n="14" ancre="25" place="mg-d" main="R2">— τὰ αὐτά μοι πρατ<gap n="10" unite="lettres" raison="illisible"/></sch>
+    <sch n="15" ancre="26" place="mg-d" main="R2">· ἐψίλωτο γ ὁ κλεισθέν<gap n="8" unite="lettres" raison="illisible"/><lb/>γνάθουσ γυναικ<gap n="8" unite="lettres" raison="illisible"/><lb/>προΐσταμαι ÷</sch>
+    <sch n="16" ancre="29" place="mg-g" main="R2">πρὸ ὀλίγου</sch>
+    <sch n="17" ancre="36" place="mg-g" main="R2">ἐπεὶ <abbr signe="ϗ" dev="καὶ"/> ἄνοδον<lb/>τὴν εἰσ τὴν θεσ<lb coupe="oui"/>μοφόριον ἀ<lb coupe="oui"/>φιξιν λέγουσιν<lb/>ἐπὶ ὑψηλοῦ γ<lb/>κεῖτ τὸ θεσ<lb coupe="oui"/>μοφόριον ÷</sch>
+    <sch n="18" ancre="36" place="mg-d" main="R2">·:— ὅτι ἀναπέμψαι κυρ<gap n="4" unite="lettres" raison="illisible"/><lb/>ἄνοδοσ ἡ πρώτη λέγετ<gap n="2" unite="lettres" raison="illisible"/> παρ<lb/>νίοισ <abbr signe="ϗ" dev="καὶ"/> κάθοδοσ δια τὴν εσιν τῶν<lb/>θεσμοφορίων ÷</sch>
+  </scholies>
+  <notes>
+    <note>Première passe sur l'image : ni confrontation ni contrôle des accents (en cours).</note>
+  </notes>
+</page>

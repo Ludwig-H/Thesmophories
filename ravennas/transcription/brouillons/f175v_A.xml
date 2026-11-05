@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page folio="175v" image="27_f175v_classense177v_vv1082-1127.jpg" vers="1082-1126">
+  <lignes>
+    <l n="1" v="1082"><nota main="Rrec">μν</nota>ὀ τό τυζε· <unclear cert="faible"><parag/></unclear><nota main="Rrec">ηχ</nota>ὀ τό τυζε·</l>
+    <l n="2" v="1083"><parag/><nota main="R2">σκυ<hi rend="sus">θ</hi></nota>οὗτο στί λαλ<del type="exponctuation" main="R?">ε</del>ῖσ· <sp n="1"/><parag/><nota main="R2" repasse="Rrec">ηχω</nota>οὗτο στί λαλ<del type="exponctuation" main="R?">ε</del>ῖσ·</l>
+    <l n="3" v="1084"><parag/><nota main="R2">σκυ<hi rend="sus">θ</hi></nota>πρ υτάνεισκαλέσω· <parag/><nota main="Rrec">ηχ</nota>πρ υτάνεισκαλέσω·</l>
+    <l n="4" v="1085"><parag/><nota main="Rrec">σκ</nota>σὶ κακόν· <sp n="1"/><parag/><nota main="Rrec">ηχ</nota>σὶ κακόν·</l>
+    <l n="5" v="1086"><parag/><nota main="Rrec">σκ</nota>π<del type="grattage" main="R?"><gap n="1" unite="lettres" raison="grattage"/></del>ωτετο πωνη· <sp n="1"/><parag/><nota main="Rrec">ηχ</nota>π<del type="grattage" main="R?"><gap n="1" unite="lettres" raison="grattage"/></del>ωτετο πωνη</l>
+    <l n="6" v="1087"><nota main="Rrec">σκ</nota>σὺ λαλεῖσ· <sp n="4"/><parag/><nota main="Rrec">ηχ</nota>σὺ λαλεῖσ·</l>
+    <l n="7" v="1088"><nota main="Rrec">σκ</nota>κλαύσαιμι· <sp n="3"/><parag/><nota main="Rrec">ηχ</nota>κλαύσαιμι·</l>
+    <l n="8" v="1089"><nota main="Rrec">σκ</nota>κακ<add place="dessus" main="R1c">κ</add>ασκι μοι <sp n="3"/><parag/><nota main="Rrec">ηχ</nota>κακκάσκι μοι·</l>
+    <l n="9" v="1090"><nota main="Rrec">σκ</nota>μαδί᾽ ἀλλὰγυνὴ πλησίον αὕτη·</l>
+    <l n="10"><signe type="repere" main="Rrec" instrument="mine">16</signe><nota main="Rrec">ηχ</nota>πλησίον αὕτη·</l>
+    <l n="11" v="1092"><nota main="Rrec">σκ</nota>πο ῦ σθ᾽ ἡ μιαρά· <sp n="2"/><del type="biffure" main="Rrec"><parag/></del>καὶ δὴ φεύγει·</l>
+    <l n="12" v="1093,1094"><del type="biffure" main="Rrec"><parag/></del>ποῖ ποῖ φεύγεισ οὐ κ᾽αἰρήσεισ·</l>
+    <l n="13" v="1095"><del type="biffure" main="Rrec"><parag/></del>ἔτι γὰρ γρύζεισ</l>
+    <l n="14"><parag/><nota main="Rrec">ηχ</nota>ἔτι γὰρ γρύζεισ·</l>
+    <l n="15" v="1096"><parag/><nota main="Rrec">σκ</nota>λάβετῆι μιαρά· <sp n="1"/><parag/><nota main="Rrec">ηχ</nota>λάβετῆ μιαρά·</l>
+    <l n="16" v="1097">λαλο κα<subst main="Rrec"><del type="surcharge">ι</del><add place="ligne">ὶ</add></subst> κατάρατο γύναικο·</l>
+    <l n="17" v="1098"><parag/><nota main="R2" repasse="Rrec">εὐρι<hi rend="sus">π</hi> ὡσ περσεύσ</nota>ὦ θεοὶ τίν᾽ εἰσγῆν βαρ βάρων ἀφίγμεθα</l>
+    <l n="18" v="1099">ταχεῖ πεδίλωι· διαμεσουγὰρ αἰθέροσ·</l>
+    <l n="19" v="1100">τέμνων κέλευθονπόδα τίθη μι ὑπόπτερον·</l>
+    <l n="20" v="1101">περσεὺσπρὸσ ἄργοσ ναυτολ<unclear cert="faible">ῶ</unclear>ντὸ γοργόνοσ· <signe type="renvoi" main="R?">—+:—</signe></l>
+    <l n="21" v="1104"><nota main="Rrec">εὐ</nota>ἔγωγε φημί <unclear cert="moyenne">:</unclear><nota main="Rrec">σκ</nota>γόργοτοι κἀγὼ μ<unclear cert="moyenne">ά</unclear>ν·</l>
+    <l n="22" v="1105"><nota main="Rrec">εὐ</nota>ἔατίν ὄχθον τόνδ᾽ ὁρῶ καὶ πα<add place="dessus" main="R2">θ</add>ρνον</l>
+  </lignes>
+  <scholies/>
+  <notes>
+    <note ligne="1">Esprits d'espèce indistincte sur cette page (coins, points). μν orangé (dB/R +0,97) : la barre fait corps avec le sigle, pas de brun visible dessous.</note>
+  </notes>
+</page>

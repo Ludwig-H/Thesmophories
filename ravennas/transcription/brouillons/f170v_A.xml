@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page folio="170v" image="17_f170v_classense172v_vv0679-0720.jpg" vers="679-720">
   <lignes>
-    <l n="1" v="679" retrait="2">αὐτῶν ὅτἂν λη φθῆι τίσ ὅ σιαδρῶν</l>
+    <l n="1" v="679" retrait="2">αὐτῶν ὅτἂν ληφθῆι τίσ ὅ σιαδρῶν</l>
     <l n="2" v="680" retrait="3">μανί αισ φλέγων</l>
-    <l n="3" v="681" retrait="2">λύσση παράκοποσ</l>
+    <l n="3" v="681" retrait="2">λύσση παράκοποσ·</l>
     <l n="4" v="682" retrait="3">εἴ τι δρώι η πᾶσιν ἐμφανὴσ ὁρᾶν</l>
-    <l n="5" v="683" retrait="3">ἔσται γυναιξὶν καὶ βροτοῖσ</l>  </lignes>
+    <l n="5" v="683" retrait="3">ἐστίν γυναιξὶν καὶ βροτοῖσ</l>
+    <l n="6" v="684" retrait="4">ὅ τι τὰπαράνοματάτ᾽ἀνόσιαθεὸσ</l>
+    <l n="7" v="685" retrait="3">ἀπο τί ν εται·</l>
+    <l n="8" v="686" retrait="3">παραχρ ῆ μάτετίνεται</l>
+    <l n="9" v="687" retrait="-2">ἀλλ᾽ἔοιχ᾽ ἡμῖν ἅπαντάπωσδιεσκέφθαι καλῶσ·</l>
+    <l n="10" v="688" retrait="-2">οὐχ᾽ὁρῶ μένγ᾽οὖν ἔτ᾽ἄλλον οὐδὲν ἐγκαθήμενον·</l>
+    <l n="11" v="689" retrait="5"><parag/><nota main="R2" repasse="Rrec">γυ<hi rend="sus">ν</hi><unclear cert="moyenne">νη</unclear></nota><unclear cert="moyenne">ἀ</unclear> α·</l>
+    <l n="12" retrait="-2">ποῖ σὺ φεύγεισ· οὗτοσ οὗτοσ οὐ μενεῖσ·</l>
+    <l n="13" v="690" retrait="-1">τάλαιν᾽ ἐγὼ τάλαινα καὶ τὸ παιδίον·</l>
+    <l n="14" v="691" retrait="-1">ἐξ ἀρ πάσασμοι φροῦ δοσ αὐτῶ τοὐτιτθίου·</l>
+    <l n="15" v="692" retrait="-1"><nota main="R2">μνη<hi rend="sus">σ</hi></nota>κέκραχθι τοῦτο δ᾽οὐ δέποτε σὺ ψωμιεῖσ</l>
+    <l n="16" v="693" retrait="-1">ἠν μ<unclear cert="moyenne">ή</unclear> μ᾽ ἀφεῖ<add place="dessus" main="R2">η</add>τ᾽ ἀλλ᾽ ενθάδε· ἐπι τῶν μηρίων</l>
+    <l n="17" v="694" retrait="-1">πληγὲν μαχαίρ<unclear cert="faible">ᾶ</unclear>ι· τῆι δε φοι νίασφλέβασ</l>
+    <l n="18" v="695" retrait="-1">καθαι ματώσει βωμόν: ὦ τάλαι ν᾽ ἐγώ·</l>
+    <l n="19" v="696" retrait="-1">γυναῖ κεσ οὐκἀρ ἤξετ᾽ οὐπολλὴν βο ὴν</l>
+    <l n="20" v="697" retrait="-1">στή σεσθετρό παῖον· ἀλλὰ τοῦ μόνου</l>
+    <l n="21" v="698" retrait="-1">τέκν ο υ με περ ὶ όψεσθ᾽ἀπο στερουμένη<add place="dessus" main="R1c">ν</add>σ·</l>
+    <l n="22" v="699" retrait="7"><nota main="R2"><hi rend="monogramme">χρ</hi></nota>ἔα· ἔα</l>
+    <l n="23" v="700" retrait="-2">ὦ πότνιαι μοῖραι· τί δεδέρκομαι</l>
+    <l n="24" v="701">ν εοχμὸν αὖ τέρασ·</l>
+    <l n="25" v="702" retrait="-2">ὡ σ ἅπανγάρ εστιν· τόλμησἔργακ᾽ἀναισχυντίασ·</l>
+    <l n="26" v="703" retrait="-2">οἷ ο ν αὖ δέδρ ακεν ἔργον οἷ ον αὖ φίλαι τόδε·</l>
+    <l n="27" v="704"><nota main="R2">μνη<hi rend="sus">σ</hi></nota>οἷ ον ὑμῶν ἐξ άρξω τὴν ἄγαν αὐθαδίαν·</l>
+    <l n="28" v="705" retrait="-2"><parag/><nota main="R2"><hi rend="monogramme">χρ</hi></nota>ταῦτα δῆτ᾽ οὐ δει νὰ πράγματἐστὶ καὶ περαιτέρω·</l>
+    <l n="29" v="706" retrait="-3"><nota main="R2">γυ<hi rend="sus">ν</hi></nota>δει νὰ δῆθ᾽ ὅτι γ᾽ἔχει μουξαρπάσασ τὸ παιδί ον·</l>
+    <l n="30" v="707" retrait="2"><parag/>τί ἂν οὖν εἰ ποι προσταῦτατίσ· ὅτε</l>
+    <l n="31" v="708" retrait="2">τοι αῦταποι ῶν ὅ δ<unclear cert="moyenne">ἂ</unclear>ν αισχυντεῖ·</l>
+    <l n="32" v="709" retrait="2"><parag/><nota main="R2" repasse="Rrec">μνη</nota><nota main="Rrec">κ</nota>κὄυπω μέντοι γεπέπαυμαι—</l>
+    <l n="33" v="710" retrait="2"><nota main="Rrec">γϋ·</nota>ἀλλ᾽ οὖν ἥ κει<unclear cert="moyenne"> στ</unclear> ὅ θεν ἥ κεισ·</l>
+    <l n="34" v="711" retrait="2">φαύλωσ τ᾽ ἀποδρᾶσ οὐ λέξεισ</l>
+    <l n="35" v="712" retrait="3">οἷ ο ν δρᾶσασ δέδρακασ ἔργον·</l>
+    <l n="36" v="713" retrait="4">χ᾽ ἠ δίκεσ δόλιον τέχνημ·</l>
+    <l n="37" v="714" retrait="-3"><parag/><nota main="R2">μνη<hi rend="sus">σ</hi></nota>τοῦτο μέντοι μὴ γένοι το μὴ δαμῶσ ε<add place="dessus" main="R?">ἀ</add>πεύχομαι·</l>
+    <l n="38" v="715" retrait="-3"><parag/><nota main="R2"><hi rend="monogramme">χρ</hi></nota>τί σ οὖν σοι τί σ <unclear cert="moyenne">ἂ</unclear>ν σύμμαχοσ ἐκ θεῶν</l>
+    <l n="39" v="716" retrait="-2">ἀθανάτων ἔλθοι ξυν αδίκοισ ἔργοισ·</l>
+    <l n="40" v="717" retrait="-2"><parag/>μάτην λαλεῖτε· τ<unclear cert="moyenne">ὴ</unclear>ν δ᾽ἐγὼ οὐ κ᾽ἀφήσω·</l>
+  </lignes>
   <scholies>
   </scholies>
   <notes>

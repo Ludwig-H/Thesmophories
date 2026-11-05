@@ -2,51 +2,52 @@
 <!-- Lecture B (par passes successives) de R, f. 163r (Classense 165r). Passes 1 à 4 achevées ; brouillon destiné à l'arbitrage. -->
 <page folio="163r" image="02_f163r_classense165r_vv0043-0079.jpg" vers="43-79">
   <lignes>
-    <l n="1" v="43" retrait="1">ἐχέτω δὲ πνο<subst main="R?"><del type="grattage"><unclear cert="faible">ᾶ</unclear></del><add place="ligne">ὰ</add></subst>ς νήνεμος αἰθήρ·</l>
-    <l n="2" v="44" retrait="6">κῦμα δε π<subst main="R?"><del type="surcharge">ὸ</del><add place="ligne">ό</add></subst>ντ<subst main="R?"><del type="biffure">ού</del><add place="ligne">ου</add></subst> μὴ κελαδείτω</l>
-    <l n="3" v="45" retrait="3">γλαυκόν</l>
-    <l n="4" retrait="6"><nota main="Rrec">μνησι<add place="dessus" main="Rrec">λό</add></nota>βομβάξ</l>
-    <l n="5" retrait="5"><nota main="Rrec">εὐ</nota><parag/>σίγα τί λέγει<del type="grattage" main="R?"><unclear cert="moyenne">ς</unclear></del>;</l>
-    <l n="6" v="46" retrait="5"><nota main="Rrec">θε<abbr dev="άπων">ρ</abbr></nota><parag/>πτηνῶν τε γενη κατακοιμάσθω·</l>
-    <l n="7" v="47" retrait="5">θηρῶν τ' ἀγρίων πόδες ὑλοδρόμων</l>
+    <l n="1" v="43" retrait="1">ἐχέτω δὲπνο<subst main="R?"><del type="grattage"><unclear cert="faible">ᾶ</unclear></del><add place="ligne">ὰ</add></subst>σ νήνεμοσ αἰθήρ· <unclear cert="moyenne">·</unclear></l>
+    <l n="2" v="44" retrait="5">κῦ μαδὲπ<subst main="R?"><del type="surcharge">ὸ</del><add place="ligne">ό</add></subst>ντ<subst main="R?"><del type="biffure">ού</del><add place="ligne">ου</add></subst> μὴ κελαδείτω</l>
+    <l n="3" v="45" retrait="5">γλαυκόν</l>
+    <l n="4" retrait="5"><nota main="R2" repasse="Rrec">μνησι<hi rend="sus">λ</hi></nota><nota main="R2"><hi rend="sus">ό</hi></nota>βομβάξ</l>
+    <l n="5" retrait="5"><parag/><nota main="R2" repasse="Rrec">ευ<hi rend="sus"><unclear cert="moyenne">ρ</unclear></hi></nota>σίγατί λέγει<del type="grattage" main="R?"><unclear cert="moyenne">σ</unclear></del><unclear cert="moyenne">·</unclear></l>
+    <l n="6" v="46" retrait="5"><parag/><nota main="R2" repasse="Rrec">θερ</nota>πτη νῶντεγένη κατ<subst main="R?"><del type="grattage"><unclear cert="moyenne">ὰ</unclear></del><add place="ligne">α</add></subst>κοιμάσθω·</l>
+    <l n="7" v="47" retrait="5">θηρ ῶντ᾽ἀγρίωνπόδεσ ὑλοδρόμων</l>
     <l n="8" v="48" retrait="5">μὴ λυέσθων·</l>
-    <l n="9" retrait="5"><parag/>βομβαλοβομβάξ·</l>
-    <l n="10" v="49" retrait="5"><parag/>μέλλει γὰρ ὁ καλλιεπὴς ἀγάθων</l>
-    <l n="11" v="50" retrait="5">πράμος ἡμέτερος·</l>
-    <l n="12" retrait="5">μῶν βινεῖσθαι·</l>
-    <l n="13" v="51" retrait="5">τίς ὁ φωνήσας·</l>
-    <l n="14" retrait="5"><parag/>νήνεμος αἰθήρ·</l>
-    <l n="15" v="52" retrait="5"><parag/>δρυόχους τιθέναι δράματος ἀρχάς</l>
-    <l n="16" v="53" retrait="5">κάμπτει δὲ νέας ἀσπίδας ἐπῶν</l>
-    <l n="17" v="54" retrait="5">τά δ<subst main="R?"><del type="surcharge">ε</del><add place="ligne">ὲ</add></subst> τορνεύει· τ<unclear cert="faible">ά</unclear> δ<subst main="R?"><del type="surcharge">ε</del><add place="ligne">ὲ</add></subst> κολλομελεῖ·</l>
-    <l n="18" v="55" retrait="5">καὶ γνωμοτυπεῖ· κἀντονομάζει·</l>
+    <l n="9" retrait="5"><parag/><del type="grattage" main="R?"><gap n="3" unite="lettres" raison="grattage"/></del>βομβαλο βομβάξ·</l>
+    <l n="10" v="49" retrait="5"><parag/><del type="grattage" main="R?"><gap n="3" unite="lettres" raison="grattage"/></del>μέλλει γὰρ ὁ καλλι επὴσ ἀγάθων</l>
+    <l n="11" v="50" retrait="5">πράμοσ ἡ μέτεροσ·</l>
+    <l n="12" retrait="5"><del type="grattage" main="R?"><gap n="3" unite="lettres" raison="grattage"/></del>μῶν βινεῖ σθαι·</l>
+    <l n="13" v="51" retrait="4"><unclear cert="moyenne"><parag/></unclear><del type="grattage" main="R?"><gap n="2" unite="lettres" raison="grattage"/></del>τί σ ὁ φωνή σασ·</l>
+    <l n="14" retrait="5"><parag/>ν ή νεμοσ αἰ θήρ·</l>
+    <l n="15" v="52" retrait="4"><unclear cert="moyenne"><parag/></unclear>δρυόχο υστι θέναι δράματοσ ἀρχάσ</l>
+    <l n="16" v="53" retrait="4">κάμπτει δὲνέασ ἀσπίδασ ἐπῶν</l>
+    <l n="17" v="54" retrait="4">τάδ<subst main="R?"><del type="surcharge">ε</del><add place="ligne">ὲ</add></subst> τορνεύει· τ<unclear cert="faible">ά</unclear>δ<subst main="R?"><del type="surcharge">ε</del><add place="ligne">ὲ</add></subst>κολλομελεῖ·</l>
+    <l n="18" v="55" retrait="4">καὶ γνωμοτυπεῖ· κἀντονομάζει·</l>
     <l n="19" v="56" retrait="5">καὶ κηροχυτεῖ· καὶ γογγυλίζει·</l>
-    <l n="20" v="57" retrait="5">καὶ χοανεύει· <gl sur="χοανεύει" main="R2">χ<add place="dessus" main="R2">ω</add>νεύει</gl></l>
-    <l n="21" retrait="5"><del type="grattage" main="R?"><gap n="1" unite="sigle" raison="grattage"/></del>καὶ λ<ras main="R2">αι</ras>κάζει·</l>
-    <l n="22" v="58" retrait="5">τίς ἀγριώτας πελάθει θριγκοῖς·</l>
-    <l n="23" v="59" retrait="5">ὃς ἕτοιμος σοῦ τοῦ τε ποητοῦ</l>
-    <l n="24" v="60" retrait="5">τοῦ καλλιεποῦς· <add place="dessus" main="R?">κατα</add> τοῦ θριγκοῦ·</l>
-    <l n="25" v="61" retrait="5">γογγυλίσας· καὶ συστρέψας</l>
-    <l n="26" v="62" retrait="5">τουτὶ τὸ πέος· χοανεῦσαι·</l>
-    <l n="27" v="63">ῆ που νέος γ' <unclear cert="moyenne">ὧ</unclear>ν <unclear cert="moyenne">ῆ</unclear>σθ' ὑβριστὴς ὦ γέρον·</l>
-    <l n="28" v="64"><nota main="Rrec">εὐ</nota>ὦ δαιμόνιε τοῦτον μὲν ἔα χαίρειν σὺ δὲ</l>
-    <l n="29" v="65">ἀγάθωνά μοι δεῦρ'· ἐκκ<unclear cert="moyenne">ά</unclear>λεσον πάση: τέχνηι·</l>
-    <l n="30" v="66"><nota main="Rrec">θε·</nota>μὴδὲν ἱκέτευ· αὐτὸς γὰρ ἔξεισιν τάχα·</l>
-    <l n="31" v="67">καὶ γὰρ μελοποιεῖν ἄρχεται· χειμῶνος οὖν</l>
-    <l n="32" v="68">ὄντος κατακάμπτειν· τὰς στροφὰς οὐ ῥάιδιον</l>
-    <l n="33" v="69">ἠν μὴ προίη θύρασι πρὸς τὸν <unclear cert="moyenne">ἥ</unclear>λιον·</l>
-    <l n="34" v="70"><nota main="Rrec">μν<add place="dessus" main="Rrec">η</add></nota>τί οὖν ἐγὼ δρῶ· <unclear cert="moyenne">:</unclear><nota main="Rrec">εὐ·</nota> περίμεν' ὡς <unclear cert="moyenne">ἐ</unclear>ξέρχεται·</l>
+    <l n="20" v="57" retrait="5">καὶ χοαν εύ ει·</l>
+    <l n="21" retrait="5"><del type="grattage" main="R?"><gap n="2" unite="lettres" raison="grattage"/></del>καὶ λ<ras main="R2">αι</ras>κάζει·</l>
+    <l n="22" v="58" retrait="4"><del type="grattage" main="R?"><gap n="2" unite="lettres" raison="grattage"/></del>τίσ ἀγριώτασ πελάθει θριγκοῖσ·</l>
+    <l n="23" v="59" retrait="5">ὃ σ ἕτοι μοσ σοῦτοῦτεπο ητοῦ</l>
+    <l n="24" v="60" retrait="4">τοῦ καλλι εποῦσ·<add place="dessus" main="R?">κατα</add> τοῦθρ ιγκοῦ·</l>
+    <l n="25" v="61" retrait="4">γογγυλίσασ· καὶ συστρέ ψασ</l>
+    <l n="26" v="62" retrait="4">τουτὶ τὸ πέοσ· χο ανεῦσαι·</l>
+    <l n="27" v="63"><del type="grattage" main="R?"><gap n="2" unite="lettres" raison="grattage"/></del>ῆ που νέοσγ᾽<unclear cert="moyenne">ὧ</unclear>ν <unclear cert="moyenne">ῆ</unclear>σθ᾽ὑβρ ι στὴσ ὦ γέρον·</l>
+    <l n="28" v="64"><unclear cert="faible"><parag/></unclear><nota main="Rrec">εὐ</nota>ὦ δαιμόνιετοῦτον μὲν ἔαχαίρειν σὺ δὲ</l>
+    <l n="29" v="65">ἀγάθωνάμοι δεῦρ᾽· ἐκκ<unclear cert="moyenne">ά</unclear>λεσον πάση<unclear cert="moyenne">ι</unclear> τέχνηι·</l>
+    <l n="30" v="66"><nota main="Rrec">θε·</nota>μὴδὲν ἱκέτευ· αὐτὸσ γὰρ ἔξεισιν τάχα·</l>
+    <l n="31" v="67">καὶ γὰρ μελοποιεῖν ἄρχεται· χειμῶνοσ οὖν</l>
+    <l n="32" v="68">ὄντοσ κατακάμπτειν· τὰσ στροφὰσ οὐ ῥάιδιον</l>
+    <l n="33" v="69">ἠν μὴ προίη θύρασι πρὸσ τὸν <unclear cert="moyenne">ἥ</unclear>λιον·</l>
+    <l n="34" v="70"><nota main="Rrec">μν<add place="dessus" main="Rrec">η</add></nota>τί οὖν ἐγὼ δρῶ· <unclear cert="moyenne">:</unclear><nota main="Rrec">εὐ·</nota> περίμεν᾽ ὡσ <unclear cert="moyenne">ἐ</unclear>ξέρχεται·</l>
     <l n="35" v="71"><nota main="Rrec">μν<add place="dessus" main="Rrec">η</add></nota><parag/>ὦ ζεῦ τί δρᾶσαι διανοεῖ με τήμερον·</l>
-    <l n="36" v="72"><parag/><nota main="Rrec">εὐ·</nota>νὴ τοὺς θεοὺς· ἐγὼ πυθέσθαι βούλομαι·</l>
-    <l n="37" v="73">τί τὸ πρᾶγμα τουτ<subst main="R?"><del type="surcharge">ὶ</del><add place="ligne">ί</add></subst>· τί στένεις· τί δυσφορεῖς·</l>
+    <l n="36" v="72"><parag/><nota main="Rrec">εὐ·</nota>νὴ τοὺσ θεοὺσ· ἐγὼ πυθέσθαι βούλομαι·</l>
+    <l n="37" v="73">τί τὸ πρᾶγμα τουτ<subst main="R?"><del type="surcharge">ὶ</del><add place="ligne">ί</add></subst>· τί στένεισ· τί δυσφορεῖσ·</l>
     <l n="38" v="74">οὐ χρῆν σε κρύπτειν· ὄντα κηδεστὴν ἐμόν·</l>
     <l n="39" v="75"><parag/><nota main="Rrec"><unclear cert="moyenne">μ</unclear></nota>ἔστιν κακόν μοι μέγα τι προπεφυραμένον·</l>
-    <l n="40" v="76"><nota main="Rrec">ε<unclear cert="moyenne">ὐ</unclear></nota>ποῖόν τι <unclear cert="moyenne">:</unclear><nota main="Rrec">μ<add place="dessus" main="Rrec">ν</add></nota> τῆι δε θ' ἡμέρα κριθήσεται·</l>
-    <l n="41" v="77"><del type="grattage" main="R?"><gap n="1" unite="sigle" raison="grattage"/></del>εἶτ' ἔστ <unclear cert="faible">ἐ</unclear>τι ζῶν· εῖτ' ἀπόλωλ'· ευριπίδης·</l>
-    <l n="42" v="78"><nota main="Rrec">εὐ</nota>καὶ πῶς : ἐπεὶ νῦν γ' οῦτε τὰ δικαστήρια·</l>
-    <l n="43" v="79">μέλλει δικάζειν· οὔτε βουλῆς ἔσθ' έδρα·</l>
+    <l n="40" v="76"><nota main="Rrec">ε<unclear cert="moyenne">ὐ</unclear></nota>ποῖόν τι <unclear cert="moyenne">:</unclear><nota main="Rrec">μ<add place="dessus" main="Rrec">ν</add></nota> τῆι δε θ᾽ ἡμέρα κριθήσεται·</l>
+    <l n="41" v="77"><del type="grattage" main="R?"><gap n="1" unite="sigle" raison="grattage"/></del>εἶτ᾽ ἔστ <unclear cert="faible">ἐ</unclear>τι ζῶν· εῖτ᾽ ἀπόλωλ᾽· ευριπίδησ·</l>
+    <l n="42" v="78"><nota main="Rrec">εὐ</nota>καὶ πῶσ : ἐπεὶ νῦν γ᾽ οῦτε τὰ δικαστήρια·</l>
+    <l n="43" v="79">μέλλει δικάζειν· οὔτε βουλῆσ ἔσθ᾽ έδρα·</l>
   </lignes>
   <scholies>
+    <sch n="1" ancre="20" place="col" main="R2">χ<hi rend="sus">ω</hi>νεύει</sch>
   </scholies>
   <notes>
     <note>Lecture B, par passes : (1) lettres et mots, (2) diacritiques, (3) ponctuation, sigles, paragraphoi, gloses, corrections, (4) confrontation avec le texte de l'édition antérieure et les rapports publiés. Scholies marginales non transcrites (consigne) ; les gloses interlinéaires ou écrites dans la colonne sont notées par &lt;gl&gt;.</note>

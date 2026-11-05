@@ -2,38 +2,38 @@
 <page folio="165r" image="06_f165r_classense167r_vv0208-0251.jpg" vers="209-251">
   <lignes>
     <l n="1" v="209"><parag/><nota main="Rrec">ἀγ</nota>ὦ τρισκακοδαίμων ὡσ ἀπόλωλ᾽ εὐριπίδησ</l>
-    <l n="2" v="210"><nota main="R2" repasse="Rrec">μν<hi rend="sus">ησ</hi></nota>ὦ φίλτατ᾽ ὦ κηδεστὰ· μη σαυτὸν προδῶισ</l>
-    <l n="3" v="211"><nota main="Rrec">εὐ</nota>· πῶσ οὖν ποήσω δῆτα<nota main="Rrec">μν<hi rend="sus">ή</hi></nota>τουτον μὲν μακρὰ</l>
-    <l n="4" v="212">κλαί ειν κέλευ᾽· ἐμοὶ δ᾽ ὅ τι βούλει χρῶ λαβών·</l>
-    <l n="5" v="213"><nota main="Rrec">εὐ</nota>· ἄγε νῦν ἐπειδὴ σαυτὸν ἐπιδίδωσ ἐμοὶ</l>
-    <l n="6" v="214">ἀπόδυθι τουτὶ θοιμάτιον<nota main="Rrec">μν<hi rend="sus">ή</hi></nota>· καὶ δὴ χαμαὶ</l>
+    <l n="2" v="210"><nota main="R2" repasse="Rrec">μν<hi rend="sus">ησ</hi></nota>ὦ φίλτατ᾽ ὦ κηδεστὰ· μη σαυτὸν προ δῶισ</l>
+    <l n="3" v="211"><nota main="Rrec">εὐ·</nota>πῶσ οὖν πο ή σω δῆτα·<nota main="Rrec">μν<hi rend="sus">ή</hi></nota>· τουτον μὲν μακρὰ</l>
+    <l n="4" v="212">κλαί ειν κέλευ᾽· ἐμοὶ δ᾽ ὅ τι βούλει χρῶ λ<unclear cert="moyenne">α</unclear>βών·</l>
+    <l n="5" v="213"><nota main="Rrec">εὐ·</nota>ἄγε νῦν ἐπει δὴ σαυτὸν ἐπιδίδω σ ἐμοὶ</l>
+    <l n="6" v="214">ἀπό δυθι τουτὶ θο ιμάτιον<nota main="Rrec">μν<hi rend="sus">ή</hi></nota>· καὶ δὴ χαμαὶ</l>
     <l n="7" v="215">ἀτὰρ τί μέλλεισ δρᾶν με<nota main="Rrec">εὐ</nota>· ἀποξυρεῖν τὰδί·</l>
-    <l n="8" v="216"><parag/><nota main="Rrec">μν<hi rend="sus">ή</hi></nota>τὰκάτω δ ἀφεύειν<unclear cert="faible">·</unclear><signe type="insertion" main="Rrec">^</signe> ἀλλὰ πράττ εί σω δοκεῖ·</l>
-    <l n="9" v="217"><parag/>ἢ μὴ διδόναι γαυτὸν ὤφελον ποτε·</l>
-    <l n="10" v="218"><nota main="Rrec">εὐ</nota>· ἀγαθών· σὺ μέντοι ξυροφορεῖσ εκάστοτε·</l>
-    <l n="11" v="219">χρῆσόν τι νῦν ἡμῖν ξυρόν<nota main="Rrec">ἀγ</nota>· αὐτὸσ λάμβανε</l>
-    <l n="12" v="220">ἐντεῦθεν ἐκτῆσ ξυροδίκησ·<nota main="Rrec">εὐ</nota>· γενναῖοσ εἶ</l>
-    <l n="13" v="221">κάθιζε φύσα τὴν γνάθον τὴν δεξιάν·</l>
-    <l n="14" v="222"><parag/><nota main="Rrec">μ<hi rend="sus">ν</hi></nota><nota main="Rrec">εὐ</nota>ὤιμοι<unclear cert="moyenne">·</unclear><signe type="insertion" main="Rrec">√</signe> τί κέκραγασ·<add place="ligne" main="R?">,</add> ἐμβαλῶ σοι πάτταλον</l>
-    <l n="15" v="223"><unclear cert="faible">ἦν</unclear> μὴ σιωπᾶισ<nota main="Rrec">μν<hi rend="sus">ή</hi></nota>· ἀτταται· ατταται·</l>
-    <l n="16" v="224"><parag/><nota main="Rrec">εὐ·</nota><nota main="Rrec">μν<hi rend="sus">ή</hi></nota>οὗτοσ σὺ ποῖ θεῖσ<signe type="insertion" main="Rrec">^</signe> εἰστὸ τῶν σεμνῶν θεῶν</l>
-    <l n="17" v="225"><parag/>ὀυγὰρ μὰ τὴν δή μητραγ ἐνταυθοῖ μενῶ</l>
-    <l n="18" v="226">τεμνόμενοσ<unclear cert="moyenne">:</unclear><nota main="Rrec">εὐ</nota> οὐκ οὖν καταγέλαστοσ δῆτ ἔσει</l>
-    <l n="19" v="227">τὴν ἡμί κραι ραν τὴν ἑτέρ αν ψιλὴν ἔχων·<signe type="renvoi" main="R2">—</signe></l>
-    <l n="20" v="228"><parag/><nota main="Rrec">μν<hi rend="sus">ή</hi></nota>ὀλί γον μέλει μοι:<nota main="Rrec">εὐ·</nota> μὴ δαμῶ σπρὸστῶν θεῶν</l>
-    <l n="21" v="229">προ δῶι σμε: χώρει δευρο<nota main="Rrec">·μν<hi rend="sus">ή</hi>·</nota> κακοδαίμων ἐγώ·</l>
-    <l n="22" v="230"><nota main="Rrec">εὐ</nota>· ἔχ ἀτρέμα σαυτὸν· κ᾽ἀνάκυπτε· ποῖ στρέφει·</l>
-    <l n="23" v="231"><signe type="repere" main="Rrec" instrument="mine">14</signe><parag/><nota main="Rrec">μν<hi rend="sus">ή</hi>·</nota>μῦ μῦ·<nota main="Rrec">εὐ</nota> τί μύζεισ<unclear cert="moyenne">·</unclear>:<nota main="Rrec">μν<hi rend="sus">ή</hi>·</nota>πάντα πεποίηται καλῶσ·<signe type="renvoi" main="R2">—</signe></l>
-    <l n="24" v="232"><del type="biffure" main="R?"><parag/></del>οἴμοι κακοδαίμων: ψιλὸσ αὖ στρατεύσομαι·</l>
-    <l n="25" v="233"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">εὐ</nota>μὴ φροντίσησ· ὡσ εὐπρεπὴσ φανεῖ πάνυ·</l>
+    <l n="8" v="216"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">μν<hi rend="sus">ή</hi></nota>τὰκάτω δ ἀφεύειν<unclear cert="faible">·</unclear><signe type="insertion" main="Rrec">^</signe> ἀλλὰ πράττεί σω δο κεῖ·</l>
+    <l n="9" v="217"><parag/>ἢ μὴ δι δόναι γαὐτὸν ὤφ ελόν ποτε·</l>
+    <l n="10" v="218"><nota main="Rrec">·εὐ·</nota>ἀγαθών· σὺ μέντοι ξυρο φορεῖ σ ἑκάστοτε·</l>
+    <l n="11" v="219">χρῆ σόντι νῦν ἡμῖν ξυρόν<nota main="Rrec">ἀγ</nota>· αὐτὸσ λάμβανε</l>
+    <l n="12" v="220">ἐντεῦθεν ἐκτῆ σξυροδί κησ·<nota main="Rrec">εὐ</nota>· γενναῖ οσ εἶ</l>
+    <l n="13" v="221">κάθιζε φ ύσα τὴν γνάθον τὴν δεξ ιάν·</l>
+    <l n="14" v="222"><parag/><nota main="Rrec">μ<hi rend="sus">ν</hi></nota><nota main="Rrec">εὐ</nota>ὤι μοι<unclear cert="moyenne">·</unclear><signe type="insertion" main="Rrec">√</signe> τί κέκραγασ·<add place="ligne" main="R?">,</add> ἐμβαλῶ σοι πάτταλον</l>
+    <l n="15" v="223"><unclear cert="faible">ἦν</unclear> μὴ σιω πᾶισ<nota main="Rrec">μν<hi rend="sus">ή</hi></nota>· ἀτταται· ατταται·</l>
+    <l n="16" v="224"><parag/><nota main="Rrec">εὐ·</nota><nota main="Rrec">μν<hi rend="sus">ή</hi></nota>ο ὗτοσ σὺ ποῖ θεῖσ<signe type="insertion" main="Rrec">^</signe> εἰ στὸ τῶν σεμνῶν θεῶν·</l>
+    <l n="17" v="225"><parag/>ὀυγὰρ μὰτὴν δή μητραγἐνταυθοῖ μενῶ</l>
+    <l n="18" v="226">τεμνό μενοσ<unclear cert="moyenne">:</unclear><nota main="Rrec">εὐ</nota> οὐκ οὖν καταγέλαστοσ δῆτ᾽ ἔσει</l>
+    <l n="19" v="227">τὴν ἡμί κρ αι ρ αν τὴν ἑτέρ αν ψιλὴν ἔχων·<signe type="renvoi" main="R2">—</signe></l>
+    <l n="20" v="228"><parag/><nota main="Rrec">μν<hi rend="sus">ή</hi></nota>ὀλί γον μέλει μοι:<nota main="Rrec">εὐ·</nota> μὴ δαμῶ σπρὸστῶν θῶν</l>
+    <l n="21" v="229">προ δῶι σμε: χώ ρει δευρο<nota main="Rrec">·μν<hi rend="sus">ή</hi>·</nota> κακο δαίμων ἐγώ·</l>
+    <l n="22" v="230"><nota main="Rrec">εὐ·</nota>ἔχ ἀτρ έμα σαυτὸν· κ᾽ἀνάκυπτε· ποῖ στρέφει·</l>
+    <l n="23" v="231"><signe type="repere" main="Rrec" instrument="mine">14</signe><parag/><nota main="Rrec">μν<hi rend="sus">ή</hi>·</nota>μῦ μῦ·<nota main="Rrec">εὐ</nota> τί μύζει σ:<nota main="Rrec">·μν<hi rend="sus">ή</hi>·</nota>πάντα πεποί ηται καλῶσ·<signe type="renvoi" main="R2">—</signe></l>
+    <l n="24" v="232"><del type="biffure" main="R?"><parag/></del>ο ἴ μοι κακοδαίμων: ψιλὸσ αὖ στρατεύσομαι·</l>
+    <l n="25" v="233"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">εὐ</nota>μὴ φροντί σησ· ὡσ εὐπρεπὴ σ φανεῖ πάνυ·</l>
     <l n="26" v="234"><del type="biffure" main="R?"><parag/></del>βούλει θεάσασθαι σεαυτ<subst main="R?"><del type="surcharge">ὸ</del><add place="ligne">ό</add></subst>ν<sp n="1"/><nota main="Rrec">μν<hi rend="sus">ή</hi></nota> εἰ δοκε<unclear cert="moyenne">ῖ</unclear> φέρε</l>
     <l n="27" v="235"><parag/><nota main="Rrec">εὐ</nota>ὁρᾶι<add place="dessus" main="R1c">σ</add> σεαυτὸν<unclear cert="moyenne">;</unclear><nota main="Rrec">·μν<hi rend="sus">ή</hi>·</nota> οὐ μὰ δί᾽ ἀλλὰ κλεισθένην·</l>
-    <l n="28" v="236"><parag/><nota main="Rrec">εὐ</nota>ἀνίστασ ἵν ἀφεύσω σε· κἀγκύψασ ἔχε·</l>
-    <l n="29" v="237"><parag/><nota main="Rrec">μν<hi rend="sus">ή</hi></nota>οἴμοι κακο δαί μων δελφάκιον γενήσομαι·</l>
-    <l n="30" v="238"><parag/><nota main="Rrec">εὐ·</nota>ἐνεγκάτω τίσ ἔνδοθεν δᾶιδ᾽ <unclear cert="moyenne">ἢ</unclear>μ<unclear cert="moyenne">με</unclear>νον·</l>
-    <l n="31" v="239"><unclear cert="faible">εσοί</unclear> κυπτε· τὴν κέρκον φυλάττου νῦν ἄκραν·</l>
-    <l n="32" v="240"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">μν<hi rend="sus">ή</hi></nota>ἐμοὶ μελήσει νὴ δία· πλήν γὅτι κάομαι·</l>
-    <l n="33" v="241">οἴμοι τάλασ· ὕδωρ ὦ γείτονεσ</l>
+    <l n="28" v="236"><parag/><nota main="Rrec">εὐ</nota>ἀνίστασ<unclear cert="moyenne">᾽</unclear> ἵν ἀφεύ σω σε· κἀγκύψασ ἔχε·</l>
+    <l n="29" v="237"><parag/><nota main="Rrec">μν<hi rend="sus">ή</hi></nota>οἴ μοι κακο δαί μων δελφάκιον γενήσομαι·</l>
+    <l n="30" v="238"><parag/><nota main="Rrec">εὐ·</nota>ἐνεγκάτω τί σ ἔνδοθεν δᾶιδ᾽ <unclear cert="moyenne">ἢ</unclear>μ<unclear cert="moyenne">με</unclear>νον·</l>
+    <l n="31" v="239">ε<unclear cert="moyenne">π</unclear>ί κυπτε· τὴν κέρκον φυλάττου νῦν ἄκραν·</l>
+    <l n="32" v="240"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">μν<hi rend="sus">ή</hi></nota>ἐμοὶ μελήσει νὴ δία· πλὴνγ᾽ὅτι κάομαι·</l>
+    <l n="33" v="241">οἴ μοι τάλασ· ὕδωρ ὕδωρ ὦ γείτονεσ</l>
     <l n="34" v="242">πρὶν ἀντιλαβέσθαι· πρωκτὸν τ<unclear cert="moyenne">ῆ</unclear>σ φλογόσ</l>
     <l n="35" v="243"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">εὐ·</nota>θάρρει<nota main="Rrec">μν<hi rend="sus">ή</hi></nota>τί θαρρῶ κατα πεπυρπ<unclear cert="moyenne">ο</unclear>λημένοσ·</l>
     <l n="36" v="244"><nota main="Rrec">εὐ</nota>ἀλλ οὐκετ᾽ οὐδὲν πρᾶγμά σοι: τὰ πλεῖστα γὰρ</l>
