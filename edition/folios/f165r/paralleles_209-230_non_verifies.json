@@ -23,9 +23,9 @@
  {
   "v": "215",
   "lemme": "ἀποξυρεῖν ταδί",
-  "ref": "Cass. Dio 57.10.5 ; Suet. Tib. 32",
+  "ref": "Cass. Dio 57.10.5",
   "source": "LSJ s.v. κείρω ; Tosi, Dictionnaire n° 1479",
-  "raison": "livre 57 de Dion absent du corpus (texte lu chez Zonaras 11.1 et Sud. τ 552) ; Suétone non disponible localement"
+  "raison": "livre 57 de Dion absent du corpus local ; le mot de Tibère est lu chez Zonaras 11.1, Sud. τ 552 et Suet. Tib. 32.2 (entrées au v. 215)"
  },
  {
   "v": "215",
@@ -44,23 +44,16 @@
  {
   "v": "219",
   "lemme": "ξυρόν (mesure)",
-  "ref": "Moer. ξ 5 H. (p. 272 Pierson)",
-  "source": "Theodoridis, app. à Phot. ξ 79",
-  "raison": "article non retrouvé dans l’OCR de Moeris (Bekker 1833) ; édition Hansen absente"
- },
- {
-  "v": "219",
-  "lemme": "ξυρόν (mesure)",
-  "ref": "Thom. Mag. 251, 10 ; Aristid. ἐν Περικλεῖ (3, 97) μὴ λέοντα ξυρεῖν δόξωμεν",
+  "ref": "Thom. Mag. 251, 10",
   "source": "Theodoridis, app. à Phot. ξ 78",
-  "raison": "Thomas Magister absent du corpus ; la citation d’Aristide n’a pas été recherchée dans l’édition de Dindorf"
+  "raison": "Thomas Magister absent du corpus local ; la citation d’Aristide signalée au même endroit (μὴ λέοντα ξυρεῖν) a été vérifiée depuis : Aristid. Or. 46 (II, p. 192 Dindorf), entrée au v. 218"
  },
  {
   "v": "220",
   "lemme": "ξυροδόκης",
   "ref": "Lobeck ad Phryn. p. 307",
   "source": "Fritzsche 1838, p. 75 ; Enger 1844, p. 47",
-  "raison": "Lobeck absent des sources locales ; même cas pour Phryn. p. 328 Lob. (ἡμικεφάλαιον), lu seulement dans l’apparat de Bethe"
+  "raison": "Lobeck absent des sources locales ; l’article de Phrynichus sur ἡμικεφάλαιον (p. 328 Lob.) a été lu depuis dans Rutherford, The New Phrynichus (1881), art. CCCIII (entrée au v. 227)"
  },
  {
   "v": "225",

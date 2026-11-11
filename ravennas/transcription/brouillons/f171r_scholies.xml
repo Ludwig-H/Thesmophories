@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 171r (vv. 721–763) ; transcription diplomatique sur l'image.
+     Lecteur des scholies, 5 nov. 2026. Lecture en cours (écrite au fil de l'eau). -->
+<page folio="f171r" image="18_f171r_classense173r_vv0721-0764.jpg" vers="721-763">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="6" place="mg-g" main="R2"><abbr dev="ς">πρ<hi rend="sus">ο</hi></abbr>· <abbr signe="◡" dev="ὰς">τ</abbr> γυ<lb coupe="oui"/>ναικασ</sch>
+    <sch n="2" ancre="8" place="mg-d" main="R2">ὄνομα <abbr signe="\" dev="ον">κύρι</abbr> δούλησ τὸ μανι<unclear cert="faible">α</unclear> <unclear cert="faible">και</unclear> εκ<lb coupe="oui"/>τεταμένον εχει τὸ ᾱ ÷</sch>
+    <sch n="3" ancre="9" place="mg-g" main="R2"><abbr signe="¯" dev="α">σπινθῆρ</abbr></sch>
+    <sch n="4" ancre="10" place="mg-d" main="R2">εἶδοσ ϊματίου <abbr signe="ʒ" dev="αι">ημφίεστ</abbr> ὡ<unclear cert="moyenne">σ</unclear> <gap n="7" unite="lettres" raison="tache"/><lb/>καὶ υποδηματα εχει ἡ ασκο<gap n="1" unite="lettres" raison="tache"/></sch>
+    <sch n="5" ancre="14" place="mg-d" main="R2">ο ἀσκοσ εῖδοσ <abbr signe="ʒ̀" dev="δὲ"/> ὑποδημάτων αἱ π<unclear cert="faible">ε</unclear><gap n="6" unite="lettres" raison="tache"/></sch>
+    <sch n="6" ancre="15" place="mg-g" main="R2">ὦ μέθυσοι</sch>
+    <sch n="7" ancre="18" place="mg-d" main="R2">ἅπαντα <abbr dev="ὰρ">γ</abbr> ἕνεκα <abbr dev="οῦ">τ<hi rend="sus">υ</hi></abbr> πιεῖ<unclear cert="moyenne">ν</unclear> <gap n="3" unite="lettres" raison="tache"/><unclear cert="faible">χυ</unclear><unclear cert="moyenne">ρα</unclear><lb/>τιθεται καὶ πιπράσκε<gap n="3" unite="lettres" raison="tache"/></sch>
+    <sch n="8" ancre="21" place="mg-d" main="R2">ἀλλ ου δεκα μῆνασ κύουσιν αἱ γυν<gap n="5" unite="lettres" raison="tache"/> <unclear cert="moyenne">αλλ</unclear> εν<lb coupe="oui"/>νεα ειωθασι <abbr signe="ʒ" dev="δὲ"/> <abbr dev="ω">ου<hi rend="sus">τ</hi></abbr> τω πληρει αριθμ<unclear cert="faible">ω</unclear> <gap n="4" unite="lettres" raison="tache"/>θαι<lb/>ἀντι τῶν εννέα μηνων ÷</sch>
+    <sch n="9" ancre="23" place="mg-g" main="R2">τρεῖσ κο<lb coupe="oui"/>τυλασ <abbr dev="ου">οιν</abbr><lb/>χωρουν</sch>
+    <sch n="10" ancre="26" place="mg-d" main="R2">— <abbr dev="οῦ">τ<hi rend="sus">υ</hi></abbr>το <abbr signe="ʌ" dev="ιν">πάλ</abbr> ὡσ ἐπὶ <abbr dev="οῦ">ἀσκ<hi rend="sus">υ</hi></abbr> <abbr dev="ὶ">ἀν<hi rend="sus">τ</hi></abbr> γαρ εἰπεῖν <gap n="5" unite="lettres" raison="tache"/>π<hi rend="sus">ε</hi> χοασ ÷</sch>
+    <sch n="11" ancre="27" place="mg-d" main="R2">— εἰώθασι λεγειν εαν τισ εν διονυσίοισ <gap n="4" unite="lettres" raison="tache"/><unclear cert="moyenne">σιοισ</unclear><lb/>η σκιροισ μικρον τι προσεναγισμα<gap n="5" unite="lettres" raison="tache"/> <abbr signe="Λ" dev="ολις">ευπ</abbr><lb/>αμα <abbr signe="ʒ" dev="δὲ"/> οτι <abbr signe="ϗ" dev="καὶ"/> περι οιν<hi rend="sus">ου</hi> <abbr signe="·/·" dev="ἐστὶν"/> ο λόγοσ ÷</sch>
+    <sch n="12" ancre="28" place="mg-d" main="R2"><abbr dev="ως">αλ<hi rend="sus">λ</hi></abbr> ουτ<unclear cert="moyenne">ω</unclear> <unclear cert="moyenne">λε</unclear><lb coupe="oui"/><abbr signe="°" dev="ες">γοντ</abbr> ἁ δε ἐχει ἐκ διονυσίων η απα<unclear cert="faible">τουριων</unclear><lb/>τον υπερπιπτοντα τῶν <abbr signe="⌒" dev="ῶν">μην</abbr>· αρι<unclear cert="faible">θ</unclear><gap n="7" unite="lettres" raison="tache"/><lb/>δηλοῖ τισ ÷</sch>
+    <sch n="13" ancre="30" place="mg-d" main="R2"><abbr dev="ο">του<hi rend="sus">τ</hi></abbr> εθοσ ἦν αττικοῖσ λ<unclear cert="moyenne">ε</unclear><gap n="4" unite="lettres" raison="tache"/><lb/>τα έτη <abbr signe="ϗ" dev="καὶ"/> <abbr signe="\" dev="ὸν">τ</abbr> ὑπερπίπτοντα ἀρι<unclear cert="moyenne">θ</unclear><gap n="7" unite="lettres" raison="tache"/><lb/>τῶν διονυσίων ÷</sch>
+    <!-- Suite en cours de lecture. -->
+  </scholies>
+  <notes>
+    <note>Lecture en cours : sch. 1–5 lues sur l'image ; la suite reste à écrire ; confrontation aux éditions à faire.</note>
+  </notes>
+</page>

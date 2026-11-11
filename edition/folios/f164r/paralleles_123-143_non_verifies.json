@@ -44,9 +44,9 @@
  {
   "v": "133",
   "lemme": "γάργαλος",
-  "ref": "Moer. γ 23 ; Phryn. PS 56, 9 de Borries",
+  "ref": "Moer. γ 23",
   "source": "testimonia de l'auteur ; LSJ s.v. γαργαλισμός (Moeris)",
-  "raison": "Moeris et Phrynichus PS (de Borries) non disponibles dans le corpus local ; Phrynichus cité par Meineke IV, p. 386 (Bekk. Anecd. 31, 25) : γάργαλος· ὁ ἐρεθισμός, καὶ γαργαλισμός· τὸ δὲ γαργαλίζεσθαι οὐκ ἀττικόν : à lire sur l'édition"
+  "raison": "Moeris non disponible dans le corpus local (Phrynichus, PS p. 56, 9 de Borries = An. Bekk. I, p. 31, 25 : vérifié depuis sur l'image et inscrit au fichier principal)"
  },
  {
   "v": "133",
@@ -86,16 +86,16 @@
  {
   "v": "136",
   "lemme": "γύννις",
-  "ref": "Phryn. PS 60, 19 de Borries ; Zon. 457 ; Et. M. 243, 8 ; Thom. Mag. 24, 17",
+  "ref": "Zon. 457 ; Et. M. 243, 8 ; Thom. Mag. 24, 17",
   "source": "Prato 2001, ad 136 ; testimonia de l'auteur ; apparat des sources d'Adler (Sud. γ 504)",
-  "raison": "Phrynichus, Thomas Magister non disponibles ; Zonaras (OCR de Tittmann) et EM : mot non trouvé par l'index ; à lire sur les éditions"
+  "raison": "Thomas Magister non disponible ; Zonaras (OCR de Tittmann) et EM : mot non retrouvé par l'index ni dans l'OCR local de l'EM (.travail/ocr_local), à lire sur les éditions ; Phrynichus (PS p. 60, 19 et p. 17 de Borries) vérifié depuis sur l'image : fichier principal"
  },
  {
   "v": "137",
   "lemme": "βάρβιτος",
-  "ref": "Phot. β 62 ; Poll. 4.59",
+  "ref": "Phot. β 62",
   "source": "testimonia de l'auteur ; Hsch. β 211 (test.)",
-  "raison": "Photius α–μ (Theodoridis) absent ; index de Naber sans entrée ; Pollux OCR non retrouvé"
+  "raison": "Photius α–μ (Theodoridis) absent ; index de Naber sans entrée (Poll. 4.59 vérifié depuis sur l'image de Dindorf : fichier principal)"
  },
  {
   "v": "138",
@@ -107,16 +107,16 @@
  {
   "v": "138",
   "lemme": "κεκρυφάλῳ",
-  "ref": "Ar. fr. 332, 6 K.-A. (320, 6 K.) ; Eup. fr. 170 K. ; Antiph. fr. 117 K.",
-  "source": "Blaydes 1880, p. 148 ; van Leeuwen 1904, p. 26 ; Kock III, p. 77 ; LSJ",
-  "raison": "fragments non lus"
+  "ref": "Eup. fr. 170 K.",
+  "source": "Kock III, p. 77 (ad Men. Κεκρύφαλος : « cf. Arist. Thesm. 138. 257. fr. 320, 6. Eupol. 170. Antiphan. 117. 189 »)",
+  "raison": "fragment non retrouvé dans l'OCR de Kock I ; Ar. fr. 332 K.-A. (= 320 K.) et Antiph. fr. 117 K. vérifiés depuis sur l'image : fichier principal"
  },
  {
   "v": "139",
   "lemme": "λήκυθος",
-  "ref": "Clearch. fr. 109 W. (LSJ : 72) ; Soph. fr. 1063 R. ; Phryn. PS p. 86 B. ; Poll. 4.114",
+  "ref": "Clearch. fr. 109 W. (LSJ : 72) ; Soph. fr. 1063 R. ; Poll. 4.114",
   "source": "Hsch. λ 856–857 (renvois de l'éd.) ; LSJ ; l'auteur",
-  "raison": "connus par le renvoi seulement"
+  "raison": "connus par le renvoi seulement (Phryn. PS p. 86 de Borries vérifié depuis sur l'image : fichier principal)"
  },
  {
   "v": "139",

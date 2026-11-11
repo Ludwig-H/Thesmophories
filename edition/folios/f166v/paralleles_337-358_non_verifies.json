@@ -1,1 +1,20 @@
-[]
+[
+ {
+  "v": "343-344",
+  "lemme": "ἐξαπατᾷ ψευδῆ λέγων … ἃν ὑπόσχηταί ποτε",
+  "categorie": "poetes",
+  "ref": "Publil. Syr. A 37",
+  "citation_signalee": "Amantis iusiurandum poenam non habet",
+  "signale_par": "Tosi n. 332",
+  "raison": "texte de Publilius Syrus absent du corpus local ; non contrôlé"
+ },
+ {
+  "v": "343-344",
+  "lemme": "ἐξαπατᾷ ψευδῆ λέγων … ἃν ὑπόσχηταί ποτε",
+  "categorie": "comiques",
+  "ref": "Plaut. Cist. 103",
+  "citation_signalee": "Nil amori iniuriumst",
+  "signale_par": "Tosi n. 332",
+  "raison": "Cistellaria absente des textes latins locaux ; non contrôlé"
+ }
+]

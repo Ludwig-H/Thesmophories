@@ -1,52 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page folio="175r" image="26_f175r_classense177r_vv1044-1081.jpg" vers="1045-1081">
   <lignes>
-    <l n="1">ἐπι δετοῖσδε· τόδ ἀν ἔπεμψεν</l>
-    <l n="2">ἱ ερὸν ἔρθαν<unclear cert="moyenne">ω</unclear> αῖ κ<unclear cert="moyenne">ε</unclear>σ</l>
-    <l n="3">ἰ ώ μοι μοί ρασαν ἔτι κτε δαίμων</l>
-    <l n="4">ὦ κατάρατοσ ἐγὼ· τί σἐμὸν οὐκ<ras main="R?">επόψετ</ras>αι</l>
-    <l n="5">πάθο σ ἀμεγαρτον ἐπι κακῶνπαρουσ<unclear cert="moyenne">ι</unclear></l>
-    <l n="6">εἴθέμε· πυρ φόρο σ αἰθέροσ ἀστὴρ</l>
-    <l n="7">τὸν βάρ βαρον ἐξολέσει εν·</l>
-    <l n="8">οὐγὰρ ἔτ᾽ἀθανάταν φλόγαλεύσειν</l>
-    <l n="9">ἐστὶν ἐμοὶ φ ίλον ὡ σ ἐκρεμάσθην</l>
-    <l n="10">λαι μότ<unclear cert="moyenne">᾽</unclear>μή τἄχη δαιμό νων αἰολαν</l>
-    <l n="11">νέκυ σιν ἐπι πορείαν·</l>
-    <l n="12"><parag/><nota main="R2">ευρι<hi rend="sus">π</hi> ηχω</nota>χαῖρ᾽ ὦ φίλη παῖ· τὸν δὲπατέρα κηφέα</l>
-    <l n="13">ὅ<unclear cert="moyenne">σσ</unclear>᾽ἐξέθηκεν ἀπολέσει αν οἱ θεοί</l>
-    <l n="14"><nota main="Rrec">μν·</nota>σὺ δεἶ τίσ ἥτισ· τουμὸν ὤκτειρασπάθοσ</l>
-    <l n="15"><nota main="Rrec">ηχ·</nota>ἠχὼ λό γων ἀντω· δὸσ ἐπικο κκάστρ<del type="exponctuation" main="R?">ε</del>ϊα</l>
-    <l n="16">ἥ περ πέρ υσιν ἐντῶ δεταυτῶι χωρί ωι</l>
-    <l n="17">εὐρ ιπί δηι καὶ αὐτὴ ξ υνηγωνιζόμην</l>
-    <l n="18">ἀλλ᾽ ὦ τεκνον· σὲ μὲν το σαύτησ χρὴ ποεῖν</l>
-    <l n="19">κλαίειν ἐλεινῶσ:<nota main="R?">μνη<unclear cert="faible"><hi rend="sus">οσ</hi></unclear></nota><signe type="insertion" main="Rrec">^</signe>σεδἐπι κλαίειν ὕστερον</l>
-    <l n="20"><nota main="Rrec">ηχ</nota>ἐμοὶ μελήσει ταῦτάγ᾽ ἀλλ᾽ἄρχου λόγων·</l>
-    <l n="21"><nota main="R2">ὁ μνησίλο<hi rend="sus">χ</hi> ω<unclear cert="moyenne">σ</unclear><lb/>ἀνδρομέδα÷</nota><nota main="Rrec">μ<hi rend="sus">ν</hi></nota>ὦ νὺξ ἱ ερὰ</l>
-    <l n="22">ὡ σμακρὸν ἵππευμα διώκεισ</l>
-    <l n="23">ἀστερο ει δέανῶταδιφρε<add place="dessus" main="R?"><unclear cert="moyenne">ύ</unclear></add>ου</l>
-    <l n="24">σ᾽αἰ θέροσ ἱ ερᾶσ</l>
-    <l n="25">τοῦ σεμνο τάτου δι<unclear cert="moyenne">᾽</unclear>ολύμπου</l>
-    <l n="26"><nota main="R2">ηχω</nota><signe type="autre" main="R?">/</signe>διολύμπου·</l>
-    <l n="27"><parag/><nota main="Rrec">μν</nota>τί ποτ᾽ἀνδρομέδα π<unclear cert="moyenne">έ</unclear>ρὶ ἄλλακακῶν·</l>
-    <l n="28">μέροσ ἐξ<del type="biffure" main="R1c">ελέγχων</del>έλαχον·</l>
-    <l n="29"><nota main="Rrec">ηχ<hi rend="sus">ω</hi></nota>μέροσ ἐξέλαχον·</l>
-    <l n="30"><parag/><nota main="Rrec">μν</nota>θανάτουτλ ήμων·</l>
-    <l n="31"><parag/><nota main="Rrec">ηχ</nota>θανάτουτλ ήμων·</l>
-    <l n="32"><parag/><nota main="Rrec">μν</nota>ἀπολεῖσ μ᾽ ὦ γρ αῦ<add place="dessus" main="R1c">σ</add> στωμυ<del type="grattage" main="R?">λ</del>λωμένη·</l>
-    <l n="33"><nota main="Rrec">ἠχ</nota>στωμυλωμένη·</l>
-    <l n="34"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">μν</nota>νη δία· ὀχληρά γ᾽εἰσήρρηκασ</l>
-    <l n="35"><del type="biffure" main="Rrec" instrument="mine"><parag/></del>λί αν·</l>
-    <l n="36"><parag/><nota main="Rrec">ἠχ</nota>λί αν</l>
-    <l n="37"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">μν·</nota>ὦ γάθ ἔασόν με μονωδῆσαι·</l>
-    <l n="38">καὶ χαριεῖ μοι·</l>
-    <l n="39"><del type="biffure" main="R?"><parag/></del>π<subst main="R?"><del type="surcharge">α</del><add place="ligne">ᾶ</add></subst>υσαι·<sp n="4"/><parag/><nota main="Rrec">ἠχ</nota>παῦσαι·</l>
-    <l n="40"><parag/><nota main="Rrec">μν</nota>βάλλ εἰσ κόρακασ·<sp n="1"/><parag/><nota main="Rrec">ηχ</nota>βάλλ εἰσ κόρακασ·</l>
-    <l n="41"><parag/><nota main="Rrec">μ</nota>τί τὸ κακόν·<sp n="2"/><parag/><nota main="Rrec">ηχ</nota>τί τὸ κακόν·</l>
-    <l n="42"><parag/><nota main="Rrec">μ</nota>ληρεῖσ<sp n="3"/><parag/><nota main="Rrec">ηχ</nota>ληρεῖσ</l>
-    <l n="43"><parag/><nota main="Rrec">μ</nota>οἴμωζε·<sp n="4"/><parag/><nota main="Rrec">ηχ</nota>οἴμωζε·</l>
+    <l n="1" v="1045" retrait="5">ἐπι δετοῖσδε· τόδ ἀν ἔπεμψεν</l>
+    <l n="2" v="1046" retrait="5">ἱ ερὸν ἔνθαγυναῖκεσ</l>
+    <l n="3" v="1047,1048" retrait="5">ἰ ώ μοι μοί ρασ αν ἔτι κτε δαίμων</l>
+    <l n="4" v="1049" retrait="5">ὦ κατάρατοσ ἐγὼ· τί σἐμὸν οὐκε<ras main="R?">πόψετ</ras>αι</l>
+    <l n="5" retrait="4">πάθο σ ἀμεγαρτον ἐπι κακῶνπαρουσ<unclear cert="moyenne">ι</unclear></l>
+    <l n="6" v="1050" retrait="4">εἴ θέμε· πυρ φόρο σ αἰθέροσ ἀστὴρ</l>
+    <l n="7" v="1051" retrait="4">τὸν βάρ βαρον ἐξολέσει εν·</l>
+    <l n="8" v="1052" retrait="4">οὐγὰρ ἔτ᾽ἀθανάταν φλόγαλεύσειν</l>
+    <l n="9" v="1053" retrait="4">ἐστὶν ἐμοὶ φ ίλον ὡ σ ἐκρεμάσθην</l>
+    <l n="10" v="1054" retrait="4">λαι μότ<unclear cert="moyenne">᾽</unclear>μή τἄχη δαιμό νων αἰολαν</l>
+    <l n="11" v="1055" retrait="4">νέκυ σιν ἐπι πορείαν·</l>
+    <l n="12" v="1056"><parag/><nota main="R2">ευρι<hi rend="sus">π</hi> ηχω</nota>χαῖρ᾽ ὦ φίλη παῖ· τὸν δὲπατέρα κηφέα<signe type="autre" main="R?">—</signe></l>
+    <l n="13" v="1057">ὅ<unclear cert="moyenne">σσ</unclear>᾽ἐξέθηκεν ἀπολέσειαν οἱ θεο<unclear cert="faible">ί</unclear>·</l>
+    <l n="14" v="1058"><nota main="Rrec">μν·</nota>σὺ δ᾽εἶ τίσ ἥτισ· τουμὸν ὤκτειρασπάθοσ</l>
+    <l n="15" v="1059"><nota main="Rrec">ηχ·</nota>ἠχὼ λό γων ἀντω· δὸσ ἐπικο κκάστρ<del type="exponctuation" main="R?">ε</del>ϊα·</l>
+    <l n="16" v="1060">ἥ περ πέρ υσιν ἐντῶ δεταυτῶι χωρί ωι</l>
+    <l n="17" v="1061">εὐρ ιπί δηι καὶ αὐτὴ ξ υνηγωνιζόμην·</l>
+    <l n="18" v="1062">ἀλλ᾽ ὦ τέκνον· σὲ μὲν το σαύτησ χρὴ ποεῖν</l>
+    <l n="19" v="1063">κλαίειν ἐλεινῶσ:<nota main="R?">μνη<unclear cert="faible"><hi rend="sus">οσ</hi></unclear></nota><signe type="insertion" main="Rrec">^</signe>σεδἐπι κλαίειν ὕστερον</l>
+    <l n="20" v="1064"><nota main="Rrec">ηχ</nota>ἐμοὶ μελήσει ταῦτάγ᾽ ἀλλ᾽ἄρχου λόγων·</l>
+    <l n="21" v="1065" retrait="5"><nota main="R2">ὁ μνησίλο<hi rend="sus">χ</hi> ω<unclear cert="moyenne">σ</unclear><lb/>ἀνδρομέδα÷</nota><nota main="Rrec">μ<hi rend="sus">ν</hi></nota>ὦ νὺξ ἱ ερὰ</l>
+    <l n="22" v="1066" retrait="5">ὡ σμακρὸν ἵππευμα διώκεισ</l>
+    <l n="23" v="1067" retrait="5"><signe type="repere" main="Rrec" instrument="mine">—</signe>ἀστερο ει δέανῶταδιφρε<add place="dessus" main="R?">ύ</add>ου</l>
+    <l n="24" v="1068" retrait="5">σ᾽αἰ θέροσ ἱ ερᾶσ</l>
+    <l n="25" v="1069" retrait="5">τοῦ σεμνο τάτου δι ὀλύμπου</l>
+    <l n="26" retrait="5"><nota main="R2">ηχω</nota><signe type="autre" main="R?">/</signe>δι ολύμπου·</l>
+    <l n="27" v="1070" retrait="5"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν</nota>τί ποτ᾽ἀνδρομέδα<unclear cert="faible">·</unclear> περὶ άλλακακῶν·</l>
+    <l n="28" v="1071" retrait="5">μέροσ ἐξ<del type="biffure" main="R1c">ελέγχων</del>έλαχον·</l>
+    <l n="29" retrait="5"><nota main="Rrec">ηχ<hi rend="sus">ω</hi></nota>μέροσ ἐξέλαχον·</l>
+    <l n="30" v="1072" retrait="5"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν</nota>θανάτουτλ <unclear cert="faible">ή</unclear>μων·</l>
+    <l n="31" retrait="5"><parag/><nota main="Rrec">ηχ</nota>θανάτουτλ ήμων·</l>
+    <l n="32" v="1073" retrait="5"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν</nota>ἀπολεῖσ μ᾽ ὦ γρ αῦ<add place="dessus" main="R1c">σ</add> στωμυ<del type="grattage" main="R?">λ</del>λωμένη·</l>
+    <l n="33" v="1074" retrait="5"><nota main="Rrec">ἠχ</nota>στωμυλωμένη·</l>
+    <l n="34" v="1075" retrait="5"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν</nota>νη δία· ὀχληρά γ᾽εἰσήρρηκασ</l>
+    <l n="35" v="1076" retrait="5"><del type="biffure" main="Rrec" instrument="mine"><parag/></del>λί αν·</l>
+    <l n="36" retrait="6"><parag/><nota main="Rrec">ἠχ</nota>λί αν</l>
+    <l n="37" v="1077" retrait="5"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν·</nota>ὦ γάθ ἔασόν με μονωδῆσαι·</l>
+    <l n="38" v="1078" retrait="5">καὶ χαριεῖ μοι·</l>
+    <l n="39" retrait="5"><del type="biffure" main="R?"><parag/></del>π<subst main="R?"><del type="surcharge">α</del><add place="ligne">ᾶ</add></subst>υσαι·<sp n="2"/><parag/><nota main="Rrec">ἠχ</nota>παῦσαι·</l>
+    <l n="40" v="1079" retrait="5"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μν</nota>βάλλ εἰσ κόρακασ·<sp n="1"/><parag/><nota main="Rrec">ηχ</nota>βάλλ εἰσ κόρακασ·</l>
+    <l n="41" v="1080" retrait="5"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μ</nota>τί τὸ κακόν·<sp n="2"/><parag/><nota main="Rrec">ηχ</nota>τί τὸ κακόν·</l>
+    <l n="42" retrait="5"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μ</nota>ληρεῖσ<sp n="4"/><parag/><nota main="Rrec">ηχ</nota>ληρεῖσ</l>
+    <l n="43" v="1081" retrait="5"><unclear cert="faible"><parag/></unclear><nota main="Rrec">μ</nota>οἴμωζε·<sp n="3"/><parag/><nota main="Rrec">ηχ</nota>οἴμωζε·</l>
   </lignes>
   <scholies>
   </scholies>
   <notes>
+    <note ligne="1">Page : 43 lignes, conforme à l'index de la segmentation ; v selon la numérotation usuelle (l. 5, 26, 29, 31, 36, 39, 42 continuent les vv. 1049, 1069, 1071, 1072, 1076, 1078, 1080). retrait mesuré au premier trait du texte contre l'alignement des trimètres (x≈209) : l. 1–4 (x 332–341) 5, l. 5–11 (x 301–319) 4, l. 21–43 (x 325–357) 5, 6 à la l. 36. Esprits d'espèce indistincte (points, triangles, crochets) : la valeur doux/rude n'est pas une donnée sur cette page. R a δε sans grave, τοῖσδε non élidé suivi d'un point (réf. δὲ τοῖσδʼ ⟨ἐς⟩), τόδ sans apostrophe, ἀν séparé de ἔπεμψεν (réf. ἀνέπεμψεν), ἐπι sans accent (réf. ἐπὶ). Au-dessus de ἀν ἔ-, trois marques : point (x 693, y 389) au-dessus de αν, noté comme esprit de ἀν (apostrophe de τόδ᾽ ou esprit, guide § 2.8) ; point (x 726, y 396) et trait (x 757–765, y 374–383) : esprit et aigu de ἔ-.</note>
+    <note ligne="2">R a ἔνθαγυναῖκεσ (réf. ἔνθα γυναῖκες) : ν de ἔνθα à jambage plongeant, sans boucle (lu d'abord ρ) ; γ en V plongeant lié à l'α ; υν en trois arceaux (lu d'abord ω), contrôle à ×10–×12. ἱερὸν : grave net (x 420–427, y 433–438) (réf. ἱερόν). Circonflexe en ∩ sur l'ι de αῖ. ε de κεσ triangulaire à longue diagonale, même forme que dans ἐγὼ (l. 4). Blancs : ἱ | ερὸν 19 px (gardé) ; ν | α 6 px et ῖ | κ 14 px (coupe ordinaire).</note>
+    <note ligne="3">R a ἀνέτικτε (μοί ρασ αν ἔτι κτε), non ἄτεγκτε (réf.) : ν de αν à jambage plongeant, ε lunaire lié au τ, κ en deux temps. Pas d'esprit sur αν : les deux marques x 695 (point) et x 710–719 (trait) sont l'esprit et l'aigu de ἔτι-. La tête du σ de μοίρασ se relève en crochet (x≈648, y≈495) : pas un accent. Coupes ἀν | ἔτι | κτε gardées comme au guide (§ 2.7, § 3.7 ; mesure grossière : 11 et 13 px) ; σ | α 5 px, coupe ordinaire. Les deux points sous ἰ ώ (x 352–366, y 516–522) sont l'esprit et le circonflexe de ὦ (l. 4).</note>
+    <note ligne="4">ἐγὼ avec grave (réf. ἐγώ), puis point. τί σἐμὸν : σ final de τίς détaché du τι, lié par sa tête au ε (guide [P_ti_sem]) ; esprit sur ἐ, grave sur ὸ. οὐκε… : pas d'esprit sur l'ε (réf. ἐπόψεται). πόψετ sur grattage : plage grenue grise x≈1010–1120, ε (x≈1000–1012) hors du nuage ; premier état illisible (ὄψεται selon Velsen 1883, d'après l'inventaire) ; main indéterminée (R² Velsen). αι rejeté sous la ligne avec long paraphe. La barre commune de ψ et τ n'est pas une biffure.</note>
+    <note ligne="5">πάθο | σ : blanc 16 px gardé. ἀμεγαρτον sans accent sur l'ε (réf. ἀμέγαρτον) ; ἐπι sans accent (réf. ἐπὶ). Fin : παρουσ (σ à tête longue) suivi d'un long trait descendant à crochet (x≈1105–1125, y≈587–645), lu ι ; pas d'α visible entre le σ et ce trait, aucun accent (réf. παρουσίᾳ ; l'inventaire lit παρουσια suivi d'un trait, Velsen 1883 παρουσία R, d'après l'inventaire).</note>
+    <note ligne="6">εἴ | θέμε : blanc 15 px gardé. Double accent : aigu sur θέ (x≈392) en plus de εἴ (esprit x≈309, aigu x≈329) (réf. εἴθε με) ; point après με (x≈472). θ à barre prolongée à gauche : pas une biffure. Pas de point final.</note>
+    <note ligne="7">Blancs nets βάρ | βαρον (21 px) et ἐξολέσει | εν (18 px) : coupe de R gardée (§ 2.7). Point final (x≈896).</note>
+    <note ligne="8">R a λεύσειν, un seul σ (réf. λεύσσειν) : σ et ει à ι descendant forment un groupe en « α » à queue. οὐγὰρ et φλόγαλεύσειν soudés. ἔτ᾽ἀθανάταν : losange (apostrophe, x≈477) et triangle (esprit, x≈498) distincts. Pas de point final.</note>
+    <note ligne="10">R a λαι μότ(᾽)μή τἄχη : aigu sur μό (x≈433) et aigu sur μή (x≈508) (réf. λαιμότμητʼ ἄχη). Goutte au-dessus de la jonction μ | η (x≈477, y≈790), 24 px après le τ : apostrophe de λαιμότ᾽ (Velsen 1883 : λαιμότ᾽, d'après l'inventaire) ou tache, d'où unclear. Au-dessus de l'α de ἄχη, un seul signe en Λ (x 550–557, y 786–793) : lu esprit et aigu liés ; apostrophe de μήτ᾽ selon Velsen (μήτ᾽ αχη). Le trait oblique au-dessus du χ est le pied du λ de φίλον (l. 9). αἰολαν sans accent sur l'ο (réf. αἰόλαν).</note>
+    <note ligne="11">ἐπι sans accent (réf. ἐπὶ). Point final (x≈779).</note>
+    <note ligne="12">Trait horizontal x≈160–189, soudé à l'ω de la note de S2 εὐρι^π ἠχω : paragraphos de T selon l'inventaire (paragraphos soudée à une glose, guide § 3.3), ou trait final de la note, plus mince que les paragraphoi de T. Trait horizontal épais, renflé à gauche, sous κη de κηφέα (x≈857–888, y≈914–920), au ras de l'interligne : encodé en signe « autre » (R?) ; renvoi possible vers la scholie « πατὴρ γὰρ … κηφεύς » (guide § 3.6 : incertain). πατέρα : ligature τε à ε surélevé, pas d'abréviation ; δὲπατέρα lié.</note>
+    <note ligne="13">ὅσσ᾽ : premier σ triangulaire, second à longue tête (unclear) ; marques ∩ (apostrophe, x≈290) et triangle (esprit de ἐ-, x≈302) ; mêmes lettres que la réf. (ὅς σʼ). ἀπολέσει | αν : 12 px, coupe ordinaire. θεοι : aucun accent distinct ; le trait de la l. 12 passe juste au-dessus de οι, là où un aigu se confondrait : ί en unclear faible. Point final petit mais net (x≈900, y≈934).</note>
+    <note ligne="14">μν· orangé (Rrec), sans marque de T. σὺ δ᾽εἶ : apostrophe en ∩ (x≈292), esprit (x≈307), circonflexe en goutte (x≈317) ; εἶ = δ + ει en « q ». Point après ἥτισ (x≈551, y≈980). τουμὸν sans coronis (réf. τοὐμὸν) : le trait au-dessus de ου est le ι descendant de ει de ἀπολέσειαν (l. 13). R a ὤκτειρασ, avec ει et sans ι adscrit (réf. ᾤκτιρας) ; groupe κτει lu « ιιτλ ». Trait isolé x≈190–198, y≈940–962, entre le sigle et σὺ, ni brun de T ni nettement orangé (ΔB/R +0,22) : non encodé.</note>
+    <note ligne="15">ηχ· orangé (Rrec) ; le Η qui suit est l'initiale de ἠχὼ, de T. R a ἀντω· δὸσ : point à mi-hauteur entre ω et δ (x≈562, y≈1018), sans ι adscrit (réf. ἀντῳδὸς). ἐπικοκκάστρ⟦ε⟧ϊα : deux points sur l'ε épais (x≈943 et 951), exponctuation de main indéterminée ; deux autres sur l'ι (x≈960 et 971), tréma de T (réf. ἐπικοκκάστρια ; premier état ἐπικοκκάστρεια). Aigu de κά déporté (x≈892). Point final oblique (x≈1030, y≈1022).</note>
+    <note ligne="16">ταυτῶι sans coronis, ι adscrit détaché (réf. ταὐτῷ) ; τῶδε sans ι (réf. τῷδε) ; χωρί ωι, ι adscrit détaché. πέρυσιν : ν en Ν oncial (barre descendante).</note>
+    <note ligne="17">R a καὶ αὐτὴ (réf. καὐτὴ). εὐριπίδηι : ι adscrit. Au-dessus de αι de καὶ, un grave et un point à sa droite (x≈500–508, y≈1072) : tréma ? non transcrit. Point final à mi-hauteur (x≈988, y≈1099).</note>
+    <note ligne="18">τέκνον : aigu haut (x≈359, y≈1106), au pied de la l. 17. Point après τέκνον. R a το σαύτησ (τοσαύτης) : aigu au-dessus de αυ (x≈724, y≈1122), aucun accent sur l'η (réf. τὸ σαυτῆς) ; aucun grave visible sur το, sous la queue du ξ de la l. 17. R a ποεῖν, sans ι (réf. ποιεῖν) : π, ο, ει en « q » sous circonflexe, ν. Pas de point final.</note>
+    <note ligne="19">R a κλαίειν, deux fois (réf. κλάειν). Dicolon après ἐλεινῶσ : point inférieur brun (x≈578, y≈1182), point supérieur sous le jambage orangé du μ du sigle. μνη orangé dans l'interligne (x≈576–640, y≈1150–1185), suivi d'un ο suscrit et d'un crochet à longue queue montante : οσ suscrits, lecture faible (μν(ησίλοχ)ος ?), puis un point ; main R? (guide § 1.5 : orangé, absent de M, R² Velsen). Sous le dicolon, signe orangé en Λ avec trait (x≈587–607, y≈1187–1195) : signe d'insertion (Rrec). R a σεδἐπι : σ fermé, ε en « 6 », δ, esprit sur ἐ, ni grave ni apostrophe (réf. σὲ δʼ ἐπικλάειν).</note>
+    <note ligne="20">ηχ orangé (Rrec), sans marque de T. ταῦτάγ᾽ : γ réduit à un jambage ; λλ en deux obliques. Point final.</note>
+    <note ligne="21">Note de S2 en deux lignes à gauche : ὁ μνησίλο, χ suscrit (au-dessus de λο), ωσ, puis ἀνδρομέδα ÷ ; μν orangé (Rrec) écrit sur la fin (ωσ), d'où σ unclear. La glose de S2 à droite du vers, dans la colonne (τοῦ προλόγου ἀνδρομέδας εἰσβολή ÷), est une scholie, non transcrite ici. Croix de la marge extérieure (l. 20/21) : hors du texte, non encodée.</note>
+    <note ligne="23">Repère gris, mine, dans la bande des sigles entre les l. 22 et 23 (x≈305–330, y≈1327) : page c 15 de la Juntine (Velsen 1871 : « v. 1066 R — 15 Junt. c 15 », d'après l'inventaire) ; chiffre invisible. διφρεου + petit υ accentué suscrit entre ε et ο (x≈895–905, y≈1318–1335) : διφρεύου ; main indéterminée (R² Velsen). Le σ᾽ est rejeté en tête de la l. 24. Petite plage claire au-dessus de ει (x≈465–472, y≈1320–1330) : accent gratté ? non encodé.</note>
+    <note ligne="24">σ᾽ de διφρεύουσ᾽ rejeté en tête de ligne. Le point à queue sous la fin de ἱερᾶσ (x≈746, y≈1392) est sur la ligne de base de la l. 24 et au-dessus de δι | ο de la l. 25 : point final de la l. 24, ou apostrophe de δι᾽ ou esprit de ὀλύμπου ; rattaché à la l. 25.</note>
+    <note ligne="25">δι ὀλύμπου : la seule marque entre les deux mots (x≈746, y≈1392) est notée comme esprit de ὀ- (apostrophe ou esprit, guide § 2.8 ; ou point final de la l. 24) ; réf. διʼ Ὀλύμπου. ι | ο : 11 px. Aigu de λύ déporté au-dessus de μπ.</note>
+    <note ligne="26">ηχω de S2, en petite semi-onciale, après la fin de la scholie τ^ουτο ἡ ἠχὼ λέγει ÷. Devant δι, trait fin oblique isolé (x≈316–324, y≈1468–1490), encodé en signe « autre » (R?) ; aucune paragraphos horizontale visible (Velsen 1883 : « — » R, d'après l'inventaire). δι ολύμπου sans apostrophe ni esprit (réf. διʼ Ὀλύμπου) ; ι | ο : 14 px. Point final.</note>
+    <note ligne="27">μν orangé (Rrec) : le trait horizontal sous le μ est lui-même orangé ; la paragraphos de T dessous est présumée, sec. Velsen (Velsen 1871 « — I m. », d'après l'inventaire) : paragraphos en unclear faible (guide § 2.9), de même aux l. 30, 32, 34, 37, 40–43. Écart à T du trait horizontal ou du sigle entier (encres_mesure_uniforme) : l. 27 +0,67, l. 30 +0,49, l. 32 +0,65, l. 34 +0,96, l. 37 +0,77, l. 40 +0,37 (moitié gauche +0,45 ; moitié droite pâle −0,06, non probante), l. 41 +0,65, l. 42 +0,81, l. 43 +0,90 : orangé, aucune trace brune distincte de T. Point petit et pâle à mi-hauteur après ἀνδρομέδα (x≈737, y≈1510), sans contact avec le π : ponctuation douteuse. R a περὶ άλλα, en deux mots (réf. περίαλλα) : ε de περ en crochet sur le ρ, sans aigu ; grave au-dessus de l'ι (x≈838–849, y≈1480–1487) ; aigu déporté au-dessus de λλ (x≈880–897) ; aucun esprit distinct sur l'α (le « grave » pourrait être cet esprit). Point final.</note>
+    <note ligne="28">T écrit ἐξ ελέγχων, le biffe d'un trait continu (x≈520–706, y≈1544–1553) et poursuit έλαχον sur la ligne : correction en écrivant (R1c). Un seul point final (Velsen 1871 donne un dicolon au v. 1071, d'après l'inventaire).</note>
+    <note ligne="29">ηχ et ω suscrit orangés (Rrec), sans paragraphos.</note>
+    <note ligne="30">Accent de τλημων invisible : la jambe du χ de ἔλαχον (l. 29) passe sur l'η (x≈598, y≈1612) ; ή en unclear faible. Point final.</note>
+    <note ligne="31">ηχ orangé dont la barre du Η prolonge la paragraphos de T. Aigu de τλή net (x≈598, y≈1655). Point final.</note>
+    <note ligne="32">R a γραῦσ : σ suscrit (x≈675–700, y≈1690–1700), même module et même encre que T, R1c probable (réf. γραῦ). στωμυ⟦λ⟧λωμένη : trace grise oblique d'un λ gratté (x≈775–810, y≈1695–1735) ; premier état στωμυλλωμένη ; R a ω (réf. στωμυλλομένη). Point final.</note>
+    <note ligne="33">ἠχ orangé (Rrec) avec point suscrit, sans paragraphos. R a στωμυλωμένη, un seul λ et ω (réf. στωμυλλομένη). Point final.</note>
+    <note ligne="34">νη sans accent (réf. νὴ) ; δία non élidé, suivi d'un point (réf. Δίʼ). γ᾽ en v accentué devant ει en « q » (guide [P_ochl]).</note>
+    <note ligne="35">Paragraphos de T barrée d'un trait gris presque vertical (x≈294–302, y≈1822–1846) : mine de 1516 (guide § 1.5, barre du v. 1076). Point final.</note>
+    <note ligne="36">ἠχ orangé avec point suscrit, χ touchant le λ ; paragraphos de T dessous. Pas de point final.</note>
+    <note ligne="37">μν· orangé (Rrec). Pas d'apostrophe visible après γάθ (réf. ὦγάθʼ) ; μονωδῆσαι sans ι adscrit. Glose de S2 à droite (τὸ πληρὲς ὦ ἀγαθέ ÷) : non transcrite.</note>
+    <note ligne="39">Paragraphos de T barrée d'un trait vertical à petite tête (x≈278–286, y≈1997–2025) : R? (guide § 1.5, barre du v. 1078). Premier παῦσαι : circonflexe anguleux « ^ » au-dessus de l'α (x≈391–401, y≈1989–1995), forme étrangère à T, ajouté sur παυσαι (R² Velsen, d'après l'inventaire) ; le second a le circonflexe arrondi de T sur l'υ. Un point après chaque παῦσαι ; le point inférieur sous le second (x≈825, y≈2020) est l'esprit de εἰσ (l. 40), non un dicolon. Blanc de 54 px avant la réplique d'Écho ; paragraphos de T sous la barre du Η orangé, de même aux l. 40–43.</note>
+    <note ligne="40">R a εἰσ, deux fois (réf. ἐς) ; βάλλ sans apostrophe : la marque au-dessus de λλ | ε est notée comme esprit de εἰ- (guide § 2.8). Fin : tête du σ relevée en crochet, puis point (x≈1059, y≈2049).</note>
+    <note ligne="41">R a τί τὸ κακόν, deux fois (réf. τί κακόν). Le point devant le second τί est la goutte d'attaque du τ. Points finaux (le second x≈986, y≈2097). μ orangé réduit à la paragraphos et à un crochet, de même aux l. 42–43.</note>
+    <note ligne="42">Premier ληρεῖσ : ει en « q » sous circonflexe ; second : ε et ι séparés, circonflexe sur l'ι. Les traits en virgule entre η et ρ des deux mots (x≈366 et x≈760, y≈2155) sont les aigus de οἴμωζε (l. 43). Pas de point. Blanc de 122 px (x 491–613) entre le σ final et la barre du Η de la réplique d'Écho, sous laquelle la paragraphos de T mesure comme T (écart −0,05). Relu à ×3–×7 (reprise).</note>
+    <note ligne="43">R a οἴμωζε, deux fois, non élidé (réf. οἴμωζʼ) : esprit en goutte sur ο | ι (x≈349 et x≈737, y≈2167), aigu haut (x≈367 et x≈760, y≈2158), au niveau de la base de la l. 42. Points finaux (x≈518 et x≈932, y≈2178). Blanc de 86 px (x 520–606) avant la réplique d'Écho, d'où n="3" (54–56 px pour n="2" aux l. 39 et 41) ; paragraphos de T sous la barre du Η (écart à T −0,14). Relu à ×3–×7 (reprise). Le v. 1081 a la clé 1081b dans le TSV de référence ; ὀτότυζε est au f. 175v.</note>
   </notes>
 </page>

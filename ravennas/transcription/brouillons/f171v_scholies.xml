@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 171v (vv. 764–800) ; transcription diplomatique (lecteur des scholies, 5 nov. 2026, DiploXML v1), lue sur l'image (original, canal bleu, CLAHE ; découpes ×3 à ×6 dans .travail/scholies/f171v/).
+     Ancre = numéro de la ligne du bloc de texte (1–43) en face de laquelle la note commence.
+     Ordre : par ancre, et pour une même ancre marge gauche avant marge droite. Verso : mg-g = marge extérieure, mg-d = marge intérieure (gouttière).
+     Coordonnées dans les notes : [x, y] ou [x0–x1, y0–y1] en pixels de l'image pleine résolution 1921 × 2780.
+     Lecture en cours (écrite au fil de l'eau). -->
+<page folio="f171v" image="19_f171v_classense173v_vv0765-0799.jpg" vers="764-800">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="5" place="mg-g" main="R2">— ὁ γὰρ <abbr dev="ίδης">ευρι<hi rend="sus">π</hi></abbr> εν τῶ παλαμήδει ἐποίησε<lb/><abbr signe="\" dev="ὸν">τ</abbr> οιακα <abbr signe="\" dev="ὸν">τ</abbr> αδελφον παλαμήδουσ επι<lb coupe="oui"/>γραψαι εισ τασ ναυσ <abbr signe="\" dev="ὸν">τ</abbr> <abbr signe="\" dev="ον">θανατ</abbr> αυτου<lb/>ινα φερομεναι εαυ ταισ ελθωσιν εισ <abbr dev="ὸν"><hi rend="sus">τ</hi></abbr><lb/>ναυπλιον <abbr signe="\" dev="ὸν">τ</abbr> <abbr signe="¯" dev="πατέρα"/> αυτο<unclear cert="moyenne">ὺ</unclear> <abbr signe="ϗ̀" dev="καὶ"/> απαγγ<unclear cert="moyenne">εί</unclear>λωσι<lb/><abbr signe="\" dev="ὸν">τ</abbr> <abbr signe="\" dev="ον">θανατ</abbr> αυτου ÷</sch>
+    <!-- Suite en cours de lecture. -->
+  </scholies>
+  <notes>
+    <note>Lecture en cours.</note>
+  </notes>
+</page>

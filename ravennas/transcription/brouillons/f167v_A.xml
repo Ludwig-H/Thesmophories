@@ -1,53 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Lecture A (lecture directe) de R, f. 167v ; en cours -->
+<!-- Lecture A (lecture directe) de R, f. 167v ; lecture achevée, confrontée à Hall–Geldart (reprise du 5 nov. 2026) -->
 <page folio="167v" image="11_f167v_classense169v_vv0423-0465.jpg" vers="423-465">
   <lignes>
-    <l n="1" v="423">λακωνὶκἄττατρεῖσ ἔχονταγομφίουσ</l>
-    <l n="2" v="424">προ τοῦ μὲν οὖν ἦν ἀλλὑπο<unclear cert="faible">ῖ</unclear>ξαι τὴνθύραν</l>
-    <l n="3" v="425">ποι η σαμέναισι δακτύλιοντριω βόλου·</l>
-    <l n="4" v="426">νῦν δ᾽οὗτοσαὐτοὺσ· ὦ κότριψἐὐρ ιπί δησ·</l>
+    <l n="1" v="423">λακωνὶκ᾽ἄττατρεῖσ ἔχονταγομφίουσ</l>
+    <l n="2" v="424">προ τοῦ μὲν οὖν ἦν ἀλλὑποῖξαι τὴνθύραν</l>
+    <l n="3" v="425">ποι η σαμ<unclear cert="moyenne">έ</unclear>ναισι δακτύλιοντριω βόλου·</l>
+    <l n="4" v="426">νῦν δ᾽οὗτοσαὐτοὺσ· <unclear cert="moyenne">ὦ</unclear> κότριψἐὐρ ιπί δησ·</l>
     <l n="5" v="427">ἐδί δαξ ενθριπήδεστα· ἔχειν σφραγίδια</l>
     <l n="6" v="428">ἐξαψαμένουσ· νῦν οὖν ἐμοὶ το<unclear cert="moyenne">ῦ</unclear>τ<subst main="R1c"><del type="surcharge">ο</del><add place="ligne">ω</add></subst> δοκεῖ</l>
     <l n="7" v="429">ὄλεθρόντιν᾽ ἡ μᾶσ κυρκανᾶν ἁμωσγέπωσ</l>
-    <l n="8" v="430">ἡ φαρμάκοισιν· ἢ μίᾶ<unclear cert="moyenne">ι</unclear> γέτω τέχνηι</l>
+    <l n="8" v="430"><unclear cert="moyenne">ἠ</unclear> φαρμάκοισιν· <unclear cert="moyenne">ἢ</unclear> μίᾶ<unclear cert="moyenne">ι</unclear> γέτω τέχνηι</l>
     <l n="9" v="431">ὅπω σ ἀπολεῖται ταῦτ᾽ἐγὼ φανερῶσλέγω</l>
-    <l n="10" v="432">τὰδ<unclear cert="moyenne">᾽</unclear>ἄλλαμετὰτῆσγρ αμματέωσ· συγγράψομαι·</l>
+    <l n="10" v="432">τὰδ᾽ἄλλαμετὰτῆσγρ αμματέωσ· συγγράψομαι·</l>
     <l n="11" v="433" retrait="6"><nota main="R2">χ<hi rend="sus">ο</hi></nota>ο<unclear cert="moyenne">ὔ</unclear>π<subst main="R?"><del type="surcharge">ω</del><add place="ligne">ώ</add></subst><add place="dessus" main="R2">πο</add> τεταύτησ</l>
     <l n="12" v="434,435" retrait="6">ἤ κουσαπολυπλοκωτέρασ</l>
     <l n="13" v="436" retrait="6">γυναι κὸσ· οὐδε δεινότερονλεγούσησ·</l>
-    <l n="14" v="437" retrait="5">πάνταγὰρ λέγει δί καια· πάσασδεἰδέασ</l>
+    <l n="14" v="437" retrait="5">πάνταγὰρ λέγει δί καια· πασασδεἰδέασ</l>
     <l n="15" v="438" retrait="6">ἐξ ή τασεν· πάνταδἐβάστασενφρενὶ</l>
-    <l n="16" v="439" retrait="5">πυκνῶ στεποικίλουσλόγο υσ</l>
-    <l n="17" retrait="6">ἀν ε<unclear cert="moyenne">ῦ</unclear>ρ εν εὖ δι<signe type="autre" main="R?">~</signe> εζητημένουσ·</l>
-    <l n="18" v="440,441"><signe type="repere" main="Rrec" instrument="mine">—</signe>ὥστ᾽ ἂν εἰ λέγοι παρ αυτ<unclear cert="moyenne">ῆ</unclear>σ ξενοκλῆσὁ καρκίνου</l>
-    <l n="19" retrait="6">δο κεῖ ν αν αὐτόν</l>
+    <l n="16" v="439" retrait="5">πυκνῶ στεποικίλουσλόγο υσ,</l>
+    <l n="17" retrait="6">ἀν εῦ ρ εν εὖ δι<signe type="autre" main="R?">~</signe> εζητημένουσ·</l>
+    <l n="18" v="440,441"><signe type="repere" main="Rrec" instrument="mine">—</signe>ὥστ᾽ ἂν εἰ λέγοι παρ αυτησ ξενοκλῆσὁ καρκίνου</l>
+    <l n="19" retrait="6">δο κε<unclear cert="moyenne">ῖ</unclear> ν αν αὐτόν</l>
     <l n="20" v="442">ὡσ ἐγῶμαι πᾶσιν ὑμῖν ἄντι κρυσμὴδὲν λέγειν<unclear cert="moyenne">·</unclear></l>
-    <l n="21" v="443"><parag main="R?"/><nota main="Rrec">ἑτ<unclear cert="faible"><hi rend="sus">ε</hi>ρ</unclear> γϋνη</nota>ὀλίγ<subst main="Rrec"><del type="surcharge">ο</del><add place="ligne">ω</add></subst>ν ἕνεκ᾽αὐτ<unclear cert="moyenne">ὴ</unclear> παρῆλθον ῥημάτων·</l>
+    <l n="21" v="443"><parag main="R?"/><nota main="Rrec">ἑτ<unclear cert="faible"><hi rend="sus">ε</hi>ρ</unclear> γϋνή</nota>ὀλίγ<subst main="Rrec"><del type="surcharge">ο</del><add place="ligne">ω</add></subst>ν ἕνεκ᾽αὐτ<unclear cert="faible">ῆ</unclear> παρῆλθον ῥημάτων·</l>
     <l n="22" v="444">τὰμὲνγὰρ ἄλλα· αὕτη κατηγό ρηκεν εὖ</l>
     <l n="23" v="445"><unclear cert="moyenne">ἃ</unclear>δἐγὼ πέπονθα ταῦτα λέξαι βούλομαι·</l>
     <l n="24" v="446">ἐμοὶ γὰρ <unclear cert="faible">ἀ</unclear>νὴρ ἀπέθανεν μὲν ἐν κύπρωι·</l>
     <l n="25" v="447">παι δάρι απέντεκαταλιπὼν· <unclear cert="moyenne">ἃ</unclear>γω μόλισ</l>
     <l n="26" v="448">στεφανηπλοκοῦσ᾽ ἔβοσκον ἐνταῖσμυρρίναισ·</l>
-    <l n="27" v="449">τέ<unclear cert="faible">ω</unclear> σμὲν οὖν ἀλλ᾽ἡμικάκωσἐβοσκό μην·</l>
+    <l n="27" v="449">τέ<unclear cert="faible">ὼ</unclear> σμὲν οὖν ἀλλ᾽ἡμικάκωσἐβοσκό μην·</l>
     <l n="28" v="450">νῦν δ<unclear cert="faible">᾽</unclear>οὗτοσ ἐνταῖσι τραγωιδίαισποῶν</l>
     <l n="29" v="451">τοὺσἄνδρασ ἀναπέπεικεν οὐκ᾽εἶναι θεούσ·</l>
     <l n="30" v="452">ὥστ᾽οὐκέτἐμπολῶμεν οὐδ᾽εἰ σήμισυ·</l>
     <l n="31" v="453">νῦν οὖν ἁπάσαισι παραινῶ καὶ λέγω·</l>
     <l n="32" v="454">τοῦτον κολάσαι τὸν ἄνδραπολλῶν οὕνεκα·</l>
     <l n="33" v="455">ἄγριαγὰρ ἡμᾶσ ὦ γυναῖ κεσ δρ<unclear cert="moyenne">ᾶ</unclear>ι κακὰ</l>
-    <l n="34" v="456">ἅτ᾽ἐν ἀγρ <unclear cert="moyenne">ί</unclear> οισι λαχάνοισ αὐτοστραφεὶσ</l>
+    <l n="34" v="456">ἅτ᾽ἐν ἀγρ <unclear cert="moyenne">ί</unclear> οισι λαχάνοισ αὐτοστραφε<unclear cert="moyenne">ὶ</unclear>σ</l>
     <l n="35" v="457">ἀλλ᾽εἰσαγορὰν ἄπειμι· δεῖ γὰρ ἀνδράσιν</l>
-    <l n="36" v="458">πλέξαι στεφάνουσ· <ras main="R3">σ<unclear cert="moyenne">ὐ</unclear></ras>νθηματιαίουσ εἴκοσιν·</l>
+    <l n="36" v="458">πλέξαι στεφάνουσ· <ras main="R3">σ</ras>ὐνθηματιαίουσ εἴκοσιν·</l>
     <l n="37" v="459" retrait="5"><nota main="R2"><hi rend="monogramme">χρ</hi></nota>ἕτερον α<unclear cert="moyenne">ὖ</unclear>τί λῆ ματοῦτο</l>
-    <l n="38" v="460" retrait="5">κόμψό τερον ἔτ᾽<unclear cert="moyenne">ἢ</unclear> τὸ πρότερον ἀναπέφην<hi rend="sus">εν</hi>·</l>
+    <l n="38" v="460" retrait="5">κόμψό τερον ἔτ᾽<unclear cert="moyenne">ἢ</unclear> τὸ πρότερον ἀναπέφην<hi rend="sus">ε<abbr signe="¯" dev="ν"/></hi>·</l>
     <l n="39" v="461" retrait="5">οἷα κατεστωμύλατο</l>
     <l n="40" v="462" retrait="5">οὐκ᾽ἄκαιραφρένασἔχουσα·</l>
     <l n="41" v="463,464">καὶ πολύπλοκον νόημα· οὐδἀσύνετ᾽ἀλλὰ</l>
-    <l n="42" v="465" retrait="5">πιθανὰπάντα· δεῖ δὲταύτησ<unclear cert="moyenne">·</unclear></l>
+    <l n="42" v="465" retrait="5">πιθανὰπάντα· δεῖ δὲταύτησ·</l>
     <l n="43">τῆσ ὕβρεωσ ἡμῖ ν τὸν ἄνδρα περιφανῶσ δοῦναι δίκην</l>
   </lignes>
   <scholies>
   </scholies>
   <notes>
+    <note>Lecture A (lecture directe sur les planches ×2, puis agrandissements ×3 à ×9 sur l'original, CLAHE et décorrélation Lab), confrontée ensuite au texte de Hall–Geldart (abrégé HG) : chaque divergence a été revue à fort grossissement. Première lecture le 1er nov. ; reprise le 5 nov. : l. 42–43 recontrôlées, les 43 lignes revues à ×3, confrontation et notes. 43 lignes = index de la segmentation ; aucune réglure vide ; vv. 423–465 tous présents (numéros usuels : 433 = οὔπω, HG/Perseus 434). Esprits d'espèce indistincte : la valeur doux/rude de cette page n'est pas une donnée, sauf mention. Habitude de T sur la page : esprit en point, aigu et grave en trait, circonflexe en crochet ou en point ; dans une élision, l'apostrophe est une marque distincte, à gauche de l'esprit du mot suivant (λακωνὶκ᾽ ἄττα l. 1, ταῦτ᾽ ἐγὼ l. 9, τὰ δ᾽ ἄλλα l. 10, κοῦσ᾽ ἔβοσκον l. 26, οὐκ᾽ εἶναι l. 29, οὐκ᾽ ἄκαιρα l. 40) ; une seule marque entre deux mots est écrite comme esprit du mot suivant (guide, § 2.8 ; note « une marque »). Scholies et gloses (marges gauche et supérieure ; ὀδόντ(ας) l. 1 et φανερῶσ l. 20, marge intérieure) : autre lecteur. Coordonnées approchées, en px de l'image pleine résolution.</note>
+    <note ligne="1">HG Λακωνίκʼ ἄττα. R : λακωνὶκ᾽, grave net sur l'ι (x ≈ 948). Au-dessus de ἄττα, deux points (x ≈ 1000, 1011 ; y ≈ 355) puis un aigu haut, au-dessus des ττ (x ≈ 1036, y ≈ 344) : apostrophe, esprit et aigu (même disposition dans τὰ δ᾽ ἄλλα, l. 10 ; ἔχοντα, l. 1, et ἄνδρα, l. 43, sans élision, n'ont qu'un point et un aigu). L'inventaire, qui prend les deux points pour esprit et accent, ne voit pas d'apostrophe : corrigé.</note>
+    <note ligne="2">HG πρὸ … ἀλλʼ ὑποῖξαι. R : προ sans accent, ο plein (disque). ἀλλὑποῖξαι : seulement l'esprit de ἀ (x ≈ 1232, y ≈ 404) et celui de ὑ (x ≈ 1295, y ≈ 406) ; pas d'apostrophe (les autres traits de l'interligne sont les jambages de ν et de γ de la l. 1). Circonflexe de ποῖ réduit à un point posé sur l'ι (x ≈ 1352, y ≈ 423) ; l'ι simple de ποι (l. 3) n'a pas ce point.</note>
+    <note ligne="3">Aigu de σαμέναισι non séparable de la boucle haute de l'ε (x ≈ 1005–1020) : &lt;unclear&gt;. τριω βόλου : blanc gardé.</note>
+    <note ligne="4">HG ᾡκότριψ Εὐριπίδης. R : ὦ κότριψ : deux points au-dessus de l'ω (x ≈ 1224, 1238 ; y ≈ 490), esprit et circonflexe ; esprit indistinct (ὦ ou ὧ) : la crase ᾡ de HG n'est pas restituée ; pas d'ι adscrit ; blanc de 22 px entre ω et κ. ψ en croix. ἐὐρ : un point sur l'ε (x ≈ 1422, y ≈ 493) et un sur l'υ (x ≈ 1447, y ≈ 497) : esprit sur les deux voyelles (cf. ὀὐμὸσ, f. 172v l. 33) ; blanc de 20 px entre ρ et ι. Les « éléments interlinéaires » de la segmentation sont ces accents.</note>
+    <note ligne="5">HG ἐδίδαξε θριπήδεστʼ ἔχειν. R : ἐδίδαξεν, ν net (x ≈ 1008–1020, jambage plongeant) ; θριπήδεστα en toutes lettres, suivi d'un point médian. Esprit de ἐ rejeté dans la bande des sigles (x ≈ 788, y ≈ 545).</note>
+    <note ligne="6">HG τούτῳ. R : τοῦτω, sans ι adscrit (rien entre ω et δ). Accent au-dessus de υ/τ (x ≈ 1473–1488, y ≈ 584) : trait plat épaissi à gauche, plutôt circonflexe (celui de τοῦτο) qu'aigu : &lt;unclear&gt;. ω formé d'un ο auquel s'ajoute une petite boucle gauche, plus dense, liée à la barre du τ (ex τοῦτο corr. I m., Velsen 1871, inv.) ; main R1c présumée (ductus et encre de T). Fin trait vertical pâle entre υ et τ : rayure ?</note>
+    <note ligne="7">τιν᾽ : apostrophe (x ≈ 1047, y ≈ 627). Esprit de ὄ rejeté à gauche. Pas de ponctuation après ἁμωσγέπωσ (HG : virgule).</note>
+    <note ligne="8">HG ἢ φαρμάκοισιν ἢ μιᾷ γέ τῳ τέχνῃ. Premier ἢ : un seul point rond (x ≈ 809, y ≈ 681), aucun accent (le trait courbe à droite est la queue du λ de ὄλεθρον, l. 7) : esprit indistinct, ἠ ou ἡ. Second ἢ : une seule petite marque triangulaire (x ≈ 1196, y ≈ 675) : esprit et grave fondus ? μίᾶι : aigu (x ≈ 1264, y ≈ 678) et circonflexe en trait ondulé (x ≈ 1288–1305), double accent ; petit ι adscrit (x ≈ 1306–1310). γέτω sans ι ; τέχνηι avec ι. La goutte devant τέχνηι est l'attaque du τ, non un point. Point médian après φαρμάκοισιν.</note>
+    <note ligne="9">HG ἀπολεῖται. : pas de point dans R. ταῦτ᾽ἐγὼ : circonflexe (x ≈ 1286), apostrophe en crochet (x ≈ 1314), esprit placé haut (x ≈ 1326, y ≈ 714), grave (x ≈ 1364). ὅπω σ : blanc gardé.</note>
+    <note ligne="10">τὰ δ᾽ ἄλλα : deux points (x ≈ 904, 917 ; y ≈ 765), puis aigu au-dessus des λλ (x ≈ 943, y ≈ 757) : apostrophe sûre. γρ αμματέωσ : simple blanc, non une abréviation. Points après γραμματέωσ et en fin de ligne.</note>
+    <note ligne="11">HG οὔπω ταύτης. R : οὔπω τε ταύτησ ; πο suscrit par S2 (petit module, minuscule fine) entre ω et τε, τε non effacé : οὐπώποτε. L'aigu sur l'ω (x ≈ 1043, y ≈ 817), sans raison dans οὔπω, est posé sans doute avec πο : &lt;subst&gt;, main R?. οὔ : point (x ≈ 975) et trait croisé avec la queue du μ de μετὰ (l. 10, x ≈ 992). Sigle χ^ο (R2) à x ≈ 790–822, devant la ligne renfoncée ; pas de paragraphos.</note>
+    <note ligne="12">ἤ : une seule marque en coin, assez grande (x ≈ 949–962, y ≈ 847–855) : esprit et aigu fondus. v. 434–435 usuels (une seule ligne usuelle ; HG 435).</note>
+    <note ligne="13">HG οὐδὲ. R : οὐδε sans accent visible (×6). Après γυναικὸσ (HG : rien) et après λεγούσησ, un point seul (x ≈ 1179, y ≈ 910 ; x ≈ 1693, y ≈ 902). Les traits obliques au-dessous (x ≈ 1161–1170, y ≈ 918–924 ; x ≈ 1655–1663, y ≈ 925–930) sont les aigus de λέγει et de εἰδέασ (l. 14), placés au-dessus de leur ε : pas de figure « ; » (contre l'inventaire).</note>
+    <note ligne="14">HG πάσας δʼ ἰδέας. R : πασασ sans accent visible (×6, CLAHE) ; δ εἰδέασ : ει en « q » à ι descendant (x ≈ 1592–1614), une seule marque au-dessus (x ≈ 1589, y ≈ 931), écrite comme esprit de εἰ (une marque). Aigu de πάντα déporté (x ≈ 1014) ; point médian après δίκαια (HG : virgule).</note>
+    <note ligne="15">HG πάντα δʼ ἐβάστασεν : une marque entre δ et ε (x ≈ 1330, y ≈ 966). Point après ἐξήτασεν (HG : virgule). Aigu de ἐξή déporté à droite de l'Η (x ≈ 1000).</note>
+    <note ligne="16">Virgule après λόγο υσ, sur la ligne, à droite du σ (x ≈ 1492–1498, y ≈ 1042–1050) ; la l. 17 n'a pas d'accent au-dessous (l'aigu de μένουσ est à x ≈ 1467) ; absente de HG.</note>
+    <note ligne="17">HG ἀνηῦρεν. R : ἀνεῦρεν, ε en б (x ≈ 999–1019), non η ; circonflexe en crochet sur l'υ. Blancs gardés : ἀν | εῦ | ρ | εν (24, 18, 16 px), δι | εζ. Au-dessus de δι | εζ (x ≈ 1260–1277, y ≈ 1049–1054), trait court presque horizontal, épaissi à gauche, encre de type T : esprit et accent fondus posés sur l'ε (διἔζ-, corr. sec. Velsen 1883, inv. ; correction non visible) ? encodé comme signe, sans interprétation.</note>
+    <note ligne="18">HG παρʼ αὐτὴν Ξενοκλέης. R : παρ sans apostrophe ; αυτησ sans esprit ni accent visibles (la haste de l'η en « h » monte jusqu'à y ≈ 1096, sans circonflexe distinct) ; ξενοκλῆσ : η en « н », circonflexe en crochet (x ≈ 1452, y ≈ 1096). ὥστ᾽ : apostrophe (x ≈ 855). Trait de mine en diagonale, de la marge (x ≈ 430) à la fin de la l. 20 : repère de la Juntine (b 6, Velsen 1871, inv.), non imprimé ; il ne biffe rien.</note>
+    <note ligne="19">HG δοκεῖν ἂν. R : αν sans esprit ni accent visibles ; le trait de mine passe à hauteur des accents. Circonflexe de κεῖ : point sur le trait de mine (x ≈ 1023, y ≈ 1127), incertain.</note>
+    <note ligne="20">HG ἐγᾦμαι … μηδὲν. R : ἐγῶμαι : esprit sur ε (point haut, x ≈ 862, y ≈ 1166), circonflexe seul sur ω (x ≈ 907), sans ι adscrit ni coronis. μὴ accentué : point brun posé sur le trait de mine (x ≈ 1471, y ≈ 1182) ; δὲν à grave. Point isolé après λέγειν (x ≈ 1687, y ≈ 1198), à 25 px du mot et à 7 px de la glose φανερῶσ : ponctuation de T ou point initial de la glose (S2) : &lt;unclear&gt;.</note>
+    <note ligne="21">HG ὀλίγων ἕνεκα καὐτὴ. R : ὀλίγον de T, ω par ajout d'une boucle droite orangée (Rrec, guide § 1.5). ἕνεκ᾽ αὐτῆ : apostrophe (x ≈ 1071) et esprit (x ≈ 1095) distincts ; pas de κ de crase. Accent final en point rond (x ≈ 1157, y ≈ 1229) : circonflexe réduit (αὐτῆ, Velsen 1883, inv.) ou grave (αὐτὴ, Enger) : &lt;unclear&gt;. Paragraphos (x ≈ 735–766, y ≈ 1238) : encre de type S2 selon l'inventaire, de T selon Velsen 1871 : R?. Sigle de 1516 à gauche de la paragraphos, sans la recouvrir (orangé, rouge sur ds_lab, grand module) : esprit en crochet, ε, τ, petite boucle sous un grand trait courbe qui rejoint le γ (ε, ou ερ ?), υ à tréma, η en « н » surmonté d'un aigu vertical orangé (x ≈ 710) ; sigle attesté par M (guide § 1.4).</note>
+    <note ligne="22">HG ἄλλʼ αὕτη. R : ἄλλα en toutes lettres (esprit et aigu seuls, pas d'apostrophe), suivi d'un point bas (x ≈ 1109, y ≈ 1288). HG met un point après εὖ : rien dans R.</note>
+    <note ligne="23">HG ἃ δʼ ἐγὼ. Une marque entre δ et ε (x ≈ 841, y ≈ 1299). ἃ : petite marque en croix au-dessus de l'α (x ≈ 795, y ≈ 1304), esprit et grave ? Point final.</note>
+    <note ligne="24">HG ἁνὴρ. R : esprit indistinct (tache, x ≈ 1011, y ≈ 1336) : ἀνὴρ ou ἁνὴρ ; la crase de HG n'est pas restituée. Esprit de ἐμοὶ rejeté à gauche (x ≈ 782). κύπρωι : ι adscrit (x ≈ 1582), puis point (x ≈ 1597).</note>
+    <note ligne="25">HG καταλιπών, ἁγὼ. R : καταλιπὼν, grave (x ≈ 1348, y ≈ 1382), et point médian (x ≈ 1401, y ≈ 1403) ; le point plus bas (x ≈ 1411, y ≈ 1415) est l'esprit de ἐν (l. 26). Au-dessus de αγ : point (x ≈ 1431), point (x ≈ 1443), trait de grave (x ≈ 1450, y ≈ 1381) ; rien sur l'ω : ἃγω (le second point, coronis ou apostrophe de crase ?).</note>
+    <note ligne="26">κοῦσ᾽ ἔβοσκον : circonflexe, apostrophe (x ≈ 1162, y ≈ 1416), esprit et aigu : quatre marques.</note>
+    <note ligne="27">Aigu de τέ au-dessus de l'ε (x ≈ 813–818, y ≈ 1456) ; au-dessus de l'ω, point isolé (x ≈ 836, y ≈ 1456), sans lien avec la l. 26 : double accent τέὼσ ? (τέως corr. ex τεὼς, Velsen 1883, inv. ; aucun grattage visible) : &lt;unclear&gt;. τέω σ : blanc gardé. ἀλλ᾽ : apostrophe (x ≈ 1106) distincte des deux esprits.</note>
+    <note ligne="28">HG ταῖσιν … ποιῶν. R : ταῖσι sans ν ; ποῶν : π, ο, ω, sans ι (×6,5), circonflexe en point sur l'ω. δ᾽οὗτοσ : trois marques au-dessus de δοὗ, mais la première peut être le jambage du μ de μὲν (l. 27) : apostrophe incertaine.</note>
+    <note ligne="29">HG οὐκ εἶναι. R : οὐκ᾽ : point au-dessus du κ (x ≈ 1448, y ≈ 1542), puis esprit (x ≈ 1462) et circonflexe (x ≈ 1484) de εἶ.</note>
+    <note ligne="30">HG οὐκέτʼ ἐμπολῶμεν … εἰς ἥμισυ. R : une marque entre τ et ἐ (x ≈ 972, y ≈ 1580) ; εἰ σήμισυ : σ soudé à ή, aigu seul sur l'η (x ≈ 1396), sans esprit. οὐδ᾽ : crochet haut (x ≈ 1324, y ≈ 1585) puis point (x ≈ 1327, y ≈ 1599) : apostrophe et esprit.</note>
+    <note ligne="31">HG ἁπάσαισιν. R : ἁπάσαισι, sans ν. Point final (x ≈ 1561, y ≈ 1652) ; les marques au-dessous sont l'esprit et l'aigu de οὕνεκα (l. 32).</note>
+    <note ligne="33">HG κακά. R : κακὰ, grave net (x ≈ 1552–1557, y ≈ 1720). δρᾶι : circonflexe en long trait plat (x ≈ 1396–1420), qui touche le λ de πολλῶν (l. 32) ; ι adscrit (x ≈ 1426–1433).</note>
+    <note ligne="34">HG ἀγρίοισι τοῖς λαχάνοις αὐτὸς τραφείς. R omet τοῖς ; αὐτοστραφεὶσ en un mot, sans accent sur ο ; accent final en point (x ≈ 1506, y ≈ 1759), grave ou aigu : &lt;unclear&gt;. Signe en croix au-dessus de αὐ (x ≈ 1328, y ≈ 1757) : esprit anguleux (encre de type S2 selon l'inventaire), écrit comme esprit. Blancs gardés autour de ί dans ἀγρ ί οισι.</note>
+    <note ligne="35">HG εἰς ἀγορὰν. R : εἰσαγορὰν soudé, sans esprit sur l'α de αγορ- ; ἀλλ᾽εἰσ : esprit, apostrophe, esprit.</note>
+    <note ligne="36">HG συνθηματιαίους. R : σὐνθηματιαίουσ, avec esprit sur l'υ. σ de σὐν- écrit sur grattage, d'une encre brun-noir : ΔB/R −0,56 (n = 78, outil uniforme), contre −0,19 pour l'υ (n = 66, en partie sous la barre du σ) et 0,00 pour la suite du mot : R3 par l'encre (fait nouveau, à signaler ; R² sec. Velsen 1883, « σὐ in rasura », inv.). L'υ et son esprit (x ≈ 1232, y ≈ 1837) restent de T : leçon première οὐν-, ο gratté illisible. Point après στεφάνουσ (x ≈ 1172, y ≈ 1860), absent de HG.</note>
+    <note ligne="37">HG αὖ τι. R : τί accentué, aigu déporté au-dessus du λ (x ≈ 1158, y ≈ 1877). αὖ : une seule marque (x ≈ 1098). Sigle χρ en monogramme (le trait long du χ porte la boucle du ρ), x ≈ 848–886, devant la ligne renfoncée : χ^ρ, non γρ (Allen) ; main R2 par la forme (encre de type T selon l'inventaire).</note>
+    <note ligne="38">HG κομψότερον. R : κόμψότερον, deux aigus nets (x ≈ 967, 1048). ἔτ᾽ ἢ : trois points (x ≈ 1251, 1262, 1273) : apostrophe, esprit, grave. ἀναπέφην, puis ε lunaire suscrit suivi d'un long trait horizontal (x ≈ 1705–1755, y ≈ 1918–1935) : ν abrégé (ἀναπέφηνεν) ou trait de remplissage (ἀναπέφηνε) ; plus pâle et plus fin que le texte (ΔB/R −0,39 à faible densité, non probant) ; la place ne manquait pas : ajout d'une autre main non exclu. Point final.</note>
+    <note ligne="40">HG οὐκ ἄκαιρα. R : οὐκ᾽ : trois marques au-dessus de κα (x ≈ 997, 1014, 1029) : apostrophe, esprit, aigu.</note>
+    <note ligne="41">HG νόημʼ, οὐδʼ ἀσύνετʼ. R : νόημα en toutes lettres, point médian ; οὐδ ἀσύνετ᾽ : une marque entre δ et α (x ≈ 1353), deux points entre τ et α (x ≈ 1494, 1509) : apostrophe et esprit. Esprit de οὐ en croix (x ≈ 1299).</note>
+    <note ligne="42">Point bas sous la queue du σ de ταύτησ (x ≈ 1505, y ≈ 2134), sur la ligne d'écriture, au-dessus du circonflexe de φανῶσ (l. 43) : ponctuation de T ; absente de HG. Grave de πιθανὰ et aigu de πάντα déportés à droite.</note>
+    <note ligne="43">Ligne débordante à droite (jusqu'à x ≈ 1812) ; pas de point final.</note>
   </notes>
 </page>

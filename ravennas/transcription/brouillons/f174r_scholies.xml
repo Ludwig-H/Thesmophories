@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Scholies et gloses marginales de R, f. 174r (vv. 959–1001) ; transcription diplomatique, lue sur l'image puis confrontée à Rutherford 1896 et Dübner 1842 (4 nov. 2026).
      Ancre = rang de la ligne du bloc de texte (1–43) en face de laquelle la note commence.
-     Ordre : par ancre, et pour une même ancre gauche avant droite. Coordonnées en pixels de l'image pleine résolution 1855 × 2780. -->
+     Ordre : par ancre, et pour une même ancre gauche avant droite. Coordonnées en pixels de l'image pleine résolution 1855 × 2780.
+     Reprise du 5 nov. 2026 : n° 7 et 8 recontrôlées sur l'image (×3–×6, carte d'absorbance, versions clahe et ds_lab), ainsi que οτι (n° 1), ΛΛ (n° 3), ϗ et ʒ (n° 5) : lectures maintenues ; relevé diplomatique de Rutherford (pp. 498–499) relu sur l'image du PDF et Dübner (p. 270) sur l'OCR : accord avec les notes ci-dessous ; marges balayées de nouveau : rien d'omis.
+     Reprise du 11 nov. 2026 : n° 7 et 8 revus à ×3–×10 (original, carte d'absorbance, canal bleu) : lectures maintenues (n° 7 : point-circonflexe de τορῶσ, ϗ à queue et accent, Γ réduit lié à l'ε de λέγε, την sans accent ; n° 8 : ει et ʒ̀ toujours douteux, le verso n'explique pas l'anneau). Sondages dans les n° 1–6 (οτι, ἀπόλλωνα, ηρα sans signe (le trait au-dessus est une hampe de la l. 15), τέλειοσ, θρεμμάτων ; κ de εκαλεῖτο sans queue, contre ϗ ; ʒ̀ après τέλοσ) : accord. Dübner relu sur l'image de la p. 270 (PDF, p. 349) : numéros 968, 968, 969, 971, 973, 977, 986, 1001 (l'OCR porte « 972 » pour le n° 5). Sous la l. 43, le bloc « bas » de la segmentation (x≈540–585, y≈2245–2325) est la hampe du ζ de οἰμώζει.
+     Le validateur signale « ancre invalide » pour chaque note parce que <lignes/> est vide (même résultat pour les autres fichiers *_scholies.xml) ; avec 43 <l> fictives, il ne signale rien d'autre (valider et avertir vides). -->
 <page folio="f174r" image="24_f174r_classense176r_vv0959-1000.jpg" vers="959-1001">
   <lignes/>
   <scholies>

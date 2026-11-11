@@ -33,3 +33,6 @@ edition/images/*.jpg
 
 # découpes de travail des inventaires graphologiques (régénérables depuis les bbox des .jsonl)
 ravennas/graphologie/specimens/
+
+# découpes de travail des arbitrages (régénérables depuis les images des pages)
+ravennas/transcription/arbitrages/specimens/

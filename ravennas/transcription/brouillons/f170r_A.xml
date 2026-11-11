@@ -1,13 +1,13 @@
 <page folio="170r" image="16_f170r_classense172r_vv0635-0678.jpg" vers="636-678">
   <lignes>
     <l n="1" v="636">ἀπόδυσον αὐτὸν οὐδὲν ὑγιὲσ γὰρ λέγει·</l>
-    <l n="2" v="637"><nota main="R2">μνη<hi rend="sus">σ</hi></nota>κἄπειτ ἀπο δύσετ ἐννέαπαί δων μητέρα·</l>
-    <l n="3" v="638">χάλαι ταχέωσ τὸ στρόφιον ὦνἀίσχύντε σύ</l>
+    <l n="2" v="637"><nota main="R2">μνη<hi rend="sus">σ</hi></nota>κἄπειτ ἀποδύσετἐννέαπαί δων μητέρα·</l>
+    <l n="3" v="638">χάλαι ταχέωσ τὸ στρόφιον ὦνἀίσχύντεσύ</l>
     <l n="4" v="639">ὡ σκαὶ στι βαρά τισ φαίνεται· καὶ καρτερά·</l>
-    <l n="5" v="640">καὶ νὴ δί ατίτθοσγὥσπερ ἡ μεῖσ οὐκέχει·</l>
+    <l n="5" v="640">καὶ νὴ δί ατίτθοσγ᾽ὥσπερ ἡ μεῖσ οὐκέχει·</l>
     <l n="6" v="641"><parag/>στεριφῆι γάρ ει μι κ᾽οὐκ᾽ἐκύησαπώποτε·</l>
-    <l n="7" v="642">νῦν τό τεδη μήτηρ <unclear cert="moyenne">ῆ</unclear>σθαπαί δων ἐννέα·</l>
-    <l n="8" v="643">ἀνί στασ ὀ ρ θόσ· ποῖ τὸ πέοσ ῶθεισ κάτω·</l>
+    <l n="7" v="642">νῦντό τεδη μήτηρ ῆσθαπαί δων ἐνν<unclear cert="moyenne">έ</unclear>α·</l>
+    <l n="8" v="643">ἀνί στασ ὀ ρθόσ· ποῖ τὸ πέοσ <unclear cert="moyenne">ῶ</unclear>θεισ κάτω·</l>
     <l n="9" v="644"><parag/>τὸ δὶ δ<unclear cert="moyenne">ὴ</unclear> ἔκυψε καὶ μάλ᾽εὔχρων ὦ τάλαν·</l>
     <l n="10" v="645"><parag/><nota main="R2">κλεισ<hi rend="sus">θ</hi></nota>καὶ ποῦ<unclear cert="moyenne">᾽</unclear>στιν: αὖθι σ εἰστὸ πρόσθεν οἴχεται·</l>
     <l n="11" v="646"><parag/>οὐ κ<unclear cert="moyenne">έ</unclear>νγεταυθι; ἀλλὰ δεῦρ᾽ <ras main="R3">ἥκει πάλιν</ras>·<del type="grattage" main="R?"><gap n="3" unite="lettres" raison="grattage"/></del><signe type="renvoi" main="R?">÷</signe><add place="mg-d" main="R2"><signe type="renvoi" main="R?">÷</signe>ἰσ<hi rend="sus">θ</hi>μον τίν ἔχ<hi rend="sus"><unclear cert="moyenne">εισ</unclear></hi> ώνθρ<abbr signe="~" dev="ω"/>πε <abbr signe="~" dev="ω">ἄν</abbr> τ<hi rend="sus">ε</hi> <abbr signe="ϗ" dev="καί"/> <abbr signe="~" dev="ω">κάτ</abbr> <signe type="renvoi" main="R?">·/·</signe></add></l>
@@ -47,5 +47,12 @@
   <scholies>
   </scholies>
   <notes>
+    <note ligne="1">αὐτὸν : grave net (x 595–602, y 360–367) ; aucun point entre αὐτὸν et οὐδὲν (réf. αὐτόν·). Point final à mi-hauteur après λέγει ; le trait oblique à sa droite (x 1049–1062, y 409–418) est l'aigu de μητέρα (l. 2).</note>
+    <note ligne="2">Pas d'apostrophe après κἄπειτ ni après ἀποδύσετ (réf. κἄπειτ᾽ ἀποδύσετ᾽). Coupes mesurées : ἀπο|δύσετ 14 px (coupe ordinaire) ; la barre du τ de δύσετ court jusqu'à l'ε de ἐννέα (trait continu : soudé). Une seule marque entre τ et ε (x 639–645, y 421–426), en virgule : écrite comme esprit de ἐννέα ; apostrophe ou esprit. κἄ : coronis sur κ, aigu sur α. Point bas en fin de vers (réf. « ; »).</note>
+    <note ligne="3">χάλαι : ι court et détaché (x 396–403, 5 px après l'α), à la hauteur du corps des lettres : ι adscrit (réf. χάλα) ; l'aigu (x 334–343) est au-dessus du λ, rattaché au premier α par le déport à droite habituel. ὦν ἀί- : esprit sur α (x 892–900) et aigu sur ι (x 929–934) ; un second aigu, isolé (x 1009–1017, y 467–478), au-dessus de ντ, rattaché à υ (χύντε) : réf. ὦναίσχυντε sans accent sur υ. Pas de ponctuation finale (réf. « . ») ; le trait oblique sous σύ (x 1108–1130) est l'aigu de καρτερά (l. 4).</note>
+    <note ligne="4">Point à mi-hauteur après φαίνεται (x 841, y 527), absent de la réf. ὡ σκαὶ : blanc de 15 px entre ω et σ ; esprit de ω en point, d'espèce indistincte.</note>
+    <note ligne="5">ατίτθοσ : aigu sur le premier ι (x 534–540), ni υ ni accent sur ο (réf. τιτθούσ) ; pas d'esprit visible sur α ; l'aigu de δί est déporté (x 449–457). γ᾽ : petit crochet isolé au-dessus du γ (x 645–653, y 552–559), distinct de la haste du φ de la l. 4 (ds_lab) : apostrophe ; ὥ : point (esprit) et aigu au-dessus de ω. ἡ μεῖσ : circonflexe réduit à un point sur ει (x 860, y 558). οὐκέχει : aigu isolé au-dessus de l'ε (x 1018–1025, y 550–555), sans esprit (réf. οὐκ ἔχει). Point final.</note>
+    <note ligne="6">στεριφῆι : circonflexe en petit arc (x 423–432, y 603–611) au-dessus de ηι, ι adscrit court (réf. στερίφη). ει μι : ni esprit ni accent (réf. εἰμι). κ᾽ : point au-dessus de κ|ο (x 682–688, y 590–596), sous l'ω de ὥσπερ (l. 5), pris pour l'apostrophe ; οὐ : esprit en point sur υ ; οὐκ᾽ : crochet au-dessus du κ (x 752–759, y 596–609) ; ἐ- : esprit en point distinct (x 772–776) : apostrophe sûre (guide, § 2.8). Réf. κοὐκ.</note>
+    <note ligne="7">νῦντό : blanc de 3 px entre νυν et τό (soudé) ; circonflexe de νῦν réduit à un point, déporté au-dessus du τ (x 330–336) ; pas de point après νῦν (réf. νῦν·). τεδη μήτηρ : δη à η en « н » (réf. δὲ). ῆσθα : un seul signe, en petit arc (x 692–701, y 641–649), de même forme que le circonflexe de στεριφῆι (l. 6) : circonflexe sans esprit (réf. ἦσθα). ἐννέα : pas d'aigu séparé sur le second ε, mais le dos de l'ε monte en trait droit et épais très au-dessus de la lettre (jusqu'à y 648), au lieu de la crosse courbe des ε sans accent (στερι-, l. 6 ; ἐμαυτὸν, l. 15 ; τε, l. 7) : aigu probablement lié à l'ε, d'où le doute.</note>
   </notes>
 </page>

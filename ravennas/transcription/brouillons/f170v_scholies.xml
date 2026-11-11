@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Scholies et gloses marginales de R, f. 170v (vv. 679–720) ; transcription diplomatique (lecteur des scholies, 5 nov. 2026, DiploXML v1), reprise sur l'image. EN COURS : sch. 1–3 lues ; suite à reprendre à partir de la scholie de la marge gauche, l. 9. -->
+<!-- Scholies et gloses marginales de R, f. 170v (vv. 679–720) ; transcription diplomatique (lecteur des scholies, 5 nov. 2026, DiploXML v1), lue sur l'image. Reprise du 5 nov. : sch. 2–3 recontrôlées sur l'image, suite lue à partir de la sch. 4.
+     EN COURS : sch. 1–11 lues sur l'image ; reste la confrontation avec Rutherford et Dübner.
+     Ancre = numéro de la ligne du bloc de texte (1–43) en face de laquelle la note commence. Ordre : par ancre, puis gauche avant droite.
+     Verso : mg-g = marge extérieure, mg-d = marge intérieure. Coordonnées entre crochets : pixels de l'image pleine résolution 1921 × 2780.
+     Le validateur signale « ancre invalide » pour chaque note parce que <lignes/> est vide (comme pour les autres brouillons de scholies). -->
 <page folio="f170v" image="17_f170v_classense172v_vv0679-0720.jpg" vers="679-720">
   <lignes/>
   <scholies>
     <sch n="1" ancre="2" place="col" main="R2">ἀντι <abbr signe="˘" dev="οῦ">τ</abbr> διάπυροσ ὢν ταῖσ μανίαισ ÷</sch>
     <sch n="2" ancre="4" place="mg-g" main="R2">— γελοίωσ <abbr dev="εν">ει<hi rend="sus">π</hi></abbr> ὡσ <abbr dev="ρος">αλεξαν<hi rend="sus">δ</hi></abbr> ἦσαν <abbr signe="¯" dev="ἄνθρωποι"/> πέντε<lb/><abbr signe="ϗ" dev="καὶ"/> γυναῖκεσ τρεῖσ <abbr signe="\" dev="κται">πεπαι</abbr> <abbr signe="ȣ" dev="οὖν"/> <abbr dev="ο">του<hi rend="sus">τ</hi></abbr> ὡσ ἐν<lb/>κωμωδία ÷</sch>
     <sch n="3" ancre="7" place="col" main="R2">ἀποδίδωσιν ÷</sch>
+    <sch n="4" ancre="10" place="mg-g" main="R2"><gap n="5" unite="lettres" raison="tache"/> αρπάζει παιδίον μιᾶσ γυναι<lb coupe="oui"/><unclear cert="faible">κὸσ</unclear> <unclear cert="faible"><abbr signe="ϗ" dev="καὶ"/></unclear> <unclear cert="moyenne">κα</unclear>ταφεύγει ἐν τῶ ϊερῶ·<lb/><gap n="8" unite="lettres" raison="illisible"/> εαν με τύψητε κα<lb coupe="oui"/><gap n="4" unite="lettres" raison="illisible"/><unclear cert="faible">άξω</unclear> <abbr signe="˘" dev="οῦ">τ</abbr>το το παιδίον <abbr dev="ὶ">αν<hi rend="sus">τ</hi></abbr><lb/><gap n="8" unite="lettres" raison="illisible"/><unclear cert="faible">α</unclear>σκὸν οίνου λαμβάνει<lb/><gap n="7" unite="lettres" raison="illisible"/><unclear cert="moyenne">δ</unclear>ύει <abbr signe="\" dev="ὸν">κροκωτ</abbr> <abbr signe="ϗ" dev="καὶ"/> ποιει <abbr dev="ῷ">αυ<hi rend="sus">τ</hi></abbr><lb/><gap n="7" unite="lettres" raison="illisible"/> <unclear cert="moyenne">πό</unclear>δασ <abbr signe="ϗ" dev="καὶ"/> φησιν αὐτὸ <abbr signe="\" dev="ον">παιδί</abbr><lb/>δια<unclear cert="faible">βάλλει</unclear> τ<unclear cert="moyenne">ὰ</unclear>σ γυναῖκασ ὡσ εν ταῖσ<lb/>μα<unclear cert="faible">χαισ</unclear> <unclear cert="moyenne">α</unclear>υτῶν τοὺσ ἀσκο<unclear cert="moyenne">ὺ</unclear>σ τῶν<lb/><gap n="5" unite="lettres" raison="illisible"/> <unclear cert="moyenne">κα</unclear>τέχουσιν ÷</sch>
+    <sch n="5" ancre="16" place="mg-d" main="R2">· τῶν βωμῶν<lb/>απο <abbr signe="˘" dev="οῦ">τ</abbr> τὰ μηρία<lb/>επάνω ἀποκεῖ<lb coupe="oui"/>σθαι εκ δε <abbr signe="˘" dev="οῦ">τ</abbr> <abbr dev="ρι">π<hi rend="sus">ε</hi></abbr><lb coupe="oui"/>εχομένου τὸ<lb/>περιεχον <abbr dev="εν">ει<hi rend="sus">π</hi></abbr> ÷</sch>
+    <sch n="6" ancre="19" place="mg-g" main="R2">— τρο<unclear cert="faible">π</unclear><gap n="2" unite="lettres" raison="illisible"/><unclear cert="moyenne">ον</unclear> προπερισπωμένωσ<lb/>ανα<unclear cert="faible">γνωσ</unclear>τέον παρα αριστοφάνουσ<lb/><abbr signe="ϗ" dev="καὶ"/> <unclear cert="faible">παρὰ</unclear> <abbr dev="ίδου">θουκυ<hi rend="sus">δ</hi></abbr>· τρόπαιον <abbr signe="ʒ" dev="δὲ"/> προπα<lb coupe="oui"/>ρο<unclear cert="moyenne">ξυτό</unclear>νωσ παρα τοῖσ νεωτέροισ<lb/>ποι<unclear cert="moyenne">η</unclear><gap n="3" unite="lettres" raison="illisible"/>σ ÷</sch>
+    <sch n="7" ancre="25" place="mg-g" main="R2">παροιμία</sch>
+    <sch n="8" ancre="32" place="mg-g" main="R2"><gap n="4" unite="lettres" raison="illisible"/><unclear cert="moyenne">ν</unclear> ἀνδρῶν <abbr dev="σὶν">φ<hi rend="sus">η</hi></abbr> ὅθεν οὐκ <abbr dev="στιν">ε</abbr><lb/><gap n="6" unite="lettres" raison="illisible"/> συμμαχῶν γελοίωσ<lb/><gap n="6" unite="lettres" raison="illisible"/> <unclear cert="faible">ο</unclear>θεν ἥκεισ φαύλωσ ἥκεισ ÷</sch>
+    <sch n="9" ancre="33" place="col" main="R2">ἥκεισ <abbr dev="σὶν">φ<hi rend="sus">η</hi></abbr> εἰσ τὰσ χεῖρασ<lb/>ημῶν ὅθεν οὐ φεύξηι</sch>
+    <sch n="10" ancre="37" place="mg-d" main="R2">τοῦτο<lb/>το παθεῖν</sch>
+    <sch n="11" ancre="40" place="mg-g" main="R2"><unclear cert="faible">καθ</unclear>ηται ἐπι βωμ<unclear cert="moyenne">α</unclear>ῦ ὡσ <abbr dev="της">ϊκε</abbr><lb/><gap n="5" unite="lettres" raison="illisible"/><unclear cert="moyenne">ων</unclear> ἡρπακωσ τινὸσ <abbr dev="τριον">θυγά</abbr><lb/><gap n="2" unite="lettres" raison="illisible"/><unclear cert="faible">ον</unclear> <abbr signe="ʒ" dev="αι">φαινετ</abbr> <abbr signe="ʒ" dev="δὲ"/> ἀσκ<unclear cert="moyenne">ὸ</unclear>ν εχων ÷</sch>
   </scholies>
   <notes>
-    <note>Lecture en cours.</note>
+    <note>Lecture en cours (notes à compléter).</note>
   </notes>
 </page>

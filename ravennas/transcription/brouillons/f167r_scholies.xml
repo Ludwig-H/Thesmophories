@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 167r (vv. 380–422) ; transcription diplomatique (lecteur des scholies, 5 nov. 2026), lecture en cours.
+     Ancre = numéro de la ligne du bloc de texte (1–43) en face de laquelle la note commence (identique à l'index de la segmentation).
+     Ordre : par ancre, et pour une même ancre gauche avant droite.
+     Coordonnées entre crochets dans les notes : [x, y] ou [x0–x1, y0–y1] en pixels de l'image pleine résolution 1855 × 2780.
+     Le validateur signale « ancre invalide » pour chaque note parce que <lignes/> est vide (comme pour les autres fichiers de scholies). -->
+<page folio="f167r" image="10_f167r_classense169r_vv0380-0422.jpg" vers="380-422">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="1" place="mg-d" main="R2">ἀντι τὸν <abbr dev="ον">στέφαν̀</abbr> ἔθοσ <abbr dev="ρ">γα</abbr> ἦν τοῖσ λέ<lb coupe="oui"/>γουσι στεφανουσθαι <abbr dev="ον">πρῶτ̀</abbr> το <unclear cert="faible"><abbr signe="ʒ" dev="δέ"/></unclear> <gap n="2" unite="lettres" raison="illisible"/><lb coupe="oui"/>θου οπερ ἡμῖν συνηθεσ επιθου <abbr signe="⌒" dev="ειν">λεγ</abbr></sch>
+    <sch n="2" ancre="7" place="mg-d" main="R2">· ὑβριζομένασ</sch>
+    <sch n="3" ancre="10" place="mg-g" main="R2">— ἐπιχρίει ἐπι<lb coupe="oui"/>ξυει· σμηξαι <abbr signe="ʒ" dev="δέ"/> <abbr signe="·/·" dev="ἐστί"/><lb/>το τον ρυπον<lb/>ἐπιξυσαι ÷</sch>
+    <sch n="5" ancre="12" place="mg-g" main="R2">— αντι <abbr signe="˘" dev="οῦ">τ</abbr> εν όλοισ<lb/><abbr signe="˘" dev="οῦ">αυτ</abbr> τοῖσ δρα<lb coupe="oui"/>μασιν ÷</sch>
+  </scholies>
+  <notes>
+    <note sch="1">[1198–1610, 360–440]. Trois lignes, sans tiret initial ni signe final visibles. Sur περίθου νυν τόνδε τὸν στέφανον (v. 380, l. 1). L. 1 : esprit en point [1216, 373] ; ἀντι sans accent visible ; grave de τὸν déporté [1280, 369] ; aigu de στέ [1339, 370] ; στέφαν̀ : grave au-dessus du ν [1382, 368], signe de suspension, d'où στέφαν(ον) ; marque montante [1415, 360], accent de ἔθοσ (?) ; γα : Γ lié à un α de forme ordinaire chez S2 (Λ à crochet), sans signe d'abréviation visible, développé γα(ρ) ; ἦν : esprit [1462, 377] et circonflexe [1484, 370], Ν à diagonale presque horizontale ; τοῖσ : circonflexe en point [1526, 372]. L. 2 : πρῶτ̀ : circonflexe en point sur ω [≈1481, 395], ω en « Ш » ; grave sur le τ [1503, 397], suspension ; fin de ligne (x > 1515) pâlie par l'humidité : το, puis un signe en « ʒ » douteux [≈1545, 405], puis des traces [1560–1575] ; la ligne devait finir par περί ou π(ερί), puisque la l. 3 commence par θου. L. 3 : θ de S2 à barre débordante à gauche ; οπερ sans esprit ni accent visibles ; ἡμῖν : esprit [1305, 414], circonflexe en point [1337, 415] ; συνηθεσ, επιθου sans accent visible ; λεγ suivi d'un long trait montant [1592–1610, 417–408], suspension de -ειν.</note>
+    <note sch="2">[1099–1250, 630–657]. Glose de προπηλακιζομένασ (v. 386), à droite de la fin de la l. 7. Point initial [≈1100, 646], minuscule (2 px), contre l'υ : point d'ouverture ou tiret réduit. Esprit en point au-dessus de l'υ [1113, 634] ; β fermé (Β) ; ζ en Z ; aigu sur ε [1207, 639] ; Ν à diagonale basse. Pas de clôture.</note>
+    <note sch="3">[25–205, 778–868]. Quatre lignes, tiret [≈22, 788]. Sur ἐπισμῆι (v. 389, l. 10). L. 1 : esprit en point [52, 782] ; aigu de χρί [130, 782]. L. 2 : ξ en Z dont la queue descend dans la l. 3 et se soude à la barre du premier τ de το τον : ce long trait sur « το », que l'inventaire signale comme biffure possible, n'est pas une biffure (barre de τ prolongée et queue du ξ) ; point bas après ξυει [97, 827] ; σμηξαι sans circonflexe visible ; ʒ (δέ) et ·/· (ἐστί) en fin de ligne [172–200, 805–830], l'oblique pointé à l'aspect « % ». L. 3 : ni accent ni esprit visibles. L. 4 : esprit rejeté à gauche [40, 851] ; ÷ final.</note>
+    <note sch="5">[25–215, 870–940]. Trois lignes, tiret [≈24, 881]. Sur ἐν βραχύ (v. 390, l. 11) ; la première ligne est au droit de la l. 12. τ(οῦ) : τ surmonté d'un petit υ (ȣ), deux fois. αντι, εν, αυτ sans esprit ni accent visibles. όλοισ : un seul trait, aigu, au-dessus de ο|λ [≈185, 875], pas d'esprit visible. τοῖσ : circonflexe en « ^ » [≈95, 900].</note>
+  </notes>
+</page>
