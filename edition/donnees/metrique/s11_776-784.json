@@ -1,66 +1,66 @@
 [
-  {
-    "v": "776",
-    "partie": "",
-    "schema": "––⏑⏑– ‖",
-    "colon": "an",
-    "etiquette": "an. lyr.",
-    "note": "Monomètre (spondée + anapeste) : ὦ et χεῖ- longs, -ρες bref devant ἐ- (le ς passe à la syllabe suivante), -μαί long. Hiatus ἐμαί | ἐγχειρεῖν : -αι occupe une place longue, ce n'est pas une correption (pas d'abrègement en hiatus dans les dimètres anapestiques d'Aristophane, sauf Paix 1008 : White 1912, § 798). White (§ 286) écrit pourtant la finale brève (– – ⏑⏑ ⌣ 1^H) : selon son § 43 (p. 16), la longue s'abrège devant la voyelle de la période suivante, avec une pause ; simple différence de notation (même cas en 1065, s16). Il y a donc fin de période sans catalexe, à la pause du vocatif (R ponctue ἐμαὶ·, vu sur l'image). Monomètre isolé en tête du chant : προῳδός chez Reisig 1816 (p. 268), « proöde » chez White 1912 (§ 286 : 1^H), « I_H » chez Schroeder 1909 (p. 64), « attacco strofico del monometro » chez Prato 2001 (p. 282). Même attaque, même mesure et même hiatus au v. 1065, ὦ νὺξ ἱερά | ὡς μακρόν (Andromède) : Christ 1879 (p. 283) y voit un hiatus « excusé » par la seule ponctuation à l'intérieur du système ; Rossbach 1889 (p. 128), une pause de déclamation après l'apostrophe ; Kaibel, cité par Austin 1987 (p. 82), un « Kniff des Euripides ». L'hiatus a été supprimé par Porson (lacune), Hermann (ZfAW 5, 1838, col. 687) et Meineke (suppléments), Fritzsche (1838, p. 288 : χρῆν ἐγχειρεῖν), Velsen (χρή μ᾽ ἐγχειρεῖν), van Leeuwen et Coulon 1928 (⟨νῦν⟩ ἐγχειρεῖν). Il est défendu par Seidler (connu par Reisig 1816, p. 268, Hermann 1838, col. 687, et Enger 1844, p. 135), Reisig (p. 268 : le vers est une proöde), Christ, Rossbach, Lange 1891 (p. 20) et Austin 1987 (p. 82). Enger ne le défend pas : il rapporte Seidler, puis approuve la voie d'Hermann (p. 135 : « Quam emendandi viam sane veram habemus »). Voir le .md, § 6.1. Accentuation : ἐμαὶ (grave) devant la pause, là où Wilson 2007 et Coulon impriment ἐμαί,."
-  },
-  {
-    "v": "777",
-    "partie": "",
-    "schema": "–––– ––⏑⏑– ‖",
-    "colon": "2an",
-    "note": "Dimètre acatalecte : spondée, spondée | spondée, anapeste ; -ρῐ- bref (πόριμος). χρῆν est la conjecture de Bentley, imprimée par l'auteur comme par Hall–Geldart, Rogers, Blaydes, White, Wilson et Prato. Prato la défend (app. p. 84 : « def. Prato ») : selon lui, l'imparfait a ici valeur de présent (p. 283). R (vérifié sur l'image) et la Souda (π 2064, lue dans First1KGreek) ont χρή. Avec χρή, χρὴ ἔργῳ fait hiatus à la diérèse médiane, sans pause de sens ; χρή doit alors rester long (–––– | ––⏑⏑–). Les autres corrections donnent le même schéma que le texte imprimé : χρῆν ἐγχειρεῖν (Fritzsche 1838, p. 288), χρή μ᾽ ἐγχειρεῖν (Velsen 1883, p. 56), ⟨νῦν⟩ ἐγχειρεῖν ἔργῳ πορίμῳ (van Leeuwen 1904, p. 101 ; Coulon 1928, p. 50 ; χρή supprimé avec Bergk) et la transposition ἐγχειρεῖν ἔργῳ χρὴ πορίμῳ (Blaydes 1880, p. 79 : « possis transponere » ; approuvée par Dover selon Austin 1987, p. 82). Celle-ci perd seule la diérèse médiane (ἔρ|γῳ), que gardent tous les dimètres acatalectes du chant. Bergk seul (1867 : ἐγχειρεῖν [χρὴ] ἔργῳ πορίμῳ) donne –––– –⏖– : « kat. Dimeter » chez Conradt 1910 (p. 54, qui juge la syntaxe dure), mais ce parémiaque aurait un « dactyle » au troisième pied, que White 1912 (§ 273, p. 109) exclut (« allows the 'dactyl' only in the first simple foot »). Garder χρή avec l'hiatus suppose une fin de période après χρή, donc deux monomètres, ἐγχειρεῖν χρή | ἔργῳ πορίμῳ : c'est la disposition de Lange 1891 (p. 20). Austin 1987 (p. 82) tient l'hiatus pour voulu (parodie d'un procédé d'Euripide). Voir le .md, § 6.1. L'hiatus πορίμῳ | ἄγε marque une fin de période sans catalexe, à la fin de la phrase. Il est admis par White 1912 (2^H, finale notée brève comme en 776), Schroeder (II_H) et Conradt 1910 (p. 54 : il « muß sehr auffallen », mais « hinter ihm einzuschneiden », Mnésiloque allant prendre les tablettes). Il n'est pas admis de tous : il inquiétait Hermann (ZfAW 5, 1838, col. 687 : « Nun folgt aber gleich wieder ein Hiatus ») ; son supplément (… πορίμῳ χρή, Meineke) et la suppression de Bergk font de ce vers un colon catalectique, après lequel l'hiatus est régulier."
-  },
-  {
-    "v": "778",
-    "partie": "",
-    "schema": "⏑⏑–⏑⏑– –––– |",
-    "colon": "2an",
-    "note": "Dimètre : anapeste, anapeste | spondée, spondée ; πῐ-νᾰ- brefs (πίναξ [ῐ], -ᾰκος, LSJ) ; ξε- long par position (στ). Diérèse après πινάκων. Synaphie avec 779 (δέλτοι | δέξασθε : pas d'hiatus, pas de catalexe). White 1912 : même schéma."
-  },
-  {
-    "v": "779",
-    "partie": "",
-    "schema": "–––– ––– ‖",
-    "colon": "2an∧",
-    "note": "Parémiaque (2an∧) entièrement contracté : sept longues (δε- long devant ξ, -ξα- devant σθ, -σθε devant σμ, σμῑ- long par nature). σμῑ- : LSJ ; Souda σ 742 (μακρὸν τὸ ι) ; Babrius 98.13, fin de choliambe. Pas de diérèse entre les deux mètres (σμί|λης), trait des anapestes lyriques (West 1987, p. 60, § 2 ; White 1912, § 275 : un tiers des parémiaques méliques). La catalexe marque la fin de période. C'est la première des deux clausules spondaïques (White 1912, § 286 : « spondaic close », 4^C ; Prato 2001, p. 282 : « l'uso autonomo del paremiaco, formato, per di più, di tutte lunghe » ; Fritzsche 1838, p. 289 : « anapaestus spondaicus »). Le spondée au troisième pied n'appartient qu'aux vers méliques (White, § 273, p. 109). σμίλης / σμιλῆς (R corrigé par R², selon Velsen 1883, p. 56) : simple différence d'accent."
-  },
-  {
-    "v": "780",
-    "partie": "",
-    "schema": "––⏑⏑– –––– |",
-    "colon": "2an",
-    "note": "Dimètre : spondée, anapeste | spondée, spondée. κήρῡκας : ῡ long (κῆρυξ, -ῡκος) ; -κας bref devant ἐ- (le ς passe à ἐμῶν). Diérèse après ἐμῶν. οἴμοι appartient au second mètre (μόχθων οἴμοι = ––––) : l'exclamation comique est prise dans le mètre. R ponctue κήρυκας· ἐμῶν (Velsen 1883, p. 56 ; vu sur l'image). Synaphie avec 781 (οἴμοι | τουτί)."
-  },
-  {
-    "v": "781",
-    "partie": "",
-    "schema": "––⏑– ––– ‖",
-    "colon": "†",
-    "note": "Anomalie métrique. Le texte imprimé porte τορῶ, conjecture de l'auteur (critique.tex au v. 781). Or το- est bref (Ar. Paix 381 τετορήσω, anapeste de trimètre ; Il. 11.236 ἔτορε) et se trouve seul à la place du deuxième biceps, entre deux longues : c'est impossible en anapestes (la suite – – ⏑ – – – – est celle d'un dimètre iambique catalectique à anceps longs). La leçon de R est τὸ ῥῶ : je l'ai vérifiée sur l'image (accent sur το, esprit sur ρ, circonflexe sur ω) ; c'est le texte de Velsen, Coulon, Wilson, Prato et de tous les éditeurs consultés ; la scholie de R (ὡς Εὐριπίδην γράφων ἐν ᾧ τὸ ρ ἐστι, selon Martin 1882) lit déjà la lettre. Avec τὸ ῥῶ, schéma –––– ––– ‖ et colon 2an∧ : parémiaque entièrement contracté, τὸ étant allongé devant ῥ- initial. Cet allongement est la règle chez Aristophane, avec une seule exception, en trochées lyriques (Guêpes 1067) ; White 1912 (§ 796) cite précisément ce vers parmi les dimètres anapestiques. C'est aussi le schéma de White (§ 286 : « – – – – – – ⏑ », 4^CV, la finale -ρόν notée brève en fin de période). Ce colon reproduit exactement 779 : les périodes 778-779 et 780-781 sont alors deux tétramètres de même forme (White : a b c c d), tous deux à clausule spondaïque. Fritzsche 1838 (p. 289) le disait déjà : 781 est un vers « hujus farinae » que 779, fait par Aristophane pour railler ce type euripidéen ; Hermann (ZfAW 5, 1838, col. 687) et Enger 1844 (p. 136 : « hoc paroemiaco spondaico ») contestent l'intention, non la mesure. L'étiquette « (catalect.) » de l'édition antérieure de l'auteur, posée sur τορῶ, ne vaut qu'avec τὸ ῥῶ. Pour que τορῶ entre dans le parémiaque, il faudrait une brève devant lui (⏑ το- = biceps ⏑⏑). Voir le .md, § 6.2."
-  },
-  {
-    "v": "782",
-    "partie": "",
-    "schema": "–––– –––⏖ |",
-    "colon": "2an",
-    "note": "Dimètre : spondée, spondée | spondée, dactyle. ποι- est long ici : abrégé, il resterait seul à la place d'un biceps. La correption interne, possible ailleurs dans ce mot (White 1912, § 801, un seul exemple : Guêpes 1369, ποίαν αὐλητρίδα, anapeste de trimètre), n'a donc pas lieu. ποίᾱν, ᾱ long. αὔλακα = –⏖ : la dernière longue est résolue (λα-κα, ᾰ bref). Cela exclut une fin de période (la place finale ne peut être tenue par deux brèves), d'où la synaphie avec 783, κα restant bref devant β-. White 1912 : « – – – – – – – ⏑⏑ ». La résolution de la seconde longue d'un mètre est plus rare que celle de la première (« less often » : West 1987, p. 29-30). χώρει (R, texte de l'auteur, Wilson) / χωρεῖ (Brunck ; Coulon 1928) : même mesure. La lecture ποῖ ποτ᾽ ἂν αὔλακα, envisagée puis écartée par l'auteur (critique.tex au v. 782), donnerait –– –– | –⏖–⏖ : elle est métrique aussi. Le mètre ne départage donc pas, et le texte transmis est sain."
-  },
-  {
-    "v": "783",
-    "partie": "",
-    "schema": "–⏖–⏖ ––⏑⏑– |",
-    "colon": "2an",
-    "note": "Dimètre : dactyle, dactyle | spondée, anapeste. Les deux longues du premier mètre sont résolues (βάσ|κετ᾽ ἐ-, πεί|γετε), comme en Eschyle, Ag. 62-63 (West 1987, p. 49 : « resolution of the second princeps as well as the first »). βάσ- long (σκ) ; πᾱ- et -σᾱς longs. Diérèse après ἐπείγετε. καθόδους (R, vu sur l'image) / καθ᾽ ὁδούς (Biset ; texte de l'auteur) : même mesure (⏑⏑–). White 1912 : « – ⏑⏑ – ⏑⏑ – – ⏑⏑ – ». Synaphie avec 784. Avec la fin de 782, c'est la seule suite dactylique du chant : les trois seules résolutions tombent dans la dernière période, quand Mnésiloque lance les tablettes (βάσκετ᾽ ἐπείγετε … ταχέως χρή) ; voir le .md, § 2."
-  },
-  {
-    "v": "784",
-    "partie": "",
-    "schema": "–––– ⏑⏑–– ‖",
-    "colon": "2an∧",
-    "note": "Parémiaque : spondée, spondée | anapeste + longue finale ; τα-χέ-ως sans synizèse. κείνᾳ ταύτᾳ sont des datifs de forme dorienne (attique ἐκείνῃ, ταύτῃ). Porson les rapprochait d'Eur. Héc. 162-163 ποίαν ἢ ταύταν ἢ κείναν στείχω (« Hec. 163 » chez Rogers 1904, p. 81, et Enger 1844, p. 136), dans les anapestes lyriques de la monodie d'Hécube. Pour Prato 2001 (p. 282), ce vocalisme dorien est « la differenza più certa » qui fait de 776-784 des anapestes lyriques. Le mètre impose ταύτᾳ : ταῦτα (R, vu sur l'image : κειναι ταῦτα ; Enger 1844, p. 136, donne à tort ταύτᾳ R) donnerait – – – ⏑ ⏑ ⏑ – – : ou bien une brève à la place de la deuxième longue, ou bien, si ταῦτα τα- la résout, χε- bref seul à la place du biceps suivant. Attribution de ταύτᾳ : Grynaeus 1544 (Wilson 2007 ; Austin 1987, p. 83), « Brubachiana » de Francfort 1544 (Coulon 1928, p. 51 ; Prato 2001, app. p. 84 ; c'est la même édition), Reiske (Velsen 1883, p. 57 ; Enger 1844, p. 136, avec Porson) ; Rogers 1904 (p. 213) cite Grynaeus, Scaliger et Faber. κείνῃ ταύτῃ (Brunck, Blaydes, selon Rogers ; Brunck selon Prato) a la même mesure, sans la couleur dorienne. Coulon, Rogers et Prato (p. 84) renfoncent les parémiaques 779, 781 et 784. Fin du chant (White 1912 : 6^C)."
-  }
+ {
+  "v": 776,
+  "partie": "",
+  "schema": "––⏑⏑– ‖",
+  "colon": "an",
+  "etiquette": "an. lyr.",
+  "note": "Monomètre (spondée + anapeste) : ὦ et χεῖ- longs, -ρες bref devant ἐ- (le ς passe à la syllabe suivante), -μαί long. Hiatus ἐμαί | ἐγχειρεῖν : -αι occupe une place longue, ce n'est pas une correption (pas d'abrègement en hiatus dans les dimètres anapestiques d'Aristophane, sauf Paix 1008 : White 1912, § 798). White (§ 286) écrit pourtant la finale brève (– – ⏑⏑ ⌣ 1^H) : selon son § 43 (p. 16), la longue s'abrège devant la voyelle de la période suivante, avec une pause ; simple différence de notation (même cas en 1065, s16). Il y a donc fin de période sans catalexe, à la pause du vocatif (R ponctue ἐμαὶ·, vu sur l'image). Monomètre isolé en tête du chant : προῳδός chez Reisig 1816 (p. 268), « proöde » chez White 1912 (§ 286 : 1^H), « I_H » chez Schroeder 1909 (p. 64), « attacco strofico del monometro » chez Prato 2001 (p. 282). Même attaque, même mesure et même hiatus au v. 1065, ὦ νὺξ ἱερά | ὡς μακρόν (Andromède) : Christ 1879 (p. 283) y voit un hiatus « excusé » par la seule ponctuation à l'intérieur du système ; Rossbach 1889 (p. 128), une pause de déclamation après l'apostrophe ; Kaibel, cité par Austin 1987 (p. 82), un « Kniff des Euripides ». L'hiatus a été supprimé par Porson (lacune), Hermann (ZfAW 5, 1838, col. 687) et Meineke (suppléments), Fritzsche (1838, p. 288 : χρῆν ἐγχειρεῖν), Velsen (χρή μ᾽ ἐγχειρεῖν), van Leeuwen et Coulon 1928 (⟨νῦν⟩ ἐγχειρεῖν). Il est défendu par Seidler (connu par Reisig 1816, p. 268, Hermann 1838, col. 687, et Enger 1844, p. 135), Reisig (p. 268 : le vers est une proöde), Christ, Rossbach, Lange 1891 (p. 20) et Austin 1987 (p. 82). Enger ne le défend pas : il rapporte Seidler, puis approuve la voie d'Hermann (p. 135 : « Quam emendandi viam sane veram habemus »). Voir le .md, § 6.1. Accentuation : ἐμαὶ (grave) devant la pause, là où Wilson 2007 et Coulon impriment ἐμαί,."
+ },
+ {
+  "v": 777,
+  "partie": "",
+  "schema": "–––– ––⏑⏑– ‖",
+  "colon": "2an",
+  "note": "Dimètre acatalecte : spondée, spondée | spondée, anapeste ; -ρῐ- bref (πόριμος). χρῆν est la conjecture de Bentley, imprimée par l'auteur comme par Hall–Geldart, Rogers, Blaydes, White, Wilson et Prato. Prato la défend (app. p. 84 : « def. Prato ») : selon lui, l'imparfait a ici valeur de présent (p. 283). R (vérifié sur l'image) et la Souda (π 2064, lue dans First1KGreek) ont χρή. Avec χρή, χρὴ ἔργῳ fait hiatus à la diérèse médiane, sans pause de sens ; χρή doit alors rester long (–––– | ––⏑⏑–). Les autres corrections donnent le même schéma que le texte imprimé : χρῆν ἐγχειρεῖν (Fritzsche 1838, p. 288), χρή μ᾽ ἐγχειρεῖν (Velsen 1883, p. 56), ⟨νῦν⟩ ἐγχειρεῖν ἔργῳ πορίμῳ (van Leeuwen 1904, p. 101 ; Coulon 1928, p. 50 ; χρή supprimé avec Bergk) et la transposition ἐγχειρεῖν ἔργῳ χρὴ πορίμῳ (Blaydes 1880, p. 79 : « possis transponere » ; approuvée par Dover selon Austin 1987, p. 82). Celle-ci perd seule la diérèse médiane (ἔρ|γῳ), que gardent tous les dimètres acatalectes du chant. Bergk seul (1867 : ἐγχειρεῖν [χρὴ] ἔργῳ πορίμῳ) donne –––– –⏖– : « kat. Dimeter » chez Conradt 1910 (p. 54, qui juge la syntaxe dure), mais ce parémiaque aurait un « dactyle » au troisième pied, que White 1912 (§ 273, p. 109) exclut (« allows the 'dactyl' only in the first simple foot »). Garder χρή avec l'hiatus suppose une fin de période après χρή, donc deux monomètres, ἐγχειρεῖν χρή | ἔργῳ πορίμῳ : c'est la disposition de Lange 1891 (p. 20). Austin 1987 (p. 82) tient l'hiatus pour voulu (parodie d'un procédé d'Euripide). Voir le .md, § 6.1. L'hiatus πορίμῳ | ἄγε marque une fin de période sans catalexe, à la fin de la phrase. Il est admis par White 1912 (2^H, finale notée brève comme en 776), Schroeder (II_H) et Conradt 1910 (p. 54 : il « muß sehr auffallen », mais « hinter ihm einzuschneiden », Mnésiloque allant prendre les tablettes). Il n'est pas admis de tous : il inquiétait Hermann (ZfAW 5, 1838, col. 687 : « Nun folgt aber gleich wieder ein Hiatus ») ; son supplément (… πορίμῳ χρή, Meineke) et la suppression de Bergk font de ce vers un colon catalectique, après lequel l'hiatus est régulier."
+ },
+ {
+  "v": 778,
+  "partie": "",
+  "schema": "⏑⏑–⏑⏑– –––– |",
+  "colon": "2an",
+  "note": "Dimètre : anapeste, anapeste | spondée, spondée ; πῐ-νᾰ- brefs (πίναξ [ῐ], -ᾰκος, LSJ) ; ξε- long par position (στ). Diérèse après πινάκων. Synaphie avec 779 (δέλτοι | δέξασθε : pas d'hiatus, pas de catalexe). White 1912 : même schéma."
+ },
+ {
+  "v": 779,
+  "partie": "",
+  "schema": "–––– ––– ‖",
+  "colon": "2an∧",
+  "note": "Parémiaque (2an∧) entièrement contracté : sept longues (δε- long devant ξ, -ξα- devant σθ, -σθε devant σμ, σμῑ- long par nature). σμῑ- : LSJ ; Souda σ 742 (μακρὸν τὸ ι) ; Babrius 98.13, fin de choliambe. Pas de diérèse entre les deux mètres (σμί|λης), trait des anapestes lyriques (West 1987, p. 60, § 2 ; White 1912, § 275 : un tiers des parémiaques méliques). La catalexe marque la fin de période. C'est la première des deux clausules spondaïques (White 1912, § 286 : « spondaic close », 4^C ; Prato 2001, p. 282 : « l'uso autonomo del paremiaco, formato, per di più, di tutte lunghe » ; Fritzsche 1838, p. 289 : « anapaestus spondaicus »). Le spondée au troisième pied n'appartient qu'aux vers méliques (White, § 273, p. 109). σμίλης / σμιλῆς (R corrigé par R², selon Velsen 1883, p. 56) : simple différence d'accent."
+ },
+ {
+  "v": 780,
+  "partie": "",
+  "schema": "––⏑⏑– –––– |",
+  "colon": "2an",
+  "note": "Dimètre : spondée, anapeste | spondée, spondée. κήρῡκας : ῡ long (κῆρυξ, -ῡκος) ; -κας bref devant ἐ- (le ς passe à ἐμῶν). Diérèse après ἐμῶν. οἴμοι appartient au second mètre (μόχθων οἴμοι = ––––) : l'exclamation comique est prise dans le mètre. R ponctue κήρυκας· ἐμῶν (Velsen 1883, p. 56 ; vu sur l'image). Synaphie avec 781 (οἴμοι | τουτί)."
+ },
+ {
+  "v": 781,
+  "partie": "",
+  "schema": "––⏑– ––– ‖",
+  "colon": "†",
+  "note": "Anomalie métrique. Le texte imprimé porte τορῶ, conjecture de l'auteur (critique.tex au v. 781). Or το- est bref (Ar. Paix 381 τετορήσω, anapeste de trimètre ; Il. 11.236 ἔτορε) et se trouve seul à la place du deuxième biceps, entre deux longues : c'est impossible en anapestes (la suite – – ⏑ – – – – est celle d'un dimètre iambique catalectique à anceps longs). La leçon de R est τὸ ῥῶ : je l'ai vérifiée sur l'image (accent sur το, esprit sur ρ, circonflexe sur ω) ; c'est le texte de Velsen, Coulon, Wilson, Prato et de tous les éditeurs consultés ; la scholie de R (ὡς Εὐριπίδην γράφων ἐν ᾧ τὸ ρ ἐστι, selon Martin 1882) lit déjà la lettre. Avec τὸ ῥῶ, schéma –––– ––– ‖ et colon 2an∧ : parémiaque entièrement contracté, τὸ étant allongé devant ῥ- initial. Cet allongement est la règle chez Aristophane, avec une seule exception, en trochées lyriques (Guêpes 1067) ; White 1912 (§ 796) cite précisément ce vers parmi les dimètres anapestiques. C'est aussi le schéma de White (§ 286 : « – – – – – – ⏑ », 4^CV, la finale -ρόν notée brève en fin de période). Ce colon reproduit exactement 779 : les périodes 778-779 et 780-781 sont alors deux tétramètres de même forme (White : a b c c d), tous deux à clausule spondaïque. Fritzsche 1838 (p. 289) le disait déjà : 781 est un vers « hujus farinae » que 779, fait par Aristophane pour railler ce type euripidéen ; Hermann (ZfAW 5, 1838, col. 687) et Enger 1844 (p. 136 : « hoc paroemiaco spondaico ») contestent l'intention, non la mesure. L'étiquette « (catalect.) » de l'édition antérieure de l'auteur, posée sur τορῶ, ne vaut qu'avec τὸ ῥῶ. Pour que τορῶ entre dans le parémiaque, il faudrait une brève devant lui (⏑ το- = biceps ⏑⏑). Voir le .md, § 6.2."
+ },
+ {
+  "v": 782,
+  "partie": "",
+  "schema": "–––– –––⏖ |",
+  "colon": "2an",
+  "note": "Dimètre : spondée, spondée | spondée, dactyle. ποι- est long ici : abrégé, il resterait seul à la place d'un biceps. La correption interne, possible ailleurs dans ce mot (White 1912, § 801, un seul exemple : Guêpes 1369, ποίαν αὐλητρίδα, anapeste de trimètre), n'a donc pas lieu. ποίᾱν, ᾱ long. αὔλακα = –⏖ : la dernière longue est résolue (λα-κα, ᾰ bref). Cela exclut une fin de période (la place finale ne peut être tenue par deux brèves), d'où la synaphie avec 783, κα restant bref devant β-. White 1912 : « – – – – – – – ⏑⏑ ». La résolution de la seconde longue d'un mètre est plus rare que celle de la première (« less often » : West 1987, p. 29-30). χώρει (R, texte de l'auteur, Wilson) / χωρεῖ (Brunck ; Coulon 1928) : même mesure. La lecture ποῖ ποτ᾽ ἂν αὔλακα, envisagée puis écartée par l'auteur (critique.tex au v. 782), donnerait –– –– | –⏖–⏖ : elle est métrique aussi. Le mètre ne départage donc pas, et le texte transmis est sain."
+ },
+ {
+  "v": 783,
+  "partie": "",
+  "schema": "–⏖–⏖ ––⏑⏑– |",
+  "colon": "2an",
+  "note": "Dimètre : dactyle, dactyle | spondée, anapeste. Les deux longues du premier mètre sont résolues (βάσ|κετ᾽ ἐ-, πεί|γετε), comme en Eschyle, Ag. 62-63 (West 1987, p. 49 : « resolution of the second princeps as well as the first »). βάσ- long (σκ) ; πᾱ- et -σᾱς longs. Diérèse après ἐπείγετε. καθόδους (R, vu sur l'image) / καθ᾽ ὁδούς (Biset ; texte de l'auteur) : même mesure (⏑⏑–). White 1912 : « – ⏑⏑ – ⏑⏑ – – ⏑⏑ – ». Synaphie avec 784. Avec la fin de 782, c'est la seule suite dactylique du chant : les trois seules résolutions tombent dans la dernière période, quand Mnésiloque lance les tablettes (βάσκετ᾽ ἐπείγετε … ταχέως χρή) ; voir le .md, § 2."
+ },
+ {
+  "v": 784,
+  "partie": "",
+  "schema": "–––– ⏑⏑–– ‖",
+  "colon": "2an∧",
+  "note": "Parémiaque : spondée, spondée | anapeste + longue finale ; τα-χέ-ως sans synizèse. κείνᾳ ταύτᾳ sont des datifs de forme dorienne (attique ἐκείνῃ, ταύτῃ). Porson les rapprochait d'Eur. Héc. 162-163 ποίαν ἢ ταύταν ἢ κείναν στείχω (« Hec. 163 » chez Rogers 1904, p. 81, et Enger 1844, p. 136), dans les anapestes lyriques de la monodie d'Hécube. Pour Prato 2001 (p. 282), ce vocalisme dorien est « la differenza più certa » qui fait de 776-784 des anapestes lyriques. Le mètre impose ταύτᾳ : ταῦτα (R, vu sur l'image : κειναι ταῦτα ; Enger 1844, p. 136, donne à tort ταύτᾳ R) donnerait – – – ⏑ ⏑ ⏑ – – : ou bien une brève à la place de la deuxième longue, ou bien, si ταῦτα τα- la résout, χε- bref seul à la place du biceps suivant. Attribution de ταύτᾳ : Grynaeus 1544 (Wilson 2007 ; Austin 1987, p. 83), « Brubachiana » de Francfort 1544 (Coulon 1928, p. 51 ; Prato 2001, app. p. 84 ; c'est la même édition), Reiske (Velsen 1883, p. 57 ; Enger 1844, p. 136, avec Porson) ; Rogers 1904 (p. 213) cite Grynaeus, Scaliger et Faber. κείνῃ ταύτῃ (Brunck, Blaydes, selon Rogers ; Brunck selon Prato) a la même mesure, sans la couleur dorienne. Coulon, Rogers et Prato (p. 84) renfoncent les parémiaques 779, 781 et 784. Fin du chant (White 1912 : 6^C)."
+ }
 ]

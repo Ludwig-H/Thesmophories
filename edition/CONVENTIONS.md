@@ -134,6 +134,8 @@ sources (répertoire critique) — les erreurs d'attribution de Coulon sont conn
 
 ## 5. Le texte grec établi
 
+- **Numérotation des vers** : numérotation usuelle, celle de Brunck (1783), que suivent l'auteur, Velsen, Coulon, Prato (et, à quelques lieux près, Wilson) ; 375 à ἐκκλησίαν ποιεῖν ; les lignes de l'auteur qui réunissent deux numéros en gardent un (le multiple de 5 s'il y en a un) ; pas de lettres. Concordance avec les autres éditions : `edition/donnees/concordance_vers.tsv`, `outils/controle/concordance.py` ; étude : `recherche/numerotation_vers.md`.
+
 - Orthographe attique normalisée (iota souscrit, ξυν-/συν- selon l'usage du poète et
   les éditeurs récents, crase et élision notées), ponctuation moderne, majuscule aux
   noms propres seulement.

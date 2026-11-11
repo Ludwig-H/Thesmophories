@@ -1,323 +1,323 @@
 [
-  {
-    "v": "1016",
-    "v_usuel": "1015",
-    "partie": "",
-    "schema": "⏑–– ⏑–⏑– |",
-    "colon": "ba ia",
-    "etiquette": "lyr.",
-    "note": "Bacchée + iambe : φῐ- bref, -λαι long, παρ- long, -θε- bref, -νοι long, φῐ- bref, -λαι long. R, f. 174v, l. 14. Même analyse : Schroeder 1909, p. 65 ; Zimmermann 1987, p. 77 ; Prato 2001, p. 354 ; Di Virgilio 2026, p. 106 ; l'auteur (« bacch. + ia. ») ; White 1912, p. 159 (⏑–·– ⏑–⏑–). Euripide avait φίλαι παρθένοι, φίλαι μοι (Σ 1015), soit do + ba : en retranchant μοι, Aristophane change le mètre (Mastromarco 2008, p. 180-181, d'après Hose 1986-1987 [non consulté]). Avec ⟨οὖν⟩ après ἂν en 1016 (Hermann, « ut numeri dochmiaci fierent » : Wilson 2007, app. p. 115 ; texte de Hall–Geldart), 1015-1016 feraient trois dochmiaques ⏑––⏑– ; sans ce supplément, pas de dochmiaque ici (.md, § 6.1). Étiquette « lyr. » (déjà dans texte.tex) : chant polymétrique astrophique."
-  },
-  {
-    "v": "1017",
-    "v_usuel": "1016",
-    "partie": "",
-    "schema": "–⏑⏑– –⏑– |",
-    "colon": "ch cr",
-    "note": "Choriambe + crétique : πῶς long, ἂν bref (ἂ-νἀ-), ἀ- bref, -πέλ- long, -θοι long, -μι bref, καὶ long devant τ-. R, l. 15. ἀπέλθοιμι (R, l'auteur, Coulon, Prato, Wilson), ἐπέλθοιμι (Ellebodius selon l'apparat de l'auteur et Prato 2001, p. 108 ; Brunck selon Enger, Velsen, White), ὑπέλθοιμι (Bentley) : même mesure. Même analyse : Schroeder 1909 (ch cr) ; Zimmermann 1987 (ch cr) ; Prato 2001 (chor cr ; « caro a Pindaro », p. 355) ; Di Virgilio 2026 (cho cr) ; l'auteur (« chor. + cret. ») ; White 1912 : –⏑⏑– ·–⏑–, choriambe tenant lieu de mètre iambique (§ 71)."
-  },
-  {
-    "v": "1018",
-    "v_usuel": "1017",
-    "partie": "",
-    "schema": "–⏑–⏑–⏓ ‖",
-    "colon": "ith",
-    "note": "Ithyphallique : τὸν long (ν + σκ), Σκῠ- bref, -θην long, λᾰ- bref, -θοι long, -μι bref à la dernière place, devant κλύεις : fin de période (κλ laisse la syllabe brève, comme muette + liquide ailleurs dans le chant ; point d'interrogation). Même analyse : Schroeder 1909 (ithyph), Zimmermann 1987 (ith ‖), Prato 2001 (ith), l'auteur (« ithyph. ») ; Di Virgilio 2026 : 2tr∧∧ ; White 1912 : ·–⏑–⏑–⏑, fin d'un hexamètre iambique (6^CV). λάθοιμι (Ellebodius, Casaubon : Austin 1987 ; Wilson 2007 ; Prato 2001) pour λάβοιμι de R (image, l. 16) : même mesure."
-  },
-  {
-    "v": "1019",
-    "v_usuel": "1018-1019",
-    "partie": "",
-    "schema": "⏑–– ⏑–– ⏑–– ⏑–– |",
-    "colon": "4ba",
-    "note": "Une rangée chez l'auteur, comme chez Coulon 1928, p. 61, et Wilson 2007, p. 115 ; R en deux lignes, l. 17-18 : κλύεις ὦ | προσᾳδοῦσσαι τὰς ἐν ἄντροις (image). Tétramètre bacchiaque : κλῠ- bref, -εις long, ὦ long | προ- bref, -σᾴ- long, -δου- long | σ'ἀ- bref, -ῡ- long (ᾰῡτή), -τὰς long | ἐ- bref (ἐ-νἄν-), ἄν- long, -τροις long. Texte : προσᾴδουσ' (Elmsley) ἀϋτάς (Burges) ; ἀϋταῖς (Sommerstein ; Di Virgilio) a la même mesure. Même analyse : Mitsdörffer, d'après Sommerstein 1994, p. 224 (« bacchiac tetrameter ») ; Zimmermann 1987 (2 ba | 2 ba ‖) ; l'auteur (« 4 bacch. ») ; Di Virgilio 2026, p. 106, sur les lignes de R (ba | ba ba ba). Même tétramètre à l'appel d'Athéna, 1143-1144 (Sommerstein 1994, p. 230). Sans ἀϋ- : Prato 2001, p. 110 et 354, κλύεις, ὦ προσᾴδου|σα τὰς ἐν ἄντροις (Elmsley) = 2 ba | reiz (⏑–⏑––) ; même suite chez Coulon (τἄμ', Willems) et Schroeder 1909, p. 65 (κλύεις; ὦ προσαυδῶ | σὲ τὰν ἐν ἄντροις). White 1912, p. 159, lit le texte de Seidler (πρὸς αἰδοῦς σε τὰν). Zimmermann marque ici une fin de période ; rien ne l'impose (-τροις long devant κ-) et le texte de l'auteur porte une virgule : fin de colon."
-  },
-  {
-    "v": "1020",
-    "v_usuel": "1020",
-    "partie": "",
-    "schema": "⏖ –⏑⏑– ⏑– |",
-    "colon": "tel",
-    "note": "Télésilléen à anceps résolu : κα-τά brefs, -νευ- long, -σο-νἔ- brefs, -ᾱ- long (ἔᾱσον, sans synizèse), -σο- bref, ὡς long : ⏑⏑–⏑⏑–⏑–. Analyse de l'auteur (« telesill. ») et de Zimmermann 1987 (tel). La même suite reçoit d'autres noms : glyconien à base ⏑⏑ (Di Virgilio 2026 ; base « avoided almost completely » après les Lesbiens : West 1987, p. 33) ; prosodiaque (Prato 2001, p. 354 : pros) ; colon des contextes dochmiaques ⏑⏑–⏑⏑–⏓– (West 1987, p. 57) ; Schroeder 1909 : sans nom. White 1912, p. 159, scande ἔασον en synizèse (type courant : West 1987, p. 15) et lit un trimètre iambique à choriambe (§ 71). Aristophane garde l'ἔασον d'Euripide et remplace ἀπόπαυσον (Σ 1018 ; Seidler) par κατάνευσον, de même mesure (Sommerstein 1994, p. 225 ; Prato 2001, p. 317). Synaphie avec 1021 : ὡς, préposition, ne se sépare pas de son régime."
-  },
-  {
-    "v": "1021",
-    "v_usuel": "1021",
-    "partie": "",
-    "schema": "–⏑–⏑–– ‖",
-    "colon": "ith",
-    "note": "Ithyphallique : τὴν long, γῠ- bref, -ναῖ- long, -κα bref, μ'ἐλ- long, -θεῖν long. Fin de phrase et de période. Même analyse : Schroeder 1909, Zimmermann 1987 (ith ‖), Prato 2001, l'auteur ; Di Virgilio 2026 : 2tr∧∧ ; White 1912 : ·–⏑–⏑––, fin d'un heptamètre (7^C). Avec 1015-1017, deux périodes closes par le même ithyphallique (.md, §§ 2-3). Prato 2001, p. 110, laisse ici un blanc ; Schroeder 1909 sépare aussi 1015-1021 de 1022-1055."
-  },
-  {
-    "v": "1022",
-    "v_usuel": "1022",
-    "partie": "",
-    "schema": "⏑–⏑– ⏑–⏑– |",
-    "colon": "2ia",
-    "note": "Dimètre iambique pur : ἀ- bref, -νοικ- long, -το- bref, ὅς long (σ + μ), μ'ἔ- bref, -δη- long, -σε bref, τὸν long devant π-. Synaphie : l'article est séparé de son nom par la fin de colon, comme dans R (l. 21 ; sigle μνη ajouté par R² : Velsen, Prato). Même analyse chez tous (White, Schroeder, Zimmermann, Prato, Di Virgilio ; l'auteur : « dim. iamb. »)."
-  },
-  {
-    "v": "1023",
-    "v_usuel": "1023",
-    "partie": "",
-    "schema": "⏖⏑–⏑ –⏑– ‖",
-    "colon": "lec",
-    "note": "Lécythion à première longue résolue : πο-λυ (⏖), -πο- bref, -νώ- long, -τα- bref, -τον long, βρο- bref, -τῶν long. Fin de période (catalexe, point). πολυπονώτατον : R (image, l. 22), l'auteur, Coulon, Prato, Zimmermann. Wilson 2007, p. 115, imprime πολυστονώτατον (Burges ; Enger : « quam numeri requirunt »), qui ferait un dimètre iambique. La conjecture est à écarter : Euripide avait la même suite (Σ 1022 : τὴν πολυπονωτάτην βροτῶν, fr. 120 ; cf. E. Hec. 722 Perseus [721 chez Rogers] ὥς σε πολυπονωτάτην βροτῶν), et Rogers 1904, p. 110, note que le vers répond syllabe pour syllabe à ὅδε γὰρ ὁ Σκύθης φύλαξ (1026). Même analyse : White (⏖⏑–⏑ –⏑– 2^C), Schroeder (~lecyth), Zimmermann, Prato (lec ; asynartète « ia. ia.-lec. », p. 355), l'auteur (« + lecyth. ») ; Di Virgilio 2026 : 2tr∧."
-  },
-  {
-    "v": "1024",
-    "v_usuel": "1024",
-    "partie": "",
-    "schema": "⏑–⏑– ⏑⏖⏑– |",
-    "colon": "2ia",
-    "note": "Dimètre iambique, second mètre à longue résolue : μό- bref, -λις long, δὲ bref (γρ sans position), γραῖ- long | -ᾰ bref, ἀ-πο (⏖), -φῠ- bref, -γὼν long. Synaphie probable avec 1025 (γραῖαν … σαπρὰν). Même analyse : White (⏑–⏑– ⏑⏖⏑–), Schroeder (ia ~ia), Zimmermann, Prato, Di Virgilio (2ia), l'auteur (« dim. iamb. »)."
-  },
-  {
-    "v": "1025",
-    "v_usuel": "1025",
-    "partie": "",
-    "schema": "⏑–⏑– ⏑–⏑– ‖",
-    "colon": "2ia",
-    "note": "Dimètre iambique pur : σᾰ- bref, -πρᾱν long, ἀ- bref, -πω- long | -λό- bref, -μην long, ὅ- bref, -μως long. Fin de phrase ; fin de période (pause forte), non marquée par la prosodie ; Zimmermann n'en marque pas avant 1028 ; White : tétramètre iambique 1024-1025. Avec 1022-1023, deuxième paire « thème / écho » de l'auteur, inexacte (lec / 2ia) : .md, § 3."
-  },
-  {
-    "v": "1026",
-    "v_usuel": "1026-1027",
-    "partie": "",
-    "schema": "⏑⏖–⏑– ⏑–⏑– ⏑––⏑⏖ |",
-    "colon": "do ia do",
-    "note": "Une rangée chez l'auteur = R, l. 25-26 (ὅδε γὰρ ὁ σκύθης φύλαξ | πάλαι ἐφέστηκ' ὀλοὸν, image) ; texte de R inchangé, colométrie propre à l'auteur (commentaire critique à 1031). ὅ- bref, -δε γὰ- (⏖), ὁ long devant σκ-, Σκῠ- bref, -θης long | φῠ- bref, -λαξ long, πά- bref, -λαι long | ἐ- bref, -φέσ- long, -τη- long, κ'ὀ- bref, -λο-ὸ(ν) (⏖ ; le ν passe à ἄφιλον). Ce dernier dochmiaque, ⏑––⏑⏖, est admis en principe (West 1987, p. 56) ; il n'a pas d'autre exemple dans l'index de Zimmermann 1987, p. 104, ni dans le tableau de Di Virgilio 2026, p. 115-116. Point faible : -λαι reste long devant ἐ-, hiatus sans pause (πάλαι porte sur ἐφέστηκ'), type que la tragédie n'admet pas (West 1987, p. 15-16) : l'auteur évite la correption πάλαῐ, mais au prix d'un hiatus (.md, § 6.4). Les autres analyses abrègent -λαι (⏖) : Schroeder 1909, p. 66, et White 1912, p. 160 et § 800 (avec ἐφεστώς) ; Zimmermann 1987, p. 78 (ὃς, ⟨ἐμοί⟩ : lec | 2 tr) ; Prato 2001, p. 354 (lec | 2 tr) ; Di Virgilio 2026, p. 106 (2tr∧ vel cr ia | 2tr) ; Parker 1997, qui tient la correption pour suspecte (do do do | 2ia∧ : p. 443-444 selon l'auteur ; Di Virgilio 2026, p. 115 n. 41). Dochmiaques déjà chez Hermann, approuvé par Enger 1844, p. 171 (ὅδε γὰρ ὁ Σκύθης φύλαξ ἐμοὶ πάλαι | ἐφέστηκ', ὀλοὸν…). Conradt 1910, p. 56 : πάλαι ἐφέστηκ' « unannehmbar ». La transposition d'Enger (πάλαι … φύλαξ : do do), reprise par Wilson 2007, p. 115 (πάλαι ⟨δὴ⟩ φύλαξ | ἐφέστηκε κῶλοὸν…), supprime la rencontre de voyelles."
-  },
-  {
-    "v": "1027",
-    "v_usuel": "1027-1028",
-    "partie": "",
-    "schema": "⏖⏑⏖ ⏖⏑– ⏑–⏓ ‖",
-    "colon": "2cr ba",
-    "note": "= fin du v. 1027 (ἄφιλον) + v. 1028 (R, l. 27 + premier mot de la l. 28 : ἄφιλον ἐκρέμασε κόραξι | δεῖπνον, image). Texte de R. Deux crétiques + bacchée (l'auteur : « 2 cr. + ba. »), soit crétique + suite ithyphallique (-μασε κόραξι δεῖπνον), cadence fréquente du chant (.md, § 2) : ἄ-φι (⏖), -λο- bref, -νἐ-κρέ (⏖ ; ἐ- bref devant κρ) | -μα-σε (⏖), κό- bref, -ραξ long | -ξι bref, δεῖ- long, -πνον bref devant ὁρᾷς à la dernière place : fin de période, que confirme le point. Crétique entièrement résolu : ⏖⏑⏖ comme νόμον ἄνομον, A. Ag. 1142, en contexte dochmiaque, et δ | 2cr ‖ au vers suivant (West 1987, p. 57). Sans ἐκρέμασεν (Bothe ; Meineke selon Velsen, White) ni ⟨με⟩ (Mehler ; Mitsdörffer), corrections faites pour obtenir des trochées (Schroeder, White, Zimmermann, Prato, Di Virgilio : 2tr). Parker (Di Virgilio 2026, p. 115 n. 41) : ἄφιλον ἐ- achève son troisième dochmiaque, κρέμασε κόραξι δεῖπνον = 2ia∧ (⏑⏖⏑–⏑––)."
-  },
-  {
-    "v": "1030",
-    "v_usuel": "1029-1030",
-    "partie": "",
-    "schema": "⏑––⏑– ⏑–⏑– ⏑––⏑– |",
-    "colon": "do ia do",
-    "note": "= vv. 1029-1030 (R, reste de la l. 28 + l. 29 : … ὁρᾷς· οὐ χοροῖσιν | οὐδ' ὑφ' ἡλίκων νεανίδων) ; même rangée chez Wilson 2007, p. 115. Analyse de l'auteur (commentaire critique à 1031) : ὁ- bref, -ρᾷς long, οὐ long, χο- bref, -ροῖ- long | -σι(ν) bref, οὐδ' long, ὑφ' bref, ἡ- long | -λί- bref, -κων long, νεᾱ- une seule longue par synizèse, -νί- bref, -δων long. Aucune des analyses consultées n'admet cette synizèse, mais elle a un parallèle exact : E. IA 615 ὑμεῖς δέ, νεάνιδές, νιν ἀγκάλαις ἔπι (trimètre : νεα- y vaut une longue ; texte de Murray, authenticité du passage [à vérifier]) ; type : West 1987, p. 15. En fin de trimètre, le même mot se scande sans synizèse : E. Ba. 745 ἀγόμενοι νεανίδων. Sans synizèse (νε- bref, -ᾱ- long), bacchée + trimètre iambique ⏑–– ⏑–⏑– ⏑–⏑– ⏑–⏑– : Schroeder 1909 (ba ia | ia ia), Zimmermann 1987, Prato 2001 (ba ia | 2 ia), Di Virgilio 2026 (ba ia | 2ia), White 1912 (dodécamètre iambique 1029-1033) ; même début qu'en 1015, et Σ 1030 note là aussi une reprise d'Euripide (πάλιν ἐξ Ἀνδρομέδας). ὑφ' del. Mitsdörffer (Wilson 2007, app. p. 115) ; ἡλίκων ὑπὸ Hermann. Voir .md, § 6.4."
-  },
-  {
-    "v": "1031",
-    "v_usuel": "1031",
-    "partie": "",
-    "schema": "–⏑– –⏑– ⏑–⏓ ‖",
-    "colon": "2cr ba",
-    "note": "Texte de l'auteur : ψῆφον ἕστηκ' ἔχουσα κημόν (R, l. 30-31 : ψῆφον κημὸν ἕστηκ' ἔχου|σ' ἀλλ', image). Deux crétiques + bacchée, soit crétique + suite ithyphallique (-τηκ' ἔχουσα κημόν = –⏑–⏑–⏓ ; le texte de Dindorf, sans ψῆφον, a une syllabe de plus : ἕστηκ' ἔχουσα κημόν = ––⏑–⏑–⏓, 2ia∧) : ψῆ- long, -φο- bref, -νἕσ- long | -τη- long, κ'ἔ- bref, -χου- long | -σα bref, κη- long, -μόν bref devant ἀλλ' à la dernière place : fin de période, comme après δεῖπνον (1027), avec qui la rangée fait couple. Attribution : ἕστηκ' ἔχουσα κημόν (sans ψῆφον) est chez Dindorf, d'après Enger 1844, p. 170 (« quod tamen longe est deterius »), puis Conradt 1910, p. 56 ; l'apport de l'auteur est de garder ψῆφον (apparat à compléter). Le texte de R se scande lui-même : ψῆφον κημὸν ἕσ-|-τηκ' ἔχουσ' = do + cr (–––⏑– –⏑–), forme 9 de Conomis (Ach. 490, 494, Av. 1195, Ran. 1356 et, si τμ y fait position, Thesm. 1054 : Zimmermann 1987, p. 104) : le mètre n'exige ni la transposition ni la suppression de ψῆφον (Hermann ; Coulon ; Prato 2001 et Zimmermann 1987 : κημὸν ἕστηκ' ἔχουσ' 2 cr ; White : ·–⏑– ·–⏑– ; Di Virgilio : cr cr ; Schroeder, avec ἔχουσα : cr tro). Voir .md, § 6.4."
-  },
-  {
-    "v": "1032",
-    "v_usuel": "1032",
-    "partie": "",
-    "schema": "––⏑– ––⏑– ⏑–⏑– |",
-    "colon": "3ia",
-    "note": "Trimètre iambique : ἀλλ' long, ἐν long, πῠ- bref (κν sans position), -κνοῖς long | δεσ- long, -μοῖ- long, -σι bref, ἐμ- long | -πε- bref (πλ), -πλεγ- long, -μέ- bref, -νη long. R, l. 31 : ἐνπεπλεγμένη (graphie). Même analyse : Schroeder (trim), Zimmermann, Prato, Di Virgilio (3ia), l'auteur (« + trim. iamb. ») ; White coupe autrement (… ἐμ-|πεπλεγμένη κήτει βορὰ | Γλαυκέτῃ πρόκειμαι ; de même Dindorf, d'après Enger 1844, p. 171), même scansion."
-  },
-  {
-    "v": "1033",
-    "v_usuel": "1033",
-    "partie": "",
-    "schema": "––⏑– –⏑– ⏑–– ‖",
-    "colon": "ia cr ba",
-    "note": "Trimètre iambique syncopé catalectique (l'auteur : « 3 ia. sync. cat. ») : κή- long, -τει long, βο- bref, -ρᾱ̀ long | Γλαυ- long, -κέ- bref, -τῃ long | πρό- bref, -κει- long, -μαι long. Mêmes syllabes : ia + ithyphallique (Schroeder : ia ithyph ; Zimmermann 1987, p. 78, avec | après βορὰ ; Prato 2001 : ia ith ; Di Virgilio 2026 : ia 2tr∧∧ vel ia cr ba) ; White : fin du dodécamètre (12^C). Fin de période (catalexe, pause)."
-  },
-  {
-    "v": "1034",
-    "v_usuel": "1034",
-    "partie": "",
-    "schema": "⏑–⏑– ⏑–– |",
-    "colon": "2ia∧",
-    "note": "Dimètre iambique catalectique (l'auteur : « dim. ia. cat. ») : γᾰ- bref, -μη- long, -λί- bref, -ῳ long | μὲ(ν) bref, οὐ long, ξὺν long devant π-. Synaphie : la préposition ne peut être séparée de son régime par une fin de période. R, l. 33 : γαμηλίωι μὲν οὐ ξυμ-|παίωνι, un mot coupé en fin de ligne ; ξὺν παιῶνι (Zanetti : Wilson 2007, app. p. 115) a la même mesure. Même analyse : Prato 2001 et Di Virgilio 2026 (2 ia∧) ; Schroeder et Zimmermann (ia ba : même suite) ; White note 2^CV (finale indifférente), mais ξὺν est long devant π-."
-  },
-  {
-    "v": "1035",
-    "v_usuel": "1035",
-    "partie": "",
-    "schema": "––⏑– ⏑–⏓ ‖",
-    "colon": "2ia∧",
-    "note": "Dimètre iambique catalectique : παι- long, -ῶ- long, -νι bref, δεσ- long | -μί- bref, -ῳ long, δὲ bref à la dernière place, devant γοᾶσθε : fin de période (White : 2^CV ; Zimmermann note la brève sans signe de période). Il faut donc ponctuer après δέ et l'accentuer en conséquence, comme Wilson 2007, p. 115, et Di Virgilio 2026, p. 105 (texte.tex : « δεσμίῳ δὲ » sans ponctuation). Zimmermann 1987 et Prato 2001 notent παι- bref (correption interne, type admis : West 1987, p. 14) : l'élément est anceps, le colon ne change pas, mais 1034 et 1035 deviennent identiques. Schroeder (‾ia ba), White et Di Virgilio : long. Avec παι- long, le colon vaut – + ithyphallique (-ῶνι δεσμίῳ δὲ = –⏑–⏑–⏓ ; |– ith| = |2ia∧| : West 1987, p. 65, à propos du dactylo-épitrite). Même analyse d'ensemble : Prato (2 ia∧), Di Virgilio (2ia∧), l'auteur (« + 2 ia cat. »)."
-  },
-  {
-    "v": "1036",
-    "v_usuel": "1036",
-    "partie": "",
-    "schema": "⏑–⏑– ⏑–⏑– |",
-    "colon": "2ia",
-    "note": "Dimètre iambique pur : γο- bref, -ᾶ- long, -σθέ bref, μ'ὦ long | γῠ- bref, -ναῖ- long, -κε- bref, ὡς long (ς + μ). ὡς en fin de rangée comme dans R (l. 35), Coulon, Prato, Wilson ; White 1912 et Conradt 1910, p. 56, le rattachent à 1037. Même analyse : Schroeder (ia ia), Zimmermann, Prato, Di Virgilio, l'auteur (« dim. iamb. »)."
-  },
-  {
-    "v": "1037",
-    "v_usuel": "1037",
-    "partie": "",
-    "schema": "⏖⏑–⏑ –⏑⏖⏑ |",
-    "colon": "2tr",
-    "note": "Dimètre trochaïque, deux résolutions : μέ-λε (⏖), -α bref, μὲν long, πέ- bref à l'anceps | -πον- long, -θα bref, μέ-λε (⏖), -ος bref à l'anceps final. Même analyse : Zimmermann, Prato (2 tr), Schroeder (~tro tro~), Di Virgilio, l'auteur (« 2 troch. ») ; White (ὡς en tête) : iambique, mêmes quantités."
-  },
-  {
-    "v": "1038",
-    "v_usuel": "1038",
-    "partie": "",
-    "schema": "–⏑–⏑ –⏑– ‖",
-    "colon": "lec",
-    "note": "Lécythion : ὢ long, τᾰ- bref, -λᾱς long, ἐ- bref, -γὼ long, τᾰ- bref, -λᾱς long. Fin de période (catalexe ; Zimmermann ‖). Même analyse : Schroeder, Zimmermann, Prato, l'auteur (« lecyth. ») ; Di Virgilio : 2tr∧ ; White : fin du tétramètre iambique 1036-1038. ὢ (texte.tex), ὦ (R, Coulon, Prato, Wilson) : sans effet métrique. Le même colon, à la première syllabe près, que 1036 (⏑–⏑–⏑–⏑– / –⏑–⏑–⏑–)."
-  },
-  {
-    "v": "1039",
-    "v_usuel": "1039",
-    "partie": "",
-    "schema": "⏑⏖–⏑– –⏑⏖⏑⏖ |",
-    "colon": "do hypod",
-    "note": "= v. 1039 + ἄνομα πάθεα de 1040 (R, l. 38-39 : ἀπὸ δὲ συγγόνων ἀλλὰν | ἄνομα πάθεα φῶτα λιτομέναν, image) ; même coupe chez Zimmermann, Prato (1039a) et Wilson. Dochmiaque + hypodochmiaque : ἀ- bref, -πὸ δὲ (⏖), συγ- long, -γό- bref, -νων long | ἄλλ' long, ἄ- bref, -νο-μα (⏖), πά- bref, -θε-α (⏖). Même analyse : Zimmermann 1987, p. 78 (do (2) hypod), Prato 2001 (do hypod) ; l'auteur : « dochm. + … ». Texte : ἄλλ' (Scaliger) pour ἀλλὰν de R ; texte.tex écrit ἀλλ᾽ (= ἀλλά), alors que la traduction suppose ἄλλ' : à corriger (même mesure). τάλαν' (Hermann ; Schroeder : δ δ) ou ἄνομ' (Blaydes ; Wilson ; Parker, d'après Di Virgilio 2026, p. 115 n. 44) font de la seconde moitié un dochmiaque résolu ⏑⏖⏖⏑⏖. Di Virgilio suit les lignes de R : ἀπὸ δὲ συγγόνων ἄλλ' = cr ba vel 2tr∧∧, puis ἄνομα πάθεα φῶτα λιτομέναν = do ia. White : ⏖⏑–⏑ –·–· (trochées protractés)."
-  },
-  {
-    "v": "1040",
-    "v_usuel": "1040",
-    "partie": "",
-    "schema": "–⏑⏖⏑– |",
-    "colon": "hypod",
-    "note": "= v. 1040 sans ἄνομα πάθεα. Hypodochmiaque (West 1987, p. 56) : φῶ- long, -τα bref, λι-το (⏖), -μέ- bref, -νᾱ long (λιτομέναν de R : syllabe également longue). Analyse de Zimmermann 1987 et de Prato 2001 (hypod) ; pas de libellé chez l'auteur. Le mètre est sain avec λιτομένα (Enger, d'après Σ) comme avec λιτομέναν (R ; Prato) : les croix de l'auteur portent sur le sens. L'accent de φῶτά paraît un reste du φῶτά ⟨τε⟩ de Hermann et de Hall–Geldart : φῶτα. Di Virgilio 2026 : achève son do ia ; Schroeder 1909 : φῶτ' ἀντομένα, πολυδάκρυτον Ἀΐ- = an (δ) δ ; Velsen : φῶτά τε ou φῶτά με."
-  },
-  {
-    "v": "1041",
-    "v_usuel": "1041",
-    "partie": "",
-    "schema": "⏑⏖–⏑⏖ –⏑– ⏑–– ‖",
-    "colon": "do cr ba",
-    "note": "Dochmiaque + crétique + bacchée (l'auteur : « do. + cr. + ba. »), soit do + ithyphallique : πο- bref, -λυ-δά (⏖ ; δα bref devant κρ), -κρῡ- long, -το(ν) bref, Ἀ-ί (⏖) | -δᾱ long, γό- bref, -ον long (devant ψ) | ψε- bref, -φαυ- long, -γοῦς long. Dochmiaque ⏑⏖–⏑⏖ : Zimmermann 1987, do (8) ; Di Virgilio 2026, p. 107 : c8. Zimmermann et Prato : do ith ; Schroeder : ithyph ; Di Virgilio : do 2tr∧∧ ?. φεύγουσαν de R (image, l. 40) donne –⏑– ––– au lieu de –⏑– ⏑–– : la cadence est perdue, mais le mètre seul ne l'exclut pas (crétique « traîné » : West 1987, p. 57 ; Di Virgilio 2026, p. 107, l'imprime †–––†) ; la difficulté est d'abord de sens ; φλέγουσα(ν) (Musgrave, Enger ; Coulon, Prato, Wilson), χέουσα(ν) (Casaubon, Rau) et ψεφαυγοῦς (Bibi ; cf. Hsch. ψ 135 ψεφαυγοῦς· σκοτεινῆς) ont la mesure requise : le mètre ne départage pas. Avec ψεφαυγοῦς ou -αν, pas d'hiatus devant αἰαῖ ; avec φλέγουσα, hiatus (Zimmermann). Prato note ‖H tout en imprimant φλέγουσαν. Fin de période."
-  },
-  {
-    "v": "1042",
-    "v_usuel": "1042",
-    "partie": "",
-    "schema": "",
-    "colon": "extra metrum",
-    "note": "Interjections hors mètre (Zimmermann 1987 ; Prato 2001 ; Di Virgilio 2026 ; l'auteur : « extr. metr. ») ; l'hiatus est admis avant et après les exclamations (West 1987, p. 16). Texte de Dindorf ; R, l. 41 (image) : αἰ αἰ αἰ αἰ ἐέ. Prato 2001, p. 112, imprime trois αἰαῖ, mais son schéma (p. 354 : ⏑–⏑–⏑⏑, αἰαῖ avec correption interne : West 1987, p. 14) n'en suppose que deux. Schroeder 1909 (αἰαῖ αἰαῖ [ἒ ἔ]) : sp sp ; White 1912 : –·–· –·–·. Pas de schéma."
-  },
-  {
-    "v": "1043",
-    "v_usuel": "1043",
-    "partie": "",
-    "schema": "⏖⏑–⏑ –⏑–⏑ |",
-    "colon": "2tr",
-    "note": "Dimètre trochaïque : ὃ-σ'ἔ (⏖), μ'ἀ- bref, -πεξ- long, -ῠ́- bref à l'anceps | -ρη- long, -σε bref (πρ sans position), πρῶ- long, -το(ν) bref à l'anceps final. Même analyse chez tous (White, Schroeder, Zimmermann, Prato, Di Virgilio ; l'auteur : « dim. troch. »). R, l. 42 (ἀπεξύρησε sur grattage : Velsen ; Di Virgilio 2026, p. 106). P.Oxy. 4935 : [ὃς ἔ]μ' ἀ[πεξύρησε, une ligne (Benaissa 2009, p. 24)."
-  },
-  {
-    "v": "1044",
-    "v_usuel": "1044",
-    "partie": "",
-    "schema": "⏑⏑– ⏑⏑– ⏑⏑–⏓ ‖",
-    "colon": "2an∧ ?",
-    "note": "Texte de R (image, l. 43 ; P.Oxy. 4935 : [ὅ]ς ἐμὲ κ[ροκοεν-). Tel qu'imprimé, il n'entre pas dans le dimètre trochaïque de 1043 et 1045 : ὃς ἐ-μὲ κρο-κό (⏖⏑⏖), -εν- long, puis τ'ἐ-νέ-δῡ-σεν (⏑⏑–⏑) où il faut –⏑–⏑ : τ'ἐ- est bref à la place d'une longue. Si l'on compte τ'ἐ-νέ pour une longue résolue, -δῡ- (ἔδῡσα) tombe sur une brève et il manque une syllabe. Seule scansion sans correction : parémiaque, avec μὲ long devant κρ- (⏑⏑– ⏑⏑– ⏑⏑–⏓), puis fin de période (R : ponctuation forte). Allongement exceptionnel : muette + liquide laisse la syllabe brève ailleurs dans le chant (sauf τμ en 1054, s'il fait position) ; il est admis en lyrique tragique devant initiale (West 1987, p. 17 et n. 8) et dans la parodie (ibid., p. 16-17) ; exemples méliques d'Aristophane : White 1912, § 792. D'où le « ? » ; si on le refuse, la rangée (⏑⏑⏑⏑⏑–⏑⏑–⏑) n'est aucun colon reconnu. Le parémiaque revient en 1051. Les travaux de l'auteur laissent la rangée sans libellé ; Hall–Geldart garde R. Les autres éditeurs consultés corrigent : ἀμφέδυσεν (Hermann, d'après Σ 1044 ἀντὶ τοῦ κροκωτὸν ἀμφέδυσεν, où R a ἀμφε- sur une première graphie barrée ; Enger 1844, p. 172-173 ; Zimmermann 1987 ; Wilson 2007, p. 116) = ⏖⏑⏖– –⏑–⏑, 2tr ; κροκόεν τόδ' (Bergk ; White, Schroeder, Coulon 1928, p. 62 ; Prato 2001, p. 112 ; Di Virgilio 2026) = ⏖⏑⏖– ⏖⏑–⏑, 2tr. Voir .md, § 6.7."
-  },
-  {
-    "v": "1045",
-    "v_usuel": "1045",
-    "partie": "",
-    "schema": "⏖⏑–⏑ ⏖⏑–⏑ |",
-    "colon": "2tr",
-    "note": "Dimètre trochaïque, deux résolutions : ἐ-πὶ (⏖), δὲ bref, τοῖσ- long, -δε bref à l'anceps | τό-δ'ἀ (⏖), -νέ- bref, -πεμ- long, -ψε(ν) bref à l'anceps final. R, f. 175r, l. 1. Même analyse : White, Zimmermann, Prato (2 tr ; « tr. tr.-pher. », p. 355), Di Virgilio, l'auteur (« dim. troch. ») ; l'ἐ⟨ς⟩ de Hermann et de Schroeder (τοῖσδ' ἐ⟨ς⟩ τόδ') n'est pas exigé par le mètre."
-  },
-  {
-    "v": "1046",
-    "v_usuel": "1046",
-    "partie": "",
-    "schema": "⏑⏑⏑ –⏑⏑– ⏓ ‖",
-    "colon": "pher",
-    "note": "Phérécratien à base résolue : ἱ-ε-ρό (base ⏑⏑⏑ : West 1987, p. 58) | -νἔν- long, -θα γυ- brefs, -ναῖ- long | -κε(ς) bref devant ἰώ à la dernière place : fin de période (et point). Même analyse : Zimmermann (pher ‖), Prato (pher), Schroeder (~pherecr), l'auteur (« pherecr. »), White (« Pherecratean » ; ⏖⏑–⏑ ⏑–⏑ 2^CV) ; Di Virgilio 2026 : 2tr∧∧ (⏖⏑–⏖–⏑)."
-  },
-  {
-    "v": "1047",
-    "v_usuel": "1047",
-    "partie": "a",
-    "schema": "⏑–––– |",
-    "colon": "do",
-    "note": "Début du v. 1047 (R, f. 175r, l. 3, une seule ligne : ἰώ μοι μοίρας ἀνέτικτε δαίμων, image ; P.Oxy. 4935 : [ἰ]ὼ μοίρ[ας). Dochmiaque ⏑–––– : ἰ- bref, -ώ long, μοι long, μοί- long, -ρᾱς long (génitif). Analyse de l'auteur (« dochm. »), de Zimmermann 1987, p. 78 (do (25)), de Prato 2001 (do ith) et de Di Virgilio 2026, p. 108 (c12). Coupe de l'auteur et de Wilson 2007, p. 116 ; Prato, Di Virgilio : une ligne. White 1912, p. 160, lit le même texte d'un seul tenant : ⏑–·– ––⏑– ⏑–– 3^C (ba ia ba), mêmes syllabes. Voir la rangée suivante et .md, § 6.8."
-  },
-  {
-    "v": "1047",
-    "v_usuel": "1047",
-    "partie": "b",
-    "schema": "⏑–⏑–– ‖",
-    "colon": "pe",
-    "note": "Fin du v. 1047 : ἄ- bref, -τεγκ- long, -τε bref, δαί- long, -μων long : penthémimère (West 1987, p. 31 : pe, ⏓–⏑–⏓), ou ithyphallique acéphale ; Prato 2001 nomme reiz la même suite en 1019. Ce n'est pas l'ithyphallique du libellé de l'auteur (« ithyph. » : –⏑–⏑––), qui vaut pour ἃν ἔτικτε δαίμων (Casaubon ; Zimmermann, Prato, Wilson, Di Virgilio). Quatre combinaisons : μοι + ἃν ἔτικτε = do ith ; sans μοι + ἄτεγκτε = ba ith (Hermann ; Schroeder 1909, p. 66 ; Coulon 1928, p. 62 : δαῖμον, Burges ; Benaissa 2009, p. 24) ; sans μοι + ἃν ἔτικτε = ⏑––– –⏑–⏑–– (ba 2ia∧ : Di Virgilio 2026, n. 26 ; dochmiaque « syncopé » + ith : Benaissa, ibid.) ; μοι + ἄτεγκτε (texte imprimé, White) = la même suite, ba ia ba. Les quatre finissent par –⏑–⏑–– ; dans le texte imprimé, cette suite commence à l'intérieur de μοίρας (-ρας ἄτεγκτε δαίμων). Le mètre n'exige donc aucune correction ; seul le libellé de l'auteur est faux. Fin de période (point en haut ; Zimmermann ‖). Voir .md, § 6.8."
-  },
-  {
-    "v": "1048",
-    "v_usuel": "1048a",
-    "partie": "a",
-    "schema": "–⏑⏑ –⏑⏑ – |",
-    "colon": "D",
-    "note": "Première partie du v. 1048 (R, l. 4 : une ligne avec τίς ἐμὸν οὐκ ἐπόψεται ; de même P.Oxy. 4935, où 1048 et 1049 sont en ekthesis : Benaissa 2009, p. 24-25). Hémiépès : ὦ long, κα-τά brefs, -ρᾱ- long, -το- bref, ἐ- bref, -γώ long. Même analyse : Zimmermann (D), Prato (hem), White (–⏑⏑– ⏑⏑– 2^C, « enoplic dimeter »), l'auteur (« hem. ») ; Schroeder : –⏑⏑–⏑⏑– ; Di Virgilio 2026, p. 108, y voit un dochmiaque –⏖–⏖– (*c33 ou *c26), à cause du contexte, et écarte l'hémiépès. Coupe de l'auteur, de Coulon, de Prato, de Wilson ; la mise en ligne antique (R, P.Oxy.) réunit 1048a et b, sans changer le schéma."
-  },
-  {
-    "v": "1048",
-    "v_usuel": "1048b",
-    "partie": "b",
-    "schema": "⏖⏑–⏑ –⏑– |",
-    "colon": "lec",
-    "note": "Seconde partie du v. 1048 (rangée [suite] de texte.tex, où la répétition du sigle ΜΝ. est un reste de la conversion). Lécythion à première longue résolue, comme 1023 : τί-σ'ἐ (⏖), -μὸ- bref, οὐ long, κ'ἐ- bref, -πό- long (devant ψ), -ψε- bref, -ται long. Même analyse : Zimmermann, Prato (lec), Schroeder (~lecyth), l'auteur (« lecyth. ») ; White : début d'un pentamètre trochaïque (1048b-1049) ; Di Virgilio : 2tr∧ vel cr ia, après son dochmiaque."
-  },
-  {
-    "v": "1048",
-    "v_usuel": "1049",
-    "partie": "c",
-    "schema": "⏑⏖⏑– ⏑⏖⏑– ⏑–⏑– ‖",
-    "colon": "3ia",
-    "note": "= v. 1049 (seconde rangée [suite] de 1048 dans texte.tex : à numéroter 1049). Trimètre iambique, deux résolutions : πά- bref, -θο-σ'ἀ (⏖), -μέ- bref, -γαρ- long | -το- bref, -νἐ-πὶ (⏖), κα- bref, -κῶν long | πα- bref, -ρου- long, -σί- bref, -ᾳ long. Hiatus παρουσίᾳ | εἴθε : fin de période (Zimmermann, Prato, Di Virgilio : ‖H). Même analyse : Zimmermann, Prato, Di Virgilio (3ia), Schroeder (trim), l'auteur (« trim. iamb. ») ; White : fin d'un pentamètre trochaïque, mêmes quantités. P.Oxy. 4935 : [πάθος ἀ]μέγαρ[τον."
-  },
-  {
-    "v": "1050",
-    "v_usuel": "1050",
-    "partie": "",
-    "schema": "–⏑⏑ –⏑⏑ –⏑⏑ –– |",
-    "colon": "4dact",
-    "note": "Tétramètre dactylique, dernier pied spondaïque : εἴ- long, -θε με brefs, πυρ- long, -φό-ρο- brefs, αἰ- long, -θέ-ρο- brefs, ἀσ- long, -τὴρ long. Même analyse : Zimmermann (4 dact), Prato (alcm), Di Virgilio (4da∧), l'auteur (« 4 dactyl. ») ; Schroeder (da da) et White (–⏖–⏖ –⏖–– 2) comptent par dipodies. Le tiret marque l'interruption : la malédiction se détourne sur le Scythe (Rogers, cité par Sommerstein 1994, p. 226). P.Oxy. 4935 : [εἴ]θε με."
-  },
-  {
-    "v": "1051",
-    "v_usuel": "1051",
-    "partie": "",
-    "schema": "––⏑⏑– ⏑⏑–⏓ ‖",
-    "colon": "2an∧",
-    "note": "Parémiaque : τὸν long, βάρ- long, -βα-ρο- brefs, -νἐξ- long | ὀ-λέ brefs, -σει- long, -ε(ν) bref devant οὐ à la dernière place : fin de période (catalexe et point). Même analyse : Zimmermann (2 an∧ ‖), Schroeder (paroem), Prato (paroem = en), Di Virgilio (2an∧), l'auteur (« paroem. »), White (––⏖–⏖–⏑ 2^CV). βάρβαρον (R ; P.Oxy. 4935 : [τ]ὸν β[άρβαρον) et δύσμορον (Brunck ; Coulon 1928, p. 62), πάμμορον (van Herwerden) ont la même mesure –⏑⏑ : le mètre ne départage pas ; le papyrus tranche (Benaissa 2009, p. 25)."
-  },
-  {
-    "v": "1052",
-    "v_usuel": "1052",
-    "partie": "",
-    "schema": "–⏑⏑ –⏑⏑ –⏑⏑ –– |",
-    "colon": "4dact",
-    "note": "Tétramètre dactylique : οὐ long, γὰ- bref, ἔ- bref, τ'ᾱ- long (ᾱ- initial d'ἀθάνατος, long comme en poésie dactylique : White 1912, § 795), -θα-νά- brefs, -ταν long, φλό-γα brefs, λεύσ- long, -σειν long. Même analyse : Zimmermann (4 dact), Prato (alcm), Di Virgilio (4da∧), l'auteur ; White et Schroeder par dipodies. λεύσσειν (Biset) pour λεύσειν de R : même mesure."
-  },
-  {
-    "v": "1053",
-    "v_usuel": "1053",
-    "partie": "",
-    "schema": "–⏑⏑ –⏑⏑ –⏑⏑ –– |",
-    "colon": "4dact",
-    "note": "Tétramètre dactylique : ἐσ- long, -τὶ- bref, ἐ- bref, -μοὶ long, φί-λο- brefs, ὡς long, σ'ἐ- bref, -κρε- bref (κρ sans position, même en dactyles), -μάσ- long, -θην long. Même analyse chez tous (Zimmermann, Prato : alcm, Di Virgilio : 4da∧, White, Schroeder ; l'auteur : « + 4 dact. »). Pas d'indice de fin de période : -θην est long et la phrase continue."
-  },
-  {
-    "v": "1054",
-    "v_usuel": "1054",
-    "partie": "",
-    "schema": "–––⏑– ⏖⏑– –⏑– |",
-    "colon": "do 2cr",
-    "note": "Dochmiaque + deux crétiques, avec la correction de Willems adoptée par l'auteur (δία μένων) : λαι- long, -μότ- long (τμ fait position, comme chez White, Zimmermann, Prato et Di Virgilio, qui imprime λαιμότˈμητ' ; R écrit λαιμότ' μήτ', image, l. 10, coupe de copiste qui ne prouve rien pour la prosodie), -μη- long, τ'ἄ- bref, -χη long | δι-ὰ (⏖), -μέ- bref, -νων long | αἰ- long, -ό- bref, -λᾱν long. Combinaison usuelle (δ | 2cr : West 1987, p. 57). Le mètre n'exige pas la correction : δαιμόνων de R (–⏑–) donne le même do 2cr. δαιμόνι', αἰόλαν (L. Bachmann ; Coulon, Prato, Wilson) = –⏖–⏑– : 2 do (Zimmermann (9, 10) ; Prato ; Schroeder : δ δ ; Parker : hypod do, avec correption de τμ : Di Virgilio 2026, p. 115 n. 42 et p. 108). Avec -μό- bref, la rangée serait –⏑–⏑– ⏖⏑– –⏑–, hypod 2cr : c'est la prosodie ordinaire du chant (cf. West 1987, p. 58, dans les dochmiaques : « prefer the short interpretation » ; White 1912, § 790, ne compte pas τμ parmi les groupes qui font position, mais scande long p. 160). δαιμόνων αἰόλαν avec correption de αἰ- (–⏑–⏖–) : Di Virgilio, p. 109 (do do). White : –·–· –⏑–· | –⏑–· –⏑–· (trochées protractés). L'auteur portait « hypod. + doch. », libellé désactivé. Apparat de l'auteur : « διὰ μένων Willems » ; Willems (annexes) a δία, en anastrophe : à harmoniser."
-  },
-  {
-    "v": "1055",
-    "v_usuel": "1055",
-    "partie": "",
-    "schema": "⏖⏑⏖⏑–– ‖",
-    "colon": "ith",
-    "note": "Ithyphallique à deux résolutions : νέ-κυ (⏖), -σι bref, ἐ-πὶ (⏖), πο- bref, -ρεί- long, -ᾱν long. Fin du chant, sur la clausule qui ferme les deux premières périodes. Même analyse : Schroeder (~ithyph), Zimmermann (ith), Prato (ith), l'auteur (« ithyphall. ») ; Di Virgilio : 2tr∧∧ ; White : fin de l'hexamètre trochaïque protracté 1054-1055 (⏖⏑⏖⏑ –·– 6^C)."
-  }
+ {
+  "v": 1015,
+  "v_usuel": "1015",
+  "partie": "",
+  "schema": "⏑–– ⏑–⏑– |",
+  "colon": "ba ia",
+  "etiquette": "lyr.",
+  "note": "Bacchée + iambe : φῐ- bref, -λαι long, παρ- long, -θε- bref, -νοι long, φῐ- bref, -λαι long. R, f. 174v, l. 14. Même analyse : Schroeder 1909, p. 65 ; Zimmermann 1987, p. 77 ; Prato 2001, p. 354 ; Di Virgilio 2026, p. 106 ; l'auteur (« bacch. + ia. ») ; White 1912, p. 159 (⏑–·– ⏑–⏑–). Euripide avait φίλαι παρθένοι, φίλαι μοι (Σ 1015), soit do + ba : en retranchant μοι, Aristophane change le mètre (Mastromarco 2008, p. 180-181, d'après Hose 1986-1987 [non consulté]). Avec ⟨οὖν⟩ après ἂν en 1016 (Hermann, « ut numeri dochmiaci fierent » : Wilson 2007, app. p. 115 ; texte de Hall–Geldart), 1015-1016 feraient trois dochmiaques ⏑––⏑– ; sans ce supplément, pas de dochmiaque ici (.md, § 6.1). Étiquette « lyr. » (déjà dans texte.tex) : chant polymétrique astrophique."
+ },
+ {
+  "v": 1016,
+  "v_usuel": "1016",
+  "partie": "",
+  "schema": "–⏑⏑– –⏑– |",
+  "colon": "ch cr",
+  "note": "Choriambe + crétique : πῶς long, ἂν bref (ἂ-νἀ-), ἀ- bref, -πέλ- long, -θοι long, -μι bref, καὶ long devant τ-. R, l. 15. ἀπέλθοιμι (R, l'auteur, Coulon, Prato, Wilson), ἐπέλθοιμι (Ellebodius selon l'apparat de l'auteur et Prato 2001, p. 108 ; Brunck selon Enger, Velsen, White), ὑπέλθοιμι (Bentley) : même mesure. Même analyse : Schroeder 1909 (ch cr) ; Zimmermann 1987 (ch cr) ; Prato 2001 (chor cr ; « caro a Pindaro », p. 355) ; Di Virgilio 2026 (cho cr) ; l'auteur (« chor. + cret. ») ; White 1912 : –⏑⏑– ·–⏑–, choriambe tenant lieu de mètre iambique (§ 71)."
+ },
+ {
+  "v": 1017,
+  "v_usuel": "1017",
+  "partie": "",
+  "schema": "–⏑–⏑–⏓ ‖",
+  "colon": "ith",
+  "note": "Ithyphallique : τὸν long (ν + σκ), Σκῠ- bref, -θην long, λᾰ- bref, -θοι long, -μι bref à la dernière place, devant κλύεις : fin de période (κλ laisse la syllabe brève, comme muette + liquide ailleurs dans le chant ; point d'interrogation). Même analyse : Schroeder 1909 (ithyph), Zimmermann 1987 (ith ‖), Prato 2001 (ith), l'auteur (« ithyph. ») ; Di Virgilio 2026 : 2tr∧∧ ; White 1912 : ·–⏑–⏑–⏑, fin d'un hexamètre iambique (6^CV). λάθοιμι (Ellebodius, Casaubon : Austin 1987 ; Wilson 2007 ; Prato 2001) pour λάβοιμι de R (image, l. 16) : même mesure."
+ },
+ {
+  "v": 1019,
+  "v_usuel": "1018-1019",
+  "partie": "",
+  "schema": "⏑–– ⏑–– ⏑–– ⏑–– |",
+  "colon": "4ba",
+  "note": "Une rangée chez l'auteur, comme chez Coulon 1928, p. 61, et Wilson 2007, p. 115 ; R en deux lignes, l. 17-18 : κλύεις ὦ | προσᾳδοῦσσαι τὰς ἐν ἄντροις (image). Tétramètre bacchiaque : κλῠ- bref, -εις long, ὦ long | προ- bref, -σᾴ- long, -δου- long | σ'ἀ- bref, -ῡ- long (ᾰῡτή), -τὰς long | ἐ- bref (ἐ-νἄν-), ἄν- long, -τροις long. Texte : προσᾴδουσ' (Elmsley) ἀϋτάς (Burges) ; ἀϋταῖς (Sommerstein ; Di Virgilio) a la même mesure. Même analyse : Mitsdörffer, d'après Sommerstein 1994, p. 224 (« bacchiac tetrameter ») ; Zimmermann 1987 (2 ba | 2 ba ‖) ; l'auteur (« 4 bacch. ») ; Di Virgilio 2026, p. 106, sur les lignes de R (ba | ba ba ba). Même tétramètre à l'appel d'Athéna, 1143-1144 (Sommerstein 1994, p. 230). Sans ἀϋ- : Prato 2001, p. 110 et 354, κλύεις, ὦ προσᾴδου|σα τὰς ἐν ἄντροις (Elmsley) = 2 ba | reiz (⏑–⏑––) ; même suite chez Coulon (τἄμ', Willems) et Schroeder 1909, p. 65 (κλύεις; ὦ προσαυδῶ | σὲ τὰν ἐν ἄντροις). White 1912, p. 159, lit le texte de Seidler (πρὸς αἰδοῦς σε τὰν). Zimmermann marque ici une fin de période ; rien ne l'impose (-τροις long devant κ-) et le texte de l'auteur porte une virgule : fin de colon."
+ },
+ {
+  "v": 1020,
+  "v_usuel": "1020",
+  "partie": "",
+  "schema": "⏖ –⏑⏑– ⏑– |",
+  "colon": "tel",
+  "note": "Télésilléen à anceps résolu : κα-τά brefs, -νευ- long, -σο-νἔ- brefs, -ᾱ- long (ἔᾱσον, sans synizèse), -σο- bref, ὡς long : ⏑⏑–⏑⏑–⏑–. Analyse de l'auteur (« telesill. ») et de Zimmermann 1987 (tel). La même suite reçoit d'autres noms : glyconien à base ⏑⏑ (Di Virgilio 2026 ; base « avoided almost completely » après les Lesbiens : West 1987, p. 33) ; prosodiaque (Prato 2001, p. 354 : pros) ; colon des contextes dochmiaques ⏑⏑–⏑⏑–⏓– (West 1987, p. 57) ; Schroeder 1909 : sans nom. White 1912, p. 159, scande ἔασον en synizèse (type courant : West 1987, p. 15) et lit un trimètre iambique à choriambe (§ 71). Aristophane garde l'ἔασον d'Euripide et remplace ἀπόπαυσον (Σ 1018 ; Seidler) par κατάνευσον, de même mesure (Sommerstein 1994, p. 225 ; Prato 2001, p. 317). Synaphie avec 1021 : ὡς, préposition, ne se sépare pas de son régime."
+ },
+ {
+  "v": 1021,
+  "v_usuel": "1021",
+  "partie": "",
+  "schema": "–⏑–⏑–– ‖",
+  "colon": "ith",
+  "note": "Ithyphallique : τὴν long, γῠ- bref, -ναῖ- long, -κα bref, μ'ἐλ- long, -θεῖν long. Fin de phrase et de période. Même analyse : Schroeder 1909, Zimmermann 1987 (ith ‖), Prato 2001, l'auteur ; Di Virgilio 2026 : 2tr∧∧ ; White 1912 : ·–⏑–⏑––, fin d'un heptamètre (7^C). Avec 1015-1017, deux périodes closes par le même ithyphallique (.md, §§ 2-3). Prato 2001, p. 110, laisse ici un blanc ; Schroeder 1909 sépare aussi 1015-1021 de 1022-1055."
+ },
+ {
+  "v": 1022,
+  "v_usuel": "1022",
+  "partie": "",
+  "schema": "⏑–⏑– ⏑–⏑– |",
+  "colon": "2ia",
+  "note": "Dimètre iambique pur : ἀ- bref, -νοικ- long, -το- bref, ὅς long (σ + μ), μ'ἔ- bref, -δη- long, -σε bref, τὸν long devant π-. Synaphie : l'article est séparé de son nom par la fin de colon, comme dans R (l. 21 ; sigle μνη ajouté par R² : Velsen, Prato). Même analyse chez tous (White, Schroeder, Zimmermann, Prato, Di Virgilio ; l'auteur : « dim. iamb. »)."
+ },
+ {
+  "v": 1023,
+  "v_usuel": "1023",
+  "partie": "",
+  "schema": "⏖⏑–⏑ –⏑– ‖",
+  "colon": "lec",
+  "note": "Lécythion à première longue résolue : πο-λυ (⏖), -πο- bref, -νώ- long, -τα- bref, -τον long, βρο- bref, -τῶν long. Fin de période (catalexe, point). πολυπονώτατον : R (image, l. 22), l'auteur, Coulon, Prato, Zimmermann. Wilson 2007, p. 115, imprime πολυστονώτατον (Burges ; Enger : « quam numeri requirunt »), qui ferait un dimètre iambique. La conjecture est à écarter : Euripide avait la même suite (Σ 1022 : τὴν πολυπονωτάτην βροτῶν, fr. 120 ; cf. E. Hec. 722 Perseus [721 chez Rogers] ὥς σε πολυπονωτάτην βροτῶν), et Rogers 1904, p. 110, note que le vers répond syllabe pour syllabe à ὅδε γὰρ ὁ Σκύθης φύλαξ (1026). Même analyse : White (⏖⏑–⏑ –⏑– 2^C), Schroeder (~lecyth), Zimmermann, Prato (lec ; asynartète « ia. ia.-lec. », p. 355), l'auteur (« + lecyth. ») ; Di Virgilio 2026 : 2tr∧."
+ },
+ {
+  "v": 1024,
+  "v_usuel": "1024",
+  "partie": "",
+  "schema": "⏑–⏑– ⏑⏖⏑– |",
+  "colon": "2ia",
+  "note": "Dimètre iambique, second mètre à longue résolue : μό- bref, -λις long, δὲ bref (γρ sans position), γραῖ- long | -ᾰ bref, ἀ-πο (⏖), -φῠ- bref, -γὼν long. Synaphie probable avec 1025 (γραῖαν … σαπρὰν). Même analyse : White (⏑–⏑– ⏑⏖⏑–), Schroeder (ia ~ia), Zimmermann, Prato, Di Virgilio (2ia), l'auteur (« dim. iamb. »)."
+ },
+ {
+  "v": 1025,
+  "v_usuel": "1025",
+  "partie": "",
+  "schema": "⏑–⏑– ⏑–⏑– ‖",
+  "colon": "2ia",
+  "note": "Dimètre iambique pur : σᾰ- bref, -πρᾱν long, ἀ- bref, -πω- long | -λό- bref, -μην long, ὅ- bref, -μως long. Fin de phrase ; fin de période (pause forte), non marquée par la prosodie ; Zimmermann n'en marque pas avant 1028 ; White : tétramètre iambique 1024-1025. Avec 1022-1023, deuxième paire « thème / écho » de l'auteur, inexacte (lec / 2ia) : .md, § 3."
+ },
+ {
+  "v": 1026,
+  "v_usuel": "1026-1027",
+  "partie": "",
+  "schema": "⏑⏖–⏑– ⏑–⏑– ⏑––⏑⏖ |",
+  "colon": "do ia do",
+  "note": "Une rangée chez l'auteur = R, l. 25-26 (ὅδε γὰρ ὁ σκύθης φύλαξ | πάλαι ἐφέστηκ' ὀλοὸν, image) ; texte de R inchangé, colométrie propre à l'auteur (commentaire critique à 1031). ὅ- bref, -δε γὰ- (⏖), ὁ long devant σκ-, Σκῠ- bref, -θης long | φῠ- bref, -λαξ long, πά- bref, -λαι long | ἐ- bref, -φέσ- long, -τη- long, κ'ὀ- bref, -λο-ὸ(ν) (⏖ ; le ν passe à ἄφιλον). Ce dernier dochmiaque, ⏑––⏑⏖, est admis en principe (West 1987, p. 56) ; il n'a pas d'autre exemple dans l'index de Zimmermann 1987, p. 104, ni dans le tableau de Di Virgilio 2026, p. 115-116. Point faible : -λαι reste long devant ἐ-, hiatus sans pause (πάλαι porte sur ἐφέστηκ'), type que la tragédie n'admet pas (West 1987, p. 15-16) : l'auteur évite la correption πάλαῐ, mais au prix d'un hiatus (.md, § 6.4). Les autres analyses abrègent -λαι (⏖) : Schroeder 1909, p. 66, et White 1912, p. 160 et § 800 (avec ἐφεστώς) ; Zimmermann 1987, p. 78 (ὃς, ⟨ἐμοί⟩ : lec | 2 tr) ; Prato 2001, p. 354 (lec | 2 tr) ; Di Virgilio 2026, p. 106 (2tr∧ vel cr ia | 2tr) ; Parker 1997, qui tient la correption pour suspecte (do do do | 2ia∧ : p. 443-444 selon l'auteur ; Di Virgilio 2026, p. 115 n. 41). Dochmiaques déjà chez Hermann, approuvé par Enger 1844, p. 171 (ὅδε γὰρ ὁ Σκύθης φύλαξ ἐμοὶ πάλαι | ἐφέστηκ', ὀλοὸν…). Conradt 1910, p. 56 : πάλαι ἐφέστηκ' « unannehmbar ». La transposition d'Enger (πάλαι … φύλαξ : do do), reprise par Wilson 2007, p. 115 (πάλαι ⟨δὴ⟩ φύλαξ | ἐφέστηκε κῶλοὸν…), supprime la rencontre de voyelles."
+ },
+ {
+  "v": 1029,
+  "v_usuel": "1027-1028",
+  "partie": "",
+  "schema": "⏖⏑⏖ ⏖⏑– ⏑–⏓ ‖",
+  "colon": "2cr ba",
+  "note": "= fin du v. 1027 (ἄφιλον) + v. 1028 (R, l. 27 + premier mot de la l. 28 : ἄφιλον ἐκρέμασε κόραξι | δεῖπνον, image). Texte de R. Deux crétiques + bacchée (l'auteur : « 2 cr. + ba. »), soit crétique + suite ithyphallique (-μασε κόραξι δεῖπνον), cadence fréquente du chant (.md, § 2) : ἄ-φι (⏖), -λο- bref, -νἐ-κρέ (⏖ ; ἐ- bref devant κρ) | -μα-σε (⏖), κό- bref, -ραξ long | -ξι bref, δεῖ- long, -πνον bref devant ὁρᾷς à la dernière place : fin de période, que confirme le point. Crétique entièrement résolu : ⏖⏑⏖ comme νόμον ἄνομον, A. Ag. 1142, en contexte dochmiaque, et δ | 2cr ‖ au vers suivant (West 1987, p. 57). Sans ἐκρέμασεν (Bothe ; Meineke selon Velsen, White) ni ⟨με⟩ (Mehler ; Mitsdörffer), corrections faites pour obtenir des trochées (Schroeder, White, Zimmermann, Prato, Di Virgilio : 2tr). Parker (Di Virgilio 2026, p. 115 n. 41) : ἄφιλον ἐ- achève son troisième dochmiaque, κρέμασε κόραξι δεῖπνον = 2ia∧ (⏑⏖⏑–⏑––)."
+ },
+ {
+  "v": 1030,
+  "v_usuel": "1029-1030",
+  "partie": "",
+  "schema": "⏑––⏑– ⏑–⏑– ⏑––⏑– |",
+  "colon": "do ia do",
+  "note": "= vv. 1029-1030 (R, reste de la l. 28 + l. 29 : … ὁρᾷς· οὐ χοροῖσιν | οὐδ' ὑφ' ἡλίκων νεανίδων) ; même rangée chez Wilson 2007, p. 115. Analyse de l'auteur (commentaire critique à 1031) : ὁ- bref, -ρᾷς long, οὐ long, χο- bref, -ροῖ- long | -σι(ν) bref, οὐδ' long, ὑφ' bref, ἡ- long | -λί- bref, -κων long, νεᾱ- une seule longue par synizèse, -νί- bref, -δων long. Aucune des analyses consultées n'admet cette synizèse, mais elle a un parallèle exact : E. IA 615 ὑμεῖς δέ, νεάνιδές, νιν ἀγκάλαις ἔπι (trimètre : νεα- y vaut une longue ; texte de Murray, authenticité du passage [à vérifier]) ; type : West 1987, p. 15. En fin de trimètre, le même mot se scande sans synizèse : E. Ba. 745 ἀγόμενοι νεανίδων. Sans synizèse (νε- bref, -ᾱ- long), bacchée + trimètre iambique ⏑–– ⏑–⏑– ⏑–⏑– ⏑–⏑– : Schroeder 1909 (ba ia | ia ia), Zimmermann 1987, Prato 2001 (ba ia | 2 ia), Di Virgilio 2026 (ba ia | 2ia), White 1912 (dodécamètre iambique 1029-1033) ; même début qu'en 1015, et Σ 1030 note là aussi une reprise d'Euripide (πάλιν ἐξ Ἀνδρομέδας). ὑφ' del. Mitsdörffer (Wilson 2007, app. p. 115) ; ἡλίκων ὑπὸ Hermann. Voir .md, § 6.4."
+ },
+ {
+  "v": 1031,
+  "v_usuel": "1031",
+  "partie": "",
+  "schema": "–⏑– –⏑– ⏑–⏓ ‖",
+  "colon": "2cr ba",
+  "note": "Texte de l'auteur : ψῆφον ἕστηκ' ἔχουσα κημόν (R, l. 30-31 : ψῆφον κημὸν ἕστηκ' ἔχου|σ' ἀλλ', image). Deux crétiques + bacchée, soit crétique + suite ithyphallique (-τηκ' ἔχουσα κημόν = –⏑–⏑–⏓ ; le texte de Dindorf, sans ψῆφον, a une syllabe de plus : ἕστηκ' ἔχουσα κημόν = ––⏑–⏑–⏓, 2ia∧) : ψῆ- long, -φο- bref, -νἕσ- long | -τη- long, κ'ἔ- bref, -χου- long | -σα bref, κη- long, -μόν bref devant ἀλλ' à la dernière place : fin de période, comme après δεῖπνον (1027), avec qui la rangée fait couple. Attribution : ἕστηκ' ἔχουσα κημόν (sans ψῆφον) est chez Dindorf, d'après Enger 1844, p. 170 (« quod tamen longe est deterius »), puis Conradt 1910, p. 56 ; l'apport de l'auteur est de garder ψῆφον (apparat à compléter). Le texte de R se scande lui-même : ψῆφον κημὸν ἕσ-|-τηκ' ἔχουσ' = do + cr (–––⏑– –⏑–), forme 9 de Conomis (Ach. 490, 494, Av. 1195, Ran. 1356 et, si τμ y fait position, Thesm. 1054 : Zimmermann 1987, p. 104) : le mètre n'exige ni la transposition ni la suppression de ψῆφον (Hermann ; Coulon ; Prato 2001 et Zimmermann 1987 : κημὸν ἕστηκ' ἔχουσ' 2 cr ; White : ·–⏑– ·–⏑– ; Di Virgilio : cr cr ; Schroeder, avec ἔχουσα : cr tro). Voir .md, § 6.4."
+ },
+ {
+  "v": 1032,
+  "v_usuel": "1032",
+  "partie": "",
+  "schema": "––⏑– ––⏑– ⏑–⏑– |",
+  "colon": "3ia",
+  "note": "Trimètre iambique : ἀλλ' long, ἐν long, πῠ- bref (κν sans position), -κνοῖς long | δεσ- long, -μοῖ- long, -σι bref, ἐμ- long | -πε- bref (πλ), -πλεγ- long, -μέ- bref, -νη long. R, l. 31 : ἐνπεπλεγμένη (graphie). Même analyse : Schroeder (trim), Zimmermann, Prato, Di Virgilio (3ia), l'auteur (« + trim. iamb. ») ; White coupe autrement (… ἐμ-|πεπλεγμένη κήτει βορὰ | Γλαυκέτῃ πρόκειμαι ; de même Dindorf, d'après Enger 1844, p. 171), même scansion."
+ },
+ {
+  "v": 1033,
+  "v_usuel": "1033",
+  "partie": "",
+  "schema": "––⏑– –⏑– ⏑–– ‖",
+  "colon": "ia cr ba",
+  "note": "Trimètre iambique syncopé catalectique (l'auteur : « 3 ia. sync. cat. ») : κή- long, -τει long, βο- bref, -ρᾱ̀ long | Γλαυ- long, -κέ- bref, -τῃ long | πρό- bref, -κει- long, -μαι long. Mêmes syllabes : ia + ithyphallique (Schroeder : ia ithyph ; Zimmermann 1987, p. 78, avec | après βορὰ ; Prato 2001 : ia ith ; Di Virgilio 2026 : ia 2tr∧∧ vel ia cr ba) ; White : fin du dodécamètre (12^C). Fin de période (catalexe, pause)."
+ },
+ {
+  "v": 1034,
+  "v_usuel": "1034",
+  "partie": "",
+  "schema": "⏑–⏑– ⏑–– |",
+  "colon": "2ia∧",
+  "note": "Dimètre iambique catalectique (l'auteur : « dim. ia. cat. ») : γᾰ- bref, -μη- long, -λί- bref, -ῳ long | μὲ(ν) bref, οὐ long, ξὺν long devant π-. Synaphie : la préposition ne peut être séparée de son régime par une fin de période. R, l. 33 : γαμηλίωι μὲν οὐ ξυμ-|παίωνι, un mot coupé en fin de ligne ; ξὺν παιῶνι (Zanetti : Wilson 2007, app. p. 115) a la même mesure. Même analyse : Prato 2001 et Di Virgilio 2026 (2 ia∧) ; Schroeder et Zimmermann (ia ba : même suite) ; White note 2^CV (finale indifférente), mais ξὺν est long devant π-."
+ },
+ {
+  "v": 1035,
+  "v_usuel": "1035",
+  "partie": "",
+  "schema": "––⏑– ⏑–⏓ ‖",
+  "colon": "2ia∧",
+  "note": "Dimètre iambique catalectique : παι- long, -ῶ- long, -νι bref, δεσ- long | -μί- bref, -ῳ long, δὲ bref à la dernière place, devant γοᾶσθε : fin de période (White : 2^CV ; Zimmermann note la brève sans signe de période). Il faut donc ponctuer après δέ et l'accentuer en conséquence, comme Wilson 2007, p. 115, et Di Virgilio 2026, p. 105 (texte.tex : « δεσμίῳ δὲ » sans ponctuation). Zimmermann 1987 et Prato 2001 notent παι- bref (correption interne, type admis : West 1987, p. 14) : l'élément est anceps, le colon ne change pas, mais 1034 et 1035 deviennent identiques. Schroeder (‾ia ba), White et Di Virgilio : long. Avec παι- long, le colon vaut – + ithyphallique (-ῶνι δεσμίῳ δὲ = –⏑–⏑–⏓ ; |– ith| = |2ia∧| : West 1987, p. 65, à propos du dactylo-épitrite). Même analyse d'ensemble : Prato (2 ia∧), Di Virgilio (2ia∧), l'auteur (« + 2 ia cat. »)."
+ },
+ {
+  "v": 1036,
+  "v_usuel": "1036",
+  "partie": "",
+  "schema": "⏑–⏑– ⏑–⏑– |",
+  "colon": "2ia",
+  "note": "Dimètre iambique pur : γο- bref, -ᾶ- long, -σθέ bref, μ'ὦ long | γῠ- bref, -ναῖ- long, -κε- bref, ὡς long (ς + μ). ὡς en fin de rangée comme dans R (l. 35), Coulon, Prato, Wilson ; White 1912 et Conradt 1910, p. 56, le rattachent à 1037. Même analyse : Schroeder (ia ia), Zimmermann, Prato, Di Virgilio, l'auteur (« dim. iamb. »)."
+ },
+ {
+  "v": 1037,
+  "v_usuel": "1037",
+  "partie": "",
+  "schema": "⏖⏑–⏑ –⏑⏖⏑ |",
+  "colon": "2tr",
+  "note": "Dimètre trochaïque, deux résolutions : μέ-λε (⏖), -α bref, μὲν long, πέ- bref à l'anceps | -πον- long, -θα bref, μέ-λε (⏖), -ος bref à l'anceps final. Même analyse : Zimmermann, Prato (2 tr), Schroeder (~tro tro~), Di Virgilio, l'auteur (« 2 troch. ») ; White (ὡς en tête) : iambique, mêmes quantités."
+ },
+ {
+  "v": 1038,
+  "v_usuel": "1038",
+  "partie": "",
+  "schema": "–⏑–⏑ –⏑– ‖",
+  "colon": "lec",
+  "note": "Lécythion : ὢ long, τᾰ- bref, -λᾱς long, ἐ- bref, -γὼ long, τᾰ- bref, -λᾱς long. Fin de période (catalexe ; Zimmermann ‖). Même analyse : Schroeder, Zimmermann, Prato, l'auteur (« lecyth. ») ; Di Virgilio : 2tr∧ ; White : fin du tétramètre iambique 1036-1038. ὢ (texte.tex), ὦ (R, Coulon, Prato, Wilson) : sans effet métrique. Le même colon, à la première syllabe près, que 1036 (⏑–⏑–⏑–⏑– / –⏑–⏑–⏑–)."
+ },
+ {
+  "v": 1039,
+  "v_usuel": "1039",
+  "partie": "",
+  "schema": "⏑⏖–⏑– –⏑⏖⏑⏖ |",
+  "colon": "do hypod",
+  "note": "= v. 1039 + ἄνομα πάθεα de 1040 (R, l. 38-39 : ἀπὸ δὲ συγγόνων ἀλλὰν | ἄνομα πάθεα φῶτα λιτομέναν, image) ; même coupe chez Zimmermann, Prato (1039a) et Wilson. Dochmiaque + hypodochmiaque : ἀ- bref, -πὸ δὲ (⏖), συγ- long, -γό- bref, -νων long | ἄλλ' long, ἄ- bref, -νο-μα (⏖), πά- bref, -θε-α (⏖). Même analyse : Zimmermann 1987, p. 78 (do (2) hypod), Prato 2001 (do hypod) ; l'auteur : « dochm. + … ». Texte : ἄλλ' (Scaliger) pour ἀλλὰν de R ; texte.tex écrit ἀλλ᾽ (= ἀλλά), alors que la traduction suppose ἄλλ' : à corriger (même mesure). τάλαν' (Hermann ; Schroeder : δ δ) ou ἄνομ' (Blaydes ; Wilson ; Parker, d'après Di Virgilio 2026, p. 115 n. 44) font de la seconde moitié un dochmiaque résolu ⏑⏖⏖⏑⏖. Di Virgilio suit les lignes de R : ἀπὸ δὲ συγγόνων ἄλλ' = cr ba vel 2tr∧∧, puis ἄνομα πάθεα φῶτα λιτομέναν = do ia. White : ⏖⏑–⏑ –·–· (trochées protractés)."
+ },
+ {
+  "v": 1040,
+  "v_usuel": "1040",
+  "partie": "",
+  "schema": "–⏑⏖⏑– |",
+  "colon": "hypod",
+  "note": "= v. 1040 sans ἄνομα πάθεα. Hypodochmiaque (West 1987, p. 56) : φῶ- long, -τα bref, λι-το (⏖), -μέ- bref, -νᾱ long (λιτομέναν de R : syllabe également longue). Analyse de Zimmermann 1987 et de Prato 2001 (hypod) ; pas de libellé chez l'auteur. Le mètre est sain avec λιτομένα (Enger, d'après Σ) comme avec λιτομέναν (R ; Prato) : les croix de l'auteur portent sur le sens. L'accent de φῶτά paraît un reste du φῶτά ⟨τε⟩ de Hermann et de Hall–Geldart : φῶτα. Di Virgilio 2026 : achève son do ia ; Schroeder 1909 : φῶτ' ἀντομένα, πολυδάκρυτον Ἀΐ- = an (δ) δ ; Velsen : φῶτά τε ou φῶτά με."
+ },
+ {
+  "v": 1041,
+  "v_usuel": "1041",
+  "partie": "",
+  "schema": "⏑⏖–⏑⏖ –⏑– ⏑–– ‖",
+  "colon": "do cr ba",
+  "note": "Dochmiaque + crétique + bacchée (l'auteur : « do. + cr. + ba. »), soit do + ithyphallique : πο- bref, -λυ-δά (⏖ ; δα bref devant κρ), -κρῡ- long, -το(ν) bref, Ἀ-ί (⏖) | -δᾱ long, γό- bref, -ον long (devant ψ) | ψε- bref, -φαυ- long, -γοῦς long. Dochmiaque ⏑⏖–⏑⏖ : Zimmermann 1987, do (8) ; Di Virgilio 2026, p. 107 : c8. Zimmermann et Prato : do ith ; Schroeder : ithyph ; Di Virgilio : do 2tr∧∧ ?. φεύγουσαν de R (image, l. 40) donne –⏑– ––– au lieu de –⏑– ⏑–– : la cadence est perdue, mais le mètre seul ne l'exclut pas (crétique « traîné » : West 1987, p. 57 ; Di Virgilio 2026, p. 107, l'imprime †–––†) ; la difficulté est d'abord de sens ; φλέγουσα(ν) (Musgrave, Enger ; Coulon, Prato, Wilson), χέουσα(ν) (Casaubon, Rau) et ψεφαυγοῦς (Bibi ; cf. Hsch. ψ 135 ψεφαυγοῦς· σκοτεινῆς) ont la mesure requise : le mètre ne départage pas. Avec ψεφαυγοῦς ou -αν, pas d'hiatus devant αἰαῖ ; avec φλέγουσα, hiatus (Zimmermann). Prato note ‖H tout en imprimant φλέγουσαν. Fin de période."
+ },
+ {
+  "v": 1042,
+  "v_usuel": "1042",
+  "partie": "",
+  "schema": "",
+  "colon": "extra metrum",
+  "note": "Interjections hors mètre (Zimmermann 1987 ; Prato 2001 ; Di Virgilio 2026 ; l'auteur : « extr. metr. ») ; l'hiatus est admis avant et après les exclamations (West 1987, p. 16). Texte de Dindorf ; R, l. 41 (image) : αἰ αἰ αἰ αἰ ἐέ. Prato 2001, p. 112, imprime trois αἰαῖ, mais son schéma (p. 354 : ⏑–⏑–⏑⏑, αἰαῖ avec correption interne : West 1987, p. 14) n'en suppose que deux. Schroeder 1909 (αἰαῖ αἰαῖ [ἒ ἔ]) : sp sp ; White 1912 : –·–· –·–·. Pas de schéma."
+ },
+ {
+  "v": 1043,
+  "v_usuel": "1043",
+  "partie": "",
+  "schema": "⏖⏑–⏑ –⏑–⏑ |",
+  "colon": "2tr",
+  "note": "Dimètre trochaïque : ὃ-σ'ἔ (⏖), μ'ἀ- bref, -πεξ- long, -ῠ́- bref à l'anceps | -ρη- long, -σε bref (πρ sans position), πρῶ- long, -το(ν) bref à l'anceps final. Même analyse chez tous (White, Schroeder, Zimmermann, Prato, Di Virgilio ; l'auteur : « dim. troch. »). R, l. 42 (ἀπεξύρησε sur grattage : Velsen ; Di Virgilio 2026, p. 106). P.Oxy. 4935 : [ὃς ἔ]μ' ἀ[πεξύρησε, une ligne (Benaissa 2009, p. 24)."
+ },
+ {
+  "v": 1044,
+  "v_usuel": "1044",
+  "partie": "",
+  "schema": "⏑⏑– ⏑⏑– ⏑⏑–⏓ ‖",
+  "colon": "2an∧ ?",
+  "note": "Texte de R (image, l. 43 ; P.Oxy. 4935 : [ὅ]ς ἐμὲ κ[ροκοεν-). Tel qu'imprimé, il n'entre pas dans le dimètre trochaïque de 1043 et 1045 : ὃς ἐ-μὲ κρο-κό (⏖⏑⏖), -εν- long, puis τ'ἐ-νέ-δῡ-σεν (⏑⏑–⏑) où il faut –⏑–⏑ : τ'ἐ- est bref à la place d'une longue. Si l'on compte τ'ἐ-νέ pour une longue résolue, -δῡ- (ἔδῡσα) tombe sur une brève et il manque une syllabe. Seule scansion sans correction : parémiaque, avec μὲ long devant κρ- (⏑⏑– ⏑⏑– ⏑⏑–⏓), puis fin de période (R : ponctuation forte). Allongement exceptionnel : muette + liquide laisse la syllabe brève ailleurs dans le chant (sauf τμ en 1054, s'il fait position) ; il est admis en lyrique tragique devant initiale (West 1987, p. 17 et n. 8) et dans la parodie (ibid., p. 16-17) ; exemples méliques d'Aristophane : White 1912, § 792. D'où le « ? » ; si on le refuse, la rangée (⏑⏑⏑⏑⏑–⏑⏑–⏑) n'est aucun colon reconnu. Le parémiaque revient en 1051. Les travaux de l'auteur laissent la rangée sans libellé ; Hall–Geldart garde R. Les autres éditeurs consultés corrigent : ἀμφέδυσεν (Hermann, d'après Σ 1044 ἀντὶ τοῦ κροκωτὸν ἀμφέδυσεν, où R a ἀμφε- sur une première graphie barrée ; Enger 1844, p. 172-173 ; Zimmermann 1987 ; Wilson 2007, p. 116) = ⏖⏑⏖– –⏑–⏑, 2tr ; κροκόεν τόδ' (Bergk ; White, Schroeder, Coulon 1928, p. 62 ; Prato 2001, p. 112 ; Di Virgilio 2026) = ⏖⏑⏖– ⏖⏑–⏑, 2tr. Voir .md, § 6.7."
+ },
+ {
+  "v": 1045,
+  "v_usuel": "1045",
+  "partie": "",
+  "schema": "⏖⏑–⏑ ⏖⏑–⏑ |",
+  "colon": "2tr",
+  "note": "Dimètre trochaïque, deux résolutions : ἐ-πὶ (⏖), δὲ bref, τοῖσ- long, -δε bref à l'anceps | τό-δ'ἀ (⏖), -νέ- bref, -πεμ- long, -ψε(ν) bref à l'anceps final. R, f. 175r, l. 1. Même analyse : White, Zimmermann, Prato (2 tr ; « tr. tr.-pher. », p. 355), Di Virgilio, l'auteur (« dim. troch. ») ; l'ἐ⟨ς⟩ de Hermann et de Schroeder (τοῖσδ' ἐ⟨ς⟩ τόδ') n'est pas exigé par le mètre."
+ },
+ {
+  "v": 1046,
+  "v_usuel": "1046",
+  "partie": "",
+  "schema": "⏑⏑⏑ –⏑⏑– ⏓ ‖",
+  "colon": "pher",
+  "note": "Phérécratien à base résolue : ἱ-ε-ρό (base ⏑⏑⏑ : West 1987, p. 58) | -νἔν- long, -θα γυ- brefs, -ναῖ- long | -κε(ς) bref devant ἰώ à la dernière place : fin de période (et point). Même analyse : Zimmermann (pher ‖), Prato (pher), Schroeder (~pherecr), l'auteur (« pherecr. »), White (« Pherecratean » ; ⏖⏑–⏑ ⏑–⏑ 2^CV) ; Di Virgilio 2026 : 2tr∧∧ (⏖⏑–⏖–⏑)."
+ },
+ {
+  "v": 1047,
+  "v_usuel": "1047",
+  "partie": "",
+  "schema": "⏑–––– |",
+  "colon": "do",
+  "note": "Début du v. 1047 (R, f. 175r, l. 3, une seule ligne : ἰώ μοι μοίρας ἀνέτικτε δαίμων, image ; P.Oxy. 4935 : [ἰ]ὼ μοίρ[ας). Dochmiaque ⏑–––– : ἰ- bref, -ώ long, μοι long, μοί- long, -ρᾱς long (génitif). Analyse de l'auteur (« dochm. »), de Zimmermann 1987, p. 78 (do (25)), de Prato 2001 (do ith) et de Di Virgilio 2026, p. 108 (c12). Coupe de l'auteur et de Wilson 2007, p. 116 ; Prato, Di Virgilio : une ligne. White 1912, p. 160, lit le même texte d'un seul tenant : ⏑–·– ––⏑– ⏑–– 3^C (ba ia ba), mêmes syllabes. Voir la rangée suivante et .md, § 6.8."
+ },
+ {
+  "v": 1048,
+  "v_usuel": "1047",
+  "partie": "",
+  "schema": "⏑–⏑–– ‖",
+  "colon": "pe",
+  "note": "Fin du v. 1047 : ἄ- bref, -τεγκ- long, -τε bref, δαί- long, -μων long : penthémimère (West 1987, p. 31 : pe, ⏓–⏑–⏓), ou ithyphallique acéphale ; Prato 2001 nomme reiz la même suite en 1019. Ce n'est pas l'ithyphallique du libellé de l'auteur (« ithyph. » : –⏑–⏑––), qui vaut pour ἃν ἔτικτε δαίμων (Casaubon ; Zimmermann, Prato, Wilson, Di Virgilio). Quatre combinaisons : μοι + ἃν ἔτικτε = do ith ; sans μοι + ἄτεγκτε = ba ith (Hermann ; Schroeder 1909, p. 66 ; Coulon 1928, p. 62 : δαῖμον, Burges ; Benaissa 2009, p. 24) ; sans μοι + ἃν ἔτικτε = ⏑––– –⏑–⏑–– (ba 2ia∧ : Di Virgilio 2026, n. 26 ; dochmiaque « syncopé » + ith : Benaissa, ibid.) ; μοι + ἄτεγκτε (texte imprimé, White) = la même suite, ba ia ba. Les quatre finissent par –⏑–⏑–– ; dans le texte imprimé, cette suite commence à l'intérieur de μοίρας (-ρας ἄτεγκτε δαίμων). Le mètre n'exige donc aucune correction ; seul le libellé de l'auteur est faux. Fin de période (point en haut ; Zimmermann ‖). Voir .md, § 6.8."
+ },
+ {
+  "v": 1049,
+  "v_usuel": "1048a",
+  "partie": "",
+  "schema": "–⏑⏑ –⏑⏑ – |",
+  "colon": "D",
+  "note": "Première partie du v. 1048 (R, l. 4 : une ligne avec τίς ἐμὸν οὐκ ἐπόψεται ; de même P.Oxy. 4935, où 1048 et 1049 sont en ekthesis : Benaissa 2009, p. 24-25). Hémiépès : ὦ long, κα-τά brefs, -ρᾱ- long, -το- bref, ἐ- bref, -γώ long. Même analyse : Zimmermann (D), Prato (hem), White (–⏑⏑– ⏑⏑– 2^C, « enoplic dimeter »), l'auteur (« hem. ») ; Schroeder : –⏑⏑–⏑⏑– ; Di Virgilio 2026, p. 108, y voit un dochmiaque –⏖–⏖– (*c33 ou *c26), à cause du contexte, et écarte l'hémiépès. Coupe de l'auteur, de Coulon, de Prato, de Wilson ; la mise en ligne antique (R, P.Oxy.) réunit 1048a et b, sans changer le schéma."
+ },
+ {
+  "v": 1049,
+  "v_usuel": "1048b",
+  "partie": "b",
+  "schema": "⏖⏑–⏑ –⏑– |",
+  "colon": "lec",
+  "note": "Seconde partie du v. 1048 (rangée [suite] de texte.tex, où la répétition du sigle ΜΝ. est un reste de la conversion). Lécythion à première longue résolue, comme 1023 : τί-σ'ἐ (⏖), -μὸ- bref, οὐ long, κ'ἐ- bref, -πό- long (devant ψ), -ψε- bref, -ται long. Même analyse : Zimmermann, Prato (lec), Schroeder (~lecyth), l'auteur (« lecyth. ») ; White : début d'un pentamètre trochaïque (1048b-1049) ; Di Virgilio : 2tr∧ vel cr ia, après son dochmiaque."
+ },
+ {
+  "v": 1049,
+  "v_usuel": "1049",
+  "partie": "c",
+  "schema": "⏑⏖⏑– ⏑⏖⏑– ⏑–⏑– ‖",
+  "colon": "3ia",
+  "note": "= v. 1049 (seconde rangée [suite] de 1048 dans texte.tex : à numéroter 1049). Trimètre iambique, deux résolutions : πά- bref, -θο-σ'ἀ (⏖), -μέ- bref, -γαρ- long | -το- bref, -νἐ-πὶ (⏖), κα- bref, -κῶν long | πα- bref, -ρου- long, -σί- bref, -ᾳ long. Hiatus παρουσίᾳ | εἴθε : fin de période (Zimmermann, Prato, Di Virgilio : ‖H). Même analyse : Zimmermann, Prato, Di Virgilio (3ia), Schroeder (trim), l'auteur (« trim. iamb. ») ; White : fin d'un pentamètre trochaïque, mêmes quantités. P.Oxy. 4935 : [πάθος ἀ]μέγαρ[τον."
+ },
+ {
+  "v": 1050,
+  "v_usuel": "1050",
+  "partie": "",
+  "schema": "–⏑⏑ –⏑⏑ –⏑⏑ –– |",
+  "colon": "4dact",
+  "note": "Tétramètre dactylique, dernier pied spondaïque : εἴ- long, -θε με brefs, πυρ- long, -φό-ρο- brefs, αἰ- long, -θέ-ρο- brefs, ἀσ- long, -τὴρ long. Même analyse : Zimmermann (4 dact), Prato (alcm), Di Virgilio (4da∧), l'auteur (« 4 dactyl. ») ; Schroeder (da da) et White (–⏖–⏖ –⏖–– 2) comptent par dipodies. Le tiret marque l'interruption : la malédiction se détourne sur le Scythe (Rogers, cité par Sommerstein 1994, p. 226). P.Oxy. 4935 : [εἴ]θε με."
+ },
+ {
+  "v": 1051,
+  "v_usuel": "1051",
+  "partie": "",
+  "schema": "––⏑⏑– ⏑⏑–⏓ ‖",
+  "colon": "2an∧",
+  "note": "Parémiaque : τὸν long, βάρ- long, -βα-ρο- brefs, -νἐξ- long | ὀ-λέ brefs, -σει- long, -ε(ν) bref devant οὐ à la dernière place : fin de période (catalexe et point). Même analyse : Zimmermann (2 an∧ ‖), Schroeder (paroem), Prato (paroem = en), Di Virgilio (2an∧), l'auteur (« paroem. »), White (––⏖–⏖–⏑ 2^CV). βάρβαρον (R ; P.Oxy. 4935 : [τ]ὸν β[άρβαρον) et δύσμορον (Brunck ; Coulon 1928, p. 62), πάμμορον (van Herwerden) ont la même mesure –⏑⏑ : le mètre ne départage pas ; le papyrus tranche (Benaissa 2009, p. 25)."
+ },
+ {
+  "v": 1052,
+  "v_usuel": "1052",
+  "partie": "",
+  "schema": "–⏑⏑ –⏑⏑ –⏑⏑ –– |",
+  "colon": "4dact",
+  "note": "Tétramètre dactylique : οὐ long, γὰ- bref, ἔ- bref, τ'ᾱ- long (ᾱ- initial d'ἀθάνατος, long comme en poésie dactylique : White 1912, § 795), -θα-νά- brefs, -ταν long, φλό-γα brefs, λεύσ- long, -σειν long. Même analyse : Zimmermann (4 dact), Prato (alcm), Di Virgilio (4da∧), l'auteur ; White et Schroeder par dipodies. λεύσσειν (Biset) pour λεύσειν de R : même mesure."
+ },
+ {
+  "v": 1053,
+  "v_usuel": "1053",
+  "partie": "",
+  "schema": "–⏑⏑ –⏑⏑ –⏑⏑ –– |",
+  "colon": "4dact",
+  "note": "Tétramètre dactylique : ἐσ- long, -τὶ- bref, ἐ- bref, -μοὶ long, φί-λο- brefs, ὡς long, σ'ἐ- bref, -κρε- bref (κρ sans position, même en dactyles), -μάσ- long, -θην long. Même analyse chez tous (Zimmermann, Prato : alcm, Di Virgilio : 4da∧, White, Schroeder ; l'auteur : « + 4 dact. »). Pas d'indice de fin de période : -θην est long et la phrase continue."
+ },
+ {
+  "v": 1054,
+  "v_usuel": "1054",
+  "partie": "",
+  "schema": "–––⏑– ⏖⏑– –⏑– |",
+  "colon": "do 2cr",
+  "note": "Dochmiaque + deux crétiques, avec la correction de Willems adoptée par l'auteur (δία μένων) : λαι- long, -μότ- long (τμ fait position, comme chez White, Zimmermann, Prato et Di Virgilio, qui imprime λαιμότˈμητ' ; R écrit λαιμότ' μήτ', image, l. 10, coupe de copiste qui ne prouve rien pour la prosodie), -μη- long, τ'ἄ- bref, -χη long | δι-ὰ (⏖), -μέ- bref, -νων long | αἰ- long, -ό- bref, -λᾱν long. Combinaison usuelle (δ | 2cr : West 1987, p. 57). Le mètre n'exige pas la correction : δαιμόνων de R (–⏑–) donne le même do 2cr. δαιμόνι', αἰόλαν (L. Bachmann ; Coulon, Prato, Wilson) = –⏖–⏑– : 2 do (Zimmermann (9, 10) ; Prato ; Schroeder : δ δ ; Parker : hypod do, avec correption de τμ : Di Virgilio 2026, p. 115 n. 42 et p. 108). Avec -μό- bref, la rangée serait –⏑–⏑– ⏖⏑– –⏑–, hypod 2cr : c'est la prosodie ordinaire du chant (cf. West 1987, p. 58, dans les dochmiaques : « prefer the short interpretation » ; White 1912, § 790, ne compte pas τμ parmi les groupes qui font position, mais scande long p. 160). δαιμόνων αἰόλαν avec correption de αἰ- (–⏑–⏖–) : Di Virgilio, p. 109 (do do). White : –·–· –⏑–· | –⏑–· –⏑–· (trochées protractés). L'auteur portait « hypod. + doch. », libellé désactivé. Apparat de l'auteur : « διὰ μένων Willems » ; Willems (annexes) a δία, en anastrophe : à harmoniser."
+ },
+ {
+  "v": 1055,
+  "v_usuel": "1055",
+  "partie": "",
+  "schema": "⏖⏑⏖⏑–– ‖",
+  "colon": "ith",
+  "note": "Ithyphallique à deux résolutions : νέ-κυ (⏖), -σι bref, ἐ-πὶ (⏖), πο- bref, -ρεί- long, -ᾱν long. Fin du chant, sur la clausule qui ferme les deux premières périodes. Même analyse : Schroeder (~ithyph), Zimmermann (ith), Prato (ith), l'auteur (« ithyphall. ») ; Di Virgilio : 2tr∧∧ ; White : fin de l'hexamètre trochaïque protracté 1054-1055 (⏖⏑⏖⏑ –·– 6^C)."
+ }
 ]
