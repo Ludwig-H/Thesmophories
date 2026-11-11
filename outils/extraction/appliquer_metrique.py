@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Applique aux fichiers edition/folios/fXXX/texte.tex :
 - la scansion et les étiquettes métriques de edition/donnees/metrique/*.json
-  (liste d'objets {"v": "101", "partie": "" | "a" | "b"…, "schema": "⏑⏑–⏑⏑–|…",
+  (liste d'objets {"v": "101", "partie": "" | "a" | "b"… (voir main()), "schema": "⏑⏑–⏑⏑–|…",
    "colon": "2an", "etiquette": "lyr." (facultatif : mètre affiché en marge au début d'une
    section), "renfoncement": 0–6 (facultatif, en em)}),
 - les rubriques de structure de edition/donnees/structure.json
@@ -47,16 +47,20 @@ def options(s):
 
 
 def main():
+    """Clés des données : (étiquette de la dernière rangée numérotée, partie) ; partie = '' ou 'a'
+    pour cette rangée même, 'b', 'c', 'd'… pour les rangées suivantes non numérotées (répliques
+    partagées « suite » ou côlons sans numéro), dans l'ordre. Même règle pour structure.json."""
     essai = '--essai' in sys.argv
     M = lire_metrique()
     S = json.load(open(STRUCT, encoding='utf-8')) if os.path.exists(STRUCT) else []
-    S_par_vers = {}
+    S_par_cle = {}
     for e in S:
-        S_par_vers.setdefault(int(e['v']), []).append(e)
+        S_par_cle.setdefault((str(e['v']), e.get('partie', '') or ''), []).append(e)
     n_met = n_struct = 0
+    utilises, structs = set(), set()
     for p in sorted(glob.glob(os.path.join(DOS, 'f*', 'texte.tex'))):
         lignes = open(p, encoding='utf-8').read().split('\n')
-        out, dernier_v, vus = [], None, set()
+        out, cur, k = [], None, 0
         for l in lignes:
             if S and (l.startswith('\\rubrique') or l.startswith('\\scene')):
                 continue
@@ -66,20 +70,26 @@ def main():
                 nv = next((o[2:] for o in opts if o.startswith('n=')), None)
                 suite = 'suite' in opts
                 if nv:
-                    dernier_v = nv
-                partie = 'b' if suite else ''
-                v = int(re.match(r'\d+', dernier_v).group()) if dernier_v else None
-                if v and nv and v in S_par_vers and v not in vus:
-                    vus.add(v)
-                    for e in S_par_vers[v]:
-                        if e['type'] == 'rubrique':
-                            out.append('\\rubrique{%s}{%s}' % (e.get('gr', ''), e.get('fr', '')))
-                        else:
-                            out.append('\\scene{%s}{%s}' % (e.get('gr', ''), e.get('fr', '')))
-                        n_struct += 1
-                e = M.get((dernier_v, partie)) or (M.get((dernier_v, '')) if not suite else None)
+                    cur, k = nv, 0
+                else:
+                    k += 1
+                parties = ('', 'a') if k == 0 else (chr(ord('a') + k),)
+                if cur:
+                    for pa in parties:
+                        for e in S_par_cle.get((cur, pa), []):
+                            if (cur, pa, e['fr']) in structs:
+                                continue
+                            structs.add((cur, pa, e['fr']))
+                            if e['type'] == 'rubrique':
+                                out.append('\\rubrique{%s}{%s}' % (e.get('gr', ''), e.get('fr', '')))
+                            else:
+                                out.append('\\scene{%s}{%s}' % (e.get('gr', ''), e.get('fr', '')))
+                            n_struct += 1
+                e = next((M[(cur, pa)] for pa in parties if (cur, pa) in M), None) if cur else None
                 if e:
-                    opts = [o for o in opts if not o.startswith(('met=', 'metre=', 'colon=')) and not (o.startswith('indent=') and e.get('renfoncement') is not None)]
+                    utilises.add((cur, parties[-1] if len(parties) == 1 else ('' if (cur, '') in M else 'a')))
+                    opts = [o for o in opts if not o.startswith(('met=', 'metre=', 'colon='))
+                            and not (o.startswith('indent=') and e.get('renfoncement') is not None and not suite)]
                     if e.get('schema'):
                         opts.append('met={%s}' % e['schema'])
                     if e.get('colon'):
@@ -93,7 +103,14 @@ def main():
             out.append(l)
         if not essai:
             open(p, 'w', encoding='utf-8').write('\n'.join(out))
+    orphelins = sorted(set(M) - utilises, key=lambda c: (int(re.match(r'\d+', c[0]).group()), c))
     print(f'{n_met} rangées scandées, {n_struct} rubriques insérées' + (' (essai)' if essai else ''))
+    if orphelins:
+        print(f'{len(orphelins)} entrée(s) de scansion sans rangée correspondante :',
+              ', '.join(f'{v}{pa}' for v, pa in orphelins[:40]))
+    manq = [f"{e['v']}{e.get('partie', '')}" for e in S if (str(e['v']), e.get('partie', '') or '', e['fr']) not in structs]
+    if manq:
+        print('structure non placée :', ', '.join(manq))
 
 
 if __name__ == '__main__':

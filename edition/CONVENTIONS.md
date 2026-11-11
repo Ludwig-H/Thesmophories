@@ -113,12 +113,22 @@ sources (répertoire critique) — les erreurs d'attribution de Coulon sont conn
 - Abondants, mais tous **vérifiés** sur un texte source (corpus local
   `.sources/corpus/`, scan, édition) avec référence exacte ; citation brève du grec
   pertinent. Aucune référence de seconde main non contrôlée.
-- Article : vers et lemme en gras, puis les parallèles groupés et dans cet ordre :
-  *Test.* (tradition indirecte : citations du vers) ; Aristophane (pièces, puis
-  fragments K.-A.) ; autres comiques ; tragiques (paratragédie, Euripide en tête) ;
-  autres poètes ; prose ; scholies et lexicographes (Hésychius en particulier) ;
-  parémiographes et proverbes (CPG, Tosi).
+- **Tout est gardé, avec citation** (décision de l'auteur, 5 nov. 2026 : « il faut tous les
+  mettre avec des citations. Tant pis si cela déborde, on verra plus tard pour la
+  présentation »).
+- Article : vers et lemme en gras, puis les parallèles **du plus pertinent au moins
+  pertinent** (pertinence 3, puis 2, puis 1). À pertinence égale : *Test.* (tradition
+  indirecte : citations du vers) ; Aristophane (pièces, puis fragments K.-A.) ; autres
+  comiques ; tragiques (paratragédie, Euripide en tête) ; autres poètes ; prose ; scholies
+  et lexicographes (Hésychius en particulier) ; parémiographes et proverbes (CPG, Tosi).
   `\lp{1 χελιδών]}{Hes. \textit{Op.} 568 ὀρθρογόη Πανδιονὶς ὦρτο χελιδών ; …}`
+- **Parallèles redondants** (même formule chez plusieurs auteurs, à une micro-variante
+  près : un proverbe repris par les lexicographes et les parémiographes, un vers cité par
+  plusieurs témoins) : une seule entrée, citée une fois d'après le témoin le plus ancien ou
+  le plus sûr, suivie des autres références et d'un **micro-apparat** qui donne seulement
+  les variantes, entre parenthèses après chaque référence :
+  `Ar. fr. 617 K.-A. πυθοῦ χελιδών, πηνίκ᾽ ἄττα φαίνεται ; idem Chionid. fr. 8 Kock,
+  Harp. s.v. ἄττα, Eust. 148.46 (πύθου), EM 167.46 (πύθου … τηνίκ᾽ … γίνεται)`.
 - Abréviations des auteurs et œuvres : celles du LSJ (et de Kassel–Austin pour les
   comiques, Kannicht–Radt–Snell pour les tragiques).
 
