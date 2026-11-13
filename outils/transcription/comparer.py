@@ -81,12 +81,36 @@ def vers_texte(r):
 
 
 def lire_ref(tsv):
-    ref = {}
+    ref_hg = {}
     with open(tsv, encoding='utf-8') as f:
         for row in csv.reader(f, delimiter='\t'):
             if len(row) >= 2 and re.match(r'^\d+', row[0]):
-                ref[row[0].strip()] = row[1].strip()
-    return ref
+                ref_hg[row[0].strip()] = row[1].strip()
+    conc = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        '..', '..', 'edition', 'donnees', 'concordance_vers.tsv')
+    ref_usuel = dict(ref_hg)
+    if os.path.exists(conc):
+        with open(conc, encoding='utf-8') as f:
+            for row in csv.DictReader(f, delimiter='\t'):
+                u = (row.get('usuel') or '').strip()
+                hg = (row.get('hg_perseus') or '').strip().strip('()~')
+                if u and hg in ref_hg:
+                    ref_usuel[u] = ref_hg[hg]
+    return ref_hg, ref_usuel
+
+
+def choisir_ref(vt, ref_hg, ref_usuel):
+    """Choisit automatiquement la table (hg_perseus ou usuel Brunck) qui s'aligne le mieux."""
+    def score(table):
+        s = 0.0
+        for v, t in vt.items():
+            r = table.get(v)
+            if r:
+                a = sans_ponct(sans_diacritiques(t)).replace(' ', '')
+                b = sans_ponct(sans_diacritiques(r)).replace(' ', '')
+                s += difflib.SequenceMatcher(None, a, b).ratio()
+        return s
+    return ref_usuel if score(ref_usuel) >= score(ref_hg) else ref_hg
 
 
 def main():
@@ -128,10 +152,11 @@ def main():
                 else:
                     print(f"- {d['etat']} : A {d['A']} / B {d['B']}")
     if a.ref:
-        ref = lire_ref(a.ref)
+        ref_hg, ref_usuel = lire_ref(a.ref)
         print('\n# Écarts avec le texte de référence (état final, lettres seulement)\n')
         for nom, R in (('A', RA), ('B', RB)):
             vt = vers_texte(R)
+            ref = choisir_ref(vt, ref_hg, ref_usuel)
             for v, t in vt.items():
                 r = ref.get(v)
                 if r is None:

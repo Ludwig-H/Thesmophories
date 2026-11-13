@@ -19,7 +19,7 @@ FOLIOS = os.path.join(RACINE, 'edition', 'folios', 'folios.json')
 ABR = {
     'Μνησίλοχος': 'ΜΝ.', 'Εὐριπίδης': 'ΕΥ.', 'Χορός': 'ΧΟ.', 'Μίκα': 'ΜΙ.', 'Κορυφαῖος': 'ΚΟ.',
     'Ἀγάθων': 'ΑΓ.', 'Τοξότης': 'ΤΟ.', 'Κλεισθένης': 'ΚΛ.', 'Κρίτυλλα': 'ΚΡ.', 'Θεράπων': 'ΘΕ.',
-    'Στεφανόπωλις': 'ΣΤ.', 'Κορ.-Ἱέρεια': 'ΚΟ.', 'Πρύτανις': 'ΠΡ.', 'Κορυφ. β': 'ΚΟ. β´',
+    'Στεφανόπωλις': 'ΣΤ.', 'Κορ.-Ἱέρεια': 'ΚΟ.', 'Πρύτανις': 'ΠΡ.', 'Κορυφ. β': 'ΚΟ. βʹ',
     'Ἠχώ': 'ΗΧ.', 'Κῆρυξ': 'ΚΗ.', 'Χορόςστροφή': 'ΧΟ.', 'Χορόςἀντιστρ': 'ΧΟ.', 'πνῖγος': 'ΧΟ.',
 }
 FR = {'Serviteur d\'Agathon': 'Serviteur', 'Archer Scythe': 'Archer'}
@@ -156,7 +156,7 @@ def main():
             frspk = fl[0]['personnage'] if fl else ''
             frspk = FR.get(frspk, frspk)
             spk = l.get('personnage') or ''
-            montrer = spk != dernier_spk['gr'] or partie in ('b', 'c', 'd')
+            montrer = spk != dernier_spk['gr']
             dernier_spk['gr'] = spk
             typ = l.get('type') or 'trimIamb'
             ind, lab = TYPES.get(typ, (0, ''))

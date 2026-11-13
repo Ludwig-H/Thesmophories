@@ -46,8 +46,9 @@
 \providecommand{\PsiTrois}{P.Oxy. 3840}
 \providecommand{\PsiQuatre}{P.Oxy. 4935}
 \providecommand{\PsiCinq}{P.Oxy. 1176}
+\RequirePackage{amsmath,amssymb}
 \providecommand{\lettreBreve}[1]{#1̆}
-\providecommand{\synizese}[1]{#1͡}
+\providecommand{\synizese}[1]{{\setbox0\hbox{#1}\hbox to\wd0{\hss\raisebox{-0.65ex}[0pt][0pt]{$\scriptstyle\smile$}\hss}\kern-\wd0\box0}}
 \providecommand{\inRas}[2]{#2}
 \providecommand{\auDessus}[2]{#1\textsuperscript{#2}}
 \providecommand{\douteux}[1]{#1̣}
@@ -55,9 +56,8 @@
 \providecommand{\renverse}[1]{\rotatebox[origin=c]{180}{#1}}
 \providecommand{\passeLigne}{}
 \providecommand{\Petit}{\small}
-\RequirePackage{amsmath,amssymb}
 \providecommand{\Automatique}[1]{#1}
-\providecommand{\widearc}[1]{#1͡}
+\providecommand{\widearc}[1]{\ifmmode\overset{\frown}{#1}\else{\setbox0\hbox{#1}\hbox to\wd0{\hss\raisebox{1.15ex}[0pt][0pt]{$\scriptstyle\frown$}\hss}\kern-\wd0\box0}\fi}
 \providecommand{\lecon}[1]{\textbf{#1}}
 \providecommand{\decalage}[1]{\phantom{#1}}
 \providecommand{\decalageN}[1]{}

@@ -68,8 +68,9 @@ Deux attributs précisent une main, sur tout élément qui porte `main` :
 
 Attributs de `<l>` : `n` (rang de la ligne **d'écriture** sur la page, à partir de 1,
 réglures vides non comptées, comme dans les inventaires), `v` (vers qui commencent sur
-la ligne, clés de `.sources/corpus/thesmo_hall_geldart.tsv` : « 6 », « 6,7 », « 439a » ;
-vide pour une ligne qui continue un vers ou qui n'est pas un vers), `zone` (`texte` par
+la ligne, numérotation usuelle de Brunck, colonne `usuel` de `edition/donnees/concordance_vers.tsv` :
+« 6 », « 6,7 », « 439a » ; vide pour une ligne qui continue un vers ou qui n'est pas un vers),
+`zone` (`texte` par
 défaut, `titre`, `hypothesis`, `marge-sup`, `marge-inf`), `retrait` (renfoncement, en
 unités de 25 px ; **négatif pour une saillie**, ekthesis), `main` (si la ligne entière
 est d'une autre main), `repasse`.

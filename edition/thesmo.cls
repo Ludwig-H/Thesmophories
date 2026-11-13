@@ -35,7 +35,7 @@
 \babelfont[ancientgreek]{sf}[Extension=.ttf, UprightFont=Cardo-Regular, ItalicFont=Cardo-Italic,
   BoldFont=Cardo-Bold, RawFeature={fallback=thesmofb}]{Cardo}
 \newfontfamily\thesmo@metfont{Cardo}[Extension=.ttf, UprightFont=Cardo-Regular, LetterSpace=7]
-\newfontfamily\thesmo@grcaps{GFS Porson}[Scale=0.93, LetterSpace=12]
+\newfontfamily\thesmo@grcaps{GFS Porson}[Scale=0.93, LetterSpace=12, RawFeature={fallback=thesmofb}]
 \newcommand\diplofont{\sffamily}
 \newcommand\metfont{\thesmo@metfont}
 \newcommand\petcap[1]{{\addfontfeature{Letters=SmallCaps, LetterSpace=6}#1}}
@@ -865,7 +865,20 @@
           {
             \vbox_to_ht:nn { 0.72\l_thesmo_dbs_dim } { \vss }
             \hbox_to_wd:nn { \l_thesmo_dln_dim } { { \fontsize{5.5}{6}\selectfont \color{filet} #1 } \hss }
-            \hbox_to_wd:nn { \l_thesmo_dsig_dim } { \hss { \diplofont \fontsize{7.5}{9}\selectfont #2 } \hspace{1.5mm} }
+            \hbox_set:Nn \l_thesmo_meas_box { \diplofont \fontsize{7.5}{9}\selectfont #2 }
+            \hbox_to_wd:nn { \l_thesmo_dsig_dim }
+              {
+                \hss
+                \dim_compare:nNnTF { \box_wd:N \l_thesmo_meas_box } > { \l_thesmo_dsig_dim - 1.5mm }
+                  {
+                    \box_scale:Nnn \l_thesmo_meas_box
+                      { \fp_max:nn { 0.55 } { \dim_to_fp:n { \l_thesmo_dsig_dim - 1.5mm } / \dim_to_fp:n { \box_wd:N \l_thesmo_meas_box } } }
+                      { 1 }
+                    \box_use:N \l_thesmo_meas_box
+                  }
+                  { \box_use:N \l_thesmo_meas_box }
+                \hspace{1.5mm}
+              }
             \hbox_set:Nn \l_thesmo_meas_box { \diplofont \l_thesmo_dsize_tl \hspace*{#5} #3 }
             \hbox_to_wd:nn { \l_thesmo_dtxt_dim }
               {
@@ -1155,10 +1168,11 @@
 %% Macros produites par outils/transcription/xml_vers_latex.py (voir ravennas/FORMAT_TRANSCRIPTION.md)
 \RequirePackage{luacolor}
 \RequirePackage{lua-ul}
+\RequirePackage{etoolbox}
 \newcommand\Dcol[2]{\textcolor{main#1}{#2}}
 \newcommand\Dpetit{\fontsize{5.8}{6}\selectfont}
 \newcommand\Dnota[2][R1]{{\fontsize{7.5}{9}\selectfont\Dcol{#1}{#2}}\,}
-\newcommand\Dparag{\rlap{\raisebox{-0.42\baselineskip}{\color{encre}\rule{4.2mm}{0.45pt}}}}
+\newcommand\Dparag[1][R1]{\rlap{\raisebox{-0.42\baselineskip}{\Dcol{#1}{\rule{4.2mm}{0.45pt}}}}}
 \newcommand\Dsupra[2]{\makebox[0pt][c]{\raisebox{1.32ex}[0pt][0pt]{\Dpetit\Dcol{#1}{#2}}}}
 \newcommand\Dinfra[2]{\makebox[0pt][c]{\raisebox{-1.05ex}[0pt][0pt]{\Dpetit\Dcol{#1}{#2}}}}
 \newcommand\Dadd[3][R1]{%
@@ -1166,10 +1180,12 @@
   \ifstrequal{#2}{dessous}{\Dinfra{#1}{#3}}{%
   \ifstrequal{#2}{ligne}{\Dcol{#1}{#3}}{%
   {\Dpetit\raisebox{0.6ex}{\color{gris}\textit{mg.}}}\,\Dcol{#1}{#3}}}}}
+%% trait de biffure ou d'exponctuation à la couleur de la main qui intervient ; le texte garde la sienne
+\newcommand\thesmo@trait[3]{\colorlet{thesmo@avant}{.}{\color{main#2}#1{\color{thesmo@avant}#3}}}
 \newcommand\Ddel[3][R1]{%
   \ifstrequal{#2}{grattage}{{\color{gris}⟦}{\color{gris}\ifblank{#3}{\,·\,}{#3}}{\color{gris}⟧}}{%
-  \ifstrequal{#2}{biffure}{\strikeThrough{#3}}{%
-  \ifstrequal{#2}{exponctuation}{\Dcol{#1}{\underLine{#3}}}{%
+  \ifstrequal{#2}{biffure}{\ifstrequal{#3}{\Dparag}{#3\rlap{\kern 1.5mm\raisebox{-0.65\baselineskip}[0pt][0pt]{\fontsize{6.5}{7}\selectfont\Dcol{#1}{/}}}}{\thesmo@trait\strikeThrough{#1}{#3}}}{%
+  \ifstrequal{#2}{exponctuation}{\thesmo@trait\underLine{#1}{#3}}{%
   {\color{gris}#3}}}}}
 \newcommand\Dsubst[3][R2]{\Dcol{#1}{#3}\ifblank{#2}{}{\textsuperscript{\Dpetit\color{gris}(#2)}}}
 \newcommand\Dras[2][R1]{\highLight[fondras]{\Dcol{#1}{#2}}}
@@ -1187,7 +1203,6 @@
 \newunderlinetype\thesmo@pointille[\number\dimexpr 1ex\relax]{\cleaders\hbox to 0.42ex{\hss\textcolor{mainRrec}{\rule[-0.32ex]{0.17ex}{0.17ex}}\hss}}
 \newcommand\Drepasse[1]{{\thesmo@pointille #1}}
 \newcommand\Dmine[1]{{\thesmo@pointille\Dcol{Rrec}{#1}}}
-\RequirePackage{etoolbox}
 %% compatibilité avec la maquette d'essai
 \newcommand\sig[1]{{\diplofont\fontsize{7.5}{9}\selectfont #1}}
 \newcommand\supra[3][R2]{#2\Dsupra{#1}{#3}}

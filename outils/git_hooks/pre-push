@@ -1,0 +1,11 @@
+#!/bin/sh
+# Garde-fou : refuse de pousser un commit dont l'auteur ou le committer n'est pas l'identité anonyme.
+ATTENDU="158177790+Ludwig-H@users.noreply.github.com"
+z=0000000000000000000000000000000000000000
+while read lref lsha rref rsha; do
+  [ "$lsha" = "$z" ] && continue
+  if [ "$rsha" = "$z" ]; then plage="$lsha"; else plage="$rsha..$lsha"; fi
+  mauvais=$(git log --format='%h %ae %ce' $plage | awk -v a="$ATTENDU" '$2!=a && $2!="noreply@github.com" || $3!=a && $3!="noreply@github.com"')
+  if [ -n "$mauvais" ]; then echo "REFUS du push : commits à identité non anonyme :" >&2; echo "$mauvais" | cut -d' ' -f1 >&2; exit 1; fi
+done
+exit 0

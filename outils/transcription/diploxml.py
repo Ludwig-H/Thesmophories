@@ -73,7 +73,7 @@ def valider(racine):
         pb.append('numérotation des <l> non continue à partir de 1')
     for s in racine.iter('sch'):
         a = s.get('ancre')
-        if not a or not a.isdigit() or int(a) not in ns:
+        if not a or not a.isdigit() or (ns and int(a) not in ns):
             pb.append(f'ligne {s.sourceline} : <sch> avec ancre invalide ({a})')
         if s.get('place') and s.get('place') not in PLACES_SCH:
             pb.append(f'ligne {s.sourceline} : place inconnue {s.get("place")}')
@@ -84,27 +84,46 @@ def avertir(racine):
     """Écarts au guide (ravennas/GUIDE_TRANSCRIPTION.md, § 2) qui n'empêchent pas la compilation :
     à examiner, jamais à corriger sans retour à l'image."""
     av = []
-    for el in racine.iter('l'):
-        t = ''.join(el.itertext())
-        for c in sorted(set(c for c in t if c in 'ᾳῃῳᾴῄῴᾲῂῲᾷῇῷᾀᾐᾠ')):
-            av.append(f'l. {el.get("n")} : iota souscrit « {c} » : R ne souscrit jamais (écrire l\'ι sur la ligne, ou rien)')
-        if 'ς' in t:
-            av.append(f'l. {el.get("n")} : ς : T n\'a qu\'un σ (écrire σ, même en finale)')
-        for c in sorted(set(c for c in t if c in '\'’ʼ')):
-            av.append(f'l. {el.get("n")} : apostrophe « {c} » : employer ᾽ (U+1FBD)')
+    fol = str(racine.get('folio') or '')
+    if fol.startswith('f'):
+        av.append(f'page : folio="{fol}" commence par « f » (attendu : "{fol[1:]}")')
+    for el in list(racine.iter('l')) + list(racine.iter('sch')):
+        etiq = f'l. {el.get("n")}' if el.tag == 'l' else f'sch. {el.get("n")}'
+        t_ms = ''.join(el.itertext())
+        if el.tag == 'sch' and el.get('lemme'):
+            t_ms += ' ' + el.get('lemme')
+        t_tout = t_ms + ' ' + ' '.join(a.get('dev', '') for a in el.iter('abbr'))
+        for c in sorted(set(c for c in t_tout if '\u0345' in unicodedata.normalize('NFD', c))):
+            av.append(f'{etiq} : iota souscrit « {c} » : R ne souscrit jamais (écrire l\'ι sur la ligne, ou rien)')
+        if 'ς' in t_ms:
+            av.append(f'{etiq} : ς : écrire σ partout dans le texte XML, même en finale (seul signe="ς" est admis)')
+        for c in sorted(set(c for c in t_tout if c in '\'’ʼ')):
+            av.append(f'{etiq} : apostrophe « {c} » : employer ᾽ (U+1FBD)')
     return av
 
 
+_GREC = r'[\u0370-\u03ff\u1f00-\u1fff]'
+_COMB = r'[\u0300-\u036f]*'
+_FIN_MOT = r'(?=' + _COMB + r'\}*(?:[\s·,.;:!?—–\-)\]⟧]|\\D(?:nota|signe|sp)\b|$))'
+
+
 def sigma_final(t):
-    """Le copiste n'a qu'une forme de sigma ; le livre imprime ς en fin de mot (allographe, non leçon)."""
-    return re.sub(r'(?<=\w)σ(?=[\s·,.;:!?—–\-)\]⟧]|$)', 'ς', t)
+    """Le copiste n'a qu'une forme de sigma ; le livre imprime ς en fin de mot (allographe, non leçon),
+    y compris après une macro de correction (\\Dsubst) ou sous un point souscrit (<unclear>)."""
+    t = re.sub(r'(?:(?<=' + _GREC + r')' + _COMB + r'|(?<=\}))σ' + _FIN_MOT,
+               lambda m: m.group(0)[:-1] + 'ς', t)
+    t = re.sub(r'(' + _GREC + _COMB + r'\\D(?:add|del|ras|subst)(?:\[[^\]]*\])?(?:\{[^{}]*\})*?\{)σ' + _FIN_MOT,
+               r'\1ς', t)
+    return t
 
 
 def esc(t):
-    t = re.sub(r'(?<=\w)σ(?=[\s·,.;:!?—–\-)\]⟧])', 'ς', t)
-    t = t.replace('\\', r'\textbackslash{}')
+    t = re.sub(r'(?<=' + _GREC + r')' + _COMB + r'σ(?=' + _COMB + r'[\s·,.;:!?—–\-)\]⟧])',
+               lambda m: m.group(0)[:-1] + 'ς', t)
+    t = t.replace('\\', '\x00')
     for c in '&%$#_{}':
         t = t.replace(c, '\\' + c)
+    t = t.replace('\x00', r'\textbackslash{}')
     return t.replace('~', r'\textasciitilde{}').replace('^', r'\textasciicircum{}')
 
 
@@ -141,7 +160,7 @@ def convertir_nu(el):
     if tag == 'nota':
         return r'\Dnota[%s]{%s}' % (m or 'R1', interieur(el))
     if tag == 'parag':
-        return r'\Dparag'
+        return (r'\Dparag[%s]' % m) if (m and m != 'R1') else r'\Dparag'
     if tag == 'add':
         return r'\Dadd[%s]{%s}{%s}' % (m or 'R1', el.get('place', 'dessus'), interieur(el))
     if tag == 'del':
@@ -161,7 +180,12 @@ def convertir_nu(el):
     if tag == 'gap':
         return r'\Dgap{%s}' % el.get('n', '1')
     if tag == 'abbr':   # le signe du manuscrit est imprimé ; le développement, en gris, l'explique
-        return r'\Dabbr[%s]{%s}{%s}' % (esc(el.get('signe', '')), interieur(el), esc(el.get('dev', '')))
+        dev = el.get('dev', '')
+        if (el.text or len(el)) and dev == 'σ':
+            dev = 'ς'
+        else:
+            dev = sigma_final(dev)
+        return r'\Dabbr[%s]{%s}{%s}' % (esc(el.get('signe', '')), interieur(el), esc(dev))
     if tag == 'corr':
         return esc(sigma_final(el.get('lire', '')))
     if tag == 'gl':
@@ -183,20 +207,35 @@ def convertir_nu(el):
     return interieur(el)
 
 
+def est_marque_bande(el):
+    """Vrai si l'élément en tête de <l> appartient à la bande des sigles (colonne de gauche) :
+    <parag/>, <nota>, leurs enveloppes <unclear>/<del>, ou un sigle gratté <del type="grattage"><gap/></del>."""
+    if el.tag in ('nota', 'parag'):
+        return True
+    if el.tag in ('del', 'unclear') and len(el) == 1 and not (el.text or '').strip() and not (el[0].tail or '').strip():
+        if el.tag == 'del' and el[0].tag == 'gap':
+            return True
+        return est_marque_bande(el[0])
+    return False
+
+
 def ligne_vers_latex(l):
-    """Une ligne <l> → \\ligne[...]{sigles}{texte}. Les <nota>/<parag> initiaux vont
-    dans la colonne des sigles."""
+    """Une ligne <l> → \\ligne[...]{sigles}{texte}. Les marques initiales de la bande
+    des sigles (<parag>, <nota>, sigle gratté) vont dans la colonne de gauche."""
     sig = []
     texte = esc((l.text or '').lstrip()) if (l.text or '').strip() else ''
     enfants = list(l)
     debut = not (l.text or '').strip()
     corps = texte
-    for c in enfants:
-        marque = c.tag in ('nota', 'parag') or (c.tag in ('del', 'unclear') and len(c) == 1
-                                                and c[0].tag == 'parag' and not (c.text or '').strip())
+    for idx, c in enumerate(enfants):
+        marque = est_marque_bande(c)
         if debut and marque and not corps.strip():
             sig.append(convertir(c))
-            corps += esc((c.tail or '').lstrip()) if not corps else esc(c.tail or '')
+            tail_s = (c.tail or '').strip()
+            if tail_s in (':', '·') and idx + 1 < len(enfants) and est_marque_bande(enfants[idx + 1]):
+                sig.append(esc(tail_s))
+            else:
+                corps += esc((c.tail or '').lstrip()) if not corps else esc(c.tail or '')
             continue
         debut = False
         corps += convertir(c) + esc(c.tail or '')
@@ -226,11 +265,12 @@ def sch_vers_latex(s, folio=''):
 
 
 def page_vers_latex(racine):
-    out = ['%% Généré automatiquement depuis ravennas/transcription/f' + str(racine.get('folio')) + '.xml — ne pas modifier à la main.']
+    fol = str(racine.get('folio') or '').lstrip('f')
+    out = ['%% Généré automatiquement depuis ravennas/transcription/f' + fol + '.xml — ne pas modifier à la main.']
     for l in racine.iter('l'):
         out.append(ligne_vers_latex(l))
     for s in racine.iter('sch'):
-        out.append(sch_vers_latex(s, racine.get('folio')))
+        out.append(sch_vers_latex(s, fol))
     return '\n'.join(out) + '\n'
 
 

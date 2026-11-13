@@ -26,7 +26,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq --no-install-recommen
   -o Dir::Cache::archives="$CACHE" \
   texlive-luatex texlive-xetex texlive-latex-base texlive-latex-recommended texlive-latex-extra \
   texlive-fonts-recommended texlive-lang-greek texlive-lang-french texlive-humanities texlive-science \
-  lmodern fontconfig fonts-freefont-otf fonts-freefont-ttf poppler-utils djvulibre-bin unzip jq \
+  lmodern fontconfig fonts-freefont-otf fonts-freefont-ttf poppler-utils djvulibre-bin unzip jq rclone \
   tesseract-ocr tesseract-ocr-grc tesseract-ocr-ell tesseract-ocr-lat tesseract-ocr-fra tesseract-ocr-deu tesseract-ocr-ita
 
 # 3. OCR à faible priorité, un fil par page (machine partagée)
@@ -35,4 +35,18 @@ sudo chmod +x /usr/local/bin/tesseract
 
 # 4. base des polices de l'édition pour LuaTeX
 OSFONTDIR="$RACINE/edition/polices" luaotfload-tool --update --force
+
+# 5. identité Git anonyme (règle 1 de CLAUDE.md). Coder injecte GIT_AUTHOR_* / GIT_COMMITTER_*
+#    (adresse personnelle), qui l'emportent sur .git/config : commiter avec outils/git_anonyme.sh ;
+#    les crochets pre-commit et pre-push refusent toute autre identité.
+git -C "$RACINE" config --local user.name "Ludwig-H"
+git -C "$RACINE" config --local user.email "158177790+Ludwig-H@users.noreply.github.com"
+install -m 755 "$RACINE/outils/git_hooks/pre-commit" "$RACINE/outils/git_hooks/pre-push" "$RACINE/.git/hooks/"
+
+# 6. restauration éventuelle de la configuration rclone (Google Drive, hors git)
+if [ -f "$RACINE/.travail/.rclone.conf" ] && [ ! -f "$HOME/.config/rclone/rclone.conf" ]; then
+  mkdir -p "$HOME/.config/rclone"
+  cp "$RACINE/.travail/.rclone.conf" "$HOME/.config/rclone/rclone.conf"
+  chmod 600 "$HOME/.config/rclone/rclone.conf"
+fi
 echo "Environnement prêt."

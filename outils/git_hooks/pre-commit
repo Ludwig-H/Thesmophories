@@ -1,0 +1,10 @@
+#!/bin/sh
+# Garde-fou (CLAUDE.md, règle 1) : jamais l'identité réelle de l'auteur dans les commits d'un dépôt public.
+# Coder injecte GIT_AUTHOR_* / GIT_COMMITTER_* dans l'environnement : ils l'emportent sur .git/config.
+ATTENDU="158177790+Ludwig-H@users.noreply.github.com"
+for v in GIT_AUTHOR_IDENT GIT_COMMITTER_IDENT; do
+  case "$(git var $v)" in
+    *"<$ATTENDU>"*) ;;
+    *) echo "REFUS : $v n'est pas l'identité anonyme du dépôt. Commiter avec outils/git_anonyme.sh commit …" >&2; exit 1 ;;
+  esac
+done
