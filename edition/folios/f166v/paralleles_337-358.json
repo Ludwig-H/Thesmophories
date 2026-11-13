@@ -137,7 +137,7 @@
   "verification": "chercher.py ἐπικηρυκ* -a Ammon. (éd. Nickau, § 184 ; réf. TEI 5.184)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 1,
-  "remarque": ""
+  "remarque": "la numérisation porte « ἐπικηρυκεύαασθαι » (coquille)"
  },
  {
   "v": "336-337",
@@ -7406,7 +7406,7 @@
   "remarque": ""
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ὁπόσαι δ᾽ ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους τοὺς νενομισμένους",
   "categorie": "aristophane",
   "ref": "Ar. Av. 331–332",
@@ -7420,7 +7420,7 @@
   "remarque": "même verbe, même objet, même contexte d’assemblée indignée"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ὁπόσαι δ᾽ ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "aristophane",
   "ref": "Ar. Ach. 307–308",
@@ -7434,7 +7434,7 @@
   "remarque": ""
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "aristophane",
   "ref": "Ar. Thesm. 275–276",
@@ -7448,7 +7448,7 @@
   "remarque": "Euripide et le serment : retournement parodique d’Eur. Hipp. 612"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "aristophane",
   "ref": "Ar. Ran. 101–102",
@@ -7462,7 +7462,7 @@
   "remarque": ""
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ὁπόσαι δ᾽ … παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "aristophane",
   "ref": "Ar. Lys. 914–915",
@@ -7476,7 +7476,7 @@
   "remarque": "une femme prête à violer son serment (Myrrhine)"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "aristophane",
   "ref": "Ar. Nub. 397–400",
@@ -7490,7 +7490,7 @@
   "remarque": "le châtiment divin des parjures"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ὁπόσαι δ᾽ ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους τοὺς νενομισμένους",
   "categorie": "tragiques",
   "ref": "Eur. Med. 492–493",
@@ -7504,7 +7504,7 @@
   "remarque": "l’amant parjure : le thème des vv. 343–344 rejoint celui-ci ; cf. Med. 1392 τοῦ ψευδόρκου καὶ ξειναπάτου"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ὁπόσαι δ᾽ ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους τοὺς νενομισμένους",
   "categorie": "tragiques",
   "ref": "Eur. fr. 286 N.²",
@@ -7518,7 +7518,7 @@
   "remarque": "Bellérophon ; avec le mot τυραννίδα (cf. v. 338)"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ὁπόσαι δ᾽ ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "tragiques",
   "ref": "Eur. Med. 1391–1392",
@@ -7532,7 +7532,7 @@
   "remarque": "tromperie et parjure réunis, chez Euripide lui-même"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "tragiques",
   "ref": "Eur. Hipp. 612",
@@ -7546,7 +7546,7 @@
   "remarque": "le vers qui faisait d’Euripide un maître de parjure ; parodié dans la pièce même (Thesm. 275–276) ; cité Sud. α 2592"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ὁπόσαι δ᾽ ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους τοὺς νενομισμένους",
   "categorie": "poetes",
   "ref": "Hes. Op. 282–284",
@@ -7560,7 +7560,7 @@
   "remarque": "parjure, mensonge, dommage (βλάψας) et ruine de la lignée : les notions des vv. 349 et 356–360"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "poetes",
   "ref": "Hom. Il. 3.299",
@@ -7574,7 +7574,7 @@
   "remarque": "la formule imprécatoire homérique ; la suite (3.300–301) est citée au v. 349"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "poetes",
   "ref": "Hom. Il. 4.157",
@@ -7588,7 +7588,7 @@
   "remarque": ""
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "poetes",
   "ref": "Hes. Op. 193–194",
@@ -7602,7 +7602,7 @@
   "remarque": ""
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ἐξαπατῶσιν … τοὺς ὅρκους",
   "categorie": "poetes",
   "ref": "Nonn. D. 48.544",
@@ -7616,7 +7616,7 @@
   "remarque": "Ariane abandonnée ; cf. 47.389 (τὸν ὁρκαπάτην παρακοίτην)"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ὁπόσαι δ᾽ … παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "poetes",
   "ref": "Prop. 2.28a.9–10",
@@ -7630,7 +7630,7 @@
   "remarque": "les serments des femmes emportés par le vent ; numérotation de l’éd. numérisée (Tosi : 2.28.8)"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ὁπόσαι δ᾽ … παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "poetes",
   "ref": "Ov. Am. 2.16.43–46",
@@ -7644,7 +7644,7 @@
   "remarque": "le serment rompu d’une femme"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ὁπόσαι δ᾽ ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους τοὺς νενομισμένους",
   "categorie": "prose",
   "ref": "Antiph. 6.51",
@@ -7658,7 +7658,7 @@
   "remarque": "ἐξαπατᾶν + ὅρκους παραβαίνειν : nos deux verbes, joints ; voir déjà Antiph. 6.49"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ὁπόσαι δ᾽ ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους τοὺς νενομισμένους",
   "categorie": "prose",
   "ref": "Dem. 40.2",
@@ -7672,7 +7672,7 @@
   "remarque": "ἐξαπατᾶν et parjure au féminin ; une femme, au sujet d’une filiation (cf. vv. 339–340)"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ὁπόσαι δ᾽ ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους τοὺς νενομισμένους",
   "categorie": "prose",
   "ref": "Lycurg. Leoc. 79",
@@ -7686,7 +7686,7 @@
   "remarque": "le serment, lien de la cité"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "prose",
   "ref": "Thuc. 3.83.2",
@@ -7700,7 +7700,7 @@
   "remarque": "la στάσις : serment sans force, à l’horizon de 411"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "prose",
   "ref": "Thuc. 1.78.4",
@@ -7714,7 +7714,7 @@
   "remarque": ""
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "prose",
   "ref": "Dem. 23.10",
@@ -7728,21 +7728,21 @@
   "remarque": ""
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "prose",
   "ref": "Xen. Cyr. 8.8.4",
   "urn": "urn:cts:greekLit:tlg0032.tlg007.perseus-grc2:8.8.4",
-  "citation": "καὶ τοὺς μεγίστους ὅρκους παραβὰς βασιλεῖ δόξῃ τι σύμφορον πρᾶξαι",
+  "citation": "καὶ τοὺς μεγίστους ὅρκους παραβὰς βασιλεῖ δόξῃ τι σύμφορον ποιῆσαι",
   "traduction": "",
   "verifie": "corpus",
-  "verification": "chercher.py NEAR(παραβ* ὅρκ*, 3)",
+  "verification": "chercher.py NEAR(παραβ* ὅρκ*, 3) ; citation corrigée sur le texte (ποιῆσαι, non πρᾶξαι), r5",
   "signale_par": "recherche dans le corpus",
   "pertinence": 1,
   "remarque": ""
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "prose",
   "ref": "Ath. 13.556e–557b",
@@ -7756,7 +7756,7 @@
   "remarque": "Thésée parjure envers Ariane (passage 13.4 de l’éd. numérisée, 556e–557b)"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "prose",
   "ref": "Arist. Rh. 3.15.8",
@@ -7770,7 +7770,7 @@
   "remarque": "Euripide accusé d’enseigner le parjure"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί",
   "categorie": "lexicographes",
   "ref": "Hsch. π 448",
@@ -7798,7 +7798,7 @@
   "remarque": ""
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "lexicographes",
   "ref": "Hsch. ψ 132",
@@ -7812,7 +7812,7 @@
   "remarque": "mentir, transgresser, se parjurer : les trois notions de nos vers réunies dans une glose"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "lexicographes",
   "ref": "Hsch. ε 3820",
@@ -7826,7 +7826,7 @@
   "remarque": "παραβαίνειν, verbe propre de la violation des serments"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "lexicographes",
   "ref": "Hsch. υ 351",
@@ -7840,7 +7840,7 @@
   "remarque": ""
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "lexicographes",
   "ref": "Hsch. ε 5027",
@@ -7854,7 +7854,7 @@
   "remarque": "le parjure, un mensonge"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "lexicographes",
   "ref": "Hsch. ε 2426",
@@ -7868,7 +7868,7 @@
   "remarque": "Ar. fr. 813 K.-A. : le contraire de παραβαίνειν τοὺς ὅρκους, avec un jeu de mots aristophanien"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "lexicographes",
   "ref": "Synag. ο 222 (Cunningham, p. 370)",
@@ -7882,7 +7882,7 @@
   "remarque": "idem Phot. ο 483 Theodoridis, Sud. ο 592 (sans variante) ; ὁρκαπάτης, « trompeur par serment », réunit ἐξαπατᾶν et ὅρκος"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "lexicographes",
   "ref": "Poll. 1.39 (Dindorf I, p. 14, 5–10)",
@@ -7896,7 +7896,7 @@
   "remarque": "le vocabulaire du serment tenu et violé"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "proverbes",
   "ref": "Plut. Lys. 8.4",
@@ -7910,7 +7910,7 @@
   "remarque": "maxime du parjure : ὅρκοις ἐξαπατᾶν ; attribuée à Lysandre, Polycrate, Philippe, Denys"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "proverbes",
   "ref": "Ael. VH 7.12",
@@ -7924,7 +7924,7 @@
   "remarque": ""
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "proverbes",
   "ref": "Plut. Mor. 229b",
@@ -7938,7 +7938,7 @@
   "remarque": "παράβασις τῶν ὅρκων + ἐξαπατᾶν"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "proverbes",
   "ref": "App. Prov. 2.91",
@@ -7952,7 +7952,7 @@
   "remarque": "« le serment d’Euripide », passé en proverbe : le lien avec Hipp. 612 et Thesm. 275–276 reste à établir ; aussi CPG II, p. 167"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "proverbes",
   "ref": "Zen. 5.81",
@@ -7966,7 +7966,7 @@
   "remarque": "Cratin. : à rapprocher de l’« εὐριπίδειος ὅρκος » (App. Prov. 2.91) ; cf. Ar. Av. 520–521"
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους",
   "categorie": "proverbes",
   "ref": "Diogenian. 7.78",
@@ -7980,7 +7980,7 @@
   "remarque": ""
  },
  {
-  "v": "356-358",
+  "v": "356-359",
   "lemme": "ὅρκους",
   "categorie": "proverbes",
   "ref": "App. Prov. 3.100",
@@ -8022,7 +8022,7 @@
   "remarque": "le participe féminin ἐξαπατῶσαι (Eur. Andr. 289)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "τοὺς νενομισμένους",
   "categorie": "aristophane",
   "ref": "Ar. Plut. 1185",
@@ -8033,10 +8033,10 @@
   "verification": "p.py Plut. 1183–1186",
   "signale_par": "Sud. ν 461",
   "pertinence": 2,
-  "remarque": "τὰ νομιζόμενα, les parts rituelles d’usage"
+  "remarque": "τὰ νομιζόμενα, les parts rituelles d’usage ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "aristophane",
   "ref": "Ar. Lys. 183–187",
@@ -8047,10 +8047,10 @@
   "verification": "p.py Lys. 183–188",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "les femmes prêtent serment, dans une forme réglée (vv. 181–239)"
+  "remarque": "les femmes prêtent serment, dans une forme réglée (vv. 181–239) ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "prose",
   "ref": "Andoc. 1.98",
@@ -8061,10 +8061,10 @@
   "verification": "p.py Andoc. 1.98",
   "signale_par": "chercher.py \"τὸν νόμιμον ὅρκον\"",
   "pertinence": 3,
-  "remarque": "ὅρκος νόμιμος, dans le décret de 410/09"
+  "remarque": "ὅρκος νόμιμος, dans le décret de 410/09 ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "prose",
   "ref": "Antiph. 5.96",
@@ -8075,10 +8075,10 @@
   "verification": "p.py Antiph. 5.96",
   "signale_par": "chercher.py \"τὸν νομιζόμενον ὅρκον\"",
   "pertinence": 3,
-  "remarque": "participe de νομίζω + ὅρκος : tour exact ; cf. Antiph. 5.90"
+  "remarque": "participe de νομίζω + ὅρκος : tour exact ; cf. Antiph. 5.90 ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "prose",
   "ref": "Dem. 59.3",
@@ -8089,10 +8089,10 @@
   "verification": "p.py Dem. 59.3",
   "signale_par": "chercher.py \"τὸν νόμιμον ὅρκον\"",
   "pertinence": 2,
-  "remarque": "serment des bouleutes"
+  "remarque": "serment des bouleutes ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "prose",
   "ref": "Thuc. 5.18.9",
@@ -8103,10 +8103,10 @@
   "verification": "p.py Thuc. 5.18.9",
   "signale_par": "LSJ s.v. κατά ; chercher.py",
   "pertinence": 2,
-  "remarque": "le serment traditionnel de chaque cité ; aussi Thuc. 5.47.8"
+  "remarque": "le serment traditionnel de chaque cité ; aussi Thuc. 5.47.8 ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "prose",
   "ref": "Dem. 59.78–79",
@@ -8117,10 +8117,10 @@
   "verification": "p.py Dem. 59.78–79",
   "signale_par": "Sommerstein 1994, n. au v. 359 (serments de secret des femmes) ; recherche dans le corpus",
   "pertinence": 3,
-  "remarque": "un serment rituel de femmes, sous secret, sous la conduite d’un héraut sacré"
+  "remarque": "un serment rituel de femmes, sous secret, sous la conduite d’un héraut sacré ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "scholies",
   "ref": "Σ Thesm. 359 (Dübner, p. 267, 3)",
@@ -8131,10 +8131,10 @@
   "verification": "Dübner 1842, p. 267, col. a, l. 3 (image lue)",
   "signale_par": "scholies ; Blaydes 1880, p. 167",
   "pertinence": 2,
-  "remarque": "sur τοὺς νενομισμένους (numéro 359 de la vulgate)"
+  "remarque": "sur τοὺς νενομισμένους (numéro 359 de la vulgate) ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους",
   "categorie": "lexicographes",
   "ref": "Hsch. ε 5028",
@@ -8145,10 +8145,10 @@
   "verification": "hl.py ^επιορκ (Latte II, p. 208)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": ""
+  "remarque": "v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους",
   "categorie": "lexicographes",
   "ref": "Hsch. ο 1229",
@@ -8159,10 +8159,10 @@
   "verification": "hl.py ^ορκια (Latte II, p. 964)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 1,
-  "remarque": ""
+  "remarque": "v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "τοὺς νενομισμένους",
   "categorie": "lexicographes",
   "ref": "Hsch. ν 635",
@@ -8173,10 +8173,10 @@
   "verification": "hl.py ^νομιμ (Latte II, p. 893)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 1,
-  "remarque": ""
+  "remarque": "v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους",
   "categorie": "lexicographes",
   "ref": "Hsch. ν 543",
@@ -8187,10 +8187,10 @@
   "verification": "hsch.py --ref 'ν 543' ; Latte II, p. 890",
   "signale_par": "recherche dans le corpus (Hésychius)",
   "pertinence": 2,
-  "remarque": "le serment des femmes aux Thesmophories : cf. Thesm. 383, 566, 719, 875, 897, 916"
+  "remarque": "le serment des femmes aux Thesmophories : cf. Thesm. 383, 566, 719, 875, 897, 916 ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "lexicographes",
   "ref": "Hsch. τ 1298",
@@ -8201,10 +8201,10 @@
   "verification": "hsch.py --ref 'τ 1298' ; Hansen–Cunningham IV, p. 69",
   "signale_par": "recherche dans le corpus (Hésychius)",
   "pertinence": 2,
-  "remarque": "le serment prescrit par la loi de Solon"
+  "remarque": "le serment prescrit par la loi de Solon ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "lexicographes",
   "ref": "Hsch. α 7098",
@@ -8215,10 +8215,10 @@
   "verification": "hsch.py --ref 'α 7098' ; Latte I, p. 323",
   "signale_par": "recherche dans le corpus (Hésychius)",
   "pertinence": 2,
-  "remarque": "le lieu où l’on prêtait les serments publics"
+  "remarque": "le lieu où l’on prêtait les serments publics ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "lexicographes",
   "ref": "Hsch. ε 4121",
@@ -8229,10 +8229,10 @@
   "verification": "hsch.py --ref 'ε 4121' ; Latte II, p. 170",
   "signale_par": "recherche dans le corpus (Hésychius)",
   "pertinence": 2,
-  "remarque": "le serment importé, opposé au serment du pays (cf. Zen. 3.80 et Diogenian. 4.60, déjà cités)"
+  "remarque": "le serment importé, opposé au serment du pays (cf. Zen. 3.80 et Diogenian. 4.60, déjà cités) ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους",
   "categorie": "lexicographes",
   "ref": "Hsch. ο 1233",
@@ -8243,10 +8243,10 @@
   "verification": "hsch.py --ref 'ο 1233' ; Latte II, p. 964",
   "signale_par": "recherche dans le corpus (Hésychius)",
   "pertinence": 1,
-  "remarque": "le serment comme lien"
+  "remarque": "le serment comme lien ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους",
   "categorie": "lexicographes",
   "ref": "Hsch. ο 1230",
@@ -8257,10 +8257,10 @@
   "verification": "hsch.py --ref 'ο 1230' ; Latte II, p. 964",
   "signale_par": "recherche dans le corpus (Hésychius)",
   "pertinence": 1,
-  "remarque": ""
+  "remarque": "v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους",
   "categorie": "lexicographes",
   "ref": "Hsch. ε 2518",
@@ -8271,10 +8271,10 @@
   "verification": "hsch.py --ref 'ε 2518' ; Latte II, p. 104",
   "signale_par": "recherche dans le corpus (Hésychius)",
   "pertinence": 1,
-  "remarque": ""
+  "remarque": "v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "τοὺς νενομισμένους",
   "categorie": "lexicographes",
   "ref": "Hsch. ν 638",
@@ -8285,10 +8285,10 @@
   "verification": "hsch.py --ref 'ν 638' ; Latte II, p. 893",
   "signale_par": "recherche dans le corpus (Hésychius)",
   "pertinence": 2,
-  "remarque": ""
+  "remarque": "v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "τοὺς νενομισμένους",
   "categorie": "lexicographes",
   "ref": "Hsch. ν 643",
@@ -8299,10 +8299,10 @@
   "verification": "hsch.py --ref 'ν 643' ; Latte II, p. 894",
   "signale_par": "recherche dans le corpus (Hésychius)",
   "pertinence": 1,
-  "remarque": "νόμος glosé par θεσμός et συνήθεια (cf. les Thesmophories)"
+  "remarque": "νόμος glosé par θεσμός et συνήθεια (cf. les Thesmophories) ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "τοὺς νενομισμένους",
   "categorie": "lexicographes",
   "ref": "Sud. ν 461",
@@ -8313,10 +8313,10 @@
   "verification": "sud.py ^νομιζομεν",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "= Synag. ν 104 (Cunningham, p. 353), Phot. ν 243 Theodoridis (sans la citation d’Ar.) ; la citation est Ar. Plut. 1185"
+  "remarque": "= Synag. ν 104 (Cunningham, p. 353), Phot. ν 243 Theodoridis (sans la citation d’Ar.) ; la citation est Ar. Plut. 1185 ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "lexicographes",
   "ref": "Sud. ο 594",
@@ -8327,10 +8327,10 @@
   "verification": "sud.py ^ορκ",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "la formule de serment, avec la bénédiction des fidèles (cf. vv. 349–351)"
+  "remarque": "la formule de serment, avec la bénédiction des fidèles (cf. vv. 349–351) ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "lexicographes",
   "ref": "Harp. s.v. Ἀρδηττός",
@@ -8341,10 +8341,10 @@
   "verification": "chercher.py Ἀρδηττ*",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "le serment public institué ; = Sud. α 3807 ; cf. Hsch. α 7098"
+  "remarque": "le serment public institué ; = Sud. α 3807 ; cf. Hsch. α 7098 ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "proverbes",
   "ref": "Zen. 3.80",
@@ -8355,10 +8355,10 @@
   "verification": "p.py Zen. 3.80",
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
-  "remarque": "l’inverse des ὅρκοι νενομισμένοι : le serment importé ; cf. Diogenian. 4.60"
+  "remarque": "l’inverse des ὅρκοι νενομισμένοι : le serment importé ; cf. Diogenian. 4.60 ; v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  },
  {
-  "v": "358",
+  "v": "359",
   "lemme": "ὅρκους τοὺς νενομισμένους",
   "categorie": "proverbes",
   "ref": "Diogenian. 4.60",
@@ -8369,6 +8369,6 @@
   "verification": "chercher.py ὅρκος -a Diogenian",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": ""
+  "remarque": "v. 359 de la numérotation usuelle (358 chez Hall–Geldart)"
  }
 ]

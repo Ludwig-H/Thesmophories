@@ -3,7 +3,7 @@
   <lignes>
     <l n="1" v="209"><parag/><nota main="Rrec">ἀγ</nota>ὦ τρισκακοδαίμων ὡσ ἀπόλωλ᾽ εὐριπίδησ</l>
     <l n="2" v="210"><nota main="R2" repasse="Rrec">μν<hi rend="sus">ησ</hi></nota>ὦ φίλτατ᾽ ὦ κηδεστὰ· μη σαυτὸν προ δῶισ</l>
-    <l n="3" v="211"><nota main="Rrec">εὐ·</nota>πῶσ οὖν πο ή σω δῆτα·<nota main="Rrec">μν<hi rend="sus">ή</hi></nota>· τουτον μὲν μακρὰ</l>
+    <l n="3" v="211"><nota main="Rrec">εὐ·</nota>πῶσ οὖν πο ή σω δῆτα·<nota main="Rrec">μν<hi rend="sus">ή</hi></nota>· το<unclear cert="faible">ῦ</unclear>τον μὲν μακρὰ</l>
     <l n="4" v="212">κλαί ειν κέλευ᾽· ἐμοὶ δ᾽ ὅ τι βούλει χρῶ λ<unclear cert="moyenne">α</unclear>βών·</l>
     <l n="5" v="213"><nota main="Rrec">εὐ·</nota>ἄγε νῦν ἐπει δὴ σαυτὸν ἐπιδίδω σ ἐμοὶ</l>
     <l n="6" v="214">ἀπό δυθι τουτὶ θο ιμάτιον<nota main="Rrec">μν<hi rend="sus">ή</hi></nota>· καὶ δὴ χαμαὶ</l>
@@ -46,5 +46,11 @@
     <l n="43" v="251">κα<unclear cert="moyenne">ὶ</unclear> στρό φ ιον· οὐγὰρ ταῦτ<unclear cert="moyenne">ᾶ</unclear>γ᾽ ὡ σοὐ κέστἐρεῖσ</l>
   </lignes>
   <notes>
+    <note>Lecture A, confrontée ensuite à Hall–Geldart (13 nov.). R ne ponctue que par · , : (et « ; ») : les points finaux, virgules et points d'interrogation de la référence sans contrepartie dans R ne sont pas relevés un à un, ni les sigles de personnage. Esprits d'espèce indistincte sur la page (points, triangles, crochets) : l'espèce écrite est celle qu'on attend, ce n'est pas une donnée (guide § 2.4).</note>
+    <note ligne="1">Trait vertical pâle surmonté d'un point (x 221–227, y 394–418), entre le sigle et ὦ, encre orangée diluée : nature indéterminée (prolongement du sigle de 1516 ?), non encodé. Paragraphos de T absorbée par la barre du Γ de ἀγ (1516).</note>
+    <note ligne="2">Sigle : μν, puis η suscrit au-dessus d'un σ lunaire (lettres superposées, x 193–207), à l'encre orangée : sigle de S2 repassé (guide § 1.5, v. 210) ; aucune paragraphos visible dessous. R a un point à mi-hauteur après κηδεστὰ (x 635, y 437), absent de la référence, et μη sans accent (zone vierge ; réf. μὴ).</note>
+    <note ligne="3">πο ή σω : pas d'ι (R ποήσω, réf. ποιήσω) ; blancs de 18 et 22 px gardés ; Η oncial, aigu déporté (x 512–522). Après δῆτα, deux points de même hauteur de part et d'autre du μν^ή de 1516 (x 723 et 777, y ≈ 485) : pas de dicolon (réf. « ; »). τοῦτον : crochet (x 820–832, y 443–451) au bout de la hampe du ν de σαυτὸν (l. 2) : circonflexe déporté ou fin de cette hampe, non tranché. εὐ de 1516 pâle, sur une plage un peu plus claire (grattage selon l'inventaire) : rien de lisible dessous.</note>
+    <note ligne="42">ἀλλ᾽ἱμάτιό : apostrophe (x 255–262) et esprit de ἱ (x 274–281) distincts ; aigu sur l'ο final (x 411–417) devant l'enclitique. νγ᾽ οὖν : R a γ᾽ οὖν (apostrophe x ≈ 472 ; esprit et circonflexe sur υ, x 500–517), réf. γοῦν ; blanc de 15 px entre ο et ν gardé. τουτωῒ : ι à tréma surmonté d'un grave (x 935–948) ; réf. τουτῳί.</note>
+    <note ligne="43">καὶ : trait court (x 253–264, y 2173–2179) au-dessus de l'ι, séparé du pied de l'ι de ἱμάτιό (l. 42) : grave probable. ταῦτᾶγ᾽ : sur le second α, accent en « ∧ » (x 730–740, y 2167–2174) : circonflexe probable (réf. ταῦτά γ᾽) ; apostrophe (x 755–763), esprit de ὡ (x 781–790) ; le « point » de x ≈ 636 avant ταῦτ est la goutte d'attaque du τ. κέστἐρεῖσ : aigu sur l'ε de κέ, στ en ligature, une seule marque entre στ et ε (x 954–962) = esprit de ἐρεῖσ : pas d'apostrophe (réf. οὐκ ἔστ᾽ ἐρεῖς). Pas de ponctuation finale (σ à trait de remplissage jusqu'à x 1125).</note>
   </notes>
 </page>
