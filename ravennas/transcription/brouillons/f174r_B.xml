@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page folio="174r" image="24_f174r_classense176r_vv0959-1000.jpg" vers="959-1001">
   <lignes>
-    <l n="1" v="959">ἅμαδὲκαὶ</l>
-    <l n="2" v="960">γένοσ ὀλυμπίων θεῶν</l>
+    <l n="1" v="959" retrait="3">ἅμαδὲκαὶ</l>
+    <l n="2" v="960" retrait="3">γένοσ ὀλυμπίων θεῶν</l>
     <l n="3" v="961" retrait="-3">μέλπε καὶ γέραιρε φωνῆι πᾶσαχορομανεῖτρόπωι—</l>
-    <l n="4" v="962">εἰ δέτισ·</l>
-    <l n="5" v="963">προσδοκᾶι κακῶσ ἐρεῖν·</l>
-    <l n="6" v="964">ἐν ἱ ερῶ γυναῖκ<unclear cert="moyenne">ά</unclear> μ οὐσαν ἄνδρασ</l>
-    <l n="7" v="965">οὐκ᾽ ὀρθῶσ φρονεῖ</l>
-    <l n="8" v="966">ἀλλὰ χρὴ·—</l>
-    <l n="9" v="967">ὥ σπερ ἐρ γον αὖτί καιν<subst main="R?"><del type="surcharge">ὸ</del><add place="ligne">ό</add></subst>ν·</l>
-    <l n="10" v="968" retrait="-4">πρῶ τον εὐκύκλου χορείασ εὐφυῆ στῆσαι βάσιν·</l>
+    <l n="4" v="962" retrait="3">εἰ δέτισ·</l>
+    <l n="5" v="963" retrait="2">προσδοκᾶι κακῶσ ἐρεῖν·</l>
+    <l n="6" v="964" retrait="2">ἐν ἱ ερῶ γυναῖ κ<unclear cert="moyenne">ά</unclear>μοὐσαν ἄνδρασ</l>
+    <l n="7" v="965" retrait="2">οὐκ᾽ὀρθῶσ φρονεῖ</l>
+    <l n="8" v="966" retrait="2">ἀλλὰχρὴ·</l>
+    <l n="9" v="967" retrait="1">ὥ σπερ <unclear cert="moyenne">ἔ</unclear>ργον αὖτί καιν<subst main="R?"><del type="surcharge">ὸ</del><add place="ligne">ό</add></subst>ν·</l>
+    <l n="10" v="968" retrait="-4">πρῶ τον εὐ κύκλου χορείασ εὐφυῆ στῆσαιβάσιν·</l>
     <l n="11" v="969">πρόβαινεποσὶν τὸν ἐλύραν·</l>
     <l n="12" v="970">μέλπουσα· καὶ τὴν τοξοφόρον</l>
     <l n="13" v="971">ἄρτεμιν ἄνασσαν ἁγν<subst main="R?"><del type="surcharge">ὴ</del><add place="ligne">ή</add></subst>ν·</l>
@@ -46,5 +46,16 @@
     <l n="43" v="1001" retrait="-5"><nota main="R2" repasse="Rrec">τοξο<hi rend="sus">τη<unclear cert="moyenne">ς</unclear></hi></nota>ἐνταῦτανῦν οἰμώζει προστὴν αἰτρίαν·</l>
   </lignes>
   <notes>
+    <note>Lecture B, par passes (reprise du 13 nov. : le brouillon du 11 nov., sans notes, a été entièrement relu sur l'image, ligne à ligne, pour les lettres et les diacritiques, puis pour la ponctuation et les marques ; confrontation ensuite). 43 lignes d'écriture, n identique à l'index de la segmentation ; aucune réglure vide. Esprits d'espèce indistincte sur la page (points, triangles, virgules, crochets) : la valeur doux/rude n'y est pas une donnée, sauf mention. Coupes selon le guide, § 2.7, mesurées dans la bande du corps des lettres sur encre.png (cinq bandes ; blanc gardé si toutes atteignent 15 px). Retraits mesurés au premier trait d'encre contre la verticale gauche de la colonne (x ≈ 302, bord de la bande des sigles) : les valeurs positives des l. 1–9, 12–13, 19 traduisent la dérive du départ des côla (x ≈ 380 en haut, ≈ 300 en bas), non un renfoncement voulu ; valeurs négatives : vers en saillie dans la bande des sigles (l. 3, 10, 30, 43). Scholies et gloses marginales non transcrites.</note>
+    <note ligne="1">ἅμαδὲκαὶ d'un seul tenant (aucun blanc mesurable). Esprit (point) et aigu de ἅ déportés au-dessus du μ (x ≈ 403 et 425) ; grave de δὲ très haut (x ≈ 497, y ≈ 390) ; grave de καὶ au-dessus de l'ι.</note>
+    <note ligne="2">γ en V ; ε de γένοσ accentué ; esprit de ὀ en triangle (x ≈ 535, y ≈ 455), non un circonflexe. Blanc ὀ|λ de 12–17 px selon la bande : coupe ordinaire. Circonflexe de θεῶν réduit à un point. Le point isolé sous la fin de la ligne (x ≈ 805, y ≈ 500) est le circonflexe de πᾶσα (l. 3), non une ponctuation de la l. 2.</note>
+    <note ligne="3">ε de μέλπε et de γέραιρε fermés en « б » (boucle et langue liée), à ne pas lire σ. Blancs ρ|αι et ι|ρ de γέραιρε : 11 et 12 px (coupe ordinaire). Circonflexe de φωνῆι en crochet ; celui de πᾶσα en point, déporté très haut (x ≈ 805, y ≈ 500). πᾶσα lié au χ ; χορομαν|εῖ : 8–11 px ; ει en « ξ » (circonflexe en point au-dessus) lié au τ par la barre : soudé. Tiret final court, à mi-hauteur (x 1200–1210).</note>
+    <note ligne="4">εἰ : ει en « q », esprit en triangle rejeté à gauche (x ≈ 368). Aigu de δέ très haut et déporté (x 443–452, y 535–543), sous le γέρ de la l. 3. ε de δέ lié à la barre du τ : soudé. Point à mi-hauteur.</note>
+    <note ligne="5">προσδοκᾶι : blancs internes de 11–12 px (coupe ordinaire). Circonflexes de κᾶι et de κακῶσ en crochet, déportés à droite (x ≈ 588, 724) ; esprit de ἐρεῖν en point (x ≈ 763) ; ει en « q » sous un circonflexe en point (x ≈ 815). Point final à mi-hauteur.</note>
+    <note ligne="6">Esprit de ἐν rejeté à gauche (x ≈ 352) ; esprit en crochet sur ἱ (x ≈ 425). ἱ|ερῶ : blanc de 15–16 px, gardé. Circonflexe de ερῶ en crochet ; pas d'ι adscrit. Les deux petites virgules sous la coupe ἱ|ερῶ (x 421–428 et 434–441, y 673–683), que l'inventaire et le guide (§ 2.7) tiennent pour un signe d'union, sont à mon avis l'apostrophe de οὐκ᾽ et l'esprit de ὀρθῶσ de la l. 7 : elles sont à 8–16 px sous la ligne de base de la l. 6, juste au-dessus du ο de ὀρθῶσ (l. 7, x 426–436), et ont la forme en virgule des apostrophes et esprits de T ; sans elles, ὀρθῶσ n'aurait aucun esprit. Non transcrites ici. γυναῖ|κά : 15–16 px dans toutes les bandes, gardé. Aigu fin (x 719–730, y 633–643) au-dessus de la jonction μ–ο : rattaché à κά (déporté à droite comme d'ordinaire), d'où le doute ; point (x 744–751) entre ο et υ : esprit de οὐσαν. οὐσαν n'a pas de circonflexe visible. κά, μ et ο liés d'un trait continu : soudés ; pas d'apostrophe après μ. Long trait du σ de ἄνδρασ : remplissage.</note>
+    <note ligne="7">Esprit de οὐ en point au-dessus du ο (x ≈ 357). κ lié au ο de ὀρθῶσ (soudé) ; apostrophe (x 421–428) et esprit (x 434–441) dans l'interligne, au-dessus de la jonction (voir l. 6) : οὐκ᾽, d'accord avec Velsen 1883 ; deux marques distinctes, donc apostrophe sûre (guide, § 2.8). ὀ|ρ : 13–14 px (coupe ordinaire). Circonflexe de θῶσ en point triangulaire (x 531–538, y 682–690), détaché de la queue du γ de la l. 6. Circonflexe de φρονεῖ en crochet au-dessus de l'ι ; pas de ponctuation finale.</note>
+    <note ligne="8">Esprit de ἀ (x ≈ 370) et grave (x ≈ 414) déportés ; λλ en X. Le χ touche l'α de ἀλλὰ (moins de 5 px) : soudé. Grave de χρὴ court et épais (x 459–469, y 727–734). Point à la ligne de base (x 478–485, y 755–763). Le trait oblique montant qui suit (x 498–510, y 748–755) n'est pas un tiret horizontal : je le tiens pour l'aigu de ἔργον (l. 9), monté dans le blanc de fin de ligne ; si on le rattache à la l. 8, lire χρὴ·— (point et tiret).</note>
+    <note ligne="9">Esprit et aigu de ὥ (x ≈ 360 et 373). σπ en trois panses sous la barre. Entre σπερ et ἔργον, un filet très fin et discontinu (x 463–478) relie le ρ à l'ε : sans lui, blanc de 16–17 px ; coupe ordinaire. Esprit de ἔργον rejeté à gauche (point pâle, x 460–467, y 769–776) ; aigu douteux : seul candidat, le trait oblique de la fin de la l. 8 (x 498–510, y 748–755). ἔρ|γον : 14–19 px selon la bande, coupe ordinaire. αὖ : esprit (x 639–647) et circonflexe en point (x 655–662) ; aigu de τί (x 683–700). καινόν : accent en « ✓ » soudé (x 808–828, y 775–788), trait court et épais descendant (grave de T), prolongé d'un délié montant (aigu ajouté) ; main indéterminée. Point final à mi-hauteur (x ≈ 878).</note>
+    <note ligne="10">πρῶ seul dans la bande des sigles (x 205–302), circonflexe en point à droite de l'ω ; blanc de 23 px avant τον. εὐ|κύκλου : blanc de 16 px dans toutes les bandes, gardé. Aigu de κύ déporté (x 502–509, y 817–825), sous la queue du ρ de la l. 9. Esprit de εὐ ; circonflexes de εὐφυῆ et de στῆσαι en points déportés (x ≈ 900, 962). η de εὐφυῆ en « n » à jambage descendant, celui de στῆσαι en « h » : R a εὐφυῆ. στῆσαι et βάσιν liés à la ligne de base : soudés. Le point sous la fin de χορείασ (x 741–749, y 861–870) est l'esprit de ἐλύραν (l. 11), non une ponctuation de la l. 10. Point final à mi-hauteur (x ≈ 1153).</note>
   </notes>
 </page>

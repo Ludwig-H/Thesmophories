@@ -3,21 +3,21 @@
   <lignes>
     <l n="1" v="294" retrait="2">δούλοισ γὰρ οὐκ ἔξεστ᾽ ἀκούειν τῶν λόγων</l>
     <l n="2" v="295" retrait="7"><del type="grattage" main="R?"><gap n="3" unite="lettres" raison="grattage"/></del><nota main="Rrec"><ras main="Rrec">κ<unclear cert="moyenne">ή</unclear>ρυξ</ras></nota>ε<subst main="Rrec"><del type="surcharge">υ</del><add place="ligne">ὐ</add></subst>φημί <unclear cert="moyenne">ἔ</unclear>στω</l>
-    <l n="3" retrait="7">ευφημ<unclear cert="moyenne">ί</unclear> <unclear cert="moyenne">ἔ</unclear>στω</l>
-    <l n="4" v="296" retrait="7">εὔχεσθε ταῖν θεσμοφόροιν·</l>
+    <l n="3" v="296" retrait="7">ευφημ<unclear cert="moyenne">ί</unclear> <unclear cert="moyenne">ἔ</unclear>στω</l>
+    <l n="4" retrait="7">εὔχεσθε ταῖν θεσμοφόροιν·</l>
     <l n="5" retrait="7">τῆι δήμητρι· καὶ τῆι κόρηι</l>
     <l n="6" v="297" retrait="7">καὶ τῶι πλούτωι καὶ τῆι καλλιγενείαι<signe type="autre" main="R?">¯</signe>·</l>
     <l n="7" v="300" retrait="7">καὶ τῆι κουροτρόφωι τῆι γῆι·</l>
-    <l n="8" retrait="7">καὶ τῶι ἑρμῆ<unclear cert="moyenne">ι</unclear> καὶ χάρισιν·</l>
-    <l n="9" v="301" retrait="7">ἐκκλησίαν τ<unclear cert="moyenne">ή</unclear>νδε<unclear cert="moyenne">·</unclear> καὶ σύνοδον τὴν νῦν·</l>
+    <l n="8" v="301" retrait="7">καὶ τῶι ἑρμῆ<unclear cert="moyenne">ι</unclear> καὶ χάρισιν·</l>
+    <l n="9" retrait="7">ἐκκλησίαν τ<unclear cert="moyenne">ή</unclear>νδε<unclear cert="moyenne">·</unclear> καὶ σύνοδον τὴν νῦν·</l>
     <l n="10" v="302" retrait="7">κάλλιστα καὶ ἄριστα ποῆσαι·</l>
     <l n="11" retrait="6">πολυωφελῶσ μὲν πόλει τῆι ἀθηναίων</l>
     <l n="12" v="305" retrait="6">τυχηρῶσ δ᾽ ἡμῖν αὐταῖσ·</l>
     <l n="13" v="306" retrait="6">καὶ τὴν δρῶσαν<add place="dessus" main="R?"><abbr signe="ϗ" dev="καί"/></add> τὴν ἀγορεύουσαν<unclear cert="moyenne">·</unclear></l>
     <l n="14" v="307" retrait="6">τὰβέλτιστα περὶ τον δῆμον τῶν <abbr signe="⌒" dev="ων">ἀθηναί</abbr></l>
     <l n="15" retrait="5"><abbr signe="ϗ" dev="καί"/> τὸν τῶν γυναικῶν</l>
-    <l n="16" v="310" retrait="6">ταύτην νικᾶν</l>
-    <l n="17">τα<unclear cert="moyenne">ῦ</unclear>τ<unclear cert="moyenne">᾽</unclear> ε<unclear cert="moyenne">ὐ</unclear>χεσθε· καὶ ὑμῖν αὐταῖσ τἀγαθά·</l>
+    <l n="16" retrait="6">ταύτην νικᾶν</l>
+    <l n="17" v="310">τα<unclear cert="moyenne">ῦ</unclear>τ<unclear cert="moyenne">᾽</unclear> ε<unclear cert="moyenne">ὐ</unclear>χεσθε· καὶ ὑμῖν αὐταῖσ τἀγαθά·</l>
     <l n="18" v="311"><unclear cert="moyenne">ϊ</unclear>ὴ παιών· ἰὴ παιών· ἰὴ παιών· χαίρωμεν<unclear cert="moyenne">·</unclear></l>
     <l n="19" v="312" retrait="6"><signe type="repere" main="Rrec" instrument="mine">—</signe><nota main="R2"><hi rend="monogramme">χρ</hi></nota>δεχόμεσθα καὶ θεῶν γένοσ</l>
     <l n="20" v="313" retrait="6">λιτόμεσθα ταῖσδ᾽ επευχαῖσ</l>
@@ -36,8 +36,8 @@
     <l n="33" v="326" retrait="7">ν ύμφαι τ<unclear cert="moyenne">ὀ</unclear> ρείπλαγκτοι·</l>
     <l n="34" v="327,328" retrait="5">χρυσέ<unclear cert="faible">ὰ</unclear>τε φόρμιγξ· ἰαχήσειεν ἐπευχαῖσ</l>
     <l n="35" v="329" retrait="6">ἡ μετέραισ τελέωσ</l>
-    <l n="36" v="330" retrait="6">δ᾽ εκκλη σιάσαι μὲν ἀθηναίων</l>
-    <l n="37" v="330a" retrait="7">εὐγενεῖσ γυναῖκεσ·</l>
+    <l n="36" retrait="6">δ᾽ εκκλη σιάσαι μὲν ἀθηναίων</l>
+    <l n="37" v="330" retrait="7">εὐγενεῖσ γυναῖκεσ·</l>
     <l n="38" v="331"><nota main="Rrec">κηρ<signe type="autre" main="Rrec">~</signe></nota>εὔχεσθετοῖσθεοῖσι τοῖσ ὀλυμπίοισ·</l>
     <l n="39" v="332">καὶ ταῖσ ὀλυμπίαισι· καὶ τοῖσ π<unclear cert="faible">υ</unclear>θίοισ</l>
     <l n="40" v="333">καὶ ταῖσι πυθίαισι· καὶ τοῖσδηλί οισ<unclear cert="faible">·</unclear></l>
@@ -98,6 +98,7 @@
     <note ligne="43">τῶν : τ à attaque lourde, ω en deux boucles ; circonflexe réduit à un point rond (x 311–319, y 2169–2176), relié à l'ω par un cheveu. ν à jambage plongeant (pied (326, 2216)), dont la sortie monte et passe sans lever la plume dans la branche gauche du γ en V : soudé (τῶνγυ-). Circonflexe de -κῶν en coin (x 518–526, y 2168–2175). Point rond à x 574, y 2192.</note>
     <note ligne="43">Η oncial surmonté d'un point rond (x 605–613, y 2167–2175) : esprit indistinct, accent réduit non exclu ; pas de grave visible. Blanc de 9 px devant le ϖ (zone intermédiaire), aucune apostrophe : d'où ἠ πικ-. η suscrit en « н » (x 715–732, y 2166–2181) au-dessus d'un υ resté en place, boucle fermée à branche droite montante (x 706–723, y 2184–2200), non gratté, non biffé : κυ corrigé en κη. ΔB/R du η suscrit +0,48 sur 35 px (indicatif, mais l'υ mesure +0,01) : forme de T, teinte un peu plus orangée, main indécise. Au-dessus de ε : trait montant mince (de (853, 2174) à (866, 2164)) qui croise le pied du μ de δήμωι (l. 42), lu aigu de -κεύ-, distinct du pied par son bout droit et son cheveu ; confusion possible avec ce pied, d'où le doute. Blanc de 16 px entre υ et ε : gardé. Point allongé de 8 × 4 px à x 956–964, y 2191–2195.</note>
     <note ligne="43">Sous la ligne, à gauche (x 180–211, y 2234–2238), fin trait gris : repère de 1516 ou simple ride, non encodé (douteux).</note>
+    <note ligne="1">Reprise du 13 nov. : attributs v convertis en numérotation usuelle (FORMAT ; guide § 2.1 ; incipits de edition/donnees/concordance_vers.tsv), lectures inchangées : v. 296 = second εὐφημί ἔστω (l. 3, et non l. 4) ; v. 301 = καὶ τῶι ἑρμῆι (l. 8, et non l. 9) ; v. 302 commence à ἄριστα (l. 10) ; v. 310 = ταῦτ᾽ εὔχεσθε (l. 17, et non l. 16) ; v. 329 couvre les l. 35–36 ; v. 330 = εὐγενεῖσ γυναῖκεσ (l. 37 ; clé Perseus 330a). Les notes de confrontation qui suivent citent la référence dans sa propre numérotation (clés Perseus).</note>
     <note ligne="1">Confrontation (v. 294) : aucun point après λόγων (la réf. ponctue) ; la petite marque étoilée à x 1052, y 382, grise et sans teinte d'encre en décorrélation, est un follicule.</note>
     <note ligne="2">Confrontation (v. 295) : R a εὐφημί ἔστω, sans α ni apostrophe ; réf. : εὐφημία ᾽στω. Revu à ×4 : blanc net après μι, puis ε à boucle et longue montée (même forme que l'ε de ἔξεστ᾽, l. 1), non un α (l'α de T n'a qu'un fût court).</note>
     <note ligne="3">Confrontation (v. 295) : de même ευφημί ἔστω ; réf. : εὐφημία ᾽στω. ευ- sans esprit ni accent : revu à ×10, la virgule à x 374–381, y 436–443, est la fin de la queue du ξ du sigle de la l. 2, continue avec elle.</note>

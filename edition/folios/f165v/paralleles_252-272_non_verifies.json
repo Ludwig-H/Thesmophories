@@ -6,22 +6,22 @@
   "motif": "Blaydes 1880, p. 158 renvoie à ce lieu pour la crocote portée par des hommes : 7.5.169 (Cléanthe) ne parle que d’un manteau soulevé par le vent (ἀχίτωνα) ; rien sur la crocote. Référence erronée, écartée"
  },
  {
-  "v": "263",
-  "lemme": "χαλαρὰ φορῶν",
-  "ref": "Lys. 91 sq.",
-  "motif": "van Leeuwen 1904, p. 44, n. 3 y voit des « ioci » semblables ; le passage (χαΐα) ne convient pas, écarté"
+  "v": "255",
+  "lemme": "σύζωσον (ζῶμα, dédicaces de Brauron)",
+  "ref": "IG II² 1514, 15 ; 1523, 16",
+  "motif": "signalés par Austin–Olson 2004, p. 137 (ζῶμα, ceinture, dans les inventaires de Brauron) : inscriptions non contrôlées (IG non local, PHI inaccessible)"
  },
  {
-  "v": "265",
-  "lemme": "εἴσω … ἐσκυκλησάτω",
-  "ref": "Men. Dysc. 758",
-  "motif": "cité par Sommerstein 1994, p. 175 et Prato 2001, p. 210 (verbe restitué) ; Ménandre n’est pas indexé dans le corpus : non contrôlé"
+  "v": "256",
+  "lemme": "κατάστειλον",
+  "ref": "Apollod. Com. fr. 19.2 K.-A.",
+  "motif": "signalé par Austin–Olson 2004, p. 137 (καταστέλλω « put in order ») : fragment non retrouvé dans l’OCR de Kock (Apollodore de Gela / de Carystos) ; K.-A. non local"
  },
  {
-  "v": "265",
-  "lemme": "ἐσκυκλησάτω",
-  "ref": "Luc. Deor. Conc. 9 ; Luc. Hist. Conscr. 13 ; Philops. 29",
-  "motif": "cités par Fritzsche 1838, p. 97 (ἐπεισκυκλεῖν) ; chercher.py confirme Luc. Hist. Conscr. 13 et Philops. 29, emplois figurés tardifs, non retenus"
+  "v": "257",
+  "lemme": "κεκρυφάλου … καὶ μίτρας",
+  "ref": "Posidipp. 46.3–4",
+  "motif": "signalé par Austin–Olson 2004, p. 137 (κεκρύφαλος et μίτρα réunis) : passage non retrouvé dans le corpus local (ni épigrammes de Posidippe, ni Posidippe comique dans l’OCR de Kock) ; édition à identifier"
  },
  {
   "v": "261",
@@ -40,5 +40,23 @@
   "lemme": "φέρ᾽ ἔγκυκλον (scholie)",
   "ref": "Σ Ar. Eccl. 536",
   "motif": "signalé par Perusino 2002, p. 130, n. 4 (ἱμάτιον) ; non retrouvé dans l’OCR de Dübner : à voir sur le scan"
+ },
+ {
+  "v": "263",
+  "lemme": "χαλαρὰ φορῶν",
+  "ref": "Lys. 91 sq.",
+  "motif": "van Leeuwen 1904, p. 44, n. 3 y voit des « ioci » semblables ; le passage (χαΐα) ne convient pas, écarté"
+ },
+ {
+  "v": "265",
+  "lemme": "εἴσω … ἐσκυκλησάτω",
+  "ref": "Men. Dysc. 758",
+  "motif": "cité par Sommerstein 1994, p. 175 et Prato 2001, p. 210 (verbe restitué) ; Ménandre n’est pas indexé dans le corpus : non contrôlé"
+ },
+ {
+  "v": "265",
+  "lemme": "ἐσκυκλησάτω",
+  "ref": "Luc. Deor. Conc. 9 ; Luc. Hist. Conscr. 13 ; Philops. 29",
+  "motif": "cités par Fritzsche 1838, p. 97 (ἐπεισκυκλεῖν) ; chercher.py confirme Luc. Hist. Conscr. 13 et Philops. 29, emplois figurés tardifs, non retenus"
  }
 ]

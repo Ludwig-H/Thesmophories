@@ -96,5 +96,61 @@
   "ref": "Molière, Le Misanthrope, IV, 3",
   "source": "commentaire de l’auteur (d’après Willems)",
   "raison": "parallèle moderne : vers non contrôlé sur le texte ; conservé dans le commentaire"
+ },
+ {
+  "v": "191",
+  "lemme": "λευκός (censure des hommes efféminés)",
+  "ref": "Sosicr. fr. 1.1 K.-A. ; Alex. fr. 217.1 K.-A.",
+  "source": "Austin–Olson 2004, p. 119 (ad 191)",
+  "raison": "fragments non retrouvés dans le corpus local (le seul fragment de Sosicrate cité par Athénée, Ath. 11.474a, ne contient pas λευκός) ; PCG non disponible localement"
+ },
+ {
+  "v": "191",
+  "lemme": "ἐξυρημένος",
+  "ref": "Men. Sic. 264",
+  "source": "Austin–Olson 2004, p. 119 (ad 191)",
+  "raison": "Sicyonien absent du corpus local"
+ },
+ {
+  "v": "192",
+  "lemme": "ἁπαλός",
+  "ref": "Aesch. Pers. 537",
+  "source": "Austin–Olson 2004, p. 119 (ad 192)",
+  "raison": "le texte Perseus (Smyth) lit ἀταλαῖς χερσί, non ἁπαλαῖς : leçon à contrôler dans une édition critique"
+ },
+ {
+  "v": "192",
+  "lemme": "ἁπαλός",
+  "ref": "Sapph. frr. 94.16, 122 ; Anacr. PMG 370 ; Alc. fr. 45.6 ; Alex. fr. 49.2-3 K.-A. ; com. adesp. fr. 735.2 K.-A.",
+  "source": "Austin–Olson 2004, p. 119 (ad 192)",
+  "raison": "numérotations de Voigt, Page et K.-A. non disponibles localement : passages non identifiés dans Bergk ou Kock dans le temps imparti"
+ },
+ {
+  "v": "192",
+  "lemme": "εὐπρεπὴς ἰδεῖν",
+  "ref": "adesp. PMG 927(e).2",
+  "source": "Austin–Olson 2004, p. 119 (ad 192)",
+  "raison": "PMG non disponible localement"
+ },
+ {
+  "v": "194",
+  "lemme": "χαίρεις ὁρῶν φῶς (emprunts à l’Alceste)",
+  "ref": "Ar. Av. 530 (cf. Eur. Alc. 442)",
+  "source": "Austin–Olson 2004, p. 120 (ad 193-4)",
+  "raison": "vers lus (Av. 530 οἱ δʼ ὠνοῦνται βλιμάζοντες ; Alc. 442 πολὺ δὴ πολὺ δὴ γυναῖκʼ ἀρίσταν) : l’écho n’est pas apparent ; écarté"
+ },
+ {
+  "v": "197",
+  "lemme": "οἰκείως",
+  "ref": "Men. fr. 236.12 K.-A. ; Damox. fr. 2.58 K.-A.",
+  "source": "Austin–Olson 2004, p. 120 (ad 195-7)",
+  "raison": "numéros K.-A. non convertis en Kock ; passages non retrouvés dans le corpus local"
+ },
+ {
+  "v": "198",
+  "lemme": "τὰς συμφορὰς γὰρ οὐχὶ τοῖς τεχνάσμασιν / φέρειν δίκαιον ἀλλὰ τοῖς παθήμασιν (vers d’Agathon ?)",
+  "ref": "Agathon TrGF 39 F 34 ?",
+  "source": "Austin–Olson 2004, p. 120 (ad 198-9 : « = Agathon TrGF 39 F 34? »)",
+  "raison": "TrGF I non disponible localement : la présence des vv. 198-199 parmi les fragments d’Agathon (avec point d’interrogation) n’a pu être contrôlée ; Sommerstein 1994, p. 171 : « we cannot tell whether the couplet is quotation, adaptation, or pastiche »"
  }
 ]

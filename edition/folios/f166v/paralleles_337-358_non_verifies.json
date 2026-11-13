@@ -16,5 +16,131 @@
   "citation_signalee": "Nil amori iniuriumst",
   "signale_par": "Tosi n. 332",
   "raison": "Cistellaria absente des textes latins locaux ; non contrôlé"
+ },
+ {
+  "v": "337-349",
+  "lemme": "εἴ τις … ἢ … (catalogue) ; κακῶς ἀπολέσθαι",
+  "categorie": "prose",
+  "ref": "SIG³ 167.15",
+  "citation_signalee": "εἰ δέ τις ταῦτα παραβαίνοι, ἐξώλη γίνεσθαι",
+  "signale_par": "Austin–Olson 2004, p. 161",
+  "raison": "inscription : aucun corpus épigraphique local (IG, SIG, Agora) ; non contrôlé"
+ },
+ {
+  "v": "337",
+  "lemme": "ἐπὶ βλάβῃ",
+  "categorie": "prose",
+  "ref": "IG I³ 38.6–7",
+  "citation_signalee": "ἐπὶ] | βλάβει τέι Ἀθεν[αίον",
+  "signale_par": "Austin–Olson 2004, p. 162",
+  "raison": "inscription : aucun corpus épigraphique local (IG, SIG, Agora) ; non contrôlé"
+ },
+ {
+  "v": "337",
+  "lemme": "ἐπὶ βλάβῃ",
+  "categorie": "prose",
+  "ref": "IG II² 1258.5–6, 10–11",
+  "citation_signalee": "",
+  "signale_par": "Austin–Olson 2004, p. 162",
+  "raison": "inscription : aucun corpus épigraphique local (IG, SIG, Agora) ; non contrôlé"
+ },
+ {
+  "v": "338-339",
+  "lemme": "ἢ τυραννεῖν ἐπινοεῖ / ἢ τὸν τύραννον συγκατάγειν",
+  "categorie": "prose",
+  "ref": "Agora XVI (1997) no. 73",
+  "citation_signalee": "(loi contre la tyrannie)",
+  "signale_par": "Austin–Olson 2004, p. 162",
+  "raison": "inscription : aucun corpus épigraphique local (IG, SIG, Agora) ; non contrôlé"
+ },
+ {
+  "v": "348",
+  "lemme": "τὸ νόμισμα",
+  "categorie": "prose",
+  "ref": "IG I³ 52 A 4",
+  "citation_signalee": "νόμισμα, « monnaie »",
+  "signale_par": "Austin–Olson 2004, p. 166",
+  "raison": "inscription : aucun corpus épigraphique local (IG, SIG, Agora) ; non contrôlé"
+ },
+ {
+  "v": "348",
+  "lemme": "τὸ νόμισμα",
+  "categorie": "poetes",
+  "ref": "Alc. fr. 382.2 L.-P.",
+  "citation_signalee": "première attestation de νόμισμα",
+  "signale_par": "Austin–Olson 2004, p. 166",
+  "raison": "Alcée absent du corpus local ; non contrôlé"
+ },
+ {
+  "v": "348",
+  "lemme": "διαλυμαίνεται",
+  "categorie": "prose",
+  "ref": "Arist. fr. 603 Rose",
+  "citation_signalee": "διαλυμαίνομαι",
+  "signale_par": "Austin–Olson 2004, p. 166",
+  "raison": "fragments d'Aristote (Rose) absents du corpus local ; non contrôlé"
+ },
+ {
+  "v": "349-351",
+  "lemme": "κακῶς ἀπολέσθαι … πολλὰ δοῦναι κἀγαθά",
+  "categorie": "prose",
+  "ref": "SIG³ 997 ; PSI 1162 ; PSI 1290",
+  "citation_signalee": "malédiction jointe à une prière de prospérité",
+  "signale_par": "Austin–Olson 2004, p. 166",
+  "raison": "inscription et papyrus documentaires : absents du corpus local ; non contrôlé"
+ },
+ {
+  "v": "349",
+  "lemme": "τοῦτον αὐτὸν κᾠκίαν",
+  "categorie": "prose",
+  "ref": "Agora XVI (1997) no. 73.20–21",
+  "citation_signalee": "",
+  "signale_par": "Austin–Olson 2004, p. 167",
+  "raison": "inscription : aucun corpus épigraphique local (IG, SIG, Agora) ; non contrôlé"
+ },
+ {
+  "v": "349",
+  "lemme": "κακῶς ἀπολέσθαι τοῦτον αὐτὸν κᾠκίαν",
+  "categorie": "prose",
+  "ref": "SIG³ 37–38 = ML 30 (imprécations de Téos)",
+  "citation_signalee": "",
+  "signale_par": "Austin–Olson 2004, p. 167",
+  "raison": "inscription : aucun corpus épigraphique local (IG, SIG, Agora) ; non contrôlé"
+ },
+ {
+  "v": "349",
+  "lemme": "κᾠκίαν",
+  "categorie": "poetes",
+  "ref": "Archil. fr. 35.1 ; Semon. fr. 7.101, 106",
+  "citation_signalee": "οἰκίη (premières attestations)",
+  "signale_par": "Austin–Olson 2004, p. 167",
+  "raison": "Archiloque et Sémonide absents du corpus local ; non contrôlé"
+ },
+ {
+  "v": "349",
+  "lemme": "κακῶς ἀπολέσθαι",
+  "categorie": "comiques",
+  "ref": "Eub. fr. 115.2 K.-A.",
+  "citation_signalee": "κακῶς",
+  "signale_par": "Austin–Olson 2004, p. 167",
+  "raison": "numérotation K.-A. : fragment non identifié dans Kock (OCR) ; non contrôlé"
+ },
+ {
+  "v": "351",
+  "lemme": "πολλὰ … κἀγαθά",
+  "categorie": "prose",
+  "ref": "SIG³ 366.13–14",
+  "citation_signalee": "εἰ μὲν εὐορκέω, πολλά μοι κἀγαθὰ εἴησαν",
+  "signale_par": "Austin–Olson 2004, p. 167",
+  "raison": "inscription : aucun corpus épigraphique local (IG, SIG, Agora) ; non contrôlé"
+ },
+ {
+  "v": "357-359",
+  "lemme": "παραβαίνουσί τε τοὺς ὅρκους",
+  "categorie": "prose",
+  "ref": "IG I³ 105",
+  "citation_signalee": "serments des magistrats",
+  "signale_par": "Austin–Olson 2004, p. 169",
+  "raison": "inscription : aucun corpus épigraphique local (IG, SIG, Agora) ; non contrôlé"
  }
 ]

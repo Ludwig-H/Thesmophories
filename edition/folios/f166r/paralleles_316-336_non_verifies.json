@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "v": "332–333",
+  "lemme": "τοῖς Πυθίοις … τοῖς Δηλίοις",
+  "categorie": "proverbes",
+  "ref": "Érasme, Adages 3558 (Haec tibi et Pythia et Delia)",
+  "signale_par": "index du dictionnaire ΠΑΡΟΙΜΙΑΙ ΕΛΛΗΝΙΚΑΙ (PINAX), Drive, p. 174 et 180",
+  "raison": "texte d'Érasme non disponible localement (la traduction française du Drive est un choix d'adages) : numéro à vérifier"
+ },
+ {
+  "v": "334",
+  "lemme": "τοῖς τ᾽ ἄλλοις θεοῖς",
+  "categorie": "prose",
+  "ref": "IG II² 333c, 20–21 ; 354, 35 ; 410, 13–14 ; 674, 6 ; 683, 14 ; 783, 8",
+  "signale_par": "Austin–Olson 2004, n. aux vv. 331–4 (formule « τοῖς ἄλλοις θεοῖς οἷς πάτριον ἦν » des décrets)",
+  "raison": "textes épigraphiques non disponibles localement (IG II² absent ; l'OCR de Syll.² II n'a pas reconnu le grec) ; à contrôler sur IG II² ou PHI"
+ }
+]

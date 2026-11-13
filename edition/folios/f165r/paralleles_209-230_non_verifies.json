@@ -75,5 +75,47 @@
   "ref": "IG II² 1356 (ἡμίκραιραν χορδῆς)",
   "source": "LSJ s.v. ἡμίκραιρα",
   "raison": "inscription non consultée"
+ },
+ {
+  "v": "209",
+  "lemme": "ὦ τρισκακόδαιμον",
+  "ref": "Men. Epitr. 145 ; Men. Pk. 978 (τρισκακοδαίμων)",
+  "source": "Austin–Olson 2004, p. 123 (ad 209–10)",
+  "raison": "comédies de Ménandre transmises par papyrus : absentes du corpus local et des scans disponibles"
+ },
+ {
+  "v": "209",
+  "lemme": "ὡς ἀπόλωλ᾽ Εὐριπίδης",
+  "ref": "adesp. tr. fr. 91 (ἀπόλωλα, parfait en tragédie)",
+  "source": "Austin–Olson 2004, p. 123 (ad 209–10)",
+  "raison": "TrGF II (adespota) absent du corpus local"
+ },
+ {
+  "v": "210",
+  "lemme": "ὦ φίλτατ᾽ ὦ κηδεστά",
+  "ref": "Eur. Tel. fr. 147.81 Austin (vocatifs répétés)",
+  "source": "Austin–Olson 2004, p. 123 (ad 209–10)",
+  "raison": "Nova fragmenta Euripidea d’Austin (1968) non disponibles localement"
+ },
+ {
+  "v": "210",
+  "lemme": "μὴ σαυτὸν προδῷς",
+  "ref": "Pl. Com. fr. 66 K.-A. (ἀπαμβρακοῦ καὶ μὴ προδῷς σαυτήν)",
+  "source": "Austin–Olson 2004, p. 123 (ad 209–10)",
+  "raison": "libellé complet introuvable : Hsch. α 5762 et Synag. α 1633 (inscrits) ne donnent que ἀπαμβρακοῦ ; la source qui conserve la suite (Photius α, Theodoridis I ?) n’est pas disponible localement"
+ },
+ {
+  "v": "211",
+  "lemme": "τοῦτον μὲν μακρὰ / κλάειν κέλευ᾽",
+  "ref": "Hippon. fr. 86.18 W. ; Eup. fr. 328 K.-A. ; Antiph. fr. 217.6 K.-A. (μακράν) ; Men. Epitr. 160, 1068 ; Men. Pk. 370–371 (μακρὰ καὶ μεγάλα) ; Men. Georg. 57",
+  "source": "Austin–Olson 2004, p. 123–124 (ad 211–12)",
+  "raison": "fragments et pièces de Ménandre non retrouvés dans le corpus local ni dans les scans (Kock interrogé sans résultat pour Eupolis et Antiphane)"
+ },
+ {
+  "v": "212",
+  "lemme": "ἐμοὶ δ᾽ ὅ τι βούλει χρῶ λαβών",
+  "ref": "Herod. 5.6 (ὅ τι + indic. après βούλομαι)",
+  "source": "Austin–Olson 2004, p. 124 (ad 211–12)",
+  "raison": "Hérondas absent du corpus local"
  }
 ]
