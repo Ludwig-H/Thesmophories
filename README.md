@@ -37,7 +37,8 @@ GFS Porson (grec établi), Cardo (transcription du manuscrit).
 | [`dossier_ravennas_thesmophories/`](dossier_ravennas_thesmophories/) | images haute définition des 30 pages (`folios_individuels_ff162v-177r/`) |
 
 Les documents sous droits utilisés pour le travail (éditions et commentaires modernes,
-etc.) ne sont pas versionnés.
+etc.) ne sont pas versionnés, non plus que la reproduction intégrale du fac-similé de 1904
+(exemplaire de la BnF), consultée pour la transcription.
 
 ## Compiler
 
