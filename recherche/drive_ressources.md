@@ -9,7 +9,8 @@
   - **`F/`** = `.sources/drive/fichiers/` ;
   - **`AR/`** = `F/Grec/Aristophane/` ;
   - **`TH/`** = `AR/Thesmophories/` ;
-  - **`GCA/`** = `TH/Grec - commentaire - traduction - apparat/` (dossier de travail de l'auteur).
+  - **`GCA/`** = `TH/Grec - commentaire - traduction - apparat/` (dossier de travail de l'auteur) ;
+  - **`TB/`** = `.sources/drive/ThesmoBiblio/`, **`R04/`** = `.sources/drive/ravennas_1904/` (§ 10).
 - **Noms de fichiers.** Les noms longs ou porteurs de mentions parasites sont abrégés par un motif shell (`*`). Mettre les chemins entre guillemets (espaces, apostrophes, `||`, `:`).
 - **Interrogeable ?** **[T]** = couche texte correcte (un `.txt` du même nom est à côté du PDF ; `grep` possible) ; **[T-]** = couche texte présente mais médiocre (OCR fautif, grec mal reconnu) ; **[I]** = image seule (lecture sur l'image ou OCR à faire) ; **[S]** = source texte native (`.tex`, `.xml`, `.txt`) ; **[X]** = extrait textuel partiel d'un ouvrage dont le PDF n'est pas disponible localement.
 - **Pages.** « p. » = pagination imprimée ; « p. PDF » = rang de la page dans le fichier.
@@ -19,7 +20,7 @@
 
 ## 1. Étude graphologique du manuscrit
 
-Aucun manuel de paléographie de référence n'est disponible localement (voir § 9.2), ni le fac-similé phototypique intégral de 1904 (§ 9.4). Ce qui suit sert à cadrer l'étude ; les images de travail du *Ravennas* sont celles du dépôt (`dossier_ravennas_thesmophories/`, `ravennas_1904_bnf/`).
+Aucun manuel de paléographie de référence n'est disponible localement (voir § 9.2). Le fac-similé phototypique intégral de 1904 et sa préface ont été rapatriés le 11 novembre 2026 (§ 10.1). Ce qui suit sert à cadrer l'étude ; les images de travail du *Ravennas* sont celles du dépôt (`dossier_ravennas_thesmophories/`, `ravennas_1904_bnf/`).
 
 - **P. Orsini, « L'Aristofane di Ravenna. Genesi e formazione tecnica e testuale di un codice »**, *Scriptorium* 65 (2011), p. 321-337, pl. 55-57. — `D/ravennas/L'aristofane di ravenna*.pdf` [T]. Étude codicologique et paléographique du ms. 429 de la Classense (daté du milieu du Xe s. environ) : mise en page, cahiers, mains, constitution textuelle du recueil. Point de départ obligé de l'étude graphologique.
 - **G. Bady, *Paléographie grecque. Éléments de cours*** (support de cours, 31 p.). — `F/Grec/Manuscrits (abréviations)/paleo_grecque_cours_GBady.pdf` [T]. Histoire de l'écriture, numération, codicologie (matériaux, cahiers, réglure), abréviations usuelles : aide-mémoire, pas une autorité.
@@ -298,6 +299,8 @@ Notes philologiques tirées du travail d'édition (sources `.tex`, `.odt`, `.doc
 
 ## 9. Fichiers non récupérés et manques
 
+> **Mise à jour du 13 novembre 2026.** Rapatriés depuis (§ 10) : le fac-similé de 1904 et sa préface, le commentaire complet d'Austin–Olson (2004), Parker, *The Songs of Aristophanes* (1997), le t. V (index) d'Hésychius. Les bilans ci-dessous datent du 26 octobre.
+
 Les fichiers retenus pour l'édition lors de l'inventaire préparatoire (472 : 428 « essentiels » et 44 « utiles ») n'ont pas tous pu être copiés localement. La limite de l'outil de copie est en principe de 10 Mo par fichier ; en pratique, aucun fichier de plus de 6,3 Mo n'a été obtenu (le plus lourd des fichiers présents pèse 6 302 740 octets), de sorte que les fichiers de 6,3 à 10 Mo manquent aussi. Les fichiers de plus de 200 Mio avaient été écartés dès l'inventaire (§ 9.4).
 
 - **Conventions de ce paragraphe.** Tailles en Mo (10⁶ octets). « (B) » : fichier classé « utile » et non « essentiel ». Substituts : `ED/` = `.sources/web/editions/` (voir `recherche/bibliographie_editions.md`) ; `W/` = `.sources/web/` ; « corpus » = index plein texte de `.sources/corpus/`, interrogeable par `outils/corpus/chercher.py` (voir `recherche/corpus_numeriques.md`) ; un substitut est une autre édition ou un autre exemplaire, à contrôler avant toute citation.
@@ -327,7 +330,7 @@ Les fichiers retenus pour l'édition lors de l'inventaire préparatoire (472 : 4
 | V. Gardthausen, *Griechische Palaeographie*, 2e éd., t. II : *Die Schrift, Unterschriften und Chronologie im Altertum und im byzantinischen Mittelalter*, Leipzig, Veit, 1913 (le nom du fichier renvoie à la p. 338) | 44,1 | numérisation libre : archive.org, `griechischepalae02gard` |
 | G. F. Tsereteli, *Sokrashcheniia v grecheskikh rukopisiakh* (les abréviations dans les manuscrits grecs), Saint-Pétersbourg, 1896 (le nom du fichier renvoie à la p. 156) | 26,1 | numérisation libre : archive.org, `sokrashcheniiavg00tser` |
 | Al. N. Oikonomides, *Abbreviations in Greek Inscriptions, Papyri, Manuscripts and Early Printed Books. A Manual* | 41,3 | — |
-| Fac-similé phototypique du *Ravennas* (Leyde, Sijthoff, 1904) : préface de J. van Leeuwen, version océrisée | 54,7 | ff. 162v-163r du fac-similé : `ravennas_1904_bnf/` (dans le dépôt) ; PDF intégral et archive d'images : § 9.4 |
+| Fac-similé phototypique du *Ravennas* (Leyde, Sijthoff, 1904) : préface de J. van Leeuwen, version océrisée — **rapatriée le 11 nov. 2026 (§ 10.1)** | 54,7 | ff. 162v-163r du fac-similé : `ravennas_1904_bnf/` (dans le dépôt) ; PDF intégral et archive d'images : § 9.4 |
 
 #### (2) Transcription diplomatique
 
@@ -462,7 +465,7 @@ Toutes les sources `.tex` sont présentes (§ 8.1), mais aucun des 42 PDF compil
 
 | Ouvrage | Taille (Mo) | Remarque |
 |---|---:|---|
-| Fac-similé phototypique intégral du *Ravennas* (Leyde, Sijthoff, 1904 ; exemplaire de la BnF, FOL-FAC SIM-182 (9)) | 330 | ff. 162v-163r : `ravennas_1904_bnf/` (dans le dépôt) ; les images du manuscrit lui-même, à pleine résolution, sont dans `dossier_ravennas_thesmophories/` |
+| Fac-similé phototypique intégral du *Ravennas* (Leyde, Sijthoff, 1904 ; exemplaire de la BnF, FOL-FAC SIM-182 (9)) — **rapatrié le 11 nov. 2026 (§ 10.1)** | 330 | ff. 162v-163r : `ravennas_1904_bnf/` (dans le dépôt) ; les images du manuscrit lui-même, à pleine résolution, sont dans `dossier_ravennas_thesmophories/` |
 | Archive d'images (BnF) du même fac-similé | 323 | idem |
 | Eustathe, *Commentarii ad Homeri Iliadem*, éd. M. van der Valk, t. I (chants I-IV), III (X-XVI), IV (XVII-XXIV) | 243 ; 250 ; 254 | t. II : § 9.2 |
 | J. Taillardat, *Les Images d'Aristophane*, version océrisée | 2 809 | version non océrisée : § 9.2 |
@@ -487,3 +490,31 @@ L'inventaire a classé « utiles » sans les retenir 309 fichiers de moins de 20
 - **B. B. Rogers, *The Comedies of Aristophanes*** : six volumes (6,7 à 70,7 Mo), dont un vol. IV (« 4 Lysistrata », 41,3 Mo), sans doute le même ouvrage que le fichier « Comedies IV » du § 9.2 ; et un exemplaire de la Loeb, vol. III (20,9 Mo), probablement identique à `aristophaneswith03arisuoft`.
 - **Édition ou traduction hongroise des *Thesmophories*** (numérisation de la bibliothèque de l'Académie hongroise des sciences, « MTA Könyvek » ; 73,8 Mo).
 - **Scholies d'Euripide** : éd. E. Schwartz, volume d'*Hécube*, *Oreste* et des *Phéniciennes* (23,8 Mo) ; éd. W. Dindorf, t. IV (10,0 Mo). Substitut local : scholies d'Euripide de First1KGreek dans le corpus.
+
+## 10. Dossier « ThesmoBiblio » du Drive et fac-similé de 1904 (rapatriés le 11 novembre 2026)
+
+Dossier « Grec > ThesmoBiblio » du Drive de l'auteur (créé le 27 octobre 2026, 18 fichiers), copié dans **`TB/`** = `.sources/drive/ThesmoBiblio/`, avec deux copies prises ailleurs sur le Drive (une autre numérisation d'Austin–Olson ; Wilson, t. II). Couches texte extraites dans `TB/texte/` (`pdftotext -layout` ; OCR Tesseract quand le PDF n'a pas de texte). **`R04/`** = `.sources/drive/ravennas_1904/`. Notices établies en ouvrant les fichiers le 13 novembre 2026.
+
+### 10.1 Apports majeurs
+
+- **Fac-similé phototypique intégral du *Ravennas*** (Leyde, Sijthoff, 1904 ; préface de J. van Leeuwen ; exemplaire de la BnF, FOL-FAC SIM-182 (9)). — `R04/FOL-FAC SIM-182 (9).pdf` [I] (448 p. PDF, une page du manuscrit par page PDF, 1612 × 2100 px à 400 ppi ; *Thesmophories* = p. PDF 378-407). Planches extraites, une par page : `R04/planches_thesmo/fXXX.jpg` ; planches recalées sur la géométrie des clichés de la Classense (homographie ORB + RANSAC) : `.travail/relecture_1904/fXXX/1904_aligned.png` (recalage contrôlé au pixel sur ff. 170v et 176v). Usage : traces effacées depuis 1904, marges, sigles, paragraphoi (`ravennas/GUIDE_TRANSCRIPTION.md` § 5.1) ; consulté par l'arbitrage et la vérification de la transcription.
+- **Préface du fac-similé** (J. van Leeuwen, *Praefatio*, 20 p.). — `R04/FOL-FAC SIM-182 (9) ROC Preface*.pdf` [I] ; l'OCR joint au fichier, fait en grec, est inutilisable ; OCR lat+grc refait : `R04/preface_1904_ocr.json.gz` [T-]. Histoire du manuscrit (acheté à Pise en mai 1712 pour la Classense ; usage par l'édition Juntine), parenté d'écriture avec le Sophocle Laurentien 32.9 (Bekker, Allen) : à confronter à `ravennas/ETUDE_GRAPHOLOGIQUE.md`.
+- **C. Austin, S. D. Olson, *Aristophanes. Thesmophoriazusae*, Oxford, 2004** (introduction, texte, apparat, commentaire). — `TB/Thesmophoriazusae (Aristophanes, Austin, Colin etc.).pdf` [T] (478 p. PDF ; le grec est lisible dans la couche texte) ; autre numérisation : `TB/Aristophanes-Thesmophoriazusae-.pdf` [T-] (472 p. ; pas de grec dans la couche texte). Remplace l'extrait `D/ravennas/AustinOlson_2004_Thesm_textrep.txt` (§ 3.1 ; 163 Ko sur environ 1,7 Mo de texte).
+- **L. P. E. Parker, *The Songs of Aristophanes*, Oxford, 1997.** — `TB/The Songs of Aristophanes*.pdf` [T] (604 p.). Analyse métrique de tous les chants ; l'auteur la cite souvent (« Lætitia ») : contrôle de la scansion (`edition/donnees/metrique/`).
+- **L. Di Virgilio, « Il docmio nelle *Tesmoforiazuse* di Aristofane »**, dans S. Cardinali, G. Galvani, R. M. Danese (éd.), *μελιγάρυες ὕμνοι. Studi offerti dagli allievi di dottorato a Liana Lomiento*, Urbino, Urbino University Press (Incontri e percorsi 10), p. 95-119 [année à vérifier]. — `TB/06_Di+Virgilio.pdf` [I] (32 p. ; OCR ita+grc+lat : `TB/texte/DiVirgilio_ocr.json.gz`) ; libre accès, licence CC-BY 4.0. Les dochmiaques de la pièce analysés sur la colométrie de R (numérotation de Conomis 1964 et de Gentili–Lomiento 2003), formes nouvelles ; discute Parker 1997.
+- **Hésychius, t. V : *Indices***, éd. I. C. Cunningham (SGLG 11/5). — `TB/Hesychii Alexandrini Lexicon, Volumen V Indices*.pdf` [T-] (771 p. PDF ; lettres grecques absentes de la couche texte : lire l'image). *Index of authors*, s.v. Aristophanes, p. 24 (p. PDF 32) : 57 gloses rapportées par les éditeurs aux *Thesmophories*, relevées sur l'image dans `edition/donnees/testimonia/hesychius_index_thesm.tsv` ; 17 ne figurent pas encore dans `recherche/testimonia.md`.
+
+### 10.2 Ouvrages pour le commentaire et la langue
+
+- **M. Bieber, *Griechische Kleidung***, Berlin-Leipzig, 1928. — `TB/Griechische Kleidung*.pdf` [I] (236 p. : texte et planches). Costume (κροκωτός, ἔγκυκλον, στρόφιον, ἀναβολή) ; jusqu'ici, une seule planche (§ 7.4).
+- **K. J. Beloch, *Griechische Geschichte***, 2e éd., t. II, 1 : *Bis auf die sophistische Bewegung und den peloponnesischen Krieg*, Strasbourg, Trübner, 1914 (réimpr. Berlin, De Gruyter, 1967). — `TB/Griechische Geschichte*.pdf` [T] (444 p.). Contexte historique.
+- ***Dictionnaire des images poétiques dans l'Antiquité*** [éditeurs, lieu et date à vérifier]. — `TB/0Complet_Dictionnaire_images*.pdf` [T] (2268 p.). Métaphores de la poésie et du langage (parodie d'Agathon et d'Euripide).
+- **F. García Romero, « Belleza y fealdad en las paremias y fraseologismos del griego antiguo »** [revue à vérifier], 2026. — `TB/Belleza_y_fealdad*.pdf` [T] (14 p.). Langue proverbiale (§ 4.2).
+- **Y. Grandjean, *Une nouvelle arétalogie d'Isis à Maronée*** (EPRO 49), Leyde, Brill, 1975. — `TB/Une nouvelle arétalogie*.pdf` [T] (155 p.) ; [usage pour la pièce à préciser].
+- **Lycurgue, *Oratio in Leocratem***, éd. E. Maetzner (annotation critique et commentaire). — `TB/Lycurgi Oratio in Leocratem*.pdf` [T] (364 p.) ; [lieu et date de l'édition, usage pour la pièce à préciser].
+- **P. Franchi de' Cavalieri, *Scritti agiografici*, t. II (1900-1946)** (Studi e testi 222), Cité du Vatican, 1962. — `TB/Scritti agiografici*.pdf` [T] (456 p.) ; [usage pour la pièce à préciser].
+- **R. Tosi, *Dictionnaire des sentences latines et grecques*** : le PDF `TB/Dictionnaire des sentences*.pdf` [I] (1776 p., sans couche texte) complète l'OCR déjà disponible (§ 4.2), qui reste la version interrogeable.
+
+### 10.3 Doublons d'ouvrages déjà décrits
+
+Hésychius, t. I-IV (§ 4.1) ; *Synagoge* (§ 4.1) ; Wilson, t. II (§ 3.1) ; Clements 2014 (`TB/Aristophanes' Thesmophoriazusae (Ashley Clements).epub` = PDF du § 7.1 ; texte : `TB/texte/Clements_2014_Thesmophoriazusae.txt`).
