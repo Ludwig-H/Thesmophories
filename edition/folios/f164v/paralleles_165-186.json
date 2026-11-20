@@ -533,6 +533,48 @@
  },
  {
   "v": "165",
+  "lemme": "ἠμπέσχετο",
+  "categorie": "lexicographes",
+  "ref": "Hsch. α 3788",
+  "urn": "",
+  "citation": "ἀμπέχειν· περιβάλλεσθαι",
+  "traduction": "ἀμπέχειν : se draper",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἀμπέχ*' -a Hsch. -o gloses (Latte I, p. 177)",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 1,
+  "remarque": "la glose de l'infinitif, à côté d'α 3791 et 3801–3802 (déjà relevées)"
+ },
+ {
+  "v": "165",
+  "lemme": "ἠμπέσχετο",
+  "categorie": "lexicographes",
+  "ref": "Hsch. α 3792",
+  "urn": "",
+  "citation": "ἀμπέχονον· σύμμετρον ⌊περίβλημα (Ar. fr. 332, 7 K.–A.)",
+  "traduction": "ἀμπέχονον : manteau de juste mesure",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἀμπέχ*' -a Hsch. -o gloses (Latte I, p. 177 ; renvoi de l'éditeur à Ar. fr. 332, 7 K.-A.)",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 1,
+  "remarque": "le vêtement tiré d'ἀμπέχω, dans un fragment d'Aristophane que l'éditeur identifie (fr. 332, 7 K.-A.) ; Pollux VII (Bethe II, p. 77–78) cite « ἐκ Θεσμοφοριαζουσῶν Ἀριστοφάνους » (fr. 320 Kock selon Bethe) un catalogue de parures féminines où figure ἀμπεχόνην (fragment étranger à notre pièce)"
+ },
+ {
+  "v": "165",
+  "lemme": "ἠμπέσχετο",
+  "categorie": "lexicographes",
+  "ref": "Hsch. α 3793",
+  "urn": "",
+  "citation": "*ἀμπεχόνην· λεπτὸν ⌊ἱμάτιον (Plat. Charm. 173b)",
+  "traduction": "ἀμπεχόνη : manteau fin",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἀμπέχ*' -a Hsch. -o gloses (Latte I, p. 177)",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 1,
+  "remarque": "l'ἀμπεχόνη est un manteau léger (λεπτόν) : le vêtement d'Agathon est fin comme lui"
+ },
+ {
+  "v": "165",
   "lemme": "κάλ᾽ ἦν τὰ δράματα",
   "categorie": "proverbes",
   "ref": "Thgn. 17",
@@ -2101,6 +2143,20 @@
  },
  {
   "v": "168",
+  "lemme": "αἰσχρὸς ὢν αἰσχρῶς ποιεῖ",
+  "categorie": "prose",
+  "ref": "Epict. 2.23.32",
+  "urn": "urn:cts:greekLit:tlg0557.tlg001.perseus-grc2:2.23.32",
+  "citation": "οἱ λέγοντες μηδεμίαν εἶναι παραλλαγὴν κάλλους πρὸς αἶσχος. εἶτα ὁμοίως ἦν κινηθῆναι τὸν Θερσίτην ἰδόντα καὶ τὸν Ἀχιλλέα;",
+  "traduction": "ceux qui disent qu'il n'y a aucune différence entre la beauté et la laideur : serait-on donc ému de même à voir Thersite et Achille ?",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Θερσίτην AND Ἀχιλλέα' (Epict. Diss. 2.23.32)",
+  "signale_par": "García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 21–34 (.sources/drive/ThesmoBiblio)",
+  "pertinence": 1,
+  "remarque": "la paire proverbiale du beau et du laid (Achille / Thersite), comme Agathon (v. 165) et Philoclès (v. 168)"
+ },
+ {
+  "v": "168",
   "lemme": "Φιλοκλέης",
   "categorie": "scholies",
   "ref": "Σ Ar. Thesm. 168",
@@ -3572,6 +3628,34 @@
  {
   "v": "170",
   "lemme": "ψυχρὸς ὢν ψυχρῶς ποιεῖ",
+  "categorie": "aristophane",
+  "ref": "Ar. Av. 950–953",
+  "urn": "urn:cts:greekLit:tlg0019.tlg006.perseus-grc2:950",
+  "citation": "κλῇσον ὦ χρυσόθρονε τὰν τρομερὰν κρυεράν· / νιφόβολα πεδία πολύπορά τʼ ἤλυθον ἀλαλάν",
+  "traduction": "chante, toi au trône d'or, la tremblante, la glaciale (cité) ; je suis venu par les plaines battues de neige, aux mille routes",
+  "verifie": "corpus",
+  "verification": "p.py Ar. Av. 941–956 (Perseus cote ces deux vers lyriques 950–951) ; numérotation usuelle d'après les lemmes de Dübner (Σ 951 τρομερὰν, κρυεράν ; Σ 952 νιφόβολα πέδια ; Σ 954 νὴ τὸν Δία)",
+  "signale_par": "Taillardat ap. commentaire de l'auteur (« continuée aux vers 946 et 955 ») ; recherche dans le corpus",
+  "pertinence": 3,
+  "remarque": "les vers « glacés » du poète famélique, avant le mot de Pisthétaire (954–955 ταυταγὶ τὰ κρυερά, déjà relevé) ; leçon finale de Perseus ἀλαλάν (ἀλαλαί chez d'autres éditeurs)"
+ },
+ {
+  "v": "170",
+  "lemme": "ψυχρὸς ὢν ψυχρῶς ποιεῖ",
+  "categorie": "aristophane",
+  "ref": "Ar. Av. 946",
+  "urn": "urn:cts:greekLit:tlg0019.tlg006.perseus-grc2:946",
+  "citation": "ξυνῆχʼ ὅτι βούλει τὸν χιτωνίσκον λαβεῖν",
+  "traduction": "j'ai compris : tu veux recevoir la tunique",
+  "verifie": "corpus",
+  "verification": "p.py Ar. Av. 946",
+  "signale_par": "Taillardat ap. commentaire de l'auteur (« continuée aux vers 946 et 955 »)",
+  "pertinence": 2,
+  "remarque": "le poète transi reçoit après le manteau (935) la tunique : la plaisanterie sur le froid continue"
+ },
+ {
+  "v": "170",
+  "lemme": "ψυχρὸς ὢν ψυχρῶς ποιεῖ",
   "categorie": "comiques",
   "ref": "Eup. fr. 244 Kock",
   "urn": "urn:cts:greekLit:tlg4031.tlg002.1st1K-grc1:4",
@@ -3907,6 +3991,20 @@
  },
  {
   "v": "170",
+  "lemme": "ψυχρὸς ὢν ψυχρῶς ποιεῖ",
+  "categorie": "scholies",
+  "ref": "Σ Ar. Av. 950–951",
+  "urn": "ia:scholiagraecain00unkngoog#n298",
+  "citation": "950. διαβάλλει τοὺς ποιητὰς ὡς τῷ κόμπῳ τῶν λέξεων ἀπατῶντας, μηδὲν δὲ λέγοντας … 951. τρομερὰν, κρυεράν … κρυερὰν δέ, τὴν κρύους μεταλαμβάνουσαν, διὰ τὸ ἐπʼ αὐτὴν καταράσσειν καὶ τὴν δρόσον καὶ τὴν ψυχρότητα",
+  "traduction": "il dénigre les poètes, qui trompent par l'enflure des mots sans rien dire… « glaciale » : qui a sa part du froid, parce que la rosée et la froidure s'abattent sur elle",
+  "verifie": "scan",
+  "verification": "Dübner, p. 232, l. 25–31 (image n298 affichée et lue ; Σ 950 notée R. V.)",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 2,
+  "remarque": "la scholie dit la froideur (ψυχρότης) et l'enflure du poète ; cf. Σ 952 (ἐπίτηδες δὲ ἀδιανοήτως λέγει)"
+ },
+ {
+  "v": "170",
   "lemme": "Θέογνις",
   "categorie": "lexicographes",
   "ref": "Sud. θ 137",
@@ -4142,6 +4240,20 @@
   "signale_par": "dépouillement d'Hésychius",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "170",
+  "lemme": "ψυχρὸς ὢν ψυχρῶς ποιεῖ",
+  "categorie": "lexicographes",
+  "ref": "Synag. ι 2",
+  "urn": "drive:Grec/Lexiques/Synagoge/Synagoge.pdf#pdf277",
+  "citation": "ἰαλέμῳ· θρήνῳ. ἰάλεμος γὰρ θρήνου εἶδος. | λέγεται δὲ καὶ Ἰάλεμος υἱὸς Καλλιόπης καὶ ὁ καλὸς καὶ ὀρφανός. ἔνιοι δὲ τὸν κακὸν δαίμονα. καὶ ἰαλεμώδη τὰ ψυχρὰ καὶ οὐδενὸς λόγου ἄξια",
+  "traduction": "ἰάλεμος : lamentation… on appelle aussi « ialémodes » les choses froides et sans aucune valeur",
+  "verifie": "scan",
+  "verification": "Cunningham, Synagoge, p. 271 (page du PDF affichée et lue ; la couche texte est illisible)",
+  "signale_par": "chercher.py 'ψυχρ*' -a Synag.",
+  "pertinence": 2,
+  "remarque": "la glose du proverbe d'Ialémos (Zen. 4.39 ; Hsch. ι 29 ; App. Prov. 3.24, déjà relevés) : ψυχρά = « sans valeur », comme les vers de Théognis ; Cunningham la rapporte aux témoins ABCD, Photius ι 2 et l'Et. Gen."
  },
  {
   "v": "170",
@@ -6664,6 +6776,20 @@
   "remarque": "Theodoridis I non disponible : numéro non contrôlé"
  },
  {
+  "v": "174",
+  "lemme": "ὢν τηλικοῦτος",
+  "categorie": "lexicographes",
+  "ref": "Phot. τ 247",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon N - Phi (German Edition) by Christos Theodoridis (z-lib.org).pdf#pdf498",
+  "citation": "τηλικοῦτος· ἐπὶ ἡλικίας τίθεται. οὕτως Μένανδρος (Asp. 258, Dysc. 696)",
+  "traduction": "τηλικοῦτος : se dit de l'âge ; ainsi Ménandre",
+  "verifie": "scan",
+  "verification": "Theodoridis III, p. 469 (page du PDF affichée et lue)",
+  "signale_par": "chercher.py 'τηλικουτ*' -a 'Phot. (Theodoridis) III'",
+  "pertinence": 3,
+  "remarque": "la glose donne exactement l'emploi du v. 174 (ὢν τηλικοῦτος, « à son âge ») ; cf. Hsch. τ 775 (déjà relevé). Ménandre (Asp. 258, Dysc. 696) n'est pas dans le corpus local"
+ },
+ {
   "v": "175",
   "lemme": "οὐ ζηλῶ σε τῆς παιδεύσεως",
   "categorie": "testimonium",
@@ -8779,6 +8905,20 @@
  },
  {
   "v": "177",
+  "lemme": "σοφοῦ πρὸς ἀνδρός, ὅστις ἐν βραχεῖ / πολλοὺς καλῶς οἷός τε συντέμνειν λόγους",
+  "categorie": "prose",
+  "ref": "P.-L. Courier, Pamphlet des pamphlets (1824)",
+  "urn": "https://fr.wikisource.org/wiki/Œuvres_complètes_de_Paul-Louis_Courier/Pamphlet_des_pamphlets",
+  "citation": "et la chose est bien dite dès que chacun l’entend ; d’autant mieux dite qu’elle l’est plus brièvement ; mérite non commun, savez-vous ? ni facile, de clore en peu de mots beaucoup de sens",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "Wikisource (fr), Œuvres complètes de Paul-Louis Courier, Pamphlet des pamphlets : texte téléchargé par l'API (.travail/paralleles_f164v_165-186/web/courier_pamphlet.json) et lu",
+  "signale_par": "commentaire de l'auteur (vv. 177–178 : « P.-L. Courier, Pamphlet des pamphlets […] (Note de Willems) »)",
+  "pertinence": 2,
+  "remarque": "l'auteur cite, d'après Willems, « C'est un mérite non commun, ni facile, de clore en peu de mots beaucoup de sens » : Courier écrit « mérite non commun, savez-vous ? ni facile… », apposé à « d'autant mieux dite qu'elle l'est plus brièvement » ; presque une traduction des vv. 177–178"
+ },
+ {
+  "v": "177",
   "lemme": "σοφοῦ",
   "categorie": "scholies",
   "ref": "Σ Ar. Thesm. 177",
@@ -9140,6 +9280,20 @@
   "signale_par": "Hsch. β 1079b",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "177",
+  "lemme": "σοφοῦ",
+  "categorie": "lexicographes",
+  "ref": "Phot. σ 425–426",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon N - Phi (German Edition) by Christos Theodoridis (z-lib.org).pdf#pdf411",
+  "citation": "σοφιστής· ἀπατεών· παρὰ τὸ σοφίζεσθαι, ὅ ἐστι λόγοις ἀπατᾶν· λέγεται δὲ σοφιστὴς καὶ ὁ διδάσκαλος, ὁ σοφίζων· τὸ δὲ παλαιὸν σοφιστὴς ὁ σοφὸς ἐκαλεῖτο. | σοφιστής· πᾶς τεχνίτης· καὶ ὁ τὸ λεκτικὸν ἠσκηκώς",
+  "traduction": "sophiste : trompeur, de σοφίζεσθαι, tromper par les discours ; on dit aussi sophiste le maître ; anciennement on appelait sophiste le sage. — Sophiste : tout artiste, et celui qui s'est exercé à la parole",
+  "verifie": "scan",
+  "verification": "Theodoridis III, p. 382 (page du PDF affichée et lue)",
+  "signale_par": "chercher.py 'σοφιστ*' -a 'Phot. (Theodoridis) III'",
+  "pertinence": 2,
+  "remarque": "le sage (σοφός) et l'artiste de la parole : la scholie au v. 177 glose σοφοὺς … καὶ σοφιστὰς τοὺς περὶ μουσικὴν καὶ ποιητικήν ; cf. Hsch. σ 1370–1373, Sud. σ 820 (déjà relevés)"
  },
  {
   "v": "177",
@@ -12236,6 +12390,20 @@
   "remarque": "la Souda donne à la famille de ἐγκαθέζεσθαι le sens d'« être aposté, caché, en espion » ; elle cite Ar. Ach. 343 (déjà relevé)"
  },
  {
+  "v": "184",
+  "lemme": "ἐγκαθεζόμενος λάθρᾳ",
+  "categorie": "lexicographes",
+  "ref": "Hsch. ε 3273",
+  "urn": "",
+  "citation": "ἐν παραβύστῳ· ἐν μυστηρίῳ … ἐν κρυπτῷ, λεληθότως … λάθρα",
+  "traduction": "ἐν παραβύστῳ : en secret, en cachette, à la dérobée, furtivement",
+  "verifie": "corpus",
+  "verification": "chercher.py 'λάθρα*' -a Hsch. -o gloses (Latte II, p. 135 ; marge : Att. ; l'éd. renvoie pour λάθρα à Hyperid. fr. 57 S. ; κρύπτῷ dans le texte décodé, lu κρυπτῷ)",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 1,
+  "remarque": "locution attique de la présence clandestine (λάθρα, λεληθότως) ; cf. Hsch. λ 103 (déjà relevé)"
+ },
+ {
   "v": "185",
   "lemme": "ὡς δοκῶν εἶναι γυνή",
   "categorie": "aristophane",
@@ -12388,6 +12556,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 1,
   "remarque": "le vers d'Eschyle devenu maxime (cf. Plut. Mor. 186b)"
+ },
+ {
+  "v": "185",
+  "lemme": "ὡς δοκῶν εἶναι γυνή",
+  "categorie": "prose",
+  "ref": "Sall. Cat. 54.6",
+  "urn": "urn:cts:latinLit:phi0631.phi001.perseus-lat3:54.6",
+  "citation": "esse quam videri bonus malebat: ita, quo minus petebat gloriam, eo magis illum adsequebatur",
+  "traduction": "il aimait mieux être homme de bien que le paraître : aussi, moins il recherchait la gloire, plus elle s'attachait à lui",
+  "verifie": "corpus",
+  "verification": ".sources/web/latin_perseus/phi0631.phi001.perseus-lat3.xml (chap. 54, section 6, lue ; Tosi écrit 54, 5)",
+  "signale_par": "Tosi n° 2274 (Esto quod esse videris : variante Esse quam videri bonus malle, Sall. Cat. ; Fronton)",
+  "pertinence": 1,
+  "remarque": "la maxime latine du paraître et de l'être (cf. Aesch. Sept. 592) ; au v. 185 Agathon n'a qu'à « paraître » femme, ce qu'il est presque"
  },
  {
   "v": "185",

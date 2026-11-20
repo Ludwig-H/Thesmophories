@@ -10166,6 +10166,20 @@
  {
   "v": "335",
   "lemme": "ἐπιβουλεύει",
+  "categorie": "comiques",
+  "ref": "Alex. fr. 98 Kock (Ath. 13.568a)",
+  "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:13.23",
+  "citation": "πρῶτα μὲν γὰρ πρὸς τὸ κέρδος καὶ τὸ συλᾶν τοὺς πέλας / πάντα τἄλλʼ αὐταῖς πάρεργα γίνεται, ῥάπτουσι δὲ / πᾶσιν ἐπιβουλάς",
+  "traduction": "d’abord, pour le gain et pour dépouiller le prochain, tout le reste leur est accessoire ; elles cousent des complots contre tout le monde",
+  "verifie": "corpus",
+  "verification": "kw.py \"ῥάπτουσι δὲ πᾶσιν\" (Ath. 13.23 = 568a) ; Kock II, p. 329, fr. 98, Ἰσοστάσιον (image : ia:comicorumatticor02kockuoft, n334)",
+  "signale_par": "recherche dans le corpus (ἐπιβουλ* -a Kock)",
+  "pertinence": 1,
+  "remarque": "les courtisanes de l’Isostasion « cousent des complots » : dans la comédie, le comploteur ordinaire est une femme ; ici, ce sont les femmes qui maudissent le complot. Apparat de Kock : πρῶτα Clem.] πρῶτον A Ath."
+ },
+ {
+  "v": "335",
+  "lemme": "ἐπιβουλεύει",
   "categorie": "tragiques",
   "ref": "Aesch. Sept. 28–29",
   "urn": "urn:cts:greekLit:tlg0085.tlg004.perseus-grc2:28",
@@ -10175,7 +10189,7 @@
   "verification": "p.py Aesch. Sept. 24–30 ; chercher.py κἀπιβουλ* ; LSJ s.v. ἐπιβουλεύω (« τῇ πόλει A. Th. 29 codd. »)",
   "signale_par": "LSJ s.v. ἐπιβουλεύω",
   "pertinence": 2,
-  "remarque": "ἐπιβουλεύειν + dat. de la cité, en tragédie ; les mss ont ἐπιβουλεύειν (LSJ), le texte du corpus ἐπιβουλεύσειν ; le verbe, surtout prosaïque, est rare chez les tragiques (cf. Soph. OT 618)"
+  "remarque": "ἐπιβουλεύειν + dat. de la cité, en tragédie ; LSJ cite le lieu d’après les manuscrits (« A. Th. 29 codd. »), le texte du corpus porte κἀπιβουλεύσειν ; le verbe, surtout prosaïque, est rare chez les tragiques (cf. Soph. OT 618)"
  },
  {
   "v": "335",
@@ -10245,7 +10259,7 @@
   "verification": "Bergk, PLG⁴ II (1882), p. 10, texte et apparat (image : ia:poetaelyricigra03berggoog, n20) ; p. 9 (n19) pour les sources (Plut. Lyc. 6 : vv. 1–6 ; Diodore : vv. 3–10) ; LSJ s.v. ἐπιβουλεύω (« ἐ. <κακὸν> πόλει Tyrt. 4.8 »)",
   "signale_par": "Enger 1844, p. 67 (« Tyrtaeum frgm. II v. 10 respici Bachius censet ») ; Bergk, PLG⁴ II, p. 10",
   "pertinence": 2,
-  "remarque": "la ῥήτρα de l’Eunomia ; v. 8 mutilé : cod. (Diodore) μηδέ τι ἐπιβουλεύειν ; Bergk adopte le supplément de Dindorf (τῇδε πόλει τι κακόν) contre celui de Bach (μηδέ τι βουλεύειν τῇδε πόλει σκολιόν), en invoquant notre vers : « Est enim hoc solemne carmen, velut apud Athenienses, vid. Aristoph. Thesmophor. 335 » ; le rapprochement est donc en partie fondé sur une restitution"
+  "remarque": "vers sur la rhètre de Sparte (vv. 1–6 cités par Plut. Lyc. 6) ; v. 8 mutilé : cod. (Diodore) μηδέ τι ἐπιβουλεύειν ; Bergk adopte le supplément de Dindorf (τῇδε πόλει τι κακόν) contre celui de Bach (μηδέ τι βουλεύειν τῇδε πόλει σκολιόν), en invoquant notre vers : « Est enim hoc solemne carmen, velut apud Athenienses, vid. Aristoph. Thesmophor. 335 » ; le rapprochement est donc en partie fondé sur une restitution"
  },
  {
   "v": "335",
@@ -10399,7 +10413,7 @@
   "verification": "p.py Thuc. 8.66.1–2",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "printemps 411 : l’assemblée réelle sous la menace des conjurés"
+  "remarque": "en 411, avant l’établissement des Quatre-Cents : l’assemblée réelle sous la menace des conjurés"
  },
  {
   "v": "335",
@@ -10707,7 +10721,7 @@
   "verification": "chercher.py \"ἐπικηρυκεύσαιτο Μήδοις\"",
   "signale_par": "Fritzsche 1838, p. 123 ; Enger 1844, p. 67 (« Addit Fritzschius Plutarchum Vit. Arist. c. 10 ») ; Austin–Olson 2004, n. aux vv. 335–9",
   "pertinence": 3,
-  "remarque": "origine de la clause selon Austin–Olson (proposition d’Aristide, 480/479) ; Fritzsche y voit la forme légitime Μήδοις, qu’Isocrate (4.157, au v. 335) remplace par Πέρσαις ; aussi au v. 337 (paralleles_337-358.json)"
+  "remarque": "origine de la clause selon Austin–Olson (proposition d’Aristide, en 480 selon eux) ; Fritzsche y voit la forme légitime Μήδοις, qu’Isocrate (4.157, au v. 335) remplace par Πέρσαις ; aussi au v. 337 (paralleles_337-358.json)"
  },
  {
   "v": "336",
@@ -10735,7 +10749,7 @@
   "verification": "chercher.py \"ἐπικηρυκεύσασθαι βασιλεῖ\" -a Pl. ; LSJ s.v. φιλονικία (« Pl. Mx. 243b »)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "ἐπικηρυκεύεσθαι + dat. pour les tractations avec le Grand Roi pendant la guerre de Décélie, le crime que vise la clause (vv. 336–337)"
+  "remarque": "ἐπικηρυκεύεσθαι + dat. pour les tractations des Grecs avec le Grand Roi à la fin de la guerre du Péloponnèse, le crime que vise la clause (vv. 336–337)"
  },
  {
   "v": "336",
@@ -10844,7 +10858,7 @@
   "citation": "φιλίαν σπένδει",
   "traduction": "« il conclut amitié »",
   "verifie": "scan",
-  "verification": "R, f. 166r, marge droite, en face de la l. 43 (image : dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/08_f166r…jpg) ; Dübner 1842, p. 266, col. b, l. 39 (image : PDF local, p. 344)",
+  "verification": "R, f. 166r, marge droite, en face de la l. 43 (image : dossier_ravennas_thesmophories/folios_individuels_ff162v-177r/08_f166r_classense168r_vv0295-0336.jpg) ; Dübner 1842, p. 266, col. b, l. 39 (image : PDF local, p. 344)",
   "signale_par": "Enger 1844, p. 67 ; transcription des scholies de f166r (sch. 12, main R2)",
   "pertinence": 3,
   "remarque": "glose marginale de R2 ; la Souda la reprend à la fin de son article (Sud. ε 2375 … ἢ φιλίαν σπένδει) ; même explication dans Σ Eur. Med. 737 (πρὸς φιλίαν)"

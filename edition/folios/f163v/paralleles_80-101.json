@@ -73,15 +73,15 @@
   "v": "80",
   "lemme": "Θεσμοφορίων",
   "categorie": "aristophane",
-  "ref": "Ar. fr. 335 Kock (Thesm. II)",
+  "ref": "Ar. fr. 331 K.-A. (Thesm. II)",
   "urn": "ia:comicorumatticor01kockuoft#n510",
   "citation": "δαίμων περὶ τὴν Δήμητραν, ἣν προλογίζουσαν ἐν ταῖς ἑτέραις Θεσμοφοριαζούσαις ἐποίησεν",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Kock I, p. 481 (archive.org comicorumatticor01kockuoft n510, image), fr. 335 : Σ Thesm. 298 et Phot. s.v. Καλλιγένειαν ; Dübner p. 266 (OCR concordant)",
+  "verification": "PCG III.2, p. 182, fr. 331 (335 K.) (PDF du Drive, idx 210, image) ; Kock I, p. 481 (archive.org comicorumatticor01kockuoft n510, image), fr. 335 : Σ Thesm. 298 et Phot. s.v. Καλλιγένειαν ; Dübner p. 266 (OCR concordant)",
   "signale_par": "Austin 1990, p. 15 n. 3 et 6 ; recherche directe (Καλλιγενει*)",
   "pertinence": 2,
-  "remarque": "= fr. 331 K.-A. d'après Austin 1990 (« la note au fr. 331 K.-A., PCG III 2 p. 182 »). Καλλιγένεια prologuait les Secondes Thesmophories, et se donnait pour nourrice de Déméter : Phot. Καλλιγένειαν· Ἀπολλόδωρος μὲν τὴν γῆν, οἱ δὲ Διὸς καὶ Δήμητρος θυγατέρα· Ἀριστοφάνης δὲ ὁ κωμικὸς τροφόν."
+  "remarque": "= fr. 331 K.-A. d'après Austin 1990 (« la note au fr. 331 K.-A., PCG III 2 p. 182 »). Καλλιγένεια prologuait les Secondes Thesmophories, et se donnait pour nourrice de Déméter : Phot. Καλλιγένειαν· Ἀπολλόδωρος μὲν τὴν γῆν, οἱ δὲ Διὸς καὶ Δήμητρος θυγατέρα· Ἀριστοφάνης δὲ ὁ κωμικὸς τροφόν. = fr. 335 Kock."
  },
  {
   "v": "80",
@@ -199,15 +199,29 @@
   "v": "80",
   "lemme": "Θεσμοφορίων ἡ μέση",
   "categorie": "aristophane",
-  "ref": "Ar. fr. 156 Kock",
+  "ref": "Ar. fr. 159 K.-A.",
   "urn": "ia:comicorumatticor01kockuoft#n459",
-  "citation": "ἆρ᾽ ἔνδον ἀνδρῶν κεστρέων ἀποικία; / ὡς μὲν γάρ ἐστε νήστιδες, γιγνώσκεται",
+  "citation": "ἆρ᾽ ἔνδον ἀνδρῶν κεστρέων ἀποικία; / ὡς μὲν γάρ εἰσι νήστιδες, γιγνώσκετε",
   "traduction": "y a-t-il là-dedans une colonie d'hommes-muges ? Que vous êtes à jeun, cela se voit",
   "verifie": "scan",
-  "verification": "Kock I p. 430, fr. 156 (archive.org comicorumatticor01kockuoft n459, image) ; Ath. 7.307e (Perseus : chercher.py 'κεστρεων αποικια' -a Ath --complet) ; Hall–Geldart II, fr. 156 (OCR : γιγνώσκετε)",
+  "verification": "PCG III.2, p. 104, fr. 159 (156 K.) (PDF du Drive, idx 132, image) ; Kock I p. 430, fr. 156 (archive.org comicorumatticor01kockuoft n459, image) ; Ath. 7.307e (Perseus : chercher.py 'κεστρεων αποικια' -a Ath --complet) ; Hall–Geldart II, fr. 156 (OCR : γιγνώσκετε)",
   "signale_par": "recherche directe (Ath. 7.307d–f, à partir d'Ath. 7.307f)",
   "pertinence": 2,
-  "remarque": "Gérytadès. Le « muge à jeun » (Zen. 4.52 Κεστρεὺς νηστεύει), image par laquelle Ath. 7.307f glose « fêter la Mésè des Thesmophories ». Numéro K.-A. non contrôlé."
+  "remarque": "Gérytadès. Le « muge à jeun » (Zen. 4.52 Κεστρεὺς νηστεύει), image par laquelle Ath. 7.307f glose « fêter la Mésè des Thesmophories ». Citation donnée d'après Kassel–Austin (texte de Kock : ἆρ᾽ ἔνδον ἀνδρῶν κεστρέων ἀποικία; / ὡς μὲν γάρ ἐστε νήστιδες, γιγνώσκεται). = fr. 156 Kock."
+ },
+ {
+  "v": "80",
+  "lemme": "ἐπείπερ (Γ´ / γε : la corruption de τρίτη)",
+  "categorie": "aristophane",
+  "ref": "Ar. Vesp. 1507",
+  "urn": "urn:cts:greekLit:tlg0019.tlg004.perseus-grc2:1507",
+  "citation": "μὰ τὸν Δί᾽ οὐδέν γ᾽ ἄλλο πλήν γε καρκίνους·",
+  "traduction": "Non, par Zeus, rien d'autre que des crabes.",
+  "verifie": "corpus",
+  "verification": "passage.py Vesp. 1505–1509 (Perseus, Hall–Geldart) ; Dübner, p. 167, col. 2, ll. 19–30 (archive.org scholiagraecain00unkngoog n223, image : Σ 1507, 1509)",
+  "signale_par": "commentaire critique de l'auteur (v. 80, n. : « un τρεῖς a dû être restitué au vers 1507 des Guêpes là où tous les manuscrits comportent un γε »)",
+  "pertinence": 2,
+  "remarque": "Exemple, selon l'auteur, de la confusion inverse de celle du v. 80 (γε lu pour le chiffre Γ´ = τρεῖς). Le lemme de la scholie porte πλήν γε Καρκίνους ; Σ 1509 cite les Ἄγριοι de Phérécrate sur les trois petits fils de Carcinos (ἦσαν δὲ αὐτῷ τρεῖς τινες μικροί). La restitution de τρεῖς n'a pas été contrôlée dans une édition [à vérifier]."
  },
  {
   "v": "80",
@@ -221,21 +235,21 @@
   "verification": "DCLP 63169 (P.Oxy. 50 3540 ; Kassel–Austin, PCG VIII 1132), lu dans l'index ; restitution rapportée d'après Austin 1990",
   "signale_par": "commentaire critique de l'auteur (v. 80, n. 1) ; Sommerstein 1994 ad 80 ; Austin 1990, p. 15 n. 6 ; Austin–Olson 2004, introd., n. 79",
   "pertinence": 3,
-  "remarque": "Handley, « speculative restoration » : [Θεσμοφορ]ίων ἡ τρίτη … [Καλλιγένεια, Δή]μητρος τροφός (Secondes Thesmophories ?). Si elle tenait, τρίτη désignerait là le jour de la fête, ce qui ne dit rien de la Mésè ; cf. Ar. fr. 335 Kock."
+  "remarque": "Handley, « speculative restoration » : [Θεσμοφορ]ίων ἡ τρίτη … [Καλλιγένεια, Δή]μητρος τροφός (Secondes Thesmophories ?). Si elle tenait, τρίτη désignerait là le jour de la fête, ce qui ne dit rien de la Mésè ; cf. Ar. fr. 331 K.-A. (= 335 Kock)."
  },
  {
   "v": "80",
   "lemme": "Θεσμοφορίων ἡ μέση",
   "categorie": "comiques",
-  "ref": "Diph. fr. 54 Kock",
+  "ref": "Diph. fr. 53 K.-A.",
   "urn": "ia:comicorumatticor02kockuoft#n563",
   "citation": "οὗτοι δεδειπνήκασιν· ὁ δὲ τάλας ἐγὼ / κεστρεὺς ἂν εἴην ἕνεκα νηστείας ἄκρας",
   "traduction": "eux ont dîné ; mais moi, pauvre de moi, je serais un muge, pour l'extrême jeûne",
   "verifie": "scan",
-  "verification": "Kock II p. 558, fr. 54 (archive.org comicorumatticor02kockuoft n563, image) ; Ath. 7.307f et 4.156b (Perseus : chercher.py 'νηστειας ακρας')",
+  "verification": "PCG V, p. 82, fr. 53 (54 K.) (PDF du Drive, idx 114, image) ; Kock II p. 558, fr. 54 (archive.org comicorumatticor02kockuoft n563, image) ; Ath. 7.307f et 4.156b (Perseus : chercher.py 'νηστειας ακρας')",
   "signale_par": "recherche directe (Ath. 7.307d–f)",
   "pertinence": 2,
-  "remarque": "Lemniai ; cité par Ath. 7.307f immédiatement après la plaisanterie sur la Mésè des Thesmophories. Même série du « muge à jeun » chez Ath. 7.307d–f : Archipp., Antiph. (Lampon), Alex. (Phryx), Ameips., Euphro, Philem., Ar. (Gérytadès), Anaxandr., Eubul. (Nausicaa) ; Theopomp. Com. (Hedychares) κεστρέων νῆστις χορός (Ath. 7.308a). Numéro K.-A. non contrôlé."
+  "remarque": "Lemniai ; cité par Ath. 7.307f immédiatement après la plaisanterie sur la Mésè des Thesmophories. Même série du « muge à jeun » chez Ath. 7.307d–f : Archipp., Antiph. (Lampon), Alex. (Phryx), Ameips., Euphro, Philem., Ar. (Gérytadès), Anaxandr., Eubul. (Nausicaa) ; Theopomp. Com. (Hedychares) κεστρέων νῆστις χορός (Ath. 7.308a). = fr. 54 Kock."
  },
  {
   "v": "80",
@@ -2299,15 +2313,15 @@
   "v": "85",
   "lemme": "τραγῳδῶ καὶ κακῶς αὐτὰς λέγω",
   "categorie": "comiques",
-  "ref": "Diph. fr. 73.3–5 Kock",
+  "ref": "Diph. fr. 74.3–5 K.-A.",
   "urn": "ia:comicorumatticor02kockuoft#n570",
   "citation": "οὐκ ἄν ποτε / Εὐριπίδης γυναῖκα σώσει᾽. οὐχ ὁρᾷς / ἐν ταῖς τραγῳδίαισιν αὐτὰς ὡς στυγεῖ;",
   "traduction": "jamais Euripide ne sauvera une femme : ne vois-tu pas comme il les hait dans ses tragédies ?",
   "verifie": "scan",
-  "verification": "Kock II p. 565, fr. 73 (archive.org comicorumatticor02kockuoft n570, image) ; Ath. 6.247a–b (Perseus, index.sqlite 6.51)",
+  "verification": "PCG V, p. 96, fr. 74 (73 K.) (PDF du Drive, idx 128, image) ; Kock II p. 565, fr. 73 (archive.org comicorumatticor02kockuoft n570, image) ; Ath. 6.247a–b (Perseus, index.sqlite 6.51)",
   "signale_par": "Austin–Olson 2004, ad 85 (« Diph. fr. 74. 3–5 »)",
   "pertinence": 3,
-  "remarque": "Synoris : jeu sur le coup de dés appelé « Euripide ». = fr. 74 K.-A. selon A–O (numéro K.-A. non contrôlé). La misogynie d'Euripide, lieu commun comique."
+  "remarque": "Synoris : jeu sur le coup de dés appelé « Euripide ». La misogynie d'Euripide, lieu commun comique. = fr. 73 Kock."
  },
  {
   "v": "85",
@@ -2745,6 +2759,34 @@
  },
  {
   "v": "86",
+  "lemme": "καὶ δικαίαν ἂν πάθοις (Euripide pris à ses propres sentences)",
+  "categorie": "aristophane",
+  "ref": "Ar. Thesm. 194",
+  "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2:194",
+  "citation": "χαίρεις ὁρῶν φῶς, πατέρα δ᾽ οὐ χαίρειν δοκεῖς;",
+  "traduction": "Tu aimes voir la lumière ; crois-tu que ton père ne l'aime pas ?",
+  "verifie": "corpus",
+  "verification": "passage.py Thesm. 193–196 (Perseus ; numérotation usuelle = Hall–Geldart)",
+  "signale_par": "commentaire critique de l'auteur (vv. 86–87, n. : « Euripide est pris au piège de ses propres γνῶμαι (aux vers 194, 275-276, etc) »)",
+  "pertinence": 2,
+  "remarque": "Agathon renvoie à Euripide le vers de son Alceste (Eur. Alc. 691, au même vers)."
+ },
+ {
+  "v": "86",
+  "lemme": "καὶ δικαίαν ἂν πάθοις (Euripide pris à ses propres sentences)",
+  "categorie": "aristophane",
+  "ref": "Ar. Thesm. 275–276",
+  "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2:275",
+  "citation": "μέμνησο τοίνυν ταῦθ᾽, ὅτι ἡ φρὴν ὤμοσεν, / ἡ γλῶττα δ᾽ οὐκ ὀμώμοκ᾽",
+  "traduction": "Souviens-toi bien de ceci : c'est le cœur qui a juré, la langue n'a pas juré",
+  "verifie": "corpus",
+  "verification": "passage.py Thesm. 274–278 (Perseus)",
+  "signale_par": "commentaire critique de l'auteur (vv. 86–87, n.)",
+  "pertinence": 2,
+  "remarque": "Mnésiloque retourne contre Euripide le vers d'Hippolyte (Eur. Hipp. 612, au même vers)."
+ },
+ {
+  "v": "86",
   "lemme": "καὶ δικαίαν ἂν πάθοις (ellipse de πληγήν)",
   "categorie": "comiques",
   "ref": "Ter. Haut. 402",
@@ -2812,6 +2854,34 @@
   "signale_par": "Prato 2001, p. 163",
   "pertinence": 2,
   "remarque": "τρίτην (πληγήν)."
+ },
+ {
+  "v": "86",
+  "lemme": "καὶ δικαίαν ἂν πάθοις (Euripide pris à ses propres sentences)",
+  "categorie": "tragiques",
+  "ref": "Eur. Alc. 691",
+  "urn": "urn:cts:greekLit:tlg0006.tlg002.perseus-grc2:691",
+  "citation": "χαίρεις ὁρῶν φῶς· πατέρα δ᾽ οὐ χαίρειν δοκεῖς;",
+  "traduction": "Tu aimes voir la lumière : crois-tu que ton père ne l'aime pas ?",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"χαίρεις ὁρῶν φῶς\"' (Perseus)",
+  "signale_par": "commentaire critique de l'auteur (vv. 86–87, n.), par Thesm. 194",
+  "pertinence": 2,
+  "remarque": "Phérès à Admète. Vers devenu sentence : Épictète le cite (Diss. 2.22.11)."
+ },
+ {
+  "v": "86",
+  "lemme": "καὶ δικαίαν ἂν πάθοις (Euripide pris à ses propres sentences)",
+  "categorie": "tragiques",
+  "ref": "Eur. Hipp. 612",
+  "urn": "urn:cts:greekLit:tlg0006.tlg005.perseus-grc2:612",
+  "citation": "ἡ γλῶσσ᾽ ὀμώμοχ᾽, ἡ δὲ φρὴν ἀνώμοτος.",
+  "traduction": "Ma langue a juré, mon cœur n'a pas juré.",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"ἡ γλῶσσʼ ὀμώμοχʼ\"' (Perseus)",
+  "signale_par": "commentaire critique de l'auteur (vv. 86–87, n.), par Thesm. 275–276",
+  "pertinence": 2,
+  "remarque": "Le vers le plus souvent retourné contre Euripide (cf. Arist. Rh. 3.15.8, au même vers ; Ar. Ran. 101–102, 1471)."
  },
  {
   "v": "86",
@@ -2924,6 +2994,20 @@
   "signale_par": "Prato 2001, p. 163",
   "pertinence": 2,
   "remarque": "πολλάς (πληγάς)."
+ },
+ {
+  "v": "86",
+  "lemme": "καὶ δικαίαν ἂν πάθοις (Euripide pris à ses propres sentences)",
+  "categorie": "prose",
+  "ref": "Arist. Rh. 3.15.8",
+  "urn": "urn:cts:greekLit:tlg0086.tlg038.perseus-grc2:3.15.8",
+  "citation": "ὥσπερ Εὐριπίδης πρὸς Ὑγιαίνοντα ἐν τῇ ἀντιδόσει κατηγοροῦντα ὡς ἀσεβής, ὅς γ᾽ ἐποίησε κελεύων ἐπιορκεῖν, ἡ γλῶσσ᾽ ὀμώμοχ᾽, ἡ δὲ φρὴν ἀνώμοτος",
+  "traduction": "comme Euripide contre Hygiainon, qui, dans un procès en échange de biens, l'accusait d'impiété pour avoir écrit un vers qui pousse au parjure : « ma langue a juré, mon cœur n'a pas juré »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"ἡ γλῶσσʼ ὀμώμοχʼ\"' -a Arist (Perseus)",
+  "signale_par": "recherche directe (Hipp. 612 et ses citations)",
+  "pertinence": 2,
+  "remarque": "Euripide attaqué en justice avec sa propre sentence : la situation que l'auteur prête à Mnésiloque au v. 86 (δικαίαν ἂν πάθοις)."
  },
  {
   "v": "86",
@@ -3153,15 +3237,15 @@
   "v": "87",
   "lemme": "μηχανήν",
   "categorie": "aristophane",
-  "ref": "Ar. fr. 188 Kock (Daedalus)",
+  "ref": "Ar. fr. 192 K.-A. (Daedalus)",
   "urn": "ia:comicorumatticor01kockuoft#n465",
-  "citation": "ὁ μηχανοποιός, ὁπότε βούλει τὸν τροχὸν / ἱμᾶν ἀνεκάς, λέγε, χαῖρε φέγγος ἡλίου",
+  "citation": "ὁ μηχανοποιὸς ὁπότε βούλει τὸν τροχὸν / ἐᾶν †κἀνεκάς† λέγε ‘χαῖρε φέγγος ἡλίου’",
   "traduction": "« le machiniste, quand tu veux hisser la poulie, dis : “Salut, lumière du soleil” »",
   "verifie": "scan",
-  "verification": "Kock I, p. 436, fr. 188 (archive.org comicorumatticor01kockuoft n465, image) ; Erot. 42, 5 Klein ; aussi Meineke II.2 p. 1018 (ἐλᾶν)",
+  "verification": "PCG III.2, p. 117, fr. 192 (188 K.) (PDF du Drive, idx 145, image) ; Kock I, p. 436, fr. 188 (archive.org comicorumatticor01kockuoft n465, image) ; Erot. 42, 5 Klein ; aussi Meineke II.2 p. 1018 (ἐλᾶν)",
   "signale_par": "recherche directe",
   "pertinence": 2,
-  "remarque": "Numéro K.-A. non contrôlé (PCG III.2 local limité à fr. 40). ἱμᾶν est la correction de Kock (ἐᾶν transmis, ἐλᾶν Bergk, ἕλκειν Cobet) : texte à revoir sur K.-A. Kock y voit Jupiter sur la machine (cf. Pac. 174)."
+  "remarque": "Kassel–Austin impriment ἐᾶν †κἀνεκάς† (ἱμᾶν ἀνεκάς Kock ; ἐλᾶν Bergk, ἕλκειν Cobet) ; Kock y voit Jupiter sur la machine (cf. Pac. 174). Citation donnée d'après Kassel–Austin (texte de Kock : ὁ μηχανοποιός, ὁπότε βούλει τὸν τροχὸν / ἱμᾶν ἀνεκάς, λέγε, χαῖρε φέγγος ἡλίου). = fr. 188 Kock."
  },
  {
   "v": "87",
@@ -3335,15 +3419,15 @@
   "v": "87",
   "lemme": "μηχανήν",
   "categorie": "comiques",
-  "ref": "Cratin. fr. 289 Kock",
+  "ref": "Cratin. fr. 320 K.-A.",
   "urn": "ia:comicorumatticor01kockuoft#n126",
   "citation": "τούτου δ' ἁπάσας ἀποτεμῶ τὰς μηχανάς",
   "traduction": "« de cet homme, je trancherai toutes les machinations »",
   "verifie": "scan",
-  "verification": "Kock I, p. 97, fr. 289 (archive.org comicorumatticor01kockuoft n126, image) ; Phryn. PS, Bekker, Anecd. I, p. 28, ll. 29–30 (bub_gb_y5sQAAAAIAAJ n35, image)",
+  "verification": "PCG IV, p. 278, fr. 320 (289 K.) (PDF du Drive, idx 309, image) ; Kock I, p. 97, fr. 289 (archive.org comicorumatticor01kockuoft n126, image) ; Phryn. PS, Bekker, Anecd. I, p. 28, ll. 29–30 (bub_gb_y5sQAAAAIAAJ n35, image)",
   "signale_par": "recherche directe (Bekker, Anecd. I, OCR propre)",
   "pertinence": 2,
-  "remarque": "ὑποτεμῶ Cobet. Numéro K.-A. non contrôlé."
+  "remarque": "ὑποτεμῶ Cobet. = fr. 289 Kock."
  },
  {
   "v": "87",
@@ -3357,7 +3441,7 @@
   "verification": "Kock III (image ia comicorumatticor03kockuoft n84) ; Meineke IV, p. 148 (image n169, fr. VIII de Κεκρύφαλος)",
   "signale_par": "LSJ s.v. μηχανή ; Tosi n° 1203",
   "pertinence": 3,
-  "remarque": "Citation et explication par Σ Pl. Clit. 407a (394 Bekker) : ἐπὶ τῶν ἀπροσδοκήτως ἐπ' ὠφελείᾳ καὶ σωτηρίᾳ φαινομένων ; aussi dans Κεκρύφαλος (fr. 278 Kock). Numéro K.-A. non contrôlé."
+  "remarque": "Citation et explication par Σ Pl. Clit. 407a (394 Bekker) : ἐπὶ τῶν ἀπροσδοκήτως ἐπ' ὠφελείᾳ καὶ σωτηρίᾳ φαινομένων ; aussi dans Κεκρύφαλος (fr. 278 Kock = 213 K.-A.). Numéro K.-A. de la Θεοφορουμένη (PCG VI.1) non contrôlé. Kassel–Austin (PCG VI.2 p. 150, fr. 213 = 243 K.-Th., image) : Σ (TW) Pl. Clit. 407a, παροιμία ἀπὸ μηχανῆς θεὸς ἐπεφάνης ἐπὶ τῶν ἀπροσδοκήτως ἐπ᾽ ὠφελείᾳ ἢ σωτηρίᾳ φαινομένων … Μένανδρος Θεοφορουμένῃ (fragm. 7, PCG VI.1, non consulté) καὶ Κεκρυφάλῳ."
  },
  {
   "v": "87",
@@ -3951,15 +4035,15 @@
   "v": "87",
   "lemme": "ἐκ ταύτης",
   "categorie": "lexicographes",
-  "ref": "Antiatt. 94.7 Bekker (Cratin. fr. 34 Kock)",
+  "ref": "Antiatt. 94.7 Bekker (Cratin. fr. 37 K.-A.)",
   "urn": "ia:bub_gb_y5sQAAAAIAAJ#n101",
   "citation": "Ἐξ αὐτῆς: ἀντὶ τοῦ παραχρῆμα. Κρατῖνος Δηλιάσιν",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Bekker, Anecd. I, p. 94, l. 7 (archive.org bub_gb_y5sQAAAAIAAJ n101, image) ; Kock I p. 22, fr. 34 (image n51)",
+  "verification": "PCG IV, p. 139, fr. 37 (34 K.) (PDF du Drive, idx 170, image) ; Bekker, Anecd. I, p. 94, l. 7 (archive.org bub_gb_y5sQAAAAIAAJ n101, image) ; Kock I p. 22, fr. 34 (image n51)",
   "signale_par": "Fritzsche 1838, p. 25 ; Enger 1844, p. 21 ; van Leeuwen 1904, p. 19",
   "pertinence": 1,
-  "remarque": "Appui de la conjecture ἐξ αὐτῆς de Fritzsche (ἔκ γ' αὐτῆς G. Hermann), que l'auteur ne retient pas ; van Leeuwen la juge inadaptée ici. Cf. Hsch. ε 3619 *ἐξαυτῆς· παραυτίκα."
+  "remarque": "Appui de la conjecture ἐξ αὐτῆς de Fritzsche (ἔκ γ' αὐτῆς G. Hermann), que l'auteur ne retient pas ; van Leeuwen la juge inadaptée ici. Cf. Hsch. ε 3619 *ἐξαυτῆς· παραυτίκα. = fr. 34 Kock."
  },
  {
   "v": "87",
@@ -4340,6 +4424,20 @@
   "remarque": "Carcinos, le poète tragique moqué avec son fils Xénoclès, ὁ δωδεκαμήχανος (cf. Pl. Com. fr. 134 Kock, v. 98)."
  },
  {
+  "v": "87",
+  "lemme": "μηχανήν (la ruse quand la force manque)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 3.5.81",
+  "urn": "",
+  "citation": "Si leonina pellis non satis est, vulpina addenda … i. e. Si leonis exuvium non sufficit, adde vulpinum. Cum viribus res obtineri non potest, dolus adhibendus.",
+  "traduction": "Si la peau du lion ne suffit pas, il faut y coudre celle du renard : quand on ne peut obtenir une chose par la force, il faut employer la ruse.",
+  "verifie": "scan",
+  "verification": "Erasmi Opera omnia, t. II (Leyde 1703), col. 846 F–847 A, Chil. III, cent. V, n° LXXXI (.sources/web/latin/erasme/erasme_opera_II.pdf, p. 440–441 du PDF, images)",
+  "signale_par": "Tosi n° 2223 ; non vérifiés de la 1re passe (Érasme 3.5.81)",
+  "pertinence": 2,
+  "remarque": "Érasme : « Adagium natum est ex apophthegmate Lysandri » (Plut. Lys. 7.4) ; « Adagium refertur à Zenodoto » (Zen. 1.93, au même vers ; cf. Tosi n° 2223)."
+ },
+ {
   "v": "88",
   "lemme": "Ἀγάθωνα",
   "categorie": "aristophane",
@@ -4427,15 +4525,15 @@
   "v": "88",
   "lemme": "Ἀγάθωνα",
   "categorie": "aristophane",
-  "ref": "Ar. fr. 169 Kock",
+  "ref": "Ar. fr. 178 K.-A.",
   "urn": "ia:comicorumatticor01kockuoft#n461",
   "citation": "Ἀγάθων, τραγῳδίας ποιητὴς εἰς μαλακίαν σκωπτόμενος Ἀριστοφάνει Γηρυτάδῃ",
   "traduction": "« Agathon, poète tragique raillé pour sa mollesse par Aristophane dans le Gérytadès »",
   "verifie": "scan",
-  "verification": "Kock I, pp. 432–433, fr. 169 (Σ Luc. 222 Jacob ; archive.org comicorumatticor01kockuoft n461–462, image) ; texte aussi dans Σ Luc. 41.11 (Rabe, First1KGreek), qui note Addit B : Ἀριστοφάνης Γηρυτάδῃ",
+  "verification": "PCG III.2, p. 113, fr. 178 (169 K.) (PDF du Drive, idx 141, image) ; Kock I, pp. 432–433, fr. 169 (Σ Luc. 222 Jacob ; archive.org comicorumatticor01kockuoft n461–462, image) ; texte aussi dans Σ Luc. 41.11 (Rabe, First1KGreek), qui note Addit B : Ἀριστοφάνης Γηρυτάδῃ",
   "signale_par": "recherche directe (Ἀγάθων chez les comiques)",
   "pertinence": 3,
-  "remarque": "Scholie de Lucien ; suite : ἐμιμεῖτο δὲ τὴν κομψότητα τῆς λέξεως Γοργίου (cf. κομψόν, v. 93). Numéro K.-A. à contrôler."
+  "remarque": "Scholie de Lucien ; suite : ἐμιμεῖτο δὲ τὴν κομψότητα τῆς λέξεως Γοργίου (cf. κομψόν, v. 93). = fr. 169 Kock."
  },
  {
   "v": "88",
@@ -4497,29 +4595,29 @@
   "v": "88",
   "lemme": "τραγῳδοδιδάσκαλον",
   "categorie": "aristophane",
-  "ref": "Ar. fr. 334 Kock",
+  "ref": "Ar. fr. 348 K.-A.",
   "urn": "ia:comicorumatticor01kockuoft#n509",
   "citation": "μήτε Μούσας ἀνακαλεῖν ἑλικοβοστρύχους / μήτε Χάριτας βοᾶν εἰς χορὸν Ὀλυμπίας· / ἐνθάδε γάρ εἰσιν, ὥς φησιν ὁ διδάσκαλος",
   "traduction": "ni invoquer les Muses aux boucles en spirale, ni appeler à grands cris les Charites olympiennes au chœur : elles sont ici, à ce que dit le maître",
   "verifie": "scan",
-  "verification": "Kock I p. 480, fr. 334 (archive.org comicorumatticor01kockuoft n509, image) ; Heph. Ench. 13.3 (First1KGreek : chercher.py '\"ως φησιν ο διδασκαλος\"')",
+  "verification": "PCG III.2, p. 198, fr. 348 (334 K.) (PDF du Drive, idx 226, image) ; Kock I p. 480, fr. 334 (archive.org comicorumatticor01kockuoft n509, image) ; Heph. Ench. 13.3 (First1KGreek : chercher.py '\"ως φησιν ο διδασκαλος\"')",
   "signale_par": "Austin–Olson 2004, ad 88–9 (« fr. 348. 3 (from Th. II) »)",
   "pertinence": 2,
-  "remarque": "Secondes Thesmophories (Héphestion). Le διδάσκαλος est le poète ; Muses et Charites, cf. le chant d'Agathon (vv. 107, 112, 122). = fr. 348 K.-A. selon A–O (numéro K.-A. non contrôlé)."
+  "remarque": "Secondes Thesmophories (Héphestion). Le διδάσκαλος est le poète ; Muses et Charites, cf. le chant d'Agathon (vv. 107, 112, 122). = fr. 334 Kock."
  },
  {
   "v": "88",
   "lemme": "τραγῳδοδιδάσκαλον",
   "categorie": "comiques",
-  "ref": "Cratin. fr. 256 Kock",
+  "ref": "Cratin. fr. 276 K.-A.",
   "urn": "ia:comicorumatticor01kockuoft#n119",
   "citation": "ἴτω δὲ καὶ τραγῳδίας / ὁ Κλεομάχου διδάσκαλος, / παρατιλτριῶν ἔχων χορὸν / λυδιστὶ τιλλουσῶν μέλη / πονηρά",
   "traduction": "qu'il vienne aussi, le maître de tragédie fils de Cléomachos, avec son chœur d'épileuses épilant à la lydienne de méchants « membres » (ou : chants)",
   "verifie": "scan",
-  "verification": "Kock I p. 90, fr. 256 (archive.org comicorumatticor01kockuoft n119, image) ; Ath. 14.638f (Perseus : chercher.py 'Κλεομαχου διδασκαλος' ; texte de Kaibel : μετ᾽ αὐτόν, ὁ παρατιλτριῶν)",
+  "verification": "PCG IV, p. 261, fr. 276 (256 K.) (PDF du Drive, idx 292, image) ; Kock I p. 90, fr. 256 (archive.org comicorumatticor01kockuoft n119, image) ; Ath. 14.638f (Perseus : chercher.py 'Κλεομαχου διδασκαλος' ; texte de Kaibel : μετ᾽ αὐτόν, ὁ παρατιλτριῶν)",
   "signale_par": "Austin–Olson 2004, ad 88–9 (« Cratin. fr. 276. 1–2 »)",
   "pertinence": 3,
-  "remarque": "Horai, contre Gnésippe. Kock : « Gnesippi choreutarumque eius mollitiem exagitat in ambiguo ludens » (τίλλειν μέλη : épiler les membres / déchiqueter les chants ; λυδιστί). Le poète tragique efféminé, comme Agathon. = fr. 276 K.-A. selon A–O (numéro K.-A. non contrôlé). Cf. Cratin. Boukoloi (même page d'Athénée) sur le chœur refusé à Sophocle et accordé au fils de Cléomachos."
+  "remarque": "Horai, contre Gnésippe. Kock : « Gnesippi choreutarumque eius mollitiem exagitat in ambiguo ludens » (τίλλειν μέλη : épiler les membres / déchiqueter les chants ; λυδιστί). Le poète tragique efféminé, comme Agathon. Cf. Cratin. Boukoloi (même page d'Athénée) sur le chœur refusé à Sophocle et accordé au fils de Cléomachos. = fr. 256 Kock."
  },
  {
   "v": "88",
@@ -5463,15 +5561,15 @@
   "v": "90",
   "lemme": "ἐν ταῖς γυναιξί",
   "categorie": "aristophane",
-  "ref": "Ar. fr. 153 Kock",
+  "ref": "Ar. fr. 161 K.-A.",
   "urn": "ia:comicorumatticor01kockuoft#n458",
   "citation": "ἐν τοῖσι συνδείπνοις ἐπαινῶν Αἰσχύλον",
   "traduction": "louant Eschyle dans les banquets (devant les convives)",
   "verifie": "scan",
-  "verification": "Kock I p. 429, fr. 153 (archive.org comicorumatticor01kockuoft n458, image) ; Ath. 8.365b (Perseus : chercher.py '\"εν τοισι συνδειπνοις\"') ; Hall–Geldart II, fr. 153 (OCR)",
+  "verification": "PCG III.2, p. 105, fr. 161 (153 K.) (PDF du Drive, idx 133, image) ; Kock I p. 429, fr. 153 (archive.org comicorumatticor01kockuoft n458, image) ; Ath. 8.365b (Perseus : chercher.py '\"εν τοισι συνδειπνοις\"') ; Hall–Geldart II, fr. 153 (OCR)",
   "signale_par": "commentaire de l'auteur (vv. 90–1 : « fr. 161 K.-A. ») ; Austin–Olson 2004, ad 90–1 (« fr. 161 »)",
   "pertinence": 2,
-  "remarque": "Gérytadès. Vraisemblablement le fr. 161 K.-A. que citent l'auteur et A–O pour cet emploi de ἐν (« devant, au milieu de ») : numéro K.-A. non contrôlé (PCG III.2 absent). Kock renvoie à Nub. 1365–1366 (chanter de l'Eschyle à table)."
+  "remarque": "Gérytadès. Le fr. 161 K.-A. que citent l'auteur et Austin–Olson pour cet emploi de ἐν (« devant, au milieu de ») ; Kassel–Austin doutent de l'interprétation d'Athénée (σύνδειπνον = συμπόσιον). Kock renvoie à Nub. 1365–1366 (chanter de l'Eschyle à table). = fr. 153 Kock."
  },
  {
   "v": "90",
@@ -6709,15 +6807,15 @@
   "v": "92",
   "lemme": "στολὴν γυναικὸς ἠμφιεσμένον",
   "categorie": "lexicographes",
-  "ref": "Phryn. PS p. 18.23 Bekker (Ar. fr. 666 Kock)",
+  "ref": "Phryn. PS p. 18.23 Bekker (Ar. fr. 869 K.-A.)",
   "urn": "ia:bub_gb_y5sQAAAAIAAJ#n25",
   "citation": "Αἱ τῶν γυναικῶν παγίδες: τοὺς κόσμους καὶ τὰς ἐσθῆτας, αἷς χρῶνται αἱ γυναῖκες καλλωπιζόμεναι, παγίδας εἶπεν Ἀριστοφάνης",
   "traduction": "« Les pièges des femmes : les parures et les vêtements dont usent les femmes pour s'embellir, Aristophane les a appelés pièges »",
   "verifie": "scan",
-  "verification": "Bekker, Anecd. I, p. 18, ll. 23–25 (archive.org bub_gb_y5sQAAAAIAAJ n25, image) ; Kock I, p. 556, fr. 666 (OCR) ; Meineke II.2, p. 1216 (OCR : Phrynichus Bekkeri p. 18, 23)",
+  "verification": "PCG III.2, p. 402, fr. 869 (666 K.) (PDF du Drive, idx 430, image) ; Bekker, Anecd. I, p. 18, ll. 23–25 (archive.org bub_gb_y5sQAAAAIAAJ n25, image) ; Kock I, p. 556, fr. 666 (OCR) ; Meineke II.2, p. 1216 (OCR : Phrynichus Bekkeri p. 18, 23)",
   "signale_par": "recherche directe (Bekker, Anecd. I, OCR propre)",
   "pertinence": 3,
-  "remarque": "Numéro K.-A. non contrôlé."
+  "remarque": "= fr. 666 Kock."
  },
  {
   "v": "92",
@@ -7157,43 +7255,43 @@
   "v": "93",
   "lemme": "κομψόν",
   "categorie": "aristophane",
-  "ref": "Ar. fr. 699 Kock",
+  "ref": "Ar. fr. 719 K.-A.",
   "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:1.A.2874",
   "citation": "ῥήματά τε κομψὰ καὶ παίγνι᾽ ἐπιδεικνύναι / πάντ᾽ ἀπ᾽ ἀκροφυσίων κἀπὸ καναβευμάτων",
   "traduction": "faire étalage de mots raffinés et de bagatelles, tout frais sortis du soufflet de forge et du moule",
   "verifie": "scan",
-  "verification": "Kock I p. 562, fr. 699 (archive.org comicorumatticor01kockuoft n591, image) ; Sud. α 2874 (First1KGreek, Adler)",
+  "verification": "PCG III.2, p. 367, fr. 719 (699 K.) (PDF du Drive, idx 395, image) ; Kock I p. 562, fr. 699 (archive.org comicorumatticor01kockuoft n591, image) ; Sud. α 2874 (First1KGreek, Adler)",
   "signale_par": "Austin–Olson 2004, ad 93 (« fr. 719. 1 »)",
   "pertinence": 2,
-  "remarque": "= fr. 719 K.-A. selon Austin–Olson (numéro non contrôlé sur les PCG). Le langage « raffiné » et neuf de la mode littéraire. Kock rapproche Hsch. κ 2709 κιναβεύματα· πανουργεύματα (texte de Latte vérifié)."
+  "remarque": "Le langage « raffiné » et neuf de la mode littéraire. Kock rapproche Hsch. κ 2709 κιναβεύματα· πανουργεύματα (texte de Latte vérifié). Citation donnée d'après Kassel–Austin (texte de Kock : ῥήματά τε κομψὰ καὶ παίγνι᾽ ἐπιδεικνύναι / πάντ᾽ ἀπ᾽ ἀκροφυσίων κἀπὸ καναβευμάτων). = fr. 699 Kock."
  },
  {
   "v": "93",
   "lemme": "σφόδρ᾽ ἐκ τοῦ σοῦ τρόπου (le style d'Euripide)",
   "categorie": "aristophane",
-  "ref": "Ar. fr. 471 Kock",
+  "ref": "Ar. fr. 488 K.-A.",
   "urn": "ia:comicorumatticor01kockuoft#n542",
   "citation": "χρῶμαι γὰρ αὐτοῦ τοῦ στόματος τῷ στρογγύλῳ, / τοὺς νοῦς δ᾽ ἀγοραίους ἧττον ἢ ᾽κεῖνος ποιῶ",
   "traduction": "je me sers de sa langue bien tournée, mais je fais les pensées moins vulgaires que lui",
   "verifie": "scan",
-  "verification": "Kock I p. 513, fr. 471 (archive.org comicorumatticor01kockuoft n542, image), d'après Σ Pl. Ap. 19c (Bekker p. 330) ; Plut. Mor. 30d (Perseus, chercher.py 'στρογγυλω' -a Plut)",
+  "verification": "PCG III.2, p. 258, fr. 488 (471 K.) (PDF du Drive, idx 286, image) ; Kock I p. 513, fr. 471 (archive.org comicorumatticor01kockuoft n542, image), d'après Σ Pl. Ap. 19c (Bekker p. 330) ; Plut. Mor. 30d (Perseus, chercher.py 'στρογγυλω' -a Plut)",
   "signale_par": "recherche directe (κομψ- chez Kock : Cratin. fr. 307 Kock et sa source)",
   "pertinence": 1,
-  "remarque": "Σκηνὰς καταλαμβάνουσαι : Aristophane avoue imiter le style « arrondi » d'Euripide, qu'il raille (ἐκωμῳδεῖτο ἐπὶ τῷ σκώπτειν μὲν Εὐριπίδην, μιμεῖσθαι δ᾽ αὐτόν, Σ Pl.). Cf. Hsch. κ 3481 κομψά· τὰ στρογγύλα. Numéro K.-A. non contrôlé."
+  "remarque": "Σκηνὰς καταλαμβάνουσαι : Aristophane avoue imiter le style « arrondi » d'Euripide, qu'il raille (ἐκωμῳδεῖτο ἐπὶ τῷ σκώπτειν μὲν Εὐριπίδην, μιμεῖσθαι δ᾽ αὐτόν, Σ Pl.). Cf. Hsch. κ 3481 κομψά· τὰ στρογγύλα. = fr. 471 Kock."
  },
  {
   "v": "93",
   "lemme": "ἐκ τοῦ σοῦ τρόπου",
   "categorie": "comiques",
-  "ref": "Eup. fr. 103 Kock",
+  "ref": "Eup. fr. 112 K.-A.",
   "urn": "ia:comicorumatticor01kockuoft#n314",
-  "citation": "Ἱπποκράτους τε παῖδες ἐμβόλιμοί τινες, / βληχητὰ τέκνα κοὐδαμῶς τοῦ τρόπου",
+  "citation": "εἰς Ἱπποκράτους τε παῖδες ἐκβόλιμοί τινες, / βληχητὰ τέκνα καὶ οὐδαμῶς τοῦ ⟨–⟩ τρόπου",
   "traduction": "« les fils d'Hippocrate, des avortons, des enfants bêlants, et nullement de la manière… »",
   "verifie": "scan",
-  "verification": "Kock I, p. 285, fr. 103 (archive.org comicorumatticor01kockuoft n314, image) ; Meineke II.1 pp. 476–477 ; Σ Ar. Nub. 1001",
+  "verification": "PCG V, p. 361, fr. 112 (103 K.) (PDF du Drive, idx 393, image) ; Kock I, p. 285, fr. 103 (archive.org comicorumatticor01kockuoft n314, image) ; Meineke II.1 pp. 476–477 ; Σ Ar. Nub. 1001",
   "signale_par": "Blaydes 1880, p. 140 ; van Leeuwen 1904, p. 19 (n. 5)",
   "pertinence": 2,
-  "remarque": "Dèmes. Kock, apparat : τοὐμοῦ Toup, τοῦ σοῦ τρόπου Fritzsche (d'après Thesm. 93, Vesp. 1002). Numéro K.-A. non contrôlé."
+  "remarque": "Dèmes. Kock, apparat : τοὐμοῦ Toup, τοῦ σοῦ τρόπου Fritzsche (d'après Thesm. 93, Vesp. 1002). Citation donnée d'après Kassel–Austin (texte de Kock : Ἱπποκράτους τε παῖδες ἐμβόλιμοί τινες, / βληχητὰ τέκνα κοὐδαμῶς τοῦ τρόπου). = fr. 103 Kock."
  },
  {
   "v": "93",
@@ -7213,15 +7311,15 @@
   "v": "93",
   "lemme": "κομψόν",
   "categorie": "comiques",
-  "ref": "Cratin. fr. 307 Kock",
+  "ref": "Cratin. fr. 342 K.-A.",
   "urn": "ia:comicorumatticor01kockuoft#n131",
-  "citation": "τίς δὲ σύ; κομψός τις ἔροιτο θεατής. / ὑπολεπτολόγος, γνωμοδιώκτης, εὐριπιδαριστοφανίζων",
+  "citation": "τίς δὲ σύ; κομψός τις ἔροιτο θεατής. / ὑπολεπτολόγος, γνωμιδιώκτης, εὐριπιδαριστοφανίζων",
   "traduction": "« Et toi, qui es-tu ? » demanderait quelque spectateur raffiné. — « Un ergoteur subtil, un chasseur de sentences, un euripidaristophaniseur »",
   "verifie": "scan",
-  "verification": "Kock I p. 102, fr. 307 (archive.org comicorumatticor01kockuoft n131, image), d'après Σ Pl. Ap. 19c (Bekker p. 330)",
+  "verification": "PCG IV, p. 288, fr. 342 (307 K.) (PDF du Drive, idx 319, image) ; Kock I p. 102, fr. 307 (archive.org comicorumatticor01kockuoft n131, image), d'après Σ Pl. Ap. 19c (Bekker p. 330)",
   "signale_par": "recherche directe (κομψ* chez Kock)",
   "pertinence": 2,
-  "remarque": "Le « raffiné » κομψός est le mot du goût euripidien, qu'Aristophane partagerait avec Euripide selon Cratinus. Kock imprime γνωμοδιώκτης (Schneider) pour γνωμιδιώκτης. Numéro K.-A. non contrôlé."
+  "remarque": "Le « raffiné » κομψός est le mot du goût euripidien, qu'Aristophane partagerait avec Euripide selon Cratinus. Kock imprime γνωμοδιώκτης (Schneider) pour γνωμιδιώκτης. Citation donnée d'après Kassel–Austin (texte de Kock : τίς δὲ σύ; κομψός τις ἔροιτο θεατής. / ὑπολεπτολόγος, γνωμοδιώκτης, εὐριπιδαριστοφανίζων). = fr. 307 Kock."
  },
  {
   "v": "93",
@@ -7241,43 +7339,43 @@
   "v": "93",
   "lemme": "κομψόν",
   "categorie": "comiques",
-  "ref": "Cratin. fr. 169.3 Kock",
+  "ref": "Cratin. fr. 182.3 K.-A.",
   "urn": "ia:comicorumatticor01kockuoft#n94",
   "citation": "οἱ δ᾽ αὖθ᾽ ἡμεῖς, ὡς ὁ παλαιὸς / λόγος, αὐτομάτους ἀγαθοὺς ἰέναι / κομψῶν ἐπὶ δαῖτα θεατῶν",
   "traduction": "et vous, selon le vieux dicton, (il faut que) les bons aillent d'eux-mêmes au festin de spectateurs raffinés",
   "verifie": "scan",
-  "verification": "Kock I p. 65, Πυλαία fr. 169 (archive.org comicorumatticor01kockuoft n94, image), d'après Σ Pl. Bekker p. 373",
+  "verification": "PCG IV, p. 214, fr. 182 (169 K.) (PDF du Drive, idx 245, image) ; Kock I p. 65, Πυλαία fr. 169 (archive.org comicorumatticor01kockuoft n94, image), d'après Σ Pl. Bekker p. 373",
   "signale_par": "Austin–Olson 2004, ad 93 (« Cratin. fr. 182. 3 »)",
   "pertinence": 1,
-  "remarque": "= fr. 182 K.-A. selon Austin–Olson (non contrôlé). Le proverbe des « bons » qui vont d'eux-mêmes au festin (Zen. 2.19, voir v. 88) appliqué au public « raffiné » ; Kock renvoie à Nub. 649 et Av. 195 pour κομψός."
+  "remarque": "Le proverbe des « bons » qui vont d'eux-mêmes au festin (Zen. 2.19, voir v. 88) appliqué au public « raffiné » ; Kock renvoie à Nub. 649 et Av. 195 pour κομψός. = fr. 169 Kock."
  },
  {
   "v": "93",
   "lemme": "κομψόν",
   "categorie": "comiques",
-  "ref": "Eup. fr. 159.2 Kock",
+  "ref": "Eup. fr. 172.2 K.-A.",
   "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:6.30",
   "citation": "ἀλλ᾽ ἀκούσαθ᾽ ὡς ἐσμὲν ἅπαντα κομψοὶ / ἄνδρες",
   "traduction": "écoutez comme nous sommes, en tout, des hommes raffinés",
   "verifie": "scan",
-  "verification": "Kock I p. 301, Κόλακες fr. 159 (archive.org comicorumatticor01kockuoft n330, image) ; Ath. 6.236e (Perseus)",
+  "verification": "PCG V, p. 390, fr. 172 (159 K.) (PDF du Drive, idx 422, image) ; Kock I p. 301, Κόλακες fr. 159 (archive.org comicorumatticor01kockuoft n330, image) ; Ath. 6.236e (Perseus)",
   "signale_par": "Austin–Olson 2004, ad 93 (« Eup. fr. 172. 2 »)",
   "pertinence": 1,
-  "remarque": "= fr. 172 K.-A. selon Austin–Olson (non contrôlé). Le chœur des Flatteurs se dit κομψός : l'élégance de ceux qui vivent d'expédients."
+  "remarque": "Le chœur des Flatteurs se dit κομψός : l'élégance de ceux qui vivent d'expédients. = fr. 159 Kock."
  },
  {
   "v": "93",
   "lemme": "κομψόν (… τεχνάζειν)",
   "categorie": "comiques",
-  "ref": "Dionys. Com. fr. 3.1–4 Kock",
+  "ref": "Dionys. Com. fr. 3.1–4 K.-A.",
   "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:9.27",
   "citation": "ἄγε δὴ Δρόμων, νῦν εἴ τι κομψὸν ἢ σοφὸν / ἢ γλαφυρὸν οἶσθα τῶν σεαυτοῦ πραγμάτων, / φανερὸν ποίησον τοῦτο τῷ διδασκάλῳ. / νῦν τὴν ἀπόδειξιν τῆς τέχνης αἰτῶ σ᾽ ἐγώ",
   "traduction": "allons, Dromon, si tu sais quelque chose d'ingénieux, d'habile ou de fin dans ton métier, montre-le à ton maître : c'est maintenant que je te demande la preuve de ton art",
   "verifie": "scan",
-  "verification": "Kock II p. 425, Ὁμώνυμοι fr. 3 (archive.org comicorumatticor02kockuoft n430, image) ; Ath. 9.381d (Perseus)",
+  "verification": "PCG V, p. 36, fr. 3 (3 K.) (PDF du Drive, idx 68, image) ; Kock II p. 425, Ὁμώνυμοι fr. 3 (archive.org comicorumatticor02kockuoft n430, image) ; Ath. 9.381d (Perseus)",
   "signale_par": "recherche directe (κομψ* chez Kock)",
   "pertinence": 1,
-  "remarque": "Un cuisinier à son apprenti : κομψόν joint à τέχνη (cf. v. 94 τεχνάζειν) ; l'« art » en question est celui de chaparder la viande (vv. 5 sqq.)."
+  "remarque": "Un cuisinier à son apprenti : κομψόν joint à τέχνη (cf. v. 94 τεχνάζειν) ; l'« art » en question est celui de chaparder la viande (vv. 5 sqq.). = fr. 3 Kock."
  },
  {
   "v": "93",
@@ -8095,15 +8193,15 @@
   "v": "94",
   "lemme": "τεχνάζειν",
   "categorie": "aristophane",
-  "ref": "Ar. fr. 697 Kock",
+  "ref": "Ar. fr. 717 K.-A.",
   "urn": "ia:comicorumatticor01kockuoft#n591",
-  "citation": "τί γὰρ ἐπὶ κακότροπον ἐμόλετον βίον / ἀδικομηχάνῳ τέχνῃ;",
+  "citation": "τί γὰρ ἐπὶ κακότροπον ἔμολε τότε βίον / ἀδικομηχάνῳ τέχνῃ;",
   "traduction": "pourquoi donc êtes-vous venus à une vie de mauvaises mœurs, par un art aux machinations injustes ?",
   "verifie": "scan",
-  "verification": "Kock I p. 562, fr. 697 (archive.org comicorumatticor01kockuoft n591, image) ; Synag. Σb α 357 (Cunningham, p. 551 : « Ἀριστοφάνης (fr. 717) »)",
+  "verification": "PCG III.2, p. 366, fr. 717 (697 K.) (PDF du Drive, idx 394, image) ; Kock I p. 562, fr. 697 (archive.org comicorumatticor01kockuoft n591, image) ; Synag. Σb α 357 (Cunningham, p. 551 : « Ἀριστοφάνης (fr. 717) »)",
   "signale_par": "recherche directe (Kock, p. 562, en vérifiant fr. 699)",
   "pertinence": 1,
-  "remarque": "= fr. 717 K.-A. d'après l'édition de la Synagoge de Cunningham, qui lit ἐμόλετο ; ἐμόλετον est la correction de Bekker (ἐμόλετε codd.). Dochmiaques paratragiques : la τέχνη « aux machinations injustes » (cf. v. 87 μηχανήν)."
+  "remarque": "Kassel–Austin impriment ἔμολε τότε (Nauck ; ἐμόλετο cod., que garde Cunningham dans la Synagoge ; ἐμόλετον Bekker). Dochmiaques paratragiques : la τέχνη « aux machinations injustes » (cf. v. 87 μηχανήν). Citation donnée d'après Kassel–Austin (texte de Kock : τί γὰρ ἐπὶ κακότροπον ἐμόλετον βίον / ἀδικομηχάνῳ τέχνῃ;). = fr. 697 Kock."
  },
  {
   "v": "94",
@@ -8123,15 +8221,15 @@
   "v": "94",
   "lemme": "πυραμοῦς",
   "categorie": "comiques",
-  "ref": "Ephipp. fr. 8.3 Kock",
+  "ref": "Ephipp. fr. 8.3 K.-A.",
   "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:14.50",
   "citation": "ἴτρια, τραγήμαθ' ἧκε, πυραμοῦς, ἄμης",
   "traduction": "« vinrent des gâteaux au sésame, des friandises, un pyramous, un flan »",
-  "verifie": "corpus",
-  "verification": "Ath. 14.642e–f (14.50, Perseus) ; Kock II p. 254 (fr. 8, OCR)",
+  "verifie": "scan",
+  "verification": "PCG V, p. 138, fr. 8 (8 K.) (PDF du Drive, idx 170, image) ; Ath. 14.642e–f (14.50, Perseus) ; Kock II p. 254 (fr. 8, OCR)",
   "signale_par": "recherche directe (πυραμ-)",
   "pertinence": 2,
-  "remarque": "Ἔφηβοι. Numéro K.-A. non contrôlé. Cf. Ephipp. Κύδων (Ath. 14.643a) πυραμίδες."
+  "remarque": "Ἔφηβοι. Cf. Ephipp. Κύδων (Ath. 14.643a) πυραμίδες. = fr. 8 Kock."
  },
  {
   "v": "94",
@@ -8165,15 +8263,15 @@
   "v": "94",
   "lemme": "πυραμοῦς",
   "categorie": "comiques",
-  "ref": "Ephipp. fr. 13.4–5 Kock",
+  "ref": "Ephipp. fr. 13.3–5 K.-A.",
   "urn": "ia:comicorumatticor02kockuoft#n261",
-  "citation": "μέλι, σησαμίδες, βράχος, βρυγμός, / μνοῦς, πυραμίδες, μῆλον, κάρυον",
+  "citation": "μέλι, σησαμίδες, / †βράχος, βρυγμός†, μνοῦς, πυραμίδες, / μῆλον, κάρυον",
   "traduction": "du miel, des gâteaux au sésame, … des pyramides, une pomme, une noix",
   "verifie": "scan",
-  "verification": "Kock II pp. 256–257, Κύδων fr. 13 (archive.org comicorumatticor02kockuoft n261–262, image) ; Ath. 14.642e (Perseus, texte différent : βάτραχος, βότρυες, ῥοῦς)",
+  "verification": "PCG V, p. 141, fr. 13 (13 K.) (PDF du Drive, idx 173, image) ; Kock II pp. 256–257, Κύδων fr. 13 (archive.org comicorumatticor02kockuoft n261–262, image) ; Ath. 14.642e (Perseus, texte différent : βάτραχος, βότρυες, ῥοῦς)",
   "signale_par": "Austin–Olson 2004, ad 94 (« Ephipp. fr. 13. 4 »)",
   "pertinence": 1,
-  "remarque": "Les secondes tables ; Kock : « πυραμίς ut πυραμοῦς placentae genus ». La πυραμίς est identifiée au πυραμοῦς par Iatroclès (Ath. 14.647b–c, déjà relevé). Lignes du fragment comptées différemment par Kassel–Austin (13.4 selon Austin–Olson)."
+  "remarque": "Les secondes tables (Κύδων) ; Kock : « πυραμίς ut πυραμοῦς placentae genus ». La πυραμίς est identifiée au πυραμοῦς par Iatroclès (Ath. 14.647b–c, déjà relevé). Kock compte les vers autrement (fr. 13.4–5 Kock). = fr. 13 Kock."
  },
  {
   "v": "94",
@@ -11019,31 +11117,115 @@
  },
  {
   "v": "98",
+  "lemme": "Κυρήνην δ᾽ ὁρῶ (Agathon sur son lit)",
+  "categorie": "aristophane",
+  "ref": "Ar. Thesm. 261",
+  "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2:261",
+  "citation": "φέρ᾽ ἔγκυκλον· — τουτὶ λάβ᾽ ἀπὸ τῆς κλινίδος.",
+  "traduction": "Apporte une robe. — Prends celle-ci, sur la couchette.",
+  "verifie": "corpus",
+  "verification": "passage.py Thesm. 258–263 (Perseus ; numérotation usuelle = Hall–Geldart)",
+  "signale_par": "Austin–Olson 2004, ad 95 (« He is reclining on a couch (261 with n.) »)",
+  "pertinence": 2,
+  "remarque": "Agathon est sorti sur l'eccyclème avec sa couche (κλινίς) : appui pour la lecture de l'auteur (Agathon « affalé sur son lit dans une position suggestive »)."
+ },
+ {
+  "v": "98",
+  "lemme": "Κυρήνην δ᾽ ὁρῶ",
+  "categorie": "aristophane",
+  "ref": "Ar. Thesm. 35",
+  "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2:35",
+  "citation": "καὶ μὴν βεβίνηκας σύ γ᾽, ἀλλ᾽ οὐκ οἶσθ᾽ ἴσως.",
+  "traduction": "Et pourtant tu as couché avec lui, mais tu ne le sais peut-être pas.",
+  "verifie": "corpus",
+  "verification": "passage.py Thesm. 33–35 (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 97–98 (« his body too is available for any purpose to the highest bidder (cf. 35 with n.) »)",
+  "pertinence": 2,
+  "remarque": "La comparaison avec une courtisane prolonge la plaisanterie du prologue ; cf. v. 50 (μῶν βινεῖσθαι;), cité par l'auteur au v. 98."
+ },
+ {
+  "v": "98",
+  "lemme": "Κυρήνην δ᾽ ὁρῶ (parure de séductrice)",
+  "categorie": "aristophane",
+  "ref": "Ar. Nub. 51–52",
+  "urn": "urn:cts:greekLit:tlg0019.tlg003.perseus-grc2:51",
+  "citation": "ἡ δ᾽ αὖ μύρου κρόκου καταγλωττισμάτων, / δαπάνης λαφυγμοῦ Κωλιάδος Γενετυλλίδος.",
+  "traduction": "elle, au contraire, (sentait) le parfum, le safran, les baisers profonds, la dépense, la goinfrerie, Côlias, Génétyllis.",
+  "verifie": "corpus",
+  "verification": "passage.py Nub. 51–52 (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 97–98 (« cf. Nu. 51-2 ; Lys. 42-53, 149-52 »)",
+  "pertinence": 2,
+  "remarque": "La femme parée pour séduire : parfum et safran (cf. le κροκωτός d'Agathon, Thesm. 138, 253)."
+ },
+ {
+  "v": "98",
+  "lemme": "Κυρήνην δ᾽ ὁρῶ (parure de séductrice)",
+  "categorie": "aristophane",
+  "ref": "Ar. Lys. 42–48",
+  "urn": "urn:cts:greekLit:tlg0019.tlg007.perseus-grc2:42",
+  "citation": "αἳ καθήμεθ᾽ ἐξηνθισμέναι, / κροκωτοφοροῦσαι καὶ κεκαλλωπισμέναι … / τὰ κροκωτίδια καὶ τὰ μύρα χαἰ περιβαρίδες / χἤγχουσα καὶ τὰ διαφανῆ χιτώνια",
+  "traduction": "nous qui restons assises, fardées, vêtues de safran, embellies… les petites robes safran, les parfums, les mules, l'orcanette et les tuniques transparentes",
+  "verifie": "corpus",
+  "verification": "passage.py Lys. 42–53 (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 97–98",
+  "pertinence": 2,
+  "remarque": "L'attirail de la séduction féminine, celui qu'arbore Agathon."
+ },
+ {
+  "v": "98",
+  "lemme": "Κυρήνην δ᾽ ὁρῶ (parure de séductrice)",
+  "categorie": "aristophane",
+  "ref": "Ar. Lys. 149–151",
+  "urn": "urn:cts:greekLit:tlg0019.tlg007.perseus-grc2:149",
+  "citation": "εἰ γὰρ καθοίμεθ᾽ ἔνδον ἐντετριμμέναι, / κἀν τοῖς χιτωνίοισι τοῖς Ἀμοργίνοις / γυμναὶ παρίοιμεν δέλτα παρατετιλμέναι",
+  "traduction": "si nous restions à la maison, fardées, et que nous passions, nues sous nos tuniques d'Amorgos, le delta épilé",
+  "verifie": "corpus",
+  "verification": "passage.py Lys. 149–152 (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 97–98",
+  "pertinence": 2,
+  "remarque": "Même tableau ; cf. Agathon rasé (Thesm. 191 λευκὸς ἐξυρημένος ; 218 ξυροφορεῖς ἑκάστοτε)."
+ },
+ {
+  "v": "98",
+  "lemme": "Κυρήνην (la lyre de la courtisane)",
+  "categorie": "aristophane",
+  "ref": "Ar. Thesm. 1217–1218",
+  "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2:1217",
+  "citation": "τὴν γραῦν ἐρωτᾷς, ἣ ᾽φερεν τὰς πηκτίδας;",
+  "traduction": "Tu demandes la vieille qui portait les harpes ?",
+  "verifie": "corpus",
+  "verification": "passage.py Thesm. 1215–1219 (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 97–98 (« For Agathon's lyre (137-8 with n.) as part of the iconography of the Athenian courtesan, 1217-19 n. »)",
+  "pertinence": 1,
+  "remarque": "La harpe accompagne la danseuse qu'Euripide déguisé amène à l'Archer : instrument de courtisane, comme la lyre d'Agathon (Thesm. 137–138)."
+ },
+ {
+  "v": "98",
   "lemme": "δωδεκαμήχανος",
   "categorie": "comiques",
-  "ref": "Pl. Com. fr. 134 Kock",
+  "ref": "Pl. Com. fr. 143 K.-A.",
   "urn": "ia:comicorumatticor01kockuoft#n665",
   "citation": "Ξενοκλῆς ὁ δωδεκαμήχανος, / ὁ Καρκίνου παῖς τοῦ θαλαττίου",
   "traduction": "« Xénoclès aux douze machines, le fils de Carcinos le marin »",
   "verifie": "scan",
-  "verification": "Kock I, p. 635, fr. 134, Σ Ar. Pax 792 (archive.org comicorumatticor01kockuoft n665, image) ; aussi Meineke II.2 p. 660 (fr. I des Σοφισταί)",
+  "verification": "PCG VII, p. 492, fr. 143 (134 K.) (PDF du Drive, idx 526, image) ; Kock I, p. 635, fr. 134, Σ Ar. Pax 792 (archive.org comicorumatticor01kockuoft n665, image) ; aussi Meineke II.2 p. 660 (fr. I des Σοφισταί)",
   "signale_par": "recherche directe (δωδεκαμηχαν-)",
   "pertinence": 3,
-  "remarque": "Σοφισταί. Kock : même surnom que Cyrène, appliqué à un poète tragique amateur de μηχαναί ; lie les vv. 87 et 98. Numéro K.-A. non contrôlé."
+  "remarque": "Σοφισταί. Kock : même surnom que Cyrène, appliqué à un poète tragique amateur de μηχαναί ; lie les vv. 87 et 98. = fr. 134 Kock."
  },
  {
   "v": "98",
   "lemme": "ἄνδρ' οὐδέν'",
   "categorie": "comiques",
-  "ref": "Diocl. Com. Βάκχαι (Antiatt. p. 87.2 Bekker)",
+  "ref": "Diocl. fr. 4 K.-A.",
   "urn": "ia:bub_gb_y5sQAAAAIAAJ#n94",
   "citation": "Γυναικισμός: Διοκλῆς Βάκχαις γυναικίζειν φησὶ καὶ γυναικηρόν",
   "traduction": "« Γυναικισμός : Dioclès, dans les Bacchantes, dit γυναικίζειν et γυναικηρόν »",
   "verifie": "scan",
-  "verification": "Bekker, Anecd. I, p. 87, ll. 2–3 (archive.org bub_gb_y5sQAAAAIAAJ n94, image)",
+  "verification": "PCG V, p. 19, fr. 4 (4 K.) (PDF du Drive, idx 51, image) ; Bekker, Anecd. I, p. 87, ll. 2–3 (archive.org bub_gb_y5sQAAAAIAAJ n94, image)",
   "signale_par": "recherche directe (Bekker, Anecd. I, OCR propre)",
   "pertinence": 2,
-  "remarque": "Comique contemporain d'Aristophane ; numéro K.-A. non contrôlé."
+  "remarque": "= fr. 4 Kock (Βάκχαι), d'après Antiatt. p. 87,2 ; Meineke corrige γυναικηρόν en γυναικισμόν. Comique contemporain d'Aristophane."
  },
  {
   "v": "98",
@@ -11183,7 +11365,7 @@
   "verification": "Dübner 1842, p. 265, col. 1, ll. 22–23 (archive.org scholiagraecain00unkngoog n343, image) ; Enger 1844, p. 23",
   "signale_par": "Blaydes 1880, p. 141 ; Fritzsche 1838, p. 28",
   "pertinence": 3,
-  "remarque": "πολλάκις : d'autres mentions perdues (Fritzsche). οἱ ἄλλοι : cf. Ar. fr. 178 K.-A. (Agathon dans le Gérytadès), Hsch. α 281."
+  "remarque": "πολλάκις : d'autres mentions perdues (Fritzsche). οἱ ἄλλοι : = com. adesp. fr. 854 K.-A. selon Austin–Olson 2004, ad 97–98 ; cf. Ar. fr. 178 K.-A. (Agathon dans le Gérytadès), Hsch. α 281."
  },
  {
   "v": "98",
@@ -11299,6 +11481,48 @@
  },
  {
   "v": "98",
+  "lemme": "ἄνδρ᾽ οὐδέν᾽ (Agathon, non-homme)",
+  "categorie": "lexicographes",
+  "ref": "Hsch. γ 1015",
+  "urn": "",
+  "citation": "γύννις· δειλός, ἄνανδρος, γυναικώδης· Ἀριστοφάνης (Thesm. 136). γύννιδας· μαλακούς",
+  "traduction": "gynnis : lâche, sans virilité, efféminé ; Aristophane. Gynnides : mous",
+  "verifie": "corpus",
+  "verification": "Latte I², p. 529 (texte décodé .sources/corpus/hesychius/gloses.jsonl.gz ; hsch.py 'ανανδρ|γυναικωδ|γυννι')",
+  "signale_par": "dépouillement d'Hésychius (ἄνανδρος, γυναικώδης)",
+  "pertinence": 2,
+  "remarque": "Le mot que Mnésiloque lance à Agathon (Thesm. 136) ; test. : EM 243, 8 ; Synag. γ 91."
+ },
+ {
+  "v": "98",
+  "lemme": "ἄνδρ᾽ οὐδέν᾽ (Agathon, non-homme)",
+  "categorie": "lexicographes",
+  "ref": "Hsch. θ 491",
+  "urn": "",
+  "citation": "θηλυδριῶδες· τὸ κατακεκλασμένον (Ar. Thesm. 131)",
+  "traduction": "efféminé : alangui, brisé",
+  "verifie": "corpus",
+  "verification": "Latte II, p. 406 (texte décodé ; hsch.py)",
+  "signale_par": "dépouillement d'Hésychius (θηλυδρι-)",
+  "pertinence": 1,
+  "remarque": "Glose du v. 131 (le chant d'Agathon) ; cf. Hsch. θ 490 θηλυδρίας· ὁ τεθηλυμμένος."
+ },
+ {
+  "v": "98",
+  "lemme": "ἄνδρ᾽ οὐδέν᾽ (Agathon, non-homme)",
+  "categorie": "lexicographes",
+  "ref": "Hsch. α 4745",
+  "urn": "",
+  "citation": "ἀνδρόγυνος· ὁ ἑρμαφρόδιτος (Hdt. 4, 67, 2). καὶ ὁ ἀσθενής ἤγουν ὁ ἀνίσχυρος (Prov. 18, 8)",
+  "traduction": "androgyne : l'hermaphrodite ; et le faible, c'est-à-dire sans force",
+  "verifie": "corpus",
+  "verification": "Latte I², p. 222 (texte décodé ; hsch.py)",
+  "signale_par": "dépouillement d'Hésychius (ἀνδρογυν-)",
+  "pertinence": 1,
+  "remarque": "cf. Hsch. α 7429 ἀρρενωπάδες· ἀνδρόγυνοι (Cratin. fr. 417 K.-A.)."
+ },
+ {
+  "v": "98",
   "lemme": "δωδεκαμήχανος",
   "categorie": "proverbes",
   "ref": "Apost. 6.41",
@@ -11324,6 +11548,20 @@
   "signale_par": "recherche thématique dans les parémiographes (First1KGreek)",
   "pertinence": 2,
   "remarque": "Cinésias, le dithyrambographe d'Ar. Av. 1377 : la mollesse de la musique nouvelle, comme Agathon (Hsch. α 281)."
+ },
+ {
+  "v": "98",
+  "lemme": "Κυρήνην (lubricité)",
+  "categorie": "proverbes",
+  "ref": "Hsch. μ 1953",
+  "urn": "",
+  "citation": "μῦς λευκός· ἐπὶ τῶν θηλυδριῶν . . . κατωφερῶν (Philem. fr. 65, 1 K.–A.)",
+  "traduction": "souris blanche : se dit des efféminés… portés au plaisir",
+  "verifie": "corpus",
+  "verification": "Latte II, p. 861 (texte décodé ; hsch.py) ; Diogen. 6.45 et Sud. μ 1475 (First1KGreek)",
+  "signale_par": "dépouillement d'Hésychius (θηλυδρι-)",
+  "pertinence": 1,
+  "remarque": "idem Diogen. 6.45 (Μῦς λευκός: ἐπὶ τῶν ἀσελγῶν καὶ ἀκρατῶν), Sud. μ 1475 ; Philémon chez Ael. NA 12.10. Seul Hésychius applique le proverbe aux θηλυδρίαι."
  },
  {
   "v": "99",
@@ -11425,6 +11663,34 @@
  },
  {
   "v": "99",
+  "lemme": "μελῳδεῖν (le prélude)",
+  "categorie": "aristophane",
+  "ref": "Ar. Av. 227–228",
+  "urn": "urn:cts:greekLit:tlg0019.tlg006.perseus-grc2:227",
+  "citation": "ἐποποῖ ποποποποποποποῖ, / ἰὼ ἰὼ ἰτὼ ἰτὼ ἰτὼ ἰτώ",
+  "traduction": "époποï popopopopopopoï, iô iô itô itô itô itô",
+  "verifie": "corpus",
+  "verification": "passage.py Av. 225–230 (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 99 (« cf. the Hoopoe's 'warm-up' at Av. 227-8 »)",
+  "pertinence": 2,
+  "remarque": "Vocalises de la Huppe, juste après οὕποψ μελῳδεῖν αὖ παρασκευάζεται (Av. 226, au même vers) : Agathon commence sans doute de même par quelques notes sans paroles (Austin–Olson), cf. la παρεπιγραφή μινυρισμός (Σ R 100)."
+ },
+ {
+  "v": "99",
+  "lemme": "παρασκευάζεται",
+  "categorie": "aristophane",
+  "ref": "Ar. Ran. 784",
+  "urn": "urn:cts:greekLit:tlg0019.tlg009.perseus-grc2:784",
+  "citation": "τί δῆθ᾽ ὁ Πλούτων δρᾶν παρασκευάζεται;",
+  "traduction": "Que s'apprête donc à faire Pluton ?",
+  "verifie": "corpus",
+  "verification": "passage.py Ran. 784 (Perseus) ; Ach. 1176",
+  "signale_par": "Austin–Olson 2004, ad 99 (« Always * in Ar. »)",
+  "pertinence": 1,
+  "remarque": "Toujours en fin de vers chez Aristophane : idem Pax 227, Av. 226, Ran. 848 (au même vers) ; cf. Ach. 1176 (κηρωτὴν παρασκευάζετε)."
+ },
+ {
+  "v": "99",
   "lemme": "μελῳδεῖν",
   "categorie": "tragiques",
   "ref": "Eur. fr. 188.1–3 N.²",
@@ -11435,7 +11701,7 @@
   "verification": "chercher.py 'μελωδ*' -a tlg0006 (Eur. fr. 188, TEI ; TGF² p. 415)",
   "signale_par": "recherche directe (μελῳδ-)",
   "pertinence": 3,
-  "remarque": "Antiope : Zéthos à Amphion, débat sur la musique ; même fragment que τὰ κομψὰ ταῦτα (v. 93)."
+  "remarque": "Antiope : Zéthos à Amphion, débat sur la musique ; même fragment que τὰ κομψὰ ταῦτα (v. 93). Réserve d'Austin–Olson (ad 99) : μελῳδῶν dans ce trimètre n'est qu'une conjecture de Nauck, dans un vers restitué qui n'est peut-être pas d'Euripide."
  },
  {
   "v": "99",
@@ -11495,6 +11761,62 @@
  },
  {
   "v": "99",
+  "lemme": "(μινυρισμός : indication scénique)",
+  "categorie": "tragiques",
+  "ref": "Aesch. Eum. 117",
+  "urn": "urn:cts:greekLit:tlg0085.tlg007.perseus-grc2:117",
+  "citation": "(μυγμός.)",
+  "traduction": "(gémissement)",
+  "verifie": "corpus",
+  "verification": "passage.py Eum. 116–130 (Perseus et First1KGreek)",
+  "signale_par": "Austin–Olson 2004, ad 99 (« For intrusive stage-directions … A. Eu. 117, etc. »)",
+  "pertinence": 2,
+  "remarque": "Indication scénique transmise dans le texte même, comme la παρεπιγραφή μινυρισμός que certains voulaient insérer entre les vv. 99 et 100 (Σ R 100) ; de même Eum. 120 (μυγμός), 123, 126 (ὠγμός), 129 (μυγμὸς διπλοῦς ὀξύς)."
+ },
+ {
+  "v": "99",
+  "lemme": "μελῳδεῖν",
+  "categorie": "tragiques",
+  "ref": "Eur. IT 1104–1105",
+  "urn": "urn:cts:greekLit:tlg0006.tlg013.perseus-grc2:1104",
+  "citation": "ἔνθα κύκνος μελῳ- / δὸς Μούσας θεραπεύει",
+  "traduction": "où le cygne mélodieux sert les Muses",
+  "verifie": "corpus",
+  "verification": "passage.py IT 1103–1106 (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 99 (avec Av. 226, première attestation de μελῳδ-)",
+  "pertinence": 1,
+  "remarque": "Chez Euripide, la famille de μελῳδεῖν n'apparaît que dans les parties lyriques (style relevé selon Austin–Olson)."
+ },
+ {
+  "v": "99",
+  "lemme": "παρασκευάζεται",
+  "categorie": "tragiques",
+  "ref": "Aesch. Ag. 353",
+  "urn": "urn:cts:greekLit:tlg0085.tlg005.perseus-grc2:353",
+  "citation": "θεοὺς προσειπεῖν εὖ παρασκευάζομαι.",
+  "traduction": "je m'apprête à bien saluer les dieux",
+  "verifie": "corpus",
+  "verification": "chercher.py 'παρασκευ*' -a Aesch ; passage.py Sept. 440, Ag. 1422, Cho. 1034 ; Eur. Cyc. 170, 214, Heracl. 691, HF 1241, 1369 (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 99 (« Primarily prosaic vocabulary, although first attested in Aeschylus … and found occasionally in Euripides »)",
+  "pertinence": 1,
+  "remarque": "Même construction avec l'infinitif. Autres emplois tragiques (participe parfait surtout) : Aesch. Sept. 440 (δρᾶν παρεσκευασμένος), Ag. 1422, Cho. 1034 ; Eur. Cyc. 170 (texte corrompu), 214, Heracl. 691 (δρᾶν παρεσκευασμένον), HF 1241, 1369 ; cf. Aesch. PV 920 (au même vers)."
+ },
+ {
+  "v": "99",
+  "lemme": "σίγα· μελῳδεῖν νῦν παρασκευάζεται",
+  "categorie": "tragiques",
+  "ref": "Soph. OC 111",
+  "urn": "urn:cts:greekLit:tlg0011.tlg007.perseus-grc2:111",
+  "citation": "σίγα. πορεύονται γὰρ οἵδε δή τινες",
+  "traduction": "Silence ! car voici que des gens s'avancent",
+  "verifie": "corpus",
+  "verification": "chercher.py (Perseus) ; même entrée au v. 95",
+  "signale_par": "Austin–Olson 2004, ad 99 (« For γάρ used after σίγα, cf. S. OC 111 »)",
+  "pertinence": 2,
+  "remarque": "Allégué par Austin–Olson pour la correction de Burges μελῳδεῖν γὰρ παρασκευάζεται (ἄν R, αὖ Scaliger d'après Av. 226 ; le texte établi lit νῦν)."
+ },
+ {
+  "v": "99",
   "lemme": "μελῳδεῖν",
   "categorie": "prose",
   "ref": "Pl. Leg. 790e",
@@ -11547,7 +11869,7 @@
   "verification": "Dübner 1842, p. 308, col. 1, ll. 42–44 (archive.org scholiagraecain00unkngoog n408, image ; sigles R. V.)",
   "signale_par": "recherche directe (παρεπιγραφ-)",
   "pertinence": 3,
-  "remarque": "Exactement le cas d'un intermède musical noté en marge, avec ἡσυχία préalable (cf. σίγα, v. 99). Scholie présente dans R."
+  "remarque": "Exactement le cas d'un intermède musical noté en marge, avec ἡσυχία préalable (cf. σίγα, v. 99). Scholie présente dans R. Idem Sud. δ 804 (Διαύλειον προσαυλεῖ τις: τοῦτο παρεπιγραφή …)."
  },
  {
   "v": "99",
@@ -11590,6 +11912,34 @@
   "signale_par": "Prato 2001, p. 166",
   "pertinence": 3,
   "remarque": "Le cas le plus proche selon Prato : la didascalie musicale, juste avant Av. 225–226 (οὕποψ μελῳδεῖν αὖ παρασκευάζεται)."
+ },
+ {
+  "v": "99",
+  "lemme": "(μινυρισμός : παρεπιγραφή)",
+  "categorie": "scholies",
+  "ref": "Σ Ar. Thesm. 277",
+  "urn": "ia:scholiagraecain00unkngoog#n344",
+  "citation": "παρεπιγραφή. ἐκκυκλεῖται ἐπὶ τὸ ἔξω τὸ θεσμοφόριον",
+  "traduction": "indication scénique : le Thesmophorion est roulé vers l'extérieur",
+  "verifie": "scan",
+  "verification": "Dübner 1842, p. 266, col. 2, ll. 10–11 (archive.org scholiagraecain00unkngoog n344, image)",
+  "signale_par": "Austin–Olson 2004, ad 99 (« 275-6 n. »)",
+  "pertinence": 2,
+  "remarque": "Autre παρεπιγραφή signalée par les scholies de la même pièce (cf. Σ 100 : ὡς πολλὰ τοιαῦτα παρεπιγράφεται) ; même scholie au v. 96."
+ },
+ {
+  "v": "99",
+  "lemme": "(μινυρισμός : παρεπιγραφή)",
+  "categorie": "scholies",
+  "ref": "Σ Eur. Or. 1384",
+  "urn": "urn:cts:greekLit:tlg5023.tlg001.1st1K-grc1:sch_Or.1384.1",
+  "citation": "τινὲς τοῦτο παρεπιγραφὴν εἶναι ὡς εἰς τὰ κωμικὰ δράματα",
+  "traduction": "certains disent que c'est une indication scénique, comme dans les comédies",
+  "verifie": "corpus",
+  "verification": "chercher.py 'παρεπιγραφὴν εἶναι' -a 'Σ Eur' (Schwartz 1887 et Dindorf 1863, First1KGreek)",
+  "signale_par": "recherche directe (παρεπιγραφ-)",
+  "pertinence": 2,
+  "remarque": "Sur l'ἁρμάτειον μέλος du Phrygien : la παρεπιγραφή tenue pour un usage des textes comiques ; Apollodore de Cyrène y voyait une indication scénique (Σ Or. 1384, Schwartz)."
  },
  {
   "v": "99",
@@ -11688,6 +12038,34 @@
   "signale_par": "dépouillement d'Hésychius (μελῳδ-)",
   "pertinence": 2,
   "remarque": "L'éd. renvoie à Eur. Rhes. 923."
+ },
+ {
+  "v": "99",
+  "lemme": "παρασκευάζεται",
+  "categorie": "lexicographes",
+  "ref": "Hsch. π 668",
+  "urn": "",
+  "citation": "*παρασκευάζεται· εὐτρεπίζεται, ἑτοιμάζεται",
+  "traduction": "il s'apprête, il se prépare",
+  "verifie": "corpus",
+  "verification": "Hansen III, p. 33 (texte décodé .sources/corpus/hesychius/gloses.jsonl.gz ; hsch.py 'παρασκευ')",
+  "signale_par": "dépouillement d'Hésychius (παρασκευ-)",
+  "pertinence": 2,
+  "remarque": "La forme même du vers."
+ },
+ {
+  "v": "99",
+  "lemme": "παρασκευάζεται",
+  "categorie": "lexicographes",
+  "ref": "Hsch. γ 961",
+  "urn": "",
+  "citation": "γρυτεύεται· παρασκευάζεται",
+  "traduction": "il fait ses préparatifs",
+  "verifie": "corpus",
+  "verification": "Latte I², p. 526 (texte décodé ; hsch.py 'παρασκευ')",
+  "signale_par": "dépouillement d'Hésychius (παρασκευ-)",
+  "pertinence": 1,
+  "remarque": ""
  },
  {
   "v": "99",
@@ -11957,6 +12335,48 @@
  },
  {
   "v": "100",
+  "lemme": "Μύρμηκος ἀτραπούς (image musicale)",
+  "categorie": "aristophane",
+  "ref": "Ar. Thesm. 1175",
+  "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2:1175",
+  "citation": "σὺ δ᾽ ὦ Τερηδὼν ἐπαναφύσα Περσικόν.",
+  "traduction": "Et toi, Térédon, accompagne-la d'un air persan à la flûte.",
+  "verifie": "corpus",
+  "verification": "passage.py Thesm. 1172–1176 (Perseus ; numérotation usuelle = Hall–Geldart)",
+  "signale_par": "Austin–Olson 2004, ad 100 (« cf. 53 n., 1175 n. ») et ad 1175",
+  "pertinence": 2,
+  "remarque": "Le nom du flûtiste, Térédon (« taret », ver qui perce le bois ; cf. Eq. 1308 ὑπὸ τερηδόνων σαπεῖσα), évoque selon Austin–Olson les dessins compliqués que laissent les insectes xylophages : même image de la musique que les galeries de fourmis du v. 100 (cf. aussi Thesm. 427)."
+ },
+ {
+  "v": "100",
+  "lemme": "Μύρμηκος ἀτραπούς (image musicale)",
+  "categorie": "aristophane",
+  "ref": "Ar. Thesm. 427",
+  "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2:427",
+  "citation": "ἐδίδαξε θριπήδεστ᾽ ἔχειν σφραγίδια",
+  "traduction": "il leur a appris à porter des cachets rongés par les vers",
+  "verifie": "corpus",
+  "verification": "passage.py Thesm. 424–428 (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 1175 (« cf. 100 n., 427-8 n. »)",
+  "pertinence": 1,
+  "remarque": "Bois percé par les vers (θρῖπες), au dessin compliqué et unique (Austin–Olson ad 427–428) : même famille d'images que les galeries du v. 100 et le nom de Térédon (v. 1175). Glose : Hsch. θ 765 (θριπήδεστον· ξύλον ὑπὸ θριπῶν βεβρωμένον)."
+ },
+ {
+  "v": "100",
+  "lemme": "Μύρμηκος ἀτραπούς (la voie de la fourmi)",
+  "categorie": "aristophane",
+  "ref": "Ar. Vesp. 352",
+  "urn": "urn:cts:greekLit:tlg0019.tlg004.perseus-grc2:352",
+  "citation": "πάντα πέφαρκται κοὐκ ἔστιν ὀπῆς οὐδ᾽ εἰ σέρφῳ διαδῦναι.",
+  "traduction": "Tout est barricadé, il n'y a pas un trou par où passerait même un moucheron.",
+  "verifie": "corpus",
+  "verification": "passage.py Vesp. 350–353 (Perseus, Hall–Geldart)",
+  "signale_par": "recherche directe (μύρμηκι ὁδός : Σ Vesp. 352 ; Bauck 1880, p. 85)",
+  "pertinence": 1,
+  "remarque": "Le σέρφος, que Cratès tenait pour une fourmi (Σ ad loc., au même vers) : le passage le plus étroit, la « voie » d'une fourmi."
+ },
+ {
+  "v": "100",
   "lemme": "Μύρμηκος ἀτραπούς",
   "categorie": "comiques",
   "ref": "Pherecr. fr. 155.21–23 K.-A.",
@@ -12029,15 +12449,15 @@
   "v": "100",
   "lemme": "διαμινύρεται",
   "categorie": "comiques",
-  "ref": "Phryn. Com. fr. 69 Kock",
+  "ref": "Phryn. Com. fr. 74 K.-A.",
   "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:2.21",
   "citation": "καὶ νιγλάρους θρηνεῖν, ἐν οἷσι Λάμπρος ἐναπέθνῃσκεν, ἄνθρωπος ὢν ὑδατοπότης, μινυρὸς ὑπερσοφιστής, Μουσῶν σκελετός, ἀηδόνων ἠπίαλος, ὕμνος Ἅιδου.",
   "traduction": "« … gémir des fredons, au milieu desquels Lampros rendait l'âme, un buveur d'eau, un sur-sophiste à fredons, squelette des Muses, fièvre des rossignols, hymne d'Hadès »",
   "verifie": "corpus",
-  "verification": "chercher.py '\"μινυρος υπερσοφιστης\"' -a Ath (Ath. 2.44d, TEI Perseus) ; Kock I p. 388, fr. 69 (image ia comicorumatticor01kockuoft n417)",
+  "verification": "PCG VII, p. 425, fr. 74 (69 K.) (PDF du Drive, idx 459, image) ; Ath. 2.44d (TEI Perseus, chercher.py '\"μινυρος υπερσοφιστης\"' -a Ath) ; Kock I p. 388, fr. 69 (image ia comicorumatticor01kockuoft n417)",
   "signale_par": "recherche directe (μινυρ- chez Athénée)",
   "pertinence": 3,
-  "remarque": "Le musicien Lampros raillé par un comique contemporain avec le même mot (μινυρός) ; Kock rapproche les νίγλαροι de Pherecr. fr. 145.27 Kock (Chiron, = 155.27 K.-A.). Numéro K.-A. non contrôlé."
+  "remarque": "= fr. 69 Kock. Le musicien Lampros (maître de Sophocle) raillé avec le même mot (μινυρός). Texte cité d'après Athénée (Kaibel, avec νιγλάρους de Bergk) ; Kassel–Austin impriment ⟨⏑ –⟩ λάρους θρηνεῖν. Austin–Olson citent le v. 2 parmi les emplois de μινυρίζω pour la partie mélodique du chant (avec Vesp. 219 et Pl. Resp. 411a)."
  },
  {
   "v": "100",
@@ -12094,6 +12514,20 @@
   "signale_par": "Prato 2001, p. 168 (métrique de μινυ-)",
   "pertinence": 2,
   "remarque": "Cassandre ; μινυρά, plainte ténue. [κακά] : crochets du TEI."
+ },
+ {
+  "v": "100",
+  "lemme": "Μύρμηκος ἀτραπούς",
+  "categorie": "tragiques",
+  "ref": "[Aesch.] PV 452–453",
+  "urn": "urn:cts:greekLit:tlg0085.tlg003.perseus-grc2:452",
+  "citation": "κατώρυχες δ᾽ ἔναιον ὥστ᾽ ἀήσυροι / μύρμηκες ἄντρων ἐν μυχοῖς ἀνηλίοις",
+  "traduction": "ils habitaient sous terre, comme des fourmis légères, au fond d'antres sans soleil",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"ἀήσυροι μύρμηκες\"' (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 100 (« for another contemporary reference to the interior of anthills, [A.] PV 452-3 »)",
+  "pertinence": 2,
+  "remarque": "L'intérieur de la fourmilière, image familière aux contemporains (Austin–Olson)."
  },
  {
   "v": "100",
@@ -12177,7 +12611,63 @@
   "verification": "chercher.py '\"και μινυριγματα θερμα\"' -a Ath ; index : Ath. Deipnosophistae 4.28 (146f–147e)",
   "signale_par": "recherche directe (μινυρ- chez Athénée)",
   "pertinence": 1,
-  "remarque": "Le Δεῖπνον qu'Athénée attribue à Philoxène de Cythère, « s'il est de lui et non de Philoxène de Leucade » : un dérivé de μινυρίζω, ici parmi les mets (texte incertain). Simple curiosité au regard de l'hypothèse de l'auteur (Philoxène surnommé Μύρμηξ, Sud. φ 393)."
+  "remarque": "Le Δεῖπνον qu'Athénée attribue à Philoxène de Cythère, « s'il est de lui et non de Philoxène de Leucade » : Austin–Olson (ad 100) citent « Philox. Leuc. PMG 836(b). 28 » et comprennent μινυρίγματα θερμά comme une périphrase poétique pour « oiseaux rôtis ». Simple curiosité au regard de l'hypothèse de l'auteur (Philoxène surnommé Μύρμηξ, Sud. φ 393)."
+ },
+ {
+  "v": "100",
+  "lemme": "ἀτραπούς (la voie du chant)",
+  "categorie": "poetes",
+  "ref": "h.Merc. 451",
+  "urn": "urn:cts:greekLit:tlg0013.tlg004.perseus-grc2:451",
+  "citation": "τῇσι χοροί τε μέλουσι καὶ ἀγλαὸς οἶμος ἀοιδῆς",
+  "traduction": "(les Muses) qui ont souci des chœurs et de la brillante voie du chant",
+  "verifie": "corpus",
+  "verification": "chercher.py 'οἶμος ἀοιδῆς' (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 100 (« For poetry as a 'road' or 'path', e.g. h.Merc. 451 ; Pi. O. 1.110 ; Emped. 31 B24.2 ; Taillardat p. 434 n. 1 »)",
+  "pertinence": 2,
+  "remarque": "La poésie comme chemin : les « sentiers » d'Agathon détournent l'image."
+ },
+ {
+  "v": "100",
+  "lemme": "ἀτραπούς (la voie du chant)",
+  "categorie": "poetes",
+  "ref": "Pind. O. 1.110",
+  "urn": "urn:cts:greekLit:tlg0033.tlg001.perseus-grc2:1.110",
+  "citation": "ἐπίκουρον εὑρὼν ὁδὸν λόγων",
+  "traduction": "ayant trouvé une route de paroles qui lui vienne en aide",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"ὁδὸν λόγων\"' -a Pind (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 100",
+  "pertinence": 2,
+  "remarque": "Même image : le poème comme route."
+ },
+ {
+  "v": "100",
+  "lemme": "διαμινύρεται",
+  "categorie": "poetes",
+  "ref": "AP 9.70.1",
+  "urn": "urn:cts:greekLit:tlg7000.tlg001.perseus-grc8:9.70",
+  "citation": "Τραυλὰ μινυρομένα, Πανδιονὶ παρθένε, φωνᾷ",
+  "traduction": "toi qui gazouilles d'une voix balbutiante, vierge fille de Pandion",
+  "verifie": "corpus",
+  "verification": "chercher.py 'μινυρ*' -a Anth --toutes-editions (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 100 (« Mnesalc. AP ix. 70. 1 = HE 2655 »)",
+  "pertinence": 2,
+  "remarque": "Mnasalque, à l'hirondelle : μινύρομαι du chant d'oiseau ; cf. AP 9.87.1 (Marcus Argentarius) μηκέτι νῦν μινύριζε, au merle."
+ },
+ {
+  "v": "100",
+  "lemme": "διαμινύρεται",
+  "categorie": "poetes",
+  "ref": "Theoc. 13.12",
+  "urn": "urn:cts:greekLit:tlg0005.tlg001.perseus-grc2:13.12",
+  "citation": "οὐδ᾽ ὁπόκ᾽ ὀρτάλιχοι μινυροὶ ποτὶ κοῖτον ὁρῷεν",
+  "traduction": "ni quand les poussins piaillants regardaient vers leur nid",
+  "verifie": "corpus",
+  "verification": "chercher.py 'μινυρ*' -a Theoc (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 100 (μινυρίζω et ses dérivés, du chant d'oiseau)",
+  "pertinence": 1,
+  "remarque": ""
  },
  {
   "v": "100",
@@ -12434,6 +12924,20 @@
  {
   "v": "100",
   "lemme": "Μύρμηκος ἀτραπούς",
+  "categorie": "prose",
+  "ref": "Ael. NA 16.15",
+  "urn": "urn:cts:greekLit:tlg0545.tlg001.perseus-grc2:16.15",
+  "citation": "ἐν αὐτοῖς δὲ περιόδους τινὰς καὶ ὡς εἰπεῖν σύριγγας Αἰγυπτίας ἢ λαβυρίνθους Κρητικοὺς … διατρήσαντες … οὐκ εὐθυτενῆ καὶ ῥᾴδια παρελθεῖν ἀλλ᾽ ἑλιγμοῖς καὶ διατρήσεσι λοξά",
+  "traduction": "ils y percent des circuits, des sortes de galeries égyptiennes ou de labyrinthes crétois, non pas droits et faciles à parcourir, mais tortueux, avec des détours et des percées",
+  "verifie": "corpus",
+  "verification": "requête SQL sur Ael. NA 16.15 (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 100 (« cf. Ael. NA 16. 15 »)",
+  "pertinence": 3,
+  "remarque": "Les fourmis de l'Inde ; cf. Ael. NA 6.43 (au même vers). σύριγγας et λοξά : vocabulaire qui prête au jeu sur la musique (cf. AP 11.78, λοξὰ καὶ ὀρθά, au même vers)."
+ },
+ {
+  "v": "100",
+  "lemme": "Μύρμηκος ἀτραπούς",
   "categorie": "scholies",
   "ref": "Σ Ar. Thesm. 100",
   "urn": "ia:scholiagraecain00unkngoog#n343",
@@ -12500,6 +13004,20 @@
   "signale_par": "recherche directe (μινυρ- dans les scholies d'Aristophane)",
   "pertinence": 2,
   "remarque": "Suit (883) τῶν Ἰωνικῶν : Τῶν τρυφηλῶν. Ἴωνες (γὰρ) τρυφηλοί : le fredon ionien, mol, que Prato reconnaît dans le chant d'Agathon."
+ },
+ {
+  "v": "100",
+  "lemme": "Μύρμηκος ἀτραπούς (la voie de la fourmi)",
+  "categorie": "scholies",
+  "ref": "Σ Ar. Vesp. 352",
+  "urn": "ia:scholiagraecain00unkngoog#n200",
+  "citation": "Κράτης δὲ μύρμηκα φησὶ τὸν σέρφον … ἀφ᾽ οὗ ἡ παροιμία ἔνεστι κἀν μύρμηκι κἀν σέρφῳ χολή … — σέρφῳ: παροιμία «οὐδὲ μύρμηκι ὁδός ἐστι.» R.",
+  "traduction": "Cratès dit que le serphos est une fourmi … d'où le proverbe « même la fourmi, même le moucheron a sa bile » … — serphos : proverbe « il n'y a pas même de chemin pour une fourmi »",
+  "verifie": "scan",
+  "verification": "Dübner 1842, p. 144, col. 1, ll. 14–19 (archive.org scholiagraecain00unkngoog n200, image)",
+  "signale_par": "recherche directe (μύρμηκι ὁδός) ; Bauck 1880, p. 85 (« locutionem οὐδὲ μύρμηκι vel σέρφῳ ὁδός ἐστιν non minus proverbii locum obtinuisse »)",
+  "pertinence": 2,
+  "remarque": "Scholie du Ravennas (R). Le proverbe de la « route de fourmi » (passage minuscule) éclaire Μύρμηκος ἀτραπούς : les chemins infimes et tortueux du chant d'Agathon."
  },
  {
   "v": "100",
@@ -12933,7 +13451,7 @@
   "verification": "chercher.py '\"κατα μεν ησιοδον μυρμηκος\"' -a Harp ; index : Harp. Lexicon in decem oratores Atticos m.melite",
   "signale_par": "Kock III p. 341 (« heros Myrmex est Harpocrat. 126, 6 »)",
   "pertinence": 2,
-  "remarque": "Le héros attique Myrmex, père de Mélité (dème éponyme), selon Hésiode cité par Philochore : l'ἥρως Μύρμηξ d'Hsch. μ 1904 et Phot. μ 606."
+  "remarque": "Le héros attique Myrmex, père de Mélité (dème éponyme), selon Hésiode cité par Philochore (= Hes. fr. 225 M.-W. et Philoch. FGrHist 328 F 27 selon Austin–Olson) : l'ἥρως Μύρμηξ d'Hsch. μ 1904 et Phot. μ 606. Idem Sud. μ 521 (κατὰ μὲν Ἡσίοδον θυγατρὸς Μύρμηκος)."
  },
  {
   "v": "100",
@@ -13003,7 +13521,7 @@
   "verification": "chercher.py 'μυρμηκ*' -a Zen (First1KGreek)",
   "signale_par": "recherche directe (μυρμηκ- chez les parémiographes)",
   "pertinence": 1,
-  "remarque": "= Diogen. 4.48 ; Greg. Cypr. 2.35. Tosi : Érasme, Adages 2.5.31 Inest et formicae et serpho bilis."
+  "remarque": "= Diogen. 4.48 ; Greg. Cypr. 2.35. Forme longue Ἔνεστι κἀν μύρμηκι κἀν σέρφῳ χολή : Σ Vesp. 352 (au même vers), Sud. σ 256. Érasme, Adag. 2.5.31 (Inest et formicae et serpho bilis : Opera II, col. 562 F, PDF p. 298, image), signalé par Tosi ; Bauck 1880, p. 85."
  },
  {
   "v": "100",
@@ -13216,6 +13734,34 @@
   "remarque": "Même proverbe (cf. Plaut. Men. 247)."
  },
  {
+  "v": "100",
+  "lemme": "Μύρμηκος ἀτραπούς (μυρμηκιά)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1.3.32",
+  "urn": "",
+  "citation": "Bonorum myrmecia, de immensis opibus. Nam Myrmecia Graece significat cavernam, aut agmen formicarum.",
+  "traduction": "« Fourmilière de biens », pour d'immenses richesses. Car myrmecia signifie en grec la caverne, ou la colonne des fourmis.",
+  "verifie": "scan",
+  "verification": "Erasmi Opera omnia, t. II (Leyde 1703), col. 124 A–C, Chil. I, cent. III, n° XXXII (.sources/web/latin/erasme/erasme_opera_II.pdf, p. 79 du PDF, image)",
+  "signale_par": "recherche directe (formica dans Érasme ; cf. Zen. 1.11)",
+  "pertinence": 2,
+  "remarque": "Le proverbe Ἀγαθῶν μυρμηκιά (Zen. 1.11, au même vers), avec le double sens de μυρμηκιά (galeries ou colonne de fourmis). Érasme y joint Theoc. 17.107 et 15.45 (fourmis innombrables)."
+ },
+ {
+  "v": "100",
+  "lemme": "Μύρμηκος (la fourmilière)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 4.6.80",
+  "urn": "",
+  "citation": "Qui inspuerit in cavernam formicarum, &c. … Quod qui inspuerit in agmen formicarum, huic intumescunt labra.",
+  "traduction": "Qui crache dans la fourmilière… : qui crache sur une colonne de fourmis a les lèvres enflées.",
+  "verifie": "scan",
+  "verification": "Erasmi Opera omnia, t. II (Leyde 1703), col. 1094, Chil. IV, cent. VI, n° LXXX (.sources/web/latin/erasme/erasme_opera_II.pdf, p. 564 du PDF, image)",
+  "signale_par": "Tosi n° 707",
+  "pertinence": 1,
+  "remarque": "Traduction du proverbe grec Ὁ πτύσας εἰς μυρμηκιὰν οἰδεῖ τὰ χείλη (Tosi n° 707, au même vers) ; Érasme : « Hesychius auctorem citat Dinolochum »."
+ },
+ {
   "v": "101",
   "lemme": "ἱερὰν Χθονίαιν δε- (Agathon chante)",
   "categorie": "testimonium",
@@ -13357,6 +13903,62 @@
  },
  {
   "v": "101",
+  "lemme": "ἱερὰν … (λαμπάδα)",
+  "categorie": "aristophane",
+  "ref": "Ar. Ran. 1524–1525",
+  "urn": "urn:cts:greekLit:tlg0019.tlg009.perseus-grc2:1524",
+  "citation": "φαίνετε τοίνυν ὑμεῖς τούτῳ / λαμπάδας ἱεράς",
+  "traduction": "faites donc briller pour lui les torches sacrées",
+  "verifie": "corpus",
+  "verification": "passage.py Ran. 1524–1526 (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 101–3 (« ἱεράν might be taken with either λαμπάδα (cf. Ra. 1525) or βοάν »)",
+  "pertinence": 2,
+  "remarque": "ἱερά qualifiant les torches : argument pour lier ἱεράν à λαμπάδα (v. 102) ; pour l'auteur, Χθονίαιν dépend de ἱεράν (cf. Plut. 937, au même vers). Austin–Olson voient dans l'ambiguïté une marque du style d'Agathon."
+ },
+ {
+  "v": "101",
+  "lemme": "Χθονίαιν (les torches des Thesmophories)",
+  "categorie": "aristophane",
+  "ref": "Ar. Thesm. 280–281",
+  "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2:280",
+  "citation": "ὦ Θρᾷττα, θέασαι, καομένων τῶν λαμπάδων / ὅσον τὸ χρῆμ᾽ ἀνέρχεθ᾽ ὑπὸ τῆς λιγνύος.",
+  "traduction": "Thratta, regarde : quelle fumée monte des torches allumées !",
+  "verifie": "corpus",
+  "verification": "passage.py Thesm. 280–281 (Perseus ; numérotation usuelle = Hall–Geldart)",
+  "signale_par": "Austin–Olson 2004, ad 101–3 (« cf. 280-1 with n. (on the use of torches at the Thesmophoria) »)",
+  "pertinence": 2,
+  "remarque": "Les torches de la fête des deux déesses : le chant troyen d'Agathon renvoie à la cité et à l'action de la pièce (Austin–Olson)."
+ },
+ {
+  "v": "101",
+  "lemme": "(chant d'Agathon : hymne à répartition coryphée/chœur)",
+  "categorie": "aristophane",
+  "ref": "Ar. Ran. 372–382",
+  "urn": "urn:cts:greekLit:tlg0019.tlg009.perseus-grc2:372",
+  "citation": "χώρει νυν πᾶς ἀνδρείως … / ἀλλ᾽ ἔμβα χὤπως ἀρεῖς / τὴν Σώτειραν γενναίως / τῇ φωνῇ μολπάζων",
+  "traduction": "avance maintenant, chacun, virilement… allons, en marche, et fais en sorte d'exalter noblement de ta voix la Salvatrice",
+  "verifie": "corpus",
+  "verification": "passage.py Ran. 372–383 (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 101–29 (« For other dramatic adaptations of cult-hymns with similar structures, Ra. 372-413 ; E. Hipp. 58-71 »)",
+  "pertinence": 2,
+  "remarque": "Le coryphée ordonne, le chœur exécute : même structure que le chant d'Agathon (cf. 103 χορεύσασθε, 107 ἄγε νῦν ὄλβιζε)."
+ },
+ {
+  "v": "101",
+  "lemme": "(chant d'Agathon : hommage à Agathon)",
+  "categorie": "aristophane",
+  "ref": "Ar. Ran. 83–84",
+  "urn": "urn:cts:greekLit:tlg0019.tlg009.perseus-grc2:83",
+  "citation": "Ἀγάθων δὲ ποῦ ᾽στιν; — ἀπολιπών μ᾽ ἀποίχεται, / ἀγαθὸς ποιητὴς καὶ ποθεινὸς τοῖς φίλοις",
+  "traduction": "Et Agathon, où est-il ? — Il m'a quitté, il est parti, bon poète, regretté de ses amis.",
+  "verifie": "corpus",
+  "verification": "passage.py Ran. 83–85 (Perseus) ; même entrée au v. 88",
+  "signale_par": "commentaire de l'auteur (vv. 101–29 : « par la bouche de Dionysos, Aristophane rend hommage à Agathon »)",
+  "pertinence": 2,
+  "remarque": "L'auteur y voit la preuve qu'Aristophane estimait le poète dont il parodie le chant."
+ },
+ {
+  "v": "101",
   "lemme": "ἱερὰν (+ gén.)",
   "categorie": "tragiques",
   "ref": "Eur. Alc. 75–76",
@@ -13483,6 +14085,48 @@
  },
  {
   "v": "101",
+  "lemme": "(chant d'Agathon : hymne à répartition coryphée/chœur)",
+  "categorie": "tragiques",
+  "ref": "Eur. Hipp. 58–61",
+  "urn": "urn:cts:greekLit:tlg0006.tlg005.perseus-grc2:58",
+  "citation": "ἕπεσθ᾽ ἀείδοντες ἕπεσθε / τὰν Διὸς οὐρανίαν / Ἄρτεμιν, ᾇ μελόμεσθα. / πότνια πότνια σεμνοτάτα",
+  "traduction": "Suivez-moi en chantant, suivez-moi, (chantez) la céleste fille de Zeus, Artémis, qui prend soin de nous. — Souveraine, souveraine très vénérable…",
+  "verifie": "corpus",
+  "verification": "passage.py Hipp. 58–72 (Perseus, Diggle)",
+  "signale_par": "Austin–Olson 2004, ad 101–29 (« E. Hipp. 58-71 »)",
+  "pertinence": 2,
+  "remarque": "Hippolyte (meneur) et les chasseurs (chœur) chantent Artémis : modèle tragique du chant alterné d'Agathon, qui honore aussi Artémis (vv. 114–119) ; cf. Hipp. 70–71 χαῖρέ μοι, ὦ καλλίστα καλλίστα τῶν κατ᾽ Ὄλυμπον et Thesm. 111 χαῖρε."
+ },
+ {
+  "v": "101",
+  "lemme": "(chant d'Agathon : vierges troyennes)",
+  "categorie": "tragiques",
+  "ref": "Eur. Hec. 914–918",
+  "urn": "urn:cts:greekLit:tlg0006.tlg007.perseus-grc2:914",
+  "citation": "μεσονύκτιος ὠλλύμαν, / ἦμος ἐκ δείπνων ὕπνος ἡδὺς ἐπ᾽ ὄσσοις / σκίδναται, μολπᾶν δ᾽ ἄπο καὶ χοροποιῶν / θυσιᾶν καταλύσας",
+  "traduction": "à minuit je péris, à l'heure où après le repas le doux sommeil se répand sur les yeux, et que (mon époux), au sortir des chants et des sacrifices accompagnés de chœurs, …",
+  "verifie": "corpus",
+  "verification": "passage.py Hec. 914–920 (Perseus, Murray)",
+  "signale_par": "Austin–Olson 2004, ad 101–29 (« E. Hec. 916-17 ; Tr. 522-55, esp. 544-55 »)",
+  "pertinence": 2,
+  "remarque": "La dernière nuit de Troie, après les chants et les chœurs de la fête : le cadre que supposent Austin–Olson pour l'hymne d'Agathon (cf. Eur. Tro. 544–555, au même vers)."
+ },
+ {
+  "v": "101",
+  "lemme": "Χθονίαιν",
+  "categorie": "tragiques",
+  "ref": "Eur. HF 615",
+  "urn": "urn:cts:greekLit:tlg0006.tlg009.perseus-grc2:615",
+  "citation": "Χθονίας νιν ἄλσος Ἑρμιών τ᾽ ἔχει πόλις.",
+  "traduction": "Le bois sacré de la Chthonienne et la cité d'Hermione le gardent.",
+  "verifie": "corpus",
+  "verification": "passage.py HF 613–616 (Perseus, Murray)",
+  "signale_par": "Austin–Olson 2004, ad 101–3 (« cf. Hdt. vi. 134 ; E. HF 615 with Bond ad loc. »)",
+  "pertinence": 2,
+  "remarque": "Déméter Chthonia d'Hermione : le titre des deux déesses au singulier."
+ },
+ {
+  "v": "101",
   "lemme": "ἱερὰν (+ gén.)",
   "categorie": "poetes",
   "ref": "Hom. Od. 6.321–322",
@@ -13522,6 +14166,20 @@
   "signale_par": "recherche directe (danses ioniennes)",
   "pertinence": 2,
   "remarque": "Danses ioniennes, jeunes filles et érotisme : cf. la lecture que fait l'auteur du chant d'Agathon (chœur de jeunes filles, « érotisme sur fond de maternité frustrée »)."
+ },
+ {
+  "v": "101",
+  "lemme": "(chant d'Agathon : dieux protecteurs de Troie)",
+  "categorie": "poetes",
+  "ref": "Hom. Il. 20.38–40",
+  "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:20.38",
+  "citation": "ἐς δὲ Τρῶας Ἄρης κορυθαίολος, αὐτὰρ ἅμ᾽ αὐτῷ / Φοῖβος ἀκερσεκόμης ἠδ᾽ Ἄρτεμις ἰοχέαιρα / Λητώ τε",
+  "traduction": "du côté des Troyens Arès au casque étincelant, et avec lui Phébus à la longue chevelure, Artémis la sagittaire, Léto…",
+  "verifie": "corpus",
+  "verification": "passage.py Il. 20.38–40, 20.68–72, 4.507–508, 5.446–448 (Perseus)",
+  "signale_par": "Austin–Olson 2004, ad 101–29 (« Iliad (e.g. 4. 507-8 ; 5. 447-50 ; 20. 38-40, 68-72) »)",
+  "pertinence": 2,
+  "remarque": "Apollon, Artémis et Léto, partisans de Troie : le chœur d'Agathon est troyen (Bothe, Austin–Olson). Cf. Il. 4.507–508 (Apollon depuis Pergame), 5.447–448 (Léto et Artémis soignent Énée dans le temple de Pergame), 20.68–72."
  },
  {
   "v": "101",
@@ -13872,6 +14530,20 @@
   "signale_par": "dépouillement d'Hésychius (Ἰωνικ-)",
   "pertinence": 2,
   "remarque": "ὄρχηοιν, coquille de l'édition imprimée, corrigée. L'éd. renvoie à Amips. fr. 34 K.–A. ; test. : Phot. β 105 (avec la citation d'Amipsias), EM 192.18, Poll. 4.100. Cf. β 364–366 (βαυκίζεσθαι· θρύπτεσθαι ; βαυκιζόμενον· τρυφερόν)."
+ },
+ {
+  "v": "101",
+  "lemme": "(chant d'Agathon : ionien, efféminé)",
+  "categorie": "lexicographes",
+  "ref": "Phot. α 83",
+  "urn": "ia:deranfangdeslex00reitgoog#n63",
+  "citation": "Ἀγαθώνειος αὔλησις· ἡ μαλακή. Ἀγάθων γὰρ ὁ τραγικὸς ἐπὶ μαλακίᾳ διεβάλλετο.",
+  "traduction": "air de flûte à la manière d'Agathon : l'air mou ; car le tragique Agathon était décrié pour sa mollesse",
+  "verifie": "scan",
+  "verification": "R. Reitzenstein, Der Anfang des Lexikons des Photios (1907), p. 9, ll. 25–26 (archive.org deranfangdeslex00reitgoog n63, image ; texte téléchargé dans .sources/web/lexiques/photius_reitzenstein/) ; numéro confirmé par Kassel–Austin, PCG III.2 p. 113, ad Ar. fr. 178 (« Hesych. α 281 ≅ Phot. α 83 Ἀγαθώνειον αὔλησιν· τὴν μαλακήν… », PDF du Drive idx 141, image)",
+  "signale_par": "commentaire de l'auteur (vv. 101–29, n. : « Phot. α 83 »)",
+  "pertinence": 3,
+  "remarque": "Texte de Reitzenstein (nominatif) ; Kassel–Austin citent Photius à l'accusatif (Ἀγαθώνειον αὔλησιν· τὴν μαλακήν) et le rapprochent d'Hsch. α 281. Reitzenstein donne pour source « Hes. Scholia Cyrilli Vallicelliani aus Diogenian ». Version courte, sans l'explication favorable (ἢ ἡ μήτε χαλαρὰ μήτε πικρά…) d'Hsch. α 281 et de Sud. α 125 (au même vers)."
  },
  {
   "v": "101",

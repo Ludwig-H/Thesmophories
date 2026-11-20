@@ -1,1 +1,23 @@
-[]
+[
+ {
+  "v": "168",
+  "lemme": "Κορυδέως εἰδεχθέστερος",
+  "ref": "Greg. Cypr. L 2.51 (CPG II)",
+  "source": "García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 21–34 (.sources/drive/ThesmoBiblio), § 1.1",
+  "raison": "témoin supplémentaire du proverbe, non contrôlé sur l'image de CPG II (les pages n111 et n155 de l'OCR portent « Κορυδέως εἰδεχθ… » sans numéro lisible) ; redondant avec Zen. 4.59, Diogenian. 5.57, Apostol. 9.92, Hsch. κ 3681, déjà relevés"
+ },
+ {
+  "v": "168",
+  "lemme": "αἰσχρὸς ὢν αἰσχρῶς ποιεῖ",
+  "ref": "Gal. De propr. an. aff. 5.15 Kühn (πάναισχρον αὐτὴν γενέσθαι, καθάπερ ὁ Θερσίτης τὸ σῶμα)",
+  "source": "García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 21–34 (.sources/drive/ThesmoBiblio), § 1.2",
+  "raison": "texte absent du corpus local (chercher.py 'πάναισχρον AND Θερσίτης' : 0 résultat) ; non vérifié"
+ },
+ {
+  "v": "168",
+  "lemme": "αἰσχρὸς ὢν αἰσχρῶς ποιεῖ",
+  "ref": "Arist. Eudemus fr. 59 Gigon (ψυχὴν γὰρ εἶχε καὶ ὁ Θερσίτης αἴσχιστος ὤν)",
+  "source": "García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 21–34 (.sources/drive/ThesmoBiblio), § 1.2, n. 11",
+  "raison": "fragment absent du corpus local (chercher.py '\"ψυχὴν γὰρ εἶχε\"' : 0 résultat) ; non vérifié"
+ }
+]

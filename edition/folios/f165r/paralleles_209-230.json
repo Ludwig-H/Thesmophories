@@ -12590,7 +12590,7 @@
   "lemme": "ἔχ᾽ ἀτρέμα σαυτόν",
   "categorie": "lexicographes",
   "ref": "Sud. η 491",
-  "urn": "",
+  "urn": "ia:adler-a.-suidae-lexicon-3-./Adler%20A.%2C%20Suidae%20Lexicon%202%20%28%CE%94-%CE%98%29#n598",
   "citation": "Ἠρέμα: ἀτρέμας. καὶ Ἠρεμαίως καὶ Ἠρεμεῖ, ἡσύχως.",
   "traduction": "",
   "verifie": "scan",
@@ -12604,7 +12604,7 @@
   "lemme": "ἀτρέμα",
   "categorie": "lexicographes",
   "ref": "Sud. η 493",
-  "urn": "",
+  "urn": "ia:adler-a.-suidae-lexicon-3-./Adler%20A.%2C%20Suidae%20Lexicon%202%20%28%CE%94-%CE%98%29#n598",
   "citation": "Ἠρεμία: ἀτρεμία τις οὖσα, κατὰ στέρησιν τοῦ τρέμειν, οἷον ἡ ἀκινησία.",
   "traduction": "« ἠρεμία : une sorte d’ἀτρεμία, par privation de “trembler”, c’est-à-dire l’immobilité »",
   "verifie": "scan",
@@ -12724,5 +12724,33 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 1,
   "remarque": "proverbe à ἀτρέμας chez les parémiographes : rapprochement de mot seulement"
+ },
+ {
+  "v": "222",
+  "lemme": "τί κέκραγας;",
+  "categorie": "comiques",
+  "ref": "Pl. Com. fr. 28 Kock (Ἑορταί ; Clem. Al. Strom. 7.6.33)",
+  "urn": "urn:cts:greekLit:tlg0555.tlg004.perseus-grc2:7.6.33",
+  "citation": "καὶ οὐδὲν ἀφ᾿ ὑὸς γίγνεται πλὴν ὕστριχες καὶ πηλὸς ἡμῖν καὶ βοή.",
+  "traduction": "« et du porc il ne nous vient rien que des fouets, de la boue et des cris »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'πηλὸς βοή' -a Clem (Clem. Al. Strom. 7.6.33, Perseus) ; Kock I, p. 607, fr. 28 (ia:comicorumatticor01kockuoft#n636 ; l’index du corpus indique p. 606), image lue : texte de Kock κοὐδὲν … πλὴν ὑστριχὶς (G. Dindorf) καὶ πηλὸς ἡμῖν καὶ βοή, que cite Taillardat",
+  "signale_par": "Taillardat 1965, p. 350, § 603 et n. 5 (« Euripide menace son Parent qui pousse de vrais cris de porc » ; « Cf. Plat. com. 28 ») ; page lue en image",
+  "pertinence": 2,
+  "remarque": "le cri du porc qu’on égorge : Taillardat rapproche les hurlements de Mnésiloque, qu’on va traiter en cochon de lait (v. 237 δελφάκιον), de la menace du bâillon des Cavaliers (Eq. 375–381, déjà cité)"
+ },
+ {
+  "v": "222",
+  "lemme": "τί κέκραγας;",
+  "categorie": "proverbes",
+  "ref": "Clem. Al. Strom. 7.6.33 (Aesop.)",
+  "urn": "urn:cts:greekLit:tlg0555.tlg004.perseus-grc2:7.6.33",
+  "citation": "ὅθεν καὶ ὁ Αἴσωπος οὐ κακῶς ἔφη τοὺς ὗς κεκραγέναι μέγιστον, ὅταν ἕλκωνται· συνειδέναι γὰρ αὑτοῖς εἰς οὐδὲν ἄλλο χρησίμοις πλὴν εἰς τὴν θυσίαν.",
+  "traduction": "« aussi Ésope a-t-il eu raison de dire que les porcs crient le plus fort quand on les traîne : ils se savent bons à rien d’autre qu’au sacrifice »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'NEAR(ὗς κεκραγ*, 5)' (Clem. Al. Strom. 7.6.33, Perseus) ; même passage que Pl. Com. fr. 28",
+  "signale_par": "recherche dans le corpus (contexte du fragment signalé par Taillardat 1965, § 603, n. 5)",
+  "pertinence": 2,
+  "remarque": "mot d’Ésope : le verbe même de 222 (κεκραγέναι, cf. τί κέκραγας ;) ; Mnésiloque crie comme le porc mené au couteau"
  }
 ]

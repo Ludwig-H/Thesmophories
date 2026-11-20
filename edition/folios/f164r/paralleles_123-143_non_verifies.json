@@ -25,7 +25,7 @@
   "lemme": "ἄρσενι βοᾷ",
   "ref": "Aristid. Quint. 2.12 (2.101 Mb.)",
   "source": "Sommerstein 1994, ad 124–8 ; LSJ s.v. ἄρσην (ἄ. φθόγγοι)",
-  "raison": "Aristide Quintilien n'est pas dans le corpus local"
+  "raison": "Aristide Quintilien n'est pas dans le corpus local ; le recueil de Jan (Musici scriptores, .sources/web/musici) ne contient pas Aristide Quintilien (contrôle du 20 nov.)"
  },
  {
   "v": "128",
@@ -44,30 +44,16 @@
  {
   "v": "133",
   "lemme": "γάργαλος",
-  "ref": "Moer. γ 23",
-  "source": "testimonia de l'auteur ; LSJ s.v. γαργαλισμός (Moeris)",
-  "raison": "Moeris non disponible dans le corpus local (Phrynichus, PS p. 56, 9 de Borries = An. Bekk. I, p. 31, 25 : vérifié depuis sur l'image et inscrit au fichier principal)"
- },
- {
-  "v": "133",
-  "lemme": "ὑπὸ τὴν ἕδραν",
-  "ref": "Rabelais, Gargantua XIII (« [sa soye] me causoit au fondement une volupté bien grande »)",
-  "source": "l'auteur (article 133 désactivé)",
-  "raison": "parallèle français, texte non contrôlé"
- },
- {
-  "v": "133",
-  "lemme": "γάργαλος",
-  "ref": "Ar. fr. 44 K.-A. (δυσγάργαλις ; Kock I, p. 402) ; Ael. NA 16.9 ; Lib. Ep. 234.1",
+  "ref": "Lib. Ep. 234.1",
   "source": "van Leeuwen 1904, p. 25 ; Kock ; LSJ",
-  "raison": "numérotation K.-A. non contrôlée"
+  "raison": "Libanios : aucune occurrence de γαργαλ- dans le corpus local ; Ar. fr. 44 K.-A. (Phot. ο 467) et Ael. NA 16.10 (δυσγαργάλεις) vérifiés : fichier principal"
  },
  {
   "v": "134",
   "lemme": "κατ᾽ Αἰσχύλον",
-  "ref": "Ar. Nub. 1366 ; Lys. 188 ; fr. 153 K.-A. (Eschyle nommé) ; Ach. 1000, Eq. 499, Nub. 626 (κατά + acc.)",
+  "ref": "Ar. fr. 153 K.-A. (Eschyle nommé)",
   "source": "Prato 2001, ad 134",
-  "raison": "rapprochements généraux, non retenus au fichier principal, à reprendre si l'auteur le souhaite"
+  "raison": "fragment non contrôlé ; Lys. 188–189 et Nub. 1364–1366 vérifiés : fichier principal ; Ach. 1000, Eq. 499, Nub. 626 (κατά + acc. : κατὰ τὰ πάτρια, κατὰ νοῦν τὸν ἐμόν, κατὰ σελήνην) lus, non retenus (usage général)"
  },
  {
   "v": "135",
@@ -81,14 +67,14 @@
   "lemme": "Λυκουργείας",
   "ref": "Eust. Il. 785, 20",
   "source": "Fritzsche 1838, p. 42",
-  "raison": "page d'Eustathe non lue"
+  "raison": "page d'Eustathe non lue ; OCR local d’Eustathe (.sources/web/testimonia/eustathe) consulté le 20 nov. : Λυκουργεία introuvable"
  },
  {
   "v": "136",
   "lemme": "γύννις",
-  "ref": "Zon. 457 ; Et. M. 243, 8 ; Thom. Mag. 24, 17",
+  "ref": "Thom. Mag. 24, 17",
   "source": "Prato 2001, ad 136 ; testimonia de l'auteur ; apparat des sources d'Adler (Sud. γ 504)",
-  "raison": "Thomas Magister non disponible ; Zonaras (OCR de Tittmann) et EM : mot non retrouvé par l'index ni dans l'OCR local de l'EM (.travail/ocr_local), à lire sur les éditions ; Phrynichus (PS p. 60, 19 et p. 17 de Borries) vérifié depuis sur l'image : fichier principal"
+  "raison": "Thomas Magister non disponible (dossier .sources/web/lexiques/thomas_ocr vide) ; Zonar. col. 457 et EM 243.8 (Γύνις) vérifiés sur l’image : fichier principal"
  },
  {
   "v": "137",
@@ -102,28 +88,14 @@
   "lemme": "τί βάρβιτος λαλεῖ κροκωτῷ",
   "ref": "Plaut. Truc. II 3, 48",
   "source": "Hotibius, Fritzsche 1838, p. 45 ; Blaydes 1880, p. 147",
-  "raison": "numérotation ancienne, vers non identifié dans le texte de Leo"
- },
- {
-  "v": "138",
-  "lemme": "κεκρυφάλῳ",
-  "ref": "Eup. fr. 170 K.",
-  "source": "Kock III, p. 77 (ad Men. Κεκρύφαλος : « cf. Arist. Thesm. 138. 257. fr. 320, 6. Eupol. 170. Antiphan. 117. 189 »)",
-  "raison": "fragment non retrouvé dans l'OCR de Kock I ; Ar. fr. 332 K.-A. (= 320 K.) et Antiph. fr. 117 K. vérifiés depuis sur l'image : fichier principal"
+  "raison": "numérotation ancienne, vers non identifié dans le texte de Leo ; Truculentus absent du corpus latin local ; Fritzsche 1838, p. 45 juge le rapprochement de Hotibius « haud aptissime »"
  },
  {
   "v": "139",
   "lemme": "λήκυθος",
-  "ref": "Clearch. fr. 109 W. (LSJ : 72) ; Soph. fr. 1063 R. ; Poll. 4.114",
+  "ref": "Clearch. fr. 109 W. (LSJ : 72) ; Soph. fr. 1063 R.",
   "source": "Hsch. λ 856–857 (renvois de l'éd.) ; LSJ ; l'auteur",
-  "raison": "connus par le renvoi seulement (Phryn. PS p. 86 de Borries vérifié depuis sur l'image : fichier principal)"
- },
- {
-  "v": "139",
-  "lemme": "ὡς οὐ ξύμφορον",
-  "ref": "Ar. Vesp. 1126 ; Eccl. 515 (ξύμφορος πρός) ; Eq. 1233 ; Ran. 175, 807 (ξυμβαίνειν)",
-  "source": "van Leeuwen 1904, p. 26",
-  "raison": "renvois non repris : usage général, à lire si l'auteur le souhaite"
+  "raison": "Cléarque : non retrouvé ; pour Sophocle, Sud. λ 437 (ληκυθιστής … οὕτως Σοφοκλῆς) est au fichier principal, mais le numéro de Radt n’est pas contrôlé ; « Poll. 4.114 » non retrouvé à ce numéro : le λήκυθος du costume comique est en Poll. 4.120 (Dindorf), au fichier principal"
  },
  {
   "v": "140",
@@ -131,12 +103,5 @@
   "ref": "IG II² 1471.47 ; 1544.58 ; Threatte I, p. 477 ; Dover ad Nub. 752 et ad Ran. 47",
   "source": "l'auteur (critique.tex, 140) ; Prato 2001, ad 140",
   "raison": "épigraphie et études modernes hors du corpus local : κάτροπτον n'est attesté dans aucun texte de l'index (LSJ s.v. κάτροπον renvoie seulement à κάτοπτρον)"
- },
- {
-  "v": "142",
-  "lemme": "χλαῖνα",
-  "ref": "Moer. χ 19 ; Phot. λ 57",
-  "source": "testimonia de l'auteur",
-  "raison": "Moeris non disponible ; Phot. (Theodoridis II) absent"
  }
 ]

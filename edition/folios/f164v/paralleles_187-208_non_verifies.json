@@ -2,9 +2,9 @@
  {
   "v": "187-208",
   "lemme": "numéros K.-A.",
-  "ref": "Philyll. ; Antiph. ; Alex. ; Anaxandr. ; Metag. ; Callias Com. ; Men. ; Eub. fr. 116 Kock ; Ar. fr. 74, 493, 695 Kock",
+  "ref": "Men. fr. 179 Kock (Stob. Flor. 108.57) ; Com. adesp. fr. 791 Kock",
   "source": "entrées citées d’après Kock",
-  "raison": "PCG IV, V, VII sur le Drive (> 10 Mo, non téléchargeables ; lecture partielle) : les numéros K.-A. restent à établir ; ceux d’Ar., Cratin., Eub., Alex. fr. 254 et Men. fr. 171 viennent de Cunningham, Prato, Sommerstein ou Tosi"
+  "raison": "numéros K.-A. établis le 20 nov. pour 31 entrées (PCG I, II [OCR Tesseract], IV, V, VI 2, VII, lus sur l'image) ; restent Men. fr. 179 Kock (introuvable dans PCG VI 2 : pièce réservée au vol. VI 1 ?) et Com. adesp. fr. 791 Kock (PCG VIII non disponible)"
  },
  {
   "v": "188",
@@ -21,13 +21,6 @@
   "raison": "vers lu (ὅστις ἢ τὸ λευκὸν οἶδεν ἢ τὸν ὄρθιον νόμον) : τὸ λευκόν n’y concerne pas le teint ; écarté"
  },
  {
-  "v": "192",
-  "lemme": "γυναικόφωνος",
-  "ref": "Poll. 4.114",
-  "source": "Prato 2001, p. 193",
-  "raison": "livre IV absent de l’index (Bethe I non indexé) ; passage non retrouvé dans l’OCR de Dindorf"
- },
- {
   "v": "194",
   "lemme": "χαίρεις ὁρῶν φῶς",
   "ref": "Plut. Mor. 20D",
@@ -42,25 +35,11 @@
   "raison": "vers d’Aristophane lus, mais modèle précis dans l’Alceste non établi ; Prato ne le donne pas"
  },
  {
-  "v": "198",
-  "lemme": "τὰς συμφορὰς γὰρ … φέρειν",
-  "ref": "Plut. Cons. Apoll. 102a ; Men. fr. 856 K.-A.",
-  "source": "Tosi, n° du dossier Ducunt volentem fata (corpus : § 114)",
-  "raison": "renvois de Tosi non contrôlés sur le texte ; n° du lemme de Tosi non établi (OCR)"
- },
- {
   "v": "201",
   "lemme": "τοῖς παθήμασιν (sens obscène)",
   "ref": "Men. Dysc. 891–892",
   "source": "Paduano 1994, n. 33 ; Prato 2001, p. 195",
   "raison": "Dyscolos absent du corpus local ; à contrôler sur une édition"
- },
- {
-  "v": "205",
-  "lemme": "ὑφαρπάζειν … Κύπριν",
-  "ref": "Eur. fr. 951 N.²",
-  "source": "Prato 2001, p. 195-196 (OCR de la note peu lisible)",
-  "raison": "numéro et vers non assurés"
  },
  {
   "v": "206",
@@ -75,13 +54,6 @@
   "ref": "Molière, Le Misanthrope, IV, 3",
   "source": "commentaire de l’auteur (d’après Willems)",
   "raison": "parallèle moderne : vers non contrôlé sur le texte ; conservé dans le commentaire"
- },
- {
-  "v": "191",
-  "lemme": "λευκός (censure des hommes efféminés)",
-  "ref": "Alex. fr. 217.1 K.-A.",
-  "source": "Austin–Olson 2004, p. 119 (ad 191)",
-  "raison": "PCG II téléchargé (Drive) mais sans couche texte : fragment non localisé dans le temps imparti ; Sosicr. fr. 1.1 K.-A., vérifié depuis (PCG VII, p. 600), est entré dans la collecte"
  },
  {
   "v": "191",
@@ -100,9 +72,9 @@
  {
   "v": "192",
   "lemme": "ἁπαλός",
-  "ref": "Sapph. frr. 94.16, 122 ; Anacr. PMG 370 ; Alc. fr. 45.6 ; Alex. fr. 49.2-3 K.-A. ; com. adesp. fr. 735.2 K.-A.",
+  "ref": "Sapph. frr. 94.16, 122 ; Anacr. PMG 370 ; Alc. fr. 45.6 ; com. adesp. fr. 735.2 K.-A.",
   "source": "Austin–Olson 2004, p. 119 (ad 192)",
-  "raison": "numérotations de Voigt, Page et K.-A. non disponibles localement : passages non identifiés dans Bergk ou Kock dans le temps imparti"
+  "raison": "numérotations de Voigt, Page et K.-A. non disponibles localement : passages non identifiés dans Bergk ou Kock dans le temps imparti (Alex. fr. 49.2-3 K.-A. vérifié le 20 nov., PCG II, p. 50, et entré dans la collecte)"
  },
  {
   "v": "192",

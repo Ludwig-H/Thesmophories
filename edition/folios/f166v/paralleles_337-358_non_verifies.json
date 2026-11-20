@@ -1,14 +1,5 @@
 [
  {
-  "v": "337-349",
-  "lemme": "εἴ τις … ἢ … (catalogue) ; κακῶς ἀπολέσθαι",
-  "categorie": "prose",
-  "ref": "SIG³ 167.15",
-  "citation_signalee": "εἰ δέ τις ταῦτα παραβαίνοι, ἐξώλη γίνεσθαι",
-  "signale_par": "Austin–Olson 2004, p. 161",
-  "raison": "inscription : aucun corpus épigraphique local (IG, SIG, Agora) ; non contrôlé"
- },
- {
   "v": "337",
   "lemme": "ἐπὶ βλάβῃ",
   "categorie": "prose",
@@ -66,10 +57,10 @@
   "v": "349-351",
   "lemme": "κακῶς ἀπολέσθαι … πολλὰ δοῦναι κἀγαθά",
   "categorie": "prose",
-  "ref": "SIG³ 997 ; PSI 1162 ; PSI 1290",
+  "ref": "PSI 1162 ; PSI 1290",
   "citation_signalee": "malédiction jointe à une prière de prospérité",
   "signale_par": "Austin–Olson 2004, p. 166",
-  "raison": "inscription et papyrus documentaires : absents du corpus local ; non contrôlé"
+  "raison": "papyrus documentaires : absents du corpus local ; non contrôlé (SIG³ 997 vérifié et inscrit dans la collecte)"
  },
  {
   "v": "349",
@@ -82,39 +73,12 @@
  },
  {
   "v": "349",
-  "lemme": "κακῶς ἀπολέσθαι τοῦτον αὐτὸν κᾠκίαν",
-  "categorie": "prose",
-  "ref": "SIG³ 37–38 = ML 30 (imprécations de Téos)",
-  "citation_signalee": "",
-  "signale_par": "Austin–Olson 2004, p. 167",
-  "raison": "inscription : aucun corpus épigraphique local (IG, SIG, Agora) ; non contrôlé"
- },
- {
-  "v": "349",
   "lemme": "κᾠκίαν",
   "categorie": "poetes",
-  "ref": "Archil. fr. 35.1 ; Semon. fr. 7.101, 106",
-  "citation_signalee": "οἰκίη (premières attestations)",
+  "ref": "Archil. fr. 35.1 (W.)",
+  "citation_signalee": "οἰκίη (première attestation)",
   "signale_par": "Austin–Olson 2004, p. 167",
-  "raison": "Archiloque et Sémonide absents du corpus local ; non contrôlé"
- },
- {
-  "v": "349",
-  "lemme": "κακῶς ἀπολέσθαι",
-  "categorie": "comiques",
-  "ref": "Eub. fr. 115.2 K.-A.",
-  "citation_signalee": "κακῶς",
-  "signale_par": "Austin–Olson 2004, p. 167",
-  "raison": "numérotation K.-A. : fragment non identifié dans Kock (OCR) ; non contrôlé"
- },
- {
-  "v": "351",
-  "lemme": "πολλὰ … κἀγαθά",
-  "categorie": "prose",
-  "ref": "SIG³ 366.13–14",
-  "citation_signalee": "εἰ μὲν εὐορκέω, πολλά μοι κἀγαθὰ εἴησαν",
-  "signale_par": "Austin–Olson 2004, p. 167",
-  "raison": "inscription : aucun corpus épigraphique local (IG, SIG, Agora) ; non contrôlé"
+  "raison": "numérotation de West non retrouvée dans Bergk (OCR) ; non contrôlé (Semon. fr. 7.101 vérifié et inscrit dans la collecte)"
  },
  {
   "v": "357-359",

@@ -868,6 +868,34 @@
   "remarque": "ἐπὶ λύμῃ, synonyme de ἐπὶ βλάβῃ (cf. Hsch. β 649 βλάβη· λύμη) ; même tour en Hdt. 2.121δ.6 (τῶν φυλάκων ἐπὶ λύμῃ πάντων ξυρῆσαι τὰς δεξιὰς παρηίδας)"
  },
  {
+  "v": "337-349",
+  "lemme": "εἴ τις … ἢ … (catalogue de la malédiction) ; κακῶς ἀπολέσθαι τοῦτον αὐτὸν κᾠκίαν",
+  "categorie": "prose",
+  "ref": "SIG³ 37–38 A 1–11",
+  "urn": "ia:ldpd_7219605_000#n64",
+  "citation": "ὅστις : φάρμακα : δηλητήρια : ποιοῖ : ἐπὶ Τήιοισιν : τὸ ξυνὸν : ἢ ἐπ᾽ ἰδιώτηι, : κε͂νον : ἀπόλλυσθαι : καὶ αὐτὸν : καὶ γένος : τὸ κένο. … ὅστις : ἐς γῆν : τὴν Τήιην : κωλύοι : σῖτον : ἐσάγεσθαι : … κε͂νον : ἀπόλλυσθαι : καὶ αὐτὸν : καὶ γένος : τὸ κένο",
+  "traduction": "quiconque prépare des poisons funestes contre la communauté des Téiens ou contre un particulier, qu'il périsse, lui et sa race ; quiconque empêche le blé d'être importé sur la terre de Téos…, qu'il périsse, lui et sa race",
+  "verifie": "scan",
+  "verification": "image, Dittenberger, SIG³ I (Leipzig 1915), p. 41, nos 37–38 « Teiorum dirae post a. 479 » (archive.org ldpd_7219605_000, n64)",
+  "signale_par": "Austin–Olson 2004, p. 167 (« SIG³ 37–8 = M-L 30 »)",
+  "pertinence": 3,
+  "remarque": "les imprécations publiques de Téos (= ML 30 selon Austin–Olson) : même liste d'articles (ὅστις… ἢ… ἢ…), même formule finale d'anéantissement de l'homme et de sa race qu'au v. 349 ; ἐπὶ Τηίοισιν τὸ ξυνὸν ἢ ἐπ᾽ ἰδιώτηι, cf. le v. 337 (ἐπὶ βλάβῃ τινὶ τῇ τῶν γυναικῶν)"
+ },
+ {
+  "v": "337-349",
+  "lemme": "εἴ τις … ἢ … (catalogue de la malédiction) ; κακῶς ἀπολέσθαι τοῦτον αὐτὸν κᾠκίαν",
+  "categorie": "prose",
+  "ref": "SIG³ 167.12–16",
+  "urn": "ia:ldpd_7219605_000#n250",
+  "citation": "καὶ πρόσθετα ποιήσαντες Μαυσσώλλωι, ἐπαρὰς ἐποιήσαντο περὶ τούτων μήτε προτιθέναι ἔτι παρὰ ταῦτα μηδένα μήτε ἐπιψηφίζειν· εἰ δέ τις ταῦτα παραβαίνοι, ἐξώλη γίνεσθαι καὶ αὐτὸν καὶ τοὺς ἐκείνου πάντας",
+  "traduction": "et, ayant adjugé (les biens du coupable) à Mausole, ils prononcèrent des imprécations : que nul ne propose ni ne mette aux voix rien de contraire ; et si quelqu'un transgresse ces dispositions, qu'il soit anéanti, lui et tous les siens",
+  "verifie": "scan",
+  "verification": "image, Dittenberger, SIG³ I (Leipzig 1915), p. 227, no 167 (décret de Mylasa, 367/6) (archive.org ldpd_7219605_000, n250)",
+  "signale_par": "Austin–Olson 2004, p. 161 (« SIG³ 167. 15 »)",
+  "pertinence": 2,
+  "remarque": "εἰ δέ τις … ἐξώλη … καὶ αὐτὸν καὶ τοὺς ἐκείνου πάντας ; le coupable, Arlissis, avait « comploté » (ἐπεβούλευσε) contre Mausole et trahi son ambassade (παρεπρέσβευσεν), cf. vv. 335 et 342"
+ },
+ {
   "v": "338",
   "lemme": "τῇ τῶν γυναικῶν",
   "categorie": "aristophane",
@@ -2798,6 +2826,34 @@
   "signale_par": "dépouillement d'Hésychius",
   "pertinence": 1,
   "remarque": "l'ἄβρα, servante de confiance de la maîtresse, que la Comédie montre en complice des intrigues"
+ },
+ {
+  "v": "340-341",
+  "lemme": "δούλη τινὸς … ἐνετρύλλισεν τῷ δεσπότῃ",
+  "categorie": "comiques",
+  "ref": "Plaut. Mil. 475–477",
+  "urn": "urn:cts:latinLit:phi0119.phi012.perseus-lat2:475",
+  "citation": "quid propius fuit, / quam ut perirem, si elocutus essem ero? … mussitabis: plus oportet scire servom quam loqui",
+  "traduction": "qu'est-ce qui m'a manqué pour périr, si j'avais tout dit au maître ?… Tu te tairas : un esclave doit en savoir plus qu'il n'en dit",
+  "verifie": "corpus",
+  "verification": "Perseus phi0119.phi012 (Miles gloriosus), 470–480 (texte XML local, .sources/web/latin_perseus/)",
+  "signale_par": "Tosi n. 1978",
+  "pertinence": 2,
+  "remarque": "l'esclave qui a surpris la concubine de son maître et a failli tout lui rapporter : le contraire de la δούλη des vv. 340–341"
+ },
+ {
+  "v": "340-341",
+  "lemme": "δούλη τινὸς … ἐνετρύλλισεν τῷ δεσπότῃ",
+  "categorie": "proverbes",
+  "ref": "Tosi n. 1978",
+  "urn": "",
+  "citation": "Plus oportet scire servom quam loqui",
+  "traduction": "Un esclave doit en savoir plus long qu'il n'en dit (Tosi)",
+  "verifie": "scan",
+  "verification": "image, Tosi, Dictionnaire des sentences latines et grecques, p. 1437–1438 (PDF p. 1428–1429, .sources/drive/ThesmoBiblio/) ; texte OCR : § 1296 du corpus",
+  "signale_par": "dépouillement de Tosi",
+  "pertinence": 2,
+  "remarque": "d'après Plaut. Mil. 477 (cf. Epid. 60 sq.) ; Walther 21735"
  },
  {
   "v": "341",
@@ -4968,6 +5024,34 @@
   "signale_par": "dépouillement de Tosi",
   "pertinence": 1,
   "remarque": "d'après Sall. Cat. 23.3 ; Tosi signale aussi Ter. Phorm. 68 (montes auri pollicens) et n. 1506 Magna promisisti, exigua video (Sen. Ep. 109.18)"
+ },
+ {
+  "v": "344",
+  "lemme": "καὶ μὴ δίδωσιν ἃν ὑπόσχηταί ποτε",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1.3.10",
+  "urn": "",
+  "citation": "Thessalorum commentum. Θετταλῶν σόφισμα, i. e. Thessalorum commentum, varias ad res accommodari scribit Suidas … tum ad hos qui dolis quempiam circumveniunt … votum nuncupat, se centum hominum capita Deo sacrificaturum … ut postea quotannis hecatomben ei Deo polliceri sint soliti: neque reddere tamen",
+  "traduction": "la ruse des Thessaliens : selon la Souda, se dit… de ceux qui circonviennent quelqu'un par la ruse… (un Thessalien) fait vœu de sacrifier au dieu cent têtes d'hommes… d'où l'usage de promettre chaque année une hécatombe au dieu, sans jamais la rendre",
+  "verifie": "scan",
+  "verification": "image, Érasme, Opera omnia II (Leyde 1703), col. 115 E–F (PDF p. 76, .sources/web/latin/erasme/) ; centurie : Chil. I, Centur. III (cf. p. 79, col. 121 : Chil. I. Centur. III. Prov. XXII–XXVII)",
+  "signale_par": "dépouillement d'Érasme",
+  "pertinence": 2,
+  "remarque": "reprend Zen. 4.29 et App. Prov. 3.20 (Θετταλῶν / Θετταλικὸν σόφισμα) ; la promesse jamais tenue"
+ },
+ {
+  "v": "344",
+  "lemme": "καὶ μὴ δίδωσιν ἃν ὑπόσχηταί ποτε",
+  "categorie": "proverbes",
+  "ref": "Tosi n. 442",
+  "urn": "",
+  "citation": "Facile ex amico inimicum facies, cui promissa non reddas",
+  "traduction": "Il est facile en ne tenant pas ses promesses de transformer un ami en ennemi (Tosi)",
+  "verifie": "scan",
+  "verification": "image, Tosi, Dictionnaire des sentences latines et grecques, p. 359 (PDF p. 355, .sources/drive/ThesmoBiblio/) ; texte OCR : § 317 du corpus (« amica », coquille de l'OCR)",
+  "signale_par": "dépouillement de Tosi",
+  "pertinence": 2,
+  "remarque": "proverbe vulgaire cité dans une lettre attribuée à saint Jérôme (148, 30) ; Walther 8688a"
  },
  {
   "v": "345",
@@ -7588,6 +7672,20 @@
   "remarque": "construction : au v. 348, l'accusatif (τὸ νόμισμα διαλυμαίνεται) ; cf. Plut. 436 (με διαλυμαίνεται)"
  },
  {
+  "v": "348-351",
+  "lemme": "διαλυμαίνεται … κακῶς ἀπολέσθαι … πολλὰ δοῦναι κἀγαθά",
+  "categorie": "prose",
+  "ref": "SIG³ 997.1–16",
+  "urn": "ia:syllogeinscripti03dittuoft#n136",
+  "citation": "[ἰ]χθῦς ἱεροὺς μὴ ἀδικεῖν μηδὲ σκεῦος τῶν τῆς θεοῦ λυμαίνεσθαι … ὁ τούτων τι ποιῶν κακὸς κακῇ ἐξωλείᾳ ἀπόλοιτο, ἰχθυόβρωτος γενόμενος … τοῖς δὲ συμφυλάσσουσιν καὶ ἐπαύξουσιν τὰ τῆς θεοῦ τίμια … βίου καὶ ἐργασίας καλῆς γένοιτο παρὰ τῆς θεοῦ ὄνησις",
+  "traduction": "ne pas maltraiter les poissons sacrés ni endommager aucun objet de la déesse… que celui qui fait l'une de ces choses périsse, méchant, d'une méchante ruine, mangé par les poissons… mais à ceux qui veillent sur les biens de la déesse et les accroissent, que la déesse accorde le profit d'une vie et d'un travail heureux",
+  "verifie": "scan",
+  "verification": "image, Dittenberger, SIG³ III (Leipzig 1920), p. 129, no 997 « Smyrnaeorum lex » (archive.org syllogeinscripti03dittuoft, n136)",
+  "signale_par": "Austin–Olson 2004, p. 166 (« SIG³ 997 »)",
+  "pertinence": 3,
+  "remarque": "malédiction (κακὸς κακῇ ἐξωλείᾳ ἀπόλοιτο) et bénédiction réunies, comme aux vv. 349–351 ; λυμαίνεσθαι, cf. v. 348 (διαλυμαίνεται)"
+ },
+ {
   "v": "349",
   "lemme": "κακῶς ἀπολέσθαι",
   "categorie": "aristophane",
@@ -8202,6 +8300,48 @@
   "signale_par": "dépouillement d'Hésychius",
   "pertinence": 1,
   "remarque": "glose de la forme même du v. 349"
+ },
+ {
+  "v": "349",
+  "lemme": "κακῶς ἀπολέσθαι",
+  "categorie": "comiques",
+  "ref": "Eub. fr. 116–117 Kock",
+  "urn": "ia:comicorumatticor02kockuoft#n210",
+  "citation": "κακὸς / κακῶς ἀπόλοιθ᾽ ὅστις γυναῖκα δεύτερος / ἔγημε· τὸν γὰρ πρῶτον οὐκ ἐρῶ κακῶς … ὦ Ζεῦ πολυτίμητ᾽, εἶτ᾽ ἐγὼ κακῶς ποτε / ἐρῶ γυναῖκας; νὴ Δί᾽ ἀπολοίμην ἄρα",
+  "traduction": "malheur et male mort à qui, le second, a pris femme ! le premier, je n'en dirai pas de mal… ô Zeus vénéré, moi, dire du mal des femmes ? que je périsse plutôt !",
+  "verifie": "scan",
+  "verification": "image, Kock, CAF II, p. 204 (archive.org comicorumatticor02kockuoft, n210) ; chercher.py '\"κακὸς κακῶς ἀπόλοιθ\"' -a Kock",
+  "signale_par": "Austin–Olson 2004, p. 167 (« Eub. fr. 115. 2 »)",
+  "pertinence": 2,
+  "remarque": "Chrysilla ; = fr. 115 K.-A. d'après Austin–Olson ; la formule d'imprécation κακὸς κακῶς ἀπόλοιτο, appliquée au mariage, puis la revue des femmes de tragédie (Médée, Pénélope, Clytemnestre, Alceste, Phèdre)"
+ },
+ {
+  "v": "349",
+  "lemme": "αὐτὸν κᾠκίαν",
+  "categorie": "poetes",
+  "ref": "Semon. fr. 7.100–101 Bergk⁴",
+  "urn": "ia:poetaelyricigra03berggoog#n462",
+  "citation": "ἅπασαν, ὅστις σὺν γυναικὶ γίγνεται· / οὐδ᾽ αἶψα λιμὸν οἰκίης ἀπώσεται",
+  "traduction": "(il ne passe pas une journée entière heureux,) l'homme qui vit avec une femme ; et il ne chassera pas de sitôt la faim de sa maison",
+  "verifie": "corpus",
+  "verification": "chercher.py 'λιμὸν οἰκίης' : Bergk PLG⁴ II, p. 452 (OCR ; numéros de vers 100 et 106 de l'éd. lus dans l'OCR) ; Stob. Flor. (Meineke), p. 49 (OCR)",
+  "signale_par": "Austin–Olson 2004, p. 167 (premières attestations d'οἰκίη)",
+  "pertinence": 1,
+  "remarque": "οἰκίη, une des premières attestations ; la femme, ruine de la maison"
+ },
+ {
+  "v": "349-351",
+  "lemme": "κακῶς ἀπολέσθαι … ταῖς δ᾽ ἄλλαισιν … πολλὰ κἀγαθά",
+  "categorie": "prose",
+  "ref": "SIG³ 366.12–15",
+  "urn": "ia:ldpd_7219605_000#n625",
+  "citation": "εἰ μὲν εὐ[ορ]κέω, πολλά μοι κἀγαθὰ εἴησαν, εἰ δ᾽ ἐφιορκοίην ἐξώλης εἴην [αὐτὸς καὶ τὸ] γένος",
+  "traduction": "si je respecte mon serment, puissé-je avoir beaucoup de biens ; si je me parjure, puissé-je périr, moi et ma race",
+  "verifie": "scan",
+  "verification": "image, Dittenberger, SIG³ I (Leipzig 1915), p. 600, no 366 (traité des Étoliens, Phocidiens et Béotiens, 292/89) (archive.org ldpd_7219605_000, n625)",
+  "signale_par": "Austin–Olson 2004, p. 167 (« SIG³ 366. 13–14 »)",
+  "pertinence": 3,
+  "remarque": "la même alternance qu'aux vv. 349–351 : anéantissement du parjure et de sa race, « beaucoup de biens » (πολλὰ κἀγαθά) pour qui tient parole ; vaut aussi pour les vv. 357–359 (ἐφιορκοίην)"
  },
  {
   "v": "350-351",
@@ -9688,6 +9828,48 @@
   "remarque": "« bien dire », κάλλιστα εἰπεῖν, en proverbe"
  },
  {
+  "v": "355-356",
+  "lemme": "τὰ δ᾽ ἄρισθ᾽ ὅσαις προσήκει νικᾶν λεγούσαις",
+  "categorie": "tragiques",
+  "ref": "Eur. Or. 943–944",
+  "urn": "urn:cts:greekLit:tlg0006.tlg016.perseus-grc2:943",
+  "citation": "ἀλλ᾽ οὐκ ἔπειθ᾽ ὅμιλον, εὖ δοκῶν λέγειν. / νικᾷ δ᾽ ἐκεῖνος ὁ κακὸς ἐν πλήθει λέγων",
+  "traduction": "mais il ne persuadait pas la foule, quoiqu'il parût bien parler ; et c'est le méchant qui l'emporte en parlant devant la multitude",
+  "verifie": "corpus",
+  "verification": "p.py Eur. Or. 940 946",
+  "signale_par": "LSJ s.v. νικάω (« freq. of orators, νικᾷ . . ὁ κακὸς ἐν πλήθει λέγων E. Or. 944 »)",
+  "pertinence": 3,
+  "remarque": "l'assemblée d'Argos chez Euripide : le contraire du vœu des vv. 355–356 (que l'emportent celles qui donnent les meilleurs avis)"
+ },
+ {
+  "v": "355-356",
+  "lemme": "ὅσαις προσήκει νικᾶν λεγούσαις",
+  "categorie": "aristophane",
+  "ref": "Ar. Vesp. 594–595",
+  "urn": "urn:cts:greekLit:tlg0019.tlg004.perseus-grc2:594",
+  "citation": "κἀν τῷ δήμῳ γνώμην οὐδεὶς πώποτ᾽ ἐνίκησεν, ἐὰν μὴ / εἴπῃ τὰ δικαστήρι᾽ ἀφεῖναι πρώτιστα μίαν δικάσαντας",
+  "traduction": "et à l'assemblée personne n'a jamais fait passer sa proposition, s'il n'a d'abord proposé de lever les tribunaux après une seule affaire jugée",
+  "verifie": "corpus",
+  "verification": "p.py Ar. Vesp. 594 596",
+  "signale_par": "LSJ s.v. νικάω (Ar. V. 594)",
+  "pertinence": 2,
+  "remarque": "νικᾶν « l'emporter » à l'assemblée (ἐν τῷ δήμῳ), comme au v. 356 (après δήμῳ, v. 353)"
+ },
+ {
+  "v": "355-356",
+  "lemme": "νικᾶν λεγούσαις",
+  "categorie": "prose",
+  "ref": "Hdt. 5.36.4",
+  "urn": "urn:cts:greekLit:tlg0016.tlg001.perseus-grc2:5.36.4",
+  "citation": "αὕτη μὲν δὴ οὐκ ἐνίκα ἡ γνώμη",
+  "traduction": "cet avis ne l'emporta pas",
+  "verifie": "corpus",
+  "verification": "chercher.py 'NEAR(ἐνίκα γνώμη, 3)'",
+  "signale_par": "LSJ s.v. νικάω (ἐνίκα ἡ γνώμη Hdt. 5.36)",
+  "pertinence": 1,
+  "remarque": "νικᾶν, d'un avis qui prévaut dans un conseil"
+ },
+ {
   "v": "356-359",
   "lemme": "ὁπόσαι δ᾽ ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους τοὺς νενομισμένους",
   "categorie": "aristophane",
@@ -10302,6 +10484,20 @@
   "signale_par": "dépouillement d'Érasme (index : … mulieris jusjurandum, 262 E)",
   "pertinence": 2,
   "remarque": "le serment des femmes ne vaut rien ; cf. Soph. fr. 811 R. (ὅρκους ἐγὼ γυναικὸς εἰς ὕδωρ γράφω) et Tosi n. 337"
+ },
+ {
+  "v": "356-359",
+  "lemme": "νικᾶν … παραβαίνουσί τε τοὺς ὅρκους",
+  "categorie": "aristophane",
+  "ref": "Ar. Av. 444–447",
+  "urn": "urn:cts:greekLit:tlg0019.tlg006.perseus-grc2:444",
+  "citation": "κατόμοσόν νυν ταῦτά μοι. — ὄμνυμ᾽ ἐπὶ τούτοις, πᾶσι νικᾶν τοῖς κριταῖς / καὶ τοῖς θεαταῖς πᾶσιν. — ἔσται ταυταγί. — εἰ δὲ παραβαίην, ἑνὶ κριτῇ νικᾶν μόνον",
+  "traduction": "jure-le-moi. — J'en fais le serment, à condition de l'emporter auprès de tous les juges et de tous les spectateurs. — Ainsi sera-t-il. — Et si je me parjure, de ne l'emporter que d'une voix",
+  "verifie": "corpus",
+  "verification": "p.py Ar. Av. 444 447",
+  "signale_par": "LSJ s.v. νικάω (νικᾶν πᾶσι τοῖς κριταῖς, Ar. Av. 445, 447)",
+  "pertinence": 2,
+  "remarque": "serment comique assorti d'un vœu (νικᾶν) et d'une imprécation conditionnelle (εἰ δὲ παραβαίην) : la structure des vv. 352–359, appliquée au concours dramatique"
  },
  {
   "v": "357",

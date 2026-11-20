@@ -166,5 +166,45 @@
   "ref": "IG I³ 61.53, 55 (restitutions) ; IG II² 1.74",
   "source": "Austin–Olson ad 78–9 (ἕδρα, séance du Conseil)",
   "motif": "Épigraphie absente des sources locales (référence lue dans la seconde numérisation d'Austin–Olson, la première étant altérée)."
+ },
+ {
+  "v": "76–77",
+  "lemme": "εἴτ᾽ ἔστ᾽ ἔτι ζῶν εἴτ᾽ ἀπόλωλ᾽",
+  "categorie": "poetes",
+  "ref": "Hor. Sat. 2.5.59",
+  "source": "Érasme, Adag. 2.7.49 (LB II 625 E : O Laertiade, quicquid dicam, aut erit, aut non)",
+  "motif": "Satires d'Horace absentes du corpus latin local."
+ },
+ {
+  "v": "74",
+  "lemme": "οὐ χρῆν σε κρύπτειν ὄντα κηδεστὴν ἐμόν",
+  "categorie": "comiques",
+  "ref": "Ter. Ad. 803 ; Men. fr. 13 K.-A.",
+  "source": "Tosi n. 433 (p. 348)",
+  "motif": "Adelphes absents du corpus latin local ; PCG VI.2 non disponible."
+ },
+ {
+  "v": "65",
+  "lemme": "πάσῃ τέχνῃ",
+  "categorie": "proverbes",
+  "ref": "Macar. 7.4 ; Apostol. 13.91 ; Phot. p. 378, 19–23 Porson ; Plut. Ant. 45",
+  "source": "Tosi n. 1286 (p. 956)",
+  "motif": "Doublons du proverbe πάντα λίθον κίνει, non contrôlés un à un (Zen. 5.63, Diogenian. 7.42, Hsch. π 389–390, Sud. π 222 et Érasme relevés)."
+ },
+ {
+  "v": "63",
+  "lemme": "νέος … ὦ γέρον",
+  "categorie": "proverbes",
+  "ref": "Hes. fr. 321 M.-W. ; Ar. Byz. fr. 358 Slater ; Apostol. 7.90 ; Macar. 4.11 ; Hyp. fr. 57 K.",
+  "source": "Tosi n. 1081 (p. 795)",
+  "motif": "Renvois de Tosi non contrôlés sur les textes (Strabon 14.5.14 et Harp. s.v. ἔργα νέων relevés)."
+ },
+ {
+  "v": "68",
+  "lemme": "κατακάμπτειν (la cire)",
+  "categorie": "proverbes",
+  "ref": "Greg. Cypr. M. 4.2 ; Damasc. fr. 127 ; Ael. NA 17.9 ; Euseb. PE 12.46.3",
+  "source": "Tosi n. 1375 (p. 1019)",
+  "motif": "Renvois de Tosi non contrôlés (Greg. Cypr. L 2.44, Sud. κ 1537, Pl. Resp. 588d, Hor. Ars 163, Cic. De or. 3.177, Ov. Met. 10.284–286 relevés)."
  }
 ]

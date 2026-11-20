@@ -8,8 +8,8 @@
  {
   "v": "231",
   "lemme": "μυμῦ",
-  "ref": "Enn. inc. 10 V. ; Lucil. 426 M.",
-  "motif": "références de Tosi n. 2123, non contrôlées sur les éditions (seul Petr. 57.8 l’est)."
+  "ref": "Lucil. 426 M.",
+  "motif": "référence de Tosi n. 2123, non contrôlée sur l'édition (Enn. inc. 10 V. est vérifié par Varro L. 7.101, Petr. 57.8 aussi)."
  },
  {
   "v": "231",
@@ -36,12 +36,6 @@
   "motif": "parallèles d'Austin–Olson 2004, p. 133 (appel à l'eau et aux voisins) ; textes absents du corpus local, non contrôlés."
  },
  {
-  "v": "243",
-  "lemme": "καταπεπυρπολημένος",
-  "ref": "Plb. 5.19.8 ; Palaeph. 52",
-  "motif": "LSJ s.v. καταπυρπολέω : forme non recopiée ici."
- },
- {
   "v": "245",
   "lemme": "φεῦ",
   "ref": "Phot. α 2946 (Theodoridis I)",
@@ -58,23 +52,5 @@
   "lemme": "τράμις",
   "ref": "Ruf. Onom. 101",
   "motif": "cité par Austin–Olson 2004, p. 135 et par LSJ s.v. τράμις ; Rufus d'Éphèse, De corporis humani partium appellationibus, absent du corpus local : texte non lu."
- },
- {
-  "v": "248",
-  "lemme": "πρωκτὸς λουτροῦ",
-  "ref": "Diogen. 3.53",
-  "motif": "référence de l’auteur ; absente de l’épitomé e cod. Mazarinaeo indexé et de l’index du CPG I (qui donne App. Prov. 4.61)."
- },
- {
-  "v": "248",
-  "lemme": "πρωκτὸς λουτροῦ",
-  "ref": "Apostol. 14.78",
-  "motif": "référence de l’auteur ; l’index de CPG II, p. 823, renvoie bien à Ap XIV 78 (OCR), texte non lu."
- },
- {
-  "v": "251",
-  "lemme": "στρόφιον",
-  "ref": "Poll. 7.65–67",
-  "motif": "glose de Pollux signalée par la recherche (Bethe II, p. 78, OCR), § non établi."
  }
 ]

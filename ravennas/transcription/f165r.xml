@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page folio="165r" image="06_f165r_classense167r_vv0208-0251.jpg" vers="209-251">
+  <lignes>
+    <l n="1" v="209"><unclear cert="moyenne"><parag/></unclear><nota main="Rrec">ἀγ</nota><signe type="autre" main="R?">¡</signe>ὦ τρισκακοδαίμον ὡσ ἀπόλωλ᾽ εὐριπίδησ</l>
+  </lignes>
+  <scholies/>
+  <notes>
+    <note>Arbitrage des lectures A (directe) et B (par passes) ; journal : ravennas/transcription/arbitrages/f165r.md. Arbitrage en cours. Esprits d'espèce indistincte sur la page (points, triangles, crochets) : l'espèce écrite est celle qu'on attend, ce n'est pas une donnée (guide, § 2.4). Sigles de 1516 : le point qui suit un sigle (point abréviatif) est dans le &lt;nota&gt; ; les points et dicola de T restent dans la ligne. Marques de T sous les sigles : Velsen 1871, p. 9–10 (« — I m. », « : I m. ») et Velsen 1883, script. discr.</note>
+    <note ligne="1">τρισκακοδαίμον : ο, non ω, avant le ν final (Velsen 1883, Prato 2001, Wilson 2007 : -δαίμον R) ; aigu sur αι de -δαί- (x ≈ 555–570, y ≈ 358–372 ; contre Enger 1844, « accentus omnino deest »). Paragraphos de T présumée sous la barre du Γ de 1516 (pointe brune, Velsen 1871 : « 209 — I m. ἀγ. 2 m. »). Entre le sigle et ὦ, trait vertical fin surmonté d'un point (x ≈ 218–228, y ≈ 387–418), brun pâle, aussi en 1904 : non identifié. ἀπόλωλ᾽ : crochet (x ≈ 893, y ≈ 365) et point (x ≈ 918, y ≈ 372) au-dessus de ευ : apostrophe déportée et esprit de εὐ. εὐριπίδησ au nominatif (Velsen 1883 : εὐριπίδης RG).</note>
+  </notes>
+</page>

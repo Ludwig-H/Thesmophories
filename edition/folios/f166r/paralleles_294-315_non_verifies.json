@@ -22,5 +22,69 @@
   "ref": "Phot. ε 1800 (ἐπιχαίρειν· συγχαίρειν)",
   "signale_par": "testimonia de Latte à Hsch. ε 5416",
   "raison": "Photius de Theodoridis non disponible localement ; glose non retrouvée dans l'OCR de Naber"
+ },
+ {
+  "v": "315",
+  "lemme": "χρυσολύρα",
+  "categorie": "poetes",
+  "ref": "Posidipp. 118.2 Austin–Bastianini (χρυσολύρεω)",
+  "signale_par": "Austin–Olson 2004, p. 156 (« subsequently at Posidipp. 118. 2 »)",
+  "raison": "texte de Posidippe (tablettes de cire de Berlin) absent du corpus local et des scans disponibles"
+ },
+ {
+  "v": "315",
+  "lemme": "χρυσολύρα",
+  "categorie": "poetes",
+  "ref": "Orph. H. 34.3 (χρυσολύρη)",
+  "signale_par": "Prato 2001, p. 222 (« h. Orph. 34,3 ») ; Austin–Olson 2004, p. 156",
+  "raison": "Hymnes orphiques absents du corpus local ; à contrôler sur l'édition de Quandt ou sur un scan d'Abel (1885)"
+ },
+ {
+  "v": "315",
+  "lemme": "μεγαλώνυμε",
+  "categorie": "poetes",
+  "ref": "Sapph. fr. 44A a 3 Voigt (μεγαλώνυμος de Zeus)",
+  "signale_par": "Austin–Olson 2004, p. 156 (« first attested at Sapph. fr. 44A. a. 3 (of Zeus) »)",
+  "raison": "fragment papyrologique absent du corpus local (non retrouvé dans les textes DCLP indexés)"
+ },
+ {
+  "v": "315",
+  "lemme": "χρυσολύρα",
+  "categorie": "poetes",
+  "ref": "Simon. PMG 511 fr. 1(a).5 (instrument d'or d'Apollon)",
+  "signale_par": "Austin–Olson 2004, p. 156",
+  "raison": "papyrus de Simonide absent du corpus local"
+ },
+ {
+  "v": "315",
+  "lemme": "χρυσολύρα",
+  "categorie": "poetes",
+  "ref": "Bacch. 3.28 (χρυσάορ-, « à la lyre d'or » ?)",
+  "signale_par": "Austin–Olson 2004, p. 156 (« probably Bacch. 3. 28 (cf. Maehler ad loc.) »)",
+  "raison": "Bacchylide absent du corpus local (recherche χρυσάορ* -a Bacch : aucun résultat)"
+ },
+ {
+  "v": "315",
+  "lemme": "Ζεῦ",
+  "categorie": "comiques",
+  "ref": "Crates fr. 44 K.-A. (ἐξ Ἑστίας ἀρχόμενος ?)",
+  "signale_par": "Tosi n. 62 ; scholie d'Aratos citée par Kaibel, CGF I, p. 161 (« ἀλλὰ καὶ Κράτης ὁ κωμικός »), où la citation de Cratès est omise",
+  "raison": "texte de Cratès non cité par Kaibel ; PCG IV non contrôlé"
+ },
+ {
+  "v": "315",
+  "lemme": "Ζεῦ",
+  "categorie": "proverbes",
+  "ref": "Arsen. 27.36 (Ζεῦ πάντων ἀρχά, vers de Terpandre)",
+  "signale_par": "Bergk, PLG⁴ III, p. 9 (« Eadem Arsen. 261 ») ; Leutsch, CPG II, p. 434, note (« Arsen. XXVII, 36 »)",
+  "raison": "Arsénius non disponible localement ; seul Apost. 8.29c a été vérifié sur l'image"
+ },
+ {
+  "v": "297-301",
+  "lemme": "εὔχεσθε ταῖν Θεσμοφόροιν … καὶ ταῖς Χάρισιν",
+  "categorie": "prose",
+  "ref": "IG II² 112, 6–9 (prière du héraut : Zeus Olympien, Athéna Polias, Déméter et Coré, les Douze dieux, les Semnai)",
+  "signale_par": "Austin–Olson 2004, p. 151 (note aux vv. 297–301)",
+  "raison": "IG II² absent du corpus local ; à contrôler sur IG ou PHI"
  }
 ]

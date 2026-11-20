@@ -36,12 +36,6 @@
   "raison": "Références de seconde main ; textes non lus. Mentionnés seulement dans les remarques."
  },
  {
-  "ref": "Archil. 32 (LSJ s.v. κύβδα)",
-  "lemme": "πρανοῦν (v. 50)",
-  "signale_par": "LSJ",
-  "raison": "Vers non lu sur un texte source."
- },
- {
   "ref": "Ael. Dion. λ 6 ; Phryn. PS 120, 3 ; Schol. Plat. Euthyd. 303a",
   "lemme": "λαικάζει ; βομβάξ",
   "signale_par": "testimonia de Latte et Hansen ; Meineke I, p. 10–11",
@@ -54,22 +48,22 @@
   "raison": "Variante non contrôlée sur un apparat ou sur le manuscrit."
  },
  {
-  "ref": "EM 455, 55 (θριγκός) ; Et. Gen. ; Et. Gud. 264, 56",
+  "ref": "Et. Gen. ; Et. Gud. 264, 56",
   "lemme": "θριγκοῖς (v. 58)",
   "signale_par": "apparat de Latte à Hsch. θ 749",
-  "raison": "OCR de l'Etymologicum Magnum illisible à cet endroit ; page non lue."
+  "raison": "L'EM 455, 52–57 a été lu sur l'image et figure au fichier (vv. 58–60) ; Etymologicum Genuinum et Gudianum restent absents du corpus local."
  },
  {
-  "ref": "Moer. ; Antiatt. ; Aelius Dionysius ; Phot. α–μ (Theodoridis I–II)",
+  "ref": "Antiatt. ; Aelius Dionysius ; Phot. α–μ (Theodoridis I–II) ; Moeris (numéros de Hansen)",
   "lemme": "ensemble des vv. 43–61",
   "signale_par": "consigne de la tâche",
-  "raison": "Antiatticiste (Bekker, Anecd. I) non indexé, Aelius Dionysius et Moeris absents du corpus, Photius α–μ seulement en OCR médiocre de Naber : le dépouillement de ces lexiques reste incomplet."
+  "raison": "Antiatticiste : Bekker, Anecd. I n'est indexé que sur deux pages (inutilisable) ; Aelius Dionysius (Erbse) absent ; Photius α–μ seulement dans l'OCR médiocre de Naber. Moeris a été lu dans Bekker 1833 (pp. 192 et 213, images) mais les numéros de l'édition de Hansen ne sont pas contrôlés."
  },
  {
-  "ref": "Taillardat, Les images d'Aristophane, §§ 166, 758, 784 ; Austin–Olson 2004, commentaire",
+  "ref": "Taillardat, Les images d’Aristophane (1965) : dépouillement intégral",
   "lemme": "ensemble des vv. 43–61",
-  "signale_par": "commentaire de l'auteur ; consigne de la tâche",
-  "raison": "PDF du Drive trop lourds pour le téléchargement (> 10 Mo) et extraits locaux sans commentaire : signalements seulement à travers le commentaire de l'auteur, Sommerstein, van Leeuwen, Rogers, Fritzsche et Blaydes."
+  "signale_par": "consigne de la tâche ; commentaire de l’auteur",
+  "raison": "Austin–Olson 2004 a été dépouillé (reprise du 13 nov.). Taillardat est désormais disponible en OCR (.sources/drive/Taillardat/) : les §§ 86, 88, 758 et 784, repérés par les renvois aux vv. 43–62, ont été exploités le 20 nov. ; les autres paragraphes (sans renvoi explicite à ces vers) n'ont pas été relus."
  },
  {
   "ref": "Enger 1844, commentaire",
@@ -81,12 +75,84 @@
   "ref": "M. L. West, ZPE 92 (1992) 47–50 ; H. D. Jocelyn, PCPhS 206 (1980) 12–66",
   "lemme": "vv. 43–50 ; λαικάζει",
   "signale_par": "Sommerstein ; Austin, Dodone 19 (1990)",
-  "raison": "Bibliographie secondaire non consultée."
+  "raison": "Bibliographie secondaire non consultée. L'avis de Jocelyn (vv. 59 sqq. : menace d'irrumatio) est connu seulement par Henderson, The Maculate Muse², addenda (cité dans la remarque d'Archil. S 478.21)."
  },
  {
   "ref": "Phot. β 212",
   "lemme": "βομβάξ (v. 45)",
   "signale_par": "Austin–Olson ad 45",
   "raison": "Photius α–δ (Theodoridis I) absent du corpus local ; la glose n'a pas été retrouvée dans l'OCR de Naber. Seule Sud. β 370 (même glose) est citée."
+ },
+ {
+  "ref": "Com. adesp. fr. 12–14 Kock (οὐδεὶς κομήτης ὅστις οὐ …) : numéro K.-A.",
+  "lemme": "μῶν βινεῖσθαι; (v. 50)",
+  "signale_par": "Kock III, p. 400",
+  "raison": "Fragments lus dans Kock (image) ; numérotation de Kassel–Austin non contrôlée."
+ },
+ {
+  "ref": "Synes. Ep. 104 ; Synes. Calv. enc. 85d (= § 22 Terzaghi)",
+  "lemme": "μῶν βινεῖσθαι; (v. 50)",
+  "signale_par": "Leutsch (CPG II, p. 197, note à Macar. 6.74) ; Kock III, p. 400 ; Theodoridis, apparat de Phot. ο 609",
+  "raison": "Synésios absent du corpus local : seule la reprise de la Souda (κ 1996) est citée."
+ },
+ {
+  "ref": "Apostol. 13.29 ; Apostol. 13.31",
+  "lemme": "μῶν βινεῖσθαι; (v. 50)",
+  "signale_par": "Leutsch (CPG II, p. 197) ; Kock III, p. 400 ; Theodoridis",
+  "raison": "Articles d'Apostolius non relus (CPG II, centurie XIII)."
+ },
+ {
+  "ref": "Ael. Dion. ο 34 Erbse",
+  "lemme": "μῶν βινεῖσθαι; (v. 50)",
+  "signale_par": "Theodoridis, apparat de Phot. ο 609",
+  "raison": "Aelius Dionysius absent du corpus local."
+ },
+ {
+  "ref": "AP 6.159",
+  "lemme": "μὴ κελαδείτω (v. 44)",
+  "signale_par": "Bekker, Suidae Lexicon, s.v. ἐριβρύχων (OCR)",
+  "raison": "Épigramme citée d'après Sud. κ 1281 ; le texte de l'Anthologie n'a pas été lu (numéro d'après Bekker)."
+ },
+ {
+  "ref": "Cic. Phil. 3 (Bambalio)",
+  "lemme": "βομβάξ, βομβαλοβομβάξ (vv. 45, 48)",
+  "signale_par": "Érasme, Adag. II.vi.71 ; Schott ap. Gaisford, Paroem. p. 273",
+  "raison": "Texte latin absent du corpus local ; mentionné seulement à travers Érasme."
+ },
+ {
+  "ref": "Archil. fr. 196a West (= S 478) : numérotation de West et ligne",
+  "lemme": "κατὰ τοῦ θριγκοῦ (v. 60)",
+  "signale_par": "Henderson, The Maculate Muse², addenda",
+  "raison": "Texte lu dans DCLP (ZPE 14, 1974) ; la référence S 478.21 vient de Henderson ; le numéro de West et la ligne ne sont pas contrôlés."
+ },
+ {
+  "ref": "Theopomp. com. fr. 35 ; Strattis fr. 40.2, 41 ; schol. Ar. Vesp. 1346",
+  "lemme": "καὶ λαικάζει (v. 57)",
+  "signale_par": "Henderson, The Maculate Muse², § 381",
+  "raison": "Fragments et scholie non relus."
+ },
+ {
+  "ref": "Eust. ad Od. 1622, 43 (πρὸς κύματα λαλεῖν παροιμιακῶς)",
+  "lemme": "κῦμα δὲ πόντου μὴ κελαδείτω (v. 44)",
+  "signale_par": "Leutsch–Schneidewin, CPG I, p. 345 (note aux proverbes de Plutarque, n° 23)",
+  "raison": "Passage d'Eustathe non relu dans l'édition de Rome / Stallbaum."
+ },
+ {
+  "ref": "Greg. Cypr. M 3.61 (Ἢ λέγε τι σιγῆς κρεῖττον ἢ σιγὴν ἔχε)",
+  "lemme": "σίγα (v. 45)",
+  "signale_par": "index des proverbes de CPG II (OCR)",
+  "raison": "Lu seulement dans l'OCR de l'index ; article non relu. Le proverbe est cité d'après App. Prov. 3.7."
+ },
+ {
+  "ref": "Poll. 1.142–145 ; Poll. 10 (parties de la roue : ἁψῖδες, ἴτυς)",
+  "lemme": "νέας ἁψῖδας (v. 53)",
+  "signale_par": "recherche directe (OCR de Dindorf et de Bethe)",
+  "raison": "OCR médiocre, numéros de paragraphe non établis sur l'image ; non cité (la Synagoge B α 2625 donne la définition)."
+ },
+ {
+  "ref": "Demetr. Eloc. 229 (τὰ σῦκα σῦκα)",
+  "lemme": "ἀγροιώτας (v. 58)",
+  "signale_par": "Tosi n. 2272",
+  "raison": "Passage non vérifié au corpus (mentionné seulement dans la remarque de Tosi n. 2272)."
  }
 ]

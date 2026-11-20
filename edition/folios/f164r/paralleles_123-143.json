@@ -5391,6 +5391,20 @@
  },
  {
   "v": "133",
+  "lemme": "ὑπὸ τὴν ἕδραν αὐτὴν ὑπῆλθε γάργαλος",
+  "categorie": "prose",
+  "ref": "Rabelais, Gargantua XIII",
+  "urn": "",
+  "citation": "Ie me torchay vne foys d’vn cachelet de velours de vne damoiselle : & le trouuay bon : car la mollice de sa soye me causoit au fondement vne volupté bien grande.",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "image, Rabelais, Œuvres, éd. Marty-Laveaux, Paris, Lemerre, 1868, t. I, p. 51–52 (fac-similé Wikimedia Commons, « Rabelais marty-laveaux 01.djvu », p. 71–72)",
+  "signale_par": "l’auteur (article 133 de son commentaire, désactivé) ; non vérifiés antérieurs, repris le 20 nov.",
+  "pertinence": 1,
+  "remarque": "parallèle français de l’auteur : la mollesse (mollice) qui chatouille le fondement, comme le chant d’Agathon."
+ },
+ {
+  "v": "133",
   "lemme": "γάργαλος",
   "categorie": "lexicographes",
   "ref": "Hsch. γ 168",
@@ -7474,6 +7488,20 @@
   "signale_par": "dépouillement d'Hésychius (reprise)",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "136",
+  "lemme": "τίς ἡ στολή",
+  "categorie": "lexicographes",
+  "ref": "Sud. κ 2010",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:3.Κ.2010",
+  "citation": "Κομμοῦσθαι: καλλωπίζεσθαι περιέργως καὶ γυναικωδῶς. οὕτως Εὔπολις",
+  "traduction": "κομμοῦσθαι : se parer avec recherche et à la façon des femmes (ainsi Eupolis)",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 3.Κ.2010",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov. ; vu sur l’image d’Adler III, p. 151)",
+  "pertinence": 1,
+  "remarque": "la toilette féminine d’un homme, chez un comique ; cf. Sud. κ 2012 (Κομμωτής· καλλωπιστής), κ 2015 (Κομμώτρια)."
  },
  {
   "v": "136",
@@ -9817,6 +9845,20 @@
   "v": "139",
   "lemme": "ὡς οὐ ξύμφορον",
   "categorie": "aristophane",
+  "ref": "Ar. Ran. 807",
+  "urn": "urn:cts:greekLit:tlg0019.tlg009.perseus-grc2:807",
+  "citation": "οὔτε γὰρ Ἀθηναίοισι συνέβαινʼ Αἰσχύλος",
+  "traduction": "car Eschyle ne s’accordait pas avec les Athéniens",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0019.tlg009.perseus-grc2:807",
+  "signale_par": "van Leeuwen 1904, p. 26 (non vérifiés antérieurs, repris le 20 nov.)",
+  "pertinence": 1,
+  "remarque": ""
+ },
+ {
+  "v": "139",
+  "lemme": "ὡς οὐ ξύμφορον",
+  "categorie": "aristophane",
   "ref": "Ar. Thesm. 21",
   "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2:21",
   "citation": "οἷόν γέ που ʼστιν αἱ σοφαὶ ξυνουσίαι",
@@ -9826,6 +9868,20 @@
   "signale_par": "Austin–Olson 2004, ad 139 (prédicat neutre d'un sujet pluriel : « cf. 21 »)",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "139",
+  "lemme": "ὡς οὐ ξύμφορον",
+  "categorie": "aristophane",
+  "ref": "Ar. Vesp. 1126",
+  "urn": "urn:cts:greekLit:tlg0019.tlg004.perseus-grc2:1126",
+  "citation": "μὰ τὸν Δίʼ οὐ γὰρ οὐδαμῶς μοι ξύμφορον",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0019.tlg004.perseus-grc2:1126",
+  "signale_par": "van Leeuwen 1904, p. 26 (non vérifiés antérieurs, repris le 20 nov.)",
+  "pertinence": 1,
+  "remarque": "van Leeuwen cite aussi Eccl. 515 (ξύμφορον) et, pour ξυμβαίνειν « s’accorder », Eq. 1233, Ran. 175 : usages généraux, non retenus."
  },
  {
   "v": "139",
@@ -12209,6 +12265,20 @@
  },
  {
   "v": "142",
+  "lemme": "ποῦ χλαῖνα",
+  "categorie": "lexicographes",
+  "ref": "EM 812.21",
+  "urn": "",
+  "citation": "Χλαῖνα] παρὰ τὸ χλιαίνειν, ὅ ἐστι θερμαίνειν … λέγεται μὲν χλαῖνα, τὸ παχὺ καὶ χειμερινὸν ἱμάτιον· χλανὶς δέ, τὸ λεπτότατον καὶ μαλακὸν καὶ τρυφερόν",
+  "traduction": "la χλαῖνα, manteau épais et d’hiver ; la χλανίς, très fin, mou et délicat",
+  "verifie": "scan",
+  "verification": "image, Etymologicum Magnum, réimpr. Leipzig 1816, col. 736 (= p. 812 Sylburg, l. 21 ; archive.org etymologikontome00etymuoft_201708, n387)",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 2,
+  "remarque": "l’épais manteau d’homme que Mnésiloque cherche en vain, à l’opposé de la χλανίς molle et délicate."
+ },
+ {
+  "v": "142",
   "lemme": "Λακωνικαί",
   "categorie": "lexicographes",
   "ref": "Hsch. α 3838",
@@ -12321,6 +12391,48 @@
  },
  {
   "v": "142",
+  "lemme": "ποῦ χλαῖνα",
+  "categorie": "lexicographes",
+  "ref": "Moer. p. 213, 9 Bekker",
+  "urn": "",
+  "citation": "χλαῖνα Ἀττικοί, ἱμάτιον χειμερινὸν Ἕλληνες",
+  "traduction": "χλαῖνα : attique ; ἱμάτιον χειμερινόν (« manteau d’hiver ») : grec commun",
+  "verifie": "scan",
+  "verification": "image, Bekker, Harpocration et Moeris (Berlin 1833), p. 213, l. 9 (.sources/web/lexiques/moeris_ocr/n221.jpg)",
+  "signale_par": "testimonia de l’auteur (Moer. χ 19) ; non vérifiés antérieurs, repris le 20 nov.",
+  "pertinence": 2,
+  "remarque": "le numéro χ 19 (Hansen) des testimonia de l’auteur n’a pu être contrôlé."
+ },
+ {
+  "v": "142",
+  "lemme": "ποῦ Λακωνικαί",
+  "categorie": "lexicographes",
+  "ref": "Phot. p. 372 Naber",
+  "urn": "",
+  "citation": "Λακωνικαί· ὑπόδημα ἀνδρεῖον, σεμνόν",
+  "traduction": "laconiennes : chaussure d’homme, de bon ton",
+  "verifie": "scan",
+  "verification": "image, Naber I, p. 372 (archive.org photiipatriarch00nabegoog, n382) ; note 6 de Naber : « Hesych. Usurpavit Aristoph. Thesm. 142, alibi »",
+  "signale_par": "testimonia de l’auteur (Phot. λ 57) ; non vérifiés antérieurs, repris le 20 nov.",
+  "pertinence": 2,
+  "remarque": "numéro λ 57 (Theodoridis) donné par les testimonia de l’auteur, non contrôlé (t. II absent) ; cf. Sud. λ 63 (test.) et Hsch. λ 225 (au fichier)."
+ },
+ {
+  "v": "142",
+  "lemme": "ποῦ χλαῖνα",
+  "categorie": "lexicographes",
+  "ref": "Ammon. Diff. 513",
+  "urn": "urn:cts:greekLit:tlg0708.tlg001.1st1K-grc1:22.513",
+  "citation": "ἡ μὲν γὰρ χλαῖνα ἡρωϊκὸν φόρημα· χλαμὺς δέ Μακεδονικόν … ἡ μέν γὰρ χλαῖνα τετράγωνον, φησίν, ἱμάτιον",
+  "traduction": "la χλαῖνα est un vêtement héroïque, la chlamyde macédonienne … la χλαῖνα est un manteau carré",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0708.tlg001.1st1K-grc1:22.513",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "d’après Didyme ; cf. Ammon. Diff. 512 (χλαῖνα et χλανίς, d’après Tryphon)."
+ },
+ {
+  "v": "142",
   "lemme": "χλαῖνα",
   "categorie": "lexicographes",
   "ref": "Hsch. δ 577",
@@ -12374,6 +12486,20 @@
   "signale_par": "dépouillement d'Hésychius (reprise)",
   "pertinence": 1,
   "remarque": "Cratin. fr. 222.1 K.-A. (renvoi de l'éd.)"
+ },
+ {
+  "v": "142",
+  "lemme": "ποῦ χλαῖνα",
+  "categorie": "proverbes",
+  "ref": "Sud. ε 1359",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:2.E.1359",
+  "citation": "Ἐν θέρει τὴν χλαῖναν κατατρίβεις: ἐπὶ τῶν μὴ καθ᾿ ὥραν τοῖς ἀναγκαίοις χρωμένων",
+  "traduction": "« tu uses ton manteau en été » : de ceux qui usent des choses nécessaires à contretemps",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 2.E.1359 ; TEI : ὤραν (coquille), lu ὥραν chez Adler II (OCR)",
+  "signale_par": "recherche directe (χλαῖν* dans les lexiques, reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": ""
  },
  {
   "v": "143",
@@ -12682,6 +12808,20 @@
   "signale_par": "dépouillement d'Hésychius (reprise)",
   "pertinence": 2,
   "remarque": ""
+ },
+ {
+  "v": "143",
+  "lemme": "ποῦ τὰ τιτθία",
+  "categorie": "lexicographes",
+  "ref": "Sud. ο 580",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:3.Ο255.580",
+  "citation": "Ὀρθοτίτθιος: ἡ παρθένος ἡ ὀρθοὺς τοὺς τιτθοὺς ἔχουσα. ὅθεν καὶ ἐπιτίτθιον, τὸ ὑπομάζιον",
+  "traduction": "Ὀρθοτίτθιος : la jeune fille aux seins droits ; d’où aussi ἐπιτίτθιον, le dessous du sein",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 3.Ο255.580",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 2,
+  "remarque": "les seins dressés de la femme jeune, que la poitrine plate d’Agathon ne montre pas (cf. le στρόφιον du v. 139) ; cf. Poll. 2.163 et Hsch. τ 986–987 (au fichier)."
  },
  {
   "v": "143",
