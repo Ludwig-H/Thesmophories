@@ -12,28 +12,28 @@
   "partie": "",
   "schema": "⏑⏖⏑– ⏑–– |",
   "colon": "2ia∧",
-  "note": "= ia ba. Premier longum résolu (-τόμε-). R : λιτόμεσθα (⏖–⏑– ⏑––) ; λιτόμεθα Bourdin (Prato, Wilson), Hermann (Enger, Velsen). ~ 353 πόλει τέλεα τε δήμῳ (⏑–⏑⏖ ⏑––)."
+  "note": "= ia ba. Premier longum résolu (-τόμε-). R : λιτόμεσθα (⏖–⏑– ⏑––) ; λιτόμεθα Bourdin (Prato, Wilson), Hermann (Enger, Velsen). ~ 353 πόλει τέλεα τε δήμῳ (⏑–⏑⏖ ⏑––). Même schéma chez Parker 1997, p. 406-407 (« ia dim cat »), et Austin–Olson 2004, p. 155 (« ia ba »). λιτόμεθα : Dindorf selon Parker (p. 409), Bourdin selon Austin–Olson (p. 15, apparat)."
  },
  {
   "v": 314,
   "partie": "",
   "schema": "⏑–⏑⏖ ⏑–– ‖",
   "colon": "2ia∧",
-  "note": "= ia ba. Second longum résolu (ἐπι- ; le -ς de φανέντας passe à ἐ-, d'où τα bref). Fin de période (sens, clausule catalectique ; Zimmermann ‖ ; Prato ne marque pas de fin de période ici). ~ 354 τάδ᾽ εὔγματ᾽ ἀποτελεῖσθαι (Willems), schéma identique ; le texte de R en 354 (εὔγματα γενέσθαι, ⏑–⏖ ⏑––) a une syllabe de moins. La transposition χαρέντας ἐπιφανῆναι (Halbertsma ; Schroeder, Wilson) est indifférente pour le mètre."
+  "note": "= ia ba. Second longum résolu (ἐπι- ; le -ς de φανέντας passe à ἐ-, d'où τα bref). Fin de période (sens, clausule catalectique ; Zimmermann ‖ ; Prato ne marque pas de fin de période ici). ~ 354 τάδ᾽ εὔγματ᾽ ἀποτελεῖσθαι (Willems), schéma identique ; le texte de R en 354 (εὔγματα γενέσθαι, ⏑–⏖ ⏑––) a une syllabe de moins. La transposition χαρέντας ἐπιφανῆναι (Halbertsma ; Schroeder, Wilson) est indifférente pour le mètre. Même schéma chez Parker 1997, p. 406, et Austin–Olson 2004, p. 155, mais sans fin de période : Parker n'imprime ‖ que là où l'hiatus, la brevis in longo ou l'anceps iuxta anceps l'attestent (p. xiii-xiv), et Austin–Olson le suivent. Le ‖ est gardé ici (catalexe, passage des iambes aux cola dactyliques, sens) ; voir le .md, « Confrontation »."
  },
  {
   "v": 315,
   "partie": "",
   "schema": "–⏑⏑ –⏑⏑ –⏑⏑ –⏑ |",
   "colon": "4dact",
-  "note": "χρυσολύρᾱ : vocatif à α long (nominatif dorien en -ᾱς ; LSJ, s.v. χρυσολύρης : voc. -λύρη, Orph. H. 34, 3), exigé par le rythme. -με bref devant χρ- (correption attique). τε bref devant Δ- : synaphie avec 316, pas de pause. « 4 dact » Zimmermann, « 4 d » Wilamowitz 1893 ; « 2 ad (= alcm∧) » Prato, p. 347 (« doppio adonio », parodie tragique selon lui) et l'auteur (« 2 adon. ») : même schéma, autre nom. Sans τε (que Wilson rejette en tête de 316), le colon est –⏑⏑–⏑⏑–⏑⏑–, celui de 320 et 325."
+  "note": "χρυσολύρᾱ : vocatif à α long (nominatif dorien en -ᾱς ; LSJ, s.v. χρυσολύρης : voc. -λύρη, Orph. H. 34, 3), exigé par le rythme. -με bref devant χρ- (correption attique). τε bref devant Δ- : synaphie avec 316, pas de pause. « 4 dact » Zimmermann, « 4 d » Wilamowitz 1893 ; « 2 ad (= alcm∧) » Prato, p. 347 (« doppio adonio », parodie tragique selon lui) et l'auteur (« 2 adon. ») : même schéma, autre nom. Sans τε (que Wilson rejette en tête de 316), le colon est –⏑⏑–⏑⏑–⏑⏑–, celui de 320 et 325. Parker 1997, p. 406-408, rejette τε en tête de 316 : 315 = –⏑⏑–⏑⏑–⏑⏑– « enopl (D prol) », en synartèse avec 316 (« + ia cho dim ») ; « At 315, it is in synartesis with the following colon, which precludes the idea of a catalectic dactylic tetrameter » (p. 408). Austin–Olson 2004, p. 155 : « D (prolonged) ia cho » pour 315-16, alors que leur texte (p. 16) garde τε en fin de ligne. Même suite de syllabes : le nom 4dact suit la colométrie de l'auteur, qui laisse τε en 315."
  },
  {
   "v": 316,
   "partie": "",
   "schema": "–⏑⏖ –⏑⏑– |",
   "colon": "cr ch",
-  "note": "Δῆλον ὃς : -ν et -ς passent à la voyelle suivante (λο, ὁ brefs) ; ἱερός à ι bref. Crétique à dernier longum résolu (ὃς ἔ-) = péon premier (« p ch » Zimmermann ; « cr chor » Prato ; « cr ch » Schroeder), puis choriambe. Wilamowitz 1893 transpose ἱερὰν ἔχεις pour un « 2 e » : inutile. Avec τε en tête (colométrie de Wilson) : ⏑–⏑⏖ –⏑⏑– (ia ch). Même suite de syllabes que les clausules 106, 119 et 125 du chant d'Agathon (–⏑⏖– ⏑⏑–, tr ion∧ en s02 ; p ch chez Zimmermann, cr chor chez Prato aux deux endroits)."
+  "note": "Δῆλον ὃς : -ν et -ς passent à la voyelle suivante (λο, ὁ brefs) ; ἱερός à ι bref. Crétique à dernier longum résolu (ὃς ἔ-) = péon premier (« p ch » Zimmermann ; « cr chor » Prato ; « cr ch » Schroeder), puis choriambe. Wilamowitz 1893 transpose ἱερὰν ἔχεις pour un « 2 e » : inutile. Avec τε en tête (colométrie de Wilson) : ⏑–⏑⏖ –⏑⏑– (ia ch). Même suite de syllabes que les clausules 106, 119 et 125 du chant d'Agathon (–⏑⏖– ⏑⏑–, tr ion∧ en s02 ; p ch chez Zimmermann, cr chor chez Prato aux deux endroits). Avec τε en tête (Parker 1997, p. 406-407 ; Austin–Olson 2004, p. 155) : ⏑–⏑⏖ –⏑⏑–, « ia cho dim » (Parker), « ia cho » (Austin–Olson)."
  },
  {
   "v": 317,
@@ -47,7 +47,7 @@
   "partie": "",
   "schema": "––⏑– ⏑–⏑⏖ |",
   "colon": "2ia",
-  "note": "-πι bref devant χρ- (correption attique). Dernier longum résolu (πόλιν, dont le -ν passe à οἰ- de 319) : synaphie obligée avec 319 (c'est l'argument de Conradt 1910 pour réunir 318-319). R coupe après χρυσόλογχε, au milieu d'un mètre (σό-λογ-χε | πό-λιν) : coupe non colométrique."
+  "note": "-πι bref devant χρ- (correption attique). Dernier longum résolu (πόλιν, dont le -ν passe à οἰ- de 319) : synaphie obligée avec 319 (c'est l'argument de Conradt 1910 pour réunir 318-319). R coupe après χρυσόλογχε, au milieu d'un mètre (σό-λογ-χε | πό-λιν) : coupe non colométrique. Parker 1997, p. 34 : l'un des trois exemples aristophaniens d'une résolution suivie d'un anceps long (X–⏑⏖ | ––⏑–, ici πόλιν | οἰκοῦσα), combinaison rare ; même schéma chez lui (p. 406) et chez Austin–Olson 2004, p. 155."
  },
  {
   "v": 319,
@@ -61,7 +61,7 @@
   "partie": "",
   "schema": "–⏑⏑ –⏑⏑ –⏑⏑ – |",
   "colon": "4dact∧",
-  "note": "Texte imprimé : θηροφόνη, παῖ supprimé (Hermann ; Reisig aussi selon Enger), même colon que 325 (et 315 sans τε) ; -νη long par nature. R : θηροφόνε παῖ (-ό- sur grattage selon Velsen ; trait isolé après παῖ, qui ne traverse pas le mot sur l'image, où Prato voit une suppression de παῖ par R² : « traducta lineola παῖ del. R² ») = –⏑⏑–⏑⏑–⏑⏑⏑–. Fritzsche défend ce schéma par Soph. OC 215 (ὤμοι ἐγώ, τί πάθω, τέκνον ἐμόν;), mais il rompt le parallèle avec 315 et 325. « 4 dact∧ (= 2 an∧) » Zimmermann ; « alcm (= decas alc) » Prato et l'auteur ; Schroeder garde θηροφόνε (ε bref en place longue) sans παῖ ; Enger garde θηροφόνη παῖ (–⏑⏑–⏑⏑–⏑⏑––, « ut 315 »)."
+  "note": "Texte imprimé : θηροφόνη, παῖ supprimé (Hermann ; Reisig aussi selon Enger), même colon que 325 (et 315 sans τε) ; -νη long par nature. R : θηροφόνε παῖ (-ό- sur grattage selon Velsen ; trait isolé après παῖ, qui ne traverse pas le mot sur l'image, où Prato voit une suppression de παῖ par R² : « traducta lineola παῖ del. R² ») = –⏑⏑–⏑⏑–⏑⏑⏑–. Fritzsche défend ce schéma par Soph. OC 215 (ὤμοι ἐγώ, τί πάθω, τέκνον ἐμόν;), mais il rompt le parallèle avec 315 et 325. « 4 dact∧ (= 2 an∧) » Zimmermann ; « alcm (= decas alc) » Prato et l'auteur ; Schroeder garde θηροφόνε (ε bref en place longue) sans παῖ ; Enger garde θηροφόνη παῖ (–⏑⏑–⏑⏑–⏑⏑––, « ut 315 »). Parker 1997, p. 406-408 : « enopl (D prol) » ; « –⏑⏑–⏑⏑–⏑⏑– is, perhaps, best seen as a prolongation of the dactylo-epitrite hemiepes » ; réunir 320-321 en sept dactyles donnerait un quatrième pied spondaïque « odd and disruptive ». Austin–Olson 2004, p. 155 : « D (prolonged) ». Même schéma ; 4dact∧ est le nom de Zimmermann, gardé ici. Austin–Olson relèvent aussi la « lineola post παῖ » (p. 16, apparat) et tiennent παῖ pour une glose de ἔρνος passée dans le texte (p. 158)."
  },
  {
   "v": 321,
@@ -73,9 +73,9 @@
  {
   "v": 322,
   "partie": "",
-  "schema": "⏑⏑–⏑⏑– ⏑⏑–⏓ |",
+  "schema": "⏑⏑–⏑⏑– ⏑⏑–⏓ ‖",
   "colon": "2an∧",
-  "note": "Parémiaque pur. -δον : Zimmermann ∩ (brevis in longo) avec ⁞ (pause dans la période), Prato ⌣, Schroeder ◡, White ⏑ : tous comptent la voyelle brève. Mais les deux explications s'excluent : devant une vraie pause, la syllabe est fermée, donc longue (West 1987, p. 12), et le parémiaque est régulier ; en liaison (Πόσειδο-ν ἁ-), -δο est bref, mais il n'y a plus de pause, et le colon perd la finale longue du parémiaque (d'où le « = en? » de Prato). Rien ne prouve une brevis in longo, donc pas de ‖ : ⏓ note ici une quantité indéterminée. « Enhoplisches Glied » chez Wilamowitz 1893 ; « paroem (= en?) » chez Prato, pour qui les parémiaques de 322 et 324 équivalent à des énopliens."
+  "note": "Parémiaque pur, suivi d'une fin de période. Corrigé d'après Parker 1997, p. 406 (⏑⏑–⏑⏑–⏑⏑–‿ ‖, « an dim cat (∧ da tetr?) », p. 407), et Austin–Olson 2004, p. 155 (⏑⏑–⏑⏑–⏑⏑–∩ ‖, « par ») : -δον, bref en synaphie devant ἁ- (Πόσειδο-ν ἁ-), tient la dernière place du parémiaque, qui est longue ; cette brevis in longo atteste la fin de période (Parker, p. xiii). Devant la pause, la syllabe est fermée et la finale indifférente (West 1987, p. 12) : ⏓. L'ancienne notation (⏓ sans ‖) ne s'accordait pas avec le nom 2an∧ : sans pause, le colon finirait sur une brève et ne serait plus un parémiaque. Zimmermann notait déjà ∩, avec une pause (⁞) ; Prato ⌣ sans fin de période, Schroeder ◡, White ⏑. Qui refuse la pause entre les deux vocatifs (Πόσειδον | ἁλιμέδον) doit renoncer au parémiaque : énoplien ⏑⏑–⏑⏑–⏑⏑–⏑ en synaphie, « paroem (= en?) » de Prato, « enhoplisches Glied » de Wilamowitz 1893."
  },
  {
   "v": 323,
@@ -96,21 +96,21 @@
   "partie": "b",
   "schema": "–⏑⏑–– |",
   "colon": "adon",
-  "note": "Adonien (« adon » Prato et l'auteur ; « an (= Adoneus) » Zimmermann ; « 2 d » Wilamowitz 1893). -τον long devant Ν-. Pause (Zimmermann ⁞)."
+  "note": "Adonien (« adon » Prato et l'auteur ; « an (= Adoneus) » Zimmermann ; « 2 d » Wilamowitz 1893). -τον long devant Ν-. Pause (Zimmermann ⁞). Rangée 324b : « an (da dim?) » chez Parker 1997, p. 406-407 ; « adon » chez Austin–Olson 2004, p. 155."
  },
  {
   "v": 325,
   "partie": "",
   "schema": "–⏑⏑ –⏑⏑ –⏑⏑ – |",
   "colon": "4dact∧",
-  "note": "εἰναλίου (Bentley ; avant Brunck selon Austin 1987) : R ἐναλίου, amétrique (cinq brèves de suite). Même colon que 320 (« alcm (= decas alc) » Prato et l'auteur). Schroeder, avec εἰνάλιοί (Brunck) : –⏖–⏖ –⏑⏑–."
+  "note": "εἰναλίου (Bentley ; avant Brunck selon Austin 1987) : R ἐναλίου, amétrique (cinq brèves de suite). Même colon que 320 (« alcm (= decas alc) » Prato et l'auteur). Schroeder, avec εἰνάλιοί (Brunck) : –⏖–⏖ –⏑⏑–. Parker 1997, p. 406-408 : « enopl (D prol) », comme 315 et 320. Austin–Olson 2004, p. 155-156, avec ὀρίπλαγκτοι (Austin) en 326 : 325-326 = « 6da » (–⏑⏑ –⏑⏑ –⏑⏑ –– –⏑⏑ ––), voir 326."
  },
  {
   "v": 326,
   "partie": "",
   "schema": "––⏑– –– ‖",
   "colon": "ia sp",
-  "note": "Texte de R (ὀρείπλαγκτοι) : mètre iambique + spondée (dimètre iambique catalectique syncopé). Même schéma chez Prato, qui le nomme « pros » (prosodiaque, avec renvoi au v. 987 ; repris par l'auteur), chez Schroeder (« – – ⏑ – – – », 2⁻) et chez Wilamowitz 1893 (deux épitrites syncopés). Avec ὀρίπλαγκτοι (Austin 1990, p. 21, selon Prato ; Zimmermann, Wilson ; -ρῐ- bref devant πλ-, correption attique) : – – ⏑⏑ – –, de forme reizianum, et 325 + 326 forment un hexamètre dactylique (Zimmermann « 6 dact »). ὀρῑ- (ι long) de Blaydes, selon Zimmermann, garde le schéma de R. Fin de période (sens)."
+  "note": "Texte de R (ὀρείπλαγκτοι) : mètre iambique + spondée (dimètre iambique catalectique syncopé). Même schéma chez Prato, qui le nomme « pros » (prosodiaque, avec renvoi au v. 987 ; repris par l'auteur), chez Schroeder (« – – ⏑ – – – », 2⁻) et chez Wilamowitz 1893 (deux épitrites syncopés). Avec ὀρίπλαγκτοι (Austin 1990, p. 21, selon Prato ; Zimmermann, Wilson ; -ρῐ- bref devant πλ-, correption attique) : – – ⏑⏑ – –, de forme reizianum, et 325 + 326 forment un hexamètre dactylique (Zimmermann « 6 dact »). ὀρῑ- (ι long) de Blaydes, selon Zimmermann, garde le schéma de R. Fin de période (sens). Parker 1997, p. 408 : même schéma (ὀρείπλαγκτοι, « ia sp ») ; il écarte l'hexamètre qu'on obtient avec ὀρῐ- : « the spondaic fourth metron in both sequences seems odd and disruptive ». Austin–Olson 2004 impriment ὀρίπλαγκτοι (p. 16, apparat : « ὀρί- Austin : ὀρεί- R ») et scandent 325-6 « 6da » (p. 155 ; p. 156, renvoi à Austin 1990, p. 21) ; p. 159-160 : ὀριπλάγκτων, à ι bref, chez Empédocle (P. Strasb. gr. Inv. 1665-6, a(ii) 26), ει long chez [Oppien], Cyn. 3, 224, et Nonnos 21, 189. Fin de période : ni Parker ni Austin–Olson n'en marquent ici ; ‖ gardé (sens, clausule syncopée), voir le .md, « Confrontation »."
  },
  {
   "v": 327,
@@ -124,20 +124,20 @@
   "partie": "",
   "schema": "⏑–– –⏑⏑–– |",
   "colon": "ba adon",
-  "note": "ἰᾱχ- (ἰ bref, α long) ; -εν bref devant ἐπ᾽ (ἐ- bref, le π passant à εὐ-). Bacchée + adonien : Prato, p. 347 (« ba adon (= en?) », d'après Parker), l'auteur, déjà Schroeder (μιγξ ἰᾱχήσειεν… : –⏑–– –⏖––) ; Wilamowitz 1893 suppose aussi ἰᾱχ- (reizianum χήσειεν ἐπ᾽ εὐχαῖς). LSJ, s.v. ἰαχέω : « ᾱ̆ in Trag. » ; s.v. ἰάχω : ῐᾱχον (ι bref) Ar. Av. 772. ἰ bref et ᾱ long sont assurés par la responsion en Ar. Av. 772 ~ 740, Eur. Or. 826 ~ 814, El. 1150 ~ 1158, Hel. 1486 ~ 1502, Tro. 337 ~ 321 (voir le .md, § 6, n° 10). Avec ἰᾰχ- : ⏑⏑–– ⏑⏑––, dimètre ionique (Enger, White, Zimmermann « 2 io (od. pher) », qui scande pourtant ἰᾱχ- en Av. 772 et Ran. 217). Continuité syntaxique avec 329 (εὐχαῖς | ἡμετέραις)."
+  "note": "ἰᾱχ- (ἰ bref, α long) ; -εν bref devant ἐπ᾽ (ἐ- bref, le π passant à εὐ-). Bacchée + adonien : Prato, p. 347 (« ba adon (= en?) », d'après Parker), l'auteur, déjà Schroeder (μιγξ ἰᾱχήσειεν… : –⏑–– –⏖––) ; Wilamowitz 1893 suppose aussi ἰᾱχ- (reizianum χήσειεν ἐπ᾽ εὐχαῖς). LSJ, s.v. ἰαχέω : « ᾱ̆ in Trag. » ; s.v. ἰάχω : ῐᾱχον (ι bref) Ar. Av. 772. ἰ bref et ᾱ long sont assurés par la responsion en Ar. Av. 772 ~ 740, Eur. Or. 826 ~ 814, El. 1150 ~ 1158, Hel. 1486 ~ 1502, Tro. 337 ~ 321 (voir le .md, § 6, n° 10). Avec ἰᾰχ- : ⏑⏑–– ⏑⏑––, dimètre ionique (Enger, White, Zimmermann « 2 io (od. pher) », qui scande pourtant ἰᾱχ- en Av. 772 et Ran. 217). Continuité syntaxique avec 329 (εὐχαῖς | ἡμετέραις). Parker 1997, p. 408-409 : ⏑–– + –⏑⏑–– (« ba », « + adon », coupe ἰαχή-|σειεν, en synartèse) ; p. 464 (sur Gren. 216) : dans ἰαχέω et ἰάχω, « the ι is almost invariably short, even in past tenses, and the α long » ; ici α « probably long (ἰᾰχήσειεν would turn 329 into a solitary ionic dimeter) » (numérotation de Parker). Austin–Olson 2004, p. 155-156 : « ba adon » ; « For ἰα- scanned ⏑– », renvoi à Page sur Eur. Méd. 149, à la note métrique de Dover sur Gren. 217 et à Kannicht sur Hél. 1147."
  },
  {
   "v": 329,
   "partie": "",
   "schema": "–⏑⏑ –⏑⏑ –– –⏑⏑ –⏑⏑ –– |",
   "colon": "6dact",
-  "note": "Hexamètre à césure penthémimère (après τελέως) = D – D – (« 2 hem‾ » Prato et l'auteur ; « 3 d + 3 d » Wilamowitz 1893 ; « 6 dact » Zimmermann ; deux « 2⁻ » chez Schroeder, qui coupe ἐκ-|κλησιάσαιμεν). Ἀθηνῶν (Reisig) : R Ἀθηναίων, une longue de trop. Ἀ- bref ; -μεν bref devant Ἀ-. δ᾽ (R ; τ᾽ Blaydes, Wilson) indifférent."
+  "note": "Hexamètre à césure penthémimère (après τελέως) = D – D – (« 2 hem‾ » Prato et l'auteur ; « 3 d + 3 d » Wilamowitz 1893 ; « 6 dact » Zimmermann ; deux « 2⁻ » chez Schroeder, qui coupe ἐκ-|κλησιάσαιμεν). Ἀθηνῶν (Reisig) : R Ἀθηναίων, une longue de trop. Ἀ- bref ; -μεν bref devant Ἀ-. δ᾽ (R ; τ᾽ Blaydes, Wilson) indifférent. Parker 1997, p. 408-409 : « D – D – » ; c'est « a simple dactylo-epitrite verse (which could also be taken as a dactylic hexameter, but, again, with a disruptively placed spondee) » (son v. 330) ; p. 89 : « a short dactylo-epitrite passage at the end of the hymn » (328-31). Austin–Olson 2004, p. 155-156 : « 6da » (328-9), « or perhaps to be treated as D — D — ». Même schéma ; 6dact gardé, avec Zimmermann et Austin–Olson."
  },
  {
   "v": 330,
   "partie": "",
-  "schema": "–⏑–⏑ –– ‖",
+  "schema": "–⏑–⏑ –⏓ ‖",
   "colon": "ith",
-  "note": "Ithyphallique final (clausule) ; fin du chant (Zimmermann |||, Prato |||). -κες : syllabe fermée à la fin du chant, notée – ; Zimmermann ∩ et Prato ⌣ notent la voyelle brève."
+  "note": "Ithyphallique final (clausule) ; fin du chant (Zimmermann |||, Prato |||). -κες, à voyelle brève, finit devant la voyelle initiale de 331 (εὔχεσθε) : corrigé d'après Parker 1997, p. 408 (–⏑– ⏑–‿ |||), en ⏓, comme -δον en 322 (même situation). Zimmermann ∩ et Prato ⌣ notent aussi la voyelle brève ; Austin–Olson 2004, p. 155, notent –, comme l'ancienne notation d'ici. Ithyphallique chez tous."
  }
 ]

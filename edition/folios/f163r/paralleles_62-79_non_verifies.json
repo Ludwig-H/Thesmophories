@@ -37,7 +37,7 @@
   "categorie": "poetes",
   "ref": "Hor. Carm. 2.2.1–4",
   "source": "Fritzsche ad 68",
-  "motif": "Corpus latin absent ; concerne la seule conjecture ἐντός."
+  "motif": "Texte d'Horace désormais disponible localement (latin_perseus, phi0893.phi001), mais le rapport avec la conjecture ἐντός reste à établir sur la note de Fritzsche : non retenu pour l'instant."
  },
  {
   "v": "69",
@@ -51,9 +51,9 @@
   "v": "74",
   "lemme": "κηδεστήν",
   "categorie": "comiques",
-  "ref": "Plaut. Aul. 3,4,14 et 5,62 (numérotation ancienne)",
+  "ref": "Plaut. Aul. 5,62 (numérotation ancienne)",
   "source": "Blaydes ad loc. (d'après Brunck)",
-  "motif": "Corpus latin absent ; numérotation ancienne à convertir (adfinis)."
+  "motif": "Second renvoi de Blaydes non identifié (l'acte V de l'Aulularia est lacunaire ; supplément moderne ?). Aul. 3,4,14 = 473 vérifié le 20 nov. et passé dans la liste principale."
  },
  {
   "v": "74",
@@ -67,9 +67,9 @@
   "v": "75",
   "lemme": "κακόν μοι … προπεφυραμένον",
   "categorie": "proverbes",
-  "ref": "Ter. Phorm. 318 ; Donat ; Aus. Biss. (Tute hoc intristi)",
+  "ref": "Donat ad Ter. Phorm. 318 ; Aus. Biss. (Tute hoc intristi)",
   "source": "Tosi n. 890",
-  "motif": "Corpus latin absent : référence donnée seulement d'après Tosi."
+  "motif": "Donat et Ausone non disponibles localement (référence de Tosi n. 890). Ter. Phorm. 318 vérifié le 20 nov. (latin_perseus) et passé dans la liste principale."
  },
  {
   "v": "79",

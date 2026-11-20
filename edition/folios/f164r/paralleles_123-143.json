@@ -8485,6 +8485,20 @@
  },
  {
   "v": "138",
+  "lemme": "κεκρυφάλῳ",
+  "categorie": "comiques",
+  "ref": "Eup. fr. 170 K. (Poll. 7.192)",
+  "urn": "",
+  "citation": "κεκρύφαλοί τε καὶ τύλη",
+  "traduction": "des résilles et des coussins",
+  "verifie": "scan",
+  "verification": "image, Pollux, éd. Bethe II, p. 104, l. 21–22 (Poll. 7.192 ; archive.org pollucisonomasti02polluoft, n115) : Εὔπολις δὲ Κόλαξι (I p 305.170 Ko)",
+  "signale_par": "Kock III, p. 77 (renvoi « Eupol. 170 » ad Men. Κεκρύφαλος) ; non vérifiés antérieurs, repris le 20 nov.",
+  "pertinence": 1,
+  "remarque": "Eupolis, Κόλακες ; dans une liste d’ouvrages de tisserand (τυλυφάνται)."
+ },
+ {
+  "v": "138",
   "lemme": "κροκωτῷ",
   "categorie": "tragiques",
   "ref": "Aesch. Ag. 239",
@@ -9227,6 +9241,34 @@
  },
  {
   "v": "138",
+  "lemme": "κεκρυφάλῳ",
+  "categorie": "lexicographes",
+  "ref": "Sud. κ 2458",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:3.Κ.2458",
+  "citation": "οἱ δὲ ἀπὸ τοῦ κεκρύφαλον αὐτό φασιν, ὅτι κρύπτει τὸ φάλον· ὅ ἐστιν ἐξοχὴ κεφαλῆς",
+  "traduction": "d’autres le tirent de κεκρύφαλος, « parce qu’il cache le φάλος, c’est-à-dire le sommet de la tête »",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 3.Κ.2458",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "étymologie populaire de κεκρύφαλος (s.v. Κρόκη, à propos de κροκύφαντος) ; cf. Sud. κ 1273 et Synag. κ 260 (κεκρύφαλον· κεκρύφαντον, σαβακάθιον, σουδάριον)."
+ },
+ {
+  "v": "138",
+  "lemme": "κροκωτῷ",
+  "categorie": "lexicographes",
+  "ref": "Sud. κ 2461",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:3.Κ.2461",
+  "citation": "Κροκωτός: εἶδος χιτῶνος … ὅτι ὁ μὲν κροκωτὸς ἔνδυμά ἐστι, τὸ δὲ ἔγκυκλον ἱμάτιον",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 3.Κ.2461",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "cf. Sud. κ 2460 (au fichier) et Sud. ε 135 (ἔγκυκλον, au fichier)."
+ },
+ {
+  "v": "138",
   "lemme": "τί βάρβιτος λαλεῖ κροκωτῷ",
   "categorie": "proverbes",
   "ref": "Diogenian. 3.82",
@@ -9350,6 +9392,20 @@
   "signale_par": "Tosi, Dictionnaire n° 1934",
   "pertinence": 3,
   "remarque": "Ménandre, fragment : proverbe attique ancien ; numéro de Ménandre à prendre sur K.-A."
+ },
+ {
+  "v": "138",
+  "lemme": "τί βάρβιτος λαλεῖ κροκωτῷ",
+  "categorie": "proverbes",
+  "ref": "Sud. ο 991",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:3.Ο255.991",
+  "citation": "Οὐχ οἷός τʼ εἴμ᾿ ἀποσοβῆσαι τὸν γέλων, ὁρῶν λεοντῆν ἐπὶ κροκωτῷ κειμένην: Διονυσιακὸν φόρημα ὁ κροκωτός· ἐφόρει δὲ λεοντῆν ὡς Ἡρακλῆς. τάττεται δὲ ἡ παροιμία ἐπὶ τῶν ἀνομοίων",
+  "traduction": "« je ne puis chasser le rire en voyant une peau de lion posée sur une crocote » : la crocote, vêtement de Dionysos ; il portait la léonté comme Héraclès. Le proverbe se dit des choses disparates",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 3.Ο255.991",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 3,
+  "remarque": "Ar. Ran. 45–46 (cf. v. 136, au fichier) devenu proverbe « ἐπὶ τῶν ἀνομοίων » : même emploi que Sud. β 110 pour nos vers (test. 136–140) ; la crocote y est déjà associée à un objet viril qui jure avec elle."
  },
  {
   "v": "138",
@@ -9574,6 +9630,20 @@
   "signale_par": "recherche directe (parémiographes) ; LSJ s.v. φακῆ",
   "pertinence": 1,
   "remarque": "proverbe de l'incongru (le luxe mal placé) ; Strattis raillait Euripide (Alex. Aphr. in Sens. : σκώπτων Εὐριπίδην ἐπὶ τῇ τῶν ἐπῶν ἀκαιρίᾳ)"
+ },
+ {
+  "v": "138",
+  "lemme": "κροκωτῷ",
+  "categorie": "proverbes",
+  "ref": "Sud. ο 929",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:3.Ο255.929",
+  "citation": "Οὐ πρέπει γαλῇ κροκωτός: παροιμία ἐστὶν ὁμοία τῇ γαλῇ χιτών",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "First1KGreek (Adler), 3.Ο.929 (coquille du TEI : « 0ὐ » pour Οὐ) ; Adler III, p. 589 (OCR concordante)",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "renvoie à Sud. γ 34–35 (au fichier) ; cf. Diogenian. 6.98, Macar. 6.65."
  },
  {
   "v": "138",

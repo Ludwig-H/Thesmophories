@@ -1,1 +1,86 @@
-[]
+[
+ {
+  "v": "280",
+  "lemme": "καομένων τῶν λαμπάδων",
+  "ref": "IG II² 1184, 15–16 ; LSAM 61, 4 ; ID 1417 A I 49–100",
+  "motif": "signalés par Austin–Olson 2004, p. 144 (torches aux Thesmophories : Athènes, Mylasa, Délos) : inscriptions non contrôlées (corpus épigraphiques non locaux)"
+ },
+ {
+  "v": "282",
+  "lemme": "δέξασθέ με",
+  "ref": "Pind. Pae. 5.45 ; 6.5",
+  "motif": "signalés par Austin–Olson 2004, p. 145 (appel à la divinité pour qu’elle « reçoive » le fidèle) : les Péans de Pindare ne sont pas dans le corpus local (Perseus ne donne que les épinicies)"
+ },
+ {
+  "v": "283",
+  "lemme": "ἀγαθῇ τύχῃ",
+  "ref": "Men. Sam. 445",
+  "motif": "signalé par Austin–Olson 2004, p. 145 : texte de la Samienne absent du corpus local"
+ },
+ {
+  "v": "289",
+  "lemme": "χοῖρον (R)",
+  "ref": "Macho 332 Gow",
+  "motif": "signalé par Austin–Olson 2004, p. 147 (« Gow on Macho 332 », χοῖρος = sexe féminin) : vers non retrouvé dans Athénée (livre 13, Perseus) ni ailleurs dans le corpus ; édition de Gow non locale"
+ },
+ {
+  "v": "289",
+  "lemme": "τὴν θυγατέρα Χοιρίλ᾽",
+  "ref": "Diog. Laert. 2.18 (Télécleidès)",
+  "motif": "relevé de la passe 1 (Fritzsche 1838) : le texte de Perseus porte Μνησίμαχος οὕτω φησί, non Μνησίλοχος ; rapport avec le beau-père d’Euripide douteux, écarté"
+ },
+ {
+  "v": "291",
+  "lemme": "τὸν παιδαρίσκον (Σ)",
+  "ref": "IG I³ 1399",
+  "motif": "signalé par Austin–Olson 2004, p. 148 (Πόσθων écrit trois fois, fin VIe – début Ve s.) : inscription non contrôlée (IG non local)"
+ },
+ {
+  "v": "291",
+  "lemme": "τὸν παιδαρίσκον (Σ)",
+  "ref": "Hesperia 27 (1958), 74–78 (Π]οσθαλίων)",
+  "motif": "inscription publiée par Robinson, signalée par Taillardat, RPh 35 (1961), 249–250, d’après Austin–Olson 2004, p. 148 : non contrôlée ; elle appuierait la forme en Ποσθαλ- de Dindorf, que l’auteur rejette"
+ },
+ {
+  "v": "291",
+  "lemme": "τὸν παιδαρίσκον (Σ)",
+  "ref": "Suet. Vita Hor. (« purissimum penem »)",
+  "motif": "signalé par Austin–Olson 2004, p. 148 (d’après Fraenkel, Horace, p. 19, n. 4) : texte latin non disponible localement"
+ },
+ {
+  "v": "291",
+  "lemme": "νοῦν ἔχειν … καὶ φρένας",
+  "ref": "Cratin. fr. 71 K.-A. ; Eup. fr. 99.48 K.-A.",
+  "motif": "signalés par Austin–Olson 2004, p. 149 (hendiadys νοῦς καὶ φρένες, repris par Eupolis) : non retrouvés dans l’OCR de Kock ni dans le corpus (numérotation K.-A. sans concordance locale ; Eup. fr. 99 K.-A. = papyrus des Dèmes)"
+ },
+ {
+  "v": "291",
+  "lemme": "νοῦν ἔχειν … καὶ φρένας",
+  "ref": "Men. fr. 818 K.-A.",
+  "motif": "signalé par Austin–Olson 2004, p. 148 : fragment non identifié dans Kock (pas de concordance K.-A. locale)"
+ },
+ {
+  "v": "291",
+  "lemme": "νοῦν ἔχειν … καὶ φρένας",
+  "ref": "Cratin. ap. Stob. Flor. 52.11 ; Pherecr. fr. 177 Kock",
+  "motif": "pistes de Blaydes 1880 et de van Leeuwen 1904 (relevé de la passe 1) non retrouvées : à rechercher dans le Stobée de Meineke et dans Kock I"
+ },
+ {
+  "v": "291",
+  "lemme": "πρὸς θυλάκιον",
+  "ref": "Eust. 1646.25",
+  "motif": "cité par Kock III, p. 140 (OCR) comme témoin du proverbe αἰεί ποτ᾽ εὖ μὲν ἀσκός, εὖ δὲ θύλακος (Alexis fr. 85 Kock, retenu) : non contrôlé"
+ },
+ {
+  "v": "292",
+  "lemme": "τῶν ῥητόρων",
+  "ref": "IG I³ 46, 24–26",
+  "motif": "signalé par Austin–Olson 2004, p. 149 : inscription non contrôlée"
+ },
+ {
+  "v": "293",
+  "lemme": "ἐξακούω",
+  "ref": "Xen. Cyr. 4.3.3 (v.l. ἐξακούσεσθαι)",
+  "motif": "Austin–Olson 2004, p. 149 signale la variante ἐξακούσεσθαι ; Perseus porte ἀκούσεσθαι (le passage est retenu avec ce texte), apparat de l’édition non consulté"
+ }
+]

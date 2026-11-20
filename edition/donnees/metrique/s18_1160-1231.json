@@ -180,7 +180,7 @@
   "partie": "",
   "schema": "⏑–⏖– ⏑–⏑– ⏑–⏑– ‖",
   "colon": "3ia",
-  "note": "Deux points de prosodie. (1) Anapeste au 2e pied coupé après sa première brève (-σο | κά-τη-) : ordinaire pour White 1912, § 121 iii, qui cite Th. 1184 (césure penthémimère) ; West 1987, p. 26 (« split anapaest », exemple Ach. 6), ne l'exclut qu'en comédie nouvelle ; même coupe en Ran. 1393 (Blaydes 1880, p. 118) ; « eccezionale » pour Prato 2001, p. 335. (2) τυγάτριον : γα- long par position devant τρ, 10e position, sans correption : White, § 791, range τυγάτριον Th. 1184 parmi les exceptions souvent corrigées ; défendu par Rogers 1904, App. p. 226 (« the Scythian may well have lengthened the second syllable ») et Prato (p. 335), qui gardent ναίκι ναί de R, comme l'auteur. Avec ναίκι ναίκι (Bothe, Fritzsche ; Hall-Geldart, Coulon, Wilson), tribraque au 5e pied et correption normale (⏑⏖⏑–). Autres suppléments : ναῖκι ναὶ, ὦ Enger ; ναὶ σὺ Velsen. R : ναὶ κι· ναὶ τυγάτριον (image f. 176v) ; le « καὶ R » de Wilson 2007 est inexact. Comparer 1210, avec correption."
+  "note": "Deux points de prosodie. (1) Anapeste au 2e pied coupé après sa première brève (-σο | κά-τη-) : ordinaire pour White 1912, § 121 iii, qui cite Th. 1184 (césure penthémimère) ; West 1987, p. 26 (« split anapaest », exemple Ach. 6), ne l'exclut qu'en comédie nouvelle ; même coupe en Ran. 1393 (Blaydes 1880, p. 118) ; « eccezionale » pour Prato 2001, p. 335. (2) τυγάτριον : γα- long par position devant τρ, 10e position, sans correption : White, § 791, range τυγάτριον Th. 1184 parmi les exceptions souvent corrigées ; défendu par Rogers 1904, App. p. 226 (« the Scythian may well have lengthened the second syllable ») et Prato (p. 335), qui gardent ναίκι ναί de R, comme l'auteur. Avec ναίκι ναίκι (Bothe, Fritzsche ; Hall-Geldart, Coulon, Wilson), tribraque au 5e pied et correption normale (⏑⏖⏑–). Autres suppléments : ναῖκι ναὶ, ὦ Enger ; ναὶ σὺ Velsen. R : ναὶ κι· ναὶ τυγάτριον (image f. 176v) ; le « καὶ R » de Wilson 2007 est inexact. Comparer 1210, avec correption. Austin–Olson 2004, p. 47 et 342 : une syllabe est tombée ; ils impriment ναίκι ⟨ναίκι⟩ (Bothe) et refusent l'allongement de Rogers : « the Skythian certainly pronounces the word ⏖⏑× in 1210, and the obvious conclusion is that he does the same here ». Même objection qu'au .md, § 3.4 : proposition pour l'auteur (.md, partie « Confrontation »). Le schéma décrit le texte imprimé."
  },
  {
   "v": 1185,
@@ -201,7 +201,7 @@
   "partie": "",
   "schema": "⏑⏖⏑– ––⏑– ––⏑– ‖",
   "colon": "3ia",
-  "note": "Tribraque au 1er pied (καλό γε, ⏑⏑|⏑ avec enclitique : White 1912, § 105 ii). πῡγή : ῡ long (4e position). κλαῦσί γ᾽ (Bentley) : -σῐ bref à la 7e position, que la forme κλαυσεῖ de R¹ (Velsen 1883, p. 85) occuperait par une longue. ἢν (Dindorf) / ἂν R : même mesure. Prodélision μὴ 'νδον. Après ce vers, R (comme P.Oxy. 3840) a la ligne ἀνακύπτη καὶ παρακύπτι ἀπεψωλημένος (1187b de Hall-Geldart imprimé, de White, de Wilson et de Prato ; 1187a dans le TEI Perseus et chez Parsons), que l'auteur retranche avec Ellebodius : voir le .md, § 3.5."
+  "note": "Tribraque au 1er pied (καλό γε, ⏑⏑|⏑ avec enclitique : White 1912, § 105 ii). πῡγή : ῡ long (4e position). κλαῦσί γ᾽ (Bentley) : -σῐ bref à la 7e position, que la forme κλαυσεῖ de R¹ (Velsen 1883, p. 85) occuperait par une longue. ἢν (Dindorf) / ἂν R : même mesure. Prodélision μὴ 'νδον. Après ce vers, R (comme P.Oxy. 3840) a la ligne ἀνακύπτη καὶ παρακύπτι ἀπεψωλημένος (1187b de Hall-Geldart imprimé, de White, de Wilson et de Prato ; 1187a dans le TEI Perseus et chez Parsons), que l'auteur retranche avec Ellebodius : voir le .md, § 3.5. Austin–Olson 2004, p. 47 : κλαῦσ᾽ ἔτ᾽ (Austin ; « κλαυσ᾽ εἴ γ᾽ R ») : même mesure (– ⏑ –, 6e-8e positions). Ils retranchent aussi la ligne suivante (Ellebodius) : « an intrusive set of partially metricized (i.e. Skythicized) stage-directions » (p. 343)."
  },
  {
   "v": 1188,
@@ -229,7 +229,7 @@
   "partie": "b",
   "schema": "–⏖– ⏑–⏑⏓ ‖",
   "colon": "",
-  "note": "Anapeste au 4e pied coupé après sa première brève (οὐκὶ | πιλῆσι), à la place de la césure hephthémimère : type ordinaire au 4e pied (White 1912, § 121 iii). La pause principale reste pourtant à la 5e position, au changement de locuteur, cas moins fréquent chez White (ibid.). Texte : οὐκὶ Biset, πιλῆσι Porson d'après Σ (Wilson 2007). R τί οὐκ ἐπιλήσει a une syllabe de trop si τί οὐκ n'est pas en synizèse (Lenting 1839, p. 27, pour τί οὐκὶ πιλήσει) ; la synizèse n'a pas de parallèle dans la section (1193 τί οὐ, hiatus)."
+  "note": "Anapeste au 4e pied coupé après sa première brève (οὐκὶ | πιλῆσι), à la place de la césure hephthémimère : type ordinaire au 4e pied (White 1912, § 121 iii). La pause principale reste pourtant à la 5e position, au changement de locuteur, cas moins fréquent chez White (ibid.). Texte : οὐκὶ Biset, πιλῆσι Porson d'après Σ (Wilson 2007). R τί οὐκ ἐπιλήσει a une syllabe de trop si τί οὐκ n'est pas en synizèse (Lenting 1839, p. 27, pour τί οὐκὶ πιλήσει) ; la synizèse n'a pas de parallèle dans la section (1193 τί οὐ, hiatus). Austin–Olson 2004, p. 48 et 343 : même texte (οὐκὶ Biset, πιλῆσι Porson) ; Wilamowitz gardait τί οὐκ ἐπιλήσει de R, avec -ε et synizèse de τί οὐκ (d'après eux, p. 343)."
  },
  {
   "v": 1191,
@@ -243,7 +243,7 @@
   "partie": "b",
   "schema": "⏖ ⏑⏖⏑– ‖",
   "colon": "",
-  "note": "ὂ à omicron, bref : ν᾽ ὂ ὂ résout la 8e position, ὂ occupe la 9e, παπα résout la 10e. Avec celui du 1er pied, ces deux tribraques font de 1191 l'un des six trimètres à trois tribraques relevés par White 1912, § 124. Sept brèves de suite (-τό(ν) ὂ ὂ ὂ πα πα πα) avant παῖ. R (image f. 176v) : trois signes ronds serrés, puis παπαπα· παῖ·. Velsen 1883, p. 85, y lit ο ο ο dans R et M, Enger 1844 et Rogers 1904 (App. p. 226) ὂ ὂ ὂ ; Coulon et Prato (⟨ὂ ὂ⟩ Brunck) et Wilson (« semel R ») n'en comptent qu'un. L'image ne tranche pas tout à fait : le premier signe a le trait supérieur du σ de φίλησον, le deuxième est repassé, et le groupe est d'une encre plus rouge que le texte voisin (.md, § 8). Le mètre exige les trois ὂ, quoi qu'ait R : avec un seul, le vers a une position de moins et une brève à la 10e. P.Oxy. 3840 ]απαπαπαι."
+  "note": "ὂ à omicron, bref : ν᾽ ὂ ὂ résout la 8e position, ὂ occupe la 9e, παπα résout la 10e. Avec celui du 1er pied, ces deux tribraques font de 1191 l'un des six trimètres à trois tribraques relevés par White 1912, § 124. Sept brèves de suite (-τό(ν) ὂ ὂ ὂ πα πα πα) avant παῖ. R (image f. 176v) : trois signes ronds serrés, puis παπαπα· παῖ·. Velsen 1883, p. 85, y lit ο ο ο dans R et M, Enger 1844 et Rogers 1904 (App. p. 226) ὂ ὂ ὂ ; Coulon et Prato (⟨ὂ ὂ⟩ Brunck) et Wilson (« semel R ») n'en comptent qu'un. L'image ne tranche pas tout à fait : le premier signe a le trait supérieur du σ de φίλησον, le deuxième est repassé, et le groupe est d'une encre plus rouge que le texte voisin (.md, § 8). Le mètre exige les trois ὂ, quoi qu'ait R : avec un seul, le vers a une position de moins et une brève à la 10e. P.Oxy. 3840 ]απαπαπαι. Austin–Olson 2004, p. 48 : ὂ ὂ ὂ, sans entrée d'apparat (leur apparat ne signale donc pas d'écart avec R) ; p. 344 : interjection attestée ailleurs seulement en A. Supp. 825."
  },
  {
   "v": 1192,
@@ -278,7 +278,7 @@
   "partie": "b",
   "schema": "– ––⏑⏓ ‖",
   "colon": "",
-  "note": "ναὶ ναὶ (Brunck) : R ναὶ une seule fois, trop court d'une syllabe. ναίκι (Bentley ; Wilson 2007) donne le même nombre de syllabes, κι bref à la 9e position. γρᾴδιο (Bothe) / γράδιον R : syllabe finale."
+  "note": "ναὶ ναὶ (Brunck) : R ναὶ une seule fois, trop court d'une syllabe. ναίκι (Bentley ; Wilson 2007) donne le même nombre de syllabes, κι bref à la 9e position. γρᾴδιο (Bothe) / γράδιον R : syllabe finale. Austin–Olson 2004, p. 48 et 344 : ναίκι (Bentley), forme que le Scythe emploie « at every opportunity » ; ναὶ ⟨ναί⟩ de Brunck « might be right ». Même mesure."
  },
  {
   "v": 1195,
@@ -313,14 +313,14 @@
   "partie": "",
   "schema": "––⏑– ⏑–⏖– ––⏑⏓ ‖",
   "colon": "3ia",
-  "note": "Anapeste au 4e pied (-λὰ τὸ συμ-), coupé après ἀλλὰ (White 1912, § 121 iii) ; la pause principale est à la 5e position, après ὠδέν. Avec συβήνην (Souda, Σ ; Wilson, Prato) ou συβίνην (Brunck ; Coulon), tribraque (7e position ⏑, τὸ συ- résout la 8e) : même nombre de syllabes, le mètre ne tranche pas entre συμ- (R) et συ-. ἔκὠδέν : crase, κὠ long. Le ν de ὠδέν passe à ἀλλά. τὸ supprimé (Bentley, Elmsley, Dindorf, d'après Enger 1844 ; Prato 2001) : avec συμ-, le vers reste métrique et perd l'anapeste."
+  "note": "Anapeste au 4e pied (-λὰ τὸ συμ-), coupé après ἀλλὰ (White 1912, § 121 iii) ; la pause principale est à la 5e position, après ὠδέν. Avec συβήνην (Souda, Σ ; Wilson, Prato) ou συβίνην (Brunck ; Coulon), tribraque (7e position ⏑, τὸ συ- résout la 8e) : même nombre de syllabes, le mètre ne tranche pas entre συμ- (R) et συ-. ἔκὠδέν : crase, κὠ long. Le ν de ὠδέν passe à ἀλλά. τὸ supprimé (Bentley, Elmsley, Dindorf, d'après Enger 1844 ; Prato 2001) : avec συμ-, le vers reste métrique et perd l'anapeste. Austin–Olson 2004, p. 48 : συβήνην (« συβήνην ʸᵖΣᴿ Phot. S : συμβ- R »), τὸ συ- résolvant la 8e position (voir ci-dessus)."
  },
  {
   "v": 1198,
   "partie": "",
   "schema": "⏑–⏖– ⏑–⏑⏖ ––⏑– ‖",
   "colon": "3ia",
-  "note": "Anapeste au 2e pied coupé après sa première brève (-τα | κο-μίζ-) : White 1912, § 121 iii, cite Th. 1198 (sur le texte de R, κομίζεις). μι- long devant ζ. Tribraque au 4e pied (-τίκ᾽ ἀκο-). αὐτίκ᾽ (conjecture de l'auteur) met une brève à la 7e position, où R αὐτοῖς avait une longue amétrique. La 10e position exige une longue : ἀκολούτι imprimé (M ; R ἀκουλούτι) n'est métrique que si -ῑ est long, comme le veut Rogers 1904, App. p. 227 ; ἀνεγεῖρί (1176) a pourtant -ῐ bref, 1199 τήρει garde -ει, et Enger 1844 (p. 200) tient que ι ne s'écrit que là où une brève est possible. Il faut lire ἀκολούτει (Brunck ; Velsen, Coulon, Wilson, Prato) : voir le .md, § 3.3."
+  "note": "Anapeste au 2e pied coupé après sa première brève (-τα | κο-μίζ-) : White 1912, § 121 iii, cite Th. 1198 (sur le texte de R, κομίζεις). μι- long devant ζ. Tribraque au 4e pied (-τίκ᾽ ἀκο-). αὐτίκ᾽ (conjecture de l'auteur) met une brève à la 7e position, où R αὐτοῖς avait une longue amétrique. La 10e position exige une longue : ἀκολούτι imprimé (M ; R ἀκουλούτι) n'est métrique que si -ῑ est long, comme le veut Rogers 1904, App. p. 227 ; ἀνεγεῖρί (1176) a pourtant -ῐ bref, 1199 τήρει garde -ει, et Enger 1844 (p. 200) tient que ι ne s'écrit que là où une brève est possible. Il faut lire ἀκολούτει (Brunck ; Velsen, Coulon, Wilson, Prato) : voir le .md, § 3.3. Austin–Olson 2004, p. 345 : « R's ἔπειτα κομίζεις αὐτοῖς is unmetrical » ; ils impriment ἔπειτα κομιεῖς αὖθις (Biset, Faber) et ἀκολούτει (Brunck) (p. 48) : appui pour -τει (.md, § 3.3)."
  },
  {
   "v": 1199,
@@ -446,35 +446,35 @@
   "partie": "b",
   "schema": "",
   "colon": "extra metrum",
-  "note": "Cri hors mètre : anaphonema (White 1912, p. 450 : « 1213, 1215ᵇ, 1222 ») ; « 1213b … extra metrum » (Prato 2001, p. 356). R l'écrit sur une ligne à part, au milieu de la colonne (image f. 177r), comme 1216 b et 1223. Rythme – ⏑ – ⏑ – (cf. 1201). Dindorf le supprimait ici et en 1222 b (Conradt 1910, p. 57). Le codage suite de texte.tex fait lire ce cri comme la fin d'un vers, alors que 1213 est complet."
+  "note": "Cri hors mètre : anaphonema (White 1912, p. 450 : « 1213, 1215ᵇ, 1222 ») ; « 1213b … extra metrum » (Prato 2001, p. 356). R l'écrit sur une ligne à part, au milieu de la colonne (image f. 177r), comme 1216 b et 1222 b. Rythme – ⏑ – ⏑ – (cf. 1201). Dindorf le supprimait ici et en 1222 b (Conradt 1910, p. 57). Le codage suite de texte.tex fait lire ce cri comme la fin d'un vers, alors que 1213 est complet. Austin–Olson 2004, p. 49 : ligne propre, numérotée 1213b."
  },
  {
   "v": 1214,
   "partie": "",
   "schema": "⏖–⏑– –⏖⏑– ⏑–⏑⏓ ‖",
   "colon": "3ia",
-  "note": "Anapeste au 1er pied (διέβαλ-) ; « dactyle » au 3e (γραῦς ἀπό-), le ς passant à ἀ-. -πό- bref devant τρ. τάκιστα (Brunck) : -κισ- fermé. σύ bref en fin de vers (⏓). ἡ (Souda δ 892) donne la longue de la 4e position : R μ᾽ ὁ, gardé par Rogers et Prato (μ᾽ ὀ), y met une brève, sauf allongement devant γρ-, groupe qui n'allonge pas d'ordinaire (White 1912, § 790) ; d'où μοὐ (Coulon) et ὀ γραῦς με διέβαλ᾽ (Austin ; Wilson). διέβαλλε (R) : la géminée fait la 2e position ; avec διέβαλε (Σ, Souda), tribraque au 1er pied, et le vers reste métrique (⏑⏖⏑–)."
+  "note": "Anapeste au 1er pied (διέβαλ-) ; « dactyle » au 3e (γραῦς ἀπό-), le ς passant à ἀ-. -πό- bref devant τρ. τάκιστα (Brunck) : -κισ- fermé. σύ bref en fin de vers (⏓). ἡ (Souda δ 892) donne la longue de la 4e position : R μ᾽ ὁ, gardé par Rogers et Prato (μ᾽ ὀ), y met une brève, sauf allongement devant γρ-, groupe qui n'allonge pas d'ordinaire (White 1912, § 790) ; d'où μοὐ (Coulon) et ὀ γραῦς με διέβαλ᾽ (Austin ; Wilson). διέβαλλε (R) : la géminée fait la 2e position ; avec διέβαλε (Σ, Souda), tribraque au 1er pied, et le vers reste métrique (⏑⏖⏑–). Austin–Olson 2004, p. 49 : ὀ γραυς με διεβαλ᾽ (Austin)."
  },
  {
   "v": 1215,
   "partie": "",
   "schema": "––⏑– ––⏑⏖ ––⏑– ‖",
   "colon": "3ia",
-  "note": "Métrique sans supplément. συμ- long (μ + β) à la 4e position : la leçon imprimée rétablit le mètre, alors que R σὺ βήνη 'στι y met une brève, d'où ⟨τὸ⟩ Porson, ⟨τι⟩ Hermann, ⟨σὺ⟩ Bothe, ⟨σι⟩ Prato. Rogers 1904, App. p. 228 : « In 1197 both MSS. spell it συμβήνη, which may possibly be the right reading in both places » ; Blaydes 1880, p. 124 : « Prima autem in συβίνη videtur esse longa ». Prodélision νη 'στί. κατα- résout la 8e position (tribraque au 4e pied) ; καταβηνῆσι (R) : βη- et νῆ- longs."
+  "note": "Métrique sans supplément. συμ- long (μ + β) à la 4e position : la leçon imprimée rétablit le mètre, alors que R σὺ βήνη 'στι y met une brève, d'où ⟨τὸ⟩ Porson, ⟨τι⟩ Hermann, ⟨σὺ⟩ Bothe, ⟨σι⟩ Prato. Rogers 1904, App. p. 228 : « In 1197 both MSS. spell it συμβήνη, which may possibly be the right reading in both places » ; Blaydes 1880, p. 124 : « Prima autem in συβίνη videtur esse longa ». Prodélision νη 'στί. κατα- résout la 8e position (tribraque au 4e pied) ; καταβηνῆσι (R) : βη- et νῆ- longs. Austin–Olson 2004, p. 49 et 348 : ὀρτως συβηνη δ᾽ ἠν· καταβεβινησι γαρ (συβήνη δ᾽ ἦν Austin, καταβεβίνησι Blaydes), autre restitution métrique, avec συ- bref à la 3e position."
  },
  {
   "v": 1216,
   "partie": "",
   "schema": "–– | ⏑–⏑– ⏑–⏑",
   "colon": "extra metrum + 3ia",
-  "note": "οἴμοι hors mètre (–– avant le signe de colon), puis positions 1-7 du trimètre τί δρᾶσι; ποῖ τὸ γρᾴδι᾽; Ἀρταμουξία, avec élision de -ο : le -ο imprimé ne compte pas. C'est le trimètre de Lenting 1839, p. 28 (« Dictione οἴμοι carmini praemissa elegantem senarium habebis »), repris par Bergk, Meineke, Dindorf (Blaydes 1880, p. 124), Hall-Geldart, Rogers (App. p. 228), Coulon, White, Wilson, Prato. L'auteur lui-même, dans son commentaire, tient οἴμοι pour extra metrum et écrit γρᾴδι᾽ ; « il manque un pied à ce vers » (critique.tex) vaut pour la disposition de R. Ainsi lu, 1216 est un trimètre pur. δρᾶσι (Blaydes, Enger) : -σῐ bref exigé à la 3e position, où R δράσει aurait une longue. À imprimer : γρᾴδι᾽. Voir le .md, § 3.2."
+  "note": "οἴμοι hors mètre (–– avant le signe de colon), puis positions 1-7 du trimètre τί δρᾶσι; ποῖ τὸ γρᾴδι᾽; Ἀρταμουξία, avec élision de -ο : le -ο imprimé ne compte pas. C'est le trimètre de Lenting 1839, p. 28 (« Dictione οἴμοι carmini praemissa elegantem senarium habebis »), repris par Bergk, Meineke, Dindorf (Blaydes 1880, p. 124), Hall-Geldart, Rogers (App. p. 228), Coulon, White, Wilson, Prato. L'auteur lui-même, dans son commentaire, tient οἴμοι pour extra metrum et écrit γρᾴδι᾽ ; « il manque un pied à ce vers » (critique.tex) vaut pour la disposition de R. Ainsi lu, 1216 est un trimètre pur. δρᾶσι (Blaydes, Enger) : -σῐ bref exigé à la 3e position, où R δράσει aurait une longue. À imprimer : γρᾴδι᾽. Voir le .md, § 3.2. Austin–Olson 2004, p. 49 : οἴμοι sur une ligne propre (1215a), puis τί δρᾶσι; ποῖ τὸ γρᾴδι᾽; Ἀρταμουξία : le trimètre de Lenting, avec γρᾴδι᾽ élidé ; appui pour la correction demandée (.md, § 3.2)."
  },
  {
   "v": 1216,
   "partie": "b",
   "schema": "– ⏑–⏑– ‖",
   "colon": "",
-  "note": "Positions 8-12 de 1216. R écrit le mot à part, au milieu de la colonne (image f. 177r), comme ses deux cris hors mètre ; mais ici il achève le trimètre. s00 (§ 4.13) le range à tort parmi les cris : le « 1215ᵇ » de White et de Prato est οἴμοι, non ce mot."
+  "note": "Positions 8-12 de 1216. R écrit le mot à part, au milieu de la colonne (image f. 177r), comme ses deux cris hors mètre ; mais ici il achève le trimètre. s00 (§ 4.13) le range à tort parmi les cris : le « 1215ᵇ » de White et de Prato est οἴμοι, non ce mot. Austin–Olson 2004, p. 49 : le mot finit le trimètre 1216, οἴμοι étant leur 1215a."
  },
  {
   "v": 1217,
@@ -538,7 +538,7 @@
   "schema": "",
   "colon": "extra metrum",
   "v_usuel": "1222b",
-  "note": "= 1222 b de Prato (p. 356), 1222 de White ; ligne sans numéro propre chez Coulon et chez Wilson. Cri hors mètre : White 1912, p. 450 ; « 1222b extra metrum » (Prato 2001, p. 356). R : ligne à part, au milieu de la colonne (image f. 177r). Dindorf le supprimait (Conradt 1910, p. 57)."
+  "note": "= 1222 b de Prato (p. 356), 1222 de White ; ligne sans numéro propre chez Coulon et chez Wilson. Cri hors mètre : White 1912, p. 450 ; « 1222b extra metrum » (Prato 2001, p. 356). R : ligne à part, au milieu de la colonne (image f. 177r). Dindorf le supprimait (Conradt 1910, p. 57). 1222b aussi chez Austin–Olson 2004, p. 49 (ligne propre)."
  },
  {
   "v": 1223,
@@ -568,7 +568,7 @@
   "schema": "⏖–⏑– ––⏑⏖ ⏑–⏑– ‖",
   "colon": "3ia",
   "renfoncement": 0,
-  "note": "Trimètre, le dernier de la section (s00, § 4.13) ; renfoncement 0, sans étiquette. Anapeste au 1er pied (τρέχε νυν) ; tribraque au 4e (κόρακα-) ; le ς de κόρακας passe à ἐ-. Césure penthémimère. R τρέχε νῦν κατὰ τοῦ σκόρακας ἐπουρίσας n'a que cinq pieds (Rogers 1904, App. p. 228). κατ᾽ αὐτοὺς Jackson, ἐς O. Bachmann (Wilson 2007, qui met ⟨ἐς⟩ entre crochets, comme Prato ; pas de crochets dans texte.tex). Autres remèdes, tous métriques : τρέχε νῦν, τρέχε νῦν Brunck ; ἐπουρίσας, τρέχε Meineke (Hall-Geldart, Velsen) ; κατὰ τάχος ἐς Bachmann (Coulon) ; ἀλλὰ τρέχε νῦν Reisig, Enger."
+  "note": "Trimètre, le dernier de la section (s00, § 4.13) ; renfoncement 0, sans étiquette. Anapeste au 1er pied (τρέχε νυν) ; tribraque au 4e (κόρακα-) ; le ς de κόρακας passe à ἐ-. Césure penthémimère. R τρέχε νῦν κατὰ τοῦ σκόρακας ἐπουρίσας n'a que cinq pieds (Rogers 1904, App. p. 228). κατ᾽ αὐτοὺς Jackson, ἐς O. Bachmann (Wilson 2007, qui met ⟨ἐς⟩ entre crochets, comme Prato ; pas de crochets dans texte.tex). Autres remèdes, tous métriques : τρέχε νῦν, τρέχε νῦν Brunck ; ἐπουρίσας, τρέχε Meineke (Hall-Geldart, Velsen) ; κατὰ τάχος ἐς Bachmann (Coulon) ; ἀλλὰ τρέχε νῦν Reisig, Enger. Austin–Olson 2004, p. 49 et 350 : même texte, avec ⟨ἐς⟩ (« add. O. Bachmann ») ; renvoi à Jackson, p. 82-83."
  },
  {
   "v": 1227,
@@ -577,7 +577,7 @@
   "colon": "2an",
   "etiquette": "an.",
   "renfoncement": 3,
-  "note": "Début du système final ; étiquette reprise de s00. Dactyle + spondée | anapeste + spondée, diérèse après πέπαισται. -με- bref devant τρ (correption), -ως long, -μῖν long. πέπαισται (Biset ; lemme de Σ dans R selon Velsen, Wilson et, « ut uidetur », Prato ; πέπαικται selon Enger et Dübner, la lettre étant ambiguë sur l'image) / πέπυσται R : même mesure. R réunit 1227 et 1228 sur une ligne, à la marge (image f. 177r) : tétramètre anapestique catalectique, formule de Nub. 1510-1511. Voir le .md, § 4."
+  "note": "Début du système final ; étiquette reprise de s00. Dactyle + spondée | anapeste + spondée, diérèse après πέπαισται. -με- bref devant τρ (correption), -ως long, -μῖν long. πέπαισται (Biset ; lemme de Σ dans R selon Velsen, Wilson et, « ut uidetur », Prato ; πέπαικται selon Enger et Dübner, la lettre étant ambiguë sur l'image) / πέπυσται R : même mesure. R réunit 1227 et 1228 sur une ligne, à la marge (image f. 177r) : tétramètre anapestique catalectique, formule de Nub. 1510-1511. Voir le .md, § 4. Parker 1997, p. 59 : les Thesmophories finissent, comme les Nuées et bien des tragédies, sur une courte coda anapestique, rangée parmi les « independent recitative systems ». Austin–Olson 2004, p. 350 : « Anapaests (all dimeters except 1229 (monometer); 1228 and 1231 are catalectic), pronounced as the chorus exit », avec le rapprochement de Nub. 1510-1511. Même scansion ; l'étiquette « an. », non lyrique, convient à leur lecture."
  },
  {
   "v": 1228,
@@ -585,7 +585,7 @@
   "schema": "–––– ⏑⏑–– ‖",
   "colon": "2an∧",
   "renfoncement": 3,
-  "note": "Parémiaque : quatre longues | anapeste + longue finale. ὥρᾱ long ; 'στι bref, prodélision après δή (R δἤστι : Velsen 1883, p. 88). Avec 1227, il forme le tétramètre de R, déjà relevé par Fritzsche 1838, p. 572, et Rogers 1904, App. p. 229. Hermann a fini par le défendre (Enger 1844, p. 205) ; Coulon, Wilson et Prato le gardent. Pour éviter un parémiaque à l'intérieur du système, on a écrit δῆτ᾽ ἐστὶ (Bothe ; Fritzsche, Rogers), ⟨νῦν⟩ (Hermann) ou ⟨καὶ⟩ (Blaydes, Wilamowitz) : dimètre complet."
+  "note": "Parémiaque : quatre longues | anapeste + longue finale. ὥρᾱ long ; 'στι bref, prodélision après δή (R δἤστι : Velsen 1883, p. 88). Avec 1227, il forme le tétramètre de R, déjà relevé par Fritzsche 1838, p. 572, et Rogers 1904, App. p. 229. Hermann a fini par le défendre (Enger 1844, p. 205) ; Coulon, Wilson et Prato le gardent. Pour éviter un parémiaque à l'intérieur du système, on a écrit δῆτ᾽ ἐστὶ (Bothe ; Fritzsche, Rogers), ⟨νῦν⟩ (Hermann) ou ⟨καὶ⟩ (Blaydes, Wilamowitz) : dimètre complet. Austin–Olson 2004, p. 49 et 350 : δή 'στι gardé, vers catalectique (parémiaque)."
  },
  {
   "v": 1229,
@@ -593,7 +593,7 @@
   "schema": "–⏖–– ––⏑⏑– |",
   "colon": "2an",
   "renfoncement": 3,
-  "note": "Dactyle + spondée | spondée + anapeste ; diérèse à la fin de phrase, après ἑκάστῃ. -ρω long ; δ᾽ passe à ἡμῖν (synaphie). Cette coupe est de Bothe (1808, p. 130), solidaire de δῆτ᾽ ἐστὶ ; R, la Juntine, Fritzsche, Blaydes et Rogers coupent après ἑκάστῃ, où finit la phrase : οἴκαδ᾽ ἑκάστῃ seul (an, –⏖––), puis τὼ Θεσμοφόρω δ᾽ ἡμῖν ἀγαθὴν (2an, ––⏑⏑– ––⏑⏑–). Colométrie imprimée gardée ici ; proposition motivée au .md, § 4."
+  "note": "Dactyle + spondée | spondée + anapeste ; diérèse à la fin de phrase, après ἑκάστῃ. -ρω long ; δ᾽ passe à ἡμῖν (synaphie). Cette coupe est de Bothe (1808, p. 130), solidaire de δῆτ᾽ ἐστὶ ; R, la Juntine, Fritzsche, Blaydes et Rogers coupent après ἑκάστῃ, où finit la phrase : οἴκαδ᾽ ἑκάστῃ seul (an, –⏖––), puis τὼ Θεσμοφόρω δ᾽ ἡμῖν ἀγαθὴν (2an, ––⏑⏑– ––⏑⏑–). Colométrie imprimée gardée ici ; proposition motivée au .md, § 4. Austin–Olson 2004, p. 49 et 350 : coupe de R, οἴκαδ᾽ ἑκάστῃ seul (leur 1229, « monometer »), puis τὼ Θεσμοφόρω δ᾽ ἡμῖν ἀγαθὴν (leur 1230) : c'est la colométrie proposée au .md, § 4.3."
  },
  {
   "v": 1230,
@@ -601,7 +601,7 @@
   "schema": "––⏑⏑– |",
   "colon": "an",
   "renfoncement": 3,
-  "note": "Monomètre : spondée + anapeste. ἡ- long, δ᾽ venant de 1229 ; le ν de ἡμῖν passe à ἀ- ; ἀγᾰθήν. Dans R, second mètre du dimètre τὼ Θεσμοφόρω δ᾽ ἡμῖν ἀγαθὴν."
+  "note": "Monomètre : spondée + anapeste. ἡ- long, δ᾽ venant de 1229 ; le ν de ἡμῖν passe à ἀ- ; ἀγᾰθήν. Dans R, second mètre du dimètre τὼ Θεσμοφόρω δ᾽ ἡμῖν ἀγαθὴν. Chez Austin–Olson 2004, p. 49, second mètre du dimètre τὼ Θεσμοφόρω δ᾽ ἡμῖν ἀγαθὴν (leur 1230), comme dans R."
  },
  {
   "v": 1231,
@@ -609,6 +609,6 @@
   "schema": "––⏑⏑– ⏑⏑–– ‖",
   "colon": "2an∧",
   "renfoncement": 3,
-  "note": "Parémiaque : spondée + anapeste | anapeste + longue finale, sans diérèse ; le ν de χάριν passe à ἀν-. ἀνταποδοίτην (Bentley, Porson, Bothe ; Hall-Geldart, Velsen, Rogers) / ἀνταποδοῖτον (Brubachiana ; Coulon, Wilson, Prato) : même mesure ; R ἀνταδοῖτον a une brève de moins et laisse une brève unique à la place de ⏑⏑. L'apparat antérieur de l'auteur donne ἀνταποδοῖτον comme leçon retenue, texte.tex imprime -οίτην : à mettre d'accord."
+  "note": "Parémiaque : spondée + anapeste | anapeste + longue finale, sans diérèse ; le ν de χάριν passe à ἀν-. ἀνταποδοίτην (Bentley, Porson, Bothe ; Hall-Geldart, Velsen, Rogers) / ἀνταποδοῖτον (Brubachiana ; Coulon, Wilson, Prato) : même mesure ; R ἀνταδοῖτον a une brève de moins et laisse une brève unique à la place de ⏑⏑. L'apparat antérieur de l'auteur donne ἀνταποδοῖτον comme leçon retenue, texte.tex imprime -οίτην : à mettre d'accord. Austin–Olson 2004, p. 49 et 351 : ἀνταποδοῖτον (« ἀνταποδ- Grynaeus : ἀνταδ- R ») ; sur l'absence de diérèse entre les mètres, ils renvoient à Parker, CQ n. s. 8 (1958), p. 82-86 [non consulté]."
  }
 ]

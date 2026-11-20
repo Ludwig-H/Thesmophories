@@ -225,6 +225,20 @@
  },
  {
   "v": "165",
+  "lemme": "αὐτός τε καλὸς ἦν",
+  "categorie": "poetes",
+  "ref": "Hom. Il. 2.673–674",
+  "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:2.673",
+  "citation": "Νιρεύς, ὃς κάλλιστος ἀνὴρ ὑπὸ Ἴλιον ἦλθε / τῶν ἄλλων Δαναῶν μετʼ ἀμύμονα Πηλεΐωνα",
+  "traduction": "Nirée, le plus bel homme venu sous Ilion de tous les Danaens, après l'irréprochable fils de Pélée",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Νιρε*' ; p.py Hom. Il. 2.673–674",
+  "signale_par": "García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 21–34 (.sources/drive/ThesmoBiblio) (Nirée, beau proverbial)",
+  "pertinence": 1,
+  "remarque": "le vers fonde la figure proverbiale de la beauté, opposée à Thersite (Il. 2.216 : voir v. 168) ; la paire répond à celle des vv. 165 et 168 (Agathon le beau, Philoclès le laid)"
+ },
+ {
+  "v": "165",
   "lemme": "ἠμπέσχετο",
   "categorie": "prose",
   "ref": "Ael. VH 7.9",
@@ -616,6 +630,20 @@
   "remarque": "cf. Pl. Ly. 216c ; Thgn. 17 (ὅττι καλὸν φίλον ἐστί)"
  },
  {
+  "v": "165",
+  "lemme": "αὐτός τε καλὸς ἦν",
+  "categorie": "proverbes",
+  "ref": "Luc. DMort. 9.4",
+  "urn": "urn:cts:greekLit:tlg0062.tlg066.perseus-grc2:9.4",
+  "citation": "ὑπεξυρημένος μὲν τὸ γένειον καὶ βαρβαρίζων, Κόδρου δὲ εὐγενέστερος καὶ Νιρέως καλλίων καὶ Ὀδυσσέως συνετώτερος λεγόμενος εἶναι",
+  "traduction": "le menton rasé et parlant en barbare, mais réputé plus noble que Codros, plus beau que Nirée, plus avisé qu'Ulysse",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Νιρε*' -a Luc. (éd. Jacobitz, Perseus grc2 ; 19.4 dans l'éd. Macleod, grc3)",
+  "signale_par": "García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 21–34 (.sources/drive/ThesmoBiblio) (Nirée, beau proverbial)",
+  "pertinence": 1,
+  "remarque": "« plus beau que Nirée », comparaison proverbiale (cf. Luc. Tim. 23 εὐμορφότερον μὲν Νιρέως) ; dite ici d'un mignon au menton rasé, comme Agathon (v. 191 ἐξυρημένος)"
+ },
+ {
   "v": "166",
   "lemme": "διὰ τοῦτ᾽ ἄρ᾽",
   "categorie": "aristophane",
@@ -687,6 +715,20 @@
  },
  {
   "v": "166",
+  "lemme": "κάλ᾽ ἦν τὰ δράματα",
+  "categorie": "aristophane",
+  "ref": "Ar. Ran. 83–84",
+  "urn": "urn:cts:greekLit:tlg0019.tlg009.perseus-grc2:83",
+  "citation": "Ἀγάθων δὲ ποῦ ʼστιν; | ἀπολιπών μʼ ἀποίχεται, / ἀγαθὸς ποιητὴς καὶ ποθεινὸς τοῖς φίλοις",
+  "traduction": "— Et Agathon, où est-il ? — Il m'a quitté, il est parti, bon poète, regretté de ses amis",
+  "verifie": "corpus",
+  "verification": "p.py Ar. Ran. 83–84",
+  "signale_par": "commentaire de l'auteur (vv. 101–129 : « par la bouche de Dionysos, Aristophane rende hommage à Agathon après sa mort »)",
+  "pertinence": 3,
+  "remarque": "le jugement d'Aristophane sur l'art d'Agathon, six ans plus tard (405) ; jeu sur Ἀγάθων / ἀγαθός"
+ },
+ {
+  "v": "166",
   "lemme": "διὰ τοῦτ᾽ ἄρ᾽",
   "categorie": "prose",
   "ref": "Pl. Prt. 341b",
@@ -726,6 +768,48 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 1,
   "remarque": "en prose attique, avec la même valeur consécutive et ironique"
+ },
+ {
+  "v": "166",
+  "lemme": "κάλ᾽ ἦν τὰ δράματα",
+  "categorie": "prose",
+  "ref": "Pl. Symp. 198a–b",
+  "urn": "urn:cts:greekLit:tlg0059.tlg011.perseus-grc2:198",
+  "citation": "ὡς πρεπόντως τοῦ νεανίσκου εἰρηκότος καὶ αὑτῷ καὶ τῷ θεῷ … μετὰ καλὸν οὕτω καὶ παντοδαπὸν λόγον ῥηθέντα … τὸ δὲ ἐπὶ τελευτῆς τοῦ κάλλους τῶν ὀνομάτων καὶ ῥημάτων τίς οὐκ ἂν ἐξεπλάγη ἀκούων;",
+  "traduction": "le jeune homme avait parlé d'une manière digne de lui-même et du dieu… après un discours si beau et si varié… la beauté des noms et des verbes, à la fin, qui n'en eût été frappé ?",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἐξεπλάγη ἀκούων' ; p.py Pl. Symp. 198",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 3,
+  "remarque": "l'éloge d'Éros par Agathon, convenant à sa personne (πρεπόντως … αὑτῷ) et beau par les mots : exactement la thèse des vv. 166–167 (le poète beau fait de beaux ouvrages, à sa ressemblance)"
+ },
+ {
+  "v": "166",
+  "lemme": "κάλ᾽ ἦν τὰ δράματα",
+  "categorie": "prose",
+  "ref": "Arist. Poet. 9.1451b19–23",
+  "urn": "urn:cts:greekLit:tlg0086.tlg034.perseus-grc2:9.7",
+  "citation": "ἐν ἐνίαις δὲ οὐθέν, οἷον ἐν τῷ Ἀγάθωνος Ἀνθεῖ· ὁμοίως γὰρ ἐν τούτῳ τά τε πράγματα καὶ τὰ ὀνόματα πεποίηται, καὶ οὐδὲν ἧττον εὐφραίνει",
+  "traduction": "dans certaines (tragédies), aucun nom connu, comme dans l'Anthée d'Agathon : les faits et les noms y sont pareillement inventés, et elle ne charme pas moins",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Ἀγάθωνος Ἀνθεῖ' ; Perseus 9.7, lignes de Bekker lues dans la source TEI (milestones 1451b20)",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 2,
+  "remarque": "témoignage sur le charme (εὐφραίνει) d'une pièce d'Agathon ; cf. Poet. 18.1456a18 (son échec sur la prise de Troie) et 18.1456a29–30 (voir v. 173)"
+ },
+ {
+  "v": "166",
+  "lemme": "κάλ᾽ ἦν τὰ δράματα",
+  "categorie": "prose",
+  "ref": "Ael. VH 14.13",
+  "urn": "urn:cts:greekLit:tlg0545.tlg002.perseus-grc2:14.13",
+  "citation": "πολλοῖς καὶ πολλάκις χρῆται τοῖς ἀντιθέτοις ὁ Ἀγάθων … ἀλλὰ σύ γε, γενναῖε, λέληθας σεαυτὸν τὸν Ἀγάθωνα ἐκ τοῦ Ἀγάθωνος ἀφανίζων",
+  "traduction": "Agathon use beaucoup et souvent des antithèses… « mais toi, mon brave, tu ne t'aperçois pas que tu fais disparaître Agathon d'Agathon »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Ἀγάθων ἀντιθέτοις'",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 2,
+  "remarque": "le style d'Agathon est Agathon même (cf. v. 167) ; les antithèses de son drame, que le poète parodie aux vv. 198–199"
  },
  {
   "v": "166",
@@ -1919,6 +2003,20 @@
  },
  {
   "v": "168",
+  "lemme": "αἰσχρὸς ὢν αἰσχρῶς ποιεῖ",
+  "categorie": "poetes",
+  "ref": "Hom. Il. 2.216",
+  "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:2.216",
+  "citation": "αἴσχιστος δὲ ἀνὴρ ὑπὸ Ἴλιον ἦλθε",
+  "traduction": "c'était l'homme le plus laid venu sous Ilion",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"αἴσχιστος δὲ ἀνὴρ\"'",
+  "signale_par": "García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 21–34 (.sources/drive/ThesmoBiblio) (§ 1.2 ; l'article cite Thesm. 168, n. 4)",
+  "pertinence": 2,
+  "remarque": "Thersite, modèle proverbial de la laideur ; αἴσχιστος dit à la fois la laideur et la bassesse (Σ Il. : ἀντὶ τοῦ κάκιστος), comme αἰσχρῶς ποιεῖ"
+ },
+ {
+  "v": "168",
   "lemme": "Φιλοκλέης",
   "categorie": "prose",
   "ref": "Aristid. Or. 46 (§ 256 Perseus)",
@@ -1972,6 +2070,34 @@
   "signale_par": "recherche dans le corpus (κορυδαλλ* λόφον)",
   "pertinence": 1,
   "remarque": "Galien cite ensuite Ar. Av. 471–475 (fable ésopique de l'alouette qui enterre son père dans sa tête) : la huppe, signe distinctif de l'oiseau dont on affuble Philoclès"
+ },
+ {
+  "v": "168",
+  "lemme": "αἰσχρὸς ὢν αἰσχρῶς ποιεῖ",
+  "categorie": "prose",
+  "ref": "Max. Tyr. 26.5",
+  "urn": "urn:cts:greekLit:tlg0563.tlg001.1st1K-grc1:26.5.e",
+  "citation": "Πάλιν αὖ Θερσίτης πεποίηται αὐτῷ αἰσχρὸς ἰδεῖν, φωνὴν ἐπεσβόλος, γνώμην ἄτακτος",
+  "traduction": "Thersite, à son tour, il (Homère) l'a fait laid à voir, braillard de la voix, désordonné de l'esprit",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Θερσιτ*' -a Max (TEI, 26.5.e)",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 1,
+  "remarque": "αἰσχρός de Thersite, laid de corps et de parole : la laideur passe du visage à l'œuvre"
+ },
+ {
+  "v": "168",
+  "lemme": "αἰσχρὸς ὢν αἰσχρῶς ποιεῖ",
+  "categorie": "prose",
+  "ref": "Luc. DMort. 25.1",
+  "urn": "urn:cts:greekLit:tlg0062.tlg066.perseus-grc2:25.1",
+  "citation": "Νιρεὺς καὶ Θερσίτης. πότερος οὖν ὁ Νιρεὺς καὶ πότερος ὁ Θερσιτης; οὐδέπω γὰρ τοῦτο δῆλον",
+  "traduction": "— Nirée et Thersite. — Lequel est donc Nirée, et lequel Thersite ? Ce n'est pas encore clair",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Νιρε*' -a Luc. (éd. Jacobitz, Perseus grc2 ; 30.1 dans l'éd. Macleod, grc3)",
+  "signale_par": "García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 21–34 (.sources/drive/ThesmoBiblio)",
+  "pertinence": 1,
+  "remarque": "la paire proverbiale du beau et du laid (cf. Luc. Necyom. 15) ; ici la mort les égale"
  },
  {
   "v": "168",
@@ -2210,6 +2336,20 @@
   "signale_par": "dépouillement d'Hésychius",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "168",
+  "lemme": "αἰσχρὸς ὢν αἰσχρῶς ποιεῖ",
+  "categorie": "lexicographes",
+  "ref": "Sud. θ 257",
+  "urn": "ia:adler-a.-suidae-lexicon-3-./Adler%20A.%2C%20Suidae%20Lexicon%202%20%28%CE%94-%CE%98%29#n721",
+  "citation": "Θερσίτης: ὄνομα κύριον. καὶ Θερσίτειον βλέμμα",
+  "traduction": "Thersite : nom propre. Et « regard de Thersite »",
+  "verifie": "scan",
+  "verification": "Adler II, p. 708, l. 21 (page du PDF local affichée et lue ; OCR de l'index : Θερείτης)",
+  "signale_par": "García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 21–34 (.sources/drive/ThesmoBiblio) (§ 1.2 ; l'article cite Thesm. 168, n. 4)",
+  "pertinence": 1,
+  "remarque": "Adler renvoie à Paroem. ed. Gaisford 143, n. 259 et à l'Ambrosianus 191"
  },
  {
   "v": "168",
@@ -2532,6 +2672,48 @@
   "signale_par": "LSJ s.v. κορυδός (« prov., κ. ἐν ἀμούσοις φθέγγεται, 'au royaume des aveugles les borgnes sont rois', Eust. 1072.40 »)",
   "pertinence": 2,
   "remarque": "le proverbe cité par l'auteur, appliqué par Eustathe ; LSJ le traduit par le proverbe français que donne l'auteur"
+ },
+ {
+  "v": "168",
+  "lemme": "αἰσχρὸς ὢν αἰσχρῶς ποιεῖ",
+  "categorie": "proverbes",
+  "ref": "App. Prov. 3.19",
+  "urn": "urn:cts:greekLit:tlg9007.tlg001.1st1K-grc1:3.19",
+  "citation": "Θερσίτειον βλέμμα, καὶ, Θερσίτειον εἴδωλον: παροιμία ἐπὶ τῶν πάνυ δυσειδῶν, ἐπεὶ καὶ ὁ Θερσίτης τοιοῦτος ἦν",
+  "traduction": "« regard de Thersite » et « image de Thersite » : proverbe pour les gens très laids, puisque Thersite était tel",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Θερσίτειον' (TEI ; CPG I, p. 419)",
+  "signale_par": "García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 21–34 (.sources/drive/ThesmoBiblio) (§ 1.2 ; l'article cite Thesm. 168, n. 4)",
+  "pertinence": 2,
+  "remarque": "= Coislin. 259 (Gaisford, p. 143) ; cf. Sud. θ 257, Erasm. Adag. 4.3.80"
+ },
+ {
+  "v": "168",
+  "lemme": "αἰσχρὸς ὢν αἰσχρῶς ποιεῖ",
+  "categorie": "proverbes",
+  "ref": "Max. Tyr. 1.5",
+  "urn": "urn:cts:greekLit:tlg0563.tlg001.1st1K-grc1:1.5.c",
+  "citation": "ἀσθενέστερος μὲν ὢν τοῦ Ἐπειοῦ, αἰσχίων δὲ τοῦ Θερσίτου, μικρότερος δὲ τοῦ Τυδέως",
+  "traduction": "plus faible qu'Épéios, plus laid que Thersite, plus petit que Tydée",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Θερσιτ*' -a Max (TEI, 1.5.c)",
+  "signale_par": "García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 21–34 (.sources/drive/ThesmoBiblio) (§ 1.2 ; l'article cite Thesm. 168, n. 4)",
+  "pertinence": 2,
+  "remarque": "comparaison proverbiale « plus laid que Thersite » ; la scholie au v. 168 fait de Philoclès un homme laid et petit (μικρὸς τὸ σῶμα)"
+ },
+ {
+  "v": "168",
+  "lemme": "αἰσχρὸς ὢν αἰσχρῶς ποιεῖ",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 4.3.80",
+  "urn": "ia:2.DesideriiErasmiRoterodamiOperaOmniaVolumeII#n527",
+  "citation": "Thersitae facies. Θερσίτειον βλέμμα. i. e. Thersitica facies. De prodigiose deformi dici solitum, quod Homerus scripserit hunc omnium, qui ad Trojam venissent, foedissimum fuisse … Si corpus adspicias, Nireus est, si animum, plusquam Θερσίτειον βλέμμα, reperies. Adagii mentionem fecit Suidas",
+  "traduction": "« visage de Thersite » : se disait d'un être prodigieusement difforme, parce qu'Homère l'a dit le plus laid de tous ceux qui vinrent à Troie… À voir le corps, c'est Nirée ; à voir l'âme, tu trouveras pis qu'un visage de Thersite",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), col. 1020 E–F (image n527 affichée et lue ; n° LXXX ; titres courants des feuillets voisins : n524 Chil. IV, Centur. III, Prov. XXIX–XLVI, n530 Chiliadis quartae centuria IV)",
+  "signale_par": "index d'Érasme (Thersitae facies, 1020 E) ; García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 21–34 (.sources/drive/ThesmoBiblio)",
+  "pertinence": 2,
+  "remarque": "Érasme transporte l'adage de la laideur du corps à celle de l'âme, comme le v. 168 passe de la laideur de Philoclès à celle de ses vers"
  },
  {
   "v": "169",
@@ -3232,6 +3414,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "pour le père de Xénoclès, le nom de Καρκίνος donne un proverbe (voir ad 168)"
+ },
+ {
+  "v": "169",
+  "lemme": "κακὸς κακῶς",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1.9.25",
+  "urn": "ia:2.DesideriiErasmiRoterodamiOperaOmniaVolumeII#n189",
+  "citation": "Mali corvi malum ovum. Κακοῦ κόρακος κακὸν ᾠόν. i. e. Mali corvi malum ovum. Apte usurpabitur, quoties à malo praeceptore discipulus malus proficiscitur: ex improbo patre filius improbus … denique facinus sceleratum ab homine scelesto",
+  "traduction": "de mauvais corbeau, mauvais œuf. Il s'emploiera à propos quand un mauvais maître produit un mauvais disciple, un père méchant un fils méchant… enfin un crime d'un scélérat",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), col. 343 E (image n189 affichée et lue ; n° XXV ; titre courant du feuillet précédent n188 : Chil. I, Centur. IX, Prov. XIX–XXII)",
+  "signale_par": "Tosi n° 1664 (renvoi à Érasme, Adagia 1, 9, 25)",
+  "pertinence": 2,
+  "remarque": "le proverbe grec est déjà relevé (Zen. 4.82 ; Diogenian. 5.39) ; Xénoclès est le fils du « crabe » Carcinos (Vesp. 1501 sqq. ; Pax 781 sqq.) : mauvais père, mauvais fils, mauvaises pièces"
  },
  {
   "v": "170",
@@ -4030,6 +4226,34 @@
   "signale_par": "dépouillement d'Hésychius",
   "pertinence": 3,
   "remarque": "autre nom propre devenu synonyme de ψυχρός : cf. Σ Ach. 220 τὰ ψυχρὰ πάντα Λακρατίδου ἐκάλουν (Dübner, p. 9, OCR)"
+ },
+ {
+  "v": "170",
+  "lemme": "ψυχρὸς ὢν ψυχρῶς ποιεῖ",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 2.10.86",
+  "urn": "ia:2.DesideriiErasmiRoterodamiOperaOmniaVolumeII#n369",
+  "citation": "Ialemo frigidior. Ἰαλέμου ψυχρότερος. i. e. Ialemo frigidior. De cantione, oratione, argumento, joco aut ejusmodi re quapiam supra modum frigida, recte dicetur",
+  "traduction": "plus froid qu'Ialémos : se dira à bon droit d'un chant, d'un discours, d'un sujet, d'une plaisanterie ou de quelque chose de ce genre, d'une froideur excessive",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), col. 703 F – 704 A (image n369 affichée et lue ; n° LXXXVI ; titres courants des feuillets voisins : n362 Chil. II, Centar. X, Prov. XIX–XXIX ; n370 Chil. II, Centur. X, Prov. XCI–XCVIII)",
+  "signale_par": "index d'Érasme (Jalemo frigidior, 703 F)",
+  "pertinence": 2,
+  "remarque": "Érasme applique l'adage aux œuvres « froides » (chant, discours, sujet) : c'est le sens du v. 170 ; le grec est déjà relevé (Zen. 4.39 ; Apostol. 8.97 ; Hsch. ι 29)"
+ },
+ {
+  "v": "170",
+  "lemme": "ψυχρὸς ὢν ψυχρῶς ποιεῖ",
+  "categorie": "proverbes",
+  "ref": "Diogenian. 3.88",
+  "urn": "urn:cts:greekLit:tlg0097.tlg001.1st1K-grc1:3.88",
+  "citation": "Γέλως Μεγαρικός: ἐπὶ τῶν ἀώρως θρυπτομένων. Ἤκμασε γὰρ ἡ Μεγαρικὴ κωμῳδία ἐπὶ χρόνον",
+  "traduction": "« rire de Mégare » : pour ceux qui font les délicats hors de saison ; car la comédie mégarienne fleurit un temps",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"γέλως Μεγαρικός\"' (TEI) ; cf. Sud. γ 115",
+  "signale_par": "Bauck, De proverbiis… Aristophanis, p. 42 (qui rapproche Eup. fr. 244 Kock, σκῶμμ᾽ … Μεγαρικὸν καὶ σφόδρα ψυχρόν)",
+  "pertinence": 1,
+  "remarque": "la plaisanterie mégarienne, proverbialement froide (Eupolis, déjà relevé ; Vesp. 57 γέλωτα Μεγαρόθεν κεκλεμμένον)"
  },
  {
   "v": "171",
@@ -4998,6 +5222,20 @@
   "remarque": "écho possible (hypothèse)"
  },
  {
+  "v": "172",
+  "lemme": "ἐμαυτὸν ἐθεράπευσα",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 2.5.38",
+  "urn": "ia:2.DesideriiErasmiRoterodamiOperaOmniaVolumeII#n299",
+  "citation": "Aliorum Medicus, ipse ulceribus scates … Ἄλλων ἰατρὸς, αὐτὸς ἕλκεσι βρύων. i. e. Aliis medens, at ipsus ulceribus scatens. In eos torquendus est, qui errata castigant incessuntque aliena, intercutibus vitiis ipsi madentes. Illud vulgo tritissimum: Medice, tibi ipsi medicus esto",
+  "traduction": "médecin des autres, toi-même couvert d'ulcères… à retourner contre ceux qui reprennent les fautes d'autrui, ruisselant eux-mêmes de vices cachés. Le mot rebattu : Médecin, sois ton propre médecin",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), col. 564 D (image n299 affichée et lue ; n° XXXVIII — l'OCR lit « XXVII » ; titres courants des feuillets voisins : n298 Chil. II, Centur. V, Prov. XXIII–XXXI ; n300 Chil. II, Centur. V, Prov. XL–XLVII)",
+  "signale_par": "index d'Érasme (Aliorum medicus, ipse ulceribus scates, 564 D) ; Tosi n° 1729",
+  "pertinence": 2,
+  "remarque": "Érasme tire le sénaire de Plutarque (De capienda ex inimicis utilitate) et cite Grégoire de Nazianze ; le grec (Eur. fr. 1086 N.², Zen. 3.58) est déjà relevé : Agathon « s'est soigné » lui-même"
+ },
+ {
   "v": "173",
   "lemme": "παῦσαι βαΰζων",
   "categorie": "testimonium",
@@ -5545,6 +5783,20 @@
  },
  {
   "v": "173",
+  "lemme": "καὶ γὰρ ἐγὼ τοιοῦτος ἦν",
+  "categorie": "tragiques",
+  "ref": "Eur. Hec. 284",
+  "urn": "urn:cts:greekLit:tlg0006.tlg007.perseus-grc2:284",
+  "citation": "κἀγὼ γὰρ ἦ ποτʼ, ἀλλὰ νῦν οὐκ εἴμʼ ἔτι",
+  "traduction": "moi aussi, j'étais quelqu'un autrefois ; mais maintenant je ne suis plus",
+  "verifie": "corpus",
+  "verification": "p.py Eur. Hec. 282–285",
+  "signale_par": "Érasme, Adag. 1.9.50 (« Euripides in Hecuba : Κἀγὼ γὰρ ἦν ποτέ »)",
+  "pertinence": 3,
+  "remarque": "le même tour (κἀγὼ γὰρ … ἦ/ἦν) dans un vers d'Euripide, que le poète semble ici se réappliquer ; ἦ, forme attique de la 1re pers., est celle que discutent Moeris et Photius (déjà relevés) au sujet du v. 173"
+ },
+ {
+  "v": "173",
   "lemme": "παῦσαι βαΰζων",
   "categorie": "poetes",
   "ref": "Theoc. 6.10",
@@ -5626,6 +5878,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "citation de Heraclit. fr. 97 DK (avec le simple)"
+ },
+ {
+  "v": "173",
+  "lemme": "καὶ γὰρ ἐγὼ τοιοῦτος ἦν",
+  "categorie": "prose",
+  "ref": "Arist. Poet. 18.1456a25–30",
+  "urn": "urn:cts:greekLit:tlg0086.tlg034.perseus-grc2:18.19",
+  "citation": "καὶ τὸν χορὸν δὲ ἕνα δεῖ ὑπολαμβάνειν τῶν ὑποκριτῶν … καὶ συναγωνίζεσθαι μὴ ὥσπερ Εὐριπίδῃ ἀλλʼ ὥσπερ Σοφοκλεῖ … διὸ ἐμβόλιμα ᾄδουσιν πρώτου ἄρξαντος Ἀγάθωνος τοῦ τοιούτου",
+  "traduction": "il faut traiter le chœur comme l'un des acteurs… et qu'il prenne part à l'action, non comme chez Euripide, mais comme chez Sophocle… aussi chante-t-on des intermèdes, Agathon ayant le premier commencé de la sorte",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"πρώτου ἄρξαντος Ἀγάθωνος\"' ; Perseus 18.19–20, lignes de Bekker lues dans la source TEI (1456a25, a30)",
+  "signale_par": "commentaire de l'auteur (vv. 173–175, n. 1 : « Confirmée par Aristote », renvoyant au commentaire du v. 29, n. 3 : Poétique 1456a25-32)",
+  "pertinence": 3,
+  "remarque": "la parenté artistique d'Euripide et d'Agathon, que le v. 173 fait avouer à Euripide"
  },
  {
   "v": "173",
@@ -5978,6 +6244,34 @@
   "remarque": "chant des vieillards à Sparte"
  },
  {
+  "v": "173",
+  "lemme": "καὶ γὰρ ἐγὼ τοιοῦτος ἦν",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1.9.50",
+  "urn": "ia:2.DesideriiErasmiRoterodamiOperaOmniaVolumeII#n193",
+  "citation": "Fuimus Troes. Ἦμεν Τρῶες. i. e. Fuimus Troes. Hic loquendi color in Graecanicis tragoediis adeo passim obvius est, ut tanquam in adagium abierit, ubi perisse quempiam significant. Euripides in Hecuba: Κἀγὼ γὰρ ἦν ποτέ. i. e. Et quondam ego fui",
+  "traduction": "nous fûmes des Troyens. Cette couleur de langage est si commune dans les tragédies grecques qu'elle est presque passée en proverbe, quand on veut dire que quelqu'un a péri. Euripide dans l'Hécube : « moi aussi, je fus autrefois »",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), col. 352 E (image n193 affichée et lue ; n° L ; titres courants des feuillets voisins : n192 Chil. I, Centur. IX, Prov. XLII–XLVI ; n194 Centur. IX, Prov. LI–LV)",
+  "signale_par": "Tosi, lemme « Fuimus Troes » (qui renvoie à Érasme 1.9.50 et à Hec. 284 ; numéro non relevé)",
+  "pertinence": 2,
+  "remarque": "Érasme fait du tour tragique un adage ; le v. 173 le retourne en aveu : Euripide fut, lui aussi, un jeune Agathon"
+ },
+ {
+  "v": "173",
+  "lemme": "καὶ γὰρ ἐγὼ τοιοῦτος ἦν",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1.9.49",
+  "urn": "ia:2.DesideriiErasmiRoterodamiOperaOmniaVolumeII#n193",
+  "citation": "Fuere quondam strenui Milesii. Πάλαι ποτ᾽ ἦσαν ἄλκιμοι Μιλήσιοι … Hoc senario notabant eos, qui à pristina fortuna defluxissent, aut à majorum moribus degenerassent. Breviter, in omnes quadrabit, qui desierunt esse, quod erant, facti deteriores, in senem … Allusit eodem in Vespis, jocans in senes",
+  "traduction": "les Milésiens furent vaillants autrefois… on marquait par ce sénaire ceux qui étaient déchus de leur ancienne fortune ou avaient dégénéré… il conviendra à tous ceux qui ont cessé d'être ce qu'ils étaient, au vieillard… Il y fait allusion dans les Guêpes, en raillant les vieillards",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), col. 351 F – 352 D (image n193 affichée et lue ; n° XLIX ; titres courants : voir 1.9.50)",
+  "signale_par": "index d'Érasme (Milesii quondam strenui, 351 F)",
+  "pertinence": 2,
+  "remarque": "Érasme cite Plut. 1002–1003 et Vesp. 1060–1064 (déjà relevés) : le proverbe du « j'étais autrefois », appliqué au vieillard"
+ },
+ {
   "v": "174",
   "lemme": "ὢν τηλικοῦτος",
   "categorie": "aristophane",
@@ -6312,6 +6606,20 @@
   "signale_par": "Austin–Olson 2004, p. 115, ad 173–174 (« τηλικοῦτος is late 5th- and 4th-c. Attic vocabulary, first attested at A. Ag. 1620 ; first in prose in the orators (e.g. Lys. 21. 20 ; Is. 3. 55) and Plato (e.g. Prt. 318b) »)",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "174",
+  "lemme": "ἡνίκ᾽ ἠρχόμην ποιεῖν",
+  "categorie": "prose",
+  "ref": "Vit. Eur. 1",
+  "urn": "urn:cts:greekLit:tlg5023.tlg010.1st1K-grc1:1",
+  "citation": "ἤρξατο δὲ διδάσκειν ἐπὶ Καλλίου ἄρχοντος κατὰ ὀλυμπιάδα πά΄ ἔτει α΄, πρῶτον δὲ ἐδίδαξε τὰς Πελιάδας, ὅτε καὶ τρίτος ἐγένετο",
+  "traduction": "il commença à faire jouer ses pièces sous l'archontat de Callias, la première année de la 81e olympiade (456/455) ; il donna d'abord les Péliades, et fut alors troisième",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Πελιάδας ἐδίδαξε' ; texte de la Vie (Σ Eur., Vitae, Schwartz I)",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 2,
+  "remarque": "le même verbe (ἤρξατο) pour les débuts d'Euripide, quarante-quatre ans avant les Thesmophories (411) ; cf. TGF² (Nauck), p. 549 (Péliades)"
  },
  {
   "v": "174",
@@ -10908,6 +11216,20 @@
  {
   "v": "181",
   "lemme": "μέλλουσί μ᾽ αἱ γυναῖκες ἀπολεῖν",
+  "categorie": "lexicographes",
+  "ref": "Sud. ε 3695",
+  "urn": "ia:adler-a.-suidae-lexicon-3-./Adler%20A.%2C%20Suidae%20Lexicon%202%20%28%CE%94-%CE%98%29#n481",
+  "citation": "κύνας ἐπαφεῖναι αὐτῷ. οἱ δὲ ἱστόρησαν οὐχ ὑπὸ κυνῶν, ἀλλʼ ὑπὸ γυναικῶν νύκτωρ διασπασθῆναι, πορευόμενον ἀωρὶ πρὸς Κρατερὸν τὸν ἐρώμενον Ἀρχελάου",
+  "traduction": "(on persuada l'esclave du roi) de lancer les chiens contre lui. D'autres racontent qu'il fut mis en pièces, non par des chiens, mais par des femmes, de nuit, alors qu'il se rendait à une heure indue chez Cratère, le mignon d'Archélaos",
+  "verifie": "scan",
+  "verification": "Adler II, p. 468, l. 29–31 (page du PDF local affichée et lue)",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 2,
+  "remarque": "la légende de la mort d'Euripide réalise la menace du v. 181 (les femmes vont me faire périr) ; cf. Diogenian. 7.52 (Προμέρου κύνες) et Gell. 15.20 (déjà relevé au v. 182)"
+ },
+ {
+  "v": "181",
+  "lemme": "μέλλουσί μ᾽ αἱ γυναῖκες ἀπολεῖν",
   "categorie": "proverbes",
   "ref": "Zen. 4.91",
   "urn": "urn:cts:greekLit:tlg0098.tlg001.1st1K-grc1:4.91",
@@ -10932,6 +11254,20 @@
   "signale_par": "index d'Érasme (Lemnium malum, 345 A)",
   "pertinence": 1,
   "remarque": "Érasme résume Hérodote (6.138)"
+ },
+ {
+  "v": "181",
+  "lemme": "μέλλουσί μ᾽ αἱ γυναῖκες ἀπολεῖν",
+  "categorie": "proverbes",
+  "ref": "Diogenian. 7.52",
+  "urn": "urn:cts:greekLit:tlg0097.tlg001.1st1K-grc1:7.52",
+  "citation": "Προμέρου κύνες: τοῦτόν φασιν οἰκέτην ὄντα βασιλικὸν μισῆσαι καθ’ ὑπερβολὴν τῶν τραγῳδιῶν τὸν ποιητὴν Εὐριπίδην, ἐπαφεῖναί τε αὐτῷ κύνας ἀγρίους, οἵ τοῦτον κατεθοινήσαντο",
+  "traduction": "« les chiens de Promérus » : on dit que cet esclave du roi haïssait à l'excès le poète tragique Euripide et lança contre lui des chiens sauvages, qui le dévorèrent",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Προμέρου' (TEI) ; = Gaisford, p. 96, cod. Bodl. 782 (avec la note de Schott)",
+  "signale_par": "Gaisford, Paroemiographi, p. 96, n. de Schott sur cod. Bodl. 782 (« Aristophanes vero ἐν Θεσμοφοριαζούσαις, de feminis, quarum osor erat… »)",
+  "pertinence": 1,
+  "remarque": "le proverbe sur la mort violente d'Euripide ; Schott le rapproche des Thesmophories et de la haine des femmes"
  },
  {
   "v": "182",
@@ -11324,6 +11660,20 @@
   "signale_par": "dépouillement d'Hésychius",
   "pertinence": 1,
   "remarque": "cf. Hsch. θ 383 (déjà relevé)"
+ },
+ {
+  "v": "182",
+  "lemme": "ὅτι κακῶς αὐτὰς λέγω",
+  "categorie": "lexicographes",
+  "ref": "Sud. ε 3695",
+  "urn": "ia:adler-a.-suidae-lexicon-3-./Adler%20A.%2C%20Suidae%20Lexicon%202%20%28%CE%94-%CE%98%29#n481",
+  "citation": "σκυθρωπὸς δὲ ἦν τὸ ἦθος καὶ ἀμειδὴς καὶ φεύγων τὰς συνουσίας· ὅθεν καὶ μισογύνης ἐδοξάσθη",
+  "traduction": "il était d'humeur sombre, sans sourire, fuyant les réunions : de là vient aussi qu'il passa pour haïr les femmes",
+  "verifie": "scan",
+  "verification": "Adler II, p. 468, l. 20–21 (page du PDF local affichée et lue)",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 2,
+  "remarque": "la réputation de misogyne (μισογύνης), dont les vv. 181–182 font le grief des femmes ; cf. Ath. 13.557e, Gell. 15.20.6 (déjà relevés)"
  },
  {
   "v": "182",
@@ -12000,6 +12350,20 @@
  {
   "v": "185",
   "lemme": "ὡς δοκῶν εἶναι γυνή",
+  "categorie": "tragiques",
+  "ref": "Aesch. Sept. 592",
+  "urn": "urn:cts:greekLit:tlg0085.tlg004.perseus-grc2:592",
+  "citation": "οὐ γὰρ δοκεῖν ἄριστος, ἀλλʼ εἶναι θέλει",
+  "traduction": "car il ne veut pas paraître le meilleur, mais l'être",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"οὐ γὰρ δοκεῖν ἄριστος\"'",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 2,
+  "remarque": "l'antithèse célèbre du paraître et de l'être ; Agathon, lui, n'aura qu'à « paraître » femme (δοκῶν εἶναι)"
+ },
+ {
+  "v": "185",
+  "lemme": "ὡς δοκῶν εἶναι γυνή",
   "categorie": "prose",
   "ref": "Apollod. 3.13.8",
   "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2:3.13.8",
@@ -12010,6 +12374,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "Achille à Scyros, caché sous l'habit féminin parmi les filles de Lycomède (voir au v. 184 l'Épithalame d'Achille et de Déidamie)"
+ },
+ {
+  "v": "185",
+  "lemme": "ὡς δοκῶν εἶναι γυνή",
+  "categorie": "prose",
+  "ref": "Pl. Resp. 2.361b",
+  "urn": "urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:2.361",
+  "citation": "κατʼ Αἰσχύλον οὐ δοκεῖν ἀλλʼ εἶναι ἀγαθὸν ἐθέλοντα. ἀφαιρετέον δὴ τὸ δοκεῖν",
+  "traduction": "voulant, selon le mot d'Eschyle, non pas paraître mais être bon. Il faut donc lui ôter le paraître",
+  "verifie": "corpus",
+  "verification": "p.py Pl. Resp. 2.361",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 1,
+  "remarque": "le vers d'Eschyle devenu maxime (cf. Plut. Mor. 186b)"
  },
  {
   "v": "185",
@@ -12038,6 +12416,20 @@
   "signale_par": "recherche dans le corpus (Tosi, s.v. Clodius déguisé en femme)",
   "pertinence": 1,
   "remarque": "mot de César devenu proverbial (« la femme de César ne doit pas être soupçonnée »), né de l'affaire de Clodius travesti à la fête féminine de la Bonne Déesse (Plut. Caes. 10.1, déjà relevé) ; Tosi renvoie à Suet. Iul. 74 et Plut. Caes. 10, Cic. 29.9, Mor. 206a"
+ },
+ {
+  "v": "185",
+  "lemme": "ὡς δοκῶν εἶναι γυνή",
+  "categorie": "proverbes",
+  "ref": "Plut. Mor. 186b",
+  "urn": "urn:cts:greekLit:tlg0007.tlg081.perseus-grc4:41.5",
+  "citation": "Αἰσχύλου δὲ ποιήσαντος εἰς Ἀμφιάραον οὐ γὰρ δοκεῖν ἄριστος ἀλλʼ εἶναι θέλει … πάντες εἰς Ἀριστείδην ἀπέβλεψαν",
+  "traduction": "Eschyle ayant écrit d'Amphiaraos « il ne veut pas paraître le meilleur, mais l'être », tous les regards se tournèrent vers Aristide",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"οὐ γὰρ δοκεῖν ἄριστος\"' (Reg. et imp. apophth. 41.5, 186b–c)",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 1,
+  "remarque": "le vers appliqué au théâtre même, comme une sentence (cf. Tosi, variante « Esse quam videri bonus malle », Sall. Cat. 54.6)"
  },
  {
   "v": "186",
@@ -12430,6 +12822,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
   "remarque": "Lasos d'Hermioné et le rejet du σ dans le lyrisme : fond de la plaisanterie sur Euripide"
+ },
+ {
+  "v": "186",
+  "lemme": "sigmatisme",
+  "categorie": "prose",
+  "ref": "Dion. Hal. Comp. 14",
+  "urn": "urn:cts:greekLit:tlg0081.tlg012.perseus-grc2:14",
+  "citation": "ἄχαρι δὲ καὶ ἀηδὲς τὸ ς καὶ πλεονάσαν σφόδρα λυπεῖ· θηριώδους γὰρ καὶ ἀλόγου μᾶλλον ἢ λογικῆς ἐφάπτεσθαι δοκεῖ φωνῆς ὁ συριγμός … εἰσὶ δʼ οἳ καὶ ἀσίγμους ὅλας ᾠδὰς ἐποίουν",
+  "traduction": "le σ est disgracieux et déplaisant, et, multiplié, il blesse fort : le sifflement semble tenir d'une voix de bête plutôt que d'une voix raisonnable… certains composaient même des odes entières sans sigma",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἀσίγμους'",
+  "signale_par": "Austin–Olson 2004, p. 117, ad 184–186 (sigmatisme d'Euripide) ; recherche dans le corpus",
+  "pertinence": 2,
+  "remarque": "la théorie antique du σ, qui fonde la raillerie de Platon le Comique (fr. 30 Kock) et d'Eubule (fr. 26 Kock), déjà relevés ; cf. Ath. 10.455c (Pindare, τὸ σὰν κίβδηλον)"
  },
  {
   "v": "186",

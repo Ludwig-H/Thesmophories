@@ -4032,6 +4032,20 @@
   "remarque": "Le froid qui arrête le travail, et le lieu chaud où l'on se tient : même donnée que chez le serviteur d'Agathon, retournée (Hésiode condamne l'oisif)."
  },
  {
+  "v": "67–69",
+  "lemme": "χειμῶνος … κατακάμπτειν … πρὸς τὸν ἥλιον",
+  "categorie": "poetes",
+  "ref": "Ov. Met. 10.284–286",
+  "urn": "urn:cts:latinLit:phi0959.phi006.perseus-lat2:10.284",
+  "citation": "ut Hymettia sole / cera remollescit tractataque pollice multas / flectitur in facies ipsoque fit utilis usu.",
+  "traduction": "« comme la cire de l'Hymette se ramollit au soleil et, travaillée sous le pouce, se plie en mille formes et devient utilisable par l'usage même »",
+  "verifie": "corpus",
+  "verification": "latr.py (textes latins locaux, .sources/web/latin_perseus/phi0959.phi006 et latin/ovidius/met.xml), requête 'Hymettia sole'",
+  "signale_par": "Tosi n. 1375 (renvoi à Mét. 10, 284–288) ; recherche directe",
+  "pertinence": 3,
+  "remarque": "L'image exacte du serviteur : la cire (cf. κηροχυτεῖ, v. 56) ne se laisse plier (κατακάμπτειν) qu'amollie au soleil (πρὸς τὸν ἥλιον)."
+ },
+ {
   "v": "67–68",
   "lemme": "χειμῶνος οὖν ὄντος … οὐ ῥᾴδιον",
   "categorie": "prose",
@@ -4268,6 +4282,20 @@
   "signale_par": "LSJ s.v. στροφή",
   "pertinence": 2,
   "remarque": "Les « tours » de l'orateur, sens figuré voisin de Ar. Ran. 775, déjà relevé."
+ },
+ {
+  "v": "68",
+  "lemme": "κατακάμπτειν (la cire)",
+  "categorie": "poetes",
+  "ref": "Hor. Ars 163",
+  "urn": "urn:cts:latinLit:phi0893.phi006.perseus-lat2:163",
+  "citation": "cereus in vitium flecti, monitoribus asper",
+  "traduction": "« (le jeune homme,) de cire pour se plier au vice, rétif à qui le conseille »",
+  "verifie": "corpus",
+  "verification": "latr.py (textes latins locaux, .sources/web/latin_perseus/phi0893.phi006 et latin/horatius/ars.xml), requête 'cereus in vitium'",
+  "signale_par": "recherche directe (Tosi n. 1375)",
+  "pertinence": 1,
+  "remarque": "La cire est la matière qui se plie (flecti ~ κάμπτειν) ; au vers précédent, aprici gramine campi."
  },
  {
   "v": "68",
@@ -4688,6 +4716,20 @@
   "signale_par": "van Leeuwen ad 69 sq.",
   "pertinence": 2,
   "remarque": "στέατος … τροχόν : même μέγας τροχός que pour la cire d'Ulysse, Od. 12.173 (déjà relevé au v. 67–68)."
+ },
+ {
+  "v": "68–69",
+  "lemme": "κατακάμπτειν … πρὸς τὸν ἥλιον",
+  "categorie": "poetes",
+  "ref": "Verg. Ecl. 8.80–81",
+  "urn": "urn:cts:latinLit:phi0690.phi001.perseus-lat2:8.80",
+  "citation": "Limus ut hic durescit et haec ut cera liquescit / uno eodemque igni",
+  "traduction": "« Comme ce limon durcit et comme cette cire fond à un seul et même feu »",
+  "verifie": "corpus",
+  "verification": "latr.py (textes latins locaux, .sources/web/latin_perseus/phi0690.phi001), requête 'cera liquescit'",
+  "signale_par": "Tosi n. 1630",
+  "pertinence": 1,
+  "remarque": "Pendant latin du proverbe grec du soleil qui fond la cire et durcit la boue (Tosi n. 1630, Clem. Al. Strom. 8.9.32) ; ici au feu."
  },
  {
   "v": "68–69",
@@ -7883,6 +7925,20 @@
  },
  {
   "v": "74",
+  "lemme": "κηδεστὴν ἐμόν",
+  "categorie": "comiques",
+  "ref": "Plaut. Aul. 473",
+  "urn": "urn:cts:latinLit:phi0119.phi003.perseus-lat2:473",
+  "citation": "sed Megadorus meus affinis eccum incedit a foro.",
+  "traduction": "« mais voici mon parent par alliance, Mégadore, qui revient du forum »",
+  "verifie": "corpus",
+  "verification": "latr.py (textes latins locaux, .sources/web/latin_perseus/phi0119.phi003, Aulularia), requête 'adfin|affin' ; III 4 = vv. 460–474 dans le TEI, d'où 3, 4, 14 = 473",
+  "signale_par": "Blaydes ad loc. (d'après Brunck : Aul. 3, 4, 14, numérotation ancienne)",
+  "pertinence": 1,
+  "remarque": "Affinis, équivalent latin de κηδεστής : Euclion nomme ainsi le futur gendre avant le mariage (cf. 536 adfinem). Le second renvoi de Blaydes (5, 62) n'a pas été identifié."
+ },
+ {
+  "v": "74",
   "lemme": "οὐ χρῆν σε",
   "categorie": "tragiques",
   "ref": "Eur. IA 307",
@@ -8552,6 +8608,20 @@
   "signale_par": "Dictionnaire des images du poétique dans l'Antiquité (2025), s.v. Nourriture, cuisine, goût, § 1.2",
   "pertinence": 2,
   "remarque": "Le poète comique Cratès « pétrit » (μάττων) ses trouvailles : même famille d'images boulangères que προφυράω / διαμάττω (Av. 462–463)."
+ },
+ {
+  "v": "75",
+  "lemme": "κακόν μοι … προπεφυραμένον",
+  "categorie": "comiques",
+  "ref": "Ter. Phorm. 318",
+  "urn": "urn:cts:latinLit:phi0134.phi004.perseus-lat2:318",
+  "citation": "Tute hoc intristi: tibi omne est exedendum.",
+  "traduction": "« C'est toi qui as délayé cette pâtée : à toi de la manger tout entière »",
+  "verifie": "corpus",
+  "verification": "latr.py (textes latins locaux, .sources/web/latin_perseus/phi0134.phi004, Phormio), requête 'intristi'",
+  "signale_par": "Tosi n. 890 ; non vérifiés antérieurs",
+  "pertinence": 2,
+  "remarque": "Le proverbe latin de la pâte qu'on a délayée (intrire, cf. προ-πεφυραμένον) ; valeur proverbiale attestée par Donat (selon Tosi, non contrôlé), repris par Ausone. Même image en grec : Macar. 4.50 (déjà relevé)."
  },
  {
   "v": "75",

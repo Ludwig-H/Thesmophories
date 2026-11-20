@@ -4928,6 +4928,76 @@
   "remarque": "autre emprunt à l’Alceste (Admète, Alc. 866 κείνων ἔραμαι) ; Austin–Olson le marquent d’un point d’interrogation"
  },
  {
+  "v": "194",
+  "lemme": "χαίρεις ὁρῶν φῶς, πατέρα δ᾽ οὐ χαίρειν δοκεῖς; (le vieillard aussi tient à la vie)",
+  "categorie": "prose",
+  "ref": "Arist. Rh. 2.13.8 (1389b30–35)",
+  "urn": "urn:cts:greekLit:tlg0086.tlg038.perseus-grc2:2.13.8",
+  "citation": "καὶ φιλόζωοι, καὶ μᾶλλον ἐπὶ τῇ τελευταίᾳ ἡμέρᾳ διὰ τὸ τοῦ ἀπόντος εἶναι τὴν ἐπιθυμίαν, καὶ οὗ ἐνδεεῖς, τούτου μάλιστα ἐπιθυμεῖν.",
+  "traduction": "« [les vieillards] aiment la vie, et davantage à leur dernier jour, parce que le désir porte sur ce qui manque et qu'on désire surtout ce dont on est privé »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'φιλόζωοι' -a Arist (Rh. 2.13.8, Perseus, éd. Ross ; jalons Bekker 1389b, l. 30 et 35, dans le XML)",
+  "signale_par": "recherche dans le corpus (φιλόζω-), reprise du 20 nov.",
+  "pertinence": 2,
+  "remarque": "le portrait du vieillard dans la Rhétorique justifie la réplique de Phérès (Eur. Alc. 691) que reprend Agathon : le père, vieux, aime la lumière autant que le fils"
+ },
+ {
+  "v": "194",
+  "lemme": "χαίρεις ὁρῶν φῶς, πατέρα δ᾽ οὐ χαίρειν δοκεῖς; (le vieillard aussi tient à la vie)",
+  "categorie": "prose",
+  "ref": "Cic. Sen. 24",
+  "urn": "urn:cts:latinLit:phi0474.phi051.perseus-lat2:24",
+  "citation": "nemo enim est tam senex qui se annum non putet posse vivere",
+  "traduction": "« car nul n'est si vieux qu'il ne pense pouvoir vivre encore un an »",
+  "verifie": "corpus",
+  "verification": "texte TEI Perseus (éd. Falconer) téléchargé le 20 nov. dans .sources/web/latin_perseus/phi0474.phi051.perseus-lat2.xml (hors index), § 24",
+  "signale_par": "Tosi n° 1085",
+  "pertinence": 1,
+  "remarque": "source du lemme de Tosi n° 1085 (entrée suivante)"
+ },
+ {
+  "v": "194",
+  "lemme": "χαίρεις ὁρῶν φῶς, πατέρα δ᾽ οὐ χαίρειν δοκεῖς; (le vieillard aussi tient à la vie)",
+  "categorie": "prose",
+  "ref": "Sen. Ep. 12.6",
+  "urn": "urn:cts:latinLit:phi1017.phi015.perseus-lat2:1.12.6",
+  "citation": "Deinde nemo tam senex est, ut inprobe unum diem speret.",
+  "traduction": "« ensuite, nul n'est si vieux qu'il soit déraisonnable d'espérer un jour de plus »",
+  "verifie": "corpus",
+  "verification": ".sources/web/latin/seneca/epist.xml (Perseus, éd. Gummere), lettre 12, § 6",
+  "signale_par": "Tosi n° 1085",
+  "pertinence": 1,
+  "remarque": "reprise de la sentence de Cicéron (Tosi)"
+ },
+ {
+  "v": "194",
+  "lemme": "χαίρεις ὁρῶν φῶς, πατέρα δ᾽ οὐ χαίρειν δοκεῖς; (le vieillard aussi tient à la vie)",
+  "categorie": "scholies",
+  "ref": "Σ Eur. Hec. 497 (Dindorf)",
+  "urn": "urn:cts:greekLit:tlg5023.tlg014.1st1K-grc1:3.497",
+  "citation": "γέρων μέν εἰμι, ἀλλὰ φιλόζωος. … ἢ τὸ “γέρων μέν εἰμιʼ διὰ τὸ τοῖς γέρουσι περισπουδαστότερον εἶναι τὸ ζῆν, ἐπειδὴ ὁρῶσιν ὡς ἐγγύς εἰσι τοῦ θανάτου.",
+  "traduction": "« je suis vieux, mais j'aime la vie […] ou bien “je suis vieux” parce que les vieillards tiennent davantage à la vie, voyant qu'ils sont près de la mort »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'φιλοζω* γερο*' (Scholia in Euripidis Hecubam 497, éd. Dindorf 1863, First1KGreek)",
+  "signale_par": "recherche dans le corpus (φιλόζω-), reprise du 20 nov.",
+  "pertinence": 1,
+  "remarque": "sur la plainte de Talthybios (Hec. 497–498) ; même lieu commun que Phérès (Alc. 691) et Arist. Rh. 2.13.8"
+ },
+ {
+  "v": "194",
+  "lemme": "χαίρεις ὁρῶν φῶς, πατέρα δ᾽ οὐ χαίρειν δοκεῖς; (le vieillard aussi tient à la vie)",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 1085",
+  "urn": "drive:Grec/Proverbes/Dictionnaire sentences grecques et latines Tosi ROC/Dictionnaire des sentences latines et grecques by Renzo Tosi (z-lib.org) (1).txt#b715",
+  "citation": "Nemo est tam senex, qui se annum non putet posse vivere",
+  "traduction": "« nul n'est si vieux qu'il ne pense pouvoir vivre une année de plus »",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 798, n° 1085, lu sur l'image (PDF ThesmoBiblio, page 792 du fichier) ; OCR du corpus fautif (§ 715 « tant sena … nan … passe »)",
+  "signale_par": "recherche dans Tosi (« senex annum »), reprise du 20 nov.",
+  "pertinence": 2,
+  "remarque": "Tosi : Cic. Sen. 7.24, Sen. Ep. 12.6, saint Jérôme, Pseudo-Bède ; La Fontaine 8.1 (les plus vieux sont souvent les derniers à mourir)"
+ },
+ {
   "v": "195",
   "lemme": "μή νυν … οἰκείως φέρε (195–197)",
   "categorie": "testimonium",
@@ -5192,6 +5262,20 @@
   "signale_par": "Austin–Olson 2004, p. 120 (ad 195-7 : ἐλπίζω « attested first at A. Pers. 746 »)",
   "pertinence": 1,
   "remarque": "première attestation de ἐλπίζω (pour l’ancien ἔλπω)"
+ },
+ {
+  "v": "195",
+  "lemme": "μή νυν ἐλπίσῃς",
+  "categorie": "lexicographes",
+  "ref": "Sud. ε 912",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:2.E.912",
+  "citation": "Ἐλπίσας: οὐ μόνον ἐπ’ ἀγαθῷ, ἀλλ᾿ ἁπλῶς ἐπὶ τῇ τοῦ μέλλοντος ἐκβάσει λέγεται παρὰ Ἀττικοῖς.",
+  "traduction": "« ἐλπίσας : se dit chez les Attiques non seulement d'un bien, mais simplement de l'issue d'une chose à venir »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"τοῦ μέλλοντος ἐκβάσει\"' -a Sud (Sud. ε 912, Adler, First1KGreek)",
+  "signale_par": "dépouillement des lexicographes (lex.py ἐλπισ), reprise du 20 nov.",
+  "pertinence": 2,
+  "remarque": "ἐλπίζω neutre, « s'attendre à » : Agathon ne dit pas « n'espère pas » mais « ne compte pas que je subisse ton malheur »"
  },
  {
   "v": "196",
@@ -5864,6 +5948,34 @@
   "signale_par": "Austin–Olson 2004, p. 120 (ad 195-7 : « Damox. fr. 2. 58 »)",
   "pertinence": 1,
   "remarque": "le cuisinier-philosophe : οἰκείως « de manière appropriée » ; emploi de l’adverbe dans la Comédie nouvelle"
+ },
+ {
+  "v": "197",
+  "lemme": "ἀλλ᾽ αὐτὸς ὅ γε σόν ἐστιν οἰκείως φέρε (à chacun d'avaler ce qu'il a pétri)",
+  "categorie": "proverbes",
+  "ref": "Macar. 4.50 (CPG II, p. 171)",
+  "urn": "ia:corpusparoemiogr02leutuoft#n206",
+  "citation": "Ἣν τις ἔμαξε μᾶζαν ταύτην καὶ ἐσθιέτω.",
+  "traduction": "« la galette qu'on a pétrie, qu'on la mange aussi »",
+  "verifie": "scan",
+  "verification": "CPG II, p. 171, Macar. IV 50, lu sur l'image (archive.org corpusparoemiogr02leutuoft, n206 ; l'index OCR l'étiquette p. 170)",
+  "signale_par": "Tosi n° 890 (« parfait parallèle en grec … que répertorie le parémiographe Macaire (4, 50) »)",
+  "pertinence": 2,
+  "remarque": "l'équivalent grec de Ter. Phorm. 318 (Tosi n° 890, déjà relevé) : Euripide doit porter lui-même l'affaire qu'il a montée"
+ },
+ {
+  "v": "197",
+  "lemme": "ἀλλ᾽ αὐτὸς ὅ γε σόν ἐστιν οἰκείως φέρε (à chacun d'avaler ce qu'il a pétri)",
+  "categorie": "poetes",
+  "ref": "Ter. Phorm. 318",
+  "urn": "urn:cts:latinLit:phi0134.phi004.perseus-lat2:318",
+  "citation": "Tute hoc intristi: tibi omne est exedendum.",
+  "traduction": "« c'est toi qui as fait cette pâtée : à toi de la manger jusqu'au bout »",
+  "verifie": "corpus",
+  "verification": ".sources/web/latin_perseus/phi0134.phi004.perseus-lat2.xml (Perseus, Phormio, v. 318 ; hors index)",
+  "signale_par": "Tosi n° 890",
+  "pertinence": 1,
+  "remarque": "valeur proverbiale attestée par Donat (Tosi) ; Phormion doit assumer seul l'intrigue qu'il a nouée"
  },
  {
   "v": "198",
@@ -6928,6 +7040,20 @@
   "signale_par": "lecture de PCG VI 2 (à partir d’Austin–Olson ad 195-7)",
   "pertinence": 1,
   "remarque": "Stobée range ces vers sous le chapitre « qu’il faut supporter noblement ce qui arrive » (IV 44), celui des sentences rapprochées des vv. 198–199"
+ },
+ {
+  "v": "198",
+  "lemme": "τὰς συμφοράς",
+  "categorie": "lexicographes",
+  "ref": "Sud. σ 1407",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:4.Σ.1407",
+  "citation": "Συμφορά: ἀτυχία, κακῶν συντυχία.",
+  "traduction": "« συμφορά : infortune, concours de maux »",
+  "verifie": "corpus",
+  "verification": "requête SQL sur l'index (Suda TEI, sigma lunaire) : Sud. σ 1407 et 1408, Adler, First1KGreek",
+  "signale_par": "dépouillement des lexicographes (lex.py συμφορ), reprise du 20 nov.",
+  "pertinence": 1,
+  "remarque": "σ 1408 ajoute que le mot est neutre (τῶν μέσων ἐστί … δηλοῖ δὲ ἡ συμφορὰ καὶ τὸ καλὸν καὶ τὸ κακόν, avec Simonide et Sophocle) : ici, au pluriel, les « revers »"
  },
  {
   "v": "199",

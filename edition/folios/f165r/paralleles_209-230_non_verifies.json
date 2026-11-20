@@ -180,5 +180,19 @@
   "ref": "Men. Epitr. 955 (serment féminin par φίλη Δήμητρα)",
   "source": "Austin–Olson 2004, p. 129 (ad 225)",
   "raison": "Épitréponts absents du corpus local et des scans"
+ },
+ {
+  "v": "230",
+  "lemme": "ἀτρέμα",
+  "ref": "Apost. (Ἀτρέμας βοῦς)",
+  "source": "index du CPG II, p. 795 (OCR : « ἀτρεμὰς βοῦς Ap I… »)",
+  "raison": "numéro d’Apostolios illisible dans l’OCR de l’index ; non retrouvé dans le texte : seul Diogenian. 3.9 est inscrit"
+ },
+ {
+  "v": "230",
+  "lemme": "ἔχ᾽ ἀτρέμα σαυτόν",
+  "ref": "Pherecr. fr. 6.3 K.-A. ; Strattis fr. 52 Kock ; Theopomp. Com. fr. 32 Kock ; Ar. fr. 679 Kock (numéros de Kassel–Austin)",
+  "source": "Austin–Olson 2004, p. 130 (« Pherecr. fr. 6. 3 », numérotation K.-A.)",
+  "raison": "les fragments sont inscrits d’après Kock (texte lu sur l’image) ; la concordance avec Kassel–Austin n’a pu être contrôlée, faute de PCG dans les sources locales"
  }
 ]
