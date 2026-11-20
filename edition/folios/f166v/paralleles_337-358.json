@@ -4662,6 +4662,34 @@
   "remarque": "même glose que Hsch. μ 1558 (micro-apparat : ἀντὶ … ἀγρεύματα, ἐπὶ τῷ ληφθῆναι μοιχὸν ἀποτινόμενα)"
  },
  {
+  "v": "343-344",
+  "lemme": "ἐξαπατᾷ ψευδῆ λέγων … ἃν ὑπόσχηταί ποτε",
+  "categorie": "comiques",
+  "ref": "Plaut. Cist. 98–103",
+  "urn": "urn:cts:latinLit:phi0119.phi007.perseus-lat2:98",
+  "citation": "At ille conceptis iuravit verbis apud matrem meam, / me uxorem ducturum esse: ei nunc alia ducendast domum … eum uxorem ducturum esse aliam. — Nihil amori iniuriumst",
+  "traduction": "et lui, il a juré en termes solennels devant ma mère qu'il m'épouserait ; et voilà qu'il doit en épouser une autre… — (l'entremetteuse :) en amour, il n'y a pas d'injustice",
+  "verifie": "corpus",
+  "verification": "Perseus phi0119.phi007 (Cistellaria), 98–103 (texte XML téléchargé de PerseusDL/canonical-latinLit, .sources/web/latin/plautus/)",
+  "signale_par": "Tosi n. 332 (Plaut. Cist. 103)",
+  "pertinence": 2,
+  "remarque": "le serment de l'amant trahi, et la maxime de la lena (Nil amori iniuriumst, Cist. 103)"
+ },
+ {
+  "v": "343-344",
+  "lemme": "ἐξαπατᾷ ψευδῆ λέγων … ἃν ὑπόσχηταί ποτε",
+  "categorie": "proverbes",
+  "ref": "Publil. Syr. A 37 Meyer",
+  "urn": "ia:publiliisyrimim00meyegoog",
+  "citation": "Amantis ius iurandum poenam non habet",
+  "traduction": "le serment d'un amant n'est pas puni",
+  "verifie": "scan",
+  "verification": "image, W. Meyer, Publilii Syri mimi Sententiae, Leipzig, Teubner, 1880, p. 19 (archive.org publiliisyrimim00meyegoog, PDF p. 30 ; copie de travail .travail/paralleles_f166v_337-358/publilius/) ; index de l'éd. : « amantis A 37 »",
+  "signale_par": "Tosi n. 332",
+  "pertinence": 2,
+  "remarque": "équivalent latin de l'Ἀφροδίσιος ὅρκος (Diogenian. 3.37)"
+ },
+ {
   "v": "344",
   "lemme": "καὶ μὴ δίδωσιν ἃν ὑπόσχηταί ποτε",
   "categorie": "aristophane",
@@ -5444,6 +5472,34 @@
   "signale_par": "dépouillement de la Souda",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "345",
+  "lemme": "ἢ δῶρά τις δίδωσι μοιχῷ γραῦς γυνή",
+  "categorie": "proverbes",
+  "ref": "Publil. Syr. A 30 Meyer",
+  "urn": "ia:publiliisyrimim00meyegoog",
+  "citation": "Anus cum ludit, morti delicias facit",
+  "traduction": "quand une vieille fait la folâtre, elle fait les délices de la Mort",
+  "verifie": "scan",
+  "verification": "image, W. Meyer, Publilii Syri mimi Sententiae, Leipzig, Teubner, 1880, p. 19 (archive.org publiliisyrimim00meyegoog, PDF p. 30)",
+  "signale_par": "dépouillement de Publilius Syrus (éd. Meyer, p. 19)",
+  "pertinence": 2,
+  "remarque": "cf. Γραῦς βακχεύει (Zen. 2.96) et Erasm. Adag. 1.9.8"
+ },
+ {
+  "v": "345",
+  "lemme": "γραῦς γυνή",
+  "categorie": "proverbes",
+  "ref": "Publil. Syr. A 29 Meyer",
+  "urn": "ia:publiliisyrimim00meyegoog",
+  "citation": "Amare iuueni fructus est, crimen seni",
+  "traduction": "aimer est pour le jeune un fruit, pour le vieux un crime",
+  "verifie": "scan",
+  "verification": "image, W. Meyer, Publilii Syri mimi Sententiae, Leipzig, Teubner, 1880, p. 19 (archive.org publiliisyrimim00meyegoog, PDF p. 30)",
+  "signale_par": "dépouillement de Publilius Syrus (éd. Meyer, p. 19)",
+  "pertinence": 1,
+  "remarque": "l'amour hors de saison"
  },
  {
   "v": "346",

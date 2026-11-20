@@ -7406,6 +7406,34 @@
   "remarque": "πάθημα en prose contemporaine"
  },
  {
+  "v": "199",
+  "lemme": "τοῖς παθήμασιν (πάθει μάθος ; Agathon averti par Alcibiade)",
+  "categorie": "prose",
+  "ref": "Pl. Symp. 222b",
+  "urn": "urn:cts:greekLit:tlg0059.tlg011.perseus-grc2:222",
+  "citation": "ἃ δὴ καὶ σοὶ λέγω, ὦ Ἀγάθων, μὴ ἐξαπατᾶσθαι ὑπὸ τούτου, ἀλλʼ ἀπὸ τῶν ἡμετέρων παθημάτων γνόντα εὐλαβηθῆναι, καὶ μὴ κατὰ τὴν παροιμίαν ὥσπερ νήπιον παθόντα γνῶναι.",
+  "traduction": "« et c'est ce que je te dis à toi aussi, Agathon : ne te laisse pas abuser par cet homme, instruit par nos mésaventures, prends garde, et ne va pas, comme dit le proverbe, apprendre en souffrant comme l'enfant »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'NEAR(παθημάτων γνόντα, 3)' -a Pl (Pl. Symp. 222, Perseus, éd. Burnet ; jalon Stephanus 222b dans le XML)",
+  "signale_par": "Erasm. Adag. 1.1.31 (LB II, col. 38 F – 39 A), qui cite ce passage",
+  "pertinence": 2,
+  "remarque": "le proverbe (Hes. Op. 218 παθὼν δέ τε νήπιος ἔγνω) et le mot παθήματα adressés à Agathon lui-même, dans un contexte amoureux (Socrate, faux ἐραστής, devenu παιδικά) ; cf. le jeu de Mnésiloque sur παθήμασιν au v. 201"
+ },
+ {
+  "v": "199",
+  "lemme": "τοῖς παθήμασιν (πάθει μάθος ; Agathon averti par Alcibiade)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1.1.31 (LB II, col. 38 F – 39 E)",
+  "urn": "",
+  "citation": "Malo accepto stultus sapit. … Plato in Symposio … i. e. Quae sane tibi quoque dico, Agathon, ne ab hoc fallaris … nec juxta proverbium veluti stultus post acceptum malum sapias. … Rursum hoc pacto: ἐξ ὧν ἔπαθες, ἔμαθες. i. e. ut sententiam magis quam verba reddam, Quae nocent, docent.",
+  "traduction": "« le sot s'assagit après avoir reçu le mal […] ce que je te dis à toi aussi, Agathon : ne te laisse pas tromper par lui […] et ne t'assagis pas, selon le proverbe, comme un sot, après le mal reçu […] Autre forme : “de ce que tu as souffert, tu as appris”, c'est-à-dire, pour rendre le sens plutôt que les mots, ce qui nuit instruit »",
+  "verifie": "scan",
+  "verification": "Erasmi Opera omnia II (Leyde, 1703), col. 38 F – 39 E, Chil. I, cent. I, XXXI, lu sur l'image (.sources/web/latin/erasme/erasme_opera_II.pdf, pages 37-38 du fichier)",
+  "signale_par": "recherche dans Érasme (index de LB II : « Quae nocent docent, 39 E »), reprise du 20 nov.",
+  "pertinence": 2,
+  "remarque": "Érasme part d'Hés. Op. 218 (déjà relevé), cite Pl. Symp. 222b (Alcibiade à Agathon) et donne les formes Παρὰ τὰ δεινὰ φρονιμώτερος et ἐξ ὧν ἔπαθες, ἔμαθες ; l'adage précédent (1.1.30, Factum stultus cognoscit) cite ῥεχθὲν δέ τε νήπιος ἔγνω"
+ },
+ {
   "v": "200",
   "lemme": "καὶ μὴν … παθήμασιν (200–201)",
   "categorie": "testimonium",

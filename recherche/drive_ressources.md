@@ -518,3 +518,17 @@ Dossier « Grec > ThesmoBiblio » du Drive de l'auteur (créé le 27 octobre 202
 ### 10.3 Doublons d'ouvrages déjà décrits
 
 Hésychius, t. I-IV (§ 4.1) ; *Synagoge* (§ 4.1) ; Wilson, t. II (§ 3.1) ; Clements 2014 (`TB/Aristophanes' Thesmophoriazusae (Ashley Clements).epub` = PDF du § 7.1 ; texte : `TB/texte/Clements_2014_Thesmophoriazusae.txt`).
+
+## 11. Rapatriés le 20 novembre 2026 (cas du v. 489, κυνδ᾽ / κύβδ᾽)
+
+Copiés depuis le Drive avec rclone, car leur taille dépasse ce que l'outil Drive peut transférer. Dossier `.sources/drive/Taillardat/`.
+- **J. Taillardat, *Les Images d'Aristophane. Études de langue et de style***, Paris, 1965 (2ᵉ tirage). Fichier `Taillardat_1965_Les_images_d_Aristophane.pdf` [I] (278 p. PDF, deux pages imprimées par vue) ; OCR fra+grc : `Taillardat_1965_images_ocr.json.gz`. Retire l'ouvrage de la liste des manques (§ 9.1).
+- **Suétone, Περὶ βλασφημιῶν. Περὶ παιδιῶν (extraits byzantins)**, éd. J. Taillardat, Paris, 1967. Fichier `Taillardat_1967_Suetone_Peri_paidion.pdf` [T] (192 p. ; couche OCR jointe ; texte : `suetone.txt`). § 11, « Κυνδαλισμός » ; introduction, p. 40-41 : Didyme, source commune de Suétone et de Pollux.
+- **J. Henderson, *The Maculate Muse. Obscene Language in Attic Comedy***, 2ᵉ éd., New York-Oxford, 1991. Fichier `Henderson_1991_The_Maculate_Muse.pdf` [T] (texte : `henderson.txt` ; le grec n'est pas dans la couche texte). Retire l'ouvrage de la liste des manques (§ 9.1).
+
+Pris sur archive.org (domaine public), dans `.sources/web/lexiques/pollux_commentaires/` (textes OCR d'archive.org) :
+- Pollux, *Onomasticon cum annotationibus interpretum*, éd. W. Dindorf, Leipzig, 1824, tome des annotations (`iuliipollucison00pollgoog`) ;
+- L. Becq de Fouquières, *Les Jeux des anciens*, 2ᵉ éd., Paris, 1873 (`lesjeuxdesancien00becquoft`) ;
+- deux éditions anciennes de Pollux (`BIUSante_07997`, `bub_gb_HIJXaH80ZesC`), sans les notes cherchées ;
+- Grasberger, *Erziehung und Unterricht im klassischen Alterthum*, t. I (`10254353bsb`), sans mention du jeu.
+
