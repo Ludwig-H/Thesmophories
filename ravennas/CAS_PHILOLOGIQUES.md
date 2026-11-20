@@ -21,6 +21,11 @@ Un lieu entre dans le dossier quand l'état de R ou de sa tradition apprend quel
   - les interventions de la transcription.
 
   La colonne « alerte » signale, en premier lieu, une correction rapportée par un éditeur alors que la transcription n'en porte aucune. C'était le cas du v. 489 : les deux lectures indépendantes ont lu κύβδ᾽ sans voir le ν dessous. La correspondance des numéros de vers y est approximative dans les passages lyriques : la liste indique des lieux à examiner, elle ne conclut rien.
+- **Premier geste, pour tout lieu litigieux : les lexiques et les proverbes** (consigne de l'auteur, 20 nov. 2026).
+  - *Lexiques* : Hésychius (Latte–Hansen–Cunningham ; texte décodé dans `.sources/corpus/hesychius/gloses.jsonl.gz`, page en image par `python3 outils/corpus/ocr_hesychius.py voir <lettre> <numéro>`), Photius, Souda, *Synagoge*, *Etymologica*, Pollux, Harpocration, Zonaras.
+  - *Proverbes* : *Corpus paroemiographorum Graecorum*, Gaisford, Tosi (formes grecques et latines), Bauck (proverbes chez Aristophane), et les équivalents latins (Érasme, *Adages* ; Otto).
+  - *Outil* : `python3 outils/corpus/lexiques_proverbes.py <vers>` interroge ces seules sources sur chaque mot du vers, de la leçon de R et des variantes.
+  - *Pourquoi* : au v. 489, la glose d'Hésychius (κυνδός, voisine de κυνδάλη) et le proverbe du jeu des chevilles (ἥλῳ τὸν ἧλον, chez Cicéron *clavo clavum*) ont orienté toute l'instruction du cas.
 - **Instruction de chaque lieu** :
   - sur l'image (cliché de la Classense, versions améliorées, fac-similé de 1904) ;
   - mains et encres selon `ravennas/GUIDE_TRANSCRIPTION.md` ;
