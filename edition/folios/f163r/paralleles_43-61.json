@@ -4117,6 +4117,20 @@
  },
  {
   "v": "50",
+  "lemme": "μῶν βινεῖσθαι;",
+  "categorie": "aristophane",
+  "ref": "Ar. Eccl. 112–113",
+  "urn": "urn:cts:greekLit:tlg0019.tlg010.perseus-grc2:112",
+  "citation": "λέγουσι γὰρ καὶ τῶν νεανίσκων ὅσοι | πλεῖστα σποδοῦνται, δεινοτάτους εἶναι λέγειν·",
+  "traduction": "« on dit en effet que, parmi les jeunes gens, ceux qui se font le plus “battre” sont les plus habiles à parler »",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0019.tlg010.perseus-grc2:112",
+  "signale_par": "Kock III, p. 400 (ad adesp. 12–14)",
+  "pertinence": 2,
+  "remarque": "L'éloquence des jeunes gens tient à ce qu'ils subissent : c'est le lien que fait Mnésiloque entre le « beau langage » d'Agathon (καλλιεπής, v. 49) et μῶν βινεῖσθαι. σποδεῖσθαι · περαίνεσθαι (Hsch. σ 1535, déjà cité, qui renvoie à Eccl. 908)."
+ },
+ {
+  "v": "50",
   "lemme": "πρανοῦν",
   "categorie": "aristophane",
   "ref": "Ar. Eq. 365",
@@ -4142,6 +4156,20 @@
   "signale_par": "recherche directe",
   "pertinence": 2,
   "remarque": "Participe passif pour le κίναιδος."
+ },
+ {
+  "v": "50",
+  "lemme": "μῶν βινεῖσθαι;",
+  "categorie": "aristophane",
+  "ref": "Ar. Nub. 1089–1094",
+  "urn": "urn:cts:greekLit:tlg0019.tlg003.perseus-grc2:1089",
+  "citation": "συνηγοροῦσιν ἐκ τίνων; | ἐξ εὐρυπρώκτων. … τί δαί; τραγῳδοῦσʼ ἐκ τίνων; | ἐξ εὐρυπρώκτων. … δημηγοροῦσι δʼ ἐκ τίνων; | ἐξ εὐρυπρώκτων.",
+  "traduction": "« Les avocats, d'où sortent-ils ? — Des culs larges. … Et les poètes tragiques, d'où sortent-ils ? — Des culs larges. … Et les orateurs du peuple ? — Des culs larges. »",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0019.tlg003.perseus-grc2:1089",
+  "signale_par": "recherche directe (εὐρύπρωκτος)",
+  "pertinence": 2,
+  "remarque": "Le poète tragique est par définition εὐρύπρωκτος : présupposé de la plaisanterie de Mnésiloque sur Agathon (et de Thesm. 200–201, déjà cité au v. 59)."
  },
  {
   "v": "50",
@@ -4198,6 +4226,20 @@
   "signale_par": "Sommerstein ad 50 ; critique.tex",
   "pertinence": 1,
   "remarque": "Invoqué pour justifier πρόμος ~ πόρνος ; je rejette ce rapprochement (commentaire critique et annexes)."
+ },
+ {
+  "v": "50",
+  "lemme": "μῶν βινεῖσθαι;",
+  "categorie": "comiques",
+  "ref": "Com. adesp. fr. 12–14 Kock",
+  "urn": "ia:comicorumatticor03kockuoft#n419",
+  "citation": "οὐδεὶς κομήτης ὅστις οὐ ψηνίζεται. | οὐδεὶς κομήτης ὅστις οὐ βινητιᾷ. | οὐδεὶς κομήτης ὅστις οὐ περαίνεται.",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "Kock III, p. 400, adesp. 12. 13. 14 (archive.org comicorumatticor03kockuoft, image n419 lue)",
+  "signale_par": "recherche directe (κομήτης ὅστις)",
+  "pertinence": 2,
+  "remarque": "Kock : « similes sententiae in antiqua comoedia haud rarae. Arist. Eq. 878. Eccl. 112 » (Eq. 877–879 déjà cité ; Eccl. 112–113 ci-dessous). Numéro K.-A. non contrôlé."
  },
  {
   "v": "50",
@@ -4467,6 +4509,20 @@
  },
  {
   "v": "50",
+  "lemme": "μῶν βινεῖσθαι;",
+  "categorie": "lexicographes",
+  "ref": "Phot. ο 609",
+  "urn": "",
+  "citation": "οὐδεὶς κομήτης ὅστις οὐ περαίνεται.",
+  "traduction": "« Pas un chevelu qui ne se fasse percer. »",
+  "verifie": "corpus",
+  "verification": "Theodoridis III, p. 118, ο 609 (PDF du Drive, couche texte native) ; apparat : = Suid. ο 821 (= Ael. Dion. ο 34, vide Erbse) cf. Apost. 13, 31, Macar. 6, 74, Synes. Calv. enc. § 22, unde Suid. κ 1996",
+  "signale_par": "recherche directe (κομήτης ὅστις)",
+  "pertinence": 2,
+  "remarque": "Idem Sud. ο 821 (Οὐδεὶς κομήτης, ὅστις οὐ περαίνεται, First1K). Selon Theodoridis, la glose remonte à Aelius Dionysius (ο 34 Erbse, non contrôlé). περαίνεσθαι, verbe des lexicographes pour βινεῖσθαι (Sud. β 288 Βινεῖν : περαίνειν, déjà cité ; Hsch. σ 1535). Trois formes du même trimètre : οὐ βινητιᾷ (Macar. 6.74), οὐ περαίνεται (Phot. ο 609 ; Sud. ο 821), οὐ ψηνίζεται (Sud. κ 1996 et ψ 72, qui reprennent Synésios, Calv. enc. 85d ; Synes. Ep. 104 selon la note de Leutsch) ; Kock l'édite parmi les adespota comiques (fr. 12–14)."
+ },
+ {
+  "v": "50",
   "lemme": "πρανοῦν",
   "categorie": "lexicographes",
   "ref": "Phot. π 1138",
@@ -4534,6 +4590,34 @@
   "signale_par": "recherche directe",
   "pertinence": 1,
   "remarque": "Cite Ar. Eccl. 1090 et Lys. 1092, Av. 796."
+ },
+ {
+  "v": "50",
+  "lemme": "μῶν βινεῖσθαι;",
+  "categorie": "lexicographes",
+  "ref": "Sud. κ 1996",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:3.Κ.1996",
+  "citation": "καὶ παροιμία· οὐδεὶς κομήτης ὅστις οὔ. τὸ δὲ ἀκροτελεύτιον αὐτὸς σὺ πρὸς τὴν ἠχὼ τοῦ τριμέτρου συνάρμοσον· οὐ γὰρ ἔγωγε φθέγξομαι τὸ δεινὸν ἐκεῖνο πρᾶγμα καὶ ὄνομα. οὐδεὶς κομήτης, ὅστις οὐ ψηνίζεται.",
+  "traduction": "« et le proverbe : “pas un chevelu qui ne…”. La fin, ajuste-la toi-même à l'écho du trimètre : moi, je ne prononcerai pas cette chose et ce nom terribles. “Pas un chevelu qui ne se fasse figuer.” »",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 3.Κ.1996",
+  "signale_par": "recherche directe (κομήτης ὅστις)",
+  "pertinence": 1,
+  "remarque": "Article Κομῆται (les comètes) ; la Souda copie Synésios (Calv. enc. 85d, selon Leutsch et Theodoridis), qui feint de ne pas oser dire le mot obscène : c'est, inversé, le procédé de Mnésiloque, qui le dit. Même texte s.v. ψηνίζω (Sud. ψ 72, Adler IV, p. 844, OCR). Trois formes du même trimètre : οὐ βινητιᾷ (Macar. 6.74), οὐ περαίνεται (Phot. ο 609 ; Sud. ο 821), οὐ ψηνίζεται (Sud. κ 1996 et ψ 72, qui reprennent Synésios, Calv. enc. 85d ; Synes. Ep. 104 selon la note de Leutsch) ; Kock l'édite parmi les adespota comiques (fr. 12–14)."
+ },
+ {
+  "v": "50",
+  "lemme": "μῶν βινεῖσθαι;",
+  "categorie": "proverbes",
+  "ref": "Macar. 6.74",
+  "urn": "ia:corpusparoemiogr02leutuoft#n232",
+  "citation": "Οὐδεὶς κομήτης ὅστις οὐ βινητιᾷ: ὡς ἐν διαβολῇ.",
+  "traduction": "« Pas un chevelu qui n'ait envie de se faire prendre : se dit par médisance. »",
+  "verifie": "scan",
+  "verification": "CPG II, p. 197, l. 16–17 (archive.org corpusparoemiogr02leutuoft, image n232 lue) ; note de Leutsch : βινητιᾷ] ψηνίζεται Synes. Epist., Suid. s. ψηνίζεται ; περαίνεται Suid. s. οὐδεὶς et Apostolius",
+  "signale_par": "index des proverbes de CPG II (βιν-) ; Kock III, p. 400",
+  "pertinence": 3,
+  "remarque": "Le proverbe dit de tout jeune élégant à longs cheveux ce que Mnésiloque insinue d'Agathon : βινητιᾷ (« il a envie d'être pris ») répond à μῶν βινεῖσθαι ; Macarius précise qu'on le dit « par calomnie ». Trois formes du même trimètre : οὐ βινητιᾷ (Macar. 6.74), οὐ περαίνεται (Phot. ο 609 ; Sud. ο 821), οὐ ψηνίζεται (Sud. κ 1996 et ψ 72, qui reprennent Synésios, Calv. enc. 85d ; Synes. Ep. 104 selon la note de Leutsch) ; Kock l'édite parmi les adespota comiques (fr. 12–14)."
  },
  {
   "v": "51",
@@ -6779,15 +6863,15 @@
   "v": "55",
   "lemme": "γνωμοτυπεῖ",
   "categorie": "comiques",
-  "ref": "Cratin. fr. 307 Kock",
+  "ref": "Cratin. fr. 342 K.-A. (= 307 Kock)",
   "urn": "ia:comicorumatticor01kockuoft#n131",
   "citation": "τίς δὲ σύ; κομψός τις ἔροιτο θεατής. ὑπολεπτολόγος, γνωμοδιώκτης, εὐριπιδαριστοφανίζων.",
   "traduction": "« Qui es-tu ? demanderait un spectateur raffiné. — Un subtil diseur, un chasseur de sentences, un euripido-aristophanisant. »",
   "verifie": "scan",
-  "verification": "Kock I, p. 102, fr. 307 (archive.org comicorumatticor01kockuoft, image n131 lue)",
+  "verification": "Kock I, p. 102, fr. 307 (archive.org comicorumatticor01kockuoft, image n131 lue) ; numéro K.-A. d'après PCG III.2, Ar. test. 3 = Σ Plat. Ap. 19c (extrait du Drive, .sources/drive/textes/PCG_III2_Aristophanes_extrait_readcontent.txt, l. 1593–1599 : « Κρατῖνος (fr. 342) » ; « Σκηνὰς καταλαμβανούσαις (fr. 488) »)",
   "signale_par": "recherche directe",
   "pertinence": 2,
-  "remarque": "Cité par Schol. Plat. 330 Bekk. ; γνωμοδιώκτης correction de Schneider pour γνωμιδιώκτης. Cratinos applique la satire de la γνώμη à Aristophane, imitateur d'Euripide."
+  "remarque": "Cité par Σ Plat. Ap. 19c (Schol. Plat. 330 Bekk. ; PCG III.2, Ar. test. 3) ; γνωμοδιώκτης correction de Schneider pour γνωμιδιώκτης. Cratinos applique la satire de la γνώμη à Aristophane, imitateur d'Euripide."
  },
  {
   "v": "55",
@@ -7241,15 +7325,15 @@
   "v": "56",
   "lemme": "γογγύλλει",
   "categorie": "comiques",
-  "ref": "Ar. fr. 471 Kock",
+  "ref": "Ar. fr. 488 K.-A. (= 471 Kock)",
   "urn": "ia:comicorumatticor01kockuoft#n542",
   "citation": "χρῶμαι γὰρ αὐτοῦ τοῦ στόματος τῷ στρογγύλῳ, τοὺς νοῦς δ᾽ ἀγοραίους ἧττον ἢ ᾽κεῖνος ποιῶ.",
   "traduction": "« car je me sers de la rondeur de son langage, mais je fais mes pensées moins vulgaires que lui. »",
   "verifie": "corpus",
-  "verification": "Kock I, p. 512 (OCR) ; 1er vers aussi Plut. Quomodo adol. 30d (Perseus)",
+  "verification": "Kock I, p. 512 (OCR) ; 1er vers aussi Plut. Quomodo adol. 30d (Perseus) ; numéro K.-A. et texte d'après PCG III.2, Ar. test. 3 = Σ Plat. Ap. 19c (extrait du Drive, .sources/drive/textes/PCG_III2_Aristophanes_extrait_readcontent.txt, l. 1593–1599 : « Κρατῖνος (fr. 342) » ; « Σκηνὰς καταλαμβανούσαις (fr. 488) »)",
   "signale_par": "recherche directe",
   "pertinence": 3,
-  "remarque": "Aristophane, de la manière d'Euripide (Σκηναὶ καταλαμβάνουσαι) : il revendique le στρογγύλον que le serviteur prête ici à Agathon."
+  "remarque": "Aristophane, de la manière d'Euripide (Σκηναὶ καταλαμβάνουσαι) : il revendique le στρογγύλον que le serviteur prête ici à Agathon. Le fragment est cité, avec celui de Cratinos (fr. 342 K.-A.), par Σ Plat. Ap. 19c : Aristophane « raillait Euripide et l'imitait »."
  },
  {
   "v": "56",

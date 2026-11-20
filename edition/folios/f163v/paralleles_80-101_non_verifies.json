@@ -198,5 +198,13 @@
   "ref": "Cratin. fr. 342 K.-A. ; Ar. fr. 488 K.-A.",
   "signale_par": "concordance supposée avec Kock (frr. 307 et 471)",
   "raison": "textes vérifiés et inscrits sous la numérotation de Kock ; numéros K.-A. non contrôlés (PCG absent)"
+ },
+ {
+  "v": "95",
+  "lemme": "τί δ᾽ ἔστιν;",
+  "categorie": "comiques",
+  "ref": "Men. Dysk. 83",
+  "signale_par": "Austin–Olson 2004, ad 95 (Kaibel : τί ἐστιν après un ordre brusque)",
+  "raison": "Dyscolos absent du corpus local (texte sous droits, ni Perseus ni DCLP) : non vérifié"
  }
 ]

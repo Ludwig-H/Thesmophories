@@ -73,8 +73,8 @@
   "v": "121",
   "lemme": "Φρυγίων",
   "ref": "Anon. De tragoedia (Mich. Psell.), éd. Perusino 1993, p. 62",
-  "source": "Prato 2001, ad 121–2",
-  "raison": "édition non disponible"
+  "source": "Prato 2001, ad 121–2 ; Austin 1987, p. 17 n. 3 ; Austin–Olson 2004, ad 120–2 (« p. 28. 48 Perusino »)",
+  "raison": "édition non disponible ; le passage (πρῶτος δὲ Ἀγάθων τὸν Ὑποδώριον τόνον εἰς τραγῳδίαν εἰσήνεγκεν καὶ τὸν Ὑποφρύγιον) est cité par Austin 1987 (« Observations critiques », p. 17 n. 3, d'après Pickard-Cambridge, DFA², p. 322 : « Tractatus Baroccianus ») : citation de seconde main, à contrôler sur l'édition"
  },
  {
   "v": "121",
@@ -89,5 +89,19 @@
   "ref": "Phot. α 83 Theodoridis",
   "source": "Hsch. α 281, test.",
   "raison": "éd. Theodoridis non disponible"
+ },
+ {
+  "v": "122",
+  "lemme": "Χαρίτων (la danse des Charites)",
+  "ref": "Euphorion ap. Poll. 4.95",
+  "source": "Pollux, éd. Dindorf, I, p. 207, l. 28–29",
+  "raison": "vers d'Euphorion (ὀρχούμενον Χαρίτων φάρεσιν ?) illisible avec sûreté sur le scan empâté de Dindorf ; t. I de Bethe non disponible (OCR inutilisable)"
+ },
+ {
+  "v": "122",
+  "lemme": "Χαρίτων (Apollon tenant les Charites)",
+  "ref": "Callim. fr. 114 Pf. (= fr. 114.6 Harder)",
+  "source": "Dictionnaire des images poétiques, s.v. « Grâces, Charites » (A. Harder)",
+  "raison": "éditions de Pfeiffer et de Harder non disponibles ; la statue délienne est décrite par [Plut.] Mus. 14 (déjà relevé au v. 122)"
  }
 ]

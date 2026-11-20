@@ -476,6 +476,20 @@
   "remarque": "ἄνασσα, épithète de déesse dans la tragédie : trag. ad. fr. 213a K.–S. (renvoi de l'éd.)"
  },
  {
+  "v": "123",
+  "lemme": "Λατώ τ᾽ ἄνασσαν",
+  "categorie": "lexicographes",
+  "ref": "Sud. α 2060",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:1.A.2060",
+  "citation": "Ἄνασσα: βασίλισσα",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 1.A.2060",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "même glose dans Synag. α 528 (Cunningham, p. 104 : ἄνασσα· βασίλισσα) ; cf. Hsch. α 4594 (ἄνασσα· δέσποινα)."
+ },
+ {
   "v": "124",
   "lemme": "κίθαρίν τε ματέρ᾽ ὕμνων",
   "categorie": "tragiques",
@@ -2814,6 +2828,20 @@
   "remarque": "λαμπρός : rapport avec φάος (v. 126)"
  },
  {
+  "v": "128",
+  "lemme": "ἄνακτ᾽ ἄγαλλε Φοῖβον",
+  "categorie": "lexicographes",
+  "ref": "Phot. φ 237",
+  "urn": "",
+  "citation": "Φοῖβος· καθαρός· ἁγνός· ἢ μάντις· καὶ ἀμίαντος· καὶ ὁ Ἀπόλλων",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "Theodoridis III, p. 577 (PDF p. 606), couche texte du PDF",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "cf. Hsch. φ 683 (φοῖβος· καθαρός, λαμπρός, ἁγνός, ἀμίαντος) ; même glose dans Synag. φ 151 (Cunningham, p. 500)."
+ },
+ {
   "v": "129",
   "lemme": "ὀλολύζει (parepigraphe de R)",
   "categorie": "testimonium",
@@ -3235,6 +3263,20 @@
  },
  {
   "v": "129",
+  "lemme": "χαῖρ᾽ ὄλβιε",
+  "categorie": "lexicographes",
+  "ref": "Ammon. Diff. 351",
+  "urn": "urn:cts:greekLit:tlg0708.tlg001.1st1K-grc1:15.351",
+  "citation": "ὄλβιος καὶ εὐτυχὴς διαφέρει. ὄλβιος μὲν γάρ ἐστιν ὁ τελείαν τὴν εὐδαιμονίαν ἔχων, εὐτυχὴς δὲ ὁ ζῶν ἡδέως καὶ ἀλύπως",
+  "traduction": "ὄλβιος et εὐτυχής diffèrent : est ὄλβιος celui qui possède le bonheur accompli",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0708.tlg001.1st1K-grc1:15.351",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": ""
+ },
+ {
+  "v": "129",
   "lemme": "ὄλβιε",
   "categorie": "lexicographes",
   "ref": "Hsch. ο 512",
@@ -3274,6 +3316,20 @@
   "signale_par": "dépouillement d'Hésychius (reprise)",
   "pertinence": 1,
   "remarque": "cf. Ar. Eccl. 1129, Soph. fr. 837.1 R. (renvois de l'éd.)"
+ },
+ {
+  "v": "129",
+  "lemme": "χαῖρ᾽ ὄλβιε",
+  "categorie": "lexicographes",
+  "ref": "Sud. ο 134",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:3.Ο255.134",
+  "citation": "Ὄλβιος: πλούσιος, εὐδαίμων, μακάριος",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 3.Ο255.134",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "même glose dans Synag. ο 96 (Cunningham, p. 363) et Phot. (Naber I, p. 317 : ὄλβιος· πλούσιος, εὐδαίμων, μακάριος) ; cf. Hsch. ο 512."
  },
  {
   "v": "129",
@@ -3372,6 +3428,20 @@
   "signale_par": "Prato 2001, ad 130",
   "pertinence": 3,
   "remarque": "le vocatif sérieux, aux Thesmophores, dont celui-ci est la caricature ; cf. Thesm. 700 ὦ πότνιαι Μοῖραι"
+ },
+ {
+  "v": "130",
+  "lemme": "ὡς ἡδὺ τὸ μέλος",
+  "categorie": "aristophane",
+  "ref": "Ar. fr. 178 K.-A. (Hsch. α 281)",
+  "urn": "",
+  "citation": "Ἀγαθώνειον αὔλησιν τὴν μαλακὴν … Ἀγαθὼν γὰρ ὁ τραγικὸς ἐπὶ μαλακίᾳ διεβάλλετο",
+  "traduction": "« l’aulétique agathonienne », la molle : car Agathon le tragique était décrié pour sa mollesse",
+  "verifie": "scan",
+  "verification": "Hsch. α 281, image de l’édition (Latte–Cunningham I, p. 15 ; ocr_hesychius.py voir α 281) ; numéro K.-A. et TrGF 39 T 20a donnés par l’éditeur",
+  "signale_par": "dépouillement d’Hésychius (reprise du 20 nov. : glose absente des passes antérieures pour ce folio)",
+  "pertinence": 3,
+  "remarque": "le proverbe tiré d’Aristophane même (Γηρυτάδης) : la mollesse du chant d’Agathon, que raille Mnésiloque aux vv. 130–133 (θηλυδριῶδες) ; test. de l’éd. : Ph. α 83 ; Zen. 1.2 ; Prov. Bodl. 7 (Gaisford). À joindre à Zen. 1.2, Diogenian. 1.7, Sud. α 125, Apostol. 1.7."
  },
  {
   "v": "130",
@@ -3836,6 +3906,20 @@
   "remarque": "proverbe : ὡς ἡδύ, ἡδίστη : on y entend notre vers ; Agathon flûtiste, confusion avec le poète ou non, mais ἐπὶ μαλακίᾳ ἐκωμῳδεῖτο renvoie à la comédie"
  },
  {
+  "v": "130",
+  "lemme": "ὡς ἡδὺ τὸ μέλος",
+  "categorie": "proverbes",
+  "ref": "Apostol. 1.7",
+  "urn": "",
+  "citation": "Ἀγαθώνειος αὔλησις: ἡ μήτε χαλαρὰ μήτε πικρά, ἀλλ’ εὔκρατος καὶ ἡδίστη, μαλακὴ καὶ ἐκλελυμένη. ἀπὸ Ἀγάθωνος αὐλητοῦ. οὗτος ἀγαθὸς ἦν τὸν τρόπον καὶ ποθεινὸς τοῖς φίλοις. ἐκωμῳδεῖτο δὲ εἰς θηλύτητα",
+  "traduction": "… on le raillait dans la comédie pour son caractère efféminé",
+  "verifie": "scan",
+  "verification": "image, CPG II, p. 241 (Apostolius, Centuria I, n° 7 ; archive.org corpusparoemiogr02leutuoft, n276)",
+  "signale_par": "recherche directe (parémiographes, reprise du 20 nov.)",
+  "pertinence": 2,
+  "remarque": "seul témoin parémiographique qui dise ἐκωμῳδεῖτο δὲ εἰς θηλύτητα (cf. v. 131 θηλυδριῶδες) ; même proverbe : Zen. 1.2, Diogenian. 1.7, Sud. α 125, Hsch. α 281 ; d’autres recueils du CPG II le donnent encore (p. 1, 57, 101, 130 : ἡ ἡδίστη καὶ εὐφραντή) [à vérifier]."
+ },
+ {
   "v": "130–132",
   "lemme": "ὡς ἡδὺ τὸ μέλος … μανδαλωτόν",
   "categorie": "testimonium",
@@ -3993,6 +4077,20 @@
   "v": "131",
   "lemme": "θηλυδριῶδες",
   "categorie": "prose",
+  "ref": "Luc. Salt. 2",
+  "urn": "urn:cts:greekLit:tlg0062.tlg045.perseus-grc2:2",
+  "citation": "κάθηται καταυλούμενος, θηλυδρίαν ἄνθρωπον ὁρῶν ἐσθῆσι μαλακαῖς καὶ ᾄσμασιν ἀκολάστοις ἐναβρυνόμενον",
+  "traduction": "il reste assis à se faire jouer de l’aulos, à regarder un homme efféminé qui fait le beau dans des vêtements mous et des chants lascifs",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0062.tlg045.perseus-grc2:2",
+  "signale_par": "Tittmann, note 97 à Zonaras col. 1040 (Luc. de Salt. ; Demon.)",
+  "pertinence": 3,
+  "remarque": "le spectateur de la pantomime selon Craton : réunit, comme les vv. 130–138, le θηλυδρίας, la musique lascive et le costume mou."
+ },
+ {
+  "v": "131",
+  "lemme": "θηλυδριῶδες",
+  "categorie": "prose",
   "ref": "Quint. Inst. 1.10.31",
   "urn": "urn:cts:latinLit:phi1002.phi001.perseus-lat2:1.10.31",
   "citation": "quae nunc in scenis effeminata et impudicis modis fracta",
@@ -4044,6 +4142,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "le mot d'injure, adressé à Ganymède, Φρυγί : même mépris pour le Phrygien efféminé"
+ },
+ {
+  "v": "131",
+  "lemme": "θηλυδριῶδες",
+  "categorie": "prose",
+  "ref": "Luc. Demon. 18",
+  "urn": "urn:cts:greekLit:tlg0062.tlg008.perseus-grc2:18",
+  "citation": "υἱὸν αὐτῷ δείξας πάνυ ὡραῖον, θηλυδρίαν δὲ καὶ διακεκλασμένον",
+  "traduction": "lui montrant son fils, fort joli, mais efféminé et tout cassé",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0062.tlg008.perseus-grc2:18",
+  "signale_par": "Tittmann, note 97 à Zonaras col. 1040 (Luc. de Salt. ; Demon.)",
+  "pertinence": 2,
+  "remarque": ""
  },
  {
   "v": "131",
@@ -4411,6 +4523,34 @@
  },
  {
   "v": "131",
+  "lemme": "θηλυδριῶδες",
+  "categorie": "lexicographes",
+  "ref": "Sud. α 3914",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:1.A.3914",
+  "citation": "ὃς ἐκαλεῖτο μαλακὸς ὑπὸ τῶν ἀστῶν … εἶθ’ ὅτι θηλυδρίας ἐγένετο παῖς ὢν καὶ τὰ γυναιξὶν ἁρμόττοντα ἔπασχεν",
+  "traduction": "(Aristodème de Cumes) qu’on appelait « le Mou » … soit parce qu’enfant il avait été efféminé et avait subi ce qui convient aux femmes",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 1.A.3914",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "d’après Dion. Hal. Ant. Rom. 7.2.4 (au fichier)."
+ },
+ {
+  "v": "131",
+  "lemme": "θηλυδριῶδες",
+  "categorie": "lexicographes",
+  "ref": "Sud. θ 335",
+  "urn": "",
+  "citation": "Θηλυδρίας: τεθηλυμμένος. διὰ τὴν ἐξάγιστον ἡδονὴν οἱ θηλυδρίαι τριχοπλάσται εἰσίν",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "image, Adler II, p. 715, l. 9–10 (PDF local, .sources/web/testimonia/adler) ; lettre θ absente du TEI",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "même glose (τεθηλυμμένος) : Synag. θ 71 et Phot. θ 159 (Naber I, p. 280 : θηλυδρίας· τεθηλυμμένος) ; la seconde phrase vient de Synésius (Calv. enc.), cf. Sud. ε 1509, κ 2171."
+ },
+ {
+  "v": "131",
   "lemme": "κατεγλωττισμένον",
   "categorie": "lexicographes",
   "ref": "Sud. κ 911",
@@ -4422,6 +4562,20 @@
   "signale_par": "dépouillement des lexicographes (reprise)",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "131",
+  "lemme": "θηλυδριῶδες",
+  "categorie": "lexicographes",
+  "ref": "Zonar. col. 1040",
+  "urn": "",
+  "citation": "Θηλυδρίας. γυναικοειδής, ἢ ἄνανδρος. παρὰ τὸ θῆλυς",
+  "traduction": "θηλυδρίας : « à l’air de femme », ou « sans virilité »",
+  "verifie": "scan",
+  "verification": "image, Tittmann I, col. 1040 (archive.org lexiconextribus00albegoog, n652)",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "la note de Tittmann (97) rapproche θηλυδριώδης « apud Aristoph. Thesmoph. 138 » [lire 131]."
  },
  {
   "v": "131",
@@ -4775,6 +4929,20 @@
  },
  {
   "v": "132",
+  "lemme": "ἐμοῦ γ᾽ ἀκροωμένου",
+  "categorie": "lexicographes",
+  "ref": "Sud. σ 280",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:4.Σ.280",
+  "citation": "Σειρῆνας φασὶ θηλυπρόσωπά τινα ὀρνίθια εἶναι, ἀπατῶντα τοὺς παραπλέοντας, ᾄσμασί τισι πορνικοῖς κηλοῦντα τὰς ἀκοὰς τῶν ἀκροωμένων",
+  "traduction": "les Sirènes … charmant de chants lascifs les oreilles de ceux qui les écoutent",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 4.Σ.280",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 2,
+  "remarque": "l’effet du chant voluptueux sur l’auditeur (ἀκροωμένου … ὑπῆλθε γάργαλος) ; plus loin dans la même notice : ἡδύ τι μέλος ᾄδουσιν (cf. v. 130 ὡς ἡδὺ τὸ μέλος)."
+ },
+ {
+  "v": "132",
   "lemme": "μανδαλωτόν",
   "categorie": "lexicographes",
   "ref": "Hsch. κ 1033",
@@ -5125,6 +5293,20 @@
  },
  {
   "v": "133",
+  "lemme": "ὑπῆλθε γάργαλος",
+  "categorie": "prose",
+  "ref": "Aristid. Or. 50, p. 414 Jebb",
+  "urn": "urn:cts:greekLit:tlg0284.tlg050.perseus-grc2:414",
+  "citation": "τίς ἂν τῷ μίμῳ συγχωρήσειεν ἔξω φθέγγεσθαι; ἀλλʼ ἐν μὲν τῷ παραχρῆμα γαργαλίζονται, ἀπελθόντες δʼ εὐθὺς καταγελῶσι",
+  "traduction": "… sur le moment ils sont chatouillés, mais à peine sortis ils en rient",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0284.tlg050.perseus-grc2:414",
+  "signale_par": "recherche dans le corpus (γαργαλ*, reprise du 20 nov.)",
+  "pertinence": 2,
+  "remarque": "Κατὰ τῶν ἐξορχουμένων (Or. 50 Dindorf), pp. 414–415 Jebb : le plaisir de la danse et du mime comme chatouillement de l’auditoire ; cf. p. 405 Jebb, τὰ ὦτα γαργαλίσαι τινῶν."
+ },
+ {
+  "v": "133",
   "lemme": "ὑπὸ τὴν ἕδραν αὐτὴν",
   "categorie": "prose",
   "ref": "Hippoc. Aph. 5.22",
@@ -5192,6 +5374,20 @@
   "signale_par": "van Leeuwen 1904, p. 25 (n. 6 ; Chatouilleux) ; Blaydes 1880, p. 146",
   "pertinence": 2,
   "remarque": "cf. Ar. fr. (Anagyros) ap. Sud. ο 577 : ὡς δ' ὀρθοπλήξ· πέφυκε γὰρ δυσγάργαλις (cheval rétif)"
+ },
+ {
+  "v": "133",
+  "lemme": "γάργαλος",
+  "categorie": "prose",
+  "ref": "Ael. NA 16.10",
+  "urn": "urn:cts:greekLit:tlg0545.tlg001.perseus-grc2:16.10",
+  "citation": "τίκτειν ἡμιόνους πυρροὺς τὴν χρόαν καὶ ἄγαν δρομικούς, δυσλόφους δὲ καὶ δυσγαργάλεις ἄλλως",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0545.tlg001.perseus-grc2:16.10",
+  "signale_par": "van Leeuwen 1904, p. 25 ; LSJ s.v. δυσγάργαλις (non vérifiés antérieurs)",
+  "pertinence": 1,
+  "remarque": "δυσγάργαλις, « rétif au chatouillement » : le même composé que Ar. fr. 44 K.-A. (au fichier) ; numérotation de Perseus (16.10)."
  },
  {
   "v": "133",
@@ -5337,6 +5533,20 @@
   "v": "133",
   "lemme": "γάργαλος",
   "categorie": "lexicographes",
+  "ref": "Moer. p. 194, 7 Bekker",
+  "urn": "",
+  "citation": "γάργαλος Ἀττικοί, γαργαλισμὸς Ἕλληνες",
+  "traduction": "γάργαλος : attique ; γαργαλισμός : grec commun",
+  "verifie": "scan",
+  "verification": "image, Bekker, Harpocration et Moeris (Berlin 1833), p. 194, l. 7 (.sources/web/lexiques/moeris_ocr/n202.jpg)",
+  "signale_par": "testimonia de l’auteur (Moer. γ 23) ; LSJ s.v. γαργαλισμός",
+  "pertinence": 2,
+  "remarque": "γάργαλος, mot attique (cf. Phryn. PS p. 56 de B., au fichier) ; le numéro γ 23 des testimonia de l’auteur suit la numérotation de Hansen, que je n’ai pas pu contrôler."
+ },
+ {
+  "v": "133",
+  "lemme": "γάργαλος",
+  "categorie": "lexicographes",
   "ref": "Sud. γ 267",
   "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:1.Γ.267",
   "citation": "Γιγλισμός: κιχλισμὸς, ἀπὸ χειρῶν γέλως, γαργαλισμός",
@@ -5374,6 +5584,20 @@
   "signale_par": "dépouillement des lexicographes (reprise)",
   "pertinence": 2,
   "remarque": "= Sud. γ 63 (qui cite ici Thesm. 132–133), Phot. γ 33 (renvois de Cunningham)"
+ },
+ {
+  "v": "133",
+  "lemme": "γάργαλος",
+  "categorie": "lexicographes",
+  "ref": "EM 221.24",
+  "urn": "",
+  "citation": "Γαργαλίζει, κινεῖ, ὑποσαίνει, προτρέπει, ἐρεθίζει",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "image, Etymologicum Magnum, réimpr. Leipzig 1816, col. 201 (= p. 221 Sylburg, l. 24 ; archive.org etymologikontome00etymuoft_201708, n120) ; impression usée à ὑποσαίνει",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "même glose que Sud. γ 63 (qui cite le v. 133) et Synag. γ 7 ; Miller, Mélanges p. 80 : l’Et. Florentinum lit ὑποσημαίνει."
  },
  {
   "v": "133",
@@ -5488,6 +5712,20 @@
   "remarque": "cf. Apostol. 2.84 (index de CPG II, p. 792)"
  },
  {
+  "v": "133",
+  "lemme": "γάργαλος",
+  "categorie": "proverbes",
+  "ref": "Apostol. 2.84",
+  "urn": "",
+  "citation": "Ἀνδριάντα γαργαλίζεις: ἐπὶ τῶν ἀδυνάτων",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "image, CPG II, p. 284 (Apostolius, Centuria II, n° 84 ; archive.org corpusparoemiogr02leutuoft, n319)",
+  "signale_par": "recherche directe (parémiographes, reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "même proverbe : Plut. De imposs. 45 et Sud. α 2169 (au fichier)."
+ },
+ {
   "v": "134",
   "lemme": "κατ᾽ Αἰσχύλον",
   "categorie": "aristophane",
@@ -5587,6 +5825,20 @@
  },
  {
   "v": "134",
+  "lemme": "κατ᾽ Αἰσχύλον",
+  "categorie": "aristophane",
+  "ref": "Ar. Lys. 188–189",
+  "urn": "urn:cts:greekLit:tlg0019.tlg007.perseus-grc2:188",
+  "citation": "εἰς ἀσπίδʼ, ὥσπερ φάσʼ ἐν Αἰσχύλῳ ποτέ, μηλοσφαγούσας",
+  "traduction": "(un serment) sur un bouclier, comme on dit qu’ils firent un jour dans Eschyle, en égorgeant un mouton",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0019.tlg007.perseus-grc2:188",
+  "signale_par": "Prato 2001, ad 134 (non vérifiés antérieurs, repris le 20 nov.)",
+  "pertinence": 2,
+  "remarque": "un rite emprunté à une pièce nommée d’Eschyle (Sept. 42–48) : même façon de faire d’Eschyle un modèle de comportement."
+ },
+ {
+  "v": "134",
   "lemme": "νεανίσκ᾽ εἴ τις εἶ [ἥτις Gelenius]",
   "categorie": "aristophane",
   "ref": "Ar. Plut. 432",
@@ -5598,6 +5850,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "formule d'interrogation à une femme, cf. Eccl. 1067"
+ },
+ {
+  "v": "134",
+  "lemme": "κατ᾽ Αἰσχύλον",
+  "categorie": "aristophane",
+  "ref": "Ar. Nub. 1364–1366",
+  "urn": "urn:cts:greekLit:tlg0019.tlg003.perseus-grc2:1364",
+  "citation": "μυρρίνην λαβόντα τῶν Αἰσχύλου λέξαι τί μοι· κᾆθʼ οὗτος εὐθὺς εἶπεν· ἐγὼ γὰρ Αἰσχύλον νομίζω πρῶτον ἐν ποιηταῖς",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0019.tlg003.perseus-grc2:1364",
+  "signale_par": "Prato 2001, ad 134 (non vérifiés antérieurs, repris le 20 nov.)",
+  "pertinence": 1,
+  "remarque": ""
  },
  {
   "v": "134",
@@ -6245,6 +6511,34 @@
  },
  {
   "v": "136",
+  "lemme": "τίς πάτρα",
+  "categorie": "aristophane",
+  "ref": "Ar. Ran. 1163",
+  "urn": "urn:cts:greekLit:tlg0019.tlg009.perseus-grc2:1163",
+  "citation": "ἐλθεῖν μὲν ἐς γῆν ἔσθʼ ὅτῳ μετῇ πάτρας",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0019.tlg009.perseus-grc2:1163",
+  "signale_par": "Rutherford, The New Phrynichus, p. 19 (πάτρα, mot tragique ; en comédie seulement en parodie : Thesm. 136, Ran. 1163, 1427, Ach. 147)",
+  "pertinence": 2,
+  "remarque": "Eschyle commente son propre vers (Cho. 3) : πάτρα dans la langue tragique."
+ },
+ {
+  "v": "136",
+  "lemme": "τίς πάτρα",
+  "categorie": "aristophane",
+  "ref": "Ar. Ran. 1427–1428",
+  "urn": "urn:cts:greekLit:tlg0019.tlg009.perseus-grc2:1427",
+  "citation": "μισῶ πολίτην, ὅστις ὠφελεῖν πάτραν βραδὺς πέφυκε",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0019.tlg009.perseus-grc2:1427",
+  "signale_par": "Rutherford, The New Phrynichus, p. 19 (πάτρα, mot tragique ; en comédie seulement en parodie : Thesm. 136, Ran. 1163, 1427, Ach. 147)",
+  "pertinence": 2,
+  "remarque": "réponse d’Euripide, en style tragique."
+ },
+ {
+  "v": "136",
   "lemme": "ποδαπὸς ὁ γύννις",
   "categorie": "aristophane",
   "ref": "Ar. Vesp. 185",
@@ -6256,6 +6550,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "interrogatoire comique du Philocléon, parodie de l'Odyssée"
+ },
+ {
+  "v": "136",
+  "lemme": "τίς πάτρα",
+  "categorie": "aristophane",
+  "ref": "Ar. Ach. 147",
+  "urn": "urn:cts:greekLit:tlg0019.tlg001.perseus-grc2:147",
+  "citation": "καὶ τὸν πατέρʼ ἠντεβόλει βοηθεῖν τῇ πάτρᾳ",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0019.tlg001.perseus-grc2:147",
+  "signale_par": "Rutherford, The New Phrynichus, p. 19 (πάτρα, mot tragique ; en comédie seulement en parodie : Thesm. 136, Ran. 1163, 1427, Ach. 147)",
+  "pertinence": 1,
+  "remarque": "le fils de Sitalcès, fait Athénien, parle en style héroïque (Rutherford)."
  },
  {
   "v": "136",
@@ -6749,6 +7057,20 @@
  },
  {
   "v": "136",
+  "lemme": "ποδαπὸς",
+  "categorie": "prose",
+  "ref": "Xen. An. 4.4.17",
+  "urn": "urn:cts:greekLit:tlg0032.tlg006.perseus-grc2:4.4.17",
+  "citation": "ἐρωτώμενος δὲ ποδαπὸς εἴη Πέρσης μὲν ἔφη εἶναι",
+  "traduction": "quand on lui demanda d’où il était, il dit qu’il était Perse",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0032.tlg006.perseus-grc2:4.4.17",
+  "signale_par": "Sud. π 1841",
+  "pertinence": 1,
+  "remarque": ""
+ },
+ {
+  "v": "136",
   "lemme": "γύννις",
   "categorie": "scholies",
   "ref": "Σ Eur. Or. 1528",
@@ -6919,6 +7241,20 @@
   "v": "136",
   "lemme": "γύννις",
   "categorie": "lexicographes",
+  "ref": "EM 243.8",
+  "urn": "",
+  "citation": "Γύνις, ὁ γυναικώδης καὶ μαλακός. παρὰ τὸ γυνή, παρωνύμως γύνις, ὡς δάφνη Δάφνις, καὶ νύμφη Νύμφις",
+  "traduction": "γύνις : l’efféminé, le mou ; dérivé de γυνή …",
+  "verifie": "scan",
+  "verification": "image, Etymologicum Magnum, réimpr. Leipzig 1816, col. 220 (= p. 243 Sylburg, l. 8 ; archive.org etymologikontome00etymuoft_201708, n129)",
+  "signale_par": "testimonia de l’auteur ; Prato 2001, ad 136 ; apparat d’Adler à Sud. γ 504 (non vérifiés antérieurs, repris le 20 nov.)",
+  "pertinence": 2,
+  "remarque": "lemme écrit Γύνις (un seul ν), d’où l’échec des recherches antérieures ; cf. Sud. γ 504 (test.) et Synag. γ 91."
+ },
+ {
+  "v": "136",
+  "lemme": "γύννις",
+  "categorie": "lexicographes",
   "ref": "Hsch. α 4745",
   "urn": "drive:hsch:I#pdf260",
   "citation": "ἀνδρόγυνος· ὁ ἑρμαφρόδιτος. καὶ ὁ ἀσθενής ἤγουν ὁ ἀνίσχυρος",
@@ -7043,6 +7379,20 @@
  },
  {
   "v": "136",
+  "lemme": "ποδαπὸς",
+  "categorie": "lexicographes",
+  "ref": "Sud. π 1841",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:4.Π.1841",
+  "citation": "Ποδαπός: ποίου ἔθνους, ποίας χώρας. φησὶ Ξενοφῶν· ἐρωτώμενος δὲ ποδαπὸς εἴη, Πέρσης ἔφη εἶναι",
+  "traduction": "ποδαπός : de quelle nation, de quel pays",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 4.Π.1841",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 2,
+  "remarque": "la citation est Xen. An. 4.4.17."
+ },
+ {
+  "v": "136",
   "lemme": "γύννις",
   "categorie": "lexicographes",
   "ref": "Synag. α 2148",
@@ -7054,6 +7404,20 @@
   "signale_par": "dépouillement des lexicographes (reprise)",
   "pertinence": 2,
   "remarque": "le symétrique : cf. Hsch. α 7429 ἀρρενωπάδες· ἀνδρόγυνοι"
+ },
+ {
+  "v": "136",
+  "lemme": "ποδαπὸς … τίς πάτρα",
+  "categorie": "lexicographes",
+  "ref": "Synag. η 73",
+  "urn": "",
+  "citation": "ἡμεδαπῶν· ἰδίων, ἐγχωρίων, αὐτοχθόνων. δάπεδον γὰρ τὸ ἔδαφος· ὅθεν καὶ τὸ ποδαπὸς ἀντὶ τοῦ ποῖος ἢ ποίας χώρας ἢ πατρίδος",
+  "traduction": "… d’où aussi ποδαπός, pour « quel », ou « de quel pays », ou « de quelle patrie »",
+  "verifie": "corpus",
+  "verification": "Cunningham, Synagoge, p. 256 (PDF p. 262), couche texte du PDF",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 2,
+  "remarque": "la glose rapproche ποδαπός de la patrie (cf. τίς πάτρα) ; même glose : Sud. η 288, Phot. η 144, Et. Gen. (d’après l’apparat de Cunningham)."
  },
  {
   "v": "136",
@@ -7124,6 +7488,20 @@
   "signale_par": "dépouillement des lexicographes (reprise)",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "136",
+  "lemme": "γύννις",
+  "categorie": "lexicographes",
+  "ref": "Zonar. col. 457",
+  "urn": "",
+  "citation": "Γύνις. μαλακός, γυναικώδης. ἀνδρόγυνος. παρὰ τὸ γυνὴ παρωνύμως",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "image, Tittmann I, col. 457 (archive.org lexiconextribus00albegoog, n363)",
+  "signale_par": "testimonia de l’auteur ; Prato 2001, ad 136 ; apparat d’Adler à Sud. γ 504 (non vérifiés antérieurs, repris le 20 nov.)",
+  "pertinence": 1,
+  "remarque": "même colonne : Γυναικώδεις· οἱ εὐνοῦχοι ; Γυναικίας· ὁ θηλυμανὴς ἀνήρ."
  },
  {
   "v": "136",
@@ -7199,6 +7577,20 @@
   "v": "136",
   "lemme": "τίς ἡ στολή",
   "categorie": "proverbes",
+  "ref": "Apostol. 6.69",
+  "urn": "",
+  "citation": "Εἰς Μασαλίαν πλεύσειας: ἐπὶ τῶν θηλυτέρως καὶ μαλακῶς ζώντων καὶ ποικίλαις στολαῖς χρωμένων καὶ μύροις",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "image, CPG II, p. 382 (Apostolius, Centuria VI, n° 69 ; archive.org corpusparoemiogr02leutuoft, n417)",
+  "signale_par": "recherche directe (parémiographes, reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "même proverbe : Plut. Prov. Alex. 1.60, Sud. ε 499 (au fichier) ; Apostolius ajoute ποικίλαις στολαῖς."
+ },
+ {
+  "v": "136",
+  "lemme": "τίς ἡ στολή",
+  "categorie": "proverbes",
   "ref": "Erasm. Adag. 1.4.8",
   "urn": "web:latin/erasme/erasme_opera_II.pdf#p95",
   "citation": "Οἴκοι τὰ Μιλήσια, i. e. Domi Milesia. In eos dici solitum, qui ibi domesticum luxum celebrant, ubi minime probatur",
@@ -7208,6 +7600,20 @@
   "signale_par": "recherche directe (Érasme, Adages)",
   "pertinence": 1,
   "remarque": "= Zen. 5.57 ; Érasme cite la réponse faite au Milésien chez les Lacédémoniens (Οἴκοι τὰ Μιλήσια, μὴ γὰρ ἐνθάδε)"
+ },
+ {
+  "v": "136",
+  "lemme": "ποδαπὸς",
+  "categorie": "proverbes",
+  "ref": "Sud. ο 77",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:3.Ο255.77",
+  "citation": "Ὅθεν αἱ τριήρεις αἱ καλαί: τουτέστιν ἐξ Ἀθηνῶν· μέγα γὰρ ἐφρόνουν Ἀθηναῖοι ἐπὶ ναυμαχίᾳ",
+  "traduction": "« d’où viennent les belles trières » : c’est-à-dire d’Athènes",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 3.Ο255.77",
+  "signale_par": "recherche directe (ποδαπ*, reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "réponse proverbiale à la question ποδαπὸν τὸ γένος ; (Ar. Av. 108, au fichier)."
  },
  {
   "v": "136–140",
@@ -7633,6 +8039,20 @@
   "v": "137",
   "lemme": "βάρβιτος",
   "categorie": "lexicographes",
+  "ref": "EM 188.17",
+  "urn": "",
+  "citation": "Βάρβιτος, εἶδος μουσικοῦ ὀργάνου, ψαλτήριον, ἢ κιθάρα. εἴρηται δὲ οἱονεὶ βαρύμιτός τις ὤν, ὁ βαρεῖαν τὴν φωνὴν καὶ τὸν φθόγγον ἀφιείς",
+  "traduction": "… on l’appelle comme qui dirait « aux cordes graves », celui qui émet un son et une voix graves",
+  "verifie": "scan",
+  "verification": "image, Etymologicum Magnum, réimpr. Leipzig 1816, col. 170 (= p. 188 Sylburg, l. 17 ; archive.org etymologikontome00etymuoft_201708, n104 ; suite col. 171, n105)",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 2,
+  "remarque": "l’instrument « à la voix grave » en face de la crocote féminine (v. 138) ; suite : μίτους γὰρ τὰς νευρὰς ἔλεγον … ὅθεν καὶ οἱ Αἰολεῖς βάρμιτον αὐτὸ διὰ τοῦ μ φασί."
+ },
+ {
+  "v": "137",
+  "lemme": "βάρβιτος",
+  "categorie": "lexicographes",
   "ref": "Hsch. μ 1915",
   "urn": "drive:hsch:II#pdf871",
   "citation": "μυρρίνης κλάδος, ἢ δάφνης· παρὰ πότον μυρρίνης ⟨κλάδον⟩ ἦν σύνηθες διδόναι τοῖς κατακειμένοις ἐκ διαδοχῆς ὑπὲρ τοῦ ᾆσαι, ἀντὶ τοῦ βαρβίτου",
@@ -7670,6 +8090,20 @@
   "signale_par": "dépouillement d'Hésychius (reprise)",
   "pertinence": 1,
   "remarque": "τὴν ἐπιδεξιάν : même usage, avec la cithare"
+ },
+ {
+  "v": "137",
+  "lemme": "τίς ἡ τάραξις τοῦ βίου",
+  "categorie": "lexicographes",
+  "ref": "Phot. τ 563",
+  "urn": "",
+  "citation": "τύρβη· ἀπόλαυσις· ἢ θόρυβος· ἢ τάραξις",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "Theodoridis III, p. 508 (PDF p. 537), couche texte du PDF",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "τάραξις, mot rare, dans la langue des glossateurs ; même glose : Synag. τ 299, Sud. τ 1192, EM 772.4 (d’après l’apparat de Theodoridis)."
  },
  {
   "v": "137",

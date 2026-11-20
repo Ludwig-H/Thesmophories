@@ -35,7 +35,8 @@
     <l n="32" v="454">τοῦτον κολάσαι τὸν ἄνδραπολλῶν οὕνεκα·</l>
     <l n="33" v="455">ἄγριαγὰρ ἡ μᾶσ ὦ γυναῖκεσ δρ<unclear cert="moyenne">ᾶ</unclear>ι κακὰ</l>
     <l n="34" v="456">ἅτ᾽ἐν ἀγρ<unclear cert="moyenne">ί</unclear> οισι λαχάνοισ αὐτοστραφε<unclear cert="moyenne">ὶ</unclear>σ</l>
-    <!-- arbitrage en cours : lignes 35-43 à venir -->
+    <l n="35" v="457">ἀλλ᾽εἰσαγορὰν ἄπειμι· δεῖ γὰρ ἀνδράσιν</l>
+    <!-- arbitrage en cours : lignes 36-43 à venir -->
   </lignes>
   <scholies/>
   <notes>
@@ -75,5 +76,6 @@
     <note ligne="32">R a οὕνεκα (Velsen 1883 : οὕνεκα RG). Point final (x ≈ 1722). Coupe : la sortie de l'α final de ἄνδρα monte jusqu'à la barre du π (trait continu, aujourd'hui et en 1904) : soudés ; blancs de 9 à 14 px à l'intérieur de τοῦτον, τὸν, ἄνδρα : coupe ordinaire.</note>
     <note ligne="33">Esprit de ἄγρια rejeté à gauche (x ≈ 778). ι de ἄγρια en deux touches (x ≈ 828–835). δρᾶι : au-dessus de l'α, trait plat (x ≈ 1393–1420, y ≈ 1717–1722), continu à droite avec l'extrémité du premier λ de πολλῶν (l. 32), aujourd'hui comme en 1904 : circonflexe touché par le λ (l'autre λ n'a pas de pied), ou pied du λ : douteux ; ι adscrit réduit, détaché (x ≈ 1425–1433). κακὰ : grave net (x ≈ 1552). Pas de ponctuation finale (HG : virgule). Coupes : α|γ de ἄγρια γὰρ, 3 px au plus : soudés ; Η|μ de ἡ μᾶσ 22 px gardé ; ι|κ de γυναῖκεσ 15 px (limite) : coupe ordinaire ; ρ|ι 9 px, ι|α 13 px (bande du corps resserrée : la bande automatique, trop haute, prend des signes de la l. 34).</note>
     <note ligne="34">R omet τοῖσ (Enger 1844, Velsen 1883, Wilson 2007) et écrit αὐτοστραφεὶσ en un mot (Velsen 1883 ; Juntine de même, Enger 1844), sans accent sur l'ο. Aigu de ἀγρί- : trait montant (x ≈ 963–975, y ≈ 1745–1757, axe +42°) au-dessus de l'ι, dans le prolongement du premier jambage du μ de ἡ μᾶσ (l. 33), dont il se sépare aujourd'hui (angle différent, blanc de 1–2 px) mais non sur le fac-similé de 1904 : aigu probable. Esprit de αὐ- en croix (x ≈ 1320–1333, y ≈ 1752–1761 ; d'encre de type S2 selon l'inventaire : petit signe, non décidable, guide § 1.3), écrit comme esprit. Accent final : marque de 8 × 5 px (x ≈ 1502–1509, y ≈ 1757–1761), axe −11° : grave probable, trop court pour trancher (guide § 2.3). σι de ἀγρίοισι en ligature à ι haut. Pas de ponctuation finale. Coupes : ί|ο 17–18 px gardé ; ρ|ί 15 px (limite) ; ο|σ de αὐτοστραφεὶσ 13 px : coupe ordinaire.</note>
+    <note ligne="35">ἀλλ᾽εἰσ : esprit (x ≈ 796), apostrophe (x ≈ 828), esprit (x ≈ 852). εἰσαγορὰν soldé, sans esprit sur l'α de αγορὰν. Pas de ponctuation finale. Coupes : ει|σ de εἰσ et ει|μ de ἄπειμι 13 à 17 px selon la bande (la bande automatique, haute de 26 px, est trop large ; hastes obliques de l'ει en « q ») : hésitation, coupe ordinaire (guide § 2.7).</note>
   </notes>
 </page>
