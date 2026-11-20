@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page folio="172r" image="20_f172r_classense174r_vv0800-0837.jpg" vers="801-834">
+  <lignes>
+    <l n="1" v="801">βάσανον δῶ μεν πότεροι χείρουσ· ἡμεῖσ μὲν γὰρ</l>
+    <l n="2">φαμὲν ὑμᾶσ</l>
+    <l n="3" v="802">ὑμεῖσ δ᾽ἡμᾶσ; σκεψώμεσθα δὴ κἀντιτιθῶμεν προσ</l>
+    <l n="4">ἕκαστο ν·</l>
+    <l n="5" v="803">παρὰβάλλουσαι τῆστεγυναικὸσ· καὶ τἀνδρὸσ</l>
+    <l n="6">τοῦ ᾽νομ᾽ ἕκαστοσ·</l>
+    <l n="7" v="804">ναυσ<add place="dessus" main="R?">ϊ</add>μάχη σμέν ἥττων ἐστὶ χαρμίνοσ δηλαδητ᾽ἄρ<ras main="R?">γα</ras></l>
+    <l n="8" v="805">καὶ μὲν δὴ καὶ κλεοφῶν χεῖ ρον πάντωσδή που</l>
+    <l n="9">σαλ<del type="exponctuation" main="R?">λ</del>αβακχοῦσ·</l>
+    <l n="10" v="806">πρὸσ ἀριστομάχην δὲ χρόνο<unclear cert="moyenne">υ</unclear> πολλοῦ προσεκεί</l>
+    <l n="11">νηντὴν μαραθῶνι·</l>
+    <l n="12" v="807"><signe type="signal" main="R1">⋎</signe>καὶ στρατωνί κην ὑμῶν οὐδεῖσ οὐδ᾽ ἐγχει ρεῖ πολεμίζειν</l>
+    <l n="13" v="808">ἀλλ᾽ εὐβούλησ· τῶν πέρ<unclear cert="moyenne">υ</unclear>σιντίσβουλευτὴσ</l>
+    <l n="14">ἐστὶν ἀμείνων·</l>
+    <l n="15" v="809"><hi rend="grand">π</hi>αραδοὺσ ετέρωι τὴν βουλείαν οὐδ᾽ αὐτὸσ τοῦτό γε</l>
+    <l n="16">φή σει σ·</l>
+    <l n="17" v="810">οὕτωσ ἡμεῖσ πολὺ βελτίουσ τῶν ἀνδρῶν εὐχόμεσθ᾽ <abbr dev="ναι">εἶ</abbr></l>
+    <l n="18" v="811">οὐδ᾽ ἂν κλέψασα γυνὴ ζεύγει· κατὰ πεντήκοντα τάλαντα</l>
+    <l n="19" v="812">ἐσπόλιν ἐλθο ι τῶν δη μοσίων· ἀλλ᾽ ἢν τὰ μέγιστα</l>
+    <l n="20">ὑφέλη ται</l>
+    <l n="21" v="813">φορμὸν πυρῶν τἀνδρὸσ κλέψασα αὐθημερὸ ν</l>
+    <l n="22">αὖτ᾽ ἀπέδω κεν</l>
+    <l n="23" v="814">ἀλλ ἡμεῖσ ἂν πολλο ὺστούτων·</l>
+    <l n="24" v="815">ἀποδείξ ομεν ταῦτα ποθοῦντασ</l>
+    <l n="25" v="816">καὶ προ στούτοισ· γαστρίδασ ἡμῶν</l>
+  </lignes>
+  <notes>
+    <note>Lecture B (par passes) ; passe 1 en cours (lettres et mots, segments de 3 à 5 mots à ×3, original et CLAHE ; détails à ×4–×5 avec la décorrélation Lab).</note>
+    <note>Reprise (20 nov.) : l. 15–16 recontrôlées à ×4–×6 (original, CLAHE, fac-similé de 1904 recalé). Corrigé à la l. 15 : ἑτέρωι → ετέρωι (aucun esprit sur l'Є, ni sur le cliché ni en 1904 ; l'aigu à x ≈ 476, y ≈ 1005 est celui de -τέ-) ; οὐδ → οὐδ᾽ (trois marques entre δ et σ : x ≈ 891 au-dessus de l'α, x ≈ 928 au-dessus du τ, grave x ≈ 971 : apostrophe, esprit de αὐ, accent de -τὸ, tous déportés à droite).</note>
+  </notes>
+</page>
