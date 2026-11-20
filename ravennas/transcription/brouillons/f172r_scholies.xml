@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 172r (vv. 801–834) ; transcription diplomatique (lecteur des scholies, 13 nov. 2026, DiploXML v1), lue sur l'image (original ; rapport au fond local d'une luminance dominée par le bleu, lissée à 0,8 px ; CLAHE ; canal bleu ; découpes ×4 à ×16 dans .travail/scholies/f172r/, script dc.py).
+     Ancre = numéro de la ligne du bloc de texte (1–43) en face de laquelle la note commence ; marge supérieure : 1 ; marge inférieure : 43.
+     Ordre : par ancre, et pour une même ancre marge gauche avant marge droite. Recto : mg-g = marge intérieure (gouttière), mg-d = marge extérieure.
+     Coordonnées dans les notes : [x, y] ou [x0–x1, y0–y1] en pixels de l'image pleine résolution 1855 × 2780.
+     Lecture en cours (écrite au fil de l'eau). -->
+<page folio="f172r" image="20_f172r_classense174r_vv0800-0837.jpg" vers="801-834">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="1" place="mg-sup" main="R2" lemme="ναυσιμάχησ μεν">ναυσιμ<unclear cert="moyenne">ά</unclear>χησ μεν· <abbr signe="ʒ" dev="αι">πέπλαστ</abbr> τα <abbr dev="ατα">ο<hi rend="sus">ν</hi>ο<hi rend="sus">μ</hi></abbr> επε<unclear cert="moyenne">ὶ</unclear> ευδοκιμουν οἱ αθηναῖοι τοτε <unclear cert="moyenne">ταῖσ</unclear> ναυ<unclear cert="faible">μαχιαισ</unclear>· <abbr signe="°" dev="ος">χαρμ<unclear cert="moyenne">ῖ</unclear>ν</abbr> δ<unclear cert="moyenne">ὲ</unclear> περι σαμον<lb/>συνεστρατήγησεν κατα τ<unclear cert="moyenne">ὸ</unclear>ν καιρὸν τ<hi rend="sus">ου</hi>τον τ<unclear cert="moyenne">οῖ</unclear>σ περι φρ<unclear cert="moyenne">ύ</unclear>νιχον ναυσ<gap n="1" unite="lettres" raison="illisible"/>ιμαχη <abbr signe="ʒ" dev="δὲ"/> πορνη <abbr signe="ϗ" dev="καὶ"/> σαλαβακχῶ ÷</sch>
+    <sch n="2" ancre="1" place="mg-sup" main="R2"><abbr signe="~" dev="ως">αλλ</abbr>· συνεμάχησε γὰρ φρυνίχω εν θράκη ο χαρμῖνοσ <abbr signe="ϗ" dev="καὶ"/> <unclear cert="moyenne">ἴ</unclear>σωσ οὐδ<unclear cert="moyenne">ὲ</unclear>ν <unclear cert="moyenne">ἀ</unclear>ξιολογον <unclear cert="moyenne">ἔ</unclear>πραξεν δι<unclear cert="moyenne">ὸ</unclear> λ<unclear cert="moyenne">έ</unclear>γε<unclear cert="faible">ι</unclear> δῆλα<lb/>τὰ έργα ÷</sch>
+    <!-- Suite en cours de lecture. -->
+  </scholies>
+  <notes>
+    <note>Lecture en cours.</note>
+  </notes>
+</page>

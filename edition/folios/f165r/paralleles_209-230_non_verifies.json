@@ -117,5 +117,68 @@
   "ref": "Herod. 5.6 (ὅ τι + indic. après βούλομαι)",
   "source": "Austin–Olson 2004, p. 124 (ad 211–12)",
   "raison": "Hérondas absent du corpus local"
+ },
+ {
+  "v": "214",
+  "lemme": "ἀπόδυθι",
+  "ref": "Cratin. fr. 330 K.-A. (ἀπόδυθι τὴν στολήν)",
+  "source": "Austin–Olson 2004, p. 124 (ad 213–14)",
+  "raison": "fragment non retrouvé chez Kock ni dans les lexicographes indexés (chercher.py ἀπόδυθι --toutes-editions ; στολήν -a Kock) ; PCG IV non disponible localement"
+ },
+ {
+  "v": "216",
+  "lemme": "ἀλλὰ πρᾶττ᾽",
+  "ref": "Men. Dysk. 746 ; adesp. tr. fr. 710.2 (πρᾶττε)",
+  "source": "Austin–Olson 2004, p. 126 (ad 216–17)",
+  "raison": "Dyscolos et TrGF II absents du corpus local et des scans"
+ },
+ {
+  "v": "216",
+  "lemme": "τὰ κάτω δ᾽ ἀφεύειν",
+  "ref": "ARV² 331 n° 20 (coupe de Panaitios : femme remplissant une lampe pour s’épiler)",
+  "source": "Austin–Olson 2004, p. 125 (ad 216–17)",
+  "raison": "document figuré, non un texte : pour mémoire"
+ },
+ {
+  "v": "219",
+  "lemme": "χρῆσόν τι νῦν ἡμῖν ξυρόν",
+  "ref": "Men. Epitr. 381 (ἔχεις κοιτίδα τινά;)",
+  "source": "Austin–Olson 2004, p. 127 (ad 218–20)",
+  "raison": "Épitréponts absents du corpus local et des scans"
+ },
+ {
+  "v": "219",
+  "lemme": "ξυρόν (« sur le fil du rasoir »)",
+  "ref": "Aesch. fr. 99.22 R. (Κᾶρες ἢ Εὐρώπη)",
+  "source": "Austin–Olson 2004, p. 127 (ad 218–20)",
+  "raison": "TrGF III absent ; le fragment papyrologique n’est pas dans le corpus local (chercher.py ξυροῦ -a Aesch --toutes-editions : seul Cho. 884)"
+ },
+ {
+  "v": "221",
+  "lemme": "τὴν γνάθον",
+  "ref": "Hes. fr. 302.13 M.-W. ; Epich. fr. 18.2 K.-A. ; Soph. fr. 507.2 R. ; Hippon. fr. 79.4 W.",
+  "source": "Austin–Olson 2004, p. 127 (ad 221)",
+  "raison": "éditions de référence absentes (Merkelbach–West, PCG I, TrGF IV, West IEG) ; chercher.py 'γνάθ*' -a Epich. et TGF² de Nauck (OCR médiocre) sans résultat"
+ },
+ {
+  "v": "222",
+  "lemme": "τί κέκραγας; / ἐμβαλῶ σοι πάτταλον",
+  "ref": "Men. Sam. 226, 239 (κέκραγα) ; Herod. 3.85 (menace analogue) ; Herod. 3.79 (ἀτταταῖ, au v. 223)",
+  "source": "Austin–Olson 2004, p. 128 (ad 222–3)",
+  "raison": "Ménandre (Samienne) et Hérondas absents du corpus local et des scans"
+ },
+ {
+  "v": "222",
+  "lemme": "οἴμοι",
+  "ref": "Sapph. fr. 94.4 V. (ὤιμοι) ; CEG 718",
+  "source": "Austin–Olson 2004, p. 128 (ad 222–3)",
+  "raison": "papyrus de Sappho et CEG non disponibles localement (DCLP interrogé sans résultat)"
+ },
+ {
+  "v": "225",
+  "lemme": "μὰ τὴν Δήμητρα",
+  "ref": "Men. Epitr. 955 (serment féminin par φίλη Δήμητρα)",
+  "source": "Austin–Olson 2004, p. 129 (ad 225)",
+  "raison": "Épitréponts absents du corpus local et des scans"
  }
 ]

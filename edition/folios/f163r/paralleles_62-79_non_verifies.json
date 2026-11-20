@@ -118,5 +118,93 @@
   "ref": "IG ii² 111.37–39 ; J. D. Mikalson, The Sacred and Civil Calendar, p. 193–197",
   "source": "Sommerstein ad 78–79",
   "motif": "Épigraphie et ouvrage moderne absents des sources locales."
+ },
+ {
+  "v": "76–77",
+  "lemme": "τῇδε θἠμέρᾳ κριθήσεται / εἴτ᾽ ἔστ᾽ ἔτι ζῶν εἴτ᾽ ἀπόλωλ᾽ Εὐριπίδης",
+  "categorie": "tragiques",
+  "ref": "Eur. Tel. fr. **144 Austin",
+  "source": "Austin–Olson ad 76–7 (« τῇδε κτλ. = E. Tel. fr. **144 Austin (where ⟨ὄλωλε Τήλεφος⟩ vel sim. must have stood in the place of Ar.'s ἀπόλωλ᾽ Εὐριπίδης) »)",
+  "motif": "Fragment reconstruit d'après notre vers (aucun texte indépendant ; aucune scholie de R ne le signale). Austin, Nova fragmenta Euripidea (1968) et TrGF V (Kannicht) absents localement : numéro et forme à contrôler. Relève de la parodie du Télèphe (commentaire)."
+ },
+ {
+  "v": "76–77",
+  "lemme": "Εὐριπίδης (pour ἐγώ)",
+  "categorie": "comiques",
+  "ref": "Men. Mis. 664 (= CGFP 151.263 Austin)",
+  "source": "Austin–Olson ad 76–7",
+  "motif": "Texte du Misouménos absent localement (le DCLP n'a que P.Oxy. 4408)."
+ },
+ {
+  "v": "66",
+  "lemme": "αὐτός (le maître)",
+  "categorie": "comiques",
+  "ref": "Men. Sam. 256, 258",
+  "source": "Austin–Olson ad 66",
+  "motif": "Texte de la Samienne absent localement."
+ },
+ {
+  "v": "66",
+  "lemme": "αὐτός (de lui-même)",
+  "categorie": "prose",
+  "ref": "Xen. An. 6.6.9",
+  "source": "Austin–Olson ad 66 (« X. An. vi. 6. 9 »)",
+  "motif": "Le texte de Perseus en 6.6.9 n'offre pas αὐτός au sens de « de lui-même » (seulement καὶ αὐτὸς ἀχθεσθείς) : référence à contrôler (coquille possible)."
+ },
+ {
+  "v": "67–68",
+  "lemme": "χειμῶνος … ὄντος",
+  "categorie": "comiques",
+  "ref": "Men. Mis. 12",
+  "source": "Austin–Olson ad 67–8",
+  "motif": "Texte du Misouménos absent localement."
+ },
+ {
+  "v": "69",
+  "lemme": "θύρασι",
+  "categorie": "tragiques",
+  "ref": "Trag. adesp. fr. *638.8 K.-Sn.",
+  "source": "Austin–Olson ad 69",
+  "motif": "TrGF II absent localement."
+ },
+ {
+  "v": "69",
+  "lemme": "προΐῃ θύρασι (construction prégnante)",
+  "categorie": "prose",
+  "ref": "Satyr. Vit. Eur., FHG III 160, fr. 1",
+  "source": "Austin–Olson ad 69 (« ἀφικόμενος δ᾽ Ἀθήνησιν ἐξ Ὀλυμπίας »)",
+  "motif": "FHG (Müller) absent localement ; parallèle syntaxique accessoire."
+ },
+ {
+  "v": "70",
+  "lemme": "τί οὖν ἐγὼ δρῶ; — περίμεν᾽",
+  "categorie": "comiques",
+  "ref": "Men. Asp. 380 (Austin ad loc.) ; Men. Mis. 22",
+  "source": "Austin–Olson ad 70",
+  "motif": "Textes de Ménandre absents localement."
+ },
+ {
+  "v": "71",
+  "lemme": "τήμερον",
+  "categorie": "comiques",
+  "ref": "Hermipp. fr. 74.1 K.-A. (= fr. 80 Kock)",
+  "source": "Austin–Olson ad 71",
+  "motif": "Contrôlé chez Kock (I, p. 249, fr. 80, image) : le texte imprimé porte ἐγώ σου σήμερον (Bekker, Anecd. 362, 15) ; τήμερον est la correction de Meineke. Non retenu comme parallèle de τήμερον sans PCG V."
+ },
+ {
+  "v": "74",
+  "lemme": "κηδεστήν (première attestation)",
+  "categorie": "tragiques",
+  "ref": "Aesch. fr. 47a.819 R. (Diktyoulkoi)",
+  "source": "Austin–Olson ad 74",
+  "motif": "TrGF III absent localement ; papyrus non indexé."
+ },
+ {
+  "v": "79",
+  "lemme": "βουλῆς ἐσθ᾽ ἕδρα",
+  "categorie": "prose",
+  "ref": "IG I³ 61.53, 55 (restitutions) ; IG II² 1.74",
+  "source": "Austin–Olson ad 78–9 (ἕδρα, séance du Conseil)",
+  "motif": "Épigraphie absente des sources locales (référence lue dans la seconde numérisation d'Austin–Olson, la première étant altérée)."
  }
 ]

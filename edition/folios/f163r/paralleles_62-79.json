@@ -1107,6 +1107,20 @@
  },
  {
   "v": "63",
+  "lemme": "νέος … ὑβριστής",
+  "categorie": "tragiques",
+  "ref": "Soph. fr. 718 N.²",
+  "urn": "ia:tragicorumgraeco00naucuoft#n332",
+  "citation": "ὕβρις δέ τοι / οὐπώποθ᾽ ἥβης εἰς τὸ σῶφρον ἵκετο, / ἀλλ᾽ ἐν νέοις ἀνθεῖ τε καὶ πάλιν φθίνει.",
+  "traduction": "« … c'est chez les jeunes que la démesure fleurit, puis elle se fane »",
+  "verifie": "scan",
+  "verification": "Nauck², Tragicorum Graecorum fragmenta, p. 301, fr. 718, image de la page (archive.org tragicorumgraeco00naucuoft n332) ; source : EM 601 s.v. νεῖκος",
+  "signale_par": "Austin–Olson ad 63 (« S. fr. 786 »)",
+  "pertinence": 3,
+  "remarque": "= fr. 786 R. selon Austin–Olson (numéro de Radt non contrôlé : TrGF IV absent localement). Transmis par l'EM 601 (s.v. νεῖκος). L'idée même du v. 63 : l'ὕβρις est le propre de la jeunesse. Au v. 2, ἥβης est mis en doute (ὥρας F. G. Schmidt, d'après Nauck)."
+ },
+ {
+  "v": "63",
   "lemme": "ὑβριστής",
   "categorie": "poetes",
   "ref": "Hom. Od. 6.120",
@@ -1779,6 +1793,62 @@
  },
  {
   "v": "64",
+  "lemme": "τοῦτον μὲν ἔα χαίρειν",
+  "categorie": "aristophane",
+  "ref": "Ar. Nub. 932",
+  "urn": "urn:cts:greekLit:tlg0019.tlg003.perseus-grc2:932",
+  "citation": "δεῦρ᾽ ἴθι, τοῦτον δ᾽ ἔα μαίνεσθαι.",
+  "traduction": "« Viens ici, et laisse celui-là à son délire. »",
+  "verifie": "corpus",
+  "verification": "chercher.py (Perseus, Ar. Nub. 932)",
+  "signale_par": "Austin–Olson ad 64–5 (« Dover on Nu. 932 », sur la prosodie de ἔα)",
+  "pertinence": 3,
+  "remarque": "Même tour (τοῦτον … ἔα + infinitif) pour écarter un importun et se tourner vers un autre. Sur la prosodie de ἔα (deux brèves ou synizèse), Austin–Olson renvoient à la note de Dover sur ce vers."
+ },
+ {
+  "v": "64",
+  "lemme": "ὦ δαιμόνιε",
+  "categorie": "comiques",
+  "ref": "Pherecr. fr. 80.1 Kock (Ath. 3.75b)",
+  "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:3.7",
+  "citation": "ὦ δαιμόνιε, πύρεττε μηδὲν φροντίσας",
+  "traduction": "« Mon brave, aie donc la fièvre sans t'en soucier »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"πύρεττε μηδὲν φροντίσας\"' (Ath., Perseus) ; page de Casaubon contrôlée sur le TEI (75b) ; Kock I, p. 166 (OCR)",
+  "signale_par": "Austin–Olson ad 64–5 (« Pherecr. fr. 85. 1 »)",
+  "pertinence": 2,
+  "remarque": "Κραπάταλοι ; = fr. 85 K.-A. (Austin–Olson). ὦ δαιμόνιε en tête de trimètre, apostrophe familière de la comédie."
+ },
+ {
+  "v": "64",
+  "lemme": "ὦ δαιμόνιε",
+  "categorie": "comiques",
+  "ref": "Mnesim. fr. 3.4 Kock (Ath. 8.359c)",
+  "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:8.58",
+  "citation": "πῶς ἔτι μετριώτερ᾽, ὦ δαιμόνι᾽;",
+  "traduction": "« Comment faire plus modeste, mon pauvre ami ? »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Μνησιμάχῳ Δύσκολος' -a Ath (Perseus) ; page de Casaubon contrôlée sur le TEI (359c) ; Kock II, p. 435 (OCR : fr. 3, v. 4)",
+  "signale_par": "Austin–Olson ad 64–5 (« Mnesim. fr. 3. 4 »)",
+  "pertinence": 1,
+  "remarque": "Δύσκολος : l'oncle avare répond à son neveu ; ὦ δαιμόνιε teinté d'agacement (Austin–Olson). Même numéro chez K.-A. (Austin–Olson)."
+ },
+ {
+  "v": "64",
+  "lemme": "τοῦτον μὲν ἔα χαίρειν",
+  "categorie": "comiques",
+  "ref": "Stratt. fr. 41.2 Kock (Σ Ar. Vesp. 1346)",
+  "urn": "ia:comicorumatticor01kockuoft#n752",
+  "citation": "ἦ μήποτ᾽, ὦ παῖ Ζηνός, ἐς ταὐτὸν μόλῃς, / ἀλλὰ παραδοὺς τοῖς Λεσβίοις χαίρειν ἔα.",
+  "traduction": "« … mais livre-le aux Lesbiens et laisse-le aller »",
+  "verifie": "scan",
+  "verification": "Kock I, p. 723, fr. 41 (Τρωίλος), image de la page (archive.org comicorumatticor01kockuoft n752)",
+  "signale_par": "Austin–Olson ad 64–5 (« Stratt. fr. 42. 2 »)",
+  "pertinence": 2,
+  "remarque": "Τρωίλος ; = fr. 42 K.-A. (Austin–Olson). χαίρειν ἔα en fin de trimètre, comme congé donné à un personnage, dans un contexte obscène (λεσβιάζειν, d'après la scholie)."
+ },
+ {
+  "v": "64",
   "lemme": "ἔα χαίρειν",
   "categorie": "tragiques",
   "ref": "Eur. Hipp. 113",
@@ -2280,6 +2350,20 @@
   "signale_par": "recherche directe",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "64",
+  "lemme": "τοῦτον μὲν ἔα χαίρειν, σὺ δὲ",
+  "categorie": "prose",
+  "ref": "Pl. Prt. 347b",
+  "urn": "urn:cts:greekLit:tlg0059.tlg022.perseus-grc2:347",
+  "citation": "περὶ μὲν ᾀσμάτων τε καὶ ἐπῶν ἐάσωμεν, περὶ δὲ ὧν τὸ πρῶτον ἐγώ σε ἠρώτησα",
+  "traduction": "« laissons là chants et vers, et revenons à ce sur quoi je t'interrogeais d'abord »",
+  "verifie": "corpus",
+  "verification": "chercher.py (Perseus, Pl. Prt. 347) ; page de Stephanus contrôlée sur le TEI (milestone 347b)",
+  "signale_par": "Austin–Olson ad 64–5 (« Prt. 347c »)",
+  "pertinence": 1,
+  "remarque": "ἐάω « laisser de côté », sans χαίρειν, dans une opposition μέν … δέ ; Austin–Olson citent 347c (la phrase est en 347b–c)."
  },
  {
   "v": "64",
@@ -4233,13 +4317,13 @@
   "categorie": "prose",
   "ref": "[Plut.] De mus. 30 (1141d–1142a)",
   "urn": "urn:cts:greekLit:tlg0094.tlg002.perseus-grc2:30",
-  "citation": "Κινησίας δὲ μʼ ὁ κατάρατος Ἀττικός, / ἐξαρμονίους καμπὰς ποιῶν ἐν ταῖς στροφαῖς",
+  "citation": "Κινησίας δὲ μʼ ὁ κατάρατος Ἀττικός, / ἐξαρμονίους καμπὰς ποιῶν ἐν ταῖς στροφαῖς … ἐξαρμονίους ὑπερβολαίους, τʼ ἀνοσίους / καὶ νιγλάρους, ὥσπερ τε τὰς ῥαφάνους ὅλην / καμπῶν με κατεμέστωσε",
   "traduction": "",
   "verifie": "corpus",
-  "verification": "chercher.py 'καμπὰς' --sans-ocr (Perseus)",
-  "signale_par": "recherche directe",
+  "verification": "chercher.py 'καμπὰς' --sans-ocr et 'καμπῶν' (Perseus) ; pages de Stephanus contrôlées sur le TEI (1141e pour Κινησίας, 1142a pour καμπῶν)",
+  "signale_par": "recherche directe ; Sommerstein ad 68 (Pherecr. fr. 155.9, 15, 28 K.-A.)",
   "pertinence": 2,
-  "remarque": "La source de Phérécrate (fr. 145 Kock = 155 K.-A.), déjà relevé aux comiques."
+  "remarque": "La source de Phérécrate (fr. 145 Kock = 155 K.-A.), déjà relevé aux comiques. Les trois derniers vers (« … de καμπαί il m'a bourrée tout entière, comme des choux », jeu probable sur καμπαί « inflexions » et κάμπαι « chenilles ») manquent au fragment de Kock, qui les donne en note (« post v. 25 sequuntur apud Plutarchum ») : ce sont les v. 26–28 de K.-A. (Sommerstein cite le v. 28)."
  },
  {
   "v": "68",
@@ -4324,6 +4408,20 @@
   "signale_par": "Austin–Olson ad 67–8 (« [Arist.] Pr. 918b13–20 »)",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "68",
+  "lemme": "κατακάμπτειν τὰς στροφάς",
+  "categorie": "prose",
+  "ref": "[Plut.] De mus. 6 (1133b)",
+  "urn": "urn:cts:greekLit:tlg0094.tlg002.perseus-grc2:6",
+  "citation": "ἡ μὲν κατὰ Τέρπανδρον κιθαρῳδία καὶ μέχρι τῆς Φρύνιδος ἡλικίας παντελῶς ἁπλῆ τις οὖσα διετέλει· οὐ γὰρ ἐξῆν τὸ παλαιὸν οὕτω ποιεῖσθαι τὰς κιθαρῳδίας ὡς νῦν οὐδὲ μεταφέρειν τὰς ἁρμονίας καὶ τοὺς ῥυθμούς",
+  "traduction": "« la citharodie, depuis Terpandre jusqu'à l'époque de Phrynis, resta tout à fait simple : il n'était pas permis autrefois … de changer d'harmonies et de rythmes »",
+  "verifie": "corpus",
+  "verification": "chercher.py (Perseus, [Plut.] De mus. 6) ; page de Stephanus contrôlée sur le TEI (1133b)",
+  "signale_par": "Sommerstein ad 68 (« [Plut.] Mor. 1133b »)",
+  "pertinence": 2,
+  "remarque": "Phrynis, que Phérécrate accuse de « ployer et tordre » la Musique (κάμπτων με καὶ στρέφων, fr. 145.15 Kock), passe pour l'initiateur des modulations : la « Nouvelle Musique » dont relève Agathon (Sommerstein)."
  },
  {
   "v": "68",
@@ -5699,6 +5797,20 @@
  },
  {
   "v": "70",
+  "lemme": "περίμεν᾽",
+  "categorie": "comiques",
+  "ref": "Antiph. fr. 128.1 Kock (Ath. 3.120a)",
+  "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:3.90",
+  "citation": "ἐλθών τε πρὸς τὸν τεμαχοπώλην, περίμενε",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py 'τεμαχοπώλην περίμενε' (Ath., Perseus) ; page de Casaubon contrôlée sur le TEI (120a) ; Kock II, p. 62 (OCR)",
+  "signale_par": "Austin–Olson ad 70 (« Antiph. fr. 126. 1 »)",
+  "pertinence": 1,
+  "remarque": "Κουρίς ; = fr. 126 K.-A. (Austin–Olson). L'impératif περίμενε, vocabulaire attique de la fin du Ve et du IVe s."
+ },
+ {
+  "v": "70",
   "lemme": "τί οὖν ἐγὼ δρῶ;",
   "categorie": "tragiques",
   "ref": "Eur. HF 1123",
@@ -5822,6 +5934,34 @@
   "signale_par": "recherche directe",
   "pertinence": 1,
   "remarque": "Attends : le sens même de l'impératif, chez un conseiller à un jeune homme."
+ },
+ {
+  "v": "70",
+  "lemme": "περίμεν᾽",
+  "categorie": "prose",
+  "ref": "Thuc. 1.124.1",
+  "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.124.1",
+  "citation": "ὡς οὐκέτι ἐνδέχεται περιμένοντας τοὺς μὲν ἤδη βλάπτεσθαι",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py (Perseus, Thuc. 1.124.1)",
+  "signale_par": "Austin–Olson ad 70 (« Th. i. 124. 1 »)",
+  "pertinence": 1,
+  "remarque": ""
+ },
+ {
+  "v": "70",
+  "lemme": "περίμεν᾽",
+  "categorie": "prose",
+  "ref": "Pl. Resp. 5.449d",
+  "urn": "urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:5.449",
+  "citation": "ὡς ἡμεῖς πάλαι περιμένομεν οἰόμενοί σέ που μνησθήσεσθαι",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py 'περιμεν*' -a Pl. -o Resp --sans-ocr (Perseus) ; page de Stephanus contrôlée sur le TEI (449d)",
+  "signale_par": "Austin–Olson ad 70 (« Pl. R. 449d »)",
+  "pertinence": 1,
+  "remarque": ""
  },
  {
   "v": "70",
@@ -6130,6 +6270,20 @@
   "signale_par": "Austin–Olson ad 71 (« holding his hands in the air (e.g. Av. 622–3) »)",
   "pertinence": 1,
   "remarque": "Le geste de la prière, mains levées, qui accompagne l'invocation."
+ },
+ {
+  "v": "71",
+  "lemme": "τήμερον",
+  "categorie": "comiques",
+  "ref": "Cratin. fr. 123 Kock",
+  "urn": "ia:comicorumatticor01kockuoft#n81",
+  "citation": "οὐκ ἀπερρήσεις σὺ θᾶττον; ἀποτιλῶ σε τήμερον.",
+  "traduction": "« Tu ne vas pas déguerpir au plus vite ? Je vais te plumer aujourd'hui même. »",
+  "verifie": "scan",
+  "verification": "Kock I, p. 52, fr. 123 (Νόμοι), image de la page (archive.org comicorumatticor01kockuoft n81) ; source : Bekker, Anecd. 422, 9",
+  "signale_par": "Austin–Olson ad 71 (« Cratin. fr. 129 »)",
+  "pertinence": 1,
+  "remarque": "Νόμοι ; = fr. 129 K.-A. (Austin–Olson). τήμερον, forme familière des comiques ; ἀποτιλῶ σε est une correction de Porson."
  },
  {
   "v": "71",
@@ -6466,6 +6620,20 @@
   "signale_par": "Austin–Olson ad 71 (« Th. v. 9. 2 »)",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "71",
+  "lemme": "διανοεῖ",
+  "categorie": "prose",
+  "ref": "Hdt. 2.121δ.4",
+  "urn": "urn:cts:greekLit:tlg0016.tlg001.perseus-grc2:2.121D.4",
+  "citation": "τοὺς δὲ αὐτοῦ ὥσπερ εἶχον κατακλιθέντας πίνειν διανοέεσθαι",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py (Perseus, Hdt. 2.121D.4)",
+  "signale_par": "Austin–Olson ad 71 (« Hdt. ii. 121. δ. 4 »)",
+  "pertinence": 1,
+  "remarque": "διανοέομαι + infinitif, « avoir l'intention de » : vocabulaire de la prose, absent de la poésie sérieuse (Austin–Olson)."
  },
  {
   "v": "71",
@@ -6998,6 +7166,20 @@
   "signale_par": "recherche directe",
   "pertinence": 1,
   "remarque": "στένω dans la litanie comique de l'ennui (Dicéopolis) ; σκορδινᾶσθαι est joint à δυσφορεῖν en Ran. 922 (déjà relevé)."
+ },
+ {
+  "v": "73",
+  "lemme": "τί τὸ πρᾶγμα τουτί",
+  "categorie": "aristophane",
+  "ref": "Ar. Ach. 156",
+  "urn": "urn:cts:greekLit:tlg0019.tlg001.perseus-grc2:156",
+  "citation": "τουτὶ τί ἐστι τὸ κακόν;",
+  "traduction": "« Qu'est-ce que c'est que ce fléau-là ? »",
+  "verifie": "corpus",
+  "verification": "chercher.py (Perseus, Ar. Ach. 156–157)",
+  "signale_par": "Austin–Olson ad 72–3 (« Olson on Ach. 156 »)",
+  "pertinence": 2,
+  "remarque": "Cf. Ach. 157 εἰπέ μοι τουτὶ τί ἦν; : le déictique τουτί dans la question étonnée, tour familier."
  },
  {
   "v": "73",
@@ -8723,6 +8905,20 @@
  },
  {
   "v": "76",
+  "lemme": "ποῖόν τι;",
+  "categorie": "comiques",
+  "ref": "Alex. fr. 149.5 Kock (Ath. 9.379b)",
+  "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:9.23",
+  "citation": "ποῖόν τι; δεῖ γὰρ κἀμὲ τὸν ξένον μαθεῖν.",
+  "traduction": "« Quoi donc, au juste ? Car moi aussi, l'étranger, je dois l'apprendre. »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"ποῖόν τι\"' (Ath., Perseus) ; page de Casaubon contrôlée sur le TEI (379b) ; Kock II, p. 350, fr. 149 (OCR)",
+  "signale_par": "Austin–Olson ad 76–7 (« Alex. fr. 153. 5 with Arnott »)",
+  "pertinence": 2,
+  "remarque": "Μιλήσιοι (le cuisinier) ; = fr. 153 K.-A. (Austin–Olson). ποῖόν τι; seul, pour demander une précision, comme Mnésiloque."
+ },
+ {
+  "v": "76",
   "lemme": "τῇδε θἠμέρᾳ",
   "categorie": "tragiques",
   "ref": "Soph. Aj. 756",
@@ -9507,6 +9703,20 @@
  },
  {
   "v": "77",
+  "lemme": "Εὐριπίδης (pour ἐγώ)",
+  "categorie": "poetes",
+  "ref": "Herod. 1.76–77",
+  "urn": "ia:mimesherodas00herogoog#n106",
+  "citation": "τὴν Πυθέω δὲ Μητρίχην ἔα θάλπειν / τὸν δίφρον",
+  "traduction": "« quant à Métrichè, fille de Pythéas, laisse-la chauffer son siège »",
+  "verifie": "scan",
+  "verification": "Nairn 1904, p. 12 (archive.org mimesherodas00herogoog n106, image lue)",
+  "signale_par": "Austin–Olson ad 76–7 (« Headlam on Herod. 1. 76 »)",
+  "pertinence": 2,
+  "remarque": "Métrichè parle d'elle-même à la troisième personne, avec son patronyme, pour donner du poids à son refus : même procédé que Εὐριπίδης pour ἐγώ."
+ },
+ {
+  "v": "77",
   "lemme": "εἴτ᾽ ἔστ᾽ ἔτι ζῶν εἴτ᾽ ἀπόλωλ᾽",
   "categorie": "prose",
   "ref": "Dem. 19.288",
@@ -9728,6 +9938,34 @@
   "signale_par": "Austin–Olson ad 78–79 (« V. 100–4 »)",
   "pertinence": 1,
   "remarque": "Les tribunaux ouvrent à l'aube : Philocléon y court dès le souper et y dort d'avance ; l'objection de Mnésiloque situe aussi l'action au petit matin (cf. v. 2)."
+ },
+ {
+  "v": "78",
+  "lemme": "καὶ πῶς;",
+  "categorie": "aristophane",
+  "ref": "Ar. Thesm. 624",
+  "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2:624",
+  "citation": "καὶ τίς σοὐστὶ συσκηνήτρια;",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py (Perseus, Ar. Thesm. 624)",
+  "signale_par": "Austin–Olson ad 78–9 (« Cf. 96, 624, 645 »)",
+  "pertinence": 1,
+  "remarque": "καί en tête de question : objection incrédule."
+ },
+ {
+  "v": "78",
+  "lemme": "καὶ πῶς;",
+  "categorie": "aristophane",
+  "ref": "Ar. Thesm. 645",
+  "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2:645",
+  "citation": "καὶ ποῦ ᾽στιν;",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py (Perseus, Ar. Thesm. 645)",
+  "signale_par": "Austin–Olson ad 78–9 (« Cf. 96, 624, 645 »)",
+  "pertinence": 1,
+  "remarque": "καί en tête de question : objection incrédule."
  },
  {
   "v": "78",
@@ -10134,6 +10372,48 @@
   "signale_par": "Austin–Olson ad 78–79 (« [Arist.] Ath. 4. 3 »)",
   "pertinence": 3,
   "remarque": "Seule autre attestation, dans le corpus, de la locution ἕδρα βουλῆς + εἶναι (constitution « de Dracon »)."
+ },
+ {
+  "v": "79",
+  "lemme": "βουλῆς ἐσθ᾽ ἕδρα (le Conseil juge)",
+  "categorie": "prose",
+  "ref": "Arist. Ath. Pol. 40.2",
+  "urn": "urn:cts:greekLit:tlg0086.tlg003.perseus-grc2:40.2",
+  "citation": "ἀπαγαγὼν τοῦτον ἐπὶ τὴν βουλὴν καὶ πείσας ἄκριτον ἀποκτεῖναι",
+  "traduction": "« l'ayant traîné devant le Conseil, il le persuada de le faire mettre à mort sans jugement »",
+  "verifie": "corpus",
+  "verification": "chercher.py (Perseus, Arist. Ath. Pol. 40.2)",
+  "signale_par": "Sommerstein ad 78–79 (« Arist. Ath.Pol. 40.2 »)",
+  "pertinence": 2,
+  "remarque": "Archinos, en 403/2 : le Conseil condamne à mort de sa propre autorité, ce que suppose Mnésiloque en associant tribunaux et Conseil (Sommerstein)."
+ },
+ {
+  "v": "79",
+  "lemme": "βουλῆς ἐσθ᾽ ἕδρα (le Conseil juge)",
+  "categorie": "prose",
+  "ref": "Isoc. 17.42",
+  "urn": "urn:cts:greekLit:tlg0010.tlg005.perseus-grc2:42",
+  "citation": "οὕτω τὴν βουλὴν διέθεσαν οἱ βουλόμενοι συκοφαντεῖν, ὥστε τὸ μὲν πρῶτον παρὰ μικρὸν ἦλθον ἄκριτος ἀποθανεῖν",
+  "traduction": "« les sycophantes disposèrent si bien le Conseil que je faillis d'abord être mis à mort sans jugement »",
+  "verifie": "corpus",
+  "verification": "chercher.py (Perseus, Isoc. 17.42)",
+  "signale_par": "Sommerstein ad 78–79 (« Isocr. 17.42 »)",
+  "pertinence": 2,
+  "remarque": "Trapézitique : un étranger menacé de mort devant le Conseil."
+ },
+ {
+  "v": "79",
+  "lemme": "βουλῆς ἐσθ᾽ ἕδρα (le Conseil juge)",
+  "categorie": "prose",
+  "ref": "Dem. 47.43",
+  "urn": "urn:cts:greekLit:tlg0014.tlg047.perseus-grc2:43",
+  "citation": "ἐν τῷ διαχειροτονεῖν ἦν ἡ βουλὴ πότερα δικαστηρίῳ παραδοίη ἢ ζημιώσειε ταῖς πεντακοσίαις, ὅσου ἦν κυρία κατὰ τὸν νόμον",
+  "traduction": "« le Conseil votait s'il le renverrait au tribunal ou lui infligerait l'amende de cinq cents drachmes, limite de sa compétence légale »",
+  "verifie": "corpus",
+  "verification": "chercher.py (Perseus, Dem. 47.43)",
+  "signale_par": "Sommerstein ad 78–79 (« Dem. 47.43 »)",
+  "pertinence": 1,
+  "remarque": "Au IVe s., la compétence pénale du Conseil est bornée à 500 drachmes ; au-delà, renvoi au tribunal (cf. Vesp. 590–591 ; Arist. Ath. Pol. 45.1)."
  },
  {
   "v": "79",

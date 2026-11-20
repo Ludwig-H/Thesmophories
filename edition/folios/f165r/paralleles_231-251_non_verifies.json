@@ -24,16 +24,34 @@
   "motif": "source de Thesm. 140 selon les commentateurs ; à traiter au v. 140 ; non contrôlé ici."
  },
  {
-  "v": "245",
-  "lemme": "τὰ πλεῖστα – ἀσβόλου",
-  "ref": "Ael. Dion. α 186 Erbse",
-  "motif": "testimonium de l’auteur ; Erbse non disponible dans le corpus ; Naber rapporte la glose de Photius à Aelius Dionysius."
+  "v": "241",
+  "lemme": "οἴμοι τάλας",
+  "ref": "Pherecr. fr. 56, 3 K.-A. ; Antiph. fr. 257, 1 K.-A. ; Men. Asp. 504",
+  "motif": "exemples d'Austin–Olson 2004, p. 133 ; Phérécrate et Antiphane repérés dans l'OCR de Kock (I, p. 158 ; II, p. 119) mais numéros et texte non contrôlés sur l'image ; Ménandre absent du corpus local (éditions sous droits)."
+ },
+ {
+  "v": "241",
+  "lemme": "ὕδωρ ὕδωρ ὦ γείτονες",
+  "ref": "Men. Sik. 364 ; Men. Dysk. 594 ; Quint. Decl. 12.6",
+  "motif": "parallèles d'Austin–Olson 2004, p. 133 (appel à l'eau et aux voisins) ; textes absents du corpus local, non contrôlés."
+ },
+ {
+  "v": "243",
+  "lemme": "καταπεπυρπολημένος",
+  "ref": "Plb. 5.19.8 ; Palaeph. 52",
+  "motif": "LSJ s.v. καταπυρπολέω : forme non recopiée ici."
  },
  {
   "v": "245",
   "lemme": "φεῦ",
   "ref": "Phot. α 2946 (Theodoridis I)",
   "motif": "le texte imprimé n’a pas été lu (citation d’après Naber) : à relire, à cause de σφουΐου de Synag. α 2213."
+ },
+ {
+  "v": "245",
+  "lemme": "τῆς ἀσβόλου",
+  "ref": "Phryn. Ecl. 197 Rutherford",
+  "motif": "renvoi de l'apparat d'Erbse à Ael. Dion. α 186 (« cf. Phryn. 197 R. ») ; New Phrynichus non disponible ici."
  },
  {
   "v": "246",
@@ -70,11 +88,5 @@
   "lemme": "στρόφιον",
   "ref": "Poll. 7.65–67",
   "motif": "glose de Pollux signalée par la recherche (Bethe II, p. 78, OCR), § non établi."
- },
- {
-  "v": "243",
-  "lemme": "καταπεπυρπολημένος",
-  "ref": "Plb. 5.19.8 ; Palaeph. 52",
-  "motif": "LSJ s.v. καταπυρπολέω : forme non recopiée ici."
  }
 ]

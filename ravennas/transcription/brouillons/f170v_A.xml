@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page folio="170v" image="17_f170v_classense172v_vv0679-0720.jpg" vers="679-720">
   <lignes>
-    <l n="1" v="679" retrait="2">αὐτῶν ὅτἂν ληφθῆι τίσ ὅ σιαδρῶν</l>
-    <l n="2" v="680" retrait="3">μανί αισ φλέγων</l>
+    <l n="1" v="679" retrait="2">αὐτῶν ὅτἂν ληφθῆι τίσ ὅσιαδρῶν</l>
+    <l n="2" v="680" retrait="3">μανί αισφλέγων</l>
     <l n="3" v="681" retrait="2">λύσση παράκοποσ·</l>
     <l n="4" v="682" retrait="3">εἴ τι δρώι η πᾶσιν ἐμφανὴσ ὁρᾶν</l>
-    <l n="5" v="683" retrait="3">ἐστίν γυναιξὶν καὶ βροτοῖσ</l>
-    <l n="6" v="684" retrait="4">ὅ τι τὰπαράνοματάτ᾽ἀνόσιαθεὸσ</l>
+    <l n="5" v="683" retrait="3">ἐστί ν γυναιξὶν καὶ βροτοῖσ</l>
+    <l n="6" v="684" retrait="4">ὅ τι τὰπαράνοματάτ᾽ἀνόσια θεὸσ</l>
     <l n="7" v="685" retrait="3">ἀπο τί ν εται·</l>
-    <l n="8" v="686" retrait="3">παραχρ ῆ μάτετίνεται</l>
-    <l n="9" v="687" retrait="-2">ἀλλ᾽ἔοιχ᾽ ἡμῖν ἅπαντάπωσδιεσκέφθαι καλῶσ·</l>
-    <l n="10" v="688" retrait="-2">οὐχ᾽ὁρῶ μένγ᾽οὖν ἔτ᾽ἄλλον οὐδὲν ἐγκαθήμενον·</l>
-    <l n="11" v="689" retrait="5"><parag/><nota main="R2" repasse="Rrec">γυ<hi rend="sus">ν</hi><unclear cert="moyenne">νη</unclear></nota><unclear cert="moyenne">ἀ</unclear> α·</l>
-    <l n="12" retrait="-2">ποῖ σὺ φεύγεισ· οὗτοσ οὗτοσ οὐ μενεῖσ·</l>
+    <l n="8" v="686" retrait="3">παραχρῆμάτε<unclear cert="moyenne">τ</unclear>ίνεται</l>
+    <l n="9" v="687" retrait="-2">ἀλλ᾽ἔοιχ᾽ἡμῖν ἅπαντάπωσδιεσκέφθαι καλῶσ·</l>
+    <l n="10" v="688" retrait="-2">οὐχ᾽ὁρῶ μένγ᾽οὖνἔτ᾽ἄλλον οὐδὲν ἐγκαθήμενον·</l>
+    <l n="11" v="689" retrait="5"><parag/><nota main="R2" repasse="Rrec">γυ<hi rend="sus">ν</hi><unclear cert="moyenne">νη</unclear></nota>ἀα·</l>
+    <l n="12" retrait="-2">ποῖ σὺ φεύγεισ· οὗτοσοὗτοσοὐ μενεῖσ·</l>
     <l n="13" v="690" retrait="-1">τάλαιν᾽ ἐγὼ τάλαινα καὶ τὸ παιδίον·</l>
     <l n="14" v="691" retrait="-1">ἐξ ἀρ πάσασμοι φροῦ δοσ αὐτῶ τοὐτιτθίου·</l>
     <l n="15" v="692" retrait="-1"><nota main="R2">μνη<hi rend="sus">σ</hi></nota>κέκραχθι τοῦτο δ᾽οὐ δέποτε σὺ ψωμιεῖσ</l>
@@ -48,5 +48,17 @@
   <scholies>
   </scholies>
   <notes>
+    <note ligne="1">Relu sur l’image (reprise du 13 nov.). ὅτἂν : esprit et grave sur l’α (R entend ὅτ᾽ ἂν), τα liés, blanc de 11 px après ὅ (zone intermédiaire). ὅσιαδρῶν : blanc de 9 px après ὅ, αδ liés (règle des trois zones) ; ὅ porte esprit (point) et aigu. ληφθῆι : λ à longue oblique (comparé au μ de μανίαισ, l. 2), circonflexe réduit à un point entre η et ι. τίσ : aigu net (extrémité haute à droite), non grave.</note>
+    <note ligne="2">Relu : aigu de μανί posé entre ι et α (déporté à droite) ; blanc de 15 px entre ι et αι, gardé ; σ et φ presque soudés (4 px, liaison pâle) ; aucune ponctuation après φλέγων. À droite, dans la colonne, glose de S2 (ἀντὶ τ(οῦ) διάπυροσ ὢν…), laissée au lecteur des scholies.</note>
+    <note ligne="3">Relu : λύσση sans ι (aucune lettre entre η et le blanc de 16 px) ; point haut après παράκοποσ (x ≈ 1283, y ≈ 471) ; la marque basse voisine (x ≈ 1270, y ≈ 495) est l’esprit de ἐμφανὴσ (l. 4).</note>
+    <note ligne="4">Relu : εἴ en ligature ει, esprit (point) rejeté à gauche ; τι sans accent ; δρώι : aigu sur ω, ι détaché (4 px), puis blanc de 26 px avant η, qui n’a ni esprit ni accent visibles ; circonflexe de πᾶσιν réduit à un point ; grave de ἐμφανὴσ déporté sur le σ ; aucune ponctuation après ὁρᾶν.</note>
+    <note ligne="5">Relu : esprit de ἐστί en virgule rejetée à gauche (x ≈ 865) ; blanc de 15–19 px entre ί et ν, gardé (ἐστί ν) ; l’aigu de ἐστί (x ≈ 916–930, y ≈ 550–562) porte un petit trait transversal à mi-longueur : reste d’un grave corrigé ? (correction ἐστὶν → ἐστίν signalée par l’inventaire d’après Velsen 1883) : non démontrable sur la photographie, non encodée. ξ à barre de tête plate (non ζ) ; graves nets sur ξὶ et καὶ. Pas de ponctuation après βροτοῖσ : le triangle sous la queue du σ (x ≈ 1435, y ≈ 588) est l’esprit de ἀνόσια (l. 6).</note>
+    <note ligne="6">Relu : point d’attaque du τ devant τὰ (x ≈ 981), non transcrit ; grave de τὰ déporté sur le π ; aigu de παράνομα posé au-dessus du ν (x ≈ 1190), rapporté à l’α (déport à droite) plutôt qu’à l’ο ; ματάτ᾽ : α lié au τ suivant par une courbe ; crochet au-dessus de la jonction τ|α (x ≈ 1399, y ≈ 594) = apostrophe, triangle au-dessus du ν (x ≈ 1435, y ≈ 588) = esprit de ἀνόσια (deux marques distinctes) ; grave de θεὸσ déporté (x ≈ 1610) ; aucune ponctuation finale.</note>
+    <note ligne="7">Relu : esprit (point) de ἀπο déporté au-dessus du π ; aigu de τί déporté au-dessus du ν ; blancs nets (&gt; 20 px) après ἀπο, τί et ν ; petit point à mi-hauteur après εται (x ≈ 1161, y ≈ 666). À droite, dans la colonne, glose de S2 ἀποδίδωσιν ÷ (lecteur des scholies).</note>
+    <note ligne="8">Relu : blancs de 8 à 13 px seulement (παρ|α, ρ|η, ῆ|μ, ν|ε : zone intermédiaire, mots soudés) ; circonflexe de ῆ réduit à un point, déporté (x ≈ 1074) ; aigu de μά déporté au-dessus du τ. μάτετί : après le premier τ (fût à x ≈ 1160), ε en boucle à haste montante, puis une barre de ≈ 20 px jusqu’à l’ι (x ≈ 1215), sans fût descendant : second τ réduit à sa barre (lecture probable ; sinon langue de l’ε prolongée et τ omis) ; aigu de τί déporté (x ≈ 1228). Les virgules à gauche, sous la ligne (x ≈ 808–838), sont les esprits de la l. 9.</note>
+    <note ligne="9">Relu : au-dessus de ἀλλ᾽ἔοι, quatre signes de T : esprit de ἀ (x ≈ 770), apostrophe (x ≈ 810), esprit de ἐ (x ≈ 835), aigu (x ≈ 852) ; ι de ἔοιχ᾽ court et pincé, en deux touches (aspect de dicolon) : c’est l’ι ; au-dessus de χ|η, crochet = apostrophe (x ≈ 903), puis point = esprit de ἡ (x ≈ 928), circonflexe de ῖ déporté (x ≈ 968) ; χ, η et μ se touchent (mots soudés). ἅ : esprit en crochet et aigu ; πωσ : ϖ à deux panses puis ω, σ à longue queue soudé au δ. Point à mi-hauteur après καλῶσ.</note>
+    <note ligne="10">Relu : esprit de οὐ confondu avec l’extrémité épaissie du λ de la l. 9 (x ≈ 777) ; point au-dessus du χ (x ≈ 806) = apostrophe, point au-dessus de l’ο (x ≈ 828) = esprit de ὁ ; aigu de μέν déporté au-dessus du γ (x ≈ 997), crochet sur l’ο (x ≈ 1017) = apostrophe de γ᾽, point sur l’υ (x ≈ 1042) = esprit, crochet (x ≈ 1070) = circonflexe de οὖν ; ἔτ᾽ : esprit rejeté à gauche (x ≈ 1094), aigu haut (x ≈ 1123), apostrophe (x ≈ 1137) ; ν de οὖν et ε de ἔτ᾽ presque soudés (4 px) ; ἐγ en ligature (ε bouclé sur le γ en V) ; point allongé à mi-hauteur après ἐγκαθήμενον.</note>
+    <note ligne="11">Relu (avec le fac-similé de 1904) : paragraphos de T à mi-hauteur de la ligne (x ≈ 700–752), dont le bout libre, à droite, a l’encre de T ; le sigle y est écrit par-dessus : Γ, υ en Y surmonté d’un ν suscrit ondulé de même forme que celui du γυ^ν de S2 à la l. 29, puis deux lettres lues νη, que la paragraphos traverse (le trait horizontal tient lieu de barre du η) ; encre orangée au cœur des traits (décorrélation) : R2 repassé en 1516 (guide, § 1.5, v. 689). Trait oblique pâle au-dessus (x ≈ 725–735, y ≈ 828–842), visible aussi en 1904, non identifié, non encodé. Texte centré : deux α liés par un trait de base (soudés), point (esprit) sur le premier, aucun accent visible ; point à mi-hauteur après le second (x ≈ 1020).</note>
+    <note ligne="12">Relu : circonflexe en crochet sur ποῖ ; grave net sur σὺ ; φεύγεισ : aigu déporté (x ≈ 975), ει en ligature à boucle et pied (non η) ; point à mi-hauteur à 28 px après φεύγεισ (x ≈ 1083), distinct de l’esprit-circonflexe de οὗτοσ, posé au-dessus de l’υ ; queues des σ de οὗτοσ soudées à l’ο suivant (mots soudés) ; esprit en crochet sur οὐ ; circonflexe de μενεῖσ en crochet collé au sommet de l’ι ; point final (x ≈ 1566). Trait horizontal fin et pâle au-dessus de ποῖ (x ≈ 775–805, y ≈ 860–866), net sur le fac-similé de 1904 : hors de la bande des sigles, ce n’est pas une paragraphos ; nature inconnue (repère ?), non encodé.</note>
   </notes>
 </page>

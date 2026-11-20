@@ -55,8 +55,20 @@
  },
  {
   "v": "265",
-  "lemme": "ἐσκυκλησάτω",
-  "ref": "Luc. Deor. Conc. 9 ; Luc. Hist. Conscr. 13 ; Philops. 29",
-  "motif": "cités par Fritzsche 1838, p. 97 (ἐπεισκυκλεῖν) ; chercher.py confirme Luc. Hist. Conscr. 13 et Philops. 29, emplois figurés tardifs, non retenus"
+  "lemme": "ἐσκυκλησάτω (eccyclème tragique)",
+  "ref": "Σ Aesch. Eum. 64 ; Σ Aesch. Cho. 973",
+  "motif": "cités par Fritzsche 1838, p. 97 (image lue : δευτέρα δὲ γίνεται φαντασία … ; ἀνοίγεται ἡ σκηνὴ καὶ ἐπὶ ἐγκυκλήματος ὁρᾶται τὰ σώματα) : scholies d’Eschyle non indexées dans le corpus, non contrôlées sur une édition"
+ },
+ {
+  "v": "265",
+  "lemme": "ἐσκυκλησάτω (Photius)",
+  "ref": "Phot. ε 312 ; Phot. ε 417 Theodoridis",
+  "motif": "signalés par l’apparat de Cunningham (Synag. ε 154 et ε 204) : tome II de Theodoridis non local ; non retrouvés dans l’OCR de Naber"
+ },
+ {
+  "v": "265",
+  "lemme": "ἐσκυκλησάτω (ἐγκύκλημα)",
+  "ref": "Eust. 976.15",
+  "motif": "cité par Fritzsche 1838, p. 95 (image lue : διαφέρει δὲ ἔγκυκλον ἐγκυκλήματος …) : Eustathe non retrouvé dans le corpus local"
  }
 ]

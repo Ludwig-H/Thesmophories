@@ -174,5 +174,29 @@
   "ref": "Taillardat, Images d'Aristophane § 784",
   "signale_par": "commentaire critique de l'auteur",
   "raison": "ouvrage absent de .sources"
+ },
+ {
+  "v": "93",
+  "lemme": "κομψόν",
+  "categorie": "comiques",
+  "ref": "Men. Dysk. 414",
+  "signale_par": "Austin–Olson 2004, ad 93",
+  "raison": "Dyscolos absent du corpus local (texte sous droits, ni Perseus ni DCLP) : non vérifié"
+ },
+ {
+  "v": "93",
+  "lemme": "σφόδρ᾽ ἐκ τοῦ σοῦ τρόπου",
+  "categorie": "comiques",
+  "ref": "Men. Asp. 368 (avec la note d'Austin)",
+  "signale_par": "Austin–Olson 2004, ad 93",
+  "raison": "Bouclier absent du corpus local : non vérifié"
+ },
+ {
+  "v": "93",
+  "lemme": "κομψόν",
+  "categorie": "comiques",
+  "ref": "Cratin. fr. 342 K.-A. ; Ar. fr. 488 K.-A.",
+  "signale_par": "concordance supposée avec Kock (frr. 307 et 471)",
+  "raison": "textes vérifiés et inscrits sous la numérotation de Kock ; numéros K.-A. non contrôlés (PCG absent)"
  }
 ]
