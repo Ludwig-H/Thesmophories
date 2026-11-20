@@ -9801,6 +9801,20 @@
  },
  {
   "v": "139",
+  "lemme": "λήκυθος",
+  "categorie": "aristophane",
+  "ref": "Ar. Ach. 589",
+  "urn": "urn:cts:greekLit:tlg0019.tlg001.perseus-grc2:589",
+  "citation": "ὄρνιθός ἐστιν; ἆρα κομπολακύθου;",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0019.tlg001.perseus-grc2:589",
+  "signale_par": "Sud. κ 2018",
+  "pertinence": 1,
+  "remarque": "κομπολάκυθος, composé de λήκυθος (Sud. κ 2018) ; cf. Ach. 1182."
+ },
+ {
+  "v": "139",
   "lemme": "ὡς οὐ ξύμφορον",
   "categorie": "aristophane",
   "ref": "Ar. Thesm. 21",
@@ -10221,6 +10235,20 @@
  },
  {
   "v": "139",
+  "lemme": "λήκυθος",
+  "categorie": "lexicographes",
+  "ref": "Sud. λ 437",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:3.Λ.437",
+  "citation": "Ληκυθιστής: ὁ μικρόφωνος. οὕτως Σοφοκλῆς. καὶ Ληκυθισμός. περιενεγκεῖν εὐστρόφως καὶ κεκλασμένως τὸν ληκυθισμὸν τῶν αἰσχρῶν καὶ γελοίων ᾀσμάτων. τουτέστι τὴν εὐφωνίαν",
+  "traduction": "ληκυθιστής : à la voix grêle (ainsi Sophocle). Et ληκυθισμός : « faire tourner souplement et en modulations brisées la vocalise de chants obscènes et bouffons », c’est-à-dire la belle voix",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 3.Λ.437",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.) ; l’auteur (commentaire 139 : ληκυθίζειν, « donner de la voix »)",
+  "pertinence": 3,
+  "remarque": "λήκυθος tiré du côté de la voix et du chant « brisé » (κεκλασμένως), comme celui d’Agathon ; TEI : τῶ pour τῶν, corrigé d’après Adler III, p. 262 ; le fragment de Sophocle n’est pas identifié ici (numéro Radt non contrôlé)."
+ },
+ {
+  "v": "139",
   "lemme": "στρόφιον",
   "categorie": "lexicographes",
   "ref": "Hsch. α 6298",
@@ -10319,6 +10347,20 @@
  },
  {
   "v": "139",
+  "lemme": "λήκυθος",
+  "categorie": "lexicographes",
+  "ref": "Poll. 4.120",
+  "urn": "",
+  "citation": "Τοῖς δὲ παρασίτοις πρόσεστι καὶ στλεγγὶς καὶ λήκυθος, ὡς τοῖς ἀγροίκοις λαγωβόλον",
+  "traduction": "aux parasites (de la comédie) appartiennent aussi le strigile et la fiole, comme aux paysans le bâton de chasse",
+  "verifie": "scan",
+  "verification": "image, Pollux, éd. Dindorf (Leipzig 1824), l. IV, § 120 (archive.org iuliipollucison00dindgoog, n328)",
+  "signale_par": "LSJ s.v. λήκυθος (« Poll. 4.114 », non retrouvé à ce numéro) ; recherche directe",
+  "pertinence": 2,
+  "remarque": "l’accessoire viril du costume comique, la fiole du gymnase avec le strigile (cf. Ar. fr. 207 K., Phryn. PS p. 86 de B., au fichier) : le sens que l’auteur écarte au profit de la « pomme d’Adam »."
+ },
+ {
+  "v": "139",
   "lemme": "στρόφιον",
   "categorie": "lexicographes",
   "ref": "Poll. 7.65–66",
@@ -10358,6 +10400,20 @@
   "signale_par": "dépouillement des lexicographes (reprise)",
   "pertinence": 2,
   "remarque": "le sens courant qu'on a longtemps retenu ici : voir le commentaire de l'auteur à 139"
+ },
+ {
+  "v": "139",
+  "lemme": "λήκυθος",
+  "categorie": "lexicographes",
+  "ref": "Sud. κ 2018",
+  "urn": "",
+  "citation": "Κομπολακύθου: ματαιοκόμπου καὶ κομπώδους … ληκυΐζειν γὰρ τὸ μεῖζον βοᾶν καὶ ψοφεῖν· ἦχον γὰρ ἀποτελεῖ καὶ ἡ λήκυθος, ἐπεὶ καὶ αὐτὴ πεφύσηται",
+  "traduction": "… car ληκυ(θ)ίζειν, c’est crier plus fort et faire du bruit : la λήκυθος aussi rend un son, puisqu’elle est gonflée",
+  "verifie": "scan",
+  "verification": "image, Adler III, p. 151, l. 17–20 (PDF local, .sources/web/testimonia/adler) ; le TEI est fautif (ληκυiζειν, ψοφεῖ· χον)",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 2,
+  "remarque": "la λήκυθος « sonore et gonflée » : cf. Hsch. λ 857 (τὸ μεταξὺ τοῦ λαυκανίου καὶ αὐχένος ἠχῶδες, au fichier) ; glose sur Ar. Ach. 589."
  },
  {
   "v": "139",
@@ -10512,6 +10568,20 @@
   "signale_par": "dépouillement des lexicographes (reprise)",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "139",
+  "lemme": "λήκυθος",
+  "categorie": "lexicographes",
+  "ref": "Sud. λ 438",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:3.Λ.438",
+  "citation": "Λήκυθον τὴν τοῦ μύρου Ἀττικοὶ καλοῦσιν ἀλάβαστρον … τὰ ἐλαιοδόχα ἀγγεῖα",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py -a Suda (Adler, First1K) : 3.Λ.438",
+  "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
+  "pertinence": 1,
+  "remarque": "la suite cite Ar. Plut. 810–811 (αἱ δὲ λήκυθοι μύρου γέμουσι) et Av. 1589 (ἔλαιον οὐκ ἔνεστιν ἐν τῇ ληκύθῳ), vérifiés dans le corpus."
  },
  {
   "v": "140",
@@ -11100,6 +11170,20 @@
   "signale_par": "dépouillement d'Hésychius (reprise)",
   "pertinence": 2,
   "remarque": "ἡ μετὰ ξίφους ὄρχησις : danse à l'épée (cf. ξιφισμός, ξ 75) : le ξίφος n'est pas forcément guerrier sur la scène d'Agathon"
+ },
+ {
+  "v": "140",
+  "lemme": "κατρόπτου",
+  "categorie": "lexicographes",
+  "ref": "Poll. 10.126–127",
+  "urn": "",
+  "citation": "τῶν δὲ γυναικείων σκευῶν κτένιον, ξάνιον, κομμώτριον, ξυρόν, κάτοπτρον, οὗ τὴν θήκην λοφεῖον καλοῦσι",
+  "traduction": "parmi les ustensiles de femme : peigne, carde, nécessaire de toilette, rasoir, miroir, dont on appelle l’étui λοφεῖον",
+  "verifie": "scan",
+  "verification": "image, Pollux, éd. Bethe II, p. 228, l. 7–9 (archive.org pollucisonomasti02polluoft, n239)",
+  "signale_par": "recherche directe (κάτοπτρ* dans Pollux, reprise du 20 nov.)",
+  "pertinence": 2,
+  "remarque": "le miroir, objet féminin par excellence, face à l’épée virile ; cf. Sud. λ 697 (λοφεῖον, au fichier) et Ar. fr. 332 K.-A. (Poll. 7.95, au fichier) ; Pollux renvoie lui-même à 7.95 et 5.101."
  },
  {
   "v": "140",
