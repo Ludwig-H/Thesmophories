@@ -299,6 +299,8 @@ Notes philologiques tirées du travail d'édition (sources `.tex`, `.odt`, `.doc
 
 ## 9. Fichiers non récupérés et manques
 
+> **Mise à jour du 20 novembre 2026 : import complet.** Tout le dossier « Grec » du Drive, soit 7 221 fichiers et 64,7 Go selon `.sources/drive/inventaire.tsv`, est désormais copié dans `F/Grec/`, avec la même arborescence (§ 12), ainsi que les fichiers rangés à la racine du Drive (CLGP, *Dictionnaire des images du poétique*…). **Les manques décrits ci-dessous n'en sont plus**, à l'exception des installateurs de logiciels, non copiés. Les bilans du § 9 datent du 26 octobre ; les chemins des notices restent valables.
+>
 > **Mise à jour du 13 novembre 2026.** Rapatriés depuis (§ 10) : le fac-similé de 1904 et sa préface, le commentaire complet d'Austin–Olson (2004), Parker, *The Songs of Aristophanes* (1997), le t. V (index) d'Hésychius. Les bilans ci-dessous datent du 26 octobre.
 
 Les fichiers retenus pour l'édition lors de l'inventaire préparatoire (472 : 428 « essentiels » et 44 « utiles ») n'ont pas tous pu être copiés localement. La limite de l'outil de copie est en principe de 10 Mo par fichier ; en pratique, aucun fichier de plus de 6,3 Mo n'a été obtenu (le plus lourd des fichiers présents pèse 6 302 740 octets), de sorte que les fichiers de 6,3 à 10 Mo manquent aussi. Les fichiers de plus de 200 Mio avaient été écartés dès l'inventaire (§ 9.4).
@@ -531,4 +533,24 @@ Pris sur archive.org (domaine public), dans `.sources/web/lexiques/pollux_commen
 - L. Becq de Fouquières, *Les Jeux des anciens*, 2ᵉ éd., Paris, 1873 (`lesjeuxdesancien00becquoft`) ;
 - deux éditions anciennes de Pollux (`BIUSante_07997`, `bub_gb_HIJXaH80ZesC`), sans les notes cherchées ;
 - Grasberger, *Erziehung und Unterricht im klassischen Alterthum*, t. I (`10254353bsb`), sans mention du jeu.
+
+## 12. Import complet du Drive (20 novembre 2026)
+
+À la demande de l'auteur, le dossier « Grec » du Drive a été copié tout entier dans `F/Grec/` avec rclone, qui transfère aussi les gros fichiers (`rclone copy gdrive:Grec …` ; journal `.travail/journaux/rclone_import_grec.log`) :
+- 6 866 fichiers ajoutés (60 Go), sans erreur ; s'y ajoutent les 289 copiés en octobre ;
+- les fichiers rangés hors de « Grec », à la racine du Drive, ont été pris un à un d'après l'inventaire (CLGP, chapitres du *Dictionnaire des images du poétique*, documents Google exportés en .docx) ;
+- seuls les installateurs de logiciels (.exe, .msi) n'ont pas été copiés.
+
+Gros ensembles désormais locaux, par volume :
+- *Lexiques* (41 Go, 929 fichiers) ;
+- *Aristophane* (8,7 Go) ;
+- *Proverbes* (2,4 Go) ;
+- *Dictionnaires* ;
+- *TrGF* ;
+- *Poetae Comici Graeci* ;
+- *Realencyclopädie* ;
+- Chantraine ;
+- *Inscriptiones Graecae*.
+
+Leur indexation plein texte (`outils/corpus/sources_drive.py` puis `indexer.py`) rend les PDF à couche texte interrogeables par `chercher.py` et par `lexiques_proverbes.py`. Les numérisations sans couche texte restent à océriser au besoin.
 
