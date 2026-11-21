@@ -477,6 +477,34 @@
  },
  {
   "v": "123",
+  "lemme": "ἄνασσαν",
+  "categorie": "lexicographes",
+  "ref": "Phot. α 1527",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf239",
+  "citation": "ἄνακτες καὶ ἄνασσαι· Ἀριστοτέλης ἐν τῇ Κυπρίων πολιτείᾳ· „καλοῦνται δὲ οἱ μὲν υἱοὶ καὶ ἀδελφοὶ τοῦ βασιλέως ἄνακτες, αἱ δὲ ἀδελφαὶ καὶ γυναῖκες ἄνασσαι“",
+  "traduction": "anaktes et anassai : Aristote, Constitution des Chypriotes : « on appelle anaktes les fils et frères du roi, anassai ses sœurs et ses femmes »",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 157 (PDF p. 239), gl. 1527",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 1,
+  "remarque": "Arist. fr. 526 Rose ; cf. ἄνακτ᾽ (v. 128)"
+ },
+ {
+  "v": "123",
+  "lemme": "ἄνασσαν",
+  "categorie": "lexicographes",
+  "ref": "Phot. α 1667",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf250",
+  "citation": "ἄνασσα· βασίλισσα",
+  "traduction": "anassa : reine",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 168 (PDF p. 250), gl. 1667",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 1,
+  "remarque": ""
+ },
+ {
+  "v": "123",
   "lemme": "Λατώ τ᾽ ἄνασσαν",
   "categorie": "lexicographes",
   "ref": "Sud. α 2060",
@@ -1122,6 +1150,20 @@
  {
   "v": "124",
   "lemme": "κίθαρίν",
+  "categorie": "lexicographes",
+  "ref": "Phot. α 2956",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf355",
+  "citation": "Ἀσιάς· ἡ κιθάρα, ἀπὸ Ἀσίου τινός … ὅτι ἐκλήθη Ἀσιὰς ἀπὸ τῶν χρωμένων Λεσβίων, οἵτινες οἰκοῦσι πρὸς τῇ Ἀσίᾳ",
+  "traduction": "Asias : la cithare, d'après un certain Asios … appelée Asias d'après les Lesbiens qui s'en servaient, voisins de l'Asie",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 273 (PDF p. 355), gl. 2956–2957",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 1,
+  "remarque": "suit α 2957 Ἀσιάδος κρούματα· τῆς κιθάρας. οὕτως Ἀριστοφάνης (Thesm. 120) : la cithare d'Agathon (v. 120), reprise par le chœur au v. 124 (κίθαριν)"
+ },
+ {
+  "v": "124",
+  "lemme": "κίθαρίν",
   "categorie": "proverbes",
   "ref": "Zen. 6.14",
   "urn": "urn:cts:greekLit:tlg0098.tlg001.1st1K-grc1:6.14",
@@ -1485,6 +1527,20 @@
  },
  {
   "v": "125",
+  "lemme": "ἄρσενι",
+  "categorie": "lexicographes",
+  "ref": "Phot. α 2871",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf346",
+  "citation": "ἄρρεν, οὐκ ἄρσεν … Ὅμηρος διὰ τοῦ σ … καὶ οἱ τραγικοί. πολλὰ δὲ καὶ ἄλλα τῶν Ἀττικῶν ὀνόματα φυλάττονται οἱ τραγικοὶ ὡς ἰσχνότερα τῆς τραγῳδίας καὶ πολιτικώτερα",
+  "traduction": "ἄρρεν, non ἄρσεν … Homère écrit σ, et les tragiques aussi ; les tragiques évitent bien d'autres mots attiques, trop minces pour la tragédie et trop proches de la langue courante",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 264 (PDF p. 346), gl. 2871 (source en marge : Ael. Dion.)",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 2,
+  "remarque": "ἄρσενι dans le chant d'Agathon : la forme de la poésie et de la tragédie, contre l'attique ἄρρεν ; cf. α 2872 (ἀρρενικόν, οὐχὶ ἀρσενικόν, Ar. fr. nov.)"
+ },
+ {
+  "v": "125",
   "lemme": "ἄρσενι βοᾷ",
   "categorie": "lexicographes",
   "ref": "Hsch. α 7123",
@@ -1524,6 +1580,20 @@
   "signale_par": "dépouillement d'Hésychius",
   "pertinence": 1,
   "remarque": "l'éd. renvoie à Ep. Rom. 16, 10 ?"
+ },
+ {
+  "v": "125",
+  "lemme": "βοᾷ",
+  "categorie": "lexicographes",
+  "ref": "Phot. β 185",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf419",
+  "citation": "βοήν· μάχην. καὶ μεγάλην φωνήν",
+  "traduction": "boè : combat ; et grande voix",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 337 (PDF p. 419), gl. 185",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 1,
+  "remarque": ""
  },
  {
   "v": "126",
@@ -2411,6 +2481,20 @@
   "v": "128",
   "lemme": "ἄγαλλε",
   "categorie": "testimonium",
+  "ref": "Phot. α 87",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf98",
+  "citation": "ἀγάλλεσθαι· χαίρειν, μεγαλοφρονεῖν, καλλωπίζεσθαι … φασὶ δὲ καὶ ἀγάλλει τοὺς θεοὺς καὶ ἀγαλοῦμαι καὶ „ἄγαλλε“ καὶ ἀγάλλου καὶ ἀγάλλεται καὶ ἀγάλλῃ. καὶ πολλὴ παρὰ τοῖς παλαιοῖς ἡ χρῆσις",
+  "traduction": "ἀγάλλεσθαι : se réjouir, s'enorgueillir, se parer … on dit aussi ἀγάλλει τοὺς θεούς (il honore les dieux), ἀγαλοῦμαι, « ἄγαλλε » … et l'usage en est fréquent chez les anciens",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 16 (PDF p. 98), gl. 87 ; Theodoridis identifie „ἄγαλλε“ à Ar. Thesm. 128",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 3,
+  "remarque": "apparat de Theodoridis : καὶ ἀγάλλει τοὺς θεοὺς sq. cf. Phot. α 163/4 (au fichier) ; ἀγαλοῦμαι Reitzenstein : ἀγαλλοῦμαι codd."
+ },
+ {
+  "v": "128",
+  "lemme": "ἄγαλλε",
+  "categorie": "testimonium",
   "ref": "Synag. Σᵇ α 145",
   "urn": "drive:Grec/Lexiques/Synagoge/Synagoge.pdf#pdf540",
   "citation": "ἀγῆλαι· τιμῆσαι θεόν, ἀγλαΐσαι. ‖ ἔστι δὲ ἡ λέξις τῶν πάνυ Ἀττικῶν. καὶ ἀγήλω καὶ ἀγαλοῦμεν ἐρεῖς, καὶ ἄγαλλε καὶ προσαγήλει τὸν θεόν, ἀντὶ τοῦ εὔξεται καὶ τιμήσει",
@@ -2798,6 +2882,20 @@
   "signale_par": "Photius α–μ (Theodoridis I), recherche directe",
   "pertinence": 2,
   "remarque": "la glose réunit les quatre exemples comiques de ἀγῆλαι/ἀγάλλω cultuels, tous au fichier (Eup. fr. 119 K., Pax 397, Hermipp. fr. 8 K., Theopomp. fr. 47 K.)"
+ },
+ {
+  "v": "128",
+  "lemme": "ἄγαλλε",
+  "categorie": "lexicographes",
+  "ref": "Phot. α 86",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf98",
+  "citation": "ἀγάλλει· ποιεῖ, σκευάζει, κοσμεῖ, τιμᾷ, προσεύχεται",
+  "traduction": "ἀγάλλει : il fait, il apprête, il pare, il honore, il prie",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 16 (PDF p. 98), gl. 86",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 2,
+  "remarque": "le sens cultuel (τιμᾷ, προσεύχεται) de l'impératif ἄγαλλε Φοῖβον ; = Ba. 7,1, Suid. α 130 (apparat)"
  },
  {
   "v": "128",
@@ -3865,6 +3963,20 @@
  },
  {
   "v": "130",
+  "lemme": "Γενετυλλίδες",
+  "categorie": "lexicographes",
+  "ref": "Phot. γ 72",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf438",
+  "citation": "Γενετυλλίς· γυναικεία τις θεός. οὕτως Ἀριστοφάνης",
+  "traduction": "Génétyllis : une déesse des femmes ; ainsi Aristophane",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 356 (PDF p. 438), gl. 72",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 2,
+  "remarque": "Theodoridis : (Nub. 52, al.) ; apparat : θεός = Hsch. γ 343 (au fichier), Σ Paus. 1.1.5, cf. Σ Ar. Lys. 2, Thesm. 130 (unde Sud. γ 141)"
+ },
+ {
+  "v": "130",
   "lemme": "ὡς ἡδὺ τὸ μέλος",
   "categorie": "lexicographes",
   "ref": "Hsch. κ 3136",
@@ -3988,6 +4100,20 @@
   "signale_par": "recherche directe (parémiographes, reprise du 20 nov.)",
   "pertinence": 2,
   "remarque": "seul témoin parémiographique qui dise ἐκωμῳδεῖτο δὲ εἰς θηλύτητα (cf. v. 131 θηλυδριῶδες) ; même proverbe : Zen. 1.2, Diogenian. 1.7, Sud. α 125, Hsch. α 281 ; d’autres recueils du CPG II le donnent encore (p. 1, 57, 101, 130 : ἡ ἡδίστη καὶ εὐφραντή) [à vérifier]."
+ },
+ {
+  "v": "130",
+  "lemme": "ὡς ἡδὺ τὸ μέλος",
+  "categorie": "proverbes",
+  "ref": "Phot. α 83",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf98",
+  "citation": "Ἀγαθώνειος αὔλησις· ἡ μαλακή· Ἀγάθων γὰρ ὁ τραγικὸς ἐπὶ μαλακίᾳ διεβάλλετο",
+  "traduction": "l'aulétique agathonienne : la molle ; car Agathon le tragique était décrié pour sa mollesse",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 16 (PDF p. 98), gl. 83 et apparat",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 2,
+  "remarque": "Theodoridis : après μαλακή, le cod. A du Lexique de Cyrille ajoute παρ᾽ Ἀριστοφάνει ἐν Γηρυτάδῃ, « unde evincitur verba Ἀγαθώνειος αὔλησις ex Aristophane exscripta esse » (= Ar. fr. 178 K.-A., TrGF 39 T 20a, au fichier) ; cf. Zen. 1.2, Diogenian. 1.7, Sud. α 125"
  },
  {
   "v": "130–132",
@@ -4491,7 +4617,7 @@
   "verification": "First1KGreek (Adler), 3.Κ.503",
   "signale_par": "dépouillement des lexicographes (reprise)",
   "pertinence": 2,
-  "remarque": "l'autre sens du verbe (Ar. Ach. 380) : le mot joue sur les deux"
+  "remarque": "l'autre sens du verbe (Ar. Ach. 380) : le mot joue sur les deux ; idem Phot. κ 234 (Theodoridis II, p. 364)"
  },
  {
   "v": "131",
@@ -4631,7 +4757,7 @@
   "verification": "First1KGreek (Adler), 3.Κ.911",
   "signale_par": "dépouillement des lexicographes (reprise)",
   "pertinence": 1,
-  "remarque": ""
+  "remarque": "idem Phot. κ 410 (Ar. Ach. 380)"
  },
  {
   "v": "131",
@@ -4707,12 +4833,12 @@
   "v": "132",
   "lemme": "μανδαλωτόν",
   "categorie": "testimonium",
-  "ref": "Phot. μ 86",
-  "urn": "ia:photiipatriarch00nabegoog",
-  "citation": "μανδαλωτόν· εἶδος φιλήματος, ὡς γιγγλυμωτὸν καὶ δράπετον καὶ ἕτερα. μανδαλωτόν· μήποτε κλειστόν· μάνδαλος γὰρ ὁ θύραν κλείων",
+  "ref": "Phot. μ 86–87",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf655",
+  "citation": "μανδαλωτόν· εἶδος φιλήματος, ὡς γιγγλυμωτὸν καὶ †δράπετον† καὶ ἕτερα. ‖ μανδαλωτόν· μήποτε κλειστόν· μάνδαλος γὰρ ὁ θύραν κλείων",
   "traduction": "μανδαλωτόν : sorte de baiser, comme le γιγγλυμωτόν, le δράπετον, et d'autres ; μανδαλωτόν : peut-être « verrouillé » : car le μάνδαλος, c'est ce qui ferme la porte",
-  "verifie": "corpus",
-  "verification": "Naber I, p. 405 et Porson p. 245–246 (OCR concordantes) ; numéro confirmé par le testimonium de Hsch. μ 224",
+  "verifie": "scan",
+  "verification": "image, Theodoridis II, p. 538 (PDF p. 655), gl. 86–87 ; auparavant : Naber I, p. 405 et Porson p. 245–246 (OCR concordantes) ; numéro confirmé par le testimonium de Hsch. μ 224",
   "signale_par": "testimonia de l'auteur (Photius μ 86)",
   "pertinence": 3,
   "remarque": "l'étymologie, base de l'explication de Taillardat (§ 195) : la clavette, c'est la langue"
@@ -5659,6 +5785,34 @@
   "v": "133",
   "lemme": "γάργαλος",
   "categorie": "lexicographes",
+  "ref": "Phot. γ 33",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf435",
+  "citation": "γαργαλίζει· κινεῖ, †ὑποσημαίνει†, προτρέπει, ἐρεθίζει",
+  "traduction": "gargalizei : il remue, il pousse, il excite",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 353 (PDF p. 435), gl. 33",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 2,
+  "remarque": "le chatouillement qui excite : sens du γάργαλος de Mnésiloque"
+ },
+ {
+  "v": "133",
+  "lemme": "ὑπὸ τὴν ἕδραν",
+  "categorie": "lexicographes",
+  "ref": "Phot. ε 140",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf133",
+  "citation": "ἕδραν· τὴν μονὴν εἴρηκεν Θουκυδίδης. καλοῦσι δὲ καὶ τὸ μέρος τοῦ σώματος, ὡς ἡμεῖς, ἕδραν",
+  "traduction": "hédra : Thucydide l'emploie pour le séjour ; on appelle aussi hédra, comme nous, la partie du corps (le siège)",
+  "verifie": "scan",
+  "verification": "image, Theodoridis II, p. 16 (PDF p. 133), gl. 140",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 2,
+  "remarque": "Thuc. 5.7.2"
+ },
+ {
+  "v": "133",
+  "lemme": "γάργαλος",
+  "categorie": "lexicographes",
   "ref": "Sud. γ 267",
   "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:1.Γ.267",
   "citation": "Γιγλισμός: κιχλισμὸς, ἀπὸ χειρῶν γέλως, γαργαλισμός",
@@ -6510,6 +6664,20 @@
   "remarque": "Aesch. Βασσάραι (fr. 25 R.), autre pièce de la Lycurgie (Βασσαρίδες de Σ Thesm. 135)"
  },
  {
+  "v": "135",
+  "lemme": "ἐρέσθαι",
+  "categorie": "lexicographes",
+  "ref": "Phot. ε 1904",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf299",
+  "citation": "ἔρεσθαι· ἐρωτῆσαι, πυθέσθαι",
+  "traduction": "éresthai : interroger, s'enquérir",
+  "verifie": "scan",
+  "verification": "image, Theodoridis II, p. 182 (PDF p. 299), gl. 1904",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 1,
+  "remarque": ""
+ },
+ {
   "v": "136",
   "lemme": "γύννις",
   "categorie": "testimonium",
@@ -6765,15 +6933,15 @@
   "v": "136",
   "lemme": "γύννις",
   "categorie": "comiques",
-  "ref": "Eup. Astrateuti (Phot. p. 127, 10 Reitzenstein)",
-  "urn": "ia:phrynichoutouara00phry",
-  "citation": "ἀνδρόγυνον ἄθυρμα: Εὔπολις ἐν Ἀστρατεύτοις. τοὺς ἄνδρας μὲν τὸ σῶμα φύντας, εἰς γυναῖκας δὲ σφᾶς αὐτοὺς ἀφέντας καὶ τὰς τούτων ἐπιτηδεύσεις ἐπιτηδεύοντας οὕτως ἔλεγον",
+  "ref": "Eup. fr. 46 K.-A. (Phot. α 1764)",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/Poetae Comici Graeci Volumen V Damoxenus - Magnes by Rudolf Kassel, Colin Austin (eds.) (z-lib.org).pdf#pdf353",
+  "citation": "ἀνδρόγυνον ἄθυρμα· Εὔπολις ἐν Ἀστρατεύτοις. ἀνδρογύνους δὲ ἔλεγον τοὺς ἄνδρας μὲν τὸ σῶμα φύντας, εἰς γυναῖκας δὲ σφᾶς αὐτοὺς ἀφέντας καὶ τὰς τούτων ἐπιτηδεύσεις ἐπιτηδεύοντας",
   "traduction": "« jouet hermaphrodite » : Eupolis, Les Déserteurs : ainsi désignait-on ceux qui, hommes de corps, se sont abandonnés à devenir femmes et en pratiquent les occupations",
-  "verifie": "corpus",
-  "verification": "de Borries, Phrynichos, p. 17, en note (OCR) : Phot. 127, 10 ; numéro K.-A. non contrôlé (Ἀστράτευτοι ἢ Ἀνδρόγυνοι : Meineke II.1, p. 438)",
+  "verifie": "scan",
+  "verification": "image, PCG V, p. 320 (PDF p. 353), Eup. fr. 46 (3 Dem., adesp. 839 K.) ; Theodoridis I, p. 175 (PDF p. 257), α 1764 (ἀνδρογύνων Wil.) ; auparavant : de Borries, Phrynichos, p. 17, en note (OCR) : Phot. 127, 10 ; numéro K.-A. non contrôlé (Ἀστράτευτοι ἢ Ἀνδρόγυνοι : Meineke II.1, p. 438)",
   "signale_par": "de Borries, p. 17 (note)",
   "pertinence": 3,
-  "remarque": "la comédie d'Eupolis sur les hommes-femmes : le thème du v. 141 sur la scène attique"
+  "remarque": "la comédie d'Eupolis sur les hommes-femmes : le thème du v. 141 sur la scène attique ; K.-A. : ex Phrynicho (PS p. 17, 13 ἀνδρόγυνον ἄθυρμα· εἰ θέλοις γύννιν τινὰ σκῶψαι, au fichier) ; Ἀστράτευτοι ἢ Ἀνδρόγυνοι"
  },
  {
   "v": "136",
@@ -7375,7 +7543,7 @@
   "verification": "Synagoge (Cunningham), texte rétabli, PDF p. 111",
   "signale_par": "dépouillement des lexicographes (reprise)",
   "pertinence": 3,
-  "remarque": "= Bekk. Anecd. 393, 29 (Kock III, p. 17)"
+  "remarque": "= Bekk. Anecd. 393, 29 (Kock III, p. 17) ; idem Phot. α 1763 (Theodoridis I, p. 175)"
  },
  {
   "v": "136",
@@ -7571,7 +7739,7 @@
   "verification": "Synagoge (Cunningham), texte rétabli, PDF p. 674",
   "signale_par": "dépouillement des lexicographes (reprise)",
   "pertinence": 2,
-  "remarque": "le symétrique : cf. Hsch. α 7429 ἀρρενωπάδες· ἀνδρόγυνοι"
+  "remarque": "le symétrique : cf. Hsch. α 7429 ἀρρενωπάδες· ἀνδρόγυνοι ; idem Phot. α 2881 (+ Κρατῖνος : Cratin. fr. 417 K.-A., au fichier)"
  },
  {
   "v": "136",
@@ -7745,6 +7913,20 @@
   "v": "136",
   "lemme": "τίς ἡ στολή",
   "categorie": "proverbes",
+  "ref": "Arsen. 6.93e",
+  "urn": "ia:corpusparoemiogr02leutuoft#n425",
+  "citation": "Ἐκ πώγωνος σοφοὶ καὶ ἀπὸ πώγωνος σοφισταὶ καὶ ἀπὸ πώγωνος φιλόσοφοι: ἐπὶ τῶν δοκούντων μόνῳ τῷ σχήματι φιλόσοφοι εἶναι καὶ τῇ στολῇ",
+  "traduction": "sages par la barbe, sophistes par la barbe, philosophes par la barbe : se dit de ceux qui ne paraissent philosophes que par l'allure et par l'habit",
+  "verifie": "scan",
+  "verification": "image, CPG II, p. 390 (Apostolius, cent. VI, 93e, addition d'Arsénios ; archive.org corpusparoemiogr02leutuoft n425)",
+  "signale_par": "Tosi, Dictionnaire n° 2183 (Barba non facit philosophum) ; recherche directe (parémiographes)",
+  "pertinence": 2,
+  "remarque": "l'identité qu'on croit lire sur le σχῆμα et la στολή : c'est la méthode de Mnésiloque (vv. 136–143 : στολή, πέος, χλαῖνα, τιτθία) ; suite : καὶ τράγος εὐπώγων εὔστολός ἐστι Πλάτων (épigramme)"
+ },
+ {
+  "v": "136",
+  "lemme": "τίς ἡ στολή",
+  "categorie": "proverbes",
   "ref": "Erasm. Adag. 2.3.98",
   "urn": "web:latin/erasme/erasme_opera_II.pdf#p279",
   "citation": "Πλεύσειας εἰς τὴν Μασσαλίαν. … i. e. Naviges in Massiliam. Non explicat quidem ille proverbii sensum, sed facile conjicitur, in molles & moribus cultuque parum virili torqueri debere.",
@@ -7796,6 +7978,20 @@
   "signale_par": "recherche directe (ποδαπ*, reprise du 20 nov.)",
   "pertinence": 1,
   "remarque": "réponse proverbiale à la question ποδαπὸν τὸ γένος ; (Ar. Av. 108, au fichier)."
+ },
+ {
+  "v": "136",
+  "lemme": "τίς ἡ στολή",
+  "categorie": "proverbes",
+  "ref": "Tosi, Dictionnaire n° 2183",
+  "urn": "drive:Grec/Proverbes/Dictionnaire sentences grecques et latines Tosi ROC/Dictionnaire des sentences latines et grecques by Renzo Tosi (z-lib.org) (1).txt",
+  "citation": "Barba non facit philosophum",
+  "traduction": "La barbe ne fait pas le philosophe",
+  "verifie": "corpus",
+  "verification": "Tosi, texte OCR (Dictionnaire des sentences latines et grecques, § 1409 de l'index), n° 2183",
+  "signale_par": "recherche directe (Tosi, texte intégral)",
+  "pertinence": 1,
+  "remarque": "Tosi rassemble Arsen. 6.93e, Gell. 9.2.4 (au fichier), Luc. Demon. 13 et, n° 2184, Cratès, Ep. 19 (l'habit ne fait pas le cynique) : le topos inverse de l'enquête de Mnésiloque, qui juge du sexe d'Agathon par son costume ; cf. la réponse d'Agathon, v. 148 (τὴν ἐσθῆθ᾽ ἅμα τῇ γνώμῃ φορῶ)"
  },
  {
   "v": "136–140",
@@ -9367,6 +9563,20 @@
  },
  {
   "v": "138",
+  "lemme": "κεκρυφάλῳ",
+  "categorie": "lexicographes",
+  "ref": "Phot. κ 541",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf505",
+  "citation": "κεκρύφαλον· †κεκρύφαντον†, σαβ{β}ακάθιον, σουδάριον",
+  "traduction": "kékryphalos : résille, coiffe, mouchoir",
+  "verifie": "scan",
+  "verification": "image, Theodoridis II, p. 388 (PDF p. 505), gl. 541",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 2,
+  "remarque": "Theodoridis : (Χ 469), le κεκρύφαλος d'Andromaque"
+ },
+ {
+  "v": "138",
   "lemme": "κροκωτῷ",
   "categorie": "lexicographes",
   "ref": "Sud. α 3958",
@@ -9462,6 +9672,20 @@
   "signale_par": "dépouillement d'Hésychius (reprise)",
   "pertinence": 1,
   "remarque": "dans la même glose, le κεκρύφαλος voisine avec les jouets de jeunes filles"
+ },
+ {
+  "v": "138",
+  "lemme": "λαλεῖ",
+  "categorie": "lexicographes",
+  "ref": "Phot. λ 58",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf600",
+  "citation": "λαλίστατον· τὸ κατὰ λόγον σοφόν· λέγεται δὲ καὶ ὁ εὔγλωττος καὶ ὁ εὔφωνος",
+  "traduction": "lalistaton : le plus habile à parler ; se dit aussi de qui a la langue bien pendue et la voix belle",
+  "verifie": "scan",
+  "verification": "image, Theodoridis II, p. 483 (PDF p. 600), gl. 58",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 1,
+  "remarque": "λαλεῖν touche aussi la voix (εὔφωνος) : le barbitos qui « bavarde » ; suit λ 59 λαλίστερον· ἀδολεσχέστερον"
  },
  {
   "v": "138",
@@ -10175,7 +10399,7 @@
   "verification": "image, TrGF IV, p. 621 (PDF p. 619) : fr. 1063 (960 N.), ex Phot. Galean. 219, 25 = Sud. λ 437 (ληκυθιστής· ὁ μικρόφωνος. οὕτως Σοφοκλῆς) ; cf. Hsch. λ 856",
   "signale_par": "Hsch. λ 856–857 (renvois de l'éd.) ; LSJ ; non vérifiés antérieurs (TrGF IV sur le disque, 21 nov.)",
   "pertinence": 2,
-  "remarque": "le mot n'est connu que par les lexiques (Sud. λ 437, Hsch. λ 856 κοιλόφωνος, au fichier) ; sens vocal de la famille de λήκυθος, qui appuie la lecture de l'auteur (λήκυθος = pomme d'Adam, Hsch. λ 857) ; Radt cite Quincey, CQ 43 (1949), p. 44 : « probably an ἀλαζών talking in big, empty phrases »"
+  "remarque": "le mot n'est connu que par les lexiques (Sud. λ 437, Hsch. λ 856 κοιλόφωνος, au fichier) ; sens vocal de la famille de λήκυθος, qui appuie la lecture de l'auteur (λήκυθος = pomme d'Adam, Hsch. λ 857) ; Radt cite Quincey, CQ 43 (1949), p. 44 : « probably an ἀλαζών talking in big, empty phrases » ; Phot. λ 257 (Theodoridis II, p. 503) : ληκυθιστής· ὁ μικρόφωνος. οὕτως Σοφοκλῆς (fr. 1063 R.)"
  },
  {
   "v": "139",
@@ -10601,6 +10825,20 @@
   "v": "139",
   "lemme": "λήκυθος",
   "categorie": "lexicographes",
+  "ref": "Hsch. λ 858",
+  "urn": "",
+  "citation": "ληκώ· τὸ μόριον",
+  "traduction": "lèkô : le membre",
+  "verifie": "corpus",
+  "verification": "chercher.py -a 'Hsch.' -o gloses (Latte II, p. 746)",
+  "signale_par": "dépouillement d'Hésychius (reprise du 21 nov. : glose suivant λ 857, citée par l'auteur)",
+  "pertinence": 2,
+  "remarque": "glose qui suit immédiatement λήκυθος· τὸ μεταξὺ τοῦ λαυκανίου … (λ 857, au fichier) ; Phot. λ 258 précise τὸ ἀνδρεῖον ; signe [D] en marge"
+ },
+ {
+  "v": "139",
+  "lemme": "λήκυθος",
+  "categorie": "lexicographes",
   "ref": "Hsch. π 2468",
   "urn": "drive:hsch:III#pdf155",
   "citation": "πλαταγωνίσας· ἀποληκυθίσας, καὶ ψοφήσας",
@@ -10610,6 +10848,20 @@
   "signale_par": "dépouillement d'Hésychius (reprise)",
   "pertinence": 2,
   "remarque": "ἀποληκυθίσας : le verbe du son creux (cf. ληκυθιστής, λ 856, et Ar. Ran. 1200)"
+ },
+ {
+  "v": "139",
+  "lemme": "λήκυθος",
+  "categorie": "lexicographes",
+  "ref": "Phot. λ 258",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf620",
+  "citation": "ληκώ· τὸ μόριον λέγουσι τὸ ἀνδρεῖον",
+  "traduction": "lèkô : on appelle ainsi le membre viril",
+  "verifie": "scan",
+  "verification": "image, Theodoridis II, p. 503 (PDF p. 620), gl. 258 ; apparat : μόριον = He. λ 858",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 2,
+  "remarque": "glose voisine de λήκυθος chez Photius (λ 255–257) comme chez Hésychius (λ 857–858) ; cf. ληκάω (de ληκώ) = λαικάζω, LSJ (Ar. Thesm. 493, Pherecr.) : sous λήκυθος, un jeu obscène possible, à côté de la lecture de l'auteur (pomme d'Adam, Hsch. λ 857)"
  },
  {
   "v": "139",
@@ -10837,6 +11089,20 @@
  },
  {
   "v": "139",
+  "lemme": "λήκυθος",
+  "categorie": "lexicographes",
+  "ref": "Phot. λ 256",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf620",
+  "citation": "λήκυθος· εἰώθεσαν ἐν ληκύθοις νομισμάτιον ἔχειν νέων τινές· ὅθεν καὶ τοὺς ἐκδημοῦντας αὐτοληκύθους ἔλεγον",
+  "traduction": "lécythe : certains jeunes gens avaient coutume de garder une piécette dans leur lécythe ; d'où l'on appelait autolékythes ceux qui partaient en voyage",
+  "verifie": "scan",
+  "verification": "image, Theodoridis II, p. 503 (PDF p. 620), gl. 256",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 1,
+  "remarque": "le lécythe, objet des jeunes gens ; cf. αὐτολήκυθος (Antiph. fr. 17 K.-A., au fichier) ; précédé de λ 255 (= Sud. λ 438)"
+ },
+ {
+  "v": "139",
   "lemme": "στρόφιον",
   "categorie": "lexicographes",
   "ref": "Sud. κ 1588",
@@ -10861,7 +11127,7 @@
   "verification": "chercher.py -a Suda (Adler, First1K) : 3.Λ.438",
   "signale_par": "dépouillement des lexicographes (reprise du 20 nov.)",
   "pertinence": 1,
-  "remarque": "la suite cite Ar. Plut. 810–811 (αἱ δὲ λήκυθοι μύρου γέμουσι) et Av. 1589 (ἔλαιον οὐκ ἔνεστιν ἐν τῇ ληκύθῳ), vérifiés dans le corpus."
+  "remarque": "la suite cite Ar. Plut. 810–811 (αἱ δὲ λήκυθοι μύρου γέμουσι) et Av. 1589 (ἔλαιον οὐκ ἔνεστιν ἐν τῇ ληκύθῳ), vérifiés dans le corpus. ; cf. Phot. λ 255 (Theodoridis II, p. 503)"
  },
  {
   "v": "140",
@@ -12475,6 +12741,20 @@
  },
  {
   "v": "142",
+  "lemme": "ποῦ χλαῖνα",
+  "categorie": "prose",
+  "ref": "Luc. Demon. 13",
+  "urn": "urn:cts:greekLit:tlg0062.tlg008.perseus-grc2:13",
+  "citation": "Γελοῖόν μοι εἶναι ἔδοξεν, εἰ σὺ ἀπὸ τοῦ πώγωνος ἀξιοῖς κρίνεσθαι τοὺς φιλοσοφοῦντας αὐτὸς πώγωνα οὐκ ἔχων",
+  "traduction": "il m'a paru risible que tu prétendes juger des philosophes à la barbe, toi qui n'en as point",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0062.tlg008.perseus-grc2:13",
+  "signale_par": "Tosi, Dictionnaire n° 2183",
+  "pertinence": 1,
+  "remarque": "juger de l'homme sur la barbe : cf. Agathon rasé (vv. 191–192, 218 sqq.) et l'interrogatoire des vv. 141–143"
+ },
+ {
+  "v": "142",
   "lemme": "Λακωνικαί",
   "categorie": "scholies",
   "ref": "Σ Thesm. 142",
@@ -12673,15 +12953,29 @@
   "v": "142",
   "lemme": "ποῦ Λακωνικαί",
   "categorie": "lexicographes",
-  "ref": "Phot. p. 372 Naber",
-  "urn": "",
-  "citation": "Λακωνικαί· ὑπόδημα ἀνδρεῖον, σεμνόν",
+  "ref": "Phot. λ 49",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf599",
+  "citation": "Λακωνικός· στερρός, ἀνδρεῖος",
+  "traduction": "laconien : ferme, viril",
+  "verifie": "scan",
+  "verification": "image, Theodoridis II, p. 482 (PDF p. 599), gl. 49",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 2,
+  "remarque": "le laconien est l'homme viril : les Λακωνικαί, chaussures d'homme (Phot. λ 57, au fichier)"
+ },
+ {
+  "v": "142",
+  "lemme": "ποῦ Λακωνικαί",
+  "categorie": "lexicographes",
+  "ref": "Phot. λ 57",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf600",
+  "citation": "Λακωνικαί· ὑπόδημα ἀνδρεῖον σεμνόν",
   "traduction": "laconiennes : chaussure d’homme, de bon ton",
   "verifie": "scan",
-  "verification": "image, Naber I, p. 372 (archive.org photiipatriarch00nabegoog, n382) ; note 6 de Naber : « Hesych. Usurpavit Aristoph. Thesm. 142, alibi »",
+  "verification": "image, Theodoridis II, p. 483 (PDF p. 600), gl. 57 ; auparavant : image, Naber I, p. 372 (archive.org photiipatriarch00nabegoog, n382) ; note 6 de Naber : « Hesych. Usurpavit Aristoph. Thesm. 142, alibi »",
   "signale_par": "testimonia de l’auteur (Phot. λ 57) ; non vérifiés antérieurs, repris le 20 nov.",
   "pertinence": 2,
-  "remarque": "numéro λ 57 (Theodoridis) donné par les testimonia de l’auteur, non contrôlé (t. II absent) ; cf. Sud. λ 63 (test.) et Hsch. λ 225 (au fichier)."
+  "remarque": "numéro λ 57 (Theodoridis) des testimonia de l'auteur, confirmé ; Naber note : « Usurpavit Aristoph. Thesm. 142, alibi »"
  },
  {
   "v": "142",
@@ -12752,6 +13046,34 @@
   "signale_par": "dépouillement d'Hésychius (reprise)",
   "pertinence": 1,
   "remarque": "Cratin. fr. 222.1 K.-A. (renvoi de l'éd.)"
+ },
+ {
+  "v": "142",
+  "lemme": "ποῦ Λακωνικαί",
+  "categorie": "lexicographes",
+  "ref": "Phot. λ 48",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf599",
+  "citation": "λακωνίζειν· παιδικοῖς χρῆσθαι. Ἀριστοφάνης Θεσμοφοριαζούσαις β´",
+  "traduction": "laconiser : user de garçons. Aristophane, Thesmophories II",
+  "verifie": "scan",
+  "verification": "image, Theodoridis II, p. 482 (PDF p. 599), gl. 48",
+  "signale_par": "dépouillement de Photius α–μ (Theodoridis I–II, indexé le 21 nov.)",
+  "pertinence": 1,
+  "remarque": "= Ar. fr. 358 K.-A. (Hsch. λ 224, Sud. λ 62 ; PCG III 2, p. 200, lu sur l'image) : l'autre « laconisme » d'Aristophane, dans la seconde pièce du même titre"
+ },
+ {
+  "v": "142",
+  "lemme": "ποῦ χλαῖνα",
+  "categorie": "proverbes",
+  "ref": "Gell. 9.2.4",
+  "urn": "",
+  "citation": "Video, inquit Herodes, barbam et pallium, philosophum nondum video",
+  "traduction": "Je vois, dit Hérode, une barbe et un manteau ; le philosophe, je ne le vois pas encore",
+  "verifie": "corpus",
+  "verification": "TEI Perseus (.sources/web/latin/gellius/nocte.xml), livre 9, ch. 2, § 4",
+  "signale_par": "Tosi, Dictionnaire n° 2183",
+  "pertinence": 1,
+  "remarque": "Hérode Atticus devant un faux philosophe palliatus et crinitus barbaque … porrecta : l'homme cherché sous les attributs, comme ποῦ πέος ; ποῦ χλαῖνα ; (v. 142) ; cf. Luc. Demon. 13 (ἀπὸ τοῦ πώγωνος … κρίνεσθαι τοὺς φιλοσοφοῦντας)"
  },
  {
   "v": "142",

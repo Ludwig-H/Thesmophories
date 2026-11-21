@@ -7421,6 +7421,34 @@
  },
  {
   "v": "159",
+  "lemme": "ἄμουσον",
+  "categorie": "tragiques",
+  "ref": "Soph. fr. 819 Radt",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Vol. 4 Sophocles by Radt, Stefan ROC hellenike gimagereader.pdf#pdf546",
+  "citation": "ἀμούσωτος γὰρ οὐδαμῶς ἄπει",
+  "traduction": "« car tu ne t’en iras nullement sans avoir reçu les Muses »",
+  "verifie": "scan",
+  "verification": "TrGF IV, p. 548 (p. PDF 546, image) ; Phot. α 1240 (Theodoridis I, p. 129, image)",
+  "signale_par": "Austin–Olson 2004, ad 159 (p. 109) ; non-vérifiés du 20 nov.",
+  "pertinence": 1,
+  "remarque": "le dérivé ἀμούσωτος, « privé des Muses » ; Mekler y voyait les Sirènes s’adressant à Ulysse (Nausicaa) ; transmis par Photius (α 1240 : ἀμούσωτος· Σοφοκλῆς εἴρηκεν)"
+ },
+ {
+  "v": "159",
+  "lemme": "ἄμουσον",
+  "categorie": "tragiques",
+  "ref": "Trag. adesp. fr. 705 b 11 K.-Sn.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Vol. 2 Fragmenta Adespota  Testimonia by Snell, Bruno  Kannicht, Richard (eds.) (z-lib.org).pdf#pdf312",
+  "citation": "ἄμουσον ἀκτῆς |[– ⏑ – × –]ν μέλος·",
+  "traduction": "« le chant sans Muse du rivage … »",
+  "verifie": "scan",
+  "verification": "TrGF II, p. 294 (p. PDF 312, image)",
+  "signale_par": "Austin–Olson 2004, ad 159 (p. 109) ; non-vérifiés du 20 nov.",
+  "pertinence": 1,
+  "remarque": "ἄμουσον dit d’un chant « sans Muse » (le fracas du rivage) ; les éditeurs comparent Eur. Phoen. 791, 808, 1028, Aesch. Eum. 331, Soph. fr. 699 ; cf. Eur. Phoen. 807a Perseus (Σφιγγὸς ἀμουσοτάταισι σὺν ᾠδαῖς), vérifié"
+ },
+ {
+  "v": "159",
   "lemme": "ποιητὴν ἰδεῖν",
   "categorie": "poetes",
   "ref": "Thgn. 215–216 (ap. Plut. De soll. an. 27, 978b–979a)",
@@ -7670,6 +7698,20 @@
   "signale_par": "lexiques_proverbes.py (ποιητήν : App. Prov. 3.43)",
   "pertinence": 1,
   "remarque": "le sobriquet du poète sans éclat, devenu proverbe : App. Prov. 3.43 (Καπνίας ποιητής: ὁ μηδὲν λαμπρὸν γράφων) et Sud. κ 345, retrouvés dans le corpus ; à l’opposé, Agathon veut que le poète brille jusque dans sa mise"
+ },
+ {
+  "v": "159",
+  "lemme": "ἄμουσον",
+  "categorie": "lexicographes",
+  "ref": "Phot. α 1239",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf211",
+  "citation": "ἄμουσα· ἀτερπῆ, ἀηδῆ, ἀπαίδευτα.",
+  "traduction": "« ἄμουσα : sans agrément, déplaisantes, incultes »",
+  "verifie": "scan",
+  "verification": "Theodoridis I, p. 129 (p. PDF 211, image)",
+  "signale_par": "recherche dans le corpus (ἀμούσωτος, Soph. fr. 819 Radt)",
+  "pertinence": 2,
+  "remarque": "ἄμουσον au sens de « déplaisant, choquant » autant que « sans culture » : même glose que Synag. α 397 (ἀπρεπῆ, ἀηδῆ), déjà relevé ; marge de Theodoridis : Σ"
  },
  {
   "v": "159",
@@ -8135,6 +8177,20 @@
  },
  {
   "v": "160",
+  "lemme": "δασύν",
+  "categorie": "comiques",
+  "ref": "Bato fr. 7.7–9 K.-A.",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/Poetae Comici Graeci (PCG). Volumen IV  Aristophon - Crobylus ROC hellenike gimagereader.pdf#pdf67",
+  "citation": "τίνα γὰρ ἔχει, πρὸς τῆς Ἀθηνᾶς, διαφορὰν / ὁ τῶν νεωτέρων τε καὶ λείων τρόπος / παρ’ ὃν οἱ δασεῖς ἔχουσι καὶ προβεβηκότες;",
+  "traduction": "« quelle différence y a-t-il donc, par Athéna, entre les façons des jeunes gens lisses et celles des hommes velus et d’âge mûr ? »",
+  "verifie": "scan",
+  "verification": "PCG IV, p. 35 (incertae fabulae, fr. 7 ; p. PDF 67, image) ; Stob. 3.6.12",
+  "signale_par": "Austin–Olson 2004, ad 160 (p. 110) ; non-vérifiés du 20 nov.",
+  "pertinence": 2,
+  "remarque": "λεῖος opposé à δασύς, comme l’Agathon glabre au poète velu (et au vieux Mnésiloque) ; K.-A. renvoient à Eub. fr. 107.2 (déjà relevé) et à « Gow-Page ad Alcaei epigr. 8,1 (Hell. Epigr. v. 44) »"
+ },
+ {
+  "v": "160",
   "lemme": "ἀγρεῖον",
   "categorie": "poetes",
   "ref": "Sapph. fr. 70 Bergk (ap. Ath. 1.38, 21a–d)",
@@ -8216,6 +8272,20 @@
   "signale_par": "Austin–Olson 2004, ad 160 (p. 110 : « Diocl. AP xii. 35. 3 »)",
   "pertinence": 1,
   "remarque": "même valeur : δασύνεσθαι, passer à l'âge d'homme"
+ },
+ {
+  "v": "160",
+  "lemme": "ἀγρεῖον",
+  "categorie": "poetes",
+  "ref": "Call. fr. 24.13 Pf.",
+  "urn": "drive:Grec/Callimaque/Callimachus, Vol. I Fragmenta by Pfeiffer, R. (ed.) (z-lib.org).pdf#pdf45",
+  "citation": "αὐτὰρ ὅ]γ’ ἀγρεῖον [καὶ ἀμείλιχον ἐξ]εγέλασσε",
+  "traduction": "« mais lui partit d’un rire rustre et dur »",
+  "verifie": "scan",
+  "verification": "Pfeiffer I, p. 33 (Aitia I, Thiodamas ; p. PDF 45, image)",
+  "signale_par": "Austin–Olson 2004, ad 160 (p. 109) ; non-vérifiés du 20 nov.",
+  "pertinence": 1,
+  "remarque": "le rustre Thiodamas répond à Héraclès par un rire « campagnard » : ἀγρεῖος dit de la grossièreté ; vv. 1–22 = P. Berol. 11629 B verso (apparat de Pfeiffer) ; les crochets marquent les compléments des éditeurs"
  },
  {
   "v": "160",
@@ -12500,6 +12570,20 @@
   "signale_par": "Austin–Olson 2004, ad 164–7 (p. 112) (« V. 219–20, 269, 1490 with MacDowell on 220 and 1490 »)",
   "pertinence": 2,
   "remarque": "Philocléon danse les figures des vieux chœurs de Phrynichos ; cf. Vesp. 1524 (Φρυνίχειον)"
+ },
+ {
+  "v": "164",
+  "lemme": "τοῦτον γὰρ οὖν ἀκήκοας",
+  "categorie": "comiques",
+  "ref": "Men. fr. 187.1–2 K.-A. (= 208 Kock)",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/Menander. Testimonia et Fragmenta apud scriptores servata by Rudolf Kassel, Colin Austin (eds.) (z-lib.org).pdf#pdf169",
+  "citation": "οὐκ ἀδελφός, οὐκ ἀδελφὴ παρενοχλήσει, τηθίδα / οὐδ’ ἑώρακεν τὸ σύνολον, θεῖον οὐδ’ ἀκήκοεν.",
+  "traduction": "« ni frère ni sœur ne l’importunera ; une tante, il n’en a jamais vu ; un oncle, il n’en a pas même entendu parler »",
+  "verifie": "scan",
+  "verification": "PCG VI 2, p. 136 (Θυρωρός, fr. 187 ; p. PDF 169, image) ; Phot. α 1425",
+  "signale_par": "Austin–Olson 2004, ad 164–7 (p. 112) ; non-vérifiés du 20 nov.",
+  "pertinence": 1,
+  "remarque": "ἀκήκοα au sens de « connaître par ouï-dire », opposé à ἑώρακα : Mnésiloque, Athénien, a « entendu » Phrynichos (Σ Thesm. 164, déjà relevé)"
  },
  {
   "v": "164",

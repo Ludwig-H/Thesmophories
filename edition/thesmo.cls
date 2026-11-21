@@ -194,6 +194,16 @@
 \int_new:N \l_thesmo_savevbad_int
 \bool_new:N \l_thesmo_overfull_bool
 \box_new:N \l_thesmo_nat_box
+%% hauteur totale (hauteur + profondeur) de la boîte #1 inférieure à la dimension #2 ? Calcul en Lua :
+%% pour un registre très long (loci paralleli), la somme dépasse la dimension maximale de TeX
+%% et ne peut être évaluée par \dimexpr (« Dimension too large »).
+\prg_new_conditional:Npnn \thesmo_box_total_lt:Nn #1#2 { p, T, F, TF }
+  {
+    \if_int_compare:w \lua_now:e
+        { local~b = tex.box[\int_eval:n {#1}]~
+          tex.sprint(((b~and~(b.height + b.depth)~or~0) < \dim_to_decimal_in_sp:n {#2})~and~1~or~0) } = 1 \exp_stop_f:
+      \prg_return_true: \else: \prg_return_false: \fi:
+  }
 \cs_new_protected:Npn \thesmo_test_split:n #1
   {
     %% essais de coupe : pas d'avertissement « Overfull \vbox » pour les hauteurs trop petites
@@ -220,7 +230,7 @@
       }
     \bool_set_false:N \l_thesmo_rest_bool
     \box_if_empty:NF \l_thesmo_tmp_box
-      { \dim_compare:nNnT { \box_ht:N \l_thesmo_tmp_box + \box_dp:N \l_thesmo_tmp_box } > {0pt}
+      { \thesmo_box_total_lt:NnF \l_thesmo_tmp_box { 1sp }
           { \bool_set_true:N \l_thesmo_rest_bool } }
     \bool_if:NT \l_thesmo_overfull_bool { \bool_set_true:N \l_thesmo_rest_bool }
     \dim_set_eq:NN \tex_vfuzz:D \l_thesmo_savevfuzz_dim
@@ -266,7 +276,7 @@
   {
     \bool_set_false:N \l_thesmo_streamleft_bool
     \box_if_empty:NF \g_thesmo_stream_box
-      { \dim_compare:nNnT { \box_ht:N \g_thesmo_stream_box + \box_dp:N \g_thesmo_stream_box } > {0pt}
+      { \thesmo_box_total_lt:NnF \g_thesmo_stream_box { 1sp }
           { \bool_set_true:N \l_thesmo_streamleft_bool } }
   }
 
@@ -1056,13 +1066,13 @@
 \cs_new_protected:Npn \thesmo_registre:Nnnn #1#2#3#4 % boîte, intitulé, réglages, contenu
   {
     \vbox_set:Nn \l_thesmo_tmp_box { \hsize = \l_thesmo_commcol_dim \l_thesmo_bottomsize_tl #3 #4 \par }
-    \dim_compare:nNnTF { \box_ht:N \l_thesmo_tmp_box + \box_dp:N \l_thesmo_tmp_box } > { 1pt }
+    \thesmo_box_total_lt:NnTF \l_thesmo_tmp_box { 1pt }
+      { \box_gclear:N #1 }
       {
         \vbox_gset:Nn #1
           { \hsize = \l_thesmo_commcol_dim \l_thesmo_bottomsize_tl
             \noindent \petcap{#2} \par \vspace{1pt} \vbox_unpack_drop:N \l_thesmo_tmp_box }
       }
-      { \box_gclear:N #1 }
   }
 \NewDocumentEnvironment{paralleles}{ +b }
   { \thesmo_registre:Nnnn \g_thesmo_par_box { loci~paralleli } { \raggedright } {#1} } {}
@@ -1099,7 +1109,10 @@
         \box_if_empty:NF \g_thesmo_crit_box { \vbox_unpack_drop:N \g_thesmo_crit_box }
       }
     \dim_set:Nn \l_thesmo_h_dim { \l_thesmo_H_dim - \l_thesmo_dtop_dim - \l_thesmo_commsep_dim }
-    \dim_set:Nn \l_tmpa_dim { \box_ht:N \l_thesmo_tmp_box + \box_dp:N \l_thesmo_tmp_box }
+    %% registres très longs : la hauteur totale n'est évaluée par TeX que si elle reste en deçà de deux colonnes
+    \thesmo_box_total_lt:NnTF \l_thesmo_tmp_box { 2\l_thesmo_h_dim }
+      { \dim_set:Nn \l_tmpa_dim { \box_ht:N \l_thesmo_tmp_box + \box_dp:N \l_thesmo_tmp_box } }
+      { \dim_set_eq:NN \l_tmpa_dim \c_max_dim }
     \dim_compare:nNnTF { \l_tmpa_dim } < { 2\l_thesmo_h_dim }
       {
         %% équilibrage des deux colonnes

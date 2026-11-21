@@ -9136,10 +9136,10 @@
   "citation": "κανηφόροι· παρθένοι αἱ τὰ κανᾶ φέρουσαι τῇ Ἀθηνᾷ ἐν τῇ Παναθηναίων πομπῇ· αὗται δὲ τῶν ἀστῶν καὶ τῶν εὐγενῶν ἦσαν.",
   "traduction": "« canéphores : jeunes filles qui portent les corbeilles à Athéna dans la procession des Panathénées ; elles étaient de la classe des citoyens et des bien-nés »",
   "verifie": "scan",
-  "verification": "image de Naber I, p. 310 lue ; n° d’après le test. de Latte à Hsch. κ 654",
+  "verification": "image de Naber I, p. 310 lue ; n° d’après le test. de Latte à Hsch. κ 654 ; Bekker, Anecd. I, p. 270, l. 32 – p. 271, l. 2 (images : ia:bub_gb_y5sQAAAAIAAJ, n277–n278)",
   "signale_par": "Latte, test. à Hsch. κ 654 ; chercher.py εὐγεν* -a Phot",
   "pertinence": 3,
-  "remarque": "ἀστῶν καὶ τῶν εὐγενῶν : les deux notions réunies, comme aux vv. 330 et 541"
+  "remarque": "ἀστῶν καὶ τῶν εὐγενῶν : les deux notions réunies, comme aux vv. 330 et 541 ; idem Lex. Rhet. (AB 270.32–271.2 : Κανηφόροι· παρθένοι τὰ κανᾶ φέρουσαι τῇ θεῷ ἐν τῇ τῶν Παναθηναίων πομπῇ καὶ ταῖς ἄλλαις ἑορταῖς. ἐκανηφόρουν δὲ αἱ ἀσταὶ καὶ εὐγενεῖς)"
  },
  {
   "v": "330",
@@ -9178,10 +9178,10 @@
   "citation": "τέσσαρες μὲν ἐχειροτονοῦντο δι’ εὐγένειαν ἀρρηφόροι",
   "traduction": "« quatre arrhéphores étaient élues en raison de leur noble naissance »",
   "verifie": "corpus",
-  "verification": "p.py Harp. a.arreforein ; Synag. α 2146",
+  "verification": "p.py Harp. a.arreforein ; Synag. α 2146 ; Bekker, Anecd. I, p. 202, l. 3–5 (image : ia:bub_gb_y5sQAAAAIAAJ, n209)",
   "signale_par": "chercher.py εὐγεν* -a Harp.",
   "pertinence": 3,
-  "remarque": "élection par εὐγένεια, à l’Acropole d’Athéna ; cf. Lys. 641 ; Synag. α 2146 τῶν εὐγενῶν"
+  "remarque": "élection par εὐγένεια, à l’Acropole d’Athéna ; cf. Lys. 641 ; Synag. α 2146 τῶν εὐγενῶν ; idem Lex. Rhet. (AB 202.3–5 : Ἀρρηφορεῖν· τὸ λευκὴν ἐσθῆτα φορεῖν καὶ χρυσία. ἦσαν δὲ τέσσαρες παῖδες, χειροτονητοὶ κατ᾽ εὐγένειαν, ἀρρηφόροι ἀπὸ τῶν ἑπτὰ μέχρι ἕνδεκα)"
  },
  {
   "v": "330",
@@ -9434,6 +9434,20 @@
   "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
   "pertinence": 2,
   "remarque": "= Zen. 2.12, Diogenian. 1.100 (ci-dessus : Θρᾷξ εὐγενὴς εἶ πρὸς ἅλας ἠγορασμένος) ; la noblesse refusée au Thrace, quand les femmes du v. 330 se disent εὐγενεῖς après le renvoi de la Thrace Thratta (v. 294)"
+ },
+ {
+  "v": "330",
+  "lemme": "εὐγενεῖς",
+  "categorie": "lexicographes",
+  "ref": "Lex. Rhet. (AB 259.17–20)",
+  "urn": "ia:bub_gb_y5sQAAAAIAAJ#n266",
+  "citation": "Ἐγγενής: ὁ ἀστὸς ἐξ ἀστῶν ἐγγενὴς καλεῖται. … Ἐπιχώριος: ὁ εὐγενὴς καὶ γένει πολίτης.",
+  "traduction": "Engenès : on appelle ainsi le citoyen né de citoyens. … Épichôrios : l’homme bien né, citoyen par la naissance.",
+  "verifie": "scan",
+  "verification": "Bekker, Anecdota Graeca I (1814), Λέξεις ῥητορικαί, p. 259, l. 17 et 20 (image : ia:bub_gb_y5sQAAAAIAAJ, n266 ; section commençant p. 195) ; trouvé par chercher.py 'εὐγεν*' -a 'Bekker, Anecd'",
+  "signale_par": "recherche dans le corpus (lexiques de Bekker, Anecd. I)",
+  "pertinence": 3,
+  "remarque": "εὐγενής glosé par « citoyen de naissance » (γένει πολίτης), et l’ἀστὸς ἐξ ἀστῶν : le sens que le commentaire de l’auteur donne au v. 330 (seules les citoyennes athéniennes assistent aux Thesmophories ; cf. v. 294) ; cf. Hsch. ε 6726 (εὐγενής· ἐλεύθερος τῷ γένει, ci-dessus) ; dans le même lexique, AB 270.32–271.2 (κανηφόροι … ἐκανηφόρουν δὲ αἱ ἀσταὶ καὶ εὐγενεῖς : voir Phot. κ 149) et AB 202.3–5 (ἀρρηφόροι χειροτονητοὶ κατ᾽ εὐγένειαν : voir Harp. s.v. ἀρρηφορεῖν)"
  },
  {
   "v": "331",
@@ -9962,7 +9976,7 @@
   "citation": "ὑπὲρ ὧν ἀπαγγέλλουσιν οἱ πρυτάνεις τῆς Λεωντίδος ὑπὲρ τῶν θυσιῶν ὧν ἔθυον τὰ πρὸ τῶν ἐκκλησιῶν τῶι τε Ἀπόλλωνι τῶι Προστατηρίωι καὶ τεῖ Ἀρτέμιδι τεῖ Βουλαίαι καὶ τοῖς ἄλλοις θεοῖς οἷς πάτριον ἦν, ἀγαθεῖ τύχει δεδόχθαι τῶι δήμωι τὰ μὲν ἀγαθὰ δέχεσθαι τὰ γεγονότα ἐν τοῖς ἱεροῖς οἷς ἔθυον ἐφ’ ὑγιείαι καὶ σωτηρίαι τῆς τε βουλῆς καὶ τοῦ δήμου καὶ τῶν συμμάχων",
   "traduction": "sur le rapport des prytanes de la tribu Léontis touchant les sacrifices qu’ils ont offerts avant les assemblées à Apollon Prostatérios, à Artémis Boulaia et aux autres dieux à qui la tradition le voulait, à la bonne fortune, plaise au peuple d’accueillir les heureux présages obtenus dans les sacrifices offerts pour la santé et le salut du Conseil, du peuple et des alliés",
   "verifie": "scan",
-  "verification": "SEG XXI (1965), n° 440, p. 146–147, l. 6–11 (Agora inv. I 6765, éd. Meritt, The Athenian Year, 1961, 195–200 ; Drive : Inscriptiones Graecae/SEG 21.pdf, pages PDF 156–157, image lue) ; trouvé par chercher.py '\"τοῖς ἄλλοις θεοῖς οἷς πάτριον\"'",
+  "verification": "SEG XXI (1965), n° 440, p. 146–147, l. 6–11 (Agora inv. I 6765, éd. Meritt, The Athenian Year, 1961, 195–200 ; Drive : Inscriptiones Graecae/SEG 21.pdf, pages PDF 156–157, image lue) ; SEG XXI, n° 400, p. 130, l. 7–9 (page PDF 140, image lue) ; trouvé par chercher.py '\"τοῖς ἄλλοις θεοῖς οἷς πάτριον\"'",
   "signale_par": "Austin–Olson 2004, n. aux vv. 331–4 (formule τοῖς ἄλλοις θεοῖς οἷς πάτριον ἦν des décrets) ; recherche dans le corpus (SEG du Drive)",
   "pertinence": 3,
   "remarque": "les sacrifices offerts « avant les assemblées » (τὰ πρὸ τῶν ἐκκλησιῶν) à Apollon et à Artémis, puis « aux autres dieux » : le couple divin de Pytho et de Délos (vv. 332–334) et la formule englobante τοῖς τ᾽ ἄλλοις θεοῖς ; la fin (τῆς τε βουλῆς καὶ τοῦ δήμου καὶ τῶν συμμάχων) donne la formule officielle que détourne la plaisanterie τῷ δήμῳ τῷ τῶν γυναικῶν (v. 336 ; cf. vv. 307–309 et le commentaire de l’auteur) ; même formule, restituée, dans SEG 21, 400, l. 7–9 (prytanes d’Aiantis, 226/5)"
@@ -11320,10 +11334,10 @@
   "citation": "ἐπικηρυκεύεται· διὰ κήρυκός τινος συνθήκας τινὰς ἢ πρεσβείας ποιεῖται",
   "traduction": "« il négocie par héraut » : il conclut par l’intermédiaire d’un héraut des accords ou des ambassades",
   "verifie": "scan",
-  "verification": "Cunningham, Synagoge (2003), p. 223, n° 682, avec renvois et apparat (image : Synagoge.pdf, p. 229) ; Sud. ε 2375 (corpus) ; EM 360.21 (image : ia:etymologikontome00etymuoft_201708, n182) ; Hsch. (Schmidt, éd. minor, col. 589, image : ia:bub_gb_R-zVabafOucC, n315) ; Phot. ε 1580 (Theodoridis II, 1998, p. 151, avec testimonia ; Drive : Photius/II E-M avec couv ROC gimagereader.pdf, page PDF 269, image lue)",
+  "verification": "Cunningham, Synagoge (2003), p. 223, n° 682, avec renvois et apparat (image : Synagoge.pdf, p. 229) ; Sud. ε 2375 (corpus) ; EM 360.21 (image : ia:etymologikontome00etymuoft_201708, n182) ; Hsch. (Schmidt, éd. minor, col. 589, image : ia:bub_gb_R-zVabafOucC, n315) ; Phot. ε 1580 (Theodoridis II, 1998, p. 151, avec testimonia ; Drive : Photius/II E-M avec couv ROC gimagereader.pdf, page PDF 269, image lue) ; Bekker, Anecd. I, p. 243, l. 27–28 (image : ia:bub_gb_y5sQAAAAIAAJ, n250)",
   "signale_par": "testimonia de l’auteur (v. 336 : Phot. ε 1580 = Synag. ε 682 = Sud. ε 2375 = EM 360.21 = Et. Gen. ; cf. Hsch. ε 4853)",
   "pertinence": 3,
-  "remarque": "rangé par l’auteur parmi les testimonia : glose du mot sous la forme même du vers ; idem Sud. ε 2375 (+ ἢ φιλίαν σπένδει, la glose de R au v. 336), EM 360.21 (διὰ κήρυκος τινὸς … ποιεῖται· καὶ ἐπικηρυκεία, ἡ ἐκ τῶν πολεμίων φιλία· ἢ τὸ περὶ φιλίας καὶ διαλλαγῶν κήρυκας πέμπειν· τὸ διὰ κήρυκος εἰς φιλίαν ἐλθεῖν ἐχθροὺς ὄντας) ; Phot. ε 1580 (ἐπικηρυκεύεται· διὰ κήρυκός τινος συνθήκας τινὰς ἢ πρεσβείας ποιεῖται : texte identique) ; Et. Gen. B (non lu) d’après Theodoridis (test. à Phot. ε 1580 : διὰ κήρυκός τινος συνθήκας ποιεῖται, « hinc EM 360, 21, quod etiam verba τινὰς ἢ πρεσβείας servavit » ; = Ba. 230, 5 ; cf. sch. Thuc. 2.64.6 etc., Poll. 4.93, 8.138, Hsch. ε 4853) ; apparat de Cunningham : τινος om. Cyr. | ἢ πρεσβείας om. ACD ; cf. Synag. ε 683 (ἐπικηρυκεία· φιλία ἡ ἐκ τῶν πολεμίων) ; Hsch. ε 4853 (ἐπικηρυκεύεται· προκηρύσσεται), que Latte rapporte à Thuc. 7.83.2, M. Schmidt (éd. minor, col. 589) à « Ar. Thesm. 336 » (glose citée au v. 336–337 de paralleles_337-358.json)"
+  "remarque": "rangé par l’auteur parmi les testimonia : glose du mot sous la forme même du vers ; idem Sud. ε 2375 (+ ἢ φιλίαν σπένδει, la glose de R au v. 336), EM 360.21 (διὰ κήρυκος τινὸς … ποιεῖται· καὶ ἐπικηρυκεία, ἡ ἐκ τῶν πολεμίων φιλία· ἢ τὸ περὶ φιλίας καὶ διαλλαγῶν κήρυκας πέμπειν· τὸ διὰ κήρυκος εἰς φιλίαν ἐλθεῖν ἐχθροὺς ὄντας) ; Phot. ε 1580 (ἐπικηρυκεύεται· διὰ κήρυκός τινος συνθήκας τινὰς ἢ πρεσβείας ποιεῖται : texte identique) ; Et. Gen. B (non lu) d’après Theodoridis (test. à Phot. ε 1580 : διὰ κήρυκός τινος συνθήκας ποιεῖται, « hinc EM 360, 21, quod etiam verba τινὰς ἢ πρεσβείας servavit » ; = Ba. 230, 5 ; cf. sch. Thuc. 2.64.6 etc., Poll. 4.93, 8.138, Hsch. ε 4853) ; apparat de Cunningham : τινος om. Cyr. | ἢ πρεσβείας om. ACD ; cf. Synag. ε 683 (ἐπικηρυκεία· φιλία ἡ ἐκ τῶν πολεμίων) ; Hsch. ε 4853 (ἐπικηρυκεύεται· προκηρύσσεται), que Latte rapporte à Thuc. 7.83.2, M. Schmidt (éd. minor, col. 589) à « Ar. Thesm. 336 » (glose citée au v. 336–337 de paralleles_337-358.json) ; cf. aussi Lex. Rhet. (AB 243.27–28 : Ἐπικηρυκεία· τὸ διὰ κήρυκος εἰς φιλίαν ἐλθεῖν πρότερον ἐχθροὺς ὄντας, = la fin de l’article de l’EM) et Lex. Synt. (AB 153.10–11, ci-dessous)"
  },
  {
   "v": "336",
@@ -11366,5 +11380,19 @@
   "signale_par": "recherche dans le corpus (Tosi)",
   "pertinence": 1,
   "remarque": "la locution proverbiale « guerre sans héraut », c’est-à-dire sans négociation possible, contraire d’ἐπικηρυκεύεσθαι : idem Pl. Lg. 626a (πόλεμον ἀκήρυκτον, cité par Tosi n° 810), Dem. 18.262 (ἄσπονδος καὶ ἀκήρυκτος … πόλεμος), Aeschin. 2.80 (ἀσπόνδους καὶ ἀκηρύκτους τοὺς πολέμους), Plut. Per. 30.3 (ἄσπονδον … καὶ ἀκήρυκτον ἔχθραν, décret de Charinos contre Mégare), Poll. 8.139 (ἀκήρυκτοι πόλεμοι)"
+ },
+ {
+  "v": "336",
+  "lemme": "ἢ ᾿πικηρυκεύεται",
+  "categorie": "lexicographes",
+  "ref": "Lex. Synt. (AB 153.10–11)",
+  "urn": "ia:bub_gb_y5sQAAAAIAAJ#n160",
+  "citation": "Κηρυκεύω καὶ ἐπικηρυκεύω: δοτικῇ. Ἰσοκράτης· „εἴ τις ἐπικηρυκεύεσθαι Πέρσαις.“",
+  "traduction": "kèrykeuô et epikèrykeuô : avec le datif. Isocrate : « si quelqu’un négocie (par héraut) avec les Perses ».",
+  "verifie": "scan",
+  "verification": "Bekker, Anecdota Graeca I (1814), Περὶ συντάξεως, p. 153, l. 10–11 (image : ia:bub_gb_y5sQAAAAIAAJ, n160 ; section commençant p. 117) ; trouvé par chercher.py 'ἐπικηρυκ*' -a 'Bekker, Anecd' ; AB 141.18–20 (image : n148)",
+  "signale_par": "recherche dans le corpus (lexiques de Bekker, Anecd. I)",
+  "pertinence": 3,
+  "remarque": "le lexique syntaxique cite, pour la construction avec le datif (ici Εὐριπίδῃ Μήδοις, v. 337), la formule même de l’imprécation que rapporte Isocrate (4.157, aux vv. 335–336 : εἴ τις ἐπικηρυκεύεται Πέρσαις τῶν πολιτῶν) ; l’infinitif ἐπικηρυκεύεσθαι est une faute du lexique ou de sa source ; cf. AB 141.18–20 (Ἐπικηρυκεύω· δοτικῇ, avec un exemple de Dion Cassius, l. XLIX : ἐπεκηρύκευσαν τότε αὐτῷ, οὐδὲν ὅ τι οὐκ ἐπαγγελλόμενοι)"
  }
 ]

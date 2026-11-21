@@ -19,5 +19,12 @@
   "ref": "Arist. Eudemus fr. 59 Gigon (ψυχὴν γὰρ εἶχε καὶ ὁ Θερσίτης αἴσχιστος ὤν)",
   "source": "García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 21–34 (.sources/drive/ThesmoBiblio), § 1.2, n. 11",
   "raison": "fragment absent du corpus local (chercher.py '\"ψυχὴν γὰρ εἶχε\"' : 0 résultat) ; non vérifié"
+ },
+ {
+  "v": "166",
+  "lemme": "κάλ᾽ ἦν τὰ δράματα (Ἀγαθώνειος αὔλησις)",
+  "ref": "Ar. fr. 178 K.-A. (Γηρυτάδης)",
+  "source": "Latte, Hesychius I, p. 15, gl. α 281 (« Ἀγαθώνειον αὔλησιν τὴν μαλακὴν (Ar. fr. 178 K.–A.) »), gloses décodées du corpus",
+  "raison": "fragment non contrôlé dans Kassel–Austin (PCG III.2 absent du corpus local) ni retrouvé chez Kock par la recherche (chercher.py 'αὔλησιν' -a 'Kock I' : 0 résultat) ; la glose d'Hésychius est relevée (v. 166), le fragment lui-même ne l'est pas"
  }
 ]

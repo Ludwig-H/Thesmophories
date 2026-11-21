@@ -40,6 +40,18 @@ EXCLUS = re.compile(r"/Articles/|Grec - commentaire - traduction - apparat/")
 # (motif sur le chemin, catégorie, sigle — {1}, {2} = groupes du motif — et traitement éventuel)
 # Catégorie None : fichier à ne jamais lire par sa couche texte.
 REGLES = [
+    # versions océrisées localement (outils/corpus/ocr_pdf.py) de PDF image, dans « OCR local/ » :
+    # placées en tête pour l'emporter sur les règles de l'original
+    (r"OCR local/Mastromarco-Totaro 2006, Tesmoforiazuse", "editions", "Mastromarco–Totaro 2006 (OCR)"),
+    (r"OCR local/Mastromarco-Totaro 2006, introduzione", "editions", "Mastromarco–Totaro 2006, intr. (OCR)"),
+    (r"OCR local/Eikasmos 7 \(1996\)", "etudes", "Eikasmos 7, 1996 (Degani, Thesm. 638) (OCR)"),
+    (r"OCR local/Sommerstein 1994, Thesmophoriazusae", "editions", "Sommerstein 1994, extr. comm. (OCR)"),
+    (r"OCR local/P\.Oxy\. LVI,", "papyrus", "P.Oxy. LVI 3839-3840 (OCR)"),
+    (r"OCR local/P\.Oxy\. LXXVIII,", "papyrus", "P.Oxy. LXXVIII 5132 (OCR)"),
+    (r"OCR local/Schorn 2004, Satyros", "fragments", "Schorn, Satyros (OCR)"),
+    (r"OCR local/Taillardat, Les images", "etudes", "Taillardat, Images (OCR)"),
+    (r"OCR local/Boissonade 1826", "editions", "Boissonade 1826 (OCR)"),
+    (r"OCR local/Tragicorum Graecorum Fragmenta, Volume 5", "fragments", "TrGF 5 (Kannicht, OCR)"),
     (r"Lexiques/Hesychius/Hesychius Latte-Cuningham complet", None, ""),  # couche texte brouillée
     (r"Lexiques/Hesychius/Latte_I_alpha-delta", "lexiques", "Hsch. (Latte) I", "hesychius:I"),
     (r"Lexiques/Hesychius/01 Latte Alpha - Delta", "lexiques", "Hsch. (Latte) I", "hesychius:I"),
@@ -96,7 +108,6 @@ REGLES = [
     # PDF image sans couche texte, remplacés par leur version océrisée (outils/corpus/ocr_pdf.py),
     # rangée dans « Aristophane/OCR local/ »
     (r"Aristophane/Commedie by Aristofane, Giuseppe Mastromarco", None, ""),
-    (r"Aristophane/OCR local/Mastromarco-Totaro 2006, Tesmoforiazuse", "editions", "Mastromarco–Totaro 2006 (OCR)"),
 ]
 
 

@@ -1,43 +1,11 @@
 [
  {
   "v": "80–101",
-  "lemme": "(numéros K.-A.)",
-  "categorie": "comiques",
-  "ref": "Ephipp. fr. 8 Kock ; Pl. Com. fr. 134 Kock ; Eup. fr. 103 Kock ; Ar. frr. 169 et 188 Kock ; Men. Deisid. (Meineke IV p. 103)",
-  "signale_par": "contrôle final",
-  "raison": "citations vérifiées, inscrites sous la numérotation de Kock ou de Meineke ; concordance avec Kassel–Austin non contrôlée (PCG local incomplet)"
- },
- {
-  "v": "80–101",
-  "lemme": "(Kock III)",
-  "categorie": "comiques",
-  "ref": "Kock III, pp. 32, 125, 508",
-  "signale_par": "contrôle final",
-  "raison": "archive.org comicorumatticor03kockuoft renvoie 404 : pas d'image ; l'OCR seul a servi au repérage"
- },
- {
-  "v": "80–101",
-  "lemme": "(commentaire)",
-  "categorie": "prose",
-  "ref": "Austin–Olson 2004, commentaire ad vv. 80–101",
-  "signale_par": "consigne de collecte",
-  "raison": "seule l'introduction est présente localement (.sources/drive/ravennas) : commentaire non dépouillé"
- },
- {
-  "v": "80–101",
-  "lemme": "(Pollux)",
-  "categorie": "lexicographes",
-  "ref": "Poll. 4.115, 4.127–129 (Bethe I)",
-  "signale_par": "contrôle final",
-  "raison": "texte contrôlé sur Dindorf 1824 ; Bethe I non consulté (livres 6 : Bethe vu)"
- },
- {
-  "v": "80–101",
   "lemme": "(lexicographes non consultés)",
   "categorie": "lexicographes",
-  "ref": "Moeris ; Aelius Dionysius ; Pausanias Atticista ; Phryn. Ecl. ; Thomas Magister ; Etym. Genuinum et Gudianum ; Eustathe",
+  "ref": "Aelius Dionysius et Pausanias Atticista (Erbse) ; Thomas Magister ; Etymologicum Genuinum (hors α)",
   "signale_par": "consigne de collecte",
-  "raison": "absents de l'index et du Drive ; à dépouiller si les éditions sont acquises"
+  "raison": "absents de l'index et du Drive (Et. Gen. : seul le t. I de Lasserre–Livadaras, α, est local). Consultés le 21 nov. : Moeris (Hansen), Phrynichus, Eclogé (Fischer), Et. Gud. (Sturz), Eustathe (Od., Stallbaum, sur image ; Il., Valk, OCR bruité) : apports inscrits (Moer. κ 2, κ 56, τ 6 ; Eust. Od. 1587.48–49) ; Ael. Dion. μ 26 connu par Theodoridis (Phot. μ 605)"
  },
  {
   "v": "80–101",
@@ -45,7 +13,7 @@
   "categorie": "lexicographes",
   "ref": "Phrynichus PS (de Borries) ; Antiatticiste (Valente)",
   "signale_par": "contrôle final",
-  "raison": "cités d'après Bekker, Anecd. I, relu sur image ; numérotation moderne non contrôlée"
+  "raison": "cités d'après Bekker, Anecd. I, relu sur image ; éditions de Borries (1911) et Valente (2015) absentes : numérotation moderne non contrôlée"
  },
  {
   "v": "86",
@@ -54,126 +22,6 @@
   "ref": "Cerc. 18.5",
   "signale_par": "LSJ s.v. δικαία",
   "raison": "texte du fragment non trouvé dans le corpus (P.Oxy. 1082 absent du DCLP local) ; à voir sur une édition de Cercidas"
- },
- {
-  "v": "87",
-  "lemme": "μηχανήν",
-  "categorie": "comiques",
-  "ref": "Antiph. fr. 189 K.-A.",
-  "signale_par": "mémoire (= fr. 191 Kock)",
-  "raison": "numéro K.-A. non contrôlé ; le passage lui-même est vérifié et inscrit sous « Antiph. fr. 191.13–16 Kock » (Ath. 6.222b–223b ; Kock II p. 89)"
- },
- {
-  "v": "87",
-  "lemme": "μηχανήν",
-  "categorie": "proverbes",
-  "ref": "Érasme, Adages 3.5.81 (Si leonis pellis non satis est vulpina addenda)",
-  "signale_par": "Tosi n° 2223",
-  "raison": "épub local des Adages partiel ; adage absent ; aussi Phaedr. App. 23, Them. Περὶ φιλίας 279, non contrôlés"
- },
- {
-  "v": "90",
-  "lemme": "ἐν ταῖς γυναιξί",
-  "categorie": "aristophane",
-  "ref": "Ar. fr. 161 K.-A.",
-  "signale_par": "commentaire de l'auteur (vv. 90–1)",
-  "raison": "PCG III.2 local limité à fr. 40 ; peut-être = fr. 153 Kock (ἐν τοῖσι συνδείπνοις ἐπαινῶν Αἰσχύλον, Ath. 8.365b), à contrôler"
- },
- {
-  "v": "92",
-  "lemme": "στολὴν γυναικός",
-  "categorie": "comiques",
-  "ref": "Strattis (proverbe Γαλῇ χιτώνιον, Zen. 2.93)",
-  "signale_par": "Zen. 2.93",
-  "raison": "fragment non identifié dans K.-A. (PCG local incomplet)"
- },
- {
-  "v": "94",
-  "lemme": "ἡμέτερος ὁ πυραμοῦς",
-  "categorie": "proverbes",
-  "ref": "Taillardat, Images d'Aristophane § 847",
-  "signale_par": "commentaire de l'auteur",
-  "raison": "ouvrage absent de .sources"
- },
- {
-  "v": "97",
-  "lemme": "τυφλός",
-  "categorie": "comiques",
-  "ref": "Men. fr. 98a et 367 K.-Th.",
-  "signale_par": "Tosi n° 1966",
-  "raison": "édition Körte–Thierfelder absente"
- },
- {
-  "v": "97",
-  "lemme": "τυφλός",
-  "categorie": "prose",
-  "ref": "Liv. 32.34.3",
-  "signale_par": "Tosi n° 1966 ; Leutsch, CPG II p. 156, n.",
-  "raison": "pas de texte de Tite-Live local ; TEI Perseus introuvable à l'URN essayée"
- },
- {
-  "v": "97",
-  "lemme": "τυφλός",
-  "categorie": "proverbes",
-  "ref": "Érasme, Adages 1.8.93 (Vel caeco appareat)",
-  "signale_par": "Tosi n° 1966",
-  "raison": "épub local des Adages partiel"
- },
- {
-  "v": "97",
-  "lemme": "τυφλός (miroir)",
-  "categorie": "proverbes",
-  "ref": "Eust. Od. 1537.47 ; Plut. Boiss. 27",
-  "signale_par": "Leutsch, CPG I p. 460, n.",
-  "raison": "Eustathe et les Proverbes de Plutarque (Boissonade) absents de l'index"
- },
- {
-  "v": "98",
-  "lemme": "ἄνδρ' οὐδέν'",
-  "categorie": "comiques",
-  "ref": "Diocl. Com. Βάκχαι, numéro K.-A.",
-  "signale_par": "Antiatt. p. 87.2 Bekker",
-  "raison": "texte vu sur image ; numéro K.-A. non contrôlé"
- },
- {
-  "v": "98",
-  "lemme": "δωδεκαμήχανος",
-  "categorie": "proverbes",
-  "ref": "Taillardat, Images d'Aristophane § 734",
-  "signale_par": "commentaire de l'auteur",
-  "raison": "ouvrage absent de .sources"
- },
- {
-  "v": "100",
-  "lemme": "Μύρμηκος ἀτραπούς",
-  "categorie": "testimonium",
-  "ref": "Phot. μ 606 (numéro)",
-  "signale_par": "Latte, Hsch. μ 1904, test.",
-  "raison": "le texte est vérifié sur Naber I p. 432 ; le numéro de Theodoridis (t. II, Ε–Μ) n'a pas pu l'être : volume absent"
- },
- {
-  "v": "100",
-  "lemme": "Μύρμηκος ἀτραπούς",
-  "categorie": "proverbes",
-  "ref": "Érasme, Adages 4.6.80 (Quod qui inspuerit in cavernam formicarum, huic intumescant labra)",
-  "signale_par": "Tosi n° 707",
-  "raison": "épub local des Adages partiel (recherche « fourmi » sans résultat)"
- },
- {
-  "v": "100",
-  "lemme": "Μύρμηκος",
-  "categorie": "proverbes",
-  "ref": "Érasme, Adages 2.5.31 (Inest et formicae et serpho bilis)",
-  "signale_par": "Tosi (ad Ἔνεστι κἀν μύρμηκι χολή)",
-  "raison": "épub local des Adages partiel"
- },
- {
-  "v": "100",
-  "lemme": "Μύρμηκος ἀτραπούς",
-  "categorie": "proverbes",
-  "ref": "Taillardat, Images d'Aristophane § 784",
-  "signale_par": "commentaire critique de l'auteur",
-  "raison": "ouvrage absent de .sources"
  },
  {
   "v": "93",
@@ -190,14 +38,6 @@
   "ref": "Men. Asp. 368 (avec la note d'Austin)",
   "signale_par": "Austin–Olson 2004, ad 93",
   "raison": "Bouclier absent du corpus local : non vérifié"
- },
- {
-  "v": "93",
-  "lemme": "κομψόν",
-  "categorie": "comiques",
-  "ref": "Cratin. fr. 342 K.-A. ; Ar. fr. 488 K.-A.",
-  "signale_par": "concordance supposée avec Kock (frr. 307 et 471)",
-  "raison": "textes vérifiés et inscrits sous la numérotation de Kock ; numéros K.-A. non contrôlés (PCG absent)"
  },
  {
   "v": "95",
@@ -217,27 +57,11 @@
  },
  {
   "v": "100",
-  "lemme": "ἀτραπούς (la voie du chant)",
-  "categorie": "poetes",
-  "ref": "Emped. 31 B 24.2 DK",
-  "signale_par": "Austin–Olson 2004, ad 100",
-  "raison": "Diels–Kranz absent du corpus local ; recherche « ἀτραπὸν μίαν » infructueuse"
- },
- {
-  "v": "100",
   "lemme": "διαμινύρεται",
   "categorie": "poetes",
-  "ref": "Lyr. adesp. fr. 7.5 Powell ; PMG 1036.3",
+  "ref": "Lyr. adesp. fr. 7.5 Powell",
   "signale_par": "Austin–Olson 2004, ad 100 (μινυρίζω du chant d'oiseau)",
-  "raison": "Collectanea Alexandrina et PMG absents du corpus local"
- },
- {
-  "v": "100",
-  "lemme": "ἀτραπούς (la voie du chant)",
-  "categorie": "prose",
-  "ref": "Taillardat, Images d'Aristophane, p. 434 n. 1",
-  "signale_par": "Austin–Olson 2004, ad 100",
-  "raison": "ouvrage absent de .sources"
+  "raison": "Collectanea Alexandrina absentes du corpus et du Drive ; PMG 1036.3, signalé au même endroit, a été vérifié et inscrit (Page, PMG p. 545)"
  },
  {
   "v": "101",
@@ -254,5 +78,53 @@
   "ref": "Il. Parv. arg. 1.22–23 (Proclus)",
   "signale_par": "Austin–Olson 2004, ad 101–29",
   "raison": "Chrestomathie de Proclus absente du corpus local"
+ },
+ {
+  "v": "87",
+  "lemme": "μηχανήν (αἶρε δάκτυλον)",
+  "categorie": "lexicographes",
+  "ref": "Paus. Att. α 49 Erbse",
+  "signale_par": "Theodoridis ad Phot. α 646 (« = … Suid. αι 281 (= Paus. α 49) »)",
+  "raison": "Erbse, Untersuchungen zu den attizistischen Lexika, absent du corpus et du Drive"
+ },
+ {
+  "v": "87",
+  "lemme": "μηχανήν",
+  "categorie": "scholies",
+  "ref": "Σ Aristid. p. 75 Frommel",
+  "signale_par": "Meineke III p. 106 (ad Antiph. Ποίησις : ἔχομεν γὰρ πολλάκις ἐν τοῖς κωμικοῖς δράμασι θεοὺς φαινομένους διὰ μηχανῆς)",
+  "raison": "scholies d'Aelius Aristide (Frommel, Dindorf) absentes du corpus local"
+ },
+ {
+  "v": "87",
+  "lemme": "μηχανήν (ἀπὸ μηχανῆς)",
+  "categorie": "comiques",
+  "ref": "Men. Theophor. fr. 5 K.-Th. ; Men. fr. 951.12 K.-Th. ; Men. Theophor. fragm. 7 (PCG VI.1)",
+  "signale_par": "Kassel–Austin ad Alex. fr. 131.9 (PCG II p. 95) ; PCG VI.2 p. 150 (ad fr. 213)",
+  "raison": "Körte–Thierfelder et PCG VI.1 absents ; seuls les témoins de PCG VI.2 (fr. 213) sont vérifiés"
+ },
+ {
+  "v": "97",
+  "lemme": "τυφλός (κατόπτρῳ καὶ τυφλῷ)",
+  "categorie": "comiques",
+  "ref": "Com. adesp. fr. 903 K.-A. (Stob. 4.30.6a)",
+  "signale_par": "Tosi n° 1900",
+  "raison": "PCG VIII absent ; le vers est inscrit d'après Mant. Prov. 2.100 et Tosi"
+ },
+ {
+  "v": "97",
+  "lemme": "τυφλός (miroir)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 3.7.54 (Quid caeco cum speculo ?)",
+  "signale_par": "Tosi n° 1900",
+  "raison": "vol. III des Adages (Belles Lettres) absent du Drive ; Opera II (Leyde 1703) non relu pour cet adage"
+ },
+ {
+  "v": "100",
+  "lemme": "ἀτραπούς (la voie des paroles)",
+  "categorie": "poetes",
+  "ref": "Stob. 3.5.22 (Linus) ; Apost. 17.99a ?",
+  "signale_par": "recherche directe (chercher.py 'μυθων ατραπον' : Stob. Hense III p. 28, CPG II p. 714–715, OCR)",
+  "raison": "Φράζεο δὴ σπουδὴν ἐντυνάμενος δι᾽ ἀκουῆς μύθων ἡμετέρων ἀτραπὸν … : repéré par l'OCR seulement ; page de Hense et numéro d'Apostolius non relus sur l'image"
  }
 ]

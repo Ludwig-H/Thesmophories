@@ -5997,13 +5997,13 @@
   "categorie": "proverbes",
   "ref": "Tosi n° 1729",
   "urn": "drive:Grec/Proverbes/Dictionnaire sentences grecques et latines Tosi ROC/Dictionnaire des sentences latines et grecques by Renzo Tosi (z-lib.org) (1).txt",
-  "citation": "ἰατρέ. θεράπευσον σε αυτόν",
+  "citation": "Medice, cura te ipsum !",
   "traduction": "Médecin, soigne-toi toi-même",
   "verifie": "corpus",
-  "verification": "tosi.txt § 1148 (OCR : « σε αυτόν »)",
+  "verification": "tosi.txt § 1148, lemme du n° 1729 (le grec de Luc 4.23 que Tosi cite y est défiguré par l'OCR : « σε αυτόν » ; texte grec relevé d'après le corpus, NT Luke 4.23, même vers)",
   "signale_par": "recherche dans Tosi",
   "pertinence": 2,
-  "remarque": "« Medice, cura te ipsum » ; renvoie à Aesch. PV 473–475, Eur. fr. 1086, Sud. ε 3691"
+  "remarque": "Tosi traduit le lemme de Luc 4.23 (Ἰατρέ, θεράπευσον σεαυτόν, déjà relevé) et renvoie à Aesch. PV 473–475, Eur. fr. 1086, Sud. ε 3691 ; correction du 21/11 : citation ramenée au lemme latin"
  },
  {
   "v": "172",
@@ -13386,6 +13386,34 @@
  {
   "v": "185",
   "lemme": "ὡς δοκῶν εἶναι γυνή",
+  "categorie": "poetes",
+  "ref": "Thgn. 125–128",
+  "urn": "ia:poetaelyricigra03berggoog#n140",
+  "citation": "οὐδὲ γὰρ εἰδείης ἀνδρὸς νόον οὐδὲ γυναικός, / πρὶν πειρηθείης ὥσπερ ὑποζυγίου … πολλάκι γὰρ γνώμην ἐξαπατῶσ᾽ ἰδέαι",
+  "traduction": "tu ne saurais connaître l'esprit d'un homme ni d'une femme avant de l'avoir éprouvé comme une bête de somme… car souvent les apparences trompent le jugement",
+  "verifie": "scan",
+  "verification": "Bergk, PLG⁴ II, p. 130, vv. 125–128 (image n140 affichée et lue)",
+  "signale_par": "Tosi n° 2179 ; lexiques_proverbes.py (dépouillement des lexiques, 21/11)",
+  "pertinence": 2,
+  "remarque": "la maxime de l'apparence trompeuse, avec la paire homme / femme : Agathon, homme qui paraîtrait femme, trompera le jugement des femmes"
+ },
+ {
+  "v": "185",
+  "lemme": "ὡς δοκῶν εἶναι γυνή",
+  "categorie": "poetes",
+  "ref": "Pl. Resp. 2.365c (Simonide)",
+  "urn": "urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:2.365",
+  "citation": "οὐκοῦν, ἐπειδὴ τὸ δοκεῖν, ὡς δηλοῦσί μοι οἱ σοφοί, καὶ τὰν ἀλάθειαν βιᾶται καὶ κύριον εὐδαιμονίας",
+  "traduction": "eh bien, puisque le paraître, comme me le montrent les sages, fait violence même à la vérité et décide du bonheur",
+  "verifie": "corpus",
+  "verification": "chercher.py 'τὸ δοκεῖν καὶ ἀλάθειαν βιᾶται' ; p.py Pl. Resp. 2.365 (Perseus grc2, section 364e–365e) ; numéro PMG d'après Tosi n° 2179",
+  "signale_par": "Tosi n° 2179 ; LSJ s.v. βιάω (« Simon. 76 ») ; lexiques_proverbes.py (dépouillement des lexiques, 21/11)",
+  "pertinence": 2,
+  "remarque": "le δοκεῖν plus fort que l'être : cf. Aesch. Sept. 592 et Pl. Resp. 2.361b (déjà relevés), qui disent l'inverse ; le vers de Simonide est numéroté PMG 598 par Tosi (n° 2179) et Simon. 76 par LSJ (Bergk PLG⁴ III, p. 419–420) : numéros non contrôlés sur les éditions"
+ },
+ {
+  "v": "185",
+  "lemme": "ὡς δοκῶν εἶναι γυνή",
   "categorie": "prose",
   "ref": "Apollod. 3.13.8",
   "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2:3.13.8",
@@ -13466,6 +13494,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 1,
   "remarque": "le vers appliqué au théâtre même, comme une sentence (cf. Tosi, variante « Esse quam videri bonus malle », Sall. Cat. 54.6)"
+ },
+ {
+  "v": "185",
+  "lemme": "ὡς δοκῶν εἶναι γυνή",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 2179",
+  "urn": "drive:Grec/Proverbes/Dictionnaire sentences grecques et latines Tosi ROC/Page1551.pdf",
+  "citation": "Πολλάκι γὰρ γνώμην ἐξαπατῶσ᾽ ἰδέαι",
+  "traduction": "Souvent les apparences faussent le jugement",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 1563, n° 2179 (page du PDF « ROC » 1551 affichée et lue ; l'OCR tosi.txt, § 1407, porte la coquille ἑξαπατῶσ’)",
+  "signale_par": "lexiques_proverbes.py (dépouillement des lexiques, 21/11)",
+  "pertinence": 1,
+  "remarque": "Tosi rapproche Simonide (PMG 598) et Sénèque (Ben. 4.34.1 : Fallaces enim sunt rerum species) ; = Thgn. 128 (ci-dessus)"
  },
  {
   "v": "186",
@@ -13819,6 +13861,20 @@
  },
  {
   "v": "186",
+  "lemme": "σαφῶς σώσεις ἐμέ",
+  "categorie": "poetes",
+  "ref": "Hom. Il. 1.80–83",
+  "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.80",
+  "citation": "κρείσσων γὰρ βασιλεὺς ὅτε χώσεται ἀνδρὶ χέρηϊ … σὺ δὲ φράσαι εἴ με σαώσεις",
+  "traduction": "car un roi est plus fort, quand il s'irrite contre un inférieur… toi, dis-moi si tu me sauveras",
+  "verifie": "corpus",
+  "verification": "p.py Hom. Il. 1.80–83",
+  "signale_par": "Hsch. σ 303 (renvoi de l'éditeur à Α 83) ; lexiques_proverbes.py (dépouillement des lexiques, 21/11)",
+  "pertinence": 2,
+  "remarque": "Calchas, avant de parler, demande à Achille de le protéger contre la colère des puissants : Euripide demande à Agathon de le défendre contre celle des femmes (cf. v. 181)"
+ },
+ {
+  "v": "186",
   "lemme": "ὑπεραποκρίνῃ μου",
   "categorie": "prose",
   "ref": "Pl. Grg. 515c",
@@ -13956,5 +14012,33 @@
   "signale_par": "dépouillement d'Hésychius",
   "pertinence": 1,
   "remarque": "Hésychius glose σάφα par σαφῶς, φανερῶς, λαμπρῶς : le sens « manifestement » que relève Austin–Olson ; cf. Hsch. μ 160 μάλα σαφῶς· πάνυ φανερῶς"
+ },
+ {
+  "v": "186",
+  "lemme": "σώσεις",
+  "categorie": "lexicographes",
+  "ref": "Hsch. σ 303",
+  "urn": "",
+  "citation": "σαώσεις· σώσεις (Α 83)",
+  "traduction": "σαώσεις : tu sauveras",
+  "verifie": "corpus",
+  "verification": "chercher.py 'σώσεις' -a Hsch. -o gloses (Hansen III, p. 273)",
+  "signale_par": "dépouillement d'Hésychius ; lexiques_proverbes.py (dépouillement des lexiques, 21/11)",
+  "pertinence": 1,
+  "remarque": "la glose du vers de Calchas (Il. 1.83, ci-dessus)"
+ },
+ {
+  "v": "186",
+  "lemme": "σαφῶς (σοφῶς Bentley, Dobree)",
+  "categorie": "lexicographes",
+  "ref": "Hsch. σ 1374",
+  "urn": "",
+  "citation": "σοφῶς· εὐτάκτως, καλῶς",
+  "traduction": "σοφῶς : avec ordre, bien",
+  "verifie": "corpus",
+  "verification": "chercher.py 'σοφῶς' -a Hsch. -o gloses (Hansen III, p. 327)",
+  "signale_par": "répertoire critique (Enger 1844, p. 42 : σοφῶς Bentley, Dobree, reçu par Fritzsche) ; lexiques_proverbes.py (dépouillement des lexiques, 21/11)",
+  "pertinence": 1,
+  "remarque": "pour la conjecture σοφῶς (ὑπεραποκρίνῃ … σοφῶς, « habilement ») : Hésychius glose l'adverbe par καλῶς ; cf. Ar. Ran. 1434 et Vesp. 53 (déjà relevés)"
  }
 ]

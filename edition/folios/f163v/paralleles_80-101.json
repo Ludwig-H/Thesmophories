@@ -4333,8 +4333,8 @@
   "urn": "",
   "citation": "Deus ex machina",
   "traduction": "",
-  "verifie": "corpus",
-  "verification": "Tosi, Dictionnaire des sentences (texte du Drive), n° 1203 (pp. 893–894) ; chercher.py 'machina' --collection drive",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, n° 1203, p. 893 (PDF imprimé de ThesmoBiblio, idx 886, image lue le 21 nov.) ; auparavant : Tosi, Dictionnaire des sentences (texte du Drive), n° 1203 (pp. 893–894) ; chercher.py 'machina' --collection drive",
   "signale_par": "recherche directe (Tosi)",
   "pertinence": 2,
   "remarque": "Renvoie à [Pl.] Clit. 407a, Pl. Cra. 425d, [Dem.] 40.59."
@@ -4459,8 +4459,8 @@
   "urn": "drive:Grec/Proverbes/Dictionnaire sentences grecques et latines Tosi ROC/Dictionnaire des sentences latines et grecques by Renzo Tosi (z-lib.org) (1).txt#b863",
   "citation": "πάντα κάλων σείειν",
   "traduction": "",
-  "verifie": "corpus",
-  "verification": "chercher.py '\"παντα καλων σειειν\"' -a Tosi (§ 863 de l'index ; OCR du Drive, page non revue)",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, n° 1285, p. 955 (PDF imprimé de ThesmoBiblio, idx 948, image lue le 21 nov.) ; auparavant : chercher.py '\"παντα καλων σειειν\"' -a Tosi (§ 863 de l'index ; OCR du Drive, page non revue)",
   "signale_par": "recherche directe (Tosi)",
   "pertinence": 2,
   "remarque": "Tosi cite Poll. 1.107, Hsch. π 388, Phot. 378.14, Sud. π 221, Zen. 5.62, Greg. Cypr. 3.55, Macar. 2.15, Apost. 13.88."
@@ -5229,8 +5229,8 @@
   "urn": "drive:Grec/Proverbes/Dictionnaire sentences grecques et latines Tosi ROC/Dictionnaire des sentences latines et grecques by Renzo Tosi (z-lib.org) (1).txt#b371",
   "citation": "Αὐτόματοι δ' ἀγαθοὶ ἀγαθῶν ἐπὶ δαῖτας ἵενται",
   "traduction": "",
-  "verifie": "corpus",
-  "verification": "chercher.py 'Αγαθων*' -a Tosi (§§ 371–372 de l'index) ; page non revue",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, n° 516, p. 416–417 (PDF imprimé de ThesmoBiblio, idx 411–412, image lue le 21 nov.) ; auparavant : chercher.py 'Αγαθων*' -a Tosi (§§ 371–372 de l'index) ; page non revue",
   "signale_par": "recherche directe (Tosi)",
   "pertinence": 2,
   "remarque": "Tosi : Kassel corrige ἀγαθῶν en Ἀγάθωνος dans Platon, l'hôte du banquet."
@@ -7217,8 +7217,8 @@
   "urn": "drive:Grec/Proverbes/Dictionnaire sentences grecques et latines Tosi ROC/Dictionnaire des sentences latines et grecques by Renzo Tosi (z-lib.org) (1).txt#b1411",
   "citation": "Εἵματ' ἀνήρ",
   "traduction": "",
-  "verifie": "corpus",
-  "verification": "chercher.py 'vêtement' -a Tosi (§ 1411 de l'index) ; lemme grec déformé par l'OCR",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, n° 2186, p. 1568 (PDF imprimé de ThesmoBiblio, idx 1557, image lue le 21 nov.) ; auparavant : chercher.py 'vêtement' -a Tosi (§ 1411 de l'index) ; lemme grec déformé par l'OCR",
   "signale_par": "recherche directe (Tosi)",
   "pertinence": 1,
   "remarque": "« Un homme se résume à ses vêtements » : pour Tosi, sans origine antique (reconstruction de Scaliger ; Érasme, Adages 3.1.60)."
@@ -7231,8 +7231,8 @@
   "urn": "drive:Grec/Proverbes/Dictionnaire sentences grecques et latines Tosi ROC/Dictionnaire des sentences latines et grecques by Renzo Tosi (z-lib.org) (1).txt#b144",
   "citation": "Meos tam suspicione quam crimine iudico carere",
   "traduction": "",
-  "verifie": "corpus",
-  "verification": "tosi.py 144 (index § 144 ; OCR du Drive, page non revue)",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, n° 168, p. 163 (PDF imprimé de ThesmoBiblio, idx 159, image lue le 21 nov.) ; auparavant : tosi.py 144 (index § 144 ; OCR du Drive, page non revue)",
   "signale_par": "recherche directe (Tosi)",
   "pertinence": 2,
   "remarque": "Le mot de César après l'affaire de Clodius travesti en femme (Suet. Iul. 74.4 ; Plut. Caes. 10, Cic. 29.9 : voir aussi Plut. Caes. 10.1, v. 92)."
@@ -11034,6 +11034,20 @@
  {
   "v": "97",
   "lemme": "τυφλός",
+  "categorie": "prose",
+  "ref": "Luc. Ind. 19",
+  "urn": "urn:cts:greekLit:tlg0062.tlg028.perseus-grc2:19",
+  "citation": "οὐ μᾶλλον ἢ φαλακρὸς ἄν τις πρίαιτο κτένας ἢ κάτοπτρον ὁ τυφλὸς ἢ ὁ κωφὸς αὐλητὴν ἢ παλλακὴν ὁ εὐνοῦχος ἢ ὁ ἠπειρώτης κώπην ἢ ὁ κυβερνήτης ἄροτρον",
+  "traduction": "« pas plus qu'un chauve n'achèterait des peignes, ou un aveugle un miroir, un sourd un joueur d'aulos, un eunuque une concubine, un terrien une rame, un pilote une charrue »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'τυφλος κατοπτρον' -a Luc (Perseus 19)",
+  "signale_par": "recherche directe (chercher.py 'τυφλος κατοπτρον')",
+  "pertinence": 1,
+  "remarque": "La série même d'App. Prov. 5.12 (Φαλακρὸς κτένα … Κάτοπτρον ὁ τυφλός …), dont Lucien fait une phrase."
+ },
+ {
+  "v": "97",
+  "lemme": "τυφλός",
   "categorie": "lexicographes",
   "ref": "Hsch. τ 1700",
   "urn": "",
@@ -11113,7 +11127,7 @@
   "verification": "CPG II, p. 774, l. 5 (archive.org corpusparoemiogr02leutuoft n809, image ; Centuria II, p. 773, en-tête) ; LSJ s.v. κάτοπτρον (Com. ap. Stob. 4.30.6a)",
   "signale_par": "recherche directe (τυφλ- chez les parémiographes)",
   "pertinence": 2,
-  "remarque": "Même moule que τίς δαὶ κατόπτρου καὶ ξίφους κοινωνία; (Thesm. 140, sur Agathon). Vers donné par Stob. Flor. 90.8 (Meineke IV, p. 552, n. : Pseudo-Épicharme selon des éditeurs ; κατόπτρῳ καὶ τυφλῷ ? Meineke) ; LSJ s.v. κάτοπτρον : Com. ap. Stob. 4.30.6a. Cf. App. Prov. 5.12."
+  "remarque": "Même moule que τίς δαὶ κατόπτρου καὶ ξίφους κοινωνία; (Thesm. 140, sur Agathon). Vers donné par Stob. Flor. 90.8 (Meineke IV, p. 552, n. : Pseudo-Épicharme selon des éditeurs ; κατόπτρῳ καὶ τυφλῷ ? Meineke) ; LSJ s.v. κάτοπτρον : Com. ap. Stob. 4.30.6a. Cf. App. Prov. 5.12. Tosi (n° 1900) : troisième vers d'un fragment comique, com. adesp. fr. 903 K.-A. (Stob. 4.30.6a) ; attribution à Épicharme due à une lacune chez Stobée."
  },
  {
   "v": "97",
@@ -11212,6 +11226,34 @@
   "signale_par": "recherche directe (τυφλ- dans CPG)",
   "pertinence": 1,
   "remarque": "Rubrique ἐπὶ δὲ ἀδυνάτων πραγμάτων ; voisin de Κωφῷ ὁμιλεῖς (n° 43)."
+ },
+ {
+  "v": "97",
+  "lemme": "τυφλός",
+  "categorie": "proverbes",
+  "ref": "Eust. Od. 1587.48–49",
+  "urn": "",
+  "citation": "Ὅτι οὐδὲν μὲν θεάτρου μέτον τυφλῷ ἀνδρὶ ὥσπερ οὐδὲ κατόπτρου κατὰ τὴν παροιμίαν",
+  "traduction": "« un aveugle n'a aucune part au théâtre, pas plus qu'au miroir, selon le proverbe »",
+  "verifie": "scan",
+  "verification": "Stallbaum I, p. 286, ll. 2–3 (marge de Rome : 1587, l. 50 à la 4e ligne) (PDF du Drive « Eustathii … ad Homeri Odysseam. Vol. 1 », idx 298, image) ; la couche texte du PDF (grec translittéré) est inexploitable",
+  "signale_par": "Tosi n° 1900 (« Eustathe, Commentaire sur l'Odyssée, 1587, 47 »)",
+  "pertinence": 2,
+  "remarque": "Le proverbe de l'aveugle et du miroir, rapporté au théâtre : le Parent, devant l'eccyclème, se dit aveugle (v. 97) ; Agathon a un miroir (v. 140). Cf. Mant. Prov. 2.100, App. Prov. 5.12, Plut. Boiss. 27."
+ },
+ {
+  "v": "97",
+  "lemme": "τυφλός",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 1900",
+  "urn": "",
+  "citation": "Τίς γὰρ κατόπτρῳ καὶ τυφλῷ κοινωνία; Qu'y a-t-il de commun entre un aveugle et un miroir ?",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, n° 1900, p. 1386 (PDF du Drive, ThesmoBiblio, idx 1376, image ; trouvé par tosi_trouver.py)",
+  "signale_par": "recherche directe (chercher.py 'τυφλος κατοπτρον' -a Tosi)",
+  "pertinence": 2,
+  "remarque": "Tosi : « troisième vers d'un fragment comique (903 K.-A.) attesté par Stobée (4, 30, 6a) », répertorié par Mant. Prov. 2.100 avec τυφλῷ κάτοπτρον χαρίζῃ (Plut. 27) et κάτοπτρον ὁ τυφλός (App. Prov. 5.12 ; Eust. Od. 1587, 47) ; attribution à Épicharme erronée (lacune chez Stobée) ; Érasme, Adag. 3.7.54 Quid caeco cum speculo ?"
  },
  {
   "v": "98",
@@ -12923,6 +12965,20 @@
  },
  {
   "v": "100",
+  "lemme": "διαμινύρεται",
+  "categorie": "poetes",
+  "ref": "Lyr. adesp. PMG 1036.3",
+  "urn": "",
+  "citation": "ἀνά⟨ρ⟩θροις μινυρίσμ[ασιν",
+  "traduction": "« par d'inarticulés fredonnements »",
+  "verifie": "scan",
+  "verification": "Page, PMG, p. 545, fr. 1036 (Waddell, Études de Papyrologie 4, 1938, pp. 121–122 ; papyrus des IIe/IIIe s. p.C.) (PDF du Drive, idx 554, image)",
+  "signale_par": "Austin–Olson 2004, ad 100 (μινυρίζω du chant d'oiseau)",
+  "pertinence": 1,
+  "remarque": "Le μινύρισμα est ici le chant des oiseaux (κόσσυφος au v. 5, μουσικὸς ὄρνις au v. 8) : διαμινύρεται assimile le chant d'Agathon à un gazouillis."
+ },
+ {
+  "v": "100",
   "lemme": "Μύρμηκος ἀτραπούς",
   "categorie": "prose",
   "ref": "Ael. NA 6.43",
@@ -13797,8 +13853,8 @@
   "urn": "",
   "citation": "Ὁ πτύσας εἰς μυρμηκιὰν οἰδεῖ τὰ χείλη",
   "traduction": "« Qui crache sur une fourmilière a les lèvres gonflées »",
-  "verifie": "corpus",
-  "verification": "Tosi, Dictionnaire des sentences (texte du Drive), n° 707 ; texte grec = Hsch. μ 1903 (image)",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, n° 707, p. 551 (PDF imprimé de ThesmoBiblio, idx 545, image lue le 21 nov.) ; auparavant : Tosi, Dictionnaire des sentences (texte du Drive), n° 707 ; texte grec = Hsch. μ 1903 (image)",
   "signale_par": "recherche directe (Tosi)",
   "pertinence": 2,
   "remarque": "Tosi renvoie à Dinolochus fr. 12 K.-A. ; à Érasme, Adages 4.6.80 (d'après Tosi, non contrôlé)."

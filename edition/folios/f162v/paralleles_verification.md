@@ -109,3 +109,23 @@ Tout retrouvé et exact : Eur. fr. 484.2–3 et 839.12–14 N.² (numérotation 
 DK dans Simplicius (la césure ἐκί-νησεν du TEI expliquait l'échec de la recherche automatique) ;
 Ov. *Met.* 1.6 ; Pl. *Prt.* 320c ; la note « τέως ; cf. van Leeuwen ad l. » (Plut. 834) est conforme à
 van Leeuwen 1904 (v. 13 : *olim*, renvoi à Plut. 834). Aucune correction.
+
+### v. 14 (3 articles ; 38 parallèles + 3 témoins fusionnés)
+
+Tout retrouvé. Contrôles notables : Emp. 31 A 49 DK (DK I⁶ p. 292 : Aët. II 6, 3) ; Anaxag. 59 B 2,
+8, 12 DK (Simplicius) ; Eur. fr. 52.3–4, 487, 839.1–3, 877, 941, 1023, 330.1–2 N.² ; Aesch. fr. 70 N.²
+(TGF² p. 24). Corrections :
+
+- **Emp. 31 A 49 DK ([Plu.] *Plac.* 2.6)** (référence) → 887a–b (et non 887c), d'après les jalons de
+  Stephanus.
+- **Ar. *Av.* 1400a** (référence) → 1400 (artefact de Perseus ; LSJ s.v. ἀλίμενος).
+- **Pl. *Phd.* 109b** (référence) → 109b–c.
+
+### vv. 15–16 (3 articles ; 25 parallèles)
+
+Tout retrouvé. Contrôles notables : Emp. 31 B 86, 87 DK (DK I⁶ p. 343, Simp. in Cael. 529.21, 24) ;
+Eur. fr. 839.3–5 et 898.7–12 N.² ; Aesch. fr. ap. Ath. 13.600b ; Pl. *Phd.* 96b, *Ti.* 45b, *R.*
+507c, *Smp.* 212a. Correction :
+
+- **Eur. fr. 484 N.²** (référence, citation) → 484.3–6 (et non 3–5) : γένος τε θνητῶν est le v. 6 chez
+  Nauck (TGF² p. 511), que le TEI réunit au v. 5 ; coupe rétablie.

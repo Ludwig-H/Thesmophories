@@ -725,21 +725,21 @@
   "verification": "Synag. (Cunningham) p. 283 [PDF p. 289] ; parallèles de l’éd. : Su. κ 156, Ph. κ 90, EM 484, 50",
   "signale_par": "test. de Hsch. κ 327",
   "pertinence": 2,
-  "remarque": ""
+  "remarque": "Idem Phot. κ 90 (Theodoridis II, p. 350 : κακοδαίμων· ὁ θεῷ †ἐπαχθής†· καὶ ὁ τὴν ψυχὴν ἔχων ἐμπαθῆ)"
  },
  {
   "v": "209",
   "lemme": "ὦ τρισκακόδαιμον",
-  "categorie": "lexicographes",
-  "ref": "Sud. α 1446",
+  "categorie": "aristophane",
+  "ref": "Ar. fr. 339 K.-A. (= 324 Kock ; Θεσμοφοριάζουσαι β´ ; Phot. α 1065 = Sud. α 1446)",
   "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:1.A.1446",
-  "citation": "οἴμοι κακοδαίμων τῆς τόθ᾿ ἡμέρας, ὅτε εἶπέ μ᾿ ὁ κῆρυξ",
+  "citation": "οἴμοι κακοδαίμων τῆς τόθ᾽ ἡμέρας, ὅτε / εἶπέν μ᾽ ὁ κῆρυξ· οὗτος ἀλφάνει",
   "traduction": "",
   "verifie": "corpus",
-  "verification": "chercher.py ; Souda TEI ; Synag. (Σ‴) α 955 : Ἀριστοφάνης Θεσμοφοριαζούσαις (fr. 339)",
+  "verification": "chercher.py ; Souda TEI ; Synag. (Σ‴) α 955 : Ἀριστοφάνης Θεσμοφοριαζούσαις (fr. 339) ; PCG III.2, p. 192, fr. 339 (324) (PDF p. 221), image lue ; Phot. α 1065 (Theodoridis I, p. 114) au corpus",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "Thesmophories II, fr. 339 K.-A. d’après Cunningham : même exclamation dans l’autre pièce du même nom"
+  "remarque": "Secondes Thesmophories (fr. 339 K.-A.) : même exclamation dans l'autre pièce du même nom. Kassel–Austin, app. : « οἴμοι κακοδαίμων cum gen. Ach. 1036, Nub. 1324 »."
  },
  {
   "v": "210",
@@ -2517,7 +2517,7 @@
   "verification": "Synag. (Cunningham) p. 266 [PDF p. 272] ; parallèles de l’éd. : Su. θ 523, Ph. θ 191",
   "signale_par": "test. de Hsch. θ 622",
   "pertinence": 2,
-  "remarque": ""
+  "remarque": "Idem Phot. θ 191 (Theodoridis II, p. 302 : θοἰμάτιον· τὸ ἱμάτιον)"
  },
  {
   "v": "214",
@@ -5415,7 +5415,7 @@
   "verification": "chercher.py '\"γενναῖος εἶ\"' --sans-ocr",
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
-  "remarque": "la langue proverbiale connaît γενναῖος εἶ, et l’attache à la richesse : le compliment est adressé au riche Agathon"
+  "remarque": "la langue proverbiale connaît γενναῖος εἶ, et l’attache à la richesse : le compliment est adressé au riche Agathon. Idem Phot. γ 59 (Theodoridis I, p. 355 : γενναῖος εἶ ἐκ βαλαντίου· ἐπὶ τῶν διὰ τὸν πλοῦτον εὐγενῶν εἶναι δοκούντων)"
  },
  {
   "v": "220",
@@ -7879,7 +7879,7 @@
   "verification": "Synag. (Cunningham) p. 152 [PDF p. 158] ; parallèles : Ph. γ 57, Et. Gen. ; var. καταγέλαστος CD (app. de l’éd.)",
   "signale_par": "test. de Hsch. γ 311",
   "pertinence": 2,
-  "remarque": ""
+  "remarque": "Idem Phot. γ 57 (Theodoridis I, p. 355 : γελοῖος· ὁ καταγελαστότατος, προπερισπωμένως. †ὀξυτόνως† δὲ ὁ γελωτοποιός)"
  },
  {
   "v": "226",
@@ -12723,7 +12723,7 @@
   "verification": "chercher.py '\"ἀτρέμας βοῦς\"' (CPG I, p. 215, Leutsch–Schneidewin, First1KGreek)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 1,
-  "remarque": "proverbe à ἀτρέμας chez les parémiographes : rapprochement de mot seulement"
+  "remarque": "proverbe à ἀτρέμας chez les parémiographes : rapprochement de mot seulement. Idem Apost. 4.24 (CPG II, p. 316 ; = Arsen. 6.8), inscrit à part ; commenté par Érasme, Adag. 1003 et 47"
  },
  {
   "v": "222",
@@ -13032,5 +13032,201 @@
   "signale_par": "Austin–Olson 2004, p. 123–124 (ad 211–12 : « Antiph. fr. 217.6 »)",
   "pertinence": 2,
   "remarque": "Même tour οἰμώζειν μακρά ; les manuscrits CE d'Athénée ont μακράν."
+ },
+ {
+  "v": "230",
+  "lemme": "ἀτρέμα",
+  "categorie": "proverbes",
+  "ref": "Apost. 4.24",
+  "urn": "",
+  "citation": "Ἀτρέμας βοῦς· ἐπὶ τῶν βραδέως συντελούντων.",
+  "traduction": "« le bœuf tranquille » : pour ceux qui achèvent lentement leur ouvrage",
+  "verifie": "scan",
+  "verification": "CPG II (Leutsch), p. 316, Apost. IV 24 (exemplaire du Drive, PDF p. 923), image lue ; index du CPG II, p. 796 : « ἀτρεμὰς βοῦς Ap IV 24 » (PDF p. 1403), image lue ; notes : « Diog. III, 9 : Arsen. VI, 8. Subaudiendum est : movet pedem »",
+  "signale_par": "index du CPG II (renvoi resté illisible dans l’OCR lors de la passe précédente)",
+  "pertinence": 1,
+  "remarque": "Même proverbe, même explication que Diogenian. 3.9 (inscrit) : redondant, à grouper avec lui (micro-apparat : idem Apost. 4.24, Arsen. 6.8)."
+ },
+ {
+  "v": "230",
+  "lemme": "ἀτρέμα",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 2.1.3 (n° 1003)",
+  "urn": "",
+  "citation": "Placide bos. Ἀτρέμας βοῦς, id est Lente bos, subaudiendum incedit aut simile quippiam. Congruet in illos, qui placide ac paulatim citraque tumultum, sed tamen assiduitate rem conficiunt.",
+  "traduction": "« Doucement, le bœuf » : on sous-entend « avance » ; cela conviendra à ceux qui viennent à bout de leur tâche tranquillement, peu à peu, sans bruit, mais avec assiduité",
+  "verifie": "corpus",
+  "verification": "Érasme, Les Adages (éd. Belles Lettres), t. II, adage 1003 (PDF p. 43 du fichier « 2 1000-2000 Les Adages »), couche texte lue ; cf. adage 47 (1.1.47 Bos lassus fortius figit pedem : « … Ἀτρέμας βοῦς, id est Lente bos, subaudiendum movet pedem », t. I, PDF p. 217)",
+  "signale_par": "recherche dans le corpus (Ἀτρέμας βοῦς)",
+  "pertinence": 1,
+  "remarque": "Le proverbe grec de l'ἀτρέμα, glosé par Érasme : lenteur tranquille et assidue. Pour mémoire, l'injonction ἔχ’ ἀτρέμα d’Euripide est d'un tout autre ton."
+ },
+ {
+  "v": "216",
+  "lemme": "τὰ κάτω δ᾽ ἀφεύειν",
+  "categorie": "lexicographes",
+  "ref": "Phot. ε 2343",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf339",
+  "citation": "εὗστραι· βόθυνοι, ἐν οἷς χοῖροι ἀφεύονται καὶ ἕτερα ἱερεῖα.",
+  "traduction": "« εὗστραι » : fosses où l'on flambe les porcs et les autres victimes",
+  "verifie": "scan",
+  "verification": "Phot. (Theodoridis) II, p. 222, ε 2343 (PDF p. 339), image lue ; cf. ε 2347 εὗστραι· βόθροι, ἐν οἷς οἱ σῦς εὕονται, et ε 2342 εὗστρα, οὐχὶ φλογίστρα ; test. de Theodoridis : Et. Gen. A B s.v. εὗστρα (ἀφεύονται A B, εὕονται EM), EM 398, 32, Eust. 1446, 21, Σ Ar. Eq. 1236a, Hsch. ε 7176, ε 7216",
+  "signale_par": "dépouillement de Photius (Theodoridis II)",
+  "pertinence": 3,
+  "remarque": "Le verbe même du vers (ἀφεύω) appliqué au flambage des porcs dans les εὗστραι : l'image du cochon flambé, qu'Euripide annonce ici et que Mnésiloque reprend au v. 237 (δελφάκιον)."
+ },
+ {
+  "v": "216",
+  "lemme": "τὰ κάτω δ᾽ ἀφεύειν",
+  "categorie": "aristophane",
+  "ref": "Ar. Eq. 1236",
+  "urn": "urn:cts:greekLit:tlg0019.tlg002.perseus-grc2:1236",
+  "citation": "ἐν ταῖσιν εὕστραις κονδύλοις ἡρμοττόμην.",
+  "traduction": "dans les fosses à flamber, c'est à coups de poing qu'on m'accordait",
+  "verifie": "corpus",
+  "verification": "chercher.py 'εὑστραις' (Perseus) ; Zonar. (Tittmann) s.v. Εὔστρα (ia:lexiconextribus00albegoog#n588) cite le vers",
+  "signale_par": "Theodoridis, test. à Phot. ε 2342–2343 (« sch. Ar. Equ. 1236a »)",
+  "pertinence": 2,
+  "remarque": "Le Charcutier formé « dans les εὗστραι », fosses où l'on flambe les porcs : même univers que ἀφεύειν."
+ },
+ {
+  "v": "216",
+  "lemme": "τὰ κάτω δ᾽ ἀφεύειν",
+  "categorie": "scholies",
+  "ref": "Σ Ar. Eq. 1236",
+  "urn": "ia:scholiagraecain00unkngoog#n127",
+  "citation": "εὕστραις· ἀντὶ τοῦ φλογίστραις, ὅπου τὰ ἱερεῖα θύεται. λέγει δὲ ὡς μάγειρος. ἄλλως. ἐν τοῖς μαγειρείοις. εὕστρα γὰρ τὸ μαδιστήριον, ἀπὸ τοῦ εὕειν καὶ φλογίζειν τοὺς χοίρους.",
+  "traduction": "« dans les fosses » : au lieu de « flamboirs », où l'on sacrifie les victimes … car εὕστρα est l'épiloir, de εὕειν, flamber les porcs",
+  "verifie": "scan",
+  "verification": "Dübner 1842, p. 73, col. 1, l. 37–40 (copie locale .sources/web/editions/1842_Paris_Dubner_scholia, PDF p. 128), image lue",
+  "signale_par": "Theodoridis, test. à Phot. ε 2342–2343",
+  "pertinence": 2,
+  "remarque": "εὕειν, « flamber » pour épiler (μαδιστήριον) les porcs : la glose éclaire le sens de ἀφεύειν au v. 216 et l'image du v. 237."
+ },
+ {
+  "v": "222",
+  "lemme": "οἴμοι. τί κέκραγας;",
+  "categorie": "lexicographes",
+  "ref": "Phot. κ 536",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf505",
+  "citation": "κεκραγμόν· τὴν βοήν.",
+  "traduction": "« criaillerie » : le cri",
+  "verifie": "corpus",
+  "verification": "Phot. (Theodoridis) II, κ 536 (PDF p. 505), couche texte ; test. de Theodoridis (PDF p. 560) : Antiatt. 103, 10 κραυγὴν ποιῆσαι· ἀντὶ τοῦ κραυγάσαι ; Moer. p. 201, 13 Bk. κεκραγμὸς Ἀττικοί, κραυγὴ Ἕλληνες ; Thom. 196, 8",
+  "signale_par": "dépouillement de Photius (Theodoridis II)",
+  "pertinence": 1,
+  "remarque": "Le substantif attique de κέκραγα (cf. Moer. p. 201, 13 Bekker, inscrit)."
+ },
+ {
+  "v": "221",
+  "lemme": "φύσα τὴν γνάθον τὴν δεξιάν",
+  "categorie": "lexicographes",
+  "ref": "Phot. ε 2083",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf317",
+  "citation": "ἑτερόγναθος· ἀπειθής. ἢ ὁ ἄπληστος καὶ ἀμφοτέραις ταῖς γνάθοις ἐσθίων.",
+  "traduction": "« à une seule mâchoire » : rétif ; ou le glouton qui mange des deux mâchoires",
+  "verifie": "corpus",
+  "verification": "Phot. (Theodoridis) II, p. 200, ε 2083 (PDF p. 317), couche texte ; test. : = Suid. ε 3289 ; Hsch. ε 6557 ; Et. Gen. s.v. ἑτερόγναθος ἵππος",
+  "signale_par": "dépouillement de Photius (Theodoridis II)",
+  "pertinence": 1,
+  "remarque": "Le cheval « à une seule mâchoire » (rétif d'un côté) : jeu possible avec l'ordre de ne gonfler que la joue droite."
+ },
+ {
+  "v": "229",
+  "lemme": "κακοδαίμων ἐγώ",
+  "categorie": "comiques",
+  "ref": "Pherecr. fr. 118 K.-A. (= 117 Kock ; Μυρμηκάνθρωποι ; Phot. α 525)",
+  "urn": "",
+  "citation": "οἴμοι κακοδαίμων, αἰγὶς αἰγὶς ἔρχεται",
+  "traduction": "malheur à moi ! la bourrasque, la bourrasque arrive",
+  "verifie": "scan",
+  "verification": "PCG VII, p. 162, fr. 118 (117) (PDF p. 197), image lue ; Phot. α 525 (Theodoridis I) au corpus : αἰγίς· καταιγίς. Φερεκράτης Μυρμηκανθρώποις· „οἴμοι κακοδαίμων, αἰγὶς ἔρχεται“ (= Sud. αι 61)",
+  "signale_par": "dépouillement de Photius (Theodoridis I)",
+  "pertinence": 1,
+  "remarque": "οἴμοι κακοδαίμων, exclamation comique de détresse (cf. Thesm. 232, 237)."
+ },
+ {
+  "v": "218",
+  "lemme": "ξυρόν (locutions proverbiales)",
+  "categorie": "scholies",
+  "ref": "Σ vet. Soph. Aj. 786",
+  "urn": "urn:cts:greekLit:tlg5037.tlg004.1st1K-grc1:1.786",
+  "citation": "ξυρεῖ γὰρ ἐν χρῷ· ἅπτεται τῶν ἀναγκαίων τοῦ χρωτός· καὶ ἔστι παροιμία ἐπὶ τῶν ἐπικινδύνων πραγμάτων ξυρεῖ ἐν χρῷ· ἐνίοτε γὰρ καὶ τοῦ σώματος ἐφάπτεται ὁ σίδηρος.",
+  "traduction": "« car il rase au ras de la peau » : il touche aux parties vitales ; c'est un proverbe pour les affaires périlleuses, car parfois le fer atteint aussi le corps",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"ξυρεῖ ἐν χρῷ\"' (First1K, Σ Soph. vet. 1.786) ; même scholie citée par Leutsch, CPG II, p. 548 (note à Apost. 12.23), qui renvoie à Plaut. Bacch. II 3, 8",
+  "signale_par": "Tosi, Dictionnaire, n° 750 (Soph. Aj. 786, Apost. 12.23) ; CPG II, p. 548",
+  "pertinence": 2,
+  "remarque": "La scholie donne ξυρεῖ ἐν χρῷ pour proverbial (danger extrême, le rasoir entame la peau) : à grouper avec Soph. Aj. 786 et Apost. 12.23, déjà inscrits."
+ },
+ {
+  "v": "218",
+  "lemme": "ξυρόν (locutions proverbiales)",
+  "categorie": "comiques",
+  "ref": "Plaut. Bacch. 241–242",
+  "urn": "phi0119.phi004.perseus-lat2:241",
+  "citation": "adibo hunc, quem quidem ego hodie faciam hic arietem / Phrixi, itaque tondebo auro usque ad vivam cutem.",
+  "traduction": "je vais l'aborder, lui dont je ferai aujourd'hui le bélier de Phrixos : je le tondrai de son or jusqu'au vif",
+  "verifie": "corpus",
+  "verification": "Perseus, canonical-latinLit, phi0119.phi004.perseus-lat2.xml (Bacchides, v. 241–242), copie locale .sources/web/latin_perseus/, texte lu",
+  "signale_par": "Tosi, Dictionnaire, n° 750 (« Tondebo... usque ad vivam cutem, Bacchides, 242 ») ; Érasme, Adag. 1313 ; Leutsch, CPG II, p. 548",
+  "pertinence": 1,
+  "remarque": "« Tondre jusqu'au vif » au sens de « plumer, duper » : équivalent latin du proverbe ξυρεῖ ἐν χρῷ ; Érasme note que tondere pour deludere est aussi proverbial chez les Grecs."
+ },
+ {
+  "v": "218",
+  "lemme": "ξυρόν (locutions proverbiales)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 2.4.13 (n° 1313)",
+  "urn": "",
+  "citation": "Ad vivum resecare … Mutuo sumpta metaphora a tonsoribus capillos aut ungues resecantibus, nam ii saepenumero molesti sunt, dum nimium diligentes esse student. … Plautus in Bacchidibus sub persona Chrysali : Tondebo auro usque ad vivam cutem. Et hoc ipsum tondere pro deludere Graecis in proverbio est.",
+  "traduction": "« Couper jusqu'au vif » : métaphore empruntée aux barbiers qui taillent cheveux et ongles, car ils sont souvent pénibles à force de vouloir être trop soigneux … et « tondre » pour « duper » est aussi un proverbe chez les Grecs",
+  "verifie": "corpus",
+  "verification": "Érasme, Les Adages (éd. Belles Lettres), t. II, p. 220, adage 1313 (PDF p. 449 du fichier « 2 1000-2000 Les Adages »), couche texte lue ; cf. adage 2234 Radit usque ad cutem (titre lu dans l'index du t. V, texte non indexé)",
+  "signale_par": "Tosi, Dictionnaire, n° 750 (Érasme, Adag. 2, 4, 13 et 3, 3, 34)",
+  "pertinence": 1,
+  "remarque": "Le barbier trop zélé d'Érasme : clin d'œil possible à Euripide rasant Mnésiloque."
+ },
+ {
+  "v": "221",
+  "lemme": "φύσα τὴν γνάθον τὴν δεξιάν",
+  "categorie": "prose",
+  "ref": "Lib. Or. 2.46",
+  "urn": "urn:cts:greekLit:tlg2200.tlg00402.opp-grc1:46",
+  "citation": "καὶ τῶν μὲν τεταπεινωμένων, τῶν δὲ τὰς γνάθους φυσώντων",
+  "traduction": "les uns humiliés, les autres gonflant les joues",
+  "verifie": "corpus",
+  "verification": "chercher.py 'γναθους' -a Liban (Or. 2.46, éd. Foerster, OpenGreekAndLatin), passage lu",
+  "signale_par": "Tosi, Dictionnaire, n° 1510 (Inflatis buccis : « Libanios, Or., 2, 46 »)",
+  "pertinence": 1,
+  "remarque": "φυσᾶν τὰς γνάθους, image figée de l'arrogance (Tosi n° 1510, avec Dem. 19.314, inscrit) ; chez Aristophane le geste est pris au pied de la lettre pour le rasage."
+ },
+ {
+  "v": "221",
+  "lemme": "φύσα τὴν γνάθον τὴν δεξιάν",
+  "categorie": "prose",
+  "ref": "Lib. Decl. 33.42",
+  "urn": "urn:cts:greekLit:tlg2200.tlg00533.opp-grc1:41",
+  "citation": "παρ᾽ οἷς οὐδὲν ἂν εὕροις ἢ γνάθους πεφυσημένας, τὰ δ᾽ ἔνδον λιμὸς πολύς",
+  "traduction": "chez qui tu ne trouverais que des joues gonflées, et au-dedans une grande famine",
+  "verifie": "corpus",
+  "verification": "chercher.py 'γναθους' -a Liban (Decl. 33, § 42, OpenGreekAndLatin, passage indexé sous 41), lu",
+  "signale_par": "Tosi, Dictionnaire, n° 1510 (« Déclamations, 33, 1, 42 »)",
+  "pertinence": 1,
+  "remarque": "Les « joues gonflées » des vantards, opposées au vide intérieur."
+ },
+ {
+  "v": "221",
+  "lemme": "φύσα τὴν γνάθον τὴν δεξιάν",
+  "categorie": "poetes",
+  "ref": "Pers. 5.13",
+  "urn": "phi0969.phi001.perseus-lat2:5.13",
+  "citation": "tumidas intendis rumpere buccas",
+  "traduction": "tu t'efforces de faire éclater tes joues gonflées",
+  "verifie": "corpus",
+  "verification": "Perseus, phi0969.phi001.perseus-lat2.xml (copie locale .sources/web/latin_perseus/), Sat. 5, v. 13, lu (le TEI imprime « seloppo », sans doute pour scloppo : mot non cité)",
+  "signale_par": "Tosi, Dictionnaire, n° 1510 (Inflatis buccis : « Perse (5, 13) »)",
+  "pertinence": 1,
+  "remarque": "Les joues gonflées du poète emphatique : équivalent latin (buccas inflare) de φυσᾶν τὰς γνάθους (cf. Hor. Sat. 1.1.20–21 et Plaut. Stich. 767, inscrits)."
  }
 ]

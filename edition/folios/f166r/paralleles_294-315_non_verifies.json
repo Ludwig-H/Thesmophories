@@ -1,14 +1,6 @@
 [
  {
   "v": "314",
-  "lemme": "φανέντας",
-  "categorie": "poetes",
-  "ref": "Alc. fr. 34.3 (προφάνητε)",
-  "signale_par": "Austin–Olson 2004, p. 156 (« Alc. fr. 34. 3 »)",
-  "raison": "texte d'Alcée (papyrus publié en 1914) absent du corpus local et des éditions du domaine public disponibles (Bergk 1882 lui est antérieur) : à contrôler sur Voigt ou Lobel–Page"
- },
- {
-  "v": "314",
   "lemme": "φανέντας ἐπιχαρῆναι",
   "categorie": "poetes",
   "ref": "Verg. G. 1.16–18 (adsis, o Tegeaee, favens)",
@@ -30,22 +22,6 @@
   "ref": "Orph. H. 34.3 (χρυσολύρη)",
   "signale_par": "Prato 2001, p. 222 (« h. Orph. 34,3 ») ; Austin–Olson 2004, p. 156",
   "raison": "Hymnes orphiques absents du corpus local ; à contrôler sur l'édition de Quandt ou sur un scan d'Abel (1885)"
- },
- {
-  "v": "315",
-  "lemme": "μεγαλώνυμε",
-  "categorie": "poetes",
-  "ref": "Sapph. fr. 44A a 3 Voigt (μεγαλώνυμος de Zeus)",
-  "signale_par": "Austin–Olson 2004, p. 156 (« first attested at Sapph. fr. 44A. a. 3 (of Zeus) »)",
-  "raison": "fragment papyrologique absent du corpus local (non retrouvé dans les textes DCLP indexés)"
- },
- {
-  "v": "315",
-  "lemme": "χρυσολύρα",
-  "categorie": "poetes",
-  "ref": "Simon. PMG 511 fr. 1(a).5 (instrument d'or d'Apollon)",
-  "signale_par": "Austin–Olson 2004, p. 156",
-  "raison": "papyrus de Simonide absent du corpus local"
  },
  {
   "v": "315",
