@@ -88,5 +88,41 @@
   "citation_signalee": "serments des magistrats",
   "signale_par": "Austin–Olson 2004, p. 169",
   "raison": "inscription : aucun corpus épigraphique local (IG, SIG, Agora) ; non contrôlé"
+ },
+ {
+  "v": "340-341",
+  "lemme": "δούλη τινὸς … τῷ δεσπότῃ",
+  "categorie": "proverbes",
+  "ref": "Arsen. 18.4b ; Antonius Melissa 119",
+  "citation_signalee": "φύσει γὰρ ἐχθρὸν τὸν δοῦλον τοῖς δεσπόταις (attribué à Euripide)",
+  "signale_par": "Tosi n. 239",
+  "raison": "gnomologues non contrôlés (Arsénius non retrouvé à cette place dans le CPG local, Antonius absent du corpus) ; la gnome est vérifiée chez Hermogène (Stat. 3, p. 45 Rabe), inscrite dans la collecte"
+ },
+ {
+  "v": "340-341",
+  "lemme": "δούλη τινὸς … τῷ δεσπότῃ",
+  "categorie": "prose",
+  "ref": "Macr. Sat. 1.11.13 ; Fest. p. 314, 23–28 L.",
+  "citation_signalee": "Quot servi, tot hostes (Macrobe) ; Tot hostes, tot servi (Sinnius Capiton chez Festus)",
+  "signale_par": "Tosi n. 239 ; Érasme, Adag. 2.3.31",
+  "raison": "Macrobe et Festus absents du corpus local ; non contrôlés (Sén. Ep. 47.5 vérifié et inscrit)"
+ },
+ {
+  "v": "346-347",
+  "lemme": "πρόδοσις",
+  "categorie": "proverbes",
+  "ref": "Zen. Ath. 2.42 (Miller)",
+  "citation_signalee": "(proverbe sur la πρόδοσις)",
+  "signale_par": "testimonia de Hsch. π 3388 (Hansen)",
+  "raison": "Zénobius de l'Athos (Miller, Mélanges) non contrôlé à cette place ; Diogenian. 5.74 vérifié et inscrit"
+ },
+ {
+  "v": "347-348",
+  "lemme": "κοτυλίζειν",
+  "categorie": "aristophane",
+  "ref": "Ar. fr. 683 Kock (numéro de Kassel–Austin non retrouvé)",
+  "citation_signalee": "κιρνάντες γὰρ τὴν πόλιν ἡμῶν κοτυλίζετε τοῖσι πένησιν",
+  "signale_par": "Poll. 7.195 ; Taillardat, Images, § 709",
+  "raison": "le fragment est vérifié chez Pollux (image de Bethe) et chez Kock (I, p. 558, OCR) et cité dans l'entrée Poll. 7.194–195 ; seule la concordance K.-A. reste à établir"
  }
 ]

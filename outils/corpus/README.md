@@ -17,13 +17,18 @@ les scripts et cette notice sont versionnés. Bilan de la couverture et de la fi
 |---|---|
 | `telecharger.py` | collecte : dépôts git (Perseus, First1KGreek, LSJ, DCLP), Diorisis, OCR archive.org |
 | `sources_ocr.tsv` | ouvrages du domaine public pris sur archive.org (OCR), avec options de mise en page |
+| `ocr_local.py` | OCR local (Tesseract grc+lat) d'un livre d'archive.org dont l'OCR est inutilisable, au format des fichiers d'archive.org |
 | `hocr_colonnes.py` | rétablit l'ordre de lecture des pages à deux colonnes d'après le hOCR (Hésychius, Souda, Zonaras, Dübner) |
 | `adler.py` | Souda d'Adler (OCR archive.org, `.sources/web/testimonia/adler/`) : pages rangées pour l'index, doubles pages du t. III séparées |
 | `kleinlogel.py`, `kleinlogel.tsv` | polices Kleinlogel des éditions De Gruyter : table glyphe → caractère (sans texte des éditions), réécriture du /ToUnicode en mémoire |
 | `ocr_hesychius.py` | Hésychius de Latte–Hansen–Cunningham : OCR reprenable, décodage des polices, découpage en gloses, qualité, tests, contrôle sur l'image |
+| `ocr_pdf.py` | OCR local (Tesseract) d'un PDF image du Drive, ou d'une partie de ses pages : PDF cherchable (image d'origine + couche texte invisible) et texte brut, rangés dans `.sources/drive/fichiers/…/OCR local/` pour que `sources_drive.py` les reprenne (ex. Mastromarco–Totaro 2006) |
 | `sources_drive.py` | dresse la liste locale (non versionnée) des fichiers du Drive de l'auteur à indexer |
 | `indexer.py` | construit `.sources/corpus/index.sqlite` (SQLite FTS5), sur 8 processus |
 | `chercher.py` | recherche (mots, expressions, préfixes, NEAR, filtres, contexte, JSON) |
+| `tester.py` | tests de l'index et du moteur de recherche, à relancer après chaque reconstruction |
+| `lexiques_proverbes.py` | « lexiques et proverbes d'abord » : interroge Hésychius, la Souda, Photius, la *Synagoge*, les *Etymologica*, Pollux, Zonaras, les parémiographes, Tosi et le *Dictionnaire des images du poétique* sur chaque mot d'un vers litigieux (sorties non versionnées : `.travail/lexiques_proverbes/`) |
+| `citations_thesmo.py` | repère dans tout le corpus les citations des *Thesmophories* (suites de mots communes avec le texte de la pièce) |
 | `exporter_vulgate.py` | exporte les *Thesmophories* de Perseus (Hall–Geldart) vers par vers : `.sources/corpus/thesmo_hall_geldart.tsv` |
 | `grec.py` | normalisation, « pliage » OCR, conversion du Beta Code |
 | `abreviations.tsv` | abréviations d'auteurs et d'œuvres pour l'affichage (« Eur. Hel. 255 ») |

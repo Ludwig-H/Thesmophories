@@ -1,5 +1,11 @@
 [
  {
+  "v": "279",
+  "lemme": "Θρᾷττα",
+  "ref": "Phot. θ 204 Theodoridis (Θρᾷκες ὅρκια οὐκ ἐπίστανται)",
+  "motif": "proverbe sur la perfidie des Thraces, repéré par lexiques_proverbes.py ; non retenu : simple nom d’esclave au v. 279, et texte lu seulement dans l’OCR"
+ },
+ {
   "v": "280",
   "lemme": "καομένων τῶν λαμπάδων",
   "ref": "IG II² 1184, 15–16 ; LSAM 61, 4 ; ID 1417 A I 49–100",
@@ -10,6 +16,18 @@
   "lemme": "δέξασθέ με",
   "ref": "Pind. Pae. 5.45 ; 6.5",
   "motif": "signalés par Austin–Olson 2004, p. 145 (appel à la divinité pour qu’elle « reçoive » le fidèle) : les Péans de Pindare ne sont pas dans le corpus local (Perseus ne donne que les épinicies)"
+ },
+ {
+  "v": "282",
+  "lemme": "περικαλλεῖ Θεσμοφόρω",
+  "ref": "Io. Alex. Τον. παραγγ. 14, 22 (τὰ δύο εε εἰς η συναιροῦσιν Ἀθηναῖοι)",
+  "motif": "doctrine du duel attique contracte (cf. Phot. α 1386, retenu en testimonium), citée d’après les testimonia de Theodoridis (I, p. 144) ; texte de Jean d’Alexandrie (= Hdn. 1, 420, 11–14 Lentz) non retrouvé dans le corpus local"
+ },
+ {
+  "v": "282",
+  "lemme": "περικαλλεῖ Θεσμοφόρω",
+  "ref": "Plat. com. fr. 6 et 4 Dem. ; Telecl. fr. 2 Dem. (cités par Phot. α 1386)",
+  "motif": "exemples de duels contractes allégués par la glose de Photius (τὼ μιλτηλιφῆ, τὼ προσεμφερῆ) : numéros de Demiańczuk seulement, concordance Kassel–Austin non établie"
  },
  {
   "v": "283",
@@ -70,6 +88,12 @@
   "lemme": "πρὸς θυλάκιον",
   "ref": "Eust. 1646.25",
   "motif": "cité par Kock III, p. 140 (OCR) comme témoin du proverbe αἰεί ποτ᾽ εὖ μὲν ἀσκός, εὖ δὲ θύλακος (Alexis fr. 85 Kock, retenu) : non contrôlé"
+ },
+ {
+  "v": "291",
+  "lemme": "θυλάκιον",
+  "ref": "Eust. Od. 1646, 25 (ἀεί ποτ᾽ εὖ μὲν ἀσκὸς εὖ δὲ θύλακος ἄνθρωπος)",
+  "motif": "signalé par Kock (III, p. 140) comme témoin du proverbe d’Alexis fr. 88 K.-A. ; non retrouvé dans l’OCR local d’Eustathe (commentaire à l’Odyssée), page à lire"
  },
  {
   "v": "292",

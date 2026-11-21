@@ -111,7 +111,7 @@ Les références complètes, URL et justifications sont dans les notices du § 3
 | E50 | 2001 | C. Prato, D. Del Corno | *Le donne alle Tesmoforie*, Milan, Fondazione Valla | T, A, Tr. it., C, métrique | R (microfilm ; vérifications sur l'original) | non | exemplaire de travail non versionné ; apparat relevé : `edition/donnees/repertoire_critique/prato2001_*.jsonl` | T et A p. 8–132 (pages paires) ; C p. 135–342 ; *Appendice metrica* p. 345–356 |
 | E51 | 2003 | B. Marzullo | *Le commedie*, Rome, Newton & Compton (« testo greco integralmente rinnovato e appendice critica ») | T, A (appendice), Tr. it. | — | non | — | — |
 | E52 | 2004 | C. Austin, S. D. Olson | *Thesmophoriazusae*, Oxford, OUP | T, A, C | R | non | Drive ; extrait des p. i–lxxix : `.sources/drive/ravennas/AustinOlson_2004_Thesm_textrep.txt` | — |
-| E53 | 2006 | G. Mastromarco, P. Totaro | *Commedie di Aristofane* II, Turin, UTET | T, Tr. it., notes, C (Totaro) | — | non | Drive [à vérifier] | — |
+| E53 | 2006 | G. Mastromarco, P. Totaro | *Commedie di Aristofane* II, Turin, UTET | T, Tr. it., notes, C (Totaro) ; « Nota critica » | texte de Prato 2001, avec les écarts discutés dans la « Nota critica » | non | Drive, importé ; OCR local (non versionné) : `.sources/drive/fichiers/Grec/Aristophane/OCR local/` | texte et traduction en regard p. 438-551 (PDF 442-559) ; « Nota critica », *Tesmoforiazuse* p. 81-88 (PDF 79-86) |
 | E54 | 2007 | N. G. Wilson | *Aristophanis Fabulae* II, Oxford (OCT) | T, A | R (rapports publiés, contrôlés sur le fac-similé) | non | `.sources/drive/editions/Wilson II …pdf` | — |
 | E55 | 2016 | R. Saetta Cottone | *Les Thesmophories ou La fête des femmes*, Paris, De Boccard | T, Tr. fr., I, C | — | non | — | — |
 | E56 | 2025 | L. Di Virgilio | *Tesmoforiazuse. I canti*, Pise–Rome, F. Serra | T (parties lyriques), C | — | non | — | — |
@@ -805,8 +805,17 @@ T seul ; DP : oui ; pas de numérisation trouvée.
 - Réf. : *Commedie di Aristofane*, a cura di Giuseppe Mastromarco e Piero Totaro, vol. II [*Uccelli,
   Lisistrata, Tesmoforiazuse, Rane*], Torino, UTET (Classici greci), 2006, 709 p. (B3Kat, notice de compte
   rendu ; contenu d'après Bevegni 2024, fichier cité en E51). Vol. I (Mastromarco seul) : 1983, rééd. 2007.
-- Nature : T, Tr. it., notes, commentaire. DP : non. Fichier : Drive (26 Mo ; `recherche/drive_ressources.md`)
-  [non encore copié].
+- Nature : T, Tr. it., notes, commentaire. DP : non. Fichier : Drive, importé le 21/11/2026
+  (`.sources/drive/fichiers/Grec/Aristophane/Commedie by Aristofane, Giuseppe Mastromarco (editor), Piero Totaro
+  (editor) (z-lib.org).pdf`, 723 p., image sans couche texte ; l'écart entre page du PDF et page imprimée varie : PDF 450 = p. 446,
+  PDF 467 = p. 461, PDF 543 = p. 535). Contrôlé sur le fichier : c'est bien le vol. II (*Uccelli*, *Lisistrata*, *Tesmoforiazuse*,
+  *Rane*). OCR local (Tesseract grc+ita, non corrigé, `outils/corpus/ocr_pdf.py`) des p. 1-120 du PDF
+  (introduction, bibliographie, « Nota critica ») et 436-562 (*Tesmoforiazuse*) : PDF cherchables et texte brut dans
+  `.sources/drive/fichiers/Grec/Aristophane/OCR local/` (non versionné).
+- Texte : « La presente edizione si basa sui testi critici […] di PRATO (per le Tesmoforiazuse, la nuova edizione
+  curata da C. AUSTIN e S. D. OLSON è stata pubblicata quando il presente volume era già in bozze) » (« Nota
+  critica », p. 63) ; les écarts par rapport à Prato sont discutés p. 81-88 (une trentaine de lieux, du v. 18 au
+  v. 1215). Relevé : `edition/donnees/repertoire_critique/mastromarco_totaro2006_1-1231.jsonl`.
 
 **E54. 2007 — Nigel G. Wilson, Oxford (OCT).**
 - Réf. : *Aristophanis fabulae*, recognovit brevique adnotatione critica instruxit N. G. Wilson, Oxonii, e

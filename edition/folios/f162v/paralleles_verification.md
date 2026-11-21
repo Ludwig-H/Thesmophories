@@ -64,3 +64,48 @@ recoupées par LSJ s.v. φρήν, πλευρόν, τερατώδης) ; Herod. 3
   Κομιδῇ est retirée.
 - **Luc. *DMar.* 8.3** (référence) → 6.3 (8.3 Macleod) : 8.3 est la numérotation de Macleod ; la
   numérotation usuelle (Jacobitz, LSJ) est 6.3.
+
+### vv. 5–6 (6 articles ; 43 parallèles + 2 témoins fusionnés)
+
+Tout retrouvé. Contrôles notables : Plaut. *Truc.* 489–490, Hor. *Ars* 180–182, Sen. *Ep.* 6.5
+(TEI latins) ; Tosi n° 1943 ; Apostol. 18.71 (CPG II p. 744) ; Aristomen. fr. 2.1–2 Kock ;
+Eur. fr. 413.1 N.². Corrections :
+
+- **Emp. 31 B 3 DK** (référence, citation) → 3.9–11 (et non 9–10) : la citation va jusqu'à ἢ ἀκοὴν
+  ἐρίδουπον …, début du v. 11 (DK I⁶) ; coupe des vers rétablie.
+- **Antipho Soph. 87 B 44 DK** (référence, citation) → col. 2.30–3.5 : νε|νομοθέτηται commence à la
+  fin de la l. 30 ; Diels imprime ὀφθαλμ[ι]οῖς (Vors.⁴ II, Nachträge p. XXXII–XXXIII).
+- **Pl. *Tht.* 201b** (référence) → 201b–c.
+
+### vv. 7–8 (5 articles ; 22 parallèles + 7 témoins fusionnés)
+
+Tout retrouvé (Greg. Cypr. L 2.79 et Macar. 5.90 sur CPG II p. 80 et 188 ; Tosi n° 1526 ; Pl. *Prt.*
+343b, *Chrm.* 165a). Les deux parallèles de Blaydes pour la place de ἄν (*Thesm.* 554, *Eccl.* 1087)
+sont faibles mais signalés comme tels par lui (p. 130) : gardés. Corrections :
+
+- **Eur. *Hipp.* 345a** (référence) → 345 : « 345a » est un artefact de Perseus (φεῦ extra metrum
+  coté à part).
+- **Hsch. α 303** (citation) : πάνυ [μνώδης], πολύ… (Latte I p. 16) ; le mot athétisé avait été omis.
+
+### vv. 9–10 (5 articles ; 35 parallèles + 2 témoins fusionnés)
+
+Tout retrouvé. Contrôles notables : Epich. fr. 12 (éd. Diels = 23 B 12 DK) et Apostol. 12.13 (CPG II
+p. 545) ; Men. *Mon.* 39 Meineke (FCG IV p. 340–341, v. 39) ; Plu. *Mor.* 13e ; Pl. *Lg.* 666a,
+*Smp.* 176b, *Phd.* 65b. Corrections :
+
+- **Stratt. fr. 1.2 Kock** (référence) → 1.1–2 (Kock I p. 711).
+- **Ar. *Plut.* 1052b** (référence) → 1052 (artefact de Perseus, comme *Hipp.* 345a).
+- **Emp. 31 B 2 DK** (référence, citation) → B 2.7–8, avec la coupe des vers (DK I⁶ p. 309).
+
+### vv. 11–12 (5 articles ; 28 parallèles + 5 témoins fusionnés)
+
+Tout retrouvé et exact : Σ *Thesm.* 11, 12 (Dübner) ; Apostol. 18.45, 18.47 (CPG II p. 730) ;
+Greg. Cypr. 3.99 ; Σ Luc. 31.21 Rabe ; Plu. *Mor.* 122c ; Pl. *Phlb.* 44a, *Sph.* 245c ; Semon.
+fr. 7.1–2 Bergk ; Anaxag. 59 B 6 DK (texte de Simplicius). Aucune correction.
+
+### v. 13 (4 articles ; 33 parallèles)
+
+Tout retrouvé et exact : Eur. fr. 484.2–3 et 839.12–14 N.² (numérotation de Nauck) ; Anaxag. 59 B 13
+DK dans Simplicius (la césure ἐκί-νησεν du TEI expliquait l'échec de la recherche automatique) ;
+Ov. *Met.* 1.6 ; Pl. *Prt.* 320c ; la note « τέως ; cf. van Leeuwen ad l. » (Plut. 834) est conforme à
+van Leeuwen 1904 (v. 13 : *olim*, renvoi à Plut. 834). Aucune correction.

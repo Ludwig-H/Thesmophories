@@ -745,15 +745,15 @@
   "v": "102",
   "lemme": "[ἱερὰν] λαμπάδα",
   "categorie": "proverbes",
-  "ref": "Erasm. Adag. 138",
-  "urn": "",
-  "citation": "JE PASSE LE FLAMBEAU : adage 138",
-  "traduction": "",
-  "verifie": "corpus",
-  "verification": "Les Adages (epub du Drive, .travail/…/erasme/adages.txt), l. 2112 (texte d'Érasme : « fatigué, je passe le flambeau ») et l. 4117 (note)",
+  "ref": "Erasm. Adag. 138 (I ii 38)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf351",
+  "citation": "Cursu lampada trado proverbialis metaphora pro eo, quod est : partes tuas quasi successione in alium atque alium transferre. Lucretius : Et quasi cursores vitai lampada tradunt",
+  "traduction": "« Je passe le flambeau dans la course » : métaphore proverbiale pour « transmettre son rôle, comme dans une succession, à un autre, qui le passera à un troisième »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 170 (PDF p. 351, page latine, image)",
   "signale_par": "recherche dans le corpus (Érasme)",
   "pertinence": 1,
-  "remarque": "texte de l'adage 138 non consulté"
+  "remarque": "cf. Lucr. 2.79 et Pl. Leg. 6.776b (relevés) ; la torche qu'on se passe, image de la succession des générations"
  },
  {
   "v": "102",
@@ -1624,6 +1624,34 @@
   "remarque": "hexamètre proverbial (Tosi n° 1433) ; série des proverbes de la danse (Zen. 2.96, Zen. 1.82, relevés)"
  },
  {
+  "v": "103",
+  "lemme": "κοῦραι … χορεύσασθε",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1711 (II viii 11)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf867",
+  "citation": "Γραῦς χορεύει, id est Anus saltat. In eum convenit, qui indecore quidpiam facit",
+  "traduction": "« La vieille danse » : se dit de celui qui fait quelque chose d’inconvenant",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 429 (PDF p. 867, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Sud. γ 432 (relevé) ; cf. Zen. 2.96 (Γραῦς βακχεύει), Tosi n° 1110 (relevés)"
+ },
+ {
+  "v": "103",
+  "lemme": "χορεύσασθε",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1176 (II ii 76)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf261",
+  "citation": "Λυκὸς (sic) περὶ τὸ φρέαρ χορεύει, id est Lupus circum puteum chorum agit. In eos dicetur, qui sumpta inaniter opera spe sua frustrantur",
+  "traduction": "« Le loup mène la danse autour du puits » : se dit de ceux qu’une peine prise en vain frustre de leur espoir",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 126 (PDF p. 261, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Zen. 4.100, Hsch. λ 1397 (relevés)"
+ },
+ {
   "v": "104",
   "lemme": "κῶμος",
   "categorie": "aristophane",
@@ -2212,6 +2240,48 @@
   "remarque": "notice où Tosi rapproche ἀκλητὶ κωμάζουσιν ἐς φίλους φίλοι (Zen. 2.46, relevé) ; cf. l'arrivée d'Euripide et de Mnésiloque chez Agathon"
  },
  {
+  "v": "104",
+  "lemme": "δαιμόνων",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 69 (I i 69)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf241",
+  "citation": "Ἄνθρωπος ἀνθρώπου δαιμόνιον, id est Homo homini deus, quod dici solet de eo, qui subitam atque insperatam attulit salutem",
+  "traduction": "« L’homme est un dieu pour l’homme » : se dit de celui qui apporte un salut soudain et inespéré",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 115 (PDF p. 241, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Zen. 1.91, Tosi n° 425 (relevés)"
+ },
+ {
+  "v": "104",
+  "lemme": "κῶμος",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 935 (I x 35)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf1389",
+  "citation": "Αὐτόματοι δ᾽ ἀγαθοὶ ἀγαθῶν ἐπὶ δαῖτας ἵενται … Ἀκλητὶ κωμάζουσιν εἰς φίλους φίλοι, id est Conviva amico amicus ultro etiam venit",
+  "traduction": "« Les bons vont d’eux-mêmes aux banquets des bons » … « Sans être invités, les amis vont en cortège chez leurs amis »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 689 (PDF p. 1389, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 2,
+  "remarque": "adage Boni ad bonorum convivia ultro accedunt ; = Zen. 2.46 (relevé), Tosi n° 516 ; κωμάζουσιν : le κῶμος qui arrive sans invitation"
+ },
+ {
+  "v": "104",
+  "lemme": "κῶμος",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1973 (II x 73)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf1089",
+  "citation": "Εἰς μελίττας ἐκώμασας, id est In apes insilisti. Ubi quis praeter opinionem in ingens agmen velut examen malorum immergitur",
+  "traduction": "« Tu es tombé en cortège sur les abeilles » : quand on se jette sans le prévoir dans un essaim de maux",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 540 (PDF p. 1089, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Zen. 3.53 (relevé)"
+ },
+ {
   "v": "105",
   "lemme": "εὐπίστως δὲ τοὐμὸν δαίμονας ἔχει σεβίσαι",
   "categorie": "testimonium",
@@ -2686,6 +2756,20 @@
   "signale_par": "passe parémiographique s8 (Tosi)",
   "pertinence": 1,
   "remarque": "Ov. Ars 3.685 ; Tosi y cite Épicharme, fr. 218 K.-A. (νᾶφε καὶ μέμνασ᾽ ἀπιστεῖν, relevé) : l'antidote de l'εὐπειστία"
+ },
+ {
+  "v": "105",
+  "lemme": "εὐπείστως (εὐπίστως R)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1014 (II i 14)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf61",
+  "citation": "Νᾶφε καὶ μέμνασ᾽ ἀπιστεῖν, ταῦτα νεῦρα τῶν φρενῶν",
+  "traduction": "« Sois sobre et souviens-toi de te méfier : ce sont là les nerfs de l’esprit »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 26 (PDF p. 61, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "le vers d'Épicharme (fr. 218 K.-A., relevé), cité par Érasme sous l'adage 1014 Nemini fidas, nisi cum quo prius modium salis absumpseris (t. 2, p. 24), avec νεῦρα pour ἄρθρα"
  },
  {
   "v": "106",
@@ -3948,6 +4032,48 @@
   "remarque": "notice sur le topos « nul n'est heureux avant sa mort » (Ov. Met. 3.136–137 ; Hdt. 1.32 ; Soph. OT 1529 sq. μηδέν᾽ ὀλβίζειν ; Aesch. Ag. 928 sq. ; Eur. Andr. 100–102 ; Diogenian. 8.51 ; Apostol. 16.30, tous relevés) ; l'ὀλβίζειν de l'hymne en est l'envers"
  },
  {
+  "v": "107",
+  "lemme": "ὄλβιζε (ὅπλιζε R)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 237 (I iii 37)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf497",
+  "citation": "Finem vitae specta. Exstat apud Herodotum historia longe notissima, quemadmodum Solon Croeso responderit nemini competere nomen beati, nisi qui feliciter vitae cursum peregisset",
+  "traduction": "« Regarde la fin de la vie » : Solon répondit à Crésus que nul ne mérite le nom d’heureux, sinon qui a heureusement achevé sa vie",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 243 (PDF p. 497, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "cf. Hdt. 1.32.7, Diogenian. 8.51, Apostol. 16.30, Tosi n° 1588 (relevés)"
+ },
+ {
+  "v": "107",
+  "lemme": "Μοῦσα",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 779 (I viii 79)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf1207",
+  "citation": "Καρικὴ Μοῦσα, id est Carica Musa, Καρικὰ αὐλήματα, id est Caricae cantiones. De lugubri aut rustica atque indocta seu molesta cantione dici solitum",
+  "traduction": "« Muse carienne », « airs cariens » : se disait d’un chant lugubre, rustique, ignorant ou importun",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 598 (PDF p. 1207, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Diogenian. 5.86, Sud. κ 388 (relevés)"
+ },
+ {
+  "v": "107",
+  "lemme": "Μοῦσα",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1641 (II vii 41)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf801",
+  "citation": "Ἀνεῳγμέναι Μουσῶν θύραι, id est Apertae Musarum januae",
+  "traduction": "« Les portes des Muses sont ouvertes »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 396 (PDF p. 801, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Zen. 1.89 (relevé) ; Érasme : pour l'esprit doué, à qui les Muses accordent tout de bon gré"
+ },
+ {
   "v": "108",
   "lemme": "χρυσέων ῥύτορα τόξων",
   "categorie": "testimonium",
@@ -4590,6 +4716,20 @@
   "signale_par": "passe parémiographique s8 (Tosi)",
   "pertinence": 2,
   "remarque": "notice de Hor. Carm. 2.10.19–20 (relevé) : l'arc d'Apollon devenu proverbe"
+ },
+ {
+  "v": "108",
+  "lemme": "τόξων",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 392 (I iv 92)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf673",
+  "citation": "Ἐς τὸν οὐρανὸν τοξεύεις, id est : In caelum sagittam torques",
+  "traduction": "« Tu tires des flèches vers le ciel »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 331 (PDF p. 673, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Zen. 3.46 (relevé)"
  },
  {
   "v": "109",
@@ -5656,6 +5796,20 @@
   "remarque": "cf. Dem. 19.148 ; Diogenian. 5.26 ; le chant célèbre la cité dont le nom est devenu proverbe du malheur"
  },
  {
+  "v": "110",
+  "lemme": "Σιμουντίδι γᾷ",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 226 (I iii 26)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf481",
+  "citation": "Ἰλιὰς κακῶν, id est Ilias malorum. De calamitatibus maximis simul et plurimis",
+  "traduction": "« Une Iliade de malheurs » : des calamités à la fois très grandes et très nombreuses",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 235 (PDF p. 481, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Zen. 4.43 (relevé)"
+ },
+ {
   "v": "111",
   "lemme": "χαῖρε καλλίσταις ἀοιδαῖς",
   "categorie": "aristophane",
@@ -6188,6 +6342,34 @@
   "remarque": "notice de Hes. Op. 25–26 (relevé) : la rivalité des poètes (Euripide et Agathon)"
  },
  {
+  "v": "111",
+  "lemme": "ἀοιδαῖς",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 125 (I ii 25)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf335",
+  "citation": "Figulus figulo invidet, faber fabro … Quorum mutuam inter ipsos invidiam Hesiodus in opere, cui titulus Opera et dies, compluribus metaphoris indicavit",
+  "traduction": "« Le potier envie le potier, le forgeron le forgeron » … Hésiode a montré par plusieurs images leur jalousie mutuelle",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 162 (PDF p. 335, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "cf. Hes. Op. 25–26 (ἀοιδὸς ἀοιδῷ), Tosi n° 1744 (relevés)"
+ },
+ {
+  "v": "111",
+  "lemme": "ἀοιδαῖς",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1198 (II ii 98)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf289",
+  "citation": "Πολλὰ ψεύδονται ἀοιδοί, id est Multa mentiuntur cantores. In eos quadrabit, qui ad gratiam loquuntur et auribus blandiuntur",
+  "traduction": "« Les chanteurs mentent beaucoup » : à dire de ceux qui parlent pour plaire et flattent les oreilles",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 140 (PDF p. 289, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Greg. Cypr. 3.49, Tosi n° 1765 (relevés)"
+ },
+ {
   "v": "112",
   "lemme": "τιμαῖς",
   "categorie": "aristophane",
@@ -6564,6 +6746,62 @@
   "signale_par": "passe parémiographique s8 (Tosi)",
   "pertinence": 1,
   "remarque": "vers de la Sthénébée d'Euripide (fr. 663 N.², selon Tosi), que cite Agathon lui-même chez Platon (Symp. 196e, relevé) ; cf. Ar. Vesp. 1074 (relevé)"
+ },
+ {
+  "v": "112",
+  "lemme": "εὐμούσοισι",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 335 (I iv 35)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf623",
+  "citation": "Ὄνος λύρας, subaudi ἀκροατής, id est Asinus lyrae auscultator. In eos, qui propter imperitiam nullo sunt judicio crassisque auribus",
+  "traduction": "« L’âne (auditeur) de la lyre » : ceux qui, par ignorance, n’ont aucun jugement et ont l’oreille grossière",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 306 (PDF p. 623, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Tosi n° 1934 (relevé) : l'envers des εὔμουσοι τιμαί"
+ },
+ {
+  "v": "112",
+  "lemme": "εὐμούσοισι",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 548 (I vi 48)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf907",
+  "citation": "Ἀμουσότερος Λειβηθρίων, id est Indoctior Libethriis",
+  "traduction": "« Plus étranger aux Muses que les Libéthriens »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 448 (PDF p. 907, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Zen. 1.79 (relevé)"
+ },
+ {
+  "v": "112",
+  "lemme": "εὐμούσοισι",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1192 (II ii 92)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf281",
+  "citation": "Ἐν ἀμούσοις καὶ κόρυδος φθέγγεται, id est Inter amusos etiam corydus sonat",
+  "traduction": "« Chez les ignorants des Muses, l’alouette aussi se fait entendre »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 136 (PDF p. 281, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Zen. 3.77 (relevé)"
+ },
+ {
+  "v": "112",
+  "lemme": "εὐμούσοισι",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1894 (II ix 94)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf1027",
+  "citation": "Οὐδὲ τὰ τρία Στησιχόρου γινώσκεις, id est Ne tria quidem Stesichori nosti. De vehementer indocto et imperito dici solitum",
+  "traduction": "« Tu ne connais même pas les trois de Stésichore » : se disait d’un homme tout à fait ignorant",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 509 (PDF p. 1027, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Diogenian. 7.14 (relevé) ; Érasme l'entend de la triade strophe, antistrophe, épode"
  },
  {
   "v": "113",
@@ -6956,6 +7194,20 @@
   "signale_par": "passe parémiographique s8 (Tosi)",
   "pertinence": 2,
   "remarque": "notice de σιγῆς ἀκίνδυνον γέρας (Simonide), cf. Plut. Reg. et imp. apophth. 207c (relevé)"
+ },
+ {
+  "v": "113",
+  "lemme": "γέρας",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1726 (II viii 26)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf881",
+  "citation": "Μέγα φρονεῖ μᾶλλον ἢ Πηλεὺς ἐπὶ τῇ μαχαίρᾳ, id est Magis sibi placet quam Peleus sua machaera",
+  "traduction": "« Il est plus fier que Pélée de son épée »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 436 (PDF p. 881, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Hsch. π 2179 (relevé : σωφροσύνης γέρας) ; l'épée, don des dieux à Pélée, prix de sa vertu"
  },
  {
   "v": "114",
@@ -7490,6 +7742,34 @@
   "remarque": "notice d'Apostol. 9.49 (relevé) : le chêne charmé par le chant d'Orphée"
  },
  {
+  "v": "114",
+  "lemme": "δρυογόνοισι",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 302 (I iv 2)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf583",
+  "citation": "Ἅλις δρυός, id est Sat quercus. Vetus adagium in eos, qui relicto victu sordido ad elegantiorem lautioremque digrediuntur",
+  "traduction": "« Assez de chêne » : vieil adage pour ceux qui quittent une nourriture grossière pour une plus raffinée",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 286 (PDF p. 583, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Zen. 2.40, Hsch. α 3044 (relevés)"
+ },
+ {
+  "v": "114",
+  "lemme": "δρυογόνοισι",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 434 (I v 34)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf733",
+  "citation": "Ἄλλην δρῦν βαλάνιζε, id est Aliam quercum excute",
+  "traduction": "« Va gauler un autre chêne »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 361 (PDF p. 733, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Zen. 2.41 (relevé)"
+ },
+ {
   "v": "115",
   "lemme": "Ἄρτεμιν ἀγροτέραν",
   "categorie": "testimonium",
@@ -7952,6 +8232,20 @@
   "remarque": "Apollon et sa sœur vierge (avec Athéna) défendant leur sanctuaire ; idem Sud. ε 1060 (corpus)"
  },
  {
+  "v": "115",
+  "lemme": "Ἄρτεμιν",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1847 (II ix 47)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf989",
+  "citation": "Ἡ παναγαία Ἄρτεμις, id est Panagaea Diana … siquidem Diana vagari dicitur apud poetas et per nemora montesque oberrare",
+  "traduction": "« Artémis Panagaia » … car Diane, disent les poètes, erre par les bois et les montagnes",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 490 (PDF p. 989, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "cf. Diogenian. 5.6 (Ἡ Περγαία Ἄρτεμις, relevé) ; les montagnes d'Artémis (v. 114 ἐν ὄρεσι)"
+ },
+ {
   "v": "117",
   "lemme": "ἕπομαι κλῄζουσα",
   "categorie": "aristophane",
@@ -8412,6 +8706,20 @@
   "signale_par": "passe parémiographique (corpus)",
   "pertinence": 1,
   "remarque": "le proverbe θεῷ ἕπου (cf. Stob. 3.1.173 Ἕπου θεῷ) : le cortège suit la déesse"
+ },
+ {
+  "v": "117",
+  "lemme": "ἕπομαι (« suivre le dieu »)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1138 (II ii 38)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf209",
+  "citation": "Plutarchus in libello De audiendo refert hoc adagium, quod et inter septem Graeciae sapientum oracula celebratur : Ἕπου θεῷ, id est Sequere deum",
+  "traduction": "Plutarque rapporte cet adage, célèbre aussi parmi les oracles des Sept Sages : « Suis le dieu »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 100 (PDF p. 209, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "adage Deum sequere ; = Stob. 3.1.173 (relevé aux vv. 106 et 117), cf. Sud. ν 556"
  },
  {
   "v": "118",
@@ -10206,6 +10514,20 @@
   "remarque": "cf. Diogenian. 6.36"
  },
  {
+  "v": "120",
+  "lemme": "Ἀσιάδος",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 542 (I vi 42)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf899",
+  "citation": "Μετὰ Λέσβιον ᾠδόν, id est Post Lesbium cantorem. Hoc adagio significabant aliquem non primas, sed secundas tenere parteis",
+  "traduction": "« Après le chanteur lesbien » : se disait de qui tient non le premier rang, mais le second",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 444 (PDF p. 899, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Zen. 5.9, Hsch. μ 1004, Sud. μ 701, Plut. Prov. Alex. 2.10 (relevés) : Terpandre et les citharèdes de Lesbos"
+ },
+ {
   "v": "121",
   "lemme": "εὔρυθμα (ποδί)",
   "categorie": "aristophane",
@@ -11522,6 +11844,62 @@
   "remarque": "notice de Greg. Cypr. 3.95 (relevé) ; Phryx plagis emendatur (Érasme, Adag. 1.8.36, selon Tosi)"
  },
  {
+  "v": "121",
+  "lemme": "Φρυγίων",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 28 (I i 28)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf183",
+  "citation": "Hoc proverbium ex vetustissima tragoedia Livii Andronici mutuo sumptum est, quae inscribitur Equus Trojanus : Sero sapiunt Phryges",
+  "traduction": "ce proverbe est emprunté à une très ancienne tragédie de Livius Andronicus, le Cheval de Troie : « Les Phrygiens deviennent sages trop tard »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 86 (PDF p. 183, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Tosi n° 1315 (relevé)"
+ },
+ {
+  "v": "121",
+  "lemme": "Φρυγίων",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 736 (I viii 36)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf1151",
+  "citation": "Phryx plagis emendatur. In barbaros servilique ingenio homines dicitur, qui non pudore neque monitis, sed verberibus redduntur meliores",
+  "traduction": "« Le Phrygien s’amende par les coups » : se dit des barbares et des esprits serviles",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 1, p. 570 (PDF p. 1151, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Greg. Cypr. 3.95, Tosi n° 1344 (relevés)"
+ },
+ {
+  "v": "121",
+  "lemme": "Φρυγίων (le mode phrygien)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1493 (II v 93)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf641",
+  "citation": "Ἀπὸ Δωρίου ἐπὶ Φρύγιον, id est a Dorio ad Phrygium, venire dicebatur, qui a vita temperatiore ad luxum sese convertisset",
+  "traduction": "« Du dorien au phrygien » : se disait de qui passait d’une vie plus tempérée au luxe",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 316 (PDF p. 641, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 2,
+  "remarque": "= Sud. δ 1461 (relevé) ; métaphore tirée des modes musicaux, le dorien grave, le phrygien exalté"
+ },
+ {
+  "v": "121",
+  "lemme": "εὔρυθμα (… Χαρίτων, v. 122)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1508 (II vi 8)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf665",
+  "citation": "Ἄειδε τὰ Τέλληνος, id est Cane cantiones Tellenis … Nam Tellenem hunc tibicinem quemdam fuisse, poetam item carminum ineptissimorum",
+  "traduction": "« Chante les chants de Tellen » … car ce Tellen fut un joueur d’aulos et aussi un poète de chansons très sottes",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 328 (PDF p. 665, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Zen. 1.45 (relevé)"
+ },
+ {
   "v": "122",
   "lemme": "διὰ νεύματα Χαρίτων",
   "categorie": "aristophane",
@@ -12556,5 +12934,19 @@
   "signale_par": "passe parémiographique (corpus)",
   "pertinence": 1,
   "remarque": "le chant des Muses et des Charites aux noces de Cadmos (Thgn. 15–18, relevé ci-dessus) devenu « antique proverbe »"
+ },
+ {
+  "v": "122",
+  "lemme": "Χαρίτων",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1650 (II vii 50)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf809",
+  "citation": "Αἱ Χάριτες γυμναί, id est Gratiae nudae. Admonet adagium, ut candide ac benigniter impertiamus amicis",
+  "traduction": "« Les Grâces sont nues » : l’adage invite à donner à ses amis franchement et de bon cœur",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages (Belles Lettres, 2011), t. 2, p. 400 (PDF p. 809, page latine, image)",
+  "signale_par": "passe parémiographique s8 (Érasme)",
+  "pertinence": 1,
+  "remarque": "= Zen. 1.36, Sud. αι 386 (relevés)"
  }
 ]

@@ -93,6 +93,10 @@ REGLES = [
     (r"Eustathe de Thessalonique/.*Odysseam, vol\. 2", "auteurs", "Eust. Od. (Stallbaum) II"),
     (r"Eustathe de Thessalonique/Iliade (\d+ ?- ?\d+) ?Eustathii archiepiscopi", "auteurs", "Eust. Il. (van der Valk) {1}"),
     (r"Eustathe de Thessalonique/Iliade 5-9Commentarii", "auteurs", "Eust. Il. (van der Valk) 5-9"),
+    # PDF image sans couche texte, remplacés par leur version océrisée (outils/corpus/ocr_pdf.py),
+    # rangée dans « Aristophane/OCR local/ »
+    (r"Aristophane/Commedie by Aristofane, Giuseppe Mastromarco", None, ""),
+    (r"Aristophane/OCR local/Mastromarco-Totaro 2006, Tesmoforiazuse", "editions", "Mastromarco–Totaro 2006 (OCR)"),
 ]
 
 

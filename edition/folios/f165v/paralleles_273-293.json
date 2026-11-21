@@ -73,15 +73,15 @@
   "v": "273",
   "lemme": "ξυνοικίαν",
   "categorie": "aristophane",
-  "ref": "Ar. fr. 133 Kock (Poll. 9.39)",
+  "ref": "Ar. fr. 137 K.-A. (= 133 Kock) (Poll. 9.39)",
   "urn": "ia:pollucisonomasti02polluoft#n168",
   "citation": "ἐπὶ τοῦ περιδρόμου στᾶσα τῆς συνοικίας",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Pollux, éd. Bethe II, p. 157, 3–5 (ia n168, image lue ; « fg 133 ») ; Hall–Geldart II ; Meineke II.2, p. 995",
+  "verification": "Pollux, éd. Bethe II, p. 157, 3–5 (ia n168, image lue ; « fg 133 ») ; Hall–Geldart II ; Meineke II.2, p. 995 ; PCG III.2, p. 94 (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Fritzsche 1838, p. 101 (« Senectute Fr. V ») ; Blaydes 1880, p. 160 (« Fr. 182 »)",
   "pertinence": 2,
-  "remarque": "Γῆρας ; forme συν- ; numéro K.-A. non contrôlé (éd. absente du disque)"
+  "remarque": "Γῆρας ; forme συν- ; numéro K.-A. contrôlé : PCG III.2, p. 94 ; aussi Poll. 7.125 (ἐκ τοῦ … τῆς συνοικίας) ; ξυνοικίας Dindorf 1869"
  },
  {
   "v": "273",
@@ -165,7 +165,7 @@
   "verification": "PCG V, p. 361 (image lue) ; Kock I, p. 285 (image n314 lue ; Δῆμοι)",
   "signale_par": "commentaire de l’auteur ; Fritzsche 1838, pp. 102–103 ; Meineke II.1, p. 476",
   "pertinence": 3,
-  "remarque": "βληχητὰ τέκνα : les fils d’Hippocrate sont du bétail ; Fritzsche y restitue Ὑσιπποκράτους en se fondant sur notre vers ; ἐκβόλιμοι K.-A. (ἐμβόλιμοι Kock) ; témoins : Σ Nub. 1001a (= Sud. τ 1135), Sud. υ 125 (sans le titre) ; le v. 2 est aussi cité par Sud. β 336 (s.v. βληχή : « βληχὴ » τὰ τέκνα καὶ οὐδαμῶς τοῦ τρόπου)"
+  "remarque": "βληχητὰ τέκνα : les fils d’Hippocrate sont du bétail ; Fritzsche y restitue Ὑσιπποκράτους en se fondant sur notre vers ; ἐκβόλιμοι Σ Nub. (L. Dindorf) et K.-A. (ἐμβόλιμοι Kock) ; témoins : Σ Nub. 1001a (= Sud. τ 1135), Sud. υ 125 (sans le titre) ; le v. 2 est aussi cité par Sud. β 336 (s.v. βληχή : « βληχὴ » τὰ τέκνα καὶ οὐδαμῶς τοῦ τρόπου) ; numéro K.-A. contrôlé : PCG V, p. 361 (image lue)"
  },
  {
   "v": "273",
@@ -1753,15 +1753,15 @@
   "v": "274",
   "lemme": "ἄρδην",
   "categorie": "comiques",
-  "ref": "Diphil. fr. 105 Kock (Stob. 96.9)",
+  "ref": "Diphil. fr. 105.2 K.-A. (= 105 Kock) (Stob. 4.32b.27)",
   "urn": "ia:comicorumatticor02kockuoft#n579",
   "citation": "ἄρδην ἀνεῖλε καὶ κατέστρεψεν βίον",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Kock II, p. 574 (ia comicorumatticor02kockuoft n579, image lue)",
+  "verification": "Kock II, p. 574 (ia comicorumatticor02kockuoft n579, image lue) ; PCG V, p. 112 (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Kock II, p. 574 (« ἄρδην quidem etiam Arist. Thesm. 274 »)",
   "pertinence": 1,
-  "remarque": "Kock rapproche notre vers pour défendre ἄρδην en comédie ; attribution discutée (Sophocle ou Diphile) ; numéro K.-A. non contrôlé (éd. absente du disque)"
+  "remarque": "Kock rapproche notre vers pour défendre ἄρδην en comédie ; attribution discutée (Sophocle ou Diphile) ; numéro K.-A. contrôlé : PCG V, p. 112 ; v. 1 : πενία δὲ συγκραθεῖσα δυσσεβεῖ τρόπῳ (πενίας ψόγος chez Stobée)"
  },
  {
   "v": "274",
@@ -2112,6 +2112,20 @@
   "signale_par": "Austin–Olson 2004, p. 143",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "274",
+  "lemme": "πάντας ἄρδην τοὺς θεούς",
+  "categorie": "prose",
+  "ref": "Euseb. HE 5.24.9",
+  "urn": "urn:cts:greekLit:tlg2018.tlg002.perseus-grc2:5.24.9",
+  "citation": "ἀκοινωνήτους πάντας ἄρδην τοὺς ἐκεῖσε ἀνακηρύττων ἀδελφούς",
+  "traduction": "« proclamant excommuniés en bloc tous les frères de là-bas »",
+  "verifie": "corpus",
+  "verification": "p.py Euseb. HE 5.24.9",
+  "signale_par": "citations_thesmo.py (passe 7)",
+  "pertinence": 1,
+  "remarque": "même suite πάντας ἄρδην τούς, dans le même emploi (« tous sans exception »)"
  },
  {
   "v": "274",
@@ -4903,15 +4917,15 @@
   "v": "279",
   "lemme": "Θρᾷττα",
   "categorie": "comiques",
-  "ref": "Eup. fr. 243 Kock (Ath. 7.326a)",
+  "ref": "Eup. fr. 262 K.-A. (= 243 Kock) (Ath. 7.326a)",
   "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:7.128",
   "citation": "μήτηρ τις αὐτῷ Θρᾷττα ταινιόπωλις ἦν",
   "traduction": "",
   "verifie": "corpus",
-  "verification": "kw.py 'ταινιόπωλις' ; Ath. 7.128 (Perseus) ; Kock I, p. 323 (n352, en-tête lu sur l’image)",
+  "verification": "kw.py 'ταινιόπωλις' ; Ath. 7.128 (Perseus) ; Kock I, p. 323 (n352, en-tête lu sur l’image) ; PCG V, p. 450 (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "LSJ s.v. ταινιόπωλις",
   "pertinence": 2,
-  "remarque": "Προσπάλτιοι ; Athénée cite le vers pour ταινία (ruban, non poisson) ; une mère thrace comme reproche d’origine ; numéro K.-A. non contrôlé (éd. absente du disque)"
+  "remarque": "Προσπάλτιοι ; Athénée cite le vers pour ταινία (ruban, non poisson) ; une mère thrace comme reproche d’origine ; numéro K.-A. contrôlé : PCG V, p. 450"
  },
  {
   "v": "279",
@@ -7101,15 +7115,15 @@
   "v": "283",
   "lemme": "ἀγαθῇ τύχῃ",
   "categorie": "comiques",
-  "ref": "Nicostr. fr. 19.3 Kock (= fr. 18.3 K.-A.)",
+  "ref": "Nicostr. fr. 18.3 K.-A. (= 19 Kock)",
   "urn": "ia:comicorumatticor02kockuoft#n230",
   "citation": "φέρε, τύχἀγαθῇ.",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Kock II, p. 225 (ia comicorumatticor02kockuoft n230, image lue) ; Ath. 15.693a (Perseus, 15.47)",
+  "verification": "Kock II, p. 225 (ia comicorumatticor02kockuoft n230, image lue) ; Ath. 15.693a (Perseus, 15.47) ; PCG VII, p. 84 (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Austin–Olson 2004, p. 145",
   "pertinence": 2,
-  "remarque": "la formule dans un emploi privé, au banquet ; numéro de K.-A. d’après Austin–Olson"
+  "remarque": "la formule dans un emploi privé, au banquet ; numéro K.-A. contrôlé : PCG VII, p. 84"
  },
  {
   "v": "283",
@@ -7521,15 +7535,15 @@
   "v": "284",
   "lemme": "κάθελε",
   "categorie": "aristophane",
-  "ref": "Ar. fr. 686 Kock (= fr. 708 K.-A.)",
+  "ref": "Ar. fr. 708 K.-A. (= 686 Kock)",
   "urn": "ia:comicorumatticor01kockuoft#n589",
   "citation": "τὸν σαπέρδην ἀποτῖλαι χρὴ / κᾆτ᾽ ἐκπλῦναι καὶ διαπλῦναι.",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Kock I, p. 560 (ia comicorumatticor01kockuoft n589, image lue) ; Poll. 6.49",
+  "verification": "Kock I, p. 560 (ia comicorumatticor01kockuoft n589, image lue) ; Poll. 6.49 ; PCG III.2, p. 363 (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Austin–Olson 2004, p. 146 (« fr. 708. 2 »)",
   "pertinence": 2,
-  "remarque": "même κᾆτ(α) et même jeu sur les préverbes ; numéro de K.-A. d’après Austin–Olson"
+  "remarque": "même κᾆτ(α) et même jeu sur les préverbes ; numéro K.-A. contrôlé : PCG III.2, p. 363"
  },
  {
   "v": "284–285",
@@ -7698,6 +7712,34 @@
   "signale_par": "Austin–Olson 2004, p. 146",
   "pertinence": 1,
   "remarque": "la ciste sert aussi de coffre à vêtements"
+ },
+ {
+  "v": "284",
+  "lemme": "κίστην",
+  "categorie": "lexicographes",
+  "ref": "Hsch. κ 3275",
+  "urn": "drive:hsch:II:κ 3275 (Latte II, p. 632)",
+  "citation": "κοιτίς· ἡ μικροτέρα κίστη, ἐν ᾗ ⟨ὁ⟩ γυναικεῖος κόσμος ἀπετίθετο",
+  "traduction": "« κοιτίς : la petite ciste où l’on serrait la parure des femmes »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'κοιτίς' -a Hsch. -o gloses (Latte II, p. 632)",
+  "signale_par": "lexiques_proverbes.py (passe 7)",
+  "pertinence": 2,
+  "remarque": "la ciste, objet féminin : Mnésiloque, en femme, a sa ciste portée par la servante ; suit κοίτη (κ 3274, ci-dessus) ; sigle D en marge"
+ },
+ {
+  "v": "284",
+  "lemme": "κίστην",
+  "categorie": "lexicographes",
+  "ref": "Hsch. α 5457",
+  "urn": "drive:hsch:I:α 5457 (Latte I, p. 252)",
+  "citation": "ἀντίπηγα· κίστην. Εὐριπίδης Ἴωνι (1338). ἤγουν ἀγγεῖον",
+  "traduction": "« ἀντίπηξ : ciste ; Euripide dans Ion ; c’est-à-dire un récipient »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἀντίπηγα' -a Hsch. -o gloses (Latte I, p. 252)",
+  "signale_par": "lexiques_proverbes.py (passe 7)",
+  "pertinence": 1,
+  "remarque": "la ciste chez Euripide (Ion 1338, la corbeille où fut exposé Ion), glosée par κίστη ; sigle D en marge"
  },
  {
   "v": "284",
@@ -8333,57 +8375,57 @@
   "v": "286",
   "lemme": "δέσποινα πολυτίμητε Δήμητερ φίλη",
   "categorie": "comiques",
-  "ref": "Philem. fr. 67 Kock (Ath. 14.645a)",
+  "ref": "Philem. fr. 70 K.-A. (= 67 Kock) (Ath. 14.645a)",
   "urn": "ia:comicorumatticor02kockuoft#n500",
   "citation": "Ἄρτεμι, φίλη δέσποινα, τοῦτόν σοι φέρω, / ὦ πότνι᾽, ἀμφιφῶντα καὶ σπονδήσιμα.",
   "traduction": "« Artémis, chère maîtresse, je t’apporte ce gâteau aux flambeaux, ô souveraine, et de quoi faire libation »",
   "verifie": "scan",
-  "verification": "Kock II, p. 495 (ia comicorumatticor02kockuoft n500, image lue) ; Ath. 14.53 (644f–645e, Perseus)",
+  "verification": "Kock II, p. 495 (ia comicorumatticor02kockuoft n500, image lue) ; Ath. 14.53 (644f–645e, Perseus) ; PCG VII, p. 262 (Πτωχὴ ἢ Ῥοδία) (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "recherche dans le corpus (δέσποινα)",
   "pertinence": 3,
-  "remarque": "même invocation (δέσποινα … φίλη) au moment de l’offrande d’un gâteau ; l’ἀμφιφῶν, πλακοῦς d’Artémis, était entouré de petites torches allumées (Ath. ibid.)"
+  "remarque": "même invocation (δέσποινα … φίλη) au moment de l’offrande d’un gâteau ; l’ἀμφιφῶν, πλακοῦς d’Artémis, était entouré de petites torches allumées (Ath. ibid.) ; numéro K.-A. contrôlé : PCG VII, p. 262 (Πτωχὴ ἢ Ῥοδία)"
  },
  {
   "v": "286",
   "lemme": "δέσποινα πολυτίμητε Δήμητερ φίλη",
   "categorie": "comiques",
-  "ref": "Chariclid. fr. 1 Kock (Ath. 7.325d)",
+  "ref": "Chariclid. fr. 1 K.-A. (= 1 Kock) (Ath. 7.325d)",
   "urn": "ia:comicorumatticor03kockuoft#n413",
   "citation": "δέσποιν᾽ Ἑκάτη τριοδῖτι, / τρίμορφε, τριπρόσωπε, / τρίγλαις κηλευμένα.",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Kock III, p. 394 (ia comicorumatticor03kockuoft n413, image lue) ; Ath. 7.126 (325a–d, Perseus)",
+  "verification": "Kock III, p. 394 (ia comicorumatticor03kockuoft n413, image lue) ; Ath. 7.126 (325a–d, Perseus) ; PCG IV (OCR du PDF du Drive, p. PDF 102) (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "recherche dans le corpus (δέσποινα)",
   "pertinence": 1,
-  "remarque": "invocation comique de déesse (« chanson populaire » selon Bergk)"
+  "remarque": "invocation comique de déesse (« chanson populaire » selon Bergk) ; numéro K.-A. contrôlé : PCG IV (OCR du PDF du Drive, p. PDF 102)"
  },
  {
   "v": "286",
   "lemme": "δέσποινα πολυτίμητε Δήμητερ φίλη",
   "categorie": "comiques",
-  "ref": "Antiph. fr. 145.2 Kock (= fr. 143.2 K.-A.)",
+  "ref": "Antiph. fr. 143.2 K.-A. (= 145 Kock)",
   "urn": "ia:comicorumatticor02kockuoft#n75",
   "citation": "πλακοῦντα χρηστόν, ὦ πολυτίμητοι θεοί,",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Kock II, p. 70 (ia comicorumatticor02kockuoft n75, image lue) ; Ath. 6.230d–e",
+  "verification": "Kock II, p. 70 (ia comicorumatticor02kockuoft n75, image lue) ; Ath. 6.230d–e ; PCG II, p. 389 (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Austin–Olson 2004, p. 147",
   "pertinence": 1,
-  "remarque": "numéro de K.-A. d’après Austin–Olson"
+  "remarque": "numéro K.-A. contrôlé : PCG II, p. 389"
  },
  {
   "v": "286",
   "lemme": "δέσποινα πολυτίμητε Δήμητερ φίλη",
   "categorie": "comiques",
-  "ref": "Eub. fr. 116–117.6 Kock (= fr. 115.6 K.-A.)",
+  "ref": "Eub. fr. 115.6 K.-A. (= 116–117 Kock)",
   "urn": "ia:comicorumatticor02kockuoft#n210",
   "citation": "ὦ Ζεῦ πολυτίμητ᾽, εἶτ᾽ ἐγὼ κακῶς ποτε / ἐρῶ γυναῖκας;",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Kock II, p. 205 (ia comicorumatticor02kockuoft n210, image lue) ; Ath. 13.559b",
+  "verification": "Kock II, p. 205 (ia comicorumatticor02kockuoft n210, image lue) ; Ath. 13.559b ; PCG V, p. 258 (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Austin–Olson 2004, p. 147",
   "pertinence": 1,
-  "remarque": "numéro de K.-A. d’après Austin–Olson"
+  "remarque": "numéro K.-A. contrôlé : PCG V, p. 258"
  },
  {
   "v": "286",
@@ -8426,6 +8468,20 @@
   "signale_par": "Austin–Olson 2004, p. 146 (Barrett ad loc.)",
   "pertinence": 2,
   "remarque": "le titre δεσπότης/δέσποινα réservé aux dieux"
+ },
+ {
+  "v": "286",
+  "lemme": "δέσποινα πολυτίμητε",
+  "categorie": "tragiques",
+  "ref": "Trag. adesp. fr. 328d Kn.-Sn. (Phot. α 1305)",
+  "urn": "drive:Grec/Lexiques/Photius/Theodoridis I#pdf218",
+  "citation": "ὦ δέσποτ᾽ Ἀμφιάραε πολυτίμητ᾽ ἄναξ",
+  "traduction": "« ô maître Amphiaraos, seigneur très honoré »",
+  "verifie": "scan",
+  "verification": "Theodoridis I, p. 136 (image lue) et p. 454 (Nachträge : trag. adesp. fr. 328d Kn.-Sn.)",
+  "signale_par": "lexiques_proverbes.py (passe 7)",
+  "pertinence": 2,
+  "remarque": "même invocation, δέσποτα … πολυτίμητε, à une divinité, dans un vers tragique cité par Photius (s.v. Ἀμφιάραος καὶ Ἀμφιάρεως) ; Theodoridis l’avait d’abord rapporté à Ar. fr. 60 Dem., puis l’a corrigé en trag. adesp. fr. 328d Kannicht–Snell (Nachträge)"
  },
  {
   "v": "286",
@@ -8571,15 +8627,15 @@
   "v": "287",
   "lemme": "Φερρέφαττα",
   "categorie": "comiques",
-  "ref": "Epicr. fr. (Ael. NA 12.10)",
+  "ref": "Epicr. fr. 8.2 K.-A. (= 9 Kock) (Ael. NA 12.10)",
   "urn": "urn:cts:greekLit:tlg0545.tlg001.perseus-grc2:12.10",
   "citation": "ἐπομνύουσα τὰν Κόραν τὰν Ἄρτεμιν τὰν Φερρέφατταν",
   "traduction": "",
   "verifie": "corpus",
-  "verification": "chercher.py 'Φερρέφαττα'",
+  "verification": "chercher.py 'Φερρέφαττα' ; PCG V, p. 159 (Χορός) (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "Ἐπικράτης, Χορός ; numéro K.-A. non contrôlé"
+  "remarque": "Ἐπικράτης, Χορός ; numéro K.-A. contrôlé : PCG V, p. 159 (Χορός)"
  },
  {
   "v": "287",
@@ -9249,7 +9305,7 @@
   "traduction": "« C’est un cochon, ça ? — Pour l’instant, ça a l’air d’un cochon ; une fois grandi, ce sera un con »",
   "verifie": "corpus",
   "verification": "p.py Ar. Ach. 781–782",
-  "signale_par": "Henderson 1991, p. 131–132 (§ 110–111)",
+  "signale_par": "Henderson 1991, p. 131 (§ 110)",
   "pertinence": 2,
   "remarque": "le lieu classique du double sens de χοῖρος (sexe de la fillette), dans la scène du Mégarien (cf. Ach. 777, ci-dessus) : dossier de la lecture obscène que l’auteur combat"
  },
@@ -9263,7 +9319,7 @@
   "traduction": "",
   "verifie": "corpus",
   "verification": "p.py Ar. Plut. 307–308",
-  "signale_par": "Henderson 1991, p. 131–132 (§ 110–111)",
+  "signale_par": "Henderson 1991, p. 131 (§ 110)",
   "pertinence": 1,
   "remarque": "Henderson rapproche ce vers du nôtre (χοῖρος « fillette » dans des plaisanteries obscènes sur les porcelets qui suivent leur mère) ; mais Σ Plut. 308 y voit un proverbe ἐπὶ τῶν ἀπαιδεύτων (v. 273)"
  },
@@ -9271,15 +9327,15 @@
   "v": "289",
   "lemme": "τὴν θυγατέρα Χοιρίλ᾽",
   "categorie": "comiques",
-  "ref": "Telecl. fr. ap. Vit. Eur. 1",
+  "ref": "Telecl. fr. 41.1 K.-A. (= 39 Kock) (Vit. Eur.)",
   "urn": "urn:cts:greekLit:tlg5023.tlg010.1st1K-grc1:1",
   "citation": "Μνησίλοχός ἐστʼ ἐκεῖνος, ὃς φρύγει τι δρᾶμα καινὸν",
   "traduction": "",
   "verifie": "corpus",
-  "verification": "chercher.py 'φρύγει Εὐριπίδῃ' (Σ Eur. Vit. 1, éd. Dindorf)",
+  "verification": "chercher.py 'φρύγει Εὐριπίδῃ' (Σ Eur. Vit. 1, éd. Dindorf) ; PCG VII, p. 683 (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Fritzsche 1838, p. 110",
   "pertinence": 2,
-  "remarque": "Μνησίλοχος, collaborateur d’Euripide, chez un comique contemporain ; numéro K.-A. non contrôlé ; D.L. 2.18 donne un vers voisin sous le nom de Mnésimaque"
+  "remarque": "Μνησίλοχος, collaborateur d’Euripide, chez un comique contemporain ; D.L. 2.18 donne un vers voisin sous le nom de Mnésimaque ; numéro K.-A. contrôlé : PCG VII, p. 683 ; K.-A. : Μνησίλοχός ἐστ᾽ ἐκεῖνος ⟨ὃς⟩ φρύγει τι δρᾶμα καινὸν / Εὐριπίδῃ, καὶ Σωκράτης τὰ φρύγαν᾽ ὑποτίθησιν (Vit. Eur. 2, p. 1, 10 Schwartz)"
  },
  {
   "v": "289",
@@ -9705,71 +9761,71 @@
   "v": "290",
   "lemme": "πλουτοῦντος … ἠλιθίου",
   "categorie": "comiques",
-  "ref": "Eup. fr. 159, 7–8 Kock (Ath. 6.236e–f)",
+  "ref": "Eup. fr. 172.7–8 K.-A. (= 159 Kock) (Ath. 6.236e–f)",
   "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:6.30",
   "citation": "ἐκεῖ δ’ ἐπειδὰν κατίδω τιν’ ἄνδρα / ἠλίθιον, πλουτοῦντα δ᾽, εὐθὺς περὶ τοῦτον εἰμί.",
   "traduction": "",
   "verifie": "corpus",
-  "verification": "Ath. 6.30 (Perseus grc3) ; van Leeuwen 1904, p. 48 (Eup. fr. 159, 8)",
+  "verification": "Ath. 6.30 (Perseus grc3) ; van Leeuwen 1904, p. 48 (Eup. fr. 159, 8) ; PCG V, pp. 390–391 (Κόλακες) (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Bergler ; Fritzsche 1838, p. 111 ; Blaydes 1880, p. 162 ; van Leeuwen 1904, p. 48 ; Rogers 1904, p. 33",
   "pertinence": 3,
-  "remarque": "chœur des Flatteurs chez Athénée (τῶν Κολάκων) ; Kock I, p. 300 ; numéro K.-A. non contrôlé ; Bergler l’attribuait à Eubule, d’après Fritzsche 1838, p. 112"
+  "remarque": "chœur des Flatteurs chez Athénée (τῶν Κολάκων) ; Kock I, p. 300 ; Bergler l’attribuait à Eubule, d’après Fritzsche 1838, p. 112 ; numéro K.-A. contrôlé : PCG V, pp. 390–391 (Κόλακες) ; au v. 9, κἄν τι τύχῃ λέγων ὁ πλούταξ (le riche ; cf. Eust. 1091, 57 ; Poll. 3.109)"
  },
  {
   "v": "290",
   "lemme": "ἠλιθίου",
   "categorie": "comiques",
-  "ref": "Cratin. fr. 43 Kock (= fr. 45 K.-A.) (EM 196, 7)",
+  "ref": "Cratin. fr. 45 K.-A. (= 43 Kock) (EM 196, 7)",
   "urn": "ia:comicorumatticor01kockuoft#n54",
   "citation": "ὁ δ’ ἠλίθιος ὥσπερ πρόβατον βῆ βῆ λέγων βαδίζει.",
   "traduction": "« et le sot s’en va comme un mouton en faisant bê bê »",
   "verifie": "scan",
-  "verification": "Kock I, p. 25 (ia comicorumatticor01kockuoft n54, image lue) ; Sud. β 250 (corpus, First1K)",
+  "verification": "Kock I, p. 25 (ia comicorumatticor01kockuoft n54, image lue) ; Sud. β 250 (corpus, First1K) ; PCG IV, p. 144 (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Austin–Olson 2004, p. 148 (« Cratin. fr. 45 »)",
   "pertinence": 2,
-  "remarque": "Sud. β 250 et Zonaras : ὁ δὴ λοίσθιος ; numéro de K.-A. d’après Austin–Olson"
+  "remarque": "Sud. β 250 et Zonaras : ὁ δὴ λοίσθιος ; numéro K.-A. contrôlé : PCG IV, p. 144"
  },
  {
   "v": "290",
   "lemme": "ἠλιθίου",
   "categorie": "comiques",
-  "ref": "Alc. com. fr. 1 Kock (Ath. 7.316b)",
+  "ref": "Alc. com. fr. 1 K.-A. (= 1 Kock) (Ath. 7.316b)",
   "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:7.100",
   "citation": "ἠλίθιον εἶναι νοῦν τε πουλύποδος ἔχειν.",
   "traduction": "« être sot et avoir l’esprit d’un poulpe »",
   "verifie": "corpus",
-  "verification": "chercher.py 'πουλύποδος ἠλίθιον' (Ath. 7.100) ; Kock I, p. 756 (n785, image lue)",
+  "verification": "chercher.py 'πουλύποδος ἠλίθιον' (Ath. 7.100) ; Kock I, p. 756 (n785, image lue) ; PCG II (OCR du PDF du Drive, p. PDF 40 ; Ἀδελφαὶ μοιχευόμεναι) (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Austin–Olson 2004, p. 148 (« Alc. Com. fr. 1 »)",
   "pertinence": 1,
-  "remarque": "page de Casaubon d’après les jalons de Kaibel (316b)"
+  "remarque": "page de Casaubon d’après les jalons de Kaibel (316b) ; numéro K.-A. contrôlé : PCG II (OCR du PDF du Drive, p. PDF 40 ; Ἀδελφαὶ μοιχευόμεναι)"
  },
  {
   "v": "290",
   "lemme": "κἀβελτέρου",
   "categorie": "comiques",
-  "ref": "Plat. com. fr. 64 Kock (= fr. 65 K.-A.) (Ath. 2.68c)",
+  "ref": "Plat. com. fr. 65.2–3 K.-A. (= 64 Kock) (Ath. 2.68c)",
   "urn": "ia:comicorumatticor01kockuoft#n647",
-  "citation": "ὁ μὲν Λέαγρος, Γλαύκωνος ὢν μεγάλου γένους, / ἀβελτεροκόκκυξ ἠλίθιος περιέρχεται … / Φιλωνίδην δ’ οὐ τέτοκεν ἡ μήτηρ ὄνον / τὸν Μελιτέα;",
+  "citation": "ὁ μὲν Λέαγρος, Γλαύκωνος ὢν μεγάλου γένους, / ⟨ἀβελτερο⟩κόκκυξ ἠλίθιος περιέρχεται",
   "traduction": "« Léagros, de la grande famille de Glaucon, se promène, sot et niais comme un coucou… et Philonidès de Mélité, sa mère n’a-t-elle pas enfanté un âne ? »",
   "verifie": "scan",
-  "verification": "Kock I, p. 618 (ia comicorumatticor01kockuoft n647, image lue) ; Ath. 2.78 (Perseus grc4, jalon 68c : Γλαύκωνας, coquille de la numérisation) ; vv. 5–6 chez Σ Plut. 179",
+  "verification": "Kock I, p. 618 (ia comicorumatticor01kockuoft n647, image lue) ; Ath. 2.78 (Perseus grc4, jalon 68c : Γλαύκωνας, coquille de la numérisation) ; vv. 5–6 chez Σ Plut. 179 ; PCG VII, p. 459 (Λάϊος ; image lue) (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Austin–Olson 2004, p. 148 (« Pl. Com. fr. 65. 3 »)",
   "pertinence": 3,
-  "remarque": "ἠλίθιος et ἀβέλτερος réunis, et le riche sot Philonidès ; numéro de K.-A. d’après Austin–Olson"
+  "remarque": "ἠλίθιος et ἀβέλτερος réunis, et le riche sot Philonidès ; numéro K.-A. contrôlé : PCG VII, p. 459 (Λάϊος ; image lue) ; K.-A. impriment ⟨ἀβελτερο⟩κόκκυξ, suppléé d’après la glose Ἀβελτεροκόκκυξ (Sud. α 31, ci-dessous)"
  },
  {
   "v": "290",
   "lemme": "κἀβελτέρου",
   "categorie": "comiques",
-  "ref": "Anaxandr. fr. 21 Kock (= fr. 22 K.-A.) (Stob. Ecl. 2.1.3)",
+  "ref": "Anaxandr. fr. 22 K.-A. (= 21 Kock) (Stob. Ecl. 2.1.3)",
   "urn": "ia:comicorumatticor02kockuoft#n148",
   "citation": "ἅπαντές ἐσμεν πρὸς τὰ θεῖ’ ἀβέλτεροι, / κοὐκ ἴσμεν οὐδέν.",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Kock II, p. 143 (ia comicorumatticor02kockuoft n148, image lue)",
+  "verification": "Kock II, p. 143 (ia comicorumatticor02kockuoft n148, image lue) ; PCG II, p. 248 (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Austin–Olson 2004, p. 148 (« Anaxandr. fr. 22. 1 »)",
   "pertinence": 1,
-  "remarque": "numéro de K.-A. d’après Austin–Olson"
+  "remarque": "numéro K.-A. contrôlé : PCG II, p. 248"
  },
  {
   "v": "290",
@@ -10517,15 +10573,15 @@
   "v": "291",
   "lemme": "νοῦν ἔχειν … καὶ φρένας",
   "categorie": "comiques",
-  "ref": "Men. fr. 60 Kock (= fr. 58 K.-A.) (Stob. Flor. 77.4–5)",
+  "ref": "Men. fr. 58 K.-A. (= 60 Kock) (Stob. 4.24e.37–38)",
   "urn": "ia:comicorumatticor03kockuoft#n39",
   "citation": "εὐδαιμονία τοῦτ’ ἐστὶν υἱὸς νοῦν ἔχων· / ἀλλὰ θυγάτηρ κτῆμ’ ἐστὶν ἐργῶδες πατρί.",
   "traduction": "« le bonheur, c’est un fils qui a du sens ; mais une fille est un bien pénible pour un père »",
   "verifie": "scan",
-  "verification": "Kock III, p. 20 (ia comicorumatticor03kockuoft n39, image lue) ; Stob. Flor. 77.4–5 (Meineke, OCR)",
+  "verification": "Kock III, p. 20 (ia comicorumatticor03kockuoft n39, image lue) ; Stob. Flor. 77.4–5 (Meineke, OCR) ; PCG VI.2, p. 72 (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Austin–Olson 2004, p. 148 (« Men. frr. 58. 1 »)",
   "pertinence": 3,
-  "remarque": "le fils sensé et la fille à établir, comme dans la prière de Mnésiloque (289–291) ; Stobée donne les deux vers séparément, Grotius les a réunis ; numéro de K.-A. d’après Austin–Olson"
+  "remarque": "le fils sensé et la fille à établir, comme dans la prière de Mnésiloque (289–291) ; Stobée donne les deux vers séparément, Grotius les a réunis ; numéro K.-A. contrôlé : PCG VI.2, p. 72"
  },
  {
   "v": "291",
@@ -10895,15 +10951,15 @@
   "v": "291",
   "lemme": "πρὸς θυλάκιον",
   "categorie": "proverbes",
-  "ref": "Alexis fr. 85 Kock (Ath. 11.470e)",
+  "ref": "Alexis fr. 88.3–5 K.-A. (= 85 Kock) (Ath. 11.470e)",
   "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:11.41",
   "citation": "κατά τε τὴν παροιμίαν / αἰεὶ ποτ’ εὖ μὲν ἀσκός, εὖ δὲ θύλακος / ἅνθρωπός ἐστιν.",
   "traduction": "« selon le proverbe, l’homme est toujours une bonne outre et un bon sac »",
   "verifie": "corpus",
-  "verification": "chercher.py 'ἀσκὸς θύλακος' (Ath. 11.41, jalon 470e) ; Kock II, p. 324 (n329, image lue)",
+  "verification": "chercher.py 'ἀσκὸς θύλακος' (Ath. 11.41, jalon 470e) ; Kock II, p. 324 (n329, image lue) ; PCG II, p. 66 (Ἡσιόνη) (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "recherche dans le corpus (θύλακος)",
   "pertinence": 1,
-  "remarque": "le θύλακος du proverbe est la panse (Kock : saccus propter voracitatem), non la bourse"
+  "remarque": "le θύλακος du proverbe est la panse (Kock : saccus propter voracitatem), non la bourse ; numéro K.-A. contrôlé : PCG II, p. 66 (Ἡσιόνη)"
  },
  {
   "v": "292",
@@ -11175,29 +11231,29 @@
   "v": "292",
   "lemme": "καθίζωμ᾽ ἐν καλῷ",
   "categorie": "comiques",
-  "ref": "Pl. com. fr. ap. Plut. Them. 32.5",
+  "ref": "Plat. com. fr. 199.1 K.-A. (= 183 Kock) (Plut. Them. 32.5)",
   "urn": "urn:cts:greekLit:tlg0007.tlg010.perseus-grc2:32.5",
   "citation": "ὁ σὸς δὲ τύμβος ἐν καλῷ κεχωσμένος",
   "traduction": "",
   "verifie": "corpus",
-  "verification": "p.py Plut. Them. 32.5",
+  "verification": "p.py Plut. Them. 32.5 ; PCG VII, p. 517 (incertae fabulae) (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Blaydes 1880, p. 163",
   "pertinence": 3,
-  "remarque": "même ἐν καλῷ topographique, chez un comique ; numéro K.-A. non contrôlé"
+  "remarque": "même ἐν καλῷ topographique, chez un comique ; numéro K.-A. contrôlé : PCG VII, p. 517 (incertae fabulae)"
  },
  {
   "v": "292",
   "lemme": "καθίζωμ᾽ ἐν καλῷ",
   "categorie": "comiques",
-  "ref": "Alexis fr. 41 Kock (Poll. 9.44)",
+  "ref": "Alexis fr. 42 K.-A. (= 41 Kock) (Poll. 9.44)",
   "urn": "ia:comicorumatticor02kockuoft#n317",
   "citation": "ἐνταῦθα περὶ τὴν ἐσχάτην δεῖ κερκίδα / ὑμᾶς καθιζούσας θεωρεῖν ὡς ξένας.",
   "traduction": "« là, au dernier gradin, il faut que vous soyez assises pour regarder, comme des étrangères »",
   "verifie": "scan",
-  "verification": "Kock II, p. 312 (ia comicorumatticor02kockuoft n317, image lue)",
+  "verification": "Kock II, p. 312 (ia comicorumatticor02kockuoft n317, image lue) ; PCG II, p. 46 (Γυναικοκρατία) (couche texte du PDF ; Kassel–Austin)",
   "signale_par": "Fritzsche 1838 (relevé de la passe 1 : « Poll. 9.44 Alexis Gynaikokratia ») ; recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "La Gynécocratie : une femme dit où s’asseoir au théâtre, en haut du dernier coin (Kock : in cuneo supremo esse considendum)"
+  "remarque": "La Gynécocratie : une femme dit où s’asseoir au théâtre, en haut du dernier coin (Kock : in cuneo supremo esse considendum) ; numéro K.-A. contrôlé : PCG II, p. 46 (Γυναικοκρατία)"
  },
  {
   "v": "292",
@@ -11421,7 +11477,7 @@
   "verification": "hsch.py --ref 'γ 252' ; Latte I, p. 492",
   "signale_par": "recherche dans le corpus (Hésychius)",
   "pertinence": 2,
-  "remarque": "sigles omis ; glose chrétienne"
+  "remarque": "sigles omis ; glose chrétienne (Cyrille, in Esai.) ; même glose, καλλίστως ἔσχεν, dans Synag. γ 14 = Sud. γ 93 = Phot. γ 46 (Cunningham, p. 152 ; Theodoridis I, p. 354)"
  },
  {
   "v": "292",
@@ -11786,5 +11842,19 @@
   "signale_par": "recherche dans le corpus (parémiographes)",
   "pertinence": 1,
   "remarque": "= Zen. 4.33 ; 5.24 dans la numérotation du CPG I (note à Zen. 4.33, p. 93)"
+ },
+ {
+  "v": "293",
+  "lemme": "ἐκποδών",
+  "categorie": "proverbes",
+  "ref": "Zen. 1.90",
+  "urn": "urn:cts:greekLit:tlg0098.tlg001.1st1K-grc1:1.90",
+  "citation": "Ἀνδρὸς κακῶς πράσσοντος ἐκποδὼν φίλοι",
+  "traduction": "« quand un homme est dans le malheur, ses amis s’écartent »",
+  "verifie": "corpus",
+  "verification": "p.py Zen. 1.90",
+  "signale_par": "lexiques_proverbes.py (passe 7)",
+  "pertinence": 1,
+  "remarque": "ἐκποδών dans un proverbe ; idem Diogenian. 1.79, Greg. Cypr. 1.60 ; Tosi n. 438 (rapproché d’Eur. Phoen. 403 par les scholies, CPG I, p. 413)"
  }
 ]

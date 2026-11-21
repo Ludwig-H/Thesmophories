@@ -58,13 +58,6 @@
  {
   "v": "227",
   "lemme": "ἡμίκραιραν",
-  "ref": "Aelius Dionysius η 9 (Erbse)",
-  "source": "testimonia de l’auteur (edition/donnees/travaux_anterieurs/testimonia.tsv, G0154)",
-  "raison": "recueil d’Erbse absent du corpus local et des scans ; Hsch. η 496 et Eust. relus, mais pas cet article"
- },
- {
-  "v": "227",
-  "lemme": "ἡμίκραιραν",
   "ref": "IG II² 1356 (ἡμίκραιραν χορδῆς)",
   "source": "LSJ s.v. ἡμίκραιρα",
   "raison": "inscription non consultée"
@@ -86,9 +79,9 @@
  {
   "v": "211",
   "lemme": "τοῦτον μὲν μακρὰ / κλάειν κέλευ᾽",
-  "ref": "Hippon. fr. 86.18 W. ; Eup. fr. 328 K.-A. ; Antiph. fr. 217.6 K.-A. (μακράν) ; Men. Epitr. 160, 1068 ; Men. Pk. 370–371 (μακρὰ καὶ μεγάλα) ; Men. Georg. 57",
+  "ref": "Men. Epitr. 160, 1068 ; Men. Pk. 370–371 (μακρὰ καὶ μεγάλα) ; Men. Georg. 57",
   "source": "Austin–Olson 2004, p. 123–124 (ad 211–12)",
-  "raison": "fragments et pièces de Ménandre non retrouvés dans le corpus local ni dans les scans (Kock interrogé sans résultat pour Eupolis et Antiphane)"
+  "raison": "comédies de Ménandre transmises par papyrus : absentes des sources locales (Hippon. fr. 86.18 Degani, Eup. fr. 328 K.-A. et Antiph. fr. 217.6 K.-A. vérifiés depuis et inscrits)"
  },
  {
   "v": "212",
@@ -98,18 +91,11 @@
   "raison": "Hérondas absent du corpus local"
  },
  {
-  "v": "214",
-  "lemme": "ἀπόδυθι",
-  "ref": "Cratin. fr. 330 K.-A. (ἀπόδυθι τὴν στολήν)",
-  "source": "Austin–Olson 2004, p. 124 (ad 213–14)",
-  "raison": "fragment non retrouvé chez Kock ni dans les lexicographes indexés (chercher.py ἀπόδυθι --toutes-editions ; στολήν -a Kock) ; PCG IV non disponible localement"
- },
- {
   "v": "216",
   "lemme": "ἀλλὰ πρᾶττ᾽",
-  "ref": "Men. Dysk. 746 ; adesp. tr. fr. 710.2 (πρᾶττε)",
+  "ref": "Men. Dysk. 746",
   "source": "Austin–Olson 2004, p. 126 (ad 216–17)",
-  "raison": "Dyscolos et TrGF II absents du corpus local et des scans"
+  "raison": "Dyscolos absent des sources locales (adesp. tr. fr. 710.2 vérifié depuis dans TrGF II et inscrit)"
  },
  {
   "v": "216",
@@ -128,9 +114,9 @@
  {
   "v": "221",
   "lemme": "τὴν γνάθον",
-  "ref": "Hes. fr. 302.13 M.-W. ; Epich. fr. 18.2 K.-A. ; Soph. fr. 507.2 R. ; Hippon. fr. 79.4 W.",
+  "ref": "Hes. fr. 302.13 M.-W.",
   "source": "Austin–Olson 2004, p. 127 (ad 221)",
-  "raison": "éditions de référence absentes (Merkelbach–West, PCG I, TrGF IV, West IEG) ; chercher.py 'γνάθ*' -a Epich. et TGF² de Nauck (OCR médiocre) sans résultat"
+  "raison": "Merkelbach–West absent des sources locales (Epich. fr. 18.2 K.-A., Soph. fr. 507.2 R. et Hippon. fr. 79.4 Degani vérifiés depuis et inscrits)"
  },
  {
   "v": "222",
@@ -142,9 +128,9 @@
  {
   "v": "222",
   "lemme": "οἴμοι",
-  "ref": "Sapph. fr. 94.4 V. (ὤιμοι) ; CEG 718",
+  "ref": "CEG 718",
   "source": "Austin–Olson 2004, p. 128 (ad 222–3)",
-  "raison": "papyrus de Sappho et CEG non disponibles localement (DCLP interrogé sans résultat)"
+  "raison": "CEG non disponible localement (Sappho fr. 94.4 V. vérifiée depuis sur l’édition de Voigt et inscrite)"
  },
  {
   "v": "225",

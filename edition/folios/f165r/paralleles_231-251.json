@@ -4998,6 +4998,20 @@
   "remarque": "le porc passé à la flamme, en cuisine comique"
  },
  {
+  "v": "237",
+  "lemme": "δελφάκιον γενήσομαι",
+  "categorie": "lexicographes",
+  "ref": "Phot. δ 171",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf469",
+  "citation": "δελφάκιον· χοῖρος.",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "Theodoridis I, p. 387 (PDF du Drive p. 469, image lue)",
+  "signale_par": "dépouillement de Photius (Theodoridis I)",
+  "pertinence": 1,
+  "remarque": "glose du lexique de Diogénien (sigle D de Theodoridis) ; cf. Hsch. δ 599 (ci-dessus), qui renvoie à notre vers"
+ },
+ {
   "v": "238",
   "lemme": "ἐνεγκάτω τις ἔνδοθεν",
   "categorie": "aristophane",
@@ -5360,6 +5374,20 @@
   "pertinence": 1,
   "remarque": "",
   "traduction": ""
+ },
+ {
+  "v": "238",
+  "lemme": "δᾷδ᾽ ἢ λύχνον",
+  "categorie": "proverbes",
+  "ref": "Diogen. 6.27",
+  "urn": "urn:cts:greekLit:tlg0097.tlg001.1st1K-grc1:6.27",
+  "citation": "Λύχνον ἐν μεσημβρίᾳ ἅπτειν: ἐπὶ τῶν παρὰ καιρόν τι ποιούντων.",
+  "traduction": "allumer une lampe en plein midi : de ceux qui font une chose à contretemps",
+  "verifie": "corpus",
+  "verification": "chercher.py 'λύχνον μεσημβρίᾳ' (First1K) ; Phot. λ 491 lu chez Theodoridis II, p. 527 (PDF du Drive p. 644, image)",
+  "signale_par": "dépouillement de Photius (λ 491, Theodoridis II)",
+  "pertinence": 1,
+  "remarque": "= Phot. λ 491 (λύχνον ἐν μεσημβρίᾳ ἅπτεις· ἐπὶ τῶν ἐν καιρῷ ἀνεπιτηδείῳ τι ποιούντων), Sud. λ 880, Apostol. 10.95 (testimonia de Theodoridis) ; la scène se joue de jour : la lampe n'éclaire pas, elle sert à flamber"
  },
  {
   "v": "239",
@@ -6256,6 +6284,20 @@
   "pertinence": 2,
   "remarque": "Tosi réunit le proverbe grec, le latin (De calcaria in carbonariam ; De fumo ad flammam) et Posidippe (« du feu aux couteaux ») ; il ne cite pas notre scène",
   "traduction": ""
+ },
+ {
+  "v": "240",
+  "lemme": "κάομαι",
+  "categorie": "lexicographes",
+  "ref": "Moer. κ 46 Hansen",
+  "urn": "drive:Grec/Lexiques/Moeris/PS.-Herodian, de Figuris  Das Attizistische Lexikon Des Moeris Uberlieferungsgeschichte Und Kritische Ausgabe ROC hellenike gimagereader.pdf#pdf293",
+  "citation": "κλάειν καὶ κάειν σὺν τῷ α Ἀττικοί· μετὰ δὲ τοῦ ι Ἕλληνες.",
+  "traduction": "κλάειν et κάειν avec α : formes attiques ; avec ι (καίειν) : formes communes",
+  "verifie": "scan",
+  "verification": "Hansen 1998, p. 116 (PDF du Drive p. 293, image lue)",
+  "signale_par": "dépouillement de Moeris (Hansen, nouvellement disponible) ; lq.py 'καειν'",
+  "pertinence": 2,
+  "remarque": "κάομαι, forme attique sans iota (de même κλάειν au v. 212) ; Hansen cite Ar. Ran. 1066 κλάει ; testimonia : Cyrille (κλάειν· κλαίειν, ὡς κάειν· καίειν), Hsch. κ 2849"
  },
  {
   "v": "241",
@@ -8204,6 +8246,34 @@
   "remarque": "testimonia de Fischer : Phryn. PS 28, 1 ; Ael. Dion. α 186 ; Moer. 187, 17 ; Ba. 150, 19 ; Sud. α 4132. Rutherford ajoute (p. 197) que Moeris dit la même chose (p. 11 Pierson) et cite Phryn. PS 28, 1"
  },
  {
+  "v": "245",
+  "lemme": "φεῦ",
+  "categorie": "lexicographes",
+  "ref": "Phot. φ 127",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon N - Phi (German Edition) by Christos Theodoridis (z-lib.org).pdf#pdf595",
+  "citation": "φεῦ· σχετλιαστικὸν ἐπίρρημα ἢ ὀδυνηρὸν οἰμώγημα.",
+  "traduction": "φεῦ : adverbe de plainte, ou cri de douleur",
+  "verifie": "scan",
+  "verification": "Theodoridis III, p. 566 (PDF du Drive p. 595, image lue : texte, testimonia, apparat)",
+  "signale_par": "dépouillement de Photius (lq.py 'φευ … σχετλ')",
+  "pertinence": 2,
+  "remarque": "= Synag. φ 79, Sud. φ 235 (= Ael. Dion. φ 11 Erbse) ; cf. Hsch. φ 328 (ci-dessus) ; le « cri de douleur » convient au φεῦ de R (Mnésiloque brûlé), contre le φῦ de Dindorf (souffle sur le feu, cf. Sud. ε 2807 et Lys. 293–295 ci-dessus)"
+ },
+ {
+  "v": "245",
+  "lemme": "ἰού",
+  "categorie": "lexicographes",
+  "ref": "Phot. ι 148",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf445",
+  "citation": "ἰού· σχετλιαστικὸν ἐπίρρημα· ἀντὶ τοῦ οἴμοι.",
+  "traduction": "ἰού : adverbe de plainte, pour « hélas »",
+  "verifie": "scan",
+  "verification": "Theodoridis II, p. 328 (PDF du Drive p. 445, image lue)",
+  "signale_par": "dépouillement de Photius (Theodoridis II)",
+  "pertinence": 1,
+  "remarque": "= Σᵃ, Sud. ι 426 ; cf. Hsch. ι 757 (ci-dessus), Σ Ar. Nub. 1b, Plut. 275 (testimonia de Theodoridis)"
+ },
+ {
   "v": "246",
   "lemme": "τὰ περὶ τὴν τράμιν",
   "categorie": "testimonium",
@@ -9028,6 +9098,34 @@
   "signale_par": "Austin–Olson 2004, p. 135 ; LSJ s.v. τράμις (liste des non vérifiés de la passe précédente)",
   "pertinence": 2,
   "remarque": "définition anatomique : la τράμις est le raphé, la ligne qui court du scrotum vers l'anus (le « périnée ») ; d'autres disent ὄρρος (cf. Poll. 2.173 et Hsch. ο 1315–1316 ci-dessus) ; l'édition accentue τραμίς"
+ },
+ {
+  "v": "246",
+  "lemme": "τὰ περὶ τὴν τράμιν",
+  "categorie": "lexicographes",
+  "ref": "Phot. ο 526",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon N - Phi (German Edition) by Christos Theodoridis (z-lib.org).pdf#pdf137",
+  "citation": "ὄρρος· τράμις· | καὶ ὀρροπύγιον· οὕτως καὶ οἱ Ἴωνες· ὀρθοπύγιον δὲ παρ᾽ οὐδενὶ τῶν Ἑλλήνων.",
+  "traduction": "ὄρρος : la τράμις ; et ὀρροπύγιον (le croupion)",
+  "verifie": "scan",
+  "verification": "Theodoridis III, p. 108 (PDF du Drive p. 137, image lue : texte et testimonia)",
+  "signale_par": "dépouillement de Photius (lq.py 'τραμι')",
+  "pertinence": 2,
+  "remarque": "testimonia de Theodoridis : τράμις = Hsch. ο 1316 (ci-dessus), qui ajoute l'explication de Didyme (οὐχ ὥς τινες τὸ ἰσχίον) ; cf. Σ Ar. Ran. 223, Ruf. Onom. 101 (unde Poll. 2.173), Σ Luc., Erot. 85, 7 ; ὀρροπύγιον : Moer. ο 23 Hansen"
+ },
+ {
+  "v": "246",
+  "lemme": "τὰ περὶ τὴν τράμιν",
+  "categorie": "scholies",
+  "ref": "Σ Ran. 223 (Dübner, p. 281, 22–25)",
+  "urn": "ia:scholiagraecain00unkngoog#n381",
+  "citation": "ὄρρον δέ, τὸν λεγόμενον ταῦρον, τὸ μεταξὺ τῶν διδύμων. Καλλίστρατος, τὴν ὀσφῦν καὶ τὸ ἱερὸν ὀστοῦν. Δίδυμος, τὴν τράμιν, οὐχ ὥς τινες τὸ ἰσχίον.",
+  "traduction": "l'ὄρρος, qu'on appelle « taureau », entre les testicules ; selon Callistrate, les reins et le sacrum ; selon Didyme, la τράμις, non la hanche comme certains le disent",
+  "verifie": "scan",
+  "verification": "Dübner 1842, p. 281, col. de droite, l. 22–25 (archive.org scholiagraecain00unkngoog, image n381 lue) ; même explication de Didyme l. 33–34",
+  "signale_par": "testimonia de Theodoridis à Phot. ο 526 (« sch. Ar. Ran. 223 p. 281, 24-25 Dübner »)",
+  "pertinence": 2,
+  "remarque": "scholie à Ran. 222 (Dionysos ramant : ἐγὼ δέ γ᾽ ἀλγεῖν ἄρχομαι τὸν ὄρρον) : Didyme glose ὄρρος par τράμις ; l'explication de Didyme est aussi dans Hsch. ο 1316"
  },
  {
   "v": "247",
@@ -10150,6 +10248,34 @@
   "remarque": "Tosi : « opération paradoxale » et « immuabilité des caractéristiques naturelles » ; Érasme, Adag. 1.4.50 (Aethiopem lavas), d'après Tosi"
  },
  {
+  "v": "248",
+  "lemme": "τὸν ἐμὸν πρωκτὸν πλυνεῖ",
+  "categorie": "lexicographes",
+  "ref": "Phot. π 965",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon N - Phi (German Edition) by Christos Theodoridis (z-lib.org).pdf#pdf269",
+  "citation": "πλύνεται· λοιδορεῖται· αἰσχρῶς ὑβρίζεται.",
+  "traduction": "on le « lave » : on l'injurie, on l'outrage honteusement",
+  "verifie": "scan",
+  "verification": "Theodoridis III, p. 240 (PDF du Drive p. 269, image lue)",
+  "signale_par": "dépouillement de Photius (lq.py 'πλυν')",
+  "pertinence": 2,
+  "remarque": "= Σᵃ, Ba. 344, 5, Sud. π 1816, cf. Hsch. π 2629, Zonar. 1557 ; sur l'usage attique, Poll. 7.38, Hsch. π 2631 (= com. adesp. fr. 413 K.-A.) et Phryn. PS 101, 7 (testimonia de Theodoridis) : le sens figuré de πλύνειν, sous-jacent à la menace de Mnésiloque"
+ },
+ {
+  "v": "248",
+  "lemme": "οἰμώξετ᾽ ἆρ᾽",
+  "categorie": "comiques",
+  "ref": "Eup. fr. 328, 1 K.-A. (305 Kock)",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/Poetae Comici Graeci Volumen V Damoxenus - Magnes by Rudolf Kassel, Colin Austin (eds.) (z-lib.org).pdf#pdf519",
+  "citation": "τίς οὑξεγείρας μ᾽ ἐστίν; οἰμώξει μακρά",
+  "traduction": "qui m'a réveillé ? il va le payer cher",
+  "verifie": "scan",
+  "verification": "PCG V, p. 486 (PDF du Drive p. 519, image lue) ; source : Zonar. p. 605 Tittmann (s.v. ἐγερθῆναι)",
+  "signale_par": "dépouillement de Zonaras (lq.py 'οιμωξ')",
+  "pertinence": 1,
+  "remarque": "même menace (οἰμώξει) ; K.-A. rapprochent Ar. Av. 1207 et Plut. 111"
+ },
+ {
   "v": "249",
   "lemme": "σαυτὸν ἐπιδοῦναι φθονεῖς",
   "categorie": "aristophane",
@@ -11044,5 +11170,33 @@
   "signale_par": "dépouillement d’Hésychius (ζώνιον, στρόφιον)",
   "pertinence": 1,
   "remarque": "le ζώνιον que Pollux (7.67) identifie au στρόφιον ; Schmidt rattachait ici un στρόφιον tiré de la glose 227"
+ },
+ {
+  "v": "251",
+  "lemme": "στρόφιον",
+  "categorie": "lexicographes",
+  "ref": "Phot. σ 639",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon N - Phi (German Edition) by Christos Theodoridis (z-lib.org).pdf#pdf434",
+  "citation": "στρόφιον· τὸ στρογγύλον ζωνάριον. Ἀριστοφάνης (Lys. 931)· „τὸ στρόφιον ἤδη λύομαι“.",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "Theodoridis III, p. 405 (PDF du Drive p. 434, image lue : texte et testimonia)",
+  "signale_par": "dépouillement de Photius (lq.py 'στροφιο')",
+  "pertinence": 2,
+  "remarque": "= Synag. σ 261, Sud. σ 1221, EM 730, 56 (ci-dessus) ; testimonia de Theodoridis : Hsch. σ 2044, Poll. 5.96 et 7.67 (= Ar. fr. 664 K.-A.), Σ Ar. Lys. 931 et Thesm. 139 ; le mot apparaît dans un inventaire de l'Hécatompédon (IG II² 1388, 19)"
+ },
+ {
+  "v": "251",
+  "lemme": "στρόφιον",
+  "categorie": "lexicographes",
+  "ref": "Poll. 5.96",
+  "urn": "drive:Grec/Lexiques/Pollux/Libres I - V  Bethe Pollucis Onomasticon ROC hellinike gimagereader.pdf#pdf312",
+  "citation": "καὶ στρόφιον καὶ ὀπισθοσφενδόνην παρ᾽ Ἀριστοφάνους",
+  "traduction": "et le strophion et le bandeau de nuque, chez Aristophane",
+  "verifie": "scan",
+  "verification": "Bethe I, p. 288, l. 12–13 (PDF du Drive p. 312, image lue ; signes de l'éditeur omis) ; Bethe renvoie à Ar. fr. 320, 4 et 647 Kock",
+  "signale_par": "testimonia de Theodoridis à Phot. σ 639 (« Poll. 5, 96 »)",
+  "pertinence": 1,
+  "remarque": "dans la liste des parures féminines (κόσμοι), d'après Ar. fr. 332, 4 K.-A. (ci-dessus)"
  }
 ]

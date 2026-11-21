@@ -336,6 +336,20 @@
   "remarque": "proverbe sur l’obscurité d’Héraclite ; Érasme, Adages 529 (Un nageur de Délos)"
  },
  {
+  "v": "316",
+  "lemme": "Δῆλον",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. I.vi.29 (n° 529)",
+  "urn": "",
+  "citation": "Δήλιος κολυμβητής, i. e. Delius natator. Olim vulgo dicebatur admodum natandi peritus, quique posset in summa natare aqua. Natum adagium, aut certe factum illustrius ex Socratis apophthegmate.",
+  "traduction": "« Le nageur délien » : se disait autrefois d’un nageur très habile, capable de nager à la surface de l’eau. L’adage est né, ou du moins s’est illustré, d’un mot de Socrate.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 234 C–D (page PDF 135 ; titre courant : Chil. I. Centur. VI. Prov. XXIX–XXXI ; image lue)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 1,
+  "remarque": "le Δηλίου κολυμβητοῦ de Sud. δ 400 (ci-dessus) : le mot de Socrate sur le livre d’Héraclite (Laërce, ajoute Érasme, le rapporte à un certain Cratès)"
+ },
+ {
   "v": "317",
   "lemme": "παγκρατὲς",
   "categorie": "aristophane",
@@ -530,6 +544,48 @@
   "signale_par": "recherche dans le corpus (parémiographes)",
   "pertinence": 1,
   "remarque": "sentence de Soph. OC 607–613 (Apostolius : Σοφοκλέους Οἰδίποδος ἐπὶ Κολωνῷ)"
+ },
+ {
+  "v": "317",
+  "lemme": "παγκρατὲς",
+  "categorie": "lexicographes",
+  "ref": "Hsch. π 361",
+  "urn": "drive:hsch:III#pdf53",
+  "citation": "πανκρατής· πάντων κρατῶν, καὶ ἄρχων, καὶ βασιλεύων (Soph. OC 609. Ai. 675)",
+  "traduction": "tout-puissant : qui domine tout, qui commande et règne",
+  "verifie": "corpus",
+  "verification": "hsch.py --ref 'π 361' ; Hansen III, p. 19 (marge : D ; apparat : « cf. gl. 20 »)",
+  "signale_par": "outils/corpus/lexiques_proverbes.py (v. 317) ; renvoi de Hansen à π 20",
+  "pertinence": 2,
+  "remarque": "la glose générale de l’adjectif, sous la graphie πανκρατής, à côté de π 20 (παγκρατής· Ζεύς, ci-dessus) ; Hansen y rapporte Soph. OC 609 (ὁ παγκρατὴς χρόνος) et Aj. 675"
+ },
+ {
+  "v": "317",
+  "lemme": "κόρα",
+  "categorie": "lexicographes",
+  "ref": "Hsch. κ 3609",
+  "urn": "drive:hsch:II#pdf659",
+  "citation": "κόρη· νύμφη, ἣν ταῖς παρθένοις ἔπεμπον. καὶ παρθένος. καὶ ἡ ὄψις",
+  "traduction": "korè : la poupée qu’on offrait aux jeunes filles ; et la vierge ; et la pupille de l’œil",
+  "verifie": "corpus",
+  "verification": "hsch.py --ref 'κ 3609' ; Latte II, p. 647 (marge : D) ; cf. κ 3610 (κόρην· παρθένον … ὀφθαλμόν … παῖδα)",
+  "signale_par": "recherche dans le corpus (Hésychius, lemmes κορ-)",
+  "pertinence": 1,
+  "remarque": "κόρα vaut παρθένος : Athéna est la Vierge (Παρθένος) ; le sens « pupille » (ἡ ὄψις) répond par hasard à γλαυκῶπι du v. 318"
+ },
+ {
+  "v": "317–320",
+  "lemme": "καὶ σὺ … κόρα … καὶ … θηροφόνη",
+  "categorie": "proverbes",
+  "ref": "App. Prov. 2.55",
+  "urn": "urn:cts:greekLit:tlg9007.tlg001.1st1K-grc1:2.55",
+  "citation": "Ἐμοὶ μελήσει ταῦτα καὶ λευκαῖς κόραις: βαρβάρων τινῶν στρατευομένων ἐπὶ Δελφοὺς ἐρωτώμενος ὁ θεὸς ταῦτα ἔφῃ. Ὕστερον δὲ ἐφάνη μετὰ Ἀθηνᾶς καὶ Ἀρτέμιδος, ὧν καὶ ἱερὰ ἐστὶν ἐν Δελφοῖς, προςιόντων ὑπαντῶν τοῖς πολεμίοις.",
+  "traduction": "« J’y veillerai, moi et les vierges blanches » : des barbares marchant sur Delphes, le dieu consulté fit cette réponse ; plus tard il apparut avec Athéna et Artémis, qui ont aussi des sanctuaires à Delphes, allant au-devant des ennemis qui approchaient.",
+  "verifie": "corpus",
+  "verification": "p.py App. Prov. 2.55 ; chercher.py 'λευκαῖς κόραις' (aussi Sud. ε 1060 : First1KGreek, et Adler II, p. 264, OCR)",
+  "signale_par": "recherche dans le corpus (parémiographes : Ἀθηνᾶ, Ἄρτεμις)",
+  "pertinence": 2,
+  "remarque": "le proverbe associe à Apollon (vv. 315–316) les deux vierges divines que le chœur invoque ensuite, Athéna (κόρα, v. 317) et Artémis (v. 320) ; idem Sud. ε 1060 (λέγουσιν, ὅτι … ἀπαντῶν τοὺς πολεμίους)"
  },
  {
   "v": "318",
@@ -782,6 +838,62 @@
   "signale_par": "recherche dans le corpus (parémiographes)",
   "pertinence": 2,
   "remarque": "ajoute τῶν ὀφθαλμῶν : διὰ γλαυκότητα τῶν ὀφθαλμῶν"
+ },
+ {
+  "v": "318",
+  "lemme": "γλαυκῶπι",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. I.ii.11 (n° 111)",
+  "urn": "",
+  "citation": "Γλαῦκας εἰς Ἀθήνας, i. e. Ululas Athenas, subaudiendum portas, aut mittis. … Aristophanes ἐν Ὄρνισι : Τί φῄς ; τίς γλαῦκ᾽ Ἀθήναζ᾽ ἤγαγε ; … Haec avis Atheniensium populo quondam erat gratissima, ac Minervae sacra habebatur, propter oculos caesios, quibus etiam in tenebris perspicit, quae vulgus avium non videt.",
+  "traduction": "« Des chouettes à Athènes » (sous-entendu : tu portes, ou tu envoies)… Cet oiseau était jadis très cher au peuple athénien et passait pour consacré à Minerve, à cause de ses yeux glauques, qui voient même dans les ténèbres ce que le commun des oiseaux ne voit pas.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 72 A–C (page PDF 54, image lue ; Chil. I. Centur. II d’après le titre courant de la page suivante)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 2,
+  "remarque": "le proverbe d’Ar. Av. 301 (ci-dessus) ; Érasme rattache la chouette d’Athéna à ses « oculi caesii », c’est-à-dire au γλαυκ- de γλαυκῶπις"
+ },
+ {
+  "v": "318",
+  "lemme": "γλαυκῶπι",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. I.i.76 (n° 76)",
+  "urn": "",
+  "citation": "Γλαῦξ ἵπταται, sive ἵπτατο, i. e. Noctua volat, sive volavit. Nam priscis Atheniensibus noctuae volatus, victoriae symbolum existimabatur : propterea quod avis haec Minervae sacra crederetur, quae quidem dicta est etiam male consulta Atheniensium bene fortunare.",
+  "traduction": "« La chouette vole » (ou « a volé ») : pour les anciens Athéniens, le vol de la chouette passait pour un présage de victoire, parce que cet oiseau était consacré à Minerve, dont on disait qu’elle tournait à bien même les décisions mal prises des Athéniens.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 57 E–F (page PDF 47 ; titre courant : Chil. I. Centur. I. Prov. LXXIV–LXXX ; image lue)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 2,
+  "remarque": "= Zen. 2.89 (ci-dessus) ; Érasme renvoie à I.viii.44, Atheniensium inconsulta temeritas (au v. 319) : la chouette, oiseau d’Athéna protectrice de la cité ; cf. Ar. Vesp. 1086 (γλαῦξ γὰρ ἡμῶν πρὶν μάχεσθαι τὸν στρατὸν διέπτετο), qu’Érasme cite en I.viii.44"
+ },
+ {
+  "v": "318",
+  "lemme": "γλαυκῶπι",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. I.x.22 (n° 922)",
+  "urn": "",
+  "citation": "Ἀθηνᾷ τὸν αἴλουρον. i. e. Minervae felem, subaudiendum, comparas. … Quid enim habet Minerva Dea cum fele commune, praeter glaucorem oculorum ? Nam is oculorum color Minervae tribuitur, qui & noctuis adest & felibus. Unde apud Homerum etiam Epitheton, γλαυκῶπις Ἀθήνη.",
+  "traduction": "« (Tu compares) le chat à Athéna »… Qu’a donc la déesse Minerve de commun avec le chat, sinon des yeux glauques ? Car cette couleur des yeux, qu’on attribue à Minerve, est aussi celle des chouettes et des chats ; d’où chez Homère l’épithète γλαυκῶπις Ἀθήνη.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 373 E–F (page PDF 205 ; titre courant : Chil. I. Centur. X. Prov. XIX–XXV ; image lue)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 2,
+  "remarque": "= Zen. 2.25, Diogenian. 2.37, Sud. α 726 (ci-dessus) ; Érasme explique le proverbe par l’épithète même du v. 318"
+ },
+ {
+  "v": "318",
+  "lemme": "γλαυκῶπι",
+  "categorie": "proverbes",
+  "ref": "Zen. 3.6",
+  "urn": "urn:cts:greekLit:tlg0098.tlg001.1st1K-grc1:3.6",
+  "citation": "Γλαὺξ εἰς Ἀθήνας: ἐπὶ τῶν ἀχρήστους ἐμπορίας ἀγόντων, ἐπειδὴ τὸ ζῶον πάνυ ἐπιχωριάζε τοῖς Ἀθηναίοις.",
+  "traduction": "« Une chouette à Athènes » : se dit de ceux qui font un commerce inutile, parce que cet animal abonde chez les Athéniens.",
+  "verifie": "corpus",
+  "verification": "p.py Zen. 3.6 ; Diogenian. 3.81, 3.57 ; Greg. Cypr. 2.11 (First1KGreek)",
+  "signale_par": "recherche dans le corpus (parémiographes : Ἀθηνᾶ)",
+  "pertinence": 1,
+  "remarque": "la forme parémiographique d’Ar. Av. 301 (ci-dessus) ; idem Diogenian. 3.81 (ἐπειδὴ μάλιστα τοῦτο τὸ ζῶον ἐκεῖ ἐπιχωριάζον τυγχάνει), Greg. Cypr. 2.11 (Γλαῦκα εἰς Ἀθήνας : ἐπὶ τῶν ἐπιδεικνυμένων πρὸς τοὺς εἰδότας … ὅτι πολλαὶ εἰς Ἀθήνας γλαῦκες) ; cf. Diogenian. 3.57 (Ὅμοιον· Γλαῦκας εἰς Ἀθήνας ἄγεις) et Érasme, Adag. I.ii.11 (au même vers)"
  },
  {
   "v": "319",
@@ -1384,6 +1496,62 @@
   "signale_par": "Bauck, De proverbiis Ar., p. 35",
   "pertinence": 2,
   "remarque": "cf. Eccl. 473–475, à propos d’une assemblée"
+ },
+ {
+  "v": "319",
+  "lemme": "περιμάχητον",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. II.v.84 (n° 1484)",
+  "urn": "",
+  "citation": "Διὸς ψῆφος. i. e. Jovis suffragium, dicebatur sacrum & inviolatum. … Ajunt enim locum, in quo Neptunus & Minerva judicium peregerunt, utrius nomine auspiciisque civitas Atheniensium institueretur, Jovis suffragium appellatum fuisse.",
+  "traduction": "« Le suffrage de Zeus » se disait de ce qui est sacré et inviolable… On dit en effet qu’on appela ainsi le lieu où Neptune et Minerve plaidèrent pour savoir sous le nom et les auspices duquel serait fondée la cité des Athéniens.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 576 A–B (page PDF 306, image lue ; numéro d’après les titres courants de l’OCR : Chil. II. Centur. V)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 2,
+  "remarque": "= Sud. δ 1213, Diogenian. 4.36 (ci-dessus) ; Érasme cite ensuite Cratinos d’après la Souda (Cratin. fr. 7 Kock, ci-dessus) : la querelle d’Athéna et de Poséidon qui fait d’Athènes une cité « disputée »"
+ },
+ {
+  "v": "319",
+  "lemme": "περιμάχητον",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. I.viii.44 (n° 744)",
+  "urn": "",
+  "citation": "Ἡ τῶν Ἀθηναίων δυσβουλία. i. e. Atheniensium inconsulta temeritas. Quadrat in eos, quibus male consulta vertunt bene. Nam id olim vulgo tributum est Atheniensibus, quod ipsi quidem socorditer consultarent, parumque prospicerent, verum Minerva civitatis praeses, illorum male instituta, bene vertere consuevit. … Quo loco Interpres adscribit fabulam hujusmodi : Cum Neptunus a Minerva victus, non posset Attica regione potiri, iratus immisit illis δυσβουλίαν.",
+  "traduction": "« L’irréflexion des Athéniens » : convient à ceux à qui leurs mauvaises décisions tournent à bien. On disait jadis des Athéniens qu’ils délibéraient sans soin et sans prévoyance, mais que Minerve, protectrice de la cité, tournait à bien ce qu’ils avaient mal résolu… Le scholiaste rapporte cette fable : Neptune, vaincu par Minerve et privé de l’Attique, leur envoya de colère la δυσβουλία.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 314 B–E (page PDF 175 ; titre courant : Chil. I. Centur. VIII. Prov. XLI–XLIV ; image lue)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 2,
+  "remarque": "= Sud. α 732, Ar. Nub. 587–589 et Σ Ar. Nub. 587 (ci-dessus) ; Érasme y joint Eupolis (d’après la Souda et Athénée), Ar. Vesp. 1086 (la chouette), Dem. 1.1 et Théognis : Athéna « civitatis praeses », la déesse de la cité « disputée » (περιμάχητον) contre Poséidon (v. 322)"
+ },
+ {
+  "v": "319",
+  "lemme": "περιμάχητον",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. IV.i.9 (n° 3009)",
+  "urn": "",
+  "citation": "Ὁ περιφόρητος Ἀρτέμων. i. e. Versatilis Artemon. Exstat in iisdem Collectaneis. Ajunt dici solitum de his, quorum gratia vehementer decertatur. Nam Artemonem adolescentem fuisse quempiam certatim adamatum à mulieribus ob insignem formam.",
+  "traduction": "« Artémon qu’on promène partout » : … se disait, dit-on, de ceux pour qui l’on se bat âprement ; car Artémon était un jeune homme que les femmes se disputaient pour sa beauté.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 972 B–C (page PDF 504, image lue ; Chil. IV. Centur. I d’après les titres courants de l’OCR)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 1,
+  "remarque": "= App. Prov. 4.32 (ci-dessus : περιμάχητος γυναιξίν) ; « quorum gratia vehementer decertatur » rend περιμάχητος"
+ },
+ {
+  "v": "319",
+  "lemme": "ἐλθὲ δεῦρο",
+  "categorie": "lexicographes",
+  "ref": "Hsch. δ 731",
+  "urn": "drive:hsch:I#pdf603",
+  "citation": "δεῦρο· ἐνθάδε. ἐλθέ εἰς τοῦτον τὸν τόπον. ἢ ἐπὶ τοῦ παρόντος, ἢ νῦν. ἢ παρακελευστικῶς· ‘δεῦρό νυν, ἢ τρίποδος περιδώμεθα’ (Ψ 485)",
+  "traduction": "ici : ici ; « viens en ce lieu » ; ou bien « à présent », « maintenant » ; ou pour exhorter : « allons, parions un trépied » (Il. 23.485)",
+  "verifie": "corpus",
+  "verification": "hsch.py --ref 'δ 731' ; Latte I, p. 565 (marge : Hom.? ; testimonia : ἐνθάδε et ἐπὶ τοῦ παρόντος Ael. Dion. δ 9 ; ἐλθέ Apion 230, 12 L. ; ἐλθέ Schol. Ar. Nub. 91b ; εἰς τοῦτον τὸν τόπον Ap. S. 57, 33) ; texte cité sans les sigles de sources de l’éditeur",
+  "signale_par": "outils/corpus/lexiques_proverbes.py (v. 319)",
+  "pertinence": 2,
+  "remarque": "la glose de δεῦρο par ἐλθέ εἰς τοῦτον τὸν τόπον rend exactement l’appel ἐλθὲ δεῦρο ; même définition dans Sud. δ 287 (ci-dessus : σημαίνει δὲ καὶ τὸ ἐλθέ) et Σ Ar. Nub. 91b (d’après Latte)"
  },
  {
   "v": "320",
@@ -2588,6 +2756,20 @@
   "signale_par": "Bauck, De proverbiis Ar., p. 57",
   "pertinence": 1,
   "remarque": "à propos de Lys. 139 οὐδὲν γάρ … πλὴν Ποσειδῶν καὶ σκάφη"
+ },
+ {
+  "v": "322",
+  "lemme": "σεμνὲ",
+  "categorie": "lexicographes",
+  "ref": "Hsch. σ 412",
+  "urn": "drive:hsch:III#pdf313",
+  "citation": "σεμνόν· κατάστυγνον, καὶ ἥσυχον. δηλοῖ δὲ καὶ ἔνδοξον, καὶ θαυμαστόν, καὶ ἄξιον ἐντροπῆς, καὶ μέγα, καὶ ἕξιν ἔχον",
+  "traduction": "auguste : sévère et calme ; le mot signifie aussi glorieux, admirable, digne de respect, grand, et qui a de la tenue",
+  "verifie": "corpus",
+  "verification": "hsch.py --ref 'σ 412' ; Hansen III, p. 279 (testimonia : Σ σ 52 ; apparat : μέγα] μέγαν K | ἕξιν ἔχον Mus.) ; texte cité sans les sigles de sources de l’éditeur",
+  "signale_par": "recherche dans le corpus (Hésychius, lemmes σεμν-)",
+  "pertinence": 1,
+  "remarque": "cf. Hsch. σ 408 (σεμναὶ θεαί· τὰς Εὐμενίδας οὕτως ἔλεγον) : σεμνός, épithète cultuelle des dieux ; κ 4419 (κύδιστε· ἐνδοξότατε, σεμνέ, τιμιώτατε) emploie le même vocatif σεμνέ pour gloser l’adresse homérique"
  },
  {
   "v": "323",
@@ -5376,6 +5558,20 @@
   "remarque": "seul proverbe mis dans la bouche des Nymphes"
  },
  {
+  "v": "326",
+  "lemme": "Νύμφαι",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. I.vii.8 (n° 608)",
+  "urn": "",
+  "citation": "Πολλοὶ θριοβόλοι, παῦροι δέ τε μάντιες ἄνδρες. i. e. Plures thriobolos, paucos est cernere vates. … Philochorus apud Zenodotum auctor est, olim tres Nymphas, Apollinis nutrices, Parnassum incoluisse, quae Thriae dicerentur.",
+  "traduction": "« Beaucoup jettent les sorts, peu sont devins »… Philochore, chez Zénobe, rapporte que trois Nymphes, nourrices d’Apollon, habitaient jadis le Parnasse : on les appelait les Thries.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 264 C–D (page PDF 150, image lue ; Chil. I. Centur. VII d’après les titres courants de l’OCR)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 1,
+  "remarque": "= Zen. 5.75 (ci-dessus) : les Nymphes de la montagne (ὀρείπλαγκτοι) nourrices d’Apollon"
+ },
+ {
   "v": "327",
   "lemme": "χρυσέα … φόρμιγξ",
   "categorie": "aristophane",
@@ -6060,6 +6256,20 @@
   "signale_par": "Tosi n° 1934",
   "pertinence": 1,
   "remarque": "la suite cite le proverbe entier : ὄνοϲ λύραϲ ἤκουε καὶ ϲάλπιγγοϲ ὗϲ"
+ },
+ {
+  "v": "327",
+  "lemme": "χρυσέα … φόρμιγξ",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. I.iv.35 (n° 335)",
+  "urn": "",
+  "citation": "Ὄνος λύρας, subaudi ἀκροατής, i. e. Asinus lyrae auscultator. In eos, qui propter imperitiam nullo sunt judicio, crassisque auribus.",
+  "traduction": "« L’âne (auditeur) de la lyre » : contre ceux qui, faute de culture, n’ont aucun jugement et l’oreille grossière.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 164 B–C (page PDF 100, image lue)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 1,
+  "remarque": "= Diogenian. 7.33, Sud. ο 391, Tosi n° 1934 (ci-dessus) ; Érasme ajoute que Varron fit de ce mot le titre d’une de ses Satires et cite, d’après Aulu-Gelle, le Testamentum (ὄνοι λύρας : les héritiers incultes)"
  },
  {
   "v": "328",
@@ -6854,10 +7064,10 @@
   "citation": "Σὺν Ἀθηνᾷ καὶ χεῖρα κίνει: παροιμία ἐπὶ τοῦ μὴ χρῆναι ἐπὶ ταῖς τῶν θεῶν ἐλπίσι καθημένους ἀργεῖν. Τίθεται δὲ ἡ παροιμία ἐπὶ γυναικῶν μάλιστα ὀφειλουσῶν ἐργάζεσθαι· ἡ γὰρ Ἀθηνᾶ ἐργάνη.",
   "traduction": "« avec Athéna, remue aussi ta main : proverbe qui dit qu’il ne faut pas rester assis sans rien faire sur l’espoir que l’on met dans les dieux. Il s’applique surtout aux femmes, qui doivent travailler ; car Athéna est l’Ouvrière »",
   "verifie": "corpus",
-  "verification": "p.py Zen. 5.93 ; Tosi n° 1290",
+  "verification": "p.py Zen. 5.93 ; Tosi n° 1290 ; p.py Diogenian. 8.11, Greg. Cypr. 3.63 (First1KGreek)",
   "signale_par": "Tosi n° 1290",
   "pertinence": 3,
-  "remarque": "le proverbe même des femmes en prière, à Athéna (cf. vv. 317–319) ; Zénobios dit qu’Euripide le mentionne"
+  "remarque": "le proverbe même des femmes en prière, à Athéna (cf. vv. 317–319) ; Zénobios dit qu’Euripide le mentionne ; idem Diogenian. 8.11 (Σὺν Ἀθηνᾷ καὶ χεῖρας κίνει : χρησμόν τις ἔλαβε, Τὴν χεῖρα προςφέροντα τὸν θεὸν καλεῖν), Greg. Cypr. 3.63 (Σὺν Ἀθηνᾷ καὶ χεῖρα κίνει) ; Érasme, Adag. I.vi.18 (au même vers)"
  },
  {
   "v": "328",
@@ -6872,6 +7082,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "Aesch. Pers. 742 ; Tosi y rattache σὺν Ἀθηνᾷ καὶ χεῖρα κίνει (Zen. 5.93 ; Diogen. 8.11 ; Hsch. σ 2393 ; Sud. σ 1428)"
+ },
+ {
+  "v": "328",
+  "lemme": "ἐπ᾽ εὐχαῖς",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. I.vi.18 (n° 518)",
+  "urn": "",
+  "citation": "Huic finitimum est, σὺν Ἀθηνᾷ καὶ χεῖρα κίνει. i. e. Auxiliante Minerva manum interim move. Monet adagium, ne fiducia divinae opis industriam remittamus. Convenit peculiariter in mulieres, quae lanificium exercent, favente quidem atque invocata Minerva.",
+  "traduction": "« Avec l’aide de Minerve, remue aussi la main » : l’adage nous avertit de ne pas relâcher notre effort par confiance dans le secours divin. Il convient particulièrement aux femmes qui travaillent la laine, avec la faveur de Minerve qu’elles ont invoquée.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 228 D–E (page PDF 132, image lue ; I.vi d’après l’adage précédent, XVI. Ne sutor ultra crepidam)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 2,
+  "remarque": "= Zen. 5.93 (ci-dessus) ; Érasme l’applique aux femmes qui invoquent Athéna Ergané : la prière ne dispense pas d’agir"
  },
  {
   "v": "329",
@@ -8120,6 +8344,34 @@
   "remarque": "renvoie à Diogen. 8.51 ; Hdt. 1.32"
  },
  {
+  "v": "329",
+  "lemme": "τελέως",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. II.iii.45 (n° 1245)",
+  "urn": "",
+  "citation": "Τὸν Κολοφῶνα ἐπέθηκεν. i. e. Colophonem addidit. Dici consuevit, cum summa manus rei cuipiam imponitur : aut cum accedit id, sine quo negocium confici non potest.",
+  "traduction": "« Il a mis le Colophon » : se disait quand on met la dernière main à une chose, ou quand s’ajoute ce sans quoi l’affaire ne peut s’achever.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 498 E–F (page PDF 267 ; titre courant : Chil. II. Centur. III. Prov. XL–XLV ; image lue)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 2,
+  "remarque": "= Diogenian. 8.36, Str. 14.1.28 (ci-dessus) ; Érasme rapporte l’origine selon Strabon (la cavalerie de Colophon qui décidait des guerres)"
+ },
+ {
+  "v": "329",
+  "lemme": "τελέως",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. I.iii.37 (n° 237)",
+  "urn": "",
+  "citation": "Finem vitae specta. Exstat apud Herodotum historia longe notissima, quemadmodum Solon Croeso responderit, nemini competere nomen beati, nisi qui feliciter vitae cursum peregisset.",
+  "traduction": "« Regarde la fin de la vie » : on connaît bien l’histoire, chez Hérodote, de la réponse de Solon à Crésus : nul ne mérite le nom d’heureux s’il n’a heureusement achevé sa vie.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 126 D–E (page PDF 81 ; titre courant : Chil. I. Centur. III. Prov. XXXV–XXXVII ; image lue)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 1,
+  "remarque": "cf. Diogenian. 8.51 (Τέλος ὅρα βίου) et Tosi n° 1588 (ci-dessus) ; Érasme cite Juvénal et Soph. OT"
+ },
+ {
   "v": "330",
   "lemme": "εὐγενεῖς",
   "categorie": "aristophane",
@@ -9128,6 +9380,62 @@
   "remarque": "Philem. fr. 180 Kock = Comparatio Menandri et Philistionis 3, 55 sq. (Tosi) ; la cité et la noblesse : Ἀθηνῶν εὐγενεῖς"
  },
  {
+  "v": "330",
+  "lemme": "εὐγενεῖς",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. II.viii.33 (n° 1733)",
+  "urn": "",
+  "citation": "Εὐγενέστερος Κόδρου. i. e. Generosior Codro. Per Ironiam recte dicetur in istos, qui majorum fumosis imaginibus, & natalium antiquitate gloriantur.",
+  "traduction": "« Plus noble que Codros » : se dira justement, par ironie, de ceux qui se glorifient des portraits enfumés de leurs ancêtres et de l’ancienneté de leur naissance.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 646 A–B (page PDF 341 ; titre courant : Chil. II. Centur. VIII. Prov. XXVI–XXXIV ; image lue)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 2,
+  "remarque": "= Zen. 4.3, Diogenian. 4.84 (ci-dessus) ; Érasme raconte ensuite la généalogie de Codros (Mélanthos, Nélée) et sa mort pour la patrie"
+ },
+ {
+  "v": "330",
+  "lemme": "εὐγενεῖς",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. II.viii.27 (n° 1727)",
+  "urn": "",
+  "citation": "Γενναῖος εἶ ἐκ βαλαντίου. i. e. Generosus es ex crumena. In eum jaciebatur, qui propter opulentiam generosus haberi voluisset, alioquin obscurus & humilis.",
+  "traduction": "« Tu es noble par la bourse » : se lançait contre celui qui voulait passer pour noble à cause de sa richesse, alors qu’il était d’ailleurs obscur et de basse condition.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 645 B (page PDF 341 ; titre courant : Chil. II. Centur. VIII. Prov. XXVI–XXXIV ; image lue)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 1,
+  "remarque": "= Zen. 2.88, Diogenian. 4.6 (ci-dessus)"
+ },
+ {
+  "v": "330",
+  "lemme": "εὐγενεῖς",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. I.viii.17 (n° 717)",
+  "urn": "",
+  "citation": "Ἄξιος εἶ τῆς ἐν Ἄργει ἀσπίδος. i. e. Dignus es Argivo clypeo. De generoso ac majorem in modum venerando : inde sumptum, quod olim apud Argivos ex more pueri incorrupti purique, clypeos quosdam gestantes, pompas agebant.",
+  "traduction": "« Tu es digne du bouclier d’Argos » : se dit d’un homme bien né et tout à fait vénérable ; l’adage vient de ce qu’autrefois, à Argos, des garçons purs et sans tache conduisaient les processions en portant des boucliers.",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 306 E–F (page PDF 171 ; titre courant : Chil. I. Centur. VIII. Prov. VII–XVIII ; image lue)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 1,
+  "remarque": "= Zen. 2.3, Diogenian. 1.92 (ci-dessus)"
+ },
+ {
+  "v": "330",
+  "lemme": "εὐγενεῖς",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. I.vii.79 (n° 679)",
+  "urn": "",
+  "citation": "Ἁλώνητον ἀνδράποδον. i. e. Sale emptum mancipium. In barbaram quempiam ac vilem homuncionem olim dicebatur. … Et Thraciae genti peculiaris erat mos, mancipia sale commutare. Unde comicus quidam : … i. e. Generosus es Thrax sale redemptus scilicet.",
+  "traduction": "« Esclave acheté contre du sel » : se disait autrefois d’un barbare, d’un être vil… Les Thraces avaient la coutume d’échanger les esclaves contre du sel. D’où ce mot d’un comique : « Tu es un Thrace bien né, acheté contre du sel, cela va de soi ».",
+  "verifie": "scan",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 294 D–E (page PDF 165 ; titre courant : Chil. I. Centur. VII. Prov. LXXVIII–LXXXII ; image lue)",
+  "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
+  "pertinence": 2,
+  "remarque": "= Zen. 2.12, Diogenian. 1.100 (ci-dessus : Θρᾷξ εὐγενὴς εἶ πρὸς ἅλας ἠγορασμένος) ; la noblesse refusée au Thrace, quand les femmes du v. 330 se disent εὐγενεῖς après le renvoi de la Thrace Thratta (v. 294)"
+ },
+ {
   "v": "331",
   "lemme": "εὔχεσθε τοῖς θεοῖσι τοῖς Ὀλυμπίοις",
   "categorie": "aristophane",
@@ -9644,6 +9952,20 @@
   "signale_par": "recherche dans le corpus (Ὄλυμπ* -a Diogenian.)",
   "pertinence": 1,
   "remarque": "vers de l’Odyssée (19.43, αὕτη τοι δίκη ἐστὶ θεῶν, οἳ Ὄλυμπον ἔχουσιν) devenu proverbe : les dieux de l’Olympe"
+ },
+ {
+  "v": "331–334",
+  "lemme": "εὔχεσθε τοῖς θεοῖσι … τοῖς τ᾽ ἄλλοις θεοῖς",
+  "categorie": "prose",
+  "ref": "SEG 21, 440, 6–11 (Athènes, 181/80)",
+  "urn": "",
+  "citation": "ὑπὲρ ὧν ἀπαγγέλλουσιν οἱ πρυτάνεις τῆς Λεωντίδος ὑπὲρ τῶν θυσιῶν ὧν ἔθυον τὰ πρὸ τῶν ἐκκλησιῶν τῶι τε Ἀπόλλωνι τῶι Προστατηρίωι καὶ τεῖ Ἀρτέμιδι τεῖ Βουλαίαι καὶ τοῖς ἄλλοις θεοῖς οἷς πάτριον ἦν, ἀγαθεῖ τύχει δεδόχθαι τῶι δήμωι τὰ μὲν ἀγαθὰ δέχεσθαι τὰ γεγονότα ἐν τοῖς ἱεροῖς οἷς ἔθυον ἐφ’ ὑγιείαι καὶ σωτηρίαι τῆς τε βουλῆς καὶ τοῦ δήμου καὶ τῶν συμμάχων",
+  "traduction": "sur le rapport des prytanes de la tribu Léontis touchant les sacrifices qu’ils ont offerts avant les assemblées à Apollon Prostatérios, à Artémis Boulaia et aux autres dieux à qui la tradition le voulait, à la bonne fortune, plaise au peuple d’accueillir les heureux présages obtenus dans les sacrifices offerts pour la santé et le salut du Conseil, du peuple et des alliés",
+  "verifie": "scan",
+  "verification": "SEG XXI (1965), n° 440, p. 146–147, l. 6–11 (Agora inv. I 6765, éd. Meritt, The Athenian Year, 1961, 195–200 ; Drive : Inscriptiones Graecae/SEG 21.pdf, pages PDF 156–157, image lue) ; trouvé par chercher.py '\"τοῖς ἄλλοις θεοῖς οἷς πάτριον\"'",
+  "signale_par": "Austin–Olson 2004, n. aux vv. 331–4 (formule τοῖς ἄλλοις θεοῖς οἷς πάτριον ἦν des décrets) ; recherche dans le corpus (SEG du Drive)",
+  "pertinence": 3,
+  "remarque": "les sacrifices offerts « avant les assemblées » (τὰ πρὸ τῶν ἐκκλησιῶν) à Apollon et à Artémis, puis « aux autres dieux » : le couple divin de Pytho et de Délos (vv. 332–334) et la formule englobante τοῖς τ᾽ ἄλλοις θεοῖς ; la fin (τῆς τε βουλῆς καὶ τοῦ δήμου καὶ τῶν συμμάχων) donne la formule officielle que détourne la plaisanterie τῷ δήμῳ τῷ τῶν γυναικῶν (v. 336 ; cf. vv. 307–309 et le commentaire de l’auteur) ; même formule, restituée, dans SEG 21, 400, l. 7–9 (prytanes d’Aiantis, 226/5)"
  },
  {
   "v": "332–333",
@@ -10764,6 +11086,20 @@
   "signale_par": "recherche dans le corpus (Hésychius) ; Latte, n. à Hsch. λ 806",
   "pertinence": 2,
   "remarque": "Hésychius glose le mot par ἐπίβουλος, puis par la chienne du proverbe sophocléen (σαίνεις δάκνουσα, voir ci-dessus Σ Ar. Eq. 1031, Soph. fr. 885 R., Suet. Blasph. 93) : le comploteur caché"
+ },
+ {
+  "v": "335–336",
+  "lemme": "ἐπιβουλεύει … ἢ ᾿πικηρυκεύεται",
+  "categorie": "prose",
+  "ref": "Zos. 1.23.2",
+  "urn": "urn:cts:greekLit:tlg4084.tlg001.1st1K-grc1:1.23.2",
+  "citation": "εἰς τὸ νεωτερίζειν ὁ Γάλλος τραπεὶς ἐπικηρυκεύεται πρὸς τοὺς βαρβάρους, κοινωνῆσαι τῆς ἐπιβουλῆς τῆς κατὰ Δεκίου παρακαλῶν",
+  "traduction": "Gallus, tourné à la sédition, envoie des hérauts aux barbares pour les inviter à partager le complot contre Dèce",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἐπικηρυκεύεται βαρβάρους' ; p.py Zos. 1.23.2 (First1KGreek)",
+  "signale_par": "recherche dans le corpus (ἐπικηρυκεύεται)",
+  "pertinence": 1,
+  "remarque": "tardif, mais réunit les deux crimes de la clause : la tractation avec le barbare (ἐπικηρυκεύεται, v. 336 ; Μήδοις, v. 337) et le complot (ἐπιβουλή, v. 335)"
  },
  {
   "v": "336",

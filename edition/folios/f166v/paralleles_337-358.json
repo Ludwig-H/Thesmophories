@@ -8680,6 +8680,20 @@
   "remarque": "l'ἐξώλεια attachée au serment, contre qui « trompe » (cf. v. 357 ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους) ; même formule chez Sud. ε 1833 (ci-dessus)"
  },
  {
+  "v": "349",
+  "lemme": "κακῶς ἀπολέσθαι τοῦτον αὐτὸν κᾠκίαν",
+  "categorie": "prose",
+  "ref": "Ev. Matt. 27.25",
+  "urn": "urn:cts:greekLit:tlg0031.tlg001.perseus-grc2:27.25",
+  "citation": "Τὸ αἷμα αὐτοῦ ἐφ᾽ ἡμᾶς καὶ ἐπὶ τὰ τέκνα ἡμῶν",
+  "traduction": "que son sang retombe sur nous et sur nos enfants",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"τὸ αἷμα αὐτοῦ ἐφ\"' (Perseus, NT Matthieu 27.25) ; Tosi n. 781 (p. 600, PDF p. 595 ; OCR tosi/ocr_595.txt)",
+  "signale_par": "Tosi n. 781 (Sanguis eius super nos et super filios nostros)",
+  "pertinence": 1,
+  "remarque": "l'imprécation étendue à la descendance, comme l'ἐξώλεια « lui et sa maison » ; Tosi attribue par erreur le verset à Jean"
+ },
+ {
   "v": "350-351",
   "lemme": "ταῖς δ᾽ ἄλλαισιν ὑμῖν τοὺς θεοὺς εὔχεσθε πάσαις πολλὰ δοῦναι κἀγαθά",
   "categorie": "aristophane",
@@ -9070,6 +9084,62 @@
   "signale_par": "dépouillement d'Érasme (index : Phocensium exsecratio, 245)",
   "pertinence": 2,
   "remarque": "reprend Zen. 6.35 (Φωκαέων ἀρά) ; Érasme cite Eur. IA 57–59 et Hor. Epod. 16 ; vaut aussi pour les vv. 357–359 (malédiction de ceux qui violent les serments)"
+ },
+ {
+  "v": "350-351",
+  "lemme": "ὑμῖν τοὺς θεοὺς εὔχεσθε πάσαις πολλὰ δοῦναι κἀγαθά",
+  "categorie": "aristophane",
+  "ref": "Ar. Av. 865–878",
+  "urn": "urn:cts:greekLit:tlg0019.tlg006.perseus-grc2:865",
+  "citation": "εὔχεσθε τῇ Ἑστίᾳ τῇ ὀρνιθείῳ … καὶ ὄρνισιν Ὀλυμπίοις καὶ Ὀλυμπίῃσι πᾶσι καὶ πάσῃσιν … διδόναι Νεφελοκοκκυγιεῦσιν ὑγιείαν καὶ σωτηρίαν αὐτοῖσι καὶ Χίοισι",
+  "traduction": "priez Hestia des oiseaux … et tous les oiseaux et toutes les oiselles de l'Olympe … d'accorder aux Coucouvillenuageois santé et salut, à eux et aux gens de Chios",
+  "verifie": "corpus",
+  "verification": "p.py Ar. Av. 864 881 (Perseus)",
+  "signale_par": "recherche directe (formule de la prière publique)",
+  "pertinence": 3,
+  "remarque": "même parodie de la prière du héraut : εὔχεσθε … διδόναι, avec la polarité πᾶσι καὶ πάσῃσιν (cf. ταῖς ἄλλαισιν … πάσαις) ; v. 880 Χίοισιν ἥσθην πανταχοῦ προσκειμένοις raille l'ajout des Chiotes dans les prières officielles"
+ },
+ {
+  "v": "350-351",
+  "lemme": "εὔχεσθε … πολλὰ δοῦναι κἀγαθά",
+  "categorie": "lexicographes",
+  "ref": "Hsch. χ 479",
+  "urn": "drive:hsch:IV#pdf250",
+  "citation": "Χίοις· τὰ ἀγαθὰ εὔχεσθαι Ἀθήνησιν ⟨…⟩ ἱστορεῖ τὸν ⟨κ⟩ήρυκα ⟨…⟩ (Ar. Av. 879)",
+  "traduction": "aux Chiotes : [Théopompe] rapporte qu'à Athènes le héraut demandait dans ses prières les biens [pour les Athéniens et les Chiotes]",
+  "verifie": "corpus",
+  "verification": "hsch.py --ref 'χ 479' (Hansen–Cunningham IV, p. 218 ; texte et apparat rétablis des polices)",
+  "signale_par": "recherche dans le corpus (Χίοις εὔχεσθαι κοινῇ)",
+  "pertinence": 2,
+  "remarque": "supplément de Heinsius d'après la scholie (apparat) : ⟨αὐτοῖς τε καὶ Χίοισιν⟩ … ⟨ὁ Θεόπομπος. ηὔχοντο γὰρ Ἀθηναῖοι κοινῇ ἐπὶ τῶν θυσιῶν ἑαυτοῖς τε καὶ Χίοισιν⟩ ; testimonia : Σ Ar. Av. 880b, Theopomp. FGrHist 115 F 104 ; la prière du héraut (τὰ ἀγαθὰ εὔχεσθαι) que parodie la κηρύκαινα ; cf. Ar. Av. 865–878 (ci-dessus)"
+ },
+ {
+  "v": "350-351",
+  "lemme": "τοὺς θεοὺς εὔχεσθε … πολλὰ δοῦναι κἀγαθά",
+  "categorie": "prose",
+  "ref": "Aeschin. 3.120",
+  "urn": "urn:cts:greekLit:tlg0026.tlg003.perseus-grc2:120",
+  "citation": "ἐνῆκται μὲν τὰ κανᾶ, παρέστηκε δὲ τὰ θύματα τοῖς βωμοῖς, μέλλετε δ᾽ αἰτεῖν τοὺς θεοὺς τἀγαθὰ καὶ κοινῇ καὶ ἰδία",
+  "traduction": "les corbeilles sont prêtes, les victimes sont aux autels, vous allez demander aux dieux les biens pour la cité et pour vous-mêmes",
+  "verifie": "corpus",
+  "verification": "requête sur le texte Perseus d'Eschine 3 (τἀγαθὰ καὶ κοινῇ) ; § 120",
+  "signale_par": "Austin–Olson 2004 (citation de ce passage dans leur commentaire, relevée par chercher.py 'Χίοις εὔχεσθαι κοινῇ')",
+  "pertinence": 2,
+  "remarque": "le même passage commence par ὑπὲρ … τῶν τέκνων καὶ οἰκίας τῆς ἐμαυτοῦ (cf. v. 349 κᾠκίαν) ; ἰδία sic Perseus (lire ἰδίᾳ, à contrôler sur une édition imprimée)"
+ },
+ {
+  "v": "350-351",
+  "lemme": "τοὺς θεοὺς εὔχεσθε … πολλὰ δοῦναι κἀγαθά",
+  "categorie": "scholies",
+  "ref": "Σ Ar. Av. 880 (Dübner, p. 230, col. b, 5–14)",
+  "urn": "",
+  "citation": "ηὔχοντο γὰρ Ἀθηναῖοι κοινῇ ἐπὶ τῶν θυσιῶν ἑαυτοῖς τε καὶ Χίοις … καὶ σπένδοντες ἐπὶ ταῖς θυσίαις ταῖς δημοτελέσιν ὁμοίως ηὔχοντο τοῖς θεοῖς Χίοις διδόναι τἀγαθὰ καὶ σφίσιν αὐτοῖς",
+  "traduction": "les Athéniens priaient en commun, lors des sacrifices, pour eux-mêmes et pour les Chiotes … et, faisant les libations aux sacrifices publics, ils priaient pareillement les dieux de donner les biens aux Chiotes et à eux-mêmes",
+  "verifie": "scan",
+  "verification": "image, Dübner, Scholia Graeca in Aristophanem (1842), p. 230, col. b, l. 5–14 (PDF p. 297, .sources/web/editions/1842_Paris_Dubner_scholia/)",
+  "signale_par": "testimonia de Hsch. χ 479 (Hansen–Cunningham)",
+  "pertinence": 3,
+  "remarque": "citation de Théopompe (Philippiques, livre XVI) : la formule officielle (τοῖς θεοῖς … διδόναι τἀγαθά) que reprend la κηρύκαινα ; cf. Hsch. χ 479 et Ar. Av. 865–880 (ci-dessus)"
  },
  {
   "v": "351",
@@ -10204,6 +10274,20 @@
   "signale_par": "LSJ s.v. νικάω (ἐνίκα ἡ γνώμη Hdt. 5.36)",
   "pertinence": 1,
   "remarque": "νικᾶν, d'un avis qui prévaut dans un conseil"
+ },
+ {
+  "v": "355-356",
+  "lemme": "τὰ δ᾽ ἄρισθ᾽ ὅσαις προσήκει νικᾶν λεγούσαις",
+  "categorie": "lexicographes",
+  "ref": "Poll. 8.52 (Bethe II, p. 120, 29–32)",
+  "urn": "",
+  "citation": "ἐγίνοντο δὲ εἰσαγγελίαι καὶ κατὰ τῶν καταλυόντων τὸν δῆμον ῥητόρων, ἢ μὴ τὰ ἄριστα τῷ δήμῳ λεγόντων, ἢ πρὸς τοὺς πολεμίους ἄνευ τοῦ πεμφθῆναι ἀπελθόντων, ἢ προδόντων φρούριον ἢ στρατιὰν ἢ ναῦς, ὡς Θεόφραστος …",
+  "traduction": "il y avait aussi des dénonciations (eisangélies) contre les orateurs qui renversaient la démocratie, ou ne disaient pas au peuple ce qui était le meilleur, ou s'en allaient chez l'ennemi sans y être envoyés, ou livraient une place, une armée ou des navires, selon Théophraste",
+  "verifie": "scan",
+  "verification": "image, Bethe, Pollucis Onomasticon II, p. 120, l. 29–32 (PDF du Drive .sources/drive/fichiers/Grec/Lexiques/Pollux/, p. 120, rendu et lu)",
+  "signale_par": "recherche dans le corpus (εἰσαγγελία ἀγράφων)",
+  "pertinence": 3,
+  "remarque": "la loi d'eisangélie, que démarque toute l'Ἀρά : ῥήτωρ μὴ τὰ ἄριστα λέγων (vv. 355–356 ; cf. Hyp. 4.8, ci-dessus), πρὸς τοὺς πολεμίους ἀπελθόντες (vv. 336–337 ἐπικηρυκεύεται … Μήδοις), καταλύοντες τὸν δῆμον (vv. 338–339), προδόντες (v. 346 προδιδοῦσ᾽)"
  },
  {
   "v": "356-359",

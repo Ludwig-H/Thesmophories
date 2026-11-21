@@ -8521,7 +8521,7 @@
   "traduction": "« celui qui veillera jusqu'à la corneille recevra le pyramous et les prix du cottabe, et embrassera qui il voudra parmi les présentes et les présents »",
   "verifie": "corpus",
   "verification": "Ath. 15.668c (15.7, Perseus grc4, Kaibel ; grc3 lit Κάλλιππος) ; n° Pf. : Sommerstein 1994 ad 94, Hsch. π 4388 (Hansen III)",
-  "signale_par": "Sommerstein 1994 ad 94 ; commentaire de l'auteur (Ath. 668c)",
+  "signale_par": "Sommerstein 1994 ad 94 ; commentaire de l'auteur (Ath. 668c) ; Taillardat, Images, § 847 (p. 483)",
   "pertinence": 3,
   "remarque": "La Παννυχίς de Callimaque."
  },
@@ -8549,7 +8549,7 @@
   "traduction": "« (Iatroclès) … le gâteau dit pyramous, dont il dit qu'il ne diffère pas de la pyramis : celle-ci se fait de blé rôti et de miel ; on les propose en prix, aux veillées, à celui qui reste éveillé »",
   "verifie": "corpus",
   "verification": "chercher.py '\"πυραμουντος\"' ; requête SQL sur Ath. 14.56 (646e–647c, Perseus)",
-  "signale_par": "commentaire de l'auteur (v. 94 : Ath. 647b–c)",
+  "signale_par": "commentaire de l'auteur (v. 94 : Ath. 647b–c) ; Taillardat, Images, § 847 (p. 483)",
   "pertinence": 3,
   "remarque": ""
  },
@@ -8675,7 +8675,7 @@
   "traduction": "« Même si tu es battu, dit-il, en braillant, mais que tu l'emportes en impudence, la victoire n'en est pas moins nôtre. Le pyramous est une sorte de gâteau de miel cuit et de blé grillé… Ils avaient coutume, dans les banquets, de rivaliser de veille, et celui qui veillait jusqu'à l'aurore recevait le pyramous »",
   "verifie": "scan",
   "verification": "Dübner 1842, p. 42, col. 2, ll. 20–27 (archive.org scholiagraecain00unkngoog n98, image)",
-  "signale_par": "commentaire de l'auteur (v. 94) ; Rogers 1904 ad 94 ; Bauck, De proverbiis Ar., p. 66",
+  "signale_par": "commentaire de l'auteur (v. 94) ; Rogers 1904 ad 94 ; Bauck, De proverbiis Ar., p. 66 ; Taillardat, Images, § 847 (p. 483)",
   "pertinence": 3,
   "remarque": "ἡμετέρα ἡ νίκη : la glose exacte de ἡμέτερος ὁ πυραμοῦς."
  },
@@ -11223,7 +11223,7 @@
   "traduction": "« et c'est quand tu fais de telles choses que tu oses blâmer mes chants, toi qui composes des chants à la mode de Cyrène aux douze postures ? »",
   "verifie": "corpus",
   "verification": "passage.py Ran. 1323–1329 (Perseus)",
-  "signale_par": "commentaire de l'auteur (v. 98) ; Fritzsche 1838, p. 28 ; Blaydes 1880, p. 141 ; van Leeuwen 1904, p. 20 (n. 8) ; Sommerstein 1994 ad 98",
+  "signale_par": "commentaire de l'auteur (v. 98) ; Fritzsche 1838, p. 28 ; Blaydes 1880, p. 141 ; van Leeuwen 1904, p. 20 (n. 8) ; Sommerstein 1994 ad 98 ; Taillardat, Images, § 734 (pp. 428–429)",
   "pertinence": 3,
   "remarque": "Seule autre mention conservée (Fritzsche). Dans les deux cas Cyrène sert à qualifier une musique : Euripide aux Grenouilles, Agathon ici (v. 100)."
  },
@@ -11397,6 +11397,20 @@
  },
  {
   "v": "98",
+  "lemme": "Κυρήνην (δωδεκαμήχανος)",
+  "categorie": "aristophane",
+  "ref": "Ar. Pax 789–790",
+  "urn": "urn:cts:greekLit:tlg0019.tlg005.perseus-grc2:790",
+  "citation": "ναννοφυεῖς σφυράδων ἀποκνίσματα μηχανοδίφας",
+  "traduction": "« nabots, rognures de crottes de chèvre, chercheurs de machines »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'μηχανοδιφας' -a Ar. (Perseus 790)",
+  "signale_par": "Taillardat, Images, § 734 n. 4 (« chercheurs de postures », μηχανοδίφαι)",
+  "pertinence": 1,
+  "remarque": "Les fils de Carcinos, dont Xénoclès « aux douze machines » (Pl. Com. fr. 143 K.-A.) : le jeu μηχαναί / postures érotiques qui fonde le surnom de Cyrène δωδεκαμήχανος (Ran. 1327–1328 et Σ)."
+ },
+ {
+  "v": "98",
   "lemme": "δωδεκαμήχανος",
   "categorie": "comiques",
   "ref": "Pl. Com. fr. 143 K.-A.",
@@ -11405,7 +11419,7 @@
   "traduction": "« Xénoclès aux douze machines, le fils de Carcinos le marin »",
   "verifie": "scan",
   "verification": "PCG VII, p. 492, fr. 143 (134 K.) (PDF du Drive, idx 526, image) ; Kock I, p. 635, fr. 134, Σ Ar. Pax 792 (archive.org comicorumatticor01kockuoft n665, image) ; aussi Meineke II.2 p. 660 (fr. I des Σοφισταί)",
-  "signale_par": "recherche directe (δωδεκαμηχαν-)",
+  "signale_par": "recherche directe (δωδεκαμηχαν-) ; Taillardat, Images, § 734 (pp. 428–429)",
   "pertinence": 3,
   "remarque": "Σοφισταί. Kock : même surnom que Cyrène, appliqué à un poète tragique amateur de μηχαναί ; lie les vv. 87 et 98. = fr. 134 Kock."
  },
@@ -11573,7 +11587,7 @@
   "traduction": "« Cyrène, courtisane célèbre, surnommée “aux douze machines” pour avoir pris autant de postures dans l'amour »",
   "verifie": "scan",
   "verification": "Dübner 1842, p. 310, col. 1, ll. 28–32 (archive.org scholiagraecain00unkngoog n410, image)",
-  "signale_par": "commentaire de l'auteur (v. 98)",
+  "signale_par": "commentaire de l'auteur (v. 98) ; Taillardat, Images, § 734 (pp. 428–429)",
   "pertinence": 3,
   "remarque": "Dübner ajoute, ll. 32–34 : ἀνὰ τὰς δώδεκα ἐκείνης αἰσχρὰς μηχανάς. Martin 1882, p. 84 : variante δωδεκαμηχανάς dans R."
  },
@@ -12311,13 +12325,13 @@
   "categorie": "testimonium",
   "ref": "Phot. μ 606",
   "urn": "ia:photiipatriarch00nabegoog#n442",
-  "citation": "Μύρμηκος ἀτραπός· ἐν Θεσμοφοριαζούσαις Ἀριστοφάνης· ἀντιφωνεῖ ἤ τι τοιοῦτο διὰ τὴν βραχύτητα· ἔστιν Ἀθήνησι Μύρμηκος ἀτραπὸς ἐν Σκαμβωνιδῶν ἀπὸ Μύρμηκος τοῦ Μελανίππου τοῦ Κύκλωπος τοῦ Ζευξίππου",
+  "citation": "Μύρμηκος ἀτραπός· ἐν Θεσμοφοριαζούσαις (100) Ἀριστοφάνης <***> ἀντιφωνεῖ ἤ τι τοιοῦτο διὰ τὴν βραχύτητα· ἔστιν Ἀθήνησι Μύρμηκος ἀτραπὸς ἐν Σκαμβωνιδῶν ἀπὸ Μύρμηκος τοῦ Μελανίππου τοῦ Κύκλωπος τοῦ Ζευξίππου",
   "traduction": "« Sentier de Myrmex : Aristophane, dans les Thesmophories ; il répond ou quelque chose de ce genre, à cause de la brièveté ; il y a à Athènes un sentier de Myrmex chez les Skambonides, d'après Myrmex fils de Mélanippos, fils de Cyclops, fils de Zeuxippos »",
   "verifie": "scan",
-  "verification": "Naber I, p. 432 (archive.org photiipatriarch00nabegoog n442, image) ; numéro μ 606 d'après le renvoi de Latte à Hsch. μ 1904",
+  "verification": "Theodoridis II, p. 586, μ 606 (PDF du Drive, idx 702, image lue le 21 nov.) ; Naber I, p. 432 (archive.org photiipatriarch00nabegoog n442, image)",
   "signale_par": "testimonia de l'auteur (Photius μ 606) ; Fritzsche 1838, p. 29 ; Enger 1844, p. 23",
   "pertinence": 3,
-  "remarque": "Scholie de la pièce égarée dans le lexique (Enger, qui lit ἀντὶ τοῦ ἀντιφωνεῖ ἤ τι τοιοῦτο, τοῦτο). Texte de Naber ; Theodoridis II (Ε–Μ) non consulté (absent de .sources)."
+  "remarque": "Scholie de la pièce égarée dans le lexique. Theodoridis marque une lacune après Ἀριστοφάνης (« excidisse multa evincitur ex inexpleta explicatione ἀντιφωνεῖ ἤ τι τοιοῦτο διὰ τὴν βραχύτητα », avec renvoi à Σ Thesm. 100 ὡς λεπτὰ καὶ ἀγκύλα ἀνακρουομένου μέλη τοῦ Ἀγάθωνος) ; ἀντιφωνῇ g z : corr. Porson ; Σκιβωνιδῶν g z : corr. Alberti et L. Dindorf. Testimonia : cf. Hsch. μ 1904 ; Wilamowitz, Aus Kydathen (1880) 146–147 ; Eitrem, RE XI² 2329, 2346. Enger lisait ἀντὶ τοῦ ἀντιφωνεῖ ἤ τι τοιοῦτο, τοῦτο."
  },
  {
   "v": "100",
@@ -12385,7 +12399,7 @@
   "traduction": "« il ploie de nouvelles courbes de vers »",
   "verifie": "corpus",
   "verification": "passage.py Thesm. 52–54 (Perseus)",
-  "signale_par": "Sommerstein 1994 ad 68, ad 100",
+  "signale_par": "Sommerstein 1994 ad 68, ad 100 ; Taillardat, Images, § 784 (pp. 456–457)",
   "pertinence": 3,
   "remarque": "Le serviteur d'Agathon : le thème des courbes, repris v. 68 et, plaisamment, v. 100."
  },
@@ -12399,7 +12413,7 @@
   "traduction": "« plier les strophes n'est pas facile »",
   "verifie": "corpus",
   "verification": "passage.py Thesm. 66–69 (Perseus)",
-  "signale_par": "Sommerstein 1994 ad 68 (« Cf. 100 »)",
+  "signale_par": "Sommerstein 1994 ad 68 (« Cf. 100 ») ; Taillardat, Images, § 784 (pp. 456–457)",
   "pertinence": 3,
   "remarque": ""
  },
@@ -12413,7 +12427,7 @@
   "traduction": "« si l'un d'eux faisait le bouffon ou ployait quelque inflexion, comme celles d'aujourd'hui, à la Phrynis, si difficiles à plier, il recevait une volée de coups, comme outrageant les Muses »",
   "verifie": "corpus",
   "verification": "passage.py Nub. 969–972 (Perseus)",
-  "signale_par": "Blaydes 1880, p. 142 ; Sommerstein 1994 ad 68",
+  "signale_par": "Blaydes 1880, p. 142 ; Sommerstein 1994 ad 68 ; Taillardat, Images, § 784 (pp. 456–457)",
   "pertinence": 3,
   "remarque": "Cf. Nub. 333 κυκλίων τε χορῶν ᾀσματοκάμπτας."
  },
@@ -12497,7 +12511,7 @@
   "traduction": "« courbeurs de chants pour les chœurs cycliques, charlatans des hauteurs »",
   "verifie": "corpus",
   "verification": "passage Nub. 331–334 (Perseus)",
-  "signale_par": "recherche directe (κάμπτω musical)",
+  "signale_par": "recherche directe (κάμπτω musical) ; Taillardat, Images, § 784 (pp. 456–457)",
   "pertinence": 2,
   "remarque": "Même reproche, le chant courbe, que Nub. 969–971 et Pherecr. fr. 155 K.-A."
  },
@@ -12573,6 +12587,34 @@
  },
  {
   "v": "100",
+  "lemme": "ἀτραπούς",
+  "categorie": "aristophane",
+  "ref": "Ar. Av. 1374",
+  "urn": "urn:cts:greekLit:tlg0019.tlg006.perseus-grc2:1374",
+  "citation": "πέτομαι δ᾽ ὁδὸν ἄλλοτ᾽ ἐπ᾽ ἄλλαν μελέων",
+  "traduction": "« je vole par un chemin de chants, puis par un autre »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"οδον αλλοτ επ αλλαν μελεων\"' (Perseus 1374)",
+  "signale_par": "Taillardat, Images, § 744, p. 434 et n. 1 (renvoi d'Austin–Olson ad 100)",
+  "pertinence": 2,
+  "remarque": "Le dithyrambiste Cinésias : la « route » des mélodies de la nouvelle musique, que le Parent réduit à des sentiers de fourmi."
+ },
+ {
+  "v": "100",
+  "lemme": "ἀτραπούς",
+  "categorie": "aristophane",
+  "ref": "Ar. Pax 733",
+  "urn": "urn:cts:greekLit:tlg0019.tlg005.perseus-grc2:733",
+  "citation": "ἣν ἔχομεν ὁδὸν λόγων εἴπωμεν ὅσα τε νοῦς ἔχει",
+  "traduction": "« disons, par la route de paroles qui est la nôtre, tout ce que nous avons en tête »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"εχομεν οδον λογων\"' (Perseus 733)",
+  "signale_par": "Taillardat, Images, p. 434 n. 1",
+  "pertinence": 1,
+  "remarque": "λόγων ὁδός : le « chemin » du discours (parabase)."
+ },
+ {
+  "v": "100",
   "lemme": "Μύρμηκος ἀτραπούς",
   "categorie": "comiques",
   "ref": "Pherecr. fr. 155.21–23 K.-A.",
@@ -12581,7 +12623,7 @@
   "traduction": "« un certain Rouquin de Milet ; celui-là m'a fait du mal, il a dépassé tous ceux que je cite, en chantant des fourmilières à détours »",
   "verifie": "corpus",
   "verification": "[Plut.] Mus. 30 (1141c–1142b, Perseus) ; Kock I p. 187 ; n° K.-A. d'après le commentaire de l'auteur et Sommerstein 1994 ad 100 ; LSJ s.v. μυρμηκιά (Pherecr. 145.23 Kock) ; vers recomptés sur [Plut.] Mus. 30 (2026-11-11) : la citation (Μιλήσιός τις πυρρίας … μυρμηκιάς) occupe les vv. 21–23, ἐκτραπέλους μυρμηκιάς étant le v. 23 (Sommerstein ad 100 : « fr. 155.23 » ; LSJ : « Pherecr. 145.23 » Kock)",
-  "signale_par": "commentaire de l'auteur (v. 100, n.) ; Fritzsche 1838, p. 29 ; Rogers 1904 ad 100 ; Blaydes 1880, p. 141 ; Sommerstein 1994 ad 100",
+  "signale_par": "commentaire de l'auteur (v. 100, n.) ; Fritzsche 1838, p. 29 ; Rogers 1904 ad 100 ; Blaydes 1880, p. 141 ; Sommerstein 1994 ad 100 ; Taillardat, Images, § 784 (pp. 456–457)",
   "pertinence": 3,
   "remarque": "Chiron : la Musique contre Timothée. ᾄδων Fritzsche pour ἄγων des mss (LSJ). Parallèle essentiel : la même image, pour la même musique nouvelle, à la même époque. Meineke II.1 p. 331 distingue les deux emplois."
  },
@@ -12595,7 +12637,7 @@
   "traduction": "« passant par sentiers les harmonies à travers toutes les cordes »",
   "verifie": "scan",
   "verification": "Synag. α 2369 (éd. Cunningham 2003, p. 684, PDF du Drive p. 690) ; Hsch. α 8136, Latte I p. 371 (qui donne le n° K.-A.) ; Kock I p. 151",
-  "signale_par": "Blaydes 1880, p. 142",
+  "signale_par": "Blaydes 1880, p. 142 ; Taillardat, Images, § 784 (pp. 456–457)",
   "pertinence": 3,
   "remarque": "Αὐτόμολοι. Le verbe tiré d'ἀτραπός est appliqué à la musique : la meilleure glose du v. 100."
  },
@@ -12623,7 +12665,7 @@
   "traduction": "« Le voici qui arrive. Remue ton pas de fourmi »",
   "verifie": "corpus",
   "verification": "TEI Perseus (canonical-latinLit, Leo 1895), téléchargé dans .travail/paralleles_f163v_80-101/lat/ ; hors index ; renvoi vérifié aussi par Blaydes 1880, p. 142 et Meineke II.1 p. 331",
-  "signale_par": "commentaire critique de l'auteur (v. 100, d'après Willems : « formicinum gradum movere ») ; Blaydes 1880, p. 142 ; Meineke II.1 p. 331",
+  "signale_par": "commentaire critique de l'auteur (v. 100, d'après Willems : « formicinum gradum movere ») ; Blaydes 1880, p. 142 ; Meineke II.1 p. 331 ; Taillardat, Images, § 784 (pp. 456–457)",
   "pertinence": 3,
   "remarque": "Citation de Willems à corriger : Plaute écrit l'impératif move. Numérotation ancienne : Men. 5.3.12."
  },
@@ -12749,7 +12791,7 @@
   "traduction": "« vraiment des trous de fourmis, obliques et droits, les signes des lyriques, lydiens et phrygiens »",
   "verifie": "corpus",
   "verification": "requête SQL (norm LIKE '%μυρμηκων τρυπηματα%'), AP 11.78 (Lucillius), Perseus",
-  "signale_par": "commentaire critique de l'auteur (v. 100, d'après Willems)",
+  "signale_par": "commentaire critique de l'auteur (v. 100, d'après Willems) ; Taillardat, Images, § 784 (pp. 456–457)",
   "pertinence": 3,
   "remarque": "Lucillius, sur le crâne d'un pugiliste : l'image des galeries de fourmis s'y applique aux notations musicales. Bien au-delà de ce que dit Willems."
  },
@@ -12867,6 +12909,20 @@
  },
  {
   "v": "100",
+  "lemme": "διαμινύρεται",
+  "categorie": "poetes",
+  "ref": "Timoth. PMG 802.3",
+  "urn": "",
+  "citation": "μακάριος ἦσθα, Τιμόθε᾽, ὅτε κᾶρυξ / εἶπε· νικᾶι Τιμόθεος / Μιλήσιος τὸν Κάμωνος τὸν ἰωνοκάμπταν",
+  "traduction": "« heureux étais-tu, Timothée, quand le héraut proclama : Timothée de Milet est vainqueur du fils de Camon, le plieur à l'ionienne »",
+  "verifie": "scan",
+  "verification": "Page, PMG, p. 418, fr. 802 (= Timoth. fr. 26 ; Plut. De laude ipsius 539c) (PDF du Drive, idx 427, image) ; Plut. 539c (Perseus, avec notes d'éditeur mêlées au texte)",
+  "signale_par": "Taillardat, Images, § 784 n. 1 (« Timothée, fr. 8 Diehl, appelle Phrynis τὸν Ἰωνοκάμπταν »)",
+  "pertinence": 1,
+  "remarque": "Les « inflexions » (καμπαί) de la nouvelle musique, qu'évoquent ici ἀτραπούς et διαμινύρεται (cf. Thesm. 53, 68 ; Nub. 333, 969–971). PMG : ἰωνοκάμπταν varie corruptum."
+ },
+ {
+  "v": "100",
   "lemme": "Μύρμηκος ἀτραπούς",
   "categorie": "prose",
   "ref": "Ael. NA 6.43",
@@ -12875,7 +12931,7 @@
   "traduction": "« mais les sentiers variés, les méandres et les circuits des fourmis dans leurs galeries, ils ne les connaissent pas encore ; c'est par sagesse qu'elles font leur demeure souterraine si tortueuse »",
   "verifie": "corpus",
   "verification": "passage.py NA 6.43 (Perseus)",
-  "signale_par": "Blaydes 1880, p. 142 ; Rogers 1904 ad 100 ; Sommerstein 1994 ad 100 ; Kock I p. 189 ; Meineke II.1 p. 331",
+  "signale_par": "Blaydes 1880, p. 142 ; Rogers 1904 ad 100 ; Sommerstein 1994 ad 100 ; Kock I p. 189 ; Meineke II.1 p. 331 ; Taillardat, Images, § 784 (pp. 456–457)",
   "pertinence": 3,
   "remarque": "Le groupe μυρμήκων … ἀτραποὺς. Contre l'objection de Fritzsche (sentiers droits), soutenue par l'auteur au nom du singulier μύρμηκος."
  },
@@ -12903,7 +12959,7 @@
   "traduction": "« on dit que la descente depuis l'orifice n'est pas droite ni facile à parcourir pour un autre animal, mais qu'elle a des passages souterrains brisés de coudes et de torsions, et qu'elle aboutit à trois cavités »",
   "verifie": "corpus",
   "verification": "requête SQL sur Plut. De sollertia animalium 11 (Perseus) ; Sommerstein 1994 ad 100 (« Plut. Mor. 968a-b ») ; Willems, d'après le commentaire critique",
-  "signale_par": "commentaire critique de l'auteur (v. 100) ; Sommerstein 1994 ad 100",
+  "signale_par": "commentaire critique de l'auteur (v. 100) ; Sommerstein 1994 ad 100 ; Taillardat, Images, § 784 (pp. 456–457)",
   "pertinence": 3,
   "remarque": "καμπαῖς : le mot technique des vocalises (Nub. 969, Pherecr. fr. 155). Cf. κεκλασμένας."
  },
@@ -13133,6 +13189,48 @@
  },
  {
   "v": "100",
+  "lemme": "ἀτραπούς",
+  "categorie": "prose",
+  "ref": "Hdt. 1.95.1",
+  "urn": "urn:cts:greekLit:tlg0016.tlg001.perseus-grc2:1.95.1",
+  "citation": "ἐπιστάμενος περὶ Κύρου καὶ τριφασίας ἄλλας λόγων ὁδοὺς φῆναι",
+  "traduction": "« bien que je sache montrer sur Cyrus trois autres voies de récit »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"λογων οδους\"' (Perseus 1.95.1)",
+  "signale_par": "Taillardat, Images, p. 434 n. 1",
+  "pertinence": 1,
+  "remarque": "La « route » des récits."
+ },
+ {
+  "v": "100",
+  "lemme": "ἀτραπούς (la voie du chant)",
+  "categorie": "prose",
+  "ref": "Plut. De def. or. 418c (Emp. fr. 24 DK)",
+  "urn": "urn:cts:greekLit:tlg0007.tlg092.perseus-grc2:15",
+  "citation": "ἀλλ᾽ ἵνα μὴ τὸ Ἐμπεδόκλειον ποιεῖν δόξω „κορυφὰς ἑτέρας ἑτέρῃσι / προσάπτων μύθων, μήτε λέγειν ἀτραπὸν μίαν“",
+  "traduction": "« pour ne pas paraître faire comme dit Empédocle, “attacher les sommets des récits les uns aux autres, et ne pas suivre jusqu'au bout un seul sentier” »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'κορυφας ετερας' -a Plut (Perseus 15 ; jalon 418c du TEI). Numéro de Diels–Kranz (DK absent) d'après Taillardat p. 434 n. 1 (« Empédocle 24 : μύθων ἀτραπός ») et Austin–Olson ad 100 (« 31 B 24.2 DK ») ; le Dictionnaire des images du poétique (PDF p. 1899) le cite sous D46 Laks–Most",
+  "signale_par": "Austin–Olson 2004, ad 100 ; Taillardat, Images, p. 434 n. 1",
+  "pertinence": 2,
+  "remarque": "Le « sentier » du discours ou du chant (μύθων ἀτραπός), image que le Parent rabaisse en sentiers de fourmi. Plutarque cite μήτε λέγειν, la tradition d'Empédocle μὴ τελέειν (cf. A–O)."
+ },
+ {
+  "v": "100",
+  "lemme": "διαμινύρεται",
+  "categorie": "prose",
+  "ref": "[Plut.] De mus. 1138c",
+  "urn": "urn:cts:greekLit:tlg0094.tlg002.perseus-grc2:21",
+  "citation": "δῆλον οὖν ὅτι οἱ παλαιοὶ οὐ δι᾽ ἄγνοιαν ἀλλὰ διὰ προαίρεσιν ἀπείχοντο τῶν κεκλασμένων μελῶν",
+  "traduction": "« il est donc clair que c'est par choix, non par ignorance, que les anciens s'abstenaient des mélodies brisées »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'κεκλασμενων μελων' (Perseus 21, 1137f–1138c)",
+  "signale_par": "Taillardat, Images, § 784 (Plut. Mor. 1138 c)",
+  "pertinence": 1,
+  "remarque": "κεκλασμένα μέλη : les mélodies « brisées » de la nouvelle musique ; Taillardat rapproche Plut. De soll. an. 968a (galeries de fourmilière καμπαῖς καὶ στρεβλότησι κεκλασμένας)."
+ },
+ {
+  "v": "100",
   "lemme": "Μύρμηκος ἀτραπούς",
   "categorie": "scholies",
   "ref": "Σ Ar. Thesm. 100",
@@ -13141,7 +13239,7 @@
   "traduction": "« (il dit cela) comme Agathon prélude à des chants grêles et recourbés : tels sont les chemins des fourmis »",
   "verifie": "scan",
   "verification": "Dübner 1842, p. 265, col. 1, ll. 24–25 (archive.org scholiagraecain00unkngoog n343, image) ; Enger 1844, p. 23",
-  "signale_par": "commentaire critique de l'auteur ; Fritzsche 1838, p. 28 ; Rogers 1904 ad 100",
+  "signale_par": "commentaire critique de l'auteur ; Fritzsche 1838, p. 28 ; Rogers 1904 ad 100 ; Taillardat, Images, § 784 (pp. 456–457)",
   "pertinence": 3,
   "remarque": "La scholie de R, source de Sud. μ 1445."
  },
@@ -13337,7 +13435,7 @@
   "traduction": "« Philoxène, fils d'Eulytidès, de Cythère, lyrique. Il écrivit vingt-quatre dithyrambes ; il mourut à Éphèse. Quand les Cythériens furent réduits en esclavage par les Lacédémoniens, il fut acheté par un certain Agésylos, qui l'éleva ; on l'appelait Myrmex »",
   "verifie": "scan",
   "verification": "Adler IV, pp. 728–729 (.sources/web/testimonia/adler, PDF indices 743–744, image) ; apparat : Λακεδαιμονίων] Ἀθηναίων Reines ; Ἀγεσίλου coll. p. 729, 1. 2 Bernhardy",
-  "signale_par": "commentaire de l'auteur (v. 100)",
+  "signale_par": "commentaire de l'auteur (v. 100) ; Taillardat, Images, § 784 (pp. 456–457)",
   "pertinence": 3,
   "remarque": "Hypothèse de l'auteur : allusion à Philoxène-Myrmex. Reines corrige Ἀθηναίων (prise de Cythère par Nicias, 424) ; élève de Mélanippide (Sud. ibid.)."
  },
@@ -13387,15 +13485,15 @@
   "v": "100",
   "lemme": "Μύρμηκος (μυρμηκιά)",
   "categorie": "lexicographes",
-  "ref": "Phot. s.v. μυρμηκιᾶν",
+  "ref": "Phot. μ 605",
   "urn": "ia:photiipatriarch00nabegoog#n442",
-  "citation": "μυρμηκιᾶν· τοὺς εἰς μυρμηκιὰν λαλήσαντας ἑλκοῦσθαι τὴν γλῶτταν φασι",
+  "citation": "μυρμηκιᾶν· τοὺς εἰς μυρμηκιὰν λαλήσαντας ἑλκοῦσθαι τὴν γλῶττάν φασι",
   "traduction": "« fourmilière : on dit que ceux qui ont parlé dans une fourmilière ont la langue ulcérée »",
   "verifie": "scan",
-  "verification": "Naber I, p. 432 (archive.org photiipatriarch00nabegoog n442, image) ; numéro chez Theodoridis non contrôlé (t. II absent)",
+  "verification": "Theodoridis II, p. 586, μ 605 (PDF du Drive, idx 702, image lue le 21 nov.) ; Naber I, p. 432 (archive.org photiipatriarch00nabegoog n442, image)",
   "signale_par": "recherche directe (Photius, juste avant Μύρμηκος ἀτραπός)",
   "pertinence": 2,
-  "remarque": "Croyance populaire, cf. Hsch. μ 1903 (Dinoloch. fr. 12 K.-A.). L'article précède immédiatement Phot. μ 606."
+  "remarque": "Croyance populaire. Theodoridis : = Ael. Dion. μ 26 (ex Eust. 1259, 47), cf. Hsch. μ 1903 (= Dinol. fr. 12 Kaibel) ; μυρμηκιᾶν Eust. : μυρμηκίας g z. L'article précède immédiatement Phot. μ 606."
  },
  {
   "v": "100",
@@ -13711,13 +13809,13 @@
   "categorie": "proverbes",
   "ref": "Zen. 3.70",
   "urn": "urn:cts:greekLit:tlg0098.tlg001.1st1K-grc1:3.70",
-  "citation": "Ἔνεστι κἀν μύρμηκι χολή: παρεγγυᾷ μηδὲ τῶν μικρῶν καταφρονεῖν",
+  "citation": "Ἔνεστι κἀν μύρμηκι χολή: παρεγγυᾷ μηδὲ τῶν μικρῶν καταφρονεῖν ; idem Phot. ε 901 Theodoridis",
   "traduction": "« Même une fourmi a sa bile : invite à ne pas mépriser les petits »",
   "verifie": "corpus",
-  "verification": "chercher.py 'μυρμηκ*' -a Zen (First1KGreek)",
+  "verification": "chercher.py 'μυρμηκ*' -a Zen (First1KGreek) ; Phot. ε 901 : Theodoridis II, p. 91 (PDF du Drive, idx 207, image)",
   "signale_par": "recherche directe (μυρμηκ- chez les parémiographes)",
   "pertinence": 1,
-  "remarque": "= Diogen. 4.48 ; Greg. Cypr. 2.35. Forme longue Ἔνεστι κἀν μύρμηκι κἀν σέρφῳ χολή : Σ Vesp. 352 (au même vers), Sud. σ 256. Érasme, Adag. 2.5.31 (Inest et formicae et serpho bilis : Opera II, col. 562 F, PDF p. 298, image), signalé par Tosi ; Bauck 1880, p. 85."
+  "remarque": "= Diogen. 4.48 ; Greg. Cypr. 2.35 ; Phot. ε 901 (même texte). Forme longue Ἔνεστι κἀν μύρμηκι κἀν σέρφῳ χολή : Σ Vesp. 352 (au même vers), Sud. σ 256. Érasme, Adag. 2.5.31 (Inest et formicae et serpho bilis : Opera II, col. 562 F, PDF p. 298, image), signalé par Tosi ; Bauck 1880, p. 85."
  },
  {
   "v": "100",
