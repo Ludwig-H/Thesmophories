@@ -7,7 +7,7 @@ Même leçon attribuée à des critiques différents selon les éditions (à tra
 | 1 | ἆρά ποτε | Wellauer (Enger 1844, Prato 2001) ; Biset (Prato 2001, Wilson 2007) |
 | 2 | ἅνθρωπος | Bekker (Enger 1844, Velsen 1883) ; Boissonade (Prato 2001, Wilson 2007) |
 | 16 | πρῶτ' ἐμηχανήσατο | Küster (Enger 1844, Velsen 1883) ; Grynaeus (Wilson 2007) |
-| 18 | ἀκοῆς δὲ χοάνην | Wellauer (Enger 1844) ; Biset (Prato 2001, Wilson 2007) |
+| 18 | ἀκοῆς δὲ χοάνην | Wellauer (Enger 1844) ; Biset (Mastromarco–Totaro 2006, Prato 2001, Wilson 2007) |
 | 24 | προσμάθοιμι | Wellauer (Enger 1844, Velsen 1883) ; Dindorf (Enger 1844) ; Ellebodius (Prato 2001, Wilson 2007) |
 | 30 | ἁγάθων | Küster (Enger 1844) ; Scaliger (Enger 1844, Velsen 1883) ; Bentley (Enger 1844) ; Biset (Prato 2001, Wilson 2007) |
 | 50 | πρόμος | Scaliger (Enger 1844, Velsen 1883) ; Grynaeus (Wilson 2007) |
@@ -42,7 +42,7 @@ Même leçon attribuée à des critiques différents selon les éditions (à tra
 | 344 | ἃν | Brunck (Enger 1844, Velsen 1883) ; Faber (Wilson 2007) |
 | 347 | χοῶς | Elmsley (Enger 1844, Prato 2001) ; Brunck (Prato 2001, Wilson 2007) |
 | 352 | ξυνευχόμεσθα | Bothe (Enger 1844, Velsen 1883) ; Daubuz (Prato 2001, Wilson 2007) |
-| 356 | λεγούσας | Hotibius (Enger 1844) ; Dindorf (Prato 2001, Velsen 1883) |
+| 356 | λεγούσας | Hotibius (Enger 1844) ; Dindorf (Mastromarco–Totaro 2006, Prato 2001, Velsen 1883) |
 | 357 | ἐξαπατῶσιν | Bentley (Prato 2001, Wilson 2007) ; Hermann (Velsen 1883) |
 | 372 | πᾶσ' | Fritzsche (Enger 1844, Prato 2001, Velsen 1883) ; Voss (Prato 2001, Wilson 2007) |
 | 376 | σχολή | Zanetti (Prato 2001) ; Brunck (Velsen 1883) |
@@ -107,9 +107,10 @@ Même leçon attribuée à des critiques différents selon les éditions (à tra
 | 950 | αὐτοῖν | Cobet (Prato 2001, Wilson 2007) ; Meineke (Velsen 1883) |
 | 969 | ποσὶ | Reisig (Enger 1844, Velsen 1883) ; Dindorf (Enger 1844) ; Bentley (Prato 2001, Wilson 2007) |
 | 969 | εὐλύραν | Zanetti (Prato 2001, Wilson 2007) ; Brunck (Prato 2001) ; Küster (Velsen 1883) |
-| 975 | χοροῖσι συμπαίζει | Biset (Prato 2001) ; Meineke (Wilson 2007) |
+| 975 | χοροῖσι συμπαίζει | Biset (Mastromarco–Totaro 2006, Prato 2001) ; Meineke (Wilson 2007) |
 | 980 | ἡμετέραισι | Hermann (Enger 1844, Velsen 1883) ; Dindorf (Enger 1844, Prato 2001) ; Enger (Prato 2001) |
-| 982 | χάριν | Biset (Velsen 1883) ; Ellebodius (Wilson 2007) |
+| 982 | χάριν | Ellebodius (Mastromarco–Totaro 2006, Wilson 2007) ; Biset (Velsen 1883) |
+| 982 | πόδας | Bierl (Mastromarco–Totaro 2006) ; Biset (Wilson 2007) |
 | 987 | Βακχεῖε | Fritzsche (Prato 2001) ; Blaydes (Wilson 2007) |
 | 989 | φιλοχόροισι | Bentley (Enger 1844, Velsen 1883) ; Brunck (Enger 1844) ; Scaliger (Prato 2001, Wilson 2007) |
 | 1003 | δρᾶσ' | Voss (Prato 2001, Wilson 2007) ; Lenting (Prato 2001, Velsen 1883) |
@@ -135,8 +136,8 @@ Même leçon attribuée à des critiques différents selon les éditions (à tra
 | 1176 | ἀνεγεῖρί | Fritzsche (Prato 2001) ; Dindorf (Velsen 1883) |
 | 1190 | οὐκὶ πιλῆσι | Porson (Prato 2001) ; Biset (Prato 2001) ; Dindorf (Velsen 1883) |
 | 1198 | αὖθις | Brunck (Enger 1844, Velsen 1883) ; Dindorf (Enger 1844) ; Bothe (Enger 1844) ; Faber (Wilson 2007) |
+| 1198 | αὖτις | Anonymus Parisinus (Mastromarco–Totaro 2006) ; anon. Parisinus (Prato 2001) ; Dobree (Wilson 2007) |
 | 1198 | κομιεῖς | Biset (Prato 2001, Wilson 2007) ; Bothe (Velsen 1883) |
-| 1198 | αὖτις | anon. Parisinus (Prato 2001) ; Dobree (Wilson 2007) |
 | 1201 | Ἀρταμουξία | Dindorf (Enger 1844, Velsen 1883) ; Fritzsche (Enger 1844) ; Weise (Prato 2001) ; Lipsiensis (Wilson 2007) |
 | 1210 | ὠς | Brunck (Prato 2001) ; Enger (Velsen 1883) |
 | 1212 | ὠς | Brunck (Prato 2001) ; Enger (Velsen 1883) |

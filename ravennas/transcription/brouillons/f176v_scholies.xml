@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Scholies et gloses marginales de R, f. 176v (vv. 1169–1210) : lecture sur l'image (×4 à ×14 ; original, CLAHE, canal bleu et rouge rehaussés, décorrélation, indice d'encre) et sur le fac-similé de 1904 recalé (.travail/relecture_1904/f176v/1904_aligned.png), commencée le 21 nov. 2026 ; confrontation avec Rutherford 1896 et Dübner 1842 à faire après la lecture. -->
+<page folio="f176v" image="29_f176v_classense178v_vv1169-1210.jpg" vers="1169-1210">
+  <lignes/>
+  <scholies>
+    <sch n="1" ancre="3" place="mg-g" main="R2"><gap n="3" unite="lettres" raison="illisible"/> ἐν σχήματι προαγωγοῦ γραόσ ÷</sch>
+    <sch n="2" ancre="4" place="mg-g" main="R2"><gap n="4" unite="lettres" raison="tache"/><unclear cert="faible">ρ</unclear>ασ ὄνομα η ἐλάφιον ὡσ χρυσίον<lb/><gap n="3" unite="lettres" raison="tache"/><unclear cert="faible">εχ</unclear> <unclear cert="moyenne"><abbr signe="ϗ" dev="καὶ"/></unclear> τὰ ὅμοια ÷</sch>
+    <sch n="3" ancre="5" place="mg-g" main="R2">ση<gap n="6" unite="lettres" raison="tache"/><unclear cert="faible">ν</unclear> τ<hi rend="sus"><unclear cert="faible">ου</unclear></hi>το <abbr dev="μαίνει">σ<hi rend="sus">η</hi></abbr> <abbr signe="ʒ́" dev="δέ"/> το αβρῶσ βαδίζειν ἡ αυ<lb coupe="oui"/><unclear cert="moyenne">λ</unclear>η<unclear cert="moyenne">τ</unclear>ρ<unclear cert="moyenne">ισ</unclear></sch>
+  </scholies>
+  <notes>
+  </notes>
+</page>

@@ -7330,10 +7330,10 @@
   "citation": "Ζεῦ πάντων ἀρχά, πάντων ἁγήτωρ, Ζεῦ. σοὶ πέμπω ταύταν ὕμνων ἀρχάν.",
   "traduction": "« Zeus, principe de toutes choses, guide de toutes choses, Zeus, je t’adresse ce commencement de mes hymnes. »",
   "verifie": "corpus",
-  "verification": "chercher.py '\"πάντων ἀρχά\"' ; Bergk, PLG⁴ III, p. 9 (image ia:poetaelyricigra02berggoog n22) ; CPG II, p. 434 (image n469)",
+  "verification": "chercher.py '\"πάντων ἀρχά\"' ; Bergk, PLG⁴ III, p. 9 (image ia:poetaelyricigra02berggoog n22) ; CPG II, p. 434 (image n469) ; Arsénius : Walz (1832), p. 261, image lue",
   "signale_par": "Tosi n. 62 (« Terpandre ») ; recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "l’hymne s’ouvre et se règle sur Zeus ; Bergk lit ἀγήτωρ et corrige πέμπω en σπένδω ; le vers est passé dans les recueils de proverbes : idem Apost. 8.29c (CPG II, p. 434 : ἀγήτωρ ; vérifié sur l’image) ; Bergk et Leutsch signalent aussi Arsénius [non vérifié]"
+  "remarque": "l’hymne s’ouvre et se règle sur Zeus ; Bergk lit ἀγήτωρ et corrige πέμπω en σπένδω ; le vers est passé dans les recueils de proverbes : idem Apost. 8.29c (CPG II, p. 434 : ἀγήτωρ ; vérifié sur l’image) ; idem Arsen. Viol. p. 261 Walz (Ζεῦ πάντων ἀρχὰ πάντων ἀγήτωρ / Ζεῦ σοὶ πέμπω ταύταν ὕμνων ἀρχάν ; 27.36 selon Leutsch ; image lue, archive.org arseniouiniaars00walzgoog, n331)"
  },
  {
   "v": "315",
@@ -8419,7 +8419,7 @@
   "categorie": "poetes",
   "ref": "Alc. fr. 34.1–4 Voigt (= 34a L.-P.)",
   "urn": "drive:Grec/Sapho/Sappho et Alcaeus. Fragmenta by Voigt, Eva-Maria (ed.) (z-lib.org).pdf#pdf194",
-  "citation": "Δεῦτέ μοι νᾶ]σον Πέλοπος λίποντε[ς / παῖδες ]ἰμοι Δ[ίος] ἠδὲ Λήδας / …ω]ι θύ[μ]ωι προ[φά]νητε, Κάστορ / καὶ Πολύδε[υ]κες,",
+  "citation": "Δεῦτέ μοι νᾶ]σον Πέλοπος λίποντε[ς / παῖδες … Δ[ίος] ἠδὲ Λήδας / …ω]ι θύ[μ]ωι προ[φά]νητε, Κάστορ / καὶ Πολύδε[υ]κες,",
   "traduction": "« Venez ici, quittant l’île de Pélops, fils puissants de Zeus et de Léda, apparaissez avec un cœur bienveillant, Castor et Polydeukès »",
   "verifie": "scan",
   "verification": "Voigt, Sappho et Alcaeus (1971), p. 186 (PDF p. 194 du fichier du Drive), image lue (P. Oxy. 1233 fr. 4)",
@@ -8594,5 +8594,75 @@
   "signale_par": "outils/corpus/lexiques_proverbes.py (f166r, v. 310, s.v. κἀγαθά)",
   "pertinence": 2,
   "remarque": "rite d’exclusion préalable à la prière : ceux qui n’ont pas le droit d’être là s’en vont ; la réponse est une εὐφημία (ἐπευφημοῦντες) : la séquence des vv. 294–296 (renvoi de l’esclave, puis εὐφημία ἔστω) ; cf. Ar. Pax 968"
+ },
+ {
+  "v": "300",
+  "lemme": "καὶ τῇ Κουροτρόφῳ",
+  "categorie": "scholies",
+  "ref": "Σ Hes. Op. 227–228 (Procl.)",
+  "urn": "ia:poetaeminoresgra02gais#n178",
+  "citation": "Εἰ γὰρ ὁ πόλεμος φθαρτικὸς καὶ ὀλιγανθρωπίας αἴτιος, εὔδηλον ὅτι ἡ εἰρήνη πολυανθρωπίαν ἐργάζεται, καὶ διὰ τοῦτο κουροτρόφος· ἄλλοι μὲν οὖν τὴν γῆν κουροτρόφον ὕμνησαν, ὡς καρποὺς ἐκφέρουσαν· οὗτος δὲ τὴν εἰρήνην,",
+  "traduction": "« Si la guerre détruit et dépeuple, il est clair que la paix rend populeux ; c’est pourquoi elle est « nourricière d’enfants » : d’autres ont célébré la Terre comme nourricière, parce qu’elle porte les fruits ; lui, la Paix »",
+  "verifie": "scan",
+  "verification": "Gaisford, Poetae minores Graeci II (Leipzig, 1823), p. 167, l. 28–33 (lemme 225, ΤΟΙΣΙ ΤΕΘΗΛΕ ΠΟΛΙΣ), image lue (archive.org poetaeminoresgra02gais, n178)",
+  "signale_par": "testimonia de l’auteur (« scholium vet. in Hesiodus Opera et dies 227-9 »)",
+  "pertinence": 2,
+  "remarque": "Proclus atteste que la Terre était « chantée » comme Kourotrophos (τὴν γῆν κουροτρόφον ὕμνησαν) : la Gê Kourotrophos du culte athénien (Phot. κ 1035 ; Paus. 1.22.3), l’une des deux identifications de Σ Thesm. 300 ; Hes. Op. 228 est relevé à ce vers"
+ },
+ {
+  "v": "315",
+  "lemme": "χρυσολύρα",
+  "categorie": "poetes",
+  "ref": "Orph. H. 34.1–3",
+  "urn": "ia:orphicarecensuit00orph#n89",
+  "citation": "Ἐλθέ, μάκαρ, Παιάν, Τιτυοκτόνε, Φοῖβε, Λυκωρεῦ, / Μεμφῖτ᾽, ἀγλαότιμος, ἰήιος, ὀλβιοδῶτα, / χρυσολύρη, σπερμεῖος, ἀρότριε, Πύθιε, Τιτάν,",
+  "traduction": "« Viens, bienheureux Péan, tueur de Tityos, Phoibos, Lycoréen, Memphite, glorieux, dieu du cri ἰή, dispensateur de richesse, à la lyre d’or, semeur, laboureur, Pythien, Titan »",
+  "verifie": "scan",
+  "verification": "Abel, Orphica (Leipzig, 1885), p. 76 (hymne XXXIV, ΑΠΟΛΛΩΝΟΣ), image lue (archive.org orphicarecensuit00orph, n89)",
+  "signale_par": "Prato 2001, p. 222 ; Austin–Olson 2004, p. 156 (liste des non vérifiés, r8)",
+  "pertinence": 2,
+  "remarque": "hymne clétique tardif à Apollon : la même épithète (χρυσολύρης), avec l’appel à venir (Ἐλθέ, cf. v. 319), le Péan et l’ἰήιος (cf. ἰὴ παιών, v. 311) ; plus loin, κρουσιλύρη (v. 6), χρυσοκόμη (v. 9) et la demande d’écoute bienveillante pour les peuples, κλῦθί μευ εὐχομένου λαῶν ὕπερ εὔφρονι θυμῷ (v. 10), cf. φανέντας ἐπιχαρῆναι (v. 314) ; Abel imprime ἀγλαότιμος, ἰήιος, σπερμεῖος"
+ },
+ {
+  "v": "315",
+  "lemme": "χρυσολύρα",
+  "categorie": "poetes",
+  "ref": "Bacch. 3.28–29",
+  "urn": "ia:cu31924052998659#n285",
+  "citation": "Κροῖσον ὁ χρυσά[ορος / φύλαξ᾽ Ἀπόλλων.",
+  "traduction": "« Apollon χρυσάορος (à l’arme d’or ? à la lyre d’or ?) protégea Crésus »",
+  "verifie": "scan",
+  "verification": "Jebb, Bacchylides (Cambridge, 1905), p. 256, image lue (archive.org cu31924052998659, n285) ; commentaire de Jebb, p. 257 (« χρυσάορος, with golden sword »)",
+  "signale_par": "Austin–Olson 2004, p. 156 (« probably Bacch. 3. 28 (cf. Maehler ad loc.) », liste des non vérifiés, r8)",
+  "pertinence": 1,
+  "remarque": "χρυσάορος, épithète d’Apollon (cf. Il. 15.256, relevé à ce vers), que Jebb entend « à l’épée d’or » et que d’autres, après Maehler selon Austin–Olson, entendent « à la lyre d’or » : c’est l’explication χρυσοκίθαρις d’Hsch. χ 777 (relevé à ce vers) ; la fin du mot est un supplément (χρυσά[ορος])"
+ },
+ {
+  "v": "314",
+  "lemme": "φανέντας ἐπιχαρῆναι",
+  "categorie": "poetes",
+  "ref": "Verg. G. 1.16–18",
+  "urn": "urn:cts:latinLit:phi0690.phi002.perseus-lat2:1.16",
+  "citation": "ipse nemus linquens patrium saltusque Lycaei, / Pan, ovium custos, tua si tibi Maenala curae, / adsis, o Tegeaee, favens,",
+  "traduction": "« Et toi, quittant ton bois natal et les halliers du Lycée, Pan, gardien des brebis, si ton Ménale t’est cher, assiste-nous, dieu de Tégée, favorable »",
+  "verifie": "corpus",
+  "verification": "lat.py phi0690.phi002 (Géorgiques, éd. Greenough, Perseus ; fichier téléchargé dans .sources/web/latin_perseus/)",
+  "signale_par": "Austin–Olson 2004, p. 157 (à propos du v. 316) ; liste des non vérifiés (r8)",
+  "pertinence": 2,
+  "remarque": "la forme latine de l’hymne clétique : le dieu quitte ses lieux (linquens, cf. προλιπών, v. 324) et vient assister, favorable (adsis … favens : φανέντας ἐπιχαρῆναι) ; suit l’invocation globale dique deaeque omnes (v. 21), comme aux vv. 331–334"
+ },
+ {
+  "v": "297-301",
+  "lemme": "εὔχεσθε ταῖν Θεσμοφόροιν … καὶ ταῖς Χάρισιν",
+  "categorie": "prose",
+  "ref": "Hicks–Hill 119, 5–11 (= IG II² 112)",
+  "urn": "ia:manualofgreekhis00hickuoft#n274",
+  "citation": "Περίανδρος εἶπε[ν]· εὔξασθαι μὲν τὸγ κήρυκα αὐτίκα μάλα τῶι Διὶ τῶι Ὀλυμπίωι καὶ τῆι Ἀθηνᾶι τῆι Πολιάδι καὶ τῆι Δήμητρι καὶ τῆι Κόρηι καὶ τοῖς δώδεκα [θ]εοῖς καὶ ταῖς σεμναῖς θεαῖς, ἐὰν συνενείγκηι (sic) [Ἀθη]ναίων τῶι δήμωι τὰ δόξαντα περὶ τῆς συμμαχία[ς",
+  "traduction": "« Périandros a proposé : que le héraut prie sur-le-champ Zeus Olympien, Athéna Poliade, Déméter et Coré, les Douze dieux et les Vénérables déesses, pour que les décisions sur l’alliance tournent à l’avantage du peuple des Athéniens »",
+  "verifie": "scan",
+  "verification": "Hicks–Hill, A Manual of Greek Historical Inscriptions (1901), n° 119, p. 237, image lue (archive.org manualofgreekhis00hickuoft, n274) ; Hicks–Hill renvoient à Köhler, CIA ii 57 b et 112, et à Syll.² 105 ; numérotation des lignes de Hicks–Hill",
+  "signale_par": "Austin–Olson 2004, p. 151 (« IG II² 112, 6-9 », liste des non vérifiés, r8)",
+  "pertinence": 3,
+  "remarque": "décret d’alliance de 362/1 : la prière officielle du héraut devant l’assemblée, avec sa liste de divinités où figurent Déméter et Coré, et sa clause finale « pour l’avantage du peuple des Athéniens », que parodient les vv. 295–311 (cf. πολυωφελῶς μὲν τῇ πόλει τῇ Ἀθηναίων, v. 304 ; τὰ βέλτιστα περὶ τὸν δῆμον τὸν Ἀθηναίων, v. 307)"
  }
 ]

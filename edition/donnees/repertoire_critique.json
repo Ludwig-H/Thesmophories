@@ -3978,6 +3978,7 @@
    "auteurs": {},
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Velsen 1883",
     "Wilson 2007"
@@ -3991,6 +3992,12 @@
      "page": "p. 6 (PDF 12)",
      "citation": "18. δίκην δὲ χοάνης: ἀκοὴν δὲ χοάνης libri vitiose.",
      "remarque": "« libri » = R, Aug., Junt."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 81 (PDF 79)",
+     "citation": "Rispetto al tràdito ἀκοὴν δὲ χοάνης, difeso da Prato sulla scorta di Brunck",
+     "remarque": "Leçon transmise (« tràdito »), défendue et imprimée par Prato, à la suite de Brunck, qui voyait dans cette « nominum commutatio » la parodie d'un style tragique élevé."
     },
     {
      "edition": "Prato 2001",
@@ -4077,7 +4084,8 @@
    "lemmes": [
     "δίκην δὲ χοάνης",
     "ἀκοὴν δὲ χοάνης",
-    "ἀκοῆς ... χοάνην"
+    "ἀκοῆς ... χοάνην",
+    "ἀκοῇ δὲ χοάνην"
    ],
    "types": [
     "conjecture"
@@ -4088,12 +4096,14 @@
      "Enger 1844"
     ],
     "Biset": [
+     "Mastromarco–Totaro 2006",
      "Prato 2001",
      "Wilson 2007"
     ]
    },
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Wilson 2007"
    ],
@@ -4106,6 +4116,12 @@
      "page": "p. 6 (PDF 12)",
      "citation": "hoc ipsum ἀκοῆς δὲ χοάνην reponi iubet Wellauerus de Thesmophoriis p. 51. aures autem tanquam auditus infundibulum perforavit, quod placuit Bothio.",
      "remarque": "Wellauer, De Thesmophoriis p. 51 ; approuvé par Bothe."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 81 (PDF 79)",
+     "citation": "Notevole fortuna ha avuto anche l'inversione dei casi, ἀκοῆς δὲ χοάνην, proposta già da Biset",
+     "remarque": "« Inversion des cas » ; suivie notamment par Kamerbeek (ΚΩΜΩΙΔΟΤΡΑΓΗΜΑΤΑ, p. 74-75), Gannon, Sommerstein, Henderson, Austin–Olson et, en dernier lieu, Tsitsiridis (Hellenica 51, 2001, p. 61), qui traduit « und den Trichter des Gehörs durchbohrte (sc. Äther), so daß die Ohren entstanden »."
     },
     {
      "edition": "Prato 2001",
@@ -4195,16 +4211,22 @@
    "auteurs": {
     "Dobree": [
      "Enger 1844",
+     "Mastromarco–Totaro 2006",
      "Prato 2001",
      "Velsen 1883"
+    ],
+    "Boissonade": [
+     "Mastromarco–Totaro 2006"
     ]
    },
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Velsen 1883"
    ],
    "adoptee_par": [
+    "Mastromarco–Totaro 2006",
     "Velsen 1883"
    ],
    "sources": [
@@ -4213,6 +4235,12 @@
      "page": "p. 7 (PDF 13)",
      "citation": "Denique Dobraeus ἀκοῇ δὲ χοάνην conjecit, quod probat Hermannus scholiastaeque explicatione λείπει ὡς confirmatum putat. At scholiasta vulgatum videtur legisse, quod inepte, ut multis aliis locis explicat ἀκοὴν δὲ ὡς χοάνης ὦτα διετετρήνατο. Mutatio vero illa violenta est.",
      "remarque": "Approuvé par Hermann (qui le croit confirmé par la scholie λείπει ὡς) ; jugé violent par Enger."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 81 (PDF 79)",
+     "citation": "l'intervento di J. F. Boissonade (Aristophanes, tom. III, Parisiis, 1826, p. 293) e di Dobree (Adversaria, cit., II p. 237), ἀκοῇ δὲ χοάνην",
+     "remarque": "Boissonade, Aristophanes, t. III, Paris, 1826, p. 293 ; Dobree, Adversaria II, p. 237. Selon M–T, le vers gagne en clarté et en cohérence avec l'image précédente (ᾧ μὲν βλέπειν χρὴ … ἀκοῇ δέ : l'œil semblable à la roue du soleil, l'oreille à un entonnoir). Correction jugée « possible » par Austin (Dodone 16, 1987, p. 70 ; Austin–Olson, p. 58), adoptée par Rogers et Coulon. Texte imprimé p. 438 (PDF 442) : ἀκοῇ δὲ χοάνην ὦτα διετετρήνατο, conforme."
     },
     {
      "edition": "Prato 2001",
@@ -13715,6 +13743,87 @@
    ]
   },
   {
+   "lecon": "Εὐ. (τί οὖν ἐγὼ δρῶ;) et Κη. (περίμεν', ὡς ἐξέρχεται)",
+   "lemmes": [
+    "ΕΥ. τί οὖν ἐγὼ δρῶ; ΚΗ. περίμεν', ὡς ἐξέρχεται"
+   ],
+   "types": [
+    "attribution"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Mastromarco": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 81 (PDF 79)",
+     "citation": "la ricostruzione dell'azione scenica appare più convincente se si accoglie il suggerimento di G. Mastromarco di ripartire il v. 70 tra Euripide e il Parente",
+     "remarque": "Le Serviteur sort au v. 69 ; c'est le Parent qui rassure Euripide, indécis (τί οὖν ἐγὼ δρῶ;), en lui annonçant qu'Agathon va bientôt paraître. Texte imprimé p. 444 (PDF 448) : ΕΥ. Τί οὖν ἐγὼ δρῶ; / ΚΗ. Περίμεν', ὡς ἐξέρχεται, conforme."
+    }
+   ]
+  },
+  {
+   "lecon": "Parent (1er hémistiche) et Euripide (2e hémistiche)",
+   "lemmes": [
+    "ΕΥ. τί οὖν ἐγὼ δρῶ; ΚΗ. περίμεν', ὡς ἐξέρχεται"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 81 (PDF 79)",
+     "citation": "Seguendo l'indicazione del Ravennate, Prato (come già Paduano) divide il v. 70 tra Parente ed Euripide",
+     "remarque": "Répartition de R, suivie par Prato (et déjà par Paduano) : Euripide rassurerait le Parent, agacé d'être tenu à l'écart du dialogue entre Euripide et le Serviteur et de l'apparition prochaine d'Agathon."
+    }
+   ]
+  },
+  {
+   "lecon": "Εὐ. (1er hémistiche) et Serviteur (2e hémistiche, adressé à Euripide), qui sort ensuite",
+   "lemmes": [
+    "ΕΥ. τί οὖν ἐγὼ δρῶ; ΚΗ. περίμεν', ὡς ἐξέρχεται"
+   ],
+   "types": [
+    "attribution"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Scaliger": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 81 (PDF 79)",
+     "citation": "adotta la soluzione dello Scaligero, che fa uscire di scena il Servo dopo le parole rivolte a Euripide nel secondo emistichio del v. 70",
+     "remarque": "Solution de la plupart des éditeurs (en dernier lieu Sommerstein, Henderson, Austin–Olson). M–T la jugent tautologique : le Serviteur a déjà assuré aux vv. 65-66 qu'Agathon allait sortir."
+    }
+   ]
+  },
+  {
    "lecon": "Μνη. et Εὐ.",
    "lemmes": [
     "Κη. τί οὖν ἐγὼ δρῶ; Εὐ. περίμεν'"
@@ -15943,6 +16052,106 @@
    ]
   },
   {
+   "lecon": "δίκαιά ⟨γ'⟩ ἂν",
+   "lemmes": [
+    "δίκαιά ⟨γ'⟩ ἂν"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Grynaeus": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 81 (PDF 79)",
+     "citation": "Accolgo l'emendamento di Grynaeus δίκαιά ⟨γ'⟩ ἂν (R ha il guasto δί' και' ἂν)",
+     "remarque": "Texte imprimé p. 446 (PDF 450) : Νὴ τὸν Ποσειδῶ, καὶ δίκαιά ⟨γ'⟩ ἂν πάθοις, conforme. (Dans l'apparat de Prato, la même leçon est donnée à la « Brubachiana ».)"
+    }
+   ]
+  },
+  {
+   "lecon": "δί' και' ἂν",
+   "lemmes": [
+    "δίκαιά γ᾽ ἂν",
+    "δίκαιά ⟨γ'⟩ ἂν",
+    "δικαί‹αν› ἂν"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001",
+    "Velsen 1883"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 81 (PDF 79)",
+     "citation": "Accolgo l'emendamento di Grynaeus δίκαιά ⟨γ'⟩ ἂν (R ha il guasto δί' και' ἂν)",
+     "remarque": "« guasto » : leçon corrompue (l'OCR lit « δί᾽ και Gv » ; l'image porte bien δί' και' ἂν)."
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 18 (PDF 105)",
+     "citation": "86. δικαί<αν> ἂν suppleui, auctore Wilamowitz (ad Eur. Her. fur. 681): δί' και' ἂν R δίκαι<ά γ'> ἂν Brubachiana δίκαι<ά τ'> ἂν Elmsley ad Ach. 327, ref. Lowe 1973, p. 42",
+     "remarque": ""
+    },
+    {
+     "edition": "Velsen 1883",
+     "page": "p. 13 (PDF 18)",
+     "citation": "δίκαιά γ᾽ ἂν] δί᾽ και᾽ ἂν R δία δίκαι᾽ ἂν G",
+     "remarque": "Scripturae discrepantia"
+    }
+   ]
+  },
+  {
+   "lecon": "δικαί⟨αν⟩ ἂν",
+   "lemmes": [
+    "δίκαιά ⟨γ'⟩ ἂν"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Wilamowitz": [
+     "Mastromarco–Totaro 2006"
+    ],
+    "Kaibel": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 81-82 (PDF 79-80)",
+     "citation": "Prato stampa la lezione δικαί⟨αν⟩ ἂν (con ellissi del sostantivo πληγήν, «percossa») … δικαίαν (già proposto da Wilamowitz e Kaibel)",
+     "remarque": "Leçon imprimée par Prato (ellipse de πληγήν), qui lui permet de défendre au v. 87 ἐκ ταύτης (sc. πληγῆς) ; d'après M–T, déjà proposée par Wilamowitz et Kaibel ; jugée « very artificial » par Austin (Dodone 16, 1987, p. 71-72)."
+    }
+   ]
+  },
+  {
    "lecon": "δικαί‹αν› ἂν",
    "lemmes": [
     "δικαί‹αν› ἂν"
@@ -15971,39 +16180,6 @@
      "page": "p. 18 (PDF 105)",
      "citation": "86. δικαί<αν> ἂν suppleui, auctore Wilamowitz (ad Eur. Her. fur. 681): δί' και' ἂν R δίκαι<ά γ'> ἂν Brubachiana δίκαι<ά τ'> ἂν Elmsley ad Ach. 327, ref. Lowe 1973, p. 42",
      "remarque": "Supplément de Prato (« suppleui »), à l'instigation de Wilamowitz (ad Eur. HF 681)."
-    }
-   ]
-  },
-  {
-   "lecon": "δί' και' ἂν",
-   "lemmes": [
-    "δίκαιά γ᾽ ἂν",
-    "δικαί‹αν› ἂν"
-   ],
-   "types": [
-    "R"
-   ],
-   "temoins": [
-    "R"
-   ],
-   "auteurs": {},
-   "editions": [
-    "Prato 2001",
-    "Velsen 1883"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 18 (PDF 105)",
-     "citation": "86. δικαί<αν> ἂν suppleui, auctore Wilamowitz (ad Eur. Her. fur. 681): δί' και' ἂν R δίκαι<ά γ'> ἂν Brubachiana δίκαι<ά τ'> ἂν Elmsley ad Ach. 327, ref. Lowe 1973, p. 42",
-     "remarque": ""
-    },
-    {
-     "edition": "Velsen 1883",
-     "page": "p. 13 (PDF 18)",
-     "citation": "δίκαιά γ᾽ ἂν] δί᾽ και᾽ ἂν R δία δίκαι᾽ ἂν G",
-     "remarque": "Scripturae discrepantia"
     }
    ]
   },
@@ -16227,10 +16403,12 @@
    "auteurs": {},
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Wilson 2007"
    ],
    "adoptee_par": [
+    "Mastromarco–Totaro 2006",
     "Prato 2001"
    ],
    "sources": [
@@ -16239,6 +16417,12 @@
      "page": "p. 21 (PDF 27)",
      "citation": "87. ἔκ γ' αὐτῆς: ἐκ ταύτης libri, quod quum non habeat, quo referatur,",
      "remarque": "« libri » = R, Aug., Junt. Texte d'Enger : ἀτὰρ τίν' ἔκ γ' αὐτῆς σὺ μηχανὴν ἔχεις;"
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 82 (PDF 80)",
+     "citation": "il tràdito ἐκ ταύτης è dunque difendibile, ma non nel senso voluto da Prato",
+     "remarque": "M–T gardent la leçon transmise avec l'explication de Tammaro (Eikasmos 13, 2002, p. 93-96) : ἐκ + génitif marque le point de départ, la source d'une μηχανή (cf. Eschyle, Suppliantes 459 ; Héliodore, Éthiopiques 9, 6, 4) ; le démonstratif renverrait à οἰκία, la maison d'Agathon dont Euripide espère tirer son salut (Tammaro, p. 96). Prato garde aussi ἐκ ταύτης, mais en sous-entendant πληγῆς (« ma qual è il tuo piano per sottrarti alle percosse? »). Texte imprimé p. 446 (PDF 450) : Ἀτὰρ τίν' ἐκ ταύτης σὺ μηχανὴν ἔχεις;, conforme ; traduction (p. 447, PDF 451) : « Ma quale salvezza speri di trarre da questa? [Indica la casa di Agatone] »."
     },
     {
      "edition": "Prato 2001",
@@ -16356,6 +16540,41 @@
    ]
   },
   {
+   "lecon": "†ἐκ ταύτης†",
+   "lemmes": [
+    "ἐκ ταύτης"
+   ],
+   "types": [
+    "note"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Wilamowitz": [
+     "Mastromarco–Totaro 2006",
+     "Prato 2001"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 82 (PDF 80)",
+     "citation": "«Is μηχανὴ ἐκ a usual phrase? \"crux\" notes Wil. ap. Maas»",
+     "remarque": "Doute d'Austin (Dodone 16, 1987, p. 71-72), qui rapporte la croix de Wilamowitz d'après Maas ; M–T y répondent par Tammaro (Eikasmos 13, 2002, p. 93-96)."
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 18 (PDF 105)",
+     "citation": "87. ἐκ ταύτης R: ἐκ τούτων Bergler, probb. Coulon et edd. plerique εἰς ταύτας (i.e. γυναῖκας) Sandbach ap. Austin (1987, p. 71 sq.), crucem statuit Wilamowitz ap. Maas (uid. Austin 1987, p. 71 sq.)",
+     "remarque": "Wilamowitz met la croix, d'après Maas (cf. Austin 1987, p. 71 s.)."
+    }
+   ]
+  },
+  {
    "lecon": "εἰς ταύτας",
    "lemmes": [
     "εἰς ταύτας",
@@ -16390,33 +16609,6 @@
      "page": "p. 75 (PDF 77)",
      "citation": "87 εἰς ταύτας Sandbach: ἐκ ταύτης R: ἐκ τούτων Bergler",
      "remarque": "ἀτὰρ τίν' εἰς ταύτας σὺ μηχανὴν ἔχεις;"
-    }
-   ]
-  },
-  {
-   "lecon": "†ἐκ ταύτης†",
-   "lemmes": [
-    "ἐκ ταύτης"
-   ],
-   "types": [
-    "note"
-   ],
-   "temoins": [],
-   "auteurs": {
-    "Wilamowitz": [
-     "Prato 2001"
-    ]
-   },
-   "editions": [
-    "Prato 2001"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 18 (PDF 105)",
-     "citation": "87. ἐκ ταύτης R: ἐκ τούτων Bergler, probb. Coulon et edd. plerique εἰς ταύτας (i.e. γυναῖκας) Sandbach ap. Austin (1987, p. 71 sq.), crucem statuit Wilamowitz ap. Maas (uid. Austin 1987, p. 71 sq.)",
-     "remarque": "Wilamowitz met la croix, d'après Maas (cf. Austin 1987, p. 71 s.)."
     }
    ]
   },
@@ -19054,6 +19246,7 @@
    "lecon": "ἂν",
    "lemmes": [
     "αὖ",
+    "γάρ",
     "γὰρ",
     "δὴ"
    ],
@@ -19068,6 +19261,7 @@
    "auteurs": {},
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Velsen 1883",
     "Wilson 2007"
@@ -19079,6 +19273,12 @@
      "page": "p. 23 (PDF 29)",
      "citation": "99. αὖ: ἂν libri.",
      "remarque": "« libri » = R, Aug., Junt. Texte d'Enger : σίγα· μελῳδεῖν αὖ παρασκευάζεται."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 82 (PDF 80)",
+     "citation": "dalla adozione di αὖ (correzione dello Scaligero del tràdito ἂν, accolta da Prato)",
+     "remarque": ""
     },
     {
      "edition": "Prato 2001",
@@ -19103,7 +19303,8 @@
   {
    "lecon": "αὖ",
    "lemmes": [
-    "αὖ"
+    "αὖ",
+    "γάρ"
    ],
    "types": [
     "conjecture"
@@ -19112,11 +19313,13 @@
    "auteurs": {
     "Scaliger": [
      "Enger 1844",
+     "Mastromarco–Totaro 2006",
      "Prato 2001"
     ]
    },
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001"
    ],
    "adoptee_par": [
@@ -19131,10 +19334,45 @@
      "remarque": "Approuvé par Porson (Adversaria p. 315) ; reçu par les éditeurs depuis Bergler ; adopté par Enger."
     },
     {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 82 (PDF 80)",
+     "citation": "dalla adozione di αὖ (correzione dello Scaligero del tràdito ἂν, accolta da Prato)",
+     "remarque": "Adoptée par Prato. Pour les difficultés de αὖ, M–T renvoient à la n. 42 de leur commentaire des Oiseaux (p. 135-136, PDF 133-134 ; passage p. 136) : Thesm. 99, qui « presenta una grave difficoltà testuale » et relève d'une situation dramatique toute différente, n'est pas un parallèle valable pour αὖ en Ois. 226 (cf. Austin, Dodone 16, 1987, p. 72-73)."
+    },
+    {
      "edition": "Prato 2001",
      "page": "p. 18 (PDF 105)",
      "citation": "99. αὖ Scaliger, def. Prato: ἂν R οὖν pro ἂν altera lectio ex Ellebodio (γρ., fol. 76r) γὰρ Bergk ἢν Austin (1987, p. 73)",
      "remarque": "Défendue par Prato (« def. Prato »)."
+    }
+   ]
+  },
+  {
+   "lecon": "γάρ",
+   "lemmes": [
+    "γάρ"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Burges": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 82 (PDF 80)",
+     "citation": "Come ora Austin-Olson, stampo γάρ, proposto da Burges («ClJ» 22, 1820, p. 281)",
+     "remarque": "Burges, Classical Journal 22, 1820, p. 281 ; leçon aussi d'Austin–Olson. Texte imprimé p. 448 (PDF 452) : Σίγα· μελῳδεῖν γὰρ παρασκευάζεται, conforme."
     }
    ]
   },
@@ -23854,16 +24092,19 @@
    "auteurs": {
     "Fritzsche": [
      "Enger 1844",
+     "Mastromarco–Totaro 2006",
      "Prato 2001",
      "Wilson 2007"
     ]
    },
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Wilson 2007"
    ],
    "adoptee_par": [
+    "Mastromarco–Totaro 2006",
     "Wilson 2007"
    ],
    "sources": [
@@ -23872,6 +24113,12 @@
      "page": "p. 29 (PDF 35)",
      "citation": "His in verbis etsi nulla videtur inesse sententia, tamen ea retinuit Fritzschius διανεύματα tantum in διὰ νεύματα mutato. Sed huius quidem nugas silentio praetermittere praestat.",
      "remarque": "Fritzsche garde pour le reste le texte des libri ; rejeté par Enger. Même coupe chez Hermann (voir sa restitution)."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 82 (PDF 80)",
+     "citation": "Con un lieve ritocco di Fritzsche a διανεύματα (lezione tràdita, stampata da Prato) … διὰ νεύματα",
+     "remarque": "Restitue l'image des Muses phrygiennes qui règlent le rythme de la danse d'un signe de tête. Pour l'exégèse métrique des vv. 120-22 : Zimmermann, Untersuchungen 2, p. 26-27 ; Austin, Dodone 19, 1990, p. 16-17 ; Furley–Bremer, Greek Hymns II, p. 341-45. Les formations en δια- et -μα sont très rares chez Aristophane (seul autre cas : διεντέρευμα, Nuées 166) et avant la fin du IVe s. (Dover, RCCM 18, 1976, p. 367 = Greek and the Greeks I, Oxford, 1987, p. 246). Texte imprimé p. 450 (PDF 454) : διὰ νεύματα Χαρίτων, conforme."
     },
     {
      "edition": "Prato 2001",
@@ -23943,7 +24190,8 @@
    "lecon": "δινεύματα",
    "lemmes": [
     "διανεύματα",
-    "δινεύματα"
+    "δινεύματα",
+    "διὰ νεύματα"
    ],
    "types": [
     "conjecture"
@@ -23952,6 +24200,7 @@
    "auteurs": {
     "Bentley": [
      "Enger 1844",
+     "Mastromarco–Totaro 2006",
      "Prato 2001",
      "Velsen 1883"
     ],
@@ -23961,6 +24210,7 @@
    },
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Velsen 1883"
    ],
@@ -23974,6 +24224,12 @@
      "page": "p. 29 (PDF 35)",
      "citation": "quam scripturam iam Bentleius, qui corrigit δινεύματα κουρήτων et Brunckius coniectura assecuti erant, receperat Dindorfius,",
      "remarque": "Conjecture de Bentley et de Brunck (διανεύματα libri), reçue par Dindorf ; adoptée par Enger."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 82 (PDF 80)",
+     "citation": "il quale considera con favore la congettura di Bentley δινεύματα",
+     "remarque": "Vue avec faveur par Dover (RCCM 18, 1976, p. 367 = Greek and the Greeks I, Oxford, 1987, p. 246) ; contra Perilli, Le teorie del vortice nel pensiero antico, Pise, 1996, p. 161."
     },
     {
      "edition": "Prato 2001",
@@ -24005,6 +24261,7 @@
    ],
    "auteurs": {},
    "editions": [
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Velsen 1883",
     "Wilson 2007"
@@ -24013,6 +24270,12 @@
     "Prato 2001"
    ],
    "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 82 (PDF 80)",
+     "citation": "διανεύματα (lezione tràdita, stampata da Prato)",
+     "remarque": "Leçon transmise, imprimée par Prato. Διάνευμα est attesté chez Cyrille d'Alexandrie au sens d'« inclination, penchant » (PG 68, col. 193d ; synonyme διάνευσις, PG 71, col. 328a)."
+    },
     {
      "edition": "Prato 2001",
      "page": "p. 20 (PDF 107)",
@@ -32543,6 +32806,7 @@
    "auteurs": {},
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Wilson 2007"
    ],
@@ -32555,6 +32819,12 @@
      "page": "p. 38 (PDF 44)",
      "citation": "165. ἠμπίσχετο: ἠμπέσχετο libri. [...] Denique Fritzschius vulgatam revocavit, recte hic ratus aoristo dici et pulchre erat vestitus.",
      "remarque": "libri = R, Aug., Junt. Fritzsche a rétabli cette vulgate (aoriste)."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 82 (PDF 80)",
+     "citation": "l'aoristo ἠμπέσχετο (tràdito dal Ravennate e accolto da Prato)",
+     "remarque": "Leçon de R, adoptée par Prato."
     },
     {
      "edition": "Prato 2001",
@@ -32587,6 +32857,7 @@
    "auteurs": {
     "Elmsley": [
      "Enger 1844",
+     "Mastromarco–Totaro 2006",
      "Prato 2001",
      "Wilson 2007"
     ],
@@ -32596,11 +32867,13 @@
    },
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Wilson 2007"
    ],
    "adoptee_par": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Wilson 2007"
    ],
    "sources": [
@@ -32609,6 +32882,12 @@
      "page": "p. 38 (PDF 44)",
      "citation": "Quum imperfectum requiratur, ἠμπίσχετο correxit Elmsleius ad Medeam v. 1128. quem cum Dindorfio Bothioque secuti sumus.",
      "remarque": "Suivie aussi par Dindorf et Bothe."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 82 (PDF 80)",
+     "citation": "P. Elmsley (nella sua edizione della Medea di Euripide, Oxford, 1818, p. 253) opportunamente correggeva l'aoristo ἠμπέσχετο … con l'imperfetto ἠμπίσχετο",
+     "remarque": "Elmsley, éd. de la Médée d'Euripide, Oxford, 1818, p. 253 : « sensus erim [sic] est καλοῖς ἱματίοις ἐχρῆτο, non ἐχρήσατο » ; cf. Page, Euripides Medea, Oxford, 1938, p. 158 ad v. 1159. Texte imprimé p. 454 (PDF 458) : αὐτός τε καλὸς ἦν καὶ καλῶς ἠμπίσχετο, conforme."
     },
     {
      "edition": "Prato 2001",
@@ -52268,6 +52547,7 @@
     "R (a m. sec.)",
     "R²",
     "Su.",
+    "Suda",
     "Suidas s. χαλαρά",
     "ed. Brunckii",
     "editores post Brunckium (praeter Bothium)",
@@ -52276,10 +52556,12 @@
    "auteurs": {},
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001"
    ],
    "adoptee_par": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001"
    ],
    "sources": [
@@ -52306,6 +52588,18 @@
      "page": "p. 56 (PDF 62)",
      "citation": "Maiorem tamen a libris commendationem γοῦν habet, quod Brunckius reposuit et secuti sunt editores praeter Bothium.",
      "remarque": "γοῦν rétabli par Brunck et suivi par les éditeurs, sauf Bothe (Enger ne dit pas ce que Bothe imprime)."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 82 (PDF 80)",
+     "citation": "χαλαρὰ γοῦν (R² Suda; γ' οὐ R) χαίρεις φορῶν",
+     "remarque": "Valeur ironique et sarcastique de γοῦν dans les exclamatives : Denniston, The Greek Particles, Oxford, 1954², p. 455. L'OCR lit « Ε΄ » pour R². Texte imprimé p. 462 (PDF 468) : Χαλαρὰ γοῦν χαίρεις φορῶν, conforme."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 82 (PDF 80)",
+     "citation": "χαλαρὰ γοῦν (R² Suda; γ' οὐ R) χαίρεις φορῶν",
+     "remarque": "Souda."
     },
     {
      "edition": "Prato 2001",
@@ -52362,6 +52656,7 @@
    "auteurs": {},
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001"
    ],
    "adoptee_par": [],
@@ -52371,6 +52666,12 @@
      "page": "p. 56 (PDF 62)",
      "citation": "γ’ οὐ R. a. m. pr. Junt.",
      "remarque": "Leçon de la première main de R et de la Juntine. Enger admet que γ’ οὐ s'expliquerait aussi si ces mots étaient une question d'Euripide à Mnésiloque."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 82 (PDF 80)",
+     "citation": "χαλαρὰ γοῦν (R² Suda; γ' οὐ R) χαίρεις φορῶν",
+     "remarque": ""
     },
     {
      "edition": "Prato 2001",
@@ -52530,6 +52831,87 @@
      "page": "p. 57 (PDF 63)",
      "citation": "Denique adiicio, cum Reiskio et Dobraeo Dindorfium totum hunc versum Mnesilocho tribuere. Quod quam ineptum sit patet. Neque enim hoc crimen in Agathonem cadit, neque Mnesilochus angustos postulare calceos potest. Denique mire sane ut sibi conveniant laxi Agathonis calcei Mnesilochus veretur; facilius enim laxis quam angustioribus calceis utare.",
      "remarque": "Attribution de tout le v. 263 à Mnésiloque (Reiske, Dobree, Dindorf) ; rejetée par Enger."
+    }
+   ]
+  },
+  {
+   "lecon": "au Parent (Κη.)",
+   "lemmes": [
+    "χαλαρὰ γοῦν χαίρεις φορῶν"
+   ],
+   "types": [
+    "attribution"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Reiske": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 83 (PDF 81)",
+     "citation": "bensì al Parente (Reiske, Animadversiones, cit., p. 218; e, da ultimi, Sommerstein, Henderson, Austin-Olson)",
+     "remarque": "Reiske, Animadversiones, p. 218 ; en dernier lieu Sommerstein, Henderson, Austin–Olson. Double sens obscène de χαλαρός (« large »), déjà saisi par la scholie et par bien des modernes (Henderson, Maculate Muse, p. 177, d'après Lysistrata 414-19) : allusion au goût d'Agathon pour la pédérastie passive (cf. vv. 200-1) ; c'est le Parent qui vient de chausser les souliers d'Agathon. Au v. 264, Agathon (σὺ τοῦτο γίγνωσκ') répond à ἆρ' ἁρμόσει μοι; et ignore l'ajout ironique, dit en aparté. Texte imprimé p. 462 (PDF 468) : ΚΗ. Ἆρ' ἁρμόσει μοι; Χαλαρὰ γοῦν χαίρεις φορῶν. / ΑΓ. Σὺ τοῦτο γίγνωσκ'…, conforme."
+    }
+   ]
+  },
+  {
+   "lecon": "à Agathon",
+   "lemmes": [
+    "χαλαρὰ γοῦν χαίρεις φορῶν"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 83 (PDF 81)",
+     "citation": "La battuta, dunque, va assegnata evidentemente non ad Agatone (R) o a Euripide (Brunck, Prato), bensì al Parente",
+     "remarque": ""
+    }
+   ]
+  },
+  {
+   "lecon": "à Euripide",
+   "lemmes": [
+    "χαλαρὰ γοῦν χαίρεις φορῶν"
+   ],
+   "types": [
+    "attribution"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Brunck": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 83 (PDF 81)",
+     "citation": "La battuta, dunque, va assegnata evidentemente non ad Agatone (R) o a Euripide (Brunck, Prato), bensì al Parente",
+     "remarque": "Suivie par Prato."
     }
    ]
   },
@@ -68839,12 +69221,14 @@
      "Enger 1844"
     ],
     "Dindorf": [
+     "Mastromarco–Totaro 2006",
      "Prato 2001",
      "Velsen 1883"
     ]
    },
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Velsen 1883"
    ],
@@ -68866,6 +69250,12 @@
      "remarque": "Note au v. 355."
     },
     {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 83 (PDF 81)",
+     "citation": "Prato adotta la correzione di Dindorf λεγούσας (cfr. scolio ad loc.)",
+     "remarque": "Adoptée par Prato ; M–T renvoient à la scholie ad loc. sans en citer le texte."
+    },
+    {
      "edition": "Prato 2001",
      "page": "p. 44 (PDF 131)",
      "citation": "356. λεγούσας Dindorf e Σ: -σαις R",
@@ -68883,6 +69273,7 @@
   {
    "lecon": "λεγούσαις",
    "lemmes": [
+    "λεγούσαις",
     "λεγούσας"
    ],
    "types": [
@@ -68894,11 +69285,20 @@
    ],
    "auteurs": {},
    "editions": [
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Velsen 1883"
    ],
-   "adoptee_par": [],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
    "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 83 (PDF 81)",
+     "citation": "Conservo la lezione del codice λεγούσαις.",
+     "remarque": "Texte imprimé p. 470 (PDF 476) : νικᾶν λεγούσαις. Ὁπόσαι δ', conforme."
+    },
     {
      "edition": "Prato 2001",
      "page": "p. 44 (PDF 131)",
@@ -69651,18 +70051,51 @@
  ],
  "365–366": [
   {
+   "lecon": "†τῆς χώρας οὕνεκ' ἐπὶ βλάβῃ†",
+   "lemmes": [
+    "τῆς χώρας οὕνεκ' ἐπὶ βλάβῃ"
+   ],
+   "types": [
+    "note"
+   ],
+   "temoins": [],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 83 (PDF 81)",
+     "citation": "Il segmento di testo τῆς / χώρας οὕνεκ' ἐπὶ βλάβῃ è certamente corrotto",
+     "remarque": "M–T mettent tout le segment entre cruces. Texte imprimé p. 470 (PDF 476) : ἢ Μήδους ἐπάγουσι †τῆς / χώρας οὕνεκ' ἐπὶ βλάβῃ†, conforme.",
+     "v_edition": "365-366"
+    }
+   ]
+  },
+  {
    "lecon": "τῆς χώρας †οὕνεκ' ἐπὶ βλάβῃ†",
    "lemmes": [
+    "τῆς χώρας οὕνεκ' ἐπὶ βλάβῃ",
     "τῆς χώρας †οὕνεκ' ἐπὶ βλάβῃ†"
    ],
    "types": [
-    "R"
+    "R",
+    "note"
    ],
    "temoins": [
     "R"
    ],
-   "auteurs": {},
+   "auteurs": {
+    "Prato": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
    "editions": [
+    "Mastromarco–Totaro 2006",
     "Prato 2001"
    ],
    "adoptee_par": [
@@ -69670,10 +70103,57 @@
    ],
    "sources": [
     {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 83 (PDF 81)",
+     "citation": "anche nell'edizione di Prato il testo è giudicato guasto, ma è compreso tra cruces solo οὕνεκ' ἐπὶ βλάβῃ",
+     "remarque": "Prato traduit pourtant entièrement les vv. 365-66 (« o introducono i Persiani per la rovina del paese »).",
+     "v_edition": "365-366"
+    },
+    {
      "edition": "Prato 2001",
      "page": "p. 44 (PDF 131)",
      "citation": "365-6. Locum uix sanum alii aliter temptauerunt: τῆς ἔχθρας οὕν. ἐπὶ βλ. Hermann (1845) τῆς χώρας [οὕνεκ'] ἐπὶ βλ. Brunck γῇ κερδῶν εἵν. ἐπὶ βλ. Velsen τῆς ἀρχῆς οὕνεκα ἐπὶ βλ. Austin (1990, p. 22), alii aliter",
      "remarque": "Prato imprime le texte de R entre croix : passage « à peine sain ».",
+     "v_edition": "365-366"
+    }
+   ]
+  },
+  {
+   "lecon": "τῆς ἀρχῆς",
+   "lemmes": [
+    "τῆς χώρας",
+    "τῆς ἀρχῆς"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Austin": [
+     "Mastromarco–Totaro 2006",
+     "Wilson 2007"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Wilson 2007"
+   ],
+   "adoptee_par": [
+    "Wilson 2007"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 83 (PDF 81)",
+     "citation": "suggerito da C. Austin in «Dodone» 19, 1990, pp. 21-22, che prevede la sostituzione di τῆς χώρας con τῆς ἀρχῆς",
+     "remarque": "Austin, Dodone 19, 1990, p. 21-22 ; « indubbiamente economico », mais seulement signalé : le texte de M–T garde les cruces.",
+     "v_edition": "365-366"
+    },
+    {
+     "edition": "Wilson 2007",
+     "page": "p. 87 (PDF 89)",
+     "citation": "365–6 τῆς ἀρχῆς Austin (1990): τῆς χώρας R: τῶν κερδῶν Austin (1987) post Reiske",
+     "remarque": "ἢ Μήδους ἐπάγουσι τῆς / ἀρχῆς οὕνεκ' ἐπὶ βλάβῃ : conjecture d'Austin, publication de 1990 selon Wilson, adoptée.",
      "v_edition": "365-366"
     }
    ]
@@ -69786,36 +70266,6 @@
      "page": "p. 44 (PDF 131)",
      "citation": "365-6. Locum uix sanum alii aliter temptauerunt: τῆς ἔχθρας οὕν. ἐπὶ βλ. Hermann (1845) τῆς χώρας [οὕνεκ'] ἐπὶ βλ. Brunck γῇ κερδῶν εἵν. ἐπὶ βλ. Velsen τῆς ἀρχῆς οὕνεκα ἐπὶ βλ. Austin (1990, p. 22), alii aliter",
      "remarque": "Austin 1990, p. 22 ; « alii aliter ».",
-     "v_edition": "365-366"
-    }
-   ]
-  },
-  {
-   "lecon": "τῆς ἀρχῆς",
-   "lemmes": [
-    "τῆς ἀρχῆς"
-   ],
-   "types": [
-    "conjecture"
-   ],
-   "temoins": [],
-   "auteurs": {
-    "Austin": [
-     "Wilson 2007"
-    ]
-   },
-   "editions": [
-    "Wilson 2007"
-   ],
-   "adoptee_par": [
-    "Wilson 2007"
-   ],
-   "sources": [
-    {
-     "edition": "Wilson 2007",
-     "page": "p. 87 (PDF 89)",
-     "citation": "365–6 τῆς ἀρχῆς Austin (1990): τῆς χώρας R: τῶν κερδῶν Austin (1987) post Reiske",
-     "remarque": "ἢ Μήδους ἐπάγουσι τῆς / ἀρχῆς οὕνεκ' ἐπὶ βλάβῃ : conjecture d'Austin, publication de 1990 selon Wilson, adoptée.",
      "v_edition": "365-366"
     }
    ]
@@ -116355,6 +116805,87 @@
    ]
   },
   {
+   "lecon": "τρίτον δὲ τί;",
+   "lemmes": [
+    "τί δαὶ τρίτον;",
+    "τί δὲ",
+    "τρίτον δὲ τί;"
+   ],
+   "types": [
+    "conjecture",
+    "transposition"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Austin": [
+     "Mastromarco–Totaro 2006",
+     "Prato 2001",
+     "Wilson 2007"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001",
+    "Wilson 2007"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 83 (PDF 81)",
+     "citation": "Con la trasposizione dei termini, C. Austin («Dodone» 16, 1987, p. 80; Austin-Olson, p. 231) risolve economicamente un problema metrico",
+     "remarque": "La Nota ne cite pas la forme transposée ; texte imprimé p. 492 (PDF 498) : Ταυτὶ μὲν ἤκουσάς τινος. Τρίτον δὲ τί;"
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 70 (PDF 157)",
+     "citation": "632. τί δὲ R: τί δ' αὖ Bentley τί δαὶ Elmsley ad Ach. 105, prob. Coulon <σύ> τί δὲ Enger, prob. iterum Coulon (Essai, p. 109 sg.) (τρίτον) δὲ τί; Austin (1987, p. 80), alii alia",
+     "remarque": "Austin 1987, p. 80 ; « alii alia »."
+    },
+    {
+     "edition": "Wilson 2007",
+     "page": "p. 98 (PDF 100)",
+     "citation": "632 τί δαὶ τρίτον; Elmsley: τί δὲ τρίτον; R: τρίτον δὲ τί; Austin",
+     "remarque": ""
+    }
+   ]
+  },
+  {
+   "lecon": "τί δὲ τρίτον;",
+   "lemmes": [
+    "τί δαὶ τρίτον;",
+    "τρίτον δὲ τί;"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Wilson 2007"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 83 (PDF 81)",
+     "citation": "un problema metrico posto dal testo tràdito, τί δὲ τρίτον;, stampato da Prato",
+     "remarque": "Leçon transmise, qui pose selon M–T un problème métrique ; imprimée par Prato."
+    },
+    {
+     "edition": "Wilson 2007",
+     "page": "p. 98 (PDF 100)",
+     "citation": "632 τί δαὶ τρίτον; Elmsley: τί δὲ τρίτον; R: τρίτον δὲ τί; Austin",
+     "remarque": ""
+    }
+   ]
+  },
+  {
    "lecon": "τί δὲ",
    "lemmes": [
     "τί δὲ"
@@ -116463,42 +116994,6 @@
    ]
   },
   {
-   "lecon": "(τρίτον) δὲ τί;",
-   "lemmes": [
-    "τί δαὶ τρίτον;",
-    "τί δὲ"
-   ],
-   "types": [
-    "conjecture"
-   ],
-   "temoins": [],
-   "auteurs": {
-    "Austin": [
-     "Prato 2001",
-     "Wilson 2007"
-    ]
-   },
-   "editions": [
-    "Prato 2001",
-    "Wilson 2007"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 70 (PDF 157)",
-     "citation": "632. τί δὲ R: τί δ' αὖ Bentley τί δαὶ Elmsley ad Ach. 105, prob. Coulon <σύ> τί δὲ Enger, prob. iterum Coulon (Essai, p. 109 sg.) (τρίτον) δὲ τί; Austin (1987, p. 80), alii alia",
-     "remarque": "Austin 1987, p. 80 ; « alii alia »."
-    },
-    {
-     "edition": "Wilson 2007",
-     "page": "p. 98 (PDF 100)",
-     "citation": "632 τί δαὶ τρίτον; Elmsley: τί δὲ τρίτον; R: τρίτον δὲ τί; Austin",
-     "remarque": ""
-    }
-   ]
-  },
-  {
    "lecon": "σύ· (add.)",
    "lemmes": [
     "σύ·"
@@ -116601,31 +117096,6 @@
      "edition": "Velsen 1883",
      "page": "p. 47 (PDF 52)",
      "citation": "τί] τὶ G",
-     "remarque": ""
-    }
-   ]
-  },
-  {
-   "lecon": "τί δὲ τρίτον;",
-   "lemmes": [
-    "τί δαὶ τρίτον;"
-   ],
-   "types": [
-    "R"
-   ],
-   "temoins": [
-    "R"
-   ],
-   "auteurs": {},
-   "editions": [
-    "Wilson 2007"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Wilson 2007",
-     "page": "p. 98 (PDF 100)",
-     "citation": "632 τί δαὶ τρίτον; Elmsley: τί δὲ τρίτον; R: τρίτον δὲ τί; Austin",
      "remarque": ""
     }
    ]
@@ -117390,6 +117860,87 @@
    ]
   },
   {
+   "lecon": "χάλα ταχέως τὸ στρόφιον à la Femme (ΓΥ. Α'), ὦναίσχυντε σύ au Parent",
+   "lemmes": [
+    "ΓΥ. Α' χάλα ταχέως τὸ στρόφιον. ΚΗ. ὦναίσχυντε σύ"
+   ],
+   "types": [
+    "attribution"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Degani": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 83-84 (PDF 81-82)",
+     "citation": "«χάλα ταχέως τὸ στρόφιον ed ὦναίσχυντε σύ non possono che essere attribuiti, rispettivamente, alla Donna ed a Mnesiloco»",
+     "remarque": "Degani, Eikasmos 7, 1996, p. 119-20 (= López Eire, Sociedad, p. 15-16) : l'attribution à Clisthène prête à χάλα un sens réfléchi-moyen impropre ; après ἀπόδυσον αὐτόν (v. 636), la Femme ordonne à Clisthène d'ôter le στρόφιον au Parent, dont la protestation vise l'exécutant (cf. v. 611). Proposition partagée par Mastromarco (Da ΑΙΩΝ a Eikasmos, Bologne, 2002, p. 54 n. 50), vue avec faveur par Sommerstein (Addenda, in Wealth, p. 306). L'OCR donne « pp. 110-20 » : l'image porte p. 119-20. Texte imprimé p. 492 (PDF 498) : ΓΥ. Α' Χάλα ταχέως τὸ στρόφιον. / ΚΗ. Ὦναίσχυντε σύ, conforme."
+    }
+   ]
+  },
+  {
+   "lecon": "pas de changement d'interlocuteur : le v. 638 continue la réplique du Parent (v. 637)",
+   "lemmes": [
+    "ΓΥ. Α' χάλα ταχέως τὸ στρόφιον. ΚΗ. ὦναίσχυντε σύ"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 83 (PDF 81)",
+     "citation": "Il Ravennate non segnala cambio di interlocutore",
+     "remarque": "Donner le v. 638 au Parent déguisé (persona loquens du v. 637) est, pour M–T, « palesemente assurdo »."
+    }
+   ]
+  },
+  {
+   "lecon": "v. 638 entier à Clisthène",
+   "lemmes": [
+    "ΓΥ. Α' χάλα ταχέως τὸ στρόφιον. ΚΗ. ὦναίσχυντε σύ"
+   ],
+   "types": [
+    "attribution"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Brunck": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 83 (PDF 81)",
+     "citation": "Seguendo Brunck, Prato lo assegna interamente a Clistene, che ordinerebbe al Parente, insultandolo, di togliersi il reggipetto",
+     "remarque": "Suivie par Prato et par Austin–Olson ; Sommerstein l'avait adoptée dans son édition de 1994."
+    }
+   ]
+  },
+  {
    "lecon": "à Clisthène",
    "lemmes": [
     "ΚΛ. χάλα"
@@ -117621,6 +118172,58 @@
   }
  ],
  "639": [
+  {
+   "lecon": "à la Femme (ΓΥ. Α')",
+   "lemmes": [
+    "ὡς καὶ στιβαρά τις φαίνεται καὶ καρτερά"
+   ],
+   "types": [
+    "attribution"
+   ],
+   "temoins": [],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 84 (PDF 82)",
+     "citation": "Non seguo Prato neppure nell'attribuzione a Clistene del v. 639, generalmente assegnato alla Donna",
+     "remarque": "Attribution courante (« generalmente »). La Femme prononce certainement le v. 640 (« E, per Zeus, non ha le tette come noi ») ; vu l'usage aristophanien de καί … γε avec l'interjection (νὴ Δία) juste après καί (Dover, Frogs, p. 213-14), elle ajoute au v. 640 une donnée à son exclamation du v. 639 (« Com'è robusta e muscolosa! »). Sur καί … γε dans la réplique d'un même personnage : Werres, Beteuerungsformeln, p. 33 ; Dettori, L'interlocuzione difficile, Pise, 1992, p. 71 n. 52. Texte imprimé p. 492 (PDF 498) : ΓΥ. Α' Ὡς καὶ στιβαρά τις φαίνεται καὶ καρτερά. / Καὶ νὴ Δία τιτθούς γ' … (640), conforme."
+    }
+   ]
+  },
+  {
+   "lecon": "à Clisthène (suite de sa réplique)",
+   "lemmes": [
+    "ὡς καὶ στιβαρά τις φαίνεται καὶ καρτερά"
+   ],
+   "types": [
+    "attribution"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Prato": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 84 (PDF 82)",
+     "citation": "Non seguo Prato neppure nell'attribuzione a Clistene del v. 639",
+     "remarque": ""
+    }
+   ]
+  },
   {
    "lecon": "suite de la réplique de Clisthène",
    "lemmes": [
@@ -121211,6 +121814,7 @@
    "auteurs": {},
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Wilson 2007"
    ],
@@ -121221,6 +121825,12 @@
      "page": "p. 117 (PDF 123)",
      "citation": "— ἐσελήλυθε: εἰσελήλυθεν libri.",
      "remarque": "libri = R, Aug., Junt."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 84 (PDF 82)",
+     "citation": "(dove R ha l'ametrico εἰσελήλυθεν)",
+     "remarque": "Amétrique."
     },
     {
      "edition": "Prato 2001",
@@ -121239,6 +121849,7 @@
   {
    "lecon": "ἐσελήλυθε",
    "lemmes": [
+    "ἐπελήλυθε",
     "ἐσελήλυθε"
    ],
    "types": [
@@ -121248,17 +121859,20 @@
    "auteurs": {
     "Bentley": [
      "Enger 1844",
+     "Mastromarco–Totaro 2006",
      "Prato 2001"
     ],
     "Küster": [
      "Enger 1844"
     ],
     "Faber": [
+     "Mastromarco–Totaro 2006",
      "Prato 2001"
     ]
    },
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001"
    ],
    "adoptee_par": [
@@ -121271,6 +121885,12 @@
      "page": "p. 117 (PDF 123)",
      "citation": "ἐσελήλυθε correxerunt Bentleius (hic etiam εἰσήλυθε) et Kusterus, receperunt editores praeter Fritzschium qui ἀνελήλυθε edidit. […] Nihil habet ἐσελήλυθε hoc loco, ut in anapaestis offensionis, neque aurium accedere convicium Fritzschio concedet Aristophanes, qui Lysistr. 786. dixerit ἐς ἐρημίαν, ubi libri εἰς ut nostro loco praebent.",
      "remarque": "Reçu par les éditeurs sauf Fritzsche."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 84 (PDF 82)",
+     "citation": "la lettura ἐσελήλυθε (Faber, Bentley, e ora Prato) in Tesmoforiazuse 657",
+     "remarque": "Imprimée par Prato. Austin (CR 87, 1973, p. 133) a montré que ἐς devant voyelle est étranger à la comédie, ce qui rend invraisemblables ἐσερρήσεις en Guêpes 147 (V, MacDowell) et ἐσελήλυθε ici ; position reprise par Mastromarco dans la Nota critica des Guêpes (vol. I, p. 92) et réaffirmée par Austin, Dodone 16, 1987, p. 81."
     },
     {
      "edition": "Prato 2001",
@@ -121321,6 +121941,7 @@
    "auteurs": {
     "Fritzsche": [
      "Enger 1844",
+     "Mastromarco–Totaro 2006",
      "Prato 2001",
      "Velsen 1883",
      "Wilson 2007"
@@ -121328,6 +121949,7 @@
    },
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Velsen 1883",
     "Wilson 2007"
@@ -121341,6 +121963,12 @@
      "page": "p. 117 (PDF 123)",
      "citation": "praeter Fritzschium qui ἀνελήλυθε edidit.",
      "remarque": ""
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 84 (PDF 82)",
+     "citation": "un guasto nella tradizione originatosi a partire da ἀνελήλυθε, forma che, congetturata da Fritzsche, pure ben si attaglia alla topografia drammaturgica",
+     "remarque": "Convient à la topographie de la pièce : renvoi à la n. 12 du commentaire (p. 446-447, PDF 450-451), où la localisation du Thesmophorion reste ouverte (Pnyx, surtout d'après les vv. 657-58, ou près de l'Éleusinion), mais sa position élevée est jugée certaine : le premier jour (Anodos, « montée ») les femmes y montaient en procession (cf. ἀνέρχεσθαι et ἀναπέμπειν aux vv. 281, 585, 623, 893, 1045). La faute s'expliquerait toutefois moins aisément qu'à partir d'ἐπ-."
     },
     {
      "edition": "Prato 2001",
@@ -121437,18 +122065,27 @@
    "temoins": [],
    "auteurs": {
     "Handley": [
+     "Mastromarco–Totaro 2006",
      "Prato 2001",
      "Wilson 2007"
     ]
    },
    "editions": [
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Wilson 2007"
    ],
    "adoptee_par": [
+    "Mastromarco–Totaro 2006",
     "Wilson 2007"
    ],
    "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 84 (PDF 82)",
+     "citation": "egli propone l'emendamento di Handley ἐπελήλυθε (accolto nel testo da Sommerstein e da Austin-Olson)",
+     "remarque": "Proposée par Austin (Dodone 16, 1987, p. 81) d'après Handley : marque l'hostilité qu'aurait, aux yeux des Thesmophoriazousai, l'intrusion d'un autre homme (« has come against us »). Paléographiquement, εἰσ- s'explique à partir d'ἐπ- (« In certain uncial scripts Π and IC are very easily confused »). La Nota ne dit pas expressément quelle leçon M–T impriment ; le texte (p. 494, PDF 500) porte : ζητεῖν, εἴ που κἄλλος τις ἀνὴρ ἐπελήλυθε, καὶ περιθρέξαι."
+    },
     {
      "edition": "Prato 2001",
      "page": "p. 72 (PDF 159)",
@@ -122656,8 +123293,65 @@
    ]
   },
   {
+   "lecon": "χρή ⟨μ'⟩",
+   "lemmes": [
+    "χρή ⟨μ'⟩"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Austin": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 85 (PDF 83)",
+     "citation": "Con l'integrazione ⟨μ'⟩ di C. Austin («Dodone» 16, 1987, p. 81; accolta da Thiercy e Henderson)",
+     "remarque": "Supplément d'Austin (Dodone 16, 1987, p. 81), adopté par Thiercy et Henderson : la coryphée prend l'initiative de chercher, « per prima », un éventuel autre intrus. Texte imprimé p. 494 (PDF 500) : Ἀλλὰ τὴν πρώτην τρέχειν χρή ⟨μ'⟩ ὡς τάχιστ' ἤδη κύκλῳ, conforme."
+    }
+   ]
+  },
+  {
+   "lecon": "χρή",
+   "lemmes": [
+    "χρή"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 85 (PDF 83)",
+     "citation": "Ma il tràdito χρὴ trova riscontri, nell'immediato contesto, ai vv. 655, 659 e 660",
+     "remarque": "Cf. Zimmermann, Untersuchungen 2, p. 105 n. 13. Leçon transmise gardée par M–T, complétée par ⟨μ'⟩."
+    }
+   ]
+  },
+  {
    "lecon": "χρῆν",
    "lemmes": [
+    "χρή",
     "χρῆν"
    ],
    "types": [
@@ -122666,16 +123360,24 @@
    "temoins": [],
    "auteurs": {
     "Bentley": [
+     "Mastromarco–Totaro 2006",
      "Prato 2001"
     ]
    },
    "editions": [
+    "Mastromarco–Totaro 2006",
     "Prato 2001"
    ],
    "adoptee_par": [
     "Prato 2001"
    ],
    "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 85 (PDF 83)",
+     "citation": "Prato stampa χρῆν (Bentley) e assegna a τὴν πρώτην valore avverbiale («dapprima»)",
+     "remarque": "Imprimée par Prato, avec τὴν πρώτην adverbial (« d'abord »)."
+    },
     {
      "edition": "Prato 2001",
      "page": "p. 74 (PDF 161)",
@@ -123606,6 +124308,36 @@
    ]
   },
   {
+   "lecon": "καὶ τὰ τῇδε ⟨καὶ τὰ κεῖσε⟩ / καὶ τὰ δεῦρο",
+   "lemmes": [
+    "καὶ τὰ τῇδε καὶ τὰ δεῦρο"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Kaibel": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 85 (PDF 83)",
+     "citation": "Prato non accoglie l'integrazione καὶ τὰ τῇδε ⟨καὶ τὰ κεῖσε⟩ / καὶ τὰ δεῦρο, proposta da Kaibel",
+     "remarque": "Non adoptée par Prato. Rend l'expression parallèle à Oiseaux 425 et rétablit une responsion parfaite dans le système trochaïque 663-66 : deux petites strophes de deux dimètres, un monomètre et un dimètre catalectique (Austin, Dodone 16, 1987, p. 81 ; Sommerstein ; Zimmermann, Untersuchungen 2, p. 105, et 3, p. 73 ; Parker, Songs, p. 418-19 ; Henderson). Texte imprimé p. 494 (PDF 500) : καὶ τὰ τῇδε ⟨καὶ τὰ κεῖσε⟩ / καὶ τὰ δεῦρο / πάντ' ἀνασκόπει καλῶς, conforme. Dans la première strophe, le monomètre est (ἐν τό)ποις ἑδραῖος, entre 664a et 664b. Numéros imprimés : 664a, 664b, 665, puis 670 (ceux de Prato) ; « v. 666a » est le numéro de Prato pour la ligne καὶ τὰ τῇδε καὶ τὰ δεῦρο.",
+     "v_edition": "666a"
+    }
+   ]
+  },
+  {
    "lecon": "καὶ τὰ τῇδε ‹καὶ τὰ κεῖσε› καὶ τὰ δεῦρο",
    "lemmes": [
     "καὶ τὰ τῇδε καὶ τὰ δεῦρο"
@@ -123717,6 +124449,7 @@
   {
    "lecon": "μὴ λάθῃ",
    "lemmes": [
+    "ληφθῇ",
     "με λάθῃ"
    ],
    "types": [
@@ -123729,6 +124462,7 @@
    "auteurs": {},
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001"
    ],
    "adoptee_par": [],
@@ -123738,6 +124472,12 @@
      "page": "p. 119 (PDF 125)",
      "citation": "667. με λάθῃ: μὴ λάθῃ libri contra sententiam et metrum.",
      "remarque": "libri = R, Aug., Junt."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 85 (PDF 83)",
+     "citation": "indubbiamente non distante dal tràdito μὴ λάθῃ (ametrico)",
+     "remarque": "Amétrique."
     },
     {
      "edition": "Prato 2001",
@@ -123760,16 +124500,19 @@
    "auteurs": {
     "Reisig": [
      "Enger 1844",
+     "Mastromarco–Totaro 2006",
      "Prato 2001",
      "Wilson 2007"
     ]
    },
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Wilson 2007"
    ],
    "adoptee_par": [
+    "Mastromarco–Totaro 2006",
     "Wilson 2007"
    ],
    "sources": [
@@ -123778,6 +124521,12 @@
      "page": "p. 119 (PDF 125)",
      "citation": "ληφθῇ Reisigius apte sed violenter.",
      "remarque": ""
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 85 (PDF 83)",
+     "citation": "al v. 667 ληφθῇ è congettura di C. Reisig (Coniectanea in Aristophanem, Lipsiae, 1816, p. 277)",
+     "remarque": "Reisig, Coniectanea in Aristophanem, Leipzig, 1816, p. 277 ; expression parallèle à celle du v. 679 ; approuvée récemment par Austin (Dodone 19, 1990, p. 23 ; cf. Austin–Olson, p. 240), Sommerstein, Zimmermann (Untersuchungen 2, p. 106), Thiercy (p. 688), Parker (Songs, p. 423) et Henderson. Texte imprimé p. 494 (PDF 500) : Ἢν γὰρ ληφθῇ δράσας ἀνόσια, conforme."
     },
     {
      "edition": "Prato 2001",
@@ -123796,6 +124545,7 @@
   {
    "lecon": "με λάθῃ",
    "lemmes": [
+    "ληφθῇ",
     "με λάθῃ"
    ],
    "types": [
@@ -123805,15 +124555,18 @@
    "auteurs": {
     "Bergk": [
      "Enger 1844",
+     "Mastromarco–Totaro 2006",
      "Prato 2001",
      "Velsen 1883"
     ],
     "Fritzsche": [
-     "Enger 1844"
+     "Enger 1844",
+     "Mastromarco–Totaro 2006"
     ]
    },
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Velsen 1883"
    ],
@@ -123828,6 +124581,12 @@
      "page": "p. 119 (PDF 125)",
      "citation": "με λάθῃ Bergkius et Fritzschius recte emendarunt, probat Hermannus. Miror tamen haec non interpretatum esse Fritzschium. Videtur enim qui clam se aliquid fieri vetat, idem coram se fieri iubere, certe non improbare. At ἀνόσια δρᾶν h. l. nihil aliud est quam in Thesmophorium penetrare.",
      "remarque": "Approuvé par Hermann."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 85 (PDF 83)",
+     "citation": "Prato (come già Rogers, Coulon, Paduano e Gannon) stampa με λάθῃ, correzione di Fritzsche e Bergk",
+     "remarque": "Proche de la leçon transmise, mais absurde pour le sens selon Wilamowitz (Griechische Verskunst, Berlin, 1921, p. 590 : « lächerlich: wenn er sich verstecken kann, wird er kein warnendes Exempel ») ; même objection chez Sommerstein (Addenda, in Wealth, p. 309) contre Prato ; Bierl (Chor, p. 206 n. 273), qui l'approuve, doit y voir un Gedankensprung dû à l'émotion des femmes."
     },
     {
      "edition": "Prato 2001",
@@ -128896,12 +129655,14 @@
   {
    "lecon": "ἅπαντα τόλμης πλέα κἀναισχυντίας",
    "lemmes": [
+    "μεστά",
     "ὡς ἅπαντ' ἄρ' ἐστὶ τόλμης ἔργα κἀναισχυντίας"
    ],
    "types": [
     "testimonium"
    ],
    "temoins": [
+    "Suda",
     "Suid."
    ],
    "auteurs": {
@@ -128910,7 +129671,8 @@
     ]
    },
    "editions": [
-    "Enger 1844"
+    "Enger 1844",
+    "Mastromarco–Totaro 2006"
    ],
    "adoptee_par": [],
    "sources": [
@@ -128919,6 +129681,12 @@
      "page": "p. 123 (PDF 129)",
      "citation": "At recte Fritzschius monet, deceptos esse viros doctos Suidae memoria ἅπαντα τόλμης πλέα κἀναισχυντίας: ἐπὶ τῶν ἰταμῶν καὶ ἀναιδῶν, qui non Aristophanis verba; sed proverbium quod hic respiciat poeta afferre censendus sit ex antiquis huius loci scholiis, in quibus hodie tantum exstet παροιμία.",
      "remarque": "Article de la Souda (proverbe) ; selon Fritzsche et Enger, ce n'est pas une citation du vers mais le proverbe auquel le poète fait allusion, tiré des scholies anciennes (où ne subsiste que le mot παροιμία) : il ne fonde donc pas un soupçon de corruption."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 85 (PDF 83)",
+     "citation": "Sulla base dell'espressione proverbiale citata in Suda α 2902 Adler, ἅπαντα τόλμης πλέα κἀναισχυντίας",
+     "remarque": "Souda α 2902 Adler. M–T la présentent comme une « espressione proverbiale », non comme une citation du v. 702 ; πλέα y fonde leur choix de μεστά."
     }
    ]
   },
@@ -128944,6 +129712,82 @@
      "page": "p. 123 (PDF 129)",
      "citation": "702. παροιμία. — Put habet οὕτως ἐνόησεν Ἀνδρέας, nihil amplius. Cf. Addend. ad Lysistr. v. 1087. Hic quid lateat, non perspicio.",
      "remarque": "Scholie (R : παροιμία) ; addition de « Put. » ; renvoi aux Addenda ad Lysistr. v. 1087."
+    }
+   ]
+  },
+  {
+   "lecon": "μεστά",
+   "lemmes": [
+    "μεστά"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 85 (PDF 83)",
+     "citation": "in Tesmoforiazuse 702 preferisco sostituire μεστὰ al tràdito ἔργα (cfr. ancora ἔργον al verso successivo), conservato invece da Prato",
+     "remarque": "M–T ne nomment pas l'auteur de la correction. Fondée sur l'expression proverbiale de la Souda (α 2902 Adler) ἅπαντα τόλμης πλέα κἀναισχυντίας ; parallèle jugé décisif : Paix 554 ὡς ἅπαντ' ἤδη 'στὶ μεστὰ τἀνθάδ' εἰρήνης σαπρᾶς ; cf. Austin, Dodone 19, 1990, p. 24, et Austin–Olson, p. 246. Texte imprimé p. 498 (PDF 504) : Ὡς ἅπαντ' ἄρ' ἐστὶ τόλμης μεστὰ κἀναισχυντίας, conforme."
+    }
+   ]
+  },
+  {
+   "lecon": "ἔργα",
+   "lemmes": [
+    "μεστά",
+    "μεστὰ",
+    "ἔργα"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "M",
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001",
+    "Velsen 1883",
+    "Wilson 2007"
+   ],
+   "adoptee_par": [
+    "Prato 2001"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 85 (PDF 83)",
+     "citation": "preferisco sostituire μεστὰ al tràdito ἔργα (cfr. ancora ἔργον al verso successivo), conservato invece da Prato",
+     "remarque": "Leçon transmise, conservée par Prato ; M–T notent que ἔργον suit au v. 703."
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 76 (PDF 163)",
+     "citation": "ἔργα R: πλέα Su. (ἅπαντα) μεστὰ Porson teste Dobree (Aristophanica Add., p. 146), prob. Hamaker (uid. Austin 1990, p. 24)",
+     "remarque": ""
+    },
+    {
+     "edition": "Velsen 1883",
+     "page": "p. 51 (PDF 56)",
+     "citation": "μεστὰ] ἔργα RG",
+     "remarque": "Velsen imprime μεστὰ (Porson)."
+    },
+    {
+     "edition": "Wilson 2007",
+     "page": "p. 101 (PDF 103)",
+     "citation": "μεστὰ Porson: ἔργα R: πλέα Su. α 2902",
+     "remarque": ""
     }
    ]
   },
@@ -129068,49 +129912,6 @@
      "edition": "Prato 2001",
      "page": "p. 76 (PDF 163)",
      "citation": "702. ἅπαντ' ἄρ' ἐστὶ Bentley: ἅπαν γάρ εστιν R ἅπαντα Su. ἅπαντά γ' ἐστι Daubuz",
-     "remarque": ""
-    }
-   ]
-  },
-  {
-   "lecon": "ἔργα",
-   "lemmes": [
-    "μεστὰ",
-    "ἔργα"
-   ],
-   "types": [
-    "R"
-   ],
-   "temoins": [
-    "M",
-    "R"
-   ],
-   "auteurs": {},
-   "editions": [
-    "Prato 2001",
-    "Velsen 1883",
-    "Wilson 2007"
-   ],
-   "adoptee_par": [
-    "Prato 2001"
-   ],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 76 (PDF 163)",
-     "citation": "ἔργα R: πλέα Su. (ἅπαντα) μεστὰ Porson teste Dobree (Aristophanica Add., p. 146), prob. Hamaker (uid. Austin 1990, p. 24)",
-     "remarque": ""
-    },
-    {
-     "edition": "Velsen 1883",
-     "page": "p. 51 (PDF 56)",
-     "citation": "μεστὰ] ἔργα RG",
-     "remarque": "Velsen imprime μεστὰ (Porson)."
-    },
-    {
-     "edition": "Wilson 2007",
-     "page": "p. 101 (PDF 103)",
-     "citation": "μεστὰ Porson: ἔργα R: πλέα Su. α 2902",
      "remarque": ""
     }
    ]
@@ -130496,6 +131297,57 @@
    ]
   },
   {
+   "lecon": "ἥκεις",
+   "lemmes": [
+    "ἥκεις",
+    "ἥκων"
+   ],
+   "types": [
+    "R",
+    "scholie",
+    "testimonium"
+   ],
+   "temoins": [
+    "R",
+    "Su.",
+    "Σ"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 85-86 (PDF 83-84)",
+     "citation": "Stampo i due versi nella forma tràdita, con la sola correzione, al v. 711, di δ'",
+     "remarque": "Pour l'interprétation, M–T renvoient à Austin (Dodone 19, 1990, p. 25). Texte imprimé p. 498 (PDF 504) : ΧΟ. Ἀλλ' οὖν ἥκεις γ' ὅθεν ἥκεις, / φαύλως δ' ἀποδρὰς οὐ λέξεις. Écart non commenté par la Nota (qui annonce la « forma tràdita » avec la « sola correzione » δ' au v. 711) : γ' au v. 710 (que l'apparat de Prato donne à la Souda, R ayant τ')."
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 78 (PDF 165)",
+     "citation": "ἥκων Willems: ἥκεις RΣSu., def. Austin (1990, p. 25)",
+     "remarque": "Défendu par Austin 1990, p. 25."
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 78 (PDF 165)",
+     "citation": "ἥκων Willems: ἥκεις RΣSu., def. Austin (1990, p. 25)",
+     "remarque": ""
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 78 (PDF 165)",
+     "citation": "ἥκων Willems: ἥκεις RΣSu., def. Austin (1990, p. 25)",
+     "remarque": ""
+    }
+   ]
+  },
+  {
    "lecon": "ΧΟ.",
    "lemmes": [
     "ΧΟ."
@@ -130573,47 +131425,6 @@
     "Prato 2001"
    ],
    "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 78 (PDF 165)",
-     "citation": "ἥκων Willems: ἥκεις RΣSu., def. Austin (1990, p. 25)",
-     "remarque": ""
-    }
-   ]
-  },
-  {
-   "lecon": "ἥκεις",
-   "lemmes": [
-    "ἥκων"
-   ],
-   "types": [
-    "R",
-    "scholie",
-    "testimonium"
-   ],
-   "temoins": [
-    "R",
-    "Su.",
-    "Σ"
-   ],
-   "auteurs": {},
-   "editions": [
-    "Prato 2001"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 78 (PDF 165)",
-     "citation": "ἥκων Willems: ἥκεις RΣSu., def. Austin (1990, p. 25)",
-     "remarque": "Défendu par Austin 1990, p. 25."
-    },
-    {
-     "edition": "Prato 2001",
-     "page": "p. 78 (PDF 165)",
-     "citation": "ἥκων Willems: ἥκεις RΣSu., def. Austin (1990, p. 25)",
-     "remarque": ""
-    },
     {
      "edition": "Prato 2001",
      "page": "p. 78 (PDF 165)",
@@ -130859,6 +131670,34 @@
    ]
   },
   {
+   "lecon": "ἀλλ' οὖν ἥκων γ' ὅθεν ἥκεις / φαύλως τ' ἀποδρὰς οὐ λέξεις",
+   "lemmes": [
+    "ἀλλ' οὖν ἥκεις γ' ὅθεν ἥκεις / φαύλως δ' ἀποδρὰς οὐ λέξεις"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Willems": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86 (PDF 84)",
+     "citation": "l'emendamento ἀλλ' οὖν ἥκων γ' ὅθεν ἥκεις / φαύλως τ' ἀποδρὰς οὐ λέξεις, che, proposto da Willems (II p. 563)",
+     "remarque": "Willems II, p. 563 : ἥκων pour le premier ἥκεις (v. 710), τ' gardé au v. 711 ; adopté par Coulon, Gannon et Prato ; critiqué par Austin (Dodone 19, 1990, p. 25).",
+     "v_edition": "710-711"
+    }
+   ]
+  },
+  {
    "lecon": "ὅθεν οὐ φαύλως γ' ἀποδρὰς λέξεις",
    "lemmes": [
     "ὅθεν οὐ φαύλως | ἀποδρὰς λέξεις"
@@ -131035,6 +131874,60 @@
      "page": "p. 124 (PDF 130)",
      "citation": "φαύλως τ' (θ' Junt.)",
      "remarque": "φαύλως γ' figure au v. 710 dans le texte d'Enger ; dans la leçon des manuscrits, φαύλως τ' ouvre le second vers."
+    }
+   ]
+  },
+  {
+   "lecon": "δ'",
+   "lemmes": [
+    "δ'"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Boissonade": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 85 (PDF 83)",
+     "citation": "con la sola correzione, al v. 711, di δ' (Boissonade, Aristophanes, III, cit., p. 297) in luogo di τ'",
+     "remarque": "Boissonade, Aristophanes III, p. 297. Texte imprimé p. 498 (PDF 504) : φαύλως δ' ἀποδρὰς οὐ λέξεις, conforme."
+    }
+   ]
+  },
+  {
+   "lecon": "τ'",
+   "lemmes": [
+    "δ'"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 85 (PDF 83)",
+     "citation": "con la sola correzione, al v. 711, di δ' (Boissonade, Aristophanes, III, cit., p. 297) in luogo di τ'",
+     "remarque": "Leçon transmise (« forma tràdita ») ; τ' est gardé dans l'émendation de Willems imprimée par Prato."
     }
    ]
   },
@@ -176855,6 +177748,34 @@
    ]
   },
   {
+   "lecon": "χερὶ σύναπτε χεῖρα, / ῥυθμὸν χορείας / ὕπαγε πᾶσα. βαῖνε καρπαλίμοιν ποδοῖν.",
+   "lemmes": [
+    "χειρὶ σύναπτε χεῖρα, / ῥυθμὸν χορείας πᾶσ' ὕπαγε"
+   ],
+   "types": [
+    "note"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Prato": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86 (PDF 84)",
+     "citation": "Prato, invece, stampa χερὶ σύναπτε χεῖρα, / ῥυθμὸν χορείας / ὕπαγε πᾶσα. βαῖνε καρπαλίμοιν ποδοῖν.",
+     "remarque": "Texte et colométrie de Prato. La citation fait aussi apparaître χερί (Prato) contre χειρί (Austin, M–T) : M–T ne commentent pas cette différence.",
+     "v_edition": "955-955/6"
+    }
+   ]
+  },
+  {
    "lecon": "χερὶ",
    "lemmes": [
     "χερὶ"
@@ -177158,6 +178079,69 @@
    ]
   },
   {
+   "lecon": "χειρὶ σύναπτε χεῖρα, / ῥυθμὸν χορείας πᾶσ' ὕπαγε",
+   "lemmes": [
+    "χειρὶ σύναπτε χεῖρα, / ῥυθμὸν χορείας πᾶσ' ὕπαγε"
+   ],
+   "types": [
+    "transposition"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Austin": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86 (PDF 84)",
+     "citation": "adotto la sistemazione testuale e colometrica suggerita da C. Austin ap. Parker, Songs, cit., p. 431: χειρὶ σύναπτε χεῖρα, / ῥυθμὸν χορείας πᾶσ' ὕπαγε",
+     "remarque": "Texte et colométrie d'Austin, d'après Parker (Songs, p. 431), dans les vers astrophiques 953-58 : un aristophanien suivi d'un dimètre iambique (cf. v. 970) ; aussi chez Furley et Bremer (Greek Hymns II, p. 351-54), qui rendent ὑπάγειν transitif : « 'bring on the rhythm, little by little': poco a poco accelerando ». Texte imprimé p. 522 (PDF 528) : χειρὶ σύναπτε χεῖρα,, [sic, double virgule] / ῥυθμὸν χορείας πᾶσ' ὕπαγε, / βαῖνε καρπαλίμοιν ποδοῖν, numérotés 955, 955/6, 956 (Prato : 955a, 955b, 956), conforme.",
+     "v_edition": "955-955/6"
+    }
+   ]
+  },
+  {
+   "lecon": "ὕπαγε πᾶσα",
+   "lemmes": [
+    "πᾶσ' ὕπαγε"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Wilson 2007"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86 (PDF 84)",
+     "citation": "ῥυθμὸν χορείας πᾶσ' ὕπαγε (ὕπαγε πᾶσα R)",
+     "remarque": "Ordre des mots de R, gardé par Prato.",
+     "v_edition": "955/6"
+    },
+    {
+     "edition": "Wilson 2007",
+     "page": "p. 112 (PDF 114)",
+     "citation": "956 πᾶσ' ὕπαγε Austin: ὕπαγε πᾶσα R",
+     "remarque": ""
+    }
+   ]
+  },
+  {
    "lecon": "ῥυθμὸν",
    "lemmes": [
     "ῥυθμὸν"
@@ -177239,31 +178223,6 @@
      "page": "p. 112 (PDF 114)",
      "citation": "956 πᾶσ' ὕπαγε Austin: ὕπαγε πᾶσα R",
      "remarque": "ῥυθμὸν χορείας πᾶσ' ὕπαγε· : inversion de l'ordre des mots de R, avec élision de πᾶσα. Le v. 956 est dans l'étendue de P14 (vv. 941-56 selon le conspectus), que l'apparat ne cite pas."
-    }
-   ]
-  },
-  {
-   "lecon": "ὕπαγε πᾶσα",
-   "lemmes": [
-    "πᾶσ' ὕπαγε"
-   ],
-   "types": [
-    "R"
-   ],
-   "temoins": [
-    "R"
-   ],
-   "auteurs": {},
-   "editions": [
-    "Wilson 2007"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Wilson 2007",
-     "page": "p. 112 (PDF 114)",
-     "citation": "956 πᾶσ' ὕπαγε Austin: ὕπαγε πᾶσα R",
-     "remarque": ""
     }
    ]
   }
@@ -179569,6 +180528,90 @@
  ],
  "975": [
   {
+   "lecon": "χοροῖσιν ἐμπαίζει",
+   "lemmes": [
+    "χοροῖσι συμπαίζει",
+    "χοροῖσιν ἐμπαίζει"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86 (PDF 84)",
+     "citation": "Non ritengo necessario modificare il tràdito χοροῖσιν ἐμπαίζει in χοροῖσι συμπαίζει (correzione di Biset ap. Portus, accolta da Prato)",
+     "remarque": "Texte imprimé p. 522 (PDF 528) : ἣ πᾶσι τοῖς χοροῖσιν ἐμπαίζει τε καὶ, conforme."
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 104 (PDF 191)",
+     "citation": "χοροῖσι συμπαίζει Biset (ap. Port): χοροῖσιν ἐμπαίζει R",
+     "remarque": ""
+    }
+   ]
+  },
+  {
+   "lecon": "χοροῖσι συμπαίζει",
+   "lemmes": [
+    "χοροῖσι συμπαίζει",
+    "χοροῖσιν ἐμπαίζει"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Biset": [
+     "Mastromarco–Totaro 2006",
+     "Prato 2001"
+    ],
+    "Meineke": [
+     "Wilson 2007"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001",
+    "Wilson 2007"
+   ],
+   "adoptee_par": [
+    "Prato 2001"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86 (PDF 84)",
+     "citation": "Non ritengo necessario modificare il tràdito χοροῖσιν ἐμπαίζει in χοροῖσι συμπαίζει (correzione di Biset ap. Portus, accolta da Prato)",
+     "remarque": "Biset, d'après Portus (« ap. Portus ») ; adoptée par Prato."
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 104 (PDF 191)",
+     "citation": "χοροῖσι συμπαίζει Biset (ap. Port): χοροῖσιν ἐμπαίζει R",
+     "remarque": "Chez Portus."
+    },
+    {
+     "edition": "Wilson 2007",
+     "page": "p. 113 (PDF 115)",
+     "citation": "975 χοροῖσιν ἐμπαίζει] -σι συμπαίζει Meineke",
+     "remarque": "ἣ πᾶσι τοῖς χοροῖσιν ἐμπαίζει τε καὶ κλῇδας / γάμου φυλάττει : Wilson garde χοροῖσιν ἐμπαίζει (texte de R, implicitement)."
+    }
+   ],
+   "conflit_attribution": true
+  },
+  {
    "lecon": "ἣ",
    "lemmes": [
     "ἣ"
@@ -179616,72 +180659,6 @@
      "edition": "Prato 2001",
      "page": "p. 104 (PDF 191)",
      "citation": "975. ἣ G: ἢ R",
-     "remarque": ""
-    }
-   ]
-  },
-  {
-   "lecon": "χοροῖσι συμπαίζει",
-   "lemmes": [
-    "χοροῖσι συμπαίζει",
-    "χοροῖσιν ἐμπαίζει"
-   ],
-   "types": [
-    "conjecture"
-   ],
-   "temoins": [],
-   "auteurs": {
-    "Biset": [
-     "Prato 2001"
-    ],
-    "Meineke": [
-     "Wilson 2007"
-    ]
-   },
-   "editions": [
-    "Prato 2001",
-    "Wilson 2007"
-   ],
-   "adoptee_par": [
-    "Prato 2001"
-   ],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 104 (PDF 191)",
-     "citation": "χοροῖσι συμπαίζει Biset (ap. Port): χοροῖσιν ἐμπαίζει R",
-     "remarque": "Chez Portus."
-    },
-    {
-     "edition": "Wilson 2007",
-     "page": "p. 113 (PDF 115)",
-     "citation": "975 χοροῖσιν ἐμπαίζει] -σι συμπαίζει Meineke",
-     "remarque": "ἣ πᾶσι τοῖς χοροῖσιν ἐμπαίζει τε καὶ κλῇδας / γάμου φυλάττει : Wilson garde χοροῖσιν ἐμπαίζει (texte de R, implicitement)."
-    }
-   ],
-   "conflit_attribution": true
-  },
-  {
-   "lecon": "χοροῖσιν ἐμπαίζει",
-   "lemmes": [
-    "χοροῖσι συμπαίζει"
-   ],
-   "types": [
-    "R"
-   ],
-   "temoins": [
-    "R"
-   ],
-   "auteurs": {},
-   "editions": [
-    "Prato 2001"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 104 (PDF 191)",
-     "citation": "χοροῖσι συμπαίζει Biset (ap. Port): χοροῖσιν ἐμπαίζει R",
      "remarque": ""
     }
    ]
@@ -180175,6 +181152,215 @@
    ]
   },
   {
+   "lecon": "ἔξαρχε",
+   "lemmes": [
+    "ἔξαιρε"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Meineke": [
+     "Mastromarco–Totaro 2006",
+     "Prato 2001"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 524 (PDF 530), n. 143",
+     "citation": "Coulon, il quale accoglie al v. 981 l'emendamento di Meineke ἔξαρχε",
+     "remarque": "Rapporté dans la n. 143 du commentaire, à laquelle renvoie la Nota pour le v. 982 ; adopté par Coulon. M–T impriment Ἔξαιρε δὴ προθύμως (p. 524, PDF 530) et commentent la 2e personne ἔξαιρε, que le chœur s'adresse à lui-même.",
+     "v_edition": "981"
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 104 (PDF 191)",
+     "citation": "981. ἔξαιρε R: ἔξαρχε Meineke",
+     "remarque": "",
+     "v_edition": "981"
+    }
+   ]
+  },
+  {
+   "lecon": "διπλῆν χάριν χορείας (sans virgule)",
+   "lemmes": [
+    "διπλῆν χάριν χορείας"
+   ],
+   "types": [
+    "ponctuation"
+   ],
+   "temoins": [],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86 (PDF 84)",
+     "citation": "Per le ragioni in base alle quali non seguo Prato, che pone una virgola tra διπλῆν e χάριν, si veda Tesmoforiazuse, n. 143.",
+     "remarque": "N. 143 (p. 524-525, PDF 530-531) : διπλῆν, attributif de χάριν, exprime la pleine réciprocité du plaisir des choreutes et des dieux (Thomsen, C&M Diss. IX, 1973, p. 31-34 ; Zimmermann, Untersuchungen 2, p. 195 ; exégèse aussi de Sommerstein, de Furley–Bremer, Greek Hymns I, p. 358-59, II, p. 356-57, et en substance de Bierl, Chor, p. 110 s.) ; parallélisme προθύμως … χαρέντα (979-80) ~ προθύμως … χάριν (981-82). Texte imprimé p. 524 (PDF 530) : Ἔξαιρε δὴ προθύμως / διπλῆν χάριν χορείας, conforme ; traduction : « Esalta ardentemente il doppio piacere della danza »."
+    }
+   ]
+  },
+  {
+   "lecon": "διπλῆν, χάριν χορείας",
+   "lemmes": [
+    "διπλῆν χάριν χορείας"
+   ],
+   "types": [
+    "ponctuation"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Prato": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86 (PDF 84)",
+     "citation": "non seguo Prato, che pone una virgola tra διπλῆν e χάριν",
+     "remarque": "Ponctuation de Prato : selon la n. 143, plusieurs éditeurs (Küster ; Coulon ; Paduano ; Thiercy ; Henderson ; Prato) voient ici la danse appelée διπλῆ (Pollux 4, 105 ; Hésychius δ 1948 Latte), χάριν χορείας étant apposition de διπλῆν ; Lawler (TAPhA 76, 1945, p. 59-66 ; The Dance of the Ancient Greek Theatre, Iowa, 1964, p. 34-35) imagine un « pas double » de deux demi-chœurs."
+    }
+   ]
+  },
+  {
+   "lecon": "χάριν",
+   "lemmes": [
+    "χάριν"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Ellebodius": [
+     "Mastromarco–Totaro 2006",
+     "Wilson 2007"
+    ],
+    "Biset": [
+     "Velsen 1883"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Velsen 1883",
+    "Wilson 2007"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006",
+    "Velsen 1883",
+    "Wilson 2007"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 524 (PDF 530), n. 143",
+     "citation": "l'espressione χάριν (correzione, risalente all'Ellebodius, del tràdito χαίρειν) χορείας",
+     "remarque": "Rapporté dans la n. 143 du commentaire."
+    },
+    {
+     "edition": "Velsen 1883",
+     "page": "p. 70 (PDF 75)",
+     "citation": "v. 982 χάριν Bisetus.",
+     "remarque": "Adnotatio critica ; R : διπλὴν χαίρειν, G : δὲ πλὴν χαίρειν."
+    },
+    {
+     "edition": "Wilson 2007",
+     "page": "p. 113 (PDF 115)",
+     "citation": "χάριν Ellebodius: χαίρειν R: χαρᾷ Sommerstein, recepto πόδας",
+     "remarque": "διπλῆν χάριν χορείας."
+    }
+   ],
+   "conflit_attribution": true
+  },
+  {
+   "lecon": "χαίρειν",
+   "lemmes": [
+    "χάριν"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Wilson 2007"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 524 (PDF 530), n. 143",
+     "citation": "l'espressione χάριν (correzione, risalente all'Ellebodius, del tràdito χαίρειν) χορείας",
+     "remarque": "« tràdito » (n. 143)."
+    },
+    {
+     "edition": "Wilson 2007",
+     "page": "p. 113 (PDF 115)",
+     "citation": "χάριν Ellebodius: χαίρειν R: χαρᾷ Sommerstein, recepto πόδας",
+     "remarque": ""
+    }
+   ]
+  },
+  {
+   "lecon": "πόδας",
+   "lemmes": [
+    "διπλῆν"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Bierl": [
+     "Mastromarco–Totaro 2006"
+    ],
+    "Biset": [
+     "Wilson 2007"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Wilson 2007"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 525 (PDF 531), n. 143",
+     "citation": "ma nel libro la congettura πόδας, proposta con una certa enfasi in «Drama» 7, 1998, pp. 27-47, è appena accennata",
+     "remarque": "Bierl, Drama 7, 1998, p. 27-47 : il doute de l'authenticité de διπλῆν (glose intruse ?) ; dans son livre (Chor, p. 141 n. 90), la conjecture n'est qu'évoquée."
+    },
+    {
+     "edition": "Wilson 2007",
+     "page": "p. 113 (PDF 115)",
+     "citation": "982 διπλῆν] πόδας Biset",
+     "remarque": "ἔξαιρε δὴ προθύμως / διπλῆν χάριν χορείας : Wilson garde διπλῆν (texte de R, implicitement). Sommerstein accepte πόδας (cf. l'entrée suivante)."
+    }
+   ],
+   "conflit_attribution": true
+  },
+  {
    "lecon": "ἔξαιρε",
    "lemmes": [
     "ἔξαιρε"
@@ -180192,34 +181378,6 @@
    "adoptee_par": [
     "Prato 2001"
    ],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 104 (PDF 191)",
-     "citation": "981. ἔξαιρε R: ἔξαρχε Meineke",
-     "remarque": "",
-     "v_edition": "981"
-    }
-   ]
-  },
-  {
-   "lecon": "ἔξαρχε",
-   "lemmes": [
-    "ἔξαιρε"
-   ],
-   "types": [
-    "conjecture"
-   ],
-   "temoins": [],
-   "auteurs": {
-    "Meineke": [
-     "Prato 2001"
-    ]
-   },
-   "editions": [
-    "Prato 2001"
-   ],
-   "adoptee_par": [],
    "sources": [
     {
      "edition": "Prato 2001",
@@ -180296,47 +181454,6 @@
    ]
   },
   {
-   "lecon": "χάριν",
-   "lemmes": [
-    "χάριν"
-   ],
-   "types": [
-    "conjecture"
-   ],
-   "temoins": [],
-   "auteurs": {
-    "Biset": [
-     "Velsen 1883"
-    ],
-    "Ellebodius": [
-     "Wilson 2007"
-    ]
-   },
-   "editions": [
-    "Velsen 1883",
-    "Wilson 2007"
-   ],
-   "adoptee_par": [
-    "Velsen 1883",
-    "Wilson 2007"
-   ],
-   "sources": [
-    {
-     "edition": "Velsen 1883",
-     "page": "p. 70 (PDF 75)",
-     "citation": "v. 982 χάριν Bisetus.",
-     "remarque": "Adnotatio critica ; R : διπλὴν χαίρειν, G : δὲ πλὴν χαίρειν."
-    },
-    {
-     "edition": "Wilson 2007",
-     "page": "p. 113 (PDF 115)",
-     "citation": "χάριν Ellebodius: χαίρειν R: χαρᾷ Sommerstein, recepto πόδας",
-     "remarque": "διπλῆν χάριν χορείας."
-    }
-   ],
-   "conflit_attribution": true
-  },
-  {
    "lecon": "ἐξαιρε",
    "lemmes": [
     "ἔξαιρε"
@@ -180383,58 +181500,6 @@
      "edition": "Velsen 1883",
      "page": "p. 70 (PDF 75)",
      "citation": "v. 982 διπλῆν χάριν] διπλὴν χαίρειν R δὲ πλὴν χαίρειν G",
-     "remarque": ""
-    }
-   ]
-  },
-  {
-   "lecon": "πόδας",
-   "lemmes": [
-    "διπλῆν"
-   ],
-   "types": [
-    "conjecture"
-   ],
-   "temoins": [],
-   "auteurs": {
-    "Biset": [
-     "Wilson 2007"
-    ]
-   },
-   "editions": [
-    "Wilson 2007"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Wilson 2007",
-     "page": "p. 113 (PDF 115)",
-     "citation": "982 διπλῆν] πόδας Biset",
-     "remarque": "ἔξαιρε δὴ προθύμως / διπλῆν χάριν χορείας : Wilson garde διπλῆν (texte de R, implicitement). Sommerstein accepte πόδας (cf. l'entrée suivante)."
-    }
-   ]
-  },
-  {
-   "lecon": "χαίρειν",
-   "lemmes": [
-    "χάριν"
-   ],
-   "types": [
-    "R"
-   ],
-   "temoins": [
-    "R"
-   ],
-   "auteurs": {},
-   "editions": [
-    "Wilson 2007"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Wilson 2007",
-     "page": "p. 113 (PDF 115)",
-     "citation": "χάριν Ellebodius: χαίρειν R: χαρᾷ Sommerstein, recepto πόδας",
      "remarque": ""
     }
    ]
@@ -182061,6 +183126,7 @@
    "lecon": "Εὔιον, ὦ Διόνυσε",
    "lemmes": [
     "Εὐοῖ ὦ Διόνυσε",
+    "Εὔιε ὦ Διὸς σὺ",
     "Εὔιε, ὦ Διὸς σύ,",
     "Εὔιε, ὦ Διὸς σὺ"
    ],
@@ -182075,6 +183141,7 @@
    "auteurs": {},
    "editions": [
     "Enger 1844",
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Velsen 1883"
    ],
@@ -182085,6 +183152,12 @@
      "page": "pp. 163-164 (PDF 169-170)",
      "citation": "990. sqq. Extremam huius carminis partem antistrophicam esse, patet. Stropha tamen valde est corrupta, ut et sententia et numeri docent. Ea ita est in libris scripta: Εὔιον, ὦ Διόνυσε / Βρόμιε, καὶ Σεμέλας παῖ, / χοροῖς τερπόμενος κατ' ὄρεα Νυμφᾶν / ἐρατοῖς ἐν ὕμνοις / Εὔιον Εὔιον εὐοῖ ἀναχορεύων.",
      "remarque": "libri = R, Aug., Junt. Texte complet de la strophe dans les manuscrits ; sauts de ligne rendus par « / »."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86 (PDF 84)",
+     "citation": "al testo di R Εὔιον ὦ Διόνυσε",
+     "remarque": ""
     },
     {
      "edition": "Prato 2001",
@@ -182101,9 +183174,48 @@
    ]
   },
   {
+   "lecon": "Εὔιε ὦ Διὸς σὺ",
+   "lemmes": [
+    "Εὐοῖ ὦ Διόνυσε",
+    "Εὔιε ὦ Διὸς σὺ"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Enger": [
+     "Mastromarco–Totaro 2006",
+     "Prato 2001"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86 (PDF 84)",
+     "citation": "Perfetta responsione con il v. 995 dell'antistrofe … è conseguita mediante la correzione di Enger Εὔιε ὦ Διὸς σὺ",
+     "remarque": "Responsion parfaite avec le v. 995 (ἀμφὶ δὲ σοὶ κτυπεῖται, aristophanien) ; plus convaincante aussi pour le sens : Du-Stil des épiclèses, parallèle à ἀμφὶ δὲ σοί de l'antistrophe (Zimmermann, Untersuchungen 2, p. 198-99), et généalogie complète du dieu, « fils de Zeus et de Sémélé » (Iliade 14, 325 ; Hymnes homériques [1] 4, [7] 57, [26] 2 ; Alcée, fr. 346, 3 V. ; Euripide, Bacchantes 1-3 ; Thomsen, C&M Diss. IX, 1973, p. 38-39, qui relève Εὔιε en tête d'une invocation à Dionysos chez Ecphantide, fr. 4, cité par Cratinos, fr. *361, 1). Pour Εὔιος, nom cultuel de Dionysos : v. 993b ; Euripide, Bacchantes 566, 579. Correction aussi acceptée par Furley–Bremer (Greek Hymns II, p. 358). L'OCR lit « Eire ὦ Διὸς σὺ ». Texte imprimé p. 524 (PDF 530) : Εὔιε ὦ Διὸς σὺ, conforme."
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 106 (PDF 193)",
+     "citation": "990. Εὐοῖ ὦ Διόνυσε Hermann (1845): Εὔιον ὦ Διόνυσε R Σὺ Διὸς ὦ Διόνυσε Wilamowitz (Gr. Versk., p. 476, adn.) Εὔιε ὦ Διὸς σὺ Enger Εὔιον, ὦ Διός τε Fritzsche, alii alia",
+     "remarque": ""
+    }
+   ]
+  },
+  {
    "lecon": "Εὐοῖ ὦ Διόνυσε",
    "lemmes": [
-    "Εὐοῖ ὦ Διόνυσε"
+    "Εὐοῖ ὦ Διόνυσε",
+    "Εὔιε ὦ Διὸς σὺ"
    ],
    "types": [
     "conjecture"
@@ -182111,16 +183223,24 @@
    "temoins": [],
    "auteurs": {
     "Hermann": [
+     "Mastromarco–Totaro 2006",
      "Prato 2001"
     ]
    },
    "editions": [
+    "Mastromarco–Totaro 2006",
     "Prato 2001"
    ],
    "adoptee_par": [
     "Prato 2001"
    ],
    "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86 (PDF 84)",
+     "citation": "Prato stampa Εὐοῖ ὦ Διόνυσε, emendamento (che configura un ferecrateo) apportato da G. Hermann («Zeitschr. f. AW» 1845, p. 918 […])",
+     "remarque": "Hermann, Zeitschrift für die Altertumswissenschaft 1845, p. 918 (= Opuscula VIII, p. 304) ; donne un phérécratien ; imprimée par Prato."
+    },
     {
      "edition": "Prato 2001",
      "page": "p. 106 (PDF 193)",
@@ -182153,33 +183273,6 @@
      "page": "p. 106 (PDF 193)",
      "citation": "990. Εὐοῖ ὦ Διόνυσε Hermann (1845): Εὔιον ὦ Διόνυσε R Σὺ Διὸς ὦ Διόνυσε Wilamowitz (Gr. Versk., p. 476, adn.) Εὔιε ὦ Διὸς σὺ Enger Εὔιον, ὦ Διός τε Fritzsche, alii alia",
      "remarque": "Griechische Verskunst, p. 476 n."
-    }
-   ]
-  },
-  {
-   "lecon": "Εὔιε ὦ Διὸς σὺ",
-   "lemmes": [
-    "Εὐοῖ ὦ Διόνυσε"
-   ],
-   "types": [
-    "conjecture"
-   ],
-   "temoins": [],
-   "auteurs": {
-    "Enger": [
-     "Prato 2001"
-    ]
-   },
-   "editions": [
-    "Prato 2001"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 106 (PDF 193)",
-     "citation": "990. Εὐοῖ ὦ Διόνυσε Hermann (1845): Εὔιον ὦ Διόνυσε R Σὺ Διὸς ὦ Διόνυσε Wilamowitz (Gr. Versk., p. 476, adn.) Εὔιε ὦ Διὸς σὺ Enger Εὔιον, ὦ Διός τε Fritzsche, alii alia",
-     "remarque": ""
     }
    ]
   },
@@ -190006,6 +191099,149 @@
    ]
   },
   {
+   "lecon": "προσᾴδουσ'",
+   "lemmes": [
+    "προσᾴδουσ' ἀϋτὰς"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Elmsley": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86-87 (PDF 84-85)",
+     "citation": "La combinazione della congettura di Elmsley (προσᾴδουσ') con quella di Burges (ἀϋτὰς) offre una felice soluzione",
+     "remarque": "Émendation de la citation d'Euripide (Andromède, fr. 118 Kn. = 6 J.-vL.), corrompue dans R et dans la scholie ; donne un tétramètre bacchiaque (⏑– – ⏑– – ⏑– – ⏑– –) : Mitsdörffer, Philologus 98, 1954, p. 69-70 ; Zimmermann, Untersuchungen 2, p. 9-10 ; Austin, Dodone 19, 1990, p. 28 ; Parker, Songs, p. 443. Texte imprimé p. 528 (PDF 534) : Κλύεις, ὦ προσᾴδουσ' ἀϋτὰς ἐν ἄντροις;, conforme.",
+     "v_edition": "1018-1019"
+    }
+   ]
+  },
+  {
+   "lecon": "ἀϋτὰς",
+   "lemmes": [
+    "προσᾴδουσ' ἀϋτὰς"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Burges": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86-87 (PDF 84-85)",
+     "citation": "La combinazione della congettura di Elmsley (προσᾴδουσ') con quella di Burges (ἀϋτὰς) offre una felice soluzione",
+     "remarque": "Combinée avec προσᾴδουσ' d'Elmsley (voir l'entrée précédente). L'image porte bien ἀϋτὰς (OCR : « dita »).",
+     "v_edition": "1018-1019"
+    }
+   ]
+  },
+  {
+   "lecon": "προσαιδουσσαι τὰς",
+   "lemmes": [
+    "προσᾴδουσ' ἀϋτὰς"
+   ],
+   "types": [
+    "R",
+    "scholie"
+   ],
+   "temoins": [
+    "R",
+    "Σ"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86 (PDF 84)",
+     "citation": "evidentemente corrotto in R e nello scolio (προσαιδουσσαι τὰς)",
+     "remarque": "Forme donnée sans accents, la même pour R et pour la scholie.",
+     "v_edition": "1018-1019"
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 86 (PDF 84)",
+     "citation": "evidentemente corrotto in R e nello scolio (προσαιδουσσαι τὰς)",
+     "remarque": "",
+     "v_edition": "1018-1019"
+    }
+   ]
+  },
+  {
+   "lecon": "προσᾴδουσ' ἀϋταῖς",
+   "lemmes": [
+    "προσᾴδουσ' ἀϋτὰς"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "simile la soluzione adottata da Sommerstein e da Henderson, προσᾴδουσ' ἀϋταῖς",
+     "remarque": "Solution « semblable » adoptée par Sommerstein et Henderson ; M–T n'en nomment pas l'auteur.",
+     "v_edition": "1018-1019"
+    }
+   ]
+  },
+  {
+   "lecon": "προσᾴδουσα τὰς",
+   "lemmes": [
+    "προσᾴδουσ' ἀϋτὰς"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "Prato, invece, stampa προσᾴδουσα τὰς, dove τὰς presuppone l'ellissi dell'oggetto interno, ἀοιδάς o simili",
+     "remarque": "Leçon imprimée par Prato (τάς suppose l'ellipse de l'objet interne, ἀοιδάς ou semblable) ; M–T n'en nomment pas l'auteur.",
+     "v_edition": "1018-1019"
+    }
+   ]
+  },
+  {
    "lecon": "προσᾴδουσα",
    "lemmes": [
     "προσᾴδουσα"
@@ -191331,6 +192567,90 @@
      "page": "p. 170 (PDF 176)",
      "citation": "Numeros qui in vulgata scriptura nulli sunt, ita correxit Dindorfius, ut ab initio trochaicum numerum restitueret / ὅδε γὰρ ὁ Σκύθης πάλαι φύλαξ ἐφέστηκ', / ὀλοὸν, ἄφιλον ἐκρέμασεν κόραξι δεῖπνον· / qui numeri improbabiles sunt et oratio vitiosa.",
      "remarque": "Restitution trochaïque de Dindorf (πάλαι transposé, ἐκρέμασεν), jugée par Enger improbable pour le mètre et fautive pour la syntaxe.",
+     "v_edition": "1026-1028"
+    }
+   ]
+  },
+  {
+   "lecon": "ὅδε γὰρ ὁ Σκύθης πάλαι ⟨δὴ⟩ φύλαξ / ἐφέστηκε κὠλοὸν ἄφιλον ἐκρέμα- / σέ ⟨με⟩ κόραξι δεῖπνον",
+   "lemmes": [
+    "ὅδε γὰρ ὁ Σκύθης … κόραξι δεῖπνον"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Austin": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "Seguo il testo e l'interpretazione metrica (2 do / 2 do / ith) proposti ora da C. Austin, «QUCC» 101, 2002, p. 75",
+     "remarque": "Austin, QUCC 101, 2002, p. 75 ; colométrie 2 do / 2 do / ith. La Nota ne transcrit pas ce texte : la leçon est relevée sur le texte imprimé p. 530 (PDF 536). Par rapport au texte de Prato cité dans la Nota : πάλαι passe dans le premier côlon avec ⟨δή⟩ ajouté, καί en crase (κὠλοόν) supprime l'asyndète de R, ἐφέστηκε non élidé, ⟨με⟩ maintenu.",
+     "v_edition": "1026-1028"
+    }
+   ]
+  },
+  {
+   "lecon": "asyndète (ὀλοόν sans καί)",
+   "lemmes": [
+    "ὅδε γὰρ ὁ Σκύθης … κόραξι δεῖπνον"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "Prato, che conserva l'asindeto presente in R",
+     "remarque": "La Nota ne cite pas autrement le texte de R.",
+     "v_edition": "1026-1028"
+    }
+   ]
+  },
+  {
+   "lecon": "ὅδε γὰρ ὁ Σκύθης φύλαξ / πάλαι ἐφέστηκ' ὀλοὸν ἄφιλον, / ἐκρέμασέ ⟨με⟩ κόραξι δεῖπνον",
+   "lemmes": [
+    "ὅδε γὰρ ὁ Σκύθης … κόραξι δεῖπνον"
+   ],
+   "types": [
+    "note"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Prato": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "stampa: ὅδε γὰρ ὁ Σκύθης φύλαξ / πάλαι ἐφέστηκ' ὀλοὸν ἄφιλον, / ἐκρέμασέ ⟨με⟩ κόραξι δεῖπνον (lec / 2 tr / 2 tr)",
+     "remarque": "Texte et colométrie de Prato (lec / 2 tr / 2 tr), qui garde l'asyndète de R.",
      "v_edition": "1026-1028"
     }
    ]
@@ -203092,6 +204412,120 @@
    ]
   },
   {
+   "lecon": "σὶ κακόν",
+   "lemmes": [
+    "σί κακόν; (alterum)",
+    "σί κακόν; (prius)",
+    "σὶ κακόν"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Velsen 1883"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "Al v. 1085 seguo per il tràdito σὶ κακόν la spiegazione dello scolio, σοὶ κακόν",
+     "remarque": "Leçon transmise, entendue avec la scholie comme σοὶ κακόν (cf. Willi, Languages of Aristophanes, p. 214 n. 58). Texte imprimé p. 534 (PDF 540) : ΤΟ. Σὶ κακόν — / ΕΥ. Σὶ κακόν —, conforme (tiret, sans point d'interrogation)."
+    },
+    {
+     "edition": "Velsen 1883",
+     "page": "p. 77 (PDF 82)",
+     "citation": "σί κακόν; prius] σὶ κακόν· R σί κακόν G",
+     "remarque": ""
+    },
+    {
+     "edition": "Velsen 1883",
+     "page": "p. 77 (PDF 82)",
+     "citation": "σί κακόν;] σὶ κακόν· R σὶ κακὸν G",
+     "remarque": "Seconde réplique."
+    }
+   ]
+  },
+  {
+   "lecon": "σοὶ κακόν",
+   "lemmes": [
+    "σὶ κακόν"
+   ],
+   "types": [
+    "scholie"
+   ],
+   "temoins": [
+    "Σ"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "Al v. 1085 seguo per il tràdito σὶ κακόν la spiegazione dello scolio, σοὶ κακόν",
+     "remarque": "Explication de la scholie, suivie pour le sens ; le texte de M–T garde σὶ κακόν."
+    }
+   ]
+  },
+  {
+   "lecon": "σί κακόν;",
+   "lemmes": [
+    "σί κακόν;",
+    "σί κακόν; (prius)",
+    "σὶ κακόν"
+   ],
+   "types": [
+    "manuscrit",
+    "ponctuation",
+    "scholie"
+   ],
+   "temoins": [
+    "M",
+    "Σ"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001",
+    "Velsen 1883"
+   ],
+   "adoptee_par": [
+    "Prato 2001",
+    "Velsen 1883"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "Prato stampa σί κακόν;",
+     "remarque": "Texte imprimé par Prato : σί (accent aigu) suivi d'un point d'interrogation ; M–T n'en nomment pas l'auteur."
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 116 (PDF 203)",
+     "citation": "1085. σί κακόν; bis RΣ: τί κακόν; bis Coulon",
+     "remarque": ""
+    },
+    {
+     "edition": "Velsen 1883",
+     "page": "p. 77 (PDF 82)",
+     "citation": "σί κακόν; prius] σὶ κακόν· R σί κακόν G",
+     "remarque": ""
+    }
+   ]
+  },
+  {
    "lecon": "σί κακόν; (bis)",
    "lemmes": [
     "σί κακόν;"
@@ -203114,44 +204548,6 @@
      "edition": "Prato 2001",
      "page": "p. 116 (PDF 203)",
      "citation": "1085. σί κακόν; bis RΣ: τί κακόν; bis Coulon",
-     "remarque": ""
-    }
-   ]
-  },
-  {
-   "lecon": "σί κακόν;",
-   "lemmes": [
-    "σί κακόν;",
-    "σί κακόν; (prius)"
-   ],
-   "types": [
-    "manuscrit",
-    "scholie"
-   ],
-   "temoins": [
-    "M",
-    "Σ"
-   ],
-   "auteurs": {},
-   "editions": [
-    "Prato 2001",
-    "Velsen 1883"
-   ],
-   "adoptee_par": [
-    "Prato 2001",
-    "Velsen 1883"
-   ],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 116 (PDF 203)",
-     "citation": "1085. σί κακόν; bis RΣ: τί κακόν; bis Coulon",
-     "remarque": ""
-    },
-    {
-     "edition": "Velsen 1883",
-     "page": "p. 77 (PDF 82)",
-     "citation": "σί κακόν; prius] σὶ κακόν· R σί κακόν G",
      "remarque": ""
     }
    ]
@@ -203239,38 +204635,6 @@
      "page": "p. 77 (PDF 82)",
      "citation": "v. 1085 ΤΟΞ.] — R σκυ^θ G",
      "remarque": "θ suscrit."
-    }
-   ]
-  },
-  {
-   "lecon": "σὶ κακόν·",
-   "lemmes": [
-    "σί κακόν; (alterum)",
-    "σί κακόν; (prius)"
-   ],
-   "types": [
-    "R"
-   ],
-   "temoins": [
-    "R"
-   ],
-   "auteurs": {},
-   "editions": [
-    "Velsen 1883"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Velsen 1883",
-     "page": "p. 77 (PDF 82)",
-     "citation": "σί κακόν; prius] σὶ κακόν· R σί κακόν G",
-     "remarque": ""
-    },
-    {
-     "edition": "Velsen 1883",
-     "page": "p. 77 (PDF 82)",
-     "citation": "σί κακόν;] σὶ κακόν· R σὶ κακὸν G",
-     "remarque": "Seconde réplique."
     }
    ]
   },
@@ -203953,9 +205317,11 @@
   {
    "lecon": "σί",
    "lemmes": [
-    "σύ"
+    "σύ",
+    "σὺ"
    ],
    "types": [
+    "conjecture",
     "imprime"
    ],
    "temoins": [
@@ -203967,7 +205333,8 @@
     ]
    },
    "editions": [
-    "Enger 1844"
+    "Enger 1844",
+    "Mastromarco–Totaro 2006"
    ],
    "adoptee_par": [],
    "sources": [
@@ -203976,6 +205343,12 @@
      "page": "p. 181 (PDF 187)",
      "citation": "quod in σί mutatum in editionibus quibusdam ante Brunckium, qui recte librorum scripturam restituit, non obsequente tamen Bothio.",
      "remarque": "σί dans quelques éditions antérieures à Brunck, maintenu par Bothe ; Brunck a rétabli σύ des manuscrits."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "Al v. 1087, in luogo di σί (Prato), stampo il tràdito σὺ.",
+     "remarque": "Leçon imprimée par Prato ; M–T n'en nomment pas l'auteur."
     }
    ]
   },
@@ -204251,6 +205624,33 @@
      "citation": "κλαύσει Brunckius, sed scriptura codicum et scholium magis ad κλαύσαιν i. e. κλαύσαις ἄν ducere videntur.",
      "remarque": "Adnotatio critica, rangée sous « v. 1087 » : Velsen imprime les vv. 1087–1088 sur une seule ligne (numérotation traditionnelle : κλαύσει au v. 1088). RG κλαύσαιμι.",
      "v_edition": "1088"
+    }
+   ]
+  },
+  {
+   "lecon": "σὺ",
+   "lemmes": [
+    "σὺ"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "Al v. 1087, in luogo di σί (Prato), stampo il tràdito σὺ.",
+     "remarque": "Texte imprimé p. 534 (PDF 540) : ΤΟ. Σὺ λαλεῖς; / ΕΥ. Σὺ λαλεῖς;, conforme."
     }
    ]
   },
@@ -211645,9 +213045,89 @@
    ]
   },
   {
+   "lecon": "σῦκο",
+   "lemmes": [
+    "κύστο",
+    "σῦκο"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Sommerstein": [
+     "Mastromarco–Totaro 2006",
+     "Prato 2001",
+     "Wilson 2007"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001",
+    "Wilson 2007"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "La congettura di Sommerstein, σῦκο, si fonda sulla connessione metaforica, ben attestata in greco, tra … l'albero di fico … e i genitali",
+     "remarque": "Sur la métaphore : Buchheit, RhM 103, 1960, p. 200-29 ; Henderson, Maculate Muse, p. 117-18, 135 ; Olson, Aristophanes. Peace, Oxford, 1998 [Addenda, 2003], p. 318 ; pour ἰσχάς : Pellegrino, Utopie, p. 218, et Olson, Aristophanes. Acharnians, Oxford, 2002, p. 273-74 ; pour συκίς (Ach. 996) : Olson. Selon Sommerstein (p. 230), le Scythe commet une savoureuse faute de genre : le neutre σῦκον (« fica », cf. Paix 1352) au lieu de συκῆ (Assemblée des femmes 707-9 : δίφορος συκῆ = sexe masculin ; Vetta – Del Corno, Le Donne all'assemblea, Milan, 1989, p. 212). Même type de faute : Antiphane, fr. 120, 4, cité par Athénée 13, 565f, où le Marcianus (A) a σκυτινων (συκίνων en 3, 98f). L'OCR donne « pp. 200-209 » et « 3, 988 » : l'image porte p. 200-29 et 3, 98f. Texte imprimé p. 538 (PDF 546) : ΤΟ. Σκέψαι τὸ σῦκο· μή τι μικκὸν παίνεται;, conforme."
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 120 (PDF 207)",
+     "citation": "1114. κύστο Scaliger: σκυτο R σῦκο Sommerstein",
+     "remarque": ""
+    },
+    {
+     "edition": "Wilson 2007",
+     "page": "p. 119 (PDF 121)",
+     "citation": "1114 κύστο Scaliger: σκύτο R: σῦκο Sommerstein",
+     "remarque": ""
+    }
+   ]
+  },
+  {
+   "lecon": "σκυτο",
+   "lemmes": [
+    "κύστο",
+    "σῦκο"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "L'ametrico σκυτο di R fu corretto dallo Scaligero in κύστο (= κύσθος)",
+     "remarque": "Amétrique ; forme donnée sans accent (l'OCR lit « oxvto »)."
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 120 (PDF 207)",
+     "citation": "1114. κύστο Scaliger: σκυτο R σῦκο Sommerstein",
+     "remarque": ""
+    }
+   ]
+  },
+  {
    "lecon": "κύστο",
    "lemmes": [
-    "κύστο"
+    "κύστο",
+    "σῦκο"
    ],
    "types": [
     "conjecture"
@@ -211655,12 +213135,14 @@
    "temoins": [],
    "auteurs": {
     "Scaliger": [
+     "Mastromarco–Totaro 2006",
      "Prato 2001",
      "Velsen 1883",
      "Wilson 2007"
     ]
    },
    "editions": [
+    "Mastromarco–Totaro 2006",
     "Prato 2001",
     "Velsen 1883",
     "Wilson 2007"
@@ -211671,6 +213153,12 @@
     "Wilson 2007"
    ],
    "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "L'ametrico σκυτο di R fu corretto dallo Scaligero in κύστο (= κύσθος), stampato ora anche da Prato e Austin-Olson",
+     "remarque": "Imprimée par Prato et Austin–Olson ; pour le type de faute, cf. PCG V, p. 438, ad Eupolis fr. 247, 4. Objection de M–T : il serait bien étrange que le Scythe désigne le membre du Parent par le mot du sexe féminin (Prato juge la réplique ironique ; Austin–Olson y voient une grossière erreur du personnage)."
+    },
     {
      "edition": "Prato 2001",
      "page": "p. 120 (PDF 207)",
@@ -211688,66 +213176,6 @@
      "page": "p. 119 (PDF 121)",
      "citation": "1114 κύστο Scaliger: σκύτο R: σῦκο Sommerstein",
      "remarque": "Το. σκέψαι τὸ κύστο· μή τι μικρὸν παίνεται;"
-    }
-   ]
-  },
-  {
-   "lecon": "σκυτο",
-   "lemmes": [
-    "κύστο"
-   ],
-   "types": [
-    "R"
-   ],
-   "temoins": [
-    "R"
-   ],
-   "auteurs": {},
-   "editions": [
-    "Prato 2001"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 120 (PDF 207)",
-     "citation": "1114. κύστο Scaliger: σκυτο R σῦκο Sommerstein",
-     "remarque": ""
-    }
-   ]
-  },
-  {
-   "lecon": "σῦκο",
-   "lemmes": [
-    "κύστο"
-   ],
-   "types": [
-    "conjecture"
-   ],
-   "temoins": [],
-   "auteurs": {
-    "Sommerstein": [
-     "Prato 2001",
-     "Wilson 2007"
-    ]
-   },
-   "editions": [
-    "Prato 2001",
-    "Wilson 2007"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 120 (PDF 207)",
-     "citation": "1114. κύστο Scaliger: σκυτο R σῦκο Sommerstein",
-     "remarque": ""
-    },
-    {
-     "edition": "Wilson 2007",
-     "page": "p. 119 (PDF 121)",
-     "citation": "1114 κύστο Scaliger: σκύτο R: σῦκο Sommerstein",
-     "remarque": ""
     }
    ]
   },
@@ -219921,6 +221349,60 @@
      "citation": "ὄργια σεμνὰ θεαῖν· | ἵνα λαμπάσι φαί- | νετον ἄμβροτον ὄψιν.",
      "remarque": "Les libri ponctuent fort après θεαῖν (Enger : virgule) et coupent en trois lignes (Enger : deux).",
      "v_edition": "1152-1154"
+    }
+   ]
+  }
+ ],
+ "1154": [
+  {
+   "lecon": "φαίνετον ἄμβροτον ὄψιν (sans virgule)",
+   "lemmes": [
+    "φαίνετον ἄμβροτον ὄψιν"
+   ],
+   "types": [
+    "ponctuation"
+   ],
+   "temoins": [],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "Per le ragioni in base alle quali non seguo Prato, che pone una virgola dopo φαίνετον, si veda Tesmoforiazuse, n. 168.",
+     "remarque": "N. 168 (p. 542, PDF 550) : ἄμβροτον ὄψιν n'est pas une apposition à la pensée précédente (cf. Prato, p. 331) mais l'objet direct de φαίνετον : épiphanie des deux déesses, Déméter et Perséphone, dans les ὄργια σεμνά réservés aux femmes (cf. Austin ap. Parker, Songs, p. 450, et Furley–Bremer, Greek Hymns II, p. 363) ; pour l'itération οὗ … ἵνα dans un chant liturgique, cf. Nuées 302-4. Texte imprimé p. 542 (PDF 550) : φαίνετον ἄμβροτον ὄψιν., conforme."
+    }
+   ]
+  },
+  {
+   "lecon": "φαίνετον, ἄμβροτον ὄψιν",
+   "lemmes": [
+    "φαίνετον ἄμβροτον ὄψιν"
+   ],
+   "types": [
+    "ponctuation"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Prato": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 87 (PDF 85)",
+     "citation": "non seguo Prato, che pone una virgola dopo φαίνετον",
+     "remarque": "Chez Prato, ἄμβροτον ὄψιν est apposition à la pensée précédente (n. 168, renvoyant à Prato, p. 331)."
     }
    ]
   }
@@ -233743,18 +235225,22 @@
   {
    "lecon": "ἔπειτα κομίζεις αὐτοῖς",
    "lemmes": [
+    "κομίσις",
     "ἔπειτα κόμισί σ' αὐτός"
    ],
    "types": [
+    "R",
     "manuscrit"
    ],
    "temoins": [
     "Junt.",
-    "M"
+    "M",
+    "R"
    ],
    "auteurs": {},
    "editions": [
-    "Enger 1844"
+    "Enger 1844",
+    "Mastromarco–Totaro 2006"
    ],
    "adoptee_par": [],
    "sources": [
@@ -233763,6 +235249,12 @@
      "page": "p. 199 (PDF 205)",
      "citation": "1198. Libri praebent ἔπειτα κομίζεις αὐτοῖς (αυτοις R.) eaque verba Euripidi tribuunt.",
      "remarque": "Texte de base des libri (R étant signalé à part)."
+    },
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "Il testo del Ravennate, ἔπειτα κομίζεις αὐτοῖς, è stato variamente corretto e interpretato",
+     "remarque": "Leçon de R pour l'ensemble du segment (voir aussi l'entrée αὖτις)."
     }
    ]
   },
@@ -234197,9 +235689,39 @@
    ]
   },
   {
+   "lecon": "κομίσις",
+   "lemmes": [
+    "κομίσις"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Sommerstein": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "perciò adotto κομίσις, proposto da Sommerstein in apparato (p. 155) e accolto nel testo da Henderson",
+     "remarque": "L'Archer rappelle à Euripide-entremetteuse de lui rapporter le carquois, laissé en gage (cf. n. 178, p. 548, PDF 556 : « v. 1198 'poi tu riportare' »). Austin–Olson, p. 345, présentent un large éventail de propositions. Texte imprimé p. 546 (PDF 554) : Ἔπειτα κομίσις αὖτις. Ἀκολούτει, τέκνον., conforme."
+    }
+   ]
+  },
+  {
    "lecon": "κομίσι σ'",
    "lemmes": [
-    "κομίσι σ'"
+    "κομίσι σ'",
+    "κομίσις"
    ],
    "types": [
     "conjecture"
@@ -234207,10 +235729,12 @@
    "temoins": [],
    "auteurs": {
     "Enger": [
+     "Mastromarco–Totaro 2006",
      "Prato 2001"
     ]
    },
    "editions": [
+    "Mastromarco–Totaro 2006",
     "Prato 2001"
    ],
    "adoptee_par": [
@@ -234218,10 +235742,177 @@
    ],
    "sources": [
     {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "Prato stampa ἔπειτα κομίσι σ' (Enger) αὖτις (Anonymus Parisinus), che Del Corno traduce «poi porto dopo»",
+     "remarque": "Imprimée par Prato ; traduction de Del Corno : « poi porto dopo »."
+    },
+    {
      "edition": "Prato 2001",
      "page": "p. 130 (PDF 217)",
      "citation": "1198. κομίσι σ' Enger: κομίζεις R κομιεῖς Biset κομίσεις ueteres teste Scaligero, postea Daubuz, alii aliter",
      "remarque": ""
+    }
+   ]
+  },
+  {
+   "lecon": "κομίζις",
+   "lemmes": [
+    "κομίσις",
+    "κομιεῖς"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Dobree": [
+     "Mastromarco–Totaro 2006",
+     "Wilson 2007"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Wilson 2007"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "una proposta simile era stata peraltro già avanzata da Dobree (Adversaria, cit., II p. 242): «Vel κομίζις. Et posthac mihi reddes pharetram, cum argentum persolvero»",
+     "remarque": "Dobree, Adversaria II, p. 242 ; proposition « semblable » à celle de Sommerstein (l'OCR lit « xopitic » ; l'image porte κομίζις)."
+    },
+    {
+     "edition": "Wilson 2007",
+     "page": "p. 123 (PDF 125)",
+     "citation": "1198 κομιεῖς Biset: κομίζεις R: κομίζις Dobree (Scythae continuatum)",
+     "remarque": "Forme « scythe » ; Dobree laisse ces mots au Scythe (entrée suivante)."
+    }
+   ]
+  },
+  {
+   "lecon": "αὖτις",
+   "lemmes": [
+    "αὖθις",
+    "αὖτις"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Anonymus Parisinus": [
+     "Mastromarco–Totaro 2006"
+    ],
+    "anon. Parisinus": [
+     "Prato 2001"
+    ],
+    "Dobree": [
+     "Wilson 2007"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001",
+    "Wilson 2007"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "Prato stampa ἔπειτα κομίσι σ' (Enger) αὖτις (Anonymus Parisinus)",
+     "remarque": "Leçon de Prato que M–T ne discutent pas mais conservent : texte imprimé p. 546 (PDF 554) : κομίσις αὖτις."
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 130 (PDF 217)",
+     "citation": "αὖτις Anon. Paris. ap. Rapheleng: αὐτοῖς R αὐτό Biset αὐτόσ' uel αὐτός Bentley σ' αὐτός Enger, alii alia",
+     "remarque": ""
+    },
+    {
+     "edition": "Wilson 2007",
+     "page": "p. 123 (PDF 125)",
+     "citation": "αὖθις Faber: αὐτοῖς R: αὖτις Dobree",
+     "remarque": "Forme « scythe », dans la ligne de l'attribution au Scythe."
+    }
+   ],
+   "conflit_attribution": true
+  },
+  {
+   "lecon": "αὐτοῖς",
+   "lemmes": [
+    "αὖθις",
+    "αὖτις"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "M",
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001",
+    "Velsen 1883",
+    "Wilson 2007"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "Il testo del Ravennate, ἔπειτα κομίζεις αὐτοῖς",
+     "remarque": ""
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 130 (PDF 217)",
+     "citation": "αὖτις Anon. Paris. ap. Rapheleng: αὐτοῖς R αὐτό Biset αὐτόσ' uel αὐτός Bentley σ' αὐτός Enger, alii alia",
+     "remarque": ""
+    },
+    {
+     "edition": "Velsen 1883",
+     "page": "p. 86 (PDF 91)",
+     "citation": "αὖθις] αὐτοῖς RG",
+     "remarque": ""
+    },
+    {
+     "edition": "Wilson 2007",
+     "page": "p. 123 (PDF 125)",
+     "citation": "αὖθις Faber: αὐτοῖς R: αὖτις Dobree",
+     "remarque": ""
+    }
+   ]
+  },
+  {
+   "lecon": "au Scythe (ΤΟ.)",
+   "lemmes": [
+    "ἔπειτα κομίσις αὖτις. ἀκολούτει, τέκνον."
+   ],
+   "types": [
+    "attribution"
+   ],
+   "temoins": [],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "Mi trovo d'accordo con Prato nell'attribuire la battuta allo Scita",
+     "remarque": "Comme Prato ; M–T ne nomment pas l'auteur de cette attribution. Texte imprimé p. 546 (PDF 554) : la réplique du Toxote (ΤΟ.) court des vv. 1197 à 1199, conforme."
     }
    ]
   },
@@ -234350,88 +236041,6 @@
      "page": "p. 130 (PDF 217)",
      "citation": "1198. κομίσι σ' Enger: κομίζεις R κομιεῖς Biset κομίσεις ueteres teste Scaligero, postea Daubuz, alii aliter",
      "remarque": "Puis Daubuz ; « alii aliter »."
-    }
-   ]
-  },
-  {
-   "lecon": "αὖτις",
-   "lemmes": [
-    "αὖθις",
-    "αὖτις"
-   ],
-   "types": [
-    "conjecture"
-   ],
-   "temoins": [],
-   "auteurs": {
-    "anon. Parisinus": [
-     "Prato 2001"
-    ],
-    "Dobree": [
-     "Wilson 2007"
-    ]
-   },
-   "editions": [
-    "Prato 2001",
-    "Wilson 2007"
-   ],
-   "adoptee_par": [
-    "Prato 2001"
-   ],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 130 (PDF 217)",
-     "citation": "αὖτις Anon. Paris. ap. Rapheleng: αὐτοῖς R αὐτό Biset αὐτόσ' uel αὐτός Bentley σ' αὐτός Enger, alii alia",
-     "remarque": ""
-    },
-    {
-     "edition": "Wilson 2007",
-     "page": "p. 123 (PDF 125)",
-     "citation": "αὖθις Faber: αὐτοῖς R: αὖτις Dobree",
-     "remarque": "Forme « scythe », dans la ligne de l'attribution au Scythe."
-    }
-   ],
-   "conflit_attribution": true
-  },
-  {
-   "lecon": "αὐτοῖς",
-   "lemmes": [
-    "αὖθις",
-    "αὖτις"
-   ],
-   "types": [
-    "R"
-   ],
-   "temoins": [
-    "M",
-    "R"
-   ],
-   "auteurs": {},
-   "editions": [
-    "Prato 2001",
-    "Velsen 1883",
-    "Wilson 2007"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 130 (PDF 217)",
-     "citation": "αὖτις Anon. Paris. ap. Rapheleng: αὐτοῖς R αὐτό Biset αὐτόσ' uel αὐτός Bentley σ' αὐτός Enger, alii alia",
-     "remarque": ""
-    },
-    {
-     "edition": "Velsen 1883",
-     "page": "p. 86 (PDF 91)",
-     "citation": "αὖθις] αὐτοῖς RG",
-     "remarque": ""
-    },
-    {
-     "edition": "Wilson 2007",
-     "page": "p. 123 (PDF 125)",
-     "citation": "αὖθις Faber: αὐτοῖς R: αὖτις Dobree",
-     "remarque": ""
     }
    ]
   },
@@ -234682,33 +236291,6 @@
      "page": "p. 86 (PDF 91)",
      "citation": "ΤΟΞ.] : R — G",
      "remarque": "R marque le changement d'interlocuteur par deux points."
-    }
-   ]
-  },
-  {
-   "lecon": "κομίζις",
-   "lemmes": [
-    "κομιεῖς"
-   ],
-   "types": [
-    "conjecture"
-   ],
-   "temoins": [],
-   "auteurs": {
-    "Dobree": [
-     "Wilson 2007"
-    ]
-   },
-   "editions": [
-    "Wilson 2007"
-   ],
-   "adoptee_par": [],
-   "sources": [
-    {
-     "edition": "Wilson 2007",
-     "page": "p. 123 (PDF 125)",
-     "citation": "1198 κομιεῖς Biset: κομίζεις R: κομίζις Dobree (Scythae continuatum)",
-     "remarque": "Forme « scythe » ; Dobree laisse ces mots au Scythe (entrée suivante)."
     }
    ]
   },
@@ -235913,38 +237495,10 @@
    ]
   },
   {
-   "lecon": "λαβόν",
-   "lemmes": [
-    "λαβόν"
-   ],
-   "types": [
-    "conjecture"
-   ],
-   "temoins": [],
-   "auteurs": {
-    "Prato": [
-     "Prato 2001"
-    ]
-   },
-   "editions": [
-    "Prato 2001"
-   ],
-   "adoptee_par": [
-    "Prato 2001"
-   ],
-   "sources": [
-    {
-     "edition": "Prato 2001",
-     "page": "p. 130 (PDF 217)",
-     "citation": "1203. λαβόν Prato: λαβών R",
-     "remarque": ""
-    }
-   ]
-  },
-  {
    "lecon": "λαβών",
    "lemmes": [
-    "λαβόν"
+    "λαβόν",
+    "λαβών"
    ],
    "types": [
     "R"
@@ -235954,10 +237508,60 @@
    ],
    "auteurs": {},
    "editions": [
+    "Mastromarco–Totaro 2006",
     "Prato 2001"
    ],
-   "adoptee_par": [],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
    "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "si oppone la forma maschile λαβών tràdita dal Ravennate al v. 1203, dove questo personaggio è direttamente apostrofato",
+     "remarque": "Le masculin s'oppose à l'opinion du scholiaste (Térédon aulétride) : Térédon, apostrophé (παιδάριον), reçoit d'Euripide, au moment de la fuite, des objets, vraisemblablement la harpe et le carquois. Texte imprimé p. 546 (PDF 554) : Σὺ μὲν οὖν ἀπότρεχε, παιδάριον, ταυτὶ λαβών·, conforme."
+    },
+    {
+     "edition": "Prato 2001",
+     "page": "p. 130 (PDF 217)",
+     "citation": "1203. λαβόν Prato: λαβών R",
+     "remarque": ""
+    }
+   ]
+  },
+  {
+   "lecon": "λαβόν",
+   "lemmes": [
+    "λαβόν",
+    "λαβών"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Kunst": [
+     "Mastromarco–Totaro 2006"
+    ],
+    "Prato": [
+     "Mastromarco–Totaro 2006",
+     "Prato 2001"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006",
+    "Prato 2001"
+   ],
+   "adoptee_par": [
+    "Prato 2001"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "Prato corregge in λαβόν, concordato con παιδάριον, come peraltro già suggeriva K. Kunst",
+     "remarque": "Kunst, Studien zur griechisch-römischen Komödie, Vienne-Leipzig, 1919, p. 49 ; correction de Prato « per salvare l'identità femminile » de Térédon."
+    },
     {
      "edition": "Prato 2001",
      "page": "p. 130 (PDF 217)",
@@ -235983,17 +237587,52 @@
     ]
    },
    "editions": [
+    "Mastromarco–Totaro 2006",
     "Wilson 2007"
    ],
    "adoptee_par": [
+    "Mastromarco–Totaro 2006",
     "Wilson 2007"
    ],
    "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "il pronome plurale ταυτὶ, presupposto dallo scolio ad loc., è stato opportunamente adottato da numerosi studiosi",
+     "remarque": "Adopté par de nombreux savants (« ad es. » Blaydes, p. 122 ; Sommerstein, p. 236) ; M–T ne nomment pas l'auteur de la correction. Texte imprimé p. 546 (PDF 554) : ταυτὶ λαβών, conforme (la Nota ne dit pas expressément « stampo »)."
+    },
     {
      "edition": "Wilson 2007",
      "page": "p. 123 (PDF 125)",
      "citation": "1203 ταυτὶ Dobree, cf. sch.: τουτὶ R",
      "remarque": "Ευ. σὺ μὲν οὖν ἀπότρεχε, παιδάριον, ταυτὶ λαβών· Wilson renvoie aux scholies (cf. sch.) à l'appui."
+    }
+   ]
+  },
+  {
+   "lecon": "ταυτὶ (pluriel présupposé)",
+   "lemmes": [
+    "ταυτὶ"
+   ],
+   "types": [
+    "scholie"
+   ],
+   "temoins": [
+    "Σ"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "il pronome plurale ταυτὶ, presupposto dallo scolio ad loc.",
+     "remarque": "M–T ne citent pas le texte de la scholie."
     }
    ]
   },
@@ -236010,15 +237649,99 @@
    ],
    "auteurs": {},
    "editions": [
+    "Mastromarco–Totaro 2006",
     "Wilson 2007"
    ],
    "adoptee_par": [],
    "sources": [
     {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "in luogo del singolare τουτὶ, tràdito da R e conservato da Prato",
+     "remarque": "Leçon de R, conservée par Prato."
+    },
+    {
      "edition": "Wilson 2007",
      "page": "p. 123 (PDF 125)",
      "citation": "1203 ταυτὶ Dobree, cf. sch.: τουτὶ R",
      "remarque": ""
+    }
+   ]
+  },
+  {
+   "lecon": "Térédon est une aulétride (joueuse d'aulos)",
+   "lemmes": [
+    "παιδάριον (Τερηδών)"
+   ],
+   "types": [
+    "scholie"
+   ],
+   "temoins": [
+    "Σ"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "Alla opinione dello scoliasta che Teredone («tarma») sia una auletride si oppone la forma maschile λαβών",
+     "remarque": "Opinion du scholiaste, rejetée par M–T à cause de λαβών (R) ; Prato la sauve en corrigeant en λαβόν."
+    }
+   ]
+  },
+  {
+   "lecon": "Térédon, garçon muet qui mime le jeu de l'aulos",
+   "lemmes": [
+    "παιδάριον (Τερηδών)"
+   ],
+   "types": [
+    "note"
+   ],
+   "temoins": [],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "alla mezzana-Euripide si accompagnino, come mutae personae, una ballerina (Elafione) ed un ragazzo che mimerà di suonare l'aulo",
+     "remarque": "Solution adoptée aussi par Sommerstein et Henderson : deux personnages muets accompagnent Euripide-entremetteuse, une danseuse (Élaphion) et un garçon qui mime l'aulos, réellement joué par l'aulète officiel du théâtre."
+    }
+   ]
+  },
+  {
+   "lecon": "Térédon identifié avec l'aulète officiel du théâtre",
+   "lemmes": [
+    "παιδάριον (Τερηδών)"
+   ],
+   "types": [
+    "note"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Rogers": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "a meno che non si voglia identificare Teredone proprio con quest'ultimo, come voleva Rogers",
+     "remarque": "Possibilité jugée « estremamente incerta » par Taplin, Comic Angels, p. 107-8."
     }
    ]
   }
@@ -239340,6 +241063,87 @@
      "page": "p. 203 (PDF 209)",
      "citation": "De sententia Brunckius: Pharetram, quam συβίνην appellat Scytha, ἐπώνυμον esse, recteque sic appellari dicit, vel quia hoc pignore dato meretriculam ἐβίνησε, vel potius quia ipse quodammodo καταβεβίνηται. Hoc extremum verum. Est nostrum niederbohren.",
      "remarque": "Fin de la note 1215 (commencée p. 202). Explication du jeu de mots σιβύνη / βινεῖν d'après Brunck (citation imprimée en espacé) ; Enger retient la seconde explication (καταβεβίνηται) et la rend par l'allemand « niederbohren »."
+    }
+   ]
+  },
+  {
+   "lecon": "συβήνη δ' ἐστί",
+   "lemmes": [
+    "συβήνη δ' ἐστί"
+   ],
+   "types": [
+    "transposition"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Austin": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "Con la semplice trasposizione συβήνη δ' ἐστί, C. Austin («QUCC» 101, 2002, p. 76) ovvia al problema metrico",
+     "remarque": "Austin, QUCC 101, 2002, p. 76 : résout le problème métrique posé par la première syllabe brève de συβήνη et rend inutile l'ajout d'une brève devant le mot. Texte imprimé p. 548 (PDF 556) : Ὀρτῶς συβήνη δ' ἐστί· καταβηνῆσι γάρ., conforme."
+    }
+   ]
+  },
+  {
+   "lecon": "ὀρτῶς δὲ σὺ βήνη 'στι",
+   "lemmes": [
+    "συβήνη δ' ἐστί"
+   ],
+   "types": [
+    "R"
+   ],
+   "temoins": [
+    "R"
+   ],
+   "auteurs": {},
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "R ha ὀρτῶς δὲ σὺ βήνη 'στι.",
+     "remarque": "M–T écrivent σὺ βήνη en deux mots, avec ὀρτῶς et 'στι : c'est toute la séquence de R qu'ils citent."
+    }
+   ]
+  },
+  {
+   "lecon": "⟨σι⟩ (= τι) devant συβήνη",
+   "lemmes": [
+    "συβήνη δ' ἐστί"
+   ],
+   "types": [
+    "conjecture"
+   ],
+   "temoins": [],
+   "auteurs": {
+    "Prato": [
+     "Mastromarco–Totaro 2006"
+    ]
+   },
+   "editions": [
+    "Mastromarco–Totaro 2006"
+   ],
+   "adoptee_par": [],
+   "sources": [
+    {
+     "edition": "Mastromarco–Totaro 2006",
+     "page": "p. 88 (PDF 86)",
+     "citation": "Prato, ad esempio, integra un ⟨σι⟩ [= τι] con valore rafforzativo",
+     "remarque": "Supplément d'une brève devant συβήνη, à valeur de renforcement ; rendu superflu par la transposition d'Austin."
     }
    ]
   },

@@ -1,1 +1,23 @@
-[]
+[
+ {"v": "363-364", "lemme": "τἀπόρρητα … τοῖσιν ἐχθροῖς", "ref": "Din. (fragment) « εἷλον γὰρ αὐτὴν οἱ πολέμιοι μαθόντες τὰ ἀπόρρητα »", "signale_par": "Blaydes 1880, p. 167", "raison": "texte introuvable dans le corpus local (NEAR(μαθόντες ἀπόρρητα)) ; référence non précisée par Blaydes"},
+ {"v": "363-364", "lemme": "τἀπόρρητα", "ref": "Sopater, in Hermog. p. 277 (« προδοσίᾳ δὲ καὶ ἐκφορᾷ τῶν ἀπορρήτων … »)", "signale_par": "Blaydes 1880, p. 167", "raison": "commentaire de Sopater absent du corpus local ; édition (Walz) non consultée"},
+ {"v": "363", "lemme": "τἀπόρρητα", "ref": "Pherecr. Πέρσαι (cf. Σ Ran. 362)", "signale_par": "Σ Ran. 362 ; Enger 1844, p. 71", "raison": "la scholie est vérifiée et donnée ; le fragment de Phérécrate correspondant n’a pas été identifié"},
+ {"v": "367", "lemme": "ἀσεβοῦσ᾽", "ref": "Hippon. fr. 87.4 ; adesp. ia. fr. 35.6", "signale_par": "Austin–Olson 2004, p. 171", "raison": "éditions des iambographes (West) absentes du corpus local"},
+ {"v": "368-369", "lemme": "ὦ παγκρατὲς Ζεῦ", "ref": "Soph. fr. 684.4 Radt", "signale_par": "Austin–Olson 2004, p. 171 (« = E. fr. 431.4 »)", "raison": "numérotation de Radt non contrôlée ; le texte est donné d’après Eur. fr. 431 N.² (vérifié)"},
+ {"v": "369", "lemme": "κυρώσειας", "ref": "IG II² 466.34 ; 652.31", "signale_par": "Austin–Olson 2004, p. 171", "raison": "inscriptions non consultées (pas de corpus épigraphique local)"},
+ {"v": "370", "lemme": "παραστατεῖν", "ref": "Archil. fr. 94.2 W.", "signale_par": "Austin–Olson 2004, p. 171", "raison": "fragment absent du corpus local (ni West ni Bergk retrouvés par la recherche)"},
+ {"v": "370", "lemme": "παραστατεῖν", "ref": "adesp. tr. fr. 527 (TrGF II)", "signale_par": "Austin–Olson 2004, p. 171", "raison": "TrGF II absent du corpus local"},
+ {"v": "372-374", "lemme": "ἔδοξε τῇ βουλῇ … ἐπεστάτει … ἐγραμμάτευεν … εἶπε", "ref": "IG I³ 17.2–6 ; 23.2–5 ; 31.3–6 ; 34.2–5 ; IG II² 6.4–5 ; 12.30–1 ; 13.4–5 ; 32.3–4 ; IG I³ 91, 97, 101, 104", "signale_par": "Austin–Olson 2004, p. 172 ; Sommerstein 1994, ad 372–9 ; commentaire de l’auteur (IG I³ 5, 9, 10, 12, 17)", "raison": "inscriptions non consultées"},
+ {"v": "372", "lemme": "τῇ τῶν γυναικῶν", "ref": "LSAM 61.5 (Mylasa) ὡς ἔδοξε ταῖς γυναιξί", "signale_par": "Austin–Olson 2004, p. 172", "raison": "Sokolowski, LSAM, absent du corpus local"},
+ {"v": "372", "lemme": "ἔδοξε τῇ βουλῇ", "ref": "Inscr. ap. Boeckh, Staatshaushaltung II, tab. II n. III (Κεκροπὶς ἐπρυτάνευε, Μνησίθεος ἐγραμμάτευε, Εὐπείθης ἐπεστάτει, Καλλίας εἶπε)", "signale_par": "Blaydes 1880, p. 168 ; Fritzsche 1838, p. 135", "raison": "Boeckh non consulté (le texte n’est connu ici que par la citation des deux commentateurs)"},
+ {"v": "373", "lemme": "Τιμόκλει᾽", "ref": "IG II² 1529.15 (Ἀρχίκλεια) ; SEG XXX 203 (Τιμόκλεια)", "signale_par": "Austin–Olson 2004, p. 172 ; Sommerstein 1994, ad 373–4", "raison": "inscriptions non consultées"},
+ {"v": "373", "lemme": "ἐπεστάτει", "ref": "Σ Pl. Gorg. 473e", "signale_par": "Sommerstein 1994, ad 373", "raison": "scholies de Platon (Greene) non retrouvées pour ce lemme dans le corpus local"},
+ {"v": "374", "lemme": "εἶπε Ζωστράτη", "ref": "Ter. Haut. ; Hec. ; Ad. (Sostrata)", "signale_par": "Sommerstein 1994, ad 373–4", "raison": "textes latins non contrôlés"},
+ {"v": "375", "lemme": "ἕωθεν", "ref": "IG I³ 68.30", "signale_par": "Austin–Olson 2004, p. 173", "raison": "inscription non consultée"},
+ {"v": "377", "lemme": "χρηματίζειν", "ref": "IG I³ 61.52 ; IG II² 103.16 ; 106.9 ; 117b.4–5 ; 128.12 ; 181.9", "signale_par": "Austin–Olson 2004, p. 173", "raison": "inscriptions non consultées"},
+ {"v": "377", "lemme": "χρηματίζειν", "ref": "Aesch. fr. 429 Radt (texte corrompu)", "signale_par": "Austin–Olson 2004, p. 173", "raison": "fragment absent du corpus local"},
+ {"v": "377", "lemme": "χρηματίζειν", "ref": "[Xen.] Ath. 3.1–2", "signale_par": "Blaydes 1880, p. 169 (Schneider ap. Dindorf)", "raison": "la République des Athéniens du Pseudo-Xénophon est absente du corpus local"},
+ {"v": "377", "lemme": "χρηματίζειν", "ref": "Arist. Pol. IV 15", "signale_par": "Blaydes 1880, p. 169", "raison": "passage non localisé avec certitude (renvoi au chapitre seulement)"},
+ {"v": "378", "lemme": "ὅ τι χρὴ παθεῖν", "ref": "IG II² 1103.9", "signale_par": "Austin–Olson 2004, p. 173", "raison": "inscription non consultée"},
+ {"v": "378", "lemme": "ἀδικεῖν γὰρ δοκεῖ", "ref": "[Plut.] Vit. X orat. (Andocide) 9", "signale_par": "Rogers 1904, p. 42", "raison": "passage non localisé dans le texte numérique de Perseus (découpage différent)"}
+]

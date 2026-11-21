@@ -350,6 +350,34 @@
   "remarque": "le Δηλίου κολυμβητοῦ de Sud. δ 400 (ci-dessus) : le mot de Socrate sur le livre d’Héraclite (Laërce, ajoute Érasme, le rapporte à un certain Cratès)"
  },
  {
+  "v": "316–321",
+  "lemme": "Δῆλον … κόρα … θηροφόνη, / Λατοῦς … ἔρνος",
+  "categorie": "poetes",
+  "ref": "Hor. Carm. 1.21.1–16",
+  "urn": "urn:cts:latinLit:phi0893.phi001.perseus-lat2:1.21.1",
+  "citation": "Dianam tenerae dicite virgines, / intonsum pueri dicite Cynthium / Latonamque supremo / dilectam penitus Iovi. … vos Tempe totidem tollite laudibus / natalemque, mares, Delon Apollinis / insignemque pharetra / fraternaque umerum lyra. / hic bellum lacrimosum, hic miseram famem / pestemque a populo et principe Caesare in / Persas atque Britannos / vestra motus aget prece.",
+  "traduction": "Chantez Diane, tendres jeunes filles ; chantez, garçons, le Cynthien à la longue chevelure, et Latone, chère entre toutes à Jupiter suprême… Vous, garçons, célébrez Tempé et Délos, patrie d’Apollon, et son épaule que distinguent le carquois et la lyre de son frère. Lui, touché par votre prière, détournera du peuple et de César, notre prince, la guerre qui fait pleurer, la misérable famine et la peste, sur les Perses et les Bretons.",
+  "verifie": "corpus",
+  "verification": "Perseus, canonical-latinLit, phi0893.phi001 (Carmina), livre 1, poème 21, v. 1–16 (copie locale : .travail/paralleles_f165v_273-293/latin/phi0893.phi001.perseus-lat2.xml)",
+  "signale_par": "recherche dans les textes latins (Perseus) : hymnes choraux à Apollon et à Diane",
+  "pertinence": 3,
+  "remarque": "le même enchaînement que les vv. 315–321 : Apollon de Délos (Delon Apollinis ~ Δῆλον ὃς ἔχεις), Diane chasseresse, Latone (Λατοῦς … ἔρνος), la lyre (v. 315 χρυσολύρα, v. 327 φόρμιγξ), et la prière qui rejette les maux du peuple sur les Perses : cf. les imprécations des vv. 335–337 (εἴ τις … ἐπικηρυκεύεται … Μήδοις)"
+ },
+ {
+  "v": "316–321",
+  "lemme": "Δῆλον ὃς ἔχεις … πόλιν οἰκοῦσα … θηροφόνη",
+  "categorie": "poetes",
+  "ref": "Hor. Saec. 1–8, 69–76",
+  "urn": "urn:cts:latinLit:phi0893.phi002.perseus-lat2:1",
+  "citation": "Phoebe silvarumque potens Diana, / lucidum caeli decus, o colendi / semper et culti, date quae precamur / tempore sacro, / quo Sibyllini monuere versus / virgines lectas puerosque castos / dis quibus septem placuere colles / dicere carmen. … Quaeque Aventinum tenet Algidumque, / quindecim Diana preces virorum / curat et votis puerorum amicas / adplicat aures. / Haec Iovem sentire deosque cunctos / spem bonam certamque domum reporto, / doctus et Phoebi chorus et Dianae / dicere laudes.",
+  "traduction": "Phébus, et toi, Diane, reine des forêts, … accordez ce que nous demandons en ce temps sacré où les vers sibyllins ont prescrit que des jeunes filles choisies et des garçons purs chantent un hymne aux dieux qui ont pris en gré les sept collines. … Diane, qui tient l’Aventin et l’Algide, prend soin des prières des Quindécemvirs et prête aux vœux des enfants une oreille amie. Que Jupiter et tous les dieux pensent ainsi, j’en rapporte chez moi le ferme espoir, moi, chœur instruit à chanter les louanges de Phébus et de Diane.",
+  "verifie": "corpus",
+  "verification": "Perseus, canonical-latinLit, phi0893.phi002 (Carmen saeculare), v. 1–8 et 69–76 (copie locale : .travail/paralleles_f165v_273-293/latin/phi0893.phi002.perseus-lat2.xml)",
+  "signale_par": "recherche dans les textes latins (Perseus) : hymnes choraux à Apollon et à Diane",
+  "pertinence": 2,
+  "remarque": "hymne choral pour le salut de la cité : Diane « qui tient l’Aventin » (quaeque Aventinum tenet ~ Δῆλον ὃς ἔχεις, πόλιν οἰκοῦσα), Apollon et Diane invoqués ensemble, puis « Jupiter et tous les dieux » (cf. vv. 331–334 τοῖς τ᾽ ἄλλοις θεοῖς)"
+ },
+ {
   "v": "317",
   "lemme": "παγκρατὲς",
   "categorie": "aristophane",
@@ -890,10 +918,38 @@
   "citation": "Γλαὺξ εἰς Ἀθήνας: ἐπὶ τῶν ἀχρήστους ἐμπορίας ἀγόντων, ἐπειδὴ τὸ ζῶον πάνυ ἐπιχωριάζε τοῖς Ἀθηναίοις.",
   "traduction": "« Une chouette à Athènes » : se dit de ceux qui font un commerce inutile, parce que cet animal abonde chez les Athéniens.",
   "verifie": "corpus",
-  "verification": "p.py Zen. 3.6 ; Diogenian. 3.81, 3.57 ; Greg. Cypr. 2.11 (First1KGreek)",
+  "verification": "p.py Zen. 3.6 ; Diogenian. 3.81, 3.57 ; Greg. Cypr. 2.11 (First1KGreek) ; Phot. γ 126, Theodoridis I, p. 361 (page PDF 443, image lue)",
   "signale_par": "recherche dans le corpus (parémiographes : Ἀθηνᾶ)",
   "pertinence": 1,
-  "remarque": "la forme parémiographique d’Ar. Av. 301 (ci-dessus) ; idem Diogenian. 3.81 (ἐπειδὴ μάλιστα τοῦτο τὸ ζῶον ἐκεῖ ἐπιχωριάζον τυγχάνει), Greg. Cypr. 2.11 (Γλαῦκα εἰς Ἀθήνας : ἐπὶ τῶν ἐπιδεικνυμένων πρὸς τοὺς εἰδότας … ὅτι πολλαὶ εἰς Ἀθήνας γλαῦκες) ; cf. Diogenian. 3.57 (Ὅμοιον· Γλαῦκας εἰς Ἀθήνας ἄγεις) et Érasme, Adag. I.ii.11 (au même vers)"
+  "remarque": "la forme parémiographique d’Ar. Av. 301 (ci-dessus) ; idem Diogenian. 3.81 (ἐπειδὴ μάλιστα τοῦτο τὸ ζῶον ἐκεῖ ἐπιχωριάζον τυγχάνει), Greg. Cypr. 2.11 (Γλαῦκα εἰς Ἀθήνας : ἐπὶ τῶν ἐπιδεικνυμένων πρὸς τοὺς εἰδότας … ὅτι πολλαὶ εἰς Ἀθήνας γλαῦκες) ; cf. Diogenian. 3.57 (Ὅμοιον· Γλαῦκας εἰς Ἀθήνας ἄγεις) et Érasme, Adag. I.ii.11 (au même vers) ; Phot. γ 126 (γλαῦκα Ἀθήναζε καὶ γλαῦκα Ἀθηναῖοι· παροιμία ἐπὶ τῶν μάτην τι πραττόντων, ὥσπερ εἴ τις γλαῦκας Ἀθήναζε ἄγοι· πληθύουσι γὰρ ἐνταῦθα γλαῦκες ; marge : D + Paus.)"
+ },
+ {
+  "v": "318–319",
+  "lemme": "γλαυκῶπι … πόλιν οἰκοῦσα",
+  "categorie": "lexicographes",
+  "ref": "EM 233.28–37",
+  "urn": "ia:etymologikontome00etymuoft_201708#n125",
+  "citation": "Γλαυκώπιον, τὴν ἀκρόπολιν οἱ ἀρχαῖοι· ἢ τὸ ἐν ἀκροπόλει τῆς Ἀθηνᾶς ἱερόν. ἀπὸ Γλαύκου τινὸς αὐτόχθονος, ἐν τῷ τόπῳ τούτῳ κατοικήσαντος. Γλαυκῶπις, ἤτοι γλαυκόφθαλμος, καλή· ἢ γλαυκοὺς καὶ καταπληκτικοὺς τοὺς ὦπας (ὅ ἐστι τοὺς ὀφθαλμοὺς) ἔχουσα· … ἢ ἀπὸ τοῦ Γλαυκωπίου ὄρους, ὃ Λυκαβηττὸς καλεῖται.",
+  "traduction": "Glaukôpion : les anciens appelaient ainsi l’Acropole, ou le sanctuaire d’Athéna sur l’Acropole, d’après un certain Glaukos, autochtone, qui habitait ce lieu. Glaukôpis : aux yeux glauques, belle ; ou qui a les yeux (ὦπας) glauques et terrifiants ; … ou d’après le mont Glaukôpion, qu’on appelle Lycabette.",
+  "verifie": "scan",
+  "verification": "Etymologicum Magnum, réimpr. de Leipzig (1816), col. 212 (image : ia:etymologikontome00etymuoft_201708, n125) ; pagination de Sylburg et lignes déduites des repères de marge (233 ; 20, 30, 40) ; Et. Gud. 126.5 Sturz (Drive : Etymologicum Gudianum/Sturzius 1818 …pdf, page PDF 104, image lue) ; Σ Eur. Hipp. 30 et 33 (corpus, First1KGreek) ; Phot. γ 128–129, Theodoridis I, p. 361, avec testimonia et apparat (Drive : Photius/Photii Patriarchae Lexicon A-D …pdf, page PDF 443, image lue) : le renvoi « EM 233,28 » de Theodoridis confirme la ligne déduite",
+  "signale_par": "recherche dans le corpus (γλαυκῶπις, Γλαυκώπιον)",
+  "pertinence": 2,
+  "remarque": "l’épithète du v. 318 tirée du Glaukôpion, nom ancien de l’Acropole ou du sanctuaire d’Athéna : la déesse γλαυκῶπις est celle qui « habite la cité » (πόλιν οἰκοῦσα, v. 319) ; idem Et. Gud. 126.5 Sturz (Γλαυκῶπις, ἀπὸ τοῦ γλαυκωπίου ὄρους τῆς Ἀττικῆς … καλεῖται· ἢ ἀπὸ τοῦ γλαυκοὺς ἔχειν τὰς ὦπας …) ; Σ Eur. Hipp. 33 (πέτραν δὲ Παλλάδος φησὶ τὸ ἐν τῇ Ἀττικῇ Γλαυκώπιον, οὗ Καλλίμαχος ἐν Ἑκάλῃ μέμνηται) ; cf. Hsch. γ 608 et Synag. γ 52 (ci-dessus) ; Phot. γ 128 (γλαυκῶπις· εὐόφθαλμος) et γ 129 (Γλαυκώπιον· τὴν ἀκρόπολιν οἱ ἀρχαῖοι ; marge de Theodoridis : Paus.?, c’est-à-dire l’atticiste Pausanias ; testimonia : = Et. Gen. AB s.v. γλαυκώπιον, « hinc EM 233,28 », Eust. 1451,62)"
+ },
+ {
+  "v": "318–319",
+  "lemme": "πόλιν / οἰκοῦσα",
+  "categorie": "prose",
+  "ref": "Thuc. 2.15.6",
+  "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:2.15.6",
+  "citation": "καλεῖται δὲ διὰ τὴν παλαιὰν ταύτῃ κατοίκησιν καὶ ἡ ἀκρόπολις μέχρι τοῦδε ἔτι ὑπ᾽ Ἀθηναίων πόλις.",
+  "traduction": "et, en raison de l’ancien peuplement de ce lieu, l’Acropole est aujourd’hui encore appelée « la ville » (πόλις) par les Athéniens.",
+  "verifie": "corpus",
+  "verification": "p.py Thuc. 2.15.6 ; chercher.py '\"καλεῖται δὲ διὰ τὴν παλαιὰν\"' ; Ar. Lys. 245, 317, 758 (p.py)",
+  "signale_par": "recherche dans le corpus (πόλις = ἀκρόπολις)",
+  "pertinence": 2,
+  "remarque": "dans l’usage athénien, πόλις désigne aussi l’Acropole : Athéna « habite la ville », c’est-à-dire la citadelle où est son temple ; cf. Ar. Lys. 245 (ταῖς ἄλλαισι ταῖσιν ἐν πόλει, les femmes qui occupent l’Acropole), 317 (Νίκη … τῶν τ᾽ ἐν πόλει γυναικῶν), 758 (κοιμᾶσθ᾽ ἐν πόλει) ; EM 233.28 (Γλαυκώπιον, τὴν ἀκρόπολιν οἱ ἀρχαῖοι, au même vers) ; Ar. Av. 836 (οἰκεῖν ἐπὶ πετρῶν, ci-dessus)"
  },
  {
   "v": "319",
@@ -3612,6 +3668,20 @@
   "remarque": ""
  },
  {
+  "v": "324",
+  "lemme": "οἰστροδόνητον",
+  "categorie": "poetes",
+  "ref": "Verg. G. 3.146–151",
+  "urn": "urn:cts:latinLit:phi0690.phi002.perseus-lat2:3.146",
+  "citation": "Est lucos Silari circa ilicibusque virentem / plurimus Alburnum volitans, cui nomen asilo / Romanum est, oestrum Grai vertere vocantes, / asper, acerba sonans, quo tota exterrita silvis / diffugiunt armenta; furit mugitibus aether / concussus silvaeque et sicci ripa Tanagri.",
+  "traduction": "Autour des bois du Silarus et de l’Alburnus vert d’yeuses vole en nombre un insecte que les Romains appellent asilus et que les Grecs, traduisant, nomment oestrus ; âpre, au bourdonnement aigu, il chasse des forêts les troupeaux épouvantés ; l’air, ébranlé de mugissements, se déchaîne, et les forêts, et la rive du Tanagre desséché.",
+  "verifie": "corpus",
+  "verification": "Perseus, canonical-latinLit, phi0690.phi002 (Georgica), 3.146–151 (copie locale : .travail/paralleles_f165v_273-293/latin/phi0690.phi002.perseus-lat2.xml)",
+  "signale_par": "recherche dans les textes latins (Perseus) : oestrum",
+  "pertinence": 2,
+  "remarque": "le taon (οἶστρος) qui affole les troupeaux et fait « se déchaîner l’air ébranlé » (furit … aether concussus) : l’image dont procède οἰστροδόνητον, « agité comme par le taon » (Σ Thesm. 324 : πᾶσαν δὲ κίνησιν καλοῦσιν οἶστρον) ; Virgile rapporte ensuite le taon à Io (Inachiae … iuvencae), cf. Aesch. Supp. 573 et PV 589 (ci-dessus)"
+ },
+ {
   "v": "325",
   "lemme": "τε … τε",
   "categorie": "aristophane",
@@ -5538,10 +5608,10 @@
   "citation": "Πολλοὶ θριοβόλοι, παῦροι δέ τε μάντιες ἄνδρες: Φιλόχορός φησιν ὅτι Νύμφαι κατεῖχον τὸν Παρνασὸν τροφοὶ Ἀπόλλωνος τρεῖς, καλούμεναι Θριαί",
   "traduction": "« Beaucoup de jeteurs de sorts, peu de vrais devins : Philochore dit que des Nymphes occupaient le Parnasse, nourrices d’Apollon, au nombre de trois, appelées Thriai »",
   "verifie": "corpus",
-  "verification": "p.py Zen. 5.75 ; CPG I, p. 150",
+  "verification": "p.py Zen. 5.75 ; CPG I, p. 150 ; Bekker, Anecd. I, p. 265, l. 11–16 (image : ia:bub_gb_y5sQAAAAIAAJ, n272)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "Nymphes d’une montagne d’Apollon, au sein d’un proverbe"
+  "remarque": "Nymphes d’une montagne d’Apollon, au sein d’un proverbe ; cf. Lex. Rhet. (AB 265.11–16 : Θριάσιον πεδίον … θρίαι δέ εἰσιν αἱ μαντικαὶ ψῆφοι. νύμφαι δέ τινες, Θρίαι ὀνομαζόμεναι, ἐξεῦρον τὴν τοιαύτην μαντείαν. ἦσαν δὲ Ἀπόλλωνος τιθηνοί) ; Érasme, Adag. I.vii.8 (au même vers)"
  },
  {
   "v": "326",
@@ -5570,6 +5640,20 @@
   "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
   "pertinence": 1,
   "remarque": "= Zen. 5.75 (ci-dessus) : les Nymphes de la montagne (ὀρείπλαγκτοι) nourrices d’Apollon"
+ },
+ {
+  "v": "326",
+  "lemme": "Νύμφαι τ᾽ ὀρείπλαγκτοι",
+  "categorie": "lexicographes",
+  "ref": "Phryn. PS p. 17.5–9 B.",
+  "urn": "ia:bub_gb_y5sQAAAAIAAJ#n24",
+  "citation": "Ἀντριάδες: νύμφαι. ὡς αἱ ἐν τοῖς νάμασι διατρίβουσαι Ναΐδες, καὶ ἐν τοῖς ὄρεσιν ὀρεστιάδες, καὶ ἁμαδρυάδες, καὶ αἱ περὶ τὰς νομὰς τῶν τετραπόδων ἐπιμηλίδες, ὅτι μῆλα ἅπαντα τὰ τετράποδα καλοῦσιν οἱ ἀρχαῖοι.",
+  "traduction": "Antriades : nymphes (des grottes), comme on appelle Naïades celles qui hantent les eaux, oréstiades celles des montagnes, et hamadryades, et épimélides celles des pâturages des quadrupèdes, parce que les anciens appellent μῆλα tous les quadrupèdes.",
+  "verifie": "scan",
+  "verification": "Bekker, Anecdota Graeca I (1814), Phrynichos, Praeparatio sophistica, p. 17, l. 5–9 (image : ia:bub_gb_y5sQAAAAIAAJ, n24) ; trouvé par chercher.py 'Νύμφ*' -a 'Bekker, Anecd'",
+  "signale_par": "recherche dans le corpus (lexiques de Bekker, Anecd. I)",
+  "pertinence": 2,
+  "remarque": "la classification des Nymphes par leur séjour, avec les ὀρεστιάδες « des montagnes » : les ὀρείπλαγκτοι du v. 326 ; cf. Hsch. ο 1164 (ὀρεστιάδες, ci-dessus) et α 846 (Ἀγρωστῖναι· νύμφαι ὄρειοι)"
  },
  {
   "v": "327",
@@ -6266,7 +6350,7 @@
   "citation": "Ὄνος λύρας, subaudi ἀκροατής, i. e. Asinus lyrae auscultator. In eos, qui propter imperitiam nullo sunt judicio, crassisque auribus.",
   "traduction": "« L’âne (auditeur) de la lyre » : contre ceux qui, faute de culture, n’ont aucun jugement et l’oreille grossière.",
   "verifie": "scan",
-  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 164 B–C (page PDF 100, image lue)",
+  "verification": "Érasme, Opera omnia II (Leyde, 1703), .sources/web/latin/erasme/erasme_opera_II.pdf, LB II 164 B–C (page PDF 100, image lue) ; Chil. I. Centur. IV d’après les titres courants des pages voisines (PDF 99 : Prov. XXVII–XXXII ; PDF 103 : Prov. XLV–LVI ; le titre de la p. 101 porte par erreur « Centur. I »)",
   "signale_par": "index et OCR d’Érasme (Opera omnia II, Leyde, 1703 : erasme_page.py) ; proverbe grec déjà relevé ici",
   "pertinence": 1,
   "remarque": "= Diogenian. 7.33, Sud. ο 391, Tosi n° 1934 (ci-dessus) ; Érasme ajoute que Varron fit de ce mot le titre d’une de ses Satires et cite, d’après Aulu-Gelle, le Testamentum (ὄνοι λύρας : les héritiers incultes)"
@@ -8372,6 +8456,20 @@
   "remarque": "cf. Diogenian. 8.51 (Τέλος ὅρα βίου) et Tosi n° 1588 (ci-dessus) ; Érasme cite Juvénal et Soph. OT"
  },
  {
+  "v": "329",
+  "lemme": "ἐκκλησιάσαιμεν",
+  "categorie": "proverbes",
+  "ref": "App. Prov. 4.11",
+  "urn": "urn:cts:greekLit:tlg9007.tlg001.1st1K-grc1:4.11",
+  "citation": "Ὀβολὸν εὗρε Παρνύτης: Καλλίστρατος Ἀθήνησι πολιτευσάμενος, ἐπικαλούμενος δὲ Παρνύτης, μισθὸν ἔταξε τοῖς δικασταῖς καὶ τοῖς ἐκκλησιασταῖς· ὅθεν σκωπτόντων αὐτὸν τῶν κωμικῶν εἰς παροιμίαν ἦλθε τὸ γελοῖον.",
+  "traduction": "« Parnytès a trouvé l’obole » : Callistratos, homme politique athénien surnommé Parnytès, fixa un salaire pour les juges et pour ceux qui siègent à l’assemblée ; les comiques s’en moquèrent, et la plaisanterie devint proverbe.",
+  "verifie": "corpus",
+  "verification": "p.py App. Prov. 4.11 (First1KGreek) ; Kock III, p. 532, com. adesp. fr. 697 (image : ia:comicorumatticor03kockuoft, n551 ; l’OCR lit « 691 »)",
+  "signale_par": "recherche dans le corpus (ἐκκλησιάζ* -a Kock)",
+  "pertinence": 1,
+  "remarque": "l’assemblée et sa rétribution, objet de raillerie comique devenu proverbe (com. adesp. fr. 697 Kock, qui note : Callistratus et Agyrrhius τοῦ ἐκκλησιαστικοῦ μισθοῦ auctores fuisse dicuntur) ; cf. Ar. Eccl., où les femmes déguisées vont « siéger à l’assemblée » ; ici les femmes « tiennent assemblée » entre elles (ἐκκλησιάσαιμεν)"
+ },
+ {
   "v": "330",
   "lemme": "εὐγενεῖς",
   "categorie": "aristophane",
@@ -9234,10 +9332,10 @@
   "citation": "Εὐγενέστερος Κόδρου: ὁ Κόδρος Μελάνθου υἱὸς ἦν",
   "traduction": "« plus noble que Codros : Codros était fils de Mélanthos »",
   "verifie": "corpus",
-  "verification": "p.py Zen. 4.3",
+  "verification": "p.py Zen. 4.3 ; Phot. ε 2127, Theodoridis II, p. 203 (Drive : Photius/Photii patriarchae lexicon Vol. 2 …pdf, page PDF 320, image lue)",
   "signale_par": "recherche dans le corpus (εὐγεν* -a Zen.)",
   "pertinence": 3,
-  "remarque": "le proverbe de la noblesse est athénien : le chœur se réclame de ce modèle ; CPG I, p. 84 (note : εὐγενέστερος Κέκροπος)"
+  "remarque": "le proverbe de la noblesse est athénien : le chœur se réclame de ce modèle ; CPG I, p. 84 (note : εὐγενέστερος Κέκροπος) ; idem Phot. ε 2127 (εὐγενέστερος Κόδρου· τοῦ υἱοῦ Μελάνθου τοῦ Μεσσηνίου … ὡς Δήμων, FGrHist 327 F *22), Érasme, Adag. II.viii.33 (au même vers)"
  },
  {
   "v": "330",
@@ -9448,6 +9546,20 @@
   "signale_par": "recherche dans le corpus (lexiques de Bekker, Anecd. I)",
   "pertinence": 3,
   "remarque": "εὐγενής glosé par « citoyen de naissance » (γένει πολίτης), et l’ἀστὸς ἐξ ἀστῶν : le sens que le commentaire de l’auteur donne au v. 330 (seules les citoyennes athéniennes assistent aux Thesmophories ; cf. v. 294) ; cf. Hsch. ε 6726 (εὐγενής· ἐλεύθερος τῷ γένει, ci-dessus) ; dans le même lexique, AB 270.32–271.2 (κανηφόροι … ἐκανηφόρουν δὲ αἱ ἀσταὶ καὶ εὐγενεῖς : voir Phot. κ 149) et AB 202.3–5 (ἀρρηφόροι χειροτονητοὶ κατ᾽ εὐγένειαν : voir Harp. s.v. ἀρρηφορεῖν)"
+ },
+ {
+  "v": "330",
+  "lemme": "εὐγενεῖς",
+  "categorie": "proverbes",
+  "ref": "Juv. 8.19–20",
+  "urn": "urn:cts:latinLit:phi1276.phi001.perseus-lat2:8.19",
+  "citation": "tota licet veteres exornent undique cerae / atria, nobilitas sola est atque unica virtus.",
+  "traduction": "les vieilles cires ont beau orner l’atrium de toutes parts : la seule et unique noblesse, c’est la vertu.",
+  "verifie": "corpus",
+  "verification": "Perseus, canonical-latinLit, phi1276.phi001 (Saturae), 8.19–20 (téléchargé dans .travail/paralleles_f166r_316-336/reprise/latin/juv_lat2.xml) ; Tosi, Dictionnaire des sentences, n° 1463 (OCR du Drive)",
+  "signale_par": "Tosi, Dictionnaire des sentences, n° 1463",
+  "pertinence": 1,
+  "remarque": "le topos de la noblesse de vertu opposée à la noblesse de naissance (Tosi n° 1463 : Sén. Ep. 44, Ov. Pont. 1.9.39 sq., etc.), qui fait ressortir le sens civique et généalogique de εὐγενεῖς au v. 330 (citoyennes de naissance) ; cf. Tosi n° 259 (Οὐχ ἡ πόλις σου τὸ γένος εὐγενὲς ποιεῖ, ci-dessus)"
  },
  {
   "v": "331",
@@ -11116,6 +11228,48 @@
   "remarque": "tardif, mais réunit les deux crimes de la clause : la tractation avec le barbare (ἐπικηρυκεύεται, v. 336 ; Μήδοις, v. 337) et le complot (ἐπιβουλή, v. 335)"
  },
  {
+  "v": "335",
+  "lemme": "ἐπιβουλεύει",
+  "categorie": "lexicographes",
+  "ref": "Δικῶν ὀνόματα (AB 193.5)",
+  "urn": "ia:bub_gb_y5sQAAAAIAAJ#n200",
+  "citation": "Παταικίων: ἐπίβουλος δεινὸς ἀνήρ.",
+  "traduction": "Pataikiôn : homme qui complote, redoutable.",
+  "verifie": "scan",
+  "verification": "Bekker, Anecdota Graeca I (1814), Δικῶν ὀνόματα, p. 193, l. 5 (image : ia:bub_gb_y5sQAAAAIAAJ, n200 ; section commençant p. 181) ; Harp. s.v. Παταικίων et Aeschin. 3.189 (corpus)",
+  "signale_par": "recherche dans le corpus (ἐπιβουλ* -a 'Bekker, Anecd')",
+  "pertinence": 1,
+  "remarque": "le nom du fripon proverbial (Aeschin. 3.189 : ὡς Παταικίωνος ἄμεινον πεπολίτευσαι ; Harp. s.v. : ὄνομα κύριον, κλέπτης καὶ τοιχωρύχος) glosé par ἐπίβουλος : le comploteur type"
+ },
+ {
+  "v": "335",
+  "lemme": "ἐπιβουλεύει … τῷ δήμῳ",
+  "categorie": "lexicographes",
+  "ref": "Sud. ε 2243",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:2.E.2243",
+  "citation": "Ἐπιβουλὴ καὶ Ἐπίβουλος. καὶ Ἐπιβουλεύω σοι· δοτικῇ.",
+  "traduction": "Complot et comploteur ; et « je complote contre toi » : avec le datif.",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἐπιβουλεύ*' -a Suda ; p.py Sud. ε 2243 (First1KGreek, numérotation d’Adler)",
+  "signale_par": "recherche dans le corpus (Souda)",
+  "pertinence": 2,
+  "remarque": "la construction du v. 335 (ἐπιβουλεύει … τῷ δήμῳ) ; même remarque syntaxique pour ἐπικηρυκεύεσθαι (Lex. Synt., AB 153.10–11, au v. 336)"
+ },
+ {
+  "v": "335",
+  "lemme": "ἐπιβουλεύει",
+  "categorie": "proverbes",
+  "ref": "Zen. 3.12",
+  "urn": "urn:cts:greekLit:tlg0098.tlg001.1st1K-grc1:3.12",
+  "citation": "Δαφνίνην φορῶ βακτηρίαν: τοῦτο λέγειν εἰώθασιν οἱ ὑπό τινων ἐπιβουλευόμενοι· παρόσον ἀλεξιφάρμακον ἡ δάφνη.",
+  "traduction": "« Je porte un bâton de laurier » : c’est ce que disent d’ordinaire ceux qui sont l’objet d’un complot, parce que le laurier protège des maléfices.",
+  "verifie": "corpus",
+  "verification": "chercher.py 'δαφνίνην βακτηρίαν' ; p.py Zen. 3.12, Diogenian. 4.14, 4.78, Sud. δ 100 (First1KGreek)",
+  "signale_par": "recherche dans le corpus (Souda, ἐπιβουλεύ*)",
+  "pertinence": 1,
+  "remarque": "le proverbe de la victime d’un complot ; idem Diogenian. 4.14 (ἐπὶ τῶν ὑπό τινων ἐπιβουλευομένων), Sud. δ 100 ; cf. Diogenian. 4.78 (Ἐφέσια γράμματα … Ταὐτὸ τῇ, Δαφνίνην φορῶ βακτηρίαν)"
+ },
+ {
   "v": "336",
   "lemme": "τῷ δήμῳ … / τῷ τῶν γυναικῶν",
   "categorie": "aristophane",
@@ -11394,5 +11548,33 @@
   "signale_par": "recherche dans le corpus (lexiques de Bekker, Anecd. I)",
   "pertinence": 3,
   "remarque": "le lexique syntaxique cite, pour la construction avec le datif (ici Εὐριπίδῃ Μήδοις, v. 337), la formule même de l’imprécation que rapporte Isocrate (4.157, aux vv. 335–336 : εἴ τις ἐπικηρυκεύεται Πέρσαις τῶν πολιτῶν) ; l’infinitif ἐπικηρυκεύεσθαι est une faute du lexique ou de sa source ; cf. AB 141.18–20 (Ἐπικηρυκεύω· δοτικῇ, avec un exemple de Dion Cassius, l. XLIX : ἐπεκηρύκευσαν τότε αὐτῷ, οὐδὲν ὅ τι οὐκ ἐπαγγελλόμενοι)"
+ },
+ {
+  "v": "336",
+  "lemme": "ἢ ᾿πικηρυκεύεται",
+  "categorie": "prose",
+  "ref": "Xen. HG 7.1.38",
+  "urn": "urn:cts:greekLit:tlg0032.tlg001.perseus-grc2:7.1.38",
+  "citation": "ἐπεὶ δὲ ἀφίκοντο οἱ πρέσβεις οἴκαδε ἕκαστοι, τὸν μὲν Τιμαγόραν ἀπέκτειναν οἱ Ἀθηναῖοι, κατηγοροῦντος τοῦ Λέοντος ὡς οὔτε συσκηνοῦν ἑαυτῷ ἐθέλοι μετά τε Πελοπίδου πάντα βουλεύοιτο",
+  "traduction": "quand les ambassadeurs furent rentrés chacun chez soi, les Athéniens mirent à mort Timagoras, sur l’accusation de Léon : il n’avait pas voulu partager sa tente et se concertait en tout avec Pélopidas",
+  "verifie": "corpus",
+  "verification": "p.py Xen. Hell. 7.1.38 ; chercher.py 'Τιμαγόρας OR Τιμαγόραν OR Τιμαγόρου' --sans-ocr ; p.py Plut. Pelop. 30.6, Plut. Artax. 22.6, Dem. 19.137 et 191 ; Bekker, Anecd. I, p. 193, l. 26–27 (image : ia:bub_gb_y5sQAAAAIAAJ, n200)",
+  "signale_par": "recherche dans le corpus (Bekker, Anecd. I, Δικῶν ὀνόματα : Τιμαγόρας)",
+  "pertinence": 2,
+  "remarque": "l’ambassadeur athénien à Suse (367) exécuté pour collusion avec le Grand Roi : le crime que vise la clause (ἐπικηρυκεύεται … Μήδοις, vv. 336–337) ; idem Plut. Pelop. 30.6 (Τιμαγόραν γοῦν Ἀθηναῖοι κρίναντες ἀπέκτειναν … ἀλλ’ ἔοικεν οὐχ ἡ δωροδοκία μάλιστα παροξῦναι τοὺς Ἀθηναίους), Plut. Artax. 22.6 (ὀνειδισμὸς εἰς προδοσίαν … Τιμαγόρου μὲν οὖν διὰ τὴν δωροδοκίαν Ἀθηναῖοι θάνατον κατέγνωσαν), Dem. 19.137 et 191 ; Δικῶν ὀνόματα (AB 193.26–27) : Τιμαγόρας· οὗτος παρὰ Ξέρξου χρήματα ἔλαβε, καὶ ὡς προδότης ἀνῃρέθη (Ξέρξου sic, pour Artaxerxès II) ; vaut aussi pour Μήδοις (v. 337)"
+ },
+ {
+  "v": "336",
+  "lemme": "ἢ ᾿πικηρυκεύεται",
+  "categorie": "proverbes",
+  "ref": "Plut. Rom. 17.3",
+  "urn": "urn:cts:greekLit:tlg0007.tlg002.perseus-grc2:17.3",
+  "citation": "οὐ μόνος οὖν ὡς ἔοικεν Ἀντίγονος ἔφη προδιδόντας μὲν φιλεῖν, προδεδωκότας δὲ μισεῖν, οὐδὲ Καῖσαρ, εἰπὼν ἐπὶ τοῦ Θρᾳκὸς Ῥοιμητάλκου, φιλεῖν μὲν προδοσίαν, προδότην δὲ μισεῖν",
+  "traduction": "Antigone n’est donc pas le seul, semble-t-il, à avoir dit qu’il aimait ceux qui trahissent, mais haïssait ceux qui ont trahi, ni César, qui disait, à propos du Thrace Rhoemétalcès, aimer la trahison, mais haïr le traître",
+  "verifie": "corpus",
+  "verification": "p.py Plut. Rom. 17.3 ; Tosi, Dictionnaire des sentences, n° 2250, p. 1610 (Drive : Dictionnaire des sentences latines et grecques ROC gImagereader.pdf, page PDF 1598, image lue)",
+  "signale_par": "Tosi, Dictionnaire des sentences, n° 2250",
+  "pertinence": 1,
+  "remarque": "la sentence sur le traître, devenue proverbe (Tosi n° 2250 : lat. médiéval Proditionem amo sed proditorem non laudo ; fr. Trahison plaît, traître déplaît) : celui qui « fait des ouvertures » à l’ennemi, que maudit la héraut (vv. 336–337), est haï même de ceux qu’il sert"
  }
 ]

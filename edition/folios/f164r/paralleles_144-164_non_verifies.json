@@ -1,12 +1,5 @@
 [
  {
-  "v": "144–164",
-  "lemme": "ensemble du passage",
-  "ref": "Austin–Olson 2004, commentaire ad loc.",
-  "source": "consigne de la tâche",
-  "raison": "commentaire inaccessible : PDF du Drive > 10 Mo (téléchargement refusé), la lecture du Drive s’arrête à l’introduction ; à dépouiller"
- },
- {
   "v": "162",
   "lemme": "ἐχύμισαν",
   "ref": "Borthwick, Hermes 96 (1968), p. 61",
@@ -46,7 +39,7 @@
   "lemme": "μίτρα",
   "ref": "Soph. fr. 162 N.",
   "source": "van Leeuwen 1904, note ad 163 (pp. 26–30)",
-  "raison": "fragment non identifié dans Nauck ; renvoi à contrôler"
+  "raison": "fragment non identifié dans Nauck ; les TrGF IV (Radt) sont désormais sur le disque (import du Drive, 20 nov. 2026), mais leur couche texte est inexploitable (17 % de mots reconnus) : concordance Nauck–Radt à lire sur l’image"
  },
  {
   "v": "163",
@@ -57,31 +50,10 @@
  },
  {
   "v": "163",
-  "lemme": "Ἰωνικῶς",
-  "ref": "Anacr. PMG 426 (= Anacr. 85 LSJ), Πάλαι ποτ᾽ ἦσαν ἄλκιμοι Μιλήσιοι",
-  "source": "LSJ s.v. ἄλκιμος, Μιλήσιος",
-  "raison": "attribution non contrôlée ; proverbe vérifié : Ar. Plut. 1002, Ath. 12.26, Zen. 5.80, Sud. π 61"
- },
- {
-  "v": "163",
-  "lemme": "Ἰωνικῶς",
-  "ref": "Eup. fr. 272 et Antiphanes fr. 91 K.-A.",
-  "source": "Sommerstein 1994, ad 163",
-  "raison": "non retrouvés dans Kock ni Meineke par la recherche locale"
- },
- {
-  "v": "163",
-  "lemme": "Ἰωνικῶς",
-  "ref": "Pl. Com. frr. 69 et 188 Kock",
-  "source": "Ath. 15.1 ; Blaydes 1880",
-  "raison": "numéros K.-A. à établir"
- },
- {
-  "v": "163",
   "lemme": "διασαυλούμενον",
-  "ref": "Cramer, An. Par. IV 198, 26 ; Zonaras I 539 ; Lobeck, Pathol. prol. 392 n. 21",
+  "ref": "Cramer, An. Par. IV 198, 26 ; Lobeck, Pathol. prol. 392 n. 21",
   "source": "Kock I, p. 548",
-  "raison": "non consultés"
+  "raison": "non consultés ; Zonaras I, col. 539 (Tittmann) vérifié le 21 nov. 2026 et versé au fichier principal"
  },
  {
   "v": "163",
@@ -131,5 +103,12 @@
   "ref": "Men. Sic. 205",
   "source": "Austin–Olson 2004, ad 164–7 (p. 112)",
   "raison": "le Sicyonien (papyrus) est absent du corpus local"
+ },
+ {
+  "v": "146",
+  "lemme": "ὦ πρέσβυ πρέσβυ (gémination)",
+  "ref": "Herod. 10.2 (avec Headlam ad loc.)",
+  "source": "Austin–Olson 2004, p. 105 (ad 146 : « Herod. 10. 2 with Headlam ad loc. (‘an air of solemnity and warning’) »)",
+  "raison": "Hérodas absent du corpus local ; texte et numérotation à contrôler sur une édition (Headlam–Knox, Cunningham)"
  }
 ]

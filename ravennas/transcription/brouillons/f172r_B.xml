@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page folio="172r" image="20_f172r_classense174r_vv0800-0837.jpg" vers="801-834">
   <lignes>
-    <l n="1" v="801">βάσανον δῶ μεν πότεροι χείρουσ· ἡμεῖσ μὲν γὰρ</l>
-    <l n="2">φαμὲν ὑμᾶσ</l>
-    <l n="3" v="802">ὑμεῖσ δ᾽ἡμᾶσ; σκεψώμεσθα δὴ κἀντιτιθῶμεν προσ</l>
-    <l n="4">ἕκαστο ν·</l>
-    <l n="5" v="803">παρὰβάλλουσαι τῆστεγυναικὸσ· καὶ τἀνδρὸσ</l>
-    <l n="6">τοῦ ᾽νομ᾽ ἕκαστοσ·</l>
-    <l n="7" v="804">ναυσ<add place="dessus" main="R?">ϊ</add>μάχη σμέν ἥττων ἐστὶ χαρμῖνοσ δηλαδητ᾽ἄρ<ras main="R?">γα</ras></l>
-    <l n="8" v="805">καὶ μὲν δὴ καὶ κλεοφῶν χεῖ ρον πάντωσδή που</l>
-    <l n="9">σαλ<del type="exponctuation" main="R?">λ</del>αβακχοῦσ·</l>
-    <l n="10" v="806">πρὸσ ἀριστομάχην δὲ χρόνο<unclear cert="moyenne">υ</unclear> πολλοῦ προσεκεί</l>
-    <l n="11">νηντὴν μαραθῶνι·</l>
+    <l n="1" v="801" retrait="3">βάσανον δῶ μεν πότεροι χείρουσ· ἡμεῖσ μὲν γὰρ</l>
+    <l n="2" retrait="9">φαμὲν ὑμᾶσ</l>
+    <l n="3" v="802" retrait="2">ὑμεῖσ δ᾽ἡμᾶσ; σκεψώμεσθα δὴ κἀντι<ras main="R?">τ</ras>ιθῶμεν προσ</l>
+    <l n="4" retrait="9">ἕκαστο ν·</l>
+    <l n="5" v="803" retrait="1">παρ<subst main="Rrec"><del type="biffure">ὰ</del><add place="ligne">α</add></subst>βάλλουσαι τῆστεγυναικὸσ· καὶ τἀνδρὸσ</l>
+    <l n="6" retrait="9">τοῦ ᾽νομ᾽ ἕκαστοσ·</l>
+    <l n="7" v="804" retrait="1">να<subst main="R?"><del type="grattage"><unclear cert="faible">ῦ</unclear></del><add place="ligne">υ</add></subst>σ<add place="dessus" main="R?">ϊ</add>μάχη σμέν ἥττων ἐστὶ χαρμῖνοσ δηλαδητ᾽<subst main="R?"><del type="surcharge">ἀ</del><add place="ligne">ἄ</add></subst>ρ<ras main="R?">γα</ras><unclear cert="moyenne">·</unclear></l>
+    <l n="8" v="805" retrait="1">καὶ μὲν δὴ καὶ κλεοφῶν χεῖ ρον πάντωσδή που</l>
+    <l n="9" retrait="9">σαλ<del type="exponctuation" main="R?">λ</del>αβακχοῦσ·</l>
+    <l n="10" v="806">πρ<subst main="Rrec"><del type="surcharge">ο</del><add place="ligne">ὸ</add></subst>σ ἀριστομάχην δὲ χρόνο<unclear cert="moyenne">υ</unclear> πολλοῦ προσεκεί</l>
+    <l n="11" retrait="9">νηντὴν μαραθῶνι·</l>
     <l n="12" v="807"><signe type="signal" main="R1">⋎</signe>καὶ στρατωνί κην ὑμῶν οὐδεῖσ οὐδ᾽ ἐγχει ρεῖ πολεμίζειν</l>
     <l n="13" v="808">ἀλλ᾽ εὐβούλησ· τῶν πέρ<unclear cert="moyenne">υ</unclear>σιντίσβουλευτὴσ</l>
-    <l n="14">ἐστὶν ἀμείνων·</l>
-    <l n="15" v="809"><hi rend="grand">π</hi>αραδοὺσ ετέρωι τὴν βουλείαν οὐδ᾽ αὐτὸσ τοῦτό γε</l>
-    <l n="16">φή σει σ·</l>
+    <l n="14" retrait="7">ἐστὶν ἀμείνων·</l>
+    <l n="15" v="809" retrait="-1"><hi rend="grand">π</hi>αραδοὺσ ετέρωι τὴν βουλείαν οὐδ᾽ αὐτὸσ τοῦτό γε</l>
+    <l n="16" retrait="7">φή σει σ·</l>
     <l n="17" v="810">οὕτωσ ἡμε<unclear cert="moyenne">ῖ</unclear>σ πολ<unclear cert="moyenne">ὺ</unclear> βελτίουσ τῶν ἀνδρῶν εὐχόμεσθ᾽ <abbr dev="ναι">εἶ</abbr></l>
     <l n="18" v="811">οὐδ᾽ ἂν κλέψασα γυνὴ ζεύγει· κατὰ πεντήκοντα τάλαντα</l>
     <l n="19" v="812">ἐσπόλιν <unclear cert="moyenne">ἔ</unclear>λθο ι τῶν δη μοσίων· ἀλλ᾽ <unclear cert="moyenne">ἢ</unclear>ν τὰ μέγιστα</l>
-    <l n="20">ὑφέλη ται</l>
-    <l n="21" v="813">φορμὸν πυρῶν τἀνδρὸσ κλέψασα αὐθημερὸ ν</l>
-    <l n="22">αὖτ᾽ ἀπέδω κεν</l>
-    <l n="23" v="814">ἀλλ ἡμεῖσ ἂν πολλο ὺστούτων·</l>
-    <l n="24" v="815">ἀποδείξ ομεν ταῦτα ποθοῦντασ</l>
-    <l n="25" v="816">καὶ προ στούτοισ· γαστρίδασ ἡμῶν</l>
-    <l n="26" v="817">ὄντασ μᾶλλον· καὶ λωποδύτασ·</l>
-    <l n="27" v="818">καὶ βωμολόχουσ· κ᾽ ἀνδραποδιστάσ·</l>
-    <l n="28" v="819">καὶ μεν δή που καὶ τὸ πατρῶιό γε</l>
-    <l n="29" v="820">χείρουσ ἡμῶν εἰσ<subst main="R?"><del type="surcharge">ί</del><add place="ligne">ὶ</add></subst>ν σώζειν·</l>
-    <l n="30" v="821">ἡ μῖ ν μ<unclear cert="moyenne">ὲ</unclear>ν γὰρ σῶν ἔτι καὶ νῦν·</l>
-    <l n="31" v="822">τἀντίον· ὁ κανών· οἱ καλαθίσκοι</l>
-    <l n="32" v="823">τὸ σκι άδειον·</l>
+    <l n="20" retrait="7">ὑφέλη ται<add place="ligne" main="Rrec">,</add></l>
+    <l n="21" v="813"><signe type="repere" main="Rrec" instrument="mine">—</signe><signe type="repere" main="Rrec" instrument="mine"><unclear cert="faible">5</unclear></signe>φορμὸν πυρῶν τἀνδρὸσ κλέψασα αὐθημερὸ ν</l>
+    <l n="22" retrait="8">αὖτ᾽ ἀπέδω κεν·</l>
+    <l n="23" v="814" retrait="2">ἀλλ᾽ ἡμεῖσ ἂν πολλο ὺστούτων·</l>
+    <l n="24" v="815" retrait="2">ἀποδείξ ομεν ταῦτα ποθοῦντασ</l>
+    <l n="25" v="816" retrait="2">καὶ προ στούτοισ· γαστρίδασ ἡμῶν</l>
+    <l n="26" v="817" retrait="2">ὄντασ μᾶλλον· καὶ λωποδύτασ·</l>
+    <l n="27" v="818" retrait="2">καὶ βωμολόχουσ· κ᾽ ἀνδραποδιστάσ·</l>
+    <l n="28" v="819" retrait="2">καὶ μεν δή που καὶ τὸ πατρῶιό γε</l>
+    <l n="29" v="820" retrait="1">χείρουσ ἡμῶν εἰσ<subst main="R?"><del type="surcharge">ί</del><add place="ligne">ὶ</add></subst>ν σώζειν·</l>
+    <l n="30" v="821" retrait="2">ἡ μῖ ν μ<unclear cert="moyenne">ὲ</unclear>ν γὰρ σῶν ἔτι καὶ νῦν·</l>
+    <l n="31" v="822" retrait="1">τἀντίον· ὁ κανών· οἱ καλαθίσκοι</l>
+    <l n="32" v="823" retrait="2">τὸ σκι άδειον·</l>
     <l n="33" v="824">τοῖσδ᾽ἡ μετέροισ ἀνδρασιντούτοισ·</l>
-    <l n="34" v="825">ἀπόλωλεμὲν· πολλοῖσ ὁ κανὼν</l>
-    <l n="35" v="826">ἐκ τῶν οἴ κ<unclear cert="faible">ῶ</unclear>ν αὐτῆ λόγχηι·</l>
-    <l n="36" v="827">πολλοῖσδἑτέροισ ἀπο τῶν ὤμων</l>
-    <l n="37" v="828">ἐνταῖσ στρατιαῖσ</l>
-    <l n="38" v="829"><unclear cert="moyenne">ἔ</unclear>ρ ριπται τὸ σκιάδειον·</l>
+    <l n="34" v="825" retrait="2">ἀπόλωλεμὲν· πολλοῖσ ὁ κανὼν</l>
+    <l n="35" v="826" retrait="2">ἐκ τῶν οἴ κ<unclear cert="faible">ῶ</unclear>ν αὐτῆ λόγχηι·</l>
+    <l n="36" v="827" retrait="2">πολλοῖσδἑτέροισ ἀπο τῶν ὤμων</l>
+    <l n="37" v="828" retrait="2">ἐνταῖσ στρατιαῖσ</l>
+    <l n="38" v="829" retrait="2"><unclear cert="moyenne">ἔ</unclear>ρ ριπται τὸ σκιάδειον·</l>
     <l n="39" v="830">πόλλ᾽ ἂν αἱγυναῖκεσ ἡμεῖσἐν δίκη<unclear cert="moyenne">ι</unclear> μεμψαίμεθἀν</l>
     <l n="40" v="831">τοῖ σιν ἀν δράσιν δικαίωσ <unclear cert="moyenne">ἑ</unclear>ν δ᾽ ὑπερφυέστατον·</l>
     <l n="41" v="832">χρὴ<unclear cert="faible">νγ</unclear><unclear cert="faible">ἡ</unclear> μῶ ν εἰ τέκοι τίσ ἄνδρα χρηστὸν τῆι πόλει·</l>
-    <l n="42" v="833">ταξί αρχον ἢ στρατηγὸν· λαμβάνει<add place="ligne" main="R?">ν</add> τιμὴν <del type="biffure" main="R?">ποτε</del><add place="dessus" main="R2">τινα</add>·</l>
-    <l n="43" v="834">πρ οεδρ ί αν ταυτῆι· δί δοσθαι· τηνίοισι· <abbr signe="ϗ" dev="καί"/> σκίροισ</l>
+    <l n="42" v="833">ταξί αρχον ἢ στρατηγ<subst main="R?"><del type="surcharge">ό</del><add place="ligne">ὸ</add></subst>ν· λαμβάνει<add place="ligne" main="R?">ν</add> τιμήν <del type="biffure" main="R?">ποτε</del><add place="dessus" main="R2">τινα</add>·</l>
+    <l n="43" v="834">πρ οεδρ ί αν ταυτῆ<unclear cert="moyenne">ι</unclear> δί δοσθαι· τ<subst main="R?"><del type="biffure">ή</del><add place="ligne">η</add></subst>νίοισι· <abbr signe="ϗ" dev="καί"/> σκίροισ</l>
   </lignes>
   <notes>
-    <note>Lecture B (par passes) ; passe 1 achevée le 21 nov. (l. 41–43 lues) (lettres et mots, segments de 3 à 5 mots à ×3, original et CLAHE ; détails à ×4–×5 avec la décorrélation Lab).</note>
+    <note>Lecture B (par passes) ; passe 1 achevée le 21 nov. (l. 41–43 lues) ; passe 2 (diacritiques, sur le cliché et le fac-similé de 1904 recalé, ×3 puis ×7–×14) achevée le 21 nov. (lettres et mots, segments de 3 à 5 mots à ×3, original et CLAHE ; détails à ×4–×5 avec la décorrélation Lab).</note>
     <note>Reprise (20 nov.) : l. 15–16 recontrôlées à ×4–×6 (original, CLAHE, fac-similé de 1904 recalé). Corrigé à la l. 15 : ἑτέρωι → ετέρωι (aucun esprit sur l'Є, ni sur le cliché ni en 1904 ; l'aigu à x ≈ 476, y ≈ 1005 est celui de -τέ-) ; οὐδ → οὐδ᾽ (trois marques entre δ et σ : x ≈ 891 au-dessus de l'α, x ≈ 928 au-dessus du τ, grave x ≈ 971 : apostrophe, esprit de αὐ, accent de -τὸ, tous déportés à droite).</note>
     <note>Reprise (21 nov.) : l. 39–40 recontrôlées à ×5–×8. L. 39 : ἀν → ἂν (triangle d'esprit x 295–313, y 2001–2006, et grave oblique x 325–335, y 2000–2012, distinct de l'ι de la l. 38) ; μεμψαίμεθἂν → μεμψαίμεθἀν (une seule marque ronde au-dessus de α|ν, x 1108–1117, y 2014–2022 : esprit ; ni grave ni apostrophe visibles). L. 40 : ἓν → ἑν douteux (une seule marque ronde x 800–810, y 2048–2054 : esprit, sans accent visible).</note>
     <note ligne="41">Passe 1 (21 nov.) : après χρὴ (grave net, x 237–247, y 2093–2100), entre η et μ (x 248–305), ni α ni ρ : on voit un ν (jambage court puis longue diagonale montante, x 250–283), un V non plongeant (γ ou ν, x 262–288) qui croise cette diagonale, puis un ι à pied tourné à droite (x 290–300) surmonté d'une marque (x 295–303, y 2095–2101). Pas de γὰρ écrit en toutes lettres. Lecture provisoire, à trancher en passe 4. Fac-similé de 1904 identique.</note>
@@ -61,5 +61,22 @@
     <note ligne="35">Passe 2 : οἴ : esprit en crochet au-dessus de l'ο (x 403–410, y 1832–1840) et aigu « / » à droite de l'ι (x 432–439, y 1827–1836) ; le trait x 420–428, y 1820–1832 est la queue d'un μ de la l. 34. κῶν : point rond (x 515–521, y 1834–1840) au-dessus du ν, détaché de lui : circonflexe réduit (inattendu après οἴ), ou point haut ; d'où cert="faible". Esprit de αὐ déporté au-dessus du τ (x 586–591) ; circonflexe de αὐτῆ en point (x 644–650) ; pas d'ι adscrit à αὐτῆ.</note>
     <note ligne="37">Passe 2 : le trait au-dessus de l'α de στρα- (x 478–485, y 1912–1931) est la queue du ρ de ἑτέροισ (l. 36), non un accent. Circonflexes de ταῖσ (point, x ≈ 342) et de στρατιαῖσ (« ^ », x 573–578).</note>
     <note ligne="38">Passe 2 : ἔρ : esprit en crochet rejeté à gauche (x 209–216, y 1958–1970) ; trait court « / » (x 237–246, y 1948–1957), juste sous l'ε de la l. 37 dont il pourrait dépendre : aigu probable (non lu en passe 1).</note>
+    <note ligne="42">Passe 2 : τιμήν, non τιμὴν (passe 1) : un seul trait, montant vers la droite (x 961–968, y 2144–2154), aigu net sur le cliché et sur le fac-similé de 1904 (correct devant l'enclitique ποτε). στρατηγὸν : au-dessus de l'ο, long trait « \ » (x 610–640, y 2128–2146) croisé près de son extrémité droite par un court trait montant (x 629–637, y 2132–2141) : croix ; le court trait, du module des aigus de T, est lu comme l'aigu premier, le long grave comme ajouté (Velsen 1883 : στρατηγὸν· corr. ex στρατηγόν·) ; ordre des tracés non lisible. λαμβάνειν : après la ligature ει (ι descendant jusqu'à y ≈ 2195), un ν réduit (x 856–870, y 2156–2172), serré contre le τ de τιμήν et non lié à ει : ajout probable (Velsen 1883 : λαμβάνει R corr. in λαμβάνειν R²) ; encre indiscernable de T. ταξί αρχον : aigu (x 283–292, y 2135–2148) à droite de l'ι, sur la coupe (blanc de 15 px entre ι et α) ; pas d'esprit sur α. ἢ : esprit en crochet (x 418–433) et grave court (x 443–450).</note>
+    <note ligne="43">Passe 2 : ταυτῆι : circonflexe réduit à un losange (x 545–552, y 2183–2191) ; puis une seule marque avant δί (x 554–563, y 2202–2212), petite haste à pied tourné à droite, du module de l'ι adscrit de τῆι (l. 41) : ι adscrit plutôt que point (aucun autre point entre η et δ, au contraire de la passe 1) ; pas d'esprit sur αυ. τηνίοισι : au-dessus de η|ν, petite croix pâle avec un point (x 811–824, y 2187–2199 ; plus nette sur le fac-similé de 1904), encre grise (G/R 1,26 ; B/R 1,90), non orangée : aigu de τή- annulé (Velsen 1883 : τηνίοισι corr. ex τήνιοισι) ; aigu actuel au-dessus de ι|ο (x 862–871, y 2188–2199), à l'encre de T (G/R 1,26 ; B/R 2,17), distinct de l'ι descendant de λαμβάνειν (l. 42, x ≈ 845–850) : ajouté ou d'origine, indécidable. Point de fin de τηνίοισι en tiret court (x 939–944, y ≈ 2205). ϗ (x 947–964) surmonté d'un grave (x 949–955, y 2186–2193).</note>
+    <note ligne="41">Passe 2 : τῆι : circonflexe en crochet (x 952–958, y 2098–2105) ; ι adscrit court (x 965–972, y 2108–2118), séparé de la haste du φ de ὑπερφυέστατον (l. 40), qui s'arrête vers y 2103. ἄνδρα : esprit en coin (x 683–693, y 2095–2102) et aigu (x 703–709, y 2085–2095). μῶ ν : blanc de 16 px entre ω et ν.</note>
+    <note ligne="23">Passe 3 : ἀλλ᾽ : trois marques distinctes au-dessus de ἀλλ ἡ- : coin (esprit de ἀ, x 248–255, y 1322–1331), crochet en « ^ » au-dessus du second λ (x 267–278, y 1317–1325 : apostrophe), point (esprit de ἡ, x 300–307, y 1328–1333). Les deux marques de la marge gauche de la l. 22 (x 248–278, y 1312–1331) sont ces signes de la l. 23.</note>
+    <note ligne="3">Passe 3 : second τ de κἀντιτιθῶμεν (x 840–865) écrit sur grattage probable : fond éclairci et marbré autour de la lettre (CLAHE, x 835–870), τ plus mince que le premier (vert en décorrélation) ; au-dessus de sa barre, trait oblique pâle (x 848–856, y 478–492), net sur le fac-similé de 1904 : reste de la lettre grattée plutôt qu'accent. Encre du τ indiscernable de celle de T. Velsen 1883 : alterum τ in rasura est R. Blanc de ≈ 10 px avant ce τ : coupe ordinaire.</note>
+    <note ligne="5">Passe 3 : petit « × » au-dessus de ρ|α (x 276–300, y 539–560) : grave de T barré d'un trait orangé (ΔB/R +0,67, n = 35) ; encodage du guide, ex. 4 (Velsen 1871 : παρὰ βάλλουσαι I m., παραβάλλουσαι 2 m.).</note>
+    <note ligne="7">Passe 3 : ϊ suscrit au-dessus de σ|μ (haste x 296–302, y 640–660 ; points x 293–305, y 627–636), encre de T (G/R 1,31 ; B/R 2,24), non orangée : main indéterminée (R² Velsen 1883 ; 2 m. Velsen 1871). Trace pâle en deux points au-dessus de υ|σ (x 260–275, y 642–650), plus nette sur le fac-similé de 1904 : circonflexe de ναῦσ gratté possible (Velsen 1883 : ναῦσ μάχησ R corr. R²). δηλαδητ᾽ἄργα : quatre marques au-dessus de τ, α, ρ : point rond x 1010–1020 (y 657–665) juste après le τ, lu apostrophe (ou circonflexe de δηλαδῆ déporté : δηλαδῆ selon le répertoire, δηλαδή selon Velsen 1883) ; point rond x 1038–1048 (esprit de ἀ) ; petit point x 1062–1068 (y 667–673), inexpliqué ; trait oblique mince et pâle x 1076–1084 (y 664–672), au-dessus de ρ|γ : aigu ajouté sur ἄ (Velsen 1883 : γα in ras. scripsit R², quae etiam accentum super ἄ adiecit). γα sur grattage (fond marbré, lettres plus denses). Point de fin de vers à x ≈ 1150, y ≈ 688 : rond et net sur le fac-similé de 1904, très pâle aujourd'hui (A_R 0,05). La tache noire sous l'α final (x 1118–1132, y 692–706 ; B/R 1,79) n'est pas transcrite.</note>
+    <note ligne="9">Passe 3 : second λ exponctué (trois points au-dessus, un ou deux au-dessous), encre brune : R² Velsen 1883, B Allen ; main non démontrable par la forme. À la suite du texte, glose de S2 πόρνης ὄνομα (x 775–960), non transcrite ici.</note>
+    <note ligne="10">Passe 3 : grave de πρὸσ ajouté à l'encre orangée (x 241–250, y 772–789 ; G/R 1,78 ; B/R 3,26), sur un προσ sans accent (guide § 1.5 : Rrec ; Velsen 1871 : 2 m. ; Velsen 1883 : R²).</note>
+    <note ligne="12">Passe 3 : signal de T dans la marge gauche (x 110–130, y 885–905) : courbe en « ⋎ » à branche gauche plus haute, avec un point en haut à droite (x ≈ 133, y ≈ 880) et un point en bas (x ≈ 122, y ≈ 908) ; aucune correction dans le vers. Circonflexe de ἐγχειρεῖ : crochet mince (x 963–978, y 872–880), de la forme des circonflexes en crochet de T (τῆι, l. 41) : ajout non démontrable (Velsen 1883 : εγχειρει R corr. in ἐγχειρεῖ R²). Le trait fin qui part de la fin de la ligne vers la marge (y ≈ 900–915) est un pli, sans encre (B/R 1,9 au point x ≈ 1214).</note>
+    <note ligne="20">Passe 3 : après ται (fini vers x 545), trait à l'encre orangée (x 563–581, y 1247–1258 ; G/R 1,69 ; B/R 3,34 contre 1,28 ; 2,08 pour T à côté ; orangé vif en décorrélation), mince en haut à droite et épais en bas à gauche, sous la ligne de base : virgule de 1516 après ὑφέληται. Il pourrait aussi être un accent ajouté sur τἀνδρὸσ (l. 21), mais celui-ci a déjà son grave de T (x 596–604, y 1238–1246). Le trait oblique x 715–722, y 1235–1245 est l'aigu de κλέψασα (l. 21), non une ponctuation.</note>
+    <note ligne="21">Passe 3 : repère de la Juntine (c 5, Velsen 1871 : v. 812 R — 5) : trait gris très fin dans l'interligne 20/21, de x ≈ 107 (petit crochet) jusqu'au-dessus du φ (x ≈ 205), matière grise sans charge (G/R 1,03 ; B/R 1,32) ; dans la marge extrême, barre grise x 27–52, y 1224–1228 (G/R 1,05 ; B/R 1,29) et traces illisibles au-dessous : « 5 » lu seulement d'après Velsen 1871. φ initial de φορμὸν (x 155–193) d'un module un peu supérieur (≈ 40 px contre ≈ 32 px pour le φ initial de la l. 16), à hampe démesurée : pas d'initiale agrandie encodée (guide § 2.2).</note>
+    <note ligne="22">Passe 3 : point de fin de vers en tiret court (x 668–675, y 1308–1314), à mi-hauteur, à 30 px de κεν ; le trait au-dessous (x 675–682, y 1325–1335) est l'accent de τούτων (l. 23).</note>
+    <note ligne="35">Passe 3 : un seul point après λόγχηι (x ≈ 813, y ≈ 1853) ; le trait oblique au-dessous (x 812–822, y 1873–1880) est l'aigu de ὤμων (l. 36), dont l'esprit est à x ≈ 797. À la suite du texte, glose de S2 τῶι σιδήρωι ÷, non transcrite.</note>
+    <note ligne="42">Passe 3 : τινα suscrit : petite minuscule inclinée, ν en Ν oncial (critère de S2), encre dans la plage de T et de S2 (ΔB/R +0,06) : R2. Trait de biffure de ποτε (x 990–1106, y 2158–2166) : prolongement isolé mesuré sans orangé (ΔB/R −0,23, n = 86) : main indéterminée (l'inventaire le disait plus orangé, mesure prise sur les lettres). Point final x ≈ 1112–1120, y ≈ 2160.</note>
+    <note>Passe 3 : contrôle systématique des petites taches d'encre de la colonne (composantes isolées du masque d'encre, rangées par ligne) : points ajoutés aux l. 7 (fac-similé de 1904) et 22 ; points vérifiés éloignés du mot qui précède aux l. 6 (x ≈ 730), 16 (x ≈ 553, à 110 px de φήσεισ) et 41 (x ≈ 1077). Écartés : point gris au début de la l. 16 (x ≈ 313, B/R 1,29 : souillure), point gris après γε (l. 28, x ≈ 1047, B/R 1,51), point en tête de ligne de scholie (l. 17, x ≈ 1200 : « • » de S2), signes des lignes voisines (débuts des l. 6, 14, 22 : ϊ et accent de la l. 7, grave de παραδοὺσ, esprit et apostrophe de la l. 23). Gloses et scholies de S2 voisines du texte (l. 9, 32, 34–39) non transcrites.</note>
+    <note>Retraits (passe 3) : mesurés au premier trait d'encre du texte (signal et marges exclus), contre x ≈ 170, départ ordinaire des lignes pleines (l. 10–21, 39–43) ; la page n'a pas de trimètres (guide § 2.10). Départs relevés : l. 1 x ≈ 250 ; lignes pleines des l. 3–8 entre 196 et 208 ; suites de vers vers le milieu de la colonne (l. 2, 4, 6, 9, 11 : x 385–397 ; l. 14, 16, 20 : 345–352 ; l. 22 : 375) ; Π agrandi de la l. 15 à x ≈ 143 ; pnigos (l. 23–38) entre 201 et 227, sauf l. 33 (x ≈ 171).</note>
   </notes>
 </page>

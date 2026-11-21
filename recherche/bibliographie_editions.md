@@ -815,7 +815,7 @@ T seul ; DP : oui ; pas de numérisation trouvée.
 - Texte : « La presente edizione si basa sui testi critici […] di PRATO (per le Tesmoforiazuse, la nuova edizione
   curata da C. AUSTIN e S. D. OLSON è stata pubblicata quando il presente volume era già in bozze) » (« Nota
   critica », p. 63) ; les écarts par rapport à Prato sont discutés p. 81-88 (une trentaine de lieux, du v. 18 au
-  v. 1215). Relevé : `edition/donnees/repertoire_critique/mastromarco_totaro2006_1-1231.jsonl`.
+  v. 1215). Relevé : `edition/donnees/repertoire_critique/mastromarcototaro2006_1-1231.jsonl`.
 
 **E54. 2007 — Nigel G. Wilson, Oxford (OCT).**
 - Réf. : *Aristophanis fabulae*, recognovit brevique adnotatione critica instruxit N. G. Wilson, Oxonii, e

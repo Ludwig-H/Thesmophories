@@ -31,7 +31,8 @@ import concordance
 COLONNES = {'velsen1883': 'velsen1883', 'wilson2007': 'wilson2007', 'prato2001': 'prato2001',
             'enger1844': 'enger1844', 'blaydes1880': 'blaydes1880', 'vanleeuwen1904': 'vanleeuwen1904',
             'hallgeldart1907': 'hg1907', 'fritzsche1838': 'fritzsche1838', 'invernizi': 'invernizi1794',
-            'rogers1904': 'usuel', 'iunta1515': 'hg_perseus'}
+            'rogers1904': 'usuel', 'iunta1515': 'hg_perseus',
+            'mastromarcototaro2006': 'prato2001'}
 
 # formes latines → formes usuelles (complété par la forme entre parenthèses fournie par les relevés)
 LATIN = {

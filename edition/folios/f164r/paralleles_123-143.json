@@ -1135,6 +1135,20 @@
  },
  {
   "v": "124",
+  "lemme": "ὕμνων",
+  "categorie": "lexicographes",
+  "ref": "Hsch. υ 188",
+  "urn": "",
+  "citation": "ὑμνεῖ· εὐλογεῖ, ᾄδει",
+  "traduction": "hymnei : il célèbre, il chante",
+  "verifie": "corpus",
+  "verification": "chercher.py -a 'Hsch.' -o gloses (Hansen–Cunningham IV, p. 102)",
+  "signale_par": "dépouillement d'Hésychius (contrôle des lemmes du 21 nov.)",
+  "pertinence": 1,
+  "remarque": ""
+ },
+ {
+  "v": "124",
   "lemme": "κίθαρίν",
   "categorie": "lexicographes",
   "ref": "Hsch. φ 776",
@@ -1235,15 +1249,15 @@
   "v": "125",
   "lemme": "ἄρσενι βοᾷ",
   "categorie": "tragiques",
-  "ref": "Soph. fr. 480.2–3 N.²",
-  "urn": "",
+  "ref": "Soph. fr. 523.2–3 R. (Polyxena)",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Vol. 4 Sophocles by Radt, Stefan (ed.) (z-lib.org).pdf#pdf403",
   "citation": "ἄρσενας χοὰς / Ἀχέροντος ὀξυπλῆγας ἠχούσας γόους",
   "traduction": "les flots mâles de l'Achéron, qui font retentir des gémissements aigus",
   "verifie": "scan",
-  "verification": "Nauck, TGF², p. 246, image (ia:tragicorumgraeco00naucuoft n277) ; texte transmis par Porphyre ap. Stob. Ecl. 1.49.50 ; numéro de Radt non contrôlé",
+  "verification": "image, TrGF IV, p. 405 (PDF p. 403), F 523 (480 N.²), ex Apollod. Π. θεῶν 20 ap. Stob. 1.49.50 ; auparavant : Nauck, TGF², p. 246, image (ia:tragicorumgraeco00naucuoft n277) ; texte transmis par Porphyre ap. Stob. Ecl. 1.49.50 ; numéro de Radt non contrôlé",
   "signale_par": "Blaydes 1880, p. 145 ; van Leeuwen 1904, p. 24 ; LSJ s.v. ἄρσην",
   "pertinence": 3,
-  "remarque": "Polyxène, ombre d'Achille : ἄρσενας est transposé et le mot ἠχούσας corrigé par les éditeurs (Heyne, Grotius) ; Meineke ἄρσενας ῥοάς"
+  "remarque": "Polyxène, ombre d'Achille : ἄρσενας est transposé et le mot ἠχούσας corrigé par les éditeurs (Heyne, Grotius) ; Meineke ἄρσενας ῥοάς ; Apollodore (ap. Stob.) glose ἄρσενας χοάς : θήλεα μὲν γὰρ τὰ καρποφόρα, ἄρσενα δὲ τὰ ἄγονα ἔλεγον (« mâle » = stérile) ; = fr. 480.2–3 N.²"
  },
  {
   "v": "125",
@@ -2073,6 +2087,20 @@
  },
  {
   "v": "126",
+  "lemme": "δαιμονίοις",
+  "categorie": "lexicographes",
+  "ref": "Hsch. δ 76",
+  "urn": "",
+  "citation": "δαιμονίην· μακαρίαν, θειοτάτην",
+  "traduction": "daimoniè : bienheureuse, très divine",
+  "verifie": "corpus",
+  "verification": "chercher.py -a 'Hsch.' -o gloses (Latte I, p. 535)",
+  "signale_par": "dépouillement d'Hésychius (contrôle des lemmes du 21 nov.)",
+  "pertinence": 1,
+  "remarque": "δαιμόνιος = « des dieux », comme δαιμονίοις ὄμμασιν"
+ },
+ {
+  "v": "126",
   "lemme": "ἔσσυτο",
   "categorie": "lexicographes",
   "ref": "Hsch. ε 6351",
@@ -2096,6 +2124,20 @@
   "verifie": "corpus",
   "verification": "gloses décodées Hansen–Cunningham IV, p. 145 (PDF p. 177) ; renvoi de l'éd. à ψ 245",
   "signale_par": "dépouillement d'Hésychius",
+  "pertinence": 1,
+  "remarque": ""
+ },
+ {
+  "v": "126",
+  "lemme": "φάος",
+  "categorie": "lexicographes",
+  "ref": "Hsch. φ 157",
+  "urn": "",
+  "citation": "φάος ἠελίοιο· ἡ αὐγή",
+  "traduction": "la lumière du soleil : l'éclat",
+  "verifie": "corpus",
+  "verification": "chercher.py -a 'Hsch.' -o gloses (Hansen–Cunningham IV, p. 145)",
+  "signale_par": "dépouillement d'Hésychius (contrôle des lemmes du 21 nov.)",
   "pertinence": 1,
   "remarque": ""
  },
@@ -2955,6 +2997,20 @@
  },
  {
   "v": "128",
+  "lemme": "ἄνακτ᾽",
+  "categorie": "lexicographes",
+  "ref": "Hsch. α 4376",
+  "urn": "",
+  "citation": "ἄνακτα· βασιλέα",
+  "traduction": "anakta : roi",
+  "verifie": "corpus",
+  "verification": "chercher.py -a 'Hsch.' -o gloses (Latte I, p. 205)",
+  "signale_par": "dépouillement d'Hésychius (contrôle des lemmes du 21 nov.)",
+  "pertinence": 1,
+  "remarque": "ἄνακτ᾽ … Φοῖβον : l'épithète homérique du dieu"
+ },
+ {
+  "v": "128",
   "lemme": "ἄνακτ᾽ ἄγαλλε Φοῖβον",
   "categorie": "lexicographes",
   "ref": "Hsch. φ 678",
@@ -3699,15 +3755,15 @@
   "v": "130",
   "lemme": "ὡς ἡδὺ τὸ μέλος",
   "categorie": "tragiques",
-  "ref": "Eur. fr. 443 N.²",
-  "urn": "urn:cts:greekLit:tlg0006.tlg020.1st1K-grc1:443",
+  "ref": "Eur. fr. 443 Kannicht (Hipp. Kal.)",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 5 Euripides by Kannicht, Richard  (ed.) (z-lib.org).pdf#pdf471",
   "citation": "ὦ λαμπρὸς αἰθὴρ ἡμέρας θ' ἁγνὸν φάος, / ὡς ἡδὺ λεύσσειν",
   "traduction": "ô éther brillant, et pure lumière du jour, comme il est doux de voir…",
-  "verifie": "corpus",
-  "verification": "chercher.py '\"ὡς ἡδὺ\"' -a Eur (Hippolyte voilé)",
+  "verifie": "scan",
+  "verification": "image, TrGF V, p. 473 (PDF p. 471), F 443, ex Stob. 4.52.12 ; auparavant : chercher.py '\"ὡς ἡδὺ\"' -a Eur (Hippolyte voilé)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "tour tragique, avec invocation en tête : même patron exclamation + vocatif, inversé"
+  "remarque": "tour tragique, avec invocation en tête : même patron exclamation + vocatif, inversé ; = fr. 443 N.²"
  },
  {
   "v": "130",
@@ -3946,6 +4002,20 @@
   "signale_par": "dépouillement d'Hésychius",
   "pertinence": 2,
   "remarque": "lieu du culte : Prato, ad 130"
+ },
+ {
+  "v": "130",
+  "lemme": "ὦ πότνιαι Γενετυλλίδες",
+  "categorie": "lexicographes",
+  "ref": "Hsch. π 3156",
+  "urn": "",
+  "citation": "[ποτνιάζειν· τὸ παιδικοῖς χρῆσθαι. πότνιον γὰρ τὸν δακτύλ⟨ι⟩ον λέγουσι]",
+  "traduction": "potniazein : user de garçons ; car on appelle potnion l'anus",
+  "verifie": "corpus",
+  "verification": "chercher.py -a 'Hsch.' -o gloses (Hansen III, p. 156)",
+  "signale_par": "dépouillement d'Hésychius (contrôle des lemmes du 21 nov.)",
+  "pertinence": 2,
+  "remarque": "glose entre crochets dans l'édition (Hansen III, p. 156 : suspecte) ; si elle est ancienne, πότνιαι pourrait faire jeu de mots avec le γάργαλος « sous le fondement » (v. 133) : rapprochement à examiner, non trouvé chez Austin–Olson, Sommerstein ni Henderson (Maculate Muse, § 482 : liste des objets d'Agathon) — recherche du 21 nov."
  },
  {
   "v": "130",
@@ -6651,6 +6721,20 @@
  },
  {
   "v": "135",
+  "lemme": "ἐρέσθαι",
+  "categorie": "lexicographes",
+  "ref": "Hsch. ε 5727",
+  "urn": "",
+  "citation": "ἔρεσθαι· πυνθάνεσθαι. ἐρωτᾶν",
+  "traduction": "éresthai : s'informer, interroger",
+  "verifie": "corpus",
+  "verification": "chercher.py -a 'Hsch.' -o gloses (Latte II, p. 237)",
+  "signale_par": "dépouillement d'Hésychius (contrôle des lemmes du 21 nov.)",
+  "pertinence": 1,
+  "remarque": "cf. Phot. ε 1904 (au fichier)"
+ },
+ {
+  "v": "135",
   "lemme": "ἐκ τῆς Λυκουργείας",
   "categorie": "lexicographes",
   "ref": "Hsch. ε 907",
@@ -7656,6 +7740,20 @@
   "signale_par": "dépouillement d'Hésychius (reprise)",
   "pertinence": 2,
   "remarque": "ποδαπός : le seul article du lexique sur le mot"
+ },
+ {
+  "v": "136",
+  "lemme": "τίς ἡ στολή",
+  "categorie": "lexicographes",
+  "ref": "Hsch. σ 1902",
+  "urn": "",
+  "citation": "στολή· στάσις. πορεία. κίνησις. ἔνδυμα, καὶ περιβόλαιον",
+  "traduction": "stolè : position, expédition, mouvement ; vêtement, manteau",
+  "verifie": "corpus",
+  "verification": "chercher.py -a 'Hsch.' -o gloses (Hansen III, p. 352)",
+  "signale_par": "dépouillement d'Hésychius (contrôle des lemmes du 21 nov.)",
+  "pertinence": 2,
+  "remarque": "les deux sens du mot, l'équipée (Aesch. Supp. 764, cité par l'éd.) et l'habit : le second ici, dans un vers tragique"
  },
  {
   "v": "136",
@@ -9509,6 +9607,20 @@
   "v": "138",
   "lemme": "κεκρυφάλῳ",
   "categorie": "lexicographes",
+  "ref": "Hsch. κ 2111",
+  "urn": "",
+  "citation": "κεκρυφάλους· τοὺς τῶν ἵππων κορυφαστῆρας, καὶ κροκυφάντους",
+  "traduction": "kékryphaloi : les têtières des chevaux, et les coiffes tissées",
+  "verifie": "corpus",
+  "verification": "chercher.py -a 'Hsch.' -o gloses (Latte II, p. 579)",
+  "signale_par": "dépouillement d'Hésychius (contrôle des lemmes du 21 nov.)",
+  "pertinence": 2,
+  "remarque": "κροκύφαντος, coiffe de femme (Archil.) : cf. Phot. κ 541 (au fichier)"
+ },
+ {
+  "v": "138",
+  "lemme": "κεκρυφάλῳ",
+  "categorie": "lexicographes",
   "ref": "Hsch. κ 3298",
   "urn": "drive:hsch:II#pdf645",
   "citation": "κόκκυξ· τὸ ζῷον. ἢ τὸ ὄρνεον. καὶ ἡ βοτάνη. καὶ ὁ πρόβολος. καὶ τοῦ ἱεροῦ ὀστέου τὸ πρὸς τοῖς ἰσχίοις. καὶ λόφος. καὶ περικεφαλαία",
@@ -10851,6 +10963,20 @@
  },
  {
   "v": "139",
+  "lemme": "ὡς οὐ ξύμφορον",
+  "categorie": "lexicographes",
+  "ref": "Hsch. σ 2360",
+  "urn": "",
+  "citation": "σύμφορον· ἁρμόζον, καλόν, συμφέρον, σύμφωνον",
+  "traduction": "symphoron : qui s'ajuste, beau, utile, qui s'accorde",
+  "verifie": "corpus",
+  "verification": "chercher.py -a 'Hsch.' -o gloses (Hansen III, p. 372)",
+  "signale_par": "dépouillement d'Hésychius (contrôle des lemmes du 21 nov.)",
+  "pertinence": 2,
+  "remarque": "ξύμφορον au sens de « assorti, accordé » (σύμφωνον) : la disconvenance des objets ; cf. le proverbe παρόσον οὐ συμφωνεῖ (Prov. L² V b 16 Cohn, au fichier)"
+ },
+ {
+  "v": "139",
   "lemme": "λήκυθος",
   "categorie": "lexicographes",
   "ref": "Phot. λ 258",
@@ -11315,15 +11441,15 @@
   "v": "140",
   "lemme": "κατρόπτου",
   "categorie": "tragiques",
-  "ref": "Aesch. fr. 393 N.² (Ath. 10.31, 427e–428b)",
-  "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc3:10.31",
+  "ref": "Aesch. fr. 393 R. (Ath. 10.427f)",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 3 Aeschylus by Radt, Stefan (ed.) (z-lib.org).pdf#pdf429",
   "citation": "κάτοπτρον εἴδους χαλκός ἐστ', οἶνος δὲ νοῦ",
   "traduction": "le miroir de la forme, c'est le bronze ; celui de l'esprit, le vin",
-  "verifie": "corpus",
-  "verification": "Ath. 10.31 (texte anonyme, γὰρ inséré par Athénée, Kaibel : (γὰρ)) ; numéro : LSJ s.v. κάτοπτρον (A. Fr. 393)",
+  "verifie": "scan",
+  "verification": "image, TrGF III, p. 436 (PDF p. 429), F 393 (incertarum fabularum) ; auparavant : Ath. 10.31 (texte anonyme, γὰρ inséré par Athénée, Kaibel : (γὰρ)) ; numéro : LSJ s.v. κάτοπτρον (A. Fr. 393)",
   "signale_par": "LSJ s.v. κάτοπτρον",
   "pertinence": 2,
-  "remarque": "sentence, entre les mains des parémiographes (CPG II, index p. 810 : κάτοπτρον εἴδους χαλκός)"
+  "remarque": "sentence, entre les mains des parémiographes (CPG II, index p. 810 : κάτοπτρον εἴδους χαλκός) ; = fr. 393 N.²"
  },
  {
   "v": "140",
@@ -11413,15 +11539,15 @@
   "v": "140",
   "lemme": "κατρόπτου",
   "categorie": "tragiques",
-  "ref": "Eur. fr. 322.1–3 N.²",
-  "urn": "urn:cts:greekLit:tlg0006.tlg020.1st1K-grc1:322",
+  "ref": "Eur. fr. 322.1–3 Kannicht (Danae)",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 5 Euripides by Kannicht, Richard  (ed.) (z-lib.org).pdf#pdf373",
   "citation": "ἔρως γὰρ ἀργὸν κἀπὶ τοιούτοις ἔφυ· / φιλεῖ κάτοπτρα καὶ κόμης ξανθίσματα, / φεύγει δὲ μόχθους",
   "traduction": "car l'amour est chose oisive et né pour cela : il aime miroirs et cheveux teints en blond, il fuit les labeurs",
-  "verifie": "corpus",
-  "verification": "chercher.py (index du corpus) : tlg0006.tlg020.1st1K-grc1:322",
+  "verifie": "scan",
+  "verification": "image, TrGF V, p. 375 (PDF p. 373), F 322, ex Stob. 4.20.40 ; auparavant : chercher.py (index du corpus) : tlg0006.tlg020.1st1K-grc1:322",
   "signale_par": "Austin–Olson 2004, ad 140 (« cf. E. fr. 322. 2 »)",
   "pertinence": 2,
-  "remarque": "Danaé ; numérotation de Nauck (identique dans TrGF selon Austin–Olson)"
+  "remarque": "Danaé ; numérotation de Nauck (identique dans TrGF selon Austin–Olson) ; = fr. 322.1–3 N.²"
  },
  {
   "v": "140",
@@ -11870,6 +11996,20 @@
   "signale_par": "dépouillement d'Hésychius (reprise)",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "140",
+  "lemme": "ξίφους",
+  "categorie": "lexicographes",
+  "ref": "Hsch. ξ 77",
+  "urn": "",
+  "citation": "ξιφισμάτων· ὀρχημάτων",
+  "traduction": "xiphismata : figures de danse",
+  "verifie": "corpus",
+  "verification": "chercher.py -a 'Hsch.' -o gloses (Latte II, p. 906)",
+  "signale_par": "dépouillement d'Hésychius (contrôle des lemmes du 21 nov.)",
+  "pertinence": 1,
+  "remarque": "le ξιφισμός, figure de danse (Ath. 14.629f, au fichier) : l'épée aussi a sa place dans l'orchestique"
  },
  {
   "v": "140",
