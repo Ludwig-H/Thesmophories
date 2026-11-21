@@ -533,6 +533,20 @@
  },
  {
   "v": "124",
+  "lemme": "κίθαρίν",
+  "categorie": "tragiques",
+  "ref": "Eur. fr. 752g.8–12 Kannicht (Hyps.)",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 5 Euripides by Kannicht, Richard  (ed.) (z-lib.org).pdf#pdf749",
+  "citation": "μέσῳ δὲ παρ᾽ ἱστῶι / Ἀσιὰς ἔλεγον ἰήιον / Θρῇσσ᾽ ἐβόα κίθαρις {Ὀρφέως} / μακροπόλων πιτύλων / ἐρέταισι κελεύσματα μελπομένα",
+  "traduction": "au pied du mât, la cithare thrace, l'Asiade, criait un chant de deuil, rythmant pour les rameurs les longs battements des rames",
+  "verifie": "scan",
+  "verification": "image, TrGF V, p. 751 (PDF p. 749), F 752g (P. Oxy. 852 fr. 1 col. iii = I iii Bond)",
+  "signale_par": "Prato 2001, ad 124 (« Eur. Hyps. I iii 10 Bond ») ; non vérifiés antérieurs (TrGF V sur le disque, 21 nov.)",
+  "pertinence": 2,
+  "remarque": "Ἀσιάς et κίθαρις réunies, comme κρούματα Ἀσιάδος (v. 120) et κίθαριν (v. 124) : la cithare « asiade » de la lyrique d'Euripide, que le chant d'Agathon imite"
+ },
+ {
+  "v": "124",
   "lemme": "ματέρ᾽ ὕμνων",
   "categorie": "tragiques",
   "ref": "Soph. Aj. 172–174",
@@ -796,6 +810,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "Hermès chantant à la lyre, devant Apollon : la « mère » du chant, ici déesse ; là-bas instrument"
+ },
+ {
+  "v": "124",
+  "lemme": "κίθαρίν",
+  "categorie": "poetes",
+  "ref": "Alc. fr. 41.15 V.",
+  "urn": "drive:Grec/Sapho/Sappho et Alcaeus. Fragmenta by Voigt, Eva-Maria (ed.) (z-lib.org).pdf#pdf201",
+  "citation": "] κίθαρις δ[",
+  "traduction": "… la cithare …",
+  "verifie": "scan",
+  "verification": "image, Voigt, p. 193 (PDF p. 201), fr. 41 (83 L.-P.), v. 15 ; CRIT : 15 ΚΙΘ (P. Oxy. 1233)",
+  "signale_par": "Prato 2001, ad 124 ; LSJ s.v. κίθαρις ; non vérifiés antérieurs (Voigt sur le disque, 21 nov.)",
+  "pertinence": 1,
+  "remarque": "la forme κίθαρις dans la lyrique éolienne ; fragment de papyrus (P. Oxy. 1233), contexte perdu (τέμενος, κορύφαν πόλιος, Ἀφρόδιτα aux v. 17–19)"
  },
  {
   "v": "124",
@@ -2369,6 +2397,20 @@
   "v": "128",
   "lemme": "ἄγαλλε",
   "categorie": "testimonium",
+  "ref": "Phot. α 164",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf106",
+  "citation": "ἀγῆλαι· τιμῆσαι. τῶν πάνυ δὲ Ἀττικῶν ἐστιν ἡ λέξις. καὶ ἀγήλω καὶ ἀγαλοῦμεν ἐρεῖς καὶ „ἄγαλλε“ καὶ προσαγαλεῖ τὸν θεόν, ἀντὶ τοῦ εὔξεται καὶ τιμήσει … τὸ δὲ ἀγῆλαι κωμῳδικὸν καὶ ἐγγὺς γλώττης",
+  "traduction": "ἀγῆλαι : honorer. Le mot est du plus pur attique ; tu diras ἀγήλω, ἀγαλοῦμεν, « ἄγαλλε » et προσαγαλεῖ τὸν θεόν pour « il priera, il honorera » … ἀγῆλαι est un mot de comédie, voisin des gloses",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 24 (PDF p. 106), gl. 164 ; Theodoridis identifie „ἄγαλλε“ à Ar. Thesm. 128",
+  "signale_par": "testimonia de l'auteur (Photius α 164) ; non vérifiés antérieurs (Theodoridis I indexé le 21 nov.)",
+  "pertinence": 3,
+  "remarque": "source : Phryn. PS fr. 6a (φησὶν ὁ Φρύνιχος) ; idem Synag. Σᵇ α 145 (προσαγήλει), au fichier"
+ },
+ {
+  "v": "128",
+  "lemme": "ἄγαλλε",
+  "categorie": "testimonium",
   "ref": "Synag. Σᵇ α 145",
   "urn": "drive:Grec/Lexiques/Synagoge/Synagoge.pdf#pdf540",
   "citation": "ἀγῆλαι· τιμῆσαι θεόν, ἀγλαΐσαι. ‖ ἔστι δὲ ἡ λέξις τῶν πάνυ Ἀττικῶν. καὶ ἀγήλω καὶ ἀγαλοῦμεν ἐρεῖς, καὶ ἄγαλλε καὶ προσαγήλει τὸν θεόν, ἀντὶ τοῦ εὔξεται καὶ τιμήσει",
@@ -2742,6 +2784,20 @@
   "signale_par": "dépouillement d'Hésychius (reprise)",
   "pertinence": 2,
   "remarque": "ἀγάλλου, ἱλάσκου : le sens de « se concilier le dieu »"
+ },
+ {
+  "v": "128",
+  "lemme": "ἄγαλλε",
+  "categorie": "lexicographes",
+  "ref": "Phot. α 163",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf106",
+  "citation": "ἀγῆλαι· τιμῆσαι θεόν, ἀγλαΐσαι. Εὔπολις Δήμοις … Ἀριστοφάνης Εἰρήνῃ … Ἕρμιππος Ἀρτοπώλισι … Θεόπομπος Πηνελόπῃ",
+  "traduction": "ἀγῆλαι : honorer un dieu, le parer ; exemples d'Eupolis (Dèmes), d'Aristophane (Paix 396–399), d'Hermippos (Boulangères), de Théopompe (Pénélope)",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 24 (PDF p. 106), gl. 163",
+  "signale_par": "Photius α–μ (Theodoridis I), recherche directe",
+  "pertinence": 2,
+  "remarque": "la glose réunit les quatre exemples comiques de ἀγῆλαι/ἀγάλλω cultuels, tous au fichier (Eup. fr. 119 K., Pax 397, Hermipp. fr. 8 K., Theopomp. fr. 47 K.)"
  },
  {
   "v": "128",
@@ -3581,7 +3637,7 @@
   "verification": "p.py Pind. Ol. 10.93–94",
   "signale_par": "Prato 2001, ad 130–132",
   "pertinence": 2,
-  "remarque": "cf. Pind. Ol. 6.96–97 ἁδύλογοι … λύραι ; Sapph. fr. 44.24 V. (Prato, non vérifié)"
+  "remarque": "cf. Pind. Ol. 6.96–97 ἁδύλογοι … λύραι ; Sapph. fr. 44.24 V. (au fichier)"
  },
  {
   "v": "130",
@@ -3596,6 +3652,20 @@
   "signale_par": "Prato 2001, ad 130–132",
   "pertinence": 2,
   "remarque": "la douceur de la phorminx ; Prato cite aussi Ol. 6.96, 10.93 ; Sapph. fr. 44.24 V. αὖλος δ' ἀδυμέλης"
+ },
+ {
+  "v": "130",
+  "lemme": "ὡς ἡδὺ τὸ μέλος",
+  "categorie": "poetes",
+  "ref": "Sapph. fr. 44.24–26 V.",
+  "urn": "drive:Grec/Sapho/Sappho et Alcaeus. Fragmenta by Voigt, Eva-Maria (ed.) (z-lib.org).pdf#pdf74",
+  "citation": "αὖλος δ᾽ ἀδυ[μ]έλης[ … ]τ᾽ ὀνεμίγνυ[το … ]ως δ᾽ ἄρα πάρ[θενοι / ἄειδον μέλος ἄγν[ον",
+  "traduction": "l'aulos aux doux accents se mêlait … et les jeunes filles chantaient un chant sacré",
+  "verifie": "scan",
+  "verification": "image, Voigt, p. 66 (PDF p. 74), fr. 44 (55 L.-P.), v. 24–26",
+  "signale_par": "Prato 2001, ad 130–132 ; non vérifiés antérieurs (Voigt sur le disque, 21 nov.)",
+  "pertinence": 2,
+  "remarque": "noces d'Hector et d'Andromaque ; ἀδυμέλης et μέλος : la douceur du chant, comme ἁδυμελεῖ φόρμιγγι (Pind. Ol. 7.11–12, au fichier)"
  },
  {
   "v": "130",
@@ -5391,6 +5461,20 @@
  },
  {
   "v": "133",
+  "lemme": "γάργαλος",
+  "categorie": "prose",
+  "ref": "Lib. Ep. 234.1",
+  "urn": "urn:cts:greekLit:tlg2200.tlg001.1st1K-grc1:234.1",
+  "citation": "ἵππον αὐτῷ δίδωσι δυσγάργαλιν ἱπποκόμης ἐξαγαγών",
+  "traduction": "le palefrenier lui amène et lui donne un cheval chatouilleux",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg2200.tlg001.1st1K-grc1:234.1",
+  "signale_par": "van Leeuwen 1904, p. 25 ; LSJ ; non vérifiés antérieurs (δυσγάργαλις échappait à la recherche par γαργαλ*)",
+  "pertinence": 1,
+  "remarque": "δυσγάργαλις : cheval rétif, qui ne souffre pas qu'on le touche ; cf. Ael. NA 16.10 (δυσγαργάλεις), au fichier"
+ },
+ {
+  "v": "133",
   "lemme": "ὑπὸ τὴν ἕδραν αὐτὴν ὑπῆλθε γάργαλος",
   "categorie": "prose",
   "ref": "Rabelais, Gargantua XIII",
@@ -5882,6 +5966,20 @@
  {
   "v": "134",
   "lemme": "κατ᾽ Αἰσχύλον",
+  "categorie": "aristophane",
+  "ref": "Ar. fr. 161 K.-A.",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/Aristophanes Testimonia Et Fragmenta by Rudolf Kassel, Colin Austin (z-lib.org).pdf#pdf134",
+  "citation": "ἐν τοῖσι συνδείπνοις ἐπαινῶν Αἰσχύλον",
+  "traduction": "faisant, dans les banquets, l'éloge d'Eschyle",
+  "verifie": "scan",
+  "verification": "image, PCG III 2, p. 105 (PDF p. 134) : fr. 161 (153 K.), Γηρυτάδης, ap. Ath. 8.365b",
+  "signale_par": "Prato 2001, ad 134 (« fr. 153 » : numéro de Kock) ; non vérifiés antérieurs (PCG III 2 indexé le 21 nov.)",
+  "pertinence": 1,
+  "remarque": "Gèrytadès ; K.-A. renvoient à Nub. 1366 (Eschyle récité au banquet), au fichier ; = fr. 153 K."
+ },
+ {
+  "v": "134",
+  "lemme": "κατ᾽ Αἰσχύλον",
   "categorie": "comiques",
   "ref": "Cratin. Iun. fr. 10 K. (Diog. Laert. 3.28)",
   "urn": "ia:comicorumatticor02kockuoft",
@@ -6135,29 +6233,29 @@
   "v": "135",
   "lemme": "ἐκ τῆς Λυκουργείας",
   "categorie": "tragiques",
-  "ref": "Aesch. fr. 57.8–9 N.²",
-  "urn": "urn:cts:greekLit:tlg0099.tlg001.perseus-grc2:10.3.16",
-  "citation": "ταυρόφθογγοι δ' ὑπομυκῶνται / ποθὲν ἐξ ἀφανοῦς φοβεροὶ μῖμοι",
+  "ref": "Aesch. fr. 57.8–9 R.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 3 Aeschylus by Radt, Stefan (ed.) (z-lib.org).pdf#pdf171",
+  "citation": "ταυρόφθογγοι δ᾽ ὑπομυκῶνταί / ποθεν ἐξ ἀφανοῦς φοβεροὶ μῖμοι",
   "traduction": "et, mugissant d'en dessous, des imitateurs effrayants, à la voix de taureau, viennent de quelque lieu invisible",
-  "verifie": "corpus",
-  "verification": "chercher.py 'ταυρόφθογγοι' (Str. 10.3.16) ; Hsch. τ 255 (Hansen–Cunningham IV, p. 16) ; numéro : renvoi de Cunningham, Aesch. fr. 57, 8 R. ; TGF² p. 20–21",
+  "verifie": "scan",
+  "verification": "image, TrGF III, p. 179 (PDF p. 171) ; auparavant : chercher.py 'ταυρόφθογγοι' (Str. 10.3.16) ; Hsch. τ 255 (Hansen–Cunningham IV, p. 16) ; numéro : renvoi de Cunningham, Aesch. fr. 57, 8 R. ; TGF² p. 20–21",
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
-  "remarque": "musique du thiase dans les Édoniens : μῖμοι, voix grave et mâle ; ἄρσενι βοᾷ en sourdine, et vocabulaire de la μίμησις (v. 156)"
+  "remarque": "musique du thiase dans les Édoniens : μῖμοι, voix grave et mâle ; ἄρσενι βοᾷ en sourdine, et vocabulaire de la μίμησις (v. 156) ; = fr. 57.8–9 N.² (Nauck)"
  },
  {
   "v": "135",
   "lemme": "ἐκ τῆς Λυκουργείας",
   "categorie": "tragiques",
-  "ref": "Aesch. fr. 58 N.²",
-  "urn": "urn:cts:greekLit:tlg0560.tlg001.perseus-grc2:15.6",
+  "ref": "Aesch. fr. 58 R.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 3 Aeschylus by Radt, Stefan (ed.) (z-lib.org).pdf#pdf172",
   "citation": "ἐνθουσιᾷ δὴ δῶμα, βακχεύει στέγη",
   "traduction": "le palais s'emplit du dieu, le toit est en bacchanale",
-  "verifie": "corpus",
-  "verification": "Longin. Subl. 15.6 (qui l'attribue à Eschyle, palais de Lycurgue) ; Nauck, TGF², p. 21, image (n52) : numéro, placé aux Édoniens",
+  "verifie": "scan",
+  "verification": "image, TrGF III, p. 180 (PDF p. 172 : *58, attribution aux Édoniens conjecturale, Welcker) ; auparavant : Longin. Subl. 15.6 (qui l'attribue à Eschyle, palais de Lycurgue) ; Nauck, TGF², p. 21, image (n52) : numéro, placé aux Édoniens",
   "signale_par": "recherche dans le corpus (TGF²) ; l'auteur, citant Jouan",
   "pertinence": 3,
-  "remarque": "épiphanie de Dionysos dans la pièce citée ; ἐνθουσιᾷ : le mot de la scholie à δι' αἰφνιδίου ὀπός (v. 127). Eschyle fournit-il l'atmosphère du chant précédent ?"
+  "remarque": "épiphanie de Dionysos dans la pièce citée ; ἐνθουσιᾷ : le mot de la scholie à δι' αἰφνιδίου ὀπός (v. 127). Eschyle fournit-il l'atmosphère du chant précédent ? ; = fr. 58 N.² (Nauck)"
  },
  {
   "v": "135",
@@ -6233,6 +6331,20 @@
   "v": "135",
   "lemme": "ἐκ τῆς Λυκουργείας",
   "categorie": "prose",
+  "ref": "Demetr. Lac. Poem. 2, P. Herc. 1014 col. XXXVIII 4 Romeo",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 3 Aeschylus by Radt, Stefan (ed.) (z-lib.org).pdf#pdf50",
+  "citation": "ὁ γ[ά]ρ δὴ Κράτης κατὰ τὸν αὐ[τὸν] χρόνον γε[γο]νὼς [Αἰσ]χύλῳ, τούτου διὰ τῶν Ἠδωνῶν [εὐ]δοκιμή[σαντος]",
+  "traduction": "car Cratès, qui vécut au même temps qu'Eschyle, alors que celui-ci s'était illustré par les Édoniens …",
+  "verifie": "scan",
+  "verification": "image, TrGF III, p. 54 (PDF p. 50) : Aesch. T 69 R. (Cratès, test. 8 K.-A.)",
+  "signale_par": "Prato 2001, ad 135 ; non vérifiés antérieurs (TrGF III sur le disque, 21 nov.)",
+  "pertinence": 2,
+  "remarque": "Démétrios Lacon, Sur les poèmes II : le succès des Édoniens aurait inspiré le comique Cratès ; Radt cite Gomperz : on ne peut dire quelle sorte d'imitation ; Ἠδωνῶν : lecture de Romeo (ΗΔΟΝ ed. pr.) ; déjà un comique s'empare de la Lycurgie, avant Aristophane"
+ },
+ {
+  "v": "135",
+  "lemme": "ἐκ τῆς Λυκουργείας",
+  "categorie": "prose",
   "ref": "Hdt. 2.145.1",
   "urn": "urn:cts:greekLit:tlg0016.tlg001.perseus-grc2:2.145.1",
   "citation": "ἐν Ἕλλησι μέν νυν νεώτατοι τῶν θεῶν νομίζονται εἶναι Ἡρακλέης τε καὶ Διόνυσος καὶ Πάν",
@@ -6284,6 +6396,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "la graphie -είαν, à propos d'Il. 6"
+ },
+ {
+  "v": "135",
+  "lemme": "Λυκουργείας",
+  "categorie": "lexicographes",
+  "ref": "Eust. Il. 785.20–26",
+  "urn": "drive:Grec/Lexiques/Eustathe de Thessalonique/Iliade 10-16Eustathii archiepiscopi Thessalonicensis commentarii ad Homeri Iliadem pertinentes AD Fidem Codicis Laurentiani Editi. Vol. 3 (Eustathius Valk, M. Van Dervalk, M.) (z-lib.org).pdf#pdf33",
+  "citation": "πολλοὶ δὲ τῶν παλαιῶν καὶ Δολώνειαν ταύτην ἐκάλεσαν, ὥσπερ καὶ Πατρόκλειαν … προπαροξύνονται δὲ καὶ ἄμφω αἱ τοιαῦται λέξεις, ὥσπερ καὶ Τηλεγόνεια … καὶ Ὀρέστεια, ἧς καὶ ὁ Κωμικὸς μέμνηται, ἡ κατὰ Ὀρέστην",
+  "traduction": "beaucoup d'anciens ont appelé ce chant Dolôneia, comme plus loin Patrocleia … Ces mots sont proparoxytons, comme Tèlégoneia … et Oresteia, que mentionne aussi le Comique, l'histoire d'Oreste",
+  "verifie": "scan",
+  "verification": "image, van der Valk III, p. 1 (PDF p. 33), Ed. Rom. II p. 785, l. 20–26",
+  "signale_par": "Fritzsche 1838, p. 42 (Eust. 785, 20) ; non vérifiés antérieurs (van der Valk III sur le disque, 21 nov.)",
+  "pertinence": 2,
+  "remarque": "les titres en -εια (« l'histoire de … ») et leur accent : Λυκούργεια, comme Ὀρέστεια (Ran. 1124, au fichier) ; van der Valk renvoie à Ran. 1124 ; le mot Λυκουργεία n'est pas chez Eustathe"
  },
  {
   "v": "135",
@@ -6723,43 +6849,43 @@
   "v": "136",
   "lemme": "τίς ἡ στολή",
   "categorie": "tragiques",
-  "ref": "Aesch. fr. 59 N.²",
-  "urn": "ia:tragicorumgraeco00naucuoft#n52",
+  "ref": "Aesch. fr. 59 R.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 3 Aeschylus by Radt, Stefan (ed.) (z-lib.org).pdf#pdf172",
   "citation": "ὅστις χιτῶνας βασσάρας τε Λυδίας / ἔχει ποδήρεις",
   "traduction": "qui porte des tuniques et des bassares lydiennes tombant aux pieds",
   "verifie": "scan",
-  "verification": "Nauck, TGF², p. 21, image (n52) ; Et. M. 191, 5 (cf. Hsch. β 305, renvoi : Aesch. fr. 59 R.)",
+  "verification": "image, TrGF III, p. 180 (PDF p. 172 ; source : Phot. β 85, au fichier) ; auparavant : Nauck, TGF², p. 21, image (n52) ; Et. M. 191, 5 (cf. Hsch. β 305, renvoi : Aesch. fr. 59 R.)",
   "signale_par": "l'auteur (note au commentaire, 134–5 : fr. 59, 60, 62)",
   "pertinence": 3,
-  "remarque": "réponse possible à τίς ἡ στολή ; : vêtement féminin et lydien, chez Eschyle"
+  "remarque": "réponse possible à τίς ἡ στολή ; : vêtement féminin et lydien, chez Eschyle ; = fr. 59 N.² (Nauck)"
  },
  {
   "v": "136",
   "lemme": "ποδαπὸς ὁ γύννις; τίς πάτρα; τίς ἡ στολή",
   "categorie": "tragiques",
-  "ref": "Aesch. fr. 61 N.²",
-  "urn": "ia:tragicorumgraeco00naucuoft#n52",
+  "ref": "Aesch. fr. 61 R.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 3 Aeschylus by Radt, Stefan (ed.) (z-lib.org).pdf#pdf174",
   "citation": "ποδαπὸς ὁ γύννις; τίς πάτρα; τίς ἡ στολή;",
   "traduction": "d'où est cette femmelette ? quelle patrie ? quel accoutrement ?",
   "verifie": "scan",
-  "verification": "Nauck, TGF², p. 21–22, image (n52–53) : Nauck imprime le vers entier, d'après Boettiger ; numéro R. d'après Prato et Sommerstein",
+  "verification": "image, TrGF III, p. 182–183 (PDF p. 174–175 : Radt imprime les vv. 136–145, avec Böttiger pour le v. 136 seul, Rau pour davantage) ; auparavant : Nauck, TGF², p. 21–22, image (n52–53) : Nauck imprime le vers entier, d'après Boettiger ; numéro R. d'après Prato et Sommerstein",
   "signale_par": "Sommerstein 1994, ad 136 ; Prato 2001, ad 136 ; Fritzsche 1838, p. 43",
   "pertinence": 3,
-  "remarque": "citation directe, ποδαπὸς ὁ γύννις au moins (Σ). Le reste (τίς ἡ τάραξις… ) est disputé : Hermann contre Fritzsche, Enger"
+  "remarque": "citation directe, ποδαπὸς ὁ γύννις au moins (Σ). Le reste (τίς ἡ τάραξις… ) est disputé : Hermann contre Fritzsche, Enger ; = fr. 61 N.² (Nauck)"
  },
  {
   "v": "136",
   "lemme": "γύννις",
   "categorie": "tragiques",
-  "ref": "Aesch. fr. 62 N.²",
-  "urn": "ia:tragicorumgraeco00naucuoft#n53",
-  "citation": "μακροσκελὴς μὲν ἆρα μὴ χλούνης τις ᾖ",
+  "ref": "Aesch. fr. 62 R.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 3 Aeschylus by Radt, Stefan (ed.) (z-lib.org).pdf#pdf175",
+  "citation": "μακροσκελὴς μέν· ἆρα μὴ χλούνης τις ἦν;",
   "traduction": "est-ce donc, avec ces longues jambes, quelque χλούνης ?",
   "verifie": "scan",
-  "verification": "Nauck, TGF², p. 22, image (n53) ; Σ B Il. 9.539",
+  "verification": "image, TrGF III, p. 183 (PDF p. 175 ; ex Σ *B Il. 9.539) ; auparavant : Nauck, TGF², p. 22, image (n53) ; Σ B Il. 9.539",
   "signale_par": "recherche dans le corpus (TGF²) ; Ael. fr. 10",
   "pertinence": 3,
-  "remarque": "autre trait du portrait du dieu dans les Édoniens : χλούνης, joint à γύννις chez Élien (ci-dessous)"
+  "remarque": "autre trait du portrait du dieu dans les Édoniens : χλούνης, joint à γύννις chez Élien (ci-dessous) ; = fr. 62 N.² (Nauck)"
  },
  {
   "v": "136",
@@ -6807,15 +6933,15 @@
   "v": "136",
   "lemme": "ποδαπὸς ὁ γύννις",
   "categorie": "tragiques",
-  "ref": "Aesch. fr. 60 N.²",
-  "urn": "ia:tragicorumgraeco00naucuoft#n52",
-  "citation": "τίς ποτ' ἔσθ' ὁ μουσόμαντις ἄλλο ἁβρατεὺς ὃν σθένει",
+  "ref": "Aesch. fr. 60 R.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 3 Aeschylus by Radt, Stefan (ed.) (z-lib.org).pdf#pdf173",
+  "citation": "τίς ποτ᾽ ἔσθ᾽ ὁ μουσόμαντις †ἄλλος ἀβρατοῦς ὃν σθένει†",
   "traduction": "qui peut bien être ce chanteur-devin… ?",
   "verifie": "scan",
-  "verification": "Nauck, TGF², p. 21, image (n52 : locus nondum emendatus)",
+  "verification": "image, TrGF III, p. 181 (PDF p. 173 ; ex Σ VΓAld Ar. Av. 276 ≅ Sud. μ 1301) ; auparavant : Nauck, TGF², p. 21, image (n52 : locus nondum emendatus)",
   "signale_par": "Prato 2001, ad 135 ; l'auteur",
   "pertinence": 2,
-  "remarque": "même interrogation, parodiée à Ar. Av. 276"
+  "remarque": "même interrogation, parodiée à Ar. Av. 276 ; = fr. 60 N.² (Nauck)"
  },
  {
   "v": "136",
@@ -7348,6 +7474,20 @@
   "signale_par": "dépouillement d'Hésychius (reprise)",
   "pertinence": 2,
   "remarque": "ποδαπός : le seul article du lexique sur le mot"
+ },
+ {
+  "v": "136",
+  "lemme": "τίς ἡ στολή",
+  "categorie": "lexicographes",
+  "ref": "Phot. β 85",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf410",
+  "citation": "βασσάραι· χιτῶνες, οὓς ἐφόρουν αἱ Θρᾴκιαι Βάκχαι, καλούμεναι οὕτως ἀπὸ τοῦ Βασσαρέως Διονύσου. ἦσαν δὲ ποικίλοι καὶ ποδήρεις. Αἰσχύλος ἐν Ἠδωνοῖς· „ὅστις χιτῶνας βασσάρας τε Λυδίας ἔχει ποδήρεις“",
+  "traduction": "bassarai : tuniques que portaient les Bacchantes thraces, ainsi nommées d'après Dionysos Bassareus ; elles étaient bigarrées et tombaient aux pieds. Eschyle, Édoniens : « qui porte des tuniques et des bassares lydiennes tombant aux pieds »",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 328 (PDF p. 410), gl. 85",
+  "signale_par": "Radt, TrGF III, p. 180 (source de F 59) ; Photius α–μ (Theodoridis I indexé le 21 nov.)",
+  "pertinence": 2,
+  "remarque": "source principale d'Aesch. fr. 59 R. (au fichier) ; = Λέξ. ῥητ. 222, 26 Bk. (hinc EM 191, 5), Hsch. β 305 (au fichier)"
  },
  {
   "v": "136",
@@ -8109,6 +8249,20 @@
   "v": "137",
   "lemme": "βάρβιτος",
   "categorie": "lexicographes",
+  "ref": "Phot. β 62",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf408",
+  "citation": "βάρβιτον· ψαλτήριον, κιθάρα",
+  "traduction": "barbiton : psaltérion, cithare",
+  "verifie": "scan",
+  "verification": "image, Theodoridis I, p. 326 (PDF p. 408), gl. 62 et apparat",
+  "signale_par": "testimonia de l'auteur (Phot. β 62) ; non vérifiés antérieurs (Theodoridis I indexé le 21 nov.)",
+  "pertinence": 2,
+  "remarque": "apparat de Theodoridis : = Cyr., Ba. 178,19, Suid. β 110, Et. Gen. (hinc EM 188,16) ; « κιθάρα = sch. Ar. Thesm. 137 »"
+ },
+ {
+  "v": "137",
+  "lemme": "βάρβιτος",
+  "categorie": "lexicographes",
   "ref": "Hsch. τ 796",
   "urn": "drive:hsch:IV#pdf76",
   "citation": "τὴν ἐπιδεξιάν· περιέφερον ἐν τοῖς συμποσίοις ἐπὶ δεξιὰ τὸ πάλαι κιθάραν, εἶτα μυρρίνην, πρὸς ἣν ᾖδον",
@@ -8528,6 +8682,20 @@
  {
   "v": "138",
   "lemme": "κροκωτῷ",
+  "categorie": "comiques",
+  "ref": "Plaut. Epid. 229–233",
+  "urn": "",
+  "citation": "quid istae, quae vesti quotannis nomina inveniunt nova? / tunicam rallam, tunicam spissam, linteolum caesicium, / indusiatam, patagiatam, caltulam aut crocotulam … gerrae maxumae",
+  "traduction": "et ces femmes qui, chaque année, inventent pour leurs robes des noms nouveaux : tunique légère, tunique épaisse, … à franges, couleur souci ou safran … pures balivernes !",
+  "verifie": "corpus",
+  "verification": "TEI Perseus canonical-latinLit (phi0119.phi009), v. 229–233 (.sources/web/latin_perseus/)",
+  "signale_par": "recherche directe (crocot*, latin)",
+  "pertinence": 1,
+  "remarque": "liste comique d'habits de femme, avec la crocotula ; v. 234 : un vêtement « laconien » (cf. v. 142 Λακωνικαί, chaussures)"
+ },
+ {
+  "v": "138",
+  "lemme": "κροκωτῷ",
   "categorie": "tragiques",
   "ref": "Aesch. Ag. 239",
   "urn": "urn:cts:greekLit:tlg0085.tlg005.perseus-grc2:239",
@@ -8566,6 +8734,20 @@
   "signale_par": "Austin–Olson 2004, ad 138 (« Ph. 1491 »)",
   "pertinence": 2,
   "remarque": "Σ ad loc. : τὴν κροκοειδῆ στολὴν ἀποβαλοῦσα, ἀπορρίψασα τῆς τρυφῆς (vérifié, Σ Eur. Phoen. 1491.1) : le safran, couleur du luxe féminin"
+ },
+ {
+  "v": "138",
+  "lemme": "κροκωτῷ",
+  "categorie": "tragiques",
+  "ref": "Naev. trag. fr. 18 Ribbeck³ (Lycurgus)",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 3 Aeschylus by Radt, Stefan (ed.) (z-lib.org).pdf#pdf174",
+  "citation": "pallis patagiis crocotis malacis mortualibus",
+  "traduction": "de pallas, de franges, de crocotes, de tissus mauves, d'habits de deuil",
+  "verifie": "scan",
+  "verification": "image, TrGF III, p. 182 (PDF p. 174), apparat de F 61 : « Naev. Lucurg. fr. XVIII [TRF³ 14. TF 39] » ; Kock I, p. 475 (OCR : Non. s.v. crocotula, « malaciis, monilibus »)",
+  "signale_par": "Radt, TrGF III, p. 182 (Deichgräber, Lyk. 261) ; Kock I, p. 475 ; Meineke II 2, p. 1080",
+  "pertinence": 2,
+  "remarque": "Deichgräber tire de ce vers du Lycurgus de Naevius, imité des Édoniens, que κροκωτός (v. 138) était déjà chez Eschyle ; transmis par Nonius s.v. crocotula ; leçons divergentes (malaciis, monilibus Kock, Meineke)"
  },
  {
   "v": "138",
@@ -9928,6 +10110,20 @@
  {
   "v": "139",
   "lemme": "στρόφιον",
+  "categorie": "comiques",
+  "ref": "Plaut. Aul. 508–521",
+  "urn": "",
+  "citation": "stat fullo, phrygio, aurifex, lanarius … strophiarii astant, astant semul sonarii … cum incedunt infectores corcotarii",
+  "traduction": "voici le foulon, le brodeur, l'orfèvre, le lainier … voici les marchands de strophions et de ceintures … et arrivent les teinturiers en safran",
+  "verifie": "corpus",
+  "verification": "TEI Perseus canonical-latinLit (phi0119.phi003), v. 508–521 (.sources/web/latin_perseus/)",
+  "signale_par": "Kock III, p. 120 (Blaydes rapproche Aul. 3, 5, 34–47 du catalogue d'Ar. fr. 320 K.) ; recherche directe",
+  "pertinence": 1,
+  "remarque": "les fournisseurs de la toilette féminine : strophium (v. 139) et crocote (v. 138) ; cf. Ar. fr. 332 K.-A. (au fichier)"
+ },
+ {
+  "v": "139",
+  "lemme": "στρόφιον",
   "categorie": "tragiques",
   "ref": "Aesch. Sept. 872",
   "urn": "urn:cts:greekLit:tlg0085.tlg004.perseus-grc2:872",
@@ -9952,6 +10148,20 @@
   "signale_par": "Fritzsche 1838, p. 45",
   "pertinence": 2,
   "remarque": "ὡς exclamatif sans verbe de jugement : Fritzsche défend κοὐ σαφῆ d'après le même tour ; Eschyle, selon lui, aurait fourni ὡς οὐ ξύμφορον"
+ },
+ {
+  "v": "139",
+  "lemme": "λήκυθος",
+  "categorie": "tragiques",
+  "ref": "Soph. fr. 1063 R.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Vol. 4 Sophocles by Radt, Stefan (ed.) (z-lib.org).pdf#pdf619",
+  "citation": "ληκυθιστής",
+  "traduction": "celui qui « lécythise » (déclame d'une voix creuse)",
+  "verifie": "scan",
+  "verification": "image, TrGF IV, p. 621 (PDF p. 619) : fr. 1063 (960 N.), ex Phot. Galean. 219, 25 = Sud. λ 437 (ληκυθιστής· ὁ μικρόφωνος. οὕτως Σοφοκλῆς) ; cf. Hsch. λ 856",
+  "signale_par": "Hsch. λ 856–857 (renvois de l'éd.) ; LSJ ; non vérifiés antérieurs (TrGF IV sur le disque, 21 nov.)",
+  "pertinence": 2,
+  "remarque": "le mot n'est connu que par les lexiques (Sud. λ 437, Hsch. λ 856 κοιλόφωνος, au fichier) ; sens vocal de la famille de λήκυθος, qui appuie la lecture de l'auteur (λήκυθος = pomme d'Adam, Hsch. λ 857) ; Radt cite Quincey, CQ 43 (1949), p. 44 : « probably an ἀλαζών talking in big, empty phrases »"
  },
  {
   "v": "139",
@@ -10837,6 +11047,20 @@
  },
  {
   "v": "140",
+  "lemme": "τίς δαὶ κατρόπτου καὶ ξίφους κοινωνία",
+  "categorie": "tragiques",
+  "ref": "Aesch. fr. 61a R.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 3 Aeschylus by Radt, Stefan (ed.) (z-lib.org).pdf#pdf175",
+  "citation": "τί δ᾽ ἀσπίδι ξύνθημα καὶ καρχησίῳ;",
+  "traduction": "qu'ont de commun le bouclier et le carchésion ?",
+  "verifie": "scan",
+  "verification": "image, TrGF III, p. 183 (PDF p. 175) : **61a, ex Proverb. L² V b 16 Cohn",
+  "signale_par": "Radt, TrGF III, p. 183 ; Austin–Olson 2004, ad 136 (A. fr. **61a = adesp. com. fr. *831 K.-A. ; Kassel, KS 369–371)",
+  "pertinence": 2,
+  "remarque": "attribution conjecturale (Kassel, RhM 109, 1966, 10 sqq. ; déjà Kaibel : « comici poetae versus fort. ex Aeschyli Lycurgia expressus, cf. Ar. Thesm. 135 ») : la tirade des Édoniens parodiée aux vv. 136–145 aurait contenu ce vers ; même tour τί … καὶ … ;"
+ },
+ {
+  "v": "140",
   "lemme": "ξίφους",
   "categorie": "tragiques",
   "ref": "Eur. Ba. 50–52",
@@ -11058,6 +11282,20 @@
   "signale_par": "dépouillement d'Hésychius (ξ 75)",
   "pertinence": 2,
   "remarque": "l'épée, peut-être, comme mot de la danse : réponse possible à la question de l'auteur (« pourquoi Agathon aurait-il une épée ? »)"
+ },
+ {
+  "v": "140",
+  "lemme": "τίς δαὶ κατρόπτου καὶ ξίφους κοινωνία",
+  "categorie": "prose",
+  "ref": "Ath. 5.55 (215e)",
+  "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:5.55",
+  "citation": "τί γὰρ ἀσπίδι ξύνθημα καὶ βακτηρίᾳ;",
+  "traduction": "qu'ont de commun le bouclier et le bâton ?",
+  "verifie": "corpus",
+  "verification": "chercher.py (index du corpus) : tlg0008.tlg001.perseus-grc4:5.55",
+  "signale_par": "Radt, TrGF III, p. 183 (Kassel) ; Kock III, p. 497 (adesp. 486)",
+  "pertinence": 2,
+  "remarque": "Hérodicos, contre Platon (Socrate soldat, lui qui n'avait que manteau et bâton) : le vers comique du proverbe adapté (adesp. 486 K. = *831 K.-A.) ; cf. Prov. L² V b 16 Cohn (καρχησίῳ)"
  },
  {
   "v": "140",
@@ -11464,6 +11702,20 @@
   "signale_par": "Tosi, Dictionnaire n° 1900",
   "pertinence": 3,
   "remarque": "la variante de Plutarque (Tosi : Plutarque 27)"
+ },
+ {
+  "v": "140",
+  "lemme": "τίς δαὶ κατρόπτου καὶ ξίφους κοινωνία",
+  "categorie": "proverbes",
+  "ref": "Prov. L² V b 16 Cohn",
+  "urn": "drive:Grec/Proverbes/Cohn Zu den Paroemiographen ROC gImagereader.pdf#pdf41",
+  "citation": "τί δ᾽ ἀσπίδι ξύνθημα καὶ καρχησίῳ· παρόσον οὐ συμφωνεῖ",
+  "traduction": "qu'ont de commun le bouclier et le carchésion ? Se dit de ce qui ne s'accorde pas",
+  "verifie": "scan",
+  "verification": "image, L. Cohn, Zu den Paroemiographen (Breslau 1887 = CPG Suppl. I), p. 41, n° 16 ; discussion p. 25 (PDF p. 25), qui cite Thesm. 140",
+  "signale_par": "Radt, TrGF III, p. 183 (F **61a) ; Austin–Olson 2004, ad 136",
+  "pertinence": 3,
+  "remarque": "arme et coupe dionysiaque, comme l'épée et le miroir ; Cohn (p. 25) rapproche le proverbe « épicharméen » τίς γὰρ κατόπτρῳ καὶ τυφλῷ κοινωνία (Mant. Prov. 2.100, au fichier) « wofür Arist. Thesm. 140 sagt : τίς δαὶ κατόπτρου καὶ ξίφους κοινωνία ; » ; Kassel (RhM 109, 1966) l'attribue à la même tirade de Lycurgue (Aesch. fr. **61a R.)"
  },
  {
   "v": "140",

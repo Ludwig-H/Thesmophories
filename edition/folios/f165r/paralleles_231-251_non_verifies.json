@@ -1,56 +1,14 @@
 [
  {
-  "v": "231",
-  "lemme": "τί μύζεις;",
-  "ref": "Érasme, Adages 702",
-  "motif": "pense-bête de l’auteur (\\eff{Érasme 702}, source l. 2181) : les Adages intégraux ne sont pas au Drive (anthologie des Belles Lettres seulement) et le site de l’ASD n’est pas joignable ; contenu de l’adage non contrôlé."
- },
- {
-  "v": "231",
-  "lemme": "μυμῦ",
-  "ref": "Lucil. 426 M.",
-  "motif": "référence de Tosi n. 2123, non contrôlée sur l'édition (Enn. inc. 10 V. est vérifié par Varro L. 7.101, Petr. 57.8 aussi)."
- },
- {
-  "v": "231",
-  "lemme": "τί μύζεις;",
-  "ref": "Aesch. fr. 461 R. (μυχθίζω)",
-  "motif": "cité par LSJ s.v. μυχθίζω ; texte non contrôlé."
- },
- {
-  "v": "234",
-  "lemme": "miroir",
-  "ref": "Aesch. fr. 61, 1 R. (κατόπτρου καὶ ξίφους)",
-  "motif": "source de Thesm. 140 selon les commentateurs ; à traiter au v. 140 ; non contrôlé ici."
- },
- {
   "v": "241",
   "lemme": "οἴμοι τάλας",
-  "ref": "Pherecr. fr. 56, 3 K.-A. ; Antiph. fr. 257, 1 K.-A. ; Men. Asp. 504",
-  "motif": "exemples d'Austin–Olson 2004, p. 133 ; Phérécrate et Antiphane repérés dans l'OCR de Kock (I, p. 158 ; II, p. 119) mais numéros et texte non contrôlés sur l'image ; Ménandre absent du corpus local (éditions sous droits)."
+  "ref": "Men. Asp. 504",
+  "motif": "exemple d'Austin–Olson 2004, p. 133 ; Ménandre (pièces sur papyrus) absent du corpus local (éditions sous droits). Pherecr. fr. 56, 3 et Antiph. fr. 257, 1 K.-A., de la même liste, sont vérifiés depuis (PCG VII et II)."
  },
  {
   "v": "241",
   "lemme": "ὕδωρ ὕδωρ ὦ γείτονες",
   "ref": "Men. Sik. 364 ; Men. Dysk. 594 ; Quint. Decl. 12.6",
   "motif": "parallèles d'Austin–Olson 2004, p. 133 (appel à l'eau et aux voisins) ; textes absents du corpus local, non contrôlés."
- },
- {
-  "v": "245",
-  "lemme": "φεῦ",
-  "ref": "Phot. α 2946 (Theodoridis I)",
-  "motif": "le texte imprimé n’a pas été lu (citation d’après Naber) : à relire, à cause de σφουΐου de Synag. α 2213."
- },
- {
-  "v": "245",
-  "lemme": "τῆς ἀσβόλου",
-  "ref": "Phryn. Ecl. 197 Rutherford",
-  "motif": "renvoi de l'apparat d'Erbse à Ael. Dion. α 186 (« cf. Phryn. 197 R. ») ; New Phrynichus non disponible ici."
- },
- {
-  "v": "246",
-  "lemme": "τράμις",
-  "ref": "Ruf. Onom. 101",
-  "motif": "cité par Austin–Olson 2004, p. 135 et par LSJ s.v. τράμις ; Rufus d'Éphèse, De corporis humani partium appellationibus, absent du corpus local : texte non lu."
  }
 ]

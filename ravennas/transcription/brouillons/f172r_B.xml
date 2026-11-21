@@ -39,11 +39,16 @@
     <l n="36" v="827">πολλοῖσδἑτέροισ ἀπο τῶν ὤμων</l>
     <l n="37" v="828">ἐνταῖσ στρατιαῖσ</l>
     <l n="38" v="829">ἐρ ριπται τὸ σκιάδειον·</l>
-    <l n="39" v="830">πόλλ᾽ ἀν αἱγυναῖκεσ ἡμεῖσἐν δίκη<unclear cert="moyenne">ι</unclear> μεμψαίμεθἂν</l>
-    <l n="40" v="831">τοῖ σιν ἀν δράσιν δικαίωσ <unclear cert="moyenne">ἓ</unclear>ν δ᾽ ὑπερφυέστατον·</l>
+    <l n="39" v="830">πόλλ᾽ ἂν αἱγυναῖκεσ ἡμεῖσἐν δίκη<unclear cert="moyenne">ι</unclear> μεμψαίμεθἀν</l>
+    <l n="40" v="831">τοῖ σιν ἀν δράσιν δικαίωσ <unclear cert="moyenne">ἑ</unclear>ν δ᾽ ὑπερφυέστατον·</l>
+    <l n="41" v="832">χρὴ<unclear cert="faible">νγ</unclear><unclear cert="faible">ἡ</unclear> μῶ ν εἰ τέκοι τίσ ἄνδρα χρηστὸν τῆι πόλει·</l>
+    <l n="42" v="833">ταξί αρχον ἢ στρατηγὸν· λαμβάνει<add place="ligne" main="R?">ν</add> τιμὴν <del type="biffure" main="R?">ποτε</del><add place="dessus" main="R2">τινα</add>·</l>
+    <l n="43" v="834">πρ οεδρ ί αν ταυτῆι· δί δοσθαι· τηνίοισι· <abbr signe="ϗ" dev="καί"/> σκίροισ</l>
   </lignes>
   <notes>
-    <note>Lecture B (par passes) ; passe 1 en cours (lettres et mots, segments de 3 à 5 mots à ×3, original et CLAHE ; détails à ×4–×5 avec la décorrélation Lab).</note>
+    <note>Lecture B (par passes) ; passe 1 achevée le 21 nov. (l. 41–43 lues) (lettres et mots, segments de 3 à 5 mots à ×3, original et CLAHE ; détails à ×4–×5 avec la décorrélation Lab).</note>
     <note>Reprise (20 nov.) : l. 15–16 recontrôlées à ×4–×6 (original, CLAHE, fac-similé de 1904 recalé). Corrigé à la l. 15 : ἑτέρωι → ετέρωι (aucun esprit sur l'Є, ni sur le cliché ni en 1904 ; l'aigu à x ≈ 476, y ≈ 1005 est celui de -τέ-) ; οὐδ → οὐδ᾽ (trois marques entre δ et σ : x ≈ 891 au-dessus de l'α, x ≈ 928 au-dessus du τ, grave x ≈ 971 : apostrophe, esprit de αὐ, accent de -τὸ, tous déportés à droite).</note>
+    <note>Reprise (21 nov.) : l. 39–40 recontrôlées à ×5–×8. L. 39 : ἀν → ἂν (triangle d'esprit x 295–313, y 2001–2006, et grave oblique x 325–335, y 2000–2012, distinct de l'ι de la l. 38) ; μεμψαίμεθἂν → μεμψαίμεθἀν (une seule marque ronde au-dessus de α|ν, x 1108–1117, y 2014–2022 : esprit ; ni grave ni apostrophe visibles). L. 40 : ἓν → ἑν douteux (une seule marque ronde x 800–810, y 2048–2054 : esprit, sans accent visible).</note>
+    <note ligne="41">Passe 1 (21 nov.) : après χρὴ (grave net, x 237–247, y 2093–2100), entre η et μ (x 248–305), ni α ni ρ : on voit un ν (jambage court puis longue diagonale montante, x 250–283), un V non plongeant (γ ou ν, x 262–288) qui croise cette diagonale, puis un ι à pied tourné à droite (x 290–300) surmonté d'une marque (x 295–303, y 2095–2101). Pas de γὰρ écrit en toutes lettres. Lecture provisoire, à trancher en passe 4. Fac-similé de 1904 identique.</note>
   </notes>
 </page>

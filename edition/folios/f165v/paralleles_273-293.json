@@ -157,15 +157,15 @@
   "v": "273",
   "lemme": "Ὑποκράτους",
   "categorie": "comiques",
-  "ref": "Eup. fr. 103 Kock",
-  "urn": "ia:comicorumatticor01kockuoft#n314",
-  "citation": "Ἱπποκράτους τε παῖδες ἐμβόλιμοί τινες, / βληχητὰ τέκνα κοὐδαμῶς τοῦ τρόπου.",
+  "ref": "Eup. fr. 112 K.-A. (= 103 Kock)",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/PCG V#pdf394",
+  "citation": "εἴσ᾽ Ἱπποκράτους τε παῖδες ἐκβόλιμοί τινες, / βληχητὰ τέκνα καὶ οὐδαμῶς τοῦ ⟨–⟩ τρόπου",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Kock I, p. 285 (image n314 lue ; Δῆμοι)",
+  "verification": "PCG V, p. 361 (image lue) ; Kock I, p. 285 (image n314 lue ; Δῆμοι)",
   "signale_par": "commentaire de l’auteur ; Fritzsche 1838, pp. 102–103 ; Meineke II.1, p. 476",
   "pertinence": 3,
-  "remarque": "βληχητὰ τέκνα : les fils d’Hippocrate sont du bétail ; Fritzsche y restitue Ὑσιπποκράτους en se fondant sur notre vers ; ἐκβόλιμοι Σ Nub. (L. Dindorf) ; numéro K.-A. non contrôlé (éd. absente du disque)"
+  "remarque": "βληχητὰ τέκνα : les fils d’Hippocrate sont du bétail ; Fritzsche y restitue Ὑσιπποκράτους en se fondant sur notre vers ; ἐκβόλιμοι K.-A. (ἐμβόλιμοι Kock) ; témoins : Σ Nub. 1001a (= Sud. τ 1135), Sud. υ 125 (sans le titre) ; le v. 2 est aussi cité par Sud. β 336 (s.v. βληχή : « βληχὴ » τὰ τέκνα καὶ οὐδαμῶς τοῦ τρόπου)"
  },
  {
   "v": "273",
@@ -213,15 +213,15 @@
   "v": "273",
   "lemme": "ξυνοικίαν",
   "categorie": "comiques",
-  "ref": "Philem. fr. 65 Kock (Stob. Flor. 91.13)",
-  "urn": "ia:comicorumatticor02kockuoft#n500",
-  "citation": "ἀργύριόν ἐστι· τοῦτ᾽ ἐὰν ἔχῃς, λέγε / πρὸς τοῦτ᾽ εἰ βούλει, πάντα σοι γενήσεται, / φίλοι, βοηθοί, μάρτυρες, συνοικίαι.",
+  "ref": "Philem. fr. 68.3–5 K.-A. (= 65 Kock) (Stob. 4.31a.13)",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/PCG VII#pdf296",
+  "citation": "ἀργύριόν ἐστι· τοῦτ᾽ ἐὰν ἔχῃς, λέγε / † πρὸς τοῦτ᾽ εἰ βούλει, πάντα σοι γενήσεται, / φίλοι, βοηθοί, μάρτυρες, συνοικίαι",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Kock II, p. 495 (ia comicorumatticor02kockuoft n500, image lue)",
+  "verification": "PCG VII, p. 261 (image lue) ; Kock II, p. 495 (ia comicorumatticor02kockuoft n500, image lue)",
   "signale_par": "Austin–Olson 2004, p. 142 (« Philem. fr. 68. 3-5 »)",
   "pertinence": 1,
-  "remarque": "Πτέρυγες ; fr. 68 K.-A. selon Austin–Olson (numéro non contrôlé) ; συνοικίαι Stob. : συνήγοροι Meineke"
+  "remarque": "Πτερύγιον K.-A. (Πτέρυγες dans le lemme de Stobée, ἔπαινος πλούτου) ; repris par Apost. 16.97 ; συνοικίαι Stob. : συνήγοροι Meineke"
  },
  {
   "v": "273",
@@ -926,6 +926,20 @@
  {
   "v": "273",
   "lemme": "Ὑποκράτους",
+  "categorie": "scholies",
+  "ref": "Σ Plut. 308 (Dübner, p. 343, col. a, 18–19)",
+  "urn": "ia:scholiagraecain00unkngoog#n443",
+  "citation": "ἕπεσθε· παροιμία ἐπὶ τῶν ἀπαιδεύτων λεγομένη.",
+  "traduction": "« suivez [votre mère, petits cochons] : proverbe dit des gens sans éducation »",
+  "verifie": "scan",
+  "verification": "Dübner 1842, p. 343 (ia scholiagraecain00unkngoog n443, image lue)",
+  "signale_par": "Taillardat 1965, § 451",
+  "pertinence": 1,
+  "remarque": "Ar. Plut. 308 et 315 ἕπεσθε μητρὶ χοῖροι ; Σ Plut. 314 (p. 343, col. b, 13–16) : παροιμιακὸν οὖν ἐστι, καὶ ἐπὶ τῶν ἀπαιδεύτων φασὶ λέγεσθαι ; autre valeur chez les parémiographes : App. Prov. 2.79 (ἐπὶ τῶν κολακευτικῶς τισιν ἑπομένων τροφῆς ἕνεκα), Macar. 4.6"
+ },
+ {
+  "v": "273",
+  "lemme": "Ὑποκράτους",
   "categorie": "lexicographes",
   "ref": "Phot. σ 845",
   "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon N - Phi (German Edition) by Christos Theodoridis (z-lib.org).pdf#pdf455",
@@ -1289,6 +1303,34 @@
  },
  {
   "v": "273",
+  "lemme": "ξυνοικίαν",
+  "categorie": "lexicographes",
+  "ref": "Ammon. Diff. 350 Nickau",
+  "urn": "urn:cts:greekLit:tlg0708.tlg001.1st1K-grc1:15.350",
+  "citation": "οἶκος μὲν γὰρ λέγεται ἡ πᾶσα οὐσία, οἰκία δὲ ἡ ὑπὸ ἑνὸς ἢ δευτέρου κατοικουμένη, συνοικία δὲ ἡ πολλοῖς καὶ μισθουμένη",
+  "traduction": "« la συνοικία est la maison habitée par plusieurs, et louée »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'συνοικία' -a Ammon (Nickau, n° 350)",
+  "signale_par": "lexiques_proverbes.py (passe 7)",
+  "pertinence": 2,
+  "remarque": "définition de la συνοικία, immeuble de rapport : cf. Aeschin. 1.124 (ci-dessus)"
+ },
+ {
+  "v": "273",
+  "lemme": "Ὑποκράτους",
+  "categorie": "lexicographes",
+  "ref": "Hsch. β 728",
+  "urn": "drive:hsch:I#pdf484",
+  "citation": "βλήχημα· μωρός, προβατώδης",
+  "traduction": "« bêlement : sot, comme un mouton »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'βλήχημα' -a Hsch. -o gloses (Latte I, p. 446)",
+  "signale_par": "Taillardat 1965, p. 256, n. 1",
+  "pertinence": 1,
+  "remarque": "le bêlement, marque de la sottise : cf. Eup. fr. 112 K.-A. βληχητὰ τέκνα, des fils d’Hippocrate (ci-dessus)"
+ },
+ {
+  "v": "273",
   "lemme": "Ὑποκράτους",
   "categorie": "proverbes",
   "ref": "Diogenian. 3.46",
@@ -1566,6 +1608,34 @@
   "signale_par": "Tosi n. 1866",
   "pertinence": 2,
   "remarque": ""
+ },
+ {
+  "v": "273",
+  "lemme": "Ὑποκράτους",
+  "categorie": "proverbes",
+  "ref": "Crates com. fr. 6 K.-A. (Phot. υ 296)",
+  "urn": "drive:Grec/Lexiques/Photius/Theodoridis III#pdf575",
+  "citation": "ὗς διὰ ῥόδων· ἐπὶ τῶν σκαιῶν καὶ ἀναγώγων. Κράτης Γείτοσιν",
+  "traduction": "« un porc à travers les roses : se dit des rustres et des mal élevés »",
+  "verifie": "scan",
+  "verification": "Theodoridis III, p. 546 (image lue) ; Zonar. col. 1787 Tittmann (image lue) ; CPG II, p. 704 (image lue)",
+  "signale_par": "lexiques_proverbes.py (passe 7) ; CPG II, p. 704 (Apost. 17.71)",
+  "pertinence": 2,
+  "remarque": "le porc, figure du rustre sans éducation, comme les fils d’Hippocrate ὑώδεις καὶ ἀπαίδευτοι ; idem Sud. υ 675 ; Zonar. col. 1787 Tittmann (καὶ ὗς διὰ ῥόδων· ἐπὶ σκαιῶν τάττεται ἡ παροιμία) ; Apost. 17.71 (ὗς Διαροίδων· ἐπὶ τῶν σκαιῶν καὶ ἀπαιδεύτων· Κράτης) ; glose rapportée à Pausanias l’atticiste (υ 15 Erbse) d’après Theodoridis"
+ },
+ {
+  "v": "273",
+  "lemme": "Ὑποκράτους",
+  "categorie": "proverbes",
+  "ref": "Apost. 17.73 (CPG II, p. 704)",
+  "urn": "ia:corpusparoemiogr02leutuoft#n739",
+  "citation": "Ὗς πότ᾽ Ἀθηναίαν ἔριν ἤρισεν· Θεόκριτος. ἐπὶ τῶν τοῖς κρείττοσι φιλονεικούντων.",
+  "traduction": "« un porc a jadis cherché querelle à Athéna : se dit de ceux qui rivalisent avec plus forts qu’eux »",
+  "verifie": "scan",
+  "verification": "CPG II, p. 704 (ia corpusparoemiogr02leutuoft n739, image lue)",
+  "signale_par": "lexiques_proverbes.py (passe 7)",
+  "pertinence": 1,
+  "remarque": "forme parémiographique de Theoc. 5.23 (ci-dessus) ; à la suite, Apost. 17.71–72 (ὗς διὰ ῥόδων ; ὗς ἐκώμασεν)"
  },
  {
   "v": "274",
@@ -2214,6 +2284,20 @@
  {
   "v": "274",
   "lemme": "ἄρδην",
+  "categorie": "lexicographes",
+  "ref": "A.D. Adv. p. 198 Schneider (GG II.1)",
+  "urn": "urn:cts:greekLit:tlg0082.tlg002.1st1K-grc1:132",
+  "citation": "καὶ παρὰ τὴν πέμπτην δὲ συζυγίαν, αἴρω ἄρδην, φύρω φύρδην",
+  "traduction": "« et, dans la cinquième conjugaison, ἄρδην de αἴρω, φύρδην de φύρω »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἄρδην' ; TEI First1K (Schneider–Uhlig, GG II.1, p. 198 ; § 132)",
+  "signale_par": "recherche dans le corpus (passe 7)",
+  "pertinence": 1,
+  "remarque": "la dérivation ἄρδην < αἴρω que suppose Σ Thesm. 274 (ἀντὶ τοῦ πάντας ὁμοῦ αἴρω), chez le grammairien"
+ },
+ {
+  "v": "274",
+  "lemme": "ἄρδην",
   "categorie": "proverbes",
   "ref": "Zen. 2.31",
   "urn": "urn:cts:greekLit:tlg0098.tlg001.1st1K-grc1:2.31",
@@ -2223,7 +2307,7 @@
   "verification": "p.py Zen. 2.31 ; cf. Diogenian. 2.39 ; CPG I, pp. 41, 201",
   "signale_par": "recherche dans le corpus (parémiographes)",
   "pertinence": 2,
-  "remarque": "« corbeille comprise » : ἄρδην, tout, sans rien laisser, glosant un tour proverbial"
+  "remarque": "« corbeille comprise » : ἄρδην, tout, sans rien laisser, glosant un tour proverbial ; idem Diogenian. 2.39 (ἐπὶ τῶν ἄρδην τι λυμαινομένων) ; Zénobius cite Platon le comique (ἐν Γρυψί) : ἀνηρπάκασ᾽ ἁπαξάπαντ᾽ αὐτῷ κανῷ"
  },
  {
   "v": "274",
@@ -3374,6 +3458,34 @@
   "remarque": "le serment qui lie : οὐδ’ ὥρκωσ’ ἐγώ ; cf. la traduction de l’auteur"
  },
  {
+  "v": "276",
+  "lemme": "ὀμώμοκ᾽",
+  "categorie": "lexicographes",
+  "ref": "Phryn. Ecl. 25 Fischer",
+  "urn": "drive:Grec/Lexiques/Phrynichus d'Arabie/Phrynichos Ekloge by Fischer#pdf70",
+  "citation": "Ὦμοκε τελέως ἀηθές· χρὴ γὰρ ὀμώμοκε λέγειν.",
+  "traduction": "« ὤμοκε est tout à fait inusité : il faut dire ὀμώμοκε »",
+  "verifie": "scan",
+  "verification": "Fischer 1974, p. 62 (image lue)",
+  "signale_par": "lexiques_proverbes.py (passe 7)",
+  "pertinence": 2,
+  "remarque": "l’atticiste prescrit le parfait redoublé, celui de notre vers (ὀμώμοκ᾽) et d’Eur. Hipp. 612 (ὀμώμοχ᾽, avec aspiration)"
+ },
+ {
+  "v": "276",
+  "lemme": "ὀμώμοκ᾽",
+  "categorie": "lexicographes",
+  "ref": "Archipp. fr. 36 K.-A. (Phot. ο 330)",
+  "urn": "drive:Grec/Lexiques/Photius/Theodoridis III#pdf114",
+  "citation": "ὀμώμοκα· Ἄρχιππος Ὄνῳ",
+  "traduction": "« ὀμώμοκα : Archippos dans l’Âne »",
+  "verifie": "scan",
+  "verification": "Theodoridis III, p. 85 (image lue)",
+  "signale_par": "lexiques_proverbes.py (passe 7)",
+  "pertinence": 1,
+  "remarque": "Photius relève la forme chez un comique contemporain ; Sud. ο 297 n’a que le lemme"
+ },
+ {
   "v": "post 276",
   "lemme": "ὀλολύζουσι",
   "categorie": "aristophane",
@@ -3540,6 +3652,20 @@
   "signale_par": "commentaire de l’auteur (Il. 6.301)",
   "pertinence": 2,
   "remarque": "prière à grands cris, avec le renvoi homérique même de l’auteur"
+ },
+ {
+  "v": "post 276",
+  "lemme": "παρεπιγραφή (Σ)",
+  "categorie": "scholies",
+  "ref": "Σ Eur. Or. 1384 (Schwartz)",
+  "urn": "urn:cts:greekLit:tlg5023.tlg001.1st1K-grc1:sch_Or.1384.1",
+  "citation": "τινὲς τοῦτο παρεπιγραφὴν εἶναι ὡς εἰς τὰ κωμικὰ δράματα",
+  "traduction": "« certains disent que c’est une parépigraphe, comme dans les comédies »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'παρεπιγραφ*' (Σ Eur. vet., Or. 1384)",
+  "signale_par": "lexiques_proverbes.py (passe 7)",
+  "pertinence": 2,
+  "remarque": "la parépigraphe tenue pour un trait propre à la comédie ; la scholie voisine (Or. 1384, 5) cite Apollodore de Cyrène sur la notion"
  },
  {
   "v": "post 276",
@@ -5293,6 +5419,34 @@
  },
  {
   "v": "280",
+  "lemme": "καομένων",
+  "categorie": "aristophane",
+  "ref": "Ar. Vesp. 1372–1375",
+  "urn": "urn:cts:greekLit:tlg0019.tlg004.perseus-grc2:1372",
+  "citation": "ἐν ἀγορᾷ τοῖς θεοῖς δᾲς κάεται. / … / ἡ πίττα δήπου καομένης ἐξέρχεται.",
+  "traduction": "« au marché, c’est une torche qui brûle pour les dieux… la poix sort, évidemment, quand elle brûle »",
+  "verifie": "corpus",
+  "verification": "p.py Ar. Vesp. 1372–1375",
+  "signale_par": "recherche dans le corpus (passe 7 ; Sud. δ 18)",
+  "pertinence": 2,
+  "remarque": "la torche qui brûle, au participe attique καομένης : cf. Sud. δ 18, qui cite ces vers ; Moeris (ci-dessous) sur κάειν"
+ },
+ {
+  "v": "280",
+  "lemme": "καομένων",
+  "categorie": "aristophane",
+  "ref": "Ar. Lys. 319–320",
+  "urn": "urn:cts:greekLit:tlg0019.tlg007.perseus-grc2:319",
+  "citation": "λιγνὺν δοκῶ μοι καθορᾶν καὶ καπνὸν ὦ γυναῖκες / ὥσπερ πυρὸς καομένου· σπευστέον ἐστὶ θᾶττον.",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "p.py Ar. Lys. 319–320",
+  "signale_par": "recherche dans le corpus (passe 7)",
+  "pertinence": 1,
+  "remarque": "même forme attique et même λιγνύς (v. 281) au chœur des femmes, qui accourt ; le v. 319 seul est cité au v. 281"
+ },
+ {
+  "v": "280",
   "lemme": "καομένων τῶν λαμπάδων",
   "categorie": "tragiques",
   "ref": "Eur. Or. 1573",
@@ -5457,7 +5611,7 @@
   "verification": "Harpocration et Moeris, éd. Bekker, Berlin, 1833, p. 201, l. 24 (.sources/web/lexiques/moeris_ocr/n209.jpg, image lue)",
   "signale_par": "recherche dans Moeris",
   "pertinence": 3,
-  "remarque": "la forme attique καομένων ; cf. Arist. Mete. 4.9 καόμενος (v. 281)"
+  "remarque": "la forme attique καομένων ; κ 46 dans l’édition de Hansen (Moer. (Hansen), p. 116) ; cf. Arist. Mete. 4.9 καόμενος (v. 281)"
  },
  {
   "v": "280",

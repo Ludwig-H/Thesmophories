@@ -646,6 +646,34 @@
  {
   "v": "144",
   "lemme": "ἐκ τοῦ μέλους / ζητῶ σ᾽",
+  "categorie": "lexicographes",
+  "ref": "Hsch. μ 760",
+  "urn": "drive:hsch:II#pdf823",
+  "citation": "μέλος· μέλημα. ἢ μέρος τοῦ σώματος. ἢ ἦχος ἡδύς, ᾆσμα, ῥυθμός. ἀλαλαγμός",
+  "traduction": "« μέλος : souci ; ou partie du corps ; ou son agréable, chant, rythme ; cri de guerre »",
+  "verifie": "corpus",
+  "verification": "gloses décodées et image, Latte II, p. 811 (PDF p. 823)",
+  "signale_par": "dépouillement d’Hésychius (lexiques_proverbes.py)",
+  "pertinence": 2,
+  "remarque": "au singulier, les deux sens réunis (« partie du corps » et « chant ») : complète μ 684 pour le double entendre possible de ἐκ τοῦ μέλους après ποῦ πέος ; (v. 142)"
+ },
+ {
+  "v": "144",
+  "lemme": "τί σιγᾷς",
+  "categorie": "lexicographes",
+  "ref": "Hsch. σ 581",
+  "urn": "drive:hsch:III#pdf321",
+  "citation": "σιγημονᾷς· σιγᾷς",
+  "traduction": "« tu gardes le silence : tu te tais »",
+  "verifie": "corpus",
+  "verification": "gloses décodées et image, Hansen III, p. 287 (PDF p. 321)",
+  "signale_par": "dépouillement d’Hésychius (lexiques_proverbes.py)",
+  "pertinence": 1,
+  "remarque": "glose d’un hapax (σιγημονᾷς) par notre σιγᾷς ; cf. σ 473 (σιγᾷ· σιωπᾷ)"
+ },
+ {
+  "v": "144",
+  "lemme": "ἐκ τοῦ μέλους / ζητῶ σ᾽",
   "categorie": "proverbes",
   "ref": "Apost. 12.42c (CPG II, p. 552)",
   "urn": "ia:corpusparoemiogr02leutuoft#n587",
@@ -938,6 +966,48 @@
   "remarque": "dictionnaire : ἐξ ὄνυχος τὸν λέοντα"
  },
  {
+  "v": "144",
+  "lemme": "ἐκ τοῦ μέλους / ζητῶ σ᾽",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 550 (1.6.50)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf907",
+  "citation": "Qualis vir, talis oratio … Idque proverbii non solum locum habet, cum improbum aut probum virum arguit oratio, verumetiam cum ex stilo perpendimus ingenium cujusque omnemque mentis habitum ex ipsa dictionis ratione conjectamus. Etenim tumidi, stilus turgidus ; … deliciis affluentis, picturatus ac dissolutus.",
+  "traduction": "« tel homme, tel langage … le proverbe vaut aussi quand, d’après le style, nous jugeons du caractère de chacun et devinons toute la disposition de son esprit par sa manière de dire : l’enflé a le style boursouflé … l’homme qui nage dans les délices, un style fleuri et relâché »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages, dir. J.-Chr. Saladin, Paris, Les Belles Lettres, 2013, t. I, p. 448–449 (I vi 50 ; p. PDF 907 et 909, image)",
+  "signale_par": "Tosi n°s 2183 et 2186 (renvoi « 1.6.50 ») ; recherche directe (Érasme)",
+  "pertinence": 3,
+  "remarque": "Érasme part de Sen. Ep. 114.1 et d’Aristid. Or. 45 (οἷος ὁ τρόπος, τοιοῦτον εἶναι καὶ τὸν λόγον), déjà relevés, et étend le proverbe au style, miroir de l’homme : c’est la démarche de Mnésiloque, qui « cherche » Agathon dans son chant ; le style « fleuri et relâché » de l’homme voluptueux est celui que la parodie prête à Agathon"
+ },
+ {
+  "v": "144",
+  "lemme": "τί σιγᾷς",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 545 (1.6.45)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf903",
+  "citation": "Βάκχης τρόπον, id est, Bacchae more. De tetricis, ac taciturnis dictitari solitum, quod essent hujusmodi Maenades illae Bacchico afflatae furore. Auctor idem Diogenianus.",
+  "traduction": "« à la manière d’une bacchante : se disait des gens renfrognés et taciturnes, parce que les Ménades possédées de la fureur bachique étaient telles »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages, dir. J.-Chr. Saladin, Paris, Les Belles Lettres, 2013, t. I, p. 446 (I vi 45 ; p. PDF 903, image)",
+  "signale_par": "recherche directe (Érasme, à partir de Diogenian. 3.43)",
+  "pertinence": 2,
+  "remarque": "même proverbe que Diogenian. 3.43 et Sud. β 56, déjà relevés : Érasme l’applique aux gens sombres et taciturnes"
+ },
+ {
+  "v": "144",
+  "lemme": "τί σιγᾷς",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 429 (1.5.29)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf727",
+  "citation": "Ἀφωνότερος τῶν ἰχθύων, id est Magis mutus ipsis piscibus. Proverbialis metaphora de vehementer infantibus atque infacundis. Conveniet et in hominem immodicae taciturnitatis.",
+  "traduction": "« plus muet que les poissons : métaphore proverbiale pour ceux qui sont tout à fait incapables de parler ; elle convient aussi à l’homme d’un silence excessif »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages, dir. J.-Chr. Saladin, Paris, Les Belles Lettres, 2013, t. I, p. 358 (I v 29 ; p. PDF 727, image)",
+  "signale_par": "recherche dans le corpus (ἀφωνότερος)",
+  "pertinence": 1,
+  "remarque": "Érasme cite Luc. Ind. 16 (μᾶλλον δὲ τῶν ἰχθύων ἀφωνότερος εἶ) et Gall. 1 (πολὺ ἀφωνότερος ἔσομαι τῶν ἰχθύων), vérifiés dans le corpus ; Agathon, muet devant l’interrogatoire, est « plus muet qu’un poisson »"
+ },
+ {
   "v": "145",
   "lemme": "ζητῶ σ᾽, ἐπειδή γ᾽ αὐτὸς οὐ βούλει φράσαι;",
   "categorie": "aristophane",
@@ -1076,6 +1146,90 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 1,
   "remarque": "le tour, cité par le grammairien comme exemple de construction transitive"
+ },
+ {
+  "v": "145",
+  "lemme": "ἐπειδή γ᾽ αὐτὸς οὐ βούλει φράσαι",
+  "categorie": "lexicographes",
+  "ref": "Hsch. α 8460",
+  "urn": "drive:hsch:I#pdf424",
+  "citation": "αὐτός· ἢ ἐγώ. ἢ σύ. ἢ ἐκεῖνος",
+  "traduction": "« αὐτός : ou bien “moi”, ou bien “toi”, ou bien “celui-là” »",
+  "verifie": "corpus",
+  "verification": "gloses décodées et image, Latte I, p. 386 (PDF p. 424)",
+  "signale_par": "dépouillement d’Hésychius (lexiques_proverbes.py)",
+  "pertinence": 1,
+  "remarque": "αὐτός vaut ici σύ (« toi-même ») ; cf. Sud. α 4517 (Αὐτός : ἀντὶ τοῦ ἐγώ)"
+ },
+ {
+  "v": "145",
+  "lemme": "οὐ βούλει",
+  "categorie": "lexicographes",
+  "ref": "Ammon. Diff. 2.106",
+  "urn": "urn:cts:greekLit:tlg0708.tlg001.1st1K-grc1:2.106",
+  "citation": "βούλει καὶ βούλῃ διαφέρει. τὸ βούλει μὲν γὰρ ὁριστικόν ἐστιν οἷον ‘βούλει σχολάσαι μοι’, τὸ βούλῃ δὲ διστακτικῶς οἷον ‘ἐὰν βούλῃ, πορευσόμεθα’.",
+  "traduction": "« βούλει et βούλῃ diffèrent : βούλει est l’indicatif …, βούλῃ marque le doute (subjonctif) »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"βούλει καὶ βούλῃ\"' -a Ammon (First1K, éd. Nickau)",
+  "signale_par": "lexiques_proverbes.py",
+  "pertinence": 1,
+  "remarque": "la forme attique βούλει de l’indicatif, ici dans la question indignée de Mnésiloque"
+ },
+ {
+  "v": "145",
+  "lemme": "φράσαι",
+  "categorie": "lexicographes",
+  "ref": "Ammon. Diff. 21.502",
+  "urn": "urn:cts:greekLit:tlg0708.tlg001.1st1K-grc1:21.502",
+  "citation": "φράσον καὶ φράσαι διαφέρει. φράσον μὲν γάρ ἐστι τὸ εἰπέ, φράσαι δὲ ἀντὶ τοῦ διανοήθητι· ‘σὺ δὲ φράσαι, εἴ με σαώσεις’ (A 83).",
+  "traduction": "« φράσον et φράσαι diffèrent : φράσον signifie “dis”, φράσαι “réfléchis” »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'φράσον φράσαι διαφέρει' -a Ammon (First1K)",
+  "signale_par": "lexiques_proverbes.py",
+  "pertinence": 1,
+  "remarque": "ici φράσαι est l’infinitif aoriste actif (« dire »), au sens que les lexicographes donnent à φράσον, non l’impératif moyen homérique ; cf. Hsch. φ 834, déjà relevé"
+ },
+ {
+  "v": "145",
+  "lemme": "ζητῶ σ᾽, ἐπειδή γ᾽ αὐτὸς οὐ βούλει φράσαι",
+  "categorie": "proverbes",
+  "ref": "Diogenian. 3.16",
+  "urn": "urn:cts:greekLit:tlg0097.tlg001.1st1K-grc1:3.16",
+  "citation": "Αὐτὸς αὑτὸν αὐλεῖ: ἐπὶ τῶν ἑαυτοὺς δεικνυόντων τοῖς πράγμασιν, ὁποῖοι εἰσίν.",
+  "traduction": "« il se joue lui-même de l’aulos : pour ceux qui montrent par leurs actes ce qu’ils sont »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"αὐτὸς αὑτὸν αὐλεῖ\"' (First1K = CPG I ; Gaisford, p. 174, l. 16, OCR concordant)",
+  "signale_par": "recherche dans le corpus (lexiques_proverbes.py, αὐτός)",
+  "pertinence": 2,
+  "remarque": "Agathon, qui refuse de dire qui il est, s’est déjà « joué lui-même » dans son chant : le proverbe dit exactement ce que Mnésiloque déchiffre ἐκ τοῦ μέλους ; mêmes mots Sud. α 4520 (ἐν τοῖς πράγμασιν, ὁποῖοί τινές εἰσιν) et Érasme, Adag. 1486"
+ },
+ {
+  "v": "145",
+  "lemme": "ζητῶ σ᾽, ἐπειδή γ᾽ αὐτὸς οὐ βούλει φράσαι",
+  "categorie": "proverbes",
+  "ref": "Sud. α 4520",
+  "urn": "ia:adler-a.-suidae-lexicon-3-./Adler%20A.%2C%20Suidae%20Lexicon%201%20%28%CE%91-%CE%93%29#n451",
+  "citation": "Αὐτὸς αὑτὸν αὐλεῖ: ἐπὶ τῶν ἑαυτοὺς δεικνυόντων ἐν τοῖς πράγμασιν, ὁποῖοί τινές εἰσιν.",
+  "traduction": "« il se joue lui-même de l’aulos : pour ceux qui montrent dans leurs actes quels ils sont »",
+  "verifie": "scan",
+  "verification": "Adler I, p. 422, l. 24–25 (PDF .sources/web/testimonia/adler, p. 452, image)",
+  "signale_par": "recherche dans le corpus",
+  "pertinence": 2,
+  "remarque": "même proverbe que Diogenian. 3.16 (marge d’Adler : Prov.)"
+ },
+ {
+  "v": "145",
+  "lemme": "ζητῶ σ᾽, ἐπειδή γ᾽ αὐτὸς οὐ βούλει φράσαι",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1486 (2.5.86)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf633",
+  "citation": "Αὐτὸς αὐτὸν αὐλεῖ, id est Ipse suimet tibicen est, hoc est ipse, cujusmodi sit, factis ipsis declarat. Tibicines enim olim laudes fortium virorum decantabant.",
+  "traduction": "« il est son propre joueur d’aulos : il montre lui-même par ses actes ce qu’il est ; car autrefois les joueurs d’aulos chantaient les louanges des braves »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages, dir. J.-Chr. Saladin, Paris, Les Belles Lettres, 2013, t. II, p. 312 (II v 86 ; p. PDF 633, image)",
+  "signale_par": "recherche dans le corpus (Érasme)",
+  "pertinence": 2,
+  "remarque": "même proverbe que Diogenian. 3.16 ; Érasme l’entend en bonne ou en mauvaise part, et aussi de ceux qui font eux-mêmes leur éloge, comme Agathon qui s’exhibe dans son chant"
  },
  {
   "v": "146",
@@ -2366,6 +2520,20 @@
   "remarque": "cf. Diogenian. 3.100, Sud. γ 507 (ἐπὶ τῶν μηδενὸς λόγου ἀξίων)"
  },
  {
+  "v": "146",
+  "lemme": "τοῦ φθόνου μὲν τὸν ψόγον",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 125 (1.2.25)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf335",
+  "citation": "Figulus figulo invidet, faber fabro. Ab hac forma velut excipiendi sunt qui in eadem arte versantur, propterea quod inter hos artificii similitudo magis aemulationem conciliat quam benevolentiam.",
+  "traduction": "« le potier jalouse le potier, le forgeron le forgeron : ce sont les gens d’un même métier qu’il faut excepter de cette règle, parce que la ressemblance de leur art engendre entre eux la rivalité plutôt que la bienveillance »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages, dir. J.-Chr. Saladin, Paris, Les Belles Lettres, 2013, t. I, p. 162 (I ii 25 ; p. PDF 335, image)",
+  "signale_par": "recherche directe (Érasme, à partir de Hes. Op. 25–26)",
+  "pertinence": 2,
+  "remarque": "Érasme cite ensuite Hes. Op. 23–26 (… καὶ πτωχὸς πτωχῷ φθονέει καὶ ἀοιδὸς ἀοιδῷ), déjà relevé avec Tosi n° 1744 : Agathon ramène la critique au φθόνος du rival de métier"
+ },
+ {
   "v": "147",
   "lemme": "τὴν δ᾽ ἄλγησιν οὐ παρεσχόμην",
   "categorie": "aristophane",
@@ -2521,6 +2689,20 @@
  },
  {
   "v": "147",
+  "lemme": "ἤκουσα, τὴν δ᾽ ἄλγησιν οὐ παρεσχόμην",
+  "categorie": "prose",
+  "ref": "Luc. Apol. 15",
+  "urn": "urn:cts:greekLit:tlg0062.tlg059.perseus-grc3:15",
+  "citation": "ἐπεὶ πρός γε τοὺς ἄλλους, κἂν συνάμα πάντες κατηγορῶσιν, ἱκανὸν ἂν εἴη μοι τό οὐ φροντὶς Ἱπποκλείδῃ.",
+  "traduction": "« quant aux autres, m’accuseraient-ils tous ensemble, il me suffirait de dire : Hippoclide n’en a cure »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"οὐ φροντὶς Ἱπποκλείδῃ\"' -a Luc (Perseus)",
+  "signale_par": "recherche dans le corpus (proverbe d’Hippoclide)",
+  "pertinence": 3,
+  "remarque": "même parade qu’Agathon devant le blâme : on entend l’accusation, on n’en prend pas souci ; le proverbe est déjà relevé d’après Hdt. 6.129.4 et Zen. 5.31"
+ },
+ {
+  "v": "147",
   "lemme": "τὴν δ᾽ ἄλγησιν οὐ παρεσχόμην",
   "categorie": "scholies",
   "ref": "Σ Thesm. 147",
@@ -2661,6 +2843,20 @@
  },
  {
   "v": "147",
+  "lemme": "ἤκουσα, τὴν δ᾽ ἄλγησιν οὐ παρεσχόμην",
+  "categorie": "lexicographes",
+  "ref": "Hsch. ο 1920",
+  "urn": "drive:hsch:II#pdf1005",
+  "citation": "οὐ φροντὶς Ἱπποκλείδῃ· παροιμία, ἧς μέμνηται καὶ Ἕρμιππος Δημόταις (fr. 16 K.–A.)· [μὴ πρὸς ὀργὴν ὁμιλεῖν. καὶ] ἀντὶ τοῦ ἐμοί",
+  "traduction": "« Hippoclide n’en a cure : proverbe, que mentionne aussi Hermippos dans les Dèmotes … pour “moi” »",
+  "verifie": "corpus",
+  "verification": "gloses décodées et image (600 dpi), Latte II, p. 993 (PDF p. 1005)",
+  "signale_par": "dépouillement d’Hésychius (recherche du proverbe d’Hippoclide)",
+  "pertinence": 2,
+  "remarque": "le proverbe de l’indifférence (Zen. 5.31, déjà relevé) chez Hésychius, avec le renvoi aux Dèmotes d’Hermippos ; testimonia de l’éditeur : Phot. ο 697, Sud. ο 978 (ἧς μέμνηται Ἕρμιππος ἐν Δημόταις), retrouvés dans le corpus ; même proverbe Diogenian. 7.21"
+ },
+ {
+  "v": "147",
   "lemme": "τὴν δ᾽ ἄλγησιν οὐ παρεσχόμην",
   "categorie": "proverbes",
   "ref": "Macar. 7.2 (CPG II, p. 201)",
@@ -2686,6 +2882,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "le proverbe du dédain : Hippocleidès qui répond ainsi après sa danse indécente, équivalent familier de τὴν ἄλγησιν οὐ παρεσχόμην"
+ },
+ {
+  "v": "147",
+  "lemme": "ἤκουσα, τὴν δ᾽ ἄλγησιν οὐ παρεσχόμην",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 912 (1.10.12)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf1365",
+  "citation": "Οὐ φροντὶς Ἱπποκλείδῃ, id est Non est Hippoclidi curae, sive, ut carmen reddam, Non curat Hippoclides. … Hoc adagio significabant se quippiam negligere neque magnopere laborare.",
+  "traduction": "« Hippoclide n’en a cure : par cet adage, on signifiait qu’on négligeait une chose et ne s’en mettait guère en peine »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages, dir. J.-Chr. Saladin, Paris, Les Belles Lettres, 2013, t. I, p. 677 (I x 12 ; p. PDF 1365, image)",
+  "signale_par": "recherche dans le corpus (proverbe d’Hippoclide)",
+  "pertinence": 2,
+  "remarque": "Érasme raconte l’histoire d’après Hdt. 6.129 et cite Lucien (Apol. 15) ; même proverbe que Zen. 5.31"
  },
  {
   "v": "148",
@@ -3235,6 +3445,20 @@
  },
  {
   "v": "148",
+  "lemme": "ἅμα τῇ γνώμῃ",
+  "categorie": "lexicographes",
+  "ref": "Sud. γ 338",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1",
+  "citation": "Γνώμη: σκέψις. ποιά τις διάθεσις.",
+  "traduction": "« γνώμη : réflexion ; une certaine disposition »",
+  "verifie": "corpus",
+  "verification": "chercher.py (First1K, texte d’Adler) ; Adler I, p. 532 (OCR concordant)",
+  "signale_par": "lexiques_proverbes.py",
+  "pertinence": 1,
+  "remarque": "même glose que Hsch. γ 746 (γνώμη· διάθεσις ποιά τις), déjà relevé : la γνώμη comme disposition de l’esprit, à quoi Agathon accorde son vêtement"
+ },
+ {
+  "v": "148",
   "lemme": "ἐγὼ δὲ τὴν ἐσθῆθ᾽ ἅμα τῇ γνώμῃ φορῶ",
   "categorie": "proverbes",
   "ref": "Tosi n° 2186",
@@ -3344,6 +3568,20 @@
   "signale_par": "F. García Romero, « Belleza y fealdad en las paremias… », Paremia 36 (2026), p. 29",
   "pertinence": 2,
   "remarque": "le plus ancien témoin du proverbe recueilli par Macar. 7.12 (κἂν χρυσᾶ ἔχῃ σάνδαλα), ci-dessus : à fondre avec lui"
+ },
+ {
+  "v": "148",
+  "lemme": "ἐγὼ δὲ τὴν ἐσθῆθ᾽ ἅμα τῇ γνώμῃ φορῶ",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 550 (1.6.50)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf909",
+  "citation": "Qualis vir, talis oratio … Breviter omne vitae simulacrum, omnis animi vis in oratione perinde ut in speculo, repraesentatur ac vel intima pectoris arcanis quibusdam vestigiis deprehenduntur.",
+  "traduction": "« tel homme, tel langage … bref, toute l’image d’une vie, toute la force d’une âme se reflète dans le discours comme dans un miroir, et jusqu’aux secrets du cœur s’y laissent saisir à certaines traces »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages, dir. J.-Chr. Saladin, Paris, Les Belles Lettres, 2013, t. I, p. 448–449 (I vi 50 ; p. PDF 907 et 909, image)",
+  "signale_par": "Tosi n°s 2183 et 2186 (renvoi « 1.6.50 »)",
+  "pertinence": 2,
+  "remarque": "adage cité au v. 144 ; ici pour l’accord de l’extérieur et de l’intérieur que revendique Agathon (cf. Erasm. Adag. 2060, Vestis virum facit, déjà relevé)"
  },
  {
   "v": "149–150",
@@ -3669,6 +3907,20 @@
  },
  {
   "v": "149–150",
+  "lemme": "χρὴ … πρὸς τὰ δράματα … τοὺς τρόπους ἔχειν",
+  "categorie": "prose",
+  "ref": "Dion. Hal. Isoc. 13",
+  "urn": "urn:cts:greekLit:tlg0081.tlg004.perseus-grc2:13",
+  "citation": "ἐοικέναι τέ φησιν αὐτὸν ζωγράφῳ ταῖς αὐταῖς ἐσθῆσι καὶ τοῖς αὐτοῖς σχήμασι πάσας ἐπικοσμοῦντι τὰς γραφάς … διὰ τὸ μὴ προσηκόντως τοῖς ὑποκειμένοις τῶν ἠθῶν φράζειν.",
+  "traduction": "« il le compare à un peintre qui orne tous ses tableaux des mêmes vêtements et des mêmes attitudes … parce qu’il ne s’exprime pas comme il convient aux caractères qu’il traite »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ταῖς αὐταῖς ἐσθῆσι' -a 'Dion. Hal' (Perseus)",
+  "signale_par": "recherche dans le corpus (παντοδαπὸν γοῦν)",
+  "pertinence": 2,
+  "remarque": "la doctrine d’Agathon prise à rebours : le dialecticien Philonicos reproche à Isocrate de vêtir toutes ses figures des mêmes habits, faute d’accorder le style aux caractères ; même image du vêtement que v. 148"
+ },
+ {
+  "v": "149–150",
   "lemme": "πρὸς τὰ δράματα",
   "categorie": "lexicographes",
   "ref": "Sud. δ 1498",
@@ -3724,6 +3976,20 @@
   "remarque": ""
  },
  {
+  "v": "149",
+  "lemme": "ποιητὴν ἄνδρα",
+  "categorie": "lexicographes",
+  "ref": "Hsch. α 4717",
+  "urn": "drive:hsch:I#pdf259",
+  "citation": "ἄνδρα· τὸν ἀνδρεῖον (Δ 498 . . ) καὶ τὸν κατὰ κοινωνίαν τῆς γυναικὸς ὑπολαμβάνει (Τ 291)",
+  "traduction": "« ἄνδρα : l’homme courageux ; il l’entend aussi de celui qui partage la vie d’une femme »",
+  "verifie": "corpus",
+  "verification": "gloses décodées et image, Latte I, p. 221 (PDF p. 259)",
+  "signale_par": "dépouillement d’Hésychius (lexiques_proverbes.py)",
+  "pertinence": 2,
+  "remarque": "ἀνήρ au sens fort (« l’homme courageux, viril ») et au sens d’« époux » : le ποιητὴν ἄνδρα d’Agathon, poète efféminé, prépare le jeu sur ἀνδρεῖα (v. 154)"
+ },
+ {
   "v": "149–150",
   "lemme": "χρὴ … πρὸς τὰ δράματα … τοὺς τρόπους ἔχειν",
   "categorie": "proverbes",
@@ -3764,6 +4030,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
   "remarque": "l’art de changer selon les circonstances : … δεξιοῦ πρὸς ἀνδρός ἐστι … Θηραμένους (dit « Cothurne ») ; πρός, même emploi ; voir Zen. 3.93"
+ },
+ {
+  "v": "150",
+  "lemme": "πρὸς ταῦτα τοὺς τρόπους ἔχειν",
+  "categorie": "aristophane",
+  "ref": "Ar. Ran. 289–291",
+  "urn": "urn:cts:greekLit:tlg0019.tlg009.perseus-grc2:289",
+  "citation": "δεινόν· παντοδαπὸν γοῦν γίγνεται· / τοτὲ μέν γε βοῦς, νυνὶ δʼ ὀρεύς, τοτὲ δʼ αὖ γυνὴ / ὡραιοτάτη τις.",
+  "traduction": "« terrible ; en tout cas elle prend toutes les formes : tantôt bœuf, maintenant mulet, puis une femme des plus belles »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'παντοδαπὸν γοῦν' -a Ar -c 1 (Perseus)",
+  "signale_par": "LSJ s.v. παντοδαπός (renvoi à Ar. Ra. 289 et Pl. R. 398a)",
+  "pertinence": 1,
+  "remarque": "l’Empousa qui « devient de toutes les formes », et jusqu’à une femme : la métamorphose comique dont Agathon fait une poétique"
  },
  {
   "v": "150",
@@ -3834,6 +4114,20 @@
   "signale_par": "LSJ s.v. χαμαιλέων",
   "pertinence": 3,
   "remarque": "Alcibiade, contemporain d’Agathon : assimilation aux mœurs, θήρα (cf. συνθηρεύεται, v. 156), τροπαί (cf. τρόπους)"
+ },
+ {
+  "v": "150",
+  "lemme": "πρὸς ταῦτα τοὺς τρόπους ἔχειν",
+  "categorie": "prose",
+  "ref": "Pl. Ion 541e",
+  "urn": "urn:cts:greekLit:tlg0059.tlg027.perseus-grc2:542",
+  "citation": "ἀλλʼ ἀτεχνῶς ὥσπερ ὁ Πρωτεὺς παντοδαπὸς γίγνῃ στρεφόμενος ἄνω καὶ κάτω",
+  "traduction": "« mais tout simplement, comme Protée, tu prends toutes les formes en te tournant en tous sens »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"ὥσπερ ὁ Πρωτεὺς\"' (Perseus)",
+  "signale_par": "Érasme, Adag. 1174 ; LSJ s.v. παντοδαπός",
+  "pertinence": 2,
+  "remarque": "Socrate au rhapsode, acteur qui se fait tous les personnages : le Protée proverbial (Erasm. Adag. 1174) ; cf. Pl. Ion 535d, déjà relevé"
  },
  {
   "v": "150",
@@ -3974,6 +4268,20 @@
   "signale_par": "recherche directe (Érasme)",
   "pertinence": 3,
   "remarque": "même proverbe que Thgn. 215–216, Diogenian. 7.73"
+ },
+ {
+  "v": "150",
+  "lemme": "πρὸς ταῦτα τοὺς τρόπους ἔχειν",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1174 (2.2.74)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf257",
+  "citation": "Πρωτέως ποικιλώτερος, id est Proteo mutabilior, in vafrum et versipellem competit. Lucianus in Sacrificiis Jovem ποικιλώτερον αὐτοῦ Πρωτέως appellat, quod se subinde in alias atque alias formas transfiguraret.",
+  "traduction": "« plus changeant que Protée : convient au rusé et à l’homme aux mille visages ; Lucien appelle Zeus plus changeant que Protée, parce qu’il se transformait sans cesse en d’autres formes »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages, dir. J.-Chr. Saladin, Paris, Les Belles Lettres, 2013, t. II, p. 124–125 (II ii 74 ; p. PDF 257 et 259, image)",
+  "signale_par": "recherche dans le corpus (Πρωτεύς, Érasme)",
+  "pertinence": 2,
+  "remarque": "Érasme cite ensuite Pl. Ion 541e ; Luc. Sacr. 5 (καὶ ὅλως ποικιλώτερος αὐτοῦ Πρωτέως) vérifié dans le corpus ; à joindre au poulpe (Erasm. Adag. 93) et au caméléon (Tosi n° 1623), déjà relevés"
  },
  {
   "v": "151",
@@ -4411,6 +4719,20 @@
  },
  {
   "v": "152",
+  "lemme": "μετουσίαν δεῖ τῶν τρόπων τὸ σῶμ᾽ ἔχειν",
+  "categorie": "aristophane",
+  "ref": "Ar. Ach. 396–400",
+  "urn": "urn:cts:greekLit:tlg0019.tlg001.perseus-grc2:396",
+  "citation": "οὐκ ἔνδον ἔνδον ἐστίν, εἰ γνώμην ἔχεις. … ὁ νοῦς μὲν ἔξω ξυλλέγων ἐπύλλια / οὐκ ἔνδον, αὐτὸς δʼ ἔνδον ἀναβάδην ποιεῖ / τραγῳδίαν.",
+  "traduction": "« il est dedans sans y être, si tu comprends … son esprit, dehors, ramasse des versiculets, il n’est pas dedans ; mais lui-même est dedans, les pieds en l’air, à faire une tragédie »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἀναβάδην ποιεῖ' -a Ar -o Ach -c 3 (Perseus)",
+  "signale_par": "Sud. α 4518 (dépouillement des lexiques, αὐτός)",
+  "pertinence": 3,
+  "remarque": "la scène d’Agathon refait celle d’Euripide dans les Acharniens (cf. Ach. 410–413, déjà relevé) : chez Euripide, l’esprit est dehors et le corps (αὐτός) compose dedans ; Agathon veut au contraire que le corps même participe des mœurs de ses personnages"
+ },
+ {
+  "v": "152",
   "lemme": "μετουσίαν … ἔχειν",
   "categorie": "tragiques",
   "ref": "Eur. HF 709",
@@ -4564,6 +4886,34 @@
   "remarque": ""
  },
  {
+  "v": "152",
+  "lemme": "τὸ σῶμ᾽",
+  "categorie": "lexicographes",
+  "ref": "Sud. α 4518",
+  "urn": "ia:adler-a.-suidae-lexicon-3-./Adler%20A.%2C%20Suidae%20Lexicon%201%20%28%CE%91-%CE%93%29#n451",
+  "citation": "Αὐτός: ἐπὶ σώματος. διορίζουσι γὰρ τὰς ψυχὰς πρὸς τὰ σώματα. Ὅμηρος· πολλὰς δ᾽ ἰφθίμους ψυχάς· εἶτα, αὐτοὺς δ᾽ ἑλώρια. καὶ Ἀριστοφάνης· ὁ νοῦς μὲν ἔξω, αὐτὸς δ᾽ ἔνδον ἀναβάδην ποιεῖ τραγῳδίαν.",
+  "traduction": "« αὐτός : pour le corps ; car on distingue les âmes des corps … et Aristophane : “l’esprit dehors, lui-même dedans, les pieds en l’air, fait une tragédie” »",
+  "verifie": "scan",
+  "verification": "Adler I, p. 422, l. 18–21 (PDF .sources/web/testimonia/adler, p. 452, image)",
+  "signale_par": "dépouillement des lexiques (lexiques_proverbes.py, αὐτός)",
+  "pertinence": 2,
+  "remarque": "le lexicographe tire d’Ach. 398–400 l’opposition du corps et de l’esprit du poète au travail, que la théorie d’Agathon renverse"
+ },
+ {
+  "v": "152",
+  "lemme": "μετουσίαν",
+  "categorie": "lexicographes",
+  "ref": "Phot. μ 362",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf680",
+  "citation": "μετουσία· κοινωνία.",
+  "traduction": "« μετουσία : participation »",
+  "verifie": "scan",
+  "verification": "Theodoridis II, p. 563 (p. PDF 680, image)",
+  "signale_par": "lexiques_proverbes.py",
+  "pertinence": 1,
+  "remarque": "même glose que Synag. μ 179 et Sud. μ 798, déjà relevés (marge de Theodoridis : Σ)"
+ },
+ {
   "v": "153",
   "lemme": "κελητίζεις",
   "categorie": "aristophane",
@@ -4692,6 +5042,20 @@
  {
   "v": "153",
   "lemme": "κελητίζεις",
+  "categorie": "aristophane",
+  "ref": "Ar. Eccl. 37–39",
+  "urn": "urn:cts:greekLit:tlg0019.tlg010.perseus-grc2:37",
+  "citation": "ὁ γὰρ ἀνὴρ ὦ φιλτάτη, / Σαλαμίνιος γάρ ἐστιν ᾧ ξύνειμʼ ἐγώ, / τὴν νύχθʼ ὅλην ἤλαυνέ μʼ ἐν τοῖς στρώμασιν",
+  "traduction": "« car mon mari, ma chère — c’est un Salaminien que j’ai pour époux — m’a menée toute la nuit dans les couvertures »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Σαλαμίνιος' -a Ar -o Eccl -c 2 (Perseus)",
+  "signale_par": "Henderson, The Maculate Muse², 1991, p. 164–165 (§ 274–277, n. 59–67), pages lues en image (Salamine et le mulier superior)",
+  "pertinence": 1,
+  "remarque": "métaphore nautique et équestre (ἐλαύνειν) de l’acte, liée à Salamine ; même registre que κέλης « yacht » et « coursier » (Lys. 59–60, déjà relevé)"
+ },
+ {
+  "v": "153",
+  "lemme": "κελητίζεις",
   "categorie": "comiques",
   "ref": "Macho ap. Ath. 13.39 (577d–f)",
   "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:13.39",
@@ -4716,6 +5080,20 @@
   "signale_par": "commentaire de l’auteur (Willems)",
   "pertinence": 3,
   "remarque": "le καθιππάζειν signalé par Willems (Ath. 13.581d)"
+ },
+ {
+  "v": "153",
+  "lemme": "κελητίζεις",
+  "categorie": "comiques",
+  "ref": "Pl. Com. fr. 188.17–18 K.-A. (= 174 Kock)",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/Poetae comici Graeci VII Menecrates-Xenophon by Rudolf Kassel C. Austin (z-lib.org).pdf#pdf546",
+  "citation": "Λόρδωνι δραχμή, Κυβδάσωι τριώβολον, / ἥρωι Κέλητι δέρμα καὶ θυλήματα.",
+  "traduction": "« à Lordon une drachme, à Kybdasos trois oboles, au héros Kélès (le Cavalier) une peau et des gâteaux d’offrande »",
+  "verifie": "scan",
+  "verification": "PCG VII, p. 511 (Phaon, fr. 188 ; p. PDF 546, image) ; Ath. 10.441e–442a dans le corpus",
+  "signale_par": "Henderson, The Maculate Muse², 1991, p. 164–165 (§ 274–277, n. 59–67), pages lues en image",
+  "pertinence": 2,
+  "remarque": "dans le tarif sacrificiel parodique du Phaon, parmi les divinités obscènes, le « héros Cavalier » (Κέλης) : la posture que désigne κελητίζεις"
  },
  {
   "v": "153",
@@ -4856,6 +5234,20 @@
   "signale_par": "recherche directe (corpus)",
   "pertinence": 2,
   "remarque": "κέλης (barque et cheval de course) en sens obscène ; l’épigramme est citée par Sud. κ 1301"
+ },
+ {
+  "v": "153",
+  "lemme": "κελητίζεις",
+  "categorie": "poetes",
+  "ref": "Anacr. PMG 417.5–6",
+  "urn": "drive:Grec/Anacréon/Anacreon of Teos Testimonia and Fragments , vol. 1 (introduction, text, and translation) (Hans Bernsdorff) (z-lib.org).pdf#pdf216",
+  "citation": "νῦν δὲ λειμῶνάς τε βόσκεαι / κοῦφά τε σκιρτῶσα παίζεις, / δεξιὸν γὰρ ἱπποπείρην / οὐκ ἔχεις ἐπεμβάτην.",
+  "traduction": "« mais à présent tu pais dans les prés et tu joues en bondissant légèrement, car tu n’as pas de cavalier habile à monter »",
+  "verifie": "scan",
+  "verification": "Bernsdorff, Anacreon of Teos, t. 1, p. 206 (p. PDF 216, image) ; Bergk PLG⁴ III, p. 274 (OCR concordant)",
+  "signale_par": "Henderson, The Maculate Muse², 1991, p. 164–165 (§ 274–277, n. 59–67), pages lues en image (n. 67 : « Anacreon 88 D³ »)",
+  "pertinence": 2,
+  "remarque": "la « pouliche de Thrace » qui n’a pas encore de cavalier : l’amour comme équitation chez Anacréon, que le v. 161 range parmi les modèles d’Agathon"
  },
  {
   "v": "153",
@@ -5010,6 +5402,48 @@
   "signale_par": "dépouillement d’Hésychius",
   "pertinence": 1,
   "remarque": "une des gloses d’Hésychius tirées de la Phèdre de Sophocle (fr. 685 R.) : le sujet était courant chez les tragiques (Sommerstein ad 153)"
+ },
+ {
+  "v": "153",
+  "lemme": "οὐκοῦν",
+  "categorie": "lexicographes",
+  "ref": "Sud. ο 898",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1",
+  "citation": "Οὔκουν: οὐδαμῶς. Οὐκοῦν δὲ συλλογιστικὸς σύνδεσμος.",
+  "traduction": "« οὔκουν : nullement ; οὐκοῦν, conjonction de conclusion »",
+  "verifie": "corpus",
+  "verification": "sqlite (First1K, texte d’Adler) ; Adler III (OCR concordant)",
+  "signale_par": "lexiques_proverbes.py",
+  "pertinence": 2,
+  "remarque": "la particule de la conclusion : Mnésiloque tire du principe d’Agathon un « syllogisme » obscène"
+ },
+ {
+  "v": "153",
+  "lemme": "οὐκοῦν",
+  "categorie": "lexicographes",
+  "ref": "Ammon. Diff. 15.360",
+  "urn": "urn:cts:greekLit:tlg0708.tlg001.1st1K-grc1:15.360",
+  "citation": "οὔκουν παροξυτόνως μὲν τὸ ἀποφαντικὸν ἴσον τῷ οὐχιοῦν, οἷον ‘οὔκουν ἀπιστεῖν’ (Thuc. 1, 10, 3). περισπωμένως δὲ συλλογιστικός ἐστι σύνδεσμος καὶ σημαίνει ἀπόφανσιν.",
+  "traduction": "« οὔκουν, paroxyton, est la négation, équivalant à οὐχιοῦν … ; périspomène, c’est une conjonction de conclusion »",
+  "verifie": "corpus",
+  "verification": "sqlite (First1K, éd. Nickau)",
+  "signale_par": "lexiques_proverbes.py",
+  "pertinence": 1,
+  "remarque": "même distinction que Sud. ο 898 ; οὐκοῦν interrogatif de Mnésiloque : « donc … ? »"
+ },
+ {
+  "v": "153",
+  "lemme": "οὐκοῦν",
+  "categorie": "lexicographes",
+  "ref": "Hsch. ο 1725",
+  "urn": "drive:hsch:II#pdf996",
+  "citation": "οὐκοῦν· ἐπειδή. ἢ λοιπόν",
+  "traduction": "« οὐκοῦν : puisque ; ou bien : dès lors »",
+  "verifie": "corpus",
+  "verification": "gloses décodées, Latte II, p. 984 (PDF p. 996)",
+  "signale_par": "lexiques_proverbes.py",
+  "pertinence": 1,
+  "remarque": "cf. Sud. ο 898"
  },
  {
   "v": "153",
@@ -5808,6 +6242,34 @@
   "signale_par": "Taillardat 1965, p. 447, n. 1 (θηρεύεσθαι, terme de critique littéraire, cite Thesm. 156) (« Athénée 98 a, 649 b : ὀνοματοθήρας »)",
   "pertinence": 1,
   "remarque": "ὀνοματοθήρας, « chasseur de mots », sobriquet d'Ulpien ; de même Ath. 3.55 (99d) et 14.60 (649b : καλὲ ὀνοματοθήρα)"
+ },
+ {
+  "v": "156",
+  "lemme": "μίμησις",
+  "categorie": "prose",
+  "ref": "Pl. Resp. 398a",
+  "urn": "urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:3.398",
+  "citation": "ἄνδρα δή, ὡς ἔοικε, δυνάμενον ὑπὸ σοφίας παντοδαπὸν γίγνεσθαι καὶ μιμεῖσθαι πάντα χρήματα, εἰ ἡμῖν ἀφίκοιτο εἰς τὴν πόλιν … προσκυνοῖμεν ἂν αὐτὸν ὡς ἱερὸν καὶ θαυμαστὸν καὶ ἡδύν … ἀποπέμποιμέν τε εἰς ἄλλην πόλιν μύρον κατὰ τῆς κεφαλῆς καταχέαντες καὶ ἐρίῳ στέψαντες",
+  "traduction": "« un homme capable, par son savoir, de prendre toutes les formes et de tout imiter, s’il venait dans notre cité … nous nous prosternerions devant lui comme devant un être sacré, admirable et charmant … et nous le renverrions dans une autre cité, après avoir versé du parfum sur sa tête et l’avoir couronné de laine »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'παντοδαπὸν μιμεῖσθαι χρήματα' -a Pl --complet (Perseus)",
+  "signale_par": "LSJ s.v. παντοδαπός",
+  "pertinence": 3,
+  "remarque": "le poète mimétique « capable de devenir de toutes les formes et de tout imiter » : la théorie qu’expose Agathon, et l’homme même, parfumé et couronné, qu’on reconduit hors de la cité ; cf. Pl. Resp. 395d, déjà relevé"
+ },
+ {
+  "v": "156",
+  "lemme": "μίμησις",
+  "categorie": "prose",
+  "ref": "Luc. Salt. 19",
+  "urn": "urn:cts:greekLit:tlg0062.tlg045.perseus-grc2:19",
+  "citation": "δοκεῖ γάρ μοι ὁ παλαιὸς μῦθος καὶ Πρωτέα τὸν Αἰγύπτιον οὐκ ἄλλο τι ἢ ὀρχηστήν τινα γενέσθαι λέγειν, μιμητικὸν ἄνθρωπον καὶ πρὸς πάντα σχηματίζεσθαι καὶ μεταβάλλεσθαι δυνάμενον",
+  "traduction": "« l’ancien mythe, me semble-t-il, ne dit rien d’autre de Protée l’Égyptien, sinon que c’était un danseur, un homme habile à imiter, capable de prendre toutes les figures et de se transformer »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'Πρωτέα ὀρχηστήν' (Perseus)",
+  "signale_par": "recherche dans le corpus (Πρωτεύς)",
+  "pertinence": 2,
+  "remarque": "Protée lu comme un mime, capable de prendre toutes les figures : l’art d’Agathon, qui « chasse par la mimèsis » ce que la nature ne lui a pas donné ; cf. Erasm. Adag. 1174 (v. 150)"
  },
  {
   "v": "156",

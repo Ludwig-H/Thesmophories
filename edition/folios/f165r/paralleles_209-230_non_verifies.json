@@ -84,13 +84,6 @@
   "raison": "comédies de Ménandre transmises par papyrus : absentes du corpus local et des scans disponibles"
  },
  {
-  "v": "209",
-  "lemme": "ὡς ἀπόλωλ᾽ Εὐριπίδης",
-  "ref": "adesp. tr. fr. 91 (ἀπόλωλα, parfait en tragédie)",
-  "source": "Austin–Olson 2004, p. 123 (ad 209–10)",
-  "raison": "TrGF II (adespota) absent du corpus local"
- },
- {
   "v": "210",
   "lemme": "ὦ φίλτατ᾽ ὦ κηδεστά",
   "ref": "Eur. Tel. fr. 147.81 Austin (vocatifs répétés)",
@@ -145,13 +138,6 @@
   "ref": "Men. Epitr. 381 (ἔχεις κοιτίδα τινά;)",
   "source": "Austin–Olson 2004, p. 127 (ad 218–20)",
   "raison": "Épitréponts absents du corpus local et des scans"
- },
- {
-  "v": "219",
-  "lemme": "ξυρόν (« sur le fil du rasoir »)",
-  "ref": "Aesch. fr. 99.22 R. (Κᾶρες ἢ Εὐρώπη)",
-  "source": "Austin–Olson 2004, p. 127 (ad 218–20)",
-  "raison": "TrGF III absent ; le fragment papyrologique n’est pas dans le corpus local (chercher.py ξυροῦ -a Aesch --toutes-editions : seul Cho. 884)"
  },
  {
   "v": "221",

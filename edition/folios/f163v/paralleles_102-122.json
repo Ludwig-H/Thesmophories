@@ -1107,6 +1107,20 @@
  },
  {
   "v": "103",
+  "lemme": "χορεύσασθε … βοάν",
+  "categorie": "tragiques",
+  "ref": "Eur. fr. 370.5–6 Kn.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 5 Euripides gimagereader roc ellenike.pdf#pdf408",
+  "citation": "ἦ ποτ᾽ ἀνὰ πόλιν ἀλαλαῖς – ἰὴ παιάν – / κ]αλλίνικον βοάσω μέλος",
+  "traduction": "est-ce qu’un jour par la ville, avec des cris – iè paian ! –, je ferai retentir le chant de victoire ?",
+  "verifie": "scan",
+  "verification": "TrGF V, p. 410 (PDF p. 408, image) ; P. Sorb. 2328",
+  "signale_par": "TrGF V, p. 409 (Kannicht ad fr. 369d) ; Fabrini, thèse, p. 163",
+  "pertinence": 1,
+  "remarque": "le chant du chœur de l'Érechthée, la pièce même que parodie le v. 120 (EM 153.31) ; βοάω + μέλος"
+ },
+ {
+  "v": "103",
   "lemme": "ξὺν ἐλευθέρᾳ (πατρίδι)",
   "categorie": "poetes",
   "ref": "Hom. Il. 6.526–529",
@@ -2202,7 +2216,7 @@
   "lemme": "εὐπείστως (εὐπίστως R)",
   "categorie": "comiques",
   "ref": "Men. fr. 380 Kock",
-  "urn": "ia:Kock III p. 108",
+  "urn": "ia:comicorumatticor03kockuoft#n128",
   "citation": "εὔπιστον ἀτυχῶν ἐστιν ἄνθρωπος φύσει· / τὸν πλησίον γὰρ οἴεται μᾶλλον φρονεῖν",
   "traduction": "l'homme malheureux est par nature prompt à croire : il pense que son voisin a plus de sagesse",
   "verifie": "corpus",
@@ -3799,7 +3813,7 @@
   "categorie": "proverbes",
   "ref": "Apostol. 6.99a",
   "urn": "ia:corpusparoemiogr02leutuoft#n427",
-  "citation": "Ἐκ δὲ Διὸς βασιλῆες· ὁ δ᾽ ὄλβιος, ὅντινα Μοῦσαι φιλῶνται· γλυκερή οἱ ἀπὸ στόματος ῥέει αὐδή",
+  "citation": "Ἐκ δὲ Διὸς βασιλῆες· ὁ δ᾽ ὄλβιος, ὅντινα Μοῦσαι φιλῶνται· γλυκερὴ οἱ ἀπὸ στόματος ῥέει αὐδή",
   "traduction": "et c'est de Zeus que viennent les rois ; heureux celui que les Muses aiment : une voix douce coule de sa bouche",
   "verifie": "scan",
   "verification": "CPG II, p. 392 (image n427, lue)",
@@ -4744,6 +4758,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "cf. Σ Soph. OC 1493 : γύαλον ἀντὶ τοῦ πέτραν"
+ },
+ {
+  "v": "109",
+  "lemme": "χώρας γύαλα",
+  "categorie": "tragiques",
+  "ref": "Soph. fr. 460 R.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Vol. 4 Sophocles by Radt, Stefan ROC hellenike gimagereader.pdf#pdf375",
+  "citation": "νῦν δ᾽ οὔτε μ᾽ ἐκ Δωδῶνος οὔτε Πυθικῶν / γυ[άλων] τις ἂν πείσειεν",
+  "traduction": "et maintenant, nul ne saurait me persuader, ni de Dodone, ni des vallons pythiques",
+  "verifie": "scan",
+  "verification": "TrGF IV, p. 377 (PDF p. 375, image) ; source : Steph. Byz. 247.16 Meineke (s.v. Δωδώνη)",
+  "signale_par": "Sommerstein 1994, ad 110 ; LSJ s.v. γύαλον",
+  "pertinence": 1,
+  "remarque": "Ulysse blessé par l'épine (422 N.²) ; γυ[άλων] suppl. Nauck (γυ[νή] Bernardus, γυ[ῶν] Gennadius, μυ[χῶν] Conington) : parallèle conditionné par le supplément"
  },
  {
   "v": "109",
@@ -8873,7 +8901,7 @@
   "verification": "Sylburg p. 153, 31–37 (image n89, col. 139 du scan, lue) ; même renvoi (153, 31) chez Fritzsche, Blaydes et Keil ; Hsch. α 7665 test. : EM 153, 33 ; Prato et Fabrini (Gaisford) : 153, 32",
   "signale_par": "testimonia de l'auteur (« 153.21 ») ; Kuster ap. Fritzsche 1838, p. 37–38 ; Blaydes 1880, p. 144",
   "pertinence": 3,
-  "remarque": "RECTIFIER le testimonium de l'auteur : 153.31, non 153.21. Seule source de la parodie de l'Érechthée. Fritzsche, p. 38 : la suite est « partim falsa, partim aliena ». EM α 1918 L.-L. d'après Fabrini, thèse, p. 163 (non consulté)"
+  "remarque": "RECTIFIER le testimonium de l'auteur : 153.31, non 153.21. Seule source de la parodie de l'Érechthée. Fritzsche, p. 38 : la suite est « partim falsa, partim aliena ». EM α 1918 L.-L. d'après Fabrini, thèse, p. 163 (non consulté) ; = EM α 1918 Lasserre–Livadaras (numéro relevé dans TrGF V, p. 409)"
  },
  {
   "v": "120",
@@ -8901,7 +8929,21 @@
   "verification": "Cunningham, Synagoge, p. 674 (PDF p. 680) : texte du corpus et image ; l'éd. renvoie à (Th. 120) ; marge : Ba 151, Bk 452 ; test. Su. α 4147, Ph. α 2957, Et. Gen.",
   "signale_par": "testimonia de l'auteur (Συναγωγή α 2226)",
   "pertinence": 3,
-  "remarque": "Bekker, Anecd. p. 452, 5 (Fritzsche, Blaydes) = ce texte. Phot. α 2957 donne κρούματος d'après l'apparat de Cunningham (non vu)"
+  "remarque": "Bekker, Anecd. p. 452, 5 (Fritzsche, Blaydes) = ce texte. Phot. α 2957 Theodoridis (relevé) imprime κρούματα ; κρούματος est la leçon du cod. z"
+ },
+ {
+  "v": "120",
+  "lemme": "κρούματά τ᾽ Ἀσιάδος",
+  "categorie": "testimonium",
+  "ref": "Phot. α 2957 Theodoridis",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf355",
+  "citation": "Ἀσιάδος κρούματα· τῆς κιθάρας. οὕτως Ἀριστοφάνης",
+  "traduction": "Ἀσιάδος κρούματα : de la cithare. Ainsi Aristophane",
+  "verifie": "scan",
+  "verification": "Theodoridis I, p. 273 (PDF p. 355, image) ; app. : κρούματα Σᵇ, Suid., Et. Gen. : κρούματος z",
+  "signale_par": "Austin 1987, p. 74 ; Cunningham, test. de Synag. α 2226",
+  "pertinence": 3,
+  "remarque": "= Synag. α 2226 (Ba. 151.25), Sud. α 4147, Et. Gen. AB (d'où EM 153.31), selon Theodoridis ; la glose se poursuit par ἄσσιστα· ἔγγιστα"
  },
  {
   "v": "120",
@@ -8978,7 +9020,7 @@
   "lemme": "κρούματα",
   "categorie": "comiques",
   "ref": "Eup. fr. 110 Kock (Phot. s.v. νιγλαρεύων)",
-  "urn": "ia:comicorumatticor01kockuoft:p. 286",
+  "urn": "ia:comicorumatticor01kockuoft#n316",
   "citation": "τοιαῦτα μέντοι νιγλαρεύων κρούματα",
   "traduction": "en faisant ces fioritures de frappes",
   "verifie": "corpus",
@@ -8992,7 +9034,7 @@
   "lemme": "κρούματα",
   "categorie": "comiques",
   "ref": "Theopomp. Com. fr. 50 Kock",
-  "urn": "ia:comicorumatticor01kockuoft:p. 745",
+  "urn": "ia:comicorumatticor01kockuoft#n775",
   "citation": "αὐλεῖ γὰρ σαπρὰ / αὕτη γε κρούματ' οἷα τἀπὶ Χαριξένης",
   "traduction": "celle-ci joue à la flûte des airs pourris, de ceux du temps de Charixène",
   "verifie": "corpus",
@@ -9034,7 +9076,7 @@
   "lemme": "κρούματα",
   "categorie": "comiques",
   "ref": "Com. adesp. fr. 415 Kock (Σ Aesch. Pers. 933)",
-  "urn": "ia:comicorumatticor03kockuoft:p. 485",
+  "urn": "ia:comicorumatticor03kockuoft#n505",
   "citation": "αὐλεῖ Μαριανδυνοῖς καλάμοις θρηνῳδίαν κρούων ἰαστί",
   "traduction": "il joue de la flûte aux roseaux mariandyniens un chant de deuil, frappant à l'ionienne",
   "verifie": "corpus",
@@ -9047,15 +9089,15 @@
   "v": "120",
   "lemme": "κρούματά τ' Ἀσιάδος",
   "categorie": "tragiques",
-  "ref": "Eur. fr. 370 N.²",
-  "urn": "ia:tragicorumgraeco00naucuoft#n505",
-  "citation": "Ἀσιάδος κρούματα. τῆς κιθάρας. οὕτως Ἀριστοφάνης εἶπε, παρῳδῶν τὸ ἐξ Ἐρεχθέως Εὐριπίδου",
-  "traduction": "(voir EM 153.31)",
+  "ref": "Eur. fr. 369d Kn. (= 370 N.²)",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 5 Euripides gimagereader roc ellenike.pdf#pdf407",
+  "citation": "Ἀσιάδος κρούματα",
+  "traduction": "les frappes de la cithare d’Asie",
   "verifie": "scan",
-  "verification": "TGF², p. 474 (image n505), d'après l'EM",
+  "verification": "TrGF V, p. 409 (PDF p. 407, image) ; TGF², p. 474 (image n505)",
   "signale_par": "EM 153.31 ; Prato 2001, ad 120 ; Austin 1987, p. 74 (fr. 370 N. = 64 Au.) ; Fabrini, thèse, p. 163–164",
   "pertinence": 3,
-  "remarque": "seul lieu qui nous dise la source ; le texte d'Euripide n'est pas conservé par cette voie. Kannicht : fr. 369d et, pour le papyrus, fr. 370 (Fabrini, thèse, p. 163–164 ; TrGF V non consulté)"
+  "remarque": "Érechthée ; seule source : EM α 1918 Lasserre–Livadaras (= 153.31 Sylburg, 153.32 Gaisford ; relevé), παρῳδῶν τὸ ἐξ Ἐρεχθέως Εὐριπίδου ; Kannicht rapproche Thesm. 123–124 (σέβομαι Λατώ τε … κίθαρίν τε ματέρ᾽ ὕμνων), Cycl. 443–444, frr. 752g.9 sq. et 759a.1622 (relevés) ; le chœur du papyrus (fr. 370 Kn.) est relevé à part"
  },
  {
   "v": "120",
@@ -9168,6 +9210,48 @@
   "signale_par": "Austin–Olson 2004, métrique (19) (« cf. Johansen–Whittle on A. Supp. 547 »)",
   "pertinence": 2,
   "remarque": "l'Asie et la Phrygie réunies dans le lyrique ; Austin–Olson y renvoient pour la prosodie de Ἀσιάδος, dont la première syllabe est brève au v. 120 (Parker 1997, p. 404–405 : scansion sans autre exemple au théâtre)"
+ },
+ {
+  "v": "120",
+  "lemme": "κρούματά τ᾽ Ἀσιάδος",
+  "categorie": "tragiques",
+  "ref": "Eur. fr. 370.8–10 Kn.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 5 Euripides gimagereader roc ellenike.pdf#pdf408",
+  "citation": "Λίβυος ἀχάεντος [λω]τοῦ, / κιθαρίδος βοαῖς … / τροχαλὸς ἑπομέναις",
+  "traduction": "du lotos libyen sonore, suivant d’un pas vif les cris de la cithare",
+  "verifie": "scan",
+  "verification": "TrGF V, p. 410–411 (PDF p. 408–409, image) ; P. Sorb. 2328",
+  "signale_par": "Fabrini, thèse, p. 163 (fr. 17 Sonnino)",
+  "pertinence": 2,
+  "remarque": "chant du chœur de l'Érechthée accompagné de l'aulos et de la cithare ; Kannicht (app. au v. 9) rapproche fr. 752g.9 sq., Il. 18.495, Pind. P. 10 ; selon Fabrini, Sonnino place ici le fr. 369d (Ἀσιάδος κρούματα), que Kannicht laisse à part"
+ },
+ {
+  "v": "120",
+  "lemme": "Ἀσιάδος",
+  "categorie": "tragiques",
+  "ref": "Eur. fr. 752g.8–12 Kn.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 5 Euripides gimagereader roc ellenike.pdf#pdf749",
+  "citation": "μέσῳ δὲ παρ᾽ ἱστῶι / Ἀσιὰς ἔλεγον ἰήιον / Θρῇσσ᾽ ἐβόα κίθαρις {Ὀρφέως} / μακροπόλων πιτύλων / ἐρέταισι κελεύσματα μελπομένα",
+  "traduction": "au milieu, près du mât, la cithare thrace d’Asie criait une élégie plaintive, chantant aux rameurs le rythme des longs coups de rame",
+  "verifie": "scan",
+  "verification": "TrGF V, p. 751 (PDF p. 749, image) ; P. Oxy. 852 fr. 1 col. iii + fr. 67",
+  "signale_par": "Prato 2001, ad 120 ; Fabrini, thèse, p. 164 ; TrGF V, p. 409 (Kannicht ad fr. 369d)",
+  "pertinence": 3,
+  "remarque": "Hypsipyle (fr. 1 iii 8–12 Bond) : Ἀσιάς adjectif de la cithare (d'Orphée), qui donne la cadence (κελεύσματα) ; cf. ποδί … εὔρυθμα, v. 121"
+ },
+ {
+  "v": "120",
+  "lemme": "Ἀσιάδος",
+  "categorie": "tragiques",
+  "ref": "Eur. fr. 759a.1622–1623 Kn.",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 5 Euripides gimagereader roc ellenike.pdf#pdf785",
+  "citation": "μοῦσάν με κιθάρας Ἀσιάδος διδάσκεται, / τοῦτ[ο]ν δ᾽ ἐς Ἄρεως ὅπλ᾽ ἐκόσμησεν μάχης",
+  "traduction": "il me fait instruire dans la musique de la cithare d’Asie, et celui-ci, il l’a équipé pour les armes d’Arès au combat",
+  "verifie": "scan",
+  "verification": "TrGF V, p. 787 (PDF p. 785, image) ; P. Oxy. 852",
+  "signale_par": "Prato 2001, ad 120 ; Fabrini, thèse, p. 164 ; TrGF V, p. 409 (Kannicht ad fr. 369d)",
+  "pertinence": 3,
+  "remarque": "Hypsipyle (fr. 64 ii 101–102 Bond) : Eunéos, élevé par Orphée ; κιθάρας Ἀσιάδος, la tournure même du v. 120"
  },
  {
   "v": "120",
@@ -9759,6 +9843,20 @@
  },
  {
   "v": "120",
+  "lemme": "Ἀσιάδος",
+  "categorie": "lexicographes",
+  "ref": "Phot. α 2956 Theodoridis",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf355",
+  "citation": "Ἀσιάς· ἡ κιθάρα, ἀπὸ Ἀσίου τινός. καὶ Ἀσία καὶ Ἀσιώνη, ἀπὸ Ἀσίας τῆς μητρὸς Προμηθέως. Δοῦριν δὲ †Ἀριστοτέλης† φησὶ λέγειν ὅτι ἐκλήθη Ἀσιὰς ἀπὸ τῶν χρωμένων Λεσβίων, οἵτινες οἰκοῦσι πρὸς τῇ Ἀσίᾳ. οἱ δὲ ἀπὸ Τυρρηνοῦ Λυδοῦ εὑρόντος πρώτου τὸ τρίγωνον ὄργανον. οἱ δὲ ἀπὸ Τερπάνδρου",
+  "traduction": "Ἀσιάς : la cithare, d’après un certain Asios ; et Asia et Asioné, d’après Asia mère de Prométhée. Aristote (?) dit que Duris rapporte qu’on l’appela Asias d’après les Lesbiens qui en usaient et habitent près de l’Asie ; d’autres, d’après le Lydien Tyrrhénos, premier inventeur du trigone ; d’autres, d’après Terpandre",
+  "verifie": "scan",
+  "verification": "Theodoridis I, p. 273 (PDF p. 355, image)",
+  "signale_par": "Austin 1987, p. 74 ; Cunningham, test. de Synag. α 2225",
+  "pertinence": 2,
+  "remarque": "= Synag. α 2225 (Ba. 151.19) ; Theodoridis renvoie à [Plut.] Mus. 1133c, Hsch. α 7665, Σ Thesm. 121, Steph. Byz. 130.20–21, Et. Gen. AB s.v. Ἀσιάτις (d'où EM 153.33), Σ Ap. Rhod. 2.777–779"
+ },
+ {
+  "v": "120",
   "lemme": "κρούματά τ' Ἀσιάδος",
   "categorie": "proverbes",
   "ref": "Zen. 5.9",
@@ -9938,6 +10036,20 @@
   "signale_par": "Austin–Olson 2004, ad 120–2 (« Pl. Com. fr. 47. 2 »)",
   "pertinence": 1,
   "remarque": "εὔρυθμος, courant au IVe s. (Austin–Olson) ; chez Athénée, l'ordre des mots diffère (τὴν χεῖρα εὐρύθμως πέμπειν)"
+ },
+ {
+  "v": "121",
+  "lemme": "παράρυθμ' εὔρυθμα (X non-X)",
+  "categorie": "comiques",
+  "ref": "Pl. Com. fr. 182.3 K.-A.",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/Poetae comici Graeci VII Menecrates-Xenophon by Rudolf Kassel C. Austin (z-lib.org).pdf#pdf540",
+  "citation": "ἀτὰρ οὐ λαχὼν ὅμως ἔλαχες, ἢν νοῦν ἔχῃς",
+  "traduction": "et pourtant, sans avoir été tiré au sort, tu l’as été, si tu as du sens",
+  "verifie": "scan",
+  "verification": "PCG VII, p. 505 (PDF p. 540, image) ; source : Σ (R) Ar. Thesm. 808",
+  "signale_par": "Sommerstein 1994, ad 120–1",
+  "pertinence": 2,
+  "remarque": "Hyperbolos (166–167 Kock) ; le tour « X non-X » ; K.-A. renvoient eux-mêmes à Ar. Ach. 396 (relevé)"
  },
  {
   "v": "121",
@@ -10960,6 +11072,20 @@
   "signale_par": "dépouillement d'Hésychius",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "121",
+  "lemme": "παράρυθμ' εὔρυθμα (manière d'Agathon)",
+  "categorie": "lexicographes",
+  "ref": "Phot. α 83 Theodoridis",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf98",
+  "citation": "Ἀγαθώνειος αὔλησις· ἡ μαλακή· Ἀγάθων γὰρ ὁ τραγικὸς ἐπὶ μαλακίᾳ διεβάλλετο",
+  "traduction": "jeu d’aulos à la manière d’Agathon : le jeu amolli ; car Agathon le poète tragique était décrié pour sa mollesse",
+  "verifie": "scan",
+  "verification": "Theodoridis I, p. 16 (PDF p. 98, image)",
+  "signale_par": "Hsch. α 281, test.",
+  "pertinence": 2,
+  "remarque": "TrGF 39 T 20a ; même proverbe que Zen. 1.2, Diogenian. 1.7, Sud. α 125 (relevés), mais rapporté ici à Agathon le tragique et non à un aulète"
  },
  {
   "v": "121",

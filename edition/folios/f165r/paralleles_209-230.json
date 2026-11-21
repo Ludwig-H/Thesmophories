@@ -12752,5 +12752,47 @@
   "signale_par": "recherche dans le corpus (contexte du fragment signalé par Taillardat 1965, § 603, n. 5)",
   "pertinence": 2,
   "remarque": "mot d’Ésope : le verbe même de 222 (κεκραγέναι, cf. τί κέκραγας ;) ; Mnésiloque crie comme le porc mené au couteau"
+ },
+ {
+  "v": "209",
+  "lemme": "ὡς ἀπόλωλ᾽ Εὐριπίδης",
+  "categorie": "tragiques",
+  "ref": "Trag. adesp. fr. 91 TrGF II (Ath. 3.107e)",
+  "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:3.70",
+  "citation": "ἀπόλωλα· πέπλων μ᾽ ὤλεσαν περιπτυχαί.",
+  "traduction": "je suis perdu : les replis des voiles m'ont perdu",
+  "verifie": "scan",
+  "verification": "TrGF II (Snell–Kannicht), p. 42, F 91 (PDF p. 60), image lue ; texte d'Athénée 3.107e (Hégésandre de Delphes) contrôlé au corpus (Perseus grc4 3.70 : ἀνέκραγεν· ἀπόλωλα, πέπλων μ’ ὤλεσαν περιπτυχαί)",
+  "signale_par": "Austin–Olson 2004, p. 123 (ad 209–10 : ἀπόλωλα, parfait de la diction tragique, « adesp. tr. fr. 91 »)",
+  "pertinence": 2,
+  "remarque": "Vers tragique anonyme que l'hétaïre Métaneira s'applique par jeu (Hégésandre ap. Ath.) : ἀπόλωλα en début de vers, ton du lamento tragique repris par Euripide parlant de lui-même. Nauck (app.) : « ὄλωλα malim »."
+ },
+ {
+  "v": "216",
+  "lemme": "ἀλλὰ πρᾶττ᾽, εἴ σοι δοκεῖ",
+  "categorie": "tragiques",
+  "ref": "Trag. adesp. fr. *710.2 TrGF II (P. Aberd. 14)",
+  "urn": "",
+  "citation": "πορεύου· πρᾶσσε κἀπιτύγχανε",
+  "traduction": "va ; agis et réussis",
+  "verifie": "scan",
+  "verification": "TrGF II, p. 296, F *710 (PDF p. 314), image lue : [Ζ]εύς σοι δίδωσι πρᾶξιν εὐτυχεστέραν· / ..[ ]| πορεύου· πρᾶσσε κἀπιτύγχανε",
+  "signale_par": "Austin–Olson 2004, p. 126 (ad 216–17 : « adesp. tr. fr. 710.2 »)",
+  "pertinence": 1,
+  "remarque": "Impératif πρᾶσσε (« fais, agis ») dans un oracle d'itinéraire versifié (Turner : « fort. responsum oraculi de itinere ») ; seul parallèle tragique du simple πρᾶττε d'acquiescement."
+ },
+ {
+  "v": "218",
+  "lemme": "ξυρόν (locutions proverbiales)",
+  "categorie": "tragiques",
+  "ref": "Aesch. fr. 99.22 R. (Κᾶρες ἢ Εὐρώπη)",
+  "urn": "",
+  "citation": "λεπτὴ γὰρ ἐλπὶς ἥδ᾽ ἐπὶ ξυροῦ μένει",
+  "traduction": "car mince est cet espoir, il se tient sur le fil du rasoir",
+  "verifie": "scan",
+  "verification": "TrGF III (Radt), p. 221, F 99, v. 22 (PDF p. 213), image lue ; app. : ΕΛΠΙΣΙΔΗΕΠΙΞΥΡΗΜΕΝΗΙ pap. (ἥδ᾽ ἐπὶ ξ. μ. Blass ; ἥδ᾽ ἐπεξυρημένη Ellis)",
+  "signale_par": "Austin–Olson 2004, p. 127 (ad 218–20)",
+  "pertinence": 2,
+  "remarque": "La locution ἐπὶ ξυροῦ (ἀκμῆς) chez Eschyle (papyrus de la Sorbonne) : même groupe que Soph. Ant. 996, Eur. HF 630, Aesch. Cho. 884. Radt renvoie à Ar. Eq. 1244 (= adesp. F 55 λεπτή τις ἐλπίς) pour le début du vers."
  }
 ]

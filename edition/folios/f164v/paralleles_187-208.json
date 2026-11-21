@@ -966,6 +966,48 @@
   "remarque": "le mot propre du plaidoyer de l'accusé : Agathon presse Euripide de plaider lui-même sa cause"
  },
  {
+  "v": "188",
+  "lemme": "αὐτὸς ἀπολογεῖ παρών (l'absent jugé par défaut)",
+  "categorie": "lexicographes",
+  "ref": "Hsch. ε 5773",
+  "urn": "drive:hsch:II#pdf251",
+  "citation": "ἐρήμη· μονομερὴς δίκη, ὅταν μὴ ἀπαντήσας ὁ διωκόμενος ἐπὶ τὴν κρίσιν καταδιαιτηθῇ",
+  "traduction": "« (jugement) par défaut : procès à une seule partie, quand le défendeur, faute d'avoir comparu, est condamné par l'arbitre »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἐρήμη' -a 'Hsch.' -o gloses ; hr.py 'ε 5773' (Latte II, p. 239, texte décodé ; signe [D] de la marge omis)",
+  "signale_par": "dépouillement d'Hésychius (reprise du 21 nov.)",
+  "pertinence": 2,
+  "remarque": "test. de l'édition : Σ ε 827 ; Zen. 3.84 ; Diogen. 4.67 ; Prov. Bodl. 432 ; idem Phot. ε 1910 Theodoridis (II, p. 182, lu sur l'image : ἐρήμη δίκη· ὅταν μὴ ἀπαντήσας ὁ διωκόμενος ἐπὶ τὴν κρίσιν καταδιαιτηθῇ). Qui ne vient pas plaider lui-même (παρών) est jugé par défaut : c'est le sort qui attend Euripide au « procès » des Thesmophories (vv. 181-182)"
+ },
+ {
+  "v": "188",
+  "lemme": "αὐτὸς ἀπολογεῖ παρών (l'absent jugé par défaut)",
+  "categorie": "proverbes",
+  "ref": "Zen. 3.84",
+  "urn": "urn:cts:greekLit:tlg0098.tlg001.1st1K-grc1:3.84",
+  "citation": "Ἐρήμη δίκη: ὅταν μὴ ἀπαντήσας ὁ διωκόμενος ἐπὶ τὴν κρίσιν καταδικασθῇ.",
+  "traduction": "« Jugement par défaut : quand le défendeur, faute d'avoir comparu, est condamné »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἐρήμη δίκη' --sans-ocr (First1K : Zen. 3.84, Diogen. 4.67)",
+  "signale_par": "test. d'Hsch. ε 5773 (Latte II, p. 239)",
+  "pertinence": 2,
+  "remarque": "la formule judiciaire passée en proverbe ; idem Diogen. 4.67 (sans ἐπὶ τὴν κρίσιν)"
+ },
+ {
+  "v": "188",
+  "lemme": "αὐτὸς ἀπολογεῖ παρών (l'absent jugé par défaut)",
+  "categorie": "prose",
+  "ref": "Thuc. 6.61.7",
+  "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:6.61.7",
+  "citation": "οἱ δ’ Ἀθηναῖοι ἐρήμῃ δίκῃ θάνατον κατέγνωσαν αὐτοῦ τε καὶ τῶν μετ’ ἐκείνου.",
+  "traduction": "« les Athéniens le condamnèrent à mort par défaut, lui et ceux qui l'accompagnaient »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἐρήμη δίκη' --sans-ocr (Perseus, Thuc. 6.61.7)",
+  "signale_par": "recherche dans le corpus (reprise du 21 nov.)",
+  "pertinence": 1,
+  "remarque": "l'issue de l'affaire d'Alcibiade (415), qui avait demandé à plaider présent (Thuc. 6.29.2 ; Plut. Alc. 19.4, déjà relevés) : l'absent est condamné ἐρήμῃ δίκῃ"
+ },
+ {
   "v": "189",
   "lemme": "ἐγὼ φράσω σοι",
   "categorie": "aristophane",
@@ -1300,6 +1342,20 @@
   "signale_par": "Austin–Olson 2004, p. 118 (ad 189-90)",
   "pertinence": 1,
   "remarque": "πρῶτα μέν en tête de série"
+ },
+ {
+  "v": "189",
+  "lemme": "ἐγὼ φράσω σοι",
+  "categorie": "lexicographes",
+  "ref": "Hsch. φ 844",
+  "urn": "drive:hsch:IV#pdf210",
+  "citation": "φράσον· εἰπέ, λέξον (Aesch. Pers. 333). ἑρμήνευσον (Ev. Matth. 15, 15)",
+  "traduction": "« φράσον : dis, parle ; explique »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'φράσω OR φράσον OR φράζω' -a 'Hsch.' -o gloses (Hansen–Cunningham IV, p. 178, texte décodé ; astérisque et sigles de la marge omis)",
+  "signale_par": "dépouillement d'Hésychius (reprise du 21 nov.)",
+  "pertinence": 1,
+  "remarque": "seule glose d'Hésychius pour l'impératif ou le futur de φράζω : le verbe au sens attique de « dire » (λέγειν), celui de la formule tragique ἐγὼ φράσω σοι (Eur. Hec. 1180, Med. 535, déjà relevés)"
  },
  {
   "v": "190",
@@ -1916,6 +1972,34 @@
   "signale_par": "dépouillement d'Hésychius (lex.py πολιο), reprise du 20 nov.",
   "pertinence": 2,
   "remarque": "glose marquée * (fonds de Cyrille) ; Hansen y reconnaît Ar. Lys. 595 (cf. ω 499) : πολιός pris substantivement pour « vieillard », comme Euripide se désigne ici ; voir aussi Hsch. π 2782 et π 2773, déjà relevées"
+ },
+ {
+  "v": "190",
+  "lemme": "πώγων᾽ ἔχω (la barbe, masque de virilité)",
+  "categorie": "aristophane",
+  "ref": "Ar. Eccl. 68–71",
+  "urn": "urn:cts:greekLit:tlg0019.tlg010.perseus-grc2:68",
+  "citation": "ἔχετε δὲ τοὺς πώγωνας, οὓς εἴρητʼ ἔχειν / πάσαισιν ἡμῖν, ὁπότε συλλεγοίμεθα; / — νὴ τὴν Ἑκάτην καλόν γʼ ἔγωγε τουτονί. / — κἄγωγʼ Ἐπικράτους οὐκ ὀλίγῳ καλλίονα.",
+  "traduction": "« Avez-vous les barbes qu'il était convenu que nous aurions toutes à notre réunion ? — Par Hécate, moi j'en ai une belle, la voici. — Et moi une bien plus belle que celle d'Épicratès. »",
+  "verifie": "corpus",
+  "verification": "lire.py Ar. Eccl. 68 71 (Perseus, Hall–Geldart)",
+  "signale_par": "Sud. ε 2416 et π 2150 (recherche « Ἐπικράτους οὐκ ὀλίγῳ », reprise du 21 nov.)",
+  "pertinence": 2,
+  "remarque": "le déguisement inverse : les femmes de l'Assemblée se munissent de barbes pour passer pour des hommes, quand Euripide, barbu, ne peut passer pour une femme et qu'il faudra raser le Parent (vv. 215-235). La Souda (π 2150, déjà relevé ; ε 2416) cite le v. 71 complété par πώγων᾿ ἔχω / ἔχεις"
+ },
+ {
+  "v": "190",
+  "lemme": "πώγων᾽ ἔχω (la barbe, masque de virilité)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 4.2.17 (LB II, col. 994 E–F)",
+  "urn": "",
+  "citation": "Προνόμου πώγων. i. e. Pronomi barba, de praelonga dicebatur. Aristophanes in Concionatricibus … Argyrrhius exercitus dux quispiam fuit effoeminatus & cinaedus, nihil habens viri praeter barbam. … Convenit igitur in quosdam, qui alioqui mollissimi, vultus vestiumque severitate, vitae continentiam praeferunt.",
+  "traduction": "« La barbe de Pronomos : se disait d'une barbe très longue […] Agyrrhios était un chef d'armée efféminé et débauché, qui n'avait d'un homme que la barbe […] L'adage convient donc à ceux qui, d'ailleurs très mous, affichent par la sévérité du visage et du vêtement une vie de continence. »",
+  "verifie": "scan",
+  "verification": "Erasmi Opera omnia II (Leyde, 1703), col. 994 E–F, Chil. IV, cent. II, XVII, lu sur l'image (.sources/web/latin/erasme/erasme_opera_II.pdf, page 515 du fichier) ; index de LB II : « Pronomi barba, 994. D »",
+  "signale_par": "index de LB II (« barba »), reprise du 21 nov.",
+  "pertinence": 2,
+  "remarque": "Érasme part d'Eccl. 102 (Ἀγύρριος γοῦν τὸν Προνόμου πώγων᾽ ἔχων λέληθε) et cite, pour la barbe d'Épicratès, Eccl. 71 et Platon le Comique (ἄναξ ὑπήνης Ἐπίκρατες σακεσφόρε) ; même dossier qu'Apost. 1.19 (déjà relevé). La barbe d'Euripide est l'insigne de l'homme ; celle d'Agyrrhios, un postiche sur un efféminé"
  },
  {
   "v": "191",
@@ -3374,6 +3458,20 @@
   "remarque": "le locuteur se dit le pigeon (mâle, περιστερός) blanc d'Aphrodite ; ancien non-vérifié repris"
  },
  {
+  "v": "191",
+  "lemme": "σὺ δ᾽ εὐπρόσωπος … ἐξυρημένος : Agathon (le « bel » Agathon, barbu en réalité)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1.3.72 (LB II, col. 139 D–E)",
+  "urn": "",
+  "citation": "Τῶν καλῶν καὶ ὀπώρη καλή, i. e. Pulchrorum etiam autumnus pulcher. Metaphora proverbialis nata ex Archelai apophthegmate, quod ab eo dictum Plutarchus refert in Euripidem, qui jam pubescentem atque exoletum Agathonem in convivio suaviabatur.",
+  "traduction": "« Chez les beaux, même l'automne est beau. Métaphore proverbiale née d'un apophtegme d'Archélaos, mot que Plutarque rapporte à propos d'Euripide, qui embrassait au cours d'un banquet Agathon, déjà barbu et passé de l'âge »",
+  "verifie": "scan",
+  "verification": "Erasmi Opera omnia II (Leyde, 1703), col. 139 D–E, Chil. I, cent. III, LXXII, lu sur l'image (.sources/web/latin/erasme/erasme_opera_II.pdf, page 88 du fichier) ; même texte dans Érasme, Les Adages, éd. J.-C. Saladin, t. I, p. 265, n° 272 (PDF du Drive, page 541, image)",
+  "signale_par": "recherche « autumnus pulcher » dans les Adages (import du Drive, reprise du 21 nov.)",
+  "pertinence": 2,
+  "remarque": "Érasme fait un proverbe du mot rapporté par Plut. Mor. 177a–b et Ael. VH 13.4 (déjà relevés) : l'Agathon réel avait de la barbe (ἤδη γενειῶντα), ce qui donne son sel à l'Agathon toujours rasé de la comédie (ἐξυρημένος) ; l'Euripide qui l'embrasse dans l'anecdote est ici celui qui le flatte (vv. 191-192)"
+ },
+ {
   "v": "192",
   "lemme": "γυναικόφωνος",
   "categorie": "testimonium",
@@ -4212,6 +4310,20 @@
   "signale_par": "Prato 2001, p. 193",
   "pertinence": 2,
   "remarque": "γυναικόφωνος parmi les qualités de la voix de l'acteur ; Pollux renvoie à II 111 sq. (Poll. 2.111, déjà relevé comme témoignage) ; ancien non-vérifié repris"
+ },
+ {
+  "v": "192",
+  "lemme": "ἁπαλός",
+  "categorie": "lexicographes",
+  "ref": "Zonar. (Tittmann) col. 233",
+  "urn": "drive:Grec/Lexiques/Zonarae lexicon ed. Tittmann/1.pdf#pdf232",
+  "citation": "Ἁπαλός. μαλακός. παρὰ τὴν ἁφὴν ἁφαλὸς καὶ ἁπαλός.",
+  "traduction": "« ἁπαλός : mou ; de ἁφή (le toucher), ἁφαλός, puis ἁπαλός »",
+  "verifie": "scan",
+  "verification": "Zonarae lexicon, éd. Tittmann, t. I (Leipzig, 1808), col. 233, lu sur l'image (PDF du Drive, page 232) ; aussi ia:lexiconextribus00albegoog#n241 (OCR)",
+  "signale_par": "recherche « ἁπαλός » dans les lexiques importés du Drive (reprise du 21 nov.)",
+  "pertinence": 1,
+  "remarque": "ἁπαλός glosé par μαλακός, le mot même de la mollesse reprochée à Agathon (διεβέβλητο ἐπὶ μαλακίᾳ : Sud. α 124 ; Hsch. α 281, déjà relevés) ; Hésychius (α 5759) donne μικρός, τρυφερός"
  },
  {
   "v": "193",
@@ -5362,6 +5474,20 @@
   "remarque": "ἐλπίζω neutre, « s'attendre à » : Agathon ne dit pas « n'espère pas » mais « ne compte pas que je subisse ton malheur »"
  },
  {
+  "v": "195",
+  "lemme": "τὸ σὸν κακὸν (196) ἡμᾶς ὑφέξειν (le mal d'autrui retombant sur soi)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1.1.84 (LB II, col. 59 F – 60 A)",
+  "urn": "",
+  "citation": "In me haec cudetur faba. Terentius in Eunucho : At enim isthaec in me cudetur faba : h. e. Donato interprete, in me malum hoc recidet, in me haec vindicabitur culpa.",
+  "traduction": "« C'est sur moi qu'on battra cette fève. Térence dans l'Eunuque […] c'est-à-dire, selon l'interprétation de Donat : ce mal retombera sur moi, c'est sur moi que cette faute sera punie »",
+  "verifie": "scan",
+  "verification": "Erasmi Opera omnia II (Leyde, 1703), col. 59 F – 60 A, Chil. I, cent. I, LXXXIV, lu sur l'image (.sources/web/latin/erasme/erasme_opera_II.pdf, page 48 du fichier) ; vers de Térence contrôlé dans .sources/web/latin_perseus/phi0134.phi003.perseus-lat2.xml (Eun., v. 380b de l'éd. Perseus : At enim istaec in me cudetur faba)",
+  "signale_par": "recherche dans les Adages (trad. fr., import du Drive : n° 84, voisin de « Tute hoc intristi »), reprise du 21 nov.",
+  "pertinence": 2,
+  "remarque": "c'est exactement ce que refuse Agathon : que le châtiment préparé pour Euripide « retombe » sur lui (ὑφέξειν). L'adage suivant (1.1.85, Tute hoc intristi) répond au v. 197"
+ },
+ {
   "v": "196",
   "lemme": "ἡμᾶς (pluriel de majesté)",
   "categorie": "aristophane",
@@ -6060,6 +6186,34 @@
   "signale_par": "Tosi n° 890",
   "pertinence": 1,
   "remarque": "valeur proverbiale attestée par Donat (Tosi) ; Phormion doit assumer seul l'intrigue qu'il a nouée"
+ },
+ {
+  "v": "197",
+  "lemme": "ἀλλ᾽ αὐτὸς ὅ γε σόν ἐστιν οἰκείως φέρε (à chacun d'avaler ce qu'il a pétri)",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1.1.85 (LB II, col. 60 A–B)",
+  "urn": "",
+  "citation": "Tute hoc intristi, omne tibi exedendum est. Non diversum superiori Donatus admonuit, illud quod apud eundem poetam legitur in Phormione : Tute hoc intristi, tibi omne est exedendum.",
+  "traduction": "« C'est toi qui as fait cette pâtée : à toi de la manger toute. Donat a noté que ce n'est pas différent de l'adage précédent, ce qu'on lit chez le même poète dans le Phormion […] »",
+  "verifie": "scan",
+  "verification": "Erasmi Opera omnia II (Leyde, 1703), col. 60 A–B, Chil. I, cent. I, LXXXV, lu sur l'image (.sources/web/latin/erasme/erasme_opera_II.pdf, page 48 du fichier) ; index de LB II : « Tute hoc intristi … 60. A »",
+  "signale_par": "recherche « intristi » dans les Adages (trad. fr., import du Drive), reprise du 21 nov.",
+  "pertinence": 2,
+  "remarque": "Érasme rattache le mot de Phormion (Ter. Phorm. 318, déjà relevé avec Tosi n° 890) à l'adage précédent, In me haec cudetur faba (1.1.84, au v. 195) : les deux moitiés de la réponse d'Agathon (vv. 195-197) ; équivalent grec : Macar. 4.50 (déjà relevé)"
+ },
+ {
+  "v": "197",
+  "lemme": "ὅ γε σόν ἐστιν (τὰ σαυτοῦ, non τὰ ἴδια)",
+  "categorie": "lexicographes",
+  "ref": "Phryn. Ecl. 409 Fischer",
+  "urn": "drive:Grec/Lexiques/Phrynichus d'Arabie/Phrynichos Ekloge by Fischer, Eitel (z-lib.org).pdf#pdf115",
+  "citation": "Τὰ ἴδια πράττω καὶ τὰ ἴδια πρᾶττε οἱ πολλοὶ λέγουσιν εἰκῇ, δέον τὰ ἐμαυτοῦ πράττω καὶ τὰ σαυτοῦ πρᾶττε λέγειν ὡς οἱ παλαιοί.",
+  "traduction": "« “je fais mes affaires propres”, “fais tes affaires propres” (τὰ ἴδια), disent la plupart à la légère, alors qu'il faut dire, comme les anciens, τὰ ἐμαυτοῦ πράττω et τὰ σαυτοῦ πρᾶττε »",
+  "verifie": "scan",
+  "verification": "Phrynichos, Ekloge, éd. E. Fischer (1974), p. 107, n° 409 (405), lu sur l'image (PDF du Drive, page 115)",
+  "signale_par": "recherche « τὰ σαυτοῦ » dans les lexiques importés du Drive (reprise du 21 nov.)",
+  "pertinence": 1,
+  "remarque": "l'atticiste prescrit le possessif (τὰ σαυτοῦ) contre ἴδιος : c'est le tour d'Agathon (ὅ γε σόν ἐστιν) et celui du monostique cité par Tosi n° 385 (Πράττων τὰ σαυτοῦ, déjà relevé)"
  },
  {
   "v": "198",
@@ -7166,6 +7320,20 @@
   "signale_par": "Tosi (dossier « Ducunt volentem fata », corpus § 114)",
   "pertinence": 1,
   "remarque": "ἀνθρωπίνως φέρειν, la formule consolatoire (cf. Men. fr. 874 K.-A., déjà relevé) ; ancien non-vérifié repris"
+ },
+ {
+  "v": "198",
+  "lemme": "τὰς συμφορὰς γὰρ … φέρειν (supporter avec mesure ce qui arrive)",
+  "categorie": "lexicographes",
+  "ref": "Phryn. Ecl. 397 Fischer",
+  "urn": "drive:Grec/Lexiques/Phrynichus d'Arabie/Phrynichos Ekloge by Fischer, Eitel (z-lib.org).pdf#pdf113",
+  "citation": "Μετριάζειν· τοῦτο οἱ μὲν ἀρχαῖοι ἐπὶ τοῦ τὰ συμβαίνοντα μετρίως φέρειν τιθέασιν, Μένανδρος (fr. 881 Koe.) δ᾽ ἐπὶ τοῦ ἀσθενεῖν παρὰ τὴν τῶν δοκίμων χρῆσιν.",
+  "traduction": "« μετριάζειν : les anciens l'emploient pour “supporter avec mesure ce qui arrive”, Ménandre pour “être malade”, contre l'usage des bons auteurs »",
+  "verifie": "scan",
+  "verification": "Phrynichos, Ekloge, éd. E. Fischer (1974), p. 105, n° 397 (396), lu sur l'image (PDF du Drive, page 113) ; même glose dans la famille q (p. 123, n° 397 : … τὰ συμβαίνοντα γενναίως φέρειν)",
+  "signale_par": "recherche dans les lexiques importés du Drive (reprise du 21 nov.)",
+  "pertinence": 1,
+  "remarque": "l'atticiste définit par la formule même d'Agathon (τὰ συμβαίνοντα … φέρειν) la vertu qu'il prêche à Euripide ; la famille q remplace μετρίως par γενναίως, cf. Soph. fr. 319 R. (ἐσθλοῦ πρὸς ἀνδρὸς πάντα γενναίως φέρειν, déjà relevé via Tosi n° 118)"
  },
  {
   "v": "199",
@@ -8594,6 +8762,34 @@
   "signale_par": "dépouillement des lexicographes (lex.py καταπυγ), reprise du 20 nov.",
   "pertinence": 2,
   "remarque": "cite Ar. Lys. 775–776 (οὐκέτι δόξει / ὄρνεον οὐδʼ ὁτιοῦν καταπυγωνέστερον εἶναι) ; la glose μαλακώτερον rattache le mot à la mollesse (μαλακία) reprochée à Agathon ; voir aussi κ 737 Καταπυγῶν: κατασελγαίνων (κ 736 et 738 déjà relevés)"
+ },
+ {
+  "v": "200",
+  "lemme": "εὐρύπρωκτος εἶ",
+  "categorie": "lexicographes",
+  "ref": "Zonar. (Tittmann) col. 911",
+  "urn": "drive:Grec/Lexiques/Zonarae lexicon ed. Tittmann/1.pdf#pdf571",
+  "citation": "Εὐρυπρωκτίαν. μαλακίαν. Ἀριστοφάνης· τὴν εὐρυπρωκτίαν σοι ἐναποψήσεται. ὅ ἐστιν ἀπομάξει.",
+  "traduction": "« εὐρυπρωκτία : mollesse. Aristophane : “il essuiera sur toi sa large-culité”, c'est-à-dire il la frottera sur toi »",
+  "verifie": "scan",
+  "verification": "Zonarae lexicon, éd. Tittmann, t. I (Leipzig, 1808), col. 911, lu sur l'image (PDF du Drive, page 571) ; aussi ia:lexiconextribus00albegoog#n588 (OCR)",
+  "signale_par": "recherche « εὐρυπρωκτ* » dans les lexiques importés du Drive (reprise du 21 nov.)",
+  "pertinence": 1,
+  "remarque": "même glose que Sud. ε 1121 (déjà relevé), sans le nom de Prépis : citation d'Ar. Ach. 843 ; εὐρυπρωκτία = μαλακία, le reproche fait à Agathon"
+ },
+ {
+  "v": "200",
+  "lemme": "ὦ κατάπυγον (κατωφερής, « porté sur la chose »)",
+  "categorie": "lexicographes",
+  "ref": "Phryn. Ecl. 406 Fischer",
+  "urn": "drive:Grec/Lexiques/Phrynichus d'Arabie/Phrynichos Ekloge by Fischer, Eitel (z-lib.org).pdf#pdf114",
+  "citation": "Καταφερής· ἐπὶ τῶν πρὸς ἀφροδίσια ἀκολάστων λέγουσιν οἱ πολλοί, οὐδαμῶς οὕτω τῶν δοκίμων χρωμένων.",
+  "traduction": "« καταφερής : la plupart le disent des gens sans retenue dans les plaisirs de l'amour, alors que les bons auteurs ne l'emploient jamais ainsi »",
+  "verifie": "scan",
+  "verification": "Phrynichos, Ekloge, éd. E. Fischer (1974), p. 106, n° 406 (402), lu sur l'image (PDF du Drive, page 114) ; apparat : κατωφερής x, κατωφερεῖς L",
+  "signale_par": "recherche dans les lexiques importés du Drive (reprise du 21 nov.)",
+  "pertinence": 1,
+  "remarque": "le mot par lequel Hésychius glose καταπύγων (κ 1366 : … καὶ ὁ κατωφερής) et οἰφόλις (ο 435 : γυνὴ καταφερής), déjà relevés : Phrynichus le tient pour un emploi vulgaire, non attique"
  },
  {
   "v": "201",

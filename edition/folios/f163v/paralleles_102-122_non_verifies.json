@@ -7,13 +7,6 @@
   "raison": "non retrouvé dans l'OCR de CPG II ; page non identifiée"
  },
  {
-  "v": "109",
-  "lemme": "χώρας γύαλα",
-  "ref": "Soph. fr. 460 R.",
-  "source": "Sommerstein 1994, ad 110 ; LSJ s.v. γύαλον",
-  "raison": "fragment non retrouvé dans l'OCR de Nauck (TGF²) ; TrGF inaccessible"
- },
- {
   "v": "119",
   "lemme": "Ἄρτεμιν ἀπειρολεχῆ",
   "ref": "Sapph. fr. 44A (a) V.",
@@ -23,30 +16,9 @@
  {
   "v": "120",
   "lemme": "Ἀσιάδος",
-  "ref": "EM α 1918 L.-L. ; Et. Gen. AB α 1271 L.-L.",
+  "ref": "Et. Gen. AB α 1271 L.-L.",
   "source": "Fabrini, thèse, p. 163 et n. 468 ; testimonia de l'auteur",
-  "raison": "éd. Lasserre–Livadaras non disponible (EM lu chez Sylburg, 153.31)"
- },
- {
-  "v": "120",
-  "lemme": "Ἀσιάδος",
-  "ref": "Eur. fr. 369d et fr. 370.8–9 Kn. (= fr. 17 Sonnino)",
-  "source": "Fabrini, thèse, p. 163",
-  "raison": "TrGF V et l'article de Sonnino non disponibles (Nauck lu : fr. 370 N.²)"
- },
- {
-  "v": "120",
-  "lemme": "Ἀσιάδος",
-  "ref": "Eur. Hyps. fr. 1 iii 9 et 64 ii 101 Bond (= frr. 752g.9, 759a.1622 Kn.)",
-  "source": "Prato 2001, ad 120 ; Fabrini, thèse, p. 164",
-  "raison": "éditions Bond et Kannicht non disponibles ; texte non lu"
- },
- {
-  "v": "120",
-  "lemme": "Ἀσιάδος",
-  "ref": "Phot. α 2956, α 2957 Theodoridis",
-  "source": "Austin 1987, p. 74 ; Cunningham, test. de Synag. α 2225–2226",
-  "raison": "éd. Theodoridis non disponible ; notices non retrouvées dans l'OCR de Naber"
+  "raison": "éd. Lasserre–Livadaras non disponible ; TrGF V, p. 409 le donne identique à l'EM jusqu'à Ἀριστοφάνης (l'EM, lu chez Sylburg 153.31, est relevé avec son numéro α 1918 L.-L.)"
  },
  {
   "v": "120",
@@ -64,13 +36,6 @@
  },
  {
   "v": "121",
-  "lemme": "παράρυθμ' εὔρυθμα (X non-X)",
-  "ref": "Pl. Com. fr. 182.3 K.-A.",
-  "source": "Sommerstein 1994, ad 120–1",
-  "raison": "K.-A. non disponible ; fragment non identifié chez Kock"
- },
- {
-  "v": "121",
   "lemme": "Φρυγίων",
   "ref": "Anon. De tragoedia (Mich. Psell.), éd. Perusino 1993, p. 62",
   "source": "Prato 2001, ad 121–2 ; Austin 1987, p. 17 n. 3 ; Austin–Olson 2004, ad 120–2 (« p. 28. 48 Perusino »)",
@@ -82,13 +47,6 @@
   "ref": "Ruf. Syn. Puls. 7.4",
   "source": "LSJ s.v. παράρρυθμος",
   "raison": "texte non lu"
- },
- {
-  "v": "121",
-  "lemme": "παράρυθμ' εὔρυθμα (manière d'Agathon)",
-  "ref": "Phot. α 83 Theodoridis",
-  "source": "Hsch. α 281, test.",
-  "raison": "éd. Theodoridis non disponible"
  },
  {
   "v": "122",

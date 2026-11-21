@@ -16,14 +16,6 @@
   "raison": "Géorgiques absentes du corpus latin local (.sources/web/latin_perseus : seules Bucoliques et Énéide)"
  },
  {
-  "v": "314",
-  "lemme": "ἐπιχαρῆναι",
-  "categorie": "lexicographes",
-  "ref": "Phot. ε 1800 (ἐπιχαίρειν· συγχαίρειν)",
-  "signale_par": "testimonia de Latte à Hsch. ε 5416",
-  "raison": "Photius de Theodoridis non disponible localement ; glose non retrouvée dans l'OCR de Naber"
- },
- {
   "v": "315",
   "lemme": "χρυσολύρα",
   "categorie": "poetes",
@@ -62,14 +54,6 @@
   "ref": "Bacch. 3.28 (χρυσάορ-, « à la lyre d'or » ?)",
   "signale_par": "Austin–Olson 2004, p. 156 (« probably Bacch. 3. 28 (cf. Maehler ad loc.) »)",
   "raison": "Bacchylide absent du corpus local (recherche χρυσάορ* -a Bacch : aucun résultat)"
- },
- {
-  "v": "315",
-  "lemme": "Ζεῦ",
-  "categorie": "comiques",
-  "ref": "Crates fr. 44 K.-A. (ἐξ Ἑστίας ἀρχόμενος ?)",
-  "signale_par": "Tosi n. 62 ; scholie d'Aratos citée par Kaibel, CGF I, p. 161 (« ἀλλὰ καὶ Κράτης ὁ κωμικός »), où la citation de Cratès est omise",
-  "raison": "texte de Cratès non cité par Kaibel ; PCG IV non contrôlé"
  },
  {
   "v": "315",

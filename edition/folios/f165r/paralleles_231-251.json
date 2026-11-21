@@ -773,15 +773,15 @@
   "v": "231",
   "lemme": "τί μύζεις;",
   "categorie": "lexicographes",
-  "ref": "Phot. s.v. μύζει",
-  "urn": "ia:phtioutoupatria00porsgoog#n233",
-  "citation": "Μύζει: θηλάζει· λείχει. Μύζοντες: ἐκπιέζοντες.",
+  "ref": "Phot. μ 574–575",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf700",
+  "citation": "μύζει· θηλάζει, λείχει. — μύζοντες· ἐκπιέζοντες.",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Porson 1822 (réimpr.), image n233 lue (μ de Theodoridis non disponible : numéro à ajouter)",
+  "verification": "Theodoridis II, p. 583 (PDF du Drive p. 700, image lue) ; déjà lu chez Porson 1822 (réimpr.), image n233",
   "signale_par": "Prato 2001, p. 202",
   "pertinence": 1,
-  "remarque": "même glose que Hsch. μ 1789 : le μύζω du lexicographe est celui de la succion"
+  "remarque": "même glose que Hsch. μ 1789 : le μύζω du lexicographe est celui de la succion ; testimonia de Theodoridis : = Hsch. μ 1789, Suid. μ 1381, cf. Hsch. μ 1792 et ε 2524, EM 593, 39 ; Eustathe (862, 44 ; 1821, 52 ; 1921, 64) donne μυζοῦν = θηλάζειν d'après Suétone (Περὶ βλασφ. 48 T.)"
  },
  {
   "v": "231",
@@ -809,7 +809,7 @@
   "verification": "Tosi, Dict. des sentences, n. 2123 (texte OCR du Drive, « Ils n’osent pas même faire \"mu\" »)",
   "signale_par": "recherche dans le corpus (Tosi)",
   "pertinence": 3,
-  "remarque": "le mu latin (Enn. inc. 10 V. ; Lucil. 426 M. ; Petr. 57, 8 : références de Tosi, non contrôlées ici) et μῦ grec : le silence bouche close ; Tosi renvoie à μύζειν, Eq. 10 et Plut. 17 (οὐδὲ γρῦ) ; il ne cite pas notre vers"
+  "remarque": "le mu latin (Enn. inc. 10 V. ap. Varro L. 7.101 ; Lucil. 426 M. ; Petr. 57, 8 : tous trois contrôlés, voir ci-dessus) et μῦ grec : le silence bouche close ; Tosi renvoie à μύζειν, Eq. 10 et Plut. 17 (οὐδὲ γρῦ) ; il ne cite pas notre vers"
  },
  {
   "v": "231",
@@ -992,6 +992,34 @@
   "pertinence": 1,
   "remarque": "",
   "traduction": ""
+ },
+ {
+  "v": "231",
+  "lemme": "μυμῦ",
+  "categorie": "proverbes",
+  "ref": "Lucil. 426 M.",
+  "urn": "ia:cluciliicarminum01luci#n91",
+  "citation": "non laudare hominem quemquam, neque mu facere, inquam.",
+  "traduction": "ne louer personne, ni même faire « mu », dis-je",
+  "verifie": "scan",
+  "verification": "Marx, C. Lucilii carminum reliquiae, I (1904), p. 29, livre XI : image n91 lue (archive.org cluciliicarminum01luci) ; source : Iul. Rom. ap. Charis. GL I p. 240, 9 K. (apparat de Marx)",
+  "signale_par": "Tosi n. 2123",
+  "pertinence": 2,
+  "remarque": "mu facere, le moindre murmure (ici de blâme) ; même tour que Enn. inc. 10 V. ap. Varro L. 7.101 (neque, ut aiunt, mu facere audent) et Petr. 57.8 ; Charisius cite le vers pour mu = muttire"
+ },
+ {
+  "v": "231",
+  "lemme": "τί μύζεις;",
+  "categorie": "tragiques",
+  "ref": "Aesch. fr. 461 R. (dubium)",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 3 Aeschylus by Radt, Stefan ROC hellenike gimagereader.pdf#pdf494",
+  "citation": "μυχθίζειν",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "Radt, TrGF 3, p. 501 (PDF du Drive p. 494, image lue)",
+  "signale_par": "LSJ s.v. μυχθίζω (liste des non vérifiés de la passe précédente)",
+  "pertinence": 1,
+  "remarque": "mot attesté pour Eschyle par Eustathe seul (Il. 440, 25 : καὶ τὸ μυχθίζειν παρά τε Αἰσχύλῳ καὶ ἄλλοις, juste après le témoignage sur τί μύζεις ; Od. 1965, 49) ; Radt, après Butler et Wagner, y voit probablement PV 743 κἀναμυχθίζῃ (ci-dessus)"
  },
  {
   "v": "232",
@@ -3246,6 +3274,34 @@
   "pertinence": 1,
   "remarque": "= Hsch. ε 3248 (à fusionner)",
   "traduction": ""
+ },
+ {
+  "v": "234",
+  "lemme": "βούλει θεάσασθ᾽ αὑτόν; (le miroir)",
+  "categorie": "tragiques",
+  "ref": "Aesch. fr. 61 R. (Ἠδωνοί)",
+  "urn": "drive:Grec/Tragicorum graecorum fragmenta/Tragicorum Graecorum Fragmenta, Volume 3 Aeschylus by Radt, Stefan ROC hellenike gimagereader.pdf#pdf174",
+  "citation": "ποδαπὸς ὁ γύννις; τίς πάτρα; τίς ἡ στολή;",
+  "traduction": "d'où vient cet efféminé ? quelle patrie ? quel accoutrement ?",
+  "verifie": "scan",
+  "verification": "Radt, TrGF 3, p. 182 (PDF du Drive p. 174, image lue : texte, testimonia, apparat)",
+  "signale_par": "liste des non vérifiés de la passe précédente (Aesch. fr. 61 R., « source de Thesm. 140 »)",
+  "pertinence": 1,
+  "remarque": "Lycurgue interrogeant Dionysos captif ; Radt imprime sous ce numéro Thesm. 136–142, dont 140 τίς δαὶ κατόπτρου καὶ ξίφους κοινωνία; (le miroir d'Agathon), le v. 136 seul étant sûrement d'Eschyle (scholie de R au v. 135), le reste marqué en lettres espacées d'après Rau, Paratragodia ; il note que le v. 140 est imité par un comique cité par Stobée (4.30.6a, attribué à Épicharme : voir Tosi n. 1900)"
+ },
+ {
+  "v": "234",
+  "lemme": "βούλει θεάσασθ᾽ αὑτόν; (le miroir)",
+  "categorie": "proverbes",
+  "ref": "Eust. Od. 1587, 47",
+  "urn": "drive:Grec/Lexiques/Eustathe de Thessalonique/Eustathii Archiepiscopi Thessalonicensis Commentarii Ad Homeri Odysseam. Vol. 1 by Eustathius (z-lib.org).pdf#pdf299",
+  "citation": "Ὅτι οὐδὲν μὲν θεάτρου μετὸν τυφλῷ ἀνδρὶ ὥσπερ οὐδὲ κατόπτρου κατὰ τὴν παροιμίαν.",
+  "traduction": "l'aveugle n'a pas plus affaire au spectacle qu'au miroir, selon le proverbe",
+  "verifie": "scan",
+  "verification": "Stallbaum, Eust. Od. I, p. 286, l. 2–3 (PDF du Drive p. 299, image lue ; Stallbaum imprime κατόπτοου, coquille)",
+  "signale_par": "Leutsch, CPG I, p. 346, n. à Plut. De prov. 27 ; Radt, TrGF 3, p. 182 (ad fr. 61)",
+  "pertinence": 1,
+  "remarque": "le proverbe de l'aveugle au miroir (Τυφλῷ κάτοπτρον χαρίζῃ, Plut. De imposs. 27 ; Mant. Prov. 2.100) : cf. Thesm. 140"
  },
  {
   "v": "235",
@@ -6387,12 +6443,12 @@
   "v": "241",
   "lemme": "οἴμοι τάλας",
   "categorie": "comiques",
-  "ref": "Hermipp. fr. 52 Kock (Ath. 14.649c)",
+  "ref": "Hermipp. fr. 51 K.-A. (52 Kock ; Ath. 14.649c)",
   "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:14.60",
   "citation": "οἴμοι τάλας, δάκνει, δάκνει, ἀπεσθίει μου τὴν ἀκοήν.",
   "traduction": "",
   "verifie": "corpus",
-  "verification": "Ath. 14.60 (648e–649c, Perseus) ; Kock I, p. 238 (image n268 lue : fr. 52, Στρατιῶται)",
+  "verification": "Ath. 14.60 (648e–649c, Perseus) ; PCG V, p. 585 (PDF du Drive p. 615, image lue : 51 (52), Στρατιῶται) ; Kock I, p. 238 (image n268 lue)",
   "signale_par": "Austin–Olson 2004, p. 133 (« Hermipp. fr. 51. 1 », numérotation K.-A.)",
   "pertinence": 1,
   "remarque": "même cri de douleur en tête de vers"
@@ -6508,6 +6564,48 @@
   "signale_par": "Tosi n. 522 ; CPG I, p. 441 (note à App. Prov. 4.31)",
   "pertinence": 1,
   "remarque": "= com. adesp. fr. 160 Kock (rejeté par Kassel–Austin, selon Tosi) ; Tosi renvoie aussi à Érasme, Adag. 4.8.20 « Invidus vicini oculus » [à vérifier]"
+ },
+ {
+  "v": "241",
+  "lemme": "οἴμοι τάλας",
+  "categorie": "comiques",
+  "ref": "Pherecr. fr. 56, 3 K.-A. (51 Kock)",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/Poetae comici Graeci VII Menecrates-Xenophon ROC hellinike gimagereader.pdf#pdf164",
+  "citation": "“οἴμοι τάλας”, φησίν, “χαράδρα κατελήλυθεν”",
+  "traduction": "« pauvre de moi ! » dit-elle, « voilà le torrent qui dévale »",
+  "verifie": "scan",
+  "verification": "PCG VII, p. 129 (PDF du Drive p. 164, image lue) ; source : Σ (VΓ) Ar. Vesp. 1034a ; Kock I, p. 158 (OCR)",
+  "signale_par": "Austin–Olson 2004, p. 133",
+  "pertinence": 1,
+  "remarque": "Ἐπιλήσμων ἢ Θάλαττα ; οἴμοι τάλας, plainte comique en tête de réplique"
+ },
+ {
+  "v": "241",
+  "lemme": "οἴμοι τάλας",
+  "categorie": "comiques",
+  "ref": "Antiph. fr. 257, 1 K.-A.",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/Poetae comici Graeci Agathenor-Aristonymus ROC hellenike gImagereader.pdf#pdf497",
+  "citation": "οἴμοι τάλας, ὡς ἄδικον ὅτ⌞αν⌟ ἡ μὲν τύχη / λίπῃ τινὸς τὴν τάξ⌞ιν⌟, ὁ δὲ τρόπος μένῃ",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "PCG II, p. 460 (PDF du Drive p. 497, image lue) : « 257 (257 K., CGFP 5) »",
+  "signale_par": "Austin–Olson 2004, p. 133",
+  "pertinence": 1,
+  "remarque": "même formule initiale"
+ },
+ {
+  "v": "241",
+  "lemme": "οἴμοι τάλας",
+  "categorie": "aristophane",
+  "ref": "Ar. fr. 477, 1 K.-A. (462 Kock)",
+  "urn": "drive:Grec/Aristophane/Aristophanes-Testimonia-Et-Fragmenta.pdf#pdf283",
+  "citation": "οἴμοι τάλας, τί μου στρέφει τὴν γαστέρα;",
+  "traduction": "pauvre de moi, qu'est-ce qui me tord le ventre ?",
+  "verifie": "scan",
+  "verification": "PCG III.2, p. 254 (PDF du Drive p. 283, image lue) ; source : Poll. 10.44 (Προάγων)",
+  "signale_par": "recherche dans le corpus (Kock I, p. 509, puis PCG)",
+  "pertinence": 1,
+  "remarque": "le cri suivi de la douleur du corps, comme ici (κάομαι, puis οἴμοι τάλας) ; K.-A. rapprochent Thesm. 484 στρόφος μ' ἔχει τὴν γαστέρα"
  },
  {
   "v": "242",
@@ -7256,14 +7354,14 @@
   "lemme": "τὰ πλεῖστα γὰρ ἀποπεπόνηκας",
   "categorie": "testimonium",
   "ref": "Phot. α 2946",
-  "urn": "",
-  "citation": "ἄσβολος· θηλυκῶς … Ἀριστοφάνης ἐν Θεσμοφοριαζούσαις· τὰ πλεῖστα γὰρ ἀποπεπόνηκας. φεῦ ἰοὺ τῆς ἀσβόλου",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf354",
+  "citation": "ἄσβολος· θηλυκῶς ἡ ἄσβολος, οὐχὶ ἡ ἀσβόλη, οὐδὲ ἀρσενικῶς ὁ ἄσβολος. Ἀριστοφάνης Θεσμοφοριαζούσαις (244/5)· „τὰ πλεῖστα γὰρ ἀποπεπόνηκας. φεῦ ἰοὺ τῆς ἀσβόλου“.",
   "traduction": "",
   "verifie": "scan",
-  "verification": "recherche/testimonia.md, l. 163 (n° confirmé par l’apparat de Cunningham à α 2213 ; texte cité par Naber, Prolegomena I, p. 147, image)",
+  "verification": "Theodoridis I, p. 272 (PDF du Drive p. 354, image lue), texte, testimonia et apparat ; recherche/testimonia.md, l. 163",
   "signale_par": "testimonia de l’auteur",
   "pertinence": 3,
-  "remarque": "texte de Theodoridis I non lu : citation d’après Naber"
+  "remarque": "pièce nommée ; apparat de Theodoridis : « φεῦ ἰοὺ Bekker ex Ar. : σφουίου z, σφουϊοῦ Σᵇ » (même corruption que Synag. Σᵇ α 2213 : à verser au dossier de φεῦ / φῦ au v. 245) ; « Θεσμοφοριαζούσαις Σᵇ : Θεσμοφορία z ». Testimonia de l'éditeur : = Ba. 150, 19 (= Ael. Dion. α 186) ; cf. Phryn. PS 28, 1 et Ecl. 82 F., Moer. p. 11 P., Thom. 10, 6, Suid. α 4132, Hsch. α 7634"
  },
  {
   "v": "244",
@@ -7437,15 +7535,15 @@
   "v": "245",
   "lemme": "φεῦ ἰοὺ τῆς ἀσβόλου",
   "categorie": "testimonium",
-  "ref": "Moer. α 17 (Bekker, p. 187)",
-  "urn": "",
-  "citation": "ἄσβολος Ἀττικοί, ἀσβόλη Ἕλληνες",
+  "ref": "Moer. α 17 Hansen (= p. 187, 17 Bekker)",
+  "urn": "drive:Grec/Lexiques/Moeris/PS.-Herodian, de Figuris  Das Attizistische Lexikon Des Moeris Uberlieferungsgeschichte Und Kritische Ausgabe ROC hellenike gimagereader.pdf#pdf249",
+  "citation": "ἄσβολος Ἀττικοί· ἀσβόλη Ἕλληνες.",
   "traduction": "",
   "verifie": "scan",
-  "verification": "recherche/testimonia.md, l. 167 (Bekker 1833, image ; n° de Hansen non contrôlé)",
+  "verification": "Hansen 1998, p. 72 (PDF du Drive p. 249, image lue : texte, loci et testimonia) ; recherche/testimonia.md, l. 167 (Bekker 1833, image)",
   "signale_par": "testimonia de l’auteur",
   "pertinence": 2,
-  "remarque": "ἡ ἄσβολος est la forme attique"
+  "remarque": "ἡ ἄσβολος est la forme attique ; Hansen renvoie lui-même à « Ar. Thesm. 245 ἀσβόλου » ; testimonia : Ael. Dion. α 186, Phryn. PS 28, 1, Hsch. α 7634, Phot. α 2946"
  },
  {
   "v": "245",
@@ -7922,6 +8020,20 @@
   "signale_par": "recherche dans le corpus (ἀσβολ-)",
   "pertinence": 1,
   "remarque": "la foudre « qui fait de la suie » ; cf. Hsch. ψ 243 ci-dessus"
+ },
+ {
+  "v": "245",
+  "lemme": "τῆς ἀσβόλου",
+  "categorie": "lexicographes",
+  "ref": "Phryn. Ecl. 82 F. (= 90 Rutherford)",
+  "urn": "drive:Grec/Lexiques/Phrynichus d'Arabie/Phrynichos Ekloge by Fischer, Eitel (z-lib.org).pdf#pdf76",
+  "citation": "Ἀσβόλη μὴ λέγε, ἀλλὰ ἄσβολος.",
+  "traduction": "ne dis pas ἀσβόλη, mais ἄσβολος",
+  "verifie": "scan",
+  "verification": "Fischer 1974, p. 68 (PDF du Drive p. 76, image lue) ; Rutherford, The New Phrynichus (1881), art. XC, p. 197 (PDF du Drive p. 209, image lue)",
+  "signale_par": "apparat d'Erbse à Ael. Dion. α 186 (« cf. Phryn. 197 R. », c.-à-d. la p. 197 de Rutherford) ; testimonia de Theodoridis à Phot. α 2946 (« Ecl. 82 F. »)",
+  "pertinence": 2,
+  "remarque": "testimonia de Fischer : Phryn. PS 28, 1 ; Ael. Dion. α 186 ; Moer. 187, 17 ; Ba. 150, 19 ; Sud. α 4132. Rutherford ajoute (p. 197) que Moeris dit la même chose (p. 11 Pierson) et cite Phryn. PS 28, 1"
  },
  {
   "v": "246",
@@ -8722,6 +8834,34 @@
   "remarque": "le chœur de satyres décrit l'étranger : αἰθός de la couleur (« probably of an Egyptian », Austin–Olson)"
  },
  {
+  "v": "246",
+  "lemme": "αἰθός (« noir ») — αἴθαλος",
+  "categorie": "lexicographes",
+  "ref": "Phryn. Ecl. 85 F. (= 91 Rutherford)",
+  "urn": "drive:Grec/Lexiques/Phrynichus d'Arabie/Phrynichos Ekloge by Fischer, Eitel (z-lib.org).pdf#pdf76",
+  "citation": "Αἴθαλος λέγε ἀρσενικῶς, ἀλλὰ μὴ αἰθάλη θηλυκῶς.",
+  "traduction": "dis αἴθαλος (la suie) au masculin, et non αἰθάλη au féminin",
+  "verifie": "scan",
+  "verification": "Fischer 1974, p. 68 (PDF du Drive p. 76, image lue) ; Rutherford 1881, art. XCI, p. 197 (image lue)",
+  "signale_par": "Rutherford, The New Phrynichus (1881), p. 197, qui commente l'article par Thesm. 245–246",
+  "pertinence": 2,
+  "remarque": "Rutherford (p. 197), d'après H. Schmidt, Synonymik II, p. 373 : αἴθαλος se distingue d'ἄσβολος en ce qu'il marque le noir produit par le feu ; il cite Thesm. 245–246 (avec φῦ, ἰοῦ) : αἰθός, αἶθοψ, αἴθων « noir » supposent toujours une couleur due au feu"
+ },
+ {
+  "v": "246",
+  "lemme": "τὰ περὶ τὴν τράμιν",
+  "categorie": "prose",
+  "ref": "Ruf. Onom. 101",
+  "urn": "ia:BIUSante_36058#n203",
+  "citation": "καὶ ἡ διὰ μέσου γραμμὴ, τραμίς· οἱ δὲ ὄῤῥον ὀνομάζουσιν.",
+  "traduction": "et la ligne médiane (du sexe masculin), la tramis ; d'autres l'appellent orrhos",
+  "verifie": "scan",
+  "verification": "Daremberg–Ruelle, Œuvres de Rufus d'Éphèse (1879), p. 146, l. 7–10, § 101 en marge : images lues (archive.org BIUSante_36058 n203 ; oeuvresderufusde00rufu n211)",
+  "signale_par": "Austin–Olson 2004, p. 135 ; LSJ s.v. τράμις (liste des non vérifiés de la passe précédente)",
+  "pertinence": 2,
+  "remarque": "définition anatomique : la τράμις est le raphé, la ligne qui court du scrotum vers l'anus (le « périnée ») ; d'autres disent ὄρρος (cf. Poll. 2.173 et Hsch. ο 1315–1316 ci-dessus) ; l'édition accentue τραμίς"
+ },
+ {
   "v": "247",
   "lemme": "ἕτερος γὰρ αὐτὰ σπογγιεῖ",
   "categorie": "aristophane",
@@ -9061,15 +9201,15 @@
   "v": "248",
   "lemme": "τὸν ἐμὸν πρωκτὸν πλυνεῖ",
   "categorie": "testimonium",
-  "ref": "Moer. π 79 (Bekker, p. 208, 15)",
-  "urn": "",
-  "citation": "πλυνεῖς κατὰ τὴν πρώτην Ἀτθίδα, κναφεῖς κατὰ τὴν δευτέραν",
+  "ref": "Moer. π 79 Hansen (= p. 208, 15 Bekker)",
+  "urn": "drive:Grec/Lexiques/Moeris/PS.-Herodian, de Figuris  Das Attizistische Lexikon Des Moeris Uberlieferungsgeschichte Und Kritische Ausgabe ROC hellenike gimagereader.pdf#pdf314",
+  "citation": "πλυνεῖς κατὰ τὴν πρώτην Ἀτθίδα· κναφεῖς κατὰ τὴν δευτέραν Ἀτθίδα.",
   "traduction": "",
   "verifie": "scan",
-  "verification": "recherche/testimonia.md, l. 179 (Bekker 1833, image ; n° de Hansen non contrôlé)",
+  "verification": "Hansen 1998 (PDF du Drive p. 314, image lue : texte et loci) ; recherche/testimonia.md, l. 179 (Bekker 1833, image)",
   "signale_par": "testimonia de l’auteur",
   "pertinence": 2,
-  "remarque": ""
+  "remarque": "Hansen rapporte l'article à « Ar. Thesm. 248 πλυνεῖ » : πλυνεύς (le laveur) est le mot de l'ancien attique, κναφεύς celui de l'attique récent"
  },
  {
   "v": "248",

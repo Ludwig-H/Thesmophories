@@ -896,6 +896,76 @@
   "remarque": "εἰ δέ τις … ἐξώλη … καὶ αὐτὸν καὶ τοὺς ἐκείνου πάντας ; le coupable, Arlissis, avait « comploté » (ἐπεβούλευσε) contre Mausole et trahi son ambassade (παρεπρέσβευσεν), cf. vv. 335 et 342"
  },
  {
+  "v": "337-338",
+  "lemme": "Εὐριπίδῃ … ἐπὶ βλάβῃ τινὶ τῇ τῶν γυναικῶν",
+  "categorie": "scholies",
+  "ref": "Vita Eur. 6 (Σ Eur. I, p. 6, 7–11 Schwartz)",
+  "urn": "urn:cts:greekLit:tlg5023.tlg001.1st1K-grc1:vita.6.1",
+  "citation": "λέγουσι δὲ καὶ ὅτι αἱ γυναῖκες διὰ τοὺς ψόγους, οὓς ἐποίει εἰς αὐτὰς διὰ τῶν ποιημάτων, τοῖς Θεσμοφορίοις ἐπέστησαν αὐτῷ βουλόμεναι ἀνελεῖν. ἐφείσαντο δὲ αὐτοῦ πρῶτον μὲν διὰ τὰς Μούσας, ἔπειτα δὲ βεβαιωσαμένου μηκέτι αὐτὰς κακῶς ἐρεῖν",
+  "traduction": "on dit aussi que, pour les blâmes qu'il leur adressait dans ses poèmes, les femmes l'assaillirent aux Thesmophories pour le tuer ; elles l'épargnèrent à cause des Muses, et parce qu'il promit de ne plus dire de mal d'elles",
+  "verifie": "scan",
+  "verification": "image, Schwartz, Scholia in Euripidem I (1887), p. 6, l. 7–11 (archive.org scholiaineuripi00schwgoog, page n26) ; texte First1K tlg5023.tlg001 vita.6.1",
+  "signale_par": "recherche dans le corpus (μισογύνης, Θεσμοφορίοις)",
+  "pertinence": 3,
+  "remarque": "la biographie tire de la pièce le grief des femmes contre Euripide (cf. vv. 85, 1160–1163) ; cf. aussi Vita Eur. 5 (Schwartz I, p. 5) αἱ δὲ γυναῖκες ἐβουλήθησαν αὐτὸν κτεῖναι εἰσελθοῦσαι εἰς τὸ σπήλαιον (texte First1K vita.5.1) ; Sud. ε 3695 (Adler II, p. 468) ὅθεν καὶ μισογύνης ἐδοξάσθη"
+ },
+ {
+  "v": "337-338",
+  "lemme": "Εὐριπίδῃ … ἐπὶ βλάβῃ τινὶ τῇ τῶν γυναικῶν",
+  "categorie": "prose",
+  "ref": "Gell. 15.20.6–7",
+  "urn": "",
+  "citation": "Mulieres fere omnes in maiorem modum exosus fuisse dicitur … Eius odii in mulieres Aristophanes quoque meminit",
+  "traduction": "on dit qu'il haïssait presque toutes les femmes au plus haut point … Aristophane aussi rappelle cette haine",
+  "verifie": "corpus",
+  "verification": "Perseus (Rolfe), Noctes Atticae 15.20.6–7 (texte XML local, .sources/web/latin/gellius/nocte.xml) ; extrait reproduit par Schwartz, Σ Eur. I, p. 6 (« Ex A. Gellii Noctibus Atticis », image lue)",
+  "signale_par": "Schwartz, Σ Eur. I, p. 6 (Vitae)",
+  "pertinence": 2,
+  "remarque": "Aulu-Gelle cite ensuite Thesm. 453–456 comme venant des « premières » Thesmophories (ἐν ταῖς προτέραις Θεσμοφοριαζούσαις)"
+ },
+ {
+  "v": "337",
+  "lemme": "Μήδοις",
+  "categorie": "lexicographes",
+  "ref": "Sud. ε 979",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:2.E.979",
+  "citation": "ἐμήδισαν: τὰ τῶν Μήδων εἵλοντο",
+  "traduction": "ils « médisèrent » : ils prirent le parti des Mèdes",
+  "verifie": "corpus",
+  "verification": "sudx.py '^(εμηδ|μηδ(ι|ο|ε|η))' (Souda, First1KGreek, qui imprime εἴλοντο, coquille) ; Adler II, p. 256 (OCR : εἵλοντο)",
+  "signale_par": "dépouillement de la Souda",
+  "pertinence": 1,
+  "remarque": "la suite : ὅτι μετὰ τὴν ἐν Μαραθῶνι μάχην Θετταλοὶ ἐμήδισαν ; même groupe : Sud. μ 889 Μῆδος· ὁ Περσῶν βασιλεύς (Μῆδος = le Perse)"
+ },
+ {
+  "v": "337",
+  "lemme": "Μήδοις",
+  "categorie": "proverbes",
+  "ref": "Zen. 6.16",
+  "urn": "urn:cts:greekLit:tlg0098.tlg001.1st1K-grc1:6.16",
+  "citation": "Τάδε Μῆδος οὐ φυλάξει",
+  "traduction": "ces biens-là, le Mède ne les gardera pas",
+  "verifie": "corpus",
+  "verification": "lx.py 'Μῆδος OR …' (Zénobius, First1KGreek) ; Sud. τ 16 (First1KGreek) ; Phot. τ 7 Theodoridis (III, p. 437, PDF p. 466)",
+  "signale_par": "dépouillement des parémiographes",
+  "pertinence": 1,
+  "remarque": "le Mède, ennemi par excellence (cf. Σ Thesm. 365) ; Zénobius : mot des Grecs qui dépensaient leurs biens à l'approche de Xerxès (Dicéarque) ; idem Sud. τ 16, Phot. τ 7 (φυλάξει entre cruces chez Theodoridis)"
+ },
+ {
+  "v": "337",
+  "lemme": "Μήδοις",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 2.10.67",
+  "urn": "",
+  "citation": "His Medus non insidiabitur. Τάδε Μῆδος οὐ φυλάξει. i. e. Haec Medus non observabit",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "image, Érasme, Opera omnia II (Leyde 1703), col. 699 C (PDF p. 368, .sources/web/latin/erasme/) ; centurie d'après l'en-tête de la p. 369 (Chil. II. Centur. X. Prov. LXXV–LXXXI)",
+  "signale_par": "dépouillement d'Érasme",
+  "pertinence": 1,
+  "remarque": "Érasme, d'après Zénobius (Dicéarque) : se dit de qui dépense largement son bien pour qu'il ne tombe pas aux mains d'autrui"
+ },
+ {
   "v": "338",
   "lemme": "τῇ τῶν γυναικῶν",
   "categorie": "aristophane",
@@ -1750,6 +1820,20 @@
   "remarque": ""
  },
  {
+  "v": "338",
+  "lemme": "ἢ τυραννεῖν ἐπινοεῖ (catalogue des crimes, vv. 335–357)",
+  "categorie": "lexicographes",
+  "ref": "Poll. 6.151–152 (Bethe II, p. 40, 10–21)",
+  "urn": "",
+  "citation": "Ἐξ ἀδικημάτων ὀνόματα, ἐφ᾽ οἷς εἰσι δίκαι καὶ γραφαί. κλέπτης … μοιχός, ἀνδροφόνος, … προδότης, … τύραννος, ἀνδραποδιστής … ἃ δ᾽ οὐκ ἔστιν ἑνὶ ὀνόματι εἰπεῖν ἀλλὰ μετοχαῖς, βουλεύων τυραννίδα, καταλύων τὴν πολιτείαν, ἐπὶ καταλύσει τοῦ δήμου συνιών, τὰ δικαστήρια δεκάζων, ἐξαπατῶν τὸν δῆμον ἢ τὴν βουλὴν ἢ τὸ δικαστήριον, τὰ ψευδῆ μαρτυρῶν",
+  "traduction": "noms tirés des crimes passibles d'actions et d'accusations publiques : … et ce qui ne se dit pas d'un seul mot, mais par des participes : qui projette la tyrannie, qui renverse le régime, qui conspire à la ruine de la démocratie, … qui trompe le peuple, le Conseil ou le tribunal",
+  "verifie": "scan",
+  "verification": "image, Bethe, Pollucis Onomasticon II, p. 40, l. 10–21 (archive.org pollucisonomasti02polluoft, page n51 ; l'OCR la donne pour p. 39)",
+  "signale_par": "lx.py 'τυραννεῖν OR τυραννίς …' (Pollux)",
+  "pertinence": 3,
+  "remarque": "la nomenclature des crimes publics recoupe la liste de l'Ἀρά : βουλεύων τυραννίδα (v. 338), μοιχός (v. 343), προδότης (v. 346 προδιδοῦσ᾽), ἐξαπατῶν τὸν δῆμον (vv. 343, 357), ψευδῆ (vv. 342–343)"
+ },
+ {
   "v": "339",
   "lemme": "ἢ τὸν τύραννον συγκατάγειν",
   "categorie": "aristophane",
@@ -2279,7 +2363,7 @@
   "verification": "ref.py ὑποβολιμαῖοι -a Synag. (texte rétabli des polices) ; Sud. υ 458 (Adler IV, p. 667, OCR)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
-  "remarque": "même notice que Hsch. υ 576 ; apparat Cunningham à consulter"
+  "remarque": "même notice que Hsch. υ 576 ; idem Sud. υ 458 ; Phot. υ 175 Theodoridis (III, PDF p. 562 : εἰσποιητοί … †ἀ†ποβάλλουσιν) ; EM 781, 35 (… ἤτοι ὡς ἐπὶ … ἀντὶ τοῦ νόθοι, ἀλλότριοι : image, EM éd. de Leipzig 1816, col. 708, archive.org etymologikontome00etymuoft_201708, page n373 ; renvoi de Theodoridis, apparat de Phot. ε 324) ; Zonar. col. 1769 Tittmann (même glose)"
  },
  {
   "v": "339-340",
@@ -2604,6 +2688,20 @@
   "remarque": "suivent des exemples de Sophocle (OC 794 ; Aj. 481) ; Sud. υ 456 Ὑπόβλητος: ὁ νόθος (cf. α 2673, ci-dessus)"
  },
  {
+  "v": "339-340",
+  "lemme": "παιδίον ὑποβαλλομένης",
+  "categorie": "lexicographes",
+  "ref": "Lex. Rhet. (Bekker, Anecd. I, p. 311, 33 – 312, 2)",
+  "urn": "ia:bub_gb_y5sQAAAAIAAJ#n318",
+  "citation": "Ὑποβολῆς γραφὴ τί ἐστιν: εἶδος ἐγκλήματος. εἴ τις ἐγκαλοίη τινὶ ὡς ὑποβολιμαῖος εἴη, ἐγράφετο ὑποβολῆς, καὶ ἁλόντα αὐτὸν ἔδει πεπρᾶσθαι",
+  "traduction": "qu'est-ce que l'action pour supposition (d'enfant) ? une sorte d'accusation : si l'on accusait quelqu'un d'être un enfant supposé, on intentait l'action pour supposition, et, s'il était condamné, il devait être vendu",
+  "verifie": "scan",
+  "verification": "images, Bekker, Anecdota Graeca I, p. 311, l. 33 et p. 312, l. 1–2 (archive.org bub_gb_y5sQAAAAIAAJ, pages n318–n319)",
+  "signale_par": "lx.py 'ὑποβολιμαῖος OR …' (Bekker, Anecd.)",
+  "pertinence": 2,
+  "remarque": "la supposition d'enfant, délit poursuivi à Athènes (γραφὴ ὑποβολῆς) : la malédiction du v. 340 vise une faute que la loi connaît"
+ },
+ {
   "v": "340",
   "lemme": "κατεῖπε",
   "categorie": "aristophane",
@@ -2854,6 +2952,90 @@
   "signale_par": "dépouillement de Tosi",
   "pertinence": 2,
   "remarque": "d'après Plaut. Mil. 477 (cf. Epid. 60 sq.) ; Walther 21735"
+ },
+ {
+  "v": "340-341",
+  "lemme": "δούλη τινὸς … ἐνετρύλλισεν τῷ δεσπότῃ",
+  "categorie": "prose",
+  "ref": "Hermog. Stat. 3 (p. 45, 5–11 Rabe)",
+  "urn": "urn:cts:greekLit:tlg0592.tlg002.1st1K-grc1:3.3",
+  "citation": "εἶτα βασανίζων ὁ πατὴρ τὰς θεραπαινίδας … μοιχείαν δὲ τῆς γυναικὸς πρὸς τὸν μνηστῆρα [ἀκήκοε] … ἐνταῦθα γὰρ εἰσὶν οἱ μάρτυρες, αἱ θεραπαινίδες δηλονότι· οὔκουν ἀπαιτήσει τοὺς μάρτυρας, ἀλλὰ διαβαλεῖ, ὅτι μὴ δεῖ πιστεύειν· ‘φύσει γὰρ ἐχθρὸν τὸ δοῦλον τοῖς δεσπόταις’",
+  "traduction": "le père, mettant les servantes à la question, apprend l'adultère de sa femme avec le prétendant … les témoins, ce sont les servantes : on les récusera en disant qu'il ne faut pas les croire, « car l'esclave est par nature l'ennemi de ses maîtres »",
+  "verifie": "corpus",
+  "verification": "First1KGreek (Rabe 1913, pages et lignes balisées : p. 45, l. 5–11) ; chercher.py 'ἐχθρὸν δοῦλον δεσπόταις'",
+  "signale_par": "Tosi n. 239 (Hermogène, Περὶ στάσεων 45, 9–11 Rabe)",
+  "pertinence": 3,
+  "remarque": "cas d'école : les servantes qui dénoncent l'adultère de la maîtresse ; la gnome est attribuée à Euripide par les gnomologues (Tosi) ; Tosi lit τὸν δοῦλον, Rabe τὸ δοῦλον"
+ },
+ {
+  "v": "340-341",
+  "lemme": "δούλη τινὸς … ἐνετρύλλισεν τῷ δεσπότῃ",
+  "categorie": "prose",
+  "ref": "Sen. Ep. 47.4–5",
+  "urn": "urn:cts:latinLit:phi1017.phi015.perseus-lat2:5.47",
+  "citation": "Sic fit, ut isti de domino loquantur, quibus coram domino loqui non licet … Deinde eiusdem arrogantiae proverbium iactatur, totidem hostes esse quot servos",
+  "traduction": "ainsi parlent du maître ceux à qui il est interdit de parler devant lui … de là le proverbe, fruit de la même arrogance : autant d'esclaves, autant d'ennemis",
+  "verifie": "corpus",
+  "verification": "Perseus phi1017.phi015 (Ep. 47.4–5, texte XML local .sources/web/latin/seneca/epist.xml)",
+  "signale_par": "Tosi n. 239",
+  "pertinence": 2,
+  "remarque": "Sénèque cite le proverbe pour le récuser (non habemus illos hostes, sed facimus)"
+ },
+ {
+  "v": "340-341",
+  "lemme": "δούλη τινὸς … ἐνετρύλλισεν τῷ δεσπότῃ",
+  "categorie": "proverbes",
+  "ref": "Tosi n. 239 (Totidem hostes esse quot servos)",
+  "urn": "",
+  "citation": "Totidem hostes esse quot servos … φύσει γὰρ ἐχθρὸν τὸν δοῦλον τοῖς δεσπόταις",
+  "traduction": "autant d'esclaves, autant d'ennemis",
+  "verifie": "scan",
+  "verification": "image, Tosi, Dictionnaire des sentences latines et grecques, p. 203 (PDF p. 200, .sources/drive/ThesmoBiblio/) ; OCR tosi/ocr_200.txt",
+  "signale_par": "dépouillement de Tosi",
+  "pertinence": 2,
+  "remarque": "Tosi : Sen. Ep. 47.5, Macr. Sat. 1.11.13, Festus 314 L. ; Pl. Leg. 757a ; Hermog. Stat. 45 Rabe ; gnomologues (Antonius 119, Arsenius 18.4b) ; Érasme 2.3.31"
+ },
+ {
+  "v": "340-341",
+  "lemme": "δούλη τινὸς … ἐνετρύλλισεν τῷ δεσπότῃ",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 2.3.31",
+  "urn": "",
+  "citation": "Quot servos habemus, totidem habemus hostes … Admonet adagium, ne quid fidamus illis, neve ex animo nobis amicos arbitremur, qui nos metu colunt",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "image, Érasme, Opera omnia II (Leyde 1703), col. 493 E – 494 A (PDF p. 265, .sources/web/latin/erasme/) ; en-tête : Adagiorum Chil. II. Centur. III. Prov. XXX–XXXIV",
+  "signale_par": "Tosi n. 239 (renvoi à Érasme 2, 3, 31)",
+  "pertinence": 2,
+  "remarque": "Érasme d'après Macrobe et Sénèque ; il cite aussi Pl. Leg. 777a et Hom. Od. 17.322–323"
+ },
+ {
+  "v": "340-341",
+  "lemme": "δούλη τινὸς … τῷ δεσπότῃ",
+  "categorie": "prose",
+  "ref": "Pl. Leg. 757a",
+  "urn": "urn:cts:greekLit:tlg0059.tlg034.perseus-grc2:6.757",
+  "citation": "δοῦλοι γὰρ ἂν καὶ δεσπόται οὐκ ἄν ποτε γένοιντο φίλοι",
+  "traduction": "esclaves et maîtres ne sauraient jamais être amis",
+  "verifie": "corpus",
+  "verification": "steph.py tlg0059.tlg034 'δοῦλοι γὰρ ἂν καὶ δεσπόται' (Perseus, section 757a)",
+  "signale_par": "Tosi n. 239",
+  "pertinence": 1,
+  "remarque": "première attestation, selon Tosi, de la sentence proverbiale"
+ },
+ {
+  "v": "340",
+  "lemme": "κατεῖπε",
+  "categorie": "lexicographes",
+  "ref": "Phot. κ 420 Theodoridis",
+  "urn": "",
+  "citation": "κατείρηκεν· κατεῖπεν λάθρα",
+  "traduction": "il a dénoncé : il a dénoncé en secret",
+  "verifie": "scan",
+  "verification": "image, Theodoridis, Photii Lexicon II, p. 378 (PDF p. 495, .sources/drive/fichiers/Grec/Lexiques/Photius/)",
+  "signale_par": "lx.py 'κατειπεῖν OR κατεῖπε …' (Photius)",
+  "pertinence": 2,
+  "remarque": "κατειπεῖν, « dénoncer », avec la nuance du secret : celle de l'esclave qui va trouver le maître (v. 341 ἐνετρύλλισεν)"
  },
  {
   "v": "341",
@@ -6927,7 +7109,7 @@
   "verification": "chercher.py κάπηλος -a Synag. (texte rétabli des polices)",
   "signale_par": "chercher.py",
   "pertinence": 1,
-  "remarque": ""
+  "remarque": "idem Phot. κ 163 Theodoridis (II, p. 357 ; PDF p. 474, texte du PDF) ; Sud. κ 336 (ci-dessus)"
  },
  {
   "v": "347",
@@ -7180,6 +7362,20 @@
   "signale_par": "dépouillement d'Érasme (index : Lydus cauponatur, 611 E)",
   "pertinence": 2,
   "remarque": "reprend Zen. 5.1 (Λυδὸς καπηλεύει) ; cf. Hdt. 1.94.1"
+ },
+ {
+  "v": "347",
+  "lemme": "κάπηλος … τοῦ χοὸς",
+  "categorie": "lexicographes",
+  "ref": "EM 490, 4–14",
+  "urn": "ia:etymologikontome00etymuoft_201708#n241",
+  "citation": "Κάπηλος· ὁ μετάβολος καὶ οἰνοπώλης· παρὰ τὸ χέειν τὸν πηλόν, ἤγουν τὸν οἶνον … πόθεν δὲ ἐν τῷ καπήλῳ ὁ οἶνος ἔγχειται; καὶ γὰρ ἕτερόν ἐστιν οἰνοπώλης, καὶ ἕτερον καπηλεῖον. καθόλου γὰρ τοὺς πωλοῦντάς τι καπήλους ἔλεγον",
+  "traduction": "kapèlos : le revendeur et le marchand de vin ; de « verser la boue », c'est-à-dire le vin … d'une manière générale on appelait kapèloi ceux qui vendent quelque chose",
+  "verifie": "scan",
+  "verification": "image, Etymologicum Magnum (éd. de Leipzig 1816, pagination de Sylburg en marge), col. 444, Sylburg p. 490, l. 4–14 (archive.org etymologikontome00etymuoft_201708, page n241)",
+  "signale_par": "lx.py 'καπηλίς OR … καπηλεῖον' (EM)",
+  "pertinence": 2,
+  "remarque": "même étymologie (πηλός = le vin) que Sud. κ 335 Καπηλίς: παρὰ τὸ κακύνειν τὸν πηλόν ; suit Aesch. fr. 322 R. (κάπηλα προσφέρων τεχνήματα, ci-dessus)"
  },
  {
   "v": "348",

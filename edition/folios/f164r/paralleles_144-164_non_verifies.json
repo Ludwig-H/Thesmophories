@@ -16,16 +16,9 @@
  {
   "v": "148",
   "lemme": "ἐγὼ δὲ τὴν ἐσθῆθ᾽",
-  "ref": "Érasme, Adages 3.1.60 et 1.6.50",
+  "ref": "Érasme, Adages 3.1.60 (n° 2060, Vestis virum facit), suite du texte",
   "source": "Tosi, Dictionnaire des sentences (n°s 2183, 2186)",
-  "raison": "texte latin des Adages non disponible : l’epub local est abrégé"
- },
- {
-  "v": "153",
-  "lemme": "κελητίζεις",
-  "ref": "Henderson, The Maculate Muse, p. 164 sq.",
-  "source": "Prato 2001, ad 153",
-  "raison": "ouvrage désormais sur le disque (.sources/drive/Taillardat/Henderson_1991_The_Maculate_Muse.pdf), mais sa couche texte omet le grec : à lire sur les pages en image"
+  "raison": "1.6.50 (n° 550, Qualis vir, talis oratio) vérifié le 21 nov. 2026 sur l’éd. Saladin (Les Belles Lettres, t. I, p. 448–449) et versé au fichier principal (vv. 144 et 148) ; de 3.1.60, seul le début est lu (Opera II, Leyde 1703, scan tronqué ; t. III de l’éd. Saladin absent du Drive) : le reste de l’article est à lire"
  },
  {
   "v": "157",
