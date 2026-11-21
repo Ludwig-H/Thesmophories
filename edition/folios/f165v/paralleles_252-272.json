@@ -379,6 +379,20 @@
  },
  {
   "v": "252",
+  "lemme": "οὐ φθονῶ",
+  "categorie": "lexicographes",
+  "ref": "Hsch. ν 283",
+  "urn": "drive:hsch:II#pdf891",
+  "citation": "νεμεσίζομαι· μέμφομαι. φθονῶ",
+  "traduction": "« je m’indigne : je blâme ; je refuse jalousement »",
+  "verifie": "corpus",
+  "verification": "chercher.py νεμεσίζομαι -a Hsch. -o gloses (Latte II, p. 879, texte rétabli d’après les polices) ; Synag. ν 44 Cunningham, p. 349 (corpus)",
+  "signale_par": "outils/corpus/lexiques_proverbes.py (rapport du 21 nov. 2026)",
+  "pertinence": 1,
+  "remarque": "micro-apparat : idem Synag. ν 44 Cunningham (νεμεσίζει· μέμφεται. καὶ νεμεσίζομαι· φθονῶ, μέμφομαι), d’où Sud. ν 160 et Phot. p. 293, 21 Porson selon l’apparat de Cunningham ; glose homérique (Θ 407) ; cf. Hsch. μ 452 (μεγαίρω· φθονῶ), à sa place : la formule d’Agathon nie le refus jaloux"
+ },
+ {
+  "v": "252",
   "lemme": "λαμβάνετε καὶ χρῆσθ᾽· οὐ φθονῶ",
   "categorie": "proverbes",
   "ref": "Zen. 4.79",
@@ -1554,6 +1568,20 @@
   "remarque": "renvoi interne à γ 34"
  },
  {
+  "v": "253",
+  "lemme": "τὸν κροκωτόν",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. I ii 72",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf403",
+  "citation": "Feli crocoton. Γαλῇ κροκωτόν, id est Feli crocoton, subaudiendum das aut addis.",
+  "traduction": "« Une crocote à la belette » (sous-entendu : tu donnes, tu ajoutes)",
+  "verifie": "scan",
+  "verification": "Érasme, Adages, n° 172 (I ii 72), Les Adages, I, p. 196 (image de la page lue)",
+  "signale_par": "recherche dans le corpus (Érasme : crocot*)",
+  "pertinence": 2,
+  "remarque": "même proverbe que Zen. 2.93 et ses parallèles (à leur place) ; Érasme glose : Dici solitum, quoties honos additur indignis … Crocoton vestis genus est rotundae, ac fimbriatae, qua divites utebantur matronae … Ac teste Plutarcho, quidam Herculem pingebant κροκωτοφόρον, Omphalae servientem (cf. Plut. Mor. 785e, à sa place)"
+ },
+ {
   "v": "254",
   "lemme": "ποσθίου",
   "categorie": "testimonium",
@@ -1972,6 +2000,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
   "remarque": "la vieille femme : serment de coquette, comme le serait dans notre vers celui du travesti"
+ },
+ {
+  "v": "254",
+  "lemme": "νὴ τὴν Ἀφροδίτην",
+  "categorie": "aristophane",
+  "ref": "Ar. fr. 325 K.-A.",
+  "urn": "drive:Grec/Aristophane/Aristophanes-Testimonia-Et-Fragmenta.pdf#pdf209",
+  "citation": "Ἀφρόδιτος· ὁ Ἑρμαφρόδιτος. παραπλήσιοι δὲ τούτῳ καὶ ἄλλοι δαίμονες … ὧν καὶ Ἀριστοφάνης μέμνηται Ἥρωσιν",
+  "traduction": "« Aphroditos : l’Hermaphrodite ; d’autres démons lui ressemblent … dont Aristophane fait mention dans les Héros »",
+  "verifie": "scan",
+  "verification": "PCG III 2, p. 180, fr. 325 (702 Kock), Phot. (z) α 3404 (image de la page lue ; sigma lunaire et iota adscrit normalisés) ; Hsch. α 8773 contrôlé dans l’édition (Latte I, p. 399, corpus)",
+  "signale_par": "outils/corpus/lexiques_proverbes.py (rapport du 21 nov. 2026) (Hsch. α 8773) ; PCG III 2",
+  "pertinence": 1,
+  "remarque": "micro-apparat : Hsch. α 8773 (Ἀφρόδιτος· Θεόφραστος μὲν τὸν Ἑρμαφρόδιτόν φησιν, ὁ δὲ τὰ περὶ Ἀμαθοῦντα γεγραφὼς Παίων (FGrHist 757 F 1) εἰς ἄνδρα τὴν θεὸν ἐσχηματίσθαι ἐν Κύπρῳ λέγει) ; Kassel–Austin citent Macr. Sat. 3.8.2 : signum etiam eius est Cypri barbatum, corpore et veste muliebri, cum sceptro ac statura virili … Aristophanes eam Ἀφρόδιτον appellat. Rapprochement d’idée : Mnésiloque jure par Aphrodite à l’instant où il revêt la crocote ; la déesse a son double androgyne, en habit de femme et stature d’homme"
  },
  {
   "v": "254",
@@ -2954,6 +2996,20 @@
   "remarque": "glose de Lys. 72"
  },
  {
+  "v": "255",
+  "lemme": "αἶρε νῦν στρόφιον",
+  "categorie": "lexicographes",
+  "ref": "Sud. σ 1222",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:4.Σ.1222",
+  "citation": "Στρόφιον: ὃ οἱ ἱερεῖς φοροῦσι.",
+  "traduction": "« strophion : ce que portent les prêtres »",
+  "verifie": "corpus",
+  "verification": "Souda (TEI First1KGreek, éd. Adler), article lu ; sigma lunaire normalisé",
+  "signale_par": "outils/corpus/lexiques_proverbes.py (rapport du 21 nov. 2026)",
+  "pertinence": 1,
+  "remarque": "l’autre sens du mot (bandeau sacerdotal), juste après Sud. σ 1221 (τὸ στρογγύλον ζωνάριον, à sa place) ; ici, la ceinture de poitrine des femmes"
+ },
+ {
   "v": "256",
   "lemme": "τὰ περὶ τὼ σκέλει",
   "categorie": "aristophane",
@@ -3120,6 +3176,20 @@
   "signale_par": "Austin–Olson 2004, p. 137 (« A common line-opening formula (e.g. Eq. 105; Nu. 237; V. 843; Lys. 861; Ra. 494) »)",
   "pertinence": 1,
   "remarque": "formule d’ouverture du vers suivie d’un impératif et d’un pronom de la 1re personne ; de même Nub. 237 (ἴθι νυν κατάβηθ’ ὦ Σωκρατίδιον ὡς ἐμέ), Vesp. 843 (ἴθι νυν ἄγ’ αὐτὼ δεῦρο), Lys. 861 (ἴθι νυν κάλεσον αὐτήν)"
+ },
+ {
+  "v": "256",
+  "lemme": "κατάστειλον",
+  "categorie": "comiques",
+  "ref": "Apollod. Com. fr. 19.2 K.-A.",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/Poetae comici Graeci Agathenor-Aristonymus ROC hellenike gImagereader.pdf#pdf552",
+  "citation": "χρόνον γὰρ εἰς τὰ πράγματ᾽ ἂν λάβηις βραχύν, / ἅπαντα λήξει καὶ κατασταλήσεται",
+  "traduction": "« si tu donnes un peu de temps à tes affaires, tout cessera et rentrera dans l’ordre »",
+  "verifie": "scan",
+  "verification": "PCG II, p. 515, Apollodorus (Carystius aut Gelous), fr. 19 (18 Kock), d’après Stob. 3.29.43 (image de la page lue ; sigma lunaire normalisé)",
+  "signale_par": "Austin–Olson 2004, p. 137 (« κατάστειλον: ‘put in order’ (cf. Apollod. Com. fr. 19. 2; E. Ba. 933) »)",
+  "pertinence": 1,
+  "remarque": "le verbe au passif (« être remis en ordre, apaisé ») ; Austin–Olson rapprochent aussi Eur. Ba. 933, à sa place. Retiré des non-vérifiés"
  },
  {
   "v": "256",
@@ -4295,7 +4365,7 @@
   "verification": "Naber II, p. 294 (image n299 lue)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "cf. Synag. κ 260 et Sud. κ 1273 (déjà cités) ; le κροκύφαντος est aussi chez Hsch."
+  "remarque": "cf. Synag. κ 260 et Sud. κ 1273 (déjà cités) ; le κροκύφαντος est aussi chez Hsch. ; = Phot. κ 541 Theodoridis (II, p. 388, image lue : κεκρύφαλον (Χ 469)· †κεκρύφαντον†, σαβ{β}ακάθιον, σουδάριον ; test. : = Σᵃ, Ba. 275, 1, Suid. κ 1273 cf. He. κ 2110–11, sch. D et T ad Χ 469a)"
  },
  {
   "v": "257",
@@ -4324,6 +4394,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
   "remarque": "glose du ἐμιτροφόρουν de Thesm. 163 (Ibycos, Anacréon, Alcée)"
+ },
+ {
+  "v": "257",
+  "lemme": "κεκρυφάλου",
+  "categorie": "lexicographes",
+  "ref": "Hsch. κ 2111",
+  "urn": "drive:hsch:II#pdf591",
+  "citation": "κεκρυφάλους· τοὺς τῶν ἵππων κορυφαστῆρας, καὶ κροκυφάντους",
+  "traduction": "« kekryphaloi : les têtières des chevaux ; et les krokyphantoi »",
+  "verifie": "corpus",
+  "verification": "chercher.py « κεκρυφάλους κορυφαστῆρας » -a Hsch. -o gloses (Latte II, p. 579)",
+  "signale_par": "outils/corpus/lexiques_proverbes.py (rapport du 21 nov. 2026)",
+  "pertinence": 1,
+  "remarque": "le sens hippique du mot (LSJ s.v. κεκρύφαλος : « part of the head-stall ») ; cf. Hsch. κ 2110, à sa place ; le κροκύφαντος expliqué par l’Et. Gen. (cité par Theodoridis, test. à Phot. κ 541, image lue) : ὅτι διὰ κρόκης ὑφαίνεται· οἱ δὲ Ἀττικοὶ κεκρύφαλον αὐτὸν καλοῦσιν"
  },
  {
   "v": "258",
@@ -5009,7 +5093,7 @@
   "verification": "Theodoridis III, p. 229 (corpus, PDF p. 258)",
   "signale_par": "recherche dans le corpus ; Fritzsche 1838, p. 88",
   "pertinence": 3,
-  "remarque": "πηνηκίζειν « tromper » : la perruque est par excellence l’instrument de la fraude ; Theodoridis renvoie à Poll. 2.30, 10.170 ; Sud. π 1529 ; Eust. 1422, 3"
+  "remarque": "πηνηκίζειν « tromper » : la perruque est par excellence l’instrument de la fraude ; Theodoridis renvoie à Poll. 2.30, 10.170 ; Sud. π 1529 ; Eust. 1422, 3 ; micro-apparat : idem Synag. π 463 Cunningham (texte identique ; corpus, p. 403)"
  },
  {
   "v": "258",
@@ -5726,6 +5810,20 @@
   "remarque": ""
  },
  {
+  "v": "260",
+  "lemme": "ἆρ᾽ ἁρμόσει μοι;",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. I i 94",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf277",
+  "citation": "Cothurno versatilior. Εὐμεταβολώτερος κοθόρνου, id est, Versatilior cothurno",
+  "traduction": "« Plus changeant que le cothurne »",
+  "verifie": "scan",
+  "verification": "Érasme, Adages, n° 94 (I i 94), Les Adages, I, p. 133 (image de la page lue)",
+  "signale_par": "recherche dans le corpus (Érasme : cothurne)",
+  "pertinence": 2,
+  "remarque": "même proverbe que Zen. 3.93 et Diogenian. 4.72 (à leur place) ; Érasme : Erat autem τετράγωνον καὶ ἀμφοτεροδέξιον, hoc est, quadrangulum et utrilibet conveniens pedi … Suidas addit ejusmodi fuisse, ut viris pariter ac mulieribus congrueret : la chaussure qui va aux hommes comme aux femmes, cf. Σ Ran. 47 (à sa place) ; ici la question de Mnésiloque sur la perruque, reprise pour les chaussures au v. 263"
+ },
+ {
   "v": "261",
   "lemme": "φέρ᾽ ἔγκυκλον",
   "categorie": "testimonium",
@@ -5966,6 +6064,20 @@
  {
   "v": "261",
   "lemme": "φέρ᾽ ἔγκυκλον",
+  "categorie": "scholies",
+  "ref": "Σ Ar. Eccl. 536",
+  "urn": "ia:scholiagraecain00unkngoog#n419",
+  "citation": "τὸ γυναικεῖον ἱμάτιον. R.",
+  "traduction": "« le manteau de femme »",
+  "verifie": "scan",
+  "verification": "Dübner 1842, p. 319, col. a, l. 30 (image lue : « 536. τὸ γυναικεῖον ἱμάτιον. R. ») ; Theodoridis, test. à Phot. ε 63",
+  "signale_par": "Perusino 2002, p. 130, n. 4 (non-vérifiés de la passe 6) ; Theodoridis (test. à Phot. ε 63)",
+  "pertinence": 2,
+  "remarque": "scholie de R à Eccl. 536 (ἐπιβαλοῦσα τοὔγκυκλον, à sa place) : l’encycle est le manteau féminin. Retiré des non-vérifiés"
+ },
+ {
+  "v": "261",
+  "lemme": "φέρ᾽ ἔγκυκλον",
   "categorie": "lexicographes",
   "ref": "Eust. Il. 976, 13–15",
   "urn": "ia:commentariiadhom03eust#n218",
@@ -6102,6 +6214,62 @@
   "signale_par": "Perusino 2002, p. 131, n. 10",
   "pertinence": 2,
   "remarque": "περιφερῆ : le vêtement est rond, comme l’ἔγκυκλον"
+ },
+ {
+  "v": "261",
+  "lemme": "φέρ᾽ ἔγκυκλον",
+  "categorie": "lexicographes",
+  "ref": "Phot. ε 63",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf126",
+  "citation": "ἔγκυκλον· ἱματίου εἶδος.",
+  "traduction": "« encycle : sorte de manteau »",
+  "verifie": "scan",
+  "verification": "Theodoridis II, p. 9, n° 63 (image lue) ; test. : « cf. Suid. ε 135, sch. Ar. Lys. 113. Thesm. 261 (unde Suid. ε 135). Eccl. 536, Poll. 7, 53, Phot. ε 977 cum test. »",
+  "signale_par": "Perusino 2002, p. 130, n. 4 (non-vérifiés de la passe 6) ; outils/corpus/lexiques_proverbes.py (rapport du 21 nov. 2026)",
+  "pertinence": 2,
+  "remarque": "Theodoridis rattache la glose à la scholie de notre vers, d’où Sud. ε 135 (à sa place). Retiré des non-vérifiés"
+ },
+ {
+  "v": "261",
+  "lemme": "φέρ᾽ ἔγκυκλον",
+  "categorie": "lexicographes",
+  "ref": "Phot. ε 977",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf216",
+  "citation": "ἔγκυκλον· ἱμάτιον περιπόρφυρον.",
+  "traduction": "« encycle : manteau à bordure de pourpre »",
+  "verifie": "scan",
+  "verification": "Theodoridis II, p. 99, n° 977 (image lue ; source en marge : Paus.) ; test. : « = Paus. ε 7 (ex Eust. 976, 13) cf. Phot. s. v. παράπηχυ et IG II² 1514, 48 ἔγκυκλον ποικίλον Ἀθηναῖς ἀνέθηκεν »",
+  "signale_par": "Perusino 2002, p. 130–131 (non-vérifiés de la passe 6)",
+  "pertinence": 2,
+  "remarque": "micro-apparat : idem Eust. Il. 976, 13 (Παυσανίας ὅτι ἔγκυκλον περιπόρφυρον ἱμάτιον καὶ χιτὼν γυναικεῖος …, à sa place), qui conserve l’article entier de Pausanias l’atticiste (ε 7 Erbse selon Theodoridis) ; cf. Phot. π 280 (τὸ δὲ κύκλῳ τὴν πορφύραν ἔχον ἔγκυκλον, à sa place). Retiré des non-vérifiés"
+ },
+ {
+  "v": "261",
+  "lemme": "ἀπὸ τῆς κλινίδος",
+  "categorie": "lexicographes",
+  "ref": "Hsch. κ 3011",
+  "urn": "drive:hsch:II#pdf631",
+  "citation": "κλινίδιον· ὑποκοριστικῶς τὸ αὐτό",
+  "traduction": "« klinidion : le même, en diminutif »",
+  "verifie": "corpus",
+  "verification": "chercher.py « κλινίδιον ὑποκοριστικῶς » -a Hsch. -o gloses (Latte II, p. 619 ; glose précédente κ 3010 κλίνη· κράββατος)",
+  "signale_par": "outils/corpus/lexiques_proverbes.py (rapport du 21 nov. 2026)",
+  "pertinence": 1,
+  "remarque": "κλινίδιον, diminutif de κλίνη (κ 3010 κλίνη· κράββατος), comme notre κλινίς ; cf. Hsch. κ 3001 (κλινίς· ἐπὶ τῆς ἁμάξης νυμφικὴ καθέδρα), à sa place"
+ },
+ {
+  "v": "261",
+  "lemme": "ἀπὸ τῆς κλινίδος",
+  "categorie": "lexicographes",
+  "ref": "Phot. κ 787",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf530",
+  "citation": "κλινίς· κλίνη βραχεῖα, οἷον ἥ τε παράβυστος καὶ ἡ ἐπὶ τῷ ζεύγει τοῦ νυμφίου καὶ τῆς νύμφης τιθεμένη.",
+  "traduction": "« klinis : lit bas, comme le lit d’appoint glissé contre un autre, ou celui qu’on place sur le char des mariés »",
+  "verifie": "scan",
+  "verification": "Theodoridis II, p. 413, n° 787 (image lue) ; test. : « cf. Poll. 10, 33, He. κ 3001, sch. Ar. Thesm. 261 (unde Suid. κ 1809) »",
+  "signale_par": "recherche dans le corpus (κλινίς, Theodoridis II)",
+  "pertinence": 2,
+  "remarque": "Theodoridis rattache la glose à la scholie de notre vers (d’où Sud. κ 1809, à sa place) ; cf. Hsch. κ 3001 (κλινίς· ἐπὶ τῆς ἁμάξης νυμφικὴ καθέδρα) et Poll. 10.33, à leur place"
  },
  {
   "v": "262",
@@ -8233,6 +8401,20 @@
  },
  {
   "v": "265",
+  "lemme": "ἐσκυκλησάτω",
+  "categorie": "prose",
+  "ref": "Clem. Al. Strom. 7.14.88.4",
+  "urn": "urn:cts:greekLit:tlg0555.tlg004.perseus-grc2:7.14.88",
+  "citation": "οὐ γὰρ ἐκκυκλεῖν χρὴ τὸ μυστήριον.",
+  "traduction": "« car il ne faut pas exposer le mystère (comme sur l’eccyclème) »",
+  "verifie": "corpus",
+  "verification": "TEI Perseus, Clem. Al. Strom. 7.14.88, passage lu",
+  "signale_par": "Theodoridis, test. à Phot. ε 417 (image lue)",
+  "pertinence": 1,
+  "remarque": "emploi figuré du verbe de la machine (« étaler aux yeux ») ; cf. Clem. Al. Protr. 7.76.5–6, à sa place"
+ },
+ {
+  "v": "265",
   "lemme": "εἴσω τις ὡς τάχιστά μ᾽ ἐσκυκλησάτω",
   "categorie": "scholies",
   "ref": "Σ Ar. Ach. 408",
@@ -8356,6 +8538,34 @@
   "signale_par": "recherche dans le corpus (ἐκκυκλ-)",
   "pertinence": 1,
   "remarque": "l’eccyclème découvre un intérieur (cf. Thesm. 96)"
+ },
+ {
+  "v": "265",
+  "lemme": "ἐσκυκλησάτω (eccyclème tragique)",
+  "categorie": "scholies",
+  "ref": "Σ Aesch. Cho. 973",
+  "urn": "drive:Grec/Eschyle/Scholia Graeca in Aeschylum quae exstant omnia, pars I Scholia in Agamemnonem, Choephoros, Eumenides, Supplices by Aeschylus, Ole Langwitz Smith (z-lib.org).pdf#pdf68",
+  "citation": "ἀνοίγεται ἡ σκηνὴ καὶ ἐπὶ ἐκκυκλήματος ὁρᾶται τὰ σώματα ἃ λέγει διπλῆν τυραννίδα.",
+  "traduction": "« la skènè s’ouvre et l’on voit sur l’eccyclème les corps qu’il appelle « la double tyrannie » »",
+  "verifie": "scan",
+  "verification": "Smith, Scholia Graeca in Aeschylum I (1976), p. 40, l. 30–31 (image lue)",
+  "signale_par": "Fritzsche 1838, p. 97 (non-vérifiés de la passe 6)",
+  "pertinence": 1,
+  "remarque": "Fritzsche lit ἐγκυκλήματος, Smith imprime ἐκκυκλήματος ; l’eccyclème des tragiques, dont Agathon use comme d’un meuble de sa maison. Retiré des non-vérifiés"
+ },
+ {
+  "v": "265",
+  "lemme": "ἐσκυκλησάτω (eccyclème tragique)",
+  "categorie": "scholies",
+  "ref": "Σ Aesch. Eum. 64b",
+  "urn": "drive:Grec/Eschyle/Scholia Graeca in Aeschylum quae exstant omnia, pars I Scholia in Agamemnonem, Choephoros, Eumenides, Supplices by Aeschylus, Ole Langwitz Smith (z-lib.org).pdf#pdf74",
+  "citation": "καὶ δευτέρα δὲ γίνεται φαντασία· στραφέντα γὰρ μηχανήματα ἔνδηλα ποιεῖ τὰ κατὰ τὸ μαντεῖον ὡς ἔχει.",
+  "traduction": "« et il se produit un second spectacle : des machines qui tournent rendent visible ce qui se passe dans le sanctuaire »",
+  "verifie": "scan",
+  "verification": "Smith, Scholia Graeca in Aeschylum I, p. 46, l. 10–14 (image lue ; scholie de M ; 64c, de E, même texte)",
+  "signale_par": "Fritzsche 1838, p. 97 (non-vérifiés de la passe 6)",
+  "pertinence": 1,
+  "remarque": "στραφέντα … μηχανήματα : la machine qui tourne et révèle l’intérieur ; la scholie poursuit καὶ γίνεται ὄψις τραγική. Retiré des non-vérifiés"
  },
  {
   "v": "265",
@@ -8509,7 +8719,7 @@
   "verification": "Synagoge, éd. Cunningham, p. 193 (texte rétabli d’après les polices)",
   "signale_par": "recherche dans le corpus (εἰσκυκλ-)",
   "pertinence": 1,
-  "remarque": "idem Sud. ει 289 ; Phot. ε 312 (non contrôlé)"
+  "remarque": "idem Sud. ει 289 ; Phot. ε 312 (Theodoridis II, p. 35, image lue : εἰσκυκλεῖ· εἰσφέρει καὶ ἐπισυνάπτει. καὶ ἐπεισκυκλεῖ.)"
  },
  {
   "v": "265",
@@ -8537,7 +8747,7 @@
   "verification": "Synagoge, éd. Cunningham, p. 196 (texte rétabli d’après les polices)",
   "signale_par": "recherche dans le corpus (ἐκκυκλ-)",
   "pertinence": 1,
-  "remarque": "même glose que Sud. ε 699 (déjà cité), dans le témoin le plus ancien ; Phot. ε 417 (non contrôlé)"
+  "remarque": "même glose que Sud. ε 699 (déjà cité), dans le témoin le plus ancien ; Phot. ε 417 (Theodoridis II, p. 45, image lue : ἐκκυκλεῖ· ἐκκαλύπτει.)"
  },
  {
   "v": "265",
@@ -8580,6 +8790,34 @@
   "signale_par": "dépouillement d’Hésychius (ἐσκυκλ-)",
   "pertinence": 1,
   "remarque": "glose corrompue (obèle de l’éditeur) ; forme ἐσ- du verbe"
+ },
+ {
+  "v": "265",
+  "lemme": "ἐσκυκλησάτω",
+  "categorie": "lexicographes",
+  "ref": "Phot. ε 418",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf162",
+  "citation": "ἐκκύκλημα καὶ ἐκκύκληθρον· μηχάνημα ὑπότροχον, ἐφ᾽ οὗ ἐδείκνυτο τὰ ἐν τῇ σκηνῇ.",
+  "traduction": "« eccyclème et eccyclèthre : machine montée sur roues, sur laquelle on montrait ce qui était dans la skènè »",
+  "verifie": "scan",
+  "verification": "Theodoridis II, p. 45, n° 418 (image lue ; source en marge : Paus.) ; test. : « = Eust. 976, 15 (ex Pausaniae lexico …) cf. Poll. 4, 128 …, sch. Ar. Ach. 408 (unde Suid. ε 132) » ; Eust. Il. 976, 15 lu sur l’image (Stallbaum III, p. 211, n218)",
+  "signale_par": "Fritzsche 1838, p. 95 (Eustathe ; non-vérifiés de la passe 6) ; Theodoridis",
+  "pertinence": 2,
+  "remarque": "micro-apparat : idem Eust. Il. 976, 15 (διαφέρει δὲ ἔγκυκλον ἐγκυκλήματος, ὅτι τὸ ἐγκύκλημα, ὃ καὶ ἐγκύκληθρον λέγεται, μηχάνημα ἦν ὑπότροχον, ὑφ᾽ οὗ ἐδείκνυτο τὰ ἐν τῇ σκευῇ ἢ σκηνῇ) ; définition de Pausanias l’atticiste ; cf. Poll. 4.128 et Σ Ach. 408, à leur place. Retiré des non-vérifiés (Eust. 976.15)"
+ },
+ {
+  "v": "265",
+  "lemme": "ἐσκυκλησάτω",
+  "categorie": "lexicographes",
+  "ref": "Phot. ε 1294",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf244",
+  "citation": "ἔξωστρον· τὸ ἐπὶ τῆς σκηνῆς ἐκκύκλημα. Φρύνιχος.",
+  "traduction": "« exôstron : l’eccyclème de la scène (Phrynichos) »",
+  "verifie": "scan",
+  "verification": "Theodoridis II, p. 127, n° 1294 (image lue)",
+  "signale_par": "recherche dans le corpus (ἐκκυκλ*, Theodoridis II)",
+  "pertinence": 1,
+  "remarque": "cf. Poll. 4.129 (τὴν δὲ ἐξώστραν ταὐτὸν τῷ ἐγκυκλήματι νομίζουσιν), à sa place"
  },
  {
   "v": "266",
@@ -8904,6 +9142,34 @@
   "remarque": "l’énigme « des enfants » sur l’eunuque (Pl. Resp. 5.479c τῷ τῶν παίδων αἰνίγματι τῷ περὶ τοῦ εὐνούχου ; Cléarque ap. Ath. 10.452c ἀνήρ τε κοὐκ ἀνήρ) : l’homme qui n’en est pas un"
  },
  {
+  "v": "266",
+  "lemme": "καὶ δὴ γυνὴ / τό γ᾽ εἶδος (266–267)",
+  "categorie": "proverbes",
+  "ref": "Tosi n. 2183",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf1553",
+  "citation": "Barba non facit philosophum ; ἀπὸ πώγωνος φιλόσοφοι / σοφοί / σοφισταί",
+  "traduction": "« la barbe ne fait pas le philosophe » ; « philosophes (sages, sophistes) par la barbe »",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, n. 2183, p. 1565 (image de la page lue) ; Plut. Quaest. conv. 7.6.3, Luc. Demon. 13, Luc. Eun. 9 (TEI) ; Érasme, Adages I ii 95 (Les Adages, I, p. 205, image lue)",
+  "signale_par": "recherche dans le corpus (Tosi : apparence et habit)",
+  "pertinence": 2,
+  "remarque": "micro-apparat : Plut. Quaest. conv. 7.6.3, 709b (βαρὺ φθεγγομένους ἐκ πώγωνος σοφιστάς) ; Luc. Demon. 13 (εἰ σὺ ἀπὸ τοῦ πώγωνος ἀξιοῖς κρίνεσθαι τοὺς φιλοσοφοῦντας αὐτὸς πώγωνα οὐκ ἔχων) ; Luc. Eun. 9 (εἰ γὰρ ἀπὸ πώγωνος … βαθέος κρίνεσθαι δέοι τοὺς φιλοσοφοῦντας, τὸν τράγον ἂν δικαιότερον προκριθῆναι πάντων) ; Erasm. Adag. I ii 95, Barbae tenus sapientes (Ἐκ πώγονος σοφοί, καὶ ἀπὸ πώγονος σοφισταί, καὶ ἀπὸ πώγονος φιλόσοφοι) ; Tosi y joint Gell. 9.2.4 (video … barbam et pallium, philosophum nondum video) [à vérifier] et le médiéval Habitus non facit monachum (« l’habit ne fait pas le moine »). Rapprochement d’idée, retourné : Mnésiloque, rasé (v. 215–235), a l’habit et le visage d’une femme, « du moins en apparence » (τό γ᾽ εἶδος) ; reste la voix, que la barbe des sophistes rendait grave (v. 267–268)"
+ },
+ {
+  "v": "266",
+  "lemme": "ἁνὴρ μὲν ἡμῖν οὑτοσὶ καὶ δὴ γυνὴ",
+  "categorie": "proverbes",
+  "ref": "App. Prov. 1.88",
+  "urn": "urn:cts:greekLit:tlg9007.tlg001.1st1K-grc1:1.88",
+  "citation": "Γυνὴ εἰς Ἡρακλέους οὐ φοιτᾷ: πρὸς τοὺς ἀναξίους τινῶν πράξεων, παρόσον Ἡρακλῆς ἐδούλευσεν Ὀμφάλῃ.",
+  "traduction": "« Une femme ne va pas au sanctuaire d’Héraclès : contre ceux qui sont indignes de certaines actions, parce qu’Héraclès fut l’esclave d’Omphale »",
+  "verifie": "scan",
+  "verification": "CPG I, p. 392, n° 88 (image n440 lue) ; TEI First1KGreek 1.88 ; Sud. γ 502 (TEI)",
+  "signale_par": "outils/corpus/lexiques_proverbes.py (rapport du 21 nov. 2026) (Sud. γ 502)",
+  "pertinence": 1,
+  "remarque": "micro-apparat : idem Sud. γ 502 (πρὸς τοὺς ἀναξίους τῶν πράξεων), qui ajoute Γυνὴ στρατηγεῖ καὶ γυνὴ στρατηγεῖται, ἐπὶ τοῦ παραδόξου. Rapprochement d’idée : un culte interdit à l’un des deux sexes, comme les Thesmophories aux hommes (d’où le déguisement) ; et Héraclès chez Omphale, l’homme réduit aux travaux de femme (cf. Ov. Fast. 2.319–324, à sa place, v. 255)"
+ },
+ {
   "v": "267",
   "lemme": "ἢν λαλῇς δ᾽, ὅπως τῷ φθέγματι",
   "categorie": "aristophane",
@@ -9140,6 +9406,20 @@
   "signale_par": "Tosi, Dictionnaire, n. 296 (« Plaute … Aulularia, 124 sq. »)",
   "pertinence": 1,
   "remarque": "le bavardage, trait féminin dans la comédie (c’est une femme, Eunomia, qui parle) : « parler en femme », c’est λαλεῖν"
+ },
+ {
+  "v": "267",
+  "lemme": "τῷ φθέγματι / γυναικιεῖς",
+  "categorie": "comiques",
+  "ref": "Crates Com. fr. 24 K.-A.",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/Poetae Comici Graeci (PCG). Volumen IV  Aristophon - Crobylus ROC hellenike gimagereader.pdf#pdf130",
+  "citation": "ἀνδριστὶ μιμεῖσθαι φωνήν· ὡς ἀνήρ. Κράτης Λαμίαι",
+  "traduction": "« imiter une voix “virilement” : comme un homme. Cratès, dans les Lamies »",
+  "verifie": "scan",
+  "verification": "PCG IV, p. 98, Crates fr. 24 (3 Dem.), d’après Phot. (b, z) α 1759 (image lue ; sigma lunaire normalisé) ; Phot. α 1759, Theodoridis I, p. 174 (image lue : Κράτης Λαμίᾳ ; source en marge : Phryn.)",
+  "signale_par": "Austin–Olson 2004, p. 140 (« cf. Crates fr. 24 ») ; non-vérifiés de la passe 6",
+  "pertinence": 2,
+  "remarque": "l’inverse de notre vers, la voix d’homme contrefaite ; Kassel–Austin rapprochent Eccl. 149 ἄγε νῦν ὅπως ἀνδριστὶ καὶ καλῶς ἐρεῖς (à sa place). Retiré des non-vérifiés"
  },
  {
   "v": "267",
@@ -9675,6 +9955,20 @@
  },
  {
   "v": "268",
+  "lemme": "πειράσομαι",
+  "categorie": "poetes",
+  "ref": "Theoc. 15.62",
+  "urn": "urn:cts:greekLit:tlg0005.tlg001.perseus-grc2:15.62",
+  "citation": "καλλίστα παίδων· πείρᾳ θην πάντα τελεῖται.",
+  "traduction": "« ma toute belle : en essayant, on vient à bout de tout »",
+  "verifie": "corpus",
+  "verification": "TEI Perseus, Theoc. 15.61–62 lus",
+  "signale_par": "recherche dans le corpus (πεῖρα)",
+  "pertinence": 1,
+  "remarque": "la vieille femme conclut par cette sentence après ἐς Τροίαν πειρώμενοι ἦνθον Ἀχαιοί (v. 61), et Gorgô s’en moque comme d’un oracle (v. 63 χρησμὼς ἁ πρεσβῦτις ἀπῴχετο θεσπίξασα) ; rapprochement d’idée avec le « j’essaierai » de Mnésiloque"
+ },
+ {
+  "v": "268",
   "lemme": "γυναικιεῖς",
   "categorie": "prose",
   "ref": "Luc. Gall. 19",
@@ -10022,6 +10316,20 @@
   "signale_par": "recherche dans le corpus (γυναικίζω)",
   "pertinence": 1,
   "remarque": "redondant : micro-apparat de Sud. γ 496 et γ 495 (déjà cités), qui citent Thesm. 863"
+ },
+ {
+  "v": "268",
+  "lemme": "γυναικιεῖς",
+  "categorie": "lexicographes",
+  "ref": "Phot. α 2691",
+  "urn": "drive:Grec/Lexiques/Photius/Photii Patriarchae Lexicon A-D by Photius, patriarch (z-lib.org).pdf#pdf329",
+  "citation": "ἀπότριψις· μελέτησις, ἀπάγγελσις, ἀγώνισις, … διάρπασις, γυναίκισις, λάλησις.",
+  "traduction": "« apotripsis (et autres noms d’action) : … pillage, action de faire la femme, bavardage »",
+  "verifie": "scan",
+  "verification": "Theodoridis I, p. 247–248, n° 2691 (images lues) ; test. : « = Ba. 135,30, Suid. α 3614 ; de hac gl. et de vocabulis huius generis egit Lobeck, Phryn. p. 351/2 »",
+  "signale_par": "recherche dans le corpus (γυναικί*, Theodoridis I)",
+  "pertinence": 1,
+  "remarque": "liste de noms d’action en -σις : γυναίκισις, nom de γυναικίζω, y voisine avec λάλησις (cf. v. 267 ἢν λαλῇς)"
  },
  {
   "v": "268",
@@ -11940,5 +12248,19 @@
   "signale_par": "recherche dans le corpus (αἰθήρ chez les parémiographes)",
   "pertinence": 1,
   "remarque": "micro-apparat : idem Diogenian. 1.38 (αἱρήσεις), Sud. αι 114 (ἐρέσσεις) ; seul proverbe sur l’éther : rapprochement lointain avec la riposte de Mnésiloque (v. 273), pour qui jurer par l’éther ne sert à rien ; même alliance νήνεμος αἰθήρ aux v. 43 et 51"
+ },
+ {
+  "v": "272",
+  "lemme": "ὄμνυμι τοίνυν αἰθέρ᾽ οἴκησιν Διός",
+  "categorie": "proverbes",
+  "ref": "Zen. 5.81",
+  "urn": "urn:cts:greekLit:tlg0098.tlg001.1st1K-grc1:5.81",
+  "citation": "Ῥαδαμάνθυος ὅρκος: Κρατῖνός φησιν, ἐπὶ τῷ χηνὶ καὶ τῷ κυνὶ καὶ τοῖς τοιούτοις ὅρκον Ῥαδαμάνθυϊ ἀνατιθέασιν· ὡς καὶ Σωσικράτης ἐν δευτέρῳ Κρητικᾶν· ἵνα μὴ θεοὺς ὀμνύωσιν.",
+  "traduction": "« le serment de Rhadamanthe : Cratinos dit qu’on attribue à Rhadamanthe le serment par l’oie, par le chien et autres choses semblables — de même Sosicrate au livre II de ses Crétiques — pour ne pas jurer par les dieux »",
+  "verifie": "scan",
+  "verification": "CPG I, p. 152–153, n° 81 (images n201–n202 lues) ; TEI First1KGreek 5.81 ; Sud. ρ 13 (TEI)",
+  "signale_par": "recherche dans le corpus (serments chez les parémiographes)",
+  "pertinence": 2,
+  "remarque": "micro-apparat : Sud. ρ 13 (ὁ κατὰ χηνὸς ἢ κυνὸς ἢ πλατάνου ἢ κριοῦ ἤ τινος ἄλλου τοιούτου, οἷς ἦν μέγιστος ὅρκος ἅπαντι λόγῳ κύων, ἔπειτα χήν, θεοὺς δ᾽ ἐσίγων. Κρατῖνος Χείρωσι. τοιοῦτοι δὲ καὶ οἱ Σωκράτους ὅρκοι) ; Leutsch (adn.) y joint Apost. 17.7, Arsen., Macar., Σ Pl. Apol. (p. 331 Bekker), Σ Luc. Vit. auct. 16. Rapprochement d’idée : le serment « par l’Éther » écarte les dieux de la cité ; Mnésiloque pousse la substitution jusqu’au burlesque (v. 273, le logis d’Hippocratès) avant qu’Euripide ne jure par « tous les dieux en bloc » (v. 274)"
  }
 ]

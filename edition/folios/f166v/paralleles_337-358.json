@@ -2702,6 +2702,20 @@
   "remarque": "la supposition d'enfant, délit poursuivi à Athènes (γραφὴ ὑποβολῆς) : la malédiction du v. 340 vise une faute que la loi connaît"
  },
  {
+  "v": "339-340",
+  "lemme": "παιδίον ὑποβαλλομένης",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 4.3.46",
+  "urn": "",
+  "citation": "Subdititius es. Ὑποβολιμαῖος εἶ. i. e. Suppositius es. Subdititii sive submissitii vocantur partus adsimulati : inde transfertur in hominem fictum, & per dolum ab alio quopiam allegatum subornatumque",
+  "traduction": "tu es un enfant supposé … on appelle « supposés » les enfants qu'on fait passer pour siens ; de là le mot passe à l'homme feint, aposté par ruse",
+  "verifie": "scan",
+  "verification": "image, Érasme, Opera omnia II (Leyde 1703), col. 1014 F (PDF p. 525, .sources/web/latin/erasme/) ; en-tête : Adagiorum Chil. IV. Centur. III. Prov. XXIX–XLVI",
+  "signale_par": "dépouillement d'Érasme (index : Subdititius es, 1014 F)",
+  "pertinence": 2,
+  "remarque": "même proverbe chez Apost. 17.58 (ci-dessus) ; Érasme rapproche Κίβδηλος ἄνθρωπος"
+ },
+ {
   "v": "340",
   "lemme": "κατεῖπε",
   "categorie": "aristophane",
@@ -4100,6 +4114,34 @@
   "signale_par": "Austin–Olson 2004, p. 164 (« D. 19. 68-70 »)",
   "pertinence": 2,
   "remarque": "les ambassadeurs qui trompent le peuple : Démosthène fait lire aussitôt la malédiction du héraut (19.70)"
+ },
+ {
+  "v": "342",
+  "lemme": "ἀγγελίας … φέρει",
+  "categorie": "lexicographes",
+  "ref": "Hsch. α 378",
+  "urn": "drive:hsch:I#pdf58",
+  "citation": "ἀγγελιαφόρος· πρεσβευτής",
+  "traduction": "porteur de messages : envoyé",
+  "verifie": "corpus",
+  "verification": "hlx.py '^αγγελια' (Latte I, p. 20 ; texte rétabli des polices, sigles de l'éditeur omis)",
+  "signale_par": "dépouillement d'Hésychius",
+  "pertinence": 1,
+  "remarque": "le composé répond au tour ἀγγελίας φέρει ; testimonia de Latte : Σ α 44, EM 7, 37 ; même groupe : Hsch. α 387 ἀγγελία· ἄγγελμα, ἀκοή"
+ },
+ {
+  "v": "342-343",
+  "lemme": "ψευδεῖς … ψευδῆ",
+  "categorie": "lexicographes",
+  "ref": "Hsch. ψ 125",
+  "urn": "drive:hsch:IV#pdf276",
+  "citation": "ψευδής· ψεύστης (Eur. Or. 1608)",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "hlx.py '^ψευδη' (Hansen–Cunningham IV, p. 244)",
+  "signale_par": "dépouillement d'Hésychius",
+  "pertinence": 1,
+  "remarque": "suit Hsch. ψ 123 ψευδῆ· ἀλλόκοτα. ἀπάται (ci-dessus)"
  },
  {
   "v": "343",
@@ -6384,6 +6426,34 @@
   "remarque": "le féminin du traître, avec une apostrophe comique à une femme qui livre et séduit"
  },
  {
+  "v": "346-347",
+  "lemme": "δέχεται προδιδοῦσ᾽ ἑταίρᾳ … κάπηλος",
+  "categorie": "lexicographes",
+  "ref": "Hsch. π 3388",
+  "urn": "drive:hsch:III#pdf202",
+  "citation": "πρόδοσιν· προδομάτιον (Hermipp. fr. 78 K.–A.)",
+  "traduction": "prodosis (avance) : arrhes",
+  "verifie": "corpus",
+  "verification": "chercher.py 'πρόδοσιν' (Hansen III, p. 168 ; texte rétabli des polices) ; apparat de Hansen lu dans le même fichier",
+  "signale_par": "dépouillement d'Hésychius",
+  "pertinence": 1,
+  "remarque": "apparat de Hansen : « de mercede pacta, e. g. meretricis (v. testt.) vel cauponis (Hermipp.) » ; testimonia : Zenob. Ath. 2, 42, Diogenian. 5.74 (Κακὴ πρόδοσις, ci-dessous) ; Hermippe chez Poll. 7.194 (Bethe II, p. 105, 9–10, image lue) : ἐπὶ τοῦ προπιστευθέντος ἄνευ ἀργυρίου πίνειν ἐκ καπηλείου ‘πρόδοσιν πίνειν’ ; le mot rapproche le salaire de la courtisane et le crédit du cabaret, nos vv. 345–347"
+ },
+ {
+  "v": "346",
+  "lemme": "δέχεται προδιδοῦσ᾽ ἑταίρᾳ τὸν φίλον",
+  "categorie": "proverbes",
+  "ref": "Diogenian. 5.74",
+  "urn": "urn:cts:greekLit:tlg0097.tlg001.1st1K-grc1:5.74",
+  "citation": "Κακὴ πρόδοσις: ἐπὶ τῶν μετὰ τὴν μίξιν τὸν συγκείμενον μισθὸν κομιζομένων",
+  "traduction": "mauvaise avance : se dit de celles qui touchent après l'union le salaire convenu",
+  "verifie": "corpus",
+  "verification": "Diogénien (First1KGreek) 5.74, signalé par l'apparat de Hansen à Hsch. π 3388",
+  "signale_par": "testimonia de Hsch. π 3388 (Hansen)",
+  "pertinence": 1,
+  "remarque": "le commerce des faveurs payées (cf. Σ Thesm. 346 δέχεται δῶρα παρ᾽ ἑταίρας)"
+ },
+ {
   "v": "347-348",
   "lemme": "κεἴ τις κάπηλος ἢ καπηλὶς τοῦ χοὸς ἢ τῶν κοτυλῶν τὸ νόμισμα διαλυμαίνεται",
   "categorie": "testimonium",
@@ -7378,6 +7448,20 @@
   "remarque": "même étymologie (πηλός = le vin) que Sud. κ 335 Καπηλίς: παρὰ τὸ κακύνειν τὸν πηλόν ; suit Aesch. fr. 322 R. (κάπηλα προσφέρων τεχνήματα, ci-dessus)"
  },
  {
+  "v": "347-348",
+  "lemme": "καπηλὶς τοῦ χοὸς ἢ τῶν κοτυλῶν",
+  "categorie": "lexicographes",
+  "ref": "Poll. 7.194–195 (Bethe II, p. 105, 14–21)",
+  "urn": "ia:pollucisonomasti02polluoft#n116",
+  "citation": "καὶ τὸ κοτυλίζειν εἴρηται μὲν καὶ ἐπὶ τῶν ἄλλων τῶν κατὰ μέρος πιπρασκομένων ἀλλ᾽ οὐκ ἀθρόως … ἴδιον δ᾽ ἂν εἴη τῶν τὸν οἶνον πιπρασκόντων. καὶ Φερεκράτης μὲν εἴρηκε ‘μηδὲν κοτυλίζειν, ἀλλὰ καταπάττειν χύδην’, Ἀριστοφάνης δὲ ‘κιρνάντες γὰρ τὴν πόλιν ἡμῶν κοτυλίζετε τοῖσι πένησιν’",
+  "traduction": "« vendre à la cotyle » se dit aussi des autres marchandises vendues au détail et non en gros … mais ce serait le propre des marchands de vin",
+  "verifie": "scan",
+  "verification": "image, Bethe, Pollucis Onomasticon II, p. 105, l. 14–21 (archive.org pollucisonomasti02polluoft, page n116) ; Pherecr. fr. 179 K.-A. (168 Kock) : PCG VII, p. 193 (texte du PDF) ; Ar. fr. 683 Kock : Kock I, p. 558 (OCR)",
+  "signale_par": "lx.py 'κοτύλη OR …' (Pollux) ; Taillardat, Les images d'Aristophane, § 709 (Ar. fr. 683 : « le verbe κοτυλίζειν emporte l'idée d'une distribution de vin mesquine » ; OCR de l'exemplaire de l'auteur, index s.v. κοτυλίζειν)",
+  "pertinence": 3,
+  "remarque": "suit immédiatement Poll. 7.194 (κάπηλις, citation de Plut. 435–436, ci-dessus) : la cotyle est la mesure du débit de vin au détail ; cf. [Arist.] Oec. 2.2.8 μὴ κοτυλίζειν, ἀλλ᾽ ἁθρόα τὰ φορτία πεπρᾶσθαι"
+ },
+ {
   "v": "348",
   "lemme": "τὸ νόμισμα",
   "categorie": "aristophane",
@@ -7880,6 +7964,48 @@
   "signale_par": "Austin–Olson 2004, p. 166 (« SIG³ 997 »)",
   "pertinence": 3,
   "remarque": "malédiction (κακὸς κακῇ ἐξωλείᾳ ἀπόλοιτο) et bénédiction réunies, comme aux vv. 349–351 ; λυμαίνεσθαι, cf. v. 348 (διαλυμαίνεται)"
+ },
+ {
+  "v": "348",
+  "lemme": "τὸ νόμισμα διαλυμαίνεται",
+  "categorie": "prose",
+  "ref": "Pl. Leg. 916d",
+  "urn": "urn:cts:greekLit:tlg0059.tlg034.perseus-grc2:11.916",
+  "citation": "ὁ δὲ ἀλλαττόμενος ἢ νόμισμα ἀντὶ νομίσματος … ἀκίβδηλον πᾶν διδότω καὶ δεχέσθω τῷ νόμῳ συνεπόμενος … κιβδηλείαν δὲ χρὴ πάντα ἄνδρα διανοηθῆναι καὶ ψεῦδος καὶ ἀπάτην ὡς ἕν τι γένος ὄν",
+  "traduction": "celui qui échange monnaie contre monnaie … doit tout donner et recevoir sans falsification, en suivant la loi … la falsification, le mensonge et la tromperie, chacun doit les tenir pour une seule et même espèce",
+  "verifie": "corpus",
+  "verification": "steph.py tlg0059.tlg034 'ὁ δὲ ἀλλαττόμενος' et 'κιβδηλείαν δὲ' (Perseus, section 916d) ; signalé par Hsch. α 2396 ἀκίβδηλον … ἐπὶ νομίσματος (Plat. leg. 916d)",
+  "signale_par": "dépouillement d'Hésychius (Hsch. α 2396, renvoi de l'éditeur)",
+  "pertinence": 2,
+  "remarque": "la fraude marchande assimilée au mensonge et à la tromperie (cf. vv. 342–343 ψευδεῖς, ἐξαπατᾷ)"
+ },
+ {
+  "v": "348",
+  "lemme": "τὸ νόμισμα διαλυμαίνεται",
+  "categorie": "lexicographes",
+  "ref": "Hsch. α 2396",
+  "urn": "drive:hsch:I#pdf152",
+  "citation": "ἀκίβδηλον· καθαρόν, ἁγνόν, σεπτόν. ἢ δόκιμον, ἀπαρεγχείρητον, ἐπὶ νομίσματος",
+  "traduction": "non falsifié : pur … ou de bon aloi, non trafiqué, en parlant de la monnaie",
+  "verifie": "corpus",
+  "verification": "hlx.py '^ακιβδηλ' (Latte I, p. 114 ; texte rétabli des polices ; signes de l'éditeur omis)",
+  "signale_par": "dépouillement d'Hésychius",
+  "pertinence": 1,
+  "remarque": "l'éditeur renvoie à Pl. Leg. 916d (ci-dessus) ; le contraire de la mesure « gâtée » par la cabaretière ; cf. Hsch. κ 2597 … ἀφ᾿ ἧς πᾶν φαῦλον κίβδηλον, μοχθηρόν, [φαῦλον] ψεῦσμα, νόθον, ἀδόκιμον"
+ },
+ {
+  "v": "348",
+  "lemme": "τῶν κοτυλῶν",
+  "categorie": "lexicographes",
+  "ref": "Hsch. κ 3812",
+  "urn": "drive:hsch:II#pdf668",
+  "citation": "κοτύλαια· μικρά· παρὰ τὴν κοτύλην",
+  "traduction": "kotylaia : petites choses ; de kotylè",
+  "verifie": "corpus",
+  "verification": "hlx.py '^κοτυλ' (Latte II, p. 656 ; texte rétabli des polices)",
+  "signale_par": "dépouillement d'Hésychius",
+  "pertinence": 1,
+  "remarque": "la cotyle, petite mesure, devient synonyme de « petit » (cf. Poll. 7.194–195 κοτυλίζειν, ci-dessus)"
  },
  {
   "v": "349",
@@ -8425,7 +8551,7 @@
   "verification": "sudx.py '^εξωλ' (Souda, First1KGreek, 2.E.1834 ; un mot altéré dans la numérisation, « Πα νιύλης », omis) ; idem Sud. π 2546 (Προώλης: ὁ πανώλης)",
   "signale_par": "dépouillement de la Souda",
   "pertinence": 2,
-  "remarque": "ἐξώλης / προώλης, les mots de la malédiction officielle (cf. Dem. 18.324 ἐξώλεις καὶ προώλεις, ci-dessus) ; κίναιδος comme Hsch. ε 3996"
+  "remarque": "ἐξώλης / προώλης, les mots de la malédiction officielle (cf. Dem. 18.324 ἐξώλεις καὶ προώλεις, ci-dessus) ; κίναιδος comme Hsch. ε 3996 ; ἐξώλης· ἀπολλύμενος, κίναιδος aussi Synag. ε 545 (Cunningham, p. 215) = Phot. ε 1285 Theodoridis (II, p. 126 ; texte du PDF)"
  },
  {
   "v": "349",
@@ -8538,6 +8664,20 @@
   "signale_par": "Austin–Olson 2004, p. 167 (« SIG³ 366. 13–14 »)",
   "pertinence": 3,
   "remarque": "la même alternance qu'aux vv. 349–351 : anéantissement du parjure et de sa race, « beaucoup de biens » (πολλὰ κἀγαθά) pour qui tient parole ; vaut aussi pour les vv. 357–359 (ἐφιορκοίην)"
+ },
+ {
+  "v": "349",
+  "lemme": "κακῶς ἀπολέσθαι τοῦτον αὐτὸν κᾠκίαν",
+  "categorie": "lexicographes",
+  "ref": "Phot. δ 686 Theodoridis",
+  "urn": "",
+  "citation": "διωμοσία· ⟨ὅρκος ἐστίν, ὃν⟩ ὤμνυον καὶ οἱ φόνου ἀγῶνα διώκοντες καὶ οἱ φεύγοντες … καὶ ἐπενεχθείσης δὲ λοιπὸν ἤδη τῆς ψήφου πάλιν ὤμνυεν ὁ κρατήσας, ἦ μὴν δικαίως νενικηκέναι, ἐξώλειαν αὐτῷ ἐπαρώμενος, εἰ ἐξηπάτησεν",
+  "traduction": "diômosia : serment que prêtaient accusateur et accusé dans un procès pour meurtre … et, le vote rendu, le vainqueur jurait encore avoir gagné justement, appelant sur lui l'anéantissement (exôleia) s'il avait trompé",
+  "verifie": "scan",
+  "verification": "images, Theodoridis, Photii Lexicon I, p. 425 (bas) – 426 (haut) (PDF p. 507–508, .sources/drive/fichiers/Grec/Lexiques/Photius/)",
+  "signale_par": "lx.py 'ἐξώλης OR ἐξώλεια …' (Photius)",
+  "pertinence": 2,
+  "remarque": "l'ἐξώλεια attachée au serment, contre qui « trompe » (cf. v. 357 ἐξαπατῶσιν παραβαίνουσί τε τοὺς ὅρκους) ; même formule chez Sud. ε 1833 (ci-dessus)"
  },
  {
   "v": "350-351",

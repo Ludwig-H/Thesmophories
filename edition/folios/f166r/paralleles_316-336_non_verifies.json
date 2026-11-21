@@ -8,19 +8,11 @@
   "raison": "textes épigraphiques non disponibles localement (IG II² absent ; l'OCR de Syll.² II n'a pas reconnu le grec) ; à contrôler sur IG II² ou PHI"
  },
  {
-  "v": "335–337",
-  "lemme": "εἴ τις ἐπιβουλεύει … ἢ ᾿πικηρυκεύεται",
-  "categorie": "prose",
-  "ref": "SIG³ 167, 15 (Mylasa)",
-  "signale_par": "Austin–Olson 2004, n. aux vv. 335–9",
-  "raison": "SIG³ absent du corpus local ; le texte a été vérifié sur Syll.² 95, l. 15 (entrée du fichier principal), la concordance SIG³ 167 = Syll.² 95 n’est pas contrôlée"
- },
- {
   "v": "336",
   "lemme": "ἢ ᾿πικηρυκεύεται",
   "categorie": "lexicographes",
-  "ref": "Phot. ε 1580 ; Et. Gen. (B) s.v. ἐπικηρυκεύεται",
-  "signale_par": "testimonia de l’auteur ; Cunningham, Synagoge, p. 223 (renvois du n° 682)",
-  "raison": "Photius (éd. Theodoridis, t. II) et l’Etymologicum genuinum absents du corpus local : identité des gloses seulement d’après Cunningham"
+  "ref": "Et. Gen. (B) s.v. ἐπικηρυκεύεται",
+  "signale_par": "testimonia de l’auteur ; Cunningham, Synagoge, p. 223 (renvois du n° 682) ; Theodoridis, Photius II, p. 151 (test. à ε 1580)",
+  "raison": "Etymologicum genuinum absent du corpus local : texte connu seulement par Theodoridis (διὰ κήρυκός τινος συνθήκας ποιεῖται) ; Phot. ε 1580 vérifié depuis sur l’image (voir Synag. ε 682 au v. 336)"
  }
 ]

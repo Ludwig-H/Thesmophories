@@ -35,13 +35,6 @@
   "raison": "numéro K.-A. non contrôlé"
  },
  {
-  "v": "160",
-  "lemme": "ἀγρεῖον",
-  "ref": "Com. adesp. Kock III, p. 450 (ἄγροικός εἰμι τὴν σκάφην σκάφην λέγων)",
-  "source": "Luc. JTr. 32 ; OCR de Kock",
-  "raison": "image de Kock III inaccessible (archive.org) ; numéro du fragment à lire sur le livre"
- },
- {
   "v": "161",
   "lemme": "Ἴβυκος",
   "ref": "Arcad. p. 52, 10",
@@ -75,13 +68,6 @@
   "ref": "Soph. fr. 162 N.",
   "source": "van Leeuwen 1904, note ad 163 (pp. 26–30)",
   "raison": "fragment non identifié dans Nauck ; renvoi à contrôler"
- },
- {
-  "v": "163",
-  "lemme": "Ἰωνικῶς",
-  "ref": "Érasme, Adages n° 469 (Risus Ionicus)",
-  "source": "commentaire de l’auteur (critique.tex)",
-  "raison": "texte latin non disponible, numéro non contrôlé ; proverbe vérifié : Diogenian. 3.87, Greg. Cypr. 2.9"
  },
  {
   "v": "163",

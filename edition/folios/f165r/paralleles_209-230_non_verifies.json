@@ -28,13 +28,6 @@
   "raison": "livre 57 de Dion absent du corpus local ; le mot de Tibère est lu chez Zonaras 11.1, Sud. τ 552 et Suet. Tib. 32.2 (entrées au v. 215)"
  },
  {
-  "v": "215",
-  "lemme": "ἀποξυρεῖν ταδί",
-  "ref": "numéros K.-A. de Cratin. frr. 37 et 41 Kock, Eup. fr. 278 Kock, Pl. Com. fr. 174 Kock, Archipp. fr. 42 Kock, Hermipp. fr. 14 Kock, Ameips. fr. 7 Kock, Crobyl. fr. 6 Kock, Alex. fr. 264 Kock, Men. frr. 404, 626 Kock, Ar. fr. 453 Kock",
-  "source": "numérotation Kock seule vérifiée",
-  "raison": "PCG non présents sur le disque local : concordance K.-A. à établir (sauf Ar. fr. 332, donné par Sommerstein 1994)"
- },
- {
   "v": "217",
   "lemme": "ἢ μὴ διδόναι γ᾽ ἑαυτὸν ὤφελόν ποτε",
   "ref": "Dem., Sur la couronne, 503d",
@@ -89,13 +82,6 @@
   "ref": "Eur. Tel. fr. 147.81 Austin (vocatifs répétés)",
   "source": "Austin–Olson 2004, p. 123 (ad 209–10)",
   "raison": "Nova fragmenta Euripidea d’Austin (1968) non disponibles localement"
- },
- {
-  "v": "210",
-  "lemme": "μὴ σαυτὸν προδῷς",
-  "ref": "Pl. Com. fr. 66 K.-A. (ἀπαμβρακοῦ καὶ μὴ προδῷς σαυτήν)",
-  "source": "Austin–Olson 2004, p. 123 (ad 209–10)",
-  "raison": "libellé complet introuvable : Hsch. α 5762 et Synag. α 1633 (inscrits) ne donnent que ἀπαμβρακοῦ ; la source qui conserve la suite (Photius α, Theodoridis I ?) n’est pas disponible localement"
  },
  {
   "v": "211",
@@ -173,13 +159,6 @@
   "ref": "Apost. (Ἀτρέμας βοῦς)",
   "source": "index du CPG II, p. 795 (OCR : « ἀτρεμὰς βοῦς Ap I… »)",
   "raison": "numéro d’Apostolios illisible dans l’OCR de l’index ; non retrouvé dans le texte : seul Diogenian. 3.9 est inscrit"
- },
- {
-  "v": "230",
-  "lemme": "ἔχ᾽ ἀτρέμα σαυτόν",
-  "ref": "Pherecr. fr. 6.3 K.-A. ; Strattis fr. 52 Kock ; Theopomp. Com. fr. 32 Kock ; Ar. fr. 679 Kock (numéros de Kassel–Austin)",
-  "source": "Austin–Olson 2004, p. 130 (« Pherecr. fr. 6. 3 », numérotation K.-A.)",
-  "raison": "les fragments sont inscrits d’après Kock (texte lu sur l’image) ; la concordance avec Kassel–Austin n’a pu être contrôlée, faute de PCG dans les sources locales"
  },
  {
   "v": "218",

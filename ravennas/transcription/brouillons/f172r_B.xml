@@ -7,7 +7,7 @@
     <l n="4">ἕκαστο ν·</l>
     <l n="5" v="803">παρὰβάλλουσαι τῆστεγυναικὸσ· καὶ τἀνδρὸσ</l>
     <l n="6">τοῦ ᾽νομ᾽ ἕκαστοσ·</l>
-    <l n="7" v="804">ναυσ<add place="dessus" main="R?">ϊ</add>μάχη σμέν ἥττων ἐστὶ χαρμίνοσ δηλαδητ᾽ἄρ<ras main="R?">γα</ras></l>
+    <l n="7" v="804">ναυσ<add place="dessus" main="R?">ϊ</add>μάχη σμέν ἥττων ἐστὶ χαρμῖνοσ δηλαδητ᾽ἄρ<ras main="R?">γα</ras></l>
     <l n="8" v="805">καὶ μὲν δὴ καὶ κλεοφῶν χεῖ ρον πάντωσδή που</l>
     <l n="9">σαλ<del type="exponctuation" main="R?">λ</del>αβακχοῦσ·</l>
     <l n="10" v="806">πρὸσ ἀριστομάχην δὲ χρόνο<unclear cert="moyenne">υ</unclear> πολλοῦ προσεκεί</l>
@@ -17,9 +17,9 @@
     <l n="14">ἐστὶν ἀμείνων·</l>
     <l n="15" v="809"><hi rend="grand">π</hi>αραδοὺσ ετέρωι τὴν βουλείαν οὐδ᾽ αὐτὸσ τοῦτό γε</l>
     <l n="16">φή σει σ·</l>
-    <l n="17" v="810">οὕτωσ ἡμεῖσ πολὺ βελτίουσ τῶν ἀνδρῶν εὐχόμεσθ᾽ <abbr dev="ναι">εἶ</abbr></l>
+    <l n="17" v="810">οὕτωσ ἡμε<unclear cert="moyenne">ῖ</unclear>σ πολ<unclear cert="moyenne">ὺ</unclear> βελτίουσ τῶν ἀνδρῶν εὐχόμεσθ᾽ <abbr dev="ναι">εἶ</abbr></l>
     <l n="18" v="811">οὐδ᾽ ἂν κλέψασα γυνὴ ζεύγει· κατὰ πεντήκοντα τάλαντα</l>
-    <l n="19" v="812">ἐσπόλιν ἐλθο ι τῶν δη μοσίων· ἀλλ᾽ ἢν τὰ μέγιστα</l>
+    <l n="19" v="812">ἐσπόλιν <unclear cert="moyenne">ἔ</unclear>λθο ι τῶν δη μοσίων· ἀλλ᾽ <unclear cert="moyenne">ἢ</unclear>ν τὰ μέγιστα</l>
     <l n="20">ὑφέλη ται</l>
     <l n="21" v="813">φορμὸν πυρῶν τἀνδρὸσ κλέψασα αὐθημερὸ ν</l>
     <l n="22">αὖτ᾽ ἀπέδω κεν</l>
@@ -50,5 +50,8 @@
     <note>Reprise (20 nov.) : l. 15–16 recontrôlées à ×4–×6 (original, CLAHE, fac-similé de 1904 recalé). Corrigé à la l. 15 : ἑτέρωι → ετέρωι (aucun esprit sur l'Є, ni sur le cliché ni en 1904 ; l'aigu à x ≈ 476, y ≈ 1005 est celui de -τέ-) ; οὐδ → οὐδ᾽ (trois marques entre δ et σ : x ≈ 891 au-dessus de l'α, x ≈ 928 au-dessus du τ, grave x ≈ 971 : apostrophe, esprit de αὐ, accent de -τὸ, tous déportés à droite).</note>
     <note>Reprise (21 nov.) : l. 39–40 recontrôlées à ×5–×8. L. 39 : ἀν → ἂν (triangle d'esprit x 295–313, y 2001–2006, et grave oblique x 325–335, y 2000–2012, distinct de l'ι de la l. 38) ; μεμψαίμεθἂν → μεμψαίμεθἀν (une seule marque ronde au-dessus de α|ν, x 1108–1117, y 2014–2022 : esprit ; ni grave ni apostrophe visibles). L. 40 : ἓν → ἑν douteux (une seule marque ronde x 800–810, y 2048–2054 : esprit, sans accent visible).</note>
     <note ligne="41">Passe 1 (21 nov.) : après χρὴ (grave net, x 237–247, y 2093–2100), entre η et μ (x 248–305), ni α ni ρ : on voit un ν (jambage court puis longue diagonale montante, x 250–283), un V non plongeant (γ ou ν, x 262–288) qui croise cette diagonale, puis un ι à pied tourné à droite (x 290–300) surmonté d'une marque (x 295–303, y 2095–2101). Pas de γὰρ écrit en toutes lettres. Lecture provisoire, à trancher en passe 4. Fac-similé de 1904 identique.</note>
+    <note ligne="7">Passe 2 : χαρμῖνοσ, non χαρμίνοσ (passe 1) : au-dessus de μ|ι (x 783–795, y 655–668), un circonflexe en chapeau à deux jambages, net sur le fac-similé de 1904 et sur le cliché ; aucun trait d'aigu.</note>
+    <note ligne="17">Passe 2 : ἡμεῖσ : la haste du φ de φήσεισ (l. 16) descend sur ει (x 355–370, y 1080–1100) ; seul un petit trait montant à droite de la jonction (x 365–373, y 1085–1093) peut être le circonflexe : accent douteux. πολὺ : un point seul au-dessus de λ|υ (x 455–461, y 1088–1095), grave ou aigu indiscernable.</note>
+    <note ligne="19">Passe 2 : ἔλθο ι : point (esprit) au-dessus de ε (x 330–336, y 1169–1175) et petit trait à sa droite (x 350–356, y 1160–1168), distinct de la queue du ψ de κλέψασα (l. 18) : aigu probable. Au-dessus de ἀλλ᾽ ἢν τὰ, cinq marques : point x 781 (esprit de ἀ), coin x 808, trait oblique x 847 (apostrophe ?), point x 865 (esprit de ἢ ?), grave x 913 (τὰ) ; pas de grave distinct sur η.</note>
   </notes>
 </page>

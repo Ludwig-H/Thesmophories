@@ -3472,6 +3472,20 @@
   "remarque": "Érasme fait un proverbe du mot rapporté par Plut. Mor. 177a–b et Ael. VH 13.4 (déjà relevés) : l'Agathon réel avait de la barbe (ἤδη γενειῶντα), ce qui donne son sel à l'Agathon toujours rasé de la comédie (ἐξυρημένος) ; l'Euripide qui l'embrasse dans l'anecdote est ici celui qui le flatte (vv. 191-192)"
  },
  {
+  "v": "191",
+  "lemme": "σὺ δ᾽ εὐπρόσωπος … ἐξυρημένος : Agathon (le « bel » Agathon, barbu en réalité)",
+  "categorie": "comiques",
+  "ref": "Com. adesp. fr. 216 Kock",
+  "urn": "ia:comicorumatticor03kockuoft#n469",
+  "citation": "τῶν γὰρ καλῶν τοι καὶ τὸ μετόπωρον καλόν.",
+  "traduction": "« car chez les beaux, même l'automne est beau »",
+  "verifie": "scan",
+  "verification": "Kock III, p. 450, fr. 216 (ia:comicorumatticor03kockuoft n469, image ; l'OCR étiquette p. 449)",
+  "signale_par": "recherche « μετόπωρον καλόν » dans le corpus (reprise du 21 nov.)",
+  "pertinence": 1,
+  "remarque": "trimètre restitué par Kock d'après Plut. Mor. 177b (τῶν γὰρ καλῶν καὶ τὸ μετόπωρον καλόν ἐστιν), le mot sur Agathon barbu (déjà relevé, avec Ael. VH 13.4 et Erasm. Adag. 1.3.72) ; rangé par Kock parmi les adespota comiques, ce qui reste conjectural ; n° K.-A. non contrôlé (PCG VIII absent)"
+ },
+ {
   "v": "192",
   "lemme": "γυναικόφωνος",
   "categorie": "testimonium",
@@ -9332,10 +9346,10 @@
   "citation": "Αὐτόσε: ἐκεῖσε. λέγεται δὲ καὶ Αὐτοῦσε.",
   "traduction": "",
   "verifie": "corpus",
-  "verification": "chercher.py ''",
+  "verification": "chercher.py 'αὐτόσε' -a Sud --sans-ocr (First1K, Sud. α 4522)",
   "signale_par": "dépouillement des lexiques",
   "pertinence": 2,
-  "remarque": "cf. Synag. α 1112, Σ’ α 2454 (Cunningham, p. 135)"
+  "remarque": "cf. Synag. α 1112, Σ’ α 2454 (Cunningham, p. 135) ; idem Phot. α 3252 Theodoridis (I, p. 299, lu sur l'image : αὐτόσε· ἐκεῖσε, signe Σ) [reprise du 21 nov.]"
  },
  {
   "v": "202",
@@ -10055,12 +10069,12 @@
   "v": "204",
   "lemme": "νυκτερείσια",
   "categorie": "lexicographes",
-  "ref": "Phot. ε 1903 (Porson, p. 13)",
-  "urn": "ia:phtioutoupatria00porsgoog#n23",
-  "citation": "Ἐρείδειν: τὸ ἐσθίειν σφοδρῶς· ἢ ἄλλο τι ἐνεργεῖν συντόνως· Ταγηνισταῖς· Ἐρείδετον, κἀγὼ κατόπιν σφῶν ἕψομαι.",
+  "ref": "Phot. ε 1903 (Theodoridis II, p. 182)",
+  "urn": "drive:Grec/Lexiques/Photius/Photii patriarchae lexicon Vol. 2. E - M by Christos Theodoridis (ed.), Photius (z-lib.org).pdf#pdf299",
+  "citation": "ἐρείδειν· τὸ ἐσθίειν σφοδρῶς ἢ ἄλλο τι ἐνεργεῖν συντόνως. Ταγηνισταῖς (fr. 509 K.-A.)· „ἐρείδετον· κἀγὼ κατόπιν σφῷν ἕψομαι“.",
   "traduction": "« ἐρείδειν : manger avidement, ou faire avec ardeur quelque autre chose. Dans les Poêleurs : “Poussez, vous deux, et moi je vous suivrai derrière.” »",
   "verifie": "scan",
-  "verification": "Porson, p. 13 (n23, image) ; n° de Theodoridis d’après l’apparat d’Hsch. ε 5705 (« cf. Ph ε 1903 ») et l’ordre des gloses chez Porson (ἐρέσσειν = Ph ε 1905) ; Kock I, p. 519, fr. 493 (n548, image) ; n° K.-A. : PCG III 2, fr. 509 (493), lu sur l’image (p. 297 du fichier)",
+  "verification": "Theodoridis, Photii Lexicon II (1998), p. 182, n° 1903, lu sur l'image (PDF du Drive, page 299 ; reprise du 21 nov. : numéro, jusque-là déduit, confirmé) ; Porson, p. 13 (n23, image : … σφῶν ἕψομαι) ; Kock I, p. 519, fr. 493 (n548, image) ; n° K.-A. : PCG III 2, fr. 509 (493), lu sur l’image (p. 297 du fichier)",
   "signale_par": "Kock I, p. 519 (fr. 493) ; liste des non-vérifiés de la passe précédente",
   "pertinence": 2,
   "remarque": "ἢ ἄλλο τι ἐνεργεῖν συντόνως : l’euphémisme du lexicographe couvre l’emploi érotique (Eccl. 616 ; Thesm. 488) ; la citation est Ar. fr. 509 K.-A. (= 493 Kock, Ταγηνισταί), où Kock entend acriter progredi"
@@ -10724,6 +10738,20 @@
   "remarque": "κύπρις pour l'activité amoureuse elle-même (minuscule chez Nauck) ; Prato le cite à propos de ὑφαρπάζειν … Κύπριν ; numéro de Kannicht non contrôlé ; ancien non-vérifié repris"
  },
  {
+  "v": "205",
+  "lemme": "κλέπτειν ὑφαρπάζειν τε θήλειαν Κύπριν (voler Aphrodite, devenir femme)",
+  "categorie": "prose",
+  "ref": "Hdt. 1.105.4",
+  "urn": "urn:cts:greekLit:tlg0016.tlg001.perseus-grc2:1.105.4",
+  "citation": "τοῖσι δὲ τῶν Σκυθέων συλήσασι τὸ ἱρὸν τὸ ἐν Ἀσκάλωνι καὶ τοῖσι τούτων αἰεὶ ἐκγόνοισι ἐνέσκηψε ὁ θεὸς θήλεαν νοῦσον",
+  "traduction": "« sur ceux des Scythes qui avaient pillé le sanctuaire d'Ascalon, et sur leurs descendants à jamais, la divinité fit fondre la “maladie femelle” »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'θήλεαν νοῦσον' --sans-ocr (Perseus, Hdt. 1.105.4) ; le sanctuaire est celui d'Aphrodite Ourania (1.105.2-3)",
+  "signale_par": "recherche « θήλεια νόσος » dans le corpus (reprise du 21 nov.)",
+  "pertinence": 1,
+  "remarque": "le vol fait à Aphrodite puni par l'efféminement (les Énarées) : rapprochement d'idées avec l'Agathon qui « dérobe la Cypris féminine » ; mot célèbre, cité par Longin 28.4 (ἐνέβαλεν ἡ θεὸς θήλειαν νοῦσον)"
+ },
+ {
   "v": "206",
   "lemme": "ἰδού γε κλέπτειν",
   "categorie": "aristophane",
@@ -11142,6 +11170,34 @@
   "signale_par": "dépouillement des lexicographes (lex.py ἰδου), reprise du 20 nov.",
   "pertinence": 1,
   "remarque": "les deux valeurs de ἰδού chez Aristophane selon la Souda ; ici l'emploi exclamatif et ironique, « voyez-moi ça : “dérober” ! », qui reprend le mot de l'interlocuteur pour le corriger"
+ },
+ {
+  "v": "206",
+  "lemme": "ἰδού γε κλέπτειν· … βινεῖσθαι μὲν οὖν (appeler les choses par leur nom)",
+  "categorie": "aristophane",
+  "ref": "Ar. fr. 927 K.-A. (901b, adesp. 227 K.)",
+  "urn": "drive:Grec/Aristophane/Aristophanes-Testimonia-Et-Fragmenta.pdf#pdf444",
+  "citation": "ἄγροικός εἰμι· τὴν σκάφην σκάφην λέγω",
+  "traduction": "« je suis un rustre : j'appelle un baquet un baquet »",
+  "verifie": "scan",
+  "verification": "PCG III 2, p. 415, fr. 927 (Incertae fabulae. Dubia), lu sur l'image (PDF du Drive, page 444) ; témoins contrôlés dans le corpus : Luc. Jupp. Trag. 32, Plut. Mor. 178b, Julian. Or. 7.4",
+  "signale_par": "recherche « σκάφην σκάφην » dans le corpus (reprise du 21 nov.)",
+  "pertinence": 2,
+  "remarque": "fragment douteux, transmis par Lucien (Jupp. Trag. 32 : ὡς ὁ κωμικὸς ἔφη, ἄγροικός εἰμι τὴν σκάφην σκάφην λέγων ; Hist. conscr. 41 : τὰ σῦκα σῦκα, τὴν σκάφην δὲ σκάφην ὀνομάσων), Julien (Or. 7, p. 208a, κατὰ τὸν κωμικόν), Plut. Mor. 178b (mot de Philippe) et Tzetzès (Hist. 8.556, qui le donne à Aristophane). Mnésiloque fait le rustre qui nomme la chose : à l'euphémisme d'Agathon (κλέπτειν) il substitue le mot cru (βινεῖσθαι)"
+ },
+ {
+  "v": "206",
+  "lemme": "ἰδού γε κλέπτειν· … βινεῖσθαι μὲν οὖν (appeler les choses par leur nom)",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 2272",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf1614",
+  "citation": "Τὰ σῦκα σῦκα, τὴν σκάφην δὲ σκάφην ὀνομάζων",
+  "traduction": "« En appelant les figues, figues, et les vases, vases » (« appeler un chat un chat »)",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 1626, n° 2272, lu sur l'image (PDF du Drive « ROC gImagereader », page 1614) ; OCR du corpus, § 1463",
+  "signale_par": "recherche « σκάφην σκάφην » dans le corpus (reprise du 21 nov.)",
+  "pertinence": 2,
+  "remarque": "Tosi : Luc. Hist. conscr. 41 (proverbe « d'origine comique »), Arsenius 15.95b (= Apost. 15.95b selon LSJ), Men. fr. 507.3 K.-A. (attribution de Meineke), Ar. fr. 927 K.-A. (entrée précédente), Démétr. Eloc. 229 ; Érasme le reprend dans les Colloques"
  },
  {
   "v": "207",
@@ -11688,6 +11744,20 @@
   "signale_par": "dépouillement des lexicographes (lex.py ἀταρ), reprise du 20 nov.",
   "pertinence": 1,
   "remarque": "valeur adversative (ὅμως) : Mnésiloque concède après la raillerie ; α 4321 Ἀτὰρ δέ: πλὴν ὅμως"
+ },
+ {
+  "v": "207",
+  "lemme": "ἀτὰρ ἡ πρόφασίς γε",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 2.1.68 (LB II, col. 432 A–D)",
+  "urn": "",
+  "citation": "Occasione duntaxat opus improbitati. Aristoteles lib. Rhetor. II : … Ὥσπερ γὰρ ἡ παροιμία, Προφάσεως δεῖται μόνον ἡ πονηρία. … Quadrabit in nocendi cupidos, qui, ne temere laesisse videantur, causas praetexunt.",
+  "traduction": "« La méchanceté n'a besoin que d'une occasion. Aristote, Rhétorique II : … “Comme dit le proverbe, la méchanceté n'a besoin que d'un prétexte” […] L'adage conviendra à ceux qui, désireux de nuire, mettent en avant des raisons pour ne pas paraître avoir nui sans motif »",
+  "verifie": "scan",
+  "verification": "Erasmi Opera omnia II (Leyde, 1703), col. 432 A–D, Chil. II, cent. I, LXVIII, lu sur l'image (.sources/web/latin/erasme/erasme_opera_II.pdf, page 234 du fichier) ; Érasme, Les Adages, éd. Saladin, t. II, p. 57, n° 1068 (PDF du Drive, page 123)",
+  "signale_par": "recherche « prétexte » dans les Adages (trad. fr., import du Drive), reprise du 21 nov.",
+  "pertinence": 2,
+  "remarque": "Érasme réunit les trois témoins déjà relevés au v. 207 : Arist. Rh. (le proverbe), Eur. IA 1180 (ἐπὶ βραχείᾳ προφάσει) et le vers de Ménandre (μικρὰ πρόφασίς ἐστι τοῦ πρᾶξαι κακῶς, fr. 171 K.-A.) ; il y ajoute Publilius (Malefacere qui vult, nusquam non causam invenit) et le dicton « qui veut battre son chien trouve un bâton »"
  },
  {
   "v": "208",

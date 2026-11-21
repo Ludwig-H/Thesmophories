@@ -1582,6 +1582,48 @@
   "remarque": "idem Sud. ε 806"
  },
  {
+  "v": "103",
+  "lemme": "κοῦραι … χορεύσασθε",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 1110",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf809",
+  "citation": "Γραῦς βακχεύει",
+  "traduction": "La vieillarde danse avec frénésie",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 817 (PDF p. 809, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 1,
+  "remarque": "notice du proverbe de Zen. 2.96 et Sud. γ 432 (relevés : ταῖς γὰρ νέαις πρέπει τὸ χορεύειν) ; Kock le comptait parmi les fragments d'Aristophane (922)"
+ },
+ {
+  "v": "103",
+  "lemme": "χορεύσασθε",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 1433",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf1045",
+  "citation": "Οἶνος ἄνωγε γέροντα καὶ οὐκ ἐθέλοντα χορεύειν",
+  "traduction": "Le vin fait danser les vieux, même contre leur gré",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 1054 (PDF p. 1045, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 1,
+  "remarque": "Ath. 10.428a (relevé) ; l'envers du chœur de vierges du v. 103"
+ },
+ {
+  "v": "103",
+  "lemme": "χορεύσασθε",
+  "categorie": "proverbes",
+  "ref": "Ath. 10.428a",
+  "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4:10.31",
+  "citation": "ὅθεν εἴρηται καὶ τὸ οἶνος ἄνωγε γέροντα καὶ οὐκ ἐθέλοντα χορεύειν",
+  "traduction": "d’où vient aussi le mot : « le vin pousse le vieillard à danser, même malgré lui »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"ἄνωγε γέροντα\"' (Perseus, Ath. 10.31 = 427e–428b)",
+  "signale_par": "Tosi n° 1433",
+  "pertinence": 1,
+  "remarque": "hexamètre proverbial (Tosi n° 1433) ; série des proverbes de la danse (Zen. 2.96, Zen. 1.82, relevés)"
+ },
+ {
   "v": "104",
   "lemme": "κῶμος",
   "categorie": "aristophane",
@@ -2142,6 +2184,34 @@
   "remarque": "idem Diogenian. 1.80, Sud. α 2536"
  },
  {
+  "v": "104",
+  "lemme": "δαιμόνων",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 425",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf337",
+  "citation": "Homo homini deus",
+  "traduction": "L’homme est un dieu pour l’homme",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 343 (PDF p. 337, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 1,
+  "remarque": "notice de ἄνθρωπος ἀνθρώπου δαιμόνιον (Zen. 1.91, relevé), « secouru de façon inespérée »"
+ },
+ {
+  "v": "104",
+  "lemme": "κῶμος",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 516",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf410",
+  "citation": "Αὐτόματοι δ᾽ ἀγαθοὶ ἀγαθῶν ἐπὶ δαῖτας ἵενται",
+  "traduction": "Les gens de bien vont dîner chez les gens de bien sans avoir besoin d’être invités",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 416 (PDF p. 410, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 2,
+  "remarque": "notice où Tosi rapproche ἀκλητὶ κωμάζουσιν ἐς φίλους φίλοι (Zen. 2.46, relevé) ; cf. l'arrivée d'Euripide et de Mnésiloque chez Agathon"
+ },
+ {
   "v": "105",
   "lemme": "εὐπίστως δὲ τοὐμὸν δαίμονας ἔχει σεβίσαι",
   "categorie": "testimonium",
@@ -2593,15 +2663,29 @@
   "v": "105",
   "lemme": "εὐπείστως (εὐπίστως R)",
   "categorie": "proverbes",
-  "ref": "Epich. fr. 13 DK (Polyb. 18.40.4)",
+  "ref": "Epich. fr. 218 K.-A. (Polyb. 18.40.4)",
   "urn": "urn:cts:greekLit:tlg0543.tlg001.perseus-grc2:18.40.4",
   "citation": "νᾶφε καὶ μέμνασ' ἀπιστεῖν· ἄρθρα ταῦτα τᾶν φρενῶν",
   "traduction": "sois sobre et souviens-toi de te méfier : ce sont là les articulations de l'esprit",
   "verifie": "corpus",
-  "verification": "chercher.py 'μέμνασ ἀπιστεῖν' ; Polyb. 18.40.4 ; Epich. fr. 13 (Diels, First1KGreek)",
+  "verification": "PCG I, p. 129 (PDF p. 161, image) ; chercher.py 'μέμνασ ἀπιστεῖν' ; Polyb. 18.40.4 ; Epich. fr. 13 (Diels, First1KGreek)",
   "signale_par": "LSJ s.v. ἀπιστέω (Epich. 250)",
   "pertinence": 1,
-  "remarque": "la sentence contraire : l'εὐπειστία de la vierge d'Agathon a pour opposé la méfiance sicilienne ; numéros divers selon les éditions (LSJ : Epich. 250)"
+  "remarque": "la sentence contraire : l'εὐπειστία de la vierge d'Agathon a pour opposé la méfiance sicilienne ; = 250 Kaibel, 13 DK ; Tosi n° 2255 (relevé)"
+ },
+ {
+  "v": "105",
+  "lemme": "εὐπείστως (εὐπίστως R)",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 2255",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf1601",
+  "citation": "Nec cito credideris",
+  "traduction": "Ne crois pas trop promptement",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 1613 (PDF p. 1601, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 1,
+  "remarque": "Ov. Ars 3.685 ; Tosi y cite Épicharme, fr. 218 K.-A. (νᾶφε καὶ μέμνασ᾽ ἀπιστεῖν, relevé) : l'antidote de l'εὐπειστία"
  },
  {
   "v": "106",
@@ -3707,7 +3791,7 @@
   "verification": "pas.py Diogenian. 8.51 (CPG I, First1KGreek)",
   "signale_par": "Tosi, Dictionnaire n° 1588",
   "pertinence": 2,
-  "remarque": "forme parémiographique ; cf. Apostol. 16.30 (Tosi, non contrôlé)"
+  "remarque": "forme parémiographique ; cf. Apostol. 16.30 (relevé)"
  },
  {
   "v": "107",
@@ -3834,6 +3918,34 @@
   "signale_par": "passe parémiographique (corpus)",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "107",
+  "lemme": "ὄλβιζε (ὅπλιζε R)",
+  "categorie": "proverbes",
+  "ref": "Apostol. 16.30",
+  "urn": "ia:corpusparoemiogr02leutuoft#n702",
+  "citation": "Τέρμα δ᾽ ὁρᾶν βιότοιο, Σόλων ἱεραῖς ἐν Ἀθήναις",
+  "traduction": "« Regarder le terme de la vie », Solon dans la sainte Athènes",
+  "verifie": "scan",
+  "verification": "CPG II, p. 665, l. 12 (image n702, lue)",
+  "signale_par": "Tosi, Dictionnaire n° 1588",
+  "pertinence": 1,
+  "remarque": "forme versifiée du mot de Solon (cf. Diogenian. 8.51, relevé) ; Tosi rapproche Anth. Pal. 9.366.6"
+ },
+ {
+  "v": "107",
+  "lemme": "ὄλβιζε (ὅπλιζε R)",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 1588",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf1160",
+  "citation": "Dicique beatus / ante obitum nemo supremaque funera debet",
+  "traduction": "Personne ne peut se dire heureux avant l’heure de son trépas et de ses funérailles",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 1169 (PDF p. 1160, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 1,
+  "remarque": "notice sur le topos « nul n'est heureux avant sa mort » (Ov. Met. 3.136–137 ; Hdt. 1.32 ; Soph. OT 1529 sq. μηδέν᾽ ὀλβίζειν ; Aesch. Ag. 928 sq. ; Eur. Andr. 100–102 ; Diogenian. 8.51 ; Apostol. 16.30, tous relevés) ; l'ὀλβίζειν de l'hymne en est l'envers"
  },
  {
   "v": "108",
@@ -4464,6 +4576,20 @@
   "signale_par": "passe parémiographique (corpus)",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "108",
+  "lemme": "[χρυσέων] τόξων (Φοῖβον)",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 1492",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf1086",
+  "citation": "Neque semper / arcum tendit Apollo",
+  "traduction": "Même Apollon ne tend pas toujours son arc",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 1095 (PDF p. 1086, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 2,
+  "remarque": "notice de Hor. Carm. 2.10.19–20 (relevé) : l'arc d'Apollon devenu proverbe"
  },
  {
   "v": "109",
@@ -6034,6 +6160,34 @@
   "remarque": ""
  },
  {
+  "v": "111",
+  "lemme": "ἀοιδαῖς",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 1765",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf1283",
+  "citation": "Πολλὰ ψεύδονται ἀοιδοί",
+  "traduction": "Les poètes sont de grands menteurs",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 1293 (PDF p. 1283, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 1,
+  "remarque": "Solon (fr. 25 Gentili–Prato, selon Tosi) ; cf. Greg. Cypr. 3.49 (relevé)"
+ },
+ {
+  "v": "111",
+  "lemme": "ἀοιδαῖς",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 1744",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf1270",
+  "citation": "Καὶ κεραμεὺς κεραμεῖ κοτέει καὶ τέκτονι τέκτων, / καὶ πτωχὸς πτωχῷ φθονέει καὶ ἀοιδὸς ἀοιδῷ",
+  "traduction": "Le potier en veut au potier, le charpentier au charpentier, le pauvre au pauvre, et le chanteur au chanteur",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 1280 (PDF p. 1270, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 1,
+  "remarque": "notice de Hes. Op. 25–26 (relevé) : la rivalité des poètes (Euripide et Agathon)"
+ },
+ {
   "v": "112",
   "lemme": "τιμαῖς",
   "categorie": "aristophane",
@@ -6060,6 +6214,20 @@
   "signale_par": "Blaydes 1880, p. 144 (Ran. 332)",
   "pertinence": 3,
   "remarque": "τιμά = χορεία : donne le sens de εὐμούσοισι τιμαῖς ; avec χαρίτων, ἱεράν"
+ },
+ {
+  "v": "112",
+  "lemme": "εὐμούσοισι (ἄμουσος)",
+  "categorie": "aristophane",
+  "ref": "Ar. Vesp. 1074",
+  "urn": "urn:cts:greekLit:tlg0019.tlg004.perseus-grc2:1074",
+  "citation": "ῥᾳδίως ἐγὼ διδάξω, κἂν ἄμουσος ᾖ τὸ πρίν",
+  "traduction": "je l’enseignerai aisément, « fût-il auparavant étranger aux Muses »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"κἂν ἄμουσος ᾖ τὸ πρίν\"' (Perseus, Ar. Vesp. 1074)",
+  "signale_par": "passe s8 (corpus)",
+  "pertinence": 1,
+  "remarque": "le même vers de la Sthénébée (Tosi n° 346), repris par le chœur des Guêpes"
  },
  {
   "v": "112",
@@ -6368,6 +6536,34 @@
   "signale_par": "passe parémiographique (corpus)",
   "pertinence": 2,
   "remarque": "l'« oiseau chasseur » qui capture par l'εὐμουσία : cf. Artémis ἀγροτέρα (v. 115) et le chant séducteur d'Agathon"
+ },
+ {
+  "v": "112",
+  "lemme": "εὐμούσοισι",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 1934",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf1399",
+  "citation": "Ὄνος λύρας",
+  "traduction": "Un âne (qui entend) la lyre",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 1410 (PDF p. 1399, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 1,
+  "remarque": "le type même de l'ἀμουσία, envers des εὔμουσοι τιμαί ; Asinus ad lyram (Érasme, Adag. 1.4.35, selon Tosi)"
+ },
+ {
+  "v": "112",
+  "lemme": "εὐμούσοισι (ἄμουσος)",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 346",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf281",
+  "citation": "Πᾶς γοῦν ποιητὴς γίγνεται, κἂν ἄμουσος ᾖ τὸ πρίν, οὗ ἂν Ἔρως ἅψηται",
+  "traduction": "Tout homme, fût-il étranger aux Muses, devient poète quand Éros l’a touché",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 287 (PDF p. 281, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 1,
+  "remarque": "vers de la Sthénébée d'Euripide (fr. 663 N.², selon Tosi), que cite Agathon lui-même chez Platon (Symp. 196e, relevé) ; cf. Ar. Vesp. 1074 (relevé)"
  },
  {
   "v": "113",
@@ -6746,6 +6942,20 @@
   "signale_par": "dépouillement d'Hésychius",
   "pertinence": 1,
   "remarque": "un γέρας reçu des dieux ; cf. Ar. Nub. 1063"
+ },
+ {
+  "v": "113",
+  "lemme": "γέρας",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 2073",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf1491",
+  "citation": "Silentii tutum praemium",
+  "traduction": "Le prix du silence est sans danger",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 1502 (PDF p. 1491, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 2,
+  "remarque": "notice de σιγῆς ἀκίνδυνον γέρας (Simonide), cf. Plut. Reg. et imp. apophth. 207c (relevé)"
  },
  {
   "v": "114",
@@ -7238,6 +7448,48 @@
   "remarque": "la montagne qui enfante : image inverse de δρυογόνοισι (« qui enfantent des arbres »)"
  },
  {
+  "v": "114",
+  "lemme": "ἐν ὄρεσι",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 1507",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf1095",
+  "citation": "Parturient montes, nascetur ridiculus mus",
+  "traduction": "Les montagnes accoucheront, et une souris ridicule naîtra",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 1104 (PDF p. 1095, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 1,
+  "remarque": "Hor. AP 139 ; Tosi cite la forme grecque ὤδινεν ὄρος, εἶτα μῦν ἀπέτεκεν (Diogenian. 8.75, relevé)"
+ },
+ {
+  "v": "114",
+  "lemme": "δρυογόνοισι",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 1084",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf790",
+  "citation": "Non annosa uno quercus deciditur ictu",
+  "traduction": "Un seul coup ne suffit pas à abattre le vieux chêne",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 798 (PDF p. 790, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 1,
+  "remarque": "Palingène ; Tosi cite Diogenian. 7.77a (πολλαῖσι πληγαῖς δρῦς δαμάζεται, relevé)"
+ },
+ {
+  "v": "114",
+  "lemme": "δρυογόνοισι",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 2229",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf1583",
+  "citation": "Καὶ δρῦς μαινὰς ἐγένετο",
+  "traduction": "Même un chêne peut être fou",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 1595 (PDF p. 1583, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 2,
+  "remarque": "notice d'Apostol. 9.49 (relevé) : le chêne charmé par le chant d'Orphée"
+ },
+ {
   "v": "115",
   "lemme": "Ἄρτεμιν ἀγροτέραν",
   "categorie": "testimonium",
@@ -7432,6 +7684,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 3,
   "remarque": "Héphestion le cite comme exemple d'ionique a minore : Artémis chantée aux jeunes filles (cf. v. 102 κοῦραι), dans le mètre du chant d'Agathon"
+ },
+ {
+  "v": "115",
+  "lemme": "Ἄρτεμιν ἀγροτέραν",
+  "categorie": "poetes",
+  "ref": "Sapph. fr. 44A(a).6, 9 V.",
+  "urn": "drive:Grec/Sapho/Sappho et Alcaeus. Fragmenta by Voigt, Eva-Maria (ed.) (z-lib.org).pdf#pdf77",
+  "citation": "].ων ὀρέων κορύφαισ᾽ ἔπι … ἐλαφάβ]ολον ἀγροτέραν θέοι",
+  "traduction": "… sur les cimes des montagnes … la chasseresse qui frappe les cerfs, (que) les dieux…",
+  "verifie": "scan",
+  "verification": "Voigt, p. 69 (PDF p. 77, image) ; P. Fouad 239 (Lobel–Page, CQ 2, 1952)",
+  "signale_par": "passe s8 (Voigt) ; Prato 2001, ad 119",
+  "pertinence": 2,
+  "remarque": "Artémis vierge, chasseresse des montagnes : ἀγροτέραν et ὀρέων (cf. v. 114 ἐν ὄρεσι) ; « Sappho vel Alcaeus » (= Alc. fr. 304 L.-P.) ; suppléments des éditeurs"
  },
  {
   "v": "115",
@@ -8387,6 +8653,20 @@
  },
  {
   "v": "118",
+  "lemme": "γόνον … Λατοῦς (Artémis, enfant de Léto)",
+  "categorie": "poetes",
+  "ref": "Sapph. fr. 44A(a).2–3 V.",
+  "urn": "drive:Grec/Sapho/Sappho et Alcaeus. Fragmenta by Voigt, Eva-Maria (ed.) (z-lib.org).pdf#pdf77",
+  "citation": "Φοίβωι χρυσοκό]μαι τὸν ἔτικτε Κόω .[ / μίγεισ(α) Κρ]ονίδαι μεγαλωνύμω‹ι›",
+  "traduction": "… à Phoibos aux cheveux d’or, qu’enfanta la (fille) de Koios unie au Cronide au grand nom",
+  "verifie": "scan",
+  "verification": "Voigt, p. 69 (PDF p. 77, image) ; P. Fouad 239 (Lobel–Page, CQ 2, 1952)",
+  "signale_par": "passe s8 (Voigt) ; Prato 2001, ad 119",
+  "pertinence": 1,
+  "remarque": "Léto, fille de Koios, mère de Phoibos (et d'Artémis, vv. 4 sqq.) ; cf. χρυσέων … Φοῖβον, vv. 108–109 ; suppléments des éditeurs"
+ },
+ {
+  "v": "118",
   "lemme": "γόνον",
   "categorie": "lexicographes",
   "ref": "Hsch. γ 819",
@@ -8776,6 +9056,20 @@
   "signale_par": "recherche dans le corpus",
   "pertinence": 1,
   "remarque": "ἀπειρόγαμος uni à λέκτρα : l'équivalent analytique de ἀπειρολεχής"
+ },
+ {
+  "v": "119",
+  "lemme": "Ἄρτεμιν ἀπειρολεχῆ (la vierge)",
+  "categorie": "poetes",
+  "ref": "Sapph. fr. 44A(a).4–5 V.",
+  "urn": "drive:Grec/Sapho/Sappho et Alcaeus. Fragmenta by Voigt, Eva-Maria (ed.) (z-lib.org).pdf#pdf77",
+  "citation": "Ἄρτεμις δὲ θέων] μέγαν ὄρκον ἀπώμοσε / κεφά]λαν· ἄϊ πάρθενος ἔσσομαι",
+  "traduction": "Artémis prononça le grand serment des dieux : « Par ta tête, je serai toujours vierge »",
+  "verifie": "scan",
+  "verification": "Voigt, p. 69 (PDF p. 77, image) ; P. Fouad 239 (Lobel–Page, CQ 2, 1952)",
+  "signale_par": "Prato 2001, ad 119",
+  "pertinence": 3,
+  "remarque": "le vœu de virginité d'Artémis, qui fonde l'épithète ἀπειρολεχῆ ; suppléments des éditeurs (θέων], κεφά]λαν)"
  },
  {
   "v": "119",
@@ -9573,7 +9867,7 @@
   "verification": "Cunningham, Synagoge, p. 674 (PDF p. 680) : texte du corpus et image ; éd. : Dur. 76 F 81 ; test. Ph. α 2956",
   "signale_par": "recherche dans le corpus ; Austin 1987, p. 74 (renvoi à Theodoridis sur Phot. α 2956)",
   "pertinence": 3,
-  "remarque": "la notice la plus riche sur le nom ; rend compte du renvoi d'Austin à Phot. α 2956 (Ἀσιάς), distinct de α 2957 (Ἀσιάδος κρούματα)"
+  "remarque": "la notice la plus riche sur le nom ; rend compte du renvoi d'Austin à Phot. α 2956 (Ἀσιάς), distinct de α 2957 (Ἀσιάδος κρούματα) ; = Bekker, Anecd. I, p. 451, l. 31 – p. 452, l. 4 (le « lex. Seg. p. 451 » de Keil), lu sur l'image (n458–459) ; = Phot. α 2956 Theodoridis (relevé)"
  },
  {
   "v": "120",
@@ -11214,6 +11508,20 @@
   "remarque": "idem App. Prov. 1.30 (sans καὶ χάριν ἔχοντα πλείστην)"
  },
  {
+  "v": "121",
+  "lemme": "Φρυγίων",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 1344",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf989",
+  "citation": "Φρὺξ ἀνὴρ πληγεὶς ἀμείνων καὶ διακονέστερος",
+  "traduction": "Frapper un Phrygien le rend meilleur et plus attentif",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences latines et grecques, p. 997 (PDF p. 989, image)",
+  "signale_par": "passe parémiographique s8 (Tosi)",
+  "pertinence": 1,
+  "remarque": "notice de Greg. Cypr. 3.95 (relevé) ; Phryx plagis emendatur (Érasme, Adag. 1.8.36, selon Tosi)"
+ },
+ {
   "v": "122",
   "lemme": "διὰ νεύματα Χαρίτων",
   "categorie": "aristophane",
@@ -11733,6 +12041,48 @@
  },
  {
   "v": "122",
+  "lemme": "διὰ νεύματα (διά + acc. : « par la volonté de »)",
+  "categorie": "poetes",
+  "ref": "Sapph. fr. 44A(a).7–8, (b).5–6 V.",
+  "urn": "drive:Grec/Sapho/Sappho et Alcaeus. Fragmenta by Voigt, Eva-Maria (ed.) (z-lib.org).pdf#pdf77",
+  "citation": "]δε νεῦσον ἔμαν χάριν· / ἐνευ]σε θέων μακάρων πάτηρ … Μοισαν ἀγλα[ / πόει καὶ Χαρίτων [",
+  "traduction": "« … accorde-moi d’un signe de tête cette faveur » ; le père des dieux bienheureux fit signe … (les dons) éclatants des Muses … et des Charites",
+  "verifie": "scan",
+  "verification": "Voigt, p. 69 (PDF p. 77, image) ; P. Fouad 239 (Lobel–Page, CQ 2, 1952)",
+  "signale_par": "passe s8 (Voigt)",
+  "pertinence": 2,
+  "remarque": "dans le même hymne aux Létoïdes : νεύω (assentiment de Zeus) avec χάρις, puis Muses et Charites (col. II) ; cf. νεύματα Χαρίτων"
+ },
+ {
+  "v": "122",
+  "lemme": "Χαρίτων (Charites et Muses, maîtresses du chant et de la danse)",
+  "categorie": "poetes",
+  "ref": "Callim. fr. 114.8–9 Pf.",
+  "urn": "drive:Grec/Callimaque/Callimachus, Vol. I Fragmenta by Pfeiffer, R. (ed.) (z-lib.org).pdf#pdf140",
+  "citation": "σκαιῇ μὲν ἔ]χεις χερὶ Κύνθιε τ[όξον, / τὰς δ᾽ ἐπὶ δεξιτερῇ] σὰς ἰδανὰς Χάριτας;",
+  "traduction": "dans ta main gauche, Cynthien, tu tiens l’arc, et sur la droite tes gracieuses Charites ?",
+  "verifie": "scan",
+  "verification": "Pfeiffer I, p. 128 (PDF p. 140, image) ; suppléments de Pfeiffer (σκαιῇ μὲν ; τὰς δ᾽ ἐπὶ δεξιτερῇ) et de Lobel (le reste, v. 9 d’après le fr. 535 Schneider)",
+  "signale_par": "Dictionnaire des images poétiques, s.v. « Grâces, Charites » (A. Harder)",
+  "pertinence": 2,
+  "remarque": "Aitia, livre incertain (statue d'Apollon à Délos) ; l'arc et les Charites, comme χρυσέων … τόξων (v. 108) et Χαρίτων (v. 122) ; Pfeiffer cite [Plut.] Mus. 14 (1136a, relevé) et Paus. 9.35.3 (relevé)"
+ },
+ {
+  "v": "122",
+  "lemme": "Χαρίτων (Charites et Muses, maîtresses du chant et de la danse)",
+  "categorie": "poetes",
+  "ref": "Euph. fr. 66 Meineke (Poll. 4.95)",
+  "urn": "drive:Grec/Lexiques/Pollux/Libres I - V  Bethe Pollucis Onomasticon.pdf#pdf253",
+  "citation": "Ὀρχομενὸν Χαρίτεσσιν ἀφαρέσιν ὀρχηθέντα",
+  "traduction": "Orchomène, où les Charites… ont dansé",
+  "verifie": "scan",
+  "verification": "Pollux, éd. Bethe, I, p. 229, l. 1–3 (PDF p. 253, image) ; Dindorf (1824), I, p. 207 : ὀρχούμενον Χαρίτων φάρεσιν, texte empâté",
+  "signale_par": "Poll. 4.95 (Dindorf, I, p. 207) ; passe s8 (Bethe)",
+  "pertinence": 2,
+  "remarque": "cité par Pollux pour l'étymologie d'Orchomène, « d'après la danse des Charites » ; ἀφαρέσιν, tel qu'imprimé par Bethe (sens incertain)"
+ },
+ {
+  "v": "122",
   "lemme": "Χαρίτων",
   "categorie": "prose",
   "ref": "[Plut.] Mus. 14 (1136a)",
@@ -11828,6 +12178,20 @@
   "signale_par": "LSJ s.v. διανεύω",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "122",
+  "lemme": "Χαρίτων (Charites et Muses, maîtresses du chant et de la danse)",
+  "categorie": "prose",
+  "ref": "Paus. 9.35.3",
+  "urn": "urn:cts:greekLit:tlg0525.tlg001.perseus-grc2:9.35.3",
+  "citation": "τὸν Ἀπόλλωνα ἐργασάμενοι Δηλίοις τρεῖς ἐποίησαν ἐπὶ τῇ χειρὶ αὐτοῦ Χάριτας",
+  "traduction": "ayant fait l’Apollon des Déliens, ils mirent sur sa main trois Charites",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"ἐπὶ τῇ χειρὶ αὐτοῦ Χάριτας\"' (Perseus, Paus. 9.35.3)",
+  "signale_par": "Pfeiffer, ad Callim. fr. 114",
+  "pertinence": 1,
+  "remarque": "la statue délienne d'Apollon tenant les Charites (cf. [Plut.] Mus. 14, Callim. fr. 114) ; le passage s'ouvre sur Étéocle d'Orchomène, fondateur du culte des trois Charites"
  },
  {
   "v": "122",
@@ -12072,14 +12436,14 @@
   "lemme": "Χαρίτων (Charites et Muses, maîtresses du chant et de la danse)",
   "categorie": "lexicographes",
   "ref": "Poll. 4.95",
-  "urn": "ia:iuliipollucison00dindgoog#n321",
-  "citation": "Εἰ δὲ καὶ ὄρχησις μέρος μουσικῆς … τάχα δὲ καὶ ὀρχούμενος, παρὰ τὴν τῶν Χαρίτων ὄρχησιν … εὐσχημοσύνη, εὐρυθμία, εὐαρμοστία, νεῦσαι",
-  "traduction": "si la danse aussi est une partie de la musique… peut-être aussi « dansant », d’après la danse des Charites… bonne tenue, bon rythme, bel accord, faire un signe de tête",
+  "urn": "drive:Grec/Lexiques/Pollux/Libres I - V  Bethe Pollucis Onomasticon.pdf#pdf252",
+  "citation": "Εἰ δὲ καὶ ὄρχησις μέρος μουσικῆς … τάχα δὲ καὶ Ὀρχομενὸς παρὰ τὴν τῶν Χαρίτων ὄρχησιν … εὐσχημοσύνη, εὐρυθμία, εὐαρμοστία. νεῦσαι",
+  "traduction": "si la danse aussi est une partie de la musique… peut-être aussi Orchomène, d’après la danse des Charites… bonne tenue, bon rythme, bel accord, faire un signe de tête",
   "verifie": "scan",
-  "verification": "Pollux, éd. W. Dindorf, Leipzig, 1824, t. I, p. 207, l. 25–33 (§ 95, « Περὶ ὀρχηστοῦ καὶ ὀρχήσεως » ; impression empâtée, lue à pleine résolution) (image n321, lue)",
+  "verification": "Pollux, éd. Bethe, I, p. 228, l. 26 – p. 229, l. 6 (PDF p. 252–253, image) ; Pollux, éd. W. Dindorf, Leipzig, 1824, t. I, p. 207, l. 25–33 (§ 95, « Περὶ ὀρχηστοῦ καὶ ὀρχήσεως » ; impression empâtée, lue à pleine résolution) (image n321, lue)",
   "signale_par": "passe lexicographique (corpus)",
   "pertinence": 2,
-  "remarque": "le vocabulaire de la danse réunit la danse des Charites, l’εὐρυθμία (v. 121 εὔρυθμα) et le signe de tête (νεῦσαι : v. 122 νεύματα) ; Pollux cite ensuite un vers d'Euphorion sur la danse des Charites (lecture incertaine sur le scan, non citée)"
+  "remarque": "le vocabulaire de la danse réunit la danse des Charites, l’εὐρυθμία (v. 121 εὔρυθμα) et le signe de tête (νεῦσαι : v. 122 νεύματα) ; Pollux cite ensuite un vers d'Euphorion sur la danse des Charites (lecture incertaine sur le scan, non citée) ; Dindorf (1824) imprime τάχα δὲ καὶ ὀρχούμενος ; Bethe rétablit Ὀρχομενός (étymologie par la danse des Charites, avec le vers d'Euphorion, relevé à part)"
  },
  {
   "v": "122",

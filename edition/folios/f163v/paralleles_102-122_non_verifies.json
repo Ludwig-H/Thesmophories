@@ -1,31 +1,10 @@
 [
  {
-  "v": "107",
-  "lemme": "ὄλβιζε (ὅπλιζε R)",
-  "ref": "Apostol. 16.30",
-  "source": "Tosi, Dictionnaire n° 1588",
-  "raison": "non retrouvé dans l'OCR de CPG II ; page non identifiée"
- },
- {
-  "v": "119",
-  "lemme": "Ἄρτεμιν ἀπειρολεχῆ",
-  "ref": "Sapph. fr. 44A (a) V.",
-  "source": "Prato 2001, ad 119",
-  "raison": "éd. Voigt non disponible ; texte non lu"
- },
- {
   "v": "120",
   "lemme": "Ἀσιάδος",
   "ref": "Et. Gen. AB α 1271 L.-L.",
   "source": "Fabrini, thèse, p. 163 et n. 468 ; testimonia de l'auteur",
   "raison": "éd. Lasserre–Livadaras non disponible ; TrGF V, p. 409 le donne identique à l'EM jusqu'à Ἀριστοφάνης (l'EM, lu chez Sylburg 153.31, est relevé avec son numéro α 1918 L.-L.)"
- },
- {
-  "v": "120",
-  "lemme": "Ἀσιάδος",
-  "ref": "Lex. Seg. p. 451 (Bekker, Anecd. I)",
-  "source": "Keil, app. à Σ Ap. Rhod. 2.777",
-  "raison": "page non lue (p. 452, 5 = Synag. α 2226, lue chez Cunningham)"
  },
  {
   "v": "120",
@@ -47,19 +26,5 @@
   "ref": "Ruf. Syn. Puls. 7.4",
   "source": "LSJ s.v. παράρρυθμος",
   "raison": "texte non lu"
- },
- {
-  "v": "122",
-  "lemme": "Χαρίτων (la danse des Charites)",
-  "ref": "Euphorion ap. Poll. 4.95",
-  "source": "Pollux, éd. Dindorf, I, p. 207, l. 28–29",
-  "raison": "vers d'Euphorion (ὀρχούμενον Χαρίτων φάρεσιν ?) illisible avec sûreté sur le scan empâté de Dindorf ; t. I de Bethe non disponible (OCR inutilisable)"
- },
- {
-  "v": "122",
-  "lemme": "Χαρίτων (Apollon tenant les Charites)",
-  "ref": "Callim. fr. 114 Pf. (= fr. 114.6 Harder)",
-  "source": "Dictionnaire des images poétiques, s.v. « Grâces, Charites » (A. Harder)",
-  "raison": "éditions de Pfeiffer et de Harder non disponibles ; la statue délienne est décrite par [Plut.] Mus. 14 (déjà relevé au v. 122)"
  }
 ]

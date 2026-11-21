@@ -12,12 +12,6 @@
   "motif": "signalés par Austin–Olson 2004, p. 137 (ζῶμα, ceinture, dans les inventaires de Brauron) : inscriptions non contrôlées (IG non local, PHI inaccessible)"
  },
  {
-  "v": "256",
-  "lemme": "κατάστειλον",
-  "ref": "Apollod. Com. fr. 19.2 K.-A.",
-  "motif": "signalé par Austin–Olson 2004, p. 137 (καταστέλλω « put in order ») : fragment non retrouvé dans l’OCR de Kock (Apollodore de Gela / de Carystos) ; K.-A. non local"
- },
- {
   "v": "257",
   "lemme": "κεκρυφάλου … καὶ μίτρας",
   "ref": "Posidipp. 46.3–4",
@@ -27,19 +21,7 @@
   "v": "261",
   "lemme": "φέρ᾽ ἔγκυκλον (inscriptions de Brauron)",
   "ref": "IG II² 1514, 48 ; 1516, 25 ; 1517, 154 ; 1524, 206 et 223",
-  "motif": "signalés par Perusino 2002, p. 131, n. 13 (ἔγκυκλον ποικίλον, περιποίκιλον, λευκόν) et par la note de l’auteur à 643 : inscriptions non contrôlées (PHI refuse l’accès : 403 ; IG non local)"
- },
- {
-  "v": "261",
-  "lemme": "φέρ᾽ ἔγκυκλον (Photius)",
-  "ref": "Phot. ε 63 et ε 977 Theodoridis",
-  "motif": "signalés par Perusino 2002, p. 130, n. 4 et p. 131 (ἱμάτιον περιπόρφυρον) ; le tome II de Theodoridis (ε–μ) n’est pas local ; Naber : non retrouvés dans l’OCR"
- },
- {
-  "v": "261",
-  "lemme": "φέρ᾽ ἔγκυκλον (scholie)",
-  "ref": "Σ Ar. Eccl. 536",
-  "motif": "signalé par Perusino 2002, p. 130, n. 4 (ἱμάτιον) ; non retrouvé dans l’OCR de Dübner : à voir sur le scan"
+  "motif": "signalés par Perusino 2002, p. 131, n. 13 (ἔγκυκλον ποικίλον, περιποίκιλον, λευκόν) et par la note de l’auteur à 643 : inscriptions non contrôlées (PHI refuse l’accès : 403 ; IG non local) ; IG II² 1514, 48 est cité par Theodoridis (test. à Phot. ε 977, image lue) : ἔγκυκλον ποικίλον Ἀθηναῖς ἀνέθηκεν ; l’inscription elle-même reste à contrôler"
  },
  {
   "v": "263",
@@ -52,29 +34,5 @@
   "lemme": "εἴσω … ἐσκυκλησάτω",
   "ref": "Men. Dysc. 758",
   "motif": "cité par Sommerstein 1994, p. 175 et Prato 2001, p. 210 (verbe restitué) ; Ménandre n’est pas indexé dans le corpus : non contrôlé"
- },
- {
-  "v": "265",
-  "lemme": "ἐσκυκλησάτω (eccyclème tragique)",
-  "ref": "Σ Aesch. Eum. 64 ; Σ Aesch. Cho. 973",
-  "motif": "cités par Fritzsche 1838, p. 97 (image lue : δευτέρα δὲ γίνεται φαντασία … ; ἀνοίγεται ἡ σκηνὴ καὶ ἐπὶ ἐγκυκλήματος ὁρᾶται τὰ σώματα) : scholies d’Eschyle non indexées dans le corpus, non contrôlées sur une édition"
- },
- {
-  "v": "265",
-  "lemme": "ἐσκυκλησάτω (Photius)",
-  "ref": "Phot. ε 312 ; Phot. ε 417 Theodoridis",
-  "motif": "signalés par l’apparat de Cunningham (Synag. ε 154 et ε 204) : tome II de Theodoridis non local ; non retrouvés dans l’OCR de Naber"
- },
- {
-  "v": "265",
-  "lemme": "ἐσκυκλησάτω (ἐγκύκλημα)",
-  "ref": "Eust. 976.15",
-  "motif": "cité par Fritzsche 1838, p. 95 (image lue : διαφέρει δὲ ἔγκυκλον ἐγκυκλήματος …) : Eustathe non retrouvé dans le corpus local"
- },
- {
-  "v": "267",
-  "lemme": "τῷ φθέγματι / γυναικιεῖς",
-  "ref": "Crates fr. 24 K.-A.",
-  "motif": "signalé par Austin–Olson 2004, p. 140 (contraste avec Eccl. 149 ἀνδριστὶ … ἐρεῖς : « cf. Crates fr. 24 ») : numérotation K.-A. non contrôlable ici (PCG IV non local). Kock 24 (Παιδιαί, Sud. α 1317 : τοῖς δὲ τραγῳδοῖς ἕτερος σεμνὸς πᾶσιν λόγος, ἄλλος ὅδ᾽ ἐστίν) et Kock 23 (Παιδιαί : παίξειν δ᾽ ἐν ἀνδρικοῖς χοροῖσι …) sont des candidats ; identification non établie"
  }
 ]

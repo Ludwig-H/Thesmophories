@@ -5740,6 +5740,20 @@
   "remarque": "κέκτημαι « avoir » (une qualité) ; ἀνὴρ ἔσομαι, dans une pièce de travestissement"
  },
  {
+  "v": "155–156",
+  "lemme": "ἃ δ᾽ οὐ κεκτήμεθα, / μίμησις ἤδη ταῦτα συνθηρεύεται",
+  "categorie": "comiques",
+  "ref": "Damox. fr. 2.7–8 K.-A.",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/Poetae Comici Graeci Volumen V Damoxenus - Magnes by Rudolf Kassel, Colin Austin (eds.) (z-lib.org).pdf#pdf36",
+  "citation": "(Β.) ποῖος μάγειρος; (Α.) ἡ φύσις πάσης τέχνης / ἀρχέγονόν ἐστ᾽. (Β.) ἀρχέγονον, ὠλιτήριε;",
+  "traduction": "« — Quel cuisinier ? — La nature est le principe de tout art. — Le principe, scélérat ? »",
+  "verifie": "scan",
+  "verification": "PCG V, p. 3 (Σύντροφοι, fr. 2 ; p. PDF 36, image) ; Ath. 3.102a dans le corpus",
+  "signale_par": "Tosi n° 1725 ; LSJ s.v. ἀρχέγονος",
+  "pertinence": 1,
+  "remarque": "le cuisinier-philosophe fait de la nature la source de tout art ; Agathon pose l’inverse : l’art (μίμησις) chasse ce que la nature refuse"
+ },
+ {
   "v": "155",
   "lemme": "ἃ δ᾽ οὐ κεκτήμεθα",
   "categorie": "tragiques",
@@ -5850,6 +5864,20 @@
   "signale_par": "Tosi",
   "pertinence": 1,
   "remarque": "le principe qu’Agathon tourne : la μίμησις procure ce que l’on n’a pas ; c’est Agathon lui-même qui l’énonce chez Platon (Symp. 196e)"
+ },
+ {
+  "v": "155–156",
+  "lemme": "ἃ δ᾽ οὐ κεκτήμεθα, / μίμησις ἤδη ταῦτα συνθηρεύεται",
+  "categorie": "proverbes",
+  "ref": "Tosi n° 1725",
+  "urn": "drive:Grec/Proverbes/Dictionnaire des sentences latines et grecques ROC gImagereader.pdf#pdf1257",
+  "citation": "Ars aemula naturae — L’art imite la nature … Aristote (Physica, 194a 21 …) explique la sentence ἡ τέχνη μιμεῖται τὴν φύσιν …",
+  "traduction": "",
+  "verifie": "scan",
+  "verification": "Tosi, Dictionnaire des sentences, p. 1267–1268 (p. PDF 1257–1258 de l’exemplaire océrisé, image)",
+  "signale_par": "recherche dans le corpus (Tosi, μιμεῖται τὴν φύσιν)",
+  "pertinence": 2,
+  "remarque": "la sentence (Apul. Met. 2.4 ; Arist. Ph. 194a, déjà relevé au v. 156) dont Agathon tire une poétique : la mimèsis supplée ce que la nature n’a pas donné ; Tosi cite aussi Démocrite (68 B 154 D.-K.) et Damoxène (fr. 2.7 s. K.-A., ci-dessous)"
  },
  {
   "v": "156",
@@ -6690,6 +6718,20 @@
   "signale_par": "dépouillement d’Hésychius",
   "pertinence": 1,
   "remarque": ""
+ },
+ {
+  "v": "157",
+  "lemme": "σατύρους",
+  "categorie": "lexicographes",
+  "ref": "Sud. σ 154",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1",
+  "citation": "Σάτυρος: χορευτής.",
+  "traduction": "« satyre : choreute »",
+  "verifie": "corpus",
+  "verification": "sqlite (First1K, texte d’Adler)",
+  "signale_par": "lexiques_proverbes.py",
+  "pertinence": 1,
+  "remarque": "le satyre comme choreute du drame satyrique ; même sens second que Hsch. σ 258 (σάτυρος· ἡ ἔντασις. ἢ χορευτής), déjà relevé, dont le premier sens (l’érection) prépare ἐστυκώς (v. 158)"
  },
  {
   "v": "157",
@@ -7561,6 +7603,34 @@
  },
  {
   "v": "159",
+  "lemme": "ἄλλως τ᾽",
+  "categorie": "lexicographes",
+  "ref": "Hsch. α 3192",
+  "urn": "drive:hsch:I#pdf188",
+  "citation": "ἄλλως τε· μάλιστα, καὶ κατ’ ἄλλον τρόπον",
+  "traduction": "« ἄλλως τε : surtout ; et d’une autre manière »",
+  "verifie": "corpus",
+  "verification": "gloses décodées, Latte I, p. 150 (PDF p. 188)",
+  "signale_par": "lexiques_proverbes.py",
+  "pertinence": 1,
+  "remarque": "ἄλλως τε introduit l’argument décisif (« et surtout ») ; même glose Phot. α 1005 (ἄλλως τε· μάλιστα, Theodoridis I, p. 108, image), qui renvoie aussi à Sud. α 1403"
+ },
+ {
+  "v": "159–160",
+  "lemme": "ποιητὴν … ἀγρεῖον ὄντα",
+  "categorie": "lexicographes",
+  "ref": "Hsch. κ 716",
+  "urn": "drive:hsch:II#pdf533",
+  "citation": "Καπνίας· Ἐκφαντίδης ὁ τῆς κωμῳδίας ποιητὴς Καπνίας ἐπεκαλεῖτο διὰ τὸ μηδὲν λαμπρὸν γράφειν (Τ 5 K.–A.). καὶ οἶνος δὲ καπνίας λέγεται ὁ κεκαπνισμένος. καὶ κάπνιος ἄμπελος ἡ μέλαινα (Ar. Vesp. 151)",
+  "traduction": "« Fumeux : Ecphantidès, le poète comique, était surnommé “Fumeux” parce qu’il n’écrivait rien de brillant ; on appelle aussi “fumeux” le vin fumé … »",
+  "verifie": "corpus",
+  "verification": "gloses décodées et image, Latte II, p. 521 (PDF p. 533)",
+  "signale_par": "lexiques_proverbes.py (ποιητήν : App. Prov. 3.43)",
+  "pertinence": 1,
+  "remarque": "le sobriquet du poète sans éclat, devenu proverbe : App. Prov. 3.43 (Καπνίας ποιητής: ὁ μηδὲν λαμπρὸν γράφων) et Sud. κ 345, retrouvés dans le corpus ; à l’opposé, Agathon veut que le poète brille jusque dans sa mise"
+ },
+ {
+  "v": "159",
   "lemme": "ἄμουσον",
   "categorie": "proverbes",
   "ref": "Zen. 1.79",
@@ -8006,6 +8076,20 @@
   "signale_par": "Austin–Olson 2004, ad 160 (p. 110 : « Eub. fr. 106. 2 »)",
   "pertinence": 2,
   "remarque": "énigme dont le mot est πρωκτός (v. 6 : πρωκτὸς μὲν οὖν οὗτος) : δασύς / λεῖος, le poilu et l'épilé, comme le rustre et Agathon (cf. vv. 236–242) ; numéro K.-A. 106 d'après A–O"
+ },
+ {
+  "v": "160",
+  "lemme": "ἀγρεῖον",
+  "categorie": "comiques",
+  "ref": "Com. adesp. fr. 227 Kock",
+  "urn": "drive:Grec/Poetae Comici Graeci & testimonia & fragmenta/Kock 3.pdf#pdf488",
+  "citation": "ἄγροικός εἰμι τὴν σκάφην σκάφην λέγων.",
+  "traduction": "« je suis un rustre, j’appelle une auge une auge »",
+  "verifie": "scan",
+  "verification": "Kock III, p. 451 (exemplaire local Kock 3.pdf, p. PDF 488, image) ; Luc. JTr. 32 et Hist. conscr. 41 dans le corpus",
+  "signale_par": "Luc. JTr. 32 ; OCR de Kock (non-vérifiés du 20 nov.)",
+  "pertinence": 2,
+  "remarque": "le rustre (ἄγροικος, la glose même de ἀγρεῖον au Σ Thesm. 160) qui appelle les choses par leur nom : l’opposé de l’élégance d’Agathon ; Kock rejette l’attribution à Aristophane de Tzetzès (Chil. 8.567) ; cf. Apost. 15.95b, déjà relevé"
  },
  {
   "v": "160",
@@ -8624,6 +8708,20 @@
   "remarque": "le contre-pied du dédain d’Agathon pour le poète ἀγρεῖος ; = Diogenian. 1.12, Greg. Cypr. 1.6"
  },
  {
+  "v": "160",
+  "lemme": "ἀγρεῖον",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 1205 (2.3.5)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/2 1000-2000 Les Adages by Érasme de Rotterdam (z-lib.org) (1).pdf#pdf303",
+  "citation": "Τὰ σῦκα σῦκα, τὴν σκάφην σκάφην λέγων … Quadrat in eum, qui simplici et rusticana utens veritate rem, ut est, narrat nullis verborum ambagibus ac phaleris obvolvens.",
+  "traduction": "« appelant figue une figue et auge une auge : convient à qui, usant d’une vérité simple et rustique, raconte la chose comme elle est, sans l’envelopper de détours et d’ornements »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages, dir. J.-Chr. Saladin, Paris, Les Belles Lettres, 2013, t. II, p. 147 (II iii 5 ; p. PDF 303, image)",
+  "signale_par": "recherche dans le corpus (σκάφην σκάφην)",
+  "pertinence": 1,
+  "remarque": "Érasme cite Luc. JTr. 32 (ἄγροικός εἰμι …) : la franchise rustique, sans les « phalères » des mots, contraire du style paré d’Agathon ; cf. Apost. 15.95b"
+ },
+ {
   "v": "161–162",
   "lemme": "Ἴβυκος ἐκεῖνος κἀνακρέων ὁ Τήιος",
   "categorie": "testimonium",
@@ -9014,6 +9112,34 @@
   "signale_par": "Austin–Olson 2004, ad 161 (« Ibyc. PMGF TB 1, 3, 5 ») ; recherche dans le corpus",
   "pertinence": 3,
   "remarque": "la réputation pédérastique d'Ibycos, que suppose le choix d'Agathon (cf. Cic. Tusc. 4.71) ; l'article finit sur le proverbe αἱ Ἰβύκου γέρανοι"
+ },
+ {
+  "v": "161",
+  "lemme": "Ἴβυκος ἐκεῖνος",
+  "categorie": "lexicographes",
+  "ref": "Sud. ε 428",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1",
+  "citation": "Ἐκεῖνος καὶ κεῖνος καὶ τὸ αὐτὸς ἀντὶ ὀνόματος παραλαμβάνουσιν οἱ ποιηταί. Ἀριστοφάνης Νεφέλαις· ἀλλʼ εἴσιθ’, ἵνα μὴ κεῖνος ἡμῖν ἐπιτύχῃ. … καὶ τό, αὐτὸς ἔφα, παρὰ τοῖς Πυθαγορείοις.",
+  "traduction": "« ἐκεῖνος, κεῖνος et αὐτός sont employés par les poètes au lieu d’un nom … et le “lui-même l’a dit” des pythagoriciens »",
+  "verifie": "corpus",
+  "verification": "sqlite (First1K, texte d’Adler)",
+  "signale_par": "lexiques_proverbes.py",
+  "pertinence": 1,
+  "remarque": "ἐκεῖνος tient lieu du nom d’un homme illustre (la Souda cite Ar. Nub. 195, vérifié : ἀλλʼ εἴσιθʼ, ἵνα μὴ ʼκεῖνος ὑμῖν ἐπιτύχῃ, où ἐκεῖνος est Socrate ; cf. Nub. 180, déjà relevé ; et le αὐτὸς ἔφα des pythagoriciens) : « le fameux Ibycos »"
+ },
+ {
+  "v": "161",
+  "lemme": "Ἴβυκος",
+  "categorie": "lexicographes",
+  "ref": "Hsch. ι 135",
+  "urn": "drive:hsch:II#pdf451",
+  "citation": "ἰβυκηνίσαι· ἐπευφημῆσαι, βοῆσαι",
+  "traduction": "« ἰβυκηνίσαι : pousser des cris de bon augure, crier »",
+  "verifie": "corpus",
+  "verification": "gloses décodées, Latte II, p. 439 (PDF p. 451)",
+  "signale_par": "lexiques_proverbes.py",
+  "pertinence": 1,
+  "remarque": "avec ι 134 (ἰβύκη· εὐφημία) et ι 136 (déjà relevé : ἀπὸ γὰρ τοῦ ἴβυ παρῆκται ἡ λέξις), la famille du cri ἴβυ, d’où les grammairiens tiraient le nom d’Ibycos"
  },
  {
   "v": "161",
@@ -12096,6 +12222,20 @@
   "remarque": ""
  },
  {
+  "v": "163",
+  "lemme": "Ἰωνικῶς",
+  "categorie": "proverbes",
+  "ref": "Erasm. Adag. 469 (1.5.69)",
+  "urn": "drive:Grec/Proverbes/Adages - Érasme/1 Les Adages by Érasme de Rotterdam (z-lib.org).pdf#pdf787",
+  "citation": "Γέλως Ἰωνικός, id est Risus Ionicus. In molles et voluptarios dicitur. Nam Ionum mollicies, perinde ut Sybaritarum fastus, in proverbium abiit … Unde et apud Aristophanem ἰωνικῶς pro eo, quod est ἁβρῶς, id est molliter ac delicate.",
+  "traduction": "« le rire ionien : se dit des hommes mous et voluptueux ; car la mollesse des Ioniens, comme le faste des Sybarites, est passée en proverbe … d’où aussi chez Aristophane ἰωνικῶς pour ἁβρῶς, c’est-à-dire mollement et délicatement »",
+  "verifie": "scan",
+  "verification": "Érasme, Les Adages, dir. J.-Chr. Saladin, Paris, Les Belles Lettres, 2013, t. I, p. 388 (I v 69 ; p. PDF 787, image)",
+  "signale_par": "commentaire critique de l’auteur (critique.tex, note sur ἁβρῶς : « Érasme, Adages n° 469, Risus Ionicus »)",
+  "pertinence": 3,
+  "remarque": "Érasme lit chez Aristophane Ἰωνικῶς au sens de ἁβρῶς, comme la Souda (ε 989) que l’auteur discute ; il renvoie à Athénée (l. XII, la « paroimie dorée » sur le luxe ionien ; l. XIV, la danse ionienne) et à Horace (Motus doceri gaudet Ionicos / Matura virgo : Hor. Carm. 3.6.21–22, déjà relevé) ; même proverbe que Diogenian. 3.87 et Greg. Cypr. 2.9, déjà relevés"
+ },
+ {
   "v": "164",
   "lemme": "Φρύνιχος",
   "categorie": "aristophane",
@@ -12523,11 +12663,11 @@
   "urn": "ia:adler-a.-suidae-lexicon-3-./Adler%20A.%2C%20Suidae%20Lexicon%204%20%28%CE%A0-%CE%A8%29#n782",
   "citation": "ὅτι Φρύνιχον Ἀθηναῖοι χιλίαις ἐζημίωσαν, ἅλωσιν Μιλησίων τραγῳδήσαντα.",
   "traduction": "« les Athéniens infligèrent mille [drachmes] d’amende à Phrynichos, pour avoir mis en tragédie la prise de Milet »",
-  "verifie": "corpus",
-  "verification": "Adler IV, p. 767 (n782, OCR, chercher.py)",
+  "verifie": "scan",
+  "verification": "Adler IV, p. 767, l. 1–4 (PDF .sources/web/testimonia/adler, p. 783, image ; contrôle du 21 nov. 2026)",
   "signale_par": "recherche dans le corpus",
   "pertinence": 2,
-  "remarque": "lien de Phrynichos avec l’Ionie : cf. Zen. 5.80 Μιλήσιοι"
+  "remarque": "lien de Phrynichos avec l’Ionie : cf. Zen. 5.80 Μιλήσιοι ; dans la Souda, la phrase sur l’amende clôt la notice de Phrynichos fils de Mélanthas (φ 765 : Φρύνιχος, Μελανθᾶ, Ἀθηναῖος, τραγικός … Ἀνδρομέδα, Ἠριγόνη), non celle du fils de Polyphradmon (φ 762)"
  },
  {
   "v": "164",

@@ -40,3 +40,27 @@ l'éd. de Sylburg (Leipzig 1816, col. 151–152 : la citation commence à la l. 
   καλοὺς ἐνιαυτούς. La citation mêlait Kaibel (coupe des vers) et Gulick (καὶ καλούς), et
   « corrigeait » ὧρας en ὥρας alors que les deux éditions numérisées impriment ὧρας (accent dorien).
 - Pertinence faible mais gardée : Hsch. α 1226 (ἀδωνηίς, nom de l'hirondelle) sous « χελιδών (ὄρθρος) ».
+
+### v. 2 (6 articles ; 49 parallèles + 1 témoin fusionné)
+
+Tout retrouvé. Contrôles notables : Ar. fr. 932 K.-A. (= 661 Kock) sur PCG III.2 p. 419 ; Antiph.
+fr. 222.8 et Alex. fr. 173.15, 257.4–5 Kock (Kock II p. 109, 362, 391) ; Pherecr. fr. 90 Kock (et
+Suid. π 1125) ; Soph. fr. 19 N.² (TGF² p. 135) ; Pl. *Phdr.* 230d–e, 227a, 228b, *Thg.* 124a,
+*Lg.* 722c (jalons de Stephanus) ; Babr. 98.15–16. Correction :
+
+- **Herod. 2.34** (référence) → 2.33–34 : κἠμὲ τὸν ξεῖνον finit le v. 33 (Nairn 1904, p. 20).
+
+### vv. 3–4 (7 articles ; 39 parallèles + 1 entrée reprise)
+
+Tout retrouvé. Contrôles notables : Plaute (*Amph.* 903b, *Men.* 466, *Pers.* 287, *Rud.* 424,
+*Merc.* 123b–125, *Cas.* 414–415) et Pline (*HN* 11.205, 26.83) sur les TEI latins de Perseus ;
+Plu. *Mor.* 831c, Pl. *Ti.* 72c–d, *Smp.* 215d (jalons) ; Arist. *HA* 496b16–17 (lignes de Bekker
+recoupées par LSJ s.v. φρήν, πλευρόν, τερατώδης) ; Herod. 3.70 (Nairn p. 39) ; Apostol. 8.25
+(CPG II p. 433, οἱ sic) ; Alex. fr. 99 Kock. Corrections :
+
+- **Nicopho fr. 12 Kock** (citation, référence) → fr. 12.2–4, avec la coupe des vers et la ponctuation
+  de Kock (I p. 776) : πυρετὸς εὐθέως / ἥκει τρέχων, οὐκ ἄξιος τριωβόλου· / κᾆθ᾽ οὗτος …
+- **Suid. κ 1999** (citation) : Adler imprime Κομιδῆ (III p. 150, image) ; la « correction » en
+  Κομιδῇ est retirée.
+- **Luc. *DMar.* 8.3** (référence) → 6.3 (8.3 Macleod) : 8.3 est la numérotation de Macleod ; la
+  numérotation usuelle (Jacobitz, LSJ) est 6.3.

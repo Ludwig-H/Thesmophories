@@ -50,6 +50,10 @@ def main():
     """Clés des données : (étiquette de la dernière rangée numérotée, partie) ; partie = '' ou 'a'
     pour cette rangée même, 'b', 'c', 'd'… pour les rangées suivantes non numérotées (répliques
     partagées « suite » ou côlons sans numéro), dans l'ordre. Même règle pour structure.json."""
+    inconnues = [a for a in sys.argv[1:] if a != '--essai']
+    if inconnues:
+        # garde-fou : une option inconnue (--help, -n…) ne doit jamais déclencher l'application réelle
+        sys.exit(f"option inconnue : {' '.join(inconnues)}\n{__doc__.strip().splitlines()[-1]}")
     essai = '--essai' in sys.argv
     M = lire_metrique()
     S = json.load(open(STRUCT, encoding='utf-8')) if os.path.exists(STRUCT) else []

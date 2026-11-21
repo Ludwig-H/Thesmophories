@@ -1501,15 +1501,15 @@
   "v": "83",
   "lemme": "τήμερον",
   "categorie": "lexicographes",
-  "ref": "Moer. p. 210.16 Bekker",
+  "ref": "Moer. τ 6 Hansen",
   "urn": "ia:harpocrationetm00bekkgoog#n218",
-  "citation": "τήμερον Ἀττικοί, σήμερον Ἕλληνες",
+  "citation": "τήμερον Ἀττικοί· σήμερον Ἕλληνες",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Bekker, Harpocration et Moeris (Berlin 1833), p. 210, l. 16 (.sources/web/lexiques/moeris_ocr/n218.jpg, image) ; numérotation de Hansen non contrôlée",
+  "verification": "Hansen 1998, p. 144, τ 6 (PDF du Drive « … Das Attizistische Lexikon des Moeris … ROC », idx 320, image lue le 21 nov.) ; Bekker, Harpocration et Moeris (Berlin 1833), p. 210, l. 16 (.sources/web/lexiques/moeris_ocr/n218.jpg, image)",
   "signale_par": "recherche directe (lexiques attiques)",
   "pertinence": 3,
-  "remarque": "Juste au-dessus (ll. 14–15) : τήμερον εἶναι Ἀττικοί, avec Nub. 1510 (κεχόρευται γ' μετρίως ἡμῖν τὸ τήμερον εἶναι)."
+  "remarque": "Chez Bekker (p. 210, ll. 14–15), juste au-dessus : τήμερον εἶναι Ἀττικοί, avec Nub. 1510 (κεχόρευται γ᾽ μετρίως ἡμῖν τὸ τήμερον εἶναι)."
  },
  {
   "v": "83",
@@ -4020,16 +4020,58 @@
  {
   "v": "87",
   "lemme": "μηχανήν",
+  "categorie": "prose",
+  "ref": "Luc. Philops. 29",
+  "urn": "urn:cts:greekLit:tlg0062.tlg031.perseus-grc2:29",
+  "citation": "καὶ τὸ τοῦ λόγου, θεὸν ἀπὸ μηχανῆς ἐπεισκυκληθῆναί μοι τοῦτον ᾤμην ὑπὸ τῆς Τύχης",
+  "traduction": "« et, comme dit le proverbe, je crus que la Fortune me l'amenait, roulé sur la scène, comme un dieu de la machine »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'θεον απο μηχανης επεισκυκληθηναι' (Perseus 29)",
+  "signale_par": "Bethe, Poll. 4.128 (testimonia : Σ Luc. Philops. 29) ; Fritzsche 1838 p. 97",
+  "pertinence": 2,
+  "remarque": "τὸ τοῦ λόγου : le deus ex machina devenu proverbe ; l'image réunit la μηχανή (v. 87) et l'eccyclème (ἐπεισκυκληθῆναι, cf. v. 96)."
+ },
+ {
+  "v": "87",
+  "lemme": "μηχανήν",
+  "categorie": "prose",
+  "ref": "Luc. Hermot. 86",
+  "urn": "urn:cts:greekLit:tlg0062.tlg063.perseus-grc3:86",
+  "citation": "ἀνέσπασας ἐπιστάς, τὸ τῶν τραγῳδῶν τοῦτο, θεὸς ἐκ μηχανῆς ἐπιφανείς",
+  "traduction": "« tu m'as tiré de là en survenant, comme dans les tragédies, dieu apparu de la machine »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"θεος εκ μηχανης επιφανεις\"' (Perseus 86)",
+  "signale_par": "Bethe, Poll. 4.128 (testimonia : Σ Luc. Hermot. 86) ; Érasme, Adag. 1.1.68",
+  "pertinence": 2,
+  "remarque": "Même formule que le proverbe Ἀπὸ μηχανῆς θεὸς ἐπιφανείς (Diogen. 2.84 ; Érasme 1.1.68), rapportée expressément aux tragiques."
+ },
+ {
+  "v": "87",
+  "lemme": "μηχανήν",
+  "categorie": "prose",
+  "ref": "Luc. Merc. cond. 1",
+  "urn": "urn:cts:greekLit:tlg0062.tlg033.perseus-grc2:1",
+  "citation": "ἤ τιν᾽ ἄλλον ἐκ μηχανῆς θεὸν ἐπὶ τῷ καρχησίῳ καθεζόμενον",
+  "traduction": "« ou quelque autre dieu de la machine assis en haut du mât »",
+  "verifie": "corpus",
+  "verification": "chercher.py '\"εκ μηχανης θεον επι τω καρχησιω\"' (Perseus 1)",
+  "signale_par": "recherche directe (chercher.py 'μηχανης' -a Luc)",
+  "pertinence": 1,
+  "remarque": "Récits de naufragés, « tragédie » (τῆς τοιαύτης τραγῳδίας) terminée par un dieu de la machine."
+ },
+ {
+  "v": "87",
+  "lemme": "μηχανήν",
   "categorie": "lexicographes",
   "ref": "Poll. 4.128–129",
   "urn": "ia:iuliipollucison00dindgoog#n330",
-  "citation": "ἡ μηχανὴ δὲ θεοὺς δείκνυσι, καὶ ἥρωας τοὺς ἐν ἀέρι, Βελλεροφόντας, ἢ Περσέας· καὶ κεῖται κατὰ τὴν ἀριστερὰν πάροδον, ὑπὲρ τὴν σκηνὴν τὸ ὕψος",
+  "citation": "ἡ μηχανὴ δὲ θεοὺς δείκνυσι καὶ ἥρως τοὺς ἐν ἀέρι Βελλεροφόντας ἢ Περσέας, [καὶ κεῖται κατὰ τὴν ἀριστερὰν πάροδον, ὑπὲρ τὴν σκηνὴν τὸ ὕψος]. ὃ δ᾽ ἐστὶν ἐν τραγῳδίᾳ μηχανή, [τοῦτο] [καλοῦσιν] ἐν κωμῳδίᾳ κράδην",
   "traduction": "« la machine montre les dieux et les héros dans les airs, Bellérophons ou Persées ; elle se trouve du côté de la parodos gauche, en hauteur au-dessus de la skènè »",
   "verifie": "scan",
-  "verification": "Dindorf 1824, IV 128 (archive.org iuliipollucison00dindgoog n330, image) ; Gaisford, Paroem. p. 59–60 (Schott, citant Poll.)",
+  "verification": "Bethe I, p. 239, ll. 17–20 (PDF du Drive « Libres I - V Bethe Pollucis Onomasticon », idx 262, image lue le 21 nov. ; crochets de Bethe : mots propres à une partie des manuscrits) ; Dindorf 1824, IV 128 (archive.org iuliipollucison00dindgoog n330, image) ; Gaisford, Paroem. p. 59–60 (Schott, citant Poll.)",
   "signale_par": "recherche directe ; Blaydes 1880, p. 141 (ad 96)",
   "pertinence": 3,
-  "remarque": "Suite, § 129 : ce qu'est la μηχανή en tragédie, la κράδη l'est en comédie."
+  "remarque": "Ce qu'est la μηχανή en tragédie, la κράδη l'est en comédie. Testimonia de Bethe ad l. 17 : Pl. Cra. 425d, Clit. 407b, AB 208.9, Sud. s.v. ἀπὸ μηχανῆς, Σ Luc. Philops. 29 et Hermot. 86 ; ad l. 20 (κράδη) : Zenob. Ath. 3.156 = Plut. Prov. Alex. 2.16 (κράδης ῥαγείσης)."
  },
  {
   "v": "87",
@@ -4492,6 +4534,20 @@
   "signale_par": "recherche directe (chercher.py '\"confugitis ad deum\"')",
   "pertinence": 2,
   "remarque": "Érasme y joint Cic. ND 1.53 (ut tragici poetae, cum explicare argumenti exitum non potestis, confugitis ad deum), Pl. Cra. 425d, Plut. Lys. 25.1 et Arist. Metaph. 985a18 ; cf. Diogen. 2.84 et Tosi n° 1203."
+ },
+ {
+  "v": "87",
+  "lemme": "μηχανήν",
+  "categorie": "proverbes",
+  "ref": "Plut. Prov. Alex. 2.16",
+  "urn": "urn:cts:greekLit:tlg0007.tlg146.1st1K-grc1:2.16",
+  "citation": "Κράδης ῥαγείσης: κράδη νῦν οὐχ ὁ σύκινος κλάδος, ἀλλ᾽ ἡ ἀγκυρὶς, ἀφ᾽ ἧς οἱ ὑποκριταὶ ἐν ταῖς τραγικαῖς σκηναῖς ἐξαρτῶνται, θεοῦ μιμούμενοι ἐπιφάνειαν, ζωστῆρσι καὶ ταινίαις κατειλημμένοι. ἐπὶ τῶν προσφανέντων αἰφνιδίως καὶ ἀσχημονούντων",
+  "traduction": "« la κράδη s'étant rompue : la κράδη n'est pas ici la branche de figuier, mais le crochet auquel les acteurs, dans les scènes tragiques, sont suspendus pour figurer l'apparition d'un dieu, sanglés de ceintures et de bandes ; se dit de ceux qui se montrent soudain et se couvrent de ridicule »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'κραδης ραγεισης' (First1KGreek 2.16 ; CPG I p. 338 ; Miller, Mélanges p. 375 : Zenob. Ath. 3.156 = Plut. 2.16)",
+  "signale_par": "Bethe, Poll. 4.129 (testimonia ad κράδη)",
+  "pertinence": 2,
+  "remarque": "Proverbe né de la machinerie tragique : la κράδη, nom comique de la μηχανή (Poll. 4.129 ; Ar. fr. 192 K.-A.)."
  },
  {
   "v": "88",
@@ -6851,10 +6907,10 @@
   "categorie": "lexicographes",
   "ref": "Poll. 4.115",
   "urn": "ia:iuliipollucison00dindgoog#n327",
-  "citation": "Καὶ σκευὴ μὲν ἡ τῶν ὑποκριτῶν, στολή. ἡ δ' αὐτὴ καὶ σωμάτιον ἐκαλεῖτο",
+  "citation": "καὶ σκευὴ μὲν ἡ τῶν ὑποκριτῶν στολή — ἡ δ᾽ αὐτὴ καὶ σωμάτιον ἐκαλεῖτο",
   "traduction": "« l'équipement des acteurs, le costume, s'appelait aussi sômation »",
   "verifie": "scan",
-  "verification": "Dindorf 1824, IV 115 (archive.org iuliipollucison00dindgoog n327, image)",
+  "verification": "Bethe I, p. 235, ll. 1–2 (PDF du Drive « Libres I - V Bethe Pollucis Onomasticon », idx 258, image lue le 21 nov.) ; Dindorf 1824, IV 115 (archive.org iuliipollucison00dindgoog n327, image)",
   "signale_par": "recherche directe (chercher.py 'στολη' -a Poll)",
   "pertinence": 2,
   "remarque": "στολή, terme de scène : le mot même du v. 92 évoque l'acteur."
@@ -7040,6 +7096,20 @@
   "signale_par": "dépouillement d'Hésychius (στολ-)",
   "pertinence": 1,
   "remarque": "L'éd. renvoie à Eur. Andr. 148."
+ },
+ {
+  "v": "92",
+  "lemme": "στολὴν γυναικός",
+  "categorie": "lexicographes",
+  "ref": "Poll. 4.117–118",
+  "urn": "",
+  "citation": "ὁ δὲ κροκωτὸς ἱμάτιον· Διόνυσος δ᾽ αὐτῷ ἐχρῆτο [καὶ μασχαλιστῆρι ἀνθινῷ καὶ θύρσῳ] … γυναικείας δὲ συρτὸς [πορφυροῦς, παράπηχυ λευκὸν τῆς βασιλευούσης]",
+  "traduction": "« le κροκωτός est un manteau ; Dionysos le portait, avec une ceinture fleurie et le thyrse … (vêtement) de femme : la robe traînante, pourpre ; pour la reine, à bande blanche »",
+  "verifie": "scan",
+  "verification": "Bethe I, p. 235, ll. 12–14 et 19–20 (PDF du Drive « Libres I - V Bethe Pollucis Onomasticon », idx 258, image)",
+  "signale_par": "lecture de Poll. 4.115 sur Bethe (même page)",
+  "pertinence": 1,
+  "remarque": "Le vestiaire tragique : la robe de femme (συρτός) et le κροκωτός dionysiaque, que le Parent revêtira (vv. 138, 253)."
  },
  {
   "v": "92",
@@ -7674,6 +7744,20 @@
  {
   "v": "93",
   "lemme": "κομψόν",
+  "categorie": "prose",
+  "ref": "Pl. Resp. 408b",
+  "urn": "urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:3.408",
+  "citation": "πάνυ κομψούς, ἔφη, λέγεις Ἀσκληπιοῦ παῖδας ; cf. 405d (ἀναγκάζειν τοὺς κομψοὺς Ἀσκληπιάδας)",
+  "traduction": "« ce sont de fins esprits, dit-il, que les fils d'Asclépios dont tu parles »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'κομψ*' -a Pl -o Resp (Perseus 3.405 et 3.408 ; jalons 405d et 408b du TEI)",
+  "signale_par": "Moer. κ 2 Hansen (« Πολιτείας γ´ (408 b) »)",
+  "pertinence": 1,
+  "remarque": "L'emploi platonicien que Moeris tient pour laudatif ; en 405d, κομψούς est ironique."
+ },
+ {
+  "v": "93",
+  "lemme": "κομψόν",
   "categorie": "scholies",
   "ref": "Σ Ar. Thesm. 93",
   "urn": "ia:scholiagraecain00unkngoog#n343",
@@ -7843,15 +7927,15 @@
   "v": "93",
   "lemme": "κομψόν",
   "categorie": "lexicographes",
-  "ref": "Moer. p. 200.8–9 Bekker",
+  "ref": "Moer. κ 2 Hansen",
   "urn": "",
-  "citation": "κομψοὺς Πλάτων οὐ τοὺς πανούργους ἀλλὰ τοὺς βελτίστους· κομψοὺς γὰρ τοὺς Ἀσκληπιάδας ἐπαινῶν λέγει Πολιτείας γ΄",
+  "citation": "κομψοὺς Πλάτων οὐ τοὺς πανούργους ἀλλὰ τοὺς βελτίστους· ἐπαινῶν γὰρ τοὺς Ἀσκληπιάδας κομψοὺς λέγει Πολιτείας γ´ (408 b)",
   "traduction": "",
   "verifie": "scan",
-  "verification": "Bekker, Moeris 1833, p. 200, ll. 8–9 (image .sources/web/lexiques/moeris_ocr/n208.jpg ; abréviations développées)",
+  "verification": "Hansen 1998, p. 111, κ 2 (PDF du Drive « … Das Attizistische Lexikon des Moeris … ROC », idx 287, image lue le 21 nov.) ; Bekker, Moeris 1833, p. 200, ll. 8–9 (image .sources/web/lexiques/moeris_ocr/n208.jpg ; ordre des mots différent : κομψοὺς γὰρ τοὺς Ἀσκληπιάδας ἐπαινῶν λέγει)",
   "signale_par": "recherche directe (lexiques attiques)",
   "pertinence": 3,
-  "remarque": "Moeris sent le besoin de préciser : chez Platon κομψός n'est pas « fourbe », ce qu'il est donc d'ordinaire ; numéro de Hansen non contrôlé."
+  "remarque": "Moeris sent le besoin de préciser : chez Platon κομψός n'est pas « fourbe », ce qu'il est donc d'ordinaire (cf. κ 56 κομψεία = πανουργία). Pl. Resp. 408b πάνυ κομψούς … λέγεις Ἀσκληπιοῦ παῖδας ; cf. 405d."
  },
  {
   "v": "93",
@@ -8034,6 +8118,20 @@
   "signale_par": "recherche directe (κομψ* dans les papyrus) ; apparat de Hsch. α 2475",
   "pertinence": 2,
   "remarque": "Glossaire de prose attique sur papyrus (IIe s. ap. J.-C.) : l'équivalence κομψός = πανοῦργος, celle de la scholie du v. 93, est ancienne."
+ },
+ {
+  "v": "93",
+  "lemme": "κομψόν",
+  "categorie": "lexicographes",
+  "ref": "Moer. κ 56 Hansen",
+  "urn": "",
+  "citation": "κομψεία Ἀττικοί· πανουργία Ἕλληνες",
+  "traduction": "« κομψεία chez les Attiques ; πανουργία (rouerie) dans la langue commune »",
+  "verifie": "scan",
+  "verification": "Hansen 1998, p. 117, κ 56 (PDF du Drive « … Das Attizistische Lexikon des Moeris … ROC », idx 293, image)",
+  "signale_par": "balayage des lexiques nouvellement indexés (chercher.py 'κομψ*' -a Moer)",
+  "pertinence": 2,
+  "remarque": "Le mot attique pour la rouerie : le κομψόν du Parent (« ingénieux », mais aussi « roué », ἐκ τοῦ σοῦ τρόπου). Cf. Hsch. κ 3482 (κομψεία· ποικίλη λαλιά, καὶ πανουργία), Synag. κ 400, AB 273.12."
  },
  {
   "v": "93",
@@ -10208,6 +10306,20 @@
  {
   "v": "96",
   "lemme": "οὑκκυκλούμενος",
+  "categorie": "prose",
+  "ref": "Luc. Philops. 29",
+  "urn": "urn:cts:greekLit:tlg0062.tlg031.perseus-grc2:29",
+  "citation": "θεὸν ἀπὸ μηχανῆς ἐπεισκυκληθῆναί μοι τοῦτον ᾤμην ὑπὸ τῆς Τύχης",
+  "traduction": "« je crus que la Fortune me l'amenait, roulé sur la scène, comme un dieu de la machine »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'θεον απο μηχανης επεισκυκληθηναι' (Perseus 29)",
+  "signale_par": "Fritzsche 1838 p. 97 ; Bethe, Poll. 4.128 (testimonia)",
+  "pertinence": 1,
+  "remarque": "ἐπεισκυκλέω : le personnage amené sur l'eccyclème ; cf. Thesm. 265 ἐσκυκλησάτω. Voir v. 87."
+ },
+ {
+  "v": "96",
+  "lemme": "οὑκκυκλούμενος",
   "categorie": "scholies",
   "ref": "Σ Ar. Thesm. 96",
   "urn": "ia:scholiagraecain00unkngoog#n343",
@@ -10309,13 +10421,13 @@
   "categorie": "lexicographes",
   "ref": "Poll. 4.128",
   "urn": "ia:iuliipollucison00dindgoog#n330",
-  "citation": "καὶ τὸ μὲν ἐκκύκλημα, ἐπὶ ξύλων ὑψηλὸν βάθρον, ᾧ ἐπίκειται θρόνος. δείκνυσι δὲ καὶ τὰ ὑπὸ τὴν σκηνὴν ἐν ταῖς οἰκίαις ἀπόρρητα πραχθέντα",
+  "citation": "[καὶ] τὸ μὲν ἐκκύκλημα ἐπὶ ξύλων [ὑψηλὸν] βάθρον, ᾧ ἐπίκειται θρόνος· δείκνυσι δὲ τὰ ὑπὸ σκηνὴν ἐν ταῖς οἰκίαις ἀπόρρητα πραχθέντα. καὶ τὸ ῥῆμα τοῦ ἔργου καλεῖται ἐκκυκλεῖν",
   "traduction": "« l'eccyclème, estrade haute sur bois, surmontée d'un siège ; il montre aussi ce qui s'est fait de secret dans les maisons, derrière la scène »",
   "verifie": "scan",
-  "verification": "Dindorf 1824, IV 128 (archive.org iuliipollucison00dindgoog n330, image, relue) ; § 127 énumère ἐκκύκλημα, μηχανή, ἐξώστρα",
+  "verification": "Bethe I, p. 239, ll. 12–15 (PDF du Drive « Libres I - V Bethe Pollucis Onomasticon », idx 262, image lue le 21 nov.) ; Dindorf 1824, IV 128 (archive.org iuliipollucison00dindgoog n330, image) ; § 127 énumère ἐκκύκλημα, μηχανή, ἐξώστρα",
   "signale_par": "Blaydes 1880, p. 141 (qui corrige le texte vulgaire) ; LSJ s.v. ἐκκύκλημα",
   "pertinence": 3,
-  "remarque": "Le θρόνος : Agathon assis ou couché. Suite : καὶ τὸ ῥῆμα τοῦ ἔργου καλεῖται ἐγκυκλεῖν (Dindorf), ἐφ' οὗ δὲ εἰσάγεται τὸ ἐγκύκλημα, εἰσκύκλημα ὀνομάζεται ; cf. Thesm. 265 ἐσκυκλησάτω. § 129 : τὴν δὲ ἐξώστραν ταὐτὸν τῷ ἐγκυκλήματι νομίζουσιν."
+  "remarque": "Le θρόνος : Agathon assis ou couché. Suite (Bethe) : ἐφ᾽ οὗ δ᾽ εἰσάγεται τὸ ἐκκύκλημα, [εἰσκύκλημα] ὀνομάζεται (Dindorf : ἐγκυκλεῖν, ἐγκύκλημα) ; cf. Thesm. 265 ἐσκυκλησάτω. Testimonia de Bethe : Eust. 976.15 ; Σ Ach. 407 (Sud.) ; Ach. 408 sq. § 129 : la ἐξώστρα tenue pour identique à l'ἐκκύκλημα."
  },
  {
   "v": "96",

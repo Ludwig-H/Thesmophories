@@ -3752,6 +3752,20 @@
   "remarque": "d’après Σ Pax 97"
  },
  {
+  "v": "post 276",
+  "lemme": "παρεπιγραφή (Σ)",
+  "categorie": "lexicographes",
+  "ref": "Sud. δ 804",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:2.Δ.804",
+  "citation": "Διαύλειον προσαυλεῖ τις: τοῦτο παρεπιγραφή. φασὶ δὲ διαύλειον λέγεσθαι, ὅταν ἡσυχίας πάντων γινομένης, ἔνδον ὁ αὐλητὴς ᾄσῃ. Ἀριστοφάνης Βατράχοις.",
+  "traduction": "« quelqu’un joue un interlude de flûte : c’est une parépigraphe »",
+  "verifie": "corpus",
+  "verification": "chercher.py 'παρεπιγραφ*' (Sud. δ 804 ; Adler II, p. 75)",
+  "signale_par": "lexiques_proverbes.py (passe 7)",
+  "pertinence": 2,
+  "remarque": "la notion même qu’emploie Σ Thesm. 277 pour l’indication ὀλολύζουσι, appliquée à une autre indication scénique d’Aristophane (Ran. 1263) ; cf. Sud. ε 2807 : παρεπιγραφὴ δὲ λέγεται τὰ τοιαῦτα (cris notés dans le texte), et Σ Eq. 157 (Dübner, p. 38) : παρεπιγραφὴ δὲ καλεῖται τὰ τοιαῦτα πάντα"
+ },
+ {
   "v": "277–278",
   "lemme": "τὸ τῆς ἐκκλησίας σημεῖον",
   "categorie": "testimonium",
@@ -6368,6 +6382,20 @@
   "signale_par": "commentaire de l’auteur (Photius, Bibliothèque 320b)",
   "pertinence": 3,
   "remarque": ""
+ },
+ {
+  "v": "282",
+  "lemme": "περικαλλεῖ Θεσμοφόρω",
+  "categorie": "testimonium",
+  "ref": "Phot. α 1386 (Ael. Dion. α 113 Erbse)",
+  "urn": "drive:Grec/Lexiques/Photius/Theodoridis I#pdf226",
+  "citation": "ἀμφορῆ· τὸ δυϊκὸν συναλείφοντες οἱ Ἀττικοὶ λέγουσιν ἀντὶ τοῦ ἀμφορέε καὶ τὰ ἄλλα ὁμοίως. Ἀριστοφάνης Θεσμοφοριαζούσαις· „ἀλλ’, ὦ περικαλλῆ Θεσμοφόρω, δέξασθέ με“.",
+  "traduction": "« ἀμφορῆ : les Attiques disent le duel en contractant, au lieu de ἀμφορέε, et de même pour les autres ; Aristophane, dans les Thesmophories : “Mais, ô Thesmophores très belles, accueillez-moi” »",
+  "verifie": "scan",
+  "verification": "Theodoridis I, p. 144 (image lue)",
+  "signale_par": "testimonia de l’auteur (« Photius α 1386 ; Aelius Dionysius α 113 ») ; lexiques_proverbes.py (passe 7)",
+  "pertinence": 3,
+  "remarque": "Photius cite le vers avec περικαλλῆ, comme R (περὶ καλλῆ), contre περικαλλεῖ (Kaibel, Hall–Geldart, Prato, Wilson) et Σ (τὸ ἐντελὲς περικαλλέε) : le duel contracte attique en -ῆ, pour lequel la glose allègue aussi Platon le comique (Μέτοικοι : τὼ μιλτηλιφῆ ; Ζεὺς κακούμενος : τὼ προσεμφερῆ) et Téléclidès (Ἡσίοδοι) ; les mots ἀλλ᾽ … καὶ οἱ λοιποί ne sont que dans b et Sᶻ (app. de Theodoridis), Sᶻ ayant περικαλλη et δέξασθαί με (cf. R^a.c. et la Juntine) ; attribution à Aelius Dionysius par Reitzenstein (Theodoridis, test.) ; même doctrine chez Jean d’Alexandrie, Τον. παραγγ. 14, 22 (τὰ δύο εε εἰς η συναιροῦσιν Ἀθηναῖοι), d’après Theodoridis"
  },
  {
   "v": "282",
@@ -9213,6 +9241,34 @@
  },
  {
   "v": "289",
+  "lemme": "χοῖρον (R)",
+  "categorie": "aristophane",
+  "ref": "Ar. Ach. 781–782",
+  "urn": "urn:cts:greekLit:tlg0019.tlg001.perseus-grc2:781",
+  "citation": "αὕτα ʼστὶ χοῖρος; | νῦν γε χοῖρος φαίνεται. / ἀτὰρ ἐκτραφείς γε κύσθος ἔσται.",
+  "traduction": "« C’est un cochon, ça ? — Pour l’instant, ça a l’air d’un cochon ; une fois grandi, ce sera un con »",
+  "verifie": "corpus",
+  "verification": "p.py Ar. Ach. 781–782",
+  "signale_par": "Henderson 1991, p. 131–132 (§ 110–111)",
+  "pertinence": 2,
+  "remarque": "le lieu classique du double sens de χοῖρος (sexe de la fillette), dans la scène du Mégarien (cf. Ach. 777, ci-dessus) : dossier de la lecture obscène que l’auteur combat"
+ },
+ {
+  "v": "289",
+  "lemme": "χοῖρον (R)",
+  "categorie": "aristophane",
+  "ref": "Ar. Plut. 307–308",
+  "urn": "urn:cts:greekLit:tlg0019.tlg011.perseus-grc2:307",
+  "citation": "ὑμεῖς δὲ γρυλίζοντες ὑπὸ φιληδίας / ἕπεσθε μητρὶ χοῖροι.",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "p.py Ar. Plut. 307–308",
+  "signale_par": "Henderson 1991, p. 131–132 (§ 110–111)",
+  "pertinence": 1,
+  "remarque": "Henderson rapproche ce vers du nôtre (χοῖρος « fillette » dans des plaisanteries obscènes sur les porcelets qui suivent leur mère) ; mais Σ Plut. 308 y voit un proverbe ἐπὶ τῶν ἀπαιδεύτων (v. 273)"
+ },
+ {
+  "v": "289",
   "lemme": "τὴν θυγατέρα Χοιρίλ᾽",
   "categorie": "comiques",
   "ref": "Telecl. fr. ap. Vit. Eur. 1",
@@ -9462,6 +9518,20 @@
   "signale_par": "dépouillement d’Hésychius",
   "pertinence": 2,
   "remarque": "le double sens de χοῖρος porté par un composé comique (sigle D en marge)"
+ },
+ {
+  "v": "289",
+  "lemme": "Χοιρίλ᾽",
+  "categorie": "lexicographes",
+  "ref": "Sud. χ 593",
+  "urn": "drive:Grec/Lexiques/Souda/04 Pi - Psi (Adler IV)#pdf850",
+  "citation": "Χοιρίλη· ἡ Ἑκάβη.",
+  "traduction": "« Choirilè : Hécube »",
+  "verifie": "scan",
+  "verification": "Adler IV, p. 834, l. 20 (PDF du Drive, image lue)",
+  "signale_par": "lexiques_proverbes.py (passe 7)",
+  "pertinence": 2,
+  "remarque": "le nom donné à Hécube, que Philochore expliquait par la fécondité de la truie (Σ Eur. Hec. 3, ci-dessus) ; app. d’Adler : = Ps.-Herodian. 153, cf. Ambr. 305, sch. Eur. Hec. 3"
  },
  {
   "v": "289",
@@ -10095,6 +10165,20 @@
  },
  {
   "v": "290",
+  "lemme": "κἀβελτέρου",
+  "categorie": "lexicographes",
+  "ref": "Sud. μ 1344",
+  "urn": "urn:cts:greekLit:tlg9010.tlg001.1st1K-grc1:3.Μ.1344",
+  "citation": "Μωροὶ καὶ ἀβέλτεροι καὶ κεχηνότες Μαμμάκυθος: Μελιτίδης, Βουταλίων, Κόροιβος.",
+  "traduction": "",
+  "verifie": "corpus",
+  "verification": "chercher.py 'ἀβέλτερ*' -a Sud (Sud. μ 1344 ; Adler III, p. 420)",
+  "signale_par": "lexiques_proverbes.py (passe 7)",
+  "pertinence": 2,
+  "remarque": "ἀβέλτεροι dans la liste des sots de comédie (cf. Ran. 989–991, Sud. β 468, ci-dessus) : le gendre souhaité par Mnésiloque appartient à cette galerie"
+ },
+ {
+  "v": "290",
   "lemme": "πλουτοῦντος … ἠλιθίου",
   "categorie": "proverbes",
   "ref": "Diog. Laert. 6.47",
@@ -10175,7 +10259,7 @@
   "verification": "chercher.py 'Μελιτίδ*' (Diogenian. 5.12)",
   "signale_par": "recherche dans le corpus (parémiographes)",
   "pertinence": 2,
-  "remarque": "la série des sots proverbiaux"
+  "remarque": "la série des sots proverbiaux ; idem Zen. 4.21 (Ἡλιθιώτερος τοῦ Πραξίλλης Ἀδώνιδος, d’après Polémon) et Greg. Cypr. 2.63 (Ἠλιθιώτερος Ἀδώνιδος τοῦ Πραξιτέλους)"
  },
  {
   "v": "290",
@@ -10190,6 +10274,20 @@
   "signale_par": "recherche dans le corpus (Μελιτίδης)",
   "pertinence": 3,
   "remarque": "le sot de comédie dans le rôle du mari : le gendre que Mnésiloque souhaite à sa fille (Σ : ἵνα κρατῇ αὐτοῦ)"
+ },
+ {
+  "v": "290",
+  "lemme": "ἠλιθίου κἀβελτέρου (sots proverbiaux)",
+  "categorie": "proverbes",
+  "ref": "App. Prov. 3.10",
+  "urn": "urn:cts:greekLit:tlg9007.tlg001.1st1K-grc1:3.10",
+  "citation": "Ἡλιθιώτερος Λευκολόφου: οὗτος ἀποδόμενος τὴν οἰκίαν, ἀντεποιεῖτο τοῦ φρέατος.",
+  "traduction": "« plus sot que Leucolophos : ayant vendu sa maison, il réclamait le puits »",
+  "verifie": "corpus",
+  "verification": "p.py App. Prov. 3.10",
+  "signale_par": "lexiques_proverbes.py (passe 7)",
+  "pertinence": 1,
+  "remarque": "un sot proverbial de plus, ἠλίθιος au comparatif, en affaire d’argent"
  },
  {
   "v": "291",

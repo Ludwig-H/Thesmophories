@@ -10503,15 +10503,15 @@
   "v": "335–337",
   "lemme": "εἴ τις ἐπιβουλεύει … ἢ ᾿πικηρυκεύεται",
   "categorie": "prose",
-  "ref": "Syll.² 95, 4–16 (Mylasa, 367/6)",
+  "ref": "Syll.² 95, 4–16 (= SIG³ 167) (Mylasa, 367/6)",
   "urn": "ia:syllogeinscripti01ditt#n170",
   "citation": "ἐπειδὴ Ἄρλισσις Θυσσώλλου ἀποσταλεὶς ὑπὸ Καρῶν πρὸς βασιλέα παρεπρέσβευσεν καὶ ἐπεβούλευσε Μαυσσώλλωι … καὶ πρόσθετα ποιήσαντες Μαυσσώλλωι, ἐπαρὰς ἐποιήσαντο περὶ τούτων … εἰ δέ τις ταῦτα παραβαίνοι, ἐξώλη γίνεσθαι καὶ αὐτὸν καὶ τοὺς ἐκείνου πάντας",
   "traduction": "attendu qu’Arlissis fils de Thyssôllos, envoyé par les Cariens auprès du Roi, a trahi son ambassade et comploté contre Mausole …, ils ont prononcé des imprécations … : si quelqu’un enfreint ces dispositions, qu’il périsse, lui et tous les siens",
   "verifie": "scan",
-  "verification": "Dittenberger, Syll.² I (1898), p. 157, n° 95, l. 4–16 (image : ia:syllogeinscripti01ditt, n170)",
+  "verification": "Dittenberger, Syll.² I (1898), p. 157, n° 95, l. 4–16 (image : ia:syllogeinscripti01ditt, n170) ; concordance SIG³ 167 = I.Mylasa 1 (Αρλισσις Ουσσωλλου (or Θυσσωλλου) in Syll.³ 167 (= I. Mylasa 1) l. 4, 367-366 B.C.) : SEG 36, 982, p. 291 (Drive : Inscriptiones Graecae/SEG 36.pdf, page PDF 319, image lue)",
   "signale_par": "Austin–Olson 2004, n. aux vv. 335–9 (« SIG³ 167. 15 εἰ δέ τις ταῦτα παραβαίνοι, ἐξώλη γίνεσθαι »)",
   "pertinence": 3,
-  "remarque": "décret de Mylasa (Mausole) : complot, ambassade auprès du Roi et imprécation conditionnelle (εἰ δέ τις … ἐξώλη), soit les vv. 335–337 et 349–350 ; numéro SIG³ 167 d’après Austin–Olson (non contrôlé sur SIG³)"
+  "remarque": "décret de Mylasa (Mausole) : complot, ambassade auprès du Roi et imprécation conditionnelle (εἰ δέ τις … ἐξώλη), soit les vv. 335–337 et 349–350 ; SIG³ 167 (= I.Mylasa 1) est bien le décret d’Arlissis, fils de Thyssôllos (SEG 36, 982 : texte de SIG³ non lu)"
  },
  {
   "v": "335",
@@ -10984,10 +10984,10 @@
   "citation": "ἐπικηρυκεύεται· διὰ κήρυκός τινος συνθήκας τινὰς ἢ πρεσβείας ποιεῖται",
   "traduction": "« il négocie par héraut » : il conclut par l’intermédiaire d’un héraut des accords ou des ambassades",
   "verifie": "scan",
-  "verification": "Cunningham, Synagoge (2003), p. 223, n° 682, avec renvois et apparat (image : Synagoge.pdf, p. 229) ; Sud. ε 2375 (corpus) ; EM 360.21 (image : ia:etymologikontome00etymuoft_201708, n182) ; Hsch. (Schmidt, éd. minor, col. 589, image : ia:bub_gb_R-zVabafOucC, n315)",
+  "verification": "Cunningham, Synagoge (2003), p. 223, n° 682, avec renvois et apparat (image : Synagoge.pdf, p. 229) ; Sud. ε 2375 (corpus) ; EM 360.21 (image : ia:etymologikontome00etymuoft_201708, n182) ; Hsch. (Schmidt, éd. minor, col. 589, image : ia:bub_gb_R-zVabafOucC, n315) ; Phot. ε 1580 (Theodoridis II, 1998, p. 151, avec testimonia ; Drive : Photius/II E-M avec couv ROC gimagereader.pdf, page PDF 269, image lue)",
   "signale_par": "testimonia de l’auteur (v. 336 : Phot. ε 1580 = Synag. ε 682 = Sud. ε 2375 = EM 360.21 = Et. Gen. ; cf. Hsch. ε 4853)",
   "pertinence": 3,
-  "remarque": "rangé par l’auteur parmi les testimonia : glose du mot sous la forme même du vers ; idem Sud. ε 2375 (+ ἢ φιλίαν σπένδει, la glose de R au v. 336), EM 360.21 (διὰ κήρυκος τινὸς … ποιεῖται· καὶ ἐπικηρυκεία, ἡ ἐκ τῶν πολεμίων φιλία· ἢ τὸ περὶ φιλίας καὶ διαλλαγῶν κήρυκας πέμπειν· τὸ διὰ κήρυκος εἰς φιλίαν ἐλθεῖν ἐχθροὺς ὄντας) ; Phot. ε 1580 et Et. Gen. selon Cunningham (non lus) ; apparat de Cunningham : τινος om. Cyr. | ἢ πρεσβείας om. ACD ; cf. Synag. ε 683 (ἐπικηρυκεία· φιλία ἡ ἐκ τῶν πολεμίων) ; Hsch. ε 4853 (ἐπικηρυκεύεται· προκηρύσσεται), que Latte rapporte à Thuc. 7.83.2, M. Schmidt (éd. minor, col. 589) à « Ar. Thesm. 336 » (glose citée au v. 336–337 de paralleles_337-358.json)"
+  "remarque": "rangé par l’auteur parmi les testimonia : glose du mot sous la forme même du vers ; idem Sud. ε 2375 (+ ἢ φιλίαν σπένδει, la glose de R au v. 336), EM 360.21 (διὰ κήρυκος τινὸς … ποιεῖται· καὶ ἐπικηρυκεία, ἡ ἐκ τῶν πολεμίων φιλία· ἢ τὸ περὶ φιλίας καὶ διαλλαγῶν κήρυκας πέμπειν· τὸ διὰ κήρυκος εἰς φιλίαν ἐλθεῖν ἐχθροὺς ὄντας) ; Phot. ε 1580 (ἐπικηρυκεύεται· διὰ κήρυκός τινος συνθήκας τινὰς ἢ πρεσβείας ποιεῖται : texte identique) ; Et. Gen. B (non lu) d’après Theodoridis (test. à Phot. ε 1580 : διὰ κήρυκός τινος συνθήκας ποιεῖται, « hinc EM 360, 21, quod etiam verba τινὰς ἢ πρεσβείας servavit » ; = Ba. 230, 5 ; cf. sch. Thuc. 2.64.6 etc., Poll. 4.93, 8.138, Hsch. ε 4853) ; apparat de Cunningham : τινος om. Cyr. | ἢ πρεσβείας om. ACD ; cf. Synag. ε 683 (ἐπικηρυκεία· φιλία ἡ ἐκ τῶν πολεμίων) ; Hsch. ε 4853 (ἐπικηρυκεύεται· προκηρύσσεται), que Latte rapporte à Thuc. 7.83.2, M. Schmidt (éd. minor, col. 589) à « Ar. Thesm. 336 » (glose citée au v. 336–337 de paralleles_337-358.json)"
  },
  {
   "v": "336",
