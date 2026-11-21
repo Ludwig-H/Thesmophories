@@ -42,6 +42,7 @@ EXCLUS = re.compile(r"/Articles/|Grec - commentaire - traduction - apparat/")
 REGLES = [
     (r"Lexiques/Hesychius/Hesychius Latte-Cuningham complet", None, ""),  # couche texte brouillée
     (r"Lexiques/Hesychius/Latte_I_alpha-delta", "lexiques", "Hsch. (Latte) I", "hesychius:I"),
+    (r"Lexiques/Hesychius/01 Latte Alpha - Delta", "lexiques", "Hsch. (Latte) I", "hesychius:I"),
     (r"Lexiques/Hesychius/Hesychii Alexandrini Lexicon, Volumen II", "lexiques", "Hsch. (Latte) II", "hesychius:II"),
     (r"Lexiques/Hesychius/Hansen_III_pi-sigma", "lexiques", "Hsch. (Hansen) III", "hesychius:III"),
     (r"Lexiques/Hesychius/03 Latte Pi - Sigma", "lexiques", "Hsch. (Hansen) III", "hesychius:III"),
@@ -142,7 +143,9 @@ def main():
     for dp, _, fn in os.walk(racine):
         for f in fn:
             presents.append(os.path.relpath(os.path.join(dp, f), racine))
-    presents.sort()
+    # les fichiers reconnus par une règle d'abord : entre doublons exacts (même MD5), c'est leur
+    # exemplaire qui est gardé (sinon une copie au nom du Drive, classée « études », l'évincerait)
+    presents.sort(key=lambda c: (regle_de(c) is None, c))
     empreintes = {}
     for l in lignes:
         if l[4] == "oui":
