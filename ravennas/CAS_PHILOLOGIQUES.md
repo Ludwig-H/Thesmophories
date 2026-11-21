@@ -43,5 +43,15 @@ Les notices sont rangées par page, dans `ravennas/cas/fXXX.md` ; la première, 
 <!-- index : début -->
 | Vers | Page | Cas | Notice |
 |---|---|---|---|
+| v. 45 | f163r | f. 163r, l. 5 : λέγεισ R^a.c. → λέγει (σ gratté) ; λέγεις Juntine | [`cas/f163r.md`](cas/f163r.md) |
+| v. 426 | f167v | f. 167v, l. 4 : ὦ κότριψ᾽ R (crase de ὁ οἰκότριψ) | [`cas/f167v.md`](cas/f167v.md) |
+| v. 427 | f167v | f. 167v, l. 5 : θριπήδεστα R ~ θριπηδέστατ(α) Su. | [`cas/f167v.md`](cas/f167v.md) |
+| v. 428 | f167v | f. 167v, l. 6 : τοῦτο R^a.c. → τούτω R^p.c. | [`cas/f167v.md`](cas/f167v.md) |
+| v. 430 | f167v | f. 167v, l. 8 : μίᾶι γέτω R (double accent) ~ μίᾳ γέ τῃ Iunt. | [`cas/f167v.md`](cas/f167v.md) |
+| v. 433 | f167v | f. 167v, l. 11 : οὔπω τε R^a.c. → οὐπώποτε R² | [`cas/f167v.md`](cas/f167v.md) |
+| v. 437 | f167v | f. 167v, l. 14 : εἰδέας R ~ ἰδέας Su. | [`cas/f167v.md`](cas/f167v.md) |
+| v. 443 | f167v | f. 167v, l. 21 : ὀλίγον R^a.c. → ὀλίγων R^XVI ; ἑτέρα γυνή ; ἕνεκ᾽ αὐτῆ | [`cas/f167v.md`](cas/f167v.md) |
+| v. 456 | f167v | f. 167v, l. 34 : ἀγρίοισι λαχάνοις (τοῖς om. R) ; αὐτοστραφεὶς R | [`cas/f167v.md`](cas/f167v.md) |
+| v. 458 | f167v | f. 167v, l. 36 : σὐνθηματιαίους (σ de R³ sur un οὐν- de T) | [`cas/f167v.md`](cas/f167v.md) |
 | v. 489 | f168r | f. 168r, l. 24 : κυνδ᾽ R^a.c. → κύβδ᾽ R^p.c. | [`cas/f168r.md`](cas/f168r.md) |
 <!-- index : fin -->

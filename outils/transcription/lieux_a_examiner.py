@@ -81,7 +81,10 @@ def folio_de(v, bornes):
 
 
 def transcription(folio):
-    """{vers: (texte de la ligne, interventions)} d'après le fichier final, sinon les brouillons A puis B."""
+    """{vers: (texte des lignes, interventions)} d'après le fichier final, sinon les brouillons A puis B.
+    Une ligne sans attribut v continue le vers de la ligne précédente (vers réparti sur plusieurs
+    lignes de R, ainsi le v. 45 : γλαυκόν | βομβάξ | σίγα τί λέγει) : son texte et ses interventions
+    sont rattachés à ce vers."""
     res = {}
     for p in (f'ravennas/transcription/{folio}.xml', f'ravennas/transcription/brouillons/{folio}_A.xml',
               f'ravennas/transcription/brouillons/{folio}_B.xml'):
@@ -92,17 +95,28 @@ def transcription(folio):
             r = lire(p)
         except Exception:
             continue
+        du_fichier = {}
+        courants = []
         for l in r.iter('l'):
-            for v in (l.get('v') or '').split(','):
-                v = v.strip()
-                if not v or v in res:
-                    continue
-                inter = []
-                for el in l.iter():
-                    if el.tag in ('subst', 'del', 'ras', 'add', 'corr'):
-                        txt = ''.join(el.itertext()).strip()
-                        inter.append(f"{el.tag}[{el.get('main') or ''}{(' ' + el.get('type')) if el.get('type') else ''}]:{txt}")
-                res[v] = (f"l. {l.get('n')} ({os.path.basename(p)}) " + ' '.join(''.join(l.itertext()).split()), inter)
+            vs = [v.strip() for v in (l.get('v') or '').split(',') if v.strip()]
+            if vs:
+                courants = vs
+            elif not courants:
+                continue
+            inter = []
+            for el in l.iter():
+                if el.tag in ('subst', 'del', 'ras', 'add', 'corr'):
+                    txt = ''.join(el.itertext()).strip()
+                    inter.append(f"{el.tag}[{el.get('main') or ''}{(' ' + el.get('type')) if el.get('type') else ''}]:{txt}")
+            texte = ' '.join(''.join(l.itertext()).split())
+            for v in courants:
+                if v in du_fichier:
+                    t0, i0 = du_fichier[v]
+                    du_fichier[v] = (f"{t0} | l. {l.get('n')} {texte}", i0 + inter)
+                else:
+                    du_fichier[v] = (f"l. {l.get('n')} ({os.path.basename(p)}) {texte}", inter)
+        for v, val in du_fichier.items():
+            res.setdefault(v, val)
     return res
 
 
