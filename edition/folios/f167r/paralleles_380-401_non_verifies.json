@@ -1,1 +1,44 @@
-[]
+[
+ {
+  "v": "394",
+  "lemme": "τὰς μέγ᾽ ἀνδράσιν κακόν",
+  "ref": "Men. Monost. 398 Jäkel",
+  "source": "Tosi, Dictionnaire, n° 284 (« une sentence très similaire … dans les Monostiques de Ménandre (398 J.) »)",
+  "raison": "édition Jäkel des Monostiques absente du disque local ; texte non contrôlé."
+ },
+ {
+  "v": "394",
+  "lemme": "τὰς μέγ᾽ ἀνδράσιν κακόν",
+  "ref": "Strab. 4.2.26 (?)",
+  "source": "Tosi, Dictionnaire, n° 284 (« chez Strabon (4, 2, 26) »)",
+  "raison": "référence fautive en l’état (Strabon 4.2 n’a que trois paragraphes) ; passage non retrouvé dans le corpus (NEAR(αναγκαιον κακον))."
+ },
+ {
+  "v": "394",
+  "lemme": "τὰς μέγ᾽ ἀνδράσιν κακόν",
+  "ref": "Stob. 4.22b.30 ; Arsen. 1.57a",
+  "source": "Tosi, Dictionnaire, n° 284 (témoins gnomologiques et parémiographiques de Philem. fr. 165 K.-A.)",
+  "raison": "non contrôlés séparément sur Hense et sur Leutsch ; Philem. fr. 165 K.-A. est déjà cité d’après PCG."
+ },
+ {
+  "v": "394",
+  "lemme": "τὰς μέγ᾽ ἀνδράσιν κακόν",
+  "ref": "[Ael. Lampr.] SHA Alex. Sev. 46.5 (malum necessarium)",
+  "source": "Tosi, Dictionnaire, n° 284",
+  "raison": "Histoire Auguste absente du corpus latin local ; non vérifié."
+ },
+ {
+  "v": "400–401",
+  "lemme": "ξυμπλέκῃ / γυνὴ στέφανον",
+  "ref": "Sapph. fr. 125 Voigt (= 70 Reinach–Puech)",
+  "source": "commentaire de l’auteur (note aux vv. 400–401) ; Dict. des images du poétique, p. 442 (« fr. 125 »)",
+  "raison": "le fragment est cité d’après Bergk⁴ (fr. 73), vérifié ; la numérotation de Voigt et de Reinach–Puech n’a pas été contrôlée sur ces éditions (absentes du disque local)."
+ },
+ {
+  "v": "399",
+  "lemme": "ἔξεστι",
+  "ref": "A. Eu. 890 ; S. OT 817 ; E. Andr. 573 ; Th. 3.83.4 ; Pl. Smp. 213d",
+  "source": "Austin–Olson 2004, p. 180 (premières attestations de ἔξεστι)",
+  "raison": "simples attestations lexicales du verbe, sans rapport de sens avec le vers ; non retenues (non contrôlées une à une)."
+ }
+]

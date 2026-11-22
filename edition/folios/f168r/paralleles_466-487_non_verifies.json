@@ -1,1 +1,79 @@
-[]
+[
+ {
+  "v": "469",
+  "lemme": "οὕτως ὀναίμην τῶν τέκνων",
+  "ref": "Synes. Ep. 44",
+  "signale_par": "Rogers 1904, p. 53",
+  "raison": "Synésios absent du corpus local ; non contrôlé"
+ },
+ {
+  "v": "469",
+  "lemme": "οὕτως ὀναίμην",
+  "ref": "Aristaenet. 2.13",
+  "signale_par": "LSJ s.v. οὕτως",
+  "raison": "Aristénète absent du corpus local"
+ },
+ {
+  "v": "469",
+  "lemme": "οὕτως ὀναίμην",
+  "ref": "Men. Epitr. 264-267 (= 530 Koerte, LSJ) ; Dysk. 299-300 ; Pk. 400 ; Sik. 224",
+  "signale_par": "Austin–Olson 2004 ; LSJ s.v. οὕτως",
+  "raison": "comédies de Ménandre (papyrus) absentes du corpus local"
+ },
+ {
+  "v": "469",
+  "lemme": "οὕτως ὀναίμην τῶν τέκνων",
+  "ref": "Herod. 5.69-71 ; 3.1-2 ; 7.25 ; 7.34-35",
+  "signale_par": "Austin–Olson 2004 ; LSJ ; Nairn 1904 ; Kassel–Austin ad Philem. fr. 143",
+  "raison": "texte d'Hérondas seulement en OCR illisible (crusius1898) ou partiel (Nairn 1904) ; page non contrôlée sur l'image"
+ },
+ {
+  "v": "469",
+  "lemme": "οὕτως ὀναίμην",
+  "ref": "Ter. Haut. 686-687 (ita me di ament ut ego nunc … laetor)",
+  "signale_par": "Austin–Olson 2004",
+  "raison": "Heautontimoroumenos absent des textes latins locaux (Perseus : Andria, Eunuchus, Phormio, Hecyra seulement)"
+ },
+ {
+  "v": "469",
+  "lemme": "οὕτως ὀναίμην",
+  "ref": "[Dem.] « p. 1442 » (ἐγὼ γοῦν, οὕτω τί μοι ἀγαθὸν γένοιτο)",
+  "signale_par": "Blaydes 1880, p. 180",
+  "raison": "référence Reiske non identifiée dans le corpus"
+ },
+ {
+  "v": "469",
+  "lemme": "ὀναίμην",
+  "ref": "Simonid. fr. 129 (οἱ δ᾽ ὑπὸ γᾶν θέντες ὄναιντο βίου)",
+  "signale_par": "Blaydes 1880, p. 180",
+  "raison": "numérotation ancienne non identifiée ; non retrouvé dans le corpus"
+ },
+ {
+  "v": "472",
+  "lemme": "αὐταὶ γάρ ἐσμεν",
+  "ref": "Herod. 6.70 (αὐταὶ γάρ εἰμεν)",
+  "signale_par": "Rogers 1904, p. 53 ; Austin–Olson 2004 ; Nairn 1904",
+  "raison": "texte d'Hérondas non disponible en édition lisible dans le corpus ; non contrôlé sur l'image"
+ },
+ {
+  "v": "472",
+  "lemme": "κοὐδεμί᾽ ἔκφορος λόγου",
+  "ref": "Eust. ad Od. p. 1788, 2 (ἐκφέρει δέ τις καὶ μυστήριον, ὅπερ ἐχρῆν εἶναι ἀνέκφορον)",
+  "signale_par": "Kassel–Austin ad Cratin. fr. 305",
+  "raison": "passage non retrouvé dans l'OCR de Stallbaum"
+ },
+ {
+  "v": "472",
+  "lemme": "κοὐδεμί᾽ ἔκφορος λόγου",
+  "ref": "Cic. De or. 1.111 (?)",
+  "signale_par": "Blaydes 1880, p. 180",
+  "raison": "référence latine illisible dans l'OCR de Blaydes ; texte non contrôlé"
+ },
+ {
+  "v": "474–475",
+  "lemme": "δύ᾽ … ἢ τρία … μυρία (minimiser les griefs de l adversaire)",
+  "ref": "[Arist.] Rh. Al. 1439a5",
+  "signale_par": "Austin–Olson 2004",
+  "raison": "Rhetorica ad Alexandrum absente du corpus local"
+ }
+]

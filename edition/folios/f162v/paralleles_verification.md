@@ -1,9 +1,9 @@
 # f162v (vv. 1–42) — vérification des *loci paralleli*
 
-Contrôle exhaustif du registre `edition/folios/f162v/paralleles.tex` (21 nov. 2026). Chaque parallèle
-(entrée principale, témoin fusionné « idem », entrée reprise dans une note) a été retrouvé dans sa
-source : (1) référence (auteur, œuvre, livre, vers ou section, numéro d'article), (2) texte grec cité,
-(3) pertinence pour le lemme.
+Contrôle exhaustif du registre `edition/folios/f162v/paralleles.tex` (vv. 1–39 le 21 nov. 2026,
+vv. 40–42 le 22 nov. ; bilan en fin de document). Chaque parallèle (entrée principale, témoin fusionné
+« idem », entrée reprise dans une note) a été retrouvé dans sa source : (1) référence (auteur, œuvre,
+livre, vers ou section, numéro d'article), (2) texte grec cité, (3) pertinence pour le lemme.
 
 ## Méthode
 
@@ -292,3 +292,83 @@ décret) : parallèles faibles mais fondés, gardés. Corrections :
 - **Eur. *Hec.* 530–533** (référence) → 531–533.
 - **Call. *Ap.* 17** (citation) : ἀοιδῇ → ἀοιδῆι (iota adscrit de l'édition source, Wilamowitz ;
   de même Pfeiffer).
+
+### vv. 40–42 (10 articles ; 67 parallèles + 1 témoin fusionné)
+
+Contrôle du 22 nov. 2026 (reprise après l'interruption du 21 nov.). Tout retrouvé. Contrôles
+notables : *Test.* Suid. θ 378 (Adler II, p. 718, image : la Souda cite les vv. 40–42 depuis
+ἐπιδημεῖ γάρ, sans variante) ; Eur. *Hipp.* 498, *Phoen.* 865, *Hec.* 664, Soph. *OC* 1051–1053 ;
+Ar. fr. 407 K.-A. (= 390 Kock ; PCG III.2, p. 223, où K.-A. rapprochent eux-mêmes Pi. *P.* 4.5) ;
+Call. *Ap.* 12–13 ; Pl. *Prt.* 309d, 318b, 326a (jalons de Stephanus) ; X. *Mem.* 1.2.61 ;
+Th. 1.136.3 ; D. 18.260, 33.25 ; Luc. *Symp.* 7 ; [Plu.] *De mus.* 2 (1131e) ; Ael. fr. 11 Hercher
+(= Philem. test. 6 K.-A., PCG VII) ; Σ *Thesm.* 41 (Dübner, p. 264) ; Hsch. ε 2777, ε 4722, θ 572–573,
+μ 623, μ 1742, π 2891 (Latte–Cunningham et Hansen, images) ; Zen. 1.89 et Diogenian. 6.50 (CPG I,
+p. 29 et 277, images) ; les tragiques pour θίασος, μέλαθρα et δεσπόσυνος (TEI Perseus) ; Ar. *Thesm.*
+67 et 874 (numérotation usuelle d'après `edition/donnees/concordance_vers.tsv`). La plupart de ces
+rapprochements viennent de la note d'Austin–Olson ad 39–42 (p. 66–67), relue sur leur texte.
+Corrections (13 ; journal `.travail/f162v_lp_verif/c_v40_42.json`) :
+
+- **Phot. p. 145 Porson** (référence, citation) → Phot. κ 762, numéro de Theodoridis (II, p. 410,
+  image), que donnent aussi Austin–Olson ad 40 ; texte de Theodoridis : κλῆισαι οἱ ἀρχαῖοι λέγουσιν,
+  οὐ κλεῖσαι· καὶ κλῆιδα· … La citation reprenait Porson (p. 145, image) sans son astérisque après
+  λέγουσιν ; les autres articles de Photius du registre suivent déjà Theodoridis.
+- **Ar. fr. 348 K.-A.** (citation) : ἐς χορὸν, comme l'impriment Kassel–Austin (PCG III.2, p. 198,
+  image ; var. lect. ἐς/εἰς chez Héphestion et Chéroboscos), et non εἰς (texte de Consbruch).
+- **Zen. 2.70** (citation) : παῤῥησιάζεσθαι, graphie de CPG I, p. 51 (image), comme ἀῤῥένων en
+  Zen. 4.27 dans le même registre.
+- **Suid. θ 379–380**, témoin fusionné avec Σ *Thesm.* 41 (citation) : le micro-apparat ne disait pas
+  que θ 379 omet l'article (Θίασος: ἱερὸς χορός, Adler II, p. 718) ; θ 380, glose distincte (venue
+  d'Harpocration selon Adler), n'est pas une variante de la scholie : elle est désormais citée à part
+  (Suid. θ 380 Θίασος: τὸ ἀθροιζόμενον πλῆθος …).
+- **Suid. θ 381** (citation) : οἱ Κλεισθέναι καὶ Τίμαρχοι (Adler II, p. 718, image ; de même κ 2171 et
+  Bekker), et non Κλεισθένεις (Gaisford).
+- **Σ Ar. *Ran.* 93** (citation) : coupe des deux vers d'Euripide (*Alcmène*) rétablie, εὐφυὴς κλάδος, /
+  χελιδόνων μουσεῖον (Dübner, p. 277, image).
+- **Zen. 4.27** (citation) : lemme du proverbe rétabli en tête (Θάμυρις μαίνεται: … Ὁ Θάμυρις …) ;
+  texte conforme à CPG I, p. 91 (image : κιθαρῳδίαν ; le TEI de First1KGreek porte la coquille
+  χιθαρῳδίαν).
+- **Pl. *Ion* 533e–534b** (référence) → 534a–b : le jalon 534a précède οὐκ ἔμφρονες ὄντες ὀρχοῦνται,
+  et rien de 533e n'est cité ; ἐκ Μουσῶν κήπων … φέρουσιν est en 534b.
+- **Anaxandr. fr. 41.33 Kock (= 42.33 K.-A.)** (référence, citation) → fr. 42.32–34 K.-A. (= 41 Kock) :
+  même numérotation des lignes dans PCG II, p. 262 et chez Kock II, p. 152 (images) ; la citation
+  couvre les vv. 32–34 (δεσποσύνοις au v. 33) ; coupe des dimètres rétablie : τούτων δ᾽ ἔσται πολὺ
+  σεμνότερον / καὶ λαμπρότερον παρὰ δεσποσύνοις / τοῖς ἡμετέροις.
+- **Eur. *Hec.* 1293–1294** (pertinence) → 1293–1295 : la citation s'arrêtait avant μόχθων, dont τῶν
+  δεσποσύνων est l'épithète, et faisait croire à un emploi substantivé ; l'hyperbate de fin de vers est
+  justement celle de *Thesm.* 41–42.
+- ***h.Cer.* 144** (pertinence, référence) → 143–144 καί κε λέχος στορέσαιμι μυχῷ θαλάμων εὐπήκτων /
+  δεσπόσυνον : l'adjectif qualifie λέχος (LSJ s.v. δεσπόσυνος : « λέχος h.Cer. 144 ») ; la suite citée
+  (καί κ᾽ ἔργα διδασκήσαιμι γυναῖκας) était sans rapport avec le lemme.
+- **Tyrt. fr. 6.2 Bergk** (citation) : ἀναγκαίης ὕπο λυγρῆς (anastrophe ; PLG⁴ II, p. 12, image), et
+  non ὑπὸ, texte de Pausanias 4.14.5 (Perseus).
+- **Tim. *Pers.* 136 (= PMG 791.125)** (référence, citation) → 135–136 (= PMG 791.124–125) : Ματρὸς
+  οὐρείας = 791.124, δεσπόσυνα γόνατα πεσεῖν = 791.125 (Page, p. 409, image) ; chez Wilamowitz 1903
+  (archive.org `timotheosdiepers0000uvwi`) οὐρεί-|ας chevauche 135–136 (index : οὐρείας 135, γόνατα
+  136) ; barre placée selon la colométrie de Page.
+
+Pertinence : rien à supprimer. Parallèles faibles mais gardés, au rang P1 ou P2 qu'ils occupent :
+Hsch. ε 2777 (ἐνδημία, glose tirée de Grégoire de Nazianze), Diogenian. 6.50 et Zen. 4.27 (proverbes
+sur les Muses), Hes. *Th.* 22–23, Hsch. π 2891 (μελοποιός substantif, alors que μελοποιῶν est ici un
+participe : Austin–Olson ad 42).
+
+Hors registre, à signaler : le commentaire (`commentaire.tex`, vv. 41–42) renvoie au « *Phaéton*,
+v. 796 » pour ἀσπιδοφέρμονα θίασον ; c'est Eur. *Phén.* 796 (le registre a la bonne référence). Pistes
+relevées mais non vérifiées, donc non ajoutées : pour δεσπόσυνος, Austin–Olson ad 42 citent aussi
+Ar. fr. 734 K.-A. et Eur. *Phaéth.* 88 ; pour Phot. κ 762, Theodoridis renvoie à Suid. κ 1772 + 1775 et
+Ael. Dion. κ 29.
+
+## Bilan
+
+- **Contrôlés** : tout le registre, soit 149 articles, 929 parallèles, 86 témoins fusionnés (« idem »)
+  et 3 entrées reprises dans une note (vv. 1–39 le 21 nov. 2026, vv. 40–42 le 22 nov.). Le registre
+  compte désormais 930 parallèles et 85 témoins fusionnés (Suid. θ 380 cité à part, v. 41).
+- **Introuvables** : aucun ; **suppressions** : aucune.
+- **Corrections** : 70 (57 pour les vv. 1–39, 13 pour les vv. 40–42), dont 47 portent sur la référence
+  (vers, section de Stephanus ou de Bekker, numérotation d'édition — Kock → Kassel–Austin, Porson →
+  Theodoridis, Macleod → numérotation usuelle —, artefacts de Perseus comme « 345a »), 33 sur le
+  grec cité (texte d'une autre édition que celle de la référence, coupe des vers, iota adscrit,
+  coquilles du TEI, micro-apparat incomplet) et 2 sur la pertinence (citation tronquée avant le nom
+  que l'adjectif qualifie) ; plusieurs touchent à la fois la référence et la citation.
+- Toutes les corrections sont portées dans `paralleles.tex` et journalisées dans
+  `.travail/f162v_lp_verif/corrections.json` ; voir l'avertissement de la section « Méthode » sur
+  la régénération par `rediger.py`.

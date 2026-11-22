@@ -1,1 +1,72 @@
-[]
+[
+ {
+  "v": "405",
+  "lemme": "κάμνει κόρη τις, εὐθὺς ἁδελφὸς λέγει",
+  "ref": "Men. Dysc. 58–59",
+  "signale_par": "Austin–Olson 2004, p. 182",
+  "raison": "pièce papyrologique de Ménandre absente du corpus local et du Drive (pas de texte ni de scan accessible)"
+ },
+ {
+  "v": "405",
+  "lemme": "κάμνει κόρη τις, εὐθὺς ἁδελφὸς λέγει",
+  "ref": "Anaxandr. fr. 35.4–8 K.-A.",
+  "signale_par": "Austin–Olson 2004, p. 182",
+  "raison": "fragment non localisé dans PCG II (OCR médiocre) ni dans Athénée par recherche plein texte ; à contrôler sur PCG II"
+ },
+ {
+  "v": "407-408",
+  "lemme": "ἀποροῦσα παίδων",
+  "ref": "Men. Dysc. 842–843 ; Men. Pc. 1013–1014",
+  "signale_par": "Austin–Olson 2004, p. 182 (mariage « pour la procréation d'enfants légitimes »)",
+  "raison": "pièces papyrologiques de Ménandre non disponibles localement"
+ },
+ {
+  "v": "410-412",
+  "lemme": "γέροντας … γαμεῖν",
+  "ref": "Men. Asp. 257–259",
+  "signale_par": "Austin–Olson 2004, p. 183",
+  "raison": "Aspis non disponible localement"
+ },
+ {
+  "v": "410",
+  "lemme": "μείρακας",
+  "ref": "Ael. Dion. μ 12 Erbse",
+  "signale_par": "Fischer ad Phryn. Ecl. 183 ; Kassel–Austin ad Cratin. fr. 60",
+  "raison": "édition d'Erbse présente sur le Drive mais sans couche texte exploitable ; page non retrouvée"
+ },
+ {
+  "v": "413",
+  "lemme": "δέσποινα γὰρ γέροντι νυμφίῳ γυνή",
+  "ref": "Men. Monost. 191 Jäkel (γαμοῦντι pour γέροντι)",
+  "signale_par": "Austin–Olson 2004, p. 183 ; Tosi n° 326",
+  "raison": "édition de Jäkel absente ; non retrouvé dans les Sententiae de First1K ni dans l'édition espagnole du Drive (recherche plein texte)"
+ },
+ {
+  "v": "413",
+  "lemme": "γέροντι νυμφίῳ",
+  "ref": "Men. Monost. 146 Jäkel (γέρων ἐραστὴς ἐσχάτη κακὴ τύχη)",
+  "signale_par": "Tosi n° 326",
+  "raison": "édition de Jäkel absente ; seulement cité par Tosi"
+ },
+ {
+  "v": "415",
+  "lemme": "σφραγῖδας ἐπιβάλλουσιν",
+  "ref": "Men. Asp. 357–358 (περίεισι κλειδία / ἔχων, ἐπιβάλλων ταῖς θύραις σημεῖ᾽)",
+  "signale_par": "Austin–Olson 2004, p. 184 et 186",
+  "raison": "Aspis non disponible localement ; à vérifier sur une édition (Sandbach, Arnott) — parallèle de premier plan pour 415 et 421"
+ },
+ {
+  "v": "415",
+  "lemme": "σφραγῖδας",
+  "ref": "Com. adesp. fr. 1084.34 K.-A.",
+  "signale_par": "Austin–Olson 2004, p. 184",
+  "raison": "PCG VIII absent du Drive"
+ },
+ {
+  "v": "415",
+  "lemme": "σφραγῖδας",
+  "ref": "IG I³ 52 A 17–18 (συγκλειόντον τὰς θύρας … καὶ συσσεμαινόσθον)",
+  "signale_par": "Austin–Olson 2004, p. 184",
+  "raison": "inscription : pas de corpus épigraphique local"
+ }
+]
