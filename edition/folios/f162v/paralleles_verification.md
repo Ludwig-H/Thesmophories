@@ -274,3 +274,21 @@ Tout retrouvé. Contrôles notables : Pherecr. fr. 155.10–12 K.-A. (PCG VII p.
 que LSJ cite comme 909 : référence gardée) ; Pl. *Cra.* 401d, *Ion* 531d, *Smp.* 205b–c. Correction :
 
 - **Hes. *Th.* 99–100** (référence) → 100.
+
+### v. 39 (8 articles ; 38 parallèles + 3 témoins fusionnés)
+
+Contrôles notables : Suid. ε 3792 (Adler II, p. 477, image : texte exact, λεώς) ; Hsch. ε 7264 et
+λ 792 (Latte, images) ; Σ Eur. *Hec.* 532 (Dindorf 1863) ; Σ *Thesm.* 39 (Dübner) ; Mesom.
+*Hymn. Sol.* 1, 5–6 sur Jan, *Musici scriptores Graeci*, p. 462 (image : Jan imprime « 5 » en
+regard de ἦχοι, mais ses n°s 7–8 suivants confirment la numération usuelle, μέλλει = 5) ; Hor.
+*Carm.* 3.1.1–4 et Tosi n° 2083 (« Favete linguis! ») ; Aesch. *Eum.* 1035 (Perseus saute 1034).
+*Vesp.* 323–324 et *Pax* 974–975 (prières en dimètres anapestiques) et *Eccl.* 1019 (ἔστω de
+décret) : parallèles faibles mais fondés, gardés. Corrections :
+
+- **Ar. *Ach.* 395–400** (référence) → 396–400 (le v. 395 n'est pas cité).
+- **Eur. fr. 773.43–73 N.²** (référence) → 773.44–75 (Nauck, TGF², p. 603–604, image : κόσμον =
+  44, ἔχειν χρὴ / στόμ᾽ = 61–62, Ὠκεανοῦ … λαοί = 66–69, ἀλλὰ σῖγ᾽ ἔστω λεώς = 75) ; (citation)
+  barre rétablie entre Ὠκεανοῦ πεδίων οἰκήτορες, / εὐφαμεῖτ᾽, ὦ (deux vers).
+- **Eur. *Hec.* 530–533** (référence) → 531–533.
+- **Call. *Ap.* 17** (citation) : ἀοιδῇ → ἀοιδῆι (iota adscrit de l'édition source, Wilamowitz ;
+  de même Pfeiffer).

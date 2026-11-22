@@ -44,6 +44,7 @@ Les notices sont rangées par page, dans `ravennas/cas/fXXX.md` ; la première, 
 | Vers | Page | Cas | Notice |
 |---|---|---|---|
 | v. 45 | f163r | f. 163r, l. 5 : λέγεισ R^a.c. → λέγει (σ gratté) ; λέγεις Juntine | [`cas/f163r.md`](cas/f163r.md) |
+| vv. 48–52 | f163r | f. 163r, l. 9–15 : sigles de S2 lus par M (vers 1505), imprimés par la Juntine, effacés depuis | [`cas/f163r.md`](cas/f163r.md) |
 | v. 426 | f167v | f. 167v, l. 4 : ὦ κότριψ᾽ R (crase de ὁ οἰκότριψ) | [`cas/f167v.md`](cas/f167v.md) |
 | v. 427 | f167v | f. 167v, l. 5 : θριπήδεστα R ~ θριπηδέστατ(α) Su. | [`cas/f167v.md`](cas/f167v.md) |
 | v. 428 | f167v | f. 167v, l. 6 : τοῦτο R^a.c. → τούτω R^p.c. | [`cas/f167v.md`](cas/f167v.md) |
